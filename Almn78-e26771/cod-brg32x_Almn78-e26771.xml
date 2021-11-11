@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 54</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 54</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="570"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e26771"><!-- p2t11q54 -->
+            <head xml:id="Almn78-e26771-Hd1e106">Quaestio 54</head>
+            <head xml:id="Almn78-e26771-Hd1e109" type="question-title">
+      De numero coelorum
+    </head>
+            <p xml:id="Almn78-e26771-d1e112">
+               <pb ed="#Bb" n="570"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO LIV.
+      <lb ed="#Bb"/>De numero coelorum
+    </p>
+            <p xml:id="Almn78-e26771-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde ratione ejus quod dicitur in
+      <lb ed="#Bb"/>Psalmo cxtiu, 6: Laudate eum, scilicet
+      <lb ed="#Bb"/>Deum, celi celorum: querendum est
+      <lb ed="#Bb"/>de numero celorum.
+    </p>
+            <p xml:id="Almn78-e26771-d1e136">
+               <lb ed="#Bb"/>Et jam quidem satis habitum est de
+      <lb ed="#Bb"/>numero quem ponit Damascenus in
+      <lb ed="#Bb"/>libro U de Fide orthodoxa *, Sic enim
+      <lb ed="#Bb"/>decem sunt cceli, scilicet empyreum,
+      <lb ed="#Bb"/>aqueum, stellarum, Saturni, Jovis, 
+      Mar<lb ed="#Bb" break="no"/>tis, Solis, Veneris, Mercurii, Lune : de
+      <lb ed="#Bb"/>quibus jam satis habitum est. Et est 
+      di<lb ed="#Bb" break="no"/>ctum quare aliquod istorum est totum
+      <lb ed="#Bb"/>luminosum, aliquod totum perspicuum,
+      <lb ed="#Bb"/>aliquod stellatum mulltis stellis, et alii
+      <lb ed="#Bb"/>septem quodlibet non habet nisi unam :
+      <lb ed="#Bb"/>horum enim omnium cause jam in 
+      pre<lb ed="#Bb" break="no"/>habitis dicta sunt.
+    </p>
+            <p xml:id="Almn78-e26771-d1e168">
+               <lb ed="#Bb"/>Sed querendum est de eo quod 
+      dici<lb ed="#Bb" break="no"/>tur, Deuter. x, 14: En Domini Dei tui
+      <lb ed="#Bb"/>celum est, et celum celi, et terra, et
+      <lb ed="#Bb"/>omnia que in ea sunt. Ubi dicit 
+      Raba<lb ed="#Bb" break="no"/>nus in Glossa: <quote xml:id="Almn78-e26771-Qd1e181"> Quidam enim dicunt
+        <lb ed="#Bb"/>tres esse ccelos, scilicet aereum, 
+        xthe<lb ed="#Bb" break="no"/>reum, et siderum: nonnulli septem,
+        <lb ed="#Bb"/>primum aereum, secundum ethereum,
+        <lb ed="#Bb"/>tertium olympium, quartum igneum,
+        <lb ed="#Bb"/>quintum firmamentum, sextum aqueum,
+        <lb ed="#Bb"/>septimum Angelorum.</quote>
+            </p>
+            <p xml:id="Almn78-e26771-d1e198">
+               <lb ed="#Bb"/>Et queritur, Penes quid sumatur ista
+      <lb ed="#Bb"/>divisio ?
+    </p>
+            <p xml:id="Almn78-e26771-d1e205">
+               <lb ed="#Bb"/>Solutio. Dicendum secundum <name xml:id="Almn78-e26771-Nd1e209">
+        Raba<lb ed="#Bb" break="no"/>num</name> quod ad esse ceeli duo exiguntur,
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>scilicet quod ubique circulariter aliquod
+      <lb ed="#Bb"/>corporum simplicium contineat, et quod
+      <lb ed="#Bb"/>sit perspicuum, receptivum luminis, et
+      <lb ed="#Bb"/>dativum : et ideo quia duo elementa 
+      in<lb ed="#Bb" break="no"/>feriora, aqua scilicel et terra, non 
+      conti<lb ed="#Bb" break="no"/>nent aliquod simplicium corporum : nec
+      <lb ed="#Bb"/>sunt luminis recepiiva nec dativa. Ideo
+      <lb ed="#Bb"/>secundum Rabanum, nec est ceelum 
+      ele<lb ed="#Bb" break="no"/>menti aque, nec ceelum terre. Sed erunt
+      <lb ed="#Bb"/>tot ceeli, quot modis contingit 
+      multipli<lb ed="#Bb" break="no"/>cari perspicuum continens circulariter.
+      <lb ed="#Bb"/>Perspicuum autem tale aut est 
+      recepti<lb ed="#Bb" break="no"/>vum luminis, aut dativum: aut motum,
+      <lb ed="#Bb"/>aut non motum: et aut uniforme in 
+      lu<lb ed="#Bb" break="no"/>mine, aut non uniforme. Si est dativum
+      <lb ed="#Bb"/>luminis uniforme non motum: tunc est
+      <lb ed="#Bb"/>empyreum. Si autem est dativum 
+      lumi<lb ed="#Bb" break="no"/>nis uniforme molum : tum est 
+      crystalli<lb ed="#Bb" break="no"/>num sive agueum. Si vero est dativum
+      <lb ed="#Bb"/>luminis non uniforme et motum: tunc
+      <lb ed="#Bb"/>est firmamenium. Kt hi tres cceli sunt in
+      <lb ed="#Bb"/>quinta essentia, Quarta vero combinatio
+      <lb ed="#Bb"/>esse non potest, sc.licet non uniforme
+      <lb ed="#Bb"/>non motum: quia in antehabitis 
+      proba<lb ed="#Bb" break="no"/>tum est, quod omne non uniforme 
+      mo<lb ed="#Bb" break="no"/>vetur. Si autem est non dativum luminis,
+      <lb ed="#Bb"/>sed receptivum : aut recipit illud 
+      separa<lb ed="#Bb" break="no"/>biliter, aut inseparabiliter. Si 
+      insepara<lb ed="#Bb" break="no"/>biliter : aut secundum circulum 
+      superio<lb ed="#Bb" break="no"/>ris superficiei que est in forma convexi,
+      <lb ed="#Bb"/>aut secundum circulum interioris 
+      super<lb ed="#Bb" break="no"/>ficiei. Si secundum circulum superioris
+      <lb ed="#Bb"/>superficiel que est in forma convexi:
+      <pb ed="#Bb" n="571"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>tunc est igneum. Ignis enim est corpus
+      <lb ed="#Bb"/>inseparabiliter recipiens lumen : eo quod
+      <lb ed="#Bb"/>dicit Aristoteles in Topicis, quod ignis
+      <lb ed="#Bb"/>in propria natura lux est. Et sicut dicit
+      <lb ed="#Bb"/>Avicenna, <quote xml:id="Almn78-e26771-Qd1e303"> Ignis secundum superficiem
+        <lb ed="#Bb"/>exteriorem sive superiorem ubique 
+        tan<lb ed="#Bb" break="no"/>gitcameram celi Lune. </quote> Si autem 
+      se<lb ed="#Bb" break="no"/>cundum superficiem interiorem que est
+      <lb ed="#Bb"/>in forma concavi: tunc est illud quod
+      <lb ed="#Bb"/>dicitur olympium, ab biov quod est totum,
+      <lb ed="#Bb"/>et Greco Aipros quod est lucidum, 
+      com<lb ed="#Bb" break="no"/>positum, a quo etiam Latine derivatur
+      <lb ed="#Bb"/>limpidum, quod clarum dicimus. Si 
+      au<lb ed="#Bb" break="no"/>tem est receptivam luminis separabiliter:
+      <lb ed="#Bb"/>tunc est aereum. Aer enim ex presentia
+      <lb ed="#Bb"/>luminis illuminatur, et ex absentia ejus
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>dem obtenebratur. Dico hic tamen 
+      se<lb ed="#Bb" break="no"/>cundum Rabanum, quod illud dividitur
+      <lb ed="#Bb"/>in duo: quia si accipitur aer in regione
+      <lb ed="#Bb"/>inferiori: tune vocatur proprie aereum,
+      <lb ed="#Bb"/>Unde, Matth. xim, 4: Venerunt 
+      volu<lb ed="#Bb" break="no"/>cres cli, e¢ comederunt ea. Et, Daniel.
+      <lb ed="#Bb"/>um, 80: Benedicite, omnes volucies celi,
+      <lb ed="#Bb"/>Domino Si autem accipitur secundum
+      <lb ed="#Bb"/>regionem superiorem, inflammabilem
+      <lb ed="#Bb"/>scilicet ex motu astrorum et vicinitate
+      <lb ed="#Bb"/>ignis: tunc <name xml:id="Almn78-e26771-Nd1e356">Rabanus</name> vocat ethereum :
+      <lb ed="#Bb"/>quia sicut dicit Aristoteles in primo 
+      li<lb ed="#Bb" break="no"/>bro Meteororum, <quote xml:id="Almn78-e26771-Qd1e363"> Antiqui omne corpus
+        <lb ed="#Bb"/>simplex inflammans inflammabile 
+        voca<lb ed="#Bb" break="no"/>verunt xihera. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

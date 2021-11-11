@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 113</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 113</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="326"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h72827"><!-- p2t17q113 -->
+            <head xml:id="Almn78-h72827-Hd1e106">Quaestio 113</head>
+            <head xml:id="Almn78-h72827-Hd1e109" type="question-title">
+    Quae sit poena propria originalis peccati?
+  </head>
+            <p xml:id="Almn78-h72827-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAESTIO CXIII
+<lb ed="#Bc"/>Quae sit poena propria originalis peccati?
+</p>
+            <p xml:id="Almn78-h72827-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Queratur ergo, Que sit propria poena
+<lb ed="#Bc"/>originalis peccati ?
+<lb ed="#Bc"/>Multa enim pene assignantur, que
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>ex verbis Domini in Genesi accipiuntur:
+<lb ed="#Bc"/>quarum quedam sunt in presenti, qué
+<lb ed="#Bc"/>dam autem in futuro.
+</p>
+            <p xml:id="Almn78-h72827-d1e141">
+               <pb ed="#Bc" n="327"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>In praesenti quedam ex parte corporis,
+<lb ed="#Bc"/>quedam ex parte anime, quedam ex
+<lb ed="#Bc"/>parte utriusque.
+</p>
+            <p xml:id="Almn78-h72827-d1e155">
+               <lb ed="#Bc"/>Ex parte enim utriusque est pcna
+<lb ed="#Bc"/>mortis, que est separatio anime a 
+cor<lb ed="#Bc" break="no"/>pore, que notatur in hoc verbo Domini,
+<lb ed="#Bc"/>Genes. u,17 : ln quocumque die 
+come<lb ed="#Bc" break="no"/>deris ex eo, morte morieris.
+</p>
+            <p xml:id="Almn78-h72827-d1e168">
+               <lb ed="#Bc"/>Ex parte autem corporis post hanc
+<lb ed="#Bc"/>vilam est incineratio, que accipilur ex
+<lb ed="#Bc"/>hoc verbo Domini, Genes. 1, 19: Quia
+<lb ed="#Bc"/>pulvis es, ef in pulverem reverteris : vel
+<lb ed="#Bc"/>ut habet alia translatio : Cinis es, et in
+<lb ed="#Bc"/>cinerem reverteris. Que dicitur esse in
+<lb ed="#Bc"/>carne ratione concupiscentie, que lex
+<lb ed="#Bc"/>membrorum dicitur ' : et dicitur non
+<lb ed="#Bc"/>posse abstergi corpus a fceditate 
+concu<lb ed="#Bc" break="no"/>piscentie nisi per incinerationem, ut
+<lb ed="#Bc"/>sit aptum ad gloriosam  
+resurrectio<lb ed="#Bc" break="no"/>nem.
+</p>
+            <p xml:id="Almn78-h72827-d1e197">
+               <lb ed="#Bc"/>Ex parte vero anime sunt quas 
+deter<lb ed="#Bc" break="no"/>minat Beda in homilia super illud 
+Evan<lb ed="#Bc" break="no"/>gelii Luce, x, 30 Homo quidam
+<lb ed="#Bc"/>descendebat de Jerusalem in Jericho, et
+<lb ed="#Bc"/>incidit in latrones. Ubi dicit sic : <quote xml:id="Almn78-h72827-Qd1e210"> Homo
+<lb ed="#Bc"/>quando peccavit, incidit in malitiam, in
+<lb ed="#Bc"/>impotentiam, in ignorantiam, et in 
+con<lb ed="#Bc" break="no"/>cupiscentiam. </quote> Dicit enim, quod 
+spolia<lb ed="#Bc" break="no"/>verunt eum in gratuitis, et vulneraverunt
+<lb ed="#Bc"/>eum in naturalibus in quatuor illis 
+pe<lb ed="#Bc" break="no"/>nis.
+</p>
+            <p xml:id="Almn78-h72827-d1e226">
+               <lb ed="#Bc"/>Et dicitur malitia ibi prout est 
+pe<lb ed="#Bc" break="no"/>na, malignabilitas prout de facili 
+mali<lb ed="#Bc" break="no"/>gnatur homo, sicut dicitur, Genes. viu,
+<lb ed="#Bc"/>21: Sensus et cogitatio humani cordis
+<lb ed="#Bc"/>in malum prona sum ab adolescentia
+<lb ed="#Bc"/>sua, Et intelligit de nativitate corrupta,
+</p>
+            <p xml:id="Almn78-h72827-d1e242">
+               <lb ed="#Bc"/>Impotentia dicitur debilitas ad 
+bo<lb ed="#Bc" break="no"/>num : quod vulnus inflictum est 
+ani<lb ed="#Bc" break="no"/>me propter hoc, quod est in membris
+<lb ed="#Bc"/>corporis lex carnis, ligans ea ne ad 
+bo<lb ed="#Bc" break="no"/>num sint mobilia secundum rationem,
+<lb ed="#Bc"/>sicut dicitur, ad Roman, vit, 22 et 23:
+<lb ed="#Bc"/>Condelector legi Dei secundum 
+interio<lb ed="#Bc" break="no"/>rem hominem : video autem aliam 
+le<lb ed="#Bc" break="no"/>gem in membris meis, repugnantem legi
+<lb ed="#Bc"/>mentis mex, et captivantem me in lege
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>peccatt que est in membris meis. Et
+<lb ed="#Bc"/>ibidem, ¥. 18: Nam velle adjacet mihi,
+<lb ed="#Bc"/>perficere autem non invenio.
+</p>
+            <p xml:id="Almn78-h72827-d1e275">
+               <lb ed="#Bc"/>Ignorantia vero est privatio 
+lumi<lb ed="#Bc" break="no"/>nis in ratione et in electione 
+agendo<lb ed="#Bc" break="no"/>tum. Et de hoc dicitur, Jerem. ty,
+<lb ed="#Bc"/>22: Sapientes sunt ut faciant mala,
+<lb ed="#Bc"/>bene autem faccere nescierunt. Et,
+<lb ed="#Bc"/>Isaie, v, 21: Ve qui sapientes estis in
+<lb ed="#Bc"/>ocults vestris, et coram vobismelipsis
+<lb ed="#Bc"/>prudentes / Et dicit Augustinus in libro
+<lb ed="#Bc"/>contra Manicheum, quod haec pena
+<lb ed="#Bc"/>causata est ex hoc, quod voluit esse 
+si<lb ed="#Bc" break="no"/>cut Deus, sciens bonum et malum. Unde
+<lb ed="#Bc"/>per hoc penitus est in ignorantia 
+agendo<lb ed="#Bc" break="no"/>rum: quam peenam sequitur error 
+ele<lb ed="#Bc" break="no"/>ctionis, ut dicit Augustinus, et difficultas
+<lb ed="#Bc"/>studii in inquirenda veritate. Et dicitur,
+<lb ed="#Bc"/>quod hoc accipitur ex illo verbo Domini,
+<lb ed="#Bc"/>Genes. 11, 17:42 laboribus comedes ex
+<lb ed="#Bc"/>ea.
+</p>
+            <p xml:id="Almn78-h72827-d1e318">
+               <lb ed="#Bc"/>Coneupiscentia vero est concupiscens
+<lb ed="#Bc"/>tia noxiorum, de qua dicitur, Proverb.
+<lb ed="#Bc"/>1,22: Usgquequo, parvuli, diligitis 
+in<lb ed="#Bc" break="no"/>fantiam, et stultt ea que sibi sunt nozia
+<lb ed="#Bc"/>cupient ?
+</p>
+            <p xml:id="Almn78-h72827-d1e331">
+               <lb ed="#Bc"/>Ist sunt pone que notatesunt a
+<lb ed="#Bc"/>Sanctis, in quas incidimus ex peccato
+<lb ed="#Bc"/>originali. Et hoc totum nihil habet
+<lb ed="#Bc"/>questionis : quia Hieronymus expresse
+<lb ed="#Bc"/>dicit : <quote xml:id="Almn78-h72827-Qd1e344"> Quidquid patimur, peccata 
+no<lb ed="#Bc" break="no"/>stra meruerunt, </quote>
+            </p>
+            <p xml:id="Almn78-h72827-d1e350">
+               <lb ed="#Bc"/>Quedam autem poena est in futuro,
+<lb ed="#Bc"/>de qua dubium est, et querere 
+opor<lb ed="#Bc" break="no"/>tet.
+</p>
+            <p xml:id="Almn78-h72827-d1e359">
+               <lb ed="#Bc"/>1. Dicitur enim communiter, quod
+<lb ed="#Bc"/>carentia visionis Dei est poena propria,
+<lb ed="#Bc"/>respondens originali peccato in futuro.
+<lb ed="#Bc"/>Et hoc non videtur. Quia carentia 
+visio<lb ed="#Bc" break="no"/>nis Dei pcena communis est, et 
+respon<lb ed="#Bc" break="no"/>det omni mortali peccato: nullus enim
+<lb ed="#Bc"/>decedens in mortali peccato videbit
+<lb ed="#Bc"/>Deum. Et quod commune est, non 
+pot<lb ed="#Bc" break="no"/>est esse proprium unius. Ergo non est
+<lb ed="#Bc"/>poena propria originalis peccati.
+</p>
+            <p xml:id="Almn78-h72827-d1e383">
+               <lb ed="#Bc"/>2. Adhuc, Videtur quod ignis sit 
+p<lb ed="#Bc" break="no"/>na debita originali peccato. Augustinus
+<pb ed="#Bc" n="328"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>in libro de Fide ad Petrum : <quote xml:id="Almn78-h72827-Qd1e396"> 
+Firmissi<lb ed="#Bc" break="no"/>me tene non solum homines ratione
+<lb ed="#Bc"/>utentes, verum etiam parvulos qui sive
+<lb ed="#Bc"/>in utero matris vivere incipiunt et ibi
+<lb ed="#Bc"/>moriuntur, sive de matribus nati sine
+<lb ed="#Bc"/>sacramento baptismatis de hoc seculo
+<lb ed="#Bc"/>transeunt, ignis eterni sempiterno 
+sup<lb ed="#Bc" break="no"/>plicio puniendos *. </quote> Si enim peccata
+<lb ed="#Bc"/>propria actionis non habent nonnulli :
+<lb ed="#Bc"/>habent tamen peccati originalis 
+damna<lb ed="#Bc" break="no"/>tionem, quam carnali conceptione 
+cor<lb ed="#Bc" break="no"/>rupta et nativitale traxerunt. Videtur
+<lb ed="#Bc"/>ergo ex hoc, quod damnatio ignis pcena
+<lb ed="#Bc"/>sit originalis peccati.
+</p>
+            <p xml:id="Almn78-h72827-d1e428">
+               <lb ed="#Bc"/>3. Adhuc, Omnibus qui sunt a 
+sini<lb ed="#Bc" break="no"/>stris dicetur: Dicete ame, maledicti, in
+<lb ed="#Bc"/>ignem eternum *. Constat autem, quod
+<lb ed="#Bc"/>quiin originali decedunt sine baptismo, a
+<lb ed="#Bc"/>sinistris stabunt. Ergo eorum pcena erit
+<lb ed="#Bc"/>ignis : ergo ignis est pcena originalis
+<lb ed="#Bc"/>peccati.
+</p>
+            <p xml:id="Almn78-h72827-d1e447">
+               <lb ed="#Bc"/>Ulterius queritur de quadam poena
+<lb ed="#Bc"/>quam dicit Augustinus in libro de 
+Na<lb ed="#Bc" break="no"/>tura et gratia, sic: <quote xml:id="Almn78-h72827-Qd1e455"> Ex vitiis nature
+<lb ed="#Bc"/>non ex conditione fit quedam peccandi
+<lb ed="#Bc"/>necessitas, <!-- quotation end unclear --></quote> de qua dicitur in Psalmo xxiv,
+<lb ed="#Bc"/>17: De necessitatibus meis erue me. Et
+<lb ed="#Bc"/>super illud Psalmixxx, 8: Salvasti de
+<lb ed="#Bc"/>necessitatibus animam meam, Glossa :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h72827-Qd1e472"> Necessitates sunt infinite, ut nescire
+<lb ed="#Bc"/>cor alterius, suspicari male de animo
+<lb ed="#Bc"/>fideli, et bene de infideli, sequi veteres
+<lb ed="#Bc"/>consuetudines.</quote> Unde Augustinus in libro
+<lb ed="#Bc"/>II Confessionum: <quote xml:id="Almn78-h72827-Qd1e483"> Dum peccato 
+consen<lb ed="#Bc" break="no"/>titur,fit consuetudo: dum consuetudo non
+<lb ed="#Bc"/>revocatur, fit necessitas ad peccandum. </quote>
+               <lb ed="#Bc"/>Videtur ergo, quod ex peccato originali
+<lb ed="#Bc"/>homo incurrit necessitatem peccandi,
+<lb ed="#Bc"/>que etiam est pcena peccati originalis,
+</p>
+            <p xml:id="Almn78-h72827-d1e498">
+               <lb ed="#Bc"/>Solutio, Dicendum, quod in veritate
+<lb ed="#Bc"/>peene originalis peccati mull sunt, sicut
+<lb ed="#Bc"/>dictum est. Et sunt propter hoc multe,
+<lb ed="#Bc"/>sicut etiam dicit Magister in Littera:
+<lb ed="#Bc"/>quia multa notantur in peccato Ade,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>superbia scilicet, avaritia, gula, et alia
+<lb ed="#Bc"/>plura vitia, de quibus satis disputatum
+<lb ed="#Bc"/>est supra in questione de peccato 
+pri<lb ed="#Bc" break="no"/>morum parentum : et ibi etiam est 
+dis<lb ed="#Bc" break="no"/>putatum in questione de propriis penis
+<lb ed="#Bc"/>primorum parentum.
+</p>
+            <p xml:id="Almn78-h72827-d1e527">
+               <lb ed="#Bc"/>Ad id quod queritur, Utrum carentia
+<lb ed="#Bc"/>visionis Dei sit propria poena originalis
+<lb ed="#Bc"/>peccati? Dicendum meo judicio, quod
+<lb ed="#Bc"/>non, sed pena communis est originalis et
+<lb ed="#Bc"/>actualis mortalis, sicut bene probatum
+<lb ed="#Bc"/>est per objectiones factas in 
+contra<lb ed="#Bc" break="no"/>rium,
+</p>
+            <p xml:id="Almn78-h72827-d1e545">
+               <lb ed="#Bc"/>Ad aliud que probant, quod ignis est
+<lb ed="#Bc"/>propria peenaoriginalis peccati, dicendum
+<lb ed="#Bc"/>quod ignis non est propria pcena 
+origi<lb ed="#Bc" break="no"/>nalis. Unde dicit Augustinus in 
+Enchiri<lb ed="#Bc" break="no"/>dion, sic: <quote xml:id="Almn78-h72827-Qd1e558"> Milissima sane omnium
+<lb ed="#Bc"/>pena erit eorum qui preter peccatum,
+<lb ed="#Bc"/>quod originaliter contraxerunt, nullum
+<lb ed="#Bc"/>insuper addiderunt: et in ceteris qui 
+ad<lb ed="#Bc" break="no"/>diderunt, tanto quisque tolerabilicrem
+<lb ed="#Bc"/>habebit damnationem, quanto hic 
+mino<lb ed="#Bc" break="no"/>rem habuerit iniquitatem °. </quote> Unde quod
+<lb ed="#Bc"/>dicitur in auctoritatibus, quod ibunt in
+<lb ed="#Bc"/>ignem eternum, non dicitur ratione
+<lb ed="#Bc"/>adustionis que est in igne, scilicet quod
+<lb ed="#Bc"/>sentiant adustionem, sed ratione 
+tene<lb ed="#Bc" break="no"/>brositatis loci infernalis: quia, sicut dicit
+<lb ed="#Bc"/>Gregorius in Moralibus : <quote xml:id="Almn78-h72827-Qd1e587"> Ignis inferni
+<lb ed="#Bc"/>non lucet, nisi ad ostendendum ea que
+<lb ed="#Bc"/>cum tristitia videntur. </quote> Et ideo dicitur,
+<lb ed="#Bc"/>Matth, xxu, 13, de servo nequam pigro:
+<lb ed="#Bc"/>Ligatis manibus et pedibus ejus, projicite
+<lb ed="#Bc"/>eum in tenebras exteriores : ibi erit fletus
+<lb ed="#Bc"/>et stridor dentium.
+</p>
+            <p xml:id="Almn78-h72827-d1e603">
+               <lb ed="#Bc"/>Aviv quod ultimo queritur, Utrum
+<lb ed="#Bc"/>necessitas peccandi sit peena originalis
+<lb ed="#Bc"/>peccali ?
+</p>
+            <p xml:id="Almn78-h72827-d1e612">
+               <lb ed="#Bc"/>Dicendum, quod necessitas duplex .
+<lb ed="#Bc"/>est, scilicet inevitabilitatis : et talem 
+ne<lb ed="#Bc" break="no"/>cessitatem homo non habet ex 
+originali<lb ed="#Bc" break="no"/>peccato, nisi ante reparationem per 
+gra<lb ed="#Bc" break="no"/>tiam. Et est necessitas pronitatis non ad
+<lb ed="#Bc"/>mortale, sed ad veniale : et talem ne
+<pb ed="#Bc" n="329"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>cessitatem habet homo, sicut sepe supra
+<lb ed="#Bc"/>dictum est, quod post reparationem per
+<lb ed="#Bc"/>gratiam non potest homo dimittere, quin
+<lb ed="#Bc"/>peccet venialiter : et propter hoc 
+quoti<lb ed="#Bc" break="no"/>die dicel: Dimitie nobis debita nostra '.
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Et haec solutio firmatur per 
+Augusti<lb ed="#Bc" break="no"/>num in libro de Perfectione sustitiae sic
+<lb ed="#Bc"/>dicentem: <quote xml:id="Almn78-h72827-Qd1e651"> Nec ratio, nec ordo justitie
+<lb ed="#Bc"/>admitlit, quod aliquis peccet in hoc quod
+<lb ed="#Bc"/>vilare non potest. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

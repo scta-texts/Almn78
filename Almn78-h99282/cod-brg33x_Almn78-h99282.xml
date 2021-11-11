@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 133</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 133</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="447"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h99282"><!-- p2t22q133 -->
+            <head xml:id="Almn78-h99282-Hd1e106">Quaestio 133</head>
+            <head xml:id="Almn78-h99282-Hd1e109" type="question-title">
+    Quomodo omne peccatum sit vel ex concupiscentia carnis, vel ex
+    concupiscentia oculorum, vel
+    I Joan. II, 16
+  </head>
+            <p xml:id="Almn78-h99282-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXXIII.
+<lb ed="#Bc"/>Quomodo omne peccatum sit vel ex concupiscentia carnis, vel ex
+<lb ed="#Bc"/>concupiscentia oculorum, vel
+<lb ed="#Bc"/>I Joan. II, 16?
+</p>
+            <p xml:id="Almn78-h99282-d1e125">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde queritur de divisione que
+<lb ed="#Bc"/>ponitur, I Joan. u, 16, quod omne quod
+<lb ed="#Bc"/>est in mundo, concupiscentia carnis est
+<lb ed="#Bc"/>el concupiscentia oculorum, et superbia
+<lb ed="#Bc"/>vile.
+</p>
+            <p xml:id="Almn78-h99282-d1e141">
+               <lb ed="#Bc"/>De ista autem divisione duo 
+quae<lb ed="#Bc" break="no"/>runtur.
+<lb ed="#Bc"/>Primo, Utrum sit sufficiens divisio ?
+<lb ed="#Bc"/>Secundo, De singulis membris 
+divi<lb ed="#Bc" break="no"/>sionis.
+</p>
+            <div xml:id="Almn78-h99282-Dd1e155">
+               <head xml:id="Almn78-h99282-Hd1e157">Membrum 1</head>
+               <head xml:id="Almn78-h99282-Hd1e160" type="question-title">
+        Utrum ista divisio sit sufficiens
+      </head>
+               <p xml:id="Almn78-h99282-d1e163">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum ista divisio sit sufficiens ?
+</p>
+               <p xml:id="Almn78-h99282-d1e170">
+                  <lb ed="#Bc"/>Videtur autem, quod ista divisio sit
+<lb ed="#Bc"/>in nullo sufficiens.
+</p>
+               <p xml:id="Almn78-h99282-d1e177">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>1. Omnis enim divisio bona sub 
+ali<lb ed="#Bc" break="no"/>quo univoco datur communi. 5i ergo
+<lb ed="#Bc"/>ista divisio : Omne quod est in mundo,
+<lb ed="#Bc"/>concupiscentia carnis est, etc., bona est,
+<lb ed="#Bc"/>oportet quod ista tria ad aliquod 
+com<lb ed="#Bc" break="no"/>mune reducantur quod univoce 
+predi<lb ed="#Bc" break="no"/>catur de ipsis. Et videtur, quod hoc non
+<lb ed="#Bc"/>sit, nisi concupiscentia : quia, dicit 
+Au<lb ed="#Bc" break="no"/>gustinus in libro de Vera religione: <quote xml:id="Almn78-h99282-Qd1e200"> 
+Ho<lb ed="#Bc" break="no"/>mines serviunt cupiditati triplici, scilicet
+<lb ed="#Bc"/>voluptatis, vel excellentiz, vel 
+specta<lb ed="#Bc" break="no"/>culi. </quote> Sed cupiditas voluptatis est 
+con<lb ed="#Bc" break="no"/>cupiscentia carnis : cupiditas excellentia,
+<lb ed="#Bc"/>superbia vite : cupiditas spectacull,
+<lb ed="#Bc"/>concupiscentia oculorum. Ergo cupiditas
+<lb ed="#Bc"/>sive concupiscentia est illud commune
+<lb ed="#Bc"/>ad quod ista tria reducuntur.
+</p>
+               <p xml:id="Almn78-h99282-d1e222">
+                  <lb ed="#Bc"/>2, Adhuc, Matth. xxvi, 44: Oravit
+<lb ed="#Bc"/>tertio, eumdem sermonem dicens. Dicit
+<pb ed="#Bc" n="448"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Glossa ibidem: <quote xml:id="Almn78-h99282-Qd1e235"> Est concupiscentia
+<lb ed="#Bc"/>carnis, oculorum, et ambitio seculi.
+<lb ed="#Bc"/>Hec tria sunt ista expresse que a Joanne
+<lb ed="#Bc"/>ponuntur. </quote> Ergo videtur, quod ista sub
+<lb ed="#Bc"/>hoe communi quod est concupiscentia,
+<lb ed="#Bc"/>contineantur.
+</p>
+               <p xml:id="Almn78-h99282-d1e249">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro de 
+Doc<lb ed="#Bc" break="no"/>trina Christiana: <quote xml:id="Almn78-h99282-Qd1e255"> Cupiditatem voco
+<lb ed="#Bc"/>motum animi ad fruendum se, proximo,
+<lb ed="#Bc"/>et quolibet corporeo non propter Deum. </quote>
+                  <lb ed="#Bc"/>Sed talis motus communis est his 
+tri<lb ed="#Bc" break="no"/>bus. Ergo cupiditas communis est his
+<lb ed="#Bc"/>tribus.
+</p>
+               <p xml:id="Almn78-h99282-d1e270">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Sicut contingit peccare per 
+concupi<lb ed="#Bc" break="no"/>scentiam, ita contingit peccare per 
+con<lb ed="#Bc" break="no"/>templum. Et constat, quod contemptus
+<lb ed="#Bc"/>non potest reduci ad concupiscentiam :
+<lb ed="#Bc"/>quia contemptus est motus irascibilis
+<lb ed="#Bc"/>potenti, concupiscentia autem 
+concu<lb ed="#Bc" break="no"/>piscibilis. Cum ergo omnia peccata,
+<lb ed="#Bc"/>sicut dicit Glossa, sub his tribus 
+conti<lb ed="#Bc" break="no"/>neantur, et non omnia peccata ad 
+cupi<lb ed="#Bc" break="no"/>ditatem reducantur, videtur quod 
+cupidi<lb ed="#Bc" break="no"/>tas non sit illud commune sub quo ista
+<lb ed="#Bc"/>tria continentur.
+</p>
+               <p xml:id="Almn78-h99282-d1e301">
+                  <lb ed="#Bc"/>Ulterius videtur, quod divisio non sit
+<lb ed="#Bc"/>sufficiens : multa enim peccata sunt,
+<lb ed="#Bc"/>qua ad nullum istorum reducuntur, 
+sic<lb ed="#Bc" break="no"/>ut peccatum infidelitatis, et peccalum
+<lb ed="#Bc"/>scandali, et peecatam ignorantie, et
+<lb ed="#Bc"/>peccatum timoris, in quo homo 
+repen<lb ed="#Bc" break="no"/>tina et insolita exhorrescit, sicut dicit
+<lb ed="#Bc"/>Augustinus in libro X Confessionum.
+</p>
+               <p xml:id="Almn78-h99282-d1e321">
+                  <lb ed="#Bc"/>Solutio. Ad haec omnia solvendum
+<lb ed="#Bc"/>est per Glossam Augustini, que ibidem
+<lb ed="#Bc"/>est sic super illud, Omne quod est in
+<lb ed="#Bc"/>mundo : <quote xml:id="Almn78-h99282-Qd1e331"> Omnes dilectores mundi nihil
+<lb ed="#Bc"/>habent nisi haec tria, quibus omnia 
+ge<lb ed="#Bc" break="no"/>nera vitiorum comprehenduntur. 
+Coneu<lb ed="#Bc" break="no"/>piscentia carnis est desiderium omnium
+<lb ed="#Bc"/>eorum que ad voluptatem et delicias 
+cor<lb ed="#Bc" break="no"/>poris pertinent, ut cibus, potus, 
+concu<lb ed="#Bc" break="no"/>bitus, et hujusmodi. Concupiscentia 
+ocu<lb ed="#Bc" break="no"/>lorum est omnis curiositas, gue fit in
+<lb ed="#Bc"/>discendis artibus magicis, in 
+contemplan<lb ed="#Bc" break="no"/>dis spectaculis, in supervacuis acqui~
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>rendis rebus temporalibus, in 
+digno<lb ed="#Bc" break="no"/>scendis carpendisque vitiis proximorum,
+<lb ed="#Bc"/>Superbia vite est, cum quis se jactat in
+<lb ed="#Bc"/>honoribus, magnas familias expetit. Per
+<lb ed="#Bc"/>haec tria victus est Adain : quia cibum
+<lb ed="#Bc"/>vetitum concupivit ex coucupiscentia
+<lb ed="#Bc"/>carnis, voluit scire bonum et malum ex
+<lb ed="#Bc"/>concupiscentia oculorum, voluit esse 
+sic<lb ed="#Bc" break="no"/>ut Deus ex superbia vite. haec tria vicit
+<lb ed="#Bc"/>Christus : quia non est captus amore pa~
+<lb ed="#Bc"/>nis corporalis: non descendit de pinna,
+<lb ed="#Bc"/>quod esset tenlare Deum: super regna
+<lb ed="#Bc"/>mundi extolli noluit. </quote>
+               </p>
+               <p xml:id="Almn78-h99282-d1e384">
+                  <lb ed="#Bc"/>Dicendum ergo, quod haec  divisio
+<lb ed="#Bc"/>bona est et sufficiens, et sub hoc 
+com<lb ed="#Bc" break="no"/>muni quod est cupiditas, continetur.
+<lb ed="#Bc"/>Sed cupiditas dicitur tribus modis.
+<lb ed="#Bc"/>Primo enim modo dicitur pronitas ad
+<lb ed="#Bc"/>peccandum ex originali peccato causata :
+<lb ed="#Bc"/>et sic non sumitur hic prout est 
+com<lb ed="#Bc" break="no"/>mune ad ista tria. Secundo modo dicitur
+<lb ed="#Bc"/>concupiscentia ad delectabilia carnis 
+per<lb ed="#Bc" break="no"/>tinentia : et sic iteram non potest esse
+<lb ed="#Bc"/>commune ad ista tria. Tertio modo 
+di<lb ed="#Bc" break="no"/>citur amor illicitus cujuscumque rei 
+tem<lb ed="#Bc" break="no"/>poralis, et hoc modo sumitur hic. Et sic
+<lb ed="#Bc"/>est commune ad haec tria. Et sic omne
+<lb ed="#Bc"/>peccatum fit ex concupiscentia, Qui enim
+<lb ed="#Bc"/>contemnit unum, ideo contemnit, quia
+<lb ed="#Bc"/>amat alterum. Et qui scandalizat, in hoc
+<lb ed="#Bc"/>scandalizat, quod illicite concupiscit. Et
+<lb ed="#Bc"/>qui ignorat, ideo ignorat, quia 
+occupa<lb ed="#Bc" break="no"/>tur quibusdam que concupiscit, ex 
+qui<lb ed="#Bc" break="no"/>bus impeditur addiscere que tenetur—
+<lb ed="#Bc"/>scire. Qualiter autem omne peccatum
+<lb ed="#Bc"/>reducatur adista tria tam in spiritualibus
+<lb ed="#Bc"/>quam in corporalibus, patet ex Glossa
+<lb ed="#Bc"/>paulo ante inducta.
+</p>
+               <p xml:id="Almn78-h99282-d1e442">
+                  <lb ed="#Bc"/>Per hoc quoque patet solutio ad 
+to<lb ed="#Bc" break="no"/>tum.
+</p>
+            </div>
+            <div xml:id="Almn78-h99282-Dd1e450">
+               <head xml:id="Almn78-h99282-Hd1e452">Membrum 2</head>
+               <head xml:id="Almn78-h99282-Hd1e455" type="question-title">
+          De singulis membris istius divisionis in
+          speciali
+        </head>
+               <p xml:id="Almn78-h99282-d1e458">
+                  <pb ed="#Bc" n="449"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De singulis membris istius divisionis in
+<lb ed="#Bc"/>speciali.
+</p>
+               <p xml:id="Almn78-h99282-d1e471">
+                  <lb ed="#Bc"/>Tertio, Queritur de singulis membris
+<lb ed="#Bc"/>istius divisionis, Et hoc est querere,
+<lb ed="#Bc"/>Que peccata ad singula istorum 
+perti<lb ed="#Bc" break="no"/>nent ? Licet enim hoc valde expresse
+<lb ed="#Bc"/>determinatum sit in Glossa inducta, 
+ta<lb ed="#Bc" break="no"/>men quedam dubia remanent, et 
+ma<lb ed="#Bc" break="no"/>xime propter id quod dictum est de
+<lb ed="#Bc"/>concupiscentia oculorum, ad quam, ut
+<lb ed="#Bc"/>dicit Glossa, pertinet studium in magicis
+<lb ed="#Bc"/>et necromanticis, que etiam ab 
+Kecle<lb ed="#Bc" break="no"/>sia interdicta sunt.
+</p>
+               <p xml:id="Almn78-h99282-d1e497">
+                  <lb ed="#Bc"/>Qurirer ergo, Utrum etiam alia 
+slu<lb ed="#Bc" break="no"/>dia sicut in naturalibus et. geometricis et
+<lb ed="#Bc"/>hujusmodi ad concupiscentiam oculorum
+<lb ed="#Bc"/>pertineant ?
+</p>
+               <p xml:id="Almn78-h99282-d1e509">
+                  <lb ed="#Bc"/>Et videtur, quod non. Illa enim sunt
+<lb ed="#Bc"/>studia laudabilia, et mulium conferunt
+<lb ed="#Bc"/>ad scientiam Scripturarum.
+</p>
+               <p xml:id="Almn78-h99282-d1e518">
+                  <lb ed="#Bc"/>Contra hoc tamen quidam objiciunt,
+<lb ed="#Bc"/>1. Ex verbis Seneca, qui dicit: <quote xml:id="Almn78-h99282-Qd1e524"> In
+<lb ed="#Bc"/>tanta necessitate temporum doces me
+<lb ed="#Bc"/>terram mensurare, qui meipsius ignoro
+<lb ed="#Bc"/>mensuram. </quote> Quasi dicat: Hoc 
+super<lb ed="#Bc" break="no"/>vacuum est, Ergo videtur, quod studium
+<lb ed="#Bc"/>in talibus perlineat ad concupiscentiam
+<lb ed="#Bc"/>oculorum, sicut et in magicis.
+</p>
+               <p xml:id="Almn78-h99282-d1e541">
+                  <lb ed="#Bc"/>2. Adhuc, Baruch, wt, 23: Filii Agar,
+<lb ed="#Bc"/>qui exhauriunt prudentiam que de terra
+<lb ed="#Bc"/>est, negotiatores Merrhe et Theman, et
+<lb ed="#Bc"/>fabulatores, et exguisitores prudentie
+<lb ed="#Bc"/>ef intelligentie : viam aulem sapientie
+<lb ed="#Bc"/>nescierunt, neque commemorati sunt 
+se<lb ed="#Bc" break="no"/>mitas ejus. Videtur ergo, quod omnium
+<lb ed="#Bc"/>talium inquisitio pertineat ad 
+curiosita<lb ed="#Bc" break="no"/>tem vel concupiscentiam oculorum: eo
+<lb ed="#Bc"/>quod tales res supervacue sunt. Dicit
+<lb ed="#Bc"/>enim Glossa inducta, quod investigatio
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>tium, ad  concupiscentiam oculorum
+<lb ed="#Bc"/>pertinet, sicut investizatio conscientie
+<lb ed="#Bc"/>aliens et secretorum alienorum.
+</p>
+               <p xml:id="Almn78-h99282-d1e576">
+                  <lb ed="#Bc"/>Ulterius queritur, Quid pertineat ad
+<lb ed="#Bc"/>concupiscentiam carnis?
+</p>
+               <p xml:id="Almn78-h99282-d1e583">
+                  <lb ed="#Bc"/>1. Dicit autem Glossa, quod ea que
+<lb ed="#Bc"/>pertinent ad gulam et ad luxuriam, Et
+<lb ed="#Bc"/>secundum hoc ratio ciborum pertinet
+<lb ed="#Bc"/>ad concupiscentiam carnis, que” tamen
+<lb ed="#Bc"/>quando fit causa infirmitatis, non 
+vide<lb ed="#Bc" break="no"/>tur esse mala.
+</p>
+               <p xml:id="Almn78-h99282-d1e599">
+                  <lb ed="#Bc"/>2. Adhuc, Coitus cum sua concessus
+<lb ed="#Bc"/>est ab Apostolo, I ad Corinth. vu, 2:
+<lb ed="#Bc"/>Unusquisque suam uxorem habeat.
+<lb ed="#Bc"/>Propter fornicationem vitandam dicit
+<lb ed="#Bc"/>Glossa. Tunc videtur, quod hoc cum sit
+<lb ed="#Bc"/>licitum, ad concupiscentiam carnis non
+<lb ed="#Bc"/>pertineat : quia dicitur, Matth. vu, 18:
+<lb ed="#Bc"/>Non potest arbor bona malos fructus 
+fa<lb ed="#Bc" break="no"/>cere, neque arbor mala bonos fructus
+<lb ed="#Bc"/>jacere.
+</p>
+               <p xml:id="Almn78-h99282-d1e624">
+                  <lb ed="#Bc"/>Simmirer quieritur de superbia vite.
+<lb ed="#Bc"/>Ab illa aulem non videtur oriri nisi 
+su<lb ed="#Bc" break="no"/>perbia, et forte inanis gloria. Invidia 
+au<lb ed="#Bc" break="no"/>tem et detractio et hujusmodi ad nullam
+<lb ed="#Bc"/>istarum radicum videntur reduci: cum
+<lb ed="#Bc"/>tamen dicat Glossa superius inducta,
+<lb ed="#Bc"/>quod ista tria universales radices sint
+<lb ed="#Bc"/>omnium malorum que sunt in mundo.
+</p>
+               <p xml:id="Almn78-h99282-d1e644">
+                  <lb ed="#Bc"/>Sotutro. Dicendum, quod omne 
+ma<lb ed="#Bc" break="no"/>lum ad has tres radices reducitur, sicut
+<lb ed="#Bc"/>dicit Glossa, et verum dicit.
+</p>
+               <p xml:id="Almn78-h99282-d1e653">
+                  <lb ed="#Bc"/>Er quop primo de concupiscentia 
+ocu<lb ed="#Bc" break="no"/>forum objicitur, dicendum quod 
+concu<lb ed="#Bc" break="no"/>piscentia oculorum dicitur 
+concupiscen<lb ed="#Bc" break="no"/>tia quinque sensuum. Et hoc propter
+<lb ed="#Bc"/>hoc, quia dicit Augustinus, quod visus
+<lb ed="#Bc"/>tenet principatum in sensibus : et ideo
+<lb ed="#Bc"/>concupiscentia oculorum plus quam ab
+<lb ed="#Bc"/>aliis sensibus denominatur. Unde omnis
+<lb ed="#Bc"/>curiosa et superflua investigatio rerum
+<lb ed="#Bc"/>ad sensus interiores vel exteriores 
+perti<lb ed="#Bc" break="no"/>nentium, dicitur reduci ad 
+concupiscen<lb ed="#Bc" break="no"/>tiam oculorum. Studia tamen 
+laudabi<lb ed="#Bc" break="no"/>lium et bonorum, sicut studia liberalium
+<lb ed="#Bc"/>scientiarum, bona sunt : et ideo ad ma
+<pb ed="#Bc" n="450"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>lam radicem non ordinantur. Sed 
+stu<lb ed="#Bc" break="no"/>dia magorum et necromanticorum, quia
+<lb ed="#Bc"/>mala sunt et superflua, et ab Ecclesia
+<lb ed="#Bc"/>interdicta: et licet actibus exterioribus
+<lb ed="#Bc"/>non subjaceant, tamen imaginationi 
+sub<lb ed="#Bc" break="no"/>jacent, que dicitur sensus interior. Quia
+<lb ed="#Bc"/>dicit Avicenna, quod decem sunt sensus
+<lb ed="#Bc"/>hominis, quinque exteriores, et quinque
+<lb ed="#Bc"/>interiores, Exteriores sunt visus, 
+audi<lb ed="#Bc" break="no"/>tus, odoratus, gustus, et tactus. 
+Interio<lb ed="#Bc" break="no"/>res sunt sensus communis, imaginatio,
+<lb ed="#Bc"/>phantasia, estimativa, et memoria. De
+<lb ed="#Bc"/>quibus dicit Augustinus super Genesim
+<lb ed="#Bc"/>ad litteram, quod licet exteriores divisi
+<lb ed="#Bc"/>sunt, tamen cum ad interiores 
+reducun<lb ed="#Bc" break="no"/>tur, omnes visus dicuntur. Et propter
+<lb ed="#Bc"/>hoc etiam visio in tres dividitur, scilicet
+<lb ed="#Bc"/>sensibilem, imaginariam, et 
+intellectua<lb ed="#Bc" break="no"/>lem, sicut dicit ibidem.
+</p>
+               <p xml:id="Almn78-h99282-d1e731">
+                  <lb ed="#Bc"/>Ad id quod queritur, Quid pertineat
+<lb ed="#Bc"/>ad concupiscentiam carnis ?
+</p>
+               <p xml:id="Almn78-h99282-d1e738">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Dicendum, sicut dicit Glossa, quod
+<lb ed="#Bc"/>illa omnia que pertinent ad gulam, 
+lu<lb ed="#Bc" break="no"/>xuriam, et hujusmodi, Tamen 
+concubi<lb ed="#Bc" break="no"/>tus matrimonialis in quo nihil est nisi
+<lb ed="#Bc"/>solutio debiti, ad hoc non pertinet, sed
+<lb ed="#Bc"/>ad justitiam scilicet : nisi esset, sicut dicit
+<lb ed="#Bc"/>Hieronymus, quod intentionem matri~
+<lb ed="#Bc"/>monii non haberet, nec fidem, nec 
+pro<lb ed="#Bc" break="no"/>lem, nec sacramentum intueretur: de
+<lb ed="#Bc"/>quo dicitur in sententiolis Sexti 
+Pytha<lb ed="#Bc" break="no"/>gorici, quod ardentior amator proprie
+<lb ed="#Bc"/>conjugis adulter est, ille scilicet qui nec
+<lb ed="#Bc"/>modum nature servat, nec bonum 
+ma<lb ed="#Bc" break="no"/>trimonii considerat.
+</p>
+               <p xml:id="Almn78-h99282-d1e773">
+                  <lb ed="#Bc"/>Quop avrem de superbia vite dicitur Adc
+<lb ed="#Bc"/>et invidia et detractione et his que ad
+<lb ed="#Bc"/>invidiam pertinent, quod ad superbiam
+<lb ed="#Bc"/>reducantur, dicendum quod reducuntur
+<lb ed="#Bc"/>ad eam: talis enim regine, scilicet 
+su<lb ed="#Bc" break="no"/>perbie, semper est invidia cum suis
+<lb ed="#Bc"/>fillabus pedissequa.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 74</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 74</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="56"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h12294"><!-- p2t12q74 -->
+            <head xml:id="Almn78-h12294-Hd1e106">Quaestio 74</head>
+            <head xml:id="Almn78-h12294-Hd1e109" type="question-title">
+    De causa formali et finali animae
+  </head>
+            <p xml:id="Almn78-h12294-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAISTIO LXXIV.
+<lb ed="#Bc"/>De causa formali et finali animae.
+</p>
+            <p xml:id="Almn78-h12294-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Consequenter queritur de causa 
+for<lb ed="#Bc" break="no"/>mali et finali anime.
+</p>
+            <p xml:id="Almn78-h12294-d1e130">
+               <lb ed="#Bc"/>Et videtur, quod nulla sit causa 
+for<lb ed="#Bc" break="no"/>malis anime : quia forme non est 
+for<lb ed="#Bc" break="no"/>nia : anima autem forma est : ergo nulla
+<lb ed="#Bc"/>causa formalis est anime.
+</p>
+            <p xml:id="Almn78-h12294-d1e142">
+               <lb ed="#Bc"/>ContRA :
+<lb ed="#Bc"/>Formavit Dominus hominem ad 
+ima<lb ed="#Bc" break="no"/>ginem et similitudinem suam ‘. 
+Con<lb ed="#Bc" break="no"/>stat, quod haec formatio non intelligitur
+<lb ed="#Bc"/>nisi secundum animam : ergo aliqua
+<lb ed="#Bc"/>forma est qua formatur anima.
+</p>
+            <p xml:id="Almn78-h12294-d1e158">
+               <lb ed="#Bc"/>Queritur etiam de fine ad quem facta
+<lb ed="#Bc"/>est anima rationalis.
+</p>
+            <p xml:id="Almn78-h12294-d1e165">
+               <lb ed="#Bc"/>1. Et dicit Augustinus in Enchiridion
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h12294-Qd1e171"> finis ejus reparatio ruine 
+ange<lb ed="#Bc" break="no"/>lice est. </quote>
+            </p>
+            <p xml:id="Almn78-h12294-d1e177">
+               <lb ed="#Bc"/>2. Adhuc, Anselmus in libro de Casu
+<lb ed="#Bc"/>diaboli, et libro Cur Deus homo dicit,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h12294-Qd1e185"> homo factus est ad ruinam 
+Ange<lb ed="#Bc" break="no"/>lorum reparandam. </quote>
+            </p>
+            <p xml:id="Almn78-h12294-d1e191">
+               <lb ed="#Bc"/>Sed contra hoc est, quod
+<lb ed="#Bc"/>1. Si secundum hoc Angelus non 
+ce<lb ed="#Bc" break="no"/>cidisset, homo conditus non fuisset : et
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>sic casus diaboli causa fuisset tanti boni,
+<lb ed="#Bc"/>quod valde inconveniens est.
+</p>
+            <p xml:id="Almn78-h12294-d1e207">
+               <lb ed="#Bc"/>2. Adhuc, Sicut dicit Dionysius in 
+li<lb ed="#Bc" break="no"/>bro de Divinis nominibus : <quote xml:id="Almn78-h12294-Qd1e213"> Exstasis
+<lb ed="#Bc"/>amoris et bonitatis divine non 
+permit<lb ed="#Bc" break="no"/>tebat Deum in seipso consistere, sed
+<lb ed="#Bc"/>communicare bonitatem suam, et 
+pro<lb ed="#Bc" break="no"/>ducere creaturas quibus se 
+communica<lb ed="#Bc" break="no"/>ret '. </quote> Ile ergo est finis et non alius,
+<lb ed="#Bc"/>propter quem creata est omnis creatura.
+<lb ed="#Bc"/>Cum ergo substantia spiritualis corpori
+<lb ed="#Bc"/>unibilis, possit frui bonitale sua bono
+<lb ed="#Bc"/>nature et gratie et glorie, videtur quod
+<lb ed="#Bc"/>summum bonum creaverit eam propter
+<lb ed="#Bc"/>hoc, et non propter aliud : largitati enim
+<lb ed="#Bc"/>divine non satis est uno modo frui ipsa,
+<lb ed="#Bc"/>sed omni modo.
+</p>
+            <p xml:id="Almn78-h12294-d1e245">
+               <lb ed="#Bc"/>3. Adhuc hoc videtur : quia in 
+li<lb ed="#Bc" break="no"/>bro II Sententiarum, distinctione prima,
+<lb ed="#Bc"/>cap. Ht quia non valet, dicit Magister
+<lb ed="#Bc"/>sic ex verbis Augustini: <quote xml:id="Almn78-h12294-Qd1e255"> Fecit Deus
+<lb ed="#Bc"/>rationalem creaturam que summum 
+bo<lb ed="#Bc" break="no"/>num intelligeret, et intelligendo amaret,
+<lb ed="#Bc"/>et amando possideret, et possidendo
+<lb ed="#Bc"/>frueretur, </quote>
+            </p>
+            <p xml:id="Almn78-h12294-d1e267">
+               <pb ed="#Bc" n="57"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>4. Adhuc, Ibidem, <quote xml:id="Almn78-h12294-Qd1e275"> Si queratur 
+qua<lb ed="#Bc" break="no"/>re factus sit homo vel Angelus? Brevi
+<lb ed="#Bc"/>sermone responderi potest : Propter 
+bo<lb ed="#Bc" break="no"/>nitatem Dei. </quote> Iste est ergo finis.
+</p>
+            <p xml:id="Almn78-h12294-d1e285">
+               <lb ed="#Bc"/>5. Adhuc, Ibidem <quote xml:id="Almn78-h12294-Qd1e289"> Si queritur, Ad
+<lb ed="#Bc"/>quid creata sit rationalis creatura? 
+Re<lb ed="#Bc" break="no"/>spondetur : Adlaudandum Deum, ad
+<lb ed="#Bc"/>serviendum ei, ad fruendum eo. </quote> Isti
+<lb ed="#Bc"/>ergo videntur esse fines, et non 
+repara<lb ed="#Bc" break="no"/>tio angelica ruine.
+</p>
+            <p xml:id="Almn78-h12294-d1e303">
+               <lb ed="#Bc"/>Solutio. Dicendum, quod forma 
+ani<lb ed="#Bc" break="no"/>me venustior et pulchrior quam habere
+<lb ed="#Bc"/>potuit est, quod sit ad imaginem Dei.
+<lb ed="#Bc"/>Imaginem dico creationis, recreationis,
+<lb ed="#Bc"/>et similitudinis : sic enim formatur ad
+<lb ed="#Bc"/>optimum et pulcherrimum.
+</p>
+            <p xml:id="Almn78-h12294-d1e319">
+               <lb ed="#Bc"/>Ad opsectum contra, dicendum, quod
+<lb ed="#Bc"/>forma non est forme in eodem genere,
+<lb ed="#Bc"/>sed in alio genere, hoc est, in superiori
+<lb ed="#Bc"/>potest esse forma forme : et illa est
+<lb ed="#Bc"/>etiam vera forma, ut dicit Boetius in
+<lb ed="#Bc"/>libro de Trinitate, sic: <quote xml:id="Almn78-h12294-Qd1e334"> Est exemplar
+<lb ed="#Bc"/>forma exempli, cum tamen utrumque sit
+<lb ed="#Bc"/>forma. </quote> Similiter anima rationalis que
+<lb ed="#Bc"/>forma est et actus corporis, habet 
+for<lb ed="#Bc" break="no"/>mam exemplar unius essentie divine in
+<lb ed="#Bc"/>tribus personis, ad quam facta est, sicut
+<lb ed="#Bc"/>in prehabitis dictum est, ubi querebatur
+<lb ed="#Bc"/>de imagine. Sic enim etiam secundum
+<lb ed="#Bc"/>Platonem mundus archetypus, qui in
+<lb ed="#Bc"/>mente divina est-et ipsa mens divina,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>forma et imago est totius istius mundi
+<lb ed="#Bc"/>sensibilis. Unde Boetius in libro V de
+<lb ed="#Bc"/>Consolatione philosophie :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h12294-Qd1e367">Mundum mente gerens pulchrum pulcherrimus
+[ipse,
+.. Similique imagine formans</quote>
+            </p>
+            <p xml:id="Almn78-h12294-d1e371">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur de fine,
+<lb ed="#Bc"/>dicendum quod duplex est finis, 
+princi<lb ed="#Bc" break="no"/>palis scilicet, et adjunctus. Principalis
+<lb ed="#Bc"/>est, qui tangitura Magistro in libro 
+se<lb ed="#Bc" break="no"/>cundo Sententiarum, distinctione 
+pri<lb ed="#Bc" break="no"/>ma, ut patet in objiciendo. Et ille 
+du<lb ed="#Bc" break="no"/>pliciter distinguitur, sicut in objectis
+<lb ed="#Bc"/>dictum est, scilicet ut summum bonum
+<lb ed="#Bc"/>intelligeret, et est hoc secundum 
+ordi<lb ed="#Bc" break="no"/>nem intellectus ad veritatem : et 
+intelli<lb ed="#Bc" break="no"/>gendo amaret, et est hoc secundum 
+ordi<lb ed="#Bc" break="no"/>nem voluntatis ad bonitatem : et 
+aman<lb ed="#Bc" break="no"/>do possideret, et hoc est secundum 
+or<lb ed="#Bc" break="no"/>dinem mentis et memoriae ad 
+beatitudi<lb ed="#Bc" break="no"/>nis eternitatem. Assignatio que ponitur
+<lb ed="#Bc"/>ibidem, scilicet ut Deo serviret, refertur
+<lb ed="#Bc"/>ad opus : ut Deum laudaret, refertur ad
+<lb ed="#Bc"/>os : ut Deo frueretur, refertur ad totum
+<lb ed="#Bc"/>hominem interius et exterius. Iste ergo
+<lb ed="#Bc"/>finis est principalis quare creata sit 
+ani<lb ed="#Bc" break="no"/>ma. Adjunctus autem finis est, qui 
+secu<lb ed="#Bc" break="no"/>tus est ex isto : et ille est reparatio 
+rui<lb ed="#Bc" break="no"/>ne angelice, sicut in prehabitis de casu
+<lb ed="#Bc"/>Angelorum dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

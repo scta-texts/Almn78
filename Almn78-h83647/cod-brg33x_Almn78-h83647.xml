@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 119</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 119</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="374"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h83647"><!-- p2t18q119 -->
+            <head xml:id="Almn78-h83647-Hd1e106">Quaestio 119</head>
+            <head xml:id="Almn78-h83647-Hd1e109" type="question-title">De ira</head>
+            <p xml:id="Almn78-h83647-d1e112">
+               <pb ed="#Bc" n="374"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO CXIX.
+<lb ed="#Bc"/>De ira.
+</p>
+            <p xml:id="Almn78-h83647-d1e123">
+               <lb ed="#Bc"/>Post acediam quae vicinitatem habet
+<lb ed="#Bc"/>cum invidia, eo quod utraque est afflictio
+<lb ed="#Bc"/>de bonis, sed invidia est afflictio de bonis
+<lb ed="#Bc"/>proximi, acedia vero de bonis propriis,
+<lb ed="#Bc"/>tractandum est de ira, de qua queremus
+<lb ed="#Bc"/>duo, scilicet de ira in se, et de filiabus
+<lb ed="#Bc"/>ejus.
+</p>
+            <div xml:id="Almn78-h83647-Dd1e141">
+               <head xml:id="Almn78-h83647-Hd1e143">Membrum 1</head>
+               <head xml:id="Almn78-h83647-Hd1e146" type="question-title">De ira secundum se</head>
+               <p xml:id="Almn78-h83647-d1e149">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De ira secundum se.
+  
+<lb ed="#Bc"/>De ira in se queremus duo, scilicet
+<lb ed="#Bc"/>quid sit ira ?
+<lb ed="#Bc"/>Et secundo, Quantum peccatum sil ?
+<lb ed="#Bc"/>et, Si semper est peccatum, vel 
+aliquan<lb ed="#Bc" break="no"/>do meritorium ?
+</p>
+               <div xml:id="Almn78-h83647-Dd1e167">
+                  <head xml:id="Almn78-h83647-Hd1e169">Articulus 1</head>
+                  <head xml:id="Almn78-h83647-Hd1e172" type="question-title">
+        Quid sit ira
+      </head>
+                  <p xml:id="Almn78-h83647-d1e175">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS 1,
+<lb ed="#Bc"/>Quid sit ira ?
+</p>
+                  <p xml:id="Almn78-h83647-d1e184">
+                     <lb ed="#Bc"/>Quaeritur ergo primo, Quid sit ira ?
+<lb ed="#Bc"/>Et tam a Sanctis quam a Philo-
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>sophis multe inveniuntur definitiones
+<lb ed="#Bc"/>ire.
+</p>
+                  <p xml:id="Almn78-h83647-d1e197">
+                     <lb ed="#Bc"/>1. Augustinus enim definiens iram
+<lb ed="#Bc"/>dicit sic : <quote xml:id="Almn78-h83647-Qd1e203"> Ita est tristitia ex impotentia,
+<lb ed="#Bc"/>ulciscendi. </quote> .
+</p>
+                  <p xml:id="Almn78-h83647-d1e210">
+                     <lb ed="#Bc"/>2. Super illud Psalmi vi, 2: Domine,’
+<lb ed="#Bc"/>ne in furore tuo arguas me, Cassiodorus
+<lb ed="#Bc"/>definit eam sic: <quote xml:id="Almn78-h83647-Qd1e218"> Ira est motus animi
+<lb ed="#Bc"/>concitatus ad poenam provocans 
+inferen<lb ed="#Bc" break="no"/>dam. </quote>
+                  </p>
+                  <p xml:id="Almn78-h83647-d1e226">
+                     <lb ed="#Bc"/>3. <name xml:id="Almn78-h83647-Nd1e230">Rabanus</name> sic super Mattheum, v,
+<lb ed="#Bc"/>22: Qui wrascitur fratri suo, reus erit
+<lb ed="#Bc"/>judicio: <quote xml:id="Almn78-h83647-Qd1e237"> Ira est omnis motus malus
+<lb ed="#Bc"/>ad nocendum. </quote>
+                  </p>
+                  <p xml:id="Almn78-h83647-d1e243">
+                     <lb ed="#Bc"/>4. Damascenus in libro II de Fide
+<lb ed="#Bc"/>orthodoxa sic definit : <quote xml:id="Almn78-h83647-Qd1e249"> Ira est accensio 
+<lb ed="#Bc"/>ejus qui circa cor est sanguinis ex 
+eva<lb ed="#Bc" break="no"/>poratione fellis</quote>
+                  </p>
+                  <p xml:id="Almn78-h83647-d1e257">
+                     <lb ed="#Bc"/>5. Philosophus sic : <quote xml:id="Almn78-h83647-Qd1e261"> Ira est appetitus
+<lb ed="#Bc"/>in vindictam. </quote> ,
+</p>
+                  <p xml:id="Almn78-h83647-d1e267">
+                     <lb ed="#Bc"/>Contra primam autem objicitur sic :
+</p>
+                  <p xml:id="Almn78-h83647-d1e272">
+                     <lb ed="#Bc"/>Videtur enim, quod ira non sit 
+tristi<lb ed="#Bc" break="no"/>tia : quia tristitia est una de passionibus
+<lb ed="#Bc"/>naluralibus que est de presenti malo;
+<lb ed="#Bc"/>ira autem non est in genere passionis,
+<lb ed="#Bc"/>cum dicat motum appetitus, et motus sit
+<lb ed="#Bc"/>operatio quedam.
+</p>
+                  <p xml:id="Almn78-h83647-d1e289">
+                     <lb ed="#Bc"/>Similiter, Objicitur contra secundam :
+<lb ed="#Bc"/>quia si est motus animi concitatus, tune
+<lb ed="#Bc"/>videtur, quod ira sit in genere motus, et
+<lb ed="#Bc"/>non in genere passionis : et sic secunda
+<lb ed="#Bc"/>non concordat cum prima.
+</p>
+                  <p xml:id="Almn78-h83647-d1e302">
+                     <pb ed="#Bc" n="375"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Similiter, Objicitur contra tertiam ;
+<lb ed="#Bc"/>1. Ponit enim iram in genere motus,
+<lb ed="#Bc"/>cum ira sit passio quedam, et passio non
+<lb ed="#Bc"/>est motus, licet sit movens.
+</p>
+                  <p xml:id="Almn78-h83647-d1e318">
+                     <lb ed="#Bc"/>2. Adhuce, Ira convenit Deo. Isa. xx1v,
+<lb ed="#Bc"/>5 : Bece tu iratus es, et peccavimus. In
+<lb ed="#Bc"/>ipsis fuimus semper. Nahum, 1, 2 : 
+Ulei<lb ed="#Bc" break="no"/>scens Dominus, et habens furorem : cum
+<lb ed="#Bc"/>tamen non conveniat Deo moveri, vel
+<lb ed="#Bc"/>pati passione aliqua.
+</p>
+                  <p xml:id="Almn78-h83647-d1e334">
+                     <lb ed="#Bc"/>Similiter, objicitur contra quartam:
+<lb ed="#Bc"/>secundum illam enim videtur ira esse
+<lb ed="#Bc"/>corporale vilium, et non spirituale, quod
+<lb ed="#Bc"/>falsum est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e345">
+                     <lb ed="#Bc"/>Similiter, Objicitur contra quintam et
+<lb ed="#Bc"/>ultimam ; quia appetitus vindicte potest
+<lb ed="#Bc"/>bene fieri, quando queritur vindicta de
+<lb ed="#Bc"/>malis. Apocal. vi, 10, Sancti sub altare
+<lb ed="#Bc"/>Dei clamant: Usqueguo, Domine (
+san<lb ed="#Bc" break="no"/>clus el verus) non gudicas et non 
+vindi<lb ed="#Bc" break="no"/>cas sanguinem nostrum de tis qui 
+habi<lb ed="#Bc" break="no"/>tant in terra? Tra autem cum sit capitale
+<lb ed="#Bc"/>vitium, non potest bene fieri.
+</p>
+                  <p xml:id="Almn78-h83647-d1e367">
+                     <lb ed="#Bc"/>Apuvuc, Contra omnes sic objicitur :
+<lb ed="#Bc"/>quia unius rei unica erit definitio que
+<lb ed="#Bc"/>indicat essé ipsius, secundum quod 
+signi<lb ed="#Bc" break="no"/>ficatur per nomen: hic autem ponuntur
+<lb ed="#Bc"/>multe definitiones de una re et eadem :
+<lb ed="#Bc"/>et hoc est inconveniens.
+</p>
+                  <p xml:id="Almn78-h83647-d1e384">
+                     <lb ed="#Bc"/>Solutio. Ad hoc ultimum dicendum,
+<lb ed="#Bc"/>quod licet ira unum sit vitium, tamen
+<lb ed="#Bc"/>multiplex est esse ipsius, quando 
+com<lb ed="#Bc" break="no"/>paratur ad causas suas. Est enim ira
+<lb ed="#Bc"/>quasi medium inter corporalia et 
+spiri<lb ed="#Bc" break="no"/>tualia vilia: et propter hoc aliquid habet
+<lb ed="#Bc"/>commune cum corporalibus, aliquid cum
+<lb ed="#Bc"/>spiritualibus. Et ideo diffinitur aliquando
+<lb ed="#Bc"/>per esse corporale, et aliquando per esse
+<lb ed="#Bc"/>spirituale. Quia, sicut dicit Aristoteles,
+<lb ed="#Bc"/>sicut motus anime perveniunt ad corpus,
+<lb ed="#Bc"/>ita motus corporis perveniunt ad 
+ani<lb ed="#Bc" break="no"/>mam, et utrumque mutatur ex 
+reli<lb ed="#Bc" break="no"/>quo.
+</p>
+                  <p xml:id="Almn78-h83647-d1e417">
+                     <lb ed="#Bc"/>Ad primum ergo dicendum, quod illa
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>datur de ira secundum ejus esse 
+spiri<lb ed="#Bc" break="no"/>tuale secundum quod proprie ponitur in
+<lb ed="#Bc"/>esse moris.
+</p>
+                  <p xml:id="Almn78-h83647-d1e430">
+                     <lb ed="#Bc"/>Et ad objectum contra, dicendum
+<lb ed="#Bc"/>quod licet tristitia sit passio et passibilis
+<lb ed="#Bc"/>qualitas, tamen est passio inferens 
+mo<lb ed="#Bc" break="no"/>tum in appetitu irascibilis potentie, ut
+<lb ed="#Bc"/>dicit Aristoteles. Et ideo non est 
+incon<lb ed="#Bc" break="no"/>veniens, quod ira ponatur et in genere
+<lb ed="#Bc"/>passionis, et in genere motus.
+</p>
+                  <p xml:id="Almn78-h83647-d1e448">
+                     <lb ed="#Bc"/>Et per hoc patet solutio ad secundum aq aiganit, 2.
+<lb ed="#Bc"/>et tertium.
+</p>
+                  <p xml:id="Almn78-h83647-d1e455">
+                     <lb ed="#Bc"/>Ad idquod objicitur, quod ita 
+conve<lb ed="#Bc" break="no"/>nit Deo, dicendum quod non convenit
+<lb ed="#Bc"/>Deo nisi per prosopopeiam, que dicitur
+<lb ed="#Bc"/>humana passio, quando scilicet 
+attri<lb ed="#Bc" break="no"/>builur Deo quod humanum est, dum
+<lb ed="#Bc"/>scilicet punit, quod facit homo irascens.
+</p>
+                  <p xml:id="Almn78-h83647-d1e471">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod 
+Damasce<lb ed="#Bc" break="no"/>nus definit iram secundum quod est in
+<lb ed="#Bc"/>genere nature, et nonin genere moris,
+<lb ed="#Bc"/>et convenit cum corporalibus vitiis : sic
+<lb ed="#Bc"/>enim spiritus amarus qui est in sanguine
+<lb ed="#Bc"/>et felle, movet irascibilem ut concitetur
+<lb ed="#Bc"/>ad iram et vindictam.
+</p>
+                  <p xml:id="Almn78-h83647-d1e490">
+                     <lb ed="#Bc"/>Ad id quod objicitur contra ultimam, aq aiffnits
+<lb ed="#Bc"/>dicendum quod appetitus in vindictam
+<lb ed="#Bc"/>de malis non est appetitus ire 
+simpli<lb ed="#Bc" break="no"/>citer, sed est appetitus per zelum, que
+<lb ed="#Bc"/>conjuncta est amori rectitudinis justitie.
+<lb ed="#Bc"/>ira enim talis non irascitur persone sive
+<lb ed="#Bc"/>nature, sed vitio sive peccato. Psal. 1,
+<lb ed="#Bc"/>3: Lrascimini, et nolite peccare. Et hee
+<lb ed="#Bc"/>est, sicut dicit Augustinus in Glossa
+<lb ed="#Bc"/>super epist. ad Hebreos, xu, 6, ira 
+pa<lb ed="#Bc" break="no"/>tris in filium indisciplinatum. Et, 
+Apo<lb ed="#Bc" break="no"/>cal. ml, 19: Ego quos amo, arguo et
+<lb ed="#Bc"/>castigo.
+</p>
+               </div>
+               <div xml:id="Almn78-h83647-Dd1e522">
+                  <head xml:id="Almn78-h83647-Hd1e524">Articulus 2</head>
+                  <head xml:id="Almn78-h83647-Hd1e527" type="question-title">
+          Quantum peccatum sit ira ? et, Si 
+          semper sit peccatum, vel aliquando 
+          meritorium ? et, An omnis ira per vitium
+          sit mortale ?
+        </head>
+                  <p xml:id="Almn78-h83647-d1e530">
+                     <pb ed="#Bc" n="376"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Quantum peccatum sit ira ? et, Si 
+sem<lb ed="#Bc" break="no"/>per sit peccatum, vel aliquando 
+me<lb ed="#Bc" break="no"/>ritorium ? et, An omnis ira per vitium
+<lb ed="#Bc"/>sit mortale ?
+</p>
+                  <p xml:id="Almn78-h83647-d1e550">
+                     <lb ed="#Bc"/>Secundo queritur, Quantum peccatum
+<lb ed="#Bc"/>sit ira? et cum hoc si semper sit 
+pecca<lb ed="#Bc" break="no"/>tum ?
+</p>
+                  <p xml:id="Almn78-h83647-d1e559">
+                     <lb ed="#Bc"/>Videtur autem, quod ira non sit 
+pecca<lb ed="#Bc" break="no"/>tum secundum se: quia
+</p>
+                  <p xml:id="Almn78-h83647-d1e567">
+                     <lb ed="#Bc"/>1. Quod potest bene vel male fieri, non
+<lb ed="#Bc"/>est peccatum secundum se: ira potest
+<lb ed="#Bc"/>bene et male fieri: ergo non est 
+pecca<lb ed="#Bc" break="no"/>tum secundum se. Et hoc dicit expresse
+<lb ed="#Bc"/>Chrysostomus super illud Psalmi iv, 5:
+<lb ed="#Bc"/>Irascimini, et nolite peccare, sic : <quote xml:id="Almn78-h83647-Qd1e582"> Quod
+<lb ed="#Bc"/>justum est, concessit : quod malum est,
+<lb ed="#Bc"/>prohibuit. </quote> Irasci ergo aliquando justum
+<lb ed="#Bc"/>est : et sic potest bene fieri et sine 
+pecca<lb ed="#Bc" break="no"/>to. Ergo non semper est peccatum.
+</p>
+                  <p xml:id="Almn78-h83647-d1e594">
+                     <lb ed="#Bc"/>2. Adhuc, Nullus actus qui secundum
+<lb ed="#Bc"/>se peccatum est, attribuitur Deo : ira
+<lb ed="#Bc"/>etiam cum furore attribuitur Deo. Psal.
+<lb ed="#Bc"/>cv, 40: Iratus est furore Dominus in
+<lb ed="#Bc"/>populum suum. Ergo videtur, quod 
+se<lb ed="#Bc" break="no"/>cundum se non sit peccatum.
+</p>
+                  <p xml:id="Almn78-h83647-d1e610">
+                     <lb ed="#Bc"/>3. Adhuc, Christus numquam 
+pecca<lb ed="#Bc" break="no"/>vit: tamen iratus fuit. Joan. nu, 15:
+<lb ed="#Bc"/>Cum fecisset quasi flagellum de 
+funi<lb ed="#Bc" break="no"/>culis, omnes egecit de templo. Videtur
+<lb ed="#Bc"/>ergo, quod ira secundum se non sit
+<lb ed="#Bc"/>peccatum.
+</p>
+                  <p xml:id="Almn78-h83647-d1e626">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Gregorius in Moralibus, ubi loquitur
+<lb ed="#Bc"/>de capitalibus vitiis, sic dicit : <quote xml:id="Almn78-h83647-Qd1e634"> Venialis
+<lb ed="#Bc"/>est ira que non ducitur ad effectum : si
+<lb ed="#Bc"/>ducitur ad effectum, malum est. </quote> Sed
+<lb ed="#Bc"/>omnis ira vel ducitur ad effectum, vel
+<lb ed="#Bc"/>non ducitur. Ergo omnis ira vel est
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>venialis, vel mortalis. Ergo omnis ira
+<lb ed="#Bc"/>malum est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e653">
+                     <lb ed="#Bc"/>2. Adhuc, Jacob. 1, 20: Ira viri 
+Justi<lb ed="#Bc" break="no"/>tiam Dei non operatur. Ft quod non
+<lb ed="#Bc"/>operatur justitiam, hoc malum est: ergo
+<lb ed="#Bc"/>omnis ira malum est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e664">
+                     <lb ed="#Bc"/>3. Adhuc, Matth. v, 22: Ego dico
+<lb ed="#Bc"/>vobis, quia omnis qui trascitur fratri
+<lb ed="#Bc"/>suo, reus ertt gudicio. Omne illud quod
+<lb ed="#Bc"/>facit hominem reum judicio, malum est.
+<lb ed="#Bc"/>Ergo omnis ira malum est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e678">
+                     <lb ed="#Bc"/>4, Adhuc, Ad Ephes. iv, 26: /
+rasci<lb ed="#Bc" break="no"/>mini, et nolile peccare: sol non oceidat
+<lb ed="#Bc"/>super iracundiam vestram. Ybi Glossa
+<lb ed="#Bc"/>dicit, quod <quote xml:id="Almn78-h83647-Qd1e688"> sol est splendor justilie et
+<lb ed="#Bc"/>veritatis et sapientie, quem iracundia
+<lb ed="#Bc"/>facit occumbere. </quote> Sed omne quod 
+aver<lb ed="#Bc" break="no"/>tit a lumine spirituali, peccatum est,
+<lb ed="#Bc"/>Ergo omnis ira peccatum est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e701">
+                     <lb ed="#Bc"/>5. Adhuc, Psal. tvu, 9: Supercecidit
+<lb ed="#Bc"/>ignis, et non viderunt solem. Ubi Glossa
+<lb ed="#Bc"/>dicit, quod <quote xml:id="Almn78-h83647-Qd1e709"> ira impedit ne splendeat
+<lb ed="#Bc"/>sol veritatis et justilie. </quote> Omne quod
+<lb ed="#Bc"/>tollit splendorem justitiae et veritatis,
+<lb ed="#Bc"/>peccatum mortale est. Ergo ira peccatum
+<lb ed="#Bc"/>mortale est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e722">
+                     <lb ed="#Bc"/>6. Adhuc, Ira numeratur inter 
+capi<lb ed="#Bc" break="no"/>talia peccata, que mortalia sunt. Ergo
+<lb ed="#Bc"/>ira peccatum mortale est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e731">
+                     <lb ed="#Bc"/>7. Adhuc, Damascenus : <quote xml:id="Almn78-h83647-Qd1e735"> Peccatum
+<lb ed="#Bc"/>est tenebra spiritualis.</quote> Et constat, quod
+<lb ed="#Bc"/>loquitur de peccato mortali: quia 
+ve<lb ed="#Bc" break="no"/>niale non tollit lumen gratia. Ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod illud peccatum quod maxime
+<lb ed="#Bc"/>tollit lumen gratie, maximum sit 
+pec<lb ed="#Bc" break="no"/>catum : ira tollit lumen gratie : ergo
+<lb ed="#Bc"/>maximum peccalum est, et semper 
+mor<lb ed="#Bc" break="no"/>tale.
+</p>
+                  <p xml:id="Almn78-h83647-d1e756">
+                     <lb ed="#Bc"/>Solutio. Dicendum ad primam partem
+<lb ed="#Bc"/>questionis, quod non omnis ira malum
+<lb ed="#Bc"/>est, neque peccatum: quia duplex est
+<lb ed="#Bc"/>ira secundum quod a Gregorio 
+distingui<lb ed="#Bc" break="no"/>tur et ab Isidoro, scilicet ira per zelum,
+<lb ed="#Bc"/>que bona est et virtus, scilicet quando
+<lb ed="#Bc"/>homo irascitur vitio, et non nature. Et
+<lb ed="#Bc"/>est ira per vitium, qua est mala, quando
+<lb ed="#Bc"/>scilicet irascitur nature et non vitio.
+</p>
+                  <p xml:id="Almn78-h83647-d1e778">
+                     <lb ed="#Bc"/>Auctoritates igitur ad primum indu
+<pb ed="#Bc" n="377"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>cte, intelliguntur de ira per zelum, et
+<lb ed="#Bc"/>vere sunt, et procedunt : quia sol 
+justi<lb ed="#Bc" break="no"/>tig non occidit super iracundiam illam,
+<lb ed="#Bc"/>sed potius illuminat sol justitie, gratia,
+<lb ed="#Bc"/>et rationis. Et hec est ira que cadit in
+<lb ed="#Bc"/>Deum : et non illa que est per vitium.
+<lb ed="#Bc"/>Et hoc est quod dicitur, Job, xin, 7:
+<lb ed="#Bc"/>Iratus est furor meus in te, et in duos
+<lb ed="#Bc"/>amicos tuos, quia non estis locutt coram
+<lb ed="#Bc"/>me rectum, sicut servus meus Job. Quia
+<lb ed="#Bc"/>non loqui rectum, vitium est in doctrina
+<lb ed="#Bc"/>veritatis et mortale peccatum : et illi ira~
+<lb ed="#Bc"/>scor, et non vobis. Et haec vocatur ira
+<lb ed="#Bc"/>per zelum, que nullum peccatum est,
+<lb ed="#Bc"/>imo meritum, ut dictum est. Et super
+<lb ed="#Bc"/>hance iram non occidit sol: quia dicitur,
+<lb ed="#Bc"/>Job, v,2 : Vere stultum interficit 
+ira<lb ed="#Bc" break="no"/>cundia. Stultus est qui lumen 
+discretio<lb ed="#Bc" break="no"/>nis amisit.
+</p>
+                  <p xml:id="Almn78-h83647-d1e829">
+                     <lb ed="#Bc"/>Ad id quod queritur, Utrum omnis
+<lb ed="#Bc"/>ira per vitium sit mortale peccatum ?
+</p>
+                  <p xml:id="Almn78-h83647-d1e836">
+                     <lb ed="#Bc"/>Dicendum quod non, sed aliquando
+<lb ed="#Bc"/>est veniale, aliquando mortale. Et hoc
+<lb ed="#Bc"/>estimandum est et cogitandum ex 
+quan<lb ed="#Bc" break="no"/>titate lesionis quam intendit inferre 
+ira<lb ed="#Bc" break="no"/>scens. Et hoc accipitur ex verbis 
+Augu<lb ed="#Bc" break="no"/>stiniin Regula, ubi sic dicit : <quote xml:id="Almn78-h83647-Qd1e851"> Si quis
+<lb ed="#Bc"/>vestrum criminis objectu et convicio
+<lb ed="#Bc"/>aliquem leserit, non pigeat ex ipso ore
+<lb ed="#Bc"/>proferre medicamenta, unde facta sunt
+<lb ed="#Bc"/>vulnera: et quamcitius curare quod
+<lb ed="#Bc"/>fecit, ne ira crescat in odium, et trabem
+<lb ed="#Bc"/>faciat de festuca, et animam faciat 
+homi<lb ed="#Bc" break="no"/>cidam.</quote> Hoc enim ideo dicit, quia
+<lb ed="#Bc"/>primi motus ire qui non sunt ad magna
+<lb ed="#Bc"/>nocumenta, veniales sunt. Servata 
+au<lb ed="#Bc" break="no"/>tem ira, que odium est secundum 
+Gre<lb ed="#Bc" break="no"/>gorium, et ad magnum nocumentum,
+<lb ed="#Bc"/>peccatum mortale est. Eceli. xxviu, 3:
+<lb ed="#Bc"/>Homo homini reservat iram, et a Deo
+<lb ed="#Bc"/>querit medelam. Quasi dicat: Non
+<lb ed="#Bc"/>inveniet. Et ideo addit Augustinus :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h83647-Qd1e888"> Ne ira crescat in odium, et trabem
+<lb ed="#Bc"/>faciat de festuca, etc. </quote> Sic enim legitis,
+<lb ed="#Bc"/>I] Joan. um, 15: Omnis: qui odit fratrem
+<lb ed="#Bc"/>suum, homicida est.
+</p>
+                  <p xml:id="Almn78-h83647-d1e899">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Et per hoc patet solutio ad totum
+<lb ed="#Bc"/>quesitum pro hac parte.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-h83647-Dd1e911">
+               <head xml:id="Almn78-h83647-Hd1e913">Membrum 2</head>
+               <head xml:id="Almn78-h83647-Hd1e916" type="question-title">De filiabus irae</head>
+               <p xml:id="Almn78-h83647-d1e919">
+                  <lb ed="#Bc"/>MEMBRUM IT.
+<lb ed="#Bc"/>De filiabus irae.
+</p>
+               <p xml:id="Almn78-h83647-d1e926">
+                  <lb ed="#Bc"/>Dewpe, Queritur de filiabus ire quas
+<lb ed="#Bc"/>Gregorius dicit esse sex, sic: <quote xml:id="Almn78-h83647-Qd1e932"> De ira
+<lb ed="#Bc"/>rixe, tumor mentis, contumelie, 
+cla<lb ed="#Bc" break="no"/>mor, indignatio, blasphemie 
+profe<lb ed="#Bc" break="no"/>runtur. </quote> Et haec simul in una 
+auctori<lb ed="#Bc" break="no"/>tate dicuntur ab Apostolo, ad Ephes. iv,
+<lb ed="#Bc"/>31: Ira, et indignatio, et clamor, et
+<lb ed="#Bc"/>blasphemia tollatur a vobis.
+</p>
+               <p xml:id="Almn78-h83647-d1e949">
+                  <lb ed="#Bc"/>Numerus autem harum filiarum sic
+<lb ed="#Bc"/>accipitur : Jra enim est appetitus in 
+vin<lb ed="#Bc" break="no"/>dictam, ut dictum est. Aut igitur est in
+<lb ed="#Bc"/>signo, aut in re. Si in signo: non est
+<lb ed="#Bc"/>nisi subtractio benevolentie que 
+debe<lb ed="#Bc" break="no"/>tur proximo: et hec sunt in signo et
+<lb ed="#Bc"/>aversione vultus : quod fit cum 
+indigna<lb ed="#Bc" break="no"/>tione, quod scilicet non dignatur ei 
+debi<lb ed="#Bc" break="no"/>tam et consuetam benevolentiam 
+exhi<lb ed="#Bc" break="no"/>bere. Si in re : aut est in verbo, aut in
+<lb ed="#Bc"/>facto. Si est in verbo, aut est in Deum,
+<lb ed="#Bc"/>qui non permittit vindictam fieri, aut in
+<lb ed="#Bc"/>proximum in quem intendit vindicare.
+<lb ed="#Bc"/>Si est in Deum : tune est blasphemia,
+<lb ed="#Bc"/>quia blasphemia est impositio falsi 
+cri<lb ed="#Bc" break="no"/>minis in Deum, et hoc procedit ex ira,
+<lb ed="#Bc"/>quando culpat Deum, quod non vindicat
+<lb ed="#Bc"/>in eum cui irascitur. Et est contra hoc
+<lb ed="#Bc"/>verbum Apostoli, ad Roman. xn, 19:
+<lb ed="#Bc"/>Secriptum est enim: Mihi vindicta, ego
+<lb ed="#Bc"/>retribuam, dicit Dominus *. Si in 
+proxi<lb ed="#Bc" break="no"/>mum : tune est maledictum, quod 
+Isido<lb ed="#Bc" break="no"/>rus ponit filiam : et est contra hoc 
+ver<lb ed="#Bc" break="no"/>bum Apostoli, ad Roman. xm, 17: Nulla
+<lb ed="#Bc"/>malum pro malo reddentes. Et supra,
+<lb ed="#Bc"/>y. 14 : Benedicite, et nolite maledicere.
+<lb ed="#Bc"/>Si autem est in re: tunc aut est in
+<lb ed="#Bc"/>corde, aut in opere. Si in corde: tunc
+<pb ed="#Bc" n="378"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>est tumor mentis, quando scilicet elata
+<lb ed="#Bc"/>mens indignum reputat, quod talia 
+susti<lb ed="#Bc" break="no"/>net sine vindicta. Si est in opere : tune
+<lb ed="#Bc"/>est riza. Unde Augustinus super illud
+<lb ed="#Bc"/>Apostoli, ad Galalt. v, 15 : Quod invicem
+<lb ed="#Bc"/>mordetis, ef comeditis, etc. <quote xml:id="Almn78-h83647-Qd1e1029"> Rixa est,
+<lb ed="#Bc"/>quando ex ira invicem se percutiunt. </quote>
+                  <lb ed="#Bc"/>Et ratio dicti est, quia -proprie corrixari
+<lb ed="#Bc"/>aprorum est, quando dentibus se 
+invi<lb ed="#Bc" break="no"/>cem secant, sicut etiam irati se invicem
+<lb ed="#Bc"/>secant verbo et facto. Contumelia autem
+<lb ed="#Bc"/>oritur ex ira, quando mens exasperata
+<lb ed="#Bc"/>et vindictam appetens, per maledictum
+<lb ed="#Bc"/>contumeliam profert in proximum 
+crimi<lb ed="#Bc" break="no"/>nis objectu. Clamor vero ex ira oritur,
+<lb ed="#Bc"/>quando per iracundiam subsannando
+<lb ed="#Bc"/>maledictum profertur in proximum cum
+<lb ed="#Bc"/>clamore et subsannatione.
+</p>
+               <p xml:id="Almn78-h83647-d1e1060">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Objicitur autem: quia ab Isidoro
+<lb ed="#Bc"/>odium ponitur filia ire, quam Gregorius
+<lb ed="#Bc"/>non ponit: et sic videtur insufliciens
+<lb ed="#Bc"/>esse.
+</p>
+               <p xml:id="Almn78-h83647-d1e1073">
+                  <lb ed="#Bc"/>Sed ad hoc dicendum, quod odium
+<lb ed="#Bc"/>non addit differentiam specificam super
+<lb ed="#Bc"/>iram, sed accidentalem tantum: quia
+<lb ed="#Bc"/>odium est inveterata ira, ut dicit 
+Augu<lb ed="#Bc" break="no"/>stinus : et in Regula ejusdem dicitur :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h83647-Qd1e1088"> Ne ira crescat in odium, etc., </quote> sicut
+<lb ed="#Bc"/>superius notatum est. Secundum 
+Grego<lb ed="#Bc" break="no"/>rium autem filie alicujus vitii dicuntur,
+<lb ed="#Bc"/>que specifica differentia inter se 
+dilfe<lb ed="#Bc" break="no"/>runt, sed per aliquam occasionem ex
+<lb ed="#Bc"/>capitali vitio oriuntur.
+</p>
+               <p xml:id="Almn78-h83647-d1e1103">
+                  <lb ed="#Bc"/>Et haec dicta de filiabus ire 
+suffi<lb ed="#Bc" break="no"/>ciant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 70</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 70</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="19"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-hh4092"><!-- p2t12q70 -->
+            <head xml:id="Almn78-hh4092-Hd1e106">Quaestio 70</head>
+            <head xml:id="Almn78-hh4092-Hd1e109" type="question-title">
+    Quid anima in se sit et per se
+  </head>
+            <p xml:id="Almn78-hh4092-d1e112">
+               <lb ed="#Bc"/>QUAESTIO LXX.
+<lb ed="#Bc"/>Quid anima in se sit et per se?
+</p>
+            <p xml:id="Almn78-hh4092-d1e119">
+               <lb ed="#Bc"/>Deinde queritur, Quid insit anime per
+<lb ed="#Bc"/>se?
+</p>
+            <p xml:id="Almn78-hh4092-d1e126">
+               <lb ed="#Bc"/>Et queruntur tria, scilicet si sit anima
+<lb ed="#Bc"/>simplex vel composita,et maxime hominis?
+<lb ed="#Bc"/>Et secundo, Utrum anima sit sua 
+po<lb ed="#Bc" break="no"/>tentia, vel non ?
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Et tertio, Quomodo dividitur in 
+vege<lb ed="#Bc" break="no"/>tabilem, sensibilem, et rationalem? et,
+<lb ed="#Bc"/>Utrum sit in homine una substantia 
+ani<lb ed="#Bc" break="no"/>mz in his tribus potentiis ?
+</p>
+            <div xml:id="Almn78-hh4092-Dd1e149">
+               <head xml:id="Almn78-hh4092-Hd1e151">Membrum 1</head>
+               <head xml:id="Almn78-hh4092-Hd1e154" type="question-title">
+        Utrum anima et maxime hominis sit
+        simplex, vel composita
+      </head>
+               <p xml:id="Almn78-hh4092-d1e157">
+                  <pb ed="#Bc" n="20"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum anima et maxime hominis sit
+<lb ed="#Bc"/>simplex, vel composita?
+</p>
+               <p xml:id="Almn78-hh4092-d1e170">
+                  <lb ed="#Bc"/>Ad primom objicitur sic :
+<lb ed="#Bc"/>1. Augustinus in libro de Spiritu et
+<lb ed="#Bc"/>anima: <quote xml:id="Almn78-hh4092-Qd1e178"> Si anima dicitur habere partes,
+<lb ed="#Bc"/>ratione potius similitudinis quam veritate
+<lb ed="#Bc"/>compositionis intelligendum est. 
+Sim<lb ed="#Bc" break="no"/>plex enim substantia est, nec aliud nec
+<lb ed="#Bc"/>minus est ratio in substantia quam ipsa
+<lb ed="#Bc"/>anima. </quote> Ex hoc accipitur, quod anima
+<lb ed="#Bc"/>non est composita, sed simplex in 
+sub<lb ed="#Bc" break="no"/>stantia.
+</p>
+               <p xml:id="Almn78-hh4092-d1e197">
+                  <lb ed="#Bc"/>2. Adhuc, Si anima est composita
+<lb ed="#Bc"/>quantitate compositionis : tunc in majori
+<lb ed="#Bc"/>corpore esset major, et in minori minor:
+<lb ed="#Bc"/>quod aperte est falsum: ergo videtur,
+<lb ed="#Bc"/>quod anima est simplex.
+</p>
+               <p xml:id="Almn78-hh4092-d1e211">
+                  <lb ed="#Bc"/>3. Adhuc, Sicut in antehabitis 
+deter<lb ed="#Bc" break="no"/>minatum est, Augustinus dicit in libro
+<lb ed="#Bc"/>de Spiritu et anima, quod <quote xml:id="Almn78-hh4092-Qd1e219"> anima est
+<lb ed="#Bc"/>omnia sua, sicut Deus est omnia sua: </quote>
+                  <lb ed="#Bc"/>et hoc non potest esse nisi sit simplex et
+<lb ed="#Bc"/>in fine simplicitatis : ergo anima non est
+<lb ed="#Bc"/>composita, sed simplex.
+</p>
+               <p xml:id="Almn78-hh4092-d1e232">
+                  <lb ed="#Bc"/>4, Adhuc, Ibidem dicit Augustinus *,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-hh4092-Qd1e238"> anima videt in oculo, audit in
+<lb ed="#Bc"/>aure, et sic de aliis potentiis: ita quod in
+<lb ed="#Bc"/>singulis tota operatur et tota est.</quote> Ergo
+<lb ed="#Bc"/>videtur, quod simplex sit: quia aliter in|
+<lb ed="#Bc"/>qualibet non posset esse tota, sed esset
+<lb ed="#Bc"/>in una potentia secundum unam partem,
+<lb ed="#Bc"/>et in alia potentia secundum aliam 
+par<lb ed="#Bc" break="no"/>tem.
+</p>
+               <p xml:id="Almn78-hh4092-d1e257">
+                  <lb ed="#Bc"/>3. Adhuc, Ibidem, Augustinus: <quote xml:id="Almn78-hh4092-Qd1e261"> 
+Ani<lb ed="#Bc" break="no"/>ma in quibusdam suis motibus vel acti
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>bus tota simul adest. Tota videt, et tota
+<lb ed="#Bc"/>visorum meminit. Tota audit, et tota 
+so<lb ed="#Bc" break="no"/>norum reminiscilur. Tota odorat, et tota
+<lb ed="#Bc"/>odores recolit. Tota per linguam et 
+pa<lb ed="#Bc" break="no"/>latum sapores sentit et discernit. Tota
+<lb ed="#Bc"/>tangit dura et mollia. Tota simul 
+appro<lb ed="#Bc" break="no"/>bat vel improbat. </quote> Et paulo post:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-hh4092-Qd1e285"> Tota est visus, tofa est auditus, tota
+<lb ed="#Bc"/>meminit: et cum tota meminit, tota est
+<lb ed="#Bc"/>memoria. Cum tota vult, tota est 
+volun<lb ed="#Bc" break="no"/>tas. Cum tota cogitat, tota est cogitatio.
+<lb ed="#Bc"/>Cum tota diligit, tota est dilectio. </quote>
+               </p>
+               <p xml:id="Almn78-hh4092-d1e297">
+                  <lb ed="#Bc"/>6. Adhuc, Infra : <quote xml:id="Almn78-hh4092-Qd1e301"> Anima est 
+sub<lb ed="#Bc" break="no"/>stantia spiritualis simplex, 
+indissolubi<lb ed="#Bc" break="no"/>lis‘. </quote> Ergo videtur, quod simplex sit,
+<lb ed="#Bc"/>nullam habens compositionem penitus.
+</p>
+               <p xml:id="Almn78-hh4092-d1e311">
+                  <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>Gregorius Nyssenus in libro de 
+Homi<lb ed="#Bc" break="no"/>ne: <quote xml:id="Almn78-hh4092-Qd1e319"> Anima est substantia ut subjectum
+<lb ed="#Bc"/>quod substat accidentibus: substat enim
+<lb ed="#Bc"/>vitiis vel virtutibus et passionibus, et
+<lb ed="#Bc"/>mutatur secundum illas *. </quote> Sed omne
+<lb ed="#Bc"/>quod substat habitibus et passionibus et
+<lb ed="#Bc"/>mutatur secundum illa, est substantia
+<lb ed="#Bc"/>composita ex quale quid et hoc aliquid.
+<lb ed="#Bc"/>Ergo anima est substantia essentialiter
+<lb ed="#Bc"/>composita ex quale quid et hoc aliquid.
+</p>
+               <p xml:id="Almn78-hh4092-d1e340">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod anima et
+<lb ed="#Bc"/>maxime hominis, que arte et 
+providen<lb ed="#Bc" break="no"/>tia regit corpus ut nauta navim, 
+compo<lb ed="#Bc" break="no"/>sita est ex hoc aliquid. Et nisi ita 
+dica<lb ed="#Bc" break="no"/>tur, dicit Gregorius, quod sequitur
+<lb ed="#Bc"/>quod corpore destructo destruitur 
+ani<lb ed="#Bc" break="no"/>ma. Talis enim substantia comparatur
+<lb ed="#Bc"/>ad corpus ut motor, qui arte et 
+in<lb ed="#Bc" break="no"/>tentione movet: que non potest esse
+<lb ed="#Bc"/>forma simplex : quia forma simplex 
+mo<lb ed="#Bc" break="no"/>vere non potest, nisi motu generantis,
+<lb ed="#Bc"/>hoc est, quod generans inducit ei 
+for<lb ed="#Bc" break="no"/>mam per generationem: et generata in
+<lb ed="#Bc"/>forma naturali ex equo participant 
+con<lb ed="#Bc" break="no"/>sequentia naturalem formam, que sunt
+<pb ed="#Bc" n="21"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>motus et locus. Ideo nihil talium 
+move<lb ed="#Bc" break="no"/>tur in loco suo: sed sicut quiescunt a
+<lb ed="#Bc"/>certa forma in esse quod est actus illius
+<lb ed="#Bc"/>forme, ita quiescunt in locis 
+consequen<lb ed="#Bc" break="no"/>tibus illam formam, sicut ignis sursum,
+<lb ed="#Bc"/>et terra deorsum. Et propter hoc etiam
+<lb ed="#Bc"/>locus unum de principiis corporis 
+mobi<lb ed="#Bc" break="no"/>lis esse ponitur inIV Physicorum. In 
+ani<lb ed="#Bc" break="no"/>matis autem que moventur in locis suis,
+<lb ed="#Bc"/>necesse est esse motorem compositum
+<lb ed="#Bc"/>ad minus ex motivo cognitivo, et ex
+<lb ed="#Bc"/>moto appetitivo : qui appetitus motus
+<lb ed="#Bc"/>movet corpus, et extendit organa ejus,
+<lb ed="#Bc"/>que sunt partes ejus, ad acquirendum
+<lb ed="#Bc"/>id quod appetitur : et sic motivum 
+cogni<lb ed="#Bc" break="no"/>tivum tunc in sensibili anima vel est
+<lb ed="#Bc"/>phantasia vel estimativa. In rationali
+<lb ed="#Bc"/>autem quando secundum rationem 
+mo<lb ed="#Bc" break="no"/>velur, est intellectus practicus : quia non
+<lb ed="#Bc"/>fit motus nisi fiat nuntium de motu:
+<lb ed="#Bc"/>nuntium autem non fit ad animam, nisi
+<lb ed="#Bc"/>per phantasiam vel intellectum. Et hujus
+<lb ed="#Bc"/>causa est quod dicit Auguslinus super
+<lb ed="#Bc"/>Genesim ad litteram, et Aristoteles in
+<lb ed="#Bc"/>III de Anima, quod omnis anima 
+move<lb ed="#Bc" break="no"/>tur visis. Visa autem non sunt nisi 
+se<lb ed="#Bc" break="no"/>cundum sensibilem partem vel 
+intellecti<lb ed="#Bc" break="no"/>vam : vegetabilia enim non moventur
+<lb ed="#Bc"/>nisi anatura motu nutrimenti, 
+augmen<lb ed="#Bc" break="no"/>ti, et generativo. Gum ergo anima 
+ratio<lb ed="#Bc" break="no"/>nalis moveatur, de necessitate exigitur,
+<lb ed="#Bc"/>quod sit composita ex movente cognitivo
+<lb ed="#Bc"/>et ex moto appetitivo : quod ulterius sic
+<lb ed="#Bc"/>motum movet corpus et organum : et sic
+<lb ed="#Bc"/>composita est de necessitate ex quod est
+<lb ed="#Bc"/>et quo est : quod est autem est id quod
+<lb ed="#Bc"/>substat et supponitur in omni natura:
+<lb ed="#Bc"/>quo est, est id quod nulli potest 
+substa<lb ed="#Bc" break="no"/>re, sed sibi substat quod est. Et hoc est
+<lb ed="#Bc"/>quod dicit Boetius in principio de 
+Heb<lb ed="#Bc" break="no"/>domadibus, et unum est de principiis ibi
+<lb ed="#Bc"/>suppositis: et dicit sic, <quote xml:id="Almn78-hh4092-Qd1e470"> Quod est habet
+<lb ed="#Bc"/>aliquid preter id quod ipsum est: quo
+<lb ed="#Bc"/>est vero nulli potest esse subjectum. </quote>
+  
+                  <lb ed="#Bc"/>His 1ra notatis, facile est respondere
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>objectis : omnes enim auctoritates 
+in<lb ed="#Bc" break="no"/>ducte loquuntur de simplicitate illa que
+<lb ed="#Bc"/>est exclusio compositionis quantitative
+<lb ed="#Bc"/>et corporalis, et nihil loquantur de 
+exclu<lb ed="#Bc" break="no"/>sione compositionis essentialis, que est
+<lb ed="#Bc"/>ex quod est et quo est: quam necesse
+<lb ed="#Bc"/>est in omni eo esse quod est creatum : et
+<lb ed="#Bc"/>non excluditur nisi ab uno solo primo, in
+<lb ed="#Bc"/>quo est idem esse quod est, ut probant
+<lb ed="#Bc"/>Philosophi omnes generaliter et 
+concor<lb ed="#Bc" break="no"/>diter de eo quod simpliciter est, et 
+ab<lb ed="#Bc" break="no"/>solute necesse est esse, quod est primum
+<lb ed="#Bc"/>principium esse, quod tacit debere esse
+<lb ed="#Bc"/>in omni eo quod est. -
+</p>
+               <p xml:id="Almn78-hh4092-d1e513">
+                  <lb ed="#Bc"/>Ad omnes auctoritates inductas patet
+<lb ed="#Bc"/>solutio per predicta.
+</p>
+               <p xml:id="Almn78-hh4092-d1e520">
+                  <lb ed="#Bc"/>Id quod in contrarium est, 
+conceden<lb ed="#Bc" break="no"/>dum est : quia hoc procedit.
+</p>
+            </div>
+            <div xml:id="Almn78-hh4092-Dd1e528">
+               <head xml:id="Almn78-hh4092-Hd1e530">Membrum 2</head>
+               <head xml:id="Almn78-hh4092-Hd1e533" type="question-title">
+        Utrum anima sit sua potentia, vel
+        non
+      </head>
+               <p xml:id="Almn78-hh4092-d1e536">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum anima sit sua potentia, vel
+<lb ed="#Bc"/>non?
+</p>
+               <p xml:id="Almn78-hh4092-d1e545">
+                  <lb ed="#Bc"/>Juxta hoc queritur, Si propter 
+sim<lb ed="#Bc" break="no"/>plicitatem anime anima sit sua potentia,
+<lb ed="#Bc"/>vel non?
+</p>
+               <p xml:id="Almn78-hh4092-d1e554">
+                  <lb ed="#Bc"/>Hoc enim videtur ex quibusdam 
+ver<lb ed="#Bc" break="no"/>bis Augustini.
+</p>
+               <p xml:id="Almn78-hh4092-d1e562">
+                  <lb ed="#Bc"/>1. Dicit enim Augustinus in libro de
+<lb ed="#Bc"/>Spiritu et anima: <quote xml:id="Almn78-hh4092-Qd1e568"> Anima secundum
+<lb ed="#Bc"/>operis sui officium variis nuncupatur
+<lb ed="#Bc"/>nominibus. Dicitur namque anima dum
+<lb ed="#Bc"/>vegetat, spiritus dum  contemplatur,
+<lb ed="#Bc"/>sensus dum sentit, animus dum sapit.:
+<lb ed="#Bc"/>dum intelligit, mens : dum discernit,
+<lb ed="#Bc"/>ratio : dum recordatur, memoria : dum
+<lb ed="#Bc"/>vult, voluntas. Ista tamen non differunt
+<lb ed="#Bc"/>in substantia quemadmodum differunt
+<lb ed="#Bc"/>in nominibus: quoniam omnia ista una
+<lb ed="#Bc"/>anima est, proprietates quidem diverse,
+<lb ed="#Bc"/>sed essentia una. </quote>
+               </p>
+               <p xml:id="Almn78-hh4092-d1e595">
+                  <pb ed="#Bc" n="22"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>2. Adhuc, ibidem : <quote xml:id="Almn78-hh4092-Qd1e603"> Anima habet
+<lb ed="#Bc"/>naturalia, et ipsa omnia est. Potentia
+<lb ed="#Bc"/>namque et vires idem sunt quod ipsa.
+<lb ed="#Bc"/>Habet accidentalia, et ipsa non est. Suz
+<lb ed="#Bc"/>vires est, sue virtutes non est : non
+<lb ed="#Bc"/>enim est sua prudentia, sua 
+temperan<lb ed="#Bc" break="no"/>tia, sua fortitudo, sua justitia. Potentie
+<lb ed="#Bc"/>anime sunt sua rationabilitas, suus
+<lb ed="#Bc"/>sensus, sua ratio, suus intellectus, et
+<lb ed="#Bc"/>illa omnia est. </quote>
+               </p>
+               <p xml:id="Almn78-hh4092-d1e626">
+                  <lb ed="#Bc"/>3. Ad hoc idem objiciunt quidam per
+<lb ed="#Bc"/>rationem. Dicunt enim quod anima est
+<lb ed="#Bc"/>imago materiae prime : quia sicut 
+mate<lb ed="#Bc" break="no"/>ria prima receptibilis est omnium 
+forma<lb ed="#Bc" break="no"/>rum : ita anima receptibilis est omnium
+<lb ed="#Bc"/>specierum sensibilium et intelligibilium.
+<lb ed="#Bc"/>Et ex hoc inferunt a positione 
+antece<lb ed="#Bc" break="no"/>dentis : sed materia prima per seipsam
+<lb ed="#Bc"/>receptibilis est et potentialis ad omnem
+<lb ed="#Bc"/>formam : ergo anima per seipsam et
+<lb ed="#Bc"/>per hoc quod ipsa est, receptibilis est
+<lb ed="#Bc"/>omnium formarum : ergo ipsa secundum
+<lb ed="#Bc"/>seipsam est potentia sua, qua operatur
+<lb ed="#Bc"/>omnia et agit et recipit.
+</p>
+               <p xml:id="Almn78-hh4092-d1e659">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Sianima est potentia sua, tunc idem
+<lb ed="#Bc"/>est in ea quod est et quo operatur : et
+<lb ed="#Bc"/>cum ipsa sit una simplex, non plura in
+<lb ed="#Bc"/>esse, sequitur, quod non sit nisi 
+poten<lb ed="#Bc" break="no"/>tia una, quod absurdum est.
+</p>
+               <p xml:id="Almn78-hh4092-d1e675">
+                  <lb ed="#Bc"/>2. Adhuc, Per se notum est et 
+digni<lb ed="#Bc" break="no"/>tas, quod quecumque uni et eidem sunt
+<lb ed="#Bc"/>eadem, ipsa sunt eadem. Si ergo anima
+<lb ed="#Bc"/>est quelibet sua potentia : tunc anima
+<lb ed="#Bc"/>est suus sensus, et sensus idem est quod
+<lb ed="#Bc"/>anima : et anima est suus intellectus, et
+<lb ed="#Bc"/>intellectus idem est quod anima : ergo
+<lb ed="#Bc"/>intellectus idem est quod sensus, per
+<lb ed="#Bc"/>dignitatem paulo ante introductam.
+</p>
+               <p xml:id="Almn78-hh4092-d1e697">
+                  <lb ed="#Bc"/>3. Adhuc, Constat, quod potentia
+<lb ed="#Bc"/>naturalis cujuslibet rei ab essentialibus
+<lb ed="#Bc"/>fluit ipsius, et est consequens esse
+<lb ed="#Bc"/>potentie ergo naturales anime sive
+<lb ed="#Bc"/>cognitive sive motive sunt fluentes ab
+<lb ed="#Bc"/>essentialibus anime, et sunt sequentes
+<lb ed="#Bc"/>esse anime : sed consequens esse 
+ali<lb ed="#Bc" break="no"/>cujus, numquam potest esse idem cum
+<lb ed="#Bc"/>ipso : ergo nulla potentia anime potest
+<lb ed="#Bc"/>esse idem cum anima.
+</p>
+               <p xml:id="Almn78-hh4092-d1e722">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Sotvtio. Dicendum, quod anima nullo
+<lb ed="#Bc"/>modo est sua potentia, sicut probant 
+ulti<lb ed="#Bc" break="no"/>me rationes. Et quod in libro de Spirttu
+<lb ed="#Bc"/>et Anima (qui Augustini dicitur) 
+dici<lb ed="#Bc" break="no"/>tur, quod anima est sue vires, sive sue
+<lb ed="#Bc"/>potentia : non propter hoc dicitur, quod
+<lb ed="#Bc"/>eadem sit potentia anime et essentia :
+<lb ed="#Bc"/>sed dicitur propter hoc, quod anima 
+se<lb ed="#Bc" break="no"/>cundum essentialem actum vite et 
+ope<lb ed="#Bc" break="no"/>rationem et rationem qua est actus et
+<lb ed="#Bc"/>ratio corporis, adest cuilibet potentie et
+<lb ed="#Bc"/>cuilibet organo in quo sita est potentia
+<lb ed="#Bc"/>illa : et quia una est substantia que 
+sub<lb ed="#Bc" break="no"/>stat omnibus potentiis, et hac substantia
+<lb ed="#Bc"/>habet se ad potentias sicut totum 
+pote<lb ed="#Bc" break="no"/>stalivum ad particulares potestates. Quod
+<lb ed="#Bc"/>autem una et eadem est essentia sive
+<lb ed="#Bc"/>potentia cum eo cujus est, non convenit
+<lb ed="#Bc"/>nisi uni soli primo principio, quod est
+<lb ed="#Bc"/>in fine simplicitatis.
+</p>
+               <p xml:id="Almn78-hh4092-d1e770">
+                  <lb ed="#Bc"/>Er per hoc patet solutio ad ea que
+<lb ed="#Bc"/>inducta sunt ab Augustino.
+</p>
+               <p xml:id="Almn78-hh4092-d1e777">
+                  <lb ed="#Bc"/>Ad id quod objicitur de materia, 
+di<lb ed="#Bc" break="no"/>cendum quod fundatur super falsum.
+<lb ed="#Bc"/>Materia enim non est receptibilis forme
+<lb ed="#Bc"/>nisi per analogiam ad ipsam, nec habet
+<lb ed="#Bc"/>unam analogiam ad formas differentes
+<lb ed="#Bc"/>genere. Propter hoc dicit Aristoteles,
+<lb ed="#Bc"/>quod non est una materia corruptibilium
+<lb ed="#Bc"/>et incorruptibilium. Similiter etiam 
+ani<lb ed="#Bc" break="no"/>ma unam analogiam non habet ad
+<lb ed="#Bc"/>diversas species simplices et separatas,
+<lb ed="#Bc"/>et materiales, appendiciis materi 
+con<lb ed="#Bc" break="no"/>junctas : et haec diversitas analogie
+<lb ed="#Bc"/>causa est diversitatis potentiarum et in
+<lb ed="#Bc"/>materia et in anima.
+</p>
+               <p xml:id="Almn78-hh4092-d1e810">
+                  <lb ed="#Bc"/>Ea gua in contrarium objic:untur, de
+<lb ed="#Bc"/>necessitate procedunt, et deducunt ad
+<lb ed="#Bc"/>inconveniens, vel concludunt directe.
+</p>
+            </div>
+            <div xml:id="Almn78-hh4092-Dd1e820">
+               <head xml:id="Almn78-hh4092-Hd1e822">Membrum 3</head>
+               <head xml:id="Almn78-hh4092-Hd1e825" type="question-title">
+        Qualis sit ista divisio anime in 
+        vegetabilem, sensibilem, et rationalem ? et,
+        Utrum sit in homine una 
+        substantia anime in his tribus potentiis
+      </head>
+               <p xml:id="Almn78-hh4092-d1e828">
+                  <pb ed="#Bc" n="23"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Qualis sit ista divisio anime in 
+vegeta<lb ed="#Bc" break="no"/>bilem, sensibilem, et rationalem ? et,
+<lb ed="#Bc"/>Utrum sit in homine una 
+substan<lb ed="#Bc" break="no"/>tia anime in his tribus potentiis?
+</p>
+               <p xml:id="Almn78-hh4092-d1e846">
+                  <lb ed="#Bc"/>Deine, Queritur de divisione anime
+<lb ed="#Bc"/>in vegetabilem, sensibilem, et 
+rationa<lb ed="#Bc" break="no"/>lem.
+</p>
+               <p xml:id="Almn78-hh4092-d1e855">
+                  <lb ed="#Bc"/>Et queritur, Qualis sit ista divisio ?
+<lb ed="#Bc"/>1. Dat enim Boetius in libro 
+Divisio<lb ed="#Bc" break="no"/>num artem dividendi tam vocem, quam
+<lb ed="#Bc"/>eliam rem. Et constat, quod ista divisio
+<lb ed="#Bc"/>non est vocis equivoce in suas 
+signi<lb ed="#Bc" break="no"/>ficaliones : quia anima non dicitur
+<lb ed="#Bc"/>equivoce de vegetabili, sensibili, et 
+ra<lb ed="#Bc" break="no"/>tionali.
+</p>
+               <p xml:id="Almn78-hh4092-d1e876">
+                  <lb ed="#Bc"/>2. Adhuc, Non potest esse divisio
+<lb ed="#Bc"/>principii : eo quod vegetativum, 
+sensi<lb ed="#Bc" break="no"/>bile, et rationale, non dicuntur per prius
+<lb ed="#Bc"/>et posterius animata : quia dicit 
+Philo<lb ed="#Bc" break="no"/>sophus in Il de Vegetabilibus, quod vita
+<lb ed="#Bc"/>communiter in animalibus et plantis
+<lb ed="#Bc"/>invenia est : sed in plantis latens et
+<lb ed="#Bc"/>occulta, in animalibus vero patens et
+<lb ed="#Bc"/>manifesta. Cum ergo aque et 
+commu<lb ed="#Bc" break="no"/>niter anima dicatur principium et causa
+<lb ed="#Bc"/>vite tam latentis quam manifeste : 
+ani<lb ed="#Bc" break="no"/>ma secundum prius et posterius non
+<lb ed="#Bc"/>dicitur de vegetabili et sensibili: et sic
+<lb ed="#Bc"/>haec divisio non erit divisio principii per
+<lb ed="#Bc"/>prius et posterius.
+</p>
+               <p xml:id="Almn78-hh4092-d1e911">
+                  <lb ed="#Bc"/>3. Adhuc, Non potest esse divisio
+<lb ed="#Bc"/>univoci, hoc est, generis in species, ut
+<lb ed="#Bc"/>videtur : quoniam species exeuntes per
+<lb ed="#Bc"/>divisionem ex uno et eodem genere, non
+<lb ed="#Bc"/>constituunt speciem unam : vegetabile
+<lb ed="#Bc"/>autem, sensibile, et rationale, 
+consti<lb ed="#Bc" break="no"/>tuunt speciem hominis : similiter ve~
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>getabile et sensibile speciem bruti : ergo
+<lb ed="#Bc"/>videtur, quod ista divisio non sit generis
+<lb ed="#Bc"/>in species.
+</p>
+               <p xml:id="Almn78-hh4092-d1e937">
+                  <lb ed="#Bc"/>4. Adhuc, Non potest esse totius 
+in<lb ed="#Bc" break="no"/>tegralis in partes : quia totum integrale
+<lb ed="#Bc"/>non predicatur de qualibet parte : 
+do<lb ed="#Bc" break="no"/>mus enim non est paries, nec tectum,
+<lb ed="#Bc"/>nec fundamentum : sed anima est 
+vege<lb ed="#Bc" break="no"/>tabilis, et anima est sensibilis, et anima
+<lb ed="#Bc"/>est rationalis.
+</p>
+               <p xml:id="Almn78-hh4092-d1e955">
+                  <lb ed="#Bc"/>5. Si propter hoc dicatur cum 
+Ari<lb ed="#Bc" break="no"/>stotele, quod eadem est determinatio
+<lb ed="#Bc"/>anime que est figure : quia sicut
+<lb ed="#Bc"/>trigonum in tetragono, ita 
+vegetati<lb ed="#Bc" break="no"/>yum in sensitivo, et sensitivum in 
+ra<lb ed="#Bc" break="no"/>tionali. Contra Trigonum non est
+<lb ed="#Bc"/>in tetragono secundum esse distinctum
+<lb ed="#Bc"/>et actum, sed secundum potentiam 
+tan<lb ed="#Bc" break="no"/>tum, hoc modo, quod si in tetragono a
+<lb ed="#Bc"/>puncto cujuslibet anguli ad punctum
+<lb ed="#Bc"/>opposili anguli ducatur linea, tot erunt
+<lb ed="#Bc"/>in tetragono trigoni quot sunt anguli.
+<lb ed="#Bc"/>Sed vegetativum est in sensitivo 
+secun<lb ed="#Bc" break="no"/>dum actum et operationem vegetativi
+<lb ed="#Bc"/>distincti : nutrit enim et auget et 
+gene<lb ed="#Bc" break="no"/>rat, que sunt operationes vegetativi
+<lb ed="#Bc"/>distincti. Similiter vegetativam et 
+sen<lb ed="#Bc" break="no"/>sitivum secundum operationes distinctas
+<lb ed="#Bc"/>sunt in rationali. Ergo non est simile
+<lb ed="#Bc"/>quod inductum est pro simili.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1001">
+                  <lb ed="#Bc"/>Ulterius queritur, si hec tria in 
+ho<lb ed="#Bc" break="no"/>mine sunt anima una, vel plures?
+</p>
+               <p xml:id="Almn78-hh4092-d1e1008">
+                  <lb ed="#Bc"/>Et videtur, quod plures : quia
+<lb ed="#Bc"/>1. Quacumque per operationem et
+<lb ed="#Bc"/>aclum distincta sunt, necesse est per
+<lb ed="#Bc"/>substantiam esse distincta. Patet autem,
+<lb ed="#Bc"/>quod vegetativum, sensitivum, et 
+ratio<lb ed="#Bc" break="no"/>nale in homine per operationes et actus
+<lb ed="#Bc"/>distincta sunt. Ergo necesse est, quod
+<lb ed="#Bc"/>per substantiam et esse sint 
+distin<lb ed="#Bc" break="no"/>cta.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1031">
+                  <lb ed="#Bc"/>2. Adhuc, In corpore hominis 
+que<lb ed="#Bc" break="no"/>dam sunt vegetativa, nutrita, et aucta,
+<lb ed="#Bc"/>nihil penitus sentientia secundum 
+ali<lb ed="#Bc" break="no"/>quem sensum, sicut dicunt Aristoteles
+<pb ed="#Bc" n="24"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>et Avicenna de ossibus et ligamentis. Et
+<lb ed="#Bc"/>quedam sunt vegetativa et sentienlia,
+<lb ed="#Bc"/>nihil penitus rationis habentia, sicut
+<lb ed="#Bc"/>hepar, et ren, et pulmo, et hujusmodi.
+<lb ed="#Bc"/>Ergo videtur, quod ista in corpore
+<lb ed="#Bc"/>organico hominis, loco divisa sint : et
+<lb ed="#Bc"/>quecumque loco divisa sunt, divisa sunt
+<lb ed="#Bc"/>secundum esse et substantiam : ergo
+<lb ed="#Bc"/>videtur, quod: vegetativum, sensitivum,
+<lb ed="#Bc"/>et rationale, secundum esse et 
+substan<lb ed="#Bc" break="no"/>tiam in homine divisa sint.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1070">
+                  <lb ed="#Bc"/>3. Adhuc, Quecumque divisa sunt
+<lb ed="#Bc"/>secundum tempus, divisa sunt secundum
+<lb ed="#Bc"/>esse et substantiam : sed in generatione
+<lb ed="#Bc"/>hominis unius sensibile et rationale
+<lb ed="#Bc"/>secundum tempus divisa sunt : ergo
+<lb ed="#Bc"/>etiam secundum esse et substantiam.
+<lb ed="#Bc"/>Propatio MINORIS : Major enim per se
+<lb ed="#Bc"/>patet. Dicit Aristoteles in XVI de 
+Ani<lb ed="#Bc" break="no"/>malibus, quod in generatione hominis
+<lb ed="#Bc"/>in embryone non est vivum et animal
+<lb ed="#Bc"/>simul, sed prius vivum, et postea 
+ani<lb ed="#Bc" break="no"/>mal: et non est homo et animal simul,
+<lb ed="#Bc"/>sed prius animal, et postea homo : ergo
+<lb ed="#Bc"/>haec tria, vegetativum, sensitivum, et
+<lb ed="#Bc"/>rationale, divisa sunt tempore : ergo
+<lb ed="#Bc"/>divisa sunt secundum esse et substan~
+<lb ed="#Bc"/>tiam.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1109">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>i. Si he tres partes, vegetativum,
+<lb ed="#Bc"/>sensitivum, et rationale, divisa sunt
+<lb ed="#Bc"/>secundum esse et substantiam in 
+homi<lb ed="#Bc" break="no"/>ne:cum non sint substantie nisi 
+for<lb ed="#Bc" break="no"/>males et essentiales, sequitur quod tres
+<lb ed="#Bc"/>forme essentiales secundum 
+substan<lb ed="#Bc" break="no"/>tiam diverse sunt in homine : sed a
+<lb ed="#Bc"/>tribus talibus formis tria et non unum
+<lb ed="#Bc"/>secundum esse substantiale 
+constituun<lb ed="#Bc" break="no"/>tur : ergo quilibet homo secundum
+<lb ed="#Bc"/>esse substantiale esset tria et non
+<lb ed="#Bc"/>unum. ,
+</p>
+               <p xml:id="Almn78-hh4092-d1e1140">
+                  <lb ed="#Bc"/>2. Adhuc, Perfectiones differunt 
+se<lb ed="#Bc" break="no"/>cundum perfecta. Cujus probatio est,
+<lb ed="#Bc"/>quod perfectiones non numerantur nec
+<lb ed="#Bc"/>in esse individui, nec in esse generis,
+<lb ed="#Bc"/>nec in esse speciei nisi numero 
+perfe<lb ed="#Bc" break="no"/>ctorum : ergo unus singularis perfecti
+<lb ed="#Bc"/>una est singularis perfectio. Quilibet
+<lb ed="#Bc"/>homo est in hoc homo, quod est unus
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>singularis homo : ergo quilibet homo
+<lb ed="#Bc"/>unam habet singularem perfectionem :
+<lb ed="#Bc"/>ergo unam animam : quia anima 
+singu<lb ed="#Bc" break="no"/>laris est perfectio ejus.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1171">
+                  <lb ed="#Bc"/>3. Adhuc, Quandocumque unum est
+<lb ed="#Bc"/>in altero actu et intellectu, illa nec
+<lb ed="#Bc"/>secundum esse separantur, nec 
+secun<lb ed="#Bc" break="no"/>dum intellectum possunt cogitari esse
+<lb ed="#Bc"/>separata. Vegetabile est in  sensibili
+<lb ed="#Bc"/>actu et intellectu : et similiter 
+vege<lb ed="#Bc" break="no"/>tabile et sensibile in rationali. Ergo non
+<lb ed="#Bc"/>secundum esse possunt separari, nec
+<lb ed="#Bc"/>secundum intellectum cogitari potest,
+<lb ed="#Bc"/>quod separata sint. Et hoc est 
+necessa<lb ed="#Bc" break="no"/>rium et concedendum.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1197">
+                  <lb ed="#Bc"/>Sed st unum sunt in homine, tune
+<lb ed="#Bc"/>remanet solum querendum, Qua unitate
+<lb ed="#Bc"/>sint in homine?
+</p>
+               <p xml:id="Almn78-hh4092-d1e1207">
+                  <lb ed="#Bc"/>Solutio. Ad primum dicendum, quod
+<lb ed="#Bc"/>haec divisio nec est vocis equivoce in
+<lb ed="#Bc"/>suas significationes, nec est principii
+<lb ed="#Bc"/>quod per prius et posterius dicatur, nec
+<lb ed="#Bc"/>est totius integralis, nec est univoci, 
+ge<lb ed="#Bc" break="no"/>neris scilicet in species. Unde omnes
+<lb ed="#Bc"/>rationes ad hoc inducte, procedunt de
+<lb ed="#Bc"/>necessitate, et sunt concedende. Sed
+<lb ed="#Bc"/>sicut dicit Boetius in libro Divistonum,
+<lb ed="#Bc"/>est totius potestativi in suas partes 
+po<lb ed="#Bc" break="no"/>testativas, sive particulares potestates.
+<lb ed="#Bc"/>Et hoc totum medium est inter totum
+<lb ed="#Bc"/>universale, et totum integrale. 
+Preedica<lb ed="#Bc" break="no"/>tur enim de qualibet sua parte sicut
+<lb ed="#Bc"/>totum universale : sed non secundum
+<lb ed="#Bc"/>plenitudinem suae potestatis est in 
+qua<lb ed="#Bc" break="no"/>libet parte sicut totum integrale, totum
+<lb ed="#Bc"/>enim integrale non secundum 
+_pleni<lb ed="#Bc" break="no"/>tudinem potestatis est in qualibet parte :
+<lb ed="#Bc"/>et ideo non predicatur de qualibet 
+par<lb ed="#Bc" break="no"/>te : sed in eo quidquid potest potentia
+<lb ed="#Bc"/>inferior, potest et superior excellenter
+<lb ed="#Bc"/>et eminenter : sed non convertitur :
+<lb ed="#Bc"/>unde quidquid potest vegetabile, potest
+<lb ed="#Bc"/>sensitivum excellenter et eminenter : et
+<lb ed="#Bc"/>quidquid possunt vegetabile et sensi-'
+<lb ed="#Bc"/>bile, potest rationale excellenter et 
+emi<lb ed="#Bc" break="no"/>nenter : sed non convertitur. Et hoc
+<lb ed="#Bc"/>etiam probat Dionysius in libro de
+<pb ed="#Bc" n="25"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Celesti hierarchia'. Quod qualiter sit,
+<lb ed="#Bc"/>sic intelligi potest. Intelligatur esse 
+ani<lb ed="#Bc" break="no"/>ma substantia una constituta ex 
+omni<lb ed="#Bc" break="no"/>bus potestatibus vite, a qua fluant 
+que<lb ed="#Bc" break="no"/>dam potestates operantes in organo,
+<lb ed="#Bc"/>quedam autem -que nullius organi sunt
+<lb ed="#Bc"/>actus : et sit ordo inter potestates illas,
+<lb ed="#Bc"/>ita quod inferior actu et intellectu 
+con<lb ed="#Bc" break="no"/>tineatur in superiori : tunc tale totum
+<lb ed="#Bc"/>potestativum est anima in omnibus suis
+<lb ed="#Bc"/>potentiis, et est substantia subjecta sic
+<lb ed="#Bc"/>omnibus potestatibus suis, et ad plenum
+<lb ed="#Bc"/>et perfectum suum posse per omnes
+<lb ed="#Bc"/>operationes vite et potentias deducta :
+<lb ed="#Bc"/>cum tamen non sit nisi substantia una et
+<lb ed="#Bc"/>perfectio una et essentia una substans
+<lb ed="#Bc"/>omnibus illis potentiis : et ideo anima
+<lb ed="#Bc"/>una. Propter quod dictum eorum falsum
+<lb ed="#Bc"/>fuit, qui dixerunt, quod in homine tres
+<lb ed="#Bc"/>erant substantie et una anima, vel tres
+<lb ed="#Bc"/>essentie et una anima. Et ideo dicit
+<lb ed="#Bc"/>Augustinus in libro XV de Trinitate,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-hh4092-Qd1e1326"> tres potentiae imaginis, memoria
+<lb ed="#Bc"/>scilicet, intelligentia, et voluntas, sunt
+<lb ed="#Bc"/>una mens, una vita, una essentia, una
+<lb ed="#Bc"/>anima. </quote> Et ponitur a Magistro in libro
+<lb ed="#Bc"/>I Sententiarum, distinct. ILI, cap. Nune
+<lb ed="#Bc"/>restat ostendere.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1340">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod verum dicit
+<lb ed="#Bc"/>Philosophus quando dicit, quod eadem
+<lb ed="#Bc"/>est determinatio anime que figure : et
+<lb ed="#Bc"/>sicut trigonum in tetragono, ita 
+vegeta<lb ed="#Bc" break="no"/>tivum in sensitivo, et vegetativum et
+<lb ed="#Bc"/>sensitivum in rationali. Et ideo sicut
+<lb ed="#Bc"/>trigonum non est in tetragono nisi 
+se<lb ed="#Bc" break="no"/>cundum esse tetragoni, et secundum
+<lb ed="#Bc"/>potentiam trigoni : ita vegetativum non
+<lb ed="#Bc"/>est in sensitivo, nisi secundum esse
+<lb ed="#Bc"/>sensitivi et potentiam vegetativi: et
+<lb ed="#Bc"/>vegetativum et sensitivum non sunt
+<lb ed="#Bc"/>in rationali, nisi secundum esse 
+ra<lb ed="#Bc" break="no"/>tionalis, et potentiam vegetavi et 
+sen<lb ed="#Bc" break="no"/>sitivi: et sic est in omnibus his que
+<lb ed="#Bc"/>in una definitione ante ultimam 
+dif<lb ed="#Bc" break="no"/>ferentiam, que, ut dicit Aristoteles
+<lb ed="#Bc"/>in VIL prime philosophiz, sola est
+<lb ed="#Bc"/>constitutiva et  convertibilis, ponun
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tur : omnia enim illa (ut dicit 
+Commen<lb ed="#Bc" break="no"/>tator ibidem) accipiuntur ut genera et
+<lb ed="#Bc"/>potentie que ad actum ultime 
+differen<lb ed="#Bc" break="no"/>tie determinantur, et in actu illius dant
+<lb ed="#Bc"/>esse : et hac est causa, ut ibidem dicit
+<lb ed="#Bc"/>Philosophus, quod definitio est unum
+<lb ed="#Bc"/>et non multa, et unum dat esse et non
+<lb ed="#Bc"/>multa.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1403">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod hac tria, scilicet vegetativum,
+<lb ed="#Bc"/>sensitivum, et rationale unum sunt in
+<lb ed="#Bc"/>homine : et sicut vult Augustinus, sunt
+<lb ed="#Bc"/>una essentia, una vita, et una anima.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1416">
+                  <lb ed="#Bc"/>Et quod objicitur, quod habent 
+ope<lb ed="#Bc" break="no"/>rationes distinctas, dicendum quod 
+fal<lb ed="#Bc" break="no"/>sum est. Vegetativum enim et 
+sensiti<lb ed="#Bc" break="no"/>vum non agunt in homine nisi actu 
+ra<lb ed="#Bc" break="no"/>tionalis : vegetativum enim in homine
+<lb ed="#Bc"/>corpus organicum non vegétat, nisi ad
+<lb ed="#Bc"/>esse organici anime rationalis. Ita 
+sen<lb ed="#Bc" break="no"/>sibilis non sensificat, nisi ad actum 
+ani<lb ed="#Bc" break="no"/>me rationalis. Et sic semper pracedens
+<lb ed="#Bc"/>animat et agit in forma sequentis : unde
+<lb ed="#Bc"/>operationes divisas nullo modo habent
+<lb ed="#Bc"/>in homine. Et hoc est quod dicit 
+Augu<lb ed="#Bc" break="no"/>stinus in libro de Ecclesiasticis 
+dogmati<lb ed="#Bc" break="no"/>bus, sic: <quote xml:id="Almn78-hh4092-Qd1e1448"> Neque duas animas in 
+ho<lb ed="#Bc" break="no"/>mine esse dicimus, sicut Jacobus 
+qui<lb ed="#Bc" break="no"/>dam, et alii Syrorum scribunt, unam 
+ani<lb ed="#Bc" break="no"/>malem qua animetur corpus et sit 
+im<lb ed="#Bc" break="no"/>mixta cum sanguine, et aliam 
+spiritua<lb ed="#Bc" break="no"/>lem que rationem administret. Sed 
+dici<lb ed="#Bc" break="no"/>mus unam et eamdem animam in 
+ho<lb ed="#Bc" break="no"/>mine, que et corpus sua societate 
+vivi<lb ed="#Bc" break="no"/>ficet, et semetipsam sua ratione 
+dispo<lb ed="#Bc" break="no"/>nat, habentem in se libertatem arbitrii. </quote>
+                  <lb ed="#Bc"/>Et quod una sit, <name xml:id="Almn78-hh4092-Nd1e1472">Avicenna</name> ponit 
+con<lb ed="#Bc" break="no"/>gruum exemplum valde, et est signum
+<lb ed="#Bc"/>non causa. Dicit “enim, quod anima 
+in<lb ed="#Bc" break="no"/>tente agente secundum unam quamlibet
+<lb ed="#Bc"/>potentiam, remilttitur et retrahitur ab
+<lb ed="#Bc"/>operatione alterius : sicut si intente 
+co<lb ed="#Bc" break="no"/>gitat, non percipit ea que sunt ante
+<lb ed="#Bc"/>oculos, nec distincte percipit sonos 
+au<lb ed="#Bc" break="no"/>ditu. Et hoc signum est, quod omnes
+<lb ed="#Bc"/>potentiae sunt in una essentia radicate.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1496">
+                  <pb ed="#Bc" n="26"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod in corpore
+<lb ed="#Bc"/>hominis anima rationalis ubique vegetat
+<lb ed="#Bc"/>et sensificat : quamvis nullum organum
+<lb ed="#Bc"/>corporale sit organum intellectus et 
+ra<lb ed="#Bc" break="no"/>tionis, in| quod exerceat suas 
+ope<lb ed="#Bc" break="no"/>rationes: tamen ubi vegetat, vegetat
+<lb ed="#Bc"/>per potentiam anime rationalis que
+<lb ed="#Bc"/>est vegetativa: et ubi sensificat, 
+sen<lb ed="#Bc" break="no"/>sificat per potentiam anime 
+rationa<lb ed="#Bc" break="no"/>lis que est sensitiva. Sicut enim 
+di<lb ed="#Bc" break="no"/>ctum est, quidquid potest potentia
+<lb ed="#Bc"/>inferior, potest et superior, et non e
+<lb ed="#Bc"/>converso. Sed- quod quedam 
+mem<lb ed="#Bc" break="no"/>bra non sunt  perceptiva sensus, ut
+<lb ed="#Bc"/>ossa et ligamenta, et cartilagines, et pili,
+<lb ed="#Bc"/>dicunt Aristoteles et Avicenna esse ex
+<lb ed="#Bc"/>hoc, quod non habent medium in tactu,
+<lb ed="#Bc"/>quod est caro nervosa nervis directis ab
+<lb ed="#Bc"/>anteriori parte cerebri ad membrum
+<lb ed="#Bc"/>illud: quia ab illa parte cerebri diffunditur
+<lb ed="#Bc"/>sensus in totum corpus: sunt enim 
+ter<lb ed="#Bc" break="no"/>restria dura in que non potest penetrare
+<lb ed="#Bc"/>spirilus sensitivus, nec posgunt 
+tempera<lb ed="#Bc" break="no"/>riad mollitiem medii tactus: eo quod
+<lb ed="#Bc"/>a virtute formativa et regitiva formata
+<lb ed="#Bc"/>sunt ad corporis colligationem et 
+susten<lb ed="#Bc" break="no"/>tationem : quod non nisi per dura fieri
+<lb ed="#Bc"/>potuit. Excipitur unum os ob Avicenna,
+<lb ed="#Bc"/>dens scilicet, quod dicit habere 
+quam<lb ed="#Bc" break="no"/>dam medietatem in tactu, licet exiguam :
+<lb ed="#Bc"/>et inde provenit dolor dentium, maxime
+<lb ed="#Bc"/>propter nervos vicinos cerebro in quibus
+<lb ed="#Bc"/>radicantur dentes.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1574">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod 
+vegetati<lb ed="#Bc" break="no"/>vum, sensitivum, et rationale, numquam
+<lb ed="#Bc"/>divisa sunt in homine, nec loco, nec
+<lb ed="#Bc"/>tempore, sed semper conjuncta essentia
+<lb ed="#Bc"/>et subjecto sive substantia. Sed in XVI
+<lb ed="#Bc"/>de Animalibus intendit Aristoteles 
+red<lb ed="#Bc" break="no"/>dere causam, loquens contra Platonem,
+<lb ed="#Bc"/>qui dicebat semen esse parvum animal,
+<lb ed="#Bc"/>quomodo virtus formativa est in semine
+<lb ed="#Bc"/>maris, quod dicit intrare in semen fo-
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>mine sicut spiritum in corpus, et 
+coa<lb ed="#Bc" break="no"/>gulum in lac, quod spiritualiter penetrat
+<lb ed="#Bc"/>in ipsum lac, et comprehendit ipsum 
+to<lb ed="#Bc" break="no"/>tum: et sicut fermentum in pastam,
+<lb ed="#Bc"/>quod similiter penetrat in pastam. Et,
+<lb ed="#Bc"/>per has similitudines vult ostendere
+<lb ed="#Bc"/>Aristoteles, qualiter formativa contenta
+<lb ed="#Bc"/>intra viscositatem seminis, operatur ad
+<lb ed="#Bc"/>operationem corporis organici anime.
+<lb ed="#Bc"/>Dicit, quod primo operatur cibando. 
+di<lb ed="#Bc" break="no"/>gerendo, que sunt operationes vite,
+<lb ed="#Bc"/>non anime que sit in semine, sed 
+for<lb ed="#Bc" break="no"/>mative que est ut artifex, eo quod
+<lb ed="#Bc"/>habet instrumentum calorem  
+cee<lb ed="#Bc" break="no"/>li, et calorem anime gencrantis, per
+<lb ed="#Bc"/>quod descinditur semen, et calorem 
+ma<lb ed="#Bc" break="no"/>tricis matris. Et secundo, eisdem 
+calori<lb ed="#Bc" break="no"/>bus et eadem virtute, que est in semine
+<lb ed="#Bc"/>sicut artifex, format membra_sensitiva,
+<lb ed="#Bc"/>in quibus perficiuntur operationcs 
+sen<lb ed="#Bc" break="no"/>suum: in quibus (ut dicit Avicenna)
+<lb ed="#Bc"/>primo formantur oculi, et complentur
+<lb ed="#Bc"/>ultimo. Et tertio, eadem vis formativa
+<lb ed="#Bc"/>eisdem caloribus distinguit membra 
+per<lb ed="#Bc" break="no"/>tinentia ad operationes animales anime
+<lb ed="#Bc"/>rationalis, sicut cellulam anteriorem 
+ca<lb ed="#Bc" break="no"/>pitis, et mediam, et postremam, in 
+qui<lb ed="#Bc" break="no"/>bus discurrit spiritus animalis deferens
+<lb ed="#Bc"/>species ad operationes rationis. Et ideo
+<lb ed="#Bc"/>dicit, quod in talibus operationibus non
+<lb ed="#Bc"/>est vivum et animal, et animal et homo
+<lb ed="#Bc"/>simul. Vult tamen, quod completo partu
+<lb ed="#Bc"/>et organizato, simul et idem sit homo et
+<lb ed="#Bc"/>animal et vivum.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1675">
+                  <lb ed="#Bc"/>Tria que in contrarium adducuntur,
+<lb ed="#Bc"/>procedunt et de necessitate concludunt.
+</p>
+               <p xml:id="Almn78-hh4092-d1e1682">
+                  <lb ed="#Bc"/>Ad ULTIMUM quo queritur, Qua 
+uni<lb ed="#Bc" break="no"/>tate hec tria sunt in homine ?
+</p>
+               <p xml:id="Almn78-hh4092-d1e1689">
+                  <lb ed="#Bc"/>Dicendum, quod unitate potentie et
+<lb ed="#Bc"/>actus sicut in omni definitione que est
+<lb ed="#Bc"/>unum et non multa, sicut paulo ante in
+<lb ed="#Bc"/>hac eadem questione dictum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

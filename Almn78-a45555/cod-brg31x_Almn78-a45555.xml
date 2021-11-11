@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 64</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 64</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="654"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a45555"><!-- p1t16q64 -->
+            <head xml:id="Almn78-a45555-Hd1e106">Quaestio 64</head>
+            <head xml:id="Almn78-a45555-Hd1e109" type="question-title">
+      Utrum dilectio qua Deus diligit creaturam sit eadem cum 
+      dilectione qua Pater diligi Filium, et e converso?
+    </head>
+            <p xml:id="Almn78-a45555-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LXIV.
+<lb ed="#Ba"/>Utrum dilectio qua Deus diligit creaturam sit eadem cum 
+dil<lb ed="#Ba" break="no"/>ctione qua Pater diligi Filium, et e converso?
+</p>
+            <p xml:id="Almn78-a45555-d1e123">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur de dilectione qua
+<lb ed="#Ba"/>Deus diligit creaturam, de quo dicitur,
+<lb ed="#Ba"/>Sapient. xt, 25: Diligis enim omnia que
+<lb ed="#Ba"/>sunt, e€ nihil odisti eorum que fecisti:
+<lb ed="#Ba"/>nec enim odiens aliquid constituisti, aut
+<lb ed="#Ba"/>fecisti.
+</p>
+            <p xml:id="Almn78-a45555-d1e141">
+               <lb ed="#Ba"/>Queratur ergo, Utrum haec dilectio
+<lb ed="#Ba"/>qua diligit Deus omnia, sit eadem cum
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>ea qua Pater diligit Filium, et Filius 
+Pa<lb ed="#Ba" break="no"/>trem ?
+</p>
+            <p xml:id="Almn78-a45555-d1e155">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>Quidquid enim convenit omnibus 
+per<lb ed="#Ba" break="no"/>sonis, essentiale est et unum illis: 
+dili<lb ed="#Ba" break="no"/>gere omnem creaturam convenit tam
+<lb ed="#Ba"/>Patri quam Filio quam Spiritui sancto :
+<lb ed="#Ba"/>ergo hac dilectio essentialis est.
+</p>
+            <p xml:id="Almn78-a45555-d1e171">
+               <pb ed="#Ba" n="655"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Similiter Pater diligit Filium, et 
+Fi<lb ed="#Ba" break="no"/>lius Patrem, et Pater et Filius Spiritum
+<lb ed="#Ba"/>sanctum, et e converso. Unde dilectio
+<lb ed="#Ba"/>qua diligit persona personam,ctiam 
+com<lb ed="#Ba" break="no"/>munis cst tribus. Ergo essentialis. 
+Uissen<lb ed="#Ba" break="no"/>tiale autem cum essentiali non facit
+<lb ed="#Ba"/>numerum. Ergo dilectio qua diligit 
+per<lb ed="#Ba" break="no"/>sona personam, eadem est cum ea qua
+<lb ed="#Ba"/>persone diligunt omnem creaturam.
+</p>
+            <p xml:id="Almn78-a45555-d1e197">
+               <lb ed="#Ba"/>In contrarium hujus est, quod cum 
+di<lb ed="#Ba" break="no"/>ligit Deus creaturam, sensus est, quod
+<lb ed="#Ba"/>diligit bonum quod fecit in creatura : hoc
+<lb ed="#Ba"/>autem bonum creatum est. Cum autem
+<lb ed="#Ba"/>dicitur, Pater diligit Filium, et e 
+conver<lb ed="#Ba" break="no"/>so, ibi diligitur bonum increatum. Non
+<lb ed="#Ba"/>autem potest eadem dilectione diligi 
+bo<lb ed="#Ba" break="no"/>num creatum et increatum : quia dilectio
+<lb ed="#Ba"/>speciem trahit a diligibili. Ergo videtur,
+<lb ed="#Ba"/>quod non eadem dilectio sit qua diligit
+<lb ed="#Ba"/>omnem creaturam, et qua persona diligit
+<lb ed="#Ba"/>personam.
+</p>
+            <p xml:id="Almn78-a45555-d1e226">
+               <lb ed="#Ba"/>Ucrernius queritur, Quid sit Deum 
+di<lb ed="#Ba" break="no"/>ligere creaturam, et maxime secundum
+<lb ed="#Ba"/>quod diligit creaturam ab eterno ?
+</p>
+            <p xml:id="Almn78-a45555-d1e235">
+               <lb ed="#Ba"/>1. Dicit enim Hugo, quod <quote xml:id="Almn78-a45555-Qd1e239"> tanta est
+<lb ed="#Ba"/>vis amoris, quod necesse est amantem
+<lb ed="#Ba"/>talem esse quale est id quod amat. </quote> 
+Er<lb ed="#Ba" break="no"/>vO Si Deus amat creaturam, necesse est
+<lb ed="#Ba"/>eum transformari in creaturam. Sed hoc
+<lb ed="#Ba"/>est impossibile, Ergo impossibile est
+<lb ed="#Ba"/>Deum diligere creaturam.
+</p>
+            <p xml:id="Almn78-a45555-d1e256">
+               <lb ed="#Ba"/>2. Adhuc, Dionysius in libro de 
+Divi<lb ed="#Ba" break="no"/>nis nominibus : <quote xml:id="Almn78-a45555-Qd1e262"> Ast autem et exstasim
+<lb ed="#Ba"/>faciens divinus amor, et non sinens 
+lau<lb ed="#Ba" break="no"/>datores esse suiipsorum *. </quote> Ergo verus,
+<lb ed="#Ba"/>laudator amoris per amorem patitur 
+ex<lb ed="#Ba" break="no"/>stasim, hoc est, positionem sui extra 
+se<lb ed="#Ba" break="no"/>ipsum, et transponitur in amatum, et 
+of<lb ed="#Ba" break="no"/>ficilur non suus, sed amati. Hoe autem
+<lb ed="#Ba"/>impossibile est Deum pati ad creaturam.
+<lb ed="#Ba"/>Ergo impossibile est Deum diligere 
+crea<lb ed="#Ba" break="no"/>turam.
+  
+<lb ed="#Ba"/>In conrtrarium hujus est quod 
+dici<lb ed="#Ba" break="no"/>tur, Genes. 1, 31: Vidit Deus cuncta
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>que fecerat: et erant valde bona. 
+Bo<lb ed="#Ba" break="no"/>num autem, sicut in questione de dono
+<lb ed="#Ba"/>habitum est. motivum est dilectionis. 
+Er<lb ed="#Ba" break="no"/>go diligit creaturam.
+</p>
+            <p xml:id="Almn78-a45555-d1e301">
+               <lb ed="#Ba"/>Utrurivs queritur, Si Deus ab eterno
+<lb ed="#Ba"/>dilexerit creaturam °?
+</p>
+            <p xml:id="Almn78-a45555-d1e308">
+               <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Quia cum dicitur, Deus ab eterno
+<lb ed="#Ba"/>dilexit creaturam : aut dilexit creaturam
+<lb ed="#Ba"/>quée fuit, aut que non fuit. Non que non
+<lb ed="#Ba"/>fuit : quia illa non est diligibilis : ergo
+<lb ed="#Ba"/>dilexit eam que fuit : et cum ab eterno
+<lb ed="#Ba"/>dilexerit, sequitur quod ab eterno 
+crea<lb ed="#Ba" break="no"/>tura fuerit.
+</p>
+            <p xml:id="Almn78-a45555-d1e328">
+               <lb ed="#Ba"/>2. Si quis dicat, quod ab eterno dilexit
+<lb ed="#Ba"/>creaturam ut ab aterno fuit, hoc est, in
+<lb ed="#Ba"/>causa. Tunc cum dicat Anseimus, quod
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a45555-Qd1e338"> creatura in creatore est creatrix 
+essen<lb ed="#Ba" break="no"/>tia, </quote> nihil aliud videtur dictum, ab 
+wter<lb ed="#Ba" break="no"/>no dilexit creaturam, quam ab eterno
+<lb ed="#Ba"/>dilexit seipsum.
+</p>
+            <p xml:id="Almn78-a45555-d1e349">
+               <lb ed="#Ba"/>Ulterius queritur, Si Deus que 
+dili<lb ed="#Ba" break="no"/>git omne quod diligit * ?
+</p>
+            <p xml:id="Almn78-a45555-d1e356">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Constat enim, quod ex parte 
+dili<lb ed="#Ba" break="no"/>gentis non potest intendi vel remitti 
+dile<lb ed="#Ba" break="no"/>clio Dei. Siergo esset major et minor,
+<lb ed="#Ba"/>oporteret quod esset ex parte diligibilis :
+<lb ed="#Ba"/>sed hoc non est.
+</p>
+            <p xml:id="Almn78-a45555-d1e372">
+               <lb ed="#Ba"/>2. Adhuc, Non diligitur nisi cognitum,
+<lb ed="#Ba"/>ut dicit Augustinus. Ergo aqualiter 
+co<lb ed="#Ba" break="no"/>gnitorum wqualis est dilectio. Sed Deus
+<lb ed="#Ba"/>omnia cognoscit aqualiter et creata et
+<lb ed="#Ba"/>increata. Ergo equaliter diligit omnia et
+<lb ed="#Ba"/>creala et increata.
+</p>
+            <p xml:id="Almn78-a45555-d1e389">
+               <lb ed="#Ba"/>3. Adhuc, Sapientia, vi, 8: 
+Wguali<lb ed="#Ba" break="no"/>ter est illt cura de omnibus, Cura autem
+<lb ed="#Ba"/>elfectus dilectionis est. Ergo et ex parte
+<lb ed="#Ba"/>diligentis et ex parte dilecti equalis est
+<lb ed="#Ba"/>dilectio Dei ad omnia.
+</p>
+            <p xml:id="Almn78-a45555-d1e402">
+               <lb ed="#Ba"/>4, Adhuc, Videtur in Deo esse omnium
+<lb ed="#Ba"/>summa dilectio. Constat enim, quod 
+di<lb ed="#Ba" break="no"/>lectio qua diligit Deus, divina essentia
+<pb ed="#Ba" n="656"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>est, et illa est major quam cogitari 
+pos<lb ed="#Ba" break="no"/>sit: et hoc est summum:
+<lb ed="#Ba"/>dilectione diligit quidquid diligit :
+<lb ed="#Ba"/>summe diligit quidquid diligit.
+</p>
+            <p xml:id="Almn78-a45555-d1e424">
+               <lb ed="#Ba"/>In contrarium hujus est, quod omne
+<lb ed="#Ba"/>quod est, melius est sub ordine 
+rationa<lb ed="#Ba" break="no"/>bili, quam sine ordine. Dilectio ergo 
+or<lb ed="#Ba" break="no"/>dinata rationabililer, melior est quam
+<lb ed="#Ba"/>non ordinata. Ordo autem dilectionis est,
+<lb ed="#Ba"/>quod majus bonum magis diligitur, et
+<lb ed="#Ba"/>ininus bonum minus, et summe bonum
+<lb ed="#Ba"/>summe. Et quod melius est, Deo 
+attri<lb ed="#Ba" break="no"/>buendum est. Ergo Deus in diligendo,
+<lb ed="#Ba"/>rationabilem observat ordinem, ita quod
+<lb ed="#Ba"/>majus bonum magis diligt, et minus
+<lb ed="#Ba"/>bonum minus, et summum bonum ma-
+<lb ed="#Ba" break="no"/>xime.
+</p>
+            <p xml:id="Almn78-a45555-d1e455">
+               <lb ed="#Ba"/>Juxva hoc ulterius queritur, Si plus
+<lb ed="#Ba"/>diligat Angelum, vel hominem ?
+</p>
+            <p xml:id="Almn78-a45555-d1e462">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Dilectio enim convenientia alfectuum
+<lb ed="#Ba"/>est: ergo ubi major convenientia, ibi
+<lb ed="#Ba"/>major dilectio : sed major convenicntia
+<lb ed="#Ba"/>est inter Angelum et Deum, quam inter
+<lb ed="#Ba"/>Deum et hominem.
+</p>
+            <p xml:id="Almn78-a45555-d1e478">
+               <lb ed="#Ba"/>2. Adhuc, Cum dicitur, Deus diligit
+<lb ed="#Ba"/>hunc, verbum, diligit, significat divinam
+<lb ed="#Ba"/>essentiam, et connotat effectum boni in
+<lb ed="#Ba"/>creatura que diligitur: ergo ubi majus
+<lb ed="#Ba"/>bonum, ibi major dilectio. Sed in Angelo
+<lb ed="#Ba"/>majus bonum est et gratia et nature,
+<lb ed="#Ba"/>quam in homine: de bono enim nature
+<lb ed="#Ba"/>non vst dubium: gratia autem collata
+<lb ed="#Ba"/>Angelo talis gratia fuit, qua Angelus sta-
+(im movebatur in Deum, et confirmatus
+<lb ed="#Ba"/>est in illo : et talis gratia non fuit gratia
+<lb ed="#Ba"/>hominis : et sie patet, quod gratiam 
+ma<lb ed="#Ba" break="no"/>jorem habuit, quam homo.
+</p>
+            <p xml:id="Almn78-a45555-d1e508">
+               <lb ed="#Ba"/>In contrarium tamen hujus est, quod
+<lb ed="#Ba"/>divina natura unibilitatem habet ad 
+hu<lb ed="#Ba" break="no"/>manam, et ¢ converse : ef gratia unionis
+<lb ed="#Ba"/>est subsecuta, quod scilicel humana 
+na<lb ed="#Ba" break="no"/>iura unita est divini inuna persona : et
+<lb ed="#Ba"/>hive gratia effectus est dilectionis et 
+in<lb ed="#Ba" break="no"/>comparabilis omni gratia : videtur ergo,
+<lb ed="#Ba"/>quod ad minus aliquem hominem plus
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>diligit omni Angelo. Et hoc est quod 
+di<lb ed="#Ba" break="no"/>citur, Joan. i, 35: <quote xml:id="Almn78-a45555-Qd1e534">Pater diligat Filium,
+<lb ed="#Ba"/>et omnia dedit in manu ejus</quote>.
+</p>
+            <p xml:id="Almn78-a45555-d1e540">
+               <lb ed="#Ba"/>Ulterius queritur gratia istius, Utrum
+<lb ed="#Ba"/>plus diligit presenter justum, vel 
+prade<lb ed="#Ba" break="no"/>stinatum non justum ' ?
+</p>
+            <p xml:id="Almn78-a45555-d1e549">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>In presenter enim justo diligit bonum
+<lb ed="#Ba"/>nature et bonum gratiae, in 
+predestina<lb ed="#Ba" break="no"/>to autem non justo non potest diligere
+<lb ed="#Ba"/>nisi bonum nature: ergo plus diligit
+<lb ed="#Ba"/>presenter justum, quam predestinatum
+<lb ed="#Ba"/>non justum.
+</p>
+            <p xml:id="Almn78-a45555-d1e567">
+               <lb ed="#Ba"/>Kopem modo queritur, Utrum plus 
+di<lb ed="#Ba" break="no"/>ligat justum manentem justum, quam
+<lb ed="#Ba"/>peccatorem pecenitentem ?
+</p>
+            <p xml:id="Almn78-a45555-d1e576">
+               <lb ed="#Ba"/>Kit videtur, quod justum, per islam
+<lb ed="#Ba"/>considerationem Aristotelis in IH 
+Topi<lb ed="#Ba" break="no"/>corum : <quote xml:id="Almn78-a45555-Qd1e584">Quod diuturnius est, magis
+<lb ed="#Ba"/>cligendum est. </quote> Justitia autem justi 
+ma<lb ed="#Ba" break="no"/>nentis justi, diuturnior est et malo 
+im<lb ed="#Ba" break="no"/>permixtior, quam justitia peenitentis. 
+Kr<lb ed="#Ba" break="no"/>go eligibilior : ergo et magis diligibilis :
+<lb ed="#Ba"/>quia quod eligibilius est, diligibilius est.
+</p>
+            <p xml:id="Almn78-a45555-d1e599">
+               <lb ed="#Ba"/>In conrranium est quod dicitur, Luce,
+<lb ed="#Ba"/>xv, 7: Dico vobis, quod ita gaudium
+<lb ed="#Ba"/>erit in ceelo super uno peccatore 
+peniten<lb ed="#Ba" break="no"/>tiam agente, quam super nonaginta 
+no<lb ed="#Ba" break="no"/>vem pustis, qui non indigent peenitentia,
+</p>
+            <p xml:id="Almn78-a45555-d1e613">
+               <lb ed="#Ba"/>Solutio. Ad primum dicendum, quod
+<lb ed="#Ba"/>dilectio qua Deus diligit, potest attendi
+<lb ed="#Ba"/>et ex parte diligentis, et ex parte dilecti.
+<lb ed="#Ba"/>Si ex parte diligentis, dilectio est divina
+<lb ed="#Ba"/>essentia que una et eadem est et 
+inva<lb ed="#Ba" break="no"/>riabilis. Siex parte dilecti, tunc connotat
+<lb ed="#Ba"/>effectum qui diversilicatur in diversitate
+<lb ed="#Ba"/>dilectorum, et variatur in ipsis secundum
+<lb ed="#Ba"/>plus et minus : et hac variatio non est in
+<lb ed="#Ba"/>diligente Deo, sed in his que diligit.
+<lb ed="#Ba"/>Uno ergo modo una et cadem est dilectio
+<lb ed="#Ba"/>qua diligit persona personam, et qua
+<lb ed="#Ba"/>persone diligunt omnem creaturam : sed
+<lb ed="#Ba"/>penes connotata in diligibili non est 
+ea<lb ed="#Ba" break="no"/>dem.
+</p>
+            <p xml:id="Almn78-a45555-d1e648">
+               <pb ed="#Ba" n="657"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Et per hoc patet solutio ad primum.
+</p>
+            <p xml:id="Almn78-a45555-d1e657">
+               <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod he objectio procedit ex
+<lb ed="#Ba"/>parte connotati in diligibili : hoc enim
+<lb ed="#Ba"/>in una parte est increatum et summum
+<lb ed="#Ba"/>bonum, et cx alia parte creatum bonum
+<lb ed="#Ba"/>participative dictum : et hac non possunt
+<lb ed="#Ba"/>esse ratio unius dilectionis eodem modo
+<lb ed="#Ba"/>se habentis. Dilectio tamen ex parte 
+di<lb ed="#Ba" break="no"/>ligentis est una.
+</p>
+            <p xml:id="Almn78-a45555-d1e679">
+               <lb ed="#Ba"/>Ad 1 quod ulterius queritur, Quid 
+di<lb ed="#Ba" break="no"/>ctum sit Deum amare crealuram ?
+</p>
+            <p xml:id="Almn78-a45555-d1e686">
+               <lb ed="#Ba"/>Dicendum, quod hoc est dictum bonam
+<lb ed="#Ba"/>voluntatem Dei fluere in bonum quod
+<lb ed="#Ba"/>fecit Deus in ereatura. Et hoc innuitur,
+<lb ed="#Ba"/>Sapient. x1, 26, ubi quasi reddens 
+ratio<lb ed="#Ba" break="no"/>nem, quod Deus diligit omnia que sunt,
+<lb ed="#Ba"/>subdit sic dicens : Quomodo aulem 
+pos<lb ed="#Ba" break="no"/>set aliquid permanere, nisi tu voluisses ?
+<lb ed="#Ba"/>aul quod ate vocatum non esset 
+conser<lb ed="#Ba" break="no"/>varetur ?
+</p>
+            <p xml:id="Almn78-a45555-d1e708">
+               <lb ed="#Ba"/>Ad id quod objicitur de dicto Hugonis
+<lb ed="#Ba"/>et dicto Dionysii, dicendum, quod dilectio
+<lb ed="#Ba"/>sive amor duplex est, scilicet in genere
+<lb ed="#Ba"/>passionis : omnis enim amor passio est,
+<lb ed="#Ba"/>sicut et gaudium, Est etiam amor in 
+ge<lb ed="#Ba" break="no"/>nere actionis, secundum quod Terotheus
+(ut narrat Dionysius ') generaliter 
+defi<lb ed="#Ba" break="no"/>nivit amorem sive divinum, sive 
+angeli<lb ed="#Ba" break="no"/>cum, sive humanum, sive naturalem, 
+di<lb ed="#Ba" break="no"/>cit unilivam quamdam et coneretivam
+<lb ed="#Ba"/>virtutem, superiora quidem moventem ad
+<lb ed="#Ba"/>providentiam minus habentium, 
+coordi<lb ed="#Ba" break="no"/>pata aulem rursus ad communicationis
+<lb ed="#Ba"/>alternatam habitudinem, in extremis 
+au<lb ed="#Ba" break="no"/>tem subjecta ad meliorum et 
+superposito<lb ed="#Ba" break="no"/>rum conversionem. Secundum hoc enim
+<lb ed="#Ba"/>amor est motiva virtus, quie superiora
+<lb ed="#Ba"/>movet ut inferioribus influant bona sua
+<lb ed="#Ba"/>provisive, et equalia ut aqualibus bona
+<lb ed="#Ba"/>comntiunicent associative, ef inferiora
+<lb ed="#Ba"/>per susceptivas virtutes convertantur ad
+<lb ed="#Ba"/>superiora, ut desiderentur a superioribus
+<lb ed="#Ba"/>et recipiant influentias boni, et sic 
+redu<lb ed="#Ba" break="no"/>clive perficiantur in ipsis: et sic amor
+<lb ed="#Ba"/>simplex virtus est motiva et activa. Et
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>sic amans non formatur a dilecto, sed 
+bo<lb ed="#Ba" break="no"/>no suo dilectum informat.
+</p>
+            <p xml:id="Almn78-a45555-d1e770">
+               <lb ed="#Ba"/>Dictum ergo <name xml:id="Almn78-a45555-Nd1e774">Magistri Hugonis</name> sic 
+in<lb ed="#Ba" break="no"/>telligitur de amore qui est in genere 
+pas<lb ed="#Ba" break="no"/>sionis et affectionis, et talis amor in Deo
+<lb ed="#Ba"/>non est, nisi altribuatur ei symbolice per
+<lb ed="#Ba"/>prosopopeiam que dicitur 
+anthropospa<lb ed="#Ba" break="no"/>thos.
+</p>
+            <p xml:id="Almn78-a45555-d1e789">
+               <lb ed="#Ba"/>Dionysius autem vocat exstasim 
+trans<lb ed="#Ba" break="no"/>positionem bonorum : quia unum 
+trans<lb ed="#Ba" break="no"/>ponit bona sua in alterum, ut dictum
+<lb ed="#Ba"/>est.
+</p>
+            <p xml:id="Almn78-a45555-d1e800">
+               <lb ed="#Ba"/>Ip guop primo objicitur in contrarium,
+<lb ed="#Ba"/>concedendum est.
+</p>
+            <p xml:id="Almn78-a45555-d1e807">
+               <lb ed="#Ba"/>Ad id quod queritur, Utrum ab 
+eter<lb ed="#Ba" break="no"/>no dilexerit creaturam que fuit, vel que
+<lb ed="#Ba"/>non fuit ?
+</p>
+            <p xml:id="Almn78-a45555-d1e816">
+               <lb ed="#Ba"/>Dicendum, quod ab eterno dilexit 
+crea<lb ed="#Ba" break="no"/>turam quie non fuit simpliciter, fuit 
+ta<lb ed="#Ba" break="no"/>men secundum quid: non enim fuit in se
+<lb ed="#Ba"/>et actu, sed fnitin prescientia et 
+ordina<lb ed="#Ba" break="no"/>tione creatoris.
+</p>
+            <p xml:id="Almn78-a45555-d1e829">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod licet 
+crea<lb ed="#Ba" break="no"/>tura in creatore sit creatrix essentia, 
+ta<lb ed="#Ba" break="no"/>men aliud est dictum, Deus diligit seip-
+<lb ed="#Ba" break="no"/>sum: nec ex parte diligentis, nec ex 
+par<lb ed="#Ba" break="no"/>te dilecti connolatur aliquid respectu
+<lb ed="#Ba"/>temporis preteriti, presentis, vel futur.
+<lb ed="#Ba"/>Cum autem dicitur, Diligit creaturam ab
+<lb ed="#Ba"/>eterno secundum quod est in ipso 
+pra<lb ed="#Ba" break="no"/>scita et disposita, connotatur respectus ad
+<lb ed="#Ba"/>futurum : et sic licet idem sil re, non 
+ta<lb ed="#Ba" break="no"/>inen idem est in modo significandi : et
+<lb ed="#Ba"/>in processu argumenti est fallacia 
+acci<lb ed="#Ba" break="no"/>dentis.
+</p>
+            <p xml:id="Almn78-a45555-d1e861">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Ba"/>weque diligat omnia ?
+</p>
+            <p xml:id="Almn78-a45555-d1e868">
+               <lb ed="#Ba"/>Dicendum, quod non. Ex parte enim
+<lb ed="#Ba"/>diligentis non extenditur quantitas 
+dile<lb ed="#Ba" break="no"/>clionis, nisi in his in quibus dilectio 
+pas<lb ed="#Ba" break="no"/>sio est. Sed in his in quibus dilectio virtus
+<lb ed="#Ba"/>simplex est unitiva, concreativa, 
+congre<lb ed="#Ba" break="no"/>gativa, et motiva, et activa, et influxiva
+<lb ed="#Ba"/>boni, quantitas dilectionis accipitur ex
+<lb ed="#Ba"/>parte dilecti: et illud magis amatur, cui
+<pb ed="#Ba" n="658"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>majus bonum influitur. Et sic Deus 
+dili<lb ed="#Ba" break="no"/>git bonum, et majus bonum magis 
+dili<lb ed="#Ba" break="no"/>gil, ef maxime bonum maxime diligit.
+<lb ed="#Ba"/>Objeclio autem procedit ac si quantitas
+<lb ed="#Ba"/>dilectionis accipiatur ex parte diliventis :
+<lb ed="#Ba"/>et hoc non est verum.
+</p>
+            <p xml:id="Almn78-a45555-d1e905">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod cum dicitur,
+<lb ed="#Ba"/>Deus wqualiter cognoscit omnia, locutio
+<lb ed="#Ba"/>est duplex : eo quod adverbialis 
+deter<lb ed="#Ba" break="no"/>minalio equaliter potest referri ad 
+ver<lb ed="#Ba" break="no"/>bum, cognoscit, in comparatione ad 
+ap<lb ed="#Ba" break="no"/>positum : et sic falsa est sub hoc sensu,
+<lb ed="#Ba"/>Deus cognoscit omnia equaliter, supple,
+<lb ed="#Ba"/>esse vel fore : hoc enim falsum est : quia
+<lb ed="#Ba"/>non equaliter sunt omnia. Polest cliam
+<lb ed="#Ba"/>referri ad idem verbum, sed in 
+compara<lb ed="#Ba" break="no"/>lione ad suppositum : et sic adhue est
+<lb ed="#Ba"/>duplex, ex eo quod hoc verbum, 
+cogno<lb ed="#Ba" break="no"/>seit, potest dicere simplicem notitiam, 
+si<lb ed="#Ba" break="no"/>ve causalitatem : et sic est vera : quia sic
+<lb ed="#Ba"/>wqualiter cognoscil omnia et bona et
+<lb ed="#Ba"/>mala. Et potest dicere nolitiam 
+practi<lb ed="#Ba" break="no"/>cam cum causalitate ad coynilum, quae est
+<lb ed="#Ba"/>noltitia approbationis : et sie est falsa sub
+<lb ed="#Ba"/>hoc sensu, Deus iequaliter cognoscit 
+om<lb ed="#Ba" break="no"/>nia, hoc est, equaliter approbat omnia :
+<lb ed="#Ba"/>hoc enim est falsum : bona enim 
+appro<lb ed="#Ba" break="no"/>bat, et non mala: et meliora magis 
+ap<lb ed="#Ba" break="no"/>probat, et maxima maxime. It de hae
+<lb ed="#Ba"/>notitia approbationis intelligitur eum 
+di<lb ed="#Ba" break="no"/>cilur, quod iequaliter cognita aqualiler
+<lb ed="#Ba"/>diliguntur.
+</p>
+            <p xml:id="Almn78-a45555-d1e964">
+               <lb ed="#Ba"/>Ab w quod objicitur de Sapientia, vi,
+<lb ed="#Ba"/>8, quod xgualiter est illi cura de 
+omni<lb ed="#Ba" break="no"/>bus, dicendum quod adverbium, 
+eqgua<lb ed="#Ba" break="no"/>liter, notat equalitatem similitudinis, et
+<lb ed="#Ba"/>non equalitatem dilectionis : hoc enim
+<lb ed="#Ba"/>est, sicut diligit unum, ita diligit 
+alte<lb ed="#Ba" break="no"/>rum: nec inwqualia nec dissimilia sunt
+<lb ed="#Ba"/>in hoc: quia subjecta sunt equaliter suc
+<lb ed="#Ba"/>dilectiont. In omnibus enim diligit bonum
+<lb ed="#Ba"/>quod ab ipso est et suum est: et quia
+<lb ed="#Ba"/>hoc inaequale est, propter hoc in#
+quali<lb ed="#Ba" break="no"/>ter diligit.
+</p>
+            <p xml:id="Almn78-a45555-d1e993">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod licet divina
+<lb ed="#Ba"/>dilectio, divina essentia sit, tamen dilectio
+<lb ed="#Ba"/>elfectum connotat in dilecta, qui nec 
+sum<lb ed="#Ba" break="no"/>mus, nec zqualis estin omnibus dilectis :
+<lb ed="#Ba"/>et ratione hujus non summe diligit quid
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>quid diligit. Sed Pater Filium summe
+<lb ed="#Ba"/>diligit, et e converso : quia volunt sibi 
+in<lb ed="#Ba" break="no"/>vicem summum bonum : et sic etiam
+<lb ed="#Ba"/>Pater et Filius diligunt Spiritum sanctum,
+<lb ed="#Ba"/>et e converso. In aliis autem tanta est 
+di<lb ed="#Ba" break="no"/>lectio, quantum est bonum quod 
+diligi<lb ed="#Ba" break="no"/>tur in cis: bonum enim in dilecto ratio
+<lb ed="#Ba"/>et signum est in diligente.
+</p>
+            <p xml:id="Almn78-a45555-d1e1026">
+               <lb ed="#Ba"/>Ip Quop objicitur in contrarium, 
+proce<lb ed="#Ba" break="no"/>dit.
+</p>
+            <p xml:id="Almn78-a45555-d1e1034">
+               <lb ed="#Ba"/>Abin quod ulterius queritur, dicendum
+<lb ed="#Ba"/>quod homo et Angelus tam secundum
+<lb ed="#Ba"/>statum natures quam secundum statum
+<lb ed="#Ba"/>gratiw possunt comparari dupliciter,
+<lb ed="#Ba"/>scilicet secundum statum communem,
+<lb ed="#Ba"/>comparando scilicet hominem ut 
+homi<lb ed="#Ba" break="no"/>nem, et Angelum ut Angelum: vel 
+se<lb ed="#Ba" break="no"/>cundum privilegium singulare, 
+compa<lb ed="#Ba" break="no"/>rando scilicel hune hominem ad 
+Ange<lb ed="#Ba" break="no"/>lum. Primo modo tam in bono nature
+<lb ed="#Ba"/>quam in bono grativ melior est Angelus
+<lb ed="#Ba"/>homine, et ita Deo magis dilectus, ut
+<lb ed="#Ba"/>objectum est. Secundo modo unibilitas
+<lb ed="#Ba"/>humane nature in Christo, cujus actus
+<lb ed="#Ba"/>est unio, majus bonum est quam aliquid
+<lb ed="#Ba"/>quod creature concessum est vel concedi
+<lb ed="#Ba"/>poluit : et ideo hic homo magis omni
+<lb ed="#Ba"/>Angelo dilectus est.
+</p>
+            <p xml:id="Almn78-a45555-d1e1076">
+               <lb ed="#Ba"/>Dicunt tamen quidam, quod si 
+Ange<lb ed="#Ba" break="no"/>lus comparatur ad hominem secundum
+<lb ed="#Ba"/>statum creationis, majus signum 
+dile<lb ed="#Ba" break="no"/>clionis est in Angelo quam in homine, et
+<lb ed="#Ba"/>major dilectionis effeclus, et per 
+conse<lb ed="#Ba" break="no"/>quens major dilectio. Si autem 
+conside<lb ed="#Ba" break="no"/>rentur secundum statuin recreationis,
+<lb ed="#Ba"/>plura signa dilectionis sunt in homine
+<lb ed="#Ba"/>quam in Angelo, et major dilectionis
+<lb ed="#Ba"/>elfectus. Et hoc’est quod dicitur, Joan.
+<lb ed="#Ba"/>mt, 16: Ste Deus dilerit mundum, ut
+<lb ed="#Ba"/>Fifium suum unigenttum daret. Ad 
+Ro<lb ed="#Ba" break="no"/>man. v, 8 et 9: Commendat autem 
+cha<lb ed="#Ba" break="no"/>rilatem suam Deus in nobis, quoniam
+<lb ed="#Ba"/>cum adhuc peccatores essemus,
+<lb ed="#Ba"/>dum tempus Christus pro nobis mortuus
+<lb ed="#Ba"/>est, Hi etiam dicunt, quod si homo et
+<lb ed="#Ba"/>Angelus comparantur ad finem 
+beatitu<lb ed="#Ba" break="no"/>dinis, zqualis est dilectio in Angelum et
+<lb ed="#Ba"/>hominem : quia secundum modum bea-
+<pb ed="#Ba" n="659"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>titudinis Angeli assumuntur homines. Et
+<lb ed="#Ba"/>adducunt pro se illud Apocalypsis, xX1,
+<lb ed="#Ba"/>17: Mensura hominis, que est Angelt.
+<lb ed="#Ba"/>Ft ilud Deuteronomii, xxxn, 8, 
+secun<lb ed="#Ba" break="no"/>dum aliam translationem : <quote xml:id="Almn78-a45555-Qd1e1136"> Statuit 
+ter<lb ed="#Ba" break="no"/>minos populorum juxta numerum 
+Ange<lb ed="#Ba" break="no"/>lorum Deit. </quote>
+            </p>
+            <p xml:id="Almn78-a45555-d1e1144">
+               <lb ed="#Ba"/>Per haec patet solutio ad sequens.
+<lb ed="#Ba"/>Id autem quod objicitur in contrarium,
+<lb ed="#Ba"/>concedendum est: hominem enim 
+Chri<lb ed="#Ba" break="no"/>stum plus diligit omni creatura.
+</p>
+            <p xml:id="Almn78-a45555-d1e1155">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Ba"/>plus presenter diligat justum non 
+pre<lb ed="#Ba" break="no"/>destinatum, vel predestinalum 
+praesen<lb ed="#Ba" break="no"/>ter non justum ?
+</p>
+            <p xml:id="Almn78-a45555-d1e1166">
+               <lb ed="#Ba"/>Dicendum, quod ex quo quantitas 
+di<lb ed="#Ba" break="no"/>lectionis non accipitur ex parle 
+dilectio<lb ed="#Ba" break="no"/>nis, sed ex parte effectus dilectionis
+<lb ed="#Ba"/>tunc dicimus, quod duplex est dilectio,
+<lb ed="#Ba"/>scilicet ut nunc, et simpliciter. Dilectione
+<lb ed="#Ba"/>ut nunc plus diligit presenter justum,
+<lb ed="#Ba"/>dilectione simpliciter plus diligit 
+pracde<lb ed="#Ba" break="no"/>stinatum. Ex argumento autem non 
+se<lb ed="#Ba" break="no"/>quitur, quod plus diligat, sed quod plura
+<lb ed="#Ba"/>in eo diligit. dt si inferatur, plura diligit,
+<lb ed="#Ba"/>ergo plus diligit, fallacia figure dictionis
+<lb ed="#Ba"/>est ex mulata suppositione : sub discreto
+<lb ed="#Ba"/>enim accipilur continuum, vel quasi
+<lb ed="#Ba"/>continuum.
+</p>
+            <p xml:id="Almn78-a45555-d1e1199">
+               <lb ed="#Ba"/>Ad m quod ulterius queritur de justo
+<lb ed="#Ba"/>et peenitente, dicendum quod cateris 
+pa<lb ed="#Ba" break="no"/>ribus plus diligit manenlem justum,
+<lb ed="#Ba"/>quam pcenitentem, hoc semper posito,
+<lb ed="#Ba"/>quod quantitas dilectionis penes effe
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>ctum, et non penes affectum attendatur,
+<lb ed="#Ba"/>Per accidens tamen quod frequenter 
+ac<lb ed="#Ba" break="no"/>cidit poenitenti, et per oppositum quod
+<lb ed="#Ba"/>frequenter subrepit justo, plus potest
+<lb ed="#Ba"/>diligere aliquem poenitentem, quam 
+ali<lb ed="#Ba" break="no"/>quem justum : verbi gratia si peenitens
+<lb ed="#Ba"/>fervens sit, ut fervore recuperet quod
+<lb ed="#Ba"/>amisit in_tempore quando erat in. 
+pecca<lb ed="#Ba" break="no"/>to, et justus ex contidentia justitie 
+te<lb ed="#Ba" break="no"/>Et ita solvit Glossa Luce, xv,
+<lb ed="#Ba"/>7, dicens, quod hoc modo predestinato
+<lb ed="#Ba"/>omnia cooperantur in bonum quia
+<lb ed="#Ba"/>eam lapsus in peccatum, in bonum
+<lb ed="#Ba"/>cooperatur, ex eo quod occasio est 
+ma<lb ed="#Ba" break="no"/>joris fervoris in peenitente. Et hoc 
+vide<lb ed="#Ba" break="no"/>tur sonare littera: quia dicit sic : Plus
+<lb ed="#Ba"/>quam nonagiula novem Justis gui non
+<lb ed="#Ba"/>indigent penitentia, hoc est, qui se 
+po<lb ed="#Ba" break="no"/>nitentia non repulant indigere. Unde
+<lb ed="#Ba"/>ibidem Glossa Bede dicit : <quote xml:id="Almn78-a45555-Qd1e1257"> Sieut dux
+<lb ed="#Ba"/>in bello eum militem plus diligit qui
+<lb ed="#Ba"/>post fugam conversus fortiter hostem
+<lb ed="#Ba"/>premit, quam qui numquam fugit nec
+<lb ed="#Ba"/>umquam fortiter egit. </quote> Aliud exemplum
+<lb ed="#Ba"/>dat Beda, quod <quote xml:id="Almn78-a45555-Qd1e1270"> sicut si aqua fundatur
+<lb ed="#Ba"/>in ignem et ignis aquam superet, ignis
+<lb ed="#Ba"/>ex aque infusione plus fervet et ardet,
+<lb ed="#Ba"/>quam si aqua in ignem fusa non esset :
+<lb ed="#Ba"/>ita poenitens ex indignatione contra 
+pec<lb ed="#Ba" break="no"/>catum quod fecit, plus. fervet in 
+dile<lb ed="#Ba" break="no"/>clione Dei, quam si non peccasset. </quote> Et
+<lb ed="#Ba"/>ex hoc non sequitur, quod plus diligat
+<lb ed="#Ba"/>peenitentem quam justum, sed quod plus
+<lb ed="#Ba"/>diligat talem pcenitentem quam talem
+</p>
+            <p xml:id="Almn78-a45555-d1e1295">
+               <pb ed="#Ba" n="660"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO INCIDENS.
+<lb ed="#Ba"/>Utrum Christus plus dilexit
+</p>
+            <p xml:id="Almn78-a45555-d1e1306">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Juxta hoc ulterius queritur de’ 
+qua<lb ed="#Ba" break="no"/>dam Glossa Augustini qua continetur,
+<lb ed="#Ba"/>Joannis, xx1, 20, super illud : Conversus
+<lb ed="#Ba"/>Petrus, vidit illum discipulum quem 
+di<lb ed="#Ba" break="no"/>ligebat Jesus, ubi dicit Augustinus
+<cb ed="#Ba" n="b"/>
+               <quote xml:id="Almn78-a45555-Qd1e1323"> Tacito, nomine hoc signo discernitur
+<lb ed="#Ba"/>Joannes‘a ceteris, non quod solum eum,
+<lb ed="#Ba"/>sed quod pre ceteris diligebat eum.
+<lb ed="#Ba"/>Hujus majoris dilectionis indicium est,
+<lb ed="#Ba"/>quod solus super pectus Jesu recubuit. </quote>
+               <lb ed="#Ba"/>Ex quo accipitur, quod plus aliis dilexit
+<lb ed="#Ba"/>Joannem.
+</p>
+            <p xml:id="Almn78-a45555-d1e1339">
+               <lb ed="#Ba"/>In contrarium hujus est:quod
+<lb ed="#Ba"/>4. Ibidem dicit subdens : <quote xml:id="Almn78-a45555-Qd1e1345">Porro 
+Pe<lb ed="#Ba" break="no"/>trus plus aliis dilexit. {Unde ipse sciens
+<lb ed="#Ba"/>quod interrogabat : Simon Joannis, 
+dili<lb ed="#Ba" break="no"/>gis me plus his’ ? hoc est, plus aliis
+<lb ed="#Ba"/>Apostolis. </quote> Ex quo accipitur, quod 
+Pe<lb ed="#Ba" break="no"/>trus plus dilexit Christum quam 
+Joan<lb ed="#Ba" break="no"/>nes : et ex hoc sequitur, quod Deus 
+dili<lb ed="#Ba" break="no"/>git plus minus diligentem, et minus 
+dili<lb ed="#Ba" break="no"/>git plus diligentem, quod videlur valde
+<lb ed="#Ba"/>inconveniens. Unde Augustinus ibidem
+<lb ed="#Ba"/>disputans dicit: <quote xml:id="Almn78-a45555-Qd1e1369"> Videtur melior qui
+<lb ed="#Ba"/>plus diligit, quam qui minus diligit
+<lb ed="#Ba"/>Christum : et sic anteponitur Petrus
+<lb ed="#Ba"/>Joanni. </quote> Item, Videtur melior qui plus
+<lb ed="#Ba"/>diligitur, quam qui minus diligitur a
+<lb ed="#Ba"/>Christo : et sic anteponitur Joannes 
+Pe<lb ed="#Ba" break="no"/>tro. Constat autem, quod melior plus
+<lb ed="#Ba"/>diligitur. Unde dubia est responsio, quis
+<lb ed="#Ba"/>plus diligatur, maxime propter id quod
+<lb ed="#Ba"/>dicitur, Proverbiorum, vi, 17: Ego
+<lb ed="#Ba"/>diligentes me diligo. Si enim simpliciter
+</p>
+            <p xml:id="Almn78-a45555-d1e1394">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>sequitur ad simpliciter, secundum 
+regu<lb ed="#Ba" break="no"/>lam consequentiarum traditam in logicis,
+<lb ed="#Ba"/>et magis sequitur ad magis, et maxime
+<lb ed="#Ba"/>ad maxime : unde si diligentes me 
+dili<lb ed="#Ba" break="no"/>go, magis diligentes magis diligo, et
+<lb ed="#Ba"/>maxime diligentes maxime diligo.
+</p>
+            <p xml:id="Almn78-a45555-d1e1412">
+               <lb ed="#Ba"/>Hanc quaestionem determinat 
+Augu<lb ed="#Ba" break="no"/>stinus in eadem Glossa sic : <quote xml:id="Almn78-a45555-Qd1e1418"> Videtur
+<lb ed="#Ba"/>quidem qui plus diligit Christum, 
+me<lb ed="#Ba" break="no"/>lior : sed quem plus diligit Christus, 
+fe<lb ed="#Ba" break="no"/>licior. </quote> Et hae determinatio videtur
+<lb ed="#Ba"/>esse dubia : quia qui melior est, non 
+vi<lb ed="#Ba" break="no"/>detur esse melior nisi bonitate ad 
+felici<lb ed="#Ba" break="no"/>tatem ordinata : et sic videtur, quod
+<lb ed="#Ba"/>melior sit felicior, cujus contrarium 
+di<lb ed="#Ba" break="no"/>cit Augustinus.
+</p>
+            <p xml:id="Almn78-a45555-d1e1439">
+               <lb ed="#Ba"/>2. Adhuc, Glossa super illud Joannis,
+<lb ed="#Ba"/>xx1, 20 : Quem diligebat Jesus, dicit
+<lb ed="#Ba"/>sic : <quote xml:id="Almn78-a45555-Qd1e1447"> Diligebat et alios, sed familiarius
+<lb ed="#Ba"/>istum dotavit potiore dulcedine sui 
+amo<lb ed="#Ba" break="no"/>ris : quia virgo permansit, matrem ei
+<lb ed="#Ba"/>commendavit. </quote> Sed quem dotavit 
+po<lb ed="#Ba" break="no"/>tiore dulcedine sui amoris, felivior fuit et
+<lb ed="#Ba"/>majorem effectum gratie habuit: ergo
+<lb ed="#Ba"/>videtur, quod Joannes et felicior et 
+me<lb ed="#Ba" break="no"/>lior fuit Petro, et per consequens magis
+<lb ed="#Ba"/>dilectus : et hoc est contra pradicta. Si
+<lb ed="#Ba"/>enim cum Christus dixit : Diligis me
+<lb ed="#Ba"/>plus his ? interrogabat quod scivit, scivit
+<lb ed="#Ba"/>quod Petrus plus eum omnibus 
+dilige<lb ed="#Ba" break="no"/>ret : et qui plus diligit Deum, habet
+<lb ed="#Ba"/>majorem charitatem : et qui majorem
+<lb ed="#Ba"/>charitatem habet, et melior et felicior
+<lb ed="#Ba"/>est et Deo magis dilectus : ergo Petrus et
+</p>
+            <p xml:id="Almn78-a45555-d1e1484">
+               <pb ed="#Ba" n="661"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>melior et felicior fuit et magis dilectus
+<lb ed="#Ba"/>a Deo, quam Joannes.
+</p>
+            <p xml:id="Almn78-a45555-d1e1495">
+               <lb ed="#Ba"/>Solutio. Dicendum, quod aliud est
+<lb ed="#Ba"/>plus diligere simpliciter, et aliud est
+<lb ed="#Ba"/>plus diligere in hoc et ad hoc. Plus 
+dili<lb ed="#Ba" break="no"/>gitur simpliciter, cui major gratia 
+chari<lb ed="#Ba" break="no"/>tatis confertur ad merendam vitam 
+eter<lb ed="#Ba" break="no"/>nam : quia charitas pretiosissimum 
+do<lb ed="#Ba" break="no"/>num est, et efficacius ad merendum, et
+<lb ed="#Ba"/>excellentius inter dona vie, et 
+infallibi<lb ed="#Ba" break="no"/>liter conducens ad vitam eternam, que
+<lb ed="#Ba"/>optimum et excellentissimum donum
+<lb ed="#Ba"/>Dei est. Et hoc modo Deus diligit plus
+<lb ed="#Ba"/>eum qui Deum plus diligit. Il enim
+<lb ed="#Ba"/>Majorem gratiam contulit : quia aliter
+<lb ed="#Ba"/>eum plus diligere non posset, nisi 
+majo<lb ed="#Ba" break="no"/>rem gratiam allis accepisset charitatis.
+<lb ed="#Ba"/>Et hoc modo intelligitur illud 
+Proverbio<lb ed="#Ba" break="no"/>rum, vin, 17: Ego diligentes me diligo.
+<lb ed="#Ba"/>Et hoc modo Christus plus dilexit 
+Pe<lb ed="#Ba" break="no"/>trum quam Joannem: de tali enim 
+di<lb ed="#Ba" break="no"/>lectione tenet consequentia inducta :
+<lb ed="#Ba"/>quia si diligentes se diligit, magis 
+dili<lb ed="#Ba" break="no"/>gentes magis diligit, et maxime 
+diligen<lb ed="#Ba" break="no"/>tes maxime diligit. Dilectio autem in
+<lb ed="#Ba"/>hoc et ad hoc est, quando effectus dile
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>ctionis datur in aliquo speciali et 
+excel<lb ed="#Ba" break="no"/>lenti dono, et dulcius et familiarius. Et
+<lb ed="#Ba"/>tali dilectione plus dilexit Joannem : 
+de<lb ed="#Ba" break="no"/>dit enim sibi pre ceteris haustum 
+sa<lb ed="#Ba" break="no"/>pientiae, quo ceteris altius intelligeret
+<lb ed="#Ba"/>simul et patefaceret (ut dicit Beda) suze
+<lb ed="#Ba"/>divinitatis arcana. Dedit etiam gustum
+<lb ed="#Ba"/>dulcedinis in sacramentis, quo ab 
+omni<lb ed="#Ba" break="no"/>bus oblectamentis hujus mundi exutus,
+<lb ed="#Ba"/>et interior! delectatione, omnibus 
+sensi<lb ed="#Ba" break="no"/>bus ad interiora revocatis, quasi 
+resolu<lb ed="#Ba" break="no"/>tus et consopitus, nusquam quereret
+<lb ed="#Ba"/>quiescere nisi in pectore Domini: ét in
+<lb ed="#Ba"/>hoc et ad hoc plus dilexit Joannem. Et
+<lb ed="#Ba"/>Joannes dicitur felicior, eo quod talia
+<lb ed="#Ba"/>dona minus sentire faciunt miseriam 
+vi<lb ed="#Ba" break="no"/>te presentis. Felicior enim est, qui a
+<lb ed="#Ba"/>miseria immunior est. Petrus autem 
+di<lb ed="#Ba" break="no"/>citur melior, non felicior : quia major
+<lb ed="#Ba"/>charitas est fortior ad sustinendas 
+mise<lb ed="#Ba" break="no"/>rias hujus vite et ad merendum vilam
+<lb ed="#Ba"/>eternam : felix autem non est propter
+<lb ed="#Ba"/>sensum miseriarum. Dicit enim 
+Bernar<lb ed="#Ba" break="no"/>dus in libro V de Consideratione ad 
+Eu<lb ed="#Ba" break="no"/>genium, quod <quote xml:id="Almn78-a45555-Qd1e1605"> beatitudo et miseria in
+<lb ed="#Ba"/>eodem esse non possunt actu. </quote>
+  
+               <lb ed="#Ba"/>Et sic patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

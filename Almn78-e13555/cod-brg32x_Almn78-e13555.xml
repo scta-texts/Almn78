@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 44</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 44</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="510"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e13555"><!-- p2t11q44 -->
+            <head xml:id="Almn78-e13555-Hd1e106">Quaestio 44</head>
+            <head xml:id="Almn78-e13555-Hd1e109" type="question-title">
+      An conveniebat corporalem creaturam primo in materia confusa
+      et informi fieri, an per speciem et locum distinctam ?
+    </head>
+            <p xml:id="Almn78-e13555-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XLIV.
+      <lb ed="#Bb"/>An conveniebat corporalem creaturam primo in materia confusa
+      <lb ed="#Bb"/>et informi fieri, an per speciem et locum distinctam ?
+    </p>
+            <p xml:id="Almn78-e13555-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Secundo queritur, An conveniebat
+      <lb ed="#Bb"/>corporalem creaturam primo in materia
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>confusa et informi fieri, an per speciem
+      <lb ed="#Bb"/>et locum distinctam ?
+    </p>
+            <p xml:id="Almn78-e13555-d1e139">
+               <pb ed="#Bb" n="511"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Et videtur, quod non conveniebat fieri
+      <lb ed="#Bb"/>in materia confusa. Et ad hoc quidam
+      <lb ed="#Bb"/>objiciunt sic:
+    </p>
+            <p xml:id="Almn78-e13555-d1e153">
+               <lb ed="#Bb"/>1. A perfectissimo agente 
+      perfectissi<lb ed="#Bb" break="no"/>mum est opus: Deus est perfectissimum
+      <lb ed="#Bb"/>agens: et ejus propria actio est creatio :
+      <lb ed="#Bb"/>ergo per creationem a Deo non fit nisi
+      <lb ed="#Bb"/>opus perfectissimum. Videtur ergo, quod
+      <lb ed="#Bb"/>materia sive forma a Deo non fiat, nisi per
+      <lb ed="#Bb"/>creationem. Non ergo corporalia primo
+      <lb ed="#Bb"/>fiunt in materia confusa, et postea 
+      di<lb ed="#Bb" break="no"/>stinguuntur per formam : sed statim per
+      <lb ed="#Bb"/>creationem fit compositum ex materia et
+      <lb ed="#Bb"/>forma.
+    </p>
+            <p xml:id="Almn78-e13555-d1e179">
+               <lb ed="#Bb"/>2. Adhuc, Confusio repugnat ordini
+      <lb ed="#Bb"/>sapientie creatoris. Cum ergo creator
+      <lb ed="#Bb"/>emnia facit in sapientia, ut dicitur in
+      <lb ed="#Bb"/>Psalmo cin, 24+, videtur quod non 
+      fe<lb ed="#Bb" break="no"/>cerit in confusione, sed in distinctione
+      <lb ed="#Bb"/>formarum.
+    </p>
+            <p xml:id="Almn78-e13555-d1e195">
+               <lb ed="#Bb"/>3. Adhuc, Confusum est quod in se
+      <lb ed="#Bb"/>habet formas, sed non distinctas. 
+      Vide<lb ed="#Bb" break="no"/>tur ergo, quod habeat sicut permixtas.
+      <lb ed="#Bb"/>Contrariz autem forme elementorum in
+      <lb ed="#Bb"/>mixto agunt et patiuntur ad mixti 
+      disso<lb ed="#Bb" break="no"/>lutionem. Ergo materia prima omnium
+      <lb ed="#Bb"/>corporalium in se dissolubilis et 
+      corrup<lb ed="#Bb" break="no"/>tibilis fuit : ergo principium nature esse
+      <lb ed="#Bb"/>non potuit, Dicit enim Aristoteles in
+      <lb ed="#Bb"/>I Physicorum, quod principium 
+      essen<lb ed="#Bb" break="no"/>tiale nature incorruptibile est.
+    </p>
+            <p xml:id="Almn78-e13555-d1e221">
+               <lb ed="#Bb"/>4, Adhuc, In naturalibus et in his que
+      <lb ed="#Bb"/>fiunt a proposito sive ab intellectu, 
+      num<lb ed="#Bb" break="no"/>quam fit materia sine forma. Cum ergo
+      <lb ed="#Bb"/>naturalia et que fiunt a proposito, 
+      exem<lb ed="#Bb" break="no"/>plata sint ab his que fiunt a sapientia
+      <lb ed="#Bb"/>divina, videtur quod sapientia divina non
+      <lb ed="#Bb"/>facit primo materiam, et postea distinguit
+      <lb ed="#Bb"/>eam per formam.
+    </p>
+            <p xml:id="Almn78-e13555-d1e241">
+               <lb ed="#Bb"/>Sed contra hoc est,
+      <lb ed="#Bb"/>4. Quod dicit Hieronymus, Gregorius,
+      <lb ed="#Bb"/>Beda, et Strabus, Ambrosius, et omnes
+      <lb ed="#Bb"/>alii preter Augustinum. Et tamen ille
+      <lb ed="#Bb"/>etiam in libro XII Confessionum dicit,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-e13555-Qd1e256"> Deus primo fecit informitatem
+        <lb ed="#Bb"/>materi#, quam postea distinxit per 
+        for<lb ed="#Bb" break="no"/>mas. </quote>
+            </p>
+            <p xml:id="Almn78-e13555-d1e264">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>2. Adhuc, Ovidius in libro I 
+      Metamor<lb ed="#Bb" break="no"/>phoseon:
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e13555-Qd1e274">Ante mare, et terras, et quod tegit omnia
+        <lb ed="#Bb"/>celum,
+        <lb ed="#Bb"/>Unus erat toto nature: vultus in orbe,
+        <lb ed="#Bb"/>Quem dixere chaos.</quote>
+            </p>
+            <p xml:id="Almn78-e13555-d1e285">
+               <lb ed="#Bb"/>3. Adhuc, Boetius in libro IIT de 
+      Con<lb ed="#Bb" break="no"/>solatione philosophie :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e13555-Qd1e293">Quem non externz populerunt fingere causa
+        <lb ed="#Bb"/>Materiz fluitantis opus : verum insita summi
+        <lb ed="#Bb"/>Forma boni livore carens, tu cuncta superno
+        <lb ed="#Bb"/>Ducis ab exemplo</quote>.
+    </p>
+            <p xml:id="Almn78-e13555-d1e303">
+               <lb ed="#Bb"/>Ergo materia omnium primo fluitabat
+      <lb ed="#Bb"/>confusa, et postea exemplo mundi 
+      arche<lb ed="#Bb" break="no"/>typi distincta est per formas, sicut dicit
+      <lb ed="#Bb"/>Plato.
+    </p>
+            <p xml:id="Almn78-e13555-d1e314">
+               <lb ed="#Bb"/>4. Adhuc, Per rationem quidam 
+      pro<lb ed="#Bb" break="no"/>bant idem. Dicunt enim, quod et 
+      anti<lb ed="#Bb" break="no"/>qui Philosophi dixerunt, quod omnis 
+      ge<lb ed="#Bb" break="no"/>neratio et factio alicujus ex aliquo, est
+      <lb ed="#Bb"/>ex convenienti: distinclio ergo que est
+      <lb ed="#Bb"/>opus divinum post creationem, erit ex
+      <lb ed="#Bb"/>convenienti : conveniens autem esse non
+      <lb ed="#Bb"/>potest, nisi sit ex materia in se formas
+      <lb ed="#Bb"/>distinctorum habente confusas et 
+      indi<lb ed="#Bb" break="no"/>stinctas: ante opus ergo distinctionis
+      <lb ed="#Bb"/>fuit materia que dicta est chaos, 
+      om<lb ed="#Bb" break="no"/>nium formas habens indistincte.
+    </p>
+            <p xml:id="Almn78-e13555-d1e343">
+               <lb ed="#Bb"/>3. Adhuc, In libro de Intelligibilibus
+      <lb ed="#Bb"/>dicitur, quod omnis forma que est a
+      <lb ed="#Bb"/>primo motore sicut in actu et in 
+      exem<lb ed="#Bb" break="no"/>plari, est in materia prima sicut in 
+      po<lb ed="#Bb" break="no"/>tentia. Et ideo dicitur, quod prima causa
+      <lb ed="#Bb"/>que potest omnia facere, imaginem 
+      ha<lb ed="#Bb" break="no"/>bet materiam primam ex qua possunt
+      <lb ed="#Bb"/>omnia fieri. Cam ergo quilibet artifex
+      <lb ed="#Bb"/>formando opus suum, non operatur nisi
+      <lb ed="#Bb"/>in eo ex quo possunt omnia fieri que
+      <lb ed="#Bb"/>sunt sue artis, videtur quod etiam Deus
+      <lb ed="#Bb"/>opus distinctionis et ornatus non facit,
+      <lb ed="#Bb"/>nisi ex materia et in materia qua 
+      pos<lb ed="#Bb" break="no"/>sunt fieri omnia opera sua et recipere
+      <lb ed="#Bb"/>omnes formas operum suorum: et hoc
+      <lb ed="#Bb"/>non est nisi materia que dicta est chaos,
+      <lb ed="#Bb"/>habens confuse omnes formas: ergo ex
+      <pb ed="#Bb" n="512"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>tali materia operatus est Deus opus 
+      di<lb ed="#Bb" break="no"/>stinctionis et ornatus : et sic a principio
+      <lb ed="#Bb"/>non fecit Deus omnia simul in formis
+      <lb ed="#Bb"/>distincta, sed in materia que dicta est
+      <lb ed="#Bb"/>chaos.
+    </p>
+            <p xml:id="Almn78-e13555-d1e398">
+               <lb ed="#Bb"/>Juxta Hoc queritur, Utrum sicut per
+      <lb ed="#Bb"/>terram intelligitur materia elementorum
+      <lb ed="#Bb"/>et elementatorum confusa et indistincta,
+      <lb ed="#Bb"/>ita per ccelum intelligatur materia 
+      ccelo<lb ed="#Bb" break="no"/>rum ccelestium confusa et indistincta ?
+    </p>
+            <p xml:id="Almn78-e13555-d1e411">
+               <lb ed="#Bb"/>Et videtur, quod sic: quia
+      <lb ed="#Bb"/>1. Sicut ignis primo informiter fuit in
+      <lb ed="#Bb"/>materia, et postea per dislinctionem 
+      for<lb ed="#Bb" break="no"/>mam etlocum accepit, et similiter alia
+      <lb ed="#Bb"/>elementa et elementata.
+    </p>
+            <p xml:id="Almn78-e13555-d1e425">
+               <lb ed="#Bb"/>Similiter cum dicitur celum, 
+      indi<lb ed="#Bb" break="no"/>stincle proponitur, et postea per 
+      distin<lb ed="#Bb" break="no"/>ctionem ad esse cceli distinguitur, com
+      <lb ed="#Bb"/>dicitur: Fiat firmamentum in medio
+      <lb ed="#Bb"/>aquarum '; firmamentum enim dicit hoc
+      <lb ed="#Bb"/>et speciale coelum.
+    </p>
+            <p xml:id="Almn78-e13555-d1e441">
+               <lb ed="#Bb"/>2. Adhuc, Hoc videtur sentire 
+      Augu<lb ed="#Bb" break="no"/>stinus in libro contra Manicheum sic
+      <lb ed="#Bb"/>dicens: <quote xml:id="Almn78-e13555-Qd1e449"> Dicitur terra vacua et inanis *:
+        <lb ed="#Bb"/>quia terra nunc habet ut fiant aliqua ex
+        <lb ed="#Bb"/>illa, que tune non habuit : nune enim
+        <lb ed="#Bb"/>est quasi mater que est gravida 
+        multo<lb ed="#Bb" break="no"/>rum fetuum. </quote> Cum ergo etiam celum
+      <lb ed="#Bb"/>primo in se habuerit unde fierent cceli
+      <lb ed="#Bb"/>distincti et stelle distinct, videtur quod
+      <lb ed="#Bb"/>ccelum dicat informem materiam, 
+      respe<lb ed="#Bb" break="no"/>ctu ccelestium, sicut materia dicit 
+      infor<lb ed="#Bb" break="no"/>mem materiam respectu elementorum et
+      <lb ed="#Bb"/>elementatorum.
+    </p>
+            <p xml:id="Almn78-e13555-d1e474">
+               <lb ed="#Bb"/>3. Adhuc, Augustinus contra 
+      Mani<lb ed="#Bb" break="no"/>cheos : <!--<quote>--> Primo materia facta est 
+      con<lb ed="#Bb" break="no"/>fusa et informis, unde omnia fierent que
+      <lb ed="#Bb"/>distincta atque formata sunt : quam
+      <lb ed="#Bb"/>credo a Grecis chaos appellari: sic enim
+      <lb ed="#Bb"/>in alio loco, hoc est, in libro Sapientia,
+      <lb ed="#Bb"/>x1, 18 in laudibus Dei dicitur: Tu fecisti
+      <lb ed="#Bb"/>mundum de materia informi. Quod aliqui
+      <lb ed="#Bb"/>codices habent, de materia invisa *. Et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>ideo certissime creditur Deus omnia ex
+      <lb ed="#Bb"/>nihilo fecisse : quia etiamsi omnia 
+      for<lb ed="#Bb" break="no"/>mata de prima materia facta sunt, ipsa
+      <lb ed="#Bb"/>tamen materia de omnino nihilo prius
+      <lb ed="#Bb"/>facta est.
+    </p>
+            <p xml:id="Almn78-e13555-d1e511">
+               <lb ed="#Bb"/>4, Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-e13555-Qd1e515"> In
+        <lb ed="#Bb"/>formis illa materia (quam de nihilo fecit
+        <lb ed="#Bb"/>Deus) appellata est primo ccelum et terra:
+        <lb ed="#Bb"/>non quia hoc jam erat, sed quia hoc 
+        pot<lb ed="#Bb" break="no"/>erat esse. Postea legitur factum ccelum
+        <lb ed="#Bb"/>ex ipsa : quemadmodum si semen 
+        arbo<lb ed="#Bb" break="no"/>ris considerantes, ibi dicamus esse 
+        radi<lb ed="#Bb" break="no"/>ces et robur et ramos et fructus et folia,
+        <lb ed="#Bb"/>non quia jam sint, sed quia inde futura
+        <lb ed="#Bb"/>sunt. Sic dictum est: Jn principio 
+        crea<lb ed="#Bb" break="no"/>vit Deus celum et terram *, quasi semen
+        <lb ed="#Bb"/>ceeli et terre, cum in confuso adhuc
+        <lb ed="#Bb"/>esset cceli et terrae materia : sed quia 
+        cer<lb ed="#Bb" break="no"/>tum erat inde futura esse ccelum et 
+        ter<lb ed="#Bb" break="no"/>ram, ideo et ipsa materia ccelum et terra
+        <lb ed="#Bb"/>appellata est. </quote>
+            </p>
+            <p xml:id="Almn78-e13555-d1e551">
+               <lb ed="#Bb"/>5. Sed sisic est, quod tam per coelum
+      <lb ed="#Bb"/>quam per terram intelligitur materia 
+      con<lb ed="#Bb" break="no"/>fusa: tune habet locum questio, quare
+      <lb ed="#Bb"/>de terra dicitur, quod erat tnanis et 
+      va<lb ed="#Bb" break="no"/>cua ®, vel secundum Septuaginta, 
+      in<lb ed="#Bb" break="no"/>structibilis et incomposita: de caelo 
+      au<lb ed="#Bb" break="no"/>tem nihil taliam legitur ?
+    </p>
+            <p xml:id="Almn78-e13555-d1e569">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod Sancti 
+      di<lb ed="#Bb" break="no"/>versilicati sunt in solutione hujus 
+      que<lb ed="#Bb" break="no"/>stionis. Augustinus enim dixit, quod
+      <lb ed="#Bb"/>omnia simul facta sunt in forma et 
+      ma<lb ed="#Bb" break="no"/>teria secundum genera et species sicut
+      <lb ed="#Bb"/>nunc sunt. Cui videntur consentire 
+      Da<lb ed="#Bb" break="no"/>mascenus et Gregorius Nyssenus qui 
+      di<lb ed="#Bb" break="no"/>cunt, quod de singulis speciebus 
+      anima<lb ed="#Bb" break="no"/>lium duo perfecta secundum speciem et
+      <lb ed="#Bb"/>sexum primo creavit Deus, ex quibus
+      <lb ed="#Bb"/>alia propagarentur. Aliis autem sanctis,
+      <lb ed="#Bb"/>sicut Gregorio, Hieronymo et aliis magis
+      <lb ed="#Bb"/>placuit, quod primo creavit materiam
+      <lb ed="#Bb"/>confusam elementorum et 
+      elementato<lb ed="#Bb" break="no"/>rum, et ex illa per distinctionem et or
+      <pb ed="#Bb" n="513"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" break="no"/>natum secundum species et genera res
+      <lb ed="#Bb"/>formavit sicut adhuc sunt. Et utrumque
+      <lb ed="#Bb"/>horum Catholicum est, quamvis dictum
+      <lb ed="#Bb"/>Gregorii et aliorum magis consonet 
+      litte<lb ed="#Bb" break="no"/>re Genesis.
+    </p>
+            <p xml:id="Almn78-e13555-d1e620">
+               <lb ed="#Bb"/>Et secundum illos ad primum sic 
+      re<lb ed="#Bb" break="no"/>spondendum est, quod _perfectissimi
+      <lb ed="#Bb"/>agentis virtus que infinita est in 
+      poten<lb ed="#Bb" break="no"/>tia, non potest considerari in opere 
+      ope<lb ed="#Bb" break="no"/>rato, quod diverse essentiz est ab ipso :
+      <lb ed="#Bb"/>eo quod illud creatum est, et nihil 
+      crea<lb ed="#Bb" break="no"/>tum susceplibile est infinite virtutis, sed
+      <lb ed="#Bb"/>consideratur in modo operationis: quia
+      <lb ed="#Bb"/>scilicet opus in forma et materia facit ex
+      <lb ed="#Bb"/>nihilo, et quia operari habet in 
+      volun<lb ed="#Bb" break="no"/>tate, et sicut vult operatur. Ad Roman.
+      <lb ed="#Bb"/>w, 17: Qui vocal ea que nonsunt, 
+      tam<lb ed="#Bb" break="no"/>quam ea que sunt: quamvis materia 
+      in<lb ed="#Bb" break="no"/>formis natura et non tempore precedat
+      <lb ed="#Bb"/>opus formatum, ut dicit Augustinus et
+      <lb ed="#Bb"/>omnes Sancti.
+    </p>
+            <p xml:id="Almn78-e13555-d1e657">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod confusio
+      <lb ed="#Bb"/>que repugnat ordini sapientie, est 
+      con<lb ed="#Bb" break="no"/>fusio non ordinabilis. Confusum autem
+      <lb ed="#Bb"/>quod in se habet unde redigatur in 
+      ordi<lb ed="#Bb" break="no"/>nem per distinctionem, non repugnat
+      <lb ed="#Bb"/>ordini sapientia, sed potius concordat:
+      <lb ed="#Bb"/>quia mixtum continuum et determinatum
+      <lb ed="#Bb"/>ad speciem et figuram sicut sunt 
+      elemen<lb ed="#Bb" break="no"/>tata, ex uno simplici fieri non potest.
+    </p>
+            <p xml:id="Almn78-e13555-d1e679">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod miscibilium
+      <lb ed="#Bb"/>simplicium qualitates in mixto non
+      <lb ed="#Bb"/>agunt, nisi ubi secundum actum sunt. In
+      <lb ed="#Bb"/>illo autem mixto quod chaos Greci 
+      vo<lb ed="#Bb" break="no"/>cant, secundum actum qualitates 
+      elemen<lb ed="#Bb" break="no"/>tales non fuerunt solute, sed ligate 
+      pro<lb ed="#Bb" break="no"/>portionibus miscibilium :  sicut etiam
+      <lb ed="#Bb"/>sunt in mixtis et complexionatis. Et hoc
+      <lb ed="#Bb"/>est etiam quod dicit Boetius in libro III
+      <lb ed="#Bb"/>de Consolatione Philosophie :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e13555-Qd1e705">Tunumeriselementa ligas,ut frigoraflammis,
+        <lb ed="#Bb"/>Arida conveniant liquidis, ne purior ignis
+        <lb ed="#Bb"/>Evolet, et mersas deducant pondera terras.</quote>
+            </p>
+            <p xml:id="Almn78-e13555-d1e713">
+               <lb ed="#Bb"/>Numeros enim Boetius hic vocat 
+      pro<lb ed="#Bb" break="no"/>portiones mixtorum in mixto vel com
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>plexionato, in quo minimum cujuslibet
+      <lb ed="#Bb"/>miscibilium cum minimo alterius est:
+      <lb ed="#Bb"/>quia, sicut dicit Aristoteles in Tl de 
+      Ge<lb ed="#Bb" break="no"/>neratione et Corruptione, mixtio est 
+      mi<lb ed="#Bb" break="no"/>scibilium alteratorum unio.
+    </p>
+            <p xml:id="Almn78-e13555-d1e733">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod licet 
+      natura<lb ed="#Bb" break="no"/>lia et illa que fiunt a proposito, 
+      exem<lb ed="#Bb" break="no"/>plata sint a sapientia divina, tamen
+      <lb ed="#Bb"/>exemplum illud non implet exemplar 
+      se<lb ed="#Bb" break="no"/>cundum omnem modum, imo deficit ab
+      <lb ed="#Bb"/>ipso: quia sapientia non operatur super
+      <lb ed="#Bb"/>prejacentem materiam, quia si ita 
+      ope<lb ed="#Bb" break="no"/>raretur, aliquo indigeret ad opus, sine
+      <lb ed="#Bb"/>quo operari non posset, et non esset
+      <lb ed="#Bb"/>agens perfectissimum. Sed natura et
+      <lb ed="#Bb"/>propositum non operatur, nisi super 
+      pre<lb ed="#Bb" break="no"/>jacentem materiam.
+    </p>
+            <p xml:id="Almn78-e13555-d1e762">
+               <lb ed="#Bb"/>Apw quod objicitur in contrarium, aq otject.1.
+      <lb ed="#Bb"/>dicendum quod sancti illi secundum 
+      litte<lb ed="#Bb" break="no"/>ram Genesis dicunt, quod per opus 
+      crea<lb ed="#Bb" break="no"/>tionis produxit materiam confusam 
+      pri<lb ed="#Bb" break="no"/>mo, que confusa postea per opera 
+      die<lb ed="#Bb" break="no"/>rum distincta et ornata est.
+    </p>
+            <p xml:id="Almn78-e13555-d1e779">
+               <lb ed="#Bb"/>Ad dictum Augustini dicendum, quod
+      <lb ed="#Bb"/>ipse intelligit informitatem precedere
+      <lb ed="#Bb"/>formam natura, non tempore: sicut et
+      <lb ed="#Bb"/>Plato in Zimexo dixit, matriculam sive
+      <lb ed="#Bb"/>receptaculum formarum primo a Deo
+      <lb ed="#Bb"/>esse faclum secundum ordinem nature :
+      <lb ed="#Bb"/>et postea formas per se existentes illi esse
+      <lb ed="#Bb"/>incorporatas et posilas sicut in Euripo,
+      <lb ed="#Bb"/>in quo per motum et alterationem 
+      conti<lb ed="#Bb" break="no"/>nuam sustinet ebullitionem.
+    </p>
+            <p xml:id="Almn78-e13555-d1e803">
+               <lb ed="#Bb"/>Ad primum Ovidii dicendum, quod 
+      opi<lb ed="#Bb" break="no"/>nio de confusa et mixta materia ab 
+      anti<lb ed="#Bb" break="no"/>quis Epicureis Philosophis derivata est,
+      <lb ed="#Bb"/>quam tangunt Ovidius et Boetius.
+    </p>
+            <p xml:id="Almn78-e13555-d1e814">
+               <lb ed="#Bb"/>Ad rationem dicendum, quod illa ratio aq onject. 4,
+      <lb ed="#Bb"/>pro illa opinione satis conveniens est :
+      <lb ed="#Bb"/>sed tamen non est sufficiens, quia alio
+      <lb ed="#Bb"/>modo potest esse ex convenienti, sicut
+      <lb ed="#Bb"/>sufficienter determinatum est in tractatu
+      <lb ed="#Bb"/>de erroribus Aristotelis et Platonis, 
+      que<lb ed="#Bb" break="no"/>stione de generatione formarum ',
+    </p>
+            <p xml:id="Almn78-e13555-d1e832">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod licet poten- 44 object.s.
+      <lb ed="#Bb"/>tia prime materia quedam sit imago et
+      <lb ed="#Bb"/>similitudo potentie divine, tamen in
+      <pb ed="#Bb" n="514"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>multis deficit ab ipsa, et non equat eam.
+      <lb ed="#Bb"/>Non enim omnia que Deus potest 
+      fa<lb ed="#Bb" break="no"/>cere, et ut potest facere, possunt fieri ex
+      <lb ed="#Bb"/>materia vel in materia : et idcirco non est
+      <lb ed="#Bb"/>necesse, quod Deus semper operetur ex
+      <lb ed="#Bb"/>tali materia distinguendo et ornando.
+    </p>
+            <p xml:id="Almn78-e13555-d1e858">
+               <lb ed="#Bb"/>Ad id quod ullerius queritur ‘, 
+      dicen<lb ed="#Bb" break="no"/>dum quod secundum Augustinum nihil
+      <lb ed="#Bb"/>prohibet, quod per celum intelligatur
+      <lb ed="#Bb"/>indistincta materia cceli, que postea in
+      <lb ed="#Bb"/>hoc vel in illud ccelum distincta est : quia,
+      <lb ed="#Bb"/>sicut dicit Augustinus, materia illa 
+      mul<lb ed="#Bb" break="no"/>tis rationibus vocata est, ut ex multis
+      <lb ed="#Bb"/>vocabulis exprimeretur, quod informitas
+      <lb ed="#Bb"/>ejus ad multa est formabilis. Unde 
+      Au<lb ed="#Bb" break="no"/>gustinus: <quote xml:id="Almn78-e13555-Qd1e881"> Non absurde etiam prima
+        <lb ed="#Bb"/>materia aqua dicta est: quia omnia
+        <lb ed="#Bb"/>que in terra nascuntur, sive animalia,
+        <lb ed="#Bb"/>sive arbores, sive herbe et si qua his
+        <lb ed="#Bb"/>sunt similia, ab humore incipiunt 
+        for<lb ed="#Bb" break="no"/>mari atque nutriri. Hee ergo nomina
+        <lb ed="#Bb"/>omnia, sive celum, sive terra invisibilis
+        <lb ed="#Bb"/>et incomposita, et abyssus cum tenebris,
+        <lb ed="#Bb"/>sive aqua super quam ferebatur spiritus
+        <lb ed="#Bb"/>Dei, nomina sunt unius informis 
+        mate<lb ed="#Bb" break="no"/>riz, ut res ignota notis vocabulis 
+        insi<lb ed="#Bb" break="no"/>nuaretur. Dicta est ergo ccelum et terra:
+        <lb ed="#Bb"/>quia inde futurum erat cceelum et terra.
+        <lb ed="#Bb"/>Dicta est terra invisibilis et incomposita
+        <lb ed="#Bb"/>et tenebrosa super abyssum : quia 
+        in<lb ed="#Bb" break="no"/>formis erat et nulla specie cerni poterat
+        <lb ed="#Bb"/>aut tractari, etiamsi esset homo qui 
+        vi<lb ed="#Bb" break="no"/>deret aut tractaret. Dicta est etiam aqua:
+        <lb ed="#Bb"/>quia facilis et ductilis subjacebat 
+        ope<lb ed="#Bb" break="no"/>ranti, ut de illa omnia formarentur. Sub
+        <lb ed="#Bb"/>his nominibus omnibus materia erat 
+        in<lb ed="#Bb" break="no"/>visa et informis, de qua Deus condidit
+        <lb ed="#Bb"/>mundum. </quote>
+            </p>
+            <p xml:id="Almn78-e13555-d1e932">
+               <lb ed="#Bb"/>Ad sequens dicendum, quod non est
+      <lb ed="#Bb"/>inconveniens si sic dicatur secundum
+      <lb ed="#Bb"/>Augustinum.
+    </p>
+            <p xml:id="Almn78-e13555-d1e942">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod secundum
+      <lb ed="#Bb"/>Augustinum materia precessit 
+      formatio<lb ed="#Bb" break="no"/>nem natura: sicut etiam dixit Plato, ut
+      <lb ed="#Bb"/>paulo ante dictum est.
+    </p>
+            <p xml:id="Almn78-e13555-d1e953">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod Augustinus
+      <lb ed="#Bb"/>nihil aliud intendit ostendere, nisi quare
+      <lb ed="#Bb"/>tot nominibus vocatur, et quod praecedit
+      <lb ed="#Bb"/>natura formationem. Et propter hoc 
+      di<lb ed="#Bb" break="no"/>xit Moysen dixisse : In principio creavit
+      <lb ed="#Bb"/>Deus celum et terram.
+    </p>
+            <p xml:id="Almn78-e13555-d1e969">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod 
+      secun<lb ed="#Bb" break="no"/>dum Augustinum in libro contra 
+      Mani<lb ed="#Bb" break="no"/>chzos, terra dicitur inanis et vacua, quia
+      <lb ed="#Bb"/>adhuc non habuit in se virtutem 
+      semen<lb ed="#Bb" break="no"/>tivam, qua generabilia et corruptibilia
+      <lb ed="#Bb"/>produceret. Et dicitur vacua et inanis,
+      <lb ed="#Bb"/>quia receptaculum est horum : et nihil
+      <lb ed="#Bb"/>horum adhuc habuit, sed hee postea
+      <lb ed="#Bb"/>per opus distinctionis et ornatus accepit.
+      <lb ed="#Bb"/>Et dicitur incomposita, quia 
+      compositio<lb ed="#Bb" break="no"/>nem forme et materie non habuit. Et
+      <lb ed="#Bb"/>dicitur instructibilis, quia per opus 
+      or<lb ed="#Bb" break="no"/>natus constructa non fuit. Nihil horum
+      <lb ed="#Bb"/>de ccelo dici poterat : eo quod natura
+      <lb ed="#Bb"/>ceelestis etiam communis in se habuit
+      <lb ed="#Bb"/>per naturam luminosi, unde celi in
+      <lb ed="#Bb"/>specie determinati et stelle 
+      formaren<lb ed="#Bb" break="no"/>tur.
+    </p>
+            <p xml:id="Almn78-e13555-d1e1011">
+               <lb ed="#Bb"/>Utrum autem una materia sit om~
+      <lb ed="#Bb"/>nium, et utrum una sit materia 
+      corrup<lb ed="#Bb" break="no"/>tibilium et incorruptibilium, in 
+      anteha<lb ed="#Bb" break="no"/>bitis determinatum est in tractatu de 
+      er<lb ed="#Bb" break="no"/>roribus Aristotelis et Platonis, questione
+      <lb ed="#Bb"/>de materia prima® : et hoc hic non
+      <lb ed="#Bb"/>oportet inquiri pro nunc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 36</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 36</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="387"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d86325"><!-- p2t9q36 -->
+            <head xml:id="Almn78-d86325-Hd1e106">Quaestio 36</head>
+            <head xml:id="Almn78-d86325-Hd1e109" type="question-title">
+      De custodia Angelorum
+    </head>
+            <p xml:id="Almn78-d86325-d1e112">
+               <lb ed="#Bb"/>QUAESTIO XXXVI.
+      <lb ed="#Bb"/>De custodia Angelorum.
+    </p>
+            <p xml:id="Almn78-d86325-d1e119">
+               <lb ed="#Bb"/>Deinde queritur de custodia 
+      Angelo<lb ed="#Bb" break="no"/>rum, de qua tractat Magister in libro IT
+      <lb ed="#Bb"/>Sententiarum, distinct. XI, cap. IMlud
+      <lb ed="#Bb"/>quoque sciendum est. Custodia enim 
+      An<lb ed="#Bb" break="no"/>gelorum ad missionem Angelorum 
+      per<lb ed="#Bb" break="no"/>tinet, ef cum missione habet 
+      determi<lb ed="#Bb" break="no"/>nari.
+    </p>
+            <p xml:id="Almn78-d86325-d1e137">
+               <lb ed="#Bb"/>Et queruntur sex, quorum primum
+      <lb ed="#Bb"/>est de necessitate custodie.
+      <lb ed="#Bb"/>Secundum,De effectu custodia.
+      <lb ed="#Bb"/>Tertium, De modo custodiendi.
+      <lb ed="#Bb"/>Quartum, Utrum omnis homo 
+      cu<lb ed="#Bb" break="no"/>stodiatur, vel solus homo, aut non?
+      <lb ed="#Bb"/>Quintum, Utrum semper custodiatur,
+      <lb ed="#Bb"/>vel non ?
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Sextum, Utrum aliquid accrescat 
+      An<lb ed="#Bb" break="no"/>gelis ex custodia ?
+    </p>
+            <div xml:id="Almn78-d86325-Dd1e164">
+               <head xml:id="Almn78-d86325-Hd1e166">Membrum 1</head>
+               <head xml:id="Almn78-d86325-Hd1e169" type="question-title">
+        Utrum custodia Angelorum sit
+        necessaria
+      </head>
+               <p xml:id="Almn78-d86325-d1e172">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>Utrum custodia Angelorum sit
+        <lb ed="#Bb"/>necessaria?
+      </p>
+               <p xml:id="Almn78-d86325-d1e181">
+                  <lb ed="#Bb"/>Circa primum videtur quod non sit
+        <lb ed="#Bb"/>necessaria custodia Angeli.
+      </p>
+               <p xml:id="Almn78-d86325-d1e188">
+                  <lb ed="#Bb"/>1. Augustinus in libro de Spiritu et
+        <pb ed="#Bb" n="388"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>anima dicit, quod <quote xml:id="Almn78-d86325-Qd1e198"> anima rationalis ad
+          <lb ed="#Bb"/>imaginem Dei facta est, ita ut nulla 
+          in<lb ed="#Bb" break="no"/>terposita creatura formetur ab ipsa 
+          pri<lb ed="#Bb" break="no"/>ma veritate '. </quote> Sed si Angelus custodit,
+        <lb ed="#Bb"/>cum custos semper supraponatur 
+        custo<lb ed="#Bb" break="no"/>dito, Angelus medius erit inter mentem
+        <lb ed="#Bb"/>hominis et primam veritatem : cum
+        <lb ed="#Bb"/>ergo hoc esse non possit, Angelus 
+        homi<lb ed="#Bb" break="no"/>nem non custodit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e220">
+                  <lb ed="#Bb"/>2. Adhuc, Augustinus in libro LXXXHI
+        <lb ed="#Bb"/>Questionum : <quote xml:id="Almn78-d86325-Qd1e226"> Mentem ad imaginem
+          <lb ed="#Bb"/>Dei factam volunt, eo quod nulla 
+          inter<lb ed="#Bb" break="no"/>posita substantia, a prima veritate 
+          for<lb ed="#Bb" break="no"/>matur ?.</quote> Ex hoc sequitur idem quod
+        <lb ed="#Bb"/>prius : quia si Angelus custodit mentem
+        <lb ed="#Bb"/>hominis, cum custos supraponatur 
+        cu<lb ed="#Bb" break="no"/>stodito, Angelus ad veritatem informat
+        <lb ed="#Bb"/>mentem hominis : et sic non informatur
+        <lb ed="#Bb"/>immediate a prima veritate.
+      </p>
+               <p xml:id="Almn78-d86325-d1e247">
+                  <lb ed="#Bb"/>3. Adhuc, Ad Hebr. uu, 9, super 
+        il<lb ed="#Bb" break="no"/>lud : Eum autem, qui modico quam
+        <lb ed="#Bb"/>Angeli minoratus est, Glossa dicit sic :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e257">Non secundum naturam humane
+          <lb ed="#Bb"/>mentis minoratus est, sed propter 
+          pas<lb ed="#Bb" break="no"/>sionem mortis. </quote> Majores quidem 
+        An<lb ed="#Bb" break="no"/>geli possunt dici homine, quia majores
+        <lb ed="#Bb"/>sunt hominis corpore, majores sunt et
+        <lb ed="#Bb"/>animo : sed in eo tantum, quod 
+        pec<lb ed="#Bb" break="no"/>cati originalis merito corpus quod 
+        cor<lb ed="#Bb" break="no"/>rumpitur, aggravat animam 3. Natura
+        <lb ed="#Bb"/>vero humane mentis qualem Christus
+        <lb ed="#Bb"/>assumpsit, que nullo peccato depravari
+        <lb ed="#Bb"/>potest, solus major est Deus. Ergo 
+        vi<lb ed="#Bb" break="no"/>detur quod secundum mentem 
+        huma<lb ed="#Bb" break="no"/>nam factam ad imaginem Dei, Angelus
+        <lb ed="#Bb"/>non supraponatur homini : ergo non
+        <lb ed="#Bb"/>custodit hominem secundum mentem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e291">
+                  <lb ed="#Bb"/>4, Adhuc, Job, vir, 20 : Quid factam
+        <lb ed="#Bb"/>tibi, o custos hominum? Glossa: <quote xml:id="Almn78-d86325-Qd1e297"> Deum
+          <lb ed="#Bb"/>dicit custodem hominum, sicut in 
+          Psal<lb ed="#Bb" break="no"/>mo coxxvi, 1: Mist Dominus custodierit
+          <lb ed="#Bb"/>civitatem. Sed Deus est sufficientissimus
+          <lb ed="#Bb"/>custos. </quote> Ergo videtur, quod Angeli 
+        cu<lb ed="#Bb" break="no"/>stodia non sit necessaria : et quod non
+        <lb ed="#Bb"/>est necessarium, non est in operibus di
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>vinis : ergo custodia Angelorum nulla
+        <lb ed="#Bb"/>est, ut videtur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e320">
+                  <lb ed="#Bb"/>5. Si forte aliquis diceret, quod homo
+        <lb ed="#Bb"/>secundum potentiam motivam sive 
+        se<lb ed="#Bb" break="no"/>cundum voluntatem immediate se habet
+        <lb ed="#Bb"/>ad ipsum Deum, et ab ipso Deo 
+        forma<lb ed="#Bb" break="no"/>tur : sed secundum potentiam 
+        cogniti<lb ed="#Bb" break="no"/>vam, que ignorantie permixta est, 
+        indi<lb ed="#Bb" break="no"/>get pedagogo et instructione : et sic
+        <lb ed="#Bb"/>Angelum habet in illa parte 
+        praeparato<lb ed="#Bb" break="no"/>rem ad veritatem et custodem. Contra
+        <lb ed="#Bb"/>hoc est, quod dicit Augustinus, quod
+        <lb ed="#Bb"/>anime formantur ab ipsa veritate : et
+        <lb ed="#Bb"/>veritas est finis cognitive potenti 
+        pro<lb ed="#Bb" break="no"/>prie : videtur ergo, quod secundum 
+        po<lb ed="#Bb" break="no"/>tentiam cognitivam non formentur ab
+        <lb ed="#Bb"/>Angelo, nec custodiantur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e355">
+                  <lb ed="#Bb"/>Adhuc, Sicut Angelus disponit 
+        cogni<lb ed="#Bb" break="no"/>tivam potentiam instruendo, ita 
+        dispo<lb ed="#Bb" break="no"/>nit motivam consulendo de fuga mali et
+        <lb ed="#Bb"/>appetitu boni: et sic patet, quod nulla
+        <lb ed="#Bb"/>est inducta responsio.
+      </p>
+               <p xml:id="Almn78-d86325-d1e368">
+                  <lb ed="#Bb"/>6. Adhuc, Augustinus in libro LXX XII
+        <lb ed="#Bb"/>Questionum, dicit sic, quod <quote xml:id="Almn78-d86325-Qd1e374"> perfecta
+          <lb ed="#Bb"/>ratio, que virtus vocatur, primo utitur
+          <lb ed="#Bb"/>seipsa ad intelligendum Deum et 
+          fruen<lb ed="#Bb" break="no"/>dum, et ceteris irrationabilibus 
+          creatu<lb ed="#Bb" break="no"/>ris ad societatem utitur..</quote> Sed ille 
+        ratio<lb ed="#Bb" break="no"/>nales creature non sunt nisi Angeli.
+        <lb ed="#Bb"/>Ergo anima utitur Angelis. Sed sicut
+        <lb ed="#Bb"/>dicit Augustinus in libro primo de 
+        Do<lb ed="#Bb" break="no"/>etrina Christiana : <quote xml:id="Almn78-d86325-Qd1e394"> Uti est aliquid in
+          <lb ed="#Bb"/>facultatem voluntatis assumere, et ad
+          <lb ed="#Bb"/>aliud reterre quo fruendum est *. </quote> Sed
+        <lb ed="#Bb"/>utens in omnibus major est utili quo
+        <lb ed="#Bb"/>utitur. Ergo anima humana in hoc 
+        or<lb ed="#Bb" break="no"/>dine major est Angelo : sed inferior non
+        <lb ed="#Bb"/>est custos superioris, sed e converso :
+        <lb ed="#Bb"/>ergo Angelus non est custos anime, ut
+        <lb ed="#Bb"/>videtur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e416">
+                  <lb ed="#Bb"/>In contrarium hujus est,
+        <lb ed="#Bb"/>1. Quod inducit Magister in libro II
+        <lb ed="#Bb"/>Sententiarum, distinct. XI, cap. Idlud
+        <lb ed="#Bb"/>quogue sciendum est, inducens illud
+        <lb ed="#Bb"/>Matthei, xvi, 10 : Angeli eorum in
+        <pb ed="#Bb" n="389"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>celis semper vident faciem Patris met
+        <lb ed="#Bb"/>quiin celis est. Ubi dicit Hieronymus :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e439">Angelos dicit eorum esse, quibus ad
+          <lb ed="#Bb"/>custodiam deputati sunt. </quote> Et subdit :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e447">Magna dignitas animarum est, ut 
+          una<lb ed="#Bb" break="no"/>queque habeat ab ortu nativitatis sue
+          <lb ed="#Bb"/>in custodiam sui Angelum delegatum, </quote>
+                  <lb ed="#Bb"/>Ergo Angeli custodiunt homines.
+      </p>
+               <p xml:id="Almn78-d86325-d1e457">
+                  <lb ed="#Bb"/>2, Adhuc, Ibidem inducit Gregorium
+        <lb ed="#Bb"/>sic dicentem, quod <quote xml:id="Almn78-d86325-Qd1e463"> unusquisque habet
+          <lb ed="#Bb"/>sibi unum bonum Angelum deputatum
+          <lb ed="#Bb"/>in custodiam, et unum malum ad 
+          exer<lb ed="#Bb" break="no"/>citium. </quote> Cum enim omnes Angeli boni
+        <lb ed="#Bb"/>nostrum bonum velint, communiterque
+        <lb ed="#Bb"/>saluti omnium studeant, ille tamen qui
+        <lb ed="#Bb"/>deputatus est alicui ad custodiam, eum
+        <lb ed="#Bb"/>specialiter hortatur ad bonum, sicut 
+        le<lb ed="#Bb" break="no"/>gitur de Angelo Tobie *, et de Angelo
+        <lb ed="#Bb"/>Petri in. Actibus Apostolorum *. 
+        Simili<lb ed="#Bb" break="no"/>ter et mali Angeli cum desiderent 
+        ma<lb ed="#Bb" break="no"/>lum hominum, magis tamen hominem
+        <lb ed="#Bb"/>ad malum incitat, et ad nocendum 
+        for<lb ed="#Bb" break="no"/>tius instat ille qui ad ejus exercitium 
+        de<lb ed="#Bb" break="no"/>putatus est.
+      </p>
+               <p xml:id="Almn78-d86325-d1e497">
+                  <lb ed="#Bb"/>3. Adhuc, Eccli. xvu, 14 : Jn 
+        unam<lb ed="#Bb" break="no"/>quamque gentem preposuit rectorem.
+        <lb ed="#Bb"/>Glossa, <quote xml:id="Almn78-d86325-Qd1e505"> Angelos. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e509">
+                  <lb ed="#Bb"/>4, Adhuc, Isa. txu, 6: Super muros
+        <lb ed="#Bb"/>tuos, Jerusalem, constitui —custodes.
+        <lb ed="#Bb"/>Glossa, <quote xml:id="Almn78-d86325-Qd1e517"> Angelos. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e521">
+                  <lb ed="#Bb"/>5. Adhuc, I ad Corinth. xv, 24, 
+        su<lb ed="#Bb" break="no"/>per illud : Cum evacuaverit omnem
+        <lb ed="#Bb"/>principatum : Glossa dicit, quod usque
+        <lb ed="#Bb"/>ad diem judicii Angeli Angelis, et 
+        ho<lb ed="#Bb" break="no"/>mines hominibus, et Angeli hominibus
+        <lb ed="#Bb"/>presunt. Sed non presunt nisi ad.
+        cu<lb ed="#Bb" break="no"/>stodiam. Ergo Angeli custodiunt 
+        homi<lb ed="#Bb" break="no"/>nes usque ad diem judicii : et sic 
+        vide<lb ed="#Bb" break="no"/>tur, quod necessaria sit custodia 
+        Ange<lb ed="#Bb" break="no"/>lorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e545">
+                  <lb ed="#Bb"/>6. Adhuc, In Psalmo xc, 1t : Angelis
+        <lb ed="#Bb"/>suis mandavit de te.
+      </p>
+               <p xml:id="Almn78-d86325-d1e553">
+                  <lb ed="#Bb"/>7. Adhuc, Ad Hebr. 1, 14 : Omnes
+        <lb ed="#Bb"/>sunt administratorii spiritus, in 
+        mini<lb ed="#Bb" break="no"/>sterium missi propter eos qui heredita-~
+        <lb ed="#Bb"/>tem capient salutis. Hoc autem 
+        ministe<lb ed="#Bb" break="no"/>rium non est nisi custodia. Ergo custodia
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>est Angelorum, qua custodiunt homines.
+      </p>
+               <p xml:id="Almn78-d86325-d1e571">
+                  <lb ed="#Bb"/>8. Adhuc, Ei qui est in via in qua est
+        <lb ed="#Bb"/>periculum casus, necessaria est custodia
+        <lb ed="#Bb"/>alicujus qui teneat ipsum, ne cadat: sed
+        <lb ed="#Bb"/>homo dum vivit, est in tali via : ergo
+        <lb ed="#Bb"/>indiget Angelo custodiente, qui cadere
+        <lb ed="#Bb"/>non potest.
+      </p>
+               <p xml:id="Almn78-d86325-d1e587">
+                  <lb ed="#Bb"/>9. Adhuc, Ad Galat. tv, 1 et 2
+        <lb ed="#Bb"/>Quanto tempore heres parvulus est, non
+        <lb ed="#Bb"/>differt a servo, cum sit dominus 
+        om<lb ed="#Bb" break="no"/>nium : sed sub tutoribus et actoribus est,
+        <lb ed="#Bb"/>usque ad prefinitum tempus. Sed licet
+        <lb ed="#Bb"/>homo heres sit regni ccelestis (ut 
+        dici<lb ed="#Bb" break="no"/>tur, ad Roman. vin,17), tamen parvulus
+        <lb ed="#Bb"/>est et infirmus, quamdiu vivit hac 
+        mor<lb ed="#Bb" break="no"/>tali vita. Ergo tutore et actore indiget :
+        <lb ed="#Bb"/>sed ille non potest esse nisi Angelus 
+        cu<lb ed="#Bb" break="no"/>stodiens : ergo indiget alio Angelo 
+        cu<lb ed="#Bb" break="no"/>stodiente. Sed dicit Plato in Zimeo,
+        <lb ed="#Bb"/>quod <quote xml:id="Almn78-d86325-Qd1e617"> Creator nulli rei a se create 
+          ne<lb ed="#Bb" break="no"/>gat aliquid utilium ad beatitudinem., </quote>
+                  <lb ed="#Bb"/>Ergo cum Angelus custos utilis et 
+        neces<lb ed="#Bb" break="no"/>sarius sit homini ad beatitudinem, 
+        Crea<lb ed="#Bb" break="no"/>tor homini mittit Angelum ad 
+        custo<lb ed="#Bb" break="no"/>diendum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e632">
+                  <lb ed="#Bb"/>Solutio. Consentiendum est 
+        auctori<lb ed="#Bb" break="no"/>tatibus et rationibus ultimo inductis, et
+        <lb ed="#Bb"/>dicendum, quod homini proficienti ad
+        <lb ed="#Bb"/>beatitudinem necessaria est custodia
+        <lb ed="#Bb"/>Angelorum dum est in via, propter
+        <lb ed="#Bb"/>multa pericula vie que occurrunt 
+        homi<lb ed="#Bb" break="no"/>ni, a quibus cavere non posset sine 
+        cu<lb ed="#Bb" break="no"/>stodia Angelorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e652">
+                  <lb ed="#Bb"/>Ad primum autem quod contra 
+        obji<lb ed="#Bb" break="no"/>citur, dicendum quod formatione gratie
+        <lb ed="#Bb"/>gratum facientis solus Deus format men- ~
+        <lb ed="#Bb"/>tem hominis et secundum affectum et
+        <lb ed="#Bb"/>secundum adspectum : sed formationes
+        <lb ed="#Bb"/>preparatorie multe necessarie sunt, ut
+        <lb ed="#Bb"/>facilius inducatur ultima perfectio et 
+        for<lb ed="#Bb" break="no"/>matio : sicut et Philosophus dicit, quod
+        <lb ed="#Bb"/>virtus consuetudinalis et intellectualis
+        <lb ed="#Bb"/>generationem et incrementum sumit ab
+        <lb ed="#Bb"/>assuetudine et doctrina : et propter illas
+        <lb ed="#Bb"/>preparatorias formationes multum est
+        <lb ed="#Bb"/>utilis custodia Angelorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e683">
+        
+                  <pb ed="#Bb" n="390"/>
+                  <cb ed="#Bb" n="a"/>
+               </p>
+               <p xml:id="Almn78-d86325-d1e691">
+        
+                  <lb ed="#Bb"/>Per omnia eodem modo dicendum est
+        <lb ed="#Bb"/>ad secundum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e698">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod licet homo
+        <lb ed="#Bb"/>et Angelus quantum ad imaginem (que
+        <lb ed="#Bb"/>in mente est) equales sint, et in Christo
+        <lb ed="#Bb"/>mens etiam humana altior Angelo, 
+        prop<lb ed="#Bb" break="no"/>ter quod etiam Christus Angelum 
+        cu<lb ed="#Bb" break="no"/>stodem numquam habuit, ut in 
+        sequen<lb ed="#Bb" break="no"/>tibus patebit : tamen prout in anima
+        <lb ed="#Bb"/>per redundantiam est corruptio 
+        origina<lb ed="#Bb" break="no"/>lis peccati, indiget homo multa 
+        purga<lb ed="#Bb" break="no"/>tione, et multa preparatione ad formam
+        <lb ed="#Bb"/>gratie et beatitudinis, propter quas 
+        ne<lb ed="#Bb" break="no"/>
+                  <lb ed="#Bb"/>cessaria est custodia Angelorum et 
+        mi<lb ed="#Bb" break="no"/>nisterium circa hominem,
+      </p>
+               <p xml:id="Almn78-d86325-d1e731">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Deus 
+        suffi<lb ed="#Bb" break="no"/>cientissimus custos est ex parte sui sed
+        <lb ed="#Bb"/>homo custoditus infirmus est, et indiget
+        <lb ed="#Bb"/>pluribus et ideo ei necessaria est 
+        cu<lb ed="#Bb" break="no"/>stodia Angelorum,
+      </p>
+               <p xml:id="Almn78-d86325-d1e744">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod illa 
+        respon<lb ed="#Bb" break="no"/>sio inconveniens est, sicut probatum est
+        <lb ed="#Bb"/>in objiciendo.
+      </p>
+               <p xml:id="Almn78-d86325-d1e753">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod in veritate
+        <lb ed="#Bb"/>homo utitur Angelo, et ministerio 
+        An<lb ed="#Bb" break="no"/>geli, ut dicit Augustinus : sed cum 
+        dici<lb ed="#Bb" break="no"/>tur, quod utens major est utili, 
+        distin<lb ed="#Bb" break="no"/>guendum est. Si enim dicatur utile,
+        <lb ed="#Bb"/>quod secundum nature gradum ad aliud
+        <lb ed="#Bb"/>refertur quo fruendum est : tunc verum
+        <lb ed="#Bb"/>est quod dicit. Si autem dicatur utile,
+        <lb ed="#Bb"/>quod per charitatem exhibet se ad usum
+        <lb ed="#Bb"/>inferioris, cum superius sit naturali 
+        di<lb ed="#Bb" break="no"/>gnitate : sic spe servus utitur domino,
+        <lb ed="#Bb"/>et nos usi sumus Christo, et utimur 
+        An<lb ed="#Bb" break="no"/>gelis : et sic non est verum, quod utens
+        <lb ed="#Bb"/>semper major sit utili. .
+      </p>
+            </div>
+            <div xml:id="Almn78-d86325-Dd1e787">
+               <head xml:id="Almn78-d86325-Hd1e789">Membrum 2</head>
+               <head xml:id="Almn78-d86325-Hd1e792" type="question-title">
+        De effectu custodiae Angelorum
+      </head>
+               <p xml:id="Almn78-d86325-d1e795">
+                  <lb ed="#Bb"/>MEMBRUM II. .
+        <lb ed="#Bb"/>De effectu custodiae Angelorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e802">
+                  <lb ed="#Bb"/>Secundo, Queritur de effectu custodia.
+      </p>
+               <p xml:id="Almn78-d86325-d1e807">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ponuntur autem a Magistris antiquis.
+        <lb ed="#Bb"/>duodecim effectus, quorum primus est,
+        <lb ed="#Bb"/>quod excitat a somno ignorantie, et
+        <lb ed="#Bb"/>illuminat, et solvit a vinculis 
+        peccato<lb ed="#Bb" break="no"/>rum. Et hoc significatur, Act. xu, 7, ubi
+        <lb ed="#Bb"/>sic dicitur : Angelus Domini adstitit,
+        <lb ed="#Bb"/>et lumen refulsit in habitaculo, scilicet
+        <lb ed="#Bb"/>carceris : percussogue latere Petri, 
+        ex<lb ed="#Bb" break="no"/>citavit eum, dicens : Surge velociter. Et
+        <lb ed="#Bb"/>ceciderunt catene demanibus efus.
+      </p>
+               <p xml:id="Almn78-d86325-d1e834">
+                  <lb ed="#Bb"/>Secundus est, quod confortat ad. labo-~
+        <lb ed="#Bb"/>res peenitentiz, et confortantia 
+        admini<lb ed="#Bb" break="no"/>strat. Et hoc significatur, II, Reg. xix,
+        <lb ed="#Bb"/>Tet 8, ubi Angelus dixit ad Eliam cum
+        <lb ed="#Bb"/>fugeret Jezabel : Surge, comede, 
+        gran<lb ed="#Bb" break="no"/>dis enim tibt restat via. Et ministravit
+        <lb ed="#Bb"/>ei panem subcineritium et--vas aque.
+        <lb ed="#Bb"/>Qui cum surrexisset, comedit et bibit,
+        <lb ed="#Bb"/>et ambulavit in fortitudine cibi illius,
+        <lb ed="#Bb"/>quadraginta diebus et quadraginta 
+        no<lb ed="#Bb" break="no"/>ctibus, usque ad montem Dei Horeb.
+      </p>
+               <p xml:id="Almn78-d86325-d1e860">
+                  <lb ed="#Bb"/>Tertius est, quod demones arcet, ne
+        <lb ed="#Bb"/>instigent ad malum. Hoc significatur,
+        <lb ed="#Bb"/>Tob. xu, 3, ubi sic dixit Tobias de 
+        An<lb ed="#Bb" break="no"/>gelo Raphaele : Demonium ab ea, 
+        sci<lb ed="#Bb" break="no"/>licet uxore mea, ipse compescuit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e873">
+                  <lb ed="#Bb"/>Quartus est, quod docet de occuliis.
+        <lb ed="#Bb"/>Daniel. 1x, 22.et 23, dixit Angelus 
+        Da<lb ed="#Bb" break="no"/>nieli : Nune egressus sum, ut docerem
+        <lb ed="#Bb"/>te, et intelligeres. Ab exordio precum
+        <lb ed="#Bb"/>tuarum egressus est sermo : ego autem
+        <lb ed="#Bb"/>vent ut indicarem tibi.
+      </p>
+               <p xml:id="Almn78-d86325-d1e889">
+                  <lb ed="#Bb"/>Quintus est, quod consolatur tristes.
+        <lb ed="#Bb"/>Tobie, v, 14 et seg., dixit Angelus 
+        To<lb ed="#Bb" break="no"/>bie : Gaudium tibi sit semper, Cui cum
+        <lb ed="#Bb"/>diceret Tobias : Quale gaudium mihi
+        <lb ed="#Bb"/>erit, qui in tenebris sedeo, et lumen celi
+        <lb ed="#Bb"/>non video ? Respondit Angelus : Forti
+        <lb ed="#Bb"/>animo esto : in proximo est, ut a Deo
+        <lb ed="#Bb"/>cureris.
+      </p>
+               <p xml:id="Almn78-d86325-d1e909">
+                  <lb ed="#Bb"/>Sextus est, quod revelat mysteria per
+        <lb ed="#Bb"/>apparitiones et visiones. Et hoc 
+        signifi<lb ed="#Bb" break="no"/>catur, Genes. xvin, 1 et seq., ubi tres
+        <lb ed="#Bb"/>Angeli apparuerunt Abrahe, et 
+        instru<lb ed="#Bb" break="no"/>xerunt eum de sacramento incarnatio
+        <pb ed="#Bb" n="391"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>nis, et unus eorum dixit : Num celare
+        <lb ed="#Bb"/>potero Abraham que gesturus sum,
+        <lb ed="#Bb"/>cum futurus sit in gentem magnam ac
+        <lb ed="#Bb"/>robustissimam, et benedicende sint in
+        <lb ed="#Bb"/>illo omnes nationes terrx ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e938">
+                  <lb ed="#Bb"/>Septimus est adjuvare contra hostes
+        <lb ed="#Bb"/>et insidiantes. Isa. xxxvu, 36: Hgressus
+        <lb ed="#Bb"/>est Angelus Domini, et percussit in 
+        ca<lb ed="#Bb" break="no"/>stris Assyriorum centum octoginta 
+        quin<lb ed="#Bb" break="no"/>que millia, Et, IV Reg. vi, 8 et seq.,
+        <lb ed="#Bb"/>ubi circa Eliseum apparuerunt equi
+        <lb ed="#Bb"/>ignei et currus, defendentes eum ab 
+        in<lb ed="#Bb" break="no"/>sidiis Syrorum. |
+      </p>
+               <p xml:id="Almn78-d86325-d1e959">
+                  <lb ed="#Bb"/>Octavus est, quod increpat pro 
+        deli<lb ed="#Bb" break="no"/>ctis. Judicum, u, 1 et 2 Ascendit
+        <lb ed="#Bb"/>Angelus Domini de Galgalis ad locum
+        <lb ed="#Bb"/>flentium, et ait: Eduxi vos de A’gypto,
+        <lb ed="#Bb"/>ef introduzt in terram, pro qua juravi
+        <lb ed="#Bb"/>patribus vestris, et pollicitus sum, ut
+        <lb ed="#Bb"/>non facerem irritum pactum meum 
+        vo<lb ed="#Bb" break="no"/>biscum in sempiternum, ita dumtarat
+        <lb ed="#Bb"/>ut non feriretis fedus cum 
+        habitatori<lb ed="#Bb" break="no"/>bus terre hujus, sed aras eorum 
+        sub<lb ed="#Bb" break="no"/>verteretis : et noluistis audire vocem
+        <lb ed="#Bb"/>meam. Cur hoc fecistis ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e988">
+                  <lb ed="#Bb"/>Nonus est, quod aufert 
+        impedimen<lb ed="#Bb" break="no"/>tum ad bonum, et preparat viam. 
+        Ma<lb ed="#Bb" break="no"/>lach. mt, 1: Ecce ego mitto Angelum
+        <lb ed="#Bb"/>meum, et preparabit viam ante faciem
+        <lb ed="#Bb"/>meam.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1001">
+                  <lb ed="#Bb"/>Decimus est, quod ducit et conducit
+        <lb ed="#Bb"/>in via. Tob. v, 20 : Ego sanum ducam,
+        <lb ed="#Bb"/>et sanum tibi reducam filium tuum. Et,
+        <lb ed="#Bb"/>ibidem, ¥. 27: Credo quod Angelus Dei
+        <lb ed="#Bb"/>bonus comitetur ei, et bene disponat 
+        om<lb ed="#Bb" break="no"/>nia que circa eum geruntur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1017">
+                  <lb ed="#Bb"/>Undecimus est, quod mitigat 
+        tentatio<lb ed="#Bb" break="no"/>nes, et confortat ad virtutem. Genes,
+        <lb ed="#Bb"/>xxx, 24 et 28: Ecce vir luctabatur
+        <lb ed="#Bb"/>cum eo, scilicet Jacob, usgue mane. Qui
+        <lb ed="#Bb"/>cum videret quod eum superare non 
+        pos<lb ed="#Bb" break="no"/>set, tetigit nervum femoris ejus, et 
+        sta<lb ed="#Bb" break="no"/>tim emarcuit. Ubi dicit Gregorius, quod
+        <lb ed="#Bb"/>lucta signat impressionem virtutis ad
+        <lb ed="#Bb"/>bonum, tactus femoris debilitatem 
+        ten<lb ed="#Bb" break="no"/>tationis carnalis.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1041">
+                  <lb ed="#Bb"/>Duodecimus est, quod Deo offert 
+        ora<lb ed="#Bb" break="no"/>tiones. Tob. xn, 12 : Quando orabas
+        <lb ed="#Bb"/>cum lacrymis, et sepeliebas mortuos, et
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>derelinguebas prandium tuum, et 
+        mor<lb ed="#Bb" break="no"/>tuos abscondebas per diem in domo
+        <lb ed="#Bb"/>tua, et nocte sepeliebas eos, ego obtuli
+        <lb ed="#Bb"/>orationem tuam Domino.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1061">
+                  <lb ed="#Bb"/>Isti duodecim effectus describuntur in
+        <lb ed="#Bb"/>Scripturis esse ex custodia Angelorum
+        <lb ed="#Bb"/>circa hominem. Sunt tamen alia 
+        innu<lb ed="#Bb" break="no"/>merabilia bona, que proveniunt homini
+        <lb ed="#Bb"/>ex custodia Angelorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1075">
+                  <lb ed="#Bb"/>Et si isti duodecim accipi debeant per
+        <lb ed="#Bb"/>arlem, sic possunt accipi, secundum
+        <lb ed="#Bb"/>quod duo exiguntur ad perfectam 
+        cu<lb ed="#Bb" break="no"/>stodiam, scilicet exclusio mali,et 
+        condu<lb ed="#Bb" break="no"/>ctio ad bonum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1088">
+                  <lb ed="#Bb"/>Et penes exclusionem mali sumuntur
+        <lb ed="#Bb"/>septem de istis effectibus. Est enim 
+        ma<lb ed="#Bb" break="no"/>lum triplex quod excludi debet, scilicet
+        <lb ed="#Bb"/>malum culpe, malum pene, et malum
+        <lb ed="#Bb"/>dispositionis sive ad malum culpa, sive
+        <lb ed="#Bb"/>ad malum pene. Malum culpe aut 
+        con<lb ed="#Bb" break="no"/>sideratur in se, aut in causa instigante
+        <lb ed="#Bb"/>ad ipsum. Siin se consideratum 
+        exclu<lb ed="#Bb" break="no"/>ditur : tune est primus effectus, qui est
+        <lb ed="#Bb"/>absolvere a vinculis peccatorum. Si 
+        con<lb ed="#Bb" break="no"/>sideratur in causa, dupliciter 
+        conside<lb ed="#Bb" break="no"/>ratur, scilicet penes instigantem,-et 
+        pe<lb ed="#Bb" break="no"/>nes modum instigationis. Si penes 
+        in<lb ed="#Bb" break="no"/>stigantem, est modus tertius, qui est
+        <lb ed="#Bb"/>arcere demones. Si est penes modum
+        <lb ed="#Bb"/>instigationis, est undecimus qui est 
+        mi<lb ed="#Bb" break="no"/>tigare tentationes.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1127">
+                  <lb ed="#Bb"/>Penes exclusionem poene duplex est
+        <lb ed="#Bb"/>consideralio : pcena enim consideratur
+        <lb ed="#Bb"/>in.se, et consideralur secundum 
+        nocu<lb ed="#Bb" break="no"/>mentum quod infert. Si consideratur in
+        <lb ed="#Bb"/>se, est effectus septimus, qui est 
+        adju<lb ed="#Bb" break="no"/>torium contra hostes. Si excluditur 
+        se<lb ed="#Bb" break="no"/>cundum nocumentum quod infert, est
+        <lb ed="#Bb"/>effectus quintus, qui est consolari 
+        affli<lb ed="#Bb" break="no"/>ctum,
+      </p>
+               <p xml:id="Almn78-d86325-d1e1149">
+                  <lb ed="#Bb"/>Si est exclusio mali quod disponit ad
+        <lb ed="#Bb"/>malum culpe vel peene, accipitur 
+        duo<lb ed="#Bb" break="no"/>bus modis : aut enim disponit directe ad
+        <lb ed="#Bb"/>malum, aut indirecte. Si directe, et sic
+        <lb ed="#Bb"/>excluditur, est effectus octavus, qui est
+        <lb ed="#Bb"/>increpatio pro delictis que disponunt ad
+        <lb ed="#Bb"/>malum, Si autem indirecte, et.sic 
+        exclu<lb ed="#Bb" break="no"/>ditur, tunc est effectus nonus, qui est
+        <lb ed="#Bb"/>auferre impedimenta ad bonum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1171">
+                  <pb ed="#Bb" n="392"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Si autem custodia accipitur in 
+        con<lb ed="#Bb" break="no"/>ductione ad bonum, hoc est duobus 
+        mo<lb ed="#Bb" break="no"/>dis : illud enim bonum aut est ex parte
+        <lb ed="#Bb"/>intellectus, aut est ex parte affectus de
+        <lb ed="#Bb"/>pertinentibus ad salutem. Si primo 
+        mo<lb ed="#Bb" break="no"/>do, tune est effectus quartus, qui est
+        <lb ed="#Bb"/>docere de occultis, secundum quod 
+        do<lb ed="#Bb" break="no"/>cere accipitur de omnibus pertinentibus
+        <lb ed="#Bb"/>ad salutem. Si est bonum intellectus de
+        <lb ed="#Bb"/>pertinentibus ad revelationem et ad
+        <lb ed="#Bb"/>contemplationem, est effectus sextus,
+        <lb ed="#Bb"/>qui est revelare mysteria par 
+        appari<lb ed="#Bb" break="no"/>tiones.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1206">
+                  <lb ed="#Bb"/>Si autem est bonum affectus, 
+        triplici<lb ed="#Bb" break="no"/>ter consideratur. Si autem consideratur
+        <lb ed="#Bb"/>secundum statum affectus qui non est
+        <lb ed="#Bb"/>in proprio robore, sed indiget 
+        confor<lb ed="#Bb" break="no"/>tantibus, est effectus secundus, qui est
+        <lb ed="#Bb"/>confortatio ab bonum ut peragatur via
+        <lb ed="#Bb"/>presenti. Aut est secundum fervorem
+        <lb ed="#Bb"/>affectus, qui duce indiget, ne fervore
+        <lb ed="#Bb"/>deviet, et tunc est effectus decimus, qui
+        <lb ed="#Bb"/>est ducere et conducere in via. Si autem
+        <lb ed="#Bb"/>est ad bonum affectus impetrandum,
+        <lb ed="#Bb"/>tunc est effectus duodecimus, qui est
+        <lb ed="#Bb"/>orare et orationes deferre.,
+      </p>
+            </div>
+            <div xml:id="Almn78-d86325-Dd1e1238">
+               <head xml:id="Almn78-d86325-Hd1e1240">Membrum 3</head>
+               <head xml:id="Almn78-d86325-Hd1e1243" type="question-title">
+        De modo custodiendi
+      </head>
+               <p xml:id="Almn78-d86325-d1e1246">
+                  <lb ed="#Bb"/>MEMBRUM III.
+        <lb ed="#Bb"/>De modo custodiendi '.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1253">
+                  <lb ed="#Bb"/>Tertio, Queritur de modo 
+        custo<lb ed="#Bb" break="no"/>
+                  <lb ed="#Bb"/>diendi.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1262">
+                  <lb ed="#Bb"/>1. Et ad hoc sumatur auctoritas 
+        Ber<lb ed="#Bb" break="no"/>nardi in libro quinto de Consideratione
+        <lb ed="#Bb"/>ad Eugenium Papam, ubi dicit sic :
+        <quote xml:id="Almn78-d86325-Qd1e1270">Inest Angelis suggerens bonum, bona
+          <lb ed="#Bb"/>non ingerens ; inest hortans ad bonum,
+          <lb ed="#Bb"/>non bonum creans”*. </quote> Ex hoc videtur,
+        <lb ed="#Bb"/>quod Angelus sit in nobis ut suggerat et
+        <lb ed="#Bb"/>hortetur ad bonum : non ergo modus
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>custodiendi est, ut extrinsecus assistat ut
+        <lb ed="#Bb"/>sonus et pedagogus, sed etiam quod
+        <lb ed="#Bb"/>intus sit suggerens et hortans.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1292">
+                  <lb ed="#Bb"/>2. Adhuc, Hoc etiam videtur per 
+        di<lb ed="#Bb" break="no"/>ctum Damasceni in libro I de Fide 
+        or<lb ed="#Bb" break="no"/>thodora®, qui dicit, quod Angelus est
+        <lb ed="#Bb"/>ibi, ubi intelligibiliter operatur. Constat
+        <lb ed="#Bb"/>autem ex prius habitis, quod interius
+        <lb ed="#Bb"/>operatur ad visionem imaginariam, et
+        <lb ed="#Bb"/>ad visionem intellectualem, ordinando
+        <lb ed="#Bb"/>phantasma et species quibus 
+        perficiun<lb ed="#Bb" break="no"/>tur visiones. Ergo videtur, quod Angeli
+        <lb ed="#Bb"/>custodiant in nobis existentes. .
+      </p>
+               <p xml:id="Almn78-d86325-d1e1316">
+                  <lb ed="#Bb"/>3. Adhuc, Falsum videtur quod dicit
+        <lb ed="#Bb"/>beatus Bernardus : <quote xml:id="Almn78-d86325-Qd1e1322"> Non bona 
+          inge<lb ed="#Bb" break="no"/>rens. </quote> Probatum est enim per 
+        Augusti<lb ed="#Bb" break="no"/>num in antehabitis in libro XII 
+        Confes<lb ed="#Bb" break="no"/>sionum, quod animabus ingerunt 
+        illu<lb ed="#Bb" break="no"/>minationes per triplicem visionem, 
+        scili<lb ed="#Bb" break="no"/>cet corporalem, imaginariam, et 
+        in<lb ed="#Bb" break="no"/>tellectualem. Ergo videtur, quod bona
+        <lb ed="#Bb"/>ingerant.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1341">
+                  <lb ed="#Bb"/>4. Adhuc, Ibidem dicit Bernardus
+        <lb ed="#Bb"/>quod Angelus est cum anima, Deus in
+        <lb ed="#Bb"/>anima : ille ut conturbernalis anime
+        <lb ed="#Bb"/>inest, Deus ut vita. Videtur ergo, quod
+        <lb ed="#Bb"/>Angelus cum anima sit, et non in
+        <lb ed="#Bb"/>anima.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1357">
+                  <lb ed="#Bb"/>5. Adhuc, Beda: <quote xml:id="Almn78-d86325-Qd1e1361"> Nihil illabitur 
+          ani<lb ed="#Bb" break="no"/>mz nisi Deus trinitas. </quote> Angelus ergo.
+        <lb ed="#Bb"/>non illabitur anime.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1369">
+                  <lb ed="#Bb"/>6. Adhuc, Bernardus in sermone 7
+        <lb ed="#Bb"/>super Cantica dicit sic : <quote xml:id="Almn78-d86325-Qd1e1375"> Credimus
+          <lb ed="#Bb"/>Angelos sanctos adstare orantibus, et of- |
+          <lb ed="#Bb"/>ferre Deo preces el volta hominum, ubi
+          <lb ed="#Bb"/>tamen sine ira et discrepatione levari
+          <lb ed="#Bb"/>puras manus perspexerint. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e1387">
+                  <lb ed="#Bb"/>7. Adhuc, Bernardus in eodem 
+        ser<lb ed="#Bb" break="no"/>mone infra : <quote xml:id="Almn78-d86325-Qd1e1393"> Non ambigo, quin 
+          gra<lb ed="#Bb" break="no"/>tanter in palatio colligant, quem 
+          dignan<lb ed="#Bb" break="no"/>ter in sterquilinio visitant. </quote> Ergo 
+        vide<lb ed="#Bb" break="no"/>tur, quod modus .custodiendi sit hic
+        <lb ed="#Bb"/>visitare, et post mortem colligere in 
+        pa<lb ed="#Bb" break="no"/>latio.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1409">
+                  <pb ed="#Bb" n="393"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>8. Adhuc, In Psalmo xc, 11 : Angelis
+        <lb ed="#Bb"/>suis mandavit de te, ut custodiant te in
+        <lb ed="#Bb"/>omnibus viis tuis. Et dicit ibi, y. 13:
+        <lb ed="#Bb"/>Super aspidem, etc. Et, ¥. 12 : In 
+        ma<lb ed="#Bb" break="no"/>nibus portabunt te, ne forte offendas ad
+        <lb ed="#Bb"/>lapidem pedem tuum. Videtur ex hoc
+        <lb ed="#Bb"/>accipi, quod modus custodiendi non est
+        <lb ed="#Bb"/>nisi in remotione contrariorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1433">
+                  <lb ed="#Bb"/>Uxrerivs juxta hoc queritur, Utrum
+        <lb ed="#Bb"/>Angelus habeat hance potestatem 
+        custo<lb ed="#Bb" break="no"/>
+                  <lb ed="#Bb"/>_diendi animas ex natura vel gratia?
+      </p>
+               <p xml:id="Almn78-d86325-d1e1444">
+                  <lb ed="#Bb"/>Videtur, quod non ex natura :
+        <lb ed="#Bb"/>1. Angelus enim per naturam 
+        vertibi<lb ed="#Bb" break="no"/>lis est sicut et homo debilis : ergo non
+        <lb ed="#Bb"/>datur debili in custodem : cum ergo
+        <lb ed="#Bb"/>equaliter debiles sint ex natura et 
+        An<lb ed="#Bb" break="no"/>gelus, et homo, Angelus’ ex natura
+        <lb ed="#Bb"/>non habet potestatem custodiendi 
+        homi<lb ed="#Bb" break="no"/>nem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1464">
+                  <lb ed="#Bb"/>2. Adhuc, Numer. xvi, 12, super
+        <lb ed="#Bb"/>illud : Quidquid offerunt primitiarum,
+        <lb ed="#Bb"/>dicit Origenes sic : <quote xml:id="Almn78-d86325-Qd1e1472"> Angeli offerunt
+          <lb ed="#Bb"/>primitias hominum, et pro merito alius
+          <lb ed="#Bb"/>princeps multorum esse ponitur, alius
+          <lb ed="#Bb"/>principatui subjectus : sicut in bonis
+          <lb ed="#Bb"/>servis, quibus pro diversitate meritorum
+          <lb ed="#Bb"/>datur potestas, alii super decem 
+          civita<lb ed="#Bb" break="no"/>tes, alii super quinque. </quote> Hoc autem fit
+        <lb ed="#Bb"/>ex gratia, non ex natura.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1491">
+                  <lb ed="#Bb"/>3. Adhuc, Hierarchia Ecclesiastica 
+        de<lb ed="#Bb" break="no"/>scendit a celesti : in hierarchia autem
+        <lb ed="#Bb"/>Ecclesiastica nullus alteri praponitur ex
+        <lb ed="#Bb"/>natura : quia, sicut dicit Gregorius,
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e1504">natura omnes homines equaliter 
+          ge<lb ed="#Bb" break="no"/>nuit. </quote> Unde contra naturam superbire,
+        <lb ed="#Bb"/>est hominem homini velle preesse. Et
+        <lb ed="#Bb"/>hoc totum continelur in Glossa super
+        <lb ed="#Bb"/>illud Genesis, 1, 28 : Dominamini 
+        pisci<lb ed="#Bb" break="no"/>bus maris. Ergo videtur, quod in ceelesti
+        <lb ed="#Bb"/>hierarchia non preponitur Angelus 
+        An<lb ed="#Bb" break="no"/>gelo, vel Angelus animé nisi ex 
+        gra<lb ed="#Bb" break="no"/>tia.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1525">
+                  <lb ed="#Bb"/>Si forte aliquis dicat, quod anima est
+        <lb ed="#Bb"/>unibilis corpori: Angelus autem 
+        sepa<lb ed="#Bb" break="no"/>rata substantia est : et per hance 
+        natu<lb ed="#Bb" break="no"/>ram Angelus preponitur homini in 
+        cu<lb ed="#Bb" break="no"/>stodem secundum animam.Conrra hoc
+        <lb ed="#Bb"/>est, quod anima Christi unibilis est
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>corpori : ergo secundum hoc habuisset
+        <lb ed="#Bb"/>Angelum custodem, quod omnino 
+        absur<lb ed="#Bb" break="no"/>dum est.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1550">
+                  <lb ed="#Bb"/>Soxvutio. Ad primum quesilum 
+        dicen<lb ed="#Bb" break="no"/>dum quod modus custodiendi Angeli
+        <lb ed="#Bb"/>diversus est secundum diversos effectus
+        <lb ed="#Bb"/>custodiz, sicut paulo ante dictum est.
+        <lb ed="#Bb"/>Et aliquando Angelus per effectum est
+        <lb ed="#Bb"/>intus in corpore contubernalis anime,
+        <lb ed="#Bb"/>aliquando concomitans per corpus 
+        as<lb ed="#Bb" break="no"/>sumptum, et ordinando species ad 
+        ima<lb ed="#Bb" break="no"/>ginationem et intellectum, dicitur 
+        sug<lb ed="#Bb" break="no"/>gerens et hortans, non creans : 
+        prepa<lb ed="#Bb" break="no"/>ratorie enim operatur tantum, sicut
+        <lb ed="#Bb"/>agricole ad fruges : Deus autem solus
+        <lb ed="#Bb"/>creat. species, quas immittit spiritui et
+        <lb ed="#Bb"/>intellectui. Et hoc intendit dicere 
+        Ber<lb ed="#Bb" break="no"/>nardus, et non aliud.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1585">
+                  <lb ed="#Bb"/>Er ver hoc patet solutio omnium-
+        eo<lb ed="#Bb" break="no"/>rum que adducta sunt de Bernardo.
+        <lb ed="#Bb"/>Angeli enim et intus et extra operantes,
+        <lb ed="#Bb"/>preparant animas ut idoneew fiant ad
+        <lb ed="#Bb"/>gratia susceptionem, quam solus Deus
+        <lb ed="#Bb"/>creat : non tamen illabuntur in animam,
+        <lb ed="#Bb"/>sed preparatorie operantur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1603">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+        dicen<lb ed="#Bb" break="no"/>dum quod potestas custodiendi que 
+        da<lb ed="#Bb" break="no"/>tur Angelo super animam, consideratur
+        <lb ed="#Bb"/>duobus modis, scilicet secundum 
+        aptitu<lb ed="#Bb" break="no"/>dinem, et actum. Secundum 
+        aptitudi<lb ed="#Bb" break="no"/>nem quidem habet Angelus ex natura
+        <lb ed="#Bb"/>potestatem ad custodiendum per hoc
+        <lb ed="#Bb"/>quod substantia separata est, infirmitati
+        <lb ed="#Bb"/>carnis non unita : sic enim fortis est, et
+        <lb ed="#Bb"/>custode non indiget, sed custodire 
+        pot<lb ed="#Bb" break="no"/>test. Officium autem et potestatem ad
+        <lb ed="#Bb"/>actum habet ex gratia, qua scilicet 
+        con<lb ed="#Bb" break="no"/>firmatus est in bono, et cadere non
+        <lb ed="#Bb"/>potest : sic enim et custodire et fulcire
+        <lb ed="#Bb"/>potest eum qui est in periculo casus.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1638">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod licet
+        <lb ed="#Bb"/>Angelus vertibilis sit secundum 
+        electio<lb ed="#Bb" break="no"/>nem, vertibilitatem tamen illam non
+        <lb ed="#Bb"/>habet ex aliqua natura infirmitatis que
+        <lb ed="#Bb"/>sit in seipso, sicut habet anima ex 
+        infir<lb ed="#Bb" break="no"/>mitate corporis : sed habet vertibilitatem
+        <lb ed="#Bb"/>illam ex creatione, quia ut dicit Dama
+        <pb ed="#Bb" n="394"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>scenus, <quote xml:id="Almn78-d86325-Qd1e1661"> Omne creabile, vertibile est. </quote>
+                  <lb ed="#Bb"/>Unde illa vertibilitas non impedit, quin
+        <lb ed="#Bb"/>ex natura habeat aptitudinem 
+        custodien<lb ed="#Bb" break="no"/>di hominem, qui ex carnis infirmitate
+        <lb ed="#Bb"/>pronus est ad casum. In demonibus
+        <lb ed="#Bb"/>tamen licet sit eadem natura, tamen
+        <lb ed="#Bb"/>obscurata est per peccatum et corrupta,
+        <lb ed="#Bb"/>et prona ad casum: et ideo ex natura
+        <lb ed="#Bb"/>aplitudinem custodiendi non habet 
+        dae<lb ed="#Bb" break="no"/>mon.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1685">
+                  <lb ed="#Bb"/>Et hoc intendit dicere Origenes in
+        <lb ed="#Bb"/>Glossa Numerorum, xvi, 12.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1692">
+                  <lb ed="#Bb"/>Et sic etiam descendit Ecclesiastica
+        <lb ed="#Bb"/>hierarchia a ccelesti. In Ecclesiastica
+        <lb ed="#Bb"/>enim hierarchia non constituuntur 
+        cu<lb ed="#Bb" break="no"/>stodes secundum instituta Ecclesiastica
+        <lb ed="#Bb"/>patrum, qui ad actum custodi# 
+        repu<lb ed="#Bb" break="no"/>gnantiam habent ex natura, ut 
+        morio<lb ed="#Bb" break="no"/>nes, et imbecilles, sed qui perfecti sunt
+        <lb ed="#Bb"/>perfectione vite et scientie ad 
+        regen<lb ed="#Bb" break="no"/>dum et custodiendum : et quando secus
+        <lb ed="#Bb"/>fit, hoc non descendit 4 ceelesti 
+        hierar<lb ed="#Bb" break="no"/>chia, sed a perversitate diaboli.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1719">
+                  <lb ed="#Bb"/>Ad hoc quod objicitur de Christo, quod
+        <lb ed="#Bb"/>unitus fuit carni, dicendum, quod licet
+        <lb ed="#Bb"/>Christus unitus fuerit carni, que subjecta
+        <lb ed="#Bb"/>fuit infirmitati peenalitatum naturalium,
+        <lb ed="#Bb"/>non tamen unitus fuit carni, que 
+        sub<lb ed="#Bb" break="no"/>jecta fuit pronitati ad omne malum, ut
+        <lb ed="#Bb"/>dicit Anselmus in libro de Conceptu
+        <lb ed="#Bb"/>virginalt : et preter hoc unita fuit anima
+        <lb ed="#Bb"/>ejus deitati unione inseparabili, et ideo
+        <lb ed="#Bb"/>cadere non potuit, nec indiguit Angelo
+        <lb ed="#Bb"/>custode. Unde non est simile de Christo,
+        <lb ed="#Bb"/>et de aliis hominibus.
+      </p>
+            </div>
+            <div xml:id="Almn78-d86325-Dd1e1749">
+               <head xml:id="Almn78-d86325-Hd1e1751">Membrum 4</head>
+               <head xml:id="Almn78-d86325-Hd1e1754" type="question-title">
+        Utrum omnis homo custodiatur, vel
+        solus homo, vel non
+      </head>
+               <p xml:id="Almn78-d86325-d1e1757">
+                  <lb ed="#Bb"/>MEMBRUM IV.
+        <lb ed="#Bb"/>Utrum omnis homo custodiatur, vel
+        <lb ed="#Bb"/>solus homo, vel non?
+      </p>
+               <p xml:id="Almn78-d86325-d1e1766">
+                  <lb ed="#Bb"/>Quarto queritur, Utrum omnis homo
+        <lb ed="#Bb"/>custodiatur, vel solus homo, vel non?
+      </p>
+               <p xml:id="Almn78-d86325-d1e1773">
+                  <lb ed="#Bb"/>Et videtur, quod. non solus homo,
+        <lb ed="#Bb"/>sed quod etiam inferior Angelus 
+        custodi<lb ed="#Bb" break="no"/>atur a superiori.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1783">
+                  <lb ed="#Bb"/>Et hoc quidam nituntur probare sic :
+        <lb ed="#Bb"/>1. Dicunt enim, quod penes hos actus,
+        <lb ed="#Bb"/>purgare, illuminare, et perficere, 
+        consi<lb ed="#Bb" break="no"/>stit custodia : sed isti actus superiorum
+        <lb ed="#Bb"/>Angelorum sunt respectu inferiorum :
+        <lb ed="#Bb"/>ergo videtur, quod superiores custodiant
+        <lb ed="#Bb"/>inferiores.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1801">
+                  <lb ed="#Bb"/>2. Adhue, Sicut habitum est, 
+        hierar<lb ed="#Bb" break="no"/>chia Ecclesiastica descendit a ccelesti :
+        <lb ed="#Bb"/>actus ergo Leclesiastice _ hierarchie
+        <lb ed="#Bb"/>exemplariter et primo sunt in ceelesti :
+        <lb ed="#Bb"/>sed in Ecclesiastica superiores custodiunt
+        <lb ed="#Bb"/>inferiores : ergo, etc.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1817">
+                  <lb ed="#Bb"/>3. Adhuc, In auctoritate Origenis 
+        pra<lb ed="#Bb" break="no"/>inducta de Glossa Numerorum, xvi,
+        <lb ed="#Bb"/>12, expresse dicit Origenes : <quote xml:id="Almn78-d86325-Qd1e1825"> Videtur
+          <lb ed="#Bb"/>mihi, quod inter Angelos alii 
+          principa<lb ed="#Bb" break="no"/>tum et potestatem habeant super alios,
+          <lb ed="#Bb"/>alii autem subjaceant et obtemperent
+          <lb ed="#Bb"/>potestati. </quote> Si ergo cura superioris de
+        <lb ed="#Bb"/>inferiori vocatur custodia, superior 
+        An<lb ed="#Bb" break="no"/>gelus custodit inferiorem : et sic non
+        <lb ed="#Bb"/>solus homo custoditur ab Angelo.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1844">
+                  <lb ed="#Bb"/>4. Adhuc, Actus custodie angelice
+        <lb ed="#Bb"/>refertur ad animam separatam, ut in
+        <lb ed="#Bb"/>Dialogis dicit Gregorius, quia scilicet
+        <lb ed="#Bb"/>sepe Angeli inventi sunt circa animas
+        <lb ed="#Bb"/>sanctorum mortuorum, defendentes eas
+        <lb ed="#Bb"/>a contrariis. Et, Luc. xvi, 22 : Factum
+        <lb ed="#Bb"/>est autem ut moreretur mendicus, et 
+        por<lb ed="#Bb" break="no"/>taretur ab Angelis in sinum Abrahe.
+        <lb ed="#Bb"/>Portatio autem in sinum Abrahe 
+        effe<lb ed="#Bb" break="no"/>ctus custodie est. Si ergo custodia 
+        refer<lb ed="#Bb" break="no"/>tur ad animam separatam, que 
+        confir<lb ed="#Bb" break="no"/>mata in bono est sicut et Angelus,
+        <lb ed="#Bb"/>videtur quod etiam possit referri ad
+        <lb ed="#Bb"/>Angelum inferiorem : et sic sequitur,
+        <lb ed="#Bb"/>quod non solus homo custoditur, sed
+        <lb ed="#Bb"/>etiam Angelus.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1881">
+                  <lb ed="#Bb"/>Utrerws videtur, quod non omnis guest
+        <lb ed="#Bb"/>homo custoditur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1888">
+                  <pb ed="#Bb" n="395"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Videtur enim, quod Adam in primo
+        <lb ed="#Bb"/>statu innocentiea custode Angelo non
+        <lb ed="#Bb"/>indiguit : dicit enim Magister sic in 
+        li<lb ed="#Bb" break="no"/>bro II Sententiarum, dist. XXV: <quote xml:id="Almn78-d86325-Qd1e1903"> 
+          Pos<lb ed="#Bb" break="no"/>sunt in homine notari quatuor status
+          <lb ed="#Bb"/>liberi arbitrii. Ante peccatum enim ad
+          <lb ed="#Bb"/>bonum nil impediebat, ad malum nil
+          <lb ed="#Bb"/>impellebat. Non habuit infirmitatem
+          <lb ed="#Bb"/>ad malum, et habuit adjutorium ad
+          <lb ed="#Bb"/>bonum. Tunc sine errore ratio indicare,
+          <lb ed="#Bb"/>et voluntas sine difficultate appetere
+          <lb ed="#Bb"/>bonum poterat. </quote> Ex hoc accipitur,
+        <lb ed="#Bb"/>cum custodia detur propter adjutorium
+        <lb ed="#Bb"/>ad bonum, et contra infirmitatem ad
+        <lb ed="#Bb"/>malum : cum Adam in primo statu 
+        suf<lb ed="#Bb" break="no"/>ficiens habuerit adjutorium ad bonum,
+        <lb ed="#Bb"/>et nullam infirmitatem ad malum, quod
+        <lb ed="#Bb"/>custodia angelica non indiguit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1938">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>Constat, quod habuit Angelum 
+        ma<lb ed="#Bb" break="no"/>jum instigantem ad malum : cum ergo
+        <lb ed="#Bb"/>Deus sit pronior ad dandum ea que 
+        pro<lb ed="#Bb" break="no"/>movent ad bonum, quam que instigant
+        <lb ed="#Bb"/>ad malum, magis dedit ei Angelum in
+        <lb ed="#Bb"/>custodiam, quam Angelum in 
+        tentato<lb ed="#Bb" break="no"/>rem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1958">
+                  <lb ed="#Bb"/>Unrerivs queritur, Si Christus habuit
+        <lb ed="#Bb"/>Angelum custodem ?.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1965">
+                  <lb ed="#Bb"/>Et videtur, quod sic : quia
+        <lb ed="#Bb"/>4. Super illud Matthei, xvin, 10:
+        <lb ed="#Bb"/>Angeli eorum in celis semper, etc., 
+        di<lb ed="#Bb" break="no"/>cit Hieronymus, quod <quote xml:id="Almn78-d86325-Qd1e1975"> magna dignitas
+          <lb ed="#Bb"/>est, quod unaqua anima ab ortu 
+          nativi<lb ed="#Bb" break="no"/>tatis habeat Angelum sibi delegatum : </quote>
+                  <lb ed="#Bb"/>Christus autem homo fuit: ergo 
+        Ange<lb ed="#Bb" break="no"/>lum delegatum in custodiam habuit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1988">
+                  <lb ed="#Bb"/>2. Adhuc, Luc. xxu, 43: Apparuit
+        <lb ed="#Bb"/>autem illi Angelus de celo, confortans
+        <lb ed="#Bb"/>eum. Confortare autem effectus custodiz
+        <lb ed="#Bb"/>est. Ergo Angelum custodem habuit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e1999">
+                  <lb ed="#Bb"/>3. Adhuc, Matth. iv, 11 : Kece Angeli
+        <lb ed="#Bb"/>Accesserunt, ef ministrabant et : 
+        mini<lb ed="#Bb" break="no"/>sterium autem effectus custodie est.
+        <lb ed="#Bb"/>Utrumque istorum tractans Beda in
+        <lb ed="#Bb"/>Glossa super Lucam, dicit sic : <quote xml:id="Almn78-d86325-Qd1e2012"> In 
+          te<lb ed="#Bb" break="no"/>stimonium utriusque nature et Angelus
+          <lb ed="#Bb"/>Christurn confortasse, et Angelus ei 
+          mi<lb ed="#Bb" break="no"/>nistrasse describilur : quoniam qui fuit
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Deus ante secula, factus est homo in
+          <lb ed="#Bb"/>fine seculorum : qui priusquam per 
+          glo<lb ed="#Bb" break="no"/>riam resurrectionis exaltaretur, divinita~
+          <lb ed="#Bb"/>te super Angelos fuit. </quote> Ex hoc 
+        accipi<lb ed="#Bb" break="no"/>tur, quod ministerium Angelorum 
+        testi<lb ed="#Bb" break="no"/>monium fuit divine nature in Christo :
+        <lb ed="#Bb"/>ergo confortatio fuit in testimonium 
+        hu<lb ed="#Bb" break="no"/>mane nature : secundum
+        <lb ed="#Bb"/>indiguit custodia angelica.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2043">
+                  <lb ed="#Bb"/>4. Adhuc, Tob. vi, 2: Eece piseis
+        <lb ed="#Bb"/>immanis extvit ad devorandum eum.
+        <lb ed="#Bb"/>Glossa: <quote xml:id="Almn78-d86325-Qd1e2051"> Diabolus usque ad cracem
+          <lb ed="#Bb"/>secutus est Christum. </quote> Ergo constat,
+        <lb ed="#Bb"/>quod Christus habuit Angelum malum
+        <lb ed="#Bb"/>in exercitio: ergo multo magis habuit
+        <lb ed="#Bb"/>bonum Angelum in custodem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2065">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>4. Ad Coloss. u, 9: Jn ipso, scilicet
+        <lb ed="#Bb"/>in Christo, inhabitat omnis plenitudo 
+        di<lb ed="#Bb" break="no"/>vinitatis corporaliter. Ergo in una 
+        per<lb ed="#Bb" break="no"/>sona Christi divinitas fuit.unita et 
+        ani<lb ed="#Bb" break="no"/>mez et corpori: ergo alio custode nec
+        <lb ed="#Bb"/>ad profectum boni, nec ad exclusionem
+        <lb ed="#Bb"/>mali indiguit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2085">
+                  <lb ed="#Bb"/>2. Adhuc, Joan. mt, 34: Non enim
+        <lb ed="#Bb"/>ad mensuram dat Deus spiritum. 
+        Glos<lb ed="#Bb" break="no"/>sa, <quote xml:id="Almn78-d86325-Qd1e2093"> Filio. </quote> Unde, Joan. 1, 14: 
+        Vidi<lb ed="#Bb" break="no"/>mus gloriam ejus, gloriam quasi 
+        Uni<lb ed="#Bb" break="no"/>genitia Patre, plenum gratie et 
+        veri<lb ed="#Bb" break="no"/>‘atis. Ergo ab instanti conceptionis 
+        ple<lb ed="#Bb" break="no"/>nus fuit gratia et veritale: gratia in
+        <lb ed="#Bb"/>affectu, et veritate in intellectu : sed 
+        ple<lb ed="#Bb" break="no"/>nus proficere non potest : ergo Christus
+        <lb ed="#Bb"/>nec ad bonum majus proficere potuit,
+        <lb ed="#Bb"/>nec ampliorem detestationem mali 
+        ha<lb ed="#Bb" break="no"/>bere potuit quam habuit: sed custodia
+        <lb ed="#Bb"/>Angelorum non datur nisi ad profectum
+        <lb ed="#Bb"/>in bono, et ad declinationem a malo:
+        <lb ed="#Bb"/>cum ergo Christus neutro istorum 
+        mo<lb ed="#Bb" break="no"/>dorum proficere potuit, custodem 
+        Ange<lb ed="#Bb" break="no"/>lum habere non debuit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2128">
+                  <lb ed="#Bb"/>3. Adhuc, Superior non custoditur ab
+        <lb ed="#Bb"/>inferiori, sed e converso : Christus 
+        au<lb ed="#Bb" break="no"/>tem homo omni Angelo superior est in
+        <lb ed="#Bb"/>omni gratia et virtute: ergo cuslodem
+        <lb ed="#Bb"/>Angelum habere non debuit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2141">
+                  <lb ed="#Bb"/>Si quis dicat, quod passibilitate 
+        natu<lb ed="#Bb" break="no"/>re humane, et passione minoratus est
+        <lb ed="#Bb"/>ab Angelis : et sic indiguit Angelo cu
+        <pb ed="#Bb" n="396"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>stode. Hoc nihil est : hee enim 
+        minora<lb ed="#Bb" break="no"/>tio nec est nature, nec gratie, sed 
+        cha<lb ed="#Bb" break="no"/>ritatis : quia ex nimia charitate qua 
+        di<lb ed="#Bb" break="no"/>lexit nos, exinanivit semetipsum, formam
+        <lb ed="#Bb"/>servi accipiens, in qua nos redimeret :
+        <lb ed="#Bb"/>talis autem minoratio non ostendit 
+        ali<lb ed="#Bb" break="no"/>quem defectum, sed potius 
+        consumma<lb ed="#Bb" break="no"/>tionem charitatis : et perfectio talis 
+        cha<lb ed="#Bb" break="no"/>ritatis non indiget custode Angelo, quia
+        <lb ed="#Bb"/>ipsa sibi sufficit ad omnem custodiam :
+        <lb ed="#Bb"/>et sic videtur, quod Christus non habuit
+        <lb ed="#Bb"/>Angelum custodem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2180">
+                  <lb ed="#Bb"/>Utrerivs queritur de Antichristo, Si
+        <lb ed="#Bb"/>habebit Angelum custodem ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e2187">
+                  <lb ed="#Bb"/>Et videtur, quod non :
+        <lb ed="#Bb"/>1. Damascenus in libro IV de Fide
+        <lb ed="#Bb"/>orthodora', sic dicitde Antichristo, quod
+        <lb ed="#Bb"/>ex fornicatione generatur, et 
+        susci<lb ed="#Bb" break="no"/>pit omnem actum Satane. Presciens
+        <lb ed="#Bb"/>enim Deus iniquitatem ejus future 
+        vo<lb ed="#Bb" break="no"/>luntatis, concedet in eo habitare 
+        diabo<lb ed="#Bb" break="no"/>lum. Si ergo suscipiet omnem actum
+        <lb ed="#Bb"/>Satane, nec proficiet in bonum, nec
+        <lb ed="#Bb"/>declinabit a malo : inutiliter ergo 
+        habe<lb ed="#Bb" break="no"/>ret Angelum custodem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2214">
+                  <lb ed="#Bb"/>2. Hoc idem accipitur ex Glossa super
+        <lb ed="#Bb"/>epist. I ad Thesal. iv, 3, et Daniel. x1,
+        <lb ed="#Bb"/>37, ubi expresse dicitur, quod etiam in
+        <lb ed="#Bb"/>utero matris possidebitur a diabolo. Et
+        <lb ed="#Bb"/>super illud Daniel. x1, 37 et 38: Nec
+        <lb ed="#Bb"/>quemquam deorum curabit, quia 
+        adver<lb ed="#Bb" break="no"/>sum universa consurgel. Deum autem
+        <lb ed="#Bb"/>Maozim in loco suo venerabitur. 
+        Glos<lb ed="#Bb" break="no"/>sa: <quote xml:id="Almn78-d86325-Qd1e2235"> Diabolum in seipso, et 
+          ubicum<lb ed="#Bb" break="no"/>que fuerit. </quote> Ex hoc accipitur, quod
+        <lb ed="#Bb"/>diabolum habebit in seipso, et illum 
+        se<lb ed="#Bb" break="no"/>quetur et venerabitur in omnibus: 
+        fru<lb ed="#Bb" break="no"/>stra ergo haberet custodem Angelum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2248">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>4. Hieronymus dicit, quod ab instanti
+        <lb ed="#Bb"/>nativitatis quelibet anima habet 
+        Ange<lb ed="#Bb" break="no"/>lum sibi delegatum, in Glossa super
+        <lb ed="#Bb"/>Matth. xvin, 10.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2261">
+                  <lb ed="#Bb"/>2. Adhuc, Eccli. xxxin, 15, dicitur,
+        <lb ed="#Bb"/>quod Deus fecit omnia duplicia, et 
+        con<lb ed="#Bb" break="no"/>tra malum bonum est. Ergo contra ma
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>jus bonum: sed Antichristus magnum
+        <lb ed="#Bb"/>habebit Angelum instigantem ad 
+        ma<lb ed="#Bb" break="no"/>lum : ergo indiget meliori Angelo qui
+        <lb ed="#Bb"/>instiget ad bonum, quam alius homo.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2281">
+                  <lb ed="#Bb"/>3. Adhuc, Jerem. 11,9: Curavimus
+        <lb ed="#Bb"/>Babylonem, et non est curata. Ibi dicit
+        <lb ed="#Bb"/>Glossa : <quote xml:id="Almn78-d86325-Qd1e2289"> Angeli sunt medici sub ‘
+          ma<lb ed="#Bb" break="no"/>gno medico Deo constituti. </quote> Medicus
+        <lb ed="#Bb"/>autem sapiens numquam derelinquit
+        <lb ed="#Bb"/>egrotum quantumcumque infirmum,
+        <lb ed="#Bb"/>quin faciat cirea ipsum quidquid potest,
+        <lb ed="#Bb"/>etiam, sicut dicit Hippocrates, in unius
+        <lb ed="#Bb"/>dieculz adjectione. Ergo videtur, quod
+        <lb ed="#Bb"/>nec Angelus bonus umquam derelinquet
+        <lb ed="#Bb"/>Antichristum, quin faciat cirea ipsum
+        <lb ed="#Bb"/>quidquid potest.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2313">
+                  <lb ed="#Bb"/>Solutio. Ad primo quesitum 
+        dicen<lb ed="#Bb" break="no"/>dum, quod ad solum hominem refertur
+        <lb ed="#Bb"/>custodia Angelorum, et non 'ad Angelos
+        <lb ed="#Bb"/>inferiores.. Et hujus ratio est : quia 
+        cu<lb ed="#Bb" break="no"/>stodia non adhibetur ei,nisi cui imminet
+        <lb ed="#Bb"/>periculum casus, sicut intelligitur ex
+        <lb ed="#Bb"/>Psalmo xc, 12: In manibus portabunt
+        <lb ed="#Bb"/>te, ne forte offendas ad lapidem pedem
+        <lb ed="#Bb"/>tuum. Angelus autem bonus 
+        confirma<lb ed="#Bb" break="no"/>tus est in bono, et cadere non potest:
+        <lb ed="#Bb"/>malus autem obstinatus est in malo,
+        <lb ed="#Bb"/>et resurgere non potest: et sic ad 
+        neu<lb ed="#Bb" break="no"/>trum referri potest custodia.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2344">
+                  <lb ed="#Bb"/>Ad primum quod contra objicitur, 
+        di<lb ed="#Bb" break="no"/>cendum quod purgare, illuminare, et 
+        per<lb ed="#Bb" break="no"/>ficere, habent se ad custodiam sicut 
+        su<lb ed="#Bb" break="no"/>perius ad inferius : omnis enim 
+        custodi<lb ed="#Bb" break="no"/>tusab Angelis, purgatur, illuminatur, et
+        <lb ed="#Bb"/>perficitur : sed non convertitur, eo quod
+        <lb ed="#Bb"/>custodia addit preservationem et 
+        fulci<lb ed="#Bb" break="no"/>mentum ad casum, sicut inferius addit
+        <lb ed="#Bb"/>ad suum superius differentiam qua 
+        con<lb ed="#Bb" break="no"/>stituitur in specie. Unde in argumento
+        <lb ed="#Bb"/>illo est fallacia consequentis a superiori
+        <lb ed="#Bb"/>ad inferius affirmando.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2374">
+                  <lb ed="#Bb"/>Av auiup dicendum, quod procul 
+        du<lb ed="#Bb" break="no"/>bio hierarchia Ecclesiastica descendit a
+        <lb ed="#Bb"/>celesti in actibus hierarchicis : tamen
+        <lb ed="#Bb"/>propter diversitatem personarum et 
+        di<lb ed="#Bb" break="no"/>versitatem conditionis personarum hie
+        <pb ed="#Bb" n="397"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>rarchia ccelestis et ecclesiastice, aliquid
+        <lb ed="#Bb"/>accidit ecclesiastice quod non accidit
+        <lb ed="#Bb"/>ceelesti : et hoc est custodia, que 
+        pro<lb ed="#Bb" break="no"/>pter periculum casus accidit 
+        ecclesiasti<lb ed="#Bb" break="no"/>ce, et propter impossibilitatem casus
+        <lb ed="#Bb"/>non attribuitur ccelesti.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2405">
+                  <lb ed="#Bb"/>Av auiup dicendum, quod inter 
+        An<lb ed="#Bb" break="no"/>gelos quidam sunt superiores, quidam
+        <lb ed="#Bb"/>inferiores, ut dicit Origenes: sed hoc
+        <lb ed="#Bb"/>est secundum ordines et gradus 
+        illumi<lb ed="#Bb" break="no"/>nationum et theophaniarum a 
+        superiori<lb ed="#Bb" break="no"/>bus in inferiores descendentium, et non
+        <lb ed="#Bb"/>secundum actum qui dicitur custodia, ut
+        <lb ed="#Bb"/>patet ex supradictis.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2425">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod custodia
+        <lb ed="#Bb"/>non refertur ad animam separatam, eo
+        <lb ed="#Bb"/>quod anima separata confirmata est in
+        <lb ed="#Bb"/>bono vel in malo sicut et Angelus: nec
+        <lb ed="#Bb"/>portatio animarum est custodia proprie
+        <lb ed="#Bb"/>loquendo, sed est quoddam custodiam
+        <lb ed="#Bb"/>consequens, scilicet reductio 
+        custo<lb ed="#Bb" break="no"/>diti in locum sue beatitudini congruum :
+        <lb ed="#Bb"/>et iste est intellectus Gregorii et 
+        Evan<lb ed="#Bb" break="no"/>gelii Luce, xvi, 22.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2449">
+                  <lb ed="#Bb"/>Ad id quod ulterius arguitur, sine
+        <lb ed="#Bb"/>prejudicio videtur mihi dicendum, quod
+        <lb ed="#Bb"/>Adam in primo statu custodem habuit
+        <lb ed="#Bb"/>Angelum et bonum : et similiter Heva :
+        <lb ed="#Bb"/>aliter enim, sicut dicitur Eccli. xxxim,
+        <lb ed="#Bb"/>15, non esset contra malum, bonum in
+        <lb ed="#Bb"/>operibus Dei. Constat enim, quod 
+        ha<lb ed="#Bb" break="no"/>buerunt Angelum malum se tentantem
+        <lb ed="#Bb"/>et seducentem. Unde oportuit, quod
+        <lb ed="#Bb"/>etiam Angelum bonum  custodientem
+        <lb ed="#Bb"/>habuerint.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2475">
+                  <lb ed="#Bb"/>Et ad objectum contra ex dictis 
+        Ma<lb ed="#Bb" break="no"/>gistri in Sententiis, dicendum, quod 
+        li<lb ed="#Bb" break="no"/>cet non habuerunt in statu primo 
+        infir<lb ed="#Bb" break="no"/>mitatis defectum, tamen infirmitatis 
+        ha<lb ed="#Bb" break="no"/>bebant defectibilitatem ; poterant enim
+        <lb ed="#Bb"/>peccare, et sic defectum pronitatis ad
+        <lb ed="#Bb"/>malum sentire : et propter hoc 
+        indigue<lb ed="#Bb" break="no"/>runt custodia angelica.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2495">
+                  <lb ed="#Bb"/>Id quod contra objicitur, 
+        conceden<lb ed="#Bb" break="no"/>dum est.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2503">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ad id quod ulterius quaeritur, si
+        <lb ed="#Bb"/>Christus habeat Angelum secundum quod
+        <lb ed="#Bb"/>homo?
+      </p>
+               <p xml:id="Almn78-d86325-d1e2514">
+                  <lb ed="#Bb"/>Videtur mihi profanum esse, dicere
+        <lb ed="#Bb"/>quod Christus habuit Angelum 
+        custo<lb ed="#Bb" break="no"/>dem, sed multa millia Angelorum 
+        ha<lb ed="#Bb" break="no"/>buit in ministerium.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2525">
+                  <lb ed="#Bb"/>Ad objectum contra per Hieronymum,
+        <lb ed="#Bb"/>dicendum quod dictum Christi, Matth.
+        <lb ed="#Bb"/>xvi, 10, intelligitur de pusillis, 
+        quo<lb ed="#Bb" break="no"/>rum dignitas est, quod habent 
+        Ange<lb ed="#Bb" break="no"/>lum delegatum. Christus ‘autem pusillus
+        <lb ed="#Bb"/>in gratia et virtute numquam fuit, nec
+        <lb ed="#Bb"/>scandalizari ad casum potuit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2543">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod duplex est
+        <lb ed="#Bb"/>confortatio custodix, scilicet que est ex
+        <lb ed="#Bb"/>auctoritate officii custodientes.: et est
+        <lb ed="#Bb"/>confortatio congratulationis, qua aliquis
+        <lb ed="#Bb"/>fortissime pugnanti et fortiter contra
+        <lb ed="#Bb"/>hostem stanti congratulatur dum est in
+        <lb ed="#Bb"/>pugna. Et talis fuit confortatio Angeli,
+        <lb ed="#Bb"/>Luc. xxu, 43. Et hoc intelligitur ex 
+        om<lb ed="#Bb" break="no"/>nibus expositoribus, qui omnes sic 
+        expo<lb ed="#Bb" break="no"/>nunt - Apparuit autem Angelus de celo,
+        <lb ed="#Bb"/>confortans eum, hoc est, ad modum 
+        con<lb ed="#Bb" break="no"/>fortantis se habens : tunc enim fuit pugna
+        <lb ed="#Bb"/>inter Christum fortiorem, et diabolum
+        <lb ed="#Bb"/>minus fortem : de qua dicitur, Luc. x1,
+        <lb ed="#Bb"/>22: Si fortior eo superveniens vicerit
+        <lb ed="#Bb"/>eum, universa arma ejus auferet, et
+        <lb ed="#Bb"/>spolia ejus distribuet*. Per virtutem
+        <lb ed="#Bb"/>enim passionis Christus tunc alligavit
+        <lb ed="#Bb"/>diabolum, et fregit infernum, et animas
+        <lb ed="#Bb"/>possessas a diabolo, que ante fuerunt
+        <lb ed="#Bb"/>vasa in quibus confidebat diabolus, inde
+        <lb ed="#Bb"/>redemit et eruit: et ideo ut debilis in
+        <lb ed="#Bb"/>pugna confortatione non indiguit, sed
+        <lb ed="#Bb"/>congratulatione pugne que ad tantam
+        <lb ed="#Bb"/>victoriam terminabatur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2600">
+                  <lb ed="#Bb"/>Ab atiup dicendum, quod ministerium
+        <lb ed="#Bb"/>secundum se non est opus custodia, sed
+        <lb ed="#Bb"/>opus servientis et subditi. Custodia 
+        au<lb ed="#Bb" break="no"/>tem refertur ad curam superioris : et
+        <lb ed="#Bb"/>ideo dicit Beda, quod ministerium fuit
+        <lb ed="#Bb"/>testimonium divine nature, cui sicut
+        <lb ed="#Bb"/>subditi ministrant Angeli: confortatio
+        <lb ed="#Bb"/>autem testimonium est humane naturae,
+        <pb ed="#Bb" n="398"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>propter hoc quod confortatio illa fuit
+        <lb ed="#Bb"/>congratulantis Christo in pugna: quia
+        <lb ed="#Bb"/>pugna passionis non convenit Christo,
+        <lb ed="#Bb"/>nisi secundum humanam naturam que
+        <lb ed="#Bb"/>passibilis fuit. Et iste est intellectus 
+        ver<lb ed="#Bb" break="no"/>borum Bede.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2637">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod diabolus
+        <lb ed="#Bb"/>numquam secutus fuit Christum, nec
+        <lb ed="#Bb"/>umquam potuit aliquid in eum: sed in
+        <lb ed="#Bb"/>suis plena potestate persecutus est eum
+        <lb ed="#Bb"/>usque ad crucem, ita quod hoc quod 
+        di<lb ed="#Bb" break="no"/>co usgue teneatur exclusive : ita quod
+        <lb ed="#Bb"/>per crucem plenam potestatem 
+        perse<lb ed="#Bb" break="no"/>quendi suos amisit, quam ante habuerat.
+        <lb ed="#Bb"/>Per crucem enim potestas ejus diminuta
+        <lb ed="#Bb"/>fuit : ita quod tantam potestatem 
+        tentan<lb ed="#Bb" break="no"/>di non hahuit ut prius habuerat, sicut
+        <lb ed="#Bb"/>in tractatu de casu diaboli 
+        determina<lb ed="#Bb" break="no"/>tum est.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2669">
+                  <lb ed="#Bb"/>Tria que objiciuntur in contrarium,
+        <lb ed="#Bb"/>procedunt, et concedenda sunt. Et etiam
+        <lb ed="#Bb"/>concedendum est hoc, quod minoratio
+        <lb ed="#Bb"/>Christi ab Angelis, que fuit in 
+        passibi<lb ed="#Bb" break="no"/>litate nature humane, nullam induxit
+        <lb ed="#Bb"/>ineo debilitatem vel pronitatem ad 
+        ca<lb ed="#Bb" break="no"/>sum, sed perfectionem ostendit charitatis
+        <lb ed="#Bb"/>quam habuit ad hominem. |
+      </p>
+               <p xml:id="Almn78-d86325-d1e2689">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur de 
+        An<lb ed="#Bb" break="no"/>tichristo, dicendum quod Angelum 
+        ha<lb ed="#Bb" break="no"/>bebit custodem : erit enim creatura 
+        ra<lb ed="#Bb" break="no"/>tionalis periculum habens ad casum : et
+        <lb ed="#Bb"/>ideo summe bonus Deus, qui semper
+        <lb ed="#Bb"/>contra malum ordinat bonum, non 
+        ne<lb ed="#Bb" break="no"/>gabit ei Angelum custodem et 
+        presi<lb ed="#Bb" break="no"/>dem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2709">
+                  <lb ed="#Bb"/>Ad opsectum contra per Damascenum,
+        <lb ed="#Bb"/>dicendum, quod suscipiet omnem actum
+        <lb ed="#Bb"/>Satane in perficiendo malo erectionis
+        <lb ed="#Bb"/>sue contra Christum quam intendit : et
+        <lb ed="#Bb"/>ideo Angelus custodicns quantum ad
+        <lb ed="#Bb"/>revocationem illius mali, effectum in
+        <lb ed="#Bb"/>eo non habebit : ex hoc enim 
+        sequere<lb ed="#Bb" break="no"/>tur diabolum in se non habere habi--
+        <lb ed="#Bb"/>tantem per malitiam obstinatam : 
+        ha<lb ed="#Bb" break="no"/>bebit tamen effectum in aliis, et 
+        praci<lb ed="#Bb" break="no"/>pue in hoc scilicet ne tot et toties cadat,
+        <lb ed="#Bb"/>quot et quoties caderet, si Angelum
+        <lb ed="#Bb"/>custodem non haberet. =
+      </p>
+               <p xml:id="Almn78-d86325-d1e2740">
+                  <lb ed="#Bb"/>Per vem solvitur Glossa super epist.
+        <lb ed="#Bb"/>Tad Thessal. 1v, 3, et Daniel. x1, 37.
+        <lb ed="#Bb"/>Cum enim dicitur, quod possidebitur
+        <lb ed="#Bb"/>a diabolo in utero matris : non 
+        intelligi<lb ed="#Bb" break="no"/>tur,, quod formetur vel creetur a diabolo
+        <lb ed="#Bb"/>in utero matris, sed potius, quod per
+        <lb ed="#Bb"/>incentiva vitiorum male matris et 
+        ma<lb ed="#Bb" break="no"/>lorum alumnorum sive pedagogorum
+        <lb ed="#Bb"/>sibia diabolo procuratorum, ad magna
+        <lb ed="#Bb"/>facinora disponatur, ad que impedienda
+        <lb ed="#Bb"/>non habebit in eo effectum custodia
+        <lb ed="#Bb"/>angelica : sed tamen non crit sine 
+        effe<lb ed="#Bb" break="no"/>ctu custodia quantum ad ea de quibus
+        <lb ed="#Bb"/>dictum est.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2773">
+                  <lb ed="#Bb"/>Tria que in contrarium objiciuntur,
+        <lb ed="#Bb"/>concedenda sunt. Et ex ultimo eorum
+        <lb ed="#Bb"/>patet, quod falsa est opinio quorumdam
+        <lb ed="#Bb"/>antiquorum, qui dixerunt, quod primo
+        <lb ed="#Bb"/>in pueritia habebit Angelum custodem :
+        <lb ed="#Bb"/>sed ille cum proficiet malitia, . 
+        derelin<lb ed="#Bb" break="no"/>quet eum, et recedet ab eo.
+      </p>
+            </div>
+            <div xml:id="Almn78-d86325-Dd1e2792">
+               <head xml:id="Almn78-d86325-Hd1e2794">Membrum 5</head>
+               <head xml:id="Almn78-d86325-Hd1e2797" type="question-title">
+        Utrum homo semper custodiatur ab 
+        Angelo vel non
+      </head>
+               <p xml:id="Almn78-d86325-d1e2800">
+                  <lb ed="#Bb"/>MEMBRUM V.
+        <lb ed="#Bb"/>Utrum homo semper custodiatur ab 
+        An<lb ed="#Bb" break="no"/>gelo vel non ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e2809">
+                  <lb ed="#Bb"/>Quinto queritur, Utrum homo semper
+        <lb ed="#Bb"/>custodiatur ab Angelo, vel non?
+      </p>
+               <p xml:id="Almn78-d86325-d1e2816">
+                  <lb ed="#Bb"/>Videtur, quod non.
+        <lb ed="#Bb"/>1. Bernardus in sermone 7 super 
+        Can<lb ed="#Bb" break="no"/>ica, tractans illud Psalmi cxxxvu, 1:
+        <lb ed="#Bb"/>In conspectu Angelorum psallam tibi,
+        <lb ed="#Bb"/>dicit sic: <quote xml:id="Almn78-d86325-Qd1e2829"> Doleo proinde aliquos 
+          ve<lb ed="#Bb" break="no"/>strum in sacris vigillis gravi deprimi
+          <lb ed="#Bb"/>somno, nec cceli cives revereri, sed in
+          <lb ed="#Bb"/>potentia principum tamquam mortuos
+          <pb ed="#Bb" n="399"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>apparere : cum vesira alacritate permoti
+          <lb ed="#Bb"/>ipsi vestris interesse solemniis 
+          delectan<lb ed="#Bb" break="no"/>tur. </quote> Et ibidem infra: <quote xml:id="Almn78-d86325-Qd1e2849"> Vereor ne 
+            no<lb ed="#Bb" break="no"/>stram desidiam quandoque abominantes,
+            <lb ed="#Bb"/>cum indignatione recedant : el 
+            unus<lb ed="#Bb" break="no"/>quisque nostrum sero incipiat dicere
+            <lb ed="#Bb"/>cum gemitu: Longe fecisit notos meos
+            <lb ed="#Bb"/>a@ me ;: posuerunt me abominationem
+            <lb ed="#Bb"/>sibi'. </quote> Si ergo Angeli aliquando 
+        rece<lb ed="#Bb" break="no"/>dunt ab his quos custodiunt : ergo non
+        <lb ed="#Bb"/>semper custodiunt. ,
+      </p>
+               <p xml:id="Almn78-d86325-d1e2871">
+                  <lb ed="#Bb"/>2. Adhuc, Isa. v, 5, super illud : 
+        Azv<lb ed="#Bb" break="no"/>feram sepem ejus, et erit in direptionem :
+        <lb ed="#Bb"/>Glossa dicit, Sepem, hoc est, auxilia
+        <lb ed="#Bb"/>Angelorum. Et ibidem in eadem Glossa
+        <lb ed="#Bb"/>tangitur illud quod est in Evangelio 
+        Na<lb ed="#Bb" break="no"/>zareorum, quod tempore passionis 
+        Do<lb ed="#Bb" break="no"/>mini audite sunt voces Angelorum in
+        <lb ed="#Bb"/>aere : Transeamus ab his sedibus. Ergo
+        <lb ed="#Bb"/>Angeli reliquerunt eos tunc, quos custo -
+        <lb ed="#Bb"/>dierant ante: non ergo semper 
+        custo<lb ed="#Bb" break="no"/>diunt.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2897">
+                  <lb ed="#Bb"/>3. Adhue, Jerem. x1, 9, super illud:
+        <lb ed="#Bb"/>Curavimus Babylonem, et non est 
+        sana<lb ed="#Bb" break="no"/>ta : derelinguamus eam : sic dicit Glossa
+        <lb ed="#Bb"/>magna marginalis, que incipit : 
+        Curavi<lb ed="#Bb" break="no"/>mus Babylonem,etc. : <quote xml:id="Almn78-d86325-Qd1e2910"> Sunt medici sub
+          <lb ed="#Bb"/>magno medico Angeli Dei volentes 
+          ani<lb ed="#Bb" break="no"/>mas nostras a viliis curare : quos ipsi
+          <lb ed="#Bb"/>repellimus, dum consiliis eoram non 
+          ac<lb ed="#Bb" break="no"/>quiescimus : et illi videntes se perdere
+          <lb ed="#Bb"/>operam, ad invicem dicunt : 
+          Derelingua<lb ed="#Bb" break="no"/>mus eam. </quote> Et subdit Angelos dicere
+        <lb ed="#Bb"/>sic : <quote xml:id="Almn78-d86325-Qd1e2928"> Tradita est nobis medicina a Deo,
+          <lb ed="#Bb"/>ut animam curemus humanam. 
+          Adjuto<lb ed="#Bb" break="no"/>ria et medicamina adhibuimus: 
+          contu<lb ed="#Bb" break="no"/>max est, non vult observare quod. 
+          dici<lb ed="#Bb" break="no"/>mus, studium nostrum non sequitur
+          <lb ed="#Bb"/>effectus, abeamus unusquisque in terram
+          <lb ed="#Bb"/>suam, id est, ad domesticum et proprium
+          <lb ed="#Bb"/>negotium suum. </quote> Ex hoc sequitur idem
+        <lb ed="#Bb"/>quod prius.
+      </p>
+               <p xml:id="Almn78-d86325-d1e2949">
+                  <lb ed="#Bb"/>4. Adhuc, Paulo infra in eadem Glossa:
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e2955">Cave ne quando relinquat te medicus vel
+          <lb ed="#Bb"/>Angelus Dei: cave ne abscessio medicti
+          <lb ed="#Bb"/>damnatio tua sit, ut irremediabilis 
+          nolen<lb ed="#Bb" break="no"/>tis cura. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e2965">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>5. Adhuc, Infra, <quote xml:id="Almn78-d86325-Qd1e2971"> Sepe prudens 
+          me<lb ed="#Bb" break="no"/>dicus accedit ad languentem : et quantum
+          <lb ed="#Bb"/>ars patitur, industria medicine non 
+          ces<lb ed="#Bb" break="no"/>sata curatione. Sed si egritudo tanta
+          <lb ed="#Bb"/>sit, ut repugnet curationi: aut eger per
+          <lb ed="#Bb"/>impatientiam doloris contra faciat ill
+          <lb ed="#Bb"/>quod jubetur: relinquit eum desperans
+          <lb ed="#Bb"/>medicus, ne inter manus eius moriens,
+          <lb ed="#Bb"/>ipse medicus mortis reus esse videatur.
+          <lb ed="#Bb"/>Ne ergo inter sanctorum Angelorum 
+          ma<lb ed="#Bb" break="no"/>nus moriamur, relinquunt nos 
+          desperan<lb ed="#Bb" break="no"/>tes et dicentes: Non est malagma 
+          impo<lb ed="#Bb" break="no"/>nere, neque oleum, neque alligaturam. </quote>
+                  <lb ed="#Bb"/>Ex hoc accipitur idem quod prius, 
+        sci<lb ed="#Bb" break="no"/>licet quod non semper custodiunt, sed
+        <lb ed="#Bb"/>quandoque derelinquunt custoditos,
+      </p>
+               <p xml:id="Almn78-d86325-d1e3008">
+                  <lb ed="#Bb"/>In contrarium hujus est,
+        <lb ed="#Bb"/>4. Quod dicit Bernardus in sermone
+        <lb ed="#Bb"/>31 super Cantica, sic : <quote xml:id="Almn78-d86325-Qd1e3016"> Angelus est qui
+          <lb ed="#Bb"/>in omni loco sicut sedulus quidem pedis—
+          <lb ed="#Bb"/>sequus anime, non cessat sollicitare eam,
+          <lb ed="#Bb"/>et assiduis suggestationibus monere, 
+          di<lb ed="#Bb" break="no"/>cens illud Psalmi xxxvi, 4: Delectare in
+          <lb ed="#Bb"/>Domino ,et dabit tibi petitiones cordis tut:
+          <lb ed="#Bb"/>etillud Psalmixxvs,14: Exspecta 
+          Domi<lb ed="#Bb" break="no"/>num, vtiriliter age, et confortetur cor
+          <lb ed="#Bb"/>tuum, etsustine Dominum. Ad Dominum
+          <lb ed="#Bb"/>autem dicit, Psal. x11, 2 : 
+          Quemadmo<lb ed="#Bb" break="no"/>dum desiderat scervus ad fontes 
+          aqua<lb ed="#Bb" break="no"/>rum, ita desiderat anima mea ad te,
+          <lb ed="#Bb"/>Deus, hoc est, anima mihi commissa in
+          <lb ed="#Bb"/>custodiam. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e3048">
+                  <lb ed="#Bb"/>2. Adhuc, Tbidem dicit Bernardus :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e3054">Discurrit Angelus inter dilectum et 
+          dile<lb ed="#Bb" break="no"/>ctam, vota offerens, referens dona. 
+          Exci<lb ed="#Bb" break="no"/>tat istam, placat illum. Interdum quoque
+          <lb ed="#Bb"/>(licet raro) representat eos pariter sibi,
+          <lb ed="#Bb"/>sive hinc istam rapiens ad dilectum, sive
+          <lb ed="#Bb"/>hucillum adducens ad dilectam. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e3069">
+                  <lb ed="#Bb"/>3. Adhuc, De nemine desperandum est
+        <lb ed="#Bb"/>in via, ut dicit Augustinus : sed in via
+        <lb ed="#Bb"/>sumus dum vivimus : ergo dum vivimus,
+        <lb ed="#Bb"/>non est subtrahenda medicina medici :
+        <lb ed="#Bb"/>sed Angelus est medicus, et custodia 
+        me<lb ed="#Bb" break="no"/>dicina : ergo a nullo dum vivit 
+        subtrahi<lb ed="#Bb" break="no"/>tur custodia.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3087">
+                  <pb ed="#Bb" n="400"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Sed tunc habet locum questio beati
+        <lb ed="#Bb"/>Dionysiis in Celesti hierarchia ', Utrum
+        <lb ed="#Bb"/>scilicet de negligentia culpandi sint 
+        Au<lb ed="#Bb" break="no"/>geli, si aliquando derelinquunt 
+        custo<lb ed="#Bb" break="no"/>diendos, cum prepositi sint rectores 
+        ho<lb ed="#Bb" break="no"/>minibus.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3107">
+                  <lb ed="#Bb"/>Et videtur, quod sic : quia
+        <lb ed="#Bb"/>1. Super illud Michee, v1, 1 : Surge,
+        <lb ed="#Bb"/>contende judicio adversus montes, dicit
+        <lb ed="#Bb"/>Glossa : <quote xml:id="Almn78-d86325-Qd1e3117"> Montes sunt administratorii
+          <lb ed="#Bb"/>spiritus, quibus commissa est procuratio
+          <lb ed="#Bb"/>humanarum rerum. Adversus hos 
+          jube<lb ed="#Bb" break="no"/>tur contendere judicio : ut si illi montes
+          <lb ed="#Bb"/>vel colles inventi fuerint procurasse non
+          <lb ed="#Bb"/>bene populum : videatur ut vel culpa
+          <lb ed="#Bb"/>Dei sit, qui non idoneos prposuit : vel
+          <lb ed="#Bb"/>ipsorum Angelorum, si non egerint que
+          <lb ed="#Bb"/>ad officium eorum pertinebant : vel 
+          po<lb ed="#Bb" break="no"/>puli, qui bonis prelatis obedire 
+          contem<lb ed="#Bb" break="no"/>pserit. Et cum nec in Deo, nec in Angelis
+          <lb ed="#Bb"/>culpa possit inveniri, restat quod in 
+          po<lb ed="#Bb" break="no"/>pulo inveniatur. </quote> Ergo ex hac Glossa
+        <lb ed="#Bb"/>videtur quantum ad primam partem,
+        <lb ed="#Bb"/>quod Angeli arguantur negligentia: et
+        <lb ed="#Bb"/>quantum ad ultimam partem videtur,
+        <lb ed="#Bb"/>quod in solo homine inveniatur 
+        negli<lb ed="#Bb" break="no"/>gentia.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3158">
+                  <lb ed="#Bb"/>2. Adhuc, Dionysius in Celesti 
+        hierar<lb ed="#Bb" break="no"/>chia, ubi preinductam movet 
+        questio<lb ed="#Bb" break="no"/>nem, sic concludit: <quote xml:id="Almn78-d86325-Qd1e3166"> Non Angelorum
+          <lb ed="#Bb"/>rectas dominationes accusari oportet pro
+          <lb ed="#Bb"/>aliarum gentium in non existentes deos
+          <lb ed="#Bb"/>errore, hoc est,ad deos falsos aversione :
+          <lb ed="#Bb"/>quia gentes propriis inflexionibus ad
+          <lb ed="#Bb"/>idola vertuntur *. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e3180">
+                  <lb ed="#Bb"/>3. Adhuc, Numer. xxv, 4, super illud :
+        <lb ed="#Bb"/>Tolle cunetos principes populi, et 
+        sus<lb ed="#Bb" break="no"/>pende eos contra solem, dicit Glossa :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e3190">Si princeps, id est, Angelus 
+          commo<lb ed="#Bb" break="no"/>nuit, et locutus in corde meo fuerit, in
+          <lb ed="#Bb"/>quo meam conscientiam revocat a 
+          pecca<lb ed="#Bb" break="no"/>tis: et ego spretis ejus monitis et 
+          con<lb ed="#Bb" break="no"/>scientie reticulo in peccato permansi,
+          <lb ed="#Bb"/>duplicabitur mihi pena, pro contemptu
+          <lb ed="#Bb"/>monitorum, et commissione facinoris. </quote>
+               </p>
+               <p xml:id="Almn78-d86325-d1e3207">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod Angelus
+        <lb ed="#Bb"/>numquam recedit a custodito, nec 
+        um<lb ed="#Bb" break="no"/>quam derelinquit hominem dum vivit :
+        <lb ed="#Bb"/>ifa ut nullum effectum custodie faciat
+        <lb ed="#Bb"/>circa ipsum. Dicitur aliquando tamen 
+        de<lb ed="#Bb" break="no"/>relinquere quantum ad illum effectum
+        <lb ed="#Bb"/>qui est conversio a peccato : quia illum
+        <lb ed="#Bb"/>videt, quod proficere non potest, 
+        contra<lb ed="#Bb" break="no"/>dicente illo qui custoditur. Et in hoc 
+        sen<lb ed="#Bb" break="no"/>su loquitur Bernardus et Glossa super
+        <lb ed="#Bb"/>Jeremiam, 1, 9. Sed tamen facit quod
+        <lb ed="#Bb"/>potest, ad minus retinendo ne toties 
+        ca<lb ed="#Bb" break="no"/>dat, quoties caderet, si custodem non
+        <lb ed="#Bb"/>haberet, et ne ita in profundum cadat.
+        <lb ed="#Bb"/>Unde quantum ad illum effectum dicitur
+        <lb ed="#Bb"/>derelinquere, et non simpliciter.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3247">
+                  <lb ed="#Bb"/>Et per hoc patet solutio ad omnes 
+        au<lb ed="#Bb" break="no"/>ctoritates pro prima parte inductas.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3254">
+                  <lb ed="#Bb"/>Ea avurem que adducuntur in 
+        contra<lb ed="#Bb" break="no"/>rium, concedenda sunt quantum ad 
+        il<lb ed="#Bb" break="no"/>lum effectum custodiz, qui est retinere
+        <lb ed="#Bb"/>ne toties cadat, quoties caderet, si 
+        custo<lb ed="#Bb" break="no"/>dem non haberet.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3267">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, Si 
+        An<lb ed="#Bb" break="no"/>gelus culpetur, ex negligentia ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e3274">
+                  <lb ed="#Bb"/>Dicendum, quod non : quia numquam
+        <lb ed="#Bb"/>negligens invenitur, semper enim facit
+        <lb ed="#Bb"/>quod in se est. Unde sicut medicus non
+        <lb ed="#Bb"/>arguitur qui nihil omittit de 
+        contingen<lb ed="#Bb" break="no"/>tibus, etsi non relevetur weger: ita nec
+        <lb ed="#Bb"/>Angelus culpatur, etiamsi non a peccato
+        <lb ed="#Bb"/>revocetur custoditus, quia nihil omittit de
+        <lb ed="#Bb"/>contingentibus. /
+      </p>
+               <p xml:id="Almn78-d86325-d1e3294">
+                  <lb ed="#Bb"/>Ad Glossam que est Michee, v1, 1,
+        <lb ed="#Bb"/>dicendum, quod non loquitur de judicio
+        <lb ed="#Bb"/>quo judicetur vel arguatur Angelus: sed
+        <lb ed="#Bb"/>loquitur de judicio quo gravius 
+        damna<lb ed="#Bb" break="no"/>tur custoditus, qui talis custodis monita
+        <lb ed="#Bb"/>contempsit. Et hoc patet ex fine ejusdem
+        <lb ed="#Bb"/>Glosse, et ex Glossa que adducta est de
+        <lb ed="#Bb"/>Numeris, xxv, 4.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3314">
+                  <lb ed="#Bb"/>Et iste est etiam intellectus verborum
+        <lb ed="#Bb"/>Dionysii.
+      </p>
+            </div>
+            <div xml:id="Almn78-d86325-Dd1e3322">
+               <head xml:id="Almn78-d86325-Hd1e3324">Membrum 6</head>
+               <head xml:id="Almn78-d86325-Hd1e3327" type="question-title">
+        Utrum aliquid gaudii vel tristitie 
+        accrescat Angelis ex custodia
+      </head>
+               <p xml:id="Almn78-d86325-d1e3330">
+                  <pb ed="#Bb" n="401"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>MEMBRUM VI.
+        <lb ed="#Bb"/>Utrum aliquid gaudii vel tristitie 
+        ac<lb ed="#Bb" break="no"/>crescat Angelis ex custodia ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e3343">
+                  <lb ed="#Bb"/>Sexto queritur, Utrum aliquid 
+        accre<lb ed="#Bb" break="no"/>scat Angelis ex custodia?
+      </p>
+               <p xml:id="Almn78-d86325-d1e3350">
+                  <lb ed="#Bb"/>Et videtur, quod sic :
+        <lb ed="#Bb"/>1. Videtur enim, quod accrescat eis
+        <lb ed="#Bb"/>gaudium et tristitia ex custodia. Dicitur
+        <lb ed="#Bb"/>enim, Luc. xv, 10 : Dico vobis, gaudium
+        <lb ed="#Bb"/>erit coram Angelis Dei super uno 
+        pecca<lb ed="#Bb" break="no"/>lore penitentiam agente. Constat autem,
+        <lb ed="#Bb"/>quod ex profectu eorum quos custodiunt,
+        <lb ed="#Bb"/>gaudent. Ergo per oppositum de 
+        defecti<lb ed="#Bb" break="no"/>bus eorum tristantur : gaudium enim et
+        <lb ed="#Bb"/>tristitia in passionibus opposita sunt, et
+        <lb ed="#Bb"/>sunt nata fieri circa idem.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3377">
+                  <lb ed="#Bb"/>2. Adhuc, Isa. xxxut, 7 : Angeli pacis
+        <lb ed="#Bb"/>amare flebunt. Ergo Angelis accidit 
+        tri<lb ed="#Bb" break="no"/>stitia : per- oppositum ergo et gaudium.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3386">
+                  <lb ed="#Bb"/>ConTRA :
+        <lb ed="#Bb"/>Bernardus in libro V de 
+        Considera<lb ed="#Bb" break="no"/>tione ad Eugenium : <quote xml:id="Almn78-d86325-Qd1e3394"> Miseria et felicitas
+          <lb ed="#Bb"/>in eodem esse non possunt simul. </quote> 
+        Con<lb ed="#Bb" break="no"/>stat autem, quod Angeli beati sunt 
+        feli<lb ed="#Bb" break="no"/>ces: tristitia autem ad miseriam 
+        perti<lb ed="#Bb" break="no"/>net : ergo tristitia non accidit Angelis
+        <lb ed="#Bb"/>beatis.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3409">
+                  <lb ed="#Bb"/>Juxta hoc queritur de Angelo qui
+        <lb ed="#Bb"/>custodit prascitum ad damnationem 
+        eter<lb ed="#Bb" break="no"/>nam, utrum velit eum damnari, vel 
+        sal<lb ed="#Bb" break="no"/>vari ?
+        <lb ed="#Bb"/>Videtur, quod vult eum salvari : guia
+        <lb ed="#Bb"/>ad hoc operam impendit ut salvetur : et
+        <lb ed="#Bb"/>constat, quod operam perdere non vult :
+        <lb ed="#Bb"/>ergo vult ut salvetur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3429">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>Scit eum esse prescitum : ergo seit,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>quod Deus vult eum esse damnandum :
+        <lb ed="#Bb"/>si ergo ipse Angelus vult eum esse 
+        sal<lb ed="#Bb" break="no"/>vandum, tune non conformat voluntatem
+        <lb ed="#Bb"/>suam voluntati divine : et hoc est 
+        in<lb ed="#Bb" break="no"/>conveniens,
+      </p>
+               <p xml:id="Almn78-d86325-d1e3449">
+                  <lb ed="#Bb"/>Ulterivs queritur, Si ex custodia 
+        ac<lb ed="#Bb" break="no"/>crescit eis aliquid in merito vel 
+        deme<lb ed="#Bb" break="no"/>rito ? ,
+      </p>
+               <p xml:id="Almn78-d86325-d1e3458">
+                  <lb ed="#Bb"/>Et videtur quod sic.
+        <lb ed="#Bb"/>1. Numer. xvii, 1 et seq.,Glossa 
+        Hesy<lb ed="#Bb" break="no"/>chii super Origenem dicit sic :<quote xml:id="Almn78-d86325-Qd1e3466"> Angelitra-~
+          <lb ed="#Bb"/>huatur in judicium, utrum ex eorum 
+          ne<lb ed="#Bb" break="no"/>gligentia vel ignavia tot lapsi sint, vel
+          <lb ed="#Bb"/>non ? </quote> Si ergo ex negligentia vel 
+        igna<lb ed="#Bb" break="no"/>via habent demeritum, ex 
+        circumspe<lb ed="#Bb" break="no"/>clione et diligentia habebunt meritum :
+        <lb ed="#Bb"/>et sic ex custodia acerescit eis meritum
+        <lb ed="#Bb"/>et demeritum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3486">
+                  <lb ed="#Bb"/>2. Adhuc, Numer. xxv, 5, super illud :
+        <lb ed="#Bb"/>Initiatus est Israel Beelphegor : dicit
+        <lb ed="#Bb"/>Glossa, quod <quote xml:id="Almn78-d86325-Qd1e3494"> Angeli pro benefactis
+          <lb ed="#Bb"/>laudantur, et pro delictis culpantur. </quote> Ex
+        <lb ed="#Bb"/>hoc sequitur idem quod prius.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3502">
+                  <lb ed="#Bb"/>3. Adhuc, Hesychius super Leviti cum
+        <lb ed="#Bb"/>tractans illud Apostoli, I ad Corinth. v1, .
+        <lb ed="#Bb"/>3: Neseitis quoniam Angelos 
+        judicabi<lb ed="#Bb" break="no"/>mus, dicit sic: <quote xml:id="Almn78-d86325-Qd1e3512"> Erit inter homines et
+          <lb ed="#Bb"/>Angelos judicium : et forte Judicabuntur
+          <lb ed="#Bb"/>Angeli cum Paulo, et conferentur 
+          labo<lb ed="#Bb" break="no"/>ribus et fructibus ejus, et Paulus forte
+          <lb ed="#Bb"/>invenietur aliquibus Angelis fortior. </quote>
+                  <lb ed="#Bb"/>Ergo videtur, quod sicut Paulus, ita et
+        <lb ed="#Bb"/>Angelus proficit in merito.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3529">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>Post premium non est meritum nec
+        <lb ed="#Bb"/>status merendi: Angelus autem est in
+        <lb ed="#Bb"/>beatitudine, que premium est : ergo
+        <lb ed="#Bb"/>statum merendi vel demerendi non 
+        ha<lb ed="#Bb" break="no"/>bet.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3545">
+                  <lb ed="#Bb"/>Unierivs queritur, Si unus Angelus
+        <lb ed="#Bb"/>bonus custodiens gentem unam vel 
+        ho<lb ed="#Bb" break="no"/>minem unum, propter custodiam 
+        contra<lb ed="#Bb" break="no"/>dicit alii Angelo bono alium custodienti?
+      </p>
+               <p xml:id="Almn78-d86325-d1e3556">
+                  <pb ed="#Bb" n="402"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Et videtur, quod non: dicit enim 
+        Gre<lb ed="#Bb" break="no"/>gorius, quod sub Deo conformes habent
+        <lb ed="#Bb"/>voluntates Angeli. Ergo unus non 
+        con<lb ed="#Bb" break="no"/>tradicet alteri.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3572">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>1. Daniel. x, 13: Princeps Persarum
+        <lb ed="#Bb"/>restitit mihi viginti et uno diebus. Et dicit
+        <lb ed="#Bb"/>Gregorius, quod princeps Persarum fuit
+        <lb ed="#Bb"/>bonus Angelus ‘prepositus genti illi.
+        <lb ed="#Bb"/>Verba autem ista dixit Michael ad Daniel,
+        <lb ed="#Bb"/>qui etiam fuit bonus Angelus. Ergo in
+        <lb ed="#Bb"/>custodia unus bonus contradicit alii
+        <lb ed="#Bb"/>bono,
+      </p>
+               <p xml:id="Almn78-d86325-d1e3595">
+                  <lb ed="#Bb"/>2. Adhuc, Ibidem, ¥. 20 : Nune 
+        rever<lb ed="#Bb" break="no"/>tar ut prelier adversus principem 
+        Per<lb ed="#Bb" break="no"/>sarum, contradicentem scilicet tuis 
+        preci<lb ed="#Bb" break="no"/>bus et mee legationi. Ergo ‘Videtur,
+        <lb ed="#Bb"/>quod ex custodia in Angelis est 
+        contra<lb ed="#Bb" break="no"/>dictio et preelium.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3611">
+                  <lb ed="#Bb"/>Solutio. Dicendum ad primo 
+        quesi<lb ed="#Bb" break="no"/>tum, quod Angelis bonis non accidit
+        <lb ed="#Bb"/>gaudium et trisiitia, secundum quod 
+        sem<lb ed="#Bb" break="no"/>per suntin genere passionum : sunt enim
+        <lb ed="#Bb"/>confirmati in beatitudine, et spiritualis
+        <lb ed="#Bb"/>et intellectualis natura, qua passionibus
+        <lb ed="#Bb"/>subjacere non potest.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3629">
+                  <lb ed="#Bb"/>Ad id quod ulterius objicitur de 
+        Evan<lb ed="#Bb" break="no"/>gelio Luce, xv, 10, dicendum, quod
+        <lb ed="#Bb"/>licet Plato dixerit, quod et tristitia et 
+        lo<lb ed="#Bb" break="no"/>titia et hujusmodi passiones semper sint
+        <lb ed="#Bb"/>in genere passionum, et sint generationes
+        <lb ed="#Bb"/>sive actiones in sensibilem animam, 
+        se<lb ed="#Bb" break="no"/>cundum quod Aristoteles etiam in 
+        Pre<lb ed="#Bb" break="no"/>dicamentis passionem vel passibilem
+        <lb ed="#Bb"/>qualitatem dividit in inferentem et illa~
+        <lb ed="#Bb"/>tam, etin VIL Physicorum dicit 
+        secun<lb ed="#Bb" break="no"/>dum hanc solam qualitatis speciem esse
+        <lb ed="#Bb"/>alterationem : tamen in hoc Platoni non
+        <lb ed="#Bb"/>consensit Aristoteles et alii Peripatetic :
+        <lb ed="#Bb"/>sed dixerunt gaudium verum esse et 
+        de<lb ed="#Bb" break="no"/>lectationem veram in operatione proprii
+        <lb ed="#Bb"/>et connaturalis habitus non impedita. Et
+        <lb ed="#Bb"/>hoc apparet in X Ethicorum expresse, ubi
+        <lb ed="#Bb"/>hoc dicit Arisfoteles et probat. Et ibidem
+        <lb ed="#Bb"/>dicit Michael Ephesius, quod diffusio
+        <lb ed="#Bb"/>uniuscujusque nature et refloritio in
+        <lb ed="#Bb"/>operatione proprii et connaturalis 
+        habi<lb ed="#Bb" break="no"/>tus verum gaudium est et vera delecta
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>tio et jucunditas. Et ideo etiam 
+        Philoso<lb ed="#Bb" break="no"/>phus dicit in VII Ethicorum, quod cujus
+        <lb ed="#Bb"/>natura simplex est, una simplici. semper
+        <lb ed="#Bb"/>gaudet operatione, sicut Deus et 
+        Ange<lb ed="#Bb" break="no"/>lus.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3692">
+                  <lb ed="#Bb"/>Dicendum ergo, quod gaudium 
+        Ange<lb ed="#Bb" break="no"/>lorum dicitur diffusio nature angelice
+        <lb ed="#Bb"/>operatione, que sibi propria est 
+        secun<lb ed="#Bb" break="no"/>dum theophaniam et illuminationem 
+        de<lb ed="#Bb" break="no"/>scendentem a Deo in ipsum : et ideo
+        <lb ed="#Bb"/>dicuntur gaudere in conversione 
+        pecca<lb ed="#Bb" break="no"/>torum et profectibus bonorum : quia hoc
+        <lb ed="#Bb"/>per illuminationes descendit in eos. Sed
+        <lb ed="#Bb"/>tune non sequitur, si accidit eis tale 
+        gau<lb ed="#Bb" break="no"/>dium, quod accidat eis tristitia, eo quod
+        <lb ed="#Bb"/>opposita sunt nata fieri circa idem : quia
+        <lb ed="#Bb"/>sicut dicit Aristoteles in III Lthicorum,
+        <lb ed="#Bb"/>tale gaudium et talis delectalio, non 
+        ha<lb ed="#Bb" break="no"/>bent contrarium : quamvis gaudium et
+        <lb ed="#Bb"/>delectatio in genere passionum existentia,
+        <lb ed="#Bb"/>tristitiam habeant contrariam.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3729">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod illa verba
+        <lb ed="#Bb"/>Isaize litteraliter exponuntur de nunliis
+        <lb ed="#Bb"/>Ezechie missis ad Rabsacen, et ad alios
+        <lb ed="#Bb"/>duces regis Assyriorum, qui cum pacem
+        <lb ed="#Bb"/>quam quzrebant, non invenerunt in 
+        ip<lb ed="#Bb" break="no"/>sis, amare flebant. Allegorice autem 
+        ex<lb ed="#Bb" break="no"/>ponuatur de bonis Prelatis. qui quotidie
+        <lb ed="#Bb"/>flent pro excessibus subditorum. Anago~
+        <lb ed="#Bb"/>gice autem exponuntur de Angelis : et
+        <lb ed="#Bb"/>tune non possunt intelligi de tristitia et
+        <lb ed="#Bb"/>gaudio in passionibus : sed quia in 
+        cor<lb ed="#Bb" break="no"/>porali visione vel imaginaria ad modum
+        <lb ed="#Bb"/>gaudentium vel ad modum flentium se
+        <lb ed="#Bb"/>habeant, sicut narrat Hieronymus in 
+        vi<lb ed="#Bb" break="no"/>tis Patrum de quodam Angelo, qui
+        <lb ed="#Bb"/>quemdam monachum peccato 
+        consen<lb ed="#Bb" break="no"/>tientem sequebatur complosis manibus
+        <lb ed="#Bb"/>et flens : et postea cum conversus esset
+        <lb ed="#Bb"/>a peccato monachus, ambabus manibus
+        <lb ed="#Bb"/>excepit eum Angelus ridens et gaudens.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3775">
+                  <lb ed="#Bb"/>In quod in contrarium objicitur, proce- adv
+        <lb ed="#Bb"/>dit.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3783">
+                  <lb ed="#Bb"/>Av wm quod juxta hoc ulterius queri- 
+        <lb ed="#Bb" break="no"/>tur, dicendum quod Angelus prescitum
+        <lb ed="#Bb"/>custodiens, vult eum salvari.: quia hoc
+        <lb ed="#Bb"/>Deus vult eum velle : et in hoc 
+        confor<lb ed="#Bb" break="no"/>mat voluntatem suam voluntati divine,
+        <pb ed="#Bb" n="403"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>et ideo etiam custodiam non subtrahit.
+        <lb ed="#Bb"/>Et licet sciat eum esse damnandum, per
+        <lb ed="#Bb"/>custodiam tamen facit, quod minor est
+        <lb ed="#Bb"/>ejus damnatio, quo minus peccat, quam
+        <lb ed="#Bb"/>si non custodiretur. Finalem etiam 
+        vo<lb ed="#Bb" break="no"/>luntatem ejus sciens ad damnationem
+        <lb ed="#Bb"/>ejus, conformat voluntatem suam 
+        volun<lb ed="#Bb" break="no"/>tati divine. Non enim sunt opposita ista,
+        <lb ed="#Bb"/>aliquem velle salvari propter curam
+        <lb ed="#Bb"/>commissam, et eumdem velle damnari
+        <lb ed="#Bb"/>propter finalem sententiam divinam et
+        <lb ed="#Bb"/>propter finalem impcenitentiam.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3827">
+                  <lb ed="#Bb"/>Ao 1p quod ulterius queritur, Utrum
+        <lb ed="#Bb"/>eis accrescat meritum vel demeritum ?
+      </p>
+               <p xml:id="Almn78-d86325-d1e3834">
+                  <lb ed="#Bb"/>Dicendum, quod duplex est meritum,
+        <lb ed="#Bb"/>scilicet substantiale, et accidentale. 
+        Sub<lb ed="#Bb" break="no"/>stantiale consistit in visione Dei, et 
+        frui<lb ed="#Bb" break="no"/>tione quantum ad statum beatitudinis, in
+        <lb ed="#Bb"/>quantitate autem charitatis quantum ad
+        <lb ed="#Bb"/>virtutem merendi. Et hoc in Angelis 
+        bo<lb ed="#Bb" break="no"/>nis confirmatis non crescit, nec 
+        deerc<lb ed="#Bb" break="no"/>scit. Est etiam premium accidentale et
+        <lb ed="#Bb"/>meritum similiter : et hoc quantum ad
+        <lb ed="#Bb"/>premium est gaudere de multis bonis
+        <lb ed="#Bb"/>que fecit aliquis, vel de beatitudine 
+        mul<lb ed="#Bb" break="no"/>torum quos convertit et custodivit. Et
+        <lb ed="#Bb"/>hoc meritum continue crescit et 
+        decre<lb ed="#Bb" break="no"/>scit in quibusdam. Quo enim plura bona
+        <lb ed="#Bb"/>fecit quis plures custodiendo, eo in 
+        pluri<lb ed="#Bb" break="no"/>bus gaudebit et Angelus et homo : et
+        <lb ed="#Bb"/>quo pauciora fecit, eo etiam 
+        pauciori<lb ed="#Bb" break="no"/>bus gaudebit. Et hoc modo non est 
+        in<lb ed="#Bb" break="no"/>conveniens dicere, quod crescat in eis
+        <lb ed="#Bb"/>meritum ex custodia: et similiter 
+        acci<lb ed="#Bb" break="no"/>dentale premium hoc modo crescit. Sed
+        <lb ed="#Bb"/>tunc non est dicendum, quod ex negli~
+        <lb ed="#Bb"/>gentia decrescit : quia Angelus bonus
+        <lb ed="#Bb"/>numquam negligens est, quod faciat quod
+        <lb ed="#Bb"/>in se est.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3891">
+                  <lb ed="#Bb"/>Ad id quod objicitur primo in contra
+        <lb ed="#Bb"/>rium de Hesychio super Origenem, 
+        di<lb ed="#Bb" break="no"/>cendum quod loquitur ibi de judicio 
+        com<lb ed="#Bb" break="no"/>parationis, quo scilicet judicatur homo
+        <lb ed="#Bb"/>custoditus ab Angelo : et justus 
+        condem<lb ed="#Bb" break="no"/>natur quando invenitur, quod ex incuria
+        <lb ed="#Bb"/>vel negligentia Angelinon peceaverit, sed
+        <lb ed="#Bb"/>ex electione voluntatis proprie : et non
+        <lb ed="#Bb"/>loquitur de judicio quo judicetur Angelus, .
+      </p>
+               <p xml:id="Almn78-d86325-d1e3913">
+        
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Angeli pro
+        <lb ed="#Bb"/>beneficitis laudandi sunt boni : sed idem
+        <lb ed="#Bb"/>non possunt culpari de malefictis, quia
+        <lb ed="#Bb"/>nulla sunt. Sed hoc quod additur, quod
+        <lb ed="#Bb"/>pro maleficiis culpantur : intelligitur de
+        <lb ed="#Bb"/>malis Angelis qui persuaserunt populo,
+        <lb ed="#Bb"/>quod Beelphegor, hoc est, idolo 
+        tentigi<lb ed="#Bb" break="no"/>nis initiaretur.
+      </p>
+               <p xml:id="Almn78-d86325-d1e3935">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod sicut 
+        concor<lb ed="#Bb" break="no"/>diter dicunt Augustinus, Gregorius et
+        <lb ed="#Bb"/>Origenes, termini populorum in 
+        beatitu<lb ed="#Bb" break="no"/>dine statuti sunt secundum numeros 
+        An<lb ed="#Bb" break="no"/>gelorum, ut dicitur Deuter. xxxu, 8.
+        <lb ed="#Bb"/>Unde quidam sancti assumuntur in 
+        al<lb ed="#Bb" break="no"/>tiori hierarchia, quidam in media, 
+        qui<lb ed="#Bb" break="no"/>dam in infima. Et hoc modo Paulus
+        <lb ed="#Bb"/>quibusdam Angelis invenitur altior, quos
+        <lb ed="#Bb"/>transcendit in premio. Et similiter est
+        <lb ed="#Bb"/>in aliis sanctis, Sed sicut dicit 
+        Hierony<lb ed="#Bb" break="no"/>mus in sermone, Cogitis me, o Paula et
+        <lb ed="#Bb"/>Eustochium : <quote xml:id="Almn78-d86325-Qd1e3965"> De sola matre Domini
+          <lb ed="#Bb"/>credendum est, quod exaltata sit super
+          <lb ed="#Bb"/>omnes choros Angelorum ad ccelestia
+          <lb ed="#Bb"/>regna.</quote> Cujus causam reddit Anselmus
+        <lb ed="#Bb"/>in libro de Conceptu virginali dicens :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d86325-Qd1e3978">Decebat, ut ea puritate qua major sub
+          <lb ed="#Bb"/>Deo nequit intelligi, Virgo illa niteret,
+          <lb ed="#Bb"/>cui Deus Pater unicum Filium suum,
+          <lb ed="#Bb"/>quem de corde suo equalem sibi 
+          geni<lb ed="#Bb" break="no"/>tum, tamquam seipsum diligebat, ita
+          <lb ed="#Bb"/>dare disponebat, etc. </quote> Quia ergo 
+        puri<lb ed="#Bb" break="no"/>tate vite et meriti omnes puritates 
+        exces<lb ed="#Bb" break="no"/>sit Angelorum. justum fuit ut dignitate
+        <lb ed="#Bb"/>beatiludinis exaltaretur super omnes
+        <lb ed="#Bb"/>choros Angelorum.
+      </p>
+               <p xml:id="Almn78-d86325-d1e4002">
+                  <lb ed="#Bb"/>Ad id quod contra objicitur, dicendum
+        <lb ed="#Bb"/>quod intelligitur de premio substantiali,
+        <lb ed="#Bb"/>et non accidentali.
+      </p>
+               <p xml:id="Almn78-d86325-d1e4011">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+        dicen<lb ed="#Bb" break="no"/>dum quod nec contradictio, nec preelium
+        <lb ed="#Bb"/>est inter Angelos ex custodia. Non enim
+        <lb ed="#Bb"/>contradicunt ista, populum esse 
+        liberan<lb ed="#Bb" break="no"/>dum propter preces Danielis et aliorum
+        <lb ed="#Bb"/>Prophetarum, et populum non esse 
+        libe<lb ed="#Bb" break="no"/>randum ex eo, quod non adhuc 
+        sufficien<lb ed="#Bb" break="no"/>ter sit purgatus propter captivitatem :
+        <lb ed="#Bb"/>quod allegabat princeps Persarum contra
+        <lb ed="#Bb"/>Michaelem. Nec potest dici preelium,
+      </p>
+               <p xml:id="Almn78-d86325-d1e4035">
+                  <pb ed="#Bb" n="404"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>cum talia referantur ad summam 
+        volun<lb ed="#Bb" break="no"/>tatem Dei : et exspectatio sententie ejus
+        <lb ed="#Bb"/>concordia est que fit in Angelis. Et hoc
+        <lb ed="#Bb"/>est. quod dicitur, Job, xxv, 2 : Qui facit
+        <lb ed="#Bb"/>concordiam in sublimibus suis, scilicet
+        <lb ed="#Bb"/>principibus. Et hoc patet per verba 
+        Gre<lb ed="#Bb" break="no"/>gorii ibidem sic dicentis : <quote xml:id="Almn78-d86325-Qd1e4056"> Sublimes
+          <lb ed="#Bb"/>spiritus gentibus principantes, 
+          nequa<lb ed="#Bb" break="no"/>quam pro injusta agentibus decertant :
+          <lb ed="#Bb"/>sed eorum facta juste judicantes 
+          exami<lb ed="#Bb" break="no"/>nant, Cumque uniuscujusque gentis culpa
+          <lb ed="#Bb"/>vel justitia ad superne curie consilium
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>deducitur, ejusdem gentis prepositus vel
+          <lb ed="#Bb"/>obtinuisse in certamine vel non 
+          ob<lb ed="#Bb" break="no"/>tinuisse. perhibetur quorum tamen
+          <lb ed="#Bb"/>omnium una victoria est, sui super se
+          <lb ed="#Bb"/>opificis voluntas summa : quam dum
+          <lb ed="#Bb"/>semper adspiciunt, quod obtinere 
+          ne<lb ed="#Bb" break="no"/>queant, numquam volunt. Eosdem 
+          quo<lb ed="#Bb" break="no"/>que angelicos spiritus decertare contra
+          <lb ed="#Bb"/>potestates aereas non ignoramus. </quote> 
+        Re<lb ed="#Bb" break="no"/>cte ergo dicitur, quod Angeli contra se
+        <lb ed="#Bb"/>veniunt, quando subjectarum sibi 
+        gen<lb ed="#Bb" break="no"/>tium merita contradicunt.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

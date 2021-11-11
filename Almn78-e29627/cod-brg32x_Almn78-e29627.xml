@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 59</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 59</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="583"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e29627"><!-- p2t11q59 -->
+            <head xml:id="Almn78-e29627-Hd1e106">Quaestio 59</head>
+            <head xml:id="Almn78-e29627-Hd1e109" type="question-title">
+      De hoc quod dicit : 
+      Ut luceant in firmamento coeli, et illuminent
+      terram.
+    </head>
+            <p xml:id="Almn78-e29627-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LIX.
+      <lb ed="#Bb"/>De hoc quod dicit : Ut luceant in firmamento coeli, et illuminent
+      <lb ed="#Bb"/>terram.
+    </p>
+            <p xml:id="Almn78-e29627-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde queritur de hoc quod dicit,
+      <lb ed="#Bb"/>ibi, <quote xml:id="Almn78-e29627-Qd1e131"> Ut luceant in firmamento celi, et
+        <lb ed="#Bb"/>illuminent terram.</quote>
+            </p>
+            <p xml:id="Almn78-e29627-d1e137">
+               <lb ed="#Bb"/>1. Ante enim terra illuminata fuit :
+      <lb ed="#Bb"/>aliter enim lucem non vocasset diem, et
+      <lb ed="#Bb"/>tenebras noctem : et cum hoc opus 
+      fa<lb ed="#Bb" break="no"/>ctum fuerit in prima distinctionis die,
+      <lb ed="#Bb"/>videtur quod superflue ponatur in die
+      <lb ed="#Bb"/>quarto.
+    </p>
+            <p xml:id="Almn78-e29627-d1e154">
+               <lb ed="#Bb"/>2. Adhuc, Lux ponitur in opere 
+      di<lb ed="#Bb" break="no"/>stinctionis : et quod ad distinctionem
+      <lb ed="#Bb"/>pertinet, non pertinet ad ornatum : et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>ita videtur, quod hic non debet poni in
+      <lb ed="#Bb"/>opere ornatus. |
+    </p>
+            <p xml:id="Almn78-e29627-d1e170">
+               <lb ed="#Bb"/>3. Adhuc dicit, Ut luceant in 
+      firma<lb ed="#Bb" break="no"/>mento celi: et tamen constat, quod nec
+      <lb ed="#Bb"/>luna, nec sol sunt in firmamento : 
+      habi<lb ed="#Bb" break="no"/>tum enim est paulo ante ex verbis 
+      Au<lb ed="#Bb" break="no"/>gustini et Bede, quod firmamentum
+      <lb ed="#Bb"/>dicitur ceelum stellarum : et in illo nec
+      <lb ed="#Bb"/>est sol, nec luna.
+    </p>
+            <p xml:id="Almn78-e29627-d1e188">
+               <lb ed="#Bb"/>Utrerivs queritur de hoc quod dicit :
+      <lb ed="#Bb"/>Fecitque Deus duo luminaria magna :
+      <pb ed="#Bb" n="584"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>luminare majus, ut preesset diei', quod
+      <lb ed="#Bb"/>est sol : quia, sicut dicit Beda, non 
+      so<lb ed="#Bb" break="no"/>lum corporis forma et quantitate, sed
+      <lb ed="#Bb"/>etiam luminis magnitudine preesse 
+      dici<lb ed="#Bb" break="no"/>tur, quia luminare minus et stellas 
+      illu<lb ed="#Bb" break="no"/>strat. Et ideo, ut dicit Beda, etiam sol
+      <lb ed="#Bb"/>dicitur : quod solus obtusa luna 
+      stellis<lb ed="#Bb" break="no"/>que ceteris per diem fulgeat terris.
+    </p>
+            <p xml:id="Almn78-e29627-d1e217">
+               <lb ed="#Bb"/>1. Et secundum hoc videtur non
+      <lb ed="#Bb"/>fecisse duo luminaria et stellas, sed
+      <lb ed="#Bb"/>unum solum quod lumine suo facit 
+      lu<lb ed="#Bb" break="no"/>minare minus et stellas.
+    </p>
+            <p xml:id="Almn78-e29627-d1e228">
+               <lb ed="#Bb"/>2. Adhuc, Hoe videtur secundum 
+      no<lb ed="#Bb" break="no"/>minis intentionem : secundum 
+      gramma<lb ed="#Bb" break="no"/>ticam enim so/ dicitur quasi locus 
+      lu<lb ed="#Bb" break="no"/>cens: eo quod nihil lucet in ceelo, nisi
+      <lb ed="#Bb"/>sol, vel illustratum a sole.
+    </p>
+            <p xml:id="Almn78-e29627-d1e241">
+               <lb ed="#Bb"/>3. Adhuc, Aristoteles in Hl de 
+      Pro<lb ed="#Bb" break="no"/>prietatibus planetarum et elementorum,
+      <lb ed="#Bb"/>et Avicenna in Sufficientia celi et 
+      mun<lb ed="#Bb" break="no"/>di, expresse dicunt, quod nulla stella a
+      <lb ed="#Bb"/>se lucet, sed mutuaio lumine a sole. Et
+      <lb ed="#Bb"/>hoc idem dicit Messehallach in libro de
+      <lb ed="#Bb"/>Sphera mota.
+    </p>
+            <p xml:id="Almn78-e29627-d1e260">
+               <lb ed="#Bb"/>4, Adhuc, Videtur inconvenienter dict
+      <lb ed="#Bb"/>luna luminare magnum. Per 
+      observa<lb ed="#Bb" break="no"/>tiones enim astronomicas et geometricas
+      <lb ed="#Bb"/>deprehensum est, quod luna inter omnia
+      <lb ed="#Bb"/>corpora simplicia minor est. Unde cum
+      <lb ed="#Bb"/>umbra terre ascendendo a terra 
+      stringa<lb ed="#Bb" break="no"/>tur in conum, et ideo diametrum umbre
+      <lb ed="#Bb"/>in superiori suo minus sit et brevius
+      <lb ed="#Bb"/>diametro terre : tamen in eclipsi lune
+      <lb ed="#Bb"/>quando luna transit umbram terre, 
+      ali<lb ed="#Bb" break="no"/>quando, quando augmentum latitudinis
+      <lb ed="#Bb"/>est minus septem gradibus, invenitur
+      <lb ed="#Bb"/>diametrum umbre excedere diametrum
+      <lb ed="#Bb"/>lune octo punctis : et tunc luna apparet
+      <lb ed="#Bb"/>tota nigra, nec declinans ad virorem,
+      <lb ed="#Bb"/>nec ad rubedinem, ad quos colores 
+      cw<lb ed="#Bb" break="no"/>lum declinat in aliis eclipsibus. Ergo 
+      vi<lb ed="#Bb" break="no"/>detur inconvenienter dici luminare 
+      ma<lb ed="#Bb" break="no"/>gnum, sed deberet dici luminare parvum.
+    </p>
+            <p xml:id="Almn78-e29627-d1e304">
+               <lb ed="#Bb"/>Unrerivs queritur, Utrum luna sit
+      <lb ed="#Bb"/>facta plena ?
+    </p>
+            <p xml:id="Almn78-e29627-d1e311">
+               <lb ed="#Bb"/>Quam questionem ibidem in Glossa
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>longa marginali movet Beda, et dicit
+      <lb ed="#Bb"/>respondeudum esse, quod quotacumque
+      <lb ed="#Bb"/>facta fuerit, Deum perfectam eam fecisse
+      <lb ed="#Bb"/>et plenam dicendum est : quia, ut ait,
+      <lb ed="#Bb"/>non decebat Deum illa die aliquod 
+      im<lb ed="#Bb" break="no"/>perfectum facere. Et subdit aliam 
+      alio<lb ed="#Bb" break="no"/>rum responsionem : <quote xml:id="Almn78-e29627-Qd1e332"> Alii dicunt, quod
+        <lb ed="#Bb"/>debuit luna prima fieri, non 
+        quartade<lb ed="#Bb" break="no"/>cima: quia nemo sic incipit numerare
+        <lb ed="#Bb"/>etatem lune, ut incipiat a quartadecima.
+        <lb ed="#Bb"/>Non tamen si fecerit primam et 
+        imper<lb ed="#Bb" break="no"/>fectam in lumine, est dicendum fecisse
+        <lb ed="#Bb"/>Deum aliquid imperfectum : quia quod
+        <lb ed="#Bb"/>inchoatum est ab illo, non ab alio, sed
+        <lb ed="#Bb"/>ab eodem perfectum est per continuum
+        <lb ed="#Bb"/>luminis incrementum </quote>. Deinde subdit
+      <lb ed="#Bb"/>rationem qua probatur, quod perfectam
+      <lb ed="#Bb"/>et plenam fecit lunam dicens, quod 
+      Sep<lb ed="#Bb" break="no"/>tuaginta ubi nos habemus: Luminare
+      <lb ed="#Bb"/>minus ut preesset nocti, sic habent:
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e29627-Qd1e365">Fecit lunam in inchoatione noctis : </quote>
+               <lb ed="#Bb"/>quod fit cum plena est : tunc enim noctis
+      <lb ed="#Bb"/>exordio videtur: alias vero et per diem
+      <lb ed="#Bb"/>incipit videri ante plenitudinem et in
+      <lb ed="#Bb"/>progressu noctis. Et est ratio Beda,
+      <lb ed="#Bb"/>quod inchoalio noctis est in occasu solis :
+      <lb ed="#Bb"/>et tunc luna in dominium totius noctis
+      <lb ed="#Bb"/>et ut toti nocti presit non nisi in 
+      oppo<lb ed="#Bb" break="no"/>sito solis, hoc est, in Oriente potest
+      <lb ed="#Bb"/>oriri : et tunc fulget per totam noctem et
+      <lb ed="#Bb"/>diametraliter opponitur soli, et est 
+      ple<lb ed="#Bb" break="no"/>na: et sic probat, quod plenam et 
+      per<lb ed="#Bb" break="no"/>fectam lunam fecit Deus.
+    </p>
+            <p xml:id="Almn78-e29627-d1e395">
+               <lb ed="#Bb"/>Apnvc ulterius queritur de hoc quod
+      <lb ed="#Bb"/>dicit stellas.
+    </p>
+            <p xml:id="Almn78-e29627-d1e402">
+               <lb ed="#Bb"/>Dicit enim Ambrosius, quod stellis
+      <lb ed="#Bb"/>ardentibus continue volvitur orbis: et
+      <lb ed="#Bb"/>est hoc dictum in libro 1 Hexameron, et
+      <lb ed="#Bb"/>idem dicit Basilius, et idem Augustinus.
+      <lb ed="#Bb"/>Male ergo dicuntur sfe/le: quia 
+      num<lb ed="#Bb" break="no"/>quam stant, sed continue volvuntur.
+    </p>
+            <p xml:id="Almn78-e29627-d1e418">
+               <lb ed="#Bb"/>Quazrrrur etiam de Glossa ibidem 
+      in<lb ed="#Bb" break="no"/>terlineari super illud : At posuit eas in
+      <lb ed="#Bb"/>firmamento celi?: Glossa, <quote xml:id="Almn78-e29627-Qd1e426"> Ad 
+        deco<lb ed="#Bb" break="no"/>rem noctis. </quote>
+            </p>
+            <p xml:id="Almn78-e29627-d1e433">
+               <pb ed="#Bb" n="585"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>1. Non enim in firmamento cei 
+      tan<lb ed="#Bb" break="no"/>tum ponuntur de nocte, sed eliam de
+      <lb ed="#Bb"/>die: non ergo tantum sunt ad decorem
+      <lb ed="#Bb"/>noctis, sed etiam. ad decorem diei.
+    </p>
+            <p xml:id="Almn78-e29627-d1e449">
+               <lb ed="#Bb"/>2. Adhuc, Venus multoties in meridie
+      <lb ed="#Bb"/>videtur juxta solem : ergo tunc lucet ad
+      <lb ed="#Bb"/>decorem diei et non noctis.
+    </p>
+            <p xml:id="Almn78-e29627-d1e458">
+               <lb ed="#Bb"/>Uxtertus queritur de hoc quod dicit :
+      <lb ed="#Bb"/>Et dividerent lucem a tenebris '.
+    </p>
+            <p xml:id="Almn78-e29627-d1e465">
+               <lb ed="#Bb"/>Hoc enim superfluum videtur esse,
+      <lb ed="#Bb"/>cum hoc factum sit in prima die in
+      <lb ed="#Bb"/>opere distinctionis.
+    </p>
+            <p xml:id="Almn78-e29627-d1e474">
+               <lb ed="#Bb"/>Ulterivs queritur de hoc quod dicit :
+      <lb ed="#Bb"/>Et vidit Deus quod esset bonum?: et
+      <lb ed="#Bb"/>ulterius non protendit benedictionem,
+      <lb ed="#Bb"/>cum in sequentibus ubi tang-t 
+      orna<lb ed="#Bb" break="no"/>tum aeris, aque, et terre, benedizit
+      <lb ed="#Bb"/>eis dicens : Crescite, et 
+      multiplicami<lb ed="#Bb" break="no"/>ni &gt;,
+    </p>
+            <p xml:id="Almn78-e29627-d1e492">
+               <lb ed="#Bb"/>Dignioris enim corporis ornatus 
+      di<lb ed="#Bb" break="no"/>gniorem debuit habere benedictionem,
+      <lb ed="#Bb"/>maxime secundum eos qui lunam dicunt
+      <lb ed="#Bb"/>imperfectam esse crealam et primam:
+      <lb ed="#Bb"/>illienim competit benedictio ut crescat
+      <lb ed="#Bb"/>et multiplicetur.
+    </p>
+            <p xml:id="Almn78-e29627-d1e509">
+               <lb ed="#Bb"/>Solutio. Dicendum ad primum, quod
+      <lb ed="#Bb"/>licet lux facta sit prima die que 
+      illumi<lb ed="#Bb" break="no"/>naret illud chaos, in cujus medio 
+      resi<lb ed="#Bb" break="no"/>debat natura terree, tamen illa lux 
+      suffi<lb ed="#Bb" break="no"/>ciens non fuit, ut in prebabitis 
+      determi<lb ed="#Bb" break="no"/>natum est. Nec terra distincta et arefacta
+      <lb ed="#Bb"/>reflectere potuit radios illuminantis se
+      <lb ed="#Bb"/>in suscitationem caloris nalivi. Et ideo,
+      <lb ed="#Bb"/>ut dicit Augustinus contra Manicheum,
+      <lb ed="#Bb"/>necesse fuit ut luminaria in ornatu ceeli
+      <lb ed="#Bb"/>ponerentur et crearentur, per que 
+      suffi<lb ed="#Bb" break="no"/>cienter terra illuminaretur, et dies lucida
+      <lb ed="#Bb"/>et calida a tenebris noctis frigidis et 
+      ob<lb ed="#Bb" break="no"/>scuris divideretur. Et hoc confirmatur ex
+      <lb ed="#Bb"/>dicto Bedw in Glossa sic dicentis : <quote xml:id="Almn78-e29627-Qd1e543"> Sol
+        <lb ed="#Bb"/>dicitur majus luminare, non solum 
+        lu<lb ed="#Bb" break="no"/>minis magnitudine, sed etiam major est
+        <lb ed="#Bb"/>in calore quo mundum calefacit, cum
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>preteritis ante creationem ejus diebus
+        <lb ed="#Bb"/>nec caloris dies habuisset. </quote>
+            </p>
+            <p xml:id="Almn78-e29627-d1e560">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod nihil 
+      pro<lb ed="#Bb" break="no"/>hibet aliquod unum et idem opus 
+      secun<lb ed="#Bb" break="no"/>dum diversas sui proprietates et formas
+      <lb ed="#Bb"/>pertinere ad opus distinctionis, et ad
+      <lb ed="#Bb"/>opus ornatus. Si enim divisio lucis a
+      <lb ed="#Bb"/>tenebris in separatione opaci et 
+      lumino<lb ed="#Bb" break="no"/>si consideretur, sicut distinctum est 
+      su<lb ed="#Bb" break="no"/>premum ab infimo, pertinet ad distin~
+      <lb ed="#Bb"/>ctionem. Si autem perfectio lucis 
+      consi<lb ed="#Bb" break="no"/>deretur secundum motum et effectum
+      <lb ed="#Bb"/>quem habet in plenitudine lucis et 
+      pul<lb ed="#Bb" break="no"/>chritudine, sicut dicitur, Eccli. xum, 2:
+      <lb ed="#Bb"/>Sol in adspectu annuntians in exitu,
+      <lb ed="#Bb"/>vas admirabile opus Excelsi. Et de 
+      ca<lb ed="#Bb" break="no"/>lore ejus, ibidem dicitur, y. 3: In 
+      meri<lb ed="#Bb" break="no"/>diano erurit terram,... fornacem 
+      custo<lb ed="#Bb" break="no"/>diens in operibus ardoris. Et paulo post,
+      <lb ed="#Bb"/>y. 4: Tripliciter sol exurens montes,
+      <lb ed="#Bb"/>radios igneos exsufflans. Propter quod
+      <lb ed="#Bb"/>etiam Palladius in libro de Agricultura,
+      <lb ed="#Bb"/>plantandas dicit esse vineas in montibus
+      <lb ed="#Bb"/>ad oculum solis meridianum. Sic ergo
+      <lb ed="#Bb"/>considerando luminaria et lumen eorum,
+      <lb ed="#Bb"/>nihil prohibet ea pertinere ad ornatum.
+    </p>
+            <p xml:id="Almn78-e29627-d1e615">
+               <lb ed="#Bb"/>Ad aliud dicendum, sicut in 
+      prehabi<lb ed="#Bb" break="no"/>tis dictum est, quod frmamentum 
+      dici<lb ed="#Bb" break="no"/>tur duobus modis, communiter scilicet,
+      <lb ed="#Bb"/>et proprie. Et communiter a firmitate et
+      <lb ed="#Bb"/>incorruptibilitate nature dicitur 
+      firma<lb ed="#Bb" break="no"/>mentum: et sic totum quod est supra
+      <lb ed="#Bb"/>ignem sursum per decem ccelos uque ad
+      <lb ed="#Bb"/>empyreum, dicitur firmamentum. Et
+      <lb ed="#Bb"/>tune cum dicitur: Posuit eas in 
+      firma<lb ed="#Bb" break="no"/>mento celi: inter ablativum cum sua
+      <lb ed="#Bb"/>prepositione, et genitivum est 
+      intran<lb ed="#Bb" break="no"/>sitiva constructio : et est sensus : Posuit
+      <lb ed="#Bb"/>eas in firmamento celi, hoc est, 
+      firma<lb ed="#Bb" break="no"/>mentum quod est celum. Firmamentum
+      <lb ed="#Bb"/>autem proprie dictum quod firmiter slat
+      <lb ed="#Bb"/>inter aquas, est ccelum stellatum, in quo
+      <lb ed="#Bb"/>nec luna, nec sol sunt.
+    </p>
+            <p xml:id="Almn78-e29627-d1e654">
+               <lb ed="#Bb"/>Ad id quod ulterius quaeritur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod licet sol illustret lunam et
+      <pb ed="#Bb" n="586"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>stellas, et solus dicatur lucere, sicut 
+      di<lb ed="#Bb" break="no"/>cunt Aristoteles, Ptolemaus, Avicenna,
+      <lb ed="#Bb"/>et alii Philosophi: tamen quia luna et
+      <lb ed="#Bb"/>stelle mutuatum lumen a sole recipiunt
+      <lb ed="#Bb"/>imtrinsecus sii sicut vasa luminis, et
+      <lb ed="#Bb"/>continent ipsum, et propter hoc 
+      efficiun<lb ed="#Bb" break="no"/>tur imagines solis per lumen acceptum :
+      <lb ed="#Bb"/>ideo dicuntur duminaria lucentia super
+      <lb ed="#Bb"/>terram.
+    </p>
+            <p xml:id="Almn78-e29627-d1e685">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod sol dicitur
+      <lb ed="#Bb"/>quasi solus lucens, quia solus a se habet
+      <lb ed="#Bb"/>lumen : nihilominus tamen et stelle
+      <lb ed="#Bb"/>et luna luminaria sunt mutuato  
+      lu<lb ed="#Bb" break="no"/>mine.
+    </p>
+            <p xml:id="Almn78-e29627-d1e698">
+               <lb ed="#Bb"/>Ad aliud dicendum per idem quod 
+      di<lb ed="#Bb" break="no"/>ctum est: quia hoc attendentes 
+      Philo<lb ed="#Bb" break="no"/>sophi, quod solus a se habet lumen, 
+      di<lb ed="#Bb" break="no"/>xerunt solem solum lucere.
+    </p>
+            <p xml:id="Almn78-e29627-d1e710">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod luna dicitur
+      <lb ed="#Bb"/>luminare magnum, non a quantitate
+      <lb ed="#Bb"/>corporis, cum quantitas corporis minor
+      <lb ed="#Bb"/>sit omnibus corporibus simplicibus, ut
+      <lb ed="#Bb"/>probat objectio: sed a quantitate 
+      lumi<lb ed="#Bb" break="no"/>nis dicitur uminare magnum, quia plus
+      <lb ed="#Bb"/>illuminat ceteris stellis, et projicit 
+      um<lb ed="#Bb" break="no"/>bram objectu corporis sicut lumen solis :
+      <lb ed="#Bb"/>hoc enim non faciunt, nisi tria corpora
+      <lb ed="#Bb"/>celestia, ut dicit Albategni, scilicet Sol,
+      <lb ed="#Bb"/>Luna, Mercurius, qui et hesperus dicitur
+      <lb ed="#Bb"/>et lucifer.
+    </p>
+            <p xml:id="Almn78-e29627-d1e739">
+               <lb ed="#Bb"/>Et si objicitur Bede, quod ad visum
+      <lb ed="#Bb"/>in celo luna videtur tante quantitatis,
+      <lb ed="#Bb"/>quanta est sol. Solvit sic dicens : <quote xml:id="Almn78-e29627-Qd1e747"> Quod
+        <lb ed="#Bb"/>autem equalis uniusque magnitudinis
+        <lb ed="#Bb"/>luna cum sole cernitur, hinc esse aiunt
+        <lb ed="#Bb"/>Philosophi, quia sol multo longinquior
+        <lb ed="#Bb"/>a terris atque altior, quam luna incedit.
+        <lb ed="#Bb"/>Ideoque magnitudo solis a nobis non
+        <lb ed="#Bb"/>potest dignosci. Omnia enim longius
+        <lb ed="#Bb"/>posita videntur breviora. </quote>
+            </p>
+            <p xml:id="Almn78-e29627-d1e766">
+               <lb ed="#Bb"/>Ad aliud dicendum, secundum 
+      Be<lb ed="#Bb" break="no"/>dam et Damascenum, quod lunam fecit
+      <lb ed="#Bb"/>plenam qua navoéAnvos dicitur Grace. Et
+      <lb ed="#Bb"/>propter hoc dicunt, quod cum sol quarto
+      <lb ed="#Bb"/>die factus sit, luna autem ut 
+      quartade<lb ed="#Bb" break="no"/>cima, necesse est, quod in computo
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>ecclesiastico annus lunaris excedat 
+      an<lb ed="#Bb" break="no"/>num solarem undecim diebus, tribus
+      <lb ed="#Bb"/>scilicet ante quartum, et octo qui 
+      addun<lb ed="#Bb" break="no"/>tur lune per continuum incrementum
+      <lb ed="#Bb"/>usque ad lune impletionem. Et ideo
+      <lb ed="#Bb"/>dicendum, quod ratio satis bona est
+      <lb ed="#Bb"/>pro opinione Bede : tamen Augustinus
+      <lb ed="#Bb"/>dicit, quod cum dicunt in inchoatione
+      <lb ed="#Bb"/>noctis, inchoatio ponitur pro principatu,
+      <lb ed="#Bb"/>hocest, ut principetur nocti: ita enim dicit
+      <lb ed="#Bb"/>in Glossa in libro contra Manicheum.
+      <lb ed="#Bb"/>Illi autem qui dicunt, quod fecit eam
+      <lb ed="#Bb"/>imperfectam, intentionem suam probant
+      <lb ed="#Bb"/>per idem, ut dicit Magister in HMistorivs.
+      <lb ed="#Bb"/>In initio enim noctis non apparet nisi
+      <lb ed="#Bb"/>prima et corniculata ut novacula : sed
+      <lb ed="#Bb"/>cum Dei perfecta sunt opera’, et nihil
+      <lb ed="#Bb"/>facit imperfectum, fecit eam in 
+      semicir<lb ed="#Bb" break="no"/>culo, in quo paulatim recedens a sole a
+      <lb ed="#Bb"/>figura novacule efficitur dicotomos :
+      <lb ed="#Bb"/>post hoc est dimidia in augmento, deinde
+      <lb ed="#Bb"/>amphitricos in augmento, et deinde
+      <lb ed="#Bb"/>pansilenos : et iterum accedens ad solem
+      <lb ed="#Bb"/>in opposito semicirculo, efficitur 
+      amphi<lb ed="#Bb" break="no"/>tricos in diminutione, et dicotomos 
+      se<lb ed="#Bb" break="no"/>cundo : deinde iterum renovata a sole
+      <lb ed="#Bb"/>novacularis.
+    </p>
+            <p xml:id="Almn78-e29627-d1e842">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod stelle non 44 quest,
+      <lb ed="#Bb"/>dicuntur stedlz quin continue volvantur
+      <lb ed="#Bb"/>motu diurno, qui est motus primi 
+      mo<lb ed="#Bb" break="no"/>bilis, quem aplanes Plato vocavit : sed
+      <lb ed="#Bb"/>dicuntur stelle, quia imagines et 
+      ordi<lb ed="#Bb" break="no"/>nem in quo posite sunt, non mutant
+      <lb ed="#Bb"/>sicut faciunt planeta, qui aliquando
+      <lb ed="#Bb"/>exaltantur, et aliquando deprimuntur.
+      <lb ed="#Bb"/>Aliquando in cursu diriguntur, et 
+      ali<lb ed="#Bb" break="no"/>quando retrocedunt. Horum enim nihil
+      <lb ed="#Bb"/>fit in stellis fixis in firmamento. Et 
+      prop<lb ed="#Bb" break="no"/>ter hoc stediz dicuntur, quia motu 
+      pro<lb ed="#Bb" break="no"/>prio nihil horum que dicta sunt, fit in
+      <lb ed="#Bb"/>eis sicut in planetis.
+    </p>
+            <p xml:id="Almn78-e29627-d1e875">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod luna et
+      <lb ed="#Bb"/>stelle et die et nocte lucent in 
+      firmamen<lb ed="#Bb" break="no"/>to : sed quia de die magno lumine solis
+      <lb ed="#Bb"/>tegitur lumen lune et stellarum, de die
+      <pb ed="#Bb" n="587"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>non perpenditur : de nocte autem 
+      quan<lb ed="#Bb" break="no"/>do liberum est et illuminat tenebras
+      <lb ed="#Bb"/>noctis, tune decor ejus perpendilur, et
+      <lb ed="#Bb"/>usus luminis habetur : et ideo 
+      dicun<lb ed="#Bb" break="no"/>tur esse in decorem noctis, et non in 
+      de<lb ed="#Bb" break="no"/>corem diei.
+    </p>
+            <p xml:id="Almn78-e29627-d1e904">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod Venus et
+      <lb ed="#Bb"/>Mercurius perfecta distantia numquam
+      <lb ed="#Bb"/>recedunt a sole. Perfectam autem 
+      distan<lb ed="#Bb" break="no"/>tiam voco distantiam ad totum 
+      diame<lb ed="#Bb" break="no"/>trum per semicirculum. Et ideo ‘
+      aliquan<lb ed="#Bb" break="no"/>do in meridie quando lumen solis
+      <lb ed="#Bb"/>procedit super Orientem, et non procedit
+      <lb ed="#Bb"/>sursum ad tegendas stellas, videntur
+      <lb ed="#Bb"/>stare juxta solem : tamen quia lumen
+      <lb ed="#Bb"/>diei non augent, sed mitigant tenebras
+      <lb ed="#Bb"/>noctis quando in nocte apparent, 
+      prop<lb ed="#Bb" break="no"/>ter hoc dicuntur esse ad decorem noctis,
+      <lb ed="#Bb"/>et non ad decorem diei : et dicuntur
+      <lb ed="#Bb"/>esse in firmamento, prout firmamentum
+      <lb ed="#Bb"/>communilter dicitur quinta essentia. 
+      Pos<lb ed="#Bb" break="no"/>set tamen dici, quod sicut astronomice
+      <lb ed="#Bb"/>loquendo sol dicitur esse in signo,
+      <lb ed="#Bb"/>quando est sub signo zodiaci : ita stelle
+      <lb ed="#Bb"/>que planete dicuntur, dicuntur esse in
+      <lb ed="#Bb"/>firmamento, quia sunt sub firmamento
+      <lb ed="#Bb"/>et sub signis ejus.
+    </p>
+            <p xml:id="Almn78-e29627-d1e953">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod prima die lux a tenebris 
+      di<lb ed="#Bb" break="no"/>visa est in causa imperfecta: : sed quarta
+      <lb ed="#Bb"/>die per luminaria perfecta in forma et in
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>figura, qué actu proprio faciunt lucem
+      <lb ed="#Bb"/>et repellunt tenebras, facta est divisio :
+      <lb ed="#Bb"/>et ideo ista pertinent ad ornatum, et illa
+      <lb ed="#Bb"/>ad divisionem.
+    </p>
+            <p xml:id="Almn78-e29627-d1e975">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod in illis
+      <lb ed="#Bb"/>ornatibus in quibus vis sementiva non
+      <lb ed="#Bb"/>est in elementis, sed in substantiis 
+      par<lb ed="#Bb" break="no"/>ticularibus in specie determinatis, 
+      com<lb ed="#Bb" break="no"/>petit benedictio protensa qua dicitur :
+      <lb ed="#Bb"/>Crescite, et multiplicamini. Quia sicut
+      <lb ed="#Bb"/>illa per se ad esse prodire non poterant,
+      <lb ed="#Bb"/>sed virtute creationis : ita perseverare
+      <lb ed="#Bb"/>in esse et propagare ad multiplicationem
+      <lb ed="#Bb"/>non poterant esse, nisi jussu creatoris
+      <lb ed="#Bb"/>virtutem acciperent. Sic autem non est
+      <lb ed="#Bb"/>in ceelo et ornatu ejus : quia quodlibet
+      <lb ed="#Bb"/>corporum ceelestium est ex materia sua
+      <lb ed="#Bb"/>tota, ut dicit Aristoteles : et ideo 
+      propa<lb ed="#Bb" break="no"/>gatio nulla potuit esse in eis. Propter
+      <lb ed="#Bb"/>quod non subditur, nisi quod vidit ea,
+      <lb ed="#Bb"/>quod essent bona, hoc est, lumine suze
+      <lb ed="#Bb"/>bonitatis et placentie perfudit, ut 
+      mane<lb ed="#Bb" break="no"/>rent in esse, et conservarentur que ab
+      <lb ed="#Bb"/>eterno in dispositione sapientie 
+      facien<lb ed="#Bb" break="no"/>da vidit, et per actum creationis ad
+      <lb ed="#Bb"/>esse deduxit : et ideo tali opere  
+      per<lb ed="#Bb" break="no"/>fecto in ccelo, statim subditur : Factum
+      <lb ed="#Bb"/>est vespere et mane, dies quartus' :
+      <lb ed="#Bb"/>quod in prehabitis et secundum 
+      opinio<lb ed="#Bb" break="no"/>nem Augustini et secundum opinionem
+      <lb ed="#Bb"/>aliorum Sanctorum satis expositum est.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

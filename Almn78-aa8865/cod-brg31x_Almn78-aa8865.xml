@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="45"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa8865"><!-- p1t2q11 -->
+            <head xml:id="Almn78-aa8865-Hd1e106">Quaestio 11</head>
+            <head xml:id="Almn78-aa8865-Hd1e109" type="question-title">Utrum omnibus quae sunt in mundo utendum sit</head>
+            <p xml:id="Almn78-aa8865-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XI.
+<lb ed="#Ba"/>Utrum omnibus quae sunt in mundo utendum sit?
+</p>
+            <p xml:id="Almn78-aa8865-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur de utili, Utrum 
+omni<lb ed="#Ba" break="no"/>bus que sunt in mundo, utendum est ?
+<lb ed="#Ba"/>sicut dicit Augustinus in libro de 
+Doc<lb ed="#Ba" break="no"/>trina Christiana, quod <quote xml:id="Almn78-aa8865-Qd1e134"> utendum est
+<lb ed="#Ba"/>hoc mundo, non fruendum, ut invisibilia
+<lb ed="#Ba"/>Dei per ea que facta sunt, intellecta
+<lb ed="#Ba"/>conspiciantur . </quote> Et ibidem:<quote xml:id="Almn78-aa8865-Qd1e143"> In 
+om<lb ed="#Ba" break="no"/>nibus rebus ille tantum sunt quibus
+<lb ed="#Ba"/>fruendum est, que #terne et 
+incommu<lb ed="#Ba" break="no"/>tabiles sunt : ceteris autem utendum
+<lb ed="#Ba"/>est, ut ad illarum perfruitionem 
+perve<lb ed="#Ba" break="no"/>niatur ?. </quote> Omnibus ergo operibus 
+natu<lb ed="#Ba" break="no"/>re, grativ, et gloria, utendum est, et
+<lb ed="#Ba"/>non fruendum.
+</p>
+            <p xml:id="Almn78-aa8865-d1e161">
+               <lb ed="#Ba"/>Contra hoc est, quod
+<lb ed="#Ba"/>1. Uti perficitur ab opere nostro. Non
+<lb ed="#Ba"/>autem omnes res nature, gratia, et
+<lb ed="#Ba"/>glorie, subjacent operi nostro : non
+<lb ed="#Ba"/>enim sunt operabiles per nos: non ergo
+<lb ed="#Ba"/>omnes res mundi subjacent ei quod est uti.
+</p>
+            <p xml:id="Almn78-aa8865-d1e178">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>2. Adhuc, Quedam creature videntur
+<lb ed="#Ba"/>contrariari usui. Sapient. xiv, 14: 
+Crea<lb ed="#Ba" break="no"/>ture Dei in odium factae sunt, et in 
+ten<lb ed="#Ba" break="no"/>tationem animabus hominum, et in 
+mu<lb ed="#Ba" break="no"/>scipulam pedibus insipientium. 
+Creatu<lb ed="#Ba" break="no"/>re ergo quedam impediunt usum.
+</p>
+            <p xml:id="Almn78-aa8865-d1e196">
+               <lb ed="#Ba"/>3. Adhuc, Omnis actus voluntatis
+<lb ed="#Ba"/>creatura est : referendus est ergo ad aliud
+<lb ed="#Ba"/>obtinendum quo fruendum est. Aut ergo
+<lb ed="#Ba"/>referibilis est, et refertur : et tunc 
+me<lb ed="#Ba" break="no"/>ritorius est. Aut nec referibilis, nec 
+re<lb ed="#Ba" break="no"/>fertur : et tunc peccatum mortale est :
+<lb ed="#Ba"/>quia quo aliquis non utitur, illo fruitur
+<lb ed="#Ba"/>si diligit illud, ut dicit Augustinus. Aliter
+<lb ed="#Ba"/>enim non diligeret illud. Et sic sequitur,
+<lb ed="#Ba"/>quod nullus actus voluntatis sit 
+ve<lb ed="#Ba" break="no"/>niale vel indifferens, quod est 
+inconve<lb ed="#Ba" break="no"/>niens.
+</p>
+            <p xml:id="Almn78-aa8865-d1e225">
+               <lb ed="#Ba"/>4, Adhuc, I ad Corinth. x, 31: Sive
+<lb ed="#Ba"/>manducatis, sive bibitis, sive aliud quid
+<pb ed="#Ba" n="46"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>facitis, omnia in gloriam Det facite.
+<lb ed="#Ba"/>Hoc est preceptum : omnia ergo 
+refe<lb ed="#Ba" break="no"/>renda sunt ad gloriam Dei: si non 
+refe<lb ed="#Ba" break="no"/>rantur, abusus est. Abusus autem et
+<lb ed="#Ba"/>perversitas humane vite peccatum est :
+<lb ed="#Ba"/>peccatum est ergo quidquid de creaturis
+<lb ed="#Ba"/>ad gloriam Dei non'refertur quod in
+<lb ed="#Ba"/>usum venit. Si enim diligitur, ut dicit
+<lb ed="#Ba"/>Augustinus, aut diligitur dilectione 
+frui<lb ed="#Ba" break="no"/>tionis, aut usus. Si diligitur dilectione
+<lb ed="#Ba"/>fruitionis, perversitas est. Si autem non
+<lb ed="#Ba"/>refertur, abusus est, et sic semper 
+pec<lb ed="#Ba" break="no"/>catum est.
+</p>
+            <p xml:id="Almn78-aa8865-d1e264">
+               <lb ed="#Ba"/>Soxutio. Dicendum, quod omni 
+crea<lb ed="#Ba" break="no"/>tura utendum est, dummodo sit 
+simplici<lb ed="#Ba" break="no"/>ter creatura terminus actus creationis, et
+<lb ed="#Ba"/>non sit peccato depravata, per quod usui
+<lb ed="#Ba"/>contrariatur, sicut diabolus, et peccatum
+<lb ed="#Ba"/>secundum quod peccatum in actu vel
+<lb ed="#Ba"/>habitu consistit, dicunt ens vitio 
+depra<lb ed="#Ba" break="no"/>vatum : que depravatio repugnat usui,
+<lb ed="#Ba"/>In nulla enim creatura finis dilectionis
+<lb ed="#Ba"/>ponendus est : eo quod finis non est, sed
+<lb ed="#Ba"/>vanitati subjecta. Ad Roman. vin, 20 :
+<lb ed="#Ba"/>Vanitati creatura subjecta est. Unde in
+<lb ed="#Ba"/>quantum tali depravationi subjacet, quae
+<lb ed="#Ba"/>est peccatum, ad summum bonum 
+ob<lb ed="#Ba" break="no"/>tinendum referri non potest : et ideo hoc
+<lb ed="#Ba"/>modo utendum non est creatura. Per
+<lb ed="#Ba"/>accidens et ex casu tamen uti quis potest
+<lb ed="#Ba"/>peceato vel diabolo in quantum per 
+pe<lb ed="#Ba" break="no"/>nitentiam peccatum ad memoriam 
+revo<lb ed="#Ba" break="no"/>catum, acutiorem facit compunctionem,
+<lb ed="#Ba"/>et diabolus vel tyrannus affligens auget
+<lb ed="#Ba"/>patientia meritum, ef eminere facit 
+vir<lb ed="#Ba" break="no"/>tutem ad majoris meriti coronam. De
+<lb ed="#Ba"/>primo, ad Roman. vu, 28 : Scimus
+<lb ed="#Ba"/>guoniam diligentibus Deum omnia 
+coo<lb ed="#Ba" break="no"/>nerantur in bonum. Glossa : Etiam
+<lb ed="#Ba"/>peccatum. De secundo, Jacob. 1, 12:
+<lb ed="#Ba"/>Beatus vir qui suffert tentationem, 
+quo<lb ed="#Ba" break="no"/>niam cum probatus fuertt, accipiet 
+coro<lb ed="#Ba" break="no"/>nam vite. Beatus Bernardus, Serm. 17
+<lb ed="#Ba"/>super Cantica : <quote xml:id="Almn78-aa8865-Qd1e333"> Jucundum judicium,
+<lb ed="#Ba"/>ut superbus ille humilium malleator,
+<lb ed="#Ba"/>eisdem ipsis nesciens fabricet coronas
+<lb ed="#Ba"/>perpetuas, impugnando omnes et 
+omni<lb ed="#Ba" break="no"/>bus succumbendo, </quote>
+  
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Ad primum ergo dicendum, quod licet
+<lb ed="#Ba"/>quedam creature mundi operibus nostris
+<lb ed="#Ba"/>non subjaceant quantum ad_ essentie
+<lb ed="#Ba"/>productionem, et quantum ad effectus
+<lb ed="#Ba"/>et operationes suas : subjacent tamen
+<lb ed="#Ba"/>in quantum circa eas operamur sicut
+<lb ed="#Ba"/>circa signa et dispositiones ad 
+beatitudi<lb ed="#Ba" break="no"/>nem, et ulimur eis, et utiles sunt.
+</p>
+            <p xml:id="Almn78-aa8865-d1e364">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod creature
+<lb ed="#Ba"/>in quantum creature, hoc est, in 
+quan<lb ed="#Ba" break="no"/>tum substant actui creationis, non 
+con<lb ed="#Ba" break="no"/>trariantur usui. Genes. 1, 31 Vidit
+<lb ed="#Ba"/>Deus cuncta que fecerat : et erant valde
+<lb ed="#Ba"/>bona. Sed aliquando habent pronitatem
+<lb ed="#Ba"/>ad malum ex parte nostra, in quantum
+<lb ed="#Ba"/>scilicet concupiscibiles sunt, vel 
+instru<lb ed="#Ba" break="no"/>menta deceptionis. Et sic non ex se, sed
+<lb ed="#Ba"/>ex nobis factas sunt in odium, hocest, ut
+<lb ed="#Ba"/>homines odiosi fiant ex eis, et in 
+musci<lb ed="#Ba" break="no"/>pulam sive deceptionem pedibus 
+insi<lb ed="#Ba" break="no"/>pientium, et non sapientium. Hujus
+<lb ed="#Ba"/>exemplum est formosa mulier, que
+<lb ed="#Ba"/>nullum allicit ad peccandum : que tamen
+<lb ed="#Ba"/>adspecta propter pravitatem alterius 
+effi<lb ed="#Ba" break="no"/>citur occasio libidinis et fomitum.
+</p>
+            <p xml:id="Almn78-aa8865-d1e403">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod omnis actus
+<lb ed="#Ba"/>voluntatis vilio non depravatus, 
+referibi<lb ed="#Ba" break="no"/>lis est ad gloriam Dei: et si refertur,
+<lb ed="#Ba"/>meritorius est. Sed si nec referibilis est,
+<lb ed="#Ba"/>habens in se contrarium relationi, nec
+<lb ed="#Ba"/>refertur, peccatum mortale est. Si autem
+<lb ed="#Ba"/>non refertur, et referibilis est, non 
+ha<lb ed="#Ba" break="no"/>bens in se contrarium relationi, sed 
+dis<lb ed="#Ba" break="no"/>positionem ad contrarium, que impedit
+<lb ed="#Ba"/>actualem relationem, non habitualem,
+<lb ed="#Ba"/>peccatum veniale est. Si vero non 
+refer<lb ed="#Ba" break="no"/>tur, nee formam habet virtutis qua de
+<lb ed="#Ba"/>necessitate referatur, nec tamen habet
+<lb ed="#Ba"/>contrarium relationi, nec dispositionem.
+<lb ed="#Ba"/>ad contrarium, actus otiosus vel 
+indiffe<lb ed="#Ba" break="no"/>rens est. Cujus exemplum dicit Boetius
+<lb ed="#Ba"/>esse motum digiti sine causa 
+necessita<lb ed="#Ba" break="no"/>tis vel utilitatis. Hoc tamen in theologia
+<lb ed="#Ba"/>peccatum esse dicitur hoc modo, quo
+<lb ed="#Ba"/>vanum dicitur esse peccatum et otiosum.
+<lb ed="#Ba"/>Matth. xu, 36: Omne verbum otiosum
+<lb ed="#Ba"/>quod locuti fuerint homines, reddent 
+ra<lb ed="#Ba" break="no"/>tionem de eo in die judicii. Gregorius
+<lb ed="#Ba"/>super idem verbum : <quote xml:id="Almn78-aa8865-Qd1e457"> Otiosum est,
+<pb ed="#Ba" n="47"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod caret ratione juste necessitatis et
+<lb ed="#Ba"/>pia utilitatis. </quote> Apud ethicum tamen et
+<lb ed="#Ba"/>tmaxime civilem hoc indifferens est.
+</p>
+            <p xml:id="Almn78-aa8865-d1e472">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod verbum
+<lb ed="#Ba"/>Apostoli non sonat preceptum, sed 
+ordi<lb ed="#Ba" break="no"/>nem et habitudinem eorum que referen
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>da sunt in Deum, hoc est, quod nihil
+<lb ed="#Ba"/>fiat quod contrarium sit reldtioni. Et
+<lb ed="#Ba"/>ideo si non referatur aliquando, non 
+se<lb ed="#Ba" break="no"/>quitur, quod sit mortale peccatum : 
+ha<lb ed="#Ba" break="no"/>bet enim dispositionem ad contrarium,
+<lb ed="#Ba"/>et non semper formam contrarii.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

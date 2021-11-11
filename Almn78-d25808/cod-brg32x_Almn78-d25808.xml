@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="117"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d25808"><!-- p2t2q6 -->
+            <head xml:id="Almn78-d25808-Hd1e106">Quaestio 6</head>
+            <head xml:id="Almn78-d25808-Hd1e109" type="question-title">Quid sit angelus</head>
+            <p xml:id="Almn78-d25808-d1e112">
+               <lb ed="#Bb"/>QUAESTIO VI.
+      <lb ed="#Bb"/>Quid sit. Angelus ?
+    </p>
+            <div xml:id="Almn78-d25808-Dd1e119">
+               <head xml:id="Almn78-d25808-Hd1e121">Membrum 1</head>
+               <head xml:id="Almn78-d25808-Hd1e124" type="question-title">
+        An definitio data per Damascenum
+        sit sufficiens?
+      </head>
+               <p xml:id="Almn78-d25808-d1e127">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>An definitio data per Damascenum
+        <lb ed="#Bb"/>sit sufficiens?
+      </p>
+               <p xml:id="Almn78-d25808-d1e136">
+                  <lb ed="#Bb"/>Secundo queritur, Quid sit Angelus?
+      </p>
+               <p xml:id="Almn78-d25808-d1e141">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Et sumatur definitio Damasceni, ubi
+        <lb ed="#Bb"/>sic dicit : <quote xml:id="Almn78-d25808-Qd1e149"> Angelus est substantia 
+          intelle<lb ed="#Bb" break="no"/>ctualis, semper mobilis, arbitrio libera,
+          <lb ed="#Bb"/>incorporea, Deo ministrans, secundum
+          <lb ed="#Bb"/>gratiam non natura immortalitatem
+          <lb ed="#Bb"/>suscipiens, </quote>
+               </p>
+               <p xml:id="Almn78-d25808-d1e162">
+        
+                  <pb ed="#Bb" n="118"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Aut enim dicitur substantia materia,
+        <lb ed="#Bb"/>aut substantia forma, aut substantia
+        <lb ed="#Bb"/>compositum.
+      </p>
+               <p xml:id="Almn78-d25808-d1e175">
+                  <lb ed="#Bb"/>Non substantia materia, ut videtur :
+        <lb ed="#Bb"/>4. Sicut enim dicitur in libro de 
+        Sud<lb ed="#Bb" break="no"/>stantia orbis, materia non nisi corporum
+        <lb ed="#Bb"/>est, et ad motum determinatur : 
+        Ange<lb ed="#Bb" break="no"/>lus, ut in hac ipsa diffinitione dicitur,
+        <lb ed="#Bb"/>incorporeus est : ergo nec materia est,
+        <lb ed="#Bb"/>nec ex materia.
+      </p>
+               <p xml:id="Almn78-d25808-d1e193">
+                  <lb ed="#Bb"/>2. Adhuc, Boetius in libro de Duabus
+        <lb ed="#Bb"/>naturis in una persona Christi, dicit,
+        <lb ed="#Bb"/>quod incorporalia ex nulla materia sunt,
+        <lb ed="#Bb"/>ut anima, et Angelus : ergo Angelus
+        <lb ed="#Bb"/>est substantia spiritualis incorporea :
+        <lb ed="#Bb"/>ergo ex nulla materia est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e209">
+                  <lb ed="#Bb"/>Si forte aliquis dicat secundum librum
+        <lb ed="#Bb"/>Avicembron, quem quidam Foniem vite
+        <lb ed="#Bb"/>vocant, quidam autem de Forma et
+        <lb ed="#Bb"/>materia, quod duplex est materia, 
+        sci<lb ed="#Bb" break="no"/>licet spiritualis, et corporea ; et 
+        Ange<lb ed="#Bb" break="no"/>lus nec est materia corporea, nec ex
+        <lb ed="#Bb"/>materia corporea, sed est ex materia
+        <lb ed="#Bb"/>incorporea, et spirituali. Conrraa : 
+        Au<lb ed="#Bb" break="no"/>gustinus super Genesim ad litteram
+        <lb ed="#Bb"/>disputat, utrum anima rationalis sit ex
+        <lb ed="#Bb"/>materia incorporea : et cum multum
+        <lb ed="#Bb"/>ventilet questionem, si illa materia sit
+        <lb ed="#Bb"/>viva, vel non viva, vel ubi sit : tandem
+        <lb ed="#Bb"/>definit, quod ex nulla materia est anima:
+        <lb ed="#Bb"/>et nos disputationem ejus infra ponemus
+        <lb ed="#Bb"/>in proprio loco, ubi queremus de causa
+        <lb ed="#Bb"/>materiali anime. Si ergo magis videtur
+        <lb ed="#Bb"/>anima rationalis esse ex materia quam
+        <lb ed="#Bb"/>Angelus, et non est, nullo modo 
+        Ange<lb ed="#Bb" break="no"/>lus poterit esse ex materia.
+      </p>
+               <p xml:id="Almn78-d25808-d1e255">
+                  <lb ed="#Bb"/>SIMILITER probatur, quod non sit 
+        sub<lb ed="#Bb" break="no"/>stantia forma :
+        <lb ed="#Bb"/>1. Substantia enim in forma esse
+        <lb ed="#Bb"/>actuale non habet, nisi in materia cui
+        <lb ed="#Bb"/>dat esse, ipsa enim est actus terminans
+        <lb ed="#Bb"/>potentiam materia : et Angelus non est
+        <lb ed="#Bb"/>ex materia : consequens est, ut non sit
+        <lb ed="#Bb"/>forma, quia forma secundum se separata,
+        <lb ed="#Bb"/>nullum habet esse in natura.
+      </p>
+               <p xml:id="Almn78-d25808-d1e277">
+                  <lb ed="#Bb"/>2. Adhuc, Forma de se non est hoc
+        <lb ed="#Bb"/>aliquid: Angelus autem de se hoc 
+        ali<lb ed="#Bb" break="no"/>
+                  <lb ed="#Bb"/>quid est : ergo Angelus forma non
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e291">
+                  <lb ed="#Bb"/>3. Adhuc, Omnis forma de se 
+        com<lb ed="#Bb" break="no"/>munis est, nisi sit forma 
+        individuatio<lb ed="#Bb" break="no"/>nis: et hee non est forma substantialis,
+        <lb ed="#Bb"/>sed polius que est ex collectione 
+        acci<lb ed="#Bb" break="no"/>dentium, que in alio inveniri non 
+        pos<lb ed="#Bb" break="no"/>sunt, Et si Angelus esset forma 
+        sub<lb ed="#Bb" break="no"/>stantialis, sequeretur quod esset 
+        com<lb ed="#Bb" break="no"/>mune quid, et non hoc aliquid, quod
+        <lb ed="#Bb"/>falsum est : Angelus igitur non est 
+        sub<lb ed="#Bb" break="no"/>stantia que est forma.
+      </p>
+               <p xml:id="Almn78-d25808-d1e315">
+                  <lb ed="#Bb"/>Eodem mopo probatur, quod non sit
+        <lb ed="#Bb"/>substantia compositum : primum enim
+        <lb ed="#Bb"/>compositum, ut dicunt Philosophi, est
+        <lb ed="#Bb"/>quod componilur ex primis principiis
+        <lb ed="#Bb"/>generis substantia : et hec sunt 
+        poten<lb ed="#Bb" break="no"/>tia et actus, sive materia et forma : cum
+        <lb ed="#Bb"/>jam constet, quod Angelus materiam et
+        <lb ed="#Bb"/>formam non habeat, constat non esse
+        <lb ed="#Bb"/>compositum ex primis principiis 
+        compo<lb ed="#Bb" break="no"/>nentibus substantiam : et sic de 
+        necessi<lb ed="#Bb" break="no"/>tate relinquitur, quod non est 
+        composi<lb ed="#Bb" break="no"/>tum in genere substantie. Relinquitur
+        <lb ed="#Bb"/>ergo, quod nec sit materia, nec forma,
+        <lb ed="#Bb"/>nec compositum : et sic male definit
+        <lb ed="#Bb"/>quando dicit substantiam esse 
+        Ange<lb ed="#Bb" break="no"/>lum.
+      </p>
+               <p xml:id="Almn78-d25808-d1e352">
+                  <lb ed="#Bb"/>ULTERIUS objicitur de hoc quod dicit,
+        <lb ed="#Bb"/>Intellectualis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e359">
+                  <lb ed="#Bb"/>1. Intellectus enim si Angelo 
+        conve<lb ed="#Bb" break="no"/>nit, potentia Angeli est : potentia autem
+        <lb ed="#Bb"/>uniuscujusque rei naturalis, esse et 
+        essen<lb ed="#Bb" break="no"/>tiam illius rei est consequens : 
+        diffinien<lb ed="#Bb" break="no"/>tia autem quamlibet rem, secundum
+        <lb ed="#Bb"/>intellectum sunt ante essentiam et esse
+        <lb ed="#Bb"/>rei definite : cum omnis definitio indicet
+        <lb ed="#Bb"/>esse rei et essentiam, et sit ex principiis
+        <lb ed="#Bb"/>essentialibus constituentibus essentiam
+        <lb ed="#Bb"/>et esse rei definite : et sic male sumitur
+        <lb ed="#Bb"/>definitivum a potentia, quando dicit,-
+        <lb ed="#Bb"/>Intellectualis substantia.
+      </p>
+               <p xml:id="Almn78-d25808-d1e388">
+                  <lb ed="#Bb"/>2. Adhuc, Dionysius non vocat eos
+        <lb ed="#Bb"/>intellectuales substantias, denominando
+        <lb ed="#Bb"/>ab intellectu: sed vocat eos intellectus
+        <lb ed="#Bb"/>divinos, et divinas mentes. Videtur ergo, -
+        <lb ed="#Bb"/>quod secundum substantiam, et secundum
+        <lb ed="#Bb"/>id quod sunt, intellectus sint, et non:
+        <lb ed="#Bb"/>intellectuales : homo enim secundum id:
+        <lb ed="#Bb"/>quod est, homo est, et non humanus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e408">
+                  <pb ed="#Bb" n="119"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>ULTERIUS queritur de hoc quod dicit.
+        <lb ed="#Bb"/>Semper mobilis : de quo motu 
+        intelli<lb ed="#Bb" break="no"/>gatur?
+      </p>
+               <p xml:id="Almn78-d25808-d1e422">
+                  <lb ed="#Bb"/>4. Probat enim Philosophus in VI
+        <lb ed="#Bb"/>Physicorum, quod nihil indivisibile 
+        mo<lb ed="#Bb" break="no"/>bile est : Angelus autem indivisibilis
+        <lb ed="#Bb"/>substantia est : Angelus igitur mobilis
+        <lb ed="#Bb"/>non est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e435">
+                  <lb ed="#Bb"/>2. Adhuc, Nullo motu aliquid est
+        <lb ed="#Bb"/>mobile nisi quantum : Angelum 
+        quan<lb ed="#Bb" break="no"/>tus non est : ergo nullo motu mobilis
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e446">
+                  <lb ed="#Bb"/>3. Adhuc, Quare dicit, Semper 
+        mobi<lb ed="#Bb" break="no"/>lis? sunt enim Angeli assistentes, et
+        <lb ed="#Bb"/>Angeli ministrantes : et si moventur
+        <lb ed="#Bb"/>secundum ministerium ad exteriora, ut
+        <lb ed="#Bb"/>dicit Gregorius, non tamen semper, nec
+        <lb ed="#Bb"/>omnes moventur. Non semper, quia non
+        <lb ed="#Bb"/>semper ministrant : nec omnes, quia,
+        <lb ed="#Bb"/>ut dicit Gregorius, superiora illa agmina
+        <lb ed="#Bb"/>usum exterioris officii non habent. Cum
+        <lb ed="#Bb"/>ergo definientia omni et semper debeant
+        <lb ed="#Bb"/>convenire, male ponitur in definitione,
+        <lb ed="#Bb"/>semper mobilis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e475">
+                  <lb ed="#Bb"/>Urerius queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Arbitrio libera.
+      </p>
+               <p xml:id="Almn78-d25808-d1e482">
+                  <lb ed="#Bb"/>Definitio enim terminus est, et 
+        con<lb ed="#Bb" break="no"/>vertibilitatem habet proprii : definientia
+        <lb ed="#Bb"/>ergo convenire debent primo, omni, et
+        <lb ed="#Bb"/>soli: arbitrii libertas non primo 
+        conve<lb ed="#Bb" break="no"/>nit Angelo, sed Deo : nec soli convenit
+        <lb ed="#Bb"/>Angelo, Deo enim convenit et homini :
+        <lb ed="#Bb"/>nec semper convenit, confirmati enim
+        <lb ed="#Bb"/>in bono, deflecti in malum non possunt:
+        <lb ed="#Bb"/>obstinati etiam in malo, eligere bonum
+        <lb ed="#Bb"/>non possunt. Cum ergo liberum 
+        arbi<lb ed="#Bb" break="no"/>trium sit ideo liberum, quia potest facere
+        <lb ed="#Bb"/>quod vult, et eligere sibi bonum sive
+        <lb ed="#Bb"/>malum, ut dicitur, Eccli. xv, 14 : 
+        Re<lb ed="#Bb" break="no"/>liquit illum in manu consilii sui: 
+        vide<lb ed="#Bb" break="no"/>tur, quod non omni Angelo conveniat,
+        <lb ed="#Bb"/>libera arbitrio : et sic male ponitur in
+        <lb ed="#Bb"/>delinitione.
+      </p>
+               <p xml:id="Almn78-d25808-d1e521">
+                  <lb ed="#Bb"/>Uurerivus queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Incorporea.
+      </p>
+               <p xml:id="Almn78-d25808-d1e529">
+                  <lb ed="#Bb"/>1. Hoc enim ipsemet reprehendit 
+        di<lb ed="#Bb" break="no"/>cens, quod non dicitur incorporeus re
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>spectu Dei,quia respectu Dei omnis 
+        om<lb ed="#Bb" break="no"/>nis creatura corporea est : sed dicitur
+        <lb ed="#Bb"/>incorporea respeciu corporum, sive 
+        re<lb ed="#Bb" break="no"/>spectu corporalis creature : quia scilicet
+        <lb ed="#Bb"/>longitudine, latitudine, et profanditate
+        <lb ed="#Bb"/>non determinatur sive mensuratur. Quod
+        <lb ed="#Bb"/>autem respectu unius convenit, non 
+        ge<lb ed="#Bb" break="no"/>neraliter videtur convenire : et sic in
+        <lb ed="#Bb"/>definitione non debet poni.
+      </p>
+               <p xml:id="Almn78-d25808-d1e558">
+                  <lb ed="#Bb"/>2. Adhuc, Quecumque ponuntur in
+        <lb ed="#Bb"/>definitione, separare debent ab 
+        opposi<lb ed="#Bb" break="no"/>tis, et non ab his cum quibus_ habent
+        <lb ed="#Bb"/>convenientiam. Verbi gratia : cum
+        <lb ed="#Bb"/>dicitur, homo est animal rationale 
+        mor<lb ed="#Bb" break="no"/>tale, per animal non separatur homo ab
+        <lb ed="#Bb"/>asino et aliis brutis, sed per rationale
+        <lb ed="#Bb"/>quo opponitur illis. Similiter per 
+        mor<lb ed="#Bb" break="no"/>tale, non separatur a brutis, sed a 
+        calo<lb ed="#Bb" break="no"/>demonibus, et cacodemonibus qui 
+        se<lb ed="#Bb" break="no"/>cundum Philosophos Stoicos, ut dicit
+        <lb ed="#Bb"/>Apuleius in libro de Deo Socratis, sunt
+        <lb ed="#Bb"/>natura animalia, corpore aerea, mente
+        <lb ed="#Bb"/>rationalia, tempore eterna.
+      </p>
+               <p xml:id="Almn78-d25808-d1e591">
+                  <lb ed="#Bb"/>Si forte dicat aliquis, quod Angeli
+        <lb ed="#Bb"/>animalia non sunt per naturam, hoc est
+        <lb ed="#Bb"/>contra Gregorium, qui in homilia de
+        <lb ed="#Bb"/>Epiphania dicit, quod gentibus 
+        tam<lb ed="#Bb" break="no"/>quam irrationabilibus, stella irrationalis
+        <lb ed="#Bb"/>creatura Salvatorem ostendit : Judzis
+        <lb ed="#Bb"/>autem tamquam ratione utentibus, 
+        ra<lb ed="#Bb" break="no"/>tionale animal Angelus Salvatorem 
+        pre<lb ed="#Bb" break="no"/>dicavit. Cum ergo Angelus sit animal’
+        <lb ed="#Bb"/>rationale, Saiuwy enim in Greco idem est
+        <lb ed="#Bb"/>quod intellectus in Latino : et cum omne
+        <lb ed="#Bb"/>animal corporeum sit simpliciter, videtur
+        <lb ed="#Bb"/>quod Angelus non debeat dici 
+        substan<lb ed="#Bb" break="no"/>tia incorporea, sed corporea.
+      </p>
+               <p xml:id="Almn78-d25808-d1e624">
+                  <lb ed="#Bb"/>Urerivs queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Deo ministrans.
+      </p>
+               <p xml:id="Almn78-d25808-d1e631">
+                  <lb ed="#Bb"/>1. Sicut enim ei convenit ministrare
+        <lb ed="#Bb"/>quantum ad inferiores Angelos, ita 
+        con<lb ed="#Bb" break="no"/>venit ei assistere quantum ad 
+        superio<lb ed="#Bb" break="no"/>res : et ita debet dicere, Deo assistens,
+        <lb ed="#Bb"/>sicut dicit, Deo ministrans.
+      </p>
+               <p xml:id="Almn78-d25808-d1e644">
+                  <lb ed="#Bb"/>2. Adhuc, Ministerium electis 
+        assump<lb ed="#Bb" break="no"/>tis ad beatitudinem post diem judicii,
+        <lb ed="#Bb"/>cessabit, sicut dicit Glossa super epist.
+        <lb ed="#Bb"/>I ad Corinth. xv, 24. Assistere autem
+        <pb ed="#Bb" n="120"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>numquam cessabit : cum ergo que 
+        po<lb ed="#Bb" break="no"/>nuntur in definitione, semper debeant
+        <lb ed="#Bb"/>convenire et ubique, videtur quod 
+        An<lb ed="#Bb" break="no"/>gelus potius definiendus erat per 
+        assi<lb ed="#Bb" break="no"/>stere,quam per ministrare : et ita videtur
+        <lb ed="#Bb"/>male dicere, Deo ministrans.
+      </p>
+               <p xml:id="Almn78-d25808-d1e674">
+                  <lb ed="#Bb"/>Uxrerivs queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Secundum gratiam, non natura 
+        immor<lb ed="#Bb" break="no"/>talitatem suscipiens.
+      </p>
+               <p xml:id="Almn78-d25808-d1e683">
+                  <lb ed="#Bb"/>Hoc enim videtur falsum : si enim
+        <lb ed="#Bb"/>sequamur Philosophos Peripateticos,
+        <lb ed="#Bb"/>mortalitatis sive corruptionis non sunt
+        <lb ed="#Bb"/>nisi due cause. Una scilicet, si 
+        com<lb ed="#Bb" break="no"/>positum est ex contrariis : omne enim
+        <lb ed="#Bb"/>compositum ex contrariis de necessitate
+        <lb ed="#Bb"/>dissolvetur, ut in IV de Ce@lo et Mundo
+        <lb ed="#Bb"/>probat Aristoteles. Levia enim distabunt
+        <lb ed="#Bb"/>a gravibus, humida a siccis, et calida a
+        <lb ed="#Bb"/>frigidis : eo quod continue agunt et
+        <lb ed="#Bb"/>patiuntur ab invicem : et omnis passio
+        <lb ed="#Bb"/>magis facta abjicit a substantia. Secunda
+        <lb ed="#Bb"/>causa est, quam etiam ponit Gregorius
+        <lb ed="#Bb"/>Nyssenus, si est actus vel forma simplex
+        <lb ed="#Bb"/>super compositum ex contrariis delatus :
+        <lb ed="#Bb"/>func enim cum non habeat esse nisi in
+        <lb ed="#Bb"/>talicomposito, dissoluto composito 
+        de<lb ed="#Bb" break="no"/>struitur talis actus sive talis forma : sicut
+        <lb ed="#Bb"/>dicit Aristoteles de universalibus in
+        <lb ed="#Bb"/>Predicamentis, quod destructis primis,
+        <lb ed="#Bb"/>impossibile est aliquid aliorum 
+        secunda<lb ed="#Bb" break="no"/>riorum remanere. Neutra istarum 
+        cor<lb ed="#Bb" break="no"/>ruptibilitatum ex natura habet Angelus :
+        <lb ed="#Bb"/>non enim compositus est ex contrariis :
+        <lb ed="#Bb"/>similiter non est unibilis alicui corpori
+        <lb ed="#Bb"/>composito ex contrariis : et sic videtur,
+        <lb ed="#Bb"/>quod per naturam sit immortalitatem
+        <lb ed="#Bb"/>suscipiens, et non per gratiam, nisi
+        <lb ed="#Bb"/>gratia dicatur a Deo datum cum natura.
+      </p>
+               <p xml:id="Almn78-d25808-d1e748">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod haec 
+        defini<lb ed="#Bb" break="no"/>tio a Damasceno data est de bonis 
+        An<lb ed="#Bb" break="no"/>gelis in communi, secundum quod ab
+        <lb ed="#Bb"/>optimo creatore boni ad esse deducti
+        <lb ed="#Bb"/>sunt : et data est secundum intentionem
+        <lb ed="#Bb"/>finis creantis, ad hoc enim creati sunt:
+        <lb ed="#Bb"/>et notificat Angelum in esse, nosse, et
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>posse, secundum quod constitutus est in
+        <lb ed="#Bb"/>his tribus ab optimo creatore, licet per
+        <lb ed="#Bb"/>malitiam quidam ab his sint aversi.
+      </p>
+               <p xml:id="Almn78-d25808-d1e774">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+        An<lb ed="#Bb" break="no"/>gelus secundum id quod est, substantia
+        <lb ed="#Bb"/>est, et est substantia composita ex quod
+        <lb ed="#Bb"/>est et quo est : non enim habet idem
+        <lb ed="#Bb"/>esse suum et quod est, eo quod non est
+        <lb ed="#Bb"/>in fine simplicitatis sicut primum.
+      </p>
+               <p xml:id="Almn78-d25808-d1e790">
+                  <lb ed="#Bb"/>Et ea que inducuntur, quod non sit
+        <lb ed="#Bb"/>materia, nec ex materia, concedenda
+        <lb ed="#Bb"/>sunt. Quod enim substantia dividitur in
+        <lb ed="#Bb"/>materiam, formam, et compositum, non
+        <lb ed="#Bb"/>intelligitur, nisi de substantia quae est in
+        <lb ed="#Bb"/>physicis corporibus : secundum autem
+        <lb ed="#Bb"/>quod substantia in genere accipitur, ut
+        <lb ed="#Bb"/>dicit Boetius, hoc est, ens per se existens,
+        <lb ed="#Bb"/>alio non indigens ut sit, sic aliam habet
+        <lb ed="#Bb"/>divisionem : sic enim prima substantia
+        <lb ed="#Bb"/>est ens, et non ab alio, quod est Deus,
+        <lb ed="#Bb"/>idem habens esse quod est et quo est,
+        <lb ed="#Bb"/>et quo omnia alia indigent ut sint: quia
+        <lb ed="#Bb"/>illud est primum: principium esse, quod
+        <lb ed="#Bb"/>facit debere esse in omnibus que sunt,
+        <lb ed="#Bb"/>sicut in questione de primo principio
+        <lb ed="#Bb"/>dictum est*.
+      </p>
+               <p xml:id="Almn78-d25808-d1e829">
+                  <lb ed="#Bb"/>Et quod quidam dixerunt de materia
+        <lb ed="#Bb"/>spirituali, dicendum quod responsio
+        <lb ed="#Bb"/>eorum nulla est : quia secundum 
+        Boe<lb ed="#Bb" break="no"/>tium et Augustinum, nulla est materia
+        <lb ed="#Bb"/>spiritualium : sed id quod sunt, est in
+        <lb ed="#Bb"/>eis suppositum et substans et subjectum
+        <lb ed="#Bb"/>esse simplex : quod accipiunt a primo
+        <lb ed="#Bb"/>esse, quo determinantur ad genus, 
+        spe<lb ed="#Bb" break="no"/>ciem, et individuum. :
+      </p>
+               <p xml:id="Almn78-d25808-d1e852">
+                  <lb ed="#Bb"/>Ad id quod objicitur, utrum Angelus
+        <lb ed="#Bb"/>sit substantia forma: dicendum, quod
+        <lb ed="#Bb"/>non est forma simplex, sed est substantia
+        <lb ed="#Bb"/>composita ut suppositum et subjectum :
+        <lb ed="#Bb"/>componitur enim ex quod est et quo est,
+        <lb ed="#Bb"/>ut dictum est. Angelus enim eo quod est
+        <lb ed="#Bb"/>hoc aliquid, in se habet diversa: habet
+        <lb ed="#Bb"/>enim quod est ex hoc, quod. est habet ex
+        <lb ed="#Bb"/>nihilo ens : esse aulem habet a primo .
+        <lb ed="#Bb"/>principio influente sibi esse: et habet
+        <lb ed="#Bb"/>esse in participatione prima,et 
+        nobilissi<lb ed="#Bb" break="no"/>ma.
+      </p>
+               <p xml:id="Almn78-d25808-d1e881">
+                  <pb ed="#Bb" n="121"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Unde quecumque inducta sunt ad hoc
+        <lb ed="#Bb"/>quod non sit forma simplex, concedenda
+        <lb ed="#Bb"/>sunt.
+      </p>
+               <p xml:id="Almn78-d25808-d1e894">
+                  <lb ed="#Bb"/>Ad hoc quod ulterius objicitur, quod
+        <lb ed="#Bb"/>non sit substantia composita : dicendum
+        <lb ed="#Bb"/>quod non est composita ex materia et
+        <lb ed="#Bb"/>forma, nec est in genere talis substantiz.
+      </p>
+               <p xml:id="Almn78-d25808-d1e905">
+                  <lb ed="#Bb"/>Et quod objicitur, quod prima 
+        compo<lb ed="#Bb" break="no"/>nentia sunt potentia et actus : si 
+        poten<lb ed="#Bb" break="no"/>tia dicitur potentia materiz, et actus 
+        di<lb ed="#Bb" break="no"/>citur esse forme quo potentia materia
+        <lb ed="#Bb"/>determinatur, falsum est : hee enim non
+        <lb ed="#Bb"/>sunt nisi principia substantia, que a
+        <lb ed="#Bb"/>substando dicitur, et cui materia confert
+        <lb ed="#Bb"/>substare. Si autem potentia dicitur ens
+        <lb ed="#Bb"/>possibile, secundum quod dividitur 
+        con<lb ed="#Bb" break="no"/>tra ens necesse : tunc in potentia est,
+        <lb ed="#Bb"/>quod est in potentia cause efficientis,
+        <lb ed="#Bb"/>sicut in potentia est omne quod est ab
+        <lb ed="#Bb"/>alio per crealionem : et actus ejus est
+        <lb ed="#Bb"/>quo in esse specificatur et determinatur,
+        <lb ed="#Bb"/>ita quod sit actu ens participatum esse a
+        <lb ed="#Bb"/>primo : et sic verum est, quod prima
+        <lb ed="#Bb"/>principia substantia que est ab alio,
+        <lb ed="#Bb"/>sunt potentia et actus: et hoc modo
+        <lb ed="#Bb"/>Angelus in genere substantiz composite
+        <lb ed="#Bb"/>est : sic enim substantia ens ab alio est,
+        <lb ed="#Bb"/>per se,-et in se in suis principiis 
+        exi<lb ed="#Bb" break="no"/>stens : et alio cui innitatur ad hoc quod
+        <lb ed="#Bb"/>sit, non indigens : sicut accidens ad hoc
+        <lb ed="#Bb"/>quod sit, indiget ut innitatur alii ut 
+        sub<lb ed="#Bb" break="no"/>jecto.
+      </p>
+               <p xml:id="Almn78-d25808-d1e962">
+                  <lb ed="#Bb"/>Ad aliud quod queritur de hoc quod
+        <lb ed="#Bb"/>dicit, Jntellectualis : dicendum, quod.
+        <lb ed="#Bb"/>sepe differentia constitutiva nomen 
+        su<lb ed="#Bb" break="no"/>mit a potentia, non a potentia secundum
+        <lb ed="#Bb"/>quod est consequens esse, sed a potentia
+        <lb ed="#Bb"/>secundum quod radicatur in tali natura :
+        <lb ed="#Bb"/>sicut patet cum dicitur, homo animal
+        <lb ed="#Bb"/>rationale : ratio enim potentia hominis
+        <lb ed="#Bb"/>est, a qua sumitur rationale, quod est
+        <lb ed="#Bb"/>differentia constitutiva hominis : nec
+        <lb ed="#Bb"/>transumitar a ratione secundum quod est
+        <lb ed="#Bb"/>potentia consequens esse, sed sumitur a
+        <lb ed="#Bb"/>ratione secundum quod radicatur in tali
+        <lb ed="#Bb"/>natura que ex proprie nature 
+        habitudi<lb ed="#Bb" break="no"/>ne et facultate est apta ad 
+        ratiocinan<lb ed="#Bb" break="no"/>dum : guia ut sic considerata fluit ab ea
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>potentia que est ratio. Similiter Angelus
+        <lb ed="#Bb"/>dicitur intellectualis, ut intellectualitas
+        <lb ed="#Bb"/>est differentia constitutiva ejus : hon
+        <lb ed="#Bb"/>enim dicitur intellectualis substantia ab
+        <lb ed="#Bb"/>intellectu potentia simpliciter, sed ab 
+        in<lb ed="#Bb" break="no"/>tellectu secundum qued radicatur in tali
+        <lb ed="#Bb"/>natura, que de naturali constitutione et
+        <lb ed="#Bb"/>substantiali est ad intelligere intellectus
+        <lb ed="#Bb"/>simplicis et per se constantis veritatis :
+        <lb ed="#Bb"/>intellectus enim intuetur res ut sunt, ut
+        <lb ed="#Bb"/>dicit Plato: nec oportet ad hoc, quod
+        <lb ed="#Bb"/>sciat res per discursum inquisitionis ab
+        <lb ed="#Bb"/>uno in alterum. Et hee est causa quare
+        <lb ed="#Bb"/>dicitur substantia intellectualis, et non
+        <lb ed="#Bb"/>rationalis : non enim habet discursivari
+        <lb ed="#Bb"/>disciplinam ab uno in aliud per 
+        inquisi<lb ed="#Bb" break="no"/>tionem, sicut ratio inquisitiva potentia
+        <lb ed="#Bb"/>est, ut dicit Isaac in libro de 
+        Definitio<lb ed="#Bb" break="no"/>nibus, per collationem componens pr®-
+        <lb ed="#Bb"/>dicatum subjecto, et majorem minofri,
+        <lb ed="#Bb"/>et premissas per habitudinem localem
+        <lb ed="#Bb"/>vel syllogisticam, vel ut generaliter 
+        di<lb ed="#Bb" break="no"/>catur, argumentalem, ad conclusionem :
+        <lb ed="#Bb"/>talis enim scientia collativa rationis 
+        pro<lb ed="#Bb" break="no"/>prie est et hominis, et non stantis in ino
+        <lb ed="#Bb"/>intellectu.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1058">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Dionysius
+        <lb ed="#Bb"/>considerando naturam que de se ad 
+        in<lb ed="#Bb" break="no"/>telligere est, vocat eos intellectus divinos
+        <lb ed="#Bb"/>et divinas mentes: nihilominus tamen
+        <lb ed="#Bb"/>quia a tali natura fluit potentia que est
+        <lb ed="#Bb"/>intellectus, que potentia, quia naturalis
+        <lb ed="#Bb"/>potentia est in-genere qualitatis, et sic
+        <lb ed="#Bb"/>ab ea potest denominari substantia : et
+        <lb ed="#Bb"/>hoc modo dicitur substantia 
+        intellectua<lb ed="#Bb" break="no"/>lis, sicut homo dicitur substantia 
+        ratio<lb ed="#Bb" break="no"/>nalis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1085">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur de hoc
+        <lb ed="#Bb"/>quod dicit, Semper mobilis : dicitur,
+        <lb ed="#Bb"/>quod intelligitar de Angelo secundutn
+        <lb ed="#Bb"/>quod creatus est a summo bono: sic
+        <lb ed="#Bb"/>enim secundum intellectum et appetitum
+        <lb ed="#Bb"/>semper movetur in ipsum secundum 
+        na<lb ed="#Bb" break="no"/>turam in qua creatus est : et si 
+        aliqtuan<lb ed="#Bb" break="no"/>do non movetur in ipsum summum 
+        bo<lb ed="#Bb" break="no"/>num, hoc est per aversionem intellectus
+        <lb ed="#Bb"/>et affectus a summo bono, et fon per
+        <lb ed="#Bb"/>naturam, que sicut lumen, in eo ipso
+        <pb ed="#Bb" n="122"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>quod secundum lumen est exiens a 
+        pri<lb ed="#Bb" break="no"/>mo, semper intellectualiter movetur in
+        <lb ed="#Bb"/>primum. Dixerunt tamen quidam, quod
+        <lb ed="#Bb"/>semper mobilis dicitur, quia versioni
+        <lb ed="#Bb"/>subjacet secundum vicissitudinem 
+        intel<lb ed="#Bb" break="no"/>lectus, qui vicissitudinatur per 
+        intelle<lb ed="#Bb" break="no"/>cta, et secundum mutabilitatem 
+        volunta<lb ed="#Bb" break="no"/>tis, et secundum substantiam creatam,
+        <lb ed="#Bb"/>quz sicut in omni creato de se semper
+        <lb ed="#Bb"/>tendit in non esse : et in non esse 
+        deci<lb ed="#Bb" break="no"/>deret, nisi manu Omnipotentis 
+        contine<lb ed="#Bb" break="no"/>retur. Sed iste non est intellectus 
+        Da<lb ed="#Bb" break="no"/>masceni. Ipse enim sic se exponit dicens,
+        <lb ed="#Bb"/>quod Deus est Angelos de non esse ad
+        <lb ed="#Bb"/>esse deducens velut quemdam spiritum
+        <lb ed="#Bb"/>vel ignem immaterialem, ut ait divinus
+        <lb ed="#Bb"/>David in Psalmo cm, 4 : Qui facis 
+        Ange<lb ed="#Bb" break="no"/>los tuos spiritus, et ministros tuos ignem
+        <lb ed="#Bb"/>wrentem : levitatem et ignitionem et 
+        in<lb ed="#Bb" break="no"/>cisionem et acuitionem eorum circa 
+        divi<lb ed="#Bb" break="no"/>num desiderium et ministerium 
+        descri<lb ed="#Bb" break="no"/>bens, et ad superiora allationem eorum,
+        <lb ed="#Bb"/>et ab omni materiali intelligentia 
+        liberta<lb ed="#Bb" break="no"/>tem.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1168">
+                  <lb ed="#Bb"/>Et quod dicit Philosophus, quod nihil
+        <lb ed="#Bb"/>indivisibilium movetur, intelligitur de
+        <lb ed="#Bb"/>motu naturali quocumque, et de 
+        indivi<lb ed="#Bb" break="no"/>sibili quod positionem habet in 
+        conti<lb ed="#Bb" break="no"/>nuo : hoc enim non transit spatium, nisi
+        <lb ed="#Bb"/>commensurando se spatio. Et hoc modo
+        <lb ed="#Bb"/>non movetur Angelus, ut in prima parte
+        <lb ed="#Bb"/>Summe theologiz, questione de motu
+        <lb ed="#Bb"/>Angeli dictum est’.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1190">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod dicit 
+        Aristo<lb ed="#Bb" break="no"/>teles, quod nihil movetur - nisi quantum
+        <lb ed="#Bb"/>de motu physico intelligendum est : 
+        An<lb ed="#Bb" break="no"/>gelus enim non movetur motu physico,
+        <lb ed="#Bb"/>sed motu jussus divini, ut dicit 
+        Dama<lb ed="#Bb" break="no"/>scenus : ubi enim jubetur, statim adest.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1206">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod licet quidam
+        <lb ed="#Bb"/>sunt assistentes, et quidam ministrantes,
+        <lb ed="#Bb"/>tamen ad jussa divina omnes sunt 
+        mobi<lb ed="#Bb" break="no"/>les, et semper.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1217">
+                  <lb ed="#Bb"/>Ad hoc quod ulterius queritur de hoc,
+        <lb ed="#Bb"/>Arbitrio libera : dicendum, quod Da
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>mascenus se exponit, et bene : vult enim,
+        <lb ed="#Bb"/>cum potentia naturalis non sit nisi ad
+        <lb ed="#Bb"/>unum, quod appetitus naturalis non 
+        pot<lb ed="#Bb" break="no"/>est esse liber ad hoc vel illud, sed de
+        <lb ed="#Bb"/>necessitate constringitur ad unum. Cum
+        <lb ed="#Bb"/>vero potentia rationalis vel intellectualis
+        <lb ed="#Bb"/>sit ad unum et ad aliud, et ad unum et
+        <lb ed="#Bb"/>ad oppositum, consequens est, ut 
+        volun<lb ed="#Bb" break="no"/>tas sive appetitus rationalis libere eligat
+        <lb ed="#Bb"/>unum vel alterum, vel detestetur unum
+        <lb ed="#Bb"/>vel alterum : aliter enim appetitus non
+        <lb ed="#Bb"/>responderet rationi, nec facultas motiva
+        <lb ed="#Bb"/>proportionaretur facultati nuntiantis : 
+        ap<lb ed="#Bb" break="no"/>prehensiva enim et motiva ad 
+        apprehen<lb ed="#Bb" break="no"/>sum (ut dicit Aristoteles in III de Anima)
+        <lb ed="#Bb"/>ad invicem habent se, sicut nuntians et
+        <lb ed="#Bb"/>exsequens.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1263">
+                  <lb ed="#Bb"/>Ad id quod inducitur, dicendum,
+        <lb ed="#Bb"/>quod, sicut dicit Anselmus, posse facere
+        <lb ed="#Bb"/>malum, nec est libertas, nec pars 
+        liber<lb ed="#Bb" break="no"/>tatis : sed in hoc consistit liberlas 
+        con<lb ed="#Bb" break="no"/>firmatorum in bono, quod lbere et sine
+        <lb ed="#Bb"/>coactione et sine obligatione ad aliquid
+        <lb ed="#Bb"/>alterum volunt bonum hoc quod 
+        vo<lb ed="#Bb" break="no"/>lunt : libertas autem obstinatorum in
+        <lb ed="#Bb"/>malo in hoc consistit, quod sine 
+        coa<lb ed="#Bb" break="no"/>clione volunt et eligunt malum hoc quod
+        <lb ed="#Bb"/>volunt, et eligunt ex obstinatione et 
+        per<lb ed="#Bb" break="no"/>tinacia propriz voluntatis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1293">
+                  <lb ed="#Bb"/>Ad id quod queritur, Quomodo ‘
+        dici<lb ed="#Bb" break="no"/>tur substantia incorporea ?
+      </p>
+               <p xml:id="Almn78-d25808-d1e1300">
+                  <lb ed="#Bb"/>Dicendum quod incorporeum et 
+        cor<lb ed="#Bb" break="no"/>poreum duobus modis dicuntur, scilicet
+        <lb ed="#Bb"/>a forma corporis que per essentiam est
+        <lb ed="#Bb"/>in corpore : que est longum esse, 
+        la<lb ed="#Bb" break="no"/>tum, et profundum. Et sic Angelus 
+        sim<lb ed="#Bb" break="no"/>pliciter substantia incorporea est, sicut
+        <lb ed="#Bb"/>et anima rationalis, et nullo modo 
+        sub<lb ed="#Bb" break="no"/>stantia corporea : et esset Tertulliana 
+        he<lb ed="#Bb" break="no"/>resis sic animam vel Angelum dicere
+        <lb ed="#Bb"/>corporeum. Tertullianus enim dixit 
+        ani<lb ed="#Bb" break="no"/>mam esse spiritum corporeum, 
+        linea<lb ed="#Bb" break="no"/>mentis corporalibus figuratum : et 
+        simi<lb ed="#Bb" break="no"/>liter dixit de Angelo, propter hoc quod
+        <lb ed="#Bb"/>talibus lineamentis figurari aliquando
+        <pb ed="#Bb" n="123"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>apparent, sensibili, vel imaginaria 
+        vi<lb ed="#Bb" break="no"/>sione.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1342">
+                  <lb ed="#Bb"/>Dicitur etiam incorporeum et 
+        corpo<lb ed="#Bb" break="no"/>reum a proprietate consequente corpus,
+        <lb ed="#Bb"/>que est localitas : ex hoc enim quod
+        <lb ed="#Bb"/>corpus longitudine, latitudine, 
+        profundi<lb ed="#Bb" break="no"/>tate terminatum est, loco 
+        circumscrip<lb ed="#Bb" break="no"/>tum est : et termini sui interiores, qui
+        <lb ed="#Bb"/>sunt superficies ejus, terminantur ad
+        <lb ed="#Bb"/>superficies loci exterioris. Et hoc modo
+        <lb ed="#Bb"/>omne cujus extensio terminata est, 
+        cor<lb ed="#Bb" break="no"/>poreum dicitur, et anima, et Angelus,
+        <lb ed="#Bb"/>et omne creatum : ad omnem enim 
+        si<lb ed="#Bb" break="no"/>tum sufsum, deorsum, detrorsum, 
+        si<lb ed="#Bb" break="no"/>nistrorsum, terminatum est. Cum enim
+        <lb ed="#Bb"/>nihil sui sit extra terminos essentie sue,
+        <lb ed="#Bb"/>relinquitur, quod terminetur ad id quod
+        <lb ed="#Bb"/>est supra ipsum, etad id quod est infra
+        <lb ed="#Bb"/>ipsum, et ad id quod est a dextris, et ad
+        <lb ed="#Bb"/>id quod est asinistris : et sic efficitur
+        <lb ed="#Bb"/>hic, ita quod non alibi, et non ubique.
+        <lb ed="#Bb"/>Et sic solus Deus ubique est, cujus 
+        es<lb ed="#Bb" break="no"/>sentia infinila est et nusquam deest : et
+        <lb ed="#Bb"/>hic simul et ubique oullis terminis 
+        in<lb ed="#Bb" break="no"/>clusus, solus incorporeus est. Et sic dicit
+        <lb ed="#Bb"/>Damascenus Angelum esse corporeum
+        <lb ed="#Bb"/>respectu Dei : simpliciter tamen et 
+        pri<lb ed="#Bb" break="no"/>mo modo accepta corporeitate, Angelus
+        <lb ed="#Bb"/>substantia incorporea est : et sic 
+        po<lb ed="#Bb" break="no"/>nitur incorporeum in definitione 
+        An<lb ed="#Bb" break="no"/>geli.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1407">
+                  <lb ed="#Bb"/>Ad quod dicendum, quod animal 
+        duo<lb ed="#Bb" break="no"/>bus modis dicitur, scilicet ab animalitate,
+        <lb ed="#Bb"/>et ab animeitate. Angelus a Gregorio 
+        di<lb ed="#Bb" break="no"/>citur animal, eo quod actum animeitatis
+        <lb ed="#Bb"/>et anime rationalis assumpsit in 
+        predi<lb ed="#Bb" break="no"/>cando Salvatorem. Et ex hoc non 
+        sequi<lb ed="#Bb" break="no"/>tur, quod sit animal ab animalitate 
+        di<lb ed="#Bb" break="no"/>ctum : et sic non sequitur ulterius,quod
+        <lb ed="#Bb"/>sit corporea substantia : hoc enim non
+        <lb ed="#Bb"/>competit nisi animali ab animalitate
+        <lb ed="#Bb"/>dicto : tale enim animal perficitur sensu
+        <lb ed="#Bb"/>tactus, ut dicit Avicenna, tactus enim
+        <lb ed="#Bb"/>non nisi corporum esse potest. |
+      </p>
+               <p xml:id="Almn78-d25808-d1e1438">
+                  <lb ed="#Bb"/>Et quod dicunt Philosophi Stoici, 
+        er<lb ed="#Bb" break="no"/>ror est etiam secundum philosophiam :
+        <lb ed="#Bb"/>animal enim aereum esse non potest, eo
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>quod aer figuras corporis animalis tenere
+        <lb ed="#Bb"/>non potest.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1454">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur de hoc
+        <lb ed="#Bb"/>quod dicit, Deo ministrans: dicendum,
+        <lb ed="#Bb"/>quod omnes ministrant, et superiores,
+        <lb ed="#Bb"/>et inferiores, et in eternum 
+        ministra<lb ed="#Bb" break="no"/>bunt. Et ideo dicitur, ad Hebr. 1, 14:
+        <lb ed="#Bb"/>Nonne omnes sunt administratorit 
+        spiri<lb ed="#Bb" break="no"/>tus, in ministerium missi ? Sed verum
+        <lb ed="#Bb"/>est, quod inferiores ministrant per 
+        seip<lb ed="#Bb" break="no"/>sos, superiores autem per inferiores,
+        <lb ed="#Bb"/>sicut dicit Dionysius in Celeséi 
+        hierar<lb ed="#Bb" break="no"/>chia’, tractans illud Isaize, v1, 6: 
+        Vola<lb ed="#Bb" break="no"/>vit ad me unus de Seraphim. Dicit enim,
+        <lb ed="#Bb"/>quod <quote xml:id="Almn78-d25808-Qd1e1484"> ille qui purgavit Prophetam, de
+          <lb ed="#Bb"/>inferiori ordine fuit, sed vices superioris
+          <lb ed="#Bb"/>exercuit. </quote> Ac si diceret inferior de 
+        su<lb ed="#Bb" break="no"/>periori : Per me ille te purgat : sicut sepe
+        <lb ed="#Bb"/>diximus quod lex divinitatis est, per
+        <lb ed="#Bb"/>prima media, et per media ultima 
+        redu<lb ed="#Bb" break="no"/>cere : et sic superiores illuminationes
+        <lb ed="#Bb"/>ministeriorum transfundunt super 
+        me<lb ed="#Bb" break="no"/>dios, et medii super inferiores, et sic
+        <lb ed="#Bb"/>quodammodo omnes ministrant. Et hoe.
+        <lb ed="#Bb"/>ministerium non cessabit, nec ante diem
+        <lb ed="#Bb"/>judicii, nec post: ad hoc enim omnes
+        <lb ed="#Bb"/>creati sunt tam boni quam mali, 
+        quam<lb ed="#Bb" break="no"/>vis mali per aversionem voluntatis 
+        aver<lb ed="#Bb" break="no"/>si sunt ab illo: et ideo modo non 
+        mini<lb ed="#Bb" break="no"/>strant, nisi ministerium valde large 
+        acci<lb ed="#Bb" break="no"/>piatur pro exercitio tentationum, 
+        secun<lb ed="#Bb" break="no"/>dum quod dicit Gregorius, quod Deo
+        <lb ed="#Bb"/>militat etiam illud quod per malitiam
+        <lb ed="#Bb"/>voluntatis Deo obnititur et resistit. Et
+        <lb ed="#Bb"/>beatus Bernardus super Cantica,super 
+        il<lb ed="#Bb" break="no"/>lud Canticorum, 1,5: Filit matris mee
+        <lb ed="#Bb"/>pugnaverunt contra me, dicit sic: <quote xml:id="Almn78-d25808-Qd1e1534"> 
+          Ju<lb ed="#Bb" break="no"/>cundum plane judicium, quod ille 
+          ini<lb ed="#Bb" break="no"/>quus omnium humilium malleator,
+          <lb ed="#Bb"/>etiam nolens fabricet eis coronas 
+          perpe<lb ed="#Bb" break="no"/>tuas, dum omnes tentat, et ab hominibus
+          <lb ed="#Bb"/>superatur. </quote> Sed hoc non vocatur 
+        mini<lb ed="#Bb" break="no"/>sterium proprie, sed potius ministerium
+        <lb ed="#Bb"/>primo modo dictum.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1554">
+                  <lb ed="#Bb"/>Ad id quod ultimo queritur de hoc
+        <pb ed="#Bb" n="124"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>quod dicit, Jmmortalitatem non natura,
+        <lb ed="#Bb"/>sed gratia suscipiens: dicendum, quod
+        <lb ed="#Bb"/>immortalitas dicitur multis modis. Uno
+        <lb ed="#Bb"/>enim modo dieitur immortalitas 
+        immu<lb ed="#Bb" break="no"/>tabilitas. Unde, I ad Timoth. vi, 16, 
+        su<lb ed="#Bb" break="no"/>per illud : Qui solus habet 
+        immortalita<lb ed="#Bb" break="no"/>tem, et lucem habitat inaccessibilem, 
+        di<lb ed="#Bb" break="no"/>cit Glossa, quod <quote xml:id="Almn78-d25808-Qd1e1580"> vera immortalitas est
+          <lb ed="#Bb"/>vera immutabilitas : qua enim 
+          mutan<lb ed="#Bb" break="no"/>tur, in his ipsa mutabilitas nonnulla
+          <lb ed="#Bb"/>mors est. </quote> Et ratio dicti est, quia 
+        que<lb ed="#Bb" break="no"/>cumgué mutantur secundum formam,
+        <lb ed="#Bb"/>necessé est, quod destruantur in esse
+        <lb ed="#Bb"/>forme secundum quam mutantur, et sic
+        <lb ed="#Bb"/>quodammodo moriuntur secundum 
+        ali<lb ed="#Bb" break="no"/>quod esse. Et hoc modo Angelus non est
+        <lb ed="#Bb"/>immortalis, nisi sicut dicit Augustinus
+        <lb ed="#Bb"/>in libro XII Confessionum, quod <quote xml:id="Almn78-d25808-Qd1e1604"> 
+          parti<lb ed="#Bb" break="no"/>cipatione wternitalis et beatitudinis 
+          divi<lb ed="#Bb" break="no"/>vine Angelus beatus mutabilitatem
+          <lb ed="#Bb"/>suam nusquam exerit. </quote> Sed vere et
+        <lb ed="#Bb"/>simpliciter solus Deus hoc modo 
+        immor<lb ed="#Bb" break="no"/>talis est : quidquid enim in Deo est,
+        <lb ed="#Bb"/>Deus est, et mutari non potest, nec 
+        ab<lb ed="#Bb" break="no"/>jici, nec adjici per aliquam mutationem.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1623">
+                  <lb ed="#Bb"/>Secundo modo dicitur immortalitas
+        <lb ed="#Bb"/>ejus quod morti et corruptioni non 
+        sub<lb ed="#Bb" break="no"/>jicitur per aliquam causam naturalem,
+        <lb ed="#Bb"/>sicut sunt ille due cause quas induxit
+        <lb ed="#Bb"/>Philosophus. Et hoc modo Angelus 
+        im<lb ed="#Bb" break="no"/>‘mortalis est et incorruptibilis per 
+        natu<lb ed="#Bb" break="no"/>ram : quia scilicet non habet in se 
+        cau<lb ed="#Bb" break="no"/>sas, quibus dissolvaniur de necessitate
+        <lb ed="#Bb"/>principia essentialia ipsius, sicut habet
+        <lb ed="#Bb"/>homo et cetera animalia mortalia.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1647">
+                  <lb ed="#Bb"/>Tertio modo dicitar mortale sive 
+        cor<lb ed="#Bb" break="no"/>fuptibile, quod quantum est de se, 
+        sem<lb ed="#Bb" break="no"/>per tendit ad non esse : sicut dicit 
+        Da<lb ed="#Bb" break="no"/>ihascenus de omnibus his que a 
+        ver<lb ed="#Bb" break="no"/>sione incipiunt, et ex nihilo 
+        producun<lb ed="#Bb" break="no"/>tur in esse. Seepius enim in antehabitis
+        <lb ed="#Bb"/>ostensum est, quod ea que ex nihilo sunt,
+        <lb ed="#Bb"/>secundum id qaod sunt, et nihil sunt, et
+        <lb ed="#Bb"/>ex nihilo sunt. Et hec modo omnis 
+        crea<lb ed="#Bb" break="no"/>tura, et spiritualis, et corporea,et 
+        morta<lb ed="#Bb" break="no"/>lis est : et in nihilum tenderet, nisi manus
+        <lb ed="#Bb"/>omnipotentis Bei eam teneret, ut dicit
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Gregorius. Et hec continentia in esse 
+        vo<lb ed="#Bb" break="no"/>catur gratia : unde Angelus non natura,
+        <lb ed="#Bb"/>sed gratia habet, quod immortalis est.
+        <lb ed="#Bb"/>Hoc modo loquitur Plato in Timezo sic
+        <lb ed="#Bb"/>dicens : <quote xml:id="Almn78-d25808-Qd1e1688"> Conditor universitatis Deus
+          <lb ed="#Bb"/>observanda jubet, sancitque oratione
+          <lb ed="#Bb"/>tali : O dii deorum,quorum opifex 
+          idem<lb ed="#Bb" break="no"/>que pater ego : opera siquidem vos
+          <lb ed="#Bb"/>vestra dissolubilia natura, me tamen ita
+          <lb ed="#Bb"/>volente indissolubiles. </quote> Omne siquidem
+        <lb ed="#Bb"/>quod conjunctum est, natura~
+        dissolubi<lb ed="#Bb" break="no"/>le est : hoc vero quod bona ratione 
+        jun<lb ed="#Bb" break="no"/>ctum atque modulatum est, dissolvi
+        <lb ed="#Bb"/>velle non est Dei. Quapropter quia facti
+        <lb ed="#Bb"/>generatique estis, immortales 
+        nequa<lb ed="#Bb" break="no"/>quam, nec omnino indissolubiles : nec
+        <lb ed="#Bb"/>tamen umquam dissolvemini, nec mortis
+        <lb ed="#Bb"/>necessitatem subibitis : quia voluntas
+        <lb ed="#Bb"/>mea major nexus est et vegetatior ad
+        <lb ed="#Bb"/>eternitatis custodiam, quam illi vitales
+        <lb ed="#Bb"/>nexus ex quibus eternitas vestra 
+        coaug<lb ed="#Bb" break="no"/>mentata est atque composita ad mortis —
+        <lb ed="#Bb"/>necessitatem. Omne autem creatum 
+        con<lb ed="#Bb" break="no"/>junctum est et compositum : quia in eo
+        <lb ed="#Bb"/>aliud est quod est et esse : et ideo omne
+        <lb ed="#Bb"/>creatum mortale et corruptibile est per
+        <lb ed="#Bb"/>naturam : nec est susceptibile 
+        immorta<lb ed="#Bb" break="no"/>litatis, nisi per gratiam.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1741">
+                  <lb ed="#Bb"/>Et iste est intellectus definitionis 
+        Da<lb ed="#Bb" break="no"/>masceni.
+      </p>
+            </div>
+            <div xml:id="Almn78-d25808-Dd1e1749">
+               <head xml:id="Almn78-d25808-Hd1e1751">Membrum 2</head>
+               <head xml:id="Almn78-d25808-Hd1e1754" type="question-title">
+        An definitio Angeli secundum 
+        Dionysium sit essentialis
+      </head>
+               <p xml:id="Almn78-d25808-d1e1757">
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>An definitio Angeli secundum 
+        Diony<lb ed="#Bb" break="no"/>sium sit essentialis ?
+      </p>
+               <p xml:id="Almn78-d25808-d1e1766">
+                  <lb ed="#Bb"/>Juxta hoc queritur de definitione
+        <lb ed="#Bb"/>quam ponit Dionysius in libro de Divinis
+        <lb ed="#Bb"/>nominibus ', ubi ostendens, quod neque
+        <lb ed="#Bb"/>in Angelis bonis est malum, dicit sic :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d25808-Qd1e1779">Si enuntiat bonitatem divinam 
+          boni<lb ed="#Bb" break="no"/>formis Angelus, illud existens 
+          secun<lb ed="#Bb" break="no"/>dum participationem secundario quod
+          <pb ed="#Bb" n="125"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>est secundum causam enuntiatum in
+          <lb ed="#Bb"/>primo, imago Dei est Angelus, 
+          mani<lb ed="#Bb" break="no"/>festatio occulti luminis, speculum 
+          pu<lb ed="#Bb" break="no"/>rum, clarissimum, incontaminatum,
+          <lb ed="#Bb"/>incoinquinatum, immaculatum, 
+          susci<lb ed="#Bb" break="no"/>piens totam (si est conveniens dicere) 
+          pul<lb ed="#Bb" break="no"/>chritudinem boniformis deiformitatis,
+          <lb ed="#Bb"/>et munde resplendere faciens in seipso,
+          <lb ed="#Bb"/>quemadmodum possibile est, bonitatem
+          <lb ed="#Bb"/>silentii quod est in abditis. </quote>
+               </p>
+               <p xml:id="Almn78-d25808-d1e1813">
+                  <lb ed="#Bb"/>Ostenditur autem circa istam 
+        definitio<lb ed="#Bb" break="no"/>nem primo sic : quia
+        <lb ed="#Bb"/>4. Non videtur proprium boniformis
+        <lb ed="#Bb"/>Angeli, sive boni Angeli, enuntiare 
+        bo<lb ed="#Bb" break="no"/>nitatem divinam : omnia enim enuntiant
+        <lb ed="#Bb"/>bonitatem divinam que a bono facta
+        <lb ed="#Bb"/>sunt. Dictum enim est et probatum in
+        <lb ed="#Bb"/>tractatu. de bono per verba Dionysii,
+        <lb ed="#Bb"/>quod bonum est, quod est a bono, et in
+        <lb ed="#Bb"/>bono plantatum, et ad bonum. Non ergo
+        <lb ed="#Bb"/>specialiter convenit Angelo enuntiare
+        <lb ed="#Bb"/>divinam bonitatem.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1843">
+                  <lb ed="#Bb"/>2. Adhuc, Ibidem in commento dicit
+        <lb ed="#Bb"/>Maximus : <quote xml:id="Almn78-d25808-Qd1e1849"> Boniformis bene et 
+          veraci<lb ed="#Bb" break="no"/>ter in Angelis posuit : nam Deus 
+          essen<lb ed="#Bb" break="no"/>tialiter ipsum optimum cum sit, que
+          <lb ed="#Bb"/>post ipsum, ex parlicipatione ac 
+          extrinse<lb ed="#Bb" break="no"/>cus bona effecta sunt : appetitu enim
+          <lb ed="#Bb"/>circa bonum flagrant, et consequenter
+          <lb ed="#Bb"/>boniformia dicuntur, non bona per 
+          seip<lb ed="#Bb" break="no"/>sa.</quote> Ex hoc accipitur, quod boniformem
+        <lb ed="#Bb"/>esse non est proprium Angelis, sed 
+        com<lb ed="#Bb" break="no"/>mune omnibus his que a Deo bono facta
+        <lb ed="#Bb"/>sunt,
+      </p>
+               <p xml:id="Almn78-d25808-d1e1875">
+                  <lb ed="#Bb"/>Uxreriws queritur de hoc quod dicit,
+        <lb ed="#Bb"/>quod Angelus est imago Dei. Hoc enim
+        <lb ed="#Bb"/>falsum videtur : quia
+      </p>
+               <p xml:id="Almn78-d25808-d1e1884">
+                  <lb ed="#Bb"/>1. In primo libro Sententiarum, dist.
+        <lb ed="#Bb"/>XXXI, ex verbis Augustini et 
+        Hila<lb ed="#Bb" break="no"/>rii probatur, quod soli Filio convenit
+        <lb ed="#Bb"/>esse imaginem Dei : videtur ergo, quod
+        <lb ed="#Bb"/>non convenit Angelo, quia de propriis
+        <lb ed="#Bb"/>Filii est, sicut dicit Apostolus, ad Coloss.
+        <lb ed="#Bb"/>1, 15: Qui est imago Dei invisibilis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1902">
+                  <lb ed="#Bb"/>2. Adhuc, Damascenus : <quote xml:id="Almn78-d25808-Qd1e1906"> Ipse 
+          scili<lb ed="#Bb" break="no"/>cet Deus Angelorum est factor et condi
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>tor, ex non esse ad esse eos deéducens,
+          <lb ed="#Bb"/>secundum propriam imaginem creans
+          <lb ed="#Bb"/>eos *. </quote> Ergo Angelus factus est 
+        secun<lb ed="#Bb" break="no"/>dum imaginem, vel ad imaginem. Cum
+        <lb ed="#Bb"/>ergo prepositiones transitive sint, et
+        <lb ed="#Bb"/>notent diversitatem : diversitas ex vi
+        <lb ed="#Bb"/>constructionis accipitur inter imaginem,
+        <lb ed="#Bb"/>et factum ad imaginem vel secundum
+        <lb ed="#Bb"/>imaginem : ergo si Angelus factus est
+        <lb ed="#Bb"/>secundum imaginem, Angelus non est
+        <lb ed="#Bb"/>imago.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1937">
+                  <lb ed="#Bb"/>3. Adhuc, Hilarius, <quote xml:id="Almn78-d25808-Qd1e1941"> Imago est rei ad
+          <lb ed="#Bb"/>rem imitandam et coequandam species
+          <lb ed="#Bb"/>indifferens. </quote> Angelus non est species
+        <lb ed="#Bb"/>indifferens ad Trinitatem imitandam et
+        <lb ed="#Bb"/>coequandam : ergo non est imago :
+        <lb ed="#Bb"/>et sic male dicit quando dicit, quod est
+        <lb ed="#Bb"/>imago Dei.
+      </p>
+               <p xml:id="Almn78-d25808-d1e1958">
+                  <lb ed="#Bb"/>4. Si propter hoc aliquis dicat, quod
+        <lb ed="#Bb"/>Angelus est ad imaginem Dei, non 
+        ima<lb ed="#Bb" break="no"/>go: erit hoc contra Augustinum in 
+        ser<lb ed="#Bb" break="no"/>mone de imagine sic dicentem : <quote xml:id="Almn78-d25808-Qd1e1968"> Nulli
+          <lb ed="#Bb"/>creature dedit Deus ut esset ad imaginem,
+          <lb ed="#Bb"/>nisi soli homini. De nulla enim creatura
+          <lb ed="#Bb"/>legitur, Genes. 1, 26, nisi de solo ho~
+          <lb ed="#Bb"/>mine : Faciamus hominem ad imaginem
+          <lb ed="#Bb"/>et similitudinem nostram. </quote>
+               </p>
+               <p xml:id="Almn78-d25808-d1e1983">
+                  <lb ed="#Bb"/>5. Si forte quis dicat, quod uterque est
+        <lb ed="#Bb"/>ad imaginem, et homo, et Angelus, ut
+        <lb ed="#Bb"/>videntur dicere Sancti. Tunc queratur,
+        <lb ed="#Bb"/>Cui per prius conveniat ? Et videtur,
+        <lb ed="#Bb"/>quod Angelo. Isidorus dicit : <quote xml:id="Almn78-d25808-Qd1e1996"> Quanto
+          <lb ed="#Bb"/>simplicior est Angelo natura, tanto
+          <lb ed="#Bb"/>invenitur imago Dei in eo magis ex~
+          <lb ed="#Bb"/>pressa. </quote>
+               </p>
+               <p xml:id="Almn78-d25808-d1e2006">
+                  <lb ed="#Bb"/>6. Adhuc, Constat, quod per potiora
+        <lb ed="#Bb"/>imitatur Angelus, quam homo : imitatur
+        <lb ed="#Bb"/>enim Angelus in lumine gloriz, homé
+        <lb ed="#Bb"/>vero in lumine gratia : et sic videtur
+        <lb ed="#Bb"/>per prius convenire Angelo quam 
+        ho<lb ed="#Bb" break="no"/>mini.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2022">
+                  <lb ed="#Bb"/>7. Adhuc, Ut dicit Aristoteles in libro
+        <lb ed="#Bb"/>de Memoria et reminiseentia, imago ab
+        <lb ed="#Bb"/>imitando dicitur ; eo quod fofmam alicu~
+        <lb ed="#Bb"/>jus prius accepti representat, et facit
+        <lb ed="#Bb"/>eam quasi presentém. Sed Angelus plus
+        <lb ed="#Bb"/>reprasentat bonitatem Dei, quam home,
+        <pb ed="#Bb" n="126"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Ergo plus est ad imaginem, quam 
+        ho<lb ed="#Bb" break="no"/>mo.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2046">
+                  <lb ed="#Bb"/>8. Adhuc, Videtur quod equaliter 
+        ho<lb ed="#Bb" break="no"/>mo et Angelus sint ad imaginem Dei :
+        <lb ed="#Bb"/>quia quod per idem convenit, videtur
+        <lb ed="#Bb"/>zqualiter convenire : sed per idem 
+        con<lb ed="#Bb" break="no"/>venit homini et Angelo esse ad 
+        imagi<lb ed="#Bb" break="no"/>nem Dei, quia per memoriam, 
+        intelli<lb ed="#Bb" break="no"/>gentiam, et voluntatem : et hec tria tam
+        <lb ed="#Bb"/>in homine, quam in Angelo sunt: et
+        <lb ed="#Bb"/>sic videtur zqualiter utrique 
+        conve<lb ed="#Bb" break="no"/>nire.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2070">
+                  <lb ed="#Bb"/>9. Si forte quis dicat, quod materia
+        <lb ed="#Bb"/>non convenit Angelo: memoria enim,
+        <lb ed="#Bb"/>ut dicit Damascenus, thesaurus est 
+        for<lb ed="#Bb" break="no"/>marum prius acceptarum : et talis 
+        the<lb ed="#Bb" break="no"/>saurus non convenit Angelo, qui omnia
+        <lb ed="#Bb"/>vel in Deo vel in ipsa rerum presentia
+        <lb ed="#Bb"/>videt, ut Dicit Dionysius in libro de 
+        Di<lb ed="#Bb" break="no"/>vinis nominibus *. Contra: Certum est,
+        <lb ed="#Bb"/>quod secundum quod memoria est 
+        the<lb ed="#Bb" break="no"/>saurus sensibilium formarum prius 
+        ac<lb ed="#Bb" break="no"/>ceptarum, non convenit Angelo : quia
+        <lb ed="#Bb"/>non accipit formas per sensus quas apud
+        <lb ed="#Bb"/>se teneat. Sed secundum quod memoria
+        <lb ed="#Bb"/>est, ut dicit Augustinus in libro XV de
+        <lb ed="#Bb"/>Trinitate, tentio notitie cujuscumque rei
+        <lb ed="#Bb"/>apud se est.Dicit enim, quod meminisse,
+        <lb ed="#Bb"/>est notitiam rei apud se tenere, et ad
+        <lb ed="#Bb"/>illam converti per intellectum, Sic 
+        con<lb ed="#Bb" break="no"/>stat, quod Angelo est memoria : et ita -
+        <lb ed="#Bb"/>accipitur memoria quando ponitur pars
+        <lb ed="#Bb"/>imaginis : et sic redit, quod in Angelo
+        <lb ed="#Bb"/>sit imago sicut in homine, vel plus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2120">
+                  <lb ed="#Bb"/>10. Adhuc, Augustinus in libro XV de
+        <lb ed="#Bb"/>Trinitate disputat et inquirit, secundum
+        <lb ed="#Bb"/>quid imago Dei sit in homine ? Et 
+        osten<lb ed="#Bb" break="no"/>dit, quod non secundum sensum, nec
+        <lb ed="#Bb"/>secundum rationis inferiorem partem,
+        <lb ed="#Bb"/>que mulier dicitur, sed secundum 
+        ratio<lb ed="#Bb" break="no"/>nis parlem superiorem, que 
+        contem<lb ed="#Bb" break="no"/>plandis et consulendis superioribus 
+        in<lb ed="#Bb" break="no"/>herescit : et adhuc in illa est secundum
+        <lb ed="#Bb"/>mentem, que suprema pars ejus est:
+        <lb ed="#Bb"/>et dicitur a metior, metiris, ut dicit 
+        Da<lb ed="#Bb" break="no"/>mascenus, quia secundum illam quantum
+        <lb ed="#Bb"/>potest, commetitur se Trinitati persona
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>rum et origini unius persone ex alia in
+        <lb ed="#Bb"/>una essentia. Propter quod ibidem dicit,
+        <lb ed="#Bb"/>quod etiam non est in mente secundum
+        <lb ed="#Bb"/>quod refertur ad ista inferiora, sed potius
+        <lb ed="#Bb"/>secundum quod refertur ad Deum, et
+        <lb ed="#Bb"/>capax ipsius est per aliquam 
+        similitudi<lb ed="#Bb" break="no"/>nem, quamvis imperfectam. Sed hee
+        <lb ed="#Bb"/>capacitas vel plus vel equaliter convenit
+        <lb ed="#Bb"/>Angelo cum homine : videtur ergo, quod
+        <lb ed="#Bb"/>vel plus convenit Angelo ad imaginem
+        <lb ed="#Bb"/>esse, quam homini, vel equaliter homini
+        <lb ed="#Bb"/>et Angelo.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2180">
+                  <lb ed="#Bb"/>11. Adhuc, Glossa super illud 
+        Psalmi<lb ed="#Bb" break="no"/>ste, Psal. iv, 7: Signatum est super
+        <lb ed="#Bb"/>nos lumen vulius tui, Domine : distinguit
+        <lb ed="#Bb"/>triplicem imaginem, scilicet creationis,
+        <lb ed="#Bb"/>recreationis, et similitudinis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2193">
+                  <lb ed="#Bb"/>Et dicit, quod imago creationis est
+        <lb ed="#Bb"/>ratio: et hee magis pollet in Angelo,
+        <lb ed="#Bb"/>quam in homine : unde in hac magis
+        <lb ed="#Bb"/>vel eque est Angelus ad imaginem, quam
+        <lb ed="#Bb"/>homo. Et sic videtur Angelus non esse
+        <lb ed="#Bb"/>imago, sed ad imaginem.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2209">
+                  <lb ed="#Bb"/>Dicit etiam Glossa, quod imago 
+        re<lb ed="#Bb" break="no"/>creationis sunt fides, spes, et charitas.
+        <lb ed="#Bb"/>Et secundum hane etiam cum Angelus
+        <lb ed="#Bb"/>loco fidei habeat apertam visionem, loco
+        <lb ed="#Bb"/>spei certam apprehensionem, et 
+        charita<lb ed="#Bb" break="no"/>tem habeat perfectam, videtur magis esse
+        <lb ed="#Bb"/>eapax Dei, quam homo, et sic plus ad
+        <lb ed="#Bb"/>imaginem.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2229">
+                  <lb ed="#Bb"/>Dicit etiam Glossa, quod imago 
+        simi<lb ed="#Bb" break="no"/>litudinis attenditur in memoria, intellectu
+        <lb ed="#Bb"/>et voluntate : quia sicut ex memoria 
+        ori<lb ed="#Bb" break="no"/>tur intellectus secundum actum, quando
+        <lb ed="#Bb"/>intelleclus intuetur notitiam rei quam
+        <lb ed="#Bb"/>habet apud se : et sicut ex memoria et
+        <lb ed="#Bb"/>intellectu oritur voluntas, quando mens
+        <lb ed="#Bb"/>noscens se, intuens se, vult se, et amat
+        <lb ed="#Bb"/>se: ita ex Patre Filius, et ex Patre et
+        <lb ed="#Bb"/>Filio Spiritus sanctus qui amor est. Et
+        <lb ed="#Bb"/>sicut tres persone in Trinitate sunt una
+        <lb ed="#Bb"/>substantia, una essentia, una vita, unus
+        <lb ed="#Bb"/>Deus : ita hec tria in animo pro modo
+        <lb ed="#Bb"/>suo sunt una substantia, una essentia,
+        <lb ed="#Bb"/>una vita, una mens. Hoc autem est in
+        <lb ed="#Bb"/>Angelo sicut in homine, vel plus in
+        <pb ed="#Bb" n="127"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Angelo, quam in homine : et sic videtur
+        <lb ed="#Bb"/>Angelus esse ad imaginem Dei sicut 
+        ho<lb ed="#Bb" break="no"/>mo, vel plus quam homo.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2277">
+                  <lb ed="#Bb"/>Ex omnibus his arguitur, quod nec
+        <lb ed="#Bb"/>esse imaginem, nec esse ad imaginem
+        <lb ed="#Bb"/>potest esse propria differentia et 
+        essen<lb ed="#Bb" break="no"/>tialis Angelo, et sic in definitione ejus
+        <lb ed="#Bb"/>poni non debet.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2290">
+                  <lb ed="#Bb"/>Ulterius queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Manifestatio occulti luminis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2298">
+                  <lb ed="#Bb"/>1. Lumen enim divinum non potest
+        <lb ed="#Bb"/>dici occultum : non enim potest esse
+        <lb ed="#Bb"/>occultum, quod se et omnia alia 
+        manife<lb ed="#Bb" break="no"/>stat : lumen autem divinum est, quod se
+        <lb ed="#Bb"/>et omnia alia manifestat : ergo male 
+        di<lb ed="#Bb" break="no"/>cit, Occulti luminis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2314">
+                  <lb ed="#Bb"/>2. Adhuc, Majus in minori non 
+        mani<lb ed="#Bb" break="no"/>festatur, nisi secundum partem, et sic
+        <lb ed="#Bb"/>tantum occultatur, quantum manifesta~
+        <lb ed="#Bb"/>tur. Cum ergo in infinitum majus sit
+        <lb ed="#Bb"/>lumen divinum, quam angelicum, non
+        <lb ed="#Bb"/>debet dici manifestatio occulti luminis,
+        <lb ed="#Bb"/>sed occultatio : et sic male ponitur in
+        <lb ed="#Bb"/>definitione, Manifestatio occulti 
+        lumi<lb ed="#Bb" break="no"/>nis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2336">
+                  <lb ed="#Bb"/>Utrerivus queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Speculum purum.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2343">
+                  <lb ed="#Bb"/>1. Hoc enim videtur non convenire
+        <lb ed="#Bb"/>Angelo, sed sapientie increate, que
+        <lb ed="#Bb"/>appropriatur Filio. Sapient. vn, 26
+        <lb ed="#Bb"/>Candor est lucis xterne, et speculum
+        <lb ed="#Bb"/>sine macula Dei majestatis, et imago
+        <lb ed="#Bb"/>bonitatis illius. .
+      </p>
+               <p xml:id="Almn78-d25808-d1e2359">
+                  <lb ed="#Bb"/>2, Adhuc, Speculum est in quo 
+        resplen<lb ed="#Bb" break="no"/>dent res per reflexionem luminis ad 
+        ip<lb ed="#Bb" break="no"/>sum : primum autem in quo resplendet
+        <lb ed="#Bb"/>sapientia ingenita, est sapientia genita,
+        <lb ed="#Bb"/>que est Verbum. Unde in Psalmo cix,
+        <lb ed="#Bb"/>3: In splendoribus Sanctorum, ex utero
+        <lb ed="#Bb"/>ante luciferum genui te. Et sic primo
+        <lb ed="#Bb"/>non convenit Angelo esse speculum, sed
+        <lb ed="#Bb"/>Filio Dei.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2381">
+                  <lb ed="#Bb"/>3. Adhuc, Actus speculi manifestare
+        <lb ed="#Bb"/>est: ergo cum ante dixit, Manifesiatio
+        <lb ed="#Bb"/>occultt luminis, nugatorie videtur 
+        ad<lb ed="#Bb" break="no"/>dere, Speculum, quod ad eumdem actum
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2395">
+                  <lb ed="#Bb"/>Uttertius inculcatio verborum videtur
+        <lb ed="#Bb"/>esse quod dicit, Purum, clarissimum,
+        <lb ed="#Bb"/>incontaminatum, incoinguinatum, 
+        im<lb ed="#Bb" break="no"/>maculatum : omnia enim hee videntur
+        <lb ed="#Bb"/>ad idem pertinere : et sic videtur, quod
+        <lb ed="#Bb"/>inculcatio quedam est superflua.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2411">
+                  <lb ed="#Bb"/>Utrerivs queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Suscipiens totam (si est conveniens 
+        di<lb ed="#Bb" break="no"/>cere) pulchritudinem boniformis 
+        deifor<lb ed="#Bb" break="no"/>mutatis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2422">
+                  <lb ed="#Bb"/>Scitur enim, quod non est conveniens
+        <lb ed="#Bb"/>dicere, quod aliquid secundorum totam
+        <lb ed="#Bb"/>pessit recipere pulchritudinem 
+        bonifor<lb ed="#Bb" break="no"/>mis Dei: male ergo dicit, si est conve~
+        <lb ed="#Bb"/>niens dicere.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2435">
+                  <lb ed="#Bb"/>Uxterivs queritur de hoc quod dicit,
+        <lb ed="#Bb"/>Munderesplendere faciensin seipso,
+        quem<lb ed="#Bb" break="no"/>admodum possibile est, bonitatem 
+        si<lb ed="#Bb" break="no"/>lentii quod est in abditis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2446">
+                  <lb ed="#Bb"/>Silentium enim quod est in abdilis, in
+        <lb ed="#Bb"/>nullo possibile est resplendere : splendor
+        <lb ed="#Bb"/>enim est diffusio luminis ejus, ut dicit
+        <lb ed="#Bb"/>Dionysius in libro de Divinis 
+        nomini<lb ed="#Bb" break="no"/>bus‘: et propter hoc in idem 
+        determi<lb ed="#Bb" break="no"/>natur bonum et lumen: diffusio autem
+        <lb ed="#Bb"/>luminis, est productio omnium eorum
+        <lb ed="#Bb"/>que sunt : et sic non manet in abditis
+        <lb ed="#Bb"/>si splendet : nec manetin silentio, quia
+        <lb ed="#Bb"/>sicut dicitur, <ref xml:id="Almn78-d25808-Rd1e2469">ad Roman. iv, 17</ref>, tunc
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d25808-Qd1e2475" source="http://scta.info/resource/rom4_17@18-25">vocat ea que non sunt, tamquam ea que
+          <lb ed="#Bb"/>sunt</quote>.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2481">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod beatus 
+        Dio<lb ed="#Bb" break="no"/>nysius in illo loco vera et essentiali
+        <lb ed="#Bb"/>definitione non intendit definire 
+        Ange<lb ed="#Bb" break="no"/>lum, sed ex boniformitate Angeli 
+        inten<lb ed="#Bb" break="no"/>dit ostendere, quod malum non est in
+        <lb ed="#Bb"/>Angelo: sicut ante ostendit, quod malum
+        <lb ed="#Bb"/>non est quid existentium, neque quid in
+        <lb ed="#Bb"/>existentibus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2502">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+        om<lb ed="#Bb" break="no"/>nia que a bono facta sunt, enuntiant
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>bonum et ostendunt : neque hoc 
+        specia<lb ed="#Bb" break="no"/>liter convenit Angelo, sed antonomastice
+        <lb ed="#Bb"/>convenit ei, eo quod hoc in bonis 
+        intel<lb ed="#Bb" break="no"/>lectualibus et divinis enuntiat, sicut 
+        cau<lb ed="#Bb" break="no"/>sa enuntiatur in effectu, et sicut signum
+        <lb ed="#Bb"/>enuntiat signatum, et sicut nutus 
+        enun<lb ed="#Bb" break="no"/>tiat hoc ad quod innuit, ut dicit 
+        Augusti<lb ed="#Bb" break="no"/>nus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2528">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Maximus
+        <lb ed="#Bb"/>verum dicit: quia que participative 
+        bo<lb ed="#Bb" break="no"/>na sunt, non sunt essentialiter bona, ita
+        <lb ed="#Bb"/>quod bonitas sua sit essentia ipsorum :
+        <lb ed="#Bb"/>et hoc et non amplius intendit 
+        Maxi<lb ed="#Bb" break="no"/>mus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2544">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+        dicen<lb ed="#Bb" break="no"/>dum quod imago dicitur dupliciter. Est
+        <lb ed="#Bb"/>enim imago imitans, et cozquans id quod
+        <lb ed="#Bb"/>imitatur, in essentia et in omnibus aliis
+        <lb ed="#Bb"/>attributis essentie : et hoc solum 
+        conve<lb ed="#Bb" break="no"/>nit Filio Dei, quia hee est species 
+        indif<lb ed="#Bb" break="no"/>ferens : et hoc modo solus Filius imago
+        <lb ed="#Bb"/>Dei est. Et est imitans imago et non 
+        co<lb ed="#Bb" break="no"/>equans, sicut est imago Herculis, que
+        <lb ed="#Bb"/>non imitatur nisi in exterioribus 
+        linea<lb ed="#Bb" break="no"/>mentis, et non coequat ipsum : et hujus
+        <lb ed="#Bb"/>prototypus est Hercules, non’ tamen 
+        spe<lb ed="#Bb" break="no"/>cies indifferens et coequata. Et hoc modo
+        <lb ed="#Bb"/>Angelus dicitur esse imago Dei non 
+        co<lb ed="#Bb" break="no"/>zquans ipsum, sed imitans et 
+        represen<lb ed="#Bb" break="no"/>tans in quibusdam, et ex parte, non 
+        per<lb ed="#Bb" break="no"/>fecte: propter quod etiam non tam dicitur
+        <lb ed="#Bb"/>imago, quam secundum imaginem, ut
+        <lb ed="#Bb"/>dicit Damascenus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2588">
+                  <lb ed="#Bb"/>Ad primum Damasceni jam patet 
+        solu<lb ed="#Bb" break="no"/>tio. Distantiam enim illam et 
+        diversita<lb ed="#Bb" break="no"/>tem, quod non est coequans, nec species
+        <lb ed="#Bb"/>indifferens’: sed imitans et ex parte, notat
+        <lb ed="#Bb"/>prepositio secundum quam ponit 
+        Dama<lb ed="#Bb" break="no"/>scenus.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2604">
+                  <lb ed="#Bb"/>Ad primum Hilarii similiter patet 
+        solu<lb ed="#Bb" break="no"/>tio per predicta.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2611">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod secundum
+        <lb ed="#Bb"/>Augustinum in libro primo super 
+        Gene<lb ed="#Bb" break="no"/>sim ad litteram, imago dicitur quasi 
+        imi<lb ed="#Bb" break="no"/>tago, ‘et potest notare imitationem in
+        <lb ed="#Bb"/>ratione principii potestatis, et in simili
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>tudine ordinis nature trium personarum
+        <lb ed="#Bb"/>in unitate essentiz.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2632">
+                  <lb ed="#Bb"/>Si primo modo dicatur imago, solus
+        <lb ed="#Bb"/>Adam ad imaginem Dei factus est: in
+        <lb ed="#Bb"/>illo enim solo sicut in principio fuit tota
+        <lb ed="#Bb"/>universitas humani generis, 
+        quemadmo<lb ed="#Bb" break="no"/>dum ab eterno in Deo fuit tota 
+        universi<lb ed="#Bb" break="no"/>tas creaturarum omnium. Si autem 
+        ima<lb ed="#Bb" break="no"/>go dicat imitationem prelationis et
+        <lb ed="#Bb"/>potestatis, tunc homo qui factus est ut
+        <lb ed="#Bb"/>presit piscibus maris, et volatilibus celi,
+        <lb ed="#Bb"/>et bestiis, universeque terre'‘,ut domine~
+        <lb ed="#Bb"/>tur in terra, et subjiciat eam sibi, ad
+        <lb ed="#Bb"/>imaginem Dei est, et nulla alia creatura,
+        <lb ed="#Bb"/>nec Angelus, nec alia. Et hoc modo vir
+        <lb ed="#Bb"/>qui preest mulieri, ad imaginem Deiest,
+        <lb ed="#Bb"/>et mulier non perfecte. Et hoc modo 
+        in<lb ed="#Bb" break="no"/>telligitur quod dicit Apostolus, I ad 
+        Co<lb ed="#Bb" break="no"/>rinth. xi, 7: Vir quidem non debet
+        <lb ed="#Bb"/>velare caput suum, quoniam wmago et
+        <lb ed="#Bb"/>gloria Dei est : mulier autem gloria viri
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2678">
+                  <lb ed="#Bb"/>Si vero imago dicat imitationem 
+        or<lb ed="#Bb" break="no"/>dinis nature trium personarum in una
+        <lb ed="#Bb"/>essentia : tunc proprie imago in mente
+        <lb ed="#Bb"/>hominis est perfecte, et aliquo modo in
+        <lb ed="#Bb"/>Angelo est, eo quod in Angelo propter
+        <lb ed="#Bb"/>simplicitatem non ita representatur 
+        ori<lb ed="#Bb" break="no"/>go potentize unius ex altera, sicut 
+        re<lb ed="#Bb" break="no"/>presentatur in mente hominis: et ita
+        <lb ed="#Bb"/>Angelus non ita expresse representat 
+        or<lb ed="#Bb" break="no"/>dinem nature originis personarum, sicut
+        <lb ed="#Bb"/>representatur in mente hominis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2704">
+                  <lb ed="#Bb"/>Ad dictum <name xml:id="Almn78-d25808-Nd1e2708">Isidori</name> dicendum, quod <name xml:id="Almn78-d25808-Nd1e2711">
+          Isi<lb ed="#Bb" break="no"/>dorus</name> refert dictum suum ad imitationem
+        <lb ed="#Bb"/>imaginis in capacitate Dei: magis enim
+        <lb ed="#Bb"/>capax Dei est Angelus, quam homo:
+        <lb ed="#Bb"/>quamvis aliqua anima, ut anima Christi,
+        <lb ed="#Bb"/>et anima beatz Virginis, magis capaces
+        <lb ed="#Bb"/>fuerint, quam aliquis Angelorum : hoc
+        <lb ed="#Bb"/>enim non accidit anime Christi in 
+        quan<lb ed="#Bb" break="no"/>tum fuit anima humana, sed in quantum
+        <lb ed="#Bb"/>est unita divinitati: nec accidit anime
+        <lb ed="#Bb"/>beat Virginis, in quantum anima 
+        hu<lb ed="#Bb" break="no"/>mana, sed in quantum ex conceptu Filii
+        <lb ed="#Bb"/>Dei super omnem creaturam repleta est
+        <lb ed="#Bb"/>omni gratia.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2743">
+                  <pb ed="#Bb" n="129"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Per noc patet etiam solutio ad sequens.
+        <lb ed="#Bb"/>Angelus enim non capit potius, quam
+        <lb ed="#Bb"/>mens hominis : sed modo potiori capit
+        <lb ed="#Bb"/>idem, quia inter mentem hominis et
+        <lb ed="#Bb"/>Deum nihil est medium, sicut nec inter
+        <lb ed="#Bb"/>mentem Angeli et Deum.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2763">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Angelus 
+        po<lb ed="#Bb" break="no"/>tiori modo representat, sed non plus,
+        <lb ed="#Bb"/>vel aliud, sed idem.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2772">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod licet 
+        me<lb ed="#Bb" break="no"/>moria, intelligentia, et voluntas, tam in
+        <lb ed="#Bb"/>mente hominis sint, quam in Angelo, 
+        ta<lb ed="#Bb" break="no"/>men origo unius ex altero, non ita 
+        re<lb ed="#Bb" break="no"/>presentatur in Angelo sicut in homine.
+        <lb ed="#Bb"/>Et hoc est, quia Angelus, vel in verbo
+        <lb ed="#Bb"/>vel in prasentia rerum habet stantem 
+        in<lb ed="#Bb" break="no"/>tellectum, et non discurrentem, 
+        quemad<lb ed="#Bb" break="no"/>modum intellectus hominis discurrit,
+        <lb ed="#Bb"/>nunc ad memoriam, nunc ad 
+        phantas<lb ed="#Bb" break="no"/>mata, nunc ad res in sensu presentes.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2799">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod memoria 
+        se<lb ed="#Bb" break="no"/>cundum quod accipitur ab Augustino, et
+        <lb ed="#Bb"/>est pars imaginis, est in Angelo : sed 
+        no<lb ed="#Bb" break="no"/>titia rerum non est in eo per formas 
+        ac<lb ed="#Bb" break="no"/>ceptas vel habitus acquisitionis, sed per
+        <lb ed="#Bb"/>formas et habitus concreatos sibi : et
+        <lb ed="#Bb"/>ideo non habet ita discurrentem 
+        intelle<lb ed="#Bb" break="no"/>ctum quemadmodum homo.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2819">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod imago Dei
+        <lb ed="#Bb"/>non est in homine, nisi secundum 
+        men<lb ed="#Bb" break="no"/>tem, ut dicit Augustinus, et non est in
+        <lb ed="#Bb"/>ea, nisi secundum quod ad Deum 
+        refer<lb ed="#Bb" break="no"/>tur, ita quod sit actus imitans: si enim
+        <lb ed="#Bb"/>in seipsis considerentur ille tres 
+        poten<lb ed="#Bb" break="no"/>tie, potentia imitantes sunt, et non actu:
+        <lb ed="#Bb"/>et hoc modo bene sunt in Angelo, et
+        <lb ed="#Bb"/>etiam modo potiori : sed quantum ad
+        <lb ed="#Bb"/>representationem originis personarum,
+        <lb ed="#Bb"/>plus sunt in homine, quam in Angelo.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2845">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod imago 
+        tri<lb ed="#Bb" break="no"/>plex est, sicut Glossa dicit : sed ratio ut
+        <lb ed="#Bb"/>ratio, non ita est in Angelo sicut in 
+        ho<lb ed="#Bb" break="no"/>mine: ratio enim ut ratio, virtus 
+        colla<lb ed="#Bb" break="no"/>tiva est, et confert principia conclusioni :
+        <lb ed="#Bb"/>inlellectus autem Angeli est stans in uno
+        <lb ed="#Bb"/>simplici: propter quod etiam Angelus
+        <lb ed="#Bb"/>dicitur magis substantia intellectualis,
+        <lb ed="#Bb"/>quam rationalis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2867">
+                  <lb ed="#Bb"/>Similiter licet Angelus habeat loco fi
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>dei visionem, et loco spei 
+        comprehensio<lb ed="#Bb" break="no"/>nem, et charitatem habeat perfectam :
+        <lb ed="#Bb"/>tamen hec non habet ut recreantia, sed
+        <lb ed="#Bb"/>ut beatitudinem perfectam constituentia :
+        <lb ed="#Bb"/>et ideo non habet imaginem 
+        recreatio<lb ed="#Bb" break="no"/>nis.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2887">
+                  <lb ed="#Bb"/>Similiter licet habeat memoriam, 
+        in<lb ed="#Bb" break="no"/>telligentiam, et voluntatem : tamen itain
+        <lb ed="#Bb"/>his non representatur ordo nature, qui
+        <lb ed="#Bb"/>est secundum originem personarum unius
+        <lb ed="#Bb"/>ex alia, quemadmodum in potentiis que
+        <lb ed="#Bb"/>sunt in mente hominis, ut dictum est. 
+        Se<lb ed="#Bb" break="no"/>cundum tamen quod imago imitago 
+        di<lb ed="#Bb" break="no"/>citur, et imitatur in potioribus bonis, 
+        in<lb ed="#Bb" break="no"/>tellectualibus scilicet et divinis : sic
+        <lb ed="#Bb"/>imago ponitur in boniformitatibus 
+        Ange<lb ed="#Bb" break="no"/>li, in descriptione Angeli introducta.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2913">
+                  <lb ed="#Bb"/>Api quod ulterius queritur de 
+        mani<lb ed="#Bb" break="no"/>festatione occulti luminis, dicendum,
+        <lb ed="#Bb"/>quod lumen et se et omnia alia 
+        manife<lb ed="#Bb" break="no"/>stat, sed in se acceptum excellit visus
+        <lb ed="#Bb"/>nostros, et fit intolerabile nobis, ut in
+        <lb ed="#Bb"/>Mystica theologia dicit Dionysius. Sicut
+        <lb ed="#Bb"/>lumen in rota solis intolerabile visibus
+        <lb ed="#Bb"/>nostris est, diffusum tamen in medio
+        <lb ed="#Bb"/>perspicuo efficitur nobis tolerabile et 
+        ma<lb ed="#Bb" break="no"/>nifestum, ita lumen divinum in se 
+        occul<lb ed="#Bb" break="no"/>tum nobis est, receptum autem in 
+        Ange<lb ed="#Bb" break="no"/>lica creatura, in claritate manifestatur :
+        <lb ed="#Bb"/>et hoc intendit dicere Dionysius.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2945">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc verum
+        <lb ed="#Bb"/>est, quod non manifestatur in Angelo
+        <lb ed="#Bb"/>nisi secundum partem : totum enim non
+        <lb ed="#Bb"/>comprehenditur nisi a seipso : et illa 
+        ma<lb ed="#Bb" break="no"/>nifestatio secundum parlem, vocatur
+        <lb ed="#Bb"/>manifestatio nobis et creature facta. Et
+        <lb ed="#Bb"/>hoc est quod dicit Augustinus : <quote xml:id="Almn78-d25808-Qd1e2962"> Videre
+          <lb ed="#Bb"/>Deum possumus, comprehendere vero
+          <lb ed="#Bb"/>minime : ipse enim solus comprehensor
+          <lb ed="#Bb"/>suiipsius est. </quote>
+               </p>
+               <p xml:id="Almn78-d25808-d1e2972">
+                  <lb ed="#Bb"/>Ad quod ulterius queritur de 
+        specu<lb ed="#Bb" break="no"/>Jo, dicendum, quod speculum esse primo
+        <lb ed="#Bb"/>et per se convenit sapientie divine, in
+        <lb ed="#Bb"/>qua species ideales omnium resultant :
+        <lb ed="#Bb"/>sed modo quodam secundario convenit
+        <lb ed="#Bb"/>Angelo, in quo suo modo resultant 
+        bo<lb ed="#Bb" break="no"/>niformitates luminis divini.
+      </p>
+               <p xml:id="Almn78-d25808-d1e2990">
+                  <pb ed="#Bb" n="130"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Per 1peM patet solutio ad sequens. 
+        Fi<lb ed="#Bb" break="no"/>lius enim secundum quod est sapientia
+        <lb ed="#Bb"/>genita, speculum est primo et per se, 
+        to<lb ed="#Bb" break="no"/>tum quod est in Patre representans :
+        <lb ed="#Bb"/>Angelus autem suo modo speculum est,
+        <lb ed="#Bb"/>ut dictum est.
+      </p>
+               <p xml:id="Almn78-d25808-d1e3010">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod actus 
+        spe<lb ed="#Bb" break="no"/>culi manifestare est, sed non simpliciter,
+        <lb ed="#Bb"/>sed manifestare receptum et per 
+        reflexio<lb ed="#Bb" break="no"/>nem: et ideo modum manifestationis
+        <lb ed="#Bb"/>addit speculum, quem non dicit 
+        manife<lb ed="#Bb" break="no"/>statio simpliciter : propter quod non est
+        <lb ed="#Bb"/>nugatorie additum,
+      </p>
+               <p xml:id="Almn78-d25808-d1e3028">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod non est 
+        in<lb ed="#Bb" break="no"/>culcatio verborum. Purum enim dicit
+        <lb ed="#Bb"/>nature puritatem. Clarissimum dicit 
+        in<lb ed="#Bb" break="no"/>tellectualis nature perspicuitatem, quasi
+        <lb ed="#Bb"/>quod recipit in profundum sui 
+        bonifor<lb ed="#Bb" break="no"/>mitates divini lumnis. Incontaminatum
+        <lb ed="#Bb"/>autem dicit, eo quod terrena natura cui
+        <lb ed="#Bb"/>uniatur, non est obscuratum sicut mens
+        <lb ed="#Bb"/>hominis. Sapient. 1x, 15: Corpus quod
+        <lb ed="#Bb"/>corrumpitur aggravat animam, et 
+        terre<lb ed="#Bb" break="no"/>na inhabitatio deprimit sensum multa
+        <lb ed="#Bb"/>cogitantem. Incoinguinatum dicit macula
+      </p>
+               <p xml:id="Almn78-d25808-d1e3057">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>originalis peccati non feedatum. 
+        Jmmacu<lb ed="#Bb" break="no"/>latum dicit labem actualis peccati non
+        <lb ed="#Bb"/>habens.
+      </p>
+               <p xml:id="Almn78-d25808-d1e3069">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, Sz esé
+        <lb ed="#Bb"/>conveniens dicere, dicendum, quod 
+        prop<lb ed="#Bb" break="no"/>ter hoc dicit : Si est conveniens dicere, ut
+        <lb ed="#Bb"/>notetur totalitas ex parte suscipientis, et
+        <lb ed="#Bb"/>non ex parte suscepti: suscepit enim
+        <lb ed="#Bb"/>secundum optimum nature, et secundum
+        <lb ed="#Bb"/>optimum gratie et gloria: et hoc 
+        voca<lb ed="#Bb" break="no"/>tur totum quantum conveniens est 
+        crea<lb ed="#Bb" break="no"/>ture. Ipsum autem secundum seipsum
+        <lb ed="#Bb"/>totum, nulla creatura suscipere potest.
+      </p>
+               <p xml:id="Almn78-d25808-d1e3093">
+                  <lb ed="#Bb"/>Ad ultimum dicendum, quod secundum
+        <lb ed="#Bb"/>quod in seipso est, semper in abditis est :
+        <lb ed="#Bb"/>et silent de eo, ut dicit Ambrosius, non
+        <lb ed="#Bb"/>solum lingue hominum, sed etiam 
+        Ange<lb ed="#Bb" break="no"/>lorum : sed secundum quod est refulgens
+        <lb ed="#Bb"/>in alio, semper resplendens est, et mun- -
+        <lb ed="#Bb"/>de : et sic omnia vocantur ab ipso : et sic
+        <lb ed="#Bb"/>resplendens esse et in abditis occultari, et
+        <lb ed="#Bb"/>silentium esse de ipso, et omnia vocari
+        <lb ed="#Bb"/>ad esse non sunt opposita.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

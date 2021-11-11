@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 92</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 92</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="193"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h42117"><!-- p2t15q92 -->
+            <head xml:id="Almn78-h42117-Hd1e106">Quaestio 92</head>
+            <head xml:id="Almn78-h42117-Hd1e109" type="question-title">
+    De sensualitate
+  </head>
+            <p xml:id="Almn78-h42117-d1e112">
+               <lb ed="#Bc"/>QUAESTIO XCII.
+<lb ed="#Bc"/>De sensualitate.
+</p>
+            <div xml:id="Almn78-h42117-Dd1e119">
+               <head xml:id="Almn78-h42117-Hd1e121">Membrum 1</head>
+               <head xml:id="Almn78-h42117-Hd1e124" type="question-title">
+        Quid sit sensualitas
+      </head>
+               <p xml:id="Almn78-h42117-d1e127">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit sensualitas ?
+</p>
+               <p xml:id="Almn78-h42117-d1e134">
+                  <lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>1. Dicit Magister, quod sensualitas est
+<lb ed="#Bc"/>vis anime inferior, ex qua est motus
+<lb ed="#Bc"/>qui intenditur in corporis exteriores sen
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>sus, et appetitus rerum ad corpus 
+perti<lb ed="#Bc" break="no"/>nentium.
+</p>
+               <p xml:id="Almn78-h42117-d1e152">
+                  <lb ed="#Bc"/>Et contra hoc objicitur: Motus enim
+<lb ed="#Bc"/>qui intenditur in corporis sensus, duplex
+<lb ed="#Bc"/>est. Aut enim intenditur in sensibilia
+<lb ed="#Bc"/>accepta per sensus: et sic sensualitas
+<lb ed="#Bc"/>non est nisi sensus communis, qui 
+in<lb ed="#Bc" break="no"/>tenditur in sensata dividendo et 
+compo<lb ed="#Bc" break="no"/>nendo ea. Aut est motus qui intenditur
+<lb ed="#Bc"/>in ea gue accipiuntur cum  sensatis,
+<lb ed="#Bc"/>sicut ovis figuram lupi accipit in sensu,
+<lb ed="#Bc"/>et cum figura lupi accipit quod lupus
+<lb ed="#Bc"/>est inimicus, et fugit. Et sic est de omni
+<pb ed="#Bc" n="194"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>bus sensatis, quod semper accipiuntur
+<lb ed="#Bc"/>cum eis que sunt convenientia vel 
+in<lb ed="#Bc" break="no"/>conyenientia: et sic vel fugiunt si sunt
+<lb ed="#Bc"/>inconvenientia, vel appetunt si 
+conve<lb ed="#Bc" break="no"/>nientia sunt: ef sic sensualitas non erit
+<lb ed="#Bc"/>nisi estimativa.
+</p>
+               <p xml:id="Almn78-h42117-d1e197">
+                  <lb ed="#Bc"/>2. Adhuc, Appetitus rerum ad corpus
+<lb ed="#Bc"/>pertinentium duplex est. Quedam enim
+<lb ed="#Bc"/>res ad corpus pertinentes sunt 
+concupi<lb ed="#Bc" break="no"/>scibiles : et in illas est motus 
+concupisci<lb ed="#Bc" break="no"/>bilis sive desiderii sensibilis. Quedam
+<lb ed="#Bc"/>sunt nocive et inimice: et contra illas
+<lb ed="#Bc"/>insurgit irascibilis. Videtur ergo cum
+<lb ed="#Bc"/>omnia ista importet appetitus, quod non
+<lb ed="#Bc"/>propriam de sensualitate dat 
+definitio<lb ed="#Bc" break="no"/>nem quando dicit, quod sensualitas est
+<lb ed="#Bc"/>quedam vis anime inferior que 
+intendi<lb ed="#Bc" break="no"/>tur in corporis exteriores sensus, et 
+ap<lb ed="#Bc" break="no"/>petitus rerum ad corpus pertinentium.
+</p>
+               <p xml:id="Almn78-h42117-d1e228">
+                  <lb ed="#Bc"/>Sotuno. Dicendum, quod bona est
+<lb ed="#Bc"/>definitio quam ponit Magister: 
+sensuali<lb ed="#Bc" break="no"/>tas enim est una quedam vis communis
+<lb ed="#Bc"/>qua exterior! motu sensibilium vel 
+ac<lb ed="#Bc" break="no"/>ceptorum cum sensibilibus illecebroso
+<lb ed="#Bc"/>motu intenditur ad appetendum ea que
+<lb ed="#Bc"/>carnis sunt, Lit hoc non est sensus 
+com<lb ed="#Bc" break="no"/>munis, nec estimative: Sensus enim
+<lb ed="#Bc"/>communis non nisi componit et dividit
+<lb ed="#Bc"/>sensata particularia, ut dicat hoc album
+<lb ed="#Bc"/>esse, hoc dulce. Aéstimativa autem non
+<lb ed="#Bc"/>nisi estimat de amico vel inimico, 
+con<lb ed="#Bc" break="no"/>venienti vel inconvenienti, in quibus
+<lb ed="#Bc"/>motibus nihil est illecebrosum et 
+ser<lb ed="#Bc" break="no"/>pentinum quod pectore et ventre repat
+<lb ed="#Bc"/>ad ijlicitum more serpentis.
+</p>
+               <p xml:id="Almn78-h42117-d1e265">
+                  <lb ed="#Bc"/>Et per hoc patet solutio ad primum.
+</p>
+               <p xml:id="Almn78-h42117-d1e270">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod appetitus
+<lb ed="#Bc"/>rerum ad corpus pertinentium dupliciter
+<lb ed="#Bc"/>consideratur, scilicet ut simplex et 
+na<lb ed="#Bc" break="no"/>turalis : et sic est concupiscibilis vel
+<lb ed="#Bc"/>irascibilis, que naturales sunt vires 
+ani<lb ed="#Bc" break="no"/>mee sensibilis appetitive. Omne enim
+<lb ed="#Bc"/>animal, et omne animatum naturaliter
+<lb ed="#Bc"/>appetit convenientia sibi, et fugit 
+contra<lb ed="#Bc" break="no"/>ria, et insurgit, ut dicit Plato in Menone,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>contra inimica. Et sic isti motus 
+simpli<lb ed="#Bc" break="no"/>ces sunt concupiscibilis et irascibilis. Est
+<lb ed="#Bc"/>etiam appetitus improbus ad illicitum,
+<lb ed="#Bc"/>precipue in homine, qui serpentiva 
+sua<lb ed="#Bc" break="no"/>sio est, quia pectore et ventre repit ad
+<lb ed="#Bc"/>persuasionem illiciti et appetendum vel
+<lb ed="#Bc"/>persequendum contrarium furiose, et
+<lb ed="#Bc"/>non secundum rationem: et hic 
+appeti<lb ed="#Bc" break="no"/>tus proprie est sensualitatis.
+</p>
+            </div>
+            <div xml:id="Almn78-h42117-Dd1e315">
+               <head xml:id="Almn78-h42117-Hd1e317">Membrum 2</head>
+               <head xml:id="Almn78-h42117-Hd1e320" type="question-title">
+        Utrum sensualitas sit una simplex 
+        potentia, vel in se habens plures, scilicet
+        concupiscibilem et irascibilem
+      </head>
+               <p xml:id="Almn78-h42117-d1e323">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum sensualitas sit una simplex 
+po<lb ed="#Bc" break="no"/>tentia, vel in se habens plures, scilicet
+<lb ed="#Bc"/>concupiscibilem et irascibilem?
+</p>
+               <p xml:id="Almn78-h42117-d1e334">
+                  <lb ed="#Bc"/>Secundo queritur, Si sit una simplex
+<lb ed="#Bc"/>potentia, vel in se habens plures, scilicet
+<lb ed="#Bc"/>concupiscibilem et trascibilem ?
+</p>
+               <p xml:id="Almn78-h42117-d1e343">
+                  <lb ed="#Bc"/>Et videtur, quod sic, quod contineat
+<lb ed="#Bc"/>in se plures,
+</p>
+               <p xml:id="Almn78-h42117-d1e351">
+                  <lb ed="#Bc"/>1. Ad sensualitatem enim pertinet 
+se<lb ed="#Bc" break="no"/>cundum Magisirum omne illud ex quo
+<lb ed="#Bc"/>est motus qui intenditur in corporis 
+ex<lb ed="#Bc" break="no"/>teriores sensus, et appetitus rerum ad
+<lb ed="#Bc"/>corpus pertinentium. Concupiscibilis et
+<lb ed="#Bc"/>irascibilis non sunt nisi eorum que 
+per<lb ed="#Bc" break="no"/>tinent ad corporis exteriores sensus.
+<lb ed="#Bc"/>Ergo videtur, quod concupiscibilis et
+<lb ed="#Bc"/>irascibilis pertinent ad sensualitatem : et
+<lb ed="#Bc"/>sic non est una sola et simplex vis, sed
+<lb ed="#Bc"/>composita ex multis.
+</p>
+               <p xml:id="Almn78-h42117-d1e377">
+                  <lb ed="#Bc"/>2. Adhuc, In concupiscentia homo
+<lb ed="#Bc"/>communicat cum brutis: et cujus est
+<lb ed="#Bc"/>actus, illius est potentia: ergo etiam in
+<lb ed="#Bc"/>concupiscibili communicat : et eadem
+<lb ed="#Bc"/>ratio est de irascibili: videtur ergo, quod
+<lb ed="#Bc"/>hec insit secundum sensualitatem 
+secun<lb ed="#Bc" break="no"/>dum definitionem qu preassignata est
+<lb ed="#Bc"/>de sensualitate.
+</p>
+               <p xml:id="Almn78-h42117-d1e397">
+                  <lb ed="#Bc"/>3. Adhuc, Iste vires secundum quod
+<lb ed="#Bc"/>videtur dicere Damascenus in libro II de
+<pb ed="#Bc" n="195"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Fide orthodozra', ubi distinguit letitias,
+<lb ed="#Bc"/>videntur distingui secundum passiones
+<lb ed="#Bc"/>naturales, que sunt concupiscentia, 
+gau<lb ed="#Bc" break="no"/>dium, spes, trislitia, timor: ut scilicet
+<lb ed="#Bc"/>concupiscentia sive spes sit de futuro 
+de<lb ed="#Bc" break="no"/>lectabili, et gaudium sive letitia de 
+pre<lb ed="#Bc" break="no"/>senti, timor sit fuga futuri mali, tristitia
+<lb ed="#Bc"/>de presenti. He autem passiones 
+pre<lb ed="#Bc" break="no"/>cipue secundum Platonem non 
+conve<lb ed="#Bc" break="no"/>niunt nisi sensibili anime: dicit enim
+<lb ed="#Bc"/>Plato, quod omnis delectatio est 
+genera<lb ed="#Bc" break="no"/>tio in sensibilem animam: et cum 
+op<lb ed="#Bc" break="no"/>posita sint nata fieri circa idem, tunc
+<lb ed="#Bc"/>necesse est, quod omnis tristitia sit 
+ge<lb ed="#Bc" break="no"/>neratio in sensibilem animam. Videtur
+<lb ed="#Bc"/>ergo, quod hec omnia conveniunt et 
+in<lb ed="#Bc" break="no"/>sunt secundum sensualitatem secundum
+<lb ed="#Bc"/>Magistrum in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXIV, cap. Lst autem sensualitas.
+<lb ed="#Bc"/>Secundum enim definitionem quam 
+po<lb ed="#Bc" break="no"/>nit ibidem, tunc oporlet, quod omnes
+<lb ed="#Bc"/>vires istas contineat. In omnibus enim
+<lb ed="#Bc"/>est appetitus rerum ad corpus 
+pertinen<lb ed="#Bc" break="no"/>lium.
+</p>
+               <p xml:id="Almn78-h42117-d1e460">
+                  <lb ed="#Bc"/>Sed contra hoc est, quod videtur 
+no<lb ed="#Bc" break="no"/>men sensualitatis concernere in ratione
+<lb ed="#Bc"/>sua motum ad illicitum: concupiscibilis
+<lb ed="#Bc"/>autem et irascibilis secundum quod sunt
+<lb ed="#Bc"/>sensibilis anime non movent nisi ad 
+na<lb ed="#Bc" break="no"/>turalem. Omni enim vivo est naturale
+<lb ed="#Bc"/>appetere conveniens secundum naturam :
+<lb ed="#Bc"/>et hoc est virtus concupiscibilis. 
+Simili<lb ed="#Bc" break="no"/>ter omni vivo naturale est insurgere
+<lb ed="#Bc"/>contra nocivum et inimicum et fugere
+<lb ed="#Bc"/>illud: et sic videtur, quod hoc insit 
+se<lb ed="#Bc" break="no"/>eundum vitalem potentiam, et tamen
+<lb ed="#Bc"/>tantum secundum sensualem.
+</p>
+               <p xml:id="Almn78-h42117-d1e491">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Bc"/>concupiscibilis et irascibilis, que 
+moven<lb ed="#Bc" break="no"/>tur secundum impetum passionum, sunt
+<lb ed="#Bc"/>partes sensualitatis, sicut probant 
+obje<lb ed="#Bc" break="no"/>ctiones inducte. Oportet enim in talibus
+<lb ed="#Bc"/>primo malum vel bonum cum sensu 
+ac<lb ed="#Bc" break="no"/>cipere vel per sensum, secundo per 
+sen<lb ed="#Bc" break="no"/>sum communem componere vel dividere
+<lb ed="#Bc"/>cum aliis sensatis, tertio per imaginatio
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>nem in se reducere, quarto per 
+esti<lb ed="#Bc" break="no"/>mativam estimare estimatione 
+conve<lb ed="#Bc" break="no"/>nientis vel nocivi : et sic tandem per
+<lb ed="#Bc"/>concupiscibilem appetere, vel per 
+irasci<lb ed="#Bc" break="no"/>bilem detestari vel fugere.
+</p>
+               <p xml:id="Almn78-h42117-d1e526">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod hec secundum vitalem potentiam
+<lb ed="#Bc"/>non insunt, sed secundum sensualem,
+<lb ed="#Bc"/>nisi secundum eos qui dicunt, quod
+<lb ed="#Bc"/>plante naturales habent sensus, sicut
+<lb ed="#Bc"/>dicit Isaac : secundum illos enim hee
+<lb ed="#Bc"/>naturaliter sunt in viventibus, et non
+<lb ed="#Bc"/>secundum sensualem motum, sed 
+secun<lb ed="#Bc" break="no"/>dum naturalem motum. Et dat signum:
+<lb ed="#Bc"/>quia plante si fundatur ad radices aqua
+<lb ed="#Bc"/>salsa, contrahuntur in radicibus ac si 
+fu<lb ed="#Bc" break="no"/>giant nocivum. Et si fundatur aqua 
+dul<lb ed="#Bc" break="no"/>cis mixta fimo ovium, dilatantur ad
+<lb ed="#Bc"/>ipsum humorem ac si concupiscant
+<lb ed="#Bc"/>ipsum.
+</p>
+            </div>
+            <div xml:id="Almn78-h42117-Dd1e563">
+               <head xml:id="Almn78-h42117-Hd1e565">Membrum 3</head>
+               <head xml:id="Almn78-h42117-Hd1e568" type="question-title">
+        Utrum sensualitas habeat aliquid
+        rationis
+      </head>
+               <p xml:id="Almn78-h42117-d1e571">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum sensualitas habeat aliquid
+<lb ed="#Bc"/>rationis ?
+</p>
+               <p xml:id="Almn78-h42117-d1e580">
+                  <lb ed="#Bc"/>Tertio queritur, Si habeat sensualitas
+<lb ed="#Bc"/>aliquid rationis ?
+</p>
+               <p xml:id="Almn78-h42117-d1e587">
+                  <lb ed="#Bc"/>Et videtur, quod non: quia
+<lb ed="#Bc"/>1. Ratio non est nobis communis cum
+<lb ed="#Bc"/>brutis, sicut dicit Augustinus : sensualis
+<lb ed="#Bc"/>autem motus nobis est communis cum
+<lb ed="#Bc"/>brutis : ergo videtur, quod sensualitas
+<lb ed="#Bc"/>nihil rationis participat.
+</p>
+               <p xml:id="Almn78-h42117-d1e604">
+                  <lb ed="#Bc"/>2. Adhuc, Sensualis motus est rerum
+<lb ed="#Bc"/>ad corpus pertinentium, ut dicunt 
+Da<lb ed="#Bc" break="no"/>mascenus et Augustinus. Ratio non est
+<lb ed="#Bc"/>corporum, sed abstractorum a formis
+<lb ed="#Bc"/>corporalibus. Ergo videtur, quod 
+sen<lb ed="#Bc" break="no"/>sualitas nihil participat rationis.
+</p>
+               <p xml:id="Almn78-h42117-d1e620">
+                  <lb ed="#Bc"/>3. Adhuc, Motus sensualitatis semper
+<lb ed="#Bc"/>est cum hic et nunc: rationis numquam,
+<lb ed="#Bc"/>sed de his que sunt semper et ubique:
+<pb ed="#Bc" n="196"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>ergo videtur, quod sensualitas nihil 
+ra<lb ed="#Bc" break="no"/>tionis participat.
+</p>
+               <p xml:id="Almn78-h42117-d1e638">
+                  <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>1. In libro I Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXIV, Magister dicit, quod 
+sen<lb ed="#Bc" break="no"/>sualitas comparatur mulieri : vir autem
+<lb ed="#Bc"/>et mulier equaliter rationales sunt, ut
+<lb ed="#Bc"/>dicit Augustinus.
+</p>
+               <p xml:id="Almn78-h42117-d1e654">
+                  <lb ed="#Bc"/>2. Adhuc, I ad Corinth. x1, 7, super
+<lb ed="#Bc"/>illud: Mulier gloria viri est. Glossa:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h42117-Qd1e662"> Mulier per sensualitatem intelligitur. </quote>
+               </p>
+               <p xml:id="Almn78-h42117-d1e666">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro XII de
+<lb ed="#Bc"/>Trinitate, tractans illud, Faciamus 
+ho<lb ed="#Bc" break="no"/>minem 1; etillud, Faciamus ei 
+adjuto<lb ed="#Bc" break="no"/>rium simile sibi*, dicit sic: <quote xml:id="Almn78-h42117-Qd1e676"> Sicut in
+<lb ed="#Bc"/>omnibus pecoribus non est inventum
+<lb ed="#Bc"/>adjutorium simile viro, nisi detractum
+<lb ed="#Bc"/>de illo in conjugium sui formaretur, ita
+<lb ed="#Bc"/>menti nostra, qua supernam 
+considera<lb ed="#Bc" break="no"/>mus veritatem, nullum est ad 
+usum_re<lb ed="#Bc" break="no"/>rum corporalium, quantum nature 
+ho<lb ed="#Bc" break="no"/>minis satis est, simile adjutorium ex
+<lb ed="#Bc"/>anime partibus quas communes cum 
+pe<lb ed="#Bc" break="no"/>coribus habemus. Et ideo rationabile
+<lb ed="#Bc"/>nostrum non ad unitatis divortium 
+se<lb ed="#Bc" break="no"/>paratum, sed in auxilium  societatis
+<lb ed="#Bc"/>quasi derivatum, in sui operis 
+disparti<lb ed="#Bc" break="no"/>tur officium *. </quote> Ex hoc accipitur, quod
+<lb ed="#Bc"/>si sensualitas tenet locum mulieris in
+<lb ed="#Bc"/>matrimonio spirituali, sensualitas 
+ali<lb ed="#Bc" break="no"/>quid rationis habet.
+</p>
+               <p xml:id="Almn78-h42117-d1e715">
+                  <lb ed="#Bc"/>4. Adhuc, Constat quod sensualitas
+<lb ed="#Bc"/>motus est in quinque corporis exteriores
+<lb ed="#Bc"/>sensus, et homo qui dicitur 
+exte<lb ed="#Bc" break="no"/>rior, et participat rationem, est 
+si<lb ed="#Bc" break="no"/>cut interior non enim potest dici,
+<lb ed="#Bc"/>quod homo exterior rationale animal
+<lb ed="#Bc"/>non sit: quia sic etiam sequeretur, quod
+<lb ed="#Bc"/>non esset homo: et si non esset homo,
+<lb ed="#Bc"/>homo non esset homo exterior: ergo
+<lb ed="#Bc"/>videtur, quod sensualitas participat 
+ra<lb ed="#Bc" break="no"/>tionem.
+</p>
+               <p xml:id="Almn78-h42117-d1e742">
+                  <lb ed="#Bc"/>5. Adhuc, Augustinus in libro
+<lb ed="#Bc"/>LXXXII Questionum : <quote xml:id="Almn78-h42117-Qd1e748"> Si exterior
+<lb ed="#Bc"/>homo vita illa accipitur, qua per corpus
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>sentimus quinque notissimis sensibus,
+<lb ed="#Bc"/>quos cum pecoribus habemus 
+commu<lb ed="#Bc" break="no"/>nes : nam et ipsa molestiis sensibilibus
+<lb ed="#Bc"/>que persecutionibus ingeruntur, 
+cor<lb ed="#Bc" break="no"/>rumpi potest: non immerito et ipse homo
+<lb ed="#Bc"/>particeps dicitur similitudinis Dei, non
+<lb ed="#Bc"/>solum quia vivit, quod etiam in _bestiis
+<lb ed="#Bc"/>apparet, sed amplius quod ad mentem
+<lb ed="#Bc"/>convertitur se regentem *, </quote> Videtur
+<lb ed="#Bc"/>ergo, quod sensualitas aliquid habeat
+<lb ed="#Bc"/>similitudinis Dei : similitudo autem non
+<lb ed="#Bc"/>est nisi secundum rationem : ergo 
+ali<lb ed="#Bc" break="no"/>quid habet rationis.
+</p>
+               <p xml:id="Almn78-h42117-d1e784">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. In libro IL Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXIV, dicit Magister per verba
+<lb ed="#Bc"/>Augustini, quod ibi incipit ratio, ubi 
+no<lb ed="#Bc" break="no"/>bis nihil commune est cum bestiis. In
+<lb ed="#Bc"/>sensualitate communicamus cum bestiis.
+<lb ed="#Bc"/>Ergo in sensualitate nihil est rationis.
+</p>
+               <p xml:id="Almn78-h42117-d1e802">
+                  <lb ed="#Bc"/>2. Adhuc, Serpentinus motus est in
+<lb ed="#Bc"/>sensualitate, qui nihil habet rationis:
+<lb ed="#Bc"/>videtur ergo, quod sensualitas nihil 
+ha<lb ed="#Bc" break="no"/>bet rationis.
+</p>
+               <p xml:id="Almn78-h42117-d1e813">
+                  <lb ed="#Bc"/>3. Adhuc, Sensualitas ad exteriorem
+<lb ed="#Bc"/>hominem pertinet, ratio vero ad 
+interio<lb ed="#Bc" break="no"/>rem. Et de hoc dicit Apostolus, II ad
+<lb ed="#Bc"/>Corinth. tv, 16: Licet is qui foris est,
+<lb ed="#Bc"/>noster homo corrumpatur, tamen is qui
+<lb ed="#Bc"/>intus est, renovatur de die in diem. Ibi
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-h42117-Qd1e830"> Quidquid nobis est commune
+<lb ed="#Bc"/>cum pecore, exterior homo est. </quote>
+               </p>
+               <p xml:id="Almn78-h42117-d1e836">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod participare
+<lb ed="#Bc"/>rationem dupliciter dicitur, scilicet ut
+<lb ed="#Bc"/>per naturam, et ut per rationis 
+suasio<lb ed="#Bc" break="no"/>nem et ordinem. Primo modo 
+sensuali<lb ed="#Bc" break="no"/>tas non participat rationem, sed 
+irratio<lb ed="#Bc" break="no"/>nalis motus est et cum impetu. Secundo
+<lb ed="#Bc"/>modo participat rationem : quia suadetur
+<lb ed="#Bc"/>et ordinatur a ratione. Et ideo 
+Aristote<lb ed="#Bc" break="no"/>les in I Ethicorum dicit, quod 
+irrationa<lb ed="#Bc" break="no"/>bile duplex est: et unum quidem 
+suasi<lb ed="#Bc" break="no"/>bile ratione et ordinabile : et hoc est
+<lb ed="#Bc"/>humanum, et est subjectum vitii et virtu
+<pb ed="#Bc" n="197"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tis: temperantia enim in concupiscibili
+<lb ed="#Bc"/>est, fortitudo autem in irascibili. Unde
+<lb ed="#Bc"/>etiam Augustinus dicit, quod sensualitas
+<lb ed="#Bc"/>convertitur ad mentem, quia mente 
+ra<lb ed="#Bc" break="no"/>tionali suadetur et ordinatur, et obedit
+<lb ed="#Bc"/>ad virtutis actum : et hoc modo 
+partici<lb ed="#Bc" break="no"/>pat ordinem rationis, et non aliter.
+</p>
+               <p xml:id="Almn78-h42117-d1e884">
+                  <lb ed="#Bc"/>Ad primum ergo quod contra objicitur,
+<lb ed="#Bc"/>dicendum quod iste metaphore de viro
+<lb ed="#Bc"/>et muliere valde differenter accipiuntur
+<lb ed="#Bc"/>in Scripturis. Et quando mulier 
+sensua<lb ed="#Bc" break="no"/>litas dicitur, a mollitie accipitur et a
+<lb ed="#Bc"/>subjectione : quia sicut mulier viro, ita
+<lb ed="#Bc"/>debet esse subjecta sensualitas ordini 
+ra<lb ed="#Bc" break="no"/>tionis: tamen proprie non dicitur 
+mu<lb ed="#Bc" break="no"/>lier, quia non est in eadem 
+connaturali<lb ed="#Bc" break="no"/>tate cum viro secundum speciem, sed in
+<lb ed="#Bc"/>eodem genere tantum, sicut bruta 
+ejus<lb ed="#Bc" break="no"/>dem generis sunt cum homine.
+</p>
+               <p xml:id="Almn78-h42117-d1e914">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod mulier ibi
+<lb ed="#Bc"/>iterum sensualitati attribuitur, in 
+quan<lb ed="#Bc" break="no"/>tum sensualitas est ordinabilis ad 
+ratio<lb ed="#Bc" break="no"/>nem, et ut mollis subjecta est rationi
+<lb ed="#Bc"/>quasi viro.
+</p>
+               <p xml:id="Almn78-h42117-d1e927">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Bc"/>loquitur ibi proprie : et ideo secundum
+<lb ed="#Bc"/>eum sensualitas non est mulier, sed 
+infe<lb ed="#Bc" break="no"/>rior portio rationis, sicut inferius 
+osten<lb ed="#Bc" break="no"/>detur.
+</p>
+               <p xml:id="Almn78-h42117-d1e940">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod exterior
+<lb ed="#Bc"/>homo pertinet ad sensualitatem, que
+<lb ed="#Bc"/>nobis communis est cum bestiis, et non
+<lb ed="#Bc"/>dicitur homo nisi ab ordinabilitate 
+ratio<lb ed="#Bc" break="no"/>nis, sicut omnia animalia in nobis et
+<lb ed="#Bc"/>brutalia dicuntur humana, quia 
+ordinan<lb ed="#Bc" break="no"/>tur ad rationem sicut ad formam 
+consti<lb ed="#Bc" break="no"/>tutivam et specificam, sicut potentie 
+or<lb ed="#Bc" break="no"/>dinantur ad ultimam formam specificam
+<lb ed="#Bc"/>et constitutivam.
+</p>
+               <p xml:id="Almn78-h42117-d1e964">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Bc"/>optime dicit, et in veritate sensualitas
+<lb ed="#Bc"/>aliquid participat rationis et similitudinis
+<lb ed="#Bc"/>divine in hoc, quod suasibilis est et 
+or<lb ed="#Bc" break="no"/>dinabilis ad rationem : sicut etiam 
+dixi<lb ed="#Bc" break="no"/>mus, quod figura corporis ad imaginem
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Dei pertinet in hoc, quod sursum erigit
+<lb ed="#Bc"/>ad celestia contemplanda,
+</p>
+               <p xml:id="Almn78-h42117-d1e986">
+                  <lb ed="#Bc"/>Ka que ulterius objiciuntur, 
+conce<lb ed="#Bc" break="no"/>denda sunt. Per naturam enim 
+sensuali<lb ed="#Bc" break="no"/>tas nihil habet rationis, licet suasibilis
+<lb ed="#Bc"/>sit a ratione et ordinabilis: et ideo ad
+<lb ed="#Bc"/>individuam vitam matrimonii spiritualis
+(quod inter superiorem partem rationis
+<lb ed="#Bc"/>est et inferiorem) non pertinet, nisi 
+simi<lb ed="#Bc" break="no"/>liter sicut a principio constitutionis 
+ho<lb ed="#Bc" break="no"/>minis tt creationis animalia bruta 
+subje<lb ed="#Bc" break="no"/>eta sunt homini.
+</p>
+            </div>
+            <div xml:id="Almn78-h42117-Dd1e1009">
+               <head xml:id="Almn78-h42117-Hd1e1011">Membrum 4</head>
+               <head xml:id="Almn78-h42117-Hd1e1014" type="question-title">
+        Utrum in sensualitate sit
+        vel non
+      </head>
+               <p xml:id="Almn78-h42117-d1e1017">
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>Utrum in sensualitate sit
+<lb ed="#Bc"/>vel non?
+</p>
+               <p xml:id="Almn78-h42117-d1e1026">
+                  <lb ed="#Bc"/>Quarto queritur, Si in sensualitate sit
+<lb ed="#Bc"/>peccatum, vel non?
+</p>
+               <p xml:id="Almn78-h42117-d1e1033">
+                  <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Ita dicit Magister in libro II 
+Sen<lb ed="#Bc" break="no"/>tentiarum, distinct. XXIV, cap. Nunc
+<lb ed="#Bc"/>superest. <quote xml:id="Almn78-h42117-Qd1e1043"> Non omne veniale peccatum
+<lb ed="#Bc"/>geritur secundum rationem. Illud enim
+<lb ed="#Bc"/>quod in solo motu sensualitatis existit,
+<lb ed="#Bc"/>peccatum est quod non est secundum 
+ra<lb ed="#Bc" break="no"/>tionem. </quote>
+               </p>
+               <p xml:id="Almn78-h42117-d1e1056">
+                  <lb ed="#Bc"/>2. Et ibidem, <quote xml:id="Almn78-h42117-Qd1e1060"> Siin solo motu 
+sen<lb ed="#Bc" break="no"/>suali tantum peccati illecebra remaneat
+<lb ed="#Bc"/>et teneatur, veniale ac levissimum 
+pec<lb ed="#Bc" break="no"/>catum est. </quote> Ex his accipitur, quod in
+<lb ed="#Bc"/>sensualitate peccatum est: ergo in 
+sen<lb ed="#Bc" break="no"/>sualitate peccatum est.
+</p>
+               <p xml:id="Almn78-h42117-d1e1074">
+                  <lb ed="#Bc"/>3. Adhuc, Ad Ephes. iv, 26, super
+<lb ed="#Bc"/>illud : Irascimini, et nolite peccare,
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-h42117-Qd1e1082"> Surgit motus animi qui jam
+<lb ed="#Bc"/>non est in potestate nostra, propter 
+pc<lb ed="#Bc" break="no"/>nam peccati: nisi ei consentiat ratio,
+<lb ed="#Bc"/>permittit Apostolus irasci, quod est 
+hu<lb ed="#Bc" break="no"/>mana tentatio': </quote> et constat, quod lo
+<pb ed="#Bc" n="198"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>quitur de ira primo motu: et constat,
+<lb ed="#Bc"/>quod ille in sensualitate est : ergo 
+pecca<lb ed="#Bc" break="no"/>tum in sensualitate est.
+</p>
+               <p xml:id="Almn78-h42117-d1e1105">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Vitium et virtus opponuntur. 
+Sen<lb ed="#Bc" break="no"/>sualitas prout nobis communis est cum
+<lb ed="#Bc"/>brutis, subjectum virtutis non est, quia
+<lb ed="#Bc"/>etiamsi virtus sit in concupiscibili vel
+<lb ed="#Bc"/>irascibili, non est tamen in eis, nisi prout
+<lb ed="#Bc"/>ille potenti sunt ordinabiles a ratione
+<lb ed="#Bc"/>et suasibiles, et secundum actum 
+ordi<lb ed="#Bc" break="no"/>nate et persuase. Et hoc est quod 
+dixe<lb ed="#Bc" break="no"/>runt antiqui, quod virtus non est nisi in
+<lb ed="#Bc"/>concupiscibili et irascibili. Ergo videtur,
+<lb ed="#Bc"/>quod nec vitium sit in sensualitate 
+se<lb ed="#Bc" break="no"/>cundum quod sensualitas est.
+</p>
+               <p xml:id="Almn78-h42117-d1e1136">
+                  <lb ed="#Bc"/>2, Adhuc, Peccatum est, ut dicit 
+Au<lb ed="#Bc" break="no"/>gustinus in libro XXII contra-Faustum,
+<lb ed="#Bc"/>dictum vel factum vel concupitum 
+con<lb ed="#Bc" break="no"/>tra legem Dei. Nihil tale confert 
+sensua<lb ed="#Bc" break="no"/>litas prout nobis est communis cum 
+bru<lb ed="#Bc" break="no"/>tis. Ergo videtur, quod hoc medo non
+<lb ed="#Bc"/>sit in sensualitate peccatum.
+</p>
+               <p xml:id="Almn78-h42117-d1e1154">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro I 
+Re<lb ed="#Bc" break="no"/>tractationum : <quote xml:id="Almn78-h42117-Qd1e1160"> Peccatum est adeo 
+vo<lb ed="#Bc" break="no"/>luntarium, quod si non sit voluntarium,
+<lb ed="#Bc"/>non est peccatum *. </quote> Voluntas non est
+<lb ed="#Bc"/>in sensualitate. Ergo videtur,quod 
+pecca<lb ed="#Bc" break="no"/>tum etiam non possit esse in sensualitate.
+</p>
+               <p xml:id="Almn78-h42117-d1e1172">
+                  <lb ed="#Bc"/>4. Adhuc, Peccatum in actu est 
+cor<lb ed="#Bc" break="no"/>ruptio speciei, modi, et ordinis in actu:
+<lb ed="#Bc"/>talis modus, species, et ordo non sunt in
+<lb ed="#Bc"/>actu nisi secundum rationem : ergo 
+pec<lb ed="#Bc" break="no"/>catum quod est corruptio modi, specie,
+<lb ed="#Bc"/>et ordinis, non ponit in esse nisi in actu
+<lb ed="#Bc"/>qui est secundum rationem: talis actus
+<lb ed="#Bc"/>non potest inesse sensualitati que est
+<lb ed="#Bc"/>nobis communis cum brutis : ergo in
+<lb ed="#Bc"/>sensualitate tali non potest esse 
+pecca<lb ed="#Bc" break="no"/>tum.
+</p>
+               <p xml:id="Almn78-h42117-d1e1199">
+                  <lb ed="#Bc"/>Solutio. Ad hoc satis responderunt
+<lb ed="#Bc"/>antiqui bene distinguentes, quod 
+pecca<lb ed="#Bc" break="no"/>tum dupliciter dicitur esse in aliquo, 
+sci<lb ed="#Bc" break="no"/>licet ut in subjecto, vel ut in principio
+<lb ed="#Bc"/>sive origine. Si ut in subjecto, dixerunt
+<lb ed="#Bc"/>quod peccatum non est in sensualitate
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>prout nobis est communis cum brutis.
+<lb ed="#Bc"/>Si ut in origine sive in principio: tunc
+<lb ed="#Bc"/>potest accipi sensualitas dupliciter, scili~
+<lb ed="#Bc"/>cet antecedenter ordinata ad rationem,
+<lb ed="#Bc"/>vel consequenter. Antecedenter, ut offe~
+<lb ed="#Bc"/>rens rationi delectabile conceptum : et
+<lb ed="#Bc"/>hoc naturale est, et non peccatum,
+<lb ed="#Bc"/>maxime quando accipitur sensualitas pro”
+<lb ed="#Bc"/>potentia naturali, non ut corrupta vel
+<lb ed="#Bc"/>infecta corruptione primi serpentis. Sed
+<lb ed="#Bc"/>tunc incipit peccatum esse, quando ratio
+<lb ed="#Bc"/>hoc accipit inordinate, et per hoc 
+averti<lb ed="#Bc" break="no"/>tur ab ordine recto, et sic peccatum 
+ma<lb ed="#Bc" break="no"/>gis est in ratione, quam in sensualitate.
+<lb ed="#Bc"/>Non enim est in sensualitate nisi quasi
+<lb ed="#Bc"/>materialiter, prout originatur motus ille
+<lb ed="#Bc"/>ex corruptione sensualitatis : quod 
+po<lb ed="#Bc" break="no"/>tius est poena primi peccali, quam 
+pec<lb ed="#Bc" break="no"/>catum. Peccatum enim ibi incipit esse,
+<lb ed="#Bc"/>ubi fit aversio ab incommutabili bono :
+<lb ed="#Bc"/>et hoc non est nisi secundum rationem.
+<lb ed="#Bc"/>Et haec solutio bona est, et trahitur ex
+<lb ed="#Bc"/>ipsis verbis Augustini, ubi distinguit
+<lb ed="#Bc"/>gradus peccati, qualiter scilicet peccatum
+<lb ed="#Bc"/>perficitur in nobis sicut in primis 
+paren<lb ed="#Bc" break="no"/>tibus, scilicet suggestione sensualitatis
+<lb ed="#Bc"/>sicut serpentis, et gustu inferioris partis
+<lb ed="#Bc"/>rationis sicut mulieris, et consensu 
+supe<lb ed="#Bc" break="no"/>rioris partis rationis sicut viri. Et hee
+<lb ed="#Bc"/>verba Augustini ponuntur in Litera
+<lb ed="#Bc"/>libri ll] Sententiarum, distinct. XXIV,
+<lb ed="#Bc"/>cap. Idlud quoque pretermittendum non
+<lb ed="#Bc"/>est,
+</p>
+               <p xml:id="Almn78-h42117-d1e1288">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod Ma- 
+<lb ed="#Bc" break="no"/>gister vocat ibi veniale peccatum motum
+<lb ed="#Bc"/>primum, quinon est in sensualitate nisi
+<lb ed="#Bc"/>sicut in corrupta origine: et sic potius
+<lb ed="#Bc"/>est peena peccati, quam peccatum : quia,
+<lb ed="#Bc"/>perfectam rationem peccati non habet, ,
+<lb ed="#Bc"/>eo quod etiam contra voluntatem sepe
+<lb ed="#Bc"/>surgit in homine. Et hoc est quod 
+dici<lb ed="#Bc" break="no"/>tur, ad Roman. vu, 10 et 14: Si autem.
+<lb ed="#Bc"/>guod nolo, illud facio, consentio legi, |
+<lb ed="#Bc"/>gquoniam bona est. Nunc autem jam non
+<lb ed="#Bc"/>ego operor illud, sed quod habitat in
+<lb ed="#Bc"/>me peccatum. Glossa, hoc est, corruptio
+<lb ed="#Bc"/>peccati.
+</p>
+               <p xml:id="Almn78-h42117-d1e1321">
+                  <pb ed="#Bc" n="199"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Ad aliud eodem modo dicendum, quod
+<lb ed="#Bc"/>non dicitur veniale et levissimum 
+pecca<lb ed="#Bc" break="no"/>tum propter aliud, nisi quod procedit ex
+<lb ed="#Bc"/>corruptela primi peccati, qua factum est,
+<lb ed="#Bc"/>quod sensualitas non obedienter se habet
+<lb ed="#Bc"/>ad rationem.
+</p>
+               <p xml:id="Almn78-h42117-d1e1341">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Glossa 
+di<lb ed="#Bc" break="no"/>cit hoc quod dictum est. Dicit enim talem
+<lb ed="#Bc"/>motum non esse peccatum, sed pcenam
+<lb ed="#Bc"/>peccati: et non esse in potestate nostra,
+<lb ed="#Bc"/>quia contra voluntatem sepe surget.
+</p>
+               <p xml:id="Almn78-h42117-d1e1354">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod hoc 
+proce<lb ed="#Bc" break="no"/>dit et veritatem concludit.
+</p>
+               <p xml:id="Almn78-h42117-d1e1361">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod talis 
+defini<lb ed="#Bc" break="no"/>tio est mortalis peccati, quod perfectam
+<lb ed="#Bc"/>rationem peccati habet: et non convenit
+<lb ed="#Bc"/>primo motui, qui peena peccati est, et
+<lb ed="#Bc"/>nihil habet de forma peccati, nisi in
+<lb ed="#Bc"/>quantum ex corruptione primi peccati
+<lb ed="#Bc"/>procedit.
+</p>
+               <p xml:id="Almn78-h42117-d1e1380">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod hoc etiam
+<lb ed="#Bc"/>intelligitur de mortali peccato, et non de
+<lb ed="#Bc"/>primo motu corruptionis antique, que
+<lb ed="#Bc"/>sepe insurgit contra voluntatem.
+</p>
+               <p xml:id="Almn78-h42117-d1e1391">
+                  <lb ed="#Bc"/>Ad uLtimum dicendum, quod corruptio
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>modi, speciei, et ordinis in actu perfecte
+<lb ed="#Bc"/>non sunt nisi in mortali peccato. In 
+ve<lb ed="#Bc" break="no"/>niali autem non sunt nisi in dispositione
+<lb ed="#Bc"/>ad talem corruptionem. In primo autem
+<lb ed="#Bc"/>motu corruptionis primi peccati non sunt
+<lb ed="#Bc"/>nisi in initio materiali peccati, qui si 
+per<lb ed="#Bc" break="no"/>ficiatur in ratione et voluntate, peccatum
+<lb ed="#Bc"/>ponit in esse, quod est corruptio modi,
+<lb ed="#Bc"/>speciei, et ordinis.
+</p>
+               <p xml:id="Almn78-h42117-d1e1417">
+                  <lb ed="#Bc"/>Ex dictis patet solutio cujusdam 
+que<lb ed="#Bc" break="no"/>stionis quam quidam faciunt, licet non
+<lb ed="#Bc"/>oporteret. Querunt enim, Quare 
+Philo<lb ed="#Bc" break="no"/>sophi non pervenerunt ad cognitionem
+<lb ed="#Bc"/>sensualitatis, prout hic disputamus de
+<lb ed="#Bc"/>ipsa, et tamen pervenerunt ad 
+cognitio<lb ed="#Bc" break="no"/>nem concupiscibilis et irascibilis et 
+alia<lb ed="#Bc" break="no"/>rum potentiarum motivarum, que nobis
+<lb ed="#Bc"/>communes sunt cum brutis?
+</p>
+               <p xml:id="Almn78-h42117-d1e1439">
+                  <lb ed="#Bc"/>Hujus enim causa est, quia nos 
+sen<lb ed="#Bc" break="no"/>sualitatis nomine potentiam accipimus
+<lb ed="#Bc"/>et appetitum, qui serpentino suasu et
+<lb ed="#Bc"/>deceptione se habet ad rationem : et hoc
+<lb ed="#Bc"/>non cognoverunt Philosophi.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

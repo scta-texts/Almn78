@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="251"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d55920"><!-- p2t5prae -->
+            <head xml:id="Almn78-d55920-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-d55920-d1e109">
+               <pb ed="#Bb" n="251"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>TRACTATUS  V.
+      <lb ed="#Bb"/>DE CASU ANGELORUM.
+    </p>
+            <p xml:id="Almn78-d55920-d1e120">
+               <lb ed="#Bb"/>Deinde in capitulo primo sexte distinctionis libri Il Sententiarum, cap.
+      <lb ed="#Bb"/>Preterea scirt oportet, queerendum est de casu de#monum.
+      <lb ed="#Bb"/>Circa quod queruntur sex.
+      <lb ed="#Bb"/>Quorum primum est, Quis cecidit ?
+      <lb ed="#Bb"/>Secundum, Propter quid cecidit ?
+      <lb ed="#Bb"/>Tertium, A quo cecidit ?
+      <lb ed="#Bb"/>Quartum, Per quid dejectus fuit ?
+      <lb ed="#Bb"/>Quintum, Quando cecidit ?
+      <lb ed="#Bb"/>Sextum, In quid cecidit ?
+    </p>
+            <p xml:id="Almn78-d55920-d1e142">
+               <lb ed="#Bb"/>Et circa primum horum queruntur duo: quorum primum est, Utrum
+      <lb ed="#Bb"/>superiores vel inferiores fuerunt Angeli cadentes ?
+      <lb ed="#Bb"/>Secundum, Utrum unus eorum aliis suam voluntatem persuaserit, vel
+      <lb ed="#Bb"/>quilibet eorum propria voluntate ceciderit ?
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

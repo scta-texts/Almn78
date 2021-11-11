@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 52</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 52</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="531"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a17620"><!-- p1t13q52 -->
+            <head xml:id="Almn78-a17620-Hd1e106">Quaestio 52</head>
+            <head xml:id="Almn78-a17620-Hd1e109" type="question-title">
+      De hoc nomine, Dominus, utrum sit essentiale
+    </head>
+            <p xml:id="Almn78-a17620-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LII.
+<lb ed="#Ba"/>De hoc nomine, Dominus, utrum sit essentiale?
+</p>
+            <p xml:id="Almn78-a17620-d1e121">
+               <lb ed="#Ba"/>Secundo, queritur de hoc nomine,
+<lb ed="#Ba"/>Dominus, de quo
+</p>
+            <p xml:id="Almn78-a17620-d1e128">
+               <lb ed="#Ba"/>Dicit Dionysius in libro de Divinis
+<lb ed="#Ba"/>nominibus : <quote xml:id="Almn78-a17620-Qd1e134"> Dominatio est non pejor
+<lb ed="#Ba"/>excessus tantum, sed omnis et 
+pulchro<lb ed="#Ba" break="no"/>rum et bonorum perfecta et omnimoda
+<lb ed="#Ba"/>possessio, et vera et cadere non valens
+<lb ed="#Ba"/>fortitudo. Unde et ab eo quod est domi-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>nium facere, dicitur dominatio et 
+domi<lb ed="#Ba" break="no"/>nus et dominans. </quote> Nihil continetur in
+<lb ed="#Ba"/>hac definitione quod persone conveniat
+<lb ed="#Ba"/>in respectu ad personam. .
+</p>
+            <p xml:id="Almn78-a17620-d1e158">
+               <lb ed="#Ba"/>Pejores enim sicut subditos excedere
+<lb ed="#Ba"/>nulli persone convenit respectu alterius :
+<lb ed="#Ba"/>eo quod in prehabitis probata est inter
+<lb ed="#Ba"/>personas omnimoda equalitas.
+  
+<pb ed="#Ba" n="532"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Item, Perfecta et omnimoda possessio
+<lb ed="#Ba"/>pulchrorum et bonorum, equaliter 
+con<lb ed="#Ba" break="no"/>venit tribus personis. Et dicitur in hoc
+<lb ed="#Ba"/>perfecta et omnimoda, quia simpliciter
+<lb ed="#Ba"/>et in uno essentiali bono omnia 
+possi<lb ed="#Ba" break="no"/>det, et ad nutum habet: et hoc 
+aquali<lb ed="#Ba" break="no"/>ter convenit tribus.
+</p>
+            <p xml:id="Almn78-a17620-d1e189">
+               <lb ed="#Ba"/>Similiter tertium quod additur : <quote xml:id="Almn78-a17620-Qd1e193"> 
+Ve<lb ed="#Ba" break="no"/>ra et cadere non valens fortitudo, </quote>
+               <lb ed="#Ba"/>zqualiter convenit tribus.
+</p>
+            <p xml:id="Almn78-a17620-d1e201">
+               <lb ed="#Ba"/>Et sic videtur, quod hoc nomen, 
+Do<lb ed="#Ba" break="no"/>minus, essentiale nomen sit.
+</p>
+            <p xml:id="Almn78-a17620-d1e208">
+               <lb ed="#Ba"/>2. Adhuc, in Psalmo txvn, 5 : 
+Domi<lb ed="#Ba" break="no"/>nus nomen illi. Constat, quod non est
+<lb ed="#Ba"/>nomen personarum. Relinquitur ergo,
+<lb ed="#Ba"/>quod sit essentiale : non enim dicitur
+<lb ed="#Ba"/>per translationem, sed per veritatem de
+<lb ed="#Ba"/>Deo.
+</p>
+            <p xml:id="Almn78-a17620-d1e224">
+               <lb ed="#Ba"/>3. Adhuc, Deuter. vi, 4, et in multis
+<lb ed="#Ba"/>aliis locis : Dominus Deus noster, 
+Domi<lb ed="#Ba" break="no"/>nus unus est.Quod, ut constat, non 
+dici<lb ed="#Ba" break="no"/>tur nisi ratione essentia. Videtur ergo,
+<lb ed="#Ba"/>quod nomen essentiale sit.
+</p>
+            <p xml:id="Almn78-a17620-d1e237">
+               <lb ed="#Ba"/>4, Adhuc, Ambrosius : <quote xml:id="Almn78-a17620-Qd1e241"> Deus est
+<lb ed="#Ba"/>nomen nature : Dominus autem nomen
+<lb ed="#Ba"/>potestatis. </quote> Potestas autem essentialis
+<lb ed="#Ba"/>est et una trium personarum. Ergo hoc
+<lb ed="#Ba"/>nomen, Dominus; videtur esse 
+essen<lb ed="#Ba" break="no"/>tiale.
+</p>
+            <p xml:id="Almn78-a17620-d1e256">
+               <lb ed="#Ba"/>5. Adhuc, In symbolo Athanasii :
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a17620-Qd1e262"> Et tamen non tres Domini, sed unus
+<lb ed="#Ba"/>est Dominus. </quote> Quod non esset, nisi
+<lb ed="#Ba"/>Dominus essentiale esset nomen. Ex 
+om<lb ed="#Ba" break="no"/>nibus his relinquitur,quod Dominus 
+no<lb ed="#Ba" break="no"/>men essentiale sit : et si essentiale est,
+<lb ed="#Ba"/>videtur ab awlerno convenire, et non ex
+<lb ed="#Ba"/>tempore : ab eterno ergo convenit, et
+<lb ed="#Ba"/>non ex tempore, ut videtur.
+</p>
+            <p xml:id="Almn78-a17620-d1e281">
+               <lb ed="#Ba"/>6. Adhuc, Augustinus in libro VI de
+<lb ed="#Ba"/>Trinitale : <quote xml:id="Almn78-a17620-Qd1e287"> Cum queritur, cujus rei ab
+<lb ed="#Ba"/>zelerno fuerit dominus, si creatura non
+<lb ed="#Ba"/>fuit ab eterno? non audeo pracipitare
+<lb ed="#Ba"/>sententiam. Nam et meipsum intueor, et
+<lb ed="#Ba"/>recolo scriptum esse : Quis potest scire
+<lb ed="#Ba"/>consilium Domini : aut quis potest co-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>gitare quid velit Dominus'? </quote> Ex hoc
+<lb ed="#Ba"/>relinguitur,quod Dominus sit ab eterno,
+<lb ed="#Ba"/>et quod hoc nomen, Dominus, sit 
+essen<lb ed="#Ba" break="no"/>tiale.
+</p>
+            <p xml:id="Almn78-a17620-d1e313">
+               <lb ed="#Ba"/>Quop si concedatur, in contrarium est
+<lb ed="#Ba"/>1. Quod inducit Magister in libro 
+pri<lb ed="#Ba" break="no"/>mo Sententiarum, distinct. XXX :<quote xml:id="Almn78-a17620-Qd1e321"> Si
+<lb ed="#Ba"/>Dominus non dicitur nisi cum habere
+<lb ed="#Ba"/>incepit servum, etiam ista appellatio 
+re<lb ed="#Ba" break="no"/>lativa, Dominus, ex tempore est Dev.
+<lb ed="#Ba"/>Non enim sempiterna creatura est, cujus
+<lb ed="#Ba"/>ille dominus est. Ergo dominum csst
+<lb ed="#Ba"/>non sempiternum habet, ne cogamus
+<lb ed="#Ba"/>etiam creaturam sempiternam dicere
+<lb ed="#Ba"/>quia ille sempiterne non dominaretur,
+<lb ed="#Ba"/>nisi etiam ista sempiterne famularetur.
+<lb ed="#Ba"/>Sicut autem non potest esse servus qui
+<lb ed="#Ba"/>non habet dominum, sic nec dominus
+<lb ed="#Ba"/>qui non habet servum. </quote> Hee sunt 
+ver<lb ed="#Ba" break="no"/>ba Augustini de verbo ad verbum in
+<lb ed="#Ba"/>libro V de TZrinitate?. Et ex his 
+conclu<lb ed="#Ba" break="no"/>ditur, quod hoc nomen, Dominus, non
+<lb ed="#Ba"/>convenit ab eterno.
+</p>
+            <p xml:id="Almn78-a17620-d1e360">
+               <lb ed="#Ba"/>2. Adhuc, Augustinus facit 
+objectio<lb ed="#Ba" break="no"/>nem et questionem in libro V de
+<lb ed="#Ba"/>Trinitate, et dicit sic: <quote xml:id="Almn78-a17620-Qd1e368"> Quisquis 
+exsti<lb ed="#Ba" break="no"/>terit qui eternum Deum solum dicat,
+<lb ed="#Ba"/>tempora vero non esse eterna propter
+<lb ed="#Ba"/>varietalem et mutabilitatem, sed tamen
+<lb ed="#Ba"/>tempora non in tempore esse ccepisse,
+<lb ed="#Ba"/>quia erat tempus antequam inciperent
+<lb ed="#Ba"/>tempora : et ideo non in tempore 
+acci<lb ed="#Ba" break="no"/>dere Deo ut dominus esset, quia 
+ipso<lb ed="#Ba" break="no"/>rum temporum doininus erat, que 
+uli<lb ed="#Ba" break="no"/>que non in tempore esse cceperunt :
+<lb ed="#Ba"/>quid respondebit de homine qui in 
+tem<lb ed="#Ba" break="no"/>pore factus est? cujus utique dominus
+<lb ed="#Ba"/>non erat antequam esset. Certe ut 
+domi<lb ed="#Ba" break="no"/>nus hominis esset, ex tempore accidit
+<lb ed="#Ba"/>Deo. Et ut omnis amoveatur 
+controver<lb ed="#Ba" break="no"/>sia, certe ut tuus dominus esset aut
+<lb ed="#Ba"/>meus, qui modo esse cospimus, ex 
+tem<lb ed="#Ba" break="no"/>pore habuit. </quote> ,
+</p>
+            <p xml:id="Almn78-a17620-d1e408">
+               <lb ed="#Ba"/>3. Adhuc, Constat quod dominus est
+<lb ed="#Ba"/>relativum superpositionis. Relativa au
+<pb ed="#Ba" n="533"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>lem posita se ponunt, et perempta se
+<lb ed="#Ba"/>perimunt. Ergo videtur, quod statim ut
+<lb ed="#Ba"/>dominus est, inferiora sint quibus 
+domi<lb ed="#Ba" break="no"/>nelur: sed haec non sunt ab eterno :
+<lb ed="#Ba"/>ergo nec dominus est ab eterno.
+</p>
+            <p xml:id="Almn78-a17620-d1e430">
+               <lb ed="#Ba"/>Unrenws queritur de dicto Augustini
+<lb ed="#Ba"/>qui dicit :<quote xml:id="Almn78-a17620-Qd1e436"> Quod dominus omnium 
+re<lb ed="#Ba" break="no"/>rum est, ex tempore coepit esse. </quote>
+            </p>
+            <p xml:id="Almn78-a17620-d1e443">
+               <lb ed="#Ba"/>Hoc enim videtur falsum.
+<lb ed="#Ba"/>4. Dicit enim <name xml:id="Almn78-a17620-Nd1e449">Isidorus</name>, quod quatuor
+<lb ed="#Ba"/>sunt coequeva, scilicet tempus, celum
+<lb ed="#Ba"/>empyreum, materia prima, et angelica
+<lb ed="#Ba"/>natura, Si autem coequeva sunt, unum
+<lb ed="#Ba"/>non est ex alio. Ideo dicit Augustinus,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a17620-Qd1e463"> ideo dominus temporis non est
+<lb ed="#Ba"/>ex tempore, quia non erat ante tempus
+<lb ed="#Ba"/>in quo tempus fieret. </quote> A simili ergo
+<lb ed="#Ba"/>si tempus et materia prima cosqueva
+<lb ed="#Ba"/>sunt, non erat prius tempus in quo 
+in<lb ed="#Ba" break="no"/>ciperet esse materia prima: et sic non
+<lb ed="#Ba"/>crat dominus prime materia ex 
+tem<lb ed="#Ba" break="no"/>pore : et sic falsum est ‘quod dicit 
+Au<lb ed="#Ba" break="no"/>gustinus, quod sit dominus omnium 
+re<lb ed="#Ba" break="no"/>rum creatarum ex tempore.
+</p>
+            <p xml:id="Almn78-a17620-d1e486">
+               <lb ed="#Ba"/>2, Adhuc, Si quatuor sunt coequeva,
+<lb ed="#Ba"/>videtur non esse magis ratio quare sit
+<lb ed="#Ba"/>dominus cceli, et angeli, et prime 
+mate<lb ed="#Ba" break="no"/>ria ex tempore, quam e converso 
+domi<lb ed="#Ba" break="no"/>nus temporis ex ccelo et prima materia
+<lb ed="#Ba"/>et angelica natura.
+</p>
+            <p xml:id="Almn78-a17620-d1e502">
+               <lb ed="#Ba"/>3. Adhuc, Augustinus concedit hanc,
+<lb ed="#Ba"/>quod est dominus temporis cum 
+tempo<lb ed="#Ba" break="no"/>re, et- quod haec prepositio, cum, notat
+<lb ed="#Ba"/>associationem. Videtur etiam dici 
+debe<lb ed="#Ba" break="no"/>re e converso, quod tempus cospit cum
+<lb ed="#Ba"/>domino : et hoc videtur esse 
+inconve<lb ed="#Ba" break="no"/>niens: quia sic notaretur, quod 
+domi<lb ed="#Ba" break="no"/>nus inciperet esse: quod falsum est.
+</p>
+            <p xml:id="Almn78-a17620-d1e522">
+               <lb ed="#Ba"/>Ulterius queritur de respectu 
+super<lb ed="#Ba" break="no"/>positionis qui significatur in hoc nomine,
+<lb ed="#Ba"/>Dominus, utrum sit creatus, vel 
+increa<lb ed="#Ba" break="no"/>tus ?
+</p>
+            <p xml:id="Almn78-a17620-d1e533">
+               <lb ed="#Ba"/>1. Si enim est creatus et dicitur de
+<lb ed="#Ba"/>Deo, videtur quod aliquid creatum 
+di<lb ed="#Ba" break="no"/>catur de Deo, quod falsum est. Si autem
+<lb ed="#Ba"/>est increatis, sequitur quod sit eternus :
+<lb ed="#Ba"/>et quod est eternum, ex tempore non
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>ceepit : et sic falsum est quod dicit
+<lb ed="#Ba"/>Augustinus, <quote xml:id="Almn78-a17620-Qd1e552"> quod ex tempore incepit
+<lb ed="#Ba"/>esse dominus. </quote>
+            </p>
+            <p xml:id="Almn78-a17620-d1e558">
+               <lb ed="#Ba"/>2. Adhuc, Quidquid incepit esse, 
+crea<lb ed="#Ba" break="no"/>tum est: divinum incepit esse, ut dicit
+<lb ed="#Ba"/>Augustinus : ergo videtur, quod 
+divi<lb ed="#Ba" break="no"/>num quo Deus dominus est, creatum
+<lb ed="#Ba"/>sit. Sed sicut ab albedine is qui albus
+<lb ed="#Ba"/>est, habet quod albus sit : sic a dominio
+<lb ed="#Ba"/>is qui dominus est, habet quod dominus
+<lb ed="#Ba"/>sit: et sic a creatura habet Deus, quod
+<lb ed="#Ba"/>dominus sit, quod valde impium est 
+di<lb ed="#Ba" break="no"/>cere.
+</p>
+            <p xml:id="Almn78-a17620-d1e583">
+               <lb ed="#Ba"/>Ulterius queritur de dicto Magistri
+<lb ed="#Ba"/>in Sententiis, ubi dicit, quod accidit Deo
+<lb ed="#Ba"/>dominum esse, non per accidens quod
+<lb ed="#Ba"/>insit Deo, sed per accidens quod insit
+<lb ed="#Ba"/>creature. Et sic videtur, quod respectus
+<lb ed="#Ba"/>quo Deus dominus est, insit creature
+<lb ed="#Ba"/>ad Deum relate.
+</p>
+            <p xml:id="Almn78-a17620-d1e601">
+               <lb ed="#Ba"/>Quod dictum valde mirabile videtur.
+<lb ed="#Ba"/>1. Ille enim respectus, aut est creatus,
+<lb ed="#Ba"/>aut increatus. Si creatus : cum omni
+<lb ed="#Ba"/>creature respectus sit ad creatorem, illi
+<lb ed="#Ba"/>respectui inerit alius respectus : et de
+<lb ed="#Ba"/>illo respectu iterum queritur, utrum
+<lb ed="#Ba"/>creatus vel increatus sit? Et si creatus
+<lb ed="#Ba"/>est, habebit alium respectum : et sic 
+ibi<lb ed="#Ba" break="no"/>tur in infinitum. Similiter si dicitur,
+<lb ed="#Ba"/>quod est increatus : tunc sequitur, quod
+<lb ed="#Ba"/>aliquid increatum formaliter insit creato,
+<lb ed="#Ba"/>quod est hereticum.
+</p>
+            <p xml:id="Almn78-a17620-d1e630">
+               <lb ed="#Ba"/>2. Adhuc, Hle respectus non potest
+<lb ed="#Ba"/>intelligi nisi cointelligatur correspectus
+<lb ed="#Ba"/>ejus. Relativa enim in se invicem sunt
+<lb ed="#Ba"/>per intellectum et rationem diffinitivam.
+<lb ed="#Ba"/>Sed cum relativa sint opposita, 
+impossi<lb ed="#Ba" break="no"/>bile est, quod isti oppositi respectus sint
+<lb ed="#Ba"/>in eodem. Si ergo famulatus vel 
+subje<lb ed="#Ba" break="no"/>ctio est in creatura, superpositio et 
+do<lb ed="#Ba" break="no"/>minium est in creatore. Et sic non per
+<lb ed="#Ba"/>accidens quod accidit creature, dominus
+<lb ed="#Ba"/>est, ut dicit Magister in Sententiis, sed
+<lb ed="#Ba"/>per accidens quod sibi accidit, ut 
+vide<lb ed="#Ba" break="no"/>tur.
+</p>
+            <p xml:id="Almn78-a17620-d1e661">
+               <lb ed="#Ba"/>3. Ad hoc quidam dixerunt, quod 
+om<lb ed="#Ba" break="no"/>nes hujusmodi respectus creature sunt
+<lb ed="#Ba"/>et creati sunt, et de Deo non predican
+<pb ed="#Ba" n="534"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>tur nisi per causam : sicut cum dicitur,
+<lb ed="#Ba"/>medicina est sana, quia scilicet causa est
+<lb ed="#Ba"/>sanitatis. Sed ista solutio stare non 
+pot<lb ed="#Ba" break="no"/>est : quia cum dicitur, Deus est 
+domi<lb ed="#Ba" break="no"/>nus, nec in principali significato, nec in
+<lb ed="#Ba"/>connotato significatur aliquod creatum a
+<lb ed="#Ba"/>Deo : sed potius significatum est divina
+<lb ed="#Ba"/>essentia, connotatum autem dominium,
+<lb ed="#Ba"/>quod est respectus superpositionis quo
+<lb ed="#Ba"/>quasi formaliter Deus dominus est : et
+<lb ed="#Ba"/>hoc in Deo etiam est divina essentia.
+<lb ed="#Ba"/>Unde Boetius in libro de Trinitale :
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a17620-Qd1e702"> Dominium est potestas coercendi, que
+<lb ed="#Ba"/>in Deo divina essentia est. </quote> Non ergo
+<lb ed="#Ba"/>per causam dictum est, Deus est 
+domi<lb ed="#Ba" break="no"/>nus.
+</p>
+            <p xml:id="Almn78-a17620-d1e712">
+               <lb ed="#Ba"/>4. Propter hoc Porretani dixerunt,
+<lb ed="#Ba"/>quod dominium dicit respectum 
+assi<lb ed="#Ba" break="no"/>stentem in Deo, non insistentem : 
+di<lb ed="#Ba" break="no"/>stinguunt enim inter subsistens, 
+exi<lb ed="#Ba" break="no"/>stens, insistens, et assistens. Sudbsistens
+<lb ed="#Ba"/>dicunt esse, quod sibi ad esse sufficit et
+<lb ed="#Ba"/>alio non indiget, sicut est divina 
+essen<lb ed="#Ba" break="no"/>tia. Hxistens autem dicunt esse, quod.
+<lb ed="#Ba"/>alio quodam ut causa indiget ex quo sit,
+<lb ed="#Ba"/>sicut causatum et creatum. Insistens 
+au<lb ed="#Ba" break="no"/>tem dicunt esse, quod ad aliud fluit ut ad
+<lb ed="#Ba"/>subjectum in. quo insit. Asszstens vero
+<lb ed="#Ba"/>dicunt, quod non inest, sed per 
+habitu<lb ed="#Ba" break="no"/>dinem alicujus extrinseci dicit respectum
+<lb ed="#Ba"/>unius ad alterum. Sicut relativa quorum
+<lb ed="#Ba"/>esse est ad aliud. Et tales respectus 
+di<lb ed="#Ba" break="no"/>cunt esse in his nominibus, dominus, et
+<lb ed="#Ba"/>creator. Et ideo dicunt Boetium dicere,
+<lb ed="#Ba"/>quod relatio non addit, nec mutat, nec
+<lb ed="#Ba"/>minuit in eo in quo est. Et <ref xml:id="Almn78-a17620-Rd1e757">Philosophus
+<lb ed="#Ba"/>in V <title>Physicorum</title>
+               </ref> dicit, quod motus vel
+<lb ed="#Ba"/>mutatio non est in relatione : <quote xml:id="Almn78-a17620-Qd1e767"> quod
+<lb ed="#Ba"/>intelligunt tam de motu per se, cujus sex
+<lb ed="#Ba"/>sunt species, quam de motu per 
+acci<lb ed="#Ba" break="no"/>dens, qui in omnibus est</quote>, ut dicit 
+<ref xml:id="Almn78-a17620-Rd1e777">
+                  <name xml:id="Almn78-a17620-Nd1e779">Phi<lb ed="#Ba" break="no"/>losophus</name> in I <title>Physicorum</title>
+               </ref>. Dicunt enim,
+<lb ed="#Ba"/>quod si relatio predicaret aliquid 
+inhe<lb ed="#Ba" break="no"/>rens vel insistens, quod motus esset ad
+<lb ed="#Ba"/>aliud : sicut de non albo fit album, et
+<lb ed="#Ba"/>de non causato causatum, et de non exi
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>stente hic, existens hic, et de non agente
+<lb ed="#Ba"/>agens, et de non patiente patiens, et du
+<lb ed="#Ba"/>non cappato cappatus, et de superiors
+<lb ed="#Ba"/>inferior : sed quia nihil insistens 
+pradi<lb ed="#Ba" break="no"/>cat vel inherens, et nihil addit vel 
+mi<lb ed="#Ba" break="no"/>nuit vel mutat, ideo non dicit nisi 
+assi<lb ed="#Ba" break="no"/>stens extrinsecus, et hoc est respectius
+<lb ed="#Ba"/>habitudinis ad aliud, et hoc est potius
+<lb ed="#Ba"/>ratio quam res, et potius est in 
+compara<lb ed="#Ba" break="no"/>tione quam in comparatis.
+</p>
+            <p xml:id="Almn78-a17620-d1e821">
+               <lb ed="#Ba"/>Sed contra hoc est, quod licet in 
+rela<lb ed="#Ba" break="no"/>tione non sit motus, tamen ex motu
+<lb ed="#Ba"/>causatur relatio, sicut ex generationr
+<lb ed="#Ba"/>pater, et (sicut dicit Augustinus) ex 
+ali<lb ed="#Ba" break="no"/>qua mutatione voluntatum fit, quod
+<lb ed="#Ba"/>amicus est : cum enim amare incipit,
+<lb ed="#Ba"/>amicus est : et similiter ex mutatione
+<lb ed="#Ba"/>contrahentium et pactis causatur, quod
+<lb ed="#Ba"/>nummus pretium sit vel pignus,secundum
+<lb ed="#Ba"/>quod dicit <ref xml:id="Almn78-a17620-Rd1e844">Aristoteles in V Ethicorum</ref>,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a17620-Qd1e850"> nummus est fidejussor future 
+ne<lb ed="#Ba" break="no"/>cessitatis. </quote> Cum autem dicitur Dominus
+<lb ed="#Ba"/>Deus, tria dicuntur, superpositio 
+scili<lb ed="#Ba" break="no"/>cet, causa superpositionis, qua est 
+per<lb ed="#Ba" break="no"/>fecta et omnimoda possessio pulchrorum
+<lb ed="#Ba"/>et bonorum, et potestas coercendi vel
+<lb ed="#Ba"/>continendi subjectam creaturam, qui
+<lb ed="#Ba"/>intelligitur in hoc, quod est vera et 
+ca<lb ed="#Ba" break="no"/>dere non valens fortitudo, sive (ut
+<lb ed="#Ba"/>alia translatio habet) immutabilis 
+fir<lb ed="#Ba" break="no"/>mitas. Que omnia in Deo sunt, et sunt
+<lb ed="#Ba"/>essentia divina : et ideo divinum non
+<lb ed="#Ba"/>potest dicere tantum assistentem, 
+habi<lb ed="#Ba" break="no"/>tudinem, sed etiam illud quod in Deo
+<lb ed="#Ba"/>essentialiter est et essentia divina.
+</p>
+            <p xml:id="Almn78-a17620-d1e885">
+               <lb ed="#Ba"/>Et quia circa hoc magnorum sunt 
+di<lb ed="#Ba" break="no"/>verse opiniones, ut melius intelligatur
+<lb ed="#Ba"/>veritas, inquiratur ulterius, Si creator
+<lb ed="#Ba"/>refertur ad creaturam '?
+</p>
+            <p xml:id="Almn78-a17620-d1e896">
+               <lb ed="#Ba"/>Videtur enim, quod non.
+<lb ed="#Ba"/>1. Dicit enim Dionysius, quod in 
+cau<lb ed="#Ba" break="no"/>sato etcausa non recipimus 
+reciprocatio<lb ed="#Ba" break="no"/>nem : causatum enim ad causam 
+refer<lb ed="#Ba" break="no"/>tur, et none converso. Cum ergo 
+crea<lb ed="#Ba" break="no"/>tor sit causa, et creatura causatum, licet
+<pb ed="#Ba" n="535"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>creatura referatur ad creatorem, non 
+ta<lb ed="#Ba" break="no"/>men e converso creator refertur ad 
+crea<lb ed="#Ba" break="no"/>turam
+</p>
+            <p xml:id="Almn78-a17620-d1e922">
+               <lb ed="#Ba"/>2. Adhuc, Quod refertur ad. aliquid,
+<lb ed="#Ba"/>dependet ad illud et non finitur nisi ad
+<lb ed="#Ba"/>ipsum : Deus autem ad nihil dependet,
+<lb ed="#Ba"/>nec finitur ad aliquid extra se, cum 
+infi<lb ed="#Ba" break="no"/>nitus sit : ergo videtur, quod ad nihil
+<lb ed="#Ba"/>refertur.
+</p>
+            <p xml:id="Almn78-a17620-d1e938">
+               <lb ed="#Ba"/>SED IN CONTRARIUM est, quod
+<lb ed="#Ba"/>1. Cum dico, Deus est dominus, vel
+<lb ed="#Ba"/>Deus est creator : aut predico aliquid
+<lb ed="#Ba"/>absolute, aut predico in habitudine ad
+<lb ed="#Ba"/>aliud. Si preedico absolute : tunc falsum
+<lb ed="#Ba"/>dicit Augustinus : dicit enim, quod 
+do<lb ed="#Ba" break="no"/>minus et creator dicunt relationem ad
+<lb ed="#Ba"/>aliud, sicut nummus dicitur pretium ad
+<lb ed="#Ba"/>aliud. Si autem predico quod est in
+<lb ed="#Ba"/>habitudine : tunc queratur, In quo sit
+<lb ed="#Ba"/>itla habitudo sive respectus? Si enim 
+di<lb ed="#Ba" break="no"/>talur esse in Deo : tunc cum ex tempore
+<lb ed="#Ba"/>conveniat Deo esse dominum et 
+creato<lb ed="#Ba" break="no"/>rem, et non ab aterno, et incipiat esse
+<lb ed="#Ba"/>in Deo, ut dicit Augustinus, videtur 
+ali<lb ed="#Ba" break="no"/>quid mutationis fiert in Deo, quod 
+om<lb ed="#Ba" break="no"/>nino hereticum est. Si vero est in 
+crea<lb ed="#Ba" break="no"/>ura, hoc non videtur posse stare. 
+Op<lb ed="#Ba" break="no"/>positus enim respectus in creatura est :
+<lb ed="#Ba"/>el oppositi respectus non possunt esse
+<lb ed="#Ba"/>in eodem simul : oportet ergo, quod
+<lb ed="#Ba"/>respectus qui importatur per dominum,
+<lb ed="#Ba"/>in Deo sit.
+</p>
+            <p xml:id="Almn78-a17620-d1e990">
+               <lb ed="#Ba"/>2. Adhuc, Augustinus in quinto de
+<lb ed="#Ba"/>Trinitate : <quote xml:id="Almn78-a17620-Qd1e996"> Deus dominus est, sicut
+<lb ed="#Ba"/>nummus pretium est per relationem que
+<lb ed="#Ba"/>est in ipso'. </quote> Ergo et Deus dominus
+<lb ed="#Ba"/>est per relationem que est in ipso.
+</p>
+            <p xml:id="Almn78-a17620-d1e1006">
+               <lb ed="#Ba"/>3. Adhuc, Nummus pretium est per
+<lb ed="#Ba"/>relationem que accidit ei : ergo et Deus
+<lb ed="#Ba"/>dominus est per relationem que accidit
+<lb ed="#Ba"/>ei, si verum dicit Augustinus, et si simile
+<lb ed="#Ba"/>est quod inducit pro simili.
+</p>
+            <p xml:id="Almn78-a17620-d1e1020">
+               <lb ed="#Ba"/>4. Adhuc, Habitudo relativorum talis
+<lb ed="#Ba"/>est, quod utrumque refertur ad alterum,
+<lb ed="#Ba"/>et respectus unius non est respectus 
+al<lb ed="#Ba" break="no"/>terius. Si ergo inter Deum dominum et
+<lb ed="#Ba"/>subjectam creaturam tales duo sunt 
+re<lb ed="#Ba" break="no"/>spectus : si respectus servitutis est in
+<lb ed="#Ba"/>creatura, erit superpositionis respectus
+<lb ed="#Ba"/>in creatore.
+</p>
+            <p xml:id="Almn78-a17620-d1e1040">
+               <lb ed="#Ba"/>5. Adhuc, Cum dicitur, Deus est 
+do<lb ed="#Ba" break="no"/>minus, relativum in recto predicatur de
+<lb ed="#Ba"/>Deo. Illi autem inest relatio, de quo
+<lb ed="#Ba"/>relativum in recto predicatur. Ergo 
+vi<lb ed="#Ba" break="no"/>detur, quod relatio que importatur per
+<lb ed="#Ba"/>hoc nomen, Dominus, sit in Deo et non
+<lb ed="#Ba"/>in creatura.
+</p>
+            <p xml:id="Almn78-a17620-d1e1058">
+               <lb ed="#Ba"/>Solutio. Notandum, quod inter 
+Phi<lb ed="#Ba" break="no"/>losophos semper fuit disputatio de 
+rela<lb ed="#Ba" break="no"/>tivis. Quidam enim dicunt relationem
+<lb ed="#Ba"/>non esse differentiam entis vel speciem,
+<lb ed="#Ba"/>nec esse aliquod predicamentum : eo
+<lb ed="#Ba"/>quod omne pradicamentum species 
+en<lb ed="#Ba" break="no"/>tis est, quod additum alii vel auget, vel
+<lb ed="#Ba"/>minuit, vel mutat in ipso: relatio autem
+<lb ed="#Ba"/>adveniens alicui, ut dicit Boetius, nec
+<lb ed="#Ba"/>addit, nec mutat, nec minuit aliquid. Et
+<lb ed="#Ba"/>est exemplum Boetii de eo qui fuit 
+ali<lb ed="#Ba" break="no"/>cui sinister, qui sine mutatione sui, alio
+<lb ed="#Ba"/>transeunte in oppositum situm, efficitur
+<lb ed="#Ba"/>dexter. Exemplum autem Augustini est
+<lb ed="#Ba"/>de nummo, qui sine omni mutatione
+<lb ed="#Ba"/>sui, in possessore facta mutatione, 
+em<lb ed="#Ba" break="no"/>ptionis efficitur pretium, ‘nummo 
+pent<lb ed="#Ba" break="no"/>tus eodem modo se habente ut prius. Et
+<lb ed="#Ba"/>ideo licet ex motu sive,mutatione 
+cause<lb ed="#Ba" break="no"/>tur relatio, tamen non oportet, quod ex
+<lb ed="#Ba"/>mutatione relativi relatio causetur in
+<lb ed="#Ba"/>ipso. Et haec fuit opinio Zenonis, sicut
+<lb ed="#Ba"/>apparet in Logica Zenonis.
+</p>
+            <p xml:id="Almn78-a17620-d1e1110">
+               <lb ed="#Ba"/>Aristoteles autem qui hec subtilius
+<lb ed="#Ba"/>tractavit quam alii, videns quod omne
+<lb ed="#Ba"/>illud quod esse aliquid predicat, 
+diffe<lb ed="#Ba" break="no"/>rentia et species est entis ; relativum
+<lb ed="#Ba"/>autem esse aliquod predicat absque 
+du<lb ed="#Ba" break="no"/>bio, et esse illud specialem habet 
+coordi<lb ed="#Ba" break="no"/>nationem pradicabiliam, que non est
+<lb ed="#Ba"/>reducibilis ad esse quod alia predicant
+<lb ed="#Ba"/>genera, relativam dixit esse speciale
+<lb ed="#Ba"/>pradicamentum. Quod ut intelligatur,
+<lb ed="#Ba"/>notandum quod triplex est esse in 
+ge<lb ed="#Ba" break="no"/>nere. Est enim esse substantie 
+subsi<lb ed="#Ba" break="no"/>stentis et nullo indigentis,et hoc est esse
+<pb ed="#Ba" n="536"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>absolutum ad nihil dependens, et nullo
+<lb ed="#Ba"/>indigens ut subjecto ad hoc ut sit. Et
+<lb ed="#Ba"/>est esse inherentis, subjecto indigentis
+<lb ed="#Ba"/>ad hoc ut sit, et hoc est esse accidentis.
+<lb ed="#Ba"/>Et hoc multiplicatur secundum 
+differen<lb ed="#Ba" break="no"/>tias inherendi subjecto. Quoddam enim
+<lb ed="#Ba"/>inheret ut mensura subjecti, et est
+<lb ed="#Ba"/>quantitas. Et quoddam inheret ut 
+dis<lb ed="#Ba" break="no"/>positio subjecti, et hoc est qualitas. Et
+<lb ed="#Ba"/>utrumque istorum est esse absolutum :
+<lb ed="#Ba"/>secundum modum tamen predicandi
+<lb ed="#Ba"/>neutrum reducibile est ad alterum
+<lb ed="#Ba"/>quia esse quod predicatur in uno, non
+<lb ed="#Ba"/>predicatur in altero. Tertium est esse
+<lb ed="#Ba"/>secundum Aristotelem, quod nec est
+<lb ed="#Ba"/>per se esse, nec est inesse, sed est
+<lb ed="#Ba"/>ad aliud esse: et tale est esse 
+relativo<lb ed="#Ba" break="no"/>rum, et nec reducibile est ad per se
+<lb ed="#Ba"/>esse, nec ad inesse, sed habet 
+praedi<lb ed="#Ba" break="no"/>candi specialem modum. Propter quod
+<lb ed="#Ba"/>dicit relativum esse speciale 
+pradica<lb ed="#Ba" break="no"/>mentum ; et invenitur tam in substantiis
+<lb ed="#Ba"/>quam in accidentibus, et est in 
+habitu<lb ed="#Ba" break="no"/>dine substantiarum ad invicem 
+substan<lb ed="#Ba" break="no"/>tia, et in habitudine accidentium ad
+<lb ed="#Ba"/>invicem accidens. Quod patet. Non
+<lb ed="#Ba"/>enim potest dici, quod identitas ejus 
+<lb ed="#Ba" break="no"/>quod est idem, sit accidens : nec potest
+<lb ed="#Ba"/>dici, quod similitudo ejus quod est 
+si<lb ed="#Ba" break="no"/>mile, non sit accidens. Et ideo speciale
+<lb ed="#Ba"/>esse est, quod pradicant relativa.
+</p>
+            <p xml:id="Almn78-a17620-d1e1212">
+               <lb ed="#Ba"/>Hoc autem distinguit Aristoteles in
+<lb ed="#Ba"/>duo, scilicet quod quedam sunt relativa
+<lb ed="#Ba"/>secundum esse et secundum dici, 
+que<lb ed="#Ba" break="no"/>dam autem secundum dici tantum. 
+Se<lb ed="#Ba" break="no"/>cundum esse et dici relativa sunt, 
+quo<lb ed="#Ba" break="no"/>rum utrique innascitur relatio ex 
+muta<lb ed="#Ba" break="no"/>tione que fit in utroque relativorum,
+<lb ed="#Ba"/>ut pater et filius : pater enim a 
+genera<lb ed="#Ba" break="no"/>tione activa dicitur pater, et filius a 
+ge<lb ed="#Ba" break="no"/>neratione passiva dicitur filius. 
+Secun<lb ed="#Ba" break="no"/>dum dici autem relativa sunt, quibus
+<lb ed="#Ba"/>innascitur relatio secundum mutationem
+<lb ed="#Ba"/>in altero relativorum tantum factam :
+<lb ed="#Ba"/>et est exemplum Boetii ad hoe, sicut si
+<lb ed="#Ba"/>aliquis dicatur ex sinistro habens 
+colum<lb ed="#Ba" break="no"/>nam immobilem, per transitum suum ad
+<lb ed="#Ba"/>oppositum situm, eidem columne fieri
+<lb ed="#Ba"/>dexter : huic enim columna dextra est
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>secundum dici tantum : columna enim
+<lb ed="#Ba"/>non fit dextra per mutationem column
+<lb ed="#Ba"/>que immobiliter stat, sed per 
+mutalio<lb ed="#Ba" break="no"/>nem sui tantum ad oppositum. Unde
+<lb ed="#Ba"/>cum omne dextrum dextro dextrum sit,
+<lb ed="#Ba"/>respectus qui importatur per dextrum,
+<lb ed="#Ba"/>secundum esse non est nisi in eo quod
+<lb ed="#Ba"/>mutatur secundum situm : quia cum 
+re<lb ed="#Ba" break="no"/>spectus dependens est ad alterum et nou
+<lb ed="#Ba"/>finitur nisi ad aliud, eo quod esse ejus
+<lb ed="#Ba"/>est ad aliud esse et non esse simpliciter,
+<lb ed="#Ba"/>propter hoc columna non est dextra 
+sc<lb ed="#Ba" break="no"/>cundum esse, sed secundum dici 
+tan<lb ed="#Ba" break="no"/>tum : eo quod non potest dextrum 
+intel<lb ed="#Ba" break="no"/>ligi nisi intellecto eo cui dextrum est.
+<lb ed="#Ba"/>Et est regulariter verum, quod 
+secun<lb ed="#Ba" break="no"/>dum quod contingit intelligi, sic 
+contin<lb ed="#Ba" break="no"/>git significari dictione : et idcirco non
+<lb ed="#Ba"/>potest intelligi, quod iste sit dexter ad
+<lb ed="#Ba"/>columnam, nisi columna condicatur esse
+<lb ed="#Ba"/>a dextris ejus. Et in talibus relativum
+<lb ed="#Ba"/>illud in quo relatio causatur a 
+muta<lb ed="#Ba" break="no"/>tione, refertur ad aliud secundum esse
+<lb ed="#Ba"/>et dici. [llud autem in quo non causatur
+<lb ed="#Ba"/>a mutatione, non refertur ad alterum
+<lb ed="#Ba"/>secundum esse : hoc est quia illud quod
+<lb ed="#Ba"/>nullam sustinuit mutationem, secundum
+<lb ed="#Ba"/>dici tantum refertur ad reliquum : quia
+<lb ed="#Ba"/>secundum dici non finitur intellectus
+<lb ed="#Ba"/>alterius, nisi istud dicatur ad illud. -
+</p>
+            <p xml:id="Almn78-a17620-d1e1321">
+               <lb ed="#Ba"/>Et sic est in his nominibus, dominus,
+<lb ed="#Ba"/>et creator, in quibus per mutationem
+<lb ed="#Ba"/>creature que est exitus in esse vel 
+sub<lb ed="#Ba" break="no"/>jecto, famulatus respectus est in 
+crea<lb ed="#Ba" break="no"/>turis secundum esse et dici: in creatore
+<lb ed="#Ba"/>autem non est secundum esse, sed 
+se<lb ed="#Ba" break="no"/>cundum dici tantum, hoc est, secundum
+<lb ed="#Ba"/>dici creature : quia scilicet serva vel
+<lb ed="#Ba"/>creatura non intelligitur dici, nisi is
+<lb ed="#Ba"/>cujus serva et creatura est, condicatur
+<lb ed="#Ba"/>et cointelligatur : servus enim alicujus
+<lb ed="#Ba"/>servus est, et non nisi domini : et 
+crea<lb ed="#Ba" break="no"/>tura alicujus creatura est, et non nisi
+<lb ed="#Ba"/>creatoris. Et sic dicit Porphyrius : <quote xml:id="Almn78-a17620-Qd1e1353"> 
+Ne<lb ed="#Ba" break="no"/>cesse est in talibus rationibus 
+utrorum<lb ed="#Ba" break="no"/>que utrisque uti. </quote>
+            </p>
+            <p xml:id="Almn78-a17620-d1e1362">
+               <lb ed="#Ba"/>Et per hoc jam patet solutio ad omnia
+<lb ed="#Ba"/>que objecta et quesita sunt.
+</p>
+            <p xml:id="Almn78-a17620-d1e1369">
+               <lb ed="#Ba"/>Quod ENIM primo queritur, Utrum sit
+<pb ed="#Ba" n="537"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>nomen essentiale vel non? patet quod
+<lb ed="#Ba"/>nomen essentiale est, sed connotat 
+ha<lb ed="#Ba" break="no"/>hitudinem superpositionis ad creaturam
+<lb ed="#Ba"/>famulantem : et talia nomina essentialia
+<lb ed="#Ba"/>sunt et significant divinam essentiam, et
+<lb ed="#Ba"/>connotant cum divina essenlia quam 
+si<lb ed="#Ba" break="no"/>gnificant, habitudinem superpositionis :
+<lb ed="#Ba"/>et hanc non connotant ex mutatione
+<lb ed="#Ba"/>facta in divina essentia, sed ex opposito,
+<lb ed="#Ba"/>quod est suppositio et famulatus 
+creatu<lb ed="#Ba" break="no"/>re, qui nec intelligi nec dici potest,
+<lb ed="#Ba"/>nisi cointelligatur et condicatur 
+super<lb ed="#Ba" break="no"/>positio creatoris ex supposito. Omne
+<lb ed="#Ba"/>enim suppositum et famulans, alicui
+<lb ed="#Ba"/>suppositum et famulans est, et non nisi
+<lb ed="#Ba"/>superposito et dominanti.
+</p>
+            <p xml:id="Almn78-a17620-d1e1413">
+               <lb ed="#Ba"/>Et per Hoc patet solutio ad sex prima
+<lb ed="#Ba"/>que inducuntur ad hoc. Concedimus
+<lb ed="#Ba"/>enim, quod dominus nomen essentiale
+<lb ed="#Ba"/>est quantum ad id quod significat, licet
+<lb ed="#Ba"/>quantum ad modum significandi 
+conno<lb ed="#Ba" break="no"/>tet respectum superpositionis, propter
+<lb ed="#Ba"/>quem dicitur relativum ad subjectam
+<lb ed="#Ba"/>creaturam et famulantem.
+</p>
+            <p xml:id="Almn78-a17620-d1e1433">
+               <lb ed="#Ba"/>Ad id quod objicitur in contrarium
+<lb ed="#Ba"/>secundum Augustinum et Magistrum in
+<lb ed="#Ba"/>Sententiis, quod <quote xml:id="Almn78-a17620-Qd1e1441"> dominus accidit Deo
+<lb ed="#Ba"/>ex tempore, </quote> dicendum quod hoc 
+Au<lb ed="#Ba" break="no"/>gustinus et Magister dicunt ratione 
+con<lb ed="#Ba" break="no"/>notati, Et quod dicunt, accidit. Accidit
+<lb ed="#Ba"/>enim dicitur ab accidendo secundum
+<lb ed="#Ba"/>dici, ef non ab ‘accidendo secundum
+<lb ed="#Ba"/>esse : creatura enim existente et 
+famu<lb ed="#Ba" break="no"/>lante, accidit Deo secundum dici, quod
+<lb ed="#Ba"/>dominus sit, secundum quod dominus
+<lb ed="#Ba"/>ab actuali dominatione dicitur : 
+quam<lb ed="#Ba" break="no"/>quam habitualiter secundum 
+possessio<lb ed="#Ba" break="no"/>nem pulchrorum et bonorum, et 
+secun<lb ed="#Ba" break="no"/>dum facultatem virtutis immutabilis 
+con<lb ed="#Ba" break="no"/>tentive subjectorum, ab eterno sit 
+do<lb ed="#Ba" break="no"/>minus. Et ideo dicit Augustinus, quod
+<lb ed="#Ba"/>non fuit ausus precipitare sententiam :
+<lb ed="#Ba"/>quia habitualiter ab eterno dominus est,
+<lb ed="#Ba"/>actualiter autern ex tempore.
+</p>
+            <p xml:id="Almn78-a17620-d1e1482">
+               <lb ed="#Ba"/>Per hoc patet solutio ad dictum 
+Ma<lb ed="#Ba" break="no"/>gistri et Augustini.
+</p>
+            <p xml:id="Almn78-a17620-d1e1489">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod hoc quod
+<lb ed="#Ba"/>relativa posita se ponunt, ete., 
+intelli<lb ed="#Ba" break="no"/>gitur de relativis, que secundum esse
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>et dici sunt relativa. Dietum est autem,
+<lb ed="#Ba"/>quod hoc relativum, dominus, de Deo
+<lb ed="#Ba"/>dictum, tantum secundum dici est 
+re<lb ed="#Ba" break="no"/>jativum : et ideo posito famulatu in
+<lb ed="#Ba"/>creatura, non de necessitate ponitur 
+do<lb ed="#Ba" break="no"/>minus, nisi de actuali dominatione 
+in<lb ed="#Ba" break="no"/>telligatur.
+</p>
+            <p xml:id="Almn78-a17620-d1e1516">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur de dicto
+<lb ed="#Ba"/>Augustini, dicendum quod dictum 
+Au<lb ed="#Ba" break="no"/>gustini rationabile est. Et hujus non
+<lb ed="#Ba"/>est causa quam quidam dicunt,  scilicet
+<lb ed="#Ba"/>quod tempus intelligitur non 
+intelle<lb ed="#Ba" break="no"/>cta creatura, et sic tempus est 
+se<lb ed="#Ba" break="no"/>cundum intellectum ante creaturam
+<lb ed="#Ba"/>sed creatura non intelligitur sine 
+tem<lb ed="#Ba" break="no"/>pore : quia creatura incipit a versione,
+<lb ed="#Ba"/>ut dicit Damascenus : quod autem in 
+ver<lb ed="#Ba" break="no"/>sione et generatione et corruptione 
+me<lb ed="#Ba" break="no"/>titur, tempus est : et sic creatura sine
+<lb ed="#Ba"/>tempore intelligi non potest. Et quia
+<lb ed="#Ba"/>posterius est ex priori secundum 
+ordi<lb ed="#Ba" break="no"/>nem, ideo omnis creatura est ex 
+tempo<lb ed="#Ba" break="no"/>re, etid quod accidit Deo ex hoc quod
+<lb ed="#Ba"/>est ex tempore, dicitur esse ex tempore.
+<lb ed="#Ba"/>Quamvis autem hoc bene dictum sit et
+<lb ed="#Ba"/>vere, tamen hec non est causa dicti : sed
+<lb ed="#Ba"/>potius quia mensura certificat 
+quantita<lb ed="#Ba" break="no"/>tem mensurati, et non e converso, et
+<lb ed="#Ba"/>tempus est mensura esse rerum 
+muta<lb ed="#Ba" break="no"/>bilium, ideo esse mensurati dicitur esse
+<lb ed="#Ba"/>ex tempore, et non e converso : ideo 
+do<lb ed="#Ba" break="no"/>minus est omnium rerum creatarum ex
+<lb ed="#Ba"/>tempore, et non e converso : esse enim
+<lb ed="#Ba"/>rerum creatarum non mensurat 
+tem<lb ed="#Ba" break="no"/>pus, sed e converso.
+</p>
+            <p xml:id="Almn78-a17620-d1e1579">
+               <lb ed="#Ba"/>Per hoc patet solutio ad sequens.
+</p>
+            <p xml:id="Almn78-a17620-d1e1584">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod cum dicit
+<lb ed="#Ba"/>Augustinus, quod ccepit esse dominus
+<lb ed="#Ba"/>temporis cum tempore, et non ex tem-
+</p>
+            <p xml:id="Almn78-a17620-d1e1593">
+               <lb ed="#Ba"/>pore, cum dicit cum tempore, vocat
+<lb ed="#Ba"/>tempus quidquid est essentialiter 
+tempo<lb ed="#Ba" break="no"/>ris, et non tantum hoc quod formaliter
+<lb ed="#Ba"/>et substantialiter est tempus. Vocat enim
+<lb ed="#Ba"/>tempus initium temporis, quod 
+essen<lb ed="#Ba" break="no"/>tiale principium temporis est, et a quo
+<lb ed="#Ba"/>essentialiter fluit tempus secundum 
+diffi<lb ed="#Ba" break="no"/>nitionem Prisciani, et Dionysii. Dicit
+<lb ed="#Ba"/>enim <name xml:id="Almn78-a17620-Nd1e1614">Priscianus</name>, quod <quote xml:id="Almn78-a17620-Qd1e1617"> tempus est mo
+<pb ed="#Ba" n="538"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ra mutabilium rerum. </quote> Et propter hoc
+<lb ed="#Ba"/>accidit actioni et passioni, que semper
+<lb ed="#Ba"/>in renovatione sunt vel forme vel situs.
+<lb ed="#Ba"/>Quia, sicut dicitur in libro Sex 
+princi<lb ed="#Ba" break="no"/>piorum, secundum quod motus in 
+mo<lb ed="#Ba" break="no"/>vente est, omnis actio est in motu, et
+<lb ed="#Ba"/>omnis motus in actione firmatur. Passio
+<lb ed="#Ba"/>autem secundum quod in patiente est,
+<lb ed="#Ba"/>absque dubio motus est. Et sic tempus
+<lb ed="#Ba"/>non tantum mensura est motus primi
+<lb ed="#Ba"/>moblis, sed mensura omnis motus et
+<lb ed="#Ba"/>mutationis, et mensura est mutabilium.
+<lb ed="#Ba"/>Eadem enim mensura, ut dicit 
+Aristote<lb ed="#Ba" break="no"/>les in V Physicorum, mensurantur 
+mo<lb ed="#Ba" break="no"/>tus et quies. Et sic. certificatio esse 
+mu<lb ed="#Ba" break="no"/>tabilium est ex tempore, et none 
+con<lb ed="#Ba" break="no"/>verso.
+</p>
+            <p xml:id="Almn78-a17620-d1e1662">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod respectus superpositionis qui
+<lb ed="#Ba"/>importatur per hoc nomen dominus, si
+<lb ed="#Ba"/>habitualiter dominus dicatur, est in Deo
+<lb ed="#Ba"/>et est eternus, ut dictum est. Si autem
+<lb ed="#Ba"/>dominus ab actuali dominatione dicatur,
+<lb ed="#Ba"/>tunc respectus secundum esse est in
+<lb ed="#Ba"/>creatura, et non est in Deo nisi 
+secun<lb ed="#Ba" break="no"/>dum dici. Dico autem dict quo contingit
+<lb ed="#Ba"/>significari dictione nostrum intellectum,
+<lb ed="#Ba"/>quo non possumus respectum 
+creatu<lb ed="#Ba" break="no"/>rarum significare dicendo, nisi 
+condi<lb ed="#Ba" break="no"/>camus primum correspectum in 
+crea<lb ed="#Ba" break="no"/>tore.
+</p>
+            <p xml:id="Almn78-a17620-d1e1695">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod quidquid
+<lb ed="#Ba"/>incipit esse secundum esse, est creatum :
+<lb ed="#Ba"/>sed quod incipit esse secundum dici, non
+<lb ed="#Ba"/>oportet quod sit creatum : eo quod non
+<lb ed="#Ba"/>dicit aliquid quod sit vel insit, sed quod
+<lb ed="#Ba"/>ad aliud sit : et hoc est ratione dicendi, et
+<lb ed="#Ba"/>non in esse: et ideo non oportet, quod
+<lb ed="#Ba"/>inceperit, nisi mutatione alterius : et
+<lb ed="#Ba"/>ideo non incepit in esse, sed in dici 
+tan<lb ed="#Ba" break="no"/>tum.
+</p>
+            <p xml:id="Almn78-a17620-d1e1720">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur de dicto
+<lb ed="#Ba"/>Magistri, dicendum quod oppositus 
+re<lb ed="#Ba" break="no"/>spectus ad respectum quem dicit 
+domi<lb ed="#Ba" break="no"/>nus, inest creatures secundum esse : 
+re<lb ed="#Ba" break="no"/>spectus autem dominii non inest Deo nisi
+<lb ed="#Ba"/>secundum dici, ut supra dictum est. Et
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>respectus qui inest creature, creatus
+<lb ed="#Ba"/>est. Sicut enim est de terminis 
+genera<lb ed="#Ba" break="no"/>tionis et actionis, quod quidam est 
+ter<lb ed="#Ba" break="no"/>minus per se, quidam per accidens, 
+qui<lb ed="#Ba" break="no"/>dam per consequens. Per se quidem hic.
+<lb ed="#Ba"/>generat hunc : et quia genitus est home
+<lb ed="#Ba"/>et generans homo, ideo per 
+conse<lb ed="#Ba" break="no"/>quens homo generat hominem: et quia
+<lb ed="#Ba"/>hic est generans et hic est genitus, ideo
+<lb ed="#Ba"/>per accidens generans est pater, et 
+ge<lb ed="#Ba" break="no"/>nitus filius : et sic pater generat filium.
+<lb ed="#Ba"/>Ita est hic, quod per se creator producit
+<lb ed="#Ba"/>creaturam : et quia creando possessione
+<lb ed="#Ba"/>multorum bonorum superponitur, ideo
+<lb ed="#Ba"/>creator dominus est : et guia passiva
+<lb ed="#Ba"/>creatione creatum supponitur et 
+excedi<lb ed="#Ba" break="no"/>tur, ideo ex hoc ipso quod creatur, 
+respec<lb ed="#Ba" break="no"/>tus servitutis concreatur in ipso per 
+acci<lb ed="#Ba" break="no"/>dens, quia ex hoc quod creatur et de 
+nihi<lb ed="#Ba" break="no"/>lo producitur : et hic respectus creatus ex
+<lb ed="#Ba"/>seipso refertur ad dominum : et ideo non
+<lb ed="#Ba"/>deducitur ad infinitum : quia non alio
+<lb ed="#Ba"/>respectu, sed seipso statim refertur. Nec
+<lb ed="#Ba"/>sequitur, quod increatum formaliter 
+in<lb ed="#Ba" break="no"/>sit creato : quia respectus illi concreatus
+<lb ed="#Ba"/>est.
+</p>
+            <p xml:id="Almn78-a17620-d1e1794">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod respectus
+<lb ed="#Ba"/>famulatus et subjectionis et obedientie
+<lb ed="#Ba"/>secundum esse imest creature. Dico 
+au<lb ed="#Ba" break="no"/>tem secundum esse habitudinis, ut 
+pre<lb ed="#Ba" break="no"/>dictum est. Oppositus autem respectus
+<lb ed="#Ba"/>qui notatur in domino creatore, non est
+<lb ed="#Ba"/>in Deo nisi secundum dici. Et hoc 
+in<lb ed="#Ba" break="no"/>tendit Magister cum dicit, quod sit per
+<lb ed="#Ba"/>accidens creature, non per accidens Dei.
+<lb ed="#Ba"/>Accidit enim Deo ex tempore dominum
+<lb ed="#Ba"/>esse : quia hoc accidens secundum esse
+<lb ed="#Ba"/>non accidit nisi creature, et Deo 
+tan<lb ed="#Ba" break="no"/>tum secundum dici : quod potius est in
+<lb ed="#Ba"/>nobis quam in Deo: quia scilicet 
+domi<lb ed="#Ba" break="no"/>num non dicimus nec intelligimus, nisi
+<lb ed="#Ba"/>quia habet servum, quando dominum
+<lb ed="#Ba"/>secundum actum dominandi dicimus, et
+<lb ed="#Ba"/>non tantum secundum habitum.
+</p>
+            <p xml:id="Almn78-a17620-d1e1836">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod responsio
+<lb ed="#Ba"/>illa non est bona, sicut ibidem probatum
+<lb ed="#Ba"/>est.
+</p>
+            <p xml:id="Almn78-a17620-d1e1845">
+               <lb ed="#Ba"/>Ad victum Porretanorum. dicendum,
+<lb ed="#Ba"/>quod licet relatio secundum quod rela
+<pb ed="#Ba" n="539"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>tio est, non dicat aliquod inherens, sed
+<lb ed="#Ba"/>ad alterum se habens : tamen secundum
+<lb ed="#Ba"/>quod relatio dicit aliquid esse relativi,
+<lb ed="#Ba"/>aliquid enim esse praedicatur cum 
+dici<lb ed="#Ba" break="no"/>tur, iste est dominus, iste est pater, et
+<lb ed="#Ba"/>secundum hoc esse praedicatum est in
+<lb ed="#Ba"/>subjecto : nec potest intelligi, quod in
+<lb ed="#Ba"/>subjecto sit nisi secundum esse aliquod,
+<lb ed="#Ba"/>rem enim suam ponit in subjecto : ideo
+<lb ed="#Ba"/>relatio non est tantum assistens, sed
+<lb ed="#Ba"/>etiam inherens sive insistens. Et hoc
+<lb ed="#Ba"/>modo secundum dici dominium dicitur
+<lb ed="#Ba"/>esse in Deo. Et ideo licet subtile sit 
+di<lb ed="#Ba" break="no"/>ctum Porretanorum, non tamen est 
+suf<lb ed="#Ba" break="no"/>ficiens. Et ideo concedenda sunt que
+<lb ed="#Ba"/>contra Porretanos inducta sunt.
+</p>
+            <p xml:id="Almn78-a17620-d1e1891">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+conce<lb ed="#Ba" break="no"/>dendum est sicut probatum est, quod 
+sc<lb ed="#Ba" break="no"/>cundum esse creator non refertur ad
+<lb ed="#Ba"/>creaturam, sed secundum dici, ut 
+pro<lb ed="#Ba" break="no"/>batum est.
+</p>
+            <p xml:id="Almn78-a17620-d1e1904">
+               <lb ed="#Ba"/>AD ILLA quinque que in contrarium
+<lb ed="#Ba"/>objiciuntur, dicendum qued cum dicitur,
+<lb ed="#Ba"/>Deus dominus, principaliter significatur
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>divina essentia : quia dominium Dei 
+di<lb ed="#Ba" break="no"/>vina essentia est : quidquid enim in Deo
+<lb ed="#Ba"/>est, Deus est : et connotatur respectus .
+<lb ed="#Ba"/>superpositionis, qui secundum quod 
+su<lb ed="#Ba" break="no"/>mitur ab actu dominandi, in Deo non
+<lb ed="#Ba"/>est nisi secundum dici. Et propter hoc
+<lb ed="#Ba"/>non sequitur, quod aliquid novi fiat in
+<lb ed="#Ba"/>Deo ex tempore, vel quod aliquid 
+acci<lb ed="#Ba" break="no"/>dat Deo, sed quod dictio nova sit de Deo
+<lb ed="#Ba"/>ex tempore, et quod aliquid accidat dici
+<lb ed="#Ba"/>de Deo : et hoc accidente quodam alio
+<lb ed="#Ba"/>non circa Deum, sed circa creaturam
+<lb ed="#Ba"/>que incipit esse in tempore : et ideo 
+ac<lb ed="#Ba" break="no"/>cidit ei ex tempore subjectam esse. Et
+<lb ed="#Ba"/>dictum Augustini in hoc est simile, quod
+<lb ed="#Ba"/>nummus fit pretium non mutatione 
+num<lb ed="#Ba" break="no"/>mi, sed commutatione emptionis et 
+ven<lb ed="#Ba" break="no"/>ditionis facte circa alios. Et, sicut dicit
+<lb ed="#Ba"/>Aristoteles in V Physicorum, mensura
+<lb ed="#Ba"/>valorisin emptis et venditis nummus est :
+<lb ed="#Ba"/>et in quantum est mensura valoris, dici- _
+<lb ed="#Ba"/>tur pretium, et dicit relativum et 
+respe<lb ed="#Ba" break="no"/>ctivum ad alterum.
+</p>
+            <p xml:id="Almn78-a17620-d1e1966">
+               <lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

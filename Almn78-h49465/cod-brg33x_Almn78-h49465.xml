@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 98</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 98</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="223"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h49465"><!-- p2t16q98 -->
+            <head xml:id="Almn78-h49465-Hd1e106">Quaestio 98</head>
+            <head xml:id="Almn78-h49465-Hd1e109" type="question-title">
+    De gratia
+  </head>
+            <p xml:id="Almn78-h49465-d1e112">
+               <lb ed="#Bc"/>QUAESTIO XCVIII.
+<lb ed="#Bc"/>De gratia.
+</p>
+            <div xml:id="Almn78-h49465-Dd1e119">
+               <head xml:id="Almn78-h49465-Hd1e121">Membrum 1</head>
+               <head xml:id="Almn78-h49465-Hd1e124" type="question-title">
+        An sit gratia
+      </head>
+               <p xml:id="Almn78-h49465-d1e127">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>An sit gratia?
+  </p>
+               <p xml:id="Almn78-h49465-d1e134">
+                  <lb ed="#Bc"/>Ad primum objicitur certis viis :
+<lb ed="#Bc"/>1. Prima via est ex consideratione
+<lb ed="#Bc"/>agentis primi, quod tante perfectionis
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>est, ut dicit Augustinus, quod nihil 
+sup<lb ed="#Bc" break="no"/>ponit in facto, sed agit universum esse
+<lb ed="#Bc"/>facti. Sicut patet in opere creationis, in
+<lb ed="#Bc"/>quo nec supponit instrumentum, nec
+<lb ed="#Bc"/>medium aliquod, sed totum perfectum
+<lb ed="#Bc"/>creatum producit simul ex seipso. Ergo
+<lb ed="#Bc"/>cum non sit minus, ut dicit Augustinus,
+<lb ed="#Bc"/>justificare impium quam creare celum
+<lb ed="#Bc"/>et terram, videtur quod gratia preter
+<lb ed="#Bc"/>Deum in homine justificato nihil ponat.
+<lb ed="#Bc"/>Et iterum videtur, quod gratia non sit
+<pb ed="#Bc" n="224"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>aliquis habitus in anima justificati 
+homi<lb ed="#Bc" break="no"/>nis: sed ab omnibus a quibus ponitur
+<lb ed="#Bc"/>gratia, ponitur habitus infusus : ergo
+<lb ed="#Bc"/>non est.
+</p>
+               <p xml:id="Almn78-h49465-d1e182">
+                  <lb ed="#Bc"/>2. Adhuc, Objicitur ad idem secunda
+<lb ed="#Bc"/>via sic, que accipitur ex consideratione
+<lb ed="#Bc"/>dignitatis mentis humane, de qua dicit
+<lb ed="#Bc"/>Augustinus', quod <quote xml:id="Almn78-h49465-Qd1e192"> inter mentem 
+no<lb ed="#Bc" break="no"/>stram et Deum nihil est medium. </quote> Si
+<lb ed="#Bc"/>ergo nihil est medium, gratia non erit
+<lb ed="#Bc"/>medium : et cum ab omnibus gratia
+<lb ed="#Bc"/>ponatur medium inter Deum et mentem
+<lb ed="#Bc"/>nostram, qua Deus contingitur menti
+<lb ed="#Bc"/>nostre, videtur quod gratia nihil sit.
+</p>
+               <p xml:id="Almn78-h49465-d1e210">
+                  <lb ed="#Bc"/>3. Adhuc, Tertia via objicitunt quidam
+<lb ed="#Bc"/>sic, quod in spiritualibus agentibus non
+<lb ed="#Bc"/>minus observatur ordo sapientia quam
+<lb ed="#Bc"/>in corporalibus. In corporalibus autem
+<lb ed="#Bc"/>natura que ordinata est, non agit per
+<lb ed="#Bc"/>duo quod potest facere per unum, quia
+<lb ed="#Bc"/>superfluum esset. Ergo nec in 
+spirituali<lb ed="#Bc" break="no"/>bus. Constat autem, quod Deus per 
+se<lb ed="#Bc" break="no"/>ipsum potest gratificare hominem : ergo
+<lb ed="#Bc"/>videtur, quod hoc non facit per 
+me<lb ed="#Bc" break="no"/>diam gratiam, quia superfluum esset,
+<lb ed="#Bc"/>et nihil superfluum est in operibus 
+divi<lb ed="#Bc" break="no"/>nis.
+</p>
+               <p xml:id="Almn78-h49465-d1e241">
+                  <lb ed="#Bc"/>4, Adhuc, Ex simili quidam objiciunt.
+<lb ed="#Bc"/>Dicunt enim, quod gratia, sicut dicit
+<lb ed="#Bc"/>Chrysostomus, est lumen et splendor
+<lb ed="#Bc"/>anime : et dicunt, quod sol spiritualis
+<lb ed="#Bc"/>potentior est quam corporalis. Cum ergo
+<lb ed="#Bc"/>sol corporalis per scipsum et non per
+<lb ed="#Bc"/>medium illuminet aerem et mundum,
+<lb ed="#Bc"/>videtur etiam quod sol divinus per 
+se<lb ed="#Bc" break="no"/>ipsum et non per medium aliquod 
+illu<lb ed="#Bc" break="no"/>minet animam. Et hoc confirmant per
+<lb ed="#Bc"/>dictum Hugonis de sancto Victore in
+<lb ed="#Bc"/>commento super hierarchiam Dionysii
+<lb ed="#Bc"/>dicentis : <quote xml:id="Almn78-h49465-Qd1e271"> Sicut non sumus creati nisi
+<lb ed="#Bc"/>per ipsum, ita in recreatione et 
+beatitu<lb ed="#Bc" break="no"/>dine nihil sistet nos usque ad ipsum.
+<lb ed="#Bc"/>Tollantur igitur qui ponunt media 
+theo<lb ed="#Bc" break="no"/>phaniarum suarum inter nos et Deum:
+<lb ed="#Bc"/>quia non stabit cor nostrum nisi ad
+<lb ed="#Bc"/>Deum immediate perveniat. </quote> Hoc
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>etiam confirmant per dictum Augustini
+<lb ed="#Bc"/>in libro I Confessionum, qui sic dicit :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h49465-Qd1e296"> Fecisti nos, Domine, ad te, et 
+inquie<lb ed="#Bc" break="no"/>tum est cor nostrum donec requiescat
+<lb ed="#Bc"/>in te?. </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e304">
+                  <lb ed="#Bc"/>5. Ad idem objiciunt deducendo ad
+<lb ed="#Bc"/>inconveniens. Dicunt enim, quod si 
+me<lb ed="#Bc" break="no"/>dium est gratia inter nos et Deum, cum
+<lb ed="#Bc"/>medium dicatur participatione 
+extremo<lb ed="#Bc" break="no"/>rum, oporteret quod gratia aliquid ex
+<lb ed="#Bc"/>nobis haberet : quod valde inconveniens
+<lb ed="#Bc"/>est : ex nobis enim nihil est unde 
+pla<lb ed="#Bc" break="no"/>ceamus Deo.
+</p>
+               <p xml:id="Almn78-h49465-d1e324">
+                  <lb ed="#Bc"/>6. Adhuc, Objiciunt ex opere 
+beatifi<lb ed="#Bc" break="no"/>calionis et glorificationis, quod (dicunt)
+<lb ed="#Bc"/>Deus sine aliquo medio operatur per
+<lb ed="#Bc"/>seipsum : ipse enim solus est beatitudo
+<lb ed="#Bc"/>nostra, vita nostra, gloria nostra. Cum
+<lb ed="#Bc"/>ergo etiam opus creationis faciat per
+<lb ed="#Bc"/>seipsum sine medio, videtur quod opus
+<lb ed="#Bc"/>recreationis etiam faciat sine medio :
+<lb ed="#Bc"/>quia sic erit conformitas inter opus
+<lb ed="#Bc"/>creationis, recreationis, et glorificationis.
+</p>
+               <p xml:id="Almn78-h49465-d1e348">
+                  <lb ed="#Bc"/>7. Adhuc, A simili objiciunt. Dicunt
+<lb ed="#Bc"/>enim, quod gratia qua miles efficitur
+<lb ed="#Bc"/>acceptus regi, nihil ponit in milite, sed
+<lb ed="#Bc"/>potius in rege bonam voluntatem quam
+<lb ed="#Bc"/>habet ad militem. Ergo a simili gratia
+<lb ed="#Bc"/>qua homo efficitur acceptus Deo, nihil
+<lb ed="#Bc"/>ponit in homine, sed in Deo. Iste 
+ra<lb ed="#Bc" break="no"/>tiones sunt Pelagianorum qui annihilant
+<lb ed="#Bc"/>gratiam. ‘
+</p>
+               <p xml:id="Almn78-h49465-d1e370">
+                  <lb ed="#Bc"/>8. Adhuc, Objiciunt etiam quasdam
+<lb ed="#Bc"/>alias ratiunculas modicum valentes sic :
+<lb ed="#Bc"/>Si gratia aliquid est in homine, constat,
+<lb ed="#Bc"/>quod creata est : sed omnis creatura 
+va<lb ed="#Bc" break="no"/>nitas est ; cum ergo per gratiam homo
+<lb ed="#Bc"/>conjungitur prime veritati et Deo, 
+se<lb ed="#Bc" break="no"/>queretur quod homo per vanitatem 
+con<lb ed="#Bc" break="no"/>jungeretur Deo: quod valde absurdum
+<lb ed="#Bc"/>est, ut dicunt. Et ideo Pelagius dixit,
+<lb ed="#Bc"/>quod homo ex seipso habet unde placeat
+<lb ed="#Bc"/>Deo. Quod valde absurdum est, et 
+con<lb ed="#Bc" break="no"/>tra omnes auctoritates Sanctorum est.
+</p>
+               <p xml:id="Almn78-h49465-d1e400">
+                  <lb ed="#Bc"/>In contrarium hujus objicitur,
+</p>
+               <p xml:id="Almn78-h49465-d1e405">
+                  <lb ed="#Bc"/>1. Quod dicit Apostolus, I ad Co
+<pb ed="#Bc" n="225"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>rinth. xv, 10: Gratia Dei sum id quod
+<lb ed="#Bc"/>sum. Si ergo gratia Dei est id quod est
+<lb ed="#Bc"/>in beneplacito Dei, oportet quod gratia
+<lb ed="#Bc"/>qua illud esse est in nobis, formaliter
+<lb ed="#Bc"/>aliquid sit, sicut esse nature si est in
+<lb ed="#Bc"/>nobis, oportet quod aliqua forma sit in
+<lb ed="#Bc"/>nobis qua illud esse perficitur in nobis.
+</p>
+               <p xml:id="Almn78-h49465-d1e429">
+                  <lb ed="#Bc"/>2, Adhuc, Joan. 1, 16 : De plenitudine
+<lb ed="#Bc"/>ejus nos omnes accepimus, et gratiam
+<lb ed="#Bc"/>pro gratia. Acceptum autem in nobis de
+<lb ed="#Bc"/>plenitudine Christi, non potuit esse nisi
+<lb ed="#Bc"/>creatum aliquod in nobis. Ergo gratia
+<lb ed="#Bc"/>aliquod creatum est in nobis.
+</p>
+               <p xml:id="Almn78-h49465-d1e445">
+                  <lb ed="#Bc"/>3. Adhuc, Si infinite distantia debeant
+<lb ed="#Bc"/>conjungi, oportet quod hoc sit per 
+po<lb ed="#Bc" break="no"/>tentiam ejus quod est infinite potentie,
+<lb ed="#Bc"/>ila scilicet, quod id quod est finitum in
+<lb ed="#Bc"/>potentia, accipiat aliud ab eo quod est
+<lb ed="#Bc"/>infinite potenti unde conjungatur ei.
+<lb ed="#Bc"/>Sed Deus et homo in infinitum distant,
+<lb ed="#Bc"/>et non conjunguntur nisi per gratiam
+<lb ed="#Bc"/>gratum facientem. Necesse est ergo,
+<lb ed="#Bc"/>quod homo qui cst finite potentiae, 
+acci<lb ed="#Bc" break="no"/>piat habitum gratiae a Deo, unde 
+conjun<lb ed="#Bc" break="no"/>gatur ei, cum virtute propria non possit
+<lb ed="#Bc"/>ei conjungl.
+</p>
+               <p xml:id="Almn78-h49465-d1e476">
+                  <lb ed="#Bc"/>4. Adhuc, Deus in omnibus est 
+essen<lb ed="#Bc" break="no"/>tialiter, presentialiter, et potentialiter,
+<lb ed="#Bc"/>et in sanctis est per inhabitantem 
+gra<lb ed="#Bc" break="no"/>liam. Si ergo inhabitans gratia nihil
+<lb ed="#Bc"/>esset speciale in sanctis, non differret
+<lb ed="#Bc"/>modus quo est in sanctis, a modo quo
+<lb ed="#Bc"/>est in omnibus: quod valde 
+inconve<lb ed="#Bc" break="no"/>niens est: quia modus quo operatur in
+<lb ed="#Bc"/>sanctis ad meritum vile eterne, valde
+<lb ed="#Bc"/>differens est a modo quo operatur in
+<lb ed="#Bc"/>omnibus ad rerum conservalionem et
+<lb ed="#Bc"/>gubernationem.
+</p>
+               <p xml:id="Almn78-h49465-d1e505">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod gratia est
+<lb ed="#Bc"/>aliquid creatum in homine. Est enim
+<lb ed="#Bc"/>habitus, qui (sicut dicit Magister in 
+Lit<lb ed="#Bc" break="no"/>tera) est fides operans per dilectionem.
+<lb ed="#Bc"/>Que gratia dicitur, eo quod est 
+similitu<lb ed="#Bc" break="no"/>do bonitatis divine, qua Deo per id
+<lb ed="#Bc"/>quod suum est reconciliamur et unimur.
+</p>
+               <p xml:id="Almn78-h49465-d1e524">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+gra<lb ed="#Bc" break="no"/>tia est habitus infusus nobis, qui nos
+<lb ed="#Bc"/>gratos facit Deo, et opus nostrum per
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>informationem gratum reddit, et dat ei
+<lb ed="#Bc"/>efficaciam merendi vitam eternam. Nec
+<lb ed="#Bc"/>est simile de hoc quod objicitur de opere
+<lb ed="#Bc"/>creationis : quia opus creationis 
+funda<lb ed="#Bc" break="no"/>tur super nihil, et ideo sola 
+omnipoten<lb ed="#Bc" break="no"/>tia Dei perficitur. Opus autem 
+recreatio<lb ed="#Bc" break="no"/>nis sive gratificationis fundatur super
+<lb ed="#Bc"/>hoc quod jam perfectum est in natura,
+<lb ed="#Bc"/>quod per seipsum elevari non potest ad
+<lb ed="#Bc"/>conjunctionem Dei, et ideo indiget 
+ali<lb ed="#Bc" break="no"/>quo dono quod ex Deo accipiat, quo
+<lb ed="#Bc"/>elevetur ad inhabitationem divinam, quo
+<lb ed="#Bc"/>Deo paretur locus in nobis sicut in 
+tem<lb ed="#Bc" break="no"/>plo.
+</p>
+               <p xml:id="Almn78-h49465-d1e566">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod cum 
+dici<lb ed="#Bc" break="no"/>tur, guod inter mentem nostram et
+<lb ed="#Bc"/>Deum nihil medium est, hoc intelligitur
+<lb ed="#Bc"/>de medio sistente nos, ita quod non 
+per<lb ed="#Bc" break="no"/>veniamus usque ad ipsum, sicut patet
+<lb ed="#Bc"/>in verbis Augustini et Magistri Hugonis
+<lb ed="#Bc"/>introductis. Sed potest esse medium ex
+<lb ed="#Bc"/>parte nostra, tale scilicet quod sit 
+me<lb ed="#Bc" break="no"/>dium elevans potentiam nostram ut 
+ha<lb ed="#Bc" break="no"/>bitus perficiens potentiam merendi, quo
+<lb ed="#Bc"/>procedimus et elevamur usque ad ipsum :
+<lb ed="#Bc"/>per hujus enim ascensiones cantamus
+<lb ed="#Bc"/>canticum graduum, ut dicit Augustinus,
+<lb ed="#Bc"/>quo ascendimus ad ipsum : ut sit verum
+<lb ed="#Bc"/>quod dicitur de nobis in Psalmo txxxit,
+<lb ed="#Bc"/>8: bunt de virtule in virtutem, 
+videbi<lb ed="#Bc" break="no"/>tur Deus deorum in Sion.
+</p>
+               <p xml:id="Almn78-h49465-d1e605">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod illa via 
+pro<lb ed="#Bc" break="no"/>cedit super quoddam falsum,  scilicet
+<lb ed="#Bc"/>quod Deus indigeat medio: hoc enim
+<lb ed="#Bc"/>falsum est. Medium autem quod est ibi,
+<lb ed="#Bc"/>videlicet gratia et habitus, est propter
+<lb ed="#Bc"/>nos : quia scilicet in nobis nihil invenit
+<lb ed="#Bc"/>Deus quo digni sumus inhabitatione sua.
+<lb ed="#Bc"/>Hoc est enim donum Spiritus sancti,cum
+<lb ed="#Bc"/>quo scilicet ipse Spiritus in nobis est,
+<lb ed="#Bc"/>sicuf dicitur, ad Roman. viu, 15: Sed
+<lb ed="#Bc"/>accepistis spiritum adoptions filiorum,
+<lb ed="#Bc"/>in guo clamamus: Abba (Pater), Et
+<lb ed="#Bc"/>ibidem, ¥. 16 : Ipse entin Spiritus 
+testi<lb ed="#Bc" break="no"/>monium reddit spiritui nostro, quod 
+su<lb ed="#Bc" break="no"/>mus filit Dei. Oportet igitur, quod 
+gra<lb ed="#Bc" break="no"/>tia sit gratum faciens que format nos in
+<lb ed="#Bc"/>filios Dei.
+</p>
+               <p xml:id="Almn78-h49465-d1e644">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod falsum sup
+<pb ed="#Bc" n="226"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>ponitur in simili quod inducunt. Sol
+<lb ed="#Bc"/>enim per seipsum non illuminat 
+mun<lb ed="#Bc" break="no"/>dum, sed per lumen quod effluit ab ipso,
+<lb ed="#Bc"/>quod est intentio et similitudo solis. Et
+<lb ed="#Bc"/>similiter sol divinus per lumen gratiz
+<lb ed="#Bc"/>quod influit anime, illuminat animam
+<lb ed="#Bc"/>et gratificat eam. Et quod affirmant per
+<lb ed="#Bc"/>dictum Hugonis, patet quod nihil valet :
+<lb ed="#Bc"/>quia hoc medium non est medium 
+si<lb ed="#Bc" break="no"/>stens, sed elevans et promovens ad 
+con<lb ed="#Bc" break="no"/>junctionem Dei.
+</p>
+               <p xml:id="Almn78-h49465-d1e677">
+                  <lb ed="#Bc"/>Ad dictum Augustini dicendum, quod
+<lb ed="#Bc"/>Deus fecit nos ad se, ut alibi et extra
+<lb ed="#Bc"/>ipsum locum quietis non haberemus,
+<lb ed="#Bc"/>nec finem dilectionis poneremus nisi in
+<lb ed="#Bc"/>ipso : et ideo etiam inquietum est cor
+<lb ed="#Bc"/>nisi illue perveniat : sed non fecit nos
+<lb ed="#Bc"/>tales, quod per nos possemus 
+ascen<lb ed="#Bc" break="no"/>dere, sed adjutorio gratie ipsius : et
+<lb ed="#Bc"/>ideo oportet gratiam esse in nobis, et
+<lb ed="#Bc"/>aliquid a Deo acceptum. Et hoc est quod
+<lb ed="#Bc"/>dicitur, If ad Corinth. in, 3: Non quod
+<lb ed="#Bc"/>sufficientes simus cogitare aliquid a
+<lb ed="#Bc"/>nobis quasi ex nobis, sed sufficientia
+<lb ed="#Bc"/>nostra ex Deo est.
+</p>
+               <p xml:id="Almn78-h49465-d1e710">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod medium
+<lb ed="#Bc"/>non semper dicitur participatione 
+extre<lb ed="#Bc" break="no"/>morum equaliter : hoc enim non dicitur
+<lb ed="#Bc"/>nisi de medio quod per compositionem
+<lb ed="#Bc"/>est medium : sed est medium coadjuvans
+<lb ed="#Bc"/>et perficiens ad actum perfectum, sicut
+<lb ed="#Bc"/>virtus est medium per omnia ad actum
+<lb ed="#Bc"/>perficiens. Et hoc modo gratia est 
+me<lb ed="#Bc" break="no"/>dium ;: et ideo non oportet, quod aliquid
+<lb ed="#Bc"/>habeat de nostro, sed totum quod est,
+<lb ed="#Bc"/>habet de Deo : ideo virtute illius 
+opera<lb ed="#Bc" break="no"/>tur operationem perfectam ad 
+meri<lb ed="#Bc" break="no"/>tum.
+</p>
+               <p xml:id="Almn78-h49465-d1e742">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod illa objectio
+<lb ed="#Bc"/>eliam supponit falsum quantum ad opus
+<lb ed="#Bc"/>glorificationis : quia in opere 
+glorifica<lb ed="#Bc" break="no"/>tionis ad hoc quod gloriticemur in ipso
+<lb ed="#Bc"/>Deo, exigitur quod in anima sint 
+habi<lb ed="#Bc" break="no"/>tus, qui dicuntur dotes anima et 
+corpo<lb ed="#Bc" break="no"/>ris, quibus elevantur corpus et anima,
+<lb ed="#Bc"/>ut in Deo possint beatificari et glorificari
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>sicut in per se objecto beatitudinis et
+<lb ed="#Bc"/>glorie.
+</p>
+               <p xml:id="Almn78-h49465-d1e768">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod non est 
+si<lb ed="#Bc" break="no"/>mile de milite et rege, et Deo et 
+homi<lb ed="#Bc" break="no"/>ne : quia miles ex se potest aliquid 
+ha<lb ed="#Bc" break="no"/>bere et facere quod placeat regi: homo
+<lb ed="#Bc"/>autem ex se non potest habere et facere
+<lb ed="#Bc"/>quod placeat Dea, sed oportet, quod 
+to<lb ed="#Bc" break="no"/>tum ex divino munere accipiat : propter
+<lb ed="#Bc"/>quod etiam Socrates et Plato dixerunt in
+<lb ed="#Bc"/>libro Mennonis, quod virtutes tam 
+intel<lb ed="#Bc" break="no"/>lectuales quam morales non sunt ab 
+ho<lb ed="#Bc" break="no"/>mine, nec efliciuntur in homine per 
+as<lb ed="#Bc" break="no"/>suetudinem vel doctrinam, sed sunt Dei
+<lb ed="#Bc"/>dona.
+</p>
+               <p xml:id="Almn78-h49465-d1e799">
+                  <lb ed="#Bc"/>Ad vuttimum dicendum, quod licet
+<lb ed="#Bc"/>omne creatum in quantum creatum 
+va<lb ed="#Bc" break="no"/>nitas sit, tamen gratia gratum faciens
+<lb ed="#Bc"/>nullo modo vanitas est, sed veritas :
+<lb ed="#Bc"/>licet enim mutabile sit in quantum 
+crea<lb ed="#Bc" break="no"/>tum et vertibile, ut dicit Damascenus,
+<lb ed="#Bc"/>tamen ex hoc quod est similitudo 
+virtu<lb ed="#Bc" break="no"/>tis, veritatis, et bonitatis divine, cum
+<lb ed="#Bc"/>qua Deus inhabitat in Sanctis, multum
+<lb ed="#Bc"/>conjungitur veritati, et amittit 
+vanita<lb ed="#Bc" break="no"/>tem, et sic conjungit hominem cum Deo
+<lb ed="#Bc"/>et Deum homini.
+</p>
+               <p xml:id="Almn78-h49465-d1e828">
+                  <lb ed="#Bc"/>Quatuor que objiciuntur in 
+contra<lb ed="#Bc" break="no"/>rium, procedunt. ,
+</p>
+            </div>
+            <div xml:id="Almn78-h49465-Dd1e836">
+               <head xml:id="Almn78-h49465-Hd1e838">Membrum 2</head>
+               <head xml:id="Almn78-h49465-Hd1e841" type="question-title">
+        Quid sit gratia re, utrum scilicet
+        substantia, vel accidens
+      </head>
+               <p xml:id="Almn78-h49465-d1e844">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quid sit gratia re, utrum scilicet
+sub<lb ed="#Bc" break="no"/>stantia, vel accidens?
+</p>
+               <p xml:id="Almn78-h49465-d1e853">
+                  <lb ed="#Bc"/>Secundo queritur, Quid sit re gratia, .
+<lb ed="#Bc"/>utrum substantia vel accidens ?
+</p>
+               <p xml:id="Almn78-h49465-d1e860">
+                  <lb ed="#Bc"/>Et ad hoc objicitur sic :
+<lb ed="#Bc"/>1. Gratia est habitus infusus : et 
+om<lb ed="#Bc" break="no"/>nis habitus est qualitas : ergo gratia est
+<lb ed="#Bc"/>habilus et accidens.
+</p>
+               <p xml:id="Almn78-h49465-d1e872">
+                  <lb ed="#Bc"/>2. Adhuc, Gratia est forma in anima,
+<pb ed="#Bc" n="227"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>assimilans hominem bonitati divine :
+<lb ed="#Bc"/>hoc non potest esse nisi sit forma 
+ha<lb ed="#Bc" break="no"/>bitualis : ergo gratia forma habitualis
+<lb ed="#Bc"/>est.
+</p>
+               <p xml:id="Almn78-h49465-d1e890">
+                  <lb ed="#Bc"/>3. Adhuc, Constat, quod gratia non
+<lb ed="#Bc"/>perficit in esse, sed in bene esse : sed si
+<lb ed="#Bc"/>esset forma substantialis, perficeret in
+<lb ed="#Bc"/>esse : cum ergo non perficiat nisi 
+secun<lb ed="#Bc" break="no"/>dum bene esse, sequitur necessario, quod
+<lb ed="#Bc"/>sit forma accidentalis.
+</p>
+               <p xml:id="Almn78-h49465-d1e906">
+                  <lb ed="#Bc"/>4. Adhuc, Omne quod est de 
+conse<lb ed="#Bc" break="no"/>quentibus esse, de genere accidentium
+<lb ed="#Bc"/>est : gratia est de consequentibus esse,
+<lb ed="#Bc"/>non enim datur gratia nisi existenti :
+<lb ed="#Bc"/>ergo videtur, quod de genere 
+acciden<lb ed="#Bc" break="no"/>tium est.
+</p>
+               <p xml:id="Almn78-h49465-d1e922">
+                  <lb ed="#Bc"/>Et quamvis hoc verum sit, tamen
+<lb ed="#Bc"/>quidam objiciunt contra hoc sic :
+</p>
+               <p xml:id="Almn78-h49465-d1e929">
+                  <lb ed="#Bc"/>1. Omne quod mutat subjectum in se
+<lb ed="#Bc"/>salvatum unum el idem, substantia est
+<lb ed="#Bc"/>et hoc aliquid : gratia sic mutat 
+subje<lb ed="#Bc" break="no"/>ctum : ergo videtur, quod gratia sit 
+sub<lb ed="#Bc" break="no"/>stantia et hoc aliquid. Primam dicunt
+<lb ed="#Bc"/>esse per se manifestam. Srcunpam 
+pro<lb ed="#Bc" break="no"/>bant per id quod dicitur, I Reg. xvi, 14,
+<lb ed="#Bc"/>ubi dicitur, quod spiritus Domint 
+reces<lb ed="#Bc" break="no"/>sit a Saul : quod non dicitur, nisi 
+pro<lb ed="#Bc" break="no"/>pter gratiam que recessit ab eo. 
+Pro<lb ed="#Bc" break="no"/>bant etiam per hoc quod dicitur, Numer.
+<lb ed="#Bc"/>x1, 17, ubi dicitur : Auferam de spiritu
+<lb ed="#Bc"/>tuo, tradamque eis, seilicet septuaginta
+<lb ed="#Bc"/>viris. Constat enim, quod non potest
+<lb ed="#Bc"/>unum et idem septuaginta viris dividi,
+<lb ed="#Bc"/>nisi substantia continua divisibilis.
+</p>
+               <p xml:id="Almn78-h49465-d1e966">
+                  <lb ed="#Bc"/>2. Adhuc fortius objiciunt, dicentes
+<lb ed="#Bc"/>quod secundum quamlibet speciem 
+qua<lb ed="#Bc" break="no"/>litatis potest fieri alteratio : secundum
+<lb ed="#Bc"/>gratiam non fit alteratio, sed perfectio
+<lb ed="#Bc"/>nature : ergo videtur, quod gratia non
+<lb ed="#Bc"/>sit qualitas accidentalis. Prima probatur
+<lb ed="#Bc"/>ex hoc, quod qualitas non confert esse
+<lb ed="#Bc"/>substantiale, sed accidentale. Sxcunpa
+<lb ed="#Bc"/>expresse scribitur in VI Physicorum,
+<lb ed="#Bc"/>ubi dicitur, quod cum ex ignorante fit
+<lb ed="#Bc"/>sciens, et ex non virtuoso virtuosus, non
+<lb ed="#Bc"/>est alteratus, sed perfectus. Et si hoc
+<lb ed="#Bc"/>est verum de habitibus acquisitis, multo
+<lb ed="#Bc"/>magis verum est de habitibus infusis.
+</p>
+               <p xml:id="Almn78-h49465-d1e1000">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Soxurio. Dicendum, quod revera 
+gra<lb ed="#Bc" break="no"/>tia habitus est et qualitas perficiens 
+ho<lb ed="#Bc" break="no"/>minem ad opera meritoria, que sunt
+<lb ed="#Bc"/>digna vita eterna, quam Deus operatur
+<lb ed="#Bc"/>in nobis sine nobis, que informat 
+volun<lb ed="#Bc" break="no"/>tatem -preveniendo ut possit in opera
+<lb ed="#Bc"/>meritoria. Quia sicut habitus virtutis
+<lb ed="#Bc"/>elevat potentiam ad hoc quod possit in
+<lb ed="#Bc"/>actum virtutis perfectum, ita habitus
+<lb ed="#Bc"/>gratie et elevat animam operantem et
+<lb ed="#Bc"/>opus ejus, ut efficiatur meritorium vite
+<lb ed="#Bc"/>zterne. Unde homo ex se non potest
+<lb ed="#Bc"/>habere gratiam, sed ex gratuito dono
+<lb ed="#Bc"/>Dei : quia nec potest esse ab homine et
+<lb ed="#Bc"/>in homine quod dignum sit vita eterna :
+<lb ed="#Bc"/>sed oportet, quod accipiat ex gratuito
+<lb ed="#Bc"/>dono Dei, cum quo inhabitet eum Deus,
+<lb ed="#Bc"/>qui solus potest in talia opera 
+merito<lb ed="#Bc" break="no"/>ria. Et de hoc multum notatum est in
+<lb ed="#Bc"/>primo libro de processione temporali
+<lb ed="#Bc"/>Spiritus sancti.
+</p>
+               <p xml:id="Almn78-h49465-d1e1050">
+                  <lb ed="#Bc"/>Et ideo prime quatuor rationes 
+con<lb ed="#Bc" break="no"/>cedende sunt et procedunt.
+</p>
+               <p xml:id="Almn78-h49465-d1e1057">
+                  <lb ed="#Bc"/>Ad hoc quod in contrarium objicitur
+<lb ed="#Bc"/>primo, dicendum quod gratia in seipsa
+<lb ed="#Bc"/>salvata non mutat subjectum, sed dicitur
+<lb ed="#Bc"/>mutare subjectum, quando effectus ejus
+<lb ed="#Bc"/>apparet in diversis: et sic ab uno dicitur
+<lb ed="#Bc"/>propagari in alium. Et sic loquuntur 
+au<lb ed="#Bc" break="no"/>ctoritates inducte ad probationem 
+mi<lb ed="#Bc" break="no"/>noris. Sic enim tollitur spiritus Moysi,
+<lb ed="#Bc"/>et datur septuaginta viris.
+</p>
+               <p xml:id="Almn78-h49465-d1e1079">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod alteratio
+<lb ed="#Bc"/>duobus modis capitur, scilicet ab aliter
+<lb ed="#Bc"/>se habere, et ab alleratione proprie 
+di<lb ed="#Bc" break="no"/>cta que fit secundum quale fluens, ut
+<lb ed="#Bc"/>dicit Avicenna, quod est passio vel 
+pas<lb ed="#Bc" break="no"/>sibilis qualitas inferens vel illata : quae
+<lb ed="#Bc"/>alteratio proprie dicitur, et est motus
+<lb ed="#Bc"/>corruptibilis. Primo modo bene fit 
+alte<lb ed="#Bc" break="no"/>ratio secundum gratiam, et non secundo
+<lb ed="#Bc"/>modo.
+</p>
+               <p xml:id="Almn78-h49465-d1e1103">
+                  <lb ed="#Bc"/>Et quod dicit Philosophus, quod 
+mu<lb ed="#Bc" break="no"/>tatus secundum virtutem intellectualem
+<lb ed="#Bc"/>vel moralem non est alteratus, sed 
+per<lb ed="#Bc" break="no"/>tectus, ideo dicit, quia talium habituum
+<lb ed="#Bc"/>perfectiones sunt secundum 
+perfectio<lb ed="#Bc" break="no"/>nem naturalem, et ideo alteratus sic non 
+<lb ed="#Bc" break="no"/>dicitur alteratus, sed perfectus proprie,
+<pb ed="#Bc" n="228"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>sicut et felicitas dicitur operatio perfecta
+<lb ed="#Bc"/>et non impedita secundum propriam et
+<lb ed="#Bc"/>connaturalem virtutem hominis. Omnes
+<lb ed="#Bc"/>enim tales perfectiones virtutum 
+intelle<lb ed="#Bc" break="no"/>ctualium et moralium, perfectiones 
+na<lb ed="#Bc" break="no"/>ture sunt : quia natura apti sumus eas
+<lb ed="#Bc"/>suscipere et potentes : licet perfectio
+<lb ed="#Bc"/>completa in acquisitis virtutibus 
+intelle<lb ed="#Bc" break="no"/>clualibus sit ad doctrinam, et in moras
+<lb ed="#Bc"/>libus ad assuetudinem, et infusis sit a
+<lb ed="#Bc"/>Deo gratiam infundente, et sunt ad 
+per<lb ed="#Bc" break="no"/>fectionem nature. Et Tullius diffiniens
+<lb ed="#Bc"/>virtutem dicit, quod <quote xml:id="Almn78-h49465-Qd1e1152"> virtus est 
+habi<lb ed="#Bc" break="no"/>tus in modum nature rationi 
+consenta<lb ed="#Bc" break="no"/>neus. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-h49465-Dd1e1162">
+               <head xml:id="Almn78-h49465-Hd1e1164">Membrum 3</head>
+               <head xml:id="Almn78-h49465-Hd1e1167" type="question-title">Quid sit gratia definitione</head>
+               <p xml:id="Almn78-h49465-d1e1170">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Quid sit gratia definitione ?
+</p>
+               <p xml:id="Almn78-h49465-d1e1177">
+                  <lb ed="#Bc"/>Tertio queritur, Quid sit definitione
+<lb ed="#Bc"/>gratia ?
+</p>
+               <p xml:id="Almn78-h49465-d1e1184">
+                  <lb ed="#Bc"/>Et ponuntur diverse definitiones 
+San<lb ed="#Bc" break="no"/>ctorum et Magistrorum.
+      </p>
+               <p xml:id="Almn78-h49465-d1e1192">
+                  <lb ed="#Bc"/>1. Dicit enim Chrysostomus, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h49465-Qd1e1198"> gratia est sanitas mentis, et delectatio
+<lb ed="#Bc"/>cordis. </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e1204">
+                  <lb ed="#Bc"/>2. Adhuc, Isidorus: <quote xml:id="Almn78-h49465-Qd1e1208"> Gratia est 
+divi<lb ed="#Bc" break="no"/>ne misericordie donum, per quod bone
+<lb ed="#Bc"/>voluntatis fit exitus, </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e1216">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro de
+<lb ed="#Bc"/>Correptione et gratia : <quote xml:id="Almn78-h49465-Qd1e1222"> Gratia est 
+habi<lb ed="#Bc" break="no"/>tus totius vite universaliter 
+ordinati<lb ed="#Bc" break="no"/>vus. </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e1230">
+                  <lb ed="#Bc"/>4. Adhuc, Super illud Psalmi cm, 15:
+<lb ed="#Bc"/>Ut exhilaret faciem in oleo, dicit 
+Glos<lb ed="#Bc" break="no"/>sa: <quote xml:id="Almn78-h49465-Qd1e1238"> Gratia est quidam nitor anime
+<lb ed="#Bc"/>concilians sanctum amorem. </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e1244">
+                  <lb ed="#Bc"/>5. Prepositivus et alii antiqui 
+Magi<lb ed="#Bc" break="no"/>stri sic definierunt eam : <quote xml:id="Almn78-h49465-Qd1e1250"> Gratia est
+<lb ed="#Bc"/>habitus infusus, divine bonitati et 
+cha<lb ed="#Bc" break="no"/>ritati similis, gratum faciens habentem,
+<lb ed="#Bc"/>et opus ejus gratum reddens. </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e1260">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Contra PRIMAM oObjicitur sic :
+<lb ed="#Bc"/>Sanitas mentis non fit nisi 
+universali<lb ed="#Bc" break="no"/>ter pulsa infirmitate tam culpe quam
+<lb ed="#Bc"/>pene : gratia non pellit penam, pcenas
+<lb ed="#Bc"/>enim multi habuerunt Sancti, qui tamen
+<lb ed="#Bc"/>in gratia perfecti fuerunt, sicut et ipse
+<lb ed="#Bc"/>Christus : ergo videtur, quod male 
+defi<lb ed="#Bc" break="no"/>nitur quando dicitur, quod gratia sit 
+sa<lb ed="#Bc" break="no"/>nitas mentis. Similiter non bene dicitur
+<lb ed="#Bc"/>delectatio cordis, ut videtur : delectatio
+<lb ed="#Bc"/>enim potius videtur esse fructus 
+Spiri<lb ed="#Bc" break="no"/>tus, quam gratia secundum se.
+</p>
+               <p xml:id="Almn78-h49465-d1e1292">
+                  <lb ed="#Bc"/>Adhuc, Contra secundam definitionem
+<lb ed="#Bc"/>que est Isidori objicitur sic :
+</p>
+               <p xml:id="Almn78-h49465-d1e1299">
+                  <lb ed="#Bc"/>1. Per hoc enim quod dicitur, Divine
+<lb ed="#Bc"/>misericordie donum, nihil specificatur
+<lb ed="#Bc"/>de gratia : quia etiam naturalia dona
+<lb ed="#Bc"/>sunt dona divine misericordiz.
+</p>
+               <p xml:id="Almn78-h49465-d1e1310">
+                  <lb ed="#Bc"/>2, Adhuc etiam per hoc quod dicitur,
+<lb ed="#Bc"/>Per quod est exitus bone voluntatis,
+<lb ed="#Bc"/>non specificatur gratia a virlute : quia
+<lb ed="#Bc"/>per quainlibet virtutem fit exitus bone
+<lb ed="#Bc"/>voluntatis in opus perfectum : et sic 
+gra<lb ed="#Bc" break="no"/>tia non esset aliud quam virtus : quod
+<lb ed="#Bc"/>non est verum, quia gratia est forma
+<lb ed="#Bc"/>virtutis, ut dicit Augustinus : et forma
+<lb ed="#Bc"/>non est formatum essentialiter.
+</p>
+               <p xml:id="Almn78-h49465-d1e1332">
+                  <lb ed="#Bc"/>Adhuc, Objicitur contra tertiam que
+<lb ed="#Bc"/>est Augustini.
+</p>
+               <p xml:id="Almn78-h49465-d1e1339">
+                  <lb ed="#Bc"/>Habitus enim vite universaliter 
+ordi<lb ed="#Bc" break="no"/>nativus non potest esse unus, sed est
+<lb ed="#Bc"/>universitas virtutum tam infusarum
+<lb ed="#Bc"/>quam acquisilarum:et sic gratia non
+<lb ed="#Bc"/>esset nisi universitas virtutum : quod
+<lb ed="#Bc"/>omnino falsum est, quia gratia est que
+<lb ed="#Bc"/>informat virtutes ut grate sint, et sine
+<lb ed="#Bc"/>qua grate esse non possunt.
+</p>
+               <p xml:id="Almn78-h49465-d1e1359">
+                  <lb ed="#Bc"/>Avouuc, Contra quartam objicitur sic :
+<lb ed="#Bc"/>1. Nitor proprie refertur in 
+spirituali<lb ed="#Bc" break="no"/>bus ad intellectum : gratia autem tam
+<lb ed="#Bc"/>in intellectu quam in affectu est : non
+<lb ed="#Bc"/>ergo bene definitur per nitorem.
+</p>
+               <p xml:id="Almn78-h49465-d1e1373">
+                  <lb ed="#Bc"/>2. Adhuc, Concilians sanctum amo-
+<pb ed="#Bc" n="229"/>
+                  <cb ed="#Ba" n="a"/>
+                  <!-- left off -->
+                  <lb ed="#Bc"/>rem est charitas : et si charitas est 
+con<lb ed="#Bc" break="no"/>cilians sanctum amorem, tunc gratia
+<lb ed="#Bc"/>non est nisi charitas : quod falsum est,
+<lb ed="#Bc"/>quia divisiones gratiarum multe sunt,
+<lb ed="#Bc"/>sicut dicitur, J ad Corinth. xu, 4: et
+<lb ed="#Bc"/>sic gratia in genere non potest esse sola
+<lb ed="#Bc"/>charitas.
+</p>
+               <p xml:id="Almn78-h49465-d1e1399">
+                  <lb ed="#Bc"/>Apxvc, Objiciunt quidam contra 
+quin<lb ed="#Bc" break="no"/>tam definitionem :
+</p>
+               <p xml:id="Almn78-h49465-d1e1406">
+                  <lb ed="#Bc"/>Si enim gratia est donum et habitus
+<lb ed="#Bc"/>gratum faciens habentem, et opus ejus
+<lb ed="#Bc"/>gratum reddens : tune videtur, quod
+<lb ed="#Bc"/>per. ea que ponuntur in definitione, 
+de<lb ed="#Bc" break="no"/>terminari debet gratia : et hoc non 
+vide<lb ed="#Bc" break="no"/>tur convenire : quia per hoc quod est
+<lb ed="#Bc"/>donum Dei, a nullo alio distinguitur,
+<lb ed="#Bc"/>sed simpliciter in genere ponitur. 
+Simi<lb ed="#Bc" break="no"/>liter per hoc quod dicitur, gratum 
+fa<lb ed="#Bc" break="no"/>ciens habentem, non videtur distingui :
+<lb ed="#Bc"/>quia omne donum signum est 
+gratitudi<lb ed="#Bc" break="no"/>nis divine : quia non daret, nisi gratus
+<lb ed="#Bc"/>esset, Similiter per hoc quod dicitur
+<lb ed="#Bc"/>opus egus gratum reddens, non 
+distin<lb ed="#Bc" break="no"/>guitur a virtute quia virtutis 
+pro<lb ed="#Bc" break="no"/>prium est ut opus reddat gratum et 
+bo<lb ed="#Bc" break="no"/>num,
+</p>
+               <p xml:id="Almn78-h49465-d1e1445">
+                  <lb ed="#Bc"/>Avuvc, Una objectio communis est:
+<lb ed="#Bc"/>quia unius rei unicum est esse : sed 
+de<lb ed="#Bc" break="no"/>finitio dicit esse: ergo unius rei unica
+<lb ed="#Bc"/>est definitio. Queratur ergo, Penes quid
+<lb ed="#Bc"/>sumantur tot definitiones ?
+</p>
+               <p xml:id="Almn78-h49465-d1e1458">
+                  <lb ed="#Bc"/>Solutio. Ad hoc ultimum primo 
+re<lb ed="#Bc" break="no"/>spondendum est, quod unius rei unica
+<lb ed="#Bc"/>est definitio que datur per essentialia
+<lb ed="#Bc"/>rei: sed multe sunt assignaliones 
+diffi<lb ed="#Bc" break="no"/>nitive, que dantur etiam per effectus
+<lb ed="#Bc"/>diversos et per causas diversas rerum, et
+<lb ed="#Bc"/>per propria rerum que conveniunt ut
+<lb ed="#Bc"/>accidentia propria et convertibilia cum
+<lb ed="#Bc"/>re. Propter quod etiam demonstrationes
+<lb ed="#Bc"/>non fiunt tantum per definitionem et
+<lb ed="#Bc"/>causam propriam, sed etiam per signum
+<lb ed="#Bc"/>quando convertitur cum causa. Et sic
+<lb ed="#Bc"/>diverse dantur assignationes de gratia,
+</p>
+               <p xml:id="Almn78-h49465-d1e1489">
+                  <lb ed="#Bc"/>Prima enim que est Chrysostomi, datur
+<lb ed="#Bc"/>per proprium effeclum gratie duplicem,
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>qui est sanitas mentis,et delectatio cordis.
+</p>
+               <p xml:id="Almn78-h49465-d1e1501">
+                  <lb ed="#Bc"/>Ad id quod objicitur de sanitate, que
+<lb ed="#Bc"/>non efficitur nisi universaliter pulsa in 
+<lb ed="#Bc" break="no"/>firmitate, diceadum quod dupliciter 
+uni<lb ed="#Bc" break="no"/>versaliter pellitur infirmitas, scilicet in
+<lb ed="#Bc"/>effectu, et in causa. In effectu gratia
+<lb ed="#Bc"/>universaliter non pellit infirmitatem, 
+sic<lb ed="#Bc" break="no"/>ut objectum est : sed in causa 
+universa<lb ed="#Bc" break="no"/>liter eam pellit, eo quod omnis 
+infirmi<lb ed="#Bc" break="no"/>tas generaliter causatur a peccato. Unde
+<lb ed="#Bc"/>Hieronymus : <quote xml:id="Almn78-h49465-Qd1e1524"> Quidquid patimur, 
+pec<lb ed="#Bc" break="no"/>cata nostra meruerunt. </quote> Et Gregorius :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h49465-Qd1e1532"> Nulla nocebit adversitas, si nulla 
+do<lb ed="#Bc" break="no"/>minelur iniquitas. </quote> Et ambo fundant se
+<lb ed="#Bc"/>super Psalmum cu, 3: Que propitiatur
+<lb ed="#Bc"/>omnibus iniquitatibus tuis, quit sanat
+<lb ed="#Bc"/>omnes infirmitates tuas. Unde cum 
+gra<lb ed="#Bc" break="no"/>tia universaliter tollit peccatum, 
+univer<lb ed="#Bc" break="no"/>saliter tollit infirmitatem : et ideo dicitur
+<lb ed="#Bc"/>sanitas mentis. Delectatio autem cordis
+<lb ed="#Bc"/>dicitur : quia dicunt Aristoteles in X
+<lb ed="#Bc"/>Ethicorum,et Michael Ephesius ibidem in
+<lb ed="#Bc"/>commento, et etiam Aspasius, quod 
+dele<lb ed="#Bc" break="no"/>ctatio proprie nihil aliud est nisi diffusio
+<lb ed="#Bc"/>nature in operatione propria secundum
+<lb ed="#Bc"/>naturam facta. Et ideo etiam illa 
+dele<lb ed="#Bc" break="no"/>ctatio non habet contrarium, sicut est in
+<lb ed="#Bc"/>contemplatione theorematum. Et quia
+<lb ed="#Bc"/>gratia per dulcedinem bone voluntatis
+<lb ed="#Bc"/>conjungit Deum homini in quo summa
+<lb ed="#Bc"/>delectatio est et gaudium, ideo dicitur
+<lb ed="#Bc"/>delectatio cordis.
+</p>
+               <p xml:id="Almn78-h49465-d1e1577">
+                  <lb ed="#Bc"/>Ad iLnam que est Isidori dicendum,
+<lb ed="#Bc"/>quod illa datur per causam propriam
+<lb ed="#Bc"/>gratie : quia tantum donum sicut est
+<lb ed="#Bc"/>gratia, non potest esse nisi optime 
+vo<lb ed="#Bc" break="no"/>luntatis Dei : per hoc enim confertur 
+no<lb ed="#Bc" break="no"/>bis summum bonum ut inhabitet in 
+no<lb ed="#Bc" break="no"/>bis. Et cum dicit, Per quod sit exitus
+<lb ed="#Bc"/>bone voluntatis, non accipit 
+volunta<lb ed="#Bc" break="no"/>tem pro una speciali potentia, sed 
+po<lb ed="#Bc" break="no"/>tius, sicut dicit Anselmus, secundum
+<lb ed="#Bc"/>quod voluntas est motor omnium 
+po<lb ed="#Bc" break="no"/>tentiarum anime universalis : quia 
+om<lb ed="#Bc" break="no"/>nes moventur ad libitum voluntatis : et
+<lb ed="#Bc"/>sic non terminatur virtute, sed gratia
+<lb ed="#Bc"/>generaliter : quia talis bone voluntatis
+<lb ed="#Bc"/>exitus bonus non est, nisi per gratiam.
+</p>
+               <p xml:id="Almn78-h49465-d1e1614">
+                  <pb ed="#Bc" n="230"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Per hoc patet solutio ad ea que
+<lb ed="#Bc"/>objiciuntur contra hane definitionem.
+</p>
+               <p xml:id="Almn78-h49465-d1e1625">
+                  <lb ed="#Bc"/>Ad 114M que dicitur esse Augustini,
+<lb ed="#Bc"/>dicendum, quod illa datur per proprium
+<lb ed="#Bc"/>effectum : effectus enim gratia proprius
+<lb ed="#Bc"/>est, vilam totam universaliter ordinare
+<lb ed="#Bc"/>ad Deum. Et in hoc differt ab 
+universali<lb ed="#Bc" break="no"/>tate virtutum : quia virtus non ordinat
+<lb ed="#Bc"/>nisi ad actum et potentiam : gratia 
+au<lb ed="#Bc" break="no"/>tem ordinat universaliter et totum 
+ho<lb ed="#Bc" break="no"/>minem ad Deum.
+</p>
+               <p xml:id="Almn78-h49465-d1e1647">
+                  <lb ed="#Bc"/>Per hoc patet solutio objectorum 
+con<lb ed="#Bc" break="no"/>tra illam.
+</p>
+               <p xml:id="Almn78-h49465-d1e1654">
+                  <lb ed="#Bc"/>Ina autem que accipitur de Glossa
+<lb ed="#Bc"/>super Psalmum cit, 15, datur per 
+pro<lb ed="#Bc" break="no"/>prium effectum gratie. Nitor enim 
+con<lb ed="#Bc" break="no"/>sistit in pulchritudine ex conformitate
+<lb ed="#Bc"/>ad primum pulchrum quod facit gratia.
+<lb ed="#Bc"/>Sanctus amor autem precipue in 
+chari<lb ed="#Bc" break="no"/>tate perficitur ex gratia, secundum quod
+<lb ed="#Bc"/>est conformitas summi boni ad bonum
+<lb ed="#Bc"/>quod est in anima per gratiam. Et sic
+<lb ed="#Bc"/>patet solutio objectionis de charitate 
+fa<lb ed="#Bc" break="no"/>cle.
+</p>
+               <p xml:id="Almn78-h49465-d1e1681">
+                  <lb ed="#Bc"/>Ad osBJECTUM contra quintam et 
+ulti<lb ed="#Bc" break="no"/>mam, dicendum quod illa videtur magis
+<lb ed="#Bc"/>propria esse de gratia quam alie : et per
+<lb ed="#Bc"/>ea que in ea ponuntur, distinguitur ab
+<lb ed="#Bc"/>aliis, sicut distinguitur diffinitum per
+<lb ed="#Bc"/>partes definitionis. Per hoc quod dicitur,
+<lb ed="#Bc"/>Habitus infusus, distinguitur ab 
+habiti<lb ed="#Bc" break="no"/>bus acquisitis. Per hoc quod dicitur,
+<lb ed="#Bc"/>Divine bonitati similis, distinguitur ab
+<lb ed="#Bc"/>habitibus particularibus, qui non 
+univer<lb ed="#Bc" break="no"/>saliter assimilant nos divine bonitati,
+<lb ed="#Bc"/>sed cuidam, sicut sapientia veritati, 
+for<lb ed="#Bc" break="no"/>titudo potenti, et sic de aliis : sed 
+gra<lb ed="#Bc" break="no"/>tia universaliter assimilat nos divine
+<lb ed="#Bc"/>bonitati, et propter hoc consequenter
+<lb ed="#Bc"/>gratum faciens habentem, et opus ejus
+<lb ed="#Bc"/>gratum reddens. Unde dicitur in libro
+<lb ed="#Bc"/>de Laudabilibus bonis, quod justitia est
+<lb ed="#Bc"/>habitus, qui est in tota anima : pruden-’
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>tia autem est secundum partem que est
+<lb ed="#Bc"/>ratio, temperantia aulem est secundum
+<lb ed="#Bc"/>partem concupiscibilis, fortitudo vero est
+<lb ed="#Bc"/>secundum partem que est irascibilis. Ita
+<lb ed="#Bc"/>gratia est universalis infusus habitus,
+<lb ed="#Bc"/>qui diffunditur in tota anima etin 
+om<lb ed="#Bc" break="no"/>nibus viribus ejus et in omnibus 
+operi<lb ed="#Bc" break="no"/>bus, et omnia facit grata Deo, et confert
+<lb ed="#Bc"/>virlulem merendi vitam e#ternam : quia
+<lb ed="#Bc"/>per talem gratiam Deus inhabitat in
+<lb ed="#Bc"/>Sanctis et in bonis hominibus. Et hoc
+<lb ed="#Bc"/>est quod dicitur, Jad Corinth. xv, 10:
+<lb ed="#Bc"/>Gratia Dei sum id quod sum, et gratia
+<lb ed="#Bc"/>ejus in me vacua non fui.
+</p>
+            </div>
+            <div xml:id="Almn78-h49465-Dd1e1758">
+               <head xml:id="Almn78-h49465-Hd1e1760">Membrum 4</head>
+               <head xml:id="Almn78-h49465-Hd1e1763" type="question-title">
+        Cui insit gratia primo et per se, utrum
+        scilicet potentiae, vel substantiae
+        animae
+      </head>
+               <p xml:id="Almn78-h49465-d1e1766">
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>Cui insit gratia primo et per se, utrum
+<lb ed="#Bc"/>scilicet potentiae, vel substantiae
+<lb ed="#Bc"/>animae ?
+</p>
+               <p xml:id="Almn78-h49465-d1e1777">
+                  <lb ed="#Bc"/>Quarto queritur, Cui insit gratia
+<lb ed="#Bc"/>primo et per se, utrum scilicet potenti,
+<lb ed="#Bc"/>vel substantia anime ?
+</p>
+               <p xml:id="Almn78-h49465-d1e1786">
+                  <lb ed="#Bc"/>Et videtur, quod potentiae ex ipso 
+no<lb ed="#Bc" break="no"/>mine gratia, quod ponitur in Littera
+<lb ed="#Bc"/>Magistro et Augustino.
+</p>
+               <p xml:id="Almn78-h49465-d1e1796">
+                  <lb ed="#Bc"/>1. Dicitur enim gratia operans et 
+co<lb ed="#Bc" break="no"/>operans : opus autem respicit potentiam :
+<lb ed="#Bc"/>ergo videtur, quod gratia imsit per 
+po<lb ed="#Bc" break="no"/>tentiam.
+</p>
+               <p xml:id="Almn78-h49465-d1e1807">
+                  <lb ed="#Bc"/>2. Adhuc, In Liitera dicitur, quod
+<lb ed="#Bc"/>facit velle et currere : utrumque autem
+<lb ed="#Bc"/>est secundum potentiam.
+</p>
+               <p xml:id="Almn78-h49465-d1e1816">
+                  <lb ed="#Bc"/>3. Adhuc, In Littera dicitur, quod
+<lb ed="#Bc"/>prevenit voluntatem, et informat ut
+<lb ed="#Bc"/>velit: voluntas autem potentia est: ergo
+<lb ed="#Bc"/>videtur, quod insit immediate secundum
+<lb ed="#Bc"/>potentiam.
+</p>
+               <p xml:id="Almn78-h49465-d1e1829">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>In definitione preinducta dicitur, quod
+<lb ed="#Bc"/>gratum facit habentem, et opus ejus
+<pb ed="#Bc" n="231"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>gratum reddit. Ergo videtur, quod 
+im<lb ed="#Bc" break="no"/>mediate inest secundum subjectum 
+ha<lb ed="#Bc" break="no"/>bentis, et per illud etiam inest potentiis.
+</p>
+               <p xml:id="Almn78-h49465-d1e1849">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod gratia est
+<lb ed="#Bc"/>universalis habitus, informans et 
+subje<lb ed="#Bc" break="no"/>clum et potentias omnes et opera, per
+<lb ed="#Bc"/>quam Deus inhabitans in sanctis 
+omni<lb ed="#Bc" break="no"/>bus influit vim merendi vitam eternam :
+<lb ed="#Bc"/>quam vim sine Deo habere non possent :
+<lb ed="#Bc"/>quia hec virtus infinita est, que non
+<lb ed="#Bc"/>convenit nisi Deo. Et ideo dicitur, Isa.
+<lb ed="#Bc"/>xxvi, 12: Omnia opera nostra operatus
+<lb ed="#Bc"/>es nobis, Domine. Et, Joan. xv, 5:
+<lb ed="#Bc"/>Sine me nihil potestis facere. Et ibidem,
+<lb ed="#Bc"/>Qui manet in me, et ego in eo, hic fert
+<lb ed="#Bc"/>fructum multum.
+</p>
+               <p xml:id="Almn78-h49465-d1e1880">
+                  <lb ed="#Bc"/>Ab primum ergo dicendum, quod 
+ve<lb ed="#Bc" break="no"/>rum est, quod opus respicit potentiam
+<lb ed="#Bc"/>radicatam in essentia: et ideo etiam 
+ha<lb ed="#Bc" break="no"/>bitus gratiae refertur ad essentiam.
+</p>
+               <p xml:id="Almn78-h49465-d1e1892">
+                  <lb ed="#Bc"/>Ad aliud eodem modo respondendum
+<lb ed="#Bc"/>est, quod velle facit et currere facit: sed
+<lb ed="#Bc"/>utrumque refertur ad essentiam in qua
+<lb ed="#Bc"/>radicatur potentia. Et ideo habitus gra~
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>tiae ad essentiam refertur. Aliter enim
+<lb ed="#Bc"/>est de hoc habitu gratiz, et aliter de 
+ha<lb ed="#Bc" break="no"/>bitibus virtutum particularium. Virtutes
+<lb ed="#Bc"/>enim particulares perficiunt ad actus 
+de<lb ed="#Bc" break="no"/>terminatos : gratia autem gratum faciens
+<lb ed="#Bc"/>perficit actus ipsos, et operantes in 
+com<lb ed="#Bc" break="no"/>paratione ad Deum, ut scilicet et 
+ope<lb ed="#Bc" break="no"/>rans acceptus sit, et opus ejus acceptum.
+<lb ed="#Bc"/>Sapient. iv, 10: Placens Deo factus est
+<lb ed="#Bc"/>dilectus. Placens enim Deo est per 
+gra<lb ed="#Bc" break="no"/>tiam: et ideo ipse fit dilectus, et opera
+<lb ed="#Bc"/>ejus. Et hoc est etiam quod dicit 
+Au<lb ed="#Bc" break="no"/>gustinus contra Julianum Pelagianum :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h49465-Qd1e1935"> Cooperando Deus in nobis perficit
+<lb ed="#Bc"/>quod operando incipit: quia ipse ut 
+ve<lb ed="#Bc" break="no"/>limus operatur incipiens, qui volentibus
+<lb ed="#Bc"/>cooperatur perficiens. </quote>
+               </p>
+               <p xml:id="Almn78-h49465-d1e1945">
+                  <lb ed="#Bc"/>Ad uttimum dicendum, quod 
+volunta<lb ed="#Bc" break="no"/>tem ibi non accipit pro particulari 
+po<lb ed="#Bc" break="no"/>tentia, sed (sicut paulo ante dictum est)
+<lb ed="#Bc"/>pro generali motore omnium eorum
+<lb ed="#Bc"/>que sunt in anima: et ille est libertas in
+<lb ed="#Bc"/>tota anima diffusa. ,
+</p>
+               <p xml:id="Almn78-h49465-d1e1961">
+                  <lb ed="#Bc"/>Er intup quod contra objicitur, 
+pro<lb ed="#Bc" break="no"/>cedit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

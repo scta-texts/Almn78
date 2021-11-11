@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 51</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 51</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="534"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e18681"><!-- p2t11q51 -->
+            <head xml:id="Almn78-e18681-Hd1e106">Quaestio 51</head>
+            <head xml:id="Almn78-e18681-Hd1e109" type="question-title">
+      De opere primae diei.
+    </head>
+            <p xml:id="Almn78-e18681-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LI.
+      <lb ed="#Bb"/>De opere primae diei.
+    </p>
+            <p xml:id="Almn78-e18681-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde, Quaeritur de opere 
+      distinctio<lb ed="#Bb" break="no"/>nis, de qua Magister tractat in libro
+      <lb ed="#Bb"/>II Sententiarum, distinct. XIII, ibi 
+      scili<lb ed="#Bb" break="no"/>cet, <quote xml:id="Almn78-e18681-Qd1e134"> Prima autem distinctionis operatio
+        <lb ed="#Bb"/>fuit formatio lucis. </quote>
+            </p>
+            <p xml:id="Almn78-e18681-d1e140">
+               <lb ed="#Bb"/>Ubi oportet inquirere tria de opere
+      <lb ed="#Bb"/>prime diei.
+      <lb ed="#Bb"/>Primo, Qualiter Deus primo formavit
+      <lb ed="#Bb"/>lucem, et divisit lucem a tenebris : ibi
+      <lb ed="#Bb"/>enim oportet inquirere, Quid sit lux,
+      <lb ed="#Bb"/>utrum corpus, vel forma corporis, vel
+      <lb ed="#Bb"/>defluxus corporis alicujus?
+      <lb ed="#Bb"/>Secundo, Quomodo lucem 
+      appellavit<lb ed="#Bb" break="no"/>
+               <lb ed="#Bb"/>diem, et tenebras noctem ? utrum scilicet
+      <lb ed="#Bb"/>per effectum, vel causam ?
+      <lb ed="#Bb"/>Tertio, Quomodo factum est vespere
+      <lb ed="#Bb"/>et mane dies unus, et non mane et 
+      ve<lb ed="#Bb" break="no"/>spere? secundum hoc enim prima dies
+      <lb ed="#Bb"/>non habuit mane.
+    </p>
+            <p xml:id="Almn78-e18681-d1e176">
+               <lb ed="#Bb"/>Et licet de primo istorum 
+      disputave<lb ed="#Bb" break="no"/>rint multa Philosophi, que a nobis 
+      su<lb ed="#Bb" break="no"/>pra in HW de Anima, cap. de visu, 
+      deter<lb ed="#Bb" break="no"/>minata sunt, tamen etiam hic quia
+      <lb ed="#Bb"/>tangitur hic de materia eadem, 
+      quan<lb ed="#Bb" break="no"/>tum ad propositum pertinet tangenda
+      <lb ed="#Bb"/>sunt.
+    </p>
+            <div xml:id="Almn78-e18681-Dd1e194">
+               <head xml:id="Almn78-e18681-Hd1e196">Membrum 1</head>
+               <head xml:id="Almn78-e18681-Hd1e199" type="question-title">
+        Qualiter Deus primo formavit lucem
+        et divisit a tenebris? et, Quid sit
+        lux? Utrum corpus, vel forma 
+        corporis, vel defluxus corporis 
+        alicujus?
+      </head>
+               <p xml:id="Almn78-e18681-d1e202">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>Qualiter Deus primo formavit lucem
+        <lb ed="#Bb"/>et divisit a tenebris? et, Quid sit
+        <lb ed="#Bb"/>lua? utrum corpus, vel forma 
+        cor<lb ed="#Bb" break="no"/>poris, vel defluxus corporis 
+        alicu<lb ed="#Bb" break="no"/>jus! ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e220">
+                  <lb ed="#Bb"/>Quod autem lux non sit corpus, 
+        vi<lb ed="#Bb" break="no"/>detur Aristoteles dicere in II de Anima,
+        <lb ed="#Bb"/>cap. de visu, ubi sic dicit :
+      </p>
+               <p xml:id="Almn78-e18681-d1e229">
+                  <lb ed="#Bb"/>1. <quote xml:id="Almn78-e18681-Qd1e233"> Lumen et lux nec est ignis, nec
+          <lb ed="#Bb"/>omnino corpus, nec defluxus corporis :
+          <lb ed="#Bb"/>esset enim (supple, si esset defluxus
+          <lb ed="#Bb"/>corporis) aliquod corpus, aut alicujus
+          <lb ed="#Bb"/>hujusmodi, supple, defluxus presentia in
+          <lb ed="#Bb"/>lucido. </quote> Et paulo post : <quote xml:id="Almn78-e18681-Qd1e246"> Neque enim
+            <lb ed="#Bb"/>duo corpora possibile est esse in eodem
+            <lb ed="#Bb"/>loco : hoc enim sequeretur si lux et
+            <lb ed="#Bb"/>lumen esset corpus : quia lux et lumen
+            <lb ed="#Bb"/>in eodem loco sunt cum diaphano, quod
+            <pb ed="#Bb" n="535"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>ut formam recipit ipsum. </quote> Ex hoc patet,
+        <lb ed="#Bb"/>quod Aristoteles non tantum dicit, quod
+        <lb ed="#Bb"/>non sit corpus : sed hoc etiam probat
+        <lb ed="#Bb"/>deducendo ad impossibile.
+      </p>
+               <p xml:id="Almn78-e18681-d1e273">
+                  <lb ed="#Bb"/>2. Adhuc, Ibidem, Videtur autem 
+        1u<lb ed="#Bb" break="no"/>men contrarium esse tenebre : est 
+        au<lb ed="#Bb" break="no"/>tem tenebra privatio hujus habitus ex 
+        lu<lb ed="#Bb" break="no"/>cido : habitus autem non est corpus, sed
+        <lb ed="#Bb"/>forma: ergo nec lux corpus est : lux enim
+        <lb ed="#Bb"/>et lumen, ut dicit Avicenna, non 
+        diffe<lb ed="#Bb" break="no"/>runt nisi in hoc, quod lux habitus est 
+        lu<lb ed="#Bb" break="no"/>minosi, lumen autem habitus diaphani
+        <lb ed="#Bb"/>vel transparentis, generatus in ipso ex
+        <lb ed="#Bb"/>directa oppositione luminosi.
+      </p>
+               <p xml:id="Almn78-e18681-d1e297">
+                  <lb ed="#Bb"/>3. Adhuc, Commentator ibidem 
+        expo<lb ed="#Bb" break="no"/>nens textum Aristotelis, sic dicit : <quote xml:id="Almn78-e18681-Qd1e303"> Ex
+          <lb ed="#Bb"/>hoc patet, quod lux est habitus diaphani,
+          <lb ed="#Bb"/>et non corpus. </quote>
+               </p>
+               <p xml:id="Almn78-e18681-d1e311">
+                  <lb ed="#Bb"/>Sed contra
+      </p>
+               <p xml:id="Almn78-e18681-d1e316">
+                  <lb ed="#Bb"/>4. Adhuc, In libro de Visu et natura
+        <lb ed="#Bb"/>ocult dicit Philosophus : <quote xml:id="Almn78-e18681-Qd1e322">Lux non est
+          <lb ed="#Bb"/>corpus, sed accidens aeris. </quote>
+               </p>
+               <p xml:id="Almn78-e18681-d1e328">
+                  <lb ed="#Bb"/>5. Adhuc, Avicenna in VI de 
+        Natu<lb ed="#Bb" break="no"/>rali sufficientia, cap. de visu : <quote xml:id="Almn78-e18681-Qd1e334"> Lumen
+          <lb ed="#Bb"/>est affectio corporis habentis lucem,
+          <lb ed="#Bb"/>cum directe sine interpositione opaci 
+          op<lb ed="#Bb" break="no"/>*positum fuerit illi. </quote> .
+      </p>
+               <p xml:id="Almn78-e18681-d1e344">
+                  <lb ed="#Bb"/>6. Adhuc, Avicenna, ibidem, <quote xml:id="Almn78-e18681-Qd1e348"> Lux
+          <lb ed="#Bb"/>est qualitas, que est perfectio corporis
+          <lb ed="#Bb"/>translucentis secundum quod est 
+          translu<lb ed="#Bb" break="no"/>cens. </quote>
+               </p>
+               <p xml:id="Almn78-e18681-d1e359">
+                  <lb ed="#Bb"/>7. Adhuc, Avicenna, ibidem, <quote xml:id="Almn78-e18681-Qd1e363"> Lux
+          <lb ed="#Bb"/>est qualitas, quam mutuat corpus 
+          trans<lb ed="#Bb" break="no"/>lucens a lucido, et translucens efficitur
+          <lb ed="#Bb"/>per eam translucens in effectu sive in
+          <lb ed="#Bb"/>actu. </quote>
+               </p>
+               <p xml:id="Almn78-e18681-d1e375">
+                  <lb ed="#Bb"/>In contrarium hujus est quod
+        <lb ed="#Bb"/>1. Dicit Augustinus in lib. ad 
+        Volusia<lb ed="#Bb" break="no"/>num, sic : <quote xml:id="Almn78-e18681-Qd1e383"> Hominum iste sensus est
+          <lb ed="#Bb"/>nihil nisi corpora valentium cogitare :
+          <lb ed="#Bb"/>sive ista crassiora, sicut humor atque
+          <lb ed="#Bb"/>humus : sive subtiliora, sicut aeris atque
+          <lb ed="#Bb"/>lucis. </quote> Ergo sicut aer est corpus 
+        sub<lb ed="#Bb" break="no"/>tile, ita et lux.
+      </p>
+               <p xml:id="Almn78-e18681-d1e397">
+                  <lb ed="#Bb"/>2. Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-e18681-Qd1e401"> Duo
+          <lb ed="#Bb"/>liquores miscentur ita, ut neuter servet
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>integritatem suam, quamquam in 
+          corpo<lb ed="#Bb" break="no"/>ribus ipsis lux incorrupta videatur. </quote> 
+        Er<lb ed="#Bb" break="no"/>go lux est de numero corporum.
+      </p>
+               <p xml:id="Almn78-e18681-d1e415">
+                  <lb ed="#Bb"/>3. Adhuc, Augustinus in libro III de
+        <lb ed="#Bb"/>Libero arbitrio : <quote xml:id="Almn78-e18681-Qd1e421"> In corporibus lux
+          <lb ed="#Bb"/>tenet primum locum'. </quote> Si ergo 
+        pri<lb ed="#Bb" break="no"/>mum locum tenet in numero corporum :
+        <lb ed="#Bb"/>et primum locum tenens in corporibus
+        <lb ed="#Bb"/>est corpus : videtur, quod lux sit corpus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e434">
+                  <lb ed="#Bb"/>4. Adhuc, Augustinus, Super Gene-~
+        <lb ed="#Bb"/>sim ad litteram, <quote xml:id="Almn78-e18681-Qd1e440"> Quomodo anima ex
+          <lb ed="#Bb"/>eo genere (corporum) aliquid est, cum
+          <lb ed="#Bb"/>ejusdem generis summum non sit nisi
+          <lb ed="#Bb"/>lumen. Quia comparatio secundum 
+          ex<lb ed="#Bb" break="no"/>cessum non fit nisi inter univoca?. </quote>
+                  <lb ed="#Bb"/>Ergo videtur, quod lux sit corpus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e454">
+                  <lb ed="#Bb"/>3. Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-e18681-Qd1e458"> 
+          Ani<lb ed="#Bb" break="no"/>ma propter subtiliorem sui naturam
+          <lb ed="#Bb"/>transit corpus viribus suis per spiritum
+          <lb ed="#Bb"/>qui nature lucis est*. </quote> Constat autem,
+        <lb ed="#Bb"/>quod omnis spiritus corpus est et 
+        corpo<lb ed="#Bb" break="no"/>reus sive corporalis nature. Ergo 
+        vide<lb ed="#Bb" break="no"/>tur, quod lux corpus sit.
+      </p>
+               <p xml:id="Almn78-e18681-d1e475">
+                  <lb ed="#Bb"/>6. Ad hoc idem objicitur per rationem
+        <lb ed="#Bb"/>sic : Lux in aere sive lumen, si est 
+        ac<lb ed="#Bb" break="no"/>cidens sive forma accidentalis : aut inest
+        <lb ed="#Bb"/>aeri per se, aut per accidens. Si per 
+        ac<lb ed="#Bb" break="no"/>cidens : ergo inest per aliud quod est
+        <lb ed="#Bb"/>ejus subjectum proprium : eo quod 
+        uni<lb ed="#Bb" break="no"/>versaliter verum est, quod omne 
+        acci<lb ed="#Bb" break="no"/>dens per accidens reducitur ad accidens
+        <lb ed="#Bb"/>per se. Si est accidens per se, oportet
+        <lb ed="#Bb"/>quod sit demonstrabile de aere per 
+        cau<lb ed="#Bb" break="no"/>sam et formam aeris, quod falsum est :
+        <lb ed="#Bb"/>ergo nec est accidens per se, nec est
+        <lb ed="#Bb"/>accidens per accidens. Et est accidens,
+        <lb ed="#Bb"/>vel substantia. Ergo relinquitur, quod
+        <lb ed="#Bb"/>sit substantia, et ut mensurata 
+        substan<lb ed="#Bb" break="no"/>tia in longum, latum et profundum,
+        <lb ed="#Bb"/>quod soli corpori convenit : ergo 
+        re<lb ed="#Bb" break="no"/>linquitur, quod sit substantia corporea
+        <lb ed="#Bb"/>vel corpus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e519">
+                  <lb ed="#Bb"/>7, Adhuc, Aut eadem lux est in 
+        Orien<lb ed="#Bb" break="no"/>te et Occidente, aut diversa generata a
+        <lb ed="#Bb"/>prima luce. Si eadem : hoc stare non
+        <pb ed="#Bb" n="536"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>potest, quia idem accidens non potest
+        <lb ed="#Bb"/>esse in diversis locis vel subjectis, vel
+        <lb ed="#Bb"/>excedere proprium subjectum. Si aulem
+        <lb ed="#Bb"/>alia generata a prima : tunc accidens in
+        <lb ed="#Bb"/>uno subjecto generat se in alio subjecto :
+        <lb ed="#Bb"/>et sic sequeretur, quod lux esset 
+        qua<lb ed="#Bb" break="no"/>litas activa, quod falsum est : qualitates
+        <lb ed="#Bb"/>enim active non sunt nisi due, scilicet
+        <lb ed="#Bb"/>caliditas, et frigiditas : et due passive,
+        <lb ed="#Bb"/>scilicet humiditas, et siccitas.
+      </p>
+               <p xml:id="Almn78-e18681-d1e554">
+                  <lb ed="#Bb"/>8. Adhuc, Jacobus Alkindi in libro de
+        <lb ed="#Bb"/>Visu et natura oculi, dicit, quod non
+        <lb ed="#Bb"/>reflectitur lux vel lumen, nisi ad corpus’
+        <lb ed="#Bb"/>solidum, planum, et tersum. Ponamus
+        <lb ed="#Bb"/>ergo vacuum esse inter ccelum et 
+        ter<lb ed="#Bb" break="no"/>ram : in illo vacuo nullum erit corpus
+        <lb ed="#Bb"/>reflectens lucem vel multiplicans in 
+        va<lb ed="#Bb" break="no"/>cuo : et cum constat, quod opposito sole
+        <lb ed="#Bb"/>illi vacuo, vacuum erit plenum luce et
+        <lb ed="#Bb"/>lumine, et non extenditur in eo sicut
+        <lb ed="#Bb"/>forma vel qualitas : ergo est corpus, et
+        <lb ed="#Bb"/>non qualitas corporis : quod enim 
+        ex<lb ed="#Bb" break="no"/>tenditur in loco sicut corpus, ‘et partes
+        <lb ed="#Bb"/>ejus copulantur ad unum terminum cum
+        <lb ed="#Bb"/>loco, corpus est, ut dicit Aristoteles
+        <lb ed="#Bb"/>quia hoc est longum, latum, et 
+        pro<lb ed="#Bb" break="no"/>
+                  <lb ed="#Bb"/>fundum.
+      </p>
+               <p xml:id="Almn78-e18681-d1e596">
+                  <lb ed="#Bb"/>9. Adhuc, Due forma ejusdem speciei
+        <lb ed="#Bb"/>in eodem subjecto esse non possunt
+        <lb ed="#Bb"/>due autem luces sive lumina sunt in
+        <lb ed="#Bb"/>eodem subjecto : dicit enim Dionysius,
+        <lb ed="#Bb"/>et experimento probatur, quod due 
+        lu<lb ed="#Bb" break="no"/>ces vel duo lumina duarum candelarum
+        <lb ed="#Bb"/>in domo uniuntur, et sunt in eodem aere
+        <lb ed="#Bb"/>ut in subjecto, cum tamen sint ejusdem
+        <lb ed="#Bb"/>speciei : ergo videtur, quod lux vel 
+        lu<lb ed="#Bb" break="no"/>men non sit qualitas : et est qualitas,
+        <lb ed="#Bb"/>vel corpus : ergo sequitur, quod sit
+        <lb ed="#Bb"/>corpus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e625">
+                  <lb ed="#Bb"/>Solutio. De luce et lumine diverse
+        <lb ed="#Bb"/>sunt sententie. Sicut enim tactum est,
+        <lb ed="#Bb"/>antiquissimus Philosophus Democritus,
+        <lb ed="#Bb"/>de quo dicit Aristoteles quod de 
+        omni<lb ed="#Bb" break="no"/>bus curam gessit, dixit, quod lux et
+        <lb ed="#Bb"/>lumen nihil aliud erat nisi corpora parva
+        <lb ed="#Bb"/>a corpore luminoso in corpus 
+        perspi<lb ed="#Bb" break="no"/>cuum sive diaphanum defluentia : et
+        <lb ed="#Bb"/>cum ubique conjunguntur partibus per
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>spicui, efficitur perspicuum secundum,
+        <lb ed="#Bb"/>actum luminosum. Et’sicut dicit 
+        Avi<lb ed="#Bb" break="no"/>cenna in VI de Naturalibus, rationem
+        <lb ed="#Bb"/>accepit ex hoc, quod videbat lumen 
+        trans<lb ed="#Bb" break="no"/>ire de loco ad locum : et radium 
+        de<lb ed="#Bb" break="no"/>scendentem a corpore luminoso, et
+        <lb ed="#Bb"/>intrare per fenestram, et reflecti a 
+        cor<lb ed="#Bb" break="no"/>pore solido : et talia non sunt nisi 
+        cor<lb ed="#Bb" break="no"/>pora : et ideo dicebat lucem et lumen
+        <lb ed="#Bb"/>esse corpus, et defluxum corporis, hoc
+        <lb ed="#Bb"/>est, corpora parva a luminoso 
+        de<lb ed="#Bb" break="no"/>fluentia.
+      </p>
+               <p xml:id="Almn78-e18681-d1e675">
+                  <lb ed="#Bb"/>Et contra hee est ratio inducta ab
+        <lb ed="#Bb"/>Aristotele, quia nos videmus, quod luce
+      </p>
+               <p xml:id="Almn78-e18681-d1e683">
+                  <lb ed="#Bb"/>et lumine defluentibus a corpore 
+        lumi<lb ed="#Bb" break="no"/>noso in perspicuum sicut in aerem, lux
+        <lb ed="#Bb"/>et lumen extenduntur per totum aerem.
+        <lb ed="#Bb"/>Aut ergo aer cedet omnino de loco per- *
+        <lb ed="#Bb"/>spicui, aut duo corpora erunt in eodem
+        <lb ed="#Bb"/>loco, scilicet corpus quod est lux et 
+        lu<lb ed="#Bb" break="no"/>men, et corpus perspicui : duo avtem
+        <lb ed="#Bb"/>corpora in eodem loco nullo modo esse
+        <lb ed="#Bb"/>possunt, ut dicit Aristoteles : sequeretur
+        <lb ed="#Bb"/>enim inevitabile, quod duo corpora 
+        es<lb ed="#Bb" break="no"/>sent idem corpus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e709">
+                  <lb ed="#Bb"/>Objicit etiam contra hoc Avicenna
+        <lb ed="#Bb"/>supponens quod est verum, quod omne
+        <lb ed="#Bb"/>corpus de se luminosum densum est, et
+        <lb ed="#Bb"/>tegens a visu corpora que post ipsum
+        <lb ed="#Bb"/>sunt, sicut sol, luna, et stelle : hee
+        <lb ed="#Bb"/>enim tegunt ea que post ipsa sunt :
+        <lb ed="#Bb"/>aliter enim non eclipsaret una stella
+        <lb ed="#Bb"/>aliam, quod falsum est : cum in II de
+        <lb ed="#Bb"/>Celo et mundo dicit Aristoteles, quod
+        <lb ed="#Bb"/>luna eclipsavit Martem, et in 
+        qua<lb ed="#Bb" break="no"/>libet eclipsi solis sol eclipsatur a luna :
+        <lb ed="#Bb"/>cum tamen probatum sit in astronomia,
+        <lb ed="#Bb"/>quod luna est corpus et vas luminis in
+        <lb ed="#Bb"/>profundum sui recipiens lumen : quia
+        <lb ed="#Bb"/>aliter non illuminaret ad omnem situm :
+        <lb ed="#Bb"/>si enim ab exteriori tantum reflecteret
+        <lb ed="#Bb"/>lumen incidens in ipsam, non 
+        illumina<lb ed="#Bb" break="no"/>ret nisi ad oppositum et parem angulum,
+        <lb ed="#Bb"/>ut probatum est in Perspectiva Euclidis.
+        <lb ed="#Bb"/>Et ex hoc procedit Avicenna, quod si
+        <lb ed="#Bb"/>lux et lumen est corpus, vel defluxus
+        <lb ed="#Bb"/>corporis : aut illud corpus est 
+        lumino<lb ed="#Bb" break="no"/>sum, aut pervium. Si pervium sive 
+        per<lb ed="#Bb" break="no"/>spicuum : tunc per ipsum perspicuum
+        <pb ed="#Bb" n="537"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>in quod defluit illud lumen, non efficitur
+        <lb ed="#Bb"/>per ipsum secundum actum lucidum :
+        <lb ed="#Bb"/>et hoc est contra sensum, quia nos 
+        vi<lb ed="#Bb" break="no"/>demus, quod. quando lumen penetrat
+        <lb ed="#Bb"/>aerem, aer efiicitur secundum actum
+        <lb ed="#Bb"/>luminosus. Si autem sunt luminosa 
+        cor<lb ed="#Bb" break="no"/>pora illa : tune quanto magis densantur,
+        <lb ed="#Bb"/>tanto magis impediunt visum qui fit
+        <lb ed="#Bb"/>per aerem; eo quod tegunt omnia que
+        <lb ed="#Bb"/>sunt post ipsa, ita quod visus obvians
+        <lb ed="#Bb"/>super ea non potest penetrare ad 
+        viden<lb ed="#Bb" break="no"/>dum ea que post ipsa sunt : ergo si ista
+        <lb ed="#Bb"/>essent defluxus corporis, vel corpora,
+        <lb ed="#Bb"/>quanto magis multiplicarentur in aere,
+        <lb ed="#Bb"/>tanto magis impedirent visum : quod
+        <lb ed="#Bb"/>est contra sensum.
+      </p>
+               <p xml:id="Almn78-e18681-d1e803">
+                  <lb ed="#Bb"/>Eadem objectio est contra eos qui 
+        di<lb ed="#Bb" break="no"/>cunt, quod lux est corpus, cujus 
+        male<lb ed="#Bb" break="no"/>riam continue creat Deus : cui formam
+        <lb ed="#Bb"/>luminositatis continue immittit corpus
+        <lb ed="#Bb"/>luminosum, sicut sol, vel aliud -simile.
+        <lb ed="#Bb"/>Partes enim materia sic create aut sunt
+        <lb ed="#Bb"/>perspicue, aut luminose. Et si 
+        perspi<lb ed="#Bb" break="no"/>cuz : sequitur idem quod prius. Si 
+        lu<lb ed="#Bb" break="no"/>minose : sequitur iterum idem % quia
+        <lb ed="#Bb"/>quanto diutius creatur, tanto magis
+        <lb ed="#Bb"/>dansatur in aere. Isti dicunt, quod lux
+        <lb ed="#Bb"/>est corpus spirituale, quod propter sui
+        <lb ed="#Bb"/>spiritualitatem cum quolibet corpore est
+        <lb ed="#Bb"/>in eodem loco. Sed inconveniens non
+        <lb ed="#Bb"/>evadunt : quia spiritualitas ila non tollit
+        <lb ed="#Bb"/>ab eis naturam corporeilatis et mensuras
+        <lb ed="#Bb"/>distantiarum : et cum eadem sit 
+        distan<lb ed="#Bb" break="no"/>tia (ut dicit Aristoteles in IV 
+        Physico<lb ed="#Bb" break="no"/>rum) cubi et plenicubi, adhuc propter
+        <lb ed="#Bb"/>distantias corporeitatis sequitur, quod
+        <lb ed="#Bb"/>scilicet duo corpora sunt unum corpus :
+        <lb ed="#Bb"/>quod impossibile est. Ponunt tamen
+        <lb ed="#Bb"/>exemplum in licinio de bombace facto,
+        <lb ed="#Bb"/>quod immersum in oleo unum (sicut
+        <lb ed="#Bb"/>dicunt) habet locum cum oleo sibi 
+        im<lb ed="#Bb" break="no"/>bibito : et nec majorem nec minorem,
+        <lb ed="#Bb"/>quam habet licinium per se. Sed isti
+        <lb ed="#Bb"/>non intelligunt, quod in tali exemplo
+        <lb ed="#Bb"/>licinium est locus olei : et extremitas
+        <lb ed="#Bb"/>circumstantis corporis interior que 
+        at<lb ed="#Bb" break="no"/>tingit corpus undique, est locus olei et
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>licinii communis : nihil enim prohibet
+        <lb ed="#Bb"/>in uno loco communi esse multa 
+        corpo<lb ed="#Bb" break="no"/>ra. Contra istos etiam est, quod Deus
+        <lb ed="#Bb"/>requievit die septimo ab universo opere
+        <lb ed="#Bb"/>quod patrarat* : unde postea novas
+        <lb ed="#Bb"/>materias corporalium numquam creavit :
+        <lb ed="#Bb"/>ergo nec materiam istius corporis, quod
+        <lb ed="#Bb"/>ipsi /weem vocant.
+      </p>
+               <p xml:id="Almn78-e18681-d1e892">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod re
+        <lb ed="#Bb"/>vera lux et lumen forme sunt corporee,
+        <lb ed="#Bb"/>et non corpora. Sunt enim forme 
+        cor<lb ed="#Bb" break="no"/>poree que distenduntur in corpore 
+        se<lb ed="#Bb" break="no"/>cundum mensuras corporis: et sunt in
+        <lb ed="#Bb"/>magno magne, et in parvo parve. Et
+        <lb ed="#Bb"/>sunt forme intentionales et rationales.
+        <lb ed="#Bb"/>Intentionales sunt, que ex objecto 
+        lumi<lb ed="#Bb" break="no"/>noso vel colorato secundum esse 
+        inten<lb ed="#Bb" break="no"/>tionale generantur in medio sive 
+        perspi<lb ed="#Bb" break="no"/>cuo : et ille dicuntur forme spirituales,
+        <lb ed="#Bb"/>non quod sint spiritus secundum 
+        sub<lb ed="#Bb" break="no"/>stantiam, sed quia secundum esse 
+        inten<lb ed="#Bb" break="no"/>tionale, quod est spirituale esse, sunt in
+        <lb ed="#Bb"/>medio et in sensu, ut dicit Commentator
+        <lb ed="#Bb"/>super secundum de Anima : et tales 
+        for<lb ed="#Bb" break="no"/>mas corporales vocat Augustinus ad
+        <lb ed="#Bb"/>Volusianum.
+      </p>
+               <p xml:id="Almn78-e18681-d1e934">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod lux dicitur
+        <lb ed="#Bb"/>esse in corporibus et incorrupla, quia in
+        <lb ed="#Bb"/>corporibus est ut forma corporalis 
+        di<lb ed="#Bb" break="no"/>mensionibus corporum distensa : et in
+        <lb ed="#Bb"/>esse lucis, quod est esse intentionale,
+        <lb ed="#Bb"/>non miscibilis, eo quod quecumque 
+        mi<lb ed="#Bb" break="no"/>scentur, miscentur secundum formas 
+        na<lb ed="#Bb" break="no"/>turales materiales activas et passivas :
+        <lb ed="#Bb"/>lux autem per se nec agit nec patitur,
+        <lb ed="#Bb"/>licet per splendorem (qui est divaricatio
+        <lb ed="#Bb"/>luminis, ut dicit Avicenna) segregat, 
+        ra<lb ed="#Bb" break="no"/>refacit, et calefacit.
+      </p>
+               <p xml:id="Almn78-e18681-d1e963">
+                  <lb ed="#Bb"/>Ad aliud dicendum eodem modo,
+        <lb ed="#Bb"/>quod lux dicitur in corporibus primum
+        <lb ed="#Bb"/>locum tenere, quia forma corporum est,
+        <lb ed="#Bb"/>et qualitas superiorum corporum, que
+        <lb ed="#Bb"/>primum locum tenent.
+      </p>
+               <p xml:id="Almn78-e18681-d1e977">
+                  <lb ed="#Bb"/>Ad aliud eodem modo dicendum : lux
+        <lb ed="#Bb"/>enim summum locum tenet inter 
+        corpo<lb ed="#Bb" break="no"/>ra, eo quod est forma et qualitas 
+        nobi<lb ed="#Bb" break="no"/>liorum corporum.
+        <pb ed="#Bb" n="538"/>
+                  <cb ed="#Bb" n="a"/>
+               </p>
+               <p xml:id="Almn78-e18681-d1e993">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod, sicut dicit
+        <lb ed="#Bb"/>Constabenluce in libro de Differentia
+        <lb ed="#Bb"/>spiritus et anime, spiritus in corpore
+        <lb ed="#Bb"/>discurrunt sicut luminaria in mundo, et
+        <lb ed="#Bb"/>sunt instrumenta virtutis naturalis, 
+        vi<lb ed="#Bb" break="no"/>talis, et animalis. Et quia miscibiles sunt
+        <lb ed="#Bb"/>humoribus, et per contactum agunt in
+        <lb ed="#Bb"/>organo corporis, qu@ non possunt 
+        fa<lb ed="#Bb" break="no"/>cere nisi corpora : ideo necesse est eos
+        <lb ed="#Bb"/>corpora esse et corporeos. Et quia 
+        for<lb ed="#Bb" break="no"/>mas representant virtuti animali, quod
+        <lb ed="#Bb"/>bene facere non possunt nisi sunt lucidi:
+        <lb ed="#Bb"/>ideo necesse est luminosos esse. Et quia
+        <lb ed="#Bb"/>universaliter spiritus sunt vehiculum
+        <lb ed="#Bb"/>virtutis, quam in totum corpus non 
+        de<lb ed="#Bb" break="no"/>ferrent nisi circulariter moverentur :
+        <lb ed="#Bb"/>ideo necesse est eos moveri ad modum
+        <lb ed="#Bb"/>luminarium in mundo, que ubique 
+        spar<lb ed="#Bb" break="no"/>gunt lumen suum per circularem suum
+        <lb ed="#Bb"/>motum. Tamen ex hoc non oportet,
+        <lb ed="#Bb"/>quod spiritus sit lux, vel lux spiritus ;
+        <lb ed="#Bb"/>sed quod spiritus lumen habeat per quod
+        <lb ed="#Bb"/>per totum corpus influat virtutem.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1045">
+                  <lb ed="#Bb"/>Ad aliud quod objicitur per rationem,
+        <lb ed="#Bb"/>dicendum quod lux et lumen sunt in aere
+        <lb ed="#Bb"/>ut forma accidentalis, que generatur in
+        <lb ed="#Bb"/>ipso ex directa oppositione luminosi, et
+        <lb ed="#Bb"/>cujus proprium subjectum est 
+        perspi<lb ed="#Bb" break="no"/>cuitas que est in aere. Illa enim per 
+        ta<lb ed="#Bb" break="no"/>lem formam efficitur in actu. Et si de
+        <lb ed="#Bb"/>aere debet probari, non probatur nisi
+        <lb ed="#Bb"/>per directam oppositionem luminosi,
+        <lb ed="#Bb"/>que est per se causa ejus efficiens in
+        <lb ed="#Bb"/>tali subjecto, sicut docet Aristoteles in
+        <lb ed="#Bb"/>II Posteriorum, quod eclipsis probatur de
+        <lb ed="#Bb"/>luna demonstrative per id quod per se
+        <lb ed="#Bb"/>est causa obscurationis, quod est 
+        inter<lb ed="#Bb" break="no"/>positio terre recta diametro inter solem
+        <lb ed="#Bb"/>et lunam.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1082">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod lux in
+        <lb ed="#Bb"/>Oriente et Occidente per subjectum est
+        <lb ed="#Bb"/>diversa, per generans una et eadem.
+        <lb ed="#Bb"/>Quod autem subito fit et in uno momen~
+        <lb ed="#Bb"/>to et in Oriente et in Occidente, ideo
+        <lb ed="#Bb"/>est, quia illuminatio non est motus, sed
+        <lb ed="#Bb"/>mutatio que est finis motus: sicut et
+        <lb ed="#Bb"/>generatio et corruptio, sicut dicit 
+        Com<lb ed="#Bb" break="no"/>mentator super III Physicorum 
+        Aristo<lb ed="#Bb" break="no"/>telis: generatio enim est mutatio ad
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>quam finitur motus alterationis : et 
+        si<lb ed="#Bb" break="no"/>militer corruptio. Et ideo non sunt in
+        <lb ed="#Bb"/>tempore, sed in momento. IJlluminatio
+        <lb ed="#Bb"/>vero est finis motus ascensionis vel 
+        de<lb ed="#Bb" break="no"/>scensionis luminosi corporis super 
+        per<lb ed="#Bb" break="no"/>spicuum in omni loco ad quem a 
+        lumi<lb ed="#Bb" break="no"/>noso corpore potest trahi diametraliter
+        <lb ed="#Bb"/>recta linea, non interposito terminato
+        <lb ed="#Bb"/>corpore.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1128">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod posito 
+        in<lb ed="#Bb" break="no"/>conveniente, nihil est inconveniens 
+        im<lb ed="#Bb" break="no"/>possibile accidere. Vacuum enim non
+        <lb ed="#Bb"/>potest accidere inter celum et terram.
+        <lb ed="#Bb"/>Et si esset, nihil videretur. Et hoc 
+        pro<lb ed="#Bb" break="no"/>bavit Aristoteles in II de Anima contra
+        <lb ed="#Bb"/>ponentes vacuum. Et ideo si vacuum
+        <lb ed="#Bb"/>esset inter coelum et terram, nec lux,
+        <lb ed="#Bb"/>nec lumen ibi generaretur : quia non
+        <lb ed="#Bb"/>esset aliquod corpus susceptibile lucis
+        <lb ed="#Bb"/>vel luminis, in quo hoc generari posset
+        <lb ed="#Bb"/>a directa oppositione luminosi corporis.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1157">
+                  <lb ed="#Bb"/>Ad ultimum dicendum, quod due 
+        lu<lb ed="#Bb" break="no"/>ces duarum candelarum unitarum, non
+        <lb ed="#Bb"/>sunt due nisi per numerum 
+        illuminan<lb ed="#Bb" break="no"/>tium : sed illuminatio generata ab eis
+        <lb ed="#Bb"/>est una in perspicuo : et ideo illa ratio
+        <lb ed="#Bb"/>nihil valet. Duo enim illuminantia 
+        effi<lb ed="#Bb" break="no"/>ciuntur unum illuminans in 
+        illuminatio<lb ed="#Bb" break="no"/>ne generata, quamvis ex duobus clarior
+        <lb ed="#Bb"/>et fortior sit quam ex uno. Si autem quis
+        <lb ed="#Bb"/>lumen dicat corpus propter motum, quia
+        <lb ed="#Bb"/>movetur de loco ad locum, potest dicere
+        <lb ed="#Bb"/>umbram esse corpus, propter similem
+        <lb ed="#Bb"/>motum : quod fatuum est: umbra enim
+        <lb ed="#Bb"/>non movetur per se, sed motu corporis
+        <lb ed="#Bb"/>objecti et opaci: et lux et lumen non
+        <lb ed="#Bb"/>moventur per se, sed motu corporis 
+        illu<lb ed="#Bb" break="no"/>minantis : quod cum transit de loco ad
+        <lb ed="#Bb"/>locum, necesse est illuminationem fieri
+        <lb ed="#Bb"/>in diversis locis : quia tunc diametralis
+        <lb ed="#Bb"/>oppositio necesse est, quod sit ad loca
+        <lb ed="#Bb"/>diversa.
+      </p>
+            </div>
+            <div xml:id="Almn78-e18681-Dd1e1206">
+               <head xml:id="Almn78-e18681-Hd1e1208">Membrum 2</head>
+               <head xml:id="Almn78-e18681-Hd1e1211" type="question-title">
+        Quomodo lucem appellavit diem, et 
+        tenebras noctem, utrum scilicet per 
+        effectum vel causam
+      </head>
+               <p xml:id="Almn78-e18681-d1e1214">
+                  <pb ed="#Bb" n="539"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Quomodo lucem appellavit diem, et 
+        te<lb ed="#Bb" break="no"/>nebras noctem, utrum scilicet per 
+        effe<lb ed="#Bb" break="no"/>ctum vel causam ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1230">
+                  <lb ed="#Bb"/>Szcunpo queritur, Quomodo lucem
+        <lb ed="#Bb"/>appellavit diem, et tenebras noctem ?
+        <lb ed="#Bb"/>utrum scilicet per effectum, vel per 
+        cau<lb ed="#Bb" break="no"/>sam ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1241">
+                  <lb ed="#Bb"/>Super illud enim: Fiat lux, Glossa
+        <lb ed="#Bb"/>interlinearis dicit : <quote xml:id="Almn78-e18681-Qd1e1247"> Hic incipit 
+          distin<lb ed="#Bb" break="no"/>guere. </quote>
+               </p>
+               <p xml:id="Almn78-e18681-d1e1254">
+                  <lb ed="#Bb"/>Gratia hujus quzritur, Qualiter 
+        dis<lb ed="#Bb" break="no"/>tinguit lucem a tenebris, utrum scilicet
+        <lb ed="#Bb"/>utrumque attribuendo ad formam, vel
+        <lb ed="#Bb"/>utrumgque ad locum proprium, sive in
+        <lb ed="#Bb"/>causa, sive in elfectu ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1267">
+                  <lb ed="#Bb"/>1. Si dicatur, quod ad formam 
+        attri<lb ed="#Bb" break="no"/>buendo : hoc videtur esse falsum. In
+        <lb ed="#Bb"/>omni enim opere sex dierum tam 
+        crea<lb ed="#Bb" break="no"/>tionis, quam distinctionis et ornatus,
+        <lb ed="#Bb"/>singulis diebus attribuitur aliquid sue
+        <lb ed="#Bb"/>forme. In creatione enim ccelum fit 
+        ce<lb ed="#Bb" break="no"/>lum, et terra terra. In distinctione lux
+        <lb ed="#Bb"/>fit lux, et nox fit nox, que sic non
+        <lb ed="#Bb"/>distinguuntur nisi per accessiones 
+        pro<lb ed="#Bb" break="no"/>priarum formarum. Similiter in opere
+        <lb ed="#Bb"/>ornatus sol fit sol, et luna luna per
+        <lb ed="#Bb"/>adeptiones propriarum formarum. Si
+        <lb ed="#Bb"/>ergo determinatio ad formam esset
+        <lb ed="#Bb"/>opus distinctionis, opus  distinctionis
+        <lb ed="#Bb"/>non esset separatum ab opere creationis
+        <lb ed="#Bb"/>et ornatus: quod falsum est. Dicunt
+        <lb ed="#Bb"/>enim Glosse super Genesim, tam 
+        Au<lb ed="#Bb" break="no"/>gustini quam omnium aliorum, quod
+        <lb ed="#Bb"/>opus distinctionis ultra opus tertie diei
+        <lb ed="#Bb"/>non extenditur.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1313">
+                  <lb ed="#Bb"/>2. Adhuc, Si distinctio est ad locum :
+        <lb ed="#Bb"/>tunc videtur, quod non deberet sic 
+        in<lb ed="#Bb" break="no"/>cipere, Fiat lux: sed, Separetur vel
+        <lb ed="#Bb"/>distinguatur lux a tenebris.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1324">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>3. Adhuc, Secundum hoc queritur,
+        <lb ed="#Bb"/>Quare non dixit, Fiant tenebre : sicut
+        <lb ed="#Bb"/>dixit, Fiat lux ? Si enim dicitur, quod
+        <lb ed="#Bb"/>tenebre non sint nisi luminis absentia :
+        <lb ed="#Bb"/>et propter hoc non dixit, Fiant tenebre.
+        <lb ed="#Bb"/>Tunc etiam non debuit dicere : 
+        Appel<lb ed="#Bb" break="no"/>lavit tenebras Noctem: quia cum omne
+        <lb ed="#Bb"/>nomen imponatur a forma, quod formam
+        <lb ed="#Bb"/>propriam non habet qua ab aliis 
+        distin<lb ed="#Bb" break="no"/>guatur, nomen proprium habere non
+        <lb ed="#Bb"/>potest: ergo etiam nomen proprio 
+        appel<lb ed="#Bb" break="no"/>lari non debuit a Deo: et sic male 
+        dici<lb ed="#Bb" break="no"/>tur : Appellavit tenebras Noctem.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1357">
+                  <lb ed="#Bb"/>4, Adhuc, Si in causa distinxit lucem
+        <lb ed="#Bb"/>a tenebris, cum causa lucis non possit
+        <lb ed="#Bb"/>esse nisi luminosa natura ceeli in 
+        per<lb ed="#Bb" break="no"/>spicuo sive aere, tunc primo debuit 
+        di<lb ed="#Bb" break="no"/>xisse in opere creationis quando dixit:
+        <lb ed="#Bb"/>In principio creavit Deus celum et 
+        ter<lb ed="#Bb" break="no"/>ram ;: vidit Deus, quod esset bonum : et
+        <lb ed="#Bb"/>distinxit coelum a terra, et vocavit diem
+        <lb ed="#Bb"/>celum: et terram propter opacitatem
+        <lb ed="#Bb"/>que tenebras facit, vocavit noctem. Si
+        <lb ed="#Bb"/>autem in effectu distinxit : tunc qualitas
+        <lb ed="#Bb"/>aeris qui dicitur dies, presentia scilicet
+        <lb ed="#Bb"/>luminis, distincta esset a tenebris 
+        no<lb ed="#Bb" break="no"/>ctis : et hoc esse non potest, quia 
+        qua<lb ed="#Bb" break="no"/>litas per se distinguibilis non est, cum
+        <lb ed="#Bb"/>qualitas sit et accidens, et non feratur de
+        <lb ed="#Bb"/>loco ad locum nisi motu luminosi 
+        illu<lb ed="#Bb" break="no"/>minantis, a cujus oppositione directa
+        <lb ed="#Bb"/>super perspicuum generatur lux, ut in
+        <lb ed="#Bb"/>antehabitis dictum est. °
+      </p>
+               <p xml:id="Almn78-e18681-d1e1403">
+                  <lb ed="#Bb"/>3, Adhuc, Cum naturaliter ex 
+        positio<lb ed="#Bb" break="no"/>ne luminosi in circulo quo circumfertur,
+        <lb ed="#Bb"/>mane precedit vesperam, eo quod fit ex
+        <lb ed="#Bb"/>ortu luminosi, vespera autem ex occasu
+        <lb ed="#Bb"/>ejusdem, videretur convenientius dicere,
+        <lb ed="#Bb"/>Factum est mane et vespere, dies unus,
+        <lb ed="#Bb"/>quam e converso, Factum est vespere et
+        <lb ed="#Bb"/>mane, dies unus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1424">
+                  <lb ed="#Bb"/>6. Adhuc, Quare non dicit, Dies 
+        pri<lb ed="#Bb" break="no"/>mus, sicut dies unus, cum ordo sit in
+        <lb ed="#Bb"/>diebus ? \
+      </p>
+               <p xml:id="Almn78-e18681-d1e1433">
+                  <lb ed="#Bb"/>7. Adhuc, Secundum expositionem
+        <lb ed="#Bb"/>Augustini, quilucem exponit de cogni
+        <pb ed="#Bb" n="540"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>tione in Verbo angelice nature de 
+        crea<lb ed="#Bb" break="no"/>tura facienda, cum mane sit per 
+        visio<lb ed="#Bb" break="no"/>nem matutinam illustratio angelice 
+        natu<lb ed="#Bb" break="no"/>re de creatura fienda, et angelica natura
+        <lb ed="#Bb"/>intelligatur per ceelum informis que se
+        <lb ed="#Bb"/>faciendam in Verbo cognoscere non 
+        po<lb ed="#Bb" break="no"/>tuit antequam esset, prima dies mane
+        <lb ed="#Bb"/>habere non potuit, sed dies fuit cum se
+        <lb ed="#Bb"/>in lucem Verbi factam esse cognovit, et
+        <lb ed="#Bb"/>vespera fuit quando cognitionem suam
+        <lb ed="#Bb"/>ad seipsam retulit, eo quod omnis 
+        crea<lb ed="#Bb" break="no"/>tura ad seipsam relata declinat ad non
+        <lb ed="#Bb"/>esse, et sic ad tenebras, ut dicit 
+        Grego<lb ed="#Bb" break="no"/>rius. Et secundum hoc ita deberet 
+        di<lb ed="#Bb" break="no"/>cere : Facta est dies, que declinans ad
+        <lb ed="#Bb"/>vesperam, complevit diem unum.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1479">
+                  <lb ed="#Bb"/>8. Adhuc, Secundum alios Sanctos
+        <lb ed="#Bb"/>lux dicitur nubecula lucida 
+        rotatio<lb ed="#Bb" break="no"/>ne sua circa materiam confusam in
+        <lb ed="#Bb"/>extremo, que presentia sui illustravit
+        <lb ed="#Bb"/>eam, et gyratione ad inferius 
+        hemisphe<lb ed="#Bb" break="no"/>rium lumine subtracto paulatim 
+        decli<lb ed="#Bb" break="no"/>nans fecit vesperam, et in totum 
+        occum<lb ed="#Bb" break="no"/>bens fecit noctem, sicut dicit Magister in
+        <lb ed="#Bb"/>distinctione XJII libri secundi 
+        Sententia<lb ed="#Bb" break="no"/>rum, cap. Si autem queritur, ubi facta
+        <lb ed="#Bb"/>est lux illa? Dicit enim ibi, quod <quote xml:id="Almn78-e18681-Qd1e1505"> in
+          <lb ed="#Bb"/>eodem loco ubi nunc sol rotatur, 
+          rotaba<lb ed="#Bb" break="no"/>tur lux illa. </quote> Hoc enim videtur falsum
+        <lb ed="#Bb"/>et impossibile : lux enim illa non 
+        pote<lb ed="#Bb" break="no"/>rat rotari nisi in circulo distincto : 
+        circu<lb ed="#Bb" break="no"/>-lus autem distinctus ante quartum diem
+        <lb ed="#Bb"/>non fuit : ergo prima, secunda, et tertia
+        <lb ed="#Bb"/>die nubecula illa luminosa rotari non
+        <lb ed="#Bb"/>potuit rotatione : ergo mane et 
+        vespe<lb ed="#Bb" break="no"/>ram et diem et noctem facere non 
+        po<lb ed="#Bb" break="no"/>tuit.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1530">
+                  <lb ed="#Bb"/>9. Si forte dicatur, sicut dicit 
+        Dama<lb ed="#Bb" break="no"/>scenus ‘, quod <quote xml:id="Almn78-e18681-Qd1e1536"> lux illa contractione et
+          <lb ed="#Bb"/>emissione radiorum tunc fecit diem et
+          <lb ed="#Bb"/>noctem. </quote> Tunc videtur hoc esse 
+        impos<lb ed="#Bb" break="no"/>sibile : lux enim per necessitatem 
+        illu<lb ed="#Bb" break="no"/>minat perspicuum sibi suppositum, et
+        <lb ed="#Bb"/>sic de necessitate dies tantum esset in
+        <lb ed="#Bb"/>uno loco, et similiter mane, et vespera,
+        <lb ed="#Bb"/>et nox : et motu luminosi hic non 
+        dis<lb ed="#Bb" break="no"/>tinguerentur ad diversa loca : quod est
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>contra Basilium et Ambrosium in 
+        Hera<lb ed="#Bb" break="no"/>meron, et Augustinum, et Bedam, et
+        <lb ed="#Bb"/>omnes sanctos, qui concorditer tradunt,
+        <lb ed="#Bb"/>quod non nisi ratione luminosi 
+        distin<lb ed="#Bb" break="no"/>guitur dies, et nox, mane et vespera.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1570">
+                  <lb ed="#Bb"/>Apuuc gueritur de luce illa, Utrum in
+        <lb ed="#Bb"/>illuminando fuit perfectior sole, vel 
+        mi<lb ed="#Bb" break="no"/>nus perfecta ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1579">
+                  <lb ed="#Bb"/>Et videtur, quod perfectior : quia
+        <lb ed="#Bb"/>1. Ista dicta est/ux: lux autem per
+        <lb ed="#Bb"/>essentiam est perfectior in illuminando,
+        <lb ed="#Bb"/>quam Juminosum quod participat 
+        lu<lb ed="#Bb" break="no"/>cem : cum ergo sol luminosum sit 
+        parti<lb ed="#Bb" break="no"/>cipans lucem, videtur quod lux 
+        perfe<lb ed="#Bb" break="no"/>ctior fuerit in illuminando quam sol.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1598">
+                  <lb ed="#Bb"/>2. Adhuc, Ex ipsa virtute verborum
+        <lb ed="#Bb"/>intelligitur, quod illa lux est opus 
+        divi<lb ed="#Bb" break="no"/>num immediate a Deo factum. Dicitur
+        <lb ed="#Bb"/>enim sic: Dixit Deus: Fiat luz. Et
+        <lb ed="#Bb"/>dicitur in cantico Deuteronomii, xxxu,
+        <lb ed="#Bb"/>4 et 5: Date magnificentiam Deo 
+        no<lb ed="#Bb" break="no"/>stro. Dei perfecta sunt opera. Videtur
+        <lb ed="#Bb"/>ergo, quod lux illa perfectior fuerit ad
+        <lb ed="#Bb"/>illuminandum, quam sol. Sed tunc 
+        lo<lb ed="#Bb" break="no"/>cum habet questio Magistri quam facit
+        <lb ed="#Bb"/>in libro IL Sententiarum, distinctione
+        <lb ed="#Bb"/>XII, cap. Soleé queri, scilicet si lux
+        <lb ed="#Bb"/>illa sufficiebat, ad quid necesse fuit fieri
+        <lb ed="#Bb"/>solem, lunam, et stellas ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1631">
+                  <lb ed="#Bb"/>Apuve ulterius queritur, Quid factum
+        <lb ed="#Bb"/>sit ex luce illa, facto jam sole?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1638">
+                  <lb ed="#Bb"/>1. Si dicitur, quod coadunata est in
+        <lb ed="#Bb"/>corpus solis, lune, et stellarum : hoc erit
+        <lb ed="#Bb"/>contra philosophiam : quia secundum
+        <lb ed="#Bb"/>hoc sol, luna, et stelle essent ex materia
+        <lb ed="#Bb"/>una communi: et quecumque sunt ex
+        <lb ed="#Bb"/>materia una communi, transmutabilia
+        <lb ed="#Bb"/>sunt ad invicem: et secundum hoc sol
+        <lb ed="#Bb"/>transmutaretur in lunam et stellas, et é
+        <lb ed="#Bb"/>converso : quod omnino impossibile
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1662">
+                  <lb ed="#Bb"/>2. Si autem diceretur quod quidam 
+        di<lb ed="#Bb" break="no"/>cunt, quod hee lux diffusa est in circulos
+        <lb ed="#Bb"/>solis circa solem: hoc falsum expresse
+        <lb ed="#Bb"/>videtur : quia cum coadunata et inspis
+        <pb ed="#Bb" n="541"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>sata sit lux ojus, in distantia duodecim
+        <lb ed="#Bb"/>graduum asole, non tegeretur, sed 
+        ap<lb ed="#Bb" break="no"/>pareret : et videretur lux ejus ante solem
+        <lb ed="#Bb"/>et post solem, sicut videtur lux lune et
+        <lb ed="#Bb"/>stellarum et ante solem, et post solent,
+      </p>
+               <p xml:id="Almn78-e18681-d1e1688">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod tres 
+        distin<lb ed="#Bb" break="no"/>ctiones Moyses ibi determinat. Prima est
+        <lb ed="#Bb"/>extremorum ab invicem: et hac est 
+        lu<lb ed="#Bb" break="no"/>minosi ab opaco, ita quod luminosum
+        <lb ed="#Bb"/>claritate sua fiat lux: opacum autem quod
+        <lb ed="#Bb"/>est ex parte terre, fiat tenebre per 
+        obje<lb ed="#Bb" break="no"/>ctionem sui ad lucem, et habeat lucem
+        <lb ed="#Bb"/>per ipsam illustrationem quam facit in
+        <lb ed="#Bb"/>superiori hemispherio, qua omnes res
+        <lb ed="#Bb"/>fiunt visibiles et terminate et pervie :
+        <lb ed="#Bb"/>terminatas enim facit secundum actum
+        <lb ed="#Bb"/>visibiles in pulchritudine coloris, cujus
+        <lb ed="#Bb"/>esse formale in superficie terminati 
+        cor<lb ed="#Bb" break="no"/>poris (ut dicit Aristoteles in lib. de 
+        Colo<lb ed="#Bb" break="no"/>ribus) non est nisi diffusio luminis sive
+        <lb ed="#Bb"/>lucis qua demonstrantur et venustantur
+        <lb ed="#Bb"/>omnia. Et dicit Glossa super illud 
+        Ge<lb ed="#Bb" break="no"/>nes. 1,3: Fiat lux. <quote xml:id="Almn78-e18681-Qd1e1729"> Congrue mundi
+          <lb ed="#Bb"/>ornatus a lumine ccepit : unde et cetera
+          <lb ed="#Bb"/>que creanda erant, viderentur. </quote> Et hee
+        <lb ed="#Bb"/>Glossa ponitur in libro I Senfentiarum,
+        <lb ed="#Bb"/>distinct. XIII, cap. A, ibi, Prima autem
+        <lb ed="#Bb"/>distinetionis operatio*.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1743">
+                  <lb ed="#Bb"/>Et quod dicitur, quod vocavit hance
+        <lb ed="#Bb"/>lucem Diem, non est aliud, nisi quod
+        <lb ed="#Bb"/>dedit ei formam talem, unde congrue sic
+        <lb ed="#Bb"/>vocaretur. Dedit autem determinationem
+        <lb ed="#Bb"/>verbi eterni et sapientie ad hance 
+        for<lb ed="#Bb" break="no"/>mam, quando creaturas distinxit, Et per
+        <lb ed="#Bb"/>privationem hujus forme opacum 
+        voca<lb ed="#Bb" break="no"/>vit tenebras : tenebra enim dicuntur a
+        <lb ed="#Bb"/>tenendo : quia tenent lucem ne aliquid
+        <lb ed="#Bb"/>illustret, quod est post opacum quando
+        <lb ed="#Bb"/>luci opponitur. Easdem vocavit Noclem
+        <lb ed="#Bb"/>ab hac eadem privatione forme. Nox
+        <lb ed="#Bb"/>enim a nocendo dicitur : nocet enim 
+        im<lb ed="#Bb" break="no"/>pediendo lumen vivificum superioris 
+        cor<lb ed="#Bb" break="no"/>poris, ne vivificet inferiora generabilia et
+        <lb ed="#Bb"/>corruptibilia, et ne venustentur 
+        illustra<lb ed="#Bb" break="no"/>tione superiorum. Aliv enim nomine pro
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>pter tale nocumentum vocari non 
+        pos<lb ed="#Bb" break="no"/>sunt. Et sic sunt distincta extrema ab
+        <lb ed="#Bb"/>invicem : superius scilicet generale 
+        prin<lb ed="#Bb" break="no"/>cipium, hoc est, celeste quod 
+        universali<lb ed="#Bb" break="no"/>ter lumine suo movens est : et infimum
+        <lb ed="#Bb"/>opacum, scilicet quod in loco 
+        generatio<lb ed="#Bb" break="no"/>nis est, hoc est, in centro quod 
+        universa<lb ed="#Bb" break="no"/>liter a luminoso motum est.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1803">
+                  <lb ed="#Bb"/>Ad primum ergo quod queritur ? Utrum
+        <lb ed="#Bb"/>fiat distinctio ad formam vel ad locum ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e1810">
+                  <lb ed="#Bb"/>Dicendum, quod ad utrumque. Dicit
+        <lb ed="#Bb"/>enim Aristoteles in VIII Physicorum,
+        <lb ed="#Bb"/>quod ab eodem generante idem est motus,
+        <lb ed="#Bb"/>ad formam et ad locum : dando enim 
+        for<lb ed="#Bb" break="no"/>mam secundum naturam, dat omne
+        <lb ed="#Bb"/>quod consequitur formam generaliter : et
+        <lb ed="#Bb"/>hec sunt motus et locus. Unde creator
+        <lb ed="#Bb"/>quando ceelesti nature dedit formam 
+        lu<lb ed="#Bb" break="no"/>minosi, et terrestri nature dedit formam
+        <lb ed="#Bb"/>opaci, distinguendo ea in diversas 
+        for<lb ed="#Bb" break="no"/>mas, eo ipso dedit eis motus ad diversa
+        <lb ed="#Bb"/>loca in quibus salvarentur. Locus enim,
+        <lb ed="#Bb"/>ut dicit Aristoteles in IV Physicorum,
+        <lb ed="#Bb"/>salvativus est locati. Et per hoc distinxit,
+        <lb ed="#Bb"/>quia per hoc luminosum in extremitate
+        <lb ed="#Bb"/>circumferentiz mundialis machine 
+        cir<lb ed="#Bb" break="no"/>cumire fecit, ut undique lumen 
+        infunde<lb ed="#Bb" break="no"/>ret. Et quia non est relatio ad 
+        circumfe<lb ed="#Bb" break="no"/>rentiam equalis nisi centri, per hoe
+        <lb ed="#Bb"/>ipsum luminosum ad locum supremum
+        <lb ed="#Bb"/>distinxit, et opacum quod undique 
+        move<lb ed="#Bb" break="no"/>tur a lumine, determinavit ad imum, hoc
+        <lb ed="#Bb"/>est ad medium: hoc enim reflexione 
+        ra<lb ed="#Bb" break="no"/>diorum luminosi calorem vivificum 
+        exci<lb ed="#Bb" break="no"/>tat, per quem ex humido et terreno 
+        ele<lb ed="#Bb" break="no"/>mento forme producantur generabilium
+        <lb ed="#Bb"/>et corruptibilium ; et sic dividitur lux a
+        <lb ed="#Bb"/>tenebris primo in causa, et communiter
+        <lb ed="#Bb"/>in effectu.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1875">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod utrumque
+        <lb ed="#Bb"/>dici poterat : quia unum fit per alterum,
+        <lb ed="#Bb"/>et ideo primo dixit, Fiat : et postea 
+        divi<lb ed="#Bb" break="no"/>sit lucem a tenebris. Dicendo enim, fiat,
+        <lb ed="#Bb"/>attribuit ipsum ad formam : dicendo, 
+        Di<lb ed="#Bb" break="no"/>visit, attribuit ei motum per quem ad
+        <lb ed="#Bb"/>diversa loca tenderet in quibus salvare
+        <pb ed="#Bb" n="542"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>tur, et proprios actus ageret, et propriis
+        <lb ed="#Bb"/>passionibus pateretur.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1901">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod tenebre non
+        <lb ed="#Bb"/>sunt nisi privatio et defectus : et ideo non
+        <lb ed="#Bb"/>fiunt per aliquod opus artificis, sed ipsa
+        <lb ed="#Bb"/>carentia lucis tenebre sunt: et ideo non
+        <lb ed="#Bb"/>potuit dicere : Fiant tenebre : sed nomen
+        <lb ed="#Bb"/>accipiunt ab ipsa privatione lucis, sicut
+        <lb ed="#Bb"/>omnis privatio ab habitu denominatur et
+        <lb ed="#Bb"/>diffinitur.
+      </p>
+               <p xml:id="Almn78-e18681-d1e1921">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod in causa 
+        di<lb ed="#Bb" break="no"/>stinxit, et in effectu consequenter: sed
+        <lb ed="#Bb"/>ceelum secundum substantiam non est
+        <lb ed="#Bb"/>causa diei, sed potius secundum formam
+        <lb ed="#Bb"/>lucis : et ideo in creatione, cum creatio
+        <lb ed="#Bb"/>sit actus conditoris producentis 
+        substan<lb ed="#Bb" break="no"/>tias principiorum, nulla potuit importari
+        <lb ed="#Bb"/>distinctio : et ideo inconvenienter 
+        dixis<lb ed="#Bb" break="no"/>set, Divisit coelum a terra, et vocavit 
+        cce<lb ed="#Bb" break="no"/>lum diem, et terram noctem : sed 
+        opor<lb ed="#Bb" break="no"/>tuit ante celum vestiri luce, et per
+        <lb ed="#Bb"/>oppositum terram vestiri opacitate, ut
+        <lb ed="#Bb"/>per has duas formas essent cause diei et
+        <lb ed="#Bb"/>noctis : et ideo oportuit dicere in opere
+        <lb ed="#Bb"/>distinctionis : Fiat lux, et, Divisit Deus
+        <lb ed="#Bb"/>lucem a tenebris. :
+      </p>
+               <p xml:id="Almn78-e18681-d1e1958">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod naturalis
+        <lb ed="#Bb"/>motus lucis a summo ceeli est, sive ab
+        <lb ed="#Bb"/>angulo medii cceli, sicut in Psalmo
+        <lb ed="#Bb"/>xvin, 7, dicitur de ceelo : A summo celo
+        <lb ed="#Bb"/>egressio ejus. Et occursus ejus usque ad
+        <lb ed="#Bb"/>summum ejus. Et propter hoc etiam dies
+        <lb ed="#Bb"/>in astronomia incipit et meridie. Cujus
+        <lb ed="#Bb"/>causam reddunt sapientes astrorum :
+        <lb ed="#Bb"/>quia semicirculus qui est ab angulo ceeli
+        <lb ed="#Bb"/>medio usque ad angulum mediz terre
+        <lb ed="#Bb"/>per Occidentem, semper est equalis 
+        se<lb ed="#Bb" break="no"/>micirculo qui est ab angulo medie terre
+        <lb ed="#Bb"/>per Orientem in medium celi, et 
+        secun<lb ed="#Bb" break="no"/>dum equalitatem partium circuli 
+        natura<lb ed="#Bb" break="no"/>lis motus est lucis. Semicirculi autem,
+        <lb ed="#Bb"/>quorum unus est ab Oriente in 
+        Occiden<lb ed="#Bb" break="no"/>tem, et alter ab Occidente in Orientem
+        <lb ed="#Bb"/>numquam sunt equales nisi in 
+        equino<lb ed="#Bb" break="no"/>ctio. Et ideo secundum naturam motus
+        <lb ed="#Bb"/>quando declinat a meridie in die natura
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>li vespera est ante mane. Et ut innuat
+        <lb ed="#Bb"/>hune naturalem motum et ordinem, 
+        di<lb ed="#Bb" break="no"/>xit : Factum est vespere et mane, potius
+        <lb ed="#Bb"/>quam e converso, Factum est mane et
+        <lb ed="#Bb"/>vespere.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2018">
+                  <lb ed="#Bb"/>Quidam tamen assignant de hoc aliam
+        <lb ed="#Bb"/>rationem et bonam. Et videtur esse a
+        <lb ed="#Bb"/>verbis Dionysii accepta in libro de 
+        Divi<lb ed="#Bb" break="no"/>nis nominibus +, ubi in idem determinat
+        <lb ed="#Bb"/>bonum et lumen, dicens quod lumen 
+        il<lb ed="#Bb" break="no"/>lud de quo dicitur in Genesi : Fiat 
+        lu<lb ed="#Bb" break="no"/>men (sic enim habet alia translatio) idem
+        <lb ed="#Bb"/>est quod bonum. Bonum dicitur a Boiw-a,
+        <lb ed="#Bb"/>hoc est, voco, vocas : quia vocat ea que
+        <lb ed="#Bb"/>non sunt, tamquam ea que sunt *. Unde
+        <lb ed="#Bb"/>quia tunc ex non esse sicut ex abysso 
+        te<lb ed="#Bb" break="no"/>nebrarum res creatas vocavit ad esse 
+        sic<lb ed="#Bb" break="no"/>ut ad lumen, processit quasi a vespera,
+        <lb ed="#Bb"/>que cadit in tenebras, ad mane, hoc est,
+        <lb ed="#Bb"/>ad lumen creaturarum productarum in
+        <lb ed="#Bb"/>esse ad lucem. Et ut hunc ordinem 
+        de<lb ed="#Bb" break="no"/>signet, potius dicit: Factum est vespere
+        <lb ed="#Bb"/>et mane, quam factum est mane et 
+        ve<lb ed="#Bb" break="no"/>spere. Et hee ratio confirmatur, IT ad
+        <lb ed="#Bb"/>Corinth. iv, 6, ubi dicit Apostolus :
+        <lb ed="#Bb"/>Deus, qui dixit de tenebris lumen 
+        splen<lb ed="#Bb" break="no"/>descere, ipse tlluxit in cordibus nostris,
+        <lb ed="#Bb"/>ad illuminationem secientie claritatis
+        <lb ed="#Bb"/>Dei, in facie Christi Jesu. Secundum
+        <lb ed="#Bb"/>hoc enim lux est ex tenebris secundum
+        <lb ed="#Bb"/>ordinem. Inferius tamen in loco proprio:
+        <lb ed="#Bb"/>plures ordines et plures rationes de hoc
+        <lb ed="#Bb"/>assignabimus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2081">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod primus 
+        no<lb ed="#Bb" break="no"/>men ordinabile est, ut dicit Priscianus,
+        <lb ed="#Bb"/>et non ita dicit distinctionem et 
+        discre<lb ed="#Bb" break="no"/>tionem sicut wnus. Et ideo quia hic 
+        lo<lb ed="#Bb" break="no"/>quitur de distinctione et discretione 
+        re<lb ed="#Bb" break="no"/>rum, melius dicit, dies unus, quam dies
+        <lb ed="#Bb"/>primus. In sequentibus autem ubi tangit
+        <lb ed="#Bb"/>ordinem sequentium ad pracedens, ibi
+        <lb ed="#Bb"/>dicitur convenientius dies secundus, et
+        <lb ed="#Bb"/>dies tertius.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2105">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod secundum
+        <lb ed="#Bb"/>illam expositionem Augustini, matutina
+        <lb ed="#Bb"/>cognitio est ante vespertinam : sed secun
+        <pb ed="#Bb" n="543"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>dum productionem Angeli in esse et 
+        lu<lb ed="#Bb" break="no"/>minis de abysso tenebrarum, ut dictum
+        <lb ed="#Bb"/>est, vespera est ante mane : et illam 
+        pro<lb ed="#Bb" break="no"/>sequitur ordo hitter Genesis.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2127">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod circulus in
+        <lb ed="#Bb"/>quo rotabatur nubecula illa, non fuit 
+        cir<lb ed="#Bb" break="no"/>culus deferens, sicut sunt circuli 
+        defe<lb ed="#Bb" break="no"/>rentes solem et alios planetas: sed fuit
+        <lb ed="#Bb"/>circulus quem motu suo descripsil 
+        nube<lb ed="#Bb" break="no"/>cula circa materiam confusam, que ab
+        <lb ed="#Bb"/>Astronomis dicitur circulus 
+        imaginati<lb ed="#Bb" break="no"/>vus, et est similis ei qui in astronomia
+        <lb ed="#Bb"/>dicitur eguans motum, eo quod equales
+        <lb ed="#Bb"/>partes describit super centrum in 
+        tempo<lb ed="#Bb" break="no"/>ribus equalibus : quod non facit 
+        defe<lb ed="#Bb" break="no"/>rens. Circuli autem deferentes facti sunt
+        <lb ed="#Bb"/>quarta die : et ideo non valet objectio.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2158">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Damascenus
+        <lb ed="#Bb"/>ibi vocat emissionem et contractionem,
+        <lb ed="#Bb"/>illuminationem generatam ab oppositione
+        <lb ed="#Bb"/>luminosi directa, vel privationem hujus
+        <lb ed="#Bb"/>illuminationis : sed non negat, quin hac
+        <lb ed="#Bb"/>illuminatio in diversis locis fiat per 
+        mo<lb ed="#Bb" break="no"/>tum luminosi in circulo, ut dictum est.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2176">
+                  <lb ed="#Bb"/>Ad hoc quod queritur, Utrum lux
+        <lb ed="#Bb"/>perfectior fuerit quam sol, vel non in 
+        il<lb ed="#Bb" break="no"/>luminando ?
+      </p>
+               <p xml:id="Almn78-e18681-d1e2186">
+                  <lb ed="#Bb"/>Dicendum absque dubio sicut et 
+        Magi<lb ed="#Bb" break="no"/>ster dicit, quod sol multo perfectior fuit.
+        <lb ed="#Bb"/>Et hoc innuunt Sancti quod vocant eam
+        <lb ed="#Bb"/>nubeculam, eo quod materialiter fuit
+        <lb ed="#Bb"/>pars ilius materiz confuse, que 
+        vapo<lb ed="#Bb" break="no"/>rabiliter circa terram fuit oppansa, in
+        <lb ed="#Bb"/>qua Deus fecit oriri lucem, et rotari circa
+        <lb ed="#Bb"/>materiam confusam ad illuminationem
+        <lb ed="#Bb"/>ejus, ut ipsa luce partes ejus moverentur
+        <lb ed="#Bb"/>ad formas rerum distinctarum.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2210">
+                  <lb ed="#Bb"/>Ad argumentum dicendum, quod 
+        nu<lb ed="#Bb" break="no"/>becula illa non fuit per essentiam lux :
+        <lb ed="#Bb"/>sed lux quam dixit Deus fieri, fait forma
+        <lb ed="#Bb"/>ejus, sicut lux etiam est forma solis.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2221">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod sol et lux
+        <lb ed="#Bb"/>illa opus Dei sunt : et utrumque 
+        perfe<lb ed="#Bb" break="no"/>ctum in suo genere, lux ad iflustrationem
+        <lb ed="#Bb"/>extremitatis materie, sol ad 
+        distinguen<lb ed="#Bb" break="no"/>dum diem et noctem, et inflUuendum lu
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>men vivificum ad formam et speciem
+        <lb ed="#Bb"/>generabilium et corruptibilium : propter
+        <lb ed="#Bb"/>quod etiam a sapientibus astrorum 
+        vo<lb ed="#Bb" break="no"/>catur dalor vite : sicut videmus, quod
+        <lb ed="#Bb"/>accedente sole cuncta virent, et 
+        receden<lb ed="#Bb" break="no"/>te arescunt.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2250">
+                  <lb ed="#Bb"/>Et quod quidam dicunt, quod circulus
+        <lb ed="#Bb"/>lucis perfectior est ad conservandum in
+        <lb ed="#Bb"/>esse, eo quod esse uniforme est sicut 
+        cir<lb ed="#Bb" break="no"/>culus, sol autem perfectior est ad 
+        pro<lb ed="#Bb" break="no"/>vocandum in specie et forma distincta,
+        <lb ed="#Bb"/>nihil penitus valet et falsum est : lumen
+        <lb ed="#Bb"/>enim solis per gradum in quo est, facit
+        <lb ed="#Bb"/>speciem et formam, et per relationes ad
+        <lb ed="#Bb"/>alios circulos duodecim signorum que
+        <lb ed="#Bb"/>domus vocantur in astrononia, facit 
+        con<lb ed="#Bb" break="no"/>servationem esse per totam periodum rei
+        <lb ed="#Bb"/>generate.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2279">
+                  <lb ed="#Bb"/>Et ad questionem Magistri dicendum,
+        <lb ed="#Bb"/>quod et ipse dicit, quod licet lux illa
+        <lb ed="#Bb"/>sufficere ad illustrationem vaporabilis
+        <lb ed="#Bb"/>materie, que partes materie moveret et
+        <lb ed="#Bb"/>disgregaret, et per oppositum secundum
+        <lb ed="#Bb"/>opacum adunaret: tamen ad perfectam
+        <lb ed="#Bb"/>claritatem diei et ad perfectam 
+        adunatio<lb ed="#Bb" break="no"/>nem ex frigore noctis ut perficeretur in
+        <lb ed="#Bb"/>partibus materiz motus ad formam, non
+        <lb ed="#Bb"/>suflicit : et ideo oportuit fieri solem et
+        <lb ed="#Bb"/>lunam et stellas, quorum motibus hoc
+        <lb ed="#Bb"/>perficeretur : hoc enim motibus 
+        planeta<lb ed="#Bb" break="no"/>rum in cireulo obliquo perficitur.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2310">
+                  <lb ed="#Bb"/>Ad aliud quod ulterius queritur, di-
+        <lb ed="#Bb" break="no"/>cendum quod ad hoc nihil probabilius
+        <lb ed="#Bb"/>respondetur, quam quod dicit Magister,
+        <lb ed="#Bb"/>scilicet quod ex ea factum sit corpus 
+        so<lb ed="#Bb" break="no"/>lis et lune et stellarum, secundum 
+        di<lb ed="#Bb" break="no"/>versas partes ejus.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2327">
+                  <lb ed="#Bb"/>Ad objectum in contrarium, dicendum
+        <lb ed="#Bb"/>quod quando dicit Philosophus, quod
+        <lb ed="#Bb"/>quorum est materia una, transmutantur
+        <lb ed="#Bb"/>ad invicem, intelligitur materia una, que
+        <lb ed="#Bb"/>unam habet analogiam potentie ad
+        <lb ed="#Bb"/>actum, sicut in principio hujus libri in
+        <lb ed="#Bb"/>primo tractatu, questione de materia,
+        <lb ed="#Bb"/>ostensum est‘: et non intelligitur de
+        <lb ed="#Bb"/>substantia materia una universali, de
+        <pb ed="#Bb" n="544"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>qua dicimus, quod omnium corporalium
+        <lb ed="#Bb"/>in principio creationis mundi fuit 
+        mate<lb ed="#Bb" break="no"/>ria una : hee enim non est una per 
+        ana<lb ed="#Bb" break="no"/>logiam, sed una per substantiam tantum,
+        <lb ed="#Bb"/>ut dicit Gregorius super illud 
+        Ecclesia<lb ed="#Bb" break="no"/>sticl, xvi, 1 : Qué vivit in eternum, 
+        cre<lb ed="#Bb" break="no"/>avit omnia simul. Quod simul est per
+        <lb ed="#Bb"/>substantiam materie, non simul esse
+        <lb ed="#Bb"/>potest per distinctionem forma.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2373">
+                  <lb ed="#Bb"/>Ad ultimum dicendum, quod dictum
+        <lb ed="#Bb"/>illad nihil valet, et bene est improbatum.
+      </p>
+            </div>
+            <div xml:id="Almn78-e18681-Dd1e2381">
+               <head xml:id="Almn78-e18681-Hd1e2383">Membrum 3</head>
+               <head xml:id="Almn78-e18681-Hd1e2386" type="question-title">
+        Quomodo factum est vespere et mane
+        dies unus, et non mane et vespere?
+        secundum hoc enim prime dies non
+        habuit mane.
+      </head>
+               <p xml:id="Almn78-e18681-d1e2389">
+                  <lb ed="#Bb"/>MEMBRUM III.
+        <lb ed="#Bb"/>Quomodo factum est vespere et mane
+        <lb ed="#Bb"/>dies unus, et non mane et vespere?
+        <lb ed="#Bb"/>secundum hoc enim prime dies non
+        <lb ed="#Bb"/>habuit mane.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2402">
+                  <lb ed="#Bb"/>Deine queritur, Quomodo factum esl
+        <lb ed="#Bb"/>vespere et mane diés unus, et non mane
+        <lb ed="#Bb"/>et vespere ? secundum hoc enim prima
+        <lb ed="#Bb"/>dies non habuit mane.
+      </p>
+               <p xml:id="Almn78-e18681-d1e2413">
+                  <lb ed="#Bb"/>Ratione cujus juxta quod Magister
+        <lb ed="#Bb"/>proponit, tria queruntur.
+        <lb ed="#Bb"/>Primum, De hoc quod dies tribus 
+        mo<lb ed="#Bb" break="no"/>dies accipitur.
+        <lb ed="#Bb"/>Secundum, De eo quod Magister ponit
+        <lb ed="#Bb"/>tres distinctiones vespere et mane.
+        <lb ed="#Bb"/>Tertium, Quod illa que dicuntur in
+        <lb ed="#Bb"/>Genesi, litteraliter accipienda sunt, et non
+        <lb ed="#Bb"/>per allegoriam.
+      </p>
+               <div xml:id="Almn78-e18681-Dd1e2436">
+                  <head xml:id="Almn78-e18681-Hd1e2438">Articulus 1</head>
+                  <head xml:id="Almn78-e18681-Hd1e2441" type="question-title">
+          De hoc quod dies tribus modis accipitur.
+        </head>
+                  <p xml:id="Almn78-e18681-d1e2444">
+                     <lb ed="#Bb"/>MEMBRI TERTII
+          <lb ed="#Bb"/>ARTICULUS I,
+          <lb ed="#Bb"/>De hoc quod dies tribus modis accipitur.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2453">
+                     <lb ed="#Bb"/>Primo ergo queritur de hoc quod
+          <lb ed="#Bb"/>dicitur in libro I Sententiarum, distinct.
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>XIII, cap. Hic notandum est, quod dies
+          <lb ed="#Bb"/>diversis modis accipitur in Scriptura ®.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2466">
+                     <lb ed="#Bb"/>Et assignat tres modos, scilicet quod
+          <lb ed="#Bb"/>dies dicitur spatium viginti quatuor
+          <lb ed="#Bb"/>horarum. Et secundo modo, dies dicitur
+          <lb ed="#Bb"/>illustratio quam nubecula fecit in primis
+          <lb ed="#Bb"/>tribus diebus illustratione sua super
+          <lb ed="#Bb"/>hemispherium. Et tertio modo, dicitur
+          <lb ed="#Bb"/>dies sol lucens super terram.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2485">
+                     <lb ed="#Bb"/>Videtur autem, quod primus modus
+          <lb ed="#Bb"/>non sit separatus a secundo et tertio:
+          <lb ed="#Bb"/>quia sive nubecula rotetur circa 
+          hemi<lb ed="#Bb" break="no"/>spherium, sive sol ab Oriente in 
+          Orien<lb ed="#Bb" break="no"/>tem non redit nisi spatio viginti quatuor
+          <lb ed="#Bb"/>horarum equalium. Dividitur enim 
+          cir<lb ed="#Bb" break="no"/>culus in trecentos sexaginta gradus, de
+          <lb ed="#Bb"/>quibus nonaginta sunt ab Oriente in
+          <lb ed="#Bb"/>medium ceeli, nonaginta a medio ceeli in
+          <lb ed="#Bb"/>Occidentem, nonaginta ab Occidente in
+          <lb ed="#Bb"/>medium terre, nonaginta a medio terre
+          <lb ed="#Bb"/>usque ad Orientem: qui si dividantur
+          <lb ed="#Bb"/>per quindecim, erunt viginti quatuor
+          <lb ed="#Bb"/>vicibus quindecim: quindecim autem
+          <lb ed="#Bb"/>gradus motus sunt unius hore : et sic
+          <lb ed="#Bb"/>in toto circulo erunt viginti quatuor,
+          <lb ed="#Bb"/>que sunt spatium motus sive nubecule
+          <lb ed="#Bb"/>sive solis per trecentos sexaginta 
+          gra<lb ed="#Bb" break="no"/>dus.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2529">
+                     <lb ed="#Bb"/>Solutio. Magister non distinguit dies
+          <lb ed="#Bb"/>per spatium, sed per causam: et ideo
+          <lb ed="#Bb"/>si causa longitudinis diei accipiatur,
+          <lb ed="#Bb"/>spatium circuli erit causa longitudinis
+          <lb ed="#Bb"/>diei : et sic dicitur dies primo modo. Si
+          <lb ed="#Bb"/>autem accipiatur causa efficiens diei :
+          <lb ed="#Bb"/>tunc ante perfectionem solis, lune, et
+          <lb ed="#Bb"/>stellarum, non poterat esse causa diei,
+          <lb ed="#Bb"/>nisi illustratio et rotatio lucis, quam
+          <lb ed="#Bb"/>fecit Deus quando dixit : Fiat lux. Et sic
+          <lb ed="#Bb"/>dicitur dies secundo modo. Facto autem
+          <lb ed="#Bb"/>sole, causa diei est sol lucens super
+          <lb ed="#Bb"/>terram : et sic dicitur dies tertio modo.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2560">
+                     <lb ed="#Bb"/>Et hec est ratio dicti Magistri.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2565">
+                     <lb ed="#Bb"/>St autem queritur sicut dicit Beda:
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-e18681-Qd1e2571">Opus Dei a luce inchoat et in lucem
+            <pb ed="#Bb" n="545"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb"/>terminatur : et Deus in prima hora 
+            cuju<lb ed="#Bb" break="no"/>slibet diei fecit opus illius diei, et non
+            <lb ed="#Bb"/>fecit successive, sed in momento eo
+            <lb ed="#Bb"/>quod ipse est potentissimus et 
+            perfectis<lb ed="#Bb" break="no"/>smus opifex: </quote> quid ergo fecit in 
+          resi<lb ed="#Bb" break="no"/>duo spatio viginti quatuor horarum ?
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2592">
+                     <lb ed="#Bb"/>1. Si enim quievit : tune non tantum
+          <lb ed="#Bb"/>quievit in die seplimo, quod falsum est,
+          <lb ed="#Bb"/>et contra Scripturam. Si non quievit :
+          <lb ed="#Bb"/>tunc opus sequentis diei non inchoavit
+          <lb ed="#Bb"/>in precedenti die, quod est contra
+          <lb ed="#Bb"/>Scripturam, que dislinguit opera sex
+          <lb ed="#Bb"/>dierum secundum sex dies. Non potest
+          <lb ed="#Bb"/>dici, quod otiosus fuerit: quia bonitas
+          <lb ed="#Bb"/>Dei numquam otiosa est, ut dicit 
+          Augu<lb ed="#Bb" break="no"/>stinus. Dicit enim Gregorius de 
+          chari<lb ed="#Bb" break="no"/>tate: <quote xml:id="Almn78-e18681-Qd1e2618"> Charilas enim Dei numquam 
+            otio<lb ed="#Bb" break="no"/>sa est : operatur enim magna si est: si
+            <lb ed="#Bb"/>vero desinit operari, charitas non est. </quote>
+                     <lb ed="#Bb"/>Et si hoc dicilur de charitate hominis,
+          <lb ed="#Bb"/>multo fortius dicetur de charitate Dei.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2630">
+                     <lb ed="#Bb"/>2. Adhuc, Dionysius in libro de 
+          Divi<lb ed="#Bb" break="no"/>nis nominibus ' : <quote xml:id="Almn78-e18681-Qd1e2636"> Est autem et exstasim
+            <lb ed="#Bb"/>faciens divinus amor, hoc est, extra 
+            po<lb ed="#Bb" break="no"/>sitionem sui. </quote> Unde dicit, quod amorsuus
+          <lb ed="#Bb"/>non permiltebat eum in seipso manere
+          <lb ed="#Bb"/>solum, sed per creationem omnibus
+          <lb ed="#Bb"/>bonum suum communicare. Et hoc idem
+          <lb ed="#Bb"/>dicit Plato in 7imeo, quod <quote xml:id="Almn78-e18681-Qd1e2652"> numquam
+            <lb ed="#Bb"/>negavit commoda et-utilia ad esse. </quote>
+                  </p>
+                  <p xml:id="Almn78-e18681-d1e2659">
+                     <lb ed="#Bb"/>Sonurio. Dicendum, quod re vera
+          <lb ed="#Bb"/>sicut dicit Beda, in primo articulo diei
+          <lb ed="#Bb"/>fecit opus cujuslibet diei: nec illo die
+          <lb ed="#Bb"/>inchoavit opus alterius diei, sed ipsum
+          <lb ed="#Bb"/>opus sic factum in virtutibus et principiis
+          <lb ed="#Bb"/>esse sui, ad esse perfectum explicabatur
+          <lb ed="#Bb"/>in residuo spatio diei illius. Non enim ad
+          <lb ed="#Bb"/>esse perfectum rei sufficit factio simplex :
+          <lb ed="#Bb"/>sed ut perfecte stet in esse et potenter,
+          <lb ed="#Bb"/>oportet quod lux oriatur super ipsum,
+          <lb ed="#Bb"/>et stet in summo super ipsum, nec 
+          de<lb ed="#Bb" break="no"/>clinet ab ipso, ne efficiatur evanidum
+          <lb ed="#Bb"/>luce et calore lucis : ut frigiditate tene~
+          <lb ed="#Bb"/>brarum et noctis comprimantur 
+          quali<lb ed="#Bb" break="no"/>tates et virfules ejus intra ipsum, et sic
+          <lb ed="#Bb"/>confortentue ad operationes et actus
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>ejus : et tunc oriatur lux que in intimis
+          <lb ed="#Bb"/>calorem vivificum moveat ad exteriora,
+          <lb ed="#Bb"/>et distribuat in partes exteriores id quod
+          <lb ed="#Bb"/>ab intimis emotum est de viribus et
+          <lb ed="#Bb"/>calore vivifico. Et ideo sapientes in astris
+          <lb ed="#Bb"/>circulum diurnum dividunt in quatuor
+          <lb ed="#Bb"/>partes: ut prima quarta sit a Meridie in
+          <lb ed="#Bb"/>Occidentem, in qua Meridie acceptum
+          <lb ed="#Bb"/>nutrimentum deprimitur ad locum 
+          dige<lb ed="#Bb" break="no"/>stionis. Secundus arcus est ab Occidente
+          <lb ed="#Bb"/>in medium noctis, in quo comprimitur
+          <lb ed="#Bb"/>cibus, et digeritur in loco digestionis,
+          <lb ed="#Bb"/>frigiditate noctis circumstante et 
+          com<lb ed="#Bb" break="no"/>primente cibum, ut calor confortetur in
+          <lb ed="#Bb"/>intimis. Tertius est a medio noctis usque
+          <lb ed="#Bb"/>ad auroram, in quo lumen rediens, 
+          hu<lb ed="#Bb" break="no"/>midum nutrimentale movere incipit ab
+          <lb ed="#Bb"/>intimis ad exteriora. Quarta est ab 
+          au<lb ed="#Bb" break="no"/>rorain meridiem, in quo lumen evocat
+          <lb ed="#Bb"/>humidum nutrimentale in omnes partes
+          <lb ed="#Bb"/>exteriores ad confortationem 
+          membro<lb ed="#Bb" break="no"/>rum. Et sicut est in homine ad 
+          perfe<lb ed="#Bb" break="no"/>ctionem nutrimenti: sic est in omni re
+          <lb ed="#Bb"/>generabili et corruptibili, et in omni re
+          <lb ed="#Bb"/>ordinata ad propagationem mundi. Et
+          <lb ed="#Bb"/>sic patet, quod perfectio rei non est nisi
+          <lb ed="#Bb"/>in spatio quatuor arcuum circuli, et
+          <lb ed="#Bb"/>motu viginti quatuor horarum. Et ideo
+          <lb ed="#Bb"/>quodlibet opus Dei ad perfectionem sui
+          <lb ed="#Bb"/>requirit unum diem: et hoc non est ex
+          <lb ed="#Bb"/>imperfectione operantis, sed quia hoe
+          <lb ed="#Bb"/>requirit natura operis constituti.
+        </p>
+               </div>
+               <div xml:id="Almn78-e18681-Dd1e2769">
+                  <head xml:id="Almn78-e18681-Hd1e2771">Articulus 2</head>
+                  <head xml:id="Almn78-e18681-Hd1e2774" type="question-title">
+          De eo quod Magister ponit tres 
+          distincliones vespere et mane
+        </head>
+                  <p xml:id="Almn78-e18681-d1e2777">
+                     <lb ed="#Bb"/>MEMBRI TERTIL
+          <lb ed="#Bb"/>ARTICULUS II,
+          <lb ed="#Bb"/>De eo quod Magister ponit tres 
+          distin<lb ed="#Bb" break="no"/>cliones vespere et mane.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2788">
+                     <lb ed="#Bb"/>Deinde queritur de hoc quod dicit
+          <lb ed="#Bb"/>Magister in libro II Sententiarum, di
+          <pb ed="#Bb" n="546"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>stinct. XIII, cap. Hie est naturalis ordo
+          <lb ed="#Bb"/>distinctionis dierum.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2804">
+                     <lb ed="#Bb"/>Et ponit ibi tres distinctiones mane et
+          <lb ed="#Bb"/>vespere.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2812">
+                     <lb ed="#Bb"/>Primam ponit, quod dies inchoat a
+          <lb ed="#Bb"/>plena luce, et paulalim descendente luce
+          <lb ed="#Bb"/>fit vespere, qua occumbente fit nox, qua
+          <lb ed="#Bb"/>rursum ascendente luce fit mane, ita
+          <lb ed="#Bb"/>quod mane est finis precedentis diei et
+          <lb ed="#Bb"/>initium sequentis. Et dicit, quod propter
+          <lb ed="#Bb"/>hoc prima dies mane non potuit habere:
+          <lb ed="#Bb"/>quia non erat dies precedens primam
+          <lb ed="#Bb"/>diem cujus esset finis: et sic dies 
+          pre<lb ed="#Bb" break="no"/>cedens cum sequenti nocte computatur.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2836">
+                     <lb ed="#Bb"/>Alium ponit ordinem computationis
+          <lb ed="#Bb"/>secundum Bedam, qui est post peccatum
+          <lb ed="#Bb"/>hominis factum. Peccatum enim tenebra
+          <lb ed="#Bb"/>est, ut dicit Damascenus. Et Apostolus,
+          <lb ed="#Bb"/>ad Ephes. v, 8, ubi dicitur : Lratis
+          <lb ed="#Bb"/>aliquando tenebre, nune autem lux in
+          <lb ed="#Bb"/>Domino: in quo per lucem Christum,
+          <lb ed="#Bb"/>homo de tenebris peccati reductus est
+          <lb ed="#Bb"/>ad lucem justilie et resurrectionis. Et
+          <lb ed="#Bb"/>dicit, quod secundum hunc modum nox
+          <lb ed="#Bb"/>precedens computatur cum die 
+          se<lb ed="#Bb" break="no"/>quenti.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2865">
+                     <lb ed="#Bb"/>Tertium ponit ordinem computationis
+          <lb ed="#Bb"/>ab aurora resurrectionis in perfectam
+          <lb ed="#Bb"/>lucem diei, quando scilicet Christus 
+          re<lb ed="#Bb" break="no"/>surgens in aurora, pleno lumine 
+          resur<lb ed="#Bb" break="no"/>rectionis mundo illuxit: in quo iterum
+          <lb ed="#Bb"/>dies precedens cum sequenti nocte 
+          com<lb ed="#Bb" break="no"/>putatur,
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2883">
+                     <lb ed="#Bb"/>Et queritur ratio hujus ordinis.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2888">
+                     <lb ed="#Bb"/>Videtur enim
+          <lb ed="#Bb"/>1. Cum dicatur, I ad Timoth. vr, 16,
+          <lb ed="#Bb"/>quod Deus inhabitat lucem 
+          inaccessibi<lb ed="#Bb" break="no"/>lem, quod omne opus divinum est a luce
+          <lb ed="#Bb"/>in lucem : et sic numquam debet 
+          com<lb ed="#Bb" break="no"/>putari nox ante diem, nec cum die.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2904">
+                     <lb ed="#Bb"/>2, Adhuc, Cum dicatur, Jacobi, 1, 17 :
+          <lb ed="#Bb"/>A Patre luminum, apud quem non est
+          <lb ed="#Bb"/>transmutatio, nec vicissitudinis 
+          obum<lb ed="#Bb" break="no"/>bratio: videlur quod in nullo opere
+          <lb ed="#Bb"/>divino deberet fieri mentio vespere, sed
+          <lb ed="#Bb"/>dici tantum perfect.
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>accipiuntur a duobus, scilicet a natura,
+          <lb ed="#Bb"/>vel ab eventu qui fit circa illustrata per
+          <lb ed="#Bb"/>lucem divinam. Si a natura: hoc non
+          <lb ed="#Bb"/>potest esse nisi duobus modis. Aut enim
+          <lb ed="#Bb"/>est a natura ipsius motus: aut a natura
+          <lb ed="#Bb"/>operis divini, in quantum divinum est.
+          <lb ed="#Bb"/>Sia natura motus: tunc pro certo 
+          com<lb ed="#Bb" break="no"/>putatio est a plena luce meridiei in 
+          ve<lb ed="#Bb" break="no"/>Speram sequentem ef noctem, et mane
+          <lb ed="#Bb"/>consequentis diei. Et de hoc ordine satis
+          <lb ed="#Bb"/>dictum est in membro precedente hujus
+          <lb ed="#Bb"/>questionis. Si accipitur ordo ab opere
+          <lb ed="#Bb"/>Dei in quantum est opus Dei : cum Deus
+          <lb ed="#Bb"/>habitet lucem inaccessibilem, sic iterum
+          <lb ed="#Bb"/>ncipit a plena luce, non ab aurora, quia
+          <lb ed="#Bb"/>lla mixta est tenebris : et terminatur
+          <lb ed="#Bb"/>per vesperam in mane, hoc est, in lucem
+          <lb ed="#Bb"/>sequentis diei. Et hoc est quod dicit
+          <lb ed="#Bb"/>Beda in Glossa super Genesim : <quote xml:id="Almn78-e18681-Qd1e2962"> 
+            Dece<lb ed="#Bb" break="no"/>bat ut dies a luce inciperet, et im mane
+            <lb ed="#Bb"/>sequentis diei tenderet, ut opera Deia
+            <lb ed="#Bb"/>luce inchoasse et in luce completa esse
+            <lb ed="#Bb"/>significarentur. </quote>
+                  </p>
+                  <p xml:id="Almn78-e18681-d1e2975">
+                     <lb ed="#Bb"/>Si autem ab eventu accipiunt ordo
+          <lb ed="#Bb"/>computationis : tunc nox precedit diem,
+          <lb ed="#Bb"/>quia homo a luce innocentie in tenebras
+          <lb ed="#Bb"/>peccati cecidit, et a tenebris peccati per
+          <lb ed="#Bb"/>lucem Christum reductus est per opus
+          <lb ed="#Bb"/>redemplionis. Et propter hoc in festis
+          <lb ed="#Bb"/>Keclesia quando agitur de luce 
+          redem<lb ed="#Bb" break="no"/>ptionis, noctem precedentem cum 
+          se<lb ed="#Bb" break="no"/>quenti die celebrat Ecclesia.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e2997">
+                     <lb ed="#Bb"/>Et hee est ratio eorum que dicit
+          <lb ed="#Bb"/>Magister in libro Il Sententiarum, 
+          di<lb ed="#Bb" break="no"/>stinct. XIII, cap. Hic est naturalis ordo.
+        </p>
+               </div>
+               <div xml:id="Almn78-e18681-Dd1e3007">
+                  <head xml:id="Almn78-e18681-Hd1e3009">Articulus 3</head>
+                  <head xml:id="Almn78-e18681-Hd1e3012" type="question-title">
+          Quod illa quae dicuntur in Genesi, 
+          Litteraliter accipienda sunt, et non per
+          allegoriam.
+        </head>
+                  <p xml:id="Almn78-e18681-d1e3015">
+                     <lb ed="#Bb"/>MEMBRRI TERTH
+          <lb ed="#Bb"/>ARTICULUS III.
+          <lb ed="#Bb"/>Quod illa quae dicuntur in Genesi, 
+          Litte<lb ed="#Bb" break="no"/>raliter accipienda sunt, et non per
+          <lb ed="#Bb"/>allegoriam.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3028">
+                     <lb ed="#Bb"/>Tertio, Queritur de hoc quod dicit
+          <lb ed="#Bb"/>Magister in libro II Sententiarum, di
+          <pb ed="#Bb" n="547"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>stinct. XII, ibi, Preterea investigandum
+          <lb ed="#Bb"/>est quomodo accipiendum sit quod att:
+          <lb ed="#Bb"/>Dixit Deus '.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3046">
+                     <lb ed="#Bb"/>Videtur enim, quod sonuerit 
+          tempo<lb ed="#Bb" break="no"/>raliter dicendo.,
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3054">
+                     <lb ed="#Bb"/>Dicit enim Basilius in Hexameron,
+          <lb ed="#Bb"/>quod ea que dicuntur in Genesi 
+          littera<lb ed="#Bb" break="no"/>liter accipienda sunt, et non per 
+          allego<lb ed="#Bb" break="no"/>riam ad alium sensum trahenda. Cum
+          <lb ed="#Bb"/>autem dicitur: Dixit Deus, littera non
+          <lb ed="#Bb"/>videtur sonare aliud nisi temporaliter
+          <lb ed="#Bb"/>sonuerit : ergo videtur, quod de 
+          tempo<lb ed="#Bb" break="no"/>rali et verbo et sono vocis prolato 
+          acci<lb ed="#Bb" break="no"/>piendum sit. Quod si verum est, tot
+          <lb ed="#Bb"/>verba tunc dixit, quoties dixit: et cum
+          <lb ed="#Bb"/>verbum Dei, sicut dicitur, Joan. 1, 3, sit
+          <lb ed="#Bb"/>per quod omnia facta sunt, et hoc sit
+          <lb ed="#Bb"/>Filius Dei: dicit enim Augustinus in
+          <lb ed="#Bb"/>libro IV de Trinitate, quod eo verbum
+          <lb ed="#Bb"/>est, quo Filius: sequitur ex hoc, quod
+          <lb ed="#Bb"/>plures sint filii in divinis, quod 
+          hereti<lb ed="#Bb" break="no"/>cum est,
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3093">
+                     <lb ed="#Bb"/>Objicit etiam Magister in Litlera,
+          <lb ed="#Bb"/>quod id quod est inutile, non est de
+          <lb ed="#Bb"/>operibus Dei : sed tune lingua non erat
+          <lb ed="#Bb"/>que vocaliter sonaret, nec auris erat
+          <lb ed="#Bb"/>que audiret : ergo et impossibile et 
+          inu<lb ed="#Bb" break="no"/>tile erat sonare vocaliter : ergo videtur,
+          <lb ed="#Bb"/>quod non sono vocis corporaliter dixit,
+          <lb ed="#Bb"/>sed intelligibiliter in verbo ut hee fierent
+          <lb ed="#Bb"/>determinaverit.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3115">
+                     <lb ed="#Bb"/>Ulterivs queritur de hoc quod querit
+          <lb ed="#Bb"/>ibi, Mie solet queri, Quomedo 
+          accipien<lb ed="#Bb" break="no"/>dum sit, quod dicitur Pater operari in
+          <lb ed="#Bb"/>Filio, vel per Filium, vel per Spiritum
+          <lb ed="#Bb"/>sanctum? ?
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3128">
+                     <lb ed="#Bb"/>1. Prepositio enim per, notare videtur
+          <lb ed="#Bb"/>habitudinem cause instrumentalis : et si
+          <lb ed="#Bb"/>Pater operatur in Filio vel per Filium,
+          <lb ed="#Bb"/>vel per Spiritum sanctum, videtur Pater
+          <lb ed="#Bb"/>uti Filio et Spiritu sancto ut 
+          instrumen<lb ed="#Bb" break="no"/>tis, ut dicit hereticus,
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3144">
+                     <lb ed="#Bb"/>2. Adhuc, Cum operari Dei sit esse, si
+          <lb ed="#Bb"/>operatur per Vilium, videtur sequi, quod
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>sit per Filium : et hoc heresis est, Filius
+          <lb ed="#Bb"/>enim a Patre est, et non e converso
+          <lb ed="#Bb"/>Pater a Filio.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3160">
+                     <lb ed="#Bb"/>3. Adhuc, Cum in sapientia operetur,
+          <lb ed="#Bb"/>sicut dicitur in Psalmo cnt, 24: Omnia
+          <lb ed="#Bb"/>in sapientia fecisti : si operatur per
+          <lb ed="#Bb"/>Filium, videtur sapere per Filium: et
+          <lb ed="#Bb"/>hoc etiam falsum est: Filius enim sapit
+          <lb ed="#Bb"/>per Patrem, non Pater per Filium.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3177">
+                     <lb ed="#Bb"/>Sotvrio. Dicendum cum Magistro,
+          <lb ed="#Bb"/>quod idem est Deo dicere, quod in verbo
+          <lb ed="#Bb"/>eterno disponere et determinare : et
+          <lb ed="#Bb"/>ideo unum Verbum ab eterno genuit,
+          <lb ed="#Bb"/>in quu quid, qualiter, quando faceret
+          <lb ed="#Bb"/>disposuit. Unde Augustinus super 
+          Gene<lb ed="#Bb" break="no"/>sim ad litteram sic exponit: <quote xml:id="Almn78-e18681-Qd1e3194"> Dizit
+            <lb ed="#Bb"/>Deus : Fiat lux, hoc est, ab eterno 
+            Ver<lb ed="#Bb" break="no"/>bum genuit, in quo erat ut fieret sicut
+            <lb ed="#Bb"/>in arte et sapientia artificis. </quote> Unde cum
+          <lb ed="#Bb"/>Magistro sentiendum est, quod 
+          corpora<lb ed="#Bb" break="no"/>liter non sonuit, sed eternaliter Verbum
+          <lb ed="#Bb"/>genuit, in quo erat ut fieret. Et hoc est
+          <lb ed="#Bb"/>etiam quod dicit Ambrosius in Hexame-~
+          <lb ed="#Bb"/>ron, quod cessavit motus aut sonus, et
+          <lb ed="#Bb"/>apparuit etiam tacente artifice quod 
+          peri<lb ed="#Bb" break="no"/>tiam ejus ostendit, ut operatori operis
+          <lb ed="#Bb"/>sui testimonium . suffragetur. Similiter
+          <lb ed="#Bb"/>eliam hic mundus divine majestatis 
+          in<lb ed="#Bb" break="no"/>signe est, ut per ipsum Dei sapientia
+          <lb ed="#Bb"/>manifestetur. Fecit ergo quasi bonus
+          <lb ed="#Bb"/>quod foret utile, quasi sapiens quod
+          <lb ed="#Bb"/>optimum judicabat, quasi omnipotens
+          <lb ed="#Bb"/>quod amplissimum previdebat.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3234">
+                     <lb ed="#Bb"/>Ad opjyectum autem dicendum, quod
+          <lb ed="#Bb"/>hoc sequeretur si temporaliter sonuisset :
+          <lb ed="#Bb"/>sed quia ab wxterno Verbum genuit, et
+          <lb ed="#Bb"/>dixit, ideo non sequitur id quod 
+          indu<lb ed="#Bb" break="no"/>ctum est. Et hoc est quod dicit Ambrosius
+          <lb ed="#Bb"/>in libro I Hexameron:<quote xml:id="Almn78-e18681-Qd1e3249"> Quid est, In
+            <lb ed="#Bb"/>ipso ereata sunt ? nisi quia ipse est
+            <lb ed="#Bb"/>heres Patris, eo quod a Patre in ipsum
+            <lb ed="#Bb"/>transierit hereditas : que tamen 
+            here<lb ed="#Bb" break="no"/>ditas in Patrem revertitur a Filio. Ex
+            <lb ed="#Bb"/>ipso enim materia, ef per ipsum opera
+            <pb ed="#Bb" n="548"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb"/>tio que ligavit et constrinxit universa.
+            <lb ed="#Bb"/>In ipsum est cunctorum reversio : quia
+            <lb ed="#Bb"/>et quamdiu vult omnia ejus virtute 
+            ma<lb ed="#Bb" break="no"/>nent atque consistunt, et finis eorum in
+            <lb ed="#Bb"/>Dei voluntate recurrit, et arbitrio ejus
+            <lb ed="#Bb"/>resolvuntur. </quote>
+                  </p>
+                  <p xml:id="Almn78-e18681-d1e3281">
+                     <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+          Quo<lb ed="#Bb" break="no"/>modo Pater operetur per Filium ?
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3288">
+                     <lb ed="#Bb"/>Dicendum, quod non sicut per 
+          in<lb ed="#Bb" break="no"/>strumentum, nec ita sicut Filius manum
+          <lb ed="#Bb"/>porrigat Patri ut possit operari: sicut
+          <lb ed="#Bb"/>etiam Magister solvit in Litera: quia
+          <lb ed="#Bb"/>una est operatio trium et indivisibilis.
+          <lb ed="#Bb"/>Sed habitudo propositionum per et in,
+          <lb ed="#Bb"/>non notant nisi habitudinem principii,
+          <lb ed="#Bb"/>qua unus est ex altero, ut Filius ex 
+          Pa<lb ed="#Bb" break="no"/>tre, vel a Patre, et Spiritus sanctus ab
+          <lb ed="#Bb"/>utroque: et ideo ab utroque habet et
+          <lb ed="#Bb"/>quod est, et quod operatur. Et Filius
+          <lb ed="#Bb"/>habet a Patre et quod est, et quod 
+          ope<lb ed="#Bb" break="no"/>ratur secundum ordinem nature quo 
+          al<lb ed="#Bb" break="no"/>ter ex altero, non quo alter prior altero.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3321">
+                     <lb ed="#Bb"/>Ad id ergo quod queritur, Utrum 
+          Pa<lb ed="#Bb" break="no"/>ter sit per Filium, sicut operatur per 
+          Fi<lb ed="#Bb" break="no"/>lium ?
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3330">
+                     <lb ed="#Bb"/>Dicendum, quod non: quia sic 
+          nota<lb ed="#Bb" break="no"/>retur, quod principium essendi Patrem
+          <lb ed="#Bb"/>vel operandi, esset in Filio respectu 
+          Pa<lb ed="#Bb" break="no"/>tris, quod hereticum est: cum e 
+          con<lb ed="#Bb" break="no"/>verso sitin Patre respectu Filii.
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3344">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Similiter cum dicitur, Utram Pater
+          <lb ed="#Bb"/>sapiat per Filium sicut operatur?
+        </p>
+                  <p xml:id="Almn78-e18681-d1e3353">
+                     <lb ed="#Bb"/>Dicendum, quod non: quia licet 
+          sa<lb ed="#Bb" break="no"/>pere sit verbum in voce activa, tamen in
+          <lb ed="#Bb"/>significatione passiva est. Sapere enim
+          <lb ed="#Bb"/>recipere est scientiam ejus quod sapilur,
+          <lb ed="#Bb"/>et ita significaretur, quod Pater saperet
+          <lb ed="#Bb"/>a Filio, vel per Filium, quod hereticum
+          <lb ed="#Bb"/>est. In illa enim simplicitate, ut dicit 
+          Au<lb ed="#Bb" break="no"/>gustinus, idem est sapere quod esse. Et
+          <lb ed="#Bb"/>si saperet per Filium, esset per Filium.
+          <lb ed="#Bb"/>Est autem e converso, quod Filius est et
+          <lb ed="#Bb"/>sapit a Patre, sicut dicit Augustinus, quia
+          <lb ed="#Bb"/>ab illo est ei sapere a quo est esse. 
+          Ope<lb ed="#Bb" break="no"/>rari autem non dicit passionem, sed id
+          <lb ed="#Bb"/>quod est ab alio. Unde cum dicitur :
+          <lb ed="#Bb"/>Pater operatur per Filium, sensus est,
+          <lb ed="#Bb"/>Filius operatur indivisibili operatione
+          <lb ed="#Bb"/>cum Patre et Spiritu sancto: et hoc 
+          ha<lb ed="#Bb" break="no"/>bet Filius a Patre, et Spiritus sanctus
+          <lb ed="#Bb"/>indivisibili operatione cum Patre et Filio,
+          <lb ed="#Bb"/>et hoc habet ab utroque. Et hoc est quod
+          <lb ed="#Bb"/>inducitur a Magistro in ultimo capitulo
+          <lb ed="#Bb"/>illius distinctionis in Ziéera per 
+          Joan<lb ed="#Bb" break="no"/>nem Chrysostomum, quod idem est 
+          Pa<lb ed="#Bb" break="no"/>trem operari per Filium, vel in Filio,
+          <lb ed="#Bb"/>quod Patrem generare opificem : et idem
+          <lb ed="#Bb"/>est Patrem et Filium operari in Spiritu
+          <lb ed="#Bb"/>sancto, vel per Spiritum sanctum, quod
+          <lb ed="#Bb"/>Patrem et Filium ut unum principium
+          <lb ed="#Bb"/>spirare Spiritum sanctum opificem.
+        </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

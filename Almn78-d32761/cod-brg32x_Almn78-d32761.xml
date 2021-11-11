@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="149"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d32761"><!-- p2t3q12 -->
+            <head xml:id="Almn78-d32761-Hd1e106">Quaestio 12</head>
+            <head xml:id="Almn78-d32761-Hd1e109" type="question-title">
+      Ubi Angeli creati sunt
+    </head>
+            <p xml:id="Almn78-d32761-d1e112">
+               <pb ed="#Bb" n="149"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO XII.
+      <lb ed="#Bb"/>Ubi Angeli creati sunt
+    </p>
+            <p xml:id="Almn78-d32761-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Secundo queritur, Ubi Angeli creati
+      <lb ed="#Bb"/>sint? Et hanc questionem tractat 
+      Ma<lb ed="#Bb" break="no"/>gister in libro II Sententiarum, distinct.
+      <lb ed="#Bb"/>II, cap. Jam ostensum est.
+    </p>
+            <p xml:id="Almn78-d32761-d1e136">
+               <lb ed="#Bb"/>Et accipitur ex verbis suis, quod tria
+      <lb ed="#Bb"/>dicit de coslo illo in quo creati sunt
+      <lb ed="#Bb"/>Angeli, scilicet quod locus corporeus est,
+      <lb ed="#Bb"/>quod totus luminosus est; quod a 
+      volubi<lb ed="#Bb" break="no"/>litate mundi secretus est.
+    </p>
+            <p xml:id="Almn78-d32761-d1e150">
+               <lb ed="#Bb"/>Et ideo tria quaeremus, scilicet utram
+      <lb ed="#Bb"/>locus creationis corporeus sit, hoc est,
+      <lb ed="#Bb"/>utrum ceelum empyreum corpus sit ?
+    </p>
+            <p xml:id="Almn78-d32761-d1e159">
+               <lb ed="#Bb"/>Secundo, propter verbum Strabi,
+      <lb ed="#Bb"/>Utrum sit uniforme in lumine ?
+    </p>
+            <p xml:id="Almn78-d32761-d1e166">
+               <lb ed="#Bb"/>Tertio, propter verbum Bede, Utrum
+      <lb ed="#Bb"/>quiescat vel moveatur ?
+    </p>
+            <p xml:id="Almn78-d32761-d1e173">
+               <lb ed="#Bb"/>Quarto, fiet inquisitio de ccelo 
+      Trinita<lb ed="#Bb" break="no"/>tis, Utrum scilicet sit corpus, vel non, et
+      <lb ed="#Bb"/>quid in eo contineatur ?
+    </p>
+            <div xml:id="Almn78-d32761-Dd1e182">
+               <head xml:id="Almn78-d32761-Hd1e184">Membrum 1</head>
+               <head xml:id="Almn78-d32761-Hd1e187" type="question-title">
+        Utrum coelum empyreum sit corpus
+      </head>
+               <p xml:id="Almn78-d32761-d1e190">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>Utrum coelum empyreum sit corpus?
+      </p>
+               <p xml:id="Almn78-d32761-d1e197">
+                  <lb ed="#Bb"/>Primo ergo queritur, Utrum coelum
+        <lb ed="#Bb"/>empyreum corpus sit ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e204">
+                  <lb ed="#Bb"/>Et videtur, quod non:
+        <lb ed="#Bb"/>1. Locus enim et locatum ejusdem 
+        na<lb ed="#Bb" break="no"/>ture sunt, secundum Philosophum. 
+        Un<lb ed="#Bb" break="no"/>de dicit, quod idem est motus ad formam
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>et ad locum, et idem motor : et quod
+        <lb ed="#Bb"/>quantum res accipit de forma sive de 
+        na<lb ed="#Bb" break="no"/>tura generantis, tantum accipit de motu
+        <lb ed="#Bb"/>consequente formam et naturam ejus et
+        <lb ed="#Bb"/>de loco ejusdem. Constat autem, quod
+        <lb ed="#Bb"/>contentum in celo empyreo totum 
+        spiri<lb ed="#Bb" break="no"/>tuale est. Ergo videtur, quod etiam 
+        lo<lb ed="#Bb" break="no"/>cus spiritualis sit. Gelum empyreum est
+        <lb ed="#Bb"/>locus : ergo celum empyreum non est
+        <lb ed="#Bb"/>corpus, sed spirituale est, vel ad minus
+        <lb ed="#Bb"/>spirituale quoddam.
+      </p>
+               <p xml:id="Almn78-d32761-d1e242">
+                  <lb ed="#Bb"/>2. Adhuc, Locus est ad quem est 
+        mo<lb ed="#Bb" break="no"/>tus: motus autem Angeli totus in Deum
+        <lb ed="#Bb"/>est, ut dictum est in questione de 
+        defini<lb ed="#Bb" break="no"/>tione Angeli: ergo locus Angeli Deus
+        <lb ed="#Bb"/>est : ergo locus creationis Angeli non est
+        <lb ed="#Bb"/>aliquod corpus.
+      </p>
+               <p xml:id="Almn78-d32761-d1e258">
+                  <lb ed="#Bb"/>3. Adhuc, Angeli intra Deum currunt,
+        <lb ed="#Bb"/>quocumque mittuntur : sed intra 
+        quod<lb ed="#Bb" break="no"/>cumque aliquid movetur, locus est ejus:
+        <lb ed="#Bb"/>ergo Deus locus creationis Angeli est :
+        <lb ed="#Bb"/>ergo non est ceelum empyreum.
+      </p>
+               <p xml:id="Almn78-d32761-d1e271">
+                  <lb ed="#Bb"/>4. Adhuc, Locus, ut dicit Philosophus,
+        <lb ed="#Bb"/>contentivus et salvativus est locati : 
+        nul<lb ed="#Bb" break="no"/>lum corpus ut contentivum et salvativum
+        <lb ed="#Bb"/>se habet ad spiritum : ergo si coelum
+        <lb ed="#Bb"/>empyreum est locus Angeli, aut non est
+        <lb ed="#Bb"/>corpus, aut non est locus creationis 
+        An<lb ed="#Bb" break="no"/>geli.
+      </p>
+               <p xml:id="Almn78-d32761-d1e289">
+                  <lb ed="#Bb"/>5. Adhuc, Omne corpus quod in 
+        ccele<lb ed="#Bb" break="no"/>stibus est,cognoverunt per rationem 
+        Phi<lb ed="#Bb" break="no"/>losophi : de celo empyreo nihil 
+        cogno<lb ed="#Bb" break="no"/>verunt ergo videtur, quod cclum
+        <lb ed="#Bb"/>empyreum in ccelestibus non sit.
+      </p>
+               <p xml:id="Almn78-d32761-d1e302">
+                  <pb ed="#Bb" n="150"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>In conTrartom est, quod
+        <lb ed="#Bb"/>4. Dicit Dominus in Evangelio Luce,
+        <lb ed="#Bb"/>x, 18: Videbam Satanam sicut fulgur
+        <lb ed="#Bb"/>de celo cadentem. EX sicut dicit Magister
+        <lb ed="#Bb"/>in libro IL Sententiarum, distinct. J],
+        <lb ed="#Bb"/>cap. Jam ostensum est, <quote xml:id="Almn78-d32761-Qd1e321"> non appellatur
+          <lb ed="#Bb"/>hoc celum firmamentum quod secunda
+          <lb ed="#Bb"/>die factum est, sed celum splendidum,
+          <lb ed="#Bb"/>quod dicitur empyreum, id est, igneum
+          <lb ed="#Bb"/>asplendore, non a calore : quod 
+          fa<lb ed="#Bb" break="no"/>ctum,statim Angelis repletum est, quod
+          <lb ed="#Bb"/>est supra firmamentum. </quote> Sed omne
+        <lb ed="#Bb"/>splendens corpus est. Ergo celum 
+        em<lb ed="#Bb" break="no"/>pyreum corpus est, in quo fuit Satanas
+        <lb ed="#Bb"/>tamquam in loco creationis ante casum, et
+        <lb ed="#Bb"/>similiter alii Angeli.
+      </p>
+               <p xml:id="Almn78-d32761-d1e347">
+                  <lb ed="#Bb"/>2. Adhuc, Genes. 1, 1, super illud:
+        <lb ed="#Bb"/>In principio creavit Deus celum et 
+        ter<lb ed="#Bb" break="no"/>ram, dicit Strabus sic: <quote xml:id="Almn78-d32761-Qd1e355"> Coolum non
+          <lb ed="#Bb"/>visibile firmamentum hic appellat, sed
+          <lb ed="#Bb"/>empyreum, id est, igneum, vel 
+          intelle<lb ed="#Bb" break="no"/>ctuale, quod non ab ardore, sed a 
+          splen<lb ed="#Bb" break="no"/>dore dicitur : quod statim factum, 
+          san<lb ed="#Bb" break="no"/>ctis Angelis est repletum.</quote> Et ex hoe
+        <lb ed="#Bb"/>accipitur idem : quia igneum sine 
+        splen<lb ed="#Bb" break="no"/>didum corpus est, et sic locus creationis
+        <lb ed="#Bb"/>Angelorum corpus est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e377">
+                  <lb ed="#Bb"/>3. Adhuc, In libro I Sententiarum, 
+        dis<lb ed="#Bb" break="no"/>tinct. XXX VII, determinatum est, quod
+        <lb ed="#Bb"/>omnis creatura localis est, et quod solus
+        <lb ed="#Bb"/>Deus loco non continetur, eo quod 
+        im<lb ed="#Bb" break="no"/>mensus est : ergo angelica creatura 
+        loca<lb ed="#Bb" break="no"/>lis est : locus autem omnis, sive 
+        cir<lb ed="#Bb" break="no"/>cumscriptive, sive definitive contineat,
+        <lb ed="#Bb"/>corpus est : ergo ceolum empyreum
+        <lb ed="#Bb"/>quod definitive continet Angelum, 
+        cor<lb ed="#Bb" break="no"/>pus est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e401">
+                  <lb ed="#Bb"/>Sed tunc queritur, Quomodo dicatur
+        <lb ed="#Bb"/>sanctis Angelis esse repletum ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e408">
+                  <lb ed="#Bb"/>Repletus enim dicitur locus uno solo
+        <lb ed="#Bb"/>modo, quando scilicet ita plenus est,
+        <lb ed="#Bb"/>quod eadem distantia est quantitatis loci
+        <lb ed="#Bb"/>impleti, et contenti implentis. Constat
+        <lb ed="#Bb"/>autem, quod cum Angelus spirituale sit,
+        <lb ed="#Bb"/>hoc modo penitus nihil implet: ergo 
+        vi<lb ed="#Bb" break="no"/>detur, quod celum empyreum Angelis
+        <lb ed="#Bb"/>non possit esse repletum.
+      </p>
+               <p xml:id="Almn78-d32761-d1e428">
+                  <lb ed="#Bb"/>Si forte aliquis dicat, qued spirituale
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>implet corporale, sicut anima implet
+        <lb ed="#Bb"/>corpus, quando ubique vivificat et 
+        infor<lb ed="#Bb" break="no"/>mat per omnes partes. Hoc non potest
+        <lb ed="#Bb"/>dici de Angelo. Sed hoc dicitur de tali
+        <lb ed="#Bb"/>spirituali, quod est actus corporis : 
+        se<lb ed="#Bb" break="no"/>cundum hoc enim Angelus esset 
+        vivifi<lb ed="#Bb" break="no"/>cans celum et actus ejus, quod absurdum
+        <lb ed="#Bb"/>esset : videtur ergo quod non possit dici,
+        <lb ed="#Bb"/>quod celum empyreum Angelis sit 
+        re<lb ed="#Bb" break="no"/>pletum.
+      </p>
+               <p xml:id="Almn78-d32761-d1e457">
+                  <lb ed="#Bb"/>Solutio. Dicendum cum Sanctis, 
+        qui<lb ed="#Bb" break="no"/>bus solis de ceelo credendum, eo quod |
+        <lb ed="#Bb"/>illi soli Patrem ccelestem cognoverunt,
+        <lb ed="#Bb"/>quod ccelum empyreum summum celum
+        <lb ed="#Bb"/>est, et corpus est : et quod creatura 
+        om<lb ed="#Bb" break="no"/>nis quamvis etiam in se sit spiritualis,
+        <lb ed="#Bb"/>aliquo modo corporea est, sicut in 
+        que<lb ed="#Bb" break="no"/>stione de definitione Angeli secundum
+        <lb ed="#Bb"/>definitionem a Joanne Damasceno 
+        sump<lb ed="#Bb" break="no"/>tam declaratum est : et ideo celum 
+        em<lb ed="#Bb" break="no"/>pyreum corpus est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e483">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod hoc
+        <lb ed="#Bb"/>quod probat objectio, verum est in his
+        <lb ed="#Bb"/>que circumscriptive sunt in loco: in his
+        <lb ed="#Bb"/>enim partes loci et locati ad unum 
+        termi<lb ed="#Bb" break="no"/>num communem copulantur: quod non
+        <lb ed="#Bb"/>potest esse, nisi eedem linew mensurent
+        <lb ed="#Bb"/>locum et locatum. Angelus autem non
+        <lb ed="#Bb"/>sic continetur in aliquo loco, sed 
+        defini<lb ed="#Bb" break="no"/>tive: quia, sicut dicit Damascenus, ibi
+        <lb ed="#Bb"/>necesse est eum esse, ubi operatur: et
+        <lb ed="#Bb"/>quando est hic, non est alibi. Et hoc 
+        mo<lb ed="#Bb" break="no"/>do Angelus creatus est in colo empyreo,
+        <lb ed="#Bb"/>et quando est ibi, non est in terra: et
+        <lb ed="#Bb"/>quando in terram aliquid nuntiaturus vel
+        <lb ed="#Bb"/>operaturus mittitur, in terra est, et non
+        <lb ed="#Bb"/>in coelo empyreo.
+      </p>
+               <p xml:id="Almn78-d32761-d1e521">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod motus 
+        ef<lb ed="#Bb" break="no"/>fectivus Angeli totus in Deo est: et ideo
+        <lb ed="#Bb"/>in Psalmo ixxxu, 15, flamma ignis
+        <lb ed="#Bb"/>dicitur, ut dicit Damascenus, quia 
+        sem<lb ed="#Bb" break="no"/>per accensivus est per effectum, et 
+        as<lb ed="#Bb" break="no"/>censivus in Deum, ut dicit Augustinus.
+        <lb ed="#Bb"/>Quod in corporalibus est pondus, hoc in
+        <lb ed="#Bb"/>spiritualibus est amor: et sicut corpus
+        <lb ed="#Bb"/>movetur ad locum ad quem tendit pon~
+        <lb ed="#Bb"/>dus ejus, ita in spiritualibus movetur
+        <lb ed="#Bb"/>spirilus in id ad quod tendit amor ejus.
+        <pb ed="#Bb" n="151"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Habet tamen Angelus alium motum 
+        mi<lb ed="#Bb" break="no"/>nisterii, quo mittitur : et hoc modo 
+        mo<lb ed="#Bb" break="no"/>vetur de loco ad locum et per spatium,
+        <lb ed="#Bb"/>et hoc modo definitive continetur in
+        <lb ed="#Bb"/>loco, et exigit locum corporalem.
+      </p>
+               <p xml:id="Almn78-d32761-d1e563">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Deus locus
+        <lb ed="#Bb"/>est Angeli ut causa salutis et continens
+        <lb ed="#Bb"/>in esse, intra quem est Angelus 
+        ubicum<lb ed="#Bb" break="no"/>que est: sedtamen quoad motum 
+        mini<lb ed="#Bb" break="no"/>sterii et locum et definibilitatem suam,
+        <lb ed="#Bb"/>exigit etiam locum corporalem.
+      </p>
+               <p xml:id="Almn78-d32761-d1e579">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod ille 
+        condi<lb ed="#Bb" break="no"/>tiones loci, contentivum et salvativum
+        <lb ed="#Bb"/>esse, non conveniunt nisi his que 
+        phy<lb ed="#Bb" break="no"/>sice suntin loco: sic autem Angelus non
+        <lb ed="#Bb"/>estin ccelo empyreo, nec in aliquo loco :
+        <lb ed="#Bb"/>et ideo illa objectio non procedit.
+      </p>
+               <p xml:id="Almn78-d32761-d1e595">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Philosophi
+        <lb ed="#Bb"/>non cognoverunt corpus in observationi~
+        <lb ed="#Bb"/>bus astrorum, nisi quod per motum 
+        ali<lb ed="#Bb" break="no"/>quem manifestabatur illis: quia ccelum
+        <lb ed="#Bb"/>empyreum nullo motu manifestabatur
+        <lb ed="#Bb"/>illis, ideo non cognoverunt.
+      </p>
+               <p xml:id="Almn78-d32761-d1e611">
+                  <lb ed="#Bb"/>Tria que inducuntur in contrarium,
+        <lb ed="#Bb"/>procedunt.
+      </p>
+               <p xml:id="Almn78-d32761-d1e618">
+                  <lb ed="#Bb"/>Ad id quod queritur, Quomodo 
+        cce<lb ed="#Bb" break="no"/>lum dicatur repletum Angelis? planum
+        <lb ed="#Bb"/>est respondere, Non enim est repletum
+        <lb ed="#Bb"/>sicut corporalis locus corporali contento
+        <lb ed="#Bb"/>repletur, sed est repletum 
+        proportionali<lb ed="#Bb" break="no"/>ter ad mansiones beatitudinis, que per
+        <lb ed="#Bb"/>sapientiam Dei create sunt in ipso, ita
+        <lb ed="#Bb"/>quod nulla illarum vacua est, sicut 
+        dici<lb ed="#Bb" break="no"/>tur, Joan, xiv, 2: fn domo Patris mei
+        <lb ed="#Bb"/>mansiones multe sunt. Illarum enim
+        <lb ed="#Bb"/>nulla vacua est, quin habeat Angelum in
+        <lb ed="#Bb"/>beatitudine sibi proportionatum.
+      </p>
+               <p xml:id="Almn78-d32761-d1e648">
+                  <lb ed="#Bb"/>Ad id quod dixerunt quidam, quod
+        <lb ed="#Bb"/>Angelus replet sicut anima corpus: 
+        di<lb ed="#Bb" break="no"/>cendum, quod hoc dicere absurdum est
+        <lb ed="#Bb"/>et hereticum, sicut bene probat objectio,
+      </p>
+            </div>
+            <div xml:id="Almn78-d32761-Dd1e660">
+               <head xml:id="Almn78-d32761-Hd1e662">Membrum 2</head>
+               <head xml:id="Almn78-d32761-Hd1e665" type="question-title">
+        Utrum coelum sit uniforme in lumine
+      </head>
+               <p xml:id="Almn78-d32761-d1e668">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Utrum coelum sit uniforme in lumine?
+      </p>
+               <p xml:id="Almn78-d32761-d1e677">
+                  <lb ed="#Bb"/>Secundo queritur propter verbum
+        <lb ed="#Bb"/>Strabi, Utrum celum, sit uniforme in
+        <lb ed="#Bb"/>lumine ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e686">
+                  <lb ed="#Bb"/>Et videtur, quod sic.
+        <lb ed="#Bb"/>1. Strabus enim dicit, quod zgneum
+        <lb ed="#Bb"/>dicitur non ab ardore, sed a splendore,
+        <lb ed="#Bb"/>quia totum splendidum est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e698">
+                  <lb ed="#Bb"/>2, Adhuc, Celum empyreum locus
+        <lb ed="#Bb"/>contemplantium est: contemplantibus
+        <lb ed="#Bb"/>autem per congruentiam debetur locus
+        <lb ed="#Bb"/>luminosus : ergo celum empyreum locus
+        <lb ed="#Bb"/>luminosus et uniformis est in lumine.
+      </p>
+               <p xml:id="Almn78-d32761-d1e711">
+                  <lb ed="#Bb"/>3. Adhuc, Locus damnatorum per 
+        op<lb ed="#Bb" break="no"/>positas dispositiones habet se ad locum
+        <lb ed="#Bb"/>beatorum: sed locus damnatorum 
+        perpe<lb ed="#Bb" break="no"/>tuis tenebris est addictus : ergo per 
+        oppo<lb ed="#Bb" break="no"/>situm locus beatorum perpetuo lumine
+        <lb ed="#Bb"/>plenus est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e727">
+                  <lb ed="#Bb"/>4, Adhuc, Matth. xin, 43: Tune justi
+        <lb ed="#Bb"/>fulgebunt sicut sol in regno Patris
+        <lb ed="#Bb"/>eorum : sed in tota natura locus semper
+        <lb ed="#Bb"/>per congruentiam respondet locato. Cum
+        <lb ed="#Bb"/>ergo locatiin ccelo empyreo fulgeant 
+        sic<lb ed="#Bb" break="no"/>ut sol, et celum empyreum respondeat
+        <lb ed="#Bb"/>eis per congruentiam, ccelum empyreum
+        <lb ed="#Bb"/>debet splendere sicut sol.
+      </p>
+               <p xml:id="Almn78-d32761-d1e747">
+                  <lb ed="#Bb"/>In contrarium hujus est, quia 
+        secun<lb ed="#Bb" break="no"/>dum ordinem nature primum, semper et
+        <lb ed="#Bb"/>supremum influentiam habet super 
+        infe<lb ed="#Bb" break="no"/>riora : et sicut dicit Aristoteles in II de
+        <lb ed="#Bb"/>Generatione et Corruptione, idem eodem
+        <lb ed="#Bb"/>modo se habens, semper facit idem : si
+        <lb ed="#Bb"/>ergo celum empyreum uniforme est in
+        <lb ed="#Bb"/>lumine, secundum ccelum cui influit et
+        <lb ed="#Bb"/>formam et virtutem, erit etiam uniforme
+        <lb ed="#Bb"/>in lumine: sed hoc falsum est, quia se
+        <pb ed="#Bb" n="152"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>cundum celum est firmamentum, quod
+        <lb ed="#Bb"/>valde difforme est in lumine, sicut patet
+        <lb ed="#Bb"/>in deformitate stellarum, et in partibus
+        <lb ed="#Bb"/>etiam cceli non stellatis.
+      </p>
+               <p xml:id="Almn78-d32761-d1e784">
+                  <lb ed="#Bb"/>Solutio. Dicendum cum Sanctis, quod
+        <lb ed="#Bb"/>ccelum empyreum uniforme est in lumine:
+        <lb ed="#Bb"/>aliter enim non congrueret 
+        contempla<lb ed="#Bb" break="no"/>tioni beatorum, que tota in lumine est.
+        <lb ed="#Bb"/>Unde Basilius etiam dicit super illud
+        <lb ed="#Bb"/>Psalmi xxvii, 7: Vox Domini iné
+        erci<lb ed="#Bb" break="no"/>dentis flammam ignis, quod <quote xml:id="Almn78-d32761-Qd1e801"> in die 
+          ju<lb ed="#Bb" break="no"/>dicii lumen quod est in igne, ascendet
+          <lb ed="#Bb"/>ad locum beatorum: et ardor 
+          fuligino<lb ed="#Bb" break="no"/>sus descendet ad locum damnatorum: et
+          <lb ed="#Bb"/>sic vox Domini sive preceptum 
+          interci<lb ed="#Bb" break="no"/>dit flammam ignis. </quote>
+               </p>
+               <p xml:id="Almn78-d32761-d1e815">
+                  <lb ed="#Bb"/>Unde argumenta inducta ad hoc, 
+        con<lb ed="#Bb" break="no"/>cedenda sunt. Nihil enim in corporalibus
+        <lb ed="#Bb"/>ita simile est spiritualibus sicut lux: et
+        <lb ed="#Bb"/>ideo spirituali luci in contemplatione
+        <lb ed="#Bb"/>beatorum nihil ita congruit sicut locus
+        <lb ed="#Bb"/>luminosus corporali luce.
+      </p>
+               <p xml:id="Almn78-d32761-d1e832">
+                  <lb ed="#Bb"/>Ad id quod objicitur in contrarium,
+        <lb ed="#Bb"/>dicendum, quod non semper est verum,
+        <lb ed="#Bb"/>quod idem eodem modo se habens, 
+        sem<lb ed="#Bb" break="no"/>per facit idem, nisi in recipiente quod
+        <lb ed="#Bb"/>eliam eodem modo se habet. Unde 
+        quam<lb ed="#Bb" break="no"/>vis dicamus, quod primum ccelum influit
+        <lb ed="#Bb"/>super secundum, non tamen oportet,
+        <lb ed="#Bb"/>quod secundum fiat uniforme sicut 
+        pri<lb ed="#Bb" break="no"/>mum: quia secundum non habet se eodem
+        <lb ed="#Bb"/>modo in recipiendo, et in quadam parte
+        <lb ed="#Bb"/>sui receptibile est luminis, et in quadam
+        <lb ed="#Bb"/>parte non: et ideo licet primum sit 
+        uni<lb ed="#Bb" break="no"/>forme in lumine, tamen secundum potest
+        <lb ed="#Bb"/>esse difforme.
+      </p>
+            </div>
+            <div xml:id="Almn78-d32761-Dd1e867">
+               <head xml:id="Almn78-d32761-Hd1e869">Membrum 3</head>
+               <head xml:id="Almn78-d32761-Hd1e872" type="question-title">
+        Utrum coelum empyreum quiescat vel
+        moveatur
+      </head>
+               <p xml:id="Almn78-d32761-d1e875">
+                  <lb ed="#Bb"/>MEMBRUM III.
+        <lb ed="#Bb"/>Utrum coelum empyreum quiescat vel
+        <lb ed="#Bb"/>moveatur?
+      </p>
+               <p xml:id="Almn78-d32761-d1e884">
+                  <lb ed="#Bb"/>Tertio queritur propter verbum Bede,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Utrum celum empyreum quiescat vel
+        <lb ed="#Bb"/>moveatur ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e895">
+                  <lb ed="#Bb"/>1. Magister enim in libro II 
+        Sententia<lb ed="#Bb" break="no"/>rum, distinct. II, cap. Jam ostensum est,
+        <lb ed="#Bb"/>inducit Bedam sic dicentem: <quote xml:id="Almn78-d32761-Qd1e903"> Hoc 
+          su<lb ed="#Bb" break="no"/>perius celum, quod a volubilitate
+          <lb ed="#Bb"/>mundi secretum est, mox ut creatum,
+          <lb ed="#Bb"/>sanctis Angelis repletum est. </quote> Si ergo
+        <lb ed="#Bb"/>a volubilitate mundi secretum est, 
+        vide<lb ed="#Bb" break="no"/>tur quod non volvatur, nec moveatur :
+        <lb ed="#Bb"/>et sic immobile est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e921">
+                  <lb ed="#Bb"/>2. Adhuc, Quies congruit beatis et 
+        con<lb ed="#Bb" break="no"/>templationibus: quia illi quiescunt 
+        om<lb ed="#Bb" break="no"/>nes in una fruitione, scilicet summi boni:
+        <lb ed="#Bb"/>et cum habitator et habitaculum 
+        con<lb ed="#Bb" break="no"/>gruere debeant, et ccelum empyreum sit
+        <lb ed="#Bb"/>habitaculum fruentium et beatorum, erit
+        <lb ed="#Bb"/>celum empyreum immobile.
+      </p>
+               <p xml:id="Almn78-d32761-d1e939">
+                  <lb ed="#Bb"/>In conrrartum est, quod dicit Alpetra-
+        <lb ed="#Bb" break="no"/>gius, quod virtus primi motoris fortior et
+        <lb ed="#Bb"/>vehementior est in mobili sibi proximo,
+        <lb ed="#Bb"/>quam in eo quod sibi per medium 
+        con<lb ed="#Bb" break="no"/>jungetur : et ideo primum ccelum est 
+        ve<lb ed="#Bb" break="no"/>hementissimi motus: est autem ccelum
+        <lb ed="#Bb"/>empyreum, primum ccelum et supre-~
+        <lb ed="#Bb"/>mum: ergo primo motori proximum :
+        <lb ed="#Bb"/>ergo velocissimi motus.
+      </p>
+               <p xml:id="Almn78-d32761-d1e961">
+                  <lb ed="#Bb"/>Si quis dicat, quod omnis motus est
+        <lb ed="#Bb"/>propter indigentiam, et primum celum
+        <lb ed="#Bb"/>nullo indiget, quia totum est in actu: et
+        <lb ed="#Bb"/>ideo non movetur. Hoc nihil est: quia
+        <lb ed="#Bb"/>propositio quam inducit, et super quam
+        <lb ed="#Bb"/>se fundat, falsa est. Non enim omnis 
+        mo<lb ed="#Bb" break="no"/>tus est propter indigentiam : aliquis enim
+        <lb ed="#Bb"/>motus est in demonstrationem potestatis
+        <lb ed="#Bb"/>et virlutis : sicut si extendo brachium, et
+        <lb ed="#Bb"/>moveo ad hoc, quod demonstrem 
+        virtu<lb ed="#Bb" break="no"/>tem quam habeo in brachio.
+      </p>
+               <p xml:id="Almn78-d32761-d1e987">
+                  <lb ed="#Bb"/>Similiter, motus secundum quod est
+        <lb ed="#Bb"/>actus motoris, numquam est indigentia,
+        <lb ed="#Bb"/>sed secundum quod est actus 
+        mo<lb ed="#Bb" break="no"/>bilis aliquando est propter 
+        indigen<lb ed="#Bb" break="no"/>tiam.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1000">
+                  <lb ed="#Bb"/>Similiter, si celum empyreum inter
+        <lb ed="#Bb"/>orbes corporeos magis appropinquat 
+        pri<lb ed="#Bb" break="no"/>mo motori, videtur quod in eo per velo
+        <pb ed="#Bb" n="153"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>cissimum motum debet demonstrari 
+        vir<lb ed="#Bb" break="no"/>tus motoris primi.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1018">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod celum 
+        em<lb ed="#Bb" break="no"/>pyreum immobile est, ut dicunt Sancti:
+        <lb ed="#Bb"/>eo quod immobilitas et quies in 
+        habita<lb ed="#Bb" break="no"/>culo magis congruit habitatori qui 
+        frui<lb ed="#Bb" break="no"/>tur summo bono, quam motus: quia
+        <lb ed="#Bb"/>quod movetur, renovatur secundum 
+        for<lb ed="#Bb" break="no"/>mam vel situm, et numquam statin uno:
+        <lb ed="#Bb"/>et non hoc congruit ei qui fruitur, quia ille
+        <lb ed="#Bb"/>stat in uno. Unde Augustinus in libro I
+        <lb ed="#Bb"/>de Doctrina Christiana: <quote xml:id="Almn78-d32761-Qd1e1041"> Fruimur 
+          co<lb ed="#Bb" break="no"/>gnitis in quibus voluntas delectata 
+          con<lb ed="#Bb" break="no"/>quiescit. </quote>
+               </p>
+               <p xml:id="Almn78-d32761-d1e1050">
+                  <lb ed="#Bb"/>Ad id quod objicitur in contrarium, 
+        di<lb ed="#Bb" break="no"/>cendum, quod duplex est appropinquatio
+        <lb ed="#Bb"/>ad primum motorem. Una est 
+        appropin<lb ed="#Bb" break="no"/>quatio ad ipsum in quantum motor est:
+        <lb ed="#Bb"/>et sic maxime appropinquat, quod 
+        ma<lb ed="#Bb" break="no"/>xime movetur ab ipso: et de hoc 
+        pro<lb ed="#Bb" break="no"/>cedit objectio. Alia est appropinquatio
+        <lb ed="#Bb"/>non in quantum motor est, sed per 
+        con<lb ed="#Bb" break="no"/>formitatem ad eum, in quantum est 
+        ob<lb ed="#Bb" break="no"/>jectum beatitudinis : et sic quod maxime
+        <lb ed="#Bb"/>accedit, minime movetur. Et hoc modo
+        <lb ed="#Bb"/>inter orbes corporeos magis accedit 
+        ce<lb ed="#Bb" break="no"/>lum empyreum: et ideo dicunt Sancti,
+        <lb ed="#Bb"/>quod magis a volubilitate mundi 
+        secre<lb ed="#Bb" break="no"/>tum est.
+      </p>
+            </div>
+            <div xml:id="Almn78-d32761-Dd1e1086">
+               <head xml:id="Almn78-d32761-Hd1e1088">Membrum 4</head>
+               <head xml:id="Almn78-d32761-Hd1e1091" type="question-title">
+        Quid sit coelum Trinitatis, scilicet utrum
+        sit corpus, vel non, et, Quid in eo 
+        contineatur
+      </head>
+               <p xml:id="Almn78-d32761-d1e1094">
+                  <lb ed="#Bb"/>MEMBRUM IV.
+        <lb ed="#Bb"/>Quid sit coelum Trinitatis, scilicet utrum
+        <lb ed="#Bb"/>sit corpus,vel non ? et, Quid in eo 
+        con<lb ed="#Bb" break="no"/>tineatur?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1105">
+                  <lb ed="#Bb"/>Detnve ratione hujus quod in fine 
+        ejus<lb ed="#Bb" break="no"/>dem distinctionis dicit Magister, cap. Hic
+        <lb ed="#Bb"/>queri solet: oportet querere de ccelo
+        <lb ed="#Bb"/>Trinitatis,’ Quid sit, utrum scilicet sit
+        <lb ed="#Bb"/>corpus, vel non ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1118">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Et, Quid in eo contineatur ?
+        <lb ed="#Bb"/>Quod corpus sit, probatur sic :
+        <lb ed="#Bb"/>4. Quecumque sunt ejusdem divisio-~
+        <lb ed="#Bb"/>nis, sunt ejusdem nature communis:
+        <lb ed="#Bb"/>celum Trinitatis cum aliis ccelis que
+        <lb ed="#Bb"/>enumerat <name xml:id="Almn78-d32761-Nd1e1135">Rabanus</name> in Glossa super 
+        Deu<lb ed="#Bb" break="no"/>teronomium, ubi dicit, quod est celum
+        <lb ed="#Bb"/>Trinitatis, empyreum, crystallinum, 
+        fir<lb ed="#Bb" break="no"/>mamentum, igneum, olympium, 
+        ethe<lb ed="#Bb" break="no"/>reum, aereum, hoc ccelum Trinitatis
+        <lb ed="#Bb"/>enumeratur sub hoc communi quod est
+        <lb ed="#Bb"/>coelum: ergo commune quod est celum,
+        <lb ed="#Bb"/>per unam naturam est in omnibus 
+        enu<lb ed="#Bb" break="no"/>meratis : sed per naturam corporei est in
+        <lb ed="#Bb"/>ceelo Trinitatis: ergo ccelum Trinitatis
+        <lb ed="#Bb"/>est corpus.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1162">
+                  <lb ed="#Bb"/>2. Adhuc, Aristoteles in 
+        Predicamen<lb ed="#Bb" break="no"/>tis pro principio ponit : Quando alterum
+        <lb ed="#Bb"/>dicitur de altero ut de subjecto, 
+        quecum<lb ed="#Bb" break="no"/>que de predicato dicuntur, omnia de
+        <lb ed="#Bb"/>subjecto dicuntur. Constat autem, quod
+        <lb ed="#Bb"/>ccelum Trinitatis est celum : ccelum 
+        au<lb ed="#Bb" break="no"/>tem est corpus, ut prius habitum est:
+        <lb ed="#Bb"/>ergo ceelum Trinitatis corpus est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1182">
+                  <lb ed="#Bb"/>3. Adhuc, Omne quod per differentias
+        <lb ed="#Bb"/>situs determinabile est ad locum, corpus
+        <lb ed="#Bb"/>est: ccelum Trinitatis per differentias 
+        si<lb ed="#Bb" break="no"/>tus determinatur ad locum, dicitur enim
+        <lb ed="#Bb"/>esse supremum, supra autem et infra 
+        dif<lb ed="#Bb" break="no"/>ferentia situs sunt et loci. Ergo constat
+        <lb ed="#Bb"/>propositum, scilicet quod celum 
+        Trini<lb ed="#Bb" break="no"/>tatis est corpus.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1202">
+                  <lb ed="#Bb"/>In contrarium est, quod Deus est in
+        <lb ed="#Bb"/>celo Trinitatis, sicut dicunt Sancti.
+        <lb ed="#Bb"/>Matth, vi. 9: Pater noster, qui es in ce~
+        <lb ed="#Bb"/>lis’ Si ergo continetur in ipso sicut in
+        <lb ed="#Bb"/>corpore, tunc Deus finitur ad aliquod
+        <lb ed="#Bb"/>corpus, et est in aliquo corpore inclusus
+        <lb ed="#Bb"/>in illo, quod est contra fidem. II Paralip.
+        <lb ed="#Bb"/>vi, 18: Sicelum et celi celorum non
+        <lb ed="#Bb"/>te capiant, quanto magis domus ista
+        <lb ed="#Bb"/>quam exdificavi, scilicet tibi. Gregorius :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d32761-Qd1e1228">Deus est in omnibus non inclusus. </quote>
+                  <lb ed="#Bb"/>Patet ergo, quod celum Trinitatis non
+        <lb ed="#Bb"/>potest esse corpus.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1236">
+                  <pb ed="#Bb" n="154"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Quzrator ergo, Utrum ccelum 
+        Trini<lb ed="#Bb" break="no"/>tatis sit ipse Deus ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1247">
+                  <lb ed="#Bb"/>Et videtur, quod non:
+        <lb ed="#Bb"/>1. Dicit enim Philosophus in IV 
+        Phy<lb ed="#Bb" break="no"/>sicorum, quod nihil est in seipso per se:
+        <lb ed="#Bb"/>cum ergo Deus sit in coslo Trinitatis, et |
+        <lb ed="#Bb"/>non in aliquo per accidens, nullum enim
+        <lb ed="#Bb"/>accidens convenit Deo, constat quod
+        <lb ed="#Bb"/>ceelum Trinitatis non potest esse idem
+        <lb ed="#Bb"/>cum Deo.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1267">
+                  <lb ed="#Bb"/>2. Adhuc, Isaizw, uxvi,1: Calum sedes
+        <lb ed="#Bb"/>mea, terra autem scabellum pedum 
+        meo<lb ed="#Bb" break="no"/>rum, Constat autem, quod Deus est in
+        <lb ed="#Bb"/>ceelo illo quod sedes ejusdem est : et hoc
+        <lb ed="#Bb"/>dividitur contra terram: cum ergo 
+        nul<lb ed="#Bb" break="no"/>lum increatum dividitur contra creatum,
+        <lb ed="#Bb"/>et terra creata sit et dividatur contra 
+        cce<lb ed="#Bb" break="no"/>lum, oportet coelum creatum esse: sed
+        <lb ed="#Bb"/>nullum creatum est Deus: ergo celum
+        <lb ed="#Bb"/>Trinitatis non est Deus.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1292">
+                  <lb ed="#Bb"/>3. Adhuc, Isa. xiv, 13 et 14, dixit 
+        Lu<lb ed="#Bb" break="no"/>cifer: Jn celum conscendam, super astra
+        <lb ed="#Bb"/>Dei exaltabo solium meum: sedebo in
+        <lb ed="#Bb"/>monte testamenti.... Similis ero 
+        Altissi<lb ed="#Bb" break="no"/>mo. Ergo per hoc quod in ecelum voluit
+        <lb ed="#Bb"/>conscendere, similis voluit esse Altissimo:
+        <lb ed="#Bb"/>sed per nullius corporis vel creature
+        <lb ed="#Bb"/>ascensionem potuit esse similis Altissimo :
+        <lb ed="#Bb"/>et hoc scivit,cum sapiens esset : ergo non
+        <lb ed="#Bb"/>intendit aliquam corpoream altitudinem
+        <lb ed="#Bb"/>vel creatam, quando dixit : In eelum 
+        con<lb ed="#Bb" break="no"/>scendam : ccelum ergo Trinitatis nec 
+        cor<lb ed="#Bb" break="no"/>pus est, nec aliquid creatum.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1323">
+                  <lb ed="#Bb"/>Si autem hoc conceditur : tune 
+        queri<lb ed="#Bb" break="no"/>tur, Qua altitudine ceelum Trinitatis 
+        ele<lb ed="#Bb" break="no"/>vetur super alios.ccelos ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1332">
+                  <lb ed="#Bb"/>Dicit enim Philosophus in II de Celo
+        <lb ed="#Bb"/>et Mundo, quod extra celum supremum
+        <lb ed="#Bb"/>nec locus est, nec tempus, sed vita beata.
+        <lb ed="#Bb"/>Et sic videtur, quod cum Deus infinitus
+        <lb ed="#Bb"/>innullo corpore possit esse inclusus in
+        <lb ed="#Bb"/>illo, nec extra aliquod corpus exclusus
+        <lb ed="#Bb"/>ab illo, quod ccelum Trinitatis elevatione
+        <lb ed="#Bb"/>corporali sive locali esse non possit 
+        su<lb ed="#Bb" break="no"/>pra celum empyreum, nec intra ipsum.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1354">
+                  <lb ed="#Bb"/>Juxta hoc ulterius queritur, Quid in |
+        <lb ed="#Bb"/>ccelo Trinitatis contineatur ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1361">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Et videtur, quod omnes Angeli et 
+        om<lb ed="#Bb" break="no"/>nes beati. Ad Coloss. 1, 1: Que sursum
+        <lb ed="#Bb"/>sunt querite, ubi Christus est in dextera
+        <lb ed="#Bb"/>Dei sedens. Si querenda sunt illa, tune
+        <lb ed="#Bb"/>permanendum est in eis. Christus autem
+        <lb ed="#Bb"/>sedet ad dexteram Dei in ccelo Trinitatis.
+        <lb ed="#Bb"/>Ergo videtur, quod sanctis omnibus ma~
+        <lb ed="#Bb"/>nendum sit in celo Trinitatis.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1383">
+                  <lb ed="#Bb"/>Unrerivs queritur de beata Virgine, g,,
+        <lb ed="#Bb"/>Utrum ipsa sit in ceelo Trinitatis ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1391">
+                  <lb ed="#Bb"/>Et vidétur, quod sic, per verbum 
+        Hie<lb ed="#Bb" break="no"/>ronymi insermone, Cogitis me, o Paula
+        <lb ed="#Bb"/>et Eustochium, quod <quote xml:id="Almn78-d32761-Qd1e1399"> exaltata est 
+          su<lb ed="#Bb" break="no"/>per omnes choros ad ceelestia regna. </quote>
+                  <lb ed="#Bb"/>Super omnes autem choros Angelorum
+        <lb ed="#Bb"/>non est nisi ccelum Trinitatis. Ergo 
+        exal<lb ed="#Bb" break="no"/>pata est in ccelum Trinitatis.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1412">
+                  <lb ed="#Bb"/>Utrerius queritur de Christo homine gu
+        <lb ed="#Bb"/>in quantum homo, Utrum sit in ccelo
+        <lb ed="#Bb"/>Trinitatis ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1421">
+                  <lb ed="#Bb"/>Et videtur, quod sic.
+        <lb ed="#Bb"/>4. In symbolo enim dicitur : <quote xml:id="Almn78-d32761-Qd1e1427"> 
+          Ascen<lb ed="#Bb" break="no"/>dit in celum, sedet ad dexteram Dei
+          <lb ed="#Bb"/>Patris. </quote> Dextera autem Dei Patris est in
+        <lb ed="#Bb"/>ceelo Trinitatis : ergo Christus homo in
+        <lb ed="#Bb"/>quantum homo est, in ccelo Trinitatis
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1442">
+                  <lb ed="#Bb"/>2. Adhuc, Idem probatur per verbum
+        <lb ed="#Bb"/>Stephani, Act. vm, 56 : Ecce video celos
+        <lb ed="#Bb"/>apertos, et Jesum stantem a dextris Dei.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1451">
+                  <lb ed="#Bb"/>3. Adhuc, In Psalmo xvi, 7: A 
+        sum<lb ed="#Bb" break="no"/>mo celo egressio ejus : ef occursus ejus
+        <lb ed="#Bb"/>usque ad summum ejus. Summum 
+        au<lb ed="#Bb" break="no"/>tem cceelum, ccelum Trinitatis est : nec
+        <lb ed="#Bb"/>occursus ejus est usque ad summum, nisi
+        <lb ed="#Bb"/>occurrat in ceelum Trinitatis : ergo 
+        vide<lb ed="#Bb" break="no"/>tur, quod Christus homo in quantum 
+        ho<lb ed="#Bb" break="no"/>mo, sit in celo Trinitatis.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1471">
+                  <lb ed="#Bb"/>In contrarium est, quod dicit 
+        Magi<lb ed="#Bb" break="no"/>ster in libro Il Sententiarum, distinct. II,
+        <lb ed="#Bb"/>cap.ultimo,quod cum dicitur ceelum 
+        Tri<lb ed="#Bb" break="no"/>nitatis,in quod concupivit Lucifer ascen~
+        <lb ed="#Bb"/>dere, ibidicitur ccelum Dei celsitudo:
+        <lb ed="#Bb"/>etest tale, Ascendam in ccelum, hoc est,
+        <lb ed="#Bb"/>ad equalitatem Dei’: sed ad equalita
+        <pb ed="#Bb" n="155"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>tem Dei, nec beata Virgo, nec etiam
+        <lb ed="#Bb"/>Christus homo in quantum homo, neo
+        <lb ed="#Bb"/>aliqua creatura umquam ascendit : ergo
+        <lb ed="#Bb"/>in ceelo Trinitatis nihil est, nisi ipsa
+        <lb ed="#Bb"/>Trinitas, scilicet Pater et Filius et 
+        Spi<lb ed="#Bb" break="no"/>ritus sanctus. Unde etiam, Joan. xiv, 28,
+        <lb ed="#Bb"/>dicit Christus homo in quantum homo :
+        <lb ed="#Bb"/>Pater major me est. Kt in symbolo 
+        Atha<lb ed="#Bb" break="no"/>nasii: <quote xml:id="Almn78-d32761-Qd1e1512"> Aiqualis Patri secundum 
+          divi<lb ed="#Bb" break="no"/>nitatem, minor Patre secundum 
+          humani<lb ed="#Bb" break="no"/>tatem. </quote>
+               </p>
+               <p xml:id="Almn78-d32761-d1e1521">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod in celo
+        <lb ed="#Bb"/>Trinitatis nihil est, nisi ipsa Trinitas : et
+        <lb ed="#Bb"/>ceelum Trinitatis non est corpus, sed ipsa
+        <lb ed="#Bb"/>Trinitatis eminens celsitudo, continens in
+        <lb ed="#Bb"/>esse, et salvans omne quod est: quod
+        <lb ed="#Bb"/>Philosophi celo attribuebant, et hoc 
+        ce<lb ed="#Bb" break="no"/>lum vocabant : ideo celum sedem Dei
+        <lb ed="#Bb"/>esse dixerunt.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1541">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod ea
+        <lb ed="#Bb"/>que sunt ejusdem divisionis sub aliquo
+        <lb ed="#Bb"/>communi, sunt ejusdem rationis et 
+        ejus<lb ed="#Bb" break="no"/>dem nature in illo communi, si illud
+        <lb ed="#Bb"/>commune ut genus predicatur de eis. Si
+        <lb ed="#Bb"/>autem predicatur ut commune per 
+        ana<lb ed="#Bb" break="no"/>logiam sive proportionem, tunc non est
+        <lb ed="#Bb"/>verum : et ita predicatur celum de celo
+        <lb ed="#Bb"/>Trinitatis, et aliis ccelis. Secundum hoc
+        <lb ed="#Bb"/>enim dicitur celum, quod est continue
+        <lb ed="#Bb"/>continens et salvans contenta sub ipso :
+        <lb ed="#Bb"/>et hoc modo celum Trinitatis per prius
+        <lb ed="#Bb"/>est celum : quia simpliciter continet et
+        <lb ed="#Bb"/>salvat omnia Dei summa celsitudo : alii
+        <lb ed="#Bb"/>autem cceli quedam continent et salvant
+        <lb ed="#Bb"/>quodam modo et non simpliciter. Dico
+        <lb ed="#Bb"/>autem guodam modo, quia per 
+        influen<lb ed="#Bb" break="no"/>tiam luminis et motuum, et non 
+        simpli<lb ed="#Bb" break="no"/>citer : non enim salvant ut causa efficiens
+        <lb ed="#Bb"/>que per essentiam, presentiam, 
+        poten<lb ed="#Bb" break="no"/>tiam, sit in omnibus, sicut est eminens
+        <lb ed="#Bb"/>Dei celsitudo.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1591">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod regula
+        <lb ed="#Bb"/>Aristotelis intelligitur de his que 
+        pre<lb ed="#Bb" break="no"/>dicantur ut genus, vel ut natura 
+        commu<lb ed="#Bb" break="no"/>nis : et non de his que predicantur
+        <lb ed="#Bb"/>in communitate analogie sive 
+        proportio<lb ed="#Bb" break="no"/>nis.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1607">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod ccelum Tri
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>nitatis per differentias situs et loci non
+        <lb ed="#Bb"/>determinatur ad aliquem locum, Deus
+        <lb ed="#Bb"/>enim localis non est : et quando dicitur
+        <lb ed="#Bb"/>supremum vel summum, intelligitur de
+        <lb ed="#Bb"/>eminentia dignitatis, non loci.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1625">
+                  <lb ed="#Bb"/>Ip quop objicitur in contrarium, 
+        dedu<lb ed="#Bb" break="no"/>cit ad inconveniens, et procedit.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1632">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, utrum
+        <lb ed="#Bb"/>sit ipse Deus ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1640">
+                  <lb ed="#Bb"/>Dicendum, quod absque dubio ccelum
+        <lb ed="#Bb"/>Trinitatis est ipse Deus Trinitas.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1647">
+                  <lb ed="#Bb"/>Ad idw quod objicitur in contrarium,
+        <lb ed="#Bb"/>dicendum quod nihil est in seipso, ut 
+        di<lb ed="#Bb" break="no"/>cit Philosophus : sed oportet 
+        diversita<lb ed="#Bb" break="no"/>tem esse inter continens et contentum :
+        <lb ed="#Bb"/>sed hec est diversa : in composilis enim
+        <lb ed="#Bb"/>localibus inter continens et contentum est
+        <lb ed="#Bb"/>diversitas rei : et de his intelligitur 
+        di<lb ed="#Bb" break="no"/>ctum Philosophi. In simplicibus autem
+        <lb ed="#Bb"/>non localibus sufficit diversitas secundum
+        <lb ed="#Bb"/>modum significandi : et sic est hic cum
+        <lb ed="#Bb"/>dicitur, Deus est in eminentia dignitatis
+        <lb ed="#Bb"/>sue, sive in ccelo : tunc enim per
+        <lb ed="#Bb"/>Deum significatur causa continens et
+        <lb ed="#Bb"/>salvans omnia, et per celum significatur
+        <lb ed="#Bb"/>idem, sed alio modo, significatur enim ut
+        <lb ed="#Bb"/>ambiens omnia que continet et salvat,
+      </p>
+               <p xml:id="Almn78-d32761-d1e1684">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Isaias non
+        <lb ed="#Bb"/>loquitur de ccelo Trinitatis, sed de ccelo
+        <lb ed="#Bb"/>prout locus beatorum est : et hoc dicitur
+        <lb ed="#Bb"/>sedes Dei, quia per eminentiorem 
+        effe<lb ed="#Bb" break="no"/>ctum gratiz et gloriz apparet in illo. Et
+        <lb ed="#Bb"/>bene concedendum est, guod hoc est
+        <lb ed="#Bb"/>creatum. Et terra dicit secabellum pedum
+        <lb ed="#Bb"/>ejus : quia non apparet in ea expressa
+        <lb ed="#Bb"/>species quam contemplantur beati, sed
+        <lb ed="#Bb"/>potius obscurumivestigium, quod 
+        sequun<lb ed="#Bb" break="no"/>tur hi qui per creaturas quasi mendicando
+        <lb ed="#Bb"/>discunt Deum. Videmus nune per speciem
+        <lb ed="#Bb"/>in enigmate : tunc autem facie, ad 
+        fa<lb ed="#Bb" break="no"/>ciem, sicut dicitur, ] ad Corinth. xin, 42.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1717">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+        proce<lb ed="#Bb" break="no"/>dit et probat veritatem secundum 
+        Catho<lb ed="#Bb" break="no"/>licam fidem.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1726">
+                  <lb ed="#Bb"/>Similiter dicendum est ad sequens,
+        <lb ed="#Bb"/>scilicet de elevatione coli, quod hac 
+        ra<lb ed="#Bb" break="no"/>tione vere concludit et procedit : extra
+        <lb ed="#Bb"/>celum enim empyreum nec locus nec
+        <pb ed="#Bb" n="156"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>tempus est, sed vita beata, que dicitur
+        <lb ed="#Bb"/>ibi esse in Deo sicut in objecto, non 
+        sic<lb ed="#Bb" break="no"/>ut in loco : Deus enim cum infinitus sit,
+        <lb ed="#Bb"/>nullo loco vel tempore finitur vel 
+        conti<lb ed="#Bb" break="no"/>netur, sed est in quolibet non inclusus,
+        <lb ed="#Bb"/>ut dicit Gregorius.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1755">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, Quid
+        <lb ed="#Bb"/>sit in ceelo Trinitatis ?
+      </p>
+               <p xml:id="Almn78-d32761-d1e1763">
+                  <lb ed="#Bb"/>Dicendum, quod solus Deus Trinitas
+        <lb ed="#Bb"/>est in colo Trinitatis. Nihil enim 
+        creato<lb ed="#Bb" break="no"/>rum potest pervenire ad equalitatem
+        <lb ed="#Bb"/>eminentie divine :
+      </p>
+               <p xml:id="Almn78-d32761-d1e1774">
+                  <lb ed="#Bb"/>Et quod objicitur de dicto Apostoli ad
+        <lb ed="#Bb"/>Colossenses, dicendum, quod ibi 
+        dicun<lb ed="#Bb" break="no"/>tur esse sursum in dextera Dei bona 
+        po<lb ed="#Bb" break="no"/>tiora, quibus fruitur Christus : et 
+        dicun<lb ed="#Bb" break="no"/>turjad dezteram, quia spiritualia sunt :
+        <lb ed="#Bb"/>et per oppositum temporalia per 
+        meta<lb ed="#Bb" break="no"/>phoram dicuntur esse ad sinistram.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1792">
+                  <lb ed="#Bb"/>Ad id quod objicitur de beata Virgine,
+        <lb ed="#Bb"/>dicendum, quod ipsa quia creata est,
+        <lb ed="#Bb"/>non est in equalitate Dei, et per 
+        conse<lb ed="#Bb" break="no"/>quens non est in ceelo Trinitatis.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1803">
+                  <lb ed="#Bb"/>Ad dictum Hieronymi dicendum, quod
+        <lb ed="#Bb"/>licet super choros Angelorum nihil sit
+        <lb ed="#Bb"/>nisi ceelum Trinitatis quantum ad 
+        distin<lb ed="#Bb" break="no"/>ctionem mansionum in beatitudine : 
+        ta<lb ed="#Bb" break="no"/>men chori Angelorum ad Dei equalita
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>tem non ascendunt, sed inter eminentiam
+        <lb ed="#Bb"/>Dei et elevationes Angelorum infinita
+        <lb ed="#Bb"/>distantia est tam in gradibus dignitatis,
+        <lb ed="#Bb"/>quam in gradibus gloria, in quibus beata
+        <lb ed="#Bb"/>Virgo exaltata super choros Angelorum
+        <lb ed="#Bb"/>esse dicitur : quod, ut dicit Hieronymus,
+        <lb ed="#Bb"/>nulli Sanctorum preter eam est 
+        conces<lb ed="#Bb" break="no"/>sum :tamen ad aqualitatem eminentie
+        <lb ed="#Bb"/>divine non ascendit.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1838">
+                  <lb ed="#Bb"/>Adw quod queritur de Christo, dicen- sag
+        <lb ed="#Bb"/>dum, quod Christus homo est in ccelo
+        <lb ed="#Bb"/>Trinitatis, sed non in quantum homo:
+        <lb ed="#Bb"/>quia. hoc quod dico, in quantum, synca~
+        <lb ed="#Bb"/>tegorematice sumptum, conditionem na~
+        <lb ed="#Bb"/>ture dicit, et ex conditione humana non
+        <lb ed="#Bb"/>habet Christus, quod sit in ccelo Trinita~
+        <lb ed="#Bb"/>tis, sed potius ex unitate persone.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1858">
+                  <lb ed="#Bb"/>Et sic de Christo homine non in 
+        quan<lb ed="#Bb" break="no"/>tum homo intelligitur dictum symboli,
+        <lb ed="#Bb"/>sicut bene explanatur per dictum 
+        Atha<lb ed="#Bb" break="no"/>nasii in symbolo, Quicumque vult.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1870">
+                  <lb ed="#Bb"/>Per idem patet solutio ad illud quod
+        <lb ed="#Bb"/>objicitur de auctoritatibus et Psalmo. Hac
+        <lb ed="#Bb"/>enim de Christo homine dicuntur, nonin
+        <lb ed="#Bb"/>quantum est homo, sed in quantum est
+        <lb ed="#Bb"/>divina persona.
+      </p>
+               <p xml:id="Almn78-d32761-d1e1883">
+                  <lb ed="#Bb"/>Ip guop objicitur in contrarium, 
+        sim<lb ed="#Bb" break="no"/>pliciter concedendum est : quia hoc est
+        <lb ed="#Bb"/>Catholica fides.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

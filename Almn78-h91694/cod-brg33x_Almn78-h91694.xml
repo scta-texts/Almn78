@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 125</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 125</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="411"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h91694"><!-- p2t20q125 -->
+            <head xml:id="Almn78-h91694-Hd1e106">Quaestio 125</head>
+            <p xml:id="Almn78-h91694-d1e109">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAESTIO CXXV.
+<lb ed="#Bc"/>De mendacio.
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Primo ergo queremus de mendacio 
+<lb ed="#Bc"/>quatuor, scilicet primo quid sit ? 
+<lb ed="#Bc"/>Secundo, Utrum generaliter menda-  
+<lb ed="#Bc"/>cium sit peccatum? officioso ?
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Tertio,De differentiis ejus et quantitate.
+<lb ed="#Bc"/>Et quarto, Utrum perfecto liceat in
+<lb ed="#Bc"/>aliquo casu mentiri mendacio jocoso vel
+</p>
+            <div xml:id="Almn78-h91694-Dd1e138">
+               <head xml:id="Almn78-h91694-Hd1e140">Membrum 1</head>
+               <head xml:id="Almn78-h91694-Hd1e143" type="question-title">
+        Quid sit mendacium
+      </head>
+               <p xml:id="Almn78-h91694-d1e146">
+                  <pb ed="#Bc" n="412"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit mendacium ?
+</p>
+               <p xml:id="Almn78-h91694-d1e157">
+                  <lb ed="#Bc"/>Definit autem Augustinus mendacium
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h91694-Qd1e163"> Mendacium est false vocis 
+signi<lb ed="#Bc" break="no"/>ficatio cum intentione fallendi. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e169">
+                  <lb ed="#Bc"/>Objicitur autem contra istam 
+definitio<lb ed="#Bc" break="no"/>nem sic:
+</p>
+               <p xml:id="Almn78-h91694-d1e177">
+                  <lb ed="#Bc"/>1. Contingit fallere factis sieut verbis :
+<lb ed="#Bc"/>ergo contingit mentiri factis: non ergo
+<lb ed="#Bc"/>mendacium est tantum falsa vocis 
+signi<lb ed="#Bc" break="no"/>ficatio, sed etiam factorum falsa 
+signifi<lb ed="#Bc" break="no"/>catio.
+</p>
+               <p xml:id="Almn78-h91694-d1e190">
+                  <lb ed="#Bc"/>2. Adhuc, <name xml:id="Almn78-h91694-Nd1e194">Bernardus</name>: <quote xml:id="Almn78-h91694-Qd1e197"> Est qui dicit
+<lb ed="#Bc"/>quod nonest, et non mentitur : et est qui
+<lb ed="#Bc"/>dicit quod est, et mentitur. </quote> Ergo vide~
+<lb ed="#Bc"/>tur, quod mendacium non est false vocis
+<lb ed="#Bc"/>tantum significatio, sed etiam vere
+<lb ed="#Bc"/>vocis significatio.
+</p>
+               <p xml:id="Almn78-h91694-d1e212">
+                  <lb ed="#Bc"/>3. Adhuc, Sophiste docent verbis 
+de<lb ed="#Bc" break="no"/>cipere et fallere,et non mentiuntur, sicut
+<lb ed="#Bc"/>legitur in vita beati Augustini, quod sine
+<lb ed="#Bc"/>dolo docebat dolos. Non ergo verum est,
+<lb ed="#Bc"/>quod false vocis significatio cum 
+inten<lb ed="#Bc" break="no"/>tione fallendi semper sit mendacium.
+</p>
+               <p xml:id="Almn78-h91694-d1e228">
+                  <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>Super illud Psalmi vy, 7: Perdes 
+om<lb ed="#Bc" break="no"/>nes qui loquuntur mendacium : 
+Cassio<lb ed="#Bc" break="no"/>dorus in Glossa accipiens illud verbum
+<lb ed="#Bc"/>Augustini in libro de ddendacio, dicit,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h91694-Qd1e243"> mendacium nihil aliud est quam
+<lb ed="#Bc"/>false vocis significatio cum intentione
+<lb ed="#Bc"/>fallendi. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e251">
+                  <lb ed="#Bc"/>Solutio, Dicendum,sicut dicit Basilius
+<lb ed="#Bc"/>super principium Proverbiorum, et etiam
+<lb ed="#Bc"/>Plato -dixit ante eum, sermonis usum
+<lb ed="#Bc"/>nobis Deus indulsit, ut cogitationes et
+<lb ed="#Bc"/>affectiones nostras nobis invicem 
+pande<lb ed="#Bc" break="no"/>remus per sermonem. Si autem nuda et
+<lb ed="#Bc"/>intecta anima wuteremur, sermo nobis
+<lb ed="#Bc"/>non esset necessarius, sed, sicut Angeli
+<lb ed="#Bc"/>Joquuntur ad invicem, ita illuminationi
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>bus de cogitatis et affectis nobis invicem
+<lb ed="#Bc"/>innotesceremus. Ex quo patet, quod 
+ser<lb ed="#Bc" break="no"/>mo directe est concessus ad hoc, ut de
+<lb ed="#Bc"/>cogitatis et affectis enuntiet sicut est, et
+<lb ed="#Bc"/>non aliter: et si aliter enuntiet, tunc 
+fa<lb ed="#Bc" break="no"/>cit falsa pro veris probari: et hoc 
+voca<lb ed="#Bc" break="no"/>tur hic cum intentione fallendi, et est
+<lb ed="#Bc"/>inomni mendacio. Unde hic cum 
+di<lb ed="#Bc" break="no"/>citur, Halse vocis significatio, est 
+mate<lb ed="#Bc" break="no"/>rialis pars definitionis : et eum intentione
+<lb ed="#Bc"/>fallendi, est formalis complens esse
+<lb ed="#Bc"/>mendacii.
+</p>
+               <p xml:id="Almn78-h91694-d1e301">
+                  <lb ed="#Bc"/>Ad primuM ergo dicendum, quod licet
+<lb ed="#Bc"/>aliquis fallatur facto, tamen factum non
+<lb ed="#Bc"/>est ita ordinatum ad intentionem 
+expri<lb ed="#Bc" break="no"/>mendam sicut sermo : et ideo non 
+poni<lb ed="#Bc" break="no"/>tur in definitione factum sicut sermo.
+<lb ed="#Bc"/>Nec mendacium equivoce dicitur de 
+ser<lb ed="#Bc" break="no"/>mone falso et facto, sed per prius et 
+po<lb ed="#Bc" break="no"/>sterius.Et propter hoc dicit Philosophus
+<lb ed="#Bc"/>in principio Perthermenias, quod <quote xml:id="Almn78-h91694-Qd1e322"> ea
+<lb ed="#Bc"/>que sunt in voce, earum que sunt in
+<lb ed="#Bc"/>anima passionum sunt note. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e331">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Bernardus
+<lb ed="#Bc"/>non intendit in mendacio nisi formalem
+<lb ed="#Bc"/>partem, que est intentio fallendi, et 
+lo<lb ed="#Bc" break="no"/>quitur in casu determinato, scilicet 
+quan<lb ed="#Bc" break="no"/>do aliquid dicit quod credit esse, vel
+<lb ed="#Bc"/>aliquid dicit quod non credit esse: ille
+<lb ed="#Bc"/>enim directe intendit fallere.
+</p>
+               <p xml:id="Almn78-h91694-d1e349">
+                  <lb ed="#Bc"/>Ad uLtimum dicendum, quod sophiste
+<lb ed="#Bc"/>non intendunt fallere, sed fallacias 
+do<lb ed="#Bc" break="no"/>cent cavere, vel per interemptionem, vel
+<lb ed="#Bc"/>per distinctionem sermonis: et ideo non
+<lb ed="#Bc"/>mentiuntur, sed in doctrina exercitantur.
+</p>
+               <p xml:id="Almn78-h91694-d1e362">
+                  <lb ed="#Bc"/>Ip quop in contrarium est, procedit 
+se<lb ed="#Bc" break="no"/>cundum dictum Augustini.
+</p>
+            </div>
+            <div xml:id="Almn78-h91694-Dd1e370">
+               <head xml:id="Almn78-h91694-Hd1e372">Membrum 2</head>
+               <head xml:id="Almn78-h91694-Hd1e375" type="question-title">
+        Utrum emne mendacium generaliter sit
+        peccatum
+      </head>
+               <p xml:id="Almn78-h91694-d1e378">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum emne mendacium generaliter sit
+<lb ed="#Bc"/>peccatum ?
+</p>
+               <p xml:id="Almn78-h91694-d1e387">
+                  <lb ed="#Bc"/>SEcundo queritur, Utrum omne 
+men<lb ed="#Bc" break="no"/>dacium generaliter sit peccatum ?
+</p>
+               <p xml:id="Almn78-h91694-d1e394">
+                  <pb ed="#Bc" n="413"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et videtur, quod aliquod mendacium
+<lb ed="#Bc"/>potest fieri sine peccato et bene, per 
+lo<lb ed="#Bc" break="no"/>cum a minori: quia furtum et 
+homici<lb ed="#Bc" break="no"/>dium aliquando bene possunt fieri, que
+<lb ed="#Bc"/>majora sunt: ergo mendacium.
+</p>
+               <p xml:id="Almn78-h91694-d1e413">
+                  <lb ed="#Bc"/>Quod bene possit fieri furtum, dicitur,
+<lb ed="#Bc"/>Proverb. vi, 30 et 31: Non grandis est
+<lb ed="#Bc"/>culpa cum quis furatus fuerit, furatur
+<lb ed="#Bc"/>enim ut esurientem impleat animam:
+<lb ed="#Bc"/>deprehensus quoque reddet quadruplum.
+<lb ed="#Bc"/>Et reddunt rationem Sancti, qui dicunt,
+<lb ed="#Bc"/>quod tempore necessitatis omnia sunt
+<lb ed="#Bc"/>communia: et sinon datur, potest quis
+<lb ed="#Bc"/>accipere. Unde in {tinerario Clementis
+<lb ed="#Bc"/>dixit Petrus Clementi, quod in tali 
+neces<lb ed="#Bc" break="no"/>sitate non est peccatum furantis, sed ejus
+<lb ed="#Bc"/>qui non dedit ei antequam cogeretur
+<lb ed="#Bc"/>furari. Proverb. xxvin,27: Qui dat 
+pau<lb ed="#Bc" break="no"/>pert non indigebit : qui despicit 
+depre<lb ed="#Bc" break="no"/>cantem sustinebit penuriam.
+</p>
+               <p xml:id="Almn78-h91694-d1e448">
+                  <lb ed="#Bc"/>Homicidium etiam aliquando bene fit.
+<lb ed="#Bc"/>Levit. xxiv, 14: Educ blasphemum ex~
+<lb ed="#Bc"/>tra castra,... et lapidet eum populus
+<lb ed="#Bc"/>universus. Et ibidem, ¥.16: Qui 
+blasphe<lb ed="#Bc" break="no"/>maverit nomen Domini, morte 
+moria<lb ed="#Bc" break="no"/>tur: lapidibus obruet eum omnis 
+popu<lb ed="#Bc" break="no"/>lus.
+</p>
+               <p xml:id="Almn78-h91694-d1e466">
+                  <lb ed="#Bc"/>Coxtra : Augustinus in libro contra
+<lb ed="#Bc"/>mendacium : <quote xml:id="Almn78-h91694-Qd1e472"> Etsi homicidium et 
+fur<lb ed="#Bc" break="no"/>tum aliquando bene possunt fieri, 
+men<lb ed="#Bc" break="no"/>dacium numquam. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e480">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod mendacium
+<lb ed="#Bc"/>dicit inordinationem ad finem, qui est
+<lb ed="#Bc"/>veritas, que precipuus finis est, TIT 
+Ks<lb ed="#Bc" break="no"/>dre, ut, 12: Super omnia vincit veritas,
+<lb ed="#Bc"/>quia omnibus preponitur veritas. Et
+<lb ed="#Bc"/>propter hoc numquam bene potest fieri
+<lb ed="#Bc"/>quod est interemptivum veritatis. Joan.
+<lb ed="#Bc"/>xvu, 17: Sanetifica eos in veritate. 
+Ser<lb ed="#Bc" break="no"/>mo tuus veritas est. Et, Joan. vin, 34 et
+<lb ed="#Bc"/>32: Si vos manseritis in sermone meo,
+<lb ed="#Bc"/>vere discipuli mei eritis: et cognoscetis
+<lb ed="#Bc"/>veritatem, et veritas Liberabit ves.
+</p>
+               <p xml:id="Almn78-h91694-d1e509">
+                  <lb ed="#Bc"/>Ad primum dicendum, quod in 
+preha<lb ed="#Bc" break="no"/>bitis determinatum est quot modis 
+dici<lb ed="#Bc" break="no"/>tur peccatum maximum. Unde licet 
+fur<lb ed="#Bc" break="no"/>tum et homicidium peccata majora sint,
+<lb ed="#Bc"/>eo quod majoribus peenis sunt addicta,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>tamen mendacium gravissimum est in
+<lb ed="#Bc"/>quantum est privativum ordinis sermonis
+<lb ed="#Bc"/>ad optimum finem qui est veritas. Et 
+li<lb ed="#Bc" break="no"/>cet furtum et homicidium majoris reatus
+<lb ed="#Bc"/>sint quam aliquod mendacium jocosum
+<lb ed="#Bc"/>et officiosum, tamen numguam potest
+<lb ed="#Bc"/>bene fieri: quia semper privat ordinem
+<lb ed="#Bc"/>sermonis ad finem optimum, ut dictum
+<lb ed="#Bc"/>est.
+</p>
+               <p xml:id="Almn78-h91694-d1e544">
+                  <lb ed="#Bc"/>Quop IN conTRARIUM est, conceditur ex
+<lb ed="#Bc"/>ratione inducta.
+</p>
+            </div>
+            <div xml:id="Almn78-h91694-Dd1e552">
+               <head xml:id="Almn78-h91694-Hd1e554">Membrum 3</head>
+               <head xml:id="Almn78-h91694-Hd1e557" type="question-title">
+        De differentiis mendaciorum, et de 
+        quantitate peccati secundum quamlibet 
+        differentiam
+      </head>
+               <p xml:id="Almn78-h91694-d1e560">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>De differentiis mendaciorum, et de 
+quan<lb ed="#Bc" break="no"/>titate peccati secundum quamlibet 
+dif<lb ed="#Bc" break="no"/>ferentiam.
+</p>
+               <p xml:id="Almn78-h91694-d1e571">
+                  <lb ed="#Bc"/>Tertio, Queritur de differentiis 
+men<lb ed="#Bc" break="no"/>daciorum, et de quantitate peccati 
+secun<lb ed="#Bc" break="no"/>dum quamlibet differentiam.
+</p>
+               <p xml:id="Almn78-h91694-d1e580">
+                  <lb ed="#Bc"/>Sunt enim tres differentia 
+mendacio<lb ed="#Bc" break="no"/>rum, ut dicit Augustinus, scilicet 
+joco<lb ed="#Bc" break="no"/>sum, officiosum, perniciosum.
+</p>
+               <p xml:id="Almn78-h91694-d1e590">
+                  <lb ed="#Bc"/>Et perniciosum triplex, scilicet dum
+<lb ed="#Bc"/>yuis mentitur in doctrina veritatis, et
+<lb ed="#Bc"/>dum quis mentitur ad perditionem 
+casti<lb ed="#Bc" break="no"/>tatis, et dum quis mentitur ad 
+perditio<lb ed="#Bc" break="no"/>nem vite alicujus vel ad spoliationem
+<lb ed="#Bc"/>bonorum.
+</p>
+               <p xml:id="Almn78-h91694-d1e606">
+                  <lb ed="#Bc"/>Officiosum etiam ponit triplex, 
+scili<lb ed="#Bc" break="no"/>cet dum quis mentitur ad 
+conservatio<lb ed="#Bc" break="no"/>nem castitatis alicujus, et ad alicujus
+<lb ed="#Bc"/>vite conservationem, sicut obstetrices
+<lb ed="#Bc"/>mentiebantur in Aigypto, et dum quis
+<lb ed="#Bc"/>mentitur raptoribus pro conservatione
+<lb ed="#Bc"/>bonorum temporalium.
+</p>
+               <p xml:id="Almn78-h91694-d1e624">
+                  <lb ed="#Bc"/>Sed si queritur de ordine 
+mendacio<lb ed="#Bc" break="no"/>rum, facile est respondere. Ordinantur
+<lb ed="#Bc"/>enim secundum quod plus et minus 
+par<lb ed="#Bc" break="no"/>ticipant de malitia mendacii. Unde inter
+<lb ed="#Bc"/>omnia levius est jocosum, quod nullam
+<lb ed="#Bc"/>habet intentionem fallendi, sed potius
+<lb ed="#Bc"/>jocandi, ut dicit Augustinus. Post hoc
+<lb ed="#Bc"/>levius est officiosum, quod Isidorus vo
+<pb ed="#Bc" n="414"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>cat mendacium pietatis, sive benignitatis.
+<lb ed="#Bc"/>Tertium quod dicitur perniciosum, 
+maxi<lb ed="#Bc" break="no"/>me participat malitiam : quia hoc re et
+<lb ed="#Bc"/>serméne fallere intendit.
+</p>
+               <p xml:id="Almn78-h91694-d1e657">
+                  <lb ed="#Bc"/>Gradus autem in pernicioso 
+ordinan<lb ed="#Bc" break="no"/>tur secundum quod magis participant de
+<lb ed="#Bc"/>malitia. Unde quia pessimum est auferre
+<lb ed="#Bc"/>tidem, mendacium in doctrina veritatis
+<lb ed="#Bc"/>quod aufert fidem, pessimum est et
+<lb ed="#Bc"/>mortalissimum. Post hoc pejus est 
+men<lb ed="#Bc" break="no"/>tiri ad perditionem castitatis. Post hoc
+<lb ed="#Bc"/>pejus est mentiri ad perditionem vite 
+ali<lb ed="#Bc" break="no"/>cujus. In ultimo loco est mentiri ad
+<lb ed="#Bc"/>perditionem*' rerum : est tamen et 
+ip<lb ed="#Bc" break="no"/>sum mortale, ut dicunt Augustinus et
+<lb ed="#Bc"/>Isidorus, et ideo ponitur inter perniciosa:
+<lb ed="#Bc"/>et est mercatorum gui se invicem 
+frau<lb ed="#Bc" break="no"/>dant per fallaciam et deceptionem.
+</p>
+               <p xml:id="Almn78-h91694-d1e690">
+                  <lb ed="#Bc"/>Quidam tamen dixerunt omne 
+menda<lb ed="#Bc" break="no"/>cium esse mortale peccatum :
+</p>
+               <p xml:id="Almn78-h91694-d1e697">
+                  <lb ed="#Bc"/>1. Propter illud Psalmi v, 7: Perdes
+<lb ed="#Bc"/>omnes qui loquuntur mendacium.
+</p>
+               <p xml:id="Almn78-h91694-d1e705">
+                  <lb ed="#Bc"/>2. Et, Sapient. 1, 11: <quote xml:id="Almn78-h91694-Qd1e709">Os quod 
+men<lb ed="#Bc" break="no"/>titur occidit animam</quote>. Quia nec anima
+<lb ed="#Bc"/>perditur, nec occiditur nisi pro mortali
+<lb ed="#Bc"/>peccato.
+</p>
+               <p xml:id="Almn78-h91694-d1e719">
+                  <lb ed="#Bc"/>3. Adhuc, Adducunt Augustinum in
+<lb ed="#Bc"/>libro de Conflictu vitiorum et virtulum,
+<lb ed="#Bc"/>quem tamen Augustinus non fecit, sed
+<lb ed="#Bc"/>Gilbertus Porretanus, et idcirco debilis
+<lb ed="#Bc"/>est probatio, sic: Nec officioso mendacio
+<lb ed="#Bc"/>nec simplici verbo oportet quemquam
+<lb ed="#Bc"/>decipere : quia quocumque modo 
+menti<lb ed="#Bc" break="no"/>tur quis, occidit animam.
+</p>
+               <p xml:id="Almn78-h91694-d1e739">
+                  <lb ed="#Bc"/>4. Adhuc, Adducunt Glossam 
+Cassio<lb ed="#Bc" break="no"/>dori super illud Psalmi v, 7: Perdes
+<lb ed="#Bc"/>omnes qui loquuntur mendacium, sic:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h91694-Qd1e749"> Si quis non vult hominem ad mortem
+<lb ed="#Bc"/>prodere, verum taceat et falsum non 
+di<lb ed="#Bc" break="no"/>cat, ne pro corpore allerius animam
+<lb ed="#Bc"/>suam occidat. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e759">
+                  <lb ed="#Bc"/>Contra hoc objicitur :
+<lb ed="#Bc"/>4. De Glossa Augustini super illud
+<lb ed="#Bc"/>Exodi, 1, 17: Yimuerunt obstetrices
+<lb ed="#Bc"/>Deum, sic :<quote xml:id="Almn78-h91694-Qd1e769"> Quorumdam vita longe 
+in<lb ed="#Bc" break="no"/>ferior a perfectione Sanctorum, si ha
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>beat ista mendaciorum genera, scilicet
+<lb ed="#Bc"/>jocosa et officiosa, proventu ipso et 
+in<lb ed="#Bc" break="no"/>dole feruntur, </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e783">
+                  <lb ed="#Bc"/>2. Adhuc, Gregorius ibidem in Glossa:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h91694-Qd1e789"> Hoe mendacii genus facile creditur 
+re<lb ed="#Bc" break="no"/>laxari. Nam si quelibet culpa sequenti
+<lb ed="#Bc"/>solet pia operatione purgari, quanto
+<lb ed="#Bc"/>magis facile abstergitur, quam mater
+<lb ed="#Bc"/>boni operis pietas comitatur. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e801">
+                  <lb ed="#Bc"/>3. Adhuc, Glossa super illud, Perdes,
+<lb ed="#Bc"/>etc.: <quote xml:id="Almn78-h91694-Qd1e807">Hae duo genera mendacii non sunt
+<lb ed="#Bc"/>sine culpa, sed non cum magna culpa. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e814">
+                  <lb ed="#Bc"/>4, Adhuc, Isidorus in libro 
+Sententia<lb ed="#Bc" break="no"/>rum: <quote xml:id="Almn78-h91694-Qd1e820">Interdum quisque incautus ex
+<lb ed="#Bc"/>precipitatione solet loqui mendacium. </quote>
+                  <lb ed="#Bc"/>Sed ex precipitatione loqui est veniale
+<lb ed="#Bc"/>peccatum. Ergo predicta mendacia sunt
+<lb ed="#Bc"/>venialia, et nullo modo mortalia, sicut
+<lb ed="#Bc"/>auctoritates Sanctorum ultimo inducte
+<lb ed="#Bc"/>probant.
+</p>
+               <p xml:id="Almn78-h91694-d1e837">
+                  <lb ed="#Bc"/>Ab 1 quod primo objicitur, dicendum
+<lb ed="#Bc"/>quod ibi contrahitur mendacium dictum
+<lb ed="#Bc"/>in doctrina veritatis. Et hoc ibidem 
+dici<lb ed="#Bc" break="no"/>tur in Glossa Cassiodori, et maximum
+<lb ed="#Bc"/>peccatum est, sicut in antehabitis dictum
+<lb ed="#Bc"/>est.
+</p>
+               <p xml:id="Almn78-h91694-d1e853">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod liber 
+Sapien<lb ed="#Bc" break="no"/>tiae ibi loquitur de mendacio 
+detracto<lb ed="#Bc" break="no"/>rum, qui interimunt virtutem in aliis.
+<lb ed="#Bc"/>Unde sic jacet littera: Custodite ergo
+<lb ed="#Bc"/>vos amurmuratione que nihil prodest,
+<lb ed="#Bc"/>et a detractione parcite lingue: quoniam
+<lb ed="#Bc"/>sermo obscurus in vacuum non ibit, os
+<lb ed="#Bc"/>autem quod mentitur oceidit animam *.
+<lb ed="#Bc"/>Per quod patet, quod loquitur de 
+men<lb ed="#Bc" break="no"/>dacio detractorum, qui perdunt virtutem
+<lb ed="#Bc"/>in aliis: et est mortale peccatum et 
+per<lb ed="#Bc" break="no"/>niciosum.
+</p>
+               <p xml:id="Almn78-h91694-d1e882">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod per talia
+<lb ed="#Bc"/>mendacia, officiosa scilicet et simplicia,
+<lb ed="#Bc"/>homo non occidit animam: sed cum sint
+<lb ed="#Bc"/>venialia, disponunt ad mortale quod 
+ani<lb ed="#Bc" break="no"/>mam occidit, maxime propter 
+interem<lb ed="#Bc" break="no"/>ptionem veritatis in sermone. Quia 
+veri<lb ed="#Bc" break="no"/>tas est vita anime: et quia fides innititur
+<lb ed="#Bc"/>veritati, dicitur, Habacuc, u, 4: Justus
+<pb ed="#Bc" n="415"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>in fide sua vivit. Unde Augustinus super
+<lb ed="#Bc"/>epistolam ad Romanos dicit, quod 
+no<lb ed="#Bc" break="no"/>men fides, componitura fio, fis, fit: et
+<lb ed="#Bc"/>dico, dicis: quia fiunt dicta per 
+verita<lb ed="#Bc" break="no"/>jem sicut dicuntur.
+</p>
+               <p xml:id="Almn78-h91694-d1e917">
+                  <lb ed="#Bc"/>Ad uttimum dicendum, quod consilium
+<lb ed="#Bc"/>Cassiodori bonum est in hoc quod dicit
+<lb ed="#Bc"/>quod verum taceat: sed si falsum dicit,
+<lb ed="#Bc"/>in hoc casu non occidit animam, sed 
+dis<lb ed="#Bc" break="no"/>ponit ad occisionem propter 
+interem<lb ed="#Bc" break="no"/>ptionem veritatis in sermone.
+</p>
+            </div>
+            <div xml:id="Almn78-h91694-Dd1e935">
+               <head xml:id="Almn78-h91694-Hd1e937">Membrum 4</head>
+               <head xml:id="Almn78-h91694-Hd1e940" type="question-title">
+        Utrum perfecto liceat in aliquo casu
+        mentiri, vel semper sit sibi mortale
+        peccatum?
+      </head>
+               <p xml:id="Almn78-h91694-d1e943">
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>Utrum perfecto liceat in aliquo casu
+<lb ed="#Bc"/>mentiri, vel semper sit sibi mortale
+<lb ed="#Bc"/>peccatum?
+</p>
+               <p xml:id="Almn78-h91694-d1e954">
+                  <lb ed="#Bc"/>Quarto quaritur, Utrum pertecto 
+li<lb ed="#Bc" break="no"/>ceat in aliquo casu mentiri, vel semper
+<lb ed="#Bc"/>sit sibi mortale peccatum ?
+</p>
+               <p xml:id="Almn78-h91694-d1e963">
+                  <lb ed="#Bc"/>Et videtur, quod non liceat.
+<lb ed="#Bc"/>1. Et est ratio communis : quia veritas
+<lb ed="#Bc"/>que perditur in mendacio, non potest
+<lb ed="#Bc"/>recompensari alio bono. Unde 
+Augusti<lb ed="#Bc" break="no"/>nus in libro de JMendacio, loquens in
+<lb ed="#Bc"/>illo casu, quo quis diligit proximum 
+sic<lb ed="#Bc" break="no"/>ut seipsum, et ideo mentitur, ut retineat
+<lb ed="#Bc"/>ei vitam temporalem, dicit, quod per
+<lb ed="#Bc"/>hoc perdit vitam eternam. Non autem
+<lb ed="#Bc"/>perditur eterna vita nisi per mortale
+<lb ed="#Bc"/>peccatum. Ergo mentiri taliter est 
+mor<lb ed="#Bc" break="no"/>tale peccatum. .
+</p>
+               <p xml:id="Almn78-h91694-d1e993">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus super Exodum:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h91694-Qd1e999"> Qui ita vivunt ut eorum conversatio,
+<lb ed="#Bc"/>sicut dicit Apostolus, in ceelis sit, non
+<lb ed="#Bc"/>eos existimo lingue sue modum, quan
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>tum ad veritatem promendam attinet
+<lb ed="#Bc"/>falsitatemque vitandam, exemplo illo
+<lb ed="#Bc"/>obstetricum debere formare’. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e1016">
+                  <lb ed="#Bc"/>3. Adhuc, Gregorius in libro XVIII
+<lb ed="#Bc"/>in Job: <quote xml:id="Almn78-h91694-Qd1e1022"> Sanctus vir ut perfecte 
+adhe<lb ed="#Bc" break="no"/>reat veritati, nec studio se perhibet nec
+<lb ed="#Bc"/>precipitalione mentiri. Summopere
+<lb ed="#Bc"/>enim cavendum est omne mendacium,
+<lb ed="#Bc"/>quamvis nonnumgquam aliquod mendacii
+<lb ed="#Bc"/>genus sit culpe levioris, si quisquam 
+vi<lb ed="#Bc" break="no"/>tam prestando mentitur. Sed quia 
+scri<lb ed="#Bc" break="no"/>ptum est: Os quod mentitur occidit 
+ani<lb ed="#Bc" break="no"/>mam*: et, Perdes omnes qui loquuntur
+<lb ed="#Bc"/>mendacium *, hoc quoque mendacii 
+ge<lb ed="#Bc" break="no"/>nus perfecti viri summopere fugiunt, ut
+<lb ed="#Bc"/>nec vita cujuslibet per eorum fallaciam
+<lb ed="#Bc"/>defendatur, ne sue anime noceant, dum
+<lb ed="#Bc"/>prestare vitam carni nituntur aliene ®. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e1054">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus in libro contra
+<lb ed="#Bc"/>mendacium, super illud Proverbiorum,
+<lb ed="#Bc"/>xxix, 27: Verbum custodiens filius, 
+ex<lb ed="#Bc" break="no"/>ira perditionem erit, quia nihil falsi ex
+<lb ed="#Bc"/>ore ejus procedit. Ibi Augustinus causam
+<lb ed="#Bc"/>ponit subdens: <quote xml:id="Almn78-h91694-Qd1e1069"> Tam clausum deputat
+<lb ed="#Bc"/>talis (scilicet filius) si ad subveniendum
+<lb ed="#Bc"/>homini per mendacium, quam si per
+<lb ed="#Bc"/>stuprum transire cogatur °, </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e1079">
+                  <lb ed="#Bc"/>5. Adhuc, Augustinus, ibidem’: <quote xml:id="Almn78-h91694-Qd1e1083">Filii
+<lb ed="#Bc"/>superne civitatis, filil sunt utique 
+verita<lb ed="#Bc" break="no"/>tis, de quibus scriptum est: In ore 
+eo<lb ed="#Bc" break="no"/>rum non est inventum mendacium °,
+<lb ed="#Bc"/>Cujus civitatis filius est de quo scriptum
+<lb ed="#Bc"/>est : Nihil falsi ex ore ejus procedit *. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e1097">
+                  <lb ed="#Bc"/>Ex omnibus his videtur,quod perfectis
+<lb ed="#Bc"/>non liceat in aliquo casu mentiri: et si
+<lb ed="#Bc"/>mentiuntur, mortaliter peccant.
+</p>
+               <p xml:id="Almn78-h91694-d1e1106">
+                  <lb ed="#Bc"/>Solutio. Ab omnibus antiquis 
+consue<lb ed="#Bc" break="no"/>vit solvi ista questio per distinctionem
+<lb ed="#Bc"/>perfectionis. Dicunt enim, quod 
+triplici<lb ed="#Bc" break="no"/>ter dicitur perfectus. Ex signo habitus,
+<pb ed="#Bc" n="416"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>sicut religiosus. Ex statu, sicut 
+prela<lb ed="#Bc" break="no"/>tus. Ex perfectione charitatis : et ille
+<lb ed="#Bc"/>solus simpliciter dicitur perfectus, de
+<lb ed="#Bc"/>quo dicitur, I Joannis, rv, 18: Timor
+<lb ed="#Bc"/>non est in charitate : sed perfecta 
+chari<lb ed="#Bc" break="no"/>tas foras mittit timorem. Unde ille 
+ni<lb ed="#Bc" break="no"/>hil timet propter quod a veritate 
+disce<lb ed="#Bc" break="no"/>dat.
+</p>
+               <p xml:id="Almn78-h91694-d1e1140">
+                  <lb ed="#Bc"/>Dicunt etiam, quod qui ex signo 
+ha<lb ed="#Bc" break="no"/>bitus perfectus est, ad nihil tenetur ad
+<lb ed="#Bc"/>que alius non teneatur, nisi ad ea ad
+<lb ed="#Bc"/>que obligaverit se ex professione. Et
+<lb ed="#Bc"/>quia veritati summe per charitatem 
+per<lb ed="#Bc" break="no"/>fectam non est adstrictus, ideo per 
+men<lb ed="#Bc" break="no"/>dacium jocosum et officiosum non 
+pec<lb ed="#Bc" break="no"/>cat mortaliter.
+</p>
+               <p xml:id="Almn78-h91694-d1e1160">
+                  <lb ed="#Bc"/>Similiter qui ex statu  perfectus est,
+<lb ed="#Bc"/>non tenetur nisi ad ea ad que obligatus
+<lb ed="#Bc"/>est ex officio. Sicut etiam Aristoteles 
+di<lb ed="#Bc" break="no"/>cit de sapiente in Elenchis, quod <quote xml:id="Almn78-h91694-Qd1e1170"> 
+sa<lb ed="#Bc" break="no"/>pientis est non mentiri de quibus novit,
+<lb ed="#Bc"/>et mentientem manifestare posse. </quote> Ita
+<lb ed="#Bc"/>etiam Prelati est omnia prelationis sue
+<lb ed="#Bc"/>disponere secundum ordinem sapientiae :
+<lb ed="#Bc"/>et si quid contrarium invenerit, 
+mani<lb ed="#Bc" break="no"/>festare per correctionem.
+</p>
+               <p xml:id="Almn78-h91694-d1e1187">
+                  <lb ed="#Bc"/>Tertio est perfectus, qui perfecta 
+cha<lb ed="#Bc" break="no"/>rifate adheret summe veritati et 
+inde<lb ed="#Bc" break="no"/>flexibiliter, et illius est numquam aliquo
+<lb ed="#Bc"/>mendacio mentiri : quia quolibet 
+men<lb ed="#Bc" break="no"/>dacio deflectitur a summa veritate. Et
+<lb ed="#Bc"/>ideo dicunt, quod in quolibet peccat
+<lb ed="#Bc"/>mortaliter. Tamen Augustinus etiam de
+<lb ed="#Bc"/>illis dicit ibidem, tractans illud verbum:
+<lb ed="#Bc"/>Custodiens filius ',etc., quia custodiens
+<lb ed="#Bc"/>illud custoditur ab ipso : et veritas nihil
+<lb ed="#Bc"/>falsi dimittit procedere. Et subdit de his
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h91694-Qd1e1215"> His filiis superne Jerusalem si
+<lb ed="#Bc"/>aliquando ut hominibus obrepit 
+quale<lb ed="#Bc" break="no"/>cumque mendacium, poscant veniam
+<lb ed="#Bc"/>humiliter, ut ex venia veritatis recipiant
+<lb ed="#Bc"/>gloriam 3. </quote>
+               </p>
+               <p xml:id="Almn78-h91694-d1e1227">
+                  <lb ed="#Bc"/>Distinguunt etiam mendacium, quod
+<lb ed="#Bc"/>mendacium dicitur tripliciter, sicut in
+<lb ed="#Bc"/>parte supra dictum est. Dicitur enim
+<lb ed="#Bc"/>falsitas vocis, in quo nihil aliud intendi-
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>tur nisi ut falsum pro vero dicatur, et in
+<lb ed="#Bc"/>nullo alio fallitur homo. Dicitur etiam
+<lb ed="#Bc"/>mendacium libido mentiendi, ex qua
+<lb ed="#Bc"/>homo asuescit mentiri, de quo dicitur,
+<lb ed="#Bc"/>Eceli. vu, 14: Noli velle mentiri omne
+<lb ed="#Bc"/>mendacium : assiduitas enim illius non
+<lb ed="#Bc"/>est bona. Et dicitur mendacium, false
+<lb ed="#Bc"/>vocis significatio cum intentione fallendi
+<lb ed="#Bc"/>in re. Et hoc mendacium non 
+predica<lb ed="#Bc" break="no"/>tione univoca generis, sed per prius et
+<lb ed="#Bc"/>posterius dicitur de mendacio jocoso et
+<lb ed="#Bc"/>officioso et pernicioso.
+</p>
+               <p xml:id="Almn78-h91694-d1e1266">
+                  <lb ed="#Bc"/>Dicunt ergo isti, quod perfectis qui
+<lb ed="#Bc"/>charitate perfecti sunt propter status
+<lb ed="#Bc"/>sublimitatem, omne mendacium est pec~
+<lb ed="#Bc"/>catum mortale, ut dictum est : sicut 
+pri<lb ed="#Bc" break="no"/>mo Angelo deflexus a veritate summa, et
+<lb ed="#Bc"/>primo. homini: propter eorum status 
+per<lb ed="#Bc" break="no"/>fectionem. Sed in hoc est. differentia,
+<lb ed="#Bc"/>quod primus Angelus veniam consequi
+<lb ed="#Bc"/>non potuit : primus autem homo potuit
+<lb ed="#Bc"/>per alium, Christum scilicet. Et isti per
+<lb ed="#Bc"/>gratiam et peenitentiam veniam possunt
+<lb ed="#Bc"/>consequi de istis sicut de aliis 
+pecca<lb ed="#Bc" break="no"/>tis.
+</p>
+               <p xml:id="Almn78-h91694-d1e1297">
+                  <lb ed="#Bc"/>In confirmationem hujus solutionis 
+in<lb ed="#Bc" break="no"/>ducunt questionem et determinationem
+<lb ed="#Bc"/>Augustini in eodem libro de Mendacio,
+<lb ed="#Bc"/>qui talem ponit positionem. Ponatur,
+<lb ed="#Bc"/>quod aliquis per mendacium jocosum
+<lb ed="#Bc"/>vel officiosum possit induci ad 
+baptis<lb ed="#Bc" break="no"/>mum, qui alias non induceretur, utrum
+<lb ed="#Bc"/>tam magnum bonum relinquendum sit
+<lb ed="#Bc"/>propter tam parvum malum ? Et solvit
+<lb ed="#Bc"/>dicens, quod non est mendacium 
+dicen<lb ed="#Bc" break="no"/>dum, sed implorandum divinum 
+auxi<lb ed="#Bc" break="no"/>lium, ut per aliam viam talis possit 
+in<lb ed="#Bc" break="no"/>duci ad baptismi gratiam.
+</p>
+               <p xml:id="Almn78-h91694-d1e1329">
+                  <lb ed="#Bc"/>Auctoritates inducte que probare
+<lb ed="#Bc"/>videntur, quod perfectis omne 
+menda<lb ed="#Bc" break="no"/>cium est peccatum mortale, 
+intelliguun<lb ed="#Bc" break="no"/>tur de mendacio libidinoso vel 
+pernicio<lb ed="#Bc" break="no"/>so, que simpliciter avertunt a veritate.
+<lb ed="#Bc"/>Et hoc idem ego sentio verum esse.
+</p>
+               <p xml:id="Almn78-h91694-d1e1345">
+                  <lb ed="#Bc"/>Et haec de mendacio dicta 
+suffi<lb ed="#Bc" break="no"/>ciant.
+  
+<pb ed="#Bc" n="417"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et quod relinquitur dicendum de
+<lb ed="#Bc"/>mendacio et perjurio, in libro HI 
+Sen<lb ed="#Bc" break="no"/>tentiarum, distinctione XXXVIII, dixi-
+</p>
+               <p xml:id="Almn78-h91694-d1e1363">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>mus: quia ibi Magister ex intentione
+<lb ed="#Bc"/>tractat de illis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 70</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 70</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="727"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a48811"><!-- p1t18q70 -->
+            <head xml:id="Almn78-a48811-Hd1e106">Quaestio 70</head>
+            <head xml:id="Almn78-a48811-Hd1e109" type="question-title">
+      De modis quibus Deus est in rebus.
+    </head>
+            <p xml:id="Almn78-a48811-d1e112">
+               <pb ed="#Ba" n="727"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO LXX.
+<lb ed="#Ba"/>De modis quibus Deus est in rebus.
+</p>
+            <div xml:id="Almn78-a48811-Dd1e123">
+               <head xml:id="Almn78-a48811-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-a48811-Hd1e128" type="question-title">
+      Utrum Deus sit ubique et in omni re
+    </head>
+               <p xml:id="Almn78-a48811-d1e131">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum Deus sit ubique et in omni re?
+</p>
+               <p xml:id="Almn78-a48811-d1e140">
+                  <lb ed="#Ba"/>Ad primum objicitur sic primo per 
+au<lb ed="#Ba" break="no"/>ctoritatem.
+</p>
+               <p xml:id="Almn78-a48811-d1e147">
+                  <lb ed="#Ba"/>1. Dicit enim Augustinus ad 
+Darda<lb ed="#Ba" break="no"/>num: <quote xml:id="Almn78-a48811-Qd1e153"> Sciendum est, quod Deus 
+in<lb ed="#Ba" break="no"/>commutabiliter semper in se existens,
+<lb ed="#Ba"/>presentialiter, potentialiter, essentialiter
+<lb ed="#Ba"/>est in omni natura sive essentia sine sui
+<lb ed="#Ba"/>definitione, et in omni loco sine 
+circum<lb ed="#Ba" break="no"/>scriptione, et in omni tempore sine sui
+<lb ed="#Ba"/>mutabilitate*. </quote> Et preterea in sanctis
+<lb ed="#Ba"/>spiritibus et animabus est excellentius
+<lb ed="#Ba"/>per gratiam inhabitans, et in homine
+<lb ed="#Ba"/>Christo. excellentissime, in quo inhabitat
+<lb ed="#Ba"/>plenitudo divinitatis corporaliter, ut ait
+<lb ed="#Ba"/>Apostolus, ad Coloss. u, 9.
+</p>
+               <p xml:id="Almn78-a48811-d1e182">
+                  <lb ed="#Ba"/>2. Adhuc, Damascenus <quote xml:id="Almn78-a48811-Qd1e186"> Sive 
+se<lb ed="#Ba" break="no"/>cundum bonitatem, sive secundum 
+virtu<lb ed="#Ba" break="no"/>tem, sive sapientiam, sive tempus, sive
+<lb ed="#Ba"/>locum deliciat a perfectione, numquam
+<lb ed="#Ba"/>erit Deus®. </quote> Sed secundum locum 
+defi<lb ed="#Ba" break="no"/>cit si non sit ubique. Cum ergo in nullo
+<lb ed="#Ba"/>deficit Deus, ubique erit.
+</p>
+               <p xml:id="Almn78-a48811-d1e202">
+                  <lb ed="#Ba"/>3. Adhuc, Trismegistus in libro de
+<lb ed="#Ba"/>Natura deorum dicit, quod <quote xml:id="Almn78-a48811-Qd1e208"> Deus 
+deo<lb ed="#Ba" break="no"/>rum princeps in omni re est. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e214">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>4, Adhuc, Hoc etiam per rationem
+<lb ed="#Ba"/>probatur sic : Mundus est et conservatur
+<lb ed="#Ba"/>in esse, et ubique conservatur in esse :
+<lb ed="#Ba"/>ergo conservans mundum in esse est
+<lb ed="#Ba"/>ubique. Hoc enim probatur sequi ex hoe,
+<lb ed="#Ba"/>quod conservatum in esse non est sine
+<lb ed="#Ba"/>conservante : conservans autem et 
+con<lb ed="#Ba" break="no"/>servatum differunt sicut causa et caus 
+a<lb ed="#Ba" break="no"/>tum : mundus autem non habet causam
+<lb ed="#Ba"/>ante se, nisi Deum. Cum ergo differant
+<lb ed="#Ba"/>causa et causatum et sint diversa, eo
+<lb ed="#Ba"/>quod dicit Anselmus, quod <quote xml:id="Almn78-a48811-Qd1e244"> nec natura
+<lb ed="#Ba"/>admittit, nec ratio intelligit, quod id
+<lb ed="#Ba"/>quod est ab alio, sit idem cum eo a quo
+<lb ed="#Ba"/>est : </quote>} conservans ergo mundum, nec
+<lb ed="#Ba"/>mundus est, nec aliquid mundi, et est
+<lb ed="#Ba"/>ubique et est causa: sequitur quod 
+cau<lb ed="#Ba" break="no"/>sa conservationis mundi est ubique
+<lb ed="#Ba"/>causa autem conservationis non potest
+<lb ed="#Ba"/>esse nisi Deus : ergo Deus est ubique et
+<lb ed="#Ba"/>in omni re,
+</p>
+               <p xml:id="Almn78-a48811-d1e267">
+                  <lb ed="#Ba"/>5. Adhuc, Aut Deus conservat 
+creatu<lb ed="#Ba" break="no"/>ram in esse per se, aut per medium. Si
+<lb ed="#Ba"/>perse, habeo propositum : quia cum 
+ubi<lb ed="#Ba" break="no"/>que conservet, sequitur quod ubique est.
+<lb ed="#Ba"/>Si per medium : illud medium constat,
+<lb ed="#Ba"/>quod non est creator, sed creatura : sed
+<lb ed="#Ba"/>creatura in nihilum tendit de se, ut dicit
+<lb ed="#Ba"/>Gregortus *, nisi manu Omnipotentis 
+con<lb ed="#Ba" break="no"/>tineatur : ergo illud indiget conservante.
+</p>
+               <p xml:id="Almn78-a48811-d1e289">
+                  <lb ed="#Ba"/>Et tunc ulterius quero de illo 
+conser<lb ed="#Ba" break="no"/>vante, Utrum sit creatura, vel creator?
+<lb ed="#Ba"/>et ibit in infinitum in conservantibus, vel
+<pb ed="#Ba" n="728"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dabitur, quod Deus per seipsum 
+conser<lb ed="#Ba" break="no"/>vet : et tunc habetur propositum : quia
+<lb ed="#Ba"/>ubique conservans, ubique erit.
+</p>
+               <p xml:id="Almn78-a48811-d1e309">
+                  <lb ed="#Ba"/>5. Adhuc, Avicenna in secundo sue
+<lb ed="#Ba"/>sufficientie, ubi loquitur de causis, 
+dis<lb ed="#Ba" break="no"/>putat hanc regulam, si scilicet posita
+<lb ed="#Ba"/>causa secundum actum, de necessitate
+<lb ed="#Ba"/>ponatur effectus : et si destructa causa
+<lb ed="#Ba"/>secundum actum, de necessitate 
+destrua<lb ed="#Ba" break="no"/>tur effectus. Et ponit instantiam : quia
+<lb ed="#Ba"/>posito edificatore, non de necessitate
+<lb ed="#Ba"/>ponitur domus, et destructo edificatore,
+<lb ed="#Ba"/>non de necessitate destruitur facta 
+do<lb ed="#Ba" break="no"/>mus. Et solvit, quod pro certo 
+regulari<lb ed="#Ba" break="no"/>ter verum est, quod posita causa in actu
+<lb ed="#Ba"/>ponitur effectus, et e converso. Sed 
+in<lb ed="#Ba" break="no"/>telligitur de causa proxima et per se : et
+<lb ed="#Ba"/>taliter non habet se edificator ad domum :
+<lb ed="#Ba"/>sed domus potius cum sit esse figure
+<lb ed="#Ba"/>cujusdam, scilicet compositionis et com-
+<lb ed="#Ba" break="no"/>paginationis, ultimum compaginans et
+<lb ed="#Ba"/>continens figuram domus, sicut est 
+cla<lb ed="#Ba" break="no"/>vus, vel colla, vel incastratura, sunt 
+pro<lb ed="#Ba" break="no"/>xima causa esse domus : et quamdiu actu
+<lb ed="#Ba"/>continent, tamdiu est domus : et quando
+<lb ed="#Ba"/>non continent secundum actum, domus
+<lb ed="#Ba"/>dissolvitur. A simili ergo, cum Deus sit
+<lb ed="#Ba"/>causa esse omnium creaturarum : et
+<lb ed="#Ba"/>cum in tota natura sic sit, quod idem est
+<lb ed="#Ba"/>per essentiam dans esse et conservans
+<lb ed="#Ba"/>esse sive continens in esse, sequitur quod
+<lb ed="#Ba"/>creatura non conservatur nec continetur
+<lb ed="#Ba"/>in esse, nisi Deo actu continente et 
+con<lb ed="#Ba" break="no"/>servante. Contentum autem continenti
+<lb ed="#Ba"/>est immediatum. Cum ergo in omni re et
+<lb ed="#Ba"/>in omni loco contineat et conservet in
+<lb ed="#Ba"/>esse, sequitur quod Deus in omni re sit,
+<lb ed="#Ba"/>et in omni loco, et immediatus.
+</p>
+               <p xml:id="Almn78-a48811-d1e388">
+                  <lb ed="#Ba"/>6. Adhuc, Aristoteles in libro de 
+Ani<lb ed="#Ba" break="no"/>malibus tractans de eodem de quo tracta™
+<lb ed="#Ba"/>vit Avicenna, dicit : <quote xml:id="Almn78-a48811-Qd1e396"> Si causa secundum
+<lb ed="#Ba"/>actum posita ponit effectum, et destructa
+<lb ed="#Ba"/>destruit, quomodo est, quod mortuo 
+pa<lb ed="#Ba" break="no"/>tre non moritur filius? </quote> Et solvens 
+di<lb ed="#Ba" break="no"/>stinguit duplicem sexum, scilicet sexum
+<lb ed="#Ba"/>divisum sive distinctum, qui 
+distingui<lb ed="#Ba" break="no"/>tur subjecto et figura et virtute. Et sic
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>est in mare et in femina. Differt enim
+<lb ed="#Ba"/>sexus feemine figura, virtute, et subjecto
+<lb ed="#Ba"/>asexu maris. Et est sexus conjunctus in
+<lb ed="#Ba"/>uno guod non habet differentiam 
+sub<lb ed="#Ba" break="no"/>jecti nec figure : sed differt sexus in eo
+<lb ed="#Ba"/>virtute et operatione tantum : sicut in
+<lb ed="#Ba"/>ovo est sexus maris et feeminz in uno
+<lb ed="#Ba"/>subjecto unius figure : differens tamen
+<lb ed="#Ba"/>virtute et operatione : quia sexus maris
+<lb ed="#Ba"/>est in ovo ut formans et apprehendens
+<lb ed="#Ba"/>et tenens et extendens et distinguens,
+<lb ed="#Ba"/>sexus autem foemine est ut hec patiens
+<lb ed="#Ba"/>et sustinens, Et dicit, quod hic sexus
+<lb ed="#Ba"/>conjunctus causa est efficiens 
+generatio<lb ed="#Ba" break="no"/>nis et esse generati : et hoc cessante ab
+<lb ed="#Ba"/>agere continentis et conservantis et 
+re<lb ed="#Ba" break="no"/>gentis continue, deficit generatum. Pater
+<lb ed="#Ba"/>autem in sexu dislincto est sicut causa
+<lb ed="#Ba"/>remota, sive causa sine qua non: et ideo
+<lb ed="#Ba"/>illo cessante non de necessitate cessat
+<lb ed="#Ba"/>effectus. A simili, cum ex libro de 
+Caz<lb ed="#Ba" break="no"/>sis constet, quod esse creaturarum non
+<lb ed="#Ba"/>est nisi effectus prime caus#, 
+conserva<lb ed="#Ba" break="no"/>tio esse non est nisi a prima causa 
+actua<lb ed="#Ba" break="no"/>liter agente : et si illa actualiter non 
+con<lb ed="#Ba" break="no"/>tinet et conservat, omne esse creature
+<lb ed="#Ba"/>tendit in non esse : continetur autem et
+<lb ed="#Ba"/>conservatur in omni loco et in omni re :
+<lb ed="#Ba"/>ergo Deus actualiter continens et 
+conser<lb ed="#Ba" break="no"/>vans est in omni loco et in omni re. Et
+<lb ed="#Ba"/>hoc est quod expresse dicit Gregorius,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a48811-Qd1e483"> omnia in nihilum tenderent que
+<lb ed="#Ba"/>ex nihilo facta sunt, nisi ea manus 
+omni<lb ed="#Ba" break="no"/>potentis Dei contineret. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e491">
+                  <lb ed="#Ba"/>7. Adhuc, Anselmus in Prosologio
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48811-Qd1e497"> Omnis qui scit, quod Deus est, scit
+<lb ed="#Ba"/>eum majus esse aliquid quam quod 
+co<lb ed="#Ba" break="no"/>gitari possit'. </quote> Sed si ponatur, quod
+<lb ed="#Ba"/>Deus est extra omnia et non intra omnia,
+<lb ed="#Ba"/>potest cogitari majus, scilicet quod est
+<lb ed="#Ba"/>extra et intra. Similiter si ponatur esse
+<lb ed="#Ba"/>intra et non extra, idem sequitur. 
+Simi<lb ed="#Ba" break="no"/>liter si ponatur supra et non infra, vel
+<lb ed="#Ba"/>infra et non supra. Oportet ergo, quod
+<lb ed="#Ba"/>ponatur esse et intra omnia, et extra 
+om<lb ed="#Ba" break="no"/>nia, et supra omnia, et infra omnia.
+<lb ed="#Ba"/>Quod autem taliter se habet ad locum et
+<pb ed="#Ba" n="729"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>ad res, ubique est et in omnire. Ergo
+<lb ed="#Ba"/>Deus est ubique et in omni re. Et hoc est
+<lb ed="#Ba"/>quod expresse dicit Gregorius, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48811-Qd1e537"> Deus est extra omnia non exclusus,
+<lb ed="#Ba"/>et intra omnia non inclusus, et supra
+<lb ed="#Ba"/>omnia per eminentiam non superatus, et
+<lb ed="#Ba"/>infra omnia non depressus ’. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e547">
+                  <lb ed="#Ba"/>8. Adhuc, Theologice sic objicitur per
+<lb ed="#Ba"/>hanc regulam, quod nihil nisi quod 
+no<lb ed="#Ba" break="no"/>bilitatis est in creatura, Deo 
+attribuen<lb ed="#Ba" break="no"/>dum est : et quod ignobilitatis est in
+<lb ed="#Ba"/>creatura, a Deo removendum est. Sed in
+<lb ed="#Ba"/>natura locus est, et hic est continens et
+<lb ed="#Ba"/>salvans, ad quem est motus generati: et
+<lb ed="#Ba"/>hec omnia sunt nobilitatis. Ergo haec
+<lb ed="#Ba"/>habet locus ab exemplari primo, sive ab
+<lb ed="#Ba"/>imitatione exemplaris primi. Ista enim
+<lb ed="#Ba"/>bonitates non sunt in loco, nisi 
+secun<lb ed="#Ba" break="no"/>dum quod fluunt in ipsum a causa prima
+<lb ed="#Ba"/>continente et salvante, ad quam est 
+con<lb ed="#Ba" break="no"/>versio omnium generatorum, que ut 
+pri<lb ed="#Ba" break="no"/>ma causa agit hec in ipso. Cum igitur
+<lb ed="#Ba"/>locus habeat hac hic et ibi et in omni
+<lb ed="#Ba"/>loco, oportet quod Deus agat hec hic et
+<lb ed="#Ba"/>ibi et in omni loco. Ergo ubique est
+<lb ed="#Ba"/>Deus, ubi operatur : ergo est 
+ubi<lb ed="#Ba" break="no"/>que.
+</p>
+               <p xml:id="Almn78-a48811-d1e593">
+                  <lb ed="#Ba"/>9. Adhuc, Universale est triplex, 
+scili<lb ed="#Ba" break="no"/>cet multorum in numero, et est species :
+<lb ed="#Ba"/>et multorum in specie, et est genus : et
+<lb ed="#Ba"/>multorum in genere per analogiam 
+mul<lb ed="#Ba" break="no"/>torum ad unum, et est principium, 
+sic<lb ed="#Ba" break="no"/>ut in principium est omnium per 
+analo<lb ed="#Ba" break="no"/>giam. Et cum sic tripliciter dicatur
+<lb ed="#Ba"/>universale, cuilibet universali convenit
+<lb ed="#Ba"/>esse ubique et semper suo modo : quia
+<lb ed="#Ba"/>per hoc quod est de multis, non 
+contra<lb ed="#Ba" break="no"/>hitur ad hic et nunc : sed equaliter se
+<lb ed="#Ba"/>habet ad omne tempus, et ad omnem
+<lb ed="#Ba"/>locum, et ad ea que in loco sunt : et est
+<lb ed="#Ba"/>etiam in multis : sed per hoc patitur 
+di<lb ed="#Ba" break="no"/>visionem in esse et generationem et 
+cor<lb ed="#Ba" break="no"/>ruptionem. Cum ergo Deo id quod
+<lb ed="#Ba"/>nobilitatis est, sit attribuendum, sic 
+pri<lb ed="#Ba" break="no"/>mum et simplicissimum attribuendum
+<lb ed="#Ba"/>est ei excellentius quod est in universali :
+<lb ed="#Ba"/>et sic Deus erit ubique et semper, hoc
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>est, in omnibus rebus sine sui 
+muta<lb ed="#Ba" break="no"/>tione, et sine sui partibilitate.
+</p>
+               <p xml:id="Almn78-a48811-d1e645">
+                  <lb ed="#Ba"/>10. Adhuc, Prima causa in ordine
+<lb ed="#Ba"/>omnium causarum est in omnibus 
+se<lb ed="#Ba" break="no"/>cundis essentialiter, presentialiter, et
+<lb ed="#Ba"/>potentialiter. Hoc enim patct in causis
+<lb ed="#Ba"/>formalibus qu sunt esse, vivere, et 
+in<lb ed="#Ba" break="no"/>telligere. De quibus dicit Aristoteles in
+<lb ed="#Ba"/>secundo de Anima, quod primum 
+sem<lb ed="#Ba" break="no"/>per est in secundo, sicut trigonum in
+<lb ed="#Ba"/>tetragono, quod essentialiter, 
+prasentia<lb ed="#Ba" break="no"/>liter est in illo. Similiter in causis 
+mate<lb ed="#Ba" break="no"/>rialibus. Materia enim sustinens formam
+<lb ed="#Ba"/>determinata intellectualitate, 
+essentiali<lb ed="#Ba" break="no"/>ter, presentialiter, et potentialiter est in
+<lb ed="#Ba"/>materia determinata continuitale sive
+<lb ed="#Ba"/>forma corporali, et hac simili modo est
+<lb ed="#Ba"/>in materia determinata contrarietate, et
+<lb ed="#Ba"/>haec similiter in materia mixtorum, et
+<lb ed="#Ba"/>ista in materia complexionatorum, et ista
+<lb ed="#Ba"/>est notitia complexionatorum, sicut 
+pro<lb ed="#Ba" break="no"/>batur in libro Fontis vite. Similiter est in
+<lb ed="#Ba"/>efficientibus. Primum enim movens, ut
+<lb ed="#Ba"/>dicit Aristoteles in VIII Physicorum, 
+vir<lb ed="#Ba" break="no"/>tute est in secundo, et secundum in tertio,
+<lb ed="#Ba"/>et sic deinceps. Sed verum est, quod 
+pri<lb ed="#Ba" break="no"/>mum contrahitur in secundo, et secundum
+<lb ed="#Ba"/>in tertio : et hoc est ignobilitatis : 
+contra<lb ed="#Ba" break="no"/>hitur enim ex determinatione et 
+particu<lb ed="#Ba" break="no"/>laritate secundi, et non habet hoc ad 
+imi<lb ed="#Ba" break="no"/>tationem exemplaris primi. Auferatur
+<lb ed="#Ba"/>ergo quod ignobilitatis est, et attribuatur
+<lb ed="#Ba"/>exemplari primo quod nobilitatis est.
+<lb ed="#Ba"/>Deus ergo cum sit causa prima, erit in
+<lb ed="#Ba"/>omnibus, non determinatus, non 
+contra<lb ed="#Ba" break="no"/>etus in illis.
+</p>
+               <p xml:id="Almn78-a48811-d1e721">
+                  <lb ed="#Ba"/>11. Adhuc, Magister in libro I 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinct. XXXVII, cap. 
+Postre<lb ed="#Ba" break="no"/>mo respondeant, probando, quod Deus
+<lb ed="#Ba"/>ubique sit, sic dicit : <!--<quote>--> Postremo 
+respon<lb ed="#Ba" break="no"/>deant quod potius de Deo 
+responden<lb ed="#Ba" break="no"/>dum existiment : vel quod nusquam per
+<lb ed="#Ba"/>essentiam sit, vel quod ubique, vel quod
+<lb ed="#Ba"/>alicubi, ita quod non ubique. Sed quis
+<lb ed="#Ba"/>audeat dicere, quod nusquam divina 
+es<lb ed="#Ba" break="no"/>sentia sit, vel quod alicubi, et non 
+ubi<lb ed="#Ba" break="no"/>que sit? Si enim ita est alicubi, quod
+<pb ed="#Ba" n="730"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>non ubique, ergo localis est : quod 
+fal<lb ed="#Ba" break="no"/>sum est. Est ergo ubique tota que 
+conti<lb ed="#Ba" break="no"/>net totum, et penetrat totum : que nec
+<lb ed="#Ba"/>pro sui simplicitate dividi, nec pro sui
+<lb ed="#Ba"/>puritate maculari, nec pro sui 
+immensi<lb ed="#Ba" break="no"/>tate ullo modo comprehendi potest. 
+Un<lb ed="#Ba" break="no"/>de Augustinus : <quote xml:id="Almn78-a48811-Qd1e768"> Deus ubique est, cui
+<lb ed="#Ba"/>nec locis, sed actionibus 
+appropinqua<lb ed="#Ba" break="no"/>mus.</quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e777">
+                  <lb ed="#Ba"/>12. Adhuc Augustinus in libro ad
+<lb ed="#Ba"/>Dardanum de Presentia Dei : <quote xml:id="Almn78-a48811-Qd1e783"> Cum
+<lb ed="#Ba"/>Deus sit natura incorporea et 
+incommu<lb ed="#Ba" break="no"/>tabiliter viva, eterna stabilitate in seipso
+<lb ed="#Ba"/>maneéns, totus adest rebus omnibus, et
+<lb ed="#Ba"/>singulis totus *. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e795">
+                  <lb ed="#Ba"/>13. Adhuc, Hilarius. in libro VIII de
+<lb ed="#Ba"/>Trinitate : <quote xml:id="Almn78-a48811-Qd1e801"> Deus immense virtutis, 
+vi<lb ed="#Ba" break="no"/>vens potestas, que nusquam non adsit,
+<lb ed="#Ba"/>nec desit usquam, sed omnem per sua
+<lb ed="#Ba"/>edocet, ut ubi sua sunt, ipse esse 
+intelli<lb ed="#Ba" break="no"/>gatur. Non autem corporali modo cum
+<lb ed="#Ba"/>alicubi sit, non etiam ubique esse 
+cre<lb ed="#Ba" break="no"/>datur, cum et in omnibus esse non 
+desi<lb ed="#Ba" break="no"/>nat. </quote> ‘
+</p>
+               <p xml:id="Almn78-a48811-d1e820">
+                  <lb ed="#Ba"/>14. Adhuc, Ambrosius in libro de
+<lb ed="#Ba"/>Spiritu sancto: <quote xml:id="Almn78-a48811-Qd1e826"> Cum omnis creatura
+<lb ed="#Ba"/>nature sue sit circumscripta limitibus,
+<lb ed="#Ba"/>quomodo quis audeat creaturam 
+appella<lb ed="#Ba" break="no"/>re Spiritum sanctum, qui non habet 
+cir<lb ed="#Ba" break="no"/>cumscriptam determinatamque virtutem,
+<lb ed="#Ba"/>que et in omnibus et ubique est 
+sem<lb ed="#Ba" break="no"/>per : quod utique divinitatis et 
+domina<lb ed="#Ba" break="no"/>tionis est proprium °. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e845">
+                  <lb ed="#Ba"/>15. Adhuc, Ambrosius, ibidem, <quote xml:id="Almn78-a48811-Qd1e849"> 
+Do<lb ed="#Ba" break="no"/>mini est omnia implere, qui dicit,
+<lb ed="#Ba"/>Jerem. xxii, 24 : Numquid non 
+ce<lb ed="#Ba" break="no"/>lum et terram ego impleo  dicit
+<lb ed="#Ba"/>Dominus ?</quote> Si ergo Dominus est qui
+<lb ed="#Ba"/>celum complet et terram, quis ergo
+<lb ed="#Ba"/>potest Spiritum sanctum judicare 
+domi<lb ed="#Ba" break="no"/>nationis et divine potestatis exsortem,
+<lb ed="#Ba"/>qui replevit orbem, et quod plus est, 
+re<lb ed="#Ba" break="no"/>plevit et Jesum totius mundi 
+redempto<lb ed="#Ba" break="no"/>rem? Sapientia, 1, 7: <quote xml:id="Almn78-a48811-Qd1e873">Spiritus Domini
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>replevit orbem terrarum</quote>. Has autem 
+au<lb ed="#Ba" break="no"/>ctoritates inducit <ref xml:id="Almn78-a48811-Rd1e882">Magister in libro I
+<lb ed="#Ba"/>Sententiarum,  distinctione XXXVI,
+<lb ed="#Ba"/>cap. <quote xml:id="Almn78-a48811-Qd1e888" type="incipit">Ne autem ista</quote>
+                  </ref>.
+</p>
+               <p xml:id="Almn78-a48811-d1e893">
+                  <lb ed="#Ba"/>In contrarium objiciunt quidam sic
+<lb ed="#Ba"/>1. Nobilius est facere opera 
+perma<lb ed="#Ba" break="no"/>nentia sine artifice, quam permanentia
+<lb ed="#Ba"/>in presentia artificis tantum. Sed, 
+Deu<lb ed="#Ba" break="no"/>ter. xxxu, 4, dicitur : Det perfecta sunt
+<lb ed="#Ba"/>opera. Ergo videtur, quod. Deus faciat
+<lb ed="#Ba"/>opera que sine presentia sui in seipsis
+<lb ed="#Ba"/>permanent : superfluum ergo esset, quod
+<lb ed="#Ba"/>propter conservationem rerum in esse
+<lb ed="#Ba"/>diceretur esse in omnibus essentialiter,
+<lb ed="#Ba"/>presentialiter, et potentialiter. Cum 
+er<lb ed="#Ba" break="no"/>go superfluum in operibus nature non
+<lb ed="#Ba"/>sit, et ordinatiora sint opera Dei quam
+<lb ed="#Ba"/>nature, tale superfluum in operibus Dei
+<lb ed="#Ba"/>non est ponendum.
+</p>
+               <p xml:id="Almn78-a48811-d1e928">
+                  <lb ed="#Ba"/>2. Adhuc, Inferior artifex, ut faber,
+<lb ed="#Ba"/>vel lignarius, opus facit quod ad 
+con<lb ed="#Ba" break="no"/>servationem sui non indiget presentia
+<lb ed="#Ba"/>artificis : ergo multo magis potest hoc
+<lb ed="#Ba"/>facere Deus.
+</p>
+               <p xml:id="Almn78-a48811-d1e942">
+                  <lb ed="#Ba"/>3. Adhuc, Natura et virtutes ccelestes
+<lb ed="#Ba"/>opera sua faciunt que sine presentia sui
+<lb ed="#Ba"/>conservantur : ergo multo magis Deus.
+</p>
+               <p xml:id="Almn78-a48811-d1e951">
+                  <lb ed="#Ba"/>4. Adhuc, Si Deus ubique est 
+essentia<lb ed="#Ba" break="no"/>liter, presentialiter, et potentialiter :
+<lb ed="#Ba"/>tunc videtur, quod in omnibus operetur
+<lb ed="#Ba"/>essentiam, speciem, et virtutem, et 
+ope<lb ed="#Ba" break="no"/>rationem : et sic videtur, quod natura
+<lb ed="#Ba"/>nihil operetur : quod valde inconveniens
+<lb ed="#Ba"/>est : quia dicit Damascenus, quod <quote xml:id="Almn78-a48811-Qd1e968"> 
+nul<lb ed="#Ba" break="no"/>la natura destituitur propria 
+operatio<lb ed="#Ba" break="no"/>ne. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e976">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod rationes 
+pri<lb ed="#Ba" break="no"/>me partis concedende sunt, et 
+proce<lb ed="#Ba" break="no"/>dunt et concludunt Catholicam fidem.
+</p>
+               <p xml:id="Almn78-a48811-d1e985">
+                  <lb ed="#Ba"/>Ad PRIMUM ergo quod in contrarium
+<lb ed="#Ba"/>objicitur, dicendum quod hoc est verum
+<lb ed="#Ba"/>in illis causatis que causam habent ante
+<lb ed="#Ba"/>se creatam : sed in his que sunt a Deo,
+<pb ed="#Ba" n="731"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>sicut nullo utitur medio in creando 
+pro<lb ed="#Ba" break="no"/>pter suam excellentiam, ita nullo potest
+<lb ed="#Ba"/>uti medio in conservando. Si enim 
+me<lb ed="#Ba" break="no"/>dio uteretur, medium indigeret 
+conser<lb ed="#Ba" break="no"/>vatione sicut et res. Gonservari enim a
+<lb ed="#Ba"/>se, est nullo indigere ad sui 
+conservatio<lb ed="#Ba" break="no"/>nem : et hoc non potest convenire alicui
+<lb ed="#Ba"/>creato de nihilo, quod convertibile est in
+<lb ed="#Ba"/>nihilum sicut omnis creatura : et ideo
+<lb ed="#Ba"/>Deum conservantem oportet esse 
+essen<lb ed="#Ba" break="no"/>tialiter in rebus.
+</p>
+               <p xml:id="Almn78-a48811-d1e1024">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod artifex 
+im<lb ed="#Ba" break="no"/>ferior non facit formam ex materia, sed
+<lb ed="#Ba"/>in materia, ut dicit Commentator 
+su<lb ed="#Ba" break="no"/>per IV Metaphysicxe : et ideo non est
+<lb ed="#Ba"/>causa totius operis, sed forme tantum :
+<lb ed="#Ba"/>et ideo opus illius virtute materie 
+con<lb ed="#Ba" break="no"/>servatur. Sed Deus causa est totius 
+ope<lb ed="#Ba" break="no"/>ris et in materia et forma et composito :
+<lb ed="#Ba"/>et ideo oportet, quod conservetur per
+<lb ed="#Ba"/>ipsum, cum nihil habeat prejacens ante
+<lb ed="#Ba"/>se preter eum.
+</p>
+               <p xml:id="Almn78-a48811-d1e1050">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod sicut dicit
+<lb ed="#Ba"/>Commentator super nono prime 
+philo<lb ed="#Ba" break="no"/>sophig, natura non facit formam in 
+ma<lb ed="#Ba" break="no"/>teria, sed ex materia : et ideo 
+transmu<lb ed="#Ba" break="no"/>tat materiam de forma ad formam : quod
+<lb ed="#Ba"/>facere non potest, nisi per qualitates
+<lb ed="#Ba"/>activas et passivas, quibus transmutat
+<lb ed="#Ba"/>materiam ad educendam formam ex
+<lb ed="#Ba"/>ipsa, quibus etiam postea formam 
+con<lb ed="#Ba" break="no"/>servatur in ipsa materia. Sed in Deo non
+<lb ed="#Ba"/>est sic. Ile enim facit totum secundum
+<lb ed="#Ba"/>totum esse : et ideo conservatio totius
+<lb ed="#Ba"/>esse non potest radicari nisi in ipso.
+</p>
+               <p xml:id="Almn78-a48811-d1e1082">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet Deus
+<lb ed="#Ba"/>operetur totum esse in materia et forma
+<lb ed="#Ba"/>el speciem et virtutem sicut prima causa,
+<lb ed="#Ba"/>nihilominus tamen sunt cause proxime
+<lb ed="#Ba"/>naturales que operantur ad 
+terminatio<lb ed="#Ba" break="no"/>nem et modum esse illius, sed non ad
+<lb ed="#Ba"/>creationem, sive ad deductionem qua
+<lb ed="#Ba"/>illud esse deducitur de non esse ad esse :
+<lb ed="#Ba"/>quia hoc solius Dei est : et sicut solius
+<lb ed="#Ba"/>Dei est illud deducere de non esse, ita
+<lb ed="#Ba"/>solius Dei est hoc conservare.
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Osnciunr tamen quidam, quod de 
+po<lb ed="#Ba" break="no"/>tentia regis est, quod possit non presens
+<lb ed="#Ba"/>facere per balivum : et infirmitatis regis
+<lb ed="#Ba"/>est, quod non possit facere nisi 
+pre<lb ed="#Ba" break="no"/>sens. Et sic videtur etiam, quod Deus
+<lb ed="#Ba"/>non presens per essentiam possit 
+conser<lb ed="#Ba" break="no"/>vare, et quod hoc majoris sit potentia.
+</p>
+               <p xml:id="Almn78-a48811-d1e1126">
+                  <lb ed="#Ba"/>Sed ad hoc dicendum est, quod hoc 
+ve<lb ed="#Ba" break="no"/>rum est in illis conservatis que situaliter
+<lb ed="#Ba"/>distant a conservante : quia illis ubique
+<lb ed="#Ba"/>non potest conservans esse presens.
+<lb ed="#Ba"/>Deus autem situaliter a nullo distat : et
+<lb ed="#Ba"/>ideo infirmitatis esset si per aliud 
+conser<lb ed="#Ba" break="no"/>varet : sicut infirmitatis est quod 
+bali<lb ed="#Ba" break="no"/>vus facit per regem, quod non potest 
+fa<lb ed="#Ba" break="no"/>cere per seipsum : et indigentia est
+<lb ed="#Ba"/>quod rex indiget balivo, ubi non potest
+<lb ed="#Ba"/>esse per seipsum : perfectissime autem
+<lb ed="#Ba"/>potentia ubique facere per seipsum.
+</p>
+               <p xml:id="Almn78-a48811-d1e1155">
+                  <lb ed="#Ba"/>Ozsnciunt etiam quidam, quod stelle
+<lb ed="#Ba"/>que nobilius aliis operantur, non 
+tan<lb ed="#Ba" break="no"/>tum operantur accedentes, sed etiam 
+re<lb ed="#Ba" break="no"/>cedentes : et sic iste modus debet etiam
+<lb ed="#Ba"/>attribui Deo.
+</p>
+               <p xml:id="Almn78-a48811-d1e1168">
+                  <lb ed="#Ba"/>Sed ad hoc dicendum, quod stella 
+sic<lb ed="#Ba" break="no"/>ut et alie cause naturales ad 
+transmuta<lb ed="#Ba" break="no"/>tionem materiae situaliter distense, et in
+<lb ed="#Ba"/>diversa latitudine et longitudine a stellis
+<lb ed="#Ba"/>respect operantur: et ideo oportet 
+ac<lb ed="#Ba" break="no"/>cedere et recedere a stellis ut tota 
+mate<lb ed="#Ba" break="no"/>ria moveatur : et hoc indigentie et 
+igno<lb ed="#Ba" break="no"/>bilitatis est, quod non est Deo 
+attribuen<lb ed="#Ba" break="no"/>dum, a quo nihil distat situaliter, sed
+<lb ed="#Ba"/>ubique est creans et conservans per 
+se<lb ed="#Ba" break="no"/>ipsum : et sicut in opere creationis nullo
+<lb ed="#Ba"/>indiget, sic et in opere conservationis
+<lb ed="#Ba"/>nulli innititur.
+</p>
+            </div>
+            <div xml:id="Almn78-a48811-Dd1e1200">
+               <head xml:id="Almn78-a48811-Hd1e1202">Membrum 2</head>
+               <head xml:id="Almn78-a48811-Hd1e1205" type="question-title">
+  Utrum idem sit esse ubique, et in omni
+  re, et e converso
+</head>
+               <p xml:id="Almn78-a48811-d1e1208">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum idem sit esse ubique, et in omni
+<lb ed="#Ba"/>re, et e converso?
+</p>
+               <p xml:id="Almn78-a48811-d1e1217">
+                  <lb ed="#Ba"/>Secunpo queritur, Utrum idem sit
+<pb ed="#Ba" n="732"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>esse ubique, et in omni re, et e 
+conver<lb ed="#Ba" break="no"/>so?
+</p>
+               <p xml:id="Almn78-a48811-d1e1230">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Alia enim importatur habitudo cum
+<lb ed="#Ba"/>dicitur Deus esse in re, et cum dicitur
+<lb ed="#Ba"/>Deus esse in loco. Cum enim dicitur
+<lb ed="#Ba"/>Deus esse in re, dicitur esse ut continue
+<lb ed="#Ba"/>faciens esse rei,et ut providentia 
+circum<lb ed="#Ba" break="no"/>iens, et convenientia unicuique rei 
+do<lb ed="#Ba" break="no"/>nans, ut dicit Boetius in IV de 
+Consola<lb ed="#Ba" break="no"/>tione philosophie *, Cum autem dicitur
+<lb ed="#Ba"/>esse in loco, dicitur esse in loco ut loco
+<lb ed="#Ba"/>ea que nobilitatis sunt conferens, sicut
+<lb ed="#Ba"/>continere, terminare, extrinsecus 
+salva<lb ed="#Ba" break="no"/>re, ne defluat locatum in partibus 
+extrin<lb ed="#Ba" break="no"/>secis. Ergo non est idem Deum esse in
+<lb ed="#Ba"/>omni re et in omni loco.
+</p>
+               <p xml:id="Almn78-a48811-d1e1266">
+                  <lb ed="#Ba"/>2. Adhuc, Non omnis res est locus:
+<lb ed="#Ba"/>ergo esse in re et esse in loco diversa 
+si<lb ed="#Ba" break="no"/>gnificant quantum ad modum habitudinis.
+</p>
+               <p xml:id="Almn78-a48811-d1e1275">
+                  <lb ed="#Ba"/>3. Adhuc, Ista convertuntur, Deum
+<lb ed="#Ba"/>esse in omni re que est ab ipso, et 
+om<lb ed="#Ba" break="no"/>nem rem que est ab ipso, esse in Deo.
+<lb ed="#Ba"/>Sed non sic convertuntur ista, Deum
+<lb ed="#Ba"/>esse in omni loco, et omnem locum esse
+<lb ed="#Ba"/>in Deo. Ergo non sunt idem, Deum esse
+<lb ed="#Ba"/>ubique et in omni re.
+</p>
+               <p xml:id="Almn78-a48811-d1e1293">
+                  <lb ed="#Ba"/>4, Adhuc, Ponamus, quod nullum
+<lb ed="#Ba"/>corpus sit, sequitur quod nullus locus
+<lb ed="#Ba"/>sit. Adhuc tamen erunt celestes essentie
+<lb ed="#Ba"/>et Angeli et spiritus : et tunc verum erit,
+<lb ed="#Ba"/>quod Deus erit in omni re: et non erit
+<lb ed="#Ba"/>verum, quod Deus sit in omni loco.
+<lb ed="#Ba"/>Ergo non sunt idem.
+</p>
+               <p xml:id="Almn78-a48811-d1e1311">
+                  <lb ed="#Ba"/>In conrranium hujus est,
+<lb ed="#Ba"/>1. Quod dicitur in libro I 
+Sententia<lb ed="#Ba" break="no"/>rum, distinctione, XX XVII, quod <quote xml:id="Almn78-a48811-Qd1e1319"> idem
+<lb ed="#Ba"/>ast esse in omni re, et in omni loco. </quote>
+  
+                  <lb ed="#Ba"/>2. Adhuc, Cum dicitur Deus esse in
+<lb ed="#Ba"/>re, non importatur nisi habitudo cause :
+<lb ed="#Ba"/>et similiter cum dicitur Deus esse in
+<lb ed="#Ba"/>loco, non nisi habitudo cause 
+importa<lb ed="#Ba" break="no"/>tur : et sic videtur esse idem in omni re
+<lb ed="#Ba"/>esse, quod esse in omni loco. —
+</p>
+               <p xml:id="Almn78-a48811-d1e1338">
+                  <lb ed="#Ba"/>Solutio. Meo judicio non sunt idem
+<lb ed="#Ba"/>Deum esse in omni re, et Deum esse in
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>omni loco, sicut probatum est. Cum
+<lb ed="#Ba"/>enim dicitur Deus esse in omni re, iste
+<lb ed="#Ba"/>est intellectus, quod per presentiam 
+es<lb ed="#Ba" break="no"/>sentie que primum principium omnis
+<lb ed="#Ba"/>esse est et fons, continue influit et dat
+<lb ed="#Ba"/>esse, et tenet ne in nihilum decidat sicut
+<lb ed="#Ba"/>ex nihilo factum est. Dicit enim Boetius,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a48811-Qd1e1364"> nulla res preter Deum totum
+<lb ed="#Ba"/>esse suum simul habet, et quod de esse
+<lb ed="#Ba"/>quo cras erit, hodie non habet. </quote> Et
+<lb ed="#Ba"/>ideo sicut vita in corpore non est, nisi
+<lb ed="#Ba"/>vitam anima continue influat corpori,
+<lb ed="#Ba"/>ita quod ipsa vila, ut dicit Philosophus,
+<lb ed="#Ba"/>sit actus continuus in corpus, eo quod,
+<lb ed="#Ba"/>sicut dicit Aristoteles in secundo de 
+Ani<lb ed="#Ba" break="no"/>ma, anima est causa et principium vite
+<lb ed="#Ba"/>per definitionem propriam ita esse
+<lb ed="#Ba"/>continuus actus est divine essentie in
+<lb ed="#Ba"/>omnia que sunt: eo quod ipsa essentia
+<lb ed="#Ba"/>divina principium et fons esse est in
+<lb ed="#Ba"/>omnia que sunt. Et hoc jam quidem
+<lb ed="#Ba"/>probatum est in libro de Causis, ubi 
+di<lb ed="#Ba" break="no"/>citur, quod prima rerum creatarum est
+<lb ed="#Ba"/>esse in omni eo quod est, et non est
+<lb ed="#Ba"/>ante ipsam creatum aliud: et ideo 
+ne<lb ed="#Ba" break="no"/>cesse est, quod sit effectus prime cause.
+<lb ed="#Ba"/>Omnis enim causa causat per 
+informa<lb ed="#Ba" break="no"/>tionem et determinationem esse, et ideo
+<lb ed="#Ba"/>ante suum effectam supponit esse aliud.
+<lb ed="#Ba"/>Et hoc importatur, quando dicitur Deus
+<lb ed="#Ba"/>in omni re esse per essentiam. Cum 
+au<lb ed="#Ba" break="no"/>tem dicitur Deus esse in omni loco, 
+ul<lb ed="#Ba" break="no"/>tra hoc importatur, scilicet quod et esse
+<lb ed="#Ba"/>loco det, et ultra hoc virtutes esse loci
+<lb ed="#Ba"/>consequentes, sicut virtus est 
+termina<lb ed="#Ba" break="no"/>tiva, contentiva, et salvativa, a qua et ad
+<lb ed="#Ba"/>quam fit motus : quia dicit Aristoteles
+<lb ed="#Ba"/>in quarto Physicorum, quod a physico
+<lb ed="#Ba"/>non queritur locus nisi propter motum
+<lb ed="#Ba"/>qui est ab ipso et ad ipsum. Et ideo in
+<lb ed="#Ba"/>octavo Physicorum ostendit, quod idem
+<lb ed="#Ba"/>est movens ad esse substantiale 
+secun<lb ed="#Ba" break="no"/>dum formam, et ad locum, generans
+<lb ed="#Ba"/>seilicet, vel removens impedimentum
+<lb ed="#Ba"/>quod prohibet moveri secundum locum
+<lb ed="#Ba"/>id quod jam habet esse substantiale 
+de<lb ed="#Ba" break="no"/>scendentis vel ascendentis.
+</p>
+               <p xml:id="Almn78-a48811-d1e1452">
+                  <pb ed="#Ba" n="733"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Av w quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod Magister non intendit,
+<lb ed="#Ba"/>quod penitus idem sit, quod unum 
+se<lb ed="#Ba" break="no"/>quitur ex altero. Ad hoc enim, quod
+<lb ed="#Ba"/>Deus est in omni re, sequitur quod est in
+<lb ed="#Ba"/>homine.
+</p>
+               <p xml:id="Almn78-a48811-d1e1473">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet eadem
+<lb ed="#Ba"/>sit causa cum dicitur Deus esse in omni
+<lb ed="#Ba"/>re, et Deus esse in omni loco, non 
+ta<lb ed="#Ba" break="no"/>men est eadem habitudo, nec ad idem:
+<lb ed="#Ba"/>quia alius effectus est connotatus cum
+<lb ed="#Ba"/>dicitur, Deus est in omni loco, et cum
+<lb ed="#Ba"/>dicitur, Deus est in omni re, sicut paulo
+<lb ed="#Ba"/>ante dictum est.
+</p>
+            </div>
+            <div xml:id="Almn78-a48811-Dd1e1495">
+               <head xml:id="Almn78-a48811-Hd1e1497">Membrum 3</head>
+               <head xml:id="Almn78-a48811-Hd1e1500" type="question-title">
+  Utrum idem sit Deum esse ubique, et in
+  omni loco, et ubicumque
+</head>
+               <p xml:id="Almn78-a48811-d1e1503">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Utrum idem sit Deum esse ubique, et in
+<lb ed="#Ba"/>omni loco, et ubicumque ?
+</p>
+               <p xml:id="Almn78-a48811-d1e1512">
+                  <lb ed="#Ba"/>Tertio queritur, Utrum idem sit
+<lb ed="#Ba"/>Deum esse ubique, et in omni loco, et
+<lb ed="#Ba"/>ubicumque ?
+</p>
+               <p xml:id="Almn78-a48811-d1e1521">
+                  <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Unumquodque enim istorum dicit
+<lb ed="#Ba"/>totum in loco. Ergo idem est quod 
+dici<lb ed="#Ba" break="no"/>tur per unumquodgque istorum.
+</p>
+               <p xml:id="Almn78-a48811-d1e1533">
+                  <lb ed="#Ba"/>2. Adhuc, Per unumquodque istorum
+<lb ed="#Ba"/>connotatur idem, scilicet quod a Deo in
+<lb ed="#Ba"/>se existente habeant esse et virtutem
+<lb ed="#Ba"/>continendi. Igitur et in significato et in
+<lb ed="#Ba"/>connotato haec tria sunt idem.
+</p>
+               <p xml:id="Almn78-a48811-d1e1546">
+                  <lb ed="#Ba"/>In conTRARIUM estm
+<lb ed="#Ba"/>1. Quod dicit Anselmus in Monologio,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a48811-Qd1e1554"> id quod in omni loco est, cuilibet
+<lb ed="#Ba"/>loco commetitur?. </quote> Deus autem cum
+<lb ed="#Ba"/>simplex sit et impartibilis, non 
+commeti<lb ed="#Ba" break="no"/>tur alicui loco, et tamen est ubique. 
+Er<lb ed="#Ba" break="no"/>go non sunt idem Deum esse in omni
+<lb ed="#Ba"/>loco, et Deum esse ubique.
+</p>
+               <p xml:id="Almn78-a48811-d1e1569">
+                  <lb ed="#Ba"/>2. Adhuc, Deus totus est ubique, ut
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>dicitur in libro primo Sententiarum, 
+dis<lb ed="#Ba" break="no"/>tinctione XXXVII, cap. Fatendum ergo.
+<lb ed="#Ba"/>Sed non totus est proprie loguendo in
+<lb ed="#Ba"/>omni loco. Quod enim in omni loco est,
+<lb ed="#Ba"/>commetitur se in omni loco : et cum 
+lo<lb ed="#Ba" break="no"/>cus sit spatiosa magnitudo, nihil potest
+<lb ed="#Ba"/>ei commetiri nisi sit spatiose 
+magnitudi<lb ed="#Ba" break="no"/>nis. Deus autem spatiose magnitudinis
+<lb ed="#Ba"/>non est. Ergo non commetitur se alicui
+<lb ed="#Ba"/>loco : et tamen est ubique : ergo non
+<lb ed="#Ba"/>sunt idem esse ubique, et esse. in omni
+<lb ed="#Ba"/>loco. Unde Augustinus super illud 
+Psal<lb ed="#Ba" break="no"/>mi oxivi, 45.: Veloctler currit sermo
+<lb ed="#Ba"/>ejus, sic dicit : <quote xml:id="Almn78-a48811-Qd1e1605"> Ad verbum Dei 
+perti<lb ed="#Ba" break="no"/>net non esse in parte, sed ubique esse
+<lb ed="#Ba"/>per semetipsum. Hoc enim est sapientia
+<lb ed="#Ba"/>Dei que attingit a fine usque ad finem
+<lb ed="#Ba"/>fortiter, et disponit omnia suaviter® :
+<lb ed="#Ba"/>non tamen locali motu, sed 
+immobilita<lb ed="#Ba" break="no"/>te sui. Velut si moles aliqua saxea 
+im<lb ed="#Ba" break="no"/>pleat aliquem locum, dicitur quod 
+attin<lb ed="#Ba" break="no"/>git a fine illius loci usque ad finem, cum
+<lb ed="#Ba"/>tamen locum non deserat alterum 
+occu<lb ed="#Ba" break="no"/>pando. Non ergo habet motum localem
+<lb ed="#Ba"/>verbum illud et illa sapientia : illa enim
+<lb ed="#Ba"/>solida est ubique. </quote> Ex his patet quod
+<lb ed="#Ba"/>non proprie est in omni loco, nec in
+<lb ed="#Ba"/>parte cujuslibet loci : proprie tamen est
+<lb ed="#Ba"/>ubique : ergo non sunt idem esse 
+ubi<lb ed="#Ba" break="no"/>que, et esse in omni loco.
+</p>
+               <p xml:id="Almn78-a48811-d1e1644">
+                  <lb ed="#Ba"/>3. Adhuc, Multa comparantur ad ubi
+<lb ed="#Ba"/>gue nullo modo comparantur ad locum
+<lb ed="#Ba"/>ut locata, sicut primum mobile, quod
+<lb ed="#Ba"/>quia non est in loco, non potest moveri
+<lb ed="#Ba"/>in loco. Dicit enim Aristoteles ante
+<lb ed="#Ba"/>finem octavi Physticorum, quod primum
+<lb ed="#Ba"/>mobile non movetur secundum 
+substan<lb ed="#Ba" break="no"/>tiam in loco, sed movetur secundum
+<lb ed="#Ba"/>formam, gue forme diversificantur in
+<lb ed="#Ba"/>ubi et non in loco : propter quas 
+forma<lb ed="#Ba" break="no"/>rum variationes Ptolemzus invenit 
+ta<lb ed="#Ba" break="no"/>bulas angulorum, et postea invente sunt
+<lb ed="#Ba"/>tabule diversitatis adspectus. Ergo non
+<lb ed="#Ba"/>est idem aliquid esse ubique, et esse in
+<lb ed="#Ba"/>omni loco.
+  
+<pb ed="#Ba" n="734"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>4. Adhuc, Punctum est alicubi in 
+con<lb ed="#Ba" break="no"/>tinuo : ergo est in ubi et non in loco :
+<lb ed="#Ba"/>quia dicit Aristoteles in quarto 
+Physico<lb ed="#Ba" break="no"/>rum, quod nec una differentia est puncti
+<lb ed="#Ba"/>et. loci puncti: ergo non est idem esse
+<lb ed="#Ba"/>in ubi, et esse in loco: ergo nec idem
+<lb ed="#Ba"/>est esse ubique, et esse in omni loco.
+</p>
+               <p xml:id="Almn78-a48811-d1e1699">
+                  <lb ed="#Ba"/>5. Adhuc, Ubicumque non dicit ubi
+<lb ed="#Ba"/>simplex, sed wbi distinctum : sed quod
+<lb ed="#Ba"/>est ubicumque, sequitur quod in loco
+<lb ed="#Ba"/>distincte sit, distinguente id quod est in
+<lb ed="#Ba"/>ipso. Dicit enim Boetius, et in libro de
+<lb ed="#Ba"/>Trinitate, et incommento super 
+Porphy<lb ed="#Ba" break="no"/>rium, ubi loquitur de individuantibus :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48811-Qd1e1718"> Ut de cateris taceam, unus locus 
+pro<lb ed="#Ba" break="no"/>prius non potest esse duorum. 
+Ubicum<lb ed="#Ba" break="no"/>que autem uniuscujusque 
+comparatio<lb ed="#Ba" break="no"/>nem dicit ad proprium locum: et hoc
+<lb ed="#Ba"/>non dicit ubique, nec in omni loco : ergo
+<lb ed="#Ba"/>haec tria non sunt idem, esse ubique,
+<lb ed="#Ba"/>esse in omni loco, et esse ubicumque. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e1735">
+                  <lb ed="#Ba"/>Soxvtio. Sive prajudicio loquendo 
+vi<lb ed="#Ba" break="no"/>detur dicendum, quod si quis subtiliter
+<lb ed="#Ba"/>ista inspiciat, non sunt idem. Cum enim
+<lb ed="#Ba"/>dicitur wbt, non dicitur natura loci, sed
+<lb ed="#Ba"/>natura alterius generis que est 
+circum<lb ed="#Ba" break="no"/>scriptio corporis a loci circumscriptione
+<lb ed="#Ba"/>procedens, utin Sex principiis dicitur :
+<lb ed="#Ba"/>et cum additur gue syllabica adjectio ad
+<lb ed="#Ba"/>ubi, non additur ei nova natura que 
+po<lb ed="#Ba" break="no"/>nat ipsum in alio genere, sed additur
+<lb ed="#Ba"/>communicabilitas illius nature et 
+distri<lb ed="#Ba" break="no"/>butio in universum nature illius. Et hoe
+<lb ed="#Ba"/>patet per expositionem Augustini et 
+Hi<lb ed="#Ba" break="no"/>larii, qui exponunt Deum esse ubique,
+<lb ed="#Ba"/>hoc est, nusquam deesse : sicut 
+exponi<lb ed="#Ba" break="no"/>tur Deum semper esse, hoc est, 
+num<lb ed="#Ba" break="no"/>quam deesse. Unde sicut ex hac, Deus
+<lb ed="#Ba"/>semper est, non sequitur, ergo im omni
+<lb ed="#Ba"/>tempore est ut res tempore mensurata,
+<lb ed="#Ba"/>vel que est in tempore : ita ex hac,
+<lb ed="#Ba"/>Deus ubique est, non sequitur, ergo in
+<lb ed="#Ba"/>omni loco est : quod enim in omni loco
+<lb ed="#Ba"/>est, ut dicit Anselmus, loci leges 
+sequi<lb ed="#Ba" break="no"/>turin omni loco : sed quod ubique est,
+<lb ed="#Ba"/>non de necessitate leges loci sequitur :
+<lb ed="#Ba"/>quia paulo ante probatum est de primo
+<lb ed="#Ba"/>ccelo et puncto, quod id quod in ubi est,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>non de necessitate leges loci sequitur.
+<lb ed="#Ba"/>Unde sicut universale tribus modis 
+acci<lb ed="#Ba" break="no"/>pitur, scilicet ut in natura simplici non
+<lb ed="#Ba"/>multiplicata sed multiplicabili : eo quod,
+<lb ed="#Ba"/>ut dicit Aristoteles in primo 
+Posterio<lb ed="#Ba" break="no"/>rum, et in multis est et de multis 
+apti<lb ed="#Ba" break="no"/>tudine communitatis sua. Aliquando 
+ac<lb ed="#Ba" break="no"/>cipitur ut actu mulliplicatum, sed nen
+<lb ed="#Ba"/>distinctum per propria, ut cum dicitur,
+<lb ed="#Ba"/>omnis homo est. Aliquando accipitur ut
+<lb ed="#Ba"/>actu multiplicatum et distinctum 
+perpro<lb ed="#Ba" break="no"/>pria,sicut cum dicitur,homo est qui 
+parti<lb ed="#Ba" break="no"/>cipatur a Socrate et Platone et sicde aliis.
+</p>
+               <p xml:id="Almn78-a48811-d1e1827">
+                  <lb ed="#Ba"/>Ita haec tria differunt, ubique, in
+<lb ed="#Ba"/>omni loco, et ubicumque, quod ubique
+<lb ed="#Ba"/>naturam sui generis dicit simplicem 
+mul<lb ed="#Ba" break="no"/>tiplicabilem, sed nec multiplicatam nec
+<lb ed="#Ba"/>distinctam. Esse autem in omni loco,
+<lb ed="#Ba"/>propter habitudinem prapositionis, que
+<lb ed="#Ba"/>notat potius esse in loco quam locum, et
+<lb ed="#Ba"/>sic dicit ubi, dicit eamdem naturam
+<lb ed="#Ba"/>multiplicatam secundum actum. Et ideo
+<lb ed="#Ba"/>magis proprie est Deus ubique quam in
+<lb ed="#Ba"/>omni loco. Ubicumque autem naturam
+<lb ed="#Ba"/>ejus quod est ubi, dicit et multiplicatam
+<lb ed="#Ba"/>et distinctam per propria : et ideo haec
+<lb ed="#Ba"/>impropriissima est, Deus est ubicumque.
+<lb ed="#Ba"/>Sancti tamen communiter loquendo
+<lb ed="#Ba"/>unum accipiunt pro altero.
+</p>
+               <p xml:id="Almn78-a48811-d1e1864">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod licet
+<lb ed="#Ba"/>unumquodque istorum trium dicat totum
+<lb ed="#Ba"/>in quantitate, tamen quia non eodem
+<lb ed="#Ba"/>modo significant illud, subtiliter 
+lo<lb ed="#Ba" break="no"/>quendo non sunt idem.
+</p>
+               <p xml:id="Almn78-a48811-d1e1877">
+                  <lb ed="#Ba"/>Ad aliud dicendum eodem modo,
+<lb ed="#Ba"/>quod licet connotatum sit in genere, non
+<lb ed="#Ba"/>tamen eodem modo significatur in uno
+<lb ed="#Ba"/>sicut in alio.
+</p>
+               <p xml:id="Almn78-a48811-d1e1888">
+                  <lb ed="#Ba"/>Ad aliud patet solutio per ea que dicta ad3,i ev,
+<lb ed="#Ba"/>sunt supra.
+</p>
+            </div>
+            <div xml:id="Almn78-a48811-Dd1e1896">
+               <head xml:id="Almn78-a48811-Hd1e1898">Membrum 4</head>
+               <head xml:id="Almn78-a48811-Hd1e1901" type="question-title">
+  De modis quibus Deus est in omni re, et
+  st esse ubique et in omni re sit 
+  proprium ei
+</head>
+               <p xml:id="Almn78-a48811-d1e1904">
+                  <pb ed="#Ba" n="735"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>De modis quibus Deus est in omni re, et
+<lb ed="#Ba"/>st esse ubique et in omni re sit 
+pro<lb ed="#Ba" break="no"/>prium ei ?
+</p>
+               <p xml:id="Almn78-a48811-d1e1920">
+                  <lb ed="#Ba"/>Quarto, Queritur de modis quibus
+<lb ed="#Ba"/>Deus est in omni re, et si ab eterno
+<lb ed="#Ba"/>convenit ei esse ubique.
+</p>
+               <p xml:id="Almn78-a48811-d1e1929">
+                  <lb ed="#Ba"/>Ponit enim Magister in Littera 
+quin<lb ed="#Ba" break="no"/>que modos, scilicet quod in omni re est
+<lb ed="#Ba"/>essentialiter, presentialiter, 
+potentiali<lb ed="#Ba" break="no"/>ter : in Sanctis autem per inhabitantem
+<lb ed="#Ba"/>gratiam, in homine vero Christo per
+<lb ed="#Ba"/>gratiam unionis. Et illum modum qui
+<lb ed="#Ba"/>est per inhabitantem gratiam, dividit in
+<lb ed="#Ba"/>duos. Dicit enim, quod Deus inhabitator
+<lb ed="#Ba"/>est quorumdam nondum cognoscentium
+<lb ed="#Ba"/>Deum, et quorumdam cognoscentium
+<lb ed="#Ba"/>Deum et diligentium : et quorumdam
+<lb ed="#Ba"/>cognoscentium Deum’ non est 
+inhabita<lb ed="#Ba" break="no"/>tor : illi enim ad templum®Dei non 
+per<lb ed="#Ba" break="no"/>tinent ; quia, sicut dicitur, ad Roman. 1,
+<lb ed="#Ba"/>21 : Cum cognovissent Deum, non sicut
+<lb ed="#Ba"/>Deum glorificaverunt. Ad templum Dei
+<lb ed="#Ba"/>pertinent parvuli sanctificati sacramento
+<lb ed="#Ba"/>Christi et renati Spiritu sancto, qui 
+non<lb ed="#Ba" break="no"/>dum valent cognoscere Christum,
+</p>
+               <p xml:id="Almn78-a48811-d1e1974">
+                  <lb ed="#Ba"/>Sic ergo quinque modis Deus est in
+<lb ed="#Ba"/>rebus. Et de istis modis queritur : quia
+</p>
+               <p xml:id="Almn78-a48811-d1e1981">
+                  <lb ed="#Ba"/>1. Isti modi aut sumuntur ex parte
+<lb ed="#Ba"/>Dei qui inest, aut ex parte creature cui
+<lb ed="#Ba"/>inest. Siex parte Dei: cum Deus uno
+<lb ed="#Ba"/>modo se habeat ad omnem rem creatam,
+<lb ed="#Ba"/>videtur esse unus modus quo Deus est
+<lb ed="#Ba"/>in rebus, et non quinque modi. Si 
+au<lb ed="#Ba" break="no"/>tem sumuntur ex parte creature : cum
+<lb ed="#Ba"/>Deus multo plura operetur in rebus 
+di<lb ed="#Ba" break="no"/>versis, quam quinque, videntur modi
+<lb ed="#Ba"/>infiniti esse et non quinque tantum.
+</p>
+               <p xml:id="Almn78-a48811-d1e2005">
+                  <lb ed="#Ba"/>2. Adhuc, Cum dicitur, Deus inest per
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>gratiam, aut addit aliquid ex parte Dei,
+<lb ed="#Ba"/>aut ex parle nostra. Si ex:parte Dei :
+<lb ed="#Ba"/>tunc ex parte Dei Deus difformis est in
+<lb ed="#Ba"/>rebus : quod falsum est : sic enim 
+seque<lb ed="#Ba" break="no"/>retur, quod inesse essentialiter, 
+prasen<lb ed="#Ba" break="no"/>tialiter, potentialiter, et per gratiam et
+<lb ed="#Ba"/>unionem essent forme divine, quibus
+<lb ed="#Ba"/>multiformiter inesset rebus Deus : et sic
+<lb ed="#Ba"/>Deus esset multiformis et multiplex,
+<lb ed="#Ba"/>quod hereticum est.
+</p>
+               <p xml:id="Almn78-a48811-d1e2034">
+                  <lb ed="#Ba"/>3. Adhuc, Quid est dictum 
+prasentia<lb ed="#Ba" break="no"/>liter, potentialiter, essentialiter Deum
+<lb ed="#Ba"/>esse in rebus? Si dicitur, ut quidam 
+di<lb ed="#Ba" break="no"/>cunt in littera libri primi Sententiarum,
+<lb ed="#Ba"/>distinctione XXXVII, in illo cap. 
+Qui<lb ed="#Ba" break="no"/>dam tamen, quod in omnibus est 
+essen<lb ed="#Ba" break="no"/>tialiter : quia omnis natura atque omne
+<lb ed="#Ba"/>quod naturaliter est in quocumque ; loco
+<lb ed="#Ba"/>sit, per eum habet esse, et omnis locus
+<lb ed="#Ba"/>in quo illud est. Presentialiter autem 
+di<lb ed="#Ba" break="no"/>cunt esse ubique : quia cuncta loca sunt
+<lb ed="#Ba"/>ei presentia, et que in eis sunt. 
+Poten<lb ed="#Ba" break="no"/>fialiter autem : quia in omnibus 
+num<lb ed="#Ba" break="no"/>quam aliquid operari cessat. Nam et ipsa
+<lb ed="#Ba"/>loca, et quidquid in eis est, nisi ipse
+<lb ed="#Ba"/>conservet, manere non possunt.
+</p>
+               <p xml:id="Almn78-a48811-d1e2071">
+                  <lb ed="#Ba"/>4, Adhuc, Ibidem, In eis per 
+substan<lb ed="#Ba" break="no"/>tiam Deus esse dicitur : quia per 
+virtu<lb ed="#Ba" break="no"/>tem propria suae substantia facit ut
+<lb ed="#Ba"/>etiam loca sint et omnia que in eis sunt.
+<lb ed="#Ba"/>Secundum hoc essentialiter dicitur esse
+<lb ed="#Ba"/>in rebus}: quia essentia rerum esta sua
+<lb ed="#Ba"/>essentia. Et potentialiter dicitur esse in
+<lb ed="#Ba"/>rebus : quia potentia rerum est a sua
+<lb ed="#Ba"/>potentia. Sed tunc adaptari non potest,
+<lb ed="#Ba"/>quod presentia rerum sit a sua 
+presen<lb ed="#Ba" break="no"/>tia : prasentiam enim rei esse secundum
+<lb ed="#Ba"/>ea que dicuntur ibidem, est rem sibi
+<lb ed="#Ba"/>presentem esse in cognitione : scimus
+<lb ed="#Ba"/>autem, quod non omnis res sibi hoc 
+mo<lb ed="#Ba" break="no"/>do presens est : quia non omnis res 
+cog<lb ed="#Ba" break="no"/>noscit seipsam.
+</p>
+               <p xml:id="Almn78-a48811-d1e2108">
+                  <lb ed="#Ba"/>5. Adhuc, Si dicatur, quod haec 
+acci<lb ed="#Ba" break="no"/>piuntur penes attributa personarum, 
+vi<lb ed="#Ba" break="no"/>detur non posse stare : quia tunc 
+poten<lb ed="#Ba" break="no"/>tialiter inesse attribueretur Patri, pra
+<pb ed="#Ba" n="736"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>sentialiter inesse Filio, per gratiam inesse
+<lb ed="#Ba"/>Spiritui sancto : essentialiter inesse nulli
+<lb ed="#Ba"/>persone potest appropriari: ergo 
+adap<lb ed="#Ba" break="no"/>tatio illa est inconveniens.
+</p>
+               <p xml:id="Almn78-a48811-d1e2133">
+                  <lb ed="#Ba"/>6. Adhuc, Posito per intellectum,
+<lb ed="#Ba"/>quod in divinis non sint persone sicut
+<lb ed="#Ba"/>dicunt Gentiles, adhuc Deus erit in 
+om<lb ed="#Ba" break="no"/>nibus essentialiter, potentialiter, 
+pre<lb ed="#Ba" break="no"/>sentialiter. Haec ergo penes attributa
+<lb ed="#Ba"/>personarum non accipiuntur.
+</p>
+               <p xml:id="Almn78-a48811-d1e2149">
+                  <lb ed="#Ba"/>7. Adhuc, Hee singulis personis 
+con<lb ed="#Ba" break="no"/>veniunt. Pater enim est in re 
+essentiali<lb ed="#Ba" break="no"/>ter, presentialiter, et potentialiter : et
+<lb ed="#Ba"/>Filius similiter : et similiter Spiritus
+<lb ed="#Ba"/>sanctus. Ergo penes attributa 
+persona<lb ed="#Ba" break="no"/>rum hec non possunt accipi.
+</p>
+               <p xml:id="Almn78-a48811-d1e2165">
+                  <lb ed="#Ba"/>8. Adhuc, Circumscribamus a re 
+pre<lb ed="#Ba" break="no"/>sentiam et potentiam, adhuc remanet
+<lb ed="#Ba"/>essentia : et in illa Deus erit 
+essentiali<lb ed="#Ba" break="no"/>ter, prasentialiter, potentialiter: ergo
+<lb ed="#Ba"/>illa adaptatio non valuit, qua dicebatur,
+<lb ed="#Ba"/>essentialiter Deum esse in rebus, est 
+es<lb ed="#Ba" break="no"/>sentiam rerum esse a sua essentia: et
+<lb ed="#Ba"/>potentialiter Deum esse in rebus, est 
+po<lb ed="#Ba" break="no"/>tentiam rerum esse a sua potentia : et
+<lb ed="#Ba"/>presentialiter Deum esse in rebus, est
+<lb ed="#Ba"/>presentiam rerum sive speciem per
+<lb ed="#Ba"/>quam cognoscibilis est res, esse a sua
+<lb ed="#Ba"/>presentia, sive ab idea per quam sibi
+<lb ed="#Ba"/>quelibet res prasens est.
+</p>
+               <p xml:id="Almn78-a48811-d1e2198">
+                  <lb ed="#Ba"/>Ulterius queritur de istis modis in
+<lb ed="#Ba"/>speciali. Et primo de illo quo dicitur esse
+<lb ed="#Ba"/>ubique: quia est in omni re essentialiter.
+</p>
+               <p xml:id="Almn78-a48811-d1e2207">
+                  <lb ed="#Ba"/>Videtur enim hoc Deo non convenire.
+<lb ed="#Ba"/>1. Dicit enim Anselmus in Monologio,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a48811-Qd1e2215"> Deus in nullo loco est:</quote> ergo
+<lb ed="#Ba"/>ubique non est.
+</p>
+               <p xml:id="Almn78-a48811-d1e2221">
+                  <lb ed="#Ba"/>2. Adhuc, Cum dicitur, Deus est 
+ubi<lb ed="#Ba" break="no"/>que, aut dicitur proprie, aut per 
+transla<lb ed="#Ba" break="no"/>tionem de Deo. Si proprie, contradicit
+<lb ed="#Ba"/>Anselmus in Monologio, quod nihil est
+<lb ed="#Ba"/>in loco proprie nisi quod sequitur leges
+<lb ed="#Ba"/>loci, hoc est continere et mensurare.
+<lb ed="#Ba"/>Haec autem Deo non conveniunt: quia
+<lb ed="#Ba"/>Deus immensus est, et a nullo 
+contine<lb ed="#Ba" break="no"/>tur, sed omnia continet.
+</p>
+               <p xml:id="Almn78-a48811-d1e2244">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>3. Adhuc, Anselmus, ibidem. <quote xml:id="Almn78-a48811-Qd1e2250"> In
+<lb ed="#Ba"/>nullo itaque loco vel tempore dicitur
+<lb ed="#Ba"/>esse summa essentia: quia omnino a
+<lb ed="#Ba"/>nullo alio continetur, quam a-seipsa?. </quote>
+                  <lb ed="#Ba"/>Ergo non proprie comparatur ad locum.
+</p>
+               <p xml:id="Almn78-a48811-d1e2262">
+                  <lb ed="#Ba"/>4. Si dicatur, quod per translationem
+<lb ed="#Ba"/>comparatur ad locum. Contra: 
+Aristo<lb ed="#Ba" break="no"/>teles in Topicis : <quote xml:id="Almn78-a48811-Qd1e2270"> Omnes transferentes
+<lb ed="#Ba"/>se secundum aliquam similitudinem, se
+<lb ed="#Ba"/>transferunt : </quote> sumantur ergo 
+proprieta<lb ed="#Ba" break="no"/>tes loci que sunt secundum 
+Philoso<lb ed="#Ba" break="no"/>phiam in libro IV Physicorum, 
+conti<lb ed="#Ba" break="no"/>nere, salvare, circumscribere, terminare
+<lb ed="#Ba"/>immobile esse in se, sed ab ipso et ad
+<lb ed="#Ba"/>ipsum fieri motum : nullum istorum 
+ac<lb ed="#Ba" break="no"/>cipit Deus locum in quo esse dicatur :
+<lb ed="#Ba"/>ergo per translationem esse in loco Deo
+<lb ed="#Ba"/>non convenit.
+</p>
+               <p xml:id="Almn78-a48811-d1e2296">
+                  <lb ed="#Ba"/>5. Adhuc, Anselmus, ibidem, <quote xml:id="Almn78-a48811-Qd1e2300"> Si
+<lb ed="#Ba"/>usus loquendi admitteret, convenientius
+<lb ed="#Ba"/>diceretur Deus esse cum loco, vel cum
+<lb ed="#Ba"/>tempore, quam in loco, vel in 
+tem<lb ed="#Ba" break="no"/>pore: </quote> plus enim significatur contineri
+<lb ed="#Ba"/>aliquid cum dicitur esse in aliquo, quam
+<lb ed="#Ba"/>cum dicitur esse cum aliquo : Deo autem
+<lb ed="#Ba"/>contineri ab alio non convenit: et sic
+<lb ed="#Ba"/>nullo modo convenit ei esse in loco.
+</p>
+               <p xml:id="Almn78-a48811-d1e2321">
+                  <lb ed="#Ba"/>6. Adhuc, Si dicatur esse ubique, vel
+<lb ed="#Ba"/>in loco, ut dicit Anselmus, quia omnis
+<lb ed="#Ba"/>locus ei prasens est et nulli loco deest :
+<lb ed="#Ba"/>tunc videtur hoc non soli Deo esse 
+pro<lb ed="#Ba" break="no"/>prium : quia etiam materia diffusa in
+<lb ed="#Ba"/>omnibus, omni loco adest, et nulli loco
+<lb ed="#Ba"/>deest ; et sic esse ubique Deo proprie
+<lb ed="#Ba"/>non convenit.
+</p>
+               <p xml:id="Almn78-a48811-d1e2341">
+                  <lb ed="#Ba"/>7. Adhuc, Videtur quod Deo nullo
+<lb ed="#Ba"/>modo convenit esse ubique. A 
+quocum<lb ed="#Ba" break="no"/>que enim removetur natura aliqua, ab
+<lb ed="#Ba"/>eodem removetur universum nature
+<lb ed="#Ba"/>illius, ut patet: homo non est asinus :
+<lb ed="#Ba"/>ergo homo non est omnis asinus : licet
+<lb ed="#Ba"/>forte conversa hujus propositionis non
+<lb ed="#Ba"/>sit vera, universum enim alicujus 
+natu<lb ed="#Ba" break="no"/>re repugnat alicui cui non repugnat ipsa
+<lb ed="#Ba"/>natura, sicut Socrates non est omnis 
+ho<lb ed="#Ba" break="no"/>mo. Sed locus, ut jam habitum est, 
+re<lb ed="#Ba" break="no"/>movetur a Deo. Ergo universum loci
+<pb ed="#Ba" n="737"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod est ubique, removebitur ab eo : et
+<lb ed="#Ba"/>sic non convenit Deo esse ubique.
+</p>
+               <p xml:id="Almn78-a48811-d1e2378">
+                  <lb ed="#Ba"/>8. Adhuc, Aristoteles in quarto 
+Phy<lb ed="#Ba" break="no"/>sicorum dicit, quod duplex est locus.
+<lb ed="#Ba"/>Locus ut vas, etlocus ut locus. Locus ut
+<lb ed="#Ba"/>vas, sicut est navis locus naute. Locus ut
+<lb ed="#Ba"/>locus, sicut totus fluvius locus 
+navigatio<lb ed="#Ba" break="no"/>nis naute. Queratur ergo, Utrum 
+utro<lb ed="#Ba" break="no"/>que modo locus transferatur ad Deum,
+<lb ed="#Ba"/>vel non? Sisic: contra, locus ut vas,
+<lb ed="#Ba"/>est in quo translatione vasis locatum
+<lb ed="#Ba"/>transfertur de loco ad locum, ut vinum
+<lb ed="#Ba"/>in urna ; secundum hoc ergo Deus esset
+<lb ed="#Ba"/>locus in quo creature transferrentur de
+<lb ed="#Ba"/>loco ad locum, et esset locus qui 
+move<lb ed="#Ba" break="no"/>retur motu alterius, quod heresis est.
+<lb ed="#Ba"/>Si autem est in loco qui est locus ut
+<lb ed="#Ba"/>locus, et non ut vas: tunc sequeretur,
+<lb ed="#Ba"/>quod motus Dei esset ad locum et a loco,
+<lb ed="#Ba"/>quod heresis est: sequitur autem ex
+<lb ed="#Ba"/>hoc quod dicit Aristoteles in quarto 
+Phy<lb ed="#Ba" break="no"/>sicorum, quod <quote xml:id="Almn78-a48811-Qd1e2423"> non quexreremus 
+lo<lb ed="#Ba" break="no"/>cum si non esset motus, quiest ab ipso
+<lb ed="#Ba"/>et ad ipsum.</quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e2432">
+                  <lb ed="#Ba"/>Ulterius queritur, Si conceditur, quod
+<lb ed="#Ba"/>Deus sit ubique, utrum concedendum
+<lb ed="#Ba"/>sit, quod sit hic et ibi, vel hic et alibi
+<lb ed="#Ba"/>quam hic * ?
+</p>
+               <p xml:id="Almn78-a48811-d1e2443">
+                  <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Anselmus in Monologio : <quote xml:id="Almn78-a48811-Qd1e2449"> Sicut
+<lb ed="#Ba"/>quia huic loco presens est, et non 
+pro<lb ed="#Ba" break="no"/>hibetur illi vel illi loco simul prasens
+<lb ed="#Ba"/>esse : ita quia huic tempori presens est,
+<lb ed="#Ba"/>non prohibetur alii tempori prasens
+<lb ed="#Ba"/>esse. Sicut enim nunc temporis habet se
+<lb ed="#Ba"/>ad omnem locum, ita nunc eternitatis
+<lb ed="#Ba"/>se habet ad omne tempus ?. </quote> Ergo 
+vide<lb ed="#Ba" break="no"/>tur, quod similiter est hic et alibi
+<lb ed="#Ba"/>quam hic.
+</p>
+               <p xml:id="Almn78-a48811-d1e2472">
+                  <lb ed="#Ba"/>2. Adhuc, Anselmus, ibidem, <quote xml:id="Almn78-a48811-Qd1e2476"> 
+Nulla<lb ed="#Ba" break="no"/>tenus prohibetur vel cogitur lege 
+loco<lb ed="#Ba" break="no"/>ram vel temporum, alicubi vel aliquan
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>do esse vel non esse, quod nullo modo
+<lb ed="#Ba"/>intra locum vel tempus claudit suum
+<lb ed="#Ba"/>esse. </quote> Sed Deus intra locum et tempus
+<lb ed="#Ba"/>non claudit suum esse. Ergo non 
+coge<lb ed="#Ba" break="no"/>tur cum est hic, alibi non esse: ergo
+<lb ed="#Ba"/>est hic et ibi, et hic et alibi quam hic.
+</p>
+               <p xml:id="Almn78-a48811-d1e2499">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod hie et se: contra,
+<lb ed="#Ba"/>alibi dicunt loci distinctionem, et alibi
+<lb ed="#Ba"/>quam hie dicit loci distineti 
+comparatio<lb ed="#Ba" break="no"/>nem: et ad distinctionem. locorum 
+se<lb ed="#Ba" break="no"/>quitur distinctio locatorum. Talis autem
+<lb ed="#Ba"/>distinctio non cadit in Deum. Ergo. esse
+<lb ed="#Ba"/>hic et ibi, et alibi quam hic non 
+com<lb ed="#Ba" break="no"/>petit Deo.
+</p>
+               <p xml:id="Almn78-a48811-d1e2519">
+                  <lb ed="#Ba"/>Usrerits adhuc queritur de verbo
+<lb ed="#Ba"/>Ambrosii qui sic dicit libro I de Spiritu
+<lb ed="#Ba"/>sancto *, quod <quote xml:id="Almn78-a48811-Qd1e2527"> ubique esse proprium
+<lb ed="#Ba"/>est divinitatis *. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e2533">
+                  <lb ed="#Ba"/>1. Proprium enim est, quod uni soli 
+<lb ed="#Ba" break="no"/>convenit : non autem soli divinitati 
+con<lb ed="#Ba" break="no"/>venit ubique esse : quia Aristoteles in
+<lb ed="#Ba"/>primo Priorum dicit de universali, quod
+<lb ed="#Ba"/>cum sit de omni, et semper et ubique
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a48811-d1e2550">
+                  <lb ed="#Ba"/>2. Adhuc, Glossa super illud Psalmi
+<lb ed="#Ba"/>extyn, 15: Velociter currit sermo ejus,
+<lb ed="#Ba"/>dicit, quod <quote xml:id="Almn78-a48811-Qd1e2558"> velocitas ubique est, non
+<lb ed="#Ba"/>tantum in hominibus et equis, sed in
+<lb ed="#Ba"/>omnibus.</quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e2566">
+                  <lb ed="#Ba"/>3. Si forte aliquis dicat, quod aliter
+<lb ed="#Ba"/>Deus est ubique, et aliter universale :
+<lb ed="#Ba"/>universale enim est ubique, quia est in
+<lb ed="#Ba"/>omnibus que sunt in ambitu sue 
+com<lb ed="#Ba" break="no"/>munitatis : Deus autem est ubique, quia
+<lb ed="#Ba"/>in omnibus simpliciter. Contra : 
+Suma<lb ed="#Ba" break="no"/>tur universale quod per analogiam est in
+<lb ed="#Ba"/>Deo et in omnibus creatis, sicut est ens,
+<lb ed="#Ba"/>substantia, bonum : illud ergo erit in
+<lb ed="#Ba"/>omnibus simpliciter et ubique: et sic
+<lb ed="#Ba"/>non est Deo proprium esse ubique et in
+<lb ed="#Ba"/>omnibus.
+</p>
+               <p xml:id="Almn78-a48811-d1e2595">
+                  <lb ed="#Ba"/>4, Adhuc, Ponamus unum solum ho
+<pb ed="#Ba" n="738"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>minem esse, sicut a principio solus fuit
+<lb ed="#Ba"/>Adam, et ponatur-nihil aliud esse : tunc
+<lb ed="#Ba"/>erit anima illius hominis, ut dicit 
+Augu<lb ed="#Ba" break="no"/>stinus, et in toto corpore tota, et in 
+qua<lb ed="#Ba" break="no"/>libet parte corporis tota. Cum ergo 
+ni<lb ed="#Ba" break="no"/>hilaliud sit, anima erit in qualibet re
+<lb ed="#Ba"/>tota et ubique tota. Ergo non est 
+pro<lb ed="#Ba" break="no"/>prium Dei esse ubique et in omnire:
+<lb ed="#Ba"/>prium enim cum de essentialibus fluat, 
+<lb ed="#Ba" break="no"/>ut dicit Boetius, non potest alii 
+conve<lb ed="#Ba" break="no"/>nire, sicut essentialia uni non possunt
+<lb ed="#Ba"/>esse essentialia alteri.
+</p>
+               <p xml:id="Almn78-a48811-d1e2630">
+                  <lb ed="#Ba"/>5. Adhuc, Objiciunt quidam, quod
+<lb ed="#Ba"/>si ponamus esse unum corpus quod 
+to<lb ed="#Ba" break="no"/>tum impleat vacuitatem concavi ceeli,
+<lb ed="#Ba"/>hoc erit ubique et in omni re: quia
+<lb ed="#Ba"/>dicit Aristoteles in secundo Celi et 
+Mun<lb ed="#Ba" break="no"/>di, quod extra ceelum nihil est, nec 
+tem<lb ed="#Ba" break="no"/>pus, nec locus. Ergo ubique esse non est
+<lb ed="#Ba"/>proprium Dei, cum et aliis possit 
+con<lb ed="#Ba" break="no"/>venire. Antequam autem de aliis modis
+<lb ed="#Ba"/>in speciali disputemus, solvamus ista,
+<lb ed="#Ba"/>ne nimia prolixitas confusionem generet.
+</p>
+               <p xml:id="Almn78-a48811-d1e2656">
+                  <lb ed="#Ba"/>Solutio. Ad primum ergo quesitum,
+<lb ed="#Ba"/>dicendum quod Deus ubique est et in
+<lb ed="#Ba"/>omni re: et hoc est sibi proprium. Et
+<lb ed="#Ba"/>causa, quod ubique est et in omni re,
+<lb ed="#Ba"/>assignatur a beato Augustino: quia
+<lb ed="#Ba"/>simplicissimus est, et in fine 
+simplicita<lb ed="#Ba" break="no"/>tis. Id autem quod in fine simplicitatis
+<lb ed="#Ba"/>est, a nullo determinante coarctatur, nec
+<lb ed="#Ba"/>intus, nec extra. Si enim aliquo 
+deter<lb ed="#Ba" break="no"/>minaretur, non esset in fine 
+simplicita<lb ed="#Ba" break="no"/>tis: omne autem quod distinguitur ab
+<lb ed="#Ba"/>aliquo condeterminante se, intus vel
+<lb ed="#Ba"/>extra distinguitur, et terminis suis sive
+<lb ed="#Ba"/>finibus limitatur, quod simplicissimo 
+nul<lb ed="#Ba" break="no"/>lo modo convenire potest. Et hae sola
+<lb ed="#Ba"/>ratio est et subtilitas Augustini, per
+<lb ed="#Ba"/>quam solam convincitur Deum esse
+<lb ed="#Ba"/>in omnibus et ubique, cujus esse penitus
+<lb ed="#Ba"/>et nullo limitatur, a nullo distinguitur
+<lb ed="#Ba"/>loco vel locato, quin esse suum 
+intelli<lb ed="#Ba" break="no"/>gibiliter per omnia extendatur: et si
+<lb ed="#Ba"/>esse sic extenditur, necesse est posse
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>operationis sic extendi, et lumini 
+cogni<lb ed="#Ba" break="no"/>tionis ejus omnia esse presentia. Unde
+<lb ed="#Ba"/>sequitur, quod in omnibus et ubique sit
+<lb ed="#Ba"/>essentialiter, presentialiter, et 
+potentia<lb ed="#Ba" break="no"/>liter : sicut enim in sequentibus 
+pro<lb ed="#Ba" break="no"/>babitur, distinctee localitatis non 
+effi<lb ed="#Ba" break="no"/>citur res, nisi per terminum intra, vel
+<lb ed="#Ba"/>per terminum extra.
+</p>
+               <p xml:id="Almn78-a48811-d1e2726">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+mo<lb ed="#Ba" break="no"/>di isti quibus est in rebus, et ex parte
+<lb ed="#Ba"/>Dei accepti sunt, et ex parte creature,
+<lb ed="#Ba"/>ut patet per dicta.
+</p>
+               <p xml:id="Almn78-a48811-d1e2738">
+                  <lb ed="#Ba"/>Et ad objectum contra, dicendum
+<lb ed="#Ba"/>quod cum dicitur, quod Deus uno 
+mo<lb ed="#Ba" break="no"/>do se habet ad omnia, non intelligitur,
+<lb ed="#Ba"/>quod uno modo significandi, sed uno
+<lb ed="#Ba"/>modo essendi. Impossibile est enim,
+<lb ed="#Ba"/>quod eadem ratione significandi se 
+ha<lb ed="#Ba" break="no"/>beat ad hominem et ad equum : cum 
+di<lb ed="#Ba" break="no"/>cat Augustinus in libro LXXXII 
+Que<lb ed="#Ba" break="no"/>stionum quod <quote xml:id="Almn78-a48811-Qd1e2759"> alia ratione facit 
+homi<lb ed="#Ba" break="no"/>nem, et alia ratione equum'*. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e2765">
+                  <lb ed="#Ba"/>Et ad aliud dicendum quod licet Deus
+<lb ed="#Ba"/>multa operetur in rebus, omnia tamen
+<lb ed="#Ba"/>haec reducuntur ad tria: vel quia 
+per<lb ed="#Ba" break="no"/>tinent ad esse, vel ad speciem qua 
+co<lb ed="#Ba" break="no"/>gnoscibilis est res, vel ad posse rei quo
+<lb ed="#Ba"/>operetur: et ideo non sunt nisi tres
+<lb ed="#Ba"/>modi in genere, et ex parte creature
+<lb ed="#Ba"/>sumpti, et ex parte creatoris.
+</p>
+               <p xml:id="Almn78-a48811-d1e2785">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod est ex 
+par<lb ed="#Ba" break="no"/>te Dei nihil addit inesse per gratiam
+<lb ed="#Ba"/>super inesse per essentiam, sed ex
+<lb ed="#Ba"/>parte nostra addit alium effectum : et
+<lb ed="#Ba"/>hoc etiam significatur in ipsa locutione
+<lb ed="#Ba"/>quando dicitur, inest per gratiam : 
+si<lb ed="#Ba" break="no"/>gnificatur enim, quod inest per 
+effe<lb ed="#Ba" break="no"/>ctum gratie modo quo non est 
+com<lb ed="#Ba" break="no"/>muniter in rebus sed 
+communi<lb ed="#Ba" break="no"/>ter in rebus est per essentiam sive
+<lb ed="#Ba"/>essentialiter, sicut fundens sive 
+cau<lb ed="#Ba" break="no"/>sans esse essentiale singulorum : et
+<lb ed="#Ba"/>quia potentia Dei non extenditur extra
+<lb ed="#Ba"/>essentiam, sequitur, quod in omnibus
+<lb ed="#Ba"/>rebus est essentialiter, sic etiam 
+poten<lb ed="#Ba" break="no"/>tialiter, et sic eliam e converso.
+</p>
+               <p xml:id="Almn78-a48811-d1e2822">
+                  <pb ed="#Ba" n="739"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod satis bene
+<lb ed="#Ba"/>est hoc dictum, ut dicit Magister in 
+Sen<lb ed="#Ba" break="no"/>fentits ‘ : sed tamen in verbis illis plus est
+<lb ed="#Ba"/>quod ab humano intellectu intelligi non
+<lb ed="#Ba"/>potest : quia dicit Chrysostomus super
+<lb ed="#Ba"/>epistolam ad Hebreos: <quote xml:id="Almn78-a48811-Qd1e2841"> Quod Deus
+<lb ed="#Ba"/>ubique sit scimus: qualiter autem 
+ubi<lb ed="#Ba" break="no"/>que et in omnibus sit, intelligere non
+<lb ed="#Ba"/>possumus. </quote>
+               </p>
+               <p xml:id="Almn78-a48811-d1e2851">
+                  <lb ed="#Ba"/>Et quop dicitur, quod presentialiter
+<lb ed="#Ba"/>adaptari non potest, dicendum quod
+<lb ed="#Ba"/>presentialiter dicitur duobus modis,
+<lb ed="#Ba"/>scilicet presentialitate cognoscentis, et
+<lb ed="#Ba"/>presentialitate cognoscibilis. Primo 
+mo<lb ed="#Ba" break="no"/>do omnis res est sibi prasens : secundo
+<lb ed="#Ba"/>modo omnis res presens est per speciem
+<lb ed="#Ba"/>influxam sibi ab exemplari ideali, quod
+<lb ed="#Ba"/>est ut medium cognoscendi in 
+cognitio<lb ed="#Ba" break="no"/>ne divina. Et sic presentia rei, est ab eo
+<lb ed="#Ba"/>quod est Deum esse presentialiter 
+om<lb ed="#Ba" break="no"/>nibus.
+</p>
+               <p xml:id="Almn78-a48811-d1e2880">
+                  <lb ed="#Ba"/>Av atiup dicendum, quod responsum
+<lb ed="#Ba"/>illud non satis perfectum est. Non enim
+<lb ed="#Ba"/>penes attributa personarum sufficienter
+<lb ed="#Ba"/>accipiuntur hac: sed, sicut dictum est
+<lb ed="#Ba"/>in principio hujus solutionis, licet in
+<lb ed="#Ba"/>divinis sit identitas propter 
+indifferen<lb ed="#Ba" break="no"/>tiam simplicitatis, tamen haec identitas
+<lb ed="#Ba"/>non excludit diversum modum 
+signifi<lb ed="#Ba" break="no"/>candi, et penes diversum modum 
+signi<lb ed="#Ba" break="no"/>ficandi quinque sunt in divinis. Penes
+<lb ed="#Ba"/>ista quinque accipiuntur: significatur
+<lb ed="#Ba"/>enim essentia ut essentia, et essentia
+<lb ed="#Ba"/>in persona. Si essentia accipitur ut 
+essen<lb ed="#Ba" break="no"/>tia, duo sunt ei proprie convenientia,
+<lb ed="#Ba"/>scilicet simplicitas, et subtilitas. 
+Sim<lb ed="#Ba" break="no"/>plicitas autem que est in fine 
+simplicita<lb ed="#Ba" break="no"/>tis, ut paulo ante dictum est, nullo 
+ter<lb ed="#Ba" break="no"/>mino intrinseco vel extrinseco 
+determi<lb ed="#Ba" break="no"/>nata vel ab aliquo restricta est : et ab
+<lb ed="#Ba"/>hac habet esse in omnibus et ubique.
+<lb ed="#Ba"/>Simplicitatem sequitur subtilitas. 
+Sub<lb ed="#Ba" break="no"/>tile autem, utdicit Aristoteles in 
+secun<lb ed="#Ba" break="no"/>do Generatione et Corruptione, 
+penetra<lb ed="#Ba" break="no"/>tivum est partium, et etiam partium
+<lb ed="#Ba"/>partes penctrat usque ad minima: et
+<lb ed="#Ba"/>ab hoc habet quod omnia sibi sunt pre
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>sentia, et non est aliquid invisibile in
+<lb ed="#Ba"/>conspectu cjus. Unde, Sapientie vu,
+<lb ed="#Ba"/>22: Est enim in illa spiritus 
+intelligen<lb ed="#Ba" break="no"/>tie, sanctus, unicus, multiplex, subtilis,
+<lb ed="#Ba"/>etc. Et, ad Hebr. tv, 12 et 138: Vivus
+<lb ed="#Ba"/>est sermo Dei, et efficax, et penetrabilior
+<lb ed="#Ba"/>omni gladio ancipiti : pertingens usque
+<lb ed="#Ba"/>ad divisionem anime et spiritus, 
+com<lb ed="#Ba" break="no"/>pagum quogue ac medullarum, et
+<lb ed="#Ba"/>discretor cogitationum et intentionum
+<lb ed="#Ba"/>cordis. Et non est ulla creatura 
+invisibi<lb ed="#Ba" break="no"/>lis in conspectu ejus. Est etiam hoc 
+mo<lb ed="#Ba" break="no"/>do extensa potentia cum essentia et
+<lb ed="#Ba"/>presentia, ut dicitur, Esther, xm, 9:
+<lb ed="#Ba"/>In ditione tua cuneta sunt posita. Et
+<lb ed="#Ba"/>secundum hoc Deus presidens omnibus
+<lb ed="#Ba"/>essentialiter, praesentialiter, et 
+potentia<lb ed="#Ba" break="no"/>liter, causando esse rerum et 
+presentia<lb ed="#Ba" break="no"/>litatem et potentiam et conservationem
+<lb ed="#Ba"/>in his et gubernationem, sub se habet
+<lb ed="#Ba"/>duo in quibus hoc facit, scilicet 
+natu<lb ed="#Ba" break="no"/>ram et suppositum. Sed de operibus
+<lb ed="#Ba"/>Dei est convertere ad se omne quod
+<lb ed="#Ba"/>replet, ut dicit Dionysius in principio
+<lb ed="#Ba"/>Celestis hierarchi# : et sunt hec ejus
+<lb ed="#Ba"/>verba : <quote xml:id="Almn78-a48811-Qd1e2997"> Omnis a Patre moto 
+manife<lb ed="#Ba" break="no"/>stationis luminum processio, in nos 
+opti<lb ed="#Ba" break="no"/>me ac large proveniens, iterum ut 
+unifi<lb ed="#Ba" break="no"/>ca virtus restituens nos replet, et 
+con<lb ed="#Ba" break="no"/>vertit ad congregantis Patris unitatem
+<lb ed="#Ba"/>et deificam simplicitatem. </quote> Cum autem
+<lb ed="#Ba"/>ad se convertit, unumquodque convertit
+<lb ed="#Ba"/>secundum propriam analogiam, scilicet
+<lb ed="#Ba"/>existentia tantum secundum proprium
+<lb ed="#Ba"/>et naturalem appetitum et motam, 
+vi<lb ed="#Ba" break="no"/>ventia secundum vitalem appetitum et
+<lb ed="#Ba"/>motum, sensibilia secundum sensibilem
+<lb ed="#Ba"/>appetitum et motum, rationabilia 
+se<lb ed="#Ba" break="no"/>cundum rationabilem voluntatem et 
+mo<lb ed="#Ba" break="no"/>tum, intellectualia autem secundum 
+in<lb ed="#Ba" break="no"/>tellectualem voluntatem et motum, ut
+<lb ed="#Ba"/>ibidem dicit Dionysius. Sed voluntatem
+<lb ed="#Ba"/>rationabilem ad se perfecte non 
+conver<lb ed="#Ba" break="no"/>tit nisi per gratiam : et sic a tali inesse
+<lb ed="#Ba"/>accipitur inesse per gratiam : et sic inest
+<lb ed="#Ba"/>omnibus quantum ad naturam 
+essentia<lb ed="#Ba" break="no"/>liter, presentialiter, potentialiter, ut
+<pb ed="#Ba" n="740"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>causans in eis ens verum et bonum, et
+<lb ed="#Ba"/>lumine intelligentie su illustrans 
+om<lb ed="#Ba" break="no"/>nia per speciem. Propter quod etiam
+<lb ed="#Ba"/>philosophica positio est,ut dicit Avicenna
+<lb ed="#Ba"/>in sexto de Naturalibus, quod omnis
+<lb ed="#Ba"/>forma lumen sit, et ex lumine cause
+<lb ed="#Ba"/>prime et intelligentiarum : et nisi ita
+<lb ed="#Ba"/>esset, non esset intelligibile per formam
+<lb ed="#Ba"/>omne quod intelligitur : sicut color 
+visi<lb ed="#Ba" break="no"/>bilis non esset, nisi esset actus quidam
+<lb ed="#Ba"/>luminis et lucidi : eo quod omne quod
+<lb ed="#Ba"/>videtur, sub actu luminis et lucidi 
+vide<lb ed="#Ba" break="no"/>tur. Et sic penes hac quatuor accipitur
+<lb ed="#Ba"/>inesse essentialiter, presentialiter, 
+po<lb ed="#Ba" break="no"/>tentialiter, et inesse per gratiam. Et
+<lb ed="#Ba"/>essentialiter inesse est acceptum penes
+<lb ed="#Ba"/>essentiam, potentialiter inesse penes
+<lb ed="#Ba"/>attributum Patris quod est potentia,
+<lb ed="#Ba"/>presentialiter inesse penes attributum
+<lb ed="#Ba"/>Filii quod est sapientia, per gratiam
+<lb ed="#Ba"/>autem inesse vel per bonitatem accipitur
+<lb ed="#Ba"/>penes attributum Spiritus sancti quod
+<lb ed="#Ba"/>est bonitas. Vel sic: Essentialiter inest
+<lb ed="#Ba"/>causans esse omnium, presentialiter 
+dis<lb ed="#Ba" break="no"/>cernens essse virtutem et operationem
+<lb ed="#Ba"/>singulorum et dijudicans ea, 
+potentia<lb ed="#Ba" break="no"/>liter autem potenter conservans et 
+con<lb ed="#Ba" break="no"/>tinens et gubernans, ut presidens 
+sin<lb ed="#Ba" break="no"/>gulis in esse, virlute, et operatione. Et
+<lb ed="#Ba"/>ista forte adaptatio magis est ad 
+propo<lb ed="#Ba" break="no"/>situm. Si autem accipitur essentia in
+<lb ed="#Ba"/>persona, tunc accipitur ille modus qui
+<lb ed="#Ba"/>est inesse per unionem : essentia enim
+<lb ed="#Ba"/>divina in persona carni associata est per
+<lb ed="#Ba"/>gratiam unionis, que non est habitus
+<lb ed="#Ba"/>voluntatis tantum, sed etiam ad esse
+<lb ed="#Ba"/>personale, ut hic homo sil vera persona
+<lb ed="#Ba"/>divina que est Filius.
+</p>
+               <p xml:id="Almn78-a48811-d1e3133">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod si ponamus
+<lb ed="#Ba"/>non esse personas, quod tamen falsum
+<lb ed="#Ba"/>est, adhuc intelligemus Deum esse 
+quem<lb ed="#Ba" break="no"/>dam, cujus essentia potest considerari
+<lb ed="#Ba"/>secundum se, vel secundum quod est
+<lb ed="#Ba"/>in persona, vel cui convenit 
+essentiali<lb ed="#Ba" break="no"/>ter, presentialiter, potentialiler inesse,
+<lb ed="#Ba"/>que sunt appropriata: et tunc adhuc
+<lb ed="#Ba"/>stabit adaptatio.
+</p>
+               <p xml:id="Almn78-a48811-d1e3155">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum 
+dici<lb ed="#Ba" break="no"/>tur Pater vel Filius vel Spiritus sanctus,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>dicitur aliquis qui est Deus; et ideo 
+ra<lb ed="#Ba" break="no"/>tione essentie ut in eo qui est quis
+<lb ed="#Ba"/>considerate, haec conveniunt  singulis
+<lb ed="#Ba"/>personis : et licet non sint appropriata
+<lb ed="#Ba"/>sub ratione appropriatorum, tamen sunt
+<lb ed="#Ba"/>appropriata sub ratione convenientium
+<lb ed="#Ba"/>essentiae in se considerate, vel in eo
+<lb ed="#Ba"/>qui est quis, secundum quod se habet ad
+<lb ed="#Ba"/>creaturas quis est ut causans, 
+discer<lb ed="#Ba" break="no"/>nens, et potentialiter presidens sive
+<lb ed="#Ba"/>conservans, et ut ad se convertens 
+unum<lb ed="#Ba" break="no"/>quodque secundum propriam analogiam.
+<lb ed="#Ba"/>Et quia essentia in se considerata in
+<lb ed="#Ba"/>persona una est et communis tribus, et
+<lb ed="#Ba"/>ideo hec omnia, preterquam inesse per
+<lb ed="#Ba"/>unionem, tribus personis conveniunt et
+<lb ed="#Ba"/>singulis : nec hoc tollit | supradictam.
+<lb ed="#Ba"/>adaptationem.
+</p>
+               <p xml:id="Almn78-a48811-d1e3203">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod adaptatio
+<lb ed="#Ba"/>illa bona est, et ponitur in Liétera in
+<lb ed="#Ba"/>libro primo Sententiarum, distinctione
+<lb ed="#Ba"/>XXXVII, cap. Quidam tamen.
+</p>
+               <p xml:id="Almn78-a48811-d1e3214">
+                  <lb ed="#Ba"/>Ad argumentum dicendum, quod licet
+<lb ed="#Ba"/>circumscribamus potentiam et 
+prasen<lb ed="#Ba" break="no"/>tiam, erit quidem Deus in omnibus
+<lb ed="#Ba"/>essentialiter, presentialiter, et 
+poten<lb ed="#Ba" break="no"/>tialiter, habitualiter, licet non 
+actuali<lb ed="#Ba" break="no"/>ter, causans esse et potentiam et 
+pra<lb ed="#Ba" break="no"/>sentiam rerum.
+</p>
+               <p xml:id="Almn78-a48811-d1e3232">
+                  <lb ed="#Ba"/>Ad i quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod Deus est ubique et in omni re
+<lb ed="#Ba"/>dictis modis.
+</p>
+               <p xml:id="Almn78-a48811-d1e3241">
+                  <lb ed="#Ba"/>Et quod dicit Anselmus, intelligitur,
+<lb ed="#Ba"/>quod in nullo loco est localiter : eo
+<lb ed="#Ba"/>quod incircumscriptus est. Est tamen
+<lb ed="#Ba"/>in omni loco causaliter : et hoc 
+essen<lb ed="#Ba" break="no"/>tialiter, presentialiter, et potentialiter,
+<lb ed="#Ba"/>ut dictum est.
+</p>
+               <p xml:id="Almn78-a48811-d1e3258">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Deus est in
+<lb ed="#Ba"/>loco proprie quantum est de proprietate
+<lb ed="#Ba"/>Dei qui est, sed non est in loco proprie
+<lb ed="#Ba"/>quantum est de proprietate loci cui est,
+<lb ed="#Ba"/>sed quantum ad hoc est in loco per
+<lb ed="#Ba"/>translationem : proprium enim cause
+<lb ed="#Ba"/>causantis, et per seipsam in esse 
+cau<lb ed="#Ba" break="no"/>sato essentialiter, presentialiter, et 
+po<lb ed="#Ba" break="no"/>tentialiter : sed locati proprietates non
+<lb ed="#Ba"/>referuntur ad ipsum Deum. Ejus enim
+<pb ed="#Ba" n="741"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod in loco est localiter, proprietates
+<lb ed="#Ba"/>sunt ab alio extrinseco contineri, 
+ter<lb ed="#Ba" break="no"/>minari, salvari, circumscribi, quorum
+<lb ed="#Ba"/>nihil Deo convenire potest. Sed 
+pro<lb ed="#Ba" break="no"/>prietates ejus quod est in loco 
+causali<lb ed="#Ba" break="no"/>ter, sunt causare esse loci et locati, et
+<lb ed="#Ba"/>causare virtutes tam loci quam locati,
+<lb ed="#Ba"/>ct per operationes et per assimilationem
+<lb ed="#Ba"/>et proportionem causati ad causam fit
+<lb ed="#Ba"/>translatio, ita ut etiam Deus aliquando
+<lb ed="#Ba"/>dicatur locus, sicut Beda dicit; quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48811-Qd1e3312"> locus Angelorum Deus est, intra quem
+<lb ed="#Ba"/>currunt quocumque mittuntur. </quote> Et 
+ali<lb ed="#Ba" break="no"/>quando dicitur esse in loco, ut in 
+Psal<lb ed="#Ba" break="no"/>mo txvn, 6: Deus in loco sancto suo.
+<lb ed="#Ba"/>Quia Deus est continens et salvans a
+<lb ed="#Ba"/>quo et ad quem est motus appetitus
+<lb ed="#Ba"/>omnium.
+</p>
+               <p xml:id="Almn78-a48811-d1e3329">
+                  <lb ed="#Ba"/>Ad sgquens dictum Anselmi jam 
+pa<lb ed="#Ba" break="no"/>tet solutio per dicta. Non enim 
+com<lb ed="#Ba" break="no"/>paratur ad locum localiter, sed 
+causa<lb ed="#Ba" break="no"/>liter. ;
+</p>
+               <p xml:id="Almn78-a48811-d1e3340">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod haec 
+argu<lb ed="#Ba" break="no"/>mentatio procedit ac si Deus dicatur
+<lb ed="#Ba"/>in loco esse univoce cum aliis que sunt
+<lb ed="#Ba"/>in loco: et hoc non est verum : quia
+<lb ed="#Ba"/>Deus causaliter est in loco, alia autem
+<lb ed="#Ba"/>localiter : et ideo Deus existens in loco
+<lb ed="#Ba"/>nihil accipit a loco, sed confert loco :
+<lb ed="#Ba"/>alia autem accipiunt a loco actus 
+pro<lb ed="#Ba" break="no"/>prietatum et virtutum loci, ut contineri,
+<lb ed="#Ba"/>terminari, circumscribi, et salvari, et
+<lb ed="#Ba"/>hujusmodi.
+</p>
+               <p xml:id="Almn78-a48811-d1e3366">
+                  <lb ed="#Ba"/>Ad pictrum Anselmi dicendum, quod
+<lb ed="#Ba"/>causa dicti est quam ipse ponit, quod
+<lb ed="#Ba"/>id quod inest alicui, secundum leges
+<lb ed="#Ba"/>ejus cui inest, continetur et terminatur
+<lb ed="#Ba"/>ab illo in quo est : et hoc non potest
+<lb ed="#Ba"/>convenire Deo : et quoad hoc magis
+<lb ed="#Ba"/>proprie diceretur esse cum loco, quam
+<lb ed="#Ba"/>in loco. Sed id quod inest alicui 
+secun<lb ed="#Ba" break="no"/>dum leges ejus quod sic est, id quod
+<lb ed="#Ba"/>inest continentiam dat ei cui inest,
+<lb ed="#Ba"/>quando id quod inest est causa et 
+per<lb ed="#Ba" break="no"/>fectio ejus cui inest : et sic causa est in
+<lb ed="#Ba"/>causato, anima in corpore, spiritus in
+<lb ed="#Ba"/>semine, Deus in loco -et in omnibus.
+<lb ed="#Ba"/>Et sic Deus magis proprie est in loco,
+<lb ed="#Ba"/>quam cum loco : sicut causa magis est
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>in causato, quam cum causato : et ani
+<lb ed="#Ba"/>ma magis in corpore, quam cum 
+cor<lb ed="#Ba" break="no"/>pore. Et ex hoc sumptus est usus 
+lo<lb ed="#Ba" break="no"/>quendi. In corporalibus id quod inest,
+<lb ed="#Ba"/>continet. In spiritualibus autem est e
+<lb ed="#Ba"/>converso : quia id quod inest, continet :
+<lb ed="#Ba"/>et id cui inest, continetur : quia, sicut
+<lb ed="#Ba"/>dicit Aristoteles in fine primi de Anima,
+<lb ed="#Ba"/>anima que est in corpore, continet 
+cor<lb ed="#Ba" break="no"/>pus : et corpus in quo est anima, 
+con<lb ed="#Ba" break="no"/>tinetur ab anima : egrediente enim
+<lb ed="#Ba"/>anima corpus exspirat et marcescit et
+<lb ed="#Ba"/>moritur.
+</p>
+               <p xml:id="Almn78-a48811-d1e3434">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod materia
+<lb ed="#Ba"/>non est ubique universaliter, sed in
+<lb ed="#Ba"/>materiatis : sed non est in eis ut Deus
+<lb ed="#Ba"/>ubique est. Deus enim totus ubique est,
+<lb ed="#Ba"/>et in quolibet loco totus, et in qualibet
+<lb ed="#Ba"/>re et in qualibet parte rei totus. Et hoc
+<lb ed="#Ba"/>non convenit materi que sic ubique sit
+<lb ed="#Ba"/>tota, eo quod ipsa non est simplex in
+<lb ed="#Ba"/>fine simplicitatis.
+</p>
+               <p xml:id="Almn78-a48811-d1e3456">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod a 
+quocum<lb ed="#Ba" break="no"/>que removetur natura alicujus, 
+secun<lb ed="#Ba" break="no"/>dum quod natura sua removetur ab 
+ip<lb ed="#Ba" break="no"/>so, secundum eumdem modum 
+univer<lb ed="#Ba" break="no"/>sum illius nature removetur ab eo :
+<lb ed="#Ba"/>esse autem in loco secundum 
+inheren<lb ed="#Ba" break="no"/>tiam ubi, quod significatur cum dicitur
+<lb ed="#Ba"/>esse in loco,vel secundum adherentiam,
+<lb ed="#Ba"/>quod magis proprie dicitur, removetur a
+<lb ed="#Ba"/>Deo,quianon circumscribitur: sed esse in
+<lb ed="#Ba"/>loco causaliter convenit Deo, et hoc
+<lb ed="#Ba"/>modo convenit etiam Deo esse 
+ubi<lb ed="#Ba" break="no"/>que.
+</p>
+               <p xml:id="Almn78-a48811-d1e3488">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod neutro 
+mo<lb ed="#Ba" break="no"/>do dicto loco locus transfertur in divina,
+<lb ed="#Ba"/>cum dicitur Deus esse in loco : sed,
+<lb ed="#Ba"/>sicut dictum est, transfertur ut causatum
+<lb ed="#Ba"/>ad causam causantem essentialiter, 
+po<lb ed="#Ba" break="no"/>tentialiter, et presentialiter.
+</p>
+               <p xml:id="Almn78-a48811-d1e3504">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, dicen- 44 hgueeetiae
+<lb ed="#Ba"/>dum quod propriissime dicitur Deus
+<lb ed="#Ba"/>esse ubique : quia hoc indistincte dicit
+<lb ed="#Ba"/>universum ejus quod est ubi. Cum 
+au<lb ed="#Ba" break="no"/>tem dicitur hic esse et ibi, possunt hic
+<lb ed="#Ba"/>et 7b accipi dupliciter, scilicet prout
+<lb ed="#Ba"/>sunt inductiva universi ejus quod est
+<pb ed="#Ba" n="742"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>ubique, prout ex particularibus inducitur
+<lb ed="#Ba"/>universale. Et sic nihil prohibet concedi
+<lb ed="#Ba"/>Deum esse hic et ibi. Vel prout hic et ibi
+<lb ed="#Ba"/>sunt de individuantibus hic et hic, prout
+<lb ed="#Ba"/>dicit Boetius loquens de individuantibus,
+<lb ed="#Ba"/>quod non potest unum ubi sive unus
+<lb ed="#Ba"/>locus convenire duobus. Et sic hie et
+<lb ed="#Ba"/>ibi non est tantum particularis locus vel
+<lb ed="#Ba"/>ubi particulare, sed etiam distinctivum
+<lb ed="#Ba"/>ejus quod est in loco. Et sic non proprie
+<lb ed="#Ba"/>dicitur de Deo esse hic et ibi : eo. quod
+<lb ed="#Ba"/>Deus non distinguitur in loco: et tunc
+<lb ed="#Ba"/>impropriissime dicitur hic esse et alibi
+<lb ed="#Ba"/>quam hic : quia hoc notat et 
+distinctio<lb ed="#Ba" break="no"/>nem et comparationem distincti loci ad
+<lb ed="#Ba"/>distinctum secundum relationem 
+diversi<lb ed="#Ba" break="no"/>tatis. Et hoc modo Deus non 
+distingui<lb ed="#Ba" break="no"/>iur in loco. Et hujus causa est, que
+<lb ed="#Ba"/>dicta est, quod cum: dicitur Deus in loco
+<lb ed="#Ba"/>esse, comparatur non ad locum 
+secun<lb ed="#Ba" break="no"/>dum modum loci, sed secundum modum
+<lb ed="#Ba"/>cause.
+</p>
+               <p xml:id="Almn78-a48811-d1e3574">
+                  <lb ed="#Ba"/>Ad sSEQUENS patet solutio per idem :
+<lb ed="#Ba"/>dictum est enim quomodo est hic et ibi,
+<lb ed="#Ba"/>et quomodo non.
+</p>
+               <p xml:id="Almn78-a48811-d1e3583">
+                  <lb ed="#Ba"/>Ad i quod objicitur in contrarium,
+<lb ed="#Ba"/>patet solutio per idem.
+</p>
+               <p xml:id="Almn78-a48811-d1e3590">
+                  <lb ed="#Ba"/>Ad 1 quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod proprie proprium est 
+divini<lb ed="#Ba" break="no"/>tatis esse ubique per modum qui dictus
+<lb ed="#Ba"/>est. Universali autem non convenit
+<lb ed="#Ba"/>universale enim est de esse omnium 
+eo<lb ed="#Ba" break="no"/>rum in quibus est : et hoc modo non se
+<lb ed="#Ba"/>habet locus ad locatum, et e converso :
+<lb ed="#Ba"/>et ideo non proprie est ubique et 
+sem<lb ed="#Ba" break="no"/>per : secundum esse enim nec ubique
+<lb ed="#Ba"/>est nec semper, sed potius distinctum
+<lb ed="#Ba"/>separatum et corruptibile : et sic se non
+<lb ed="#Ba"/>habet locus ad locatum : et ideo 
+univer<lb ed="#Ba" break="no"/>sale non proprie est ubique et semper
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>secundum unum et idem numero, sed
+<lb ed="#Ba"/>secundum unum et idem ratione. Dicit
+<lb ed="#Ba"/>enim Avicenna in principio logice sue :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48811-Qd1e3631"> Nihil unum et idem secundum esse
+<lb ed="#Ba"/>quo est in uno, est in altero. </quote> Deus 
+au<lb ed="#Ba" break="no"/>tem secundum unum et idem esse est
+<lb ed="#Ba"/>ubique et semper secundum se.
+</p>
+               <p xml:id="Almn78-a48811-d1e3641">
+                  <lb ed="#Ba"/>Ad id quod dicit Glossa, solvitur per
+<lb ed="#Ba"/>idem : quia velocitas prout est 
+univer<lb ed="#Ba" break="no"/>sale, non est in omnibus per unum et
+<lb ed="#Ba"/>idem esse velocitatis.
+</p>
+               <p xml:id="Almn78-a48811-d1e3653">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod etiamsi tale
+<lb ed="#Ba"/>universale sumitur quod secundum 
+ana<lb ed="#Ba" break="no"/>logiam est in omnibus, tamen non est
+<lb ed="#Ba"/>ubique et semper, nisi secundum esse
+<lb ed="#Ba"/>variatum in illis in quibus est : et sic
+<lb ed="#Ba"/>non in omnibus est secundum unum et
+<lb ed="#Ba"/>idem esse, sicut Deus qui secundum
+<lb ed="#Ba"/>unum et idem esse in omnibus et 
+ubi<lb ed="#Ba" break="no"/>que est, non variatum in illis, nec 
+dis<lb ed="#Ba" break="no"/>tinctum.
+</p>
+               <p xml:id="Almn78-a48811-d1e3677">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod alia est 
+com<lb ed="#Ba" break="no"/>paratio anime ad corpus, et alia Dei ad
+<lb ed="#Ba"/>locum. Comparatio enim anime ad 
+cor<lb ed="#Ba" break="no"/>pus, est comparatio actus ad potentiam
+<lb ed="#Ba"/>et forme ad materiam, et non loci ad
+<lb ed="#Ba"/>locatum, vel locati ad locum : nec 
+com<lb ed="#Ba" break="no"/>paratur ad locum nisi per accidens : quia
+<lb ed="#Ba"/>scilicet id cujus est actus, vel cujus est
+<lb ed="#Ba"/>forma, differentiam habet in situ 
+secun<lb ed="#Ba" break="no"/>dum locum : sed hoc modo Deus non
+<lb ed="#Ba"/>comparatur ad locum, sed secundum
+<lb ed="#Ba"/>causam, ut dictum est : et ideo objectio
+<lb ed="#Ba"/>illa non procedit.
+</p>
+               <p xml:id="Almn78-a48811-d1e3708">
+                  <lb ed="#Ba"/>Ad vutrimum dicendum, quod si tale
+<lb ed="#Ba"/>esse poneretur, hoc non esset ubique,
+<lb ed="#Ba"/>sed secundum partem esset hic et 
+secun<lb ed="#Ba" break="no"/>dum partem esset ibi : et pars non est
+<lb ed="#Ba"/>totum : Deus autem secundum totum et
+<lb ed="#Ba"/>perfectum esse unum est hic et ibi et in
+<lb ed="#Ba"/>omni re.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

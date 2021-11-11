@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 106</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 106</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="277"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h61382"><!-- p2t17q106 -->
+            <head xml:id="Almn78-h61382-Hd1e106">Quaestio 106</head>
+            <head xml:id="Almn78-h61382-Hd1e109" type="question-title">
+    De statu hominis ante et post peccatum.
+  </head>
+            <p xml:id="Almn78-h61382-d1e112">
+               <pb ed="#Bc" n="277"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO CVI.
+<lb ed="#Bc"/>De statu hominis ante et post peccatum.
+</p>
+            <div xml:id="Almn78-h61382-Dd1e123">
+               <head xml:id="Almn78-h61382-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-h61382-Hd1e128" type="question-title">
+        Utrum primus homo ante peccatum 
+        indiguerit gratia operante et 
+        cooperante?
+      </head>
+               <p xml:id="Almn78-h61382-d1e131">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum primus homo ante peccatum 
+in<lb ed="#Bc" break="no"/>diguerit gratia operante et 
+coope<lb ed="#Bc" break="no"/>rante?
+</p>
+               <p xml:id="Almn78-h61382-d1e144">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Primo ergo queritur, Utrum homo
+<lb ed="#Bc"/>ante peccatum indiguerit gratia operante
+<lb ed="#Bc"/>et cooperante ?
+</p>
+               <p xml:id="Almn78-h61382-d1e155">
+                  <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Gratia enim operans est que prevenit
+<lb ed="#Bc"/>voluntatem ut velit efficaciter bonum:
+<lb ed="#Bc"/>potuit enim efficaciter bonum velle et
+<lb ed="#Bc"/>mereri et sibi et posteris, sicut supra in
+<lb ed="#Bc"/>tractatu de primi hominis statu ante
+<lb ed="#Bc"/>peccatum, questione, Utrum in gratia
+<lb ed="#Bc"/>creatus sit ? probatum est.
+</p>
+               <p xml:id="Almn78-h61382-d1e176">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in Enchiridion
+<lb ed="#Bc"/>dicit sic: <quote xml:id="Almn78-h61382-Qd1e182"> Illam immortalitatem, in qua
+<lb ed="#Bc"/>poterat non mori natura humana, 
+per<lb ed="#Bc" break="no"/>didit per liberum arbitrium. Hance vero,
+<lb ed="#Bc"/>in qua non poterat mori, acceptura est
+<lb ed="#Bc"/>per gratiam : quam fuerat, si non 
+pecas<lb ed="#Bc" break="no"/>set, acceptura per meritum : quamvis
+<lb ed="#Bc"/>sine gratia nec tunc nullum meritum
+<lb ed="#Bc"/>esse potuisset?.</quote> Ergo ante peccatum
+<lb ed="#Bc"/>indiguit gratia operante et cooperante si
+<lb ed="#Bc"/>mereri debuit.
+</p>
+               <p xml:id="Almn78-h61382-d1e205">
+                  <lb ed="#Bc"/>3. Adhuc, Ad id quod supra naturam
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>est, ex solis naturalibus non potest homo
+<lb ed="#Bc"/>proficere : mereri autem immortalitatem
+<lb ed="#Bc"/>glorie et vite e#terne supra naturam
+<lb ed="#Bc"/>est: ergo si hanc mereri debuit, et ex
+<lb ed="#Bc"/>naturalibus non potuit, indiguit gratia
+<lb ed="#Bc"/>operante et cooperante : et sic patet,
+<lb ed="#Bc"/>quod ante peccatum gratia operante et
+<lb ed="#Bc"/>cooperante eguit secundum Augustinum.
+</p>
+               <p xml:id="Almn78-h61382-d1e229">
+                  <lb ed="#Bc"/>4, Adhuc, <ref xml:id="Almn78-h61382-Rd1e233">Glossa super illud, Jacobi,
+<lb ed="#Bc"/>1, 17: <quote xml:id="Almn78-h61382-Qd1e237" type="incipit" source="http://scta.info/resource/iac1_17">Omne datum optimum, et omne
+<lb ed="#Bc"/>donum perfectum desursum est</quote>
+                  </ref>: 
+distin<lb ed="#Bc" break="no"/>guit inter data optima, et dona perfecta :
+<lb ed="#Bc"/>dicens, quod data optima sunt que cum
+<lb ed="#Bc"/>natura dantur : dona perfecta dona
+<lb ed="#Bc"/>gratia, sine quibus homo non est 
+per<lb ed="#Bc" break="no"/>fectus. Constat autem, quod Deus fecit
+<lb ed="#Bc"/>homidem perfectum. Eccli. xvu, 2: 
+Se<lb ed="#Bc" break="no"/>cundum se vestivit illum virtute. Si ergo
+<lb ed="#Bc"/>perfectus fuit Adam, constat quod 
+gra<lb ed="#Bc" break="no"/>tiam operantem et cooperantem habuit
+<lb ed="#Bc"/>Adam et indiguit.
+</p>
+               <p xml:id="Almn78-h61382-d1e266">
+                  <lb ed="#Bc"/>5. Adhuc, Sicut se habet gratia ad
+<lb ed="#Bc"/>gloriam, ita quod perficitur in illa: ita
+<lb ed="#Bc"/>se habet natura ad gratiam, ita quod non
+<lb ed="#Bc"/>nisi inilla perficitur. Si ergo perfectus
+<lb ed="#Bc"/>debuit homo esse ante lapsum, eguit
+<lb ed="#Bc"/>gratia operante et cooperante.
+</p>
+               <p xml:id="Almn78-h61382-d1e282">
+                  <lb ed="#Bc"/>6. Adhuc, Virtutes habuit, sicut dicit
+<lb ed="#Bc"/>Augustinus in quadam homilia, sic :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h61382-Qd1e290"> Adam perdita charitate malus inventus
+<lb ed="#Bc"/>est, </quote> Constat autem, quod charitatem
+<lb ed="#Bc"/>habuit: ergo et gratiam: quia charitas
+<lb ed="#Bc"/>sine gratia non est.
+</p>
+               <p xml:id="Almn78-h61382-d1e301">
+                  <lb ed="#Bc"/>7. Adhuc, Augustinus in Epistola 441 :
+<pb ed="#Bc" n="278"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h61382-Qd1e311"> Princeps vitiorum dum vicit Adam de
+<lb ed="#Bc"/>limo terre ad imaginem Dei factum,
+<lb ed="#Bc"/>pudicitia armatum, temperantia 
+compo<lb ed="#Bc" break="no"/>situm, charitate splendidum, primos 
+pa<lb ed="#Bc" break="no"/>rentes illis donis exspoliavit pariterque
+<lb ed="#Bc"/>peremit. </quote> Et si habuit virtutes, habuit
+<lb ed="#Bc"/>et gratiam : quia virtutes sine gratia non
+<lb ed="#Bc"/>sunt,
+</p>
+               <p xml:id="Almn78-h61382-d1e331">
+                  <lb ed="#Bc"/>8. Adhuc, Ambrosius ad Sabinum :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h61382-Qd1e337"> Quando Adam solus erat, non est 
+pre<lb ed="#Bc" break="no"/>varicatus: quia mens ejus Deo 
+adhere<lb ed="#Bc" break="no"/>bat. </quote> Sed sine gratia operante et
+<lb ed="#Bc"/>cooperante non potuit mens ejus Deo
+<lb ed="#Bc"/>adherere. Ergo gratiam habuit et 
+indi<lb ed="#Bc" break="no"/>guit.
+</p>
+               <p xml:id="Almn78-h61382-d1e352">
+                  <lb ed="#Bc"/>9. Adhuc, Ambrosius in sermone 8 :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h61382-Qd1e358"> Adam ante peccatum beatissimus auram
+<lb ed="#Bc"/>carpebat etheream.</quote> Quod facere non
+<lb ed="#Bc"/>potuit sine gratia operante et 
+coope<lb ed="#Bc" break="no"/>rante. Ergo indiguit gratia operante et
+<lb ed="#Bc"/>cooperante.
+</p>
+               <p xml:id="Almn78-h61382-d1e371">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod de omnibus
+<lb ed="#Bc"/>his valde bene disputatum est in tractatu
+<lb ed="#Bc"/>de primo statu hominis, questione,
+<lb ed="#Bc"/>Utrum in gratia creatus sit vel non?
+<lb ed="#Bc"/>Et ideo dicendum cum Magistro in 
+Sen<lb ed="#Bc" break="no"/>tentiis, quod Adam in primo statu eguit
+<lb ed="#Bc"/>gratia operante et cooperante. Non enim
+<lb ed="#Bc"/>habuit im quo movere pedem posset in
+<lb ed="#Bc"/>profectu meriti sine gratiae operantis et
+<lb ed="#Bc"/>cooperantis auxilio : licet haberet unde
+<lb ed="#Bc"/>stare posset, per libertatem scilicet 
+ar<lb ed="#Bc" break="no"/>bitrii. Et hoc infendunt dicere Sancti,
+<lb ed="#Bc"/>quorum auctoritates inducte sunt, 
+Au<lb ed="#Bc" break="no"/>gustinus scilicet, et Ambrosius.
+</p>
+               <p xml:id="Almn78-h61382-d1e404">
+                  <lb ed="#Bc"/>Et sic patet solutio dd totum,
+</p>
+               <p xml:id="Almn78-h61382-d1e409">
+                  <lb ed="#Bc"/>Que enim in contrarium objici 
+pos<lb ed="#Bc" break="no"/>sent, supra soluta sunt in predicta 
+que<lb ed="#Bc" break="no"/>stione.
+</p>
+            </div>
+            <div xml:id="Almn78-h61382-Dd1e419">
+               <head xml:id="Almn78-h61382-Hd1e421">Membrum 2</head>
+               <head xml:id="Almn78-h61382-Hd1e424" type="question-title">
+        Utrum Adam ante peccatum habuerit
+        virtutes, vel non ?
+      </head>
+               <p xml:id="Almn78-h61382-d1e427">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum Adam ante peccatum habuerit
+<lb ed="#Bc"/>virtutes, vel non ?
+</p>
+               <p xml:id="Almn78-h61382-d1e438">
+                  <lb ed="#Bc"/>Quop secundo queritur, Utrum ante
+<lb ed="#Bc"/>peccatum habuerit virtutes, vel non ?
+<lb ed="#Bc"/>jam determinatum est per auctoritates
+<lb ed="#Bc"/>Sanctorum, et supra questione predicta,
+<lb ed="#Bc"/>scilicet quod habuit virtutes et gratiam,
+</p>
+               <p xml:id="Almn78-h61382-d1e451">
+                  <lb ed="#Bc"/>Et que objiciuntur in contrarium, 
+su<lb ed="#Bc" break="no"/>perius sunt soluta.
+</p>
+            </div>
+            <div xml:id="Almn78-h61382-Dd1e460">
+               <head xml:id="Almn78-h61382-Hd1e462">Membrum 3</head>
+               <head xml:id="Almn78-h61382-Hd1e465" type="question-title">
+        De ejectione hominis de paradiso.
+      </head>
+               <p xml:id="Almn78-h61382-d1e468">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>De ejectione hominis de paradiso.
+</p>
+               <p xml:id="Almn78-h61382-d1e475">
+                  <lb ed="#Bc"/>Tertio, Queritur de ejectione hominis
+<lb ed="#Bc"/>de paradiso,
+</p>
+               <p xml:id="Almn78-h61382-d1e482">
+                  <lb ed="#Bc"/>Objiciunt enim quidam, quod
+</p>
+               <p xml:id="Almn78-h61382-d1e488">
+                  <lb ed="#Bc"/>1. Ejici propter hoc non debuit in 
+<lb ed="#Bc" break="no"/>penam peccati : hoc enim peccatum 
+ne<lb ed="#Bc" break="no"/>cessitate moriendi punitum erat. Cum
+<lb ed="#Bc"/>ergo dicat auctoritas, Nahum, 1, 9, quod
+<lb ed="#Bc"/>non consurgit duplex tribulatio, et quod
+<lb ed="#Bc"/>non punit Deus bis in idipsum, videtur,
+<lb ed="#Bc"/>quod secunda pena ejectionis de 
+para<lb ed="#Bc" break="no"/>diso fieri non debuit.
+</p>
+               <p xml:id="Almn78-h61382-d1e508">
+                  <lb ed="#Bc"/>2. Adhuc, Desolatus consolatione 
+in<lb ed="#Bc" break="no"/>diguit, non desolatione : videtur ergo,
+<lb ed="#Bc"/>quod ad consolationem in paradiso 
+di<lb ed="#Bc" break="no"/>mitti debuit, ut pceniteret ubi deliquit.
+</p>
+               <p xml:id="Almn78-h61382-d1e519">
+                  <lb ed="#Bc"/>3. Adhuc, Psal. txxv1, 10: Aut 
+obli<lb ed="#Bc" break="no"/>viscetur misereri Deus ? aut continebit in
+<lb ed="#Bc"/>ira sua misericordias suas ? Videtur
+<lb ed="#Bc"/>ergo, quod ire vindicte aliquid 
+miseri<lb ed="#Bc" break="no"/>cordie esse debuit admixtum, ut saltem
+<lb ed="#Bc"/>relinqueretur in paradiso ad solatium
+<lb ed="#Bc"/>vite mortalis.
+</p>
+               <p xml:id="Almn78-h61382-d1e537">
+                  <pb ed="#Bc" n="279"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>ContTRA :
+<lb ed="#Bc"/>1. Habitaculum debet respondere 
+ha<lb ed="#Bc" break="no"/>bitanti secundum naturam : paradisus
+<lb ed="#Bc"/>habitaculum est beatorum beatitudine
+<lb ed="#Bc"/>innocentie : ergo innocentia perdita Ade
+<lb ed="#Bc"/>non congruebat paradisus ad 
+habitan<lb ed="#Bc" break="no"/>dum.
+</p>
+               <p xml:id="Almn78-h61382-d1e559">
+                  <lb ed="#Bc"/>2. Adhuc, Innocentia perdita 
+inter<lb ed="#Bc" break="no"/>dictum est ei edulium de ligno vite,
+<lb ed="#Bc"/>Genes. 11, 22: Nune ergo ne forte mittat
+<lb ed="#Bc"/>manum suam, et sumat de ligno vite,
+<lb ed="#Bc"/>et comedat, et vivatin xternum. Ergo
+<lb ed="#Bc"/>a simili etiam a loco debuit ejici, et poni
+<lb ed="#Bc"/>in locum miseriae et mortalitatis. Et hoc
+<lb ed="#Bc"/>concedendum dicit Augustinus in Glossa
+<lb ed="#Bc"/>super Genesim ad litteram, quod ejecerit
+<lb ed="#Bc"/>eum de paradiso in hunc locum 
+miseria<lb ed="#Bc" break="no"/>rum terre maledicte in opere hominis.
+</p>
+               <p xml:id="Almn78-h61382-d1e585">
+                  <lb ed="#Bc"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Bc"/>ex hoc non consurgit duplex tribulatio:
+<lb ed="#Bc"/>quia unum adjunctum est alteri. 
+Neces<lb ed="#Bc" break="no"/>sitas enim moriendi requirit locum in
+<lb ed="#Bc"/>quo possit esse necessitas moriendi, que
+<lb ed="#Bc"/>in paradiso esse non poterat. Unde
+<lb ed="#Bc"/>ejectio paradisi adjuncta poena est ad
+<lb ed="#Bc"/>necessitatem moriendi: et sic una 
+repu<lb ed="#Bc" break="no"/>tatur cum illa. Et dicit Augustinus |,
+<lb ed="#Bc"/>quod in illius peccati peenam ejectus est
+<lb ed="#Bc"/>de paradiso in istum miseriarum locum.
+</p>
+               <p xml:id="Almn78-h61382-d1e612">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod licet 
+conso<lb ed="#Bc" break="no"/>latione indiguit, tamen habere non 
+de<lb ed="#Bc" break="no"/>buit : quia indignum se fecit. Et 
+Augu<lb ed="#Bc" break="no"/>stinus super Genesim ad litteram ponit
+<lb ed="#Bc"/>similitudinem dicens: <quote xml:id="Almn78-h61382-Qd1e625"> Hmisit eum 
+Do<lb ed="#Bc" break="no"/>minus Deus de paradiso voluptatis? in
+<lb ed="#Bc"/>locum sibi congruum, sicut pleruamque
+<lb ed="#Bc"/>malus cum inter bonos vivere ceeperit, si
+<lb ed="#Bc"/>in melius mutari noluerit, de bonorum
+<lb ed="#Bc"/>congregatione pellitur, pondere prave
+<lb ed="#Bc"/>consuetudinis pressus *. </quote>
+               </p>
+               <p xml:id="Almn78-h61382-d1e642">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod licet 
+num<lb ed="#Bc" break="no"/>quam obliviscatur misereri, nec 
+conti<lb ed="#Bc" break="no"/>neat in ira sua miserationes suas : tamen
+<lb ed="#Bc"/>ex misericordia nihil facit perversi con
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tra ordinem universi quem ipse instituit.
+<lb ed="#Bc"/>De ordine autem universi est, ut locus
+<lb ed="#Bc"/>respondeat locato per congruentiam : sed
+<lb ed="#Bc"/>in hoc, ut dicount Sancti in Glossa super
+<lb ed="#Bc"/>Genesim, non continuit- misericordias
+<lb ed="#Bc"/>suas, quin in ipsa promulgatione pene
+<lb ed="#Bc"/>ejectionis significaret modum per quem
+<lb ed="#Bc"/>redire posset. Cum enim dixit: 
+Collo<lb ed="#Bc" break="no"/>cavit ante paradisum voluptatis 
+Cheru<lb ed="#Bc" break="no"/>bim, et flammeum gladium aitque 
+versa<lb ed="#Bc" break="no"/>tilem ad custodiendam viam ligni vitz’,
+<lb ed="#Bc"/>sicut dicunt Sancti Augustinus et Beda
+<lb ed="#Bc"/>et Strabus, per Cherubim, qui 
+interpre<lb ed="#Bc" break="no"/>tatur plenitudo scientiz, significatur 
+cha<lb ed="#Bc" break="no"/>ritas, de qua dicitur, ad Roman. xin,
+<lb ed="#Bc"/>10 : Plenitudo legis est dilectio. Per
+<lb ed="#Bc"/>flammeum  gladium atque _ 
+versati<lb ed="#Bc" break="no"/>lem significantur pene hujus mortalis
+<lb ed="#Bc"/>vite, que ut gladius incidunt, -et ut
+<lb ed="#Bc"/>flamma exurunt, et mobilitate versatiles
+<lb ed="#Bc"/>sunt. Unde licet ad litteram fuerit ibi
+<lb ed="#Bc"/>Angelorum custodia, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus, tamen in ipso modo ponendi 
+mise<lb ed="#Bc" break="no"/>ricorditer significatur, quod per 
+toleran<lb ed="#Bc" break="no"/>tiam passionum temporalium et 
+cha<lb ed="#Bc" break="no"/>rilatem spes esset sibi redeundi ad
+<lb ed="#Bc"/>paradisum spirituum.
+</p>
+               <p xml:id="Almn78-h61382-d1e714">
+                  <lb ed="#Bc"/>Ad vrtima duo que in contrarium
+<lb ed="#Bc"/>objiciuntur, dicendum quod conceduntur
+<lb ed="#Bc"/>el verum concludunt.
+</p>
+            </div>
+            <div xml:id="Almn78-h61382-Dd1e724">
+               <head xml:id="Almn78-h61382-Hd1e726">Membrum 4</head>
+               <head xml:id="Almn78-h61382-Hd1e729" type="question-title">
+        De flammeo gladio ante paradisum
+        posito.
+      </head>
+               <p xml:id="Almn78-h61382-d1e732">
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>De flammeo gladio ante paradisum
+<lb ed="#Bc"/>posito.
+</p>
+               <p xml:id="Almn78-h61382-d1e741">
+                  <lb ed="#Bc"/>Quarto, Querit Magister de flammeo
+<lb ed="#Bc"/>gladio ante paradisum posito, de quo
+<lb ed="#Bc"/>jam habitum est quid significet. Hunc
+<lb ed="#Bc"/>gladium quidam sancti vocant 
+rom<lb ed="#Bc" break="no"/>pheam.
+</p>
+               <p xml:id="Almn78-h61382-d1e754">
+                  <pb ed="#Bc" n="280"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>1. Et sunt quidam qui nituntur 
+pro<lb ed="#Bc" break="no"/>bare, quod poni non debuit, dicentes,
+<lb ed="#Bc"/>quod nulli precluditur ostium 
+miseri<lb ed="#Bc" break="no"/>cordia. Ergo ostiuin paradisi non debuit
+<lb ed="#Bc"/>precludi per igneam custodiam et 
+mi<lb ed="#Bc" break="no"/>nisterium Angelorum.
+</p>
+               <p xml:id="Almn78-h61382-d1e775">
+                  <lb ed="#Bc"/>2. Adhuc, Objiciunt ad hdc, quod
+<lb ed="#Bc"/>homo peccavit recuperabiliter: Angelus
+<lb ed="#Bc"/>vero irrecuperabiliter. Unde licet 
+An<lb ed="#Bc" break="no"/>gelus projectus est in infernum, et
+<lb ed="#Bc"/>clausa sit sibi janua redeundi, homini
+<lb ed="#Bc"/>tamen non debuit claudi.
+</p>
+               <p xml:id="Almn78-h61382-d1e791">
+                  <lb ed="#Bc"/>3. Adhuc, Peccatori non est 
+facien<lb ed="#Bc" break="no"/>dum aliquid per quod possit cadere in
+<lb ed="#Bc"/>desperationem : per clausuram autem
+<lb ed="#Bc"/>redeundi potuit induci desperatio: ergo
+<lb ed="#Bc"/>fieri non debuit. ;
+</p>
+               <p xml:id="Almn78-h61382-d1e804">
+                  <lb ed="#Bc"/>4. Adhuc, Sancti dicunt, quod 
+flam<lb ed="#Bc" break="no"/>meus gladius per sanguinem Christi
+<lb ed="#Bc"/>exstinctus fuit et amotus, ut pateret 
+re<lb ed="#Bc" break="no"/>ditus in ccelum ad paradisum spirituum.
+<lb ed="#Bc"/>Dicit enim Beda, quod <quote xml:id="Almn78-h61382-Qd1e817"> janua regni
+<lb ed="#Bc"/>ccelestis non est aperta nisi per 
+passio<lb ed="#Bc" break="no"/>nem Christi. </quote> Ergo melius fuisset non
+<lb ed="#Bc"/>posuisse,
+</p>
+               <p xml:id="Almn78-h61382-d1e827">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod in veritate,
+<lb ed="#Bc"/>et sicut jam dictum est, ibi fuit 
+Angelo<lb ed="#Bc" break="no"/>rum custodia, et ignis in specie corporali
+<lb ed="#Bc"/>assumpta : in qua tamen spiritualiter et
+<lb ed="#Bc"/>mystice significabuntur ea que dicta de
+<lb ed="#Bc"/>paradiso spirituum sunt, quibus 
+instrue<lb ed="#Bc" break="no"/>retur homo ad reditum.
+</p>
+               <p xml:id="Almn78-h61382-d1e845">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bc"/>precluditur ostium misericordia, 
+quin<lb ed="#Bc" break="no"/>imo instruitur ad redeundum.
+</p>
+               <p xml:id="Almn78-h61382-d1e854">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod homo 
+recu<lb ed="#Bc" break="no"/>perabiliter peccavit : et ideo per alium
+<lb ed="#Bc"/>redemptus est, et qualiter rediret 
+instru<lb ed="#Bc" break="no"/>ctus est.
+</p>
+               <p xml:id="Almn78-h61382-d1e866">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod non est
+<lb ed="#Bc"/>inductus in desperationem, sed potius
+<lb ed="#Bc"/>elevatus in spem per instructionem,
+</p>
+               <p xml:id="Almn78-h61382-d1e875">
+                  <lb ed="#Bc"/>Ad utTimum dicendum, quod hoc non
+<lb ed="#Bc"/>sequitur : quia nihil melius fuit quam
+<lb ed="#Bc"/>ponere, ut cognosceremus per hoc 
+inesti<lb ed="#Bc" break="no"/>mabilem charitatem Christi. Propter
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>quod etiam in benedictione cerei 
+pascha<lb ed="#Bc" break="no"/>lis a Petro diacono dicitur : <quote xml:id="Almn78-h61382-Qd1e892"> O felix
+<lb ed="#Bc"/>culpa, que talem ac tantum meruit 
+ha<lb ed="#Bc" break="no"/>bere redemptorem ! </quote> cum tamen in
+<lb ed="#Bc"/>nullo felix sit nisi in hoc, imo 
+infelicis<lb ed="#Bc" break="no"/>sima.
+</p>
+            </div>
+            <div xml:id="Almn78-h61382-Dd1e905">
+               <head xml:id="Almn78-h61382-Hd1e907">Membrum 5</head>
+               <head xml:id="Almn78-h61382-Hd1e910" type="question-title">
+        Utrum ante peccatum primi parentes
+        comederint de ligno vitae, vel non ? Et
+        si comederunt, quare non sunt facti
+        immortales ?
+      </head>
+               <p xml:id="Almn78-h61382-d1e913">
+                  <lb ed="#Bc"/>MEMBRUM V.
+<lb ed="#Bc"/>Utrum ante peccatum primi parentes
+<lb ed="#Bc"/>comederint de ligno vitae, vel non ? Et
+<lb ed="#Bc"/>si comederunt, quare non sunt facti
+<lb ed="#Bc"/>immortales ?
+</p>
+               <p xml:id="Almn78-h61382-d1e926">
+                  <lb ed="#Bc"/>Quinto queritur, Utrum ante 
+pecca<lb ed="#Bc" break="no"/>tum comederint de ligno vite, vel non ?
+<lb ed="#Bc"/>Et si comederint, quare non sunt facti
+<lb ed="#Bc"/>immortales ?
+</p>
+               <p xml:id="Almn78-h61382-d1e937">
+                  <lb ed="#Bc"/>Et videtur quod comederint : quia
+<lb ed="#Bc"/>1. In littera Genesis, m, 2 et 3 
+contine<lb ed="#Bc" break="no"/>tur, quod mulier sic dixit ad serpentem :
+<lb ed="#Bc"/>De fructu lignorum, que sunt in 
+para<lb ed="#Bc" break="no"/>diso, vescimur : de fructu vero ligni,
+<lb ed="#Bc"/>quod est in medio paradisi, precepti 
+no<lb ed="#Bc" break="no"/>bis Deus ne comederemus, ne forte 
+mo<lb ed="#Bc" break="no"/>riamur. Ex quo accipitur, quod 
+comede<lb ed="#Bc" break="no"/>runt, :
+</p>
+               <p xml:id="Almn78-h61382-d1e960">
+                  <lb ed="#Bc"/>2. Adhuc, Animalia corpora habebant
+<lb ed="#Bc"/>que cibis erant sustentanda. Cum ergo
+<lb ed="#Bc"/>nature non negaverunt necessaria, 
+vi<lb ed="#Bc" break="no"/>detur quod comederunt : aliter enim 
+in<lb ed="#Bc" break="no"/>jecissent sibi manus, et peccassent : quod
+<lb ed="#Bc"/>falsum est : quia primum peccatum 
+eo<lb ed="#Bc" break="no"/>rum fuit inobedientia.
+</p>
+               <p xml:id="Almn78-h61382-d1e978">
+                  <lb ed="#Bc"/>3. Adhuc, In paradiso per longam |
+<lb ed="#Bc"/>moram fuerunt, cum et vir soporatus ibi
+<lb ed="#Bc"/>dicatur, et mulier formata‘ : longa autem —
+<lb ed="#Bc"/>mora naturale est corpus animale refici : 
+<lb ed="#Bc" break="no"/>ergo videtur, quod in illa mora aliquoties
+<lb ed="#Bc"/>refecti sunt : quia aliter naturaliter non
+<lb ed="#Bc"/>egissent, et sic peccassent.
+</p>
+               <p xml:id="Almn78-h61382-d1e996">
+                  <pb ed="#Bc" n="281"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Sed tunc habet locum questio 
+se<lb ed="#Bc" break="no"/>quens. Quare non sunt facti 
+immorta<lb ed="#Bc" break="no"/>les ?
+</p>
+               <p xml:id="Almn78-h61382-d1e1009">
+                  <lb ed="#Bc"/>Videtur, quod debuissent facti fuisse
+<lb ed="#Bc"/>immortales.
+</p>
+               <p xml:id="Almn78-h61382-d1e1016">
+                  <lb ed="#Bc"/>1. <name xml:id="Almn78-h61382-Nd1e1020">Strabus</name> in Glossa, ibidem, <quote xml:id="Almn78-h61382-Qd1e1023"> 
+Li<lb ed="#Bc" break="no"/>gnum vite hance naturaliter vim habebat,
+<lb ed="#Bc"/>ut qui ex fructu ejus comederet, 
+perpe<lb ed="#Bc" break="no"/>tua soliditate firmaretur, et beata 
+vestire<lb ed="#Bc" break="no"/>tur immortalitale, nulla infirmitate vel
+<lb ed="#Bc"/>anxietate vel senii lassitudine vel 
+imbe<lb ed="#Bc" break="no"/>cillitate fatigandus. </quote>
+               </p>
+               <p xml:id="Almn78-h61382-d1e1040">
+                  <lb ed="#Bc"/>2. Adhuc, Ecclesia tenet, quod <name xml:id="Almn78-h61382-Nd1e1044">Elias</name>
+                  <lb ed="#Bc"/>et <name xml:id="Almn78-h61382-Nd1e1049">Enoch</name> raptiin paradisum esu 
+susten<lb ed="#Bc" break="no"/>tantur usque ad tempora Antichristi,
+<lb ed="#Bc"/>contra quem debent testificari : et illi
+<lb ed="#Bc"/>habuerunt mortalia corpora per naturam.
+<lb ed="#Bc"/>Si ergo sustentant illa corpora, multo
+<lb ed="#Bc"/>magis sustentassent corpora primorum
+<lb ed="#Bc"/>parentum, que non erant mortalia, sed
+<lb ed="#Bc"/>animalia tantum.
+</p>
+               <p xml:id="Almn78-h61382-d1e1069">
+                  <lb ed="#Bc"/>ContTRA :
+<lb ed="#Bc"/>Naturale est, quod cibus convertatur
+<lb ed="#Bc"/>in corpus hominis comedentis, et uniatur
+<lb ed="#Bc"/>illi virtute nutritiva corporis comedentis,
+<lb ed="#Bc"/>non cibi. Cum ergo <name xml:id="Almn78-h61382-Nd1e1082">Adam</name> et <name xml:id="Almn78-h61382-Nd1e1085">Heva</name> 
+natu<lb ed="#Bc" break="no"/>ralia pre omnibus hominibus habuissent,
+<lb ed="#Bc"/>etiamsi comedissent de ligno vite, 
+vide<lb ed="#Bc" break="no"/>tur quod lignum vite conversum fuisset
+<lb ed="#Bc"/>in eis inanimale corpus, et non in 
+spiri<lb ed="#Bc" break="no"/>tuale : animale autem corpus non potest
+<lb ed="#Bc"/>beata immortalitate vestiri, sed 
+spiri<lb ed="#Bc" break="no"/>tuale, quale habebimus in resurrectione,
+<lb ed="#Bc"/>sicut dicitur, Matth. xxu, 30 : In 
+resur<lb ed="#Bc" break="no"/>rectione, neque nubent neque nubentur :
+<lb ed="#Bc"/>sed erunt sicut Angeli Dei in celo.
+</p>
+               <p xml:id="Almn78-h61382-d1e1110">
+                  <lb ed="#Bc"/>Solutio. Ad hoc dicit Magister in
+<lb ed="#Bc"/>Littera, sumens occasionem ex verbis
+<lb ed="#Bc"/>Strabi et Augustini super Genesim ad
+<lb ed="#Bc"/>littieram : nihil tamen volens de hoc
+<lb ed="#Bc"/>asserere, sed sub dubio dicit, quod forte
+<lb ed="#Bc"/>lignum illud non conferebat 
+immortalita<lb ed="#Bc" break="no"/>tem, nisi sepius comestum, non semel.
+<lb ed="#Bc"/>Sed contra hoc videtur esse : quia quod
+<lb ed="#Bc"/>sepius comestum confert aliquid, et ex
+<lb ed="#Bc"/>natura sua, hoc etiam semel comestum
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>confert idem, licet non intantum : et
+<lb ed="#Bc"/>sic videtur, quod solutio Magistri nulla
+<lb ed="#Bc"/>sit.
+</p>
+               <p xml:id="Almn78-h61382-d1e1143">
+                  <lb ed="#Bc"/>Solutio. Absque dubie secundum dicta
+<lb ed="#Bc"/>Sanctorum, precipue Augustini, Strabi,
+<lb ed="#Bc"/>et Ambrosii in Hexameron, lignum vite
+<lb ed="#Bc"/>habuit hance virtutem, quod et semel et
+<lb ed="#Bc"/>pluries comestum contulit 
+immortalita<lb ed="#Bc" break="no"/>tem. Sed quod eis non contulit, 
+secun<lb ed="#Bc" break="no"/>dum Ambrosium, causa fuit, quia scivit
+<lb ed="#Bc"/>eos Deus casuros, et necessitatem 
+mo<lb ed="#Bc" break="no"/>riendi incursuros. Unde licet comederint,
+<lb ed="#Bc"/>effectum ligni non senserunt, ne pcena
+<lb ed="#Bc"/>comminata a Deo propter peccatum 
+im<lb ed="#Bc" break="no"/>pediretur per lignum. Dixerat enim Deus:
+<lb ed="#Bc"/>In quocumque die comederis ex eo,
+<lb ed="#Bc"/>morte morteris ', id est, necessitatem
+<lb ed="#Bc"/>moriendi incurres. haec enim est 
+senten<lb ed="#Bc" break="no"/>tia Ambrosii quam credo omnibus 
+pro<lb ed="#Bc" break="no"/>babiliorem esse.
+</p>
+               <p xml:id="Almn78-h61382-d1e1182">
+                  <lb ed="#Bc"/>Si quis vult tamen dicere ut Magister,
+<lb ed="#Bc"/>scilicet quod sapius comestum, etc.,
+<lb ed="#Bc"/>potest responderi ad argumentum factum
+<lb ed="#Bc"/>in contrarium per illam propositionem
+<lb ed="#Bc"/>Aristotelis in libro de Causis, quod <quote xml:id="Almn78-h61382-Qd1e1195"> 
+om<lb ed="#Bc" break="no"/>nis virtus congregata et unita est fortior
+<lb ed="#Bc"/>quam divisa. </quote> Unde cum sepius 
+com<lb ed="#Bc" break="no"/>estum lignum vite habuerit virtutem
+<lb ed="#Bc"/>congregatam et unitam, semel autem
+<lb ed="#Bc"/>divisam, sepius comestum conferebat 
+im<lb ed="#Bc" break="no"/>mortalitatem, non semel.
+</p>
+               <p xml:id="Almn78-h61382-d1e1211">
+                  <lb ed="#Bc"/>Tria ergo prima argumenta que 
+pro<lb ed="#Bc" break="no"/>bant quod comederint, concedenda
+<lb ed="#Bc"/>sunt, et procedant secundum dicta 
+San<lb ed="#Bc" break="no"/>ctorum.
+</p>
+               <p xml:id="Almn78-h61382-d1e1222">
+                  <lb ed="#Bc"/>Quop autre objicitur de secunda parte
+<lb ed="#Bc"/>questionis, jam solutum est.
+</p>
+            </div>
+            <div xml:id="Almn78-h61382-Dd1e1230">
+               <head xml:id="Almn78-h61382-Hd1e1232">Membrum 6</head>
+               <head xml:id="Almn78-h61382-Hd1e1235" type="question-title">
+        Quomodo intelligatur illud, Nunc ergo
+        ne forte mittat manum suam, et sumat
+        de ligno vite, et comedat, et vivat in
+        aeternum?
+      </head>
+               <p xml:id="Almn78-h61382-d1e1238">
+                  <pb ed="#Bc" n="282"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM VI.
+<lb ed="#Bc"/>Quomodo intelligatur illud, Nunc ergo
+<lb ed="#Bc"/>ne forte mittat manum suam, et sumat
+<lb ed="#Bc"/>de ligno vite, et comedat, et vivat in
+<lb ed="#Bc"/>aeternum?
+</p>
+               <p xml:id="Almn78-h61382-d1e1256">
+                  <lb ed="#Bc"/>Quomodo autem intelligatur illud,
+<lb ed="#Bc"/>Nunc ergo ne forte sumat, etc., jam patet
+<lb ed="#Bc"/>ex premissis. Est enim dictum Dei ad
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Angelos. Et significat ibi Deus, quod ~
+<lb ed="#Bc"/>sicut homo indignum se fecit 
+immorta<lb ed="#Bc" break="no"/>litatis loco, ita et immortalitatis 
+edu<lb ed="#Bc" break="no"/>lio.
+</p>
+               <p xml:id="Almn78-h61382-d1e1276">
+                  <lb ed="#Bc"/>Tamen Hugo de sancto Victore 
+expo<lb ed="#Bc" break="no"/>nit hoc, quod per compassionem hoc
+<lb ed="#Bc"/>dictum est, ac si dicat : Miserum esset ei
+<lb ed="#Bc"/>semper vivere in miseria hujus vite
+<lb ed="#Bc"/>mortalis : et ideo videte ne sumat de
+<lb ed="#Bc"/>ligno vite, et vivat in eternum : melius
+<lb ed="#Bc"/>est enim sibi ut per breve spatium per
+<lb ed="#Bc"/>gratiam et meritum transeat ad beatam
+<lb ed="#Bc"/>immortalitatem, quam quod semper in
+<lb ed="#Bc"/>miseria vivat.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

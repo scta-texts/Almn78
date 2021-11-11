@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 73</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 73</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="52"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h11431"><!-- p2t12q73 -->
+            <head xml:id="Almn78-h11431-Hd1e106">Quaestio 73</head>
+            <head xml:id="Almn78-h11431-Hd1e109" type="question-title">
+    De causa efficiente animae
+  </head>
+            <p xml:id="Almn78-h11431-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO LXXIII.
+<lb ed="#Bc"/>De causa efficiente animae.
+</p>
+            <p xml:id="Almn78-h11431-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde queritur de causa efficiente
+<lb ed="#Bc"/>anime, Utrum scilicet immediate facta
+<lb ed="#Bc"/>sit a Deo, vel mediantibus intelligentiis,
+<lb ed="#Bc"/>ut quidam dixerunt ?
+</p>
+            <p xml:id="Almn78-h11431-d1e134">
+               <lb ed="#Bc"/>Et circa hoc queruntur duo, scilicet
+<lb ed="#Bc"/>utium solus Deus sit causa efficiens 
+ani<lb ed="#Bc" break="no"/>mae?
+</p>
+            <p xml:id="Almn78-h11431-d1e144">
+               <lb ed="#Bc"/>Et secundo, Utrum ex hoc anima sit
+<lb ed="#Bc"/>incorruptibilis post absolutionem a 
+cor<lb ed="#Bc" break="no"/>nore ?
+</p>
+            <div xml:id="Almn78-h11431-Dd1e153">
+               <head xml:id="Almn78-h11431-Hd1e155">Membrum 1</head>
+               <head xml:id="Almn78-h11431-Hd1e158" type="question-title">
+        Utrum solus Deus sit causa efficiens
+        anime
+      </head>
+               <p xml:id="Almn78-h11431-d1e161">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum solus Deus sit causa efficiens
+<lb ed="#Bc"/>anime?
+</p>
+               <p xml:id="Almn78-h11431-d1e170">
+                  <lb ed="#Bc"/>Ad PRIMUM proceditur ex rationibus
+<lb ed="#Bc"/>quas ponit Joannes Toletanus 
+Archiepi<lb ed="#Bc" break="no"/>scopus in libro suo de Anima. Et sunt
+<lb ed="#Bc"/>precipue due.
+  
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>1. Una est, quod dicit, quod creans
+<lb ed="#Bc"/>nunc et non ante {vel faciens, oportet
+<lb ed="#Bc"/>nova dispositione esse dispositum ad
+<lb ed="#Bc"/>taciendum: anima haec vel illa creatur
+<lb ed="#Bc"/>nunc et non ante: ergo creans ipsam,
+<lb ed="#Bc"/>oportet nova dispositione esse 
+disposi<lb ed="#Bc" break="no"/>tum : Deus nulla dispositione nova 
+dis<lb ed="#Bc" break="no"/>ponitur : ergo Deus per seipsum non
+<lb ed="#Bc"/>est causa efficiens animarum, sed 
+intelli<lb ed="#Bc" break="no"/>gentia angelica facit eas.
+</p>
+               <p xml:id="Almn78-h11431-d1e205">
+                  <lb ed="#Bc"/>2, Adhuc, Quod immediate fit a Deo,
+<lb ed="#Bc"/>immediate habet se ad ipsum ad 
+illumi<lb ed="#Bc" break="no"/>nationes recipiendas : ergo a 
+destru<lb ed="#Bc" break="no"/>ctione consequentis, si non immediate
+<lb ed="#Bc"/>recipit illuminationes, non immediate fit
+<lb ed="#Bc"/>a Deo. Sed, sicut habitum est in tractatu
+<lb ed="#Bc"/>de hierarchiis, anima rationalis illumina-:
+<lb ed="#Bc"/>tiones recipit ab Angelis, et non 
+imme<lb ed="#Bc" break="no"/>diate a Deo: ergo videtur, quod anima
+<lb ed="#Bc"/>non immediate sit a Deo.
+</p>
+               <p xml:id="Almn78-h11431-d1e230">
+                  <lb ed="#Bc"/>3. Adhuc, Super octavam 
+propositio<lb ed="#Bc" break="no"/>nem libri Causarum commentum dicit
+<lb ed="#Bc"/>sic: Anima facta est causa corporum, et
+<lb ed="#Bc"/>facta est causata ab intelligentia que est
+<pb ed="#Bc" n="53"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>ante ipsam. Ergo videtur, quod 
+intelli<lb ed="#Bc" break="no"/>genlia angelica causa sit anime, et non
+<lb ed="#Bc"/>Deus.
+</p>
+               <p xml:id="Almn78-h11431-d1e252">
+                  <lb ed="#Bc"/>4, Adhuc, Ibidem, Anima que 
+susci<lb ed="#Bc" break="no"/>pit impressionem intelligentia, facta est
+<lb ed="#Bc"/>inferioris operationis quam ipsa 
+intelli<lb ed="#Bc" break="no"/>gentia : sed non recipit impressionem ab
+<lb ed="#Bc"/>aliquo, ut dicit idem Toletanus, nisi
+<lb ed="#Bc"/>quod factum est ab illo: ergo videtur
+<lb ed="#Bc"/>quod anima facta est ab intelligentia.
+</p>
+               <p xml:id="Almn78-h11431-d1e270">
+                  <lb ed="#Bc"/>5. Adhuc, Ad idem arguitur ex ordine
+<lb ed="#Bc"/>rerum. Dicit enim Augustinus in libro
+<lb ed="#Bc"/>XII Confessionum: <quote xml:id="Almn78-h11431-Qd1e278"> Duo fecisti, 
+Do<lb ed="#Bc" break="no"/>mine : unum prope te, et alterum prope
+<lb ed="#Bc"/>nihil, hoc est, angelicam naturam, et
+<lb ed="#Bc"/>materiam primam que prope nihil
+<lb ed="#Bc"/>est‘. </quote> Sed talis ordo propinquitatis et
+<lb ed="#Bc"/>remotionis a primo principio, dicit 
+ordi<lb ed="#Bc" break="no"/>nem principiorum. Ergo videtur, quod
+<lb ed="#Bc"/>omnia illa que intermedia sunt, causata
+<lb ed="#Bc"/>sunt ab his que sunt juxta primum :
+<lb ed="#Bc"/>anima rationalis est de intermediis:
+<lb ed="#Bc"/>ergo videtur, quod ipsa causata sit ab
+<lb ed="#Bc"/>Angelis qui sunt juxta primum.
+</p>
+               <p xml:id="Almn78-h11431-d1e305">
+                  <lb ed="#Bc"/>6. Adhuc, Sic est in ordine corporum,
+<lb ed="#Bc"/>quod inferius semper formatur et 
+move<lb ed="#Bc" break="no"/>tur a superiori et causatur ab ipso: ergo
+<lb ed="#Bc"/>sic etiam est in ordine spirituum : sed
+<lb ed="#Bc"/>anima rationalis inferior est Angelo,
+<lb ed="#Bc"/>quod constat: ergo videtur, quod 
+forma<lb ed="#Bc" break="no"/>tur et movetur et causatur ab Angelo.
+</p>
+               <p xml:id="Almn78-h11431-d1e323">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>i, Augustinus in libro de 
+Ecclesiasti<lb ed="#Bc" break="no"/>cis dogmatibus : <quote xml:id="Almn78-h11431-Qd1e331"> Creationem anime
+<lb ed="#Bc"/>solum creatorem omnium nosse 
+dici<lb ed="#Bc" break="no"/>mus *, </quote> Et ibidem, <quote xml:id="Almn78-h11431-Qd1e338"> Dei judicio 
+coagu<lb ed="#Bc" break="no"/>lari in vulva et compingi atqae formari
+<lb ed="#Bc"/>dicimus corpus, ac formato jam corpore,
+<lb ed="#Bc"/>animam creari ac infundi, ut vivat in
+<lb ed="#Bc"/>utero homo ex anima constans et 
+cor<lb ed="#Bc" break="no"/>pore et egrediatur vivus ex utero, plenus
+<lb ed="#Bc"/>humana substantia. </quote>
+               </p>
+               <p xml:id="Almn78-h11431-d1e355">
+                  <lb ed="#Bc"/>2. Adhuc, Dicit Joannes Damascenus
+<lb ed="#Bc"/>in libro IL de Fide orthodoxa, quod
+<lb ed="#Bc"/>heresis sit dicere, quod Angelus etiam
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>aliquis creet, sic: <quote xml:id="Almn78-h11431-Qd1e368"> Quicumque Angelos
+<lb ed="#Bc"/>conditores aiunt vel creatores 
+cujuscum<lb ed="#Bc" break="no"/>que etiam substantie, ipsi os diaboli
+<lb ed="#Bc"/>sunt, eorum quidem patris: creature
+<lb ed="#Bc"/>enim existentes non sunt conditores vel
+<lb ed="#Bc"/>creatores alicujus rei*. </quote> Idem dicit
+<lb ed="#Bc"/>Augustinus super Genesim ad litteram.
+</p>
+               <p xml:id="Almn78-h11431-d1e385">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod nullo modo
+<lb ed="#Bc"/>credendum vel dicendum est, quod 
+ani<lb ed="#Bc" break="no"/>ma rationalis ab aliquo sit facta vel
+<lb ed="#Bc"/>creata nisi immediate a Deo: quia, 
+sic<lb ed="#Bc" break="no"/>ut dicunt Augustinus et Damascenus,
+<lb ed="#Bc"/>creare actus incommunicabilis est omni
+<lb ed="#Bc"/>creature, et soli Deo creatori omnium
+<lb ed="#Bc"/>convenit. Et hujus ratio est, quia 
+infi<lb ed="#Bc" break="no"/>nite potentiae est educere aliquid ex
+<lb ed="#Bc"/>nihilo: et sicut dicitur, ad Roman. iv,
+<lb ed="#Bc"/>17: Vocat ea que non sunt, tamquam
+<lb ed="#Bc"/>ea que sunt. Infinita autem potentia
+<lb ed="#Bc"/>non convenit alicui creato: et hujus
+<lb ed="#Bc"/>ratio est, quod omne creatum est post
+<lb ed="#Bc"/>esse secundum naturam et fundatum in
+<lb ed="#Bc"/>esse : et idco nulla sua polentia est, sive
+<lb ed="#Bc"/>sil cognitiva, sive sit operativa, nisi super
+<lb ed="#Bc"/>existens : creatio autem fundatur in non
+<lb ed="#Bc"/>ente quod est ante ens: et ideo nulli
+<lb ed="#Bc"/>creato convenire potest.
+</p>
+               <p xml:id="Almn78-h11431-d1e431">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod Deus
+<lb ed="#Bc"/>non recipit dispositiones diversas ex hoc
+<lb ed="#Bc"/>quod nunc crearet, non ante : ab eterno
+<lb ed="#Bc"/>enim uno modo et eodem se habuit et
+<lb ed="#Bc"/>dispositione sapientiae et dispositione
+<lb ed="#Bc"/>potentie agentis, ut hec anima nunc
+<lb ed="#Bc"/>crearetur ab ipso, et non ante, nec post.
+</p>
+               <p xml:id="Almn78-h11431-d1e449">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod in hoc 
+de<lb ed="#Bc" break="no"/>ceptus est Toletanus: quia credidit,
+<lb ed="#Bc"/>quod idem ordo esset illuminati ad 
+illu<lb ed="#Bc" break="no"/>minantem, et facti ad facientem : et hoc
+<lb ed="#Bc"/>non est verum, quia multa fiunt 
+imme<lb ed="#Bc" break="no"/>diate a Deo, sicut ccelum et terra et 
+pri<lb ed="#Bc" break="no"/>ma materia : que tamen non ‘se habent
+<lb ed="#Bc"/>ad recipiendas illuminationes immediate
+<lb ed="#Bc"/>ab ipso. Et similiter est de anima 
+ratio<lb ed="#Bc" break="no"/>nali : el ideo ratio sua ista non procedit.
+<pb ed="#Bc" n="54"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Modus enim percipiendi illuminationes,
+<lb ed="#Bc"/>differens est ex differenti perspicacitate
+<lb ed="#Bc"/>intelligentiz, et differenti simplicitate
+<lb ed="#Bc"/>essenti#, et non ex hoc quod immediate
+<lb ed="#Bc"/>fiat vel non fiat a causa efficiente hac
+<lb ed="#Bc"/>vel illa.
+</p>
+               <p xml:id="Almn78-h11431-d1e491">
+                  <lb ed="#Bc"/>Ad aliud quod dicitur in libro de
+<lb ed="#Bc"/>Causis, dicendum quod si volumus
+<lb ed="#Bc"/>salvare quod dicitur in commento libri
+<lb ed="#Bc"/>Causarum, dicemus, quod intelligitur,
+<lb ed="#Bc"/>quod intelligentia non sit causa anime
+<lb ed="#Bc"/>rationalis in esse substantiali, sed 
+tan<lb ed="#Bc" break="no"/>tum in forma illuminationum ad bene
+<lb ed="#Bc"/>esse : et hoc non creando vel 
+benefa<lb ed="#Bc" break="no"/>ciendo, sed instruendo.
+</p>
+               <p xml:id="Almn78-h11431-d1e513">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod 
+impressio<lb ed="#Bc" break="no"/>nes intelliguntur forme illuminalionum
+<lb ed="#Bc"/>secundum triplicem visionem, qua Ange.
+<lb ed="#Bc"/>lus illuminat animam, scilicet 
+sensibi<lb ed="#Bc" break="no"/>lem, imaginariam, et intellectualeim.
+<lb ed="#Bc"/>Sed quod dicit, quod non recipit 
+illumi<lb ed="#Bc" break="no"/>nationes nisi ab eo quod est causa ejus
+<lb ed="#Bc"/>efficiens, hoc falsum est, nisi intelligatur
+<lb ed="#Bc"/>de causa efficiente illuminationis, et non
+<lb ed="#Bc"/>substantia illuminate. Omne enim 
+supe<lb ed="#Bc" break="no"/>rius in ordine ex amore naturali, ut
+<lb ed="#Bc"/>dicit lerotheus, illuminationes 
+providen<lb ed="#Bc" break="no"/>tie effundit super inferius, et movet
+<lb ed="#Bc"/>ipsum ut converlatur ad sujerius: et
+<lb ed="#Bc"/>tamen inferius non semper fit a 
+supe<lb ed="#Bc" break="no"/>riore secundum esse substantiale.
+</p>
+               <p xml:id="Almn78-h11431-d1e550">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod ille ordo
+<lb ed="#Bc"/>quem ponit ibi Augustinus, non est ordo
+<lb ed="#Bc"/>principiorum facientium esse et 
+substan<lb ed="#Bc" break="no"/>tiam, sed est ordo reducentium 
+inferio<lb ed="#Bc" break="no"/>rum in primum, secundum quod dicit
+<lb ed="#Bc"/>Dionysius, quod <quote xml:id="Almn78-h11431-Qd1e565"> lex divinitatis est per
+<lb ed="#Bc"/>prima media, et per media ultima 
+redu<lb ed="#Bc" break="no"/>cere. </quote>
+               </p>
+               <p xml:id="Almn78-h11431-d1e574">
+                  <lb ed="#Bc"/>Ad vuLtimum dicendum, quod sic est
+<lb ed="#Bc"/>eliam in ordine corporum : inferius
+<lb ed="#Bc"/>enim secundum esse substantiale non fit
+<lb ed="#Bc"/>a superiore, sed recipit impressiones
+<lb ed="#Bc"/>ejus quoad bene esse, sicul luna et stelle
+<lb ed="#Bc"/>a sole, et sicut terra et infvriora elementa
+<lb ed="#Bc"/>a ceelo.
+</p>
+               <p xml:id="Almn78-h11431-d1e592">
+                  <lb ed="#Bc"/>Qvop objicitur in contrarium, conce
+<lb ed="#Bc"/>dendum est: quia hoc est Catholica
+<lb ed="#Bc"/>fides : et paulo ante assignata est ratio,
+<lb ed="#Bc"/>quare crealure non potest convenire
+<lb ed="#Bc"/>potentia creandi.
+</p>
+            </div>
+            <div xml:id="Almn78-h11431-Dd1e606">
+               <head xml:id="Almn78-h11431-Hd1e608">Membrum 2</head>
+               <head xml:id="Almn78-h11431-Hd1e611" type="question-title"/>
+               <p xml:id="Almn78-h11431-d1e613">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum anima ex hoc quod solus Deus
+<lb ed="#Bc"/>causa ejus efficiens est, sit incorru~
+<lb ed="#Bc"/>ptibilis post absolutionem a corpore '?
+</p>
+               <p xml:id="Almn78-h11431-d1e624">
+                  <lb ed="#Bc"/>SEecunpo queritur, Utrum anima ex
+<lb ed="#Bc"/>hoe quod solus Deus causa ejus efficiens
+<lb ed="#Bc"/>est, sit incorruptibilis post absolutionem
+<lb ed="#Bc"/>a corpore ?
+</p>
+               <p xml:id="Almn78-h11431-d1e635">
+                  <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>Actus enim corporis a Philosophis
+<lb ed="#Bc"/>ponitur in triplici differentia. Quidam
+<lb ed="#Bc"/>enim est actus corporis et corporalis
+<lb ed="#Bc"/>sicut forma que est in corpore et 
+subji<lb ed="#Bc" break="no"/>citur principiis corporis in agendo et
+<lb ed="#Bc"/>operando, sicut anima vegetabilis in
+<lb ed="#Bc"/>plantis, et sensibilis in brutis : propter
+<lb ed="#Bc"/>quod talia non agunt, sed aguntur et
+<lb ed="#Bc"/>impelluntur ad actiones et opera 
+passio<lb ed="#Bc" break="no"/>nibus corporalibus. Est etiam corporis
+<lb ed="#Bc"/>actus qui est in corpore non corporalis :
+<lb ed="#Bc"/>et haec est forma que non est nisi in
+<lb ed="#Bc"/>corpore, eo quod educitur de materia
+<lb ed="#Bc"/>vel causatur in materia ad harmoniam
+<lb ed="#Bc"/>corporis, sicut sensus, ut dicit 
+Aristote<lb ed="#Bc" break="no"/>les, harmonia est, que nec recipit aliquid
+<lb ed="#Bc"/>nisi quod est de harmonia sui organi,
+<lb ed="#Bc"/>sicut visus, qui non recipit nisi id quod
+<lb ed="#Bc"/>fit in actu per lumen, eo quod ipse 
+con<lb ed="#Bc" break="no"/>sistit in organo cujus harmonia fit ex
+<lb ed="#Bc"/>humido perspicuo, quod fit in actu per
+<lb ed="#Bc"/>lucem, qui licet actus elevatus sit super 
+<lb ed="#Bc" break="no"/>principia materiz, ita quod non 
+subjici<lb ed="#Bc" break="no"/>tur eis sicut forma naturalis, tamen nec
+<lb ed="#Bc"/>agit nec patitur recipiendo nisi in ma
+<pb ed="#Bc" n="55"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>teria : et ideo etiam actus materiae 
+dici<lb ed="#Bc" break="no"/>tur.
+</p>
+               <p xml:id="Almn78-h11431-d1e704">
+                  <lb ed="#Bc"/>Et est actus corporis qui nullum habet
+<lb ed="#Bc"/>esse a corpore, licet habeat esse in ipso :
+<lb ed="#Bc"/>a nullo enim principio corporali accipit
+<lb ed="#Bc"/>esse, nec in aliqua operatione ab aliquo
+<lb ed="#Bc"/>principio corporis agitur ad 
+operatio<lb ed="#Bc" break="no"/>nem, nec in aliqua passione sive 
+rece<lb ed="#Bc" break="no"/>ptione restringitur ad hoc quod recipiat
+<lb ed="#Bc"/>connaturalia hujus corporis vel illius,
+<lb ed="#Bc"/>sed liber est ad receptionem omnium, et
+<lb ed="#Bc"/>ut judicet de omnibus secundum 
+ratio<lb ed="#Bc" break="no"/>nem cognitionis. Et talis actus est anima
+<lb ed="#Bc"/>rationalis sive intellectualis : et talis
+<lb ed="#Bc"/>actus nihil penitus de esse suo habet a
+<lb ed="#Bc"/>corpore, nec de actione sua habet 
+ali<lb ed="#Bc" break="no"/>quid a corpore, nec de passione sua qua
+<lb ed="#Bc"/>recipit omnia : quia si de potentia 
+reci<lb ed="#Bc" break="no"/>piendi haberet aliquid a corpore, 
+seque<lb ed="#Bc" break="no"/>retur quod reciperet quidem ea que sunt
+<lb ed="#Bc"/>connaturalia illi corpori, sicut visus
+<lb ed="#Bc"/>connaturalia perspicuo sive diaphano et
+<lb ed="#Bc"/>non alia recipit. Et ille actus nec esse
+<lb ed="#Bc"/>nec operationem nec passionem habet a
+<lb ed="#Bc"/>corpore. Unde nec secundum esse, nec
+<lb ed="#Bc"/>secundum operationem, nec secundum
+<lb ed="#Bc"/>passionem dependet ad corpus. Et 
+pro<lb ed="#Bc" break="no"/>pter hoc Aristoteles dixit, quod 
+intelle<lb ed="#Bc" break="no"/>ctus nullius corporis est actus. Et 
+Ana<lb ed="#Bc" break="no"/>xagoras dixit, quod intellectus nulli 
+ni<lb ed="#Bc" break="no"/>hil habet commune, et propter hoc est
+<lb ed="#Bc"/>receptibilis omnium. Talis igitur anima
+<lb ed="#Bc"/>intellectualis cum esse non habeat a se,
+<lb ed="#Bc"/>eo quod causata et creata est: nec 
+ha<lb ed="#Bc" break="no"/>beat a corpore, ut jam ostensum est,
+<lb ed="#Bc"/>quia si haberet a corpore, nec in illo 
+ha<lb ed="#Bc" break="no"/>beret potentiam agendi nec recipiendi,
+<lb ed="#Bc"/>nisi in his que essent connaturalia illi
+<lb ed="#Bc"/>corpori : nunc autem habet 
+liberta<lb ed="#Bc" break="no"/>tem agendi et recipiendi omnia, et 
+ubi<lb ed="#Bc" break="no"/>que, et semper. Et cuin tale esse talis
+<lb ed="#Bc"/>potentie non possit referri ad corpus
+<lb ed="#Bc"/>sicut ad principium, nec habeat ipsum a
+<lb ed="#Bc"/>seipso, oportet quod referatur ad causam
+<lb ed="#Bc"/>efficientem, que (sicut dicunt 
+Philoso<lb ed="#Bc" break="no"/>phi) est principium universi esse, et 
+fa<lb ed="#Bc" break="no"/>cit debere esse in omnibus que sunt. Et
+<lb ed="#Bc"/>tale principium cum producat talem
+<lb ed="#Bc"/>actum in corpore, et non ad modum
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>alicujus corporis vel actus corporalis,
+<lb ed="#Bc"/>sequitur de necessitate, quod producat
+<lb ed="#Bc"/>eum ad modum et similitudinem suam
+<lb ed="#Bc"/>propriam. Et hoc est quod dicitur, 
+Ge<lb ed="#Bc" break="no"/>nes.1, 26: Faciamus hominem ad 
+ima<lb ed="#Bc" break="no"/>ginem et similitudinem nostram.
+<lb ed="#Bc"/>Ulterius etiam sequitur ex hoc, cum
+<lb ed="#Bc"/>talis actus nec secundum esse, nec 
+se<lb ed="#Bc" break="no"/>cundum agere, nec secundum recipere
+<lb ed="#Bc"/>sive pati dependeat ad aliquid 
+corru<lb ed="#Bc" break="no"/>plibile, quod ipse sit incorruptibilis et
+<lb ed="#Bc"/>secundum esse et secundum agere et 
+se<lb ed="#Bc" break="no"/>cundum pati: in his enim naturam 
+se<lb ed="#Bc" break="no"/>quitur intelligentiae et non alicujus actus
+<lb ed="#Bc"/>naturalis vel corporalis. Et super hance
+<lb ed="#Bc"/>rationem omnes Philosophi sustentati
+<lb ed="#Bc"/>fuerunt : et ideo omnes concorditer, ut
+<lb ed="#Bc"/>dicit Alpharabius, radicem 
+immortalita<lb ed="#Bc" break="no"/>tis anime posuerunt in intellectu 
+ade<lb ed="#Bc" break="no"/>pto : quia ille nec secundum esse, nec
+<lb ed="#Bc"/>secundum operari, nec secundum pati
+<lb ed="#Bc"/>sive recipere, dependentiam habet ad
+<lb ed="#Bc"/>aliquid corporalium vel corruptibilium.
+</p>
+               <p xml:id="Almn78-h11431-d1e860">
+                  <lb ed="#Bc"/>Et si objicitur, quod Aristoteles dicit
+<lb ed="#Bc"/>in primo de Anima, quod qui dicit 
+ani<lb ed="#Bc" break="no"/>mam secundum se, hoc est, sine corpore
+<lb ed="#Bc"/>intelligere, idem est ac si dicat eam 
+te<lb ed="#Bc" break="no"/>xere.
+</p>
+               <p xml:id="Almn78-h11431-d1e873">
+                  <lb ed="#Bc"/>Dicendum, quod Aristoteles non dixit
+<lb ed="#Bc"/>hoc absolute, sed sub conditione, si nihil
+<lb ed="#Bc"/>est anime operum vel passionum 
+pro<lb ed="#Bc" break="no"/>prium. Sed nos ostendimus, quod tale
+<lb ed="#Bc"/>intelligere est proprium anime, et in
+<lb ed="#Bc"/>tali intelligere in nullo communicat 
+cor<lb ed="#Bc" break="no"/>pori, neque ut organo, neque ut materia
+<lb ed="#Bc"/>ex qua et in qua sit. Sed est aliud 
+intel<lb ed="#Bc" break="no"/>ligere, quod fit per reflexionem 
+intelle<lb ed="#Bc" break="no"/>ctus ad sensum, secundum quod dicil,
+<lb ed="#Bc"/>quod intellectus humanus conjunctus est
+<lb ed="#Bc"/>continuo et tempori, et de quo dicit 
+Dio<lb ed="#Bc" break="no"/>nysius, quod intellectus noster est 
+mate<lb ed="#Bc" break="no"/>rialis et phantasticus dum est in corpore.
+<lb ed="#Bc"/>Et hoc intelligere non perficitur nisi per
+<lb ed="#Bc"/>receptionem a corpore. Et de hoc verum
+<lb ed="#Bc"/>est quod dicit Philosophus, quod qui 
+di<lb ed="#Bc" break="no"/>cit animam secundum seipsam hoc 
+mo<lb ed="#Bc" break="no"/>do intelligere, idem est ac si dicat eam
+<lb ed="#Bc"/>texere per seipsam : quia sicut non texit
+<lb ed="#Bc"/>sine instrumentis corporeis, ita hoc mo
+<pb ed="#Bc" n="56"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>do non intelligi sine instrumentis 
+cor<lb ed="#Bc" break="no"/>poreis.
+</p>
+               <p xml:id="Almn78-h11431-d1e930">
+                  <lb ed="#Bc"/>Ex omnibus his sequitur de 
+necessi<lb ed="#Bc" break="no"/>tate, quod anima rationalis est 
+immor<lb ed="#Bc" break="no"/>talis et incorruptibilis, et quod causam
+<lb ed="#Bc"/>immortalitatis et incorruptibilitatis habet
+<lb ed="#Bc"/>a modo quo fit a causa efficiente, que
+<lb ed="#Bc"/>est Deus, et quod hoc quod est in cor
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>pore et non a corpore, in n-llo diminuit
+<lb ed="#Bc"/>sibi causam_incorruptibilitatis et 
+immor<lb ed="#Bc" break="no"/>talitatis : secundum se enim semper 
+se<lb ed="#Bc" break="no"/>parata est, licet ad tempus regendo 
+cor<lb ed="#Bc" break="no"/>pori a creatore sit accommodata : 
+pro<lb ed="#Bc" break="no"/>pter quod dicit Philosophus, quod anima
+<lb ed="#Bc"/>habet se ad corpus sicut nauta ad 
+na<lb ed="#Bc" break="no"/>vem,
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

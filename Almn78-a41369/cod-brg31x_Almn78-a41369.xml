@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="639"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a41369"><!-- p1t16prae -->
+            <head xml:id="Almn78-a41369-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a41369-d1e109">
+               <pb ed="#Ba" n="639"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS XVI.
+<lb ed="#Ba"/>DE PRAXDESTINATIONE,
+<lb ed="#Ba"/>DILECTIONE, ET 
+ELE<lb ed="#Ba" break="no"/>CTIONE, ET REPROBATIONE.
+</p>
+            <p xml:id="Almn78-a41369-d1e125">
+               <lb ed="#Ba"/>Deinde transeundum est ad querendum de his de quibus Magister in 
+li<lb ed="#Ba" break="no"/>bro primo Senfentiarum tractat, distinct. XL, hoc est, de prasdestinatione,
+<lb ed="#Ba"/>dilectione, et electione, et distinct. XLI, de reprobatione. Omnis enim 
+pra<lb ed="#Ba" break="no"/>destinatus et electus et dilectus est, sicul Magister ibidem determinat.
+<lb ed="#Ba"/>Ut autem facilius intelligantur que queeruntur, tria queremus, scilicet
+<lb ed="#Ba"/>primo quid sit ?
+<lb ed="#Ba"/>Secundo, Cujus sit ?
+<lb ed="#Ba"/>Et tertio, Si causa sit ejus cujus sit ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

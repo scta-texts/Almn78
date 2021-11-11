@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 123</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 123</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="406"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h90610"><!-- p2t19q123 -->
+            <head xml:id="Almn78-h90610-Hd1e106">Quaestio 123</head>
+            <head xml:id="Almn78-h90610-Hd1e109" type="question-title">
+    De omissione, negligentia, et ignorantia
+  </head>
+            <p xml:id="Almn78-h90610-d1e112">
+               <pb ed="#Bc" n="406"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUAESTIO CXXIII
+<lb ed="#Bc"/>De omissione, negligentia, et ignorantia.
+</p>
+            <div xml:id="Almn78-h90610-Dd1e123">
+               <head xml:id="Almn78-h90610-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-h90610-Hd1e128" type="question-title">
+        Quid sit omissio sive delictum
+      </head>
+               <p xml:id="Almn78-h90610-d1e131">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM I
+<lb ed="#Bc"/>Quid sit omissio sive delictum ?
+</p>
+               <p xml:id="Almn78-h90610-d1e140">
+                  <lb ed="#Bc"/>Quaeritur ergo primo, Quid sit 
+omis<lb ed="#Bc" break="no"/>sio sive delictum ?
+</p>
+               <p xml:id="Almn78-h90610-d1e147">
+                  <lb ed="#Bc"/>Videtur enim omissio sive delictum
+<lb ed="#Bc"/>esse in omni peccato mortali : quia
+</p>
+               <p xml:id="Almn78-h90610-d1e155">
+                  <lb ed="#Bc"/>1. In omni peccato mortali 
+derelinqui<lb ed="#Bc" break="no"/>tur summum bonum, Unde Augustinus
+<lb ed="#Bc"/>in libro de Natura boni : <quote xml:id="Almn78-h90610-Qd1e163"> Peccatum
+<lb ed="#Bc"/>non est appetitio rerum malarum (quia
+<lb ed="#Bc"/>nulla res per se mala: quia bonum et
+<lb ed="#Bc"/>ens convertuntur : unde quod est, 
+bo<lb ed="#Bc" break="no"/>num est) sed desertio est meliorum.
+<lb ed="#Bc"/>Deseritur enim bonum 
+incommuta<lb ed="#Bc" break="no"/>bile '. </quote>Videtur igitur, quod omne 
+pecca<lb ed="#Bc" break="no"/>tum sit delictum sive omissum.
+</p>
+               <p xml:id="Almn78-h90610-d1e182">
+                  <lb ed="#Bc"/>2. Adhuc, Isa. 1, 4, generaliter dicitur
+<lb ed="#Bc"/>de peccatoribus : Dereliguerunt 
+Domi<lb ed="#Bc" break="no"/>num, blasphemaverunt sanctum Israel,
+<lb ed="#Bc"/>abalienati sunt retrorsum, Et Jerem. 1,
+<lb ed="#Bc"/>13: Duo mala fecit populus meus : me
+<lb ed="#Bc"/>dereliquerunt fontem aque vive, et 
+fode<lb ed="#Bc" break="no"/>runt sibi cisternas, cisternas dissipatas,
+<lb ed="#Bc"/>que continere non valent aquas. Ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod omissum non separatur a
+<lb ed="#Bc"/>commisso, sed in uno et eodem illa 
+pec<lb ed="#Bc" break="no"/>cata sunt.
+</p>
+               <p xml:id="Almn78-h90610-d1e208">
+                  <lb ed="#Bc"/>3. Adhuc, Qui relinquit quod facere
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>debet et tenetur, hoc non videtur fierj
+<lb ed="#Bc"/>nisi circa aliud occupetur ad quod non
+<lb ed="#Bc"/>tenetur, sicut qui derelinquit castitatem
+<lb ed="#Bc"/>et fornicatur, ex hoc scilicet derelinquit
+<lb ed="#Bc"/>castitatem, quia circa delectabilia 
+forni<lb ed="#Bc" break="no"/>cationis occupatur. Et ideo videtur, quod
+<lb ed="#Bc"/>in eodem sit delictum et commissum,
+<lb ed="#Bc"/>et haec duo perficiant unum 
+pecca<lb ed="#Bc" break="no"/>tum,
+</p>
+               <p xml:id="Almn78-h90610-d1e234">
+                  <lb ed="#Bc"/>4, Adhuc, Augustinus in libro de
+<lb ed="#Bc"/>Perfectione justitie : <quote xml:id="Almn78-h90610-Qd1e240"> Duobus modis,
+<lb ed="#Bc"/>ni fallor, constat omne peccatum : si aut
+<lb ed="#Bc"/>fiant que prohibentur, aut illa non fiant
+<lb ed="#Bc"/>que jubentur. [In omni peccato mortali
+<lb ed="#Bc"/>fit quod prohibetur, et non fit quod
+<lb ed="#Bc"/>jubetur. </quote> Ergo videtur, quod commis- 
+<lb ed="#Bc" break="no"/>sum et omissum sint in omni peccato 
+<lb ed="#Bc" break="no"/>mortali, nec ex opposito dividant 
+pec<lb ed="#Bc" break="no"/>cata,
+</p>
+               <p xml:id="Almn78-h90610-d1e261">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Due sunt partes justitie : declinare a
+<lb ed="#Bc"/>malo, et facere bonum. Ergo per 
+oppo<lb ed="#Bc" break="no"/>sium etiam erunt due partes injustitie,
+<lb ed="#Bc"/>scilicet declinare a bono, et facere 
+ma<lb ed="#Bc" break="no"/>lum, que ex opposito dividant omnem
+<lb ed="#Bc"/>injustitiam, id est, omne peccatum. Ergo |
+<lb ed="#Bc"/>videtur, quod commissum et omissum.
+<lb ed="#Bc"/>non sint in omni peccato, sed diverse .
+<lb ed="#Bc"/>species peccatorum.
+</p>
+               <p xml:id="Almn78-h90610-d1e285">
+                  <lb ed="#Bc"/>Quop si concedatur : tunc queritur, .
+<lb ed="#Bc"/>quod istorum sit majus peccatum ?
+</p>
+               <p xml:id="Almn78-h90610-d1e293">
+                  <lb ed="#Bc"/>Et videtur, quod equale.
+<lb ed="#Bc"/>Levitic. vn, 7: Sicut pro peccato 
+of<lb ed="#Bc" break="no"/>fertur hostia, ita et pro delicto utriusque
+<pb ed="#Bc" n="407"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>hostie lex una erit. Si ergo una expiatio
+<lb ed="#Bc"/>est per hostiam utriusque, videtur quod
+<lb ed="#Bc"/>equalis sit utriusque et delicti et 
+com<lb ed="#Bc" break="no"/>missi.
+</p>
+               <p xml:id="Almn78-h90610-d1e315">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>In parte justitia (que est facere 
+bo<lb ed="#Bc" break="no"/>num et declinare a malo) multo majus
+<lb ed="#Bc"/>est facere bonum, quam declinare a 
+ma<lb ed="#Bc" break="no"/>lo: quia declinare a malo non liberat
+<lb ed="#Bc"/>nisi a poena, facere bonum confert 
+pra<lb ed="#Bc" break="no"/>mium : ergo in parte injustitiae multo
+<lb ed="#Bc"/>majus est facere malum, quam omittere
+<lb ed="#Bc"/>bonum: et ita majoris reatus est 
+commis<lb ed="#Bc" break="no"/>sum quam delictum.
+</p>
+               <p xml:id="Almn78-h90610-d1e339">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod delietum in
+<lb ed="#Bc"/>sacra Scriptura a Sanctis tripliciter 
+acci<lb ed="#Bc" break="no"/>pitur,
+</p>
+               <p xml:id="Almn78-h90610-d1e348">
+                  <lb ed="#Bc"/>Super illud Psalmi xvim, 13 et 14:
+<lb ed="#Bc"/>Delicta quis intelligit ? Ab occultis meis
+<lb ed="#Bc"/>munda me, et ab alienis parce servo tuo:
+<lb ed="#Bc"/>dicit Glossa, quod <quote xml:id="Almn78-h90610-Qd1e358"> delicta sunt propria
+<lb ed="#Bc"/>et occulta : commissa autem que in
+<lb ed="#Bc"/>Deum et proximum committuntur. </quote> Et
+<lb ed="#Bc"/>sic occullum peccatum delictum dicitur,
+<lb ed="#Bc"/>et est minoris ponderis quam 
+commis<lb ed="#Bc" break="no"/>sum, quod est manifestum.
+</p>
+               <p xml:id="Almn78-h90610-d1e373">
+                  <lb ed="#Bc"/>Aliquando dicitur dedictum 
+communi<lb ed="#Bc" break="no"/>ter, et aliquando stricte. Communiter
+<lb ed="#Bc"/>quando derelinquitur Deus sive 
+sum<lb ed="#Bc" break="no"/>mum bonum, sicut est in omni peccato
+<lb ed="#Bc"/>mortali. <quote xml:id="Almn78-h90610-Qd1e386"> In omni enim peccato mortali,
+<lb ed="#Bc"/>ut dicit Augustinus in libro de Doctrina
+<lb ed="#Bc"/>Christiana, derelinquitur summum 
+bo<lb ed="#Bc" break="no"/>num, et fit conversio ad bonum 
+commu<lb ed="#Bc" break="no"/>tabile contra preceptum divinum. </quote>
+                  <lb ed="#Bc"/>Stricte dicitur, quando coarctata 
+signifi<lb ed="#Bc" break="no"/>catione arctatur ad actum pracepti 
+affir<lb ed="#Bc" break="no"/>mativi, quod fiat et non fit, ut dare
+<lb ed="#Bc"/>eleemosynam indigenti, quod non fit :
+<lb ed="#Bc"/>honorare parentes, quod non fit, et sic
+<lb ed="#Bc"/>de aliis : quia delictum est contra 
+prae<lb ed="#Bc" break="no"/>ceptum affirmativum secundum 
+Augusti<lb ed="#Bc" break="no"/>num.
+</p>
+               <p xml:id="Almn78-h90610-d1e415">
+                  <lb ed="#Bc"/>Commissum autem est contra 
+prace<lb ed="#Bc" break="no"/>ptum negativum. Et sic commissum et
+<lb ed="#Bc"/>delictum duo sunt peccata divisa, que
+<lb ed="#Bc"/>dividunt omne peccatum in delictum et
+<lb ed="#Bc"/>commissum, sicut et precepta dividun
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tur in affirmativa et negativa. Et contra
+<lb ed="#Bc"/>affirmativa est delictum, et contra 
+nega<lb ed="#Bc" break="no"/>tiva commissum.
+</p>
+               <p xml:id="Almn78-h90610-d1e438">
+                  <lb ed="#Bc"/>Et sic patet solutio ad primam partem
+<lb ed="#Bc"/>questionis : quia auctoritates primo 
+in<lb ed="#Bc" break="no"/>ducte intelliguntur de delicto stricte
+<lb ed="#Bc"/>accepto.
+</p>
+               <p xml:id="Almn78-h90610-d1e449">
+                  <lb ed="#Bc"/>Ad aliud quod queritur, Quod 
+isto<lb ed="#Bc" break="no"/>rum sit majoris reatus ?
+</p>
+               <p xml:id="Almn78-h90610-d1e456">
+                  <lb ed="#Bc"/>Dicendum, quod pro certo 
+commis<lb ed="#Bc" break="no"/>sum majoris reatus sit quam delictum
+<lb ed="#Bc"/>secundum se.
+</p>
+               <p xml:id="Almn78-h90610-d1e465">
+                  <lb ed="#Bc"/>Ad hoc autem quod objicitur, quod
+<lb ed="#Bc"/>eadem est expiatio utriusque, dicendum
+<lb ed="#Bc"/>quod eadem est in communi, sed in 
+spe<lb ed="#Bc" break="no"/>ciali nullo modo.
+</p>
+               <p xml:id="Almn78-h90610-d1e476">
+                  <lb ed="#Bc"/>Quod vero in contrarium objicitur,
+<lb ed="#Bc"/>procedit.
+</p>
+            </div>
+            <div xml:id="Almn78-h90610-Dd1e484">
+               <head xml:id="Almn78-h90610-Hd1e486">Membrum 2</head>
+               <head xml:id="Almn78-h90610-Hd1e489" type="question-title">
+        Quid sit negligentia? et, Utrum sil
+        indifferens peccatum, vel veniale, vel
+        mortale
+      </head>
+               <p xml:id="Almn78-h90610-d1e492">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quid sit negligentia? et, Utrum sil
+<lb ed="#Bc"/>indifferens peccatum, vel veniale, vel
+<lb ed="#Bc"/>mortale ?
+</p>
+               <p xml:id="Almn78-h90610-d1e503">
+                  <lb ed="#Bc"/>Secundo queritur, Quid sit 
+negligen<lb ed="#Bc" break="no"/>tia ?
+</p>
+               <p xml:id="Almn78-h90610-d1e510">
+                  <lb ed="#Bc"/>Et videtur, quod non sit vitium per
+<lb ed="#Bc"/>suum oppositum : quia
+</p>
+               <p xml:id="Almn78-h90610-d1e518">
+                  <lb ed="#Bc"/>1. Si ipsum est vitium, oppositum
+<lb ed="#Bc"/>suum quod est diligentia, esset virtus :
+<lb ed="#Bc"/>et hoc non est verum, sed est dispositio
+<lb ed="#Bc"/>concomitans omnem actum virtutis : 
+er<lb ed="#Bc" break="no"/>go negligentia non est vitium, sed 
+dispo<lb ed="#Bc" break="no"/>sitio concomitans actus peccatorum.
+</p>
+               <p xml:id="Almn78-h90610-d1e534">
+                  <lb ed="#Bc"/>2. Adhuc, Dicit Philosophus in I £
+thi<lb ed="#Bc" break="no"/>corum, quod proheresis est habitus
+<lb ed="#Bc"/>electivus rectam faciens electionem.
+<lb ed="#Bc"/>Huic autem opponitur negligentia,
+<lb ed="#Bc"/>quando aliquis non recte eligit, nec est
+<lb ed="#Bc"/>diligens circa electionem. Proheresis
+<lb ed="#Bc"/>vero est dispositio circa actum recte
+<lb ed="#Bc"/>electionis. Ergo negligentia est 
+dispo<lb ed="#Bc" break="no"/>sitio mala circa actum peccatorum in
+<pb ed="#Bc" n="408"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>eligendo male, sive omissionis recte
+<lb ed="#Bc"/>electionis : et sic videtur, quod non sit in
+<lb ed="#Bc"/>genere vitii, sed dispositio tantum.
+</p>
+               <p xml:id="Almn78-h90610-d1e567">
+                  <lb ed="#Bc"/>ConTRA
+<lb ed="#Bc"/>1. Jerem. xiv, 10 Maledicius
+<lb ed="#Bc"/>gui facit opus Domini fraudulenter,
+<lb ed="#Bc"/>et maledictus qui prohibet gladium
+<lb ed="#Bc"/>suum a sanguine, Yn hac sacra Scriptura
+<lb ed="#Bc"/>non interminatur malediclio nisi propter
+<lb ed="#Bc"/>peccatum mortale, quod est actus vitii.
+<lb ed="#Bc"/>Ergo videtur, quod negligentia sit actus
+<lb ed="#Bc"/>vitii et peccatum.
+</p>
+               <p xml:id="Almn78-h90610-d1e589">
+                  <lb ed="#Bc"/>2. Adhuc, Malach. 1, 14, super illud :
+<lb ed="#Bc"/>Maledictus dolosus, qui habet in grege
+<lb ed="#Bc"/>suo masculum, et votum faciens, 
+immo<lb ed="#Bc" break="no"/>lat debile Domino. Hieronymus : <quote xml:id="Almn78-h90610-Qd1e599"> Qui
+<lb ed="#Bc"/>claudam et quasi sorde maculatam offert
+<lb ed="#Bc"/>hostiam, reus est sacrilegii - quanto 
+ma<lb ed="#Bc" break="no"/>gis qui partem sui corporis et illibate
+<lb ed="#Bc"/>anime puritatem amplexibus summi 
+re<lb ed="#Bc" break="no"/>gis non parat, punietur, si negligens 
+fue<lb ed="#Bc" break="no"/>rit. </quote> Sed non punitur nisi peccatum.
+<lb ed="#Bc"/>Ergo negligentia est peccatum et actus
+<lb ed="#Bc"/>vitii alicujus.
+</p>
+               <p xml:id="Almn78-h90610-d1e621">
+                  <lb ed="#Bc"/>Usvertus queritur, Utrum indifferens
+<lb ed="#Bc"/>sit, vel veniale, vel mortale peccatum ?
+</p>
+               <p xml:id="Almn78-h90610-d1e628">
+                  <lb ed="#Bc"/>Et videtur, quod indifferens sit.
+<lb ed="#Bc"/>Proverb. xn, 4: Muler diligens 
+co<lb ed="#Bc" break="no"/>rona est viro suo. Et constat, quod 
+lo<lb ed="#Bc" break="no"/>quitur de diligentia domus, de qua 
+dici<lb ed="#Bc" break="no"/>tur, Proverb. xxx1, 27 Consideravit
+<lb ed="#Bc"/>semitas domus sue, et panem otiosa non
+<lb ed="#Bc"/>comedit. Constat, quod illa diligentia cui
+<lb ed="#Bc"/>opponitur negligentia, non sit actus 
+me<lb ed="#Bc" break="no"/>ritorius virtutis, cum sit circa 
+tempora<lb ed="#Bc" break="no"/>lem custodiam, Ergo opposita 
+negligen<lb ed="#Bc" break="no"/>tia non est actus vitii demeritorii. Et sic
+<lb ed="#Bc"/>videtur, quod sit indifferens secundum
+<lb ed="#Bc"/>Theologum, licet apud civilem aliquid
+<lb ed="#Bc"/>habet reprehensionis.
+</p>
+               <p xml:id="Almn78-h90610-d1e662">
+                  <lb ed="#Bc"/>Contra videtur,quod sit veniale. Eccli.
+<lb ed="#Bc"/>vu, 34: De negligentiatua purga te cum
+<lb ed="#Bc"/>paucis.In lege sacrificia ordinata sunt 
+ma<lb ed="#Bc" break="no"/>gna et multa contra mortalia peccata,
+<lb ed="#Bc"/>pauca et parva contra venialia. Si ergo
+<lb ed="#Bc"/>de negligentia expurgatur homo cum
+<lb ed="#Bc"/>paucis, negligentia erit veniale peccatum,
+<lb ed="#Bc"/>et non indifferens neque mortale,
+</p>
+               <p xml:id="Almn78-h90610-d1e682">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Sed contra hoc videntur esse 
+aucto<lb ed="#Bc" break="no"/>ritates Jeremie et Malachie supra 
+in<lb ed="#Bc" break="no"/>ducte, ex quibus expresse videtur 
+con<lb ed="#Bc" break="no"/>cludi, quod sit mortale peccatum.
+</p>
+               <p xml:id="Almn78-h90610-d1e695">
+                  <lb ed="#Bc"/>Solutio. Attendenda est auctoritas
+<lb ed="#Bc"/>Augustini super illud Jacobi, m, 2: Si
+<lb ed="#Bc"/>quis in verbo non offendit, hic per fectus
+<lb ed="#Bc"/>est vir. Hoc tractans in libro de Natura
+<lb ed="#Bc"/>et gratia sic dicit : <quote xml:id="Almn78-h90610-Qd1e708"> Non hoc dicit
+<lb ed="#Bc"/>Apostolus Jacobus ideo, ut in nos mali
+<lb ed="#Bc"/>dominationem per negligentiam 
+perma<lb ed="#Bc" break="no"/>nere patiamur, sed ut ad domandam 
+lin<lb ed="#Bc" break="no"/>guam divine gratie poscamus 
+auxi<lb ed="#Bc" break="no"/>lium: ut quod nos nostris viribus non
+<lb ed="#Bc"/>valemus, adjutorio Dei suppleamus. </quote>
+                  <lb ed="#Bc"/>Secundum hoc ergo dicendum est, quod
+<lb ed="#Bc"/>negligentia proprie dicit privationem 
+di<lb ed="#Bc" break="no"/>ligentie et eligentie  circumstantie
+<lb ed="#Bc"/>actuum nostrorum, scilicet quando, ubi
+<lb ed="#Bc"/>et quomodo oportet facere actus nostros.
+<lb ed="#Bc"/>Et secundum hunec modum non est 
+vi<lb ed="#Bc" break="no"/>tium, sicut nec diligentia virtus.
+</p>
+               <p xml:id="Almn78-h90610-d1e740">
+                  <lb ed="#Bc"/>Et secundum hoc patet solutio ad duo
+<lb ed="#Bc"/>prima : quia sic procedunt.
+</p>
+               <p xml:id="Almn78-h90610-d1e747">
+                  <lb ed="#Bc"/>Ad id quod objicitur de Jeremia et
+<lb ed="#Bc"/>Malachia, dicendum quod pro certo 
+ali<lb ed="#Bc" break="no"/>quando est veniale, et aliquando est
+<lb ed="#Bc"/>mortale, etiam aliquando indifferens, 
+sic<lb ed="#Bc" break="no"/>ut et otiosum. Quando enim est circa
+<lb ed="#Bc"/>verba communia in quotidianis 
+locutio<lb ed="#Bc" break="no"/>nibus et indifferentibus, indifferens est,
+<lb ed="#Bc"/>sicut dicitur in VIII Ethicorum, quod
+<lb ed="#Bc"/>amici convenientes in collocutionibus
+<lb ed="#Bc"/>talibus conterunt totos dies. Et difficile
+<lb ed="#Bc"/>esset dicere, quod peccarent mortaliter
+<lb ed="#Bc"/>in talibus, vel venialiter: quia de 
+indif<lb ed="#Bc" break="no"/>ferentibus sunt collocutiones amicorum.
+<lb ed="#Bc"/>Et talis negligentia non privat nisi 
+ratio<lb ed="#Bc" break="no"/>nem considerationis theorice sive 
+intel<lb ed="#Bc" break="no"/>lectus theorici, non considerans quid, et
+<lb ed="#Bc"/>quando, et ubiloquendum sit. Veniale
+<lb ed="#Bc"/>autem peccatum est, quando est circa
+<lb ed="#Bc"/>actus venialium, sicut in cibo, et potu,
+<lb ed="#Bc"/>et aliis hujusmodi, in quibus homo 
+dele<lb ed="#Bc" break="no"/>ctatur citra Deum. Quia difficile esset
+<lb ed="#Bc"/>dicere, quod ipsi actus essent peccata 
+ve<lb ed="#Bc" break="no"/>nialia, et inconsideratio sive negligentia
+<lb ed="#Bc"/>circa ipsos est mortale peccatum, Mor
+<pb ed="#Bc" n="409"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tale vero peccatum est, quando 
+negligi<lb ed="#Bc" break="no"/>tur circumstantia loci vel temporis 
+ca<lb ed="#Bc" break="no"/>dens in precepto, sicut quando aliquis
+<lb ed="#Bc"/>negligit dare eleemosynam quando debet,
+<lb ed="#Bc"/>et ubi debet, et cui debet, hoc est, 
+tem<lb ed="#Bc" break="no"/>pore necessitatis : quia tunc perimit 
+cha<lb ed="#Bc" break="no"/>ritatem. I Joan. m1, 17: Qui habuerit 
+sub<lb ed="#Bc" break="no"/>stantiam hujus mundi, et viderit fratrem
+<lb ed="#Bc"/>suum necessitatem habere, et clauserit
+<lb ed="#Bc"/>viscera sua ab eo, quomodo charitas Dei
+<lb ed="#Bc"/>manet in eo? Tunc enim est mortale
+<lb ed="#Bc"/>peccatum. Proverb. xxv, 21: Si 
+esurie<lb ed="#Bc" break="no"/>rit intimicus tuus, ciba illum : si sitierit,
+<lb ed="#Bc"/>da et aquam bibere. Unde alibi dicitur :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h90610-Qd1e838"> Pasce fame morientem: si non paveris,
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>occidisti. </quote> Et per hoc patet solutio ad
+<lb ed="#Bc"/>totum.
+</p>
+            </div>
+            <div xml:id="Almn78-h90610-Dd1e850">
+               <head xml:id="Almn78-h90610-Hd1e852">Membrum 3</head>
+               <head xml:id="Almn78-h90610-Hd1e855" type="question-title">
+        Quid sit ignorantia
+      </head>
+               <p xml:id="Almn78-h90610-d1e858">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>
+                  <sic>Qid</sic> sit ignorantia ?
+</p>
+               <p xml:id="Almn78-h90610-d1e868">
+                  <lb ed="#Bc"/>Quon hic posset queri de ignorantia,
+<lb ed="#Bc"/>expeditum est supra, quastione de 
+pec<lb ed="#Bc" break="no"/>cato Adex, quando scilicet sit peccatum,
+<lb ed="#Bc"/>et quando excuset, et quando non 
+excu<lb ed="#Bc" break="no"/>set, et quot sint species ejus '.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

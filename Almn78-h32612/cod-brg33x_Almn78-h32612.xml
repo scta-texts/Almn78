@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 87</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 87</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="147"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h32612"><!-- p2t14q87 -->
+            <head xml:id="Almn78-h32612-Hd1e106">Quaestio 87</head>
+            <head xml:id="Almn78-h32612-Hd1e109" type="question-title">
+    De origine peccati primorum parentum
+  </head>
+            <p xml:id="Almn78-h32612-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAESTIO LXXXVII
+<lb ed="#Bc"/>De origine peccati primorum parentum.
+</p>
+            <p xml:id="Almn78-h32612-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde transeundum est ad ea qua 
+di<lb ed="#Bc" break="no"/>cuntur in libro II Sententiarum, distinct.
+<lb ed="#Bc"/>XXII, que incipit, ibi, Hic videtur 
+dili<lb ed="#Bc" break="no"/>genter investigandum esse, que fuerit
+<lb ed="#Bc"/>origo illius peccati.
+</p>
+            <p xml:id="Almn78-h32612-d1e137">
+               <lb ed="#Bc"/>Ubi queruntur quinque, scilicet quare
+<lb ed="#Bc"/>permisit Deus hominem tentari cum
+<lb ed="#Bc"/>sciret eum casurum ?
+<lb ed="#Bc"/>Secundo, Que fuerit origo peccati?
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Tertio, Quis plus peccaverit, Adam an
+<lb ed="#Bc"/>
+               <name xml:id="Almn78-h32612-Nd1e154">Heva</name>?
+<lb ed="#Bc"/>Quarto, Si Adam et Heva in primo
+<lb ed="#Bc"/>statu fuerint deceptibiles, an non?
+<lb ed="#Bc"/>Quinto, Si peccatum primorum 
+paren<lb ed="#Bc" break="no"/>tum fuerit remediabile, cum peccatum
+<lb ed="#Bc"/>Angeli fuerit irremediabile ?
+</p>
+            <div xml:id="Almn78-h32612-Dd1e170">
+               <head xml:id="Almn78-h32612-Hd1e172">Membrum 1</head>
+               <head xml:id="Almn78-h32612-Hd1e175" type="question-title">
+        Quare permiserit Deus hominem tentari,
+        cum sciret eum casurum, et ex 
+        tentatione multa mala proventura
+      </head>
+               <p xml:id="Almn78-h32612-d1e178">
+                  <pb ed="#Bc" n="148"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quare permiserit Deus hominem tentari,
+<lb ed="#Bc"/>cum sciret eum casurum, et ex 
+tenta<lb ed="#Bc" break="no"/>tione multa mala proventura ?
+</p>
+               <p xml:id="Almn78-h32612-d1e194">
+                  <lb ed="#Bc"/>Primo ergo queritur, Quare permisit
+<lb ed="#Bc"/>Deus hominem tentari, qui scivit eum
+<lb ed="#Bc"/>casurum, et ex tentatione multa mala
+<lb ed="#Bc"/>proventura ? .
+</p>
+               <p xml:id="Almn78-h32612-d1e205">
+                  <lb ed="#Bc"/>Hanc enim questionem movet 
+Magi<lb ed="#Bc" break="no"/>ster in libro II Sententiarum, distinct.
+<lb ed="#Bc"/>XXII, cap. Porro sciendum est.
+</p>
+               <p xml:id="Almn78-h32612-d1e215">
+                  <lb ed="#Bc"/>Queritur ergo Quare Deus permisit
+<lb ed="#Bc"/>eum tentari?
+</p>
+               <p xml:id="Almn78-h32612-d1e222">
+                  <lb ed="#Bc"/>Et videtur, quod non debuit 
+permit<lb ed="#Bc" break="no"/>tere.
+<lb ed="#Bc"/>1. Tentatio enim est ad acceptionem
+<lb ed="#Bc"/>experimenti : Deus autem non indiget
+<lb ed="#Bc"/>experimento, quia omnia prescit : ergo
+<lb ed="#Bc"/>videtur, quod permittere hominem 
+ten<lb ed="#Bc" break="no"/>tari non debuit.
+</p>
+               <p xml:id="Almn78-h32612-d1e240">
+                  <lb ed="#Bc"/>2. Ad hoc respondet Augustinus in
+<lb ed="#Bc"/>libro X] super Genesim ad litteram, sic
+<lb ed="#Bc"/>dicens : <quote xml:id="Almn78-h32612-Qd1e248"> Melius creare fuit -hominem
+<lb ed="#Bc"/>qui posset consentire tentationi, quam
+<lb ed="#Bc"/>qui non posset tentari: ex hoc enim 
+exer<lb ed="#Bc" break="no"/>celur virtus, et est palma gloriosior non
+<lb ed="#Bc"/>consensisse tentalioni, quam non posse
+<lb ed="#Bc"/>tentari'. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e262">
+                  <lb ed="#Bc"/>3. Ad hoc autem quod dicitur, quod
+<lb ed="#Bc"/>futurum erat magnum malum. 
+Respon<lb ed="#Bc" break="no"/>det Augustinus sic : <quote xml:id="Almn78-h32612-Qd1e270"> Licet magnum
+<lb ed="#Bc"/>malum futurum essct, non tamen hoc
+<lb ed="#Bc"/>fuit per opus Dei, sed per opus hominis.
+<lb ed="#Bc"/>Quod autem facturus erat}homo propria
+<lb ed="#Bc"/>voluntate per culpam, Deus ordinavit
+<lb ed="#Bc"/>equitate per peenam, et ut aliis esset ad
+<lb ed="#Bc"/>cautelam. </quote> Videtur hec causa non esse
+<lb ed="#Bc"/>sufficiens : quia aliter et melius poterat
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>cavere. Si enim fecisset eum in anima
+<lb ed="#Bc"/>sicut in corpore, ut scilicet sicut in
+<lb ed="#Bc"/>corpore incommoda sentire non potuit,
+<lb ed="#Bc"/>ut dicit Isidorus, quem nec spina 
+pun<lb ed="#Bc" break="no"/>geret, nec ignis ureret, nec aqua 
+mer<lb ed="#Bc" break="no"/>geret, nec gladius scinderet : ita fecisset
+<lb ed="#Bc"/>eum in anima, quod contra veritatem 
+ni<lb ed="#Bc" break="no"/>hil posset admiltere : tune cautum 
+fuis<lb ed="#Bc" break="no"/>set omnibus, et fuisset nobilior status
+<lb ed="#Bc"/>primorum parentum.
+</p>
+               <p xml:id="Almn78-h32612-d1e313">
+                  <lb ed="#Bc"/>Ulterius querilur :
+<lb ed="#Bc"/>1. De verbo Augustini qui dicit, quod
+<lb ed="#Bc"/>quia mulier intelligebat verba serpentis
+<lb ed="#Bc"/>et non serpens, et diabolus intelligebat
+<lb ed="#Bc"/>ea, oportuit quod diabolus tentaret 
+He<lb ed="#Bc" break="no"/>vam, et non serpens : et quia vir 
+intel<lb ed="#Bc" break="no"/>lexit mulierem, mulier, et non serpens,
+<lb ed="#Bc"/>nec diabolus, tentavit virum. Hoc enim
+<lb ed="#Bc"/>videtur non esse verum : mulier enim
+<lb ed="#Bc"/>dixit ad Deum in excusatione peccati ;
+<lb ed="#Bc"/>Serpens decepit me* : et ita videtur, quod
+<lb ed="#Bc"/>serpens deceperit, non diabolus.
+</p>
+               <p xml:id="Almn78-h32612-d1e342">
+                  <lb ed="#Bc"/>2. Adhuc, Serpens punitus est et 
+ma<lb ed="#Bc" break="no"/>ledictus inter omnia animantia terre, —
+<lb ed="#Bc"/>cum Deus dixit : Super pectus tuum 
+gra<lb ed="#Bc" break="no"/>dierts, et terram comedes omnibus diebus
+<lb ed="#Bc"/>vite tue. Inimicitias ponam inter te et
+<lb ed="#Bc"/>mulierem, et semen tuum et semenillius :
+<lb ed="#Bc"/>ipsa conteret caput tuum, et tu 
+insi<lb ed="#Bc" break="no"/>diaberis caleaneo ejus*. Et injustum
+<lb ed="#Bc"/>esset, quod serpens esset punitus, nisi
+<lb ed="#Bc"/>peccasset tentando : ergo videtur, quod.
+<lb ed="#Bc"/>serpeus tentavit eam, et non 
+diabo<lb ed="#Bc" break="no"/>lus,
+</p>
+               <p xml:id="Almn78-h32612-d1e372">
+                  <lb ed="#Bc"/>3. Adhuc, If ad Corinth. x1, 3: Timeo,
+<lb ed="#Bc"/>ne sicut serpens Hevam seduxit astutia
+<lb ed="#Bc"/>sua, ita corrumpantur sensus vesiri, et
+<lb ed="#Bc"/>excidant asimplicitate que est in Christo,
+<lb ed="#Bc"/>Ergo videtur, quod serpens seduxit 
+He<lb ed="#Bc" break="no"/>vam, quod est contra verbum Augustini.
+</p>
+               <p xml:id="Almn78-h32612-d1e388">
+                  <lb ed="#Bc"/>4. Adhuc, Cum vir fuit fortior ad 
+re<lb ed="#Bc" break="no"/>sislendum, si astutissimus fuit serpens,
+<lb ed="#Bc"/>sicut dicit Scriptura‘, potius debuit 
+dia<lb ed="#Bc" break="no"/>bolus ipse et per seipsum tentare virum,
+<pb ed="#Bc" n="149"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>quam per mulierem : quia scivit, quod
+<lb ed="#Bc"/>mulier faciliter inclinabilis esset ad 
+vi<lb ed="#Bc" break="no"/>rum cui data fuit in adjutorium.
+</p>
+               <p xml:id="Almn78-h32612-d1e410">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod ex justitia
+<lb ed="#Bc"/>ordinis nature fuit, quod homo talis
+<lb ed="#Bc"/>fieret, qui tentari posset. Et hoc est quod
+<lb ed="#Bc"/>dicitur, Eccli. xvu, 1, ubi dicitur : Deus
+<lb ed="#Bc"/>creavit de terra hominem, et secundum
+<lb ed="#Bc"/>imaginem suam fecit illum. Ft param
+<lb ed="#Bc"/>infra, ¥¥. 5 et seq. : Et cor dedit illis
+<lb ed="#Bc"/>excogitandi, et disciplina intellectus 
+re<lb ed="#Bc" break="no"/>plevit illos. Creavit illis scientiam 
+spiri<lb ed="#Bc" break="no"/>tus, sensu implevit cor illorum, et mala
+<lb ed="#Bc"/>et bona ostendit illis. Posuit oculum
+<lb ed="#Bc"/>suum super cordaillorum, ostendere illis
+<lb ed="#Bc"/>magnalia operum suorum. Unde cum
+<lb ed="#Bc"/>hominem fecisset in imaginatione 
+crea<lb ed="#Bc" break="no"/>tionis, que est ratio, ut dicit Glossa 
+su<lb ed="#Bc" break="no"/>per illud Psalmi iv, 7: Signatum est 
+su<lb ed="#Bc" break="no"/>per nos lumen vultus tui, Domine : tune
+<lb ed="#Bc"/>fecit hominem inquisitivum de vero et
+<lb ed="#Bc"/>falso, et de bono et malo : et cum omnis
+<lb ed="#Bc"/>inquisitivus sit tentativus, ut vult 
+Aristo<lb ed="#Bc" break="no"/>teles, et ideo tentari posset circa verum
+<lb ed="#Bc"/>et falsum, bonum et malum : de ratione
+<lb ed="#Bc"/>ordinis naturalis est, ut talis factus sit,
+<lb ed="#Bc"/>qui tentari possit. Dicit autem Plato in
+<lb ed="#Bc"/>Timzo, quod creator cum optimus sit,
+<lb ed="#Bc"/>nulli negavit commoda ad beatitudinem
+<lb ed="#Bc"/>secundum naturam. Et cum exercitium
+<lb ed="#Bc"/>virtutis in tentatione ad gloriam faciat
+<lb ed="#Bc"/>beatitudinis, congruum fuit ut 
+permitte<lb ed="#Bc" break="no"/>ret tentari hominem : quia sine 
+tenta<lb ed="#Bc" break="no"/>tione non esset satis gloriosa virtus ejus,
+<lb ed="#Bc"/>nec perfecta felicitas.
+</p>
+               <p xml:id="Almn78-h32612-d1e482">
+                  <lb ed="#Bc"/>Et hoc est quod dicit Augustinus in
+<lb ed="#Bc"/>auctoritate primo inducta.
+</p>
+               <p xml:id="Almn78-h32612-d1e489">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur de 
+acce<lb ed="#Bc" break="no"/>ptione experimenti, quo non indiget
+<lb ed="#Bc"/>Deus, dicendum quod licet Deus non 
+in<lb ed="#Bc" break="no"/>diguerit experimento, tamen homo 
+ten<lb ed="#Bc" break="no"/>tatus indiguit ut suiipsius acciperet
+<lb ed="#Bc"/>experimentum, et cautior esset in 
+poste<lb ed="#Bc" break="no"/>rum, et ad hoc permissus est tentari.
+</p>
+               <p xml:id="Almn78-h32612-d1e507">
+                  <lb ed="#Bc"/>Ad hoc quod sequitur de Augustino,
+<lb ed="#Bc"/>jam responsum est : quia hoc verum est,
+<lb ed="#Bc"/>quod palma gloriosior est ; et hoc fuit
+<lb ed="#Bc"/>bonum quod elicuit Deus de illo malo.
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Et hoc dicit sequens auctoritas 
+Augu<lb ed="#Bc" break="no"/>stini: <quote xml:id="Almn78-h32612-Qd1e524"> Melius enim est, quod fiat ut et
+<lb ed="#Bc"/>bonum et malum ordinetur, quam quod
+<lb ed="#Bc"/>fiat alterum tantum. </quote> Sic enim 
+perfe<lb ed="#Bc" break="no"/>ctior et completior est universitas, ut in
+<lb ed="#Bc"/>antehabitis probatum esf.
+</p>
+               <p xml:id="Almn78-h32612-d1e537">
+                  <lb ed="#Bc"/>Ab atiup dicendum, quod non 
+secun<lb ed="#Bc" break="no"/>dum ordinem nature ita fieri debuit :
+<lb ed="#Bc"/>quia, sicut dicit Damascenus, per 
+ele<lb ed="#Bc" break="no"/>ctionem oportuit eum esse vertibilem ad
+<lb ed="#Bc"/>utramque partem oppositorum, veri 
+sci<lb ed="#Bc" break="no"/>licet et falsi, et boni et mali. Aliter enim
+<lb ed="#Bc"/>negata fuissent ei que sunt propria na~
+<lb ed="#Bc" break="no"/>ture rationalis creature.
+</p>
+               <p xml:id="Almn78-h32612-d1e557">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod sicut jam habitum est in 
+se<lb ed="#Bc" break="no"/>cunda questione incidenti membri quarti
+<lb ed="#Bc"/>precedentis questionis de progressu 
+ten<lb ed="#Bc" break="no"/>tationis, anima serpentis per 
+imaginatio<lb ed="#Bc" break="no"/>nem propriam non formavit illas voces,
+<lb ed="#Bc"/>sed diabolus in serpente : et ideo 
+diabo<lb ed="#Bc" break="no"/>lus tentationis illius fuit auctor, serpens
+<lb ed="#Bc"/>autem instrumentum : et ideo dicit 
+Au<lb ed="#Bc" break="no"/>gustinus, quod non serpens, sed 
+diabo<lb ed="#Bc" break="no"/>lus tentavit Hevam.
+</p>
+               <p xml:id="Almn78-h32612-d1e583">
+                  <lb ed="#Bc"/>Av atiup dicendum, quod serpens fuit
+<lb ed="#Bc"/>punitus : quia instrumentum fuit peccati
+<lb ed="#Bc"/>in detestationem peccati et posteritatis
+<lb ed="#Bc"/>exemplum.
+</p>
+               <p xml:id="Almn78-h32612-d1e594">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod serpens 
+se<lb ed="#Bc" break="no"/>duxit ut instrumentum, sed non ut agens
+<lb ed="#Bc"/>causa.
+</p>
+               <p xml:id="Almn78-h32612-d1e603">
+                  <lb ed="#Bc"/>Ab atLtup sive ultimum dicendum,
+<lb ed="#Bc"/>quod serpens scivit virum esse fortiorem,
+<lb ed="#Bc"/>hoc est, diabolus in serpente : et propter
+<lb ed="#Bc"/>hoc sicut in questione pracedenti 
+mem<lb ed="#Bc" break="no"/>bro tertio guare tentatio incepit a 
+mulie<lb ed="#Bc" break="no"/>re dictum est, mulierem et non virum
+<lb ed="#Bc"/>aggressus est primo : virilem enim 
+ani<lb ed="#Bc" break="no"/>mum non fuit ausus invadere nisi per
+<lb ed="#Bc"/>mulierem. Nihil enim efficacius est ad
+<lb ed="#Bc"/>emolliendum virilem animum et 
+sedu<lb ed="#Bc" break="no"/>cendum sicut feemina. Et hoc est quod
+<lb ed="#Bc"/>Aristoteles dicit in VII Ethicorum ex
+<lb ed="#Bc"/>Homero : <quote xml:id="Almn78-h32612-Qd1e633"> Doli complicatrix Venus : et
+<lb ed="#Bc"/>cingulum sive corrigia Veneris, furata est
+<lb ed="#Bc"/>mentem valde sapientum. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-h32612-Dd1e642">
+               <head xml:id="Almn78-h32612-Hd1e644">Membrum 2</head>
+               <head xml:id="Almn78-h32612-Hd1e647" type="question-title">
+          Quae fuerit origo peccati, utrum scilicet
+          superbia
+        </head>
+               <p xml:id="Almn78-h32612-d1e650">
+                  <pb ed="#Bc" n="150"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quae fuerit origo peccati, utrum scilicet
+<lb ed="#Bc"/>superbia?
+</p>
+               <p xml:id="Almn78-h32612-d1e663">
+                  <lb ed="#Bc"/>Secundo queritur, Quae fuerit origo
+<lb ed="#Bc"/>peccati ?
+  
+<lb ed="#Bc"/>Hanc enim questionem Magister 
+dis<lb ed="#Bc" break="no"/>putat in libro IL Sententiarum, 
+distinct<lb ed="#Bc" break="no"/>XXII, ubi dicit, Mie videtur diligenter
+<lb ed="#Bc"/>investigandum esse, que fuerit origo et
+<lb ed="#Bc"/>radiae illius peccati.
+</p>
+               <p xml:id="Almn78-h32612-d1e681">
+                  <lb ed="#Bc"/>Et videtur, quod fuerit origo 
+super<lb ed="#Bc" break="no"/>bia.
+<lb ed="#Bc"/>1. Eccli. x, 14 et 15: Initium 
+super<lb ed="#Bc" break="no"/>bie hominis apostatare a Deo : quoniam
+<lb ed="#Bc"/>ab eo qui fecit illum, recessit cor ejus.
+<lb ed="#Bc"/>Videtur ergo, quod initium tuerit 
+su<lb ed="#Bc" break="no"/>perbia.
+</p>
+               <p xml:id="Almn78-h32612-d1e700">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus ad Orosium :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e706"> Elatus superbia primus homo suasioni
+<lb ed="#Bc"/>serpentis obediens, precepta 
+contemp<lb ed="#Bc" break="no"/>sit. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e714">
+                  <lb ed="#Bc"/>3. Adhuc, Bernardus super Cantica :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e720"> Ambo, diabolus et homo, iniquitatem
+<lb ed="#Bc"/>meditati sunt altitudinem affectantes
+<lb ed="#Bc"/>ille potentie, scilicet diabolus : iste 
+scien<lb ed="#Bc" break="no"/>tie, scilicet homo. </quote> Ergo initium peccati
+<lb ed="#Bc"/>fuit altitudo scientiae : et sic superbia.
+</p>
+               <p xml:id="Almn78-h32612-d1e732">
+                  <lb ed="#Bc"/>4. Adhuc, Ad Roman. v, 19 : Per
+<lb ed="#Bc"/>inobedientiam unius hominis peccatores
+<lb ed="#Bc"/>constituti sunt multi. Hoc tractans 
+Au<lb ed="#Bc" break="no"/>gustinus in libro VIII super Genesim ad
+<lb ed="#Bc"/>litteram, dicit sic : <quote xml:id="Almn78-h32612-Qd1e745"> Non potuit melius
+<lb ed="#Bc"/>et diligentius commendari quam malum
+<lb ed="#Bc"/>sit sola inobedientia : cum ideo reus 
+ini<lb ed="#Bc" break="no"/>quitatis factus est homo, quia eam rem
+<lb ed="#Bc"/>tetigit contra prohibitionem, quam si non
+<lb ed="#Bc"/>prohibitus tetigisset, non peccasset?. </quote>
+                  <lb ed="#Bc"/>Sed dicit Gregorius super Job, xxvimt, 4,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>quod <quote xml:id="Almn78-h32612-Qd1e764"> inobedientia filia est superbia. </quote>
+                  <lb ed="#Bc"/>Ergo videtur, quod inobedientia non
+<lb ed="#Bc"/>fuisset nata in eo nisi superbia 
+praces<lb ed="#Bc" break="no"/>sisset : et ita videtur, quod superbia 
+fue<lb ed="#Bc" break="no"/>rit primum peccatum et initium peccati.
+</p>
+               <p xml:id="Almn78-h32612-d1e777">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>In primo homine fuit appetitus
+<lb ed="#Bc"/>scientiae. Ibidem autem in <ref xml:id="Almn78-h32612-Rd1e785">Glossa</ref> dicit
+<lb ed="#Bc"/>
+                  <ref xml:id="Almn78-h32612-Rd1e791">Augustinus</ref>, quod avaritia non tantum
+<lb ed="#Bc"/>est pecunie, sed altitudinis et scientie.
+<lb ed="#Bc"/>Ergo videtur, quod appetitus avaritia
+<lb ed="#Bc"/>fuit initium peccati ejus.
+</p>
+               <p xml:id="Almn78-h32612-d1e801">
+                  <lb ed="#Bc"/>2. Adhuc, Videtur quod peccatum 
+er<lb ed="#Bc" break="no"/>roris fuerit initium. 1 ad Timoth. u, 14:
+<lb ed="#Bc"/>Adam non est seductus, mulier autem
+<lb ed="#Bc"/>seducta in prevaricatione fuit. Quod
+<lb ed="#Bc"/>exponunt Sancti, quod in hoc non fuit
+<lb ed="#Bc"/>seductus in quo mulier, sed fuit seductus
+<lb ed="#Bc"/>in hoc, quod credidit veniale quod fuit
+<lb ed="#Bc"/>mortale. Et quocumque modo dicatur, et
+<lb ed="#Bc"/>Adam seductus fuit et Heva seducta : 
+se<lb ed="#Bc" break="no"/>ductio autem peccatum erroris est : ergo
+<lb ed="#Bc"/>in utroque peccatum erroris est : ergo in
+<lb ed="#Bc"/>utroque peccatum erroris fuit.
+</p>
+               <p xml:id="Almn78-h32612-d1e830">
+                  <lb ed="#Bc"/>3. Adhuc, Videtur quod fuerit 
+pecca<lb ed="#Bc" break="no"/>tum gule. Ambrosius super Mattheum,
+<lb ed="#Bc"/>Iv, 3, ubi dicitur : At accedens tentator,
+  <lb ed="#Bc"/>dicit sic: <quote xml:id="Almn78-h32612-Qd1e840"> Eo ordine tentavit Christum —
+<lb ed="#Bc"/>quo primum hominem dejecerat. </quote> 
+Con<lb ed="#Bc" break="no"/>stat autem, quod primo Christum tentavit
+<lb ed="#Bc"/>de gula quando dixit : Die ut lapides isti
+<lb ed="#Bc"/>panes fiants.
+</p>
+               <p xml:id="Almn78-h32612-d1e854">
+                  <lb ed="#Bc"/>Sed quia dicit Magister in eadem 
+di<lb ed="#Bc" break="no"/>stinctione vicesima secunda, quod hoc
+<lb ed="#Bc"/>inquirendum sit, quod fuerit initium 
+pec<lb ed="#Bc" break="no"/>cati et radix : queratur, quod fuit 
+pri<lb ed="#Bc" break="no"/>mum appetibile quod appetiit primus
+<lb ed="#Bc"/>homo? Hoc enim videtur fuisse radix
+<lb ed="#Bc"/>peccati, quia. per dulcedinem prestabat
+<lb ed="#Bc"/>nutrimentum appetitui.
+</p>
+               <p xml:id="Almn78-h32612-d1e874">
+                  <lb ed="#Bc"/>Videtur, quod hoc fuerit similitudo
+<lb ed="#Bc"/>equiparantie in scientia Dei.
+</p>
+               <p xml:id="Almn78-h32612-d1e881">
+                  <lb ed="#Bc"/>4. Super illud Psalmi txvim, 5: Que
+<lb ed="#Bc"/>non raput, tune exsolvebam, dicit Glossa
+<pb ed="#Bc" n="151"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>sic :<quote xml:id="Almn78-h32612-Qd1e894"> Adam et Heva voluerunt rapere
+<lb ed="#Bc"/>divinitatem, et obtinuerunt infelicitatem.</quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e900">
+                  <lb ed="#Bc"/>2. Adhuc, Super illud Apostoli, ad
+<lb ed="#Bc"/>Philipp. u, 6: Non rapinam arbitratus
+<lb ed="#Bc"/>est esse se xgualem Deo. Ibi Glossa,
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e910"> Non usurpavit quod suum non erat,
+<lb ed="#Bc"/>scilicet equalitatem Dei, ut diabolus
+<lb ed="#Bc"/>fecit, et primus homo. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e918">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Esse aequalem Deo sive in potentia
+<lb ed="#Bc"/>sive in scientia, est appetibile quod in
+<lb ed="#Bc"/>nullius creature rationem cadere potest :
+<lb ed="#Bc"/>et quod per rationem non potest 
+appre<lb ed="#Bc" break="no"/>hendi, non potest appeti: ergo videtur,
+<lb ed="#Bc"/>quod equalitatem Dei appetere non
+<lb ed="#Bc"/>potuit, nec illa fuit radix peccati.
+</p>
+               <p xml:id="Almn78-h32612-d1e938">
+                  <lb ed="#Bc"/>Sorvtio. Dicendum, cum Augustino
+<lb ed="#Bc"/>et aliis Sanctis, quod elatio superbie
+<lb ed="#Bc"/>primum fuit peccatum in Heva. Cum
+<lb ed="#Bc"/>enim diabolus dixit: Hritis sicut dii,
+<lb ed="#Bc"/>seientes bonum et malum' : statim, ut
+<lb ed="#Bc"/>dicit Augustinus, menti ejus subrepsit
+<lb ed="#Bc"/>quedam elatio que comprimenda fuit.
+<lb ed="#Bc"/>Sicut etiam dicit Magister in libro II
+<lb ed="#Bc"/>Sententiarum, distinct. XXII, inillo cap.
+<lb ed="#Bc"/>Et talis quidem elatio. <quote xml:id="Almn78-h32612-Qd1e961"> Ex ista 
+ela<lb ed="#Bc" break="no"/>tione processit error, quod falsa 
+appro<lb ed="#Bc" break="no"/>bavit pro veris. Et quia putabat hoc
+<lb ed="#Bc"/>acquirere per comestionem, ex hoc
+<lb ed="#Bc"/>ulterius processit avaritia scientia, et
+<lb ed="#Bc"/>comestio pomi, quod vocatur gula: et
+<lb ed="#Bc"/>ex hoc facta est inobedientia, et factus
+<lb ed="#Bc"/>est homo inobediens. </quote> Omnia tamen
+<lb ed="#Bc"/>hec unum peccatum sunt : quia 
+ordinan<lb ed="#Bc" break="no"/>tur ad unum, sicut in precedenti 
+que<lb ed="#Bc" break="no"/>stione membro primo determinatum est,
+<lb ed="#Bc"/>ubi querebatur, Utrum unum peccatum
+  <lb ed="#Bc"/>fuit in tentatione Adz, vel plura, et que
+<lb ed="#Bc"/>ordine ?
+</p>
+               <p xml:id="Almn78-h32612-d1e994">
+                  <lb ed="#Bc"/>Prima ergo quatuor concedenda sunt.
+</p>
+               <p xml:id="Almn78-h32612-d1e999">
+                  <lb ed="#Bc"/>Ad aliud quod de avaritia dicitur,
+<lb ed="#Bc"/>dicendum quod avaritia si proprie 
+suma<lb ed="#Bc" break="no"/>tur prout facit speciale peccatum, non
+<lb ed="#Bc"/>est nisi appetitus pecunie, et dicitur
+<lb ed="#Bc"/>philargyria, hoc est, amor argenti. Si
+<lb ed="#Bc"/>autem non sumatur ut speciale peccatum,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>sed ut radix omnium malorum, ut 
+dici<lb ed="#Bc" break="no"/>tur, Tad Timoth. vi, 10: Radix omnium
+<lb ed="#Bc"/>malorum est enpiditas : tune nihil aliud
+<lb ed="#Bc"/>est nisi inordinatus amor sive libido
+<lb ed="#Bc"/>privali delectabilis, sive hoc sit altitudo,
+<lb ed="#Bc"/>sive scientia, sive pecunia: et sic non
+<lb ed="#Bc"/>est separatum peccatum a superbia se 
+<lb ed="#Bc" break="no"/>cundum quod superbia nihil aliud est
+<lb ed="#Bc"/>quam improba voluntas altitudinis in
+<lb ed="#Bc"/>scientia deiformi.
+</p>
+               <p xml:id="Almn78-h32612-d1e1038">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Adam et
+<lb ed="#Bc"/>Heva seducti sunt, sed in hoc 
+errave<lb ed="#Bc" break="no"/>runt, quod falsa pro veris 
+approbave<lb ed="#Bc" break="no"/>runt. Sed, ut dicit Augustinus, et in
+<lb ed="#Bc"/>Sententiis ponitur in prainducto capitulo,
+<lb ed="#Bc"/>seduci non potuisset, nisi elatio praeces 
+<lb ed="#Bc" break="no"/>sissct : et ideo elatio fuit primum 
+pecca<lb ed="#Bc" break="no"/>tum.
+</p>
+               <p xml:id="Almn78-h32612-d1e1058">
+                  <lb ed="#Bc"/>Ad aliud de gula, dicendum quod
+<lb ed="#Bc"/>gula fuit principale in quo facta est 
+pro<lb ed="#Bc" break="no"/>hibitio, et ad quod omnia alia 
+ordinaban<lb ed="#Bc" break="no"/>tur: sed non fuit primum in appetitu
+<lb ed="#Bc"/>peccantis.
+</p>
+               <p xml:id="Almn78-h32612-d1e1071">
+                  <lb ed="#Bc"/>Ad idquod objicitur de radice, 
+dicen<lb ed="#Bc" break="no"/>dum quod pro certo radix fuit et 
+appeti<lb ed="#Bc" break="no"/>bile primum quedam equiparantia in
+<lb ed="#Bc"/>scientia deiformi. Et hoc intelligitur ex .
+<lb ed="#Bc"/>Glossa consequenter inducta super 
+Psal<lb ed="#Bc" break="no"/>mum ect epistolam ad Philippenses.
+</p>
+               <p xml:id="Almn78-h32612-d1e1087">
+                  <lb ed="#Bc"/>Ad wm quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod equiparentia in scicntia deiformi
+<lb ed="#Bc"/>secundum equalitatem non potuit cadere
+<lb ed="#Bc"/>in rationem vel hominis vel diaboli ad
+<lb ed="#Bc"/>appetendum. Nec ita appetierunt eam,
+<lb ed="#Bc"/>ut dicit Anselmus in libro de Casa 
+dia<lb ed="#Bc" break="no"/>boli: sed quantum ad modum 
+appetie<lb ed="#Bc" break="no"/>runt eam, ut scilicet diabolus ex se 
+ha<lb ed="#Bc" break="no"/>beret potentiam, et primus homo ex se
+<lb ed="#Bc"/>scientiam : quod non est nisi Dei : 
+ex<lb ed="#Bc" break="no"/>cellentiam enim ex se non habuit.nisi
+<lb ed="#Bc"/>Deus : et sic ex se appetierunt 
+similitu<lb ed="#Bc" break="no"/>dinem divinam. Unde dicit Anselmus,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h32612-Qd1e1119"> nihil aliud appetierunt, quam ad
+<lb ed="#Bc"/>quod pervenissent si stetissent, licet non
+<lb ed="#Bc"/>per eumdem modum. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-h32612-Dd1e1128">
+               <head xml:id="Almn78-h32612-Hd1e1130">Membrum 3</head>
+               <head xml:id="Almn78-h32612-Hd1e1133" type="question-title">
+          Utrum peccatum primorum parentum
+          fuerit maximum ? et, Quis eorum plus
+          peccaverit ? et, An potuerint peccare
+          venialiter ? et, Qui sint gradus 
+          peccati ?
+        </head>
+               <p xml:id="Almn78-h32612-d1e1136">
+                  <pb ed="#Bc" n="152"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum peccatum primorum parentum
+<lb ed="#Bc"/>fuerit maximum ? et, Quis eorum plus
+<lb ed="#Bc"/>peccaverit ? et, An potuerint peccare
+<lb ed="#Bc"/>venialiter ? et, Qui sint gradus 
+pec<lb ed="#Bc" break="no"/>cati ?
+</p>
+               <p xml:id="Almn78-h32612-d1e1156">
+                  <lb ed="#Bc"/>Tertio queritur, Quis plus peccaverit,
+<lb ed="#Bc"/>Adam scilicet, vel Heva ?
+</p>
+               <p xml:id="Almn78-h32612-d1e1163">
+                  <lb ed="#Bc"/>Et circa hoc oportet quatuor querere,
+<lb ed="#Bc"/>scilicet de quantitate peccati.\
+<lb ed="#Bc"/>Secundo,De comparatione peccati Ade
+<lb ed="#Bc"/>ad peccatum Heve.
+<lb ed="#Bc"/>Tertio, Si Adam in primo statu potuit
+<lb ed="#Bc"/>peccare venialiter ?
+<lb ed="#Bc"/>Quarto, De gradibus qui fuerunt in
+<lb ed="#Bc"/>peccato illo.
+</p>
+               <p xml:id="Almn78-h32612-d1e1184">
+                  <lb ed="#Bc"/>Videtur ergo primo, quod peccatum
+<lb ed="#Bc"/>illud fuit maximum peccatum :
+<lb ed="#Bc"/>1. Peccatum enim mensuratur ad
+<lb ed="#Bc"/>penam, et e converso : peccatum aulem
+<lb ed="#Bc"/>illud maxima pcena, hoc est, damnatio
+<lb ed="#Bc"/>generis totius humani secuta est : ergo
+<lb ed="#Bc"/>maximum fuit.
+</p>
+               <p xml:id="Almn78-h32612-d1e1202">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus ad Orosium:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e1208"> Hac causa, exstitit: ubi mortis 
+pericu<lb ed="#Bc" break="no"/>lum Adam incurrit, et ab illo uno homine
+<lb ed="#Bc"/>humana natura vitiosa atque peccato
+<lb ed="#Bc"/>obnoxia, et mortalis exstitit'. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e1218">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in Enchiridion:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e1224"> Post peccatum exsul effectus Adam,
+<lb ed="#Bc"/>stirpem quoque suam, quam peccando in
+<lb ed="#Bc"/>se tamquam in radice vitiaverat, poena
+<lb ed="#Bc"/>mortis et damnationis obstrinxit: ut
+<lb ed="#Bc"/>quidquid prolis ex illo et simul damnata
+<lb ed="#Bc"/>per quam peccaveral conjuge, per 
+carna<lb ed="#Bc" break="no"/>lem concupiscentiam nasceretur, traheret
+<lb ed="#Bc"/>originale peccatum *. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e1243">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>4. Adhuc, Magister in libro II 
+Senten<lb ed="#Bc" break="no"/>tiarum, distinct. XXI, cap. Porro 
+scien<lb ed="#Bc" break="no"/>dum, distinguit duo genera tentationis.
+<lb ed="#Bc"/>Unum intus a carne: et dicit, quod hoc
+<lb ed="#Bc"/>gravius impellit. Alterum extra ab hoste,
+<lb ed="#Bc"/>quod minorem habet impulsum. Et 
+ac<lb ed="#Bc" break="no"/>cipitur ab Augustino in libro XIV de
+<lb ed="#Bc"/>Civitate Dei, ubi sic dicit : <quote xml:id="Almn78-h32612-Qd1e1264"> Quisquam
+<lb ed="#Bc"/>Ade damnationem nimiam vel injustam
+<lb ed="#Bc"/>putat, metiri profecto nescit quanta 
+fue<lb ed="#Bc" break="no"/>rit iniquitas in peccando, ubi tanta erat
+<lb ed="#Bc"/>non peccandi facilitas*. </quote> Et hoc probat
+<lb ed="#Bc"/>Augustinus duobus modis. 
+Commenda<lb ed="#Bc" break="no"/>tur enim Abrahe obedientia, eo quod
+<lb ed="#Bc"/>difficillimum fuit im quo paratus fuit
+<lb ed="#Bc"/>obedire, scilicet filii immolatio’. 
+Com<lb ed="#Bc" break="no"/>mendatur et extollitur Christi obedientia,
+<lb ed="#Bc"/>eo quod difficillimum fuit in quo 
+obedi<lb ed="#Bc" break="no"/>vit. Ad Philip. u, 8: Factus obediens,
+<lb ed="#Bc"/>scilicet Patri, usqgue ad morlem, mortem
+<lb ed="#Bc"/>autem crucis. Ergo per oppositum 
+ma<lb ed="#Bc" break="no"/>xime vituperabilis est inobedientia, ubi
+<lb ed="#Bc"/>facillimum fuit obedire, sicut in precepto
+<lb ed="#Bc"/>quod datum est Ade.
+</p>
+               <p xml:id="Almn78-h32612-d1e1302">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Super illud Psalmi xvin, 14: 
+Emun<lb ed="#Bc" break="no"/>dabor a delicto maximo, Glossa: <quote xml:id="Almn78-h32612-Qd1e1310"> 
+Ma<lb ed="#Bc" break="no"/>ximum delictum est superbia. </quote> Ergo
+<lb ed="#Bc"/>videtur, quod non maximum sit 
+pecca<lb ed="#Bc" break="no"/>tum Adae.
+</p>
+               <p xml:id="Almn78-h32612-d1e1321">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in libro de
+<lb ed="#Bc"/>Consensu Evangeliorum : <quote xml:id="Almn78-h32612-Qd1e1327"> Gravissimum
+<lb ed="#Bc"/>est scelus occisio Christi, ex quo omnes
+<lb ed="#Bc"/>Judzi eradicati ex ipsa Jerosolyma, que
+<lb ed="#Bc"/>erat caput regni, et per totum orbem 
+dis<lb ed="#Bc" break="no"/>persi. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e1340">
+                  <lb ed="#Bc"/>3. Adhuc, Tanto majus est peccatum,
+<lb ed="#Bc"/>quanto major est in quem _peccatur :
+<lb ed="#Bc"/>vita Christi omnibus incomparabilis fuit:
+<lb ed="#Bc"/>ergo maximum peccatum fuit quod 
+com<lb ed="#Bc" break="no"/>missum est in vitam Christi.
+</p>
+               <p xml:id="Almn78-h32612-d1e1353">
+                  <lb ed="#Bc"/>4, Adhuc, Peccatum diaboli causa fuit
+<lb ed="#Bc"/>omnium peccatorum: ergo fuit 
+maxi<lb ed="#Bc" break="no"/>mum.
+</p>
+               <p xml:id="Almn78-h32612-d1e1362">
+                  <pb ed="#Bc" n="153"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Urterws queritur, Quis plus 
+pecca<lb ed="#Bc" break="no"/>vit, Adam, vel Heva!.
+</p>
+               <p xml:id="Almn78-h32612-d1e1373">
+                  <lb ed="#Bc"/>Et videtur quod Heva.
+<lb ed="#Bc"/>Dicit enim Augustinus super illud
+<lb ed="#Bc"/>Apostoli, I ad Timoth. u, 14: Adam
+<lb ed="#Bc"/>non est seductus, mulier autem seducta
+<lb ed="#Bc"/>in prevaricatione fuit : quod Adam non
+<lb ed="#Bc"/>credidit, quod potuerit esse sicut Deus,
+<lb ed="#Bc"/>nec yoluit esse sicut Deus: Heva 
+cre<lb ed="#Bc" break="no"/>didit et voluit. Ergo plus peccavit.
+</p>
+               <p xml:id="Almn78-h32612-d1e1393">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in libro XI super 
+Gene<lb ed="#Bc" break="no"/>sim ad litteram: <quote xml:id="Almn78-h32612-Qd1e1401"> Adam et Heva in 
+im<lb ed="#Bc" break="no"/>pari sexu, sed pari fastu peccaverunt ®. </quote>
+                  <lb ed="#Bc"/>Ergo videtur, quod equaliter 
+peccave<lb ed="#Bc" break="no"/>runt.
+</p>
+               <p xml:id="Almn78-h32612-d1e1412">
+                  <lb ed="#Bc"/>2. Adhuc, Peccatum Heve fuit causa
+<lb ed="#Bc"/>peccati Ade. Ex hoc videtur, quod Heva
+<lb ed="#Bc"/>plus peccavit quam Adam.
+</p>
+               <p xml:id="Almn78-h32612-d1e1422">
+                  <lb ed="#Bc"/>3. Similiter objicitur, quod peccatum
+<lb ed="#Bc"/>Adz majus fuit: quia viro datum est
+<lb ed="#Bc"/>preceptum, non mulieri: et vir 
+mulie<lb ed="#Bc" break="no"/>rem corrigere debuit, et non fecit : et
+<lb ed="#Bc"/>ideo etiam vir, ul dicit Augustinus, 
+spi<lb ed="#Bc" break="no"/>rituali mente preditus fuit. Cum enim
+<lb ed="#Bc"/>Dominus misit soporem in Adam, 
+illu<lb ed="#Bc" break="no"/>minavit eum dono prophetie, ut dicit
+<lb ed="#Bc"/>Augustinus, ut intelligeret qualiter 
+Ec<lb ed="#Bc" break="no"/>clesia formanda esset de Christo. Et
+<lb ed="#Bc"/>quando peccavit, contra hanc mentem
+<lb ed="#Bc"/>spirituali lumine preditam peccavit,
+<lb ed="#Bc"/>que est circumstantia ex parte peccantis
+<lb ed="#Bc"/>multum aggravans peccatum: et hance
+<lb ed="#Bc"/>circumstantiam Heva non habuit: ergo
+<lb ed="#Bc"/>videtur, quod peccatum Adz gravius
+<lb ed="#Bc"/>fuit.
+</p>
+               <p xml:id="Almn78-h32612-d1e1461">
+                  <lb ed="#Bc"/>Ulterius queritur, Si Adam in primo
+<lb ed="#Bc"/>statu potuit peccare venialiter * ?
+</p>
+               <p xml:id="Almn78-h32612-d1e1468">
+                  <lb ed="#Bc"/>Videtur, quod non:
+<lb ed="#Bc"/>4. Quod enim facit peccatum veniale,
+<lb ed="#Bc"/>est circumstantia aliquo modo excusans
+<lb ed="#Bc"/>peccatum: et haec est infirmitas, vel
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>ignorantia: et in illa nondum inciderat
+<lb ed="#Bc"/>Adam vel Heva: non ergo potuerunt
+<lb ed="#Bc"/>peccare nisi ex certa malitia: et hoc non
+<lb ed="#Bc"/>est peccare venialiter, sed mortaliter :
+<lb ed="#Bc"/>ergo in primo statu peccare venialiter
+<lb ed="#Bc"/>non poterant.
+</p>
+               <p xml:id="Almn78-h32612-d1e1494">
+                  <lb ed="#Bc"/>2. Adhuc, In primo statu recta fuit 
+ra<lb ed="#Bc" break="no"/>tio primorum parentum  sensualitatem
+<lb ed="#Bc"/>habens subjectam et corpus. Sis rgo
+<lb ed="#Bc"/>peccaverunt Adam et Heva, peccare non
+<lb ed="#Bc"/>poterant nisi per egressum a rectitudine
+<lb ed="#Bc"/>rationis, et non per inclinationem 
+sen<lb ed="#Bc" break="no"/>sualitatis : et hoc est peccare mortaliter,
+<lb ed="#Bc"/>quia tune vir comedit, et totus homo
+<lb ed="#Bc"/>subversus est, ut dicit Augustinus : ergo
+<lb ed="#Bc"/>videtur, quod in primo statu non 
+po<lb ed="#Bc" break="no"/>tuerunt peccare nisi mortaliter.
+</p>
+               <p xml:id="Almn78-h32612-d1e1520">
+                  <lb ed="#Bc"/>ContRA :
+<lb ed="#Bc"/>Eamdem potentiam habuit Adam ante
+<lb ed="#Bc"/>peccatum quam nos nunc, licet non 
+eo<lb ed="#Bc" break="no"/>dem modo dispositam: nos possumus
+<lb ed="#Bc"/>peccare mortaliter et venialiter : ergo et
+<lb ed="#Bc"/>ipse.
+</p>
+               <p xml:id="Almn78-h32612-d1e1536">
+                  <lb ed="#Bc"/>Uterivs, Queritur de quadam <ref xml:id="Almn78-h32612-Rd1e1540">Glossa
+<lb ed="#Bc"/>super principium Psalterii, Psal. 1, 1:
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h32612-Qd1e1546" type="incipit">Beatus vir qui non abiit</quote>
+                  </ref>, sic: <quote xml:id="Almn78-h32612-Qd1e1550"> Adam
+<lb ed="#Bc"/>abiit a Deo, non loco, sed dissimilitudine,
+<lb ed="#Bc"/>cum persuasioni diaboli et <name xml:id="Almn78-h32612-Nd1e1556">Heve</name> 
+con<lb ed="#Bc" break="no"/>sentiens a Deo recessit. Séedit, cum 
+ve<lb ed="#Bc" break="no"/>titum pomum comedens in peccato. 
+de<lb ed="#Bc" break="no"/>lectatus est. Sedit, cum se stulte 
+excu<lb ed="#Bc" break="no"/>sando et culpam in Creatorem referendo,
+<lb ed="#Bc"/>in superbia confirmatus est, dicens : 
+Mu<lb ed="#Bc" break="no"/>liter, quam dedisti mihi sociam, dedit
+<lb ed="#Bc"/>mihi de ligno, et comedi.</quote> Et isti sunt
+<lb ed="#Bc"/>gradus peccati qui distinguuntur in
+<lb ed="#Bc"/>Glossa super Psalmum1, 1.
+</p>
+               <p xml:id="Almn78-h32612-d1e1581">
+                  <lb ed="#Bc"/>Solutio. Dicendum ad primam 
+par<lb ed="#Bc" break="no"/>tem questionis, quod sicut peccata in
+<lb ed="#Bc"/>diversis ad invicem comparantur, ita
+<lb ed="#Bc"/>diversimode ad invicem dicuntur majora
+<pb ed="#Bc" n="154"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>vel minora. Si enim comparantur ad
+<lb ed="#Bc"/>invicem in reatu pene : tunc absque 
+du<lb ed="#Bc" break="no"/>bio ea que maxime punita fuerunt, 
+ma<lb ed="#Bc" break="no"/>xima sunt: et sic peccatum Ade 
+maxi<lb ed="#Bc" break="no"/>mum dici potest. Et in hoc sensu 
+proce<lb ed="#Bc" break="no"/>dunt auctoritates et rationes ad hoc
+<lb ed="#Bc"/>inductee.
+</p>
+               <p xml:id="Almn78-h32612-d1e1612">
+                  <lb ed="#Bc"/>Si autem quantum ad eum contra
+<lb ed="#Bc"/>quem fiunt: tune sicut dicit Anselmus
+<lb ed="#Bc"/>inlibro Tl Cur Deus homo, cum 
+Chri<lb ed="#Bc" break="no"/>stus in infinitum excedit totum 
+huma<lb ed="#Bc" break="no"/>num genus et omnem creaturam, 
+pec<lb ed="#Bc" break="no"/>catum de traditione et occisione Christi
+<lb ed="#Bc"/>erit maximum : et etiam, sicut dicit 
+An<lb ed="#Bc" break="no"/>selmus, infinitum et irremissibile, nisi
+<lb ed="#Bc"/>temperaretur per ignorantiam, quia 
+ne<lb ed="#Bc" break="no"/>sciverunt eum esse Deum. Et hoc est
+<lb ed="#Bc"/>quod dicit Petrus, Act. wu, 17: Et nune,
+<lb ed="#Bc"/>fratres, scio quia per ignorantiam 
+feci<lb ed="#Bc" break="no"/>stis, sicut et principes vestri. 1 ad 
+Co<lb ed="#Bc" break="no"/>rinth. n, 8 : Si enim cognovissent, 
+num<lb ed="#Bc" break="no"/>quam Dominum glorie crucifizissent.
+<lb ed="#Bc"/>Et sic iterum procedunt auctoritates et
+<lb ed="#Bc"/>rationes ad hoc inducte.
+</p>
+               <p xml:id="Almn78-h32612-d1e1651">
+                  <lb ed="#Bc"/>Si autem comparentur in objecto,
+<lb ed="#Bc"/>tune superbia que altitudinem appetit,
+<lb ed="#Bc"/>et maxime ad exqualitatem Dei in 
+An<lb ed="#Bc" break="no"/>gelo, homine primo, et Antichristo, de
+<lb ed="#Bc"/>quo dicitur, II ad Thessal. n, 4, quod
+<lb ed="#Bc"/>extollitur supra omne quod dicitur
+<lb ed="#Bc"/>Deus : tune superbia erit maximum 
+pec<lb ed="#Bc" break="no"/>catum. Et sic iterum procedunt 
+auctori<lb ed="#Bc" break="no"/>tates et rationes ad hoc inducta.
+</p>
+               <p xml:id="Almn78-h32612-d1e1673">
+                  <lb ed="#Bc"/>Si autem fit comparatio quantum ad
+<lb ed="#Bc"/>causalitatem mali quod fit ex peccato:
+<lb ed="#Bc"/>sic cum omnia peccata causata sint a
+<lb ed="#Bc"/>primo peccato Luciferi, tunc primum
+<lb ed="#Bc"/>peccatum Luciferi erit peccatum 
+maxi<lb ed="#Bc" break="no"/>mum. Et sic iterum procedit quod ad
+<lb ed="#Bc"/>hoc inductum est.
+</p>
+               <p xml:id="Almn78-h32612-d1e1691">
+                  <lb ed="#Bc"/>Si vero fiat comparario quantum ad
+<lb ed="#Bc"/>radicem peccati ex qua procedit: tunc
+<lb ed="#Bc"/>peccatum quod fit in Spiritum sanctum
+<lb ed="#Bc"/>ex certa malitia est peccatum 
+maxi<lb ed="#Bc" break="no"/>mum: hoc enim ex certa malitia est,
+<lb ed="#Bc"/>sicut impugnatio veritatis agnite, et 
+in<lb ed="#Bc" break="no"/>videntia fraterne gratie, et induratio, et
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>obduratio, et finalis impcenitentia, et
+<lb ed="#Bc"/>vocatur desperatio, et presumptio impia
+<lb ed="#Bc"/>de venia ab eo qui veniam non meretur,
+<lb ed="#Bc"/>nec merendi habet propositum. Matth.
+<lb ed="#Bc"/>xu, 34 et 32: Spiritus blasphemia non
+<lb ed="#Bc"/>remitietur. Et guicumque dizerit 
+ver<lb ed="#Bc" break="no"/>bum contra Filium hominis, remittetur
+<lb ed="#Bc"/>ev: qui autem dixerit contra Spiritum
+<lb ed="#Bc"/>sanctum, non remittetur ei, neque in hoc
+<lb ed="#Bc"/>seculo, neque in futuro’. Et de 
+impu<lb ed="#Bc" break="no"/>gnatione veritatis agnite, Joan. xv, 22:
+<lb ed="#Bc"/>Si non venissem et locutus fuissem eis,
+<lb ed="#Bc"/>peccatum non haberent : tune autem 
+ex<lb ed="#Bc" break="no"/>cusationem non habent de peccato suo.
+</p>
+               <p xml:id="Almn78-h32612-d1e1741">
+                  <lb ed="#Bc"/>Et per hane distinctionem patet 
+solu<lb ed="#Bc" break="no"/>tio ad omnia que inducta sunt circa.
+<lb ed="#Bc"/>primum.
+</p>
+               <p xml:id="Almn78-h32612-d1e1751">
+                  <lb ed="#Bc"/>Ad hoc quod queritur, Quis plus 4q ques
+<lb ed="#Bc"/>peccaverit, Adam, vel Heva?
+</p>
+               <p xml:id="Almn78-h32612-d1e1758">
+                  <lb ed="#Bc"/>Solvendum est etiam per 
+distinctio<lb ed="#Bc" break="no"/>nem. Si enim fiat comparatio in bono
+<lb ed="#Bc"/>contra quod peccatum est factum : cum
+<lb ed="#Bc"/>Adam peccaverit contra deiformem 
+men<lb ed="#Bc" break="no"/>tem qua preditus fuit, et contra bonum
+<lb ed="#Bc"/>quo principium erat omnis humane 
+na<lb ed="#Bc" break="no"/>ture, et non Heva, sic Adam plus 
+pec<lb ed="#Bc" break="no"/>cavit. Si vero fit comparatio in inducente
+<lb ed="#Bc"/>peccatum : tunc quia Heva induxit Adam,
+<lb ed="#Bc"/>plus peccavit quam ipse. Si vero fiat
+<lb ed="#Bc"/>comparatio in actu peccati: tune 
+equa<lb ed="#Bc" break="no"/>liter peccaverunt, quia equaliter 
+trans<lb ed="#Bc" break="no"/>gressi sunt. Si comparentur in pcoena
+<lb ed="#Bc"/>peccati: tune mulier plus punita fuit, et
+<lb ed="#Bc"/>plus peccavit. Et si comparentur ad
+<lb ed="#Bc"/>eum in quem peccaverunt: tune mulier
+<lb ed="#Bc"/>plus peccavit : quia peccavit et in virum
+<lb ed="#Bc"/>suum, et in Deum: vir autem tantum
+<lb ed="#Bc"/>in se et in Deum. Et haec solutio bona
+<lb ed="#Bc"/>est, et ponitur a Magistro in libro I
+<lb ed="#Bc"/>Sententiarum, distinct. XXII, cap. Ex
+<lb ed="#Bc"/>guo manifeste adverti potest.
+</p>
+               <p xml:id="Almn78-h32612-d1e1808">
+                  <lb ed="#Bc"/>Si vero fit comparatio in fastu 
+excu<lb ed="#Bc" break="no"/>sationis peccati: tune dicit Augustinus
+<lb ed="#Bc"/>in libro XI super Genesim ad litteram_ et
+<lb ed="#Bc"/>ponitur a Magistro in libro II 
+Sententia<lb ed="#Bc" break="no"/>rum, distinct. XXII, cap. Sed huie vide
+<pb ed="#Bc" n="155"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tur contrarium, tunc peccaverunt 
+equa<lb ed="#Bc" break="no"/>liter. Et sunt verba Augustiniista : <quote xml:id="Almn78-h32612-Qd1e1829"> Dixit
+<lb ed="#Bc"/>Adam: Mulier, quam dedisti mthi 
+so<lb ed="#Bc" break="no"/>ciam, dedit mihi de ligno, et comedi'.
+<lb ed="#Bc"/>Non dixit : Peccavi. Superbia enim habet
+<lb ed="#Bc"/>confusionis deiformitatem, non 
+confes<lb ed="#Bc" break="no"/>sionis humilitatem. Nec etiam mulier
+<lb ed="#Bc"/>confitetur peccatum, sed refert in 
+alte<lb ed="#Bc" break="no"/>rum, dicens: Serpens decepit me, et 
+com<lb ed="#Bc" break="no"/>edi: in impari sexu, sed pari statu .</quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e1850">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Bc"/>Adam in primo statu potuit peccare 
+ve<lb ed="#Bc" break="no"/>nialiter ?
+</p>
+               <p xml:id="Almn78-h32612-d1e1859">
+                  <lb ed="#Bc"/>Dicendum, quod sophisma est ex 
+com<lb ed="#Bc" break="no"/>positione et divisione. Si enim hoc quod
+<lb ed="#Bc"/>dico primo vel in primo statu, 
+compo<lb ed="#Bc" break="no"/>natur cum hoc verbo potuit, constat
+<lb ed="#Bc"/>quod in primo statu potuit et mortaliter
+<lb ed="#Bc"/>et venialiter peccare sicut et postea : quia
+<lb ed="#Bc"/>eamdem potentiam habuit, licet aliter et
+<lb ed="#Bc"/>aliter dispositam. Et in hoc sensu proce~
+<lb ed="#Bc"/>dit ratio in contrarium inducta.
+</p>
+               <p xml:id="Almn78-h32612-d1e1881">
+                  <lb ed="#Bc"/>Si vero eadem determinatio, scilicet
+<lb ed="#Bc"/>primo vel in primo statu, dividatur ab
+<lb ed="#Bc"/>hoc verbo potuit, et conjungitur cum
+<lb ed="#Bc"/>hoc verbo peccare: tunc constat, quod
+<lb ed="#Bc"/>non potuit nisi mortaliter. Et in hoc
+<lb ed="#Bc"/>sensu procedunt auctoritates et rationes
+<lb ed="#Bc"/>et maxime Augustini ad hoc inducte :
+<lb ed="#Bc"/>quia non potuit esse nisi mortale 
+pecca<lb ed="#Bc" break="no"/>tum sic commissum.
+</p>
+               <p xml:id="Almn78-h32612-d1e1904">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod Glossa distinguit gradus illius
+<lb ed="#Bc"/>peccati metaphorice secundum quod 
+pro<lb ed="#Bc" break="no"/>greditur in peccante. Sic enim abit a
+<lb ed="#Bc"/>recta via per precepti et pracipientis
+<lb ed="#Bc"/>contemptum : quia tunc non supponit se
+<lb ed="#Bc"/>precepto et pracipienti, et sic abit a
+<lb ed="#Bc"/>recta via in consilio impiorum. Et per
+<lb ed="#Bc"/>fructum delectabilis quod appetit in 
+pec<lb ed="#Bc" break="no"/>cato, stat et moratur in peccato. Per 
+ex<lb ed="#Bc" break="no"/>cusationem autem sedet ut magister,
+<lb ed="#Bc"/>docens quare ipse sit excusabilis, et alius
+<lb ed="#Bc"/>accusabilis. Et ideo dicitur in cathedra
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>pestilentie sedere. Pestilentia enim, ut
+<lb ed="#Bc"/>dicit Augustinus, morbus est a pastu
+<lb ed="#Bc"/>procreatus animalia inficiens. Cathedra
+<lb ed="#Bc"/>vero catechizantium est edes sive 
+docen<lb ed="#Bc" break="no"/>tium. Et sic Glossa distinguit gradus 
+pec<lb ed="#Bc" break="no"/>cati primi metaphorice.
+</p>
+               <p xml:id="Almn78-h32612-d1e1950">
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>Utrum Adam et Heva in primo statu
+<lb ed="#Bc"/>fuerunt deceptibiles, an non ?
+</p>
+               <p xml:id="Almn78-h32612-d1e1959">
+                  <lb ed="#Bc"/>Quarto queritur, Si Adam et Heva in
+<lb ed="#Bc"/>primo statu. fuerunt deceptibiles, an
+<lb ed="#Bc"/>non ?
+</p>
+               <p xml:id="Almn78-h32612-d1e1968">
+                  <lb ed="#Bc"/>1. Et hoc queritur ratione ejus quod
+<lb ed="#Bc"/>dicit Magister in illo cap. Solet queri,
+<lb ed="#Bc"/>ubi sic dicit Augustinus in libro XJ 
+su<lb ed="#Bc" break="no"/>per Genesim ad litteram: <quote xml:id="Almn78-h32612-Qd1e1978"> Cum 
+Apo<lb ed="#Bc" break="no"/>stolus Adam  fuisse prevaricatorem
+<lb ed="#Bc"/>ostendat, dicens, ad Roman. v, 14: In
+<lb ed="#Bc"/>similitudinem  prevaricationis Ade
+<lb ed="#Bc"/>(qui est forma futuri), seduclum tamen
+<lb ed="#Bc"/>negat, I ad Timoth. u, 14, ubi dicit :
+<lb ed="#Bc"/>Adam non est seductus, mulier autem
+<lb ed="#Bc"/>seducta in prevaricatione fuit. Unde et
+<lb ed="#Bc"/>interrogatus, Genes. mi, 12, non ait :
+<lb ed="#Bc"/>Molier seduxit me: sed, dedit mihi de
+<lb ed="#Bc"/>ligno, et comedi, Mulier vero inquit :
+<lb ed="#Bc"/>Serpens decepit me. Hance autem 
+sedu<lb ed="#Bc" break="no"/>ctionem proprie vocavit Apostolus, per
+<lb ed="#Bc"/>quam id quod suadebatur cum falsum
+<lb ed="#Bc"/>esset, verum putatum est, scilicet quod
+<lb ed="#Bc"/>Deus ideo lignum illud tangere 
+prohibue<lb ed="#Bc" break="no"/>rit, quia sciebat eos, si tetigissent, 
+tam<lb ed="#Bc" break="no"/>quam deos futuros : tamquam 
+divinita<lb ed="#Bc" break="no"/>tem invideret eis qui eos homines 
+fece<lb ed="#Bc" break="no"/>rat *. </quote> Ex his verbis accipitur, quod
+<lb ed="#Bc"/>mulier seducta fuit in primo statu : et
+<lb ed="#Bc"/>cum seduci sit falsumi pro vero 
+appro<lb ed="#Bc" break="no"/>bare, quod et idem est errare, videtur,
+<lb ed="#Bc"/>quod error in primo statu potuit incidere
+<pb ed="#Bc" n="156"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>in mulierem. Et si dicatur, quod aliter
+<lb ed="#Bc"/>est de muliere, et aliter de viro, obviat
+<lb ed="#Bc"/>Augustinus ibidem dicens: <quote xml:id="Almn78-h32612-Qd1e2042"> Licet non
+<lb ed="#Bc"/>sit seductus in hoc in quo mulicr, scilicet
+<lb ed="#Bc"/>quod crederet verum quod _ suadebat
+<lb ed="#Bc"/>serpens : tamen dicit, quod seductus est
+<lb ed="#Bc"/>in hoc, quod cum videret mulierem non
+<lb ed="#Bc"/>mortuam post tactum ligni, ignarus 
+di<lb ed="#Bc" break="no"/>vine severitatis quam adhuc expertus
+<lb ed="#Bc"/>non fuerat, seductus est in hoc, quod
+<lb ed="#Bc"/>putabat esse veniale quod fuit mortale. </quote>
+                  <lb ed="#Bc"/>Ergo et Adam et Heva seducti sunt in
+<lb ed="#Bc"/>statu innocentie : ergo seduci poterant.
+</p>
+               <p xml:id="Almn78-h32612-d1e2067">
+                  <lb ed="#Bc"/>2. Adhuc, In secundo Sententiarum,
+<lb ed="#Bc"/>distinct. XXJ, querit Magister ex verbis
+<lb ed="#Bc"/>Augustini et Bede, Quare mulier non
+<lb ed="#Bc"/>horruit serpentem ? Et solvit ibidem,
+<lb ed="#Bc"/>quod cum sciret eum creatum esse a
+<lb ed="#Bc"/>Deo, putabat etiam eum officium 
+lo<lb ed="#Bc" break="no"/>quendi accepisse a Deo : et hoc falsum
+<lb ed="#Bc"/>fuit : ergo falsum approbavit pro vero.
+</p>
+               <p xml:id="Almn78-h32612-d1e2087">
+                  <lb ed="#Bc"/>Si quis dicat, quod talis fallacia 
+se<lb ed="#Bc" break="no"/>cundum estimativam est, et non 
+secun<lb ed="#Bc" break="no"/>dum intellectum, et ideo non derogat
+<lb ed="#Bc"/>dignitati status innocenti#. Contra : 
+Au<lb ed="#Bc" break="no"/>gustinus in libro III de Libero arbitrio:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e2102"> Approbare falsa pro veris, non est 
+na<lb ed="#Bc" break="no"/>tura instituti hominis, sed poena 
+dam<lb ed="#Bc" break="no"/>nati *. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2111">
+                  <lb ed="#Bc"/>Adhuc, Augustinus in Enchiridion :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h32612-Qd1e2117"> Ipse per seipsum error aut magnum
+<lb ed="#Bc"/>in re magna, aul parvum in re parva,
+<lb ed="#Bc"/>semper tamen est malum. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2125">
+                  <lb ed="#Bc"/>Adhuc, Ibidem, <quote xml:id="Almn78-h32612-Qd1e2129"> Hie honiines fallunt
+<lb ed="#Bc"/>atque falluntur : miseriores quidem sunt
+<lb ed="#Bc"/>cum mentiendo fallunt, quam cum 
+men<lb ed="#Bc" break="no"/>tientibus credendo falluntur :. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2139">
+                  <lb ed="#Bc"/>Adhuc, Ibidem paulo post, <quote xml:id="Almn78-h32612-Qd1e2143"> Usque
+<lb ed="#Bc"/>adeo natura rationalis refugit falsitatem,
+<lb ed="#Bc"/>et quantum potest devitat errorem, ut
+<lb ed="#Bc"/>falli nolint etiam quicumque amant
+<lb ed="#Bc"/>fallere. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2155">
+                  <lb ed="#Bc"/>Si forte aliquis diceret, quod 
+Augusti<lb ed="#Bc" break="no"/>nus loquitur de fallacia deceptionis que
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>indecora est. Contra videtur Augustinus
+<lb ed="#Bc"/>dicere sic : <quote xml:id="Almn78-h32612-Qd1e2168"> Cum nihil sit aliud errare
+<lb ed="#Bc"/>quam verum putare quod falsum est,
+<lb ed="#Bc"/>falsumque quod verum est : vel certum
+<lb ed="#Bc"/>habere pro incerto, incertumve pro certo
+<lb ed="#Bc"/>sive falsum, sive sit verum : idque tam
+<lb ed="#Bc"/>sit in animo deforme atque indecens,
+<lb ed="#Bc"/>quam pulchrum atque decorum esse
+<lb ed="#Bc"/>sentimus, vel inloquendo, vel 
+assentien<lb ed="#Bc" break="no"/>do dicere : Est, est : Non, non : profecto et
+<lb ed="#Bc"/>ob hoc ipsum est vita ista misera qua
+<lb ed="#Bc"/>vivimus, quod ei nonumquam ut non
+<lb ed="#Bc"/>amittatur, error est necessarius *. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2195">
+                  <lb ed="#Bc"/>Sotunrio. In ista questione diversi
+<lb ed="#Bc"/>diversa dixerunt. Quidam enim dixerunt,
+<lb ed="#Bc"/>quod naturales deceptiones que sunt
+<lb ed="#Bc"/>secundum sensibilem partem anime,
+<lb ed="#Bc"/>sicut sunt somniales visiones in quibus
+<lb ed="#Bc"/>convertitur anima super imagines sicut
+<lb ed="#Bc"/>super res, cum tamen hoc falsum sit. Et
+<lb ed="#Bc"/>in vigilia in qua, sicut dicunt perspectivi,
+<lb ed="#Bc"/>quidquid videtur, hoc videtur sub angulo
+<lb ed="#Bc"/>trianguli, cujus basis est res visa, 
+hypo<lb ed="#Bc" break="no"/>thenusa radiusluminis reflexi in oculum :
+<lb ed="#Bc"/>et ideo quanto longius res videtur, tanto
+<lb ed="#Bc"/>minor esse videtur : quod tamen falsum
+<lb ed="#Bc"/>est, quia ex hoc non est minor res, sed
+<lb ed="#Bc"/>hoc propter angulum in oculo 
+conclu<lb ed="#Bc" break="no"/>sum, qui acutior et strictior est, quanto
+<lb ed="#Bc"/>longius distat ab eo basis, sicut probat
+<lb ed="#Bc"/>Euclides in libro de Fallacia visus. Et
+<lb ed="#Bc"/>has dixerunt esse naturales deceptiones,
+<lb ed="#Bc"/>et his dicebant posse decipi primos 
+pa<lb ed="#Bc" break="no"/>rentes in primo statu : eo quod in primo
+<lb ed="#Bc"/>statu eadem habuerunt naturalia que
+<lb ed="#Bc"/>habuerunt post peccatum, ut dicit 
+Dio<lb ed="#Bc" break="no"/>nysius in libro de Divinis nominibus °.
+</p>
+               <p xml:id="Almn78-h32612-d1e2250">
+                  <lb ed="#Bc"/>Et isti dicunt, quod talis error non repug- 
+<lb ed="#Bc" break="no"/>nat primo statui.
+</p>
+               <p xml:id="Almn78-h32612-d1e2258">
+                  <lb ed="#Bc"/>Sed quia hoc dictis Sanctorum nullo
+<lb ed="#Bc"/>modo concordat, eo quod Augustinus,
+<lb ed="#Bc"/>sicut patet in auctoritatibus inductis,
+<lb ed="#Bc"/>dicit, quod omnis error ad miseram vi
+<pb ed="#Bc" n="157"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tam pertinet, ideo videtur dicendum,
+<lb ed="#Bc"/>quod Adam et Heva quamdiu immunes
+<lb ed="#Bc"/>erant ab omni peccato et penitus 
+inno<lb ed="#Bc" break="no"/>centes, sicut fuerunt in corpore penitus
+<lb ed="#Bc"/>impassibiles et ab intus et ab extra, ita
+<lb ed="#Bc"/>in animo penitus fuerunt indeceptibiles,
+<lb ed="#Bc"/>et nullius erroris susceptivi. Sed hoc 
+ve<lb ed="#Bc" break="no"/>rum est, quod ante transgressionem 
+fa<lb ed="#Bc" break="no"/>ctam per comestionem actualem decepti
+<lb ed="#Bc"/>fuerunt et deceptibiles, sed non ante
+<lb ed="#Bc"/>omne peccatum : quia precessit in eis
+<lb ed="#Bc"/>elatio que fuit per humilitatem 
+compri<lb ed="#Bc" break="no"/>menda, et post illam elationem 
+decepti<lb ed="#Bc" break="no"/>biles facli sant : et ideo tunc non fuerunt
+<lb ed="#Bc"/>in statu immunitatis omnis peccali. Sed
+<lb ed="#Bc"/>verum est, quod fuerunt in statu qui
+<lb ed="#Bc"/>fuit ante transgressionem factam per
+<lb ed="#Bc"/>opus.
+  
+<lb ed="#Bc"/>Et per hoc patet solutio ad totum.
+</p>
+               <p xml:id="Almn78-h32612-d1e2315">
+                  <lb ed="#Bc"/>MEMBRUM V.
+<lb ed="#Bc"/>Utrum peccatum primorum parentum
+<lb ed="#Bc"/>fuerit remediabile, cum peccatum
+<lb ed="#Bc"/>Angelorum fuerit irremediabile' ?
+</p>
+               <p xml:id="Almn78-h32612-d1e2326">
+                  <lb ed="#Bc"/>Quinto queritur, Utrum Angelus 
+ir<lb ed="#Bc" break="no"/>remediabiliter peccavit, homo autem
+<lb ed="#Bc"/>remediabiliter ? ratione dicti Augustini,
+<lb ed="#Bc"/>ubi supra.
+</p>
+               <p xml:id="Almn78-h32612-d1e2337">
+                  <lb ed="#Bc"/>Videtur, quod sic : quia
+<lb ed="#Bc"/>1. Quanto habilior fuit homo ad 
+sug<lb ed="#Bc" break="no"/>gestionem, tanto facilior est ad veniam:
+<lb ed="#Bc"/>ergo licet Angelus peccasset 
+irremedia<lb ed="#Bc" break="no"/>biliter, tamen homo non peccavit 
+irre<lb ed="#Bc" break="no"/>mediabiliter.
+</p>
+               <p xml:id="Almn78-h32612-d1e2353">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in libro II de 
+Li<lb ed="#Bc" break="no"/>bero arbitrio : <quote xml:id="Almn78-h32612-Qd1e2359"> Factum est, ut culpa 
+ho<lb ed="#Bc" break="no"/>minum susciperet emendatoriam penam
+<lb ed="#Bc"/>potius quam interfectoriam : ut cui se
+<lb ed="#Bc"/>diabolus ad imitationem superbie pra
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>buerat ad culpam, ei se Deus ad 
+imi<lb ed="#Bc" break="no"/>tationem humilitatis preberet ad 
+ve<lb ed="#Bc" break="no"/>niam. </quote> .
+</p>
+               <p xml:id="Almn78-h32612-d1e2378">
+                  <lb ed="#Bc"/>3. Adhuc, Magister in libro II 
+Senten<lb ed="#Bc" break="no"/>tiarum, distinct. XXIJ, cap. Preterea
+<lb ed="#Bc"/>angelica, ralionem ponit quare 
+remedia<lb ed="#Bc" break="no"/>bile sit peccatum hominis : et inducit
+<lb ed="#Bc"/>Augustinum in Enchiridion * sic 
+dicen<lb ed="#Bc" break="no"/>tem: <quote xml:id="Almn78-h32612-Qd1e2393"> Placuit universitatis creatori et
+<lb ed="#Bc"/>moderatori, ut quoniam non tota 
+mul<lb ed="#Bc" break="no"/>titudo Angelorum Deum deserendo 
+per<lb ed="#Bc" break="no"/>ierat, ea que perierat, in Perpetua per.
+<lb ed="#Bc"/>ditione remaneret : que aulem cum Deo
+<lb ed="#Bc"/>illa deserente perstiterat, de sua 
+certissi<lb ed="#Bc" break="no"/>me cognita semper felicitate gauderet. At
+<lb ed="#Bc"/>vero rationalis creatura que in hominibus
+<lb ed="#Bc"/>erat, quoniam peccatis atque suppliciis (in
+<lb ed="#Bc"/>primo homine in quo tota erat) tota 
+per<lb ed="#Bc" break="no"/>ierat, ex parte poterat reparari, unde 
+an<lb ed="#Bc" break="no"/>gelice societati suppleretur quod ruina
+<lb ed="#Bc"/>illa minuerat : hoc enim promissum est
+<lb ed="#Bc"/>Sanctis, Matth. xxu, 30, quod erunt
+<lb ed="#Bc"/>equales Angelis Dei in ceelis. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2428">
+                  <lb ed="#Bc"/>4, Adhuc, Isidorus, in libro de 
+Trini<lb ed="#Bc" break="no"/>tate : <quote xml:id="Almn78-h32612-Qd1e2434"> Homo post peccatum ideo 
+reverti<lb ed="#Bc" break="no"/>tur ad veniam, quia ex lutea materia
+<lb ed="#Bc"/>pondus traxit infirmitatis : et ideo pro
+<lb ed="#Bc"/>infirma carnis conditione reditus patet
+<lb ed="#Bc"/>homini ad salutem. </quote>
+               </p>
+               <p xml:id="Almn78-h32612-d1e2446">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Peccatum fit tribus modis : ex 
+in<lb ed="#Bc" break="no"/>firmitate, et ignorantia, et certa malitia.
+<lb ed="#Bc"/>Et, sicut dicit Isidorus in libro HI de
+<lb ed="#Bc"/>Summo bono. <quote xml:id="Almn78-h32612-Qd1e2459"> Gravius peccatur ex
+<lb ed="#Bc"/>infirmitate quam ex ignorantia, 
+gravissi<lb ed="#Bc" break="no"/>me ex certa malitia. </quote> Sed Adam non
+<lb ed="#Bc"/>peccavit ex infirmitate, cum nulla 
+infir<lb ed="#Bc" break="no"/>mitas fuerit in eo, sicut probat Magister
+<lb ed="#Bc"/>per verba Augustini in libro II 
+Sententia<lb ed="#Bc" break="no"/>rum, distinct. XXH, cap. Ais autem
+<lb ed="#Bc"/>oppont solet. Nec ex ignorantia : quia
+<lb ed="#Bc"/>infirmitas et ignorantia pene sunt 
+pec<lb ed="#Bc" break="no"/>cati, ut dicit Augustinus : et ante 
+pec<lb ed="#Bc" break="no"/>catum non fuit poena peccati. Videtur
+<lb ed="#Bc"/>ergo, quod peccavit ex certa malitia :
+<pb ed="#Bc" n="158"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>sed peccatum ex certa malitia est 
+pecca<lb ed="#Bc" break="no"/>tum in Spiritum sanctum: et de hoc
+<lb ed="#Bc"/>dicitur, Matth. xm, 32, quod non 
+remitie<lb ed="#Bc" break="no"/>tur, neque in hoc seculo, neque in futuro.
+<lb ed="#Bc"/>Ergo videtur, quod peccavit irremissibili
+<lb ed="#Bc"/>peccato.
+</p>
+               <p xml:id="Almn78-h32612-d1e2503">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in libro de 
+Mi<lb ed="#Bc" break="no"/>rabilibus sacre Scripture : <quote xml:id="Almn78-h32612-Qd1e2509"> Angelus
+<lb ed="#Bc"/>quia de sublimissimo statu nature cecidit,
+<lb ed="#Bc"/>resurgere non potuit. </quote> Ergo a simili
+<lb ed="#Bc"/>cum Adam de sublimissimo statu nature
+<lb ed="#Bc"/>sue cecidit, videtur quod ad veniam 
+re<lb ed="#Bc" break="no"/>surgere non debuit.
+</p>
+               <p xml:id="Almn78-h32612-d1e2524">
+                  <lb ed="#Bc"/>Solutio. Dicendum quod Catholica
+<lb ed="#Bc"/>fides est, quod homo peccavit 
+remediabi<lb ed="#Bc" break="no"/>liter, et Angelus irremissibiliter. Et hujus
+<lb ed="#Bc"/>assignantur due cause ab Augustino.
+<lb ed="#Bc"/>Una est, quia alio suadente peccavit,
+<lb ed="#Bc"/>ideo alio reducente veniam consequi
+<lb ed="#Bc"/>potuit Secunda est, quia tota natura
+<lb ed="#Bc"/>humana in Adam corrupta fuit : et ideo
+<lb ed="#Bc"/>nisi repararetur ex parte, plus potuisset
+<lb ed="#Bc"/>peccatum ad corruptionem quam gratia
+<lb ed="#Bc"/>ad redemptionem : quia nec ruina 
+ange<lb ed="#Bc" break="no"/>lica fuisset reparata, nec homo 
+pervenis<lb ed="#Bc" break="no"/>set ad finem ad quem creatus est. In
+<lb ed="#Bc"/>prehabitis enim determinatum est per
+<lb ed="#Bc"/>verba Augustini, quod factus est ut Deo
+<lb ed="#Bc"/>frueretur : ad quod non pervenisset nisi
+<lb ed="#Bc"/>reparatus esset, et sic in vanum creatus
+<lb ed="#Bc"/>esset : et hoc non convenit sapientia 
+di<lb ed="#Bc" break="no"/>vine que nihil creat in vanum.
+</p>
+               <p xml:id="Almn78-h32612-d1e2568">
+                  <lb ed="#Bc"/>Ad primum dicendum, quod Adam non
+<lb ed="#Bc"/>peccavit ex certa malitia, sed peccavit
+<lb ed="#Bc"/>ex infirmitate, et aliquo modo ex 
+igno<lb ed="#Bc" break="no"/>rantia. Ex infirmitate scilicet carnis :
+<lb ed="#Bc"/>caro enim sua fnit corruptibilis aliquo
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>modo corruptione naturali, non peenali,
+<lb ed="#Bc"/>de qua dicitur, Sapient. 1x, 15 : Corpus
+<lb ed="#Bc"/>quod corrumpitur, aggravat animam, et
+<lb ed="#Bc"/>terrena inhabitatio deprimit . sensum
+<lb ed="#Bc"/>mulia cogitantem. Peccavit etiam aliquo
+<lb ed="#Bc"/>modo ex ignorantia : quia, sicut in 
+pre<lb ed="#Bc" break="no"/>habitis determinatum est in questione de
+<lb ed="#Bc"/>origine illius peccati, cum videret 
+mu<lb ed="#Bc" break="no"/>lierem ex tactu ligni non statim esse
+<lb ed="#Bc"/>mortuam, in hoc decipi potuit, ut dicit
+<lb ed="#Bc"/>Augustinus, quod putavit esse veniale
+<lb ed="#Bc"/>quod erat mortale : et sic aliquo modo
+<lb ed="#Bc"/>fuit ex ignorantia, licet non simpliciter.
+<lb ed="#Bc"/>Et ideo peccatum suum in Spiritum san 
+<lb ed="#Bc" break="no"/>ctum non fuit, nec fuit contra bonitatem
+<lb ed="#Bc"/>in qua peccata omnia remittuntur.
+</p>
+               <p xml:id="Almn78-h32612-d1e2618">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod est 
+subli<lb ed="#Bc" break="no"/>missimus status in genere, et est 
+subli<lb ed="#Bc" break="no"/>missimus status simpliciter. 
+Sublimissi<lb ed="#Bc" break="no"/>mus status simpliciter nature create, est
+<lb ed="#Bc"/>nalure intellectualis, spiritualis, et 
+in<lb ed="#Bc" break="no"/>corruptibilis : et ab illo cecidit Lucifer.
+<lb ed="#Bc"/>Sublimissimus autem status in genere,
+<lb ed="#Bc"/>est stalus innocentie, in qua nec culpa,
+<lb ed="#Bc"/>nec poena depressit naturam : qui 
+subli<lb ed="#Bc" break="no"/>missimus dicitur respectu status peccati,
+<lb ed="#Bc"/>in quo, sicut dicit Apostolus, ad Roman.
+<lb ed="#Bc"/>vill, 10, corpus mortuum est propter
+<lb ed="#Bc"/>peccatum, hoc est, necessitati mortis
+<lb ed="#Bc"/>addictum. Et ab illo cecidit Adam. Et
+<lb ed="#Bc"/>ideo sicut dicit Magister in libro II 
+Sen<lb ed="#Bc" break="no"/>tentiarum, distinct. XXI, cap. Porro
+<lb ed="#Bc"/>sciendum : <quote xml:id="Almn78-h32612-Qd1e2657"> Homo quia inclinans ad
+<lb ed="#Bc"/>peccatum intus non habuit, sed extra
+<lb ed="#Bc"/>tantum, et ideo facile resistere potuit,
+<lb ed="#Bc"/>gravius plecti debuit, sed irremissibiliter
+<lb ed="#Bc"/>non peccavit. </quote>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

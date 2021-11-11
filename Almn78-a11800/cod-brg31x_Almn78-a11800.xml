@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 48</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 48</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="505"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a11800"><!-- p1t12q48 -->
+            <head xml:id="Almn78-a11800-Hd1e106">Quaestio 48</head>
+            <head xml:id="Almn78-a11800-Hd1e109" type="question-title">De appropriatione secundum Hilarium.</head>
+            <p xml:id="Almn78-a11800-d1e112">
+               <pb ed="#Ba" n="505"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO XLVIII.
+<lb ed="#Ba"/>De appropriatione secundum Hilarium.
+</p>
+            <div xml:id="Almn78-a11800-Dd1e123">
+               <head xml:id="Almn78-a11800-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-a11800-Hd1e128" type="question-title">
+    Secundum quam rationem fit 
+    appropriatio in communi.
+  </head>
+               <p xml:id="Almn78-a11800-d1e131">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Secundum quam rationem fit 
+appropria<lb ed="#Ba" break="no"/>tio in communi.
+</p>
+               <p xml:id="Almn78-a11800-d1e140">
+                  <lb ed="#Ba"/>Ad PRIMUM ergo sic objicitur :
+<lb ed="#Ba"/>Appropriatum ex modo compositionis
+<lb ed="#Ba"/>et habitudine prepositionis, que 
+acces<lb ed="#Ba" break="no"/>sum et recessum vicinitatis consignificat,
+<lb ed="#Ba"/>dicit accessum ad proprium. 
+Appropria<lb ed="#Ba" break="no"/>tum ergo est, quod ratione sui nominis
+<lb ed="#Ba"/>vicinam habet rationem cum proprio.
+<lb ed="#Ba"/>Sicut verbum cum non sit nisi angelus
+(ut dicit Damascenus) intelligentix, et
+<lb ed="#Ba"/>verbum sit proprium Filio, intelligentia
+<lb ed="#Ba"/>et sapientia ex quibus formatur verbum,
+<lb ed="#Ba"/>accedunt per rationem suam ad verbum :
+<lb ed="#Ba"/>et ideo appropriantur Filio. Genita enim
+<lb ed="#Ba"/>a mente notitia, sive sapientia, vel 
+in<lb ed="#Ba" break="no"/>telligentia verbum est. Propter quod
+<lb ed="#Ba"/>rationes suas habet juxta verbum. Eodem
+<lb ed="#Ba"/>modo est de Patre cui attribuitur 
+poten<lb ed="#Ba" break="no"/>tia. Pater enim non sonat aliquid nisi
+<lb ed="#Ba"/>quod potenti est secundum propriam
+<lb ed="#Ba"/>Patris rationem : Filius autem 
+secun<lb ed="#Ba" break="no"/>dum Filii rationem propriam, licet non
+<lb ed="#Ba"/>sonet impotentiam, tamen ipso nomine
+<lb ed="#Ba"/>non totum quod dicit, potentie est. Nec
+<lb ed="#Ba"/>Spiritus sanctus totum quod dicit ipso
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>nomine, designat potentiam. Propter
+<lb ed="#Ba"/>quod Patri potentia appropriatur, non
+<lb ed="#Ba"/>Filio, nec Spiritui sancto. Voluntas 
+au<lb ed="#Ba" break="no"/>tem sive bonitas appropriatur Spiritui
+<lb ed="#Ba"/>sancto : eo quod Spiritus sanctus 
+proce<lb ed="#Ba" break="no"/>dit per modum amoris et doni: eo quod
+<lb ed="#Ba"/>amor primum bonum est quod in 
+com<lb ed="#Ba" break="no"/>municationem et dona diffundit affectum.
+<lb ed="#Ba"/>Et hoc modo appropriatio fit prima, que
+<lb ed="#Ba"/>est ex hoc, quod significationes 
+appro<lb ed="#Ba" break="no"/>priatorum secundum modum significandi
+<lb ed="#Ba"/>vicine sunt rationibus et significationibus
+<lb ed="#Ba"/>propriorum.
+  
+<lb ed="#Ba"/>Et hoc quidem concedendum est. Gum
+<lb ed="#Ba"/>autem Deus sit causa efficiens, formalis,
+<lb ed="#Ba"/>et finalis, secundum quod in tractatu de
+<lb ed="#Ba"/>bono dictum est, quod bonum est quod a
+<lb ed="#Ba"/>bono est, plantatum in bono, et ad 
+bo<lb ed="#Ba" break="no"/>num, ex adjunctis fit aliquando 
+appro<lb ed="#Ba" break="no"/>priatio ex habitudinibus prepositionum.
+<lb ed="#Ba"/>Et quia hec praepositio, ex, non notat
+<lb ed="#Ba"/>nisi originem cause, quando materialis
+<lb ed="#Ba"/>non est, propter hoc cum dicitur, ex
+<lb ed="#Ba"/>ipso, intelligitur Pater, in quo non 
+desi<lb ed="#Ba" break="no"/>gnatur nisi origo et non originatum, ut
+<lb ed="#Ba"/>per pronomen notetur discretio 
+persona<lb ed="#Ba" break="no"/>lis, per adjunctam prepositionem 
+traha<lb ed="#Ba" break="no"/>tur ad Patrem, et sic per adjunctum fit
+<lb ed="#Ba"/>appropriatio. Prepositio autem per,
+<lb ed="#Ba"/>modum cause medie denotat, et quasi
+<lb ed="#Ba"/>cause regitive in opere, sicut dicimus,
+<lb ed="#Ba"/>quod statuarius facit statuam per artem
+<lb ed="#Ba"/>statuariam. Et ideo cum Filius ars sit
+<lb ed="#Ba"/>Patris, per quam omnia facit sicut per
+<pb ed="#Ba" n="506"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>virtutem et sapientiam, cum dicitur per
+<lb ed="#Ba"/>ipsum, discretio personalis que notatur
+<lb ed="#Ba"/>in pronomine ex adjuncta prepositione,
+<lb ed="#Ba"/>trahitur ad standum pro Filio, in cujus
+<lb ed="#Ba"/>forma fit et plantatur omne quod fit: et
+<lb ed="#Ba"/>ideo per ipsum sicut per primam formam
+<lb ed="#Ba"/>fieri dicitur. Eodem modo haec 
+praposi<lb ed="#Ba" break="no"/>tio, in, constructionem et continentiam
+<lb ed="#Ba"/>notat : et quia omnia conservantur et
+<lb ed="#Ba"/>continentur bono, quod Spiritui sancto
+<lb ed="#Ba"/>appropriatum est, ideo cum dicitur, in
+<lb ed="#Ba"/>ipso, discretio personalis que in 
+prono<lb ed="#Ba" break="no"/>mine est, ex adjuncta prepositione 
+tra<lb ed="#Ba" break="no"/>hitur ad standum pro Spiritu sancto : ut
+</p>
+               <p xml:id="Almn78-a11800-d1e303">
+                  <lb ed="#Ba"/>ex eodem pronomine quod substantiam
+<lb ed="#Ba"/>significat, intelligatur consubstantialitas,
+</p>
+               <p xml:id="Almn78-a11800-d1e311">
+                  <lb ed="#Ba"/>Sed contra,
+<lb ed="#Ba"/>ex trina iteratione personarum trinitas,
+<lb ed="#Ba"/>ex transitione prepositionum et modo
+<lb ed="#Ba"/>significandi intelligatur uniuscujusque
+<lb ed="#Ba"/>persone proprietas.
+</p>
+               <p xml:id="Almn78-a11800-d1e324">
+                  <lb ed="#Ba"/>Et hoc etiam concedendum est : haec
+<lb ed="#Ba"/>est enim vera traditio cognoscendi 
+ap<lb ed="#Ba" break="no"/>propriata.
+</p>
+               <p xml:id="Almn78-a11800-d1e333">
+                  <lb ed="#Ba"/>Sunt tamen qui objiciunt in 
+contra<lb ed="#Ba" break="no"/>rium dicentes, quod communium et 
+ap<lb ed="#Ba" break="no"/>propriatorum rationes sunt opposite.
+<lb ed="#Ba"/>Opposita autem in eodem esse non 
+pos<lb ed="#Ba" break="no"/>sunt. Essentialia autem omnia sunt
+<lb ed="#Ba"/>communia tribus personis indifferenter
+<lb ed="#Ba"/>convenientia. Videtur ergo, quod 
+essen<lb ed="#Ba" break="no"/>tialium nihil sit appropriatum. Sed 
+que<lb ed="#Ba" break="no"/>cumque dicuntur ab Hilario et ab 
+Au<lb ed="#Ba" break="no"/>gustino, appropriata sunt essentialia.
+<lb ed="#Ba"/>Ergo nihil horum debet esse 
+appropria<lb ed="#Ba" break="no"/>tum.
+</p>
+               <p xml:id="Almn78-a11800-d1e362">
+                  <lb ed="#Ba"/>Adhuc, In appropriato — intelligitur
+<lb ed="#Ba"/>proprium : sed quod intelligitur in 
+alie<lb ed="#Ba" break="no"/>no, cogit nomen ad standum pro illo :
+<lb ed="#Ba"/>ergo appropriatum stat pro proprio :
+<lb ed="#Ba"/>sed quod stat pro proprio, non potest,
+<lb ed="#Ba"/>esse commune vel essentiale : ergo 
+ap<lb ed="#Ba" break="no"/>propiatum essentiale esse non potest.
+</p>
+               <p xml:id="Almn78-a11800-d1e380">
+                  <lb ed="#Ba"/>Responsio. Dicendum est, quod prima
+<lb ed="#Ba"/>doctrina appropriatorum vera est.
+</p>
+               <p xml:id="Almn78-a11800-d1e387">
+                  <lb ed="#Ba"/>Distinguendum tamen est, quod in
+<lb ed="#Ba"/>divinis nominibus quedam sunt propria,
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quedam appropriata, et quedam 
+appro<lb ed="#Ba" break="no"/>priabilia. #
+</p>
+               <p xml:id="Almn78-a11800-d1e401">
+                  <lb ed="#Ba"/>Propria sunt, que ex 
+incommunici<lb ed="#Ba" break="no"/>bili proprietate personali quam  
+signili<lb ed="#Ba" break="no"/>cant, vel incommunicabili proprietate
+<lb ed="#Ba"/>persone sunt imposita, ut ingenitus,
+<lb ed="#Ba"/>innascibilis, Pater, Filius, et Spiritus
+<lb ed="#Ba"/>sanctus.
+</p>
+               <p xml:id="Almn78-a11800-d1e417">
+                  <lb ed="#Ba"/>Appropriata sunt que ex modo 
+rela<lb ed="#Ba" break="no"/>tivi quod designant, proprio de 
+necessi<lb ed="#Ba" break="no"/>tate conjuncta sunt : ut imago et 
+ver<lb ed="#Ba" break="no"/>bum appropriata sunt Filio : quia eadem
+<lb ed="#Ba"/>relalione qua dicitur Filius, dicitur 
+ver<lb ed="#Ba" break="no"/>bum et imago, ut dicit Augustinus. Et
+<lb ed="#Ba"/>hoc modo principium non de principio
+<lb ed="#Ba"/>appropriatum est Patri, et principium
+<lb ed="#Ba"/>de principio Filio, principium autein de
+<lb ed="#Ba"/>utroque principio appropriatum est 
+Spi<lb ed="#Ba" break="no"/>ritui sancto, Eadem enim relatione qua
+<lb ed="#Ba"/>Pater est ingenitus et Pater, dicitur
+<lb ed="#Ba"/>principium non de principio : et. eadem
+<lb ed="#Ba"/>relatione gua Filius est a Patre, dicitur
+<lb ed="#Ba"/>principium de principio : et eadem 
+re<lb ed="#Ba" break="no"/>latione qua Spiritus sanctus procedit de
+<lb ed="#Ba"/>utroque ut Deus plenus, dicitur 
+princi<lb ed="#Ba" break="no"/>pium de principio utroque.
+</p>
+               <p xml:id="Almn78-a11800-d1e459">
+                  <lb ed="#Ba"/>Appropriabilia autem sunt, que 
+qui<lb ed="#Ba" break="no"/>dem significant essentiam, nec sunt 
+pro<lb ed="#Ba" break="no"/>pria, sed communia, sed ex modo 
+signi<lb ed="#Ba" break="no"/>ficandi eadem possunt supponere pro
+<lb ed="#Ba"/>persona. Et quis sit ille modus, satis 
+de<lb ed="#Ba" break="no"/>terminatum est in tractatu de generatione
+<lb ed="#Ba"/>Filii, in illo articulo ubi queritur, Ex
+<lb ed="#Ba"/>quo fit generatio? Modus enim ille 
+si<lb ed="#Ba" break="no"/>gnificandi sumitur aliquando, quod 
+si<lb ed="#Ba" break="no"/>gnificat essentiam ut in habente, sicut
+<lb ed="#Ba"/>Deus. Aliquando quod significat eam ad
+<lb ed="#Ba"/>actum, ut sapientia et virtus. Actus enim,
+<lb ed="#Ba"/>ut dicit Aristoteles, particularium sunt.
+</p>
+               <p xml:id="Almn78-a11800-d1e490">
+                  <lb ed="#Ba"/>Et hoc solo modo queritur hic de 
+ap<lb ed="#Ba" break="no"/>propriatis, que scilicet essentialia sunt
+<lb ed="#Ba"/>secundum significationem : ex modo
+<lb ed="#Ba"/>tamen significandi quo accedunt ad 
+ali<lb ed="#Ba" break="no"/>quam personarum, supponunt pro 
+per<lb ed="#Ba" break="no"/>sona illa ad quam inclinantur ex modo
+<lb ed="#Ba"/>significandi.
+</p>
+            </div>
+            <div xml:id="Almn78-a11800-Dd1e509">
+               <head xml:id="Almn78-a11800-Hd1e511">Membrum 2</head>
+               <head xml:id="Almn78-a11800-Hd1e514" type="question-title">De appropriatis secundum Hilarium in speciali.</head>
+               <p xml:id="Almn78-a11800-d1e517">
+                  <pb ed="#Ba" n="507"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>De appropriatis secundum Hilarium
+<lb ed="#Ba"/>in speciali.
+</p>
+               <p xml:id="Almn78-a11800-d1e530">
+                  <lb ed="#Ba"/>Secundo, Queritur de appropriatis 
+se<lb ed="#Ba" break="no"/>cundum Hilarium in speciali, qui dicit
+<lb ed="#Ba"/>eternitatem esse in Patre, speciem in
+<lb ed="#Ba"/>imagine, usum in munere. Que verba
+<lb ed="#Ba"/>tractans Augustinus in libro VI de 
+7ri<lb ed="#Ba" break="no"/>nitate, magne difficultatis dicit esse *.
+</p>
+               <p xml:id="Almn78-a11800-d1e546">
+                  <lb ed="#Ba"/>Videtur enim eternitas non 
+appropria<lb ed="#Ba" break="no"/>ri Patri :
+</p>
+               <p xml:id="Almn78-a11800-d1e554">
+                  <lb ed="#Ba"/>4. Aeternitas enim equaliler attribuitur
+<lb ed="#Ba"/>Patri et Filio et Spiritui sancto. Unde in
+<lb ed="#Ba"/>symbolo Athanasii dicitur: <quote xml:id="Almn78-a11800-Qd1e562"> Aiternus
+<lb ed="#Ba"/>Pater, eternus Filius, eternus Spiritus
+<lb ed="#Ba"/>sanctus. </quote> Et sic @ternitas non videtur
+<lb ed="#Ba"/>esse appropriata Patri.
+</p>
+               <p xml:id="Almn78-a11800-d1e572">
+                  <lb ed="#Ba"/>2. Adhuc, In libro 1 Sententiarum,
+<lb ed="#Ba"/>distinct. VIII, dicitur, quod <quote xml:id="Almn78-a11800-Qd1e578"> eternitas
+<lb ed="#Ba"/>est proprietas divine essentie. </quote> Quod
+<lb ed="#Ba"/>autem proprietas est divine essentia,
+<lb ed="#Ba"/>non est appropriabile persone. 
+AMterni<lb ed="#Ba" break="no"/>tas ergo non est appropriabilis Patri.
+</p>
+               <p xml:id="Almn78-a11800-d1e591">
+                  <lb ed="#Ba"/>3. Adhuc, Quare dicitur species esse
+<lb ed="#Ba"/>in imagine? Si enim species est ad 
+ex<lb ed="#Ba" break="no"/>pressam similitudinem, cum  expressa
+<lb ed="#Ba"/>similitudo sit in Spiritu sancto sicut in
+<lb ed="#Ba"/>Filio, videtur quod Spiritus sanctus sit
+<lb ed="#Ba"/>species Patris sicut et Filius.
+</p>
+               <p xml:id="Almn78-a11800-d1e607">
+                  <lb ed="#Ba"/>4. Adhuc, Objicitur de verbo 
+Augu<lb ed="#Ba" break="no"/>stini quod dicit assignans rationem :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a11800-Qd1e615"> Imago si perfecte implet illud cujus est
+<lb ed="#Ba"/>imago, ipsa coequatur ei, non illud 
+ima<lb ed="#Ba" break="no"/>gini sue*. </quote> Ex hoc enim videtur, quod
+<lb ed="#Ba"/>Filius sit coequalis Patri, et non Pater
+<lb ed="#Ba"/>Filio, quod falsum est.
+</p>
+               <p xml:id="Almn78-a11800-d1e628">
+                  <lb ed="#Ba"/>5. Adhuc, Objicitur de hoc quod dicit
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Augustinus explanans predicta verba,
+<lb ed="#Ba"/>sicut Magister dicit in libro I 
+Sententia<lb ed="#Ba" break="no"/>rum, distinct. XXXI, cap. Et quia non
+<lb ed="#Ba"/>mediocris, assignans rationem quare
+<lb ed="#Ba"/>Filio attribuit speciem : <quote xml:id="Almn78-a11800-Qd1e645"> Credo 
+prop<lb ed="#Ba" break="no"/>ter pulchritudinem, ubi tanta est 
+con<lb ed="#Ba" break="no"/>gruentia, et prima equalitas, et prima
+<lb ed="#Ba"/>similitudo. </quote> Et cum primum dicatur
+<lb ed="#Ba"/>respectu secundi, videltur quod in 
+Spi<lb ed="#Ba" break="no"/>ritu sancto sit secunda xqualitas et 
+se<lb ed="#Ba" break="no"/>cunda similitudo, quod falsum est.
+</p>
+               <p xml:id="Almn78-a11800-d1e661">
+                  <lb ed="#Ba"/>6. Adhuc queritur, Quare usus 
+attri<lb ed="#Ba" break="no"/>buitur Spipitui sancto? Usus enim ad
+<lb ed="#Ba"/>actum refertur. Una autem est 
+substan<lb ed="#Ba" break="no"/>tia, et una virtus, et una operatio 
+trint<lb ed="#Ba" break="no"/>tatis. Et ideo non videtur plus 
+appropria<lb ed="#Ba" break="no"/>ri Spiritui sancto, quam Patri et Filio.
+</p>
+               <p xml:id="Almn78-a11800-d1e678">
+                  <lb ed="#Ba"/>Solutio. Hec, ut dictum est, nomina
+<lb ed="#Ba"/>essentialia sunt, ex modo significandi
+<lb ed="#Ba"/>inclinationem habentia ad personam
+<lb ed="#Ba"/>hanc vel illam : et ideo cum eternitas
+<lb ed="#Ba"/>mensura sit immutabilium carentium
+<lb ed="#Ba"/>principio et fine, et sic principium evi
+<lb ed="#Ba"/>et temporis,est quidem nomen essentiale,
+<lb ed="#Ba"/>et sic convenit tribus: ex modo tamen
+<lb ed="#Ba"/>significandi accidit ad rationem Patris,
+<lb ed="#Ba"/>qui est principium non de principio,
+<lb ed="#Ba"/>quod non convenit Filio vel Spiritui
+<lb ed="#Ba"/>sancto, et sic appropriatur Patri.
+</p>
+               <p xml:id="Almn78-a11800-d1e707">
+                  <lb ed="#Ba"/>Species vero attribuitur Filio, qui est
+<lb ed="#Ba"/>imago Patris : cujus ratio supra 
+assi<lb ed="#Ba" break="no"/>gnata est in questione de imagine, in
+<lb ed="#Ba"/>tractatu de generatione Filit. Omne enim
+<lb ed="#Ba"/>quod generatur, si perfecte et univoce
+<lb ed="#Ba"/>generatur, ad speciem generantis et 
+si<lb ed="#Ba" break="no"/>militudinem in specie. Praterea, species
+<lb ed="#Ba"/>principium cognitionis est : Filius autem
+<lb ed="#Ba"/>procedit a Patre ut notitia sive cognitio
+<lb ed="#Ba"/>a mente ;: et sic ilerum inclinationem
+<lb ed="#Ba"/>ponit ad Filium, et non ad Patrem vel
+<lb ed="#Ba"/>Spiritum sanctum.
+</p>
+               <p xml:id="Almn78-a11800-d1e736">
+                  <lb ed="#Ba"/>Quare vero usus sit in munere, sive
+<lb ed="#Ba"/>in dono, ratio est : quia sicut dicit Aus
+<pb ed="#Ba" n="508"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>gustiuus in libro I de Doctrina 
+Christia<lb ed="#Ba" break="no"/>na, <quote xml:id="Almn78-a11800-Qd1e751"> Frui est cum gaudio uti, </quote> Uti
+<lb ed="#Ba"/>autem non est cum gaudio, nisi in 
+amo<lb ed="#Ba" break="no"/>re, concordia, delectatione : et hac 
+om<lb ed="#Ba" break="no"/>nia attribuuntur Spiritui sancto, qui 
+pro<lb ed="#Ba" break="no"/>cedit ut amor et nexus et delectatio 
+Pa<lb ed="#Ba" break="no"/>tris et Filii.
+</p>
+               <p xml:id="Almn78-a11800-d1e766">
+                  <lb ed="#Ba"/>Et per hoc patet solutio fere ad totum, ,
+<lb ed="#Ba"/>preter id quod dicitur, In Filio est 
+pri<lb ed="#Ba" break="no"/>ma similitudo.
+  
+<lb ed="#Ba"/>Dicendum enim, quod primum non
+<lb ed="#Ba"/>dicitur ibi respectu secundi : sed primum
+<lb ed="#Ba"/>dicitur ibi principale sive maxime 
+con<lb ed="#Ba" break="no"/>veniens. Convenit enim Filius cum Pa
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tre in aliquo in quo Spiritus sanctus non
+<lb ed="#Ba"/>convenit, in hoc scilicet, quod alia 
+por<lb ed="#Ba" break="no"/>sona procedit 4 Filio sicut a Patre: 
+pro<lb ed="#Ba" break="no"/>pter quod ¢mago dicitur. Et imago 
+qui<lb ed="#Ba" break="no"/>dem passive coequatur illi cujus csl
+<lb ed="#Ba"/>imago : quia per generationem ad 
+equa<lb ed="#Ba" break="no"/>litatem ejus deducitur. Non illud cujus
+<lb ed="#Ba"/>est imago, passive coequatur imagini
+<lb ed="#Ba"/>sue : quia ad equalitatem ejus passive
+<lb ed="#Ba"/>non deducitur, licet per seipsum equale
+<lb ed="#Ba"/>sit. Et ideo non sequitur, Pater non
+<lb ed="#Ba"/>coequatur Filio : ergo non est 
+equa<lb ed="#Ba" break="no"/>lis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 44</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 44</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="465"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a03177"><!-- p1t10q44 -->
+            <head xml:id="Almn78-a03177-Hd1e106">Quaestio 44</head>
+            <head xml:id="Almn78-a03177-Hd1e109" type="question-title">
+      De hoc nomine, persona.
+    </head>
+            <p xml:id="Almn78-a03177-d1e112">
+               <pb ed="#Ba" n="465"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO XLIV.
+<lb ed="#Ba"/>De hoc nomine, persona.
+</p>
+            <p xml:id="Almn78-a03177-d1e123">
+               <lb ed="#Ba"/>Deinde quaeritur de hoc nomine quod
+<lb ed="#Ba"/>est persona, quid significet vel pradicet
+<lb ed="#Ba"/>in divinis. De quo Magister tractat in
+<lb ed="#Ba"/>primo Sententiarum, distinct. XXIII.
+</p>
+            <p xml:id="Almn78-a03177-d1e134">
+               <lb ed="#Ba"/>Et queruntur quatuor, scilicet de
+<lb ed="#Ba"/>multiplicitate nominis et intentione 
+se<lb ed="#Ba" break="no"/>cundum se accepta.
+</p>
+            <p xml:id="Almn78-a03177-d1e144">
+               <lb ed="#Ba"/>Secundo, De nominibus collective 
+per<lb ed="#Ba" break="no"/>sonas significantibus, ut trinitas, et 
+tri<lb ed="#Ba" break="no"/>nus.
+<lb ed="#Ba"/>Tertio, De veritate personarum.
+<lb ed="#Ba"/>Quarto, De equalitate personarum.
+<lb ed="#Ba"/>Circa primum queruntur quatuor,
+<lb ed="#Ba"/>quorum primum est de multiplicitate
+<lb ed="#Ba"/>nominis.
+<lb ed="#Ba"/>Secundum, De definitione.
+<lb ed="#Ba"/>Tertium, De suppositione.
+<lb ed="#Ba"/>Quartum, De comparatione ejus ad 
+es<lb ed="#Ba" break="no"/>sentiam.
+</p>
+            <div xml:id="Almn78-a03177-Dd1e173">
+               <head xml:id="Almn78-a03177-Hd1e175">Membrum 1</head>
+               <head xml:id="Almn78-a03177-Hd1e178" type="question-title">
+  De multiplicitate hujus nominis,
+  persona.
+</head>
+               <p xml:id="Almn78-a03177-d1e181">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>De multiplicitate hujus nominis,
+<lb ed="#Ba"/>persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e190">
+                  <lb ed="#Ba"/>Primo ergo queritur de multiplicitate .
+<lb ed="#Ba"/>nominis. Persona enim dicitur in 
+divi<lb ed="#Ba" break="no"/>nis, et in angelicis, et in humanis.
+</p>
+               <p xml:id="Almn78-a03177-d1e199">
+                  <lb ed="#Ba"/>1. Et dicit Richardus, quod <quote xml:id="Almn78-a03177-Qd1e203"> in 
+divi<lb ed="#Ba" break="no"/>nis distinguuntur persone origine sola.
+<lb ed="#Ba"/>In angelis qualitate sola : qua distinctio
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>dicitur personalis. In humanis origine et
+<lb ed="#Ba"/>qualitate. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e218">
+                  <lb ed="#Ba"/>2. Adhuc, In divinis persona, ut dicit
+<lb ed="#Ba"/>Magister in Sententiis, aliquando dicitur
+<lb ed="#Ba"/>essentialiter, aliquando  notionaliter.
+<lb ed="#Ba"/>Essentialiter, ut cum dicitur, Pater est
+<lb ed="#Ba"/>persona, Filius est persona, Spiritus 
+san<lb ed="#Ba" break="no"/>ctus est persona. Personaliter, ut cum
+<lb ed="#Ba"/>dicitur, Alia est persona Patris, alia Filii,
+<lb ed="#Ba"/>alia Spiritus sancti. Notionaliter, ut cum
+<lb ed="#Ba"/>dicitur, Pater in persona differt a 
+per<lb ed="#Ba" break="no"/>sona Filii.
+</p>
+               <p xml:id="Almn78-a03177-d1e242">
+                  <lb ed="#Ba"/>Sunt etiam diverse sententia de hoc
+<lb ed="#Ba"/>nomine, persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e249">
+                  <lb ed="#Ba"/>Quidam enim dixerunt, utdictum est,
+<lb ed="#Ba"/>quod aliquando significat essentiam,
+<lb ed="#Ba"/>aliquando personam, aliquando 
+notio<lb ed="#Ba" break="no"/>nem.
+</p>
+               <p xml:id="Almn78-a03177-d1e260">
+                  <lb ed="#Ba"/>Alii dixerunt, quod non significat
+<lb ed="#Ba"/>nisi essentiam. Sed essentia significatur
+<lb ed="#Ba"/>dupliciter, scilicet ut essentia et non 
+gra<lb ed="#Ba" break="no"/>tia suppositorum: et sic designatur per
+<lb ed="#Ba"/>hoc nomen, essentia, deiias,et 
+hujusmo<lb ed="#Ba" break="no"/>di. Secundo modo significatur prout est
+<lb ed="#Ba"/>in suis suppositis et non gratia sui: et
+<lb ed="#Ba"/>dicunt, quod hoc modo significatur per
+<lb ed="#Ba"/>hoc nomen, persona: et ideo possunt ei
+<lb ed="#Ba"/>attribui que et conveniunt essentie et
+<lb ed="#Ba"/>conveniunt personis. Que conveniunt
+<lb ed="#Ba"/>essentiae, sicut dicit Augustinus in libro
+<lb ed="#Ba"/>VII de Trinitate: <quote xml:id="Almn78-a03177-Qd1e290"> Certe quia Pater est
+<lb ed="#Ba"/>persona, et Iilius est persona, et Spiritus
+<lb ed="#Ba"/>sanctus est persona, ideo dicuntur tres
+<lb ed="#Ba"/>persone, quia commune est eis id quod
+<pb ed="#Ba" n="466"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>persona est. </quote> Et illud Augustini, 
+ibi<lb ed="#Ba" break="no"/>dem, <quote xml:id="Almn78-a03177-Qd1e308"> Ad se quippe dicitur persona 
+Pa<lb ed="#Ba" break="no"/>ter, non ad Filium, vel Spiritum 
+san<lb ed="#Ba" break="no"/>ctum: sicut ad se dicitur Deus magnus,
+<lb ed="#Ba"/>bonus, et justus, et hujusmodi. 
+Persona<lb ed="#Ba" break="no"/>lia autem attribuuntur ei: quia sic 
+dici<lb ed="#Ba" break="no"/>tur persona generans, et persona genita, |
+<lb ed="#Ba"/>et hujusmodi. </quote> o,
+</p>
+               <p xml:id="Almn78-a03177-d1e325">
+                  <lb ed="#Ba"/>Alii dixerunt, quod hoc nomen 
+per<lb ed="#Ba" break="no"/>sona principaliter dicit essentiam, sed
+<lb ed="#Ba"/>secundario dicit proprietatis 
+distinctio<lb ed="#Ba" break="no"/>nem. Et hujus talem dabant rationem :
+<lb ed="#Ba"/>quia dicit Isidorus, quod <quote xml:id="Almn78-a03177-Qd1e338"> persona 
+dici<lb ed="#Ba" break="no"/>tur quasi per se unum ens. </quote> Unde quod
+<lb ed="#Ba"/>dicitur unum, notat substantiam : quod
+<lb ed="#Ba"/>dicitur per se unum, notat distinctionem.
+<lb ed="#Ba"/>Ratione hujus distinctionis dicitur, Alia
+<lb ed="#Ba"/>persona Patris, alia Filii, alia Spiritus
+<lb ed="#Ba"/>sancti. Ratione autem unitatis est quod
+<lb ed="#Ba"/>dicit Augustinus, quod non est aliud
+<lb ed="#Ba"/>esse substantiam et aliud esse personam.
+<lb ed="#Ba"/>Sensus est, persona, id est, unum et per
+<lb ed="#Ba"/>se, hoc est distinctus Pater et Filius et
+<lb ed="#Ba"/>Spiritus sanctus : persone, id est, unum
+<lb ed="#Ba"/>et per se distincti.
+</p>
+               <p xml:id="Almn78-a03177-d1e367">
+                  <lb ed="#Ba"/>Adhuc alii dixerunt, qued hoc nomen,
+<lb ed="#Ba"/>persona, originem habuit in divinis ab
+<lb ed="#Ba"/>importunitate hereticorum. Cum enim
+<lb ed="#Ba"/>Catholici dicerent id quod continetur,
+<lb ed="#Ba"/>I Joan. v, 7: Tres sunt qui testimonium
+<lb ed="#Ba"/>dant in celo: Pater Verbum, et 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus: et hi tres unum sunt: 
+que<lb ed="#Ba" break="no"/>siverunt heretici Ariani, Quid essent tres
+<lb ed="#Ba"/>qui designantur per Patrem et Verbum
+<lb ed="#Ba"/>et Spiritum, intendentes responderi sibi
+<lb ed="#Ba"/>nomen designans substantiam : et cum
+<lb ed="#Ba"/>non posset, ut dicit Augustinus, inveniri
+<lb ed="#Ba"/>nomen aliud quod communiter de tribus
+<lb ed="#Ba"/>diceretur, quod singulariter de 
+unoquo<lb ed="#Ba" break="no"/>que et in summa de omnibus simul 
+plu<lb ed="#Ba" break="no"/>raliter diceretur, inventum est hoc 
+no<lb ed="#Ba" break="no"/>men persona, et dictum est, tres 
+perso<lb ed="#Ba" break="no"/>ne. Pater enim est persona, Filius est
+<lb ed="#Ba"/>persona, Spiritus sanctus est persona: et
+<lb ed="#Ba"/>hi tres non uma, sed tres persone. Et
+<lb ed="#Ba"/>ratio hujus fuit, quia persona licet dicat
+<lb ed="#Ba"/>substantiam, non tamen dicit eam in ge-_
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>nere consideratam vel in specie, sed in
+<lb ed="#Ba"/>hoc individuo designatam : substantia
+<lb ed="#Ba"/>enim in genere designat quid magis
+<lb ed="#Ba"/>quam quis, ut dicit Richardus in libro
+<lb ed="#Ba"/>de Trinitate. Querentes enim, Quid est
+<lb ed="#Ba"/>hoc ? Dicimus, quod est substantia, vel
+<lb ed="#Ba"/>animal, vel homo. Querentes autem,
+<lb ed="#Ba"/>Quis est hic? Dicimus, quod est 
+Socra<lb ed="#Ba" break="no"/>tes, vel Plato, individuum quod a sua
+<lb ed="#Ba"/>proprietate incommunicabile est, 
+respon<lb ed="#Ba" break="no"/>dentes : et hic quidem etiam substantia
+<lb ed="#Ba"/>est, sed substantia est, sicut suppositum
+<lb ed="#Ba"/>sive hypostasis, quod non designatur 
+no<lb ed="#Ba" break="no"/>mine nature communis. Et horum dictum
+<lb ed="#Ba"/>redit ad hoc, quod hoc nomen, persona,
+<lb ed="#Ba"/>ante questionem hereticorum 
+significa<lb ed="#Ba" break="no"/>bat essentiam, prout essentia una et 
+na<lb ed="#Ba" break="no"/>turacommunis est trium personarum :
+<lb ed="#Ba"/>sed post translatum est ad designandam
+<lb ed="#Ba"/>hypostasim cum proprietate 
+incommuni<lb ed="#Ba" break="no"/>cabili. Unde cum dicitur, Pater et Filius
+<lb ed="#Ba"/>et Spiritus sanctus sunt tres persone,
+<lb ed="#Ba"/>sensus est, hoc est, tres hypostases, sive
+<lb ed="#Ba"/>tria supposita propriis et 
+incommunica<lb ed="#Ba" break="no"/>bilibus proprietatibus a se invicem 
+dis<lb ed="#Ba" break="no"/>tincta.
+</p>
+               <p xml:id="Almn78-a03177-d1e477">
+                  <lb ed="#Ba"/>Et sic patet, quod omnes iste quatuor
+<lb ed="#Ba"/>sententie conveniunt in hoc, quod 
+per<lb ed="#Ba" break="no"/>sona significet substantiam : sed in hoc
+<lb ed="#Ba"/>differunt, quod quidam dicunt, quod
+<lb ed="#Ba"/>significat eam per modum essentie et
+<lb ed="#Ba"/>nature communis : quidam autem, quod
+<lb ed="#Ba"/>significat eam ut in hoc singulari 
+consi<lb ed="#Ba" break="no"/>deratam. Et isti etiam diflerunt: quia
+<lb ed="#Ba"/>quidam dicunt, quod significat eam ut
+<lb ed="#Ba"/>hunc aliquem qui non est quid, nisi 
+ra<lb ed="#Ba" break="no"/>tione essentie : quidam autem, quod
+<lb ed="#Ba"/>significat eam cum proprietate 
+determi<lb ed="#Ba" break="no"/>nante.
+</p>
+               <p xml:id="Almn78-a03177-d1e508">
+                  <lb ed="#Ba"/>1. Ratio autem horum, quod omnes
+<lb ed="#Ba"/>conveniuntin hoc, quod significat 
+substan<lb ed="#Ba" break="no"/>tiam, ponitur a Magistro in primo 
+Sen<lb ed="#Ba" break="no"/>tentiarum, distinct. XXV, ubi expresse
+<lb ed="#Ba"/>dicit Augustinus, quod persona 
+substan<lb ed="#Ba" break="no"/>tiam divinam significat et essentiam, sic:
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a03177-Qd1e525"> Persona ad se dicitur, et idem est Deo
+<lb ed="#Ba"/>esse personam, quod esse: sicut idem
+<pb ed="#Ba" n="467"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>est ei esse, quod esse Deum. Unde 
+ma<lb ed="#Ba" break="no"/>nifeste colligitur, quod essentiam 
+divi<lb ed="#Ba" break="no"/>hum predicamus dicentes, Pater est 
+per<lb ed="#Ba" break="no"/>sona, Filius est persona, ‘Spiritus 
+san<lb ed="#Ba" break="no"/>clus est persona, id est, essentia : et 
+om<lb ed="#Ba" break="no"/>nino unum et idem significatur nomine
+<lb ed="#Ba"/>persone, id est, essentia divina, cum
+<lb ed="#Ba"/>dicitur ; Pater est persona, Filius est
+<lb ed="#Ba"/>persona, quod significatur in nomine
+<lb ed="#Ba"/>Dei cum dicitur : Pater est Deus, Filius
+<lb ed="#Ba"/>est Deus. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e559">
+                  <lb ed="#Ba"/>2. Adhuc, Ibidem, <quote xml:id="Almn78-a03177-Qd1e563"> Idem significatur
+<lb ed="#Ba"/>cum dicitur, Deus est Deus, et Deus est
+<lb ed="#Ba"/>persona. Utroque enim nomine essentia
+<lb ed="#Ba"/>divina intelligitur, quia utrumque  
+se<lb ed="#Ba" break="no"/>cundum substantiam dicitur. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e575">
+                  <lb ed="#Ba"/>3. Adhuc, Ibidem, <quote xml:id="Almn78-a03177-Qd1e579"> Eamdem 
+signifi<lb ed="#Ba" break="no"/>cationem videtur tenere nomen persona,
+<lb ed="#Ba"/>cum dicitur, tres persone, quam habet
+<lb ed="#Ba"/>cum dicitur, Pater est persona, Filius
+<lb ed="#Ba"/>est persona, Spiritus sanctus est 
+perso<lb ed="#Ba" break="no"/>na. </quote> 
+                  <quote xml:id="Almn78-a03177-Qd1e592">Quia, ut dicit Augustinus in libro
+<lb ed="#Ba"/>Vil de Trinitate : ideo dicitur, tres 
+per<lb ed="#Ba" break="no"/>sone, quia commune est eis quod 
+per<lb ed="#Ba" break="no"/>sona est’. </quote> Nihil autem est tribus 
+com<lb ed="#Ba" break="no"/>mune nisi essentia. Persona ergo dicit
+<lb ed="#Ba"/>essentiam.
+</p>
+               <p xml:id="Almn78-a03177-d1e606">
+                  <lb ed="#Ba"/>4. Innituntur etiam illi verbo Boetii in
+<lb ed="#Ba"/>libro de Duabus naturis in uno persona
+<lb ed="#Ba"/>Christi, ubi dicit, quod <quote xml:id="Almn78-a03177-Qd1e614"> persona est
+<lb ed="#Ba"/>rationalis nature individua substantia: </quote>
+                  <lb ed="#Ba"/>ubi ostenditur, quod substantia in recto
+<lb ed="#Ba"/>in definitione persone cadit : nomen 
+au<lb ed="#Ba" break="no"/>tem dicit id quod in recto cadit in 
+defi<lb ed="#Ba" break="no"/>nitione ejus: et sic persona dicit 
+sub<lb ed="#Ba" break="no"/>stantiam.
+</p>
+               <p xml:id="Almn78-a03177-d1e631">
+                  <lb ed="#Ba"/>Tot ergo sunt opiniones de persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e637">
+                  <lb ed="#Ba"/>Videtur tamen aliquid esse contra
+<lb ed="#Ba"/>singulas istarum.
+</p>
+               <p xml:id="Almn78-a03177-d1e644">
+                  <lb ed="#Ba"/>Si enim persona dicit essentiam, ut
+<lb ed="#Ba"/>dicunt primi, et dicit absolute, cum 
+dici<lb ed="#Ba" break="no"/>tur, Pater est persona : si fiat relatio, 
+re<lb ed="#Ba" break="no"/>fert essentiam absolute. Sicut ergo hec
+<lb ed="#Ba"/>est vera, Pater est essentia que est 
+Fi<lb ed="#Ba" break="no"/>lius, ita haec erit vera, Pater est 
+perso<lb ed="#Ba" break="no"/>na que est Filius : et hoc falsum est.
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Contra secundam autem est, quia si
+<lb ed="#Ba"/>persona dicit essentiam prout est in 
+sup<lb ed="#Ba" break="no"/>posilis, videtur persona omnino e#
+qui<lb ed="#Ba" break="no"/>voce dici in divinis et in creaturis. In
+<lb ed="#Ba"/>creaturis enim cum dicitur, Persona est
+<lb ed="#Ba"/>rationalis nature individua substantia,
+<lb ed="#Ba"/>persona nullo modo dicit essentiam 
+com<lb ed="#Ba" break="no"/>munem, neque in se, neque in suis 
+sup<lb ed="#Ba" break="no"/>positis, sed suppositum dicit essentia.
+<lb ed="#Ba"/>Si ergo in divinis dicit essentiam 
+suppo<lb ed="#Ba" break="no"/>siti, dicetur equivoce: quia solum 
+no<lb ed="#Ba" break="no"/>men commune est, et ratio substantia
+<lb ed="#Ba"/>diversa.
+</p>
+               <p xml:id="Almn78-a03177-d1e692">
+                  <lb ed="#Ba"/>Contra tertiam est, quia si persona
+<lb ed="#Ba"/>primo dicit essentiam et secundario 
+di<lb ed="#Ba" break="no"/>stinctionem: tunc cum dicitur, essentia
+<lb ed="#Ba"/>est persona, sensus erit, essentia est ens
+<lb ed="#Ba"/>per se distinctum, quod falsum erit, et
+<lb ed="#Ba"/>est error Aril.
+</p>
+               <p xml:id="Almn78-a03177-d1e708">
+                  <lb ed="#Ba"/>Contra quartam est, quod
+<lb ed="#Ba"/>1. Si persona de prima institutione
+<lb ed="#Ba"/>dicit essentiam, falsificatur dictum
+<lb ed="#Ba"/>Boetii, qui ostendens originem hujus
+<lb ed="#Ba"/>vocabuli, persona, dicit quod ortum est
+<lb ed="#Ba"/>a trageedis, quiin theatris certos et 
+de<lb ed="#Ba" break="no"/>terminatos homines representare 
+volen<lb ed="#Ba" break="no"/>tes, larvas pictas ad similitudinem 
+fa<lb ed="#Ba" break="no"/>cierum illarum alligabant, et per illam
+<lb ed="#Ba"/>sonabant carmina: propter quod etiam
+<lb ed="#Ba"/>persona circumflexa penultima dicitur.
+<lb ed="#Ba"/>Persona igitur a prima institutione 
+cer<lb ed="#Ba" break="no"/>tum aliquem significat. Essentia autem
+<lb ed="#Ba"/>nullum certum significat aliquem, nec in
+<lb ed="#Ba"/>divinis, nec in creaturis. A prima ergo
+<lb ed="#Ba"/>institutione non significat essentiam.
+</p>
+               <p xml:id="Almn78-a03177-d1e745">
+                  <lb ed="#Ba"/>2. Adhuc, Boetius in libro de 
+Trini<lb ed="#Ba" break="no"/>tate : <quote xml:id="Almn78-a03177-Qd1e751"> Intelligimus Patrem et Filium et
+<lb ed="#Ba"/>Spiritum sanctum personas non 
+substan<lb ed="#Ba" break="no"/>tialiter dici: quia si substantialiter 
+dice<lb ed="#Ba" break="no"/>retur, de singulis et de omnibus 
+singu<lb ed="#Ba" break="no"/>lariter diceretur. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e763">
+                  <lb ed="#Ba"/>3. Adhuc, Ibidem, <quote xml:id="Almn78-a03177-Qd1e767"> Persone divise
+<lb ed="#Ba"/>sunt, substantia vero indivisa : </quote> necesse
+<lb ed="#Ba"/>est ergo vocabulum quod ex personis’
+<lb ed="#Ba"/>originem trahit, ad substantiam non 
+per<lb ed="#Ba" break="no"/>tinere.
+  
+<lb ed="#Ba"/>4, Adhuc, Ex Augustino in libro VII
+<pb ed="#Ba" n="468"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>de Trinitate: <quote xml:id="Almn78-a03177-Qd1e787"> Persona non significat
+<lb ed="#Ba"/>idem quod substantia '. </quote> Si enim idem
+<lb ed="#Ba"/>significaret, sicut substantia Patris - ipse
+<lb ed="#Ba"/>Pater est, non quo Pater est Pater, sed
+<lb ed="#Ba"/>quo est, ita et persona Patris esset quo
+<lb ed="#Ba"/>Pater est, non quo Pater Pater est, sed
+<lb ed="#Ba"/>quo est : quod falsum est. ,
+</p>
+               <p xml:id="Almn78-a03177-d1e805">
+                  <lb ed="#Ba"/>3. Adhuc, Si persona significaret 
+es<lb ed="#Ba" break="no"/>sentiam, sicut dicimus tres personas, ita
+<lb ed="#Ba"/>dicendum esset tres essentias: et sicut
+<lb ed="#Ba"/>dicimus personam numerabilem in 
+tri<lb ed="#Ba" break="no"/>bus, ita dicendum esset essentiam 
+nu<lb ed="#Ba" break="no"/>merabilem esse in tribus: quod falsum
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a03177-d1e823">
+                  <lb ed="#Ba"/>Soxutio. Ad primam partem 
+questio<lb ed="#Ba" break="no"/>nis dicendum, quod persona dicta de 
+di<lb ed="#Ba" break="no"/>vinis, et de Angelis, et de hominibus
+<lb ed="#Ba"/>non dicitur univoce. Cum enim persona
+<lb ed="#Ba"/>dicatur, ut dicit Isidorus, per se una, per
+<lb ed="#Ba"/>se autem unum sit indivisum in se et 
+di<lb ed="#Ba" break="no"/>visum ab aliis divisione que essentialis
+<lb ed="#Ba"/>et per se divisio est, constat quod in hae
+<lb ed="#Ba"/>perfecta ratione non dicitur de personis.
+<lb ed="#Ba"/>divinis. Ille enim essentialiter unum
+<lb ed="#Ba"/>sunt, et simpliciter indivise. Propter
+<lb ed="#Ba"/>quod dicit Damascenus, quod <quote xml:id="Almn78-a03177-Qd1e851"> divine
+<lb ed="#Ba"/>persone secundum essentiam in se 
+invi<lb ed="#Ba" break="no"/>cem sunt et inseparabiles. </quote> Et, Joan.
+<lb ed="#Ba"/>xiv, 11: £go in Patre, et Pater in me
+<lb ed="#Ba"/>est. Unde si proprietas et compositio 
+no<lb ed="#Ba" break="no"/>minis attendatur, perfectiori ratione 
+dici<lb ed="#Ba" break="no"/>tur persona de creatis, quam de increatis.
+<lb ed="#Ba"/>In divinis enim per se unum non est nisi
+<lb ed="#Ba"/>propria proprietate distincta, 
+essentiali<lb ed="#Ba" break="no"/>ter autem per se nullo modo ab alio 
+di<lb ed="#Ba" break="no"/>visum. Et secundum hune modum 
+per<lb ed="#Ba" break="no"/>sona translatione nominis dicitur de 
+di<lb ed="#Ba" break="no"/>vinis, et non proprie. Et ideo dicit 
+<ref xml:id="Almn78-a03177-Rd1e880">
+                     <name xml:id="Almn78-a03177-Nd1e882">Au<lb ed="#Ba" break="no"/>gustinus</name> in libro VII de Trinitate</ref>, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a03177-Qd1e890"> cum instanter quererent heretici. Quid
+<lb ed="#Ba"/>tria, vel quid tres ? a Catholicis 
+inven<lb ed="#Ba" break="no"/>tum est hoc nomen, persona, et dictum
+<lb ed="#Ba"/>est, tres persone, non ut illud diceretur,
+<lb ed="#Ba"/>sed ne taceretur. </quote> Per translationem
+<lb ed="#Ba"/>enim dici potuit,sed non per proprietatem,
+<lb ed="#Ba"/>Si autem nomen persone per causam
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>exprimatur, sicut fere omnia nomina 
+di<lb ed="#Ba" break="no"/>vina, sic per prius dicitur de Deo. 
+Com<lb ed="#Ba" break="no"/>municabilitas enim nature in divinis, et
+<lb ed="#Ba"/>sub illa discretio personalis, causa et
+<lb ed="#Ba"/>exemplar est communicabilitatis natura
+<lb ed="#Ba"/>in creatis, et sub illa discretionis 
+indivi<lb ed="#Ba" break="no"/>dualis, et maxime in creatura que imago
+<lb ed="#Ba"/>Dei est, que est creatura rationalis sive
+<lb ed="#Ba"/>intellectualis.
+
+</p>
+               <p xml:id="Almn78-a03177-d1e928">
+                  <lb ed="#Ba"/>Ad aliud dicendum est, quod in 
+divi<lb ed="#Ba" break="no"/>nis persona dicitur secundum unam 
+ra<lb ed="#Ba" break="no"/>tionem in tribus personis. Sic enim 
+di<lb ed="#Ba" break="no"/>citur persona hypostasis personali 
+pro<lb ed="#Ba" break="no"/>prietate distincta.
+</p>
+               <p xml:id="Almn78-a03177-d1e941">
+                  <lb ed="#Ba"/>Et quod objicitur, quod aliquando 
+dici<lb ed="#Ba" break="no"/>tur essentialiter, aliquando notionaliter,
+<lb ed="#Ba"/>Dicendum, quod hoc non variat 
+signifi<lb ed="#Ba" break="no"/>cationem persone principalem, sed 
+mo<lb ed="#Ba" break="no"/>dum significandi tantum. Unde quando
+<lb ed="#Ba"/>dicitur, Pater est persona, persona dicit
+<lb ed="#Ba"/>essentiam non per modum essentie, et
+<lb ed="#Ba"/>substantiam non per modum substantia
+<lb ed="#Ba"/>sed per modum quis est. Quis enim
+<lb ed="#Ba"/>querit de essentia, sicut dicit Priscianus,
+<lb ed="#Ba"/>Quis natat in mari? piscis. Et sic quis
+<lb ed="#Ba"/>dividitur contra gualis, et contra 
+quan<lb ed="#Ba" break="no"/>tus. Et hoc modo quis primo dicit quem,
+<lb ed="#Ba"/>et secundario dicit quid. Unde dicit 
+Ri<lb ed="#Ba" break="no"/>chardus, quod persona tam dicit quem,
+<lb ed="#Ba"/>quam quid. Substantia autem secundum
+<lb ed="#Ba"/>quod persona ponitur, non tam quem,
+<lb ed="#Ba"/>quam quid dicit. Dicit enim substantiam
+<lb ed="#Ba"/>in habente eam. Unde cum dicitur, Pater
+<lb ed="#Ba"/>est persona, intelligitur, quod Pater est
+<lb ed="#Ba"/>quis perfecte ens et substantialiter 
+perso<lb ed="#Ba" break="no"/>nali proprietate distinctus. Cum autem
+<lb ed="#Ba"/>dicitur, Pater est alius in persona quam
+<lb ed="#Ba"/>Filius, cum non possit esse alius in 
+es<lb ed="#Ba" break="no"/>sentia, oportet quod sit alius in 
+perso<lb ed="#Ba" break="no"/>nali proprietate, et sic alius in persona :
+<lb ed="#Ba"/>et sic per relativum diversitatis cogitur
+<lb ed="#Ba"/>ad standum pro persona. Cum vero 
+dici<lb ed="#Ba" break="no"/>tur, Pater in persona differt a Filio, cum
+<lb ed="#Ba"/>non differat in essentia, nec differt in
+<lb ed="#Ba"/>communi ratione, sed differt tantum in
+<lb ed="#Ba"/>proprietate personali, quae differentia
+<lb ed="#Ba"/>proprie et simpliciter non est, sed est
+<pb ed="#Ba" n="469"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>differentia, quedam, que magis proprie
+<lb ed="#Ba"/>loquendo distinctio vocatur, per virtutem
+<lb ed="#Ba"/>verbi differentiam notantis trahitur ad
+<lb ed="#Ba"/>slundum pro notione sive proprietate.
+<lb ed="#Ba"/>Iiec enim omnia sunt in intellectu 
+per<lb ed="#Ba" break="no"/>sone. Est enim persona hypostasis sive
+<lb ed="#Ba"/>substantia substantialiter et perfecte 
+exi<lb ed="#Ba" break="no"/>atens,proprietate personali determinata :
+<lb ed="#Ba"/>el ideo per adjunctionem trahi potest ad
+<lb ed="#Ba"/>substantiam designandam, et ad 
+hypo<lb ed="#Ba" break="no"/>stasim, et ad proprietatem: et per talia
+<lb ed="#Ba"/>variatur modus significandi ejus, et non
+<lb ed="#Ba"/>significatio, sicut et Boetius dicit: et 
+re<lb ed="#Ba" break="no"/>xulariter verum est, quod talia sunt 
+prae<lb ed="#Ba" break="no"/>dicata, qualia permiserunt subjecta: et
+<lb ed="#Ba"/>lalia sunt preedicata, qualia adjuncta 
+per<lb ed="#Ba" break="no"/>miserunt.
+</p>
+               <p xml:id="Almn78-a03177-d1e1056">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de prima
+<lb ed="#Ba"/>sententia, dicendum quod satis sustineri
+<lb ed="#Ba"/>potest.
+</p>
+               <p xml:id="Almn78-a03177-d1e1065">
+                  <lb ed="#Ba"/>Ad id quod contra eam objicitur, 
+di<lb ed="#Ba" break="no"/>cendum est, quod cum dicitur, persona
+<lb ed="#Ba"/>dicit essentiam, non intelligunt isti, quod
+<lb ed="#Ba"/>dicat essentiam per modum essentie
+<lb ed="#Ba"/>sive per modum nature unientis 
+perso<lb ed="#Ba" break="no"/>nas, sed per modum substantiae, 
+secun<lb ed="#Ba" break="no"/>dum quod substantia a substando 
+dici<lb ed="#Ba" break="no"/>tur : sic enim substantia idem est quod
+<lb ed="#Ba"/>hypostasis, sive suppositum, sicut dicit
+<lb ed="#Ba"/>Avicenna, quod suppositum sive 
+subje<lb ed="#Ba" break="no"/>ctum est ens in se substantialiter 
+com<lb ed="#Ba" break="no"/>pletum, occasio alteri existendi in eo
+<lb ed="#Ba"/>quod esse non haberet nisi in eo esset :
+<lb ed="#Ba"/>et sic translatum in divina suppositum
+<lb ed="#Ba"/>est hypostasis occasio, quod proprietas
+<lb ed="#Ba"/>sit inea, que secundum modum 
+signi<lb ed="#Ba" break="no"/>ficandi non dicit esse per se existentis,
+<lb ed="#Ba"/>sed existentis in hypostasi, et non extra
+<lb ed="#Ba"/>ipsam. Et ideo non procedit objectio.
+<lb ed="#Ba"/>In illa enim accipitur essentia ut uniens
+<lb ed="#Ba"/>tres personas. Et est in argumento 
+falla<lb ed="#Ba" break="no"/>cia equivocationis. Substantia enim
+<lb ed="#Ba"/>prout est hypostasis, non dicit essentiam
+<lb ed="#Ba"/>prout est uniens tres personas, sed
+<lb ed="#Ba"/>hypostasim dicit que distinguitur in
+<lb ed="#Ba"/>personis.
+</p>
+               <p xml:id="Almn78-a03177-d1e1125">
+                  <lb ed="#Ba"/>Ad secunnAmM sententiam dicendum
+<lb ed="#Ba"/>est, quod etiam satis sustineri potest :
+<lb ed="#Ba"/>quia pro certo persona dicit quid deter
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>minatum ad quis et formatum. Unde
+<lb ed="#Ba"/>Richardus dicit, quod non tam quis
+<lb ed="#Ba"/>quam quid dicit. Sic autem essentia non
+<lb ed="#Ba"/>significatur ut essenlia, nec uniens 
+per<lb ed="#Ba" break="no"/>sonas, sed significatur ut substantia que
+<lb ed="#Ba"/>omnibus confert subsistere in se, et non
+<lb ed="#Ba"/>fluere ad aliud gratia essendi : sic enim
+<lb ed="#Ba"/>omnibus etiam individuis substantia 
+con<lb ed="#Ba" break="no"/>fert subsistere : et hoc modo est et in
+<lb ed="#Ba"/>divinis et in humanis. Et secundum
+<lb ed="#Ba"/>hune actum persona dicit substantiam,
+<lb ed="#Ba"/>sed nec in divinis, nec in humanis dicit
+<lb ed="#Ba"/>persona essentiam ut essentiam.
+</p>
+               <p xml:id="Almn78-a03177-d1e1164">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad objectum
+<lb ed="#Ba"/>contra.
+</p>
+               <p xml:id="Almn78-a03177-d1e1171">
+                  <lb ed="#Ba"/>Ad tertiam sententiam dicendum est,
+<lb ed="#Ba"/>quod etiam illa satis rationabiliter 
+sus<lb ed="#Ba" break="no"/>tinetur, sicut probatur ex dicto Isidori.
+<lb ed="#Ba"/>Persona enim est substantia individua,
+<lb ed="#Ba"/>ut dicit Boetius, vel substantia 
+incom<lb ed="#Ba" break="no"/>municabilis, ut dicit Richardus. Et cum
+<lb ed="#Ba"/>talis substantia in recto cadat in 
+defini<lb ed="#Ba" break="no"/>tione persone, constat quod persona
+<lb ed="#Ba"/>dicit eam per modum substantie in se
+<lb ed="#Ba"/>subsistentis, licet non dicat eam per
+<lb ed="#Ba"/>modum essentie communis, sed per
+<lb ed="#Ba"/>modum suppositi sive hypostasis, quod
+<lb ed="#Ba"/>ab eéssentia habet in se subsistere, et
+<lb ed="#Ba"/>alio non indigere ut sit. In intellectu
+<lb ed="#Ba"/>autem suo super hoc addit distinctum 
+<lb ed="#Ba"/>esse proprietate : et ita in obliquo dicit
+<lb ed="#Ba"/>proprietatem distinguentem, et ideo per
+<lb ed="#Ba"/>consequens et secundario.
+</p>
+               <p xml:id="Almn78-a03177-d1e1213">
+                  <lb ed="#Ba"/>Ad objectum contra, dicendum quod
+<lb ed="#Ba"/>cum dicitur, persona est essentia, 
+pre<lb ed="#Ba" break="no"/>dicatio fit ratione indifferentie 
+simplici<lb ed="#Ba" break="no"/>tatis que est in divinis : et hec,ut sepius
+<lb ed="#Ba"/>dictum est, non tollit diversum modum
+<lb ed="#Ba"/>significandi, qui diversus modus 
+signi<lb ed="#Ba" break="no"/>ficandi causat diversum modum dicendi,
+<lb ed="#Ba"/>et diversum modum supponendi, et
+<lb ed="#Ba"/>diversum modum attribuendi, et non
+<lb ed="#Ba"/>diversum modum rei. Dico autem 
+diver<lb ed="#Ba" break="no"/>sum modum dicendi, quando quidem
+<lb ed="#Ba"/>unum duobus nominibus vel pluribus
+<lb ed="#Ba"/>significatur : sed ratione modi 
+signifi<lb ed="#Ba" break="no"/>candi cum significato principali aliquid
+<lb ed="#Ba"/>connotatur in uno quod non connotatur
+<lb ed="#Ba"/>in alio, sicut bonum, justum, sapiens
+<pb ed="#Ba" n="470"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dicitur de Deo. Sed, ut dicunt Dionysius
+<lb ed="#Ba"/>et Origenes, cum hec omnia de Deo
+<lb ed="#Ba"/>dicantur per.causam, licet hac omnia
+<lb ed="#Ba"/>dicant essentiam divinam, et significent
+<lb ed="#Ba"/>essentiam divinam, alind tamen dicitur
+<lb ed="#Ba"/>et connotatur cum dicitur sapiens, et
+<lb ed="#Ba"/>aliud cum dicitur bonus, et aliud cum
+<lb ed="#Ba"/>dicitur justus. Dicitur enim sapiens ut
+<lb ed="#Ba"/>sapientis creati causa, bonus ut boni
+<lb ed="#Ba"/>creati causa, justus ut justi creati 
+cau<lb ed="#Ba" break="no"/>sa: et ideo aliquid dicitur sive 
+conno<lb ed="#Ba" break="no"/>tatur nomine uno quod non connotatur
+<lb ed="#Ba"/>nomine alio. Diversus autem modus
+<lb ed="#Ba"/>supponendi est, quando quidem que
+<lb ed="#Ba"/>dicuntur, eadem sunt re, tamen propter
+<lb ed="#Ba"/>diversum modum significandi, 
+supposi<lb ed="#Ba" break="no"/>to uno non supponitur alterum eisdem
+<lb ed="#Ba"/>predicatis : et sic persona est essentia,
+<lb ed="#Ba"/>tamen supposita persona non 
+supponi<lb ed="#Ba" break="no"/>tur essentia respectu eorumdem 
+predi<lb ed="#Ba" break="no"/>catorum. Et ex hoc causatur quartum,
+<lb ed="#Ba"/>scilicet diversus modus attribuendi : 
+at<lb ed="#Ba" break="no"/>tribuitur enim uni quod non attribuitur
+<lb ed="#Ba"/>alteri : eo quod licet eadem sint re, 
+mo<lb ed="#Ba" break="no"/>do tamen significandi differunt. Unde
+<lb ed="#Ba"/>non sequitur, si essentia est persona, et
+<lb ed="#Ba"/>predicatur persona ratione unitatis rei
+<lb ed="#Ba"/>de essentia, quod si persona est 
+distin<lb ed="#Ba" break="no"/>cta, essentia sit distincta.
+</p>
+               <p xml:id="Almn78-a03177-d1e1317">
+                  <lb ed="#Ba"/>Ad ovartam sententiam dicendum est,
+<lb ed="#Ba"/>quo illa procul dubio vera est. Persona
+<lb ed="#Ba"/>enim suo nomine, ut habitum est, rem
+<lb ed="#Ba"/>nature significat, sive naturam 
+natura<lb ed="#Ba" break="no"/>tam et distinctam ut in se subsistentem et
+<lb ed="#Ba"/>perfectam et ab aliis divisam, et per
+<lb ed="#Ba"/>similitudinem distinctionis quam facit
+<lb ed="#Ba"/>proprietas in esse personali, translatam
+<lb ed="#Ba"/>est ad significandum hypostasim, cum
+<lb ed="#Ba"/>ante significaret naturatum in esse 
+natu<lb ed="#Ba" break="no"/>rati divisum : quod divinis non 
+conve<lb ed="#Ba" break="no"/>nit : quia natura communis nec in se,
+<lb ed="#Ba"/>nec in-personis distinguitur vel 
+dividi<lb ed="#Ba" break="no"/>tur: aliter enim persone non essent in
+<lb ed="#Ba"/>se invicem per nature communis. 
+indif<lb ed="#Ba" break="no"/>ferentiam. Nec hoc est contra dictum
+<lb ed="#Ba"/>Boetii. Persona enim semper 
+significa<lb ed="#Ba" break="no"/>bat certum et determinatum et in esse
+<lb ed="#Ba"/>nature divisum, sed non semper 
+signi<lb ed="#Ba" break="no"/>ficabat certum et determinatum incom
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>municabili proprietate distinctum in csse
+<lb ed="#Ba"/>naturati secundum esse substantiale 
+inii<lb ed="#Ba" break="no"/>visum et aliis unitum : et ad hoc signis
+<lb ed="#Ba"/>ficandum, translatum est post 
+questio<lb ed="#Ba" break="no"/>nem hereticorum.
+</p>
+               <p xml:id="Almn78-a03177-d1e1376">
+                  <lb ed="#Ba"/>Ad primum autem quod objicitur de
+<lb ed="#Ba"/>communibus rationibus eorum, 
+diccn<lb ed="#Ba" break="no"/>dum est, quod licet substantia et essentia
+<lb ed="#Ba"/>idem sint re, non tamen sunt idem 
+mo<lb ed="#Ba" break="no"/>do significandi. Substantia enim a 
+sub<lb ed="#Ba" break="no"/>stando dicitur, ut dicit Aristoteles. Per
+<lb ed="#Ba"/>se autem et principaliter substat 
+suppo<lb ed="#Ba" break="no"/>situm. Essentia autem dicitur per 
+mo<lb ed="#Ba" break="no"/>dum essentientis et unientis supposita,
+<lb ed="#Ba"/>Et cum dicitur, quod idem significamus
+<lb ed="#Ba"/>cum dicimus Patrem esse personam,
+<lb ed="#Ba"/>Filium esse personam, quod significamus
+<lb ed="#Ba"/>cum dicimus Patrem esse Deum, Filium
+<lb ed="#Ba"/>esse Deum, hoc est, essentiam divinam,
+<lb ed="#Ba"/>intelligitur idem re, non idem modo
+<lb ed="#Ba"/>significandi.
+</p>
+               <p xml:id="Almn78-a03177-d1e1414">
+                  <lb ed="#Ba"/>Per hoc etiam patet solutio ad 
+se<lb ed="#Ba" break="no"/>quens.
+</p>
+               <p xml:id="Almn78-a03177-d1e1421">
+                  <lb ed="#Ba"/>Ad id quod objicitur, quod nihil est
+<lb ed="#Ba"/>eis commune nisi essentia, dicendum
+<lb ed="#Ba"/>est, quod sicut in antehabitis dictum est,
+<lb ed="#Ba"/>quod nihil est eis commune per modum
+<lb ed="#Ba"/>nature nisi essentia, et per modum rei,
+<lb ed="#Ba"/>et per modum veri univoci. Sed sicut in
+<lb ed="#Ba"/>antehabitis dictum est, ex uno 
+commu<lb ed="#Ba" break="no"/>ni secundum naturam communicato 
+se<lb ed="#Ba" break="no"/>cundum actum suppositi multe 
+conse<lb ed="#Ba" break="no"/>quuntur communitates, que licet non
+<lb ed="#Ba"/>omnino sint communitates univoci, 
+ta<lb ed="#Ba" break="no"/>men imitantur univocum. Ex hoc enim
+<lb ed="#Ba"/>quod Socrates est homo, et Plato est
+<lb ed="#Ba"/>homo, et Petrus homo, et commune est
+<lb ed="#Ba"/>eis quod homo est secundum naturam,
+<lb ed="#Ba"/>sequitur quod isti tres supposita sunt
+<lb ed="#Ba"/>unius nature, et commune eis est, quod
+<lb ed="#Ba"/>quilibet suppositum est ex respectu 
+sub<lb ed="#Ba" break="no"/>stantis ad id cui substat : qui licet 
+plu<lb ed="#Ba" break="no"/>rium sit ad unum, tamen similis et
+<lb ed="#Ba"/>zqualis est in eis, et per consequens
+<lb ed="#Ba"/>unius rationis. Ef similiter commune
+<lb ed="#Ba"/>est cis, quod hi tres individua sunt, -et
+<lb ed="#Ba"/>tres nature sunt. Et hoc vocatur 
+com<lb ed="#Ba" break="no"/>mune habitudinis sive proportionis ad
+<lb ed="#Ba"/>unum, et imilatur univocum, licet: vere
+<pb ed="#Ba" n="471"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>univocum non sit : quia univocum vere
+<lb ed="#Ba"/>a natura una causatur, que communis
+<lb ed="#Ba"/>pluribus participatur a singulis. Et hoc
+<lb ed="#Ba"/>modo in divinis commune est hoc quod
+<lb ed="#Ba"/>persona est. Quamvis enim non ab una
+<lb ed="#Ba"/>et eadem personalitate Pater sit persona,
+<lb ed="#Ba"/>Filius sit persona, Spiritus sanctus sit
+<lb ed="#Ba"/>persona, sicut ab una et eadem deitate
+<lb ed="#Ba"/>Pater est Deus, Filius est Deus, Spiritus
+<lb ed="#Ba"/>sanctus est Deus : tamen a simili 
+respe<lb ed="#Ba" break="no"/>ctu hypostasis Patris ad proprietatem
+<lb ed="#Ba"/>personalem etad naturam communem,et
+<lb ed="#Ba"/>hypostasis Filii ad proprietatem suam et
+<lb ed="#Ba"/>naturam communem, et similiter 
+hypo<lb ed="#Ba" break="no"/>stasis Spiritus Sancti,causatur communis
+<lb ed="#Ba"/>predicatio persone de tribus, que 
+pre<lb ed="#Ba" break="no"/>dicatur de tribus non ut commune 
+natu<lb ed="#Ba" break="no"/>re, sed ut commune habitudinis sive
+<lb ed="#Ba"/>proportionis ad unum, quod imitatur
+<lb ed="#Ba"/>univocum in hoc, quod in pluribus 
+equa<lb ed="#Ba" break="no"/>Jem et coequevum ad unum et idem
+<lb ed="#Ba"/>ponit respectum.
+</p>
+               <p xml:id="Almn78-a03177-d1e1532">
+                  <lb ed="#Ba"/>Et si objiciatur, quod secundum hoe
+<lb ed="#Ba"/>persona videtur preedicari ut universale
+<lb ed="#Ba"/>et ens de ratione trium cum dicitur,
+<lb ed="#Ba"/>Pater est persona, Filius est persona,
+<lb ed="#Ba"/>Spiritus sanctus est persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e1545">
+                  <lb ed="#Ba"/>Dicendum, quod non predicatur ut
+<lb ed="#Ba"/>universale, nec ut ens de ratione trium :
+<lb ed="#Ba"/>quod enim sic predicatur, est commune
+<lb ed="#Ba"/>nature, et non habitudinis : sed 
+preedi<lb ed="#Ba" break="no"/>catur ut idem sub alio modo 
+significan<lb ed="#Ba" break="no"/>di. Idem enim est, Pater est persona,
+<lb ed="#Ba"/>quod Pater est Pater : sed alium 
+mo<lb ed="#Ba" break="no"/>dum habet significandi, preecipue 
+secun<lb ed="#Ba" break="no"/>dum quod Pater est substantivum, non
+<lb ed="#Ba"/>adjectivum. Et hoc patet si resolvatur.
+<lb ed="#Ba"/>Cum enim dicitur, Pater est Pater, 
+sen<lb ed="#Ba" break="no"/>sus est, Pater est hypostasis 
+incommu<lb ed="#Ba" break="no"/>nicabili proprietate paternitatis 
+determi<lb ed="#Ba" break="no"/>nata, divine nature superposita : et hac
+<lb ed="#Ba"/>est ratio persone.
+</p>
+               <p xml:id="Almn78-a03177-d1e1580">
+                  <lb ed="#Ba"/>Magister Gulielmus tamen 
+Alltisiodo<lb ed="#Ba" break="no"/>rensis ad hoc solvendum distinguit 
+qua<lb ed="#Ba" break="no"/>druplex univocum. Primum  dicebat
+<lb ed="#Ba"/>causari a conformitate communis 
+natu<lb ed="#Ba" break="no"/>re, sicut homo univocum ad omnes ho
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>mines, et album ad omnia alba. 
+Secun<lb ed="#Ba" break="no"/>dum dicebat causari a generali 
+conformi<lb ed="#Ba" break="no"/>tate intellectus. Dicebat enim, quod 
+in<lb ed="#Ba" break="no"/>tellectus in hoc imago Dei est, quia
+<lb ed="#Ba"/>similitudinem habet cum omni re sicut
+<lb ed="#Ba"/>Deus. Sicut etiam dicit Aristoteles in
+<lb ed="#Ba"/>IIT de Anima, quod intellectus est species
+<lb ed="#Ba"/>specierum intelligibilium : et hoc 
+intel<lb ed="#Ba" break="no"/>ligitur de intellectu formali. Et hoc 
+mo<lb ed="#Ba" break="no"/>do dicebat esse univocum hoc nomen,
+<lb ed="#Ba"/>res, in divisione Augustini in libro I de
+<lb ed="#Ba"/>Doetrina Christiana, qua dicitur : <quote xml:id="Almn78-a03177-Qd1e1621"> 
+Re<lb ed="#Ba" break="no"/>rum aliae sunt quibus: fruendum est,
+<lb ed="#Ba"/>aliae quibus utendum est, alia que 
+utun<lb ed="#Ba" break="no"/>tur et fruuntur'. </quote> Res enim sive sit
+<lb ed="#Ba"/>creata, sive increata, similiter est ens
+<lb ed="#Ba"/>ratum apud intellectum. Tertium 
+causa<lb ed="#Ba" break="no"/>tur per equalem denominationem ex
+<lb ed="#Ba"/>parte anime acceptam, sicut intelligibile
+<lb ed="#Ba"/>univocum ad omnia intelligibilia, et 
+opi<lb ed="#Ba" break="no"/>nabile ad omnia opinabilia. Et hoc modo
+<lb ed="#Ba"/>dicebat univocum esse hoc nomen, 
+no<lb ed="#Ba" break="no"/>tio, ad quinque notiones que sunt in
+<lb ed="#Ba"/>divinis. Quarta univocatio, ut dicit,
+<lb ed="#Ba"/>causatur ab equali proportione ad. 
+effe<lb ed="#Ba" break="no"/>ctum.. Et hoc modo dicebat univocum
+<lb ed="#Ba"/>esse hoc nomen, justwm, de Deo et de
+<lb ed="#Ba"/>homine : Deus enim dicitur justus, quia
+<lb ed="#Ba"/>reddit unicuique quod suum est. Et a
+<lb ed="#Ba"/>simili effectu dicitur homo justus. In
+<lb ed="#Ba"/>his tamen modis non simpliciter est 
+uni<lb ed="#Ba" break="no"/>vocum, nisi in primo. Alii autem modi
+<lb ed="#Ba"/>imitantur univocum ; et ideo 
+communi<lb ed="#Ba" break="no"/>tas illorum est magis communitas 
+ana<lb ed="#Ba" break="no"/>logi, quam univoci.
+</p>
+               <p xml:id="Almn78-a03177-d1e1674">
+                  <lb ed="#Ba"/>Ad aliud dicendum est, quod 
+substan<lb ed="#Ba" break="no"/>tia in definitione posita non dicitur a
+<lb ed="#Ba"/>natura substantia que subsistere facit,
+<lb ed="#Ba"/>sed ab actu substandi, et sic convenit 
+sup<lb ed="#Ba" break="no"/>posito sive hypostasi, ut dictum est.
+</p>
+               <p xml:id="Almn78-a03177-d1e1688">
+                  <lb ed="#Ba"/>Id autem quod contra singulos 
+indu<lb ed="#Ba" break="no"/>clum est, jam solutum est in 
+praha<lb ed="#Ba" break="no"/>bitis.
+</p>
+               <p xml:id="Almn78-a03177-d1e1697">
+                  <lb ed="#Ba"/>Ad id quod objicitur de Boetio, dicen- Contra 
+sen<lb ed="#Ba" break="no"/>dum, quod Boetius in illo loco 
+sebstan<lb ed="#Ba" break="no"/>tiam accipit pro natura que substare
+<pb ed="#Ba" n="472"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>vel subsistere facit in se, et non alio
+<lb ed="#Ba"/>indigere ut sit, et non accipit eam 
+secun<lb ed="#Ba" break="no"/>dum quod ab actu substandi dicitur, Et
+<lb ed="#Ba"/>hoc modo verum est, quod porsona non
+<lb ed="#Ba"/>dicit nec significat substantiam, nisi in
+<lb ed="#Ba"/>obliquo.
+</p>
+               <p xml:id="Almn78-a03177-d1e1723">
+                  <lb ed="#Ba"/>Per woc etiam patet solutio ad 
+di<lb ed="#Ba" break="no"/>ctum Augustini, quia similiter accipit
+<lb ed="#Ba"/>substantiam.
+  
+<lb ed="#Ba"/>Ad rationem ultimam dicendum est,
+<lb ed="#Ba"/>quod non sequitur, nisi persona 
+signifi<lb ed="#Ba" break="no"/>caret essentiam in recto, vel substantiam
+<lb ed="#Ba"/>prout substantia non dicitur ab actu
+<lb ed="#Ba"/>substandi, sed ut ens in se subsistens,
+<lb ed="#Ba"/>alio non indigens, sicut communis et
+<lb ed="#Ba"/>eadem est natura trium personarum. Et
+<lb ed="#Ba"/>sic sequeretur, quod tres essentie essent
+<lb ed="#Ba"/>tres persone, et numerate in tribus 
+per<lb ed="#Ba" break="no"/>sonis.
+</p>
+            </div>
+            <div xml:id="Almn78-a03177-Dd1e1755">
+               <head xml:id="Almn78-a03177-Hd1e1757">Membrum 2</head>
+               <head xml:id="Almn78-a03177-Hd1e1760" type="question-title">
+  De definitione hujus nominis, persona.
+</head>
+               <p xml:id="Almn78-a03177-d1e1763">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>De definitione hujus nominis, persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e1770">
+                  <lb ed="#Ba"/>Secundo, Queritur de definitione istius
+<lb ed="#Ba"/>hominis, persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e1777">
+                  <lb ed="#Ba"/>Et inveniuntur quatuor definitiones.
+<lb ed="#Ba"/>Prima Boetii, hac scilicet, <quote xml:id="Almn78-a03177-Qd1e1783"> Persona
+<lb ed="#Ba"/>est rationalis nature individua 
+substan<lb ed="#Ba" break="no"/>tia. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e1792">
+                  <lb ed="#Ba"/>Secunda est Richardi in libro de 
+7ri<lb ed="#Ba" break="no"/>nitate, haec scilicet, <quote xml:id="Almn78-a03177-Qd1e1798"> Persona est 
+intel<lb ed="#Ba" break="no"/>lectualis nature incommunicabilis 
+exi<lb ed="#Ba" break="no"/>stentia. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e1806">
+                  <lb ed="#Ba"/>Tertia iterum Richardi, ibidem, <quote xml:id="Almn78-a03177-Qd1e1810"> 
+Per<lb ed="#Ba" break="no"/>sona est existens per se solum secundum
+<lb ed="#Ba"/>quemdam rationalis existentia modum. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e1818">
+                  <lb ed="#Ba"/>Quarta magistralis est, hac scilicet,
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a03177-Qd1e1824"> Persona est hypostasis distincta 
+incom<lb ed="#Ba" break="no"/>municabili proprietate ad dignitatem
+<lb ed="#Ba"/>pertinente, </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e1832">
+                  <lb ed="#Ba"/>Et queritur de singulis definitionibus.
+<lb ed="#Ba"/>Videtur enim inconveniens prima.
+</p>
+               <p xml:id="Almn78-a03177-d1e1839">
+                  <lb ed="#Ba"/>1. Rationalis enim natura non est 
+ni<lb ed="#Ba" break="no"/>si in homine. Dicit enim Isaac in libro,
+<lb ed="#Ba"/>Definitionum, quod <quote xml:id="Almn78-a03177-Qd1e1847"> ratio est vis 
+ani<lb ed="#Ba" break="no"/>mez, faciens currere causam in 
+causa<lb ed="#Ba" break="no"/>tum : </quote> et sic ratio cum collatione est et
+<lb ed="#Ba"/>cum inquisitione. Talis autem natura
+<lb ed="#Ba"/>non est divina, nec etiam angelica, cum
+<lb ed="#Ba"/>tamen persona sit tam in divina quam in
+<lb ed="#Ba"/>angelica natura. Inconvenienter ergo 
+de<lb ed="#Ba" break="no"/>finitur per rationalem naturam. .
+</p>
+               <p xml:id="Almn78-a03177-d1e1866">
+                  <lb ed="#Ba"/>2. Adhuc, In divinis propter 
+indiffe<lb ed="#Ba" break="no"/>rentiam simplicitatis persona est 
+essen<lb ed="#Ba" break="no"/>tia, sive natura. Obliquus autem omnis
+<lb ed="#Ba"/>notat transitionem et diversitatem. Cum
+<lb ed="#Ba"/>ergo dicitur, Persona est rationalis 
+na<lb ed="#Ba" break="no"/>ture, diversitas notatur inter personam
+<lb ed="#Ba"/>et rationalem naturam : et cum sit 
+om<lb ed="#Ba" break="no"/>nimoda indifferentia, potius deberet dici,
+<lb ed="#Ba"/>Persona est rationalis natura, quam 
+ra<lb ed="#Ba" break="no"/>tionalis nature.
+</p>
+               <p xml:id="Almn78-a03177-d1e1891">
+                  <lb ed="#Ba"/>3. Adhuc, Objicitur de hoc quod 
+dici<lb ed="#Ba" break="no"/>tur, Individua. Nihil enim est 
+indivi<lb ed="#Ba" break="no"/>duum in particulari, nisi quod dividuum
+<lb ed="#Ba"/>est in natura. Dividuum autem in 
+natu<lb ed="#Ba" break="no"/>ra, est materia que secundum esse 
+divi<lb ed="#Ba" break="no"/>ditur in particularibus. Divina natura 
+se<lb ed="#Ba" break="no"/>cundum esse non dividitur in 
+particula<lb ed="#Ba" break="no"/>ribus sive in hypostasibus, quas Joannes
+<lb ed="#Ba"/>Damascenus vocat particularia. Ergo
+<lb ed="#Ba"/>persone in divinis non convenit esse in-
+‘dividuum.
+</p>
+               <p xml:id="Almn78-a03177-d1e1915">
+                  <lb ed="#Ba"/>4, Adhuc, Non videtur convenire quod
+<lb ed="#Ba"/>dicit, Substantia. Quod enim in 
+defini<lb ed="#Ba" break="no"/>tione alicujus ponitur, multiplicato 
+de<lb ed="#Ba" break="no"/>finito multiplicatur definiens, ut cum 
+di<lb ed="#Ba" break="no"/>citur, homo animal. rationale mortale,
+<lb ed="#Ba"/>plures homines plura animalia 
+rationa<lb ed="#Ba" break="no"/>lia mortalia. Ergo a simili, si persona
+<lb ed="#Ba"/>est individua substantia, plures persone
+<lb ed="#Ba"/>plures erunt substantia individue, ut
+<lb ed="#Ba"/>dixit Arius, et hoc est heresis, quia
+<lb ed="#Ba"/>tres persone sunt una substantia 
+indivi<lb ed="#Ba" break="no"/>dua sive indivisibilis secundum esse.
+</p>
+               <p xml:id="Almn78-a03177-d1e1944">
+                  <lb ed="#Ba"/>Contra SECUNDAM etiam objicitur que
+<lb ed="#Ba"/>est hec, <quote xml:id="Almn78-a03177-Qd1e1950"> Persona est intellectualis 
+na<lb ed="#Ba" break="no"/>ture incommunicabilis existentia. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e1956">
+                  <pb ed="#Ba" n="473"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>1. Et queritur, Que sit natura 
+intelle<lb ed="#Ba" break="no"/>clualis ? Aut enim est que 
+intellectua<lb ed="#Ba" break="no"/>litate sicut differentia in specie 
+consti<lb ed="#Ba" break="no"/>tuitur, aut que intellectu utitur, aut que
+<lb ed="#Ba"/>intelligitur, eo quod non intelligitur nisi
+<lb ed="#Ba"/>intellectuale, hoc est, in esse 
+intellectua<lb ed="#Ba" break="no"/>li acceptum. Si primo modo : tunc 
+na<lb ed="#Ba" break="no"/>tura divina non erit intellectualis : nulla
+<lb ed="#Ba"/>enim differentia in specie nature 
+con<lb ed="#Ba" break="no"/>stituitur. Si secundo modo, iterum non
+<lb ed="#Ba"/>crit ‘intellectualis : non enim intellectu
+<lb ed="#Ba"/>utitur, sed seipso intelligit. Si tertio 
+mo<lb ed="#Ba" break="no"/>do : tunc multarum naturarum erit 
+per<lb ed="#Ba" break="no"/>sona:sicuf enim dicit Boetius, natura
+<lb ed="#Ba"/>que inomnibus est, est’ que quoquo
+<lb ed="#Ba"/>modo intelligi potest: et sic omnium
+<lb ed="#Ba"/>naturarum esset persona, quod falsum
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a03177-d1e2002">
+                  <lb ed="#Ba"/>2, Adhuc, Quod dicitur, 
+Incommuni<lb ed="#Ba" break="no"/>cabilis, non videtur convenire soli 
+per<lb ed="#Ba" break="no"/>sone : cum tamen sit ultima differentia
+<lb ed="#Ba"/>in definitione posita, de qua dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in VU prime philosophiae, quod
+<lb ed="#Ba"/>convertibilis esse debet : omnia enim 
+in<lb ed="#Ba" break="no"/>dividua et omnia propria 
+incommunica<lb ed="#Ba" break="no"/>bilia sunt. Dicit enim Algazel in Logica
+<lb ed="#Ba"/>sua, quod individuum est ab accidente
+<lb ed="#Ba"/>incommunicabili, et ideo dicitur 
+singu<lb ed="#Ba" break="no"/>lare.
+</p>
+               <p xml:id="Almn78-a03177-d1e2028">
+                  <lb ed="#Ba"/>3. Adhuc, Quod dicit, Existentia, 
+vi<lb ed="#Ba" break="no"/>detur inconvenienter dici : existentia enim
+<lb ed="#Ba"/>secundum rationem suorum 
+componen<lb ed="#Ba" break="no"/>tium dicit ens ex alio productum : hoc
+<lb ed="#Ba"/>autem angelicis personis non convenit,
+<lb ed="#Ba"/>que origine non distinguuntur : et etiam
+<lb ed="#Ba"/>in divinis Patri non convenit, quia Pater
+<lb ed="#Ba"/>ex alio quodam non est : et in humanis
+<lb ed="#Ba"/>Adz non convenit, eo quod Adam 
+se<lb ed="#Ba" break="no"/>cundum originem ex alio non est.
+</p>
+               <p xml:id="Almn78-a03177-d1e2053">
+                  <lb ed="#Ba"/>4, Adhuc, Persona potius est existens
+<lb ed="#Ba"/>quam existentia. Melius ergo diceretur,
+<lb ed="#Ba"/>quod persona est intellectualis nature
+<lb ed="#Ba"/>incommunicabile existens, quam 
+incom<lb ed="#Ba" break="no"/>municabilis existentia.
+</p>
+               <p xml:id="Almn78-a03177-d1e2066">
+                  <lb ed="#Ba"/>ConTRA TERTIAM etiam objicitur, que
+<lb ed="#Ba"/>est haec scilicet, <quote xml:id="Almn78-a03177-Qd1e2072"> Persona est existens
+<lb ed="#Ba"/>per se solum secundum, quemdam 
+ratio<lb ed="#Ba" break="no"/>nalis existentie modum. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e2080">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>1. Secundum hance enim non videtur
+<lb ed="#Ba"/>esse persona in divinis. Dicit enim 
+Hila<lb ed="#Ba" break="no"/>rius in hbro VIE de Trinitate, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a03177-Qd1e2093"> solitudo non est in divinis, nec 
+singu<lb ed="#Ba" break="no"/>laritas. </quote> Existens autem per se solum
+<lb ed="#Ba"/>solitarium et singulare est.
+</p>
+               <p xml:id="Almn78-a03177-d1e2101">
+                  <lb ed="#Ba"/>2. Adhuc, Cum dicitur, Secundum
+<lb ed="#Ba"/>quemdam modum, vagus est intellectus
+<lb ed="#Ba"/>et non determinatus : quia nescitur quis
+<lb ed="#Ba"/>sit modus ille. Definientia autem certa et
+<lb ed="#Ba"/>determinata debent esse : quia aliter 
+de<lb ed="#Ba" break="no"/>finitio non determinaret et certificaret
+<lb ed="#Ba"/>definitum. Male ergo dicitur, Secundum
+<lb ed="#Ba"/>quemdam modum.
+</p>
+               <p xml:id="Almn78-a03177-d1e2121">
+                  <lb ed="#Ba"/>Conta QuaRTAM etiam objicitur, hanc
+<lb ed="#Ba"/>scilicet, quod <quote xml:id="Almn78-a03177-Qd1e2127"> persona est hypostasis
+<lb ed="#Ba"/>incommunicabili proprietate 
+determina<lb ed="#Ba" break="no"/>ta ad dignitatem pertinente. </quote>
+               </p>
+               <p xml:id="Almn78-a03177-d1e2135">
+                  <lb ed="#Ba"/>1, Secundum hanc enim videtur, quod
+<lb ed="#Ba"/>intellectus persone compositus sit, et .
+<lb ed="#Ba"/>addat super intellectum hypostasis. 
+Com<lb ed="#Ba" break="no"/>posilus autem intellectus non est nisi
+<lb ed="#Ba"/>compositi. Persona ergo in divinis 
+vide<lb ed="#Ba" break="no"/>tur esse composita, quod falsum est:
+<lb ed="#Ba"/>eque enim simplex persona est sicut
+<lb ed="#Ba"/>essentia.
+</p>
+               <p xml:id="Almn78-a03177-d1e2156">
+                  <lb ed="#Ba"/>2. Adhuc, Secundum hoc 
+vide<lb ed="#Ba" break="no"/>tur, quod abstracta personalitate per
+<lb ed="#Ba"/>intellectum, adhuc remaneat 
+hypo<lb ed="#Ba" break="no"/>stasis : et hoc falsum est: quia 
+hypo<lb ed="#Ba" break="no"/>stasis est distinctum et determinatum
+<lb ed="#Ba"/>quid, quod apud Philosophum. vocatur
+<lb ed="#Ba"/>hoc aliquid: et si dicatur hic aliquis,
+<lb ed="#Ba"/>tamen hic aliquis non est tam quis,
+<lb ed="#Ba"/>quam quod, ut dicit Richardus, et sic
+<lb ed="#Ba"/>redit in idem. Sed abstracto 
+determinan<lb ed="#Ba" break="no"/>te non remanet determinatum : 
+persona<lb ed="#Ba" break="no"/>litas autem derminans est. Ergo 
+abstra<lb ed="#Ba" break="no"/>cta personalitate hypostasis determinata
+<lb ed="#Ba"/>non remanet. Si ergo remanet aliquid,
+<lb ed="#Ba"/>non potest remanere nisi essentia 
+deter<lb ed="#Ba" break="no"/>minata : et sic sequeretur, quod 
+perso<lb ed="#Ba" break="no"/>nalis proprietas determinaret essentiam,
+<lb ed="#Ba"/>quod falsum est et sepius improbatum :
+<lb ed="#Ba"/>sequeretur enim, quod sicut Pater non
+<lb ed="#Ba"/>est Filius, ita essentia Patris non esset
+<lb ed="#Ba"/>essentia Filii.
+</p>
+               <p xml:id="Almn78-a03177-d1e2204">
+                  <pb ed="#Ba" n="474"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Adhuc, Contra has omnes definitiones
+<lb ed="#Ba"/>simul objicitur.
+</p>
+               <p xml:id="Almn78-a03177-d1e2215">
+                  <lb ed="#Ba"/>1. Videtur enim, quod secundum eas
+<lb ed="#Ba"/>anima separata sit persona. Est enim
+<lb ed="#Ba"/>substantia individua rationalis nature,
+<lb ed="#Ba"/>et est existens per se solum secundum
+<lb ed="#Ba"/>quemdam intellectualis existentie 
+mo<lb ed="#Ba" break="no"/>dum.
+</p>
+               <p xml:id="Almn78-a03177-d1e2231">
+                  <lb ed="#Ba"/>2. Adhuc, Videtur, quod natura 
+hu<lb ed="#Ba" break="no"/>mana in Christo secundum hoc sit 
+per<lb ed="#Ba" break="no"/>sona: est enim rationalis nature 
+indi<lb ed="#Ba" break="no"/>vidua substantia : et per eamdem 
+ratio<lb ed="#Ba" break="no"/>nem divina natura in Christo erit 
+perso<lb ed="#Ba" break="no"/>na: etsic Christus est due persone,
+<lb ed="#Ba"/>quod falsum est,
+</p>
+               <p xml:id="Almn78-a03177-d1e2249">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod licet: sicut
+<lb ed="#Ba"/>dicit Aristoteles in Topicis, unius rei 
+sic<lb ed="#Ba" break="no"/>ut unum est esse, sit una definitio : 
+ta<lb ed="#Ba" break="no"/>men secundum plura que secundum
+<lb ed="#Ba"/>modum intelligendi sunt in uno et 
+eo<lb ed="#Ba" break="no"/>dem, plures possunt dari assignationes,
+<lb ed="#Ba"/>que non sunt vere definitiones, sed 
+ma<lb ed="#Ba" break="no"/>nifestationes majoris declarationis, quam
+<lb ed="#Ba"/>nomen. Et tales sunt que inducte sunt.
+<lb ed="#Ba"/>Et differunt, quia illa que est Boetii,
+<lb ed="#Ba"/>data est de communi intentione 
+perso<lb ed="#Ba" break="no"/>ne, prout se communiter habet ad Deum
+<lb ed="#Ba"/>et Angelum, et hominem. Due vero que
+<lb ed="#Ba"/>sunt Richardi, corrigunt eam que est 
+Bo<lb ed="#Ba" break="no"/>etii et determinant ad divina : et ideo 
+dan<lb ed="#Ba" break="no"/>tur per propria divinorum, quorum 
+ma<lb ed="#Ba" break="no"/>gis est esse intellectuale quam rationale,
+<lb ed="#Ba"/>et singulare quam individuum ,et existere
+<lb ed="#Ba"/>secundum individuum persone ad 
+perso<lb ed="#Ba" break="no"/>nam, quam substare in seipsa. Quarta
+<lb ed="#Ba"/>vero datur secundum nominis 
+proprieta<lb ed="#Ba" break="no"/>tem. Dictum est enim in prehabitis,
+<lb ed="#Ba"/>quod persona est facies larvata: quod
+<lb ed="#Ba"/>non fiebat, nisi ad designationem certe
+<lb ed="#Ba"/>persone et heri, que dignitate 
+pracede<lb ed="#Ba" break="no"/>bat, ut Priamus et Hecuba. Propier quod
+<lb ed="#Ba"/>etiam adhuc in civilibus persone 
+dicun<lb ed="#Ba" break="no"/>tur homines dignitate pracellentes, ut
+<lb ed="#Ba"/>imperator, preses,episcopus, prepositus,
+<lb ed="#Ba"/>et hajusmodi.
+</p>
+               <p xml:id="Almn78-a03177-d1e2317">
+                  <lb ed="#Ba"/>Ad id ergo quod objicitur contra 
+pri<lb ed="#Ba" break="no"/>mam definitionem, dicendum quod ratio
+<lb ed="#Ba"/>compositus intellectus est, et sie ratio
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>nalis natura pro intellectuali ponitur :
+<lb ed="#Ba"/>tamen hoc est unum propter quod 
+corri<lb ed="#Ba" break="no"/>git eam Richardus.
+</p>
+               <p xml:id="Almn78-a03177-d1e2336">
+                  <lb ed="#Ba"/>Ad sup dicendum, quod in verilate
+<lb ed="#Ba"/>respiciendo ad simplicitatem rei in 
+divi<lb ed="#Ba" break="no"/>nis, unumquodque divinorum 
+pradica<lb ed="#Ba" break="no"/>tur de alio in rectitudine : et sic persona
+<lb ed="#Ba"/>est essentia, et proprietas essentia. 
+Re<lb ed="#Ba" break="no"/>spiciendo autem ad modum inielligendi
+<lb ed="#Ba"/>communem, quo divina ex humanis 
+in<lb ed="#Ba" break="no"/>telligimus, sicut dicit Dionysius, eo quoi
+<lb ed="#Ba"/>humana sunt exemplata a divinis: sir
+<lb ed="#Ba"/>convenientius dicitur persona rationalis
+<lb ed="#Ba"/>nature sive essentia, quam rationalis
+<lb ed="#Ba"/>natura vel essentia. Dicit enim Hilarius,
+<lb ed="#Ba"/>quod aliud est ignis, et quod ignis esl:
+<lb ed="#Ba"/>et aliud est homo, et quod hominis est :
+<lb ed="#Ba"/>et aliud Deus, et quod Dei est : et 
+gene<lb ed="#Ba" break="no"/>raliter aliud natura, et quod nature est :
+<lb ed="#Ba"/>et hoc quidem in creatis aliud est re, in
+<lb ed="#Ba"/>divinis autem aliud modo significandi.
+<lb ed="#Ba"/>Cum ergo persona res nature. sit, et
+<lb ed="#Ba"/>rem nature dicat in recto, naturam 
+au<lb ed="#Ba" break="no"/>tem dicat in obliquo, et dicat eam ut
+<lb ed="#Ba"/>quo est res nature, et ideo supposita
+<lb ed="#Ba"/>persona non supponitur natura sivo
+<lb ed="#Ba"/>essentia, convenientius dicitur rationalis
+<lb ed="#Ba"/>nature quam rationalis natura.
+</p>
+               <p xml:id="Almn78-a03177-d1e2393">
+                  <lb ed="#Ba"/>Et quod objicitur de transitione 
+obli<lb ed="#Ba" break="no"/>qui, dicendum quod transitioni que 
+no<lb ed="#Ba" break="no"/>tatur per genitivum, sufficit diversitas
+<lb ed="#Ba"/>in modo intelligendi, sicut convenienter
+<lb ed="#Ba"/>dicitur bonitas Dei, cum tamen bonitas
+<lb ed="#Ba"/>Dei et Deus seipso sit bonus. Dicit 
+ta<lb ed="#Ba" break="no"/>men Augustinus in libro VII de Trinitate
+<lb ed="#Ba"/>et ponitur in libro I Sententiarum, 
+dis<lb ed="#Ba" break="no"/>tinct. XXIII, quod <quote xml:id="Almn78-a03177-Qd1e2414">tres personas unius
+<lb ed="#Ba"/>essentia dicimus, non ex eadem 
+essen<lb ed="#Ba" break="no"/>tia, ne diversitatem inter essentiam et
+<lb ed="#Ba"/>personam notemus. </quote> Sed hoc est ex
+<lb ed="#Ba"/>causis duabus simul junclis, quarum una
+<lb ed="#Ba"/>est, quia ablativus est vehementioris 
+di<lb ed="#Ba" break="no"/>versilatis quam genitivus. Alia, quod
+<lb ed="#Ba"/>prepositio que etiam transitiva est et 
+di<lb ed="#Ba" break="no"/>versitatem notat, habitudinem designat
+<lb ed="#Ba"/>esse materialis ad materiatum : et ideo
+<lb ed="#Ba"/>tres personas ex eadem essentia non 
+di<lb ed="#Ba" break="no"/>cimus, ne persona ex essentia sicut ex
+<lb ed="#Ba"/>materia esse credatur, Hujus signum est,
+<pb ed="#Ba" n="475"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod constructio genitivi cum recto 
+ali<lb ed="#Ba" break="no"/>quando intransitiva est, et non notat
+<lb ed="#Ba"/>nisi habitudinem determinati ad 
+confu<lb ed="#Ba" break="no"/>sum, cum tamen idem sit re 
+determina<lb ed="#Ba" break="no"/>tum et confusum, ut cum dicitur 
+creatu<lb ed="#Ba" break="no"/>ra salis : et talis constructio non est 
+in<lb ed="#Ba" break="no"/>ter rectum et ablativum, maxime 
+quan<lb ed="#Ba" break="no"/>do ablativo adjungitur prapositio, ut
+<lb ed="#Ba"/>cum dicitur, cultellus de ferro.
+</p>
+               <p xml:id="Almn78-a03177-d1e2468">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod pro certo
+<lb ed="#Ba"/>in divinis non est individuum. 
+Indivi<lb ed="#Ba" break="no"/>duum enim, ut dicit Plato, est in quo
+<lb ed="#Ba"/>stat divisio descendentium a 
+generalissi<lb ed="#Ba" break="no"/>mo. Sed individuum in divinis dicitur
+<lb ed="#Ba"/>accommodata significatione idem quod
+<lb ed="#Ba"/>incommunicabile quod pluribus non 
+con<lb ed="#Ba" break="no"/>venit.
+</p>
+               <p xml:id="Almn78-a03177-d1e2488">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod substantia
+<lb ed="#Ba"/>in definitione persone non dicit 
+essen<lb ed="#Ba" break="no"/>tiam vel naturam que est stans per se,
+<lb ed="#Ba"/>alio non indigens, sive que dicit quo
+<lb ed="#Ba"/>est : sed stat pro supposito quod est 
+hy<lb ed="#Ba" break="no"/>postasis, quod ab actu substandi 
+swbstan<lb ed="#Ba" break="no"/>tia dicitur. Et bene conceditur 
+secun<lb ed="#Ba" break="no"/>dum Gracos, quod hoc modo plures
+<lb ed="#Ba"/>persone plures substantia sint, sicut
+<lb ed="#Ba"/>apud nos plures persone sunt plura 
+sup<lb ed="#Ba" break="no"/>posita, et plures res plures nature.
+<lb ed="#Ba"/>Apud nos autem non dicitur, plures 
+sub<lb ed="#Ba" break="no"/>stantia : quia substantia apud nos 
+du<lb ed="#Ba" break="no"/>biam habet significationem. Et aliquando
+<lb ed="#Ba"/>ponitur pro natura qua substat, alio non
+<lb ed="#Ba"/>indigens omne quod substat per se : et sic
+<lb ed="#Ba"/>opponitur accidenti. Aliquando. ponitut
+<lb ed="#Ba"/>pro supposito sive prima substantia. Unde
+<lb ed="#Ba"/>ne detur occasio hereticis,a Latinis 
+inhi<lb ed="#Ba" break="no"/>bitum est, ne tres-substantie dicantur
+<lb ed="#Ba"/>tres persone, ne diversitas nature in
+<lb ed="#Ba"/>personis esse credatur ’.
+</p>
+               <p xml:id="Almn78-a03177-d1e2538">
+                  <lb ed="#Ba"/>Ad itLup quod contra secundam 
+obji<lb ed="#Ba" break="no"/>cilur dicendum quod intellectualis 
+natu<lb ed="#Ba" break="no"/>ra intelligitur, ut dicit Boetius, 
+secun<lb ed="#Ba" break="no"/>dum quod natura dicitur unamquamque
+<lb ed="#Ba"/>rem informans specifica differentia :
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quam licet Deus non habeat ut cum 
+ali<lb ed="#Ba" break="no"/>quo genere constituentem se in specie,
+<lb ed="#Ba"/>eo quod est in fine simplicitatis, habet
+<lb ed="#Ba"/>tamen ut idem ipsi, et ut quo est nature
+<lb ed="#Ba"/>intellectualis ; licet enim in Deo idem
+<lb ed="#Ba"/>sit quod est et quo est secundum rem,
+<lb ed="#Ba"/>differunt tamen modo intelligendi.
+</p>
+               <p xml:id="Almn78-a03177-d1e2569">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod 
+incommu<lb ed="#Ba" break="no"/>nicabile determinatum per hoc quod 
+di<lb ed="#Ba" break="no"/>citur, rationalis vel intellectualis 
+natu<lb ed="#Ba" break="no"/>re, soli persone conveniens est : et sic
+<lb ed="#Ba"/>ponitur in definitione persone ut ultima
+<lb ed="#Ba"/>differentia et convertibilis: simpliciter
+<lb ed="#Ba"/>autem acceptum majoris communitatis
+<lb ed="#Ba"/>est, quam persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e2590">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod existentia
+<lb ed="#Ba"/>notat originem, ut dicit objectio: sed
+<lb ed="#Ba"/>communiter ad originem activam et 
+pas<lb ed="#Ba" break="no"/>sivam, hoc est, originem originantem et
+<lb ed="#Ba"/>originem originatam. Unde hac 
+defini<lb ed="#Ba" break="no"/>tio magis proprie est in divinis. In Deo
+<lb ed="#Ba"/>enim persona est incommunicabile 
+exi<lb ed="#Ba" break="no"/>stens incommunicabili proprietate 
+origi<lb ed="#Ba" break="no"/>nis determinatum. Et hoc modo Adam
+<lb ed="#Ba"/>habuit originans, et similiter Angelus
+<lb ed="#Ba"/>effective : quamvis originans illud non
+<lb ed="#Ba"/>fuerit in conformitate nature cum ipsis :
+<lb ed="#Ba"/>originans enim in conformitate nature
+<lb ed="#Ba"/>cum originato non est de essentia 
+perso<lb ed="#Ba" break="no"/>ne secundum se, sed est de essentia
+<lb ed="#Ba"/>illius vel hujus persone.
+</p>
+               <p xml:id="Almn78-a03177-d1e2627">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod existentia
+<lb ed="#Ba"/>melius dicitur, quam existens : quia 
+sic<lb ed="#Ba" break="no"/>ut dicit Richardus, persona non tam
+<lb ed="#Ba"/>quis, quam quid dicit. Dicit enim quem
+<lb ed="#Ba"/>in esse substantiali. Et hoc quid aptius
+<lb ed="#Ba"/>importatur per existentia, quam per 
+exi<lb ed="#Ba" break="no"/>stens: sic enim significatur quis, qui est
+<lb ed="#Ba"/>quid.
+</p>
+               <p xml:id="Almn78-a03177-d1e2647">
+                  <lb ed="#Ba"/>Ad im quod objicitur contra tertiam 2,
+<lb ed="#Ba"/>dicendum quod solitarium et singulare
+<lb ed="#Ba"/>secundum quod excludit consortium in
+<lb ed="#Ba"/>natura divina, in-divinis non est: et haec
+<lb ed="#Ba"/>est intentio Hilarii. Secundum autem
+<pb ed="#Ba" n="476"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod dicit exclusionem ab hoc esse 
+per<lb ed="#Ba" break="no"/>sonali, in divinis est: sic enim solus
+<lb ed="#Ba"/>Pater est Pater, et solus Filius Filius : et
+<lb ed="#Ba"/>hoc modo ponitur in definition persone
+<lb ed="#Ba"/>secundum se. Sed est de essentia hujus
+<lb ed="#Ba"/>vel illius persone, sicut et in definitione
+<lb ed="#Ba"/>individui accidens ponitur 
+incommunica<lb ed="#Ba" break="no"/>bile, quod est. collectio accidentium 
+sin<lb ed="#Ba" break="no"/>gularium quam impossibile est in alio
+<lb ed="#Ba"/>reperiri.
+</p>
+               <p xml:id="Almn78-a03177-d1e2686">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod ponit 
+quem<lb ed="#Ba" break="no"/>dam modum: quia in communi definit
+<lb ed="#Ba"/>personam, et non hance vel illam, Unde
+<lb ed="#Ba"/>cum dicitur, guemdam modum, licet 
+va<lb ed="#Ba" break="no"/>gum sit quoad hance vel ad illam, non
+<lb ed="#Ba"/>tamen vagum est quin quem determinet:
+<lb ed="#Ba"/>dicit enim modum existendi singulariter,
+<lb ed="#Ba"/>licet non hune vel illum.
+</p>
+               <p xml:id="Almn78-a03177-d1e2706">
+                  <lb ed="#Ba"/>Ad id quod objicitur contra quartam,
+<lb ed="#Ba"/>dicendum quod diversitas in modo 
+in<lb ed="#Ba" break="no"/>telligendi que non causatur ex 
+diversi<lb ed="#Ba" break="no"/>tate rei, sed ex impotentia intellectus
+<lb ed="#Ba"/>nostri, qui rem ut est aliter designare
+<lb ed="#Ba"/>non potest, nisi assignet eam per 
+assi<lb ed="#Ba" break="no"/>milationem ad humana, in nullo 
+dero<lb ed="#Ba" break="no"/>gat simplicitati rei : etideo persona 
+sim<lb ed="#Ba" break="no"/>plex est, sicut et natura in divinis: quia
+<lb ed="#Ba"/>ea que ratione nominis addit super 
+hy<lb ed="#Ba" break="no"/>postasim, non sunt diversa ab hypostasi
+<lb ed="#Ba"/>re, sed modo significandi tantum, sine
+<lb ed="#Ba"/>quibus perfectum esse persone designari
+<lb ed="#Ba"/>non potest.
+</p>
+               <p xml:id="Almn78-a03177-d1e2739">
+                  <lb ed="#Ba"/>Ad aliud dicendum , quod licet 
+se<lb ed="#Ba" break="no"/>cundum communem intentionem 
+perso<lb ed="#Ba" break="no"/>ne abstracta personalitate per 
+intelle<lb ed="#Ba" break="no"/>ctum, remaneat hypostasis, que 
+secun<lb ed="#Ba" break="no"/>dum intellectum substat personalitati :
+<lb ed="#Ba"/>tamen meo judicio in divinis abstracta
+<lb ed="#Ba"/>personalitate, nihil remanet: essentia
+<lb ed="#Ba"/>enim non remanet, quia proprietati 
+per<lb ed="#Ba" break="no"/>sonali non substat: hypostasis non 
+re<lb ed="#Ba" break="no"/>manet, quia proprietas ut proprium 
+ac<lb ed="#Ba" break="no"/>cepta, est ipsa hypostasis, secundum
+<lb ed="#Ba"/>quod dicit Hilarius, quod proprium est
+<lb ed="#Ba"/>Patri quod Pater est, et proprium Filio
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quod Filius est: et ideo ablato proprio
+<lb ed="#Ba"/>non remanet hypostasis.
+</p>
+               <p xml:id="Almn78-a03177-d1e2777">
+                  <lb ed="#Ba"/>Objectio autem que dicit, quod 
+essen<lb ed="#Ba" break="no"/>tia remanet indeterminata, procedit ac si
+<lb ed="#Ba"/>personalitas determinaret essentiam, et
+<lb ed="#Ba"/>ac si essentia substaret personalitati : et
+<lb ed="#Ba"/>hoc non est verum, .
+</p>
+               <p xml:id="Almn78-a03177-d1e2790">
+                  <lb ed="#Ba"/>Ad iLtup quod in communi objicitur
+<lb ed="#Ba"/>contra omnes, dicendum quod individua,
+<lb ed="#Ba"/>quod ponitur in definitione Boetii, et
+<lb ed="#Ba"/>incommunicabile quod ponitur in 
+defini<lb ed="#Ba" break="no"/>tione Richardi, omnis communionis 
+mo<lb ed="#Ba" break="no"/>dum excludit secundum actum et 
+poten<lb ed="#Ba" break="no"/>tiam. Communicabile autem quiddam
+<lb ed="#Ba"/>est ut pars: et hoc nec individuum, nec
+<lb ed="#Ba"/>incommunicabile est. Et ideo anima 
+se<lb ed="#Ba" break="no"/>parata persona non est quiddam ut 
+for<lb ed="#Ba" break="no"/>ma. Et ideo natura divina, vel essentia,
+<lb ed="#Ba"/>vel persona, non est quiddam ut 
+assum<lb ed="#Ba" break="no"/>ptum in unionem vel societatem alterius.
+<lb ed="#Ba"/>Et ideo natura divina in Christo vel 
+na<lb ed="#Ba" break="no"/>tura humana in Christo persona non est.
+<lb ed="#Ba"/>Nihil enim horum in se individuum vel
+<lb ed="#Ba"/>singulare et alii non Communicans est.
+</p>
+            </div>
+            <div xml:id="Almn78-a03177-Dd1e2830">
+               <head xml:id="Almn78-a03177-Hd1e2832">Membrum 3</head>
+               <head xml:id="Almn78-a03177-Hd1e2835" type="question-title">
+  De suppositione persone.
+</head>
+               <p xml:id="Almn78-a03177-d1e2838">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>De suppositione persone.
+</p>
+               <p xml:id="Almn78-a03177-d1e2845">
+                  <lb ed="#Ba"/>Tertio deberet queri de suppositione
+<lb ed="#Ba"/>persone. Sed quia jam satis habitum
+<lb ed="#Ba"/>est, quod persona supposita non 
+suppo<lb ed="#Ba" break="no"/>nitur essentia : eo quod non dicit eam in
+<lb ed="#Ba"/>recto, nec significat eam ut essentiam :
+<lb ed="#Ba"/>et si significat substantiam, ut dicit 
+Ri<lb ed="#Ba" break="no"/>chardus, non significat eam ut naturam
+<lb ed="#Ba"/>communem in se substantem et alio non
+<lb ed="#Ba"/>indigentem ut sit, nec significat sub 
+pro<lb ed="#Ba" break="no"/>prietate generali vel speciali, sed 
+signi<lb ed="#Ba" break="no"/>ficat eam prout dicitur ab actu 
+signifi<lb ed="#Ba" break="no"/>candi ut suppositum, et sub proprietate
+<pb ed="#Ba" n="477"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>individuali vel quasi individuali, prout
+<lb ed="#Ba"/>designatur per quis, qui guts tamen est
+<lb ed="#Ba"/>quid in esse substantiali, et talem 
+sub<lb ed="#Ba" break="no"/>stantiam designat tam in singulari quam
+<lb ed="#Ba"/>in plurali. Cum enim dicitur, Pater est
+<lb ed="#Ba"/>persona, sensus est, Pater est 
+supposi<lb ed="#Ba" break="no"/>tum certa et notabili proprietate 
+distin<lb ed="#Ba" break="no"/>ctum. Et cum dicitur, Pater et Filius
+<lb ed="#Ba"/>sunt persone, sensus est, Pater et Filius
+<lb ed="#Ba"/>sunt supposita certis proprietatibus 
+dis<lb ed="#Ba" break="no"/>tincta.
+</p>
+            </div>
+            <div xml:id="Almn78-a03177-Dd1e2903">
+               <head xml:id="Almn78-a03177-Hd1e2905">Membrum 4</head>
+               <head xml:id="Almn78-a03177-Hd1e2908" type="question-title">
+  De comparatione persone ad essentiam
+</head>
+               <p xml:id="Almn78-a03177-d1e2911">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>De comparatione persone ad essentiam.
+</p>
+               <p xml:id="Almn78-a03177-d1e2918">
+                  <lb ed="#Ba"/>Et cum haec omnia habita sint 
+suffi<lb ed="#Ba" break="no"/>cienter, non restat querendum, nisi de
+<lb ed="#Ba"/>quarto membro quod est de 
+compara<lb ed="#Ba" break="no"/>tione persone ad essentiam, propter 
+opi<lb ed="#Ba" break="no"/>nionem quorumdam dicentium, quod
+<lb ed="#Ba"/>persona differt ab essentia, sed non 
+es<lb ed="#Ba" break="no"/>sentia a persona.
+</p>
+               <p xml:id="Almn78-a03177-d1e2936">
+                  <lb ed="#Ba"/>Et ad hoc proceditur sic :
+<lb ed="#Ba"/>4. Aristoteles dicit in VII Topicorum:
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a03177-Qd1e2944"> Quantulamcumque differentiam 
+osten<lb ed="#Ba" break="no"/>dentes erimus, ostendentes erimus 
+quo<lb ed="#Ba" break="no"/>niam non idem. </quote> Persona convenit 
+ge<lb ed="#Ba" break="no"/>nerare et generari,spirare et spirari,
+essen<lb ed="#Ba" break="no"/>tie autem neutrum. Ergo persona differt
+<lb ed="#Ba"/>ab essentia non solum ratione 
+intelligen<lb ed="#Ba" break="no"/>di, sed re: quia realis differentia est 
+ge<lb ed="#Ba" break="no"/>nerare et generari.
+</p>
+               <p xml:id="Almn78-a03177-d1e2964">
+                  <lb ed="#Ba"/>2. Adhuc, Persone convenit 
+distin<lb ed="#Ba" break="no"/>gui: essentiae non distingut : ergo 
+per<lb ed="#Ba" break="no"/>sona differt ab essentia.
+</p>
+               <p xml:id="Almn78-a03177-d1e2973">
+                  <lb ed="#Ba"/>3. Si dicatur, quod cum dicitur, 
+es<lb ed="#Ba" break="no"/>sentie non convenit generare et 
+distin<lb ed="#Ba" break="no"/>gui, per hoc non dicitur aliqua 
+differen<lb ed="#Ba" break="no"/>tia positive, sed negative, et negatio 
+ni<lb ed="#Ba" break="no"/>hil ponit : per id autem quod nihil est,
+<lb ed="#Ba"/>nibil differt ab aliquo: quia sicut dicit
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Aristoteles, non entis non sunt species,
+<lb ed="#Ba"/>nec differentia: et sic stat quod dicit
+<lb ed="#Ba"/>opinio, scilicet quod persona positive
+<lb ed="#Ba"/>differt ab essentia, sed non e converso
+<lb ed="#Ba"/>essentia a persona. Contra : 
+GCommuni<lb ed="#Ba" break="no"/>cabile esse positiva differentia est,
+<lb ed="#Ba"/>uniens esse tres personas positiva 
+diffe<lb ed="#Ba" break="no"/>rentia est: et utraque convenit essentiae,
+<lb ed="#Ba"/>et opposita eorum privativa conveniunt
+<lb ed="#Ba"/>persone, scilicet incommunicabile esse,
+<lb ed="#Ba"/>et singulare sive distinctum esse, et ita
+<lb ed="#Ba"/>non unitivum esse : ergo positivis 
+diffe<lb ed="#Ba" break="no"/>rentiis differt essentia a persona, sicut e
+<lb ed="#Ba"/>converso. ,
+</p>
+               <p xml:id="Almn78-a03177-d1e3021">
+                  <lb ed="#Ba"/>4. Adhuc, Ista opinio per se inducit,
+<lb ed="#Ba"/>quod persona dicit aliquid additum 
+sub<lb ed="#Ba" break="no"/>stantiae sive supposito: dicit enim 
+rela<lb ed="#Ba" break="no"/>tionem determinantem suppositum, 
+sic<lb ed="#Ba" break="no"/>ut patet in ultima definitione persone
+<lb ed="#Ba"/>preinducta. Essentia autem nihil habet
+<lb ed="#Ba"/>additum. Differt ergo persona ab 
+essen<lb ed="#Ba" break="no"/>tia, et non essentia a persona per 
+ali<lb ed="#Ba" break="no"/>quam positivam differentiam.
+</p>
+               <p xml:id="Almn78-a03177-d1e3043">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod secundum
+<lb ed="#Ba"/>Catholicam fidem propter indifferentiam
+<lb ed="#Ba"/>simplicitatis quest in divinis, persona
+<lb ed="#Ba"/>est essentia, et e converso essentia est
+<lb ed="#Ba"/>persona : et re neutrum differt a reliquo,
+<lb ed="#Ba"/>sed modo intelligendi, et modo dicendi,
+<lb ed="#Ba"/>et modo supponendi, et modo 
+attribuen<lb ed="#Ba" break="no"/>di utrumque differt a reliquo : isti enim
+<lb ed="#Ba"/>modi, ut sepe habitum est, in nullo 
+pre<lb ed="#Ba" break="no"/>dicant simplicitati. Qualiter vero non
+<lb ed="#Ba"/>vani sunt, sed ad rem referuntur, sepius
+<lb ed="#Ba"/>in prehabitis determinatum est.
+</p>
+               <p xml:id="Almn78-a03177-d1e3072">
+                  <lb ed="#Ba"/>Ad primum ergo quod objicitur, dicen-
+<lb ed="#Ba" break="no"/>dum quod generare et generari, et 
+spi<lb ed="#Ba" break="no"/>rare et spirari, non dicunt differentiam
+<lb ed="#Ba"/>persone ad essentiam, sed dicunt 
+differen<lb ed="#Ba" break="no"/>tiam persone ad personam: et opposita
+<lb ed="#Ba"/>ipsorum non sunt differentie#, sed 
+nega<lb ed="#Ba" break="no"/>tiones consequentes ex affirmatione, 
+sic<lb ed="#Ba" break="no"/>ut si homo est rationale, sequitur, quod
+<lb ed="#Ba"/>id quod non supponit hominem, nec 
+di<lb ed="#Ba" break="no"/>cif eum in recto, non sit rationale. Et
+<pb ed="#Ba" n="478"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>similiter ex quo persona non supponit
+<lb ed="#Ba"/>essentiam, nec dicit eam in recto et ut
+<lb ed="#Ba"/>essentiam, sequitur quod proprium per-
+‘sone non sit proprium essentia, sed 
+ne<lb ed="#Ba" break="no"/>getur ab ea propter modum significandi
+<lb ed="#Ba"/>diversum, et propter diversum modum
+<lb ed="#Ba"/>supponendi: et hoc non prajudicat 
+iden<lb ed="#Ba" break="no"/>titati rei, sicut si dicam, demonstrata
+<lb ed="#Ba"/>statua rea, hoc est artificiale, quia 
+sta<lb ed="#Ba" break="no"/>tua: et idem est naturale; quia es: ergo
+<lb ed="#Ba"/>idem est naturale et artificiale : non valet.
+</p>
+               <p xml:id="Almn78-a03177-d1e3122">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Ad aliud quod ultimo objicitur, 
+dicen<lb ed="#Ba" break="no"/>dum, quod in divinis nulla est additio.
+<lb ed="#Ba"/>Sicut enim dicit Boetius in libro de 7'
+ri<lb ed="#Ba" break="no"/>nitate, relatio nec addit, nec minuit, nec
+<lb ed="#Ba"/>mutat, nec auget, et precipue relatio 
+ori<lb ed="#Ba" break="no"/>ginis : sed id quod est sine sui mutatione
+<lb ed="#Ba"/>et additione, dicit quodammodo se 
+habe<lb ed="#Ba" break="no"/>re ad aliud et esse alterius, et ideo 
+diver<lb ed="#Ba" break="no"/>sitatem nullam inducit, nec realem 
+ditfe<lb ed="#Ba" break="no"/>rentiam, sed tantum in modo 
+signifi<lb ed="#Ba" break="no"/>candi.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

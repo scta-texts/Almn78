@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 131</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 131</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="435"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h96723"><!-- p2t22q131 -->
+            <head xml:id="Almn78-h96723-Hd1e106">Quaestio 131</head>
+            <head xml:id="Almn78-h96723-Hd1e109" type="question-title">
+    Quomodo peccatum sit poena peccati
+  </head>
+            <p xml:id="Almn78-h96723-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXXXI.
+<lb ed="#Bc"/>Quomodo peccatum sit poena peccati ?
+</p>
+            <p xml:id="Almn78-h96723-d1e119">
+               <lb ed="#Bc"/>Circa primum queremus tria, scilicet 
+<lb ed="#Bc"/>utrum omne peccatum essentialiter sit 
+<lb ed="#Bc"/>peena cum hoc quod peccatum est?
+<lb ed="#Bc"/>Secundum est, Utrum pcenam esse, 
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>essentialiter conjunctum sit ei quod est
+  <lb ed="#Bc"/>esse peccatum ?
+</p>
+            <p xml:id="Almn78-h96723-d1e137">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Tertium est, Utrum unum peccatum
+  <lb ed="#Bc"/>sit peena alterius peccati?
+</p>
+            <div xml:id="Almn78-h96723-Dd1e147">
+               <head xml:id="Almn78-h96723-Hd1e149">Membrum 1</head>
+               <head xml:id="Almn78-h96723-Hd1e152" type="question-title">
+        Utrum omne peccatum essentialiter sit
+        pena cum hoc quod est peccatum?
+      </head>
+               <p xml:id="Almn78-h96723-d1e155">
+                  <pb ed="#Bc" n="436"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum omne peccatum essentialiter sit
+<lb ed="#Bc"/>pena cum hoc quod est peccatum?
+</p>
+               <p xml:id="Almn78-h96723-d1e168">
+                  <lb ed="#Bc"/>Ad primum proceditur sic: et est 
+ar<lb ed="#Bc" break="no"/>gumentum Magistri in Littera in cap. 4.
+<lb ed="#Bc"/>Et ideo merito queritur.
+</p>
+               <p xml:id="Almn78-h96723-d1e177">
+                  <lb ed="#Bc"/>1. Et objicit, quod non 
+omne_pecca<lb ed="#Bc" break="no"/>tum essentialiter sit pena peccati per
+<lb ed="#Bc"/>Augustinum in libro Retractationum 2
+<lb ed="#Bc"/>et in libro HI de Libero arbitrio®, qui
+<lb ed="#Bc"/>sic dicit: <quote xml:id="Almn78-h96723-Qd1e190"> Omnis pcena peccati justa
+<lb ed="#Bc"/>est, et supplicium nominatur, et de 
+ju<lb ed="#Bc" break="no"/>stitia Dei venit. </quote> Ex hoc sic concludit:
+<lb ed="#Bc"/>Si ergo peccatum in quantum peccatum,
+<lb ed="#Bc"/>pena est, videtur omne peccatum in
+<lb ed="#Bc"/>quantum est, justum esse, et a Deo 
+pro<lb ed="#Bc" break="no"/>venire: quod sane doctrine contrarium
+<lb ed="#Bc"/>est : quia peccatum non est a Deo.
+</p>
+               <p xml:id="Almn78-h96723-d1e209">
+                  <lb ed="#Bc"/>2. Adhuc, Pcena est effectus peccati
+<lb ed="#Bc"/>secundum justitiam Dei: effectus et
+<lb ed="#Bc"/>causa humquam sunt essentialiter idem :
+<lb ed="#Bc"/>ergo peccatum et pena numquam sunt
+<lb ed="#Bc"/>essentialiter idem.
+</p>
+               <p xml:id="Almn78-h96723-d1e222">
+                  <lb ed="#Bc"/>3. Adhuc, Quacumque sic se habent
+<lb ed="#Bc"/>ad invicem, quod unum prius est 
+tem<lb ed="#Bc" break="no"/>pore quam aliud, numquam essentialiter
+<lb ed="#Bc"/>sunt idem: peccatum et pcena sic se 
+ha<lb ed="#Bc" break="no"/>bent, quod peccatum semper precedit
+<lb ed="#Bc"/>penam tempore: ergo numquam 
+essen<lb ed="#Bc" break="no"/>tialiter sunt idem.
+</p>
+               <p xml:id="Almn78-h96723-d1e240">
+                  <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>1. Augustinus in libro Confessionum :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h96723-Qd1e248"> Jussisti, Domine, et sic est, ut poena sit
+<lb ed="#Bc"/>sibi omnis inordinatus actus. </quote> Sed actus
+<lb ed="#Bc"/>inordinatus est peccatum. Ergo omne
+<lb ed="#Bc"/>peccatum est sibi peena.
+</p>
+               <p xml:id="Almn78-h96723-d1e259">
+                  <lb ed="#Bc"/>2. Adhuc, Ad hoc facit, quod 
+Magi<lb ed="#Bc" break="no"/>ster adducit Augustinum in Littera super
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>illud Psalmi tvu, 9: Supercecidit ignis
+<lb ed="#Bc"/>et non viderunt solem, ubisic ait: <quote xml:id="Almn78-h96723-Qd1e272"> Ignis
+<lb ed="#Bc"/>superbia et concupiscentie et ire 
+in<lb ed="#Bc" break="no"/>telligitur. Istas poenas pauci vident,
+<lb ed="#Bc"/>ideo eas maxime commemorat 
+Aposto<lb ed="#Bc" break="no"/>lus, ad Roman. 1, 26: Yradidit illos
+<lb ed="#Bc"/>Deus in passiones ignominiz#, ut faciant
+<lb ed="#Bc"/>que non conveniunt. </quote> Ubi multa ponit
+<lb ed="#Bc"/>que simul sunt peccata et pene. Et 
+ad<lb ed="#Bc" break="no"/>dit dictum Augustini ibidem in Glossa:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h96723-Qd1e294">Inter primum peccatum apostasia et 
+ul<lb ed="#Bc" break="no"/>timam poenam ignis inferni, media que
+<lb ed="#Bc"/>sunt, et peccata sunt et poena peccali. </quote>
+                  <lb ed="#Bc"/>3. Adhuc adducit Gregorium super
+<lb ed="#Bc"/>Ezechielem, Homilia 11: <quote xml:id="Almn78-h96723-Qd1e306"> Contemnenti
+<lb ed="#Bc"/>qui non vult redire per pcenitentiam
+<lb ed="#Bc"/>ponit Deus offendiculum, ut scilicet 
+gra<lb ed="#Bc" break="no"/>vius impingat. Peccatum enim quod
+<lb ed="#Bc"/>per penitentiam citius non deletur, aut
+<lb ed="#Bc"/>peccatum est et causa peccati, aut 
+pec<lb ed="#Bc" break="no"/>catum est et poena peccati, aut 
+pecca<lb ed="#Bc" break="no"/>tum simul et causa et poena peccati. </quote>
+               </p>
+               <p xml:id="Almn78-h96723-d1e325">
+                  <lb ed="#Bc"/>Soxvrio. Dicendum, quod duplex est
+<lb ed="#Bc"/>pena, scilicet pena damni, et poena 
+sen<lb ed="#Bc" break="no"/>sus. Poena damni omne peccatum pena
+<lb ed="#Bc"/>est, eo ipso quod peccatum est: quia est
+<lb ed="#Bc"/>corruptio modi, et speciei, et ordinis ;
+<lb ed="#Bc"/>quod damnum maximum est, Poena 
+sen<lb ed="#Bc" break="no"/>sus est causa tantum pene: relinquit
+<lb ed="#Bc"/>enim pronitatem in anima, suo pondere
+<lb ed="#Bc"/>inclinantem animam ad simile peccatum,
+<lb ed="#Bc"/>sicut dicit auctoritas Gregorii paulo ante
+<lb ed="#Bc"/>inducta. Unde auctoritas ad hoc inducta,
+<lb ed="#Bc"/>scilicet peccata eo ipso quod peccata
+<lb ed="#Bc"/>sunt, peena sunt, ut dictum est.
+</p>
+               <p xml:id="Almn78-h96723-d1e356">
+                  <lb ed="#Bc"/>Ad primum dicendum, quod nihil 
+pro<lb ed="#Bc" break="no"/>hibet unum et idem secundum diversas
+<lb ed="#Bc"/>rationes quas habet, et a justitia Dei 
+pro<lb ed="#Bc" break="no"/>cedere, et non procedere: cujus tamen
+<lb ed="#Bc"/>causa Deus non est impertiendo 
+mali<lb ed="#Bc" break="no"/>tiam, sed subtrahendo gratiam. Justum
+<lb ed="#Bc"/>enim est ut qui avertit se a gratia, ei
+<lb ed="#Bc"/>subtrahatur gratia. Sicut dicitur, Matth.
+<lb ed="#Bc"/>xxv, 28 de servo pigro quod ablatum
+<pb ed="#Bc" n="437"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>est ab eo talentum, et alii datum qui in
+<lb ed="#Bc"/>usum posuit. Omni enim habenti 
+dabi<lb ed="#Bc" break="no"/>tur, et abundabit, sicut dicitur, Luc.
+<lb ed="#Bc"/>xix, 26.
+</p>
+               <p xml:id="Almn78-h96723-d1e392">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod effectus et
+<lb ed="#Bc"/>causa non sunt essentialiter idem, ita
+<lb ed="#Bc"/>quod sint eadem essentia: sed bene sic
+<lb ed="#Bc"/>sunt idem, quod sunt in eadem essentia
+<lb ed="#Bc"/>secundum rationes diversas : et hoc 
+suf<lb ed="#Bc" break="no"/>ficit ad hoc quod essentialiter dicantur
+<lb ed="#Bc"/>idem.
+</p>
+               <p xml:id="Almn78-h96723-d1e410">
+                  <lb ed="#Bc"/>Ad uttmum dicendum, quod peccatum
+<lb ed="#Bc"/>et pena damni simul tempore sunt: et
+<lb ed="#Bc"/>quam cito peccatum fit, tam cito 
+corrum<lb ed="#Bc" break="no"/>pit modum, speciem, et ordinem: et sic
+<lb ed="#Bc"/>est pena ex justitia Dei inflicta, non 
+im<lb ed="#Bc" break="no"/>pertiendo malitiam, sed subtrahendo
+<lb ed="#Bc"/>gratiam, ut dictum est.
+</p>
+            </div>
+            <div xml:id="Almn78-h96723-Dd1e429">
+               <head xml:id="Almn78-h96723-Hd1e431">Membrum 2</head>
+               <head xml:id="Almn78-h96723-Hd1e434" type="question-title">
+        Utrum esse poenam, essentialiter 
+        conjunctum sit ei quod est esse peccatum
+      </head>
+               <p xml:id="Almn78-h96723-d1e437">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum esse poenam, essentialiter 
+conjun<lb ed="#Bc" break="no"/>ctum sit ei quod est esse peccatum?
+</p>
+               <p xml:id="Almn78-h96723-d1e446">
+                  <lb ed="#Bc"/>Szecunpo queritur, Utrum esse 
+pe<lb ed="#Bc" break="no"/>nam, essentialiter conjunctum sit ei quod
+<lb ed="#Bc"/>est esse peccatum ?
+</p>
+               <p xml:id="Almn78-h96723-d1e455">
+                  <lb ed="#Bc"/>Et videtur, quod sic: quia
+<lb ed="#Bc"/>1. Regulariter verum est, quod posita
+<lb ed="#Bc"/>causa secundum actum causante, 
+poni<lb ed="#Bc" break="no"/>tur effectus. Causa autem secundum
+<lb ed="#Bc"/>actum causans peenam, culpa est: quia
+<lb ed="#Bc"/>cum Deus justus sit, neminem punit nisi
+<lb ed="#Bc"/>ex culpa.
+</p>
+               <p xml:id="Almn78-h96723-d1e474">
+                  <lb ed="#Bc"/>2, Adhuc, Gregorius : <quote xml:id="Almn78-h96723-Qd1e478"> Nulla nocebit
+<lb ed="#Bc"/>adversitas, si nulla dominetur iniquitas.</quote>
+                  <lb ed="#Bc"/>Ergo si nocet adversitas, necesse est,
+<lb ed="#Bc"/>quod dominetur iniquitas, et sic poena
+<lb ed="#Bc"/>semper conjuncta est culpa.
+</p>
+               <p xml:id="Almn78-h96723-d1e490">
+                  <lb ed="#Bc"/>3. Adhuc, Super illud Psalmi cu, 3:
+<lb ed="#Bc"/>Qui propitiatur omnibus iniquitatibus
+<lb ed="#Bc"/>tuis, qui sanat omnes infirmitales tuas :
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>dicit Augustinus, quod hoc non diceret
+<lb ed="#Bc"/>nisi ex infirmitate iniquitas esset.
+</p>
+               <p xml:id="Almn78-h96723-d1e506">
+                  <lb ed="#Bc"/>4. Adhuc, Hieronymus: <quote xml:id="Almn78-h96723-Qd1e510"> Quidquid
+<lb ed="#Bc"/>patimur, peccata nostra meruerunt. </quote>
+                  <lb ed="#Bc"/>Poena ergo semper conjuncta est culpe.
+</p>
+               <p xml:id="Almn78-h96723-d1e518">
+                  <lb ed="#Bc"/>Contra quod consuevit poni instantia
+<lb ed="#Bc"/>in Job et in Christo. Job, xvu, 2: Non
+<lb ed="#Bc"/>peceavi, et in amaritudinibus moratur
+<lb ed="#Bc"/>oculus meus. In Christo, I Petr. u, 22:
+<lb ed="#Bc"/>Qui peccatum non fectt, nec inventus est
+<lb ed="#Bc"/>dolus in ore ejus : qui tamen multa 
+pas<lb ed="#Bc" break="no"/>sus est.
+</p>
+               <p xml:id="Almn78-h96723-d1e536">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod ex ordine
+<lb ed="#Bc"/>justitie peena semper comitatur culpam.
+<lb ed="#Bc"/>Et est quadruplex. Prima est amissio
+<lb ed="#Bc"/>Dei sive incommutabilis boni. Secunda,
+<lb ed="#Bc"/>spoliatio gratuilorum, per que Deus 
+ha<lb ed="#Bc" break="no"/>bitat in homine. Tertia, vulneratio 
+natu<lb ed="#Bc" break="no"/>ralium, Quarta, inordinatio in regno 
+ani<lb ed="#Bc" break="no"/>mez: quia ex peccato fiunt superiores
+<lb ed="#Bc"/>vires ancillantes, sicut intellectus et 
+ra<lb ed="#Bc" break="no"/>tio: et inferiores dominantes, sicut 
+sen<lb ed="#Bc" break="no"/>sualitas et inferior portio rationis: et sic
+<lb ed="#Bc"/>totus homo pervertitur.
+</p>
+               <p xml:id="Almn78-h96723-d1e565">
+                  <lb ed="#Bc"/>Unde prime rationes tenent et 
+proce<lb ed="#Bc" break="no"/>dunt.
+</p>
+               <p xml:id="Almn78-h96723-d1e573">
+                  <lb ed="#Bc"/>Ad id ergo quod in contrarium 
+objici<lb ed="#Bc" break="no"/>tur de Job et Christo, dicendum quod
+<lb ed="#Bc"/>nihil valet: quia peena non sic se habet
+<lb ed="#Bc"/>ad culpam sicut culpa ad peenam, Culpa
+<lb ed="#Bc"/>enim est causa pene, et pcena expiativa
+<lb ed="#Bc"/>culpe: ideo pena tam membris quam
+<lb ed="#Bc"/>capiti sepe infligitur sine culpa, sicut 
+di<lb ed="#Bc" break="no"/>citur, Isa. rm, 8: Propter scelus popult
+<lb ed="#Bc"/>mei percussi eum, Et ibidem, ¥. 12 : 
+Jp<lb ed="#Bc" break="no"/>se peccata multorum tulit, et pro 
+trans<lb ed="#Bc" break="no"/>gressoribus rogavit, scilicet ut non 
+per<lb ed="#Bc" break="no"/>irent. Unde peena se habet ad culpam ut
+<lb ed="#Bc"/>medicina expiativa : et ideo infligitur 
+in<lb ed="#Bc" break="no"/>nocentibus, ut satisfaciant pro aliis: cum
+<lb ed="#Bc"/>tamen non infligatur nisi pro peccatis
+<lb ed="#Bc"/>propriis vel alienis.
+</p>
+            </div>
+            <div xml:id="Almn78-h96723-Dd1e611">
+               <head xml:id="Almn78-h96723-Hd1e613">Membrum 3</head>
+               <head xml:id="Almn78-h96723-Hd1e616" type="question-title">
+        Utrum unum peccatum sit pena 
+        alterius peccati?
+      </head>
+               <p xml:id="Almn78-h96723-d1e619">
+                  <pb ed="#Bc" n="438"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum unum peccatum sit pena 
+alte<lb ed="#Bc" break="no"/>rius peccati?
+</p>
+               <p xml:id="Almn78-h96723-d1e632">
+                  <lb ed="#Bc"/>Tertio queritur, Utrum unum 
+pecca<lb ed="#Bc" break="no"/>tum sit poena alterius, sicut expresse
+<lb ed="#Bc"/>dicitur in illo cap. £¢ licet ex hoc sens.
+</p>
+               <p xml:id="Almn78-h96723-d1e641">
+                  <lb ed="#Bc"/>Videtur, quod non.
+<lb ed="#Bc"/>4. Si enim’peena est, tunc juste inflicta
+<lb ed="#Bc"/>est: apud autem nullum judicem ila est,
+<lb ed="#Bc"/>quod qui punitur, puniatur quod iterum
+<lb ed="#Bc"/>peccet: ergo sequens peccatum non 
+de<lb ed="#Bc" break="no"/>bet esse peena preccdentis.
+</p>
+               <p xml:id="Almn78-h96723-d1e658">
+                  <lb ed="#Bc"/>2. Adhuc. Si sic : tune fieret 
+aceumu<lb ed="#Bc" break="no"/>latio peccatorum, que summe cavenda
+<lb ed="#Bc"/>est : ergo videtur, quod unum peccatum
+<lb ed="#Bc"/>addere alteri peccato non sit aliqua 
+pe<lb ed="#Bc" break="no"/>na juste ab aliquo inflicta.
+</p>
+               <p xml:id="Almn78-h96723-d1e671">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Gregorius in Moralibus dicit, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h96723-Qd1e679"> peccatum quod per peenitentiam non
+<lb ed="#Bc"/>dceletur, suo pondere mox ad aliud 
+tra<lb ed="#Bc" break="no"/>hit. </quote> Et addit Magister: <quote xml:id="Almn78-h96723-Qd1e686"> Unde fit ut
+<lb ed="#Bc"/>non solum peccatum sit, sed et causa
+<lb ed="#Bc"/>peccali. Ex illa quippe culpa subsequens
+<lb ed="#Bc"/>oritur. Peccatum vero quod ex peccato
+<lb ed="#Bc"/>oritur, non solum peccatum est, sed et
+<lb ed="#Bc"/>pena peccati: quia justo judicio Deus
+<lb ed="#Bc"/>cor peccantis obnubilat, ut precedentis
+<lb ed="#Bc"/>peccali merito etiam in alia cadat. Quem
+<lb ed="#Bc"/>enim liberare noluit, deserendo 
+percus<lb ed="#Bc" break="no"/>sit. </quote> Unde Augustinus in libro V contra
+<lb ed="#Bc"/>Julianum: <quote xml:id="Almn78-h96723-Qd1e711">Precedentis est haec peccati
+<lb ed="#Bc"/>pena, et tamen etiam ipsa peccatum est.
+<lb ed="#Bc"/>Judicio enim justissimi Dei traditi sunt,
+<lb ed="#Bc"/>ut ait Apostolus* de quibusdam, sive
+<lb ed="#Bc"/>deferendo, sive alio modo explicabili,
+<lb ed="#Bc"/>sive inexplicabili, in passiones 
+ignomi<lb ed="#Bc" break="no"/>nie, ut crimina criminibus 
+vindicaren<lb ed="#Bc" break="no"/>tur, et supplicia peccantium non tantum
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>sint tormenta, sed et vitiorum 
+incremen<lb ed="#Bc" break="no"/>ta. </quote>
+               </p>
+               <p xml:id="Almn78-h96723-d1e736">
+                  <lb ed="#Bc"/>Sonurio. Dicendum, quod unum 
+pec<lb ed="#Bc" break="no"/>catum est pcena alterius peccati tribus
+<lb ed="#Bc"/>modis, sicut dicunt auctoritates 
+Sancto<lb ed="#Bc" break="no"/>rum inducte. Primus modus est ex parte
+<lb ed="#Bc"/>spoliationis gratuitorum. Secundus est
+<lb ed="#Bc"/>ex parte boni increati amissi. Tertius est
+<lb ed="#Bc"/>ex parte corruptionis bone nature. Per
+<lb ed="#Bc"/>haec enim tria, scilicet bona gratuita, 
+bo<lb ed="#Bc" break="no"/>num incommutabile, et integritatem 
+na<lb ed="#Bc" break="no"/>turalium continetur homo in virtute ne
+<lb ed="#Bc"/>cadat in sequens peccatum, et destitutus
+<lb ed="#Bc"/>ab his facile cadit, sicut infirmos 
+spolia<lb ed="#Bc" break="no"/>tus et vulneratus, sicut dicit beatus 
+Gre<lb ed="#Bc" break="no"/>gorius. His modis additur quarlus,
+<lb ed="#Bc"/>quando scilicet peccatum commissum
+<lb ed="#Bc"/>dispositionem et habitum relinquit in
+<lb ed="#Bc"/>anima, ex quibus pronior fit ad 
+peccan<lb ed="#Bc" break="no"/>dum, Additur etiam, quando unum 
+pec<lb ed="#Bc" break="no"/>catum administrat incentivum et 
+fomi<lb ed="#Bc" break="no"/>tem alteri, sicut gula luxuriz, et ebrietas
+<lb ed="#Bc"/>homicidio, quod postea perpetratur. Et
+<lb ed="#Bc"/>dicit Aristoteles in H Ethicorum, quod
+<lb ed="#Bc"/>duplices maledictiones ebrius meretur,
+<lb ed="#Bc"/>in hoc scilicet, quod se inebriat, et alium
+<lb ed="#Bc"/>occidit.
+</p>
+               <p xml:id="Almn78-h96723-d1e793">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod est
+<lb ed="#Bc"/>pena que est tormentum peccantis et
+<lb ed="#Bc"/>inducta: et de hac procedit illa objectio.
+<lb ed="#Bc"/>Et est peena damni, scilicet subtractio
+<lb ed="#Bc"/>gratia et boni incommutabilis, et 
+vulne<lb ed="#Bc" break="no"/>ratio naturalium bonorum: et de illa
+<lb ed="#Bc"/>nihil valet: quia has peenas incurrit 
+ho<lb ed="#Bc" break="no"/>mo justo judicio Dei. Apocal. xxu, 7:
+<lb ed="#Bc"/>Qui in sordibus est, sordescat adhuc:
+<lb ed="#Bc"/>ef qui gustus est, gustificetur adhue.
+</p>
+               <p xml:id="Almn78-h96723-d1e817">
+                  <lb ed="#Bc"/>Ad aliud dicendum eodem
+<lb ed="#Bc"/>quod accumulatio peccatorum non fit
+<lb ed="#Bc"/>nisi Deo deferente, per quam 
+desertio<lb ed="#Bc" break="no"/>nem homo gravis efficitur et quotidie
+<lb ed="#Bc"/>cadit. Job, vir, 20: Quare posuisti me
+<lb ed="#Bc"/>contrarium tibi, et factus sum 
+mihi<lb ed="#Bc" break="no"/>melipsi gravis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

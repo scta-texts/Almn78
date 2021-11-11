@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 82</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 82</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="123"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h27174"><!-- p2t13q82 -->
+            <head xml:id="Almn78-h27174-Hd1e106">Quaestio 82</head>
+            <p xml:id="Almn78-h27174-d1e109">
+               <pb ed="#Bc" n="123"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO LXXXII.
+<lb ed="#Bc"/>De comparatione corporis mulieris ad corpus viri.
+</p>
+            <p xml:id="Almn78-h27174-d1e120">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde ratione ejus quod dicit 
+Magi<lb ed="#Bc" break="no"/>ster in eodem libro II Sententiarum,
+<lb ed="#Bc"/>distinctione XVIII, cap. Quemadmodum
+<lb ed="#Bc"/>mulieris corpus de viri corpore 
+tradu<lb ed="#Bc" break="no"/>ctum fuit, queritur de comparatione
+<lb ed="#Bc"/>corporis mulieris ad corpus viri.
+</p>
+            <p xml:id="Almn78-h27174-d1e138">
+               <lb ed="#Bc"/>Et queruntur duo, scilicet de 
+fortitu<lb ed="#Bc" break="no"/>dine corporis mulieris quantum ad 
+se<lb ed="#Bc" break="no"/>xum, utrum scilicet eque fuerit forte
+<lb ed="#Bc"/>sicut corpus viri in viribus et sensibus,
+<lb ed="#Bc"/>tam ad cognitionem, quam ad motum
+<lb ed="#Bc"/>pertinentibus ?
+<lb ed="#Bc"/>Secundo, Utrum ejusdem vel zxqualis
+<lb ed="#Bc"/>fuerit dignitatis cum corpore viri ?
+</p>
+            <div xml:id="Almn78-h27174-Dd1e158">
+               <head xml:id="Almn78-h27174-Hd1e160">Membrum 1</head>
+               <head xml:id="Almn78-h27174-Hd1e163" type="question-title">
+        De fortitudine corporis mulieris 
+        quantum ad serum, utrum scilicet aeque
+        fuerit forte sicut corpus viri in viribus
+        et sensibus, tam ad cognitionem quam
+        ad motum pertinentibus
+      </head>
+               <p xml:id="Almn78-h27174-d1e166">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De fortitudine corporis mulieris 
+quan<lb ed="#Bc" break="no"/>tum ad serum, utrum scilicet aeque
+<lb ed="#Bc"/>fuerit forte sicut corpus viri in viribus
+<lb ed="#Bc"/>et sensibus, tam ad cognitionem quam
+<lb ed="#Bc"/>ad motum pertinentibus ?
+</p>
+               <p xml:id="Almn78-h27174-d1e182">
+                  <lb ed="#Bc"/>Primo ergo quaeritur, Utrum mulier
+<lb ed="#Bc"/>fuerit aequalis fortitudinis cum viro
+<lb ed="#Bc"/>quantum ad corpus ?
+</p>
+               <p xml:id="Almn78-h27174-d1e191">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>1. Dicit enim Augustinus, et ponitur
+<lb ed="#Bc"/>in libro Il Sententiarum, distinct. XXT,
+<lb ed="#Bc"/>ubi dicit sic : <quote xml:id="Almn78-h27174-Qd1e201"> Diabolus quidem parum
+<lb ed="#Bc"/>de suis viribus prasumens, humanam
+<lb ed="#Bc"/>naiuram in ea parte ubi debilior 
+videba<lb ed="#Bc" break="no"/>tur, aggressus est : ut si forte illi 
+aliqua<lb ed="#Bc" break="no"/>tenus prevaleret, postmodum fiducialius
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>ad alteram que robustior fuit, 
+pulsan<lb ed="#Bc" break="no"/>dam vel potius subvertendam 
+acce<lb ed="#Bc" break="no"/>deret. </quote>
+               </p>
+               <p xml:id="Almn78-h27174-d1e223">
+                  <lb ed="#Bc"/>2. Adhuc, Isidorus in libro 
+Etymolo<lb ed="#Bc" break="no"/>giarum : <quote xml:id="Almn78-h27174-Qd1e229"> Vir nuncupatur : quia major
+<lb ed="#Bc"/>in eo vis est, quam in foemina : unde et
+<lb ed="#Bc"/>nomen virtutis accepit. </quote> Fx his 
+accipi<lb ed="#Bc" break="no"/>tur, quod vir majoris virtutis est quam
+<lb ed="#Bc"/>foemina.
+</p>
+               <p xml:id="Almn78-h27174-d1e241">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Isidorus in libro Htymologiarum,
+<lb ed="#Bc"/>ubi reddit rationem, quare prima mulier
+<lb ed="#Bc"/>virago dicta est, sic dicit: <quote xml:id="Almn78-h27174-Qd1e251">
+                     <name xml:id="Almn78-h27174-Nd1e253">Heva</name> statim
+<lb ed="#Bc"/>facta de latere viri, appellata est a viro
+<lb ed="#Bc"/>virago, ab incorruptione : quia scilicet
+<lb ed="#Bc"/>ignorabat foemineam passionem, quia
+<lb ed="#Bc"/>virilia opera facit, et masculini vigoris:
+<lb ed="#Bc"/>est. </quote>
+               </p>
+               <p xml:id="Almn78-h27174-d1e269">
+                  <lb ed="#Bc"/>2. Adhuc, Basilius: <quote xml:id="Almn78-h27174-Qd1e273"> A®quales sunt
+<lb ed="#Bc"/>viri et mulieris virtutes. </quote> Ex hoc 
+acci<lb ed="#Bc" break="no"/>pitur, quod equales habebant virtutes et
+<lb ed="#Bc"/>vir et mulier.
+</p>
+               <p xml:id="Almn78-h27174-d1e283">
+                  <lb ed="#Bc"/>3. Ulterius, Videtur, quod mulier 
+for<lb ed="#Bc" break="no"/>tior fuit viro. Consequens enim est 
+se<lb ed="#Bc" break="no"/>cundum rationem, quod si duo sunt
+<lb ed="#Bc"/>adjuvantia se ad unum opus, quod 
+for<lb ed="#Bc" break="no"/>tiora onera_ illius operis imponuntur
+<lb ed="#Bc"/>fortiori. Dicit autem Scriptura, quod
+<lb ed="#Bc"/>Heva creata est in adjutorium viri, 
+Ge<lb ed="#Bc" break="no"/>nes. ul, 18° Factamus et adjutorium
+<lb ed="#Bc"/>simile sibi. Et dicit ibi Glossa 
+Augusti<lb ed="#Bc" break="no"/>ni, quod facta est in adjutorium 
+produ<lb ed="#Bc" break="no"/>ctionis filiorum. Et in illo opere graviora
+<lb ed="#Bc"/>sustinet, scilicet impregnationem, 
+por<lb ed="#Bc" break="no"/>tationem, et parturitionem. Et hoc 
+vide<lb ed="#Bc" break="no"/>tur Scriptura intendere, Proverb. xxx1,
+<lb ed="#Bc"/>17, ubidicit de muliere ; Accinzit forti
+<pb ed="#Bc" n="124"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tudine lumbos suos, et roboravit 
+bra<lb ed="#Bc" break="no"/>chium suum.
+</p>
+               <p xml:id="Almn78-h27174-d1e327">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod simpliciter
+<lb ed="#Bc"/>loquendo quantum ad sexum vir 
+ma<lb ed="#Bc" break="no"/>joris est virtutis vel vigoris quam 
+mu<lb ed="#Bc" break="no"/>lier. Quantum tamen ad aliquid ad quod
+<lb ed="#Bc"/>sexus muliebris ordinatus est, sicut ad
+<lb ed="#Bc"/>concipere, portare, parere, lactare, 
+se<lb ed="#Bc" break="no"/>xus muliebris ex natura ordinatur, et
+<lb ed="#Bc"/>non vir, mulier fortior est viro. 
+Quan<lb ed="#Bc" break="no"/>tum vero ad opera gratis et meriti,
+<lb ed="#Bc"/>equales sunt si equelem gratiam 
+acci<lb ed="#Bc" break="no"/>piunt. Et propter hoc dicitur de Judith
+<lb ed="#Bc"/>a Joacim sacerdote, Judith, xv, 10 et
+<lb ed="#Bc"/>41: Tu gloria Jerusalem, tu letitia
+<lb ed="#Bc"/>Israel, tu honorificentia populi nostri:
+<lb ed="#Bc"/>quia fecisti viriliter. Et de matre 
+Ma<lb ed="#Bc" break="no"/>chabeorum, II Machab. vu, 20 et 21,
+<lb ed="#Bc"/>quando filios confortavit ut paterentur
+<lb ed="#Bc"/>pro fide et pro lege, quod supra modum
+<lb ed="#Bc"/>fuit mater mirabilis, et feminex 
+cogitatio<lb ed="#Bc" break="no"/>ni masculinum animum inseruit. De 
+utris<lb ed="#Bc" break="no"/>que autem, de viro et muliere in statu
+<lb ed="#Bc"/>innocentie in quo a contrariis ledi non
+<lb ed="#Bc"/>poterant, Deo conservante, et gratia
+<lb ed="#Bc"/>innocentia, dicit Isidorus in libro de
+<lb ed="#Bc"/>Trinitate sic : <quote xml:id="Almn78-h27174-Qd1e383"> Si homo in paradiso 
+in<lb ed="#Bc" break="no"/>nocenter viveret, ignis eum non ureret,
+<lb ed="#Bc"/>aqua non mergeret, spinarum aculei
+<lb ed="#Bc"/>non vulnerarent, nec omnia que 
+no<lb ed="#Bc" break="no"/>cent mortalibus, impedirent. </quote> Idem
+<lb ed="#Bc"/>dicit Augustinus in libro XIV de Civitate
+<lb ed="#Bc"/>Dei, sic : <quote xml:id="Almn78-h27174-Qd1e398"> Quamdiu homo volebat hoc
+<lb ed="#Bc"/>quod Deus jusserat, summa in carne
+<lb ed="#Bc"/>sanitas erat'.</quote> Et intelligit hoc tam de
+<lb ed="#Bc"/>viro quam de muliere.
+</p>
+               <p xml:id="Almn78-h27174-d1e409">
+                  <lb ed="#Bc"/>Ex his patet solutio questionis.
+</p>
+               <p xml:id="Almn78-h27174-d1e415">
+                  <lb ed="#Bc"/>Ad primum autem dicendum, quod
+<lb ed="#Bc"/>Augustinus loquitur de virtute que
+<lb ed="#Bc"/>naturaliter consequitur sexum : hac
+<lb ed="#Bc"/>enim virtute mollior est mulier : propter
+<lb ed="#Bc"/>quod etiam mulier vocatur : propter
+<lb ed="#Bc"/>quod etiam in VI Ethicorum dicit 
+Ari<lb ed="#Bc" break="no"/>stoteles, quod continentia virtus mulieris
+<lb ed="#Bc"/>non est propria : quia continentia est
+<lb ed="#Bc"/>virtus vi rationis continens hominem
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>infra metas mentis, ut passionibus et vi
+<lb ed="#Bc"/>passionum nullo modo adduci possit.
+<lb ed="#Bc"/>extra limites mentis. Quam vim ex 
+com<lb ed="#Bc" break="no"/>plexione molli mulier non potest 
+ha<lb ed="#Bc" break="no"/>bere. Et cum opponantur continentie
+<lb ed="#Bc"/>illa tria secundum alium modum, 
+sci<lb ed="#Bc" break="no"/>licet incontinentia, fornicatio, et 
+molli<lb ed="#Bc" break="no"/>ties, incontinentia mulieri proprie non
+<lb ed="#Bc"/>accidit, nec puero : quia incontinens
+<lb ed="#Bc"/>sanam habet rationem, licet vi passionis
+<lb ed="#Bc"/>extendatur extra rationem et mensuram
+<lb ed="#Bc"/>rectam. Fornicator autem non ex 
+comple<lb ed="#Bc" break="no"/>xione, sed vitio corruptus est corpore
+<lb ed="#Bc"/>et mente. Mollis vero est, qui 
+comple<lb ed="#Bc" break="no"/>xione et passione totus est resolutus ut
+<lb ed="#Bc"/>nihil habeat retinens. Propter quod, ut
+<lb ed="#Bc"/>ibidem dicit Aristoteles, lascivus non
+<lb ed="#Bc"/>est incontinens. Et ideo etiam  dicit
+<lb ed="#Bc"/>Cyprianus de virginibus sacris, quod
+<lb ed="#Bc"/>in carne corruptibili incorruptibiliter
+<lb ed="#Bc"/>vivere, potius est angelicum quam 
+hu<lb ed="#Bc" break="no"/>manum. Et quod in Heva in statu
+<lb ed="#Bc"/>innocentiae nihil fuit talis mollitiei, hoc
+<lb ed="#Bc"/>dandum est gratie innocentie et Deo
+<lb ed="#Bc"/>continenti sive virtutem continendi 
+dan<lb ed="#Bc" break="no"/>ti. Unde Augustinus in libro XI super
+<lb ed="#Bc"/>Genesim ad litteram dicit : <quote xml:id="Almn78-h27174-Qd1e497"> Si 
+persti<lb ed="#Bc" break="no"/>tissent primi parentes in illo statu, 
+inno<lb ed="#Bc" break="no"/>centie scilicet, essent nuptiae honorabiles
+<lb ed="#Bc"/>et thorus immaculatus, sine ardore 
+libidi<lb ed="#Bc" break="no"/>nis, sine labore pariendi, sine labore et
+<lb ed="#Bc"/>onere proles portaretur et educaretur. </quote>
+               </p>
+               <p xml:id="Almn78-h27174-d1e511">
+                  <lb ed="#Bc"/>Ad dictum Isidori dicendum, quod
+<lb ed="#Bc"/>Isidorus loquitur de virtute naturali 
+con<lb ed="#Bc" break="no"/>sequente sexum, et sic verum dicit.
+</p>
+               <p xml:id="Almn78-h27174-d1e520">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod Isidorus loquitur de virtute quie
+<lb ed="#Bc"/>est ex gratia virtute morali sive infusa
+<lb ed="#Bc"/>a Deo: tali enim virtute predita fuit
+<lb ed="#Bc"/>Heva in primo statu, et sic de viro facta
+<lb ed="#Bc"/>est, ut virtutem viri accipiat et virilia
+<lb ed="#Bc"/>agat. Et sic de Alexandro dicitur, 
+quan<lb ed="#Bc" break="no"/>do scilicet puer fuit mollis, et virilia 
+cae<lb ed="#Bc" break="no"/>pit agere :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h27174-Qd1e543">Indue mente virum, Macedo puer, arma
+<lb ed="#Bc"/>[capesce.</quote>
+  
+                  <pb ed="#Bc" n="125"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et, Proverb. xxx1, 19 : Adanum suam
+<lb ed="#Bc"/>misit ad fortia, et digiti ejus 
+appre<lb ed="#Bc" break="no"/>henderunt fusum. Et paulo ante, ¥. 13:
+<lb ed="#Bc"/>Quesivit lanam et linum, el operata
+<lb ed="#Bc"/>est consilio mannum suarum Et, Ruth,
+<lb ed="#Bc"/>ut, 41: Scit omnis populus... mulierem
+<lb ed="#Bc"/>te esse virtuits.
+</p>
+               <p xml:id="Almn78-h27174-d1e569">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod non sunt
+<lb ed="#Bc"/>equales in naturalibus virtutibus, nec
+<lb ed="#Bc"/>hoc intendit Basilius.
+</p>
+               <p xml:id="Almn78-h27174-d1e578">
+                  <lb ed="#Bc"/>Ad vitimum dicendum, quod mulier
+<lb ed="#Bc"/>non dicitur fortior et vir debilior in 
+ope<lb ed="#Bc" break="no"/>ribus illis : sed, quia dicit Aristoteles,
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h27174-Qd1e588"> Uniuscujusque virtus est in quolibet
+<lb ed="#Bc"/>statu et officio extremum in bono
+<lb ed="#Bc"/>ipsius : </quote> et mulier ex sexu membra
+<lb ed="#Bc"/>habet ordinala ad productionem prolis,
+<lb ed="#Bc"/>que non habet vir: et ideo etiam a Deo
+<lb ed="#Bc"/>accepit virtutem que extremum in 
+bo<lb ed="#Bc" break="no"/>no est secundum officium illoruam 
+mem<lb ed="#Bc" break="no"/>brorum : quod non accipit vir, quia
+<lb ed="#Bc"/>membra illa non accepit in compositione
+<lb ed="#Bc"/>corporis.
+</p>
+            </div>
+            <div xml:id="Almn78-h27174-Dd1e614">
+               <head xml:id="Almn78-h27174-Hd1e616">Membrum 2</head>
+               <head xml:id="Almn78-h27174-Hd1e619" type="question-title">
+        Utrum corpus mulieris ejusdem vel
+        aequalis fuerit dignitatis cum corpore
+        viri
+      </head>
+               <p xml:id="Almn78-h27174-d1e622">
+                  <lb ed="#Bc"/>MEMBRUM II
+<lb ed="#Bc"/>Utrum corpus mulieris ejusdem vel
+<lb ed="#Bc"/>aequalis fuerit dignitatis cum corpore
+<lb ed="#Bc"/>viri ?
+</p>
+               <p xml:id="Almn78-h27174-d1e633">
+                  <lb ed="#Bc"/>Secundo queritur, Utrum corpus 
+mu<lb ed="#Bc" break="no"/>lieris ejusdem vel aequalis fuerit 
+digni<lb ed="#Bc" break="no"/>tatis cum corpore viri?
+</p>
+               <p xml:id="Almn78-h27174-d1e642">
+                  <lb ed="#Bc"/>Hoc enim videtur.
+<lb ed="#Bc"/>1. Basilius enim dicit in Hexameron,
+<lb ed="#Bc"/>quod equalis fuerit dignitatis vir et
+<lb ed="#Bc"/>mulier.
+</p>
+               <p xml:id="Almn78-h27174-d1e654">
+                  <lb ed="#Bc"/>2. Adhuc, Aliqualiter ordinati ad 
+vir<lb ed="#Bc" break="no"/>tulem, equaliter nobiles sunt : vir et
+<lb ed="#Bc"/>mulier a@qualiter ordinati sunt ad 
+virtu<lb ed="#Bc" break="no"/>tem que veram confert nobilitatem : 
+er<lb ed="#Bc" break="no"/>go equaliter digni.
+</p>
+               <p xml:id="Almn78-h27174-d1e667">
+                  <lb ed="#Bc"/>3. Adhuc, Dignitas est ex parle ani
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>mz que ad imaginem Dei est : 
+equali<lb ed="#Bc" break="no"/>ter sunt ad imaginem Dei tam anima
+<lb ed="#Bc"/>viri, quam anima mulieris ; ergo 
+equa<lb ed="#Bc" break="no"/>lis dignitatis.
+</p>
+               <p xml:id="Almn78-h27174-d1e683">
+                  <lb ed="#Bc"/>4, Adhuc, Que unius speciei sunt,
+<lb ed="#Bc"/>equalis dignitatis sunt participando 
+spe<lb ed="#Bc" break="no"/>ciem illam : vir et mulier unius speciei
+<lb ed="#Bc"/>sunt facti a Deo : ergo videtur, quod
+<lb ed="#Bc"/>equalis dignitatis.
+</p>
+               <p xml:id="Almn78-h27174-d1e696">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in Musica : <quote xml:id="Almn78-h27174-Qd1e702"> Omnino
+<lb ed="#Bc"/>agens dignius patiente. </quote> Vir autem est
+<lb ed="#Bc"/>ut agens, mulier ut patiens. Ergo vir
+<lb ed="#Bc"/>dignior muliere.
+</p>
+               <p xml:id="Almn78-h27174-d1e712">
+                  <lb ed="#Bc"/>2. Adhuc, II ad Corinth. xt, 3 : Caput
+<lb ed="#Bc"/>mulierts, vir, Caput dignius est. Ergo
+<lb ed="#Bc"/>vir dignior muliere.
+</p>
+               <p xml:id="Almn78-h27174-d1e721">
+                  <lb ed="#Bc"/>3. Adhuc, I ad Timoth. u, 14
+<lb ed="#Bc"/>Adam non est seductus, mulier autem
+<lb ed="#Bc"/>seducta in prevaricatione fuit. Ibi 
+Au<lb ed="#Bc" break="no"/>gustinus in Glossa dicit, quod <quote xml:id="Almn78-h27174-Qd1e731"> non
+<lb ed="#Bc"/>est credendum virum spirituali 
+men<lb ed="#Bc" break="no"/>te preditum, hoc verum fuisse et 
+cre<lb ed="#Bc" break="no"/>didisse quod serpens persuasit sed
+<lb ed="#Bc"/>mulier seducta fuit ad hoc quod hoc
+<lb ed="#Bc"/>credidit. </quote> Ergo vir dignior muliere :
+<lb ed="#Bc"/>spirituali enim mente preditus dignior
+<lb ed="#Bc"/>est quam non preditus tali mente.
+</p>
+               <p xml:id="Almn78-h27174-d1e751">
+                  <lb ed="#Bc"/>In contrarium hujus esse videtur,
+<lb ed="#Bc"/>quod mulier secundum materiam et
+<lb ed="#Bc"/>locum formationis dignior videtur esse
+<lb ed="#Bc"/>viro. Secundum materiam : quia 
+for<lb ed="#Bc" break="no"/>mata est de costa, vir vero de limo 
+ter<lb ed="#Bc" break="no"/>re. Secundum locum : quia ipsa 
+forma<lb ed="#Bc" break="no"/>ta est in paradiso, vir vero extra 
+para<lb ed="#Bc" break="no"/>disum. Unde etiam vir dixit presentata
+<lb ed="#Bc"/>sibi muliere : Hoc nune os ex ossibus
+<lb ed="#Bc"/>meis, et caro de carne mea : haec 
+vo<lb ed="#Bc" break="no"/>cabilur Virago. quoniam de viro sumpta
+<lb ed="#Bc"/>est .
+</p>
+               <p xml:id="Almn78-h27174-d1e780">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod pro_certo
+<lb ed="#Bc"/>simpliciter loquendo vir dignior est
+<lb ed="#Bc"/>muliere : quia caput est, ut dicit 
+Apo<lb ed="#Bc" break="no"/>stolus*®. Et Aristoteles in primo 
+Politi<lb ed="#Bc" break="no"/>corum dicit, quod <quote xml:id="Almn78-h27174-Qd1e793"> in communicatione
+<lb ed="#Bc"/>qua sibi communicant vir et mulier,
+<pb ed="#Bc" n="126"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>vir est sicut principans, et mulier sicut
+<lb ed="#Bc"/>subjecta. </quote> Et ideo Salomon ait in
+<lb ed="#Bc"/>Proverbiis, Eccli. xxv, 30 : Mulier si
+<lb ed="#Bc"/>primatum habeat, contraria est viro
+<lb ed="#Bc"/>suo. Secundum quid tamen potest 
+ali<lb ed="#Bc" break="no"/>qua mulier dignior esse aliquo viro.
+</p>
+               <p xml:id="Almn78-h27174-d1e815">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+di<lb ed="#Bc" break="no"/>ctum <name xml:id="Almn78-h27174-Nd1e821">Basilii</name> intelligitur secundum quid,
+<lb ed="#Bc"/>et non simpliciter : equales enim erant
+<lb ed="#Bc"/>in hoc, quod edqualiter participabant
+<lb ed="#Bc"/>graliam innocentiae, et <!--<quote>-->equalem 
+ordi<lb ed="#Bc" break="no"/>nem habebant ad virtutem et meritum :
+<lb ed="#Bc"/>et hoc est equales esse secundum quid,
+<lb ed="#Bc"/>et non simpliciter.
+</p>
+               <p xml:id="Almn78-h27174-d1e840">
+                  <lb ed="#Bc"/>Ex prepicro patet solutio ad sequens :
+<lb ed="#Bc"/>quia hoc non facit equalitatem nisi 
+se<lb ed="#Bc" break="no"/>cundum quid et non simpliciter. Sicut
+<lb ed="#Bc"/>enim dicit Apostolus, ad Galat. 11, 28 :
+<lb ed="#Bc"/>Non est masculus, neque femina :
+<lb ed="#Bc"/>omnes enim vos unum estis in Christo
+<lb ed="#Bc"/>Jesu.
+</p>
+               <p xml:id="Almn78-h27174-d1e858">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod ex hoc non
+<lb ed="#Bc"/>probatur nisi quod sint wquales 
+secun<lb ed="#Bc" break="no"/>dum quid, et non simpliciter. Non enim
+<lb ed="#Bc"/>sequitur, sunt aquales in hoc, ergo
+<lb ed="#Bc"/>sunt simpliciter equales.
+</p>
+               <p xml:id="Almn78-h27174-d1e871">
+                  <lb ed="#Bc"/>Ad aliud recte eodem modo dicen- 
+<lb ed="#Bc"/>dum : participatio enim unius speciei
+<lb ed="#Bc"/>non facit xequalitatem, nisi in hoc, et
+<lb ed="#Bc"/>non simpliciler : quia licet idem sit quod
+<lb ed="#Bc"/>participant, species scilicet : tamen 
+mo<lb ed="#Bc" break="no"/>dus participandi secundum esse valde
+<lb ed="#Bc"/>est inequalis.
+</p>
+               <p xml:id="Almn78-h27174-d1e890">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Apw quod in contrarium objicitur,
+<lb ed="#Bc"/>dicendum quod id quod Augustinus 
+di<lb ed="#Bc" break="no"/>dicit in Musica, simpliciter est verum :
+<lb ed="#Bc"/>et ideo vir simpliciter dignior est 
+mu<lb ed="#Bc" break="no"/>liere.
+</p>
+               <p xml:id="Almn78-h27174-d1e906">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod in 
+omni<lb ed="#Bc" break="no"/>bus in quibus sibi vir et mulier 
+com<lb ed="#Bc" break="no"/>municant, caput estvir, et dignior 
+mu<lb ed="#Bc" break="no"/>liere : et hoc non repugnat, quin in
+<lb ed="#Bc"/>aliquo dignior possit esse mulier in quo
+<lb ed="#Bc"/>viro non communicat.
+</p>
+               <p xml:id="Almn78-h27174-d1e922">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod vir 
+spiritua<lb ed="#Bc" break="no"/>li mente preditus dicitur, quia 
+spiritua<lb ed="#Bc" break="no"/>lium notitiam accepit a Deo, que ad
+<lb ed="#Bc"/>mulierem transire non debuit, nisi per
+<lb ed="#Bc"/>virum. | ad Corinth. xiv, 34 et 35: 
+Mu<lb ed="#Bc" break="no"/>lieres in ecclesiis taceant: non enim 
+per<lb ed="#Bc" break="no"/>mittitur eis loqui, sed subditas esse, stcut
+<lb ed="#Bc"/>et lex dicit'. Siquid autem voluni 
+di<lb ed="#Bc" break="no"/>seere, domi viros suos interrogent...
+</p>
+               <p xml:id="Almn78-h27174-d1e944">
+                  <lb ed="#Bc"/>Ad hoc quod objicitur in contrarium,
+<lb ed="#Bc"/>dicendum quod ex materia non est 
+di<lb ed="#Bc" break="no"/>gnitas simpliciter, sed secundum quid
+<lb ed="#Bc"/>tantum. Similiter ex loco non est 
+di<lb ed="#Bc" break="no"/>gnitas, nisi ibi locus est principium 
+ge<lb ed="#Bc" break="no"/>nerationis et salvativus locati, sicut est
+<lb ed="#Bc"/>in physicis. Et hoc non fuit in Heva,
+<lb ed="#Bc"/>cujus formationis non fuit causa nisi
+<lb ed="#Bc"/>Deus : et, sicut ante dictum est, ex
+<lb ed="#Bc"/>nulla re paradisi facta fuit, nec 
+salva<lb ed="#Bc" break="no"/>batur a contrariis nisi per gratiam 
+inno<lb ed="#Bc" break="no"/>centiae.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

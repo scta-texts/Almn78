@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 63</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 63</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="604"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e34316"><!-- p2t11q63 -->
+            <head xml:id="Almn78-e34316-Hd1e106">Quaestio 63</head>
+            <head xml:id="Almn78-e34316-Hd1e109" type="question-title">
+      De ordine rerum in universo.
+    </head>
+            <p xml:id="Almn78-e34316-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LXIII.
+      <lb ed="#Bb"/>De ordine rerum in universo.
+    </p>
+            <p xml:id="Almn78-e34316-d1e121">
+               <lb ed="#Bb"/>Deinde ratione ejus quod dicit 
+      Magi<lb ed="#Bb" break="no"/>ster in libro II Sententiarum, distinet.
+      <lb ed="#Bb"/>XV, cap. Omnibus autem creatis atque
+      <lb ed="#Bb"/>dispositis novissime factus est homo,
+      <lb ed="#Bb"/>tamquam dominus et possessor, qui 
+      om<lb ed="#Bb" break="no"/>nibus preferendus erat.
+    </p>
+            <p xml:id="Almn78-e34316-d1e137">
+               <lb ed="#Bb"/>Ex hoc enim videtur, quod ordo sit
+      <lb ed="#Bb"/>in universo ut unum ordinetur ad 
+      alte<lb ed="#Bb" break="no"/>rum.
+    </p>
+            <p xml:id="Almn78-e34316-d1e147">
+               <lb ed="#Bb"/>Propter qued queritur, An sit ordo
+      <lb ed="#Bb"/>in universo? Et si est, cujusmodi ordo
+      <lb ed="#Bb"/>sit ille ?
+    </p>
+            <p xml:id="Almn78-e34316-d1e156">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Et secundo, Utrum omnia ad 
+      homi<lb ed="#Bb" break="no"/>nem ordinentur ?
+    </p>
+            <div xml:id="Almn78-e34316-Dd1e165">
+               <head xml:id="Almn78-e34316-Hd1e167">Membrum 1</head>
+               <head xml:id="Almn78-e34316-Hd1e170" type="question-title">
+        An sit ordo in universo ? Et si est, 
+        cujusmodi sit ordo ille
+      </head>
+               <p xml:id="Almn78-e34316-d1e173">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>An sit ordo in universo ? Et si est, 
+        cu<lb ed="#Bb" break="no"/>jusmodi sit ordo ille ?
+      </p>
+               <p xml:id="Almn78-e34316-d1e182">
+                  <lb ed="#Bb"/>Videtur autem quod non sit ordo in
+        <lb ed="#Bb"/>universo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e189">
+                  <pb ed="#Bb" n="605"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Dicit enim <ref xml:id="Almn78-e34316-Rd1e197">Augustinus in libro XIX de
+          <lb ed="#Bb"/>Civitate Dei</ref>. <quote xml:id="Almn78-e34316-Qd1e202" source="http://scta.info/resource/adcd-l19-d1e3124@80-89">Ordo est parium 
+            dis<lb ed="#Bb" break="no"/>pariumque rerum sua cuique loca 
+            tri<lb ed="#Bb" break="no"/>buens dispositio? </quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e211">
+                  <lb ed="#Bb"/>Et secundum hoc non videtur ordo
+        <lb ed="#Bb"/>esse in universo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e218">
+                  <lb ed="#Bb"/>1. Eecle. x, 6 et 7: Hst malum quod
+        <lb ed="#Bb"/>vidi sub sole, quast per errorem 
+        egre<lb ed="#Bb" break="no"/>diens a facie principis : positum 
+        stul<lb ed="#Bb" break="no"/>tum in dignitate sublimi, et divites 
+        se<lb ed="#Bb" break="no"/>dere deorsum. Vidi servos in equis, et
+        <lb ed="#Bb"/>principes ambulantes super terram 
+        qua<lb ed="#Bb" break="no"/>si servos. Hoc autem modo in partibus
+        <lb ed="#Bb"/>universi sue dignitalis gradus non 
+        tri<lb ed="#Bb" break="no"/>buitur cuilibet : et sic videtur, quod in
+        <lb ed="#Bb"/>universo non sit ordo, sed confusio.
+      </p>
+               <p xml:id="Almn78-e34316-d1e242">
+                  <lb ed="#Bb"/>2. Adhuc, Gregorius super illud 
+        Ge<lb ed="#Bb" break="no"/>nesis, 1, 28 : Dominamini piscibus 
+        ma<lb ed="#Bb" break="no"/>ris, et volatilibus cali : dicit, quod
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e34316-Qd1e252">contra naturam superbire est 
+          homi<lb ed="#Bb" break="no"/>nem homini velle preesse : cum, homo
+          <lb ed="#Bb"/>ad imaginem Dei non sit factus, nisi ut
+          <lb ed="#Bb"/>presit piscibus maris, et volatilibus
+          <lb ed="#Bb"/>ceeli, aliisque irrationab.libus 
+          creatu<lb ed="#Bb" break="no"/>ris.</quote> Sed hanc confusionem videmus in
+        <lb ed="#Bb"/>precipuis partibus universi, hoc est, in
+        <lb ed="#Bb"/>hominibus. Ergo non ordo, sed 
+        confu<lb ed="#Bb" break="no"/>sio est in universo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e273">
+                  <lb ed="#Bb"/>3. Adhuc <ref xml:id="Almn78-e34316-Rd1e277">Augustinus in libro XIX de
+          <lb ed="#Bb"/>Civitate Dei</ref> : <quote xml:id="Almn78-e34316-Qd1e282" source="http://scta.info/resource/adcd-l19-d1e3134@1-62">Hoc naturalis ordo 
+            pre<lb ed="#Bb" break="no"/>scribit, ita Deus hominem condidit. Nam
+            <lb ed="#Bb"/>dominetur, inquit, piscium maris, et
+            <lb ed="#Bb"/>volatilium ceeli, et omnium repentium
+            <lb ed="#Bb"/>que repunt super terram. Rationalem
+            <lb ed="#Bb"/>factum ad imaginem suam, noluit nisi
+            <lb ed="#Bb"/>irrationabilibus dominari. Unde primi
+            <lb ed="#Bb"/>justi, pastores pecorum, magis quam
+            <lb ed="#Bb"/>reges hominum constituti sunt : ut etiam
+            <lb ed="#Bb"/>sic insinuaret Deus, quid postulet ordo
+            <lb ed="#Bb"/>naturalis creaturarum, et quid exigat
+            <lb ed="#Bb"/>meritum peccatorum ?</quote> Ergo si homo
+        <lb ed="#Bb"/>dominatur homini, vel peccator justo,
+        <lb ed="#Bb"/>quod frequentissimum est in universo,
+        <lb ed="#Bb"/>non est ordo, sed confusio.
+      </p>
+               <p xml:id="Almn78-e34316-d1e316">
+                  <lb ed="#Bb"/>4. Adhuc, Proverbiorum, xtv, 19 :
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Jacebunt mali ante bonos, et impii ante
+        <lb ed="#Bb"/>portas justorum : et super eos erit vir
+        <lb ed="#Bb"/>bonus. Hoc ergo est de ordine justitia.
+        <lb ed="#Bb"/>Sed secus in universo videmus, quod
+        <lb ed="#Bb"/>justi jacent ante portas impiorum, ut
+        <lb ed="#Bb"/>Lazarus ante portam divitis *. 
+        Domina<lb ed="#Bb" break="no"/>tur etiam vir impius super bonos, sicut
+        <lb ed="#Bb"/>Pharao super filios Israel in Aigypto, et
+        <lb ed="#Bb"/>Nabuchodonosor super tres pueros in
+        <lb ed="#Bb"/>Chaldea. Ergo in precipuis universi
+        <lb ed="#Bb"/>partibus magis est confusio quam ordo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e347">
+                  <lb ed="#Bb"/>3. Adhuc, Secundum ordinem 
+        ratio<lb ed="#Bb" break="no"/>nis, spiritualis creatura prefertur 
+        corpo<lb ed="#Bb" break="no"/>rali: et tamen videmus, quod corporalis
+        <lb ed="#Bb"/>creatura dominatur et agit aliquando in
+        <lb ed="#Bb"/>spiritualem ; sicut in purgatorio ignis
+        <lb ed="#Bb"/>corporalis agit in spiritus rationales et
+        <lb ed="#Bb"/>Angelorum et hominum, et  similiter
+        <lb ed="#Bb"/>infernalis ignis : illum enim ignem 
+        Au<lb ed="#Bb" break="no"/>gustinus in libro XXI de Civitate Dei,
+        <lb ed="#Bb"/>dicit esse corporeum. Ergo videtur etiam,
+        <lb ed="#Bb"/>quod in dispositione universi que a
+        <lb ed="#Bb"/>Deo est, magis sit confusio, quam
+        <lb ed="#Bb"/>ordo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e379">
+                  <lb ed="#Bb"/>6. Adhuc, Ordine natura preponitur
+        <lb ed="#Bb"/>rationalis creatura irrationabilibus : et
+        <lb ed="#Bb"/>tamen videmus, quod spe lupi, leones,
+        <lb ed="#Bb"/>et alia irrationalia dominantur 
+        homini<lb ed="#Bb" break="no"/>bus, et devorant eos : cum tamen, 
+        Ge<lb ed="#Bb" break="no"/>nes.1, 26, dicatur : Faciamus hominem
+        <lb ed="#Bb"/>ad imaginem et similitudinem nostram:
+        <lb ed="#Bb"/>et presit piscibus maris, et volatilibus
+        <lb ed="#Bb"/>coli, et bestiis, universeque terre, 
+        om<lb ed="#Bb" break="no"/>nigue replili quod movelur in terra,
+      </p>
+               <p xml:id="Almn78-e34316-d1e403">
+                  <lb ed="#Bb"/>Connta
+        <lb ed="#Bb"/>1. Augustinus in libro II de Libero
+        <lb ed="#Bb"/>arbitrio : <quote xml:id="Almn78-e34316-Qd1e411"> Nulla res, nullus casus,
+          <lb ed="#Bb"/>nulla rerum labes id umquam efficit,
+          <lb ed="#Bb"/>ut justum non sit esse ordinatissima. </quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e419">
+                  <lb ed="#Bb"/>2. Adhuc, Augustinus in libro V de
+        <lb ed="#Bb"/>Civitate Dei : <quote xml:id="Almn78-e34316-Qd1e425" source="http://scta.info/resource/adcd-l5-d1e689@56-78"> Veracissime creditur
+          <lb ed="#Bb"/>cuncta scire Deum antequam fiant, et
+          <lb ed="#Bb"/>nihil inordinatum relinquere, a quo sunt
+          <lb ed="#Bb"/>omnes potestates, quamvis non sunt
+          <lb ed="#Bb"/>omnium voluntates. </quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e437">
+                  <pb ed="#Bb" n="606"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>3. Per rationes etiam idem arguitur :
+        <lb ed="#Bb"/>quia ea que fiunt a sapiente per 
+        ratio<lb ed="#Bb" break="no"/>nem sapientiz, ordinata sunt : ergo
+        <lb ed="#Bb"/>que a supientissimo Deo fiunt, 
+        ordina<lb ed="#Bb" break="no"/>tissima sunt : omnia que sunt in 
+        uni<lb ed="#Bb" break="no"/>verso, a sapientissimo Deo fiunt: ergo
+        <lb ed="#Bb"/>omnia que sunt in universo, 
+        ordinatissi<lb ed="#Bb" break="no"/>ma sunt.
+      </p>
+               <p xml:id="Almn78-e34316-d1e461">
+                  <lb ed="#Bb"/>4, Adhuc, Bonum per rationem ordinis
+        <lb ed="#Bb"/>determinatur : ergo quecumque sunt
+        <lb ed="#Bb"/>bona, ordinata sunt. Sed, Genes. 1, 31,
+        <lb ed="#Bb"/>dicitur, quod vidit Deus cuncta que 
+        fe<lb ed="#Bb" break="no"/>cerat : et erant valde bona. Ergo
+        <lb ed="#Bb"/>cuncta que fecerat, erant valde ordinata.
+      </p>
+               <p xml:id="Almn78-e34316-d1e477">
+                  <lb ed="#Bb"/>Uxrerivs queritur, Quis sit ordo 
+        par<lb ed="#Bb" break="no"/>tium in universo ?
+      </p>
+               <p xml:id="Almn78-e34316-d1e485">
+                  <lb ed="#Bb"/>Et super hoc dicit Augustinus in libro
+        <lb ed="#Bb"/>VIL super Genesim ad litteram : <quote xml:id="Almn78-e34316-Qd1e491"> Dei
+          <lb ed="#Bb"/>providentia regens atque administrans
+          <lb ed="#Bb"/>universam creaturam, et naturas et 
+          vo<lb ed="#Bb" break="no"/>luntates, ordinavit naturas quidem ut
+          <lb ed="#Bb"/>sint, voluntates autem ut nec infructuose
+          <lb ed="#Bb"/>bone, nec impune mala. Subdidit 
+          pri<lb ed="#Bb" break="no"/>mitus omnia sibi, deinde creaturam
+          <lb ed="#Bb"/>corporalem creature spirituali, 
+          irratio<lb ed="#Bb" break="no"/>nalem rationali, terrestrem ccelesti, 
+          foe<lb ed="#Bb" break="no"/>mineam masculine, minus valentem
+          <lb ed="#Bb"/>valentiori, indigentiorem capaciori : in
+          <lb ed="#Bb"/>voluntatibus autem bonas sibi, ceteras
+          <lb ed="#Bb"/>vero ipsis servientibus sibi, ut hoc 
+          pa<lb ed="#Bb" break="no"/>tiatur voluntas mala, quod ex jussu Dej
+          <lb ed="#Bb"/>fecerit bona, sive per seipsam sive per
+          <lb ed="#Bb"/>malam *. </quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e527">
+                  <lb ed="#Bb"/>Urerius queritur de causa hojus 
+        or<lb ed="#Bb" break="no"/>dinis, Quare sic ordinata fecerit Deus ea
+        <lb ed="#Bb"/>que sunt in universo ?
+      </p>
+               <p xml:id="Almn78-e34316-d1e536">
+                  <lb ed="#Bb"/>Et ad hoc quod sapientia sit causa,
+        <lb ed="#Bb"/>dicit Gregorius, et ponitur in Sentenétis
+        <lb ed="#Bb"/>a Magistro : dicit enim, quod <quote xml:id="Almn78-e34316-Qd1e544"> ex 
+          ma<lb ed="#Bb" break="no"/>gnitudine creaturarum intelligitur Deus
+          <lb ed="#Bb"/>omnipotens, ex ordinatione et 
+          disposi<lb ed="#Bb" break="no"/>tione sapiens, ex gubernatione bonus. </quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e554">
+                  <lb ed="#Bb"/>Sed contra hoc videtur quod dicit
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>
+                  <ref xml:id="Almn78-e34316-Rd1e562">Augustinus in libro V de Civitate Dei</ref>, sic :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e34316-Qd1e568" source="http://scta.info/resource/adcd-l5-d1e689@41-50">Ipsum causarum ordinem et quamda
+          <lb ed="#Bb"/>rerum connexionem Dei summi tribuunt
+          <lb ed="#Bb"/>voluntati.</quote> Magis ergo tribuitur 
+        vo<lb ed="#Bb" break="no"/>luntati, quam sapientia.
+      </p>
+               <p xml:id="Almn78-e34316-d1e578">
+                  <lb ed="#Bb"/>Avuvuc, Cum, sicut dicit Augustinus,
+        <lb ed="#Bb"/>ordo sit parium dispariumque rerum sua
+        <lb ed="#Bb"/>cuique loca tribuens dispositio : 
+        quari<lb ed="#Bb" break="no"/>tur, Si omnia essent paria, utrum esset
+        <lb ed="#Bb"/>ordo in universo?
+      </p>
+               <p xml:id="Almn78-e34316-d1e591">
+                  <lb ed="#Bb"/>Et videtur, quod sic : quia inter res
+        <lb ed="#Bb"/>que sunt ejusdem speciei et ejusdem
+        <lb ed="#Bb"/>generis, paritas est : et in illis maxime
+        <lb ed="#Bb"/>ordo est, eo quod maxime sibi congruunt.
+        <lb ed="#Bb"/>Ergo eliamsi totum universum 
+        compo<lb ed="#Bb" break="no"/>situm esset ex paribus genere et specie,
+        <lb ed="#Bb"/>maxime partes universi sibiinvicem 
+        con<lb ed="#Bb" break="no"/>gruerent, et sic precipuus ordo esset
+        <lb ed="#Bb"/>inter eas.
+      </p>
+               <p xml:id="Almn78-e34316-d1e614">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>1. Omnis ordo secundum prius et
+        <lb ed="#Bb"/>posterius determinatur : paria non 
+        ha<lb ed="#Bb" break="no"/>bent se secundum prius et posterius :
+        <lb ed="#Bb"/>ergo si omnia essent paria, nullus esset
+        <lb ed="#Bb"/>ordo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e630">
+                  <lb ed="#Bb"/>2. Adhuc, <ref xml:id="Almn78-e34316-Rd1e634">Augustinus in libro XI de
+          <lb ed="#Bb"/>Civitate Dei</ref> : <quote xml:id="Almn78-e34316-Qd1e639" source="http://scta.info/resource/adcd-l5-d1e689@41-50">A terrenis usque ad
+            <lb ed="#Bb"/>celestia, a visibilibus usque ad 
+            invisibi<lb ed="#Bb" break="no"/>lia sunt bona alia aliis meliora, ad hoc
+            <lb ed="#Bb"/>inequalia ut essent omnia</quote>.
+      </p>
+               <p xml:id="Almn78-e34316-d1e649">
+                  <lb ed="#Bb"/>3. Adhuc, <ref xml:id="Almn78-e34316-Rd1e653">Augustinus in libro XII de
+          <lb ed="#Bb"/>Civitate Dei</ref> 
+                  <quote xml:id="Almn78-e34316-Qd1e658" source="http://scta.info/resource/adcd-l12-d1e1682@54-94">Cum Deus sit summa
+          <lb ed="#Bb"/>essentia, rebus quas ex nihilo creavit,
+          <lb ed="#Bb"/>esse dedit, sed non summe : et aliis 
+          de<lb ed="#Bb" break="no"/>dit esse amplius, aliis minus : atque
+          <lb ed="#Bb"/>ita naturas essentiarum gradibus 
+          ordi<lb ed="#Bb" break="no"/>navit.</quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e672">
+                  <lb ed="#Bb"/>4, Adhue, <ref xml:id="Almn78-e34316-Rd1e676">Augustinus in libro LXXXTI
+          <lb ed="#Bb"/>Questionum</ref> : <quote xml:id="Almn78-e34316-Qd1e681"> Non essent omnia, si
+            <lb ed="#Bb"/>essent qualia: non enim essent multa
+            <lb ed="#Bb"/>genera, quibus conficitur universitas,
+            <lb ed="#Bb"/>primas et secundas et sic deinceps usque
+            <lb ed="#Bb"/>ad ultimas ordinatas habens 
+            creatu<lb ed="#Bb" break="no"/>ras.</quote>
+               </p>
+               <p xml:id="Almn78-e34316-d1e695">
+                  <pb ed="#Bb" n="607"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Solvtio. Dicendum, quod ordo est in
+        <lb ed="#Bb"/>universo, nec Deus permitteret rem
+        <lb ed="#Bb"/>inordinatam fieri, nisi ante disposuisset
+        <lb ed="#Bb"/>et previdisset qualiter reduceretur et
+        <lb ed="#Bb"/>revocaretur ad ordinem. Unde duplex
+        <lb ed="#Bb"/>est ordo, scilicet rei ordinate, et 
+        sapien<lb ed="#Bb" break="no"/>tie ordinantis, sicut paulo ante dictum
+        <lb ed="#Bb"/>est. Quantum ad ordinem rei ordinate,
+        <lb ed="#Bb"/>si ordinis ratio ex ipso accipiatur 
+        quan<lb ed="#Bb" break="no"/>tum ad debitum nature vel meriti 
+        abso<lb ed="#Bb" break="no"/>lute, multa sunt inordinata et per errorem
+        <lb ed="#Bb"/>facta. Si autem accipitur ratio ordinis ex
+        <lb ed="#Bb"/>ratione sapientie ordinantis, nihil 
+        peni<lb ed="#Bb" break="no"/>tus est inordinatum vel confusum in
+        <lb ed="#Bb"/>mundo, sed omnia decentissime 
+        ordi<lb ed="#Bb" break="no"/>nata: quia etiam mala que a Deo 
+        per<lb ed="#Bb" break="no"/>mittuntur, ord:nantur oplime vel ad
+        <lb ed="#Bb"/>exercitiuin virtulis, vel ad ampliorem
+        <lb ed="#Bb"/>commendationem boni, vel ad 
+        commen<lb ed="#Bb" break="no"/>dationem justitie, vel pulchritudinem.
+        <lb ed="#Bb"/>Et ordo qui est secundum congruentiam
+        <lb ed="#Bb"/>rei ordinate, est ordo secundum quid.
+        <lb ed="#Bb"/>Ordo autem qui est ex dispositione 
+        sa<lb ed="#Bb" break="no"/>pientiw, est simpliciter.
+      </p>
+               <p xml:id="Almn78-e34316-d1e754">
+                  <lb ed="#Bb"/>Unnre quod dicitur in Kcclesiaste, x,
+        <lb ed="#Bb"/>6 et 7, intelligitur de ordine secundum
+        <lb ed="#Bb"/>quid : et hoc notat littera cum dicit :
+        <lb ed="#Bb"/>Quasi per errorem. Simpliciter tamen
+        <lb ed="#Bb"/>ordinatissimum est : quia ex hoc 
+        pro<lb ed="#Bb" break="no"/>bantur electi et exercentur, et ex hoc
+        <lb ed="#Bb"/>Jaudabilior est virtus bonorum, qui tales
+        <lb ed="#Bb"/>confusiones et inordinationes sustinent a
+        <lb ed="#Bb"/>malis : et ex hoc eminet justitia justi
+        <lb ed="#Bb"/>judicis, que per censuram pene tales
+        <lb ed="#Bb"/>inordinationes reducit ad ordinem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e781">
+                  <lb ed="#Bb"/>Ad aliud eodem modo dicendum est,
+        <lb ed="#Bb"/>quod confusio est in universo quantum
+        <lb ed="#Bb"/>ad ordinem primo modo dictum, qui est
+        <lb ed="#Bb"/>ordo particularis et secundum quid. Sed
+        <lb ed="#Bb"/>optime dispositus est ordo universi 
+        quan<lb ed="#Bb" break="no"/>tum ad ordinem secundo modo dictum :
+        <lb ed="#Bb"/>quia per illum Deus deponit potentes de
+        <lb ed="#Bb"/>sede, et exaltat humiles, et tribuit 
+        uni<lb ed="#Bb" break="no"/>cuique secundum merita : et sicut 
+        dici<lb ed="#Bb" break="no"/>tur, Sapient. vm, 1 : Adtingit a fine
+        <lb ed="#Bb"/>usque ad finem fortiter, et dispontt 
+        om<lb ed="#Bb" break="no"/>nia suaviter, et decenter secundum 
+        justi<lb ed="#Bb" break="no"/>tie publice decorem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e812">
+                  <lb ed="#Bb"/>Per omnem eumdem modum respon
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>dendum est ad diclum Augustini : quia
+        <lb ed="#Bb"/>per hoc quod homo preest homini et
+        <lb ed="#Bb"/>peccator justo, confunditur ordo 
+        parti<lb ed="#Bb" break="no"/>cularis : sed ordo justitie universalis
+        <lb ed="#Bb"/>eminentior et pulchrior eflicitur.
+      </p>
+               <p xml:id="Almn78-e34316-d1e830">
+                  <lb ed="#Bb"/>Ad aliud eodem modo dicendum, quod
+        <lb ed="#Bb"/>ex hoc ipso quod sit contra ordinem 
+        par<lb ed="#Bb" break="no"/>ticularem, construitur et perficitur ordo
+        <lb ed="#Bb"/>universalis a sapientia omnia disponente.
+        <lb ed="#Bb"/>Sic enim intelligitur quod dicit 
+        Augusti<lb ed="#Bb" break="no"/>nus, quod <quote xml:id="Almn78-e34316-Qd1e845"> ordo es! parium 
+          imparium<lb ed="#Bb" break="no"/>que sua unicuique loca tribuens 
+          disposi<lb ed="#Bb" break="no"/>tio.</quote> Valde enim impar est secundum
+        <lb ed="#Bb"/>ordinem particularem, quod justi jacent
+        <lb ed="#Bb"/>ante fores impiorum, et quod impii 
+        do<lb ed="#Bb" break="no"/>minantur eis : sed hoc etiam valde 
+        effi<lb ed="#Bb" break="no"/>citur par et pulchram, quando per hoc
+        <lb ed="#Bb"/>ipsum per justitiam generalem et 
+        dispo<lb ed="#Bb" break="no"/>sitionem sapientia impius reducitur et
+        <lb ed="#Bb"/>disponitur ad locum impietati sue 
+        con<lb ed="#Bb" break="no"/>gruum, et justus laudabilior efficitur,
+        <lb ed="#Bb"/>sicut dicit Ambrosius, quod fur in furcis
+        <lb ed="#Bb"/>pulcherrimus est, et Judas in inferno. Et
+        <lb ed="#Bb"/>hac est justitia de qua dicitur, Apocal. .
+        <lb ed="#Bb"/>xxu, 11: Quit in sordibus est, sordescat
+        <lb ed="#Bb"/>adhue : et qui jusius est, justificetur
+        <lb ed="#Bb"/>adhue, etc.
+      </p>
+               <p xml:id="Almn78-e34316-d1e883">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc est 
+        or<lb ed="#Bb" break="no"/>dinatissimum, quod spiritualis creatura
+        <lb ed="#Bb"/>que dignitatem amisit per peccatum,
+        <lb ed="#Bb"/>amittat privilegium dignitalis quo 
+        super<lb ed="#Bb" break="no"/>posita fuit creature, et subjiciatur ei
+        <lb ed="#Bb"/>quod subjectum habebat ante peccatum,
+        <lb ed="#Bb"/>Sic enim dicitur, Proverb. xiv, 34 :
+        <lb ed="#Bb"/>Miseros facit populos peceatum.
+      </p>
+               <p xml:id="Almn78-e34316-d1e903">
+                  <lb ed="#Bb"/>Per omvem eumdem modum 
+        solven<lb ed="#Bb" break="no"/>dum est sequens, propter quod dicunt
+        <lb ed="#Bb"/>Augustinus et Joannes Damascenus,
+        <lb ed="#Bb"/>quod nociva in plantis et animalibus
+        <lb ed="#Bb"/>non sunt facta nociva, nisi post 
+        pecca<lb ed="#Bb" break="no"/>tum.
+      </p>
+               <p xml:id="Almn78-e34316-d1e919">
+                  <lb ed="#Bb"/>Ad id quod in contrarium objicitur,
+        <lb ed="#Bb"/>concedendum est, et dicendum quod
+        <lb ed="#Bb"/>procedit de generali ordine.
+      </p>
+               <p xml:id="Almn78-e34316-d1e929">
+                  <lb ed="#Bb"/>Sequens eodem modo concedendum
+        <lb ed="#Bb"/>est : quia de generali ordine 
+        loqui<lb ed="#Bb" break="no"/>tur. ;
+      </p>
+               <p xml:id="Almn78-e34316-d1e938">
+                  <lb ed="#Bb"/>Similiter sequens quod per rationem
+        <lb ed="#Bb"/>inducitur, procedit.
+      </p>
+               <p xml:id="Almn78-e34316-d1e945">
+                  <pb ed="#Bb" n="608"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Eodem modo procedit id quod 
+        conse<lb ed="#Bb" break="no"/>quenter inducitur.
+      </p>
+               <p xml:id="Almn78-e34316-d1e956">
+                  <lb ed="#Bb"/>Av i quod ulterius queritur, jam 
+        pa<lb ed="#Bb" break="no"/>tet solutio. Patet enim quis sit ordo in
+        <lb ed="#Bb"/>universo, qui aliquando violatur, quia
+        <lb ed="#Bb"/>particularis: et quis sit qui numquam 
+        vio<lb ed="#Bb" break="no"/>latur, nec augetur, nec minuitur, quia
+        <lb ed="#Bb"/>universalis. Et hoc dicit auctoritas 
+        Au<lb ed="#Bb" break="no"/>gustini preinducta : sic enim omnia 
+        or<lb ed="#Bb" break="no"/>dinata sunt et disposita congrua ratione
+        <lb ed="#Bb"/>sapientie.
+      </p>
+               <p xml:id="Almn78-e34316-d1e978">
+                  <lb ed="#Bb"/>Ad m quod ulterius queritur, 
+        dicen<lb ed="#Bb" break="no"/>dum quod in veritate potentia, sapientia,
+        <lb ed="#Bb"/>et voluntas, sunt causa hujus ordinis.
+        <lb ed="#Bb"/>Sed per rationem ordinis respicit 
+        sapien<lb ed="#Bb" break="no"/>tiam, Per potentiam qua omnia 
+        constrin<lb ed="#Bb" break="no"/>git sub ordine, et attingit a fine usque
+        <lb ed="#Bb"/>ad finem fortiter, respicit potentiam. Per
+        <lb ed="#Bb"/>hoc autem quod suaviter sic omnia 
+        dis<lb ed="#Bb" break="no"/>ponit unumquodgue ad finem suum, 
+        vo<lb ed="#Bb" break="no"/>luntatem respicit et bonitatem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1002">
+                  <lb ed="#Bb"/>Av seguens dicendum, quod omnibus
+        <lb ed="#Bb"/>illis tribus tribuitur secundum diversas
+        <lb ed="#Bb"/>rationes, ut dictum est.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1012">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod si etiam
+        <lb ed="#Bb"/>omnia paria essent particularis ordinis
+        <lb ed="#Bb"/>paritate in mundo, nihilominus esset in
+        <lb ed="#Bb"/>eis ordo sapientiz, qui unicuique locum
+        <lb ed="#Bb"/>et gradum tribueret, et pro dignitate 
+        na<lb ed="#Bb" break="no"/>ture, et pro congruentia meriti.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1028">
+                  <lb ed="#Bb"/>Ad id quod contra objicitur, dicendum
+        <lb ed="#Bb"/>quod si omnia essent paria omni modo,
+        <lb ed="#Bb"/>tunc esset equalitas : et sic non essent
+        <lb ed="#Bb"/>omnia, sed quedam, ut dicit Augustinus.
+        <lb ed="#Bb"/>Sed si essent paria secundum naturam,
+        <lb ed="#Bb"/>non propter hoc excluderetur, quin 
+        es<lb ed="#Bb" break="no"/>sent superiora et inferiora secundum
+        <lb ed="#Bb"/>exigentiam status et meriti. Et hoc dicit
+        <lb ed="#Bb"/>auctoritas Augustini consequenter 
+        indu<lb ed="#Bb" break="no"/>cta, et nihil amplius. Et sic dicit 
+        Philo<lb ed="#Bb" break="no"/>sophus, quod <quote xml:id="Almn78-e34316-Qd1e1054"> inferiora sunt in 
+          supe<lb ed="#Bb" break="no"/>rioribus sicut in suis moventibus et
+          <lb ed="#Bb"/>formis : superiora autem in inferioribus
+          <lb ed="#Bb"/>sicut in suis materiis et mobilibus. </quote>
+                  <lb ed="#Bb"/>Hoc etiam est quod communiter 
+        induci<lb ed="#Bb" break="no"/>tur ab Augustino, et nihil amplius.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1068">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Uxmimum etiam hujus questionis quod 4
+        <lb ed="#Bb"/>ab Augustino inducitur, omnino idem
+        <lb ed="#Bb"/>dicit. In omnibus enim sicut ab uno,
+        <lb ed="#Bb"/>ita ad unum est ordo, ut dicit Hilarius
+        <lb ed="#Bb"/>in libro 1X de Trinitate. Et hoc est quod
+        <lb ed="#Bb"/>dicitur, Apocal. xxu, 13 : Ego sum 
+        Al<lb ed="#Bb" break="no"/>pha et Omega, primus et novissimus,
+        <lb ed="#Bb"/>principium et finis.
+      </p>
+            </div>
+            <div xml:id="Almn78-e34316-Dd1e1091">
+               <head xml:id="Almn78-e34316-Hd1e1093">Membrum 2</head>
+               <head xml:id="Almn78-e34316-Hd1e1096" type="question-title">
+        Utrum omnia ad hominem ordinentur
+      </head>
+               <p xml:id="Almn78-e34316-d1e1099">
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Utrum omnia ad hominem ordinentur ?
+      </p>
+               <p xml:id="Almn78-e34316-d1e1106">
+                  <lb ed="#Bb"/>Deinde queritur, Si est ordo talis in
+        <lb ed="#Bb"/>universo sicut dictum est, utrum omnia
+        <lb ed="#Bb"/>ad hominem ordinentur ?
+      </p>
+               <p xml:id="Almn78-e34316-d1e1115">
+                  <lb ed="#Bb"/>Et videtur, quod sic.
+        <lb ed="#Bb"/>4. Dicit enim Gregorius super illud
+        <lb ed="#Bb"/>Marci, xiv, 13 : Predicate Evangelium
+        <lb ed="#Bb"/>omni creature : quod <quote xml:id="Almn78-e34316-Qd1e1125"> omnis creature
+          <lb ed="#Bb"/>nomine intelligitur homo, per 
+          conve<lb ed="#Bb" break="no"/>nientiam quam habet cum omni 
+          crea<lb ed="#Bb" break="no"/>tura. </quote> Ergo videtur, quod omnia
+        <lb ed="#Bb"/>ordinentur ad hominem sicut ad finem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1139">
+                  <lb ed="#Bb"/>2, Adhuc, Tad Corinth. 1, 22 et 23:
+        <lb ed="#Bb"/>Omnia vestra sunt : vos autem Christi,
+        <lb ed="#Bb"/>Christus autem Dei. Sed ea que sunt
+        <lb ed="#Bb"/>hominis, ordinata sunt ad hominem.
+        <lb ed="#Bb"/>Omnia sunt hominis. Ergo omnia 
+        ordi<lb ed="#Bb" break="no"/>nata sunt ad hominem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1155">
+                  <lb ed="#Bb"/>3. Adhuc, Ad Roman. vii, 21, super
+        <lb ed="#Bb"/>illud : Et ipsa creatura liberabitur a
+        <lb ed="#Bb"/>servitute corruptionis, in libertatem 
+        glo<lb ed="#Bb" break="no"/>rie filiorum Dei : dicit Glossa, quod.
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e34316-Qd1e1168">superiora et omnia alia serviunt et
+          <lb ed="#Bb"/>obsequuntur homini ad multiplicationem
+          <lb ed="#Bb"/>numeri electorum : et ideo quiescent
+          <lb ed="#Bb"/>homine assumpto in gloria. </quote> Sed ad
+        <lb ed="#Bb"/>quod sunt, ad hoc serviunt ut ad finem :
+        <lb ed="#Bb"/>sedad hominem suat : ergo ad hominem
+        <lb ed="#Bb"/>serviunt : ergo sunt ad hominem sicut ad
+        <lb ed="#Bb"/>finem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1186">
+                  <lb ed="#Bb"/>4. Adhuc, Augustinus in libro primo
+        <lb ed="#Bb"/>de Doctrina Christiana dividit omnia
+        <lb ed="#Bb"/>que sunt in terra: et ponitur a Magistre
+        <pb ed="#Bb" n="609"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>in primo Sententiarum, distinctione
+        <lb ed="#Bb"/>prima, scilicet in summa bona, media
+        <lb ed="#Bb"/>bona, infima bona. Et dicit, quod summa
+        <lb ed="#Bb"/>bona sunt Deus trinilas, quibus 
+        fruen<lb ed="#Bb" break="no"/>dum est. Infima sunt res hujus mundi,
+        <lb ed="#Bb"/>quibus utendum est, ut adid perveniatur
+        <lb ed="#Bb"/>quo fruendum est. Media bona homo,.
+        <lb ed="#Bb"/>qui fruitur summis, et utitur infimis : et
+        <lb ed="#Bb"/>ideo inter utraque constitutus est. Ergo
+        <lb ed="#Bb"/>tam summa referuntur ad hominem
+        <lb ed="#Bb"/>quam infima : et sic omnia sunt propter
+        <lb ed="#Bb"/>hominem et ad hominem ordinata :
+        <lb ed="#Bb"/>homo igitur est finis omnium.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1228">
+                  <lb ed="#Bb"/>3. Adhuc, Augustinus in libro
+        <lb ed="#Bb"/>LXXXUI Questionum, distinguit inter
+        <lb ed="#Bb"/>utiet frui. Et dicit, quod uti aliqua re
+        <lb ed="#Bb"/>non potest nisi quod rationis est particeps.
+        <lb ed="#Bb"/>Uti enim est aliquid in facultatem 
+        volun<lb ed="#Bb" break="no"/>tatis accipere et ad aliud referre : quod
+        <lb ed="#Bb"/>sine collatione rationis esse non potest.
+        <lb ed="#Bb"/>Utilia autem distinguit sic : Perfecta
+        <lb ed="#Bb"/>ratio qua virtus vocatur, primo utilur
+        <lb ed="#Bb"/>seipsa ad intelligendum Deum. Utitur
+        <lb ed="#Bb"/>ceteris rationalibus ad societatem, 
+        irra<lb ed="#Bb" break="no"/>tionalibus ad eminentiam. Utitur etiam
+        <lb ed="#Bb"/>corporibus vivificandis ad 
+        beneficen<lb ed="#Bb" break="no"/>tiam : sic enim suo utitur corpore : ulitur
+        <lb ed="#Bb"/>quibusdam assumendis vel respuendis ad
+        <lb ed="#Bb"/>valetudinem : utitur quibusdam 
+        toleran<lb ed="#Bb" break="no"/>dis ad patientiam, quibusdam ordinandis
+        <lb ed="#Bb"/>ad justitiam, quibusdam considerandis
+        <lb ed="#Bb"/>ad veritatis documentum sive 
+        praden<lb ed="#Bb" break="no"/>tiam. Utitur etiam his a quibus abstinet
+        <lb ed="#Bb"/>per temperantiam. Et sic omnes partes
+        <lb ed="#Bb"/>mundi ad usum hominis ordinate sunt :
+        <lb ed="#Bb"/>et quod ordinatum est ad hominem,
+        <lb ed="#Bb"/>propter héminem est, sicut propter
+        <lb ed="#Bb"/>finem : omnes partes mundi ordinate
+        <lb ed="#Bb"/>sunt sicut ad hominem ut utalur eis:
+        <lb ed="#Bb"/>ergo omnes partes mundi ad hominem
+        <lb ed="#Bb"/>sunt ut ad finem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1291">
+                  <lb ed="#Bb"/>6. Adhuc, Hoc accipitur ex verbis
+        <lb ed="#Bb"/>Magistri in libro IL Sententiarum, 
+        di<lb ed="#Bb" break="no"/>stinct. XV, cap. Omnibus autem creatis
+        <lb ed="#Bb"/>atque dispositis, ubi dicit, quod <quote xml:id="Almn78-e34316-Qd1e1301"> 
+          novis<lb ed="#Bb" break="no"/>sime factus est homo tamquam dominus
+          <lb ed="#Bb"/>et possessor, qui omnibus preferendus
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>erat. </quote> Sed ad dominum qui omnibus
+        <lb ed="#Bb"/>prefertur, ordinantur omnia ut ad finem
+        <lb ed="#Bb"/>que subjecta sunt ei : homo talis 
+        domi<lb ed="#Bb" break="no"/>nus est: ergo omnia ordinantur ad ipsum
+        <lb ed="#Bb"/>ut ad finem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1322">
+                  <lb ed="#Bb"/>7. Adhuc, Boetius in Topicis : Si id
+        <lb ed="#Bb"/>quod minus videtur inesse, inest : et id
+        <lb ed="#Bb"/>quod magis. Sed minus videtur, quod
+        <lb ed="#Bb"/>spiritualis creatura sive Angelus 
+        ordine<lb ed="#Bb" break="no"/>tur ad hominem, quam corporalis : et
+        <lb ed="#Bb"/>ordinatur angelica ad hominem. Ad
+        <lb ed="#Bb"/>Hebr. 1, 14: Nonne omnes sunt 
+        admi<lb ed="#Bb" break="no"/>nistratorii sptritus, in ministerium misst
+        <lb ed="#Bb"/>propter eos qui hereditatem captient 
+        sa<lb ed="#Bb" break="no"/>lutis ? Apocal. xxn, 9, dixit Angelus
+        <lb ed="#Bb"/>ad Joannem : Conservus tuus sum, et
+        <lb ed="#Bb"/>jratrum tuorum  prophetarum, etc.
+        <lb ed="#Bb"/>Sed omnis creatura vel est spiritualis
+        <lb ed="#Bb"/>vel corporalis. Ergo omnis creatura
+        <lb ed="#Bb"/>ordinatur ad hominem sicut ad 
+        fi<lb ed="#Bb" break="no"/>nem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1360">
+                  <lb ed="#Bb"/>Sed conrra hoc objicitur, quod
+        <lb ed="#Bb"/>1. Averroes dicit, quod dignius non
+        <lb ed="#Bb"/>est propter indignius ut propter finem :
+        <lb ed="#Bb"/>motores ceelestium digniores substantia
+        <lb ed="#Bb"/>sunt, quam homo: ergo non sunt ad
+        <lb ed="#Bb"/>hominem sicut ad finem.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1376">
+                  <lb ed="#Bb"/>2. Adhuc, Constat, quod anima movet
+        <lb ed="#Bb"/>corpus et continet ipsum, ut in fine 
+        pri<lb ed="#Bb" break="no"/>mide Anima dicit Aristoteles : et ideo
+        <lb ed="#Bb"/>corpus est propter animam, et non 
+        ani<lb ed="#Bb" break="no"/>ma propter corpus. A simili ergo aliquid
+        <lb ed="#Bb"/>simile est in ccelo continente omnia,
+        <lb ed="#Bb"/>quod movet et conlinet celum et omnia
+        <lb ed="#Bb"/>que in ipso sunt: illud ergo erit finis
+        <lb ed="#Bb"/>universi, et non homo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1398">
+                  <lb ed="#Bb"/>3. Si forte dicatur, quod nihil talium
+        <lb ed="#Bb"/>est in coelo. Conrra: Augustinus in 
+        pri<lb ed="#Bb" break="no"/>mo Retractationum dicit esse spiritualem
+        <lb ed="#Bb"/>vitalemque virtutem (etiamsi mundus
+        <lb ed="#Bb"/>non sit animal) que virtus in Angelis
+        <lb ed="#Bb"/>sanctis ad decorandum atque 
+        admini<lb ed="#Bb" break="no"/>strandum mundum Deo servit : et a
+        <lb ed="#Bb"/>quibus non intelligitur, rectissime 
+        credi<lb ed="#Bb" break="no"/>tur, Cum ergo in ceelo talis sit vitalis et
+        <lb ed="#Bb"/>intellectualis virlus, qua mundus 
+        move<lb ed="#Bb" break="no"/>tur, decoratur, et administratur, videtur
+        <pb ed="#Bb" n="610"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>quod adillam et non ad hominem omnes
+        <lb ed="#Bb"/>partes universi ordinentur.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1433">
+                  <lb ed="#Bb"/>4. Et hoc est quod dicit Boetius in IV
+        <lb ed="#Bb"/>de Consolatione philosophize :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e34316-Qd1e1441">Ta triplicis mediam nature cuncta moventem
+          <lb ed="#Bb"/>Gonnectens animam, per consona membra
+          <lb ed="#Bb"/>[resolvis,
+          <lb ed="#Bb"/>Qua cum secta duos motum glomeravit in
+          <lb ed="#Bb"/>[orbes,
+          <lb ed="#Bb"/>In semet reditura meat, mentemque 
+          profun<lb ed="#Bb" break="no"/>
+                     <lb ed="#Bb"/>[dam
+          <lb ed="#Bb"/>Circuit, et simili convertit imagine celum</quote>.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1462">
+                  <lb ed="#Bb"/>Et tangit hoc quod Plato dicit in
+        <lb ed="#Bb"/>Timezo sic: <quote xml:id="Almn78-e34316-Qd1e1468"> Hac reputatione intellectum
+          <lb ed="#Bb"/>in anima, porro anima in corpore locata
+          <lb ed="#Bb"/>totum animantis mundi ambitum cum
+          <lb ed="#Bb"/>veneranda illustratione composuit. </quote> Ad
+        <lb ed="#Bb"/>id ergo quod sic conlinet mundum et
+        <lb ed="#Bb"/>movet partes mundi, referuntur, et non
+        <lb ed="#Bb"/>ad hominem, ut videtur.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1485">
+                  <lb ed="#Bb"/>Sonutio. Dicendum, quod omnia 
+        ordi<lb ed="#Bb" break="no"/>nantur ad hominem ut ad finem 
+        univer<lb ed="#Bb" break="no"/>se creature. Unde omnia ad ipsum 
+        ordi<lb ed="#Bb" break="no"/>nantur ut ad finem, sicut expresse dicit
+        <lb ed="#Bb"/>Gregorius Nyssenus, et sicut probant
+        <lb ed="#Bb"/>prime inducte rationes.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1502">
+                  <lb ed="#Bb"/>Ad id autem quod contra objicitur,
+        <lb ed="#Bb"/>dicendum quod motores et motus 
+        ccele<lb ed="#Bb" break="no"/>stium, sunt propter hominem. Ad hoc
+        <lb ed="#Bb"/>enim movent et deserviunt generationi
+        <lb ed="#Bb"/>et corruptioni, ut impleatur numerus
+        <lb ed="#Bb"/>electorum : et propter hoc etiam 
+        quie<lb ed="#Bb" break="no"/>scent electis assumptis in gloria, sicut
+        <lb ed="#Bb"/>expresse dicit Glossa ad Romanos, que
+        <lb ed="#Bb"/>inducta est in objiciendo.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1524">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod illud quod
+        <lb ed="#Bb"/>continet omnia, et est in celo, et movet
+        <lb ed="#Bb"/>coelum, et non habet se ad ccelum sicut
+        <lb ed="#Bb"/>anima : et ideo non est simile quod
+        <lb ed="#Bb"/>inductum est de anima et corpore : sed
+        <lb ed="#Bb"/>habet se ad ceelum 'sicut movens et 
+        con<lb ed="#Bb" break="no"/>tinens ex jussu Dei : et per illam 
+        virtu<lb ed="#Bb" break="no"/>tem qua movet, refertur ad necessitatem
+        <lb ed="#Bb"/>et obsequium hominis. Et hoc non est
+        <lb ed="#Bb"/>inconveniens, quod illud quod superius
+        <lb ed="#Bb"/>est per naturam, obsequatur inferiori ex
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>jussu Dei. Et de hoc satis dictum est in
+        <lb ed="#Bb"/>tractatu de custodiis Angelorum. Nec est
+        <lb ed="#Bb"/>inconveniens, quod omnia inferiora 
+        refe<lb ed="#Bb" break="no"/>rantur ad illud ut ad causam moventem et
+        <lb ed="#Bb"/>finem in quo continentur et salvantur, et
+        <lb ed="#Bb"/>referantur ad hominem ut ad finem prop- :
+        <lb ed="#Bb"/>ter quem sunt, ut ad cujus meritum et
+        <lb ed="#Bb"/>beatitudinem in usu et fructu deserviunt,
+        <lb ed="#Bb"/>ut probatum est in auctoritate Augustini,
+        <lb ed="#Bb"/>que inducta est in objiciendo de libro
+      </p>
+               <p xml:id="Almn78-e34316-d1e1574">
+        
+                  <lb ed="#Bb"/>Ad dictum Augustini dicendum, quod ad objects,
+        <lb ed="#Bb"/>tale quid in ceelo est, sed anima non est.
+        <lb ed="#Bb"/>Et dicitur intellectualis virtus, non quod
+        <lb ed="#Bb"/>sit anima intellectualis, sed quia movet
+        <lb ed="#Bb"/>motu qui competit intellectui, ut dicit
+        <lb ed="#Bb"/>Plato, qui est motus circularis uniformis
+        <lb ed="#Bb"/>regularis, qui sicut dicit Messehallach in
+        <lb ed="#Bb"/>libro de Sphera mota, est motus 
+        sapien<lb ed="#Bb" break="no"/>tis : non tamen est anima, sed est virtus
+        <lb ed="#Bb"/>animaliter movens, que in ceelis est
+        <lb ed="#Bb"/>jussu divino. Et de his in antehabitis
+        <lb ed="#Bb"/>dictum est satis supra, questione de 
+        mo<lb ed="#Bb" break="no"/>toribus orbium.
+      </p>
+               <p xml:id="Almn78-e34316-d1e1605">
+                  <lb ed="#Bb"/>Ad primum Boetii dicendum, quod ille adobject.4
+        <lb ed="#Bb"/>loquitur secundum Platonem, qui illam
+        <lb ed="#Bb"/>virtatem dixit esse animam mundi et
+        <lb ed="#Bb"/>preditam intellectu. Et sicut anima 
+        ani<lb ed="#Bb" break="no"/>malis locatur in corde, quod medium
+        <lb ed="#Bb"/>est utriusque lateris, ut equalem 
+        relatio<lb ed="#Bb" break="no"/>nem habeat ad utrumque latus, et ad
+        <lb ed="#Bb"/>omnia que inter latera continentur in
+        <lb ed="#Bb"/>corpore, ut dicit Aristoteles in libro de
+        <lb ed="#Bb"/>Principiis motuum animalium : ita illa
+        <lb ed="#Bb"/>virtus quam animam mundi vocat Plato,
+        <lb ed="#Bb"/>locatur in centro universi, ut equalem
+        <lb ed="#Bb"/>relationem habeat ad omnia que intra
+        <lb ed="#Bb"/>circumferentiam cceli continentur. Et
+        <lb ed="#Bb"/>sunt hee verba Platonis in Zimezo :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e34316-Qd1e1641">Animam vero immediatam ejus locavit,
+          <lb ed="#Bb"/>eamdemque per omnem globum 
+          equali<lb ed="#Bb" break="no"/>ter porrigi jussit, quo tectis interioribus
+          <lb ed="#Bb"/>partibus extima queque totius corporis
+          <lb ed="#Bb"/>ambitu anime circumdarentur. Atque ita
+          <lb ed="#Bb"/>orbem teretem in orbem atque in suum
+          <lb ed="#Bb"/>ambitum voluit converti et moveri 
+          se<lb ed="#Bb" break="no"/>cundum precipuum motuum, qui 
+          virtu<lb ed="#Bb" break="no"/>tum prestantia sufficeret propria 
+          consi<lb ed="#Bb" break="no"/>liationi. </quote> Et propter hoc dicit Boetius,
+        <pb ed="#Bb" n="611"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>quod secta est in duos motus, scilicet
+        <lb ed="#Bb"/>planes, et aplanes, per quos
+        <lb ed="#Bb"/>I<quote xml:id="Almn78-e34316-Qd1e1674">n semet reditura meat, mentemque 
+          profun<lb ed="#Bb" break="no"/>[dam</quote>,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>qua scilicet universum movet,
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e34316-Qd1e1686">Circuit, et simili convertit imagine ceelum :</quote>
+                  <lb ed="#Bb"/>quia mentis sapientie imago est motus
+        <lb ed="#Bb"/>circularis in corpore.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

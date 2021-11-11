@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 54</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 54</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="551"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a22096"><!-- p1t13q54 -->
+            <head xml:id="Almn78-a22096-Hd1e106">Quaestio 54</head>
+            <head xml:id="Almn78-a22096-Hd1e109" type="question-title">
+      Secundum quam rationem nomen causae conveniat Deo ?
+    </head>
+            <p xml:id="Almn78-a22096-d1e112">
+               <pb ed="#Ba" n="551"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO LIV.
+<lb ed="#Ba"/>Secundum quam rationem nomen causae conveniat Deo ?
+</p>
+            <p xml:id="Almn78-a22096-d1e123">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur de hoc nomine, 
+Cau<lb ed="#Ba" break="no"/>sa:quia etiam si ad actum referatur, 
+tem<lb ed="#Ba" break="no"/>poraliter de Deo dicitur. De hoc igitur
+<lb ed="#Ba"/>queritur hic, primo scilicet, Secundum,
+<lb ed="#Ba"/>quam rationom nomen cause conveniat
+<lb ed="#Ba"/>Deo?
+  
+<lb ed="#Ba"/>Et quia consuevit dici per Dionysium,
+<lb ed="#Ba"/>quod Deus est efficiens causa et 
+exem<lb ed="#Ba" break="no"/>plaris et finalis : propter quod etiam 
+ver<lb ed="#Ba" break="no"/>sus sunt :
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a22096-Qd1e151">Efficiens causa Deus est, formalis idea,
+<lb ed="#Ba"/>Finalis bonitas, materialis hyle</quote>.
+</p>
+            <p xml:id="Almn78-a22096-d1e157">
+               <lb ed="#Ba"/>Et accipitur hoc a Platone in fine 
+7i<lb ed="#Ba" break="no"/>met, qui expresse ponit paternum 
+intelle<lb ed="#Ba" break="no"/>ctum efficientem artem qua operatur 
+in<lb ed="#Ba" break="no"/>tellectus, sive sapientiam que mundus
+<lb ed="#Ba"/>archetypus est, sive exemplar mundi
+<lb ed="#Ba"/>sensibilis. Propter quod etiam dicit,
+<lb ed="#Ba"/>quod Grace <foreign>xécyoc</foreign>, dicitur mundus 
+La<lb ed="#Ba" break="no"/>tine sive ornatus : quia de mundissimo
+<lb ed="#Ba"/>sive de ornatissimo exemplari exivit.
+<lb ed="#Ba"/>Paternus autem intellectus ut efficiens et
+<lb ed="#Ba"/>agens per sapientiam ut per artem, ex
+<lb ed="#Ba"/>materia ut ex matricula mundum istum
+<lb ed="#Ba"/>sensibilem produxit nulla alia de causa,
+<lb ed="#Ba"/>nisi ut unumquodque secundum sue 
+na<lb ed="#Ba" break="no"/>ture analogiam bonitatem divinam 
+parti<lb ed="#Ba" break="no"/>ciparet: et sic totum mundum factum
+<lb ed="#Ba"/>ad. suam retulit bonitatem 
+participan<lb ed="#Ba" break="no"/>dam, sicut dicitur, Proverb. xvi, 4:
+<lb ed="#Ba"/>Universa propter semetipsum operatus
+<lb ed="#Ba"/>est Dominus.
+</p>
+            <p xml:id="Almn78-a22096-d1e207">
+               <lb ed="#Ba"/>Queritur ergo, Utrum ista triplex 
+ra<lb ed="#Ba" break="no"/>tio causa in Deo sit?
+</p>
+            <p xml:id="Almn78-a22096-d1e214">
+               <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Deus enim est in fine simplicitatis:
+<lb ed="#Ba"/>finis autem simplicitatis repugnat 
+multi<lb ed="#Ba" break="no"/>tudini intentionum causarum. Ergo 
+vi<lb ed="#Ba" break="no"/>detur, quod intentio triplicis cause in
+<lb ed="#Ba"/>Deo esse non possit.
+</p>
+            <p xml:id="Almn78-a22096-d1e230">
+               <lb ed="#Ba"/>2. Adhuc, Licet Aristoteles in II 
+Phy<lb ed="#Ba" break="no"/>sicorum dicat, quod tres in unam 
+coin<lb ed="#Ba" break="no"/>cidunt, hoc intelligitur, quod in unam
+<lb ed="#Ba"/>rem. Impossibile enim est, quod tres
+<lb ed="#Ba"/>secundum rationem cause et secundum
+<lb ed="#Ba"/>rationem causandi in unam coincidant
+<lb ed="#Ba"/>intentionem cause. Tres igitur non 
+coin<lb ed="#Ba" break="no"/>cidunt in unam rem, nisi in illa re tria
+<lb ed="#Ba"/>sint, secundum que accipiuntur 
+intentio<lb ed="#Ba" break="no"/>nes trium. causarum. In Deo autem qui
+<lb ed="#Ba"/>in fine simplicitatis est, non est nisi
+<lb ed="#Ba"/>unum et idem. Ergo videtur, quod in
+<lb ed="#Ba"/>eo non sit intentio triplicis cause.
+</p>
+            <p xml:id="Almn78-a22096-d1e261">
+               <lb ed="#Ba"/>3. Adhuc, Videtur imperfectionem 
+in<lb ed="#Ba" break="no"/>ducere in Deo si ita dicatur. Perfectius
+<lb ed="#Ba"/>est enim agens quod seipso agit, non 
+in<lb ed="#Ba" break="no"/>digens exemplari sive forma ad quod
+<lb ed="#Ba"/>respiciat, quam id quod indiget 
+exem<lb ed="#Ba" break="no"/>plari: sed Deus ponitur perfectissimum
+<lb ed="#Ba"/>agens: videtur ergo, quod non agit ad
+<lb ed="#Ba"/>formam sive exemplar.
+</p>
+            <p xml:id="Almn78-a22096-d1e281">
+               <lb ed="#Ba"/>4, Adhuc, Similiter objicitur de causa
+<lb ed="#Ba"/>finali. Nullus enim agit ad id quod 
+ha<lb ed="#Ba" break="no"/>bet: agere autem propter non habitum,
+<lb ed="#Ba"/>est agere propter finem : et ideo habito
+<lb ed="#Ba"/>fine quiescit ab actione : indigentie ergo
+<lb ed="#Ba"/>est agere propter finem. Nulla indigentia
+<lb ed="#Ba"/>est in Deo. Non ergo agit finem aliquid.
+<lb ed="#Ba"/>Videtur ergo si Deus est causa, quod
+<lb ed="#Ba"/>non erit nisi efficiens, non. exemplaris,
+<lb ed="#Ba"/>nec finalis.
+</p>
+            <p xml:id="Almn78-a22096-d1e305">
+               <lb ed="#Ba"/>5, Adhuc, Videtur quod iste tres in
+<pb ed="#Ba" n="552"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>tentiones causae uni essentiae convenire
+<lb ed="#Ba"/>non possunt. Quod enim non invenitur
+<lb ed="#Ba"/>in opere exemplato, non invenitur in
+<lb ed="#Ba"/>causa, quando causatum vestigium est
+<lb ed="#Ba"/>velimago cause. Sed in opere quod est
+<lb ed="#Ba"/>vestigium vel imago cause prime, non
+<lb ed="#Ba"/>inveniuntur ista tria in una essentia.
+<lb ed="#Ba"/>Quod patet : anima enim artificis per
+<lb ed="#Ba"/>aliud est efficiens, et per aliud est 
+exem<lb ed="#Ba" break="no"/>plar operis, et in alio in opere habet
+<lb ed="#Ba"/>finem. Domificator enim efficiens est per
+<lb ed="#Ba"/>intellectum practicum, exemplar autem
+<lb ed="#Ba"/>operis per artem: et intellectus practicus
+<lb ed="#Ba"/>et ars non sunt ejusdem essentia : et 
+si<lb ed="#Ba" break="no"/>militer hac duo non sunt ejusdem 
+essen<lb ed="#Ba" break="no"/>tie cum causa finali, que est defendere
+<lb ed="#Ba"/>ab imbribus et caumatibus. Ergo 
+vide<lb ed="#Ba" break="no"/>tur, quod haec in unam essentiam 
+om<lb ed="#Ba" break="no"/>nino simplicem non concurrant, 
+quam<lb ed="#Ba" break="no"/>vis concurrant in unam rem.
+</p>
+            <p xml:id="Almn78-a22096-d1e358">
+               <lb ed="#Ba"/>Avnuc queritur, Utrum haec 
+secun<lb ed="#Ba" break="no"/>dum ordinem sint in Deo?
+</p>
+            <p xml:id="Almn78-a22096-d1e365">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>Ubicumque enim haec tria sunt, finis
+<lb ed="#Ba"/>movet semper efficientem, et sic finis
+<lb ed="#Ba"/>prima causarum est : propter quod etiam
+<lb ed="#Ba"/>a Philosophis causa causarum dicitur.
+<lb ed="#Ba"/>Exemplar autem dirigit operantem, et
+<lb ed="#Ba"/>sic secunda in ordine causa est. Efficiens
+<lb ed="#Ba"/>autem movetur et operatur, et sic tertia
+<lb ed="#Ba"/>est. Cum ergo iste cause talem ordinem
+<lb ed="#Ba"/>in ratione suaimportent, si sunt in Deo,
+<lb ed="#Ba"/>oportet quod secundum ordinem istum
+<lb ed="#Ba"/>sint in Deo: Ergo in Deo est aliquid
+<lb ed="#Ba"/>prius, et aliquid posterius, quod omnino
+<lb ed="#Ba"/>inconyeniens est. Deus enim secundum
+<lb ed="#Ba"/>substantiam et actionem estin momento
+<lb ed="#Ba"/>eternitatis, in quo nihil est prius et 
+po<lb ed="#Ba" break="no"/>sterius, sed totum simul in uno et 
+eo<lb ed="#Ba" break="no"/>dem possessum.
+</p>
+            <p xml:id="Almn78-a22096-d1e407">
+               <lb ed="#Ba"/>Si hoc concedatur, in contrarium est,
+<lb ed="#Ba"/>1, Quod dicitur, ad Roman. x, 36:
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a22096-Qd1e415">Quoniam ex ipso, et per ipsum, et in
+<lb ed="#Ba"/>ipso sunt omnia</quote>. Et ex ipso dicit propter
+<lb ed="#Ba"/>causam formalem exemplarem quam 
+no<lb ed="#Ba" break="no"/>tat prepositio ex, per ipsum propter cau
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>sam efficientem quam notat preepositio
+<lb ed="#Ba"/>per, in ipso autem propter finem cujus
+<lb ed="#Ba"/>est continere, quod notat prepositio i :
+<lb ed="#Ba"/>et sic videtur, quod intentiones trium
+<lb ed="#Ba"/>causarum in Deo sint.
+</p>
+            <p xml:id="Almn78-a22096-d1e439">
+               <lb ed="#Ba"/>2. Adhuc, In physicis in agentibus per
+<lb ed="#Ba"/>se et non secundum accidens tres in
+<lb ed="#Ba"/>unum coincidunt. Cum ergo simplicitas
+<lb ed="#Ba"/>sitin divina causa, multo magis fit hoc
+<lb ed="#Ba"/>in divinis.
+</p>
+            <p xml:id="Almn78-a22096-d1e452">
+               <lb ed="#Ba"/>Soxvrio. Antequam queramus, 
+quali<lb ed="#Ba" break="no"/>ter iste tres cause sigillatim sint in Deo,
+<lb ed="#Ba"/>solvamus inducta.
+</p>
+            <p xml:id="Almn78-a22096-d1e461">
+               <lb ed="#Ba"/>Ad questionem ergo dicendum est,
+<lb ed="#Ba"/>quod Deus est efficiens causa omnium
+<lb ed="#Ba"/>per intellectum agentem universaliter :
+<lb ed="#Ba"/>quia ipse est primus intellectus, cujus
+<lb ed="#Ba"/>solius est omnino et omnimode 
+univer<lb ed="#Ba" break="no"/>saliter agere. Et si sunt intelligentie
+<lb ed="#Ba"/>quas posuerunt Philosophi in ordinibus
+<lb ed="#Ba"/>diversis, nullius est earum omnino et
+<lb ed="#Ba"/>omnimode universaliter agere, nec per
+<lb ed="#Ba"/>se agere, secundum quod per se 
+opponi<lb ed="#Ba" break="no"/>tur ad id quod est per aliud : sed omnes
+<lb ed="#Ba"/>agunt virtute cause prime agentis in 
+ip<lb ed="#Ba" break="no"/>sis. Dicit enim Philosophus in libro de
+<lb ed="#Ba"/>Causis, quod <quote xml:id="Almn78-a22096-Qd1e493"> secunda causa habet a
+<lb ed="#Ba"/>prima et quod est, et quod causa est, </quote>
+               <lb ed="#Ba"/>Et in VIII Physicorum probat, . quod
+<lb ed="#Ba"/>cessante motu in primo movente, ita
+<lb ed="#Ba"/>quod non moveat, cessabit motus in 
+se<lb ed="#Ba" break="no"/>cundo, et in omnibus aliis. Quia autem
+<lb ed="#Ba"/>omnis intellectus movet ad formam que
+<lb ed="#Ba"/>est in ipso, sicut artificiatum per formam
+<lb ed="#Ba"/>est in artifice, et hoc est ad exemplar 
+fa<lb ed="#Ba" break="no"/>cere, in tantum quod dicit Aristoteles
+<lb ed="#Ba"/>in VII primae philosophiae, quod in 
+tali<lb ed="#Ba" break="no"/>bus per se agentibus domus est ex 
+do<lb ed="#Ba" break="no"/>mo, sanitas ex sanitate, plaga sive ictus
+<lb ed="#Ba"/>ex ictu: cum Deus agat intellectu 
+per<lb ed="#Ba" break="no"/>fectissimo, oportet quod intellectus ejus
+<lb ed="#Ba"/>agens exemplar sit: omnium actorum : et
+<lb ed="#Ba"/>sic oportet eum esse causam formalem
+<lb ed="#Ba"/>exemplarem. ,
+</p>
+            <p xml:id="Almn78-a22096-d1e535">
+               <lb ed="#Ba"/>Adhuc,Sicut dicit Dionysius‘,cum boni
+<lb ed="#Ba"/>sit bona adducere, et nihil sit diffusivum
+<pb ed="#Ba" n="553"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>esse nisi exstasis boni, que non sinit 
+ip<lb ed="#Ba" break="no"/>sum in seipso manere: bonum autem
+<lb ed="#Ba"/>cum sit in ratione finis, oportet ipsum
+<lb ed="#Ba"/>esse causam finalem. Et hoc est quod 
+di<lb ed="#Ba" break="no"/>cil Augustinus: <quote xml:id="Almn78-a22096-Qd1e556"> Quia bonus est, 
+su<lb ed="#Ba" break="no"/>mus *. </quote>
+            </p>
+            <p xml:id="Almn78-a22096-d1e562">
+               <lb ed="#Ba"/>Ad primum ergo quod objicitur, 
+dicen<lb ed="#Ba" break="no"/>lum quod intentio triplicis cause in Deo
+<lb ed="#Ba"/>est in una re, et in una essentia, et per
+</p>
+            <p xml:id="Almn78-a22096-d1e571">
+               <lb ed="#Ba"/>rationem relationis ad causatum triplicem -
+</p>
+            <p xml:id="Almn78-a22096-d1e576">
+               <lb ed="#Ba"/>accipit intentionem cause. In quantum
+<lb ed="#Ba"/>enim producit esse totum, accipit 
+inten<lb ed="#Ba" break="no"/>lionem cause efficientis. In quantum 
+au<lb ed="#Ba" break="no"/>tem producit ad seipsum respiciens et
+<lb ed="#Ba"/>non ad aliud, sicut operatur omnis 
+in<lb ed="#Ba" break="no"/>tellectus sapientis, accipit intentionem
+<lb ed="#Ba"/>cause formalis exemplaris : propter quod
+<lb ed="#Ba"/>semper rationabile et convenientissimum
+<lb ed="#Ba"/>est opus suum. In quantum autem non
+<lb ed="#Ba"/>operatur nisi exstasi boni et nulla 
+indi<lb ed="#Ba" break="no"/>gentia, accipit intentionem cause 
+fina<lb ed="#Ba" break="no"/>lis. Et hoc est quod dicit Boetius in
+<lb ed="#Ba"/>IIII de Consolatione philosophiae:
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a22096-Qd1e608">Quem non externae pepulerunt fingere causa:
+<lb ed="#Ba"/>Materia fluitantis opus : verum insita summi
+<lb ed="#Ba"/>Forma boni livore carens, tu cuncta superno
+<lb ed="#Ba"/>Ducis ab exemplo</quote>.
+</p>
+            <p xml:id="Almn78-a22096-d1e618">
+               <lb ed="#Ba"/>Argumentum autem non _ procedit:
+<lb ed="#Ba"/>quia summa simplicitas non repugnat
+<lb ed="#Ba"/>multitudini relationum. Dicit enim 
+Avi<lb ed="#Ba" break="no"/>cenna, quod <quote xml:id="Almn78-a22096-Qd1e628"> quanto aliquid simplicius
+<lb ed="#Ba"/>est, co multiplicius est in relatione, quo
+<lb ed="#Ba"/>ad plura refertur. </quote> Et similiter summa
+<lb ed="#Ba"/>simplicitas non repugnat multitudini 
+at<lb ed="#Ba" break="no"/>tributorum:eo quod multitudo 
+attribu<lb ed="#Ba" break="no"/>torum non fundatur in multiplicitate rei,
+<lb ed="#Ba"/>sed in multiplicitate modi significandi.
+</p>
+            <p xml:id="Almn78-a22096-d1e645">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod hoc quod
+<lb ed="#Ba"/>dicit Aristoteles, verum est: et licet in
+<lb ed="#Ba"/>Deo non sit nisi ‘unum et idem, tamen
+<lb ed="#Ba"/>illud unum et idem diversis modis 
+signi<lb ed="#Ba" break="no"/>ficandi et referendi diversas habet 
+attribu<lb ed="#Ba" break="no"/>tiones. Et sic attribuitur ei quod efficiens
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>est et formalis et finis : et hoc in nullo
+<lb ed="#Ba"/>repugnat samme simplicitati.
+</p>
+            <p xml:id="Almn78-a22096-d1e668">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod indigentize
+<lb ed="#Ba"/>est respicere ad exemplar extra se, quod
+<lb ed="#Ba"/>non est ipse agens : sed _perfectionis
+<lb ed="#Ba"/>summe est respicere ad exemplar, quod
+<lb ed="#Ba"/>penitus indifferens est ab ipso agente.
+<lb ed="#Ba"/>Dicit enim Aristoteles in primo prime
+<lb ed="#Ba"/>philosophie quod agentes per intellectum
+<lb ed="#Ba"/>nescientes rationem operum suorum, non
+<lb ed="#Ba"/>agunt,sed faciunt, sicut comburit ignis Et
+<lb ed="#Ba"/>hance per omnia sententiam ponit 
+Augus<lb ed="#Ba" break="no"/>tinus in libro LXXXIIT Questionum,
+<lb ed="#Ba"/>dicens, quod <quote xml:id="Almn78-a22096-Qd1e696"> qui negat ideas esse in
+<lb ed="#Ba"/>mente divina ut formas exemplares et
+<lb ed="#Ba"/>rationes operum, dicit Deum 
+irrationa<lb ed="#Ba" break="no"/>biliter agere et facere omnia que facit 7. </quote>
+            </p>
+            <p xml:id="Almn78-a22096-d1e706">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod agere 
+pro<lb ed="#Ba" break="no"/>pter finem non habitum in seipso, qui
+<lb ed="#Ba"/>non est, nisi per opus acquiratur, 
+indi<lb ed="#Ba" break="no"/>gentie est: et sic non agit Deus. Agere
+<lb ed="#Ba"/>autem ut nihil agenti acquiratur operi
+<lb ed="#Ba"/>operato, largitatis et magnificentie 
+sum<lb ed="#Ba" break="no"/>mez est. Et hoc modo Deus agit.
+</p>
+            <p xml:id="Almn78-a22096-d1e724">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod ubi opus
+<lb ed="#Ba"/>operatum perfecta est imago operantis,
+<lb ed="#Ba"/>ibi verum est quod dicit objectio. Sed
+<lb ed="#Ba"/>sicut dicit Augustinus in libro XV de
+<lb ed="#Ba"/>Trinitate *, et Magister in primo 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinctione HII: <quote xml:id="Almn78-a22096-Qd1e739"> Omne quod de
+<lb ed="#Ba"/>creatis in Deum refertur, similitudo est
+<lb ed="#Ba"/>exigua, et non ex equo et perfecte 
+im<lb ed="#Ba" break="no"/>plens id cui simile esse dicitur. </quote> Et ideo
+<lb ed="#Ba"/>quod in creatis est in una re triplicis 
+es<lb ed="#Ba" break="no"/>sentia, in Deo est in una re unius 
+essen<lb ed="#Ba" break="no"/>tie sub triplici ratione ad opus et sub
+<lb ed="#Ba"/>triplici modo significandi.
+  
+<lb ed="#Ba"/>Ad aliud. dicendum, quod haec tria 
+<lb ed="#Ba"/>absque ordine prioris et posterioris sunt
+<lb ed="#Ba"/>in Deo: quia sunt una res et una 
+essen<lb ed="#Ba" break="no"/>tia. Et quod ordo est in istis, est 
+secun<lb ed="#Ba" break="no"/>dum quod sunt in creatis, que sicut ab
+<lb ed="#Ba"/>unitate et simplicitate creantis deficiunt
+<lb ed="#Ba"/>et cadunt in pluralitatem essentie et
+<pb ed="#Ba" n="554"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>compositionem, ita deficiunt ab 
+eterni<lb ed="#Ba" break="no"/>tate creantis et cadunt in prius et 
+poste<lb ed="#Ba" break="no"/>rius.
+</p>
+            <p xml:id="Almn78-a22096-d1e783">
+               <lb ed="#Ba"/>Ad id quod in contrarium adducitur,
+<lb ed="#Ba"/>dicendum. quod diversa est adaptatio
+<lb ed="#Ba"/>verborum Apostoli, sicut patuit ex supra
+<lb ed="#Ba"/>dictis, et ista adaptatio bona est inter
+<lb ed="#Ba"/>alias. Hx enim. non potest notare 
+cau<lb ed="#Ba" break="no"/>sam materialem : oportet ergo cum dicat
+<lb ed="#Ba"/>originem, et origo non sit nisi secundum
+<lb ed="#Ba"/>materiam vel formam, secundum quod
+<lb ed="#Ba"/>origo est aliquid originati, quod dicat
+<lb ed="#Ba"/>formam exemplarem, sicut etiam 
+Boe<lb ed="#Ba" break="no"/>tius dicit :
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a22096-Qd1e811">Tu cuncta superno
+<lb ed="#Ba"/>Ducis ab exemplo</quote>.
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Et sicut dicit Plato, quod mundus 
+sen<lb ed="#Ba" break="no"/>sibilis ab archetypo procedit sicut ex
+<lb ed="#Ba"/>quodam ethivagio sive sigillo. Per 
+au<lb ed="#Ba" break="no"/>tem cum dicat causam instrumentalem
+<lb ed="#Ba"/>que ad efficientem reducitur, 
+efficien<lb ed="#Ba" break="no"/>tem notat. Jn vero, quia continentiam
+<lb ed="#Ba"/>dicit, et finis est ultimum quod additur
+<lb ed="#Ba"/>et quod continet et conservat totum et
+<lb ed="#Ba"/>perficit, notat causam finalem. Unde
+<lb ed="#Ba"/>hec habitualiter in Deo accepta, faciunt
+<lb ed="#Ba"/>quod causa est ab eterno. Si autem in
+<lb ed="#Ba"/>actu ut ad opus relata accipiuntur, tunc
+<lb ed="#Ba"/>est causa ex tempore ratione causati, et
+<lb ed="#Ba"/>non ratione causantis.
+  
+<lb ed="#Ba"/>Ad ultimum concedendum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

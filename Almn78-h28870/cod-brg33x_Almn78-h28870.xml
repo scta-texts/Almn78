@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 84</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 84</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="131"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h28870"><!-- p2t14q84 -->
+            <head xml:id="Almn78-h28870-Hd1e106">Quaestio 84</head>
+            <head xml:id="Almn78-h28870-Hd1e109" type="question-title">
+    Utrum <name xml:id="Almn78-h28870-Nd1e111">Heva</name> in primo statu concepisset et peperisset incorrupta,
+    et virgo permansisset? et, Utrum cum dolore puerpera, vel sine
+    dolore
+  </head>
+            <p xml:id="Almn78-h28870-d1e115">
+               <pb ed="#Bc" n="131"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO LXXXIV.
+<lb ed="#Bc"/>Utrum <name xml:id="Almn78-h28870-Nd1e125">Heva</name> in primo statu concepisset et peperisset incorrupta,
+<lb ed="#Bc"/>et virgo permansisset? et, Utrum cum dolore puerpera, vel sine
+<lb ed="#Bc"/>dolore?
+</p>
+            <p xml:id="Almn78-h28870-d1e134">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, queritur de modo 
+propaga<lb ed="#Bc" break="no"/>tionis filiorum, quod Magister disputat
+<lb ed="#Bc"/>in libro II Sententiarum, distinct. XX, cap.
+<lb ed="#Bc"/>1: Post haec videndum est, qualiter primi
+<lb ed="#Bc"/>parentes, si non peccassent, filios 
+pro<lb ed="#Bc" break="no"/>creassent ?
+</p>
+            <p xml:id="Almn78-h28870-d1e152">
+               <lb ed="#Bc"/>Circa “quod querendum est qualiter
+<lb ed="#Bc"/>Heva concepisset, utrum virgo 
+per<lb ed="#Bc" break="no"/>manens, vel corrupta ?
+</p>
+            <p xml:id="Almn78-h28870-d1e162">
+               <lb ed="#Bc"/>Kt, Utrum cum gravitate fuisset 
+gra<lb ed="#Bc" break="no"/>vida, vel sine gravitate ?
+</p>
+            <p xml:id="Almn78-h28870-d1e169">
+               <lb ed="#Bc"/>Et, Utrum cum dolore puerpera, vel
+<lb ed="#Bc"/>sine dolore ?
+</p>
+            <p xml:id="Almn78-h28870-d1e176">
+               <lb ed="#Bc"/>1. Ad primum inducit Magister 
+Augu<lb ed="#Bc" break="no"/>slinum super Genesim ad litteram sic 
+di<lb ed="#Bc" break="no"/>centem: <quote xml:id="Almn78-h28870-Qd1e184"> Si primi homines non 
+peccas<lb ed="#Bc" break="no"/>sent, sine omni peccato et macula in
+<lb ed="#Bc"/>paradiso carnali copula convenissent, et
+<lb ed="#Bc"/>esset ibi thorus immaculatus, et 
+com<lb ed="#Bc" break="no"/>mixtio sine concupiscentia: atque 
+geni<lb ed="#Bc" break="no"/>talibus membris sicut ceteris imperarent,
+<lb ed="#Bc"/>ut ibi nullum motum sentirent illicitum :
+<lb ed="#Bc"/>et sicut alia membra aliis admovemus,
+<lb ed="#Bc"/>ut manum ori sine libidinis ardore, ita
+<lb ed="#Bc"/>genitalibus membris uterentur sine 
+pru<lb ed="#Bc" break="no"/>ritu carnis. Hec enim lethalis egritudo
+<lb ed="#Bc"/>membris humanis ex peccato inhesit.
+<lb ed="#Bc"/>Genuissent itaque filios in paradiso per
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>coitum immaculatum et sine 
+corru<lb ed="#Bc" break="no"/>ptione. </quote>
+            </p>
+            <p xml:id="Almn78-h28870-d1e220">
+               <lb ed="#Bc"/>2. Adhuc, Augustinus, ibidem : et hoc
+<lb ed="#Bc"/>etiam inducit Magister ibidem: <quote xml:id="Almn78-h28870-Qd1e226"> Cur
+<lb ed="#Bc"/>non credamus primos homines ante 
+pec<lb ed="#Bc" break="no"/>catum genitalibus membris imperare
+<lb ed="#Bc"/>potuisse, sicut ceteris in quolibet opere
+<lb ed="#Bc"/>sine voluptatis pruritu ulimur ? 
+Incredi<lb ed="#Bc" break="no"/>bile enim non est Deus talia fecisse illa
+<lb ed="#Bc"/>corpora, ut si non peccassent, illis 
+mem<lb ed="#Bc" break="no"/>bris, sicut pedibus imperarent, nec cum
+<lb ed="#Bc"/>ardore seminarent, nec cum dolore 
+pa<lb ed="#Bc" break="no"/>rerent *. </quote>
+            </p>
+            <p xml:id="Almn78-h28870-d1e249">
+               <lb ed="#Bc"/>3. Adhuc, Augustinus in libro XIV
+<lb ed="#Bc"/>de Civitate Dei: <quote xml:id="Almn78-h28870-Qd1e255"> Ita tune credendum
+<lb ed="#Bc"/>est potuisse utero conjugis salva 
+integri<lb ed="#Bc" break="no"/>tate feeminei genitalis virile semen 
+im<lb ed="#Bc" break="no"/>mitti : sicut nunc potest eadem integritate
+<lb ed="#Bc"/>salva ex utero virginis fluxus menstrui
+<lb ed="#Bc"/>cruoris emitti. Erdem quippe via potest
+<lb ed="#Bc"/>illud injici, qua hoc potest ejici +. </quote>
+            </p>
+            <p xml:id="Almn78-h28870-d1e272">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Incompossibilia sunt, mulierem 
+cog<lb ed="#Bc" break="no"/>nosci a viro, et manere in carnis inte~
+<lb ed="#Bc"/>gritate sive virginem : et in quolibet statu
+<lb ed="#Bc"/>erant incompossibilia : ergo in primo
+<lb ed="#Bc"/>statu erant incompossibilia. Si ergo per
+<lb ed="#Bc"/>coitum cognoscebatur Heva, impossibile
+<lb ed="#Bc"/>erat, quod remancret integra virgo.
+</p>
+            <p xml:id="Almn78-h28870-d1e293">
+               <pb ed="#Bc" n="132"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>2. Adhuc, Esse masculum et feminam
+<lb ed="#Bc"/>in carne una, et non esse in carne una,
+<lb ed="#Bc"/>incompossibilia sunt: quia aliter 
+contra<lb ed="#Bc" break="no"/>dictoria verificarentur de eodem. Sed si
+<lb ed="#Bc"/>Adam cognovit Hevam, erant duo in
+<lb ed="#Bc"/>carne una: si autem in integrilate 
+re<lb ed="#Bc" break="no"/>mansit, non erant duo in carne una: et
+<lb ed="#Bc"/>sic incompossibilia erunt possibilia : quod
+<lb ed="#Bc"/>falsum est. Cognosci ergo non poterat,
+<lb ed="#Bc"/>et manere virgo et integra.
+</p>
+            <p xml:id="Almn78-h28870-d1e322">
+               <lb ed="#Bc"/>3. Adhuc, De definitione sexus 
+mascu<lb ed="#Bc" break="no"/>lini est, quod generet in alio. Dicit enim
+<lb ed="#Bc"/>Aristoteles, quod masculus est qui de
+<lb ed="#Bc"/>suo generat in alio : femina vero que
+<lb ed="#Bc"/>de alieno generat in seipsa. Videtur ergo,
+<lb ed="#Bc"/>quod in nullo statu conveniebat 
+fcemi<lb ed="#Bc" break="no"/>nam concipere de semine viri, et 
+perma<lb ed="#Bc" break="no"/>nere in virginitate.
+</p>
+            <p xml:id="Almn78-h28870-d1e342">
+               <lb ed="#Bc"/>4. Adhuc, Privilegium singulare nullo
+<lb ed="#Bc"/>jure conceditur alteri. Est autem beate
+<lb ed="#Bc"/>Virginis Marie singulare privilegium,
+<lb ed="#Bc"/>quod virgo concepit, sine gravitate, sine
+<lb ed="#Bc"/>dolore puerpera. Ergo justitia divina non
+<lb ed="#Bc"/>debuit hoc Heve concedere.
+</p>
+            <p xml:id="Almn78-h28870-d1e358">
+               <lb ed="#Bc"/>Ulterius queritur, Si fuisset in primo
+<lb ed="#Bc"/>stalu sine gravitate gravida ?
+</p>
+            <p xml:id="Almn78-h28870-d1e365">
+               <lb ed="#Bc"/>Et videtur, quod non : quia corpus
+<lb ed="#Bc"/>pueri in p.imo statu grave fuisset et
+<lb ed="#Bc"/>terrenum : onus autem grave portare
+<lb ed="#Bc"/>sine gravitate esset impossibile : ergo
+<lb ed="#Bc"/>sine gravitate gravida non fuisset.
+</p>
+            <p xml:id="Almn78-h28870-d1e378">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Gravitas poena est, que non debuit
+<lb ed="#Bc"/>sentirl nisi propter peccatum : peccatum
+<lb ed="#Bc"/>autem nondum factum erat: ergo 
+gravi<lb ed="#Bc" break="no"/>tas in penam sentiri non debebat.
+</p>
+            <p xml:id="Almn78-h28870-d1e392">
+               <lb ed="#Bc"/>2. Adhuc, Expresse dicit Augustinus
+<lb ed="#Bc"/>in libro XII de Civitate Dei, quod <quote xml:id="Almn78-h28870-Qd1e398"> sine
+<lb ed="#Bc"/>gravitate gravida fuisset. </quote>
+            </p>
+            <p xml:id="Almn78-h28870-d1e404">
+               <lb ed="#Bc"/>3. Adhuc, Avicenna dicit, quod grave
+<lb ed="#Bc"/>impositum corpori hominis, facit 
+pressi<lb ed="#Bc" break="no"/>vum dolorem: dolorem in primo statu
+<lb ed="#Bc"/>Heva sentire non potuit; ergo nec 
+gra<lb ed="#Bc" break="no"/>vitatem.
+</p>
+            <p xml:id="Almn78-h28870-d1e417">
+               <lb ed="#Bc"/>Unreaius queritur, Utrum sine dolore
+<lb ed="#Bc"/>puerpera fuisset ?
+</p>
+            <p xml:id="Almn78-h28870-d1e424">
+               <lb ed="#Bc"/>Et videtur, quod non. Dolor enim, ut
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>dicit Aristoteles, est sensus divisionis
+<lb ed="#Bc"/>continui: in partu autem oportuit dividi
+<lb ed="#Bc"/>continuum in apertione viarum: et hoc
+<lb ed="#Bc"/>est, ut dicit Avicenna, dolor lacerativus :
+<lb ed="#Bc"/>ergo videtur, quod in partu Heva 
+sen<lb ed="#Bc" break="no"/>sisset dolorem lacerativum, et ita non
+<lb ed="#Bc"/>fuisset sine dolore puerpera.
+</p>
+            <p xml:id="Almn78-h28870-d1e446">
+               <lb ed="#Bc"/>Solutio. Ad primo quesitum satis , 8d
+<lb ed="#Bc"/>bene responderunt antiqui, scilicet 
+Pre<lb ed="#Bc" break="no"/>positivus et <name xml:id="Almn78-h28870-Nd1e454">Gulielmus Altisiodorensis</name> :
+<lb ed="#Bc"/>distinxerunt enim triplicem 
+corruptio<lb ed="#Bc" break="no"/>nem, scilicet continuitatis, foeditatis, et
+<lb ed="#Bc"/>impuritatis. Continuitatis que est in 
+di<lb ed="#Bc" break="no"/>visione corporis. Foeditatis que est in
+<lb ed="#Bc"/>pruritu concupiscentie et libidinis, que
+<lb ed="#Bc"/>foedat et mentem et corpus, in que ratio
+<lb ed="#Bc"/>descendit sub delectatione carnis. 
+Prop<lb ed="#Bc" break="no"/>ter quod dicit Gregorius, quod Spiritus
+<lb ed="#Bc"/>sanctus non teligit corda Patriarcharum
+<lb ed="#Bc"/>dum essent in opere conjugali. 
+Impuri<lb ed="#Bc" break="no"/>tatis, que est in susceptione nature
+<lb ed="#Bc"/>aliene, sicut aurum dicitur impurum
+<lb ed="#Bc"/>quando immixtum sibi fuerit aliquid
+<lb ed="#Bc"/>alienum. Dicunt ergo, quod si Heva 
+con<lb ed="#Bc" break="no"/>venisset cum Adam per coitum, non 
+in<lb ed="#Bc" break="no"/>currisset primas duas corruptiones: quia
+<lb ed="#Bc"/>sic usifuissent primi parentes genitalibus
+<lb ed="#Bc"/>membris ad ordinem rationis. Et hoc
+<lb ed="#Bc"/>fuisset hoc modo, quod semen 
+resolu<lb ed="#Bc" break="no"/>tum a masculo adhibitum genitali 
+fo<lb ed="#Bc" break="no"/>mine, statim virtute matricis tractum
+<lb ed="#Bc"/>fuisset in locum conceptionis : et ibi 
+uni<lb ed="#Bc" break="no"/>tum sanguini feemine sicut coagulum
+<lb ed="#Bc"/>lacti, et vaporabiliter diffusum in 
+sangui<lb ed="#Bc" break="no"/>nem femine, et sic perfecisset concep~
+<lb ed="#Bc"/>tum, cum semen masculi undique 
+com<lb ed="#Bc" break="no"/>prehendisset sanguinem femine, sicut
+<lb ed="#Bc"/>spiritus formativus undique 
+comprehen<lb ed="#Bc" break="no"/>dit id quod format. Sicut enim dicit 
+Ari<lb ed="#Bc" break="no"/>stoteles, virtutes distinctorum sexuum
+<lb ed="#Bc"/>maris et foeemine uniuniur in conceptu
+<lb ed="#Bc"/>sicut uniuntur virtutes galli et galline in
+<lb ed="#Bc"/>ovo. Sed incurrisset omni modo 
+corrup<lb ed="#Bc" break="no"/>tionem impuritatis: quia oportuit, quod
+<lb ed="#Bc"/>conciperet ex semine alieno sibi 
+per<lb ed="#Bc" break="no"/>mixto:et sic pura non remansisset. Et
+<lb ed="#Bc"/>hec distinctio satis bona est.
+</p>
+            <p xml:id="Almn78-h28870-d1e538">
+               <lb ed="#Bc"/>Ad primum ergo dicendum, quod Au
+<pb ed="#Bc" n="133"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>gustinus intendit hoc quod dictum est :
+<lb ed="#Bc"/>et ideo corruptionem primo et secundo
+<lb ed="#Bc"/>modo dictam non incurrisset: tertio 
+au<lb ed="#Bc" break="no"/>tem modo non est simpliciter corruptio,
+<lb ed="#Bc"/>sed commixtio naturalis duorum sexuum
+<lb ed="#Bc"/>in carne, sicut et prophetando dixit, 
+Ge<lb ed="#Bc" break="no"/>nes. u, 24: Quamobrem relinguet homo
+<lb ed="#Bc"/>patrem suum et matrem, et adherebit
+<lb ed="#Bc"/>uxori sue: et erunt duo in carne una.
+</p>
+            <p xml:id="Almn78-h28870-d1e568">
+               <lb ed="#Bc"/>Ad aliud duo dicendum eodem modo :
+<lb ed="#Bc"/>quia supra idem fundantur.
+</p>
+            <p xml:id="Almn78-h28870-d1e575">
+               <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod secundum corruptionem 
+impurita<lb ed="#Bc" break="no"/>tis incompossibilia sunt: quia in omni
+<lb ed="#Bc"/>conceptu necesse est aliud esse formans,
+<lb ed="#Bc"/>et aliud formatum. Sed quod esset 
+cog<lb ed="#Bc" break="no"/>nita a viro, et remaneret integra a 
+divi<lb ed="#Bc" break="no"/>sione continuitatis corporis, et esset 
+im<lb ed="#Bc" break="no"/>munis a corruptione feeditatis, ista bene
+<lb ed="#Bc"/>possibilia sunt per modum qui dictus
+<lb ed="#Bc"/>est.
+</p>
+            <p xml:id="Almn78-h28870-d1e599">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod illa ratio
+<lb ed="#Bc"/>non probat, nisi quod non potuit esse sine
+<lb ed="#Bc"/>corruptione tertio modo dicta: et hoc
+<lb ed="#Bc"/>verum est, sicut paulo ante patuit.
+<lb ed="#Bc"/>Oportuit enim, quod semen susciperet
+<lb ed="#Bc"/>quod suo sanguini uniretur et 
+permisce<lb ed="#Bc" break="no"/>retur eo modo qui dictus est.
+</p>
+            <p xml:id="Almn78-h28870-d1e617">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod recte 
+eo<lb ed="#Bc" break="no"/>dem modo solvendum est: quia idem
+<lb ed="#Bc"/>est. Diversitas enim sexuum unitur in
+<lb ed="#Bc"/>semine concepto, ut dictum est: sed hoc
+<lb ed="#Bc"/>fieri potuit sine divisione et corruptione
+<lb ed="#Bc"/>foeditatis per modum qui dictus est.
+</p>
+            <p xml:id="Almn78-h28870-d1e633">
+               <lb ed="#Bc"/>Ad aliud dicendum quod privilegium
+<lb ed="#Bc"/>singulare beate Virginis est in hoc, quod
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>manens in omni puritate mentis et 
+corpo<lb ed="#Bc" break="no"/>ris, non ex semine alieno, sed de Spiritu
+<lb ed="#Bc"/>sancto concepit : Heva autem de semine
+<lb ed="#Bc"/>viri.
+</p>
+            <p xml:id="Almn78-h28870-d1e651">
+               <lb ed="#Bc"/>Ad id quod queritur ulterius, dicen~
+<lb ed="#Bc"/>dum quod est gravilas oneris tantum, et
+<lb ed="#Bc"/>est gravitas inducens peenam. Secundum
+<lb ed="#Bc"/>primum modum non fuisset gravida sine
+<lb ed="#Bc"/>gravitate, sed secundum modum 
+secun<lb ed="#Bc" break="no"/>dum.
+</p>
+            <p xml:id="Almn78-h28870-d1e668">
+               <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum,
+<lb ed="#Bc"/>quod sicut ab aliis penis corpora 
+primo<lb ed="#Bc" break="no"/>rum parentum gratia innocentiae et 
+vir<lb ed="#Bc" break="no"/>tute ligni vite preservabantur, ita 
+pre<lb ed="#Bc" break="no"/>servabantur a dolorepressivo, etiamsi 
+la<lb ed="#Bc" break="no"/>pidum pondera superius projecta fuissent.
+</p>
+            <p xml:id="Almn78-h28870-d1e684">
+               <lb ed="#Bc"/>Ad aliud patet solutio per idem.
+</p>
+            <p xml:id="Almn78-h28870-d1e689">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod grave in
+<lb ed="#Bc"/>corpore ad peenalitatem deputato facit
+<lb ed="#Bc"/>pressivum dolorem, sed in corpore quod
+<lb ed="#Bc"/>a dolore preservat gratia innocentie et
+<lb ed="#Bc"/>virtus ligni vite, dolorem facere non
+<lb ed="#Bc"/>potest.
+</p>
+            <p xml:id="Almn78-h28870-d1e705">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Bc"/>sine dolore fuisset puerpera ?
+</p>
+            <p xml:id="Almn78-h28870-d1e712">
+               <lb ed="#Bc"/>Dicendum quod sic: quia hoc 
+Augu<lb ed="#Bc" break="no"/>stinus aperte dicit, cui contradicere 
+im<lb ed="#Bc" break="no"/>pium est in his que tangunt fidem et
+<lb ed="#Bc"/>mores.
+</p>
+            <p xml:id="Almn78-h28870-d1e723">
+               <lb ed="#Bc"/>Ad id quod in eodem objicitur de 
+com<lb ed="#Bc" break="no"/>paratione viarum, dicendum quod in illo
+<lb ed="#Bc"/>statu aperte fuissent sine dolore et sine
+<lb ed="#Bc"/>laceratione, per solam extensionem et
+<lb ed="#Bc"/>laxationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

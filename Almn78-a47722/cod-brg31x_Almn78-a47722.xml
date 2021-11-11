@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 68</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 68</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="694"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a47722"><!-- p1t17q68 -->
+            <head xml:id="Almn78-a47722-Hd1e106">Quaestio 68</head>
+            <head xml:id="Almn78-a47722-Hd1e109" type="question-title">De fato</head>
+            <p xml:id="Almn78-a47722-d1e112">
+               <lb ed="#Ba"/>
+               <lb ed="#Ba"/>QUESTIO LXVIIL.
+<lb ed="#Ba"/>De fato.
+</p>
+            <p xml:id="Almn78-a47722-d1e121">
+               <lb ed="#Ba"/>Deinde queritur de fato, quod ponunt
+<lb ed="#Ba"/>qui providentiam negant.
+</p>
+            <p xml:id="Almn78-a47722-d1e128">
+               <lb ed="#Ba"/>Et queruntur quatuor, scilicet primo
+<lb ed="#Ba"/>an fatum sit?
+<lb ed="#Ba"/>Secundo, Quid sit?
+<lb ed="#Ba"/>Tertio, Cujus sit?
+<lb ed="#Ba"/>Quarto, In quo differt a fortuna et 
+eu<lb ed="#Ba" break="no"/>praxia? De hoc enim querit Gregorius
+<lb ed="#Ba"/>Nyssenus in ultima parte libri sui quem
+<lb ed="#Ba"/>fecit de homine.
+</p>
+            <div xml:id="Almn78-a47722-Dd1e149">
+               <head xml:id="Almn78-a47722-Hd1e151">Membrum 1</head>
+               <head xml:id="Almn78-a47722-Hd1e154" type="question-title">
+  Utrum fatum sit
+</head>
+               <p xml:id="Almn78-a47722-d1e157">
+                  <lb ed="#Ba"/>MEMBRUM I,
+<lb ed="#Ba"/>Utrum fatum sit ?
+</p>
+               <p xml:id="Almn78-a47722-d1e164">
+                  <lb ed="#Ba"/>Primo queritur, An sit fatum ?
+</p>
+               <p xml:id="Almn78-a47722-d1e169">
+                  <lb ed="#Ba"/>Et. videtur, quod non.
+<lb ed="#Ba"/>1. Gregorius in homilia de Epiphania :
+  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a47722-Qd1e177"> Absit hoc a fidelium mentibus, ut
+<lb ed="#Ba"/>fatum esse aliquid dicant. </quote> Ergo nihil
+<lb ed="#Ba"/>fatum esse credendum est.
+</p>
+               <p xml:id="Almn78-a47722-d1e186">
+                  <lb ed="#Ba"/>2. Adhuc, Fatalia divinationes que-
+  <lb ed="#Ba"/>dam sunt. Dicitur autem, Numer. xxi,
+<lb ed="#Ba"/>23: <quote xml:id="Almn78-a47722-Qd1e194">Non est augurium in Jacob, nec
+<lb ed="#Ba"/>divinatio in Israel</quote>. Ergo fatum in 
+Tc<lb ed="#Ba" break="no"/>clesia non debet esse. -
+</p>
+               <p xml:id="Almn78-a47722-d1e202">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>3. Adhuc, Providentia sive 
+prescien<lb ed="#Ba" break="no"/>tia precognitio est. rerum futurarum.
+<lb ed="#Ba"/>Talis autem precognitio nihil: ponit in
+<lb ed="#Ba"/>rebus, ut ostensum est in questione de
+<lb ed="#Ba"/>predestinatione. Ergo videtur, quod 
+nul<lb ed="#Ba" break="no"/>lam dispositionem ponat que rebus:
+ad<lb ed="#Ba" break="no"/>hereat. Sed ponentes fatum, dicunt esse
+<lb ed="#Ba"/>dispositionem inherentem rebus. Cum
+<lb ed="#Ba"/>ergo non sit dispositio inherens .rebus,
+<lb ed="#Ba"/>nihil est : et sic fatum nihil est.
+</p>
+               <p xml:id="Almn78-a47722-d1e228">
+                  <lb ed="#Ba"/>4, Adhuc, Si fatum aliquid est : aut
+<lb ed="#Ba"/>est creatum, aut increatum. Si creatum :
+<lb ed="#Ba"/>Contra : <ref xml:id="Almn78-a47722-Rd1e236">Augustinus in libro V de 
+Civi<lb ed="#Ba" break="no"/>fate Dei</ref> : <quote xml:id="Almn78-a47722-Qd1e241"> Divina providentia regna
+<lb ed="#Ba"/>constituuntur humana. Que si 
+propter<lb ed="#Ba" break="no"/>ea quisquam fato tribuit, quia ipsam
+<lb ed="#Ba"/>Dei voluntatem vel potestatem fati 
+no<lb ed="#Ba" break="no"/>mine appellat, sententiam teneat, 
+lin<lb ed="#Ba" break="no"/>guam corrigat,</quote> Ergo videtur, quod
+<lb ed="#Ba"/>fatum non sit nisi voluntas Dei : et cum
+<lb ed="#Ba"/>illa sit increata, fatum crit increatum.
+</p>
+               <p xml:id="Almn78-a47722-d1e260">
+                  <lb ed="#Ba"/>5. Adhuc <ref xml:id="Almn78-a47722-Rd1e264">Augustinus in eodem libro,
+<lb ed="#Ba"/>parum infra</ref>; <quote xml:id="Almn78-a47722-Qd1e269"> Qui vero non astrorum
+<lb ed="#Ba"/>constilutionem, sicuti est cum quodque
+<lb ed="#Ba"/>concipitur, vel nascitur, vel inchoatur,
+<lb ed="#Ba"/>sed omnium connexionem seriemque
+<lb ed="#Ba"/>causarum, qua fit omne quod fit,’ fati
+<lb ed="#Ba"/>nomine appellant.: non multum cum eis
+<lb ed="#Ba"/>de verbi controversia laborandum atque
+<lb ed="#Ba"/>certandum est : quando quidem ipsum
+<pb ed="#Ba" n="695"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>causarum ordinem et quamdam 
+conne<lb ed="#Ba" break="no"/>xionem Dei summi tribuunt voluntati et
+<lb ed="#Ba"/>potestati, qui optime et veracissime 
+cre<lb ed="#Ba" break="no"/>ditur et cuncta scire antequam fiant, et
+<lb ed="#Ba"/>nihil inordinatum relinquere. </quote> Ex hoc
+<lb ed="#Ba"/>accipitur, quod fatum non est nisi 
+volun<lb ed="#Ba" break="no"/>las Dei : et ita est increatum.
+</p>
+               <p xml:id="Almn78-a47722-d1e307">
+                  <lb ed="#Ba"/>In contrarium hujus est quod dicit
+<lb ed="#Ba"/>
+                  <ref xml:id="Almn78-a47722-Rd1e313">Boetius in libro IV de Consolatione</ref> 
+phi<lb ed="#Ba" break="no"/>losophie, quod <quote xml:id="Almn78-a47722-Qd1e318"> fatum est inherens 
+re<lb ed="#Ba" break="no"/>bus mobilibus dispositio, per quam 
+pro<lb ed="#Ba" break="no"/>videntia queque suis nectit 
+ordini<lb ed="#Ba" break="no"/>bus. </quote> Sed talis dispositio aliquid 
+crea<lb ed="#Ba" break="no"/>tum est. Ergo fatum aliquid creatum
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a47722-d1e333">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod fatum est,
+<lb ed="#Ba"/>sicut dicit Gregorius Nyssenus in libro
+<lb ed="#Ba"/>quem fecit de homine, in cap. de 
+electio<lb ed="#Ba" break="no"/>ne, quod fatum Grece dicitur cipappévy.
+<lb ed="#Ba"/>Greece enim <foreign>sipzouévn</foreign>, Latine sonat ordo.
+<lb ed="#Ba"/>Et hoc idem dicit Hermes Trismegistus
+<lb ed="#Ba"/>in suo libro de Causis. Dupliciter autem
+<lb ed="#Ba"/>ponitur fatum. Uno modo Catholice, 
+se<lb ed="#Ba" break="no"/>cundum quod est forma et ratio omnium
+<lb ed="#Ba"/>per naturam, vel voluntatem, vel 
+propo<lb ed="#Ba" break="no"/>situm fientium, inchoans a principe 
+cau<lb ed="#Ba" break="no"/>sarum que est providentia, et ab ipsa
+<lb ed="#Ba"/>procedens in secunda, tertia, et quarta,
+<lb ed="#Ba"/>secundum ordinem causarum,
+<lb ed="#Ba"/>intelligentias que motores sunt orbium,
+<lb ed="#Ba"/>et in orbes sive ceelos, et ex ccelis in
+<lb ed="#Ba"/>motus ceelorum, et ex motibus ccelorum
+<lb ed="#Ba"/>in motus elementorum, et ex motibus
+<lb ed="#Ba"/>elementorum in actus et motus 
+elemen<lb ed="#Ba" break="no"/>tatorum sive complexionatorum sive
+<lb ed="#Ba"/>quocumque modo ad formam mixti 
+de<lb ed="#Ba" break="no"/>ductorum. Et in proposito  similiter.
+<lb ed="#Ba"/>Omnium enim que in proposito sunt,
+<lb ed="#Ba"/>vel fieri possunt, sive ab Angelo, sive ab
+<lb ed="#Ba"/>homine, prima ratio et forma 
+exempla<lb ed="#Ba" break="no"/>tis in providentia divina est : et ab illa
+<lb ed="#Ba"/>sicut a fonte et principe quasi per 
+in<lb ed="#Ba" break="no"/>fluentiam procedit in alia si sunt bona,
+<lb ed="#Ba"/>vel ordinanda per ipsum si mala sunt.
+<lb ed="#Ba"/>Unde totus’ ille ordo causarum ex 
+pro<lb ed="#Ba" break="no"/>videntia inchoans, que exemplariter om-
+</p>
+               <p xml:id="Almn78-a47722-d1e407">
+                  <lb ed="#Ba"/>nia continet et causaliter, Grece 
+voca<lb ed="#Ba" break="no"/>tur eluaputva. Et quando accipitur 
+dispo<lb ed="#Ba" break="no"/>sitio exemplata a providentia influxa et
+<lb ed="#Ba"/>impressa rebus crealis secundum totum
+<lb ed="#Ba"/>ordinem causarum naturalium et 
+volun<lb ed="#Ba" break="no"/>tariarum rebus inherens, et quasi im=
+<lb ed="#Ba"/>pressa et incorporata rebus creatis, tunc
+<lb ed="#Ba"/>vocatur fatum. Unde providentia et 
+fa<lb ed="#Ba" break="no"/>tum differunt ut exemplar et 
+exempla<lb ed="#Ba" break="no"/>tum, et sicut causa influens, et forma 
+in<lb ed="#Ba" break="no"/>fluxa. Propter quod etiam Hermes 
+Tris<lb ed="#Ba" break="no"/>megistus et Plato mundum ab hoc
+<lb ed="#Ba"/>exemplari egressum describunt, quasi
+<lb ed="#Ba"/>secundum Deum a Deo deorum 
+forma<lb ed="#Ba" break="no"/>tum. Et hoc modo ponere fatum nihil
+<lb ed="#Ba"/>est inconveniens. Sic enim a providentia
+<lb ed="#Ba"/>inchoat, et in aliis non est nisi 
+disposi<lb ed="#Ba" break="no"/>tio causata et impressa.
+</p>
+               <p xml:id="Almn78-a47722-d1e449">
+                  <lb ed="#Ba"/>Alio modo determinabant de fatd
+<lb ed="#Ba"/>AMgyptii et Chaldei, qui ordinem 
+cau<lb ed="#Ba" break="no"/>sarum hunc mundum regentium, stellis
+<lb ed="#Ba"/>attribuebant : et dicebant, quod in 
+nati<lb ed="#Ba" break="no"/>vitate cujuslibet, dispositio et qualitas
+<lb ed="#Ba"/>nati et regimen consistit in duodecim
+<lb ed="#Ba"/>circulis et stellis positis in eis : et hune
+<lb ed="#Ba"/>ordinem et dispositionem relictam in
+<lb ed="#Ba"/>nalis, que dispositio qualitas est relicta
+<lb ed="#Ba"/>ex motu et situ stellarum et radiatione et
+<lb ed="#Ba"/>conjunctione et preventione, que 
+ne<lb ed="#Ba" break="no"/>cessitatem rebus imponit tam in 
+natura<lb ed="#Ba" break="no"/>libus quam in voluntariis, fatum 
+voca<lb ed="#Ba" break="no"/>verunt. Videbant enim, quod in 
+omni<lb ed="#Ba" break="no"/>bus ubi secundum ordinem plura 
+mo<lb ed="#Ba" break="no"/>vent ad idem, secundum movet in forma
+<lb ed="#Ba"/>primi, sicut patet in generatione et 
+dige<lb ed="#Ba" break="no"/>stione hominis. Calor enim digestivus
+<lb ed="#Ba"/>per hoc quod congregativus est 
+homo<lb ed="#Ba" break="no"/>geniorum sibi, et disgregativus 
+hetero<lb ed="#Ba" break="no"/>geniorum, ab Aristotele in II de Animu
+<lb ed="#Ba"/>loquente contra Empedoclem ‘probatur
+<lb ed="#Ba"/>esse calor ignis : tamen in virtute ignis
+<lb ed="#Ba"/>non movetur nisi congregando et segré
+<lb ed="#Ba" break="no"/>gando : sed non in deducendo digesturn
+<lb ed="#Ba"/>ad formam vivi: virtutem enim qua’ 
+de<lb ed="#Ba" break="no"/>ducit ad formam vivi, hoc est, carnis
+<lb ed="#Ba"/>potentiam vite habentis, non habet nisi
+<lb ed="#Ba"/>ab anima nutritiva, cujus est instrumen-
+<pb ed="#Ba" n="696"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tum, sicut et dolabra lignum non movet
+<lb ed="#Ba"/>ad formam domus, nisi ab arte que est
+<lb ed="#Ba"/>in mente artificis. Sic dicebat, quod
+<lb ed="#Ba"/>qualitates elementales que adherent 
+ma<lb ed="#Ba" break="no"/>terie in. generatione generatorum, et’
+<lb ed="#Ba"/>voluntates et electiones que sunt in 
+ge<lb ed="#Ba" break="no"/>neratis, non movent nisi in forma et
+<lb ed="#Ba"/>virtute constellationum, que domus 
+na<lb ed="#Ba" break="no"/>tivitatum vocantur ab astrologis. Et quia
+<lb ed="#Ba"/>virtus addita est nativitati, propter hoc
+<lb ed="#Ba"/>dicebant, quod dictum fatum necessi-
+‘tatem imponit et voluntariis et 
+naturali<lb ed="#Ba" break="no"/>bus..
+</p>
+               <p xml:id="Almn78-a47722-d1e545">
+                  <lb ed="#Ba"/>Contra quod disputat beatus 
+Augustt<lb ed="#Ba" break="no"/>nus in libro quinto de Civitate Dei, et
+<lb ed="#Ba"/>Gregorius Nyssenus in libro de homine,
+<lb ed="#Ba"/>cap. de electione, et de his que sunt in
+<lb ed="#Ba"/>nobis. Hoc enim modo ponere fatum, est
+<lb ed="#Ba"/>dicere omnia evenire ex necessitate, et
+<lb ed="#Ba"/>sic inutiles esse leges et consilia et 
+deli<lb ed="#Ba" break="no"/>berationes, et injustas esse poenas 
+dam<lb ed="#Ba" break="no"/>nandorum, et injusta premia bonorum,
+<lb ed="#Ba"/>eo quod non voluntarie sed coacte 
+fece<lb ed="#Ba" break="no"/>runt quidquid fecerunt : et inutilia esse
+<lb ed="#Ba"/>Studia ad virtutem vel scientiam, sicut
+<lb ed="#Ba"/>poeta dicit de Paride :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a47722-Qd1e577">Te tua fata trahunt, ne cepta relinquere possis</quote>.
+</p>
+               <p xml:id="Almn78-a47722-d1e581">
+                  <lb ed="#Ba"/>Unde sic dicere fatum, est hereticum.
+<lb ed="#Ba"/>Talis enim stellarum qualitas trahere
+<lb ed="#Ba"/>potest corpora, et mutare animas etiam
+<lb ed="#Ba"/>plantarum et brutorum, sed animam et
+<lb ed="#Ba"/>voluntatem hominis que ad imaginem
+<lb ed="#Ba"/>Dei in libertate sui constituta est, et 
+do<lb ed="#Ba" break="no"/>mina est suorum actuum et suarum ele-
+  <lb ed="#Ba"/>ctionum, nec mutare nec trahere potest
+  <lb ed="#Ba"/>coactiva coactione : licet forte eatenus
+<lb ed="#Ba"/>qua anima inclinatur ad corpus secundum
+  <lb ed="#Ba"/>potentias que affiguntur organis (sicut
+  <lb ed="#Ba"/>sunt potentia anime sensibilis, et ani-
+  <lb ed="#Ba"/>me vegetabilis) anima humana inclinati-
+  <lb ed="#Ba"/>ve, non coactive, a tali qualitate trahi
+  <lb ed="#Ba"/>possit. Et hoc est quod dicit Augustinus
+<lb ed="#Ba"/>in quinto libro de Civitate Dei, sic :
+  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a47722-Qd1e620"> Cum igitur non usquequaque absurde
+<lb ed="#Ba"/>dici possit, ad solas corporum 
+differen<lb ed="#Ba" break="no"/>tias afflatus quosdam valere sidereos,
+<lb ed="#Ba"/>sicut in solaribus accessibus et decessibus
+<lb ed="#Ba"/>videmus etiam ipsius anni tempora 
+va<lb ed="#Ba" break="no"/>riari, et lunaribus incrementis atque 
+de<lb ed="#Ba" break="no"/>crementis augeri et minui quedam 
+ge<lb ed="#Ba" break="no"/>nera rerum: sicut echinos, et conchas, et
+<lb ed="#Ba"/>mirabiles astus Oceani: non autem et
+<lb ed="#Ba"/>animi voluntates positionibus siderum
+<lb ed="#Ba"/>subdi:. </quote> Hoc igitur modo dicere fatum
+<lb ed="#Ba"/>hereticum est. Primo autem modo.
+di<lb ed="#Ba" break="no"/>cere fatum non est hereticum. Unde
+<lb ed="#Ba"/>Augustinus in libro V de Civitate Dei :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a47722-Qd1e652"> Qui vero non astrorum constitutionem,
+<lb ed="#Ba"/>sicuti est cum quidque concipitur, vel
+<lb ed="#Ba"/>nascitur, vel inchoatur, sed omnium
+<lb ed="#Ba"/>connexionem seriemque causarum, qua
+<lb ed="#Ba"/>fit omne quod fit, faéi nomine appellant:
+<lb ed="#Ba"/>non multum cum eis de verbi 
+contro<lb ed="#Ba" break="no"/>versia laborandum atque certandum est:
+<lb ed="#Ba"/>quandoquidem ipsum causarum ordinem
+<lb ed="#Ba"/>et quamdam connexionem Dei summi
+<lb ed="#Ba"/>tribuunt voluntati et potestati, qui 
+opti<lb ed="#Ba" break="no"/>meet veracissime creditur et cuncta scire
+<lb ed="#Ba"/>antequam fiant, et nihil inordinatum re
+  <lb ed="#Ba" break="no"/>linquere : a quo sunt omnium potesta-
+  <lb ed="#Ba"/>tes, quamvis non ab illo sint omnium 
+vo<lb ed="#Ba" break="no"/>luntates *. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e686">
+                  <lb ed="#Ba"/>Ad primum ergo dictum Gregorii 
+di<lb ed="#Ba" break="no"/>cendum, quod a fidelium mentibus longe
+<lb ed="#Ba"/>debet esse fatum secundo modo dictum :
+<lb ed="#Ba"/>non quoniam aliqua qualitas non 
+inhe<lb ed="#Ba" break="no"/>reat rebus corporalibus que etiam 
+incli<lb ed="#Ba" break="no"/>nare possit animas corpori conjunctas :
+<lb ed="#Ba"/>sed sic, quod nulla coactiva inheret 
+re<lb ed="#Ba" break="no"/>bus qualitas : quia etiam corpora non
+<lb ed="#Ba"/>cogit, ut dicit Ptolemaus in Centilogio.
+<lb ed="#Ba"/>Dicit enim, quod <quote xml:id="Almn78-a47722-Qd1e709"> sapiens homo 
+domi<lb ed="#Ba" break="no"/>natur astris. </quote> Et Hali in commento suo
+<lb ed="#Ba"/>ponit exemplum : Ut si sidera scintillant
+<lb ed="#Ba"/>ad motum melancholie et ad quartanas,
+<lb ed="#Ba"/>sapiens in astris hoc previdens, per cibos
+<lb ed="#Ba"/>et medicinas corpora disponat ad 
+sangui<lb ed="#Ba" break="no"/>nem: et tunc non erunt susceptibilia
+<lb ed="#Ba"/>motus melancholia et quartane : et 
+ex<lb ed="#Ba" break="no"/>cluditur scintillatio stellarum.
+</p>
+               <p xml:id="Almn78-a47722-d1e731">
+                  <pb ed="#Ba" n="697"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod fatalia 
+di<lb ed="#Ba" break="no"/>vinationes non sunt, nec auguria : sed
+<lb ed="#Ba"/>fatalia quedam prognosticationes 
+sump<lb ed="#Ba" break="no"/>te sunt a signis probabilibus non né
+ces<lb ed="#Ba" break="no"/>sariis : sicut Hippocrates docet in libro
+<lb ed="#Ba"/>de Prognosticis. Sic enim ordo in stellis
+<lb ed="#Ba"/>est in gradu primo, et dispositio sive
+<lb ed="#Ba"/>qualitas adherens generalis, est qualitas
+<lb ed="#Ba"/>influxa a stellis, et est in gradu secundo.
+<lb ed="#Ba"/>Et ideo a Ptolemeo in Centilogio tales
+<lb ed="#Ba"/>dispositiones vocatur stelle secunde.
+<lb ed="#Ba"/>Dicit enim sic : <quote xml:id="Almn78-a47722-Qd1e763"> Prognosticator qui 
+pro<lb ed="#Ba" break="no"/>enosticatur a stellis secundis, veriora 
+di<lb ed="#Ba" break="no"/>cit: eo quod ille prognosticatur a 
+quali<lb ed="#Ba" break="no"/>talibus qua rebus inherent: et ideo 
+effi<lb ed="#Ba" break="no"/>caciores sunt ad res transmutandum,
+<lb ed="#Ba"/>quam positio siderum que per se rem non
+<lb ed="#Ba"/>tangit, sed per aliud et per accidens. </quote>
+                  <lb ed="#Ba"/>Ut in primo capitulo libri qui Arabice
+<lb ed="#Ba"/>dicitur Alarba, Latine Quadripartitum,
+<lb ed="#Ba"/>dicit <name xml:id="Almn78-a47722-Nd1e786">Ptolemeus</name>. .
+</p>
+               <p xml:id="Almn78-a47722-d1e791">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in 
+pracogni<lb ed="#Ba" break="no"/>tione providentiae duo sunt, scilicet 
+pro<lb ed="#Ba" break="no"/>videntia simplex : et hac quia respectu
+<lb ed="#Ba"/>boni et mali est, nihil ponit. Et est ibi
+<lb ed="#Ba"/>beneplacitum voluntatis: quod est 
+re<lb ed="#Ba" break="no"/>spectu boni, secundum quod convertitur
+<lb ed="#Ba"/>cum ente : et quia hoc causalitatem 
+di<lb ed="#Ba" break="no"/>cit, ideo necesse est quod dicat 
+disposi<lb ed="#Ba" break="no"/>tionem respectu rerum rebus futuris 
+in<lb ed="#Ba" break="no"/>fluendam, presentibus influentem, 
+pre<lb ed="#Ba" break="no"/>teritis influxam a divina providentia. Et
+<lb ed="#Ba"/>hoc modo aliquid dicit in rebus.
+</p>
+               <p xml:id="Almn78-a47722-d1e820">
+                  <lb ed="#Ba"/>Av picrum Augustini dicendum, quod
+<lb ed="#Ba"/>fatum secundum primam acceptionem
+<lb ed="#Ba"/>quedam dicit sicut antecedentia, sicut
+<lb ed="#Ba"/>homo dicit animal, et causa secundaria
+<lb ed="#Ba"/>presupponit primariam : et sic fatum in
+<lb ed="#Ba"/>cardine ordinis causarum dicit 
+providen<lb ed="#Ba" break="no"/>tiam et voluntatem divinam. Sed 
+quan<lb ed="#Ba" break="no"/>tum ad id quod significat, dicit 
+dispositio<lb ed="#Ba" break="no"/>nem causis secundis et tertiis et quartis
+<lb ed="#Ba"/>et sic deinceps causatis influxam a 
+pro<lb ed="#Ba" break="no"/>videntia : et illa non est voluntas divina,
+<lb ed="#Ba"/>sed effectus voluntatis : et sic fatum 
+crea<lb ed="#Ba" break="no"/>tum quid est, et non increatum.
+</p>
+               <p xml:id="Almn78-a47722-d1e851">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Ad sequsns dictum Augustini 
+dicen<lb ed="#Ba" break="no"/>dum, quod ex hoc non sequitur, quod
+<lb ed="#Ba"/>fatum non sit nisi voluntas Dei, sed quod
+<lb ed="#Ba"/>fatum est dispositio relicta in omnibus
+<lb ed="#Ba"/>ordinibus causarum et effectuum 
+secun<lb ed="#Ba" break="no"/>dum ordinem naturalium et 
+voluntaria<lb ed="#Ba" break="no"/>rum causarum, in quibus principantur
+<lb ed="#Ba"/>providentia Dei et voluntas.
+</p>
+               <p xml:id="Almn78-a47722-d1e873">
+                  <lb ed="#Ba"/>Ip quop objicitur in contrarium, 
+con<lb ed="#Ba" break="no"/>cedendum est.
+</p>
+               <p xml:id="Almn78-a47722-d1e880">
+                  <lb ed="#Ba"/>ARTICULUS II
+<lb ed="#Ba"/>Quid sit fatum ?
+</p>
+               <p xml:id="Almn78-a47722-d1e887">
+                  <lb ed="#Ba"/>Secundo queritur, Quid sit fatum ?
+</p>
+               <p xml:id="Almn78-a47722-d1e893">
+                  <lb ed="#Ba"/>Et sumantur definitiones a Sanctis et
+<lb ed="#Ba"/>a Philosophis date.
+</p>
+               <p xml:id="Almn78-a47722-d1e900">
+                  <lb ed="#Ba"/>1. Boetius in libro IV de Consolatione
+<lb ed="#Ba"/>philosophie : <quote xml:id="Almn78-a47722-Qd1e906"> Fatum est rebus 
+mobili<lb ed="#Ba" break="no"/>bus inherens dispositio, per quam 
+pro<lb ed="#Ba" break="no"/>videntia suis queeque nectit ordinibus *. </quote>
+                  <lb ed="#Ba"/>Secundum hance definitionem videtur,
+<lb ed="#Ba"/>quod non tantum sit inherens mobilibus,
+<lb ed="#Ba"/>sed etiam immobilibus : est enim ex 
+di<lb ed="#Ba" break="no"/>vina providentia dispositio rebus influxa:
+<lb ed="#Ba"/>divina autem providentia est tam 
+mobi<lb ed="#Ba" break="no"/>lium. quam immobilium : et sic non 
+vi<lb ed="#Ba" break="no"/>detur esse ratio quare magis dicatur 
+re<lb ed="#Ba" break="no"/>bus mobilibus inherens dispositio, quam
+<lb ed="#Ba"/>immobilibus.
+</p>
+               <p xml:id="Almn78-a47722-d1e934">
+                  <lb ed="#Ba"/>2. Adhuc, Quod mobilibus rebus 
+in<lb ed="#Ba" break="no"/>heret, mobile est : quia, sicut dicit
+<lb ed="#Ba"/>Aristoteles in Topicis ?, motis nobis 
+mo<lb ed="#Ba" break="no"/>ventur ea que in nobis sunt : ergo 
+dis<lb ed="#Ba" break="no"/>positio mobilis est.
+</p>
+               <p xml:id="Almn78-a47722-d1e947">
+                  <lb ed="#Ba"/>3, Adhuc hoc probatur ex eo quod 
+di<lb ed="#Ba" break="no"/>cit Boetius, ibidem : <quote xml:id="Almn78-a47722-Qd1e953"> Fatum est eorum
+<lb ed="#Ba"/>que divina simplicitas gerenda 
+dispo<lb ed="#Ba" break="no"/>suit, mobilis nexus atque ordo 
+tempo<lb ed="#Ba" break="no"/>ralis. </quote> :
+</p>
+               <p xml:id="Almn78-a47722-d1e963">
+                  <pb ed="#Ba" n="698"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>In contrarium hujus est,
+<lb ed="#Ba"/>1. Quod ibidem dicit Boetius parum
+<lb ed="#Ba"/>infra: <quote xml:id="Almn78-a47722-Qd1e976"> Hee series fatalis actus 
+fortunas<lb ed="#Ba" break="no"/>que hominum indissolubili causarum
+<lb ed="#Ba"/>connexione constringit, que cum ab 
+im<lb ed="#Ba" break="no"/>mobilibus providentie prognosticantur
+<lb ed="#Ba"/>exordiis, ipsas quoque immutabiles 
+ne<lb ed="#Ba" break="no"/>cesse est esse. </quote> Nexus ergo fatales 
+im<lb ed="#Ba" break="no"/>mobiles sunt : et sic nec mobilis est, nec
+<lb ed="#Ba"/>mobilibus adheret.
+</p>
+               <p xml:id="Almn78-a47722-d1e994">
+                  <lb ed="#Ba"/>2. Adhuc, Boetius, ibidem, <quote xml:id="Almn78-a47722-Qd1e998"> Fatum
+<lb ed="#Ba"/>singula dirigit in motu, locis, formis, ac
+<lb ed="#Ba"/>temporibus distributa, ut haec temporalis
+<lb ed="#Ba"/>ordinis explicatio in divine mentis 
+adu<lb ed="#Ba" break="no"/>nata prospectu providentia sit: eadem
+<lb ed="#Ba"/>vero adunatio digesta atque explicita
+<lb ed="#Ba"/>temporibus, fa‘um vocetur. </quote> Ergo fatum
+<lb ed="#Ba"/>est effectus providentie. Sed quando
+<lb ed="#Ba"/>causa est immobilis, effectus est 
+immo<lb ed="#Ba" break="no"/>bilis : ergo fatum est immobilis nexus
+<lb ed="#Ba"/>sicut et providentia.
+</p>
+               <p xml:id="Almn78-a47722-d1e1025">
+                  <lb ed="#Ba"/>3. Adhuc, Augustinus in libro V de
+<lb ed="#Ba"/>Civitate Dei, contra Astronomos 
+lo<lb ed="#Ba" break="no"/>quens dicit, quod <quote xml:id="Almn78-a47722-Qd1e1033"> fatum secundum eos
+<lb ed="#Ba"/>est vis positionis vel situs siderum in 
+cir<lb ed="#Ba" break="no"/>culo nativitatum, que existente quando
+<lb ed="#Ba"/>quis concipitur vel nascitur, cognoscitur
+<lb ed="#Ba"/>qualis futurus sit. </quote> Videtur ergo quod
+<lb ed="#Ba"/>fatum non sit effectus providentie, sed
+<lb ed="#Ba"/>positionis siderum : et ita nulla est 
+de<lb ed="#Ba" break="no"/>finitio Boetii.
+</p>
+               <p xml:id="Almn78-a47722-d1e1052">
+                  <lb ed="#Ba"/>4. Adhuc, Sapient. xin, 2, dicitur,
+<lb ed="#Ba"/>quod stelle sunt rectores orbis terrarum.
+<lb ed="#Ba"/>Constat autem, quod vis rectoris primi
+<lb ed="#Ba"/>inheret omnibus rectis ab ipso. Ergo
+<lb ed="#Ba"/>videtur, quod fatum nihil aliud sit, nisi
+<lb ed="#Ba"/>dispositio inherens omnibus rectis a
+<lb ed="#Ba"/>stellis, per quam stellis moventibus
+<lb ed="#Ba"/>unumquodque per differentias positionis
+<lb ed="#Ba"/>stellarum ad finem periodi in esse, et
+<lb ed="#Ba"/>agere, et pati, et eufortuniis, seu 
+infor<lb ed="#Ba" break="no"/>tuniis deducitur.
+</p>
+               <p xml:id="Almn78-a47722-d1e1078">
+                  <lb ed="#Ba"/>5. Adhuc, Boetius in libro IV de 
+Con<lb ed="#Ba" break="no"/>solatione philosophiae : <quote xml:id="Almn78-a47722-Qd1e1084"> Ha series (que
+<lb ed="#Ba"/>fatum dicitur) ecelum ac sidera movet?. </quote>
+                  <lb ed="#Ba"/>Et sic videtur, quod fatum est dispositio
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>a positione siderum profecta, et nona
+<lb ed="#Ba"/>providentia.
+</p>
+               <p xml:id="Almn78-a47722-d1e1099">
+                  <lb ed="#Ba"/>6. Adhuc etiam videtur hoc ex 
+rationi<lb ed="#Ba" break="no"/>bus Astronomorum. Negari enim non
+<lb ed="#Ba"/>potest, quod sidera per figuras positionis
+<lb ed="#Ba"/>sue radiationes diversarum figurarum
+<lb ed="#Ba"/>loco generationis influant. Nec negari
+<lb ed="#Ba"/>potest, quod in Perspectivis probatum
+<lb ed="#Ba"/>est, quin radiationes diversarum 
+figura<lb ed="#Ba" break="no"/>rum diversas qualitates imprimant 
+genc<lb ed="#Ba" break="no"/>ratis. Demonstratum est enim in libro de
+<lb ed="#Ba"/>Speculis, quod radius reflexus in seipsum
+<lb ed="#Ba"/>elicit ignem, et in nato propter hoc facit
+<lb ed="#Ba"/>furens incendium et nigredinem, ut in
+<lb ed="#Ba"/>Afthiope. Reflexus ad angulum acutum,
+<lb ed="#Ba"/>calorem facit, non tamen incendium.
+<lb ed="#Ba"/>Reflexus ad angulum hebetem sive 
+ex<lb ed="#Ba" break="no"/>pansum, propter privationem caloris si
+<lb ed="#Ba"/>non sit multum expansus, facit 
+tempe<lb ed="#Ba" break="no"/>ratum. Si autem sit multum 
+expan<lb ed="#Ba" break="no"/>sus, frigus inducit et humidum. Et sis
+<lb ed="#Ba"/>videtur, quod in corporibus secundum
+<lb ed="#Ba"/>complexiones tota diversitas sit a 
+stella<lb ed="#Ba" break="no"/>rum positione, Sed dicit Socrates, quod
+<lb ed="#Ba"/>electiones voluntatum fiunt secundum
+<lb ed="#Ba"/>diversitatem habituum prius existentium
+<lb ed="#Ba"/>in eligente. Sicut phlegmaticus eligit 
+pi<lb ed="#Ba" break="no"/>sces et somnum. Melancholicus de 
+melan<lb ed="#Ba" break="no"/>cholia adusta, eligit amara, tetra, et 
+tri<lb ed="#Ba" break="no"/>stia. Sanguineus Jovis habens 
+complexio<lb ed="#Ba" break="no"/>nem, pulchra et lata eligit. Cholericus
+<lb ed="#Ba"/>Martis sequens complexionem, eligit
+<lb ed="#Ba"/>acuta et feracitates et audacitates sive
+<lb ed="#Ba"/>animositates. Et sic de omnibus dicit
+<lb ed="#Ba"/>Socrates, quod semper electio secundum
+<lb ed="#Ba"/>habitum est : et cum habitus sint a
+<lb ed="#Ba"/>stellis, eo quod in aliud causans primum
+<lb ed="#Ba"/>non possunt reduci, quod sit causans in
+<lb ed="#Ba"/>genere et coordinatione causantium 
+na<lb ed="#Ba" break="no"/>turaliter, videtur quod electiones 
+varian<lb ed="#Ba" break="no"/>tur secundum positiones astrorum et 
+ha<lb ed="#Ba" break="no"/>bitus.
+</p>
+               <p xml:id="Almn78-a47722-d1e1188">
+                  <lb ed="#Ba"/>7. Adhuc, Hoc modo descriptus est
+<lb ed="#Ba"/>totus liber qui dicitur Quadripartitum
+<lb ed="#Ba"/>
+                  <name xml:id="Almn78-a47722-Nd1e1196">Ptolemei</name>, in quo ostenditur qualis 
+quis<lb ed="#Ba" break="no"/>que futurus sit in figura et complexione
+<pb ed="#Ba" n="699"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>corporis et electione voluntatis, ex 
+po<lb ed="#Ba" break="no"/>sitione astrorum in circulis nativitatis.
+<lb ed="#Ba"/>Dicunt enim, quod sphera stellarum 
+fixa<lb ed="#Ba" break="no"/>rum habet movere terram : et ex 
+diver<lb ed="#Ba" break="no"/>sitate figurarum ex imaginibus cceli,
+<lb ed="#Ba"/>quas quadraginta octo dicunt esse, et ex
+<lb ed="#Ba"/>positionibus siderum, et ex figura 
+refle<lb ed="#Ba" break="no"/>xionum luminis et radiorum causatur 
+di<lb ed="#Ba" break="no"/>versitas figurarum omnium eorum que
+<lb ed="#Ba"/>fiunt in loco generationis qui est in terra.
+<lb ed="#Ba"/>Sic dicunt spheram Solis movere ignem
+<lb ed="#Ba"/>ad locum generationis : et illum ignem
+<lb ed="#Ba"/>sic radiis solis illatum et informatum,
+<lb ed="#Ba"/>imprimere habitualem formam nato, quo
+<lb ed="#Ba"/>habitu trahatur ad eligendum ea que
+<lb ed="#Ba"/>solis sunt, sicut splendida, lumen 
+hono<lb ed="#Ba" break="no"/>ris, late diffundentia, sicut et ipse filius
+<lb ed="#Ba"/>Solis latus est facie et venustus. Sic 
+di<lb ed="#Ba" break="no"/>cunt. spheram Lune movere aquam :
+<lb ed="#Ba"/>quod patet. in accessu et recessu maris,
+<lb ed="#Ba"/>qui fiunt ad positionem lune in angulis
+<lb ed="#Ba"/>sui circuli differentis secundum quod est
+<lb ed="#Ba"/>corniculata, vel in quadratura prima vel
+<lb ed="#Ba"/>secunda : quod Graci vocant dicominos
+<lb ed="#Ba"/>et dicotomos secunda: vel secundum
+<lb ed="#Ba"/>quod est plena, vel juxta plenitudinem :
+<lb ed="#Ba"/>vel deficiens a plenitudiue, quod Graci
+<lb ed="#Ba"/>vocant amphitritos prima, et amphitritos
+<lb ed="#Ba"/>secunda, ’Avo.enim Grace, dubium sonat
+<lb ed="#Ba"/>Latine + eo quod tunc dubium, hoc est,
+<lb ed="#Ba"/>imperfectum habet circulum. Sic dicunt,
+<lb ed="#Ba"/>quod quinque alii planete habent 
+mo<lb ed="#Ba" break="no"/>vere spheram aeris : et ideo in aere
+<lb ed="#Ba"/>multimodos esse motus : quia illi 
+plane<lb ed="#Ba" break="no"/>te multorum motuum sunt. Et sphera
+<lb ed="#Ba"/>quidem Veneris movere habet humidum
+<lb ed="#Ba"/>seminale, quod spiritu generantis qui est
+<lb ed="#Ba"/>aereus, plenum est: et influit illi formas
+<lb ed="#Ba"/>habituales, quibus per totum periodum
+<lb ed="#Ba"/>deducitur in corpore, et deducitur in 
+ele<lb ed="#Ba" break="no"/>ctione sic natus. Sic dicunt spheram
+<lb ed="#Ba"/>Mercurii movere humidum commiscibile
+<lb ed="#Ba"/>ad commixtionem et complexionem, et
+<lb ed="#Ba"/>influere sibi formas quibus deducitur in
+<lb ed="#Ba"/>variatione complexionis et mixtionis et
+<lb ed="#Ba"/>electionis, que tales sequitur habitus.
+<lb ed="#Ba"/>Dicunt enim, quod sic nati eligunt ea que
+<lb ed="#Ba"/>sunt mercatorum, qui semper miscent
+<lb ed="#Ba"/>negotia, et vagabundi lucra sequuntur,
+</p>
+               <p xml:id="Almn78-a47722-d1e1313">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>8. Si quis forte objiciat eis, quodin tota
+<lb ed="#Ba"/>serie causarum qua /fatum dicitur, 
+vo<lb ed="#Ba" break="no"/>luntas Dei et providentia est et princeps
+<lb ed="#Ba"/>et ordinans sicut vault, ut dicit 
+Augusti<lb ed="#Ba" break="no"/>nus: eo quod est omnia presciens et 
+ni<lb ed="#Ba" break="no"/>hil inordinatum relinquens. Respondent
+<lb ed="#Ba"/>isti, quod divina voluntas est primum et.
+<lb ed="#Ba"/>princeps extra genus et extra 
+coordina<lb ed="#Ba" break="no"/>tionem moventium et mobilium. Sed
+<lb ed="#Ba"/>probat Aristoteles in secundo prime 
+phi<lb ed="#Ba" break="no"/>losophie, quod in quolibet ordine 
+cau<lb ed="#Ba" break="no"/>sarum necesse est esse primum in genere
+<lb ed="#Ba"/>ejusdem cause. Et de hoc loquuntur
+<lb ed="#Ba"/>Astronomi: hoc enim necesse est esse
+<lb ed="#Ba"/>positionem stellarum in causis 
+generan<lb ed="#Ba" break="no"/>tibus. Dicunt etiam, quod per se patet et
+<lb ed="#Ba"/>in octavo Physicorum probatur, quod 
+for<lb ed="#Ba" break="no"/>ma primi generantis sive moventis 
+habi<lb ed="#Ba" break="no"/>tualiter diffusa in secundo et tertio 
+mo<lb ed="#Ba" break="no"/>ventibus, dat eis movere ad esse et 
+spe<lb ed="#Ba" break="no"/>ciem et operationes generati. Supponunt
+<lb ed="#Ba"/>etiam dictum Socratis, quod omnis 
+scili<lb ed="#Ba" break="no"/>cet electio fit secundum habitum aliquem
+<lb ed="#Ba"/>prius existentem in eligente. Cum enim
+<lb ed="#Ba"/>electio sive eligere, sit duobus vel 
+pluri<lb ed="#Ba" break="no"/>bus propositis unum aliis preoptare,
+<lb ed="#Ba"/>non esset ratio quare unum aliis 
+preop<lb ed="#Ba" break="no"/>taret, nisi potentia electiva traheretur
+<lb ed="#Ba"/>habitu aliquo ad hoc amandam plus
+<lb ed="#Ba"/>quam aliud. Et six ex stellis et formis 
+ha<lb ed="#Ba" break="no"/>bitualibus ex positione siderum impres—
+<lb ed="#Ba"/>sis, causant et ordinant natorum esse,
+<lb ed="#Ba"/>operationes, vitam, et electiones, et 
+for<lb ed="#Ba" break="no"/>mant durationis quantitatem.
+</p>
+               <p xml:id="Almn78-a47722-d1e1392">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod falwm di-:
+<lb ed="#Ba"/>versimode definitur, scilicet in compara-’
+<lb ed="#Ba"/>tione ad id cujus est, sicut inherens 
+dis<lb ed="#Ba" break="no"/>positio : et sic illud definit Boetius. De-:
+<lb ed="#Ba" break="no"/>finitur etiam aliquando secundum esse’
+<lb ed="#Ba"/>quod habet in comparatione ad: id a quo:
+  <lb ed="#Ba"/>est: et sic dicit Boetius, ibidem: <quote xml:id="Almn78-a47722-Qd1e1409"> Fa
+<lb ed="#Ba"/>tum est eorum que divina simplicitas ge
+<lb ed="#Ba"/>renda disposuit, mobilis nexus atque or-’
+<lb ed="#Ba"/>do temporalis. </quote> Et sic definitur fatum’
+<lb ed="#Ba"/>Et cum fatum idem sit aod ‘Greece:
+<pb ed="#Ba" n="700"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>
+                  <foreign>eluapudvy</foreign>, quod, ut dicunt Gregorius 
+Nys<lb ed="#Ba" break="no"/>senus et <name xml:id="Almn78-a47722-Nd1e1432">Hermes Trismegistus</name>, sonat 
+or<lb ed="#Ba" break="no"/>dinem causarum, sic accipitur proprie et
+<lb ed="#Ba"/>secundum totum esse suum : sic enim
+<lb ed="#Ba"/>est inherens dispositio mobilibus causis
+<lb ed="#Ba"/>et causatis, per quam sicut instrumentum
+<lb ed="#Ba"/>providentia queque suis nectit ordinibus.
+</p>
+               <p xml:id="Almn78-a47722-d1e1447">
+                  <lb ed="#Ba"/>Et si quis objiciat, quod sicut Deus
+<lb ed="#Ba"/>creando non utitur instrumento medio,
+<lb ed="#Ba"/>ita nec gubernando : cum ipse sit 
+perfe<lb ed="#Ba" break="no"/>ctus gubernator, sicut est perfectus 
+arti<lb ed="#Ba" break="no"/>fex et creator. Dicendum, quod non est
+<lb ed="#Ba"/>simile. Creatio enim nihil supponit, et ex
+<lb ed="#Ba"/>nihilo est : et idcirco instrumentum ex
+<lb ed="#Ba"/>parte creati esse non poluit : quia omnis
+<lb ed="#Ba"/>instrumenti operatio est’ super aliquid.
+<lb ed="#Ba"/>Nec ex parte creantis esse debuit : eo
+<lb ed="#Ba"/>quod ille est infinite potentia, et in sola
+<lb ed="#Ba"/>voluntate sua habet opus suum sicut
+<lb ed="#Ba"/>vult et quando vult. Sed in gubernatione
+<lb ed="#Ba"/>non est sic: illa enim supponit existens,
+<lb ed="#Ba"/>quia non gubernatur nisi existens actu :
+<lb ed="#Ba"/>et ideo ex parte gubernati quod a 
+guber<lb ed="#Ba" break="no"/>nabilitate secundum seipsum deficit, nisi
+<lb ed="#Ba"/>dispositionem gua gubernabile efficiatur
+<lb ed="#Ba"/>a gubernante, accipiat, requiritur 
+dispo<lb ed="#Ba" break="no"/>sitio fatalis, per quam gubernator 
+unum<lb ed="#Ba" break="no"/>quodque gubernat et suo ordine 
+dispen<lb ed="#Ba" break="no"/>sat.
+</p>
+               <p xml:id="Almn78-a47722-d1e1497">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod in
+<lb ed="#Ba"/>veritate fatum non adheret nisi rebus
+<lb ed="#Ba"/>mobilibus. Quecumque enim 
+gubernan<lb ed="#Ba" break="no"/>tur, secundum omnia gerenda ad suos
+<lb ed="#Ba"/>terminos et fines deducuntur
+<lb ed="#Ba"/>cumque deducuntur ad fines suos, 
+mo<lb ed="#Ba" break="no"/>ventur : et quecumque ad fines suos 
+quo<lb ed="#Ba" break="no"/>tidie moventur, mobilia sunt : et sic 
+fa<lb ed="#Ba" break="no"/>tum rerum mobilium tantum est : nec
+<lb ed="#Ba"/>ponit immobilitatem simpliciter, sicut
+<lb ed="#Ba"/>nec providentia : sed ponit 
+immobilita<lb ed="#Ba" break="no"/>tem ordinis sive consequentie, que est
+<lb ed="#Ba"/>immobilitas secundum quid a 
+contin<lb ed="#Ba" break="no"/>gente dependens, sicut sepius dictum
+<lb ed="#Ba"/>est : et ideo definitur per mobile, et non
+<lb ed="#Ba"/>per immobile.
+</p>
+               <p xml:id="Almn78-a47722-d1e1534">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod. hoc 
+proce<lb ed="#Ba" break="no"/>dit. .
+</p>
+               <p xml:id="Almn78-a47722-d1e1541">
+                  <lb ed="#Ba"/>Ad sxquens similiter patet solutio per.
+<lb ed="#Ba"/>dicta : hoc enim concedendum est.
+</p>
+               <p xml:id="Almn78-a47722-d1e1548">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium, Adotyed
+<lb ed="#Ba"/>dicendum quod nexus ille immobilis est
+<lb ed="#Ba"/>secundum quid, mobilis autem 
+simplici<lb ed="#Ba" break="no"/>ter. Quoad duo enim est immobilis, 
+sci<lb ed="#Ba" break="no"/>licet quoad id quo res fatalis extra 
+ordi<lb ed="#Ba" break="no"/>nem causarum fatalium excidere non 
+pot<lb ed="#Ba" break="no"/>est, et sic constringit actus et forlunas
+<lb ed="#Ba"/>hominum, et quoad hoc, quod res una
+<lb ed="#Ba"/>fatalis in uno ordine existens, non potest
+<lb ed="#Ba"/>excidere ab illo et incidere in alium: et
+<lb ed="#Ba"/>talis immobilitas in nullo contrariatur
+<lb ed="#Ba"/>mobilitati rei fatalis et mobilitati 
+dispo<lb ed="#Ba" break="no"/>silionis qua res fatalis movetur in suum
+<lb ed="#Ba"/>finem et terminum.
+</p>
+               <p xml:id="Almn78-a47722-d1e1584">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod verum est,
+<lb ed="#Ba"/>quod cause gerendorum exemplariter in
+<lb ed="#Ba"/>mente divina accept, providentia sunt :
+<lb ed="#Ba"/>in rebus autem digeste et inherentes,
+<lb ed="#Ba"/>fatam sunt. Sed cum arguit sic : Si
+<lb ed="#Ba"/>causa immobilis est, et effecius est 
+im<lb ed="#Ba" break="no"/>mobilis, non valet : hoc enim non tenet,
+<lb ed="#Ba"/>nisi in causa immediata et essentiali, 
+cu<lb ed="#Ba" break="no"/>jus causalitas non dependet ad aliquid
+<lb ed="#Ba"/>quod sit contingens vel mobile. Et talis
+<lb ed="#Ba"/>causa non est providentia, nec fatum.
+<lb ed="#Ba"/>Providentia enim in omnibus que in 
+no<lb ed="#Ba" break="no"/>bis sunt, causat liberum = arbitrium,
+<lb ed="#Ba"/>quando causa est et non simplex visio.
+<lb ed="#Ba"/>Quod autem per liberum arbitrium 
+futu<lb ed="#Ba" break="no"/>rum est, contingenter futurum est, nec
+<lb ed="#Ba"/>habet immobilitatem nisi secundum quid,
+<lb ed="#Ba"/>scilicet secundum quod refertur ad 
+pro<lb ed="#Ba" break="no"/>videntiam ut subjectum illi, vel ad hance
+<lb ed="#Ba"/>vel illam fatalem ordinationem.
+</p>
+               <p xml:id="Almn78-a47722-d1e1630">
+                  <lb ed="#Ba"/>Ad aliud quod objicitur de positione 
+<lb ed="#Ba"/>siderum, dicendum quod Philosophi non
+<lb ed="#Ba"/>acceperunt fatum secundum perfectam
+<lb ed="#Ba"/>sui definitionem : quia cum fatum sit 
+or<lb ed="#Ba" break="no"/>do causarum, vel disposilio ex ordine
+<lb ed="#Ba"/>causarum relicta, ordinem causarum non
+<lb ed="#Ba"/>deduxerunt usque ad primam et 
+princi<lb ed="#Ba" break="no"/>pem causam omnium, cujus nutu et 
+vo<lb ed="#Ba" break="no"/>luntate et ordinatione et dispositione
+<lb ed="#Ba"/>omnes aliae regulantur et moventur et
+<lb ed="#Ba"/>agunt : et ideo totum esse fali non 
+con<lb ed="#Ba" break="no"/>sideraverunt, sed reduxerunt in primum
+‘ordinem causarum corporalium : et hoc
+<lb ed="#Ba"/>est primum in genere, et non simpliciter..
+<lb ed="#Ba"/>Unde et fata attribuerunt hominibus, et
+<pb ed="#Ba" n="701"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>non Angelis. Dixerunt enim, sicut refert
+<lb ed="#Ba"/>Avicenna, quod solum corpus hominis
+<lb ed="#Ba"/>inter mixta et complexionata ad 
+equali<lb ed="#Ba" break="no"/>tatem coeli accedit : et ideo inter omnia
+<lb ed="#Ba"/>sortitur animam intellectualem, que 
+in<lb ed="#Ba" break="no"/>ter omnes formas, intelligentia que 
+mo<lb ed="#Ba" break="no"/>vet ccelum, similior est : et ideo 
+disposi<lb ed="#Ba" break="no"/>tiones ccelestes magis inherent 
+homini<lb ed="#Ba" break="no"/>bus, quam aliis. Et in hoc nihil errabant:
+<lb ed="#Ba"/>sed errabant vehementer in hoc, quod
+<lb ed="#Ba"/>dixerunt, quod ille dispositiones et 
+or<lb ed="#Ba" break="no"/>dines motuum ceelestium et stellaram
+<lb ed="#Ba"/>imponerent necessitatem ad gerenda: ut
+<lb ed="#Ba"/>quecumque quis ageret, de necessitate
+<lb ed="#Ba"/>fati et coactione faceret : cum non 
+ne<lb ed="#Ba" break="no"/>cessitati subdatur animus hominis, cum
+<lb ed="#Ba"/>semper liber sit et dominus actuum 
+suo<lb ed="#Ba" break="no"/>rum: quia in ipso est facere quod vult,
+<lb ed="#Ba"/>vel non facere, et non in fatis vel in 
+stel<lb ed="#Ba" break="no"/>lis vel etiam providentia : eo quod nec
+<lb ed="#Ba"/>fatum nec stelle nec etiam providentia a
+<lb ed="#Ba"/>libero arbitrio aufert libertatem agendi
+<lb ed="#Ba"/>quod vult et arbitrandi. Unde hic fuit
+<lb ed="#Ba"/>error, quod sic ponebant fatum esse,
+<lb ed="#Ba"/>quod rebus fatalibus necessitatem 
+impo<lb ed="#Ba" break="no"/>nat.
+</p>
+               <p xml:id="Almn78-a47722-d1e1724">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Ba"/>stelle rectores orbis terrarum sunt in his
+<lb ed="#Ba"/>que subjacent orbi terrarum : et haec
+<lb ed="#Ba"/>sunt corporalia, et ea que corporalibus
+<lb ed="#Ba"/>inherent, sicut vegetabilia et sensibilia,
+<lb ed="#Ba"/>que obligata sunt materi corporali, ut
+<lb ed="#Ba"/>dicunt Augustinus et Damascenus, et
+<lb ed="#Ba"/>magis aguntur quam agunt. Animus 
+au<lb ed="#Ba" break="no"/>tem hominis cum non agatur, sed agat,
+<lb ed="#Ba"/>et dominus sit suorum actuum, orbi 
+ter<lb ed="#Ba" break="no"/>rarum non subjacet, sed potius 
+supponi<lb ed="#Ba" break="no"/>tur necessitati motus orbis: et talibus
+<lb ed="#Ba"/>dispositionibus stellarum nec agitur, nec
+<lb ed="#Ba"/>regitur, nisi forte secundum. 
+inclinatio<lb ed="#Ba" break="no"/>nem, ut in antehabitis dictum est.
+</p>
+               <p xml:id="Almn78-a47722-d1e1759">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Boetius 
+ve<lb ed="#Ba" break="no"/>rum dicit, Dispositioni enim fatali que
+<lb ed="#Ba"/>est a providentia, subjacent sidera : quia
+<lb ed="#Ba"/>per illam gubernantur et in esse et in
+<lb ed="#Ba"/>motu et in effectu : sed hoc non est totum
+<lb ed="#Ba"/>esse fati, ut patet ex predictis, sed est
+<lb ed="#Ba"/>esse fati in sideribus et non in aliis. Nec
+<lb ed="#Ba"/>ex hoc habetur, quod stelle imponant
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>necessitatem, sed imponunt 
+qualemcum<lb ed="#Ba" break="no"/>que dispositionem sibi a providentia 
+in<lb ed="#Ba" break="no"/>ditam.
+</p>
+               <p xml:id="Almn78-a47722-d1e1788">
+                  <lb ed="#Ba"/>Ad id quod objicitur de rationibus
+<lb ed="#Ba"/>Astronomorum, dicendum quod in 
+veri<lb ed="#Ba" break="no"/>tate ex talibus principiis dicunt quod 
+di<lb ed="#Ba" break="no"/>cunt. Tamen <name xml:id="Almn78-a47722-Nd1e1798">Ptolemeus</name> in principio
+<lb ed="#Ba"/>Quadripartiti dicit, quod Astronomus 
+ni<lb ed="#Ba" break="no"/>hil quasi de necessitate fatorum etiam in
+<lb ed="#Ba"/>corporibus debet dicere, et assignat duas
+<lb ed="#Ba"/>causas. Una est, quod vis slellaram non
+<lb ed="#Ba"/>per se, sed per aliud venit ad inferiora.
+<lb ed="#Ba"/>Fist autem per se notum et a Philosopho
+<lb ed="#Ba"/>in libro de Cazusis, et in VI Ethicorum
+<lb ed="#Ba"/>dictum, quod omne quod est in aliquo,
+<lb ed="#Ba"/>est in eo secundum potestatem ejus in
+<lb ed="#Ba"/>quo est. Unde vis stellarum in medio
+<lb ed="#Ba"/>existens, est in medio secundum 
+potesta<lb ed="#Ba" break="no"/>tem medii et non secundum potestatem
+<lb ed="#Ba"/>quam habet quando est in stellis sive in
+<lb ed="#Ba"/>celis : et ideo non venit ad inferiora,
+<lb ed="#Ba"/>nisi alterata a virtute medii, Alia causa
+<lb ed="#Ba"/>est, ut dicit, quia talis virtus stelle non
+<lb ed="#Ba"/>fit in inferioribus per se, sed per 
+acci<lb ed="#Ba" break="no"/>dens. Si enim ficret per se : tunc esset
+<lb ed="#Ba"/>ab aliqua causarum per se : et.sic esset
+<lb ed="#Ba"/>vel ab efficiente per se, vel a forma per
+<lb ed="#Ba"/>se, vel a per se materia, vel a per se fine.
+<lb ed="#Ba"/>Constat, quod nihil horum est. 
+Relingui<lb ed="#Ba" break="no"/>tur ergo, quod sit per accidens, hoc est,
+<lb ed="#Ba"/>ex relatione ultimi causati in 
+inferiori<lb ed="#Ba" break="no"/>bus, ad primum causans in genere 
+cau<lb ed="#Ba" break="no"/>sarum corporalium in superioribus. In
+<lb ed="#Ba"/>omni autem tali ordine causarum, licet
+<lb ed="#Ba"/>secundum moveat virtute primi, et 
+ter<lb ed="#Ba" break="no"/>tium virtute primi et secundi, et sic 
+dein<lb ed="#Ba" break="no"/>ceps ; tamen primum modum 
+causalita<lb ed="#Ba" break="no"/>tis propria non -aufert a secundo, nec
+<lb ed="#Ba"/>primum et secundum a tertio : et sic fit,
+<lb ed="#Ba"/>quod licet vis stellarum immobilis sit in
+<lb ed="#Ba"/>stellarum positione, tamen in 
+inferiori<lb ed="#Ba" break="no"/>bus in quibus per accidens est, efficitur
+<lb ed="#Ba"/>mobilis et mutabilis. Nisi enim sic esset,
+<lb ed="#Ba"/>ipsa etiam scientia astrorum esset 
+inuti<lb ed="#Ba" break="no"/>lis : quia mala previsa in eis impediri
+<lb ed="#Ba"/>non possent, nec bona promoveri. 
+Pro<lb ed="#Ba" break="no"/>pter quod etiam Messeallach precipuus
+<lb ed="#Ba"/>in astris, dicit quod Alkir, hoc est, 
+cir<lb ed="#Ba" break="no"/>culus ccelestis, studio periti viri juvatur
+<pb ed="#Ba" n="702"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>ad effectum, sicut juvatur terra ad 
+fru<lb ed="#Ba" break="no"/>ctum seminatione et aratione. Et si 
+cor<lb ed="#Ba" break="no"/>poribus non imponant necessitatém, 
+con<lb ed="#Ba" break="no"/>stat quod nec animo hominis, nec libero
+<lb ed="#Ba"/>arbitrio.
+</p>
+               <p xml:id="Almn78-a47722-d1e1909">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod illa sunt
+<lb ed="#Ba"/>principia ex quibus prognosticantur
+<lb ed="#Ba"/>Astronomi, et secundum quod scripta est
+<lb ed="#Ba"/>scientia genethliacorum, que traditur in
+<lb ed="#Ba"/>Quadripartita quantum ad primam 
+par<lb ed="#Ba" break="no"/>tem ejus, que est de his que accidunt
+<lb ed="#Ba"/>generatis communiter. Sed peccatum est
+<lb ed="#Ba"/>in hoc, quod dispositiones habituales 
+in<lb ed="#Ba" break="no"/>fluxas a stellis dicunt necessitatem 
+im<lb ed="#Ba" break="no"/>ponere rebus et electionem, cum non
+<lb ed="#Ba"/>possit hoc convenire forme habituali
+  <lb ed="#Ba"/>que per aliud et per accidens est in re-
+  <lb ed="#Ba"/>bus, ut jam patuit ex verbis <name xml:id="Almn78-a47722-Nd1e1939">Ptolemai</name>.
+</p>
+               <p xml:id="Almn78-a47722-d1e1944">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Ba"/>primum ‘in genere in ordine talium 
+cau<lb ed="#Ba" break="no"/>sarum movens, stelle sunt: et veruam
+<lb ed="#Ba"/>est, quod secundum movet virtute primi:
+<lb ed="#Ba"/>sed cum forma primi et virtus in 
+secun<lb ed="#Ba" break="no"/>do est secundum modum et potestatem
+<lb ed="#Ba"/>secundi et non primi, ideo in secundo
+<lb ed="#Ba"/>non habet necessitatem quam habet in
+<lb ed="#Ba"/>primo. Et hujus satis exemplum — dat
+<lb ed="#Ba"/>Aristoteles in libro de Somno et vigilia,
+<lb ed="#Ba"/>dicens quod prime cause sunt sicut 
+prin<lb ed="#Ba" break="no"/>cipales consiliarii principis, qui 
+ordinatis<lb ed="#Ba" break="no"/>sima secundum rationes legum dant 
+con<lb ed="#Ba" break="no"/>silia, que tamen propter res que 
+proxi<lb ed="#Ba" break="no"/>mz sunt negotiis, et circumstant ea, 
+ali<lb ed="#Ba" break="no"/>quando non congruunt : et ideo ex 
+in<lb ed="#Ba" break="no"/>ferioribus causis mutantur. Et quod dicit
+<lb ed="#Ba"/>Socrates, quod electiones sunt secundum
+<lb ed="#Ba"/>habitus, intendit habitus inclinantes, et
+<lb ed="#Ba"/>non cogentes.
+</p>
+               <p xml:id="Almn78-a47722-d1e1990">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+            </div>
+            <div xml:id="Almn78-a47722-Dd1e1996">
+               <head xml:id="Almn78-a47722-Hd1e1998">Membrum 3</head>
+               <head xml:id="Almn78-a47722-Hd1e2001" type="question-title">
+  Cujus sit fatum
+</head>
+               <p xml:id="Almn78-a47722-d1e2004">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Cujus sit fatum ?
+</p>
+               <p xml:id="Almn78-a47722-d1e2013">
+                  <lb ed="#Ba"/>TERTIO queritur, Cujus sit fatum ?
+</p>
+               <p xml:id="Almn78-a47722-d1e2018">
+                  <lb ed="#Ba"/>Et queruntur duo, scilicet in quibus
+<lb ed="#Ba"/>sit radicaliter sive causaliter ?
+<lb ed="#Ba"/>Et secundo, in quibus sicut in 
+subje<lb ed="#Ba" break="no"/>ctis ?
+  
+<lb ed="#Ba"/>1. Ex dictis enim Augustini in libro
+<lb ed="#Ba"/>V de Civitate Dei, videtur, quod 
+radice<lb ed="#Ba" break="no"/>tur in astris. Dicit enim, quod <quote xml:id="Almn78-a47722-Qd1e2035"> est vis
+<lb ed="#Ba"/>positionis siderum.</quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e2042">
+                  <lb ed="#Ba"/>2. Adhuc, Augustinus super illud 
+Joan<lb ed="#Ba" break="no"/>nis, u, 4: Nondum venit hora mea, 
+di<lb ed="#Ba" break="no"/>cit: <quote xml:id="Almn78-a47722-Qd1e2050"> Si fatum est. sub sideribus, non
+<lb ed="#Ba"/>poterat esse sub necessitate siderum 
+con<lb ed="#Ba" break="no"/>ditor siderum. </quote> Ex hoc relinquitur,
+<lb ed="#Ba"/>quod fatum sub sideribus est, sicut a si-
+<lb ed="#Ba" break="no"/>deribus impressa dispositio.
+</p>
+               <p xml:id="Almn78-a47722-d1e2063">
+                  <lb ed="#Ba"/>Unterivs queritur, Que subjaceant 
+fa<lb ed="#Ba" break="no"/>to?
+</p>
+               <p xml:id="Almn78-a47722-d1e2070">
+                  <lb ed="#Ba"/>Si dicitur, quod naturalia, et maxime
+<lb ed="#Ba"/>corporalia, videtur Augustinus 
+contradi<lb ed="#Ba" break="no"/>cere in libro V de Civitate Dei, sic :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a47722-Qd1e2080"> Quid tam ad corpus pertinens quam
+<lb ed="#Ba"/>corporis sexus ? Et tamen videmus, quod
+<lb ed="#Ba"/>sub eadem dispositione siderum diversi-
+<lb ed="#Ba" break="no"/>tas sexus nascitur in conceptu gemino-
+<lb ed="#Ba" break="no"/>rum, quando masculus scilicet et foemina
+<lb ed="#Ba"/>simul concipiuntur. </quote> Si ergo in hoc
+<lb ed="#Ba"/>non subjacet constellationi quantum ad
+<lb ed="#Ba"/>sexum, nec quantum ad alia corporalia
+<lb ed="#Ba"/>subjacebit : et sic dispositie 
+corpora<lb ed="#Ba" break="no"/>lium constellationi non supponitur.
+</p>
+               <p xml:id="Almn78-a47722-d1e2103">
+                  <lb ed="#Ba"/>Ulterius queritur, Si fatum sit de
+<lb ed="#Ba"/>omnibus his de quibus est providentia,
+<lb ed="#Ba"/>vel non?
+</p>
+               <p xml:id="Almn78-a47722-d1e2112">
+                  <pb ed="#Ba" n="703"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>
+                  <ref xml:id="Almn78-a47722-Rd1e2122">Boetius in libro IV de Consolatione
+<lb ed="#Ba"/>philosophiae</ref> : <quote xml:id="Almn78-a47722-Qd1e2128"> Manifestum est 
+immo<lb ed="#Ba" break="no"/>hilem simplicemque gerendarum rerum
+<lb ed="#Ba"/>formam esse providentiam : fatum vero
+<lb ed="#Ba"/>corum que divina simplicitas gerenda
+<lb ed="#Ba"/>disposuit, mobilem nexum atque 
+ordi<lb ed="#Ba" break="no"/>nem temporalem : quo fit ut omnia que
+<lb ed="#Ba"/>fato subsunt, providentia quoque 
+subje<lb ed="#Ba" break="no"/>cta sint, cui etiam ipsum subjacet fatum :
+<lb ed="#Ba"/>quedam vero que sub providentia locata
+<lb ed="#Ba"/>sunt, fati seriem superent!. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e2151">
+                  <lb ed="#Ba"/>In contrarium hujus est,
+<lb ed="#Ba"/>1. Quod prius habitum est. Si enim
+<lb ed="#Ba"/>fatum est dispositio per quam 
+providen<lb ed="#Ba" break="no"/>tia queque suis nectit ordinibus : tunc
+<lb ed="#Ba"/>videtur, quod de omnibus sit fatum, de
+<lb ed="#Ba"/>quibus est providentia : quia aliter 
+pro<lb ed="#Ba" break="no"/>videntia per fatum queque non necteret.
+</p>
+               <p xml:id="Almn78-a47722-d1e2170">
+                  <lb ed="#Ba"/>2. Adhuc, Si, ut prius habitum est,
+<lb ed="#Ba"/>fatum est eorum que divina simplicitas
+<lb ed="#Ba"/>gerenda disponit, mobilis nexus : tunc
+<lb ed="#Ba"/>videtur, quod omnia que sunt sub 
+dispo<lb ed="#Ba" break="no"/>sitione divina, sint sub fato : sed 
+qua<lb ed="#Ba" break="no"/>cumque sub providentia sunt, sub 
+dispo<lb ed="#Ba" break="no"/>sitione divina sunt: ergo quacumque
+<lb ed="#Ba"/>sub providentia sunt, sub fato sunt.
+</p>
+               <p xml:id="Almn78-a47722-d1e2190">
+                  <lb ed="#Ba"/>Ulterius queritur. Si malum est sub
+<lb ed="#Ba"/>fato ?
+</p>
+               <p xml:id="Almn78-a47722-d1e2197">
+                  <lb ed="#Ba"/>Et videtur, quod sic: quia malum
+<lb ed="#Ba"/>sub providentia est sicut presciente et
+<lb ed="#Ba"/>ordinante, sicut dicit Boetius. Sed fatum
+<lb ed="#Ba"/>est dispositio per quam quodlibet 
+necti<lb ed="#Ba" break="no"/>tur ordini suo, Ergo videtur, quod 
+ma<lb ed="#Ba" break="no"/>lum ad minus ut ordinabile sub fato sit.
+</p>
+               <p xml:id="Almn78-a47722-d1e2213">
+                  <lb ed="#Ba"/>Unters queritur, Si fatum imponat
+<lb ed="#Ba"/>necessitatem eis quorum est?
+</p>
+               <p xml:id="Almn78-a47722-d1e2220">
+                  <lb ed="#Ba"/>Et videtur, quod sic: quia dicit 
+Boe<lb ed="#Ba" break="no"/>tius in libro IV de Consolatione 
+philoso<lb ed="#Ba" break="no"/>phiz?, quod <quote xml:id="Almn78-a47722-Qd1e2228"> series falalis actus 
+fortu<lb ed="#Ba" break="no"/>nasque hominum indissolubili 
+conne<lb ed="#Ba" break="no"/>xione causarum constrigit. </quote> Si 
+indisso<lb ed="#Ba" break="no"/>lubili, tunc videtur, qued de necessitate
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>fiant omnia que fiunt : et tunc tenet
+<lb ed="#Ba"/>objectio Tullii quam ponit Augustinus in
+<lb ed="#Ba"/>libro V de Civitate Dei, sic: <quote xml:id="Almn78-a47722-Qd1e2246"> Si certus
+<lb ed="#Ba"/>est ordo causarum, quo fit omne quod
+<lb ed="#Ba"/>fit: fato fiunt omnia que fiunt. Quod si
+<lb ed="#Ba"/>ita est, nihil est in nostra potestate, 
+nul<lb ed="#Ba" break="no"/>lumque est arbitrium voluntatis *. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e2258">
+                  <lb ed="#Ba"/>Soxtutio. Dicendum, quod sicut dicit
+<lb ed="#Ba"/>Augustinus in libro V de Civitate Det +,
+<lb ed="#Ba"/>fatum a fando dictum est. Est enim 
+de<lb ed="#Ba" break="no"/>cretum principis providentie divine,
+<lb ed="#Ba"/>promulgatum in omnia que suis 
+ordini<lb ed="#Ba" break="no"/>bus nectenda sunt.
+</p>
+               <p xml:id="Almn78-a47722-d1e2275">
+                  <lb ed="#Ba"/>Notandum tamen, quod quedam
+<lb ed="#Ba"/>transgrediuntur fati seriem, scilicet que
+<lb ed="#Ba"/>in ordinem causarum non incidunt : 
+fa<lb ed="#Ba" break="no"/>tum enim est connexio et ordo 
+causa<lb ed="#Ba" break="no"/>rum : et talia sunt que immediate a Deo
+<lb ed="#Ba"/>fiunt, quibus Deus tota est essendi causa,
+<lb ed="#Ba"/>sicut est creatio cocli et terre, creatio
+<lb ed="#Ba"/>anime, creatio Angeli. Hee enim nulla
+<lb ed="#Ba"/>dispositione media creata que adhereat
+<lb ed="#Ba"/>eis, deducuntur ad esse, sed sola 
+provi<lb ed="#Ba" break="no"/>dentia et voluntate divina : et ideo hec
+<lb ed="#Ba"/>fato non supponuntur. Sunt alia per
+<lb ed="#Ba"/>duos ordines causarum a_ providentia
+<lb ed="#Ba"/>descendentia, scilicet per ordinem 
+cau<lb ed="#Ba" break="no"/>sarum naturalium, et per motum 
+sphe<lb ed="#Ba" break="no"/>rarum ccelestium, et motum 
+elemento<lb ed="#Ba" break="no"/>rum, et motum materi : quae omnia
+<lb ed="#Ba"/>mobilia sunt. Et cum nihil mobilium
+<lb ed="#Ba"/>moveat seipsum, haec indigent 
+disposi<lb ed="#Ba" break="no"/>tione a primo motore in ipsa 
+descen<lb ed="#Ba" break="no"/>dente, hoc est, a providentia qua 
+mo<lb ed="#Ba" break="no"/>veantur et connectantur finibus suis
+<lb ed="#Ba"/>sicut et in naturalibus probatur, quod
+<lb ed="#Ba"/>motus localis quo quodlibet movetur ad
+<lb ed="#Ba"/>locum suum, est a generante vel 
+remo<lb ed="#Ba" break="no"/>vente prohibens : hoc enim probatum est
+<lb ed="#Ba"/>in VIII Physicorum, et quecumque a
+<lb ed="#Ba"/>tali ordine causarum descendunt, fato
+<lb ed="#Ba"/>subjacent : quia, sicut dicunt Hermes
+<lb ed="#Ba"/>Trismegistus et Boetius et Gregorius
+<lb ed="#Ba"/>Nyssenus, idem est fato subjacere, quod
+<pb ed="#Ba" n="704"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>ordini et connexioni causarum subjacere.
+<lb ed="#Ba"/>Est iterum ordo causarum in his que
+<lb ed="#Ba"/>descendunt a providentia per liberum
+<lb ed="#Ba"/>arbitrium : et quia talia non immediate
+<lb ed="#Ba"/>fiunt a Deo, sed liberum arbitrium 
+dedu<lb ed="#Ba" break="no"/>citur ad ipsa, et quod deducilur, deduct
+<lb ed="#Ba"/>non potest sine dispositione qua 
+deduci<lb ed="#Ba" break="no"/>bile fiat, oportet quod etiam in illis sit
+<lb ed="#Ba"/>relicta dispositio a providentia, qua 
+de<lb ed="#Ba" break="no"/>ducantur et nectantur suis terminis. Et
+<lb ed="#Ba"/>ideo etiam illa subjacent facto, cum 
+fa<lb ed="#Ba" break="no"/>tum nihil aliud sit, nisi dispositio ordinis
+<lb ed="#Ba"/>causarum, rebus mobilibus impressa,
+<lb ed="#Ba"/>qua ad fines suos deducuntur et 
+nectun<lb ed="#Ba" break="no"/>tur suis terminis.
+</p>
+               <p xml:id="Almn78-a47722-d1e2382">
+                  <lb ed="#Ba"/>His wasitis, dicendum ad primum,
+<lb ed="#Ba"/>quod fatum secundum perfectum esse
+<lb ed="#Ba"/>fati acceptum, et secundum perfectam
+<lb ed="#Ba"/>definitionem, non radicatur in stellis 
+sic<lb ed="#Ba" break="no"/>ut in primo principio, sed in providentia
+<lb ed="#Ba"/>que principatur in omni causarum 
+or<lb ed="#Ba" break="no"/>dine, et cujus forma simplex, simul et in
+<lb ed="#Ba"/>uno omnia prehabens, ratio motus et
+<lb ed="#Ba"/>causalitatis est in omnibus secundis 
+cau<lb ed="#Ba" break="no"/>sis: et hoc quod ipsa simul habet, 
+sigil<lb ed="#Ba" break="no"/>latim per fatum dirigitur secundum 
+di<lb ed="#Ba" break="no"/>versitatem temporum, locorum, et 
+va<lb ed="#Ba" break="no"/>riationem rerum mobilium: et hec est
+<lb ed="#Ba"/>differentia fati a providentia. Cujus 
+Boe<lb ed="#Ba" break="no"/>tius tria valde convenientia dat 
+exem<lb ed="#Ba" break="no"/>pla*. Dicit enim, quod hoc est fatum ad
+<lb ed="#Ba"/>providentiam comparatum, quod 
+ratioci<lb ed="#Ba" break="no"/>natio ad intellectum, et tempus ad 
+eter<lb ed="#Ba" break="no"/>nitatem, et circulus ad centrum. 
+Ratio<lb ed="#Ba" break="no"/>cinatio enim ab intellectu principiorum
+<lb ed="#Ba"/>incipit, et proficiscitur et circa 
+intelle<lb ed="#Ba" break="no"/>ctum versatur et vertitur : consona enim
+<lb ed="#Ba"/>principiis in eo de quo ratiocinatur, 
+acci<lb ed="#Ba" break="no"/>pit, et dissona refutat : et sic omnia de
+<lb ed="#Ba"/>quibus ratiocinatur, ad intellectum 
+regy<lb ed="#Ba" break="no"/>rat et examinat. Similiter tempus cum
+<lb ed="#Ba"/>in uno indivisibili stante totum esse
+<lb ed="#Ba"/>suum possidere non possit, et uno stante
+<lb ed="#Ba"/>perfectum cadit in successionem, et 
+suc<lb ed="#Ba" break="no"/>cessionem infinitam quasi reflectit in
+<lb ed="#Ba"/>nunc stans, ut in successione sempiter
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>num esse habeat, quod non habuit in
+<lb ed="#Ba"/>indivisibili stante et sese non movente.
+<lb ed="#Ba"/>Ita fatum se habet ad providentiam :
+<lb ed="#Ba"/>quia ex providentia simplici et stantle
+<lb ed="#Ba"/>proficiscitur et in mobilia diffunditur,
+<lb ed="#Ba"/>que in ipso quasi reordinantur ad 
+stan<lb ed="#Ba" break="no"/>tem ordinem providentie. Similiter est
+<lb ed="#Ba"/>in circulo et centro : simplicitas enim
+<lb ed="#Ba"/>est in centro unde circuli generatio 
+inci<lb ed="#Ba" break="no"/>pit, et quo plus pes circini mobilis a 
+cen<lb ed="#Ba" break="no"/>tro distat, tanto circumferentia per 
+ma<lb ed="#Ba" break="no"/>jora spatia ducitur et dilatatur : et quo
+<lb ed="#Ba"/>plus ad centrum constringitur, tanto 
+mi<lb ed="#Ba" break="no"/>nora spatia continet, et in paucioribus
+<lb ed="#Ba"/>diffunditur. Et sic fatum ab 
+indivisibili<lb ed="#Ba" break="no"/>providentia profectum, in his que 
+pro<lb ed="#Ba" break="no"/>xima sunt Deo, et quorum Deus tota est
+<lb ed="#Ba"/>causa, sicut in anima rationaliet Angelo,
+<lb ed="#Ba"/>parum virtulis habet. In his autem que
+<lb ed="#Ba"/>secundum ordinem causarum plus a Deo
+<lb ed="#Ba"/>distant, virtutem habet magis 
+manife<lb ed="#Ba" break="no"/>stam.
+</p>
+               <p xml:id="Almn78-a47722-d1e2502">
+                  <lb ed="#Ba"/>Ad dictum Augustini dicendum, quod
+<lb ed="#Ba"/>Auguslinus accipit fatum secundum 
+ac<lb ed="#Ba" break="no"/>ceptionem Mathematicorum, et non 
+se<lb ed="#Ba" break="no"/>cundum veram et perfectam rationem 
+ip<lb ed="#Ba" break="no"/>sius.
+</p>
+               <p xml:id="Almn78-a47722-d1e2515">
+                  <lb ed="#Ba"/>Ad id quod ulterius querilur, jam 
+pa<lb ed="#Ba" break="no"/>tet solutio. Omnia enim que per 
+ordi<lb ed="#Ba" break="no"/>nem causarum deducuntur et 
+descen<lb ed="#Ba" break="no"/>dunt a providentia, sive ille cause sint
+<lb ed="#Ba"/>voluntariae, sive naturales, fato 
+subja<lb ed="#Ba" break="no"/>cent : que autem immediate sunt a Deo,
+<lb ed="#Ba"/>fato subjacere non possunt, propter 
+ra<lb ed="#Ba" break="no"/>tiones jam positas.
+</p>
+               <p xml:id="Almn78-a47722-d1e2535">
+                  <lb ed="#Ba"/>Ad dictum tamen Augustini 
+dicen<lb ed="#Ba" break="no"/>dum, quod Augustinus non intendit,
+<lb ed="#Ba"/>quod sexus corporis non subjaceant fato,
+<lb ed="#Ba"/>et quod fatum radicetur in stellis : quia
+<lb ed="#Ba"/>hoc esset falsum : sed intendit, quod 
+po<lb ed="#Ba" break="no"/>sitio stellarum non sit tota et sola causa
+<lb ed="#Ba"/>eorum que fiunt naturaliter in 
+corpori<lb ed="#Ba" break="no"/>bus, propter rationes superius a 
+Ptole<lb ed="#Ba" break="no"/>mo inductas. -
+</p>
+               <p xml:id="Almn78-a47722-d1e2557">
+                  <lb ed="#Ba"/>Av w quod ulterius queritur, patet
+<pb ed="#Ba" n="705"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>jam solutio. Quedam enim sunt sub
+<lb ed="#Ba"/>providentia, que non sunt sub fato, 
+sic<lb ed="#Ba" break="no"/>ut que immediate a Deo sunt: et hoc
+<lb ed="#Ba"/>intendit dicere Boetius.
+</p>
+               <p xml:id="Almn78-a47722-d1e2576">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod cum dicitur, quod 
+que<lb ed="#Ba" break="no"/>que nectit fatum, signum distributivum,
+<lb ed="#Ba"/>queque, non distribuit nisi pro 
+fatali<lb ed="#Ba" break="no"/>bus: et illa sunt que non immediate,
+<lb ed="#Ba"/>sed secundum ordinem causarum a 
+pro<lb ed="#Ba" break="no"/>videntia descendunt.
+</p>
+               <p xml:id="Almn78-a47722-d1e2594">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod mobilis 
+ne<lb ed="#Ba" break="no"/>xus non est nisi in rebus mobilibus : et
+<lb ed="#Ba"/>ideo nec sub dispositione tali sunt, nisi
+<lb ed="#Ba"/>ea que mobiliter gerenda Deus 
+dispo<lb ed="#Ba" break="no"/>suit.
+</p>
+               <p xml:id="Almn78-a47722-d1e2607">
+                  <lb ed="#Ba"/>Apip quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod non est dubium quin malum
+<lb ed="#Ba"/>pene sub fato sit. Malum autem culpe
+<lb ed="#Ba"/>dupliciter consideratur, scilicet prout est
+<lb ed="#Ba"/>in fieri, et prout est in ordine ad 
+alte<lb ed="#Ba" break="no"/>rum. Primo modo malum culpx sub
+<lb ed="#Ba"/>fato non est : quia fatum non compellit
+<lb ed="#Ba"/>aliquem facere malum. Secundo modo
+<lb ed="#Ba"/>nihil prohibet malum culpz esse sub 
+fa<lb ed="#Ba" break="no"/>to: dispositione enim fatali ordinatur ad
+<lb ed="#Ba"/>bonum quod elicitur inde.
+</p>
+               <p xml:id="Almn78-a47722-d1e2633">
+                  <lb ed="#Ba"/>Ad dictum Boetii quod adducitur in
+<lb ed="#Ba"/>contrarium, dicendum quod _ ipsemet
+<lb ed="#Ba"/>Boetius causam assignat dicti sui. Dicit
+<lb ed="#Ba"/>enim, quod providentia res mutabiles et
+<lb ed="#Ba"/>alioquin temere fluituras (et malas 
+futu<lb ed="#Ba" break="no"/>ras) fati incommutabilitate coercet : et
+<lb ed="#Ba"/>sic eliminatur ab eis malum, hoc scilicet
+<lb ed="#Ba"/>quod temere defluerent. Potest etiam 
+di<lb ed="#Ba" break="no"/>ci, quod per fatum ipsum malum 
+ordi<lb ed="#Ba" break="no"/>nem boni habet, ut scilicet bonum 
+eli<lb ed="#Ba" break="no"/>ciatur ab ipso : et sic malum in toto 
+ma<lb ed="#Ba" break="no"/>lum non est, sed eliminatur per 
+disposi<lb ed="#Ba" break="no"/>tionem fatalem, que non cogit ad
+<lb ed="#Ba"/>malum, sed etiam ipsum factum ordinat.
+</p>
+               <p xml:id="Almn78-a47722-d1e2666">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, Si 
+ip<lb ed="#Ba" break="no"/>sum fatum imponat necessitatem ?
+</p>
+               <p xml:id="Almn78-a47722-d1e2673">
+                  <lb ed="#Ba"/>Dicendum, quod necessitatem 
+simpli<lb ed="#Ba" break="no"/>citer non imponit, sicut nec providentia.
+<lb ed="#Ba"/>Et hujus causam assignat Boetius, 
+scili<lb ed="#Ba" break="no"/>cet quia nec providentia nec fatum sunt
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>tota causa eorum que subjacent eis :
+<lb ed="#Ba"/>sed sub fato et providentia sunt cause
+<lb ed="#Ba"/>contingentes, ut liberum arbitrium, que
+<lb ed="#Ba"/>sunt vere cause et proxime eorum qua
+<lb ed="#Ba"/>fiunt, a quibus providentia et fatum 
+mo<lb ed="#Ba" break="no"/>dum causalifatis non tollit : et ideo
+<lb ed="#Ba"/>que fiunt ab ipsis, contingenter fiunt,
+<lb ed="#Ba"/>quando, respectu ejusdem sunt 
+provi<lb ed="#Ba" break="no"/>dentia et fatum et liberum arbitrium.
+<lb ed="#Ba"/>Unde eliam Augustinus dicit, quod
+<lb ed="#Ba"/>per liberum arbitrium futurum est,
+<lb ed="#Ba"/>etiamsi providentia sit de ipso, et sic
+<lb ed="#Ba"/>provisum non de necessitate futurum est,
+<lb ed="#Ba"/>sed de voluntate futurum est : sed 
+ne<lb ed="#Ba" break="no"/>cessitatem ordinis ponit sicut et 
+provi<lb ed="#Ba" break="no"/>dentia : sed hac necessitas non est 
+ne<lb ed="#Ba" break="no"/>cessitas nisi secundum quid, ut sepius
+<lb ed="#Ba"/>dictum est. |
+</p>
+               <p xml:id="Almn78-a47722-d1e2726">
+                  <lb ed="#Ba"/>Ad ossectionem Tullii quam ponit 
+Au<lb ed="#Ba" break="no"/>gustinus in libro V de Civitate Dei, et
+<lb ed="#Ba"/>Gregorius Nyssenus in ultimo cap. de
+<lb ed="#Ba"/>homine, dicendum quod cum dicit : Si
+<lb ed="#Ba"/>certus est ordo causarum, quod tunc 
+se<lb ed="#Ba" break="no"/>quuntur inconvenientia que inducit :
+<lb ed="#Ba"/>dicendum, quod duplex est certitudo
+<lb ed="#Ba"/>causarum, scilicet certitudo in esse 
+ordi<lb ed="#Ba" break="no"/>nis, et certitudo in causando. Primo 
+mo<lb ed="#Ba" break="no"/>do certus est ordo causarum, et nihil
+<lb ed="#Ba"/>sequitur inconveniens : quia sic 
+contin<lb ed="#Ba" break="no"/>gens remanet contingens, et necessarium
+<lb ed="#Ba"/>necessarium, et neutrum alteri 
+prejudi<lb ed="#Ba" break="no"/>cat : quamvis contingens sit sub 
+neces<lb ed="#Ba" break="no"/>sario, sicut vult Aristoteles in IT 
+Peri<lb ed="#Ba" break="no"/>hermenias, et in libris prime 
+philoso<lb ed="#Ba" break="no"/>phie. Certitudine autem in causando non
+<lb ed="#Ba"/>est certus ordo causarum, nisi in causis
+<lb ed="#Ba"/>necessarlis : quod enim  contingenter
+<lb ed="#Ba"/>causat, non certe causat. Et verum est
+<lb ed="#Ba"/>quod si hoc modo esset certus ordo 
+cau<lb ed="#Ba" break="no"/>sarum, sequerentur inconvenientia que
+<lb ed="#Ba"/>infert Tullius et alii negantes 
+providen<lb ed="#Ba" break="no"/>tiam. Sed quia prima certitudo non 
+tol<lb ed="#Ba" break="no"/>lit contingentiam a causis, propter illas
+<lb ed="#Ba"/>que mobiliter se habent ad causandum,
+<lb ed="#Ba"/>ad haec necessaria sunt leges, consilia,
+<lb ed="#Ba"/>et deliberationes, et objurgationes, et
+<lb ed="#Ba"/>laudes, quibus ad bonum ordinetur 
+mo<lb ed="#Ba" break="no"/>bilitas causarum contingentium,
+</p>
+            </div>
+            <div xml:id="Almn78-a47722-Dd1e2795">
+               <head xml:id="Almn78-a47722-Hd1e2797">Membrum 4</head>
+               <head xml:id="Almn78-a47722-Hd1e2800" type="question-title">
+  In quo differat fatum a fortuna
+  et eupraxia
+</head>
+               <p xml:id="Almn78-a47722-d1e2803">
+                  <pb ed="#Ba" n="706"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>In quo differat fatum a fortuna
+<lb ed="#Ba"/>et eupraxia ?
+</p>
+               <p xml:id="Almn78-a47722-d1e2816">
+                  <lb ed="#Ba"/>Quarto queritur, In quo fatum differt
+<lb ed="#Ba"/>a fortuna et eupraxia? De hoc enim
+<lb ed="#Ba"/>querit Gregorius Nyssenus in ultima
+<lb ed="#Ba"/>parte libri sui quem fecit de homine.
+</p>
+               <p xml:id="Almn78-a47722-d1e2827">
+                  <lb ed="#Ba"/>Et videtur, quod in nullo.
+<lb ed="#Ba"/>1. Dicit enim Gregorius Nyssenus, quod
+<lb ed="#Ba"/>sapientissimi Grecorum dicunt 
+electio<lb ed="#Ba" break="no"/>nes gestorum sive gerendorum esse in
+<lb ed="#Ba"/>nobis, proventum autem eorum que 
+eli<lb ed="#Ba" break="no"/>guntur, esse in fortuna. Et addit, quod
+<lb ed="#Ba"/>sic dicentes, uno quidem modo verum 
+di<lb ed="#Ba" break="no"/>cunt,alio vero falluntur: nam hoc quidem
+<lb ed="#Ba"/>quod in nobis ponunt electiones gestorum
+<lb ed="#Ba"/>sive gerendorum, non omnino autem in
+<lb ed="#Ba"/>nobis esse proventus electorum, 
+rectissi<lb ed="#Ba" break="no"/>me dicunt. Fortunc vero imponere hos,
+<lb ed="#Ba"/>hoc est, proventus electorum, non recte
+<lb ed="#Ba"/>dicunt. Ex hoc videtur, quod fatum_ sit
+<lb ed="#Ba"/>fortuna. Proventus enim electorum a
+<lb ed="#Ba"/>nobis ad finem deducitur fato: et cum
+<lb ed="#Ba"/>ad idem sit fortuna et fatum, videntur
+<lb ed="#Ba"/>idem esse.
+</p>
+               <p xml:id="Almn78-a47722-d1e2870">
+                  <lb ed="#Ba"/>2. Adhuc Gregorius ibidem, paulo
+<lb ed="#Ba"/>post : <quote xml:id="Almn78-a47722-Qd1e2876"> Fortuna cum apud Grecos
+<lb ed="#Ba"/>eluapyéva dicatur, ex eo quod est poipa
+<lb ed="#Ba"/>quedam, id est, ordo causarum 
+intrans<lb ed="#Ba" break="no"/>gressibilis : ita enim eam Stoici 
+deter<lb ed="#Ba" break="no"/>minant, hoc est, ordinem et 
+supercolli<lb ed="#Ba" break="no"/>gationem intransgressibilem. </quote> Ex hoe
+<lb ed="#Ba"/>videtur, cum fatum sit ordo causarum
+<lb ed="#Ba"/>intransgressibilis, ut dictum est, quod
+<lb ed="#Ba"/>fortuna et fatum idem sunt.
+</p>
+               <p xml:id="Almn78-a47722-d1e2897">
+                  <lb ed="#Ba"/>3. Adhuc, Non videtur esse bene 
+di<lb ed="#Ba" break="no"/>clum, quod gerendorum electio sit in 
+no<lb ed="#Ba" break="no"/>bis, proventus autem electorum ad 
+no<lb ed="#Ba" break="no"/>cumentum vel utilitatem, sit sub 
+fortu<lb ed="#Ba" break="no"/>ha: secundum hoc enim fortuna est
+<lb ed="#Ba"/>imperfecta, ut dicit Gregorius Nyssenus,
+<lb ed="#Ba"/>quedam sub se habens, et quedam non.
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>4. Adhuc, Sicut idem opponit 
+Grego<lb ed="#Ba" break="no"/>rius, secundum hoc fortuna non est nisi
+<lb ed="#Ba"/>prius electorum a nobis: et sic eleclic
+<lb ed="#Ba"/>nostra prevenit fortunam : ergo fortuna
+<lb ed="#Ba"/>potius movetur a nobis et informatur
+<lb ed="#Ba"/>quam moveat nos et informet : et sic 
+ho<lb ed="#Ba" break="no"/>mo causa fortunc est, et non fortuna
+<lb ed="#Ba"/>causa hominis in eventibus : et hoc est
+<lb ed="#Ba"/>contrarium ejus quod dicunt Grecorum
+<lb ed="#Ba"/>sapientes, qui dicunt fortunam nobis esse
+<lb ed="#Ba"/>causam in eventibus, et non nos 
+fortu<lb ed="#Ba" break="no"/>ne.
+</p>
+               <p xml:id="Almn78-a47722-d1e2943">
+                  <lb ed="#Ba"/>5. Adhuc, Ibidem inducit Platonem,
+<lb ed="#Ba"/>sic dicens : <quote xml:id="Almn78-a47722-Qd1e2949"> Plato vero dupliciter dicit
+<lb ed="#Ba"/>fortunam : hanc quidem secundum  
+sub<lb ed="#Ba" break="no"/>stantiam, aliam vero secundum actum.
+<lb ed="#Ba"/>Secundum substantiam quidem hujus 
+to<lb ed="#Ba" break="no"/>tius, hoc est, universi animam. 
+Secun<lb ed="#Ba" break="no"/>dum actionem vero divinam legem 
+im<lb ed="#Ba" break="no"/>prevaricabilem propter causam 
+ineflugi<lb ed="#Ba" break="no"/>bilem. Vocant autem et hance 
+constilu<lb ed="#Ba" break="no"/>tionem immutabilem. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e2970">
+                  <lb ed="#Ba"/>6. Adhuc, Gregorius, ibidem : <quote xml:id="Almn78-a47722-Qd1e2974"> Plato
+<lb ed="#Ba"/>dicit hanc legem datam esse a primo cl
+<lb ed="#Ba"/>supremo Deo totius anime in 
+decoratio<lb ed="#Ba" break="no"/>nem universorum, secundum quam 
+de<lb ed="#Ba" break="no"/>ducit ea que fiunt. </quote> Sed fatum est 
+se<lb ed="#Ba" break="no"/>cundum quod deducitur unumquodque
+<lb ed="#Ba"/>quod fit. Ergo fatum est fortuna.
+</p>
+               <p xml:id="Almn78-a47722-d1e2990">
+                  <lb ed="#Ba"/>7. Adhuc, Gregorius, ibidem : <quote xml:id="Almn78-a47722-Qd1e2994"> Plato
+<lb ed="#Ba"/>hanc que est secundum actum 
+fortu<lb ed="#Ba" break="no"/>nam, dicit etiam esse secundum 
+provi<lb ed="#Ba" break="no"/>dentiam. A”providentia enim dicit 
+con<lb ed="#Ba" break="no"/>tineri fortunam. Omne enim quod 
+secun<lb ed="#Ba" break="no"/>dum fortunam est et secundum 
+provi<lb ed="#Ba" break="no"/>dentiam dicit fierl : non tamen omne
+<lb ed="#Ba"/>quod secundum providentiam est, et
+<lb ed="#Ba"/>secundum fortunam esse dicit. </quote> Sed
+<lb ed="#Ba"/>ita se habet fatum ad providentiam, 
+sci<lb ed="#Ba" break="no"/>licet quod providentia continct fatum.
+<lb ed="#Ba"/>Ergo fatum et fortuna sunt idem.
+</p>
+               <p xml:id="Almn78-a47722-d1e3021">
+                  <lb ed="#Ba"/>8. Adhuc, Aristoteles disputans de
+<lb ed="#Ba"/>fortuna querit, Utrum sit natura vel 
+in<lb ed="#Ba" break="no"/>tellectus ? Si enim natura sit; tunc 
+om<lb ed="#Ba" break="no"/>nium quorum est una natura, esset 
+for<lb ed="#Ba" break="no"/>tuna, quod falsum est.
+</p>
+               <p xml:id="Almn78-a47722-d1e3035">
+                  <lb ed="#Ba"/>9. Adhuc, Ab omnibus a quibus 
+po<lb ed="#Ba" break="no"/>nitur fortuna, quasi pro principio 
+poni<lb ed="#Ba" break="no"/>tur, quod est dirigens naturam et re
+<pb ed="#Ba" n="707"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>gens. Regens autem et dirigens, melius
+<lb ed="#Ba"/>est recto et directo. Ergo fortuna aliquid
+<lb ed="#Ba"/>melius est, quam natura,
+</p>
+               <p xml:id="Almn78-a47722-d1e3055">
+                  <lb ed="#Ba"/>10. Adhuc, Aristoteles probat, quod
+<lb ed="#Ba"/>non est intellectus. Intellectus enim 
+sem<lb ed="#Ba" break="no"/>per rectus est : fortuna autem et recta et
+<lb ed="#Ba"/>non recta. Aliquando enim indigni 
+mul<lb ed="#Ba" break="no"/>ta habent eufortunia, et digni infortunia,
+<lb ed="#Ba"/>ut in divinis Job, et in poeticis heroicis
+<lb ed="#Ba"/>Priamus. Ergo fortuna non est 
+intelle<lb ed="#Ba" break="no"/>ctus secundum Aristotelem. Ergo ex 
+li<lb ed="#Ba" break="no"/>hello de Fortuna, fortuna est melius 
+na<lb ed="#Ba" break="no"/>lura, naturam dirigens et deducens ad
+<lb ed="#Ba"/>debitum finem. Hoc autem est fatum, ut
+<lb ed="#Ba"/>patet ex philosophicis. Ergo fortuna et
+<lb ed="#Ba"/>fatum sunt idem.
+</p>
+               <p xml:id="Almn78-a47722-d1e3086">
+                  <lb ed="#Ba"/>Urreris, Aristoteles dicit eupraxiam
+<lb ed="#Ba"/>esse eorum qui prosperantur in boni
+<lb ed="#Ba"/>clectione, cacopraxiam autem eorum qui
+<lb ed="#Ba"/>mala eligunt. Et queritur, Utrum 
+fortu<lb ed="#Ba" break="no"/>na sit eupraxia, vel fatum ? Et videtur,
+<lb ed="#Ba"/>quod sic : fatum enim sive fortuna est
+<lb ed="#Ba"/>quod nectit unumquodque suis 
+ordini<lb ed="#Ba" break="no"/>bus. Sed per eupraxiam electio nectitur
+<lb ed="#Ba"/>bono. Ergo eupraxia fatum est vel 
+for<lb ed="#Ba" break="no"/>tuna, Cause enim eedem sunt, quarum
+<lb ed="#Ba"/>est una ratio causalitatis et unus 
+effe<lb ed="#Ba" break="no"/>clus,
+</p>
+               <p xml:id="Almn78-a47722-d1e3115">
+                  <lb ed="#Ba"/>IN conrRARIUM hujus est, quod 
+eupra<lb ed="#Ba" break="no"/>xia dirigit electionem que in nobis est,
+<lb ed="#Ba"/>fortuna vero exteriorum dicitur esse 
+bo<lb ed="#Ba" break="no"/>norum.
+</p>
+               <p xml:id="Almn78-a47722-d1e3126">
+                  <lb ed="#Ba"/>Uterus queritur, Utrum Christus
+<lb ed="#Ba"/>secundum animam et corpus subjacuit
+<lb ed="#Ba"/>fato, vel fortunc, vel eupraxie ?
+</p>
+               <p xml:id="Almn78-a47722-d1e3135">
+                  <lb ed="#Ba"/>Et videtur, quod non. Conditor enim
+<lb ed="#Ba"/>legum non subjacet legi. Fatum autem
+<lb ed="#Ba"/>est. dispositio vel lex inherens rebus
+<lb ed="#Ba"/>mobilibus, per quam providentia 
+que<lb ed="#Ba" break="no"/>que suis nectit ordinibus : et hujus 
+con<lb ed="#Ba" break="no"/>ditor Christus est : cum ipse sicut 
+dici<lb ed="#Ba" break="no"/>tur, Tad Corinth. 1, 24, sit Dei virtus et
+<lb ed="#Ba"/>sapientia. Videtur ergo, quod fato et
+<lb ed="#Ba"/>futunc non subjacuerit.
+</p>
+               <p xml:id="Almn78-a47722-d1e3158">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+</p>
+               <p xml:id="Almn78-a47722-d1e3163">
+                  <lb ed="#Ba"/>1. Christus assumpsit nostros defectus
+<lb ed="#Ba"/>indetractabiles, ut  dicit Damascenus.
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Unus autem et precipuus nostrorum 
+de<lb ed="#Ba" break="no"/>fectuum est subjacere fato et fortunc.
+<lb ed="#Ba"/>Ergo illum assumpsit Christus.
+</p>
+               <p xml:id="Almn78-a47722-d1e3179">
+                  <lb ed="#Ba"/>2. Adhuc, Omnibus mobilibus 
+adhe<lb ed="#Ba" break="no"/>ret dispositio que est fatum: Christus
+<lb ed="#Ba"/>mobilis fuit secundum corpus : hoc 
+con<lb ed="#Ba" break="no"/>stat.Mobilis etiam fuit secundum 
+electio<lb ed="#Ba" break="no"/>nem : quia dicitur, Luc. quod puer Je-
+</p>
+               <p xml:id="Almn78-a47722-d1e3192">
+                  <lb ed="#Ba"/>sus proficiebat sapientia, et xtate, et.
+</p>
+               <p xml:id="Almn78-a47722-d1e3197">
+                  <lb ed="#Ba"/>gratia apud Deum et homines. Ergo
+<lb ed="#Ba"/>videtur, quod secundum corpus et 
+ani<lb ed="#Ba" break="no"/>mam fato subjacuit et fortunc.
+</p>
+               <p xml:id="Almn78-a47722-d1e3206">
+                  <lb ed="#Ba"/>3. Adhuc, Matth. u, 2, dicunt Magi:
+<lb ed="#Ba"/>Vidimus stellam egus in Oriente. Ergo
+<lb ed="#Ba"/>videlur, quod quantum ad nativitatem
+<lb ed="#Ba"/>subjacuit stelle. Ergo fato, secundum
+<lb ed="#Ba"/>quod fatum radicatur in positione 
+side<lb ed="#Ba" break="no"/>rum.
+</p>
+               <p xml:id="Almn78-a47722-d1e3223">
+                  <lb ed="#Ba"/>Solutio. Fortuna wultipliciter dicitur,
+<lb ed="#Ba"/>Aliquando dicitur fortuna tota dispositio
+<lb ed="#Ba"/>a providentia influxa rebus mobilibus
+<lb ed="#Ba"/>secundum totum ordinem causarum 
+pri<lb ed="#Ba" break="no"/>marum, mediarum, et proximarum,
+<lb ed="#Ba"/>qua unumquodque debito nectitur 
+ordi<lb ed="#Ba" break="no"/>ni : et sic fortuna sumitur a Platone, et
+<lb ed="#Ba"/>convertitur cum fato. Unde Gregorius de
+<lb ed="#Ba"/>Platone : <quote xml:id="Almn78-a47722-Qd1e3244"> Secundum hoc quidem quod
+<lb ed="#Ba"/>Plato vocat Dei ordinationem et 
+volun<lb ed="#Ba" break="no"/>tatem fortunam, et secundum hoc quod
+<lb ed="#Ba"/>fortunam supponit provideniie#, parum
+<lb ed="#Ba"/>quid differt a divinis eloquiis, dicentibus
+<lb ed="#Ba"/>providentiam solam dispensare omnia. </quote>
+                  <lb ed="#Ba"/>Aliquando autem fortuna dicitur 
+disposi<lb ed="#Ba" break="no"/>tio vel virtus sive potentia innata ex 
+po<lb ed="#Ba" break="no"/>sitione siderum in circulo nativitatis, et
+<lb ed="#Ba"/>per nativitatem inherens nato, et 
+mo<lb ed="#Ba" break="no"/>vens eum ut impetum faciat ad 
+succes<lb ed="#Ba" break="no"/>sus electionum bonos vel malos per 
+to<lb ed="#Ba" break="no"/>tam vitam. Et sic Astronomi ponunt 
+for<lb ed="#Ba" break="no"/>tunam. Unde in circulo nativitatis 
+par<lb ed="#Ba" break="no"/>tem fortunc inveniunt, et omnem 
+stel<lb ed="#Ba" break="no"/>lam ceeli ad circulum nativitatis 
+redu<lb ed="#Ba" break="no"/>cunt.
+</p>
+               <p xml:id="Almn78-a47722-d1e3282">
+                  <lb ed="#Ba"/>Dicunt enim, quod signum in 
+astro<lb ed="#Ba" break="no"/>nomia quinque modis accipitur. Uno
+<lb ed="#Ba"/>modo dicitur signum latitudo duodecim
+<lb ed="#Ba"/>graduum in zodiaco, et longitudo 
+trigin<lb ed="#Ba" break="no"/>ta graduum, que est quadrangula super
+<pb ed="#Ba" n="708"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ficies zodiaci: et sic duodecim signa
+<lb ed="#Ba"/>sunt in zodiaco, hoc est, duodecim 
+qua<lb ed="#Ba" break="no"/>drangule superficies, quarum quelibet
+<lb ed="#Ba"/>est duodecim graduum in latitudine, et
+<lb ed="#Ba"/>triginta in longitudine. Et sic non est in
+<lb ed="#Ba"/>signo, nisi stella stans sub illa 
+superfi<lb ed="#Ba" break="no"/>cie.
+</p>
+               <p xml:id="Almn78-a47722-d1e3315">
+                  <lb ed="#Ba"/>Secundo modo dicitur signum 
+super<lb ed="#Ba" break="no"/>ficies hexagona que describitur quatuor
+<lb ed="#Ba"/>lineis quadranguli quod dictum est, 
+in<lb ed="#Ba" break="no"/>tellecto quod due linee protrahantur a
+<lb ed="#Ba"/>duobus angulis quadranguli 
+aquilonari<lb ed="#Ba" break="no"/>bus in polum aquilonarem, et ibi 
+con<lb ed="#Ba" break="no"/>cludant angulum : et similiter due 
+in<lb ed="#Ba" break="no"/>telligantur protrahi a duobus angulis
+<lb ed="#Ba"/>dicti quadranguli australibus in polum
+<lb ed="#Ba"/>australem : sic enim describitur 
+superfi<lb ed="#Ba" break="no"/>cies hexagona. Et sic omnis stella cceli
+<lb ed="#Ba"/>erit in aliquo signo,et ornnis planeta 
+mo<lb ed="#Ba" break="no"/>vetur in signo : eo quod si talis 
+super<lb ed="#Ba" break="no"/>ficies accipiatur, tota quantitas concavi
+<lb ed="#Ba"/>ceeli intra signa illa continetur.
+</p>
+               <p xml:id="Almn78-a47722-d1e3350">
+                  <lb ed="#Ba"/>Tertio modo dicitur signum figura ex
+<lb ed="#Ba"/>dispositione stellarum descripta in signo,
+<lb ed="#Ba"/>sicut dicitur Aries, Taurus, etc., que
+<lb ed="#Ba"/>nomina, sicut dicit Ptolemzus, pastores
+<lb ed="#Ba"/>invenerunt. Et sic non est in signo, nisi
+<lb ed="#Ba"/>stella cujus positione talis figura 
+descri<lb ed="#Ba" break="no"/>bitur.
+</p>
+               <p xml:id="Almn78-a47722-d1e3368">
+                  <lb ed="#Ba"/>Sed quia dicit Ptolemeus, quod 
+vir<lb ed="#Ba" break="no"/>tus stellarum circuli non congregatur,
+<lb ed="#Ba"/>nisi in centro, eo quod nihil respiciunt
+<lb ed="#Ba"/>nisi centrum, ideo quarto modo dicunt
+<lb ed="#Ba"/>signum corpus, cujus basis in circulo est
+<lb ed="#Ba"/>quadrangulum primo descriptum, et
+<lb ed="#Ba"/>profunditas in centro describitur quatuor
+<lb ed="#Ba"/>lineis protractis ab angulis illius basis
+<lb ed="#Ba"/>in centrum: tunc enim habet 
+latitudi<lb ed="#Ba" break="no"/>nem, longitudinem, et profunditatem,
+<lb ed="#Ba"/>que corpus constituunt. Et sic stelle 
+si<lb ed="#Ba" break="no"/>gni referuntur ad centrum. Et quia 
+na<lb ed="#Ba" break="no"/>torum sive generatorum non est idem
+<lb ed="#Ba"/>centrum, sequitur quod nullus natorum
+<lb ed="#Ba"/>cum alio est in eodem signo.
+</p>
+               <p xml:id="Almn78-a47722-d1e3403">
+                  <lb ed="#Ba"/>Quinto modo dicunt segnum esse corpus,
+<lb ed="#Ba"/>cujus basis est superficies hexagona 
+pau<lb ed="#Ba" break="no"/>lo ante descripta, et conclusio ad 
+cen<lb ed="#Ba" break="no"/>trum, sex lineis intellectualibus 
+produ<lb ed="#Ba" break="no"/>ctis ab angulis hexagoni in centrum, in-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>ter quas diffunditur virtus omnium 
+stcl<lb ed="#Ba" break="no"/>larum. Et quia numquam potest eadem
+<lb ed="#Ba"/>esse penitus longitudo et latitudo 
+diver<lb ed="#Ba" break="no"/>sorum natorum in diversitate climatum,
+<lb ed="#Ba"/>propter hoc numquam est idem 
+circu<lb ed="#Ba" break="no"/>lus periodalis duorum natorum, etiamsi
+<lb ed="#Ba"/>gemini sunt in uno utero. Longitudinem
+<lb ed="#Ba"/>enim vocant quantitatem arcus circuli,
+<lb ed="#Ba"/>qui est ab Oriente usque ad centrum
+<lb ed="#Ba"/>nati, quem circulum colurum vocant.
+</p>
+               <p xml:id="Almn78-a47722-d1e3441">
+                  <lb ed="#Ba"/>Latitudinem vero vocant quantitatem
+<lb ed="#Ba"/>arcus qui accipitur ab xquinoctiali 
+us<lb ed="#Ba" break="no"/>que (ad centrum nati, quem cirealum
+<lb ed="#Ba"/>meridianum vocant Astronomi.
+</p>
+               <p xml:id="Almn78-a47722-d1e3452">
+                  <lb ed="#Ba"/>Dicunt ergo, quod si vis stellarum 
+ac<lb ed="#Ba" break="no"/>cipiatur prout diffusa est in signis coli
+<lb ed="#Ba"/>et mediis ‘per que diffundunt virtutes
+<lb ed="#Ba"/>stella, et proximis que alterant 
+mate<lb ed="#Ba" break="no"/>riam generatorum, falum dicitur. Si
+<lb ed="#Ba"/>autem accipitur qualitas habitualis sive
+<lb ed="#Ba"/>dispositio ex omnibus his adherens 
+na<lb ed="#Ba" break="no"/>to, dicitur fortuna : que dividitur in 
+eu<lb ed="#Ba" break="no"/>fortunium et in infortunium, eo quod
+<lb ed="#Ba"/>influxu qualitatis aliquando 
+predomi<lb ed="#Ba" break="no"/>natur stella benevolz, aliquando 
+male<lb ed="#Ba" break="no"/>vole.
+</p>
+               <p xml:id="Almn78-a47722-d1e3481">
+                  <lb ed="#Ba"/>Addunt etiam, quod 
+maxime_horri<lb ed="#Ba" break="no"/>bile est, quod quia talis ordo causarum
+<lb ed="#Ba"/>certus est, fundatus motu regulari et
+<lb ed="#Ba"/>uniformi ccelestium, ideo certus et 
+ne<lb ed="#Ba" break="no"/>cessarius est cursus fati, et etiam cursus
+<lb ed="#Ba"/>fortunc. Unde Homerus: <quote xml:id="Almn78-a47722-Qd1e3496"> Inveniunt
+<lb ed="#Ba"/>sibi fata viam. </quote> Et hoc contra fidem,
+<lb ed="#Ba"/>sicut patuit in precedentibus de fato,
+<lb ed="#Ba"/>Unde Gregorius Nyssenus in libro de
+<lb ed="#Ba"/>homine :<quote xml:id="Almn78-a47722-Qd1e3507"> Stoici aiunt restitutos planetas
+<lb ed="#Ba"/>in idem signum secundum longitudinem
+<lb ed="#Ba"/>et latitudinem, ubi in principio 
+unus<lb ed="#Ba" break="no"/>quisque erat cum primum mundus 
+con<lb ed="#Ba" break="no"/>stitutus est, in dictis temporum 
+circum<lb ed="#Ba" break="no"/>itionibus incendium et corruptionem 
+eo<lb ed="#Ba" break="no"/>rum que sunt, perpetrari, et rursus a
+<lb ed="#Ba"/>principio in eumdem mundum restitui,
+<lb ed="#Ba"/>et rursus unumquodque astrorum in
+<lb ed="#Ba"/>priore circumitione figens - secundum
+<lb ed="#Ba"/>longitudinem et latitudinem 
+indissimi<lb ed="#Ba" break="no"/>liter alium mundum perfici. Futurum
+<lb ed="#Ba"/>enim rursus esse Socratem et Platonem
+<lb ed="#Ba"/>et unumquemque hominem cum eis
+<pb ed="#Ba" n="709"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>dem et amicis et civibus, et eadem 
+sua<lb ed="#Ba" break="no"/>dere, et cum eisdem colloqui, et 
+om<lb ed="#Ba" break="no"/>nem civitatem et municipium et agrum
+<lb ed="#Ba"/>similiter instaurari ut prius. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e3552">
+                  <lb ed="#Ba"/>Addunt etiam deos, sive corporeos,
+<lb ed="#Ba"/>sive incorporeos, sive ccelestes, sive 
+ter<lb ed="#Ba" break="no"/>restres, sive infernales, qui non 
+subji<lb ed="#Ba" break="no"/>ciuntur corruptioni huic que mortalium
+<lb ed="#Ba"/>est, cum assecuti fuerint unam 
+circum<lb ed="#Ba" break="no"/>itionem, hoc est, perfecte cognoverunt,
+<lb ed="#Ba"/>ex hac cognoscere omnia que sunt 
+futu<lb ed="#Ba" break="no"/>ra in his que deinceps sunt 
+circumitio<lb ed="#Ba" break="no"/>nibus. Nullum enim extraneum futurum
+<lb ed="#Ba"/>esse dicunt, preterquam ea que facta
+<lb ed="#Ba"/>sunt prius, sed omnia similiter et 
+immu<lb ed="#Ba" break="no"/>labiliter esse in una circumitione sicut
+<lb ed="#Ba"/>in alia etiam usque ad minima. Tempus
+<lb ed="#Ba"/>autem unius circumitionis dicunt esse
+<lb ed="#Ba"/>triginita sex millia annorum quod vocant
+<lb ed="#Ba"/>magnum annum, in quo sicut dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in primo primae philosophiae, dii
+<lb ed="#Ba"/>ceelestes jurejurando confirmaverunt ad
+<lb ed="#Ba"/>idem principium circumitionis se 
+reditu<lb ed="#Ba" break="no"/>ros, et similem circumitionem ut prius
+<lb ed="#Ba"/>se perfecturos. Et quia sic fatum et 
+for<lb ed="#Ba" break="no"/>tunam in diis ceelestibus radicaliter 
+po<lb ed="#Ba" break="no"/>suerunt, ideo fatum et fortunam pro diis
+<lb ed="#Ba"/>colebant supplicationibus et sacrificiis.
+<lb ed="#Ba"/>Sicut dicitur, Isaiw, uxv, 11 et 12: Qui
+<lb ed="#Ba"/>ponitis fortunc mensam, et libatis super
+<lb ed="#Ba"/>eam, numerabo vos in gladio, et omnes
+<lb ed="#Ba"/>in cede corruetis.
+</p>
+               <p xml:id="Almn78-a47722-d1e3615">
+                  <lb ed="#Ba"/>Ad osszcra ergo dicendum est primo,
+<lb ed="#Ba"/>quod verum est, quod quidam 
+Stoico<lb ed="#Ba" break="no"/>rum, ut Socrates et Plato, dixerunt 
+for<lb ed="#Ba" break="no"/>tunam et fatum incipere a providentia,
+<lb ed="#Ba"/>que omnibus aliis influit dispositionem
+<lb ed="#Ba"/>qua suis ordinibus connectuntur. Et illi
+<lb ed="#Ba"/>dixerunt, quod neque sub providentia,
+<lb ed="#Ba"/>neque sub fato, neque sub fortuna, sed
+<lb ed="#Ba"/>in nobis tantum sunt nostre electiones,
+<lb ed="#Ba"/>qua scilicet unus eligit navigare, alter
+<lb ed="#Ba"/>peregrinari, alter mercari, et sic de
+<lb ed="#Ba"/>aliis : sed successus electorum ad 
+pro<lb ed="#Ba" break="no"/>sperum vel non prosperum, 
+suppone<lb ed="#Ba" break="no"/>bant providentie fato et fortunc. Et
+<lb ed="#Ba"/>illa, sicut dicit Gregorius Nyssenus,
+<lb ed="#Ba"/>ponebant non esse} nisi de his que
+<lb ed="#Ba"/>fiunt supposito quodam alio, hoc est,
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>electione nostra. Et objicit contra
+<lb ed="#Ba"/>hoc dicens, quodsecundum hoc 
+provi<lb ed="#Ba" break="no"/>dentia, fatum, et fortuna non sunt nisi
+<lb ed="#Ba"/>de his que habent electionem. Moriones
+<lb ed="#Ba"/>autem, bruta, et vegetabilia electionem
+<lb ed="#Ba"/>nullam habent: et sic sub 
+providen<lb ed="#Ba" break="no"/>tia, fortuna, et fato non essent: quod
+<lb ed="#Ba"/>est inconveniens:: et sic positio illorum
+<lb ed="#Ba"/>inconveniens est. In hoc tamen 
+conve<lb ed="#Ba" break="no"/>nienter dixerunt, quod providentiam in
+<lb ed="#Ba"/>ordine causarum primam posuerunt et
+<lb ed="#Ba"/>principantem, et fatum sub ipsa sicut
+<lb ed="#Ba"/>partem sub toto et fortunam sub fato.
+<lb ed="#Ba"/>Unde non sequitur, quod fortuna sit.
+<lb ed="#Ba"/>fatum, licet sit ad idem. Ad hoc enim
+<lb ed="#Ba"/>quod fatum est universaliter, ad hoc
+<lb ed="#Ba"/>est fortuna particulariter.
+</p>
+               <p xml:id="Almn78-a47722-d1e3693">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod hoc modo
+<lb ed="#Ba"/>fatum et fortuna sunt idem : sed hoc est
+<lb ed="#Ba"/>secundum opinionem, et non secundum
+<lb ed="#Ba"/>veritatem.
+</p>
+               <p xml:id="Almn78-a47722-d1e3705">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod secundum
+<lb ed="#Ba"/>hoc quo isti accipiunt fortunam, procul
+<lb ed="#Ba"/>dubio pars est fati, sicut fatum pars 
+pro<lb ed="#Ba" break="no"/>videntiae : nec omnia sunt sub fato que
+<lb ed="#Ba"/>sunt sub providentia: nec omnia sub
+<lb ed="#Ba"/>fortuna que sub fato : hec enim tria,
+<lb ed="#Ba"/>scilicet providentia, fatum, et fortuna,
+<lb ed="#Ba"/>sub certo sunt ordine causarum : et que
+<lb ed="#Ba"/>certum ordinem causarum effugiunt, sub
+<lb ed="#Ba"/>nullo illorum sunt. Que autem sunt in
+<lb ed="#Ba"/>nobis, sicut electiones nostre, certum
+<lb ed="#Ba"/>ordinem causarum effugiunt: eo quod
+<lb ed="#Ba"/>possibilia sunt aliter esse. Unde 
+Dama<lb ed="#Ba" break="no"/>scenus et Gregorius Nyssenus’ dicunt
+<lb ed="#Ba"/>providentiam non esse de his que sunt
+<lb ed="#Ba"/>in nobis. Sed ipsi distinguunt duplicem
+<lb ed="#Ba"/>providentiam. Unam scilicet que est
+<lb ed="#Ba"/>providens per praescientiam, et 
+prade<lb ed="#Ba" break="no"/>terminans quid certo causarum ordine
+<lb ed="#Ba"/>fiat per causalitatem: et hec non est
+<lb ed="#Ba"/>de his que sunt in nobis : quia certum
+<lb ed="#Ba"/>causarum ordinem non tenent. Aliam
+<lb ed="#Ba"/>que est simplex visio futurorum, que
+<lb ed="#Ba"/>dicitur providentia, quasi procul videntia
+<lb ed="#Ba"/>in futurum: et haec est omnium tam
+<lb ed="#Ba"/>eorum que sunt in nobis, quam 
+alio<lb ed="#Ba" break="no"/>rum.
+</p>
+               <p xml:id="Almn78-a47722-d1e3766">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in veritate
+<pb ed="#Ba" n="710"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>objectio Gregorii bona est, et destruit
+<lb ed="#Ba"/>dictum illorum. Notandum tamen, quod
+<lb ed="#Ba"/>licet in quibusdam electio nostra 
+preve<lb ed="#Ba" break="no"/>niat quamdam fortunam, sicut fortunam
+<lb ed="#Ba"/>in successibus electorum, tamen non
+<lb ed="#Ba"/>simpliciter electio fortunam prevenit :
+<lb ed="#Ba"/>quia sicut in antehabitis dictum est, 
+se<lb ed="#Ba" break="no"/>cundum Platonem et Socratem et alios
+<lb ed="#Ba"/>Stoicos electiones secundum habitum
+<lb ed="#Ba"/>fiunt : habitus autem et dispositio 
+inhae<lb ed="#Ba" break="no"/>rens generatis sive natis, est ex vi 
+ordi<lb ed="#Ba" break="no"/>nis causarum, et illa dispositio inclinat
+<lb ed="#Ba"/>voluntatem ad eligendum hoc vel ilud :
+<lb ed="#Ba"/>et sic est primum movens fatum et 
+for<lb ed="#Ba" break="no"/>tuna.
+</p>
+               <p xml:id="Almn78-a47722-d1e3808">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod positio 
+Pla<lb ed="#Ba" break="no"/>tonis fuit hac et erronea, quod anima
+<lb ed="#Ba"/>primi mobilis esset intellectualis, qua
+<lb ed="#Ba"/>luce intelligentiae sue provisiva csset
+<lb ed="#Ba"/>omnium sibi subjectorum, et unicuique
+<lb ed="#Ba"/>attribueret commoda et utilia ad esse,
+<lb ed="#Ba"/>virtutem, et operationem. Et quia talis
+<lb ed="#Ba"/>virtus provisiva non est accidentalis ill
+<lb ed="#Ba"/>anime, sed substantialis, ideo dicit hance
+<lb ed="#Ba"/>esse fortunam secundum substantiam :
+<lb ed="#Ba"/>dispositionem vero ab illa anima 
+secun<lb ed="#Ba" break="no"/>dum vim provisivam effluxam in ea que
+<lb ed="#Ba"/>subjecta sunt primo mobili dicit esse
+<lb ed="#Ba"/>fortunam secundum actum sive 
+actio<lb ed="#Ba" break="no"/>nem: pro eodem accipiens fortunam et
+<lb ed="#Ba"/>fatum. Sicut enim fatum ad 
+providen<lb ed="#Ba" break="no"/>tiam se habet ut exemplatum ad 
+exem<lb ed="#Ba" break="no"/>plar, sic fortuna ad fatum se habet ut
+<lb ed="#Ba"/>exemplatum ad exemplar.
+</p>
+               <p xml:id="Almn78-a47722-d1e3852">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Plato 
+acci<lb ed="#Ba" break="no"/>pit fortunam communiter, et non 
+secun<lb ed="#Ba" break="no"/>dum strictam signilicationem. 
+Communi<lb ed="#Ba" break="no"/>ter autem accepta convertitur cum fato.
+</p>
+               <p xml:id="Almn78-a47722-d1e3863">
+                  <lb ed="#Ba"/>Ab sEQUENS patet solutio per jam 
+di<lb ed="#Ba" break="no"/>cta.
+</p>
+               <p xml:id="Almn78-a47722-d1e3870">
+                  <lb ed="#Ba"/>An vicrum Aristotelis dicendum, quod
+<lb ed="#Ba"/>Aristoteles accipit fortunam stricte: et
+<lb ed="#Ba"/>sic fortuna nee est nalura que sit 
+ma<lb ed="#Ba" break="no"/>teria, nec natura quae sit forma, nec 
+na<lb ed="#Ba" break="no"/>tura que sit consequens naturam 
+com<lb ed="#Ba" break="no"/>munem: sed est natura propria que est
+<lb ed="#Ba"/>naluralis potentia vel impotentia 
+inhe<lb ed="#Ba" break="no"/>rens generato ex influentia virtultum 
+or<lb ed="#Ba" break="no"/>dinis causarum, quam Grieci vocant
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>
+                  <foreign>eimarmenen</foreign> vel est influentia virtutum
+<lb ed="#Ba"/>stellarum coelestium ad centrum 
+gene<lb ed="#Ba" break="no"/>rati, ut in antehabitis dictum est. Et ideo
+<lb ed="#Ba"/>fortuna non subditur arbitrio rationis,
+<lb ed="#Ba"/>vel libertati voluntatis, ut ex ills 
+mo<lb ed="#Ba" break="no"/>veat: sed subditur ordini causarum, vel
+<lb ed="#Ba"/>dispositioni calestium, ex quibus accipit
+<lb ed="#Ba"/>virtutem movendi et dirigendi esse,
+<lb ed="#Ba"/>virtutem, et operationem generatorum.
+<lb ed="#Ba"/>Et ideo dicit Aristoteles definiens eam
+<lb ed="#Ba"/>ibidem, quod <quote xml:id="Almn78-a47722-Qd1e3920"> fortuna est natura 
+pre<lb ed="#Ba" break="no"/>ter rationem impetum faciens. </quote> Dico
+<lb ed="#Ba"/>aulem impetum faciens ad_ electiones,
+<lb ed="#Ba"/>operationes et successus, Et est ratio
+<lb ed="#Ba"/>Aristotelis quam ponit Ptolemeus in
+<lb ed="#Ba"/>Quadripartito : quia circulus exemplatus
+<lb ed="#Ba"/>et in toto et in partibus movet sicut 
+cir<lb ed="#Ba" break="no"/>culus excmplaris, sive ad prospera, sive
+<lb ed="#Ba"/>ad adversa. Unde sicut circulus 
+exempla<lb ed="#Ba" break="no"/>risnon subditur arbitrio rationis et 
+li<lb ed="#Ba" break="no"/>bertati voluntatis, ita nec circulus 
+exem<lb ed="#Ba" break="no"/>platus, qui nihil aliud est nisi dispositio
+<lb ed="#Ba"/>generatis adherens ex circulo ordinis
+<lb ed="#Ba"/>causarum, vel ex dispositione stellarum.
+<lb ed="#Ba"/>Et tales dispositiones Piolemzus vocat
+<lb ed="#Ba"/>stellas secundas. Et ex hoc patet qualiter
+<lb ed="#Ba"/>est aliquid melius quam natura: 
+secun<lb ed="#Ba" break="no"/>dum enim quod circulus exemplatus  
+re<lb ed="#Ba" break="no"/>fertur ad exemplarem regens et dirigens,
+<lb ed="#Ba"/>est melius quam natura.
+</p>
+               <p xml:id="Almn78-a47722-d1e3966">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod fortuna non
+<lb ed="#Ba"/>est intellectus : sed, sicut dictum est,
+<lb ed="#Ba"/>potentia naturalis vel impotentia 
+causa<lb ed="#Ba" break="no"/>liter radicata in ordine causarum vel
+<lb ed="#Ba"/>positione stellarum, difformiter movens
+<lb ed="#Ba"/>secundum difformitatem circuli ordinis
+<lb ed="#Ba"/>causarum vel stellarum: et ideo ab 
+anti<lb ed="#Ba" break="no"/>quis cultoribus suis dimidia alba, 
+dimi<lb ed="#Ba" break="no"/>dia nigra pingebatur, et uno oculo ceca:
+<lb ed="#Ba"/>quia lumine rationis non perfecte 
+regi<lb ed="#Ba" break="no"/>tur.
+</p>
+               <p xml:id="Almn78-a47722-d1e3992">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de 
+eu<lb ed="#Ba" break="no"/>prazia, dicendum, quod secundum 
+Phi<lb ed="#Ba" break="no"/>losophos Stoicos et Peripateticos talis
+<lb ed="#Ba"/>est ordo in intelligentiis, qualis est ordo
+<lb ed="#Ba"/>in orbibus coelestibus : et dicebant 
+in<lb ed="#Ba" break="no"/>telligentiam decint ordinis irradiare 
+su<lb ed="#Ba" break="no"/>per animas generatorum. Et quibus
+<pb ed="#Ba" n="711"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>adheret lumen intelligentie limpidum
+<lb ed="#Ba"/>purum’et sincerum, dicebant fieri 
+stu<lb ed="#Ba" break="no"/>diosos et eupracticos, et lumen 
+adhe<lb ed="#Ba" break="no"/>rens illis eupraxiam dicebant. In quibus
+<lb ed="#Ba"/>autem incumbit ex impuritate 
+comple<lb ed="#Ba" break="no"/>xionis et ex inclinatione anime ad 
+con<lb ed="#Ba" break="no"/>tinuum et tempus, dicebant fieri inertes
+<lb ed="#Ba"/>et cacopracticos : et dispositionem qua sic
+<lb ed="#Ba"/>disponuntur, dicebant esse cacopraxiam.
+<lb ed="#Ba"/>Et per hoc patet, quod eupraxia pars 
+for<lb ed="#Ba" break="no"/>tunc est, et cacopraxia pars infortunii.
+<lb ed="#Ba"/>Et hac est causa, quod dixit Socrates in
+<lb ed="#Ba"/>libro Mennonis, sicut narrat Plato, quod
+<lb ed="#Ba"/>virtus que est studiosi bonum, nec est
+<lb ed="#Ba"/>assuescibile nec discibile bonum, sed
+<lb ed="#Ba"/>donum deorum celestium '. Hoc etiam
+<lb ed="#Ba"/>concordat dictis Avicenne in V prime sue
+<lb ed="#Ba"/>philosophiae, quod <quote xml:id="Almn78-a47722-Qd1e4052"> intellectus bonorum
+<lb ed="#Ba"/>rectorum et verorum est ab intelligentia,
+<lb ed="#Ba"/>que est extra animas nostras, irradiante
+<lb ed="#Ba"/>super animas nostras: </quote> quia 
+intelligen<lb ed="#Ba" break="no"/>tias esse in nobis, nihil aliud est, nisi
+<lb ed="#Ba"/>splendores intelligentiarum esse in nobis,
+<lb ed="#Ba"/>ut ibidem dicit.
+</p>
+               <p xml:id="Almn78-a47722-d1e4069">
+                  <lb ed="#Ba"/>Ip gvop objicitur in contrarium, 
+con<lb ed="#Ba" break="no"/>cedendum est: eupraxia enim non est
+<lb ed="#Ba"/>fortuna, sed pars ejus.
+</p>
+               <p xml:id="Almn78-a47722-d1e4078">
+                  <lb ed="#Ba"/>Ad id quod ulterius gqueritur, Utrum
+<lb ed="#Ba"/>Christus secundum corpus vel secundum
+<lb ed="#Ba"/>animam subjacuerit fortunc ?
+</p>
+               <p xml:id="Almn78-a47722-d1e4087">
+                  <lb ed="#Ba"/>Dicendum, quod non. Cum enim ipse
+<lb ed="#Ba"/>sit conditor dispositionis que in rebus
+<lb ed="#Ba"/>est, vel ex ordine causarum, vel ex 
+po<lb ed="#Ba" break="no"/>sitione siderum, non potest subjacere
+<lb ed="#Ba"/>dispositioni tali: nec qui Deus est 
+guber<lb ed="#Ba" break="no"/>nans unumquodque ad debitum 
+ordi<lb ed="#Ba" break="no"/>nem et finem providentia sua, ab alio
+<lb ed="#Ba"/>quodam potest gubernari et suo ordini
+<lb ed="#Ba"/>necti. Et hoc est quod dicit Augustinus
+<lb ed="#Ba"/>in sermone de Epiphania, quod <quote xml:id="Almn78-a47722-Qd1e4110"> de
+<lb ed="#Ba"/>Christo verum non esset, quod sub 
+de<lb ed="#Ba" break="no"/>creto stelle nasceretur, si etiam alii et
+<lb ed="#Ba"/>alii homines sub decreto stella 
+nasceren<lb ed="#Ba" break="no"/>tur. Nam Christus Dei Filius propria 
+vo<lb ed="#Ba" break="no"/>luntate homo factus est: alii homines
+<lb ed="#Ba"/>nascuntur conditione nature. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e4127">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Api quod objicitur in contrarium, 
+<lb ed="#Ba"/>dicendum quod Christus defectus nostros
+<lb ed="#Ba"/>assumpsit voluntate, et non contraxit 
+na<lb ed="#Ba" break="no"/>ture vitiose necessitate : et ideo non
+<lb ed="#Ba"/>subjicitur ei, sed supponitur, quod, 
+pas<lb ed="#Ba" break="no"/>sus fuit que voluit,et quando voluit, et a
+<lb ed="#Ba"/>quibus voluit.
+</p>
+               <p xml:id="Almn78-a47722-d1e4148">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Christus
+<lb ed="#Ba"/>mobilis fuit secundum corpus: sed 
+mo<lb ed="#Ba" break="no"/>bilitas voluntati sue subjacuit, et ipse
+<lb ed="#Ba"/>non ei: secundum animam autem non
+<lb ed="#Ba"/>fuit mobilis. Et quod dicitur, quod 
+profi<lb ed="#Ba" break="no"/>ciebat sapientia, et xtate, et gratia, 
+tro<lb ed="#Ba" break="no"/>pice dicitur, tropo illo quo res dicitur
+<lb ed="#Ba"/>fieri quando innotescit, ut dicit 
+Ambro<lb ed="#Ba" break="no"/>sius. Unde quando innotuit profectus
+<lb ed="#Ba"/>ejus coram hominibus, profecisse 
+dici<lb ed="#Ba" break="no"/>tur: ab instanti autem conceptionis 
+ha<lb ed="#Ba" break="no"/>buit gratiam, et omnem  sapientiam
+<lb ed="#Ba"/>quam umquam accepturus erat. Unde in
+<lb ed="#Ba"/>sapientia et gratia non profecit in se, sed
+<lb ed="#Ba"/>coram Deo, qui opera sapientie ejus et
+<lb ed="#Ba"/>gratia acceptavit: et coram hominibus,
+<lb ed="#Ba"/>qui per opera sapientie sus et gratie
+<lb ed="#Ba"/>profecerunt.
+</p>
+               <p xml:id="Almn78-a47722-d1e4190">
+                  <lb ed="#Ba"/>Ad suiup dicendum, quod stella ejus
+<lb ed="#Ba"/>dicitur non que eum regeret, sed que
+<lb ed="#Ba"/>ad imperium ejus facta est, et que 
+no<lb ed="#Ba" break="no"/>vam nativitatem regis ccelestis novo 
+si<lb ed="#Ba" break="no"/>gno celesti demonstraret.
+</p>
+               <p xml:id="Almn78-a47722-d1e4203">
+                  <lb ed="#Ba"/>Est autem. hic notandum, quod Sancti
+<lb ed="#Ba"/>contra fatum quod est ex positione 
+side<lb ed="#Ba" break="no"/>rum disputantes, quedam inducunt que
+<lb ed="#Ba"/>secundum Astronomos non bene 
+intelli<lb ed="#Ba" break="no"/>gentes dicta eorum, calumniam videntur
+<lb ed="#Ba"/>habere.
+</p>
+               <p xml:id="Almn78-a47722-d1e4219">
+                  <lb ed="#Ba"/>1. Objicit enim Gregorius, et 
+Augu<lb ed="#Ba" break="no"/>stinus in libro Vide Civitate Dei, de
+<lb ed="#Ba"/>duobus geminis simul de uno concubitu
+<lb ed="#Ba"/>conceptis, quorum unus est bonus, et
+<lb ed="#Ba"/>alter malus, sicut Jacob et Esau: qui
+<lb ed="#Ba"/>tamen sub eadem constellatione 
+conci<lb ed="#Ba" break="no"/>piuntur et nascuntur.
+</p>
+               <p xml:id="Almn78-a47722-d1e4237">
+                  <lb ed="#Ba"/>2. Objiciunt etiam de regina et ancilla
+<lb ed="#Ba"/>simul concipientibus et parientibus : cum
+<pb ed="#Ba" n="712"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>tamen alter nascatur liber, et alter 
+ser<lb ed="#Ba" break="no"/>vus. Et quia posset aliquis dicere, quod
+<lb ed="#Ba"/>licet simul concipiantur, non tamen 
+si<lb ed="#Ba" break="no"/>mul nascuntur gemini: et ita in diversis
+<lb ed="#Ba"/>horis nativitatis diversa accipiunt fata.
+<lb ed="#Ba"/>Instat Gregorius, quod eadem ratione
+<lb ed="#Ba"/>quia non membra simul egrediuntur ex
+<lb ed="#Ba"/>utero, sed successive, singula membra
+<lb ed="#Ba"/>diversa fata accipiunt, quod absurdum
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a47722-d1e4270">
+                  <lb ed="#Ba"/>3. Objicit etiam Gregorius dicens,
+<lb ed="#Ba"/>quod mathematici dicere solent, quod
+<lb ed="#Ba"/>quisquis sub signo Aquarii nascitur, in
+<lb ed="#Ba"/>hac vita piscalorum ministerium 
+sortia<lb ed="#Ba" break="no"/>tur: piscatores vero, ut fertur, Getulia
+<lb ed="#Ba"/>non habet. Quis ergo dicat, quod nemo
+<lb ed="#Ba"/>illic in stella Aquarii nascitur, ubi 
+pisca<lb ed="#Ba" break="no"/>tor omnino non habetur?
+</p>
+               <p xml:id="Almn78-a47722-d1e4291">
+                  <lb ed="#Ba"/>4. Adhuc, Gregorius, ibidem, <quote xml:id="Almn78-a47722-Qd1e4295"> Dicunt
+<lb ed="#Ba"/>mathematici quod qui sub signo Libre
+<lb ed="#Ba"/>nascuntur, trapezite sunt futuri, hoc est,
+<lb ed="#Ba"/>nummularii et monetarii. In multis 
+au<lb ed="#Ba" break="no"/>tem locis sub Libra multi nascuntur, ubi
+<lb ed="#Ba"/>trapezite penitus ignorantur, sicut in 
+qui<lb ed="#Ba" break="no"/>busdam partibus Ruscie, ubi 
+commuta<lb ed="#Ba" break="no"/>tiones fiunt rostris spiriolorum et 
+vario<lb ed="#Ba" break="no"/>rum, et non numismate.</quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e4316">
+                  <lb ed="#Ba"/>5. Similiter, <ref xml:id="Almn78-a47722-Rd1e4320">
+                     <name xml:id="Almn78-a47722-Nd1e4322">Augustinus</name> objiciens, in
+<lb ed="#Ba"/>libro V de Civitate Dei</ref>, dicit de 
+duo<lb ed="#Ba" break="no"/>bus qui eodem tempore infirmabantur,
+<lb ed="#Ba"/>et eodem tempore ingravescebat 
+infirmi<lb ed="#Ba" break="no"/>tas in cis, et eodem tempore alleviabatur :
+<lb ed="#Ba"/>quesitum fuitab Asironomo Possidonio,
+<lb ed="#Ba"/>quare hoc esset: respondit, quod in 
+ea<lb ed="#Ba" break="no"/>dem constellatione nati essent. 
+Quesi<lb ed="#Ba" break="no"/>tum fuit ab Hippocrate, et dixit, quod
+<lb ed="#Ba"/>hujus causa erat, quia ab eisdem 
+paren<lb ed="#Ba" break="no"/>tibus et ab eodem conceptu et eodem
+<lb ed="#Ba"/>partu editi essent. Et laudat Augustinus
+<lb ed="#Ba"/>Hippocratem qui causam proximam et
+<lb ed="#Ba"/>intrinsecam reddidit: et vituperat 
+Astro<lb ed="#Ba" break="no"/>nomum, qui reddidit causam 
+extrinse<lb ed="#Ba" break="no"/>cam per aliud et per accidens 
+operan<lb ed="#Ba" break="no"/>tem. Et in fine disputationis ? concludit
+<lb ed="#Ba"/>sic: <quote xml:id="Almn78-a47722-Qd1e4363"> Nos adversus istos sacrilegos 
+au<lb ed="#Ba" break="no"/>sus atque impios, et Deum dicimus om
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>nia scire antequam fiant, et voluntate nos
+<lb ed="#Ba"/>facere quidquid a nobis non nisi 
+volenti<lb ed="#Ba" break="no"/>bus fieri sentimus et novimus. Omnia
+<lb ed="#Ba"/>vero fato fieri non dicimus, imo nulla
+<lb ed="#Ba"/>fato fieri dicimus: quoniam fati nomen
+<lb ed="#Ba"/>ubi solet a loquentibus poni, id est, in
+<lb ed="#Ba"/>constitutione siderum, qua quisque 
+con<lb ed="#Ba" break="no"/>ceptus aut natus est (quoniam res ipsa
+<lb ed="#Ba"/>inaniter asseritur) nihil valere 
+monstra<lb ed="#Ba" break="no"/>mus. Ordinem autem causarum ubi 
+vo<lb ed="#Ba" break="no"/>luntas Dei plurimum potest, neque 
+ne<lb ed="#Ba" break="no"/>gamus, neque fati vocabulo 
+nuncupa<lb ed="#Ba" break="no"/>mus: nisi forte ut fatum a fando dictum
+<lb ed="#Ba"/>intelligamus, id est, a loquendo: non
+<lb ed="#Ba"/>enim abnuere possumus esse scriptum in
+<lb ed="#Ba"/>litteris sanctis, Psal. ux1, 12, Semel 
+lo<lb ed="#Ba" break="no"/>culus est Deus: duo haec audivi, etc., et
+<lb ed="#Ba"/>Job, xxxuu, 14: Semel loquitur Deus,
+<lb ed="#Ba"/>etsecundo idipsum non repetit. Loqui
+<lb ed="#Ba"/>enim Dei facere est, et ordinare 
+creatu<lb ed="#Ba" break="no"/>ras in verbo per quod facta et ordinata
+<lb ed="#Ba"/>sunt omnia %. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e4419">
+                  <lb ed="#Ba"/>Hee autem calumniantur 
+mathema<lb ed="#Ba" break="no"/>tici : et oportet respondere calumniis
+<lb ed="#Ba"/>eorum et salvare dicta Sanctorum.
+</p>
+               <p xml:id="Almn78-a47722-d1e4428">
+                  <lb ed="#Ba"/>Primum ergo dictum de geminis sic
+<lb ed="#Ba"/>calumniantur, quod licet in uno utero
+<lb ed="#Ba"/>concipiantur, et ex uno concubitu, 
+ta<lb ed="#Ba" break="no"/>men non concipiuntur nisi ex diviso 
+se<lb ed="#Ba" break="no"/>mine ad diversa loca matricis: et sic 
+di<lb ed="#Ba" break="no"/>versa sunt centra sive corda 
+concepto<lb ed="#Ba" break="no"/>rum. Diversitas autem centri totum
+<lb ed="#Ba"/>variat circulum nativitatis. Impossibile
+<lb ed="#Ba"/>est enim plures circulos ad unum 
+cen<lb ed="#Ba" break="no"/>trom referri, nisi unus contineatur ab
+<lb ed="#Ba"/>alio. Cireulus autem, sicut prehabitum
+<lb ed="#Ba"/>est, cum tota constellatione sita in ipso
+<lb ed="#Ba"/>refertur ad centrum : et cum diversi sint
+<lb ed="#Ba"/>circuli geminorum, diverse 
+constella<lb ed="#Ba" break="no"/>tiones erunt, et diversa fata eorumdem.
+</p>
+               <p xml:id="Almn78-a47722-d1e4463">
+                  <lb ed="#Ba"/>Contra hanc calumniam ex ipsa 
+scien<lb ed="#Ba" break="no"/>tia mathematicorum sic objicitur : 
+Con<lb ed="#Ba" break="no"/>stat stellam ad locum nativitatis non
+<lb ed="#Ba"/>contingere nisi per lumen. Probatum est
+<lb ed="#Ba"/>autem in scientia de vise, quod omne
+<lb ed="#Ba"/>lumen quod exit a luminoso, in figura
+<pb ed="#Ba" n="713"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>pyramidali exit ab ipso, et pyramidis 
+ba<lb ed="#Ba" break="no"/>sis circularis est stans super locum 
+illu<lb ed="#Ba" break="no"/>minatum, et conus ejus est in corpore
+<lb ed="#Ba"/>illuminante in puncto illuminosi unde
+<lb ed="#Ba"/>egreditur lumen. Basis autem pyramidis
+<lb ed="#Ba"/>plus dilatatur quod plus a cono circulus
+<lb ed="#Ba"/>pyramidis elongatur : ita tamen, quod
+<lb ed="#Ba"/>omnia que infra circulum pyramidis
+<lb ed="#Ba"/>continentur, lumen ejusdem illuminantis
+<lb ed="#Ba"/>et ejusdem virtutis et ejusdem 
+causalita<lb ed="#Ba" break="no"/>tatis et ejusdem effectus imitatur. 
+Im<lb ed="#Ba" break="no"/>possibile est ergo cum uterus 
+concipien<lb ed="#Ba" break="no"/>tis intra pyramidem contineatur, quin
+<lb ed="#Ba"/>totum quod est in utero ut conceptum,
+<lb ed="#Ba"/>ejusdem nature et ejusdem virtutis et
+<lb ed="#Ba"/>ejusdem causalitatis lumine informetur :
+<lb ed="#Ba"/>et sic tenet objectio Gregorii.
+</p>
+               <p xml:id="Almn78-a47722-d1e4520">
+                  <lb ed="#Ba"/>Secundum etiam calumniantur: 
+di<lb ed="#Ba" break="no"/>cunt enim in diversis uteris concipi 
+ser<lb ed="#Ba" break="no"/>vum et liberum: et sic ad diversos 
+cir<lb ed="#Ba" break="no"/>culos nativitatem referri : et sic non
+<lb ed="#Ba"/>tenere dictum Sanctorum. Sed hoc 
+eli<lb ed="#Ba" break="no"/>ditur ex doctrina Ptolemei, qui docet,
+<lb ed="#Ba"/>quod si ignoratur gradus conceptionis et
+<lb ed="#Ba"/>nativitatis, inveniatur gradus occultus
+<lb ed="#Ba"/>proxime preventionis vel conjunctionis
+<lb ed="#Ba"/>solis et lune antecedentis: quia ex illo
+<lb ed="#Ba"/>incipit scintillatio ad gradum_ 
+conceptio<lb ed="#Ba" break="no"/>nis vel nativitatis consequentis. Constat
+<lb ed="#Ba"/>enim, quod ille gradus equaliter 
+respi<lb ed="#Ba" break="no"/>cit conceptum regine et conceptum 
+an<lb ed="#Ba" break="no"/>cille sequentis, quando in una hora et
+<lb ed="#Ba"/>simul concipiuntur. Sed a quo incipit
+<lb ed="#Ba"/>scintillatio, incipit dispositio fati. Ergo
+<lb ed="#Ba"/>ejusdem fortunc et ejusdem fati debent
+<lb ed="#Ba"/>esse conceptus regine et conceptus 
+an<lb ed="#Ba" break="no"/>cille: et sic procedit Sanctorum 
+obje<lb ed="#Ba" break="no"/>ctio.
+</p>
+               <p xml:id="Almn78-a47722-d1e4569">
+                  <lb ed="#Ba"/>Tertium etiam calumniantur : dicunt
+<lb ed="#Ba"/>enim, guod secundum astronomiam
+<lb ed="#Ba"/>Aquarius non est signum piscationis, sed
+<lb ed="#Ba"/>justitiae : et ita non tenet instantia. 
+Simi<lb ed="#Ba" break="no"/>liter dicunt, quod Libra non est signum
+<lb ed="#Ba"/>nummulariorum et monetariorum, sed
+<lb ed="#Ba"/>prophetie ef prophetarum. Sed hoc 
+fri<lb ed="#Ba" break="no"/>volum esse ostenditur: quia Ptolemeus
+<lb ed="#Ba"/>et Albumasar in libris suis de 
+Conjun<lb ed="#Ba" break="no"/>ctionibus planetarum Saturni et Jovis
+<lb ed="#Ba"/>dicunt, quod si fortunam vel infortu
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>nium stelle signant, hoc maxime 
+refe<lb ed="#Ba" break="no"/>rendum est ad imaginem signi, et ad
+<lb ed="#Ba"/>animal quod ejusdem figure est. Unde
+<lb ed="#Ba"/>Abraham in libro suo de 
+Conjunctioni<lb ed="#Ba" break="no"/>bus dicit, quod <quote xml:id="Almn78-a47722-Qd1e4608"> Pharao conjunctionem
+<lb ed="#Ba"/>Jovis et Saturni videns in signo Aquarii
+<lb ed="#Ba"/>directe super quatuor stellas, que 
+dicun<lb ed="#Ba" break="no"/>tur effusor aque, conjecit infortunium
+<lb ed="#Ba"/>futurum ex aquis: et ut infortunium 
+de<lb ed="#Ba" break="no"/>rivaret a se super Hebreos, jussit pueros
+<lb ed="#Ba"/>eorum in aquam mergi. </quote> Ergo natus in
+<lb ed="#Ba"/>Aquario ad ministerium aque refertur
+<lb ed="#Ba"/>super fortunium et infortunium, ut 
+di<lb ed="#Ba" break="no"/>cunt Sane .
+</p>
+               <p xml:id="Almn78-a47722-d1e4631">
+                  <lb ed="#Ba"/>Similiterc um in signo Libre sint lanx
+<lb ed="#Ba"/>et brachia libre, que dicunt esse tres
+<lb ed="#Ba"/>stellas in una linea positas, preterquam
+<lb ed="#Ba"/>quod media ad latitudinem pollicis exit
+<lb ed="#Ba"/>extra extremas : et sint appensa 
+bra<lb ed="#Ba" break="no"/>chiis receptacula ponderum in finibus
+<lb ed="#Ba"/>brachiorum quatuor stelle versus 
+Meri<lb ed="#Ba" break="no"/>diem, et quatuor versus Aquilonem, 
+se<lb ed="#Ba" break="no"/>cundum dictam doctrinam Ptolemei et
+<lb ed="#Ba"/>Albumasar, eufortunium et infortunium
+<lb ed="#Ba"/>quod in natum scintillat a Libra 
+ma<lb ed="#Ba" break="no"/>xime, videtur referri ad eos qui maxime
+<lb ed="#Ba"/>utuntur libra. Tales autem sunt 
+mensu<lb ed="#Ba" break="no"/>larii, monetarii, et nummularii. Et sic
+<lb ed="#Ba"/>iterum tenet instantia Sanctorum. Non
+<lb ed="#Ba"/>enim potest dici, quod in natos eorum
+<lb ed="#Ba"/>qui numismate non utuntur, nihil 
+scin<lb ed="#Ba" break="no"/>tillet a Libra: cum periodus cujuslibet
+<lb ed="#Ba"/>nativitatis componatur ex revolutione
+<lb ed="#Ba"/>duodecim signorum, sicut ostendunt
+<lb ed="#Ba"/>Astronomi ex figura quam vocant /
+figz<lb ed="#Ba" break="no"/>ram judicii, que quadrangula est, 
+qua<lb ed="#Ba" break="no"/>drangulo significante locum 
+generatio<lb ed="#Ba" break="no"/>nis: line autem protracte per medium
+<lb ed="#Ba"/>quadranguli de angulo in angulum et de
+<lb ed="#Ba"/>puncto medio in quolibetlatere ad 
+pun<lb ed="#Ba" break="no"/>ctum medium alterius lateris, describunt
+<lb ed="#Ba"/>duodecim circulos revolutionum 
+signo<lb ed="#Ba" break="no"/>rum super locum generationis, que 
+re<lb ed="#Ba" break="no"/>spiciunt omnem habitudinem hominum
+<lb ed="#Ba"/>secundum totam latitudinem climatum.
+<lb ed="#Ba"/>Et sic patet, quod vana sunt dicta 
+Ma<lb ed="#Ba" break="no"/>thematicorum, et vere sunt instantie
+<lb ed="#Ba"/>quas Sancti afferunt contra eos.
+</p>
+               <p xml:id="Almn78-a47722-d1e4707">
+                  <lb ed="#Ba"/>Av guintum quod Augustinus dicit,
+<pb ed="#Ba" n="714"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dicendum quod Augustinus negat fatum
+<lb ed="#Ba"/>ex constitutione siderum, eo modo quo
+<lb ed="#Ba"/>mathematici ponunt ipsum, scilicet quod
+<lb ed="#Ba"/>necessitatem imponat generatis : hoc
+<lb ed="#Ba"/>enim falsum est: quamvis enim influat
+<lb ed="#Ba"/>dispositionem inclinantem ad hoc vel ad
+<lb ed="#Ba"/>illud, tamen non obligat ad 
+necessita<lb ed="#Ba" break="no"/>tem. Laudat etiam Hippocratem, quod
+<lb ed="#Ba"/>proximam causam reddidit questionis :
+<lb ed="#Ba"/>quia illa vera causa est: et exprobrat
+<lb ed="#Ba"/>Possidonium, qui causam ex astris 
+red<lb ed="#Ba" break="no"/>didit, que non sunt causa nisi per aliud
+<lb ed="#Ba"/>et per accidens, sicut in prehabitis 
+di<lb ed="#Ba" break="no"/>ctum est. Unde hoc modo res quam 
+di<lb ed="#Ba" break="no"/>cunt Astronomi, inaniter ponitur. Non
+<lb ed="#Ba"/>negat tamen Augustinus, quin aliqua
+<lb ed="#Ba"/>dispositio inclinans non cogens sit ex
+<lb ed="#Ba"/>stellis. Unde dicit in libro V de Civitate
+<lb ed="#Ba"/>Dei, quod <quote xml:id="Almn78-a47722-Qd1e4756"> non potest negari usque ad
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>corporum immutationem afflatus valere
+<lb ed="#Ba"/>sidereos. </quote>
+               </p>
+               <p xml:id="Almn78-a47722-d1e4766">
+                  <lb ed="#Ba"/>Quod autem Gregorius Nyssenus 
+di<lb ed="#Ba" break="no"/>cit Stoicos dicere, quod in 
+revolutioni<lb ed="#Ba" break="no"/>bus succedentibus restituentur eadem
+<lb ed="#Ba"/>numero, patet etiam falsum esse : 
+proba<lb ed="#Ba" break="no"/>tum est enim in IV de Generatione et
+<lb ed="#Ba"/>Corruptione, et pro suppositione 
+habi<lb ed="#Ba" break="no"/>tum, quod in revolutionibus quecumque
+<lb ed="#Ba"/>habent substantiam corruptibilem 
+mo<lb ed="#Ba" break="no"/>tam, non reiterantur eodem numero.
+<lb ed="#Ba"/>Sequens tamen dicta Stoicorum <name xml:id="Almn78-a47722-Nd1e4789">
+Hora<lb ed="#Ba" break="no"/>rius</name> dixit :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a47722-Qd1e4797">Multa renascentur que nunc cecidere, 
+cadent<lb ed="#Ba" break="no"/>[que
+<lb ed="#Ba"/>Que nunc sunt in honore vocabula, si volet
+<lb ed="#Ba"/>[usus.</quote>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

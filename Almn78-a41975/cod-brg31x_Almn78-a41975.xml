@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 24</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 24</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="195"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a41975"><!-- p1t6q24 -->
+            <head xml:id="Almn78-a41975-Hd1e106">Quaestio 24</head>
+            <head xml:id="Almn78-a41975-Hd1e109" type="question-title">De uno</head>
+            <p xml:id="Almn78-a41975-d1e112">
+               <pb ed="#Ba" n="195"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO XXIV.
+<lb ed="#Ba"/>De uno
+</p>
+            <p xml:id="Almn78-a41975-d1e123">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Uti jam supra diximus, quia unum
+<lb ed="#Ba"/>multipliciter dicitur, queremus,
+<lb ed="#Ba"/>Primo, De multiplicitate unius.
+<lb ed="#Ba"/>Secundo, De intentione ejus in 
+com<lb ed="#Ba" break="no"/>muni, secundum quam de primis 
+inten<lb ed="#Ba" break="no"/>tionibus esse dicitur.
+<lb ed="#Ba"/>Tertio, De oppositione unius ad 
+mul<lb ed="#Ba" break="no"/>ta.
+</p>
+            <div xml:id="Almn78-a41975-Dd1e145">
+               <head xml:id="Almn78-a41975-Hd1e147">Membrum 1</head>
+               <head xml:id="Almn78-a41975-Hd1e150" type="question-title">
+  De multiplicitate unius
+</head>
+               <p xml:id="Almn78-a41975-d1e153">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>De multiplicitate unius.
+</p>
+               <p xml:id="Almn78-a41975-d1e160">
+                  <lb ed="#Ba"/>Primo ergo queritur de multiplicitate
+<lb ed="#Ba"/>unius,
+</p>
+               <p xml:id="Almn78-a41975-d1e167">
+                  <lb ed="#Ba"/>Et accipiatur primo multiplicitas 
+Dio<lb ed="#Ba" break="no"/>nysii que ponitur in libro de Dvvinis
+<lb ed="#Ba"/>nominibus, ubi dicit sic : <quote xml:id="Almn78-a41975-Qd1e175"> Ha que sunt
+<lb ed="#Ba"/>multa partibus, sunt unum toto: et que
+<lb ed="#Ba"/>sunt multa accidentibus, sunt unum 
+sub<lb ed="#Ba" break="no"/>jecto : et que sunt multa numero aut
+<lb ed="#Ba"/>virtutibus, sunt unum specie : et que
+<lb ed="#Ba"/>sunt multa speciebus, sunt unum 
+gene<lb ed="#Ba" break="no"/>re: et que sunt multa processibus, sunt
+<lb ed="#Ba"/>unum principio : et nihil est existentium
+<lb ed="#Ba"/>quod non participet secundum aliquid
+<lb ed="#Ba"/>unum %. </quote> Ex hoc accipitur, quod unum
+<lb ed="#Ba"/>licitur toto, subjecto, specie, genere et
+<lb ed="#Ba"/>principio.
+</p>
+               <p xml:id="Almn78-a41975-d1e204">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Aristoteles autem in V Metaphysicae
+<lb ed="#Ba"/>multiplicitatem unius distinguens, sic
+<lb ed="#Ba"/>dicit : Unum dicitur aliud secundum 
+ac<lb ed="#Ba" break="no"/>cidens, aliud secundum se. “Secundum 
+<lb ed="#Ba" break="no"/>accidens quidem tribus modis, scilicet
+<lb ed="#Ba"/>secundum quod subjectum et accidens
+<lb ed="#Ba"/>est unum, ut Coriscus musicus. Alio
+<lb ed="#Ba"/>modo, secundum quod duo accidunt uni,
+<lb ed="#Ba"/>ut album et musicum Socrati. Tertio
+<lb ed="#Ba"/>modo,secundum quod unum accidit 
+duo<lb ed="#Ba" break="no"/>bus, que sunt unum in illo, ut albedo
+<lb ed="#Ba"/>Socrati et Platoni. Unum secundum se
+<lb ed="#Ba"/>dicitur multis modis, et secundum magis
+<lb ed="#Ba"/>et minus. Dicitur enim continuatione
+<lb ed="#Ba"/>unum, sive artificiali, sive naturali. 
+Ar<lb ed="#Ba" break="no"/>tificiali, sicut .colligata vel conglutinata.
+<lb ed="#Ba"/>Naturali, sicut membrum dicitur unum,
+<lb ed="#Ba"/>ut manus una, pes unus, que composita
+<lb ed="#Ba"/>sunt ex multis. Et in talibus magis unum
+<lb ed="#Ba"/>est, quod naturaliter est unum, quam
+<lb ed="#Ba"/>quod artificialiter est unum.
+</p>
+               <p xml:id="Almn78-a41975-d1e254">
+                  <lb ed="#Ba"/>Adhuc,Dicuntur unum genere,quorum
+<lb ed="#Ba"/>genus est unum, differens tamen 
+opposi<lb ed="#Ba" break="no"/>tis differentiis. Et dicuntur unum specie,
+<lb ed="#Ba"/>que sunt unum secundum formam 
+spetifi<lb ed="#Ba" break="no"/>cam : secundum quem modum bos 
+dici<lb ed="#Ba" break="no"/>tur unus, et homo unus, et hujusmodi
+<lb ed="#Ba"/>gue non dividuntur secundum formam.
+<lb ed="#Ba"/>Et haec sunt quorum totale esse formale
+<lb ed="#Ba"/>est unum : secundum quem modum 
+li<lb ed="#Ba" break="no"/>nea circuli magis est unum, quam alie
+<lb ed="#Ba"/>linew angulose. Angulose enim divi-
+<pb ed="#Ba" n="196"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>duntur in diversas formas, acuti scilicet,
+<lb ed="#Ba"/>et recti, et hebetis. Et hoc modo linea
+<lb ed="#Ba"/>recta. magis dicitur una, quam linea 
+cur<lb ed="#Ba" break="no"/>va vel circularis : quia hec duarum 
+for<lb ed="#Ba" break="no"/>marum est, scilicet convexi et concavi:
+<lb ed="#Ba"/>recta autem non nisi unius, Et 
+secun<lb ed="#Ba" break="no"/>dum hunc wodum etiam que sunt 
+ho<lb ed="#Ba" break="no"/>mogenia in toto et partibus, sunt magis
+<lb ed="#Ba"/>unum toto,quameaque suntheterogenia.
+</p>
+               <p xml:id="Almn78-a41975-d1e304">
+                  <lb ed="#Ba"/>Dicuntur etiam per essentiam unum
+<lb ed="#Ba"/>numero, quorum scilicet subjectum et
+<lb ed="#Ba"/>materia est unum, et (sicut dicit Algazel)
+<lb ed="#Ba"/>quorum accidens proprium est unum.
+</p>
+               <p xml:id="Almn78-a41975-d1e315">
+                  <lb ed="#Ba"/>Redit ergo ad hoc, quod unum per
+<lb ed="#Ba"/>essentiam dicitur multipliciter, scilicet
+<lb ed="#Ba"/>continuatione, subjecto, toto, genere,
+<lb ed="#Ba"/>specie,et numero : et unumquodque 
+isto<lb ed="#Ba" break="no"/>rum multipliciter, secundum quod 
+pos<lb ed="#Ba" break="no"/>sunt uniri genere propinquo vel remoto,
+<lb ed="#Ba"/>vel specie propinqua vel remota, vel
+<lb ed="#Ba"/>subjecto proprio vel communi. Sicut
+<lb ed="#Ba"/>Socrates et.album unum sunt subjecto
+<lb ed="#Ba"/>proprio : quia Socrates subjectum 
+pro<lb ed="#Ba" break="no"/>prium est albi, per seipsum substans ei.
+<lb ed="#Ba"/>Album autem et musicum unum sunt
+<lb ed="#Ba"/>subjecto communi, quando album et
+<lb ed="#Ba"/>musicum accidunt eidem, quod tamen
+<lb ed="#Ba"/>albo non substat per hoc quod est 
+musi<lb ed="#Ba" break="no"/>cum, nec musico per hoc quod est 
+al<lb ed="#Ba" break="no"/>bum, nec secundum idem substat 
+musi<lb ed="#Ba" break="no"/>co et albo. Unde hac minus unum sunt
+<lb ed="#Ba"/>subjecto. Et sic facile est videre in 
+mul<lb ed="#Ba" break="no"/>tis que magis et que minus unum sunt
+<lb ed="#Ba"/>et toto, et subjecto, et genere, et specie,
+<lb ed="#Ba"/>et numero : que enim magis uniuntur,
+<lb ed="#Ba"/>magis unum sunt.
+</p>
+               <p xml:id="Almn78-a41975-d1e367">
+                  <lb ed="#Ba"/>His additur ab <name xml:id="Almn78-a41975-Nd1e371">Avicenna</name> et <name xml:id="Almn78-a41975-Nd1e374">Algazele</name>
+                  <lb ed="#Ba"/>unum proportione, qua scilicet una 
+si<lb ed="#Ba" break="no"/>militudine habitudinis rector civitatis se
+<lb ed="#Ba"/>habet ad civitatem, ut rector navis ad
+<lb ed="#Ba"/>navem. Et dicuntur haec unum 
+habitu<lb ed="#Ba" break="no"/>dine unum.
+</p>
+               <p xml:id="Almn78-a41975-d1e389">
+                  <lb ed="#Ba"/>Additur etiam unum aggregatione a
+<lb ed="#Ba"/>Boetio in libro de Unitate et uno, que
+<lb ed="#Ba"/>non sunt unum simpliciter, sed per 
+ac<lb ed="#Ba" break="no"/>cidens : quia scilicet aggregantur in 
+lo<lb ed="#Ba" break="no"/>cum unum.
+</p>
+               <p xml:id="Almn78-a41975-d1e403">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>His etiam a beato <name xml:id="Almn78-a41975-Nd1e409">Bernardo</name> in libro V
+<lb ed="#Ba"/>de Consideratione ad Eugenium ‘,
+<lb ed="#Ba"/>duntur quatuor, scilicet unum 
+unifor<lb ed="#Ba" break="no"/>mitatis quo homo dicitur unus semper
+<lb ed="#Ba"/>in una habitudine se habens. Et wre
+<lb ed="#Ba"/>conjugale, sicut dicitur conjugale unum
+<lb ed="#Ba"/>quo vir et mulier dicuntur esse 
+indivi<lb ed="#Ba" break="no"/>due vite. Et unum sacramentale, sicut
+<lb ed="#Ba"/>aqua et verbum unum sacramentum 
+di<lb ed="#Ba" break="no"/>cuntur: quod tamen reducitur ad 
+uni<lb ed="#Ba" break="no"/>tatem compositi ex materia et forma:
+<lb ed="#Ba"/>quia in sanctificatione sacramenti 
+vor<lb ed="#Ba" break="no"/>bum formale est, elementum autem 
+ma<lb ed="#Ba" break="no"/>teriale. Et wnitas dignitiva, qua limus
+<lb ed="#Ba"/>noster in unam personam unitur in 
+Fi<lb ed="#Ba" break="no"/>lio Dei. Et ut generaliter dicatur, 
+quo<lb ed="#Ba" break="no"/>tiescumque diversa in unum conveniunt,
+<lb ed="#Ba"/>quo, formaliter uniuntur in unum actum,
+<lb ed="#Ba"/>vel in unum finem, vel in unam 
+boni<lb ed="#Ba" break="no"/>tatem, vel in unum intellectum, vel in
+<lb ed="#Ba"/>unum uniendi modum, vel in unam 
+simi<lb ed="#Ba" break="no"/>lem habitudinem ad diversa, toties unm
+<lb ed="#Ba"/>dicitur, quod videre et diversiticare nihil
+<lb ed="#Ba"/>est difficile.
+</p>
+               <p xml:id="Almn78-a41975-d1e463">
+                  <lb ed="#Ba"/>Unde omnibus his rationalius 
+distin<lb ed="#Ba" break="no"/>guit wnum <name xml:id="Almn78-a41975-Nd1e469">Algazel</name>, dicens quod unum
+<lb ed="#Ba"/>est simpliciter, et unum secundum quid.
+<lb ed="#Ba"/>Simpliciter unum tribus modis, scilicet
+<lb ed="#Ba"/>in quo nonest multitudo nec actu nec
+<lb ed="#Ba"/>potentia, ut unitas una, punctum unum,
+<lb ed="#Ba"/>Deus unus. Secundo, in quo est 
+multi<lb ed="#Ba" break="no"/>tudo potentia, sed non actu, ut aqua
+<lb ed="#Ba"/>una, aer unus, caro una, continuum
+<lb ed="#Ba"/>unum. Tertio, in quo est multitudo actu
+<lb ed="#Ba"/>et potentia, ut homo unus, manus una,
+<lb ed="#Ba"/>caput vnum.
+</p>
+               <p xml:id="Almn78-a41975-d1e495">
+                  <lb ed="#Ba"/>In omnibus his considerandum quod
+<lb ed="#Ba"/>dicit Proclus, quod aliud est wnzzm, et
+<lb ed="#Ba"/>aliud est unitum. Unum enim vere est,
+<lb ed="#Ba"/>quod essentialiter est unum: hoc enim
+<lb ed="#Ba"/>ita unum est, quod non participat 
+ali<lb ed="#Ba" break="no"/>quid quo aliud sit a se quo unum fiat,
+<lb ed="#Ba"/>sicut est unitas. Dicit enim Euclides,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a41975-Qd1e514"> unitas est, qua quelibet res est
+<lb ed="#Ba"/>una. </quote> Unde alia participatione unitatis
+<lb ed="#Ba"/>unum sunt. Si qua vero res est, cujus
+<lb ed="#Ba"/>unitas est ipsa sua essentia, hoc partici-
+<pb ed="#Ba" n="197"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>pative non est unum, sed essentialiter,
+<lb ed="#Ba"/>et hoc verissime unum est: et alia 
+mi<lb ed="#Ba" break="no"/>hus unum et magis unum, secundum
+<lb ed="#Ba"/>quod magis et minus participant formam
+<lb ed="#Ba"/>unientis. Unde que participatione forme
+<lb ed="#Ba"/>totius unum sunt, magis unum sunt si
+<lb ed="#Ba"/>participant formam totius nomine et 
+ra<lb ed="#Ba" break="no"/>tione et partium terminatione sub forma,
+<lb ed="#Ba"/>quam si participant eam terminatione
+<lb ed="#Ba"/>tantum, Et que unum sunt subjecto, 
+ma<lb ed="#Ba" break="no"/>Kis unum sunt si subjectum uniens per
+<lb ed="#Ba"/>xe et proprium est, quam si per accidens
+<lb ed="#Ba"/>ost et per aliud. Et que unum sunt 
+ge<lb ed="#Ba" break="no"/>nere vel specie, magis unum sunt si 
+par<lb ed="#Ba" break="no"/>licipant formam generis vel speciei 
+pro<lb ed="#Ba" break="no"/>pinguam, quam si remotam. Et que
+<lb ed="#Ba"/>unum sunt numero, magis unum sunt
+<lb ed="#Ba"/>xi nec intellectu nec esse nec essentia 
+in<lb ed="#Ba" break="no"/>venitur in eis numerus : et hoc magis est
+<lb ed="#Ba"/>unum, quam ea in quibus invenitur 
+nu<lb ed="#Ba" break="no"/>merus et intellectu et esse et essentia. Et
+<lb ed="#Ba"/>primo quidem modo unum numero est
+<lb ed="#Ba"/>delinitio et definitum. Secundo modo
+<lb ed="#Ba"/>proprium, et id cujus est proprium, hoc
+<lb ed="#Ba"/>est, species. Tertio modo individuum
+<lb ed="#Ba"/>cum accidentibus suis. Et hec omnia
+<lb ed="#Ba"/>sunt unum participatione unientis quod
+<lb ed="#Ba"/>est jotra ipsa, et ideo vere unum sunt. Et
+<lb ed="#Ba"/>hoc modo unum dictum maxime 
+consi<lb ed="#Ba" break="no"/>deraverunt Philosophi. Hoc enim. 
+acci<lb ed="#Ba" break="no"/>pitur secundum differentias rerum, 
+se<lb ed="#Ba" break="no"/>cundum quod res considerantur ut in
+<lb ed="#Ba"/>seipsis, et per ea que essentialiter in
+<lb ed="#Ba"/>scipsis sunt. ;
+</p>
+               <p xml:id="Almn78-a41975-d1e602">
+                  <lb ed="#Ba"/>Si autem uniens participatum, non sit
+<lb ed="#Ba"/>uniens ad aliquid intra, tunc talis -
+parti<lb ed="#Ba" break="no"/>cipatio unionis non facit unum per. se.
+<lb ed="#Ba"/>Et tunc accipitur secundum unitatem,
+<lb ed="#Ba"/>vel secundum metaphoram,
+</p>
+               <p xml:id="Almn78-a41975-d1e615">
+                  <lb ed="#Ba"/>Si secundum unitatem, et est uniens
+<lb ed="#Ba"/>diversa: tunc est unitas proportionis 
+di<lb ed="#Ba" break="no"/>versorum ad unum, vel ad diversa 
+simi<lb ed="#Ba" break="no"/>lia, que in quantum similia, sunt unum:
+<lb ed="#Ba"/>sicut habitudo rectoris civitatis, una 
+di<lb ed="#Ba" break="no"/>citur cum habitudine rectoris navis.
+</p>
+               <p xml:id="Almn78-a41975-d1e631">
+                  <lb ed="#Ba"/>Si autem secundum metaphoram 
+ac<lb ed="#Ba" break="no"/>cipitur: aut accipitur secundum 
+meta<lb ed="#Ba" break="no"/>phoram individuitatis unius, et erit unum
+<lb ed="#Ba"/>conjugale. Aut per metaphoram ad unam
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>formam generis vel speciei: et est unitas
+<lb ed="#Ba"/>duplex, scilicet quam Bernardus vocat
+<lb ed="#Ba"/>votivam, et quam vocat consentaneam.
+<lb ed="#Ba"/>Secundum primam dicitur, <ref xml:id="Almn78-a41975-Rd1e652">I ad Corinth.
+<lb ed="#Ba"/>vi, 17</ref>: Qui adheret Domino, unus 
+spi<lb ed="#Ba" break="no"/>ritus est. Uniuntur enim uno amore qui
+<lb ed="#Ba"/>in utroque est, sicut forma una. 
+Secun<lb ed="#Ba" break="no"/>dum secundam dicitur, Act. tv, 32:
+<lb ed="#Ba"/>Multitudinis credentium erat cor unum
+<lb ed="#Ba"/>etanima una, ab una scilicet 
+consen<lb ed="#Ba" break="no"/>sione religionis et virtutis que in 
+omni<lb ed="#Ba" break="no"/>bus erat. Si autem accipitur per 
+meta<lb ed="#Ba" break="no"/>phoram ad formam compositionis, hec
+<lb ed="#Ba"/>non potest esse nisi duplex. Est enim
+<lb ed="#Ba"/>forma materia et continens, et uniens
+<lb ed="#Ba"/>partes materia, et est forma 
+composi<lb ed="#Ba" break="no"/>tionis sive totius denominans totum
+<lb ed="#Ba"/>compositum. Et per metaphoram ad
+<lb ed="#Ba"/>primum dicitur unitas dignativa, in qua
+<lb ed="#Ba"/>persona eterna univit sibi hominem ut
+<lb ed="#Ba"/>totus esset Deus, et omnis actus ejus, Dei
+<lb ed="#Ba"/>esset, et simililer omnis passio : salva
+<lb ed="#Ba"/>tamen utriusque nature distinctione
+<lb ed="#Ba"/>sicut anima unit sibi corpus, ut totum et
+<lb ed="#Ba"/>undique animatum sit, et omnis actus
+<lb ed="#Ba"/>ejus et passio, actus sit et passio animati.
+<lb ed="#Ba"/>Si autem accipitur per metaphoram ad
+<lb ed="#Ba"/>formam compositionis respectu  totius :
+<lb ed="#Ba"/>tunc est unitas sacramenti, in qua ‘nec
+<lb ed="#Ba"/>aqua sacramentum est, nec verbum, sed
+<lb ed="#Ba"/>constitulum ex utroque.
+</p>
+               <p xml:id="Almn78-a41975-d1e716">
+                  <lb ed="#Ba"/>Et hae omnes unitates accipiuntur per
+<lb ed="#Ba"/>metaphoram ad aliquid uniens 
+intrinse<lb ed="#Ba" break="no"/>cum, et ideo propinquiores sunt ad unum
+<lb ed="#Ba"/>per se. Remotissime autem unum est,
+<lb ed="#Ba"/>quod non participat uniens intrinsecum,
+<lb ed="#Ba"/>aut aliquid simile illi, sed extrinsecum,
+<lb ed="#Ba"/>ut est locus, vel tempus, vel sicut 
+acer<lb ed="#Ba" break="no"/>vus lapidum dicitur unus.
+</p>
+               <p xml:id="Almn78-a41975-d1e736">
+                  <lb ed="#Ba"/>Sic ergo patet distinctio unius, et 
+pe<lb ed="#Ba" break="no"/>nes quid accipiuntur. membra 
+distin<lb ed="#Ba" break="no"/>ctionis.
+</p>
+               <p xml:id="Almn78-a41975-d1e745">
+                  <lb ed="#Ba"/>Unum autem principio, est multa 
+pro<lb ed="#Ba" break="no"/>cessibus, quod Dionysius ponit esse
+<lb ed="#Ba"/>unum et in uno simpliciter et vere, et
+<lb ed="#Ba"/>non in aliis nisi secundum modum
+<lb ed="#Ba"/>quemdam. Et hoc est unum analogie, in
+<lb ed="#Ba"/>quo principium non est nisi in uno quod
+<lb ed="#Ba"/>non unit alia ut in ipsis existens, sed
+<pb ed="#Ba" n="198"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quia per respectum ad ipsum quidam
+<lb ed="#Ba"/>modi sunt, sicut ens unum est in 
+sub<lb ed="#Ba" break="no"/>stantia et accidente, et potentia et actu:
+<lb ed="#Ba"/>et sicut dicitur de uno simpliciter et uno
+<lb ed="#Ba"/>secundum quid, et uno per se et uno per
+<lb ed="#Ba"/>accidens.
+</p>
+            </div>
+            <div xml:id="Almn78-a41975-Dd1e782">
+               <head xml:id="Almn78-a41975-Hd1e784">Membrum 2</head>
+               <head xml:id="Almn78-a41975-Hd1e787" type="question-title">
+  De intentione communi unius secundum
+  quam de primis intentionibus esse 
+  dicitur.
+</head>
+               <p xml:id="Almn78-a41975-d1e790">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>De intentione communi unius secundum
+<lb ed="#Ba"/>quam de primis intentionibus esse 
+di<lb ed="#Ba" break="no"/>citur.
+</p>
+               <p xml:id="Almn78-a41975-d1e801">
+                  <lb ed="#Ba"/>Secundo, Queritur de intentione 
+com<lb ed="#Ba" break="no"/>muni unius, secundum quam in primis
+<lb ed="#Ba"/>intentionibus esse dicitur.
+</p>
+               <p xml:id="Almn78-a41975-d1e810">
+                  <lb ed="#Ba"/>Sic enim tripliciter describi a 
+Philoso<lb ed="#Ba" break="no"/>phis invenitur.
+</p>
+               <p xml:id="Almn78-a41975-d1e818">
+                  <lb ed="#Ba"/>Dicit enim Aristoteles in lib. III 
+Physi<lb ed="#Ba" break="no"/>corum, quod <quote xml:id="Almn78-a41975-Qd1e824"> unum est indivisum in
+<lb ed="#Ba"/>se, et divisum ab aliis. </quote>
+               </p>
+               <p xml:id="Almn78-a41975-d1e830">
+                  <lb ed="#Ba"/>
+                  <name xml:id="Almn78-a41975-Nd1e834">Euclides</name> autem dicit, quod <quote xml:id="Almn78-a41975-Qd1e837"> unitas
+<lb ed="#Ba"/>est, qua queelibet res est una. </quote>
+               </p>
+               <p xml:id="Almn78-a41975-d1e843">
+                  <lb ed="#Ba"/>Boetius autem dicit, quod <quote xml:id="Almn78-a41975-Qd1e847"> illud vere
+<lb ed="#Ba"/>unum est, in quo nullus numerus, quod
+<lb ed="#Ba"/>nulli innititur. </quote> In idem videtur 
+Pro<lb ed="#Ba" break="no"/>clus consentire in quarta propositione
+<lb ed="#Ba"/>sul libri, ubi dicit, quod <quote xml:id="Almn78-a41975-Qd1e858"> omne unitum,
+<lb ed="#Ba"/>alterum est a per se uno. </quote> Ubi vult,
+<lb ed="#Ba"/>quod per se unum est, cujus essentia
+<lb ed="#Ba"/>non est nisi unum, et non est ex uno et
+<lb ed="#Ba"/>quodam alio productum: hoc enim esset
+<lb ed="#Ba"/>unum participatione unius.
+</p>
+               <p xml:id="Almn78-a41975-d1e873">
+                  <lb ed="#Ba"/>Videtur autem secundum primam 
+as<lb ed="#Ba" break="no"/>signationem, quod wnem sit idem quod
+<lb ed="#Ba"/>integrum.
+</p>
+               <p xml:id="Almn78-a41975-d1e882">
+                  <lb ed="#Ba"/>1. Integrum enim est, quod nihil sui
+<lb ed="#Ba"/>divisum habet a seipso, et quod 
+termi<lb ed="#Ba" break="no"/>nis suis essentialibus dividitur ab 
+omni<lb ed="#Ba" break="no"/>bus aliis,secundum quod etiam 
+definitio<lb ed="#Ba" break="no"/>nem dicimus esse terminum, quia in
+<lb ed="#Ba"/>constituendo concludit omnia que sunt
+<lb ed="#Ba"/>de essentia, et in distinguendo dividit ab
+<lb ed="#Ba"/>omnibus que sunt: et sic prima assigna
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tio videtur potius esse integri quam
+<lb ed="#Ba"/>unius.
+</p>
+               <p xml:id="Almn78-a41975-d1e908">
+                  <lb ed="#Ba"/>2. Adhuc, Indivisum in se est ab alio
+<lb ed="#Ba"/>divisum ab aliis: et sic in ipso videtur
+<lb ed="#Ba"/>esse numerus: in quo autem numerus
+<lb ed="#Ba"/>est, divisio est: dicit enim Philosophus
+<lb ed="#Ba"/>in III Physicorum, quod <quote xml:id="Almn78-a41975-Qd1e921"> numerum 
+co<lb ed="#Ba" break="no"/>gnoscimus divisione continui:</quote> et sic
+<lb ed="#Ba"/>videtur notificatio contraria notificato.
+</p>
+               <p xml:id="Almn78-a41975-d1e930">
+                  <lb ed="#Ba"/>3. Adhuc, Dicit Damascenus, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a41975-Qd1e936"> differentia est causa numeri: </quote> sed
+<lb ed="#Ba"/>differentia sunt idem esse in se, et 
+divi<lb ed="#Ba" break="no"/>sum esse ab aliis: hac ergo constituunt
+<lb ed="#Ba"/>nhumerum, et non unum: videtur ergo,
+<lb ed="#Ba"/>quod mala sit assignatio unius : ex 
+de<lb ed="#Ba" break="no"/>scribentibus enim potius intelligitur 
+nu<lb ed="#Ba" break="no"/>merus, quam unum,
+</p>
+               <p xml:id="Almn78-a41975-d1e953">
+                  <lb ed="#Ba"/>Similiter objicitur de secunda 
+assigna<lb ed="#Ba" break="no"/>tione.
+</p>
+               <p xml:id="Almn78-a41975-d1e960">
+                  <lb ed="#Ba"/>1. Cum enim dicitur, <quote xml:id="Almn78-a41975-Qd1e964"> Unitas est,
+<lb ed="#Ba"/>qua quelibet res est una, </quote> fit 
+assigna<lb ed="#Ba" break="no"/>tio per causam formalem: et sic 
+vide<lb ed="#Ba" break="no"/>tur esse diversitas inter causam, et 
+effe<lb ed="#Ba" break="no"/>ctum cause, et id in quo efficit 
+effe<lb ed="#Ba" break="no"/>ctum: et sic unum non videtur esse
+<lb ed="#Ba"/>unum sine numero nec sine diversitate :
+<lb ed="#Ba"/>quod est inconveniens : quia sicut unum
+<lb ed="#Ba"/>in substantia facit idem, ut dicit 
+Aristo<lb ed="#Ba" break="no"/>teles, ita diversa faciunt diversa: et ita
+<lb ed="#Ba"/>videtur male esse dictum, quod unitas
+<lb ed="#Ba"/>est, qua quelibet res est una.
+</p>
+               <p xml:id="Almn78-a41975-d1e992">
+                  <lb ed="#Ba"/>2. Adhuc, Cum dicitur, <quote xml:id="Almn78-a41975-Qd1e996"> Unitas est,
+<lb ed="#Ba"/>qua quelibet res est una, </quote> ex modo 
+lo<lb ed="#Ba" break="no"/>quendi transitio est inter ablativum et
+<lb ed="#Ba"/>nominativum : et secundum hoc videtur,
+<lb ed="#Ba"/>quod nihil seipso sit unum: et sic 
+se<lb ed="#Ba" break="no"/>queretur, quod unitas seipsa non esset
+<lb ed="#Ba"/>una: quod falsum est: sic enim esset
+<lb ed="#Ba"/>abire in infinitam. Quia si unitas alia
+<lb ed="#Ba"/>quidem unitate esset una: tunc illa 
+uni<lb ed="#Ba" break="no"/>tas iterum quadam unitate alia esset
+<lb ed="#Ba"/>una: et abiret hoc in infinitum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1021">
+                  <lb ed="#Ba"/>Similiter objicitur de assignatione
+<lb ed="#Ba"/>quam ponit Boetius, quod <quote xml:id="Almn78-a41975-Qd1e1027"> illud vere
+<lb ed="#Ba"/>unum est, in quo nullus numerus est. </quote>
+               </p>
+               <p xml:id="Almn78-a41975-d1e1033">
+                  <lb ed="#Ba"/>1. Si prepositio a notat transitionem,
+<lb ed="#Ba"/>est aliud ab uno, et videtur participatione
+<pb ed="#Ba" n="199"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>unius esse unum. Aliud est enim specie
+<lb ed="#Ba"/>participans, et aliud participatum : sicut
+<lb ed="#Ba"/>aliud est habens formam, et ipsa forma:
+<lb ed="#Ba"/>et haec ponunt in numerum: et sic 
+vide<lb ed="#Ba" break="no"/>tur, quod nihil sit in quo nullus 
+nume<lb ed="#Ba" break="no"/>rus sit, et quod nulli innitatur: im omni
+<lb ed="#Ba"/>enim quod unum est, aliud videtur esse
+<lb ed="#Ba"/>unitas, et aliud quod habet sive 
+partici<lb ed="#Ba" break="no"/>pat unitatem.
+</p>
+               <p xml:id="Almn78-a41975-d1e1065">
+                  <lb ed="#Ba"/>2, Adhuc, Cum in omni eo quod est
+<lb ed="#Ba"/>citra primum,’ sit hoc et hoc, ut dicit
+<lb ed="#Ba"/>Boetius, videtur secundum hoc, quod
+<lb ed="#Ba"/>nihil citra primum sit vere unum. In
+<lb ed="#Ba"/>omni enim eo quod est citra primum,
+<lb ed="#Ba"/>est numerus : quia in ipso est hoc et hoc.
+</p>
+               <p xml:id="Almn78-a41975-d1e1081">
+                  <lb ed="#Ba"/>Solutio. Ad hac et similia dicendum,
+<lb ed="#Ba"/>quod unum cum dicitur indivisum in se
+<lb ed="#Ba"/>el divisum ab aliis, communiter 
+notifica<lb ed="#Ba" break="no"/>tur ad unum per se, et ad unum 
+partici<lb ed="#Ba" break="no"/>patione. Sed sicut unum per prius et
+<lb ed="#Ba"/>posterius dicitur de per se uno, et de eo
+<lb ed="#Ba"/>quod per se unum est: ita notificatio
+<lb ed="#Ba"/>unius per prius convenit uni per se, et
+<lb ed="#Ba"/>per posterius ei quod est unum per 
+par<lb ed="#Ba" break="no"/>licipationem.
+</p>
+               <p xml:id="Almn78-a41975-d1e1105">
+                  <lb ed="#Ba"/>Ad 1LLup autem quod primo objicitur
+<lb ed="#Ba"/>in contrarium, dicendum quod haec 
+defi<lb ed="#Ba" break="no"/>nitio non est integri secundum hoc 
+no<lb ed="#Ba" break="no"/>men quod est integrum. Integrum enim
+<lb ed="#Ba"/>ex diversis constituitur, quorum nullum
+<lb ed="#Ba"/>habet quantitatem totius, sive molis,
+<lb ed="#Ba"/>sive virtutis. Indivisum autem esse in se
+<lb ed="#Ba"/>et divisum ab aliis, ab eodem sunt, ‘et
+<lb ed="#Ba"/>non a diversis: et utrumque habet 
+virtu<lb ed="#Ba" break="no"/>tem utriusque. Eo enim ipso quo res 
+in<lb ed="#Ba" break="no"/>divisa est in se et constituta in esse, 
+ha<lb ed="#Ba" break="no"/>bet quo dividitur ab aliis : quo enim
+<lb ed="#Ba"/>constituitur in se, ex ipsa disparatione
+<lb ed="#Ba"/>vel oppositione constituentis eam in se
+<lb ed="#Ba"/>ad constituentia alia, dividitur et 
+separa<lb ed="#Ba" break="no"/>tur ab omnibus aliis. Et per hoc patet,
+<lb ed="#Ba"/>quod hec notificatio non est integri, sed
+<lb ed="#Ba"/>unlus.
+</p>
+               <p xml:id="Almn78-a41975-d1e1147">
+                  <lb ed="#Ba"/>Per noc etiam patet solutio ad 
+se<lb ed="#Ba" break="no"/>quens : quia cum ad idem referatur 
+indi<lb ed="#Ba" break="no"/>visum esse in se et divisum esse ab alltis,
+<lb ed="#Ba"/>constat quod unum cum alio non ponit
+<lb ed="#Ba"/>numerum : et sic notificatio non erit con-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>traria notificato. Ab eodem enim habet.
+<lb ed="#Ba"/>homo, quod homo est, et quod non est
+<lb ed="#Ba"/>asinus: sed unum habet primo, et 
+alte<lb ed="#Ba" break="no"/>rum ex consequenti: et unum absolute,
+<lb ed="#Ba"/>et alterum ex relatione unius ad alterum:
+<lb ed="#Ba"/>quod non facit diversitatem, sed 
+diver<lb ed="#Ba" break="no"/>sum modum unius.
+</p>
+               <p xml:id="Almn78-a41975-d1e1178">
+                  <lb ed="#Ba"/>Per Hoc etiam patet solutio ad 
+se<lb ed="#Ba" break="no"/>quens. Indivisum enim esse in se et 
+di<lb ed="#Ba" break="no"/>visum ab aliis, non est differentia 
+re<lb ed="#Ba" break="no"/>rum, sed differentia modorum in una et
+<lb ed="#Ba"/>eadem re,
+</p>
+               <p xml:id="Almn78-a41975-d1e1191">
+                  <lb ed="#Ba"/>Ad sEcUNDAM assignationem dicendum,
+<lb ed="#Ba"/>quod unitas et unum formaliter 
+acce<lb ed="#Ba" break="no"/>ptum non differunt nisi in modo tantum,
+<lb ed="#Ba"/>scilicet concretionis et abstractionis. 
+Uni<lb ed="#Ba" break="no"/>tas enim dicit formam : unum autem 
+di<lb ed="#Ba" break="no"/>cit forme diffusionem in eo quod est.
+<lb ed="#Ba"/>Et sic patet, quod hec ad diversa non
+<lb ed="#Ba"/>pertinent, nec numerum faciunt nisi in
+<lb ed="#Ba"/>modo tantum, Sicut in omni nomine 
+si<lb ed="#Ba" break="no"/>gnificatur substantia cum qualitate : et
+<lb ed="#Ba"/>dicitur substantia id quod nomen 
+signi<lb ed="#Ba" break="no"/>ficat, qualitas autem id a quo nomen
+<lb ed="#Ba"/>imponitur, que non in re diversa sunt
+<lb ed="#Ba"/>semper, sed tantumin modo significandi,
+<lb ed="#Ba"/>Et sic non oportet, quod diversa sint re
+<lb ed="#Ba"/>unitas qua res dicitur una, et res que una
+<lb ed="#Ba"/>dicitur.
+</p>
+               <p xml:id="Almn78-a41975-d1e1231">
+                  <lb ed="#Ba"/>Per hoc patet solutio ad sequens:
+<lb ed="#Ba"/>quia secundum hoc unitas seipsa est
+<lb ed="#Ba"/>una: sed una ut designata per unum, et
+<lb ed="#Ba"/>unitas ut forma sive qualitas designans
+<lb ed="#Ba"/>unum : et hec non referuntur nisi ad 
+mo<lb ed="#Ba" break="no"/>dos diversos. Sic etiam non contingit
+<lb ed="#Ba"/>abire in infinitum’: in uno enim et 
+eo<lb ed="#Ba" break="no"/>dem ut est designans et designatum,
+<lb ed="#Ba"/>modi diversi accipiuntur: qui modi sunt
+<lb ed="#Ba"/>potius modi existendi et intelligendi,
+<lb ed="#Ba"/>quam modi rerum diversarum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1257">
+                  <lb ed="#Ba"/>Ad id quod objicitur de Boetio, 
+dicen<lb ed="#Ba" break="no"/>dum quod prepositio 7 non notal 
+trans<lb ed="#Ba" break="no"/>itionem rei, sed in modo significandi
+<lb ed="#Ba"/>tantum. Unde sensus est, <quote xml:id="Almn78-a41975-Qd1e1267"> iae quo nullus
+<lb ed="#Ba"/>est numerus, </quote> hoc est, in cujus 
+signifi<lb ed="#Ba" break="no"/>cato vel supposito nullus est numerus.
+<lb ed="#Ba"/>Significans enim in modo  significandi
+<pb ed="#Ba" n="200"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>continentiam habet ad significatum, sic-
+</p>
+               <p xml:id="Almn78-a41975-d1e1284">
+                  <lb ed="#Ba"/>ut et supponens ad suppositum : quam
+<lb ed="#Ba"/>continentiam notat prepositio, cum 
+dici<lb ed="#Ba" break="no"/>tur, <quote xml:id="Almn78-a41975-Qd1e1292"> in quo nullus est numerus. </quote> Et
+<lb ed="#Ba"/>propter hoc non sequitur, quod sit ibi 
+di<lb ed="#Ba" break="no"/>versitas rerum in numerum ponentium.
+</p>
+               <p xml:id="Almn78-a41975-d1e1301">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum dicitur,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a41975-Qd1e1307">in omni eo quod est circa 
+pri<lb ed="#Ba" break="no"/>mum, est hoc et hoe, </quote> intelligitur de
+<lb ed="#Ba"/>perfectis in esse constitutis, et non de
+<lb ed="#Ba"/>simplicibus : aliter enim esset abire in
+<lb ed="#Ba"/>infinitum : quia si in quo est, esset 
+ite<lb ed="#Ba" break="no"/>rum quo est et quod est, iretur in 
+infini<lb ed="#Ba" break="no"/>tum : nisi forte diceretur, quod in hoc
+<lb ed="#Ba"/>differunt ut designatum et designans,
+<lb ed="#Ba"/>sicut paulo ante dictum est: sic enim
+<lb ed="#Ba"/>unum et idem potest esse designans et
+<lb ed="#Ba"/>designatum in modis diversis existendi
+<lb ed="#Ba"/>et intelligendi.
+</p>
+            </div>
+            <div xml:id="Almn78-a41975-Dd1e1336">
+               <head xml:id="Almn78-a41975-Hd1e1338">Membrum 3</head>
+               <head xml:id="Almn78-a41975-Hd1e1341" type="question-title">
+  De oppositione unius ad multa
+</head>
+               <p xml:id="Almn78-a41975-d1e1344">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>De oppositione unius ad multa.
+</p>
+               <p xml:id="Almn78-a41975-d1e1351">
+                  <lb ed="#Ba"/>Tertio queritur de oppositione unius
+<lb ed="#Ba"/>ad multa.
+  
+<lb ed="#Ba"/>Et videtur primo, quod non sit 
+oppo<lb ed="#Ba" break="no"/>situm.
+<lb ed="#Ba"/>1. Oppositum enim non reducitur ad
+<lb ed="#Ba"/>formam oppositi. Probatur autem in II
+<lb ed="#Ba"/>Arithmetice, quod omnis multitudo 
+re<lb ed="#Ba" break="no"/>ducitur ad unum. Ergo unum et 
+multi<lb ed="#Ba" break="no"/>tudo non sunt opposita.
+</p>
+               <p xml:id="Almn78-a41975-d1e1373">
+                  <lb ed="#Ba"/>2. Adhuc, Unumquodque mensuratur
+<lb ed="#Ba"/>sui generis minimo, et non opposito. Est
+<lb ed="#Ba"/>autem numerus, ut dicitur in X prime
+<lb ed="#Ba"/>philosophiae, multitudo mensurata per
+<lb ed="#Ba"/>unum. Ergo unum et multa non 
+oppo<lb ed="#Ba" break="no"/>nuntur, sed ejusdem sunt generis.
+</p>
+               <p xml:id="Almn78-a41975-d1e1390">
+                  <lb ed="#Ba"/>3. Adhuc, Oppositum non constituitur
+<lb ed="#Ba"/>ex opposito : multitudo autem 
+constitui<lb ed="#Ba" break="no"/>tur ex unitatibus : unum ergo et 
+multi<lb ed="#Ba" break="no"/>tudo non opponuntur.
+</p>
+               <p xml:id="Almn78-a41975-d1e1401">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>4. Adhuc, Dicit Dionysius in libro de
+<lb ed="#Ba"/>Divinis nominibus, cap. ultimo, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a41975-Qd1e1411">nihil est existentium non participans
+<lb ed="#Ba"/>uno. Sed sicut omnis numerus unitate
+<lb ed="#Ba"/>participat, et unus binarius et denarius
+<lb ed="#Ba"/>dicitur, et dimidium unum, et tertium,
+<lb ed="#Ba"/>et decimum unum: ita omnia et 
+om<lb ed="#Ba" break="no"/>nium partes uno participant. </quote> Et post
+<lb ed="#Ba"/>pauca subjungit: <quote xml:id="Almn78-a41975-Qd1e1427"> Neque enim est
+<lb ed="#Ba"/>multitudo non participans unum. </quote> 
+Op<lb ed="#Ba" break="no"/>positum autem non participat 
+opposi<lb ed="#Ba" break="no"/>situm. Ergo unum et multa non 
+oppo<lb ed="#Ba" break="no"/>nuntur.
+</p>
+               <p xml:id="Almn78-a41975-d1e1439">
+                  <lb ed="#Ba"/>5. Adhuc, Proclus in propositione 
+pri<lb ed="#Ba" break="no"/>ma: <quote xml:id="Almn78-a41975-Qd1e1445"> Omnis multitudo participat 
+ali<lb ed="#Ba" break="no"/>qualiter uno : aliter enim neque totum
+<lb ed="#Ba"/>esset unum, negue constituentia essent
+<lb ed="#Ba"/>unum, sed quelibet multitudo esset ab
+<lb ed="#Ba"/>aliquibus multis, et illa multa ab aliis
+<lb ed="#Ba"/>multis : et hoc abiret in infinitum, quod
+<lb ed="#Ba"/>est inconveniens. </quote> Oportet ergo, quod
+<lb ed="#Ba"/>aliqualiter participet uno et in toto et in
+<lb ed="#Ba"/>partibus omnis multitudo. Ergo cum 
+op<lb ed="#Ba" break="no"/>positum non participet opposito, unum
+<lb ed="#Ba"/>et multa non erunt opposita.
+</p>
+               <p xml:id="Almn78-a41975-d1e1471">
+                  <lb ed="#Ba"/>6. Adhuc, Hoc probatur per singulas
+<lb ed="#Ba"/>species oppositorum. Non enim possunt
+<lb ed="#Ba"/>esse contraria : contrariorum enim unum
+<lb ed="#Ba"/>destruit aliud, si in eodem sint subjecto :
+<lb ed="#Ba"/>unum autem in eodem cum multitudine
+<lb ed="#Ba"/>existens, non destruit, neque destruitur
+<lb ed="#Ba"/>ab eo.
+</p>
+               <p xml:id="Almn78-a41975-d1e1489">
+                  <lb ed="#Ba"/>7. Adhuc, Contraria sunt, que 
+maxi<lb ed="#Ba" break="no"/>me distant in eodem genere, et non 
+ex<lb ed="#Ba" break="no"/>pellunt se mutuo ab eodem susceptibili.
+<lb ed="#Ba"/>Unum autem et multa non maxime 
+di<lb ed="#Ba" break="no"/>stant, nec expellunt se mutuo: quia
+<lb ed="#Ba"/>unum in multis est, et multa participant
+<lb ed="#Ba"/>uno. Ergo non possunt esse contrarie
+<lb ed="#Ba"/>opposita.
+</p>
+               <p xml:id="Almn78-a41975-d1e1509">
+                  <lb ed="#Ba"/>8. Similiter non possunt esse opposita
+<lb ed="#Ba"/>ut privatio et habitus. Habitus enim nec
+<lb ed="#Ba"/>constituit privationem, nec constituitur
+<lb ed="#Ba"/>ab ipsa. Multitudo autem constituitur ex
+<lb ed="#Ba"/>unitatibus salvatis in ipsa. Sive ergo
+<lb ed="#Ba"/>unum dicat habitum, et multitudo priva-
+<pb ed="#Ba" n="201"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tionem, sive e converso, non possunt
+<lb ed="#Ba"/>unum et multa opponi ut privatio et
+<lb ed="#Ba"/>habitus.
+</p>
+               <p xml:id="Almn78-a41975-d1e1536">
+                  <lb ed="#Ba"/>9. Sic etiam probatur, quod non 
+oppo<lb ed="#Ba" break="no"/>nuntur relative. Relativa enim ad 
+con<lb ed="#Ba" break="no"/>vertentiam dicuntur, et non potest unum
+<lb ed="#Ba"/>intelligi sine altero : sunt enim cozque-
+‘a secundum intellectum quidditatis 
+eo<lb ed="#Ba" break="no"/>rum et rationis definitive, secundum
+<lb ed="#Ba"/>quem unum dependet ad alterum, et 
+se<lb ed="#Ba" break="no"/>cundum quem unum est in altero 
+secun<lb ed="#Ba" break="no"/>dum intellectum : quia si sic 
+opponeren<lb ed="#Ba" break="no"/>tur unum et multa, tunc posito uno 
+po<lb ed="#Ba" break="no"/>nerentur multa, et non esset unum ante
+<lb ed="#Ba"/>multa, et destructo multo destrueretur
+<lb ed="#Ba"/>unum,et essent unumet multa 
+coxque<lb ed="#Ba" break="no"/>va : que omnia impossibilia sunt. 
+Di<lb ed="#Ba" break="no"/>cit enim Proclus in quinta propositione,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a41975-Qd1e1570"> omnis multitudo secunda est ab
+<lb ed="#Ba"/>uno, et sic non possunt esse 
+coxque<lb ed="#Ba" break="no"/>va. </quote>
+               </p>
+               <p xml:id="Almn78-a41975-d1e1578">
+                  <lb ed="#Ba"/>10. Sic etiam probatur, quod non 
+op<lb ed="#Ba" break="no"/>ponuntur ut affirmatio et negatio: eo
+<lb ed="#Ba"/>quod nec unitas negat multitudinem,
+<lb ed="#Ba"/>nec e converso : sed unitas constituit
+<lb ed="#Ba"/>multitudinem, et in multitudine 
+salva<lb ed="#Ba" break="no"/>tur unitas.
+</p>
+               <p xml:id="Almn78-a41975-d1e1594">
+                  <lb ed="#Ba"/>11. Adhuc, Aristoteles in primo To-
+<lb ed="#Ba" break="no"/>picorum dicit, quod <quote xml:id="Almn78-a41975-Qd1e1600"> unum uni 
+opponi<lb ed="#Ba" break="no"/>tur uno genere oppositionis. </quote> Multum
+<lb ed="#Ba"/>autem opponitur pauco. Ergo non 
+oppo<lb ed="#Ba" break="no"/>nitur uni. Quia duo opposita habere non
+<lb ed="#Ba"/>potest : unum enim non est paucum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1613">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod unum et
+<lb ed="#Ba"/>multa diversimode possunt considerari,
+<lb ed="#Ba"/>scilicet secundum suas causas, et 
+secun<lb ed="#Ba" break="no"/>dum seipsa. Dupliciter enim potest 
+mul<lb ed="#Ba" break="no"/>titudo considerari. Absolute, prout dicit
+<lb ed="#Ba"/>gquamcumque pluralitatem. Vel cum ex 
+<lb ed="#Ba" break="no"/>cessu.: et tunc ponit respectum ad id
+<lb ed="#Ba"/>quod excedit. Si considerentur secundum
+<lb ed="#Ba"/>causam : tunc cum divisio sive 
+differen<lb ed="#Ba" break="no"/>lia sit causa numeri, multum erit 
+di<lb ed="#Ba" break="no"/>visum secundum communem suam 
+in<lb ed="#Ba" break="no"/>tentionem : unum autem indivisum.
+<lb ed="#Ba"/>Et hoc modo unum et multa 
+oppo<lb ed="#Ba" break="no"/>nuntur ut privatio et habitus ; et 
+mul<lb ed="#Ba" break="no"/>tum dicit privationem, et unum ha-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>bitum. Et hoc videtur dicere nomen
+<lb ed="#Ba"/>numeri, quod est nutus memeris, hoc
+<lb ed="#Ba"/>est, divisionis. Est autem unum habitus,
+<lb ed="#Ba"/>prout habitus est forma uniens et 
+ter<lb ed="#Ba" break="no"/>minans et ambiens totum quod informat.
+<lb ed="#Ba"/>Hane enim unionem, terminationem, et
+<lb ed="#Ba"/>ambitum tollit et privat divisio : non 
+ta<lb ed="#Ba" break="no"/>men totum: quia nulla privatio tollit
+<lb ed="#Ba"/>totum, sed relinquit sujectum et 
+aptitu<lb ed="#Ba" break="no"/>dinem, et tollit esse secundum actum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1672">
+                  <lb ed="#Ba"/>Et quod objicitur in contrarium, 
+sol<lb ed="#Ba" break="no"/>vitur. {lla enim objectio jprocedit de his
+<lb ed="#Ba"/>que secundum se, hoc est, secundum
+<lb ed="#Ba"/>suas formas opponuntur ut privatio et
+<lb ed="#Ba"/>habitus, ut cecilas et visio, ut nudum et
+<lb ed="#Ba"/>vestitum. Sed non tenet in his que 
+se<lb ed="#Ba" break="no"/>cundum suas causas ut privatio et 
+habi<lb ed="#Ba" break="no"/>tus opponuntur. Cujus exemplum est
+<lb ed="#Ba"/>in albo et nigro, que si secundum 
+cau<lb ed="#Ba" break="no"/>sas considerentur, ut privatio et habitus
+<lb ed="#Ba"/>opponuntur. Causa enim albi est, ut 
+di<lb ed="#Ba" break="no"/>cit Philosophus in libro de Natura 
+colo<lb ed="#Ba" break="no"/>lorum, diffasio luminis in superficie 
+cla<lb ed="#Ba" break="no"/>ra, cujus nulla pars obumbrat alteram
+<lb ed="#Ba"/>per aliquid opaci quod sit in ipsa. Et
+<lb ed="#Ba"/>causa nigri est privatio hujus diffusionis.
+<lb ed="#Ba"/>Sed in hoc est dissimile, quod in albo et
+<lb ed="#Ba"/>nigro cause accipiuntur generantes ipsas
+<lb ed="#Ba"/>formas contrarias. In multo autem et
+<lb ed="#Ba"/>uno cause accipiuntur non generantes
+<lb ed="#Ba"/>ipsas formas, sed actus formarum. Actus
+<lb ed="#Ba"/>enim forme unius, est wunire et 
+ter<lb ed="#Ba" break="no"/>minare ad unum, et ambire et 
+conclu<lb ed="#Ba" break="no"/>dere sub uno id quod unit: et hos actus
+<lb ed="#Ba"/>privat divisio. Si autem secundum se
+<lb ed="#Ba"/>ista considerentur, iterum dupliciter 
+pos<lb ed="#Ba" break="no"/>sunt considerari, scilicet in se prout
+<lb ed="#Ba"/>unum separatur ab altero, vel relata ad
+<lb ed="#Ba"/>invicem prout unum principium est
+<lb ed="#Ba"/>alterius et alterum principiatum. Si 
+pri<lb ed="#Ba" break="no"/>mo modo : disparatorum habent 
+opposi<lb ed="#Ba" break="no"/>tionem, que ex oppositis differentiis
+<lb ed="#Ba"/>constituitur. Talium dico disparatorum,
+<lb ed="#Ba"/>sicut disparate sunt forme eorum que
+<lb ed="#Ba"/>constitute sunt ex principiis, et forme
+<lb ed="#Ba"/>principiorum constituentium, sicut est
+<lb ed="#Ba"/>forma elementi et elementati, et forma
+<lb ed="#Ba"/>syllabe et forma littere. Et quantum ad
+<lb ed="#Ba"/>hoc ad nullum genus opposilionis pos-
+<pb ed="#Ba" n="202"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>sunt reduci. Si autem accipiantur in 
+re<lb ed="#Ba" break="no"/>spectu principiati et principii: tunc 
+oppo<lb ed="#Ba" break="no"/>sitionem habent relativam, sicul pars et
+<lb ed="#Ba"/>totum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1772">
+                  <lb ed="#Ba"/>Ad oc autem quod objicitur, quod
+<lb ed="#Ba"/>non sunt opposita, dicendum quod 
+pro<lb ed="#Ba" break="no"/>prie loquendo non sunt opposita, sed
+<lb ed="#Ba"/>disparata per modum qui dictus est : et
+<lb ed="#Ba"/>non disparata simpliciter, sed sicut 
+con<lb ed="#Ba" break="no"/>stitutum et principium constituens habent
+<lb ed="#Ba"/>formas disparatas. Constituens autem 
+di<lb ed="#Ba" break="no"/>co actu stans sub forma discretionis :
+<lb ed="#Ba"/>quia sic unum sub forma discretionis 
+ac<lb ed="#Ba" break="no"/>ceptum, constitutivum est multitudinis,
+<lb ed="#Ba"/>et remanet in ipsa stans sub forma 
+dis<lb ed="#Ba" break="no"/>cretionis : propter quod etiam ipsa 
+mul<lb ed="#Ba" break="no"/>titudo est in genere discretorum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1804">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod unum 
+acce<lb ed="#Ba" break="no"/>ptum ut principium discretionis, est
+<lb ed="#Ba"/>unum in genere quantitatis: et hoc non
+<lb ed="#Ba"/>est unum quod est de primis 
+intentioni<lb ed="#Ba" break="no"/>bus, sed est unum discretam 
+multitudi<lb ed="#Ba" break="no"/>nem constituens : talis enim multitudo.
+<lb ed="#Ba"/>est aggregatio numerata per unum. Et
+<lb ed="#Ba"/>quia omne numerans mensurat, ideo ex
+<lb ed="#Ba"/>consequenti talis aggregatio est 
+multitu<lb ed="#Ba" break="no"/>do mensurata per unum. Et sic 
+accipien<lb ed="#Ba" break="no"/>do unum et multum, oppositionem 
+ha<lb ed="#Ba" break="no"/>bent eorum que sunt relativa secundum
+<lb ed="#Ba"/>dici, et non secundum esse, qua in 
+ge<lb ed="#Ba" break="no"/>nitivo casu ad convertentiam non 
+dicun<lb ed="#Ba" break="no"/>tur : eo quod unum dependet ad alterum,
+<lb ed="#Ba"/>et none converso. Et ideo non tenent
+<lb ed="#Ba"/>objectiones facte contra hoc. Ille enim
+<lb ed="#Ba"/>sunt de relativis in genitivo casu ad 
+con<lb ed="#Ba" break="no"/>vertentiam dictis, ut pater filii, filius 
+pa<lb ed="#Ba" break="no"/>tris. Non autem sic est in scibili et scien-
+<lb ed="#Ba" break="no"/>tia. Licet enim scientia sit scibilis, ta-
+<lb ed="#Ba" break="no"/>men scibile non est scientia, sed scientia
+<lb ed="#Ba"/>scibile; Et sic est principium et 
+princi<lb ed="#Ba" break="no"/>piatum. Principiatum enim principii est,
+<lb ed="#Ba"/>sed principium principiati non est. Et
+<lb ed="#Ba"/>ideo in talibus unum est ante multa, nec
+<lb ed="#Ba"/>posita se ponunt unum et multa, nec ad
+<lb ed="#Ba"/>convertentiam secundum eumdem casum
+<lb ed="#Ba"/>dicuntur.
+</p>
+               <p xml:id="Almn78-a41975-d1e1869">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod oppositum
+<lb ed="#Ba"/>non constituit oppositum per hoc quod
+<lb ed="#Ba"/>oppositum : unum autem et multa non
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>sunt opposita per hoc quod sunt: sed
+<lb ed="#Ba"/>sunt opposita sive disparata per 
+intentio<lb ed="#Ba" break="no"/>nes formarum oppositarum ab opposilis
+<lb ed="#Ba"/>causis factarum, que sunt divisio et unio
+<lb ed="#Ba"/>sive divisio et indivisio. Et ideo 
+secun<lb ed="#Ba" break="no"/>dum hoc quod sunt et aliquid sunt,
+<lb ed="#Ba"/>unum potest esse constitutivum alterius.
+</p>
+               <p xml:id="Almn78-a41975-d1e1895">
+                  <lb ed="#Ba"/>Pzr ipem pater solutio ad sequens.
+<lb ed="#Ba"/>Unum enim oppositorum non participat
+<lb ed="#Ba"/>alterum in quantum opposita sunt : sed
+<lb ed="#Ba"/>per hoc quod sunt, unum participat 
+alte<lb ed="#Ba" break="no"/>rum : sicut in elementaliter compositis
+<lb ed="#Ba"/>compositum participat simplex : et 
+ta<lb ed="#Ba" break="no"/>men simplex et compositum in quantum
+<lb ed="#Ba"/>hujusmodi, opposita sunt. Sic dicit 
+Dio<lb ed="#Ba" break="no"/>nysius, quod non est quid existentium
+<lb ed="#Ba"/>quod non participat uno, et quod omnis
+<lb ed="#Ba"/>multitudo constituitur ex uno, et 
+redu<lb ed="#Ba" break="no"/>citue ad unum, et quod denarius est
+<lb ed="#Ba"/>unum, et totum est unum, et dimidium
+<lb ed="#Ba"/>est unum, et tertia pars est unum, et 
+bi<lb ed="#Ba" break="no"/>narius unum, et ternarius unum. Unum
+<lb ed="#Ba"/>enim per id quod est, multitudinis con-
+<lb ed="#Ba" break="no"/>stitutivum est: per id autem quod sub
+<lb ed="#Ba"/>forma discreti accipitur, per oppositum
+<lb ed="#Ba"/>nominatur et dicitur unum : quia unum
+<lb ed="#Ba"/>principium est discretionis per hoc quod
+<lb ed="#Ba"/>indivisum est in se et divisum ab aliis.
+<lb ed="#Ba"/>Et sic dicitur denarius unum forma 
+de<lb ed="#Ba" break="no"/>narii ens in se indivisum et ab aliis 
+divi<lb ed="#Ba" break="no"/>sum : et sic dimidium unum sub forma
+<lb ed="#Ba"/>dimidii ens in se indivisum et ab aliis
+<lb ed="#Ba"/>divisum, et sic est in omnibus aliis. 
+Pro<lb ed="#Ba" break="no"/>pter quod etiam dicit Aristoteles in V
+<lb ed="#Ba"/>prime philosophiae, quod denarius non
+<lb ed="#Ba"/>est bis quinque, nec septem et tria, nec
+<lb ed="#Ba"/>sex et quatuor, nec octo et duo, nec 
+no<lb ed="#Ba" break="no"/>vem et unum. Et ratio est: quia ab 
+eo<lb ed="#Ba" break="no"/>dem habet denarius, quod denarius est,
+<lb ed="#Ba"/>et quod unum estin forma denarii. A 
+for<lb ed="#Ba" break="no"/>ma autem denarii habet, quod denarius
+<lb ed="#Ba"/>est, et ab eadem forma habet, quod unum
+<lb ed="#Ba"/>est ab omnibus alis discretum.
+</p>
+               <p xml:id="Almn78-a41975-d1e1976">
+                  <lb ed="#Ba"/>Per hoc patet solutio ad dictum 
+Pro<lb ed="#Ba" break="no"/>cli.
+</p>
+               <p xml:id="Almn78-a41975-d1e1983">
+                  <lb ed="#Ba"/>Ad id quod ulterius objicitur de 
+con<lb ed="#Ba" break="no"/>trariis, quod non opponuntur ut 
+contra<lb ed="#Ba" break="no"/>ria, dicendum quod ille objectiones non
+<lb ed="#Ba"/>procedunt nisi de vere contrariis. Et be-
+<pb ed="#Ba" n="203"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ne concedimus, quod unum et multa
+<lb ed="#Ba"/>non sunt contraria hoc modo.
+</p>
+               <p xml:id="Almn78-a41975-d1e2003">
+                  <lb ed="#Ba"/>Ad aliud quod de privatione et habitu
+<lb ed="#Ba"/>objicitur, dicendum quod objectio illa
+<lb ed="#Ba"/>non procedit, nisi de privative oppositis
+<lb ed="#Ba"/>secundum se : taliter enim non 
+opponun<lb ed="#Ba" break="no"/>lurunum et multa, ut dictum est : 
+quam<lb ed="#Ba" break="no"/>vis causas habeant privative oppositas, in
+<lb ed="#Ba"/>quibus licet unum describatur per 
+indi<lb ed="#Ba" break="no"/>visionem, quod privationem sonare 
+vide<lb ed="#Ba" break="no"/>tur, tamen dicit habitum. Privatio enim
+<lb ed="#Ba"/>significata per indivisionem, secundum
+<lb ed="#Ba"/>rationem consequens est positionem
+<lb ed="#Ba"/>unius : sicut negatio oppositi sequitur
+<lb ed="#Ba"/>positionem propositi : et sic est hic, quia
+<lb ed="#Ba"/>stans sub forma unius, per consequens
+<lb ed="#Ba"/>indivisum est..Quod autem quidam 
+di<lb ed="#Ba" break="no"/>cunt, quod indivisio privatio sit, et 
+pri<lb ed="#Ba" break="no"/>vatio non neget totum : et quod aliter
+<lb ed="#Ba"/>sit in ente quando privatur et dicitur
+<lb ed="#Ba"/>non ens, quam in aliis privationibus :
+<lb ed="#Ba"/>alia enim privationes non ponuntur in
+<lb ed="#Ba"/>suis habitibus, sed tantum relinquunt
+<lb ed="#Ba"/>subjectum et aptitudinem, et totum 
+tol<lb ed="#Ba" break="no"/>lunt habitum et actum : et quod ita non
+<lb ed="#Ba"/>sit in ente cum dicitur non ens, eo quod
+<lb ed="#Ba"/>privatio termini infiniti, cum dicitur non
+<lb ed="#Ba"/>ens, ponitur in ente. Error est : termi
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>nus enim infinitus secundum se 
+infi<lb ed="#Ba" break="no"/>nitari non potest. Infiniti autem 
+ter<lb ed="#Ba" break="no"/>mini sunt res, unum, aliquid, ens : et
+<lb ed="#Ba"/>ideo infinitari non possunt. Sed negatio
+<lb ed="#Ba"/>addita non infinitabit, sed totum negabit:
+<lb ed="#Ba"/>propter quod dictum nullum est.
+</p>
+               <p xml:id="Almn78-a41975-d1e2078">
+                  <lb ed="#Ba"/>Ad id quod objicitur, quod non 
+oppo<lb ed="#Ba" break="no"/>nuntur ut relativa, dicendum quod non
+<lb ed="#Ba"/>opponuntur ut relativa que secundum
+<lb ed="#Ba"/>eumdem casum ad convertentiam 
+dicun<lb ed="#Ba" break="no"/>tur, et que vere relativa sunt. Sed per
+<lb ed="#Ba"/>hoc non excluditur, guin unum possit
+<lb ed="#Ba"/>habere respectum ad alterum sicut 
+prin<lb ed="#Ba" break="no"/>cipiatum ad principium : per talem
+<lb ed="#Ba"/>enim respectum non concluditur, quod.
+<lb ed="#Ba"/>unum non sit ante multa.
+</p>
+               <p xml:id="Almn78-a41975-d1e2102">
+                  <lb ed="#Ba"/>Apw quod objicitur de affirmatione
+<lb ed="#Ba"/>et negatione, concedendum est.
+</p>
+               <p xml:id="Almn78-a41975-d1e2109">
+                  <lb ed="#Ba"/>Ad utmmum dicendum, quod unum
+<lb ed="#Ba"/>uni opponitur quod accipitur ut unum..
+<lb ed="#Ba"/>Si autem accipitur ut plura, nihil 
+pro<lb ed="#Ba" break="no"/>hibet habere plura opposita, ut patet
+<lb ed="#Ba"/>per Aristotelem in II Topicorwm. Unde
+<lb ed="#Ba"/>multitudo non simpliciter accepta, sed
+<lb ed="#Ba"/>cum excessu, opponitur uni ut multitudo
+<lb ed="#Ba"/>est, et opponitur pauco ut excessus est :
+<lb ed="#Ba"/>et est oppositio relationis inter multum
+<lb ed="#Ba"/>et paucum hoc modo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

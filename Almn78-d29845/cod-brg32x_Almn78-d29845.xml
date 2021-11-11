@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="135"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d29845"><!-- p2t2q8 -->
+            <head xml:id="Almn78-d29845-Hd1e106">Quaestio 8</head>
+            <head xml:id="Almn78-d29845-Hd1e109" type="question-title">
+      Utrum Angeli inter se differant specie, vel genere, vel numero solo
+    </head>
+            <p xml:id="Almn78-d29845-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO VIII.
+      <lb ed="#Bb"/>Utrum Angeli inter se differant specie, vel genere, vel numero
+      <lb ed="#Bb"/>solo?
+    </p>
+            <p xml:id="Almn78-d29845-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Quarto queritur, Utrum Angeli a se
+      <lb ed="#Bb"/>invicem differant specie, vel genere, vel
+      <lb ed="#Bb"/>numero solo?
+    </p>
+            <p xml:id="Almn78-d29845-d1e134">
+               <lb ed="#Bb"/>Et videtur, quod singuli differant 
+      spe<lb ed="#Bb" break="no"/>cie ab aliis.
+    </p>
+            <p xml:id="Almn78-d29845-d1e142">
+               <lb ed="#Bb"/>1. Constat enim, quod multiplicatio
+      <lb ed="#Bb"/>que ex equo est sub uno communi,
+      <lb ed="#Bb"/>quod se habet ad multa differentia non
+      <lb ed="#Bb"/>per materiam, est per species dividentes
+      <lb ed="#Bb"/>illud commune : Angeli omnes 
+      multipli<lb ed="#Bb" break="no"/>cantur sub uno communi, quod se 
+      ha<lb ed="#Bb" break="no"/>bet ut genus ad species illas, et hoc 
+      com<lb ed="#Bb" break="no"/>mune est substantia spiritualis 
+      intelle<lb ed="#Bb" break="no"/>ctualis : ergo videtur, quod differentia
+      <lb ed="#Bb"/>eorum ad invicem est per species : ergo
+      <lb ed="#Bb"/>singuli a singulis differunt specie.
+    </p>
+            <p xml:id="Almn78-d29845-d1e168">
+               <lb ed="#Bb"/>2. Adhuc, Commune substantiale non
+      <lb ed="#Bb"/>contrahitur ad hoc vel illud, nisi 
+      diffe<lb ed="#Bb" break="no"/>rentia constitutiva vel materia : constat
+      <lb ed="#Bb"/>autem, quod hoc commune quod est
+      <lb ed="#Bb"/>substantia intellectualis in Angelis, ad
+      <lb ed="#Bb"/>hune et illum non contrahitur per 
+      mate<lb ed="#Bb" break="no"/>riam : relinquitur ergo, quod contrahatur
+      <lb ed="#Bb"/>per formam, que est differentia 
+      constitu<lb ed="#Bb" break="no"/>tiva. Differentia autem constitutiva cum
+      <lb ed="#Bb"/>genere facit speciem, ut dicit Porphyrius:
+      <lb ed="#Bb"/>ergo videtur, quod singuli sint in singu
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" break="no"/>lis speciebus, et quod singuli a se 
+      invi<lb ed="#Bb" break="no"/>cem differant specie.
+    </p>
+            <p xml:id="Almn78-d29845-d1e201">
+               <lb ed="#Bb"/>3. Adhuc, Proportio est et similis 
+      ha<lb ed="#Bb" break="no"/>bitudo luminum ceelestium corporalium
+      <lb ed="#Bb"/>ad lumina ceelestia spiritualia: sed 
+      lumi<lb ed="#Bb" break="no"/>na ceelestia corporalia singula a singulis
+      <lb ed="#Bb"/>differunt specie, ut vult Philosophus,
+      <lb ed="#Bb"/>quia quodlibet est ex materia sua tota:
+      <lb ed="#Bb"/>propter quod etiam non sunt 
+      transmuta<lb ed="#Bb" break="no"/>bilia ad invicem: ergo videtur etiam,
+      <lb ed="#Bb"/>quod lumina spiritualia ccelestia a se 
+      in<lb ed="#Bb" break="no"/>vicem differant specie, ita quod singula
+      <lb ed="#Bb"/>singulas habeant species.
+    </p>
+            <p xml:id="Almn78-d29845-d1e227">
+               <lb ed="#Bb"/>4, Adhuc, Quorum est una natura 
+      spe<lb ed="#Bb" break="no"/>ciei, eorum est una participatio eorum
+      <lb ed="#Bb"/>que consequuntur naturam illam : ergo
+      <lb ed="#Bb"/>a destructione consequentis, quorum
+      <lb ed="#Bb"/>non est una participatio consequentium
+      <lb ed="#Bb"/>naturam unam in communi, eorum non
+      <lb ed="#Bb"/>est una natura communis in specie:
+      <lb ed="#Bb"/>constat autem, quod simplicitas essenti,
+      <lb ed="#Bb"/>perspicacitas intelligentia, consequentia
+      <lb ed="#Bb"/>sunt propriam naturam angelicam: et
+      <lb ed="#Bb"/>hoe, ut dicit Augustinus et ponitur in .
+      <lb ed="#Bb"/>libro II Sententiarum, distinct. III, 
+      par<lb ed="#Bb" break="no"/>ticipant Angeli inequaliter : ergo 
+      vide<lb ed="#Bb" break="no"/>tur, quod non participent naturam unam
+      <pb ed="#Bb" n="136"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>in specie singuli : ergo in singulis sunt
+      <lb ed="#Bb"/>speciebus.
+    </p>
+            <p xml:id="Almn78-d29845-d1e269">
+               <lb ed="#Bb"/>5. Adhuc, Multiplicatio per numerum
+      <lb ed="#Bb"/>sub una specie (ut dicunt Boetius et 
+      Phi<lb ed="#Bb" break="no"/>Josophi omnes naturales) non convenit
+      <lb ed="#Bb"/>nisi nature mortali, que ideo se 
+      multi<lb ed="#Bb" break="no"/>plicat per successionem, ut esse divinum
+      <lb ed="#Bb"/>quod in se tenere non potest, teneat in
+      <lb ed="#Bb"/>succedente, quod quasi pro pignore 
+      reti<lb ed="#Bb" break="no"/>net : propter quod etiam nati pignora 
+      di<lb ed="#Bb" break="no"/>cuntur. Cujus signum est, quia animalia
+      <lb ed="#Bb"/>parva, quorum vita brevis secundum 
+      na<lb ed="#Bb" break="no"/>turam, sicut dicit Philosophus, multe
+      <lb ed="#Bb"/>sunt generationis, et multum ponunt in
+      <lb ed="#Bb"/>semine, eo quod in paucis non diu 
+      sal<lb ed="#Bb" break="no"/>varetur species, sicut patet in vermibus,
+      <lb ed="#Bb"/>parvis avibus, et parvis animalibus. Sed
+      <lb ed="#Bb"/>natura angelica non est mortalis: non
+      <lb ed="#Bb"/>ergo indiget multiplicatione sub una 
+      com<lb ed="#Bb" break="no"/>muni specie, in qua teneatur esse 
+      divi<lb ed="#Bb" break="no"/>num specificum illud : videtur ergo, quod
+      <lb ed="#Bb"/>singuli in propriis sint speciebus.
+    </p>
+            <p xml:id="Almn78-d29845-d1e315">
+               <lb ed="#Bb"/>In conTrarium huius est, quod
+      <lb ed="#Bb"/>1. Angeli de una hierarchia plus 
+      diffe<lb ed="#Bb" break="no"/>runt ab Angelis de alia hierarchia, quam
+      <lb ed="#Bb"/>Angeli ejusdem ordinis differant a se 
+      in<lb ed="#Bb" break="no"/>vicem : si ergo Angeli ejusdem ordinis a
+      <lb ed="#Bb"/>se invicem differant specie, Angeli 
+      diver<lb ed="#Bb" break="no"/>sarum hierarchiarum differrent a se 
+      invi<lb ed="#Bb" break="no"/>cem genere: et sic non solum specie
+      <lb ed="#Bb"/>differunt Angeli, sed etiam genere.
+    </p>
+            <p xml:id="Almn78-d29845-d1e338">
+               <lb ed="#Bb"/>2. Adhuc, Videtur quod omnes sunt
+      <lb ed="#Bb"/>ejusdem speciei. Quorum enim unum est
+      <lb ed="#Bb"/>nomen in communi, natura eorum est
+      <lb ed="#Bb"/>una et definitio secundum nomen illud,
+      <lb ed="#Bb"/>nomen enim et definitio ejusdem nature
+      <lb ed="#Bb"/>sunt, et non differunt nisi per implicitum
+      <lb ed="#Bb"/>et explicitum : quia quod definitio dicit
+      <lb ed="#Bb"/>explicite, hoc nomen dicit implicite. Sed
+      <lb ed="#Bb"/>omnes conveniunt in tribus, ut dicit 
+      Dio<lb ed="#Bb" break="no"/>nysius: omnes enim dicuntur ca@lesies
+      <lb ed="#Bb"/>essentie@, omnes dicuntur celestes 
+      virtu<lb ed="#Bb" break="no"/>tes, et omnes dicuntur Angeli. Et 
+      Diony<lb ed="#Bb" break="no"/>sius reddit rationem de singulis horum :
+      <lb ed="#Bb"/>dicit enim, quod celestes essenti# 
+      dicun<lb ed="#Bb" break="no"/>tur omnes, quia hoc commune quod est
+      <lb ed="#Bb"/>ceelestis essentia, wequaliter participant :
+      <lb ed="#Bb"/>omnes enim in celo empyreo creati
+      <lb ed="#Bb"/>sunt, et omnes ad ministerium regni coe
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" break="no"/>lestis ordinati sunt. Celestes autem 
+      vir<lb ed="#Bb" break="no"/>tutes dicuntur, ut dicit Dionysius, quia
+      <lb ed="#Bb"/>omnes ad actus ministerii sui virtutem
+      <lb ed="#Bb"/>plenam acceperunt: propter quod in 
+      or<lb ed="#Bb" break="no"/>dinibus singulis ordinati sunt: ordo 
+      au<lb ed="#Bb" break="no"/>tem, ut dicit Priscianus, pars potestatis
+      <lb ed="#Bb"/>est. Angeli vero dicuntur: quia Angeli
+      <lb ed="#Bb"/>inferiorem ordinem tenent. Ia autem
+      <lb ed="#Bb"/>est in omnibus potestatibus virtualibus,
+      <lb ed="#Bb"/>quod omnes superiores participant dona
+      <lb ed="#Bb"/>inferiorum excellenter et eminenter, 
+      in<lb ed="#Bb" break="no"/>feriores vero dona superiorum minime:
+      <lb ed="#Bb"/>et sic quidquid convenit inferioribus 
+      An<lb ed="#Bb" break="no"/>gelis, convenit omnibus superioribus,
+      <lb ed="#Bb"/>sed non e converso, scilicet quod 
+      conve<lb ed="#Bb" break="no"/>nit superioribus, convenit inferioribus
+      <lb ed="#Bb"/>Angelis. Et quia omnes participant 
+      do<lb ed="#Bb" break="no"/>num Angelorum, omnes vocantur Angeli:
+      <lb ed="#Bb"/>et quia non omnes participant dona 
+      su<lb ed="#Bb" break="no"/>periorum, ideo non omnes dicuntur 
+      Che<lb ed="#Bb" break="no"/>rubim, vel Seraphim, vel Throni, et sic
+      <lb ed="#Bb"/>de aliis descendendo. Videtur ergo, quod
+      <lb ed="#Bb"/>omnes sint ejusdem speciei secundum
+      <lb ed="#Bb"/>naturam que est ccelestis essentia, et non
+      <lb ed="#Bb"/>differant nisi potestatibus et donis.
+    </p>
+            <p xml:id="Almn78-d29845-d1e436">
+               <lb ed="#Bb"/>3. Adhuc, Proportio est, et similis 
+      ha<lb ed="#Bb" break="no"/>bitudo militia regis terreni ad militiam
+      <lb ed="#Bb"/>Regis ceelestis : sed in militia regis 
+      terre<lb ed="#Bb" break="no"/>ni, sicut David, Salomonis, et aliorum,
+      <lb ed="#Bb"/>tota militia est unius speciei, licet inter
+      <lb ed="#Bb"/>se differant dignitatibus et potestatibus et
+      <lb ed="#Bb"/>ornatu ad dignitates illas pertinentibus :
+      <lb ed="#Bb"/>ergo videlur, quod similiter sit in militia
+      <lb ed="#Bb"/>Regis ccelestis : et sic omnes Angeli erunt
+      <lb ed="#Bb"/>ejusdem speciei secundum naturam, qua
+      <lb ed="#Bb"/>coelestes essenlize sunt et substantia 
+      in<lb ed="#Bb" break="no"/>tellectuales, secundum quod intellectuale
+      <lb ed="#Bb"/>a deiformi intellectu denominatur, ut 
+      di<lb ed="#Bb" break="no"/>cit Dionysius : et non differunt nisi 
+      po<lb ed="#Bb" break="no"/>{eslatibus et donis, quibus in ordinibus
+      <lb ed="#Bb"/>constituuntur.
+    </p>
+            <p xml:id="Almn78-d29845-d1e473">
+               <lb ed="#Bb"/>4, Adhuc, Omnes sunt lumina divina,
+      <lb ed="#Bb"/>ut constat, et specula clarissima luminis
+      <lb ed="#Bb"/>divini manifestativa : et quorum est una
+      <lb ed="#Bb"/>perfectio secundum virtutem quam nati
+      <lb ed="#Bb"/>sunt suscipere, eorum est una natura
+      <lb ed="#Bb"/>communis secundum speciem. Cum ergo
+      <lb ed="#Bb"/>omnium -Angelorum una perfectio sit se-.
+      <lb ed="#Bb"/>cundum lumen deiformis intellectus,
+      <pb ed="#Bb" n="137"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>quam non reciperent, nisi nati essent
+      <lb ed="#Bb"/>eam suscipere, videtur quod omnibus
+      <lb ed="#Bb"/>Angelis sit una natura communis in 
+      spe<lb ed="#Bb" break="no"/>cie. Prima probatur ex inductione in 
+      ho<lb ed="#Bb" break="no"/>minibus : omnis enim homo natus est
+      <lb ed="#Bb"/>suscipere virtutem moralem et 
+      intelle<lb ed="#Bb" break="no"/>ctualem, et suscipit per assuetudinem et
+      <lb ed="#Bb"/>doctrinam, nisi naturale occurrat 
+      impedi<lb ed="#Bb" break="no"/>mentum, utin morionibus: propter quod
+      <lb ed="#Bb"/>dicit Aristoteles in Il Athicorum, quod
+      <lb ed="#Bb"/>innati sumus virtutes suscipere. Perficere
+      <lb ed="#Bb"/>autem est in assuetudine in virlute 
+      mo<lb ed="#Bb" break="no"/>rali, vel doctrina in virlute intellectual: :
+      <lb ed="#Bb"/>et si aliquid sit, cui non est innatum 
+      ali<lb ed="#Bb" break="no"/>quid suscipere, numquam per 
+      assuetudi<lb ed="#Bb" break="no"/>nem vel doctrinam suscipiet ilud : sicut
+      <lb ed="#Bb"/>lapidi non est innatum sursum ferri, et
+      <lb ed="#Bb"/>ideo per assuetudinem numquam 
+      assue<lb ed="#Bb" break="no"/>scet sursum ferri, etsi millies sursum 
+      ja<lb ed="#Bb" break="no"/>ciatur. Et sic habetur propositum, 
+      scili<lb ed="#Bb" break="no"/>cet quod si omnes Angeli perceptibiles
+      <lb ed="#Bb"/>sint luminis secundum deiformem: 
+      in<lb ed="#Bb" break="no"/>tellectum, una natura est in omnibus illis
+      <lb ed="#Bb"/>secundum speciem, secundum quam 
+      per<lb ed="#Bb" break="no"/>ceptibiles sunt luminis illius ut sue 
+      pro<lb ed="#Bb" break="no"/>prie perfectionis.
+    </p>
+            <p xml:id="Almn78-d29845-d1e554">
+               <lb ed="#Bb"/>3. Adhuc, Si distinguerentur Angeli in
+      <lb ed="#Bb"/>diversas species, tunc secundum 
+      virtu<lb ed="#Bb" break="no"/>tem assistricem, et secundum virtutem
+      <lb ed="#Bb"/>ministratricem maxime deberent 
+      distin<lb ed="#Bb" break="no"/>gui: sed secundum illa virtutes non 
+      dis<lb ed="#Bb" break="no"/>tinguuntur : dicit enim Beda, quod
+      <quote xml:id="Almn78-d29845-Qd1e569">jidem qui ministrant, assistunt dum
+        <lb ed="#Bb"/>ministrant, et intra Deum currunt 
+        quo<lb ed="#Bb" break="no"/>cumque mittantur. </quote> Si ergo secundum
+      <lb ed="#Bb"/>hoc non distinguuntur in diversas 
+      spe<lb ed="#Bb" break="no"/>cies, tune nec secundum alia officia 
+      ordi<lb ed="#Bb" break="no"/>num in diversas species distinguuntur.
+    </p>
+            <p xml:id="Almn78-d29845-d1e583">
+               <lb ed="#Bb"/>Si quis dicat per illud Matthei, xxv,
+      <lb ed="#Bb"/>45, quod Deus dat unicuigue secundum
+      <lb ed="#Bb"/>propriam virtutem, et quod diversitas
+      <lb ed="#Bb"/>illius virtutis cognoscitur ex diversitate
+      <lb ed="#Bb"/>donorum, et indicat diversitatem nature
+      <lb ed="#Bb"/>secundum speciem. Hoe nihil habet 
+      pro<lb ed="#Bb" break="no"/>babilitatis : quia in eadem natura 
+      secun<lb ed="#Bb" break="no"/>dum speciem, sicut in homine, diversitas
+      <lb ed="#Bb"/>virtutis est ex diversa perspicacitate 
+      in<lb ed="#Bb" break="no"/>tellectus, vel diverso conatu ad cultum
+      <lb ed="#Bb"/>illius virtutis, vel ex diversa nobilitate
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>nature, ex puritate vel impuritate 
+      pro<lb ed="#Bb" break="no"/>veniente. Et non posset assignari causa,
+      <lb ed="#Bb"/>quare non esset similiter in Angelis, ex
+      <lb ed="#Bb"/>quo ab Augustino expresse determinatum
+      <lb ed="#Bb"/>est, quod differunt simplicitate essentia,
+      <lb ed="#Bb"/>et perspicacitate intellectus.
+    </p>
+            <p xml:id="Almn78-d29845-d1e625">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod circa istam
+      <lb ed="#Bb"/>materiam tres sunt opiniones solemnes.
+    </p>
+            <p xml:id="Almn78-d29845-d1e633">
+               <lb ed="#Bb"/>Aliqui dixerunt, quod singuli Angelia
+      <lb ed="#Bb"/>singulis differunt specie, et consenserunt
+      <lb ed="#Bb"/>in rationes primo inductas.
+    </p>
+            <p xml:id="Almn78-d29845-d1e642">
+               <lb ed="#Bb"/>Alii probabilius dixerunt, quod Angeli
+      <lb ed="#Bb"/>unius ordinis, sunt unius speciei: 
+      diver<lb ed="#Bb" break="no"/>sorum ordinum, diversarum specierum :
+      <lb ed="#Bb"/>dicentes, quod sub uno communi quod
+      <lb ed="#Bb"/>est species, omnium ordinatrix sapientia
+      <lb ed="#Bb"/>Dei multiplicat personas angelicas, 
+      pro<lb ed="#Bb" break="no"/>pter multiplicitatem ministeriorum et 
+      of<lb ed="#Bb" break="no"/>ficiorum ad ornatum regni cceelestis 
+      per<lb ed="#Bb" break="no"/>tinentium.
+    </p>
+            <p xml:id="Almn78-d29845-d1e664">
+               <lb ed="#Bb"/>Tertii dixerunt, quod omnes Angeli
+      <lb ed="#Bb"/>sunt unius speciei, differunt tamen 
+      hie<lb ed="#Bb" break="no"/>rarchiis et ordinibus, eo quod quidam
+      <lb ed="#Bb"/>sunt quasi agalmata divina juxta Deum
+      <lb ed="#Bb"/>existentia, et quasi continue in Deum
+      <lb ed="#Bb"/>motum habentia, vel per ignem charita~
+      <lb ed="#Bb"/>tis, vel secundum perceptionem 
+      illumi<lb ed="#Bb" break="no"/>nationis veritatis, vel per susceptiones
+      <lb ed="#Bb"/>divinas : eo quod in omni materialitate
+      <lb ed="#Bb"/>Deum suscipiunt, et deiferi sunt.
+    </p>
+            <p xml:id="Almn78-d29845-d1e688">
+               <lb ed="#Bb"/>Alii secundum diversitatem potestatis,
+      <lb ed="#Bb"/>diversitatem accipiunt ordinum et 
+      agmi<lb ed="#Bb" break="no"/>num. Quidam enim ex multa possessione
+      <lb ed="#Bb"/>verorum, pulchrorum, et bonorum, 
+      su<lb ed="#Bb" break="no"/>perpositi sunt, ita quod altitudinis et 
+      do<lb ed="#Bb" break="no"/>minationis incessanter sunt appetitivi, et
+      <lb ed="#Bb"/>ad scabellaria et conculcabilia inferiora
+      <lb ed="#Bb"/>indignationis oculos numquam 
+      respi<lb ed="#Bb" break="no"/>ciunt. Quidam virtute, que est 
+      extre<lb ed="#Bb" break="no"/>mum in bono, et medium in actione et
+      <lb ed="#Bb"/>passione, ita excedunt, quod omnem 
+      vo<lb ed="#Bb" break="no"/>luntatem Dei possunt perficere, et 
+      bo<lb ed="#Bb" break="no"/>nam, et beneplacentem, et perfectam,
+      <lb ed="#Bb"/>nullo sibi valente obsistere 
+      impedimen<lb ed="#Bb" break="no"/>to. Quidam vero libera severitate arcere
+      <lb ed="#Bb"/>valent malitiosam potestatem, ne 
+      quan<lb ed="#Bb" break="no"/>tum vellet nocere possit, nec bonum 
+      or<lb ed="#Bb" break="no"/>dinationis divine valeat impedire. Alii
+      <pb ed="#Bb" n="138"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>distinguuntur secundum perfectionem
+      <lb ed="#Bb"/>operationis, ad administrationem regni
+      <lb ed="#Bb"/>ceelestis pertinentis: hoc enim primo
+      <lb ed="#Bb"/>perficitur in legibus zquissimis, in 
+      offi<lb ed="#Bb" break="no"/>ciis propriis unicuique persone 
+      deputa<lb ed="#Bb" break="no"/>tis, in definitionibus consiliorum, et in
+      <lb ed="#Bb"/>forma boni secundum unamquamque
+      <lb ed="#Bb"/>personam. Et sic dividunt eos in tres 
+      tri<lb ed="#Bb" break="no"/>nos ornatus.
+    </p>
+            <p xml:id="Almn78-d29845-d1e753">
+               <lb ed="#Bb"/>Et quia hec sententia Sanctis congruit,
+      <lb ed="#Bb"/>et in eam magis consentire videntur,
+      <lb ed="#Bb"/>ideo videtur huic opinioni consentiendum
+      <lb ed="#Bb"/>esse, sicut persuadent rationes ultime
+      <lb ed="#Bb"/>inducte.
+    </p>
+            <p xml:id="Almn78-d29845-d1e766">
+               <lb ed="#Bb"/>Ad id ergo quod primo objicitur, 
+      di<lb ed="#Bb" break="no"/>cendum quod non semper est verum,
+      <lb ed="#Bb"/>quod multiplicatio que est sub uno 
+      com<lb ed="#Bb" break="no"/>muni non per materiam contracto, sit
+      <lb ed="#Bb"/>per speciem, vel per essentialem 
+      diffe<lb ed="#Bb" break="no"/>rentiam : sed in logicis est verum, et in
+      <lb ed="#Bb"/>naturalibus. In civilibus autem non est
+      <lb ed="#Bb"/>verum. In civilibus enim multiplicatio
+      <lb ed="#Bb"/>est ad ministeria per ordinationem 
+      poli<lb ed="#Bb" break="no"/>tici sapientis : et sicut sepe dictum est,
+      <lb ed="#Bb"/>distributio regni ccelestis magis similis
+      <lb ed="#Bb"/>est politicis, et civilibus, quam sit 
+      logi<lb ed="#Bb" break="no"/>cis et naturalibus: cujus signum est,
+      <lb ed="#Bb"/>quod regnum celorum etiam civitas 
+      vo<lb ed="#Bb" break="no"/>catur.
+    </p>
+            <p xml:id="Almn78-d29845-d1e802">
+               <lb ed="#Bb"/>Ad aliud eodem modo respondendum
+      <lb ed="#Bb"/>est, scilicet quod non tenet in 
+      distribu<lb ed="#Bb" break="no"/>tione et multiplicatione civili.
+    </p>
+            <p xml:id="Almn78-d29845-d1e811">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod lumina 
+      cor<lb ed="#Bb" break="no"/>poralia ccelestia ad aliud sunt, quam 
+      lu<lb ed="#Bb" break="no"/>mina spiritualia: corporalia enim sunt
+      <lb ed="#Bb"/>ad movendum materiam generatorum et
+      <lb ed="#Bb"/>corruptorum in diversas species et 
+      figu<lb ed="#Bb" break="no"/>ras et dispositiones et periodos, et prop
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>ter hoc illa necesse fuit differre specie et
+      <lb ed="#Bb"/>forma ab invicem : lumina autem 
+      spiri<lb ed="#Bb" break="no"/>tualia multiplicantur ad ministeria, et
+      <lb ed="#Bb"/>propter hoc illa conveniens fuit 
+      conve<lb ed="#Bb" break="no"/>nire in forma et specie.
+    </p>
+            <p xml:id="Almn78-d29845-d1e840">
+               <lb ed="#Bb"/>Ad aliud dicendum,” quod hec est
+      <lb ed="#Bb"/>vera, quod quorum est una materia
+      <lb ed="#Bb"/>communis, illorum est una participatio
+      <lb ed="#Bb"/>eorum que sequuntur naturam illam ;
+      <lb ed="#Bb"/>sed non oportet, quod uno modo: sicut
+      <lb ed="#Bb"/>patet in homne, cujus naturam 
+      consequi<lb ed="#Bb" break="no"/>tur risibile et intellectuale esse : tamen
+      <lb ed="#Bb"/>non uno modo participant, unus enim
+      <lb ed="#Bb"/>homo risibilior est alio, et alius 
+      intelle<lb ed="#Bb" break="no"/>ctualior alio,cum tamen quilibet sit 
+      risi<lb ed="#Bb" break="no"/>bilis et intellectualis. Et ita est in Ange-~
+      <lb ed="#Bb"/>lis: licet enim omnes sint simplicis 
+      es<lb ed="#Bb" break="no"/>sentiz et perspicacis intelligentia, tamen
+      <lb ed="#Bb"/>unus est simplicior alio, et alius 
+      perspi<lb ed="#Bb" break="no"/>cacior alio : et hoc non impedit quin 
+      om<lb ed="#Bb" break="no"/>nes sint unius speciei communis.
+    </p>
+            <p xml:id="Almn78-d29845-d1e877">
+               <lb ed="#Bb"/>Ad aliud dicendum est, quod in natura
+      <lb ed="#Bb"/>mortali causa multiplicationis est, que
+      <lb ed="#Bb"/>dicta est in objectione : sed in natura an-"
+      <lb ed="#Bb"/>gelica alia causa est, que similis est 
+      po<lb ed="#Bb" break="no"/>litice sive civili, ut jam saepius dictum
+      <lb ed="#Bb"/>est.
+    </p>
+            <p xml:id="Almn78-d29845-d1e893">
+               <lb ed="#Bb"/>Ad id quod in contrarium objicitur,
+      <lb ed="#Bb"/>dicendum quod si esset multiplicatio 
+      lo<lb ed="#Bb" break="no"/>gica vel etiam physica, tune procederet
+      <lb ed="#Bb"/>objectio: sed quia non est talis, non 
+      se<lb ed="#Bb" break="no"/>quitur, nisi quod differant sacro ordine,
+      <lb ed="#Bb"/>et sacra actione. Hierarchia enim non
+      <lb ed="#Bb"/>dicit nisi sacrum principatum et sacram
+      <lb ed="#Bb"/>actionem.
+    </p>
+            <p xml:id="Almn78-d29845-d1e913">
+               <lb ed="#Bb"/>Omnia que ulterius inducta sunt, 
+      pro<lb ed="#Bb" break="no"/>cedunt ex dictis Sanctorum que inter
+      <lb ed="#Bb"/>omnia plus concordant.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

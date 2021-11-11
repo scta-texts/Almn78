@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 26</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 26</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="286"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d63642"><!-- p2t6q26 -->
+            <head xml:id="Almn78-d63642-Hd1e106">Quaestio 26</head>
+            <head xml:id="Almn78-d63642-Hd1e109" type="question-title">
+      Qualiter Angelus tam bonus quam malus praeest Angelo
+    </head>
+            <p xml:id="Almn78-d63642-d1e112">
+               <lb ed="#Bb"/>QUAESTIO XXVI.
+      <lb ed="#Bb"/>Qualiter Angelus tam bonus quam malus preest Angelo ?
+    </p>
+            <p xml:id="Almn78-d63642-d1e119">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Circa primum queruntur duo, scilicet
+      <lb ed="#Bb"/>qualiter bonus Angelus praeest bono, et 
+      <lb ed="#Bb"/>malus malo ?
+    </p>
+            <p xml:id="Almn78-d63642-d1e130">
+               <lb ed="#Bb"/>Secundo, Quis sit actus superioris in 
+      <lb ed="#Bb"/>inferiorem ? 
+    </p>
+            <div xml:id="Almn78-d63642-Dd1e138">
+               <head xml:id="Almn78-d63642-Hd1e140">Membrum 1</head>
+               <head xml:id="Almn78-d63642-Hd1e143" type="question-title">
+        Qualiter Angelus praesit Angelo? Et si
+        bonus bono, et malus malo praeest,
+        utrum praesit per naturam vel per
+        gratiam
+      </head>
+               <p xml:id="Almn78-d63642-d1e146">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM I
+        <lb ed="#Bb"/>Qualiter Angelus praesit Angelo? Et si
+        <lb ed="#Bb"/>bonus bono, et malus malo praeest,
+        <lb ed="#Bb"/>utrum praesit per naturam vel per
+        <lb ed="#Bb"/>gratiam?
+      </p>
+               <p xml:id="Almn78-d63642-d1e162">
+                  <lb ed="#Bb"/>Ad primo objicitur sic :
+        <lb ed="#Bb"/>Videtur enim, quod Angelus non de
+        <pb ed="#Bb" n="287"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>beat praeesse Angelo per naturam 
+        insti<lb ed="#Bb" break="no"/>tutam.
+      </p>
+               <p xml:id="Almn78-d63642-d1e178">
+                  <lb ed="#Bb"/>1. Subjectio enim vel servitus est, vel
+        <lb ed="#Bb"/>simile aliquid servituti : et hoc inductum
+        <lb ed="#Bb"/>est ex peccato : sicut patet, Genes. ix,
+        <lb ed="#Bb"/>23, ubi Noe dixit propter peccatum 
+        deri<lb ed="#Bb" break="no"/>sionis filii : Maledietus Chanaan, servus
+        <lb ed="#Bb"/>servorum erit fratribus suis. Ubi dicit
+        <lb ed="#Bb"/>Gregorius in Glossa, quod <quote xml:id="Almn78-d63642-Qd1e195"> natura 
+          om<lb ed="#Bb" break="no"/>nes homines equales genuit : et ideo
+          <lb ed="#Bb"/>contra naturam est superbire, et 
+          homi<lb ed="#Bb" break="no"/>nem homini velle preesse. </quote> A simili
+        <lb ed="#Bb"/>ergo cum Deus omnes Angelos in hoc
+        <lb ed="#Bb"/>equales constituit, quod omnes nature
+        <lb ed="#Bb"/>rationales sunt et deiformis intellectus,
+        <lb ed="#Bb"/>superbire est contra naturam Angeli, et
+        <lb ed="#Bb"/>similiter, quod Angelus Angelo prasit.
+      </p>
+               <p xml:id="Almn78-d63642-d1e217">
+                  <lb ed="#Bb"/>2. Adhuc, Il Sententiarum, distinct. IIT,
+        <lb ed="#Bb"/>cap. Et sicut in predictis, dicit 
+        Ma<lb ed="#Bb" break="no"/>gister sic: <quote xml:id="Almn78-d63642-Qd1e225"> Omnes Angeli quedam 
+          com<lb ed="#Bb" break="no"/>munia et equalia habebant. Quod 
+          spi<lb ed="#Bb" break="no"/>ritus erant, quod indissolubiles, et
+          <lb ed="#Bb"/>immortales erant, commune omnibus
+          <lb ed="#Bb"/>erat et equale. </quote> In equalibus, autem
+        <lb ed="#Bb"/>non est gradus superioritatis et 
+        inferio<lb ed="#Bb" break="no"/>ritatis: contra naturam ergo est, si unus
+        <lb ed="#Bb"/>alteri supponatur, et unus alii 
+        prefera<lb ed="#Bb" break="no"/>tur.
+      </p>
+               <p xml:id="Almn78-d63642-d1e246">
+                  <lb ed="#Bb"/>3. Adhuc, Cum nature completio sit
+        <lb ed="#Bb"/>gratia, et gratie completio sit gloria: si
+        <lb ed="#Bb"/>per naturam unus prelatus esset alteri,
+        <lb ed="#Bb"/>et unus subjectus alteri, hoc completius
+        <lb ed="#Bb"/>esset post acceptam gratiam, et 
+        comple<lb ed="#Bb" break="no"/>tissimum in perfecta gloria : erit autem
+        <lb ed="#Bb"/>perfectissima gloria post diem’ judicii,
+        <lb ed="#Bb"/>quando tota ruina Angelorum erit ex
+        <lb ed="#Bb"/>numero electorum restaurata : sed tunc
+        <lb ed="#Bb"/>evacuabitur omnis prelatio. I ad 
+        Co<lb ed="#Bb" break="no"/>rinth. xv, 24: Cum evacuaverit omnem
+        <lb ed="#Bb"/>principatum, et potestatem, et virtutem.
+        <lb ed="#Bb"/>Ubi Glossa Augustini dicit : <quote xml:id="Almn78-d63642-Qd1e276"> Quamdiu
+          <lb ed="#Bb"/>durat mundus, Angeli Angelis, homines
+          <lb ed="#Bb"/>hominibus, et demones demonibus 
+          pre<lb ed="#Bb" break="no"/>sunt: sed in futuro omnis evacuabitur
+          <lb ed="#Bb"/>prelatio. </quote> Ergo a destructione 
+        conse<lb ed="#Bb" break="no"/>quentis, non estde natura angelica, quod
+        <lb ed="#Bb"/>unus Angelus presit, et alter subsit.
+      </p>
+               <p xml:id="Almn78-d63642-d1e292">
+                  <lb ed="#Bb"/>Propter hoc queritur, Utrum ex gra
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>tia hoc habeant, quod unus_ alteri
+        <lb ed="#Bb"/>preest ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e303">
+                  <lb ed="#Bb"/>Et videtur, quod non: quia sicut jam
+        <lb ed="#Bb"/>dictum est, si ex gratia esset, in futuro
+        <lb ed="#Bb"/>non evacuatur, perfectio enim gratia
+        <lb ed="#Bb"/>non evacuaretur, sed completur per 
+        glo<lb ed="#Bb" break="no"/>riam. I ad Corinth. xin, 8: Charitas
+        <lb ed="#Bb"/>numquam excidit.
+      </p>
+               <p xml:id="Almn78-d63642-d1e319">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>1. Gregorius super Ezechielem xxviu,
+        <lb ed="#Bb"/>12, super illud : 7u signaculum 
+        similitu<lb ed="#Bb" break="no"/>dinis, dicit sic: <quote xml:id="Almn78-d63642-Qd1e329"> Dum Lucifer cunctis 
+          An<lb ed="#Bb" break="no"/>gelorum agminibus prelatus fuit, eorum
+          <lb ed="#Bb"/>comparatione clarior fuit.</quote> Et paulo
+        <lb ed="#Bb"/>post, ibidem, <quote xml:id="Almn78-d63642-Qd1e339"> Tanta species illum 
+          pul<lb ed="#Bb" break="no"/>chriorem reddidit, quanta illum 
+          supposi<lb ed="#Bb" break="no"/>{a multitudo decoravit. </quote> Ergo per 
+        na<lb ed="#Bb" break="no"/>turam prepositus iuit omnibus aliis :
+        <lb ed="#Bb"/>gradus ergo prelationis in Angelis sunt
+        <lb ed="#Bb"/>per naluram.
+      </p>
+               <p xml:id="Almn78-d63642-d1e353">
+                  <lb ed="#Bb"/>2. Adhuc, Gregorius, ibidem, <quote xml:id="Almn78-d63642-Qd1e357"> 
+          Con<lb ed="#Bb" break="no"/>sideret homo quid ipse superbiendo de
+          <lb ed="#Bb"/>elationis sue culpa passurus sit, dum
+          <lb ed="#Bb"/>superbienti illi Deus parcere noluit,
+          <lb ed="#Bb"/>quem creando in gloria tanto culmine
+          <lb ed="#Bb"/>virtutis elevavit. Consideret quid etin
+          <lb ed="#Bb"/>terra elatus mereatur, si et prelatus 
+          An<lb ed="#Bb" break="no"/>gelus Angelis in ccelo prosternitur. </quote> Et
+        <lb ed="#Bb"/>ex hoc aceipitur, quod in primo statu
+        <lb ed="#Bb"/>conditionis nature angelice Angelus 
+        An<lb ed="#Bb" break="no"/>gelis praelatus fuit.
+      </p>
+               <p xml:id="Almn78-d63642-d1e383">
+                  <lb ed="#Bb"/>3. Adhuc, Videtur quod hoc habeant
+        <lb ed="#Bb"/>ex gratia. Gregorius super illud 
+        Apo<lb ed="#Bb" break="no"/>stoli,I ad Corinth. xv, 24: Cum 
+        evacua<lb ed="#Bb" break="no"/>verit, dicit sic: <quote xml:id="Almn78-d63642-Qd1e393"> Hominibus Angeli, 
+          An<lb ed="#Bb" break="no"/>gelis Archangeli, Deus autem omnibus
+          <lb ed="#Bb"/>preest per naturam et gratiam. </quote> Ergo
+        <lb ed="#Bb"/>Angelis Archangeli, et hominibus Angeli
+        <lb ed="#Bb"/>presunt per naturam et gratiam.
+      </p>
+               <p xml:id="Almn78-d63642-d1e406">
+                  <lb ed="#Bb"/>Uxrerivs queritur, Si malus Angelus
+        <lb ed="#Bb"/>preest malo Angelo ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e413">
+                  <lb ed="#Bb"/>Et videtur, quod non.
+        <lb ed="#Bb"/>4. Ordo enim secundum rationem boni
+        <lb ed="#Bb"/>determinatur, et per malitiam a ratione
+        <lb ed="#Bb"/>boni cecidit : ergo et a gradu 
+        prelatio<lb ed="#Bb" break="no"/>nis,
+      </p>
+               <p xml:id="Almn78-d63642-d1e426">
+                  <lb ed="#Bb"/>2. Adhuc, Si ita esset, tune qui plus
+        <lb ed="#Bb"/>peccavit, subjiciendus esset in prelatione
+        <pb ed="#Bb" n="288"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>omnibus aliis, hoc enim exigeret 
+        demeri<lb ed="#Bb" break="no"/>tum iniquitalis sue: sed hoc non est
+        <lb ed="#Bb"/>verum, adhuc enim Lucifer dicitur 
+        prin<lb ed="#Bb" break="no"/>ceps demonum, et habetur, Matth. xxv,
+        <lb ed="#Bb"/>41: Discedite ame, maledicti, in ignem
+        <lb ed="#Bb"/>eternum, gui paratus est diabolo et
+        <lb ed="#Bb"/>angelis ejus. Ubi alii demones non 
+        di<lb ed="#Bb" break="no"/>cuntur Angeli ejus ex creatione, sed ex
+        <lb ed="#Bb"/>subjectione potestatis. Similiter adhuc
+        <lb ed="#Bb"/>dicitur princeps mundi hujus, Joan. xn,
+        <lb ed="#Bb"/>31: Princeps hugus mundi ejicietur 
+        fo<lb ed="#Bb" break="no"/>ras. Similiter dicitur princeps 
+        tenebra<lb ed="#Bb" break="no"/>rum‘: quorum nihil posset esse 
+        secun<lb ed="#Bb" break="no"/>dum ordinem justitie divine, si in malis
+        <lb ed="#Bb"/>Angelis essent gradus prelationis.
+      </p>
+               <p xml:id="Almn78-d63642-d1e470">
+                  <lb ed="#Bb"/>3. Adhuc, Si secundum ordinem 
+        justi<lb ed="#Bb" break="no"/>tie divine inter malos essent gradus
+        <lb ed="#Bb"/>prelationis, tune qui plus peccavit, aliis
+        <lb ed="#Bb"/>esset tradendus ad torquendum: et e
+        <lb ed="#Bb"/>contra est : ergo videtur, quod in malis
+        <lb ed="#Bb"/>non sit gradus prelationis.
+      </p>
+               <p xml:id="Almn78-d63642-d1e486">
+                  <lb ed="#Bb"/>Contra:
+        <lb ed="#Bb"/>1. Jl Sententiarum, distinct. VI, cap.
+        <lb ed="#Bb"/>Et sicut inter bonos, dicit sic: <quote xml:id="Almn78-d63642-Qd1e494"> Habent
+          <lb ed="#Bb"/>quoque secundum modum  scientie
+          <lb ed="#Bb"/>majoris vel minoris, prelationes alias
+          <lb ed="#Bb"/>majores vel minores. Quidam enim uni
+          <lb ed="#Bb"/>provincia, alii uni homini, alii uni 
+          vi<lb ed="#Bb" break="no"/>tio presunt. Unde dicitur  spiritus
+          <lb ed="#Bb"/>superbia, spiritus luxuria, et 
+          hujus<lb ed="#Bb" break="no"/>modi: quia de illo vitio maxime potest
+          <lb ed="#Bb"/>homines tentare, a quo denominatur. </quote>
+               </p>
+               <p xml:id="Almn78-d63642-d1e516">
+                  <lb ed="#Bb"/>2. Adhuc, Ibidem, <quote xml:id="Almn78-d63642-Qd1e520"> Inde etiam est,
+          <lb ed="#Bb"/>quod nomine demonis divitia 
+          nuncu<lb ed="#Bb" break="no"/>pantur, scilicet mammona. Est enim
+          <lb ed="#Bb"/>Mammon nomen demonis: quo 
+          no<lb ed="#Bb" break="no"/>mine vocantur divitiz secundum Syram
+          <lb ed="#Bb"/>linguam. Hoc autem non ideo est, quod
+          <lb ed="#Bb"/>diabolus in potestate habeat dare vel
+          <lb ed="#Bb"/>auferre divitias cuivelit : sed quia eis
+          <lb ed="#Bb"/>utitur ad hominum tentationem et 
+          de<lb ed="#Bb" break="no"/>ceptionem. </quote>
+               </p>
+               <p xml:id="Almn78-d63642-d1e543">
+                  <lb ed="#Bb"/>3. Adhuc, Josue, x1, 19, super illud:
+        <lb ed="#Bb"/>Ommnes bellando cepit: Glossa 
+        adamanti<lb ed="#Bb" break="no"/>na sic dicit: <quote xml:id="Almn78-d63642-Qd1e551"> Non est putandum, quod
+          <lb ed="#Bb"/>unus fornicationis spiritus seducat eum
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>qui in Britannia fornicatur, et illum qui
+          <lb ed="#Bb"/>in Judea, vel aliis locis, neque unum
+          <lb ed="#Bb"/>esse spiritum ire, qui in diversis locis
+          <lb ed="#Bb"/>diversos -homines exagitat: sed puto
+          <lb ed="#Bb"/>magis spiritum fornicationis unum esse,
+          <lb ed="#Bb"/>et innumeros qui in hoc ei officio pareant,
+          <lb ed="#Bb"/>et per singulos homines diversos spiritus
+          <lb ed="#Bb"/>esse sub uno militantes, qui eos ad 
+          hu<lb ed="#Bb" break="no"/>jusmodi peccata sollicitent. Similiter 
+          ira<lb ed="#Bb" break="no"/>cundie principem unum esse arbitror,
+          <lb ed="#Bb"/>et innumeros sub ipso, et idem de 
+          ce<lb ed="#Bb" break="no"/>teris peccatis. Ideo non unus principatus
+          <lb ed="#Bb"/>dicitur esse ab Apostolo 2, sed plures,
+          <lb ed="#Bb"/>contra quos nobis pugna est. </quote>
+               </p>
+               <p xml:id="Almn78-d63642-d1e589">
+                  <lb ed="#Bb"/>Solutio istorum fundanda est super
+        <lb ed="#Bb"/>quoddam verbum, quod dicit Magister in
+        <lb ed="#Bb"/>libro secundo Sententiarum, distinct. IX,
+        <lb ed="#Bb"/>cap. Hic considerandum est, ubi dicit :
+        <quote xml:id="Almn78-d63642-Qd1e599">Ordo Angelorum dicitur multitudo
+          <lb ed="#Bb"/>ceelestium spirituum qui inter se in
+          <lb ed="#Bb"/>aliquo munere gratie similantur, sicut
+          <lb ed="#Bb"/>et in naturalium datorum 
+          participa<lb ed="#Bb" break="no"/>tione conveniunt. </quote>
+               </p>
+               <p xml:id="Almn78-d63642-d1e611">
+                  <lb ed="#Bb"/>Ad primum ergo secundum hoc di~
+        <lb ed="#Bb"/>cendum, quod Angeli in naturalibus non
+        <lb ed="#Bb"/>sunt creati equales : nec gradus 
+        prala<lb ed="#Bb" break="no"/>tionis et subjectionis fecit in eis 
+        pecca<lb ed="#Bb" break="no"/>tum sicut et in hominibus: sed potius
+        <lb ed="#Bb"/>inclinatio datorum naturalium que sun
+        <lb ed="#Bb"/>secundum Augustinum et Magistrum in
+        <lb ed="#Bb"/>libro II Sententiarum, distinct. HI, 
+        sim<lb ed="#Bb" break="no"/>plicitas essentie, perspicacitas 
+        intelligen<lb ed="#Bb" break="no"/>tie, liberi arbitrii potestas, et discretio
+        <lb ed="#Bb"/>personalis, de quibus jam ante multa
+        <lb ed="#Bb"/>disputata sunt, Unde si ordo prelationis
+        <lb ed="#Bb"/>et subjectionis dicitur praeminentia in
+        <lb ed="#Bb"/>talibus datis naturalibus, in quibus ine.
+        <lb ed="#Bb"/>quales sunt Angeli, ordo est a natura per
+        <lb ed="#Bb"/>dispositionem qua unus disponitur ad
+        <lb ed="#Bb"/>gradum superioritatis, et alter ad 
+        gra<lb ed="#Bb" break="no"/>dum subjectionis. $i vero dicitur a 
+        per<lb ed="#Bb" break="no"/>fectione gratie : tunc ordo non est a
+        <lb ed="#Bb"/>natura, sed a convenientia doni gratiz,
+        <lb ed="#Bb"/>in quo quedam multitude Angelorum
+        <lb ed="#Bb"/>convenit, Et talis subjectio nihil habet
+        <pb ed="#Bb" n="289"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>servituti simile : libere enim unus 
+        subji<lb ed="#Bb" break="no"/>citur alteri : eo quod illuminationes 
+        per<lb ed="#Bb" break="no"/>cipit ab ipso, sicut Apostolus, ad Galat.
+        <lb ed="#Bb"/>iv, 13, dicit de omnibus fidelibus: Vos
+        <lb ed="#Bb"/>in libertatem vocati estis, fratres, 
+        fan<lb ed="#Bb" break="no"/>tum ne libertatem in occasionem detis
+        <lb ed="#Bb"/>carnis. Unde talis subjectio nihil habet
+        <lb ed="#Bb"/>simile, cum servitute hominis, que ex
+        <lb ed="#Bb"/>peccato causata est: nec tale preesse,
+        <lb ed="#Bb"/>est contra naturam superbire : quia 
+        se<lb ed="#Bb" break="no"/>cundum naturam homini concessum est:
+        <lb ed="#Bb"/>est enim gradus nature quem facit 
+        ordi<lb ed="#Bb" break="no"/>natrix providentia: sicut etiam 
+        secun<lb ed="#Bb" break="no"/>dum nataram homini concessum est, ué
+        <lb ed="#Bb"/>presit piscibus maris, et volatilibus celi,
+        <lb ed="#Bb"/>et bestiis, universeque terre', Et sicut
+        <lb ed="#Bb"/>dicit Plato in Timeo, quod ordini 
+        natu<lb ed="#Bb" break="no"/>turali congruit et rationi, ut 
+        sapientio<lb ed="#Bb" break="no"/>res et meliores presint, et alii subsint,
+        <lb ed="#Bb"/>non subjectione servitutis, sed subjectione -
+        <lb ed="#Bb"/>providentie et regiminis. Unde etiam
+        <lb ed="#Bb"/>inter Angelos quidam dicuntur 
+        domina<lb ed="#Bb" break="no"/>tores, quorum (ut dicit Gregorius) 
+        ordi<lb ed="#Bb" break="no"/>natione disponuntur actus 
+        ministran<lb ed="#Bb" break="no"/>tium.
+      </p>
+               <p xml:id="Almn78-d63642-d1e720">
+                  <lb ed="#Bb"/>Et per hoc patet solutio ad ea que
+        <lb ed="#Bb"/>queruntur circa primum, scilicet utrum
+        <lb ed="#Bb"/>prelatio sit a natura.
+      </p>
+               <p xml:id="Almn78-d63642-d1e729">
+                  <lb ed="#Bb"/>Ad id quod queritur, Utrum sit ex
+        <lb ed="#Bb"/>gratia? Dicendum, quod complementum
+        <lb ed="#Bb"/>talis prelationis est ex gratia, et ex dono
+        <lb ed="#Bb"/>gratie. Et bene concedendum est, quod
+        <lb ed="#Bb"/>complementum nature est gratia, et
+        <lb ed="#Bb"/>com plementum gratiz gloria.
+      </p>
+               <p xml:id="Almn78-d63642-d1e746">
+                  <lb ed="#Bb"/>Ad id autem quod objicitur, quod tunc
+        <lb ed="#Bb"/>non esset evacuanda in maxima gloria
+        <lb ed="#Bb"/>post diem judicii talis pralatio : 
+        dicen<lb ed="#Bb" break="no"/>dum, quod propter plenitudinemn glorie
+        <lb ed="#Bb"/>non evacuatur, sed propler hoc, quod
+        <lb ed="#Bb"/>tune finitur officium ministerii 
+        Angelo<lb ed="#Bb" break="no"/>rum, et officium exercitii tentationis 
+        da<lb ed="#Bb" break="no"/>monum, et omnia immediate in Deum
+        <lb ed="#Bb"/>referuntur, aut sicut ad judicem, aut 
+        sic<lb ed="#Bb" break="no"/>ut ad objectum gloriz omnium. Unde et
+        <lb ed="#Bb"/>ipse Apostolus ibidem statim subdit :
+        <lb ed="#Bb"/>Et erit Deus omnia in omnibus ?.
+      </p>
+               <p xml:id="Almn78-d63642-d1e775">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ad id quod ulterius queri'ur de pra-
+        <lb ed="#Bb"/>latione demonum: dicendum  sicut in
+        <lb ed="#Bb"/>auctoritatibus inductis dicitur, quod
+        <lb ed="#Bb"/>quamdiu durat mundus, demones 
+        de<lb ed="#Bb" break="no"/>monibus preesunt, propter exercitium
+        <lb ed="#Bb"/>tentationis, in quo unus demon 
+        subji<lb ed="#Bb" break="no"/>citur alteri : sicut inter tortores alicujus
+        <lb ed="#Bb"/>regis unus alteri subjicitur ad 
+        obedien<lb ed="#Bb" break="no"/>dum, duplici ratione, scilicet quia hoc
+        <lb ed="#Bb"/>pertinet ad ordinem familie regni: aut
+        <lb ed="#Bb"/>ex ‘voluntaria subjectione, quia scilicet
+        <lb ed="#Bb"/>unus demon voluntarie se subjicit 
+        alte<lb ed="#Bb" break="no"/>ri, ut secundum mandatum ejus de 
+        eo<lb ed="#Bb" break="no"/>dem vitio tentet, de quo superior 
+        ten<lb ed="#Bb" break="no"/>tandi accepit potestatem.
+      </p>
+               <p xml:id="Almn78-d63642-d1e812">
+                  <lb ed="#Bb"/>Ad primum quod in contrarium 
+        objici<lb ed="#Bb" break="no"/>tur, dicendum, quod ordo in hoc retinet
+        <lb ed="#Bb"/>rationém boni, quod prelatio inter 
+        ma<lb ed="#Bb" break="no"/>los Angelos a providentia divina 
+        ordina<lb ed="#Bb" break="no"/>tur ad bona, que eliciuntur ex tentatione
+        <lb ed="#Bb"/>demonum : et ab illo bono per peceatum
+        <lb ed="#Bb"/>Angelus non cecidit, sed polius per 
+        pro<lb ed="#Bb" break="no"/>videntiam Dei ad illud ordinatur, ne
+        <lb ed="#Bb"/>malilia ejus penitus indecora 
+        rema<lb ed="#Bb" break="no"/>neat,
+      </p>
+               <p xml:id="Almn78-d63642-d1e836">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod, hoc 
+        proce<lb ed="#Bb" break="no"/>deret si gradus prelationis demonum
+        <lb ed="#Bb"/>ds'inguerentur secundum quantitatem
+        <lb ed="#Bb"/>merit: peceati eorum: sed hoc non est
+        <lb ed="#Bb"/>verum, d.slinguuntur enim secundum
+        <lb ed="#Bb"/>ordinem providenti# se-undum quod
+        <lb ed="#Bb"/>valent ad exercitium fientationis, in quo
+        <lb ed="#Bb"/>qui nequior est aliis. habet imperare.
+      </p>
+               <p xml:id="Almn78-d63642-d1e856">
+                  <lb ed="#Bb"/>Ad ultimum dicendum codem modo :
+        <lb ed="#Bb"/>hoc enim etiam procedit ac si gradus
+        <lb ed="#Bb"/>dist nguantur secundum demeritum 
+        ini<lb ed="#Bb" break="no"/>quitatum : et hoc non est verum, ut 
+        di<lb ed="#Bb" break="no"/>ctum est.
+      </p>
+            </div>
+            <div xml:id="Almn78-d63642-Dd1e870">
+               <head xml:id="Almn78-d63642-Hd1e872">Membrum 2</head>
+               <head xml:id="Almn78-d63642-Hd1e875" type="question-title">
+        Quis sit actus superioris in inferiorem
+      </head>
+               <p xml:id="Almn78-d63642-d1e878">
+                  <pb ed="#Bb" n="290"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Quis sit actus superioris in inferiorem ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e889">
+                  <lb ed="#Bb"/>Secundo queritur, Quis sit actus 
+        su<lb ed="#Bb" break="no"/>perioris in inferiorem ? .
+      </p>
+               <p xml:id="Almn78-d63642-d1e896">
+                  <lb ed="#Bb"/>Et hic ab omnibus dicilur i//uminatio,
+        <lb ed="#Bb"/>descendens a superiore in inferiorem in
+        <lb ed="#Bb"/>theophaniis et aliis illaminationibus, 
+        sic<lb ed="#Bb" break="no"/>ut dicit beatus Dionysius. Que 
+        illumina<lb ed="#Bb" break="no"/>tio tria operatur in inferiori, scilicet 
+        pur<lb ed="#Bb" break="no"/>gationem, luminis immissionem sive
+        <lb ed="#Bb"/>infusionem, et perfectionem. Purgat enim
+        <lb ed="#Bb"/>in hoc, quod ab illuminato toll:t 
+        dissi<lb ed="#Bb" break="no"/>militudinis habitum, hoc est, habitualem
+        <lb ed="#Bb"/>nescientiam in qua fuit antequam 
+        illumi<lb ed="#Bb" break="no"/>naretur : in hoc enim dissimilis fuit 
+        illu<lb ed="#Bb" break="no"/>minatis a veritate. Iuminat in hoc,
+        <lb ed="#Bb"/>quod revelat ei per lumen veritatis quod
+        <lb ed="#Bb"/>ante nescivit. Perficit in hoc, quod per
+        <lb ed="#Bb"/>lumen infusum reducit et converlit eum
+        <lb ed="#Bb"/>ad fontem eterai luminis, qui Deus est;
+        <lb ed="#Bb"/>utilli toto amore inhereat. Sicut enim
+        <lb ed="#Bb"/>secundum Dionysium, bonum est quod
+        <lb ed="#Bb"/>esta bono, et plantatum in bono, et ad
+        <lb ed="#Bb"/>bonum: ita lumen illuminationis talis,
+        <lb ed="#Bb"/>est a lumine superiori, et plantatum in
+        <lb ed="#Bb"/>forma talis luminis ad lumen eterni 
+        fon<lb ed="#Bb" break="no"/>tis, sicut dicitur, Isa. tx, 19: Krit tibi
+        <lb ed="#Bb"/>Dominus in lucem sempiternam, ef Deus
+        <lb ed="#Bb"/>tuus in gloriam tuam. Per primum 
+        pur<lb ed="#Bb" break="no"/>gat, per secundum illuminat, per tertium
+        <lb ed="#Bb"/>perficit.
+      </p>
+               <p xml:id="Almn78-d63642-d1e958">
+                  <lb ed="#Bb"/>Queritur ergo, Si ad istam 
+        illumina<lb ed="#Bb" break="no"/>tionem necessaria sit prelatio angelica?
+      </p>
+               <p xml:id="Almn78-d63642-d1e965">
+                  <lb ed="#Bb"/>Et videtur, quod non: ab ipsa enim
+        <lb ed="#Bb"/>summa sapientia sufficienter inferior 
+        for<lb ed="#Bb" break="no"/>matur ad talem illuminationem: nulla
+        <lb ed="#Bb"/>ergo indigentia est Angeli superioris,
+        <lb ed="#Bb"/>qui sic illuminet inferiorem..
+      </p>
+               <p xml:id="Almn78-d63642-d1e978">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Adhuc, Augustinus (et ponitur in 
+        li<lb ed="#Bb" break="no"/>bro de Spiritu et anima) dicit, quod 
+        in<lb ed="#Bb" break="no"/>ter mentem nostram in qua imago Dei
+        <lb ed="#Bb"/>est impressa, et Deum,nihil est medium.
+        <lb ed="#Bb"/>Cum ergo, sicut dicit Gregorius, imago
+        <lb ed="#Bb"/>Dei expressior sit in Angelo, quam in
+        <lb ed="#Bb"/>bhomine, infer quemlibet Angelum et
+        <lb ed="#Bb"/>Deum nihil est medium: et sic 
+        superio<lb ed="#Bb" break="no"/>res Angeli non sunt medii in illuminando
+        <lb ed="#Bb"/>inter inferiores Angelos et Deum.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1004">
+                  <lb ed="#Bb"/>Ucrerivs queritur, Si superior 
+        illu<lb ed="#Bb" break="no"/>minat inferiorem, utrum hoc habeat a
+        <lb ed="#Bb"/>natura, vel a gratia ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e1013">
+                  <lb ed="#Bb"/>Et videtur, quod a natura: loqui enim
+        <lb ed="#Bb"/>secundum quod bonus bonis loquitur, et
+        <lb ed="#Bb"/>malus malis, et bonus malis, et malus
+        <lb ed="#Bb"/>bonis, illuminatio quedam est de his, de
+        <lb ed="#Bb"/>quibus loquitur unus ad alierum: et non
+        <lb ed="#Bb"/>est a gratia, esset enim in Angelis 
+        etiam<lb ed="#Bb" break="no"/>si nulla adesset eis gratia : ergo videtur,
+        <lb ed="#Bb"/>quod et illuminatio et revelatio sinta
+        <lb ed="#Bb"/>natura, et non a gratia.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1035">
+                  <lb ed="#Bb"/>Adhuec, Damaecenus in libro II de
+        <lb ed="#Bb"/>ide orthodoza : <quote xml:id="Almn78-d63642-Qd1e1041"> Qui eminent inter
+          <lb ed="#Bb"/>Angelos, traduntinferioribus cognitionem
+          <lb ed="#Bb"/>suam secundum eminentiam ordinis et
+          <lb ed="#Bb"/>nature *. </quote> Sed tradere cognitionem, est
+        <lb ed="#Bb"/>illuminare et revelare. Ergo secundum
+        <lb ed="#Bb"/>conditionem nature superior illuminat
+        <lb ed="#Bb"/>inferiorem.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1059">
+                  <lb ed="#Bb"/>Conrra :
+        <lb ed="#Bb"/>Illuminatio non est nisi luminis 
+        accep<lb ed="#Bb" break="no"/>tio et traditio : luminis acceptio non est
+        <lb ed="#Bb"/>nisi per gratiam, et non a natura: ergo
+        <lb ed="#Bb"/>videtur, quod illuminatio non sit nisi per
+        <lb ed="#Bb"/>gratiam.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1075">
+                  <lb ed="#Bb"/>Unrerivs queritur, Si fiat per medium,
+        <lb ed="#Bb"/>vel sine medio ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e1082">
+                  <lb ed="#Bb"/>Et videtur, quod per medium.
+        <lb ed="#Bb"/>1. In inferioribus enim in quibus fit
+        <lb ed="#Bb"/>intuellectualis visio et illuminatio, non
+        <lb ed="#Bb"/>perficitur illuminatio, nisi mediante theo
+        <pb ed="#Bb" n="291"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>phania, ut dicit Dionysius. Ergo et inter
+        <lb ed="#Bb"/>Angelos cum superior illuminat 
+        inferio<lb ed="#Bb" break="no"/>rem, oportet quod medium aliquod
+        <lb ed="#Bb"/>sit, quod fluat ab illuminatore ad 
+        illumi<lb ed="#Bb" break="no"/>natum,
+      </p>
+               <p xml:id="Almn78-d63642-d1e1108">
+                  <lb ed="#Bb"/>2. Adhuc, In naturalibus, ut dicunt
+        <lb ed="#Bb"/>Philosophi, nec secundum intellectum,
+        <lb ed="#Bb"/>nec secundum visum perficilur visio sive
+        <lb ed="#Bb"/>illuminatio, nisi mediante eo quod est
+        <lb ed="#Bb"/>actus, vel intelligibilium, sicut illustratio
+        <lb ed="#Bb"/>intelligentiz : vel quod est actus 
+        visibi<lb ed="#Bb" break="no"/>lium, sicut lumen corporale. Cum ergo
+        <lb ed="#Bb"/>naturalia imitentur divina sicut ars 
+        natu<lb ed="#Bb" break="no"/>ram, videtur quod etiam in divinis
+        <lb ed="#Bb"/>quando unus spiritus illuminat alterum,
+        <lb ed="#Bb"/>illuminatio illa non perficiatur nisi 
+        me<lb ed="#Bb" break="no"/>diante aliquo.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1137">
+                  <lb ed="#Bb"/>3. Adhuc, Quando unus Angelus 
+        illu<lb ed="#Bb" break="no"/>minat alium, constat quod per essentiam
+        <lb ed="#Bb"/>non immittit se ei. Dicit enim Beda, quod
+        <lb ed="#Bb"/>per essentiam nihil illabitur spiritui 
+        an<lb ed="#Bb" break="no"/>gelico vel humano, nisi Deus : ergo
+        <lb ed="#Bb"/>oportet, quod utatur medio, vel non
+        <lb ed="#Bb"/>iluminabit eum.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1155">
+                  <lb ed="#Bb"/>ConTRA:
+        <lb ed="#Bb"/>Si utitur medio : aut illud medium est
+        <lb ed="#Bb"/>corporale, vel spirituale. Constat, quod
+        <lb ed="#Bb"/>non corporale, medium enim corporale
+        <lb ed="#Bb"/>non est nisi inter extrema corporalia : in
+        <lb ed="#Bb"/>tali autem illuminatione extrema 
+        spiri<lb ed="#Bb" break="no"/>tualia sunt, quia et illuminator est 
+        spiri<lb ed="#Bb" break="no"/>tus, et illuminatus est spiritus. Si autem
+        <lb ed="#Bb"/>dicatur, quod erit spirituale : aut erit
+        <lb ed="#Bb"/>substantia, aut accidens. Non substantia:
+        <lb ed="#Bb"/>non enim sunt nisi tres substantie 
+        spiri<lb ed="#Bb" break="no"/>tuales, scilicet Deus, Angelus, et anima
+        <lb ed="#Bb"/>rationalis : et constat, quod Deus non est
+        <lb ed="#Bb"/>media substantia inter illuminantem et
+        <lb ed="#Bb"/>illuminatum. Nec Angelus aliquis potest
+        <lb ed="#Bb"/>esse medium : quia tunc ejusdem nature
+        <lb ed="#Bb"/>esset medium et extremum. Nec anima
+        <lb ed="#Bb"/>rationalis potest esse : quia illa secundum
+        <lb ed="#Bb"/>naturam est inferior extremo sive 
+        An<lb ed="#Bb" break="no"/>gelo illuminato ;: medium autem debet
+        <lb ed="#Bb"/>esse inter extrema, non post extrema. Si
+        <lb ed="#Bb"/>dicatur, quod sit accidens, oportet quod
+        <lb ed="#Bb"/>sitin aliquo sicut in subjecto : aut ergo
+        <lb ed="#Bb"/>est in illuminatore, aut in illuminato : et
+        <lb ed="#Bb"/>quodcunque dicatur, non erit medium :
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>medium enim inter extrema est, et non
+        <lb ed="#Bb"/>in extremo.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1219">
+                  <lb ed="#Bb"/>Solutio. Dicendum,quod in 
+        distinctio<lb ed="#Bb" break="no"/>nibus Angelorum secundum gradus 
+        pre<lb ed="#Bb" break="no"/>Jationis, hoc est de ipsius distinctionis
+        <lb ed="#Bb"/>ordine, ut dicunt Dionysius et 
+        Damasce<lb ed="#Bb" break="no"/>nus, quod superiores de quibus plus
+        <lb ed="#Bb"/>noverunt et potentiores sunt, illuminant
+        <lb ed="#Bb"/>inferiores : aliter enim non esset verum
+        <lb ed="#Bb"/>quod dicit Ierotheus, quod amor sive
+        <lb ed="#Bb"/>naturalis sive divinus, qui secundum 
+        for<lb ed="#Bb" break="no"/>mam boni movet, movet superiora ad
+        <lb ed="#Bb"/>inferiorum providentiam, sicut inferiora
+        <lb ed="#Bb"/>movet ad conversionem eorum ad supe~
+        <lb ed="#Bb"/>riora et reverentiam : et sic inter inferiora
+        <lb ed="#Bb"/>et superiora fit quidam indissolubilis
+        <lb ed="#Bb"/>amoris complexus.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1254">
+                  <lb ed="#Bb"/>Ad opsectum quod contra hoc est, 
+        di<lb ed="#Bb" break="no"/>cendum, quod illuminatio que est per
+        <lb ed="#Bb"/>gratiam gratum facientem, non potest
+        <lb ed="#Bb"/>esse nisi a Deo immediate : et sic 
+        intelti<lb ed="#Bb" break="no"/>gitur quod dicit Augustinus, quod inter
+        <lb ed="#Bb"/>mentem nostram in qua est impressa
+        <lb ed="#Bb"/>imago Dei, et Deum informantem et
+        <lb ed="#Bb"/>Uluminatorem nihil est medium. Sed
+        <lb ed="#Bb"/>illuminatio que est de civilibus acceptis,
+        <lb ed="#Bb"/>sive per naturam, sive per gratiam 
+        re<lb ed="#Bb" break="no"/>velationis, potest unus Angelus 
+        illumi<lb ed="#Bb" break="no"/>nare alium, et Angelus animam 
+        rationa<lb ed="#Bb" break="no"/>lem : ita tamen, quod sola sapientia
+        <lb ed="#Bb"/>divina auctoritate et virtute perficiat
+        <lb ed="#Bb"/>omnes illuminationes : sed Angelus
+        <lb ed="#Bb"/>Angelum illuminat instrumentaliter, et
+        <lb ed="#Bb"/>potestate sibi collata ab auctore prime
+        <lb ed="#Bb"/>illuminationis, qui est sapientia divina.
+        <lb ed="#Bb"/>Unde, Matth. xxur, 10 : Magister vester
+        <lb ed="#Bb"/>unus est, Christus. Quod tractans 
+        Au<lb ed="#Bb" break="no"/>gustinus in libro de Magistro, dicit, quod
+        <lb ed="#Bb"/>et unus est Magister, et plures magistri :
+        <lb ed="#Bb"/>unus auctoritate et virtuale: plures ut
+        <lb ed="#Bb"/>instrumentales, et virtutem docendi a
+        <lb ed="#Bb"/>primo accipientes : et plures necessarii
+        <lb ed="#Bb"/>sunt, ut disponant et preparent eum qui
+        <lb ed="#Bb"/>docetur, ut facilius doctrinam veritatis
+        <lb ed="#Bb"/>accipiat. Unde Gregorius idem tractans
+        <lb ed="#Bb"/>sic dicit : <quote xml:id="Almn78-d63642-Qd1e1319"> Frustra extra laborat lingua
+          <lb ed="#Bb"/>Doctoris, nisi intus adsit virtus Condito=
+          <lb ed="#Bb"/>ris. </quote>
+               </p>
+               <p xml:id="Almn78-d63642-d1e1327">
+                  <pb ed="#Bb" n="292"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, Utrum
+        <lb ed="#Bb"/>sit a natura, vel gratia : dicendum, quod
+        <lb ed="#Bb"/>ab utroque. In divinis enim et 
+        theopha<lb ed="#Bb" break="no"/>niis non potest esse nisi a gratia. In his
+        <lb ed="#Bb"/>autem que naturaliter per habitus 
+        con<lb ed="#Bb" break="no"/>creatos plus sciunt superiores quam 
+        in<lb ed="#Bb" break="no"/>feriores, et potentiores sunt, eo quod sunt
+        <lb ed="#Bb"/>perspicatioris intelligentia quam 
+        inferio<lb ed="#Bb" break="no"/>res, potest esse anatura : nisi gratia
+        <lb ed="#Bb"/>dicatur gratis data, sicut totum quod sunt
+        <lb ed="#Bb"/>et quod habent, gratia est. I ad Corinth.
+        <lb ed="#Bb"/>xv, 10 : Gratia Dei sum id quod sum.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1360">
+                  <lb ed="#Bb"/>Ad opsectum contra dicendum, quod
+        <lb ed="#Bb"/>ipsa illuminatio gratia est, et etiam
+        <lb ed="#Bb"/>theophania, secundum quod data 
+        natu<lb ed="#Bb" break="no"/>ralia gratis data et per meritum non
+        <lb ed="#Bb"/>empta, gratia dicuntur : sed hac gratia
+        <lb ed="#Bb"/>non est altioris virtutis, quam ipsa natura
+        <lb ed="#Bb"/>in datis naturalibus considerata.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1378">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur, Utrum
+        <lb ed="#Bb"/>sit per medium ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e1385">
+                  <lb ed="#Bb"/>Dicendum, quod non potest esse nisi
+        <lb ed="#Bb"/>per medium, sicut probant objectiones
+        <lb ed="#Bb"/>primo inductea. Et bene concedendum
+        <lb ed="#Bb"/>est, quodillud medium non est corporale,
+        <lb ed="#Bb"/>sed spirituale : et non sit substantia que
+        <lb ed="#Bb"/>sit spiritus, vel divinus, vel angelicus,
+        <lb ed="#Bb"/>vel anima. Nec est proprie accidens,
+        <lb ed="#Bb"/>quia ab accidente non potest perfici sub
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>stantia secundum proprium et connatu-.
+        <lb ed="#Bb"/>ralem actum : sicut etiam <ref xml:id="Almn78-d63642-Rd1e1411">Aristoteles in
+          <lb ed="#Bb"/>VII Physicorum</ref> probat, quod secundum
+        <lb ed="#Bb"/>illam speciem qualitatis que est 
+        disposi<lb ed="#Bb" break="no"/>tio et habitus, non potest esse motus
+        <lb ed="#Bb"/>physicus : quia sive accipiat virlutem
+        <lb ed="#Bb"/>intellectualem, sive moralem, secundum
+        <lb ed="#Bb"/>eam non dicetur alteratus, sed perfectus: -
+        <lb ed="#Bb"/>et non secundum esse accidentale, sed
+        <lb ed="#Bb"/>secundum proprium et connaturalem 
+        ha<lb ed="#Bb" break="no"/>bitum, qui est actus ullimus et 
+        perfectis<lb ed="#Bb" break="no"/>simus, qui inest perfecte sicut vigilia, non
+        <lb ed="#Bb"/>sicut somnus : sicut dicit Aristoteles in
+        <lb ed="#Bb"/>Il de Anima, quod actus ensis ultimus,
+        <lb ed="#Bb"/>est incidere, qui est ejus actus ut vigilia :
+        <lb ed="#Bb"/>figura autem ensis, est actus ejus ut
+        <lb ed="#Bb"/>somnus.
+      </p>
+               <p xml:id="Almn78-d63642-d1e1448">
+                  <lb ed="#Bb"/>Ad id quod queritur, In quo sit ?
+      </p>
+               <p xml:id="Almn78-d63642-d1e1453">
+                  <lb ed="#Bb"/>Dicendum, quod est in uno per 
+        com<lb ed="#Bb" break="no"/>parationem ad alterum., Illuminatio enim
+        <lb ed="#Bb"/>est in illuminatore, procedens in 
+        illumi<lb ed="#Bb" break="no"/>natum per ipsum actum illuminationis :
+        <lb ed="#Bb"/>sicut species intelligibilis ab intelligentia
+        <lb ed="#Bb"/>agente procedit in intellectum possibilem,
+        <lb ed="#Bb"/>et facit eum actu intelligentem et 
+        per<lb ed="#Bb" break="no"/>fectum secundum formam intelligibilis :
+        <lb ed="#Bb"/>et sicut species visibilis per actum lucis
+        <lb ed="#Bb"/>procedit in visum in oculo, et facit eum
+        <lb ed="#Bb"/>actu videntem et perfectum secundum
+        <lb ed="#Bb"/>formam speciet visibilis.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

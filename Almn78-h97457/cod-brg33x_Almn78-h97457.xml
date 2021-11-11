@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 132</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 132</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="439"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h97457"><!-- p2t22q132 -->
+            <head xml:id="Almn78-h97457-Hd1e106">Quaestio 132</head>
+            <head xml:id="Almn78-h97457-Hd1e109" type="question-title">
+    Quomodo omne peccatum sit ex timore male humiliante, vel ex
+    amore inflammante
+  </head>
+            <p xml:id="Almn78-h97457-d1e112">
+               <pb ed="#Bc" n="439"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO CXXXII.
+<lb ed="#Bc"/>Quomodo omne peccatum sit ex timore male humiliante, vel ex
+<lb ed="#Bc"/>amore inflammante ?
+</p>
+            <p xml:id="Almn78-h97457-d1e125">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde queritur, Quomodo omne 
+pec<lb ed="#Bc" break="no"/>catum sit ex timore male humiliante, vel
+<lb ed="#Bc"/>ex amore male inflammante ?
+</p>
+            <div xml:id="Almn78-h97457-Dd1e136">
+               <head xml:id="Almn78-h97457-Hd1e138">Membrum 1</head>
+               <head xml:id="Almn78-h97457-Hd1e141" type="question-title">
+        De timore male humiliante
+      </head>
+               <p xml:id="Almn78-h97457-d1e144">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De timore male humiliante ?
+</p>
+               <p xml:id="Almn78-h97457-d1e151">
+                  <lb ed="#Bc"/>Et circa primum tria queruntur.
+<lb ed="#Bc"/>Primum est de ipsa divisione, utrum
+<lb ed="#Bc"/>generalis sit, ita scilicet quod omne 
+pec<lb ed="#Bc" break="no"/>catum oritur vel ex {imore, vel amore,
+<lb ed="#Bc"/>vel non ?
+<lb ed="#Bc"/>Secundum est de ipso timore, quid
+<lb ed="#Bc"/>sit ?
+<lb ed="#Bc"/>Tertium est de ipso timore, utrum ipse
+<lb ed="#Bc"/>sit peccatum ex quo orilur peccatum ?
+</p>
+               <div xml:id="Almn78-h97457-Dd1e173">
+                  <head xml:id="Almn78-h97457-Hd1e175">Articulus 1</head>
+                  <head xml:id="Almn78-h97457-Hd1e178" type="question-title">
+          Utrum ista divisio generalis sit qua 
+          dicitur, quod omne peccatum oritur vel
+          ex timore, vel ex amore?
+        </head>
+                  <p xml:id="Almn78-h97457-d1e181">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS I.
+</p>
+                  <p xml:id="Almn78-h97457-d1e188">
+                     <lb ed="#Bc"/>Utrum ista divisio generalis sit qua 
+di<lb ed="#Bc" break="no"/>citur, quod omne peccatum oritur vel
+<lb ed="#Bc"/>ex timore, vel ex amore?
+</p>
+                  <p xml:id="Almn78-h97457-d1e197">
+                     <lb ed="#Bc"/>Ad primum sic proceditur :
+<lb ed="#Bc"/>Supra illud Psalmi uxxix, 17: Incensa
+<lb ed="#Bc"/>igni et suffossa, dicit Glossa Augustini:
+</p>
+                  <p xml:id="Almn78-h97457-d1e207">
+                     <lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h97457-Qd1e211"> Incensa igni et suffossa peccata dicit.
+<lb ed="#Bc"/>Sed incensa sunt peccata illa que facit
+<lb ed="#Bc"/>ardens cupiditas. Suffossa vero que facit
+<lb ed="#Bc"/>timor male jacens. Et haec sunt omnia
+<lb ed="#Bc"/>peccata fiunt vel propter cupiditatem,
+<lb ed="#Bc"/>vel propler timorem. Quem non capit
+<lb ed="#Bc"/>cupiditas, vincit timor. Perscrutamini
+<lb ed="#Bc"/>conscientias vestras: interrogate corda
+<lb ed="#Bc"/>vestra, utrum possint esse peccata nisi
+<lb ed="#Bc"/>aut timendo, aut cupiendo. Omnia ergo
+<lb ed="#Bc"/>peccata due res faciunt in homine, 
+scili<lb ed="#Bc" break="no"/>cet timor, et cupiditas : sicut e converso
+<lb ed="#Bc"/>amor Dei et timor ejus ducunt ad omne
+<lb ed="#Bc"/>bonum, Amas enim ut bene tibi sit, 
+ti<lb ed="#Bc" break="no"/>mes ne male tibi sit, hoc age in Deo,
+<lb ed="#Bc"/>non in seculo. Uterque amor incendit,
+<lb ed="#Bc"/>uterque timor humiliat, sed aliter et 
+ali<lb ed="#Bc" break="no"/>ter. </quote> Ex his accipitur, quod omne 
+pec<lb ed="#Bc" break="no"/>catum criminale oritur vel ex timore
+<lb ed="#Bc"/>male humiliante, vel ex amore male 
+in<lb ed="#Bc" break="no"/>flammante.
+</p>
+                  <p xml:id="Almn78-h97457-d1e257">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Glossa Bede super illud epist. I
+<lb ed="#Bc"/>Joannis, u, 15: Nolite diligere 
+mun<lb ed="#Bc" break="no"/>dum, etc. <quote xml:id="Almn78-h97457-Qd1e267"> Sicut dilectio Dei fons est
+<lb ed="#Bc"/>omnium virtutum et bonorum : ita 
+dile<lb ed="#Bc" break="no"/>etio mundi omnium vitiorum. </quote> Ergo
+<lb ed="#Bc"/>videtur, quod omne peccatum sit ex 
+amo<lb ed="#Bc" break="no"/>re, non ex timore: et sic non sunt duz
+<lb ed="#Bc"/>radices peccatorum, scilicet timor, et
+<lb ed="#Bc"/>amor, sed una.
+</p>
+                  <p xml:id="Almn78-h97457-d1e284">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus in libro II de
+<lb ed="#Bc"/>Libero arbitrio: <quote xml:id="Almn78-h97457-Qd1e290"> Clarum est in toto
+<lb ed="#Bc"/>malefaciendi genere nihil aliud quam 
+li<lb ed="#Bc" break="no"/>bidinem dominari. </quote> Libido autem 
+po<lb ed="#Bc" break="no"/>tius timor est, quam amor. Ergo videtur,
+<pb ed="#Bc" n="440"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>quod omne peccatum oritur ex amore,
+<lb ed="#Bc"/>non ex timore: et sic iterum divisio
+<lb ed="#Bc"/>nulla est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e311">
+                     <lb ed="#Bc"/>3. Adhuc, Bernardus in sermone 15
+<lb ed="#Bc"/>super Cantica : <quote xml:id="Almn78-h97457-Qd1e317"> Omne malum oritur ex
+<lb ed="#Bc"/>amore mundi superftuo, </quote> Et sic iterum
+<lb ed="#Bc"/>concluditur quod prius.
+</p>
+                  <p xml:id="Almn78-h97457-d1e325">
+                     <lb ed="#Bc"/>4. Adhuc, Augustinus in libro II de
+<lb ed="#Bc"/>Libero arbitrio: <quote xml:id="Almn78-h97457-Qd1e331"> Convenit inter nos
+<lb ed="#Bc"/>omnia mala facta non alia mala esse, nisi
+<lb ed="#Bc"/>quod ex libidine et improbanda 
+cupidi<lb ed="#Bc" break="no"/>tate fiunt. </quote> Et ex hoc sequitur idem
+<lb ed="#Bc"/>quod prius.
+</p>
+                  <p xml:id="Almn78-h97457-d1e343">
+                     <lb ed="#Bc"/>5. Adhuc, Timor videtur oriri ex 
+amo<lb ed="#Bc" break="no"/>re, Unde super illud Matthei, xiv, 5: 
+He<lb ed="#Bc" break="no"/>rodes timuit populum, Glossa: <quote xml:id="Almn78-h97457-Qd1e351"> Timor
+<lb ed="#Bc"/>hominum differt, sed voluntatem 
+pec<lb ed="#Bc" break="no"/>candi non aufert. Unde avidiores reddit
+<lb ed="#Bc"/>ad crimen, quos aliquando suspendit a
+<lb ed="#Bc"/>crimine. </quote> Videtur ergo idem quod prius.
+</p>
+                  <p xml:id="Almn78-h97457-d1e364">
+                     <lb ed="#Bc"/>Sorurio. Dicendum, quod hoc solvere
+<lb ed="#Bc"/>non est difficile. Timor cnim et amor
+<lb ed="#Bc"/>dua radices peccatorum sunt, sicut dicit
+<lb ed="#Bc"/>Glossa inducta. Sed distinguit ipse 
+Au<lb ed="#Bc" break="no"/>gustinus, quod aliquando sunt respectu
+<lb ed="#Bc"/>ejusdem rei, et aliquando respectu 
+diver<lb ed="#Bc" break="no"/>sarum. Quando sunt respectu ejusdem,
+<lb ed="#Bc"/>timor oritur ex amore : quia tune ex 
+ni<lb ed="#Bc" break="no"/>mio amore boni commutabilis oritur
+<lb ed="#Bc"/>limor perdendi, et fit causa peccali: et,
+<lb ed="#Bc"/>sicut dicit Glossa inducta, avidiores facit
+<lb ed="#Bc"/>ad peccatum, quia differt et non aufert.
+<lb ed="#Bc"/>Et in tali casu idem actus potest esse 
+ti<lb ed="#Bc" break="no"/>moris et amoris secundum diversa: 
+amo<lb ed="#Bc" break="no"/>ris sicut primo moventis, sed timoris
+<lb ed="#Bc"/>malum quod ex hoc sequitur fugientis.
+<lb ed="#Bc"/>Augustinus in libro ll de Libero arbitrio:
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h97457-Qd1e405"> Quanto quis rem plus amat, tanto plus
+<lb ed="#Bc"/>perdere timet, et proclivior fit ad vitia
+<lb ed="#Bc"/>ne perdat. </quote>° Quando autem sunt 
+respe<lb ed="#Bc" break="no"/>ctu diversarum secundum materiam, ita
+<lb ed="#Bc"/>quod unum amatur, et alterum timetur :
+<lb ed="#Bc"/>tunc neutrum oritur ex altero: et sic 
+di<lb ed="#Bc" break="no"/>cit Glossa, quod sunt diverse radices
+<lb ed="#Bc"/>peccatorum.
+</p>
+                  <p xml:id="Almn78-h97457-d1e424">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Unde quinque inducta que videntur
+<lb ed="#Bc"/>probare, quod una sit radix, scilicet
+<lb ed="#Bc"/>amor, procedunt secundum quod timor
+<lb ed="#Bc"/>et amor sunt respectu ejusdem : quia
+<lb ed="#Bc"/>timor oritur ex amore, ut dictum est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e440">
+                     <lb ed="#Bc"/>Si queritur, Secundum quam causam
+<lb ed="#Bc"/>detur ista divisio, et in quo differt ab illa,
+<lb ed="#Bc"/>I Joan. u, 16: Omne quod est im 
+mun<lb ed="#Bc" break="no"/>do, concupiscentia carnis est, et 
+concupi<lb ed="#Bc" break="no"/>scentia oculorum, et superbia vite.
+</p>
+                  <p xml:id="Almn78-h97457-d1e453">
+                     <lb ed="#Bc"/>Leve est respondere. Ista enim datur
+<lb ed="#Bc"/>secundum causam motivam conlra 
+ma<lb ed="#Bc" break="no"/>lum, vel ad bonum: quia timor nihil
+<lb ed="#Bc"/>aliud est, nisi fuga mali pene, el amor
+<lb ed="#Bc"/>libido boni commutabilis. Ila vero que
+<lb ed="#Bc"/>est inJoanne, datur per materiam: quia
+<lb ed="#Bc"/>omne circa quod peccat homo, vel 
+per<lb ed="#Bc" break="no"/>tinet ad concupiscentiam carnis, sicut
+<lb ed="#Bc"/>gula et luxuria: vel ad concupiscentiam
+<lb ed="#Bc"/>oculorum, sicut avaritia: vel ad 
+super<lb ed="#Bc" break="no"/>biam vite, sicut inanis gloria, et 
+hujus<lb ed="#Bc" break="no"/>modi.
+</p>
+               </div>
+               <div xml:id="Almn78-h97457-Dd1e484">
+                  <head xml:id="Almn78-h97457-Hd1e486">Articulus 2</head>
+                  <head xml:id="Almn78-h97457-Hd1e489" type="question-title">
+          Quid sit timor?
+        </head>
+                  <p xml:id="Almn78-h97457-d1e492">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Quid sit timor?
+</p>
+                  <p xml:id="Almn78-h97457-d1e501">
+                     <lb ed="#Bc"/>Secundo queritur de timore, Quid
+<lb ed="#Bc"/>sit ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e508">
+                     <lb ed="#Bc"/>Ad hoc proceditur sic :
+<lb ed="#Bc"/>Dicit Augustinus in libro de Civitate
+<lb ed="#Bc"/>Dei : <quote xml:id="Almn78-h97457-Qd1e516"> Timor est perturbatio animi in
+<lb ed="#Bc"/>exspectatione mali. </quote>
+                  </p>
+                  <p xml:id="Almn78-h97457-d1e523">
+                     <lb ed="#Bc"/>Et Joannes Damascenus : <quote xml:id="Almn78-h97457-Qd1e527"> Timor est
+<lb ed="#Bc"/>preter naturam irrationalis systole, id
+<lb ed="#Bc"/>est, contractio. </quote>
+                  </p>
+                  <p xml:id="Almn78-h97457-d1e535">
+                     <lb ed="#Bc"/>1. Contra primam sic objicitur : quia
+<lb ed="#Bc"/>perturbatio animi pcena est; timor au
+<pb ed="#Bc" n="441"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>tem secundum quod hic agitur de eo,
+<lb ed="#Bc"/>culpa est : ergo per peenam male 
+defini<lb ed="#Bc" break="no"/>tur timor.
+</p>
+                  <p xml:id="Almn78-h97457-d1e553">
+                     <lb ed="#Bc"/>2. Contra secundam objicitur ; Systole
+<lb ed="#Bc"/>enim et diastole sunt motus cordis 
+cau<lb ed="#Bc" break="no"/>sati ex passionibus naturalibus, que sunt
+<lb ed="#Bc"/>quatuor, ut dicit Boetius,-spes, timer,
+<lb ed="#Bc"/>tristitia, et gaudium. Ergo systole non
+<lb ed="#Bc"/>est aliquid timoris, sed de effectu ejus :
+<lb ed="#Bc"/>et sic male definitur per systolem.
+</p>
+                  <p xml:id="Almn78-h97457-d1e571">
+                     <lb ed="#Bc"/>3. Adhuc, Joan. x, 12, super illud :
+<lb ed="#Bc"/>Mercenarius autem, et gui non est pastor,
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-h97457-Qd1e579"> Timor est fuga mali ne perdat
+<lb ed="#Bc"/>quod amat. </quote> Et si haec est definitio :
+<lb ed="#Bc"/>tune definitur oppositum per oppositum:
+<lb ed="#Bc"/>quod esse non potest, quia oppositum
+<lb ed="#Bc"/>essentialiter non potest esse opposito.
+</p>
+                  <p xml:id="Almn78-h97457-d1e592">
+                     <lb ed="#Bc"/>4, Ulterius queritur, Penes quid 
+ac<lb ed="#Bc" break="no"/>cipiuniur tot definiliones, cum unius rei
+<lb ed="#Bc"/>unica sit definitio ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e601">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod inducte 
+as<lb ed="#Bc" break="no"/>signationes queedam sunt, non vere 
+de<lb ed="#Bc" break="no"/>finitiones. Et prima, Augustini scilicet,
+<lb ed="#Bc"/>describit timorem prout est quedam
+<lb ed="#Bc"/>passio et per proprium ejus effectum
+<lb ed="#Bc"/>qui est perturbatio, et causam 
+perturba<lb ed="#Bc" break="no"/>tionis, que est malum pcene. Secunda
+<lb ed="#Bc"/>autem datur secundum proprium ejus
+<lb ed="#Bc"/>effectum. Objectum enim timoris malum
+<lb ed="#Bc"/>est : quod dum cor fugit, in seipsum 
+tra<lb ed="#Bc" break="no"/>hitur secundum systolem. Tertia vero
+<lb ed="#Bc"/>datur per proprium motivum timoris.
+<lb ed="#Bc"/>Sicut enim in prehabitis dictum est,
+<lb ed="#Bc"/>amor est motivum timoris : nisi enim
+<lb ed="#Bc"/>amaret quod habet, non timeret perdere.
+<lb ed="#Bc"/>Et sic patet, quod sit timor secundum
+<lb ed="#Bc"/>dicta Sanctorum.
+</p>
+                  <p xml:id="Almn78-h97457-d1e641">
+                     <lb ed="#Bc"/>Ad id ergo quod primo objicitur, 
+di<lb ed="#Bc" break="no"/>cendum quod timor secundum quod est
+<lb ed="#Bc"/>actus voluntatis et rationalis anime,
+<lb ed="#Bc"/>peccatum est: in se vero passio est, et
+<lb ed="#Bc"/>sic ibi definitur.
+</p>
+                  <p xml:id="Almn78-h97457-d1e654">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod verum est,
+<lb ed="#Bc"/>quod timor ibi definitur per proprium
+<lb ed="#Bc"/>ejus effectum, cujus ipse est causa per
+<lb ed="#Bc"/>se. Causa enim innotescit per effectum
+<lb ed="#Bc"/>sepe.
+</p>
+                  <p xml:id="Almn78-h97457-d1e667">
+                     <lb ed="#Bc"/>Av veativm dicendum, quod ibi non
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>definitur per oppositum motivum quod
+<lb ed="#Bc"/>est amor, sicut habitum‘est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e678">
+                     <lb ed="#Bc"/>Quop avrem queritur, Penes quid 
+ac<lb ed="#Bc" break="no"/>cipiantur tot definitiones ? jam patet 
+su<lb ed="#Bc" break="no"/>pra.
+</p>
+               </div>
+               <div xml:id="Almn78-h97457-Dd1e688">
+                  <head xml:id="Almn78-h97457-Hd1e690">Articulus 3</head>
+                  <head xml:id="Almn78-h97457-Hd1e693" type="question-title">
+          Utrum timor sit peccatum ex quo oritur
+          peccatum ?
+        </head>
+                  <p xml:id="Almn78-h97457-d1e696">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS III.
+<lb ed="#Bc"/>Utrum timor sit peccatum ex quo oritur
+<lb ed="#Bc"/>peccatum ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e707">
+                     <lb ed="#Bc"/>Tertio queritur de timore, Utrum sit
+<lb ed="#Bc"/>peccatum ex quo oritur peccatum ?
+<lb ed="#Bc"/>Et queruntur tria.
+<lb ed="#Bc"/>Primum, Si est peccatum, utrum 
+sem<lb ed="#Bc" break="no"/>per sit mortale, vel aliquando veniale, et
+<lb ed="#Bc"/>aliquando mortale ?
+<lb ed="#Bc"/>Secundum, De differentiis timoris.
+<lb ed="#Bc"/>Tertium, Quando timor excuset vel
+<lb ed="#Bc"/>non excuset peccatum ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e729">
+                     <lb ed="#Bc"/>ARTICULI TERTII
+<lb ed="#Bc"/>PARTICULA I.
+<lb ed="#Bc"/>An timor sit peccatum ? et, Utrum 
+sem<lb ed="#Bc" break="no"/>per sit mortale, vel aliquando veniale,
+<lb ed="#Bc"/>et aliguando mortale ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e743">
+                     <lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>Videtur enim, quod non sit peccatum.
+<lb ed="#Bc"/>Pena enim et culpa malum dividunt ex
+<lb ed="#Bc"/>opposito : quod ergo est in genere pene,
+<lb ed="#Bc"/>non est in genere culpex : timor est 
+hu<lb ed="#Bc" break="no"/>jusmodi ; ergo nullum peccatum est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e759">
+                     <lb ed="#Bc"/>Ulterius queritur, Si semper sit 
+mor<lb ed="#Bc" break="no"/>tale, vel aliquando veniale ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e766">
+                     <pb ed="#Bc" n="442"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Videtur, quod semper sit mortale.
+<lb ed="#Bc"/>Sapient. xvu, 10 : Cum sid enim timida
+<lb ed="#Bc"/>nequitia, dat testimonium 
+condemnatio<lb ed="#Bc" break="no"/>nis: semper enim presumit sxeva, 
+per<lb ed="#Bc" break="no"/>turbata conscientia, Sed quod datur in
+<lb ed="#Bc"/>omnium condemnationem, mortale 
+pec<lb ed="#Bc" break="no"/>catum est. Ergo videtur, quod talis timor
+<lb ed="#Bc"/>sit mortale peccatum semper.
+</p>
+                  <p xml:id="Almn78-h97457-d1e790">
+                     <lb ed="#Bc"/>Contra hoc videtur esse,
+<lb ed="#Bc"/>4. Quod dicitur, Deuter. xx,8 : Quis est
+<lb ed="#Bc"/>homo formidolosus, et corde pavido ?
+<lb ed="#Bc"/>vadat, et revertatur in domum suam.
+<lb ed="#Bc"/>Ibi Glossa : <quote xml:id="Almn78-h97457-Qd1e803"> Docet non posse 
+quem<lb ed="#Bc" break="no"/>quam professionem contemplationis vel
+<lb ed="#Bc"/>malitie spiritualis arripere, qui adhuc
+<lb ed="#Bc"/>nudari pertimescit terrenis opibus. </quote> Sed
+<lb ed="#Bc"/>talis timor non revocat a precepto 
+Domi<lb ed="#Bc" break="no"/>ni, sed a perfectione. Quidquid autem 
+re<lb ed="#Bc" break="no"/>vocat a perfectione, veniale peccatum est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e819">
+                     <lb ed="#Bc"/>2. Adhuc, Judicum, vu, 3 super illud :
+<lb ed="#Bc"/>Qui formidolosus et timidus est, 
+rever<lb ed="#Bc" break="no"/>tatur. Glossa : <quote xml:id="Almn78-h97457-Qd1e827"> Pavidus est, qui primo
+<lb ed="#Bc"/>adspectu ad congressum trepidat : non
+<lb ed="#Bc"/>tamen toto corde terretur, sed animari
+<lb ed="#Bc"/>et reparari potest. </quote> Sed peccatum 
+mor<lb ed="#Bc" break="no"/>tale totum cor occupat. Ergo hujusmodi
+<lb ed="#Bc"/>timor non est mortale peccatum.
+</p>
+                  <p xml:id="Almn78-h97457-d1e842">
+                     <lb ed="#Bc"/>Sotvtio. Dicendum, quod solvendum
+<lb ed="#Bc"/>est per distinclionem. Timor enim potest
+<lb ed="#Bc"/>accipi ut in genere passionis tantum,
+<lb ed="#Bc"/>vel prout est actus voluntatis ordinate
+<lb ed="#Bc"/>vel inordinate. Si primo modo: tune
+<lb ed="#Bc"/>nullum peccatum est, sed peena tantum.
+<lb ed="#Bc"/>Et sic procedit prima objectio. Si 
+se<lb ed="#Bc" break="no"/>cundo modo: sic est timor aliquando
+<lb ed="#Bc"/>meritum, aliquando peccatum. Timor
+<lb ed="#Bc"/>enim Dei meritum et initium sapientie.
+<lb ed="#Bc"/>Timor autem naturalis passio est et
+<lb ed="#Bc"/>nullum peccatum. Sed timor humanus,
+<lb ed="#Bc"/>quando aliquis timet pelli sue : et timor
+<lb ed="#Bc"/>mundanus, quando aliquis timet bonis
+<lb ed="#Bc"/>suis temporalibus : uterque peccatum est,
+<lb ed="#Bc"/>aliquando veniale, aliquando mortale. Si
+<lb ed="#Bc"/>enim ita timeat, quod Dei preceptum
+<lb ed="#Bc"/>propter timorem contemnat, et temporale
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>bonum quod amittere timet, eterno
+<lb ed="#Bc"/>preponat, procul dubio timor 
+pecca<lb ed="#Bc" break="no"/>tum mortale est. Et talis timor 
+contra<lb ed="#Bc" break="no"/>riatur fortitudini, que est donum 
+Spiri<lb ed="#Bc" break="no"/>tus sancli. Talis etiam timor in civilibus
+<lb ed="#Bc"/>contrariatur fortitudini virtuli, que est
+<lb ed="#Bc"/>virtus cardinalis. Et de tali dicitur in
+<lb ed="#Bc"/>I £thicorum, quod taliter timens, 
+tur<lb ed="#Bc" break="no"/>piter projicit arma, et fugit ut salvet 
+vi<lb ed="#Bc" break="no"/>tam cum ignominia: cum mors forti tali
+<lb ed="#Bc"/>salute sit eligentior. Et talis timor in
+<lb ed="#Bc"/>theologicis et civilibus quando est contra
+<lb ed="#Bc"/>preceptum Dei, mortale peccatum est,
+<lb ed="#Bc"/>Et hoc est quod dicitur, Apocal. xxi, 8:
+<lb ed="#Bc"/>Timidis autem, et incredulis, et 
+exsecra<lb ed="#Bc" break="no"/>tis, et homicidis, et fornicatoribus, et
+<lb ed="#Bc"/>veneficis, et idololatris, et omnibus 
+men<lb ed="#Bc" break="no"/>dacibus, pars illorum erit in stagno 
+ar<lb ed="#Bc" break="no"/>denti igne et sulphure : quod est mors
+<lb ed="#Bc"/>secunda. Glossa super illud : Zimidis,
+<lb ed="#Bc"/>etc. <quote xml:id="Almn78-h97457-Qd1e930"> Timidi sunt illi, qui timore 
+peena<lb ed="#Bc" break="no"/>rum fidem accipere fugiunt, vel acceptam
+<lb ed="#Bc"/>relinquunt : et hoc est mortale 
+pecca<lb ed="#Bc" break="no"/>tum. </quote> Quando autem ita timef, quod
+<lb ed="#Bc"/>Dei preceptum non contemnit, nec
+<lb ed="#Bc"/>Deum a mente abjicit, nec fortitudini
+<lb ed="#Bc"/>que virtus est, contrariatur : tune 
+pec<lb ed="#Bc" break="no"/>catum veniale est : quia talis potest 
+re<lb ed="#Bc" break="no"/>parari et animari ad bellum, ut paulo
+<lb ed="#Bc"/>ante in Glossa dictum est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e954">
+                     <lb ed="#Bc"/>Et sic patet quando sit peccatum 
+sim<lb ed="#Bc" break="no"/>pliciter, et quando non sit mortale, et
+<lb ed="#Bc"/>quando veniale.
+</p>
+                  <p xml:id="Almn78-h97457-d1e963">
+                     <lb ed="#Bc"/>Et secundum hoc procedunt 
+objectio<lb ed="#Bc" break="no"/>nes omnes inducte,
+</p>
+                  <p xml:id="Almn78-h97457-d1e970">
+                     <lb ed="#Bc"/>ARTICULI TERTI
+<lb ed="#Bc"/>PARTICULA II.
+<lb ed="#Bc"/>De differentia timoris?
+  
+<lb ed="#Bc"/>Deinde, Queritur de differentiis mali
+<lb ed="#Bc"/>timoris.
+</p>
+                  <p xml:id="Almn78-h97457-d1e983">
+                     <pb ed="#Bc" n="443"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Dicitur autem timor respectu mali, et
+<lb ed="#Bc"/>respectu magni. Et sic due divisiones
+<lb ed="#Bc"/>inveniuntur de timore.
+</p>
+                  <p xml:id="Almn78-h97457-d1e996">
+                     <lb ed="#Bc"/>Una est Bede, que est respectu mali.
+<lb ed="#Bc"/>Est enim malum corporis, et malum 
+re<lb ed="#Bc" break="no"/>rum, quod damnum dicitur. Respectu
+<lb ed="#Bc"/>mali corporis dicitur ftimor humanus,
+<lb ed="#Bc"/>qui timet pelli sue. Respectu rerum
+<lb ed="#Bc"/>dicitur timor mundamus, qui timet 
+dam<lb ed="#Bc" break="no"/>num rerum : et propter hoc perpetrat
+<lb ed="#Bc"/>illicitum ne damnum subeat.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1016">
+                     <lb ed="#Bc"/>Respectu magni, Damascenus timorem
+<lb ed="#Bc"/>sic dividit in secundo libro de Fide
+<lb ed="#Bc"/>orthodoxa, dicens : <quote xml:id="Almn78-h97457-Qd1e1024"> Dividitur autem
+<lb ed="#Bc"/>timor in sex, in segnitiem, in 
+erubescen<lb ed="#Bc" break="no"/>tiam, in verecundiam, in admirationem,
+<lb ed="#Bc"/>in stuporem, in agoniam. </quote> Et definit
+<lb ed="#Bc"/>singula istorum, sic dicens : <quote xml:id="Almn78-h97457-Qd1e1036"> Segnities
+<lb ed="#Bc"/>igitur est timor future operationis,
+<lb ed="#Bc"/>Erubescentia est timor in exspectatione
+<lb ed="#Bc"/>convilli, et est optima passio. Verecundia
+<lb ed="#Bc"/>vero est timor in turpi actu, nec est
+<lb ed="#Bc"/>passio desperabilis ad salutem. Iste enim
+<lb ed="#Bc"/>duz passiones signa sunt emendationis
+<lb ed="#Bc"/>vite. Et ideo dicit Philosophus in HI
+<lb ed="#Bc"/>Ethicorum, quod due passiones 
+medie<lb ed="#Bc" break="no"/>tatem habent virtutis, quamvis non 
+acci<lb ed="#Bc" break="no"/>dant nisi malis et de malo. Fuga enim
+<lb ed="#Bc"/>convilli bona est : quia facit recedere a
+<lb ed="#Bc"/>malo ne convilium sustineat. Similiter
+<lb ed="#Bc"/>fuga a turpi actu bona est : quia facit
+<lb ed="#Bc"/>recedere a turpi, et inclinat ad honestum.
+<lb ed="#Bc"/>Admiratio est imor ex magna phantasia
+<lb ed="#Bc"/>sive imaginatione. Stupor vero est timor
+<lb ed="#Bc"/>ex inassueta imaginatione. Quando enim
+<lb ed="#Bc"/>aliquid inassuetum apparet et insolitum,
+<lb ed="#Bc"/>tunc stupemus nosipsos, sicut in miracu
+<cb ed="#Bc" n="b"/>
+                        <lb ed="#Bc" break="no"/>lis. Unde, Act. i, 10, dicitur quod 
+im<lb ed="#Bc" break="no"/>pleti sunt stupore et exstast, ex eo quod
+<lb ed="#Bc"/>Petrus miraculose sanavit claudum ad
+<lb ed="#Bc"/>portam templi, que dicitur Speciosa.
+<lb ed="#Bc"/>Agonia vero est timor per casum et 
+in<lb ed="#Bc" break="no"/>fortunium. Timentes enim infortunari
+<lb ed="#Bc"/>actione, agoniamur. </quote>
+                  </p>
+                  <p xml:id="Almn78-h97457-d1e1099">
+                     <lb ed="#Bc"/>Causa divisionis secundum 
+Damasce<lb ed="#Bc" break="no"/>num est hec: quia definit timorem 
+se<lb ed="#Bc" break="no"/>cundum quod est fuga cordis secundum
+<lb ed="#Bc"/>systolem. Unde omne illud quod facit
+<lb ed="#Bc"/>cor resilire in suam propriam 
+parvita<lb ed="#Bc" break="no"/>tem, vocat fimorem. Et si hec est magna
+<lb ed="#Bc"/>operatio et difficilis, vocatur segnities.
+<lb ed="#Bc"/>Si autem est in turpiillato ab alio, sicut
+<lb ed="#Bc"/>est convitium, vocatur erubescentia :
+<lb ed="#Bc"/>quia tune demonstrat verecundiam signo
+<lb ed="#Bc"/>exteriori per ruborem. Si vero est de
+<lb ed="#Bc"/>turpi perpetrato a seipso, vocatur 
+vere<lb ed="#Bc" break="no"/>cundia. Et iste duz quia faciunt fugere
+<lb ed="#Bc"/>turpe, disponunt ad bonum, et faciunt
+<lb ed="#Bc"/>medietatem virtutis. Sed si est ex 
+ma<lb ed="#Bc" break="no"/>gnitudine, ita quod cor quasi stet et in
+<lb ed="#Bc"/>seipso insensibile fiat, tunc vocatur 
+sfu<lb ed="#Bc" break="no"/>por. Si vero est ex suspensione ad 
+cau<lb ed="#Bc" break="no"/>sam que nimis elevata est super nos,
+<lb ed="#Bc"/>vocatur admiratio. Si autem fit, quod
+<lb ed="#Bc"/>4maginamur maximum infortunium vel
+<lb ed="#Bc"/>vite vel rerum, in quo necesse est nos
+<lb ed="#Bc"/>quasi in agone constitui et luctari utrum
+<lb ed="#Bc"/>vincere possumus vel non, vocatur 
+ago<lb ed="#Bc" break="no"/>nia. :
+</p>
+                  <p xml:id="Almn78-h97457-d1e1156">
+                     <lb ed="#Bc"/>Et per hoc patet, penes quid 
+accipiun<lb ed="#Bc" break="no"/>tur species timoris, et secundum 
+divisio<lb ed="#Bc" break="no"/>nem Bede, et secundum divisionem 
+Da<lb ed="#Bc" break="no"/>masceni.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1167">
+                     <pb ed="#Bc" n="444"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>QUAISTIO INCIDENS.
+<lb ed="#Bc"/>Quid oporteat timere in periculis et arduis, et quid non ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e1178">
+                     <lb ed="#Bc"/>Juxta hoc queritur, Quid oporteat
+<lb ed="#Bc"/>timere et quid non in periculis et arduis ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e1185">
+                     <lb ed="#Bc"/>Videtur enim, quod mors non sit 
+ti<lb ed="#Bc" break="no"/>menda.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1192">
+                     <lb ed="#Bc"/>4. Matth. x, 28: Nolile timere eos qui
+<lb ed="#Bc"/>occidunt corpus, animam autem non
+<lb ed="#Bc"/>possunt oceidere : sed potius timete eum
+<lb ed="#Bc"/>gui potest et animam et corpus perdere in
+<lb ed="#Bc"/>gehennam '.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1206">
+                     <lb ed="#Bc"/>2, Adhuc, Seneca: <quote xml:id="Almn78-h97457-Qd1e1210"> Mors, exsilium,
+<lb ed="#Bc"/>luctus non sunt supplicia, sed tributa
+<lb ed="#Bc"/>viventium. </quote> Que tributa sunt, non sunt
+<lb ed="#Bc"/>timenda. Ergo mors et hujusmodi alia
+<lb ed="#Bc"/>supplicia non sunt timenda.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1222">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. I Petr. n,18 : Servi,subditi estote im
+<lb ed="#Bc"/>omni timore dominis, non tantum bonis
+<lb ed="#Bc"/>et modestis, sed etiam dyscolis. Videtur
+<lb ed="#Bc"/>ergo, quod etiam in malis et dyscolis
+<lb ed="#Bc"/>regia potestas timenda est.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1238">
+                     <lb ed="#Bc"/>2. Adhuc, Ad Roman. xur, 1 et 2:
+<lb ed="#Bc"/>Omnis anima potestatibus sublimioribus
+<lb ed="#Bc"/>subdita sit: non est enim potestas nisi a
+<lb ed="#Bc"/>Deo... Itaque qui resistit potestati, Det
+<lb ed="#Bc"/>ordinationi resistit.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1251">
+                     <lb ed="#Bc"/>Sorvtio. Hoc solvendum est per 
+di<lb ed="#Bc" break="no"/>stinctionem. Est enim timor naturalis
+<lb ed="#Bc"/>qui nullum peccatum est, quo omnis
+<lb ed="#Bc"/>homo timet in periculis naturaliter. Et
+<lb ed="#Bc"/>est timor malus, scilicet humanus, et
+<lb ed="#Bc"/>mundanus. Et is duplex est, aliquando
+<lb ed="#Bc"/>venialis, aliquando mortalis, sicut in
+<lb ed="#Bc"/>prehabitis determinatum est. Si autem
+<lb ed="#Bc"/>ita timet, quod in se tremit, nihil tamen
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>horum que Dei sunt propter timorem
+<lb ed="#Bc"/>dimittit, veniale peccatum est. Sed si
+<lb ed="#Bc"/>timor avertat eum a Deo ut a mente
+<lb ed="#Bc"/>timorem Dei abjiciat,et non timeat 
+trans<lb ed="#Bc" break="no"/>gredi, certe mortale peccatum est.
+<lb ed="#Bc"/>Timore Dei et timore humano omnis
+<lb ed="#Bc"/>anima subjecta debet esse potestatibus
+<lb ed="#Bc"/>sublimioribus : quia sine tali ordinatione
+<lb ed="#Bc"/>non potest agi vita humana, sicut supra
+<lb ed="#Bc"/>dicitur in epistola ad Romanos in Glossa
+<lb ed="#Bc"/>et in textu.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1299">
+                     <lb ed="#Bc"/>Ad pPRiMuM ergo dicendum de 
+Mat<lb ed="#Bc" break="no"/>theo, quod hoc intelligitur de timore
+<lb ed="#Bc"/>humano et mundano: in quibus timor
+<lb ed="#Bc"/>Dei abjicitur et illicitum perpetratur.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1310">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod Seneca 
+lo<lb ed="#Bc" break="no"/>quitur de his que naturalia sunt, scilicet
+<lb ed="#Bc"/>de naturalibus condemnatis per 
+pecca<lb ed="#Bc" break="no"/>tum, propter que nihil preceptorum
+<lb ed="#Bc"/>divinorum omittendum est. Et hoc est
+<lb ed="#Bc"/>quod dicitur, ad Roman. vii, 35 et seq. :
+<lb ed="#Bc"/>Quis ergo nos separabit a charitate
+<lb ed="#Bc"/>Christi ? tribulatio ? an angustia ? an
+<lb ed="#Bc"/>fames ? an nuditas ? an periculum ? an
+<lb ed="#Bc"/>persecutio ? an gladius ?.... Certus sum
+<lb ed="#Bc"/>enim quia neque mors, neque vila, 
+ne<lb ed="#Bc" break="no"/>que Angeli, neque principatus, neque
+<lb ed="#Bc"/>virtutes, neque instantia, neque futura,
+<lb ed="#Bc"/>neque fortitudo, neque altitudo, neque
+<lb ed="#Bc"/>profundum, neque creatura alia poterit
+<lb ed="#Bc"/>nos separare a charitate Dei, que est in
+<lb ed="#Bc"/>Christo Jesu Domino nostro. Augustinus
+<lb ed="#Bc"/>ibidem in Glossa: <quote xml:id="Almn78-h97457-Qd1e1351"> Charitas haec dicta
+<lb ed="#Bc"/>est rectissima animi affectio, que nos
+<lb ed="#Bc"/>conjungit Deo. </quote>
+                  </p>
+                  <p xml:id="Almn78-h97457-d1e1360">
+                     <pb ed="#Bc" n="445"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>ARTICULL TERTH
+<lb ed="#Bc"/>PARTICULA II.
+<lb ed="#Bc"/>Quando timor excuset, et quando N07
+<lb ed="#Bc"/>excuset ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e1376">
+                     <lb ed="#Bc"/>Tertio queritur, Quando timor 
+excu<lb ed="#Bc" break="no"/>set peccatum, et quando non excuset ?
+</p>
+                  <p xml:id="Almn78-h97457-d1e1383">
+                     <lb ed="#Bc"/>Videtur autem, quod semper excuset
+<lb ed="#Bc"/>timor qui potest cadere in constantem
+<lb ed="#Bc"/>virum, ita quod si aliquid facit ratione
+<lb ed="#Bc"/>illius timoris, non imputatur ei in 
+pecca<lb ed="#Bc" break="no"/>tum a Deo.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1396">
+                     <lb ed="#Bc"/>1. Quia haec est lex humane justitie,
+<lb ed="#Bc"/>que exemplata est ad legem divinam,
+<lb ed="#Bc"/>sicut dicit legislator in Digesto veteri,
+<lb ed="#Bc"/>libro quarto, sic : <quote xml:id="Almn78-h97457-Qd1e1406"> Quod vi metusve
+<lb ed="#Bc"/>causa fit, ratum non habeo, ait Praetor. </quote>
+                     <lb ed="#Bc"/>Unde videtur, quod si aliquis vi metusve
+<lb ed="#Bc"/>causa cogitur negare fidem, Deus non
+<lb ed="#Bc"/>debet habere pro negato, nec debet ei
+<lb ed="#Bc"/>imputari pro peccato : et sie videtur,
+<lb ed="#Bc"/>quod excuset.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1423">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus in libro I de
+<lb ed="#Bc"/>Civitate Dei : <quote xml:id="Almn78-h97457-Qd1e1429"> Pudicitia est virtus 
+ani<lb ed="#Bc" break="no"/>mi, que non amittilur per corporis
+<lb ed="#Bc"/>oppressionem *. </quote> Et cum vita corporis
+<lb ed="#Bc"/>melior sit quam quodlibet temporale,
+<lb ed="#Bc"/>yidetur, quod virgo aliqua cui tyrannus
+<lb ed="#Bc"/>minatur, quod opprimat eam et defloret
+<lb ed="#Bc"/>vel interdcial, polius debet sustinere
+<lb ed="#Bc"/>deflorationem quam interfectionem : el
+<lb ed="#Bc"/>sic videtur, quod timor aliquando 
+excu<lb ed="#Bc" break="no"/>set virginem a peccato deflorationis.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1452">
+                     <lb ed="#Bc"/>3. Adhuc, In Decreto, causa 1, 
+que<lb ed="#Bc" break="no"/>stione prima, cap. Conséat, dicitur, quod
+<lb ed="#Bc"/>vim passus et invilus, attractus et 
+repu<lb ed="#Bc" break="no"/>gnans, ab hareticis ordinatus, colorem
+<lb ed="#Bc"/>habet excusationis. Alibi dicitur, quod
+<lb ed="#Bc"/>vim passus et invitus attractus comedens
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>de idolothyto, colorem habet 
+excusa<lb ed="#Bc" break="no"/>tionis.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1475">
+                     <lb ed="#Bc"/>ConTRA :
+<lb ed="#Bc"/>1. Hac de causa multi martyres passi
+<lb ed="#Bc"/>sunt, qui celebrantur ab Ecclesia. 
+Legi<lb ed="#Bc" break="no"/>tur enim, quod quedam mater cum 
+tri<lb ed="#Bc" break="no"/>bus filiabus que capte ducebaniur ad
+<lb ed="#Bc"/>corruptores, cum audirent se esse 
+cor<lb ed="#Bc" break="no"/>rumpendas, submerserunt se in aqua, et
+<lb ed="#Bc"/>celebrantur ab Ecclesia.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1495">
+                     <lb ed="#Bc"/>2, Similiter, II Machab. vi, 18 et seq.,
+<lb ed="#Bc"/>de Eleazaro qui fuit unus de primoribus
+<lb ed="#Bc"/>scribarum, et compellebatur carnem
+<lb ed="#Bc"/>suilam centra preceptum Dei 
+mandu<lb ed="#Bc" break="no"/>care. Et subditur ibi, ¥. 19: Ad ille
+<lb ed="#Bc"/>gloriosam mortem magis guam odibilem
+<lb ed="#Bc"/>vitam complectens, voluntarie preibat
+<lb ed="#Bc"/>ad supplicium. Et infra, ¥. 23 : 
+Respon<lb ed="#Bc" break="no"/>dit cito, dicens, premitti se velle in 
+in<lb ed="#Bc" break="no"/>fernum. Et pulchram adjunxit rationem,
+<lb ed="#Bc"/>y. 26: Nam, etsi in presenti tempore,
+<lb ed="#Bc"/>scilicet comedens carnem contra legem,
+<lb ed="#Bc"/>supplietis hominum eripiar, sed manus
+<lb ed="#Bc"/>Omnipotentis nee vivus, nec defunctus
+<lb ed="#Bc"/>effugiam.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1530">
+                     <lb ed="#Bc"/>3. Idem potest objici de Susanna,
+<lb ed="#Bc"/>Daniel. xi, 23, quia antequam 
+deflora<lb ed="#Bc" break="no"/>tur a senibus, dixit: Afelius est mihi 
+abs<lb ed="#Bc" break="no"/>gue opere incidere in manus vestras,
+<lb ed="#Bc"/>quam peccare in conspectu Domini.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1543">
+                     <lb ed="#Bc"/>Soxcurio. Dicendum est, quod 
+commu<lb ed="#Bc" break="no"/>nis opinio est, quod quodlibet bonum
+<lb ed="#Bc"/>corporale, sicut est integrilas corporis in
+<lb ed="#Bc"/>virgine, damno sit supponendum pro
+<lb ed="#Bc"/>vita retinenda. Sed quodlibet spirituale
+<lb ed="#Bc"/>bonum, cum melius sit quam quodlibet
+<lb ed="#Bc"/>corporale bonum, preponendum est
+<lb ed="#Bc"/>bono corporali, quod est vita corporis,
+<lb ed="#Bc"/>sicut marlyres leguntur fecisse, Et ita
+<lb ed="#Bc"/>dictum Augustini intelligunt. Dicunt
+<lb ed="#Bc"/>enim, quod virgo non consentiens mente
+<lb ed="#Bc"/>oppressori, si patiatur se opprimi metu
+<lb ed="#Bc"/>mortis, nihil peccat.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1574">
+                     <lb ed="#Bc"/>Ad id autem quod dicitur de tribus
+<lb ed="#Bc"/>puellis dicunt, quod ille inconsiderate
+<lb ed="#Bc"/>defecerunt sibiipsis mortem inferentes,
+</p>
+                  <p xml:id="Almn78-h97457-d1e1583">
+                     <pb ed="#Bc" n="446"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Et quod dicitur, quod celebrantur ab
+<lb ed="#Bc"/>Ecclesia, dicunt quod non est propter
+<lb ed="#Bc"/>hoc quod sibi mortem intulerunt, sed
+<lb ed="#Bc"/>quia tantum fuit dilectio castitatis in eis,
+<lb ed="#Bc"/>quod plus elegerunt mori quam turpiter
+<lb ed="#Bc"/>incestari. Et ita etiam intelligunt dictum
+<lb ed="#Bc"/>Hieronymi qui dicit, quod <quote xml:id="Almn78-h97457-Qd1e1604"> nemo debet
+<lb ed="#Bc"/>sibi mortem inferre, nisi in castitatis
+<lb ed="#Bc"/>periculo. </quote>
+                  </p>
+                  <p xml:id="Almn78-h97457-d1e1613">
+                     <lb ed="#Bc"/>Av w quod de Eleazaro objicitur, 
+di<lb ed="#Bc" break="no"/>cunt quod secus est: quia ibi fuit 
+spiri<lb ed="#Bc" break="no"/>tuale bonum, obedientia scilicet legis
+<lb ed="#Bc"/>divine, quam preposuit vite humane.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1624">
+                     <lb ed="#Bc"/>Similiter dicunt de Susanna, quod ibi
+<lb ed="#Bc"/>etiam fuit spirituale bonum, scilicet
+<lb ed="#Bc"/>fides thori quam debuit in marito: et
+<lb ed="#Bc"/>hanc preposuit humane vite.
+</p>
+                  <p xml:id="Almn78-h97457-d1e1635">
+                     <lb ed="#Bc"/>Et sic patet quando timor excuset, vel
+<lb ed="#Bc"/>non excuset.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-h97457-Dd1e1645">
+               <head xml:id="Almn78-h97457-Hd1e1647">Membrum 2</head>
+               <head xml:id="Almn78-h97457-Hd1e1650" type="question-title">
+        De amore male inflammante
+      </head>
+               <p xml:id="Almn78-h97457-d1e1653">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De amore male inflammante ?
+</p>
+               <p xml:id="Almn78-h97457-d1e1660">
+                  <lb ed="#Bc"/>Deve, Queritur de amore male 
+in<lb ed="#Bc" break="no"/>flammante.
+</p>
+               <p xml:id="Almn78-h97457-d1e1667">
+                  <lb ed="#Bc"/>Et queruntur quatuor, Quid sit? et,
+<lb ed="#Bc"/>Utrum semper mortale sit, vel aliquando
+<lb ed="#Bc"/>veniale et aliquando mortale, vel 
+ali<lb ed="#Bc" break="no"/>quando nullum peccatum ? et, Utram sit
+<lb ed="#Bc"/>causa omnis peccati ?
+</p>
+               <p xml:id="Almn78-h97457-d1e1681">
+                  <lb ed="#Bc"/>Ad primum proceditur sic, quod amor
+<lb ed="#Bc"/>male inflammans sit amor sui, vel in
+<lb ed="#Bc"/>seipso, vel in aliquo bono commutabili
+<lb ed="#Bc"/>quod preponitur summo bono.
+</p>
+               <p xml:id="Almn78-h97457-d1e1692">
+                  <lb ed="#Bc"/>4. Dicit enim Bernardus in sermone 16
+<lb ed="#Bc"/>super Cantica, quod omnis peccati causa,
+<lb ed="#Bc"/>est amor mundi, et superfluus sui: talis
+<lb ed="#Bc"/>autem amor est male inflammans : talis
+<lb ed="#Bc"/>ergo amor radix est maloram, qui dicitur
+<lb ed="#Bc"/>male inflammans,
+</p>
+               <p xml:id="Almn78-h97457-d1e1708">
+                  <lb ed="#Bc"/>2. Adhuc, Jacob. 1, 13 et seq. : Nemo
+<lb ed="#Bc"/>cum tentatur, dicat quoniam a Deo 
+ten<lb ed="#Bc" break="no"/>tatur: Deus enim intentator malorum
+<lb ed="#Bc"/>est, ipse autem neminem tentat. Unus
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>quisque vero tentatur a concupiscentia
+<lb ed="#Bc"/>sua, abstractus et illectus. Glossa 
+inter<lb ed="#Bc" break="no"/>linearis : <quote xml:id="Almn78-h97457-Qd1e1727"> Abstractus a recto, et illectus
+<lb ed="#Bc"/>ad malum. </quote> Deinde concupiscentia cum
+<lb ed="#Bc"/>conceperit (Glossa interlinearis, 
+dele<lb ed="#Bc" break="no"/>ctando vel consentiendo) parit peccatum
+<lb ed="#Bc"/>(Glossa, perducit in actuin facinus quod
+<lb ed="#Bc"/>in corde est conceptum) : peccatum vero
+<lb ed="#Bc"/>cum consummatum fuerit, general 
+mor<lb ed="#Bc" break="no"/>tem. Glossa, <quote xml:id="Almn78-h97457-Qd1e1745"> Vel cum caro suavia sibi
+<lb ed="#Bc"/>querit, vel cum diabolus vitiorum 
+in<lb ed="#Bc" break="no"/>cendia immittit. </quote> Ergo videtur, quod
+<lb ed="#Bc"/>amor sui et mundi sit amor inflammans,
+<lb ed="#Bc"/>et causa vitiorum et peccatorum.
+</p>
+               <p xml:id="Almn78-h97457-d1e1758">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Contingit, quod aliquis amat se ad
+<lb ed="#Bc"/>Deum, et bene facit: quia dicit 
+Augu<lb ed="#Bc" break="no"/>stinus, quod quecumque amantur, ad
+<lb ed="#Bc"/>Deum sunt referenda, ut in Deo et 
+pro<lb ed="#Bc" break="no"/>pter Deum amentur. In libro de Doctrina
+<lb ed="#Bc"/>Christiana: <quote xml:id="Almn78-h97457-Qd1e1775"> Hoc est uti et se et hoc
+<lb ed="#Bc"/>mundo, et solo Deo frui: quia sic 
+dile<lb ed="#Bc" break="no"/>ctionis finis in solo Deo ponitur, et 
+om<lb ed="#Bc" break="no"/>nia alia ad Deum referuntur. </quote> Ergo
+<lb ed="#Bc"/>dilectio sui non est amor semper male
+<lb ed="#Bc"/>inflammans.
+</p>
+               <p xml:id="Almn78-h97457-d1e1789">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod amor male
+<lb ed="#Bc"/>inflammans, est amor concupiscentie
+<lb ed="#Bc"/>carnalis et mundane, sicut dicit 
+Jaco<lb ed="#Bc" break="no"/>bus, illiciens hominem ad malum, et
+<lb ed="#Bc"/>abstrahens a summo bono, Et iste est
+<lb ed="#Bc"/>causa omnis mali in homine, sicut idem
+<lb ed="#Bc"/>dicit : quia cam coneupiscentia 
+concepe<lb ed="#Bc" break="no"/>rit, parit peccatum.
+</p>
+               <p xml:id="Almn78-h97457-d1e1809">
+                  <lb ed="#Bc"/>Ad id ergo quod in contrarium 
+obji<lb ed="#Bc" break="no"/>citur, dicendum quod hic non est amor
+<lb ed="#Bc"/>sui, sed Dei, quando amatum ad Deum
+<lb ed="#Bc"/>refert, et nihil diligit in eo nisi Deum.:
+<lb ed="#Bc"/>Et tamen antiqui dixerunt, quod triplex
+<lb ed="#Bc"/>est amor sui, scilicet naturalis, 
+gratui<lb ed="#Bc" break="no"/>tus, et viliosus. Naturalis est, quo 
+quis<lb ed="#Bc" break="no"/>que naturaliter se diligit : qui actus
+<lb ed="#Bc"/>licet non sit formatus gratia, formalis
+<lb ed="#Bc"/>tamen est, et nullum peccatum : nec est
+<lb ed="#Bc"/>amor ille ad malum inflammans. 
+Gra<lb ed="#Bc" break="no"/>tuitus est, qui formatus est charitate et
+<lb ed="#Bc"/>ordinatus ad Deum: et ideo ille 
+inflam<lb ed="#Bc" break="no"/>mat ad bonum, et non ad malum. Vitio-
+</p>
+               <p xml:id="Almn78-h97457-d1e1843">
+                  <pb ed="#Bc" n="447"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>sus vero est, qui est amor 
+concupiscen<lb ed="#Bc" break="no"/>tie carnalis vel mundane, carnali 
+con<lb ed="#Bc" break="no"/>cupiscentia infectus : et ideo ad malum
+<lb ed="#Bc"/>inflammans dupliciter: quia id quod
+<lb ed="#Bc"/>amat, se scilicet, et mundum ut finem
+<lb ed="#Bc"/>ponit dilectionis: et sic amat supra
+<lb ed="#Bc"/>Deum, et peccat mortaliter: quia tune
+<lb ed="#Bc"/>fruitur creatura, non creatore secundum
+<lb ed="#Bc"/>Augustinum in libro de Doectrina 
+Chri<lb ed="#Bc" break="no"/>stiana: <quote xml:id="Almn78-h97457-Qd1e1871"> Omnis perversitas est uti
+<lb ed="#Bc"/>fruendis, et frui utendis. </quote> Si autem non
+<lb ed="#Bc"/>ponit finem dilectionis in se, et in eo
+<lb ed="#Bc"/>quod mundane diligit, sed aliquantulum
+<lb ed="#Bc"/>delectatur citra Deum : tunc est veniale
+<lb ed="#Bc"/>peccatum: quia non abstrahitur a Deo,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>licet aliquo modo alliciatur dilectione
+<lb ed="#Bc"/>carnalt.
+</p>
+               <p xml:id="Almn78-h97457-d1e1892">
+                  <lb ed="#Bc"/>Et de his sufficienter in prima parte
+<lb ed="#Bc"/>Summe Theologiz, tractata de frui et
+<lb ed="#Bc"/>uli, disputatum et determinatum est.
+</p>
+               <p xml:id="Almn78-h97457-d1e1901">
+                  <lb ed="#Bc"/>Et sic etiam patet solut'o illorum que
+<lb ed="#Bc"/>secundo et tertio quesita sunt, scilicet
+<lb ed="#Bc"/>si semper sit mortale peccatum, vel 
+ali<lb ed="#Bc" break="no"/>quando veniale, vel aliquando nullum
+<lb ed="#Bc"/>pececatum.
+</p>
+               <p xml:id="Almn78-h97457-d1e1914">
+                  <lb ed="#Bc"/>Ad id quod quarto queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod jam determinatum est in
+<lb ed="#Bc"/>primo articulo istius questionis, ubi
+<lb ed="#Bc"/>querebatur de duabus radicibus, scilicet
+<lb ed="#Bc"/>timoris et amoris.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

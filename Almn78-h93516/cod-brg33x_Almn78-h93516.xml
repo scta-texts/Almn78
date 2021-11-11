@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 127</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 127</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="419"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h93516"><!-- p2t20q127 -->
+            <head xml:id="Almn78-h93516-Hd1e106">Quaestio 127</head>
+            <head xml:id="Almn78-h93516-Hd1e109" type="question-title">
+    De contentione
+  </head>
+            <p xml:id="Almn78-h93516-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXVII
+<lb ed="#Bc"/>De contentione.
+</p>
+            <p xml:id="Almn78-h93516-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur de contentione, que
+<lb ed="#Bc"/>etiam est peccatum oris.
+</p>
+            <p xml:id="Almn78-h93516-d1e130">
+               <lb ed="#Bc"/>Et queruntur tria, scilicet primo quid
+<lb ed="#Bc"/>sit ?
+<lb ed="#Bc"/>Secundo, Quantum peccatum sit ?
+<lb ed="#Bc"/>Kt tertio, Utrum in disputatione sacra
+<lb ed="#Bc"/>Scripture liceat contendere ?
+</p>
+            <div xml:id="Almn78-h93516-Dd1e144">
+               <head xml:id="Almn78-h93516-Hd1e146">Membrum 1</head>
+               <head xml:id="Almn78-h93516-Hd1e149" type="question-title">
+        Quid sit contentio
+      </head>
+               <p xml:id="Almn78-h93516-d1e152">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit contentio ?
+  
+<lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>Ad Roman. 1, 30, super illud : 
+Con<lb ed="#Bc" break="no"/>tentiosos, superbos, Glossa Fulgentii
+<lb ed="#Bc"/>dicit : <quote xml:id="Almn78-h93516-Qd1e167"> Contentio est impugnatio 
+verita<lb ed="#Bc" break="no"/>tis cum confidentia clamoris. </quote>
+               </p>
+               <p xml:id="Almn78-h93516-d1e173">
+                  <pb ed="#Bc" n="420"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Sed videtur, quod ista definitio non
+<lb ed="#Bc"/>sit satis generalis : quia
+</p>
+               <p xml:id="Almn78-h93516-d1e184">
+                  <lb ed="#Bc"/>1. Possunt aliqui contendere sine 
+cla<lb ed="#Bc" break="no"/>more, cum contendere sit in diversa
+<lb ed="#Bc"/>tendere contraria vel contradictoria per
+<lb ed="#Bc"/>disputationem.
+</p>
+               <p xml:id="Almn78-h93516-d1e196">
+                  <lb ed="#Bc"/>2. Adhuc, Super illud Jacobi, in, 16 :
+<lb ed="#Bc"/>Ubi selus et contentio, dicit Glossa, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h93516-Qd1e204"> zelus est in corde sicut invidia, 
+con<lb ed="#Bc" break="no"/>tentio in sermone. </quote> Et non facit 
+men<lb ed="#Bc" break="no"/>tionem de clamore. Ergo videtur, quod
+<lb ed="#Bc"/>male ponitur in definitione, cam con/
+i<lb ed="#Bc" break="no"/>dentia clamoris.
+</p>
+               <p xml:id="Almn78-h93516-d1e217">
+                  <lb ed="#Bc"/>3. Adhuc, II ad Timoth. u, 14, super
+<lb ed="#Bc"/>illud : Nodi contendere verbis: ad nihil
+<lb ed="#Bc"/>enim utile est, nisi ad subversionem 
+au<lb ed="#Bc" break="no"/>dientium, dicit Glossa : <quote xml:id="Almn78-h93516-Qd1e227"> Solent in 
+con<lb ed="#Bc" break="no"/>tentione talia opponi estimato 
+malevo<lb ed="#Bc" break="no"/>lentia argumento, ut moveant animos
+<lb ed="#Bc"/>insipientium fratrum. </quote> Et non facit ibi
+<lb ed="#Bc"/>mentionem de clamore. Ergo videtur,
+<lb ed="#Bc"/>quod contentio possit esse sine clamore.
+</p>
+               <p xml:id="Almn78-h93516-d1e242">
+                  <lb ed="#Bc"/>Solutio. Ad hoc dicendum, quod 
+con<lb ed="#Bc" break="no"/>tentio duobus modis potest definiri,
+<lb ed="#Bc"/>secundum nomen scilicet, et secundum
+<lb ed="#Bc"/>perfectum esse ipsius, quod esse, habet
+<lb ed="#Bc"/>ex circumstantia plus quam a re. Si
+<lb ed="#Bc"/>secundum nomen deliniatur : tunc 
+con<lb ed="#Bc" break="no"/>tentio nihil aliud est quam in diversa
+<lb ed="#Bc"/>tentio cum malevolentie argumento,
+<lb ed="#Bc"/>cum scilicet non consentit in id quod
+<lb ed="#Bc"/>dicit, sed malevolentia tendit in aliud,
+<lb ed="#Bc"/>sicut dicitur in Glossa super epistolam
+<lb ed="#Bc"/>ad Timotheum inducta. Si autem 
+defi<lb ed="#Bc" break="no"/>niatur secundum perfectum esse quod
+<lb ed="#Bc"/>habet cum adversarius disputat in 
+con<lb ed="#Bc" break="no"/>trarium, qui pravus socius est, ut dicit
+<lb ed="#Bc"/>Aristotelesin VII Topicorum, et impedit
+<lb ed="#Bc"/>commune opus, id est, inquisitionem
+<lb ed="#Bc"/>veritatis : tune cum ille non confidat in
+<lb ed="#Bc"/>vi argumenti, impugnat veritatem cum
+<lb ed="#Bc"/>confidentia clamoris. Ei sic definit eam
+<lb ed="#Bc"/>Fulgentius in Glossa super epistolam ad
+<lb ed="#Bc"/>Romanos, 1, 30. Et tune est in ratione
+<lb ed="#Bc"/>vitii : quia tune non habet se ut socius
+<lb ed="#Bc"/>ad inquirendam veritatem, sed ut hostis
+<lb ed="#Bc"/>ad impugnandam,
+</p>
+            </div>
+            <div xml:id="Almn78-h93516-Dd1e300">
+               <head xml:id="Almn78-h93516-Hd1e302">Membrum 2</head>
+               <head xml:id="Almn78-h93516-Hd1e305" type="question-title">
+        Quoniam peccatum sit contentio, utrum.,
+        semper sit peccatum, vel aliquando
+        bonum sive indifferens
+      </head>
+               <p xml:id="Almn78-h93516-d1e308">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quoniam peccatum sit contentio, utrum.,
+<lb ed="#Bc"/>semper sit peccatum, vel aliquando
+<lb ed="#Bc"/>bonum sive indifferens ?
+</p>
+               <p xml:id="Almn78-h93516-d1e321">
+                  <lb ed="#Bc"/>Secundo queritur, Utrum contentio
+<lb ed="#Bc"/>sit semper peccatum, vel aliquando 
+bo<lb ed="#Bc" break="no"/>num, sive indifferens ?
+</p>
+               <p xml:id="Almn78-h93516-d1e330">
+                  <lb ed="#Bc"/>Et videtur, quod aliquando bonum,
+<lb ed="#Bc"/>vel indifferens ad minus.
+</p>
+               <p xml:id="Almn78-h93516-d1e338">
+                  <lb ed="#Bc"/>1. Ad Philip. 1, 17 et 18: Quidam ex
+<lb ed="#Bc"/>contentione Christum annuntiant non
+<lb ed="#Bc"/>sincere, existimantes pressuram. se 
+susei<lb ed="#Bc" break="no"/>tare vinculis meis. Quid enim? Dum
+<lb ed="#Bc"/>omni modo, sive per occasionem, sive
+<lb ed="#Bc"/>per veritatem, Christus annuntietur : et
+<lb ed="#Bc"/>in hoc gaudeo, sed et gaudebo. Sed non
+<lb ed="#Bc"/>gaudet nisi de bono vel de indifferenti
+<lb ed="#Bc"/>ad minus : ergo contentiones aliquando
+<lb ed="#Bc"/>sunt bonum, vel indifferens ad minus.
+</p>
+               <p xml:id="Almn78-h93516-d1e362">
+                  <lb ed="#Bc"/>2. Adhuc, Quod oportet esse ad 
+utili<lb ed="#Bc" break="no"/>tatem Ecclesia, illud bonum est. 
+Aposto<lb ed="#Bc" break="no"/>lus sic dicit, I ad Corinth. x1, 19 : 
+Opor<lb ed="#Bc" break="no"/>tet et hereses esse, ut et qui probati
+<lb ed="#Bc"/>sunt, manifesti fiant in vobis. Hereses
+<lb ed="#Bc"/>omnes sunt ex contentione. Ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod bonum est esse contentiones :
+<lb ed="#Bc"/>et sic nullum est peccatum.
+</p>
+               <p xml:id="Almn78-h93516-d1e382">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Jacobi, 1, 16 : Ubi zelus et 
+conten<lb ed="#Bc" break="no"/>tio, ibt inconstantia et omne opus 
+pra<lb ed="#Bc" break="no"/>vum. Ergo videtur, quod peccatum 
+mor<lb ed="#Bc" break="no"/>tale sit semper.
+</p>
+               <p xml:id="Almn78-h93516-d1e395">
+                  <lb ed="#Bc"/>2. Adhuc, Ad Roman. 1, 29, inter
+<lb ed="#Bc"/>peccata mortalia enumeratur ab 
+Apo<lb ed="#Bc" break="no"/>stolo, ubi sic dicit : Plenos invidia,
+<lb ed="#Bc"/>homicidio, contentione, dolo, 
+maligni<lb ed="#Bc" break="no"/>tate. Ergo videtur, quod sit peccatum
+<lb ed="#Bc"/>mortale semper.
+</p>
+               <p xml:id="Almn78-h93516-d1e411">
+                  <lb ed="#Bc"/>3. Adhuc, Proverb. xvu, 41 : Semper
+<lb ed="#Bc"/>Jurgia querit malus : Angelus autem
+<lb ed="#Bc"/>crudelis mittetur contra eum. Glossa:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h93516-Qd1e421"> Ut post mortem ad eternum rapiat,
+<pb ed="#Bc" n="421"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>interitum. </quote> Non autem rapitur ad 
+eter<lb ed="#Bc" break="no"/>num interitum, nisi pro peccato mortali.
+<lb ed="#Bc"/>Ergo jurgium sive contentio est 
+pecca<lb ed="#Bc" break="no"/>tum mortale.
+</p>
+               <p xml:id="Almn78-h93516-d1e438">
+                  <lb ed="#Bc"/>Sed contra hoc quidam objiciunt
+<lb ed="#Bc"/>illud Job, xxxix, 32: Numguid qui 
+con<lb ed="#Bc" break="no"/>tendit cum Deo, tam facile conquiescit ?
+<lb ed="#Bc"/>Ex hoc arguunt, quod Job contendit
+<lb ed="#Bc"/>cum Deo: quod non potuit esse cum
+<lb ed="#Bc"/>peccato mortali: ergo contentio 
+genera<lb ed="#Bc" break="no"/>liter non est peccatum mortale.
+</p>
+               <p xml:id="Almn78-h93516-d1e457">
+                  <lb ed="#Bc"/>Soxtutio. Dicendum, quod contentio
+<lb ed="#Bc"/>semper in vitio est, sed non semper 
+mor<lb ed="#Bc" break="no"/>tale peccatum. Contentio enim semper
+<lb ed="#Bc"/>impedit commune opus inquirende 
+veri<lb ed="#Bc" break="no"/>tatis : et ideo semper vitium est, etiam
+<lb ed="#Bc"/>apud Philosophos. Et propter hoc dicit
+<lb ed="#Bc"/>etiam Apostolus, Jad Corinth. x1, 16 : Si
+<lb ed="#Bc"/>quis videtur contentiosus esse, nos talem
+<lb ed="#Bc"/>consuetudinem non habemus, neque
+<lb ed="#Bc"/>Ecclesia Dei. Unde semper in vitio
+<lb ed="#Bc"/>est, licet non sit semper mortale 
+pec<lb ed="#Bc" break="no"/>catum,
+</p>
+               <p xml:id="Almn78-h93516-d1e486">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+Apo<lb ed="#Bc" break="no"/>stolus non dicit se ibi gaudere de 
+occa<lb ed="#Bc" break="no"/>sione sive contentione, sed de 
+annuntia<lb ed="#Bc" break="no"/>tione.
+</p>
+               <p xml:id="Almn78-h93516-d1e497">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod hereses
+<lb ed="#Bc"/>esse non est bonum, nisi per 
+occasio<lb ed="#Bc" break="no"/>nem, sed simpliciter malum. Et illa 
+occa<lb ed="#Bc" break="no"/>sio ponitur ibidem in Glossa Augustini,
+<lb ed="#Bc"/>Quia cum heretici sunt, excitant sacros
+<lb ed="#Bc"/>Doctores ad sacram Scripturam et ad
+<lb ed="#Bc"/>vigilantiam studii, ex quibus multa bona
+<lb ed="#Bc"/>proveniunt Ecclesia. Et est simile ei
+<lb ed="#Bc"/>quod dicit Aristoteles in II 
+Metaphysi<lb ed="#Bc" break="no"/>corum, quod non oportet tantum grates
+<lb ed="#Bc"/>referre his qui veritatem dixerunt in
+<lb ed="#Bc"/>philosophia, sed etiam his qui 
+errave<lb ed="#Bc" break="no"/>runt in ea. Et dat exemplum de 
+Timo<lb ed="#Bc" break="no"/>theo et Hierasio musicis philosophis :
+<lb ed="#Bc"/>quia siin musica non errasset Timotheus,
+<lb ed="#Bc"/>excitatus non fuisset et Hlierasius, et
+<lb ed="#Bc"/>careremus multum de dispositione 
+mu<lb ed="#Bc" break="no"/>sicorum.
+</p>
+               <p xml:id="Almn78-h93516-d1e539">
+                  <lb ed="#Bc"/>Ad id quod in contrarium objicitur,
+<lb ed="#Bc"/>dicendum quod ibi loquitur Apostolus
+<lb ed="#Bc"/>de contentione que est contra veritatem
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>et virtutem: et illa est vere mortale
+<lb ed="#Bc"/>peccatum.
+</p>
+               <p xml:id="Almn78-h93516-d1e555">
+                  <lb ed="#Bc"/>Eopem modo dicendum est ad aliud :
+<lb ed="#Bc"/>quia sic Apostolus enumerat 
+contentio<lb ed="#Bc" break="no"/>nem inter mortalia peccata : quia illa est
+<lb ed="#Bc"/>hereticorum contra veritatem et 
+virtu<lb ed="#Bc" break="no"/>tem.
+</p>
+               <p xml:id="Almn78-h93516-d1e568">
+                  <lb ed="#Bc"/>Et similiter dicendum est ad sequens :
+<lb ed="#Bc"/>quia Angelus Domini crudelis mittetur
+<lb ed="#Bc"/>contra talem contentiosum, qui 
+impu<lb ed="#Bc" break="no"/>gnat veritatem et virtutem in Ecclesia
+<lb ed="#Bc"/>Dei.
+</p>
+               <p xml:id="Almn78-h93516-d1e582">
+                  <lb ed="#Bc"/>Ad id quod in contrarium hujus 
+obji<lb ed="#Bc" break="no"/>citur de Job, dicendum quod est 
+ali<lb ed="#Bc" break="no"/>quando contentio bona, quando homo
+<lb ed="#Bc"/>contendit exercere virtutem nature ad
+<lb ed="#Bc"/>difficultatem virtutis et meriti, ut possit
+<lb ed="#Bc"/>pugnare contra vitia. Et illa preecipitur,
+<lb ed="#Bc"/>Luc, xi, 24: Contendite mtrare per
+<lb ed="#Bc"/>angustam portam : quia, ut dicitur,
+<lb ed="#Bc"/>Matth. vi, 14: Quam angusta porta, et
+<lb ed="#Bc"/>arcta via est, que ducit ad vitam ! et
+<lb ed="#Bc"/>pauci sunt qui inveniunt eam.
+</p>
+            </div>
+            <div xml:id="Almn78-h93516-Dd1e609">
+               <head xml:id="Almn78-h93516-Hd1e611">Membrum 3</head>
+               <head xml:id="Almn78-h93516-Hd1e614" type="question-title">
+        Utrum in sacra Scriptura liceat 
+        disputare contentiose
+      </head>
+               <p xml:id="Almn78-h93516-d1e617">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum in sacra Scriptura liceat 
+dispu<lb ed="#Bc" break="no"/>tare contentiose ?
+</p>
+               <p xml:id="Almn78-h93516-d1e626">
+                  <lb ed="#Bc"/>Tertio queritur, Utrum in sacra 
+Scri<lb ed="#Bc" break="no"/>ptura liceat disputare contentiose ?
+</p>
+               <p xml:id="Almn78-h93516-d1e633">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>1. Glossa super illud Apostoli, ad
+<lb ed="#Bc"/>Timoth. nu, 14: Noli contendere verbis,
+<lb ed="#Bc"/>dicit : <quote xml:id="Almn78-h93516-Qd1e643"> Collatio debet esse inter servos
+<lb ed="#Bc"/>Dei, non altercatio. </quote> Doctores sacra
+<lb ed="#Bc"/>Scripture sunt servi Dei. Ergo 
+alter<lb ed="#Bc" break="no"/>cando non debent disputare.
+</p>
+               <p xml:id="Almn78-h93516-d1e655">
+                  <lb ed="#Bc"/>2, Adhuc, Isaie, vii, 6: Pro eo quod
+<lb ed="#Bc"/>abjecit populus iste aguas Siloe, que
+<lb ed="#Bc"/>vadunt cum silentio. Glossa : <quote xml:id="Almn78-h93516-Qd1e663"> Aqua
+<lb ed="#Bc"/>est doctrina Christi, que sine clamore et
+<lb ed="#Bc"/>strepitu leniter fluit. </quote> Ergo sine 
+conten<lb ed="#Bc" break="no"/>tione et leniter debet proponi.
+</p>
+               <p xml:id="Almn78-h93516-d1e673">
+                  <lb ed="#Bc"/>3. Adhuc, Matth. xn, 19: Non con
+<pb ed="#Bc" n="422"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tendet, neque clamabit, neque audiet
+<lb ed="#Bc"/>aliquis in plateis vocem,ejus. Sumitur
+<lb ed="#Bc"/>de Isaia, XLII, 2.
+</p>
+               <p xml:id="Almn78-h93516-d1e689">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus in libro de 
+Duo<lb ed="#Bc" break="no"/>decim abusionibus : <quote xml:id="Almn78-h93516-Qd1e695"> Christianus nemo
+<lb ed="#Bc"/>dicitur recte, nisi qui Christi moribus
+<lb ed="#Bc"/>coequatur. Tu ergo si morum Christi
+<lb ed="#Bc"/>similitudinem tenere cupis, ne 
+conten<lb ed="#Bc" break="no"/>das, ne in Ecclesia abusive Christianus
+<lb ed="#Bc"/>existas, </quote>
+               </p>
+               <p xml:id="Almn78-h93516-d1e709">
+                  <lb ed="#Bc"/>ContRA :
+<lb ed="#Bc"/>Ecelesiasticis viris licet disputare ad
+<lb ed="#Bc"/>utramque partem, ut melius enucleetur
+<lb ed="#Bc"/>veritas. Et hoc non potest esse sine 
+con<lb ed="#Bc" break="no"/>tentione. Ergo aliqua contentione 
+pos<lb ed="#Bc" break="no"/>sunt contendere.
+</p>
+               <p xml:id="Almn78-h93516-d1e725">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod nomen con
+<lb ed="#Bc"/>tentionis aliquando importat vitium,
+<lb ed="#Bc"/>quando contra veritatem est, ut paulo
+<lb ed="#Bc"/>ante diclum est. Et sic prohibetur viris
+<lb ed="#Bc"/>ecclesiasticis. Aliquando importat colla
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tionem ad contraria vel contradictoria ad
+<lb ed="#Bc"/>enucleandam veritatem : et sic non 
+vo<lb ed="#Bc" break="no"/>catur contentio secundum Augustinum
+<lb ed="#Bc"/>in libris de Trinifate, qui sic dicit, quod |
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h93516-Qd1e751">in sacra Scriptura desiderat liberum
+<lb ed="#Bc"/>correctorem, et pium interpretem. </quote> Et
+<lb ed="#Bc"/>ponit simile: quia ille osculo columbino
+<lb ed="#Bc"/>corripit, sed non dente canino rodit, Et
+<lb ed="#Bc"/>sunt verba sua ista : <quote xml:id="Almn78-h93516-Qd1e762"> Gratanter quippe
+<lb ed="#Bc"/>recipit osculum columbinum 
+_beni<lb ed="#Bc" break="no"/>gnissima charitas, dentem autem 
+cani<lb ed="#Bc" break="no"/>num vel retundit solidissima veritas, vel
+<lb ed="#Bc"/>evitat cautissima humilitas. </quote> Et hoc non
+<lb ed="#Bc"/>est contendere, neque clamare, nec 
+au<lb ed="#Bc" break="no"/>dire vocem in plateis, et aquas Siloe
+<lb ed="#Bc"/>fluere cum silentio: et tamen falsitati
+<lb ed="#Bc"/>non credere, sicut nec Christus cessit
+<lb ed="#Bc"/>veritati.
+</p>
+               <p xml:id="Almn78-h93516-d1e785">
+                  <lb ed="#Bc"/>Et sic patet solutio ad ea que 
+indu<lb ed="#Bc" break="no"/>cuntur.
+</p>
+               <p xml:id="Almn78-h93516-d1e793">
+                  <lb ed="#Bc"/>Et haec de contentione dicta sufficiant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

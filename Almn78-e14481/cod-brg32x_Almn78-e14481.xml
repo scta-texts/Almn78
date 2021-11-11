@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 45</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 45</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="515"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e14481"><!-- p2t11q45 -->
+            <head xml:id="Almn78-e14481-Hd1e106">Quaestio 45</head>
+            <head xml:id="Almn78-e14481-Hd1e109" type="question-title">
+      Quomodo opus creationis coeli et terrae ante omnem diem creatum
+      fuerit
+    </head>
+            <p xml:id="Almn78-e14481-d1e112">
+               <pb ed="#Bb" n="515"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO XLV.
+      <lb ed="#Bb"/>Quomodo opus creationis coeli et terrae ante omnem diem creatum
+      <lb ed="#Bb"/>fuerit?
+    </p>
+            <p xml:id="Almn78-e14481-d1e125">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Tertio queritur, Quomodo hoc opus
+      <lb ed="#Bb"/>quod est creatio coeli et terre, ante 
+      om<lb ed="#Bb" break="no"/>nem diem creatum fuerit, sicut in 
+      Lit<lb ed="#Bb" break="no"/>tera dicit Magister per verba Augustini ?
+      <lb ed="#Bb"/>Dicit enim sic: <quote xml:id="Almn78-e14481-Qd1e140"> Et hoc fuit ante 
+        om<lb ed="#Bb" break="no"/>nem diem. </quote>
+            </p>
+            <p xml:id="Almn78-e14481-d1e146">
+               <lb ed="#Bb"/>Sed contra hoc est quod dicitur,
+      <lb ed="#Bb"/>i. Genes. n1, 4, sic: Ist sunt generatio
+      <lb ed="#Bb"/>nes cali et terre, quando create sunt, in
+      <lb ed="#Bb"/>die quo fecit Dominus Deus calum et
+      <lb ed="#Bb"/>terram, et non ante omnem diem.
+    </p>
+            <p xml:id="Almn78-e14481-d1e160">
+               <lb ed="#Bb"/>2. Adhuc, Ibidem dicit Augustinus in
+      <lb ed="#Bb"/>Glossa marginali longa : Septuaginta
+      <lb ed="#Bb"/>alia translatio habet sic : <quote xml:id="Almn78-e14481-Qd1e168"> Hic est liber
+        <lb ed="#Bb"/>creature coeli et terre, cum factus est
+        <lb ed="#Bb"/>dies, fecit Deus ccelum et terram, et
+        <lb ed="#Bb"/>omne viride agri. </quote> Super quod 
+      Augu<lb ed="#Bb" break="no"/>stinus : <quote xml:id="Almn78-e14481-Qd1e180"> Firmior fit sententia qua dicitur
+        <lb ed="#Bb"/>unum diem fecisse Deum, unde alii sex
+        <lb ed="#Bb"/>dies vel septem hujus unius diei 
+        repeti<lb ed="#Bb" break="no"/>tione numerari potuerunt : quando 
+        Seri<lb ed="#Bb" break="no"/>ptura concludens cuncta que ab initio
+        <lb ed="#Bb"/>huc usque dixerat, ait: Hic est liber
+        <lb ed="#Bb"/>creature cceli et terre, cum factus est
+        <lb ed="#Bb"/>dies. </quote> Ergo videtur, quod ista facta
+      <lb ed="#Bb"/>sint in die, et non ante omnem diem.
+    </p>
+            <p xml:id="Almn78-e14481-d1e201">
+               <lb ed="#Bb"/>3. Adhuc, Glossa Bede ibidem est
+      <lb ed="#Bb"/>super illud, Cum factus est dies: <quote xml:id="Almn78-e14481-Qd1e207"> In
+        <lb ed="#Bb"/>die quo fecit Dominus Deus caelum et
+        <lb ed="#Bb"/>terram, hoc est, in tempore. Diem enim
+        <lb ed="#Bb"/>ponit pro omni tempore, quo 
+        primor<lb ed="#Bb" break="no"/>dialis creatura formata est</quote>. Hac 
+      Glos<lb ed="#Bb" break="no"/>sa rationem non habet, nisi omne 
+      tem<lb ed="#Bb" break="no"/>pus sit nox vel dies. Ex hoc sequitur,
+      <lb ed="#Bb"/>cum in nocte non fecerit, quod in die
+      <lb ed="#Bb"/>fecit, et non ante omnem diem facta sint,
+    </p>
+            <p xml:id="Almn78-e14481-d1e228">
+               <lb ed="#Bb"/>4. Adhuz, Objectio Manichei est ; Si
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deus fecit coelum et terram ante omnem
+      <lb ed="#Bb"/>diem, quando tenebre erant super 
+      fa<lb ed="#Bb" break="no"/>ciem abyssi: tunc ipse operatus est in
+      <lb ed="#Bb"/>tenebris : non ergo verum est quod 
+      dici<lb ed="#Bb" break="no"/>tur, lad Timoth. vi, 16: Qui solus 
+      ha<lb ed="#Bb" break="no"/>bet immortalitatem, et lucem inhabitat
+      <lb ed="#Bb"/>inaccessibilem. Si enim operatus est in
+      <lb ed="#Bb"/>tenebris, habitavit in tenebris, et non in
+      <lb ed="#Bb"/>luce inaccessibili. Et sic cum in luce
+      <lb ed="#Bb"/>inaccessibili habitans Deus, fecit eelum
+      <lb ed="#Bb"/>et terram : lux autem inaccessibilis 
+      fa<lb ed="#Bb" break="no"/>ciat diem : dicit enim textus: <quote xml:id="Almn78-e14481-Qd1e260"> Cum
+        <lb ed="#Bb"/>factus est dies, fecit Deus ccelum et 
+        ter<lb ed="#Bb" break="no"/>ram :</quote> videtur quod non ante omnem
+      <lb ed="#Bb"/>diem fecerit, sed in die.
+    </p>
+            <p xml:id="Almn78-e14481-d1e270">
+               <lb ed="#Bb"/>CONTRA :
+      <lb ed="#Bb"/>Augustinus in libro XII 
+      Confessio<lb ed="#Bb" break="no"/>num : <quote xml:id="Almn78-e14481-Qd1e278">Informem materiam fecisti ante
+        <lb ed="#Bb"/>omnem diem. </quote> Informis autem materia
+      <lb ed="#Bb"/>dicitur ccelum et terra, sicut dictum est :
+      <lb ed="#Bb"/>ergo ccelum et terram fecit ante omnem
+      <lb ed="#Bb"/>diem.
+    </p>
+            <p xml:id="Almn78-e14481-d1e291">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod ceelum et
+      <lb ed="#Bb"/>terra facta sunt ante omnem diem, 
+      na<lb ed="#Bb" break="no"/>turalem scilicet et artificialem : que dies
+      <lb ed="#Bb"/>perficitur gyratione lucis vel solis 
+      orien<lb ed="#Bb" break="no"/>tis et occidentis : hoc enim proprie 
+      dici<lb ed="#Bb" break="no"/>tur dies, secundum quod dies dicitur
+      <lb ed="#Bb"/>potentia luminis super terram gyrantis
+      <lb ed="#Bb"/>per quatuor angulos cceli, qui sunt
+      <lb ed="#Bb"/>Oriens et Occidens : angulos medii cceli,
+      <lb ed="#Bb"/>angulus medie# terre. Angulus medii
+      <lb ed="#Bb"/>ceeli, facit meridiem : et angulus medie
+      <lb ed="#Bb"/>terre, facit mediam noctem. Et sic 
+      di<lb ed="#Bb" break="no"/>ctum est, quod ccelum et terra sunt ante
+      <lb ed="#Bb"/>omnem diem.
+    </p>
+            <p xml:id="Almn78-e14481-d1e324">
+               <pb ed="#Bb" n="516"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Ad primum ergo dicendum, quod dies
+      <lb ed="#Bb"/>ibi secundum expositionem Bede 
+      dici<lb ed="#Bb" break="no"/>tur tempus, quo illustrari sive 
+      venu<lb ed="#Bb" break="no"/>stari coepit materia prima ad formam
+      <lb ed="#Bb"/>celi et ad formam terre : quibus 
+      tam<lb ed="#Bb" break="no"/>quam duobus solidis perficitur mundus
+      <lb ed="#Bb"/>sensibilis, ut dicit Plato, et paulo ante
+      <lb ed="#Bb"/>dictum est supra, in Questione 43. Et
+      <lb ed="#Bb"/>tune per synecdochen dies ponitur pro
+      <lb ed="#Bb"/>tempore : eo quod dignior pars temporis
+      <lb ed="#Bb"/>dies est. A primo enim nunc temporis
+      <lb ed="#Bb"/>faclura coepit ceeli et terre : propter
+      <lb ed="#Bb"/>quod etiam tempus et cceelum dicuntur
+      <lb ed="#Bb"/>esse coequeva : et hoc ponitur pro die.
+    </p>
+            <p xml:id="Almn78-e14481-d1e362">
+               <lb ed="#Bb"/>Secundum vero expositionem 
+      Augu<lb ed="#Bb" break="no"/>stini dies dicitur angelica natura, in qua
+      <lb ed="#Bb"/>mane est conversio ad Verbum, 
+      acci<lb ed="#Bb" break="no"/>piendo notitiam creature fiend in Deo :
+      <lb ed="#Bb"/>vespera vero, cognitio creature in 
+      seip<lb ed="#Bb" break="no"/>sa ut refertur ad laudem Creatoris. Et
+      <lb ed="#Bb"/>hee est dies, que septies repetila, 
+      vi<lb ed="#Bb" break="no"/>sione matutina et vespertina, septem
+      <lb ed="#Bb"/>facit dies, ut dicit Augustinus. Et de his
+      <lb ed="#Bb"/>supra in tractatu de cognitione 
+      Angelo<lb ed="#Bb" break="no"/>rum, questionibus de visione matutina
+      <lb ed="#Bb"/>et vespertina, multum dictum est?!.
+    </p>
+            <p xml:id="Almn78-e14481-d1e391">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod illa Glossa
+      <lb ed="#Bb"/>sumpta est ex libro VI super Genesim ad
+      <lb ed="#Bb"/>litteram : nec aliquid habet 
+      contrarieta<lb ed="#Bb" break="no"/>tis, quod ante omnem diem quem 
+      fece<lb ed="#Bb" break="no"/>rat gyratio luminis corporalis, facta sint
+      <lb ed="#Bb"/>celum et terra, cum facta sint in die
+      <lb ed="#Bb"/>qui est illustratio intelligentie angelica
+      <lb ed="#Bb"/>in Verbo de rebus faciendis et factis.
+    </p>
+            <p xml:id="Almn78-e14481-d1e411">
+               <lb ed="#Bb"/>Ad primum Bede jam patet solutio :
+      <lb ed="#Bb"/>quia per synecdochen per diem 
+      intelligi<lb ed="#Bb" break="no"/>tur ibi tempus, sicut, If ad Corinth. v1,
+      <lb ed="#Bb"/>2: Eece nune tempus acceptabile, ecce
+      <lb ed="#Bb"/>nune dies salutis. Et sic verum est, quod
+      <lb ed="#Bb"/>non ante omnem diem, hoc est, non
+      <lb ed="#Bb"/>ante omne tempus fecit Deus ccelum et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>terram : fecit enim in initio temporis,
+      <lb ed="#Bb"/>hoc est, in principio nunc temporis, a
+      <lb ed="#Bb"/>cujus decursu et fluxu tempus accepit
+      <lb ed="#Bb"/>esse sicut ab eo quod est sua substantia,
+      <lb ed="#Bb"/>ut dicit Aristoteles in IV Physicorum. De
+      <lb ed="#Bb"/>his autem multum dictum est supra in
+      <lb ed="#Bb"/>tractatu de ¢empore, questione, A quo
+      <lb ed="#Bb"/>inceperit tempus ?
+    </p>
+            <p xml:id="Almn78-e14481-d1e448">
+               <lb ed="#Bb"/>Ad objectionem Manichei dicendum
+      <lb ed="#Bb"/>est, quod error Manichei est, quod Deus
+      <lb ed="#Bb"/>tenebrarum fecerit mundum. Dixit enim
+      <lb ed="#Bb"/>Deum includi definitione corporali, sicut
+      <lb ed="#Bb"/>alia creatura includitur. Et ideo dixit,
+      <lb ed="#Bb"/>quod ante lucem habitaret in tenebris et
+      <lb ed="#Bb"/>includeretur. Et hic impiissimus error
+      <lb ed="#Bb"/>est : Deus enim cum sit immensus loco,
+      <lb ed="#Bb"/>et tempore, et intellectu, non includitur
+      <lb ed="#Bb"/>in aliquo, sed in omnibus est ut 
+      conti<lb ed="#Bb" break="no"/>nens et salvans : nec umquam sibi deest
+      <lb ed="#Bb"/>lux inaccessibilis que ipse est: ex luce
+      <lb ed="#Bb"/>enim sapientie: sue facit quidquid facit. :
+      <lb ed="#Bb"/>et, sicut dicitur, Sapient. vu, 29 et 30,
+      <lb ed="#Bb"/>illa lux incomparabilis est luci omni
+      <lb ed="#Bb"/>corporali, nec umquam occidit. Dicitur
+      <lb ed="#Bb"/>enim ibi : Luci comparata, invenitur
+      <lb ed="#Bb"/>prior. Illi enim succedit nox : 
+      sapien<lb ed="#Bb" break="no"/>tiam autem non vineit malitia.
+    </p>
+            <p xml:id="Almn78-e14481-d1e492">
+               <lb ed="#Bb"/>Ad illud quod contra objicitur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod informis materia dicitur 
+      duo<lb ed="#Bb" break="no"/>bus modis, scilicet a forma distincta. Et
+      <lb ed="#Bb"/>sic informis materia significatur per 
+      coe<lb ed="#Bb" break="no"/>lum et terram, et facta est ante omnem
+      <lb ed="#Bb"/>diem que gyratione luminis constituitur,
+      <lb ed="#Bb"/>ut dictum est. Dicitur etiam informis
+      <lb ed="#Bb"/>materia, ut dicit Plato, receptaculum
+      <lb ed="#Bb"/>omnis forme antequam aliquam recipiat.
+      <lb ed="#Bb"/>Et sic materia non est facta in aliquo
+      <lb ed="#Bb"/>die, nec in aliquo tempore, sed cum die
+      <lb ed="#Bb"/>et tempore, eo quod materia hoc modo
+      <lb ed="#Bb"/>dicta et tempus cozquava sint, ut dicit
+      <lb ed="#Bb"/>Augustinus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

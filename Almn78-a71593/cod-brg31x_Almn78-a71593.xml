@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 31</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 31</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="324"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a71593"><!-- p1t7q31 -->
+            <head xml:id="Almn78-a71593-Hd1e106">Quaestio 31</head>
+            <head xml:id="Almn78-a71593-Hd1e109" type="question-title">
+      De processione aeterna Spiritus sancti.
+    </head>
+            <p xml:id="Almn78-a71593-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XXXI.
+<lb ed="#Ba"/>De processione aeterna Spiritus sancti.
+</p>
+            <p xml:id="Almn78-a71593-d1e121">
+               <lb ed="#Ba"/>Deinde queritur de processione 
+Spiri<lb ed="#Ba" break="no"/>tus sancti.
+</p>
+            <p xml:id="Almn78-a71593-d1e128">
+               <lb ed="#Ba"/>Et quia due sunt processiones ejus,
+<lb ed="#Ba"/>una scilicet eterna, et altera 
+tempora<lb ed="#Ba" break="no"/>lis : primo de eterna, secundo de 
+tem<lb ed="#Ba" break="no"/>porali querendum est.
+</p>
+            <p xml:id="Almn78-a71593-d1e140">
+               <lb ed="#Ba"/>De eterna quatuor inquirenda sunt.
+<lb ed="#Ba"/>Primo, An procedat a Patre et Filio
+<lb ed="#Ba"/>Spiritus sanctus ?
+<lb ed="#Ba"/>Et secundo, Qualiter procedat ?
+<lb ed="#Ba"/>Et tertio, A quo procedat, sive a 
+qui<lb ed="#Ba" break="no"/>bus, utrum simul procedat a Patre et
+<lb ed="#Ba"/>Filio ?
+<lb ed="#Ba"/>Et quarto, Cujus sit proprium 
+proce<lb ed="#Ba" break="no"/>dere ?
+</p>
+            <div xml:id="Almn78-a71593-Dd1e162">
+               <head xml:id="Almn78-a71593-Hd1e164">Membrum 1</head>
+               <head xml:id="Almn78-a71593-Hd1e167" type="question-title">
+  Utrum Spiritus sanctus procedat a
+  Patre et Filio?
+</head>
+               <p xml:id="Almn78-a71593-d1e170">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum Spiritus sanctus procedat a
+<lb ed="#Ba"/>Patre et Filio?
+</p>
+               <p xml:id="Almn78-a71593-d1e179">
+                  <lb ed="#Ba"/>Ad primum rationes convenientie mul-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tas ponit Richardus in libro de 
+Trini<lb ed="#Ba" break="no"/>tate, que omnes sumuntur ex ratione
+<lb ed="#Ba"/>summi boni, cujus est optima 
+addu<lb ed="#Ba" break="no"/>cere.
+</p>
+               <p xml:id="Almn78-a71593-d1e195">
+                  <lb ed="#Ba"/>1. Et prima quidem est : quia sicut
+<lb ed="#Ba"/>summo bono deesse non potest diffusio
+<lb ed="#Ba"/>nature per generationem, ita dulcedini
+<lb ed="#Ba"/>summi boni deesse non potest diffusio
+<lb ed="#Ba"/>boni per voluntatem : quia aliter non
+<lb ed="#Ba"/>esset in eo summa delectatio. Intima
+<lb ed="#Ba"/>autem et dulcissima diffusio per 
+amo<lb ed="#Ba" break="no"/>rem est. Amor ergo diffunditur a sum 
+<lb ed="#Ba" break="no"/>mo bono. Sed regulariter est verum,
+<lb ed="#Ba"/>quod procedens a Deo, manens in Deo
+<lb ed="#Ba"/>Deus est. Et per hoc quod est ab alio,
+<lb ed="#Ba"/>existendi modum habet proprium quo
+<lb ed="#Ba"/>distinguitur ab eo a quo est. Ergo amor
+<lb ed="#Ba"/>ille sic procedens et Deus est, et 
+per<lb ed="#Ba" break="no"/>sona personali proprietate distincta* ab
+<lb ed="#Ba"/>eo a quo est: ergo persona divina est,
+<lb ed="#Ba"/>et sic Spiritus sanctus procedit, et 
+pro<lb ed="#Ba" break="no"/>cessio sua est.
+</p>
+               <p xml:id="Almn78-a71593-d1e238">
+                  <lb ed="#Ba"/>2. Adhuc, Omne bonum in Deo, in
+<lb ed="#Ba"/>summo est, quando in summa diffusione
+<pb ed="#Ba" n="325"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>est. Summa autem diffusio est, quod ex
+<lb ed="#Ba"/>se per generationem producat equalem
+<lb ed="#Ba"/>sibi : quia diffundere se, definitivum est
+<lb ed="#Ba"/>boni, et essentialis actus ejus. Ergo
+<lb ed="#Ba"/>cliam ex parte voluntatis summum 
+bo<lb ed="#Ba" break="no"/>num summo affectu et optimo erit 
+diffu<lb ed="#Ba" break="no"/>sivum sui, et productivum sibi equalis :
+<lb ed="#Ba"/>quia aliter non esset saummum. Producet
+<lb ed="#Ba"/>ergo amorem, qui ex hoc quod est ab
+<lb ed="#Ba"/>alio, proprium habebit existentiae 
+mo<lb ed="#Ba" break="no"/>dum : per hoc autem quod in Deo est,
+<lb ed="#Ba"/>et ei a quo producitur, zqualis, oportet
+<lb ed="#Ba"/>_quod Deus sit : et per hoc quod non per
+<lb ed="#Ba"/>generationem producitur, sed per 
+volun<lb ed="#Ba" break="no"/>tatis affectum, oportet quod non Filius
+<lb ed="#Ba"/>sit. Talis igitur amor sic procedens ab
+<lb ed="#Ba"/>amante, et distinctus est personali 
+pro<lb ed="#Ba" break="no"/>prietate, et Deus est, et Pater non est,
+<lb ed="#Ba"/>neque Filius, sed utrique equalis : et
+<lb ed="#Ba"/>talem processionem vocamus 
+processio<lb ed="#Ba" break="no"/>nem Spiritus sancti.
+</p>
+               <p xml:id="Almn78-a71593-d1e295">
+                  <lb ed="#Ba"/>3. Adhuc, Constat, quod summum
+<lb ed="#Ba"/>bonum summe largum est : sive (ut
+<lb ed="#Ba"/>proprie loquamur) magnificum. Dicit 
+au<lb ed="#Ba" break="no"/>tem Philosophus in [V Ethicorum, quod
+<lb ed="#Ba"/>largi et magnifici est in amore et 
+dele<lb ed="#Ba" break="no"/>ctatione dare. Oportet ergo, quod ante
+<lb ed="#Ba"/>omne donum quod dat, amor et 
+dele<lb ed="#Ba" break="no"/>ctatio procedant ab ipso : quia aliter
+<lb ed="#Ba"/>non esset commendabilis largitas et 
+ma<lb ed="#Ba" break="no"/>gnificentia ejus, nec essent secundum
+<lb ed="#Ba"/>optimum bonum. Ergo a summe largo
+<lb ed="#Ba"/>et magnifico ante donum ejus procedit
+<lb ed="#Ba"/>amor et delectatio. Unde etiam 
+Augu<lb ed="#Ba" break="no"/>stinus dicit, quod amor est donum, in
+<lb ed="#Ba"/>quo omnia alia dona donantur. Et inde
+<lb ed="#Ba"/>arguatur ut prius, scilicet quia procedit
+<lb ed="#Ba"/>ab alio, singularem habet existentie
+<lb ed="#Ba"/>modum : et quia amanti intrinsecus est,
+<lb ed="#Ba"/>necesse est esse Deum : quia nihil est in
+<lb ed="#Ba"/>Deo nisi Deus : et quia summus est, de
+<lb ed="#Ba"/>necessitate ei a quo est, equalis est.
+</p>
+               <p xml:id="Almn78-a71593-d1e343">
+                  <lb ed="#Ba"/>4, Adhuc, Dicit <name xml:id="Almn78-a71593-Nd1e347">Richardus</name> :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a71593-Qd1e352">mo bono summa et perfecta charitas 
+de<lb ed="#Ba" break="no"/>esse non potest. </quote> Summa autem 
+chari<lb ed="#Ba" break="no"/>tas non est ubi privatus amor. Oportet
+<lb ed="#Ba"/>ergo ad hoc quod perfecta sit charitas,
+<lb ed="#Ba"/>ut in dilecto velit habere condilectorem.
+<lb ed="#Ba"/>Aut igitur potuit habere et voluit talem
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>condilectorem, et sic profecto habuit.
+<lb ed="#Ba"/>Aut voluit, sed non potuit : et sic 
+impo<lb ed="#Ba" break="no"/>tens esset summum bonum. Aut potuit,
+<lb ed="#Ba"/>sed non voluit: et sic sequeretur, quod
+<lb ed="#Ba"/>esset invidum. Impotentia autem et 
+in<lb ed="#Ba" break="no"/>vidia longe a summo bono relegata
+<lb ed="#Ba"/>sunt, ut dicit Plato. Cum igitur Pater
+<lb ed="#Ba"/>diligat Filium, et Filius Patrem, 
+uter<lb ed="#Ba" break="no"/>que, ut perfecta sit sua charitas, in 
+di<lb ed="#Ba" break="no"/>lecto vult habere condilectorem, qui 
+tan<lb ed="#Ba" break="no"/>tum diligat eumdem, quantum ipse dili- |
+<lb ed="#Ba"/>git: quia sic et non aliter perfecta 
+cha<lb ed="#Ba" break="no"/>ritas erit. Et sic tres sunt, ut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus in libro XV de 7rinitate, unus
+<lb ed="#Ba"/>scilicet diligens eum qui ab ipso est, et
+<lb ed="#Ba"/>alter diligens eum a quo ipse est, et ipsa
+<lb ed="#Ba"/>dilectio, que persona est propter . 
+exi<lb ed="#Ba" break="no"/>stendi modum ‘proprium: et Deus est,
+<lb ed="#Ba"/>eo quod divinitati intrinseca est.
+</p>
+               <p xml:id="Almn78-a71593-d1e410">
+                  <lb ed="#Ba"/>5. Adhuc, Aristoteles in IX 
+Ethico<lb ed="#Ba" break="no"/>rum consummationem sive perfectionem
+<lb ed="#Ba"/>dilectionis ponit in tribus. Quod autem
+<lb ed="#Ba"/>perfectionis amicitiae est, summo bono
+<lb ed="#Ba"/>attribuendum est. Maxime ergo amicitia 
+<lb ed="#Ba" break="no"/>boni summi in tribus est, in uno scilicet
+<lb ed="#Ba"/>qui dilectionis principium est, in alio
+<lb ed="#Ba"/>qui dilectionem rependit diligenti, et in
+<lb ed="#Ba"/>tertio qui vinculum. et nexus est 
+utrius<lb ed="#Ba" break="no"/>que.
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>6. Adhuc; Due diffusiones boni 
+in<lb ed="#Ba" break="no"/>veniuntur in natura rationali, nature
+<lb ed="#Ba"/>scilicet per generationem, et amicitie
+<lb ed="#Ba"/>per voluntatem. Quarum altera, ut in
+<lb ed="#Ba"/>VIII Ethicorum dicit Aristoteles, scilicet
+<lb ed="#Ba"/>amicitia, tam utilis et tam dulcis est,
+<lb ed="#Ba"/>quod maxime necessaria est in vita. Sine
+<lb ed="#Ba"/>amicis enim nullus utique eligeret 
+vi<lb ed="#Ba" break="no"/>vere habens reliqua bona omnia. Utraque
+<lb ed="#Ba"/>ergo istarum a summo bono exemplata
+<lb ed="#Ba"/>est, et nature rationali indita : ergo in
+<lb ed="#Ba"/>summo bono talis amicitie diflusio est,
+<lb ed="#Ba"/>etsummi boni summa amicitia est: et
+<lb ed="#Ba"/>haec est inter tres, ut dictum est : ergo
+<lb ed="#Ba"/>in divinis preter Patrem qui ingenitus
+<lb ed="#Ba"/>est, et Filium qui genitus est, est alia
+<lb ed="#Ba"/>processio ejus qui est tertius et duorum
+<lb ed="#Ba"/>nexus.
+</p>
+               <p xml:id="Almn78-a71593-d1e475">
+                  <lb ed="#Ba"/>7. Adhuc, Objicit Richardus, quod 
+di<lb ed="#Ba" break="no"/>lectione nihil dulcius est. Et hoc idem
+<pb ed="#Ba" n="326"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dicit Augustinus in libro Confessionum :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a71593-Qd1e490"> Nihil dulcius quam amare et amari. </quote>
+                  <lb ed="#Ba"/>Dulcedinis autem charitatis, est velle
+<lb ed="#Ba"/>habere condiligentem in amato: et 
+in<lb ed="#Ba" break="no"/>firmitatis est et amaritudinis, in amato
+<lb ed="#Ba"/>non posse pati condilectorem. Quod 
+au<lb ed="#Ba" break="no"/>tem optimum est, Deo attribuendum est.
+<lb ed="#Ba"/>Summe ergo charitati attribuendum est,
+<lb ed="#Ba"/>quod sit inter tres, scilicet inter 
+diligen<lb ed="#Ba" break="no"/>tem, et dilectum, et condilectorem.
+</p>
+               <p xml:id="Almn78-a71593-d1e511">
+                  <lb ed="#Ba"/>Ex omnibus his rationibus 
+convenien<lb ed="#Ba" break="no"/>tie probatur, quod Spiritus sanctus 
+pro<lb ed="#Ba" break="no"/>cedit in divinis, et est persona distincta.
+</p>
+               <p xml:id="Almn78-a71593-d1e521">
+                  <lb ed="#Ba"/>In contrarium autem hujus est, quod
+<lb ed="#Ba"/>1, Istae rationes non videntur de 
+ne<lb ed="#Ba" break="no"/>cessitate concludere. Quia si dicatur
+<lb ed="#Ba"/>summi boni esse, diffundere seipsum :
+<lb ed="#Ba"/>tunc videtur, quod quanto in plures se
+<lb ed="#Ba"/>diffundit, tanto major est diffusio et 
+no<lb ed="#Ba" break="no"/>bilior : et sic diffusio illa non staret 
+tri<lb ed="#Ba" break="no"/>bus.
+</p>
+               <p xml:id="Almn78-a71593-d1e541">
+                  <lb ed="#Ba"/>2. Adhuc, Cum constet Spiritum 
+san<lb ed="#Ba" break="no"/>etum esse summum bonum, videretur
+<lb ed="#Ba"/>secundum istas rationes, quod et ipse
+<lb ed="#Ba"/>deberet se diffundere in alium, et ille in
+<lb ed="#Ba"/>alium, et sic in infinitum 
+multiplicaren<lb ed="#Ba" break="no"/>tur persone.
+</p>
+               <p xml:id="Almn78-a71593-d1e557">
+                  <lb ed="#Ba"/>3. Adhuc, Quod dicitur charitas esse
+<lb ed="#Ba"/>amor communis, falsum videtur esse.
+<lb ed="#Ba"/>Cum enim dicat, Matth. xxm, 39: 
+Dili<lb ed="#Ba" break="no"/>ges proximum tuum sicut teipsum, dicit
+<lb ed="#Ba"/>Glossa, quod <quote xml:id="Almn78-a71593-Qd1e570"> datur nobis principalitas,
+<lb ed="#Ba"/>ut nosipsos plus diligamus : </quote> videtur
+<lb ed="#Ba"/>quod aliquis seipsum diligit charitate :
+<lb ed="#Ba"/>et sic charitas est in uno solo.
+</p>
+               <p xml:id="Almn78-a71593-d1e580">
+                  <lb ed="#Ba"/>4. Adhuc, Si divina essentia 
+intelliga<lb ed="#Ba" break="no"/>tur absque personis, adhuc diliget 
+seip<lb ed="#Ba" break="no"/>sam charitate, et samme et summa 
+cha<lb ed="#Ba" break="no"/>ritate diliget seipsam : et sic summa
+<lb ed="#Ba"/>charitas non exigit pluralitatem 
+perso<lb ed="#Ba" break="no"/>narum.
+</p>
+               <p xml:id="Almn78-a71593-d1e596">
+                  <lb ed="#Ba"/>Solutio. Rationes precipue quibus
+<lb ed="#Ba"/>probatur Spiritum sanctum a Patre et
+<lb ed="#Ba"/>Filio procedere, sumuntur ex verbis
+<lb ed="#Ba"/>Dionysii in libro de Divinis nominibus*,
+<lb ed="#Ba"/>ubi dicit, quod etiam in Deo exstasim
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>facit divinus amor, non sinens ipsum
+<lb ed="#Ba"/>sine germine esse. Si enim non sinit
+<lb ed="#Ba"/>eum sine germine esse, consequens ts!
+<lb ed="#Ba"/>ut non sinat ipsum esse sine germine
+<lb ed="#Ba"/>perfecto : germen autem perfectum non
+<lb ed="#Ba"/>est, quod non procedit ad equale 
+gene<lb ed="#Ba" break="no"/>ranti in substantia et virtute sive 
+pole<lb ed="#Ba" break="no"/>state. Et si facit hoc amor in germine 
+na<lb ed="#Ba" break="no"/>ture, consequens est, ut etiam faciat
+<lb ed="#Ba"/>hoc in germine voluntatis sive actus. Mt
+<lb ed="#Ba"/>ideo dicitur, quod Filius et Spiritus 
+san<lb ed="#Ba" break="no"/>ctus ex Patre sunt sicut divini flores et 
+di<lb ed="#Ba" break="no"/>vina germina. Hoc etiam consonat verbis
+<lb ed="#Ba"/>Augustini in libro XV de 7rinitate, quia
+<lb ed="#Ba"/>in imagine similitudinis mens gignendo
+<lb ed="#Ba"/>notitiam sui, que est sicut verbum 
+in<lb ed="#Ba" break="no"/>trinsecum, statim in ipsum verbum 
+dil<lb ed="#Ba" break="no"/>fundit amorem tantum quanta est mens
+<lb ed="#Ba"/>et quanta est notitia : et quod est in 
+ima<lb ed="#Ba" break="no"/>gine, necesse est quod sit in primo
+<lb ed="#Ba"/>exemplari, quod Joannes Damascenus
+<lb ed="#Ba"/>vocat prototypum. Et ideo necesse est in
+<lb ed="#Ba"/>divinis procedere Spiritum sanctum, 
+sic<lb ed="#Ba" break="no"/>ut generari Filium.
+</p>
+               <p xml:id="Almn78-a71593-d1e664">
+                  <lb ed="#Ba"/>Preterea, Supra de summo bono 
+in<lb ed="#Ba" break="no"/>quirentes, ex rationibus Richardi 
+osten<lb ed="#Ba" break="no"/>dimus, quod ex convenientibus summo
+<lb ed="#Ba"/>bono est, quod admittat personarum
+<lb ed="#Ba"/>pluralitatem. Et ideo concedimus, quod
+<lb ed="#Ba"/>Spiritus sanctus procedit sicut Filius in
+<lb ed="#Ba"/>divinis : quod et hoc convenientissimum
+<lb ed="#Ba"/>est : et secundum hoc quod dicit 
+Ansel<lb ed="#Ba" break="no"/>mus, quod <quote xml:id="Almn78-a71593-Qd1e685"> quod conveniens Deo 
+ne<lb ed="#Ba" break="no"/>cessarium est, etiam necessarium potest
+<lb ed="#Ba"/>dici. </quote>
+               </p>
+               <p xml:id="Almn78-a71593-d1e694">
+                  <lb ed="#Ba"/>Unde rationes ad hoc induct 
+proce<lb ed="#Ba" break="no"/>dunt.
+</p>
+               <p xml:id="Almn78-a71593-d1e701">
+                  <lb ed="#Ba"/>Ad primum ergo quod contra hoc est,
+<lb ed="#Ba"/>dicendum quod diffusio in multa, 
+prop<lb ed="#Ba" break="no"/>ter nature est imperfectionem : sed 
+dif<lb ed="#Ba" break="no"/>fusio in tot quot exigit ordo nature, quo
+<lb ed="#Ba"/>alter est ex altero, non quo alter est
+<lb ed="#Ba"/>prior altero, est nature perfecte. Et hic
+<lb ed="#Ba"/>ordo ulterius non potest multiplicari
+<lb ed="#Ba"/>formaliter nisi in tres, quorum unus sit
+<lb ed="#Ba"/>non ab alio per abnegationem principii,
+<lb ed="#Ba"/>alius qui ab alio a quo alius, ac alius
+<pb ed="#Ba" n="327"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>qui ab alio a quo nullus. Cum enim
+<lb ed="#Ba"/>principium sit secundum completam 
+ra<lb ed="#Ba" break="no"/>tionem principii quod non ab alio, quod
+<lb ed="#Ba"/>ab alio a quo alius, et quod ab alio a
+<lb ed="#Ba"/>quo nullus. Non potest multiplicari ultra
+<lb ed="#Ba"/>tres : ut secundum completam rationem
+<lb ed="#Ba"/>sit in uno Patre, secundum diminutam
+<lb ed="#Ba"/>autem sit in duobus : et secundum quod
+<lb ed="#Ba"/>deficit ab eo quod est non esse ab alio,
+<lb ed="#Ba"/>st in Filio : secundum autem quod 
+de<lb ed="#Ba" break="no"/>licit ab eo quod est alium esse ab ipso,
+<lb ed="#Ba"/>est in Spiritu sancto. Nec sunt plures
+<lb ed="#Ba"/>differentia posite in ratione principii :
+<lb ed="#Ba"/>et ideo pluribus modis non potest 
+multi<lb ed="#Ba" break="no"/>plicari formali multiplicatione. Hoc 
+au<lb ed="#Ba" break="no"/>tem dictum est de principio quo persona
+<lb ed="#Ba"/>dicitur esse principiataa persona, non
+<lb ed="#Ba"/>de principio quo tota Trinitas principium
+<lb ed="#Ba"/>est creaturarum.
+</p>
+               <p xml:id="Almn78-a71593-d1e771">
+                  <lb ed="#Ba"/>Si quis autem dicat, quod posset 
+mul<lb ed="#Ba" break="no"/>tiplicari materialiter. Jam dictum est,
+<lb ed="#Ba"/>quod materialis multiplicatio non est nisi
+<lb ed="#Ba"/>nature deficientis, et ideo perfectissime
+<lb ed="#Ba"/>nature non convenit.
+</p>
+               <p xml:id="Almn78-a71593-d1e784">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod ex modo
+<lb ed="#Ba"/>existendi proprio Spiritus sanctus non
+<lb ed="#Ba"/>potest diffundere alium a se : est enim in
+<lb ed="#Ba"/>termino ordinis sui secundum suum 
+pro<lb ed="#Ba" break="no"/>prium existendi modum, qui est esse ab
+<lb ed="#Ba"/>aliis a quo nullus.
+</p>
+               <p xml:id="Almn78-a71593-d1e800">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod nemo diligit
+<lb ed="#Ba"/>seipsum solum nobilissimo modo 
+dile<lb ed="#Ba" break="no"/>ctionis : possidet enim privatim quod 
+ju<lb ed="#Ba" break="no"/>cundius aliorum societate possidetur.
+</p>
+               <p xml:id="Almn78-a71593-d1e811">
+                  <lb ed="#Ba"/>Eodem modo respondendum est ad 
+se<lb ed="#Ba" break="no"/>quens. Si enim divina essentia sine 
+per<lb ed="#Ba" break="no"/>sonis intelligeretur, non jucundissime
+<lb ed="#Ba"/>suo bono frueretur per se solitaria.
+</p>
+            </div>
+            <div xml:id="Almn78-a71593-Dd1e823">
+               <head xml:id="Almn78-a71593-Hd1e825">Membrum 2</head>
+               <head xml:id="Almn78-a71593-Hd1e828" type="question-title">
+  Qualiter Spiritus sanctus procedat
+  a Patre et Filio?
+</head>
+               <p xml:id="Almn78-a71593-d1e831">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Qualiter Spiritus sanctus procedat
+<lb ed="#Ba"/>a Patre et Filio' ?
+</p>
+               <p xml:id="Almn78-a71593-d1e842">
+                  <lb ed="#Ba"/>Secundo queritur, Qualiter procedat?
+</p>
+               <p xml:id="Almn78-a71593-d1e847">
+                  <lb ed="#Ba"/>Videtur autem, quod procedat per 
+ge<lb ed="#Ba" break="no"/>nerationem : quia
+<lb ed="#Ba"/>1. In inferioribus persona non 
+proce<lb ed="#Ba" break="no"/>dit a persona nisi per generationem. 
+Di<lb ed="#Ba" break="no"/>cit autem Augustinus in libro I de 
+Trini<lb ed="#Ba" break="no"/>tate, quod <quote xml:id="Almn78-a71593-Qd1e862"> heresis est credere de Deo,
+<lb ed="#Ba"/>cujus exemplum in nulla natura 
+inveni<lb ed="#Ba" break="no"/>tur.</quote> In nulla autem natura invenitur,
+<lb ed="#Ba"/>quod persona procedat a persona nisi per
+<lb ed="#Ba"/>generationem : ergo hoc de Deo non est
+<lb ed="#Ba"/>credendum.
+</p>
+               <p xml:id="Almn78-a71593-d1e877">
+                  <lb ed="#Ba"/>2. Adhuc, Definitio generati est, quod
+<lb ed="#Ba"/>productum sit in similitudine speciei et
+<lb ed="#Ba"/>forme et substantie : Spiritus sanctus
+<lb ed="#Ba"/>producitur in similitudine speciei et 
+for<lb ed="#Ba" break="no"/>mz substantie et nature : ergo videtur,
+<lb ed="#Ba"/>quod per generationem producitur.
+</p>
+               <p xml:id="Almn78-a71593-d1e893">
+                  <lb ed="#Ba"/>3. Adhuc, In nulla natura est, quod si
+<lb ed="#Ba"/>duo per omnia similes producuntur ab
+<lb ed="#Ba"/>uno, quod unus uno modo producatur,
+<lb ed="#Ba"/>et alius alio modo: Filius et Spiritus
+<lb ed="#Ba"/>sanctus per omnia sunt similes in 
+sub<lb ed="#Ba" break="no"/>stantia et natura : ergo videlur,quod per
+<lb ed="#Ba"/>unum modum procedunt a Patre.
+</p>
+               <p xml:id="Almn78-a71593-d1e911">
+                  <lb ed="#Ba"/>4, Adhuc, Queratur causa, quare 
+Spi<lb ed="#Ba" break="no"/>ritus sanctus non dicatur esse genitus ?
+<lb ed="#Ba"/>Si dicitur, quod per hoc, quod a Filio
+<lb ed="#Ba"/>procedit, et Filius similior est Patri quam
+<lb ed="#Ba"/>Spiritus sanctus a quo non procedit 
+ali<lb ed="#Ba" break="no"/>quis. Contra : Non oportet, quod 
+geni<lb ed="#Ba" break="no"/>tus similis sit generanti, nisi in 
+naturali<lb ed="#Ba" break="no"/>bus et quecumque naturam 
+consequun<lb ed="#Ba" break="no"/>tur, et non in existentiae modo : quia
+<lb ed="#Ba"/>hoc est impossibile : numquam enim
+<lb ed="#Ba"/>unum existentiz# modum habent genitus
+<pb ed="#Ba" n="328"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>et generans. Videtur ergo, quod hoc non
+<lb ed="#Ba"/>impediat, quin Spiritus sanctus possit
+<lb ed="#Ba"/>dici genitus : quod enim dicitur, a quo
+<lb ed="#Ba"/>nullus, ad modum existendi pertinet, et
+<lb ed="#Ba"/>non ad naturam secundum intelligentie
+<lb ed="#Ba"/>rationem.
+</p>
+               <p xml:id="Almn78-a71593-d1e955">
+                  <lb ed="#Ba"/>5. Adhuc ulterius queritur, Gam 
+com<lb ed="#Ba" break="no"/>muniter dicatur, quod Spiritus sanctus
+<lb ed="#Ba"/>spirando procedat, et non generando,
+<lb ed="#Ba"/>quid sit hoc dictum ?
+</p>
+               <p xml:id="Almn78-a71593-d1e966">
+                  <lb ed="#Ba"/>Videtur enim, quod talis processio non
+<lb ed="#Ba"/>sit constitutiva persone in esse persone,
+<lb ed="#Ba"/>sed potius productiva ejus quod est in
+<lb ed="#Ba"/>persona una in personam aliam, sicut
+<lb ed="#Ba"/>amoris, vel affectus, vel alicujus 
+hujus<lb ed="#Ba" break="no"/>modi.
+</p>
+               <p xml:id="Almn78-a71593-d1e982">
+                  <lb ed="#Ba"/>6. Adhuc, Si propter hoc dicatur 
+spi<lb ed="#Ba" break="no"/>rando procedere, quia per modum 
+amo<lb ed="#Ba" break="no"/>ris procedit, videtur non esse 
+conve<lb ed="#Ba" break="no"/>niens : dicit enim Augustinus : <quote xml:id="Almn78-a71593-Qd1e992"> Nescio
+<lb ed="#Ba"/>quare sicut sapientia dicitur Pater, 
+sa<lb ed="#Ba" break="no"/>pientia Filius, sapientia Spiritus sanctus,
+<lb ed="#Ba"/>et simul omnes non tres sapientie, sed
+<lb ed="#Ba"/>una sapientia : ita non dicitur, charitas
+<lb ed="#Ba"/>Pater, charitas Filius, charitas Spiritus
+<lb ed="#Ba"/>sanctus, et simul omnes non tres 
+chari<lb ed="#Ba" break="no"/>tates, sed una charitas. </quote> Non ergo 
+pro<lb ed="#Ba" break="no"/>prium est Spiritus sancti per modum
+<lb ed="#Ba"/>charitatis procedere : quia charitas 
+com<lb ed="#Ba" break="no"/>munis est toti Trinitati.
+</p>
+               <p xml:id="Almn78-a71593-d1e1019">
+                  <lb ed="#Ba"/>7. Adhuc, Si alicui persone 
+appro<lb ed="#Ba" break="no"/>priatur charitas sive amor, illi 
+appropria<lb ed="#Ba" break="no"/>bitur cujus est amor magis gratuitus :
+<lb ed="#Ba"/>sed dicit <name xml:id="Almn78-a71593-Nd1e1029">Richardus</name>, quod <quote xml:id="Almn78-a71593-Qd1e1033"> in Patre est
+<lb ed="#Ba"/>amor gratuitus, in Filio autem amor 
+de<lb ed="#Ba" break="no"/>bitus, in Spiritu sancto amor ex 
+gratui<lb ed="#Ba" break="no"/>to et debito permixtus : </quote> maxime ergo
+<lb ed="#Ba"/>appropriatur Patri, et minus Filio, et
+<lb ed="#Ba"/>minime Spiritui sancto : existendi ergo
+<lb ed="#Ba"/>modus per modum amoris non videtur
+<lb ed="#Ba"/>convenire Spiritui sancto.
+</p>
+               <p xml:id="Almn78-a71593-d1e1051">
+                  <lb ed="#Ba"/>Si dicatur, quod ideo dicitur Spiritus,
+<lb ed="#Ba"/>quia spirando datur ut primum donum
+<lb ed="#Ba"/>a quo omnia generantur. Non videtur
+<lb ed="#Ba"/>esse verum, nec proprium : quia 
+sapien<lb ed="#Ba" break="no"/>tia primum donum est quod in spirando
+<lb ed="#Ba"/>datur. Job, xxxu, 8: Inspiratio 
+Omni<lb ed="#Ba" break="no"/>potentis dat intelligentiam. Spirando
+<lb ed="#Ba"/>ergo magis datur intelligentia vel sapien-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>tia, quam amor: et sic nullo modo vi
+<lb ed="#Ba"/>detur convenire Spiritui sancto prime,
+<lb ed="#Ba"/>etiamsi dicatur amor.
+</p>
+               <p xml:id="Almn78-a71593-d1e1080">
+                  <lb ed="#Ba"/>8. Adhuc, Si trinitatem imaginis re
+<lb ed="#Ba"/>feramus ad Trinitatem increatam : tunc
+<lb ed="#Ba"/>primum quod spirat mens, est notitia ;
+<lb ed="#Ba"/>et in illam secundo spirat amorem : et
+<lb ed="#Ba"/>sic videtur, quod spirari magis convenit
+<lb ed="#Ba"/>Filio, quam Spiritui sancto.
+</p>
+               <p xml:id="Almn78-a71593-d1e1096">
+                  <lb ed="#Ba"/>9. Adhuc, Si secundum Philosophos,
+<lb ed="#Ba"/>Platonicos scilicet, generationem Pili
+<lb ed="#Ba"/>sumamus a generatione verbi intellectus
+<lb ed="#Ba"/>universaliter agentis, formantis in se 
+si<lb ed="#Ba" break="no"/>militudinem sue speciei, spiritus 
+proces<lb ed="#Ba" break="no"/>sionem accipiemus a spiritu vehente 
+ver<lb ed="#Ba" break="no"/>bum in omnia que per verbum fiunl,
+<lb ed="#Ba"/>sicut per artem operativam : sic Spiritus
+<lb ed="#Ba"/>sanctus non procedit per modum amoris,
+<lb ed="#Ba"/>sed per modum vectoris forme verbi et
+<lb ed="#Ba"/>virtutis : et sic non est ratio quare 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus dicatur per modum amoris
+<lb ed="#Ba"/>procedere.
+</p>
+               <p xml:id="Almn78-a71593-d1e1127">
+                  <lb ed="#Ba"/>10. Adhuc, Spiritus sanctus ab 
+Au<lb ed="#Ba" break="no"/>gustino in libro VI de Trinitate dicitur
+<lb ed="#Ba"/>unitas Patris et Filii, sive communio
+<lb ed="#Ba"/>consubstantialis, et cowterna, sive nexus.
+<lb ed="#Ba"/>Videtur ergo procedere ut communio,
+<lb ed="#Ba"/>sive unio, sive nexus. Et sic videtur 
+mul<lb ed="#Ba" break="no"/>tos habere existendi modos : et cum per
+<lb ed="#Ba"/>existendi modum multiplicentur persone,
+<lb ed="#Ba"/>videntur esse multi Spiritus sanctus :
+<lb ed="#Ba"/>quod non est verum.
+</p>
+               <p xml:id="Almn78-a71593-d1e1151">
+                  <lb ed="#Ba"/>In contrarium, hujus est, quod
+<lb ed="#Ba"/>i. Pater et Filius seipsis natura una
+<lb ed="#Ba"/>uniuntur : videtur ergo, quod unio 
+eo<lb ed="#Ba" break="no"/>rum non sit Spiritus sanctus, vel nexus.
+</p>
+               <p xml:id="Almn78-a71593-d1e1163">
+                  <lb ed="#Ba"/>2. Adhuc, Nexus vel vinculum semper
+<lb ed="#Ba"/>in ratione medii est : jam autem 
+habi<lb ed="#Ba" break="no"/>tum est, quod ordine nature quo alter
+<lb ed="#Ba"/>est ex altero, Spiritus sanctus extremum
+<lb ed="#Ba"/>est, et Filius medium : procedere ergo
+<lb ed="#Ba"/>per modum nexus et vinculi magis 
+con<lb ed="#Ba" break="no"/>venit Filio quam Spiritui sancto.
+</p>
+               <p xml:id="Almn78-a71593-d1e1181">
+                  <lb ed="#Ba"/>Solutio. Dicendum est, quod procul
+<lb ed="#Ba"/>dubio et Spiritus sanctus procedit per
+<lb ed="#Ba"/>modum vectoris verbi, et per modum
+<lb ed="#Ba"/>amoris, et per modum doni, et per 
+mo<lb ed="#Ba" break="no"/>dum nexus sive vinculi a Patre et Filio :
+<pb ed="#Ba" n="329"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>sed prima ratio processionis ejus, est
+<lb ed="#Ba"/>per modum amoris sive charitatis. Amor
+<lb ed="#Ba"/>enim quantum ad effectum proprium,
+<lb ed="#Ba"/>vinculum est et nexus: quantum ad 
+ef<lb ed="#Ba" break="no"/>fectum consequentem multiplicativus est
+<lb ed="#Ba"/>xpiritus et emissivus : ut cordis bonam
+<lb ed="#Ba"/>quod in corde est conceptum et 
+forma<lb ed="#Ba" break="no"/>tum, vehat in dilectum. Et hoc possumus
+<lb ed="#Ba"/>videre in lenocinio carnalis amoris. 
+Do<lb ed="#Ba" break="no"/>cet enim Dionysius similitudines 
+acci<lb ed="#Ba" break="no"/>pere a lenocinio carnali ad lenocinium
+<lb ed="#Ba"/>spirituale. In amore enim qui dicitur
+<lb ed="#Ba"/>tows, quando aliquis egrotat amore tali,
+<lb ed="#Ba"/>et nescitur qua sit quam amat, docent
+<lb ed="#Ba"/>Gialenus et Avicenna, quod medicus 
+ve<lb ed="#Ba" break="no"/>nam pulsantem tangat, et multas 
+nomi<lb ed="#Ba" break="no"/>net, et nominata illa quam diligit, statim
+<lb ed="#Ba"/>vena velocius et frequentius et fortius
+<lb ed="#Ba"/>pulsat. Ex quo patet, quod amor 
+multi<lb ed="#Ba" break="no"/>plicativus et citativus est spiritus. Et ex
+<lb ed="#Ba"/>hac similitudine prima ratio processionis
+<lb ed="#Ba"/>spiritus, est processio amoris, et per 
+con<lb ed="#Ba" break="no"/>sequens per modum nexus vel vinculi :
+<lb ed="#Ba"/>quia hoc convenit ei secundum seipsum :
+<lb ed="#Ba"/>et tertio per modum spiritus, quia hoc
+<lb ed="#Ba"/>convenit ei per effectum, qui a beato
+<lb ed="#Ba"/>Dionysio dicitur exstasis.
+</p>
+               <p xml:id="Almn78-a71593-d1e1257">
+                  <lb ed="#Ba"/>Adhuc recolenda sunt que dicta sunt
+<lb ed="#Ba"/>in tractatu de bono, quod idem motus est
+<lb ed="#Ba"/>boni ut moventis, et amantis in bonum
+<lb ed="#Ba"/>tendentis, sed est boni ut moventis, et
+<lb ed="#Ba"/>amantis ut moti. Propter quod omnis
+<lb ed="#Ba"/>amans tendit et procedit in amatum ut
+<lb ed="#Ba"/>bonum, et processio ejus est amor ejus,
+<lb ed="#Ba"/>et processio ejus est processio spiritus,
+<lb ed="#Ba"/>et non localis motus alicujus. Et ideo
+<lb ed="#Ba"/>processio secundum primam et 
+simpli<lb ed="#Ba" break="no"/>cem rationem processionis attribuitur
+<lb ed="#Ba"/>Spiritui sancto : eo quod nihil addit quo
+<lb ed="#Ba"/>in speciem trahatur processio, sicut 
+ad<lb ed="#Ba" break="no"/>dit generatio, in cujus intellectu est,
+<lb ed="#Ba"/>quod sit processio nature in 
+similitudi<lb ed="#Ba" break="no"/>nem speciel et forme. In processione
+<lb ed="#Ba"/>autem Spiritus nihil talium est 
+secun<lb ed="#Ba" break="no"/>dum intellectum : et ideo generale 
+no<lb ed="#Ba" break="no"/>men obtinuit processionis.
+</p>
+               <p xml:id="Almn78-a71593-d1e1301">
+                  <lb ed="#Ba"/>Et quod quidam dicunt, quod Filius
+<lb ed="#Ba"/>dicatur Filius et genitus, quia sit imago
+<lb ed="#Ba"/>Patris in hoc quod alius est ab ipso sicut
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>a Patre, Spiritus autem sanctus non 
+di<lb ed="#Ba" break="no"/>citur Filius vel genitus, quia dissimilis
+<lb ed="#Ba"/>sit Patri in hoc quod nullus est ab ipso,
+<lb ed="#Ba"/>a Patre autem aliquis. Aliquam quidem
+<lb ed="#Ba"/>convenientiam habet ad hoc, quod Filius
+<lb ed="#Ba"/>sit imago, et non Spiritus sanctus : sed
+<lb ed="#Ba"/>nihil rationis affert, quare Spiritus 
+san<lb ed="#Ba" break="no"/>ctus non dicatur Filius vel genitus, sicut
+<lb ed="#Ba"/>in objiciendo probatum est. Non enim
+<lb ed="#Ba"/>exigitur ad id quod aliquis sit filius,
+<lb ed="#Ba"/>quod in modo existendi conveniat cum
+<lb ed="#Ba"/>patre, sed quod conveniat in natura et
+<lb ed="#Ba"/>specie.
+</p>
+               <p xml:id="Almn78-a71593-d1e1340">
+                  <lb ed="#Ba"/>Istis sic prenotatis, respondendum est
+<lb ed="#Ba"/>ad objecta.
+</p>
+               <p xml:id="Almn78-a71593-d1e1347">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod in.
+<lb ed="#Ba"/>inferioribus quod non procedit persona a
+<lb ed="#Ba"/>persona per amorem, ex defectu et 
+ma<lb ed="#Ba" break="no"/>terialitate est personarum : scilicet quia
+<lb ed="#Ba"/>non quidquid est in ipsis, est idem eis.
+<lb ed="#Ba"/>Et ideo non procedit persona a persona,
+<lb ed="#Ba"/>nisi divisione alicujus ab ipsis, quod
+<lb ed="#Ba"/>universaliter accipit virtutem ad 
+forman<lb ed="#Ba" break="no"/>dum totum. Et amor qui est in 
+inferio<lb ed="#Ba" break="no"/>ribus, non est idem eis, sed passio 
+que<lb ed="#Ba" break="no"/>dam. Sed in Deo quidquid est, Deus est:
+<lb ed="#Ba"/>et ideo cum aliquid procedit ab ipso, tali
+<lb ed="#Ba"/>in procedendo communicat naturam 
+di<lb ed="#Ba" break="no"/>vinam, et modo emanationis proprium
+<lb ed="#Ba"/>accipit existendi modum quo persona
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a71593-d1e1385">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod modus 
+ema<lb ed="#Ba" break="no"/>nationis amoris secundum communem
+<lb ed="#Ba"/>modum intelligendi non dicit 
+emanatio<lb ed="#Ba" break="no"/>nem nature, sed voluntatis: et quod
+<lb ed="#Ba"/>productum per modum amoris, in 
+simi<lb ed="#Ba" break="no"/>litudinem substantie et speciei cum 
+pro<lb ed="#Ba" break="no"/>ducitur, non est ex ratione emanationis,
+<lb ed="#Ba"/>séd ex simplicitate natura procedentis,
+<lb ed="#Ba"/>in qua nihil est nisi quod est ipsa.
+</p>
+               <p xml:id="Almn78-a71593-d1e1407">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in nulla
+<lb ed="#Ba"/>natura composita potest hoc esse : sed
+<lb ed="#Ba"/>in natura que est in fine simplicitatis
+<lb ed="#Ba"/>necesse est, quod ita sit.
+</p>
+               <p xml:id="Almn78-a71593-d1e1418">
+                  <lb ed="#Ba"/>Ad aliud quod objicitur contra dicta
+<lb ed="#Ba"/>quorumdam, patet solutio per paulo ante
+<lb ed="#Ba"/>dicta.
+</p>
+               <p xml:id="Almn78-a71593-d1e1427">
+                  <lb ed="#Ba"/>Ad aliud quod ulterius queritur, 
+di<lb ed="#Ba" break="no"/>cendum quod causa hujus patet per ea
+<pb ed="#Ba" n="330"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>que in principio hujus solutionis dicta
+<lb ed="#Ba"/>sunt: et quod talis modus constitutivus
+<lb ed="#Ba"/>est persone, hoc est nature que est in
+<lb ed="#Ba"/>fine simplicitatis : quia negari non 
+pot<lb ed="#Ba" break="no"/>est, quin procedens existentia sue 
+pro<lb ed="#Ba" break="no"/>prio modo distinguatur ab eo a quo
+<lb ed="#Ba"/>procedit : et propter simplicitatem negari
+<lb ed="#Ba"/>non potest, quin sit in eadem natura
+<lb ed="#Ba"/>cum ipso.
+</p>
+               <p xml:id="Almn78-a71593-d1e1458">
+                  <lb ed="#Ba"/>Ad id quod queritur de amore, 
+anti<lb ed="#Ba" break="no"/>qui responderunt satis convenienter, 
+dis<lb ed="#Ba" break="no"/>tinguentes duplicem amorem, fruitionis
+<lb ed="#Ba"/>scilicet, et amicitie. Fruitionis amor in
+<lb ed="#Ba"/>gustu proprii boni est, qui nec tendit in
+<lb ed="#Ba"/>alterum procedendo, nec citat nec 
+mul<lb ed="#Ba" break="no"/>tiplicat spiritum, sed delectatione 
+diffun<lb ed="#Ba" break="no"/>ditur in gustu boni. Amor autem 
+amici<lb ed="#Ba" break="no"/>tia semper procedit in alterum, et per
+<lb ed="#Ba"/>modum processionis sue, proprium et
+<lb ed="#Ba"/>singularem accipit existentis modum.
+<lb ed="#Ba"/>Eta similitudine illius processio amoris
+<lb ed="#Ba"/>dicitur processio Spiritus sancti. Ad 
+si<lb ed="#Ba" break="no"/>militudinem amoris fruitionis in divinis,
+<lb ed="#Ba"/>dicitur amor essentialiter, et convenit
+<lb ed="#Ba"/>toti Trinitati. Ad similitudinem amoris
+<lb ed="#Ba"/>amicitie, dicitur amor notionaliter, et
+<lb ed="#Ba"/>convenit soli Spiritui sancto.
+</p>
+               <p xml:id="Almn78-a71593-d1e1500">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod diversis
+<lb ed="#Ba"/>conditionibus nihil prohibet charitatem
+<lb ed="#Ba"/>sive amorem diversis appropriari 
+perso<lb ed="#Ba" break="no"/>nis : sicut ex hoc quod gratuitus est, 
+ap<lb ed="#Ba" break="no"/>propriatur Patri: ex hoc quod debitus
+<lb ed="#Ba"/>est, appropriatur Filio: ex hoc quod
+<lb ed="#Ba"/>mixtus, Spiritui sancto, ut dicit 
+Richar<lb ed="#Ba" break="no"/>dus. Sed si attendatur modus existentiae,
+<lb ed="#Ba"/>per processionem notionalis erit amor et
+<lb ed="#Ba"/>proprius Spiritui sancto, ut patet per
+<lb ed="#Ba"/>antedictum.
+</p>
+               <p xml:id="Almn78-a71593-d1e1527">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet 
+spiran<lb ed="#Ba" break="no"/>do notitia procedat a mente, tamen amor.
+<lb ed="#Ba"/>faciens est primam spirationem, et 
+pro<lb ed="#Ba" break="no"/>cedens amor amicitie secundum 
+ordi<lb ed="#Ba" break="no"/>nem nature quo alter sit ex altero, 
+spi<lb ed="#Ba" break="no"/>rando procedit amor jam generata 
+no<lb ed="#Ba" break="no"/>titia, qua per exstasim amoris diligens
+<lb ed="#Ba"/>ponatur in dilecto. Notitia enim non 
+di<lb ed="#Ba" break="no"/>cit processum, sed vel motum ad 
+no<lb ed="#Ba" break="no"/>scentem, vel conversionem noscentis 
+su<lb ed="#Ba" break="no"/>per notum : quorum neutrum dicit exi-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>stentiae modum vel processionem. Mt
+<lb ed="#Ba"/>iste est etiam intellectus Trinitatis 
+in<lb ed="#Ba" break="no"/>create : quia modum Trinitatis increatw
+<lb ed="#Ba"/>accipimus ex modo trinitatis creatx in
+<lb ed="#Ba"/>mente.
+</p>
+               <p xml:id="Almn78-a71593-d1e1566">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod procul 
+du<lb ed="#Ba" break="no"/>bio quidam Philosophorum sic 
+accepo<lb ed="#Ba" break="no"/>runt spiritum. Distinxerunt enim 
+dupli<lb ed="#Ba" break="no"/>cem spiritum, corporeum scilicet, et 
+in<lb ed="#Ba" break="no"/>corporeum. Corporeum, qui movetur ad
+<lb ed="#Ba"/>modum luminum in mundo, sicut divit
+<lb ed="#Ba"/>Constabenluce, quem quidam 
+Constabu<lb ed="#Ba" break="no"/>lum vocant, in libro de Differentia 
+spiri<lb ed="#Ba" break="no"/>tus et anime. Incorporeum autem 
+dixe<lb ed="#Ba" break="no"/>runt esse intellectualem voluntatem,
+<lb ed="#Ba"/>sive amorem pure bonitatis et prima
+<lb ed="#Ba"/>producendi bona, ducendo formas 
+arche<lb ed="#Ba" break="no"/>typi in operata que per iniellectum
+<lb ed="#Ba"/>agentem fiunt. Et hoc vocat exstasim
+<lb ed="#Ba"/>amoris beatus Dionysius, qui non sinit
+<lb ed="#Ba"/>summum bonum sine germine esse.
+<lb ed="#Ba"/>Unde patet, quod etiam secundum illos
+<lb ed="#Ba"/>spiritus procedit per modum amoris.
+<lb ed="#Ba"/>Amor enim intimus et simplicissimus et
+<lb ed="#Ba"/>primus spiritus est intellectualis nature,
+<lb ed="#Ba"/>qui procedit ab ipsa, et modo 
+processio<lb ed="#Ba" break="no"/>nis proprio singularem accipit existentia
+<lb ed="#Ba"/>modum, ac per hoc accipit esse 
+per<lb ed="#Ba" break="no"/>sonale.
+</p>
+               <p xml:id="Almn78-a71593-d1e1621">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Spiritus
+<lb ed="#Ba"/>sanctus, sicut dictum est, propter hoc
+<lb ed="#Ba"/>quod amor est, ex conditionibus amoris
+<lb ed="#Ba"/>multa habet sibi appropriabilia, sicut
+<lb ed="#Ba"/>quod nexus est et vinculum amantium,
+<lb ed="#Ba"/>et unio consensus amantis et amati, et
+<lb ed="#Ba"/>quia complacent sibi in seipsis, et 
+dile<lb ed="#Ba" break="no"/>ctio est in complacito.Est etiam dilectio
+<lb ed="#Ba"/>utriusque. Tamen licet haec habeat 
+cau<lb ed="#Ba" break="no"/>saliter, ex his non accipit proprietatem
+<lb ed="#Ba"/>personalem, sed tantum ex modo 
+exces<lb ed="#Ba" break="no"/>sionis, quo scilicet procedit ex alio in
+<lb ed="#Ba"/>alium, hoc est, a Patre in Filium, eta
+<lb ed="#Ba"/>Filio in Patrem essentialis amoris 
+diffu<lb ed="#Ba" break="no"/>sione: et sic procedendo ordine nature
+<lb ed="#Ba"/>distinguitur ab utrogue a quo procedit,
+<lb ed="#Ba"/>et singularem accipit existentie modum
+<lb ed="#Ba"/>in intellectuali natura, eo modo quo dicit
+<lb ed="#Ba"/>Richardus, quod nec natura patitur, nec
+<lb ed="#Ba"/>intellectus admittit eum qui est ab alio,
+<pb ed="#Ba" n="331"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>esse cumdem cum illo a quo est. 
+Amo<lb ed="#Ba" break="no"/>rem autem illum esse aliquem ex hoc 
+ne<lb ed="#Ba" break="no"/>cosse est, quod ex Deo procedit et Deus
+<lb ed="#Ba"/>est. Ex processu enim singularem habet
+<lb ed="#Ba"/>existentie modum: ex communicatione
+<lb ed="#Ba"/>autem nature divine habet, quod est
+<lb ed="#Ba"/>nature divine suppositum. Existens 
+au<lb ed="#Ba" break="no"/>tem nature intellectualis. supposilum,
+<lb ed="#Ba"/>vera persona est. Unde Spiritus sanctus
+<lb ed="#Ba"/>notionali amore procedens persona est.
+</p>
+               <p xml:id="Almn78-a71593-d1e1693">
+                  <lb ed="#Ba"/>Ad id quod objicitur, quod Spiritus
+<lb ed="#Ba"/>sanctus non sit unio, vel nexus, 
+dicen<lb ed="#Ba" break="no"/>dum per Hilarium, quod Pater et Filius
+<lb ed="#Ba"/>preter unionem essentialem qua in 
+es<lb ed="#Ba" break="no"/>sentia uniuntur, habent unionem 
+Spiri<lb ed="#Ba" break="no"/>tum sanctum tribus de causis. Prima est,
+<lb ed="#Ba"/>quia Spiritus unus quem spirant Pater
+<lb ed="#Ba"/>et Filius, ostendit unitatem essentie in
+<lb ed="#Ba"/>ipsis. Si enim diversarum essent 
+essen<lb ed="#Ba" break="no"/>liarum sive naturarum, impossibile esset
+<lb ed="#Ba"/>spirare Spiritum unum ‘et eumdem. 
+Se<lb ed="#Ba" break="no"/>cunda est, quod unus Spiritus signum
+<lb ed="#Ba"/>est unionis Patris et Filii in spirando:
+<lb ed="#Ba"/>quamvis enim daretur, quod unius 
+natu<lb ed="#Ba" break="no"/>re essent Pater et Filius et non unum
+<lb ed="#Ba"/>essent in spirando, non posset unus
+<lb ed="#Ba"/>Spiritus ab utroque procedere. Et ista
+<lb ed="#Ba"/>unio notionalis est : una enim spiratione
+<lb ed="#Ba"/>que est in Patre et Filio, sunt Pater et
+<lb ed="#Ba"/>Filius spiratores Spiritus sancti. Tertia
+<lb ed="#Ba"/>causa est, quod ostendit unionem 
+con<lb ed="#Ba" break="no"/>sensuum, ut dicit Hilarius. Quod etiam
+<lb ed="#Ba"/>dicit Tullius in libro de Amicitia, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a71593-Qd1e1747"> amicorum est idem velle et idem
+<lb ed="#Ba"/>nolle. </quote> Dissentientes enim diversos 
+spi<lb ed="#Ba" break="no"/>rant spiritus.
+</p>
+               <p xml:id="Almn78-a71593-d1e1755">
+                  <lb ed="#Ba"/>Ad ultimum dicendum, quod ordine
+<lb ed="#Ba"/>nature nihil prohibet Spiritum sanctum
+<lb ed="#Ba"/>extremum esse: quia sic ab aliis est, a
+<lb ed="#Ba"/>quo nullus est: et stat in ipso 
+persona<lb ed="#Ba" break="no"/>rum multiplicatio : et tamen cum hoc in
+<lb ed="#Ba"/>quantum amor est, nihil prohibet esse
+<lb ed="#Ba"/>medium, in quantum unio et nexus est
+<lb ed="#Ba"/>duorum, significans tribus modis 
+unio<lb ed="#Ba" break="no"/>nem duorum, sicut jam dictum est.
+</p>
+            </div>
+            <div xml:id="Almn78-a71593-Dd1e1778">
+               <head xml:id="Almn78-a71593-Hd1e1780">Membrum 3</head>
+               <head xml:id="Almn78-a71593-Hd1e1783" type="question-title">
+  A quo procedat Spiritus sanctus, sive a
+  quibus, utrum simul procedat a 
+  Patre et Filio
+</head>
+               <p xml:id="Almn78-a71593-d1e1786">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>A quo procedat Spiritus sanctus, sive a
+<lb ed="#Ba"/>quibus, utrum simul procedat a 
+Pa<lb ed="#Ba" break="no"/>tre et Filio ?
+</p>
+               <p xml:id="Almn78-a71593-d1e1797">
+                  <lb ed="#Ba"/>Tertio queritur, A quo Spiritus 
+san<lb ed="#Ba" break="no"/>ctus procedit, sive a quibus, utrum 
+si<lb ed="#Ba" break="no"/>mul procedat a Patre et Filio?
+</p>
+               <p xml:id="Almn78-a71593-d1e1806">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Joan, xv, 26: Spiritum qui a Patre
+<lb ed="#Ba"/>procedit. Cum enim Evangelium 
+inte<lb ed="#Ba" break="no"/>gram fidem contineat, et non dicat,
+<lb ed="#Ba"/>quod a Filio procedat, videtur quod non
+<lb ed="#Ba"/>procedat nisi a Patre.
+</p>
+               <p xml:id="Almn78-a71593-d1e1823">
+                  <lb ed="#Ba"/>2. Adhuc, In vita beati Andre, quam,
+<lb ed="#Ba"/>sicut dicitur in prologo ejusdem, 
+disci<lb ed="#Ba" break="no"/>puli ejus descripserunt, dicitur, quod
+<lb ed="#Ba"/>audierunt eum dicentem, quod Spiritus
+<lb ed="#Ba"/>sanctus a Patre procedit, et in Filio 
+re<lb ed="#Ba" break="no"/>quiescit. Ergo non est dicendum, nisi
+<lb ed="#Ba"/>quod procedat a Patre.
+</p>
+               <p xml:id="Almn78-a71593-d1e1841">
+                  <lb ed="#Ba"/>3. Adhuc, Joannes Damascenus dicit
+<lb ed="#Ba"/>de Spiritu sancto, aa Patre procedentem
+<lb ed="#Ba"/>etin Filio requiescentem.<!--</quote>--> Videtur ergo,
+<lb ed="#Ba"/>quod non procedat a Filio.
+</p>
+               <p xml:id="Almn78-a71593-d1e1854">
+                  <lb ed="#Ba"/>4, Adhuc, Hoc Greci trahere volunt
+<lb ed="#Ba"/>de Evangelio Joannis, 1, 33 : Super quem
+<lb ed="#Ba"/>videris Spiritum descendentem, et 
+ma<lb ed="#Ba" break="no"/>nentem super eum, hic est qui baptizat.
+<lb ed="#Ba"/>Et paulo post, ¥. 34: Et ego vidi, 
+scili<lb ed="#Ba" break="no"/>cet Spiritum descendentem, et manentem
+<lb ed="#Ba"/>super eum. Constat autem, quod descen- _
+<lb ed="#Ba"/>sus processionem significat a Patre, 
+sic<lb ed="#Ba" break="no"/>ut spirituale significari potest in 
+corpo<lb ed="#Ba" break="no"/>rali, et eternum in temporali. Mansio
+<lb ed="#Ba"/>autem requiem Spiritus significat, non
+<lb ed="#Ba"/>processionem. Si ergo recte ex 
+Evange<lb ed="#Ba" break="no"/>lio instruimur ad fidem, videtur quod a
+<lb ed="#Ba"/>Patre procedit, et in Filio requiescit.
+</p>
+               <p xml:id="Almn78-a71593-d1e1887">
+                  <lb ed="#Ba"/>5. Adhuc, In Nicwno symbolo, quod
+<pb ed="#Ba" n="332"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>precipue contra hereticos qui negabant
+<lb ed="#Ba"/>Spiritum sanctum esse Deum, editum
+<lb ed="#Ba"/>est, quod et Leo Papa propter 
+reveren<lb ed="#Ba" break="no"/>tiam Catholice fidei in tabulis argenteis
+<lb ed="#Ba"/>exarari fecit, et ad altare sancti Pauli
+<lb ed="#Ba"/>Rome affigi ob perpetuam memoriam
+(ut dixit) Catholice fidei, et omni 
+domi<lb ed="#Ba" break="no"/>nica et precipuo festo in missa cantari,
+<lb ed="#Ba"/>non est positum, nisi quod <quote xml:id="Almn78-a71593-Qd1e1913">a Patre
+<lb ed="#Ba"/>procedit, </quote> et quod <quote xml:id="Almn78-a71593-Qd1e1918"> cum Patre et Filio
+<lb ed="#Ba"/>simul adoratur et conglorificatur. </quote> Et
+<lb ed="#Ba"/>quod additur, Filioque, a Latinis 
+addi<lb ed="#Ba" break="no"/>tum est, non a concilio. Propter quod
+<lb ed="#Ba"/>etiam Greci dicunt Latinos anathema
+<lb ed="#Ba"/>incurrisse : quia concilium 
+anathemati<lb ed="#Ba" break="no"/>zavit omnes aliquid addentes, vel 
+mi<lb ed="#Ba" break="no"/>nuentes.
+</p>
+               <p xml:id="Almn78-a71593-d1e1937">
+                  <lb ed="#Ba"/>6. Adhuc, Per rationem probatur
+<lb ed="#Ba"/>idem : quia nihil unum simplex potest
+<lb ed="#Ba"/>intelligi esse a duobus principlis eque
+<lb ed="#Ba"/>immediatis, et secundum unum modum
+<lb ed="#Ba"/>causalitatis causantibus. Dicit autem 
+Au<lb ed="#Ba" break="no"/>gustinus in primo de Trinitate, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a71593-Qd1e1954"> heresis est attribuere Deo, cujus
+<lb ed="#Ba"/>exemplum in nulla creatura, sive 
+corpo<lb ed="#Ba" break="no"/>rali, sive spirituali, invenitur. </quote> Cum 
+er<lb ed="#Ba" break="no"/>go Spiritus sanctus sit unum simplex, a
+<lb ed="#Ba"/>Patre simul et Filio et secundum unum
+<lb ed="#Ba"/>modum principiandi et aque immediate
+<lb ed="#Ba"/>videtur non posse procedere..,
+</p>
+               <p xml:id="Almn78-a71593-d1e1971">
+                  <lb ed="#Ba"/>In conTrariom hujus est, quod
+<lb ed="#Ba"/>1. Spiritus dicitur Filii. Ad Roman.
+<lb ed="#Ba"/>vil, 9: Si quis Spiritum Christi non ha-
+<lb ed="#Ba" break="no"/>bet, hic non est egus. Et iterum, ¥. 11:
+<lb ed="#Ba"/>Quod si Spiritus egus qui suscitavit 
+Je<lb ed="#Ba" break="no"/>sum amortuis habitat in vobis, qui 
+sus<lb ed="#Ba" break="no"/>citavit Jesum Christum a mortuis 
+vivifi<lb ed="#Ba" break="no"/>cabit et mortalia corpora vestra, propter
+<lb ed="#Ba"/>inhabitantem Spiritum ejus in vobis. Et
+<lb ed="#Ba"/>queratur de habitudine quam notat 
+no<lb ed="#Ba" break="no"/>minativus regendo genitivum. Illa enim
+<lb ed="#Ba"/>est alicujus cause: et constat, quod non
+<lb ed="#Ba"/>est cause materialis: Spiritus enim non
+<lb ed="#Ba"/>est materia Filii. Nec est habitudo cause
+<lb ed="#Ba"/>formalis : quia Spiritus non est forma
+<lb ed="#Ba"/>Filii. Nec est habitudo cause finalis:
+<lb ed="#Ba"/>quia Spiritus non est ad hoc, quod sit
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Filius. Relinquitur ergo, quod sit 
+habi<lb ed="#Ba" break="no"/>tudo cause efficientis : et sic sensus est,
+<lb ed="#Ba"/>Spiritus Fili, Spiritus a Filio: et non
+<lb ed="#Ba"/>potest esse nisi processive : ergo Spiritus
+<lb ed="#Ba"/>procedit a Filto.
+</p>
+               <p xml:id="Almn78-a71593-d1e2024">
+                  <lb ed="#Ba"/>2. Adhuc, Joan. xv, 26: Cum venerit
+<lb ed="#Ba"/>Paracletus, quem ego mittam vobis a
+<lb ed="#Ba"/>Patre. Constat, quod non mittitur, nisi
+<lb ed="#Ba"/>qui ab alio est. Omnis enim missus, al
+<lb ed="#Ba"/>alio quodam mittente est missus: et por
+<lb ed="#Ba"/>ipsam missionem cognoscitur, quia ab
+<lb ed="#Ba"/>alio est, et ab alio procedit, ut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus in libro IV de 7rinitate', et non
+<lb ed="#Ba"/>nisi a mittente eum. Ergo cum a Filio
+<lb ed="#Ba"/>mittatur, a Filio procedit. Licet enim
+<lb ed="#Ba"/>aliquis a seipso detur, sicut Pater dat so,
+<lb ed="#Ba"/>Filius dat se, Spiritus. sanctus dat se:
+<lb ed="#Ba"/>tamen impossibile est aliquem a seipso
+<lb ed="#Ba"/>mitti: quia mitti dicit processionem
+<lb ed="#Ba"/>missi a mittente: et sic mittere et milli
+<lb ed="#Ba"/>eidem convenire non possunt.
+</p>
+               <p xml:id="Almn78-a71593-d1e2061">
+                  <lb ed="#Ba"/>3. Sidicatur, quod temporali 
+proces<lb ed="#Ba" break="no"/>sione non negatur, quin Spiritus sanctus
+<lb ed="#Ba"/>procedat a Filio: sed eterna processione
+<lb ed="#Ba"/>non procedit ab eo. Contra: 
+Tempora<lb ed="#Ba" break="no"/>lis processio, ut dicit Augustinus de 
+co<lb ed="#Ba" break="no"/>lumba loquens in qua visibiliter Spiritus.
+<lb ed="#Ba"/>sanctus processit, propria est Spiritui
+<lb ed="#Ba"/>sancto: et. hoc non potest esse, nisi in
+<lb ed="#Ba"/>temporali intelligatur eterna: ergo sicut
+<lb ed="#Ba"/>designat temporalis, sic est intelligendum
+<lb ed="#Ba"/>de wterna: designat autem temporalis
+<lb ed="#Ba"/>Spiritum sanctum procedere a Filio:
+<lb ed="#Ba"/>ergo de aterna processione credendum
+<lb ed="#Ba"/>est, quod Spiritus procedit a Filio.
+</p>
+               <p xml:id="Almn78-a71593-d1e2094">
+                  <lb ed="#Ba"/>4. Adhuc, Objicit Anselmus, 
+suppo<lb ed="#Ba" break="no"/>nens idem quod dicit Boetius in libro de
+<lb ed="#Ba"/>Trinitate, quod persone divine in 
+om<lb ed="#Ba" break="no"/>nibus exdem sunt, nisi ubi distinguit
+<lb ed="#Ba"/>inter eas oppositionis relatio. Constat
+<lb ed="#Ba"/>autem, quod paternitate et filiatione non
+<lb ed="#Ba"/>distinguitur Spiritus sanctus a Patre et
+<lb ed="#Ba"/>Filio: quia ille relationes non dicunt
+<lb ed="#Ba"/>oppositionem ad Spiritum sanctum. Nec
+<lb ed="#Ba"/>spiratione activa qua Spiritus sanctus
+<lb ed="#Ba"/>spiratur a Patre, distinguitur a Filio, sed
+<lb ed="#Ba"/>a Patre : quia per illam non habet oppo-
+<pb ed="#Ba" n="333"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>sitionem nisi ad Patrem. Relinquitur
+<lb ed="#Ba"/>ergo, quod nisi sit oppositio relationis
+<lb ed="#Ba"/>inter Filium et Spiritum sanctum, eadem
+<lb ed="#Ba"/>persona sunt Filius et Spiritus sanctus.
+<lb ed="#Ba"/>Oppositio autem relationis non, potest
+<lb ed="#Ba"/>esse inter Filiam et Spiritum sanctum,
+<lb ed="#Ba"/>nisi vel Filius sit a Spirita sancto, vel
+<lb ed="#Ba"/>Spiritus sanctus a Filio. Nullus autem
+<lb ed="#Ba"/>umquam dixit Filium esse a Spiritu
+<lb ed="#Ba"/>sancto. Relinquitur ergo dicendum 
+Spi<lb ed="#Ba" break="no"/>ritum sanctum esse a Filio.
+</p>
+               <p xml:id="Almn78-a71593-d1e2151">
+                  <lb ed="#Ba"/>Ulterius querit Anselmus ', 
+Secun<lb ed="#Ba" break="no"/>dum quid Pater et Filius spirant 
+Spiri<lb ed="#Ba" break="no"/>tum sanctum ?
+</p>
+               <p xml:id="Almn78-a71593-d1e2160">
+                  <lb ed="#Ba"/>Aut enim spirant eum in quantum
+<lb ed="#Ba"/>sunt unus Deus,aut in quantum sunt 
+Pa<lb ed="#Ba" break="no"/>ter et Filius? Si primo modo : tunc cum
+<lb ed="#Ba"/>Spiritus sanctus sit cum Patre et Filio
+<lb ed="#Ba"/>unus Deus, sequetur etiam, quod 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus spiret Spiritum sanctum,
+<lb ed="#Ba"/>quod est hereticum.
+</p>
+               <p xml:id="Almn78-a71593-d1e2178">
+                  <lb ed="#Ba"/>Praterea, Secundum hoc deitas in 
+Pa<lb ed="#Ba" break="no"/>tre et Filio spiraret Spiritum sanctum :
+<lb ed="#Ba"/>et cum spirare relationem originis 
+in<lb ed="#Ba" break="no"/>cludat in se, qua spirans distinguitur a
+<lb ed="#Ba"/>spirato, sequeretur quod essentia divina
+<lb ed="#Ba"/>in Patre et Filio distingueretur a Spiritu
+<lb ed="#Ba"/>sancto : et sic Spiritus sanctus non esset
+<lb ed="#Ba"/>essentia divina que in Patre est et Filio :
+<lb ed="#Ba"/>quod ponitur absurdum esse, et 
+Catho<lb ed="#Ba" break="no"/>lice fidei contrarium.
+</p>
+               <p xml:id="Almn78-a71593-d1e2203">
+                  <lb ed="#Ba"/>Si autem in quantum Pater et Filius
+<lb ed="#Ba"/>sunt, spirant Spiritum sanctum, tria 
+in<lb ed="#Ba" break="no"/>convenientia sequuntur. Quorum uuum
+<lb ed="#Ba"/>est, quod in quantum sunt Pater et 
+Fi<lb ed="#Ba" break="no"/>lius, unus est genitor, et alius genitus :
+<lb ed="#Ba"/>et quod sic procedit ab eis, natum est, et
+<lb ed="#Ba"/>non spiratum : Spiritus ergo sanctus 
+na<lb ed="#Ba" break="no"/>tus esset, quod falsum est. Hieronymus
+<lb ed="#Ba"/>enim dicit Spiritam sanctum esse 
+inge<lb ed="#Ba" break="no"/>nitum, hoc est, non genitum. Et 
+Hila<lb ed="#Ba" break="no"/>rius, quod natura viventis et 
+subsisten<lb ed="#Ba" break="no"/>tis Patris est in Filio generatione, et est
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>in Spiritu sancto non generatione, sed
+<lb ed="#Ba"/>processione. Secundum inconveniens est,
+<lb ed="#Ba"/>quod si Pater et Filius in quantum sunt
+<lb ed="#Ba"/>Pater et Filius, spirarent Spiritum 
+san<lb ed="#Ba" break="no"/>tum, tunc unus et idem simplex 
+Spiri<lb ed="#Ba" break="no"/>tus spiraretur a duobus in quantum 
+op<lb ed="#Ba" break="no"/>positi sunt, quod nullus capit intellectus.
+<lb ed="#Ba"/>Tertium autem inconveniens, quod dicit
+<lb ed="#Ba"/>Anselmus, quod ridiculum est credere
+<lb ed="#Ba"/>vel dicere, quod per relationem Patris
+<lb ed="#Ba"/>ad Filium, et Filii ad Patrem, divina 
+na<lb ed="#Ba" break="no"/>tura sit in Spiritu sancto.
+</p>
+               <p xml:id="Almn78-a71593-d1e2260">
+                  <lb ed="#Ba"/>Ulterius queritur de verbis que 
+po<lb ed="#Ba" break="no"/>nit Magister in 1 Sententiarum, distinct.
+<lb ed="#Ba"/>XI, utrum scilicet Spiritus sanctus prius
+<lb ed="#Ba"/>vel plenius procedat a Patre quam a 
+Fi<lb ed="#Ba" break="no"/>lio? ? ubi inducit Augustinum in libro
+<lb ed="#Ba"/>XV de Trinitate  dicentem, quod <quote xml:id="Almn78-a71593-Qd1e2275"> 
+Spi<lb ed="#Ba" break="no"/>ritus sanctus principaliter procedit de
+<lb ed="#Ba"/>Patre: </quote> Hieronymum in  expositione
+<lb ed="#Ba"/>Catholice fidei Nicenique symboli 
+di<lb ed="#Ba" break="no"/>centem, quod <quote xml:id="Almn78-a71593-Qd1e2286"> Spiritus sanctus vere ac
+<lb ed="#Ba"/>proprie de Patre procedit. </quote> Et paulo
+<lb ed="#Ba"/>post inducit Hilarium dicentem sic in
+<lb ed="#Ba"/>libro XII de 7rinitate ad Deum Patrem :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a71593-Qd1e2298"> Ante tempora unigenitus tuus ex te 
+na<lb ed="#Ba" break="no"/>tus manet, ita quod ex te per eum 
+Spiri<lb ed="#Ba" break="no"/>tus stans tuus est. </quote> Et ibidem in 
+oratio<lb ed="#Ba" break="no"/>ne dicit : <quote xml:id="Almn78-a71593-Qd1e2307"> Conserva, oro, hanc fidei mee
+<lb ed="#Ba"/>religionem, ut quod in regenerationis
+<lb ed="#Ba"/>mee symbolo professus sum, semper 
+ob<lb ed="#Ba" break="no"/>tineam, te Patrem scilicet et Filium
+<lb ed="#Ba"/>tuum una tecum adorem : Spiritum 
+san<lb ed="#Ba" break="no"/>ctum tuum, qui ex te per unigenitum
+<lb ed="#Ba"/>tuum est, promerear.</quote>
+               </p>
+               <p xml:id="Almn78-a71593-d1e2324">
+                  <lb ed="#Ba"/>Queritur ergo, Quis sit intellectus 
+ho<lb ed="#Ba" break="no"/>rum verborum, si Spiritus sanctus 
+equa<lb ed="#Ba" break="no"/>liter a Patre et Filio procedat?
+</p>
+               <p xml:id="Almn78-a71593-d1e2333">
+                  <lb ed="#Ba"/>Solutio, Ad primam partem questionis
+<lb ed="#Ba"/>dicendum, quod indubitanter Spiritus
+<lb ed="#Ba"/>sanctus procedit a Patre et Filio, sicut
+<lb ed="#Ba"/>objiciendo contra Gracos probatum est.
+</p>
+               <p xml:id="Almn78-a71593-d1e2344">
+                  <pb ed="#Ba" n="334"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad primum pro Grecis inductum, 
+re<lb ed="#Ba" break="no"/>spondet Magister in Sententiis, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a71593-Qd1e2357"> Filius dicit, quod a Patre procedit : </quote>
+                  <lb ed="#Ba"/>quia ad Patrem solet referre etiam quod |
+<lb ed="#Ba"/>suum est: eo quod esse Filio a Patre
+<lb ed="#Ba"/>est. Unde, Joan. vn, 16: Mea doctrina
+<lb ed="#Ba"/>non est mea, sed ejus qui misit me : cum
+<lb ed="#Ba"/>tamen non dubitaret suam doctrinam
+<lb ed="#Ba"/>esse suam: sed hoc ipsum quod sua
+<lb ed="#Ba"/>est, habet a Patre. Et similiter hic dicit
+<lb ed="#Ba"/>Spiritum a Patre procedere, et non 
+ne<lb ed="#Ba" break="no"/>gat quin etiam a se procedat, sed vult
+<lb ed="#Ba"/>referre ad Patrem hoc ipsum quod ab
+<lb ed="#Ba"/>ipso procedit.
+</p>
+               <p xml:id="Almn78-a71593-d1e2384">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod doctrina
+<lb ed="#Ba"/>beati Andree non intendit significare,
+<lb ed="#Ba"/>quod Spiritus sanctus non procedat a
+<lb ed="#Ba"/>Filio, sed quod non recedat a Filio, sed
+<lb ed="#Ba"/>requiescat in ipso, sicut frequenter ab
+<lb ed="#Ba"/>aliis hominibus recedit. Et idem modus
+<lb ed="#Ba"/>loquendi est Isaiw, x1, 2: Reguiescet
+<lb ed="#Ba"/>super eum. Spiritus Domini.
+</p>
+               <p xml:id="Almn78-a71593-d1e2405">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod si verum
+<lb ed="#Ba"/>est dictum Damasceni, oportet quod per
+<lb ed="#Ba"/>eumdem intellectum sit verum. Dixerunt
+<lb ed="#Ba"/>tamen aliqui antiquorum ad hoc, quod.
+<lb ed="#Ba"/>potest {sumi spiritus procedens ad 
+ver<lb ed="#Ba" break="no"/>bum interius, .et spiritus procedens ad
+<lb ed="#Ba"/>verbum exterius quod dicitur angelus 
+in<lb ed="#Ba" break="no"/>telligentie. Si sumatur primo modo,
+<lb ed="#Ba"/>dicit Augustinus in libro X de TZrinitate,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a71593-Qd1e2428"> verbum quod insinuare 
+intendi<lb ed="#Ba" break="no"/>mus, cum amore notitia est !. </quote> Ex
+<lb ed="#Ba"/>mente enim gignitur et formatur notitia,
+<lb ed="#Ba"/>in quam statim mens spirat amorem, et
+<lb ed="#Ba"/>notitia amorem reflectit in mentem. Et
+<lb ed="#Ba"/>hac similitudine inducti, quae vera et
+<lb ed="#Ba"/>prima et propria est, Latini dixerunt,
+<lb ed="#Ba"/>Spiritum qui amor est, a Patre et Filio
+<lb ed="#Ba"/>procedere. Si secundo modo 
+compa<lb ed="#Ba" break="no"/>retur spiritus ad verbum exterius 
+so<lb ed="#Ba" break="no"/>nans : tunc spiritus a mente procedit ut
+<lb ed="#Ba"/>in ipso corporaliter formetur verbum, et
+<lb ed="#Ba"/>sic verbi vehiculum est. Et sic a solo 
+di<lb ed="#Ba" break="no"/>cente procedit spiritus, et in verbo est
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>sicut in termino. Et hac similitudine 
+in<lb ed="#Ba" break="no"/>ducti dixerunt Greci, quod a solo Patre
+<lb ed="#Ba"/>procedit Spiritus. Sed hac sententia 
+mi<lb ed="#Ba" break="no"/>hi non placet : quia secundum hoc 
+signi<lb ed="#Ba" break="no"/>ficatur. Verbum generari in Spiritu et
+<lb ed="#Ba"/>ex Spiritu, quod omnino fidei contra.
+<lb ed="#Ba"/>rium est
+</p>
+               <p xml:id="Almn78-a71593-d1e2478">
+                  <lb ed="#Ba"/>Preterea jam habitum est, quod 
+pri<lb ed="#Ba" break="no"/>mus et intimus amor, est unio et nexus
+<lb ed="#Ba"/>Patris et Filii et delectatio, ad que nihil
+<lb ed="#Ba"/>convenientie ponit spiritus exterior : ot
+<lb ed="#Ba"/>ideo illa sententia non valet.
+</p>
+               <p xml:id="Almn78-a71593-d1e2491">
+                  <lb ed="#Ba"/>Per vem patet solutio ad id quod ob-
+<lb ed="#Ba" break="no"/>jicitur de Joanne, 1, 33. Per mansionem
+<lb ed="#Ba"/>enim voluit significare coessentialitatem
+<lb ed="#Ba"/>Spiritus cum Filio, per quam ab ipso
+<lb ed="#Ba"/>recedere non posset, sed fontali 
+plenitu<lb ed="#Ba" break="no"/>dine in ipso maneret, et non sicut in his
+<lb ed="#Ba"/>in quibus aliquando est. per 
+inhabitan<lb ed="#Ba" break="no"/>tem gratiam, et aliquando recedit ab
+<lb ed="#Ba"/>eis.
+  
+<lb ed="#Ba"/>Ad 1D quod de concilio objicitur, 
+suf<lb ed="#Ba" break="no"/>ficienter respondet Anselmus dicens °
+<lb ed="#Ba"/>quod in illo primo symbolo non omnia
+<lb ed="#Ba"/>credenda continentur explicite : quia non
+<lb ed="#Ba"/>continetur ibidem, quod descendit ad
+<lb ed="#Ba"/>inferna Christus : quod tamen continetur
+<lb ed="#Ba"/>in symbolo Apostolorum: et similiter’
+<lb ed="#Ba"/>quod Spiritus sanctus procedit a Filio,
+<lb ed="#Ba"/>nec affirmatur, nec negatur in symbolo
+<lb ed="#Ba"/>illo. 2
+</p>
+               <p xml:id="Almn78-a71593-d1e2535">
+                  <lb ed="#Ba"/>Et ad idem quod adducitur de 
+anathe<lb ed="#Ba" break="no"/>mate addentium, respondet Magister in
+<lb ed="#Ba"/>Sententiis *, et etiam Anselmus, 
+dicen<lb ed="#Ba" break="no"/>tes quod non est addere, quando id quod
+<lb ed="#Ba"/>per intellectum intus est, extrinsecus per
+<lb ed="#Ba"/>interpretationem apponitur. In hoc 
+au<lb ed="#Ba" break="no"/>tem, quod Filius dicit a se mitti 
+Spiri<lb ed="#Ba" break="no"/>tum, intelligitur Spiritum a Filio 
+pro<lb ed="#Ba" break="no"/>cedere, sicut objiciendo probatum’ est.
+<lb ed="#Ba"/>Et ideo hoc in necessitate licuit Latinis
+<lb ed="#Ba"/>addere. Quanta autem necessitas 
+exposi<lb ed="#Ba" break="no"/>tionis hujus fuit, ipsi probant Greci, qui
+<lb ed="#Ba"/>hoc negant. Addere autem proprie, est
+<lb ed="#Ba"/>alienum quod per intellectum intus non
+<pb ed="#Ba" n="335"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>est, de novo apponere. Et eos qui sic
+<lb ed="#Ba"/>addunt, involvit anathema synodi.
+</p>
+               <p xml:id="Almn78-a71593-d1e2577">
+                  <lb ed="#Ba"/>Ab RATIONEM ultimo inductam, 
+dicen<lb ed="#Ba" break="no"/>dum quod a duobus que a nullo unum
+<lb ed="#Ba"/>sunt, quamvis secundum eumdem 
+mo<lb ed="#Ba" break="no"/>dum causalitatis causent, unum simplex
+<lb ed="#Ba"/>procedere non potest. Et hoc modo 
+Pa<lb ed="#Ba" break="no"/>ter et Filius non sunt principium 
+Spiri<lb ed="#Ba" break="no"/>lus sancti, sicut statim patebit in 
+solutio<lb ed="#Ba" break="no"/>ne sequentis partis questionis, sed potius
+<lb ed="#Ba"/>in quantum sunt unus Deus principium
+<lb ed="#Ba"/>inspirationis.
+</p>
+               <p xml:id="Almn78-a71593-d1e2601">
+                  <lb ed="#Ba"/>Et gua in contrarium hujus adducta
+<lb ed="#Ba"/>sunt, procedunt.
+</p>
+               <p xml:id="Almn78-a71593-d1e2609">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod Pater et Filius non spirant
+<lb ed="#Ba"/>Spiritum sanctum in quantum Pater et
+<lb ed="#Ba"/>Vilus. Nec sufficienter ratio redditur,
+<lb ed="#Ba"/>cum dicitur, quod spirant eum in 
+quan<lb ed="#Ba" break="no"/>tum unus Deus, sicut probant 
+inconve<lb ed="#Ba" break="no"/>nientia adducta. Sed spirant eum in
+<lb ed="#Ba"/>quantum sunt unus Deus , unum 
+spiran<lb ed="#Ba" break="no"/>di principium, ita quod unus Deus 
+dica<lb ed="#Ba" break="no"/>tur propter nature communicabilitatem,
+<lb ed="#Ba"/>qu in Spiritum sanctum spirando 
+trans<lb ed="#Ba" break="no"/>funditur, ut dicit Hilarius: et unum
+<lb ed="#Ba"/>principium dicatur, propter 
+proprieta<lb ed="#Ba" break="no"/>tem relativam una oppositione 
+distin<lb ed="#Ba" break="no"/>guentem personas Patris et Filii a 
+per<lb ed="#Ba" break="no"/>sona Spiritus sancti. Unde licet duo 
+di<lb ed="#Ba" break="no"/>cantur esse spiratores Spiritus sancti, eo
+<lb ed="#Ba"/>quod actus spirandi geminatur secundum
+<lb ed="#Ba"/>quod est in spirantibus: tamen unum
+<lb ed="#Ba"/>principium sunt spirandi, et unus 
+sim<lb ed="#Ba" break="no"/>plex Spiritus est qui spiratur ab ipsis. Et
+<lb ed="#Ba"/>sic ex illis duobus, scilicet quod sunt
+<lb ed="#Ba"/>unus Deus, et unum principium = 
+spiran<lb ed="#Ba" break="no"/>di, sufficiens ratio habetur de eo quod
+<lb ed="#Ba"/>queritur, Secundum quid Pater et Filius
+<lb ed="#Ba"/>spirant Spiritum sanctum ?
+</p>
+               <p xml:id="Almn78-a71593-d1e2668">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad omnia que
+<lb ed="#Ba"/>objecta sunt contra hoc.
+</p>
+               <p xml:id="Almn78-a71593-d1e2675">
+                  <lb ed="#Ba"/>Ad wm quod in tertia parte questionis
+<lb ed="#Ba"/>queritur, dicendum quod Spiritus san-
+</p>
+               <p xml:id="Almn78-a71593-d1e2682">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>ctus nec prius nec plenius procedit a
+<lb ed="#Ba"/>Patre quam a Filio. Non privs: quia
+<lb ed="#Ba"/>ab utroque procedit ab eterno, Non 
+ple<lb ed="#Ba" break="no"/>nius : quia inter Patrem et Filium nulla
+<lb ed="#Ba"/>est inequalitas. Tamen quia hoc ipsum,
+<lb ed="#Ba"/>quod Spiritus sanctus procedit a Filio,
+<lb ed="#Ba"/>habet Filius a Patre, et sic originaliter
+<lb ed="#Ba"/>auctoritas processionis in Patre est, et a
+<lb ed="#Ba"/>Patre: propter hoc dicit Augustinus,
+<lb ed="#Ba"/>quod principaliter procedit a Patre, et
+<lb ed="#Ba"/>Hieronymus, quod proprie. Non tamen
+<lb ed="#Ba"/>addunt, quod a Filio procedit 
+secunda<lb ed="#Ba" break="no"/>rio, vel improprie : eo quod hoc non 
+re<lb ed="#Ba" break="no"/>ferunt ad essentiam divine nature, sed
+<lb ed="#Ba"/>ad originis auctoritatem, ut dictum est.
+</p>
+               <p xml:id="Almn78-a71593-d1e2719">
+                  <lb ed="#Ba"/>Et ad dictum Hilarii dicendum, quod
+<lb ed="#Ba"/>ex modo loquendi Hilarius vocat 
+princi<lb ed="#Ba" break="no"/>pium medium, vel quasi medium esse
+<lb ed="#Ba"/>Filium ad processionem Spiritus sancti.
+<lb ed="#Ba"/>Media enim causa est, quae 
+causa<lb ed="#Ba" break="no"/>tur ex alia causa quam ante se habet.
+<lb ed="#Ba"/>Et hac similitndine Joquitur Hilarius
+<lb ed="#Ba"/>Pater enim principium Spiritus sanct
+<lb ed="#Ba"/>est, et hoc habet a seipso. Filius 
+princi<lb ed="#Ba" break="no"/>pium ejusdem est, et hoc habet a Patre :
+<lb ed="#Ba"/>et sic quasi medium est principium, quod
+<lb ed="#Ba"/>a Theologis vocatur principium de 
+prin<lb ed="#Ba" break="no"/>cipio.
+</p>
+               <p xml:id="Almn78-a71593-d1e2750">
+                  <lb ed="#Ba"/>Et per hoc patet, quis est intellectus
+<lb ed="#Ba"/>verborum Augustini, Hieronymi, et 
+Hi<lb ed="#Ba" break="no"/>larii.
+</p>
+            </div>
+            <div xml:id="Almn78-a71593-Dd1e2760">
+               <head xml:id="Almn78-a71593-Hd1e2762">Membrum 4</head>
+               <head xml:id="Almn78-a71593-Hd1e2765" type="question-title">
+  Cujus sit procedere?
+</head>
+               <p xml:id="Almn78-a71593-d1e2768">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>Cujus sit procedere?
+</p>
+               <p xml:id="Almn78-a71593-d1e2775">
+                  <lb ed="#Ba"/>Qvuarro queritur, Cujus sit proprie
+<lb ed="#Ba"/>procedere ? quia jam habitum est, 
+se<lb ed="#Ba" break="no"/>cundum quid procedat a duobus.
+</p>
+               <p xml:id="Almn78-a71593-d1e2784">
+                  <lb ed="#Ba"/>Videtur autem, quod Filii proprie sit
+<lb ed="#Ba"/>procedere, et magis proprie quam 
+Spiri<lb ed="#Ba" break="no"/>tus sancti.
+</p>
+               <p xml:id="Almn78-a71593-d1e2794">
+                  <pb ed="#Ba" n="336"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>1. Propriissima enim processio que in
+<lb ed="#Ba"/>aliqua natura esse potest, est secundum
+<lb ed="#Ba"/>nature diffusionem : et hec est per 
+ge<lb ed="#Ba" break="no"/>nerationem : et illa procedit Filius : Filii
+<lb ed="#Ba"/>ergo magis est. procedere, quam Spiritus
+<lb ed="#Ba"/>sancti.
+</p>
+               <p xml:id="Almn78-a71593-d1e2814">
+                  <lb ed="#Ba"/>2. Adhuc, Si quis dicat, quod 
+proces<lb ed="#Ba" break="no"/>sio Filii non est simplex processio, sed
+<lb ed="#Ba"/>specificata per generationem, et sic in
+<lb ed="#Ba"/>genere Spiritui sancto convenit 
+proce<lb ed="#Ba" break="no"/>dere, et non Filio. Non solvit : quia 
+sic<lb ed="#Ba" break="no"/>ut Filius procedit per generationem, ita
+<lb ed="#Ba"/>Spiritus sanctus procedit per 
+spiratio<lb ed="#Ba" break="no"/>nem: et ita specificatur processio 
+Spi<lb ed="#Ba" break="no"/>ritus sancti sicut Filii: et redit eadem
+<lb ed="#Ba"/>questio, quare scilicet spiratio Spiritus
+<lb ed="#Ba"/>sancti simpliciter dicatur processio, et
+<lb ed="#Ba"/>non generatio Filii ?
+</p>
+               <p xml:id="Almn78-a71593-d1e2843">
+                  <lb ed="#Ba"/>3. Adhuc, Si quis dicere velit, quod
+<lb ed="#Ba"/>Spiritus sanctus procedit a duobus, Fi-
+<lb ed="#Ba" break="no"/>lius autem ab uno : et sic Spiritui 
+san<lb ed="#Ba" break="no"/>cto magis convenit procedere, quam 
+Fi<lb ed="#Ba" break="no"/>lio. Frivolum esse videtur : quia 
+proce<lb ed="#Ba" break="no"/>dere ab uno vel duobus, nihil auget de
+<lb ed="#Ba"/>ratione processionis. Et sic videtur, quod
+<lb ed="#Ba"/>non propter hoc procedere convenit
+<lb ed="#Ba"/>magis Spiritui sancto, quam Filio.
+</p>
+               <p xml:id="Almn78-a71593-d1e2865">
+                  <lb ed="#Ba"/>4. Adhuc, Sunt quidam qui dicunt
+<lb ed="#Ba"/>processionem Spiritus sancti ex hoc
+<lb ed="#Ba"/>quod procedit a duobus, magis esse. 
+si<lb ed="#Ba" break="no"/>milem generationi, quam processionem
+<lb ed="#Ba"/>Filii: eo quod in perfectis animalibus,
+<lb ed="#Ba"/>sicut est homo, leo, et hujusmodi, 
+pro<lb ed="#Ba" break="no"/>cessio que est ad multiplicationem 
+natu<lb ed="#Ba" break="no"/>re, semper est a duobus, quorum unum
+<lb ed="#Ba"/>est generans in alio ex substantia et 
+vir<lb ed="#Ba" break="no"/>tute propria, aliud vero generans in 
+se<lb ed="#Ba" break="no"/>ipso ex substantia et virtute aliena. Et
+<lb ed="#Ba"/>simile est, ut videtur quod dicitur de 
+Spi<lb ed="#Ba" break="no"/>ritu sancto : procedit enim a Patre qui
+<lb ed="#Ba"/>habet hoc a seipso,etab alio qui habet hoc
+<lb ed="#Ba"/>_ab alio:et sic similior videtur esse 
+genera<lb ed="#Ba" break="no"/>tioni processio Spiritus sancti, quam Filii.
+</p>
+               <p xml:id="Almn78-a71593-d1e2902">
+                  <lb ed="#Ba"/>Utteais queritur, Si processio dicta
+<lb ed="#Ba"/>de Filio et Spiritu sancto dicatur 
+univo<lb ed="#Ba" break="no"/>ce, vel equivoce, vel secundum 
+analo<lb ed="#Ba" break="no"/>giam ? et si secundum analogiam, cui
+<lb ed="#Ba"/>per prius conveniat ?
+</p>
+               <p xml:id="Almn78-a71593-d1e2915">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod spiritus in
+<lb ed="#Ba"/>quantum est spritus, sive sit corporeus,
+<lb ed="#Ba"/>sive incorporeus, proprium est semper
+<lb ed="#Ba"/>procedere. Et ideo incorporeus spiritus
+<lb ed="#Ba"/>etiam secundum Philosophos 
+proceden<lb ed="#Ba" break="no"/>do ab intellectu agente per voluntatem,
+<lb ed="#Ba"/>omnibus operatis invehit formas agentis
+<lb ed="#Ba"/>intelligentiae,sicut spiritus artificis 
+proce<lb ed="#Ba" break="no"/>dens a mente artificis, formas artis 
+con<lb ed="#Ba" break="no"/>tinue procedendo invehit manibus securi,
+<lb ed="#Ba"/>dolabra, et lapidibus, et lignis. Et ad
+<lb ed="#Ba"/>hance similitudinem dictum est illud 
+Sa<lb ed="#Ba" break="no"/>pientie 1,7 : Spiritus Domini replevit 
+or<lb ed="#Ba" break="no"/>bem terrarum, et hoc quod continet 
+om<lb ed="#Ba" break="no"/>nia, scientiam habet vocis. Et, Job, xxvi,
+<lb ed="#Ba"/>13: Spiritus egus ornavit celos. Et illud
+<lb ed="#Ba"/>Psalmi xxxn, 6: Verbo Domini cali 
+fir<lb ed="#Ba" break="no"/>mati sunt, et spiritu oris ejus omnis 
+vir<lb ed="#Ba" break="no"/>tus eorum. /
+</p>
+               <p xml:id="Almn78-a71593-d1e2962">
+                  <lb ed="#Ba"/>Similiter amoris, sive spiritualis, sive
+<lb ed="#Ba"/>carnalis, semper est procedere et 
+ema<lb ed="#Ba" break="no"/>nare et numquam stare. Et propter hoc
+<lb ed="#Ba"/>dicit Chysostomus, quod <quote xml:id="Almn78-a71593-Qd1e2972"> cum Spiritus
+<lb ed="#Ba"/>sanctus in cor hominis intravit, omni
+<lb ed="#Ba"/>fonte magis manat : et non stat, sed 
+pro<lb ed="#Ba" break="no"/>ficit. </quote> Et, Joan. vir, 388: Qui credit in
+<lb ed="#Ba"/>me, sicut dicit Scriptura, flumina de
+<lb ed="#Ba"/>ventre egus fluent aque vive. Et subdit.
+<lb ed="#Ba"/>Evangelista, ¥. 39: Hoc autem dixit de
+<lb ed="#Ba"/>Spiritu. Et ideo etiam dicit Dionysius,
+<lb ed="#Ba"/>quod est exstasim faciens divinus amor,
+<lb ed="#Ba"/>hoc est, transpositionem : . transponit
+<lb ed="#Ba"/>enim amantem in amatum, et non sinit
+<lb ed="#Ba"/>eum manere in seipso. Et ideo est,
+<lb ed="#Ba"/>quodetiam apud grammaticos hoc ver-
+<lb ed="#Ba" break="no"/>bum, amo, vehementis dicitur esse 
+trans<lb ed="#Ba" break="no"/>itionis. Quia ergo Spiritus sanctus, et
+<lb ed="#Ba"/>est spiritus, et est amor spiratus, 
+pro<lb ed="#Ba" break="no"/>prium ejus est simpliciter procedere :
+<lb ed="#Ba"/>et geniti secundum quod est genitum,
+<lb ed="#Ba"/>non est proprium procedere, sed eéxistere
+<lb ed="#Ba"/>in natura accepta.
+</p>
+               <p xml:id="Almn78-a71593-d1e3017">
+                  <lb ed="#Ba"/>Unde quod primo objicitur, jam 
+solu<lb ed="#Ba" break="no"/>tum est: processio enim sonat 
+dilata<lb ed="#Ba" break="no"/>tionem et quasi motum in alterum, quod
+<lb ed="#Ba"/>non dicit generatio: et ideo generatio
+<lb ed="#Ba"/>non simpliciter est processio, sed 
+pro<lb ed="#Ba" break="no"/>cessio quedam. Et spiratio licet 
+proces<lb ed="#Ba" break="no"/>sio sit specificata sicut generatio, tamen
+</p>
+               <p xml:id="Almn78-a71593-d1e3035">
+                  <pb ed="#Ba" n="337"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>simpliciter est processio : quia spiritus et
+<lb ed="#Ba"/>amoris proprius actus est procedere. Et
+<lb ed="#Ba"/>bene concedimus, quod procedere ab
+<lb ed="#Ba"/>uno vel duobus nihil facit ad rationem
+<lb ed="#Ba"/>processionis.
+</p>
+               <p xml:id="Almn78-a71593-d1e3053">
+                  <lb ed="#Ba"/>Et quod dicitur de similitudine ad 
+ge<lb ed="#Ba" break="no"/>nerationem que esta masculo ad 
+foemi<lb ed="#Ba" break="no"/>ham, dicimus quod nihil valet, et tante
+<lb ed="#Ba"/>munditie valde incongruum est 
+exem<lb ed="#Ba" break="no"/>plum, et certe temerarium videtur: quia
+<lb ed="#Ba"/>in tali generatione, ut dicunt Philosophi,
+<lb ed="#Ba"/>gutta maris comprehendit gultam 
+fcemi<lb ed="#Ba" break="no"/>ne, et intrat in eam sicut spiritus in 
+cor<lb ed="#Ba" break="no"/>pus: et per formativam que est in gutta
+<lb ed="#Ba"/>aris, formatur gutta feemine: et valde
+<lb ed="#Ba"/>lemerarium esset et immundum cogitare
+<lb ed="#Ba"/>vel credere, quod virtus spirativa in Filio
+<lb ed="#Ba"/>haberet se ad virtutem spirativam que
+<lb ed="#Ba"/>est in Patre, sicut se habet virtus 
+foe<lb ed="#Ba" break="no"/>mine ad virtutem masculi in 
+genera<lb ed="#Ba" break="no"/>tione. Unde ratio illorum nihil valet.
+</p>
+               <p xml:id="Almn78-a71593-d1e3090">
+                  <lb ed="#Ba"/>Ad id quod queritur, Si procedere 
+di<lb ed="#Ba" break="no"/>catur equivoce, vel univoce ?
+</p>
+               <p xml:id="Almn78-a71593-d1e3097">
+                  <lb ed="#Ba"/>Dicendum, quod si simpliciter 
+accipia<lb ed="#Ba" break="no"/>tur procedere: tunc dicit motum 
+secun<lb ed="#Ba" break="no"/>dum locum ab uno in alterum, et 
+mo<lb ed="#Ba" break="no"/>tum voluntarium. Propter quod etiam
+<lb ed="#Ba"/>animalia per appetitum mota et 
+volun<lb ed="#Ba" break="no"/>tatem, motu processivo moveri dicuntur
+<lb ed="#Ba"/>in III de Anima. Et secundum hune mo-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tum simpliciter procedere convenit 
+Spi<lb ed="#Ba" break="no"/>ritui sancto : quia et a voluntate, et quasi
+<lb ed="#Ba"/>processive procedit amor et etiam 
+spiri<lb ed="#Ba" break="no"/>tus. Et tunc processio non convenit 
+Fi<lb ed="#Ba" break="no"/>lio, nisi sub determinatione.
+</p>
+               <p xml:id="Almn78-a71593-d1e3129">
+                  <lb ed="#Ba"/>Si autem dicatur processio ad 
+simili<lb ed="#Ba" break="no"/>tudinem processus causati de causa, 
+sic<lb ed="#Ba" break="no"/>ut dicit Dionysius in libro de Divinis
+<lb ed="#Ba"/>nominibus ', quod <quote xml:id="Almn78-a71593-Qd1e3139"> que sunt multa
+<lb ed="#Ba"/>processibus, sunt unum principio : </quote>
+                  <lb ed="#Ba"/>tunc elargato nomine dicitur processio,
+<lb ed="#Ba"/>et tunc communiter convenit 
+genera<lb ed="#Ba" break="no"/>tioni Filii et spirationi Spiritus sancti :
+<lb ed="#Ba"/>et tunc nihil prohibet, quod secundum
+<lb ed="#Ba"/>aliquem modum conveniat Filio et 
+se<lb ed="#Ba" break="no"/>cundum alium conveniat Spiritui sancto :
+<lb ed="#Ba"/>et quod modus secundum quem 
+conve<lb ed="#Ba" break="no"/>nit Filio in natura creata, in qua potest
+<lb ed="#Ba"/>esse prius et-posterius, principalior sit,
+<lb ed="#Ba"/>quam modus secundum quem convenit
+<lb ed="#Ba"/>Spiritui sancto : quia processus per 
+ge<lb ed="#Ba" break="no"/>nerationem est in esse, processus autem
+<lb ed="#Ba"/>amoris in tali natura non est nisi in bene
+<lb ed="#Ba"/>esse. Sed hoc in divinis nihil est: quia
+<lb ed="#Ba"/>nihil est ibi principale et secundarium :
+<lb ed="#Ba"/>et sicut Vilio per generationem est esse
+<lb ed="#Ba"/>a Patre, ita Spiritui sancto per 
+spiratio<lb ed="#Ba" break="no"/>nem est esse a Patre et Filio: et ideo
+<lb ed="#Ba"/>processio per hunc modum dicta, sub
+<lb ed="#Ba"/>diverso modo aequaliter convenit Filio
+<lb ed="#Ba"/>et Spiritui sancto.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

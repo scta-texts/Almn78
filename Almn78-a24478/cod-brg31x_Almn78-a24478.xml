@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="114"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a24478"><!-- p1t3q17 -->
+            <head xml:id="Almn78-a24478-Hd1e106">Quaestio 17</head>
+            <head xml:id="Almn78-a24478-Hd1e109" type="question-title">
+      Utrum demonstrabile sit Deum esse, vel sit per se notum?
+    </head>
+            <p xml:id="Almn78-a24478-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XVII.
+<lb ed="#Ba"/>Utrum demonstrabile sit Deum esse, vel sit per se notum?
+</p>
+            <p xml:id="Almn78-a24478-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur, Si demonstrabile sit
+<lb ed="#Ba"/>Deum esse, vel sit per se notum ?
+</p>
+            <p xml:id="Almn78-a24478-d1e130">
+               <lb ed="#Ba"/>Quod enim demonstrabile non sit, 
+vi<lb ed="#Ba" break="no"/>detur.
+<lb ed="#Ba"/>1. Deum enim esse articulus est fidei :
+<lb ed="#Ba"/>articulus autem supra omnem rationem
+<lb ed="#Ba"/>est : quod autem demonstratur, sub 
+ra<lb ed="#Ba" break="no"/>tione est : ergo Deum esse non 
+demon<lb ed="#Ba" break="no"/>stratur.
+</p>
+            <p xml:id="Almn78-a24478-d1e149">
+               <lb ed="#Ba"/>2. Adhuc, Omne quod demonstratur,
+<lb ed="#Ba"/>perfecto intellectu comprehenditur
+<lb ed="#Ba"/>Deum esse perfecto intellectu non 
+com<lb ed="#Ba" break="no"/>prehenditur : ergo non demonstratur.
+<lb ed="#Ba"/>Prosario minoris : Gregorius super illud
+<lb ed="#Ba"/>Job, x1, 7: Et usque ad perfectum 
+Om<lb ed="#Ba" break="no"/>nipotentem reperies ? dicit sic : <quote xml:id="Almn78-a24478-Qd1e166"> In 
+fu<lb ed="#Ba" break="no"/>turo reperietur Omnipotens per speciem,
+<lb ed="#Ba"/>sed non ad perfectum : quia essentia
+<lb ed="#Ba"/>ejus a nullo plene videbitur. </quote> Et sic 
+ha<lb ed="#Ba" break="no"/>betur propositum.
+</p>
+            <p xml:id="Almn78-a24478-d1e178">
+               <lb ed="#Ba"/>3. Adhuc, In demonstratione medium
+<lb ed="#Ba"/>dicit quid et propter quid: quid autem
+<lb ed="#Ba"/>et propter quid nec habet Deus nec 
+ha<lb ed="#Ba" break="no"/>bere potest : ergo nec demonstrari pot-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>est Deum esse. Si enim demonstraretur
+<lb ed="#Ba"/>esse de Deo, oporteret quod medium 
+es<lb ed="#Ba" break="no"/>set definitio dicens quid et propter quid,
+<lb ed="#Ba"/>vel esse divini et Dei, secundum duas
+<lb ed="#Ba"/>opiniones, quarum una dicit, quod talis
+<lb ed="#Ba"/>demonstratio sit per definitionem 
+pas<lb ed="#Ba" break="no"/>sionis : altera, quod sit per definitionem
+<lb ed="#Ba"/>subjecti. Neutrum autem in Deo 
+defini<lb ed="#Ba" break="no"/>hile est demonstratione dicente quid vel
+<lb ed="#Ba"/>propter quid. Ergo Deum esse non est
+<lb ed="#Ba"/>demonstrabile.
+</p>
+            <p xml:id="Almn78-a24478-d1e215">
+               <lb ed="#Ba"/>4. Si quis dicat, quod non est 
+de<lb ed="#Ba" break="no"/>monstrabile Deum esse demonstratione
+<lb ed="#Ba"/>propter quid, sed demonstratione quia.
+<lb ed="#Ba"/>Contra : Demonstratio quia non fit nisi
+<lb ed="#Ba"/>duobus modis,: scilicet per causam 
+re<lb ed="#Ba" break="no"/>motam, vel per effectum convertibilem.
+<lb ed="#Ba"/>Per causam autem remotam non potest
+<lb ed="#Ba"/>demonstrari: quia talem non _ habet.
+<lb ed="#Ba"/>Causa enim remota per coarctationem fit
+<lb ed="#Ba"/>proxima: et si Deus vel esse Dei talem
+<lb ed="#Ba"/>causam haberet, sequeretur quod ipse
+<lb ed="#Ba"/>non esset causa prima, quod falsum est.
+<lb ed="#Ba"/>Similiter per effectum non potest demon
+<pb ed="#Ba" n="115"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>strari: nullum enim habet effectum
+<lb ed="#Ba"/>convertibilem et essentialem. Licet enim
+<lb ed="#Ba"/>posito effectu ponatur causa quia est, 
+ta<lb ed="#Ba" break="no"/>ten causa posita non de. necessitate 
+po<lb ed="#Ba" break="no"/>nitur effectus : ideo per effectum non
+<lb ed="#Ba"/>potesL demonstrari.
+</p>
+            <p xml:id="Almn78-a24478-d1e263">
+               <lb ed="#Ba"/>Si forte aliquis dicat, quod 
+demon<lb ed="#Ba" break="no"/>alratur per signum, secundum quod
+<lb ed="#Ba"/>Augustinus dicit, quod <quote xml:id="Almn78-a24478-Qd1e271"> per omnia 
+ope<lb ed="#Ba" break="no"/>ra significationis sue sparsit indicia‘. </quote>
+               <lb ed="#Ba"/>Contra: Demonstratio per signum si
+<lb ed="#Ba"/>debeat certificare sicut vera 
+demonstra<lb ed="#Ba" break="no"/>lw, oportet quod fiat per signum 
+conver<lb ed="#Ba" break="no"/>ibile cum causa: nullum autem tale 
+si<lb ed="#Ba" break="no"/>xuum est in effectibus Dei : ergo per tale
+<lb ed="#Ba"/>siznum demonstrari non potest Deum
+<lb ed="#Ba"/>pase,
+</p>
+            <p xml:id="Almn78-a24478-d1e292">
+               <lb ed="#Ba"/>In contrarium videtur esse quod 
+dici<lb ed="#Ba" break="no"/>tur, ad Roman. I, 20: <quote xml:id="Almn78-a24478-Qd1e298" source="http://scta.info/resource/rom1_20">Invisibilia ipsius,
+<lb ed="#Ba"/>acilicet Dei, per ea gue facta sunt, 
+in<lb ed="#Ba" break="no"/>tellecta, conspiciuntur</quote>. Non autem 
+con<lb ed="#Ba" break="no"/>apiceretur, nisi per ea que facta sunt
+<lb ed="#Ba"/>demonstraretur. Ergo Deum esse 
+de<lb ed="#Ba" break="no"/>monstrabile est per effectus.
+</p>
+            <p xml:id="Almn78-a24478-d1e313">
+               <lb ed="#Ba"/>Forte dicet aliquis, quod Deum esse
+<lb ed="#Ba"/>demonstrabile non est, sed per se notum.
+(ueritur, An hoc sit verum?
+</p>
+            <p xml:id="Almn78-a24478-d1e321">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Per se enim nota sunt, que insunt
+<lb ed="#Ba"/>nobis a natura. Dicit autem Damascenus,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a24478-Qd1e331"> notitia existendi Deum, omnibus
+<lb ed="#Ba"/>per naturam inserta est. </quote> Ergo per se
+<lb ed="#Ba"/>notum est Deum esse.
+</p>
+            <p xml:id="Almn78-a24478-d1e340">
+               <lb ed="#Ba"/>2, Adhuc Dicit Boetius in libro de
+<lb ed="#Ba"/>MUebdomadibus, quod <quote xml:id="Almn78-a24478-Qd1e346"> dignitas est per
+<lb ed="#Ba"/>se nota quam quisque probat auditam : </quote>
+               <lb ed="#Ba"/>yuc etiam communis anime conceptio
+<lb ed="#Ba"/>vocatur : eo quod scitis terminis, statim
+<lb ed="#Ba"/>acquiescitur ei. Deum autem esse ab 
+om<lb ed="#Ba" break="no"/>nibus ponitur, qui sciunt quid significat
+<lb ed="#Ba"/>Ineus, et quid significat esse. Videtur
+<lb ed="#Ba"/>ergo, quod per se notum sit.
+</p>
+            <p xml:id="Almn78-a24478-d1e365">
+               <lb ed="#Ba"/>3, Adhuc, In II de Ceelo et Mundo 
+di<lb ed="#Ba" break="no"/>rit Aristoteles quod <quote xml:id="Almn78-a24478-Qd1e371"> omnes conveniunt
+<lb ed="#Ba"/>in hoc, quod Deus in ceelo est. </quote> Sed non
+<lb ed="#Ba"/>polerant convenire in secundo nisi con
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>venerint in primo, scilicet quod Deus
+<lb ed="#Ba"/>est. Si enim non est, sequitur quod in
+<lb ed="#Ba"/>ceelo non est. Et si in ceelo est, sequitur
+<lb ed="#Ba"/>quod est. Sed hoc per se notum est, in
+<lb ed="#Ba"/>quo omnes conveniunt. Ergo Deum esse
+<lb ed="#Ba"/>per se notum est.
+</p>
+            <p xml:id="Almn78-a24478-d1e394">
+               <lb ed="#Ba"/>4, Adhuc, Jam habitum est, quod
+<lb ed="#Ba"/>Deus est principiam intelligendi primum.
+<lb ed="#Ba"/>Ergo omnes qui intelligunt, principium
+<lb ed="#Ba"/>intelligendi primum ponunt esse tanquam
+<lb ed="#Ba"/>per se notum : hoc autem est Deum esse:
+<lb ed="#Ba"/>ergo Deum esse per se notum est.
+</p>
+            <p xml:id="Almn78-a24478-d1e410">
+               <lb ed="#Ba"/>In contrarium hujus est : quia si 
+di<lb ed="#Ba" break="no"/>gnitas est quam quisque probat auditam,
+<lb ed="#Ba"/>non potest aliquid contrarium concipi
+<lb ed="#Ba"/>dignitati per se note: sed contrarium
+<lb ed="#Ba"/>concipitur contra Deum esse in Psalmo
+<lb ed="#Ba"/>xm,4: Dixit imsipiens in corde suo:
+<lb ed="#Ba"/>Non est Deus. Ergo videtur, quod Deum
+<lb ed="#Ba"/>esse non sit per se notum.
+</p>
+            <p xml:id="Almn78-a24478-d1e430">
+               <lb ed="#Ba"/>Solutio. Ad primum quesitum 
+dicen<lb ed="#Ba" break="no"/>dum, quod demonstrabile esse duobus
+<lb ed="#Ba"/>modis dicitur, scilicet large, et stricte :
+<lb ed="#Ba"/>vel communiter, et proprie. Gommuniter
+<lb ed="#Ba"/>demonstratur, quod quacumque 
+osten<lb ed="#Ba" break="no"/>tione ostenditur, sive sit in se, sive in
+<lb ed="#Ba"/>alio. Et hoc modo demonstrabile est
+<lb ed="#Ba"/>Deum esse. Unde etiam Aristoteles in
+<lb ed="#Ba"/>multis locis Posteriorum et Topicorum
+<lb ed="#Ba"/>nomine demonstrationis pro nomine
+<lb ed="#Ba"/>ostensionis utitur.Et hoc modo facile 
+de<lb ed="#Ba" break="no"/>monstratur Deum esse. Stricte autem vel
+<lb ed="#Ba"/>proprie dicitur demonstratio syllogismus
+<lb ed="#Ba"/>per medium essentiale et convertibile
+<lb ed="#Ba"/>concludens, sive hoc medium sit causa,
+<lb ed="#Ba"/>sive effectus, sive alteri ilorum 
+equiva<lb ed="#Ba" break="no"/>Jens ut signum convertibile. Et haec 
+de<lb ed="#Ba" break="no"/>monstratio duplex est, ostensiva scilicet,
+<lb ed="#Ba"/>et ad impossibile. Dicimus ergo, quod
+<lb ed="#Ba"/>demonstratione ostensiva non est 
+de<lb ed="#Ba" break="no"/>monstrabile Deum esse, sicut bene 
+pro<lb ed="#Ba" break="no"/>batum est objiciendo. Sed 
+demonstra<lb ed="#Ba" break="no"/>tione ad impossibile demonstrabile est
+<lb ed="#Ba"/>TDeum esse, sicut Aristoteles in IV prime
+<lb ed="#Ba"/>philosophiae demonstrat principia 
+de<lb ed="#Ba" break="no"/>monstrationum contra Heraclitum. Si
+<pb ed="#Ba" n="116"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>enim detur Deum non esse, multa 
+se<lb ed="#Ba" break="no"/>quuntur impossibilia.
+</p>
+            <p xml:id="Almn78-a24478-d1e499">
+               <lb ed="#Ba"/>Ad primum ergo dicendum, quod
+<lb ed="#Ba"/>Deum esse, non proprie loquendo est 
+ar<lb ed="#Ba" break="no"/>ticulus, sed antecedens ad omnem 
+arti<lb ed="#Ba" break="no"/>culum. Unde, ad Hebr. x1, 6: Credere
+<lb ed="#Ba"/>oportet accedentem ad Deum quia est.
+<lb ed="#Ba"/>Si tamen dicatur esse articulus: tunc
+<lb ed="#Ba"/>non simpliciter erit articulus, sed hoc
+<lb ed="#Ba"/>modo Deum esse quo fides ponit, 
+articu<lb ed="#Ba" break="no"/>lus erit.
+</p>
+            <p xml:id="Almn78-a24478-d1e521">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod perfecto 
+in<lb ed="#Ba" break="no"/>tellectu intelligere dicitur duobus modis,
+<lb ed="#Ba"/>scilicet perfectione comprehensionis : et
+<lb ed="#Ba"/>sic a nullo creato intellectu Deus perfecte
+<lb ed="#Ba"/>intelligitur. Dicitur etiam perfecte 
+in<lb ed="#Ba" break="no"/>telligi perfectione modi intelligendi :
+<lb ed="#Ba"/>quia scilicet in seipso et non in alio 
+me<lb ed="#Ba" break="no"/>dic videtur per intellectum : et sic 
+per<lb ed="#Ba" break="no"/>fecte vident beati. Et quia 
+demonstra<lb ed="#Ba" break="no"/>bile exigit priorem perfectionem que est
+<lb ed="#Ba"/>comprehensionis, patet quod non est 
+de<lb ed="#Ba" break="no"/>monstrabile ostensive Deum esse.
+</p>
+            <p xml:id="Almn78-a24478-d1e550">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod objectio illa
+<lb ed="#Ba"/>procedit de potissima demonstratione
+<lb ed="#Ba"/>ostensiva: sed ex hoc non sequitur, quod
+<lb ed="#Ba"/>nullo modo demonstrabile sit.
+</p>
+            <p xml:id="Almn78-a24478-d1e561">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod illa objectio
+<lb ed="#Ba"/>procedit de necessitate de demonstratione
+<lb ed="#Ba"/>ostensiva, sive demonstret quid, sive
+<lb ed="#Ba"/>quia: alio tamen modo ostensibile, 
+de<lb ed="#Ba" break="no"/>monstrabile est.
+</p>
+            <p xml:id="Almn78-a24478-d1e574">
+               <lb ed="#Ba"/>Ad aliud quod objicitur de signo, 
+di<lb ed="#Ba" break="no"/>cendum quod illa objectio de necessitate
+<lb ed="#Ba"/>procedit : quia tali signo demonstrari non
+<lb ed="#Ba"/>potest Deum esse. Sed ex hoc non 
+sequi<lb ed="#Ba" break="no"/>tur, quin quibuscumque signis alio modo
+<lb ed="#Ba"/>ostendi potest: non ostensione 
+demon<lb ed="#Ba" break="no"/>strationis, sed persuasionis sufficientis.
+</p>
+            <p xml:id="Almn78-a24478-d1e592">
+               <lb ed="#Ba"/>Av x9 quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod invisibilia Dei per ea
+<lb ed="#Ba"/>que facta sunt, intellecta, conspiciuntur
+<lb ed="#Ba"/>conspectione ostensionis sufficientis, et
+<lb ed="#Ba"/>non conspectione demonstrationis 
+osten<lb ed="#Ba" break="no"/>sive.
+</p>
+            <p xml:id="Almn78-a24478-d1e609">
+               <lb ed="#Ba"/>Av 1 quod quaritur, Utrum sit per
+<lb ed="#Ba"/>se notum ? Dicendum, quod per se 
+no<lb ed="#Ba" break="no"/>tum dicitur tribus modis. Primo quidem
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>ex parte noscentis per se notum est, 
+cu<lb ed="#Ba" break="no"/>jus notitia in noscente est per habitum
+<lb ed="#Ba"/>extrinsecum non acquisita: et sic Deum
+<lb ed="#Ba"/>esse per se notum est, Sed ex hoc non
+<lb ed="#Ba"/>sequitur, quin via possit haberi per 
+ra<lb ed="#Ba" break="no"/>tionem ad ostendendum ipsum. Secundo
+<lb ed="#Ba"/>dicitur per se notum ex parte noscibilis,
+<lb ed="#Ba"/>ad quod medium non habetur quod si
+<lb ed="#Ba"/>prius ipso per quod cognoscatur: et sic
+<lb ed="#Ba"/>demonstratio dicitur ex per se notis. Sed
+<lb ed="#Ba"/>non sequitur ex hoc, quin ex 
+posterio<lb ed="#Ba" break="no"/>tibus que sunt priora quoad nos, via
+<lb ed="#Ba"/>habeatur ad ipsa cognoscenda: et sic
+<lb ed="#Ba"/>principia dicuntur per se nota. Tertio
+<lb ed="#Ba"/>modo per se nota dicitur propositio, que
+<lb ed="#Ba"/>ex terminis in se positis, omnibus se 
+ma<lb ed="#Ba" break="no"/>nifestat quibus noti sunt termini : hoc
+<lb ed="#Ba"/>enim per doctrinam non accipitur. Et
+<lb ed="#Ba"/>hae duplex est. Est enim verum per se
+<lb ed="#Ba"/>in quod conveniunt vel omnes vel 
+sa<lb ed="#Ba" break="no"/>pientes. Et secundum hoc distinguit 
+Boe<lb ed="#Ba" break="no"/>tius duo genera dignitatum. Unum est
+<lb ed="#Ba"/>quod dignitas est, quam quisque probat
+<lb ed="#Ba"/>auditam, sicut totum majus sua parte
+<lb ed="#Ba"/>esse. Notis enim terminis propositionis,
+<lb ed="#Ba"/>qui sunt totum et pars, quilibet stalim
+<lb ed="#Ba"/>acquiescit. Secundum est propositio,
+<lb ed="#Ba"/>quam ex habitudine terminorum probat
+<lb ed="#Ba"/>quilibet sapiens, ut spiritualia sive 
+incor<lb ed="#Ba" break="no"/>poralia in loco non esse, Primo ergo
+<lb ed="#Ba"/>modo et tertio per se notum est Deum
+<lb ed="#Ba"/>esse, secundo autem modo non est per
+<lb ed="#Ba"/>se notum. Dico autem tertio modo quoad
+<lb ed="#Ba"/>sapientes, quibus notum est quid Deus
+<lb ed="#Ba"/>significet, et quid esse, et quod Deus 
+se<lb ed="#Ba" break="no"/>cundum quod Deus est, principium et
+<lb ed="#Ba"/>fons est esse.
+</p>
+            <p xml:id="Almn78-a24478-d1e700">
+               <lb ed="#Ba"/>Et per Hoc patet solutio ad tria prima.
+</p>
+            <p xml:id="Almn78-a24478-d1e705">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod in divinis
+<lb ed="#Ba"/>non sequitur: hoc est notum secundum
+<lb ed="#Ba"/>hoc vel illud : ergo notum est 
+simplici<lb ed="#Ba" break="no"/>ter, licet idem sit supposito et 
+substan<lb ed="#Ba" break="no"/>tia. Unde non sequitur, si est notum 
+se<lb ed="#Ba" break="no"/>cundum quod est principium 
+intelligen<lb ed="#Ba" break="no"/>di: ergo est notum secundum quod est
+<lb ed="#Ba"/>Deum esse. Sed est ibi fallacia 
+acciden<lb ed="#Ba" break="no"/>tis, sicut hic: tu cognoscis Coriscum :
+<lb ed="#Ba"/>Coriscus est veniens: ergo tu cognoscis
+<lb ed="#Ba"/>venientem. Sub alio enim modo signi
+<pb ed="#Ba" n="117"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>ficandi significatur Deum esse et primam
+<lb ed="#Ba"/>ciusam esse : et ideo quod cognoscitur
+<lb ed="#Ba"/>sub uno modo, non oportet quod 
+co<lb ed="#Ba" break="no"/>ghoscatur sub alio.
+</p>
+            <p xml:id="Almn78-a24478-d1e744">
+               <lb ed="#Ba"/>Ad 1 quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod haec falsa est, quod
+<lb ed="#Ba"/>nullus concipit contrarium principiorum
+<lb ed="#Ba"/>vel dignitatum: falsigraphus enim 
+pro<lb ed="#Ba" break="no"/>cedit ex contrariis principiorum. Sed
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>haec est vera, quod nullus sapiens 
+con<lb ed="#Ba" break="no"/>cipit contrarium principiorum. Unde
+<lb ed="#Ba"/>cum diceret, Psal. xim, 1: Non est Deus,
+<lb ed="#Ba"/>premisit, insipiens. Insipiens enim est,
+<lb ed="#Ba"/>ut dicit Aristoteles in IV Ethicorum, qui
+<lb ed="#Ba"/>ignorat seipsum. Si enim seipsum 
+se<lb ed="#Ba" break="no"/>cundum ea que ipsius sunt sciret, Deum
+<lb ed="#Ba"/>non esse non diceret, neque cogitare 
+pos<lb ed="#Ba" break="no"/>set, ut dicit Anselmus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

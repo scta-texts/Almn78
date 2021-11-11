@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa3641"><!-- p1t1q5 -->
+            <head xml:id="Almn78-aa3641-Hd1e106">Quaestio 5</head>
+            <head xml:id="Almn78-aa3641-Hd1e109" type="question-title">
+      Quis sit modus proprius theologiae ?
+    </head>
+            <p xml:id="Almn78-aa3641-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO V.
+<lb ed="#Ba"/>Quis sit modus proprius theologiae ?
+</p>
+            <p xml:id="Almn78-aa3641-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Quinto, Secundum divisionem 
+princi<lb ed="#Ba" break="no"/>palem de modo theologia proprio 
+que<lb ed="#Ba" break="no"/>ritur.
+</p>
+            <p xml:id="Almn78-aa3641-d1e132">
+               <lb ed="#Ba"/>Et queruntur quatuor.
+<lb ed="#Ba"/>Primo enim queritur, Si habeat 
+mo<lb ed="#Ba" break="no"/>dum scientiae vel artis ?
+<lb ed="#Ba"/>Secundo, Si habeat modum certiorem
+<lb ed="#Ba"/>aliis scientiis, vel non ?
+<lb ed="#Ba"/>Tertio, Si habeat modum 
+argumenta<lb ed="#Ba" break="no"/>lionis ?
+<lb ed="#Ba"/>Quarto, Queritur de quatuor modis
+<lb ed="#Ba"/>ejus qui assignantur a Sanctis.
+</p>
+
+            <div xml:id="Almn78-aa3641-Dd1e155">
+               <head xml:id="Almn78-aa3641-Hd1e157">Membrum 1</head>
+               <head xml:id="Almn78-aa3641-Hd1e160" type="question-title">
+    Utrum theologia habeat modum scientiae
+    vel artis ?
+  </head>
+               <p xml:id="Almn78-aa3641-d1e163">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum theologia habeat modum scientiae
+<lb ed="#Ba"/>vel artis ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e172">
+                  <lb ed="#Ba"/>Primo ergo queritur, Si habeat 
+mo<lb ed="#Ba" break="no"/>ilum scientia vel artis ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e179">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>1. Omnis enim scientia modus 
+defini<lb ed="#Ba" break="no"/>tivus est, et divisivus, et collectivus. Si
+<lb ed="#Ba"/>enim ex prioribus manifestet 
+incomple<lb ed="#Ba" break="no"/>xum secundum essentiam, definitivum
+<lb ed="#Ba"/>habebit modum. Si autem ex 
+posteriori<lb ed="#Ba" break="no"/>bus incomplexam manifestet potestatem,
+<lb ed="#Ba"/>divisivum habebit modum. Si vero 
+com<lb ed="#Ba" break="no"/>plexum declarare intendat, oportet hoc
+<lb ed="#Ba"/>fieri colligendo terminos et propositiones
+<lb ed="#Ba"/>ad formam syllogisticam, vel alterius
+<lb ed="#Ba"/>ratiocinationis que ad syllogismum 
+redu<lb ed="#Ba" break="no"/>cibilis est.
+</p>
+               <p xml:id="Almn78-aa3641-d1e213">
+                  <lb ed="#Ba"/>Item, Cum ars sit factivum principium
+<lb ed="#Ba"/>cum ratione, ut dicit Aristoteles in
+<lb ed="#Ba"/>VI Ethicorum, oportet quod medium
+<lb ed="#Ba"/>artis, ut ibidem dicit, sit ratio recta 
+re<lb ed="#Ba" break="no"/>gulans opus : propter quod dicit Tullius,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-aa3641-Qd1e228"> ars est collectio principiorum ad
+<lb ed="#Ba"/>eumdem finem tendentium : </quote> hoc quod
+<lb ed="#Ba"/>rectam rationem vocavit, vocans 
+princi<lb ed="#Ba" break="no"/>pia : et hoc quod Aristoteles vocat opus,
+<lb ed="#Ba"/>vocans finem. Et hoc modo non procedit
+<lb ed="#Ba"/>sacra Scriptura, sed potius historice, vel
+<lb ed="#Ba"/>parabolice, vel etiam metaphorice, ut 
+di<lb ed="#Ba" break="no"/>cit Dionysius in libro de Caelesti hierar
+<pb ed="#Ba" n="22"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>chia, dicens, quod poetice procedit sub
+<lb ed="#Ba"/>tegumentis metaphoricis '. Videtur ergo,
+<lb ed="#Ba"/>quod modus sacre Scripture nec 
+scien<lb ed="#Ba" break="no"/>tialis, nec artificialis sit.
+</p>
+               <p xml:id="Almn78-aa3641-d1e260">
+                  <lb ed="#Ba"/>2. Adhuc, Metaphoricis sive 
+transum<lb ed="#Ba" break="no"/>ptis uti peccatum est in scientialibus et
+<lb ed="#Ba"/>artificialibus, ut dicitur in Il Zopicorum.
+<lb ed="#Ba"/>Talibus autem maxime utitur sacra 
+Scrip<lb ed="#Ba" break="no"/>tura. Ergo videtur, quod non procedat
+<lb ed="#Ba"/>scientialiter vel artificialiter.
+</p>
+               <p xml:id="Almn78-aa3641-d1e276">
+                  <lb ed="#Ba"/>3. Adhuc, Scientie et artis est 
+proce<lb ed="#Ba" break="no"/>dere per sermones manifestos : sacra
+<lb ed="#Ba"/>autem Scriptura traditur in sermonibus
+<lb ed="#Ba"/>mysticis et occullis : modus igitur sacre
+<lb ed="#Ba"/>Scripture scientialis et artificialis non
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa3641-d1e292">
+                  <lb ed="#Ba"/>Quod concedendum est. Sicut enim 
+an<lb ed="#Ba" break="no"/>te diximus, sacra Scriptura cum sit 
+scien<lb ed="#Ba" break="no"/>tia secundum pietatem et necessaria ad.
+<lb ed="#Ba"/>salutem, practica est : et quia practica
+<lb ed="#Ba"/>est, et practice scientie stant ad opus, ut
+<lb ed="#Ba"/>dicit Aristoteles in I de Anima, eo quod
+<lb ed="#Ba"/>opus conclusio est practice scientie, ut
+<lb ed="#Ba"/>dicit Aristoteles in VII Ethicorum, 
+prop<lb ed="#Ba" break="no"/>ter hoc in particularibus operibus tradita
+<lb ed="#Ba"/>est, ut quasi exemplariter rusticam 
+in<lb ed="#Ba" break="no"/>strueret concionem. Omnibus enim 
+ne<lb ed="#Ba" break="no"/>cessaria est ad salutem et sapientibus et
+<lb ed="#Ba"/>insipientibus. Ad Roman. 1, 14 : 
+Sapien<lb ed="#Ba" break="no"/>tibus et insipientibus debitor sum. Et
+<lb ed="#Ba"/>ideo modo qui competit omnibus tradi
+<lb ed="#Ba"/>debuit. Modus autem scientialis et artis
+<lb ed="#Ba"/>non omnibus competens est. I ad 
+Co<lb ed="#Ba" break="no"/>rinth. vi, 7: Non in omnibus est 
+scien<lb ed="#Ba" break="no"/>tia. Tamen quia in particularibus latent
+<lb ed="#Ba"/>theoriae universales, multe a patribus
+<lb ed="#Ba"/>pulcherrime extracte sunt et scientialiter
+<lb ed="#Ba"/>traditee et artificiose in originalibus 
+eo<lb ed="#Ba" break="no"/>rum, sicut patet in libris beatorum 
+Dio<lb ed="#Ba" break="no"/>nysi et Augustini, Gregorii et aliorum.
+<lb ed="#Ba"/>Et sic fit quod dicit Hieronymus quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-aa3641-Qd1e350"> in eadem scientia aliter doctus, aliter
+<lb ed="#Ba"/>sentit indoctus : et tamen utrobique 
+sen<lb ed="#Ba" break="no"/>tit ad edificationem. </quote> Unde Gregorius:
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-aa3641-Qd1e359"> Sacra Scriptura fluvius est, in quo
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>agnus peditat, et elephas natat : </quote> vocans
+<lb ed="#Ba"/>agnum pium et simplicem, qui quasi
+<lb ed="#Ba"/>peditando de virtute in virtutem proficit
+<lb ed="#Ba"/>in exemplari doctrina, que particulariter
+<lb ed="#Ba"/>et sensibiliter proponitur, ex qua quasi
+<lb ed="#Ba"/>paradigmate rudium accipitur 
+informa<lb ed="#Ba" break="no"/>tio. Elephantem vero vocat sapientem
+<lb ed="#Ba"/>et litteratum, qui ad profunda sapientia
+<lb ed="#Ba"/>que colligitur in particularibus, non 
+at<lb ed="#Ba" break="no"/>tingit.
+</p>
+               <p xml:id="Almn78-aa3641-d1e387">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod sicut ante
+<lb ed="#Ba"/>habitum est, noster intellectus conjunctus
+<lb ed="#Ba"/>est continuo et tempori: et ad 
+manife<lb ed="#Ba" break="no"/>stissima habet se sicut oculus 
+vespertilio<lb ed="#Ba" break="no"/>nis, qui non comprehendit lumen nisi
+<lb ed="#Ba"/>mixtum tenebris : propter quod 
+simpli<lb ed="#Ba" break="no"/>cissima et manifestissima format 
+imagi<lb ed="#Ba" break="no"/>nabiliter et sensibiliter, ut ex his quasi
+<lb ed="#Ba"/>manuductus et anagogice elevatus, 
+tan<lb ed="#Ba" break="no"/>dem attingat ad invisibilia et 
+simplicissi<lb ed="#Ba" break="no"/>ma, ut de illis secundum modum sibi
+<lb ed="#Ba"/>possibilem accipiat notitiam aliquam.
+<lb ed="#Ba"/>Unde Gregorius super illud Matthei, xin,
+<lb ed="#Ba"/>4h: Simile est regnum celorum 
+thesau<lb ed="#Ba" break="no"/>ro, sic dicit : <quote xml:id="Almn78-aa3641-Qd1e421"> Celorum regnum, fratres
+<lb ed="#Ba"/>charissimi, idcirco terrenis rebus simile
+<lb ed="#Ba"/>dicitur, ut ex his que animus novit, 
+sur<lb ed="#Ba" break="no"/>gat ad incognita que non novit : 
+quate<lb ed="#Ba" break="no"/>nus exemplo visibilium se ad invisibilia
+<lb ed="#Ba"/>rapiat, et per ea que usu didicit,: quasi
+<lb ed="#Ba"/>confortatus incalescat. </quote> Et ideo dicit
+<lb ed="#Ba"/>Boetius,quod <quote xml:id="Almn78-aa3641-Qd1e440"> difficileest nostro 
+intelle<lb ed="#Ba" break="no"/>ctui aliquid intelligere nisi per modum
+<lb ed="#Ba"/>puncti.</quote> Et Dionysius in libro de Celesti
+<lb ed="#Ba"/>hierarchia : <quote xml:id="Almn78-aa3641-Qd1e449"> Impossibile est nobis 
+ali<lb ed="#Ba" break="no"/>ter lucere divinum radium, nisi varietate
+<lb ed="#Ba"/>sacrorum velaminum anagogice 
+circum<lb ed="#Ba" break="no"/>velatum, et his que secundum nos
+<lb ed="#Ba"/>sunt providentia paterna connaturaliter
+<lb ed="#Ba"/>nobis et proprie preparatum *. </quote> Jn 
+om<lb ed="#Ba" break="no"/>nibus enim talibus, ut dicit Augustinus in
+<lb ed="#Ba"/>libro XII super Genesim ad litteram, illud
+<lb ed="#Ba"/>quod figurative et quasi materialiter 
+pin<lb ed="#Ba" break="no"/>gitur in sensu vel imaginatione, 
+immate<lb ed="#Ba" break="no"/>riali luce et infigurabili splendet 
+intelli<lb ed="#Ba" break="no"/>gentia. Hinc est, quod theologia de in-
+<pb ed="#Ba" n="23"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>comprehensibili luce agens, talibus quasi
+<lb ed="#Ba"/>poeticis utitur proprie secundum suum
+<lb ed="#Ba"/>modum. Aliae autem scientie 
+philosophi<lb ed="#Ba" break="no"/>ce que de luce nobis proportionali
+<lb ed="#Ba"/>agunt, peccant si talibus utantur. Id
+<lb ed="#Ba"/>enim quod intendunt declarare, 
+obscura<lb ed="#Ba" break="no"/>tur per talia. Clariora enim sunt in 
+se<lb ed="#Ba" break="no"/>ipsis proposita, quam in figuris 
+enigma<lb ed="#Ba" break="no"/>ticis. In theologia autem non ponuntur
+<lb ed="#Ba"/>talia propter ea que declarare intendit,
+<lb ed="#Ba"/>sed propter nostram materialem 
+intelle<lb ed="#Ba" break="no"/>ctum,qui in connaturalibus sibi paulatim
+<lb ed="#Ba"/>lucem colligit, et luce collecta 
+fortifica<lb ed="#Ba" break="no"/>tus, sic tandem ad contuenda clarissima
+<lb ed="#Ba"/>consurgit. Unde Dionysius in Celesti
+<lb ed="#Ba"/>hierarchia : <quote xml:id="Almn78-aa3641-Qd1e514"> Neque est possibile animo
+<lb ed="#Ba"/>nostro ad non materialem illam 
+ascende<lb ed="#Ba" break="no"/>re ccelestium hierarchiarum imitationem
+<lb ed="#Ba"/>et contemplationem, nisi ea que 
+secun<lb ed="#Ba" break="no"/>dum ipsum est materiali manuductione
+<lb ed="#Ba"/>utatur : visibiles quidem formas, 
+invisi<lb ed="#Ba" break="no"/>bilis pulchritudinis imagines arbitrans :
+<lb ed="#Ba"/>sensibiles suavitates, sive fragrantias, 
+in<lb ed="#Ba" break="no"/>visibilis distributionis figuras, et 
+imma<lb ed="#Ba" break="no"/>terialis luculentie imaginem materialia
+<lb ed="#Ba"/>lumina, et secundum intellectum 
+contem<lb ed="#Ba" break="no"/>plative pulchritudinis discursas 
+discipli<lb ed="#Ba" break="no"/>nas '. </quote> Ut dicit scolion de Greco in 
+La<lb ed="#Ba" break="no"/>tinum translatum, discurse discipline
+<lb ed="#Ba"/>sunt probationes eorum que spiritualia
+<lb ed="#Ba"/>sunt per visibilia, et per res latiores 
+effi<lb ed="#Ba" break="no"/>ciuntur que perenniter et repente 
+intel<lb ed="#Ba" break="no"/>lectibus immittuntur.
+</p>
+               <p xml:id="Almn78-aa3641-d1e555">
+                  <lb ed="#Ba"/>Ad ultimum dicendum, quod jam 
+ha<lb ed="#Ba" break="no"/>bita causa est, quare oportet theologiam
+<lb ed="#Ba"/>in mysticis tradi : quia aliter a nobis 
+in<lb ed="#Ba" break="no"/>telligibilis non est. Unde, I ad Corinth.
+<lb ed="#Ba"/>u, 7: Loquimur Dei sapientiam in 
+my<lb ed="#Ba" break="no"/>sterio, quae abscondita est, etc.
+</p>
+            </div>
+            <div xml:id="Almn78-aa3641-Dd1e572">
+               <head xml:id="Almn78-aa3641-Hd1e574">Membrum 2</head>
+               <head xml:id="Almn78-aa3641-Hd1e577" type="question-title">
+      Utrum theologia certiorem modum 
+      habeat aliis scientiis
+    </head>
+               <p xml:id="Almn78-aa3641-d1e580">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM 1.
+<lb ed="#Ba"/>Utrum theologia certiorem modum 
+ha<lb ed="#Ba" break="no"/>beat aliis scientiis ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e591">
+                  <lb ed="#Ba"/>Secundo juxta idem queritur, Utrum
+<lb ed="#Ba"/>certiorem modum habeat aliis scientiis,
+<lb ed="#Ba"/>vel non ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e600">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Poeticus enim modus infirmior est
+<lb ed="#Ba"/>inter modos philosophie : ex fabulis est
+<lb ed="#Ba"/>enim, que ex miris componuntur, ut 
+di<lb ed="#Ba" break="no"/>cit Philosophus in primo prime 
+philoso<lb ed="#Ba" break="no"/>phiez. Mira autem fabularum certa non
+<lb ed="#Ba"/>sunt, sed ficta.
+</p>
+               <p xml:id="Almn78-aa3641-d1e619">
+                  <lb ed="#Ba"/>2. Adhuc, Ex his que sunt fidei 
+pro<lb ed="#Ba" break="no"/>cedit. Dicit autem Richardus, quod <quote xml:id="Almn78-aa3641-Qd1e625"> 
+fi<lb ed="#Ba" break="no"/>des est inferior scientia. </quote> Alia vero
+<lb ed="#Ba"/>scientie procedunt ex scibilibus vel 
+in<lb ed="#Ba" break="no"/>telligibilibus per se notis. Ergo videtur,
+<lb ed="#Ba"/>quod non sit adeo certa sicut alie 
+scien<lb ed="#Ba" break="no"/>tie.
+</p>
+               <p xml:id="Almn78-aa3641-d1e640">
+                  <lb ed="#Ba"/>3. Adhuc, Certior est scientia que 
+pro<lb ed="#Ba" break="no"/>cedit ex sermonibus manifestis, quam
+<lb ed="#Ba"/>que ex transumptis : alia vero ex 
+ma<lb ed="#Ba" break="no"/>nifestis procedunt, theologia autem ex
+<lb ed="#Ba"/>transumptis : certiores ergo sunt alie
+<lb ed="#Ba"/>quam ista.
+</p>
+               <p xml:id="Almn78-aa3641-d1e656">
+                  <lb ed="#Ba"/>4. Adhuc, Theologia non utitur loco
+<lb ed="#Ba"/>nisi ab auctoritate : qui locus minus 
+cer<lb ed="#Ba" break="no"/>tificat et minus facit fidem inter omnes
+<lb ed="#Ba"/>locos, ut dicit Boetius in Topicis. Alize
+<lb ed="#Ba"/>autem scientiae vel demonstrative sunt,
+<lb ed="#Ba"/>vel topice, utentes locis intrincesis et
+<lb ed="#Ba"/>extrinsecis, vel mediis perfecte fidem 
+fa<lb ed="#Ba" break="no"/>cientibus. Minus ergo videtur ista certa
+<lb ed="#Ba"/>omnibus aliis.
+</p>
+               <p xml:id="Almn78-aa3641-d1e678">
+                  <lb ed="#Ba"/>5. Adhuc, Aliae scientie# utuntur 
+uni<lb ed="#Ba" break="no"/>vocis et non multiplicibus, nec 
+multipli<lb ed="#Ba" break="no"/>citate actuali vel potentiali vel 
+phanta<lb ed="#Ba" break="no"/>stica._Ista autem multiplicibus et 
+equivo<lb ed="#Ba" break="no"/>cis utitur. Cum ergo minus certificet
+<pb ed="#Ba" n="24"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>multitudo quam simplex, minus 
+certifi<lb ed="#Ba" break="no"/>cat ista quam aliqua aliarum.
+</p>
+               <p xml:id="Almn78-aa3641-d1e700">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Ista scientia innititur inspirationi
+<lb ed="#Ba"/>facte per speciem veritatis, circa quam
+<lb ed="#Ba"/>dubitare non licet. Aliae autem innituntur
+<lb ed="#Ba"/>inquisitionibus humanis et inventionibus
+<lb ed="#Ba"/>a spiritu humano inventis. Spiritus 
+au<lb ed="#Ba" break="no"/>tem humanus valde est fallax, ut dicit
+<lb ed="#Ba"/>Chrysostomus super Joannem, et 
+excogi<lb ed="#Ba" break="no"/>tatio hun.ana fallacissima. Sapient. 1x,
+<lb ed="#Ba"/>14: Cogitationes mortalium timide, et
+<lb ed="#Ba"/>incerte providentie nostre. Et infra,
+¥. 16: Et que in prospectu sunt, 
+inveni<lb ed="#Ba" break="no"/>mus cum labore. Ista ergo est certior 
+om<lb ed="#Ba" break="no"/>nibus aliis.
+</p>
+               <p xml:id="Almn78-aa3641-d1e731">
+                  <lb ed="#Ba"/>2. Adhuc, Certior est scientia que
+<lb ed="#Ba"/>magis primis innititur, quam que 
+secun<lb ed="#Ba" break="no"/>dis, et sic deinceps. Theologia autem 
+in<lb ed="#Ba" break="no"/>nititur prime veritati incircumscripte et
+<lb ed="#Ba"/>increatz et eterne : alie vero scientie
+<lb ed="#Ba"/>veritatibus creatis, et ideo non primis,
+<lb ed="#Ba"/>nec immutabilibus, nec eternis : quia
+<lb ed="#Ba"/>omne creatum, ut dicit Damascenus,
+ver<lb ed="#Ba" break="no"/>tibile sive mutabile est. Theologia ergo
+<lb ed="#Ba"/>certior omnibus est.
+</p>
+               <p xml:id="Almn78-aa3641-d1e756">
+                  <lb ed="#Ba"/>Quop concedendum est propter 
+indu<lb ed="#Ba" break="no"/>ctas rationes.
+</p>
+               <p xml:id="Almn78-aa3641-d1e763">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod sacra
+<lb ed="#Ba"/>Scriptura poeticis utitur ex divina 
+sa<lb ed="#Ba" break="no"/>pientia formatis et figuratis, in quorum
+<lb ed="#Ba"/>figuris secundum proportionem 
+similitu<lb ed="#Ba" break="no"/>dinum resultant infigurabilia et 
+immate<lb ed="#Ba" break="no"/>rialia, eo quod ab illis et ad illa formata
+<lb ed="#Ba"/>et figarata sunt, et ideo certissima sunt:
+<lb ed="#Ba"/>ex certissimis enim oriuntur et ad 
+certis<lb ed="#Ba" break="no"/>sima dirigunt. In poesi autem 
+Philoso<lb ed="#Ba" break="no"/>phorum, mira ex quibus fabula 
+compo<lb ed="#Ba" break="no"/>nitur, ex fictione humana oriuntur, et
+<lb ed="#Ba"/>per representationem ad humana 
+diri<lb ed="#Ba" break="no"/>gunt, et ideo deceptoria sunt et mendosa.
+<lb ed="#Ba"/>Unde Aristoteles in primo 
+AMetaphysico<lb ed="#Ba" break="no"/>rum: <quote xml:id="Almn78-aa3641-Qd1e797"> Secundum philosophiam poete
+<lb ed="#Ba"/>multa mentiuntur canentes. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e803">
+                  <lb ed="#Ba"/>Ad secunpum dicendum, quod alie
+<lb ed="#Ba"/>scientie ex per se notis procedunt 
+secun<lb ed="#Ba" break="no"/>dum habitudinem predicati ad subjectum
+<lb ed="#Ba"/>in natura ccmmutabili creata. Theologia
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>autem ex per se notis in luce prime 
+ve<lb ed="#Ba" break="no"/>ritatis et immutabilis et increate : et ideo
+<lb ed="#Ba"/>omnibus certior est.
+</p>
+               <p xml:id="Almn78-aa3641-d1e823">
+                  <lb ed="#Ba"/>Ad tertium dicendum, quod nihil 
+pro<lb ed="#Ba" break="no"/>hibet certius esse id quod relucet in 
+ser<lb ed="#Ba" break="no"/>mone non manifesto, quam id quod 
+re<lb ed="#Ba" break="no"/>lucet in sermone manifesto : et quod 
+in<lb ed="#Ba" break="no"/>tellectus accipiens illud, non stat in illo
+<lb ed="#Ba"/>secundum quod relucet in sermone non
+<lb ed="#Ba"/>manifesto, sed ex illo ulterius ducitur in
+<lb ed="#Ba"/>primam lucem manifestissimam, et 
+cer<lb ed="#Ba" break="no"/>tissimam, que causa est et forma omnis
+<lb ed="#Ba"/>veritatis, et ad quam omnis alia veritas
+<lb ed="#Ba"/>probanda est : et si discors est ad illam,
+<lb ed="#Ba"/>nullo modo admittenda est : si autem illi
+<lb ed="#Ba"/>concordat, solum propter hoc vera est,
+<lb ed="#Ba"/>quod illi concors invenitur. Illud autem
+<lb ed="#Ba"/>quod resultat in sermone manifesto, non
+<lb ed="#Ba"/>ducit nisi ad habitudinem rei create et
+<lb ed="#Ba"/>mutabilis.
+</p>
+               <p xml:id="Almn78-aa3641-d1e862">
+                  <lb ed="#Ba"/>Ad quartum dicendum, quod in 
+theo<lb ed="#Ba" break="no"/>logia locus ab auctoritate est ab 
+inspira<lb ed="#Ba" break="no"/>tione Spiritus veritatis. Unde Augustinus
+<lb ed="#Ba"/>in libro I super Genesim ad litteram 
+di<lb ed="#Ba" break="no"/>cit, quod <quote xml:id="Almn78-aa3641-Qd1e875"> major est Scripture 
+auctori<lb ed="#Ba" break="no"/>tas, quam omnis humani ingenii 
+perspi<lb ed="#Ba" break="no"/>cacitas. </quote> In aliis autem scientiis locus ab
+<lb ed="#Ba"/>auctoritate infirmus est, et infirmior c#
+<lb ed="#Ba" break="no"/>teris : quia perspicacitati humani ingenii
+<lb ed="#Ba"/>que fallibilis est, innititur. Propter quod
+<lb ed="#Ba"/>Tullius in libro de Natura deorum, 
+deri<lb ed="#Ba" break="no"/>dens scholam Pythagore dicit, quod <quote xml:id="Almn78-aa3641-Qd1e893"> de
+<lb ed="#Ba"/>nullo querebat rationem aliam nisi quod
+<lb ed="#Ba"/>ipse dixit : ipse autem erat Pythagoras. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e901">
+                  <lb ed="#Ba"/>Ad urtimum dicendum, quod theologia
+<lb ed="#Ba"/>non simpliciter utitur equivocis vel 
+mul<lb ed="#Ba" break="no"/>tiplicibus. Simpliciter enim equivocum
+<lb ed="#Ba"/>est, quando una vox secundum diversas
+<lb ed="#Ba"/>rationes refertur ad multa. Et ex illo non
+<lb ed="#Ba"/>potest procedere aliqua scientia nisi prius
+<lb ed="#Ba"/>distinguatur,eo quod propositio talis 
+sub<lb ed="#Ba" break="no"/>jecti vel talis predicati simpliciter est
+<lb ed="#Ba"/>plures, et non una. Et hoc non facit
+<lb ed="#Ba"/>theologia : unam enim vocem ad unum
+<lb ed="#Ba"/>refert significatum, et significatum 
+secun<lb ed="#Ba" break="no"/>dum quod stat sub una voce, refert ad
+<lb ed="#Ba"/>plures proprietates, ut ex proprietatibus
+<lb ed="#Ba"/>pluribus clarius manifestet id quod 
+secun<lb ed="#Ba" break="no"/>dum se nec formabile nec figurabile est,
+  <pb ed="#Ba" n="25"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>sicut dicit Dionysius in Celesti 
+hierar<lb ed="#Ba" break="no"/>chia', et in epistola ad Timotheum. Sic
+<lb ed="#Ba"/>enim, ut dicit Maximus, corporalium 
+si<lb ed="#Ba" break="no"/>militadines iconiz# sive imagines sunt
+<lb ed="#Ba"/>spiritualium et simplicium. Talis autem
+<lb ed="#Ba"/>processus proficit ad certitudinem, et non
+<lb ed="#Ba"/>impedit eam.
+</p>
+            </div>
+            <div xml:id="Almn78-aa3641-Dd1e957">
+               <head xml:id="Almn78-aa3641-Hd1e959">Membrum 3</head>
+               <head xml:id="Almn78-aa3641-Hd1e962" type="question-title">
+  Utrum theologia habeat modum 
+  argumentationis ?
+</head>
+               <p xml:id="Almn78-aa3641-d1e965">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Utrum theologia habeat modum 
+argu<lb ed="#Ba" break="no"/>mentationis ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e974">
+                  <lb ed="#Ba"/>Tertio juxta idem queritur, Si sacra
+<lb ed="#Ba"/>Scriptura modum possit habere, vel 
+de<lb ed="#Ba" break="no"/>beat, argumentationis ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e983">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Omnis enim argumentatio reducitur
+<lb ed="#Ba"/>ad syllogismum, et omnis syllogismus
+<lb ed="#Ba"/>per dici de omni, vel dici de nullo 
+confir<lb ed="#Ba" break="no"/>matur. Ex universalibus autem ad 
+uni<lb ed="#Ba" break="no"/>versale vel particulare non procedit 
+theo<lb ed="#Ba" break="no"/>logia. Non ergo utitur argumentis. Et
+<lb ed="#Ba"/>hoc videtur dicere Ambrosius in libro de
+<lb ed="#Ba"/>Sacramentis, sic : <quote xml:id="Almn78-aa3641-Qd1e1004"> Tolle argumenta ubi
+<lb ed="#Ba"/>fides queritur. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e1011">
+                  <lb ed="#Ba"/>2. Adhuc, Ad principia intelligenda
+<lb ed="#Ba"/>non potest ratio: talia enim non possunt
+<lb ed="#Ba"/>concludi per aliquam ratiocinationem,
+<lb ed="#Ba"/>quia immediata sunt, et ante ea nihil est:
+<lb ed="#Ba"/>aliter enim demonstratio procederet in
+<lb ed="#Ba"/>infinitum in ante sumendo, quod impos-
+</p>
+               <p xml:id="Almn78-aa3641-d1e1027">
+-sibile esse probavit Aristoteles in libro
+<lb ed="#Ba"/>Posteriorum. Cum ergo in omnibus 
+theo<lb ed="#Ba" break="no"/>logicis non reluceat nisi prima veritas,
+<lb ed="#Ba"/>que ante se ninil habet, videtur quod
+<lb ed="#Ba"/>theologia argumentis uti non potest : 
+ubi<lb ed="#Ba" break="no"/>que enim docet primam veritatem 
+secun<lb ed="#Ba" break="no"/>dum quod relucet in se, vel in-operibus
+<lb ed="#Ba"/>conditionis vel reparationis vel 
+glorifica<lb ed="#Ba" break="no"/>lionis.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1047">
+                  <lb ed="#Ba"/>3. Adhuc, Theologia fidei innititur : fi-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>des autem super rationem est: omnis
+<lb ed="#Ba"/>autem argumentatio est de his qua sub
+<lb ed="#Ba"/>ratione sunt : ergo theologia 
+argumenta<lb ed="#Ba" break="no"/>tione uti non potest.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1063">
+                  <lb ed="#Ba"/>4. Adhuc, Dicit Boetius, <quote xml:id="Almn78-aa3641-Qd1e1067"> 
+Argumen<lb ed="#Ba" break="no"/>tum est ratio dubie rei faciens fidem. </quote> In
+<lb ed="#Ba"/>nullo autem theologicorum librorum de
+<lb ed="#Ba"/>aliquo licet dubitare. Unde Augustinus in
+<lb ed="#Ba"/>epistola ad Hieronymum : <quote xml:id="Almn78-aa3641-Qd1e1079"> Solis eis
+<lb ed="#Ba"/>Scripturarum libris qui canonict 
+appellan<lb ed="#Ba" break="no"/>tur,hunc honorem deferre didici, ut 
+nul<lb ed="#Ba" break="no"/>lum auctorem eorum seribendo errasse
+<lb ed="#Ba"/>aliquid firmissime credam. Alios autem
+<lb ed="#Ba"/>ita lego, ut quantalibet scientia 
+doctrina<lb ed="#Ba" break="no"/>rum auctores eorum prepolleant, non
+<lb ed="#Ba"/>ideo verum putem quod ipsi ita 
+censue<lb ed="#Ba" break="no"/>runt. </quote> Videtur ergo, quod argumentum
+<lb ed="#Ba"/>in sacris libris locum non habeat.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1102">
+                  <lb ed="#Ba"/>In contrarivm est,
+<lb ed="#Ba"/>1. Quod dicit Avicenna, quod sicut
+<lb ed="#Ba"/>incomplexum certificari non potest nisi
+<lb ed="#Ba"/>definitione, ita complexum non 
+pot<lb ed="#Ba" break="no"/>est certificari nisi argumentatione.
+<lb ed="#Ba"/>Multa autem complexa in sacra 
+Scri<lb ed="#Ba" break="no"/>plura certificantur, sicut quod Deus est
+<lb ed="#Ba"/>trmus et unus, et quod Christus est 
+ho<lb ed="#Ba" break="no"/>mo crucifixus et mortuus, et multa alia.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1124">
+                  <lb ed="#Ba"/>Adhuc, | ad Corinth. xv, 1 et seq., 
+ar<lb ed="#Ba" break="no"/>guit Apostolus nostram resurrectionem
+<lb ed="#Ba"/>ex resurrectione Christi.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1134">
+                  <lb ed="#Ba"/>Adhuc, Multa arguuntur in libro 
+Sa<lb ed="#Ba" break="no"/>pientia, xu et xiv, de errore idolorum.
+<lb ed="#Ba"/>Similiter Jeremias in epistola sua *. 
+Si<lb ed="#Ba" break="no"/>militer Isaias a cap. xLl usque ad cap.
+<lb ed="#Ba"/>xLv, reprobando idololatriam et 
+deducen<lb ed="#Ba" break="no"/>do ad inconveniens.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1150">
+                  <lb ed="#Ba"/>2, Adhuc, Metaphysica que est de 
+pri<lb ed="#Ba" break="no"/>mo ente, quamvis nihil ante se habeat,
+<lb ed="#Ba"/>nihilominus tamén arguit ad principia
+<lb ed="#Ba"/>sua et aliorum : ergo videtur, quod 
+simi<lb ed="#Ba" break="no"/>liter debet facere theologia.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1163">
+                  <lb ed="#Ba"/>3. Adhuc, In theologia tria sunt, 
+sci<lb ed="#Ba" break="no"/>licet antecedens ad articuli fidem, sicut
+<lb ed="#Ba"/>quod Scriptura sit. Et ipse articulus sive
+<lb ed="#Ba"/>fides, secundum quod fides est quod 
+cre<lb ed="#Ba" break="no"/>ditur. Et consequens fidem, sicut quod
+<pb ed="#Ba" n="26"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>fornicatio sit mortale peccatum, hoc est,
+<lb ed="#Ba"/>eterna morte plectendum. Sed in omni
+<lb ed="#Ba"/>scientia in qua est antecedens et medium,
+<lb ed="#Ba"/>consequens potest argui ex antecedente,
+<lb ed="#Ba"/>et consequens ex medio et antecedente :
+<lb ed="#Ba"/>ergo videtur, quod theologia 
+argumenta<lb ed="#Ba" break="no"/>tiva scientia sit et syllogistica.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1196">
+                  <lb ed="#Ba"/>Soxvtio. Ad hoc dicendum, quod 
+du<lb ed="#Ba" break="no"/>pliciter contingit argumentari in 
+argu<lb ed="#Ba" break="no"/>mentativa scientia, scilicet ad 
+positio<lb ed="#Ba" break="no"/>nem, et ad rem. Ad rem per habitudinem
+<lb ed="#Ba"/>terminorum rei, quod scilicet medium
+<lb ed="#Ba"/>sit in toto primo, et postremum in toto
+<lb ed="#Ba"/>sit medio : per illud enim omnes 
+ratioci<lb ed="#Ba" break="no"/>nationes confirmantur sicut per primum
+<lb ed="#Ba"/>principium, Ad positionem autem 
+secun<lb ed="#Ba" break="no"/>dum modum positionis, ut dicit 
+Aristo<lb ed="#Ba" break="no"/>teles in VII Topicorum, ut scilicet ea
+<lb ed="#Ba"/>que sequuntur ex positione, 
+concedan<lb ed="#Ba" break="no"/>tur, et nihil concedatur repugnans.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1227">
+                  <lb ed="#Ba"/>Dicendum ergo, quod sicut ad 
+positio<lb ed="#Ba" break="no"/>nem contingit argumentari in sacra 
+Scri<lb ed="#Ba" break="no"/>ptura, non autem sicut ad rem : eo quod
+<lb ed="#Ba"/>res tota innititur prime veritati : 
+positio<lb ed="#Ba" break="no"/>nem autem defendi necesse est contra
+<lb ed="#Ba"/>hereticos : propter quod Augustinus et
+<lb ed="#Ba"/>alii pluribus rationibus hoc modo usi
+<lb ed="#Ba"/>sunt. I Petr. mt, 15: Parati semper ad
+<lb ed="#Ba"/>satisfactionem omni poscenti vos 
+ratio<lb ed="#Ba" break="no"/>nem de ea que in vobis est spe, et etiam
+<lb ed="#Ba"/>fide.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1253">
+                  <lb ed="#Ba"/>Ad primum igitur dicendum, quod 
+li<lb ed="#Ba" break="no"/>cet theologia in particularibus 
+propona<lb ed="#Ba" break="no"/>tur, tamen in particularibus universales
+<lb ed="#Ba"/>theologie resperse sunt, ex quibus 
+po<lb ed="#Ba" break="no"/>sitio defendi potest, sicut et defensa est
+<lb ed="#Ba"/>ab Augustino et multis aliis. Et quod |
+<lb ed="#Ba"/>dicit Ambrosius, ideo dicitur, quod 
+prop<lb ed="#Ba" break="no"/>ter rationem theologia credito non 
+inni<lb ed="#Ba" break="no"/>titur, sed propter revelationem prime
+<lb ed="#Ba"/>veritatis.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1278">
+                  <lb ed="#Ba"/>Ab secundum jam patet solutio : quia
+<lb ed="#Ba"/>licet ratio non possit in primam 
+verita<lb ed="#Ba" break="no"/>tem, eo quod super ipsam ex prioribus
+<lb ed="#Ba"/>simpliciter, facit tamen persuasionem
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>ex posterioribus, que priora sunt quoad
+<lb ed="#Ba"/>nos, sicut dicitur, ad Roman. 1, 20, in
+<lb ed="#Ba"/>Glossa, quod <quote xml:id="Almn78-aa3641-Qd1e1297"> summi Philosophi 
+invi<lb ed="#Ba" break="no"/>sibilia Dei cognoverunt ex creaturis 
+ar<lb ed="#Ba" break="no"/>guentes. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e1305">
+                  <lb ed="#Ba"/>Ad tertium dicendum, quod licet fidei
+<lb ed="#Ba"/>innitatur ut principiorum, tamen et ipsa
+<lb ed="#Ba"/>fides ex posterioribus crediti quarit 
+in<lb ed="#Ba" break="no"/>tellectum et rationem,sicut 
+inlibrisProso<lb ed="#Ba" break="no"/>logion,et Cur Deus homo,dicit Anselmus.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1318">
+                  <lb ed="#Ba"/>Ad ultimum dicendum, quod licet de
+<lb ed="#Ba"/>dicto sacre Scripture non licet dubitare,
+<lb ed="#Ba"/>tamen de ratione dicti dubitare licet, et
+<lb ed="#Ba"/>ad illam contingit querere 
+argumenta<lb ed="#Ba" break="no"/>tionem, et maxime ut contradicens 
+re<lb ed="#Ba" break="no"/>vincatur. Sicut in aliis scientiis est, quod
+<lb ed="#Ba"/>non est disputare ad negantem principia,
+<lb ed="#Ba"/>sed ad principia concedentem. Ita in
+<lb ed="#Ba"/>theologia ad eum qui negat sacram 
+Scri<lb ed="#Ba" break="no"/>pturam verum dicere, non est dispufatio
+<lb ed="#Ba"/>de fidei articulis, sed ad eum qui 
+conce<lb ed="#Ba" break="no"/>dit hoc, multe rationes possunt induci.
+<lb ed="#Ba"/>Sicut et metaphysicus cum negante 
+om<lb ed="#Ba" break="no"/>nia, non disputat : sed ad eum qui 
+ali<lb ed="#Ba" break="no"/>quid concedit, sicut quod nomina 
+signi<lb ed="#Ba" break="no"/>ficent, et non infinita, vel contradictoria,
+<lb ed="#Ba"/>multas de suis principiis et aliorum 
+in<lb ed="#Ba" break="no"/>ducit rationes : ad eum qui hoc negat,
+<lb ed="#Ba"/>dicens quod nomina infinita significent
+<lb ed="#Ba"/>et contradictoria, non verbo disputat,
+<lb ed="#Ba"/>sed facto, ut dicit Avicenna in IV 
+Me<lb ed="#Ba" break="no"/>taphysice suze. Non enim restat nisi
+<lb ed="#Ba"/>ut adversarius veritatis projiciatur in
+<lb ed="#Ba"/>ignem : quia secundum eum idem est
+<lb ed="#Ba"/>esse in igne, et non in igne esse. Sic
+<lb ed="#Ba"/>facit theologus, separans se ab eo qui
+<lb ed="#Ba"/>omnia negat que Scriptura dicit.
+</p>
+            </div>
+            <div xml:id="Almn78-aa3641-Dd1e1380">
+               <head xml:id="Almn78-aa3641-Hd1e1382">Membrum 4</head>
+               <head xml:id="Almn78-aa3641-Hd1e1385" type="question-title">
+  De quatuor modis expositionis sacre
+  Scripture, qui a Sanctis assignantur
+</head>
+               <p xml:id="Almn78-aa3641-d1e1388">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>De quatuor modis expositionis sacre
+<lb ed="#Ba"/>Scripture, qui a Sanctis assignantur.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1397">
+                  <lb ed="#Ba"/>Quarto, Juxta idem queritur de qua
+<pb ed="#Ba" n="27"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tuor modis expositionis sacre 
+Scriptu<lb ed="#Ba" break="no"/>re, quia Sanctis assignantur.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1410">
+                  <lb ed="#Ba"/>Dicit enim Beda in Glossa super caput
+<lb ed="#Ba"/>primum Genesis : <quote xml:id="Almn78-aa3641-Qd1e1416"> Quatuor sunt 
+sen<lb ed="#Ba" break="no"/>sus sacre Scripture, historia scilicet,
+<lb ed="#Ba"/>que res gestas loquitur. Allegoria, in
+<lb ed="#Ba"/>qua aliud ex alio intelligitur. Tropologia,
+<lb ed="#Ba"/>id est, moralis locutio, et in qua de 
+mo<lb ed="#Ba" break="no"/>ribus ordinandis tractatur. Anagogia, in
+<lb ed="#Ba"/>qua de summis et ccelestibus traditur,
+<lb ed="#Ba"/>per que ad superna ducimur. </quote> Et dat
+<lb ed="#Ba"/>exemplum. <quote xml:id="Almn78-aa3641-Qd1e1436"> Verbi gratia : Jerusalem
+<lb ed="#Ba"/>secundum historiam civitas est Judee,
+<lb ed="#Ba"/>secundum allegoriam Ecclesiam 
+signifi<lb ed="#Ba" break="no"/>cat, secundum tropologiam fidelem 
+ani<lb ed="#Ba" break="no"/>mam, secundum anagogiam omnium
+<lb ed="#Ba"/>ceelestium vitam. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e1451">
+                  <lb ed="#Ba"/>De singulis ergo istorum sensuum
+<lb ed="#Ba"/>queritur, et postea de omnibus simul.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1458">
+                  <lb ed="#Ba"/>De litterali sive historico ergo 
+queri<lb ed="#Ba" break="no"/>tur, Si semper veritati innititur ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e1465">
+                  <lb ed="#Ba"/>Et statim occurrit, quod non.
+<lb ed="#Ba"/>1. Judicum, IX, 8: Jerunt ligna ut 
+un<lb ed="#Ba" break="no"/>gerent super se regem, dixeruntque 
+oli<lb ed="#Ba" break="no"/>ve : Impera nobis. Hoc patet falsum esse.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1476">
+                  <lb ed="#Ba"/>2. Adhuc, Genes. 1v, 10: Vox 
+sangui<lb ed="#Ba" break="no"/>nis fratris tui clamat ad me de terra.
+<lb ed="#Ba"/>Hoc iterum videtur falsum esse. Et
+<lb ed="#Ba"/>multa similia sunt in sacra Scriptura.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1487">
+                  <lb ed="#Ba"/>3. Adhuc, Hugo de sancto Victore in
+<lb ed="#Ba"/>Sententiis : <quote xml:id="Almn78-aa3641-Qd1e1493"> Historia sive litteralis
+<lb ed="#Ba"/>sensus est gestarum rerum narratio, que
+<lb ed="#Ba"/>in prima facie littere continetur. </quote> Et
+<lb ed="#Ba"/>hoc falsum videtur. Isa. xxxvir, 29 :
+<lb ed="#Ba"/>Ponam circulum in naribus tuis, et 
+fre<lb ed="#Ba" break="no"/>num in labtis tuis, et reducam te in
+<lb ed="#Ba"/>viam per quam venisti. Ubi loquitur de
+<lb ed="#Ba"/>Sennacherib secundum intellectum 
+hi<lb ed="#Ba" break="no"/>storie,et tamen facies litter pratendit,
+<lb ed="#Ba"/>quod loquatur de bubalo.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1516">
+                  <lb ed="#Ba"/>4, Similiter objicitur de allegorico.
+<lb ed="#Ba"/>Est enim allegoria sermo qui non ad
+<lb ed="#Ba"/>explanationem, sed ad obscuritatem 
+vi<lb ed="#Ba" break="no"/>detur facere.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1528">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>5. Similiter de tropologico. Lucidius
+<lb ed="#Ba"/>enim aliquis instruitur ad mores per
+<lb ed="#Ba"/>sermones manifestos, quam per tropicas
+<lb ed="#Ba"/>locutiones et tropos figurarum. Unde
+<lb ed="#Ba"/>videtur, quod tropologicus non sit sermo
+<lb ed="#Ba"/>expositivus, sed potius involutivus.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1546">
+                  <lb ed="#Ba"/>6. Similiter de anagogico queritur.
+<lb ed="#Ba"/>Celestia enim et spiritualia multo 
+luci<lb ed="#Ba" break="no"/>dius ostenduntur, si describantur sicut
+<lb ed="#Ba"/>sunt per simplicia et intellectualia, quam
+<lb ed="#Ba"/>per figuras corporalium. Cum ergo 
+ana<lb ed="#Ba" break="no"/>gogicus simplicia et intellectualia per
+<lb ed="#Ba"/>figuras corporalium describat, videtur
+<lb ed="#Ba"/>non esse sermo expositivus, sed potius
+<lb ed="#Ba"/>obscurativus.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1568">
+                  <lb ed="#Ba"/>7. Adhuc, Scriptura aliquando valde
+<lb ed="#Ba"/>indecentibus utitur similitudinibus in
+<lb ed="#Ba"/>talibus, figurans Angelos in equo 
+terri<lb ed="#Ba" break="no"/>bili habente sessorem‘: et in viro 
+ar<lb ed="#Ba" break="no"/>mato : et in thronis positis * : et in
+<lb ed="#Ba"/>animalibus monstruosis quatuor facies
+<lb ed="#Ba"/>habentibus, hominis scilicet, leonis, 
+vi<lb ed="#Ba" break="no"/>tuli, et aquile *.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1588">
+                  <lb ed="#Ba"/>8. Adhuc, Aliquando ad talia 
+figuran<lb ed="#Ba" break="no"/>da utitur subtilibus corporibus secundum
+<lb ed="#Ba"/>similitudinem magis ad spiritualia 
+acce<lb ed="#Ba" break="no"/>dentibus, ut quando laudat Deum ut
+<lb ed="#Ba"/>ignem, Deuter. iv, 24: Dominus Deus
+<lb ed="#Ba"/>tuus ignis consumens est. Aliquando ut
+<lb ed="#Ba"/>stellam matutinam *. Aliquando ut 
+so<lb ed="#Ba" break="no"/>lem, Malach. iv, 2: Orietur vobts 
+ti<lb ed="#Ba" break="no"/>mentibus nomem meum Sol justitie.
+<lb ed="#Ba"/>Aliquando autem et simul ponit grossa
+<lb ed="#Ba"/>materialia spiritualibus valde informia,
+<lb ed="#Ba"/>sicut montes plenos equorum igneorum
+<lb ed="#Ba"/>et curruum ostendit circa Eliseum °.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1619">
+                  <lb ed="#Ba"/>Et queritur, Quare hoc faciat, et
+<lb ed="#Ba"/>utrum melius spiritualia celestia 
+figu<lb ed="#Ba" break="no"/>rentur per informia, grossa, et 
+materia<lb ed="#Ba" break="no"/>lia, vel per conformia, subtilia scilicet, et
+<lb ed="#Ba"/>spiritualibus similia.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1632">
+                  <lb ed="#Ba"/>9. Adhuc, Ulterius de omnibus his
+<lb ed="#Ba"/>objicitur simul : Dionysius enim non 
+di<lb ed="#Ba" break="no"/>citesse in sacra Scriptura nisi sensum
+<pb ed="#Ba" n="28"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>mysticum et symbolicum : mysticum
+<lb ed="#Ba"/>vocans, quando ea de spiritualibus 
+di<lb ed="#Ba" break="no"/>cuntur que quidem per prius et verius
+<lb ed="#Ba"/>sunt in spiritualibus quam in nobis, sed
+<lb ed="#Ba"/>sunt in eis per rationem occultam nobis,
+<lb ed="#Ba"/>sicut quando Deus dicitur vel Angelus
+<lb ed="#Ba"/>substantia vel vita vel intellectus vel
+<lb ed="#Ba"/>res. Symbolicum vero dicit, quando in
+<lb ed="#Ba"/>corporalibus res incorporales vel 
+intelle<lb ed="#Ba" break="no"/>ctuales significantur, ut crater 
+sapien<lb ed="#Ba" break="no"/>tie, et quod vocavit ad arcem et meenia
+<lb ed="#Ba"/>civitatis '. Videtur ergo, quod non sunt
+<lb ed="#Ba"/>nisi duo.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1675">
+                  <lb ed="#Ba"/>10. Adhuc, Hugo de sancto Victore
+<lb ed="#Ba"/>non videtur ponere nisi tres, scilicet
+<lb ed="#Ba"/>historicum, allegoricum, et 
+tropologi<lb ed="#Ba" break="no"/>cum, et de quarto nihil dicit.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1686">
+                  <lb ed="#Ba"/>11. Adhuc, Augustinus in libro de
+<lb ed="#Ba"/>Utilitate credendi sic dicit : <quote xml:id="Almn78-aa3641-Qd1e1692"> Scriptura
+<lb ed="#Ba"/>omnis que Vetus Testamentum dicitur,
+<lb ed="#Ba"/>quadrifarie traditur, vel secundum 
+histo<lb ed="#Ba" break="no"/>riam, cum docetur quod scriptum est:
+<lb ed="#Ba"/>vel secundum etymologiam, cum 
+doce<lb ed="#Ba" break="no"/>tur qua de causa est scriptum : vel 
+se<lb ed="#Ba" break="no"/>cundum anagogiam, cum docetur 
+con<lb ed="#Ba" break="no"/>venientia inter duo Testamenta : vel
+<lb ed="#Ba"/>secundum allegoriam, cum docetur ad
+<lb ed="#Ba"/>litteram non esse accipienda, sed 
+spiri<lb ed="#Ba" break="no"/>tualiter intelligenda. </quote> Ex quo accipitur,
+<lb ed="#Ba"/>quod mysticus sensus triplex est, et 
+lit<lb ed="#Ba" break="no"/>teralis unicus, et tropologicus nullus.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1721">
+                  <lb ed="#Ba"/>12. Adhuc, Multi modi inveniuntur
+<lb ed="#Ba"/>in sacra Scriptura, exemplaris scilicet in
+<lb ed="#Ba"/>historiis, Joan. xt, 15: Exemplum 
+de<lb ed="#Ba" break="no"/>di vobis, ut quemadmodum ego fect 
+vo<lb ed="#Ba" break="no"/>bis, ita et vos faciatis. Preceptivus in
+<lb ed="#Ba"/>lege, Eccli. xxiv, 33 : Legem mandavit
+<lb ed="#Ba"/>Moyses in preceptis justitiarum. 
+Reve<lb ed="#Ba" break="no"/>lativus in Prophetis, Osee, xn, 10: Ego
+<lb ed="#Ba"/>vistonem multiplicavi. Hymmidicus et
+<lb ed="#Ba"/>orativus in Psalmo txiv, 2: Te decet
+<lb ed="#Ba"/>hymnus, Deus, in Sion. Parabolicus in
+<lb ed="#Ba"/>libris Salomonis, Proverb. 1, 6 : 
+Ani<lb ed="#Ba" break="no"/>madvertet parabolam, et 
+interpretatio<lb ed="#Ba" break="no"/>nem. Disputativus in libro Job, sicut 
+di<lb ed="#Ba" break="no"/>cit Hieronymus in prologo super Job et
+<lb ed="#Ba"/>Rabbi Moyses, quod quatuor amici Job
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>et Job ipse de providentia disputant :
+<lb ed="#Ba"/>cujus disputationis Deus inducitur 
+de<lb ed="#Ba" break="no"/>terminator. Et admonitivus et 
+exhorta<lb ed="#Ba" break="no"/>tivus in epistolis Apostolorum. In 
+Apo<lb ed="#Ba" break="no"/>calypsi revelativus modus est, sicut et in
+<lb ed="#Ba"/>Prophetis.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1773">
+                  <lb ed="#Ba"/>Et queritur, Ad quid omnes isti 
+mo<lb ed="#Ba" break="no"/>di necessarii sunt, et penes quid 
+acci<lb ed="#Ba" break="no"/>piantur ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e1782">
+                  <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod in
+<lb ed="#Ba"/>veritate quatuor sunt modi exponendi id
+<lb ed="#Ba"/>quod dicit sacra Scriptura, ut dicit Beda.
+<lb ed="#Ba"/>Ita tamen, quod sicut dicit Apostolus,
+<lb ed="#Ba"/>I ad Corinth. xv, 46 : Non prius quod
+<lb ed="#Ba"/>spiritale est, sed quod animale : deinde
+<lb ed="#Ba"/>quod spiritale. Unde litteralis sensus
+<lb ed="#Ba"/>primus est, et in ipso fundantur tres alii
+<lb ed="#Ba"/>sensus spirituales. Tria enim sunt ad
+<lb ed="#Ba"/>que nos instrui oportet, verum scilicet
+<lb ed="#Ba"/>iluminans intellectum per fidem : et ad
+<lb ed="#Ba"/>hoc deservit sensus allegoricus. Et 
+bo<lb ed="#Ba" break="no"/>num virtutis, quo perficitur affectus ad
+<lb ed="#Ba"/>meritum : et ad hoc deservit 
+tropologi<lb ed="#Ba" break="no"/>cus sive moralis. Et finis beatitudinis, ad
+<lb ed="#Ba"/>quem tendimus per verum et bonum : et
+<lb ed="#Ba"/>ad hoc deservit anagogicus, Et isti tres
+<lb ed="#Ba"/>stant in litterali sicut in fundamento.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1824">
+                  <lb ed="#Ba"/>Et quod objicitur contra litteralem
+<lb ed="#Ba"/>sensum, dicendum quod in litterali 
+sen<lb ed="#Ba" break="no"/>su intenditur tam dictum, quam causa
+<lb ed="#Ba"/>dicti. Unde secundum causam dicti 
+ve<lb ed="#Ba" break="no"/>rum.est quod dicitur, Judicum, 1x, 8,
+<lb ed="#Ba"/>et Genes. iv, 10, licet secundum id quod
+<lb ed="#Ba"/>dicitur, non sit verum.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1843">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod intentio 
+di<lb ed="#Ba" break="no"/>centis expressa in littera, est litteralis
+<lb ed="#Ba"/>sensus : intentio dico in re gesta. Et hoc
+<lb ed="#Ba"/>modo, Isa. xxxvi, 29, litteralis sensus
+<lb ed="#Ba"/>est de Sennacherib, licet similitudo sit
+<lb ed="#Ba"/>de bubalo.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1859">
+                  <lb ed="#Ba"/>Ad aliud quod de allegorico dicitur,
+<lb ed="#Ba"/>dicendum quod hoc verum esset quod
+<lb ed="#Ba"/>objicit, si intellectus noster uniformis 
+es<lb ed="#Ba" break="no"/>set simpliciter : nunc autem quia 
+mate<lb ed="#Ba" break="no"/>rialis est, ex multis et late sparsis per
+<lb ed="#Ba"/>discursas disciplinas oportet eum manu
+<pb ed="#Ba" n="29"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>duci ad veritatem spiritualem. Licet ergo
+<lb ed="#Ba"/>simpliciter alienus sermo sit nobis, 
+ta<lb ed="#Ba" break="no"/>men est expositivus et declarativus.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1885">
+                  <lb ed="#Ba"/>Ad id quod de ¢ropologico objicitur,
+<lb ed="#Ba"/>fere similiter respondendum. Rudis enim
+<lb ed="#Ba"/>concio per similitudines rerum facilius
+<lb ed="#Ba"/>inducitur, quam per apertos sermones,
+<lb ed="#Ba"/>precipue propter hoc, quia sermo de
+<lb ed="#Ba"/>moribus, ut dicit Aristoteles in IX 
+Ethi<lb ed="#Ba" break="no"/>corum, non habet sufficientem 
+persua<lb ed="#Ba" break="no"/>sionem, sed plus accipitur amore, vel
+<lb ed="#Ba"/>coactione, quam persuasione. 
+Tropolo<lb ed="#Ba" break="no"/>gice autem ut amabilis vel coactivus
+<lb ed="#Ba"/>proponitur : et ideo plus ad 
+instructio<lb ed="#Ba" break="no"/>nem valet tropologicus, quam sermo
+<lb ed="#Ba"/>planus : sermo enim planus de 
+mori<lb ed="#Ba" break="no"/>bus non nisi ex ratione persuasivus
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa3641-d1e1920">
+                  <lb ed="#Ba"/>Ad id quod objicitur de anagogico,
+<lb ed="#Ba"/>dicendum quod procederet objectio, si
+<lb ed="#Ba"/>spiritualia, secundum sui naturam et
+<lb ed="#Ba"/>proprietatem exponerentur : nunc autem
+<lb ed="#Ba"/>nobis secundum intellectum nostrum
+<lb ed="#Ba"/>materialem exponuntur : et ideo nobis
+<lb ed="#Ba"/>competentius exponuntur per 
+similitu<lb ed="#Ba" break="no"/>dines corporales, ut patet per antedicta :
+<lb ed="#Ba"/>et ideo quoad nos anagogia explanatio
+<lb ed="#Ba"/>est. Unde Dionysius in Celesti 
+hierar<lb ed="#Ba" break="no"/>chia: <quote xml:id="Almn78-aa3641-Qd1e1946"> Pulchre procurate sunt 
+infor<lb ed="#Ba" break="no"/>mium forme propter nostram 
+anago<lb ed="#Ba" break="no"/>giam non valentem immediate in 
+invi<lb ed="#Ba" break="no"/>sibiles extendi contemplationes *. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e1956">
+                  <lb ed="#Ba"/>Ad ww quod objicitur, quod aliquando
+<lb ed="#Ba"/>Scriptura indecentibus et monstruosis
+<lb ed="#Ba"/>ulitur, dicendum quod hoc facit duabus
+<lb ed="#Ba"/>de causis. Una est propter nos, ut scilicet
+<lb ed="#Ba"/>noster intellectus propter indecentem
+<lb ed="#Ba"/>formationem resiliat, et spiritualia nihil
+<lb ed="#Ba"/>talium esse credat, sed in proprietatibus
+<lb ed="#Ba"/>similitudines querat. Secunda est, ut
+<lb ed="#Ba"/>sciatur, quod nihil est ita spiritualibus
+<lb ed="#Ba"/>dissimile in quo significationis divine
+<lb ed="#Ba"/>indicium non resplendeat, propter illud
+<lb ed="#Ba"/>quod dicitur, Genes. 1, 31 : Vidit Deus
+<lb ed="#Ba"/>cuncta que fecerat ; et erant valde bona.
+<lb ed="#Ba"/>Augustinus in libro XI de Civitate Dei:
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-aa3641-Qd1e1992"> Per omnia opera sua significationis
+<lb ed="#Ba"/>suae sparsit indicia *. </quote> Dionysius : <quote xml:id="Almn78-aa3641-Qd1e1998"> In
+<lb ed="#Ba"/>omnibus est accipere bonas 
+contempla<lb ed="#Ba" break="no"/>tiones. Decentes autem sumit sacra 
+Scri<lb ed="#Ba" break="no"/>ptura, propter eam que est ad spiritualia
+<lb ed="#Ba"/>conformitatem. </quote>
+               </p>
+               <p xml:id="Almn78-aa3641-d1e2010">
+                  <lb ed="#Ba"/>Ad id quod queritur, Per que melius
+<lb ed="#Ba"/>significantur spiritualia ?
+</p>
+               <p xml:id="Almn78-aa3641-d1e2018">
+                  <lb ed="#Ba"/>Dicendum, quod procul dubio secundum
+<lb ed="#Ba"/>naturam rei magis et melius 
+significan<lb ed="#Ba" break="no"/>tur per conformia: utilius tamen nobis per
+<lb ed="#Ba"/>inconformia. Gujussecundum Dionysium,
+<lb ed="#Ba"/>tres sunt rationes : quarum una est,
+<lb ed="#Ba"/>quod inconformia similiora sunt 
+nega<lb ed="#Ba" break="no"/>tioni quam conformia. In Deo autem
+<lb ed="#Ba"/>negationes sunt vere, affirmationes 
+in<lb ed="#Ba" break="no"/>compacte : nihil enim de Deo possumus
+<lb ed="#Ba"/>affirmare, quod secundum rationem qua
+<lb ed="#Ba"/>innotescit nobis significatio ejus, de Deo
+<lb ed="#Ba"/>verum sit, sed potius eminenter et ex-
+<lb ed="#Ba" break="no"/>cellenter. Unde Dionysius in Mystica
+<lb ed="#Ba"/>theologia : <quote xml:id="Almn78-aa3641-Qd1e2050"> In ipso oportet omnium
+<lb ed="#Ba"/>positiones affirmare, et omnipotentius
+<lb ed="#Ba"/>negare, tamquam nihil existente 
+om<lb ed="#Ba" break="no"/>nium eorum que sunt.</quote> Unde cum 
+dici<lb ed="#Ba" break="no"/>tur Deus substantia, statim negandum
+<lb ed="#Ba"/>est dicendo, non est substantia, sed 
+su<lb ed="#Ba" break="no"/>per omnem substantiam. Hac igitur 
+ra<lb ed="#Ba" break="no"/>tione per inconformia sibi, nobis utilius
+<lb ed="#Ba"/>significatur. Verior enim est hac, Deus
+<lb ed="#Ba"/>non est lapis, quam hec, Deus est 
+lu<lb ed="#Ba" break="no"/>men. Secunda causa est : quia ab 
+in<lb ed="#Ba" break="no"/>conformibus citius resilit intellectus,
+<lb ed="#Ba"/>nihil talium credens esse Deum vel 
+spi<lb ed="#Ba" break="no"/>ritualia, quamvis in proprietatibus 
+eo<lb ed="#Ba" break="no"/>rum aliquid de eis significetur. Tertia
+<lb ed="#Ba"/>causa est : quia spiritualia magis 
+velan<lb ed="#Ba" break="no"/>tur in talibus et occultantur ab 
+immun<lb ed="#Ba" break="no"/>dis hominibus. Matth. vu, 6: Nolite
+<lb ed="#Ba"/>dare sanctum canibus, neque mittatis
+<lb ed="#Ba"/>margaritas vestras ante porcos. Quidam
+<lb ed="#Ba"/>etiam dicunt addendo aliam causam :
+<lb ed="#Ba"/>quia ex hoc magis excitatur homo ad
+<lb ed="#Ba"/>studium : magis enim querit que 
+difli<lb ed="#Ba" break="no"/>cile est invenire, quam que facile.
+<lb ed="#Ba"/>Quidam quintam addunt, meritum fidei :
+<pb ed="#Ba" n="30"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>magis enim meritorium est credere quod
+<lb ed="#Ba"/>latet, quam quod apertum est.
+</p>
+               <p xml:id="Almn78-aa3641-d1e2114">
+                  <lb ed="#Ba"/>Ad id quod objicitur, quod duo sunt
+<lb ed="#Ba"/>modi tantum, symbolicus, et mysticus :
+<lb ed="#Ba"/>dicendum quod Dionysius non assignat
+<lb ed="#Ba"/>modos exponendi sed modos 
+signifi<lb ed="#Ba" break="no"/>candi spiritualia per ea in quibus 
+signi<lb ed="#Ba" break="no"/>ficantur : et illa non nisi duo sunt, 
+my<lb ed="#Ba" break="no"/>stica, et symbolica.
+</p>
+               <p xml:id="Almn78-aa3641-d1e2132">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Hugo de
+<lb ed="#Ba"/>sancto Victore comprehendit 
+anagogi<lb ed="#Ba" break="no"/>cum sub allegorico.
+</p>
+               <p xml:id="Almn78-aa3641-d1e2141">
+                  <lb ed="#Ba"/>Ad id quod objicitur de Augustino in
+<lb ed="#Ba"/>libro de Utilitate credendi, dicendum
+<lb ed="#Ba"/>quod Augustinus distinguit intellectus
+<lb ed="#Ba"/>sacre Scripture non secundum modum
+<lb ed="#Ba"/>expositionum, sed secundum modum
+<lb ed="#Ba"/>intelligendi qui est in littera, vel in
+<lb ed="#Ba"/>spiritu. Unde historicus et etymologicus
+<lb ed="#Ba"/>et anagogicus sub litterali sensu 
+com<lb ed="#Ba" break="no"/>prehenduntur, secundum diversitatem
+<lb ed="#Ba"/>qué superius dicta est, quod scilicet
+<lb ed="#Ba"/>historicus rem simpliciter narrat, 
+ety<lb ed="#Ba" break="no"/>mologicus cum causa, anagogicus autem
+<lb ed="#Ba"/>cum utriusque testamenti consonantia.
+</p>
+               <p xml:id="Almn78-aa3641-d1e2172">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Et sub allegorico comprehendit tres,
+<lb ed="#Ba"/>allegoricum scilicet specialem, et 
+tropo<lb ed="#Ba" break="no"/>logicum, et anagogicum specialem.
+</p>
+               <p xml:id="Almn78-aa3641-d1e2183">
+                  <lb ed="#Ba"/>Ad id quod ultra queritur, dicendum
+<lb ed="#Ba"/>quod quia bonum virtutis meritorie est
+<lb ed="#Ba"/>circa difficile bonum, oportet habere
+<lb ed="#Ba"/>multa inclinantia ad ipsum, scilicet
+<lb ed="#Ba"/>coactive, et instructive. Si coactive, hoc
+<lb ed="#Ba"/>est, per modum disponentis : et 
+ad<lb ed="#Ba" break="no"/>monitorius vel exhortatorius modus est.
+<lb ed="#Ba"/>Si per modum compellentis, est 
+pre<lb ed="#Ba" break="no"/>ceptorius. Si autem est per modum 
+in<lb ed="#Ba" break="no"/>structionis : autest ad intellectum, aut
+<lb ed="#Ba"/>extra ad sensum. Si est ad intellectum :
+<lb ed="#Ba"/>aut est ut impetretur spiritus : et sic
+<lb ed="#Ba"/>est hymnidicus, aut hortativus. Aut ut
+<lb ed="#Ba"/>impetratus jam illuminet : et sic est
+<lb ed="#Ba"/>revelativus, ut in prophetiis et in 
+Apo<lb ed="#Ba" break="no"/>calypsi. Si autem est extra ad sensum :
+<lb ed="#Ba"/>aut est per comparationes rerum et 
+si<lb ed="#Ba" break="no"/>militudines, et sic est parabolicus tam
+<lb ed="#Ba"/>in libris Salomonis, quam in parabolis
+<lb ed="#Ba"/>Evangelicis : aut per modum 
+exempla<lb ed="#Ba" break="no"/>ris extra, et sic est historicus.
+</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

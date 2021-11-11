@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 60</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 60</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="587"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e30560"><!-- p2t11q60 -->
+            <head xml:id="Almn78-e30560-Hd1e106">Quaestio 60</head>
+            <head xml:id="Almn78-e30560-Hd1e109" type="question-title">
+      De opere quintae diei
+    </head>
+            <p xml:id="Almn78-e30560-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LX.
+      <lb ed="#Bb"/>De opere quintae diei, et de ornatu aquae et aeris.
+    </p>
+            <p xml:id="Almn78-e30560-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde querendum est de hoc quod
+      <lb ed="#Bb"/>dicit Magister in libro 11 Sententiarum,
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>distint. XV, cap. Dixit etiam Deus: 
+      <lb ed="#Bb"/>Producant aquae reptile animae viventis.
+      <pb ed="#Bb" n="588"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Ubi querendum est de ornatu aque
+      <lb ed="#Bb"/>et aeris.
+    </p>
+            <p xml:id="Almn78-e30560-d1e145">
+               <lb ed="#Bb"/>Et queritur primo, Quomodo uno
+      <lb ed="#Bb"/>die, scilicet quinto producitur 
+      ornamen<lb ed="#Bb" break="no"/>tum et aque et aeris? cum duo elementa
+      <lb ed="#Bb"/>sunt, et ideo duobus diebus deberent
+      <lb ed="#Bb"/>ornari sicut ccelum et terra.
+    </p>
+            <p xml:id="Almn78-e30560-d1e159">
+               <lb ed="#Bb"/>Ulterius queritur, Quomodo de uno
+      <lb ed="#Bb"/>materiali principio producitur et 
+      orna<lb ed="#Bb" break="no"/>mentum aque et ornamentum aeris, hoc
+      <lb ed="#Bb"/>est, pisces et aves? Sic enim dicitur :
+      <lb ed="#Bb"/>Producant aque reptile anime viventis,
+      <lb ed="#Bb"/>et volatile super lerram.
+    </p>
+            <p xml:id="Almn78-e30560-d1e175">
+               <lb ed="#Bb"/>Et hoc videtur non debre esse :
+      <lb ed="#Bb"/>4. Singulorum enim elementorum 
+      or<lb ed="#Bb" break="no"/>namentum debet habere materiale 
+      prin<lb ed="#Bb" break="no"/>cipium ipsum elementum cujus ornatus
+      <lb ed="#Bb"/>est : sicut ornatus cceli naturam ceeli
+      <lb ed="#Bb"/>habuit materiale principium. |
+    </p>
+            <p xml:id="Almn78-e30560-d1e191">
+               <lb ed="#Bb"/>2. Adhuc, Materiale principium 
+      mo<lb ed="#Bb" break="no"/>vetur et non movet : videtur ergo 
+      dimi<lb ed="#Bb" break="no"/>nute loqui quando dicit : Producant
+      <lb ed="#Bb"/>aque, et non addit quo movente vel
+      <lb ed="#Bb"/>agente aque illud producant.
+    </p>
+            <p xml:id="Almn78-e30560-d1e204">
+               <lb ed="#Bb"/>3. Adhuc, Quid est dictum, reptile
+      <lb ed="#Bb"/>anime viventis, et que differentia ad
+      <lb ed="#Bb"/>volatile et motabile, de quo infra dicet,
+      <lb ed="#Bb"/>et volatile coeli juxta genus suum.
+    </p>
+            <p xml:id="Almn78-e30560-d1e215">
+               <lb ed="#Bb"/>4. Adhuc, Volatile videtur esse 
+      orna<lb ed="#Bb" break="no"/>tus terre : quia sic dicit : Ht volatile
+      <lb ed="#Bb"/>super terram sub firmamento celi. Wlud
+      <lb ed="#Bb"/>enim elementum ornatur, quod ad 
+      mo<lb ed="#Bb" break="no"/>tum et ad locum animalis ornantis 
+      depu<lb ed="#Bb" break="no"/>tatur.
+    </p>
+            <p xml:id="Almn78-e30560-d1e231">
+               <lb ed="#Bb"/>5. Adhuc, Cum duo sint elementa ex
+      <lb ed="#Bb"/>quibus componitur corpus animalium,
+      <lb ed="#Bb"/>scilicet terra, ex qua est substantia
+      <lb ed="#Bb"/>materie corporum animalium, ut dicit
+      <lb ed="#Bb"/>Philosophus, et aqua continuans partes
+      <lb ed="#Bb"/>ut possint recipere figuram et formam
+      <lb ed="#Bb"/>tam in toto, quam in membris : quare
+      <lb ed="#Bb"/>non dicit : Producant aque et terra
+      <lb ed="#Bb"/>reptile anima viventis, sed tantum 
+      dici<lb ed="#Bb" break="no"/>tur : Producani aque.
+    </p>
+            <p xml:id="Almn78-e30560-d1e256">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>6. Adhuc, Cum quedam sint 
+      anima<lb ed="#Bb" break="no"/>lia que generantur in terra et 
+      nutriun<lb ed="#Bb" break="no"/>tur in aqua, sicut dicit Aristoteles in
+      <lb ed="#Bb"/>Vil de Animalibus de delphino, quod 
+      nu<lb ed="#Bb" break="no"/>tritur in aqua et generat in terra: unde
+      <lb ed="#Bb"/>partos foetus usque ad duodecimum diem
+      <lb ed="#Bb"/>a littore maris sepius ducit ad mare ut
+      <lb ed="#Bb"/>mare assuescant : et non dicit in littera
+      <lb ed="#Bb"/>ad cujus elementi ornatum hee 
+      perti<lb ed="#Bb" break="no"/>neant, vel ex quo elemento : ergo videtur
+      <lb ed="#Bb"/>esse diminutus.
+    </p>
+            <p xml:id="Almn78-e30560-d1e285">
+               <lb ed="#Bb"/>Apuuc queritur de hoc quod dicit :
+      <lb ed="#Bb"/>Creavitque Deus cete grandiat : cum
+      <lb ed="#Bb"/>istud opus non sit opus creationis, sed
+      <lb ed="#Bb"/>opus conditionis et ornatus, quod fit ex
+      <lb ed="#Bb"/>prejacenti materia : creationis au'em
+      <lb ed="#Bb"/>opus nullam habet materiam 
+      prejacen<lb ed="#Bb" break="no"/>tem.
+    </p>
+            <p xml:id="Almn78-e30560-d1e303">
+               <lb ed="#Bb"/>Avuuc, Infra dicit : Ht omnem 
+      ani<lb ed="#Bb" break="no"/>mam viventem atque motabilem, quam
+      <lb ed="#Bb"/>produxerant aque in species suas*. De
+      <lb ed="#Bb"/>avibus autem loquens dicit : Omne 
+      vo<lb ed="#Bb" break="no"/>tatile secundum genus suum®* : quare
+      <lb ed="#Bb"/>dicit hic genus, ibi speciem?
+    </p>
+            <p xml:id="Almn78-e30560-d1e319">
+               <lb ed="#Bb"/>Urterivs queritur de hoc quod 
+      di<lb ed="#Bb" break="no"/>cit : Vidié Deus, quod esset bonum.
+      <lb ed="#Bb"/>Benedizilque eis dicens.: Crescite, et
+      <lb ed="#Bb"/>mulliplicamini +: et hoc non dixit de
+      <lb ed="#Bb"/>terrenascentibus plantis supra, sed 
+      sim<lb ed="#Bb" break="no"/>pliciter dixit : Germinet terra herbam
+      <lb ed="#Bb"/>virentem et facientem semen, et lignum
+      <lb ed="#Bb"/>pomiferum faciens fructum juxta genus
+      <lb ed="#Bb"/>suum*®. Cum enim utrumque ex semine
+      <lb ed="#Bb"/>generetur et mulliplicetur, sicut dixit :
+      <lb ed="#Bb"/>Crescite, et multiplicamini, in 
+      benedi<lb ed="#Bb" break="no"/>ctione animalium aquatilium : ita 
+      de<lb ed="#Bb" break="no"/>buit dicere in benedictione plantarum :
+      <lb ed="#Bb"/>vel si tacuit, et hic tacere debuit.
+    </p>
+            <p xml:id="Almn78-e30560-d1e352">
+               <lb ed="#Bb"/>Solutio. Ad primum dicendum, quod
+      <lb ed="#Bb"/>licet duo elementa sint aer et aqua, in hoc
+      <lb ed="#Bb"/>tamen conveniunt, ut dicit Plato, quod
+      <pb ed="#Bb" n="589"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>media sunt inter extrema mundi 
+      sensi<lb ed="#Bb" break="no"/>bil’s, que sunt coelum et terra : et ideo
+      <lb ed="#Bb"/>distinctos ornatus habent ccelum et 
+      ter<lb ed="#Bb" break="no"/>ra per dies. Ad eamdem autem diem
+      <lb ed="#Bb"/>refertur ornatus medii sive aque sive
+      <lb ed="#Bb"/>aeris. Aliter enim, ut dicit Plato, 
+      opor<lb ed="#Bb" break="no"/>teret esse plures proportiones extremi ad
+      <lb ed="#Bb"/>extremum, quam per duo media, quod
+      <lb ed="#Bb"/>esse non: potest. Unde quia duobus illis
+      <lb ed="#Bb"/>mediis ut uno conjunguntur illa 
+      extre<lb ed="#Bb" break="no"/>ma, ideo uno die ornantur.
+    </p>
+            <p xml:id="Almn78-e30560-d1e389">
+               <lb ed="#Bb"/>Ad id quod ulterius’ queritur,  
+      re<lb ed="#Bb" break="no"/>spondendum est per Augustinum inlibro
+      <lb ed="#Bb"/>contra Manicheum : et ponitur ibidem
+      <lb ed="#Bb"/>in Glossa magna marginali sic : <quote xml:id="Almn78-e30560-Qd1e399"> Ideo
+        <lb ed="#Bb"/>non est dictum, Producant aque repti-~
+        <lb ed="#Bb"/>lia, et aer volatilia, sed utrumque ex
+        <lb ed="#Bb"/>aquis productum esse narratur : quia
+        <lb ed="#Bb"/>quidquid aquarum sive labiliter 
+        undo<lb ed="#Bb" break="no"/>sum sive vaporabiliter tenuatum est,
+        <lb ed="#Bb"/>totum tamen humide nature deputatur. </quote>
+               <lb ed="#Bb"/>Et intendit dicere quod dicit Philosophus
+      <lb ed="#Bb"/>in libro de Sensu et sensato, quod 
+      scili<lb ed="#Bb" break="no"/>cet aer est elementum humidi spiritualis
+      <lb ed="#Bb"/>quod non est incorporabile in 
+      genera<lb ed="#Bb" break="no"/>tione animalium et nutritione. Et est
+      <lb ed="#Bb"/>aqua elementum humidi incorporabilis
+      <lb ed="#Bb"/>et in generatione et nutritione, ‘et quod
+      <lb ed="#Bb"/>facile induit formmam aeris per 
+      evapora<lb ed="#Bb" break="no"/>tionem et’ exaltationem. Unde juxta
+      <lb ed="#Bb"/>terram aer permixtus est humido aqueo,
+      <lb ed="#Bb"/>per quod aliquantulum  inspissatus,
+      <lb ed="#Bb"/>potest esse locus in quo moventur aves,
+      <lb ed="#Bb"/>ita quod sustentet alas avium, et per
+      <lb ed="#Bb"/>spiritam attrahi possit ad spirandi 
+      re<lb ed="#Bb" break="no"/>frigerium : in sublimi est ita subtilis,
+      <lb ed="#Bb"/>quod nec vapore humido ad rotandum,
+      <lb ed="#Bb"/>nec vapore sicco terreo ad ventandum
+      <lb ed="#Bb"/>miscetur : et ideo ibi habitatio 
+      anima<lb ed="#Bb" break="no"/>lium esse non potest. Et hoc Augustinus
+      <lb ed="#Bb"/>tali experimento docet dicens, quod in
+      <lb ed="#Bb"/>Macedonia mons mire altitudinis est,
+      <lb ed="#Bb"/>qui vocatur Olympus, in quem 
+      Philoso<lb ed="#Bb" break="no"/>phi ascendentes in superioribus suis non
+      <lb ed="#Bb"/>invenientes aerem pinguem ad 
+      spiran<lb ed="#Bb" break="no"/>dum, portant secum spongias infusas
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>clara et subtili aqua, per quas spirent
+      <lb ed="#Bb"/>aerem sublilem, ut pinguescat in 
+      spon<lb ed="#Bb" break="no"/>giis, et sic valeat ad refrigerium 
+      pulmo<lb ed="#Bb" break="no"/>nis ct pectoris. Ascendentes autem in
+      <lb ed="#Bb"/>cacumina montis in arena sive in sabulo
+      <lb ed="#Bb"/>scribunt litteras et protrahunt figuras,
+      <lb ed="#Bb"/>et descendunt, et post annum 
+      reascen<lb ed="#Bb" break="no"/>dentes inveniunt lilteras et figuras in
+      <lb ed="#Bb"/>nulla sui parte deletas : quod esse non
+      <lb ed="#Bb"/>posset, si aer ille vaporibus humidis vel
+      <lb ed="#Bb"/>siccis vel ventosis agitaretur. Unde vult
+      <lb ed="#Bb"/>Augustinus, quod ex humido aqueo 
+      la<lb ed="#Bb" break="no"/>biliter undoso et pinguescente inferius
+      <lb ed="#Bb"/>sit generatio et conservatio? natatilium,
+      <lb ed="#Bb"/>et nutrimentum, et ex eodem aqueo 
+      va<lb ed="#Bb" break="no"/>porabiliter extenso per partem aeris 
+      in<lb ed="#Bb" break="no"/>feriorem sit generatio et conservatio
+      <lb ed="#Bb"/>volatilium. Et ideo, sicut dicunt 
+      Ambro<lb ed="#Bb" break="no"/>sius et Augustinus, ex uno materiali
+      <lb ed="#Bb"/>principio producitur utrumque : et ideo
+      <lb ed="#Bb"/>eliam cantatur in hymno Ambrosii :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e30560-Qd1e520">Qui ex aquis exortum genus,
+        <lb ed="#Bb"/>Partim levas in aera,
+        <lb ed="#Bb"/>Parlim remittis gurgiti.</quote>
+            </p>
+            <p xml:id="Almn78-e30560-d1e529">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod movens ex
+      <lb ed="#Bb"/>prehabitis intelligitur ubi dictum est :
+      <lb ed="#Bb"/>Spiritus Dei ferebatur super aquas'.
+      <lb ed="#Bb"/>Ille enim fovebat aquas ut talia a se
+      <lb ed="#Bb"/>produci possent. Unde Damascenus in
+      <lb ed="#Bb"/>libro If de Fide orthodoxa dicit sic :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e30560-Qd1e546">Precepit Deus aque educere animam
+        <lb ed="#Bb"/>viventem : quia per aquam et eum qui
+        <lb ed="#Bb"/>in principio ferebatur super aquas, 
+        Spi<lb ed="#Bb" break="no"/>ritum sanctum, renovaturus erat 
+        homi<lb ed="#Bb" break="no"/>nem, sicut ait divus Basilius. Eduxit
+        <lb ed="#Bb"/>autem animalia et magna et pura, ut
+        <lb ed="#Bb"/>cete, dracones, pisces in aquis reptantes
+        <lb ed="#Bb"/>et volatilia pennata. Per volatilia igitur
+        <lb ed="#Bb"/>copulantur aqua et terra et aer : ex aquis
+        <lb ed="#Bb"/>enim facla sunt, in terra vero 
+        conser<lb ed="#Bb" break="no"/>vantur, et in aere volant, Optimum 
+        igi<lb ed="#Bb" break="no"/>tur elementum est aqua, et plurimo usui
+        <lb ed="#Bb"/>utilissimum, sordis purgativum non so
+        <pb ed="#Bb" n="590"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>lum corporee, sed et animalis, si 
+        assum<lb ed="#Bb" break="no"/>pserit gratiam Spiritus sancti*. </quote>
+            </p>
+            <p xml:id="Almn78-e30560-d1e584">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod reptile 
+      vo<lb ed="#Bb" break="no"/>catur animal, quod in motu suo 
+      proces<lb ed="#Bb" break="no"/>sivo toto corpore se rapit, et non nititur
+      <lb ed="#Bb"/>membris specialibus ad illum motum
+      <lb ed="#Bb"/>determinatis, sicut est ala, vel pes, vel
+      <lb ed="#Bb"/>pinnoula. Pedibus enim nituntur 
+      gressi<lb ed="#Bb" break="no"/>bilia, alis volatilia, pinnulis tamquam
+      <lb ed="#Bb"/>remis natatilia. Reptilia vero sunt vel
+      <lb ed="#Bb"/>que motu cosiarum et virtute se 
+      ra<lb ed="#Bb" break="no"/>piunt, ut serpentes : vel motu 
+      annulo<lb ed="#Bb" break="no"/>rum, ut annulosa et vermes, vel 
+      contra<lb ed="#Bb" break="no"/>ctione corporis in medium annulum qui
+      <lb ed="#Bb"/>loco cordis est, et remissione ejusdem
+      <lb ed="#Bb"/>corporis de illo et tractu oris : emittunt
+      <lb ed="#Bb"/>enim illa anteriorem partem corporis,
+      <lb ed="#Bb"/>et tunc figunt os, et totum corpus tunc
+      <lb ed="#Bb"/>trahunt ad os fixum : sicut videmus 
+      fa<lb ed="#Bb" break="no"/>cere lumbricos terre. Anima autem
+      <lb ed="#Bb"/>vivens dicitur, que corpori suo actum
+      <lb ed="#Bb"/>vite influit manifeste per sensum et
+      <lb ed="#Bb"/>motum localem. Et ideo in plantis non
+      <lb ed="#Bb"/>dicitur esse anima vivens : quia sicut
+      <lb ed="#Bb"/>dicit Aristoleles in I de Vegetabilibus,
+      <lb ed="#Bb"/>vita communiter in animalibus et plantis
+      <lb ed="#Bb"/>inventa est : sed in plantis occulta, et
+      <lb ed="#Bb"/>in animalibus manifesta : et ideo non 
+      di<lb ed="#Bb" break="no"/>citur in plantis anima motabilis, sive
+      <lb ed="#Bb"/>anima vivens.
+    </p>
+            <p xml:id="Almn78-e30560-d1e647">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod volatile 
+      or<lb ed="#Bb" break="no"/>namentum est aeris: hoc enim animal
+      <lb ed="#Bb"/>illud elementum ornat in quo motus
+      <lb ed="#Bb"/>ejus est, et non illud in quo immobile
+      <lb ed="#Bb"/>quiescit : sicut stelle moventur in ccelo,
+      <lb ed="#Bb"/>et natatilia in aquis, licet quiescat in
+      <lb ed="#Bb"/>terra in fundo aquarum. Et quod 
+      dici<lb ed="#Bb" break="no"/>tur, quod multiplicentur super terram,
+      <lb ed="#Bb"/>super notat eminentiam aeris, et 
+      exalta<lb ed="#Bb" break="no"/>tionem super terram, in quo moventur
+      <lb ed="#Bb"/>aves: hoc enim significat nomen avis, ut
+      <lb ed="#Bb"/>dicit Isidorus, hoc enim nomen 
+      composi<lb ed="#Bb" break="no"/>tum est ab a quod est sine, et via, quia vias
+      <lb ed="#Bb"/>certas et tritas ab animalibus non tenent
+      <lb ed="#Bb"/>in motibus suis, sed pro liberlate elemen
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>tum tenue secantes alis, secundum 
+      im<lb ed="#Bb" break="no"/>petum a#stimationis et appetitus se 
+      diver<lb ed="#Bb" break="no"/>tunt quo cupiunt, sicut et pisces in aquis.
+    </p>
+            <p xml:id="Almn78-e30560-d1e691">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod solas aquas
+      <lb ed="#Bb"/>nominat: quia, sicut dictum est, aque
+      <lb ed="#Bb"/>sole ornantur: et etiam in materia 
+      cor<lb ed="#Bb" break="no"/>porum natatilium et volatilium 
+      anima<lb ed="#Bb" break="no"/>lium licet terra sit substantia materiz
+      <lb ed="#Bb"/>propter quam etiam omnia quiescant in
+      <lb ed="#Bb"/>terra et natatilia et volatilia, tamen in
+      <lb ed="#Bb"/>talibus plus abundat humidum: in pr
+      <lb ed="#Bb"/>scibus quidem humidum aqueum 
+      pin<lb ed="#Bb" break="no"/>guescens in fundo, quod Augustinus
+      <lb ed="#Bb"/>vocat labile undosum :, in avibus autem
+      <lb ed="#Bb"/>humidum vaporosum ad formam aeris
+      <lb ed="#Bb"/>transmutatum: propter quod etiam in
+      <lb ed="#Bb"/>IV Ethicorum dicit Philosophus, quod
+      <lb ed="#Bb"/>carnes sane que sunt, leves sunt: leves
+      <lb ed="#Bb"/>autem que altilium.
+    </p>
+            <p xml:id="Almn78-e30560-d1e728">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod talia 
+      ani<lb ed="#Bb" break="no"/>malia deputantur ad ornatum illius 
+      ele<lb ed="#Bb" break="no"/>menti in quo plus moventur proprio
+      <lb ed="#Bb"/>motu. Ardea enim et anser cum avibus
+      <lb ed="#Bb"/>ad aerem deputantur: motus enim 
+      ea<lb ed="#Bb" break="no"/>rum volatus est, et fit in aere. Delphinus
+      <lb ed="#Bb"/>autem, et crocodillus, et alia hujusmodi,
+      <lb ed="#Bb"/>ad aquam cum natatilibus: quia motus
+      <lb ed="#Bb"/>eorum natatio est. Ursus autem 
+      mari<lb ed="#Bb" break="no"/>nus, et canis, et cetera hujusmodi, ut
+      <lb ed="#Bb"/>castor, et linther, licet aliquando 
+      venen<lb ed="#Bb" break="no"/>tur in aqua, tamen quia pedibus 
+      nitun<lb ed="#Bb" break="no"/>tur, quorum actus proprie gressus est et
+      <lb ed="#Bb"/>ambulatio, in ornatum terre 
+      deputan<lb ed="#Bb" break="no"/>tur cum gressibilibus, Et hoc satis 
+      di<lb ed="#Bb" break="no"/>ctum est: quia dicto de simplicibus satis
+      <lb ed="#Bb"/>dictum est de compositis, in quibus illa
+      <lb ed="#Bb"/>similiter dominantur.
+    </p>
+            <p xml:id="Almn78-e30560-d1e770">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod creavit ibi sd quests.
+      <lb ed="#Bb"/>accipitur pro fecit vel condidit. Creare.
+      <lb ed="#Bb"/>enim multas habet significationes, de
+      <lb ed="#Bb"/>quibus satis dictum est in primo libro,
+      <lb ed="#Bb"/>tractatu de nominibus que temporaliter
+      <lb ed="#Bb"/>Deo conveniunt, questione de hoc 
+      no<lb ed="#Bb" break="no"/>mine, creator *.
+    </p>
+            <p xml:id="Almn78-e30560-d1e789">
+               <pb ed="#Bb" n="591"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Ad aliud dicendum, quod humidum
+      <lb ed="#Bb"/>aliquando est valde dilatabile et 
+      forma<lb ed="#Bb" break="no"/>bile in diversas species et figuras, 
+      ma<lb ed="#Bb" break="no"/>xime quando commixtum est subtili
+      <lb ed="#Bb"/>terreo ex quo pinguescit et constat: et
+      <lb ed="#Bb"/>hoc notans, quod sic impossibile est
+      <lb ed="#Bb"/>multis speciebus, dixit secundum 
+      spe<lb ed="#Bb" break="no"/>cies: tales enim species ad unum genus
+      <lb ed="#Bb"/>non possunt reduci, nisi valde remotum.
+      <lb ed="#Bb"/>Humidum autem vaporabile et formabile
+      <lb ed="#Bb"/>quidem est in multas figuras, sicut patet
+      <lb ed="#Bb"/>in nubibus: tamen omnes ille figure sub
+      <lb ed="#Bb"/>uno-genere continentur proximo, quod
+      <lb ed="#Bb"/>est humidum vaporativum: et hoc 
+      no<lb ed="#Bb" break="no"/>tans de volatilibus dicit, volatilia 
+      seeun<lb ed="#Bb" break="no"/>dum genus suum.
+    </p>
+            <p xml:id="Almn78-e30560-d1e831">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod licet
+      <lb ed="#Bb"/>planta et animalia nascantur de semine,
+      <lb ed="#Bb"/>semen tamen plantarum non ponitur in
+      <lb ed="#Bb"/>sexu distincto per figuram masculi et
+      <lb ed="#Bb"/>feemine: quamvis, ut dicit Aristoteles
+      <lb ed="#Bb"/>in libro de Plantis, in plantis sit sexus
+      <lb ed="#Bb"/>distinctus virtute, secundum quod 
+      dici<lb ed="#Bb" break="no"/>tur oliva masculus et oliva foemina : et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>malus arbor dicitur foemina, et pirus
+      <lb ed="#Bb"/>masculus, eo quod prius habet strictiora
+      <lb ed="#Bb"/>folia et duriorem fructum quam malus:
+      <lb ed="#Bb"/>latitudo enim foliorum et mollities 
+      fru<lb ed="#Bb" break="no"/>ctuum attlestatur humiditati aquee, que
+      <lb ed="#Bb"/>foemina est : econtra strictiora folia et
+      <lb ed="#Bb"/>durities fructam attestantur humiditati
+      <lb ed="#Bb"/>calide determinate per siccum terreum,
+      <lb ed="#Bb"/>que masculina est. Propter quod etiam
+      <lb ed="#Bb"/>vilis que melius profert vinum, et 
+      dici<lb ed="#Bb" break="no"/>tur soreth, vocatur vitis masculina. Alia
+      <lb ed="#Bb"/>vero que profert aquosum vinum et lata
+      <lb ed="#Bb"/>habet folia et magnas uvas, vocatur 
+      vi<lb ed="#Bb" break="no"/>tis feemina. In communi tamen usu 
+      lo<lb ed="#Bb" break="no"/>quentium vitis masculina vocatur franca,
+      <lb ed="#Bb"/>et vitis foemina vocatur sclava. Et licet
+      <lb ed="#Bb"/>ita sit secundum virtutem quam habet
+      <lb ed="#Bb"/>planta in folio et fructu, tamen 
+      secun<lb ed="#Bb" break="no"/>dum naturam plantz, ut dicit 
+      Aristote<lb ed="#Bb" break="no"/>les in libro 1 de Vegetabilibus, <quote xml:id="Almn78-e30560-Qd1e896"> planta
+        <lb ed="#Bb"/>ubique est masculus et feemina. </quote> Et
+      <lb ed="#Bb"/>hujus assignat rationem, quod ubique in
+      <lb ed="#Bb"/>radicibus, stipite, et ramis conjuncta
+      <lb ed="#Bb"/>habet impregnans et impregnabile.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

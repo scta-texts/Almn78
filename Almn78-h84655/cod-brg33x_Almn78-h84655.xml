@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 120</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 120</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="378"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h84655"><!-- p2t18q120 -->
+            <head xml:id="Almn78-h84655-Hd1e106">Quaestio 120</head>
+            <head xml:id="Almn78-h84655-Hd1e109" type="question-title">De avaritia</head>
+            <p xml:id="Almn78-h84655-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXX.
+<lb ed="#Bc"/>De avaritia.
+</p>
+            <p xml:id="Almn78-h84655-d1e121">
+               <lb ed="#Bc"/>Post tractatum de ira, tractandum est
+<lb ed="#Bc"/>de avaritia que magis convenit cum
+<lb ed="#Bc"/>spiritualibus vitiis quam gula et luxuria.
+</p>
+            <p xml:id="Almn78-h84655-d1e130">
+               <lb ed="#Bc"/>De avaritia queremus duo in genere,
+<lb ed="#Bc"/>scilicet de ipsa in se, et de filiabus ejus.
+</p>
+            <div xml:id="Almn78-h84655-Dd1e138">
+               <head xml:id="Almn78-h84655-Hd1e140">Membrum 1</head>
+               <head xml:id="Almn78-h84655-Hd1e143" type="question-title">De avaritia in se</head>
+               <p xml:id="Almn78-h84655-d1e146">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De avaritia in se.
+</p>
+               <p xml:id="Almn78-h84655-d1e153">
+                  <lb ed="#Bc"/>De ayaritiain se queremus quatuor,
+<lb ed="#Bc"/>scilicet primo quid sit ?
+<lb ed="#Bc"/>Secundo, Si semper peccatum sit ?
+<lb ed="#Bc"/>Tertio, Quantum peccatum sit?
+  
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Et quarto, De vitiis adjunctis avaritiz,
+<lb ed="#Bc"/>sicut est usura, fraus, furtum, et 
+hujus<lb ed="#Bc" break="no"/>modi.
+</p>
+               <div xml:id="Almn78-h84655-Dd1e173">
+                  <head xml:id="Almn78-h84655-Hd1e175">Articulus 1</head>
+                  <head xml:id="Almn78-h84655-Hd1e178" type="question-title">
+          Quid sit avaritia
+        </head>
+                  <p xml:id="Almn78-h84655-d1e181">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Quid sit avaritia ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e190">
+                     <lb ed="#Bc"/>QumrituR ergo primo, Quid sit 
+ava<lb ed="#Bc" break="no"/>ritia ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e197">
+                     <lb ed="#Bc"/>Dicit autem Augustinus swper Genesim
+<lb ed="#Bc"/>sic : <quote xml:id="Almn78-h84655-Qd1e203"> Avaritia non tantum est pecunie,
+<lb ed="#Bc"/>sed allitudinis et scientiae. </quote> Videtur
+<pb ed="#Bc" n="379"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>ergo, quod avaritia non definitur 
+tan<lb ed="#Bc" break="no"/>iummodo per immoderatum appetitum
+<lb ed="#Bc"/>habendi bona fortune, sed etiam per 
+im<lb ed="#Bc" break="no"/>moderatum appetitum habendi 
+altitudi<lb ed="#Bc" break="no"/>nem el scientiam: et sic avaritia non
+<lb ed="#Bc"/>videtur esse speciale vilium, sed 
+gene<lb ed="#Bc" break="no"/>rale.
+</p>
+                  <p xml:id="Almn78-h84655-d1e230">
+                     <lb ed="#Bc"/>Tullius autem sic definit eam : <quote xml:id="Almn78-h84655-Qd1e234"> 
+Ava<lb ed="#Bc" break="no"/>ritia est immoderatus appetilus habendi
+<lb ed="#Bc"/>plus quam oportet. </quote> Et hec concordat
+<lb ed="#Bc"/>cum Apostolo, I ad Timoth. vi, 10:
+<lb ed="#Bc"/>Radix omnium malorum est cupiditas.
+<lb ed="#Bc"/>Glossa, <quote xml:id="Almn78-h84655-Qd1e248"> Cupiditas est desiderium plus
+<lb ed="#Bc"/>habendi quam oportet. </quote> Quam quidam
+<lb ed="#Bc"/>appetentes erraverunt a fide, et 
+inserue<lb ed="#Bc" break="no"/>runt se doloribus multis. Ibi Glossa
+<lb ed="#Bc"/>dicit : <quote xml:id="Almn78-h84655-Qd1e259"> Si avaritia habetur, que proprie
+<lb ed="#Bc"/>est pecunie amor, omne malum oritur :
+<lb ed="#Bc"/>quia non est genus mali quod non a
+<lb ed="#Bc"/>cupiditate aliquando procedat. </quote>
+                  </p>
+                  <p xml:id="Almn78-h84655-d1e269">
+                     <lb ed="#Bc"/>Secundum istas definitiones queritur,
+<lb ed="#Bc"/>Quare avaritia ponitur circa pecuniam
+<lb ed="#Bc"/>plus quam circa aliud bonum temporale,
+<lb ed="#Bc"/>cum dicatur, Eccli. x1v, 9: /nsatiabilis
+<lb ed="#Bc"/>oculus cupidi in parte iniguitatis. 
+Se<lb ed="#Bc" break="no"/>cundum hoc enim cum iniquitas sit
+<lb ed="#Bc"/>circa omne peccatum, videtur quod 
+ava<lb ed="#Bc" break="no"/>ritia sit circa omne peccatum : et sic
+<lb ed="#Bc"/>sequitur idem quod prius, videlicet quod
+<lb ed="#Bc"/>non est speciale vitium, sed generale. In
+<lb ed="#Bc"/>omni enim peccato est cupiditas 
+commu<lb ed="#Bc" break="no"/>tabilis boni cum aversione ab 
+incommu<lb ed="#Bc" break="no"/>tabili bono.
+</p>
+                  <p xml:id="Almn78-h84655-d1e300">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Peccata capitalia distinguuntur a 
+Gre<lb ed="#Bc" break="no"/>gorio secundum ea que sunt, sicut 
+su<lb ed="#Bc" break="no"/>perbia circa appetitum sublimitatis in
+<lb ed="#Bc"/>dignitate : invidia circa afflictionem 
+pro<lb ed="#Bc" break="no"/>ximi: ira circa appetitum vindicte :
+<lb ed="#Bc"/>acedia circa tedium boni spiritualis.
+<lb ed="#Bc"/>Ergo avaritia erit circa aliud speciale,
+<lb ed="#Bc"/>quod .est immoderatus appetitus 
+ha<lb ed="#Bc" break="no"/>bendi.
+</p>
+                  <p xml:id="Almn78-h84655-d1e324">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod avaritia
+<lb ed="#Bc"/>dupliciter dicitur : generaliter scilicet, et
+<lb ed="#Bc"/>specialiter. Generaliter accipitur ab 
+Au<lb ed="#Bc" break="no"/>gustiny, qui dicit, quod non est tantum
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>pecunie, sed altitudinis et scientie. Et
+<lb ed="#Bc"/>sic accipitur etiam ab Apostolo, qui
+<lb ed="#Bc"/>dicit, quod est radiae omnium malorum.
+<lb ed="#Bc"/>Et hoc est quod Glossa ibidem dicit,
+<lb ed="#Bc"/>quod cupiditas est amor plus habendi
+<lb ed="#Bc"/>quam oportet: et quod non est vitium
+<lb ed="#Bc"/>quod aliquando ab ea non oritur. 
+Pro<lb ed="#Bc" break="no"/>pter quod dicitur radix omnium 
+malo<lb ed="#Bc" break="no"/>rum : quia sicul ex radice procedunt et
+<lb ed="#Bc"/>germinant planta, ita ex tali cupiditate
+<lb ed="#Bc"/>germinant omnia alia peccata. Et hoc
+<lb ed="#Bc"/>est quod dicitur, 1 ad Timoth. v1, 17:
+<lb ed="#Bc"/>Divitibus huyus secult precipe non 
+su<lb ed="#Bc" break="no"/>blime sapere, neque sperare in incerto
+<lb ed="#Bc"/>divitiarum. Et supra, ¥. 9: Nam gui
+<lb ed="#Bc"/>volunt divites fieri, incidunt in 
+tentatio<lb ed="#Bc" break="no"/>nem, et in laqueum diaboli, et in 
+desi<lb ed="#Bc" break="no"/>deria multa inutilia et nociva, que 
+mer<lb ed="#Bc" break="no"/>gunt homines in interitum et 
+perditio<lb ed="#Bc" break="no"/>nem. Quasi dicat: Ex avaritia oritur
+<lb ed="#Bc"/>superbia : quia divites cupiunt dominari,
+<lb ed="#Bc"/>et sublime sapiunt: et ex ea oriuntur
+<lb ed="#Bc"/>alia peccata, que hominem in laqueum
+<lb ed="#Bc"/>mergunt et in interitum.
+</p>
+                  <p xml:id="Almn78-h84655-d1e389">
+                     <lb ed="#Bc"/>Dicitur etiam avaritia specialiter amor
+<lb ed="#Bc"/>pecunie : et hic proprie dicitur 
+philar<lb ed="#Bc" break="no"/>gyria, id est, amor argenti. Sicut dicitur
+<lb ed="#Bc"/>super illud Apostoli, ad Ephes. v, 5:
+<lb ed="#Bc"/>Avarus, quod est idolorum  servitus.
+<lb ed="#Bc"/>Glossa: <quote xml:id="Almn78-h84655-Qd1e404"> Avarus cujus Deus nummus
+<lb ed="#Bc"/>est.: vel quia res Dei, quas Deus vult
+<lb ed="#Bc"/>servire indigentibus, usurpat sibi et 
+re<lb ed="#Bc" break="no"/>condit. </quote>
+                  </p>
+                  <p xml:id="Almn78-h84655-d1e414">
+                     <lb ed="#Bc"/>Et per hoc patet solutio ad primam
+<lb ed="#Bc"/>partem questionis.
+</p>
+                  <p xml:id="Almn78-h84655-d1e422">
+                     <lb ed="#Bc"/>Ad sEcUNDAM autem partem 
+dicen<lb ed="#Bc" break="no"/>dum, quod avaritia specialiter ponitur
+<lb ed="#Bc"/>circa amorem auri et argenti et pecunia :
+<lb ed="#Bc"/>quia, sicut dicit Aristoteles in V 
+Hthico<lb ed="#Bc" break="no"/>rum, aurum et argentum et pecunia sunt
+<lb ed="#Bc"/>mensura omnium commutabilium, 
+qui<lb ed="#Bc" break="no"/>bus homines communicant inter se.
+<lb ed="#Bc"/>Omnia enim ad usum hominis 
+perti<lb ed="#Bc" break="no"/>nentia valore pecunie mensurantur. Et
+<lb ed="#Bc"/>ideo dicit Glossa super epistolam ad
+<lb ed="#Bc"/>Ephes. v, 3, quod avarus est, cujus
+<lb ed="#Bc"/>Deus nummus est: quia colit eum sicut
+<lb ed="#Bc"/>Deum. Et Aristoteles ibidem, . quod
+<pb ed="#Bc" n="380"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>nummus diligitur, quia fidejussor est
+<lb ed="#Bc"/>future necessitatis in omnibus aliis. Ad
+<lb ed="#Bc"/>Coloss. mu, 5: Avaritia, gue est 
+simu<lb ed="#Bc" break="no"/>lacrorum servitus. Osee, u, 8 : 
+Argen<lb ed="#Bc" break="no"/>tum multiplicavi et, et aurum, que 
+fece<lb ed="#Bc" break="no"/>runt <name xml:id="Almn78-h84655-Nd1e469">Baal</name>. Et Poeta :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h84655-Qd1e475">In mundo summus rex est hoc tempore num-
+[mus.</quote>
+                  </p>
+                  <p xml:id="Almn78-h84655-d1e479">
+                     <lb ed="#Bc"/>Unde immoderatus amor circa 
+pecu<lb ed="#Bc" break="no"/>niam specialiter dicitur avaritia. Eccle.
+<lb ed="#Bc"/>x, 19 : Pecunie obediunt omnia. Et,
+<lb ed="#Bc"/>Eccli. x, 9 et 10: Avaro nihil 
+secele<lb ed="#Bc" break="no"/>stius... Nihil est iniguius quam amare
+<lb ed="#Bc"/>pecuniam : hie enim et animam suam
+<lb ed="#Bc"/>venalem habet, quoniam in vita sua 
+pro<lb ed="#Bc" break="no"/>Jecut intima sua.
+</p>
+               </div>
+               <div xml:id="Almn78-h84655-Dd1e501">
+                  <head xml:id="Almn78-h84655-Hd1e503">Articulus 2</head>
+                  <head xml:id="Almn78-h84655-Hd1e506" type="question-title">
+          Utrum avaritia sit semper peccatum ?
+          et cum hoc quantum peccatum, utrum
+          semper sit mortale vel aliquando 
+          veniale ?
+        </head>
+                  <p xml:id="Almn78-h84655-d1e509">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICOLUS II.
+<lb ed="#Bc"/>Utrum avaritia sit semper peccatum ?
+<lb ed="#Bc"/>et cum hoc quantum peccatum, utrum
+<lb ed="#Bc"/>semper sit mortale vel aliquando 
+ve<lb ed="#Bc" break="no"/>niale ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e525">
+                     <lb ed="#Bc"/>Secundo queritur, Utrum avaritia sit
+<lb ed="#Bc"/>semper peccatum, ef cum hoc quantum
+<lb ed="#Bc"/>peccatum, utrum semper sit mortale, vel
+<lb ed="#Bc"/>aliquando veniale ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e536">
+                     <lb ed="#Bc"/>Videtur autem esse magnum 
+pecca<lb ed="#Bc" break="no"/>tum, et mortale.
+</p>
+                  <p xml:id="Almn78-h84655-d1e544">
+                     <lb ed="#Bc"/>1.1 Joan. u, 15, super illud: Nodite
+<lb ed="#Bc"/>diligere mundum, neque ea que in 
+mun<lb ed="#Bc" break="no"/>do sunt, Augustinus in Glossa 
+margi<lb ed="#Bc" break="no"/>nali: <quote xml:id="Almn78-h84655-Qd1e554"> Bonum nobis est non diligere ea
+<lb ed="#Bc"/>que in mundo sunt, ne remaneant 
+sacra<lb ed="#Bc" break="no"/>menta Dei in nobis ad damnationem
+<lb ed="#Bc"/>nostram. </quote> Ergo videtur, quod dilectio
+<lb ed="#Bc"/>eorum que in mundo sunt, evacuat
+<lb ed="#Bc"/>effectum sacramentorum in nobis : sed
+<lb ed="#Bc"/>non evacuat illum effectum nisi mortale
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>peccatum ; ergo dilectio eorum que in
+<lb ed="#Bc"/>mundo sunt, est mortale peccatum : et
+<lb ed="#Bc"/>hoc est proprium avaritia : ergo avaritia
+<lb ed="#Bc"/>est mortale peccatum.
+</p>
+                  <p xml:id="Almn78-h84655-d1e582">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus super idem
+<lb ed="#Bc"/>verbum in Originali ubi exponit 
+episto<lb ed="#Bc" break="no"/>lam Joannis: <quote xml:id="Almn78-h84655-Qd1e590"> Sicut dilectio Dei est
+<lb ed="#Bc"/>omnium virtutum dilectio, ita dilectio
+<lb ed="#Bc"/>mundi est dilectio omnium vitiorum. </quote>
+                     <lb ed="#Bc"/>Unde, Jacob. tv, 4: Quicumque voluertt
+<lb ed="#Bc"/>amicus esse seculi hujus, inimicus Dei
+<lb ed="#Bc"/>constituitur. Ergo sicut dilectio Dei 
+se<lb ed="#Bc" break="no"/>cundum se bonum est, ita dilectio mundi
+<lb ed="#Bc"/>secundum se malum est: et hoc est 
+pro<lb ed="#Bc" break="no"/>prium avaritig : ergo avarilia peccatum
+<lb ed="#Bc"/>mortale est semper.
+</p>
+                  <p xml:id="Almn78-h84655-d1e613">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Marc. x, 23, super illud: Quam
+<lb ed="#Bc"/>difficile qui pecunias habent in regnum
+<lb ed="#Bc"/>Dei introibunt! Glossa : <quote xml:id="Almn78-h84655-Qd1e623"> Non dicit
+<lb ed="#Bc"/>impossibile : quod enim impossibile est,
+<lb ed="#Bc"/>omnino fieri non potest : quod autem
+<lb ed="#Bc"/>difficile, cum labore fieri potest juvante
+<lb ed="#Bc"/>Dei gratia. </quote> Ergo non est impossibile
+<lb ed="#Bc"/>salvari eum qui pecunias diligit et 
+tem<lb ed="#Bc" break="no"/>poralia : ergo non est peccatum 
+mor<lb ed="#Bc" break="no"/>tale.
+</p>
+                  <p xml:id="Almn78-h84655-d1e642">
+                     <lb ed="#Bc"/>2, Adhuc, Matth. xix, 23, super illud:
+<lb ed="#Bc"/>Dives difficile intrabit regnum 
+celo<lb ed="#Bc" break="no"/>rum, Glossa: <quote xml:id="Almn78-h84655-Qd1e650"> Non dicit impossibile. </quote>
+                     <lb ed="#Bc"/>Ergo ut prius.
+</p>
+                  <p xml:id="Almn78-h84655-d1e656">
+                     <lb ed="#Bc"/>Contra omnia ista esse videtur, quod
+<lb ed="#Bc"/>diligere temporalia sit meritorium.
+</p>
+                  <p xml:id="Almn78-h84655-d1e663">
+                     <lb ed="#Bc"/>1. Aristoteles in I Ethicorum dicit,
+<lb ed="#Bc"/>quod res fortune sive temporalia 
+orga<lb ed="#Bc" break="no"/>nice deserviunt ad felicitatem, sive 
+beati<lb ed="#Bc" break="no"/>tudinem, sine quibus non potest esse
+<lb ed="#Bc"/>beatus sive felix secundum perfectam
+<lb ed="#Bc"/>rationem felicitatis sive beatitudinis.
+<lb ed="#Bc"/>Quecumque autem taliter se habent ad
+<lb ed="#Bc"/>felicitatem et beatitudinem, meritorie
+<lb ed="#Bc"/>diliguntur. Ergo bona fortune et 
+tem<lb ed="#Bc" break="no"/>poralia meritorie diliguntur : ergo 
+nul<lb ed="#Bc" break="no"/>lum peccatum est, neque veniale, neque
+<lb ed="#Bc"/>mortale, diligere temporalia.
+</p>
+                  <p xml:id="Almn78-h84655-d1e693">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus in libro primo
+<lb ed="#Bc"/>de Doctrina Christiana ponit dilectionem
+<lb ed="#Bc"/>usus, et dilectionem fruitionis : et dicit,
+<lb ed="#Bc"/>quod res hujus mundi diligende sunt
+<pb ed="#Bc" n="381"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>dilectione usus, et referende sunt ad id
+<lb ed="#Bc"/>quo fruendum est, id est, quod per se
+<lb ed="#Bc"/>bonum est diligendum. Quod autem sic
+<lb ed="#Bc"/>diligitur, meritorie diligitur, et sine omni
+<lb ed="#Bc"/>peccato potest esse.
+</p>
+                  <p xml:id="Almn78-h84655-d1e719">
+                     <lb ed="#Bc"/>Solutio hujus articuli habetur ex 
+ver<lb ed="#Bc" break="no"/>bis Apostoli, I ad Corinth. vu, 34, ubi
+<lb ed="#Bc"/>dicit: Qui utuntur hoc mundo, tamguam
+<lb ed="#Bc"/>non utantur. Beda, ibidem, <quote xml:id="Almn78-h84655-Qd1e729"> Utamur
+<lb ed="#Bc"/>hoc mundo ad necessitatem, non ad 
+vo<lb ed="#Bc" break="no"/>luptatem. </quote>
+                  </p>
+                  <p xml:id="Almn78-h84655-d1e737">
+                     <lb ed="#Bc"/>Unde temporalia possunt tripliciter
+<lb ed="#Bc"/>amari, scilicet ut instrumenta meriti per
+<lb ed="#Bc"/>eleemosynas et opera beneficentiea. Et
+<lb ed="#Bc"/>sic meritorie amantur. Ad Hebr. xin, 16:
+<lb ed="#Bc"/>Beneficentiae et communionis nolite 
+obli<lb ed="#Bc" break="no"/>visci: talibus enim hostiis promeretur
+<lb ed="#Bc"/>Deus. Et addit, ibidem, ¥. 2: Et 
+hospi<lb ed="#Bc" break="no"/>talitatem nolite obliviser : per hane enim
+<lb ed="#Bc"/>latuerunt guidam, Angelis hospitio 
+re<lb ed="#Bc" break="no"/>ceptis, sicut Abraham et Loth. Et super
+<lb ed="#Bc"/>ilud Luce, xxiv, 29: Et coegerunt
+<lb ed="#Bc"/>illum, etc., dicit Gregorius, quod <quote xml:id="Almn78-h84655-Qd1e765"> 
+ho<lb ed="#Bc" break="no"/>spites ad hospitium trahendi et cogendi
+<lb ed="#Bc"/>sunt. </quote> Quod sine sollicitudie 
+tempora<lb ed="#Bc" break="no"/>lium fieri non potest. Diliguntur etiam
+<lb ed="#Bc"/>ad necessitatem hujus vite, que sine
+<lb ed="#Bc"/>temporalibus agi non potest: et sic etiam
+<lb ed="#Bc"/>diliguntur sine peccato. Tertio modo 
+di<lb ed="#Bc" break="no"/>liguntur, ul finis in eis ponatur, ut dicit
+<lb ed="#Bc"/>Augustinus in libro de Doctrina 
+Chri<lb ed="#Bc" break="no"/>stiana: et sic diliguntur ad 
+concupiscen<lb ed="#Bc" break="no"/>tiam, non ad usum. Concupiscentia
+<lb ed="#Bc"/>numquam saturatur. Proverb, xxx, 16:
+<lb ed="#Bc"/>Ignis numquam dicit : Sufficit, Glossa :
+<lb ed="#Bc"/>Ignis, id est, avaritia. Eccle. v, 9: 
+Ava<lb ed="#Bc" break="no"/>rus non implebitur pecunia. Et, Eccli. x,
+<lb ed="#Bc"/>9 et 10: Avaro nthil est seelestius... 
+Ni<lb ed="#Bc" break="no"/>hil est iniquius quam amare pecuniam:
+<lb ed="#Bc"/>hic enim et animam suam venalem 
+ha<lb ed="#Bc" break="no"/>det, ete. Et ille est qui finem ponit in
+<lb ed="#Bc"/>pecunia sicut in Deo. Et ideo, ad Ephes.
+<lb ed="#Bc"/>v, 3, et ad Coloss. iu, 5, avaritia dicitur
+<lb ed="#Bc"/>idolorum servitus 1. .
+</p>
+                  <p xml:id="Almn78-h84655-d1e814">
+                     <lb ed="#Bc"/>Et de tali dilectione temporalium lo
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>quuntur due auctoritates Augustini
+<lb ed="#Bc"/>primo inducte.
+</p>
+                  <p xml:id="Almn78-h84655-d1e825">
+                     <lb ed="#Bc"/>Ile autem gue sunt Matthei, 
+lo<lb ed="#Bc" break="no"/>quuntur de dilectione temporalium ad
+<lb ed="#Bc"/>necessitatem.
+</p>
+                  <p xml:id="Almn78-h84655-d1e834">
+                     <lb ed="#Bc"/>Due ultime vero Aristotelis et 
+Au<lb ed="#Bc" break="no"/>gustini, loquuntur de dilectione 
+tempo<lb ed="#Bc" break="no"/>ralium, prout temporalia sunt 
+instra<lb ed="#Bc" break="no"/>mentum meriti et virtulis: et sic ab
+<lb ed="#Bc"/>ecclesiasticis personis possunt diligi et
+<lb ed="#Bc"/>possideri temporalia.
+</p>
+               </div>
+               <div xml:id="Almn78-h84655-Dd1e851">
+                  <head xml:id="Almn78-h84655-Hd1e853">Articulus 3</head>
+                  <head xml:id="Almn78-h84655-Hd1e856" type="question-title">
+          De vitiis avaritie adjunctis, et utrum
+          sit peccatum maximum
+        </head>
+                  <p xml:id="Almn78-h84655-d1e859">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS III.
+<lb ed="#Bc"/>De vitiis avaritie adjunctis, et utrum
+<lb ed="#Bc"/>sit peccatum maximum ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e870">
+                     <lb ed="#Bc"/>Deinde, Queritur de vitiis adjunctis
+<lb ed="#Bc"/>avaritiae.
+</p>
+                  <p xml:id="Almn78-h84655-d1e877">
+                     <lb ed="#Bc"/>Et quia dicit Augustinus in libro V
+<lb ed="#Bc"/>super Genesim ad liiteram, quod 
+avari<lb ed="#Bc" break="no"/>tia non est tantum pecunie, sed etiam
+<lb ed="#Bc"/>excellentie et scientie : propter quod
+<lb ed="#Bc"/>etiam dicit ibidem, quod Adam in 
+avari<lb ed="#Bc" break="no"/>tia peccavit quando concupivit esse sicut
+<lb ed="#Bc"/>Deus sciendo bonum et malum: 
+vide<lb ed="#Bc" break="no"/>tur, quod ambilio, que cupiditas est dig—
+<lb ed="#Bc"/>nitatum et excellentia, ad avaritiam 
+per<lb ed="#Bc" break="no"/>tinet.
+</p>
+                  <p xml:id="Almn78-h84655-d1e902">
+                     <lb ed="#Bc"/>Sed contra hoc
+<lb ed="#Bc"/>1. Videtur Augustinus dicere in libro
+<lb ed="#Bc"/>de Vera religione sic: <quote xml:id="Almn78-h84655-Qd1e910"> Ambitio szculi
+<lb ed="#Bc"/>facit superbos, concupiscentia vero 
+cu<lb ed="#Bc" break="no"/>riosos. </quote> Etsic videtur, quod potius 
+re<lb ed="#Bc" break="no"/>ducatur ad superbiam quam ad 
+avari<lb ed="#Bc" break="no"/>tiam,
+</p>
+                  <p xml:id="Almn78-h84655-d1e923">
+                     <lb ed="#Bc"/>2. Adhuc, Ibidem, in libro II 
+Confes<lb ed="#Bc" break="no"/>sionum: <quote xml:id="Almn78-h84655-Qd1e929"> Jubes, Domine, ut contineam
+<pb ed="#Bc" n="382"/>
+                        <cb ed="#Ba" n="a"/>
+                        <lb ed="#Bc"/>a concupiscentia carnis, ‘et a 
+concupi<lb ed="#Bc" break="no"/>scentia oculorum, et ab ambitione sae
+<lb ed="#Bc"/>culi. </quote> Cum ergo tangat tria que 
+compre<lb ed="#Bc" break="no"/>hendunt quidquid est in mundo, ut
+<lb ed="#Bc"/>dicitur, I Joan. 11, 16 : Omne quod est in
+<lb ed="#Bc"/>mundo, concupiscentia carnis est, et 
+con<lb ed="#Bc" break="no"/>cupiscentia oculorum, et superbia vite :
+<lb ed="#Bc"/>et exprimat expresse concupiscentiam
+<lb ed="#Bc"/>carnis, et concupiscentiam oculorum:
+<lb ed="#Bc"/>videtur, quod ambitionem seculi 
+redu<lb ed="#Bc" break="no"/>cat ad superbiam: et sic iterum vidctur,
+<lb ed="#Bc"/>quod potius reducitur ad superbiam
+<lb ed="#Bc"/>quam ad avaritiam.
+</p>
+                  <p xml:id="Almn78-h84655-d1e965">
+                     <lb ed="#Bc"/>Ulterius, Queritur de vitiis 
+circum<lb ed="#Bc" break="no"/>stantibus avaritiam secundum moralem
+<lb ed="#Bc"/>Philosophum.
+</p>
+                  <p xml:id="Almn78-h84655-d1e974">
+                     <lb ed="#Bc"/>1. Dicit enim Aristotelesin HI et in TV
+<lb ed="#Bc"/>Ethicorum, quod vitia circumstantia 
+li<lb ed="#Bc" break="no"/>beralitatem virtutem, sunt prodigalitas,
+<lb ed="#Bc"/>et avarilia, Et cum prodigalitas sit que
+<lb ed="#Bc"/>dat danda et non danda, et avaritia sit
+<lb ed="#Bc"/>que retinet retinenda et non retinenda :
+<lb ed="#Bc"/>videtur, quod avaritia non secundum
+<lb ed="#Bc"/>totum sit vitium : in eo enim quod 
+reti<lb ed="#Bc" break="no"/>net retinenda, nihil peccat. Similiter in
+<lb ed="#Bc"/>eo quod retinet non retinenda, dummodo
+<lb ed="#Bc"/>ab indigno retineat, nihil peccat, utin IV
+<lb ed="#Bc"/>Ethicorum dicitur, ubi vituperantur
+<lb ed="#Bc"/>banausi, quia in histriones expendunt
+<lb ed="#Bc"/>substantias. Ergo e contrario laudandi
+<lb ed="#Bc"/>sunt avari qui retinent: et sic avaritia
+<lb ed="#Bc"/>secundum aliquem aclum uum 
+lauda<lb ed="#Bc" break="no"/>biltum bonorum est, et non vitium.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1013">
+                     <lb ed="#Bc"/>2. Adhuc, Opposita sunt in eodem 
+ge<lb ed="#Bc" break="no"/>nere: cum ergo avaritia et prodigalitas
+<lb ed="#Bc"/>opponantur, si avaritia capitale vitium
+<lb ed="#Bc"/>est, tunc etiam prodigalitas est capitale
+<lb ed="#Bc"/>vitium : et sic capitalia vitia non erunt
+<lb ed="#Bc"/>tantum septem, sed octo: quod est 
+con<lb ed="#Bc" break="no"/>tra Gregorium, qui dicit tantum esse
+<lb ed="#Bc"/>septem ’.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1033">
+                     <lb ed="#Bc"/>3. Adhuc, Augustinus super illud 
+Apo<lb ed="#Bc" break="no"/>stoli, J ad Corinth. xu, 5: Charitas non
+<lb ed="#Bc"/>quertt que sua sunt, dicit, quod hoc
+<lb ed="#Bc"/>ideo dictum est,quia communia propriis,
+<lb ed="#Bc"/>non propria communibus anteponit :
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>avaritia autem e converso propria 
+ante<lb ed="#Bc" break="no"/>ponit communibus : sic videtur, quod
+<lb ed="#Bc"/>avaritia non sit in retinendo retinenda,
+<lb ed="#Bc"/>et non retinenda, sed potius in hoc,
+<lb ed="#Bc"/>quod propria communibus anteponit.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1060">
+                     <lb ed="#Bc"/>Ulterius queritur, Utrum avaritia sit
+<lb ed="#Bc"/>maximum peccatum inter capitalia vitia ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e1067">
+                     <lb ed="#Bc"/>Et videtur, quod sic: quia maximo
+<lb ed="#Bc"/>peccato comparatur, ad Ephes. v, 5, et
+<lb ed="#Bc"/>ad Coloss. ui, 5: Avaritia, que est- 
+si<lb ed="#Bc" break="no"/>mulacrorum servitus. |}dolorum enim
+<lb ed="#Bc"/>servitus maximum peccatum est.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1080">
+                     <lb ed="#Bc"/>Contra: Superbia est maximum 
+deli<lb ed="#Bc" break="no"/>ctum. Patet super illud Psalmi xvint, 14:
+<lb ed="#Bc"/>Emundabor a delicto maximo : Glossa,
+<lb ed="#Bc"/>id est, a superbia.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1091">
+                     <lb ed="#Bc"/>Solutio. Dicendum ad primam partem
+<lb ed="#Bc"/>questionis, quod ambitio et reducitur
+<lb ed="#Bc"/>ad superbiam, et reducitur ad avaritiam
+<lb ed="#Bc"/>secundum diversas rationes. Sunt enim
+<lb ed="#Bc"/>quidam qui appetunt domimari propler
+<lb ed="#Bc"/>ipsum dominari, ut scilicet in statu et
+<lb ed="#Bc"/>gloria sint : et sic reducitur ad 
+super<lb ed="#Bc" break="no"/>biam. Et ili appetunt praesse propter
+<lb ed="#Bc"/>preesse, ut dicit Gregorius : et illa est
+<lb ed="#Bc"/>ambitio diaboli, qui concupivit esse 
+su<lb ed="#Bc" break="no"/>per alios equaliter Deo. Alii autem in
+<lb ed="#Bc"/>civilibus appetunt dominari propter 
+lu<lb ed="#Bc" break="no"/>crum quod accipiunt a subditis, quorum,
+<lb ed="#Bc"/>ut dicitur in VI] Ethicorum, regnum
+<lb ed="#Bc"/>vergit in {yrannidem : quia .quos regere
+<lb ed="#Bc"/>debent, opprimunt. Et de his, Isaia,
+<lb ed="#Bc"/>xIx, 4: Tradam Egyptum in manu 
+do<lb ed="#Bc" break="no"/>minorum crudelium, et rex fortis 
+domi<lb ed="#Bc" break="no"/>nabitur eorum. Et hi sunt, de quibus
+<lb ed="#Bc"/>dicitur, Amos, vi, 14: Neemaguid non
+<lb ed="#Bc"/>in fortitudine nostra accepimus nobis
+<lb ed="#Bc"/>cornua ? Et illa reducitur ad avaritiam,
+<lb ed="#Bc"/>et interdicitur in divinis.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1143">
+                     <lb ed="#Bc"/>Et per hoc patet solutio ad auctoritates
+<lb ed="#Bc"/>Angustini pro prima parte inductas.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1150">
+                     <lb ed="#Bc"/>Ad id quod ulterius queritur de 
+prodi<lb ed="#Bc" break="no"/>galitate, dicendum quod aliud intendit
+<lb ed="#Bc"/>Theologus, et aliud Ethicus. Ethicus
+<pb ed="#Bc" n="383"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>enim intendit felicitatem civilem, ad
+<lb ed="#Bc"/>quam deserviunt organice bona fortuna,
+<lb ed="#Bc"/>que oportet aliquando acquirere, et 
+ali<lb ed="#Bc" break="no"/>quando retinere: et ideo non 
+condem<lb ed="#Bc" break="no"/>nat omnem acquisitionem nec 
+retentio<lb ed="#Bc" break="no"/>nem. Et ideo etiam in legibus et civilibus
+<lb ed="#Bc"/>usure non condemnantur, sed 
+ordinan<lb ed="#Bc" break="no"/>tur. Theologus autem intendit 
+felicita<lb ed="#Bc" break="no"/>tem eternam, que eleemosynis et 
+super<lb ed="#Bc" break="no"/>erogationibus in pauperes comparatur.
+<lb ed="#Bc"/>Et ideo condemnat retentionem 
+priva<lb ed="#Bc" break="no"/>tam, que subtrahit communibus: quia
+<lb ed="#Bc"/>propria communibus anteponit, et est
+<lb ed="#Bc"/>contra charilatem que communia 
+pro<lb ed="#Bc" break="no"/>priis anteponit. I Joan. ut, 17: Quit 
+ha<lb ed="#Bc" break="no"/>buerit substantiam hujus mundi, et 
+vi<lb ed="#Bc" break="no"/>derit fratrem suum necessitatem habere,
+<lb ed="#Bc"/>et clauserit viscera sua ab eo, quomodo
+<lb ed="#Bc"/>charitas Dei manet in eo? Quasi dicat :
+<lb ed="#Bc"/>Non est.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1208">
+                     <lb ed="#Bc"/>Ad mw quod objicitur, quod opposita
+<lb ed="#Bc"/>sunt in eodem genere, dicendum quod
+<lb ed="#Bc"/>quedam opponuniur ut extrema in 
+mo<lb ed="#Bc" break="no"/>ribus : et hec sunt in eodem genere: et
+<lb ed="#Bc"/>sic opponuntur prodigalitas et avaritia,
+<lb ed="#Bc"/>quamvis non opponantur secundum 
+eam<lb ed="#Bc" break="no"/>dem rationem, quia diverse species vitii
+<lb ed="#Bc"/>sunt. Et ideo sequitur, si avaritia sit 
+vi<lb ed="#Bc" break="no"/>lium capitale, quod etiam prodigalitas
+<lb ed="#Bc"/>sit vitium capitale. Quedam autem 
+op<lb ed="#Bc" break="no"/>ponuntur sicut extrema medio, et illa
+<lb ed="#Bc"/>numquam sunt in codem genere 
+pro<lb ed="#Bc" break="no"/>ximo: quia medium est virlus, et 
+extre<lb ed="#Bc" break="no"/>mum sive per defectuin sive per 
+super<lb ed="#Bc" break="no"/>abundantiam est vitium.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1243">
+                     <lb ed="#Bc"/>Ad id quod objicitur de Augustino,
+<lb ed="#Bc"/>quod charitas communia propriis 
+antepo<lb ed="#Bc" break="no"/>nit et avaritia e converso, dicendum quod
+<lb ed="#Bc"/>in hoc opponuntur: quia avaritia est 
+pri<lb ed="#Bc" break="no"/>vatus amor et sui: charitas vero 
+commu<lb ed="#Bc" break="no"/>nis amor Dei et proximi. Sed avaritia
+<lb ed="#Bc"/>opponitur prodigalitali quantum ad actus,
+</p>
+                  <p xml:id="Almn78-h84655-d1e1261">
+                     <lb ed="#Bc"/>Ad id quod ulterius queritur, Utrun’
+<lb ed="#Bc"/>avaritia sit maximum peccatum ?
+</p>
+                  <p xml:id="Almn78-h84655-d1e1268">
+                     <lb ed="#Bc"/>Dicendum, quod antiqui posuerunt
+<lb ed="#Bc"/>distinctionem super hoc utilem valde,
+<lb ed="#Bc"/>scilicet quod decem modis diversis 
+dici<lb ed="#Bc" break="no"/>tur maximum peccatum.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1279">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Primus modus est, quod propter 
+abla<lb ed="#Bc" break="no"/>tionem fundamenti omnis boni aliquod
+<lb ed="#Bc"/>dicitur maximum, sicut infidelitas que
+<lb ed="#Bc"/>tollit fidem que est fundamentum omnis
+<lb ed="#Bc"/>boni.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1295">
+                     <lb ed="#Bc"/>Secundo modo dicitur peccatum 
+maxi<lb ed="#Bc" break="no"/>mum : quia nullam habet devotionem ad
+<lb ed="#Bc"/>penitentiam, per quam confertur omne
+<lb ed="#Bc"/>bonum: et sic peccatum in Spiritum
+<lb ed="#Bc"/>sanctum, quantum ad finalem 
+impeeni<lb ed="#Bc" break="no"/>tentiam dicitur maximum peccatum.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1312">
+                     <lb ed="#Bc"/>Tertio modo dicitur maximum 
+pecca<lb ed="#Bc" break="no"/>tum: quia magis proprie et directe 
+sol<lb ed="#Bc" break="no"/>vit vinculum et unitatem Ecclesie, in
+<lb ed="#Bc"/>qua per Spiritum confertur omne 
+bo<lb ed="#Bc" break="no"/>num: et hoc modo schisma dicitur
+<lb ed="#Bc"/>maximum peccatum. Proverb. vi, 16
+<lb ed="#Bc"/>et 19: Sex sunt que odit Dominus,
+<lb ed="#Bc"/>septimum detestatur anima ejus :...eum
+<lb ed="#Bc"/>qui seminat inter fratres discordias.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1334">
+                     <lb ed="#Bc"/>Quarto modo dicitur peccatum 
+maxi<lb ed="#Bc" break="no"/>mum : quia privat finem summi boni ad
+<lb ed="#Bc"/>quem ordinatur omnis homo: et sic
+<lb ed="#Bc"/>odium fraterne dilectionis dicitur 
+maxi<lb ed="#Bc" break="no"/>mum peccatum, sicut charitas et 
+con<lb ed="#Bc" break="no"/>verso dicitur maxima virtus.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1350">
+                     <lb ed="#Bc"/>Quinto modo dicitur peccatum 
+maxi<lb ed="#Bc" break="no"/>mum: quia est initium et origo omnis
+<lb ed="#Bc"/>mali: et sic secundum Augustinum 
+su<lb ed="#Bc" break="no"/>perbia dicitur maximum peccatum. Tob.
+<lb ed="#Bc"/>iv, 14: Superbiam numgquam in tuo
+<lb ed="#Bc"/>sensu, aut in tuo verbo, dominari 
+per<lb ed="#Bc" break="no"/>mittas : in ipsa enim initium sumpsit
+<lb ed="#Bc"/>omnis perditio.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1370">
+                     <lb ed="#Bc"/>Sexto modo dicitur maximum: quia
+<lb ed="#Bc"/>rei commutabili maxime adhesivum et
+<lb ed="#Bc"/>ab incommutabili maxime aversivum: et
+<lb ed="#Bc"/>sic cupiditas sive avaritia dicitur 
+maxi<lb ed="#Bc" break="no"/>mum peccatum. I ad Timoth. vi, 10:
+<lb ed="#Bc"/>Radiae omnium malorum est cupiditas.
+<lb ed="#Bc"/>Kt sic dicitur, quod est quedam 
+simili<lb ed="#Bc" break="no"/>tudo idololatrie : quia venatur 
+com<lb ed="#Bc" break="no"/>mutabile bhonum pro incommutabili. Et
+<lb ed="#Bc"/>sic mlelliguntur auctoritates Apostoli,
+<lb ed="#Bc"/>ad Ephes. v, 5, et ad Coloss. m1, 5, 
+su<lb ed="#Bc" break="no"/>pra inducte.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1399">
+                     <lb ed="#Bc"/>Septimo modo peccatum dicitur 
+maxi<lb ed="#Bc" break="no"/>mum : quia ordinationi in bona vita
+<lb ed="#Bc"/>maxime contrarium est: et sic inobe
+<pb ed="#Bc" n="384"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>dientia dicitur maximum peccatum : quia
+<lb ed="#Bc"/>contrariatur preceptis quibus ordinatur
+<lb ed="#Bc"/>omnis bona vita. I Reg. xv, 23: Quasi
+<lb ed="#Bc"/>peccatum ariolandi est, repugnare : et
+<lb ed="#Bc"/>quasi scelus idololatrie, nolle 
+acquie<lb ed="#Bc" break="no"/>scere.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1425">
+                     <lb ed="#Bc"/>Octavo modo dicitur peccatum 
+maxi<lb ed="#Bc" break="no"/>mum: quia usurpat id quod solius Dei
+<lb ed="#Bc"/>proprium est: et sic inanis gloria dicitur
+<lb ed="#Bc"/>maximum peccatum, quia usurpat id
+<lb ed="#Bc"/>quod Dei est proprium, scilicet gloriam,
+<lb ed="#Bc"/>Job, xxx1, 27: Si osculatus sum manum
+<lb ed="#Bc"/>meam ore meo. Ubi dicit Glossa Gregorii,
+<lb ed="#Bc"/>quod osculari manum, est sibi attribuere
+<lb ed="#Bc"/>bona que Dei sunt, et gloriari in ipsis.
+<lb ed="#Bc"/>Et sequitur in textu, ¥. 28: Que est 
+ini<lb ed="#Bc" break="no"/>guitas maxima, et negatio contra Deum
+<lb ed="#Bc"/>altissimum.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1455">
+                     <lb ed="#Bc"/>Nono modo dicitur peccatum 
+maxi<lb ed="#Bc" break="no"/>mum : quia creature tribuit que solius
+<lb ed="#Bc"/>Dei sunt. Et sic idololatria dicitur 
+maxi<lb ed="#Bc" break="no"/>mum peccatum : quia cultum qui Grace
+<lb ed="#Bc"/>dicitur Azteeta, sive latria, et est cultus
+<lb ed="#Bc"/>soli Deo debitus sive exhibitus attribuit
+<lb ed="#Bc"/>creature. Ad Roman. 1, 22 et 23: 
+Di<lb ed="#Bc" break="no"/>centes se esse saptentes, stulti facti sunt,
+<lb ed="#Bc"/>scilicet quia coluerunt et servierunt 
+po<lb ed="#Bc" break="no"/>tius creature que creatori. Et 
+mutave<lb ed="#Bc" break="no"/>runt gloriam incorruptibilis Dei in
+<lb ed="#Bc"/>similitudinem imaginis corruptibilis
+<lb ed="#Bc"/>hominis, et volucrum, et gquadrupedum,
+<lb ed="#Bc"/>et serpentium. Sicut faciunt illi qui 
+co<lb ed="#Bc" break="no"/>lunt idola. Et ad similitudinem istius
+<lb ed="#Bc"/>dicitur avaritia maximum peccatum,
+<lb ed="#Bc"/>sicut in prehabitis dictum est.
+</p>
+                  <p xml:id="Almn78-h84655-d1e1494">
+                     <lb ed="#Bc"/>Decimo modo dicitur maximum 
+pec<lb ed="#Bc" break="no"/>catum: quia aufert honorem Deo et 
+cri<lb ed="#Bc" break="no"/>men attribuit, sicut est blasphemia, que
+<lb ed="#Bc"/>est impositio falsi criminis in Deum,
+<lb ed="#Bc"/>cum dicatur, I ad Timoth.1, 17: Soli
+<lb ed="#Bc"/>Deo honor et gloria.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-h84655-Dd1e1512">
+               <head xml:id="Almn78-h84655-Hd1e1514">Membrum 2</head>
+               <head xml:id="Almn78-h84655-Hd1e1517" type="question-title">De filiabus avaritiae</head>
+               <p xml:id="Almn78-h84655-d1e1520">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De filiabus avaritiae.
+</p>
+               <p xml:id="Almn78-h84655-d1e1529">
+                  <lb ed="#Bc"/>Deinde, Querendum est de filiabus
+<lb ed="#Bc"/>avaritia.
+</p>
+               <p xml:id="Almn78-h84655-d1e1536">
+                  <lb ed="#Bc"/>Sunt autem filie avaritie secundum
+<lb ed="#Bc"/>Gregorium septem, que sunt proditio,
+<lb ed="#Bc"/>fraus, fallacia, perjuria, inquietudo 
+men<lb ed="#Bc" break="no"/>tis, violentia, objurgatio cordis : quarum
+<lb ed="#Bc"/>ratio sic accipitur : Avaritia nimius
+<lb ed="#Bc"/>amor est habendi pecuniam sive acqui~
+<lb ed="#Bc"/>rendi. Illud autem fit vel retinendo,
+<lb ed="#Bc"/>vel acquirendo. Si in acquirendo : aut
+<lb ed="#Bc"/>est in machinatione cordis, aut in
+<lb ed="#Bc"/>machinatione oris. Si cordis. est dolus
+<lb ed="#Bc"/>sive proditio. Si oris, est fraus, que
+<lb ed="#Bc"/>est in mendacio et perjurio, quibus
+<lb ed="#Bc"/>homo fraudat proximum et decipit. Si
+<lb ed="#Bc"/>in retinendo injuste: aut est in corde,
+<lb ed="#Bc"/>aut in ore, aut in facto. Si est in
+<lb ed="#Bc"/>corde : tunc est inguietudo mentis: quia
+<lb ed="#Bc"/>tunc ex se generat omnem modum 
+eva<lb ed="#Bc" break="no"/>gationis mentis, quo potest habere 
+illici<lb ed="#Bc" break="no"/>tam acquisitionem sive retentionem.
+<lb ed="#Bc"/>Sapient. xv, 12: aestimaverunt... 
+con<lb ed="#Bc" break="no"/>versationem vile compositam ad lucrum,
+<lb ed="#Bc"/>et oportere undecumque etiam ex malo
+<lb ed="#Bc"/>acquirere. Et sic etiam in acquirendo et
+<lb ed="#Bc"/>retinendo generat violentiam in furlis et
+<lb ed="#Bc"/>rapinis. Quia, sicut dicit Labeo, fur est
+<lb ed="#Bc"/>qui in furno, hoc est, in nigro contrectat
+<lb ed="#Bc"/>rem alienam invito domino. Latro autem
+<lb ed="#Bc"/>qui violenter aliena rapit. Si per 
+decep<lb ed="#Bc" break="no"/>tionem acquirere intendit, si estin corde,
+<lb ed="#Bc"/>est fallacia: si est in ore, est 
+menda<lb ed="#Bc" break="no"/>cium et perjurium. Mendacium est false
+<lb ed="#Bc"/>vocis significatio cum intentione fallendi,
+<lb ed="#Bc"/>ut dicit Augustinus in libro de Mendacio.
+<lb ed="#Bc"/>Perjurium autem divine voluntatis 
+in<lb ed="#Bc" break="no"/>vocatio super mendacium. Adhuc, si est
+<lb ed="#Bc"/>in retinendo illicite: aut est in ore, aut
+<lb ed="#Bc"/>in corde. Siin ore: tunc est objurgatio :
+<lb ed="#Bc"/>quia tunc negat pauperi cum objurga
+<pb ed="#Bc" n="385"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tione contra opera misericordia. Si est
+<lb ed="#Bc"/>in corde: tunc est obduratio a clamore
+<lb ed="#Bc"/>pauperis: et ipse clamabit, et non 
+exau<lb ed="#Bc" break="no"/>ditur.
+</p>
+               <p xml:id="Almn78-h84655-d1e1635">
+                  <lb ed="#Bc"/>Isidorus autem filias avaritie ponit
+<lb ed="#Bc"/>novem, que sunt mendacium, fraus, 
+fur<lb ed="#Bc" break="no"/>tum, perjurium, turpis lucri appetitus,
+<lb ed="#Bc"/>falsa testimonia, violentia, inhumanitas,
+<lb ed="#Bc"/>rapacitas, Quarum prime quatuor sunt
+<lb ed="#Bc"/>in avaritia prout est in acquirendo. 
+Simi<lb ed="#Bc" break="no"/>liter alia quinque sunt in acquirendo cum
+<lb ed="#Bc"/>violentia vel sine violentia. Sola autem
+<lb ed="#Bc"/>inhumanitas est in retinendo et in corde:
+<lb ed="#Bc"/>nihil enim habet de pietate humanitatis
+<lb ed="#Bc"/>qui obturat aurem a clamore pauperis :
+<lb ed="#Bc"/>cum tamen dicat Dominus, Luce, vi, 30:
+<lb ed="#Bc"/>Omni petenti te, tribue:et qui aufert
+<lb ed="#Bc"/>que tua sunt, ne repetas. Et ibidem, ¥. 25:
+<lb ed="#Bc"/>Mutuum date, nihil inde sperantes. Per
+<lb ed="#Bc"/>quod et excluditur usura, de qua dicit
+<lb ed="#Bc"/>Chrysostomus seper Joannem ', quod
+<lb ed="#Bc"/>usurarius in hoc pejor est fure: quia fur
+<lb ed="#Bc"/>intrans in domum alienam accipit quod
+<lb ed="#Bc"/>sibi sufficit et exit : usurarius autem per
+<lb ed="#Bc"/>modicum mutuum et continuam 
+excre<lb ed="#Bc" break="no"/>scentiam usurarum exhaurit totam 
+sub<lb ed="#Bc" break="no"/>stantiam domus. Abdiw, ¥. 5: Si fures
+<lb ed="#Bc"/>introissent ad te, si latrones per noctem,
+<lb ed="#Bc"/>quomodo conticuisses ? Nonne furati 
+es<lb ed="#Bc" break="no"/>sent sufficientia sibi ? Quasi dicat : Sic.
+<lb ed="#Bc"/>Usurarius autem implet quod sequilur,
+¥. 6 et 7: Quomodo serutati sunt Esau ?
+<lb ed="#Bc"/>Investigaverunt abscondita ejus ? Usque
+<lb ed="#Bc"/>ad terminos emiserunt le.
+  
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Hac picra de filiabus avaritie 
+sufti<lb ed="#Bc" break="no"/>ciant : non enim aliquid dignum 
+que<lb ed="#Bc" break="no"/>stione est hic : nisi hoc solum, Quomodo
+<lb ed="#Bc"/>posita sit inguietudo mentis filie 
+avari<lb ed="#Bc" break="no"/>tia, cum tamena Gregorio posita sit filia
+<lb ed="#Bc"/>acedixe ?
+</p>
+               <p xml:id="Almn78-h84655-d1e1716">
+                  <lb ed="#Bc"/>Ad hoc dicendum, quod secundum 
+di<lb ed="#Bc" break="no"/>versas rationes et filia dicitur acediz
+<lb ed="#Bc"/>et filia avaritie. Secundum enim quod
+<lb ed="#Bc"/>nascitur ex tedio interiori spiritualium
+<lb ed="#Bc"/>et evagatur in exterioribus cirea illicita,
+<lb ed="#Bc"/>nascitur ex acedia. Secundum autem quod
+<lb ed="#Bc"/>ex nimio amore lucrandi et habendi 
+dis<lb ed="#Bc" break="no"/>currit circa illicitos modos acquirendi et
+<lb ed="#Bc"/>habendi, sic nascitur ex avaritia.
+</p>
+               <p xml:id="Almn78-h84655-d1e1738">
+                  <lb ed="#Bc"/>Querunt etiam quidam, Quare usura
+<lb ed="#Bc"/>non ponitur filia avaritia, sicut furtum,
+<lb ed="#Bc"/>et sicul rapina ?
+</p>
+               <p xml:id="Almn78-h84655-d1e1747">
+                  <lb ed="#Bc"/>Sed ad hoc dicendum, quod furtum et
+<lb ed="#Bc"/>rapina sunt tam contra leges humanas,
+<lb ed="#Bc"/>quam contra leges divinas. Usura 
+tan<lb ed="#Bc" break="no"/>tum contra leges divinas est, et non 
+hu<lb ed="#Bc" break="no"/>manas : quia leges humane confirmant
+<lb ed="#Bc"/>pacta : et in usura pactum voluntarium
+<lb ed="#Bc"/>est, per quod transfertur dominium 
+usu<lb ed="#Bc" break="no"/>re in usuratium secundum leges civiles,
+<lb ed="#Bc"/>sed non secundum leges divinas.
+</p>
+               <p xml:id="Almn78-h84655-d1e1769">
+                  <lb ed="#Bc"/>Et si objicitar, quod competit solventi
+<lb ed="#Bc"/>usuras repetitio ab usurario, dicendum
+<lb ed="#Bc"/>quod vim repetitionis confert ei lex 
+divi<lb ed="#Bc" break="no"/>na, et non pactum: et illa lege divina
+<lb ed="#Bc"/>utitur judex Ecclesiasticus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

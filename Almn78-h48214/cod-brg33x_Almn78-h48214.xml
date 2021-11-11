@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 96</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 96</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="217"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h48214"><!-- p2t15q96 -->
+            <head xml:id="Almn78-h48214-Hd1e106">Quaestio 96</head>
+            <head xml:id="Almn78-h48214-Hd1e109" type="question-title">
+    De triplici divisione libertatis arbitrii secundum Magistrum, scilicet
+    a necessitate, a peccato, et a miseria
+  </head>
+            <p xml:id="Almn78-h48214-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO <sic>XCIV</sic>.
+<lb ed="#Bc"/>De triplici divisione libertatis arbitrii secundum Magistrum, scilicet
+<lb ed="#Bc"/>a necessitate, a peccato, et a miseria.
+</p>
+            <p xml:id="Almn78-h48214-d1e126">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde ratione ejus quod dicit Magister
+<lb ed="#Bc"/>in libro Il Sententiarum, distinct. XXV,
+<lb ed="#Bc"/>in illo cap. Est namque libertas arbitrii
+<lb ed="#Bc"/>triplex, queritur de triplici libertate 
+ar<lb ed="#Bc" break="no"/>bitrii, scilicet a necessitate, a peccato, et
+<lb ed="#Bc"/>a miseria.
+</p>
+            <p xml:id="Almn78-h48214-d1e144">
+               <lb ed="#Bc"/>1. Et de libertate a necessitate dicit sic :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h48214-Qd1e150"> A necessitate et ante peccatum, et post
+<lb ed="#Bc"/>eque liberum est arbitriam : sicut enim
+<lb ed="#Bc"/>tunc cogi non poterat, ila nec modo.
+<lb ed="#Bc"/>Ideoque voluntas merito apud Deum
+<lb ed="#Bc"/>judicatur, que semper a necessitate 
+li<lb ed="#Bc" break="no"/>bera est et numquam cogi potest. Ubi
+<lb ed="#Bc"/>necessitas, ibi non est libertas : ubi non
+<lb ed="#Bc"/>est libertas, nec voluntas, et ideo nec
+<lb ed="#Bc"/>meritum. haec libertas in omnibus est
+<lb ed="#Bc"/>tam bonis quam malis. </quote>
+            </p>
+            <p xml:id="Almn78-h48214-d1e174">
+               <lb ed="#Bc"/>2. Adhuc, Bernardus in libro de 
+Zibe<lb ed="#Bc" break="no"/>ro arbitrio et gratia sic dicit : <quote xml:id="Almn78-h48214-Qd1e180"> Libertas
+<lb ed="#Bc"/>arbitrii est a peccato, et a coactione, et a
+<lb ed="#Bc"/>miseria. </quote> Et queritur, Qualiter ista 
+di<lb ed="#Bc" break="no"/>visio concordat cum prima quam ponit
+<lb ed="#Bc"/>Magister ?
+  
+<lb ed="#Bc"/>3. Adhuc, Bernardus, ibidem, <quote xml:id="Almn78-h48214-Qd1e194"> 
+Li<lb ed="#Bc" break="no"/>bertas a coactione est liberi arbitrii ;
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>libertas a peccato, liberi consilii : 
+liber<lb ed="#Bc" break="no"/>tas a miseria, libertas complacili. </quote>
+            </p>
+            <p xml:id="Almn78-h48214-d1e206">
+               <lb ed="#Bc"/>4. Adhuc, Bernardus, ibidem, <quote xml:id="Almn78-h48214-Qd1e210"> 
+Li<lb ed="#Bc" break="no"/>bertas arbitrii est liberum velle. </quote> 
+Ibi<lb ed="#Bc" break="no"/>dem, Bernardus : <quote xml:id="Almn78-h48214-Qd1e217"> Arbitrii est 
+discer<lb ed="#Bc" break="no"/>nere quid liceat, consilii quid expediat,
+<lb ed="#Bc"/>complaciti quid libeat. </quote>
+            </p>
+            <p xml:id="Almn78-h48214-d1e225">
+               <lb ed="#Bc"/>5. Adhuc, Ibidem, Bernardus: <quote xml:id="Almn78-h48214-Qd1e229"> 
+Ar<lb ed="#Bc" break="no"/>bitrii est liberum velle, consilii verum
+<lb ed="#Bc"/>sapere, complaciti plenum posse. </quote>
+            </p>
+            <p xml:id="Almn78-h48214-d1e237">
+               <lb ed="#Bc"/>6. Adhuc, Queritur de alia 
+Sancto<lb ed="#Bc" break="no"/>rum divisione, Augustini scilicet et 
+alio<lb ed="#Bc" break="no"/>rum, quod est libertas nature, et gratia,
+<lb ed="#Bc"/>et gloriae.
+</p>
+            <p xml:id="Almn78-h48214-d1e248">
+               <lb ed="#Bc"/>7. Adhuc, Queritur de divisione 
+An<lb ed="#Bc" break="no"/>selmi quam dat in libro de Libero 
+arbi<lb ed="#Bc" break="no"/>trio sic dicens, quod <quote xml:id="Almn78-h48214-Qd1e256"> libertas quedam
+<lb ed="#Bc"/>est accepta, quedam non: et 
+accepta<lb ed="#Bc" break="no"/>rum quedam est cum rectitudine, 
+que<lb ed="#Bc" break="no"/>dam non : et illarum que sunt cum 
+re<lb ed="#Bc" break="no"/>ctitudine, quedam sunt cum 
+rectutidi<lb ed="#Bc" break="no"/>amissibili, et quedam non.</quote> Queritur
+<lb ed="#Bc"/>ergo de omnibus istis divisionibus, 
+Pe<lb ed="#Bc" break="no"/>nes quid sumantur, et quomodo 
+redu<lb ed="#Bc" break="no"/>cantur ad idem? Divisio enim generis in
+<pb ed="#Bc" n="218"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>species per commune univocum deberet
+<lb ed="#Bc"/>dari: libertas autem videtur univoce de
+<lb ed="#Bc"/>istis omnibus predicari.
+</p>
+            <p xml:id="Almn78-h48214-d1e288">
+               <lb ed="#Bc"/>Adhuc, Liberum a coactione sive de
+<lb ed="#Bc"/>necessitate, sicut inducit Magister in
+<lb ed="#Bc"/>preinductio capitulo libri HW 
+Sententia<lb ed="#Bc" break="no"/>rum, distinct. XXV, equaliter convenit
+<lb ed="#Bc"/>bonis et malis in statu innocentiz, et in
+<lb ed="#Bc"/>statu culpe, etin statu miserie, et in
+<lb ed="#Bc"/>statu gloriae : libertas autem a culpa non
+<lb ed="#Bc"/>equaliter, nec libertas a miseria.
+</p>
+            <p xml:id="Almn78-h48214-d1e309">
+               <lb ed="#Bc"/>Ratione hujus queritur, Si libertas sit
+<lb ed="#Bc"/>amissibilis ?
+</p>
+            <p xml:id="Almn78-h48214-d1e316">
+               <lb ed="#Bc"/>Et videtur, quod sic : quia
+<lb ed="#Bc"/>1. Quod capit intensionem et 
+remissio<lb ed="#Bc" break="no"/>nem, si multiplicentur cause remissionis
+<lb ed="#Bc"/>et intendantur, videturin totum destrui
+<lb ed="#Bc"/>posse : et sic libertas videtur posse 
+de<lb ed="#Bc" break="no"/>strui et amitli ex peccato et ex miseria.
+</p>
+            <p xml:id="Almn78-h48214-d1e332">
+               <lb ed="#Bc"/>2. Adhuc, Sic est in aliis qualitatibus
+<lb ed="#Bc"/>que intenduntur et remittuntur : si enim
+<lb ed="#Bc"/>album est nigro impermixtum, et albius
+<lb ed="#Bc"/>nigro impermixtius, tantum potest 
+mi<lb ed="#Bc" break="no"/>sceri nigrum cum albo, quod destruatur.
+<lb ed="#Bc"/>Et sic dicit Augustinus in libro VIII de
+<lb ed="#Bc"/>Confessionibus *, de peccato, quod dum
+<lb ed="#Bc"/>peccato non resistitur, fit consuetudo, et
+<lb ed="#Bc"/>ex consuetudine tandem dura necessitas,
+<lb ed="#Bc"/>qua homo tenetur in peccato. Sed in
+<lb ed="#Bc"/>preinducto capitulo dicit Magister ex
+<lb ed="#Bc"/>verbis Augustini quod ubi est necessitas,
+<lb ed="#Bc"/>ibi non est libertas : et ubi non est 
+liber<lb ed="#Bc" break="no"/>tas, ibi non est voluntas. Ergo videtur,
+<lb ed="#Bc"/>quod libertas amissibilis sit per 
+pecca<lb ed="#Bc" break="no"/>tum,
+</p>
+            <p xml:id="Almn78-h48214-d1e369">
+               <lb ed="#Bc"/>Solutio. Dicendum, quod divisiones
+<lb ed="#Bc"/>libertatum que dantur a Sanctis, 
+dupli<lb ed="#Bc" break="no"/>citer accipiuntur, hoc est, ex duplici
+<lb ed="#Bc"/>comparatione liberi arbitrii, Hoc enim
+<lb ed="#Bc"/>potest comparari ad actus, et potest 
+com<lb ed="#Bc" break="no"/>pari ad finem, Si comparatur ad actus:
+<lb ed="#Bc"/>tunc datur illa divisio libertatis a 
+coa<lb ed="#Bc" break="no"/>ctione et a peccato et a miseria, et sicut
+<lb ed="#Bc"/>dicit Magister in libro IL Sententiarum,
+<lb ed="#Bc"/>distinct. XXV, cap. ultimo, Libertas a
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>necessitate sive a coactione est per 
+natu<lb ed="#Bc" break="no"/>ram, Ex eo enim quod anima rationalis
+<lb ed="#Bc"/>elevata est supra materiam corporalem,
+<lb ed="#Bc"/>et non obligata ei, sed potius materia 
+cor<lb ed="#Bc" break="no"/>poralis obligata est anime et movet et
+<lb ed="#Bc"/>continet eam, habet libertatem a 
+coactio<lb ed="#Bc" break="no"/>ne in omnibus actibus suis, quos habet
+<lb ed="#Bc"/>vel secundum arbitrium rationis vel 
+se<lb ed="#Bc" break="no"/>cundum electionem voluntatis. 
+Liberta<lb ed="#Bc" break="no"/>tem autem a peccato habet a gratia 
+gra<lb ed="#Bc" break="no"/>tum faciente. Libertatem a miseria 
+habe<lb ed="#Bc" break="no"/>bit a gloria in statu future beatitudinis.
+<lb ed="#Bc"/>Si autem comparatur ad finem : sic 
+da<lb ed="#Bc" break="no"/>tur divisio Anselmi, quia sic quedam 
+h<lb ed="#Bc" break="no"/>berlas est non accepta, sicut divina:
+<lb ed="#Bc"/>quedam accepta, sicut creata in Angelis
+<lb ed="#Bc"/>et hominibus : quedam cum rectitudine
+<lb ed="#Bc"/>naturali data in conditione, sicut illa
+<lb ed="#Bc"/>qu fuit in statu innocenti#, sicut supra
+<lb ed="#Bc"/>dixit Magister in libro If Sententiarum,
+<lb ed="#Bc"/>distinct. XXIV, cap. Hie considerandum
+<lb ed="#Bc"/>est. Illud utique adjutorium quo poterat
+<lb ed="#Bc"/>primus homo manere si vellet. fuit 
+li<lb ed="#Bc" break="no"/>bertas arbitrii ab omni labe et 
+corruptio<lb ed="#Bc" break="no"/>ne immunis, atque voluntatis rectitudo
+<lb ed="#Bc"/>et omnium naturalium potentiarum 
+ani<lb ed="#Bc" break="no"/>me sinceritas alque vivacitas. Si autem
+<lb ed="#Bc"/>est rectitudo virtutis et gratia : tunc est
+<lb ed="#Bc"/>rectitudo que est in statu gratia. Si vero
+<lb ed="#Bc"/>est rectitudo elevans ab incurvatione 
+mi<lb ed="#Bc" break="no"/>serie : tunc est rectitudo gloria.
+</p>
+            <p xml:id="Almn78-h48214-d1e463">
+               <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+Ma<lb ed="#Bc" break="no"/>gister ibi non describit libertatem que
+<lb ed="#Bc"/>est a coactione et anatura, que 
+equali<lb ed="#Bc" break="no"/>ter est in bonis et malis. Et ratio hujus
+<lb ed="#Bc"/>etiam est secundum grammaticos, quia
+<lb ed="#Bc"/>dicitur a privatione simplici coactionis :
+<lb ed="#Bc"/>privationes autem impossibile est 
+acci<lb ed="#Bc" break="no"/>pere intensionem vel remissionem : quia
+<lb ed="#Bc"/>unus non dicitur cecior altero, ubi 
+om<lb ed="#Bc" break="no"/>nes equaliter lumine privati sunt.
+</p>
+            <p xml:id="Almn78-h48214-d1e487">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod divisio 
+Ber<lb ed="#Bc" break="no"/>nardi omnino concordat cum divisione
+<lb ed="#Bc"/>Magistri: quia libertas a coactione idem
+<lb ed="#Bc"/>est cum libertate a necessitate et a 
+natu<lb ed="#Bc" break="no"/>ra: libertas autem a peccato ab 
+utris<lb ed="#Bc" break="no"/>que ponitur equalis re, et libertas a
+<pb ed="#Bc" n="219"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>miseria similiter. Duo enim sunt 
+depri<lb ed="#Bc" break="no"/>mentia’ facultatem hominis, peccatum
+<lb ed="#Bc"/>scilicet, et peena. Et contra illa duo sunt
+<lb ed="#Bc"/>remedia liberatoris, gratia scilicet 
+suble<lb ed="#Bc" break="no"/>vans a peccato, et gloria sublevans a
+<lb ed="#Bc"/>pena.
+</p>
+            <p xml:id="Almn78-h48214-d1e521">
+               <lb ed="#Bc"/>Ad picrum Bernardi dicendum, quod
+<lb ed="#Bc"/>hoc stat sicut jacet. Quia enim liberum
+<lb ed="#Bc"/>arbitrium est facultas rationis et 
+volunta<lb ed="#Bc" break="no"/>tis, propter hoc ad quosdam 
+determina<lb ed="#Bc" break="no"/>tur rationis actus, et ad quosdam actus
+<lb ed="#Bc"/>voluntatis : et hoc intendit Bernardus, et
+<lb ed="#Bc"/>non aliud.
+</p>
+            <p xml:id="Almn78-h48214-d1e539">
+               <lb ed="#Bc"/>Ulterius dicendum ad dictum 
+Bernar<lb ed="#Bc" break="no"/>di, quod cum dicit, quod arbitrii est 
+Ji<lb ed="#Bc" break="no"/>berum velle, determinat ad actum 
+prin<lb ed="#Bc" break="no"/>cipalem libertatis qui est velle. Et cum
+<lb ed="#Bc"/>dicit, quod arbitrit est discernere quid
+<lb ed="#Bc"/>liceat, determinat arbitrium rationis ad
+<lb ed="#Bc"/>finem ad quem datum est. Et similiter
+<lb ed="#Bc"/>cum dicit, consili quid expediat, iterum
+<lb ed="#Bc"/>determinat consilium ad finem ad quem
+<lb ed="#Bc"/>datum est homini. Et similiter cum 
+di<lb ed="#Bc" break="no"/>cit, complaciti quid libeat, determinat
+<lb ed="#Bc"/>complacitum iterum ad finem ad quem
+<lb ed="#Bc"/>datum est homini.
+</p>
+            <p xml:id="Almn78-h48214-d1e570">
+               <lb ed="#Bc"/>Er sIMILITER in sequenti,uanumquodque
+<lb ed="#Bc"/>istorum determinat ad finem : libertas
+<lb ed="#Bc"/>enim est ad libere velle, consilium et 
+in<lb ed="#Bc" break="no"/>quisitio ad verum sapere, complacitum
+<lb ed="#Bc"/>autem non est perfectum nisi in pleno
+<lb ed="#Bc"/>posse quando potest quidquid vult et 
+ni<lb ed="#Bc" break="no"/>hil ultra secundum rationem.
+</p>
+            <p xml:id="Almn78-h48214-d1e588">
+               <lb ed="#Bc"/>Ad id quod queritur de alia divisione,
+<lb ed="#Bc"/>jam responsum est : quia est eadem cum
+<lb ed="#Bc"/>ista, Libertas enim nature est eadem
+<lb ed="#Bc"/>cum libertate a coactione, et libertas
+<lb ed="#Bc"/>gratia eadem cum libertate a peccato, et
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>libertas glorie eadem cum libertate a
+<lb ed="#Bc"/>miseria.
+</p>
+            <p xml:id="Almn78-h48214-d1e608">
+               <lb ed="#Bc"/>De divisione Anselmi dicendum, quod
+<lb ed="#Bc"/>data estin comparatione ad finem et 
+cau<lb ed="#Bc" break="no"/>sam. Acceptum enim et non acceplum
+<lb ed="#Bc"/>dicta sunt par causam : rectitudo autem
+<lb ed="#Bc"/>finis est libertatis. Et de his satis dictum
+<lb ed="#Bc"/>est aupra in questione de definitione 
+li<lb ed="#Bc" break="no"/>beri arbitrii quam dat Anselmus.
+</p>
+            <p xml:id="Almn78-h48214-d1e626">
+               <lb ed="#Bc"/>Ad id quod queritur ulterius, Si 
+hber<lb ed="#Bc" break="no"/>tas sit amissibilis?
+</p>
+            <p xml:id="Almn78-h48214-d1e634">
+               <lb ed="#Bc"/>Dicendum, quod libertas a coactione
+<lb ed="#Bc"/>numquam est amissibilis : quia a natura
+<lb ed="#Bc"/>est : natura enim non tollitur per 
+pecca<lb ed="#Bc" break="no"/>tum, sed vulneratur. Sed libertas a 
+pec<lb ed="#Bc" break="no"/>cato amissibilis est per peccatum : et 
+li<lb ed="#Bc" break="no"/>bertas a prima miseria amissibilis per
+<lb ed="#Bc"/>miseriam pene eterne. Et quod 
+dam<lb ed="#Bc" break="no"/>nati non possunt velle bonum, sed 
+vo<lb ed="#Bc" break="no"/>lunt malum, non est per necessitatem et
+<lb ed="#Bc"/>coactionem, sed per extremam 
+damna<lb ed="#Bc" break="no"/>tionem, qua obstinati sunt in malo. Ht
+<lb ed="#Bc"/>de hoc etiam supra in definitione libert
+<lb ed="#Bc"/>arbitrii data ab Anselmo sufficienter 
+di<lb ed="#Bc" break="no"/>clum est.
+</p>
+            <p xml:id="Almn78-h48214-d1e667">
+               <lb ed="#Bc"/>Ad uttimum quod objicitur, dicendum
+<lb ed="#Bc"/>quod non est simile de libero arbitrio et
+<lb ed="#Bc"/>aliis qualitatibus : libertas enim arbitrii
+<lb ed="#Bc"/>naturalis est et data cum natura : et ideo
+<lb ed="#Bc"/>non habet contrarium permiscibile sibi
+<lb ed="#Bc"/>per que tolli possit. Aliae autem 
+qualita<lb ed="#Bc" break="no"/>tes sunt passiones vel passibiles 
+qualita<lb ed="#Bc" break="no"/>tes inferentes vel illate : et habent 
+con<lb ed="#Bc" break="no"/>traria quorum permixtione remitti 
+pos<lb ed="#Bc" break="no"/>sunt et intendi et etiam destrui per
+<lb ed="#Bc"/>modum alterationis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

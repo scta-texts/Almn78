@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 79</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 79</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="110"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h24402"><!-- p2t13q79 -->
+            <head xml:id="Almn78-h24402-Hd1e106">Quaestio 79</head>
+            <head xml:id="Almn78-h24402-Hd1e109" type="question-title">
+    De habitatione paradisi quae corpori Adae competebat
+  </head>
+            <p xml:id="Almn78-h24402-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAISTIO LXXIX
+<lb ed="#Bc"/>De habitatione paradisi quae corpori Adae competebat.
+</p>
+            <p xml:id="Almn78-h24402-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur de habitatione 
+para<lb ed="#Bc" break="no"/>disi que tali corpori congruebat.
+</p>
+            <p xml:id="Almn78-h24402-d1e130">
+               <lb ed="#Bc"/>1. Et accipiatur dictum Damasceni qui
+<lb ed="#Bc"/>in libro IL de Fide orthodoxa sic dicit :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h24402-Qd1e138"> Quia vero ex visibili et invisibili
+<lb ed="#Bc"/>creatura conditurus erat Deus hominem
+<lb ed="#Bc"/>secundum propriam imaginem et. 
+simili<lb ed="#Bc" break="no"/>tudinem, sicut quemdam regem et 
+prin<lb ed="#Bc" break="no"/>cipem omnis terre et omnium que in
+<lb ed="#Bc"/>ea sunt, constituit ante eum velut 
+quam<lb ed="#Bc" break="no"/>dam regiam, in qua conversans beatam
+<lb ed="#Bc"/>et divitem omnium haberet vitam. Et
+<lb ed="#Bc"/>hoc est divinus paradisus, Dei manibus
+<lb ed="#Bc"/>in Eden plantatus, gaudii et 
+exsultatio<lb ed="#Bc" break="no"/>nis universe promptuarium. Eden enim
+<lb ed="#Bc"/>voluptas interpretatur. In Oriente 
+qui<lb ed="#Bc" break="no"/>dem omni terra excelsior positus est,
+<lb ed="#Bc"/>optima temperie, aere et tenuissimo et
+<lb ed="#Bc"/>purissimo circumfulgens, plantis semper
+<lb ed="#Bc"/>floridis ornatus, et bono odore plenus,
+<lb ed="#Bc"/>lumine repletus, et universe sensibilis
+<lb ed="#Bc"/>venustatis et pulchritudinis 
+superexce<lb ed="#Bc" break="no"/>dens intelligentiam. Divinus profecto
+<lb ed="#Bc"/>locus, ac dignus ejus qui ad imaginem
+<lb ed="#Bc"/>Dei creatus fuerat, incolatu, in quo nul-
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>lum eral irrationaliam aaimalium, 
+so<lb ed="#Bc" break="no"/>lus vero homo divinarum manuum 
+plas<lb ed="#Bc" break="no"/>ma *% </quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e195">
+               <lb ed="#Bc"/>2. Adhuc, <name xml:id="Almn78-h24402-Nd1e199">Strabus</name> vero et <name xml:id="Almn78-h24402-Nd1e202">Beda</name> 
+di<lb ed="#Bc" break="no"/>cunt sic : <quote xml:id="Almn78-h24402-Qd1e207"> Est locus in Oriente positus,
+<lb ed="#Bc"/>a regionibus quas incolunt homines 
+lon<lb ed="#Bc" break="no"/>go tractu maris secretus, altitudinis 
+tan<lb ed="#Bc" break="no"/>te ut ad lunarem globum ascendat. </quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e217">
+               <lb ed="#Bc"/>3. Adhuc, <name xml:id="Almn78-h24402-Nd1e221">Josephus</name> dicit sic: <quote xml:id="Almn78-h24402-Qd1e224"> Deus
+<lb ed="#Bc"/>ad Orientem plantavit paradisum omni
+<lb ed="#Bc"/>germinatione florentem, et in hunc locum
+<lb ed="#Bc"/>introduxit Adam et ejus uxorem, 
+pre<lb ed="#Bc" break="no"/>cipiens eis plantationum habere 
+sollici<lb ed="#Bc" break="no"/>tudinem. </quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e238">
+               <lb ed="#Bc"/>4. Adhuc, <name xml:id="Almn78-h24402-Nd1e242">Isidorus</name> in libro 
+Etymolo<lb ed="#Bc" break="no"/>giarum dicit sic: <quote xml:id="Almn78-h24402-Qd1e247"> Paradisus est locus
+<lb ed="#Bc"/>in Orientis partibus constitutus, cujus
+<lb ed="#Bc"/>vocabulum a Greco in Latinum vertitur.
+<lb ed="#Bc"/>Hortus porro Hebraice den dicitur,
+<lb ed="#Bc"/>in nostra lingua deliciae : quod si 
+utrum<lb ed="#Bc" break="no"/>que junctum fuerit, sonat hortum 
+deli<lb ed="#Bc" break="no"/>ciarum. </quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e264">
+               <lb ed="#Bc"/>Ex his omnibus constat terrenum 
+lo<lb ed="#Bc" break="no"/>cum esse paradisum. Et hoc tractat <ref xml:id="Almn78-h24402-Rd1e270">
+Ma<lb ed="#Bc" break="no"/>gister in libro II Sententiarum, distinct.
+<pb ed="#Bc" n="111"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>XVII, cap. <quote xml:id="Almn78-h24402-Qd1e280" type="incipit" source="http://scta.info/resource/pl-l2d17c4-d1e108@1-4">Hominem autem ita forma
+    <lb ed="#Bc" break="no"/>tum</quote>
+               </ref>, ubi sic dicit: <quote xml:id="Almn78-h24402-Qd1e286" source="http://scta.info/resource/pl-l2d17c5-d1e108@1-11 http://scta.info/resource/pl-l2d17c5-d1e111@1-30">Intelligitur autem 
+pa<lb ed="#Bc" break="no"/>radisus corporalis et localis, in quo homo
+<lb ed="#Bc"/>locatus est. Tres enim generales de 
+pa<lb ed="#Bc" break="no"/>radiso sententie sunt. Una eorum qui
+<lb ed="#Bc"/>corporaliter intelligi volunt tantum :
+<lb ed="#Bc"/>alia eorum qui spiritualiter tantum :
+<lb ed="#Bc"/>tertia eorum qui utroque modo 
+paradi<lb ed="#Bc" break="no"/>sum accipiunt. Tertiam mihi placere 
+fa<lb ed="#Bc" break="no"/>teor .</quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e307">
+               <lb ed="#Bc"/>Ex his omnibus accipitur, quod 
+para<lb ed="#Bc" break="no"/>disus est locus ameenitate et deliciis 
+ple<lb ed="#Bc" break="no"/>nus, et ideo convenientissimus ad 
+habi<lb ed="#Bc" break="no"/>tandum. Fuit enim, ut dicit Augustinus,
+<lb ed="#Bc"/>abundantia bonorum repletus, optime
+<lb ed="#Bc"/>temperatus, et plantis ameenissimis 
+con<lb ed="#Bc" break="no"/>situs. Unde Augustinus in libro XIV de
+<lb ed="#Bc"/>Civitate Dei : <quote xml:id="Almn78-h24402-Qd1e326"> Quid timere aut dolere
+<lb ed="#Bc"/>poterant primi parentes in tantoram tanta
+<lb ed="#Bc"/>affluentia bonorum, ubi non aberat 
+quid<lb ed="#Bc" break="no"/>quam quod bona voluntas 
+concupisce<lb ed="#Bc" break="no"/>ret, nec inerat quod carnem animamve
+<lb ed="#Bc"/>hominis feliciter viventis offenderet °? </quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e340">
+               <lb ed="#Bc"/>Adhbuc, Isidorus : <quote xml:id="Almn78-h24402-Qd1e344"> Non frigusibi, 
+sup<lb ed="#Bc" break="no"/>ple ex-ellens, non estus, supple, 
+excel<lb ed="#Bc" break="no"/>lens, sed perpelua aeris temperies. </quote>
+            </p>
+            <p xml:id="Almn78-h24402-d1e353">
+               <lb ed="#Bc"/>Queritur ergo, Si talis locus aptus
+<lb ed="#Bc"/>est habitationi humane ?
+</p>
+            <p xml:id="Almn78-h24402-d1e360">
+               <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>1. Dicitur enim a Magistro in Historiis,
+<lb ed="#Bc"/>quodin montem Olympum propter 
+allti<lb ed="#Bc" break="no"/>tadinem Philosophi ascendere non 
+pos<lb ed="#Bc" break="no"/>sunt, nisi spongias humidas ad nares
+<lb ed="#Bc"/>adhibeant, per quas crassiorem aerem
+<lb ed="#Bc"/>spirent, quam sit in summitate montis.
+<lb ed="#Bc"/>Ergo multo minus al spiraculam 
+homi<lb ed="#Bc" break="no"/>nis valet aer paradisi : quia paradisus
+<lb ed="#Bc"/>altior est, quam mons Olympus.
+</p>
+            <p xml:id="Almn78-h24402-d1e384">
+               <lb ed="#Bc"/>2. Adhuc, Si usque ad lunarem 
+glo<lb ed="#Bc" break="no"/>hum attingat, propter quod dicunt Beda
+<lb ed="#Bc"/>et Strabus, quod aque diluvii non
+<lb ed="#Bc"/>ascenderunt illuc, cum probatum sit per
+<lb ed="#Bc"/>Philosophum, quod ignis undique 
+tan<lb ed="#Bc" break="no"/>git concavum circuli lune, tune de 
+ne<lb ed="#Bc" break="no"/>cessitate stat in igne : et sic videtur cum
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>ignis sit vehementis actionis, quodet 
+plan<lb ed="#Bc" break="no"/>te exuruntur et aer estuans efficitur :
+<lb ed="#Bc"/>et ita non erit aptissimus ad habitandum.
+</p>
+            <p xml:id="Almn78-h24402-d1e410">
+               <lb ed="#Bc"/>3. Adhuc, super illud Genesis, u, 6:
+<lb ed="#Bc"/>Fons ascendebat de terra, dicit 
+Dama<lb ed="#Bc" break="no"/>scenus, quod fons ille est Oceanus sive
+<lb ed="#Bc"/>Amphitriles. Et si hoc est : tuns 
+opor<lb ed="#Bc" break="no"/>tet, quod paradisus sit totus mundus, et
+<lb ed="#Bc"/>non unus determinatus locus.
+</p>
+            <p xml:id="Almn78-h24402-d1e426">
+               <lb ed="#Bc"/>4. Adhuc, Objiciunt quidam, quod si
+<lb ed="#Bc"/>usque ad lunarem globum attingit, 
+se<lb ed="#Bc" break="no"/>quitur quod terra non sit in centro : quia
+<lb ed="#Bc"/>pars terre est : et hoc ab omnibus 
+repu<lb ed="#Bc" break="no"/>tatur impossibile.
+</p>
+            <p xml:id="Almn78-h24402-d1e439">
+               <lb ed="#Bc"/>3. Adhuc, Cum corpus Adz 
+delicatis<lb ed="#Bc" break="no"/>simum fuerit, ef maxime in 
+tempera<lb ed="#Bc" break="no"/>mento, videtur quod minime pro 
+ali<lb ed="#Bc" break="no"/>mento competebant ei fructus.
+</p>
+            <p xml:id="Almn78-h24402-d1e451">
+               <lb ed="#Bc"/>6. Adhuc, Videntur opposita dici de
+<lb ed="#Bc"/>paradiso : flos enim et fructus numquam
+<lb ed="#Bc"/>sunt simul in planta, sed sucessive : 
+di<lb ed="#Bc" break="no"/>citur autem in auctoritate Damasceni,
+<lb ed="#Bc"/>quod semper erat floridus, et tamen 
+fru<lb ed="#Bc" break="no"/>ctibus plenus hortus ille qui dicitur 
+pa<lb ed="#Bc" break="no"/>radisus.
+</p>
+            <p xml:id="Almn78-h24402-d1e469">
+               <lb ed="#Bc"/>Ulterius Queritur de lignis 
+para<lb ed="#Bc" break="no"/>disi.
+</p>
+            <p xml:id="Almn78-h24402-d1e476">
+               <lb ed="#Bc"/>Videtur enim, quod de ligno scientiz
+<lb ed="#Bc"/>boni et mali non indiguit : quia
+</p>
+            <p xml:id="Almn78-h24402-d1e483">
+               <lb ed="#Bc"/>1. Dicit Augustinus super Genesim ad
+<lb ed="#Bc"/>litteram, quod <quote xml:id="Almn78-h24402-Qd1e489"> Deus Adam spirituali
+<lb ed="#Bc"/>mente preditum fecit :</quote> et sic nullo 
+indi<lb ed="#Bc" break="no"/>guit sibi conferente scientiam.
+</p>
+            <p xml:id="Almn78-h24402-d1e497">
+               <lb ed="#Bc"/>2. Adhuc, Occasio ruins fuit: et sic
+<lb ed="#Bc"/>de loco ubi feliciter vivere debuit : 
+amo<lb ed="#Bc" break="no"/>vendum fore videbatur.
+</p>
+            <p xml:id="Almn78-h24402-d1e506">
+               <lb ed="#Bc"/>Utrerius, Queritur de ligno vite.
+<lb ed="#Bc"/>Homo enim ex hoc quod erat 
+adimagi<lb ed="#Bc" break="no"/>nem Dei, perfectam et suflicientem 
+cau<lb ed="#Bc" break="no"/>sam habuit immortalitatis et vite: 
+su<lb ed="#Bc" break="no"/>perfluum ergo videtur, quod addatur 
+li<lb ed="#Bc" break="no"/>gnum vite ad vite continuationem.
+</p>
+            <p xml:id="Almn78-h24402-d1e523">
+               <lb ed="#Bc"/>Anpuvc, De aliis lignis similiter queri
+<pb ed="#Bc" n="112"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>tur, de quihus comedere jubebatur : erat
+<lb ed="#Bc"/>enim, ut dicit Augustinus, tune 
+immor<lb ed="#Bc" break="no"/>talis : ergo a corpore ejus nihil poterat
+<lb ed="#Bc"/>deperdi : comestio autem est ad 
+restau<lb ed="#Bc" break="no"/>rationem deperditi : frustra ergo 
+planta<lb ed="#Bc" break="no"/>ta sunt ibi ligna de quibus debebat 
+com<lb ed="#Bc" break="no"/>edere : quia inutilis fuit sibi comestio,
+<lb ed="#Bc"/>et inutile non potest esse in operibus
+<lb ed="#Bc"/>Dei.
+</p>
+            <p xml:id="Almn78-h24402-d1e552">
+               <lb ed="#Bc"/>Solutio. Dicendum cum Magistro in
+<lb ed="#Bc"/>libro If Sententiarum, distinct. XVI,
+<lb ed="#Bc"/>cap. Hominem autem ita formatum,
+<lb ed="#Bc"/>quod tres sunt sententia Sanctorum de
+<lb ed="#Bc"/>paradiso, sicut, dictumest in objiciendo.
+<lb ed="#Bc"/>Est enim paradisus locus deliciarum 
+spi<lb ed="#Bc" break="no"/>ritus. Il ad Corinth. xu, 3 et 4: Scio
+<lb ed="#Bc"/>hujusmodt hominem (sive in corpore,
+<lb ed="#Bc"/>nescio, sive extra corpus, nescio, Deus
+<lb ed="#Bc"/>seit) guoniam raptus est in paradisum,
+<lb ed="#Bc"/>et audivit arcana verba, que non licet
+<lb ed="#Bc"/>homini logui. Est paradisus corporum in
+<lb ed="#Bc"/>Oriente, sequestratus a nostra 
+habitabi<lb ed="#Bc" break="no"/>li, quem Dominus tertia die plantavit,
+<lb ed="#Bc"/>quando dixit: Germinet terra herbam
+<lb ed="#Bc"/>virentem et facientem semen, et lignum
+<lb ed="#Bc"/>pomiferum faciens fructum juxta genus
+<lb ed="#Bc"/>suum *. Et ideo, sicut dicunt Sancti,
+<lb ed="#Bc"/>sub differentia temporis prateriti 
+plus<lb ed="#Bc" break="no"/>quam perfecti dicit Moyses : Plantaverat
+<lb ed="#Bc"/>autem Dominus Deus paradisum 
+volu<lb ed="#Bc" break="no"/>platis a principio : in quo posuit 
+homi<lb ed="#Bc" break="no"/>nem quem formaverat ?. Et 
+conceden<lb ed="#Bc" break="no"/>dum est secundum dicta Sanctorum quod
+<lb ed="#Bc"/>ille locus affluentia bonorum 
+copiosissi<lb ed="#Bc" break="no"/>mus est, irrigatione fontis 
+jucundissi<lb ed="#Bc" break="no"/>mus, floribus ameenissimus, 
+tempera<lb ed="#Bc" break="no"/>mento sanissimus, sicut dicunt Sancti.
+<lb ed="#Bc"/>Est etiam paradisus locus simul sprituum
+<lb ed="#Bc"/>et corporum : sed hoc non facit alium
+<lb ed="#Bc"/>paradisum, licet faciat aliam sententiam
+<lb ed="#Bc"/>de jraradiso.
+</p>
+            <p xml:id="Almn78-h24402-d1e624">
+               <lb ed="#Bc"/>AD PRIMUM ergo quod queritur, 
+di<lb ed="#Bc" break="no"/>cendum quod aliud est in paradiso, et
+<lb ed="#Bc"/>aliud in monte Olympo. Paradisus enim
+<lb ed="#Bc"/>fontem habet rigantem universam super
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>ficiem paradisi, ex cujus humore et 
+fri<lb ed="#Bc" break="no"/>giditate temperatur aer, ut congruus sit
+<lb ed="#Bc"/>humane respirationi. Et hoc non habet
+<lb ed="#Bc"/>Olympus.
+</p>
+            <p xml:id="Almn78-h24402-d1e646">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod salvo 
+me<lb ed="#Bc" break="no"/>liori judicio, secundum extensionem 
+alti<lb ed="#Bc" break="no"/>tudinis loci paradisus usque ad lunarem
+<lb ed="#Bc"/>globum non ascendit, sed participando
+<lb ed="#Bc"/>proprietates lune dicitur ascendere.
+<lb ed="#Bc"/>Verbi gratia a luna supra quinta 
+essen<lb ed="#Bc" break="no"/>tia est, que, sicut dicunt naturales 
+Phi<lb ed="#Bc" break="no"/>losophi, locus est incorruptionis et 
+im<lb ed="#Bc" break="no"/>mortalitatis. Luna etiam est per lumen
+<lb ed="#Bc"/>receptum imago solis, et secundum
+<lb ed="#Bc"/>Astronomos terminus est humiditatum
+<lb ed="#Bc"/>in nubibus: nubes enim non sunt sbi,
+<lb ed="#Bc"/>nec pluvie, nec tonitrua, nec aliquid 
+ta<lb ed="#Bc" break="no"/>lium. Sed statim sub luna sphera 
+inci<lb ed="#Bc" break="no"/>pit activorum et passivorum. Et 
+quan<lb ed="#Bc" break="no"/>tum ad has proprietates usque ad orbem
+<lb ed="#Bc"/>lune paradisus dicitur ascendere. In 
+pa<lb ed="#Bc" break="no"/>radiso enim nihil mortale est, nihil
+<lb ed="#Bc"/>corruptibile, nihil tempestuosum : et
+<lb ed="#Bc"/>quantum ad participationem harum 
+pro<lb ed="#Bc" break="no"/>prietatum dicitur paradisus ad lunarem
+<lb ed="#Bc"/>globum ascendere per participationem
+<lb ed="#Bc"/>similitudinis, non per exaltationem loci.
+<lb ed="#Bc"/>Hoc tamen dico sine prajudicio 
+melio<lb ed="#Bc" break="no"/>ris sententi#: quia in quibusdam libris
+<lb ed="#Bc"/>antiquissimis inveni, quod illius 
+senten<lb ed="#Bc" break="no"/>tie que atiribuitur Bede et Strabo, 
+pri<lb ed="#Bc" break="no"/>mus auctor fuit Thomas Apostolus, quod
+<lb ed="#Bc"/>scilicet paradisus tante altitudinis sit,
+<lb ed="#Bc"/>quod usque ad lunarem globum 
+ascen<lb ed="#Bc" break="no"/>dat.
+</p>
+            <p xml:id="Almn78-h24402-d1e716">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod 
+Damasce<lb ed="#Bc" break="no"/>nus loquitur de fonte secundum primam
+<lb ed="#Bc"/>originem, qu (sicut dicit) non potest
+<lb ed="#Bc"/>esse nisi Oceanus: nihilominus tamen
+<lb ed="#Bc"/>quando ebullit, fiunt fontes multi, 
+quo<lb ed="#Bc" break="no"/>rum unus erumpit in loco illo qui 
+dici<lb ed="#Bc" break="no"/>tur paradisus: et ille est fons de quo
+<lb ed="#Bc"/>loquitur Moyses. Et sic etiam paradisus
+<lb ed="#Bc"/>non est totus mundus, sed specialis locus ~
+<lb ed="#Bc"/>in Eden plantatus.
+</p>
+            <p xml:id="Almn78-h24402-d1e740">
+               <lb ed="#Bc"/>Ad aliud dicendum, sicut jam ante
+<lb ed="#Bc"/>patuit, quod secundum extensionem loci
+<pb ed="#Bc" n="113"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>non attingit usque ad lunarem globum,sed
+<lb ed="#Bc"/>est in centro sicut et relique partes terre,
+</p>
+            <p xml:id="Almn78-h24402-d1e757">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod secundum
+<lb ed="#Bc"/>statum innocentie Ade, maxime 
+compe<lb ed="#Bc" break="no"/>tebant fructus et olera: et ideo, sicut in
+<lb ed="#Bc"/>prehabitis dictum est, in statu illo non
+<lb ed="#Bc"/>accepit esum carnium, sed post 
+pecca<lb ed="#Bc" break="no"/>tum, quando corpus, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus, jam mortuum fuit propter 
+pec<lb ed="#Bc" break="no"/>catum. Ad Roman. vin, 10: Corpus
+<lb ed="#Bc"/>quidem mortuum est propter peccatum.
+<lb ed="#Bc"/>Et quando terra propter diluvium non
+<lb ed="#Bc"/>erat disperdita, sicut dixit Dominus,
+<lb ed="#Bc"/>Genes. vi, 13: Ego disperdam eos cum
+<lb ed="#Bc"/>terra. Tunc enim adhuc erat in vigore
+<lb ed="#Bc"/>suo, ut dicit Augustinus, quem accepit
+<lb ed="#Bc"/>in verbo Domini quando dixit : Germinet
+<lb ed="#Bc"/>terra herbam virentem, et proferentem
+<lb ed="#Bc"/>herbas salubres et fructus 
+convenicntis<lb ed="#Bc" break="no"/>simos.
+</p>
+            <p xml:id="Almn78-h24402-d1e799">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod non sunt
+<lb ed="#Bc"/>opposita, fructus et flos in uno tempore,
+<lb ed="#Bc"/>si ad diversas plantas referantur. 
+Scytha<lb ed="#Bc" break="no"/>rum tamen arbor simul habet fructum
+<lb ed="#Bc"/>et florem in diversis ramis.
+</p>
+            <p xml:id="Almn78-h24402-d1e812">
+               <lb ed="#Bc"/>Ad id quod ullerius queritur de ligno
+<lb ed="#Bc"/>scientie boni et mali, dicendum cum
+<lb ed="#Bc"/>Sanctis et Magistro in libro Il 
+Senten<lb ed="#Bc" break="no"/>tiarum, distinct. XVII, cap. 
+preindu<lb ed="#Bc" break="no"/>cto, quod lignum illud non dicitur 
+li<lb ed="#Bc" break="no"/>gnum scientia boni et mali a vittute
+<lb ed="#Bc"/>aliqua, qua talem potuerit conferre
+<lb ed="#Bc"/>scientiam, sed ab eventu conseculo :
+<lb ed="#Bc"/>quia scilicet ex comestione didicit Adam
+<lb ed="#Bc"/>quid est inter bonum obedientia, et 
+ma<lb ed="#Bc" break="no"/>lum inobedientia. Et licet in se esset
+<lb ed="#Bc"/>bonum ad vescendum, et pulchrum 
+ocu<lb ed="#Bc" break="no"/>lis adspectugue delectabile, sicut 
+dici<lb ed="#Bc" break="no"/>tur, Genes. 11, 6, tamen ex hoc non fuit
+<lb ed="#Bc"/>causa transgressionis, sed potius ex 
+per<lb ed="#Bc" break="no"/>suasione diaboli.
+</p>
+            <p xml:id="Almn78-h24402-d1e849">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Evy rer noc patet solutio ad sequens,
+<lb ed="#Bc"/>cum ex se esset conveniens et 
+salutife<lb ed="#Bc" break="no"/>rum, non debuit amoveri ut causa vel
+<lb ed="#Bc"/>occasio ruine.
+</p>
+            <p xml:id="Almn78-h24402-d1e862">
+               <lb ed="#Bc"/>Ad aliud ulterius dicendum, quod ex
+<lb ed="#Bc"/>tribus habuit homo immortalitatem in
+<lb ed="#Bc"/>primo statu, scilicet ex absentia cause
+<lb ed="#Bc"/>mortis et mortalitatis que est per 
+pec<lb ed="#Bc" break="no"/>catum. Sapient.1, 13 et 16: Deus 
+mor<lb ed="#Bc" break="no"/>tem non fecit,... imp autem manibus
+<lb ed="#Bc"/>et verbis accersierunt illam, etc. Ad
+<lb ed="#Bc"/>Roman. v, 12: Per unum hominem 
+pec<lb ed="#Bc" break="no"/>catum in hune mundum intravit, et per
+<lb ed="#Bc"/>peccalum mors. Ex gratia autem 
+inno<lb ed="#Bc" break="no"/>centia, que ab Anselmo vocatur 
+origt<lb ed="#Bc" break="no"/>nalis justitia, habuit sicut ex 
+conser<lb ed="#Bc" break="no"/>vante. Ex esu vero ligni vite habuit
+<lb ed="#Bc"/>sicut disponente et contrarias 
+disposi<lb ed="#Bc" break="no"/>tiones removente. Et ideo dixit 
+Augusti<lb ed="#Bc" break="no"/>nus in libro XIIE de Civitate Dei, quod
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h24402-Qd1e901"> accepit aliorum lignorum refectionem
+<lb ed="#Bc"/>contra defectionem, esum ligni vile 
+con<lb ed="#Bc" break="no"/>tra velustatem et infirmitalem. </quote> Et sic
+<lb ed="#Bc"/>illorum trium nihil superfluit, cum 
+om<lb ed="#Bc" break="no"/>nia tria diversimode operentur ad 
+im<lb ed="#Bc" break="no"/>mortalitatem.
+</p>
+            <p xml:id="Almn78-h24402-d1e915">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod 
+immortali<lb ed="#Bc" break="no"/>tas primi status non contrariabatur 
+ani<lb ed="#Bc" break="no"/>malitali que cibis indigebat. Et quod
+<lb ed="#Bc"/>dicitur, quod ab immortali nihil 
+deper<lb ed="#Bc" break="no"/>ditur, hoc est verum de illo immortali
+<lb ed="#Bc"/>quod est immortale simpliciter: tamen
+<lb ed="#Bc"/>etiam de corpore quod fuit immortale
+<lb ed="#Bc"/>secundum primum statum innocentie,
+<lb ed="#Bc"/>nihil deperdi poterat de perditione 
+ten<lb ed="#Bc" break="no"/>dente ad corruptionem : sed deperdi 
+pot<lb ed="#Bc" break="no"/>erat impurum a puro per resolutionem,
+<lb ed="#Bc"/>quam oportuit restitui per 
+comestio<lb ed="#Bc" break="no"/>nem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

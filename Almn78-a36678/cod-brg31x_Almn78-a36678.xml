@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 61</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 61</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="618"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a36678"><!-- p1t15q61 -->
+            <head xml:id="Almn78-a36678-Hd1e106">Quaestio 61</head>
+            <head xml:id="Almn78-a36678-Hd1e109" type="question-title">
+      De praescientia Dei.
+    </head>
+            <p xml:id="Almn78-a36678-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LXI.
+<lb ed="#Ba"/>De praescientia Dei.
+</p>
+            <p xml:id="Almn78-a36678-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde quaerendum est in speciali de
+<lb ed="#Ba"/>praescientia.
+</p>
+            <p xml:id="Almn78-a36678-d1e130">
+               <lb ed="#Ba"/>Et si colligantur ea que Magister 
+in<lb ed="#Ba" break="no"/>quirit in libro | Sententiarum, distinct.
+<lb ed="#Ba"/>XXAXV, XNAVI, NXXVIIT et XXXIX,
+<lb ed="#Ba"/>videtur oclo quierere.
+</p>
+            <p xml:id="Almn78-a36678-d1e142">
+               <lb ed="#Ba"/>Quorum primum est, Si prescientia
+<lb ed="#Ba"/>sit in Deo nullis existentibus futuris ?
+<lb ed="#Ba"/>Lit hoc est querere, Utrum prescientia
+<lb ed="#Ba"/>sit temporalis vel eterna ?
+</p>
+            <p xml:id="Almn78-a36678-d1e153">
+               <lb ed="#Ba"/>Secundum est, Utrum prescientia sit
+<lb ed="#Ba"/>causa rerum? quod quarit Magister in
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>distinctione XXXVHI, cap. Videtour enim
+<lb ed="#Ba"/>prescientia Dei causa corum esse que
+<lb ed="#Ba"/>et sub sunt.
+</p>
+            <p xml:id="Almn78-a36678-d1e169">
+               <lb ed="#Ba"/>Tertium est, Utrum sit causata a 
+re<lb ed="#Ba" break="no"/>bus? quod quwrit in illo capite, Hane
+<lb ed="#Ba"/>igiur que videtur.
+</p>
+            <p xml:id="Almn78-a36678-d1e178">
+               <lb ed="#Ba"/>Quartum est, Utrum falli potest ? quod
+<lb ed="#Ba"/>in eodem capite dicit, et disputat in  
+se<lb ed="#Ba" break="no"/>quenti.
+</p>
+            <p xml:id="Almn78-a36678-d1e187">
+               <lb ed="#Ba"/>Quintum est, Utrum inferat 
+necessi<lb ed="#Ba" break="no"/>tatem ? quod ibidem innuere videtur 
+Ma<lb ed="#Ba" break="no"/>gister.
+</p>
+            <p xml:id="Almn78-a36678-d1e196">
+               <pb ed="#Ba" n="619"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Sextum est, Utrum sit 
+incommutabi<lb ed="#Ba" break="no"/>lis? quod in distinctione XNXV, cap.
+<lb ed="#Ba"/>Scientia vero vel sapientia, dicit 
+ex<lb ed="#Ba" break="no"/>presse Magister.
+</p>
+            <p xml:id="Almn78-a36678-d1e213">
+               <lb ed="#Ba"/>Septimum est, Utrum possit augeri
+<lb ed="#Ba"/>vel minui? quod ibidem, et distinct.
+<lb ed="#Ba"/>XXXIX Magister disputat.
+</p>
+            <p xml:id="Almn78-a36678-d1e222">
+               <lb ed="#Ba"/>Octavum est,quod relinquitur ex istis,
+<lb ed="#Ba"/>Quomodo concordet cum libero 
+ar<lb ed="#Ba" break="no"/>bitrio? quod querit et disputat 
+Ansel<lb ed="#Ba" break="no"/>mus in libro de Concordia prescientie
+<lb ed="#Ba"/>et liberi arbitrii,
+</p>
+            <div xml:id="Almn78-a36678-Dd1e235">
+               <head xml:id="Almn78-a36678-Hd1e237">Membrum 1</head>
+               <head xml:id="Almn78-a36678-Hd1e240" type="question-title">
+  Utrum prescientia sit temporalis
+  vel eterna?
+</head>
+               <p xml:id="Almn78-a36678-d1e243">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum prescientia sit temporalis
+<lb ed="#Ba"/>vel eterna?
+</p>
+               <p xml:id="Almn78-a36678-d1e252">
+                  <lb ed="#Ba"/>Primo ergo queritur, Si prescientia
+<lb ed="#Ba"/>sit in Deo nullis existentibus futuris? Et
+<lb ed="#Ba"/>hoc est querere, Utrum prescientia sit
+<lb ed="#Ba"/>temporalis, vel eterna?
+</p>
+               <p xml:id="Almn78-a36678-d1e263">
+                  <lb ed="#Ba"/>Ad hoc quod non sit eterna, 
+Magi<lb ed="#Ba" break="no"/>ster in Sententiis objicit sic :
+</p>
+               <p xml:id="Almn78-a36678-d1e271">
+                  <lb ed="#Ba"/>1. Si prescicntia est de futuris, si
+<lb ed="#Ba"/>nulla essent futura, in Deo nulla esset
+<lb ed="#Ba"/>prescientia : sed poterant nulla esse 
+fu<lb ed="#Ba" break="no"/>tura : ergo potuit in Deo non esse 
+pre<lb ed="#Ba" break="no"/>scientia. Et propar mediam sic, quod
+<lb ed="#Ba"/>poterant nulla esse futura : quia potuit
+<lb ed="#Ba"/>Deus nulla facere : libertatem enim 
+ha<lb ed="#Ba" break="no"/>buit ad faciendum, vel non faciendum :
+<lb ed="#Ba"/>ergo videtur in Deo potuisse non esse
+<lb ed="#Ba"/>prescientia.
+</p>
+               <p xml:id="Almn78-a36678-d1e295">
+                  <lb ed="#Ba"/>2. Adhuc, In illo capite, Ad hoc jurta
+<lb ed="#Ba"/>modulum, ex verbis Augustini dicit
+<lb ed="#Ba"/>Magister : <quote xml:id="Almn78-a36678-Qd1e303"> Sicut creator ad creaturam
+<lb ed="#Ba"/>relative dicitur, ita prascientia et 
+pre<lb ed="#Ba" break="no"/>scius ad futura referri videntur. </quote> [x
+<lb ed="#Ba"/>hoc arguitur sic : Creator ex tempore
+<lb ed="#Ba"/>dicitur de Deo, et non ab eterno : ergo
+<lb ed="#Ba"/>prescientia et prescius de Deo dicuntur
+<lb ed="#Ba"/>ex tempore, et non ab eterno.
+</p>
+               <p xml:id="Almn78-a36678-d1e320">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>3. Adhuc, In eodem capite dicit 
+Ma<lb ed="#Ba" break="no"/>gister, quod cum res desinit esse fatura,
+<lb ed="#Ba"/>desinit esse prascientia : cum incipit
+<lb ed="#Ba"/>esse fulura, incipit esse prescientia
+<lb ed="#Ba"/>ergo prescientia est que incipit et 
+desi<lb ed="#Ba" break="no"/>nit. Nihil quod incipit et desinit, est
+<lb ed="#Ba"/>eternum. Ergo prescientia eterna esse
+<lb ed="#Ba"/>non potest.
+</p>
+               <p xml:id="Almn78-a36678-d1e342">
+                  <lb ed="#Ba"/>4. Adhuc, Quidam objiciunt sic : 
+Prae<lb ed="#Ba" break="no"/>scientia est respectu futuri : in Dei 
+scien<lb ed="#Ba" break="no"/>tia nihil est futurum, sed omnia 
+pre<lb ed="#Ba" break="no"/>sentia : ergo in Dei scientia nulla est
+<lb ed="#Ba"/>prescientia.
+</p>
+               <p xml:id="Almn78-a36678-d1e355">
+                  <lb ed="#Ba"/>5. Adhuc, Qmnis scientia Dei 
+immu<lb ed="#Ba" break="no"/>tabilis est, ut in prahabitis 
+determina<lb ed="#Ba" break="no"/>tum est : prescientia mutabilis est
+<lb ed="#Ba"/>ergo prescientia in Dei scientia non
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a36678-d1e368">
+                  <lb ed="#Ba"/>In contrarium hujus est,
+<lb ed="#Ba"/>1. Quod dicit Magister in I 
+Sententia<lb ed="#Ba" break="no"/>rum, distinct. XXXV, cap. Scientia
+<lb ed="#Ba"/>vero, ex verbis Ambrosii in libro V de
+<lb ed="#Ba"/>Fide*, quod scivit Deus ab eterno 
+eter<lb ed="#Ba" break="no"/>num, et omne quod futurum erat, et
+<lb ed="#Ba"/>scivit immutabiliter. Scit quoque non
+<lb ed="#Ba"/>minus preterita vel futura quam 
+pre<lb ed="#Ba" break="no"/>sentia, et sua e#terna sapientia et 
+immu<lb ed="#Ba" break="no"/>tabili scit ipse omnia que sciuntur. 
+Om<lb ed="#Ba" break="no"/>nis enim ratio superne et terrene 
+sa<lb ed="#Ba" break="no"/>pientia, ut ait Ambrosius, in eo est :
+<lb ed="#Ba"/>quia omnem sapientiam et omnem 
+scien<lb ed="#Ba" break="no"/>tiam capit sua immensa scientia. Sic
+<lb ed="#Ba"/>quod ab eterno Deo conveniat.
+</p>
+               <p xml:id="Almn78-a36678-d1e404">
+                  <lb ed="#Ba"/>2. Adhuc, Non videtur valere quod
+<lb ed="#Ba"/>dicit Magister, si dicit respectum ad 
+fu<lb ed="#Ba" break="no"/>turum, quod propter hoc ex tempore
+<lb ed="#Ba"/>Deo conveniat, sicut creator : quia hoc
+<lb ed="#Ba"/>dictum, mundum fore ab eterno, ve:
+<lb ed="#Ba"/>rum est : et tamen dicitur respectu 
+fu<lb ed="#Ba" break="no"/>turi.
+</p>
+               <p xml:id="Almn78-a36678-d1e422">
+                  <lb ed="#Ba"/>3. Adhuc, Cum dicitur prescientia,
+<lb ed="#Ba"/>duo dicuntur, scilicet scientia, et 
+ante<lb ed="#Ba" break="no"/>cessio ad rem scitam. Constat, quod
+<lb ed="#Ba"/>seientia eterna est. Queratur ergo, Si
+<lb ed="#Ba"/>antecessio sit eterna? Et videtur, quod
+<lb ed="#Ba"/>sic. Antecessio enim ante omnem crea
+<pb ed="#Ba" n="620"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>turam est: et quidquid est ante omnem
+<lb ed="#Ba"/>creaturam, wternum est : ergo 
+anteces<lb ed="#Ba" break="no"/>sio wterna est : quidquid ergo dicitur in
+<lb ed="#Ba"/>hoc verbo, prescientia, eternum est :
+<lb ed="#Ba"/>ergo preesciontia eterna osl,
+</p>
+               <p xml:id="Almn78-a36678-d1e453">
+                  <lb ed="#Ba"/>SoLorio. Dicendum, quod preescientia
+<lb ed="#Ba"/>Dei wterna est, et ab eterno Deo 
+con<lb ed="#Ba" break="no"/>venit. Sed de wterno duplex est 
+consi<lb ed="#Ba" break="no"/>deratio : considcratur enim simpliciter
+<lb ed="#Ba"/>in quantum alernum est, ef non In 
+re<lb ed="#Ba" break="no"/>spectu ad aliquid extra se, sicut dicitur
+<lb ed="#Ba"/>Deus substantia, essentia, bonitas : hive
+<lb ed="#Ba"/>enim non respiciunt im ipso nisi 
+wter<lb ed="#Ba" break="no"/>num, quod sine principio est et sine
+<lb ed="#Ba"/>fine. Consideratur etiam wternum ut est
+<lb ed="#Ba"/>principium temporalis ut factivum per
+<lb ed="#Ba"/>artem, et sciens et disponens creata tam
+<lb ed="#Ba"/>in ficri quain in esse et conservalione :
+<lb ed="#Ba"/>et sic quia temporale dependet ad 
+ater<lb ed="#Ba" break="no"/>num, et respectum dependentiv habet ad
+<lb ed="#Ba"/>ipsum, necesse est cointelligi oppositum
+<lb ed="#Ba"/>respectum in a@terno, in quantum est
+<lb ed="#Ba"/>principium temporalis : correlativa enim
+<lb ed="#Ba"/>oppositorum respectuum sunt, et sine
+<lb ed="#Ba"/>illis relativa esse non possunt. Et sic de
+<lb ed="#Ba"/>zterno multa dicuntur temporalia, 
+sic<lb ed="#Ba" break="no"/>ut quod causa est, quod principium est
+<lb ed="#Ba"/>creaturaruin, quod prascius est. Sed
+<lb ed="#Ba"/>quedain de illis dicuntur ex tempore :
+<lb ed="#Ba"/>quedam autem ab eterno : et quedam
+<lb ed="#Ba"/>dicuntur, quorum dependentia que est
+<lb ed="#Ba"/>in creatura, eX tempore incepit, ul 
+crea<lb ed="#Ba" break="no"/>tor et dominus : exitus enim de nihilo ad
+<lb ed="#Ba"/>esse, et famulatus subjects creatura in
+<lb ed="#Ba"/>ipsa creatura inceperunt ex tempore. Et
+<lb ed="#Ba"/>cum relaliva posita se ponunt, ut dicit
+<lb ed="#Ba"/>Aristoleles in’ Predicamentis, in 
+respe<lb ed="#Ba" break="no"/>clu dependentie creatura ad creatorem
+<lb ed="#Ba"/>necessario ponitur oppositus respectus,
+<lb ed="#Ba"/>qui cliain ex tempore Deo convenit, ut
+<lb ed="#Ba"/>creator et dominus : et talia secundum
+<lb ed="#Ba"/>dict in Deo incipiunt, sed nunquam
+<lb ed="#Ba"/>desinunt. Ex quo enim creator esse 
+inci<lb ed="#Ba" break="no"/>pit, semper crit creator + et ex quo 
+crea<lb ed="#Ba" break="no"/>tura famiulata est, of semper erit 
+domi<lb ed="#Ba" break="no"/>nus, et semper erit creatura ab ipso ex
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>nihilo ad esse deducta, et semper erit
+<lb ed="#Ba"/>subjecla ad famulatum, Quivdam etiam
+<lb ed="#Ba"/>dicuntur sic de eterno secundum 
+ordi<lb ed="#Ba" break="no"/>nem ejus ad temporale set cam ordo
+<lb ed="#Ba"/>ipsius sit antecessio wternitatis ad 
+tem<lb ed="#Ba" break="no"/>pus, illa ab awterno Deo conveniunt, sed
+<lb ed="#Ba"/>non semper in wtlernum, Et hujus causa
+<lb ed="#Ba"/>est, quod ordo posterioris ad prius 
+varia<lb ed="#Ba" break="no"/>bilis est et cum mutatur posterius,
+<lb ed="#Ba"/>multatur respectus dependentiic ipsius ad
+<lb ed="#Ba"/>prius: et illo mutato necesse est mutari
+<lb ed="#Ba"/>oppositum corum respectum in priori,
+<lb ed="#Ba"/>qui tamen inco non est nisi secundum
+<lb ed="#Ba"/>dici. Et tale est presets et prescientia,
+</p>
+               <p xml:id="Almn78-a36678-d1e577">
+                  <lb ed="#Ba"/>Et ideo dicit Magister in libro I 
+Sen<lb ed="#Ba" break="no"/>distinct. XXXV, quod si
+<lb ed="#Ba"/>nulla sint futura, non erit futurorum
+<lb ed="#Ba"/>prescientia : et tamen erit prascientia
+<lb ed="#Ba"/>Dei qua ipse scit et prascil universa :
+<lb ed="#Ba"/>sicut si nulla sint iluminabilia, non erit
+<lb ed="#Ba"/>lumen illuminans illuminatione passiva,
+<lb ed="#Ba"/>licet sit semper illuminans illuminatione
+<lb ed="#Ba"/>acliva. Et talis mutatio creature est 
+se<lb ed="#Ba" break="no"/>cundum esse et secundum dici, Dei 
+au<lb ed="#Ba" break="no"/>tem non nisi secundum dici, et non
+<lb ed="#Ba"/>secundum esse.
+</p>
+               <p xml:id="Almn78-a36678-d1e606">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod hoc
+<lb ed="#Ba"/>procedil, secundum quod priescientia 
+di<lb ed="#Ba" break="no"/>cit respectum ordinis ad posterius : quia
+<lb ed="#Ba"/>sic mutato posteriori, necessario 
+signifi<lb ed="#Ba" break="no"/>catur non esse prioris respectus ad 
+po<lb ed="#Ba" break="no"/>sterius. Unde licet id quod est 
+prascien<lb ed="#Ba" break="no"/>tia, maneat, tamen sub ratione ordinis
+<lb ed="#Ba"/>ad prescitum non manct : et hoc nullam
+<lb ed="#Ba"/>inducil mulationem, ut dicit Augustinus
+<lb ed="#Ba"/>in bro V de Zriniéale 4, sieut nihil 
+mu<lb ed="#Ba" break="no"/>talur in numino, quando de non pretio
+<lb ed="#Ba"/>preliuin efficitur.
+</p>
+               <p xml:id="Almn78-a36678-d1e635">
+                  <lb ed="#Ba"/>Ad aliud dicendum est, quod non est
+<lb ed="#Ba"/>usquequaque simile, sed in venere 
+tan<lb ed="#Ba" break="no"/>tum simile est, quod utrumaque scilicet
+<lb ed="#Ba"/>ponit respectum ad temporale, Sed in
+<lb ed="#Ba"/>modo respectus dissimile est: quia 
+re<lb ed="#Ba" break="no"/>speclus im crealore et domino causatur
+<lb ed="#Ba"/>secundum modum dicendi sb eo quod
+<lb ed="#Ba"/>est ex tempore : respectus autem qui est
+<lb ed="#Ba"/>in prescientia, causatur ab ordine eter-
+<pb ed="#Ba" n="621"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ni ad temporale : et ideo non procedit
+<lb ed="#Ba"/>argumentum hoc : et quia ab 
+insuffi<lb ed="#Ba" break="no"/>cienti est, peccat secundum fallaciam
+<lb ed="#Ba"/>consequentis.
+</p>
+               <p xml:id="Almn78-a36678-d1e671">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod 
+preescien<lb ed="#Ba" break="no"/>tia incipit et desinit non secundum id
+<lb ed="#Ba"/>quod est, sed mutatione respectus 
+ordi<lb ed="#Ba" break="no"/>nis prioris ad posterius, que mutatio in
+<lb ed="#Ba"/>futuro est secundum esse et causam, in
+<lb ed="#Ba"/>prescientia autem secundum dici 
+tan<lb ed="#Ba" break="no"/>tum : et ideo non sequitur, quod 
+pre<lb ed="#Ba" break="no"/>scientia secundum esse incipiat et 
+desi<lb ed="#Ba" break="no"/>nat,
+</p>
+               <p xml:id="Almn78-a36678-d1e693">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in Dei
+<lb ed="#Ba"/>scientia quantum ad id quod est et quo
+<lb ed="#Ba"/>est et specie ideali, nihil est futurum,
+<lb ed="#Ba"/>sed omnia presentia : sed quantum ad
+<lb ed="#Ba"/>id cujus est, sive de quo est, respectum
+<lb ed="#Ba"/>ad futugum habet.
+</p>
+               <p xml:id="Almn78-a36678-d1e709">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod scientia
+<lb ed="#Ba"/>Dei secundum id quod est et quo est,
+<lb ed="#Ba"/>immutabilis est : sed quantum ad id 
+cu<lb ed="#Ba" break="no"/>jus est, mutaltione ilius mutatur 
+secun<lb ed="#Ba" break="no"/>dum respectum ad ipsum secundum dici
+<lb ed="#Ba"/>et non secundum esse. Et est exemplum
+<lb ed="#Ba"/>Boctii in columna que modo est a 
+dex<lb ed="#Ba" break="no"/>tris, transitu. meo ad oppositum situm
+<lb ed="#Ba"/>efficitur mihta sinistris sine sui 
+muta<lb ed="#Ba" break="no"/>tione, sed per meam mutationem.
+</p>
+               <p xml:id="Almn78-a36678-d1e733">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod scientia non mutatur,
+<lb ed="#Ba"/>sicul dicit Ambrosius, sed respectus an-
+(ecessionis secundum dici mutalur, 
+pro<lb ed="#Ba" break="no"/>ter causam que dicta est.
+</p>
+               <p xml:id="Almn78-a36678-d1e744">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod ab rierno
+<lb ed="#Ba"/>convenit : quia antecessio wlerni ad
+<lb ed="#Ba"/>temporale est wterna : sed non oportet,
+<lb ed="#Ba"/>quod in zlernum conveniat, propter 
+ra<lb ed="#Ba" break="no"/>tionem que dicta est: sicut et hoc 
+di<lb ed="#Ba" break="no"/>eclum, mundum fore ab eterno verum
+<lb ed="#Ba"/>esl, tamen cum factus est mundus, non
+<lb ed="#Ba"/>est verum mundum fore, sed ‘esse vel
+<lb ed="#Ba"/>fuisse.
+</p>
+               <p xml:id="Almn78-a36678-d1e766">
+                  <lb ed="#Ba"/>Ad utrimem dicendum, quod 
+prescien<lb ed="#Ba" break="no"/>tia hoc modo eterna est : quia ab eter
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>no Deo convenit : sed quia ad futurum
+<lb ed="#Ba"/>dicitur, propter hoc sublato futuro 
+desi<lb ed="#Ba" break="no"/>nit esse respectus prioris ad posterius ;
+<lb ed="#Ba"/>et hoc non est desinere simpliciter, sed
+<lb ed="#Ba"/>secundum quid.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e787">
+               <head xml:id="Almn78-a36678-Hd1e789">Membrum 2</head>
+               <head xml:id="Almn78-a36678-Hd1e792" type="question-title">
+  Utrum prescientia sit causa rerum?
+</head>
+               <p xml:id="Almn78-a36678-d1e795">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum prescientia sit causa rerum?
+</p>
+               <p xml:id="Almn78-a36678-d1e802">
+                  <lb ed="#Ba"/>Secundo queritur, Utrum prescientia
+<lb ed="#Ba"/>sit causa rerum? quod querit 
+Magi<lb ed="#Ba" break="no"/>ster in libro I Sententiarum, distinct.
+<lb ed="#Ba"/>XXXVIIE, cap. Videtur enim 
+prescien<lb ed="#Ba" break="no"/>tia Dei causa eorum esse que ei 
+sub<lb ed="#Ba" break="no"/>sunt,
+</p>
+               <p xml:id="Almn78-a36678-d1e818">
+                  <lb ed="#Ba"/>Et objicit sic :
+<lb ed="#Ba"/>1. Si impossibile est non evenire que
+<lb ed="#Ba"/>prescila sunt, videlur ipsa prescientia
+<lb ed="#Ba"/>qua preescita sunt, eis esse causa 
+cve<lb ed="#Ba" break="no"/>niendi. Et fundatur ratio Magistri super
+<lb ed="#Ba"/>hoc quod dicit Boetius, quod causa est
+<lb ed="#Ba"/>cujus esse sequilur aliud. Sed sequitur,
+<lb ed="#Ba"/>si prescit hoc Deus, quod de necessitate
+<lb ed="#Ba"/>evenict. Ergo prascientia est ei causa
+<lb ed="#Ba"/>eveniendi.
+</p>
+               <p xml:id="Almn78-a36678-d1e843">
+                  <lb ed="#Ba"/>2. Adhuc, Magister inducit 
+Augusti<lb ed="#Ba" break="no"/>num in libro XV de Trinitate sic 
+dicen<lb ed="#Ba" break="no"/>tem : <quote xml:id="Almn78-a36678-Qd1e851"> Universas creaturas et spirituales
+<lb ed="#Ba"/>et corporales, non quia sunt ideo 
+no<lb ed="#Ba" break="no"/>vit, sed ideo sunt quia novit : non enim
+<lb ed="#Ba"/>nescivit que fucrat creaturus : quia ergo
+<lb ed="#Ba"/>scivit, creavit : non quia creavit, 
+sci<lb ed="#Ba" break="no"/>vit. </quote> Et paulo post concludit ex 
+ver<lb ed="#Ba" break="no"/>bis Augustini sic : <quote xml:id="Almn78-a36678-Qd1e867"> Eece his verbis
+<lb ed="#Ba"/>aperte videtur Augustinus innuere 
+scien<lb ed="#Ba" break="no"/>tiam vel prescientiam Dei causam esse
+<lb ed="#Ba"/>eorum que fiunt : cum dicit ideo ea
+<lb ed="#Ba"/>esse, quia Deus novit. </quote>
+               </p>
+               <p xml:id="Almn78-a36678-d1e879">
+                  <lb ed="#Ba"/>3. Adhuc, Ibidem inducit Augustinum
+<lb ed="#Ba"/>in libro VI de Trintate sic dicentem :
+<pb ed="#Ba" n="622"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a36678-Qd1e892"> Cum decedant et succedant tempora,
+<lb ed="#Ba"/>non decedit aliquid vel succedit scientize
+<lb ed="#Ba"/>Dei, in qua novit omnia que fecit per
+<lb ed="#Ba"/>ipsam. Non enim haec que creata sunt,
+<lb ed="#Ba"/>ideo sciuntur a Deo, quia facta sunt
+<lb ed="#Ba"/>sed potius ideo facta sunt, quia 
+immuta<lb ed="#Ba" break="no"/>biliter ab eo sciuntur. Et si ideo facta
+<lb ed="#Ba"/>sunt, quia sciuntur ab ipso, prescientia
+<lb ed="#Ba"/>Dei causa est, per quam facta sunt'. </quote>
+                  <lb ed="#Ba"/>Ergo prascientia causa est fulurorum.
+</p>
+               <p xml:id="Almn78-a36678-d1e915">
+                  <lb ed="#Ba"/>4. Adhuc, Scientia et prescientia Dei
+<lb ed="#Ba"/>ars sunt ad ea qua fiunt. Ars autem ad
+<lb ed="#Ba"/>id quod fit, causa est et effectiva et 
+for<lb ed="#Ba" break="no"/>mnalis. Ergo scientia et prescientia Det
+<lb ed="#Ba"/>sunt causa rerum factarum.
+  
+<lb ed="#Ba"/>5. Adhuc, Commentator super XI
+<lb ed="#Ba"/>prime philosophiae, ubi loquitur 
+Ari<lb ed="#Ba" break="no"/>sloteles de intellectu divino, expresse 
+di<lb ed="#Ba" break="no"/>cit, quod scientia intellectus divini est
+<lb ed="#Ba"/>causa rerum, et quod causala sunt in
+<lb ed="#Ba"/>inlellectu divino sicut artificiata in 
+in<lb ed="#Ba" break="no"/>tellectu et scientia artificis.
+</p>
+               <p xml:id="Almn78-a36678-d1e944">
+                  <lb ed="#Ba"/>In contrarium hujus est quod objicit
+<lb ed="#Ba"/>Magister ibidem sic :
+</p>
+               <p xml:id="Almn78-a36678-d1e951">
+                  <lb ed="#Ba"/>1. Cum omnia mala sciantur a Deo, si
+<lb ed="#Ba"/>prescientia est eorum que ei subsunt,
+<lb ed="#Ba"/>erit Deus malorum causa, et per 
+conse<lb ed="#Ba" break="no"/>quens auctor malorum, quod penitus
+<lb ed="#Ba"/>falsum esl.
+</p>
+               <p xml:id="Almn78-a36678-d1e964">
+                  <lb ed="#Ba"/>2. Adhuc, Ansclmus in libro de 
+Con<lb ed="#Ba" break="no"/>cordia prescientie eb liberi arbitrit in
+<lb ed="#Ba"/>Deo *: <quote xml:id="Almn78-a36678-Qd1e972"> Cum dico, si Deus praescit 
+ali<lb ed="#Ba" break="no"/>quid, de necessitate evenict, idem est ac
+<lb ed="#Ba"/>si dicam, si erit aliquid, de necessitate
+<lb ed="#Ba"/>erit. Conditionalis cnim vera est 
+ne<lb ed="#Ba" break="no"/>cessaria, et Salsa est inpossibilis. Hac
+<lb ed="#Ba"/>autem est vera, si erit aliquid, illud erit,
+<lb ed="#Ba"/>Lirgo necessaria. In tali autem 
+conse<lb ed="#Ba" break="no"/>quentia non ponitur necessitas cause,
+<lb ed="#Ba"/>sed necessitas ordinis sive positionis sive
+<lb ed="#Ba"/>consequentiae, quodidem est. </quote> Per tale
+<lb ed="#Ba"/>enim argumenlum, si Deus prascit, de
+<lb ed="#Ba"/>necessitate eyeniet, non probatur, quod
+<lb ed="#Ba"/>prescientia sit causa eorum que fiunt,
+<lb ed="#Ba"/>sed quod habeat ordinem antecessionis
+<lb ed="#Ba"/>ad illa.
+</p>
+               <p xml:id="Almn78-a36678-d1e1007">
+                  <lb ed="#Ba"/>Solutio. Sicut Magister dicit in libro
+<lb ed="#Ba"/>1] Sententiarum, distinct, XXXVIII, 
+sol<lb ed="#Ba" break="no"/>vens istam questionem, prescientia 
+du<lb ed="#Ba" break="no"/>pliciter dicitur, sicut et scientia, scilicet
+<lb ed="#Ba"/>prescientia simplicis intelligentia, et
+<lb ed="#Ba"/>prescientia approbationis sive 
+benepla<lb ed="#Ba" break="no"/>cill. Praescientia primo modo dicta, 
+ge<lb ed="#Ba" break="no"/>neraliter est bonorum et malorum : et
+<lb ed="#Ba"/>ideo causalitatem ad ea que sibi subsunt,
+<lb ed="#Ba"/>dicere non potest. Sed prascientia 
+be<lb ed="#Ba" break="no"/>neplacili sive approbationis, non est nisi
+<lb ed="#Ba"/>respectu bonorum tantum : illa enim
+<lb ed="#Ba"/>est cum dispositione ad opus, et illa
+<lb ed="#Ba"/>dicit causalitatem ad ea que 
+sub<lb ed="#Ba" break="no"/>sunt.
+</p>
+               <p xml:id="Almn78-a36678-d1e1042">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+Ma<lb ed="#Ba" break="no"/>gister temperat quando dicit, videtur :
+<lb ed="#Ba"/>quia licet ex similitudine consccutionis
+<lb ed="#Ba"/>videatur sequi priescitum ad 
+prescien<lb ed="#Ba" break="no"/>tiam, sicut causatum ad causam, tamen
+<lb ed="#Ba"/>in veritate non est causa: est enim in
+<lb ed="#Ba"/>consequentia ordinis, et non cause.
+<lb ed="#Ba"/>Conscquentia enim ordinis est, quando
+<lb ed="#Ba"/>posito uno sequitur aliud de necessitate
+<lb ed="#Ba"/>positionis. Sicut si video te ambulare,
+<lb ed="#Ba"/>de necessitate tu ambulas, de 
+necessita<lb ed="#Ba" break="no"/>te consequenti#, non rei. Si enim ad
+<lb ed="#Ba"/>rem respiciatur, antecedens nec est 
+ne<lb ed="#Ba" break="no"/>cessarium, nec consequens: quia non
+<lb ed="#Ba"/>est necessarium me te videre ambulare,
+<lb ed="#Ba"/>nec necessarium est le ambulare : tamen
+<lb ed="#Ba"/>quia ista duo incompossibilia sunt, — 
+scili<lb ed="#Ba" break="no"/>cet quod ergo video te ambulare, et
+<lb ed="#Ba"/>quod tu non ambules, propter hoc 
+oppo<lb ed="#Ba" break="no"/>silum consequentis de necessitate 
+sequi<lb ed="#Ba" break="no"/>tur ad antecedens, sciliect quod si ego
+<lb ed="#Ba"/>video te ambulare, necesse est quod tu
+<lb ed="#Ba"/>ambules. Multa enim sunt possibilia, que
+<lb ed="#Ba"/>tamen simul juncta impossibilia sunt.
+<lb ed="#Ba"/>Sicut me sedere possibile est, et me stare
+<lb ed="#Ba"/>possibile est ; tamen simul juncta 
+impos<lb ed="#Ba" break="no"/>sibilia sunt: et ideo impossibile est me
+<lb ed="#Ba"/>stare dum sedco. Et talis necessitas 
+con<lb ed="#Ba" break="no"/>sequentie est in argumento quod facit
+<lb ed="#Ba"/>Magister, si prescitum est, de 
+necessita<lb ed="#Ba" break="no"/>te evenict. Et ideo prescientia non pro
+<pb ed="#Ba" n="623"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>batur ex hoc esse causa preseiti, sed 
+an<lb ed="#Ba" break="no"/>tecedens in ordine.
+</p>
+               <p xml:id="Almn78-a36678-d1e1120">
+                  <lb ed="#Ba"/>Ad dictum Boetii dicendum, quod
+<lb ed="#Ba"/>causa est cujus esse sequitur aliud. [Et
+<lb ed="#Ba"/>ita non est hic : quia hic ex positione
+<lb ed="#Ba"/>sequitur aliud, et non ex esse posit.
+</p>
+               <p xml:id="Almn78-a36678-d1e1131">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Ba"/>notitiam vocat notitiam approbationis,
+<lb ed="#Ba"/>que cum dispositione est: quia illa est
+<lb ed="#Ba"/>causa eorum qu subsunt sibi : ‘et non
+<lb ed="#Ba"/>vocat notitiam simplicis intelligentize
+<lb ed="#Ba"/>vel visionis : quia illa nullam ponit 
+cau<lb ed="#Ba" break="no"/>salitatem ad subjecta.
+</p>
+               <p xml:id="Almn78-a36678-d1e1149">
+                  <lb ed="#Ba"/>Ad aliud patet solutio per idem. 
+Lo<lb ed="#Ba" break="no"/>quitur enim Augustinus ibi de scientia
+<lb ed="#Ba"/>approbationis, qua cum dispositione est
+<lb ed="#Ba"/>ad opus et causalitatem.
+</p>
+               <p xml:id="Almn78-a36678-d1e1160">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod scientia et
+<lb ed="#Ba"/>prescientia non sunt ars factiva 
+simpli<lb ed="#Ba" break="no"/>citer et universaliter, sed quedam 
+scien<lb ed="#Ba" break="no"/>tia et prescientia, scilicet que est cum
+<lb ed="#Ba"/>approbatione et dispositione sciti vel
+<lb ed="#Ba"/>preescili.
+</p>
+               <p xml:id="Almn78-a36678-d1e1177">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Com<lb ed="#Ba" break="no"/>mentatoris intelligitur de scientia 
+practi<lb ed="#Ba" break="no"/>ca, eLnon de scientia simplicis 
+intelli<lb ed="#Ba" break="no"/>gentia. Practica autem scientia cum 
+ap<lb ed="#Ba" break="no"/>probatione est et dispositione ad opus.
+</p>
+               <p xml:id="Almn78-a36678-d1e1190">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod procedit deducendo ad
+<lb ed="#Ba"/>inconveniens, si prascientia simplicis 
+in<lb ed="#Ba" break="no"/>telligentia causa prascitorum esse 
+di<lb ed="#Ba" break="no"/>catur.
+</p>
+               <p xml:id="Almn78-a36678-d1e1203">
+                  <lb ed="#Ba"/>Ad pictum Anselmi dicendum, quod
+<lb ed="#Ba"/>verum est, et dicit rationem solulionis.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e1211">
+               <head xml:id="Almn78-a36678-Hd1e1213">Membrum 3</head>
+               <head xml:id="Almn78-a36678-Hd1e1216" type="question-title">
+  Utrum praescientia Dei sit causata a
+  rebus
+</head>
+               <p xml:id="Almn78-a36678-d1e1219">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Utrum praescientia Dei sit causata a
+<lb ed="#Ba"/>rebus ?
+</p>
+               <p xml:id="Almn78-a36678-d1e1228">
+                  <lb ed="#Ba"/>Tertio queritur, Utrum prescientia
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Dei sit causata a rebus ? quod Magister
+<lb ed="#Ba"/>querit in illo capite, Negue etiam res
+<lb ed="#Ba"/>future causa sunt, etc.
+</p>
+               <p xml:id="Almn78-a36678-d1e1241">
+                  <lb ed="#Ba"/>1. Et objicit sic ad hoc, quod sit 
+cau<lb ed="#Ba" break="no"/>salaa rebus, inducens Origenem super
+<lb ed="#Ba"/>epistolam ad Romanos sic dicentem :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a36678-Qd1e1251"> Non propterea aliquid erit, quia id
+<lb ed="#Ba"/>scit Deus futurum : sed quia futurum
+<lb ed="#Ba"/>est, ideo scitur a Deo antequam fiat *. </quote>
+                  <lb ed="#Ba"/>Ergo videtur, quod Deus scit ideo quia
+<lb ed="#Ba"/>futurum est: et sic fulurum causa est
+<lb ed="#Ba"/>prescientia Dei.
+</p>
+               <p xml:id="Almn78-a36678-d1e1267">
+                  <lb ed="#Ba"/>2. Adhuc, Dicit Aristoteles quod quo
+<lb ed="#Ba"/>posito ponitur aliud, et quo 
+remo<lb ed="#Ba" break="no"/>to removetur aliud, est causa. Posita re
+<lb ed="#Ba"/>futura ponitur prescientia, et remota re
+<lb ed="#Ba"/>futura removetur prescientia. Ergo res
+<lb ed="#Ba"/>futura est causa prescientia.
+</p>
+               <p xml:id="Almn78-a36678-d1e1283">
+                  <lb ed="#Ba"/>3. Ad hoc respondet Magister in 
+Sen<lb ed="#Ba" break="no"/>tentiis quod res futura non est causa 
+pre<lb ed="#Ba" break="no"/>scienlia, nisi sine quanon. Sep conTRA
+<lb ed="#Ba"/>hoc videtur esse, quod causa sine qua
+<lb ed="#Ba"/>non, et causam dicit, et 
+concomitan<lb ed="#Ba" break="no"/>tiam : et sicut dicit causam, aliquo 
+mo<lb ed="#Ba" break="no"/>do res futura est causa prescicntie.
+</p>
+               <p xml:id="Almn78-a36678-d1e1301">
+                  <lb ed="#Ba"/>In contrarium hujus
+<lb ed="#Ba"/>1. Objicit Magister in illo eodem 
+ca<lb ed="#Ba" break="no"/>pite: Neqgue etiam res future, sic dicens :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a36678-Qd1e1311"> Si hoc esset, scilicet res future essent
+<lb ed="#Ba"/>causa prescientie, tunc ejus quod est
+<lb ed="#Ba"/>eternum, aliquid existeret causa, ab eo
+<lb ed="#Ba"/>alienum, et ab co diversum : et ex 
+crea<lb ed="#Ba" break="no"/>turis dependeret scientia creatoris, et
+<lb ed="#Ba"/>crealum esset causa increati: </quote> quod
+<lb ed="#Ba"/>valde esset inconveniens.
+</p>
+               <p xml:id="Almn78-a36678-d1e1328">
+                  <lb ed="#Ba"/>2. Adhuc, Si futurum causa 
+prescien<lb ed="#Ba" break="no"/>tia est, oportet quod scientia Dei et
+<lb ed="#Ba"/>prescientia dependeat a scibili, quod
+<lb ed="#Ba"/>valde est inconveniens: quia sic Deus
+<lb ed="#Ba"/>scientiam acciperet a rebus, quod valde
+<lb ed="#Ba"/>inconvenicas est, et in antehabilis 
+im<lb ed="#Ba" break="no"/>probatum.
+</p>
+               <p xml:id="Almn78-a36678-d1e1346">
+                  <lb ed="#Ba"/>Solutio. Nullo modo dicendum est,
+<pb ed="#Ba" n="624"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod res future sint causa prascicntia
+<lb ed="#Ba"/>Dei secundum esse : sunt tamen causa 
+si<lb ed="#Ba" break="no"/>ne qua non, ut dicit Magister, secundum
+<lb ed="#Ba"/>dici per nomen prescientia. Res enim
+<lb ed="#Ba"/>future dependentiam habent ad 
+scien<lb ed="#Ba" break="no"/>tiam Dei, ex qua dependentia causatur
+<lb ed="#Ba"/>respectus futurorum ad prescientiam,
+<lb ed="#Ba"/>que est respectus posterioris ad 
+antece<lb ed="#Ba" break="no"/>dens in ordine, sine quo respectu non
+<lb ed="#Ba"/>esset respectus prioris ad consequens :
+<lb ed="#Ba"/>qui si non esset, scientia Dei non posset
+<lb ed="#Ba"/>nominart prascientia Dei: et sic 
+respe<lb ed="#Ba" break="no"/>clus rei futuree ad scientiam Dei est in
+<lb ed="#Ba"/>causa sine qua prascientia Dei non 
+dice<lb ed="#Ba" break="no"/>retur scientia a nobis: quia tolleretur
+<lb ed="#Ba"/>antecessio ordinis : esset amen scientia
+<lb ed="#Ba"/>qua Deus scit et prascit universa. Et
+<lb ed="#Ba"/>iste est intellectus Magistri in Sententiis,
+<lb ed="#Ba"/>ubi solvit istam eamdem quastionem.
+</p>
+               <p xml:id="Almn78-a36678-d1e1396">
+                  <lb ed="#Ba"/>Ab vrinem ergo dicendum, quod 
+Ori<lb ed="#Ba" break="no"/>genes non intendit, quod futurum sit
+<lb ed="#Ba"/>causa scientia vel prascienti Dei 
+se<lb ed="#Ba" break="no"/>cundum id quod est, sed quod sit causa
+<lb ed="#Ba"/>sine qua non nominis istius quod 
+pre<lb ed="#Ba" break="no"/>sctentia vocatur. It si quis proprie vellet
+<lb ed="#Ba"/>loqui : tunc non est causa, sed ratio ex
+<lb ed="#Ba"/>respectu sumpla quare scientia dicatur
+<lb ed="#Ba"/>prescientia, Kita est ratio ejus quod
+<lb ed="#Ba"/>est pre, enon ratio scientiz. 
+Preposi<lb ed="#Ba" break="no"/>tio cnim scientie adveniens per 
+compo<lb ed="#Ba" break="no"/>silionem, non dicit rel respectum 
+ante<lb ed="#Ba" break="no"/>cedentis in ordine ad consequens. Unde
+<lb ed="#Ba"/>cliam Origenes non ponit activam, sed
+<lb ed="#Ba"/>passivamn : dicit enim sic : <quote xml:id="Almn78-a36678-Qd1e1430"> Quia 
+futu<lb ed="#Ba" break="no"/>rum est, ideo scitur a Deo antequam
+<lb ed="#Ba"/>lial: </quote> mtendens, quod futurum quia
+<lb ed="#Ba"/>fulurum est, scibile sit a Deo, hoc est,
+<lb ed="#Ba"/>habeat aptitudinem ad sciendum : et sic
+<lb ed="#Ba"/>futuram nullam dicit causam scientie in
+<lb ed="#Ba"/>sciente, sed dicit rationem aptitudinis
+<lb ed="#Ba"/>ad seiendum in setbili.
+</p>
+               <p xml:id="Almn78-a36678-d1e1450">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Ari<lb ed="#Ba" break="no"/>slotelis intelligitur, quod posito uno 
+se<lb ed="#Ba" break="no"/>cundum esse, ponitur aliud secundum
+<lb ed="#Ba"/>esse, ul posito sole, vel corpore lumino
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>so secundum esse, ponitur illuminatio
+<lb ed="#Ba"/>secundum esse. Sed in pradicta 
+conse<lb ed="#Ba" break="no"/>quentia, posito futuro secundum 
+ordi<lb ed="#Ba" break="no"/>hem consequentie, non ponitur 
+pra<lb ed="#Ba" break="no"/>scientia secundum esse, sed secundum
+<lb ed="#Ba"/>ordinem antecessionis tantum: et ideo
+<lb ed="#Ba"/>non est causa.
+</p>
+               <p xml:id="Almn78-a36678-d1e1479">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod intellectus
+<lb ed="#Ba"/>Magistri expositus est: et ideo non
+<lb ed="#Ba"/>procedit quod inducitur contra eum.
+</p>
+               <p xml:id="Almn78-a36678-d1e1488">
+                  <lb ed="#Ba"/>Axia objecta in contrarium que 
+se<lb ed="#Ba" break="no"/>quuntur, procedunt.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e1496">
+               <head xml:id="Almn78-a36678-Hd1e1498">Membrum 4</head>
+               <head xml:id="Almn78-a36678-Hd1e1501" type="question-title">
+  Utrum praescientia Dei falli possit
+</head>
+               <p xml:id="Almn78-a36678-d1e1504">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>Utrum praescientia Dei falli possit?
+</p>
+               <p xml:id="Almn78-a36678-d1e1511">
+                  <lb ed="#Ba"/>Quarto queritur, Utrum praescientia
+<lb ed="#Ba"/>Dei falli possit ? quod in eodem capite *
+<lb ed="#Ba"/>dicit Magister et disputat in sequenti.
+</p>
+               <p xml:id="Almn78-a36678-d1e1520">
+                  <lb ed="#Ba"/>1. Et ad hoc objicit in illo capite :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a36678-Qd1e1526"> Ad hoc quod supra dictum est, scilicet
+<lb ed="#Ba"/>prescientiam Dei falli non posse, solet a
+<lb ed="#Ba"/>quibusdam sic opponi: Deus prescivit
+<lb ed="#Ba"/>hune lecturum vel aliquid hujusmodi,
+<lb ed="#Ba"/>hoc est, quodcunque contingens : sed
+<lb ed="#Ba"/>potest esse ut iste non legat: quia 
+con<lb ed="#Ba" break="no"/>tingens est. Ergo potest aliter esse
+<lb ed="#Ba"/>quam Deus prescivit : et quando 
+ali<lb ed="#Ba" break="no"/>ter est quam prescivit, fallitur 
+pre<lb ed="#Ba" break="no"/>scientia: ergo potest falli praescientia
+<lb ed="#Ba"/>Det. </quote>
+               </p>
+               <p xml:id="Almn78-a36678-d1e1552">
+                  <lb ed="#Ba"/>2. Adhuc, Prascitum potest esse non
+<lb ed="#Ba"/>prescitum. Pronatio. Preescitum est 
+fu<lb ed="#Ba" break="no"/>turum contingens: conlingens potest
+<lb ed="#Ba"/>non evenire: quia dicit Aristoteles in
+<lb ed="#Ba"/>Prioribus, <quote xml:id="Almn78-a36678-Qd1e1565"> Quod contingit esse, 
+con<lb ed="#Ba" break="no"/>tingit non esse. </quote> Ponamus ergo, quod
+<lb ed="#Ba"/>contingat non esse. Cum ergo fucrit
+<lb ed="#Ba"/>prescitum, aliter eveniet quam 
+presci<lb ed="#Ba" break="no"/>tum : et quoties evenict aliter quam
+<pb ed="#Ba" n="625"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>prescitum est, fallitur preescientia : ergo
+<lb ed="#Ba"/>prescientia Dei falli potest.
+</p>
+               <p xml:id="Almn78-a36678-d1e1586">
+                  <lb ed="#Ba"/>3. Adhuc, Deus scit et prascit per
+<lb ed="#Ba"/>modum suum: et hoc est, quia omnia
+<lb ed="#Ba"/>vera scit ut presentia, sive sint 
+prasen<lb ed="#Ba" break="no"/>tia, sive preeterita, sive futura. Sed qui
+<lb ed="#Ba"/>scit preterita et futura ut preesentia, scit
+<lb ed="#Ba"/>preterita et futura aliter quam sint : et
+<lb ed="#Ba"/>qui scit rem aliter quam sit, fallitur in
+<lb ed="#Ba"/>scientia sua et prascientia: ergo videtur,
+<lb ed="#Ba"/>quod Dei scientia et preescientia falli
+<lb ed="#Ba"/>possit.
+</p>
+               <p xml:id="Almn78-a36678-d1e1610">
+                  <lb ed="#Ba"/>Sontutio. Ad omnia hujusmodi 
+sophis<lb ed="#Ba" break="no"/>mata respondet Magister in Sententiis
+<lb ed="#Ba"/>dicens, quod possunt haec conjunctim 
+in<lb ed="#Ba" break="no"/>telligi, vel disjunctim. Si enim ita 
+in<lb ed="#Ba" break="no"/>telligas : non potest aliter fieri quam
+<lb ed="#Ba"/>Deus prescivit, id est, non potest 
+utrum<lb ed="#Ba" break="no"/>que simul esse verum, quod Deus 
+pre<lb ed="#Ba" break="no"/>scivit ita fieri et aliter fiat, verus est 
+in<lb ed="#Ba" break="no"/>tellectus. Si autem disjunctim sive 
+divi<lb ed="#Ba" break="no"/>sim intelligas propositionem, ut dicas
+<lb ed="#Ba"/>hoc aliter evenire non posse quam 
+eve<lb ed="#Ba" break="no"/>nit, quoniam illud futurum Deus 
+pre<lb ed="#Ba" break="no"/>scivit, falsum est. Et hec solutio bona
+<lb ed="#Ba"/>est, si per artem et rationes artis bene
+<lb ed="#Ba"/>esset exposita.
+</p>
+               <p xml:id="Almn78-a36678-d1e1645">
+                  <lb ed="#Ba"/>Et ad hoc notandum, quod licet 
+ali<lb ed="#Ba" break="no"/>quid prescitum esse, et ita esse futurum
+<lb ed="#Ba"/>ut prescitum est, non sint relativa, 
+ta<lb ed="#Ba" break="no"/>men ponunt respectus ad invicem ut 
+re<lb ed="#Ba" break="no"/>lativa : et ideo posita se ponunt, et
+<lb ed="#Ba"/>perempta se perimunt. Unde quando
+<lb ed="#Ba"/>ponitur aliquid prescitum esse, ex 
+re<lb ed="#Ba" break="no"/>spectu et necessitate ordinis ponitur 
+futu<lb ed="#Ba" break="no"/>rum esse : et si perimitur futurum esse,
+<lb ed="#Ba"/>eo ipso perimitur prescitum esse.
+</p>
+               <p xml:id="Almn78-a36678-d1e1669">
+                  <lb ed="#Ba"/>Unpr in primo quando dicitur, quod
+<lb ed="#Ba"/>Deus prescit aliquid contingens, ut me
+<lb ed="#Ba"/>esse lecturum, de necessitate ordinis 
+po<lb ed="#Ba" break="no"/>nitur illud esse futurum. Et si ponis, quod
+<lb ed="#Ba"/>non eveniat, eo quod contingens potest
+<lb ed="#Ba"/>non evenire, statim sequitur illud 
+num<lb ed="#Ba" break="no"/>quam fuisse prescitum : et hoc est idem
+<lb ed="#Ba"/>ei quod consuevit dici in sophisticis,
+<lb ed="#Ba"/>quod hzec locutio, prescitum potest non
+<lb ed="#Ba"/>evenire, vel prescituin possibile est non
+<lb ed="#Ba"/>evenire, potest esse de re, vel de dicto.
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Si est de re, notatur concomitantia 
+po<lb ed="#Ba" break="no"/>fentie ad actuin, et est vera et divisa :
+<lb ed="#Ba"/>et est sensus, hoc quod est praescitum,
+<lb ed="#Ba"/>non in quantum prescitum, possibile est
+<lb ed="#Ba"/>aliter evenire : eo quod contingens est :
+<lb ed="#Ba"/>hac enim duo compossibilia sunt, 
+scili<lb ed="#Ba" break="no"/>cet contingens esse prescitum, et 
+con<lb ed="#Ba" break="no"/>tingens posse aliter evenire. Si autem
+<lb ed="#Ba"/>sit de dicto, tunc est composita et falsa :
+<lb ed="#Ba"/>tunc enim notatur concomitantia 
+duo<lb ed="#Ba" break="no"/>ram actuum incompossibilium 
+secun<lb ed="#Ba" break="no"/>dum aliquid prescitum esse, et aliter
+<lb ed="#Ba"/>evenire quam prescitum est. Similiter
+<lb ed="#Ba"/>ista est duplex, prescitum impossibile
+<lb ed="#Ba"/>est non evenire, vel necesse est evenire:
+<lb ed="#Ba"/>sed in oppositis sensibus vera et falsa.
+<lb ed="#Ba"/>Sicnim isle sunt de dicto, vere sunt:
+<lb ed="#Ba"/>sisunt de re, false. Et iste est 
+intelle<lb ed="#Ba" break="no"/>ctus Magistri in Sententiis, quamvis
+<lb ed="#Ba"/>non ita expressit.
+</p>
+               <p xml:id="Almn78-a36678-d1e1741">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod haec est 
+du<lb ed="#Ba" break="no"/>plex, prascitum potest non esse 
+presci<lb ed="#Ba" break="no"/>tum, sicut hec, album potest esse 
+ni<lb ed="#Ba" break="no"/>grum. Potest enim predicatum subjecto
+<lb ed="#Ba"/>reddi in quantum stat sub forma 
+pre<lb ed="#Ba" break="no"/>scientie : et sic illa propositio falsa est.
+<lb ed="#Ba"/>Potest etiam reddi subjecto secundum
+<lb ed="#Ba"/>quod est, et non secundum quod stat
+<lb ed="#Ba"/>sub forma prescientie : et sic quia 
+con<lb ed="#Ba" break="no"/>tingens est, et quia potest aliter evenire
+<lb ed="#Ba"/>quam prescitum est, si aliter eveniat,
+<lb ed="#Ba"/>non fuit prescitum : et sic est vera 
+pro<lb ed="#Ba" break="no"/>positio, prescitum potest non esse 
+pre<lb ed="#Ba" break="no"/>scitum : sed sic non sequitur ex ea, quod
+<lb ed="#Ba"/>fallatur praescientia.
+</p>
+               <p xml:id="Almn78-a36678-d1e1777">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Deus seit
+<lb ed="#Ba"/>omnia ut sunt et presentia et preterita
+<lb ed="#Ba"/>et futura: sed cum dicitur, Deus scit
+<lb ed="#Ba"/>preterita et futura ut presentia, omnes
+<lb ed="#Ba"/>hujusmodi locutiones duplices sunt, ex
+<lb ed="#Ba"/>hoc quod haec determinatio, wt 
+presen<lb ed="#Ba" break="no"/>fia, potest referri ad verbum, seié, in
+<lb ed="#Ba"/>comparatione ad suppositum sive 
+nomi<lb ed="#Ba" break="no"/>nativum, sive ad scientem, quod idem
+<lb ed="#Ba"/>est: et sic omnes ille Jlocutiones sunt
+<lb ed="#Ba"/>vere. Scit enim Deus modo suo res,
+<lb ed="#Ba"/>hoc est, ineo quod sibi est prasens, hoc
+<lb ed="#Ba"/>est, in presenti eternitatis, quod claudit
+<lb ed="#Ba"/>omne tempus et omnes differentias tem
+<pb ed="#Ba" n="626"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>poris. Potest etiam referri eadem 
+deter<lb ed="#Ba" break="no"/>minatio ad idem verbum, sedf, in 
+com<lb ed="#Ba" break="no"/>paratione ad appositum sive 
+accusati<lb ed="#Ba" break="no"/>vuin, sive ad rem scilam: ect sic omnes
+<lb ed="#Ba"/>tlle locutiones sunt false sub hoc sensu,
+<lb ed="#Ba"/>Deus scit praterita ul prasentia, hoc est,
+<lb ed="#Ba"/>pretlerita sub presentialitate scit Deus,
+<lb ed="#Ba"/>quod falsum est. In primo sensu non 
+se<lb ed="#Ba" break="no"/>quilur, quod fallatur Dei prwscientia,
+<lb ed="#Ba"/>sed in secundo : nec est inconveniens,
+<lb ed="#Ba"/>quod falsum sequatur ex falso.
+</p>
+               <p xml:id="Almn78-a36678-d1e1838">
+                  <lb ed="#Ba"/>Dicendum ergo, quod scientia Dei et
+<lb ed="#Ba"/>praescientia numquam fallitur nee falli
+<lb ed="#Ba"/>potest: tamen id quod subjacet pri
+<lb ed="#Ba"/>scientiey quando contingens est de se,
+ali<lb ed="#Ba" break="no"/>ter se potest habere quam priesci tum
+<lb ed="#Ba"/>est.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e1856">
+               <head xml:id="Almn78-a36678-Hd1e1858">Membrum 5</head>
+               <head xml:id="Almn78-a36678-Hd1e1861" type="question-title">
+  Utrum praescientia divina inferat 
+  necessitatem
+</head>
+               <p xml:id="Almn78-a36678-d1e1864">
+                  <lb ed="#Ba"/>MEMBRUM V.
+<lb ed="#Ba"/>Utrum praescientia divina inferat 
+ne<lb ed="#Ba" break="no"/>cessitatem?
+</p>
+               <p xml:id="Almn78-a36678-d1e1873">
+                  <lb ed="#Ba"/>Quinto queritur, Utrum divina 
+pra<lb ed="#Ba" break="no"/>scientia inferal necessitatem ? quod in
+<lb ed="#Ba"/>illo cap. Mane igitur que videtur, 
+in<lb ed="#Ba" break="no"/>nuere videtur Magister.
+</p>
+               <p xml:id="Almn78-a36678-d1e1884">
+                  <lb ed="#Ba"/>1. Dicit enim, quod falli non potest:
+<lb ed="#Ba"/>et quod falli non potest, oportet, quod
+<lb ed="#Ba"/>necessarium sit: et sic praescientia 
+neces<lb ed="#Ba" break="no"/>sitatem infert rebus quie sibi subsunt.
+</p>
+               <p xml:id="Almn78-a36678-d1e1896">
+                  <lb ed="#Ba"/>2. Adhuc, In primo libro 
+Sententia<lb ed="#Ba" break="no"/>rum, distinclione XXNAVIIL, cap. 
+Vede<lb ed="#Ba" break="no"/>fur enim prescientia Dei, ex verbis 
+Au<lb ed="#Ba" break="no"/>gustini dicit Magister: <quote xml:id="Almn78-a36678-Qd1e1906"> Non possunt
+<lb ed="#Ba"/>non evenire cum Neus ea praesciverit. </quote>
+                  <lb ed="#Ba"/>Secundum consequentiam autem quam.
+<lb ed="#Ba"/>docet Aristoteles in libro Perihermenias,
+<lb ed="#Ba"/>qu non possunl non esse, necesse est
+<lb ed="#Ba"/>esse. Ergo que non possunt non eyenire,
+<lb ed="#Ba"/>necesse est evenire. Prescita non pos
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>sunt non evenire. Ergo necesse est 
+pre<lb ed="#Ba" break="no"/>scita evenire. Et hujus necessitatis non
+<lb ed="#Ba"/>potest esse causa nist preescientia : ergo
+<lb ed="#Ba"/>priescientia necessitatem rebus imponit.
+</p>
+               <p xml:id="Almn78-a36678-d1e1934">
+                  <lb ed="#Ba"/>3. Adhuc, Magister, rbidem, <quote xml:id="Almn78-a36678-Qd1e1938"> 
+Impos<lb ed="#Ba" break="no"/>sibile est prascila non evenire, cum
+<lb ed="#Ba"/>priescita sint : quia si Bon evenirent cum
+<lb ed="#Ba"/>prescita sint, falleretur Dei prascientia.</quote>
+                  <lb ed="#Ba"/>At Dei prascientia falli non potest. 
+Im<lb ed="#Ba" break="no"/>possibile est ergo ea non evenire, cum
+<lb ed="#Ba"/>prescita sint. Ex hoc sequitur idem
+<lb ed="#Ba"/>quod prius : quia quee impossibile est non
+<lb ed="#Ba"/>evenire, necesse est evenire, secundum
+<lb ed="#Ba"/>regulam consequentiarum.
+</p>
+               <p xml:id="Almn78-a36678-d1e1961">
+                  <lb ed="#Ba"/>4. Adhuc, Anselmus in libro de 
+Con<lb ed="#Ba" break="no"/>cordia prescientie et libert arbitrii:
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a36678-Qd1e1969"> Qua prescil Deus, necesse est esse 
+fu<lb ed="#Ba" break="no"/>tura ®. </quote> Que neecesse est esse futura,
+<lb ed="#Ba"/>de necessitate erunt. Ergo a primo que
+<lb ed="#Ba"/>prescita sunt, de necessitate erunt.
+</p>
+               <p xml:id="Almn78-a36678-d1e1980">
+                  <lb ed="#Ba"/>5. Adhuc, Ponamus quod Deus 
+pre<lb ed="#Ba" break="no"/>seit aliquid, vel praescivit : tunc hiee 
+pro<lb ed="#Ba" break="no"/>posilio, Deus praeseivil hoc, demonstrato
+<lb ed="#Ba"/>illo, est de prieterito et vera: ergo 
+ne<lb ed="#Ba" break="no"/>cessaria : ergo necessarium est hoc esse
+<lb ed="#Ba"/>prescitum. x hoc infero sic: 
+Necessa<lb ed="#Ba" break="no"/>rium est hoc esse prescilum : ergo 
+im<lb ed="#Ba" break="no"/>possibile est non cvenire, aul sequitur,
+<lb ed="#Ba"/>aul non sequitur, habeo propositum :
+<lb ed="#Ba"/>quia ad esse impossibile non sequitur 
+ne<lb ed="#Ba" break="no"/>cesse esse. Si non sequilur, detur 
+oppo<lb ed="#Ba" break="no"/>situm : hoc enim stabil cum praemissa,
+<lb ed="#Ba"/>secundum doctrinam Aristloltelis in 
+Prio<lb ed="#Ba" break="no"/>ribus. Oppositum esl, possibile est hoe
+<lb ed="#Ba"/>non evenire. Sed quod possibile est non
+<lb ed="#Ba"/>eyenire, possibile est non esse prescilum,
+<lb ed="#Ba"/>ul patet ex antehabilis: probatum enim
+<lb ed="#Ba"/>est, quod praescilum esse et esse 
+futu<lb ed="#Ba" break="no"/>rum, habentse ut relativa, que posita
+<lb ed="#Ba"/>se ponunt, et perempla se perimunt
+<lb ed="#Ba"/>unde si pevimitar esse futurum, 
+perimi<lb ed="#Ba" break="no"/>tur esse prescilum: et sic sequitur,
+<lb ed="#Ba"/>quod possibile est non evenire, possibile
+<lb ed="#Ba"/>est non esse prascitum. Sed iste due
+<lb ed="#Ba"/>non possunt simul stare, necesse est esse
+<pb ed="#Ba" n="627"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>prescitum, possibile est non evenire:
+<lb ed="#Ba"/>quia ad illam, necesse est esse 
+praesci<lb ed="#Ba" break="no"/>tum, sequitur ista, impossibile est non
+<lb ed="#Ba"/>esse prescitum : et hac contradictoria
+<lb ed="#Ba"/>est ad illam, possibile est non esse 
+prae<lb ed="#Ba" break="no"/>scitum : et illa dus non possunt stare 
+si<lb ed="#Ba" break="no"/>mul, possibile est non esse prescitum,
+<lb ed="#Ba"/>et impossibile est non esse prescitum :
+<lb ed="#Ba"/>equipollent enim ad has, possibile est
+<lb ed="#Ba"/>non esse prescitum, et non possibile est
+<lb ed="#Ba"/>non esse prescitum. Ergo etiam iste
+<lb ed="#Ba"/>due non possunt simul stare, 
+impossi<lb ed="#Ba" break="no"/>bile est non esse prescitum, et possibile
+<lb ed="#Ba"/>est aliter evenire : quia ista, possibile est
+<lb ed="#Ba"/>non osse prescitum, sequitur ex isla,
+<lb ed="#Ba"/>possibile est aliter evenire. Ergo 
+secun<lb ed="#Ba" break="no"/>dum doctrinam Aristotelis argumentatio
+<lb ed="#Ba"/>prima procedit.
+</p>
+               <p xml:id="Almn78-a36678-d1e2080">
+                  <lb ed="#Ba"/>6. Adhuc, Regula est Aristotelis : Si
+<lb ed="#Ba"/>aliquid sequitur ad aliud, si accidens est
+<lb ed="#Ba"/>necessarium, consequens est 
+necessa<lb ed="#Ba" break="no"/>rium. Sed ista duo consequuntur, Deus
+<lb ed="#Ba"/>prescivit hoc, hoc erit. Ergo si necesse
+  
+<lb ed="#Ba"/>est Deum prescivisse hoe, hoc de 
+neces<lb ed="#Ba" break="no"/>sitate crit. Sed de necessitate est Deum
+<lb ed="#Ba"/>prascivisse hoc : quia est verum de 
+pre<lb ed="#Ba" break="no"/>terito : ergo et verum de futuro est 
+ne<lb ed="#Ba" break="no"/>cessarium: sequitur ergo, hoc de 
+neces<lb ed="#Ba" break="no"/>sitate erit.
+</p>
+               <p xml:id="Almn78-a36678-d1e2106">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod 
+secun<lb ed="#Ba" break="no"/>dum hec omnia contingentia de futuro et
+<lb ed="#Ba"/>voluntaria de necessitate erunt: quia 
+om<lb ed="#Ba" break="no"/>nia hec prescivit Deus ab eterno : et sic
+<lb ed="#Ba"/>omnia de necessitate evenient. Quod si
+<lb ed="#Ba"/>concedatur, sequuntur inconvenicntia
+<lb ed="#Ba"/>que dicit Aristoteles, scilicet quod perit
+<lb ed="#Ba"/>casus, perit consilium, perit liberum 
+ar<lb ed="#Ba" break="no"/>bitrium. Sequitur ex hoc quod singularia
+<lb ed="#Ba"/>et contingentia de futuro sint 
+determi<lb ed="#Ba" break="no"/>nate veritatis et etiam necessitatis : que
+<lb ed="#Ba"/>omnia sunt contra doctrinam Aristoteles
+<lb ed="#Ba"/>in I] Perithermenias.
+</p>
+               <p xml:id="Almn78-a36678-d1e2138">
+                  <lb ed="#Ba"/>Solutio. Firmiter tenendum est 
+secun<lb ed="#Ba" break="no"/>dum Augustinum et fidem Catholicam,
+<lb ed="#Ba"/>quod prescientia nullam rebus imponit
+<lb ed="#Ba"/>necessitatem. Tamen propter istas 
+ralio<lb ed="#Ba" break="no"/>nes Tullius negavit praescientiam. Quod
+<lb ed="#Ba"/>quia hereticum est, eo quod omnia facit
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Deus quecumque sunt et fiunt: et 
+que<lb ed="#Ba" break="no"/>cumque facit non ad alium respiciens,
+<lb ed="#Ba"/>sed ad seipsum, scit et prascit et 
+prasci<lb ed="#Ba" break="no"/>vit ab eterno : et ideo hereticum est
+<lb ed="#Ba"/>dicere, quod aliqua futura sint que non
+<lb ed="#Ba"/>prescivil. Et hujus causa est, quod 
+pra<lb ed="#Ba" break="no"/>scientia Dei ita est super res futuras, quod
+<lb ed="#Ba"/>non est causa earum, nec tollit a causis
+<lb ed="#Ba"/>secundis propriam rationem causalitatis
+<lb ed="#Ba"/>earum, ut dicit Anselmus in libro de
+<lb ed="#Ba"/>Concordia prescientie et liberi arbitrii.
+<lb ed="#Ba"/>Unde que futura sunt a voluntate, 
+ma<lb ed="#Ba" break="no"/>nent contingenter futura. Lumen autem
+<lb ed="#Ba"/>intelligentia divine, quod infinite 
+virtu<lb ed="#Ba" break="no"/>tis est, et penetrat, ut dicitur, Eccli.
+<lb ed="#Ba"/>xxl, 28, ir absconditas partes, 
+abscon<lb ed="#Ba" break="no"/>ditas dico et in se et in causa, sicut 
+con<lb ed="#Ba" break="no"/>tingentia singularia de futuro, que nec
+<lb ed="#Ba"/>in se nobis cognita sunt, nec in causa
+<lb ed="#Ba"/>proxima: penetrat per omnia necessaria,
+<lb ed="#Ba"/>et per contingentia nata, et per 
+contin<lb ed="#Ba" break="no"/>gentia ad utrumlibet. Ita quod, sicut dicit
+<lb ed="#Ba"/>Boctius in libro de Consolatione 
+philo<lb ed="#Ba" break="no"/>sophie, prescit et scit quo te per 
+volun<lb ed="#Ba" break="no"/>latem vertere debeas, tam in bono, quam
+<lb ed="#Ba"/>in malo. Unde, ad Hebr. iv, 13, dicitur,
+<lb ed="#Ba"/>quod non est ulla creatura invisibilis in
+<lb ed="#Ba"/>conspectu eyus. Unde cum contingentia
+<lb ed="#Ba"/>creature sint, necesse est sibi esse 
+visibi<lb ed="#Ba" break="no"/>lia et certa.
+</p>
+               <p xml:id="Almn78-a36678-d1e2221">
+                  <lb ed="#Ba"/>Unde ad questionem dicendum, sicut
+<lb ed="#Ba"/>prehabitum est, quod duplex est 
+necessi<lb ed="#Ba" break="no"/>tas, ul docet Aristoteles, scilicet 
+conse<lb ed="#Ba" break="no"/>quentis, et consequentie. Consequentis,
+<lb ed="#Ba"/>sicut quando consequens secundum esse
+<lb ed="#Ba"/>et causam sequitur ad antecedens. 
+Se<lb ed="#Ba" break="no"/>cundum esse, sicut si ommne animal 
+ra<lb ed="#Ba" break="no"/>tionale mortale est homo, et hic est 
+ani<lb ed="#Ba" break="no"/>mal rationale mortale, sequitur de 
+ne<lb ed="#Ba" break="no"/>cessitate absoluta, quod hic esthomo. Vel
+<lb ed="#Ba"/>secundum causam, si sol movetur in 
+cir<lb ed="#Ba" break="no"/>culo, de necessitate ad Orientem veniente
+<lb ed="#Ba"/>eras circulo, necesse est solem oriri cras.
+<lb ed="#Ba"/>Necessitas consequentia, quando posito
+<lb ed="#Ba"/>aliquo non necessario secundum se, ad
+<lb ed="#Ba"/>positionem illius sequitur aliud, non per
+<lb ed="#Ba"/>necessilatem antecedentis, sed quia 
+op<lb ed="#Ba" break="no"/>positum consequentis non potest stare
+<lb ed="#Ba"/>cum antecedente. Et est exemplum
+<pb ed="#Ba" n="628"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Boetii, sicut si ego video te ambulare,
+<lb ed="#Ba"/>tu de necessitate ambulas : quia si detur,
+<lb ed="#Ba"/>quod tu non ambulas, sequitur quod
+<lb ed="#Ba"/>evo video te non ambulare : et hoc 
+inter<lb ed="#Ba" break="no"/>imit posttionem antecedentis : positum
+<lb ed="#Ba"/>enim fuit, quod ego video te ambulare.
+<lb ed="#Ba"/>Ilane necessitalem quam Arisloteles 
+vo<lb ed="#Ba" break="no"/>cal necessilaltem consequentie, propter
+<lb ed="#Ba"/>jam dictam causam Boetius vocat 
+meces<lb ed="#Ba" break="no"/>sttatem positionis, et Anselmus 
+necessi<lb ed="#Ba" break="no"/>tatem ordinis, quando scilicet 
+antece<lb ed="#Ba" break="no"/>dens non ex se, sed ex ratione ordinis
+<lb ed="#Ba"/>vel positionis infert consequens : et de
+<lb ed="#Ba"/>tali necessitate intelliguntur verba 
+Ma<lb ed="#Ba" break="no"/>gistri in Senéentiis. Talis autem 
+necessi<lb ed="#Ba" break="no"/>tas necessitatem absolutam non facit in
+<lb ed="#Ba"/>consequente : ino consequens relinquitur
+<lb ed="#Ba"/>contingens absolute : sed facit 
+necessita<lb ed="#Ba" break="no"/>tem in consequentia tantum, et hanc
+<lb ed="#Ba"/>non facitex habitudine rei antecedentis
+<lb ed="#Ba"/>ad rem consequentis, sed facit eam ex
+<lb ed="#Ba"/>positione, sive ex ordine tantum.
+</p>
+               <p xml:id="Almn78-a36678-d1e2317">
+                  <lb ed="#Ba"/>Per noc patet solutio ad quatuor 
+pri<lb ed="#Ba" break="no"/>ma, qua non probant, quod prascilam
+<lb ed="#Ba"/>necesse sit evenire, nisi de necessitate
+<lb ed="#Ba"/>consequentiae : et hoc verum est.
+</p>
+               <p xml:id="Almn78-a36678-d1e2328">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod hoc 
+argu<lb ed="#Ba" break="no"/>mentum, impossibile est non esse 
+pra<lb ed="#Ba" break="no"/>scitum, ergo necesse est evenire, non 
+se<lb ed="#Ba" break="no"/>quitur nisi de necessilale consequentia :
+<lb ed="#Ba"/>quia hoc antecedens, impossibile est non
+<lb ed="#Ba"/>esse prascitum, non est verum de 
+abso<lb ed="#Ba" break="no"/>luta impossibilitate, sed de 
+impossibili<lb ed="#Ba" break="no"/>tale positionis, scilicet si pouatur esse
+<lb ed="#Ba"/>futurum: et ideo non sequitur absolute,
+<lb ed="#Ba"/>si hoc impossibile est non esse 
+preesci<lb ed="#Ba" break="no"/>tum, quod impossibile sit non evenire,
+<lb ed="#Ba"/>vel quod necesse non sit evenire: hoc
+<lb ed="#Ba"/>enim, possibile est hoc non evenire, 
+ve<lb ed="#Ba" break="no"/>rum est de absoluta possibilitate, et stat
+<lb ed="#Ba"/>cui prima, scilicet impossibile est hoc
+<lb ed="#Ba"/>non esse prescitum, et hoc de se 
+possi<lb ed="#Ba" break="no"/>bile est aliter evenire : unde arguendo
+<lb ed="#Ba"/>non procedit. Tamen in prehabitis 
+di<lb ed="#Ba" break="no"/>ctum est, quod hec est duplex, possibile
+<lb ed="#Ba"/>est prescitum non convenire : eo quod
+<lb ed="#Ba"/>predicatum potest reddi subjecto cum
+<lb ed="#Ba"/>forma, vel secundum se sine forma.
+<lb ed="#Ba"/>Primo modo falsum est: quia sensus
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>est, praescitum secundum quod 
+presci<lb ed="#Ba" break="no"/>tum et manens preescitum, possibile est
+<lb ed="#Ba"/>aliter evenire: et in hoc sensu opposita
+<lb ed="#Ba"/>ejus est vera, hac scilicet, prescitum 
+im<lb ed="#Ba" break="no"/>possibile est non evenire, Si autem 
+prae<lb ed="#Ba" break="no"/>dicatum reddatur subjecto secundum se :
+<lb ed="#Ba"/>tunc vera est haec, prescitum possibile
+<lb ed="#Ba"/>est non evenire sub hoc sensu, id quod
+<lb ed="#Ba"/>est prescilum cum sit contingens, 
+pos<lb ed="#Ba" break="no"/>sibile est non evenire : et in hoc sensu
+<lb ed="#Ba"/>haec est falsa, prascitum impossibile est
+<lb ed="#Ba"/>non evenire, sicul hae distinguitur in
+<lb ed="#Ba"/>sophisticis, album possibile est esse 
+ni<lb ed="#Ba" break="no"/>vrum. Si enim predicatum reddatur 
+sub<lb ed="#Ba" break="no"/>jeclo cum forma, falsa est: sensus enim
+<lb ed="#Ba"/>est, albens manens album possibile est
+<lb ed="#Ba"/>esse nigrum. Si autem reddatur subjecto
+<lb ed="#Ba"/>secundum id quod est, vera est: quia
+<lb ed="#Ba"/>tunc sensus est, id quod est album, 
+pos<lb ed="#Ba" break="no"/>sibilitatem habet ad hoc quod sit 
+ni<lb ed="#Ba" break="no"/>erum.
+</p>
+               <p xml:id="Almn78-a36678-d1e2428">
+                  <lb ed="#Ba"/>Av ativp dicendum, quod Deum hoc
+<lb ed="#Ba"/>prescivisse, non est antecedens ad hoc
+<lb ed="#Ba"/>quod hoc de necessitate erit, nisi de 
+ne<lb ed="#Ba" break="no"/>cessilate consequentiae, et non 
+conse<lb ed="#Ba" break="no"/>quentis: et ideo non sequilur, quod
+<lb ed="#Ba"/>simpliciter hoc de necessitate absoluta
+<lb ed="#Ba"/>erit : imo contingenter erit si 
+contin<lb ed="#Ba" break="no"/>gens est. Sed sequitur, quod haec 
+conse<lb ed="#Ba" break="no"/>guentia est necessaria : Deus  preescivit
+<lb ed="#Ba"/>hoc: ergo hoc erit.
+</p>
+               <p xml:id="Almn78-a36678-d1e2452">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod illa inconvenientia non
+<lb ed="#Ba"/>sequuntur, nisi si diceremus omnia de
+<lb ed="#Ba"/>necessitate absoluta evenire. Ex quo
+<lb ed="#Ba"/>enim per necessitatem consequentie non
+<lb ed="#Ba"/>tollitur a consequente contingentia et
+<lb ed="#Ba"/>possibilitas sie vel aliter eveniendi, nec
+<lb ed="#Ba"/>perit liberum arbitrium, nee consilium,
+<lb ed="#Ba"/>quod (ut dicit Aristoteles in IT J¢
+hico<lb ed="#Ba" break="no"/>rum) est de operabilibus per nos 
+possi<lb ed="#Ba" break="no"/>biibus sic vel aliter fieri. Nec perit casus
+<lb ed="#Ba"/>in contingentibus secundum naturam,
+<lb ed="#Ba"/>nec peril fortuna, que (ut dicit 
+Aristote<lb ed="#Ba" break="no"/>les in libro de Forfuna) est natura 
+pre<lb ed="#Ba" break="no"/>ter rationem impetum faciens in his que
+<lb ed="#Ba"/>operantur a proposito. Nec sequitur,
+<lb ed="#Ba"/>quod in singularibus et contingentibus
+<lb ed="#Ba"/>de futuro sit veritas absolute determinata.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e2495">
+               <head xml:id="Almn78-a36678-Hd1e2497">Membrum 6</head>
+               <head xml:id="Almn78-a36678-Hd1e2500" type="question-title">
+  Utrum praescientia Dei sit 
+  incommutabilis?
+</head>
+               <p xml:id="Almn78-a36678-d1e2503">
+                  <pb ed="#Ba" n="629"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM VI.
+<lb ed="#Ba"/>Utrum praescientia Dei sit 
+incommuta<lb ed="#Ba" break="no"/>bilis?
+</p>
+               <p xml:id="Almn78-a36678-d1e2516">
+                  <lb ed="#Ba"/>Sexto queritur, Utrum  praescientia
+<lb ed="#Ba"/>Dei sit incommutabilis ? quod in I 
+Sen<lb ed="#Ba" break="no"/>tentiarum, distinctione XXXYV, in illo
+<lb ed="#Ba"/>cap. Scientia vero et sapientia, expresse
+<lb ed="#Ba"/>dicit Magister: et similiter, distinctione
+<lb ed="#Ba"/>XXXIX, cap. Preterea queri solet.
+</p>
+               <p xml:id="Almn78-a36678-d1e2532">
+                  <lb ed="#Ba"/>Quod autem incommutabilis sit 
+scien<lb ed="#Ba" break="no"/>tia Dei et prescientia, probat Magister
+<lb ed="#Ba"/>ex verbis Augustini in libro XV de
+<lb ed="#Ba"/>Trinitate, sic dicentis: <quote xml:id="Almn78-a36678-Qd1e2542"> Scientia Dei
+<lb ed="#Ba"/>est ipsa sapientia, et sapientia est ipsa
+<lb ed="#Ba"/>essentia sive substantia Dei: quia in
+<lb ed="#Ba"/>illius natura simplicitate mirabili non
+<lb ed="#Ba"/>est aliud sapere, et_aliud esse ?. </quote> Et 
+in<lb ed="#Ba" break="no"/>fra, <quote xml:id="Almn78-a36678-Qd1e2556"> Ejus itaque scientia inamissibilis
+<lb ed="#Ba"/>et invariabilis est: nostra vero scientia
+<lb ed="#Ba"/>amissibilis et variabilis et receptibilis
+<lb ed="#Ba"/>est. </quote> Et in eodem capite, infra, <quote xml:id="Almn78-a36678-Qd1e2565"> Sicut
+<lb ed="#Ba"/>ergo non potest augeri vel minui vel 
+va<lb ed="#Ba" break="no"/>riari divina essentia, ita nec divina 
+scien<lb ed="#Ba" break="no"/>tia. </quote>
+               </p>
+               <p xml:id="Almn78-a36678-d1e2576">
+                  <lb ed="#Ba"/>In sequenti capite statim objicit 
+Ma<lb ed="#Ba" break="no"/>gister in contrarium sic :
+</p>
+               <p xml:id="Almn78-a36678-d1e2583">
+                  <lb ed="#Ba"/>1. Potest Deus scire quod numquam
+<lb ed="#Ba"/>scivit vel prescivit. Ponamus enim, quod
+<lb ed="#Ba"/>aliquis non sit lecturus cras, illum scil et
+<lb ed="#Ba"/>prescit Deus non esse lecturum. Et quia
+<lb ed="#Ba"/>eum non esse lecturum contingens est, et
+<lb ed="#Ba"/>quod contingit non esse, contingit esse,
+<lb ed="#Ba"/>et e converso, potest esse, quod iste legat
+<lb ed="#Ba"/>cras : et cum nihil possit fieri quod Deus
+<lb ed="#Ba"/>nesciat, eo quod ipse facit esse in 
+omni<lb ed="#Ba" break="no"/>bus, si iste est lecturus cras, Deut scit et
+<lb ed="#Ba"/>preescit eum esse lecturum : sed cum fuit
+<lb ed="#Ba"/>non lecturus, non potuit eum Deus scire
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>vel prescire esse lecturum: ergo 
+muta<lb ed="#Ba" break="no"/>tione rerum que subjecte sunt divine
+<lb ed="#Ba"/>scientia, aliud scit vel prescit Deus,
+<lb ed="#Ba"/>quod nec ante scivit vel prascivit : ergo
+<lb ed="#Ba"/>mutabilis est ejus scientia.
+</p>
+               <p xml:id="Almn78-a36678-d1e2625">
+                  <lb ed="#Ba"/>2. Idem objicit ibidem sic: Sit quod
+<lb ed="#Ba"/>aliquis sit lecturus cras, hoc scit et
+<lb ed="#Ba"/>prescit Deus : cum autem sit contingens,
+<lb ed="#Ba"/>ponamus quod non legat : cum ergo
+<lb ed="#Ba"/>scientia Dei et preescientia sit visio, que
+<lb ed="#Ba"/>non transit super res existentes, vel in
+<lb ed="#Ba"/>presentialitate, vel in preteritione, vel
+<lb ed="#Ba"/>futuritione, id quod nullo modo est sub
+<lb ed="#Ba"/>aliqua differentia temporis, nullo modo
+<lb ed="#Ba"/>scit vel prescit Deus: ergo quem 
+pia<lb ed="#Ba" break="no"/>scivit lecturum esse Deus, modo scit non
+<lb ed="#Ba"/>esse lecturum ; et sic aliquid quod scivit,
+<lb ed="#Ba"/>non seit: ergo minuilur et variatur ejus
+<lb ed="#Ba"/>prascientia et scientia.
+</p>
+               <p xml:id="Almn78-a36678-d1e2658">
+                  <lb ed="#Ba"/>3. Adhuc, Deus scit omnia que potest
+<lb ed="#Ba"/>facere et prascit, et scit et prescit omnia
+<lb ed="#Ba"/>qu fiunt et que facit. Loquamur ergo
+<lb ed="#Ba"/>de praescientia que est visio: hac enim
+<lb ed="#Ba"/>est existentium, ut dicit Magister Hugo
+<lb ed="#Ba"/>de sancto Victore, et intelligitur 
+existen<lb ed="#Ba" break="no"/>tium in aliqua differentia temporis. Sed
+<lb ed="#Ba"/>Deus potest facere quod numquam fecit,
+<lb ed="#Ba"/>nec facit, faciet. Hlius ergo non fuit 
+pre<lb ed="#Ba" break="no"/>scientia. Ponamus ergo, quod faciat : et
+<lb ed="#Ba"/>cum, sicut dicit Augustinus, sciat et 
+pre<lb ed="#Ba" break="no"/>sciat omnia que facit et facere potest :
+<lb ed="#Ba"/>ergo sciet et prasciet : et ante nec scivit
+<lb ed="#Ba"/>nec prescivit : ergo seit et prascit, quod
+<lb ed="#Ba"/>ante nec scivit nec prescivit : ergo 
+varia<lb ed="#Ba" break="no"/>bilis est ejus scicntia.
+</p>
+               <p xml:id="Almn78-a36678-d1e2695">
+                  <lb ed="#Ba"/>4. Ad hoc videtur Magister respondere,
+<lb ed="#Ba"/>quod conceditur posse scire quod non
+<lb ed="#Ba"/>scit, et posse non scire quod scit: quia
+<lb ed="#Ba"/>posset esse aliquod subjectum ejus 
+scien<lb ed="#Ba" break="no"/>tie quod non est : et similiter posset
+<lb ed="#Ba"/>bon esse subjectum aliquod quod est,
+<lb ed="#Ba"/>sine permutatione ipsius. scientie vel
+<lb ed="#Ba"/>preescientiae, sicut superius diximus, quod
+<lb ed="#Ba"/>sol se habet ad illuminata. Sed hoc 
+vi<lb ed="#Ba" break="no"/>detur non posse stare : quia scientia di
+<pb ed="#Ba" n="630"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>citur ad seibile : et ideo mutatio mm 
+sci<lb ed="#Ba" break="no"/>bilibus, de necessilate causal 
+mutalio<lb ed="#Ba" break="no"/>nem in selentia.
+</p>
+               <p xml:id="Almn78-a36678-d1e2730">
+                  <lb ed="#Ba"/>5. Ad hoc solvit Magister in libro 
+pri<lb ed="#Ba" break="no"/>mo Sententiarum, distinclione XN AVI,
+<lb ed="#Ba"/>cap. Hic opponitur a quibusdam, quod
+<lb ed="#Ba"/>omnes hujusmodi loculiones, Deus 
+pot<lb ed="#Ba" break="no"/>est seire quod non setvit, Deus 
+pot<lb ed="#Ba" break="no"/>esh prescue quod non preescieul, 
+compo<lb ed="#Ba" break="no"/>site sunt false, et divise vere. Si enim
+<lb ed="#Ba"/>composite sunt, notatur compossibilitas
+<lb ed="#Ba"/>duorum secundum actum) que 
+imecom<lb ed="#Ba" break="no"/>possibilia sunt, scilicel Deum scive 
+ali<lb ed="#Ba" break="no"/>quid vel posse scire, ef illud non scivisse
+<lb ed="#Ba"/>vel prescivisse ab wlerno 2 que duo 
+in<lb ed="#Ba" break="no"/>compossibilia sunt. Si autem divisae sind,
+<lb ed="#Ba"/>non nolatur nist possibilitas concomitans
+<lb ed="#Ba"/>actum. Possibtlitas, dico, ad oppositum,
+<lb ed="#Ba"/>Et haec duo compossibilia sunt. Sicut
+<lb ed="#Ba"/>haec distinguitur, album potest esse 
+ni<lb ed="#Ba" break="no"/>grum. Tt divisam,
+<lb ed="#Ba"/>Deus potest scire quod non preseivil,
+<lb ed="#Ba"/>sub hoc sensu, Deus potest facere aliquid
+<lb ed="#Ba"/>quod non pravscivit se esse facturam : cl
+<lb ed="#Ba"/>si potest facere, scil : et sic potest scire
+<lb ed="#Ba"/>quod non praeseivil, sine sui mulabilitate,
+<lb ed="#Ba"/>Concomitantia enim potentie ad 
+oppost<lb ed="#Ba" break="no"/>tum bene salvatur cum aetu, licet actus
+<lb ed="#Ba"/>sie coneedit. hanc
+<lb ed="#Ba"/>oppositi pon salventur, EE ste 
+distingui<lb ed="#Ba" break="no"/>tur haec, Deus imniulabiliter seit et 
+priv<lb ed="#Ba" break="no"/>seit quidquid sit, ex eo quod hae 
+deter<lb ed="#Ba" break="no"/>minatio, dameredabiliter, potest 
+delermi<lb ed="#Ba" break="no"/>nare verbum, scét, in comparatione ad
+<lb ed="#Ba"/>nominativum sive suppostum, ef ste est
+<lb ed="#Ba"/>vera :vel in comparatione ad accusati
+<lb ed="#Ba"/>vum, gridguid, et sie est falsa quia
+<lb ed="#Ba"/>scitum mutabile est, ef maxime quando
+<lb ed="#Ba"/>est contingens.
+</p>
+               <p xml:id="Almn78-a36678-d1e2812">
+                  <lb ed="#Ba"/>Sunt tamen quidam qui contra hoe
+<lb ed="#Ba"/>objiciunt dicentes, quod dictum de 
+pra<lb ed="#Ba" break="no"/>terito verum, est necessarium : sed sicut
+<lb ed="#Ba"/>hoc dictum est de preterito, Deum 
+pre<lb ed="#Ba" break="no"/>selvisse hoc, et ideo necessarium et lun
+<lb ed="#Ba"/>mutabile, ita hoc prascitum esse, dictuin
+<lb ed="#Ba"/>est de preterito ef necessarium, et per
+<lb ed="#Ba"/>consequens immutabite : et sie istud 
+im<lb ed="#Ba" break="no"/>mutabiliter prascitum esse, secundum
+<lb ed="#Ba"/>utrumque modum determinationis est
+<lb ed="#Ba"/>verum, et ex parte scientis, et ex parte
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>sciti : et sic de necessitate sequitur, Deus
+<lb ed="#Ba"/>preseivil hove, ergo de necessitate 
+eve<lb ed="#Ba" break="no"/>niet. Et priedicta distinctio nulla est,
+<lb ed="#Ba"/>quia in ulroque sensu vera est locutio.
+<lb ed="#Ba"/>Sed dicunt, quod non sequitur, Deus 
+im<lb ed="#Ba" break="no"/>mulabuliter prascit hoc, et immutabile
+<lb ed="#Ba"/>prasscilur &gt; ergo necessario eveniet : 
+di<lb ed="#Ba" break="no"/>centles, quod est fallacia consequentis
+<lb ed="#Ba"/>valeL enim e@ converso, neeessario 
+eve<lb ed="#Ba" break="no"/>niet, creo immutabiliter Deus priescit et
+<lb ed="#Ba"/>preseitur, Dicunt ennn, quod omme 
+ne<lb ed="#Ba" break="no"/>cessarium cst immutabile, sed non omne
+<lb ed="#Ba"/>miuiutabile necessarium. Et dant 
+instan<lb ed="#Ba" break="no"/>tiany : Antichristum cnim fore 
+nasecitu<lb ed="#Ba" break="no"/>rum veruin est immutabile, non tamen
+<lb ed="#Ba"/>necessarium. Et sie concedunt, quod 
+pri<lb ed="#Ba" break="no"/>ma in utroque sensu vera est : dicentes
+<lb ed="#Ba"/>quod Deus previdit res snb conditione
+<lb ed="#Ba"/>veritatis qua futuras sunt : si creo future
+<lb ed="#Ba"/>sunt in necessitate, previdel eas sub 
+ne<lb ed="#Ba" break="no"/>cessitale : et si fulura sunt contingenter,
+<lb ed="#Ba"/>previdel cas contingenter. Lit dicunt,
+<lb ed="#Ba"/>quod Deum prievidere vel previdisse
+<lb ed="#Ba"/>hoc, contingens est: quia potest 
+praevi<lb ed="#Ba" break="no"/>disse hoc et non praevidisse : et hoc 
+vo<lb ed="#Ba" break="no"/>cant confiigens in seientia Det.
+</p>
+               <p xml:id="Almn78-a36678-d1e2897">
+                  <lb ed="#Ba"/>Si autem objicitur eis, quod sctentia
+<lb ed="#Ba"/>Det certior est quan scientia hominis
+<lb ed="#Ba"/>de scientia autem dominis sequitur, si
+<lb ed="#Ba"/>homo prascivit aliquid, necesse est 
+ho<lb ed="#Ba" break="no"/>miinem prieseivisse illud + mullo magis
+<lb ed="#Ba"/>sequilur im selena Dei, Deus praevidit
+<lb ed="#Ba"/>hoe, ergo necesse est cum pravidisse.
+<lb ed="#Ba"/>Dicunt, quod setentia Dei certior est
+<lb ed="#Ba"/>scienlia hominis quantunr ad 
+infallibili<lb ed="#Ba" break="no"/>tatem, sed non quantuu ad sciti 
+inmo<lb ed="#Ba" break="no"/>bilitaleme + prescientia enin Dei nee 
+mo<lb ed="#Ba" break="no"/>bilitatem, nec tmmeobilitatem confert
+<lb ed="#Ba"/>scito sed mobilitas prasciti: propler 
+re<lb ed="#Ba" break="no"/>lationem qua est inter prascientens et
+<lb ed="#Ba"/>preseitum, mobilitatem confert 
+praescien<lb ed="#Ba" break="no"/>tia. Si cnim aliquid est fulurum, est
+<lb ed="#Ba"/>prescitum : et si non est futurum, nou
+<lb ed="#Ba"/>est preescituin scignlia visionis: et sic
+<lb ed="#Ba"/>prescientia ad duo opposita se habet in
+<lb ed="#Ba"/>contingentibus, scilicet ad esse 
+preesci<lb ed="#Ba" break="no"/>tum et posse non csse priescitam, et ad
+<lb ed="#Ba"/>non esse prascitum, et posse esse 
+pra<lb ed="#Ba" break="no"/>situ. EL hae solutio wagnorum et an
+<pb ed="#Ba" n="631"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tiquorum est. Dicunt enim, quod si 
+sub<lb ed="#Ba" break="no"/>jecta prescientie variantur secundum
+<lb ed="#Ba"/>esse futurum et non esse futurum, 
+neces<lb ed="#Ba" break="no"/>se est prascientiam variari secundum 
+es<lb ed="#Ba" break="no"/>se ef non esse.
+</p>
+               <p xml:id="Almn78-a36678-d1e2965">
+                  <lb ed="#Ba"/>Sed horum dictum directe est contra
+<lb ed="#Ba"/>Dionysium in libro de Divinis 
+nomini<lb ed="#Ba" break="no"/>bus, qui dicit, quod Deus scit et prascil,
+<lb ed="#Ba"/>et prehabet scientiam et eminenter 
+ha<lb ed="#Ba" break="no"/>bet mutabilium immutabiliter *.
+</p>
+               <p xml:id="Almn78-a36678-d1e2978">
+                  <lb ed="#Ba"/>6. Adhuc, Objectio eorum non videtur
+<lb ed="#Ba"/>ad propositum esse. Qui enim distinguit
+<lb ed="#Ba"/>hance, Deus prascit mutabilia 
+immutabi<lb ed="#Ba" break="no"/>liter, vel Deus scit mutabilia mutabiliter :
+<lb ed="#Ba"/>ex hoc quod haec determinatio, 
+wnmuta<lb ed="#Ba" break="no"/>biliter, vel mutabiliter, potest referri ad
+<lb ed="#Ba"/>verbum in comparatione ad 
+nominati<lb ed="#Ba" break="no"/>yum vel ad accusalivum. Si ad 
+nomina<lb ed="#Ba" break="no"/>tivum, vera est prima, et falsa est 
+secun<lb ed="#Ba" break="no"/>da. Si ad aceusativum, vera est secunda,
+<lb ed="#Ba"/>et falsa est prima. Sic distinguentes non
+<lb ed="#Ba"/>referunt intentionem ad hoc quod 
+deter<lb ed="#Ba" break="no"/>minatio referatur ad verbum in quantum
+<lb ed="#Ba"/>transit super actum in quantum stat sub
+<lb ed="#Ba"/>forma prascientie, sed quantum ad 
+fu<lb ed="#Ba" break="no"/>turum esse quod supponitur in 
+nomina<lb ed="#Ba" break="no"/>tivo. Prescitum enim et esse futurum
+<lb ed="#Ba"/>concomitantur se : et si resolvatur hac,
+<lb ed="#Ba"/>Deus prescit hoc, in totum quod 
+claudi<lb ed="#Ba" break="no"/>tur in intellectu ejus, tunc sic resolvetur,
+<lb ed="#Ba"/>Deus priescit hoc, hoc est, ante scit hoc
+<lb ed="#Ba"/>esse futurum. Unde si sic proponatur,
+<lb ed="#Ba"/>Deus sit hoc esse fulurum immutabiltter,
+<lb ed="#Ba"/>absque dubio distinguenda est, eo quod
+<lb ed="#Ba"/>determinatio potest referri ad verbum in
+<lb ed="#Ba"/>comparatione ad nominalivum vel 
+accu<lb ed="#Ba" break="no"/>sativum. Et primo modo vera est, et 
+se<lb ed="#Ba" break="no"/>cundo iodo falsa est. Ergo et hie 
+di<lb ed="#Ba" break="no"/>stinguenda erit, qua implicite continet
+<lb ed="#Ba"/>istam, hoc est, Deus prescit hoc 
+immu<lb ed="#Ba" break="no"/>tabiliter : et sic nihil est ad propositum
+<lb ed="#Ba"/>quod dicunt, quod immutabilis sit 
+pre<lb ed="#Ba" break="no"/>scientia ex parte praesciti, sicut ex parte
+<lb ed="#Ba"/>prescientis : eo quod prescitum nen 
+pot<lb ed="#Ba" break="no"/>est non esse prescitum.
+</p>
+               <p xml:id="Almn78-a36678-d1e3056">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod prima 
+solu<lb ed="#Ba" break="no"/>tio vera est.
+</p>
+               <p xml:id="Almn78-a36678-d1e3063">
+                  <lb ed="#Ba"/>Et quod objicitur contra eam, non 
+va<lb ed="#Ba" break="no"/>let : eo quod in veritate cum dicitur,
+<lb ed="#Ba"/>Deus prescit hoc, ratione prepositionis
+<lb ed="#Ba"/>qua venit per compositionem ad 
+ver<lb ed="#Ba" break="no"/>bum, scire, scire Dei refertur ad futurum,
+<lb ed="#Ba"/>el est sensus, Deus scit hoc ante esse 
+futu<lb ed="#Ba" break="no"/>rum immutabiliter, et non refertur 
+in<lb ed="#Ba" break="no"/>tentio immutabilitatis ad esse prescitum :
+<lb ed="#Ba"/>eo quod hoc satis intelligitur ex transitu
+<lb ed="#Ba"/>verbi in accusativum, et ex resolutione
+<lb ed="#Ba"/>active in passivam. Si enim Deus 
+pre<lb ed="#Ba" break="no"/>scit hoc, sequitur quod hoc praescitum
+<lb ed="#Ba"/>est a Deo : et si immutabiliter Deus 
+pra<lb ed="#Ba" break="no"/>scit hoc, sequitur quod hoc 
+immutabili<lb ed="#Ba" break="no"/>ter prescilum est a Deo. Sed in intellectu
+<lb ed="#Ba"/>ejus quod est praescire, virlute respectus
+<lb ed="#Ba"/>ordinis non importatur nisi quod hoc sit
+<lb ed="#Ba"/>futurum : et ideo determinatio cum 
+dici<lb ed="#Ba" break="no"/>tur, Deus immutabiliter prescit hoc, non
+<lb ed="#Ba"/>determinat verbum in comparatione ad
+<lb ed="#Ba"/>accusalivum, nisi in quantum intelligilur
+<lb ed="#Ba"/>res accusativi esse futura, et non in
+<lb ed="#Ba"/>quantum intelligitur esse prescita : et
+<lb ed="#Ba"/>ideo falsa est locutio in illo sensu : quod
+<lb ed="#Ba"/>enim Deus prescit immutabiliter 
+quan<lb ed="#Ba" break="no"/>tum ad se, hoc mutabiliter est futurum,
+<lb ed="#Ba"/>el voluntarie est futurum et 
+contin<lb ed="#Ba" break="no"/>genter est futurum : nec prescientia
+<lb ed="#Ba"/>Dei aliquam dat ei necessitatem 
+abso<lb ed="#Ba" break="no"/>lutam, nee aufert ab eo contingentiam,
+<lb ed="#Ba"/>licet necessitate ordinis ponat illud esse
+<lb ed="#Ba"/>futurum : et cuin illa prepositio pre 
+no<lb ed="#Ba" break="no"/>tet antecessionem,et Deus presciens sive
+<lb ed="#Ba"/>Dei prescientia ad temporale non habeat
+<lb ed="#Ba"/>antecessioncm, nisi #ternitatis que est
+<lb ed="#Ba"/>antecessio inlinita, sequitur de 
+necessi<lb ed="#Ba" break="no"/>tate, Deus scit vel prascit hoc, ergo 
+sci<lb ed="#Ba" break="no"/>vit et prascivit illud ab eterno. Et ideo
+<lb ed="#Ba"/>concedendum est, quod immutabilis est
+<lb ed="#Ba"/>Dei scientia et prescientia, sicut probat
+<lb ed="#Ba"/>Magister ex verbis Augustini, et quod
+<lb ed="#Ba"/>nullam scientiam de novo accipit, et 
+nul<lb ed="#Ba" break="no"/>lam ex tempore acquirit : quia licet ex
+<lb ed="#Ba"/>tempore creet et de novo creet, et quod
+<lb ed="#Ba"/>hoc verbum, creat, per respectum quem
+<pb ed="#Ba" n="632"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>ponit ad creaturam, creaturam ponit in
+<lb ed="#Ba"/>actu vel fieri vel esse, cui accidit de 
+no<lb ed="#Ba" break="no"/>vo fieri vel esse, vel ex tempore fieri vel
+<lb ed="#Ba"/>esse : tamen non est ita in hoc verbo,
+<lb ed="#Ba"/>scit vel prescit : hoc enim verbum, seut
+<lb ed="#Ba"/>vel prescit, per respectum quem ponit
+<lb ed="#Ba"/>ad creaturas, non ponit creaturam fiert
+<lb ed="#Ba"/>vel esse secundum actum, sed esse in
+<lb ed="#Ba"/>potestate cause tantum : in causa 
+au<lb ed="#Ba" break="no"/>tem est immutabiliter et ab aterno : et
+<lb ed="#Ba"/>idco nihil de novo vel ex tempore scict,
+<lb ed="#Ba"/>quamvis variatio fiat in scitis et 
+praesci<lb ed="#Ba" break="no"/>tis, sicut in antehabito dictum est de 
+illu<lb ed="#Ba" break="no"/>minatione solis et illuminatis.
+</p>
+               <p xml:id="Almn78-a36678-d1e3199">
+                  <lb ed="#Ba"/>Et per hoc solvitur quod Magister
+<lb ed="#Ba"/>querit in illo capite : Mie opponitur a
+<lb ed="#Ba"/>quibusdam, scilicet utrum possil Deus 
+no<lb ed="#Ba" break="no"/>viter scire, vel ex tempore aliquid scire?
+</p>
+               <p xml:id="Almn78-a36678-d1e3210">
+                  <lb ed="#Ba"/>Dicendum enim quod non, propler 
+ra<lb ed="#Ba" break="no"/>tionem inductam. Et hoc est quod dicit
+<lb ed="#Ba"/>Magister sic : <quote xml:id="Almn78-a36678-Qd1e3218"> Potest utique scire vel
+<lb ed="#Ba"/>prescire quod numquam est nec erit,
+<lb ed="#Ba"/>nec illud scitum vel priescitum est ab
+<lb ed="#Ba"/>eterno. </quote> Et solvit, ut dictum est, quod
+<lb ed="#Ba"/>composita est falsa, et divisa vera. Et
+<lb ed="#Ba"/>concludit sic : <quote xml:id="Almn78-a36678-Qd1e3232"> Non potest ergo noviter
+<lb ed="#Ba"/>vel ex tempore scire vel preescire aliquid :
+<lb ed="#Ba"/>sicut non potest noviter vel ex tempore
+<lb ed="#Ba"/>velle aliquid, et tamen potest velle quod
+<lb ed="#Ba"/>numquam voluit. Et hujus vera causa
+<lb ed="#Ba"/>est, quia ab aeterno voluntale immobili
+<lb ed="#Ba"/>vult et voluit ut hoc nunc fierct, quod
+<lb ed="#Ba"/>ante nec fuit nec fulurum erat : et 
+simili<lb ed="#Ba" break="no"/>ter est de scientia et prascientia, scilicet
+<lb ed="#Ba"/>quod sua immobili scientia scit, et scivit
+<lb ed="#Ba"/>et praescil et prascivit ut hoc nunc fierct,
+<lb ed="#Ba"/>quod ante nee fuit nec futurum erat: et
+<lb ed="#Ba"/>idco prescitum priescicntia vel scientia
+<lb ed="#Ba"/>visionis esse non potuit </quote>
+               </p>
+               <p xml:id="Almn78-a36678-d1e3264">
+                  <lb ed="#Ba"/>Per Hoc patet solutio ad sequens quod
+<lb ed="#Ba"/>de sequenti capite adducitur ad 
+objectio<lb ed="#Ba" break="no"/>nem Magistri.
+</p>
+               <p xml:id="Almn78-a36678-d1e3273">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod sicut in 
+pre<lb ed="#Ba" break="no"/>habitis dictum est, ex hoc non sequitur,
+<lb ed="#Ba"/>quod aliud de novo presciat Deus, vel
+<lb ed="#Ba"/>sciat quod nescivit : sed variatio est in
+<lb ed="#Ba"/>scitis et prascilis, et quod variationem
+<lb ed="#Ba"/>illam omnem scivit et prascivit Deus ab
+<lb ed="#Ba"/>eterno.
+</p>
+               <p xml:id="Almn78-a36678-d1e3291">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod scientia dependet ad 
+sci<lb ed="#Ba" break="no"/>bile in his in quibus scientia accipitur a
+<lb ed="#Ba"/>scibili : sed in scientia Dei scientia est
+<lb ed="#Ba"/>causa scibilis, et scibile dependet a 
+scien<lb ed="#Ba" break="no"/>tia cliam secundum esse : et ideo 
+muta<lb ed="#Ba" break="no"/>tio scibilis non mutat scientiam, nisi 
+for<lb ed="#Ba" break="no"/>te per accidens, scilicet quod est alicujus,
+<lb ed="#Ba"/>vel erit, cujus non fuit nee ante fuit ab
+<lb ed="#Ba"/>zeterno.
+</p>
+               <p xml:id="Almn78-a36678-d1e3315">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod solutio Ma-
+<lb ed="#Ba" break="no"/>gistri bona est, et patet ex antedictis.
+</p>
+               <p xml:id="Almn78-a36678-d1e3323">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium, 
+di<lb ed="#Ba" break="no"/>cendum quod non valet, nec ad 
+proposi<lb ed="#Ba" break="no"/>tum est. Et quod dicunt, quod Deus 
+pre<lb ed="#Ba" break="no"/>videt fulura in conditione veritatis in qua
+<lb ed="#Ba"/>sunt, hoc est, necessaria necessario, et
+<lb ed="#Ba"/>contingentia contingenter esse futura,
+<lb ed="#Ba"/>verum dicunt. Et quod addunt, quod hoc
+<lb ed="#Ba"/>confert contingentiam scientia divine,
+<lb ed="#Ba"/>falsum est et hereticum, si contingentia
+<lb ed="#Ba"/>scientia ad scientem referatur : sed si 
+re<lb ed="#Ba" break="no"/>feratur ad scita, vel quod expressius est,
+<lb ed="#Ba"/>ad futura esse scita : tunc non variat
+<lb ed="#Ba"/>scientiam, nisi per accidens, sicut 
+illumi<lb ed="#Ba" break="no"/>nata per accidens variant 
+illuminatio<lb ed="#Ba" break="no"/>nem.
+</p>
+               <p xml:id="Almn78-a36678-d1e3358">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod bene 
+conce<lb ed="#Ba" break="no"/>dimus, quod haec solutio non est ad 
+pro<lb ed="#Ba" break="no"/>posilum, et non valet, nee concordat 
+di<lb ed="#Ba" break="no"/>clis Sanctorum, scilicet Dionysii, 
+Augu<lb ed="#Ba" break="no"/>stini, et Anselmi.
+</p>
+               <p xml:id="Almn78-a36678-d1e3371">
+                  <lb ed="#Ba"/>Et ad hoc quod dicunt, quod non 
+se<lb ed="#Ba" break="no"/>quitur, si immutabiliter sive immutabile
+<lb ed="#Ba"/>est, ergo est necessarium, Dicendum,
+<lb ed="#Ba"/>quod si loquuntur communiter de 
+neces<lb ed="#Ba" break="no"/>sitate consequentia et conscquentis, 
+fal<lb ed="#Ba" break="no"/>sum dicunt : bene enim sequitur, hoc
+<lb ed="#Ba"/>est immutabile, ergo est necessarium 
+ne<lb ed="#Ba" break="no"/>cessilate consequentia, vel consequentis,
+<lb ed="#Ba"/>vel utroque modo. Si autem loquuntur
+<lb ed="#Ba"/>de necessitate consequentis tantum, tunc
+<lb ed="#Ba"/>verum dicunt. Non enim sequitur, hoc
+<lb ed="#Ba"/>est immutabile, ergo est immutabile 
+ne<lb ed="#Ba" break="no"/>cessitate consequentis. Et quod ulerius
+<lb ed="#Ba"/>dicunt, quod centingentia sciti 
+contin<lb ed="#Ba" break="no"/>gentiam ponit in scientia Dei, nee verum
+<pb ed="#Ba" n="633"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>est, nec sanz fidei congruum : non enim
+<lb ed="#Ba"/>ponit contingentiam in scientia Dei in
+<lb ed="#Ba"/>quantum Dei est, sed ponit 
+contingen<lb ed="#Ba" break="no"/>tiam in ea in quantum est super scita :
+<lb ed="#Ba"/>et hoc est per accidens, sicut jam dictum
+<lb ed="#Ba"/>est. Nec est bene cautum dicere, quod
+<lb ed="#Ba"/>scientia Dei in aliquo sit comparabilis
+<lb ed="#Ba"/>scientie hominis, sive quantum ad 
+infal<lb ed="#Ba" break="no"/>libilitatem, sive quantum ad sciti 
+immu<lb ed="#Ba" break="no"/>tabilitatem : scientia enim Dei intima est
+<lb ed="#Ba"/>omni rei, eo quod Deus in omnibus est
+<lb ed="#Ba"/>principaliter causans in eis esse et 
+con<lb ed="#Ba" break="no"/>servationem et mutabilitatem et omnia.
+<lb ed="#Ba"/>Et ideo solutio inducta tenenda est, et
+<lb ed="#Ba"/>non est de objectis in contrarium.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e3444">
+               <head xml:id="Almn78-a36678-Hd1e3446">Membrum 7</head>
+               <head xml:id="Almn78-a36678-Hd1e3449" type="question-title">
+  Utrum praescientia Det possit augeri
+  vel minui 
+</head>
+               <p xml:id="Almn78-a36678-d1e3452">
+                  <lb ed="#Ba"/>MEMBRUM VII.
+<lb ed="#Ba"/>Utrum praescientia Det possit augeri
+<lb ed="#Ba"/>vel minui ?
+  
+<lb ed="#Ba"/>SEPTIMO queritur, Utrum praescientia
+<lb ed="#Ba"/>Dei sive scientia possit augeri vel 
+mi<lb ed="#Ba" break="no"/>nui ?
+</p>
+               <p xml:id="Almn78-a36678-d1e3468">
+                  <lb ed="#Ba"/>1. Ad hoc Magister in I Sententiarum,
+<lb ed="#Ba"/>distinctione XXXIX, cap. Preterea
+<lb ed="#Ba"/>queri solet, sic disputat : Potest Deus
+<lb ed="#Ba"/>scire quod numquam scit vel praescit.
+<lb ed="#Ba"/>Est enim aliquis qui non est lecturus
+<lb ed="#Ba"/>hodie, et tamen potest esse ut legat 
+ho<lb ed="#Ba" break="no"/>die : potest enim hodie legere. Nihil 
+au<lb ed="#Ba" break="no"/>tem potest fieri quod non possit a Deo
+<lb ed="#Ba"/>sciri et presciri. Potest ergo Deus scire
+<lb ed="#Ba"/>et prascire hunc lecturuin hodie : potest
+<lb ed="#Ba"/>igitur aliquid scire quod non scit nec
+<lb ed="#Ba"/>prescit : ergo potest ejus scientia 
+au<lb ed="#Ba" break="no"/>geri.
+</p>
+               <p xml:id="Almn78-a36678-d1e3499">
+                  <lb ed="#Ba"/>2, Adbuc in illo capite, Item a 
+qui<lb ed="#Ba" break="no"/>busdam sic objicit Magister, probans
+<lb ed="#Ba"/>quod plura possit scire quam scit et 
+pre<lb ed="#Ba" break="no"/>scit : quia potest scire omnia que scit
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>et prescire omnia que prescit, et 
+pot<lb ed="#Ba" break="no"/>est aliqua facere que numquam erunt, et
+<lb ed="#Ba"/>si potest ca facere, potest scire et 
+presci<lb ed="#Ba" break="no"/>re : non enim aliqua incognita facere
+<lb ed="#Ba"/>potest. Si vero omnia essent que modo
+<lb ed="#Ba"/>sunt, et preterita et futura sunt, et 
+om<lb ed="#Ba" break="no"/>nia illa sciret et prasciret Deus, et 
+insu<lb ed="#Ba" break="no"/>per alia faceret que non sunt nec 
+fue<lb ed="#Ba" break="no"/>runt nec erunt, et omnia sciret, 
+profe<lb ed="#Ba" break="no"/>cto plura sciret et presciret quam modo
+<lb ed="#Ba"/>sciat et prasciat : ergo plura potest scire
+<lb ed="#Ba"/>quam sciat vel presciat.
+</p>
+               <p xml:id="Almn78-a36678-d1e3539">
+                  <lb ed="#Ba"/>Solutio Ad hoc solvit Magister sic
+<lb ed="#Ba"/>dicens, quod scientia Dei nec augeri 
+pot<lb ed="#Ba" break="no"/>est, nec minut, nec mutari: sed ei 
+sub<lb ed="#Ba" break="no"/>jecta possunt augeri, minui, et mutari.
+<lb ed="#Ba"/>Ratio solutionis est, quod Deus omne
+<lb ed="#Ba"/>quod scit et prascit, uno quod ipse est
+<lb ed="#Ba"/>et cujus ipse est ratio idealis, scit et 
+pra<lb ed="#Ba" break="no"/>scit. Ratio autem idealis ex scitis et 
+pra<lb ed="#Ba" break="no"/>scitis sive subjectis scientia vel 
+prascien<lb ed="#Ba" break="no"/>tiae non multiplicatur ex parte scientis,
+<lb ed="#Ba"/>sed ex parte scitorum tantum. Unde talis
+<lb ed="#Ba"/>mutatio diminutionis et augmenti, et
+<lb ed="#Ba"/>pluralitas et paucitas in scitis est, et non
+<lb ed="#Ba"/>in sciente. Et hujus ratio patet satis ex
+<lb ed="#Ba"/>preinductis.
+</p>
+            </div>
+            <div xml:id="Almn78-a36678-Dd1e3575">
+               <head xml:id="Almn78-a36678-Hd1e3577">Membrum 8</head>
+               <head xml:id="Almn78-a36678-Hd1e3580" type="question-title">
+  Quomodo praescientia Dei concordet cum
+  libero arbitrio, utrum scilicet ea quae
+  sunt subjecta praescientiae, sint sub 
+  libero arbitrio?
+</head>
+               <p xml:id="Almn78-a36678-d1e3583">
+                  <lb ed="#Ba"/>MEMBRUM VIII.
+<lb ed="#Ba"/>Quomodo praescientia Dei concordet cum
+<lb ed="#Ba"/>libero arbitrio, utrum scilicet ea quae
+<lb ed="#Ba"/>sunt subjecta praescientiae, sint sub 
+li<lb ed="#Ba" break="no"/>bero arbitrio?
+</p>
+               <p xml:id="Almn78-a36678-d1e3596">
+                  <lb ed="#Ba"/>Octavo queritur, Quomodo scientia
+<lb ed="#Ba"/>Dei concordat cum libero arbitrio ?
+</p>
+               <p xml:id="Almn78-a36678-d1e3603">
+                  <lb ed="#Ba"/>Et videtur, quod non concordat 
+quan<lb ed="#Ba" break="no"/>do sunt respectu. ejusdem.
+<lb ed="#Ba"/>1. Quecumque enim sunt a libero ar-
+<pb ed="#Ba" n="634"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>bitrio, contingenter eveniunt. Subjecta
+<lb ed="#Ba"/>autem prascientia, ut dicit Anselmus,
+<lb ed="#Ba"/>de necessitate eveniunt: et impossibile
+<lb ed="#Ba"/>est, quod idem contingenter eveniat et
+<lb ed="#Ba"/>de necessitate eveniat : ergo impossibile
+<lb ed="#Ba"/>est, quod prescientia et liberum 
+arbi<lb ed="#Ba" break="no"/>trium concorditer sint cirea idem, sed
+<lb ed="#Ba"/>unum excludit alterum.
+</p>
+               <p xml:id="Almn78-a36678-d1e3635">
+                  <lb ed="#Ba"/>2. Adhuc, Prascientia scientia est
+<lb ed="#Ba"/>scientia aulem comprehensio : quidquid
+<lb ed="#Ba"/>autem est in comprehendente aliquo, est
+<lb ed="#Ba"/>in eo per modum comprchendcntis et
+  <lb ed="#Ba"/>non per modum comprehensi : sed in
+<lb ed="#Ba"/>Deo comprehendente futura nihil est per
+<lb ed="#Ba"/>modum contingentis, sed per modum
+<lb ed="#Ba"/>zterni et immutabilis : quidquid autem
+<lb ed="#Ba"/>est in libero arbitrio ut in causa, est in
+<lb ed="#Ba"/>eo contingenter et mutabilitaler : ergo
+<lb ed="#Ba"/>quecumque sunt subjecta prescientia,
+<lb ed="#Ba"/>impossibile est quod sint sub libero 
+ar<lb ed="#Ba" break="no"/>bitrio.
+</p>
+               <p xml:id="Almn78-a36678-d1e3666">
+                  <lb ed="#Ba"/>3. Adhuc, Hae propositio, Prasciltum
+<lb ed="#Ba"/>de necessitate eveniet, distinguitur, 
+sic<lb ed="#Ba" break="no"/>ut hac, album possibile est esse nigrum :
+<lb ed="#Ba"/>ex eo quod potest esse de re, vel de 
+di<lb ed="#Ba" break="no"/>cto, ut in antchabitis dictum est. Sed si
+<lb ed="#Ba"/>ista esset, quod album non haberet 
+po<lb ed="#Ba" break="no"/>tentiam ad esse nigrum, non 
+distin<lb ed="#Ba" break="no"/>gueretur, sed in utroque sensu csset 
+fal<lb ed="#Ba" break="no"/>sa: sicut hwe non distinguitur, hominem
+<lb ed="#Ba"/>possibile est esse asinum. A simili ergo
+<lb ed="#Ba"/>cum prescitum non possit non esse pra=
+<lb ed="#Ba"/>scitum, non debet distingui hac, 
+prasci<lb ed="#Ba" break="no"/>tum necesse est evenire, sed simpliciter
+<lb ed="#Ba"/>dici necessaria, elf haec falsa, prescitum
+<lb ed="#Ba"/>potest non evenire.
+</p>
+               <p xml:id="Almn78-a36678-d1e3701">
+                  <lb ed="#Ba"/>4. Adhuc, Arguitur per regulam 
+Ari<lb ed="#Ba" break="no"/>stotelis, quod ex majori de necesse et
+<lb ed="#Ba"/>minori de inesse sequitur conclusio de
+<lb ed="#Ba"/>necesse, et arguitur sic : Omne_ 
+presci<lb ed="#Ba" break="no"/>tum necesse est evenire : hoc est 
+pre<lb ed="#Ba" break="no"/>scitum, demonstrato aliquo quod est sub
+<lb ed="#Ba"/>libero arbitrio : ergo hoc necesse est 
+eve<lb ed="#Ba" break="no"/>nire.
+</p>
+               <p xml:id="Almn78-a36678-d1e3721">
+                  <lb ed="#Ba"/>Sotvurio istorum patet ex antedictis.
+<lb ed="#Ba"/>Duplex enim est necessitas, ut dicit 
+An<lb ed="#Ba" break="no"/>selmus, absoluta scilicet, quam vocat
+<lb ed="#Ba"/>Anselmus antecedentem, que est ex cau
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>sis proximis ad effectum ordinatis, sicut
+<lb ed="#Ba"/>solem oriri cras, et decollatum interire.
+<lb ed="#Ba"/>Et est necessitas conseguens rei 
+posilio<lb ed="#Ba" break="no"/>nem, sicut sedentem sedere dum sedet,
+<lb ed="#Ba"/>el te ambulare si video te ambulare. Et
+<lb ed="#Ba"/>quod subjacet necessitati prime, nullo
+<lb ed="#Ba"/>modo concordat cum libero arbilrio. 
+Con<lb ed="#Ba" break="no"/>silium enim, ut dicit Aristoleles, quod
+<lb ed="#Ba"/>proprius actus arbitrii est, non est nisi
+<lb ed="#Ba"/>de operibus per nos possibilibus aliter
+<lb ed="#Ba"/>fier1. Sed ea que subjacent secunde 
+ne<lb ed="#Ba" break="no"/>cessitati, nihil prohibet concordare cum
+<lb ed="#Ba"/>libero arbitrio, non secundum quod 
+sub<lb ed="#Ba" break="no"/>jacent necessitati, sed secundum quod
+<lb ed="#Ba"/>habent polentiam ut aliter et aliter fiant,
+<lb ed="#Ba"/>sicut seepius dictum est.
+</p>
+               <p xml:id="Almn78-a36678-d1e3769">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod non
+<lb ed="#Ba"/>est inconveniens, quod idem non 
+secun<lb ed="#Ba" break="no"/>dum idem subjaceat necessitati 
+positio<lb ed="#Ba" break="no"/>nis, et contingentia liberi arbitrii : 
+ne<lb ed="#Ba" break="no"/>cessitali positionis, in quantum est 
+pre<lb ed="#Ba" break="no"/>scitum ; conlingenti#, secundum quod
+<lb ed="#Ba"/>absolute et secundum se acceptum est.
+</p>
+               <p xml:id="Almn78-a36678-d1e3787">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod hoc 
+argu<lb ed="#Ba" break="no"/>mentum non valet : quidquid est in Deo,
+<lb ed="#Ba"/>immutabiliter est in ipso : hoc scitum
+<lb ed="#Ba"/>est in Deo: ergo est immutabile : sed
+<lb ed="#Ba"/>deberet inferri, ergo hoc Deus scit 
+im<lb ed="#Ba" break="no"/>mutabiliter : quia (sicut dicit Dionysius)
+<lb ed="#Ba"/>mutabilia Deus scit immutabiliter.
+</p>
+               <p xml:id="Almn78-a36678-d1e3806">
+                  <lb ed="#Ba"/>Ab ALiup patet solutio per antedicta.
+<lb ed="#Ba"/>Non enim distinguitur ex hoc, quod 
+ha<lb ed="#Ba" break="no"/>beat potentiam ad non esse prescitum,
+<lb ed="#Ba"/>hance enim non habet : sed quod 
+poten<lb ed="#Ba" break="no"/>tiam habeal ad non esse futurum, hanc
+<lb ed="#Ba"/>enim habet in quantum futurum 
+subja<lb ed="#Ba" break="no"/>cet libero arbitrio.
+</p>
+               <p xml:id="Almn78-a36678-d1e3824">
+                  <lb ed="#Ba"/>Ad uLtimum dicendum, quod quando
+<lb ed="#Ba"/>dat regulam Aristotcles, quod ex majori
+<lb ed="#Ba"/>de necessario et minori de inesse 
+scqui<lb ed="#Ba" break="no"/>tur conclusio de necesse, intelligitur sic,
+<lb ed="#Ba"/>quod minor sit de inesse simpliciter, et
+<lb ed="#Ba"/>non de inesse ut nunc, sicut sic 
+arguen<lb ed="#Ba" break="no"/>do : Omne animal de necessitate est 
+sub<lb ed="#Ba" break="no"/>stantia: homo est animal : ergo homo
+<lb ed="#Ba"/>de necessitate est substantia. Et si minor
+<lb ed="#Ba"/>sit de inesse ut nunc, non valebit 
+argu<lb ed="#Ba" break="no"/>mentum, ut patct si sic arguatur : omne
+<lb ed="#Ba"/>ambulans, de necessitate movetur : So
+<pb ed="#Ba" n="635"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>crates est ambulans : ergo Socrates de
+<lb ed="#Ba"/>necessitate movetur : quod falsum est :
+<lb ed="#Ba"/>quia contingenter et voluntarie 
+move<lb ed="#Ba" break="no"/>tur.Nec est ibi necessitas absoluta 
+quem<lb ed="#Ba" break="no"/>admodum in majori propositione : sed
+<lb ed="#Ba"/>si est ibi necessilas, est necessitas 
+posi<lb ed="#Ba" break="no"/>tionis vel consequentiae, ut sicinferatur :
+<lb ed="#Ba"/>ergo si Socrates ambulat, de necessitate
+<lb ed="#Ba"/>movetur. Et similiter est in inducto ar
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>gumento minor de necessitate inesse ut
+<lb ed="#Ba"/>nunc, cum assumit, hoc est prescitum.
+<lb ed="#Ba"/>Si enim hoc non eveniet, numquam fuit
+<lb ed="#Ba"/>prescitum. Et ideo dicit Magister in libro
+<lb ed="#Ba"/>I Sententiarum, distinctione XXXVII,
+<lb ed="#Ba"/>quod hoc quod prescit Deus, potest non
+<lb ed="#Ba"/>precivisse : potest enim non evenire : et
+<lb ed="#Ba"/>sic potest illud Deus non prescivisse 
+fu<lb ed="#Ba" break="no"/>turum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

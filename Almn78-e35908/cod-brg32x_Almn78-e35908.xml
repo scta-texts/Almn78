@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 64</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 64</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="611"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e35908"><!-- p2t11q64 -->
+            <head xml:id="Almn78-e35908-Hd1e106">Quaestio 64</head>
+            <head xml:id="Almn78-e35908-Hd1e109" type="question-title">
+      De factura hominis: et de his quae, Genesis, I, 26, circumstant
+      <lb ed="#Bb"/>facturam ejus.
+    </head>
+            <p xml:id="Almn78-e35908-d1e114">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LXIV.
+      <lb ed="#Bb"/>De factura hominis : et de his quae, Genesis, I, 26, circumstant
+      <lb ed="#Bb"/>facturam ejus.
+    </p>
+            <p xml:id="Almn78-e35908-d1e125">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde, Queritur de hoc quod dicit
+      <lb ed="#Bb"/>Magister in libro secundo Sententiarum,
+      <lb ed="#Bb"/>distinctione XV, cap. Omnibus autem
+      <lb ed="#Bb"/>creatis et dispositis vidit Deus, quod esset
+      <lb ed="#Bb"/>bonum, ef ait: Faciamus hominem, ubi
+      <lb ed="#Bb"/>querendum est de factura hominis, et de
+      <lb ed="#Bb"/>his que circumstant facturain, que 
+      Ge<lb ed="#Bb" break="no"/>nesis, 1, 26, determinantur.
+    </p>
+            <p xml:id="Almn78-e35908-d1e147">
+               <lb ed="#Bb"/>Primo ergo queritur, et est questio
+      <lb ed="#Bb"/>Bede, Quare in aliis creaturis non nist
+      <lb ed="#Bb"/>simpliciter dixit: E¢ facta sunt : cum
+      <lb ed="#Bb"/>autem facturus esset hominem, quasi ex
+      <lb ed="#Bb"/>deliberatione et communicato consilio
+      <lb ed="#Bb"/>dicit : Facitamus hominem ?
+    </p>
+            <p xml:id="Almn78-e35908-d1e164">
+               <lb ed="#Bb"/>Homo enim eadem facilitate factus est
+      <lb ed="#Bb"/>qua alia creature : et ita videtur, quod
+      <lb ed="#Bb"/>eodem modo loquendi deberet uti in
+      <lb ed="#Bb"/>factura hominis, quo usus est in aliis
+      <lb ed="#Bb"/>creaturis.
+    </p>
+            <p xml:id="Almn78-e35908-d1e177">
+               <lb ed="#Bb"/>Avuuc queritur, Ad quem loquens 
+      di<lb ed="#Bb" break="no"/>cit, Faciamus ?
+    </p>
+            <p xml:id="Almn78-e35908-d1e184">
+               <lb ed="#Bb"/>Si enim loquitur Pater ad personas in
+      <lb ed="#Bb"/>quo est principii auctoritas, scilicet ad
+      <lb ed="#Bb"/>Filium et Spiritum sanctum, videtur esse
+      <lb ed="#Bb"/>inconveniens. Opera enim Trinitatis 
+      in<lb ed="#Bb" break="no"/>divisa sunt : eo quod exeunt ab essentia,
+      <lb ed="#Bb"/>que indivisa est in tribus personis. Non
+      <lb ed="#Bb"/>ergo deberet loqui pluraliter, sed deberet
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>loqui, Faciam. Sic enim Pater et Filius
+      <lb ed="#Bb"/>et Spiritus sanctus sunt unus Deus, 
+      om<lb ed="#Bb" break="no"/>nia creans, et faciens omnia. Si autem
+      <lb ed="#Bb"/>loquitur ad Angelos, objicit Beda, quod
+      <lb ed="#Bb"/>non deberet dicere, Ad imaginem et 
+      si<lb ed="#Bb" break="no"/>militudinem nostram : eo quod nulla
+      <lb ed="#Bb"/>est communis imago Dei et Angelorum,
+      <lb ed="#Bb"/>de qua possit dici, nostram.
+    </p>
+            <p xml:id="Almn78-e35908-d1e221">
+               <lb ed="#Bb"/>Ulterius objicit Beda, quod nullus
+      <lb ed="#Bb"/>sanctorum Doctorum dixit, quod 
+      loque<lb ed="#Bb" break="no"/>retur ad Angelos: sed quidam heretici
+      <lb ed="#Bb"/>hoc dixerunt. Unde Hilarius in libro V
+      <lb ed="#Bb"/>de Trinitate dicit : <quote xml:id="Almn78-e35908-Qd1e234"> Per hoc quod 
+        sin<lb ed="#Bb" break="no"/>gulariter dicit, Ad imaginem et 
+        simili<lb ed="#Bb" break="no"/>tudinem, notat unitatem essentie : per
+        <lb ed="#Bb"/>hoc quod dicit, Faciamus et nostram 
+        plu<lb ed="#Bb" break="no"/>raliter, notat pluralitatem personarum. </quote>
+            </p>
+            <p xml:id="Almn78-e35908-d1e246">
+               <lb ed="#Bb"/>Apuuc queritur, Cum Angelus sit ad
+      <lb ed="#Bb"/>imaginem Dei et signaculum 
+      similitudi<lb ed="#Bb" break="no"/>nis Dei, sicut in prehabitis ex verbis
+      <lb ed="#Bb"/>sanctorum probatum est, quare in factura
+      <lb ed="#Bb"/>Angeli non est usus eodem modo 
+      lo<lb ed="#Bb" break="no"/>quendi ut cum ccelum faceret, per quod
+      <lb ed="#Bb"/>intelligitur natura angelica informis, ut
+      <lb ed="#Bb"/>dicit Augustinus : et cum lucem faceret,
+      <lb ed="#Bb"/>per quod intelligitur angelica natura
+      <lb ed="#Bb"/>formata, dixisset: Faciamus ccelum et
+      <lb ed="#Bb"/>lucem ad imaginem et similitudinem
+      <lb ed="#Bb"/>nostram ?
+    </p>
+            <p xml:id="Almn78-e35908-d1e275">
+               <pb ed="#Bb" n="612"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Unterivs queritur, Cum dicitur : 
+      Fa<lb ed="#Bb" break="no"/>ciamus hominem ad imaginem et 
+      simili<lb ed="#Bb" break="no"/>tudinem nostram, quid supponitur per
+      <lb ed="#Bb"/>imaginem et similitudinem, utrum quid
+      <lb ed="#Bb"/>creatum, vel quid increatum ?
+    </p>
+            <p xml:id="Almn78-e35908-d1e294">
+               <lb ed="#Bb"/>Si quid supponitur increatum, hoc
+      <lb ed="#Bb"/>erit essentia, vel persona. Si est 
+      essen<lb ed="#Bb" break="no"/>tia: tunc idem est dictum, Faciamus
+      <lb ed="#Bb"/>hominem ad imaginem et similitudinem,
+      <lb ed="#Bb"/>quod, Faciamus hominem ad essentiam
+      <lb ed="#Bb"/>nostram. Et cum homo ad minus 
+      secun<lb ed="#Bb" break="no"/>dum animam sit imago Dei, eo quod
+      <lb ed="#Bb"/>imago Dei secundum mentem in anima
+      <lb ed="#Bb"/>est impressa, ut dicit Augustinus in 
+      li<lb ed="#Bb" break="no"/>bro XV de Trinitaie : tunc essentia 
+      divi<lb ed="#Bb" break="no"/>na esset secundum mentem hominum
+      <lb ed="#Bb"/>impressa : et ex hoc sequitur heresis,
+      <lb ed="#Bb"/>que dicit, quod Deus facit animam 
+      ho<lb ed="#Bb" break="no"/>minis de sua substantia, que heresis
+      <lb ed="#Bb"/>condemnata in concilio Niceno. 
+      Seque<lb ed="#Bb" break="no"/>retur enim, quod homo esset et creator
+      <lb ed="#Bb"/>et creatus, et peccabilis et impeccabilis,
+      <lb ed="#Bb"/>ut dicit Damascenus, et vertibilis et 
+      in<lb ed="#Bb" break="no"/>vertibilis : que absurda sunt omnia. Si
+      <lb ed="#Bb"/>autem supponitur persona: tunc non
+      <lb ed="#Bb"/>potest supponi persona nisi Filii : quia
+      <lb ed="#Bb"/>ille solus est imago. Ad Coloss. 1,15:
+      <lb ed="#Bb"/>Qui est imago Dei invisibilis. Tunc idem
+      <lb ed="#Bb"/>est dictum, Faciamus hominem ad 
+      ima<lb ed="#Bb" break="no"/>ginem, quod, Faciamus ad Filium: et
+      <lb ed="#Bb"/>tune incongrue dicitur, nostram: quia
+      <lb ed="#Bb"/>Filius non est imago Trinitatis, sed solius
+      <lb ed="#Bb"/>Patris.
+    </p>
+            <p xml:id="Almn78-e35908-d1e357">
+               <lb ed="#Bb"/>2. Adhuc, Cum dixit, Ad imaginem,
+      <lb ed="#Bb"/>quare addidit, Ad similitudinem : dicit
+      <lb ed="#Bb"/>enim Hilarius in lib. de Synodis, quod
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e35908-Qd1e367">imago est rei ad rem coequande 
+        spe<lb ed="#Bb" break="no"/>cies indifferens, vel indiscreta 
+        similitu<lb ed="#Bb" break="no"/>do. </quote> Et sic satis per imaginem 
+      intelligi<lb ed="#Bb" break="no"/>tur similitudo. Nugatorie ergo additur.
+    </p>
+            <p xml:id="Almn78-e35908-d1e378">
+               <lb ed="#Bb"/>3. Adhuc, Si dicatur, quod quid 
+      crea<lb ed="#Bb" break="no"/>tum supponitur : hoc non potest esse,
+      <lb ed="#Bb"/>nisi homo, vel Angelus: et tunc idem
+      <lb ed="#Bb"/>esset ac si diceret, Faciamus hominem
+      <lb ed="#Bb"/>ad hominem, vel Angelum qui est imago
+      <lb ed="#Bb"/>nostra: quod valde inconveniens est :
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>quia ex modo loquendi cum dicitur,
+      <lb ed="#Bb"/>Ad imaginem, importatur aliquid quod
+      <lb ed="#Bb"/>est ante facturam hominis, ad cujus 
+      imi<lb ed="#Bb" break="no"/>tationem fit homo : et hoc non est 
+      An<lb ed="#Bb" break="no"/>gelus, quia ad imitationem Angeli non
+      <lb ed="#Bb"/>est factus homo, ut dicit Damascenus in
+      <lb ed="#Bb"/>libro Ide Fide orthodoxa': et homo non
+      <lb ed="#Bb"/>est, quia homo ante hominem non fuit,
+      <lb ed="#Bb"/>ad cujus imitationem factus homo 
+      con<lb ed="#Bb" break="no"/>deretur.
+    </p>
+            <p xml:id="Almn78-e35908-d1e417">
+               <lb ed="#Bb"/>4, Adhuc, In omnibus creaturis etiam
+      <lb ed="#Bb"/>corporalibus, vestigium Trinitatis 
+      appa<lb ed="#Bb" break="no"/>ret : et sic videtur, quod omnis 
+      crea<lb ed="#Bb" break="no"/>tura ad minus ad similitudinem Dei
+      <lb ed="#Bb"/>facta est sicut et homo : in  factura
+      <lb ed="#Bb"/>ergo cujuslibet debuit dicere, 
+      Facia<lb ed="#Bb" break="no"/>mus hoc et hoc ad similitudinem 
+      nos<lb ed="#Bb" break="no"/>tram.
+    </p>
+            <p xml:id="Almn78-e35908-d1e437">
+               <lb ed="#Bb"/>Uxrerwus queritur, Ad quid addidit
+      <lb ed="#Bb"/>hoc, Et presit piscibus maris, et 
+      vola<lb ed="#Bb" break="no"/>lilibus celi, et bestiis, universeque
+      <lb ed="#Bb"/>terre, omnique replili guod movetur in
+      <lb ed="#Bb"/>terra ?
+    </p>
+            <p xml:id="Almn78-e35908-d1e450">
+               <lb ed="#Bb"/>Si enim hoc aliquid est de ratione
+      <lb ed="#Bb"/>imaginis : tune videtur, quod per 
+      pec<lb ed="#Bb" break="no"/>catum corrupta est imago in homine : et
+      <lb ed="#Bb"/>hoc falsum est, quia in imagine 
+      per<lb ed="#Bb" break="no"/>transit homo, ut dicitur in Psalmo
+      <lb ed="#Bb"/>xxxvi, 7: et pius pater Abraham
+      <lb ed="#Bb"/>imaginem suam recognovit in inferno in
+      <lb ed="#Bb"/>divite purpurato, Luc. xvi, 25, quando
+      <lb ed="#Bb"/>dixit : Fili, recordare.
+    </p>
+            <p xml:id="Almn78-e35908-d1e473">
+               <lb ed="#Bb"/>Unrerivs queritur de hoc quod dicit :
+      <lb ed="#Bb"/>Et creavit Deus hominem ad imaginem
+      <lb ed="#Bb"/>suam :et statim addidit, Ad imaginem
+      <lb ed="#Bb"/>Dei creavit illum * ?
+    </p>
+            <p xml:id="Almn78-e35908-d1e484">
+               <lb ed="#Bb"/>Et videtur esse nugatoria repetitio.
+    </p>
+            <p xml:id="Almn78-e35908-d1e489">
+               <lb ed="#Bb"/>Adhuc ulterius addidit : Masculaum et
+      <lb ed="#Bb"/>feminam creavit eos*, cum adhuc 
+      foemi<lb ed="#Bb" break="no"/>nam non fecerit quam postea ex latere
+      <lb ed="#Bb"/>viri formavit.
+    </p>
+            <p xml:id="Almn78-e35908-d1e500">
+               <lb ed="#Bb"/>1. Si quis dicat, quod feemina non est
+      <lb ed="#Bb"/>adimaginem Dei, eo quod dicit Apostolus,
+    </p>
+            <p xml:id="Almn78-e35908-d1e507">
+               <pb ed="#Bb" n="613"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>I ad Corinth. x1, 7: Vir... imago et 
+      glo<lb ed="#Bb" break="no"/>ria Dei est : mulier autem gloria viri est.
+      <lb ed="#Bb"/>Tune incidit heresis eorum qui dixerunt
+      <lb ed="#Bb"/>feminam non esse capacem gratie et
+      <lb ed="#Bb"/>beatitudinis : quod valde absurdum est,
+      <lb ed="#Bb"/>quia sic plena gratia beata Virgo 
+      revo<lb ed="#Bb" break="no"/>caretur a gratia’.
+    </p>
+            <p xml:id="Almn78-e35908-d1e529">
+               <lb ed="#Bb"/>2. Si autem dicatur, quod dicat eos,
+      <lb ed="#Bb"/>eo quod in uno eorum utrumque fecit
+      <lb ed="#Bb"/>sexum, sicut est in his, ut dicit Beda,
+      <lb ed="#Bb"/>quos androgynos vocant, hoc est, 
+      her<lb ed="#Bb" break="no"/>maphroditos. Tune incidit heresis 
+      Ju<lb ed="#Bb" break="no"/>dzorum, qui hoc dicunt ; et sequitur,
+      <lb ed="#Bb"/>quod superflue additur: Crescite, et 
+      mul<lb ed="#Bb" break="no"/>tiplicamini®, quia ex tali differentia sexus
+      <lb ed="#Bb"/>multiplicatio fieri non potest, cum sit
+      <lb ed="#Bb"/>monstruosus et imperfectus.
+    </p>
+            <p xml:id="Almn78-e35908-d1e554">
+               <lb ed="#Bb"/>3. Adhuc, Imperfectior esset homo
+      <lb ed="#Bb"/>creatus aliis animantibus, que in primis
+      <lb ed="#Bb"/>hypostasibus sue speciei, ut dicit 
+      Da<lb ed="#Bb" break="no"/>mascenus, per distinctum sexum creata
+      <lb ed="#Bb"/>sunt.
+    </p>
+            <p xml:id="Almn78-e35908-d1e567">
+               <lb ed="#Bb"/>Utrenius queritur de hoc quod dixit
+      <lb ed="#Bb"/>illis : Crescite, et multiplicamini : etcum
+      <lb ed="#Bb"/>ante loqueretur de aliis animantibus, non
+      <lb ed="#Bb"/>dixit nisi, Vidit Deus quod esset bonum.
+    </p>
+            <p xml:id="Almn78-e35908-d1e578">
+               <lb ed="#Bb"/>Apuuc, Cum homo sit rationalis, et in
+      <lb ed="#Bb"/>hoc antepositus omnibus irrationalibus
+      <lb ed="#Bb"/>et plantis, videtur quod non in uno die
+      <lb ed="#Bb"/>fieri debuit cum altis animalibus, sed in
+      <lb ed="#Bb"/>die speciali.
+    </p>
+            <p xml:id="Almn78-e35908-d1e591">
+               <lb ed="#Bb"/>Sotvutio. Dicendum ad primum 
+      secun<lb ed="#Bb" break="no"/>um Bedam et Augustinum, quod in
+      <lb ed="#Bb"/>modo deliberationis dignitatem hominis
+      <lb ed="#Bb"/>ostendit, et ad factorem convenientiam in
+      <lb ed="#Bb"/>ratione et intellectu: in magno enim
+      <lb ed="#Bb"/>facto et pulchro et adornato, non propter
+      <lb ed="#Bb"/>difficultatem factoris, sed propter 
+      dili<lb ed="#Bb" break="no"/>gentiam operis et exquisitam 
+      speciosita<lb ed="#Bb" break="no"/>tem operis. Et hoc notat quando quasi
+      <lb ed="#Bb"/>per deliberationem dicit : Factamus.
+      <lb ed="#Bb"/>Unde Beda: <quote xml:id="Almn78-e35908-Qd1e617"> Apparet quare dictum sit,
+        <lb ed="#Bb"/>ut cetera fierent juxta genus suum et
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>species suas. Erat enim homo creandus,
+        <lb ed="#Bb"/>qui non solum generi suo et speciei 
+        con<lb ed="#Bb" break="no"/>grueret, sed ad imaginem creatoris fieret:
+        <lb ed="#Bb"/>cujus dignitatis magnitudo ostenditur,
+        <lb ed="#Bb"/>quia quasi cum consilio creatur, nec 
+        sim<lb ed="#Bb" break="no"/>pliciter sicut de ceteris fieri dicitur 
+        ho<lb ed="#Bb" break="no"/>mo, sed faciamus ad imaginem et 
+        simili<lb ed="#Bb" break="no"/>tudinem nostram, </quote>
+            </p>
+            <p xml:id="Almn78-e35908-d1e642">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod Pater loqui- 
+      <lb ed="#Bb"/>tur hic ad Filium et ad Spiritum 
+      san<lb ed="#Bb" break="no"/>ctum, et non ad Angelos, sicut bene
+      <lb ed="#Bb"/>probat Beda. Et licet indivisa sint opera
+      <lb ed="#Bb"/>Trinitatis, tamen persone differenter 
+      re<lb ed="#Bb" break="no"/>feruntur ad opus. Pater enim principium
+      <lb ed="#Bb"/>operationis est in Filio et in Spiritu 
+      san<lb ed="#Bb" break="no"/>cto, quia ab ipso habent, quod operan~
+      <lb ed="#Bb"/>tur : Pater enim operatur per Filium et
+      <lb ed="#Bb"/>in Spiritu sancto. Et ideo dicitur, Joan.
+      <lb ed="#Bb"/>xiv, 10: Pater in me manens ipse facit
+      <lb ed="#Bb"/>opera. Et, Joan. 1,3: Omnia per ipsum
+      <lb ed="#Bb"/>facta sunt. Et, Joan. v, 17 : Pater meus
+      <lb ed="#Bb"/>usgue modo operatur, et ego operor. Et,
+      <lb ed="#Bb"/>Tad Corinth. xi1, 6 : Divisiones 
+      operatio<lb ed="#Bb" break="no"/>num sunt, idem autem Deus, gui 
+      opera<lb ed="#Bb" break="no"/>tur omnia in omnibus. Et quia sic per
+      <lb ed="#Bb"/>ditferentes rationes operandi referuntur
+      <lb ed="#Bb"/>ad opus, ideo congruum fuit dicere, 
+      Fa<lb ed="#Bb" break="no"/>clamus. Et hoc est quod dicitur ibidem
+      <lb ed="#Bb"/>in Glossa sic : <quote xml:id="Almn78-e35908-Qd1e689"> Trinitas in 
+        preecedenti<lb ed="#Bb" break="no"/>bus insinuatur, cum dicitur, Dixit Deus:
+        <lb ed="#Bb"/>Fiat, et fecit Deus, et, Vidit Deus quod
+        <lb ed="#Bb"/>esset bonum : sed manifestius cum 
+        dici<lb ed="#Bb" break="no"/>tur, Faciamus hominem ad imaginem et
+        <lb ed="#Bb"/>similitudinem nostram.</quote>
+            </p>
+            <p xml:id="Almn78-e35908-d1e703">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod dictum 
+      Hi<lb ed="#Bb" break="no"/>larii conveniens est et bonum : et 
+      pro<lb ed="#Bb" break="no"/>bat hoc quod dictum est.
+    </p>
+            <p xml:id="Almn78-e35908-d1e713">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod licet Ange- 
+      <lb ed="#Bb"/>lus ad imaginem et similitudinem Dei sit
+      <lb ed="#Bb"/>in interioribus, hoc est, pertinentibus ad
+      <lb ed="#Bb"/>intellectualem naturam, tamen in 
+      exte<lb ed="#Bb" break="no"/>rioribus non.est ad imaginem : homo 
+      au<lb ed="#Bb" break="no"/>{em in exterioribus et in interioribus est
+      <lb ed="#Bb"/>ad imaginem : in interioribus in memo
+      <pb ed="#Bb" n="614"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>ria, intelligentia, et voluntate : in 
+      exte<lb ed="#Bb" break="no"/>rioribus autem ut quodammodo sit 
+      prin<lb ed="#Bb" break="no"/>cipium omnium sicut Deus : est enim ut
+      <lb ed="#Bb"/>rex et dominus omnium, et omnia 
+      secun<lb ed="#Bb" break="no"/>dum usum referuntur ad ipsum : quod
+      <lb ed="#Bb"/>non competit Angelo, qui nullo talium
+      <lb ed="#Bb"/>utitur : et ideo tali modo loquendi non
+      <lb ed="#Bb"/>est usus in creatione Angeli, quo est usus
+      <lb ed="#Bb"/>in creatione hominis.
+    </p>
+            <p xml:id="Almn78-e35908-d1e755">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod imago et similitudo possunt
+      <lb ed="#Bb"/>supponere quid creatum, et quid 
+      increa<lb ed="#Bb" break="no"/>tum : increatum secundum quod 
+      suppo<lb ed="#Bb" break="no"/>nunt essentiam divinam sub ratione
+      <lb ed="#Bb"/>mentis et intelligentie et voluntatis sive
+      <lb ed="#Bb"/>amoris, que verissime et essentialiter in
+      <lb ed="#Bb"/>Deo sunt. Et mens que sui ex se 
+      gene<lb ed="#Bb" break="no"/>rat notiliam, altribuitur Patri : 
+      intelli<lb ed="#Bb" break="no"/>gentia que notitia est genita a mente,
+      <lb ed="#Bb"/>attribuitur Filio : et voluntas sive amor
+      <lb ed="#Bb"/>qui a mente procedit in notitiam sive
+      <lb ed="#Bb"/>intellectum, et e converso ad mentem,
+      <lb ed="#Bb"/>attribuitur Spiritui sancto : hee enim
+      <lb ed="#Bb"/>tria increatum quid supponunt in Deo.
+      <lb ed="#Bb"/>Non tamen propter hoc potest dici homo
+      <lb ed="#Bb"/>factus ad essentiam : quia diversus 
+      mo<lb ed="#Bb" break="no"/>dus significandi est in imagine et 
+      simili<lb ed="#Bb" break="no"/>tudine et essentia. Et si sic arguatur,
+      <lb ed="#Bb"/>Factus est homo ad id quod est essentia
+      <lb ed="#Bb"/>divina : ergo factus est ad essentiam 
+      di<lb ed="#Bb" break="no"/>vinam : incidit fallacia accidentis, eo
+      <lb ed="#Bb"/>quod sicut dicit Aristoteles in I] 
+      Hlencho<lb ed="#Bb" break="no"/>rum, non necesse est idem pradicato vel
+      <lb ed="#Bb"/>quasi predicato, et accidenti vel quasi
+      <lb ed="#Bb"/>accidenti inesse. Et bene concedendum
+      <lb ed="#Bb"/>est, quod non supponit personam Filii
+      <lb ed="#Bb"/>qui est imago Patris. Nec sequitur, 
+      ima<lb ed="#Bb" break="no"/>go est essentia divina : imago Trinitatis
+      <lb ed="#Bb"/>est in anima : ergo essentia divina est
+      <lb ed="#Bb"/>in anima. Non enim in anima est per
+      <lb ed="#Bb"/>essentiam, sed per exemplum 
+      exempla<lb ed="#Bb" break="no"/>tum ab hoc exemplari quod est essentia
+      <lb ed="#Bb"/>divina, significata ab essentia divina sub
+      <lb ed="#Bb"/>ratione mentis, intelligentia, et volunta~
+      <lb ed="#Bb"/>tis. Et quia hoc non intellexit heresis,
+      <lb ed="#Bb"/>merito condemnata est.
+    </p>
+            <p xml:id="Almn78-e35908-d1e838">
+               <lb ed="#Bb"/>Ad aliud dicendum, sicut dicit 
+      Augu<lb ed="#Bb" break="no"/>stinus, quod imago Dei est homo in 
+      po<lb ed="#Bb" break="no"/>tenlia cognoscendi : sed similitudo est in
+      <lb ed="#Bb"/>potentia diligendi, secundum quod 
+      dile<lb ed="#Bb" break="no"/>ctio est in omni virtute : sicut dicit 
+      Au<lb ed="#Bb" break="no"/>gustinus in librode Moribus Ecclesiz,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-e35908-Qd1e855"> virtus nihil aliud est quam ordo
+        <lb ed="#Bb"/>amoris. </quote> Et sic patet, quod non 
+      nugato<lb ed="#Bb" break="no"/>rie additur. Et hoc est quod dicitur, Eceli.
+      <lb ed="#Bb"/>xvu, 1 et 2: Deus creavit de terra 
+      homi<lb ed="#Bb" break="no"/>nem, et secundum imaginem suam 
+      fecitil<lb ed="#Bb" break="no"/>lum. Etiterum convertitillum in ipsam, et
+      <lb ed="#Bb"/>secundum se vestivit illum virtute.
+    </p>
+            <p xml:id="Almn78-e35908-d1e872">
+               <lb ed="#Bb"/>Potest etiam supponere quid creatum :
+      <lb ed="#Bb"/>sed secundum hoc supponit rationem
+      <lb ed="#Bb"/>imaginis create et formam qua 
+      abstra<lb ed="#Bb" break="no"/>hitur a mente, intelligentia, et voluntate
+      <lb ed="#Bb"/>creantis. Et est sensus : Faciamus 
+      homi<lb ed="#Bb" break="no"/>nem ad imaginem et similitudinem, hoc
+      <lb ed="#Bb"/>est, faciamus eum ad rationem et 
+      for<lb ed="#Bb" break="no"/>mam, qua mente et intelligentia et 
+      vo<lb ed="#Bb" break="no"/>luntate representare possit et imitari
+      <lb ed="#Bb"/>unitatem essentie in tribus personis, et
+      <lb ed="#Bb"/>distinclionem personarum in unitate 
+      es<lb ed="#Bb" break="no"/>sentie. Et sic non sequitur, quod aliquid
+      <lb ed="#Bb"/>factum sit ante hominem secundum 
+      na<lb ed="#Bb" break="no"/>turam ad quam factus sit : sed quod 
+      ali<lb ed="#Bb" break="no"/>quid sit ante eum secundum rationem :
+      <lb ed="#Bb"/>et hoc verum est, quia ratio facti est ante
+      <lb ed="#Bb"/>factum secundum rationem intelligentie.
+    </p>
+            <p xml:id="Almn78-e35908-d1e911">
+               <lb ed="#Bb"/>Per quod patet solutio ad objectum in
+      <lb ed="#Bb"/>contrarium.
+    </p>
+            <p xml:id="Almn78-e35908-d1e918">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod vestigium
+      <lb ed="#Bb"/>est similitudo confusa, et non expressa :
+      <lb ed="#Bb"/>et ideo in aliis creatis non potest dici,
+      <lb ed="#Bb"/>quod fiant ad similitudinem, quia 
+      simili<lb ed="#Bb" break="no"/>tudo confusa non est similitudo : per
+      <lb ed="#Bb"/>hoc enim quod additur, confusa, cadit a
+      <lb ed="#Bb"/>ratione similitudinis.
+    </p>
+            <p xml:id="Almn78-e35908-d1e937">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod hujusmodi dominatus qui 
+      da<lb ed="#Bb" break="no"/>tur homini, magis facit ad decorem 
+      ima<lb ed="#Bb" break="no"/>ginis quam ad substantiam. Et quod
+      <lb ed="#Bb"/>dicitur, quod in imagine pertransit 
+      ho<lb ed="#Bb" break="no"/>mo', hoc intelligitur quantum ad 
+      sub<lb ed="#Bb" break="no"/>stantiam imaginis ; et id quod est. ad
+      <pb ed="#Bb" n="615"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>substantiam imaginis, cognovit pius pater
+      <lb ed="#Bb"/>in divite purpurato'. Exteriora autem ad
+      <lb ed="#Bb"/>decorem imaginis facientia illa 
+      cassave<lb ed="#Bb" break="no"/>runt per peccatum. Tamen dicit 
+      Augusti<lb ed="#Bb" break="no"/>nus, quod in signum quod ista subjecta
+      <lb ed="#Bb"/>fuerint homini in statu innocentia, 
+      legi<lb ed="#Bb" break="no"/>mus etiam leones et alia seva animalia
+      <lb ed="#Bb"/>obedivisse quibusdam sanctis patribus.
+      <lb ed="#Bb"/>Dicit enim Gregorius Nazianenus, quod
+      <lb ed="#Bb"/>Deus creavit hominem ad imaginem,
+      <lb ed="#Bb"/>sicut pictores fingunt imagines 
+      imperato<lb ed="#Bb" break="no"/>ram, non solum protrahendo figuras 
+      li<lb ed="#Bb" break="no"/>nearum, sed etiam complendo per 
+      deco<lb ed="#Bb" break="no"/>rem. Et hec sunt verba ejus in libro de
+      <lb ed="#Bb"/>Reparatione lapsi : <quote xml:id="Almn78-e35908-Qd1e991"> Homo totius 
+        crea<lb ed="#Bb" break="no"/>ture dominus ad imaginem sui conditoris
+        <lb ed="#Bb"/>effectus, nil aliud indicat, nisi quod mox
+        <lb ed="#Bb"/>in eo regia natura formata sit. Ut enim
+        <lb ed="#Bb"/>juxta humanam consuetudinem qui 
+        prin<lb ed="#Bb" break="no"/>cipum imagines fingunt, non solum 
+        im<lb ed="#Bb" break="no"/>pressionem forme ejus imitantur, verum
+        <lb ed="#Bb"/>etiam amictu picture regiam exprimunt
+        <lb ed="#Bb"/>dignitatem, ita ut etiam imago ipsa jam
+        <lb ed="#Bb"/>pro consuetudine dicatur imperator : sic
+        <lb ed="#Bb"/>et humana substantia quoniam ad 
+        alio<lb ed="#Bb" break="no"/>rum regimen concedebatur, propter regis
+        <lb ed="#Bb"/>universorum similitudinem velut imago
+        <lb ed="#Bb"/>animata componitur, pro picture 
+        vela<lb ed="#Bb" break="no"/>mine vestita est virtute, pro sceptro 
+        bea<lb ed="#Bb" break="no"/>tiludine et immortalitate sustollitur, pro
+        <lb ed="#Bb"/>regali serto justitiz corona decoratur. </quote>
+               <lb ed="#Bb"/>Idem fere dicit Damascenus in libro II de
+      <lb ed="#Bb"/>Fide orthodoza’.
+    </p>
+            <p xml:id="Almn78-e35908-d1e1033">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod non est 
+      nu<lb ed="#Bb" break="no"/>gatoria : quod enim in primo dicit, notat
+      <lb ed="#Bb"/>imaginem in habitu in natura anime
+      <lb ed="#Bb"/>creatam ; quod secundo addi, notat 
+      rela<lb ed="#Bb" break="no"/>tionem ejusdem imaginis ad Deum sicut
+      <lb ed="#Bb"/>ad exemplar secundum actum imitandi.
+    </p>
+            <p xml:id="Almn78-e35908-d1e1049">
+               <lb ed="#Bb"/>Ad aliud ulterius dicendum, quod 
+      di<lb ed="#Bb" break="no"/>cit : Masculum et feminam creavit eos,
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>licet adhuc feemina creata non sit : ne
+      <lb ed="#Bb"/>foemina que seminaliter et materialiter
+      <lb ed="#Bb"/>jam fuit in viro, expers credatur esse
+      <lb ed="#Bb"/>imaginis. Et hoc est quod dicit 
+      Augusti<lb ed="#Bb" break="no"/>nus contra Manicheum, et ponitur 
+      ibi<lb ed="#Bb" break="no"/>dem in Glossa sic : <quote xml:id="Almn78-e35908-Qd1e1070"> Masculum et
+        <lb ed="#Bb"/>feminam creavit eos, dicit, ut corpus
+        <lb ed="#Bb"/>factum intelligatur. Rursus, ne in uno
+        <lb ed="#Bb"/>homine uterque sexus reputaretur, sicut
+        <lb ed="#Bb"/>quos androgynos vocant, pluraliter 
+        sub<lb ed="#Bb" break="no"/>jecit, fecit eos, quamvis mulier nondum
+        <lb ed="#Bb"/>a viro esset divisa, sed materialiter 
+        pra<lb ed="#Bb" break="no"/>seminata. </quote>
+            </p>
+            <p xml:id="Almn78-e35908-d1e1089">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+      conce<lb ed="#Bb" break="no"/>dendum est de plano : quia heresis est :
+      <lb ed="#Bb"/>et bene improbatum est in objiciendo.
+      <lb ed="#Bb"/>Mulier enim ad imaginem Dei est sicut
+      <lb ed="#Bb"/>et vir. Quod autem dicit Apostolus °,
+      <lb ed="#Bb"/>propter hoc dicit, quod mulier a viro
+      <lb ed="#Bb"/>sumpta est, et ei subjecta : et ideo ipsum
+      <lb ed="#Bb"/>dicitur imitari : vir autem immediate ad
+      <lb ed="#Bb"/>imitationem Dei factus est.
+    </p>
+            <p xml:id="Almn78-e35908-d1e1111">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod illud 
+      proce<lb ed="#Bb" break="no"/>dit, et bene improbat errorem inductum.
+    </p>
+            <p xml:id="Almn78-e35908-d1e1118">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod creatis 
+      ani<lb ed="#Bb" break="no"/>malibus non complevit benedictionem,
+      <lb ed="#Bb"/>sed approbavit tantum ut manerent que
+      <lb ed="#Bb"/>creata sunt: quia dignissimum 
+      anima<lb ed="#Bb" break="no"/>lium quod est homo, nondum creatum
+      <lb ed="#Bb"/>erat : quo creato statim complebatur 
+      be<lb ed="#Bb" break="no"/>nedictio.
+    </p>
+            <p xml:id="Almn78-e35908-d1e1137">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod in 
+      ani<lb ed="#Bb" break="no"/>mali natura homo convenit cum brutis :
+      <lb ed="#Bb"/>et ideo uno die creates est cum: eis. In
+      <lb ed="#Bb"/>ratione autem prefertur eis. Et hoc non
+      <lb ed="#Bb"/>facit distincta operatio in diverso die,
+      <lb ed="#Bb"/>sed specialis imitatioimaginis et 
+      simili<lb ed="#Bb" break="no"/>tudinis ad creatorem. Pisces enim - et
+      <lb ed="#Bb"/>bruta diversis diebus creata sunt : nec
+      <lb ed="#Bb"/>bruta preferuntur piscibus, nec pisces
+      <lb ed="#Bb"/>brutis in aliqua dignitate.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

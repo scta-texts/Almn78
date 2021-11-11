@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="37"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa7264"><!-- p1t2q8 -->
+            <head xml:id="Almn78-aa7264-Hd1e106">Quaestio 8</head>
+            <head xml:id="Almn78-aa7264-Hd1e109" type="question-title">
+      De uti
+    </head>
+            <p xml:id="Almn78-aa7264-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO VIII.
+<lb ed="#Ba"/>De uti.
+</p>
+            <p xml:id="Almn78-aa7264-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Circa uti queruntur tria, scilicet 
+pri<lb ed="#Ba" break="no"/>mo, Quid sit uti genere, specie, et 
+defini<lb ed="#Ba" break="no"/>tione ?
+</p>
+            <p xml:id="Almn78-aa7264-d1e132">
+
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Secundo, Cujus sit uti sicut potentie,
+<lb ed="#Ba"/>et cujus sicut habitus ?
+<lb ed="#Ba"/>Et tertio, Ad quid? ©
+</p>
+            <div xml:id="Almn78-aa7264-Dd1e144">
+               <head xml:id="Almn78-aa7264-Hd1e146">Membrum 1</head>
+               <head xml:id="Almn78-aa7264-Hd1e149" type="question-title">
+  Quid sit uti genere, specie, et definitione
+</head>
+               <p xml:id="Almn78-aa7264-d1e152">
+                  <pb ed="#Ba" n="38"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Quid sit uti genere, specie, et definitione?
+</p>
+               <p xml:id="Almn78-aa7264-d1e163">
+                  <lb ed="#Ba"/>Primo queritur, Quid sit uti genere?
+  
+<lb ed="#Ba"/>1. Cum autem wii sit agere, videtur
+<lb ed="#Ba"/>quod in genere sit actionis. Uti enim est
+<lb ed="#Ba"/>per utile agere ad finem intentionis 
+qua<lb ed="#Ba" break="no"/>si per instrumentum.
+</p>
+               <p xml:id="Almn78-aa7264-d1e176">
+                  <lb ed="#Ba"/>2. Adhuc, Uti est aliquid referre et 
+or<lb ed="#Ba" break="no"/>dinare ad aliud quod obtineatur per 
+ip<lb ed="#Ba" break="no"/>sum : ordinare autem et referre actiones
+<lb ed="#Ba"/>sunt : uti ergo in genere actionis est :
+<lb ed="#Ba"/>ergo wéi est actio.
+</p>
+               <p xml:id="Almn78-aa7264-d1e190">
+                  <lb ed="#Ba"/>3. Adhuc, Secundum nomen hujus
+<lb ed="#Ba"/>quod est wz, tunc uti dicit actionem
+<lb ed="#Ba"/>quam per utile perficimus : secundum
+<lb ed="#Ba"/>nomen ergo dicit actionem : in genere
+<lb ed="#Ba"/>ergo actionis est.
+</p>
+               <p xml:id="Almn78-aa7264-d1e203">
+                  <lb ed="#Ba"/>Responsto. Uti multipliciter dicitur, et
+<lb ed="#Ba"/>in omni genere multiplicitatis agere est.
+<lb ed="#Ba"/>Unde simpliciter uti agere est, et usus in
+<lb ed="#Ba"/>genere actionis est. Dicitur enim wéi vel
+<lb ed="#Ba"/>usus actus elicitus de potentia vel 
+facul<lb ed="#Ba" break="no"/>tate cujuslibet rei propter quam habetur,
+<lb ed="#Ba"/>relatus ad commodum vel delectationem
+<lb ed="#Ba"/>hominis, sicut equitare dicitur usus equi,
+<lb ed="#Ba"/>et vehere dicitur usus carruce. Et sic 
+di<lb ed="#Ba" break="no"/>cit Boetius in commento super Topicam
+<lb ed="#Ba"/>Tullii, qaod <quote xml:id="Almn78-aa7264-Qd1e229"> cujus usus bonus est, 
+ip<lb ed="#Ba" break="no"/>sum quoque bonum est : et cujus usus
+<lb ed="#Ba"/>malus est, ipsum quoque malum est. </quote>
+                  <lb ed="#Ba"/>Et hoc modo in precedenti membro 
+que<lb ed="#Ba" break="no"/>stionis septime dictunt est, quod usus
+<lb ed="#Ba"/>fruibilis est frui et pasci ad 
+delectatio<lb ed="#Ba" break="no"/>nem’. Et hoc modo cadit wéz in 
+detini<lb ed="#Ba" break="no"/>tionem ejus quod est fra : sicut dicit
+<lb ed="#Ba"/>Augustinus, quod <quote xml:id="Almn78-aa7264-Qd1e249"> frui est cum gaudio
+<lb ed="#Ba"/>uti : </quote> quia usus fruibilis est frui eo cum
+<lb ed="#Ba"/>gaudio.
+</p>
+               <p xml:id="Almn78-aa7264-d1e257">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Et propter hoc etiam plures de eo quod’
+<lb ed="#Ba"/>est frui Augustinus assignavit 
+definitio<lb ed="#Ba" break="no"/>nes : eo quod, sicut dictum est, frui 
+acci<lb ed="#Ba" break="no"/>pitur communiter, et proprie. Tales 
+au<lb ed="#Ba" break="no"/>tem definitiones non proprie definitiones,
+<lb ed="#Ba"/>sed assignationes sunt. Definitio enim
+<lb ed="#Ba"/>assignatur de re simpliciter et proprie :
+<lb ed="#Ba"/>descriptio autem sive assignatio 
+assigna<lb ed="#Ba" break="no"/>tur aliquando per accidentalia propria,
+<lb ed="#Ba"/>que convertibilia sunt sicut et essentialis
+<lb ed="#Ba"/>causa : tamen quia multa sunt que uni
+<lb ed="#Ba"/>rei sic accidunt, ideo de una et eadem re
+<lb ed="#Ba"/>plures aliquando tales assignantur 
+descri<lb ed="#Ba" break="no"/>ptiones.
+</p>
+               <p xml:id="Almn78-aa7264-d1e292">
+                  <lb ed="#Ba"/>Secundo dicitur wét, rei exercitium ad
+<lb ed="#Ba"/>inducendum habitum, secundum quod
+<lb ed="#Ba"/>dicit Victorinus in Rhetoricis suis, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-aa7264-Qd1e302"> natura habilem facit, ars potentem,
+<lb ed="#Ba"/>usus facilem. </quote>
+               </p>
+               <p xml:id="Almn78-aa7264-d1e308">
+                  <lb ed="#Ba"/>Tertio dicitur wi, actus utilis quod ut
+<lb ed="#Ba"/>adminiculum refertur ad illud 
+obtinen<lb ed="#Ba" break="no"/>dum quod intenditur ut finis, sicut 
+refer<lb ed="#Ba" break="no"/>tur equus ad velocitatem motus, et velox
+<lb ed="#Ba"/>motus ad debitoris consecutionem, 
+debi<lb ed="#Ba" break="no"/>toris consecutio ad accipiendum 
+pecu<lb ed="#Ba" break="no"/>niam, et ibi sistitur. Et sicut referuntur
+<lb ed="#Ba"/>lapides ad domum, et domus ad 
+_prote<lb ed="#Ba" break="no"/>ctionem a caumatibus et imbribus, et ibi
+<lb ed="#Ba"/>sistitur. Hoc enim modo mundus iste
+<lb ed="#Ba"/>refertur ad Dei cognitionem, cognitio Dei
+<lb ed="#Ba"/>ad fidem, fides ad visionem per speciem,.
+<lb ed="#Ba"/>visio Dei ad fruitionem, et ibi sistitur.
+<lb ed="#Ba"/>Quod uti est aliquid in facultatem 
+volun<lb ed="#Ba" break="no"/>tatis assumere, et ad aliud referre quo
+<lb ed="#Ba"/>fruendum est ®.
+</p>
+               <p xml:id="Almn78-aa7264-d1e345">
+                  <lb ed="#Ba"/>Patet ergo, quod omni modo uti est
+<lb ed="#Ba"/>agere, et usus in genere actionis.
+</p>
+               <p xml:id="Almn78-aa7264-d1e353">
+                  <lb ed="#Ba"/>Patet jam etiam clarius solutio 
+quo<lb ed="#Ba" break="no"/>rumdam eorum que in precedenti 
+mem<lb ed="#Ba" break="no"/>bro precedentis questionis quesita et
+<lb ed="#Ba"/>determinata sunt.
+</p>
+               <p xml:id="Almn78-aa7264-d1e364">
+                  <lb ed="#Ba"/>Et per hoc patet quid sit wéi genere,
+<lb ed="#Ba"/>specie, et definitione secundum 
+quamli<lb ed="#Ba" break="no"/>bet acceptionem ejus quod est wéz.
+</p>
+            </div>
+            <div xml:id="Almn78-aa7264-Dd1e374">
+               <head xml:id="Almn78-aa7264-Hd1e376">Membrum 2</head>
+               <head xml:id="Almn78-aa7264-Hd1e379" type="question-title">
+  Cuius potentiae anime sit uti, et cusus
+  <lb ed="#Ba"/>habitus virtutis
+</head>
+               <p xml:id="Almn78-aa7264-d1e384">
+                  <pb ed="#Ba" n="39"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM II.
+</p>
+               <p xml:id="Almn78-aa7264-d1e393">
+                  <lb ed="#Ba"/>Cujus potentiae anime sit uti, et cusus
+<lb ed="#Ba"/>habitus virtutis ?
+</p>
+               <p xml:id="Almn78-aa7264-d1e400">
+                  <lb ed="#Ba"/>Secundo queritur, Cujus potentia 
+ani<lb ed="#Ba" break="no"/>me sit uti, et cujus virtutis sit habitus ?
+</p>
+               <p xml:id="Almn78-aa7264-d1e408">
+                  <lb ed="#Ba"/>Videtur autem, quod rationis.
+<lb ed="#Ba"/>1. Ordinare enim rationis est. Quia 
+di<lb ed="#Ba" break="no"/>cit Isaac in libro de Definitionibus, quod
+<lb ed="#Ba"/>ratio est virtus sive causa, faciens 
+cur<lb ed="#Ba" break="no"/>rere causam in causatum. Et intelligit de
+<lb ed="#Ba"/>causa communi ad consequens 
+quocum<lb ed="#Ba" break="no"/>que modo. Talis autem ordinalio in 
+om<lb ed="#Ba" break="no"/>nibus illis est quorum unum ordinatur
+<lb ed="#Ba"/>in alterum, ita quod unum acquiratur ex
+<lb ed="#Ba"/>altero : hoc autem uti est, ut patet per
+<lb ed="#Ba"/>definitionem Augustini : ergo uti rationis
+<lb ed="#Ba"/>actus est.
+</p>
+               <p xml:id="Almn78-aa7264-d1e437">
+                  <lb ed="#Ba"/>2. Adhuc, Usus est aut collatio, aut
+<lb ed="#Ba"/>non. Non sine collatione : collatio autem
+<lb ed="#Ba"/>omnis ratio est: ergo uti lrationis actus
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa7264-d1e448">
+                  <lb ed="#Ba"/>3. Adhuc, Bonum dividitur in tria, ut
+<lb ed="#Ba"/>ilicit Aristoteles, honestum, delectabile,
+<lb ed="#Ba"/>et utile : et cum honestum et delectabile,
+<lb ed="#Ba"/>sint fines, utile erit eorum que sunt ad
+<lb ed="#Ba"/>finem. Ergo utile non intelligitur nisi per
+<lb ed="#Ba"/>rationem eorum gue sunt ad finem, et
+<lb ed="#Ba"/>ulile secundum actum est relatum ad
+<lb ed="#Ba"/>finem obtinendum per ipsum : secundum
+<lb ed="#Ba"/>aclum autem relatum non potest esse 
+si<lb ed="#Ba" break="no"/>ne comparatione unius ad alterum et 
+or<lb ed="#Ba" break="no"/>dinatione. Hoc autem non est simplicis
+<lb ed="#Ba"/>intellectus, sed componentis et discursam
+<lb ed="#Ba"/>disciplinam accipientis, dicente Maximo
+<lb ed="#Ba"/>super primum capitulum Ce@lestis 
+hierar<lb ed="#Ba" break="no"/>thie : <quote xml:id="Almn78-aa7264-Qd1e482"> Discurse discipline sunt 
+proba<lb ed="#Ba" break="no"/>tiones eorum que spiritualia sunt per 
+vi<lb ed="#Ba" break="no"/>sibilia, et per res latiores efficiuntur que
+<lb ed="#Ba"/>perenniter et repente intellectibus 
+im<lb ed="#Ba" break="no"/>mituntur. </quote> Taliter autem componens in
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tellectus medium ad extremum, et eliciens
+<lb ed="#Ba"/>quod sequitur, rationis nomen habet. Uti
+<lb ed="#Ba"/>ergo actus rationis est.
+</p>
+               <p xml:id="Almn78-aa7264-d1e503">
+                  <lb ed="#Ba"/>Quod procul dubio concedendum est.
+<lb ed="#Ba"/>Quamvis in contrarium esse videatur
+<lb ed="#Ba"/>quod dicit Augustinus in libro X de 
+Tri<lb ed="#Ba" break="no"/>nilate, quod <quote xml:id="Almn78-aa7264-Qd1e513"> uti est aliquid in 
+faculta<lb ed="#Ba" break="no"/>tem voluntatis assumere, et ipsum ad
+<lb ed="#Ba"/>aliud referre': </quote> et per hoc videatur esse
+<lb ed="#Ba"/>uti voluntatis, et non rationis.
+</p>
+               <p xml:id="Almn78-aa7264-d1e524">
+                  <lb ed="#Ba"/>Juxta hoc ulterius queritur, Cujus 
+vir<lb ed="#Ba" break="no"/>tutis sit sicut habitus ati?
+</p>
+               <p xml:id="Almn78-aa7264-d1e531">
+                  <lb ed="#Ba"/>Non enim potest esse virtutis moralis :
+<lb ed="#Ba"/>quia illarum nulla collativa est, sed 
+sim<lb ed="#Ba" break="no"/>pliciter unius sicut finis ut natura : talis
+<lb ed="#Ba"/>enim habitus, ut dicit Tullius, in modum
+<lb ed="#Ba"/>nature rationi est consentaneus. Erit 
+er<lb ed="#Ba" break="no"/>go alicujus habitus intellectualis : non
+<lb ed="#Ba"/>autem nisi electivi, quia electio est
+<lb ed="#Ba"/>eorum que sunt ad finem, ut dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in II Ethicorum : electio autem
+<lb ed="#Ba"/>non nisi prudentiae est : uti ergo 
+pruden<lb ed="#Ba" break="no"/>tie est. Electivum autem voco habitum
+<lb ed="#Ba"/>eum, cujus actus electio est, non eum qui
+<lb ed="#Ba"/>ab actu voluntario vel {electivo 
+genera<lb ed="#Ba" break="no"/>tur : quia sic omnis actus moralis habitus
+<lb ed="#Ba"/>electivus est, ut dicit Aristoteles in
+<lb ed="#Ba"/>Ill Fthicorum. Electio autem, ut dicit
+<lb ed="#Ba"/>Damascenus, est duobus vel pluribus
+<lb ed="#Ba"/>prepositis unum alteri preoptare. Hoc
+<lb ed="#Ba"/>autem prudentia est, ut dicit Augustinus
+<lb ed="#Ba"/>in libro de Moribus Fecelesiae, sic 
+diffi<lb ed="#Ba" break="no"/>niens prudentiam : <quote xml:id="Almn78-aa7264-Qd1e578"> Prudentia est amor,
+<lb ed="#Ba"/>ea quibus adjuvatur ab his a quibus 
+im<lb ed="#Ba" break="no"/>peditur, sagaciter eligens. </quote> Uti ergo
+<lb ed="#Ba"/>prudentie actus est.
+</p>
+               <p xml:id="Almn78-aa7264-d1e589">
+                  <lb ed="#Ba"/>Contra hoc autem esse videtur, quod
+<lb ed="#Ba"/>Augustinus dicit, quod uti voluntatis
+<lb ed="#Ba"/>est : ergo est alicujus habitus in 
+volun<lb ed="#Ba" break="no"/>tate consistentis : prudentia autem in 
+vo<lb ed="#Ba" break="no"/>luntate non est : uti ergo prudentie non
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa7264-d1e605">
+                  <lb ed="#Ba"/>Solutio. Concedendum, quod uti 
+pru<lb ed="#Ba" break="no"/>dentiae et rationis actus est. Et quod dicit
+<pb ed="#Ba" n="40"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Augustinus, quod uti est aliquid in 
+facul<lb ed="#Ba" break="no"/>tatem voluntatis assumere, et ad aliud
+<lb ed="#Ba"/>referre, dicendum quod aliud est facultas,
+<lb ed="#Ba"/>et aliud voluntas. Facultas enim facilis
+<lb ed="#Ba"/>potestas est et prompta habens omnia ex
+<lb ed="#Ba"/>quibus potest tendere in volitum. Hec
+<lb ed="#Ba"/>autem potestas prompta causatur ex 
+or<lb ed="#Ba" break="no"/>dine rationis et prudentie-componentis
+<lb ed="#Ba"/>et conferentis omnia que sunt ad finem
+<lb ed="#Ba"/>facile consequendum, et omnia illa 
+refe<lb ed="#Ba" break="no"/>rentis ad finem, ex quibus efficitur facilis
+<lb ed="#Ba"/>potestas ad proficiendum sive tendendum
+<lb ed="#Ba"/>in finem, eo modo quo tendit in finem
+<lb ed="#Ba"/>quiimpetum facit quo in finem proficit.
+<lb ed="#Ba"/>Quod autem ita sit, probatur ex dicto
+<lb ed="#Ba"/>Aristotelis in VI Ethicorum, ubi dicit,
+<lb ed="#Ba"/>quod virtus moralis quantum ad finem
+<lb ed="#Ba"/>in quem tendit et inclinat, per se finis
+<lb ed="#Ba"/>est, sicut et voluntas, et non eorum que
+<lb ed="#Ba"/>sunt ad finem. Cui tamen prudentia 
+ne<lb ed="#Ba" break="no"/>cessaria est propter electionem eorum
+<lb ed="#Ba"/>que sunt ad finem, quorum virlutis 
+mo<lb ed="#Ba" break="no"/>ralis electiva non est. Unde talis facultas
+<lb ed="#Ba"/>rationis est et prudentiae sicut agentis,
+<lb ed="#Ba"/>voluntatis autem sicut per ipsam 
+expe<lb ed="#Ba" break="no"/>dite et disposite ad tendendum in finem.
+<lb ed="#Ba"/>Et cum dicitur facultas rationis et 
+facul<lb ed="#Ba" break="no"/>tas voluntatis, facultas cum eo quod 
+di<lb ed="#Ba" break="no"/>citur rafionis, construitur in habitudine
+<lb ed="#Ba"/>cause efficientis : cum eo quod dicitur
+<lb ed="#Ba"/>voluntatis, construitur inhabitudine 
+dis<lb ed="#Ba" break="no"/>positionis et forme. Et fallacia 
+amphi<lb ed="#Ba" break="no"/>bologiw est in argumento.
+</p>
+               <p xml:id="Almn78-aa7264-d1e688">
+                  <lb ed="#Ba"/>Et quod quidam dicunt ex Anselmo
+<lb ed="#Ba"/>sumentes, quod cum dicitur, quod wii
+<lb ed="#Ba"/>est aliquid in facultatem voluntatis 
+as<lb ed="#Ba" break="no"/>sumere, quod voluntas ibi sumitur prout
+<lb ed="#Ba"/>voluntas est generalis motor omnium
+<lb ed="#Ba"/>potentiarum anime ad agendum, 
+perfe<lb ed="#Ba" break="no"/>ctam rationem veritatis non habet. Hoc
+<lb ed="#Ba"/>enim non est voluntatis, sed libertatis.
+<lb ed="#Ba"/>Dicit enim Avicenna in sexto de 
+Natura<lb ed="#Ba" break="no"/>libus, quod omnis potentia anime 
+sensi<lb ed="#Ba" break="no"/>bilis et rationalis in potestate suae 
+liber<lb ed="#Ba" break="no"/>tatis habet agere et non agere, et agere
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>hoc et contrarium hujus, ut videre et
+<lb ed="#Ba"/>non videre, videre album et videre 
+ni<lb ed="#Ba" break="no"/>grum, Et haec est intentio Augustini.
+</p>
+            </div>
+            <div xml:id="Almn78-aa7264-Dd1e726">
+               <head xml:id="Almn78-aa7264-Hd1e728">Membrum 2</head>
+               <head xml:id="Almn78-aa7264-Hd1e731" type="question-title">
+  Ad quid sit uti
+</head>
+               <p xml:id="Almn78-aa7264-d1e734">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Ad quid sit uti ?
+</p>
+               <p xml:id="Almn78-aa7264-d1e741">
+                  <lb ed="#Ba"/>Tertio queritur, Ad quid sit uéi ?
+<lb ed="#Ba"/>4. Et videtur secundum rationem 
+no<lb ed="#Ba" break="no"/>minis, quod sit ad omne illud quod 
+in<lb ed="#Ba" break="no"/>tenditur acquiri. Utd enim est aliquid in
+<lb ed="#Ba"/>facultatem voluntatis assumere, et ad
+<lb ed="#Ba"/>aliud referre: quod sepe fit in malis,
+<lb ed="#Ba"/>sicut jocalia referuntur ad virginem 
+obti<lb ed="#Ba" break="no"/>nendain et corrumpendam.
+</p>
+               <p xml:id="Almn78-aa7264-d1e761">
+                  <lb ed="#Ba"/>2. Adhuc, Sicut dicitur wétle, sic et
+<lb ed="#Ba"/>uti: utile autem in malis est: ergo et
+<lb ed="#Ba"/>uti. Quod autem utile in malis sit, 
+proba<lb ed="#Ba" break="no"/>tur, I} Reg. xvi, 14: Domini auiem
+<lb ed="#Ba"/>nutu dissipatum est consilium Achitophel
+<lb ed="#Ba"/>utile, ut induceret Dominus super 
+Absa<lb ed="#Ba" break="no"/>lon malum. Ergo et utile videtur in 
+ma<lb ed="#Ba" break="no"/>lis esse. ,
+</p>
+               <p xml:id="Almn78-aa7264-d1e782">
+                  <lb ed="#Ba"/>Contra hoc est quod dicit Augustinus
+<lb ed="#Ba"/>in libro I de Doctrina Christiana : <quote xml:id="Almn78-aa7264-Qd1e788"> Un
+<lb ed="#Ba"/>est id quod in usum venerit, referre ad
+<lb ed="#Ba"/>obtinendum illud quo fruendum est :
+<lb ed="#Ba"/>alias abuti est, non uti : nam usus 
+illici<lb ed="#Ba" break="no"/>tus abusus vel abusio nominari debet ‘. </quote>
+               </p>
+               <p xml:id="Almn78-aa7264-d1e800">
+                  <lb ed="#Ba"/>Juxta hoc queritur, Quare. dicitur
+<lb ed="#Ba"/>frui et fructus in bonis, et non abfrut
+<lb ed="#Ba"/>vel abfructus in malis : sicut uti et usus
+<lb ed="#Ba"/>in bonis, et abuéi et abusus in malis ?
+<lb ed="#Ba"/>cum dicat Augustinus, quod <quote xml:id="Almn78-aa7264-Qd1e813"> omnis
+<lb ed="#Ba"/>perversitas humana est uti fruendis, et
+<lb ed="#Ba"/>frui utendis: </quote> et ita videatur malus 
+fru<lb ed="#Ba" break="no"/>ctus vel mala fruitio que privationem 
+di<lb ed="#Ba" break="no"/>cit vere fruitionis, sicut abusus 
+privatio<lb ed="#Ba" break="no"/>nem veri usus ??
+</p>
+               <p xml:id="Almn78-aa7264-d1e827">
+                  <pb ed="#Ba" n="41"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod accipiendo
+<lb ed="#Ba"/>uli proprie et simpliciter, uti non est
+<lb ed="#Ba"/>nisi in bonis, secundum quod accipitur
+<lb ed="#Ba"/>in terlia significatione superius, scilicet
+<lb ed="#Ba"/>secundum quod uli est ad aliud quid 
+ob<lb ed="#Ba" break="no"/>tinendum utile referre, Et hujus ratio est,
+<lb ed="#Ba"/>quia utile rationem habet cujusdam boni,
+<lb ed="#Ba"/>secundum quod bonum dividitur in 
+ho<lb ed="#Ba" break="no"/>nestum, utile, et delectabile. Sic enim
+<lb ed="#Ba"/>dicitur wéile quod utenti utile est et non
+<lb ed="#Ba"/>hocivum, et cum hoc quod expediens
+<lb ed="#Ba"/>ost ad consequendum id quod intenditur.
+<lb ed="#Ba"/>Kix his enim duobus conficitur ratio 
+uti<lb ed="#Ba" break="no"/>lis, scilicet quod confert quod adjuvat
+<lb ed="#Ba"/>ulentem : et quia promovet et expedit,
+<lb ed="#Ba"/>hoc est, pedes in prompto ponit ad con
+<lb ed="#Ba"/>sequendum intentum. In malis autem
+<lb ed="#Ba"/>primam partem amittit sue 
+significatio<lb ed="#Ba" break="no"/>nis ; quia licet expediat ad intentum, 
+ta<lb ed="#Ba" break="no"/>men nihil confert utenti, sed nocet. Unde
+<lb ed="#Ba"/>propter unam partem significationis sue
+<lb ed="#Ba"/>dicitur consilium <name xml:id="Almn78-aa7264-Nd1e881">Achitophel</name> utile. 
+Quiata<lb ed="#Ba" break="no"/>men simpliciter rationem utilis perfectam
+<lb ed="#Ba"/>non habet, ideo de operibus malorum 
+dici<lb ed="#Ba" break="no"/>tur, Sapient.1v, 3: Fructus eorum 
+inuti<lb ed="#Ba" break="no"/>les et acerbi ad manducandum.Et talium
+<lb ed="#Ba"/>usus abusus est: eo quod non perfectam
+<lb ed="#Ba"/>rationem habet usus. Unde de talibus 
+di<lb ed="#Ba" break="no"/>cunt impii, Sapient. v,.8:. Quid nobis
+<lb ed="#Ba"/>profuit superbia ? aut divitiarum 
+ja<lb ed="#Ba" break="no"/>clantia quid contulit nobis ? Ac si dicant:
+<lb ed="#Ba"/>Kitsi superbia et divitia tunc deservierunt
+<lb ed="#Ba"/>ad consequendum id quod male 
+intendi<lb ed="#Ba" break="no"/>mus : tamen nil boni conferentis 
+contu<lb ed="#Ba" break="no"/>lerunt nobis, sed plurimum nocuerunt.
+<lb ed="#Ba"/>Et hac est causa quare dicitur abusus
+<lb ed="#Ba"/>per causam sue aperte significationis. -
+</p>
+               <p xml:id="Almn78-aa7264-d1e917">
+                  <lb ed="#Ba"/>Cum autem ratio ejus quod est frui,
+<lb ed="#Ba"/>imponatur in termino : inherere autem
+<lb ed="#Ba"/>alicui propter se, inhesionem in termino
+</p>
+               <p xml:id="Almn78-aa7264-d1e926">
+                  <lb ed="#Ba"/>dicit : ante terminum autem nihil est :
+<lb ed="#Ba"/>ideo ratio ejus quod est frui-sic dividi
+<lb ed="#Ba"/>non potest, ut per amissionem partis 
+ra<lb ed="#Ba" break="no"/>tionis dicatur abfrui vel abfructus, sicut
+<lb ed="#Ba"/>dicitur abuti vel abusus. Omnis enim qui
+<lb ed="#Ba"/>fruitur, simpliciter et. perfecta ratione
+<lb ed="#Ba"/>fruitionis fruitur. Et ideo dividitur fruitio
+<lb ed="#Ba"/>in bonam et malam, et non frui perfect
+<lb ed="#Ba"/>rationis et imperfecta.
+</p>
+               <p xml:id="Almn78-aa7264-d1e948">
+                  <lb ed="#Ba"/>Si tamen cum dicitur, quod refertur
+<lb ed="#Ba"/>utile ab obtinendum id quo fruendum
+<lb ed="#Ba"/>est, accipiatur guo fruendum est 
+simpli<lb ed="#Ba" break="no"/>citer ut ullimo et optimo bono : tunc
+<lb ed="#Ba"/>utile quod refertur ad illud, non erit nisi
+<lb ed="#Ba"/>duplex. Non enim refertur ad illud nisi
+<lb ed="#Ba"/>quod confert ad signandum illud ut 
+co<lb ed="#Ba" break="no"/>gnoscatur et sic obtineatur per 
+intelle<lb ed="#Ba" break="no"/>ctum. Vel quod refertur ad illud ut 
+ha<lb ed="#Ba" break="no"/>beatur, hoc est, quod causa est habendi
+<lb ed="#Ba"/>ipsum : et hoc modo referuntur virtutes
+<lb ed="#Ba"/>et gratia et opera, per que sicut causas
+<lb ed="#Ba"/>meritorias obtineatur id quo fruendum
+<lb ed="#Ba"/>est. Et sic strictissime accipiendo, non
+<lb ed="#Ba"/>ulimur nisi signis et causis fruitionis ejus
+<lb ed="#Ba"/>quo fruendum est. Signa autem sunt 
+du<lb ed="#Ba" break="no"/>pliciter, scilicet res hujus mundi in 
+qui<lb ed="#Ba" break="no"/>bus, sicut dicitur in libro XI de Civitate
+<lb ed="#Ba"/>Dei, <quote xml:id="Almn78-aa7264-Qd1e991"> Deus sue signilicationis sparsit 
+in<lb ed="#Ba" break="no"/>dicia ‘. </quote> Et signa que dicuntur 
+sacra<lb ed="#Ba" break="no"/>menta veteris et nove legis : que signa
+<lb ed="#Ba"/>sunt gratie causantis in nobis fruitionem
+<lb ed="#Ba"/>ejus quo fruendum est. Et hoc modo wii
+<lb ed="#Ba"/>non est nisi referre ad id quod 
+obtinen<lb ed="#Ba" break="no"/>dum est signa vel causas salutis. Et hoc
+<lb ed="#Ba"/>modo utile et fruibile dividunt et 
+deter<lb ed="#Ba" break="no"/>minant id circa quod est sacra 
+Scrip<lb ed="#Ba" break="no"/>tura : circa talia enim est, et non circa
+<lb ed="#Ba"/>alia.
+</p>
+               <p xml:id="Almn78-aa7264-d1e1017">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad omnia: 
+que<lb ed="#Ba" break="no"/>sita de hoc membro.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

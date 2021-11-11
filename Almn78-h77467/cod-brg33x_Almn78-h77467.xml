@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 116</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 116</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="347"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h77467"><!-- p2t18q116 -->
+            <head xml:id="Almn78-h77467-Hd1e106">Quaestio 116</head>
+            <head xml:id="Almn78-h77467-Hd1e109" type="question-title">
+    De differentiis capitalium peccatorum ad invicem in speciali,
+    et primo de superbia.
+  </head>
+            <p xml:id="Almn78-h77467-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXVI.
+<lb ed="#Bc"/>De differentiis capitalium peccatorum ad invicem in speciali,
+<lb ed="#Bc"/>et primo de superbia.
+</p>
+            <p xml:id="Almn78-h77467-d1e123">
+               <lb ed="#Bc"/>Post haec queritur de differentiis 
+capi<lb ed="#Bc" break="no"/>talium ad invicem, et in speciali.
+<lb ed="#Bc"/>Et primo de superbia: et postea de
+<lb ed="#Bc"/>aliis per ordinem.
+</p>
+            <p xml:id="Almn78-h77467-d1e134">
+               <lb ed="#Bc"/>De superbia duo queremus.
+<lb ed="#Bc"/>Primo scilicet de superbia in se.
+<lb ed="#Bc"/>Secundo, De filialibus ejus quas ponit
+<lb ed="#Bc"/>Gregorius super illud Job, xxxrx, 25;
+<pb ed="#Bc" n="348"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Exhortationem ducum, et ululatum
+<lb ed="#Bc"/>exercitus.
+</p>
+            <p xml:id="Almn78-h77467-d1e155">
+               <lb ed="#Bc"/>De superbia in se queremus quatuor
+<lb ed="#Bc"/>sub uno articulo ; quia unum declaratur
+<lb ed="#Bc"/>ex alio, scilicet quid sit, an peccatum sit,
+<lb ed="#Bc"/>quid sit motivum in superbia, et an sit
+<lb ed="#Bc"/>peccatum separatum ab aliis, vel 
+diffu<lb ed="#Bc" break="no"/>sum in omnibus aliis ?
+</p>
+            <div xml:id="Almn78-h77467-Dd1e171">
+               <head xml:id="Almn78-h77467-Hd1e173">Membrum 1</head>
+               <head xml:id="Almn78-h77467-Hd1e176" type="question-title">
+        Quid sit superbia ? An sit peccatum ?
+        quid sit motivum in superbia ? et, An
+        sit peccatum separatum ab aliis, vel
+        diffusum in omnibus aliis ?
+      </head>
+               <p xml:id="Almn78-h77467-d1e179">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit superbia ? An sit peccatum ?
+<lb ed="#Bc"/>quid sit motivum in superbia ? et, An
+<lb ed="#Bc"/>sit peccatum separatum ab aliis, vel
+<lb ed="#Bc"/>diffusum in omnibus aliis ?
+</p>
+               <p xml:id="Almn78-h77467-d1e192">
+                  <lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>Augustinus in libro XIV de Civitate
+<lb ed="#Bc"/>Dei: <quote xml:id="Almn78-h77467-Qd1e200"> Superbia est perverse 
+celsitudi<lb ed="#Bc" break="no"/>nis appetitus. </quote>
+               </p>
+               <p xml:id="Almn78-h77467-d1e206">
+                  <lb ed="#Bc"/>Adhuc, Augustinus in libro de 
+Inno<lb ed="#Bc" break="no"/>centia: <quote xml:id="Almn78-h77467-Qd1e212"> Superbia est amor proprie
+<lb ed="#Bc"/>excellentia. </quote>
+               </p>
+               <p xml:id="Almn78-h77467-d1e219">
+                  <lb ed="#Bc"/>Et iste definitiones videntur quasi in
+<lb ed="#Bc"/>omnibus convenire : quia qui delectatur
+<lb ed="#Bc"/>in propria celsitudine, amat propriam
+<lb ed="#Bc"/>excellentiam.
+</p>
+               <p xml:id="Almn78-h77467-d1e230">
+                  <lb ed="#Bc"/>Et ex his arguitur ad secundo 
+quesi<lb ed="#Bc" break="no"/>tum, scilicet an sit peccatum ?
+</p>
+               <p xml:id="Almn78-h77467-d1e237">
+                  <lb ed="#Bc"/>Videtur enim non esse peccatum :
+<lb ed="#Bc"/>quia
+<lb ed="#Bc"/>1. Delectari in propria excellentia
+<lb ed="#Bc"/>nullum peccatum est.
+</p>
+               <p xml:id="Almn78-h77467-d1e248">
+                  <lb ed="#Bc"/>2. Adhuc, Deus delectatur in propria
+<lb ed="#Bc"/>excellentia : et homo non peccat in his
+<lb ed="#Bc"/>in quibus imitatur Deum : ergo homo
+<lb ed="#Bc"/>non peccat appetendo propriam 
+volunta<lb ed="#Bc" break="no"/>tem et excellentiam.
+</p>
+               <p xml:id="Almn78-h77467-d1e261">
+                  <lb ed="#Bc"/>3. Adhuc, Excellere, secundum se non
+<lb ed="#Bc"/>est peccatum : appetere ergo propriam
+<lb ed="#Bc"/>excellentiam nullum peccatum est.
+</p>
+               <p xml:id="Almn78-h77467-d1e270">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Anselmus super illud Apostoli, I ad
+<lb ed="#Bc"/>Corinth. 1v, 7: Quid thabes quod non
+<lb ed="#Bc"/>accepisti ? Si autem accepisti, guid
+<lb ed="#Bc"/>gloriaris quasi non acceperis ? <quote xml:id="Almn78-h77467-Qd1e285"> Quia
+<lb ed="#Bc"/>nihil habet propriam excellentiam sive
+<lb ed="#Bc"/>potestatem sive voluntatem nisi Deus. </quote>
+                  <lb ed="#Bc"/>Appetere ergo excellentiam ut propriam,
+<lb ed="#Bc"/>est injuriari Deo. Injuriari autem Deo
+<lb ed="#Bc"/>peccatum est et maximum. Ergo superbia
+<lb ed="#Bc"/>maximum peccatum est.
+</p>
+               <p xml:id="Almn78-h77467-d1e302">
+                  <lb ed="#Bc"/>Solutio. Ad primo quesitum dicen- Solutio
+<lb ed="#Bc"/>dum, quod definitiones Augustini satis
+<lb ed="#Bc"/>sunt convenientes. Sed cum dicitur amor
+<lb ed="#Bc"/>proprie excellentie, proprium sonat in
+<lb ed="#Bc"/>vitium ; quia nullus habet proprium in
+<lb ed="#Bc"/>bonis nisi solus Deus : sed in malis 
+ha<lb ed="#Bc" break="no"/>bemus proprium. Unde in ipsa sua 
+de<lb ed="#Bc" break="no"/>finitione concludit, quia peccatum est :
+<lb ed="#Bc"/>excellentia enim peccatum non est, sed
+<lb ed="#Bc"/>usurpata in injuriam Dei, sicut bene
+<lb ed="#Bc"/>probatum est ex verbis “Apostoli et 
+An<lb ed="#Bc" break="no"/>selmi.
+</p>
+               <p xml:id="Almn78-h77467-d1e331">
+                  <lb ed="#Bc"/>Ad idquod objicitur, quod non sit pec- Ad ant
+<lb ed="#Bc"/>catum, dicendum quod delectari in 
+ex<lb ed="#Bc" break="no"/>cellentia sub Deo, nullum peccatum est :
+<lb ed="#Bc"/>sed delectari in excellentia propria, 
+pec<lb ed="#Bc" break="no"/>catum est simile primo peccato diaboli,
+<lb ed="#Bc"/>qui in hoc peccavit, quod excellentiam
+<lb ed="#Bc"/>propriae potestatis ambivit ad 
+similitudi<lb ed="#Bc" break="no"/>nem Dei. Hoc enim intendit secundum
+<lb ed="#Bc"/>expositionem Augustini, quod dicitur,
+<lb ed="#Bc"/>isa. xiv, 13 et 14 : In celum 
+conscen<lb ed="#Bc" break="no"/>dam, super astra Dei exaltabo solium
+<lb ed="#Bc"/>meum, sedebo in monte testamenti... Si~
+<lb ed="#Bc"/>milis ero Altissimo. Existens enim in
+<lb ed="#Bc"/>celo empyreo, ut dicit Hieronymus,
+<lb ed="#Bc"/>cupivit esse in ceelo Trinitatis ad 
+equali<lb ed="#Bc" break="no"/>tatem omnimodam Dei: ut scilicet nihil
+<lb ed="#Bc"/>a Deo se habere cognosceret, sed a 
+se<lb ed="#Bc" break="no"/>ipso.
+</p>
+               <p xml:id="Almn78-h77467-d1e373">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Deus 
+pot<lb ed="#Bc" break="no"/>est delectari in propria excellentia, quia
+<lb ed="#Bc"/>propriam habet : sed homo non, quia
+<pb ed="#Bc" n="349"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>nullam habet propriam : et si 
+delecta<lb ed="#Bc" break="no"/>tur, usurpatum est ad injuriam Dei.
+</p>
+               <p xml:id="Almn78-h77467-d1e391">
+                  <lb ed="#Bc"/>Ad uLtimum dicendum, quod excellere
+<lb ed="#Bc"/>secundum se non est peccatum : sed
+<lb ed="#Bc"/>propriam excellentiam appetere est 
+pec<lb ed="#Bc" break="no"/>catum, ut dictum est : quiain injuriam
+<lb ed="#Bc"/>Dei usurpatur.
+</p>
+               <p xml:id="Almn78-h77467-d1e404">
+                  <lb ed="#Bc"/>Er ira tertio queritur, Quid sit 
+moti<lb ed="#Bc" break="no"/>vum in superbia ?
+</p>
+               <p xml:id="Almn78-h77467-d1e411">
+                  <lb ed="#Bc"/>Et videtur, quod excellentia in 
+digni<lb ed="#Bc" break="no"/>tate.
+</p>
+               <p xml:id="Almn78-h77467-d1e419">
+                  <lb ed="#Bc"/>Finis enim omnis desiderii motivum
+<lb ed="#Bc"/>est desiderii, ut vult Aristoteles qui dicit
+<lb ed="#Bc"/>in VII Physicorum, quod primum 
+mo<lb ed="#Bc" break="no"/>vens immobile movet, sicut desideratum
+<lb ed="#Bc"/>movet desiderium. Constat autem, quod
+<lb ed="#Bc"/>omnis superbus in quocumque genere
+<lb ed="#Bc"/>superbie intendit excellere alios et 
+di<lb ed="#Bc" break="no"/>gnior esse aliis : ergo videtur, quod
+<lb ed="#Bc"/>excellentia in dignitate sit motivum
+<lb ed="#Bc"/>in superbia : et sic est primum motivum.
+</p>
+               <p xml:id="Almn78-h77467-d1e443">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Non omnis superbus querit 
+ex<lb ed="#Bc" break="no"/>cellere in dignitate, sed forte in laude,
+<lb ed="#Bc"/>vel scientia, vel in aliquo alio tali : 
+vi<lb ed="#Bc" break="no"/>detur ergo, quod excellere in dignitate
+<lb ed="#Bc"/>non sit generaliter motivum in superbia.
+</p>
+               <p xml:id="Almn78-h77467-d1e459">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in libro de 
+Con<lb ed="#Bc" break="no"/>flictu vitiorum et virtutum, superbiam
+<lb ed="#Bc"/>inducit loquentem contra humilitatem,
+<lb ed="#Bc"/>et sic dicentem : <quote xml:id="Almn78-h77467-Qd1e469"> Quidquid milites in
+<lb ed="#Bc"/>pugnis militie, clerici disputantes in
+<lb ed="#Bc"/>scholis, monachi jejunantes et orantes in
+<lb ed="#Bc"/>claustris per observantiam religionis
+<lb ed="#Bc"/>agunt, meum est. </quote> Ergo videtur, quod
+<lb ed="#Bc"/>gloria de observantia cujuscumque 
+lau<lb ed="#Bc" break="no"/>dabilis exercitii sit motivum superbie.
+</p>
+               <p xml:id="Almn78-h77467-d1e486">
+                  <lb ed="#Bc"/>Ulterius queritur, Utrum peccatum
+<lb ed="#Bc"/>sit separatum ab aliis, vel diffusum in
+<lb ed="#Bc"/>omnibus aliis ?
+</p>
+               <p xml:id="Almn78-h77467-d1e495">
+                  <lb ed="#Bc"/>Et videtur, quod sit diffusum in 
+omni<lb ed="#Bc" break="no"/>bus aliis.
+</p>
+               <p xml:id="Almn78-h77467-d1e502">
+                  <lb ed="#Bc"/>1. Tob. rv, 14: Superbiam numquam
+<lb ed="#Bc"/>in tuo sensu, aut in tuo verbo, dominari
+<lb ed="#Bc"/>permittas : in ipsa enim initium sumpsit
+<lb ed="#Bc"/>omnis perditio. Sed omnis perditio non
+<lb ed="#Bc"/>estnisi in quolibet peccato. Ergo super
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>bia initium omnis peccati est : et sic est
+<lb ed="#Bc"/>diffusum peccatum in omnibus aliis.
+</p>
+               <p xml:id="Almn78-h77467-d1e523">
+                  <lb ed="#Bc"/>2. Adhuc, Eccli. x, 45 : Initiem omnis
+<lb ed="#Bc"/>peccati est superbia. Ergo videtur, quod
+<lb ed="#Bc"/>sit initium omnis peccati et non 
+separa<lb ed="#Bc" break="no"/>tum ab aliis.
+</p>
+               <p xml:id="Almn78-h77467-d1e534">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Superbia unum est de capitalibus 
+pec<lb ed="#Bc" break="no"/>catis per se : sed alia capitalia divisa sunt
+<lb ed="#Bc"/>ab aliis et singula : ergo et superbia.
+</p>
+               <p xml:id="Almn78-h77467-d1e545">
+                  <lb ed="#Bc"/>Solutio. Ad tertio quesitum 
+dicen<lb ed="#Bc" break="no"/>dum, quod superbia duobus modis 
+dici<lb ed="#Bc" break="no"/>tur, specialiter secundum quod est 
+spe<lb ed="#Bc" break="no"/>ciale peccatum. Specialiter superbia est
+<lb ed="#Bc"/>appetitus excellendi in dignitate. Et sic
+<lb ed="#Bc"/>motivum ejus est excellentia in propria
+<lb ed="#Bc"/>dignitate : quia sic speciale peccatum est
+<lb ed="#Bc"/>et xqualitatem Dei comcupiscit sicut
+<lb ed="#Bc"/>primus Angelus, qui in hoc-Deo equari
+<lb ed="#Bc"/>voluit, quod esset proprie dignitatis,
+<lb ed="#Bc"/>et suam dignitatem a nullo alio haberet.
+</p>
+               <p xml:id="Almn78-h77467-d1e571">
+                  <lb ed="#Bc"/>Alio modo dicitur superbia generaliter,
+<lb ed="#Bc"/>in hoc scilicet, querere excellentiam ex
+<lb ed="#Bc"/>hoc, quod non vult subdi Deo et 
+pra<lb ed="#Bc" break="no"/>ceptis, sed sequi propriam voluntatem,
+<lb ed="#Bc"/>ut dicit Anselmus: et sic motivum ejus
+<lb ed="#Bc"/>est delectatio propriae potestatis et 
+vo<lb ed="#Bc" break="no"/>luntatis, quam neque sub Deo, neque
+<lb ed="#Bc"/>sub preceptis ejus vult habere, sed ut
+<lb ed="#Bc"/>propria frui.
+</p>
+               <p xml:id="Almn78-h77467-d1e593">
+                  <lb ed="#Bc"/>Ad primum ergo quod objicitur per
+<lb ed="#Bc"/>Aristotelem, dicendum, quod hoc 
+proce<lb ed="#Bc" break="no"/>dit : quia finis desiderii semper movet
+<lb ed="#Bc"/>desiderium, et est sicut movens 
+immo<lb ed="#Bc" break="no"/>bile : sed diversum est in superbia 
+spe<lb ed="#Bc" break="no"/>cialiter dicta et generaliter dicta.
+</p>
+               <p xml:id="Almn78-h77467-d1e609">
+                  <lb ed="#Bc"/>Ad 1tLa duo que in contrarium 
+obji<lb ed="#Bc" break="no"/>ciuntur, dicendum, quod jam quasi 
+solu<lb ed="#Bc" break="no"/>tum est : quia superbia generaliter dicta
+<lb ed="#Bc"/>habet in quolibet laudabili opere 
+appeti<lb ed="#Bc" break="no"/>tum excellentie : in illo enim querit
+<lb ed="#Bc"/>esse proprie potestatis et propria 
+volun<lb ed="#Bc" break="no"/>tatis, quod iniquissimum est, ut dicit 
+An<lb ed="#Bc" break="no"/>selmus. Undequi vult esse proprie 
+po<lb ed="#Bc" break="no"/>testatis et proprie voluntatis, usurpat
+<lb ed="#Bc"/>quod divinum est.
+</p>
+               <p xml:id="Almn78-h77467-d1e634">
+                  <lb ed="#Bc"/>Ad id quod ulterius gueritur, dicen
+<pb ed="#Bc" n="350"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>dum, quod superbia specialiter dicta
+<lb ed="#Bc"/>speciale peccatum est, et unum de 
+sep<lb ed="#Bc" break="no"/>tem capitalibus. Generaliter vero dicta
+<lb ed="#Bc"/>initium omnis peccati, et diffusum in
+<lb ed="#Bc"/>omnibus.
+</p>
+               <p xml:id="Almn78-h77467-d1e654">
+                  <lb ed="#Bc"/>Et sic intelliguntur auctoritates Tobie,
+<lb ed="#Bc"/>iv, 14, et Ecclesiastici, x, 15. Per 
+aver<lb ed="#Bc" break="no"/>sionem enim a Deo et a praceptis ejus
+<lb ed="#Bc"/>initiatur omne peccatum,
+</p>
+               <p xml:id="Almn78-h77467-d1e665">
+                  <lb ed="#Bc"/>Ad idquod contra objicitur, dicendum
+<lb ed="#Bc"/>quod jam patet solutio: quia secundum
+<lb ed="#Bc"/>quod peccatum est speciale, divisum est
+<lb ed="#Bc"/>ab omnibus alliis.
+</p>
+            </div>
+            <div xml:id="Almn78-h77467-Dd1e677">
+               <head xml:id="Almn78-h77467-Hd1e679">Membrum 2</head>
+               <head xml:id="Almn78-h77467-Hd1e682" type="question-title">
+        De filiabus superbiae et speciebus ejus
+      </head>
+               <p xml:id="Almn78-h77467-d1e685">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De filiabus superbiae et speciebus ejus.
+</p>
+               <p xml:id="Almn78-h77467-d1e692">
+                  <lb ed="#Bc"/>Secundo, Principaliter queritur de
+<lb ed="#Bc"/>filiabus superbie, que, sicut dicit 
+Gre<lb ed="#Bc" break="no"/>gorius super Job, xxx, 5, in Glossa, sunt
+<lb ed="#Bc"/>quinque, scilicet inanis gloria, 
+arrogan<lb ed="#Bc" break="no"/>tia, jactantia, etc.
+</p>
+               <p xml:id="Almn78-h77467-d1e705">
+                  <lb ed="#Bc"/>Ibi etiam dicit, quod quatuor sunt
+<lb ed="#Bc"/>species superbie sive tumoris., Prima
+<lb ed="#Bc"/>est, cum homoa seipso estimat se habere
+<lb ed="#Bc"/>quod habet. Secunda est, cum estimat
+<lb ed="#Bc"/>sea suis meritis accepisse. Tertia est,
+<lb ed="#Bc"/>cum aestimat se habere plus omnibus, et
+<lb ed="#Bc"/>singulariter se extollit. Quarta, cum
+<lb ed="#Bc"/>jactat se habere quod non habet. Que
+<lb ed="#Bc"/>antiqui comprehenderunt in hoc versu :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h77467-Qd1e728">Ex se, pro meritis, falso, plus omnibus inflant</quote>.
+</p>
+               <p xml:id="Almn78-h77467-d1e733">
+                  <lb ed="#Bc"/>Unde etiam quidam dixerunt, quod 
+es<lb ed="#Bc" break="no"/>sent species tumoris, vel filia superbie :
+<lb ed="#Bc"/>species enim in intellectu suo continet
+<lb ed="#Bc"/>genus : et dicunt, quod superbia non est
+<lb ed="#Bc"/>in intellectu cujuslibet istorum. Dicunt
+<lb ed="#Bc"/>enim, quod ex sese putare habere bonum
+<lb ed="#Bc"/>quod quis habet, non est superbia, sed
+<lb ed="#Bc"/>veritas, dummodo ex se habeat quod
+<lb ed="#Bc"/>habet : {amen est tumor quidam. Inter
+<lb ed="#Bc"/>tumorem autem et superbiam sic distin
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>guunt per verba Gregorii dicentis, quod
+<lb ed="#Bc"/>superbia in aliquo semper querit 
+equa<lb ed="#Bc" break="no"/>litatem Dei: tumor autem mentis, ut
+<lb ed="#Bc"/>ibidem dicit, est obstaculum veritatis,
+</p>
+               <p xml:id="Almn78-h77467-d1e768">
+                  <lb ed="#Bc"/>Queritur ergo de inani gloria.
+<lb ed="#Bc"/>Et queruntur quatuor scilicet an sit
+<lb ed="#Bc"/>peccatum ?
+<lb ed="#Bc"/>An sit mortale semper, vel aliquando
+<lb ed="#Bc"/>veniale ?
+<lb ed="#Bc"/>Et, Quod sit motivum ejus 
+pro<lb ed="#Bc" break="no"/>prium ?
+<lb ed="#Bc"/>Et, In quo differt a superbia ?
+</p>
+               <div xml:id="Almn78-h77467-Dd1e788">
+                  <head xml:id="Almn78-h77467-Hd1e790">Articulus 1</head>
+                  <head xml:id="Almn78-h77467-Hd1e793" type="question-title">
+          Utrum inanis glorie sit peccatum ?
+        </head>
+                  <p xml:id="Almn78-h77467-d1e796">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Utrum inanis glorie sit peccatum ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e805">
+                     <lb ed="#Bc"/>Ad primum objicitur sic :
+<lb ed="#Bc"/>Videtur enim non esse peccatum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e812">
+                     <lb ed="#Bc"/>1. Appetitus enim glorie, est 
+appeti<lb ed="#Bc" break="no"/>tus bone fame. Dicit enim Augustinus
+<lb ed="#Bc"/>super illud Apostoli, I ad Timoth. m, 7:
+<lb ed="#Bc"/>Oportet illum et testimonium habere 
+bo<lb ed="#Bc" break="no"/>num ab iis qui foris sunt, quod <quote xml:id="Almn78-h77467-Qd1e825"> bona
+<lb ed="#Bc"/>vita propter nos nobis est necessaria :
+<lb ed="#Bc"/>fama autem propter proximum. </quote> 
+Appe<lb ed="#Bc" break="no"/>tilus autem fame, est appetitus glorie :
+<lb ed="#Bc"/>cum dicat Tullius in fine prime 
+Rhetori<lb ed="#Bc" break="no"/>ce, quod gloria nihil aliud est quam late
+<lb ed="#Bc"/>patens preconium, vel clara cum laude
+<lb ed="#Bc"/>notitia, vel ore multorum predicata 
+lau<lb ed="#Bc" break="no"/>datio. Et quocumque modo horum 
+mo<lb ed="#Bc" break="no"/>dorum appetatur gloria, necessaria est
+<lb ed="#Bc"/>propter proximum, et non peccatum,
+<lb ed="#Bc"/>Ergo appetere gloriam non est 
+pecca<lb ed="#Bc" break="no"/>tum.
+  
+<lb ed="#Bc"/>2. Adhuc, Ad Roman. xu, 17: 
+Pro<lb ed="#Bc" break="no"/>videntes bona non tantum coram Deo,
+<lb ed="#Bc"/>sed etiam coram omnibus hominibus.
+<lb ed="#Bc"/>Thi Glossa : <quote xml:id="Almn78-h77467-Qd1e862"> Qui conscientiae confidens
+<lb ed="#Bc"/>famam negligit, crudelis est. </quote> Appetere
+<lb ed="#Bc"/>ergo famam, que nihil aliud est quam
+<pb ed="#Bc" n="351"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>predicata laudatio ore multorum, non
+<lb ed="#Bc"/>est malum : ergo appetere gloriam non
+<lb ed="#Bc"/>est peccatum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e882">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Matth. v, 16, super illud : Sic luceat
+<lb ed="#Bc"/>lux vestra, Glossa : <quote xml:id="Almn78-h77467-Qd1e890"> Finem boni operis
+<lb ed="#Bc"/>non in laudibus hominum constituatis. </quote>
+                     <lb ed="#Bc"/>Ergo non debet appeti laus humana : et
+<lb ed="#Bc"/>qui appetit, peccat.
+</p>
+                  <p xml:id="Almn78-h77467-d1e901">
+                     <lb ed="#Bc"/>2. Adhuc, Super illud Matthei, v1, 5 :
+<lb ed="#Bc"/>Amen dico vobis, receperunt mercedem
+<lb ed="#Bc"/>suam, Glossa : <quote xml:id="Almn78-h77467-Qd1e909"> Non prohibet videri ut
+<lb ed="#Bc"/>Deus laudetur, sed videri ut ipsi 
+lau<lb ed="#Bc" break="no"/>dentur : laus enim hominum appeti non
+<lb ed="#Bc"/>debet. </quote> Ergo peccatum est velle laudari
+<lb ed="#Bc"/>ab hominibus.
+</p>
+                  <p xml:id="Almn78-h77467-d1e921">
+                     <lb ed="#Bc"/>3. Adhuc, Beda super Esdram dicit
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h77467-Qd1e927"> Qui jejunat, orat, eleemosynam
+<lb ed="#Bc"/>dat illa intentione ut videatur et laudetur
+<lb ed="#Bc"/>ab hominibus, proles boni operi quasi de
+<lb ed="#Bc"/>immunda genitrice nota est sordide 
+in<lb ed="#Bc" break="no"/>tentionis. </quote> Ergo peccatum est.
+</p>
+                  <p xml:id="Almn78-h77467-d1e939">
+                     <lb ed="#Bc"/>Solutio. Hoc et hujusmodi 
+quocum<lb ed="#Bc" break="no"/>que modo adducantur, uno modo 
+sol<lb ed="#Bc" break="no"/>vendum est, scilicet quod inanis gloria
+<lb ed="#Bc"/>peccatum est: gloria autem vera et 
+glo<lb ed="#Bc" break="no"/>riam veram appetere non est peccatum.
+<lb ed="#Bc"/>Inanis enim est homo, eo quod vanitat
+<lb ed="#Bc"/>est subjectus, ut dicitur, Eccle. 1, 2. Et
+<lb ed="#Bc"/>Sapient. xu, 1: Vani sunt omnes 
+homi<lb ed="#Bc" break="no"/>nes in quibus non subest scientia Dei.
+<lb ed="#Bc"/>Unde appetere gloriam propter se, ut
+<lb ed="#Bc"/>quis finem in ea ponat, est peccatum:
+<lb ed="#Bc"/>semper autem gloriam appetere ut Deus
+<lb ed="#Bc"/>laudetur in nobis de suis donis ac 
+operi<lb ed="#Bc" break="no"/>bus, vera gloria est: et crudelis est, qui
+<lb ed="#Bc"/>illam negligit: quia nihil habet vanitatis,
+<lb ed="#Bc"/>sed multum veritatis.
+</p>
+                  <p xml:id="Almn78-h77467-d1e976">
+                     <lb ed="#Bc"/>Et per hance distinctionem facile est
+<lb ed="#Bc"/>respondere ad objecta.
+</p>
+                  <p xml:id="Almn78-h77467-d1e983">
+                     <lb ed="#Bc"/>Rationes autem pro prima parte 
+indu<lb ed="#Bc" break="no"/>ctea omnes procedunt de vera gloria, ut
+<lb ed="#Bc"/>scilicet Deus laudetur in nobis, que
+<lb ed="#Bc"/>nullo modo negligenda est, sed 
+appeten<lb ed="#Bc" break="no"/>da semper. Et ideo dicitur, Matth. v, 16:
+<lb ed="#Bc"/>Sic luceat lux vestra coram hominibus,
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Et sequitur : Et glorificent Patrem 
+ve<lb ed="#Bc" break="no"/>strum qui in celis est Laudem enim 
+bo<lb ed="#Bc" break="no"/>ni operis, ut dicit Augustinus, non 
+debe<lb ed="#Bc" break="no"/>mus in nobis constituere, sed in Deo. Et
+<lb ed="#Bc"/>talis laus vera gloriaest, et propter 
+pro<lb ed="#Bc" break="no"/>ximum necessaria. De nobis autem 
+debe<lb ed="#Bc" break="no"/>mus dicere illud quod dicitur, Luc. xvn,
+<lb ed="#Bc"/>10: Cum feceritis omnia que precepta
+<lb ed="#Bc"/>sunt vobis, dicite: Servi inutiles sumus :
+<lb ed="#Bc"/>quod debuimus facere, fecimus.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1023">
+                     <lb ed="#Bc"/>Rationes autem in contrarium 
+addu<lb ed="#Bc" break="no"/>cle procedunt de gloria, in qua homo
+<lb ed="#Bc"/>seipsum ponit finem, et non Deum: et
+<lb ed="#Bc"/>illa numquam est appetenda : quia homo
+<lb ed="#Bc"/>in se nihil gloriosum habet, sed solus
+<lb ed="#Bc"/>Deus. Et ideo dicitur, Isa. xtvint, 11:
+<lb ed="#Bc"/>Gloriam meam alteri ‘non dabo. Et
+<lb ed="#Bc"/>Apostolus, Il ad Corinth. 1, 12: Gloria
+<lb ed="#Bc"/>nostra hec est, testimonium conscientie
+<lb ed="#Bc"/>nostre, quod in simplicitate et 
+sincerita<lb ed="#Bc" break="no"/>te Dei, et non in sapientia carnali, sed
+<lb ed="#Bc"/>in gratia Det, conversati sumus in hoc
+<lb ed="#Bc"/>mundo. 1 ad Timoth. 1, 17: Regi 
+seculo<lb ed="#Bc" break="no"/>rum, immortali, invisibili soli Deo
+<lb ed="#Bc"/>honor et gloria. Et Angelus dividens 
+no<lb ed="#Bc" break="no"/>bis quod nostrum est, et Deo quod suum
+<lb ed="#Bc"/>est, ut dicit Barnardus, dixit: Gloria
+<lb ed="#Bc"/>in altissimis Deo, et in terra pax 
+homi<lb ed="#Bc" break="no"/>nibus bone voluntatis *.
+</p>
+               </div>
+               <div xml:id="Almn78-h77467-Dd1e1068">
+                  <head xml:id="Almn78-h77467-Hd1e1070">Articulus 2</head>
+                  <head xml:id="Almn78-h77467-Hd1e1073" type="question-title">
+          Utrum inanis gloria sit semper peccatum
+          mortale, vel aliquando veniale ?
+        </head>
+                  <p xml:id="Almn78-h77467-d1e1076">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Utrum inanis gloria sit semper peccatum
+<lb ed="#Bc"/>mortale, vel aliquando veniale ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1087">
+                     <lb ed="#Bc"/>Secundo queritur. Utrum inanis 
+glo<lb ed="#Bc" break="no"/>ria sit semper mortale peccatum, vel 
+ali<lb ed="#Bc" break="no"/>quando veniale ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1096">
+                     <lb ed="#Bc"/>Et videtur, quod semper sit mortale :
+<lb ed="#Bc"/>usurpare enim quod Dei est, et sibi attri
+<pb ed="#Bc" n="352"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>buere, mortale peccatum est: et hoc 
+fa<lb ed="#Bc" break="no"/>cit inanis gloria: ergo semper mortale
+<lb ed="#Bc"/>peccatum est.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1115">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Aliquando ex subreptione vel 
+ignoran<lb ed="#Bc" break="no"/>tia tangit aliquem appetitus inanis 
+glo<lb ed="#Bc" break="no"/>rie: et ille est primus motus. Primus
+<lb ed="#Bc"/>autem motus peccatum veniale est. Ergo
+<lb ed="#Bc"/>inanis gloria aliquando peccatum veniale
+<lb ed="#Bc"/>est, et non semper mortale.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1133">
+                     <lb ed="#Bc"/>Et hoc concedendum est.
+  
+<lb ed="#Bc"/>Solutio. Dicendum, quod inanis gloria
+<lb ed="#Bc"/>aliquando veniale, et aliquando mortale
+<lb ed="#Bc"/>est. Et tunc est veniale, quando quidem
+<lb ed="#Bc"/>illam quis appetit, sed eam finem non
+<lb ed="#Bc"/>ponit: quia tunc gloriam Dei non 
+exclu<lb ed="#Bc" break="no"/>dit: licet tunc hoc in quo gloriari 
+appe<lb ed="#Bc" break="no"/>tit, secundum actum ad Dei gloriam non
+<lb ed="#Bc"/>referat: et ideo etiam veniale est: quia
+<lb ed="#Bc"/>actus peccati venialis ad Dei gloriam
+<lb ed="#Bc"/>referri non potest. Si autem gloriam 
+fi<lb ed="#Bc" break="no"/>nem ponit: tune Dei gloriam excludit:
+<lb ed="#Bc"/>et mortale peccatum est: tunc enim 
+spre<lb ed="#Bc" break="no"/>to bono incommutabili, adheret bono
+<lb ed="#Bc"/>commutabili, scilicet gloria.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1168">
+                     <lb ed="#Bc"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bc"/>licet usurpare quod Dei est: quia 
+usur<lb ed="#Bc" break="no"/>pare est ut finem accipere, et ut sibi
+<lb ed="#Bc"/>debitum, non Deo: et hoc prohibetur,
+<lb ed="#Bc"/>nus: Non glorietur sapiens in 
+sa<lb ed="#Bc" break="no"/>pientia sua, et non glorictur fortis in
+<lb ed="#Bc"/>fortitudine sua, et non glorietur dives in
+<lb ed="#Bc"/>divistit suis: sed in hoc glorietur, qui
+<lb ed="#Bc"/>gloriatur, scire et nosse me: haec est
+<lb ed="#Bc"/>enim vera gloria que in solo Deo est,
+<lb ed="#Bc"/>qui solus gloriosus. I ad Timotth. 1, 17:
+<lb ed="#Bc"/>Soli Deo honor et gloria, ad quem omnia
+<lb ed="#Bc"/>referenda sunt. | ad Corinth, x, 341: Sive
+<lb ed="#Bc"/>manducalis, sive bibitis, sive aliud quid
+<lb ed="#Bc"/>facitis, omnia in gloriam Dei facite.
+<lb ed="#Bc"/>haec est etiam causa, ul dicit 
+Hierony<lb ed="#Bc" break="no"/>mus ad Damasum Papam, quod <quote xml:id="Almn78-h77467-Qd1e1207"> omnis
+<lb ed="#Bc"/>Psalmus in gloria terminatur. </quote>
+                  </p>
+               </div>
+               <div xml:id="Almn78-h77467-Dd1e1214">
+                  <head xml:id="Almn78-h77467-Hd1e1216">Articulus 3</head>
+                  <head xml:id="Almn78-h77467-Hd1e1219" type="question-title">
+          Quid sit proprium motivum inanis
+          gloriae 
+        </head>
+                  <p xml:id="Almn78-h77467-d1e1222">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Quid sit proprium motivum inanis
+<lb ed="#Bc"/>gloriae ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1233">
+                     <lb ed="#Bc"/>Tertio queritur, Quid sit proprium
+<lb ed="#Bc"/>motivum inanis gloria ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1240">
+                     <lb ed="#Bc"/>Licet jam in praecedentibus 
+determi<lb ed="#Bc" break="no"/>natum sit, quod in omnibus desideratis
+<lb ed="#Bc"/>ultimum desideratum est motivum 
+pri<lb ed="#Bc" break="no"/>mum desiderii et appetitus : objiciunt
+<lb ed="#Bc"/>tamen quidam sic, quod
+</p>
+                  <p xml:id="Almn78-h77467-d1e1254">
+                     <lb ed="#Bc"/>1. Appetere laudem vel gloriam est
+<lb ed="#Bc"/>necessariam propter proximum: et sic
+<lb ed="#Bc"/>non malum, sed bonum, sicut paulo ante
+<lb ed="#Bc"/>habitum est: bonum autem non potest
+<lb ed="#Bc"/>esse motivum ad malum. et sic 
+appeti<lb ed="#Bc" break="no"/>tus laudis non potest esse motivum 
+ina<lb ed="#Bc" break="no"/>nis glorie.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1272">
+                     <lb ed="#Bc"/>2. Fortius objicitur sic: Aristoteles in
+<lb ed="#Bc"/>libro de Laudabilibus bonis dicit, quod
+<lb ed="#Bc"/>virtus est laudabilium bonorum : 
+appe<lb ed="#Bc" break="no"/>tere autem laudari in eo quod secundum
+<lb ed="#Bc"/>se laudabile est, non videtur esse 
+ma<lb ed="#Bc" break="no"/>lum, imo bonum: quia tunc attribuitur .
+<lb ed="#Bc"/>rei quod debetur ei : et hoc bonum est et
+<lb ed="#Bc"/>justum : et sic videtur motivum non esse
+<lb ed="#Bc"/>ad malum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1294">
+                     <lb ed="#Bc"/>3. Adhuc, Aristoteles in primo 
+Ethi<lb ed="#Bc" break="no"/>corum dicit, quod honor et laus pre- .
+<lb ed="#Bc"/>mium sunt virtutis moralis et intellectua- ”
+<lb ed="#Bc"/>lis. Tunc multo magis sunt premium
+<lb ed="#Bc"/>virtutis gratuite que honorabilior et 
+lau<lb ed="#Bc" break="no"/>dabilior est. Querere autem illud quod ut
+<lb ed="#Bc"/>premium debetur alicui, nullum malum
+<lb ed="#Bc"/>est, nec motivum ad malum. Ergo velle
+<lb ed="#Bc"/>laudari de virtute, vel de scientia, non
+<lb ed="#Bc"/>videtur esse motivum ad malum: sed
+<lb ed="#Bc"/>inanis gloria malum est: ergo appetere
+<lb ed="#Bc"/>laudem vel gloriam non movet ad 
+ina<lb ed="#Bc" break="no"/>nem gloriam.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1325">
+                     <pb ed="#Bc" n="353"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>4. Adhuc, Aristoteles in II 
+Physico<lb ed="#Bc" break="no"/>rum dicit, quod vanum est, quod est ad
+<lb ed="#Bc"/>aliquem finem quem non includit. Cum
+<lb ed="#Bc"/>ergo, sicut probatum est, utraque virtus
+<lb ed="#Bc"/>et moralis et intellectualis et etiam 
+gra<lb ed="#Bc" break="no"/>tuita sint ad laudem et honorem sicut ad
+<lb ed="#Bc"/>finem, videtur quod vana sunt, nisi 
+in<lb ed="#Bc" break="no"/>cludant eum, et consequantur: si ergo
+<lb ed="#Bc"/>consequuntur laudem et gloriam, hoc
+<lb ed="#Bc"/>non est motivum ad vanam gloriam, sed
+<lb ed="#Bc"/>ad veram gloriam.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1356">
+                     <lb ed="#Bc"/>5. Adhuc hoc expresse habetur, Eccli.
+<lb ed="#Bc"/>xuv, ! et 6 ubi sic dicitur: Laudemus
+<lb ed="#Bc"/>viros gloriosos, et parentes nostros in 
+ge<lb ed="#Bc" break="no"/>neratione sua,... homines divites in 
+vir<lb ed="#Bc" break="no"/>tule, puichritudinis studium habentes,
+<lb ed="#Bc"/>Hoc ergo consequi et appetere non est
+<lb ed="#Bc"/>appetere vanam gloriam, sed veram: et
+<lb ed="#Bc"/>sic motivum non potest esse ad inanem
+<lb ed="#Bc"/>gloriam, sed ad veram,
+</p>
+                  <p xml:id="Almn78-h77467-d1e1378">
+                     <lb ed="#Bc"/>Socurio. Dicendum, quod movens ad
+<lb ed="#Bc"/>inanem gloriam est appetitus vane 
+lau<lb ed="#Bc" break="no"/>dis et vane gloria, secundum quod glo.
+<lb ed="#Bc"/>ria definitur ab Augustino, super 
+episto<lb ed="#Bc" break="no"/>lam ad Romanos in fine, quod gloria est
+<lb ed="#Bc"/>clara cum laude letitia. Sic enim accepta
+<lb ed="#Bc"/>gloria et honor et laus soli Deo 
+deben<lb ed="#Bc" break="no"/>tur. Lad Timoth. 1, 17: Soli Deo honor
+<lb ed="#Bc"/>et gloria. Unde quando referuntur ad
+<lb ed="#Bc"/>hominem, qui est creatura vanitati 
+sub<lb ed="#Bc" break="no"/>jecta, ut dicitur, ad Roman. vit, 20: 
+Va<lb ed="#Bc" break="no"/>nitati creatura subjecta est : tune 
+fru<lb ed="#Bc" break="no"/>strantur fine debito, et vana sunt, et
+<lb ed="#Bc"/>motiva ad inanem gloriam.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1412">
+                     <lb ed="#Bc"/>Ad primum ergo dicendum, quod hoc
+<lb ed="#Bc"/>procedit : quia appetere laudem ad 
+glo<lb ed="#Bc" break="no"/>riam Dei et proximi edificationem non
+<lb ed="#Bc"/>est malum, sed honum: nec est motivum
+<lb ed="#Bc"/>ad inanem gloriam, sed veram. Referre
+<lb ed="#Bc"/>autem gloriam qua Dei est, ad seipsum
+<lb ed="#Bc"/>qui vanitati subjectus est, vanum est et
+<lb ed="#Bc"/>motivum ad inanem gloriam. Et hoc 
+ac<lb ed="#Bc" break="no"/>cipitur, ad Galat. 1, 22 et seq., ubi 
+Apo<lb ed="#Bc" break="no"/>stolus loquitur de conversione sua dicens
+<lb ed="#Bc"/>sic: Fram autem ignotus facte Ecclesiis
+<lb ed="#Bc"/>Judee, que erant in Christo. Tantum
+<lb ed="#Bc"/>autem auditum habebant, Quoniam qui
+<lb ed="#Bc"/>persequebatur nos aliquando, nune evan
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>gelizsat fidem quam aliquando 
+expugna<lb ed="#Bc" break="no"/>bat: et in me clarificabant Deum. Non
+<lb ed="#Bc"/>dicit, clarificabant me, vel se in me, sed
+<lb ed="#Bc"/>Deum qui omnis boni auctor est et 
+cau<lb ed="#Bc" break="no"/>sa: illa est enim vera gloria et finis omnis
+<lb ed="#Bc"/>glorie.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1460">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod virtus 
+lau<lb ed="#Bc" break="no"/>dabilium est bonorum : sed, ut dicit 
+Au<lb ed="#Bc" break="no"/>gustinus, non propter se, sed propter
+<lb ed="#Bc"/>illum qui est auctor virtutis, Deum 
+scili<lb ed="#Bc" break="no"/>cet: et ille debet laudari in virtute. Et
+<lb ed="#Bc"/>ideo antiqua opinio fuit Socratis et 
+Pla<lb ed="#Bc" break="no"/>tonis, ut in libro Mennonis dicitur, quod
+<lb ed="#Bc"/>virtus intellectualis non est discibile 
+bo<lb ed="#Bc" break="no"/>num, nec moralis est assuescibile 
+bo<lb ed="#Bc" break="no"/>num, sed utraque donum Dei.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1484">
+                     <lb ed="#Bc"/>Ad aliud dicendum eodem modo, quod
+<lb ed="#Bc"/>honor et laus sunt premium virtutis, sed
+<lb ed="#Bc"/>referenda sunt ad Deum, qui est auctor
+<lb ed="#Bc"/>omnis boni.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1495">
+                     <lb ed="#Bc"/>Ad aliud dicendum eodem modo, quod
+<lb ed="#Bc"/>virtus intellectualis et moralis et etiam
+<lb ed="#Bc"/>gratuita, non sunt laudande in se, sed
+<lb ed="#Bc"/>in auctore qui Deus est. Unde 
+Augusti<lb ed="#Bc" break="no"/>nus in libro de Doelrina Christiana 
+lo<lb ed="#Bc" break="no"/>quens de Stoicis sic dicit : <quote xml:id="Almn78-h77467-Qd1e1510"> Quod si
+<lb ed="#Bc"/>virtutes persuadent nobis, quod eas per
+<lb ed="#Bc"/>seipsas amemus, et non propter 
+sum<lb ed="#Bc" break="no"/>mum bonum, jam virtutes incipient non
+<lb ed="#Bc"/>esse virtutes : quia nihil propter se 
+aman<lb ed="#Bc" break="no"/>dum est, nisi summum bonum quod est
+<lb ed="#Bc"/>Deus. </quote>
+                  </p>
+                  <p xml:id="Almn78-h77467-d1e1527">
+                     <lb ed="#Bc"/>Ad uLtimum dicendum, quod viri 
+glo<lb ed="#Bc" break="no"/>riosi non sunt laudandi in se, sed Deus
+<lb ed="#Bc"/>in eis, sicut paulo ante probatum est
+<lb ed="#Bc"/>per verbum Apostoli, ad Galat. 1, 22.
+<lb ed="#Bc"/>Sic laudati sunt a Sanctis et in 
+Scriptu<lb ed="#Bc" break="no"/>ris. Et hoc est quod dicitur, Proverb. x,
+<lb ed="#Bc"/>7: Memoria justi cum laudibus, et 
+no<lb ed="#Bc" break="no"/>men impiorum putrescet. Justus enim
+<lb ed="#Bc"/>est, qui per gratiam gratum facientem
+<lb ed="#Bc"/>inhabitantem habet in se justitia 
+aucto<lb ed="#Bc" break="no"/>rem Deum: sed impii sunt, qui sunt
+<lb ed="#Bc"/>alieni a cultu Dei.
+</p>
+               </div>
+               <div xml:id="Almn78-h77467-Dd1e1557">
+                  <head xml:id="Almn78-h77467-Hd1e1559">Articulus 4</head>
+                  <head xml:id="Almn78-h77467-Hd1e1562" type="question-title">
+          In quo differat inanis gloria a superbia?
+        </head>
+                  <p xml:id="Almn78-h77467-d1e1565">
+                     <pb ed="#Bc" n="354"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS IV.
+<lb ed="#Bc"/>In quo differat inanis gloria a superbia?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1578">
+                     <lb ed="#Bc"/>Quarto queritur, In quo differat inanis
+<lb ed="#Bc"/>gloria a superbia?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1585">
+                     <lb ed="#Bc"/>Videtur enim idem peccatum esse
+<lb ed="#Bc"/>cum superbia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1593">
+                     <lb ed="#Bc"/>1. Gregorius in Moralibus : <quote xml:id="Almn78-h77467-Qd1e1597"> Inanis
+<lb ed="#Bc"/>gloria suggerit se preesse, ut pluribus
+<lb ed="#Bc"/>presit, non prosit. </quote> Hoc idem suggerit
+<lb ed="#Bc"/>superbia. Ergo inanis gloria et superbia
+<lb ed="#Bc"/>sunt idem.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1609">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus super Joannem:
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h77467-Qd1e1615"> Ambitio humane laudis appetit de se
+<lb ed="#Bc"/>estimari quod in se non habet, et super
+<lb ed="#Bc"/>alios se efferre. </quote> Hoc idem appetit 
+su<lb ed="#Bc" break="no"/>perbia. Ergo superbia et inanis gloria
+<lb ed="#Bc"/>sunt idem peccalum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1627">
+                     <lb ed="#Bc"/>CONTRA
+<lb ed="#Bc"/>Augustino in libro V de Civitate Dei:
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h77467-Qd1e1635"> Quisquis sine cupiditate glorie, qua
+<lb ed="#Bc"/>veretur homo bene judicantibus 
+displi<lb ed="#Bc" break="no"/>cere, dominari alque imperare desiderat,
+<lb ed="#Bc"/>etiam per apertissima scelera querit 
+ple<lb ed="#Bc" break="no"/>rumque obtinere quod diligit. Proinde
+<lb ed="#Bc"/>qui gloriam concupiscit, aut vera via 
+uti<lb ed="#Bc" break="no"/>tur, aut cerle dolis aut fallaciis 
+conten<lb ed="#Bc" break="no"/>dit, volens bonus videri esse, quod non
+<lb ed="#Bc"/>est '. </quote> Ex hoc accipitur, quod superbia
+<lb ed="#Bc"/>querit preesse : inanis autem gloria 
+ex<lb ed="#Bc" break="no"/>cellere in laude: Et haec duo sunt 
+diver<lb ed="#Bc" break="no"/>sa: ergo superbia et inanis gloria sunt
+<lb ed="#Bc"/>diversa, et non idem peccatum. Quod
+<lb ed="#Bc"/>concedendum est: licet diversa sint, 
+ta<lb ed="#Bc" break="no"/>men frequenter sunt conjuncta: quia
+<lb ed="#Bc"/>inanis gloria est prima filia superbie, ut
+<lb ed="#Bc"/>dicit Gregorius in moralibus.
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Bc"/>Gregorius dicit hoc, non quod inanis 
+glo<lb ed="#Bc" break="no"/>ria suggerat preesse, sed quia superbia
+<lb ed="#Bc"/>preesse suggerit: et hoc nititur per 
+ma<lb ed="#Bc" break="no"/>nem gloriam oblinere: et propter hoc,
+<lb ed="#Bc"/>quod sic conjuncte sunt, una videtur esse 
+<lb ed="#Bc" break="no"/>alia, cum tamen diversa sint.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1691">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod per dictum
+<lb ed="#Bc"/>Augustini non probatur, quod sint idem,
+<lb ed="#Bc"/>sed quod sunt peccata conjuncta : et
+<lb ed="#Bc"/>unum per aliud nititur obtinere quod
+<lb ed="#Bc"/>desiderat, ut paulo ante diximus.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1704">
+                     <lb ed="#Bc"/>Tp guop in contrarium objicitur, 
+con<lb ed="#Bc" break="no"/>cedendum est et procedit. Tamen per
+<lb ed="#Bc"/>dictum illud quod intendit Augustinus
+<lb ed="#Bc"/>dicere, nec probatur quod idem, nec 
+di<lb ed="#Bc" break="no"/>versa sint, sed quod superbia diversis
+<lb ed="#Bc"/>viis nititur obtinere quod desiderat, sicut
+<lb ed="#Bc"/>dolis et fallaciis et aliis modis.
+</p>
+               </div>
+               <div xml:id="Almn78-h77467-Dd1e1724">
+                  <head xml:id="Almn78-h77467-Hd1e1726">Articulus 5</head>
+                  <head xml:id="Almn78-h77467-Hd1e1729" type="question-title">
+          Utrum inanis gloria sit generale 
+          peccatum mixtum omnibus aliis peccatis
+          sicut superbia, vel non ?
+        </head>
+                  <p xml:id="Almn78-h77467-d1e1732">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS V.
+<lb ed="#Bc"/>Utrum inanis gloria sit generale 
+pecca<lb ed="#Bc" break="no"/>tum mixtum omnibus aliis peccatis
+<lb ed="#Bc"/>sicut superbia, vel non ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1745">
+                     <lb ed="#Bc"/>Juxta hoc queritur, Utrum inanis
+<lb ed="#Bc"/>gloria sit generale peccatum mixtum 
+om<lb ed="#Bc" break="no"/>nibus aliis peccatis sicut superbia ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1754">
+                     <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Chrysostomus super Joannem, 
+Ho<lb ed="#Bc" break="no"/>milia 40 super illud Joannis, v, 44 :.
+<lb ed="#Bc"/>Quomodo vos potestis credere, qui glo-:
+<lb ed="#Bc"/>riam ab invicem aecipitis? sic dicit :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h77467-Qd1e1769"> Si avaritiam Paulus vocat idolola
+<lb ed="#Bc"/>triam 2, hujus matrem et radicem fontem
+<lb ed="#Bc"/>omnium malorum dicit. </quote> Ergo videtur,
+<lb ed="#Bc"/>quod inanis gloria sit idololatria, et 
+infide<lb ed="#Bc" break="no"/>litas : sed peccatum mixtum omnibus aliis.
+<pb ed="#Bc" n="355"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>peccatis est mater omnium malorum, et
+<lb ed="#Bc"/>non filia superbie, sed initium peccati
+<lb ed="#Bc"/>sicut superbia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1793">
+                     <lb ed="#Bc"/>2. Adhuc, Per eamdem auctoritatem
+<lb ed="#Bc"/>yidetur, quod inanis gloria sit idololatria
+<lb ed="#Bc"/>et infidelitas. Videtur enim secundum
+<lb ed="#Bc"/>dictum Domini esse casus a fide, qui 
+di<lb ed="#Bc" break="no"/>cit: Quomedo vos potestis credere? Et
+<lb ed="#Bc"/>sic videtur, quod inanis gloria non sit
+<lb ed="#Bc"/>filia superbie, sed generalis quedam
+<lb ed="#Bc"/>idololatria, qua colitur commutabile 
+bo<lb ed="#Bc" break="no"/>num spreto incommutabili bono.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1815">
+                     <lb ed="#Bc"/>3. Adhuc, <name xml:id="Almn78-h77467-Nd1e1819">Bernardus</name> : <quote xml:id="Almn78-h77467-Qd1e1822"> Velle scire ut
+<lb ed="#Bc"/>scias, studiosa oceupatio est : velle scire
+<lb ed="#Bc"/>ut sciaris, vanitas est : velle scire ut
+<lb ed="#Bc"/>alium doceas ignorantem, charitas est. </quote>
+                     <lb ed="#Bc"/>Ergo videtur, quod aliquando contingit
+<lb ed="#Bc"/>delectari in Jaude ex studio, aliquando
+<lb ed="#Bc"/>ex charitale, et sic non semper pecca~
+<lb ed="#Bc"/>tum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1841">
+                     <lb ed="#Bc"/>4. Adhuc, Tullius in fine prime 
+Retho<lb ed="#Bc" break="no"/>rice dicit, quod gloria de per se 
+expeti<lb ed="#Bc" break="no"/>bilibus est. Per se autem expetibile est
+<lb ed="#Bc"/>honestum, ut ibidem dicitur. Honestum
+<lb ed="#Bc"/>vero quod sua vi nos trahit, et sua 
+di<lb ed="#Bc" break="no"/>gnitate nos allicit : et hoc numquam
+<lb ed="#Bc"/>vanum est : quia rationem vano 
+contra<lb ed="#Bc" break="no"/>riam habet : vanum enim non est de
+<lb ed="#Bc"/>expetibilibus, sed de abominabilibus :
+<lb ed="#Bc"/>quia vanum est quod est ad aliquem
+<lb ed="#Bc"/>finem quem non includit. Et hoc nemo
+<lb ed="#Bc"/>expetit : omne enim expetibile, ut dicit
+<lb ed="#Bc"/>Augustinus, vel expetitur ad utilitatem,
+<lb ed="#Bc"/>vel ad fruitionem : et neutro modo 
+expe<lb ed="#Bc" break="no"/>titur vanum. Ergo non debet dici vana
+<lb ed="#Bc"/>gloria : quia gloria vana esse non 
+pot<lb ed="#Bc" break="no"/>est si de per se expetibilibus est, gloria.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1880">
+                     <lb ed="#Bc"/>Apauc queritur, Quare vana gloria
+<lb ed="#Bc"/>maxime ponitur in laude, cum laus sit
+<lb ed="#Bc"/>premium virtutis, quod vanum esse non
+<lb ed="#Bc"/>potest ?
+</p>
+                  <p xml:id="Almn78-h77467-d1e1891">
+                     <lb ed="#Bc"/>SoLutio. Ad primo quesitum 
+dicen<lb ed="#Bc" break="no"/>dum quod vana gloria dicitur duobus
+<lb ed="#Bc"/>modis. Uno modo secundum quod dicit
+<lb ed="#Bc"/>delectationem in quocumaque vano, spreto
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>bono incommutabili : et sic generale
+<lb ed="#Bc"/>peccatum est, ut dicit Chrysostomus,
+<lb ed="#Bc"/>diffusum in omnibus peccatis mortalibus,
+<lb ed="#Bc"/>sicut superbia, et non est filia superbie
+<lb ed="#Bc"/>hoc modo : omne enim peccatum est,
+<lb ed="#Bc"/>spreto bono incommutabili rebus 
+muta<lb ed="#Bc" break="no"/>bilibus adherere : omne autem 
+commu<lb ed="#Bc" break="no"/>tabile vanum est: et sic delectari in hoc
+<lb ed="#Bc"/>et quwrere Jaudem in hoc, generalis vana
+<lb ed="#Bc"/>gloria est et mater omnium malorum. Et
+<lb ed="#Bc"/>sic Chrysostomus loquitur de vana 
+glo<lb ed="#Bc" break="no"/>ria. Secundo, dicitur vana gloria 
+specia<lb ed="#Bc" break="no"/>liter querere excellentiam in vanissima
+<lb ed="#Bc"/>re, que est laus hominum, secundum
+<lb ed="#Bc"/>quod dicit Tullius, quod gloria est 
+mul<lb ed="#Bc" break="no"/>torum ore predicata laudatio, que 
+va<lb ed="#Bc" break="no"/>nissima est, ut dicit Hieronymus sic :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h77467-Qd1e1943"> Si te laudi hominum commitis, necesse
+<lb ed="#Bc"/>est ut aliquando parvus, aliquando 
+ma<lb ed="#Bc" break="no"/>gnus, aliquando nullus sis. </quote> Ad Galat.
+<lb ed="#Bc"/>1,10: Siadhuc hominibus placerem, id
+<lb ed="#Bc"/>est, placere quererem, Christi servus
+<lb ed="#Bc"/>non essem, Etin Psalmo tu, 6: Confusi
+<lb ed="#Bc"/>sunt qui hominibus placent, id est, 
+pla<lb ed="#Bc" break="no"/>cere querunt : guoniam Deus sprevit
+<lb ed="#Bc"/>eos.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1964">
+                     <lb ed="#Bc"/>Ab atiup dicendum, quod inanis gloria
+<lb ed="#Bc"/>potest dicere casum a fide formata, vel a
+<lb ed="#Bc"/>fide informi. Primo modo vana gloria est
+<lb ed="#Bc"/>casus a fide et impedimentum fidei, 
+sic<lb ed="#Bc" break="no"/>ut omne mortale peccatum : quia colitur
+<lb ed="#Bc"/>ibi commutabile bonum spreto 
+incom<lb ed="#Bc" break="no"/>mutabili. Et sic intelligitur illud Joannis,
+<lb ed="#Bc"/>v, 44: Quomodo vos potestis credere? Si
+<lb ed="#Bc"/>autem dicat casum a fide informi, que
+<lb ed="#Bc"/>compatitur etiam secum mortale 
+pecca<lb ed="#Bc" break="no"/>tum, et dicitur tides mortua?, et fides
+<lb ed="#Bc"/>demonum, etc. : tune non est casus a
+<lb ed="#Bc"/>fide, sicut nec alia peccata mortalia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e1996">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod velle scire
+<lb ed="#Bc"/>ut scias, studiosa occupatio est et nulla
+<lb ed="#Bc"/>vanitas. Sed velle scire ut sciaris, est
+<lb ed="#Bc"/>excellentiam querere in laude humana,
+<lb ed="#Bc"/>que non refertur ad laudem divinam, et
+<lb ed="#Bc"/>est stultissima vanitas. Velle autem scire
+<lb ed="#Bc"/>ut prosis lectione et praedicatione, 
+chari<lb ed="#Bc" break="no"/>tas est : quia refertur ad laudem Dei, et
+<pb ed="#Bc" n="356"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>utilitatem proximi: et haec est vera 
+glo<lb ed="#Bc" break="no"/>ria, non vana, ut in prehabitis 
+determi<lb ed="#Bc" break="no"/>natum est.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2027">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod dictum 
+Tul<lb ed="#Bc" break="no"/>hii intelligitur de vera gloria, que in solo
+<lb ed="#Bc"/>Deo est. Unde dicit Augustinus, quod
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h77467-Qd1e2037"> nihil est honestum, nec per se 
+expeti<lb ed="#Bc" break="no"/>bile, nisi bonum increatum : </quote> alia enim
+<lb ed="#Bc"/>omnia referuntur ad illud : et (ut ipse 
+di<lb ed="#Bc" break="no"/>cit) ut utilia diliguntur, ad illud relata,
+<lb ed="#Bc"/>ut ipsum per illa obtineatur.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2050">
+                     <lb ed="#Bc"/>Ad id quod ultimo queritur, Quare
+<lb ed="#Bc"/>vana gloria maxime in laude ponatur?
+</p>
+                  <p xml:id="Almn78-h77467-d1e2057">
+                     <lb ed="#Bc"/>Dicendum, quod propter hoc : quia
+<lb ed="#Bc"/>inter omnia vana laus hominum vanior
+<lb ed="#Bc"/>est : quod patet per Hieronymum supra
+<lb ed="#Bc"/>inductum. Laus autem que est premium
+<lb ed="#Bc"/>virtutis, et secundum Stoicos et 
+secun<lb ed="#Bc" break="no"/>dum Sanctos est laus Dei, qui est 
+au<lb ed="#Bc" break="no"/>ctor et dator virtutis in nobis, sine quo
+<lb ed="#Bc"/>nihil possumus facere. Joan, xv, 5 : Sine
+<lb ed="#Bc"/>me nihil potestis facere. Et, Isaie, xvi,
+<lb ed="#Bc"/>12: Omnia opera nostra operatus es 
+no<lb ed="#Bc" break="no"/>bis, Domine.
+</p>
+               </div>
+               <div xml:id="Almn78-h77467-Dd1e2084">
+                  <head xml:id="Almn78-h77467-Hd1e2086">Articulus 6</head>
+                  <head xml:id="Almn78-h77467-Hd1e2089" type="question-title">
+          De speciebus inanis gloriae, et de 
+          opposilo ejus.
+        </head>
+                  <p xml:id="Almn78-h77467-d1e2092">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS VI.
+<lb ed="#Bc"/>De speciebus inanis gloriae, et de 
+opposi<lb ed="#Bc" break="no"/>lo ejus.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2103">
+                     <lb ed="#Bc"/>Ulterius, Queritur de speciebus inanis
+<lb ed="#Bc"/>gloriae quas quidam ponunt.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2110">
+                     <lb ed="#Bc"/>Et dicunt eas esse quatuor, scilicet
+<lb ed="#Bc"/>affectationem libertatis, auctoritatis, 
+po<lb ed="#Bc" break="no"/>testatis, et prelationis. Hac enim solent
+<lb ed="#Bc"/>appetere inaniter gloriantes. Unde 
+qui<lb ed="#Bc" break="no"/>dam etiam dicunt, quod he sunt filie
+<lb ed="#Bc"/>inanis glorie et neptes superbie.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2127">
+                     <lb ed="#Bc"/>Et contra hoc objicitur sic :
+<lb ed="#Bc"/>1. Libertas est de expetibilibus per
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>se, ut dicit Tullius, sicut et nobilitas ;
+<lb ed="#Bc"/>gloriari ergo in illa non est inaniter 
+glo<lb ed="#Bc" break="no"/>riari, sed vere.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2143">
+                     <lb ed="#Bc"/>2. Similiter gloriari in auctoritate 
+vi<lb ed="#Bc" break="no"/>detur potius esse ambitionis quam inanis
+<lb ed="#Bc"/>glorie.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2152">
+                     <lb ed="#Bc"/>3. Adhuc, Gloriari in potestate super
+<lb ed="#Bc"/>alios potius videtur esse superbie quam
+<lb ed="#Bc"/>inanis gloriz.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2161">
+                     <lb ed="#Bc"/>4. Adhuc, Gloriari in prelatione 
+dire<lb ed="#Bc" break="no"/>cle videtur esse superbie et tumoris : 
+vi<lb ed="#Bc" break="no"/>detur ergo, quod non sit species inanis
+<lb ed="#Bc"/>gloria.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2172">
+                     <lb ed="#Bc"/>Sotvurio. Dicendum, quod species 
+ina<lb ed="#Bc" break="no"/>nis glorie dupliciter distinguuntur, 
+for<lb ed="#Bc" break="no"/>maliter, et materialiter. Formaliter non
+<lb ed="#Bc"/>accipiuntur, nisi secundum diversitatem
+<lb ed="#Bc"/>laudis inanis in linguis adulantium et
+<lb ed="#Bc"/>placentia loquentium : quia talis laus pe~
+<lb ed="#Bc"/>nitus inanis est : et qui gloriatur in ea,.
+<lb ed="#Bc"/>vaniter gloriatur. Materialiter autem 
+di<lb ed="#Bc" break="no"/>stinguuntur species ejus secundum 
+di<lb ed="#Bc" break="no"/>versitatem eorum in quibus quis vane
+<lb ed="#Bc"/>querit gloriari : et sic sunt quatuor que
+<lb ed="#Bc"/>inducte sunt : unde materiales ejus 
+spe<lb ed="#Bc" break="no"/>cies sunt, non formales.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2203">
+                     <lb ed="#Bc"/>Ulterius Queritur de opposito inanis
+<lb ed="#Bc"/>gloriz, propter verbum Augustini in 
+li<lb ed="#Bc" break="no"/>bro de Conflict vitiorum et virtutum,
+<lb ed="#Bc"/>ubi sic dicit : <quote xml:id="Almn78-h77467-Qd1e2213"> Timor opponilur inani
+<lb ed="#Bc"/>glorie, sicut humilitas superbiz. </quote>,
+</p>
+                  <p xml:id="Almn78-h77467-d1e2220">
+                     <lb ed="#Bc"/>Et hoc videtur falsum esse ; quia vide- |
+<lb ed="#Bc"/>tur, quod inanis gloria que falsa gloria
+<lb ed="#Bc"/>est, opponatur vere glorie, que est in
+<lb ed="#Bc"/>conscientia, de qua dicitur, If ad 
+Co<lb ed="#Bc" break="no"/>rinth. 1, 12: Gloria nostra hec est, 
+testi<lb ed="#Bc" break="no"/>monium conscientie nostre. Et, Jerem,
+<lb ed="#Bc"/>1x, 24: In hoc glorietur, qui gloriatur,
+<lb ed="#Bc"/>scire et nosse me,
+</p>
+                  <p xml:id="Almn78-h77467-d1e2240">
+                     <lb ed="#Bc"/>Solutio. Ad haec et hujusmodi facile
+<lb ed="#Bc"/>est respondere : ea enim que 
+opponun<lb ed="#Bc" break="no"/>tur, dupliciter opponuntur. Quedam
+<lb ed="#Bc"/>enim ut forme contrariae et sicut species :
+<lb ed="#Bc"/>et sic inani gloria opponitur vera gloria,
+<lb ed="#Bc"/>que est in conscientia et in Dev. 
+Qua<lb ed="#Bc" break="no"/>dam opponuntur ut dispositiones ad
+<pb ed="#Bc" n="357"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>contraria inclinantes : et sic timor 
+op<lb ed="#Bc" break="no"/>ponitur inani gloria. Ad Roman. x1,
+<lb ed="#Bc"/>20: Noli allum -sapere, sed time. Et
+<lb ed="#Bc"/>Eecli. u, 1: Sta in justitia et timore, et
+<lb ed="#Bc"/>prepara animam tuam ad tentationem.
+<lb ed="#Bc"/>Et Bernardus super Cantica : <quote xml:id="Almn78-h77467-Qd1e2274"> 
+Experi<lb ed="#Bc" break="no"/>mento didici, quod nihil tantum valet ad
+<lb ed="#Bc"/>gratiam Dei acquirendam et retinendam
+<lb ed="#Bc"/>et recuperandam, quantum numquam
+<lb ed="#Bc"/>altum sapere, sed timere semper. 
+Scri<lb ed="#Bc" break="no"/>ptum est enim, Jacobi, iv, 6 : Deus 
+su<lb ed="#Bc" break="no"/>perbis resistit, humilibus autem dat 
+gra<lb ed="#Bc" break="no"/>tiam. Et, Judith, 1x, 16 : Nee superbi ab
+<lb ed="#Bc"/>initio tibt placuerunt : sed humilium et
+<lb ed="#Bc"/>mansuetorum semper tibi placuit 
+depre<lb ed="#Bc" break="no"/>calito. </quote>
+  
+                     <lb ed="#Bc"/>Et haec dicta de superbia et inani 
+glo<lb ed="#Bc" break="no"/>ria sufficiant.
+</p>
+               </div>
+               <div xml:id="Almn78-h77467-Dd1e2305">
+                  <head xml:id="Almn78-h77467-Hd1e2307">Articulus 7</head>
+                  <head xml:id="Almn78-h77467-Hd1e2310" type="question-title">
+          De reliquis filiabus superbiae, quae sunt
+          praesumptio, arrogantia, et jactantia.
+        </head>
+                  <p xml:id="Almn78-h77467-d1e2313">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS VII.
+<lb ed="#Bc"/>De reliquis filiabus superbiae, quae sunt
+<lb ed="#Bc"/>praesumptio, arrogantia, et jactantia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2324">
+                     <lb ed="#Bc"/>Post haec de aliis filiabus superbie
+<lb ed="#Bc"/>que sunt presumptio, arrogantia, 
+ja<lb ed="#Bc" break="no"/>ctantia, sub ino quaestionis articulo 
+in<lb ed="#Bc" break="no"/>quiremus : quia plura de talibus querere
+<lb ed="#Bc"/>magis est curiosum, quam fructuosum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2337">
+                     <lb ed="#Bc"/>Prima est presumptio, quando aliquis
+<lb ed="#Bc"/>presumit aliquid habere ex se, quod non
+<lb ed="#Bc"/>habet nisi ex Deo.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2347">
+                     <lb ed="#Bc"/>Secunda est arrogantia, quando 
+adscri<lb ed="#Bc" break="no"/>bit propriis meritis quod non habet nisi
+<lb ed="#Bc"/>ex gratia Dei.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2356">
+                     <lb ed="#Bc"/>1. Et videtur prima non esse 
+pecca<lb ed="#Bc" break="no"/>tum, nec filia superbiae : quia quod 
+ho<lb ed="#Bc" break="no"/>mo habet ex se, si adscribit sibi, non 
+vi<lb ed="#Bc" break="no"/>detur esse peccatum, sed potius debitum :
+<lb ed="#Bc"/>nec videtur esse superbia, sed veritas.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2369">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>2. Similiter, Secunda non videtur esse
+<lb ed="#Bc"/>peccatum : multa enim merentur 
+homi<lb ed="#Bc" break="no"/>nes et sibi et aliis : et si adscribunt illa
+<lb ed="#Bc"/>meritis, non videntur peccare, nec 
+super<lb ed="#Bc" break="no"/>bire in aliquo.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2385">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. I ad Corinth. iv, 7 : Quid habes
+<lb ed="#Bc"/>quod non accepisti? si autem accepisti,
+<lb ed="#Bc"/>guid gloriaris quasi non acceperis ? Ergo
+<lb ed="#Bc"/>cum nihil habet a se, peccat si aliquid
+<lb ed="#Bc"/>sibi adscribit.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2401">
+                     <lb ed="#Bc"/>2. Similiter, Objicitur contra 
+secun<lb ed="#Bc" break="no"/>dam, quod sit peccatum. I ad Corinth.
+<lb ed="#Bc"/>xv, 10: Non ego autem, sed gratia Dei
+<lb ed="#Bc"/>mecum. Et ibidem, Gratia Dei in me 
+va<lb ed="#Bc" break="no"/>cua non fuit. Qui ergo sibi adscribit
+<lb ed="#Bc"/>quod gratiae Dei est, peccat, et superbit
+<lb ed="#Bc"/>contra Deum.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2419">
+                     <lb ed="#Bc"/>3. Adhuc, If ad Corinth. m, 5 : Non
+<lb ed="#Bc"/>quod sufficientes simus cogitare aliquid
+<lb ed="#Bc"/>a nobis quasi ex nobis, sed sufficientia
+<lb ed="#Bc"/>nostra ez Deo est. Qui ergo aliquid 
+ad<lb ed="#Bc" break="no"/>scribit propriis meritis, peccat et 
+super<lb ed="#Bc" break="no"/>bit contra Deum : usurpat enim sibi quod
+<lb ed="#Bc"/>Deiest.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2438">
+                     <lb ed="#Bc"/>4. Adhuc, Job, xxx1, 27: Si oseulatus
+<lb ed="#Bc"/>sum manum meam ore meo. Ibi 
+Grego<lb ed="#Bc" break="no"/>rius in Glossa: <quote xml:id="Almn78-h77467-Qd1e2446"> Osculari manum, est
+<lb ed="#Bc"/>bona que habet homo, vel que facit, sibi
+<lb ed="#Bc"/>vel propriis merilis adscribere </quote> et hec
+<lb ed="#Bc"/>est iniquitas maxima, ut ibidem dicit
+<lb ed="#Bc"/>textus, et negatio contra Deum 
+altisst<lb ed="#Bc" break="no"/>mum. Videtur, quod hoc non tantum sit
+<lb ed="#Bc"/>peccatum superbie, sed etiam 
+infidelita<lb ed="#Bc" break="no"/>tis.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2465">
+                     <lb ed="#Bc"/>5. Adhuc, Joan. xv, 5: Sine me nihil
+<lb ed="#Bc"/>potestis facere. Glossa : <quote xml:id="Almn78-h77467-Qd1e2471"> Nihil, hoc est,
+<lb ed="#Bc"/>peccatum, illud potestis facere sine me,
+<lb ed="#Bc"/>et nihil boni. </quote> Joan. 1, 3: Sine ipso 
+fa<lb ed="#Bc" break="no"/>etum est nihil,
+</p>
+                  <p xml:id="Almn78-h77467-d1e2481">
+                     <lb ed="#Bc"/>Simititer, Objicitur de jactan ia, 
+sci<lb ed="#Bc" break="no"/>licet quando aliquis jactat quod non 
+ha<lb ed="#Bc" break="no"/>bet, et in hoc superbit ; hoc enim 
+vide<lb ed="#Bc" break="no"/>tur potius esse filia mendacii quam
+<lb ed="#Bc"/>superbia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2494">
+                     <pb ed="#Bc" n="358"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Juxra hoc hic quieritur de extollentia
+<lb ed="#Bc"/>que plus omnibus jactat se: hec enim
+<lb ed="#Bc"/>videtur non esse peccatum, cum dicat
+<lb ed="#Bc"/>Apostolus, I ad Corinth. xv, 10 : 
+Abun<lb ed="#Bc" break="no"/>dantius illis omnibus laboravi.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2512">
+                     <lb ed="#Bc"/>Contra :
+</p>
+                  <p xml:id="Almn78-h77467-d1e2517">
+                     <lb ed="#Bc"/>1. Hoc est Antichristi proprium : ergo
+<lb ed="#Bc"/>est peccatum. Il ad Thessal. ir, 4: 
+Ertol<lb ed="#Bc" break="no"/>litur supra omne quod dicitur Deus, aut
+<lb ed="#Bc"/>quod colitur.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2529">
+                     <lb ed="#Bc"/>2. Adhuc, Eecli. xxvi, 12 : Fornicatio
+<lb ed="#Bc"/>mulieris in extollentia oculorum : 
+Glos<lb ed="#Bc" break="no"/>sa, hoc est, fornicatricis anime. Job,
+<lb ed="#Bc"/>XLL, 25: Omne sublime videt : ipse est rex
+<lb ed="#Bc"/>super universos filios superbix. Et 
+pro<lb ed="#Bc" break="no"/>pter hoc superbia dicitur maximum 
+pec<lb ed="#Bc" break="no"/>catum. Psal. xvitt, 14 : Fé emundabor a
+<lb ed="#Bc"/>delicto maximo, Glossa, id est, a 
+super<lb ed="#Bc" break="no"/>bia,
+</p>
+                  <p xml:id="Almn78-h77467-d1e2551">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod omnes ille
+<lb ed="#Bc"/>iliae sunt superbie.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2558">
+                     <lb ed="#Bc"/>Et quod objicitur de prima, dicendum
+<lb ed="#Bc"/>quod homo nihil habet ex se, ut sepe 
+di<lb ed="#Bc" break="no"/>ctum est, et probatum per auctoritatem
+<lb ed="#Bc"/>Apostoli, | ad Corinth. iv, 7: Quid 
+ha<lb ed="#Bc" break="no"/>bes, etc. Et ideo magna presumptio est,
+<lb ed="#Bc"/>adscribere sibi donum quod non suum
+<lb ed="#Bc"/>est, sed Dei. Unde, f Paralip. xxix, 14:
+<lb ed="#Bc"/>Que de manu tua accepimus, dedimus
+<lb ed="#Bc"/>tibt. Quasi diceret Propheta : Nihil a 
+no<lb ed="#Bc" break="no"/>bis habemus. .
+</p>
+                  <p xml:id="Almn78-h77467-d1e2582">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod duplex est
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>meritum ex congruo, et ex condigno,.
+<lb ed="#Bc"/>Ex congruo potest aliquis aliquid facere,
+<lb ed="#Bc"/>unde magis congruat sibi dari gratiam,
+<lb ed="#Bc"/>quam alii, sed ex condigno nihil. Et hoc:
+<lb ed="#Bc"/>notaturin auctoritate preinducta que ests:
+<lb ed="#Bc"/>De manu tua accepimus. Etin Psalmo;
+<lb ed="#Bc"/>cxLiv, 16: Aperis tu manum tuam, et;
+<lb ed="#Bc"/>imples omne animal benedictione. Et de:
+<lb ed="#Bc"/>hoc antiqui fecerunt versum, Preepositi- :
+<lb ed="#Bc"/>vus scilicet,
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h77467-Qd1e2612">Quidquid habes meriti praeventrix gratia donat,
+<lb ed="#Bc"/>Nil Deus in nobis preter sua dona coronat.</quote>
+                  </p>
+                  <p xml:id="Almn78-h77467-d1e2618">
+                     <lb ed="#Bc"/>Unde homo nihil potest facere ex 
+con<lb ed="#Bc" break="no"/>digno, unde Deus efficiatur sibi debitor:
+<lb ed="#Bc"/>et si adscribit sibi, arrogantia est et 
+su<lb ed="#Bc" break="no"/>perbia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2629">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod jactantia
+<lb ed="#Bc"/>mendacium est in actu, sed radix 
+incli<lb ed="#Bc" break="no"/>nans ad hoc superbia est : et ideo 
+super<lb ed="#Bc" break="no"/>bia mater est jactantia.
+</p>
+                  <p xml:id="Almn78-h77467-d1e2641">
+                     <lb ed="#Bc"/>Ad id quod ultimo objicitur de 
+ex<lb ed="#Bc" break="no"/>tollentia, dicendum quod peccatum est
+<lb ed="#Bc"/>imitatio primi peccati damonis, qui 
+vo<lb ed="#Bc" break="no"/>luit esse sicut Deus, et extolli super alios
+<lb ed="#Bc"/>Angelos. Et quod dicit Apostolus ', non
+<lb ed="#Bc"/>est contrarium. In labore enim semper
+<lb ed="#Bc"/>debemus crescere, et non in extollentia
+<lb ed="#Bc"/>animi: sed dicere illud Luce, xvi, 10:
+<lb ed="#Bc"/>Servi inutiles sumus: quod debuimus
+<lb ed="#Bc"/>facere, fecomus.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

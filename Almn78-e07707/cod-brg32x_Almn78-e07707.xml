@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 40</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 40</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="483"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e07707"><!-- p2t10q40 -->
+            <head xml:id="Almn78-e07707-Hd1e106">Quaestio 40</head>
+            <head xml:id="Almn78-e07707-Hd1e109" type="question-title">
+      De theophania et actibus hierarchicis, qui sunt illuminare,
+      purgare, et perficere.
+    </head>
+            <p xml:id="Almn78-e07707-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XL.
+      <lb ed="#Bb"/>De theophania et actibus hierarchicis, qui sunt illuminare,
+      <lb ed="#Bb"/>purgare, et perficere.
+    </p>
+            <p xml:id="Almn78-e07707-d1e123">
+               <lb ed="#Bb"/>Consequenter queritur de theophaniis
+      <lb ed="#Bb"/>quibus distinguuntur hierarchie.
+    </p>
+            <p xml:id="Almn78-e07707-d1e130">
+               <lb ed="#Bb"/>Et queruntur duo, scilicet de 
+      theopha<lb ed="#Bb" break="no"/>nia, el de actibus qui sunt illuminare,
+      <lb ed="#Bb"/>purgare, et perficere, quos agunt secun~
+      <lb ed="#Bb"/>dum itheophanias.
+    </p>
+            <div xml:id="Almn78-e07707-Dd1e142">
+               <head xml:id="Almn78-e07707-Hd1e144">Membrum 1</head>
+               <head xml:id="Almn78-e07707-Hd1e147" type="question-title">
+        De theophania.
+      </head>
+               <p xml:id="Almn78-e07707-d1e150">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>De theophania.
+      </p>
+               <p xml:id="Almn78-e07707-d1e157">
+                  <lb ed="#Bb"/>Circa theophaniam queruntur duo,
+        <lb ed="#Bb"/>scilicet quid sit theophania, et unde 
+        de<lb ed="#Bb" break="no"/>sceudat in Angelos, utrum scilicet a Deo
+        <lb ed="#Bb"/>solo, vel etiam ab homine Christo eta
+        <lb ed="#Bb"/>beata Virgine ?
+      </p>
+               <div xml:id="Almn78-e07707-Dd1e170">
+                  <head xml:id="Almn78-e07707-Hd1e172">Articulus 1</head>
+                  <head xml:id="Almn78-e07707-Hd1e175" type="question-title">
+          Quid sit theophania
+        </head>
+                  <p xml:id="Almn78-e07707-d1e178">
+                     <lb ed="#Bb"/>MEMBRI PRIMI
+          <lb ed="#Bb"/>ARTICULUS I.
+          <lb ed="#Bb"/>Quid sit theophania ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e187">
+                     <lb ed="#Bb"/>Primo ergo queritur, Quid sit 
+          theo<lb ed="#Bb" break="no"/>phania?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e194">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Et accipiantur verba Dionysii, in 
+          Ce<lb ed="#Bb" break="no"/>lesti hierarchia, ubi sic dicit : <quote xml:id="Almn78-e07707-Qd1e202"> 
+            Sapien<lb ed="#Bb" break="no"/>tissima theologia visionem illam que in
+            <lb ed="#Bb"/>ipsa est descripta, revelavit divinam, 
+            qua<lb ed="#Bb" break="no"/>siin forma informium similitudinem ex
+            <lb ed="#Bb"/>videntium in divinum reductione pulchre
+            <lb ed="#Bb"/>vocari theophaniam. </quote> Sensus est hujus
+          <lb ed="#Bb"/>auctoritatis, quod scientia theologie que
+          <lb ed="#Bb"/>sapientissima est, quia est de Deo, 
+          pul<lb ed="#Bb" break="no"/>chre revelavit Theologis ipsam visionem
+          <lb ed="#Bb"/>que descripfa est in theologia, vocari
+          <lb ed="#Bb"/>theophaniam, quasi divinam 
+          similitudi<lb ed="#Bb" break="no"/>nem in forma informium descripta, hoc
+          <lb ed="#Bb"/>est, in forma symbolorum, que informia
+          <lb ed="#Bb"/>sunt ad spiritualia. Similitudinem dico
+          <lb ed="#Bb"/>factam vel creatam ex reductione 
+          viden<lb ed="#Bb" break="no"/>tium in divinum, hoc est, in divinas
+          <lb ed="#Bb"/>res.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e241">
+                     <lb ed="#Bb"/>Adhuc, Commentator ibidem dicit,
+          <lb ed="#Bb"/>quod theophania dicitur, quasi per ipsam,
+          <lb ed="#Bb"/>videntibus divina facta  
+          illuminatio<lb ed="#Bb" break="no"/>ne, quam ipsa divina sanctorum 
+          perfi<lb ed="#Bb" break="no"/>ciunt..
+        </p>
+                  <p xml:id="Almn78-e07707-d1e254">
+                     <lb ed="#Bb"/>Contra hoc objicitur sic, quod
+          <lb ed="#Bb"/>1. Secundum hoc non erit theophania,
+          <lb ed="#Bb"/>nisi in symbolis que in corporalibus 
+          ac<lb ed="#Bb" break="no"/>cipiuntur : et cum Angeli non accipiant
+        </p>
+                  <p xml:id="Almn78-e07707-d1e265">
+                     <lb ed="#Bb"/>2. Dionysius, Lib. de Ccelesti hierarchia,
+          <lb ed="#Bb"/>cap. 4
+        </p>
+                  <p xml:id="Almn78-e07707-d1e272">
+                     <pb ed="#Bb" n="484"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>illuminationes in corporalibus, videtur
+          <lb ed="#Bb"/>quod Angeli non habent theophanias :
+          <lb ed="#Bb"/>quod falsum est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e285">
+                     <lb ed="#Bb"/>2. Adhuc, Commentator ibidem dicit
+          <lb ed="#Bb"/>sic : <quote xml:id="Almn78-e07707-Qd1e291"> Habent namque et ipsi spiritus
+            <lb ed="#Bb"/>signa sua, demonstrationes scilicet per
+            <lb ed="#Bb"/>quas de invisibilibus Dei et valde occullis
+            <lb ed="#Bb"/>et secretis absconditis intus naturaliter et
+            <lb ed="#Bb"/>invisibiliter et simpliciter erudiuntur :
+            <lb ed="#Bb"/>que quidem signa quantum ad nos, et ea
+            <lb ed="#Bb"/>que apud nos sunt visibilia, omnino 
+            in<lb ed="#Bb" break="no"/>visibilia estimantur : quantum vero ad
+            <lb ed="#Bb"/>illam multum invisibilem et 
+            inaccessibi<lb ed="#Bb" break="no"/>lem et incomprehensibilem divinitatis
+            <lb ed="#Bb"/>lucem, quasi foris sunt, et procedunt ab
+            <lb ed="#Bb"/>intus ad demonstrationem. Propter quod
+            <lb ed="#Bb"/>et ipsa signa que superveniunt mentibus
+            <lb ed="#Bb"/>sive animis divinitus illuminatis, 
+            theo<lb ed="#Bb" break="no"/>phaniz, id est, divine apparitiones 
+            di<lb ed="#Bb" break="no"/>cuntur : quia in eis ad manifestationem
+            <lb ed="#Bb"/>alicujus occulti venientibus, id quod 
+            om<lb ed="#Bb" break="no"/>nino occultum Dei est, demonstratur. </quote>
+                     <lb ed="#Bb"/>Ex hoc accipitur, quod theophania est.
+          <lb ed="#Bb"/>illuminatio procedens ab intus ad 
+          mani<lb ed="#Bb" break="no"/>festationem alicujus occulti de Deo. Sed
+          <lb ed="#Bb"/>tune queritur, Utrum in illa 
+          iuminatio<lb ed="#Bb" break="no"/>ne duo sint, sicut in luthine scientie ? In
+          <lb ed="#Bb"/>scientia enim est lumen ipsius scientie
+          <lb ed="#Bb"/>convincens intellectum de veritate 
+          scito<lb ed="#Bb" break="no"/>rum: et hoc est quod vocatur scientia 
+          con<lb ed="#Bb" break="no"/>clusionis ab Aristotele in I Posteriorum.Et
+          <lb ed="#Bb"/>est ibilumen principii preexistens, a quo
+          <lb ed="#Bb"/>elicitur scientia conclusionis per 
+          conse<lb ed="#Bb" break="no"/>quentia. Sicut etiam Platonici dixerunt
+          <lb ed="#Bb"/>esse duplex lumen in oculo : unum quod
+          <lb ed="#Bb"/>ab oculo diffunditur super visibile cum
+          <lb ed="#Bb"/>radio visivo : alterum quod objicitur
+          <lb ed="#Bb"/>oculo et informat i ipsum, quod est 
+          spe<lb ed="#Bb" break="no"/>cies visibilis. Sicut etiam in fide duplex
+          <lb ed="#Bb"/>lumen dicunt esse Sancti. Unum quod
+          <lb ed="#Bb"/>est elevans intellectum nostrum ad hoc,
+          <lb ed="#Bb"/>quod aciem figat in articulum creditum
+          <lb ed="#Bb"/>qui est supra rationem. Dicit enim 
+          Au<lb ed="#Bb" break="no"/>gustinus, quod <quote xml:id="Almn78-e07707-Qd1e378"> mentis nostre invalida
+            <lb ed="#Bb"/>acies, in tam excellenti luce non figitur;
+            <lb ed="#Bb"/>nisi per justitiam fidei emundetur. </quote> Er
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>go videtur quod in fide sit lumen elevans
+          <lb ed="#Bb"/>intellectum ad credibibile quod ad hoc
+          <lb ed="#Bb"/>influitur intellectui, ut possit species
+          <lb ed="#Bb"/>credibilis informari. Et hoc expresse 
+          vi<lb ed="#Bb" break="no"/>detur dicere Dionysius in libro de Divinis
+          <lb ed="#Bb"/>nominibus, sic: <quote xml:id="Almn78-e07707-Qd1e400"> Fides est lumen 
+            collo<lb ed="#Bb" break="no"/>cans credentes in prima veritate, et 
+            pri<lb ed="#Bb" break="no"/>Tam veritatem in ipsis !. </quote> Siergo sic est
+          <lb ed="#Bb"/>intheophaniis : tunc est unum lumen 
+          de<lb ed="#Bb" break="no"/>scendens inintellectum Angeli, et elevans
+          <lb ed="#Bb"/>ipsum ad hoc, quod figi possit intellectus
+          <lb ed="#Bb"/>Angeli in illo occulto, quod divinum
+          <lb ed="#Bb"/>occulium a Dionysio vocatur.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e419">
+                     <lb ed="#Bb"/>3. Adhuc, Hoe videtur Dionysius di- .
+          <lb ed="#Bb"/>cere in epistola ad Gaium monachum
+          <lb ed="#Bb"/>sic: <quote xml:id="Almn78-e07707-Qd1e427"> Deus est super mentem et super
+            <lb ed="#Bb"/>substantiam : et superposite ipsius 
+            tene<lb ed="#Bb" break="no"/>bre et cooperiunt et contegunt omne
+            <lb ed="#Bb"/>lumen, et absconditur omni conditioni.,
+            <lb ed="#Bb"/>Et si aliquis videns Deum, intellexit quod’
+            <lb ed="#Bb"/>videt, non ipsum vidit, sed aliquid eorum
+            <lb ed="#Bb"/>qu sunt ejus, que existunt et 
+            cogno<lb ed="#Bb" break="no"/>scuntur. </quote> Ex hoc accipitur, quod 
+          intel<lb ed="#Bb" break="no"/>lectus angelicus aliquid accipit a Deo
+          <lb ed="#Bb"/>quo juvatur ad hoc, quod Deum videre
+          <lb ed="#Bb"/>possit.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e454">
+                     <lb ed="#Bb"/>4. Adhuc, -Chrysostomus in Homilia
+          <lb ed="#Bb"/>super Joannem.: <quote xml:id="Almn78-e07707-Qd1e460"> Ipsum quod est Deus,
+            <lb ed="#Bb"/>non solum Prophete non viderunt, sed
+            <lb ed="#Bb"/>neque Angeli viderunt, neque 
+            Archan<lb ed="#Bb" break="no"/>geli. </quote> .
+        </p>
+                  <p xml:id="Almn78-e07707-d1e470">
+                     <lb ed="#Bb"/>5. Adhuc, Chrysostomus, ibidem,
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-e07707-Qd1e476">Si interrogaveris Angelos quid 
+            vide<lb ed="#Bb" break="no"/>rint, audies quidem de substantia nihil
+            <lb ed="#Bb"/>respondentes, Gloria vero in altissimis
+            <lb ed="#Bb"/>Deo solum decantantes’. Et si Seraphin
+            <lb ed="#Bb"/>et Cherubin concupieris aliquid dicere,
+            <lb ed="#Bb"/>mysticam sanctimonil melodiam audies :
+            <lb ed="#Bb"/>Sancius, sanctus, sanctus, et quoniam
+            <lb ed="#Bb"/>plena est omnis terra gloria ejus*. Si
+            <lb ed="#Bb"/>supernas Virtutes, tibi item 
+            responde<lb ed="#Bb" break="no"/>bunt, sibi unum opus esse ut Deum
+            <lb ed="#Bb"/>laudent. Et nihil respondent de visione
+            <lb ed="#Bb"/>substantia. </quote> Ergo videtur, quod 
+          sub<lb ed="#Bb" break="no"/>stantiam Dei non vident sub aliquo 
+          lu<lb ed="#Bb" break="no"/>mine descendente in ipsos, et juvante
+          <pb ed="#Bb" n="485"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>intellectum ad hoc quod possit figi quod
+          <lb ed="#Bb"/>Deus est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e516">
+                     <lb ed="#Bb"/>6. Adhuc, Joannes quidam expositor
+          <lb ed="#Bb"/>sic dicit: <quote xml:id="Almn78-e07707-Qd1e522"> Per seipsam nulli creature
+            <lb ed="#Bb"/>sive rationali sive intellectuali 
+            compre<lb ed="#Bb" break="no"/>hensibilis est veritas Deus, sed super
+            <lb ed="#Bb"/>omnem sensum est exaltata et 
+            intelle<lb ed="#Bb" break="no"/>‘ctum. Neque Angeli cognoscunt per se
+            <lb ed="#Bb"/>quid sit Deus, vel quid sit veritas : hoc
+            <lb ed="#Bb"/>enim ab omni creatura remotum es! : sed
+            <lb ed="#Bb"/>solummodo cognoscunt se esse, et 
+            veri<lb ed="#Bb" break="no"/>tatem que Deus est, superessentialiter
+            <lb ed="#Bb"/>esse, et ab ipsa omnia procedere. </quote> Etisti
+          <lb ed="#Bb"/>sancti qui inducti sunt, dicunt hoc 
+          sen<lb ed="#Bb" break="no"/>tire Joannem, quando dicit : Deum nemo
+          <lb ed="#Bb"/>viditumquam, unigenitus Filius, quiest in
+          <lb ed="#Bb"/>sinu Patris, ipse enarravit '. Unde 
+          Joan<lb ed="#Bb" break="no"/>nes Chrysostomus in preinducta homilia
+          <lb ed="#Bb"/>idem verbum tractans, sic concludit 
+          di<lb ed="#Bb" break="no"/>cens. <quote xml:id="Almn78-e07707-Qd1e559"> Solus ergo videt se Pater et 
+            Fi<lb ed="#Bb" break="no"/>lius et Spiritus sanctus. </quote> Ex omnibus
+          <lb ed="#Bb"/>his accipitur, quod a nullo Angeloram
+          <lb ed="#Bb"/>Deus immediate videtur, sed sub 
+          theo<lb ed="#Bb" break="no"/>phaniis illuminantibus ad ipsum. Sep
+          <lb ed="#Bb"/>contra hoc est quod dicitur in prima 
+          Ca<lb ed="#Bb" break="no"/>nonica Joannis, ur, 2: Scimus, guoniam
+          <lb ed="#Bb"/>cum apparueril, similes ei erimus, 
+          quo<lb ed="#Bb" break="no"/>niam videbimus eum sicuti est. Est etiam
+          <lb ed="#Bb"/>contra hoc quod dicitur, Matth. xvi,
+          <lb ed="#Bb"/>10: Angeli eorum in celis semper 
+          vi<lb ed="#Bb" break="no"/>dent faciem Patris mei qui in ceelis est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e587">
+                     <lb ed="#Bb"/>7. Adhuc, Magister Hugo de sancto
+          <lb ed="#Bb"/>Victore : <quote xml:id="Almn78-e07707-Qd1e593"> Quid est dicere Deum sub
+            <lb ed="#Bb"/>theophania videri, et sine theophania
+            <lb ed="#Bb"/>non videri, nisi Deum ut est numquam
+            <lb ed="#Bb"/>videri? Quod expresse contra Joannem
+            <lb ed="#Bb"/>est qui dicit : Videbimus eum sicuti est?.
+            <lb ed="#Bb"/>Et contra Paulum, I ad Corinth.xuy, 12:
+            <lb ed="#Bb"/>Videmus nunc per speculum in 
+            enigma<lb ed="#Bb" break="no"/>te: tune autem facie ad faciem, Tollant
+            <lb ed="#Bb"/>igitur theophanias suas: quia sicut in
+            <lb ed="#Bb"/>creando nihil nos creavit preter ipsum,
+            <lb ed="#Bb"/>ita in visione glorie nihil nos sistet 
+            us<lb ed="#Bb" break="no"/>que ipsum. </quote>
+                  </p>
+                  <p xml:id="Almn78-e07707-d1e620">
+                     <lb ed="#Bb"/>Solutio. Dicendum quod in verilate
+          <lb ed="#Bb"/>in theophania est duplex lumen, sicut et
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>in scientia et in fide. Unum quod 
+          descen<lb ed="#Bb" break="no"/>ditin intellectum Angeli: et est lumen
+          <lb ed="#Bb"/>gloria et gratie create, elevans 
+          intelle<lb ed="#Bb" break="no"/>ctum ut acies ejus in excellentissima luce
+          <lb ed="#Bb"/>increata figi possit, ut videat eam sicuti
+          <lb ed="#Bb"/>est. Unde illud non est medium inter
+          <lb ed="#Bb"/>visum et Angelum videntem : non enim
+          <lb ed="#Bb"/>mediat, sed confortat videntem ut videre
+          <lb ed="#Bb"/>possit : et potius habet rationem virtutis
+          <lb ed="#Bb"/>et gratie et glorie, quam rationem 
+          me<lb ed="#Bb" break="no"/>dii quo videatur Deus. Ab ipso enim
+          <lb ed="#Bb"/>confortatur videns intellectus, et ut 
+          vi<lb ed="#Bb" break="no"/>dere possit, et ut videalur Deus : et 
+          me<lb ed="#Bb" break="no"/>diante ipso non videtur occultum Dei, sed
+          <lb ed="#Bb"/>potius videtur immediate ab intellectu
+          <lb ed="#Bb"/>confortato per ipsum.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e664">
+                     <lb ed="#Bb"/>Ad id quod primo objicitur, dicendum
+          <lb ed="#Bb"/>quod ¢heophania equivocum est : dicitur
+          <lb ed="#Bb"/>enim communiter, et proprie. 
+          Commu<lb ed="#Bb" break="no"/>niler omnis visio, sive symbolica, sive
+          <lb ed="#Bb"/>mystica, sive per speciem expressa, in
+          <lb ed="#Bb"/>qua aliquid apparet divinum, ¢heophania
+          <lb ed="#Bb"/>dicitur. Et sic Dionysius in inducta 
+          au<lb ed="#Bb" break="no"/>cloritate loquitur de theophania. Proprie
+          <lb ed="#Bb"/>autem dicitur ctheophania illuminatio
+          <lb ed="#Bb"/>descendens a Deo per modum gloria,
+          <lb ed="#Bb"/>per quam elevatur intellectus angelicus
+          <lb ed="#Bb"/>et illuminatur ad cognoscendum id quod
+          <lb ed="#Bb"/>agendum est ex ordine hierarchico in quo
+          <lb ed="#Bb"/>constitutus est Angelus,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e698">
+                     <lb ed="#Bb"/>Ad primum Commentatoris dicendum,
+          <lb ed="#Bb"/>quod talis illuminatio deseendens, a 
+          Com<lb ed="#Bb" break="no"/>mentatore vocatur signum, quod licet
+          <lb ed="#Bb"/>quoad nos sit invisibile et insensibile, 
+          ta<lb ed="#Bb" break="no"/>men signum dicitur ad Angelum, quia
+          <lb ed="#Bb"/>per ipsum significatur Angelo quid 
+          hie<lb ed="#Bb" break="no"/>rarchica illuminatione sit agendum in
+          <lb ed="#Bb"/>scientiis et actionibus hierarchicis 
+          secun<lb ed="#Bb" break="no"/>dum principatum sacrum in quo 
+          consti<lb ed="#Bb" break="no"/>tuitur Angelus.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e722">
+                     <lb ed="#Bb"/>Illa duo que objiciuntur in contrarium,
+          <lb ed="#Bb"/>jam soluta sunt per divisionem que data
+          <lb ed="#Bb"/>est de nomine ¢heophaniz dicto 
+          commu<lb ed="#Bb" break="no"/>niler et proprie. °
+        </p>
+                  <p xml:id="Almn78-e07707-d1e733">
+                     <lb ed="#Bb"/>Ad dictum Dionysit ad Gaium 
+          mona<lb ed="#Bb" break="no"/>chum, dicendum quod hoc verum est,
+          <lb ed="#Bb"/>quod intellectus angelicus juvatur aliquo
+          <pb ed="#Bb" n="486"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>ad videndum Deum, sine quo Deum 
+          vi<lb ed="#Bb" break="no"/>dere non posset : sed hoc non habet 
+          ope<lb ed="#Bb" break="no"/>ralionem medii ad Deum qui videtur, sed
+          <lb ed="#Bb"/>operationem virtulis ad intellectum 
+          vi<lb ed="#Bb" break="no"/>dentis, ut dictum est. Et est simile, quod
+          <lb ed="#Bb"/>herodius adunationem visus habet, per
+          <lb ed="#Bb"/>quam polest intueri solem in rota: quam
+          <lb ed="#Bb"/>quia non habet noctua vel vespertilio,
+          <lb ed="#Bb"/>solem i in rota videre non potest.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e766">
+                     <lb ed="#Bb"/>Ad id quod dicitur de Chrysostomo,
+          <lb ed="#Bb"/>dicendum quod Chrysoslomus loquitur
+          <lb ed="#Bb"/>de visione comprehensionis, qua’ nulla
+          <lb ed="#Bb"/>crealura umgquam Deum vidit vel videbit:
+          <lb ed="#Bb"/>quia, sicut dicit Auguslinus in libro de
+          <lb ed="#Bb"/>Viderdo Deum ad Paulinam, <quote xml:id="Almn78-e07707-Qd1e781"> Solus
+            <lb ed="#Bb"/>Deus suiipsius est comprehensor. </quote> De
+          <lb ed="#Bb"/>hoc tamen multa dicta sunt in primo libro,
+          <lb ed="#Bb"/>questione, An Deus possit videri per
+          <lb ed="#Bb"/>essentiam *,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e793">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod substantia
+          <lb ed="#Bb"/>ast duplex, scilicet que est Deus, et que
+          <lb ed="#Bb"/>comprehensive dicit quid est Deus. 
+          Pri<lb ed="#Bb" break="no"/>mam substantiam vident Angeli ut 
+          pela<lb ed="#Bb" break="no"/>gus substantia infinitum. Et de hae bene
+          <lb ed="#Bb"/>loquuntur, Isa. vi, 3: Dominus Deus
+          <lb ed="#Bb"/>sabaoth *. Dominus enim Deus talem 
+          di<lb ed="#Bb" break="no"/>cit substantiam. Sed de illa que 
+          compre<lb ed="#Bb" break="no"/>hensive dicit quid est Deus, nihil 
+          loquun<lb ed="#Bb" break="no"/>tur : quia illam non‘'comprehendunt, ut
+          <lb ed="#Bb"/>dictum est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e819">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod ex diclo
+          <lb ed="#Bb"/>Joannis Episcopi et expositoris, nihil
+          <lb ed="#Bb"/>plus habetur, nisi quod 
+          incomprehensi<lb ed="#Bb" break="no"/>bilis est Deus, et visione 
+          comprehensio<lb ed="#Bb" break="no"/>nis a nulla creatura visibilis : tamen 
+          vi<lb ed="#Bb" break="no"/>sione substantie ejus cognoscunt, quia
+          <lb ed="#Bb"/>est Deus, et-hoc quod est Deus, et quod
+          <lb ed="#Bb"/>super omneni crealuram est exaltatus,
+          <lb ed="#Bb"/>et quia omnia procedunt ab ipso, et quod
+          <lb ed="#Bb"/>visione comprehcnsionis Deum nemo
+          <lb ed="#Bb"/>vidit umquam, nisi unigenitus Filius,
+          <lb ed="#Bb"/>gui éstin sinu Patris, et Spiritus 
+          san<lb ed="#Bb" break="no"/>ctus, ut dictum est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e851">
+                     <lb ed="#Bb"/>Ad illud quod contra hoc objicitur, di
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>cendum quod videbimus eum quidem
+          <lb ed="#Bb"/>facie adfaciem siculi est, sed non visione
+          <lb ed="#Bb"/>comprehensionis. Et sic etiam Angeli
+          <lb ed="#Bb"/>vident faciem Patris sicuti est, sed non
+          <lb ed="#Bb"/>visione comprehensionis.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e869">
+                     <lb ed="#Bb"/>Ad ultimum dicendum, quod Magister
+          <lb ed="#Bb"/>Hugo loquitur contra quosdam errantes,
+          <lb ed="#Bb"/>gui dicebant theophaniam esse medium
+          <lb ed="#Bb"/>in quo videretur Deux, et extra quod non
+          <lb ed="#Bb"/>videretur : ethoc falsum est et erroneum.
+          <lb ed="#Bb"/>Sed per hoc non removetur, quin 
+          theo<lb ed="#Bb" break="no"/>phania sit lumen’ descendens in 
+          intelle<lb ed="#Bb" break="no"/>ctum videntis, et habens in eo 
+          operatio<lb ed="#Bb" break="no"/>nem virtutis et gratie elevantis ipsum.
+          <lb ed="#Bb"/>ut possit videre hoc quod sine ipso non
+          <lb ed="#Bb"/>posset.
+        </p>
+               </div>
+               <div xml:id="Almn78-e07707-Dd1e897">
+                  <head xml:id="Almn78-e07707-Hd1e899">Articulus 2</head>
+                  <head xml:id="Almn78-e07707-Hd1e902" type="question-title">
+          Unde theophania descendat in Angelos,
+          utrum scilicet a solo Deo, vel etiam ab
+          hamine Christo, vel etiam a beala 
+          Virgine
+        </head>
+                  <p xml:id="Almn78-e07707-d1e905">
+                     <lb ed="#Bb"/>MEMBRI PRIMI
+          <lb ed="#Bb"/>ARTICULUS II.
+          <lb ed="#Bb"/>Unde theophania descendat in Angelos,
+          <lb ed="#Bb"/>utrum scilicet a solo Deo, vel etiam ab
+          <lb ed="#Bb"/>hamine Christo, vel etiam a beala 
+          Vir<lb ed="#Bb" break="no"/>gine?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e921">
+                     <lb ed="#Bb"/>Secundo queritur, Unde descendat in
+          <lb ed="#Bb"/>Angelos, utrum scilicet a solo Deo, vel
+          <lb ed="#Bb"/>eliam ab homine Christo, vel etiam a
+          <lb ed="#Bb"/>beata Virgine ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e932">
+                     <lb ed="#Bb"/>Quod ab homine Christo descendant
+          <lb ed="#Bb"/>illuminationes in Angelos, et non a solo
+          <lb ed="#Bb"/>Deo, probatur sic :
+        </p>
+                  <p xml:id="Almn78-e07707-d1e942">
+                     <lb ed="#Bb"/>4. Dionysius in libro de Divinis 
+          nomi<lb ed="#Bb" break="no"/>nibus: <quote xml:id="Almn78-e07707-Qd1e948"> Sanclissime et provectissime
+            <lb ed="#Bb"/>virtules existentes, et sicut in vestibulis
+            <lb ed="#Bb"/>supersubstantialis trinitatis collocate, ab
+            <lb ed="#Bb"/>ipsa et in ipsa et esse et deiformiter esse
+            <lb ed="#Bb"/>habent : et post illas subjecte et 
+            extre<lb ed="#Bb" break="no"/>sanctus Dominus, Deus exercttuum.
+            <pb ed="#Bb" n="487"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb"/>me, sicut ad Angelos'. </quote> Ex hoc 
+          accipi<lb ed="#Bb" break="no"/>tur, quod in mansionibus domus Dei, in
+          <lb ed="#Bb"/>qua mansiones multe sunt *, semper 
+          in<lb ed="#Bb" break="no"/>ferior ad esse deitorme formatur a 
+          supe<lb ed="#Bb" break="no"/>riore. Cum ergo dicatur, ad Coloss. im,
+          <lb ed="#Bb"/>4, quod Dominus noster Jesus Christus
+          <lb ed="#Bb"/>sit in dextera Dei sedens super omnes
+          <lb ed="#Bb"/>Angelos, videtur quod ad esse deiforme
+          <lb ed="#Bb"/>formantur a theophaniis descendentibus
+          <lb ed="#Bb"/>ab homine Christo: et sic non a sclo Deo
+          <lb ed="#Bb"/>recipiunt theophanias, sed etiam ab 
+          hu<lb ed="#Bb" break="no"/>manitate Christi.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e993">
+                     <lb ed="#Bb"/>2. Adhue, Dionysius in Celesti 
+          hierar<lb ed="#Bb" break="no"/>chia sic dicit : <quote xml:id="Almn78-e07707-Qd1e999"> Quasdam quesliones
+            <lb ed="#Bb"/>Angeli faciunt apud ipsum Jesum 
+            que<lb ed="#Bb" break="no"/>rentes, et pro nobis sue divine actionis
+            <lb ed="#Bb"/>scientiam discentes, et eas ipsum Jesum
+            <lb ed="#Bb"/>immediate docentem, et prelargiens eis
+            <lb ed="#Bb"/>manifestantem suam humanam 
+            benigni<lb ed="#Bb" break="no"/>tatem. Ego enim, inquit, disputo 
+            justi<lb ed="#Bb" break="no"/>tiam et judicium salutaris*. </quote> Et tangit
+          <lb ed="#Bb"/>hoc quod, Isa. rxi, 1: Quis est *ste, qui
+          <lb ed="#Bb"/>venit de Edom, tinctis vestibus de 
+          Bos<lb ed="#Bb" break="no"/>ra? Et respondet Dominus : Ego gui
+          <lb ed="#Bb"/>loquor justitiam, et propugnator sum
+          <lb ed="#Bb"/>ad salvandum. Vbi enim et alia 
+          transla<lb ed="#Bb" break="no"/>tio habet : <quote xml:id="Almn78-e07707-Qd1e1030"> Ego qui disputo justitiam et
+            <lb ed="#Bb"/>judicium salutaris. </quote> Ex hoc accipitur,
+          <lb ed="#Bb"/>quod Angeli a Christo homine 
+          questio<lb ed="#Bb" break="no"/>nes faciunt, et querunt de quesitis 
+          illu<lb ed="#Bb" break="no"/>minationes. Illuminationes ergo sive
+          <lb ed="#Bb"/>theophaniz a Christo homine descendunt
+          <lb ed="#Bb"/>in Angelos.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1047">
+                     <lb ed="#Bb"/>3. Adhuc, Glossa super idem verbum
+          <lb ed="#Bb"/>Isaiw, ux, 1, sic dicit: <quote xml:id="Almn78-e07707-Qd1e1053"> Quidam 
+            An<lb ed="#Bb" break="no"/>geli non plene cognoscentes mysterium
+            <lb ed="#Bb"/>incarnationis, passionis, et 
+            resurrectio<lb ed="#Bb" break="no"/>nis, videntes ad ceelum ascendere 
+            Domi<lb ed="#Bb" break="no"/>num cum mullitudine Angelorum et
+            <lb ed="#Bb"/>sanclorum hominum propria virtute,
+            <lb ed="#Bb"/>non a Christo, sed ab Angelis 
+            comitanti<lb ed="#Bb" break="no"/>bus querunt incarnationis et passionis et
+            <lb ed="#Bb"/>resurrectionis et ascensionis mysterium.
+            <lb ed="#Bb"/>Unde et quomodo et sibi et aliis aperiat
+            <lb ed="#Bb"/>regna ccelorum requirunt, dicentes Ange
+            <cb ed="#Bb" n="b"/>
+                        <lb ed="#Bb"/>lis comitantibus eum, et non Christo :
+            <lb ed="#Bb"/>Quis est iste, gui venit de Edom? Et in
+            <lb ed="#Bb"/>Psalmo xxut, 8, 10 : Quis est iste rex
+            <lb ed="#Bb"/>gloriz ? et exspectant a Christo 
+            illumina<lb ed="#Bb" break="no"/>tionem. </quote> Et ex hoc sequitur idem quod
+          <lb ed="#Bb"/>prius. .
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1093">
+                     <lb ed="#Bb"/>4. Adhuc, Hieronymus dicit : <quote xml:id="Almn78-e07707-Qd1e1097"> 
+            Qui<lb ed="#Bb" break="no"/>dam Angeli donee perficeretur 
+            myste<lb ed="#Bb" break="no"/>tium incarnationis, ad plenum non co
+            <lb ed="#Bb"/>gnoverunt. Et constat, quod illia Christo
+            <lb ed="#Bb"/>jam incarnato illuminationem 
+            accepe<lb ed="#Bb" break="no"/>runt. </quote>
+                  </p>
+                  <p xml:id="Almn78-e07707-d1e1111">
+                     <lb ed="#Bb"/>3. Adhuc, Apocal. xx1, 23 : Civitas
+          <lb ed="#Bb"/>non egel sole, neque luna, ut luceant in
+          <lb ed="#Bb"/>ea. Nicit Glossa : <quote xml:id="Almn78-e07707-Qd1e1119"> Claritas Dei 
+            tllumi<lb ed="#Bb" break="no"/>navit eam, et lucerna ejus Agnus, id
+            <lb ed="#Bb"/>est, humanitas ad illuminationem 
+            illo<lb ed="#Bb" break="no"/>rum. </quote> Ergo ab humanitate Christi
+          <lb ed="#Bb"/>descendunt illuminationes in homines
+          <lb ed="#Bb"/>qui sunt in patria.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1134">
+                     <lb ed="#Bb"/>6. Adhuc, I Petri, 1,12: In quem 
+          de<lb ed="#Bb" break="no"/>siderant Angeli prospicere. Glossa, <quote xml:id="Almn78-e07707-Qd1e1140"> 
+            Tan<lb ed="#Bb" break="no"/>ta est ejus qui passus est pro nobis gloria
+            <lb ed="#Bb"/>posterior, ut etiam angelice virlutes in
+            <lb ed="#Bb"/>ceelo, cum sint weterna felicitate perfecte,
+            <lb ed="#Bb"/>non solum immortalis deitatis 
+            magnifi<lb ed="#Bb" break="no"/>centiam, sed etiam assumpte 
+            humanita<lb ed="#Bb" break="no"/>tis ejus claritalem semper adspicere 
+            gau<lb ed="#Bb" break="no"/>deant. </quote> Sed ad hoc adspiciunt, a quo
+          <lb ed="#Bb"/>illuminantur. Ergo ab humanitate Christi
+          <lb ed="#Bb"/>illuiminantur.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1164">
+                     <lb ed="#Bb"/>Sed contra hoc videtur esse, quod 
+          di<lb ed="#Bb" break="no"/>citur in Psalmo vin, 6: Adinuisti eum
+          <lb ed="#Bb"/>paulo minus ab Angelis. Quod tractans
+          <lb ed="#Bb"/>Apostolus, ad Hebr. u, 9}: Bum, gui
+          <lb ed="#Bb"/>modico quam Angeli minoratus est, 
+          vi<lb ed="#Bb" break="no"/>demus Jesum, propler passionem mortis,
+          <lb ed="#Bb"/>gloria et honore coronatum. Ex hoc
+          <lb ed="#Bb"/>accipitur, quod Christus per passibilem
+          <lb ed="#Bb"/>naturam non illuminat Angelos.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1186">
+                     <lb ed="#Bb"/>Ulterius queritur, Si a beata Virgine
+          <lb ed="#Bb"/>accipiant illuminationes ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1193">
+                     <lb ed="#Bb"/>Et videtur, quod sic : quia
+          <lb ed="#Bb"/>1. Si propter quesliones quas faciuat
+          <pb ed="#Bb" n="488"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>Christo, iluminari dicuntur,ut dicit 
+          Dio<lb ed="#Bb" break="no"/>nysius : tune propter similes questiones
+          <lb ed="#Bb"/>quas faciunt beate Virgini, dicuntur 
+          illu<lb ed="#Bb" break="no"/>minari a beata Virgine. Similes autem
+          <lb ed="#Bb"/>faciunt beate Virgini. Cantic. vin, 5, ubi
+          <lb ed="#Bb"/>dicitur : Quee est ista que ascendit de 
+          de<lb ed="#Bb" break="no"/>serto, deliciis affluens, innixa super
+          <lb ed="#Bb"/>dilectum suum? Hee enim secundum
+          <lb ed="#Bb"/>Origenem, questio est sodalium sponsi,
+          <lb ed="#Bb"/>qui sunt Angeli, de ea que pre ceteris
+          <lb ed="#Bb"/>sponsa est, eo quod de corpore ejus 
+          ac<lb ed="#Bb" break="no"/>cepit quod in unitalem persone 
+          copu<lb ed="#Bb" break="no"/>lavit. Ht si quaestio est desiderium 
+          illu<lb ed="#Bb" break="no"/>minalionis, constat quod ab ipsa Angeli
+          <lb ed="#Bb"/>exspectant illuminationem.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1237">
+                     <lb ed="#Bb"/>2, Adhuc, Hieronymus in sermone,
+          <lb ed="#Bb"/>Cogitis me,o Paula, dicit, quod <quote xml:id="Almn78-e07707-Qd1e1243"> beata
+            <lb ed="#Bb"/>Virgo exaltata est super omnes choros
+            <lb ed="#Bb"/>Angelorum : </quote> quod de nallo aliorum
+          <lb ed="#Bb"/>sanclorum credendum est. Si ergo a 
+          su<lb ed="#Bb" break="no"/>periori descendit illuminatio in inferiores,
+          <lb ed="#Bb"/>a beata Virgine descendet illuminatio in
+          <lb ed="#Bb"/>Angelos.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1260">
+                     <lb ed="#Bb"/>Contra hoc tamen quidam objiciunt
+          <lb ed="#Bb"/>sic, quod beata Virgo simplex creatura .
+          <lb ed="#Bb"/>est :a simplici autem creatura non 
+          pot<lb ed="#Bb" break="no"/>est esse illuminatio ad beatitudinem 
+          per<lb ed="#Bb" break="no"/>iinens : cum ergo illuminationes 
+          Ange<lb ed="#Bb" break="no"/>lorum ad beatitudinem pertineant, 
+          vide<lb ed="#Bb" break="no"/>tur quod Angeli non illuminantur a beata
+          <lb ed="#Bb"/>Virgine.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1280">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod quilibet 
+          in<lb ed="#Bb" break="no"/>ferior illuminatur a quolibet superiori,
+          <lb ed="#Bb"/>sive a Deo, sive humine Christo, sive
+          <lb ed="#Bb"/>beata Virgine, sive Angelo,
+          <lb ed="#Bb"/>Auctoritates ergo,’ quod ab homine
+          <lb ed="#Bb"/>Christo illuminationes descendant in 
+          An<lb ed="#Bb" break="no"/>gelum, concedende sunt.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1299">
+                     <lb ed="#Bb"/>Ao w1up quod objicitur in contrarium,
+          <lb ed="#Bb"/>dicendum quod minoratio qua minoratus
+          <lb ed="#Bb"/>est Christus, est secundum quid, scilicet
+          <lb ed="#Bb"/>secundum passionem mortis, ut dicit
+          <lb ed="#Bb"/>Apostolus. Et ex hoc per viam meriti
+          <lb ed="#Bb"/>aucta est claritas ejus, sicut et Apostolus
+          <lb ed="#Bb"/>dicit, ad Hebr. 11, 9, quod <quote xml:id="Almn78-e07707-Qd1e1316">propter 
+            pas<lb ed="#Bb" break="no"/>stonem mortis videmus Jesum gloria et
+            <cb ed="#Bb" n="b"/>
+                        <lb ed="#Bb"/>honore coronatum</quote>. Unde per hoc 
+          poten<lb ed="#Bb" break="no"/>tior est factus ad illuminandum.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1328">
+                     <lb ed="#Bb"/>AD ID quod objicitur de beata Virgine,
+          <lb ed="#Bb"/>concedendum est : in multis enim 
+          illu<lb ed="#Bb" break="no"/>minavit Angelos, Apostolos, et 
+          Evange<lb ed="#Bb" break="no"/>listas per doctrinam ante assumplionem :
+          <lb ed="#Bb"/>post assumptionem autem in supremo
+          <lb ed="#Bb"/>situ poli, cum positus sit thronus ejus
+          <lb ed="#Bb"/>juxta thronum summi regis, sicut 
+          dici<lb ed="#Bb" break="no"/>tur, JIT Reg. u, 19, lumen ejus fulget
+          <lb ed="#Bb"/>super omnem mulltiludinem beaterum
+          <lb ed="#Bb"/>tam Angelorum, quam hominum 
+          sancto<lb ed="#Bb" break="no"/>rum. ,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1354">
+                     <lb ed="#Bb"/>Ad illud quod contra objicitur, 
+          di<lb ed="#Bb" break="no"/>cendum est secundum Magistrum 
+          Hugo<lb ed="#Bb" break="no"/>nem de sancto Victore, cujus hac sunt
+          <lb ed="#Bb"/>verba : <quote xml:id="Almn78-e07707-Qd1e1364"> Sicut duo sunt, lumen scilicet,
+            <lb ed="#Bb"/>et quod suscipit lumen corpus, et ex his
+            <lb ed="#Bb"/>duobus unum efficitur lucens, et ipsum
+            <lb ed="#Bb"/>lucens imago quodammodo est et 
+            simi<lb ed="#Bb" break="no"/>litudo luminis : ita Deus noster lumen
+            <lb ed="#Bb"/>est, et verum lumen, et ipsum lumen 
+            ra<lb ed="#Bb" break="no"/>tionales animi mundi et puri concipiunt,
+            <lb ed="#Bb"/>et ex eo lucentes fiunt, et non sunt ipsi
+            <lb ed="#Bb"/>imago luminis in eo’ quod sunt, sed in eo
+            <lb ed="#Bb"/>quod lucent ex lumine, sicut ipsum 
+            lu<lb ed="#Bb" break="no"/>men lucent, et sunt ipsa lucentia 
+            theo<lb ed="#Bb" break="no"/>phaniis luminis in quibus videtur. </quote>
+                     <lb ed="#Bb"/>Unde quod in beata Virgine luect, Deus
+          <lb ed="#Bb"/>est, et ideo lumen ejus est ad 
+          beatitudi<lb ed="#Bb" break="no"/>nem gloriz sicut et lumen Dei. Non 
+          opor<lb ed="#Bb" break="no"/>tet autem hic querere, quomodo unus
+          <lb ed="#Bb"/>Angelus illuminatur ab alio? hoc enim
+          <lb ed="#Bb"/>habitum est in tractatude hierarchiis'.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1404">
+                     <lb ed="#Bb"/>Nec oportet hic querere, Si aliquam 
+          il<lb ed="#Bb" break="no"/>luminationem Angeli acceperint ab 
+          Ec<lb ed="#Bb" break="no"/>clesia? hoc enim salis determinaltum est
+          <lb ed="#Bb"/>in tractatu de cognitione Angelorum, in
+          <lb ed="#Bb"/>questione ubi quesitum est, Utrum 
+          co<lb ed="#Bb" break="no"/>gnitionem mysterii,incarnationis 
+          habue<lb ed="#Bb" break="no"/>runt a creatione, vel non*? et si 
+          profece<lb ed="#Bb" break="no"/>runt aliquid in tali cognitione a 
+          predica<lb ed="#Bb" break="no"/>tione Apostolorum et ab Ecclesia ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1426">
+                     <lb ed="#Bb"/>Et ideo patent ista ex dictis.
+        </p>
+               </div>
+            </div>
+            <div xml:id="Almn78-e07707-Dd1e1433">
+               <head xml:id="Almn78-e07707-Hd1e1435">Membrum 2</head>
+               <head xml:id="Almn78-e07707-Hd1e1438" type="question-title">
+        De actibus hierarchicis Angelorum
+      </head>
+               <p xml:id="Almn78-e07707-d1e1441">
+                  <pb ed="#Bb" n="489"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>De actibus hierarchicis Angelorum.
+      </p>
+               <p xml:id="Almn78-e07707-d1e1452">
+                  <lb ed="#Bb"/>Deinve, Queritur de actibus 
+        communi<lb ed="#Bb" break="no"/>bus Angeloram, qui sunt purgare, 
+        illu<lb ed="#Bb" break="no"/>minare, et perficere.
+      </p>
+               <p xml:id="Almn78-e07707-d1e1461">
+                  <lb ed="#Bb"/>Et quaeruntur duo, scilicet qualiter
+        <lb ed="#Bb"/>conveniunt Angelis hi actus?
+        <lb ed="#Bb"/>Et secundo, Qualiter eis utuntur inter
+        <lb ed="#Bb"/>se, elt qualiter ad animas?
+        <lb ed="#Bb"/>Circa primum queruntur -tria + 
+        quo<lb ed="#Bb" break="no"/>rum primum est, An conveniat eis 
+        pur<lb ed="#Bb" break="no"/>gare, illuminare, et perficere ?
+        <lb ed="#Bb"/>Secundo, Secundum quid conveniat
+        <lb ed="#Bb"/>eis, utrum svilicet secundum 
+        distinctio<lb ed="#Bb" break="no"/>nem hbierarchiarum et ordinum vel 
+        per<lb ed="#Bb" break="no"/>sonarum ?
+        <lb ed="#Bb"/>Tertium, Utrum conveniat eis 
+        secun<lb ed="#Bb" break="no"/>dum prius vel posterius, vel ex equo?
+      </p>
+               <div xml:id="Almn78-e07707-Dd1e1493">
+                  <head xml:id="Almn78-e07707-Hd1e1495">Articulus 1</head>
+                  <head xml:id="Almn78-e07707-Hd1e1498" type="question-title">
+          Qualiter conveniunt Angelis actus
+          hierarchici
+        </head>
+                  <p xml:id="Almn78-e07707-d1e1501">
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS I.
+          <lb ed="#Bb"/>Qualiter conveniunt Angelis actus
+          <lb ed="#Bb"/>hierarchici ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1512">
+                     <lb ed="#Bb"/>ARTICULI PRIMI
+          <lb ed="#Bb"/>PARTICULA 1.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1519">
+                     <lb ed="#Bb"/>Utrum Angelis conveniat purgare, 
+          illu<lb ed="#Bb" break="no"/>minare, et perficeret?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1527">
+                     <lb ed="#Bb"/>Ad primum sic proceditur :
+          <lb ed="#Bb"/>4. Dicit beatus Dionysius in Celesti
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>hierarchia : <quote xml:id="Almn78-e07707-Qd1e1537"> Ordo hierarchiz est 
+            quos<lb ed="#Bb" break="no"/>dam quidem purgari, quosdam vero
+            <lb ed="#Bb"/>purgare : et quosdam quidem illuminari,
+            <lb ed="#Bb"/>quosdam vero illuminare : et quosdam
+            <lb ed="#Bb"/>quidem perfici, quosdam vero perficere,
+            <lb ed="#Bb"/>unicuique secundum deiformem 
+            aduna<lb ed="#Bb" break="no"/>tionem qualicumque modo. </quote> Ergo ista
+          <lb ed="#Bb"/>tria conveniunt Angelis.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1557">
+                     <lb ed="#Bb"/>2. Adhuec, In Celesti hierarchia, ante
+          <lb ed="#Bb"/>finem cap. 7, Dionysius adducit plures
+          <lb ed="#Bb"/>auctoritates Bibliz, quibus probat, quod
+          <lb ed="#Bb"/>unus Angelus alium purgat, illuminat,
+          <lb ed="#Bb"/>et perficit. Quarum prima esthec : 
+          Da<lb ed="#Bb" break="no"/>niel. vit, 13 et 16 : Factum est cum
+          <lb ed="#Bb"/>viderem, ego Daniel, visionem, et 
+          que<lb ed="#Bb" break="no"/>rerem intellectum ejus, ecce stetit in
+          <lb ed="#Bb"/>conspectu meo quasi species virt. Et 
+          au<lb ed="#Bb" break="no"/>divi vocem viri Ulai : e¢ clamavit, et ait:
+          <lb ed="#Bb"/>Gabriel, fac intelligere istam visionem.
+          <lb ed="#Bb"/>kx hoc accipitur, ut dicit Dionysius, 
+          ibi<lb ed="#Bb" break="no"/>dem’, quod unus Angelus mittit alium
+          <lb ed="#Bb"/>ad illuminandum hominem: quem non
+          <lb ed="#Bb"/>mitteret, nisi prius illuminasset de quo
+          <lb ed="#Bb"/>illuminaret hominem : ergo unus 
+          Ange<lb ed="#Bb" break="no"/>lus illuminat alium.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1596">
+                     <lb ed="#Bb"/>3. Adhuc, Ibidem adducit Dionysius
+          <lb ed="#Bb"/>illud Danielis, x, 13 et 14 : Eece Michael,
+          <lb ed="#Bb"/>unus de principibus primis, venit in 
+          ad<lb ed="#Bb" break="no"/>jutorium meum : elego remansi ibi juxta
+          <lb ed="#Bb"/>regem Persarum. Veni autem ut docerem
+          <lb ed="#Bb"/>le que ventura sunt populo tuo. Istud
+          <lb ed="#Bb"/>adjutorium dicit Dionysius non esse nisi
+          <lb ed="#Bb"/>in illuminationibus Angelorum ad 
+          invi<lb ed="#Bb" break="no"/>cem : ergo Angeli illuminant et 
+          illumi<lb ed="#Bb" break="no"/>nantur ad invicem.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1620">
+                     <lb ed="#Bb"/>4. Adhuc, Ad idem inducit illud 
+          Za<lb ed="#Bb" break="no"/>charie, 1,10 et 11 : Respondit vir qui
+          <lb ed="#Bb"/>stabat inter myrreta, et dixit : [sti sunt
+          <lb ed="#Bb"/>quos misit Dominus ut perambulent 
+          ter<lb ed="#Bb" break="no"/>ram. Et responderunt Angelo Domini,
+          <lb ed="#Bb"/>qui stabant inter myrleta, et dixerunt :
+          <lb ed="#Bb"/>Perambulavimus terram, et ecce omnis
+          <lb ed="#Bb"/>terra habitatur, et quiescit. Ex hoc 
+          acci<lb ed="#Bb" break="no"/>pitur, ut dicit Dionysius, quod Angeli
+          <lb ed="#Bb"/>qui perambulaverunt terram, docuerunt
+          <pb ed="#Bb" n="490"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>eum qui stabat in myrleto, quod terra
+          <lb ed="#Bb"/>habitaretur et quiesceret : ct cum hoc
+          <lb ed="#Bb"/>non possit fieri, nisi per illuminationem,
+          <lb ed="#Bb"/>constat quod unus illuminat alium.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1657">
+                     <lb ed="#Bb"/>3, Adhuc, Inducit hoc quod dicitur,
+          <lb ed="#Bb"/>Isa. wt, 3: Clamabant alter ad 
+          alte<lb ed="#Bb" break="no"/>rum. Et dicit, quod clamare alterum ad
+          <lb ed="#Bb"/>alterum nihil aliud est, quam dare
+          <lb ed="#Bb"/>sibi illuminationem, sive illuminare 
+          ip<lb ed="#Bb" break="no"/>sum.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1673">
+                     <lb ed="#Bb"/>4. Adhuc, illud inducit ibidem 
+          Ezechie<lb ed="#Bb" break="no"/>lis, x, 3 et seq. : Gloria Domini Israel
+          <lb ed="#Bb"/>assumpta est de Cherub, que erat super
+          <lb ed="#Bb"/>eum ad limen domus: Et vocavit virum
+          <lb ed="#Bb"/>gui indutus erat lineis,... et dixit 
+          Domi<lb ed="#Bb" break="no"/>nus ad eum : Transi per mediam 
+          civila<lb ed="#Bb" break="no"/>tem, in medio Jerusalem, et signa thau
+          <lb ed="#Bb"/>super frontes virorum gementium et 
+          do<lb ed="#Bb" break="no"/>lentium super cunctis abominationibus
+          <lb ed="#Bb"/>que fiunt in medio ejus. Et ecce sex viri
+          <lb ed="#Bb"/>quorum unusquisque habebat vas 
+          inte<lb ed="#Bb" break="no"/>ritus in manu sua. L£tillis dixit, audiente
+          <lb ed="#Bb"/>me : Transile per civitaiem sequentes
+          <lb ed="#Bb"/>eum, ef percutiie : non parcat oculus
+          <lb ed="#Bb"/>vester, neque misereamini : senem, 
+          ado<lb ed="#Bb" break="no"/>lescentulum et virginem, parvulum et
+          <lb ed="#Bb"/>mulieres interficite usque ad 
+          internecio<lb ed="#Bb" break="no"/>nem : omne autem super quem videritis
+          <lb ed="#Bb"/>thau, ne occidatis, et a sancluario meo
+          <lb ed="#Bb"/>incipite. Ex hoc, ut dicit Dionysius, 
+          pa<lb ed="#Bb" break="no"/>tet quod sex sequentes erudiebantur a
+          <lb ed="#Bb"/>primo divinum judicium, et 
+          illuminaban<lb ed="#Bb" break="no"/>tur : et sic convenit Angelis illuminare
+          <lb ed="#Bb"/>et illuminari.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1729">
+                     <lb ed="#Bb"/>7. Adhuc, Ibidem inducit illud 
+          Eze<lb ed="#Bb" break="no"/>chiclis, x, 1 et2: Et ecce, in firmamento
+          <lb ed="#Bb"/>guod erat super caput Cherubin, quasi
+          <lb ed="#Bb"/>lapis sapphirus, quast species 
+          simili<lb ed="#Bb" break="no"/>tudinis solii, apparuit super eam. Et
+          <lb ed="#Bb"/>dizit ad virum qui indutus erat lineis, et
+          <lb ed="#Bb"/>ait : Ingredere in medio rotarum que
+          <lb ed="#Bb"/>sunt subtus Cherubim, et imple manum
+          <lb ed="#Bb"/>tuam prunis ignis que sunt intra 
+          Cheru<lb ed="#Bb" break="no"/>bim, et effunde super civitatem. Hoc
+          <lb ed="#Bb"/>enim dicit Dionysius, quod cum unus
+          <lb ed="#Bb"/>alteri loquebatur, ut doceret quid ageret,
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>et unus alterum illuminaret. Et ex hoc
+          <lb ed="#Bb"/>sequitur idem quod prius.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1764">
+                     <lb ed="#Bb"/>8. Adhuc, Inducit illud Apocalypsis,
+          <lb ed="#Bb"/>vu, 2 et 3 : Vidi allerum Angelum 
+          ascen<lb ed="#Bb" break="no"/>dentem ab ortu solis, habentem 
+          sig<lb ed="#Bb" break="no"/>num Dei vivi : et clamavit voce magna
+          <lb ed="#Bb"/>guatuor Angelis, quibus datum est nocere
+          <lb ed="#Bb"/>terre et mari dicens : Nolite nocere terre
+          <lb ed="#Bb"/>et mari, neque arboribus, quoadusque
+          <lb ed="#Bb"/>signemus servos Dei nostri in frontibus
+          <lb ed="#Bb"/>eorum. Ex hoc iterum accipilur, ut dicit
+          <lb ed="#Bb"/>Dionysius, quod quidam Angeli 
+          illumi<lb ed="#Bb" break="no"/>nantur ab ipso sole, hoc est, Deo, sicut
+          <lb ed="#Bb"/>ille qui ascendit ab ortu solis. Quidam
+          <lb ed="#Bb"/>autem ab Angelis, sicut sunt illi quatuor
+          <lb ed="#Bb"/>ad quos clamavit ille qui ab ortu solis
+          <lb ed="#Bb"/>ascendit. Clamor enim non significat nisi
+          <lb ed="#Bb"/>immisionem doctrine : et hee est 
+          illu<lb ed="#Bb" break="no"/>minatio, quia dicit Magister Hugo de
+          <lb ed="#Bb"/>sancte Victore, quod per illuminationem
+          <lb ed="#Bb"/>efficiuntur gratie et scicnlie participes.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1808">
+                     <lb ed="#Bb"/>Sed Tunc queritur, Utrum conveniat
+          <lb ed="#Bb"/>eis purgalio ? cum, sicut Dionysius dicit
+          <lb ed="#Bb"/>in libro de Divinis nominibus ', quod
+          <lb ed="#Bb"/>sint specula munda et clarissima, in 
+          qui<lb ed="#Bb" break="no"/>bus non est malum.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1821">
+                     <lb ed="#Bb"/>Et videtur, quod sic.
+          <lb ed="#Bb"/>1. Dicit enim Dionysius in Celesti
+          <lb ed="#Bb"/>hierarchia, quod oportet purgandos
+          <lb ed="#Bb"/>puros perfici omnino, et ab omni liberari
+          <lb ed="#Bb"/>dissimilitudinis confusione. Si ergo 
+          ha<lb ed="#Bb" break="no"/>bent dissimilitudinis confusionis, aliquid
+          <lb ed="#Bb"/>purgabile est in ipsis: et sic oportet eos
+          <lb ed="#Bb"/>purgari.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1841">
+                     <lb ed="#Bb"/>2. Adhuc, In intellectu humano sic est,
+          <lb ed="#Bb"/>quod non illuminatur per scientiam nisi
+          <lb ed="#Bb"/>pellatur dispositio contraria ignorantia :
+          <lb ed="#Bb"/>ergo videtur, quod similiter sit in Ange
+          <lb ed="#Bb"/>lis.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1854">
+                     <lb ed="#Bb"/>3. Adhuc, Job, iv, 18: Eece gui 
+          ser<lb ed="#Bb" break="no"/>viune ei, non sunt stabiles, et in Angelis
+          <lb ed="#Bb"/>suis reperit pravitatem. Sed in quo 
+          in<lb ed="#Bb" break="no"/>venitur pravitas, indiget purgatione.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1866">
+                     <lb ed="#Bb"/>4, Adhuc, Job, xxv, 3: Eece lunanon
+          <lb ed="#Bb"/>splendet, et stelle non sunt munde in
+          <pb ed="#Bb" n="491"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>conspectu ejus. Sed, ut ibi dicit 
+          Grego<lb ed="#Bb" break="no"/>rius, per lunam intelliguntur Angeli a
+          <lb ed="#Bb"/>Deo illuminati, et per stellas Angeli 
+          mi<lb ed="#Bb" break="no"/>nores. Ergo videtur, quod indigent 
+          pur<lb ed="#Bb" break="no"/>gatione.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1888">
+                     <lb ed="#Bb"/>3. Adhuc, Job, x11, 16: Cum sublatus
+          <lb ed="#Bb"/>fuerit, tremebunt Angeli, et territi 
+          pur<lb ed="#Bb" break="no"/>gabuntur.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1897">
+                     <lb ed="#Bb"/>Contra :
+          <lb ed="#Bb"/>4. Si purgantur, aut purgantur a 
+          pec<lb ed="#Bb" break="no"/>calo, aut ab ignorantia, auta phantasiis.
+          <lb ed="#Bb"/>Non a peccato : quia peccatum non 
+          ha<lb ed="#Bb" break="no"/>bent. Nec ab ignorantia : quia dicit 
+          Au<lb ed="#Bb" break="no"/>gustinus in libro de Libero arbitrio, quod
+          <lb ed="#Bb"/>ignorantiam, vel peccatum est, vel 
+          con<lb ed="#Bb" break="no"/>juncta peccato. Angeli autem peccatum
+          <lb ed="#Bb"/>non habent. Ergo nec ignorantiam. Nec
+          <lb ed="#Bb"/>a phantasiis : dicit enim Augustlinus
+          <lb ed="#Bb"/>super illud epist. 11 ad Corinth. xu, 2:
+          <lb ed="#Bb"/>Scio hujusmodi hominem, quod <quote xml:id="Almn78-e07707-Qd1e1925"> 
+            Ange<lb ed="#Bb" break="no"/>li sunt in regione intelligibiliam, ubi
+            <lb ed="#Bb"/>perspicuam vident veritatem, nullis 
+            opi<lb ed="#Bb" break="no"/>nionum vel phantasiarum nebulis 
+            fusca<lb ed="#Bb" break="no"/>tam. </quote> Ergo a phantasiis non purgantur.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1937">
+                     <lb ed="#Bb"/>2. Adhuc, Augustinus dicit, quod in
+          <lb ed="#Bb"/>intelligentiis est de incorporeis 
+          substan<lb ed="#Bb" break="no"/>tiis pura cerlaque cognitio. Si ergo 
+          An<lb ed="#Bb" break="no"/>geli cum intelligenlie sint, puram et 
+          cer<lb ed="#Bb" break="no"/>tam habeant cognilionem, non possunt
+          <lb ed="#Bb"/>purgari ab ignorantia vel phantasiis.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1953">
+                     <lb ed="#Bb"/>3. Sed si forte quis dicat, quod 
+          purgan<lb ed="#Bb" break="no"/>tur ab hebetudine vel obtusione, sicut
+          <lb ed="#Bb"/>dixerunt antiqui, Videtur non posse
+          <lb ed="#Bb"/>stare. Tila enim obtusio non _posset
+          <lb ed="#Bb"/>causari nisi a minori subtilitate 
+          essen<lb ed="#Bb" break="no"/>ti, et minori perspicacilate intelligentie
+          <lb ed="#Bb"/>in uno quam in alio: et hec cum 
+          natu<lb ed="#Bb" break="no"/>ralia sint, naturam concomitantur, et 
+          au<lb ed="#Bb" break="no"/>ferri non possunt per purgalionem.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e1975">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod Angeli, 
+          sic<lb ed="#Bb" break="no"/>ut dicit Dionysius, purgantur a 
+          dissimi<lb ed="#Bb" break="no"/>litudinis confusione secundum 
+          intelle<lb ed="#Bb" break="no"/>ctum. Carentia enim luminis ad faciendum
+          <lb ed="#Bb"/>aliquid actu hierarchico, destitutio est
+          <lb ed="#Bb"/>et privatio illuminationis que illuminat
+          <lb ed="#Bb"/>ad hoc quod agendum est, vel ad 
+          cau<lb ed="#Bb" break="no"/>sam, vel rationem ejus: quia 
+          illumina<lb ed="#Bb" break="no"/>tione privata intelligentia, ipsa intelli
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>gentia fluctuat et confunditur seipsa: et
+          <lb ed="#Bb"/>est in ea dissimilis illluminatus 
+          Ulumi<lb ed="#Bb" break="no"/>- natori, antequam accipiat illuminationem
+          <lb ed="#Bb"/>ab ipso: et hac accepta, statim ad 
+          simi<lb ed="#Bb" break="no"/>litudinem illuminationis reductus est, eo
+          <lb ed="#Bb"/>quod una forma illuminationis est in
+          <lb ed="#Bb"/>utroque : et ipsa potentia intellectiva per
+          <lb ed="#Bb"/>habitum illuminationis certificata est,
+          <lb ed="#Bb"/>et non fluctuat amplius ut confusa et 
+          in<lb ed="#Bb" break="no"/>certa, sed stat certificata ad unum quod
+          <lb ed="#Bb"/>agendum est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2024">
+                     <lb ed="#Bb"/>Concedendum est ergo hoc quod dicit
+          <lb ed="#Bb"/>Dionysius, quod hoc est ordo 
+          hierar<lb ed="#Bb" break="no"/>chiz, et quod bene induct sunt 
+          auctori<lb ed="#Bb" break="no"/>tates quas inducit Dionysius ad hoc
+          <lb ed="#Bb"/>probandum ex Biblia.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2037">
+                     <lb ed="#Bb"/>Per hoc patet solutio duorum 
+          argu<lb ed="#Bb" break="no"/>meatorum, que prdbant Angelos 
+          pur<lb ed="#Bb" break="no"/>gari. Intelligitur enim purgatio illa, ut
+          <lb ed="#Bb"/>dicit Dionysius, que liberat a 
+          dissimi<lb ed="#Bb" break="no"/>litudinis confusione, que est dispositio
+          <lb ed="#Bb"/>contraria ignorantie.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2053">
+                     <lb ed="#Bb"/>Av ip quod objicitur de Job, rv, 18,
+          <lb ed="#Bb"/>dicendum, quod pravitas inventa in 
+          An<lb ed="#Bb" break="no"/>gelis, non fuit nisi casus demonum, et
+          <lb ed="#Bb"/>non aliqua malitia que in bonis -Angelis
+          <lb ed="#Bb"/>sit.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2066">
+                     <lb ed="#Bb"/>Ad aliud Job, xxv, 5, dicendum, quod
+          <lb ed="#Bb"/>non dicit, quod luna simpliciter non 
+          lu<lb ed="#Bb" break="no"/>ceat, nec stelle : sed quod non lucent in
+          <lb ed="#Bb"/>conspectu Dei. Unde sicut dicitur 
+          Ange<lb ed="#Bb" break="no"/>lus simpliciter incorporeus : compara~
+          <lb ed="#Bb"/>tione tamen Dei corporeus est, ut dicit
+          <lb ed="#Bb"/>Damascenus : ita dicitur simpliciter 
+          lu<lb ed="#Bb" break="no"/>cens, sed in comparatione lucis divine
+          <lb ed="#Bb"/>non est lucens, quia tegitur luce divina
+          <lb ed="#Bb"/>lux ejus, sicut lumen candele tegitur 
+          lu<lb ed="#Bb" break="no"/>mine solis.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2092">
+                     <lb ed="#Bb"/>Ad idw quod objicitur, Job, xur, 16, 
+          di<lb ed="#Bb" break="no"/>cendum, quod ibi loquitur de 
+          domina<lb ed="#Bb" break="no"/>tione Leviathan cum omnibus membris
+          <lb ed="#Bb"/>suis in die judicii, cujus dominationem
+          <lb ed="#Bb"/>Sancti et Angeli videntes terrentur. Qui
+          <lb ed="#Bb"/>tamen terror nihil aliud est, nisi motus
+          <lb ed="#Bb"/>voluniatis secundum dissensum a 
+          volun<lb ed="#Bb" break="no"/>tate diaboli quam habet ad peccatum : et
+          <lb ed="#Bb"/>sic territi per dissensum a voluntate sua
+          <lb ed="#Bb"/>purgantur per separationem impuri, hoc
+          <lb ed="#Bb"/>est, diaboli et membrorum ejus ab ipsis,
+          <pb ed="#Bb" n="492"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>sicut, Joan. xiii, 341 dixit Dominus de
+          <lb ed="#Bb"/>Apostolis, cum Judas exiret ab eis, qui
+          <lb ed="#Bb"/>impurus erat et tenebrosus: Nune 
+          clari<lb ed="#Bb" break="no"/>ficatus est Filius hominis. De cetero
+          <lb ed="#Bb"/>enim in consortium bonorum Angelorum
+          <lb ed="#Bb"/>non veniet aliquis impurus et tenebrosus.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2136">
+                     <lb ed="#Bb"/>Ad ID quod contra objicitur, dicendum
+          <lb ed="#Bb"/>quod non pargantur a peccato, sicut 
+          be<lb ed="#Bb" break="no"/>ne probatum est, nec a phantasiis, sed ab
+          <lb ed="#Bb"/>ignorantia: cujus causa est 
+          dissimilitu<lb ed="#Bb" break="no"/>dinis confusio, de qua dictum est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2150">
+                     <lb ed="#Bb"/>Ad dictum Augustini dicendum, quod
+          <lb ed="#Bb"/>multiplex est ignorantia, scilicet 
+          nega<lb ed="#Bb" break="no"/>tionis, et privalionis, et contrarie 
+          dis<lb ed="#Bb" break="no"/>positionis. Ignorantia erronee 
+          disposi<lb ed="#Bb" break="no"/>tionis est que generatur ex multis actibus
+          <lb ed="#Bb"/>errone:s, que non potest esse in Angelis.
+          <lb ed="#Bb"/>Ignorantia privationis est ignorantia
+          <lb ed="#Bb"/>agendorum que scire tenetur quis, eo
+          <lb ed="#Bb"/>quod privatio relinquit subjeclum cum
+          <lb ed="#Bb"/>debito ad sciendum sive generaliter ad
+          <lb ed="#Bb"/>habitum. Et hee est de qua dicit 
+          Augu<lb ed="#Bb" break="no"/>stinus, quod est peccatum, vel conjuncta
+          <lb ed="#Bb"/>peccato. Ignorantia autem negationis
+          <lb ed="#Bb"/>non est nisi simplex negatio 
+          illuminatio<lb ed="#Bb" break="no"/>nis antequam habeatur ab illuminatore :
+          <lb ed="#Bb"/>et hec est que purgatur in Angelis :
+          <lb ed="#Bb"/>quando enim illuminator infundit 
+          illumi<lb ed="#Bb" break="no"/>nationem in illuminalum, et facit ipsum
+          <lb ed="#Bb"/>gratiz et illuminationis participem : tunc
+          <lb ed="#Bb"/>per consequens talem purgat ignorantiam
+          <lb ed="#Bb"/>et dissimilitudinis confusionem.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2198">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod licet 
+          intel<lb ed="#Bb" break="no"/>ligentiae angelicae certam et puram 
+          ha<lb ed="#Bb" break="no"/>beant cognitionem de omnibus quae
+          <lb ed="#Bb"/>cognoscunt, tamen non sequitur ex hoc,
+          <lb ed="#Bb"/>quod de quolibet actu hierarchiae agendo
+          <lb ed="#Bb"/>in singulari et de causa et ratione 
+          cujus<lb ed="#Bb" break="no"/>libet agendi certam et puram habeant
+          <lb ed="#Bb"/>cognitionem : quia illuminationes de
+          <lb ed="#Bb"/>agendis singularibus continue descendunt
+          <lb ed="#Bb"/>a Verbo in superiores, et ab illis trans
+          <lb ed="#Bb"/>funduntur in inferiores, et sic 
+          illuminan<lb ed="#Bb" break="no"/>tur ad agenda singularia.
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>dicendum, quod hoc nihil valet, sicut
+          <lb ed="#Bb"/>probat objectio.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2233">
+                     <lb ed="#Bb"/>ARTICULI PRIMI
+          <lb ed="#Bb"/>PARTICULA II
+          <lb ed="#Bb"/>Secundum quid conveniant Angelis
+          <lb ed="#Bb"/>actus hierarchici,utrum scilicet 
+          secun<lb ed="#Bb" break="no"/>dum distinctionem hierarchiarum et
+          <lb ed="#Bb"/>ordinum, vel personarum ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2249">
+                     <lb ed="#Bb"/>Secundo queritur, Secundum quid
+          <lb ed="#Bb"/>conveniant eis ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2256">
+                     <lb ed="#Bb"/>Videtur enim, quod hec tria non 
+          pos<lb ed="#Bb" break="no"/>sint convenire secundum unum et idem,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2263">
+                     <lb ed="#Bb"/>1. Actus enim sunt diversi per 
+          defi<lb ed="#Bb" break="no"/>nitiones : quod probatur in libro de 
+          Ce<lb ed="#Bb" break="no"/>lesti hierarchia*, ubi Dionysius ponit
+          <lb ed="#Bb"/>definitiones horum actuum, et dicit sic:
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-e07707-Qd1e2276">Oportet itaque, ut estimo, purgandos
+            <lb ed="#Bb"/>quidem puros perfici omnino, et omni 
+            li<lb ed="#Bb" break="no"/>berari dissimilitudinis confusione. 
+            IIlu<lb ed="#Bb" break="no"/>minandos vero repleri divino lumine ad
+            <lb ed="#Bb"/>contemplativam habitudinem et virtutem
+            <lb ed="#Bb"/>in castissimis mentis oculis reducendos.
+            <lb ed="#Bb"/>Perficiendos vero participes fieri 
+            explo<lb ed="#Bb" break="no"/>ratorum sacrorum perfecte scientie. </quote>
+                     <lb ed="#Bb"/>Ex his patet, quod diffinitiones diverse
+          <lb ed="#Bb"/>sint horum trium: diversa autem 
+          secun<lb ed="#Bb" break="no"/>dum esse et diffinitionem, secundum
+          <lb ed="#Bb"/>idem nulli conveniunt.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2304">
+                     <lb ed="#Bb"/>2. Adhuc, Dionysius, ibidem, <quote xml:id="Almn78-e07707-Qd1e2308"> 
+            Opor<lb ed="#Bb" break="no"/>tet purgatores magnitudinem 
+            purgatio<lb ed="#Bb" break="no"/>nis aliis tradere propria castitate. 
+            Illumi<lb ed="#Bb" break="no"/>natores vero ut luculentiores animos ad
+            <lb ed="#Bb"/>participationem luminis et 
+            distributio<lb ed="#Bb" break="no"/>nem proprie habentes, et ditissime 
+            san<lb ed="#Bb" break="no"/>cte claritatis repleti omnino suum 
+            super<lb ed="#Bb" break="no"/>excellens lumen in eos qui digni sunt
+            <pb ed="#Bb" n="493"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb"/>lumine supervehere. Perfectores vero
+            <lb ed="#Bb"/>tamquam preceptores perfective 
+            tradi<lb ed="#Bb" break="no"/>tionis perficere perficiendos sacratissima
+            <lb ed="#Bb"/>doctrina per inspectorum sacrorum
+            <lb ed="#Bb"/>scientiam. </quote> Ex his accipitur, quod 
+          pur<lb ed="#Bb" break="no"/>gatores purgant castitate, illuminatores
+          <lb ed="#Bb"/>vero illuminant lumine, perfeclores 
+          au<lb ed="#Bb" break="no"/>tem perficiunt precepto perfectissime
+          <lb ed="#Bb"/>traditionis. Cum ergo hee tria, castitas
+          <lb ed="#Bb"/>scilicet, lumen, et praceptum, diversa
+          <lb ed="#Bb"/>sint : videntur illa tria, purgatio scilicet,
+          <lb ed="#Bb"/>illuminatio, et perfectio esse diversa: et
+          <lb ed="#Bb"/>sic secundum unum et idem Angelis non
+          <lb ed="#Bb"/>possunt convenire.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2361">
+                     <lb ed="#Bb"/>ConTRA
+          <lb ed="#Bb"/>4. Dionysius in libro de Celestt 
+          hierar<lb ed="#Bb" break="no"/>chia sic dicit : <quote xml:id="Almn78-e07707-Qd1e2369"> Comprehendens autem
+            <lb ed="#Bb"/>et hoc dixerim fortassis non immerito:
+            <lb ed="#Bb"/>quia purgalio est et illuminatio et 
+            perfe<lb ed="#Bb" break="no"/>ctio, divine scientia assumptio. 
+            Ignoran<lb ed="#Bb" break="no"/>tiam quidem utpote purgans secundum
+            <lb ed="#Bb"/>ordinem indita scientia perfectiorum
+            <lb ed="#Bb"/>doctrinarum. Hluminans autem ipsa 
+            di<lb ed="#Bb" break="no"/>vina cognitione, per quam et purgat non
+            <lb ed="#Bb"/>prius contemplantem, quam manifestat
+            <lb ed="#Bb"/>per altiorem illuminationem : et 
+            perfi<lb ed="#Bb" break="no"/>ciens iterum ipso lumine secundum 
+            ha<lb ed="#Bb" break="no"/>bitum scientia lucidissimarum 
+            doctrina<lb ed="#Bb" break="no"/>rum ‘. </quote> Ergo hee tria fiunt per 
+          illumi<lb ed="#Bb" break="no"/>nationem, et sic ad unum, et non ad
+          <lb ed="#Bb"/>diversa reducuntur.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2404">
+                     <lb ed="#Bb"/>2. Adhuc, In omni motu naturali tam
+          <lb ed="#Bb"/>corporeo quam incorporeo hee tria 
+          per<lb ed="#Bb" break="no"/>ficiuntur per unum. In physicis enim
+          <lb ed="#Bb"/>motibus corporalibus per hoc quod agens
+          <lb ed="#Bb"/>dat formam, purgat a privatione 
+          mate<lb ed="#Bb" break="no"/>riam, et perficit actus forme 
+          convenien<lb ed="#Bb" break="no"/>tes. Similiter in motibus anime quibus
+          <lb ed="#Bb"/>de insciente fit sciens, per adeptionem
+          <lb ed="#Bb"/>scientie purgatur ab ignorantia et 
+          ne<lb ed="#Bb" break="no"/>scientia, et perficitur ad actus doctrine
+          <lb ed="#Bb"/>quam accipit: ex dialectice enim 
+          accep<lb ed="#Bb" break="no"/>tione, ex non dialeclico qui fit 
+          dialecti<lb ed="#Bb" break="no"/>cus, et perficitur ad agendum dialectica.
+          <lb ed="#Bb"/>Et similiter est in aliis scientiis et 
+          doc<lb ed="#Bb" break="no"/>trinis. Dicit enim Aristoteles in fine
+          <lb ed="#Bb"/>primi Physicorum, quod <quote xml:id="Almn78-e07707-Qd1e2440"> forma pre
+            <cb ed="#Bb" n="b"/>
+                        <lb ed="#Bb" break="no"/>sentia et absentia sufficit facere 
+            mutatio<lb ed="#Bb" break="no"/>nem. </quote> It ideo dicit ibidem, quod <quote xml:id="Almn78-e07707-Qd1e2450"> 
+              prin<lb ed="#Bb" break="no"/>cipia motus numero quidem sunt duo,
+              <lb ed="#Bb"/>ratione autem tria. </quote>
+                  </p>
+                  <p xml:id="Almn78-e07707-d1e2458">
+                     <lb ed="#Bb"/>Juxta hoc queritur, Quis sit ordo 
+          isto<lb ed="#Bb" break="no"/>rum trium ? et quare dicit Dionysius,
+          <lb ed="#Bb"/>quod purgatores purgant castitate, et
+          <lb ed="#Bb"/>pertectores precepto ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2469">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod ista tria in.
+          <lb ed="#Bb"/>Angelis in preinducta auctoritate 
+          secun<lb ed="#Bb" break="no"/>dum unum et idem fiunt in Angelis, quod
+          <lb ed="#Bb"/>est illuminatio. Ex hoc enim ipso, quod
+          <lb ed="#Bb"/>quis illuminatur, a dissimilitudinis 
+          con<lb ed="#Bb" break="no"/>fusione purgatur per idem lumen 
+          accep<lb ed="#Bb" break="no"/>tum, et ad proprios actus ejusdem 
+          illu<lb ed="#Bb" break="no"/>minationis perficitur. Et sicut dicit
+          <lb ed="#Bb"/>Magister Hugo de sancto Victore in 
+          com<lb ed="#Bb" break="no"/>mento super idem verbum Dionysii :
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-e07707-Qd1e2495">Sicut per illuminationem acceplam
+            <lb ed="#Bb"/>efficiuntur gratiz et scientie parlicipes
+            <lb ed="#Bb"/>divine, ita ex perfectione ad actus 
+            illu<lb ed="#Bb" break="no"/>minationis efficiuntur potestatis divine
+            <lb ed="#Bb"/>consortes. </quote>
+                  </p>
+                  <p xml:id="Almn78-e07707-d1e2507">
+                     <lb ed="#Bb"/>Unde ultima pars objectionum que
+          <lb ed="#Bb"/>probat hoc, est concedenda.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2515">
+                     <lb ed="#Bb"/>Ad primum autem dicendum, quod
+          <lb ed="#Bb"/>Dionysius considerat ista penes 
+          differen<lb ed="#Bb" break="no"/>tiam terminorum et finis. Hoc enim 
+          mo<lb ed="#Bb" break="no"/>do purgatio dicit in motu illuminationis
+          <lb ed="#Bb"/>terminum a quo, illuminatio autem 
+          ter<lb ed="#Bb" break="no"/>minum ad quem, perfectio autem 
+          con<lb ed="#Bb" break="no"/>junctionem cum ultimo fine quem 
+          inten<lb ed="#Bb" break="no"/>dit iluminator in illuminato. Et verum
+          <lb ed="#Bb"/>est, quod si differunt ratione et 
+          diflini<lb ed="#Bb" break="no"/>tione et tria sunt: secundum esse tamen
+          <lb ed="#Bb"/>forme sola illuminatione hec tria 
+          perfi<lb ed="#Bb" break="no"/>ciuntur, ut dicit Dionysius.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2544">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod castitas qua
+          <lb ed="#Bb"/>purgat purgator non dicitur nisi restrictio
+          <lb ed="#Bb"/>confusionis potentie ad unum et idem
+          <lb ed="#Bb"/>lumen acceptum: et hoc fit per lumen.
+          <lb ed="#Bb"/>Preceptum autem dicitur hic regula 
+          lu<lb ed="#Bb" break="no"/>minis accepti, qua perfectus regitur ut
+          <lb ed="#Bb"/>directe compleat et faciat actus luminis:
+          <lb ed="#Bb"/>quod etiam fit per illuminationem, eo
+          <pb ed="#Bb" n="494"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>dem usu loquendi quo dicimus doctores
+          <lb ed="#Bb"/>preceptores : et quomodo dicit Tullius
+          <lb ed="#Bb"/>in fine prime rhetorice, quod <quote xml:id="Almn78-e07707-Qd1e2574"> ars est
+            <lb ed="#Bb"/>collectio preceptorum multorum ad
+            <lb ed="#Bb"/>unum finem tendentium. </quote> Et sic patet,
+          <lb ed="#Bb"/>quod licet castitas et praceptum diversa
+          <lb ed="#Bb"/>sint ratione, tamen per unam et eamdem
+          <lb ed="#Bb"/>efficiuntur acceptionem illuminationis.—
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2588">
+                     <lb ed="#Bb"/>Ad id quod queritur de ordine horum
+          <lb ed="#Bb"/>trium, dicendum quod purgatio prior est
+          <lb ed="#Bb"/>in hoc, quod propinquior est “materi :
+          <lb ed="#Bb"/>illuminatio prior est in hoc, quod 
+          pro<lb ed="#Bb" break="no"/>pinquior est agenti, quia ipsa est forma
+          <lb ed="#Bb"/>quam dat agens: perfectio vero habet
+          <lb ed="#Bb"/>rationem cause, ipsa enim est que 
+          mo<lb ed="#Bb" break="no"/>vet agentem ut agat, et illuminatum, ut
+          <lb ed="#Bb"/>purgetur et particeps fiat illuminationis.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2610">
+                     <lb ed="#Bb"/>ARTICULI PRIMI
+          <lb ed="#Bb"/>PARTICULA IIT.
+          <lb ed="#Bb"/>Utrum tres actus hierarchici conveniant
+          <lb ed="#Bb"/>eis ex equo,vel per prius et 
+          poste<lb ed="#Bb" break="no"/>rius?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2623">
+                     <lb ed="#Bb"/>Tertio queritur, Utrum hi tres actus
+          <lb ed="#Bb"/>conveniant eis ex equo, vel per prius et
+          <lb ed="#Bb"/>posterius ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2632">
+                     <lb ed="#Bb"/>Et videtur, quod per prius et 
+          poste<lb ed="#Bb" break="no"/>rius,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2640">
+                     <lb ed="#Bb"/>4. Illi enim hierarchia que 
+          propin<lb ed="#Bb" break="no"/>quior est divino Jumini, per prius 
+          con<lb ed="#Bb" break="no"/>venire videtur, quod sit illuminatrix
+          <lb ed="#Bb"/>aliarum hierarchiarum : et ei que 
+          distan<lb ed="#Bb" break="no"/>tior est, videlur convenire posterius :
+          <lb ed="#Bb"/>sicut soli convenit illuminare per prius
+          <lb ed="#Bb"/>mundum, et lune posterius, et stellis
+          <lb ed="#Bb"/>ultimo loco.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2660">
+                     <lb ed="#Bb"/>2. Adhuc, In motibus naturalibus sic
+          <lb ed="#Bb"/>est, quod unus est motor primus, cui
+          <lb ed="#Bb"/>per prius convenit movere, et virtute
+          <lb ed="#Bb"/>cujus omnes secundi movent: ergo 
+          vi<lb ed="#Bb" break="no"/>detur, quod in motu illuminationum 
+          si<lb ed="#Bb" break="no"/>militer sit: videtur ergo, quod virtute
+          <lb ed="#Bb"/>prime hierarchie omnes alie 
+          illuminen<lb ed="#Bb" break="no"/>tur: et sic per prius convenit superiori,
+          <lb ed="#Bb"/>par posterius secund, et postremo 
+          ter<lb ed="#Bb" break="no"/>tie. :
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2684">
+                     <lb ed="#Bb"/>3. Adhuc, Hoc videtur secundum 
+          Dio<lb ed="#Bb" break="no"/>nysium in Celesti hierarchia*, ubi dicit
+          <lb ed="#Bb"/>super illud Isai, v1, 6: Volavit ad me
+          <lb ed="#Bb"/>unus de Seraphim, quod uous de 
+          infe<lb ed="#Bb" break="no"/>rioribus illuminavit Prophetam virtute
+          <lb ed="#Bb"/>superioris: et ideo nomen ejus 
+          assum<lb ed="#Bb" break="no"/>psit, quia actum ejus exercuit.,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2702">
+                     <lb ed="#Bb"/>Contra :
+          <lb ed="#Bb"/>1. Dionysius in Celestt hierarchia sic
+          <lb ed="#Bb"/>dicit: <quote xml:id="Almn78-e07707-Qd1e2710"> Ipse hierarchiarum unusquisque
+            <lb ed="#Bb"/>ordo sacre et decenter positus est. Et
+            <lb ed="#Bb"/>omnem hierarchiam videmus in primas
+            <lb ed="#Bb"/>et medias et ultimas virtutes divisam *. </quote>
+                     <lb ed="#Bb"/>Videtur ergo, quod non secundum 
+          hie<lb ed="#Bb" break="no"/>rarchias, sed secundum ordines in eis
+          <lb ed="#Bb"/>positos descendant illuminationes ad
+          <lb ed="#Bb"/>primum et secundum, et sic deinceps.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2729">
+                     <lb ed="#Bb"/>2. Adhuc, Videtur quod unusquisque
+          <lb ed="#Bb"/>seipsum purget, illuminet, et perficiat:
+          <lb ed="#Bb"/>quia ibidem sic dicit Dionysius: <quote xml:id="Almn78-e07707-Qd1e2737"> 
+            Se<lb ed="#Bb" break="no"/>cundum seipsum unusquisque et ccelestis
+            <lb ed="#Bb"/>animus, et humanus speciales habet et
+            <lb ed="#Bb"/>primas et medias et ullimas ordinationes
+            <lb ed="#Bb"/>et virtutes addictas per unumquemque
+            <lb ed="#Bb"/>hierarchicarum illuminationum proprias
+            <lb ed="#Bb"/>anagogas proportionaliter manifestatas,
+            <lb ed="#Bb"/>per quas unusquisque in.participatione
+            <lb ed="#Bb"/>fit, sicut in ipsum fas est et possibile,
+            <lb ed="#Bb"/>super incognitissime purgationis plenis- .
+            <lb ed="#Bb"/>simi luminis ante perfectie perfectionis. </quote>
+                     <lb ed="#Bb"/>Est enim nihil per se perfectum, non
+          <lb ed="#Bb"/>indigens universalis perfectionis, nisi
+          <lb ed="#Bb"/>perlectissimum et ante perfectum, hoc
+          <lb ed="#Bb"/>est, ab eterno perfectum.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2771">
+                     <pb ed="#Bb" n="495"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod hi tres actus,
+          <lb ed="#Bb"/>purgare, illuminare, et perficere, 
+          tripli<lb ed="#Bb" break="no"/>citer conveniunt Angelis, scilicet 
+          secun<lb ed="#Bb" break="no"/>dum ordinem hierarchies, et secundum
+          <lb ed="#Bb"/>dispositionem ordinum in _hierarchia, et
+          <lb ed="#Bb"/>secundum omnem dispositionem 
+          perso<lb ed="#Bb" break="no"/>narum in ordine. Primo modo prima
+          <lb ed="#Bb"/>hierarchia illuminata a Deo est, 
+          illumi<lb ed="#Bb" break="no"/>nans mediam et ultimam, non _ 
+          illumi<lb ed="#Bb" break="no"/>nata ab. alia hierarchia vel Angelo: et
+          <lb ed="#Bb"/>ideo ipsi maxime convenit illuminare,
+          <lb ed="#Bb"/>Media autem est illuminata a prima, et
+          <lb ed="#Bb"/>iluminans tertiam: et ideo secundam
+          <lb ed="#Bb"/>analogiam habet ad illuminationem. 
+          Ter<lb ed="#Bb" break="no"/>tia vero illuminata est, non illuminans
+          <lb ed="#Bb"/>aliquam hierarchiam angelicam, sed
+          <lb ed="#Bb"/>ecclesiasticam tantum: et ideo tertiam
+          <lb ed="#Bb"/>habet analogiam ad illuminationem. In
+          <lb ed="#Bb"/>ordinibus autem, sicut dicit Dionysius
+          <lb ed="#Bb"/>in qualibet hierarchia est primus, 
+          me<lb ed="#Bb" break="no"/>dius, et terlius. Et in hoc ordine 
+          pri<lb ed="#Bb" break="no"/>mus est illuminans non_ illuminatus,
+          <lb ed="#Bb"/>secundus illuminatus et Uluminans, 
+          ter<lb ed="#Bb" break="no"/>tius illuminatus tantum. Similiter in
+          <lb ed="#Bb"/>quolibet ordine sunt persone supreme,
+          <lb ed="#Bb"/>media, et extreme, et in quolibet 
+          sem<lb ed="#Bb" break="no"/>per supreme potentiores sunt ad 
+          illumi<lb ed="#Bb" break="no"/>nandum quam medie, et medi# quam
+          <lb ed="#Bb"/>extreme.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2842">
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod hoc
+          <lb ed="#Bb"/>argumentum concedendum est : et bona
+          <lb ed="#Bb"/>est similitudo adducta.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2851">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod primus 
+          illu<lb ed="#Bb" break="no"/>minator est Deus, virtute cujus omnes aliz
+          <lb ed="#Bb"/>illuminant : tamen in illuminationibus 
+          de<lb ed="#Bb" break="no"/>scendentibus a prima in secundam, 
+          etase<lb ed="#Bb" break="no"/>cunda in tertiam sic est ut probat objectio.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2864">
+                     <lb ed="#Bb"/>Ad aliud dicendum eodem modo,
+          <lb ed="#Bb"/>quod inferior illuminavit virtute 
+          superio<lb ed="#Bb" break="no"/>ris; quia illa illuminatio descendit a
+          <lb ed="#Bb"/>superiore in inferiorem.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2875">
+                     <lb ed="#Bb"/>Ad id quod in contrarium adducitur,
+          <lb ed="#Bb"/>dicendum quod Dionysius nihil aliud
+          <lb ed="#Bb"/>dicit, nisi quod jam dicium est, 
+          hierar<lb ed="#Bb" break="no"/>chia scilicet disposilionem et ordinis 
+          po<lb ed="#Bb" break="no"/>sili in hierarchia.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2888">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod Dionysius Adobject.,
+          <lb ed="#Bb"/>non dicit, quod aliquid illuminet 
+          seip<lb ed="#Bb" break="no"/>sum, quia hoc impossibile est: 
+          sequere<lb ed="#Bb" break="no"/>tur enim quod unum et idem et 
+          secun<lb ed="#Bb" break="no"/>dum idem esset agens et patiéns, quod
+          <lb ed="#Bb"/>est impossibile. Sed dicit, quod 
+          unus<lb ed="#Bb" break="no"/>quisque animorum tripliciter se habet ad
+          <lb ed="#Bb"/>primas et medias et ultimas 
+          illumina<lb ed="#Bb" break="no"/>tiones : quia qui est in maxima 
+          perspi<lb ed="#Bb" break="no"/>cacite intelligentia, se extendit ad 
+          pri<lb ed="#Bb" break="no"/>mas, in media autem extendit se ad
+          <lb ed="#Bb"/>medias, et in postrema ad postremas. Et
+          <lb ed="#Bb"/>hoc modo verum est: eo quod necesse
+          <lb ed="#Bb"/>est proporlionem esse inter quamlibet
+          <lb ed="#Bb"/>intelligentiam et suum intelligile.
+        </p>
+               </div>
+               <div xml:id="Almn78-e07707-Dd1e2926">
+                  <head xml:id="Almn78-e07707-Hd1e2928">Articulus 2</head>
+                  <head xml:id="Almn78-e07707-Hd1e2931" type="question-title">
+          Qualiter his actibus utuntur inter se, et
+          qualiter ad animas hominum
+        </head>
+                  <p xml:id="Almn78-e07707-d1e2934">
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS II.
+          <lb ed="#Bb"/>Qualiter his actibus utuntur inter se, et
+          <lb ed="#Bb"/>qualiter ad animas hominum?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2945">
+                     <lb ed="#Bb"/>Deinde queritur, Qualiter his 
+          utan<lb ed="#Bb" break="no"/>tur inter se, et qualiter ad animas 
+          homi<lb ed="#Bb" break="no"/>num ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2954">
+                     <lb ed="#Bb"/>1. Objiciunt enim quidam, quod 
+          quo<lb ed="#Bb" break="no"/>rum est una natura communis, horum
+          <lb ed="#Bb"/>est illuminatio per unum illuminatorem :
+          <lb ed="#Bb"/>Angelorum omnium est una natura 
+          in<lb ed="#Bb" break="no"/>tellectualis communis, scilicet deiformis
+          <lb ed="#Bb"/>intellectus : ergo illuminatio omnium
+          <lb ed="#Bb"/>Angelorum est per unum illuminatorem :
+          <lb ed="#Bb"/>nonergo utuntur his actibus, ita quod
+          <lb ed="#Bb"/>unus illuminet, purget, et perficiat
+          <lb ed="#Bb"/>alium : sed omnes illuminantur, 
+          pur<lb ed="#Bb" break="no"/>gantur, et perficiuntur a Deo
+        </p>
+                  <p xml:id="Almn78-e07707-d1e2981">
+                     <lb ed="#Bb"/>2. Adhuc, Ad animas hominum 
+          vide<lb ed="#Bb" break="no"/>tur non posse uli his actibus: anime
+          <lb ed="#Bb"/>enim hominum non purgantur, nisi a
+          <lb ed="#Bb"/>peceato vel sequela peccati: peccatum
+          <pb ed="#Bb" n="496"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>autem et sequela peccati non 
+          remittun<lb ed="#Bb" break="no"/>tur nisi a Deo per gratiam : gratia aulem
+          <lb ed="#Bb"/>non potest esse ab Angelo. Marc. 1, 7:
+          <lb ed="#Bb"/>Quis potest dimillere peccata, nisi solus
+          <lb ed="#Bb"/>Deus,
+        </p>
+                  <p xml:id="Almn78-e07707-d1e3007">
+                     <lb ed="#Bb"/>Soluttio. Dicendum; quod his actibus
+          <lb ed="#Bb"/>utuntur Angeli inter se, ita quod unus
+          <lb ed="#Bb"/>alium purgat, illuminat, et perficit. 
+          Qua<lb ed="#Bb" break="no"/>liter autem hoc fiat, suflicienter 
+          deter<lb ed="#Bb" break="no"/>minatum estin questione de locztione
+          <lb ed="#Bb"/>Angelorum, et in questione de 
+          distin<lb ed="#Bb" break="no"/>ctione hierarchiarum secundum 
+          tripli<lb ed="#Bb" break="no"/>cem proportionem ad illuminationes :
+          <lb ed="#Bb"/>que, sicut dicit Dionysius, participantur
+          <lb ed="#Bb"/>ab Angelis manifestatione prima, 
+          se<lb ed="#Bb" break="no"/>cunda, et tertia.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e3033">
+                     <lb ed="#Bb"/>Ad opyecrom dicendum, quod _licet
+          <lb ed="#Bb"/>Angelorum una sit natura intellectualis,
+          <lb ed="#Bb"/>scilicet deiformis intellectus, tamen non
+          <lb ed="#Bb"/>est in ipso simp] citas essentie una, sed
+          <lb ed="#Bb"/>triformis secundum tres hierarchias: et
+          <lb ed="#Bb"/>ideo analogiam non babent ad 
+          illumina<lb ed="#Bb" break="no"/>torem unum, sed ad dversos : prima
+          <lb ed="#Bb"/>enim hierarchia illumina‘ur a Deo, 
+          se<lb ed="#Bb" break="no"/>cunda et tertia ab Angelo. Secunda
+          <lb ed="#Bb"/>enim analogiam habet ad illuminatio
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>nem proportionatam Angelo. Tertia
+          <lb ed="#Bb"/>vero ad illuminationem proportionatam
+          <lb ed="#Bb"/>et ecclesiastice hicrarchie et animabus
+          <lb ed="#Bb"/>hominum.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e3068">
+                     <lb ed="#Bb"/>Ad id quod queritur, Queliter 
+          utan<lb ed="#Bb" break="no"/>tur his actibus ad animas hominum ?
+        </p>
+                  <p xml:id="Almn78-e07707-d1e3075">
+                     <lb ed="#Bb"/>Dicendum, quod suflicientissime 
+          de<lb ed="#Bb" break="no"/>terminatum estin questione de 
+          locutio<lb ed="#Bb" break="no"/>nibus Angelorum, ubi queritur, qualiter
+          <lb ed="#Bb"/>Angeli loquantur animalibus non 
+          as<lb ed="#Bb" break="no"/>sumpto corpore, visione scilicet 
+          sensi<lb ed="#Bb" break="no"/>bili, et imaginaria, et intellectuali: his
+          <lb ed="#Bb"/>enim tribus modis suas illuminationes
+          <lb ed="#Bb"/>transfundunt in animas hominum: nec
+          <lb ed="#Bb"/>propter hoc sunt immissores, nec boni,
+          <lb ed="#Bb"/>nec mali, sicut ibi sufficienter 
+          dispula<lb ed="#Bb" break="no"/>tum et determinatum est.
+        </p>
+                  <p xml:id="Almn78-e07707-d1e3101">
+                     <lb ed="#Bb"/>Ad objectum dicendum, quod licet
+          <lb ed="#Bb"/>anime hominum analogiam non habeant
+          <lb ed="#Bb"/>ad illuminationes divinas in prima ma-~
+          <lb ed="#Bb"/>nifestatione, tamen quia anima hominis
+          <lb ed="#Bb"/>ad imaginem Dei facta est, et est 
+          sub<lb ed="#Bb" break="no"/>stantia rationalis et intellectualis, 
+          ana<lb ed="#Bb" break="no"/>logiam habet perspicacitatis intelligentie
+          <lb ed="#Bb"/>ad illuminationem factam per Angelum,
+          <lb ed="#Bb"/>prout est in manifestatione tertia.
+        </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

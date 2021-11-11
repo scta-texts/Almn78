@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 69</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 69</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-hh1207"><!-- p2t12q69 -->
+            <head xml:id="Almn78-hh1207-Hd1e106">Quaestio 69</head>
+            <head xml:id="Almn78-hh1207-Hd1e109" type="question-title">Quid sit anima</head>
+            <p xml:id="Almn78-hh1207-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUSTIO XLIX.
+<lb ed="#Bc"/>Quid sit anima ?
+</p>
+            <p xml:id="Almn78-hh1207-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Secundo queritur, Quid sit anima?
+<lb ed="#Bc"/>Et queruntur duo : primo scilicet de
+<lb ed="#Bc"/>definitionibus Sanctorum.
+<lb ed="#Bc"/>Secundo, De definitionibus 
+Philoso<lb ed="#Bc" break="no"/>phorum.
+</p>
+            <div xml:id="Almn78-hh1207-Dd1e137">
+               <head xml:id="Almn78-hh1207-Hd1e139">Membrum 1</head>
+               <head xml:id="Almn78-hh1207-Hd1e142" type="question-title">
+        De septem definitionibus Sanctorum de
+        eo quid sit anima
+      </head>
+               <p xml:id="Almn78-hh1207-d1e145">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De septem definitionibus Sanctorum de
+<lb ed="#Bc"/>eo quid sit anima.
+</p>
+               <p xml:id="Almn78-hh1207-d1e154">
+                  <lb ed="#Bc"/>Definitiones Sanctorum inveniuntur
+<lb ed="#Bc"/>sex.
+  
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Remigius sic definit animam : <quote xml:id="Almn78-hh1207-Qd1e164"> 
+Ani<lb ed="#Bc" break="no"/>ma est substantia incorporea regens 
+cor<lb ed="#Bc" break="no"/>pus. </quote> .
+</p>
+               <p xml:id="Almn78-hh1207-d1e172">
+                  <lb ed="#Bc"/>Augustinus sic in libro de Spiritu et
+<lb ed="#Bc"/>anima : <quote xml:id="Almn78-hh1207-Qd1e178"> Anima est substantia 
+in<lb ed="#Bc" break="no"/>corporea regendo corpori 
+accommo<lb ed="#Bc" break="no"/>data. </quote> ;
+</p>
+               <p xml:id="Almn78-hh1207-d1e187">
+                  <lb ed="#Bc"/>Alexander nequam in libro de Motu
+<lb ed="#Bc"/>cordis, sic : <quote xml:id="Almn78-hh1207-Qd1e193"> Anima est substantia
+<lb ed="#Bc"/>incorporea, iluminationum que sunt a
+<lb ed="#Bc"/>primo ultima relatione perceptiva. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e201">
+                  <lb ed="#Bc"/>
+                  <name xml:id="Almn78-hh1207-Nd1e205">Seneca</name> sic : <quote xml:id="Almn78-hh1207-Qd1e208"> Anima est spiritus 
+intel<lb ed="#Bc" break="no"/>lectualis ad beatitudinem in se et in 
+cor<lb ed="#Bc" break="no"/>pore ordinatus. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e216">
+                  <lb ed="#Bc"/>
+                  <name xml:id="Almn78-hh1207-Nd1e220">Cassiodorus</name> sic : <quote xml:id="Almn78-hh1207-Qd1e223"> Anima est substantia
+<pb ed="#Bc" n="8"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>spiritualis a Deo creata, proprii sui 
+cor<lb ed="#Bc" break="no"/>poris vivificatrix. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e235">
+                  <lb ed="#Bc"/>Item, Augustinus sic : <quote xml:id="Almn78-hh1207-Qd1e239"> Anima est
+<lb ed="#Bc"/>spiritus intellectualis, rationalis, semper
+<lb ed="#Bc"/>vivens, semper in motu, bone maleque
+<lb ed="#Bc"/>voluntatis capax. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e249">
+                  <lb ed="#Bc"/>Adhuc unam addit Joannes 
+Damasce<lb ed="#Bc" break="no"/>nus : <quote xml:id="Almn78-hh1207-Qd1e255"> Anima est substantia vivens,
+<lb ed="#Bc"/>simplex, et incorporea, corporalibus
+<lb ed="#Bc"/>oculis secundum propriam naturam 
+in<lb ed="#Bc" break="no"/>visibilis, infigurabilis, immortalis, 
+ra<lb ed="#Bc" break="no"/>tionalis, intellectualis, organico utens
+<lb ed="#Bc"/>corpore, et huic vite augmentationis et
+<lb ed="#Bc"/>generationis tributiva, non alium habens
+<lb ed="#Bc"/>preter seipsam intellectum, sed partem
+<lb ed="#Bc"/>sui purissimam. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e276">
+                  <lb ed="#Bc"/>Queritur ergo de definitionibus istis,
+<lb ed="#Bc"/>et penes quid sumantur ?
+</p>
+               <p xml:id="Almn78-hh1207-d1e284">
+                  <lb ed="#Bc"/>Objicitur de hoc quod ponit Remigius,
+<lb ed="#Bc"/>quod dicitur sebstantia incorporea. Dicit
+<lb ed="#Bc"/>enim Damascenus, quod <quote xml:id="Almn78-hh1207-Qd1e292"> incorporeum
+<lb ed="#Bc"/>simpliciter non est nisi Deus. </quote> Male
+<lb ed="#Bc"/>ergo dicitur, anima est substantia 
+in<lb ed="#Bc" break="no"/>corporea,
+</p>
+               <p xml:id="Almn78-hh1207-d1e303">
+                  <lb ed="#Bc"/>Adhuc, In Ecclestasticis dogmatibus
+<lb ed="#Bc"/>dicitur sic : <quote xml:id="Almn78-hh1207-Qd1e309"> Solus Deus est 
+incorpo<lb ed="#Bc" break="no"/>reus : alias autem creaturas corporeas
+<lb ed="#Bc"/>dicimus. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e317">
+                  <lb ed="#Bc"/>Contra SECUNDAM que est hec, <quote xml:id="Almn78-hh1207-Qd1e321"> 
+Ani<lb ed="#Bc" break="no"/>ma est substantia incorporea, regendo
+<lb ed="#Bc"/>corpori accommodata : </quote> objicitur sic :
+<lb ed="#Bc"/>hoc enim videtur convenire Angelo 
+as<lb ed="#Bc" break="no"/>sumenti corpus : ille enim tune est 
+sub<lb ed="#Bc" break="no"/>stantia incorporea, regendo corpori 
+ac<lb ed="#Bc" break="no"/>commodata.
+</p>
+               <p xml:id="Almn78-hh1207-d1e338">
+                  <lb ed="#Bc"/>Contra TERTIAM Objicitur sic : quia
+<lb ed="#Bc"/>illuminationum gue sunt primo 
+precep<lb ed="#Bc" break="no"/>tivam esse animam, bene esse anime
+<lb ed="#Bc"/>dicit : definitio autem deberet dicere esse
+<lb ed="#Bc"/>substantiale.
+</p>
+               <p xml:id="Almn78-hh1207-d1e351">
+                  <lb ed="#Bc"/>ConTRA QUARTAM que est Seneca, 
+ob<lb ed="#Bc" break="no"/>jicitur : In corpore enim non potest esse
+<lb ed="#Bc"/>beatitudo : quia, sicut dicit Boetius,
+<lb ed="#Bc"/>beatiludo. est status omnium bonorum
+<lb ed="#Bc"/>agegregatione perfectus : et hujus non
+<lb ed="#Bc"/>est particeps anima in corpore.
+</p>
+               <p xml:id="Almn78-hh1207-d1e367">
+                  <lb ed="#Bc"/>Contra quintam que est Cassiodori,
+<lb ed="#Bc"/>objicitur de hoc quod dicitur, Anima
+<lb ed="#Bc"/>est substantia spiritualis : per hoc enim
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>non separatur anima ab Angelo. Per
+<lb ed="#Bc"/>hoc etiam quod dicit, Proprit sui 
+corpo<lb ed="#Bc" break="no"/>ris vivificatriae : non dicitur quidditas
+<lb ed="#Bc"/>anime, sed actus cujus causa est : 
+defi<lb ed="#Bc" break="no"/>nitio autem deberet dicere substantialem
+<lb ed="#Bc"/>quidditatem.
+</p>
+               <p xml:id="Almn78-hh1207-d1e392">
+                  <lb ed="#Bc"/>Contra sextaM que est iterum 
+Augu<lb ed="#Bc" break="no"/>stini, objicitur sic : Quod dicitur semper
+<lb ed="#Bc"/>vivens, non omni anime videtur 
+con<lb ed="#Bc" break="no"/>venire : guia no convenit animabus
+<lb ed="#Bc"/>brutorum et vegetabilium. Adhuc, Per
+<lb ed="#Bc"/>hoc quod dicitur, semper in motu,
+<lb ed="#Bc"/>videtur non esse verum inducenti per
+<lb ed="#Bc"/>singulas species motus : male ergo data
+<lb ed="#Bc"/>est definitio.
+</p>
+               <p xml:id="Almn78-hh1207-d1e414">
+                  <lb ed="#Bc"/>Simiuirer objicitur contra illam 
+Joan<lb ed="#Bc" break="no"/>nis Damasceni :
+</p>
+               <p xml:id="Almn78-hh1207-d1e421">
+                  <lb ed="#Bc"/>1. Cum enim dicitur substantia 
+incor<lb ed="#Bc" break="no"/>porea, non oportuit dicere, corporeis
+<lb ed="#Bc"/>oculis invisibilis, et infigurabilis : quia
+<lb ed="#Bc"/>nihil est corporeis oculis visibile et 
+figu<lb ed="#Bc" break="no"/>rabile, nisi corpus. Unde cum dicebatur
+<lb ed="#Bc"/>incorporea, nugatorie addebatur, 
+corpo<lb ed="#Bc" break="no"/>reis oculis invisibilis, et infigurabilis.
+</p>
+               <p xml:id="Almn78-hh1207-d1e439">
+                  <lb ed="#Bc"/>2. Similiter, Objicitur cum dicitur
+<lb ed="#Bc"/>intellectualis, rationalis : allerum enim
+<lb ed="#Bc"/>intelligitur in altero : ergo alterum 
+vide<lb ed="#Bc" break="no"/>tur superfluere.
+</p>
+               <p xml:id="Almn78-hh1207-d1e450">
+                  <lb ed="#Bc"/>3. Adhuc, Objicitur de hoc quod dicit,
+<lb ed="#Bc"/>quod non habet intellectum preter se,
+<lb ed="#Bc"/>sed partem sui purissimam. Dicit enim
+<lb ed="#Bc"/>Philosophus, quod intellectus nullius
+<lb ed="#Bc"/>corporis est actus. Male ergo dicitur,
+<lb ed="#Bc"/>quod in intellecta habeat partem sui
+<lb ed="#Bc"/>anima : quia id quod per substantiam et
+<lb ed="#Bc"/>aclum separatum est, non potest esse
+<lb ed="#Bc"/>pars ejus quod per substantiam et actum
+<lb ed="#Bc"/>organo corporeo conjunctum est.
+</p>
+               <p xml:id="Almn78-hh1207-d1e474">
+                  <lb ed="#Bc"/>4, Ultimo queritur, Penes quid 
+acci<lb ed="#Bc" break="no"/>piantur iste definitiones ?
+</p>
+               <p xml:id="Almn78-hh1207-d1e482">
+                  <lb ed="#Bc"/>Solutio. Ad primam definitionem 
+di<lb ed="#Bc" break="no"/>cendum, quod illa datur per genus, et
+<lb ed="#Bc"/>differentiam propriam, et essentialem
+<lb ed="#Bc"/>actum anime. Anima enim substantia
+<lb ed="#Bc"/>est, quia est substantialis forma animati:
+<lb ed="#Bc"/>et est substantia a swbstando dicta, quia
+<lb ed="#Bc"/>ad minus substat in omni animato 
+na<lb ed="#Bc" break="no"/>turalibus potentiis que fluunt ab ipsa :
+<pb ed="#Bc" n="9"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>cum, sicut dicit Aristoteles in 
+Predica<lb ed="#Bc" break="no"/>mentis, naturalis potentia vel impotentia
+<lb ed="#Bc"/>species sit qualitatis, quam necesse est
+<lb ed="#Bc"/>esse in anima sicut in subjecto. Et cum
+<lb ed="#Bc"/>sit in toto tola secundum aclum vite,
+<lb ed="#Bc"/>non potest esse corporea, sed 
+incorpo<lb ed="#Bc" break="no"/>rea. Corporeum enim nullo modo potest
+<lb ed="#Bc"/>esse in toto totum, sed secundum unam
+<lb ed="#Bc"/>partem sue divisionis est in una parte,
+<lb ed="#Bc"/>et secundum aliam in alia. :
+  
+<lb ed="#Bc"/>Ad objectum contra, dicendum quod
+<lb ed="#Bc"/>corporeum dicitur dupliciter, scilicet a.
+<lb ed="#Bc"/>privatione nature corporeitatis : et sic
+<lb ed="#Bc"/>et Angelus et anima incorporei sunt.
+<lb ed="#Bc"/>Et a privatione proprietatis corporis,
+<lb ed="#Bc"/>que est localitas, sive per definitionem
+<lb ed="#Bc"/>in loco, sive .per circumscriptionem : et
+<lb ed="#Bc"/>sic solus Deus incorporeus est : omnia
+<lb ed="#Bc"/>autem alia tam spiritualia quam 
+corpo<lb ed="#Bc" break="no"/>ralia definiuntur loco, ita quod sint hic
+<lb ed="#Bc"/>et non alibi : solus autem Deus hic et
+<lb ed="#Bc"/>ubique est. Definiri autem in loco vel
+<lb ed="#Bc"/>cireumscribi, primo et per se convenit
+<lb ed="#Bc"/>corpori : et hoc modo solus Deus 
+incor<lb ed="#Bc" break="no"/>poreus dicitur.
+</p>
+               <p xml:id="Almn78-hh1207-d1e560">
+                  <lb ed="#Bc"/>Secunda definitio que est Augustini
+<lb ed="#Bc"/>accipitur a generali natura anime
+<lb ed="#Bc"/>et proprio actu quem habet in corpus.
+</p>
+               <p xml:id="Almn78-hh1207-d1e569">
+                  <lb ed="#Bc"/>Ad objectum contra, dicendum quod
+<lb ed="#Bc"/>equivoce dicitur Angelus substantia 
+in<lb ed="#Bc" break="no"/>corporea et anima. Angelus enim 
+sub<lb ed="#Bc" break="no"/>stantia incorporea est non unibilis 
+cor<lb ed="#Bc" break="no"/>pori: anima autem substantia incorporea
+<lb ed="#Bc"/>unibilis corpori. Similiter Angelus 
+quan<lb ed="#Bc" break="no"/>do assumit corpus, non regit corpus
+<lb ed="#Bc"/>ad operationes vite, sed ad 
+congruen<lb ed="#Bc" break="no"/>tias operationum, quas ministerio suo
+<lb ed="#Bc"/>operatur circa eos quibus apparet, ut
+<lb ed="#Bc"/>dicit Augustinus. Cum autem anima
+<lb ed="#Bc"/>regendo corpori accommodata dicitur,
+<lb ed="#Bc"/>intelligitur quantum ad operationes vite
+<lb ed="#Bc"/>naturalis.
+</p>
+               <p xml:id="Almn78-hh1207-d1e602">
+                  <lb ed="#Bc"/>Tertia definitio quae est <name xml:id="Almn78-hh1207-Nd1e606">Alexandri</name>,
+<lb ed="#Bc"/>accipitur secundum comparationem 
+ani<lb ed="#Bc" break="no"/>me ad primam causam que influentia
+<lb ed="#Bc"/>sui luminis intellectualia lumina 
+con<lb ed="#Bc" break="no"/>stituit : sed quia in anima illud 
+lu<lb ed="#Bc" break="no"/>men est per continuationem intellectus
+<lb ed="#Bc"/>cum continuo et tempore, ut dicit
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Philosophus in II de Anima, ideo non
+<lb ed="#Bc"/>recipit lumen intellectus, nisi per 
+vesti<lb ed="#Bc" break="no"/>gium et enigma : et hoc vocatur ultima
+<lb ed="#Bc"/>relatio.
+</p>
+               <p xml:id="Almn78-hh1207-d1e634">
+                  <lb ed="#Bc"/>Ad id quod objicitur contra 
+definitio<lb ed="#Bc" break="no"/>nem <name xml:id="Almn78-hh1207-Nd1e640">Senece</name>, dicendum quod beatitudo
+<lb ed="#Bc"/>dicitur duobus modis, large scilicet et
+<lb ed="#Bc"/>stricte. Beatitudo large dicta, consistit
+<lb ed="#Bc"/>in felicitale duplici, scilicet civili, et
+<lb ed="#Bc"/>contemplativa : secundum duplicem 
+vir<lb ed="#Bc" break="no"/>tutem, moralem scilicet et 
+intellectua<lb ed="#Bc" break="no"/>lem, secundum quod felicitas est actus
+<lb ed="#Bc"/>vel operatio secundum propriam et 
+con<lb ed="#Bc" break="no"/>naturalein virtutem, non impedita, in eo
+<lb ed="#Bc"/>cujus est talis virtus, nullo modo 
+impe<lb ed="#Bc" break="no"/>dimentum habens, eo quod taliter felix
+<lb ed="#Bc"/>vel béatus virtutem perfectam habet ad
+<lb ed="#Bc"/>actum cum omnibus condecorantibus
+<lb ed="#Bc"/>felicitatem in amicis et bonis fortune et
+<lb ed="#Bc"/>pulchritudine corporis. Et haec est 
+bea<lb ed="#Bc" break="no"/>itudo de qua loquitur Seneca : et illius
+<lb ed="#Bc"/>bene est particeps anima in corpore.
+<lb ed="#Bc"/>Dicitur etiam stricte beatitudo status
+<lb ed="#Bc"/>omnium bonorum aggregatione 
+perfe<lb ed="#Bc" break="no"/>ctus. De qua dicit <name xml:id="Almn78-hh1207-Nd1e684">Bernardus</name> in libro
+<lb ed="#Bc"/>quinto de Consideratione ad Eugenium,
+<lb ed="#Bc"/>quod beatitudo et miseria in eodem esse
+<lb ed="#Bc"/>non possunt simul. Et hujus non potest
+<lb ed="#Bc"/>esse particeps anima in corpore : quia
+<lb ed="#Bc"/>quamdiu est in corpore, circumdata est
+<lb ed="#Bc"/>miseria corporis : et cum tali miseria non
+<lb ed="#Bc"/>potest esse beatitudo.
+</p>
+               <p xml:id="Almn78-hh1207-d1e704">
+                  <lb ed="#Bc"/>Ad id quod objicitur de definitione
+<lb ed="#Bc"/>Cassiodori, dicendum quod illa definitio
+<lb ed="#Bc"/>datur in comparatione ad causam, et in
+<lb ed="#Bc"/>comparatione ad primum effectum qui
+<lb ed="#Bc"/>est vita, secundum quod dicit 
+Aristote<lb ed="#Bc" break="no"/>les, quod <quote xml:id="Almn78-hh1207-Qd1e719"> vivere in viventibus est
+<lb ed="#Bc"/>esse. </quote> Et licet Angelus sit substantia
+<lb ed="#Bc"/>spiritualis a Deo creata, tamen non est
+<lb ed="#Bc"/>carni unibilis : et ideo aliter est 
+spiritua<lb ed="#Bc" break="no"/>lis quam anima : nec est creata 
+substan<lb ed="#Bc" break="no"/>tia Angelus ad imaginem creantis sicut
+<lb ed="#Bc"/>anima. Unde licet in multis sit imago
+<lb ed="#Bc"/>anima, in hoc tamen etiam est imago,
+<lb ed="#Bc"/>quia sicut Deus vivificat omnia, ita 
+ani<lb ed="#Bc" break="no"/>ma vivificat omnia sua, et 
+unumquod<lb ed="#Bc" break="no"/>que membrum ad suum proprium actum
+<lb ed="#Bc"/>vite.
+</p>
+               <p xml:id="Almn78-hh1207-d1e747">
+                  <pb ed="#Bc" n="10"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>App quod objicitur contra illam 
+al<lb ed="#Bc" break="no"/>teram que est Augustini, dicendum quod
+<lb ed="#Bc"/>dicitur semper vivens, eo quod semper
+<lb ed="#Bc"/>influit vitam : et dicitur semper in motu,
+<lb ed="#Bc"/>eo quod semper influit potentiam 
+moti<lb ed="#Bc" break="no"/>vam ad opera vite secundum propriam
+<lb ed="#Bc"/>periodum uniuscujusque vivi. Et ideo
+<lb ed="#Bc"/>dicit Pythagoras, quod anima est 
+nume<lb ed="#Bc" break="no"/>rus seipsum movens, vocans numerum
+<lb ed="#Bc"/>proportionabilitatem potentiarum ad 
+or<lb ed="#Bc" break="no"/>gana : hec enim consistit in numero
+<lb ed="#Bc"/>proportionali., Ideo etiam dixit Plato,
+<lb ed="#Bc"/>quod anima est substantia intellectualis
+<lb ed="#Bc"/>ex seipsa mobilis secundum numerum
+<lb ed="#Bc"/>harmonicum. Omnia enim que ad se
+<lb ed="#Bc"/>invicem proportionantur ut motivum et
+<lb ed="#Bc"/>mobile, dicebat Plato secundum 
+nume<lb ed="#Bc" break="no"/>rum harmonicum proportionari, qui
+<lb ed="#Bc"/>numerus est in numero potentiarum
+<lb ed="#Bc"/>moventium, et numero organorum 
+mo<lb ed="#Bc" break="no"/>torum, et dispositionum figurarum 
+qui<lb ed="#Bc" break="no"/>bus aptantur ad motum. Sicut etiam
+<lb ed="#Bc"/>dicebat Socrates constitui mundum
+<lb ed="#Bc"/>totum numeris proportionalibus. Unde
+<lb ed="#Bc"/>Boetius in libro IJ de Consolatione 
+phi<lb ed="#Bc" break="no"/>losophie :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-hh1207-Qd1e812">Tu triplicis mediam nature cuncta moventem
+<lb ed="#Bc"/>Convertens animam, per consona membra 
+re<lb ed="#Bc" break="no"/>solvis.</quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e820">
+                  <lb ed="#Bc"/>Ad id quod objicitur contra lam que
+<lb ed="#Bc"/>est Damasceni, dicendum, quod illa bona
+<lb ed="#Bc"/>est, et datur per comparationem ad 
+na<lb ed="#Bc" break="no"/>turam et potentias anime, secundum
+<lb ed="#Bc"/>quod anima est totum potestativum 
+con<lb ed="#Bc" break="no"/>stitutum ex omnibus potentiis suis.
+</p>
+               <p xml:id="Almn78-hh1207-d1e836">
+                  <lb ed="#Bc"/>Et quod dicitur corporeis oculis 
+invi<lb ed="#Bc" break="no"/>sibilis, et infigurabilis, non est 
+nugato<lb ed="#Bc" break="no"/>rium, licet ante dicta sit substantia
+<lb ed="#Bc"/>spiritualis : hoc enim dicitur ad 
+amo<lb ed="#Bc" break="no"/>vendum errorem Cleantis Stoici, de quo
+<lb ed="#Bc"/>dicit Gregorius Nyssenus in libro de
+<lb ed="#Bc"/>Homine, quod Cleantes et Chrysippus et
+<lb ed="#Bc"/>Stoici talem complicant syllogismum :
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Non solum similes genitoribus secundum
+<lb ed="#Bc"/>corpus sumus, sed etiam secundum 
+ani<lb ed="#Bc" break="no"/>mam passionibus, moribus, et 
+disposi<lb ed="#Bc" break="no"/>tionibus. Corporis autem proprie est
+<lb ed="#Bc"/>esse simile, et non incorporei. Corpus
+<lb ed="#Bc"/>igitur est anima. Unde ad exprimendum
+<lb ed="#Bc"/>et determinandum incorporeitatem 
+ani<lb ed="#Bc" break="no"/>me, dicitur infigurabilis et corporeis
+<lb ed="#Bc"/>oculis invisibilis, ut intelligatur anima
+<lb ed="#Bc"/>non esse virtus corporea.
+</p>
+               <p xml:id="Almn78-hh1207-d1e880">
+                  <lb ed="#Bc"/>Er qvuop dicitur intellectualis, et 
+addi<lb ed="#Bc" break="no"/>tur rationalis, non est nugatorium
+<lb ed="#Bc"/>exprimit enim modum intellectualitatis
+<lb ed="#Bc"/>anime, que non habet intellectum 
+sim<lb ed="#Bc" break="no"/>plicem et deiformem sicut Angelus, sed
+<lb ed="#Bc"/>intellectum discursum, inquisilivum, et
+<lb ed="#Bc"/>compositum, sicut dictum est in tractatu
+<lb ed="#Bc"/>de attributis Angelorum, questione de
+<lb ed="#Bc"/>ratione’,
+</p>
+               <p xml:id="Almn78-hh1207-d1e902">
+                  <lb ed="#Bc"/>Ad aliud quod objicitur de intellectu,
+<lb ed="#Bc"/>dicendum quod intellectus in actu 
+intel<lb ed="#Bc" break="no"/>ligendi nullius corporis est actus : quia
+<lb ed="#Bc"/>si esset actus alicujus corporis, non 
+in<lb ed="#Bc" break="no"/>telligeret nisi ea que sunt de harmonia
+<lb ed="#Bc"/>illius corporis : nunc autem intelligit
+<lb ed="#Bc"/>omnia. Sed quod dicitur, quod potentia
+<lb ed="#Bc"/>in actu separata non possit esse pars 
+ani<lb ed="#Bc" break="no"/>mz, que est actus corporis, falsum est.
+<lb ed="#Bc"/>Avicenna enim in VI de Naturalibus
+<lb ed="#Bc"/>ubi venatur definitionem anime, dicit
+<lb ed="#Bc"/>quod anima in hoc differt a natura, quia
+<lb ed="#Bc"/>ab anima fluunt quedam potentiae 
+con<lb ed="#Bc" break="no"/>juncte organo corporis, et quedam non
+<lb ed="#Bc"/>conjuncte. Tamen propter objectionem
+<lb ed="#Bc"/>illam quidam dixerunt, quod intellectus
+<lb ed="#Bc"/>non est in anima ut pars potestaliva, sed
+<lb ed="#Bc"/>est ex splendore intelligentia, que sicut
+<lb ed="#Bc"/>dicitur in libro de Cawsts, agit in 
+ani<lb ed="#Bc" break="no"/>mam sicut anima in naturam. Et ideo
+<lb ed="#Bc"/>dixerunt intellectum extra animam esse.
+<lb ed="#Bc"/>Et ad excludendum errorem illum dixit,
+<lb ed="#Bc"/>non habens extra se intellectum, sed
+<lb ed="#Bc"/>partem sui purissimam. Et ideo etiam
+<lb ed="#Bc"/>dixit Aristoteles in 1 Ethicorum, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-hh1207-Qd1e960"> sicut visus in corpore, ita intellectus
+<lb ed="#Bc"/>in anima. </quote>
+               </p>
+               <p xml:id="Almn78-hh1207-d1e966">
+                  <pb ed="#Bc" n="11"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Ad utrmmum jam patet solutio: quia
+<lb ed="#Bc"/>de definitione dictum est penes quid 
+da<lb ed="#Bc" break="no"/>tur et sumatur.
+</p>
+            </div>
+            <div xml:id="Almn78-hh1207-Dd1e981">
+               <head xml:id="Almn78-hh1207-Hd1e983">Membrum 2</head>
+               <head xml:id="Almn78-hh1207-Hd1e986" type="question-title">
+        De tribus definitionibus Philosophorum
+        de quid sit anima.
+      </head>
+               <p xml:id="Almn78-hh1207-d1e989">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De tribus definitionibus Philosophorum
+<lb ed="#Bc"/>de quid sit anima.
+</p>
+               <div xml:id="Almn78-hh1207-Dd1e998">
+                  <head xml:id="Almn78-hh1207-Hd1e1000">Articulus 1</head>
+                  <head xml:id="Almn78-hh1207-Hd1e1003" type="question-title">
+          De prima definitione anime, quae est
+          Avicennae
+        </head>
+                  <p xml:id="Almn78-hh1207-d1e1006">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>De prima definitione anime, quae est
+<lb ed="#Bc"/>
+                     <name xml:id="Almn78-hh1207-Nd1e1016">Avicennae</name>.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1020">
+                     <lb ed="#Bc"/>Secundo, Queritur de definitionibus
+<lb ed="#Bc"/>Philosophorum, que inveniuntur tres :
+<lb ed="#Bc"/>duz ab Aristotele, et una ab Avicenna.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1029">
+                     <lb ed="#Bc"/>Avicenna in VI de Naturalibus animam
+<lb ed="#Bc"/>sic definit : <quote xml:id="Almn78-hh1207-Qd1e1035"> Anima est perfectio prima
+<lb ed="#Bc"/>corporis naturalis instrumentalis, 
+ha<lb ed="#Bc" break="no"/>bentis opera vita. </quote>
+                  </p>
+                  <p xml:id="Almn78-hh1207-d1e1044">
+                     <lb ed="#Bc"/>Circa quam definitionem primo 
+que<lb ed="#Bc" break="no"/>riiur, Quare anima dicatur prima 
+perle<lb ed="#Bc" break="no"/>ctio corporis ?
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1053">
+                     <lb ed="#Bc"/>Prima enim perfectio corporis 
+conna<lb ed="#Bc" break="no"/>turalitatem habet ad corpus: et est 
+cor<lb ed="#Bc" break="no"/>porea, quia forma corporalis. Dicit 
+au<lb ed="#Bc" break="no"/>tem Aristoteles in primo de Anima,
+<lb ed="#Bc"/>quod omnes antiqui Philosophi, et 
+ma<lb ed="#Bc" break="no"/>xime Stoici, et Epicurei, tribus 
+definie<lb ed="#Bc" break="no"/>bant animam, scilicet motivo, 
+cognosci<lb ed="#Bc" break="no"/>tivo, et incorporeo. Stoici enim motivo
+<lb ed="#Bc"/>definiebant eam, et in prehabitis posite
+<lb ed="#Bc"/>sunt rationes eorum, ubi 
+determina<lb ed="#Bc" break="no"/>tum est de illis qui dicebant animam
+<lb ed="#Bc"/>esse spheras atomales, rotundas, 
+sem<lb ed="#Bc" break="no"/>per mobiles. Epicurei autem definiebant
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>eam cognoscitivo. Et habitum etiam est
+<lb ed="#Bc"/>in precedentibus de illis: quia illi 
+di<lb ed="#Bc" break="no"/>cebant animam esse vel elementum vel
+<lb ed="#Bc"/>ex elementis, et simile similt cognosci.
+<lb ed="#Bc"/>Quorum rationes etiam in prehabilis
+<lb ed="#Bc"/>habite sunt. Sic enim eam dicit esse
+<lb ed="#Bc"/>Dinarchus, et sui sequaces.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1101">
+                     <lb ed="#Bc"/>Socrates autem, et Plato, et nepos
+<lb ed="#Bc"/>ejus Speusippus definiebant eam 
+incor<lb ed="#Bc" break="no"/>poream : dicentes animam esse 
+nume<lb ed="#Bc" break="no"/>rum harmonicum seipsum moventem.
+<lb ed="#Bc"/>Et ratio eorum fuit triplex. Prima fuit,
+<lb ed="#Bc"/>quod dicebant demonstratum esse, quod
+<lb ed="#Bc"/>omne corpus indiget continente: unde
+<lb ed="#Bc"/>si anima est corpus, indiget aliquo con-
+{tinente : nec propria virtule continet
+<lb ed="#Bc"/>corpus in quo est. Et tune queralur de
+<lb ed="#Bc"/>illo quod continet animam, Utrum sit
+<lb ed="#Bc"/>corpus, vel non? Si dicatur, quod sit
+<lb ed="#Bc"/>corpus : tunc iterum indiget aliquo 
+con<lb ed="#Bc" break="no"/>tinente : et hoc abibit in infinitum, 
+ni<lb ed="#Bc" break="no"/>si stet in aliquo quod est 
+incorpo<lb ed="#Bc" break="no"/>reum : anima igitur est incorporea, et
+<lb ed="#Bc"/>incorporeo debet definiri. Secunda 
+ra<lb ed="#Bc" break="no"/>tio eorum fuit, quod dicebant 
+om<lb ed="#Bc" break="no"/>ne corpus esse divisibile: et si 
+divi<lb ed="#Bc" break="no"/>sibile, etiam corruptibile: animas
+<lb ed="#Bc"/>autem et precipue hominum rationales,
+<lb ed="#Bc"/>dicebant esse incorruptibiles, et a 
+prin<lb ed="#Bc" break="no"/>cipio mundi omnes simul esse creatas,
+<lb ed="#Bc"/>et per secula que sibi succedunt, sicut
+<lb ed="#Bc"/>dicunt, semper incorruptibiles : et ideo
+<lb ed="#Bc"/>animam rationalem nihil posse esse 
+cor<lb ed="#Bc" break="no"/>poreum, sed ab omni corporeo per 
+na<lb ed="#Bc" break="no"/>turam et substantiam distinctum. Tertia
+<lb ed="#Bc"/>ratio eorum fuit, quod videbant omne
+<lb ed="#Bc"/>corpus distensum esse dimensionibus
+<lb ed="#Bc"/>quantitatis, animam autem esse 
+substan<lb ed="#Bc" break="no"/>tiam simplicem, et formas que in anima
+<lb ed="#Bc"/>sunt rationali, intentionales esse et 
+sim<lb ed="#Bc" break="no"/>plices: quod ille forma habere non
+<lb ed="#Bc"/>possunt, nisi ex subjecto in quo sunt :
+<lb ed="#Bc"/>et ideo animam esse substantiam 
+simpli<lb ed="#Bc" break="no"/>cem, et nihil corporeum posse esse, sed
+<lb ed="#Bc"/>definiendam eam esse in genere 
+incorpo<lb ed="#Bc" break="no"/>ree substantie.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1186">
+                     <pb ed="#Bc" n="12"/>
+                     <cb ed="#Ba" n="a"/>
+1. Cum ergo <name xml:id="Almn78-hh1207-Nd1e1192">Avicenna</name> dicat, quod est
+<lb ed="#Bc"/>perfectio prima corporis, cum prima 
+per<lb ed="#Bc" break="no"/>fectio corporis sit quid corporeum, 
+vide<lb ed="#Bc" break="no"/>tur male dicere et contra positionem 
+sa<lb ed="#Bc" break="no"/>pientium.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1205">
+                     <lb ed="#Bc"/>2. Adhuc, Quare dicit, Prima? 
+Pri<lb ed="#Bc" break="no"/>mum enim dicitur respectu secundi: et
+<lb ed="#Bc"/>sic videtur innuere, quod aliqua 
+perfe<lb ed="#Bc" break="no"/>clio sit post animam que  perticiat
+<lb ed="#Bc"/>ipsum animalum in esse animati: quod
+<lb ed="#Bc"/>falsum est.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1221">
+                     <lb ed="#Bc"/>3. Adhuc, Male videtur dicere cum 
+di<lb ed="#Bc" break="no"/>eitur, Instrumentalis. Tostrumentum
+<lb ed="#Bc"/>enim est, ut dicit Aristoteles, quod ab
+<lb ed="#Bc"/>extrinseco motore movetur, ut securis,
+<lb ed="#Bc"/>et gladius. Corpus autem naturale 
+ani<lb ed="#Bc" break="no"/>matum ab intrinseco motore connaturali
+<lb ed="#Bc"/>sibi movetur, a quo accipit et nomen et
+<lb ed="#Bc"/>rationem. Manus enim abscissa, vel pes,
+<lb ed="#Bc"/>vel oculus, non dicuntur manus, vel pes,
+<lb ed="#Bc"/>vel oculus, nisi aquivoce, ut dicit 
+Ari<lb ed="#Bc" break="no"/>stoteles, et omnes Philosophi.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1248">
+                     <lb ed="#Bc"/>4, Adhuc, Quare dicit, Habentis 
+ope<lb ed="#Bc" break="no"/>ra vite ? Videtur enim debuisse dixisse,
+<lb ed="#Bc"/>Habentis potentiam ad opera vite: ex
+<lb ed="#Bc"/>anima enim corpus non habet, nisi 
+po<lb ed="#Bc" break="no"/>tentiam ad opera vite, et non opera in
+<lb ed="#Bc"/>actu.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1264">
+                     <lb ed="#Bc"/>5. Adhuc, Determinare debuisset que
+<lb ed="#Bc"/>sunt opera vite, et que non : quod non
+<lb ed="#Bc"/>fecit. Dicit enim Aristoteles in primo
+<lb ed="#Bc"/>de Anima, quod vivere multipliciter 
+di<lb ed="#Bc" break="no"/>citur, scilicet nutriri, augeri, et 
+secun<lb ed="#Bc" break="no"/>dum locum moveri, sentire, et 
+intellige<lb ed="#Bc" break="no"/>re : et cum definitio detur ad 
+manifesta<lb ed="#Bc" break="no"/>tionem et declarationem, videtur quod
+<lb ed="#Bc"/>nihil multipliciter dictum in definitione
+<lb ed="#Bc"/>debeat poni nisi distinctum et 
+determi<lb ed="#Bc" break="no"/>natum : quia non declarat aliquid 
+quam<lb ed="#Bc" break="no"/>diu est multipliciter acceptum.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1293">
+                     <lb ed="#Bc"/>6. Adhuc, Contra totam definitionem
+<lb ed="#Bc"/>sic objicitur : Omnis forma naturalis est
+<lb ed="#Bc"/>perfectio prima corporis naturalis : et
+<lb ed="#Bc"/>sic hac definitio non convenit soli 
+ani<lb ed="#Bc" break="no"/>me, sed etiam forme naturali : ergo 
+vi<lb ed="#Bc" break="no"/>tiosa est : quia in VII Topicorum 
+deter<lb ed="#Bc" break="no"/>minat Aristoteles, quod <quote xml:id="Almn78-hh1207-Qd1e1310"> definitio debet
+<lb ed="#Bc"/>convenire omni et soli, sicut proprium
+<lb ed="#Bc"/>et convertibile. </quote>
+                  </p>
+                  <p xml:id="Almn78-hh1207-d1e1318">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod definitio
+<lb ed="#Bc"/>Avicenne bona est, et eumdem sensum
+<lb ed="#Bc"/>habet cum definitione quam ponit 
+Ari<lb ed="#Bc" break="no"/>stoteles, sicut in sequentibus patebit.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1331">
+                     <lb ed="#Bc"/>Ad primum dicendum, quod verum est,
+<lb ed="#Bc"/>quod rationibus que inductee sunt primi
+<lb ed="#Bc"/>philosophantes tribus definierunt 
+ani<lb ed="#Bc" break="no"/>mam, motivo scilicet, cognoscitivo, et
+<lb ed="#Bc"/>incorporeo. Sed incorporeo omnem 
+ani<lb ed="#Bc" break="no"/>mam delinietur, vegetabilis scilicet, 
+sen<lb ed="#Bc" break="no"/>sibilis, et rationalis vivi. Motivo autem
+<lb ed="#Bc"/>et cognoscitivo definierunt animam vivi
+<lb ed="#Bc"/>quod movetur secundum locum : in illo
+<lb ed="#Bc"/>enim cognoscitivum nuntiat de motu :
+<lb ed="#Bc"/>motivum autem perficit motum. Et 
+mo<lb ed="#Bc" break="no"/>tum illum duplicem esse dicebant, 
+scili<lb ed="#Bc" break="no"/>cet processivum, quiest de loco ad 
+Jo<lb ed="#Bc" break="no"/>cum procedere : et motum contractionis
+<lb ed="#Bc"/>et dilatationis, qui est etiam in 
+imper<lb ed="#Bc" break="no"/>fectis animalibus, ut in spongia, et in
+<lb ed="#Bc"/>embryonibus conceptis, que puncta se
+<lb ed="#Bc"/>contrahunt, et ad nutrimentum 
+delecta<lb ed="#Bc" break="no"/>bile se dilatant. Nec Avicenna obviat in
+<lb ed="#Bc"/>aliquo istis. Perfectio enim corporis 
+na<lb ed="#Bc" break="no"/>turalis dupliciter dicilur, scilicet que 
+se<lb ed="#Bc" break="no"/>cundum substantiam est dimensa et 
+cor<lb ed="#Bc" break="no"/>porea, et est in majori corpore major,
+<lb ed="#Bc"/>et in minori corpore minor : et talis 
+per<lb ed="#Bc" break="no"/>fectio corporalis non est anima. Et
+<lb ed="#Bc"/>dicitur per fectio corporis, que secundum
+<lb ed="#Bc"/>substantiam est incorporea et 
+indivisibi<lb ed="#Bc" break="no"/>lis, sed secundum potentias in partes
+<lb ed="#Bc"/>corporis est distributa: nec in majori
+<lb ed="#Bc"/>est major, nec in minori minor: 
+quin<lb ed="#Bc" break="no"/>imo si tale animal dividatur, sicut 
+an<lb ed="#Bc" break="no"/>guilla, anima secundum sensum et 
+mo<lb ed="#Bc" break="no"/>tum in utraque parte remanet integra.
+<lb ed="#Bc"/>Et quod non convalescit utraque pars in
+<lb ed="#Bc"/>animali, dicit Aristoteles non esse ex
+<lb ed="#Bc"/>defectu anime, sed per accidens: quia
+<lb ed="#Bc"/>scilicet in utraque parte non habet 
+mem<lb ed="#Bc" break="no"/>bra guibus conservatur, os scilicet, 
+sto<lb ed="#Bc" break="no"/>machum, et hepar, et cor.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1418">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod prima dicit,
+<lb ed="#Bc"/>quia in omnibus operibus naturalibus et
+<lb ed="#Bc"/>artificialibus prima perfectio est que
+<lb ed="#Bc"/>dat esse simpliciter. Secunda autem est,
+<lb ed="#Bc"/>que perficit ad agere. Et est exemplum
+<lb ed="#Bc"/>Philosophi in primo de Anima: sicut in
+<pb ed="#Bc" n="13"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>artificialibus figura ensis dat ensi esse in
+<lb ed="#Bc"/>specie artificiati: incidere autem 
+perfe<lb ed="#Bc" break="no"/>ctio est in agere, ad cujus operationes
+<lb ed="#Bc"/>datur perfectio prima que est figura.
+<lb ed="#Bc"/>Similiter anima perfectio prima est, que
+<lb ed="#Bc"/>dat esse animato in specie animati. 
+Se<lb ed="#Bc" break="no"/>cunda autem perfectio est in operibus
+<lb ed="#Bc"/>animati vivificando, nutriendo, 
+sentien<lb ed="#Bc" break="no"/>do, movendo de loco ad locum, et 
+in<lb ed="#Bc" break="no"/>telligendo : que sunt in animali sicut
+<lb ed="#Bc"/>vigilia, que nihil alind est nisi expansio
+<lb ed="#Bc"/>ealoris et spiritus ad exteriora: quia
+<lb ed="#Bc"/>illis duobus membra perficiuntur ad
+<lb ed="#Bc"/>vite opera. Unde Philosophus etiam
+<lb ed="#Bc"/>dicit, quod anima est perfectio sicut
+<lb ed="#Bc"/>somnus : operari aulem opera vite 
+per<lb ed="#Bc" break="no"/>fectio sicut vigilia.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1476">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod Avicenna
+<lb ed="#Bc"/>ponit instrumentale pro organo. 
+Orga<lb ed="#Bc" break="no"/>num enim est, quod intrinseco motore
+<lb ed="#Bc"/>movetur connaturali sibi et unito.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1487">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod opera vite
+<lb ed="#Bc"/>dicit, ut notet secundam perfectionem,
+<lb ed="#Bc"/>que est sicut vigilia et finis, propter
+<lb ed="#Bc"/>quem datur anima. Illa enim non 
+con<lb ed="#Bc" break="no"/>sistit in potentiis, sed in operibus: quia
+<lb ed="#Bc"/>potentia secundum quod potentia, non
+<lb ed="#Bc"/>est perfectio nisi sicut somnus.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1505">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod Avicenna
+<lb ed="#Bc"/>definit gencraliler animam, et non 
+spe<lb ed="#Bc" break="no"/>cialiter quamdam animam., Et quia
+<lb ed="#Bc"/>vita essentialis actus est ‘anime in 
+cor<lb ed="#Bc" break="no"/>pus et omnis anima, ideo non 
+distin<lb ed="#Bc" break="no"/>guendo dicit tantum opera vite. Si
+<lb ed="#Bc"/>enim distingueret: tunc esset definitio
+<lb ed="#Bc"/>cujusdam anime, et non anime 
+secun<lb ed="#Bc" break="no"/>dum se: et hoc declarat satis animam
+<lb ed="#Bc"/>secundum se, licet non determinet hance
+<lb ed="#Bc"/>et illam.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1531">
+                     <lb ed="#Bc"/>Ad uttimum dicendum, quod _ licet
+<lb ed="#Bc"/>forma naturalis sit perfectio materia,
+<lb ed="#Bc"/>tamen -nullius corporis perfectio est ad
+<lb ed="#Bc"/>opera vile. Unde per hoc quod dicitur,
+<lb ed="#Bc"/>Ad opera vite, separatur anima a forma
+<lb ed="#Bc"/>naturali. Democritus tamen (qui, ut dicit
+<lb ed="#Bc"/>Aristoteles, de omnibus se intromisit)
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>dicebat unam formam omnium esse, sed
+<lb ed="#Bc"/>in quibusdam oppressam materiae 
+pon<lb ed="#Bc" break="no"/>dere, et haec dici materialia et naturalia :
+<lb ed="#Bc"/>in quibusdam autem esse elevatam super
+<lb ed="#Bc"/>materiam, et habere proprias 
+operatio<lb ed="#Bc" break="no"/>nes immateriales, et hewc dici viva et
+<lb ed="#Bc"/>animata. Sed hoc falsum est, et una
+<lb ed="#Bc"/>simplici propositione destruilur: quia
+<lb ed="#Bc"/>scilicet perfectiones differunt secundum
+<lb ed="#Bc"/>perfecla : propter quod impossibile est
+<lb ed="#Bc"/>unam esse perfectionem omnium vel
+<lb ed="#Bc"/>formam.
+</p>
+               </div>
+               <div xml:id="Almn78-hh1207-Dd1e1578">
+                  <head xml:id="Almn78-hh1207-Hd1e1580">Articulus 2</head>
+                  <head xml:id="Almn78-hh1207-Hd1e1583" type="question-title">
+            De secunda definitione anime# secundum
+            Philosophos, quae est Aristotelis.
+          </head>
+                  <p xml:id="Almn78-hh1207-d1e1586">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS ITI.
+<lb ed="#Bc"/>De secunda definitione anime# secundum
+<lb ed="#Bc"/>Philosophos, quae est Aristotelis.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1597">
+                     <lb ed="#Bc"/>Deinde, Queritur de definitionibus
+<lb ed="#Bc"/>quas dat Aristoteles in II de Anima,
+<lb ed="#Bc"/>ubi dat talem definitionem, et venatur
+<lb ed="#Bc"/>eam per divisionem, et dicit: <quote xml:id="Almn78-hh1207-Qd1e1607"> Anima
+<lb ed="#Bc"/>est primus actus corporis physici orga
+<lb ed="#Bc" break="no"/>nici, potentia vilam habentis. </quote> 
+Hujus<lb ed="#Bc" break="no"/>modi autem est quodcumque 
+organi<lb ed="#Bc" break="no"/>cum.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1620">
+                     <lb ed="#Bc"/>Contra hance definitionem 
+mulltiplici<lb ed="#Bc" break="no"/>ter objicit Gregorius Nyssenus in libro
+<lb ed="#Bc"/>de Homine.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1630">
+                     <lb ed="#Bc"/>1. Dicit enim, quod sianima est 
+ende<lb ed="#Bc" break="no"/>lechia sive actus et perfectio, cum 
+ende<lb ed="#Bc" break="no"/>lechia sive actus non sit nisi in perfecto,
+<lb ed="#Bc"/>videtur quod anima nullum esse habeat
+<lb ed="#Bc"/>nisi in corpore, et sine corpore nihil
+<lb ed="#Bc"/>sit.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1646">
+                     <lb ed="#Bc"/>2. Adhuc, Addit Gregorius Nyssenus,
+<lb ed="#Bc"/>quod ad hoc deducti sumus, quod 
+dica<lb ed="#Bc" break="no"/>mus cum Platone, quod anima sit 
+sub<lb ed="#Bc" break="no"/>stantia, et hoc aliquid, corpori regendo
+<pb ed="#Bc" n="14"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>accommodata, et quod separabilis sit a
+<lb ed="#Bc"/>corpore: vel cum Aristotele dicamus,
+<lb ed="#Bc"/>quod est endelechia sive perfectio 
+corpo<lb ed="#Bc" break="no"/>ris: et cogemur dicere, quod nullum
+<lb ed="#Bc"/>esse habeat sine corpore.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1672">
+                     <lb ed="#Bc"/>1. Adhuc, Hoc maxime videtur sequi
+<lb ed="#Bc"/>ex hoc quod dicit Aristoteles, ibidem :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-hh1207-Qd1e1680"> Quoniam autem et corpus hujusmodi
+<lb ed="#Bc"/>vitam erit habens, nec erit corpus 
+ani<lb ed="#Bc" break="no"/>ma: non enim est eorum que in 
+sub<lb ed="#Bc" break="no"/>jecto sunt, scilicet corpus: magis 
+au<lb ed="#Bc" break="no"/>tem subjectum et materia est, scilicet
+<lb ed="#Bc"/>corpus : necesse est animam 
+substan<lb ed="#Bc" break="no"/>tiam esse sicut speciem corporis physici
+<lb ed="#Bc"/>potentia vitam habentis. </quote> Ex hoc 
+acci<lb ed="#Bc" break="no"/>pitur, quod anima est substantia, sicut
+<lb ed="#Bc"/>forma et sicut species corporis physici :
+<lb ed="#Bc"/>et si est sicut species et forma talis 
+cor<lb ed="#Bc" break="no"/>poris, est actus illitus, Et quia omnis
+<lb ed="#Bc"/>forma predicatur in quale : tunc, ut dicit
+<lb ed="#Bc"/>Gregorius Nyssenus, sequitur quod 
+ani<lb ed="#Bc" break="no"/>ma sit essentialis qualitas corporis. Et
+<lb ed="#Bc"/>tunc de necessitate sequitur quod dictum
+<lb ed="#Bc"/>est. Qualitas enim essentialis numquam
+<lb ed="#Bc"/>est sine eo quod quale facit. Et sic 
+opor<lb ed="#Bc" break="no"/>teret, quod anima universaliter etiam
+<lb ed="#Bc"/>hominis, numquam esset  separabilis
+<lb ed="#Bc"/>a corpore, nec haberet esse 
+separa<lb ed="#Bc" break="no"/>tum.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1730">
+                     <lb ed="#Bc"/>4, Adhuc, Hoc magis sequitur ex hoc
+<lb ed="#Bc"/>quod dicit Aristoteles inducendo simile
+<lb ed="#Bc"/>sic : <quote xml:id="Almn78-hh1207-Qd1e1738"> Si autem est aliquid commune
+<lb ed="#Bc"/>quod in omni anima oportet dicere : tune
+<lb ed="#Bc"/>erit utique actus primus corporis physici
+<lb ed="#Bc"/>organici. Unde non oportet querere si
+<lb ed="#Bc"/>unum est anima et corpus : sicut neque
+<lb ed="#Bc"/>ceram et figuram sigilli que est in cera,
+<lb ed="#Bc"/>nec omnino uniuscujusque materiam et
+<lb ed="#Bc"/>id cujus est materia. Ergo videtur, quod
+<lb ed="#Bc"/>sicut figura sigilli se habet ad ceram,
+<lb ed="#Bc"/>dans ei speciem et formam sigilli, sed
+<lb ed="#Bc"/>non speciem et formam cere : ita se
+<lb ed="#Bc"/>habet anima ad corpus, ut dans ei 
+spe<lb ed="#Bc" break="no"/>ciem et formam animati et vivi, sed non
+<lb ed="#Bc"/>dans ei formam et speciem corporis. </quote>
+                     <lb ed="#Bc"/>Et ex hoc iterum concluditur, quod 
+ani<lb ed="#Bc" break="no"/>ma extra corpus nullum habet esse.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1775">
+                     <lb ed="#Bc"/>5. Adhuc, Hoc maxime videtur sequi
+<lb ed="#Bc"/>ex hoc quod infra dicit sic : <quote xml:id="Almn78-hh1207-Qd1e1781"> Si ali-
+<cb ed="#Bc" n="b"/>
+                        <lb ed="#Bc"/>quod organorum, hoc est, 
+instrumento<lb ed="#Bc" break="no"/>rum physicum esset ut dolabra, erit
+<lb ed="#Bc"/>quidem dolabrale esse substantia ipsius,
+<lb ed="#Bc"/>et anima hec est. Divisa autem 
+substan<lb ed="#Bc" break="no"/>tia hac, scilicet que confert ei dolabrale,
+<lb ed="#Bc"/>utique dolabra non amplius erit, sed aut
+<lb ed="#Bc"/>equivoce. Nunc autem est dolabra, 
+sci<lb ed="#Bc" break="no"/>licet quamdiu habet talem formam. </quote> Ex
+<lb ed="#Bc"/>hoc expresse accipitur, quod anima non
+<lb ed="#Bc"/>est substantia, nec aliquid, nisi quamdiu
+<lb ed="#Bc"/>est in eo quiconfert esse vivi et animati:
+<lb ed="#Bc"/>et sic anima non remaneret post corpus
+<lb ed="#Bc"/>ut substantia et hoc aliquid, nec esset
+<lb ed="#Bc"/>post mortem, sed periret cum corpore,
+<lb ed="#Bc"/>quod valde inconveniens est de anima
+<lb ed="#Bc"/>rationali.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1821">
+                     <lb ed="#Bc"/>6. Ulterius queritur, Quomodo 
+dica<lb ed="#Bc" break="no"/>tur anima actus primus ? Cum actus 
+pri<lb ed="#Bc" break="no"/>mus sit sicut habitus : est enim sicut
+<lb ed="#Bc"/>scientia, sicut ibidem dicit. Secundus 
+au<lb ed="#Bc" break="no"/>tem est sicut considerare per scientiam.
+<lb ed="#Bc"/>Et dicit, quod manifestum est, quod 
+ani<lb ed="#Bc" break="no"/>ma est sicut scientia. Et subjungit 
+ratio<lb ed="#Bc" break="no"/>nem dicens: <quote xml:id="Almn78-hh1207-Qd1e1840"> In eo enim quod est 
+ani<lb ed="#Bc" break="no"/>ma, et somnus et vigilantia est. Simile
+<lb ed="#Bc"/>autem vigilantia est quidem ipsi 
+consi<lb ed="#Bc" break="no"/>derationi : somnus autem dormienti et
+<lb ed="#Bc"/>non operanti. </quote> Et ex hoc concludit sic :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-hh1207-Qd1e1853"> Prior igitur consideratione in eadem
+<lb ed="#Bc"/>scientia. Unde et anima primus actus est
+<lb ed="#Bc"/>corporis physici vitam habentis potentia :
+<lb ed="#Bc"/>secundum hoc enim actus primus 
+ordina<lb ed="#Bc" break="no"/>tus est ad actum secundum tamquam ad
+<lb ed="#Bc"/>perfectissimum : animatum autem 
+per<lb ed="#Bc" break="no"/>fectissimum est secundum esse in 
+natu<lb ed="#Bc" break="no"/>ra: ergo anima confert esse 
+perfectissi<lb ed="#Bc" break="no"/>mum. </quote> Et sic videtur magis similis ad
+<lb ed="#Bc"/>actum secundum, quam ad actum 
+pri<lb ed="#Bc" break="no"/>mum : unumquodque enim debet definiri
+<lb ed="#Bc"/>ab ultimo et optimo sui : quia hoc, ut
+<lb ed="#Bc"/>Aristoteles ostendit in VII prime 
+philo<lb ed="#Bc" break="no"/>sophie, est conslitutivum tolius esse, et
+<lb ed="#Bc"/>differentia convertibilis, respectu cujus
+<lb ed="#Bc"/>omnia alia sunt in potentia.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1891">
+                     <lb ed="#Bc"/>7. Ulterius queritur, Quare dicit, 
+Cor<lb ed="#Bc" break="no"/>poris physici? Physicum enim in eo
+<lb ed="#Bc"/>quod physicum est, forma physica 
+perfi<lb ed="#Bc" break="no"/>citur : anima autem, sicut dicit 
+Avicen<lb ed="#Bc" break="no"/>na, elevata est supra formam physicam :
+<pb ed="#Bc" n="15"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>deberet ergo dici magis animati corporis
+<lb ed="#Bc"/>quam physict.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1913">
+                     <lb ed="#Bc"/>8. Ulterius adhuc queritur, Quare 
+di<lb ed="#Bc" break="no"/>cit, Organici ? Quedam enim sunt 
+ani<lb ed="#Bc" break="no"/>mata, in quibus nulla distinctio est 
+orga<lb ed="#Bc" break="no"/>norum, sicut spongia, et aureum vellus :
+<lb ed="#Bc"/>ergo non generaliter animatum est 
+orga<lb ed="#Bc" break="no"/>nicum : et sic non deberet anima definiri
+<lb ed="#Bc"/>per organicum.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1931">
+                     <lb ed="#Bc"/>9. Ulterius adhuc queritur de hoc
+<lb ed="#Bc"/>quod dicit, Potentia vitam habentis : et
+<lb ed="#Bc"/>queritur de qua potentia intelligitur?
+<lb ed="#Bc"/>Sicut enim dicit Aristoteles in V prime
+<lb ed="#Bc"/>philosophiz, potentia duplex est in 
+gene<lb ed="#Bc" break="no"/>re, activa scilicet, et passiva. Potentia 
+ac<lb ed="#Bc" break="no"/>tiva est, ut dicit ibidem, principium 
+trans<lb ed="#Bc" break="no"/>mutationis in aliud secundum quod est
+<lb ed="#Bc"/>aliud. Et haec corpori convenire non 
+pot<lb ed="#Bc" break="no"/>est : quia, sicut ibidem dicit, ubi illam
+<lb ed="#Bc"/>dat definitionem, corpus in animato 
+ma<lb ed="#Bc" break="no"/>teria est :ergo potentiam activam habere
+<lb ed="#Bc"/>non pétest. Si autem intelligitur de 
+po<lb ed="#Bc" break="no"/>tentia passiva, que sicut ibidem dicitur,
+<lb ed="#Bc"/>principium transmutationis est ex alio
+<lb ed="#Bc"/>secundum quod est aliud, tune illa 
+po<lb ed="#Bc" break="no"/>tentia nihil essentialium anime est. Et
+<lb ed="#Bc"/>cum definitio debeat dari per essentialia
+<lb ed="#Bc"/>definito, videtur quod anima per talem
+<lb ed="#Bc"/>potentiam non debeat definiri.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e1977">
+                     <lb ed="#Bc"/>10. Ulterius queritur de hoc quod 
+di<lb ed="#Bc" break="no"/>cit in fine postquam venatus est 
+defini<lb ed="#Bc" break="no"/>tionem generaliter sic concludendo :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-hh1207-Qd1e1987"> Universaliter quidem igitur est dictum
+<lb ed="#Bc"/>quid sit anima. Substantia enim est 
+se<lb ed="#Bc" break="no"/>cundum rationem : hoc autem est quod
+<lb ed="#Bc"/>quid erat .esse hujusmodi corporis. </quote>
+                     <lb ed="#Bc"/>Hoc enim non videtur convenire 
+omni<lb ed="#Bc" break="no"/>bus que sunt anime : intellectus enim
+<lb ed="#Bc"/>anime est. Et ibidem dicit, quod 
+intel<lb ed="#Bc" break="no"/>lectus nullius corporis actus est. Male 
+er<lb ed="#Bc" break="no"/>go videtur esse data dicta definitio.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2008">
+                     <lb ed="#Bc"/>11. Si forte dicat aliquis, quod dicta
+<lb ed="#Bc"/>definitio data est de tota anima, et non
+<lb ed="#Bc"/>de partibus. In contrarium est quod ipse
+<lb ed="#Bc"/>ibidem dicit sic : <quote xml:id="Almn78-hh1207-Qd1e2018"> Considerare autem
+<lb ed="#Bc"/>Oportet in partibus quod dictum est. Si
+<lb ed="#Bc"/>enim esset oculus animal, anima utique
+<lb ed="#Bc"/>ipsius esset visus : hec autem substantia
+<lb ed="#Bc"/>est oculi secundum rationem : oculus
+  <cb ed="#Bc" n="b"/>
+                        <lb ed="#Bc"/>autem est materia, quo scilicet visu 
+defi<lb ed="#Bc" break="no"/>cienle, non est quidem oculus nisi 
+equi<lb ed="#Bc" break="no"/>voce, sicut lapideus, vel depictus. </quote> Et ex
+<lb ed="#Bc"/>his concludit ganeraliter : <quote xml:id="Almn78-hh1207-Qd1e2041"> Simile 
+nam<lb ed="#Bc" break="no"/>que habet sicut pars ad partem : sic et
+<lb ed="#Bc"/>totus sensus ad totum corpus quod est
+<lb ed="#Bc"/>sensitivum secundum quod hujusmodi
+<lb ed="#Bc"/>est. </quote> Si ergo intellectus est aliquid 
+ani<lb ed="#Bc" break="no"/>me, videtur quod secundum hane 
+ratio<lb ed="#Bc" break="no"/>nem sit alicujus corporis actus : et sic
+<lb ed="#Bc"/>anima rationalis et intellectualis non
+<lb ed="#Bc"/>separantur a corpore, quod hereticum
+<lb ed="#Bc"/>est.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2064">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod definitio
+<lb ed="#Bc"/>Aristotelis inducta, dicit quid est anima
+<lb ed="#Bc"/>secundum quod anima est forma et 
+spe<lb ed="#Bc" break="no"/>cies et substantia animalti corporis, in
+<lb ed="#Bc"/>quo secundum totum et secundum 
+par<lb ed="#Bc" break="no"/>tes operatur operationes vite, et non est
+<lb ed="#Bc"/>data de anima secundum quod est in
+<lb ed="#Bc"/>seipsa : propter quod etiam Philosophus
+<lb ed="#Bc"/>dicit ibidem, ubi ponit istam 
+definitio<lb ed="#Bc" break="no"/>nem, quod secundum partes secundum
+<lb ed="#Bc"/>quas est actus corporis alicujus, extra
+<lb ed="#Bc"/>quas non exercet opera vite, non est 
+se<lb ed="#Bc" break="no"/>parabilis : quia si separaretur a corpore,
+<lb ed="#Bc"/>et esset in se, secundum illas partes 
+se<lb ed="#Bc" break="no"/>cundum quas actus est corporis, nullas
+<lb ed="#Bc"/>haberet operationes vite, et sic non 
+es<lb ed="#Bc" break="no"/>set anima. Substantiale est enim anime
+<lb ed="#Bc"/>operationes vite facere. Unde 
+Philoso<lb ed="#Bc" break="no"/>phus ibidem dicit sic : <quote xml:id="Almn78-hh1207-Qd1e2107"> Quod quidem
+<lb ed="#Bc"/>igitur non sit separabilis anima a 
+cor<lb ed="#Bc" break="no"/>pore : aut si separabilis, pars quedam
+<lb ed="#Bc"/>ipsius apta nata est separari, non 
+imma<lb ed="#Bc" break="no"/>nifestum est, Quarumdam enim partium
+<lb ed="#Bc"/>actus est, secundum quas scilicet non
+<lb ed="#Bc"/>contingit eam separari. At vero 
+secun<lb ed="#Bc" break="no"/>dum quasdam nihil prohibet eam 
+sepa<lb ed="#Bc" break="no"/>rari, propter id quod nullius sunt 
+cor<lb ed="#Bc" break="no"/>pora actus. Ampliusque manifestum est
+<lb ed="#Bc"/>hoc si sit corporis actus anima sicut 
+na<lb ed="#Bc" break="no"/>tura navis. </quote> Quod tractans Avicenna in
+<lb ed="#Bc"/>VI de Naturalibus, dicit, quod sicut 
+nau<lb ed="#Bc" break="no"/>ta duplicem habet definitionem : unam
+<lb ed="#Bc"/>secundum quam consideratur in seipso,
+<lb ed="#Bc"/>secundum quam dicitur artifex arte 
+re<lb ed="#Bc" break="no"/>gens navim : aliam secundum quam
+<pb ed="#Bc" n="16"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>operationes nauticas operatur 
+instrumen<lb ed="#Bc" break="no"/>tis navis, arlemone scilicet, malo, velo,
+<lb ed="#Bc"/>remis : ita anima duplicem debet habere
+<lb ed="#Bc"/>definitionem : unam secundum quod
+<lb ed="#Bc"/>operatur opera vitz in corpore et in 
+or<lb ed="#Bc" break="no"/>ganis ejus. Et secundum hoc definitcr
+<lb ed="#Bc"/>ab Aristotele secundum yuod est 
+ende<lb ed="#Bc" break="no"/>lechia sive perfectio corporis physici 
+or<lb ed="#Bc" break="no"/>ganici, potentia vitam habentis. Et 
+in<lb ed="#Bc" break="no"/>telligitur de completa potentia, que 
+per<lb ed="#Bc" break="no"/>fecte habet in se omnia, et in nullo
+<lb ed="#Bc"/>deficit, quin ex his que in se habet,
+<lb ed="#Bc"/>operetur opera vite. Illa enim est 
+per<lb ed="#Bc" break="no"/>fecta potentia sicut scientia, que tunc
+<lb ed="#Bc"/>completa est, quando in nullo deficit
+<lb ed="#Bc"/>eorum que exiguntur ad considerare
+<lb ed="#Bc"/>secundum actum illius scientie.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2187">
+                     <lb ed="#Bc"/>Alia definitio est, que datur de 
+ani<lb ed="#Bc" break="no"/>ma secundum se, et secundum quod 
+se<lb ed="#Bc" break="no"/>parabilis est a corpore, maxime secundum
+<lb ed="#Bc"/>partem que nullius corporis est actus,
+<lb ed="#Bc"/>hoc est, intellectivam, secundum quam
+<lb ed="#Bc"/>partem opera vite operatur in seipsa.
+<lb ed="#Bc"/>Secundum quod dicit Isaac in libro de
+<lb ed="#Bc"/>Definitionibus, quod anima rationalis,
+<lb ed="#Bc"/>substantia est in umbra intelligentie
+<lb ed="#Bc"/>creata. Et hoc est quod dicit Dionysius
+<lb ed="#Bc"/>dicens, quod supremum rationis attingit
+<lb ed="#Bc"/>infimum intelligentie. Intelligere enim
+<lb ed="#Bc"/>et scire, opera quedam vite sunt, sed
+<lb ed="#Bc"/>secundum potentiam, que nullius 
+corpo<lb ed="#Bc" break="no"/>ris est actus. Potentia enim que alicujus
+<lb ed="#Bc"/>corporis est actus, nihil recipit, et circa
+<lb ed="#Bc"/>nihil operatur, nisi circa hoc quod est de
+<lb ed="#Bc"/>harmonia illius corporis cujus actus est :
+<lb ed="#Bc"/>sicut patet in visu, qui est actus oculi,
+<lb ed="#Bc"/>qui nihil recipit et circa nihil operatur,
+<lb ed="#Bc"/>nisi circa hoc quod est de harmonia 
+per<lb ed="#Bc" break="no"/>spicui aquei sive diaphani, ex quo 
+com<lb ed="#Bc" break="no"/>ponitur oculus : et hoc est lux et color.
+<lb ed="#Bc"/>Et sic est de aure ad sonum et ad 
+crepi<lb ed="#Bc" break="no"/>tum aeris in quo fundatur tympanum
+<lb ed="#Bc"/>auris et auditus.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2246">
+                     <lb ed="#Bc"/>His ira prenotatis, dicendum est ad
+<lb ed="#Bc"/>primum, quod Gregorius bene diceret,
+<lb ed="#Bc"/>si anima in se considerata esset 
+endele<lb ed="#Bc" break="no"/>chia secundum essentiam. Hoc autem
+<lb ed="#Bc"/>non est verum : non enim est endelechia
+<lb ed="#Bc"/>nisi per animationem quam facit corpori
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>per opera vite. In se autem spiritus est
+<lb ed="#Bc"/>incorporeus, semper vivens, ut dicit
+<lb ed="#Bc"/>Plato. .
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2270">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod animam
+<lb ed="#Bc"/>considerando secundum se, consentiemus
+<lb ed="#Bc"/>Platoni : considerando autem eam 
+se<lb ed="#Bc" break="no"/>cundum formam animationis quam dat
+<lb ed="#Bc"/>corpori, consentiemus Aristoteli.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2283">
+                     <lb ed="#Bc"/>Ad aliud jam patet solutio per idem.
+<lb ed="#Bc"/>Et propter hoc anima que tantum est
+<lb ed="#Bc"/>actus corporis, sicut vegetabilis in 
+plan<lb ed="#Bc" break="no"/>tis, et sensibilis in brutis, que non sunt
+<lb ed="#Bc"/>nisi species et actus corporis et qualitas
+<lb ed="#Bc"/>essentialis, non separantur a corpore.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2299">
+                     <lb ed="#Bc"/>Eovem modo dicendum est ad sequens,
+<lb ed="#Bc"/>quod hoc omnino est verum de anima
+<lb ed="#Bc"/>que tantum est actus corporis, sed non
+<lb ed="#Bc"/>de anima que est actus et motor 
+corpo<lb ed="#Bc" break="no"/>ris ut nauta navis. Hec enim per 
+sub<lb ed="#Bc" break="no"/>stantiam et essentiam est extra corpus et
+<lb ed="#Bc"/>distincta ab ipso, nec inest ei ut forma
+<lb ed="#Bc"/>sive gualitas essentialis, sed inesé ei ut
+<lb ed="#Bc"/>influens ei potentias ad opera vite, sicut
+<lb ed="#Bc"/>nauta instrumentis navalibus potentias
+<lb ed="#Bc"/>influit ad opera nautica.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2325">
+                     <lb ed="#Bc"/>Ad aliud omni eodem modo dicendum
+<lb ed="#Bc"/>est. Hoc enim non sequitur, nisi de illa
+<lb ed="#Bc"/>que est actus corporis, et nihil 
+am<lb ed="#Bc" break="no"/>plius : sicut forma et figura dolabree est
+<lb ed="#Bc"/>actus et species dolabre ad esse dolabre.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2339">
+                     <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod actus primus dicitur, quia 
+con<lb ed="#Bc" break="no"/>fert esse animato secundum quod est
+<lb ed="#Bc"/>animatum, et speciem, et rationem.
+<lb ed="#Bc"/>Quod non facit secundus actus, sed 
+indi<lb ed="#Bc" break="no"/>cat per effectum in opere, quod tale esse
+<lb ed="#Bc"/>vivo collatum est: sicut considerare 
+m<lb ed="#Bc" break="no"/>dicat, quod sciens facultatem habet ex
+<lb ed="#Bc"/>scientia considerandi. Unde’ primus 
+per<lb ed="#Bc" break="no"/>fectior est in conferendo esse et speciem,
+<lb ed="#Bc"/>licet secundus magis indicet facultatem.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2365">
+                     <lb ed="#Bc"/>Ad aliud ulterius dicendum, quod 
+sic<lb ed="#Bc" break="no"/>ut dicit Plato, a datore formarum datur
+<lb ed="#Bc"/>forma physica, que non elevatur super
+<lb ed="#Bc"/>materiam, sed est in ipsa sicut in Euripo,
+<lb ed="#Bc"/>hoc est, in ebullitione continua : nec
+<lb ed="#Bc"/>operatur nisi per operationes materia : et
+<lb ed="#Bc"/>ideo dicitur physica. Et datur forma ad
+<lb ed="#Bc"/>similitudinem datoris formarum, que
+<pb ed="#Bc" n="17"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>est intellectus activus formarum. Et hec
+<lb ed="#Bc"/>forma quia est similitudo datoris 
+forma<lb ed="#Bc" break="no"/>rum, elevata est super materiam, et 
+vo<lb ed="#Bc" break="no"/>catue anima. Et sicut dator formarum
+<lb ed="#Bc"/>multa operatur, ita illa forma multum
+<lb ed="#Bc"/>operatur. Nec dicitur physica, sed 
+phy<lb ed="#Bc" break="no"/>sici : quia scilicet est corporis ex 
+physi<lb ed="#Bc" break="no"/>cis principiis constituti. Et dat Aristoteles
+<lb ed="#Bc"/>exemplum, sicut forma et figura serre
+<lb ed="#Bc"/>non sunt ferrum, sed ferri, quia in alia
+<lb ed="#Bc"/>materia operationes serre facere non
+<lb ed="#Bc"/>posset.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2415">
+                     <lb ed="#Bc"/>Ad aliud ulterius dicendum, quod
+<lb ed="#Bc"/>omne animatum corpus est organicum :
+<lb ed="#Bc"/>sed, sicut dicit Aristoteles in eodem loco
+<lb ed="#Bc"/>circa istam definitionem, in guibusdam
+<lb ed="#Bc"/>sunt organa simplicia sive homogenia,
+<lb ed="#Bc"/>sicut in plantis folium, et cortex : folium
+<lb ed="#Bc"/>enim est ad cooperiendum fructus ab 
+im<lb ed="#Bc" break="no"/>bribus ef caumatibus, cortex autem ad
+<lb ed="#Bc"/>cooperiendum semen et humiditatem
+<lb ed="#Bc"/>fructus, ut ad maturitalem et digestionem
+<lb ed="#Bc"/>que pepansis dicitur, deducatur. Sicut
+<lb ed="#Bc"/>etiam in spongia et aureo vellere que~
+<lb ed="#Bc"/>dam sunt partes, quibus perficitur 
+mo<lb ed="#Bc" break="no"/>tus dilatationis et constrictionis, et 
+qui<lb ed="#Bc" break="no"/>bus sugitur nutrimentum. Et sicut planta
+<lb ed="#Bc"/>habet radices ori in animalibus similes,
+<lb ed="#Bc"/>ut dicit Aristoteles in II de Anima, ubi
+<lb ed="#Bc"/>islam ponit definitionem.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2457">
+                     <lb ed="#Bc"/>Ad aliud ulterius dicendum, quod 
+in<lb ed="#Bc" break="no"/>telligitur de potentia passiva sive 
+recep<lb ed="#Bc" break="no"/>tiva: nec ponitur in definitione anime,
+<lb ed="#Bc"/>ut essentialis anime sit, sed quia ad 
+po<lb ed="#Bc" break="no"/>tentiam que est in anima correlativa est.
+<lb ed="#Bc"/>Et ideo, sicut dicit Porphyrius, necesse
+<lb ed="#Bc"/>est in utrisque utrorumque rationibus
+<lb ed="#Bc"/>uti. Et Commentator super secundum de
+<lb ed="#Bc"/>Anima dicit, quod causa multitudinis in
+<lb ed="#Bc"/>corpore organorum est multitudo 
+poten<lb ed="#Bc" break="no"/>tiarum in anima operantium opera vite :
+<lb ed="#Bc"/>sicut in arte propter multas operationes
+<lb ed="#Bc"/>artis que uno instrumento perfici non
+<lb ed="#Bc"/>possunt, requiritur multitudo 
+instrumen<lb ed="#Bc" break="no"/>torum, ut securis ad incidendum, 
+dola<lb ed="#Bc" break="no"/>bra ad dolandum, terebrum ad 
+perforan<lb ed="#Bc" break="no"/>dum, et sic de aliis, scilicet ascia, runcia,
+<lb ed="#Bc"/>et serra.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2499">
+                     <lb ed="#Bc"/>Ad id quod ulterius queritur, dicen
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>dum quod bene data est definitio, et 
+con<lb ed="#Bc" break="no"/>venit omni anime que est actus 
+corpo<lb ed="#Bc" break="no"/>ris, et nihil habet nisi quod est actus
+<lb ed="#Bc"/>corporis, Intellectus autem nullius 
+cor<lb ed="#Bc" break="no"/>poris est actus : et propter hoc illi non
+<lb ed="#Bc"/>convenit : et per consequens etiam 
+sub<lb ed="#Bc" break="no"/>slantiae anime rationalis non convenit.
+<lb ed="#Bc"/>Quia impossibile est, quod a substantia
+<lb ed="#Bc"/>que tantum est actus corporis, fluat 
+po<lb ed="#Bc" break="no"/>tentia que nullius corporis est actus,
+<lb ed="#Bc"/>cum potentia naturalis fluat de 
+essentia<lb ed="#Bc" break="no"/>libus substantiae illius cujus est potentia.
+<lb ed="#Bc"/>Sed e converso a substantia separata
+<lb ed="#Bc"/>que motor est corporis, bene possunt
+<lb ed="#Bc"/>fluere potentiae conjuncte corpori. Et
+<lb ed="#Bc"/>hujus ratio est : quia quidquid potest
+<lb ed="#Bc"/>potentia inferior, potest superior 
+excel<lb ed="#Bc" break="no"/>lenter, sed non e converso. Et hoc 
+di<lb ed="#Bc" break="no"/>cunt Dionysius, et Boetius, et 
+generali<lb ed="#Bc" break="no"/>ter verum est in potestativis.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2549">
+                     <lb ed="#Bc"/>Ad uLtimum dicendum, quod 
+intel<lb ed="#Bc" break="no"/>lectus est aliquid anime, qui est ad 
+mo<lb ed="#Bc" break="no"/>dum intellectus qui est dator formarum
+<lb ed="#Bc"/>et separatus : et propter hoc ab eo fluit
+<lb ed="#Bc"/>potentia que in actu separata est. Ita
+<lb ed="#Bc"/>etiam dicunt sancti, quod ad imaginem
+<lb ed="#Bc"/>et similitudinem ipsius est. Unde 
+Grego<lb ed="#Bc" break="no"/>rius Nyssenus : <quote xml:id="Almn78-hh1207-Qd1e2568"> Quis igitur digne non
+<lb ed="#Bc"/>admirabitur nobilitatem hujus animalis,
+<lb ed="#Bc"/>quod copulat in seipso mortalia 
+immor<lb ed="#Bc" break="no"/>talibus, et rationalia irrationalibus 
+colli<lb ed="#Bc" break="no"/>git, et fert in suiipsius natura omnis
+<lb ed="#Bc"/>creationis imaginem? Propter quod et
+<lb ed="#Bc"/>parvus mundus dictus est, qui tanta 
+di<lb ed="#Bc" break="no"/>gnus factus est 4 Deo providentia, 
+pro<lb ed="#Bc" break="no"/>pter quem sunt omnia et que nunc sunt
+<lb ed="#Bc"/>et que futura sunt, propter quem et
+<lb ed="#Bc"/>Deus homo factus est, qui desinens in
+<lb ed="#Bc"/>incorruptibilitatem et mortale suum 
+effu<lb ed="#Bc" break="no"/>giens, in ceelis regnat, et secundum 
+ima<lb ed="#Bc" break="no"/>ginem et secundum similitudinem Dei
+<lb ed="#Bc"/>factus cum Christo conversatur : Dei
+<lb ed="#Bc"/>filius enim omni principatui et potestati
+<lb ed="#Bc"/>presidet.. Quis dieere potest hujus 
+ani<lb ed="#Bc" break="no"/>malis preeminentias ? Pelagus pertrans-
+‘it, celum intrat contemplatione 
+astro<lb ed="#Bc" break="no"/>rum, et motum et intervalla dignoscit,
+<lb ed="#Bc"/>terram et mare fructificat, feras et cete
+<lb ed="#Bc"/>contemnit, omnem disciplinam et artem
+<pb ed="#Bc" n="18"/>
+                        <cb ed="#Ba" n="a"/>
+                        <lb ed="#Bc"/>et methodum dirigit, exsul per litteras
+<lb ed="#Bc"/>quos vult alloquitur, nullo a corpore
+<lb ed="#Bc"/>impeditur, prophetat futura, omnium
+<lb ed="#Bc"/>dominatur, omnia possidet, omnibus 
+vo<lb ed="#Bc" break="no"/>luptnatur, Angelis et Deco Joquitur,
+<lb ed="#Bc"/>creationi jubet, demonibus precipit,
+<lb ed="#Bc"/>horum naturam perscrutatur, Deum 
+in<lb ed="#Bc" break="no"/>vestigat, domus et templum fit Dei: et
+<lb ed="#Bc"/>cum haec omnia habet, a virtute et 
+pie<lb ed="#Bc" break="no"/>tate proficit. </quote> Et per hec omnia 
+inten<lb ed="#Bc" break="no"/>dit, quod cum tanta dignitate et cum
+<lb ed="#Bc"/>tantis muneribus nature honorat{us sit
+<lb ed="#Bc"/>homo, quod consequenter naturale est
+<lb ed="#Bc"/>homini, quod honorabiliorem quam alia
+<lb ed="#Bc"/>animalia et incorruptibilem sortiatur 
+ani<lb ed="#Bc" break="no"/>mam: et ita anima ejus cum animabus
+<lb ed="#Bc"/>animalium brutorum non debuit habere
+<lb ed="#Bc"/>communem definitionem.
+</p>
+               </div>
+               <div xml:id="Almn78-hh1207-Dd1e2660">
+                  <head xml:id="Almn78-hh1207-Hd1e2662">Articulus 3</head>
+                  <head xml:id="Almn78-hh1207-Hd1e2665" type="question-title">
+          De tertia definitione anime quam idem
+          ponit Aristoteles.
+        </head>
+                  <p xml:id="Almn78-hh1207-d1e2668">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS III.
+<lb ed="#Bc"/>De tertia definitione anime quam idem
+<lb ed="#Bc"/>ponit Aristoteles.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2679">
+                     <lb ed="#Bc"/>Deinde, Queritur de alia definitione
+<lb ed="#Bc"/>Aristotelis qui dicit, quod <quote xml:id="Almn78-hh1207-Qd1e2685"> anima est
+<lb ed="#Bc"/>principium et causa hujusmodi vite,
+<lb ed="#Bc"/>physici scilicet corporis organici. </quote>
+                  </p>
+                  <p xml:id="Almn78-hh1207-d1e2693">
+                     <lb ed="#Bc"/>De hac enim dicit in II de Anima,
+<lb ed="#Bc"/>quod est definitio ut principium 
+demon<lb ed="#Bc" break="no"/>strationis propter quid, et est causa per
+<lb ed="#Bc"/>quam demonstrative concluduntur 
+pri<lb ed="#Bc" break="no"/>ma et secunda definitio, hec scilicet,
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-hh1207-Qd1e2708"> Anima est endelechia physici corporis
+<lb ed="#Bc"/>organici potentia vitam habentis: </quote> et
+<lb ed="#Bc"/>hee, <quote xml:id="Almn78-hh1207-Qd1e2715"> Anima est species et ratio physici
+<lb ed="#Bc"/>et organici corporis potentia vitam 
+ha<lb ed="#Bc" break="no"/>bentis. </quote>
+                  </p>
+                  <p xml:id="Almn78-hh1207-d1e2724">
+                     <lb ed="#Bc"/>Et dicit quod iste definitiones non di
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>cunt nisi quid est anima, et non dicunt
+<lb ed="#Bc"/>propter quid talis est substantia et 
+spe<lb ed="#Bc" break="no"/>cies, et ideo imperfect sunt: quia per
+<lb ed="#Bc"/>eas non contingit cognoscere causas 
+ac<lb ed="#Bc" break="no"/>cidentium per se et operationum que
+<lb ed="#Bc"/>per se conveniunt anime. Et de 
+ta<lb ed="#Bc" break="no"/>libus definitionibus generaliter dicit in
+<lb ed="#Bc"/>primo de Anima, quod facile 
+manife<lb ed="#Bc" break="no"/>stum est de eis, quod dialectice sunt et
+<lb ed="#Bc"/>vane omnes : quia per eas non 
+cognosci<lb ed="#Bc" break="no"/>tur perfecte quid est anima : cum per eas
+<lb ed="#Bc"/>non cognoscantur per se accidentia, que
+<lb ed="#Bc"/>maximam partem conferunt ad 
+cogno<lb ed="#Bc" break="no"/>scendum quod quid est. Dicit enim, quod
+<lb ed="#Bc"/>sunt definitiones ut conclusiones, et non
+<lb ed="#Bc"/>ut principium et cause, que sunt 
+me<lb ed="#Bc" break="no"/>dium in demonstratione.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2768">
+                     <lb ed="#Bc"/>Quod ut melius intelligatur, et 
+defini<lb ed="#Bc" break="no"/>tio inveniatur que anime rationali 
+con<lb ed="#Bc" break="no"/>venit, de qua principaliter intendimus,
+<lb ed="#Bc"/>ponit exemplum ex libro XII Geometriz
+<lb ed="#Bc"/>Euclidis sumptum, ubi dicit Euclides,
+<lb ed="#Bc"/>quod contingit protrahi tetragonum sive
+<lb ed="#Bc"/>tetragonismum equale altera parte 
+lon<lb ed="#Bc" break="no"/>giori quadrangulo. Si quis ergo 
+de<lb ed="#Bc" break="no"/>finiens dicat, quod tetragonum est 
+qua<lb ed="#Bc" break="no"/>dratum quale altera parte longiori
+<lb ed="#Bc"/>quadrangulo, non dicit' nisi quid
+<lb ed="#Bc"/>est equalitas, scilicet quod sunt due
+<lb ed="#Bc"/>quantitates capacitatis equalis: et non
+<lb ed="#Bc"/>dicit causam propter quam est illa 
+equa<lb ed="#Bc" break="no"/>litas inter duas quantitates. Si quis 
+au<lb ed="#Bc" break="no"/>tem dicit, quod equalitas tetragoni et
+<lb ed="#Bc"/>quadranguli alia parte longioris, est
+<lb ed="#Bc"/>mediae proportionis inventio inter 
+qua<lb ed="#Bc" break="no"/>tuor quantitates ex quibus surgit 
+tetra<lb ed="#Bc" break="no"/>gonum et altera parte longius 
+quadran<lb ed="#Bc" break="no"/>gulum, ille dicit causam propter quam
+<lb ed="#Bc"/>equalia sunt quadratum et altera parte:
+<lb ed="#Bc"/>longius quadrangulum. Tetragonum
+<lb ed="#Bc"/>enim ab una simplici quantitate surgit, |
+<lb ed="#Bc"/>ut dicitin II Geometriz, scilicet ex linea
+<lb ed="#Bc"/>in seipsam ducta. Altera autem parte
+<lb ed="#Bc"/>longius quadrangulum a tribus surgit
+<lb ed="#Bc"/>quantitatibus: habet enim opposita la-'
+<lb ed="#Bc"/>tera equalia: sed latera in angulis lon- '
+<pb ed="#Bc" n="19"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>ioribus lateribus conjuncta habet 
+ine<lb ed="#Bc" break="no"/>qualia ad latera que conjungunt.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2842">
+                     <lb ed="#Bc"/>Quod ut perspicue videatur, ex quinto
+<lb ed="#Bc"/>Geometries sumantur tres numeri 
+conti<lb ed="#Bc" break="no"/>nue proportionis, scilicet duodecim, sex,
+<lb ed="#Bc"/>tria. Ti enim numeri sunt in 
+propor<lb ed="#Bc" break="no"/>tione dupli ad invicem se _habentes.
+<lb ed="#Bc"/>Duodecim enim duplum est ad sex, et
+<lb ed="#Bc"/>sex ad tria: et si voluero facere 
+quadra<lb ed="#Bc" break="no"/>tum numerum sive tetragonum, 
+secun<lb ed="#Bc" break="no"/>dum doctrinam Pythagore in I 
+Arith<lb ed="#Bc" break="no"/>metice, medium proportionis numerum,
+<lb ed="#Bc"/>scilicet sex ducam in seipsum sic 
+dicen<lb ed="#Bc" break="no"/>do, sexies sex, et perficio tetragonum
+<lb ed="#Bc"/>qui est triginta sex ab una surgentem
+<lb ed="#Bc"/>quantitate, habentem omnia latera 
+equa<lb ed="#Bc" break="no"/>lia. Et si voluero perficere 
+quadrangu<lb ed="#Bc" break="no"/>lum quod tantumdem contineat, ducam
+<lb ed="#Bc"/>extremos numeros in se invicem 
+dicen<lb ed="#Bc" break="no"/>do, ter duodecim, vel duodecies tria,
+<lb ed="#Bc"/>et perficio quadrangulum altera parte
+<lb ed="#Bc"/>longius ; quia duodecim longius est quam
+<lb ed="#Bc"/>tria: et tamen hoc omnino equale est
+<lb ed="#Bc"/>quadrato, quia ter duodccim sunt 
+tri<lb ed="#Bc" break="no"/>ginta sex, et duodecies tria iterum 
+tri<lb ed="#Bc" break="no"/>ginta sex. Et si queratur, qua causa est
+<lb ed="#Bc"/>equalitatis : patet, quod non est alia
+<lb ed="#Bc"/>causa nisi medie proportionis inventio,
+<lb ed="#Bc"/>hoc est, numeri, qui ita se habet ad 
+ma<lb ed="#Bc" break="no"/>jorem, sicut minor se habet ad ipsum:
+<lb ed="#Bc"/>et ideo quando medius ducitur in 
+se<lb ed="#Bc" break="no"/>ipsum, zqualis fit summa cum summa
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>que provenit ex hoc quod ducitur 
+ex<lb ed="#Bc" break="no"/>tremus in extremum.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2916">
+                     <lb ed="#Bc"/>Ita est de anima: si enim dixero,
+<lb ed="#Bc"/>quod anima est aclus physici corporis
+<lb ed="#Bc"/>potentia vitam habentis, dixi quid est
+<lb ed="#Bc"/>anima, et quod est talis substantia talis
+<lb ed="#Bc"/>corporis et species et ratio. Si autem
+<lb ed="#Bc"/>dixero, quod anima est principium et
+<lb ed="#Bc"/>causa operum vite et per se accidentium
+<lb ed="#Bc"/>in tali corpore, dixi causam  propter
+<lb ed="#Bc"/>quam anima est species et ratio et actus
+<lb ed="#Bc"/>talis corporis quod habet potentiam vite
+<lb ed="#Bc"/>secundum se et secundum partes: et
+<lb ed="#Bc"/>tune syllogizo primam definitionem ex
+<lb ed="#Bc"/>secunda sic: Omne quod est principium
+<lb ed="#Bc"/>et causa per se operum vite et 
+acciden<lb ed="#Bc" break="no"/>tium in physico organico corpore in toto
+<lb ed="#Bc"/>et in partibus, est actus et ralio et 
+spe<lb ed="#Bc" break="no"/>cies ipsius. Anima est per se principium
+<lb ed="#Bc"/>et causa operum vite et accidentium in
+<lb ed="#Bc"/>physico organico corpore secundum 
+to<lb ed="#Bc" break="no"/>tum et secundum partes. Ergo est actus
+<lb ed="#Bc"/>et ratio et species. Anima rationalis 
+se<lb ed="#Bc" break="no"/>cundum quasdam partes suas nec 
+prin<lb ed="#Bc" break="no"/>cipium, nec causa est corpori operum
+<lb ed="#Bc"/>vite et accidentium per se sicut 
+secun<lb ed="#Bc" break="no"/>dum iutellectum agentem et adeptum.
+<lb ed="#Bc"/>Ergo secundum illas nec est actus, nec
+<lb ed="#Bc"/>ratio, nec species alicujus corporis, sed
+<lb ed="#Bc"/>separata et separabilis ab ipso.
+</p>
+                  <p xml:id="Almn78-hh1207-d1e2979">
+                     <lb ed="#Bc"/>Et hic est intellectus definitionum
+<lb ed="#Bc"/>Aristotelis.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="156"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a33532"><!-- p1t5q22 -->
+            <head xml:id="Almn78-a33532-Hd1e106">Quaestio 22</head>
+            <head xml:id="Almn78-a33532-Hd1e109" type="question-title">
+      De nunc quod est substantia faciens aeternitatem.
+    </head>
+            <p xml:id="Almn78-a33532-d1e112">
+               <lb ed="#Ba"/>QUAESTIO XXII.
+<lb ed="#Ba"/>De nunc quod est substantia faciens aeternitatem.
+</p>
+            <div xml:id="Almn78-a33532-Dd1e119">
+               <head xml:id="Almn78-a33532-Hd1e121">Membrum 1</head>
+               <head xml:id="Almn78-a33532-Hd1e124" type="question-title">
+  Quid sit nunc aeternitatis
+</head>
+               <p xml:id="Almn78-a33532-d1e127">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>MEMBRUM I.
+  <lb ed="#Ba"/>Quid sit nunc aeternitatis ?
+</p>
+               <p xml:id="Almn78-a33532-d1e136">
+                  <lb ed="#Ba"/>Ad pRIMUM sic proceditur.
+  <lb ed="#Ba" break="no"/>11. Boetius in libro de Trinitate :
+  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a33532-Qd1e144">Tantum inter nostrarum rerum pre- 
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>sens, quod est nunc, interest ac 
+divina<lb ed="#Ba" break="no"/>rum rerum, guod nostrum nunc quasi
+<lb ed="#Ba"/>tempore currens facit sempiternitatem :
+<lb ed="#Ba"/>divinum nunc permanens, neque mo
+<lb ed="#Ba"/>vens sese atque consistens, aeternitatem
+<lb ed="#Ba"/>facit. </quote> Videtur ergo, quod substantia
+<lb ed="#Ba"/>aeternitatis etegnitatem seipsam faciens,
+<lb ed="#Ba"/>sit nunc stans et sese non movens.
+  
+<lb ed="#Ba"/>2. Adhuc, <name xml:id="Almn78-a33532-Nd1e169">Gilbertus</name> : <quote xml:id="Almn78-a33532-Qd1e172"> Sicut est una
+ <lb ed="#Ba"/>singularis et individua et simplex et so
+  <lb ed="#Ba"/>litaria mora, qua Deus ipse fuit, est, et
+  <lb ed="#Ba"/>erit eternus. Ipse namque et est, et est
+<pb ed="#Ba" n="157"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>Ieus, et est eternus : sed est et est Deus
+<lb ed="#Ba"/>wxsentia, et est aternus mora. </quote> Ex hoc
+<lb ed="#Ba"/>accipitur, quod simplex mora que non
+<lb ed="#Ba"/>potest esse nisi nunc, est substantia
+<lb ed="#Ba"/>wlernitatis : et inde accipitur ut prius,
+<lb ed="#Ba"/>scilicet quod unum indivisibile non se
+<lb ed="#Ba"/>movens, tota substantia est aternitatis.
+</p>
+               <p xml:id="Almn78-a33532-d1e202">
+                  <lb ed="#Ba"/>3. Adhuc, Sicut se habet nunc 
+tempo<lb ed="#Ba" break="no"/>ris ad temporis constitutionem, sic nunc
+<lb ed="#Ba"/>mlornitatis ad constitutionem eternitatis.
+(um ergo tempus sit duratio successiva,
+<lb ed="#Ba"/>wlernitas vero duratio stans et 
+indivisi<lb ed="#Ba" break="no"/>hilis, oportet quod nunc quod constituit
+<lb ed="#Ba"/>lompus et est substantia temporis, 
+suc<lb ed="#Ba" break="no"/>cessionem constituat : et cum eternitas
+<lb ed="#Ba"/>sit duratio stans et manens et 
+indivisibi<lb ed="#Ba" break="no"/>liter, oportet quod nunc substantialiter
+<lb ed="#Ba"/>constituens eternitatem, sit manens et
+<lb ed="#Ba"/>stans indivisibiliter : et ex hoc sequitur
+<lb ed="#Ba"/>idem quod prius.
+</p>
+               <p xml:id="Almn78-a33532-d1e232">
+                  <lb ed="#Ba"/>4, Adhuc, In <ref xml:id="Almn78-a33532-Rd1e236">IV Physicorum Aristoteles</ref>
+                  <lb ed="#Ba"/>vult, quod sicut id quod fertur vel 
+move<lb ed="#Ba" break="no"/>tur, se habet in toto motu, ita nunc
+<lb ed="#Ba"/>temporis se habet in toto tempore. Nunc
+<lb ed="#Ba"/>enim est quod adjacet ei quod fertur in
+<lb ed="#Ba"/>motum secundum acceptionem anime.
+<lb ed="#Ba"/>Sed id quod ferturin motum, numquam
+<lb ed="#Ba"/>accipitur stans hic vel ibi in tota 
+magni<lb ed="#Ba" break="no"/>ludine per quam movetur, sed semper
+<lb ed="#Ba"/>accipitur partim hic, et partim ibi, ut
+<lb ed="#Ba"/>protensum de ubi in ubi, et iterato per
+<lb ed="#Ba"/>tolam magnitudinem per quam 
+move<lb ed="#Ba" break="no"/>tur. Anima ergo accipiens ipsum 
+secun<lb ed="#Ba" break="no"/>lum id quod adjacet ei, secundum id
+<lb ed="#Ba"/>quod movetur, accipit ut nunc ut fluens
+<lb ed="#Ba"/>de priori in posterius continue : et hoc
+<lb ed="#Ba"/>vst nunc non stans, sed sese continue
+<lb ed="#Ba"/>movens. Per oppositum ergo si anima
+<lb ed="#Ba"/>accipit id quod est indivisibiliter stans
+<lb ed="#Ba"/>in substantia, esse, virtute, et 
+operatio<lb ed="#Ba" break="no"/>ne, et accipiat nunc adjacens illi, non
+<lb ed="#Ba"/>uccipiet nisi nunc stans, et nullo modo
+<lb ed="#Ba"/>iluens de priori in posterius, et nihil 
+ac<lb ed="#Ba" break="no"/>cipiet in ipso quod sit prius et posterius,
+<lb ed="#Ba"/>sed idem ipsum stans indeficienter :
+<lb ed="#Ba"/>nunc ergo quod adjacet ei, stans est in
+<lb ed="#Ba"/>scipso, non fluxu, sed indeficientia 
+con<lb ed="#Ba" break="no"/>stituens eternitatem.
+</p>
+               <p xml:id="Almn78-a33532-d1e298">
+                  <lb ed="#Ba"/>5. Adhuc, <ref xml:id="Almn78-a33532-Rd1e302">Aristoteles vult in X pri-
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>mae philosophiae</ref>, quod secundum quod
+<lb ed="#Ba"/>mensurata differunt, ita mensure 
+for<lb ed="#Ba" break="no"/>males et essentiales differunt mensuratis.
+<lb ed="#Ba"/>Mensuratum autem eternitate nihil 
+ha<lb ed="#Ba" break="no"/>bet extra se quod acquirat per motum,
+<lb ed="#Ba"/>neque secundum esse, neque secundum
+<lb ed="#Ba"/>virtutem, neque secundum operationem,
+<lb ed="#Ba"/>neque secundum ubi. Ergo mensura 
+ad<lb ed="#Ba" break="no"/>jacens ei quod est eternum, non 
+accipi<lb ed="#Ba" break="no"/>tur ut extensa ad aliquid. Mensura 
+au<lb ed="#Ba" break="no"/>tem accepta adjacens ei, est acceptio
+<lb ed="#Ba"/>ipsius secundum esse xterni prasens
+<lb ed="#Ba"/>sive presentialiter accepti. Cum ergo
+<lb ed="#Ba"/>omne esse eterni totum simul accipiatur,
+<lb ed="#Ba"/>propter hoc quod indivisibile est, 
+relin<lb ed="#Ba" break="no"/>quitur quod presens acceptio que est
+<lb ed="#Ba"/>acceptio ipsius nunc, sit acceptio 
+secun<lb ed="#Ba" break="no"/>dum nunc indivisibile, et nunc 
+indivisi<lb ed="#Ba" break="no"/>bile constitutivum est eternitatis.
+</p>
+               <p xml:id="Almn78-a33532-d1e349">
+                  <lb ed="#Ba"/>6. Adhuc, <ref xml:id="Almn78-a33532-Rd1e353">Anselmus in Monologio</ref> 
+di<lb ed="#Ba" break="no"/>cit, quod sicut se habet nunc temporis
+<lb ed="#Ba"/>ad omnem locum, ita se habet nunc
+<lb ed="#Ba"/>zternitatis ad omne tempus : sed nunc
+<lb ed="#Ba"/>temporis non dividitur secundum loci
+<lb ed="#Ba"/>divisionem, sed est una presens acceptio
+<lb ed="#Ba"/>anime omnis loci in nunc : ergo 
+simili<lb ed="#Ba" break="no"/>ter nunc eternitatis non dividitur ad
+<lb ed="#Ba"/>quodlibet tempus, sed una presens 
+ac<lb ed="#Ba" break="no"/>ceptio totius temporis et cujuslibet 
+par<lb ed="#Ba" break="no"/>tis : in nunc eterno autem nunc nihil
+<lb ed="#Ba"/>preteriit, et nihil futurum est, et sic
+<lb ed="#Ba"/>prasens nunc stans zternitatem facit.
+</p>
+               <p xml:id="Almn78-a33532-d1e383">
+                  <lb ed="#Ba"/>In conTRARIUM est, quod
+<lb ed="#Ba"/>1, AEternitas duratio est: omnis 
+au<lb ed="#Ba" break="no"/>tem continua duratio constituitur ratione
+<lb ed="#Ba"/>continui, hoc est, multis continuatis ad
+<lb ed="#Ba"/>unum continuans : ergo et sua 
+substan<lb ed="#Ba" break="no"/>tia continuum faciens, oportet quod non
+<lb ed="#Ba"/>accipiatur ut unum, sed ut principium
+<lb ed="#Ba"/>unius et finis alterius, et semper fluens
+<lb ed="#Ba"/>ab esse ratione principii, et in esse 
+ra<lb ed="#Ba" break="no"/>tione finis : quia aliter non esset 
+conti<lb ed="#Ba" break="no"/>nuum. Exemplum est hujus in continuo
+<lb ed="#Ba"/>et discreto. Quia enim punctum fluens
+<lb ed="#Ba"/>ab esse, et ratione finis in esse et ratione
+<lb ed="#Ba"/>principii continue facit lineam, et 
+conti<lb ed="#Ba" break="no"/>nuum, ideo linea est continuum, et 
+con<lb ed="#Ba" break="no"/>tinuum est continuum : et punctum in
+<lb ed="#Ba"/>tota linea substantia linew est, et id
+<pb ed="#Ba" n="158"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod est : esse autem linew vel continui
+<lb ed="#Ba"/>a continuo fluxu puncti est, et hoc est
+<lb ed="#Ba"/>quo continuum est : et quia omne fluens
+<lb ed="#Ba"/>divisibile est, et divisum est semper in
+<lb ed="#Ba"/>finem et principium, sive in ante et post,
+<lb ed="#Ba"/>ideo omne continuum secundum — esse
+<lb ed="#Ba"/>continui semper divisibile est. Cum ergo
+<lb ed="#Ba"/>eternitas manens duratio sit et continua,
+<lb ed="#Ba"/>videtur quod ab uno indivisibili stante
+<lb ed="#Ba"/>constitui.non possit. In discreto autem
+<lb ed="#Ba"/>sic non est : discretum enim licet 
+indivi<lb ed="#Ba" break="no"/>sibili constituatur secundum id quod est,
+<lb ed="#Ba"/>tamen a discreto immobili non 
+conti<lb ed="#Ba" break="no"/>nuante finem unius in principium 
+alte<lb ed="#Ba" break="no"/>Tius constituitur, ut accepto scilicet in
+<lb ed="#Ba"/>hoc et in illo : ideo secundum esse 
+dis<lb ed="#Ba" break="no"/>cretum est, ut patet: quia, ut dicit 
+Py<lb ed="#Ba" break="no"/>thagoras, unitas est, qua quelibet res
+<lb ed="#Ba"/>est una : et unitas et unitas discrete 
+ac<lb ed="#Ba" break="no"/>cepta et sub forma discretionis stantes,
+<lb ed="#Ba"/>faciunt binarium : et unitas et unitas
+<lb ed="#Ba"/>et unitas faciunt ternarium, et sic de aliis
+<lb ed="#Ba"/>numeris. Unde unitas substantia numeri
+<lb ed="#Ba"/>est secundum id quod est: discretio 
+au<lb ed="#Ba" break="no"/>tem unitatis facit discretionem et esse
+<lb ed="#Ba"/>et numeri secundum quod in esse 
+discre<lb ed="#Ba" break="no"/>torum est. Et secundum hoc est in 
+ele<lb ed="#Ba" break="no"/>mentis orationis : et ideo oratio 
+discre<lb ed="#Ba" break="no"/>torum est. Elementa enim orationis sub
+<lb ed="#Ba"/>forma discreti stantia, constituunt 
+oratio<lb ed="#Ba" break="no"/>nem. Si ergo sic estin eternitate, quod
+<lb ed="#Ba"/>nunc in unum discrete et indivisibile
+<lb ed="#Ba"/>acceptum, constituit xternitatem, 
+vide<lb ed="#Ba" break="no"/>tur quod eternitas discretorum sit, et
+<lb ed="#Ba"/>non continuorum : ergo a destructione
+<lb ed="#Ba"/>consequentis, cum sit continuorum, non
+<lb ed="#Ba"/>erit nunc unum stans indivisibiliter et
+<lb ed="#Ba"/>non movens sese constituens 
+aternita<lb ed="#Ba" break="no"/>tem.
+  
+<lb ed="#Ba"/>2. Adhuc, Non videtur esse 
+intelligi<lb ed="#Ba" break="no"/>bile, quod unum nunc non extensum de
+<lb ed="#Ba"/>priori in posterius, indeficienter sit in
+<lb ed="#Ba"/>omni praterito, et in omni futuro 
+conti<lb ed="#Ba" break="no"/>nua duratione: quia si idem est, tunc
+<lb ed="#Ba"/>non erit nunc et nunc et postea, nisi sub
+<lb ed="#Ba"/>forma discretionis acceptum : quia 
+for<lb ed="#Ba" break="no"/>ma discretionis exprimitur quando 
+dici<lb ed="#Ba" break="no"/>tur sémel et iterum et tertio et tunc
+<lb ed="#Ba"/>non potest intelligi, quod constituat
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>continuum. Si autem est unum de pra:
+<lb ed="#Ba"/>terito in presens, et de presenti in futu
+<lb ed="#Ba"/>rum extensum : tunc quidem constituct
+<lb ed="#Ba"/>continuum, sed non potest intelligi,
+<lb ed="#Ba"/>quod non sit motum : tunc enim  fuisse
+<lb ed="#Ba"/>et non esse et in futuro fore motum
+<lb ed="#Ba"/>cunt ejus quod transit a preterito in
+<lb ed="#Ba"/>presens, et a prasenti in futurum : et
+<lb ed="#Ba"/>ita relinquitur, quod nunc stans et non
+<lb ed="#Ba"/>movens sese non facit eternitatem. Dicit
+<lb ed="#Ba"/>enim Gilbertus in auctoritate 
+praallega<lb ed="#Ba" break="no"/>ta, quod eternitas est mora.
+</p>
+               <p xml:id="Almn78-a33532-d1e561">
+                  <lb ed="#Ba"/>3. Si aliquis dicat, quod indeficientia
+<lb ed="#Ba"/>stantis nunc facit continuam moram. Hoc
+<lb ed="#Ba"/>non potest esse : quia si indeficientia
+<lb ed="#Ba"/>indivisibilis faceret continuum in uno
+<lb ed="#Ba"/>indivisibili, faceret continuum etiam in
+<lb ed="#Ba"/>alio : et sic cum unitas indeficiens sit in
+<lb ed="#Ba"/>omni numero, omnis numerus esset
+<lb ed="#Ba"/>continuus, quod falsum est: ergo etiam
+<lb ed="#Ba"/>quod indeficientia indivisibilis faciet 
+con<lb ed="#Ba" break="no"/>tinuum : quia falsum non sequitur nisi
+<lb ed="#Ba"/>ex falso.
+</p>
+               <p xml:id="Almn78-a33532-d1e587">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod primam
+<lb ed="#Ba"/>questionem oportuit esse de nunc 
+eler<lb ed="#Ba" break="no"/>nitatis: quia eternitas id quod est, et
+<lb ed="#Ba"/>id quo est, non potest cognosci nisi ex
+<lb ed="#Ba"/>cognitione ipsius nunc constituentis
+<lb ed="#Ba"/>eam : sicut et tempus cognosci non 
+pot<lb ed="#Ba" break="no"/>est, nisi ex nunc constituente ipsum :
+<lb ed="#Ba"/>nec numerus cognosci potest, nisi ex
+<lb ed="#Ba"/>unitate constituente ipsum: nec motus
+<lb ed="#Ba"/>cognosci potest, nisi ex eo quod fertur,
+<lb ed="#Ba"/>quod latione sua constituet ipsum. Unde
+<lb ed="#Ba"/>cum Boetio dicendum, quod eternitatem
+<lb ed="#Ba"/>nihil constituet secundum id quod est et
+<lb ed="#Ba"/>secundum esse, nisi nunc stans sub 
+for<lb ed="#Ba" break="no"/>ma omnimode immobilitatis. Et 
+secun<lb ed="#Ba" break="no"/>dum quod est nunc, est substantia 
+eter<lb ed="#Ba" break="no"/>nitatis secundum id quod est : secundum
+<lb ed="#Ba"/>autem quod est stans et in forma stantis,
+<lb ed="#Ba"/>constituit eam secundum esse 
+indeficien<lb ed="#Ba" break="no"/>tie et mensure : secundum autem quod
+<lb ed="#Ba"/>est indivisibile stans sub forma 
+indivisi<lb ed="#Ba" break="no"/>hilitatis, constituit eam sub esse 
+mensu<lb ed="#Ba" break="no"/>re indivisibilis, que tota simul est, non
+<lb ed="#Ba"/>partem et partem, nec post partem 
+par<lb ed="#Ba" break="no"/>tem habens.
+</p>
+               <p xml:id="Almn78-a33532-d1e645">
+                  <pb ed="#Ba" n="159"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Unde sex prime rationes procedunt et
+<lb ed="#Ba"/>necessarie sunt,
+</p>
+               <p xml:id="Almn78-a33532-d1e656">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod quedam attribuuntur
+<lb ed="#Ba"/>wternitati secundum se, et quedam 
+attri<lb ed="#Ba" break="no"/>buuntur ei secundum relationem ad
+<lb ed="#Ba"/>aliud, et quedam secundum relationem
+<lb ed="#Ba"/>ad eternum. Si accipiatur secundum se :
+<lb ed="#Ba"/>tunc impossibile est, quod sitin genere
+<lb ed="#Ba"/>continuorum. Similiter si referatur ad
+<lb ed="#Ba"/>eternum quod indivisibile est secundum
+<lb ed="#Ba"/>substantiam et esse, sic iterum 
+impossi<lb ed="#Ba" break="no"/>bile est, quod sit in genere continuorum.
+<lb ed="#Ba"/>Sed quia sine anime acceptione, ut dicit
+<lb ed="#Ba"/>Aristoteles, nec est ut nunc temporis,
+<lb ed="#Ba"/>nec nunc @vi, nec nunc eternitatis, si
+<lb ed="#Ba"/>consideretur in anima accipiente ipsum,
+<lb ed="#Ba"/>et ipsum per indeficientiam referente ad
+<lb ed="#Ba"/>omne tempus et ad omne quod in 
+tem<lb ed="#Ba" break="no"/>pore est, sic mora continua est et 
+indefi<lb ed="#Ba" break="no"/>cientis, et sic in genere continuorum
+<lb ed="#Ba"/>est. Et causa hujus continuationis est
+<lb ed="#Ba"/>protensio accipientis anime et 
+protenden<lb ed="#Ba" break="no"/>tis ipsum nunc per omne preteritum, et
+<lb ed="#Ba"/>omne presens, et omne futurum : et
+<lb ed="#Ba"/>haec causa continuitatis non in ipso
+<lb ed="#Ba"/>nunc est, sed in accipiente. Unde per
+<lb ed="#Ba"/>se indivisibile est, per aliud autem et per
+<lb ed="#Ba"/>accidens divisibile : et forma 
+divisibilita<lb ed="#Ba" break="no"/>tis in ipso non est, sed in accipiente 
+ip<lb ed="#Ba" break="no"/>sum et ad divisibile referente.
+</p>
+               <p xml:id="Almn78-a33532-d1e721">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod nunc 
+eter<lb ed="#Ba" break="no"/>nitatis idem nunc est protensum a 
+pre<lb ed="#Ba" break="no"/>terito in presens, et a presenti in 
+futu<lb ed="#Ba" break="no"/>rum, non protensione ipsius nunc vel
+<lb ed="#Ba"/>ejus cui adjacet nunc, sed protensione
+<lb ed="#Ba"/>anime referentis ipsum ad tempus et ad
+<lb ed="#Ba"/>ea que sunt in tempore, preteritum 
+sci<lb ed="#Ba" break="no"/>licet, presens, et futurum. Et ideo 
+dici<lb ed="#Ba" break="no"/>tur, Apocal. 1, 8: Qui est, ef qui erat,
+<lb ed="#Ba"/>ef qui venturus est, Omnipotens. Talia
+<lb ed="#Ba"/>enim que moram dicunt secundum 
+to<lb ed="#Ba" break="no"/>tum suum esse, vel. secundum maximam
+<lb ed="#Ba"/>partem esse, ut videtur velle Aristoteles
+<lb ed="#Ba"/>et commentator suus <ref xml:id="Almn78-a33532-Rd1e753">Averroes in II 
+Phy<lb ed="#Ba" break="no"/>sicorum</ref>, non sunt nisi in anima. Et hoc
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>etiam expresse dicit<ref xml:id="Almn78-a33532-Rd1e763"> Augustinus in 
+li<lb ed="#Ba" break="no"/>bro XI Confessionum.</ref>
+               </p>
+               <p xml:id="Almn78-a33532-d1e769">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod indeficientia
+<lb ed="#Ba"/>sola non. est causa ad hac sufficiens,
+<lb ed="#Ba"/>quod aternitas sit mora continua, sed
+<lb ed="#Ba"/>indeficientia cum protensione anime 
+ac<lb ed="#Ba" break="no"/>cipientis ipsum nunc, et referentis ad
+<lb ed="#Ba"/>tempus et ad ea que sunt temporis
+<lb ed="#Ba"/>secundum prius et posterius per 
+indefi<lb ed="#Ba" break="no"/>cientiam,
+</p>
+            </div>
+            <div xml:id="Almn78-a33532-Dd1e790">
+               <head xml:id="Almn78-a33532-Hd1e792">Membrum 2</head>
+               <head xml:id="Almn78-a33532-Hd1e795" type="question-title">
+  Utrum idem nunc sit constitutivum 
+  aeternitatis et temporis
+</head>
+               <p xml:id="Almn78-a33532-d1e798">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum idem nunc sit constitutivum 
+aeter<lb ed="#Ba" break="no"/>nitatis et temporis ?
+</p>
+               <p xml:id="Almn78-a33532-d1e807">
+                  <lb ed="#Ba"/>Secundo queritur, Utrum idem nunc
+<lb ed="#Ba"/>sit constitutivum aeternitatis et 
+tempo<lb ed="#Ba" break="no"/>ris?
+</p>
+               <p xml:id="Almn78-a33532-d1e816">
+                  <lb ed="#Ba"/>Et ad hoc intelligendum oportet 
+que<lb ed="#Ba" break="no"/>rere, Qualiter nunc eviternitatis 
+consti<lb ed="#Ba" break="no"/>tuit eviternitatem ? 7
+</p>
+               <p xml:id="Almn78-a33532-d1e826">
+                  <lb ed="#Ba"/>Et secundo, Qualiter nunc temporis
+<lb ed="#Ba"/>constituit tempus ?
+</p>
+               <div xml:id="Almn78-a33532-Dd1e833">
+                  <head xml:id="Almn78-a33532-Hd1e835">Articulus 1</head>
+                  <head xml:id="Almn78-a33532-Hd1e838" type="question-title">
+      Qualiter nunc aeviternitatis constituit
+      aeviternitatem
+    </head>
+                  <p xml:id="Almn78-a33532-d1e841">
+                     <lb ed="#Ba"/>MEMBRI SECUNDI
+<lb ed="#Ba"/>ARTICULUS I.
+<lb ed="#Ba"/>Qualiter nunc aeviternitatis constituit
+<lb ed="#Ba"/>aeviternitatem?
+</p>
+                  <p xml:id="Almn78-a33532-d1e852">
+                     <lb ed="#Ba"/>1. Cum autem unumquodque illorum
+<lb ed="#Ba"/>eternitas et aeviternitas et tempus sit
+<lb ed="#Ba"/>mora, ut dicit <name xml:id="Almn78-a33532-Nd1e860">Gilbertus</name>, et tunc 
+consti<lb ed="#Ba" break="no"/>tutivum sit illius more secundum quod
+<lb ed="#Ba"/>est unum manens in tota mora non
+<pb ed="#Ba" n="160"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>potest esse nunc aeternitatis, nisi quod
+<lb ed="#Ba"/>intelligitur adjacere eviterno eidem 
+ma<lb ed="#Ba" break="no"/>nenti in tota mora illa. Aiviternum 
+au<lb ed="#Ba" break="no"/>tem est indivisibile per essentiam : 
+ex<lb ed="#Ba" break="no"/>pansum autem et divisibile per actum
+<lb ed="#Ba"/>sive per operationem: et sic unum et
+<lb ed="#Ba"/>idem manens in tota mora. Quod ergo
+<lb ed="#Ba"/>sibi sic intelligitur adjacere ut 
+mensu<lb ed="#Ba" break="no"/>rans esse ejus, hoc ipsum est nunc 
+evi<lb ed="#Ba" break="no"/>ternitatis : et sic nunc eviternitatis
+<lb ed="#Ba"/>aliquo modo divisibile est secundum
+<lb ed="#Ba"/>esse, licet per substantiam sit 
+indivisi<lb ed="#Ba" break="no"/>bile. Videtur ergo, quod non differat a
+<lb ed="#Ba"/>nunc temporis.
+</p>
+                  <p xml:id="Almn78-a33532-d1e903">
+                     <lb ed="#Ba"/>2. Adhuc, Differentia nunc 
+eternita<lb ed="#Ba" break="no"/>tis sunt, quod est indivisibile per 
+sub<lb ed="#Ba" break="no"/>stantiam et esse, et. non fluens, sed 
+si<lb ed="#Ba" break="no"/>mul existens substantia, potentia, et 
+ope<lb ed="#Ba" break="no"/>ratione. Si ergo evilernum deficiat ab
+<lb ed="#Ba"/>eterno, et superabundet super tempus :
+<lb ed="#Ba"/>et supponatur, quod uniuscujusque esse
+<lb ed="#Ba"/>sil propria mensura, respondens sibi 
+se<lb ed="#Ba" break="no"/>cundum suam naturam : cum inter rem
+<lb ed="#Ba"/>stantem secundum substantiam, 
+poten<lb ed="#Ba" break="no"/>tiam, et operationem : et rem fluentem
+<lb ed="#Ba"/>secundum substantiam, potentiam, et
+<lb ed="#Ba"/>operationem, non sit nisi res stans 
+secun<lb ed="#Ba" break="no"/>dum substantiam, expansa autem 
+secun<lb ed="#Ba" break="no"/>dum potentiam,et vicissitudinata a priori
+<lb ed="#Ba"/>in posterius secundum operationem : et
+<lb ed="#Ba"/>supponatur, quod mensure differant 
+se<lb ed="#Ba" break="no"/>cundum mensurata : videtur, quod nunc
+<lb ed="#Ba"/>ipsius eviternitatis constitutivum, sit
+<lb ed="#Ba"/>nunc indivisibile per substantiam, 
+pro<lb ed="#Ba" break="no"/>tensum autem secundum quod adjacet
+<lb ed="#Ba"/>potentiae, sive potenti secundum quod
+<lb ed="#Ba"/>potens est, et vicissitudinatum, 
+secun<lb ed="#Ba" break="no"/>dum quod intelligitur adjacens operanti
+<lb ed="#Ba"/>secundum quod operans est. Tale enim
+<lb ed="#Ba"/>nunc in ultima sua conditione attingit
+<lb ed="#Ba"/>nunc temporis, in prima autem nunc
+<lb ed="#Ba"/>ceternitatis, in media autem inter 
+utrum<lb ed="#Ba" break="no"/>que est extensum ab uno in alterum.
+</p>
+                  <p xml:id="Almn78-a33532-d1e969">
+                     <lb ed="#Ba"/>3. Adhuc, Hoe modo in tota mora que
+<lb ed="#Ba"/>dicitur xéernitatis, unum et idem manet
+<lb ed="#Ba"/>wviternum, scilicet indivisibile per 
+sub<lb ed="#Ba" break="no"/>stantiam, extensum per potentiam, ordi
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>natum ad operationem, et 
+vicissitudina<lb ed="#Ba" break="no"/>tum per operationes : ergo sibi adjacens
+<lb ed="#Ba"/>secundum quod est ens operans et 
+po<lb ed="#Ba" break="no"/>tens, unum et idem est nunc illius morw
+<lb ed="#Ba"/>que dicitur awviternitatis constitutivuin.
+</p>
+                  <p xml:id="Almn78-a33532-d1e993">
+                     <lb ed="#Ba"/>4. Adbuc, Aliter intelligi non potest!
+<lb ed="#Ba"/>id quod dicitur in libro de Causis, 
+pro<lb ed="#Ba" break="no"/>positione trigesima, quod inter rem 
+cu<lb ed="#Ba" break="no"/>jus substantia et actio sunt in momento
+<lb ed="#Ba"/>eternitatis, et inter rem cujus 
+substan<lb ed="#Ba" break="no"/>tia et actio sunt in momento temporis,
+<lb ed="#Ba"/>est medium, et est illud cujus substantia
+<lb ed="#Ba"/>est in momento eternitatis, et operatio
+<lb ed="#Ba"/>in momento temporis. Sicut enim 
+ibi<lb ed="#Ba" break="no"/>dem dicit commentum, res cadens sub
+<lb ed="#Ba"/>tempore, in omnibus suis dispositionibus
+<lb ed="#Ba"/>sejuncta est a re cadente sub eternitate
+<lb ed="#Ba"/>in omnibus suis dispositionibus, 
+Conti<lb ed="#Ba" break="no"/>nutio autem non est nisi in rebus 
+simili<lb ed="#Ba" break="no"/>bus. Cum ergo eternitas et tempus sint
+<lb ed="#Ba"/>quedam extrema, inter que est 
+me<lb ed="#Ba" break="no"/>dium, oportet quod medium continuans
+<lb ed="#Ba"/>sit res, que aut substantia est sub 
+mo<lb ed="#Ba" break="no"/>mento temporis, et actione sub 
+momen<lb ed="#Ba" break="no"/>to wternitatis : aut e converso res que
+<lb ed="#Ba"/>substantia cadit sub momento 
+eternita<lb ed="#Ba" break="no"/>tis, et actione sub momento temporis.
+<lb ed="#Ba"/>Sed primo modo esse non potest : quia
+<lb ed="#Ba"/>non potest esse res cujus actio sit sub
+<lb ed="#Ba"/>uno momento eternitatis, et substantia
+<lb ed="#Ba"/>sub momento temporis : quia quando
+<lb ed="#Ba"/>substantia in esse suo sequitur fluxum
+<lb ed="#Ba"/>temporis, non potest ab illa substantia
+<lb ed="#Ba"/>egredi virtus et operatio, que fluxum
+<lb ed="#Ba"/>temporis non sequantur. Relinquitur
+<lb ed="#Ba"/>ergo, quod sit ibi medium, scilicet res,
+<lb ed="#Ba"/>cujus substantia sit in momento a@
+terni<lb ed="#Ba" break="no"/>tatis, et operatio in momento temporis.
+<lb ed="#Ba"/>Et cum potentia sit inter substantiam et
+<lb ed="#Ba"/>operationem unius scilicet substantia 
+in<lb ed="#Ba" break="no"/>divisibilis, et multarum sibi 
+succeden<lb ed="#Ba" break="no"/>tium operalionum, oportet quod potentia
+<lb ed="#Ba"/>extensa sit ab uno in multa : tale ergo
+<lb ed="#Ba"/>nunc eviternitatis est constitutivum.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1080">
+                     <lb ed="#Ba"/>5. Adhuc, Aliter non potest intelligi
+<lb ed="#Ba"/>quod dicit Augustinus in libro VIII 
+su<lb ed="#Ba" break="no"/>per Genesim ad litieram+, quod <quote xml:id="Almn78-a33532-Qd1e1088"> Deus
+<pb ed="#Ba" n="161"/>
+                        <cb ed="#Ba" n="a"/>
+                        <lb ed="#Ba"/>spiritualem creaturam sive incorpoream
+<lb ed="#Ba"/>movet per tempus : creaturam autem
+<lb ed="#Ba"/>corporalem per tempus et locum. </quote> Si
+<lb ed="#Ba"/>enim creaturam spiritualem movet 
+per<lb ed="#Ba" break="no"/>tempus, oportet quod sit mobilis et mota
+<lb ed="#Ba"/>per tempus, sed secundum substantiam
+<lb ed="#Ba"/>nullo modo mobilis est vel mota. 
+Relin<lb ed="#Ba" break="no"/>quitur ergo, quod secundum virtutem
+<lb ed="#Ba"/>sit mobilis, et secundum actionem mota. 
+</p>
+                  <p xml:id="Almn78-a33532-d1e1115">
+                     <lb ed="#Ba"/>Dicit enim Dionysius in Celesti 
+hierar<lb ed="#Ba" break="no"/>chia, quod <quote xml:id="Almn78-a33532-Qd1e1121"> creatura spiritualis non 
+di<lb ed="#Ba" break="no"/>viditur nisi per substantiam, virtutem,
+<lb ed="#Ba"/>et operationem. </quote> Cum ergo creatura
+<lb ed="#Ba"/>spiritualis una sit et eadem in tola mora
+<lb ed="#Ba"/>que est wviternitatis, substantia 
+indivi<lb ed="#Ba" break="no"/>sibili, virtute autem extensa, et 
+opera<lb ed="#Ba" break="no"/>tione vicissitudinata, relinquitur quod
+<lb ed="#Ba"/>nunc sibi sic, ut dictum est, adjacens
+<lb ed="#Ba"/>per intellectum, constitutivum sit illius
+<lb ed="#Ba"/>nore que dicitur eviternitas.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1144">
+                     <lb ed="#Ba"/>IN conTraRium autem hujus est, quod
+<lb ed="#Ba"/>secundum hoc eviternitas non videtur
+<lb ed="#Ba"/>esse mora continua. Dicit enim Aristo-
+<lb ed="#Ba" break="no"/>telus, quod tempus non esset continuum, .
+<lb ed="#Ba"/>uisi continus esset motus : et motus non
+<lb ed="#Ba"/>vsset continuus, nisi continua esset 
+ma<lb ed="#Ba" break="no"/>xnitudo que per se continuorum est :
+<lb ed="#Ba"/>hoc autem nihil per se continuum est :
+<lb ed="#Ba"/>nec enim substantia, nec virtus, nec 
+ope<lb ed="#Ba" break="no"/>ratio continuorum in eviterno : mora
+<lb ed="#Ba"/>ergo totius eviternitatis continua esse
+<lb ed="#Ba"/>non potest.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1173">
+                     <lb ed="#Ba"/>Queritur etiam, Qualiter tale nunc
+<lb ed="#Ba"/>constitutivum est eviternitatis secundum
+<lb ed="#Ba"/>substantiam et esse ejus ?
+</p>
+                  <p xml:id="Almn78-a33532-d1e1183">
+                     <lb ed="#Ba"/>Sorurio. Dicendum, quod quinque 
+pri<lb ed="#Ba" break="no"/>ma rationes de necessitate procedunt, et
+<lb ed="#Ba"/>ileo concedende sunt.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1192">
+                     <lb ed="#Ba"/>Ad eam autem qua itur in 
+contra<lb ed="#Ba" break="no"/>rium, solvendum est per ea que dicta
+<lb ed="#Ba"/>suntin preecedenti questione de nunc
+<lb ed="#Ba"/>wlernitatis, quod scilicet omnium talium
+<lb ed="#Ba"/>que in genere more sunt, esse 
+secun<lb ed="#Ba" break="no"/>dum totam vel maximam sui partem, est
+<lb ed="#Ba"/>
+                     <lb ed="#Ba"/>in anima secundum Aristotelem et 
+Au<lb ed="#Ba" break="no"/>gustinum. Et ideo dicit, quod presens
+<lb ed="#Ba"/>de preterito memoria est, presens de
+<lb ed="#Ba"/>presenti sensus sive sensibilis acceptio,
+<lb ed="#Ba"/>presens de futuro exspectatio est sive
+<lb ed="#Ba"/>speratio. Et hoc dicit <ref xml:id="Almn78-a33532-Rd1e1222">Augustinus in 
+li<lb ed="#Ba" break="no"/>bro XI de Civitate Dei</ref>. Et in idem 
+sen<lb ed="#Ba" break="no"/>tiunt <ref xml:id="Almn78-a33532-Rd1e1229">Aristoteles et Averroes in IV 
+Phy<lb ed="#Ba" break="no"/>sicorum</ref>, et <ref xml:id="Almn78-a33532-Rd1e1234">Avicenna in Sufficientia</ref>.
+<lb ed="#Ba"/>Et ideo anima accipiens eviterno 
+adja<lb ed="#Ba" break="no"/>cens nunc, et protendens ipsum per 
+in<lb ed="#Ba" break="no"/>deficientiam ad omne tempus et 
+tempo<lb ed="#Ba" break="no"/>rale, facit continuam moram, que 
+dici<lb ed="#Ba" break="no"/>tur aeviternitas : et non potest imaginari
+<lb ed="#Ba"/>aliquid aliud quod faciat continuitatem.
+<lb ed="#Ba"/>Omne enim continuum quod non ex se
+<lb ed="#Ba"/>continuum est, oportet quod continuum
+<lb ed="#Ba"/>sit ex relatione sui ad aliquid quod per
+<lb ed="#Ba"/>se continuum est : hoc autem non est
+<lb ed="#Ba"/>nisi tempus et temporale: eviternitas ergo
+<lb ed="#Ba"/>relata ad hoc per indeficientiam more
+<lb ed="#Ba"/>non interrupte, accipit continuitatem.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1267">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod in aeviter- 
+<lb ed="#Ba" break="no"/>nitate substantia est et esse, sive quod
+<lb ed="#Ba"/>est et quo continuum est. Unde nunc 
+se<lb ed="#Ba" break="no"/>cundum se acceptum, constituit 
+substan<lb ed="#Ba" break="no"/>tiam sive id quod est eviternitas : 
+ac<lb ed="#Ba" break="no"/>ceptum autem sub esse indeficientis 
+pro<lb ed="#Ba" break="no"/>tensi secundum potentiam in 
+operatio<lb ed="#Ba" break="no"/>nes non continuas, sed vicissitudinatas,
+<lb ed="#Ba"/>constituit esse eviternitatis secundum
+<lb ed="#Ba"/>quod mora continua est.
+</p>
+               </div>
+               <div xml:id="Almn78-a33532-Dd1e1292">
+                  <head xml:id="Almn78-a33532-Hd1e1294">Articulus 2</head>
+                  <head xml:id="Almn78-a33532-Hd1e1297" type="question-title">
+      Qualiter nunc temporis constituit
+      tempus?
+    </head>
+                  <p xml:id="Almn78-a33532-d1e1300">
+                     <lb ed="#Ba"/>MEMBRI SECUNDI
+<lb ed="#Ba"/>ARTICULUS II.
+<lb ed="#Ba"/>Qualiter nunc temporis constituit
+<lb ed="#Ba"/>tempus?
+  
+<lb ed="#Ba"/>Ulterius queritur, Qualiter nunc 
+tem<lb ed="#Ba" break="no"/>poris constituit tempus ?
+</p>
+                  <p xml:id="Almn78-a33532-d1e1316">
+                     <pb ed="#Ba" n="162"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>Nunc enim temporis est, ut dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in 1V Physicorum, quod adjacet
+<lb ed="#Ba"/>ei quod fertur, quod unum et idem est in
+<lb ed="#Ba"/>tota latione : divisum tamen secundum
+<lb ed="#Ba"/>motum, secundum esse hic et ibi, sive
+<lb ed="#Ba"/>ante et post. Et ideo nunc illud unum in
+<lb ed="#Ba"/>substantia est, sicut id quod fertur 
+conti<lb ed="#Ba" break="no"/>nuans inter prius et posterius, et sicut id
+<lb ed="#Ba"/>quod fertur, continue extenditur ab ante
+<lb ed="#Ba"/>in post in magnitudine per quam 
+move<lb ed="#Ba" break="no"/>tur. Et sic dicitur nunc instans, hoc est,
+<lb ed="#Ba"/>non stans : quia continue fluit a priori
+<lb ed="#Ba"/>in posterius. Ex hoc patet, quod alias
+<lb ed="#Ba"/>differentias constitutivas habet nunc 
+tem<lb ed="#Ba" break="no"/>poris, et alias nunc eviternitatis, et alias
+<lb ed="#Ba"/>nunc #ternitatis. Nunc enim eternitatis
+<lb ed="#Ba"/>totum simul est et stat in substantia,
+<lb ed="#Ba"/>virtute, et operatione ejus quod est 
+eter<lb ed="#Ba" break="no"/>num. nunc autem eviternitatis stat 
+qui<lb ed="#Ba" break="no"/>dem et simul est in substantia eviterni,
+<lb ed="#Ba"/>sed secundum quod adjacens est potenti,
+<lb ed="#Ba"/>cujus potentia aliquid sui extra se habet
+<lb ed="#Ba"/>ad quod extendatur, non potest 
+intelli<lb ed="#Ba" break="no"/>gi totum esse simul,
+</p>
+                  <p xml:id="Almn78-a33532-d1e1375">
+                     <lb ed="#Ba"/>Item, Secundum quod _intelligitur
+<lb ed="#Ba"/>adjacere operanti quod numeratur in
+<lb ed="#Ba"/>operibus suis, non potest intelligi esse
+<lb ed="#Ba"/>unum et idem, sed intelligi tur esse in
+<lb ed="#Ba"/>numero. Nunc autem temporis, nec
+<lb ed="#Ba"/>adjacet stanti,. nec multas 
+operatio<lb ed="#Ba" break="no"/>nes vicissitudinatas facienti, sed unam
+<lb ed="#Ba"/>continuam, cujus primum medium et
+<lb ed="#Ba"/>ullimum non sunt simul : cujusmodi
+<lb ed="#Ba"/>operatio motus est, secundum quod 
+mo<lb ed="#Ba" break="no"/>tus est actus mobilis et non moventis.
+<lb ed="#Ba"/>Oportet ergo, quod nunc temporis sit in
+<lb ed="#Ba"/>numero numerante primum et medium
+<lb ed="#Ba"/>etultimum in motu, et secundum quod
+<lb ed="#Ba"/>est in hoc numero, non simul sit, sed
+<lb ed="#Ba"/>continue procedens a priori in 
+poste<lb ed="#Ba" break="no"/>rius,
+</p>
+                  <p xml:id="Almn78-a33532-d1e1415">
+                     <lb ed="#Ba"/>Ex hoc sequitur determinatio 
+qua<lb ed="#Ba" break="no"/>stionis que primo quesita est, scilicet
+<lb ed="#Ba"/>utrum sit idem nunc eternitatis, 
+eviter<lb ed="#Ba" break="no"/>nitatis, et temporis constitutivum 
+secun<lb ed="#Ba" break="no"/>dum esse et substantiam ?
+</p>
+                  <p xml:id="Almn78-a33532-d1e1428">
+                     <lb ed="#Ba"/>Patet enim, quod hoc impossibile est :
+<lb ed="#Ba"/>eo quod Aristoteles determinavit in X
+<lb ed="#Ba"/>primae philosophiae, quod unumquodque
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>mensuratur sui generis minimo et 
+sim<lb ed="#Ba" break="no"/>plicissimo. Dico autem minimo, 
+positio<lb ed="#Ba" break="no"/>ne vel natura: positione, ut in 
+ponderi<lb ed="#Ba" break="no"/>bus vel magnitudinem habentibus : in
+<lb ed="#Ba"/>illis enim natura minimum accipi non
+<lb ed="#Ba"/>potest : et ideo oportet, quod quoad nos
+<lb ed="#Ba"/>accipiatur, ut in ponderibus minimum
+<lb ed="#Ba"/>dicitur quod quoad nos certissime est
+<lb ed="#Ba"/>quantitatis vel ponderis, ut in 
+ponderi<lb ed="#Ba" break="no"/>bus dicitur esse granum hordei, in 
+ma<lb ed="#Ba" break="no"/>gnis digitus, in aridis modius, in 
+liqui<lb ed="#Ba" break="no"/>dis lagena. Et hec iterata per numerum,
+<lb ed="#Ba"/>totam certificant quantitatem vel 
+pon<lb ed="#Ba" break="no"/>dus. In mensura autem essentiarum 
+mi<lb ed="#Ba" break="no"/>nimum accipitur per naturam, quod vel
+<lb ed="#Ba"/>est stans per indeficientiam, vel 
+proten<lb ed="#Ba" break="no"/>sum ad aliquid extra se per virtutem,
+<lb ed="#Ba"/>vel numeratum in operatione 
+vicissitu<lb ed="#Ba" break="no"/>dinaria vel continua, cujus primum 
+me<lb ed="#Ba" break="no"/>dium et ultimum non sunt simul, totum
+<lb ed="#Ba"/>esse mensurat substantie virtutis et 
+ope<lb ed="#Ba" break="no"/>rationis. Et hoc modo nunc mensurans
+<lb ed="#Ba"/>esse substantia, virtutis, et operationis
+<lb ed="#Ba"/>zterni : et nunc mensurans esse 
+substan<lb ed="#Ba" break="no"/>tie, virtutis, et operationis eviterni : et
+<lb ed="#Ba"/>nunc mensurans esse substantie, 
+virtu<lb ed="#Ba" break="no"/>tis, et operationis generabilium et 
+cor<lb ed="#Ba" break="no"/>ruptibilium, nullo modo potest esse
+<lb ed="#Ba"/>idem.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1502">
+                     <lb ed="#Ba"/>Objiciunt tamen quidam in contrarium
+<lb ed="#Ba"/>per hance locutionem : Quando Deus est,
+<lb ed="#Ba"/>angelus est, et motus est : haec igitur
+<lb ed="#Ba"/>tria simul sunt. Simul autem sunt que
+<lb ed="#Ba"/>in uno nunc sunt et eodem. Deus autem
+<lb ed="#Ba"/>non est nisi in nunc eternitatis. Ergo
+<lb ed="#Ba"/>Angelus est in eodem nunc, et motus in
+<lb ed="#Ba"/>eodem, ergo in nunc eternitatis sunt
+<lb ed="#Ba"/>eternum et eviternum et temporale. Sed
+<lb ed="#Ba"/>sicut se habet eviternum et temporale
+<lb ed="#Ba"/>ad wternum, ita se habent nunc 
+eviter<lb ed="#Ba" break="no"/>nitatis et temporis ad nunc eternitatis.
+<lb ed="#Ba"/>Ergo idem nunc quod est eternitatis,
+<lb ed="#Ba"/>est eviternitatis et temporis.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1535">
+                     <lb ed="#Ba"/>Adhuc, Dixerunt quidam, quod nunc
+<lb ed="#Ba"/>eternitatis est in nunc eviternitatis
+<lb ed="#Ba"/>et in nunc temporis, sicut causa in
+<lb ed="#Ba"/>causato, et sicut exemplar in exemplo
+<lb ed="#Ba"/>similiori et dissimiliori. Similius enim
+<lb ed="#Ba"/>ad nunc eternitatis, est nunc eviter
+<pb ed="#Ba" n="163"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>nitatis, et dissimilius nunc temporis.
+<lb ed="#Ba"/>IK ponunt simile ad hoc, sicut creatio
+<lb ed="#Ba"/>est in creatis per imaginem et 
+vesti<lb ed="#Ba" break="no"/>Kium similius et dissimilius.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1564">
+                     <lb ed="#Ba"/>Per rationem etiam ostendunt hoc 
+ip<lb ed="#Ba" break="no"/>sum. Dicunt enim in re mota tria esse,
+<lb ed="#Ba"/>essentiam scilicet, et substantiam ejus
+<lb ed="#Ba"/>quod fertur, et id quod fertur, secundum
+<lb ed="#Ba"/>quod fertur, et tria illis adjacentia. Et
+<lb ed="#Ba"/>cum essentia secundum suum esse stet
+<lb ed="#Ba"/>tola, simul dicunt illi adjacere nunc 
+ater<lb ed="#Ba" break="no"/>nilatis. Et cum substantia ejus quod fer-
+‘ur, potentiam habeat extensam, sed
+<lb ed="#Ba"/>atantem secundum esse et actum, dicunt
+<lb ed="#Ba"/>illi adjacere nunc eviternitatis. Et cum
+<lb ed="#Ba"/>il quod fertur secundum quod fertur,
+<lb ed="#Ba"/>actu sit protensum ab ante in post, 
+di<lb ed="#Ba" break="no"/>cunt illi adjacere nunc temporis. Et 
+sic<lb ed="#Ba" break="no"/>ul ab essentia ejus quod fertur, procedit
+<lb ed="#Ba"/>atbstantia ejus quod fertur, et a 
+substan<lb ed="#Ba" break="no"/>tin ejus quod fertur, procedit latio 
+ejus<lb ed="#Ba" break="no"/>dem : ita dicunt, quod nunc eternitatis
+<lb ed="#Ba"/>puulatim procedit in nunc eviternitatis
+<lb ed="#Ba"/>per defectum hujus differentia, quod est
+<lb ed="#Ba"/>stare substantia simul, virtute, et 
+opera<lb ed="#Ba" break="no"/>tione. Et ulterius per defectum ejus quod
+<lb ed="#Ba"/>ext stare, deficit in nunc temporis. Et
+<lb ed="#Ba"/>haec dicunt esse quod dicit Boetius in
+<lb ed="#Ba"/>libro de Consolatione philosophie :
+<lb ed="#Ba"/>
+                     <quote xml:id="Almn78-a33532-Qd1e1620">Qui tempus ab aevo
+<lb ed="#Ba"/>Ire jubes.</quote>
+                  </p>
+                  <p xml:id="Almn78-a33532-d1e1626">
+                     <lb ed="#Ba"/>Sed hoc videtur mirabile, quamvis
+<lb ed="#Ba"/>subtile sit, et quamvis sit verum pro 
+ul<lb ed="#Ba" break="no"/>lima parte. Quia non queritur hic, 
+Qua<lb ed="#Ba" break="no"/>liter nunc fluat a nunc? Sed queritur,
+{trum idem nunc sit eviternitatis, 
+weter<lb ed="#Ba" break="no"/>nitatis, et temporis ? Nec queritur, Qua-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>liter unum exempletur ab altero, vel
+<lb ed="#Ba"/>qualiter unum sit in altero ut exemplar
+<lb ed="#Ba"/>in exemplato ? Sed queritur, Utrum om
+<lb ed="#Ba"/>nia tria nunc sint idem per substan
+<lb ed="#Ba"/>tiam ?
+</p>
+                  <p xml:id="Almn78-a33532-d1e1653">
+                     <lb ed="#Ba"/>Solutio. Unde dicendum sicut prius,
+<lb ed="#Ba"/>quod non sunt unum, sed diversa.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1660">
+                     <lb ed="#Ba"/>Ad argumentum autem quod 
+indu<lb ed="#Ba" break="no"/>cunt, dicendum quod peceat secundum
+<lb ed="#Ba"/>fallaciam equivocationis. Cum enim in
+<lb ed="#Ba"/>prima dicit, Deus est nunc, et Angelus
+<lb ed="#Ba"/>est nunc, et motus est nunc: nunc est
+<lb ed="#Ba"/>adverbium, et significat quando, quod ex
+<lb ed="#Ba"/>adjacentia prasentis temporis 
+relinqui<lb ed="#Ba" break="no"/>tur. Cum autem infertur in conclusione
+<lb ed="#Ba"/>ergo idem est nunc eternitatis, #
+eviter<lb ed="#Ba" break="no"/>nitatis, et temporis : nunc est nomen,
+<lb ed="#Ba"/>et significat substantiam constitutivam
+<lb ed="#Ba"/>eternitatis, eviternitatis, et temporis.
+</p>
+                  <p xml:id="Almn78-a33532-d1e1689">
+                     <lb ed="#Ba"/>Si autem queritur, Utrum hoc 
+guan<lb ed="#Ba" break="no"/>do quo dicitur, quando Deus est, 
+Ange<lb ed="#Ba" break="no"/>lus est, vel motus est, sit sternitatis,
+<lb ed="#Ba"/>eviternitatis, vel temporis ?
+</p>
+                  <p xml:id="Almn78-a33532-d1e1700">
+                     <lb ed="#Ba"/>Dicendum, quod est guando 
+eternita<lb ed="#Ba" break="no"/>tis. Quia quorumcumque mensura est 
+tem<lb ed="#Ba" break="no"/>poris ut adequata, eorumdem est 
+men<lb ed="#Ba" break="no"/>sura #viternorum ut concomitans, et 
+eo<lb ed="#Ba" break="no"/>rumdem est mensura eternitatis 
+super<lb ed="#Ba" break="no"/>eminens et excellens.Sed non convertitur:
+<lb ed="#Ba"/>quia non omnium eternorum 
+concomi<lb ed="#Ba" break="no"/>tans mensura est viternitas, nec 
+adw<lb ed="#Ba" break="no"/>quata tempus : eo quod eternitas excellit
+<lb ed="#Ba"/>eviternitatem secundum principium, et
+<lb ed="#Ba"/>tempus secundum principium et finem,
+<lb ed="#Ba"/>eviternitas autem excellit tempus 
+secun<lb ed="#Ba" break="no"/>dum finem.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

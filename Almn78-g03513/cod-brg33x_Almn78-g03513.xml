@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 139</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 139</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="466"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-g03513"><!-- p2t22q139 -->
+            <head xml:id="Almn78-g03513-Hd1e106">Quaestio 139</head>
+            <head xml:id="Almn78-g03513-Hd1e109" type="question-title">
+    De voluntate
+  </head>
+            <p xml:id="Almn78-g03513-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXXIX.
+<lb ed="#Bc"/>De voluntate
+</p>
+            <p xml:id="Almn78-g03513-d1e121">
+               <lb ed="#Bc"/>Deinde transeundum est ad 
+quadrage<lb ed="#Bc" break="no"/>simam secundam distinctionem libri IE
+<lb ed="#Bc"/>Sententiarum, que sic incipit: Cum
+<lb ed="#Bc"/>autem voluntas mala et actio peccata
+<lb ed="#Bc"/>sin.
+</p>
+            <p xml:id="Almn78-g03513-d1e134">
+               <lb ed="#Bc"/>In qua Magister duo querit.
+<lb ed="#Bc"/>Primum est, Utrum voluntas et actus
+<lb ed="#Bc"/>qui causatur a voluntate, sint unum 
+pec<lb ed="#Bc" break="no"/>catum in eodem, vel duo?
+<lb ed="#Bc"/>Secundum est, Quod distinguit modos
+<lb ed="#Bc"/>peccatorum in illo capitulo, Modi autem
+<lb ed="#Bc"/>peccatorum.
+</p>
+            <p xml:id="Almn78-g03513-d1e153">
+               <lb ed="#Bc"/>Circa primum querit duo, Primum
+<lb ed="#Bc"/>est illud quod dictum est, Utrum 
+volun<lb ed="#Bc" break="no"/>tas et actus sint-unum peccatum in 
+eo<lb ed="#Bc" break="no"/>dem ?
+</p>
+            <p xml:id="Almn78-g03513-d1e164">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Secundum est, Cum peccatum 
+transi<lb ed="#Bc" break="no"/>vit in actum et perfectum sit, utrum 
+se<lb ed="#Bc" break="no"/>cundum aliquid maneat in anima usque
+<lb ed="#Bc"/>post perfectam peenitentiam ?
+</p>
+            <div xml:id="Almn78-g03513-Dd1e177">
+               <head xml:id="Almn78-g03513-Hd1e179">Membrum 1</head>
+               <head xml:id="Almn78-g03513-Hd1e182" type="question-title">
+        Utrum voluntas et actus qui causatur a
+        voluntate sint unum peccatum in 
+        eodem, vel duo?
+      </head>
+               <p xml:id="Almn78-g03513-d1e185">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum voluntas et actus qui causatur a
+<lb ed="#Bc"/>voluntate sint unum peccatum in 
+  eo<lb ed="#Bc" break="no"/>dem, vel duo?
+</p>
+               <p xml:id="Almn78-g03513-d1e196">
+                  <lb ed="#Bc"/>Ad primum objicit Magister in Litiera
+<lb ed="#Bc"/>tribus argumentis.
+</p>
+               <p xml:id="Almn78-g03513-d1e203">
+                  <pb ed="#Bc" n="467"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>1. Primum est hoc: Voluntas et actus
+<lb ed="#Bc"/>duo quidem sunt, ut constat: aut ergo
+<lb ed="#Bc"/>sunt duo que sunt peccata, aut sunt duo
+<lb ed="#Bc"/>que non sunt peccata. Si sunt duo que
+<lb ed="#Bc"/>sunt peccata, habetur propositum, quod
+<lb ed="#Bc"/>voluntas et actus duo peccata sunt in 
+eo<lb ed="#Bc" break="no"/>dem. Si sunt duo que non sunt peccata,
+<lb ed="#Bc"/>yoluntas non erit peccatum, quod est
+<lb ed="#Bc"/>contra Augustinum, qui dicit quod omne
+<lb ed="#Bc"/>peccatum est adeo voluntarium, quod si
+<lb ed="#Bc"/>non sit voluntarium, non est peccatum.
+<lb ed="#Bc"/>Adhuc, hoc erit contra prius 
+determina<lb ed="#Bc" break="no"/>ia. Dictum est enim, quod voluntas cum
+<lb ed="#Bc"/>fine est intentio: sed finis est opus 
+vo<lb ed="#Bc" break="no"/>luntatis intendentis et ipsum causantis :
+<lb ed="#Bc"/>sed causa pertectior est suo effectu : ergo
+<lb ed="#Bc"/>voluntas magis erit peccatum quam
+<lb ed="#Bc"/>actus: ergo duo sunt peccata actus et
+<lb ed="#Bc"/>voluntas.
+</p>
+               <p xml:id="Almn78-g03513-d1e252">
+                  <lb ed="#Bc"/>2. Adhuc, Que pluribus 
+prohibitioni<lb ed="#Bc" break="no"/>bus prohibentur, diversa peccata sunt,
+<lb ed="#Bc"/>et non unum. Exod. xx, 13 et 17, una
+<lb ed="#Bc"/>prohibitio est: Non furtum facies: et
+<lb ed="#Bc"/>alia, Non concupisces. Ergo ista sunt 
+di<lb ed="#Bc" break="no"/>versa, et non unum.
+</p>
+               <p xml:id="Almn78-g03513-d1e268">
+                  <lb ed="#Bc"/>3. Adhuc, Super illud Psalmi txvur,
+<lb ed="#Bc"/>28: Appone iniquitatem super iniquita~
+<lb ed="#Bc"/>tem eorum: dicit Glossa, quod <quote xml:id="Almn78-g03513-Qd1e276"> 
+iniqui<lb ed="#Bc" break="no"/>tas super iniquitatem ponitur, quando
+<lb ed="#Bc"/>iniquitas actus ponitur super 
+iniquita<lb ed="#Bc" break="no"/>tem voluntatis: </quote> et sic iterum sequitur
+<lb ed="#Bc"/>quod prius.
+</p>
+               <p xml:id="Almn78-g03513-d1e288">
+                  <lb ed="#Bc"/>4. Adhuc, Super illud Apostoli, ad
+<lb ed="#Bc"/>Roman. 1, 29: Repletos omni 
+iniquita<lb ed="#Bc" break="no"/>te,...plenos invidia, homicidiis ‘, 
+conten<lb ed="#Bc" break="no"/>tione et dolo: dicit Glossa, Homicidiis
+<lb ed="#Bc"/>dicitur in plurali, quia aliud est 
+homici<lb ed="#Bc" break="no"/>dium voluntatis, et aliud operis.
+</p>
+               <p xml:id="Almn78-g03513-d1e304">
+                  <lb ed="#Bc"/>3. Adhuc, Objicit Magister reducendo
+<lb ed="#Bc"/>ad inconveniens: quia si utrumque unum
+<lb ed="#Bc"/>est in eodem, tunc quando aliquis 
+volun<lb ed="#Bc" break="no"/>tatem haberet occidendi, et postea 
+occi<lb ed="#Bc" break="no"/>deret, non pro alio reus esset cum actu
+<lb ed="#Bc"/>occideret, quam cum occideret voluntate.
+</p>
+               <p xml:id="Almn78-g03513-d1e320">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Unum peccatum est pro quo una 
+pe<lb ed="#Bc" break="no"/>nitentia secundum ordinem 
+Ecclesiasti<lb ed="#Bc" break="no"/>cum injungitur : sed una peenitentia
+<lb ed="#Bc"/>injungitur pro voluntate et actu: ergo
+<lb ed="#Bc"/>unum peccatum sunt.
+</p>
+               <p xml:id="Almn78-g03513-d1e338">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Bc"/>voluntas et actus duo quidem sunt, sed
+<lb ed="#Bc"/>sunt unum peccatum duplex per 
+mali<lb ed="#Bc" break="no"/>tiam voluntatis et per malitiam operis,
+<lb ed="#Bc"/>Et est sententia Magistri Prepositivi et
+<lb ed="#Bc"/>bona. Et rationem assignabat, quia si
+<lb ed="#Bc"/>quilibet actus interior et exterior deberet
+<lb ed="#Bc"/>assignari pro peccato diverso, nimis 
+gra<lb ed="#Bc" break="no"/>ve esset opus peccatorum. Et’ dabat
+<lb ed="#Bc"/>exemplum : Si quando surgit aliquis ad
+<lb ed="#Bc"/>furandum vel ad occidendum, quilibet
+<lb ed="#Bc"/>passus esset sic speciale peccatum. Et
+<lb ed="#Bc"/>ideo dicebat, quod totum a principio 
+vo<lb ed="#Bc" break="no"/>luntatis male usque in finem 
+perfectio<lb ed="#Bc" break="no"/>nis operis est unum peccatum multiplex.
+<lb ed="#Bc"/>Et propterea dicit Dionysius in libro de
+<lb ed="#Bc"/>Divinis nominibus, quod_.<quote xml:id="Almn78-g03513-Qd1e377"> bonum est ex
+<lb ed="#Bc"/>una sola et tota causa, malum autem est
+<lb ed="#Bc"/>secundum omnifariam ?. </quote>
+               </p>
+               <p xml:id="Almn78-g03513-d1e386">
+                  <lb ed="#Bc"/>Et per hoc patet solutio ad utramque
+<lb ed="#Bc"/>partem objectorum, quod unum 
+pecca<lb ed="#Bc" break="no"/>tum est in substantia, et multiplex in 
+de<lb ed="#Bc" break="no"/>formitate.
+</p>
+            </div>
+            <div xml:id="Almn78-g03513-Dd1e398">
+               <head xml:id="Almn78-g03513-Hd1e400">Membrum 2</head>
+               <head xml:id="Almn78-g03513-Hd1e403" type="question-title">
+        Utrum peccatum quod transivit in actum
+        et perfectum est, secundum aliquid
+        scilicet reatum maneat in anima usque
+        post perfectam poenitentiam ? et, Quis
+        sit ille reatus, et in quo fundatur
+      </head>
+               <p xml:id="Almn78-g03513-d1e406">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum peccatum quod transivit in actum
+<lb ed="#Bc"/>et perfectum est, secundum aliquid
+<lb ed="#Bc"/>scilicet reatum maneat in anima usque
+<lb ed="#Bc"/>post perfectam poenitentiam ? et, Quis
+<lb ed="#Bc"/>sit ille reatus, et in quo fundatur?
+</p>
+               <p xml:id="Almn78-g03513-d1e422">
+                  <lb ed="#Bc"/>Secundo queritur, Cum peccatum
+<lb ed="#Bc"/>transivit in actum et perfectum sit,utrum
+<pb ed="#Bc" n="468"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>secundum aliquid maneat in anima 
+us<lb ed="#Bc" break="no"/>que post perfectam peenitentiam ?
+</p>
+               <p xml:id="Almn78-g03513-d1e438">
+                  <lb ed="#Bc"/>Magister dicit in Litéera, quod 
+secun<lb ed="#Bc" break="no"/>dim reatum maneat.,
+</p>
+               <p xml:id="Almn78-g03513-d1e446">
+                  <lb ed="#Bc"/>Queritur ergo, quis sit ille reatus, et
+<lb ed="#Bc"/>in quo fundatur ?
+</p>
+               <p xml:id="Almn78-g03513-d1e453">
+                  <lb ed="#Bc"/>1. Ex peccato enim perpetrato non 
+re<lb ed="#Bc" break="no"/>manent nisi duo in anima: dispositio,
+<lb ed="#Bc"/>et habitus, sicut ex quolibet actu morali
+<lb ed="#Bc"/>vilii et virtutis ista duo manent in anima.
+<lb ed="#Bc"/>Dicit enim Aristoteles in II Ethicorum,
+<lb ed="#Bc"/>quod non sunt nisi triain anima: 
+pas<lb ed="#Bc" break="no"/>siones, potentia, et habitus. Et constat
+<lb ed="#Bc"/>quod reatus non est potentia, neque 
+pas<lb ed="#Bc" break="no"/>sio: relinquitur ergo, quod sit 
+disposi<lb ed="#Bc" break="no"/>tio vel habitus : ergo reatus erit 
+disposi<lb ed="#Bc" break="no"/>tio vel habitus.
+</p>
+               <p xml:id="Almn78-g03513-d1e479">
+                  <lb ed="#Bc"/>2. Adhuc, Super illud Apostoli, ad
+<lb ed="#Bc"/>Roman.1, 29: Repletos omni iniquitate:
+<lb ed="#Bc"/>dicit Fulgentius, quod <quote xml:id="Almn78-g03513-Qd1e487"> note 
+peccato<lb ed="#Bc" break="no"/>rum remanent in anima et macula, ex
+<lb ed="#Bc"/>quibus anima efficitur maculosa.</quote> 
+Num<lb ed="#Bc" break="no"/>quid ergo talis reatus macula est ? Hoc
+<lb ed="#Bc"/>non videtur: quia reatus dicit 
+obligatio<lb ed="#Bc" break="no"/>nem, macula vero deformitatem : et sic
+<lb ed="#Bc"/>videtur, quod macula non sit reatus.
+</p>
+               <p xml:id="Almn78-g03513-d1e504">
+                  <lb ed="#Bc"/>3. Adhuc, Duplex est macula, scilicet
+<lb ed="#Bc"/>polluens, et deformans : sicut etiam 
+cor<lb ed="#Bc" break="no"/>poralis macula duplex est: una 
+infi<lb ed="#Bc" break="no"/>ciens, sicut pollutio ex luto: et altera
+<lb ed="#Bc"/>deformans, sicut mutilatio. Videtur 
+er<lb ed="#Bc" break="no"/>go, quod reatus manet in tali macula ex
+<lb ed="#Bc"/>quo reatus non transit.
+</p>
+               <p xml:id="Almn78-g03513-d1e522">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod reatus 
+fun<lb ed="#Bc" break="no"/>datur in macula : quia ex macula 
+obli<lb ed="#Bc" break="no"/>gatur homo ad penam eternam : cum
+<lb ed="#Bc"/>peccatum relinquit habitum et 
+disposi<lb ed="#Bc" break="no"/>tionem in anima, et pondere illius trahit
+<lb ed="#Bc"/>ad aliud-peccatuin simile illi, ut dicit
+<lb ed="#Bc"/>Gregorius, sed non obligat ad pcenam.
+<lb ed="#Bc"/>Sed de hoo sufficienter disputatum est
+<lb ed="#Bc"/>super distinctionem XXXVII libri I
+<lb ed="#Bc"/>Sententiarum.
+</p>
+               <p xml:id="Almn78-g03513-d1e546">
+                  <lb ed="#Bc"/>Tamen notanda est distinctio Magistri
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>in Littera de reatu, scilicet quod reatus
+<lb ed="#Bc"/>in Scriptura aliquando accipitur pro 
+cul<lb ed="#Bc" break="no"/>pa, aliquando pro obligatione pone
+<lb ed="#Bc"/>eterne vel temporalis. Dicit enim 
+Au<lb ed="#Bc" break="no"/>gustinus, quod crimen est, quod est 
+di<lb ed="#Bc" break="no"/>gnum accusatione et damnatione eterna,
+<lb ed="#Bc"/>Veniale autem, quod hominem usque in
+<lb ed="#Bc"/>reatum perpetue mortis non gravat:
+<lb ed="#Bc"/>verumtamen peenam meretur, sed facile
+<lb ed="#Bc"/>indulgetur.
+</p>
+               <p xml:id="Almn78-g03513-d1e576">
+                  <lb ed="#Bc"/>Sed de omnibus istis in prehabitis in
+<lb ed="#Bc"/>tractatu de divisione peccati in veniale et
+<lb ed="#Bc"/>mortale satis sufficienter et disputatum
+<lb ed="#Bc"/>et determinatum est : et ideo superfluum
+<lb ed="#Bc"/>esset hic repetere.
+</p>
+               <p xml:id="Almn78-g03513-d1e589">
+                  <lb ed="#Bc"/>Et sic per distinctionem Yeatus, 
+ma<lb ed="#Bc" break="no"/>cule, dispositionis, et habitus, patet 
+so<lb ed="#Bc" break="no"/>lutio objectorum : quia secundum illam
+<lb ed="#Bc"/>distinctionem procedunt.
+</p>
+            </div>
+            <div xml:id="Almn78-g03513-Dd1e601">
+               <head xml:id="Almn78-g03513-Hd1e603">Membrum 3</head>
+               <head xml:id="Almn78-g03513-Hd1e606" type="question-title">
+        De modis peccatorum, et incidenter quod
+        non sint plura peccata capitalia quam
+        septem
+      </head>
+               <p xml:id="Almn78-g03513-d1e609">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>De modis peccatorum, et incidenter quod
+<lb ed="#Bc"/>non sint plura peccata capitalia quam
+<lb ed="#Bc"/>septem?
+</p>
+               <p xml:id="Almn78-g03513-d1e620">
+                  <lb ed="#Bc"/>Quod autem postea querendum esset
+<lb ed="#Bc"/>de modis peccatorum, in antehabitis suf
+<lb ed="#Bc"/>ficienter, scilicet in distinctione XXXIX
+<lb ed="#Bc"/>libri IL Sententiarum °, et in tractatu
+<lb ed="#Bc"/>XIX Summe theologiz, quest. 128, 
+dis<lb ed="#Bc" break="no"/>putatum est, ubi agitur de differentiis
+<lb ed="#Bc"/>actuum, de commisso,et omisso,et 
+negli<lb ed="#Bc" break="no"/>gentia : nec ista oportet hic iterare : quia.
+<lb ed="#Bc"/>facile est ibi requirere.
+</p>
+               <p xml:id="Almn78-g03513-d1e642">
+                  <lb ed="#Bc"/>Unde non remanet hic inquirere, nisi
+<lb ed="#Bc"/>qualiter sint peccata septem capitalia, et
+<lb ed="#Bc"/>non plura, sicut dicit Gymnasias super
+<lb ed="#Bc"/>Exodum. ,
+</p>
+               <p xml:id="Almn78-g03513-d1e654">
+                  <lb ed="#Bc"/>Hec enim videntur esse plura.
+<lb ed="#Bc"/>1. Proverb. vi,16 et seq., super illud:
+<pb ed="#Bc" n="469"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Sex sunt que odit Dominus, seplimum
+<lb ed="#Bc"/>detestatur anima ejus: oculos 
+subli<lb ed="#Bc" break="no"/>mes, etc. Ibi Glossa dicit, quod ibi 
+Sa<lb ed="#Bc" break="no"/>lomon enumerat sex criminalia peccata,
+<lb ed="#Bc"/>que comparatione discordiam 
+seminan<lb ed="#Bc" break="no"/>tis minora esse dicit. Tamen nullum ibi
+<lb ed="#Bc"/>enumerat de istis. Ergo videtur cum ibi
+<lb ed="#Bc"/>enumerat sex, et hic septem, quod 
+capi<lb ed="#Bc" break="no"/>talia peccata tredecim sunt, et non 
+se<lb ed="#Bc" break="no"/>ptem tantum.
+</p>
+               <p xml:id="Almn78-g03513-d1e687">
+                  <lb ed="#Bc"/>2. Adhuc, Vitium amplioris est 
+divi<lb ed="#Bc" break="no"/>sionis quam virtus : quia vitium fit 
+om<lb ed="#Bc" break="no"/>nifariam, virtus autem ex una sola et
+<lb ed="#Bc"/>causa tota, ut dicit Dionysius *. Sed 
+se<lb ed="#Bc" break="no"/>ptem sunt virtutes, quatuor scilicet 
+car<lb ed="#Bc" break="no"/>dinales, et tres theologice : ergo multo
+<lb ed="#Bc"/>sunt plura vitia.
+</p>
+               <p xml:id="Almn78-g03513-d1e705">
+                  <lb ed="#Bc"/>3. Adhuc, Dicit Aristoteles in II 
+Ethi<lb ed="#Bc" break="no"/>corum, quod quelibet virtus cardinalis
+<lb ed="#Bc"/>media est duarum malitiarum : ergo ad
+<lb ed="#Bc"/>minus octo erunt capitalia.
+</p>
+               <p xml:id="Almn78-g03513-d1e716">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod superius in
+<lb ed="#Bc"/>tractatu de septem vitiis capitalibus de
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>omnibus istis disputatum et 
+determina<lb ed="#Bc" break="no"/>tum est, ubi etiam dictum est quare 
+se<lb ed="#Bc" break="no"/>ptem sunt, et qualilter multiplicantur per
+<lb ed="#Bc"/>objecta que sunt fines. Et ibi etiam 
+di<lb ed="#Bc" break="no"/>ctum est, que et quot filia oriuntur ex
+<lb ed="#Bc"/>quolibet.
+</p>
+               <p xml:id="Almn78-g03513-d1e738">
+                  <lb ed="#Bc"/>Ad primum dicendum, quod Salomon
+<lb ed="#Bc"/>ibi non proprie enumerat septem 
+capita<lb ed="#Bc" break="no"/>lia peccata, sed enumerat ea que 
+contur<lb ed="#Bc" break="no"/>bant communicationem hominum et
+<lb ed="#Bc"/>cohabitationem.
+</p>
+               <p xml:id="Almn78-g03513-d1e751">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod vitium bene
+<lb ed="#Bc"/>amplioris divisionis est quam virtus :
+<lb ed="#Bc"/>sed non omne vitium capitale est.
+</p>
+               <p xml:id="Almn78-g03513-d1e761">
+                  <lb ed="#Bc"/>Smunirer respondendum est ad 
+se<lb ed="#Bc" break="no"/>quens : quia verum est, quod quelibet
+<lb ed="#Bc"/>virtus cardinalis media est duarum 
+ma<lb ed="#Bc" break="no"/>litiarum : sed non quelibet malitia 
+vi<lb ed="#Bc" break="no"/>tium capitale est, licet sit vitium 
+opposi<lb ed="#Bc" break="no"/>tum illi virtuti quam circumstat sicut
+<lb ed="#Bc"/>extremum : quia in extremis est vilium,
+<lb ed="#Bc"/>virtus autem est in medio : medium vero
+<lb ed="#Bc"/>conservans est in omnibus que ex 
+con<lb ed="#Bc" break="no"/>trariis composita sunt.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

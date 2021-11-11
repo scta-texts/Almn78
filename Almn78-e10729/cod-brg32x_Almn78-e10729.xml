@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 41</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 41</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="496"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e10729"><!-- p2t10q41 -->
+            <head xml:id="Almn78-e10729-Hd1e106">Quaestio 41</head>
+            <head xml:id="Almn78-e10729-Hd1e109" type="question-title">
+      De synagoga et connexione Angelicae dispositionis
+    </head>
+            <p xml:id="Almn78-e10729-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XLI.
+      <lb ed="#Bb"/>De synagoga et connexione Angelicae dispositionis.
+    </p>
+            <p xml:id="Almn78-e10729-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde, ut omnia ista melius 
+      intelli<lb ed="#Bb" break="no"/>gantur, querendum est de synagoga et
+      <lb ed="#Bb"/>connexione angelice dispositionis : de
+      <lb ed="#Bb"/>quo tractat Dionysius in libro de Ceelesti
+      <lb ed="#Bb"/>hierarchia.
+    </p>
+            <p xml:id="Almn78-e10729-d1e137">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Videtur enim, quod Angeli 
+      connexio<lb ed="#Bb" break="no"/>nem non habent in ordinibus :
+      <lb ed="#Bb"/>1. Nulla enim connectuntur per illa in
+      <lb ed="#Bb"/>quibus distinguuntur : sed Angeli per
+      <pb ed="#Bb" n="497"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>ordines distinguuntur: ergo in ordinibus
+      <lb ed="#Bb"/>non connectuntur.
+    </p>
+            <p xml:id="Almn78-e10729-d1e160">
+               <lb ed="#Bb"/>2. Adhuc, In hierarchiis non videntur
+      <lb ed="#Bb"/>habere connexionem : nullus enim actus
+      <lb ed="#Bb"/>hierarchicus est, qui unus et idem 
+      exi<lb ed="#Bb" break="no"/>stens conveniat omnibus hierarchiis sicut
+      <lb ed="#Bb"/>connectens eas.
+    </p>
+            <p xml:id="Almn78-e10729-d1e173">
+               <lb ed="#Bb"/>Si forte quis dicat, quod qualibet 
+      hie<lb ed="#Bb" break="no"/>rarchia in suis ordinibus habet 
+      conne<lb ed="#Bb" break="no"/>xionem et synagogam, et non una
+      <lb ed="#Bb"/>hierarchia cum alia. Contra : Omnia
+      <lb ed="#Bb"/>ordinata per supremum, medium, et 
+      po<lb ed="#Bb" break="no"/>stremum, conveniunt et connectuntur in
+      <lb ed="#Bb"/>aliquo uno, cui secundum diversos 
+      re<lb ed="#Bb" break="no"/>spectus communicant supremum, 
+      me<lb ed="#Bb" break="no"/>dium, et postremum : Angeli secundum
+      <lb ed="#Bb"/>hierarchias sic ordinantur, quod in eis
+      <lb ed="#Bb"/>est supremum, medium, et postremum :
+      <lb ed="#Bb"/>ergo conveniunt et connectuntur in 
+      ali<lb ed="#Bb" break="no"/>quo uno.
+    </p>
+            <p xml:id="Almn78-e10729-d1e204">
+               <lb ed="#Bb"/>Quod concedendum est.
+    </p>
+            <p xml:id="Almn78-e10729-d1e209">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod secundum
+      <lb ed="#Bb"/>Dionysium, quadruplex est connexio
+      <lb ed="#Bb"/>Angelorum sive synagoga, hoc est, 
+      sur<lb ed="#Bb" break="no"/>sum ductio, scilicet connexio 
+      hierarchia<lb ed="#Bb" break="no"/>rum omnium in modo recipiendi 
+      illumi<lb ed="#Bb" break="no"/>nationes : et hee est distincta secundum
+      <lb ed="#Bb"/>triplicem proportionem in antehabitis
+      <lb ed="#Bb"/>determinatam, in questione de 
+      distin<lb ed="#Bb" break="no"/>elione hierarchiz, scilicet ad 
+      illumina<lb ed="#Bb" break="no"/>tionem divinam manifestationis prime, et
+      <lb ed="#Bb"/>ad illuminationem divinam 
+      manifestatio<lb ed="#Bb" break="no"/>nis secunde, et ad illuminationem 
+      divi<lb ed="#Bb" break="no"/>nam manifestationis tertie. Et hac 
+      con<lb ed="#Bb" break="no"/>nexio aliquid commune habet in quo
+      <lb ed="#Bb"/>omnes connectuntur, scilicet ordinem,
+      <lb ed="#Bb"/>et scientiam, et actionem hierarchicam,
+      <lb ed="#Bb"/>Et de hac dicit Dionysius in Celesti
+      <lb ed="#Bb"/>hierarchia: <quote xml:id="Almn78-e10729-Qd1e250"> Manifestatores autem 
+        om<lb ed="#Bb" break="no"/>nes sunt Angeli eorum qui ante ipsos
+        <lb ed="#Bb"/>sunt. Ipsi quidem honorabilissimi, hoc
+        <lb ed="#Bb"/>est, de prima hierarchia, Dei moventis,
+        <lb ed="#Bb"/>hoc est, Dei moventis eos ad 
+        illumina<lb ed="#Bb" break="no"/>tionem. Proportionabiliter autem ceteri
+        <lb ed="#Bb"/>ex Deo motorum, hoc est, medii et 
+        pos<lb ed="#Bb" break="no"/>tremi manifestatores sunt illuminatio
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>num que moventur ex Deo!.</quote> Et 
+      sub<lb ed="#Bb" break="no"/>jungit causam dicens: <quote xml:id="Almn78-e10729-Qd1e274"> Tantum enim
+        <lb ed="#Bb"/>omnium superessentialis harmonia 
+        uni<lb ed="#Bb" break="no"/>cuique rationalium et intellectualium
+        <lb ed="#Bb"/>sacro ornatu et ordinata ductione 
+        provi<lb ed="#Bb" break="no"/>dit, quantum ipse hierarchiarum 
+        unus<lb ed="#Bb" break="no"/>quisque ordo sacre et decenter positus
+        <lb ed="#Bb"/>est. </quote> Super quod dicit commentum
+      <lb ed="#Bb"/>Maximi: <quote xml:id="Almn78-e10729-Qd1e292"> Ex eo enim, quod in 
+        inferio<lb ed="#Bb" break="no"/>ribus superiores proprietates 
+        particulari<lb ed="#Bb" break="no"/>ter relucent, particulariter manifestant eas
+        <lb ed="#Bb"/>inferiores, et non simpliciter 
+        universa<lb ed="#Bb" break="no"/>liter sicut sunt in superioribus. </quote>
+            </p>
+            <p xml:id="Almn78-e10729-d1e304">
+               <lb ed="#Bb"/>Secunda connexio est sive synagoga
+      <lb ed="#Bb"/>trium ordinum in unaquaque hierarchia,
+      <lb ed="#Bb"/>habens commune ipsum 
+      actum_hierar<lb ed="#Bb" break="no"/>chicum in modo recipiendi et 
+      transfun<lb ed="#Bb" break="no"/>dendi illuminationes: et habens 
+      supre<lb ed="#Bb" break="no"/>mum, medium, et postremum in 
+      ordi<lb ed="#Bb" break="no"/>nibus in una hierarchia positis. Et de
+      <lb ed="#Bb"/>hac dicit Dionysius in eodem capitulo
+      <lb ed="#Bb"/>circa principium sic de ordinibus prime
+      <lb ed="#Bb"/>hierarchie : <quote xml:id="Almn78-e10729-Qd1e327"> Connexa est itaque ipsa
+        <lb ed="#Bb"/>quidem honorabilissima circa Deum 
+        ani<lb ed="#Bb" break="no"/>morum dispositio, ex perfectiva 
+        illu<lb ed="#Bb" break="no"/>minatione ordinata immediate in eam
+        <lb ed="#Bb"/>ascendendo, occultior et manifestior 
+        di<lb ed="#Bb" break="no"/>vinitatis illuminatione, qua purgatur,
+        <lb ed="#Bb"/>illuminatur, et perficitur. </quote> Et subdit 
+      ex<lb ed="#Bb" break="no"/>ponens quare dixerit, accultior et 
+      mani<lb ed="#Bb" break="no"/>festior : <quote xml:id="Almn78-e10729-Qd1e348"> Occultior quidem tamquam
+        <lb ed="#Bb"/>invisibilior (et hoc est occultum nobis,
+        <lb ed="#Bb"/>quia supra nos est) et magis 
+        simplifi<lb ed="#Bb" break="no"/>cata. Manifestior vero est, ut ante data,
+        <lb ed="#Bb"/>et primo lucens, et universalior, et 
+        mia<lb ed="#Bb" break="no"/>gis in eam, ut oportet, forma (divina
+        <lb ed="#Bb"/>illuminatio) effusa. Ab ipsa autem, hoe
+        <lb ed="#Bb"/>est, post ipsam primam hierarchiam,
+        <lb ed="#Bb"/>proportionaliter secunda, et a secunda
+        <lb ed="#Bb"/>terlia, et ex tertia secundum nos 
+        _hierar<lb ed="#Bb" break="no"/>chia, secundum ipsam bene ordinantis
+        <lb ed="#Bb"/>legem in harmonia divina et analogia, ad
+        <lb ed="#Bb"/>simul omnis boni ornatus superprincipale
+        <lb ed="#Bb"/>principium et consummationem 
+        hierar<lb ed="#Bb" break="no"/>chiz reducitur, </quote>
+            </p>
+            <p xml:id="Almn78-e10729-d1e382">
+               <lb ed="#Bb"/>Tertia connexio est personarum in
+      <lb ed="#Bb"/>unoquoque ordine, que habent unum
+      <pb ed="#Bb" n="498"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>commune donum illius ordinis, et habent
+      <lb ed="#Bb"/>principium, medium, et postremum in
+      <lb ed="#Bb"/>modo participandi illud donum 
+      secun<lb ed="#Bb" break="no"/>dum excellentiam majorem et minorem
+      <lb ed="#Bb"/>personarum illius ordinis in simplicitate
+      <lb ed="#Bb"/>essentie et perspicacitate intelligentia.
+      <lb ed="#Bb"/>Et de hac dicit Dionysius in eodem 
+      ca<lb ed="#Bb" break="no"/>pitulo, sic: <quote xml:id="Almn78-e10729-Qd1e410"> Sed et ipsam per singulas
+        <lb ed="#Bb"/>specialiter dicendum, dispositionem ipsis
+        <lb ed="#Bb"/>divinis harmoniis discrevit. Ut scilicet
+        <lb ed="#Bb"/>unus divinas illuminationes participet
+        <lb ed="#Bb"/>altius quam alius. </quote> Et hoc probat
+      <lb ed="#Bb"/>ibidem per illud Isaiw, v1, 3: Ev, 
+      Sera<lb ed="#Bb" break="no"/>phim scilicet, elamabant alter ad 
+      allte<lb ed="#Bb" break="no"/>rum. Non cnim clamabant, nisi 
+      infun<lb ed="#Bb" break="no"/>dendo iluminationem: et ille ad quem
+      <lb ed="#Bb"/>clamabant, illuminationem accepit.
+      <lb ed="#Bb"/>Quarta connexio sive synagoga est
+      <lb ed="#Bb"/>illuminationum in eadem persona 
+      exi<lb ed="#Bb" break="no"/>stentium, habens commune ipsam 
+      illu<lb ed="#Bb" break="no"/>minationem quam accipit, et habens 
+      di<lb ed="#Bb" break="no"/>slinclionem in primum, medium, et 
+      ulti<lb ed="#Bb" break="no"/>mum in differentia iluminationis : que
+      <lb ed="#Bb"/>aliquando deiformior et altior est in 
+      cla<lb ed="#Bb" break="no"/>ritale luminis, quam vocat Dionysius
+      <lb ed="#Bb"/>illuminationem prime manifestationis :
+      <lb ed="#Bb"/>et aliquando media est minus deiformis
+      <lb ed="#Bb"/>et minus clari luminis, quam Dionysius
+      <lb ed="#Bb"/>vocat illuminationem secunde 
+      manife<lb ed="#Bb" break="no"/>stationis : aliquando infima est, capacitati
+      <lb ed="#Bb"/>anime rationalis proportionata, quam
+      <lb ed="#Bb"/>Dionysius vocat illuminationem tertiz
+      <lb ed="#Bb"/>manifestations. Et de hac in Celesti
+      <lb ed="#Bb"/>hierarchia dicit Dionysius sic : <quote xml:id="Almn78-e10729-Qd1e469"> 
+        Addi<lb ed="#Bb" break="no"/>derim autem fortassis et hoc non incon
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>grue: quia et secundum seipsum non
+        <lb ed="#Bb"/>incongrue unusquisque et ceelestis 
+        ani<lb ed="#Bb" break="no"/>mus et humanus speciales habet et 
+        pri<lb ed="#Bb" break="no"/>mas, et medias, et ullimas ordinationes
+        <lb ed="#Bb"/>et virtutes addictas per unumquemque
+        <lb ed="#Bb"/>hierarchiarum illuminationum proprias
+        <lb ed="#Bb"/>anagogas, hoc est, sursum ductiones !.</quote>
+               <lb ed="#Bb"/>Et adducit ibi Commentator illud 
+      Apo<lb ed="#Bb" break="no"/>stoli, ad Hebr. v, 12: Facti estis quibus
+      <lb ed="#Bb"/>lacte opus sit, non solido cibo. Et infra,
+      <lb ed="#Bb"/>y. 14: Perfectorum autem est solidus
+      <lb ed="#Bb"/>cibus : eorum qui pro consuetudine 
+      exer<lb ed="#Bb" break="no"/>citatos habent sensus ad discretionem
+      <lb ed="#Bb"/>boni ac mali. Appropriat enim 
+      commen<lb ed="#Bb" break="no"/>tum primas illuminationes solido cibo.
+      <lb ed="#Bb"/>Illuminationes vero secund# 
+      manifesta<lb ed="#Bb" break="no"/>tionis appropriat cibo communiter dicto,
+      <lb ed="#Bb"/>quo pascuntur proficientes non adhuc
+      <lb ed="#Bb"/>perfecti. Hluminationes vero tertie# 
+      ma<lb ed="#Bb" break="no"/>nifestationis appropriat lacti infantuli,
+      <lb ed="#Bb"/>scilicet doctrine : propter quod dicit
+      <lb ed="#Bb"/>Apostolus, I ad Corinth. 1, 1 et 2: Ht
+      <lb ed="#Bb"/>ego, fratres, non potui vobis logui quasi
+      <lb ed="#Bb"/>spiritualibus, sed quasi carnalibus :
+      <lb ed="#Bb"/>tamquam parvulis in Christo lae vobis
+      <lb ed="#Bb"/>potum dedi, non escam, nondum enim
+      <lb ed="#Bb"/>poteratis, scilicet intelligere. Et de 
+      per<lb ed="#Bb" break="no"/>fectis spiritualibus, ibidem dicit supra,
+      <lb ed="#Bb"/>u, Get 7: Sapientiam autem loquimur
+      <lb ed="#Bb"/>inter perfectos : sapientiam vero non 
+      hu<lb ed="#Bb" break="no"/>jus seculi, neque principum hujus
+      <lb ed="#Bb"/>seculi, qui destruuntur : sed loguimur
+      <lb ed="#Bb"/>Dei sapientiam in mysterio, que abscon~
+      <lb ed="#Bb"/>dita est.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

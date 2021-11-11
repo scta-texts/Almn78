@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="53"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a10251"><!-- p1t3q13 -->
+            <head xml:id="Almn78-a10251-Hd1e106">Quaestio 13</head>
+            <head xml:id="Almn78-a10251-Hd1e109" type="question-title">
+      De cognoscibilitate Dei
+    </head>
+            <p xml:id="Almn78-a10251-d1e112">
+               <pb ed="#Ba" n="53"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO XIII.
+<lb ed="#Ba"/>De cognoscibilitate Dei
+</p>
+            <div xml:id="Almn78-a10251-Dd1e123">
+               <head xml:id="Almn78-a10251-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-a10251-Hd1e128" type="question-title">
+        Utrum Deus sit cognoscibilis per
+        essentiam?
+      </head>
+               <p xml:id="Almn78-a10251-d1e131">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum Deus sit cognoscibilis per
+<lb ed="#Ba"/>essentiam?
+</p>
+               <p xml:id="Almn78-a10251-d1e142">
+                  <lb ed="#Ba"/>Circa primum videtur, quod Deus
+<lb ed="#Ba"/>non sit cognoscibilis.
+</p>
+               <p xml:id="Almn78-a10251-d1e149">
+                  <lb ed="#Ba"/>1. Dionysius in libro de Divinis 
+no<lb ed="#Ba" break="no"/>minibus : <quote xml:id="Almn78-a10251-Qd1e155"> Supersubstantialis 
+substan<lb ed="#Ba" break="no"/>tia Deus est, et intellectus non 
+intelli<lb ed="#Ba" break="no"/>gibilis, et verbum non dicibile, et 
+irra<lb ed="#Ba" break="no"/>tionabilitas, non intelligibilitas, 
+secun<lb ed="#Ba" break="no"/>dum nihil existentiam existens’, </quote> Unde
+<lb ed="#Ba"/>ibidem dicit, quod <quote xml:id="Almn78-a10251-Qd1e168"> ipsius Dei neque
+<lb ed="#Ba"/>sensus est, neque phantasia, neque
+<lb ed="#Ba"/>opinio, neque ratio, neque scientia. </quote>
+                  <lb ed="#Ba"/>lit ibidem, <quote xml:id="Almn78-a10251-Qd1e178"> Quem neque cogitare 
+pos<lb ed="#Ba" break="no"/>sibile est neque dicere, neque totaliter
+<lb ed="#Ba"/>aliquo modo contemplari propter
+<lb ed="#Ba"/>quod ab omnibus ipse est segregatus et
+<lb ed="#Ba"/>superignotus. </quote> Et ibidem, paulo post,
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e191"> Si melior est omni sermone et omni
+<lb ed="#Ba"/>cognitione, et super mentem 
+universa<lb ed="#Ba" break="no"/>liler et super substantiam collocatur :
+<lb ed="#Ba"/>oinnium quidem existens circumappre-
+<lb ed="#Ba" break="no"/>hensivus et comprehensivus et 
+preap<lb ed="#Ba" break="no"/>prehensivus : omnibus autem universa
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>liter est incomprehensibilis : neque 
+sen<lb ed="#Ba" break="no"/>sus ejus est, neque phantasia, neque
+<lb ed="#Ba"/>opinio, neque nomen, neque sermo,
+<lb ed="#Ba"/>neque tactus, neque scientia. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e217">
+                  <lb ed="#Ba"/>2. Adhuc, Chrysostomus super illud
+<lb ed="#Ba"/>Joannis,1, 18: Deum nemo vidit 
+um<lb ed="#Ba" break="no"/>quam, sic dicit : <quote xml:id="Almn78-a10251-Qd1e225">Ipsum quod est Deus,
+<lb ed="#Ba"/>non solum prophete, sed nec Angeli nec
+<lb ed="#Ba"/>Archangeli viderunt. Quod enim 
+crea<lb ed="#Ba" break="no"/>bilis est nature, qualiter videre poterit
+<lb ed="#Ba"/>quod est increabile? </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e237">
+                  <lb ed="#Ba"/>3, Adhuc, I ad Timoth. vi, 16: Quem
+<lb ed="#Ba"/>nullus hominum vidit, sed nec videre
+<lb ed="#Ba"/>potest.
+</p>
+               <p xml:id="Almn78-a10251-d1e246">
+                  <lb ed="#Ba"/>4. Adhuc, Dionysius ad Gaium 
+mo<lb ed="#Ba" break="no"/>nachum : <quote xml:id="Almn78-a10251-Qd1e252"> Qui dicit se vidisse Deum,
+<lb ed="#Ba"/>si cognovit quod vidit, non ipsum 
+vi<lb ed="#Ba" break="no"/>dit, sed aliquid eorum que sunt sub
+<lb ed="#Ba"/>ipso. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e262">
+                  <lb ed="#Ba"/>5. Adhuc, Damascenus : <quote xml:id="Almn78-a10251-Qd1e266"> Infinitus
+<lb ed="#Ba"/>est Deus et incomprehensibilis *, </quote> Cum
+<lb ed="#Ba"/>ergo omne quod cognoscitur, intellectu
+<lb ed="#Ba"/>cognoscentis comprehendatur, videtur
+<lb ed="#Ba"/>quod non cognoscibilis sit Deus.
+</p>
+               <p xml:id="Almn78-a10251-d1e278">
+                  <lb ed="#Ba"/>6. Adhuc, Augustinus in libro de
+<lb ed="#Ba"/>Videndo Deum ad Paulinam : <quote xml:id="Almn78-a10251-Qd1e284"> 
+Invisi<lb ed="#Ba" break="no"/>bilis est natura Deus, non tantum Pater,
+<lb ed="#Ba"/>sed et ipsa Trinitas, unus Deus*. </quote> Cum
+<lb ed="#Ba"/>ergo hoc sitei invisibile esse quod 
+in<lb ed="#Ba" break="no"/>cognoscibile, videtur quod 
+incognosci<lb ed="#Ba" break="no"/>bilis sit Deus.
+</p>
+               <p xml:id="Almn78-a10251-d1e299">
+                  <pb ed="#Ba" n="54"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>7. Adhuc, Augustinus in eodem
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e309"> Deum nemo vidit umquam, nec videri
+<lb ed="#Ba"/>potest, quoniam lucem habitat 
+inacces<lb ed="#Ba" break="no"/>sibilem ‘, et est natura invisibilis sicut
+<lb ed="#Ba"/>incorruptibilis :-et sicut incorruptibilis
+<lb ed="#Ba"/>nec postea corruptibilis, ita nom solum
+<lb ed="#Ba"/>nunc, sed etiam semper invisibilis®. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e324">
+                  <lb ed="#Ba"/>8. Adhuc, Cognoscentis et cogniti
+<lb ed="#Ba"/>proportio est, sicut recipientis et recepti.
+<lb ed="#Ba"/>Quod probatur per Aristotelem dicentem
+<lb ed="#Ba"/>in III de Anima, quod <quote xml:id="Almn78-a10251-Qd1e334"> intellectus 
+spe<lb ed="#Ba" break="no"/>cies acceptionis est. </quote> Infiniti autem
+<lb ed="#Ba"/>accipiendi ad finitum accipiens non est
+<lb ed="#Ba"/>proportio. Est autem intellectus creatus
+<lb ed="#Ba"/>finitus in potestate accipiendi : Deus
+‘autem infinitus per essentiam et 
+virtu<lb ed="#Ba" break="no"/>tem et omnia gue in ipso sunt. Ergo
+<lb ed="#Ba"/>videtur, quod ab intellectu creato nullo
+<lb ed="#Ba"/>modo accipitur, et per consequens non
+<lb ed="#Ba"/>cognoscitur.
+</p>
+               <p xml:id="Almn78-a10251-d1e356">
+                  <lb ed="#Ba"/>9. Adhuc, In nobis potentiae ordinate
+<lb ed="#Ba"/>sunt, ut dicit Avicenna in VI 
+Natura<lb ed="#Ba" break="no"/>lium. Est enim anima substantia, ut
+<lb ed="#Ba"/>dicit, a qua fluunt potentie quedam
+<lb ed="#Ba"/>conjuncte corpori, et quedam non
+<lb ed="#Ba"/>conjuncte. Et inter conjunctas corpori,
+<lb ed="#Ba"/>quedam immerse materi#, ut 
+operatio<lb ed="#Ba" break="no"/>nem non habeant nisi per qualitates
+<lb ed="#Ba"/>naturales et materiales, ut potenti 
+ve<lb ed="#Ba" break="no"/>getabiles. Quadam autem sic sunt 
+or<lb ed="#Ba" break="no"/>ganice, quia secundum complexionem
+<lb ed="#Ba"/>organi objecta recipiunt, sed 
+animali<lb ed="#Ba" break="no"/>ter et spiritualiter et non naturaliter
+<lb ed="#Ba"/>sive materialiter circa eadem 
+operan<lb ed="#Ba" break="no"/>tur. Rationalis autem anime 
+poten<lb ed="#Ba" break="no"/>tie nullo utuntur organo. In _ nobis
+<lb ed="#Ba"/>autem sic est, quod inferior 
+poten<lb ed="#Ba" break="no"/>tia numquam superiorem accipit, nec
+<lb ed="#Ba"/>operatur circa illam : sicut vegetabilis
+<lb ed="#Ba"/>non accipit sensibiles potentias, nec
+<lb ed="#Ba"/>sensibilis intellectuales. Cum ergo in
+<lb ed="#Ba"/>infinitum plus distat divina 
+substan<lb ed="#Ba" break="no"/>tia ab intellectu creato, quam 
+intelle<lb ed="#Ba" break="no"/>ctus creatus a sensibili, vel vegetabili,
+<lb ed="#Ba"/>videtur quod multo minus intellectus
+<lb ed="#Ba"/>creatus acceptabilis sit Dei, sive divine
+<lb ed="#Ba"/>substantiae, per locum a majori. Si au-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tem Deus ab intellectu creato 
+accepta<lb ed="#Ba" break="no"/>bilis non est, cognoscibilis non est. 
+Co<lb ed="#Ba" break="no"/>gnoscere enim est accipere per 
+intelle<lb ed="#Ba" break="no"/>cium, vel sensum.,
+</p>
+               <p xml:id="Almn78-a10251-d1e428">
+                  <lb ed="#Ba"/>In contrarium est quod dicitur,
+<lb ed="#Ba"/>4. Ad Roman, 1, 19 : Quod notum
+<lb ed="#Ba"/>est Dei, manifestum est in illis. 
+Glos<lb ed="#Ba" break="no"/>sa, Id est, quod in Deo ductu rationis
+<lb ed="#Ba"/>cognoscibile est. Ac si dicat : In se 
+ha<lb ed="#Ba" break="no"/>beut Philosophi unde possunt 
+cogno<lb ed="#Ba" break="no"/>scere quod de Deo cognoscibile est..,
+</p>
+               <p xml:id="Almn78-a10251-d1e446">
+                  <lb ed="#Ba"/>2. Adhuc, Sapient. xm, 1: De his
+<lb ed="#Ba"/>que videntur bona non potuerunt 
+intel<lb ed="#Ba" break="no"/>ligere eum qui est : neque operibus
+<lb ed="#Ba"/>attendentes, agnoverunt quis esset 
+ar<lb ed="#Ba" break="no"/>tifex. Quasi dicat Hoc est 
+inconve<lb ed="#Ba" break="no"/>niens. Et paulo post, ¥. 5 : A 
+magnitu<lb ed="#Ba" break="no"/>dine enim speciei et creature 
+cognosci<lb ed="#Ba" break="no"/>biliter poterit creator horum videri.
+</p>
+               <p xml:id="Almn78-a10251-d1e466">
+                  <lb ed="#Ba"/>3. Adhuc, Ad Roman. 1, 20 : 
+Invisi<lb ed="#Ba" break="no"/>bilia ipsius, scilicet Dei, a creatura 
+mun<lb ed="#Ba" break="no"/>di, per ea que facta sunt, intellecta,
+<lb ed="#Ba"/>conspiciuntur : sempiterna quoque ejus
+<lb ed="#Ba"/>virtus, ef divinitas.
+</p>
+               <p xml:id="Almn78-a10251-d1e479">
+                  <lb ed="#Ba"/>4. Adhuc, Hugo de sancto Victore in
+<lb ed="#Ba"/>Prologo super ccelestem hierarchiam
+<lb ed="#Ba"/>Dionysii : <quote xml:id="Almn78-a10251-Qd1e487"> Natura ad servitutem 
+con<lb ed="#Ba" break="no"/>dita, creatorem suum demonstravit. </quote>
+                  <lb ed="#Ba"/>Si autem demonstravit natura, 
+conside<lb ed="#Ba" break="no"/>rans naturam intelligere potuit.
+</p>
+               <p xml:id="Almn78-a10251-d1e499">
+                  <lb ed="#Ba"/>3, Adhuc, Augustinus in libro 
+Sol<lb ed="#Ba" break="no"/>loquiorum : <quote xml:id="Almn78-a10251-Qd1e505"> Intelligibilis est Deus,
+<lb ed="#Ba"/>intelligibilia sunt scientiarum 
+specta<lb ed="#Ba" break="no"/>mina, principia scilicet et conclusiones :
+<lb ed="#Ba"/>sed differunt plurimum. Nam terra 
+visi<lb ed="#Ba" break="no"/>bilis est et lux : sed terra nisi luce 
+illu<lb ed="#Ba" break="no"/>strata videri non potest. Similiter 
+dis<lb ed="#Ba" break="no"/>ciplinarum spectamina videri non’ 
+pos<lb ed="#Ba" break="no"/>sunt, nisi aliquo videlicet suo sole 
+illu<lb ed="#Ba" break="no"/>strentur. </quote> Deus ergo visibilis est per
+<lb ed="#Ba"/>intellectum, et cognoscibilis.
+</p>
+               <p xml:id="Almn78-a10251-d1e528">
+                  <lb ed="#Ba"/>6. Per rationem etiam objicitur : 
+Di<lb ed="#Ba" break="no"/>cunt enim Aristoteles et Averrores, quod
+<lb ed="#Ba"/>intelligibile quod omnis homo natura
+<lb ed="#Ba"/>scire desiderat, intellectus divinus est :
+<lb ed="#Ba"/>eo quod sicut causa est omnis rei, ita
+<lb ed="#Ba"/>lumen est faciens intelligibile quidquid
+<pb ed="#Ba" n="55"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>intelligitur. Cum ergo non sit inane 
+de<lb ed="#Ba" break="no"/>siderium, ut dicit Aristoteles in primo
+<lb ed="#Ba"/>Ethicorum, oportet quod naturali 
+co<lb ed="#Ba" break="no"/>gnitione per naturalem intellectum 
+ho<lb ed="#Ba" break="no"/>minis Deus et intellectus divinus 
+co<lb ed="#Ba" break="no"/>gnosci possit.
+</p>
+               <p xml:id="Almn78-a10251-d1e561">
+                  <lb ed="#Ba"/>7. Adhuc, Quidam objiciunt, quod
+<lb ed="#Ba"/>sicut se habet affectiva ad bonum, ita se
+<lb ed="#Ba"/>habet intellectiva ad verum: sed 
+affe<lb ed="#Ba" break="no"/>ctiva per amorem conjungitur summo
+<lb ed="#Ba"/>bono et attingit ipsum : ergo intellectiva
+<lb ed="#Ba"/>cognoscendo attingit summum verum,
+<lb ed="#Ba"/>quod est Deus.
+</p>
+               <p xml:id="Almn78-a10251-d1e579">
+                  <lb ed="#Ba"/>Ad hoc dixerunt Joan. Scotus et Joan.
+<lb ed="#Ba"/>Sarracenus in commentis super 
+Ccele<lb ed="#Ba" break="no"/>stem hierarchiam Dionysii,quod creatus
+<lb ed="#Ba"/>intellectus non potest in Deum 
+cogno<lb ed="#Ba" break="no"/>scendo, nisi in theoriis et theophaniis :
+<lb ed="#Ba"/>theorias lumina respersa in creaturis
+<lb ed="#Ba"/>appellantes per modum vestigii, vel
+<lb ed="#Ba"/>imaginis, vel signi: theophanias autem,
+<lb ed="#Ba"/>lumina intellectualia per influentias a
+<lb ed="#Ba"/>Deo in Angelos descendentia, et 
+incir<lb ed="#Ba" break="no"/>cumscriptum lumen quod Deus est,
+<lb ed="#Ba"/>quantum possibile est, manifestantia.
+<lb ed="#Ba"/>Contra quod dicit Hugo de Sancto 
+Vi<lb ed="#Ba" break="no"/>ctore in suo commento super Ceelestem
+<lb ed="#Ba"/>hierarchiam : <quote xml:id="Almn78-a10251-Qd1e613"> Quid est in theoriis et
+<lb ed="#Ba"/>theophaniis Deum videre, et sine theoriis
+<lb ed="#Ba"/>ct theophaniis Deum non videre, nisi
+<lb ed="#Ba"/>Doum ut est numquam videre, cum nec
+<lb ed="#Ba"/>theoria, nec theophania Deus sit. Tollant
+<lb ed="#Ba"/>ergo theorias et theophanias quia
+<lb ed="#Ba"/>sicut non facti sumus nisi immediate ab
+<lb ed="#Ba"/>ipso, ita non sistet nos aliquid usque ad
+<lb ed="#Ba"/>ipsum, dicente Joanne in | canon. 1m,
+<lb ed="#Ba"/>2: Videbimus eum sicuti est. Joan.
+<lb ed="#Ba"/>xiv, 21 : Ego diligam eum, et 
+mani<lb ed="#Ba" break="no"/>festabo ei meipsum. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e640">
+                  <lb ed="#Ba"/>Adhuc, Videtur Augustinus 
+respon<lb ed="#Ba" break="no"/>dere in libro de Videndo Deum ad 
+Pau<lb ed="#Ba" break="no"/>linam,sic : <quote xml:id="Almn78-a10251-Qd1e648"> Si queris utrum Deus 
+vide<lb ed="#Ba" break="no"/>ri possit ? Respondeo : Potest. Si 
+qua<lb ed="#Ba" break="no"/>ris, unde hoc sciam ? Respondeo : quia
+<lb ed="#Ba"/>in verissima Scriptura legitur : Beati
+<lb ed="#Ba"/>mundo corde, guoniam ipsi Deum vi
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>debunt. Si queris, quomodo dictus
+<lb ed="#Ba"/>invisibilis sit Deus, si videri possit?
+<lb ed="#Ba"/>Respondeo : Invisibilis est natura : 
+vi<lb ed="#Ba" break="no"/>deri autem potest cum vult, et sicut
+<lb ed="#Ba"/>vult. </quote> Hee autem solutio mirabilis esse
+<lb ed="#Ba"/>videtur. Innuitur enim, quod non 
+videa<lb ed="#Ba" break="no"/>tur per naturam, séd vel in specie
+<lb ed="#Ba"/>assumpta qua vult, et quando vult
+<lb ed="#Ba"/>vel in effectu nature, vel gratie, vel
+<lb ed="#Ba"/>gloria, in quo resplendet : et hoc est
+<lb ed="#Ba"/>vel symbolice, vel in theoriis, vel 
+theo<lb ed="#Ba" break="no"/>phaniis videre. Et hoc non queritur, sed
+<lb ed="#Ba"/>an natura per intellectum creatum 
+co<lb ed="#Ba" break="no"/>gnoscibilis sit, ita quod immediate 
+in<lb ed="#Ba" break="no"/>tellectus figatur in ipso sicut oculus in
+<lb ed="#Ba"/>suo visibili?
+</p>
+               <p xml:id="Almn78-a10251-d1e697">
+                  <lb ed="#Ba"/>Soxutio. Dicendum, quod aliud est
+<lb ed="#Ba"/>contingere per intellectum, et diffundi
+<lb ed="#Ba"/>in intelligibili : et aliud est capere sive
+<lb ed="#Ba"/>comprehendere intelligibile. Et hujus
+<lb ed="#Ba"/>similitudinem dat Chrysostomus * super
+<lb ed="#Ba"/>illud: In principio erat Verbum?®, 
+di<lb ed="#Ba" break="no"/>cens, quod <quote xml:id="Almn78-a10251-Qd1e714"> visus corporeus qui est in
+<lb ed="#Ba"/>oculo quando est in littore maris, littus
+<lb ed="#Ba"/>terminans mare comprehendit : remotus
+<lb ed="#Ba"/>autem a littore, in ipsa maris superficie
+<lb ed="#Ba"/>figitur, et in infinitate sua diffunditur
+<lb ed="#Ba"/>nihil videns quod pelagi terminat im-
+<lb ed="#Ba" break="no"/>mensitatem. Et sic fecit Evangelista, nos
+<lb ed="#Ba"/>undique removens a creatis, et in 
+divi<lb ed="#Ba" break="no"/>nam immensitatem inducens, ipsam 
+im<lb ed="#Ba" break="no"/>materiali oculo contemplans et in ea
+<lb ed="#Ba"/>se diffundens, cum dixit : Jn principio
+<lb ed="#Ba"/>erat Verbum. Non enim determinatur
+<lb ed="#Ba"/>quid vel quale principium, quid vel quale
+<lb ed="#Ba"/>Verbum, quid vel qualis Deus : et sic 
+re<lb ed="#Ba" break="no"/>linguit nos in infinitate. </quote> Hoc autem
+<lb ed="#Ba"/>probatur sic per Dionysium-: <quote xml:id="Almn78-a10251-Qd1e749"> Non
+<lb ed="#Ba"/>cognoscimus Deum nisi symbolice, vel
+<lb ed="#Ba"/>mystice. Symbolice noscimus 
+proprie<lb ed="#Ba" break="no"/>tatem Dei proportione proprietatis 
+cor<lb ed="#Ba" break="no"/>pores. Et cum in infinitum emineat 
+pro<lb ed="#Ba" break="no"/>prietas divina proprietatibus creatis,
+<lb ed="#Ba"/>procedendo symbolice stamus in 
+infini<lb ed="#Ba" break="no"/>to, et diffundimur in illo, nullum ter
+<pb ed="#Ba" n="56"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>minum comprehendentes. Mystice autem
+<lb ed="#Ba"/>procedimus in Deum per eminentiam.
+<lb ed="#Ba"/>Mystica enim sunt, que per se et primo
+<lb ed="#Ba"/>Deo conveniunt, per aliud autem et
+<lb ed="#Ba"/>secundario creaturis, ut essentia, vita,
+<lb ed="#Ba"/>et intellectus, que nobis non 
+innote<lb ed="#Ba" break="no"/>scunt nisi secundum quod sunt increatis
+<lb ed="#Ba"/>genere. vel specie vel numero : et 
+se<lb ed="#Ba" break="no"/>cundum hoc esse non conveniunt Deo,
+<lb ed="#Ba"/>sed eminenter et excellenter in 
+infini<lb ed="#Ba" break="no"/>tum. Sicut si dicam, Deus est essentia :
+<lb ed="#Ba"/>et statim illud potentius nego, dicens :
+<lb ed="#Ba"/>non est essentia : eo quod non est
+<lb ed="#Ba"/>essentia prout nobis essentia imnotuit
+<lb ed="#Ba"/>genere vel specie vel numero : et
+<lb ed="#Ba"/>postea infero: est essentia super 
+om<lb ed="#Ba" break="no"/>nem essentiam, nec dicere possum quan-
+{um est super omnem essentiam :
+<lb ed="#Ba"/>eo quod intellectus resolutorius non
+<lb ed="#Ba"/>potest pervenire in aliquod primum
+<lb ed="#Ba"/>quod non sit de essentia resolutorum
+<lb ed="#Ba"/>et immixtum eis : Deus autem nihil
+<lb ed="#Ba"/>creatorum est, sed eminet omnibus 
+ex<lb ed="#Ba" break="no"/>cellenter in infinitum : et ideo iterum
+<lb ed="#Ba"/>intellectus sic procedens, stat in infinito
+<lb ed="#Ba"/>et d'ffunditur in illo. </quote> Et hoc est quod
+<lb ed="#Ba"/>in primo Celi et mundi dicit 
+Philoso<lb ed="#Ba" break="no"/>phus : <quote xml:id="Almn78-a10251-Qd1e830"> Adhibuimus nosipsos 
+magnifi<lb ed="#Ba" break="no"/>care Deum gloriosum, eminentem 
+pro<lb ed="#Ba" break="no"/>prietatibus eorum que sunt creata. </quote>
+                  <lb ed="#Ba"/>Et quod dicitur in libro de Causis :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e841"> Causa prima est super omne nomen
+<lb ed="#Ba"/>quod nominatur : quoniam non 
+perti<lb ed="#Ba" break="no"/>net ei diminutio. </quote> Et hac est 
+proposi<lb ed="#Ba" break="no"/>tio vigesima prima: et in hac 
+proposi<lb ed="#Ba" break="no"/>tione dicit : <quote xml:id="Almn78-a10251-Qd1e853"> Causa prima superior est
+<lb ed="#Ba"/>narratione <!-- end quotation unclear --></quote>: et ideo deficiunt lingue a
+<lb ed="#Ba"/>narratione ejus, nisi esse dicamus 
+nar<lb ed="#Ba" break="no"/>rationem ejus, quoniam ipsa est super
+<lb ed="#Ba"/>omnem causam : et non narratur nisi
+<lb ed="#Ba"/>per causas secundas, que illuminantur
+<lb ed="#Ba"/>lumine prime cause.
+</p>
+               <p xml:id="Almn78-a10251-d1e872">
+                  <lb ed="#Ba"/>Dicimus ergo, quod notitia 
+intelle<lb ed="#Ba" break="no"/>ctus creati et humani Deus et substantia
+<lb ed="#Ba"/>divina attingitur per simplicem 
+intui<lb ed="#Ba" break="no"/>tum, et diffunditur intellectus in “ipso
+<lb ed="#Ba"/>per intuitionis considerationem, sed non
+<lb ed="#Ba"/>capitur per comprehensionem. Et hoc
+<lb ed="#Ba"/>vult dicere Augustinus in libro de Viden-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>do Deum ad Paulinam : <quote xml:id="Almn78-a10251-Qd1e893"> Videre Deum
+<lb ed="#Ba"/>possum, comprehendere vero minine. </quote>
+                  <lb ed="#Ba"/>Visio enim simplici intuitu. mentis 
+per<lb ed="#Ba" break="no"/>ficitur. Comprehenditur autem, cujus
+<lb ed="#Ba"/>fines circumspiciuntur. Comprehensio
+<lb ed="#Ba"/>enim est contactus intellectus super 
+ter<lb ed="#Ba" break="no"/>minos rei. Hoc est quod etiam dicit
+<lb ed="#Ba"/>Apuleius in libro de Deo Socratis, 
+in<lb ed="#Ba" break="no"/>ducens Platonem sic dicentem : <quote xml:id="Almn78-a10251-Qd1e914"> Plato
+<lb ed="#Ba"/>ceelesti facundia preditus, hunc solum
+<lb ed="#Ba"/>Deum, scilicet deorum, majestatis 
+incre<lb ed="#Ba" break="no"/>dibilis quadam ineffabili nimietate non
+<lb ed="#Ba"/>posse sermonis humani quavis oratione
+<lb ed="#Ba"/>vel modice comprehendi, sed vix a 
+sa<lb ed="#Ba" break="no"/>pientibus viris, cum se vigore animi
+<lb ed="#Ba"/>quantum licuit a corpore removerunt,
+<lb ed="#Ba"/>accipit intellectum hujus Dei. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e935">
+                  <lb ed="#Ba"/>Et per hoc fere ad omnia patet 
+so<lb ed="#Ba" break="no"/>lutio.
+</p>
+               <p xml:id="Almn78-a10251-d1e942">
+                  <lb ed="#Ba"/>Auctoritates enim que dicunt eum
+<lb ed="#Ba"/>incognoscibilem esse, loquuntur de 
+co<lb ed="#Ba" break="no"/>gnitione certa et finita, que est 
+cogni<lb ed="#Ba" break="no"/>tio comprehensionis. Et hoc modo dicit
+<lb ed="#Ba"/>Isidorus, quod <quote xml:id="Almn78-a10251-Qd1e955"> Trinitas sibi soli nota
+<lb ed="#Ba"/>est, et homini assumptio : quia ille 
+ve<lb ed="#Ba" break="no"/>rus Deus est. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e963">
+                  <lb ed="#Ba"/>Auctoritates in oppositum adducte,
+<lb ed="#Ba"/>de visione simplicis intuitionis 
+loquun<lb ed="#Ba" break="no"/>tur, et de diffusione intellectus in 
+infini<lb ed="#Ba" break="no"/>to, quod per intellectum finiri non 
+pot<lb ed="#Ba" break="no"/>est: cum dicat Anselmus in Prosologio,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a10251-Qd1e978"> Deus secundum que in Deo
+<lb ed="#Ba"/>sunt, majus aliud est quam intelligi
+<lb ed="#Ba"/>possit. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e986">
+                  <lb ed="#Ba"/>Quop autem objicilur quod Boetius
+<lb ed="#Ba"/>dicit, quod <quote xml:id="Almn78-a10251-Qd1e992"> omne quod intelligitur, ab
+<lb ed="#Ba"/>intelligente comprehenditur. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e998">
+                  <lb ed="#Ba"/>Dicendum, quod duplex est 
+compre<lb ed="#Ba" break="no"/>hensio. Una est motus qui comprehendit
+<lb ed="#Ba"/>terminum, in quo est in motum esse,
+<lb ed="#Ba"/>quando contingit. Alia est comprehensio
+<lb ed="#Ba"/>vasis, quando totum claudit quod est
+<lb ed="#Ba"/>in vase, ita quod nihil sui est extra
+<lb ed="#Ba"/>ipsum. Et primo modo intellectus 
+in<lb ed="#Ba" break="no"/>telligit et comprehendit intelligibile in
+<lb ed="#Ba"/>quod finaliter tendit, quando contingit
+<lb ed="#Ba"/>ipsum per simplicem visionem : et hoc
+<lb ed="#Ba"/>modo loquitur Boetius. Secundo autem
+<lb ed="#Ba"/>modo non comprehendit quando eum
+<pb ed="#Ba" n="57"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>capit : non enim totum capit et claudit :
+<lb ed="#Ba"/>quia finitum non potest capere illud
+<lb ed="#Ba"/>quod est infinitum.
+</p>
+               <p xml:id="Almn78-a10251-d1e1038">
+                  <lb ed="#Ba"/>Ad 11Lup quod objicitur de 
+Philoso<lb ed="#Ba" break="no"/>pho, quod <quote xml:id="Almn78-a10251-Qd1e1044"> intellectus Dei desideratus
+<lb ed="#Ba"/>est ab omnibus hominibus sciri.</quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e1050">
+                  <lb ed="#Ba"/>Dicendum, quod hoc est verum. Ille
+<lb ed="#Ba"/>enim maxime intelligibilis est, et omnis
+<lb ed="#Ba"/>intellectus et intelligibilitatis causa, et in
+<lb ed="#Ba"/>omni intelligibili attingitur : sicut lumen
+<lb ed="#Ba"/>quod est actus visibilium,’ attingitur in
+<lb ed="#Ba"/>omni visibili per visum. Sicut tamen 
+lu<lb ed="#Ba" break="no"/>men secundum immensitatem quam 
+ha<lb ed="#Ba" break="no"/>bet in rota solis, et secundum 
+immensi<lb ed="#Ba" break="no"/>tatem potestatis qua omnia visibilia 
+com<lb ed="#Ba" break="no"/>prehendere potest, non potest capi vel
+<lb ed="#Ba"/>comprehendi a visu: ita nec intellectus
+<lb ed="#Ba"/>divinus secundum excellentiam qua’ 
+ex<lb ed="#Ba" break="no"/>cellit in seipso, et secundum potestatem
+<lb ed="#Ba"/>qua illustrare potest super omnia etiam
+<lb ed="#Ba"/>super infinita intelligibilia, capi vel 
+com<lb ed="#Ba" break="no"/>prehendi potest ab intellectu creato.
+</p>
+               <p xml:id="Almn78-a10251-d1e1087">
+                  <lb ed="#Ba"/>Ad id quod objicitur, quod inferior
+<lb ed="#Ba"/>potentia non capit superiorem in nobis.
+</p>
+               <p xml:id="Almn78-a10251-d1e1094">
+                  <lb ed="#Ba"/>Dicendum, quod locus a majori 
+sup<lb ed="#Ba" break="no"/>ponit similitudinem: et hoc deficit in
+<lb ed="#Ba"/>argumento. Inferiores enim potentiae 
+ma<lb ed="#Ba" break="no"/>teriales sunt: et ideo immateriale non
+<lb ed="#Ba"/>accipiunt, nec circa ipsum operantur. 
+In<lb ed="#Ba" break="no"/>tellectus autem immaterialis est sicut et
+<lb ed="#Ba"/>Deus: et ideo inferior sicut et superior ad
+<lb ed="#Ba"/>idem intelligibile habent proportionem,
+<lb ed="#Ba"/>quamvis non eamdem secundum 
+capa<lb ed="#Ba" break="no"/>citatem comprehensionis.
+</p>
+            </div>
+            <div xml:id="Almn78-a10251-Dd1e1119">
+               <head xml:id="Almn78-a10251-Hd1e1121">Membrum 2</head>
+               <head xml:id="Almn78-a10251-Hd1e1124" type="question-title">
+  Utrum Deus secundum immensitatem
+  suam sit cognoscibilis ?
+</head>
+               <p xml:id="Almn78-a10251-d1e1127">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum Deus secundum immensitatem
+<lb ed="#Ba"/>suam sit cognoscibilis ?
+</p>
+               <p xml:id="Almn78-a10251-d1e1136">
+                  <lb ed="#Ba"/>Secundo queritur, An Deus secundum
+<lb ed="#Ba"/>immensitatem suam sit cognoscibilis ?
+</p>
+               <p xml:id="Almn78-a10251-d1e1143">
+                  <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Super illud epist. ad Roman. 1, 20:
+<lb ed="#Ba"/>Invisibilia ipsius, scilicet Dei, dicit
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Glossa : <quote xml:id="Almn78-a10251-Qd1e1156"> Tam pulchra astra condidit, ut
+<lb ed="#Ba"/>ex his quantus et quam mirabilis sit
+<lb ed="#Ba"/>creator eorum, possit cognosci. </quote> Si 
+au<lb ed="#Ba" break="no"/>tem cognoscitur quantus, cum sit 
+infini<lb ed="#Ba" break="no"/>tus, in immensitate sua cognoscitur.
+</p>
+               <p xml:id="Almn78-a10251-d1e1169">
+                  <lb ed="#Ba"/>2. Adhuc, Ad Ephes. um, 18 et 19: Ué
+<lb ed="#Ba"/>possitis comprehendere cum omnibus
+<lb ed="#Ba"/>sanetis, que sit latitudo, et longitudo,
+<lb ed="#Ba"/>et sublimitas, et profundum : scire etiam
+<lb ed="#Ba"/>supereminentem  sctentie  charitatem
+<lb ed="#Ba"/>Christi, ut impleamini in omnem 
+pleni<lb ed="#Ba" break="no"/>tudinem Dei. Cum autem plenitudo Dei
+<lb ed="#Ba"/>sit infinita, videtur quod in sua infinitate
+<lb ed="#Ba"/>Deus cognoscatur.
+</p>
+               <p xml:id="Almn78-a10251-d1e1191">
+                  <lb ed="#Ba"/>3. Adhuc, Infinitum si ratione 
+infini<lb ed="#Ba" break="no"/>tatis videatur, hoc est, in quantum est
+<lb ed="#Ba"/>infinitum, infinitas ejus tota videtur.
+<lb ed="#Ba"/>Deus autem infinitus esse cognoscitur.
+<lb ed="#Ba"/>Ergo in infinitate sua cognoscitur. ;
+</p>
+               <p xml:id="Almn78-a10251-d1e1204">
+                  <lb ed="#Ba"/>4, Adhuc, In Deo non est pars et pars,
+<lb ed="#Ba"/>sed unum totum simplex: ergo qui 
+ali<lb ed="#Ba" break="no"/>quid Dei videt, totum videt: totum 
+au<lb ed="#Ba" break="no"/>tem infinitum est: ergo videtur, quod in
+<lb ed="#Ba"/>infinitate sua videatur.
+</p>
+               <p xml:id="Almn78-a10251-d1e1217">
+                  <lb ed="#Ba"/>5. Adhuc, Joan. xv, 15: Omnia 
+que<lb ed="#Ba" break="no"/>cumque audivi a Patre meo, nota feci
+<lb ed="#Ba"/>vobis. Omnia autem infinita sunt: et 
+au<lb ed="#Ba" break="no"/>direa Patre, ut dicit Augustinus, est
+<lb ed="#Ba"/>esse a Patre.
+</p>
+               <p xml:id="Almn78-a10251-d1e1230">
+                  <lb ed="#Ba"/>6. Adhuc, Omnia in Deo unum sunt,
+<lb ed="#Ba"/>et idem est infinitas quod essentia vel 
+ve<lb ed="#Ba" break="no"/>ritas: qui ergo unum in Deo videt, 
+im<lb ed="#Ba" break="no"/>mensitatem videt.
+</p>
+               <p xml:id="Almn78-a10251-d1e1241">
+                  <lb ed="#Ba"/>In contrarium est,
+<lb ed="#Ba"/>1. Quod dicit Ambrosius super Lucam,
+<lb ed="#Ba"/>cap. 1, in originali: <quote xml:id="Almn78-a10251-Qd1e1249"> Eam que habitat
+<lb ed="#Ba"/>in Deo plenitudinem divinitatis, nemo
+<lb ed="#Ba"/>conspexit, nemo mente aut oculis 
+com<lb ed="#Ba" break="no"/>prehendit. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e1260">
+                  <lb ed="#Ba"/>2, Adhuc, Boetius: <quote xml:id="Almn78-a10251-Qd1e1264"> Omne quod 
+sci<lb ed="#Ba" break="no"/>tur, comprehensione intellectus 
+determi<lb ed="#Ba" break="no"/>natur. </quote> Si ergo infinitas Dei scitur,
+<lb ed="#Ba"/>comprehensione intellectus determinatur,
+<lb ed="#Ba"/>et ita comprehenditur. Hoe autem in 
+an<lb ed="#Ba" break="no"/>tedictis improbatum est : quia infinitum
+<lb ed="#Ba"/>finito capi non potest, neque mensurari.
+</p>
+               <p xml:id="Almn78-a10251-d1e1281">
+                  <lb ed="#Ba"/>Solutio. Ad hoc solvere non est 
+dif<lb ed="#Ba" break="no"/>ficile supponendo dictum Aristoteles in
+<pb ed="#Ba" n="58"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>VI Ethicorum, et Boetii, quod 
+quecum<lb ed="#Ba" break="no"/>que sunt in aliquo sicut in suscipiente et
+<lb ed="#Ba"/>subjecto, sunt in eo secundum 
+possibili<lb ed="#Ba" break="no"/>tatem suscipientis, et non suscepti. Unde
+<lb ed="#Ba"/>susceptibile infinitum in suscipiente non
+<lb ed="#Ba"/>est secundum potentiam infiniti, sed 
+se<lb ed="#Ba" break="no"/>cundum possibilitatis capacitatem 
+susci<lb ed="#Ba" break="no"/>pientis finiti. ;
+</p>
+               <p xml:id="Almn78-a10251-d1e1310">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod cum
+<lb ed="#Ba"/>dicitur, quod tam pulchra astra fecit,
+<lb ed="#Ba"/>unde possit cognosci quantus sit, intelli-
+<lb ed="#Ba" break="no"/>gitur quod cognoscitur infinitus : sed non
+<lb ed="#Ba"/>est hoc per capacitatem infiniti, sed per
+<lb ed="#Ba"/>rationem eminenti#, quia in infinitum
+<lb ed="#Ba"/>excedit id quod fecit : et hoc est 
+cogno<lb ed="#Ba" break="no"/>scere quia infinitum est.Et hoc est, sicut
+<lb ed="#Ba"/>dictum est, attingere infinitum, et 
+dif<lb ed="#Ba" break="no"/>fundi in ipso, et non comprehendere.
+</p>
+               <p xml:id="Almn78-a10251-d1e1334">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum impleri
+<lb ed="#Ba"/>sanctos secundum plenitudinem Dei 
+di<lb ed="#Ba" break="no"/>cit‘, notat plenitudinem eorum 
+secun<lb ed="#Ba" break="no"/>dum capacitatem uniuscujusque, et non
+<lb ed="#Ba"/>notat cognitionem Dei implentis, ita
+<lb ed="#Ba"/>quod scilicet nihil in sanctis vacuum Deo
+<lb ed="#Ba"/>remaneat : tamen nullus eorum 
+infinita<lb ed="#Ba" break="no"/>tem Dei capere potest.
+</p>
+               <p xml:id="Almn78-a10251-d1e1354">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod infinitum
+<lb ed="#Ba"/>sub ratione infinitatis per intuitum 
+men<lb ed="#Ba" break="no"/>tis videtur, et quia infinitum est: sed
+<lb ed="#Ba"/>non ita ratione infinitatis videtur, quod
+<lb ed="#Ba"/>infinita sit ratio videndi ipsum: quia 
+in<lb ed="#Ba" break="no"/>finitas non potest esse ratio videndi 
+ali<lb ed="#Ba" break="no"/>quid in eo quod finitum est : sed potius
+<lb ed="#Ba"/>id quod infinitum est videtur, et per 
+com<lb ed="#Ba" break="no"/>parationem ejus ad hoc cognoscitur esse
+<lb ed="#Ba"/>infinitum, eo quod in infinitum excedit.
+<lb ed="#Ba"/>Et talis visio incipit ab eo quod infinitum
+<lb ed="#Ba"/>est in se, finitum autem huic, et secun-
+<lb ed="#Ba" break="no"/>dum hoc etiam terminatur in infinitum.
+<lb ed="#Ba"/>Ad aliud dicendum, quod quamvis in
+<lb ed="#Ba"/>primo infinito simplici-non sit pars et
+<lb ed="#Ba"/>pars: tamen est attributum et 
+attribu<lb ed="#Ba" break="no"/>tum, notatum et connotatum: et ideo
+<lb ed="#Ba"/>quoad aliquid vel ad aliquid percipitur
+<lb ed="#Ba"/>relatum, et non prout est ad omnia et
+<lb ed="#Ba"/>infinitum. Simplex enim licet substantia
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>liter simplex sit, tamen virtute et 
+rela<lb ed="#Ba" break="no"/>tione multiplex est: eo quod multorum
+<lb ed="#Ba"/>productivum est, et ad multa relatum :
+<lb ed="#Ba"/>que relationes in relatis ad ipsum sunt
+<lb ed="#Ba"/>realiter, et non in ipso, nisi secundum
+<lb ed="#Ba"/>rationem ; et ideoea ratione qua refertur
+<lb ed="#Ba"/>ad unum, non refertur ad alterum: et
+<lb ed="#Ba"/>potest cognosci prout refertur ad unum
+<lb ed="#Ba"/>vel ad quedam, absque eo quod 
+nosca<lb ed="#Ba" break="no"/>tur prout refertur ad omnia et infinita.
+</p>
+               <p xml:id="Almn78-a10251-d1e1424">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum dicitur:
+<lb ed="#Ba"/>Omnia quecumque audivi a Patre meo,
+<lb ed="#Ba"/>accommodata est distributio, ut sic 
+in<lb ed="#Ba" break="no"/>telligatur: Omnia quecumque audivi,
+<lb ed="#Ba"/>vobis, hoc est, ad utilitatem vestram,
+<lb ed="#Ba"/>nota feci vobis: ut hoc pronomen, vobdis,
+<lb ed="#Ba"/>dativi casus sit, et ex vi acquisitionis
+<lb ed="#Ba"/>construatur cum hoc verbo audivi ; et sic
+<lb ed="#Ba"/>nihil sequitur inconveniens.
+</p>
+               <p xml:id="Almn78-a10251-d1e1447">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod talis modus
+<lb ed="#Ba"/>arguendi non valet in divinis : quia licet
+<lb ed="#Ba"/>omnia in Deo idem sint, tamen cum
+<lb ed="#Ba"/>multa sunt attributa, connotatum unius
+<lb ed="#Ba"/>non est connotatum alterius: et ratio
+<lb ed="#Ba"/>relativorum significata per unum, non
+<lb ed="#Ba"/>est ratio relativorum significata per 
+alte<lb ed="#Ba" break="no"/>rum: et ideo quoad unum potest 
+cogno<lb ed="#Ba" break="no"/>sci,et non quoad alterum.
+</p>
+            </div>
+            <div xml:id="Almn78-a10251-Dd1e1471">
+               <head xml:id="Almn78-a10251-Hd1e1473">Membrum 3</head>
+               <head xml:id="Almn78-a10251-Hd1e1476" type="question-title">
+  Utrum Deus cognoscibilis sit secundum
+  quod est unus Deus in tribus 
+  personis
+</head>
+               <p xml:id="Almn78-a10251-d1e1479">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Utrum Deus cognoscibilis sit secundum
+<lb ed="#Ba"/>quod est unus Deus in tribus 
+perso<lb ed="#Ba" break="no"/>nis ?
+</p>
+               <p xml:id="Almn78-a10251-d1e1490">
+                  <lb ed="#Ba"/>Tertio quaeritur, An cognoscibilis sit
+<lb ed="#Ba"/>secundum quod est unus Deus in tribus
+<lb ed="#Ba"/>personis ?
+</p>
+               <p xml:id="Almn78-a10251-d1e1499">
+                  <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>4. Ad Roman. 1, 20: Invisibilia 
+ip<lb ed="#Ba" break="no"/>sius, scilicet Dei, perea gue facta sunt,
+<lb ed="#Ba"/>intellecta, conspiciuntur, etc. Ibi Glossa,
+<pb ed="#Ba" n="59"/>
+                  <cb ed="#Ba" n="a"/>
+                  <cb ed="#Ba" n="b"/>
+                  <quote xml:id="Almn78-a10251-Qd1e1516"> Invisibilia dicit propter Patrem, 
+sem<lb ed="#Ba" break="no"/>piterna virtus propter Filium, divinitas
+<lb ed="#Ba"/>propter Spiritum sanctum. </quote> Ergo ductu
+<lb ed="#Ba"/>rationis Philosophi cognoverunt Deum
+<lb ed="#Ba"/>unum in tribus personis.
+</p>
+               <p xml:id="Almn78-a10251-d1e1529">
+                  <lb ed="#Ba"/>2. Adhuc, Anselmus dicit, quod <quote xml:id="Almn78-a10251-Qd1e1533"> 
+pro<lb ed="#Ba" break="no"/>cessio personarum sicut causa est ante
+<lb ed="#Ba"/>processionem rerum. </quote> Sed qui definite
+<lb ed="#Ba"/>noscit causatum, definite cognoscit 
+cau<lb ed="#Ba" break="no"/>sam: definite ergo Philosophi 
+cognove<lb ed="#Ba" break="no"/>runt processionem personarum et unum
+<lb ed="#Ba"/>Deum in tribus personis.
+</p>
+               <p xml:id="Almn78-a10251-d1e1550">
+                  <lb ed="#Ba"/>3. Adhuc, Plato in ultima parte Timez
+<lb ed="#Ba"/>de thugato, hoc est, paterno intellectu
+<lb ed="#Ba"/>loquitur, et filiologo, et matricula, 
+Pa<lb ed="#Ba" break="no"/>trem ergo et Filium cognovit. Et quia
+<lb ed="#Ba"/>Pater et Filius non nectuntur sine amore
+<lb ed="#Ba"/>in Patre et Filio, nexum cognovit 
+utrius<lb ed="#Ba" break="no"/>que, qui est Spiritus sanctus: ergo et
+<lb ed="#Ba"/>alii cognoverunt.
+</p>
+               <p xml:id="Almn78-a10251-d1e1570">
+                  <lb ed="#Ba"/>4, Adhuc, Omnis cognoscens 
+intelle<lb ed="#Ba" break="no"/>ctum universaliter agentem, scit quod
+<lb ed="#Ba"/>non nisi per lumen suum et sibi 
+consub<lb ed="#Ba" break="no"/>stantiale, quod est ratio et causa et forma
+<lb ed="#Ba"/>operis, agit: ergo Patrem et Filium 
+co<lb ed="#Ba" break="no"/>gnoscit. Scit autem quia Verbum ab eo
+<lb ed="#Ba"/>in res agendas non procedit nisi per
+<lb ed="#Ba"/>Spiritum: ergo definite cognovit Spiritum.
+<lb ed="#Ba"/>Iloc etiam modo dicit Psalmus xxxu, 6:
+<lb ed="#Ba"/>Verbo Domini cel firmati sunt : et 
+spi<lb ed="#Ba" break="no"/>ritu oris eyus omnis virtus eorum. Job,
+<lb ed="#Ba"/>xxv1, 13: Spiritus Domini ornavit clos.
+<lb ed="#Ba"/>Non autem ornavit nisi formas 
+intelle<lb ed="#Ba" break="no"/>clus creatoris celis invehendo: et hac
+<lb ed="#Ba"/>ratione Philosophi definite cognoscere
+<lb ed="#Ba"/>poluerunt Trinitatem.
+</p>
+               <p xml:id="Almn78-a10251-d1e1607">
+                  <lb ed="#Ba"/>3. Adhuc, Augustinus in libro X1] de
+<lb ed="#Ba"/>Civitate Dei', dicit, quod Philosophi
+<lb ed="#Ba"/>tripartite diviserunt philosophiam, in
+<lb ed="#Ba"/>physicam, logicam, et ethicam. 
+Physi<lb ed="#Ba" break="no"/>cam propter Patrem, logicam propter
+<lb ed="#Ba"/>Vilium, ethicam propter Spiritum 
+san<lb ed="#Ba" break="no"/>ctum. Ergo cognoverunt Trinitatem.
+</p>
+               <p xml:id="Almn78-a10251-d1e1625">
+                  <lb ed="#Ba"/>6, Adhuc, Quidam objiciunt per hoc
+<lb ed="#Ba"/>quod dicit Aristoteles in primo Celi et
+<lb ed="#Ba"/>Mundi dicens, quod <quote xml:id="Almn78-a10251-Qd1e1633"> per hunc 
+nume<lb ed="#Ba" break="no"/>rum ternarium adhibuimus nosipsos ma-
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>gnificare Deum gloriosum. </quote> Ergo 
+co<lb ed="#Ba" break="no"/>gnoverunt Deum esse trinum et unum.
+</p>
+               <p xml:id="Almn78-a10251-d1e1645">
+                  <lb ed="#Ba"/>7. Adhuc, Dicunt dixisse Trimegistum
+<lb ed="#Ba"/>Mercurium (quod tamen in libris suis
+<lb ed="#Ba"/>non invenitur) : <quote xml:id="Almn78-a10251-Qd1e1653"> Monas monadem 
+ge<lb ed="#Ba" break="no"/>nuit, etin se reflexit ardorem. </quote> Et 
+di<lb ed="#Ba" break="no"/>cunt eum dixisse propter hoc, quod 
+Pa<lb ed="#Ba" break="no"/>ter indivisibilis indivisibilem genuit 
+Fi<lb ed="#Ba" break="no"/>lium, et amorem qui est Spiritus 
+san<lb ed="#Ba" break="no"/>ctus a Patre procedentem in Filium, a
+<lb ed="#Ba"/>Filio reflexit in seipsum.
+</p>
+               <p xml:id="Almn78-a10251-d1e1671">
+                  <lb ed="#Ba"/>8. Adhuc, Sciverunt, quod non nisi
+<lb ed="#Ba"/>per potentiam, sapientiam, et bonitatem
+<lb ed="#Ba"/>voluntatis creata produceret. Cum ergo
+<lb ed="#Ba"/>potentia Patris sit, sapientia Filii, 
+boni<lb ed="#Ba" break="no"/>tas Spiritus sancti, videntur personarum
+<lb ed="#Ba"/>trinitatem cognovisse.
+</p>
+               <p xml:id="Almn78-a10251-d1e1687">
+                  <lb ed="#Ba"/>9. Si quis dicat, quod per appropriata
+<lb ed="#Ba"/>cognoverunt, et non per propria. 
+Vide<lb ed="#Ba" break="no"/>tur non posse stare : quia appropriatum
+<lb ed="#Ba"/>non fit appropriatum nisi per rationem
+<lb ed="#Ba"/>convenientie ad proprium: ergo 
+pro<lb ed="#Ba" break="no"/>prium prius oportet cognoscere, quam
+<lb ed="#Ba"/>appropriatum. Si ergo per appropriata
+<lb ed="#Ba"/>cognoverunt, sequitur quod prius per
+<lb ed="#Ba"/>propria.
+</p>
+               <p xml:id="Almn78-a10251-d1e1709">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>4. Super illud epist. ad Roman. 1, 20:
+<lb ed="#Ba"/>Invisibilia ipsius, scilicet Dei, dicit 
+Au<lb ed="#Ba" break="no"/>gustinus, quod <quote xml:id="Almn78-a10251-Qd1e1719"> Philosophi ad 
+cogni<lb ed="#Ba" break="no"/>tionem trinitatis personarum non 
+perve<lb ed="#Ba" break="no"/>nerunt. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e1727">
+                  <lb ed="#Ba"/>2. Adhuc, Exod. vui, 19, super illud:
+<lb ed="#Ba"/>Digitus Dei est hic, dicit Glossa: <quote xml:id="Almn78-a10251-Qd1e1733"> 
+Phi<lb ed="#Ba" break="no"/>losophi defecerunt in tertio signo, hoc
+<lb ed="#Ba"/>est, in cognitione Spiritus sancti. </quote> Nec
+<lb ed="#Ba"/>potest dici, quod defecerunt in 
+appro<lb ed="#Ba" break="no"/>priato Spiritus sancti. Ita enim 
+cognove<lb ed="#Ba" break="no"/>runt appropriatam bonitatem, sicut 
+sa<lb ed="#Ba" break="no"/>pientiam et potentiam.
+</p>
+               <p xml:id="Almn78-a10251-d1e1750">
+                  <lb ed="#Ba"/>3. Adhuc, Richardus in libro de 
+7ri<lb ed="#Ba" break="no"/>nitate: <quote xml:id="Almn78-a10251-Qd1e1756"> Credo sine dubio ad 
+quam<lb ed="#Ba" break="no"/>cumque explanationem quam necesse est
+<lb ed="#Ba"/>esse, non modo probabilia, sed etiam
+<lb ed="#Ba"/>necessaria argumenta non deesse. </quote> 
+Ne<lb ed="#Ba" break="no"/>cessarium autem est tres esse personas :
+<lb ed="#Ba"/>ergo necessaria sunt ad hoc argumenta
+<pb ed="#Ba" n="60"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>per que Philosophi cognoscere poterant
+<lb ed="#Ba"/>Trinitatem.
+</p>
+               <p xml:id="Almn78-a10251-d1e1779">
+                  <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod 
+Phi<lb ed="#Ba" break="no"/>losophi per propria ductu naturalis 
+ratio<lb ed="#Ba" break="no"/>nis non potuerunt cognoscere trinitatem
+<lb ed="#Ba"/>personarum, Anima enim humana nullius
+<lb ed="#Ba"/>rei accipit scientiam, nisi illius cujus
+<lb ed="#Ba"/>principia prima habet apud seipsam. Heec
+<lb ed="#Ba"/>enim sunt quasi instrumenta quibus
+<lb ed="#Ba"/>erudit seipsam, et exit a potentia
+<lb ed="#Ba"/>sciendi ad actum sciendi. Habet autem
+<lb ed="#Ba"/>apud se, quod una natura simplex et 
+in<lb ed="#Ba" break="no"/>divisa secundum unam essentiam et
+<lb ed="#Ba"/>unum esse non est in tribus personis a
+-se invicem-distinctis personaliter : et ideo
+<lb ed="#Ba"/>supra hoc, vel preter hoc, vel contra hoc
+<lb ed="#Ba"/>nihil accipit, nisi aliqua gratia vel 
+illu<lb ed="#Ba" break="no"/>minatione altioris luminis sublevata sit
+<lb ed="#Ba"/>anima.
+</p>
+               <p xml:id="Almn78-a10251-d1e1817">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod
+<lb ed="#Ba"/>Glossa, ad Roman. 1,20, loquitur de 
+ap<lb ed="#Ba" break="no"/>propriatis, et non de propriis. 
+Appro<lb ed="#Ba" break="no"/>priata enim essentialiter communia sunt
+<lb ed="#Ba"/>et uni substantia in tribus personis 
+con<lb ed="#Ba" break="no"/>veniunt, licet ad unam personam referri
+<lb ed="#Ba"/>possint potentialiter,et non ad aliam 
+se<lb ed="#Ba" break="no"/>_cundum aliquam convenientie rationem.
+</p>
+               <p xml:id="Almn78-a10251-d1e1837">
+                  <lb ed="#Ba"/>Ad aliud quod dicit Anselmus, 
+dicen<lb ed="#Ba" break="no"/>dum quod processio personarum exigitur
+<lb ed="#Ba"/>per appropriata, et non per propria:
+<lb ed="#Ba"/>quia posito quod non sit Pater in ratione
+<lb ed="#Ba"/>Patris, nec Filius in ratione Filii, nec
+<lb ed="#Ba"/>Spiritus sanctus in ratione Spiritus 
+san<lb ed="#Ba" break="no"/>cti, sed sit unus Deus potens, sapiens,
+<lb ed="#Ba"/>volens, sufficiens causa est ad creandum,
+<lb ed="#Ba"/>quamyis sit unus in persona, sicut est
+<lb ed="#Ba"/>unus in essentia.
+</p>
+               <p xml:id="Almn78-a10251-d1e1861">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Plato patrem
+<lb ed="#Ba"/>intellectum creantem nominat, filium
+<lb ed="#Ba"/>autem mundum : quem mundum 
+voca<lb ed="#Ba" break="no"/>vit, eo quod a mundissimo exemplari
+<lb ed="#Ba"/>exivit, arte scilicet creatoris, quem 
+ar<lb ed="#Ba" break="no"/>chetypum mundum dixit. Matriculam
+<lb ed="#Ba"/>autem vocavit materiam., Unde constat,
+<lb ed="#Ba"/>quod. de appropriatis et non de propriis
+<lb ed="#Ba"/>loquitur, et ad productionem rerum hoc
+<lb ed="#Ba"/>refert, et non ad processionem 
+persona<lb ed="#Ba" break="no"/>rum.
+</p>
+               <p xml:id="Almn78-a10251-d1e1887">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet 
+intel<lb ed="#Ba" break="no"/>lectus omnis sic agat, tamen illa non
+<lb ed="#Ba"/>sunt propria quibus persona a persona
+<lb ed="#Ba"/>distinguitur in divinis, sed attributa uni
+<lb ed="#Ba"/>persone causanti per intellectum, a qua
+<lb ed="#Ba"/>res causatz procedunt, sicut artificiata
+<lb ed="#Ba"/>procedunt ab intellectu practico.
+</p>
+               <p xml:id="Almn78-a10251-d1e1905">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod 
+auctoritas<lb ed="#Ba" break="no"/>Augustini non probat quod cognoverunt
+<lb ed="#Ba"/>nisi per appropriata, que secundum se
+<lb ed="#Ba"/>sunt communia sicut et essentia.
+</p>
+               <p xml:id="Almn78-a10251-d1e1916">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Ari<lb ed="#Ba" break="no"/>stotelis nihil facit ad propositum. Vult
+<lb ed="#Ba"/>enim dicere, quod propter hoc quod 
+in<lb ed="#Ba" break="no"/>feriora corpora perficiuntur trina 
+dimen<lb ed="#Ba" break="no"/>sione, et maxime corpus humanum, et
+<lb ed="#Ba"/>tribus motibus, scilicet locali, augmenti,
+<lb ed="#Ba"/>et alterationis, quia creatore sunt per
+<lb ed="#Ba"/>ceelum. Omnes enim conveniunt in hoc,
+<lb ed="#Ba"/>quod ceelum locus Dei est, ut ibidem 
+di<lb ed="#Ba" break="no"/>cit. Longitudo autem et motus augmenti
+<lb ed="#Ba"/>a summo ceeli ad imum perficitur, et e
+<lb ed="#Ba"/>converso. Dimensio autem latitudinis, et
+<lb ed="#Ba"/>motus localis a dextro in sinistrum, ab
+<lb ed="#Ba"/>Oriente in Occidens perficitur, et e 
+con<lb ed="#Ba" break="no"/>verso. Dimensio autem profunditatis et
+<lb ed="#Ba"/>motus alterationis a sensibilibus a retro
+<lb ed="#Ba"/>in ante, et a Meridie- in Aquilonem 
+per<lb ed="#Ba" break="no"/>ficitur, et e converso. Et ideo 
+magnifica<lb ed="#Ba" break="no"/>bant Deum tribus sacrificiis, qui ccelo
+<lb ed="#Ba"/>presidet, et per coelum ista perficit.
+</p>
+               <p xml:id="Almn78-a10251-d1e1963">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Tri<lb ed="#Ba" break="no"/>megisti confictum est. Et si aliquis hoc
+<lb ed="#Ba"/>dixit Philosophus, intellexit quod ab uno
+<lb ed="#Ba"/>non est nisi unum, et unum quod est ab
+<lb ed="#Ba"/>uno, per amorem et desiderium ipsius
+<lb ed="#Ba"/>esse convertitur ad primum, sicut in libro
+<lb ed="#Ba"/>de Causis determinatum est : et hoc est
+<lb ed="#Ba"/>cognoscere per appropriata, et non 
+pro<lb ed="#Ba" break="no"/>pria.
+</p>
+               <p xml:id="Almn78-a10251-d1e1985">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod illa 
+appro<lb ed="#Ba" break="no"/>priata sunt, et non propria.
+</p>
+               <p xml:id="Almn78-a10251-d1e1992">
+                  <lb ed="#Ba"/>Ad id quod objicitur de propriis, 
+dicen<lb ed="#Ba" break="no"/>dum quod licet actualis relatio 
+appro<lb ed="#Ba" break="no"/>priati ad proprium, non fiat nisi 
+preeco<lb ed="#Ba" break="no"/>gnito proprio, tamen potentialis non 
+exi<lb ed="#Ba" break="no"/>git proprii precognitionem.
+</p>
+               <p xml:id="Almn78-a10251-d1e2005">
+                  <lb ed="#Ba"/>Ad id quod est in contrarium ex Glos= 4 op;
+<lb ed="#Ba"/>sa, procedit : quia veritatem concludit.
+</p>
+               <p xml:id="Almn78-a10251-d1e2012">
+                  <pb ed="#Ba" n="61"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad Hoc quod queritur, Quare 
+Philoso<lb ed="#Ba" break="no"/>phi defecerunt in tertio signo ? Dicendum
+<lb ed="#Ba"/>quod ad hoc multi multa dixerunt. Sed
+<lb ed="#Ba"/>veritas est, quod ideo defecerunt, quia in
+<lb ed="#Ba"/>agente per intellectum practicum 
+spiri<lb ed="#Ba" break="no"/>tum in unitate essentie cum agente non
+<lb ed="#Ba"/>invenerunt, sicut invenerunt formam
+<lb ed="#Ba"/>quam intellectus inducit in artificiatum
+<lb ed="#Ba"/>cjusdem essentie, potentia, et ejusdem
+<lb ed="#Ba"/>vila cum agente, quando intellectus non
+<lb ed="#Ba"/>per habitum,sed per seipsum est activus :
+<lb ed="#Ba"/>ct ideo appropriatum ejus non 
+cognove<lb ed="#Ba" break="no"/>runt.
+</p>
+               <p xml:id="Almn78-a10251-d1e2047">
+                  <lb ed="#Ba"/>Ad vicrum Richardi dicendum, quod
+<lb ed="#Ba"/>licet rationes necessarie sint ad 
+distin<lb ed="#Ba" break="no"/>cliones personarum, tamen ille sunt 
+su<lb ed="#Ba" break="no"/>pernaturales et divine : et ideo solo 
+lu<lb ed="#Ba" break="no"/>mine naturali inveniri non possunt.
+</p>
+            </div>
+            <div xml:id="Almn78-a10251-Dd1e2061">
+               <head xml:id="Almn78-a10251-Hd1e2063">Membrum 4</head>
+               <head xml:id="Almn78-a10251-Hd1e2066" type="question-title">
+  Quid sit cognoscere facie ad faciem
+</head>
+               <p xml:id="Almn78-a10251-d1e2069">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>Quid sit cognoscere facie ad faciem ?
+</p>
+               <p xml:id="Almn78-a10251-d1e2076">
+                  <lb ed="#Ba"/>Quarto queritur, Quid sit cognoscere
+<lb ed="#Ba"/>Deum facie ad faciem ?
+</p>
+               <p xml:id="Almn78-a10251-d1e2083">
+                  <lb ed="#Ba"/>Et videtur, quod hoc sit cognoscere per
+<lb ed="#Ba"/>essentiam immediate : quia
+<lb ed="#Ba"/>1. Dicit Augustinus in libris de Trini
+<lb ed="#Ba"/>tate, tractans illud Genesis, xxxu, 30:
+<lb ed="#Ba"/>Vidi Deum facie ad faciem, quod facies
+<lb ed="#Ba"/>est natura, in qua Filius non rapinam
+<lb ed="#Ba"/>arbitratus est esse se aqualem Patri’.
+<lb ed="#Ba"/>Krgo videre Deum facie ad faciem, est
+<lb ed="#Ba"/>videre Deum in unitate trium 
+persona<lb ed="#Ba" break="no"/>rum.
+</p>
+               <p xml:id="Almn78-a10251-d1e2108">
+                  <lb ed="#Ba"/>2. Adhuc, Facies est aliquid illius 
+cu<lb ed="#Ba" break="no"/>jus dicitur esse facies, in quo res 
+secun<lb ed="#Ba" break="no"/>dum unitatem essentiae videtur. Si ergo
+<lb ed="#Ba"/>similitudo proprie in Deum transfunditur,
+<lb ed="#Ba"/>facies erit aliquid Dei, quod’ absolute et
+<lb ed="#Ba"/>essentialiter est aliquid ipsius, in quo
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>per essentiam vere cognoscitur. Idem
+<lb ed="#Ba"/>est ergo videre facie ad faciem, et videre
+<lb ed="#Ba"/>per essentiam.
+</p>
+               <p xml:id="Almn78-a10251-d1e2132">
+                  <lb ed="#Ba"/>3. Adhuc, Cum dicitur facie ad faciem,
+<lb ed="#Ba"/>duz facies signantur, scilicet facies 
+vi<lb ed="#Ba" break="no"/>dentis, et facies visi : et utraque facies
+<lb ed="#Ba"/>signatur sine medio se habere ad 
+alte<lb ed="#Ba" break="no"/>ram: ergo videtur, quod videre Deum
+<lb ed="#Ba"/>facie ad faciem, idem est quod videre
+<lb ed="#Ba"/>Deum sine medio et ex parte visi et ex
+<lb ed="#Ba"/>parte videntis : videtur ergo, quod purus
+<lb ed="#Ba"/>intellectus sine medio gratie et gloria et
+<lb ed="#Ba"/>vestigii et imaginis sit facies una qua est
+<lb ed="#Ba"/>videntis, et representatio Dei per 
+essen<lb ed="#Ba" break="no"/>tiam divinam, et non in aliqua forma
+<lb ed="#Ba"/>similitudinis sit facies ex parte visi : 
+vi<lb ed="#Ba" break="no"/>dere ergo Deum facie ad faciem, est 
+mun<lb ed="#Ba" break="no"/>do et puro videre intellectu puram et
+<lb ed="#Ba"/>nudam essentiam divinam.
+</p>
+               <p xml:id="Almn78-a10251-d1e2169">
+                  <lb ed="#Ba"/>4. Adhuc, Il ad Corinth. m1, 18: Nos
+<lb ed="#Ba"/>omnes revelata facie gloriam Dei 
+specu<lb ed="#Ba" break="no"/>lantes, in eamdem imaginem 
+transfor<lb ed="#Ba" break="no"/>mamur. Sed facies nostra non est 
+reve<lb ed="#Ba" break="no"/>lata, quamdiu super eam aliquid est, sive
+<lb ed="#Ba"/>hoc sit vestigium, sive imago, sive 
+spe<lb ed="#Ba" break="no"/>cies abstractionis alicujus sive 
+propor<lb ed="#Ba" break="no"/>tionis : omnia enim talia, ut dicit 
+Augu<lb ed="#Ba" break="no"/>stinus super illud Joannis, xvi, 29 : Ecce
+<lb ed="#Ba"/>nunc palam loqueris, similitudines sunt
+<lb ed="#Ba"/>ad intelligendum accommodate. Et 
+spe<lb ed="#Ba" break="no"/>culum et enigma dicuntur communiter *,
+<lb ed="#Ba"/>quibus dum opertus est intellectus, 
+reve<lb ed="#Ba" break="no"/>lata facie intelligibile non exhibetur, sive
+<lb ed="#Ba"/>hoc sit Deus, sive aliud intelligibile. Ex
+<lb ed="#Ba"/>parte alia,eadem estimago gloriae Dei cum
+<lb ed="#Ba"/>gloria Dei sicut essentia Dei, et non est
+<lb ed="#Ba"/>quecumque similitudo que non est
+<lb ed="#Ba"/>Deus : diversa enim esset et non eadem.
+<lb ed="#Ba"/>Si ergo revelata facie in eamdem 
+imagi<lb ed="#Ba" break="no"/>nem transformamur, nudo intellectu et
+<lb ed="#Ba"/>puro ad puram essentiam referimur : et
+<lb ed="#Ba"/>hoc videtur esse facie ad faciem videre.
+</p>
+               <p xml:id="Almn78-a10251-d1e2221">
+                  <lb ed="#Ba"/>3. Adhuc, Dicit Augustinus, quod <quote xml:id="Almn78-a10251-Qd1e2225"> 
+in<lb ed="#Ba" break="no"/>ter mentem nostram et Deum nihil est
+<lb ed="#Ba"/>medium : </quote> sed in intelligibilibus imme
+<pb ed="#Ba" n="62"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>diata impossibile est per mediunt 
+accipe<lb ed="#Ba" break="no"/>re secundum intellectum : abiretur enim
+<lb ed="#Ba"/>in infinitum, ut probat Aristoteles in 
+pri<lb ed="#Ba" break="no"/>mo Posteriorum : ergo videtur, quod 
+vi<lb ed="#Ba" break="no"/>dere facie ad faciem est sine medio 
+vi<lb ed="#Ba" break="no"/>dentis et sine medio rei vise videre.
+</p>
+               <p xml:id="Almn78-a10251-d1e2250">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod si hoc
+<lb ed="#Ba"/>est videre facie ad faciem, tunc non in hac
+<lb ed="#Ba"/>vita Deum posset quis videre facie ad 
+fa<lb ed="#Ba" break="no"/>ciem : quod falsum videtur, Genes. xxxn,
+<lb ed="#Ba"/>30: Vidi Deum facie ad faciem. Adhuc,
+<lb ed="#Ba"/>Numer. xu, 8: Ore ad os loquor et, et
+<lb ed="#Ba"/>palam, et non per enigmata et figuras
+<lb ed="#Ba"/>Dominum videt. Adhuc, Isa, v1, 9: Vidi
+<lb ed="#Ba"/>Dominum sedentem super solium 
+excel<lb ed="#Ba" break="no"/>sum. Adhuc, Exod. xxxm, 11 : 
+Logue<lb ed="#Ba" break="no"/>batur Dominus ad Moysen facie ad 
+fa<lb ed="#Ba" break="no"/>ciem, sicut solet logut homo ad amicum
+<lb ed="#Ba"/>suum,
+</p>
+               <p xml:id="Almn78-a10251-d1e2281">
+                  <lb ed="#Ba"/>Juxta hoc queritur, Quid sit dictum,
+<lb ed="#Ba"/>Exod. xxxm, 23 : Videbis posteriora
+<lb ed="#Ba"/>mea: faciem autem meam videre non’
+<lb ed="#Ba"/>poteris. Anterius ‘enim et posterius 
+sub<lb ed="#Ba" break="no"/>stantia spiritualis non habet : quia ista
+<lb ed="#Ba"/>sunt positiones corporis.
+</p>
+               <p xml:id="Almn78-a10251-d1e2298">
+                  <lb ed="#Ba"/>Apuvuc queritur, Quid sit videre ea
+<lb ed="#Ba"/>que sunt sub ipso? Isa. vi, 1: Hé ea
+<lb ed="#Ba"/>que sub ipso erant, replebant templum :
+<lb ed="#Ba"/>cum sub et supra positiones sint 
+corpo<lb ed="#Ba" break="no"/>ree, que divinis non conveniunt.
+</p>
+               <p xml:id="Almn78-a10251-d1e2311">
+                  <lb ed="#Ba"/>Apuvuc queritur, Quid sit dictum,
+<lb ed="#Ba"/>Exod. xxxm, 20: Non videbit me homo,
+<lb ed="#Ba"/>et vivet, cum Paulus, I ad Corinth. xn,
+<lb ed="#Ba"/>2 et seq., vidit eum sicut illi qui sunt in
+<lb ed="#Ba"/>suprema hierarchia : et tamen vivus 
+fue<lb ed="#Ba" break="no"/>rit, ut dicit Anselmus.
+</p>
+               <p xml:id="Almn78-a10251-d1e2327">
+                  <lb ed="#Ba"/>Apuuc queritur, Quid sit dictum quod
+<lb ed="#Ba"/>dicitur, Tad Corinth. xm, 12: Videmus
+<lb ed="#Ba"/>nunc per speculum in wnigmate, tunc
+<lb ed="#Ba"/>autem facie ad faciem ?
+</p>
+               <p xml:id="Almn78-a10251-d1e2338">
+                  <lb ed="#Ba"/>1. Si enim per speculum videre, est
+<lb ed="#Ba"/>speculo ducente in aliud videre, vel aliud
+<lb ed="#Ba"/>reflexum a speculo ad videntem videre,
+<lb ed="#Ba"/>neutro modo visio stat in speculo. Sed si
+<lb ed="#Ba"/>speculum dicatur imago vel vestigium,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>tunc per speculum sicut medium visio
+<lb ed="#Ba"/>transit in id cujus est imago vel 
+vesti<lb ed="#Ba" break="no"/>gium, quod Joannes Damascenus vocat
+<lb ed="#Ba"/>prototypum: etin illo stat visio : et illud
+<lb ed="#Ba"/>videtur, quia visu attingitur. Aliter enim
+<lb ed="#Ba"/>a creaturis in cognitionem non 
+ascen<lb ed="#Ba" break="no"/>deretur, sed procederetur in infinitum.
+<lb ed="#Ba"/>Quando autem attingitur, hoc quod est
+<lb ed="#Ba"/>ipsum attingitur. Ergo videtur hoc quod
+<lb ed="#Ba"/>ipsum est : ergo essentialiter et per 
+es<lb ed="#Ba" break="no"/>sentiam videtur.
+</p>
+               <p xml:id="Almn78-a10251-d1e2377">
+                  <lb ed="#Ba"/>2. Adhuc, Aut videtur id quod est et
+<lb ed="#Ba"/>per essentiam et in seipso : aut videtur
+<lb ed="#Ba"/>id quod non est per essentiam et in 
+seip<lb ed="#Ba" break="no"/>so, sed in alio. Dico autem de eo quod
+<lb ed="#Ba"/>videtur in termino visus, quando 
+proce<lb ed="#Ba" break="no"/>ditur in Deum per vestigium et 
+imagi<lb ed="#Ba" break="no"/>nem et speculum et enigma. Si videtur
+<lb ed="#Ba"/>per essentiam ét secundum id quod est in
+<lb ed="#Ba"/>seipso, tunc videtur in facie et in propria
+<lb ed="#Ba"/>specie : et sic visionis per vestigium et
+<lb ed="#Ba"/>imaginem et speculum et enigma 
+termi<lb ed="#Ba" break="no"/>nus est visio facie ad faciem, et visio per
+<lb ed="#Ba"/>speciem. Ex quo sequitur, quod nullus
+<lb ed="#Ba"/>videt per vestigium et imaginem et per
+<lb ed="#Ba"/>speculum et enigma, nisi etiam videat
+<lb ed="#Ba"/>facie ad faciem. Si autem terminatur 
+vi<lb ed="#Ba" break="no"/>sio in eo quod non est Deus, sequitur
+<lb ed="#Ba"/>quod terminetur in medio, quod est 
+con<lb ed="#Ba" break="no"/>tra rationem  medii : medium enim ut
+<lb ed="#Ba"/>medium numquam terminat, sed ulterius
+<lb ed="#Ba"/>ducit in aliud. Sic etiam sequitur, quod
+<lb ed="#Ba"/>processus de creaturis in creatorem 
+cas<lb ed="#Ba" break="no"/>sus sit, cum finem non attingat.
+</p>
+               <p xml:id="Almn78-a10251-d1e2429">
+                  <lb ed="#Ba"/>3. Adhuc, Si facie ad faciem videre est
+<lb ed="#Ba"/>per gloriam, gloria erit medium quo
+<lb ed="#Ba"/>utetur intellectus ad videndum : non 
+er<lb ed="#Ba" break="no"/>go facie ad faciem est sine medio 
+vi<lb ed="#Ba" break="no"/>dere.
+</p>
+               <p xml:id="Almn78-a10251-d1e2443">
+                  <lb ed="#Ba"/>Solutio. Ad hec et hujusmodi 
+dicen<lb ed="#Ba" break="no"/>dum, quod facies Dei dicitur 
+multiplici<lb ed="#Ba" break="no"/>ter : communiter scilicet, proprie, et 
+pro<lb ed="#Ba" break="no"/>priissime. Communiter dicitur facies Dei
+<lb ed="#Ba"/>omne illud in quo Deus evidenter 
+appa<lb ed="#Ba" break="no"/>ret et cognoscitur et presentiatur velut
+<lb ed="#Ba"/>causa, vel secundum seipsum. Et hoc
+<lb ed="#Ba"/>modo vestigium dicitur facies et imago :
+<lb ed="#Ba"/>quia sicut dicitur, Sapient. xn1, 5, in illis
+<pb ed="#Ba" n="63"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>cognoscibiliter apparet. Et sic dicit 
+Am<lb ed="#Ba" break="no"/>brosius, quod <quote xml:id="Almn78-a10251-Qd1e2473"> ubique praesens est. </quote> In
+<lb ed="#Ba"/>omnibus enim creaturis presentialitas
+<lb ed="#Ba"/>ojus apparet : quia, sicut dicit Augustinus
+<lb ed="#Ba"/>in libro XI de Civitate Dei, <quote xml:id="Almn78-a10251-Qd1e2483"> per omnia
+<lb ed="#Ba"/>opera sua significationis sus sparsit 
+indi<lb ed="#Ba" break="no"/>cia ?.</quote> Et sic dicitur in primo libro 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinctione quinta,quod <quote xml:id="Almn78-a10251-Qd1e2492"> ad 
+uo<lb ed="#Ba" break="no"/>bus juvabatur homo ad cognitionem Dei,
+<lb ed="#Ba"/>scilicet a natura que rationalis erat, et
+<lb ed="#Ba"/>ab operibus a Deo factis factorem 
+mani<lb ed="#Ba" break="no"/>festantibus. </quote> Hoc etiam dicit Ambrosius,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a10251-Qd1e2505"> Deus qui natura invisibilis est, ut
+<lb ed="#Ba"/>a visibilibus possit videri, opus fecit quod
+<lb ed="#Ba"/>visibilitate sui opificem manifestavit. </quote>
+                  <lb ed="#Ba"/>Kit sic facies dicitur presentia Dei in 
+ve<lb ed="#Ba" break="no"/>stigiis vel in imagine manifestata. Sic
+<lb ed="#Ba"/>ctiam Plato dicit in ultima parte Timezi,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a10251-Qd1e2521"> ab archetypo mundo iste mundus
+<lb ed="#Ba"/>sensibilis exivit. </quote> Et Boetius in libro de
+<lb ed="#Ba"/>Consolatione philosophie :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e2531">Mundum mente gerens pulchrum pulcherrimus
+[ipse,</quote>
+                  <lb ed="#Ba"/>similique imagine formans. Et in 
+Psal<lb ed="#Ba" break="no"/>mo xux, 11 : Pulehritudo agri mecum
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a10251-d1e2541">
+                  <lb ed="#Ba"/>Proprie dicitur facies Dei praesentia
+<lb ed="#Ba"/>evidens per effectum gratiae adjuvantis 
+<lb ed="#Ba" break="no"/>ad aliquid, vel protegentis, in quo 
+cogno<lb ed="#Ba" break="no"/>scibiliter apparet presentia Dei, sicut,
+<lb ed="#Ba"/>Exod. xxxiu, 14, dixit Dominus ad 
+Moy<lb ed="#Ba" break="no"/>sen: Facies mea precedet te, hoc est,
+<lb ed="#Ba"/>offectus gratia mea, in quo 
+cognoscibi<lb ed="#Ba" break="no"/>liter potentia mee majestatis apparebit.
+<lb ed="#Ba"/>Et illo modo magis proprie dicitur facies
+<lb ed="#Ba"/>presentia in carne, in qua cognoscibiliter
+<lb ed="#Ba"/>Deus apparuit. Et sic dicitur facies in
+<lb ed="#Ba"/>Psalmo txxtx, 20 : Ostende faciem tuam,
+<lb ed="#Ba"/>et salvi erimus. Danielis, 1, 41: 
+Segzt<lb ed="#Ba" break="no"/>mur tein toto corde nostro, et timemus
+<lb ed="#Ba"/>te, et guerimus faciem tuam. Et, iste 
+mo<lb ed="#Ba" break="no"/>dus differt a primo, sicut natura differt a
+<lb ed="#Ba"/>gratia. Primus enim modus non dicit ni-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>si resplendentiam auctoris in ipso opere
+<lb ed="#Ba"/>a se facto, vel in Scripturis. Et hoc 
+mo<lb ed="#Ba" break="no"/>do dicitur facies in Psalmo av, 4: 
+Que<lb ed="#Ba" break="no"/>rite faciem ejus semper. Ut enim dicunt
+<lb ed="#Ba"/>Philosophi, Avicenna, Averroes, quod
+<lb ed="#Ba"/>operata sunt in intellectu sive in mente
+<lb ed="#Ba"/>divina, sicut opera artificis in artifice, id
+<lb ed="#Ba"/>est, manifestant ipsum.
+</p>
+               <p xml:id="Almn78-a10251-d1e2600">
+                  <lb ed="#Ba"/>Propriissime autem dicitur facies Dei
+<lb ed="#Ba"/>essentialis presentia Dei sine medio 
+de<lb ed="#Ba" break="no"/>monstrata et exhibita, hoc modo quo 
+ex<lb ed="#Ba" break="no"/>hibet se beatis. Et hoc modo dicitur,
+<lb ed="#Ba"/>Job, xxxim, 26 : Videbit faciem ejus in
+<lb ed="#Ba"/>jubilo. Quia dicit Augustinus quod hoc
+<lb ed="#Ba"/>modo nemo videt faciem Dei sine gaudio
+<lb ed="#Ba"/>inenarrabili. Psal. xv, 11: Adimplebis
+<lb ed="#Ba"/>me letitia cum vultu tuo. Unde dicitur,
+<lb ed="#Ba"/>Isa. xxvi, 10: Misereamur impto, et non
+<lb ed="#Ba"/>videbit gloriam Domini.
+</p>
+               <p xml:id="Almn78-a10251-d1e2626">
+                  <lb ed="#Ba"/>Adhuc, Medium dicitur multipliciter,
+<lb ed="#Ba"/>ut dicit Anselmus. Est enim mediuni
+<lb ed="#Ba"/>ostendens per hoc quod est intentio ejus
+<lb ed="#Ba"/>quod ostenditur, sicut species 
+intelligibi<lb ed="#Ba" break="no"/>les vel sensibiles media sunt, quibus 
+in<lb ed="#Ba" break="no"/>tellectui vel sensui ostenditur intelligibile
+<lb ed="#Ba"/>vel sensibile. Est etiam medium deferens,
+<lb ed="#Ba"/>sicut perspicuum illuminatum est in visu
+<lb ed="#Ba"/>medium. Et hoc dividit Avicenna in duo,
+<lb ed="#Ba"/>scilicet in id quod sub uno situ defert, et
+<lb ed="#Ba"/>hoc simpliciter dicitur deferens : et id’
+<lb ed="#Ba"/>quod sub duobus vel pluribus sitibus 
+de<lb ed="#Ba" break="no"/>fert, et hoc vocatur medium reflectens,
+<lb ed="#Ba"/>sicut est id quod videtur in speculo. Est
+<lb ed="#Ba"/>etiam medium coadjuvans sive perficiens
+<lb ed="#Ba"/>ad videndum : et hoc duobus modis, 
+sci<lb ed="#Ba" break="no"/>licet ex parte visibilis, et ex parte 
+viden<lb ed="#Ba" break="no"/>tis. Ex parte visibilis, sicut lux adjuvat
+<lb ed="#Ba"/>et perficit colorem in actu ut videatur.
+<lb ed="#Ba"/>Ex parte videntis, sicut claritas oculi et
+<lb ed="#Ba"/>recta positio humorum et tunicarum et
+<lb ed="#Ba"/>figure et intersectionis qua intersecant
+<lb ed="#Ba"/>se sphere et circuli tunicarum oculi et
+<lb ed="#Ba"/>limpiditas oculi, et cetera hujusmodi
+<lb ed="#Ba"/>quibus perficitur oculus ad videndum 
+si<lb ed="#Ba" break="no"/>ne impedimento. Sed haec duo ultima
+<pb ed="#Ba" n="64"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>non proprie dicuntur media, sed actus et
+<lb ed="#Ba"/>perfectiones videntis et visibilis. Poni
+<lb ed="#Ba"/>adhuc Anselmus etiam juxta illud 
+me<lb ed="#Ba" break="no"/>dium quod vocat non prohibens, sicut si
+<lb ed="#Ba"/>inter me et rem que posset videri, paries
+<lb ed="#Ba"/>esset, esset medium prohibens : unde 
+re<lb ed="#Ba" break="no"/>motio parietis esset medium non 
+prohi<lb ed="#Ba" break="no"/>bens.
+</p>
+               <p xml:id="Almn78-a10251-d1e2707">
+                  <lb ed="#Ba"/>Unde cum facie ad faciem videre, 
+di<lb ed="#Ba" break="no"/>catur sine medio videre, distingui debet.
+<lb ed="#Ba"/>Si enim dicatur sine medio deferente,
+<lb ed="#Ba"/>vel reflectente : tunc verum est. Adhuc,
+<lb ed="#Ba"/>si dicatur sine medio intentionali, quod
+<lb ed="#Ba"/>res visa non sit, sed intentio vel 
+similitu<lb ed="#Ba" break="no"/>do : tunc adhuc proprissime facie ad 
+fa<lb ed="#Ba" break="no"/>ciem videre, est sine medio tali videre.
+<lb ed="#Ba"/>Si autem dicatur medium coadjuvans ex
+<lb ed="#Ba"/>parte visibilis : tunc non omne visibile
+<lb ed="#Ba"/>utitur tali medio. Visibile enim primum
+<lb ed="#Ba"/>quod est lux sive sensibilis sive 
+intelle<lb ed="#Ba" break="no"/>ctualis, non fit visibile aliquo coadjuvante,
+<lb ed="#Ba"/>sed seipso visibile est, et omnis visibilis
+<lb ed="#Ba"/>actus : aliter enim oporteret, quod iretur
+<lb ed="#Ba"/>in infinitum in coadjuvantibus et 
+coadju<lb ed="#Ba" break="no"/>vatis. Et sic iterum facie ad faciem videre
+<lb ed="#Ba"/>Deum propriissime, est sine medio videre.
+<lb ed="#Ba"/>Si autem medium sit ex parte videntis
+<lb ed="#Ba"/>coadjuvans : tunc cum omnis videns 
+per<lb ed="#Ba" break="no"/>fecte non videat, nisi perfectus sit ad
+<lb ed="#Ba"/>videndum, facie ad faciem sic videre
+<lb ed="#Ba"/>numquam est sine medio videre. Sienim
+<lb ed="#Ba"/>videt visione naturali, oportet eum esse
+<lb ed="#Ba"/>perfectum mediis naturalibus ad visum.
+<lb ed="#Ba"/>Si videt visione artis vel scientie, 
+opor<lb ed="#Ba" break="no"/>tet eum esse perfectum mediis, hoc est,
+<lb ed="#Ba"/>habitibus artis et scientia. Si videt 
+vi<lb ed="#Ba" break="no"/>sione gratuita, oportet eum esse 
+perfe<lb ed="#Ba" break="no"/>ctum habitibus gratia, sicut sunt 
+sapien<lb ed="#Ba" break="no"/>tia, intellectus, gratia, et fides. Si videt
+<lb ed="#Ba"/>visione gloriae, oportet eum esse 
+perfe<lb ed="#Ba" break="no"/>ctum habitibus gloria et beatitudinis.
+<lb ed="#Ba"/>Hee autem media non tegunt, vel 
+defe<lb ed="#Ba" break="no"/>runt, vel distare faciunt videntem et 
+visibi<lb ed="#Ba" break="no"/>le, sed visibilem potentiam confortant et
+<lb ed="#Ba"/>perficiunt ad videndum. Et ideo sic per
+<lb ed="#Ba"/>medium videre, non opponitur ad 
+imme<lb ed="#Ba" break="no"/>diate videre, sed stat cum ipso. Adhuc, Si
+<lb ed="#Ba"/>accipiatur medium prohibens : tunc sicut
+<lb ed="#Ba"/>dicit Gregorius super Job in principio :
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e2802"> Medium prohibens visionem corpus
+<lb ed="#Ba"/>est, post quod sicut post parietem acies
+<lb ed="#Ba"/>stat mentis nostre, ne Deum videre 
+pos<lb ed="#Ba" break="no"/>sit revelata visione : </quote> sicut dicitur, 
+Sa<lb ed="#Ba" break="no"/>pient. ix, 14 et seq : Cogitationes 
+morta<lb ed="#Ba" break="no"/>lium timide, et incerle providentie
+<lb ed="#Ba"/>nostre : corpus enim quod corrumpitur
+<lb ed="#Ba"/>aggravat animam, et terrena habitatio
+<lb ed="#Ba"/>deprimit sensum multa cogitantem. Et
+<lb ed="#Ba"/>difficile estimamus que in terra sunt, et
+<lb ed="#Ba"/>que in prospectu sunt, invenimus cum
+<lb ed="#Ba"/>labore: que autem in celis sunt quis
+<lb ed="#Ba"/>investigabit ? Et sic sine medio videre,
+<lb ed="#Ba"/>est deposita carne corruptibili videre, et
+<lb ed="#Ba"/>idem est facie ad faciem videre, hoc est,
+<lb ed="#Ba"/>nudam animam sine medio divinitati
+<lb ed="#Ba"/>preesentari.
+</p>
+               <p xml:id="Almn78-a10251-d1e2840">
+                  <lb ed="#Ba"/>Ex his jam patet solutio fere omnium.
+<lb ed="#Ba"/>Patet enim quid sit facie ad faciem 
+vide<lb ed="#Ba" break="no"/>re,et quid sit sine medio videre, quod
+<lb ed="#Ba"/>fuit quesitum primo. .
+</p>
+               <p xml:id="Almn78-a10251-d1e2852">
+                  <lb ed="#Ba"/>Quon ergo primo objicitur, conceden-
+<lb ed="#Ba" break="no"/>dum. est.
+</p>
+               <p xml:id="Almn78-a10251-d1e2859">
+                  <lb ed="#Ba"/>Ad secunpuM autem concedendu:n est,
+<lb ed="#Ba"/>quod facies est aliquid rei vise, quod in
+<lb ed="#Ba"/>Deo Deus est, et non aliud. Unde illa 
+ob<lb ed="#Ba" break="no"/>jectio bona fuit. ;
+</p>
+               <p xml:id="Almn78-a10251-d1e2870">
+                  <lb ed="#Ba"/>Ad TerTIuM dicendum, quod in veritate
+<lb ed="#Ba"/>secundum modum significandi due facies
+<lb ed="#Ba"/>nude et sibi invicem objecte signantur in
+<lb ed="#Ba"/>sermone : et ideo propriissime facie ad
+<lb ed="#Ba"/>faciem non videt nisi nudus intellectus
+<lb ed="#Ba"/>nudam essentiam divinam, hoc est, sine
+<lb ed="#Ba"/>medio deferente, vel reflectente, vel 
+in<lb ed="#Ba" break="no"/>tentionaliter signante, et sine medio 
+co<lb ed="#Ba" break="no"/>adjuvante’ visibile, et sine medio 
+prohi<lb ed="#Ba" break="no"/>bente, sed non sine medio coadjuvante
+<lb ed="#Ba"/>videntem, hoc enim non interstat sive
+<lb ed="#Ba"/>interponitur videnti et viso, sed perficit
+<lb ed="#Ba"/>videntem ad videndum : et ideo non 
+op<lb ed="#Ba" break="no"/>ponitur immediate visioni.
+</p>
+               <p xml:id="Almn78-a10251-d1e2903">
+                  <lb ed="#Ba"/>Ad gquartum dicendum, quod Apostolus
+<lb ed="#Ba"/>ibi loquitur de ablatione medii quod est
+<lb ed="#Ba"/>speculum et enigma, secundum quod ad
+<lb ed="#Ba"/>speculum et enigma reducuntur figure
+<lb ed="#Ba"/>et allegorie Veteris Testamenti secundum
+<lb ed="#Ba"/>Augustinum. Imago autem dicitur 
+veri<lb ed="#Ba" break="no"/>tas significata et in Christo exhibita, 
+se<lb ed="#Ba" break="no"/>cundum quod dicitur, ad Hebr. x, 1:
+<pb ed="#Ba" n="65"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e2929" source="http://scta.info/resource/hebr10_1">Umbram habens lex futurorum bonorum,
+<lb ed="#Ba"/>non ipsam imaginem rerum</quote>. Et sic 
+dici<lb ed="#Ba" break="no"/>tur imago sive facies presentia gratiae
+<lb ed="#Ba"/>signatae per umbras veteris legis. Et ipse
+<lb ed="#Ba"/>umbra dicuntur velamen, quod ablatum
+<lb ed="#Ba"/>estab oculis spiritualibus Apostolorum.
+<lb ed="#Ba"/>it transformatio in imaginem, dicitur
+<lb ed="#Ba"/>iransformatio in imaginem significatam
+<lb ed="#Ba"/>vorilate. Sic autem videre Deum non
+<lb ed="#Ba"/>propriissime est facie ad faciem videre,
+<lb ed="#Ba"/>sed per effectum gratia.
+</p>
+               <p xml:id="Almn78-a10251-d1e2954">
+                  <lb ed="#Ba"/>Ad quintum concedendum est: facie
+<lb ed="#Ba"/>enim ad faciem videre propriissime, sine
+<lb ed="#Ba"/>medio videre est. :
+</p>
+               <p xml:id="Almn78-a10251-d1e2963">
+                  <lb ed="#Ba"/>Apw quod objicitur in contrarium,
+<lb ed="#Ba"/>quod non in hac vita Deus facie ad 
+fa<lb ed="#Ba" break="no"/>ciem videtur, concedendum est si 
+pro<lb ed="#Ba" break="no"/>priissime visio facie ad faciem 
+accipia<lb ed="#Ba" break="no"/>tur.
+</p>
+               <p xml:id="Almn78-a10251-d1e2977">
+                  <lb ed="#Ba"/>Kit quod objicitur, Genes. xxxu, 30,
+<lb ed="#Ba"/>dicendum, quod facies propriissime ibi
+<lb ed="#Ba"/>hon sumitur, sed pro effectu gratia 
+evi<lb ed="#Ba" break="no"/>dentis et evidenter Deum ostendentis.
+</p>
+               <p xml:id="Almn78-a10251-d1e2988">
+                  <lb ed="#Ba"/>Ad illud quod objicitur de Moyse solvit
+<lb ed="#Ba"/>Augustinus, quod palam videre, est 
+in<lb ed="#Ba" break="no"/>tellectuali visione videre : que tamen per
+<lb ed="#Ba"/>apecies intelligibiles fit. Non per 
+enig<lb ed="#Ba" break="no"/>mata videre, est non corporales vel 
+ima<lb ed="#Ba" break="no"/>yinarias species videre. Sic autem palam
+<lb ed="#Ba"/>videre, et per medium intentionale 
+vide<lb ed="#Ba" break="no"/>re, quod a Deo descendit in intellectum
+<lb ed="#Ba"/>in Lheoriis et theophaniis : et hoc modo
+<lb ed="#Ba"/>videre non est facie ad faciem videre
+<lb ed="#Ba"/>propriissime loquendo.
+</p>
+               <p xml:id="Almn78-a10251-d1e3014">
+                  <lb ed="#Ba"/>Per idem solvitur sequens de Isaia.
+<lb ed="#Ba"/>Licet enim Dominus dicat, Joan. xu, 41,
+<lb ed="#Ba"/>ynod haec dixit Isaias, quando vidit 
+glo<lb ed="#Ba" break="no"/>rian Dei, gloriam Dei vocat gloriosam
+<lb ed="#Ba"/>rl altiorem manifestationem divine 
+pre<lb ed="#Ba" break="no"/>sentiee in theoriis et theophaniis, que
+<lb ed="#Ba"/>per species intelligibiles perfictunt.
+</p>
+               <p xml:id="Almn78-a10251-d1e3032">
+                  <lb ed="#Ba"/>Api quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod posteriora dicuntur posterius
+<lb ed="#Ba"/>manifestantia, et non'per prius : sicut 
+fi<lb ed="#Ba" break="no"/>gure legis posteriores sunt imagine 
+veri<lb ed="#Ba" break="no"/>tutis, et forme sensibiles vel imaginabi
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>les, posteriores sunt speciebus 
+intelle<lb ed="#Ba" break="no"/>ctualibus in theoriis et theophanis 
+fulgen<lb ed="#Ba" break="no"/>tibus in intellectu, ut in libro XII super
+<lb ed="#Ba"/>Genesim ad litteram dicit Augustinus.
+</p>
+               <p xml:id="Almn78-a10251-d1e3056">
+                  <lb ed="#Ba"/>Svs ieso autem est effectus, in quo 
+co<lb ed="#Ba" break="no"/>gnoscitur, vestigium scilicet et imago :
+<lb ed="#Ba"/>haec enim replent templum, hoc est, 
+mi<lb ed="#Ba" break="no"/>litantem Ecclesiam.
+</p>
+               <p xml:id="Almn78-a10251-d1e3067">
+                  <lb ed="#Ba"/>Ad aliud dicendum quod cum dicitur :
+<lb ed="#Ba"/>Non videbit me homo, et vivet ‘, idem
+<lb ed="#Ba"/>est dictum, quod vita animali et humana
+<lb ed="#Ba"/>in tali visione non utetur. Vita enim 
+hu<lb ed="#Ba" break="no"/>mana et animalis hominem deprimit, et
+<lb ed="#Ba"/>aggravat intellectum, ne tali visione que
+<lb ed="#Ba"/>immediata est, uti possit. Unde vel vita
+<lb ed="#Ba"/>immortalium vivit, vel in ipsum per 
+ra<lb ed="#Ba" break="no"/>ptum excedit. Et sic solvitur quod 
+dici<lb ed="#Ba" break="no"/>tur de Paulo.
+</p>
+               <p xml:id="Almn78-a10251-d1e3092">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod speculum et 
+<lb ed="#Ba"/>enigma omnis similitudo dicitur, que
+<lb ed="#Ba"/>interstat inter videntem et rem visam.
+<lb ed="#Ba"/>Illa autem similitudo sive sit- naturalis,
+<lb ed="#Ba"/>sive gratuita, sive gratiosa que perficit
+<lb ed="#Ba"/>videntem ad videndum, non est medium
+<lb ed="#Ba"/>interstans inter videntem et rem visam,
+<lb ed="#Ba"/>ut dictum est.
+</p>
+               <p xml:id="Almn78-a10251-d1e3112">
+                  <lb ed="#Ba"/>Ad aliud et ad sequens dicendum, quod.
+<lb ed="#Ba"/>per speculum et enigma videre, 
+termi<lb ed="#Ba" break="no"/>natur in visione Dei, attingendo illud
+<lb ed="#Ba"/>quod est Deus et quod essentialiter Deus
+<lb ed="#Ba"/>est et Deo convenit : sed hoc est per 
+dis<lb ed="#Ba" break="no"/>cursum et reflexam disciplinam, ut dicit
+<lb ed="#Ba"/>Dionysius, et secundum cogitationes 
+vo<lb ed="#Ba" break="no"/>lubiles unum ex alio conferentes, ut
+<lb ed="#Ba"/>dicit Augustinus. Quod non convenit 
+vi<lb ed="#Ba" break="no"/>sioni que est facie ad faciem. Visio enim
+<lb ed="#Ba"/>que est facie ad faciem, est simplex 
+in<lb ed="#Ba" break="no"/>tuitus mentis, in id quod secundum se
+<lb ed="#Ba"/>visibile est directus, quod mens uniformis
+<lb ed="#Ba"/>ex se elicit, et uniformiter, non per 
+for<lb ed="#Ba" break="no"/>mam speculi vel enigmatis in Deum 
+fi<lb ed="#Ba" break="no"/>git. Et per hoc patet, quod visio facie ad
+<lb ed="#Ba"/>faciem non est terminus visionis per
+<lb ed="#Ba"/>speculum et enigma: licet enim talis
+<pb ed="#Ba" n="66"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>visio in Deum terminetur et in ea que
+<lb ed="#Ba"/>sunt essentialiter Deus, tamen hoc non
+<lb ed="#Ba"/>fit simpliciter univoce et uniformiter, sed
+<lb ed="#Ba"/>potius multipliciter et discurse, et in 
+mul<lb ed="#Ba" break="no"/>ta volubili cognitione. Et quod dicit 
+Au<lb ed="#Ba" break="no"/>gustinus, quod <quote xml:id="Almn78-a10251-Qd1e3170"> inter mentem nostram
+<lb ed="#Ba"/>et Deum nihil est medium, </quote> non facit
+<lb ed="#Ba"/>ad propositum, cum intendit dicere, quod
+<lb ed="#Ba"/>guantum ad facultatem videndi 
+imme<lb ed="#Ba" break="no"/>diate possumus videre sicut et Angeli : et
+<lb ed="#Ba"/>destruit errorem quorumdam 
+Philosopho<lb ed="#Ba" break="no"/>rum dicentium, quod causa prima non
+<lb ed="#Ba"/>cognos¢itur nec videtur, nisi in luminibus
+<lb ed="#Ba"/>intelligentiarum per quatuor ordines a
+<lb ed="#Ba"/>prima causa distantium et 
+descenden<lb ed="#Ba" break="no"/>tium.
+</p>
+               <p xml:id="Almn78-a10251-d1e3196">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad sequens et
+<lb ed="#Ba"/>ad omnia.
+</p>
+            </div>
+            <div xml:id="Almn78-a10251-Dd1e3204">
+               <head xml:id="Almn78-a10251-Hd1e3206">Membrum 5</head>
+               <head xml:id="Almn78-a10251-Hd1e3209" type="question-title">
+  Quid est cognoscere per speciem?
+</head>
+               <p xml:id="Almn78-a10251-d1e3212">
+                  <lb ed="#Ba"/>MEMBRUM V.
+<lb ed="#Ba"/>Quid est cognoscere per speciem?
+</p>
+               <p xml:id="Almn78-a10251-d1e3219">
+                  <lb ed="#Ba"/>Quinto queritur, Quid sit cognoscere
+<lb ed="#Ba"/>per speciem ?
+</p>
+               <p xml:id="Almn78-a10251-d1e3226">
+                  <lb ed="#Ba"/>Species enim est apud Philosophum,
+<lb ed="#Ba"/>qua quodlibet ponitur in esse suo ultimo
+<lb ed="#Ba"/>substantiali. Dicit etiam Boetius, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a10251-Qd1e3236"> species est totum esse individuorum,
+<lb ed="#Ba"/>et quod post speciem nihil est nisi 
+mate<lb ed="#Ba" break="no"/>ria et individuantia accidentia. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e3245">
+                  <lb ed="#Ba"/>Videtur ergo quod per speciem 
+cogno<lb ed="#Ba" break="no"/>scere, est cognoscere per propriam 
+natu<lb ed="#Ba" break="no"/>ram et essentiam. Si autem hoc est:
+<lb ed="#Ba"/>tunc videtur, quod in hac vita 
+cognosci<lb ed="#Ba" break="no"/>bilis Deus non sit per speciem.
+</p>
+               <p xml:id="Almn78-a10251-d1e3258">
+                  <lb ed="#Ba"/>4. Unde Gregorius tractans illud 
+Joan<lb ed="#Ba" break="no"/>nis, 1, 18: Deum nemo vidit umquam, 
+di<lb ed="#Ba" break="no"/>cit in Moralibus : <quote xml:id="Almn78-a10251-Qd1e3266"> Per quod patenter
+<lb ed="#Ba"/>datur intelligi, quod quamdiu in hac 
+mor<lb ed="#Ba" break="no"/>tali vita vivitur, videri Deus per quasdam
+<lb ed="#Ba"/>imagines potest, sed per ipsam nature
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>suae speciem non potest. </quote> Hoe etiam 
+vi<lb ed="#Ba" break="no"/>detur per ea que superius inducta sunt,
+<lb ed="#Ba"/>Exod. xxx, 20: Non videbit me homo,
+<lb ed="#Ba"/>et vivet. Et, lad Timoth. v1, 16: Quem
+<lb ed="#Ba"/>nullus hominum vidit, sed nec videre
+<lb ed="#Ba"/>potest.
+</p>
+               <p xml:id="Almn78-a10251-d1e3291">
+                  <lb ed="#Ba"/>2. Adhuc, Quidam per rationem 
+obji<lb ed="#Ba" break="no"/>ciunt sic : Species penitus absoluta ab
+<lb ed="#Ba"/>omni materia et ab omni dependentia
+<lb ed="#Ba"/>materia corporee et incorporee, 
+intelli<lb ed="#Ba" break="no"/>gi non potest nisi ab intellectu penitus
+<lb ed="#Ba"/>ab hujusmodi absoluto. Intellectus autem
+<lb ed="#Ba"/>humanus ab hujusmodi dependentia dum
+<lb ed="#Ba"/>in corpore est, non potest esse absolutus.
+<lb ed="#Ba"/>Ergo talem speciem intelligere non 
+pot<lb ed="#Ba" break="no"/>est. Solus autem Deus talis species est,
+<lb ed="#Ba"/>Ergo Deum dum in hac vita vivit, videre
+<lb ed="#Ba"/>non potest.
+</p>
+               <p xml:id="Almn78-a10251-d1e3320">
+                  <lb ed="#Ba"/>In contrariam hujus est,
+<lb ed="#Ba"/>1. Quod dicit Augustinus in libro de
+<lb ed="#Ba"/>Videndo Deum, quod Moyses palam et
+<lb ed="#Ba"/>non per enigma Deum vidit,quia per 
+spe<lb ed="#Ba" break="no"/>ciem vidit. Et si objicitur de Paulo, I ad
+<lb ed="#Ba"/>Corinth. xn, 2 et seq., Augustinus 
+re<lb ed="#Ba" break="no"/>spondet dicens, quod <quote xml:id="Almn78-a10251-Qd1e3337"> necesse est, quod
+<lb ed="#Ba"/>ab hac vita mentem abstrahat, quando
+<lb ed="#Ba"/>aliquis in illius affabilitatem visionis 
+as<lb ed="#Ba" break="no"/>sumitur. </quote> Dicit etiam, quod non sit 
+in<lb ed="#Ba" break="no"/>credibile, quibusdam sanctis nondum 
+vi<lb ed="#Ba" break="no"/>ta defunctis ut sepelienda cadavera 
+rema<lb ed="#Ba" break="no"/>nerent, etiam illam excellentiam visionis
+<lb ed="#Ba"/>esse concessam. Videtur ergo, quod in
+<lb ed="#Ba"/>hac vita per speciem videtur.
+</p>
+               <p xml:id="Almn78-a10251-d1e3358">
+                  <lb ed="#Ba"/>2. Adhuc, Objiciunt quidam per 
+ratio<lb ed="#Ba" break="no"/>nem: Dicit enim Augustinus in I Con/
+es<lb ed="#Ba" break="no"/>sionum, quod <quote xml:id="Almn78-a10251-Qd1e3366">homo factus est ad 
+co<lb ed="#Ba" break="no"/>gnoscendum et videndum Deum. </quote> Si
+<lb ed="#Ba"/>ergo non videat, hoc erit per defectum
+<lb ed="#Ba"/>peccati : sed non est defectus qui non est
+<lb ed="#Ba"/>reparabilis per gratiam: ergo videtur,
+<lb ed="#Ba"/>quod homo reparatus per gratiam potest
+<lb ed="#Ba"/>videre Deum in hac mortali vita.
+</p>
+               <p xml:id="Almn78-a10251-d1e3383">
+                  <lb ed="#Ba"/>Solutio. Ad hoc, si antecedentia 
+re<lb ed="#Ba" break="no"/>vocentur ad memoriam, non est difficile
+<lb ed="#Ba"/>solvere. Concedimus enim, quod per spe-
+<pb ed="#Ba" n="67"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ciem videre, per essentiam est videre.
+<lb ed="#Ba"/>In ipso enim essentia et omne et id quod
+<lb ed="#Ba"/>ost et esse idem sunt. Unde si species
+<lb ed="#Ba"/>pro essentia accipiatur, idem est 
+vi<lb ed="#Ba" break="no"/>dere per speciem, quod videre per 
+es<lb ed="#Ba" break="no"/>sontiam. Et sicut in hac vita non 
+vide<lb ed="#Ba" break="no"/>tur per essentiam, ita non videtur per
+<lb ed="#Ba"/>xpeciem. Si species autem dicatur species
+<lb ed="#Ba"/>intelligibilis theorie vel theophanie, 
+se<lb ed="#Ba" break="no"/>cundum quod videre per speciem 
+condi<lb ed="#Ba" break="no"/>vidit visionem divinam cum visione 
+sen<lb ed="#Ba" break="no"/>sibili, que est per sensibilem visionem
+<lb ed="#Ba"/>corporis et figuram, et cum visione ima
+<lb ed="#Ba"/>ginaria, que est per imagines corporum
+<lb ed="#Ba"/>otiam corporibus sensu non presentibus :
+<lb ed="#Ba"/>tunc nihil prohibet multos in hac vita
+<lb ed="#Ba"/>eum per speciem vidisse. Omnes enim
+<lb ed="#Ba"/>qui intellectualiter in theoriis et 
+theopha<lb ed="#Ba" break="no"/>niis Deum viderunt, per speciem Deum
+<lb ed="#Ba"/>viderunt, ut dicit Augustinus de Moyse.
+</p>
+               <p xml:id="Almn78-a10251-d1e3441">
+                  <lb ed="#Ba"/>Et quod objicitur postea de Paulo, 
+so<lb ed="#Ba" break="no"/>lutum est. In sua enim visione mortalem
+<lb ed="#Ba"/>vitam excessit per raptum : quod 
+poten<lb ed="#Ba" break="no"/>tie divine est et gratie. Psal. Lxxxvu,
+<lb ed="#Ba"/>10: Domini est assumptio nostra, et
+<lb ed="#Ba"/>sancti Israel regis nostri.
+</p>
+            </div>
+            <div xml:id="Almn78-a10251-Dd1e3458">
+               <head xml:id="Almn78-a10251-Hd1e3460">Membrum 6</head>
+               <head xml:id="Almn78-a10251-Hd1e3463" type="question-title">
+  Quid sit cognoscere Deum in praesentia,
+  secundum quod in omni erratura 
+  dicitur esse essentialiter, presentialiter,
+  et potentialiter ?
+</head>
+               <p xml:id="Almn78-a10251-d1e3466">
+                  <lb ed="#Ba"/>MEMBRUM VI.
+<lb ed="#Ba"/>Quid sit cognoscere Deum in praesentia,
+<lb ed="#Ba"/>secundum quod in omni erratura 
+di<lb ed="#Ba" break="no"/>citur esse essentialiter, presentialiter,
+<lb ed="#Ba"/>et potentialiter ?
+</p>
+               <p xml:id="Almn78-a10251-d1e3479">
+                  <lb ed="#Ba"/>Sexto queritur, Quid sit cognoscere
+<lb ed="#Ba"/>Deum in presentia, secundum quod in
+<lb ed="#Ba"/>omni creatura dicitur esse essentialiter,
+<lb ed="#Ba"/>presentialiter, et potentialiter ?
+</p>
+               <p xml:id="Almn78-a10251-d1e3490">
+                  <lb ed="#Ba"/>Per hoc enim certitudinaliter scimus,
+<lb ed="#Ba"/>quod inter omnem rem non est inclusus,
+<lb ed="#Ba"/>ut extra omnem rem non est exclusus, et
+<lb ed="#Ba"/>supra omnem rem ab infimis non elatus,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>et infra omnem rem a supremis non 
+de<lb ed="#Ba" break="no"/>pressus, ut dicit Gregorius. Et ita 
+certi<lb ed="#Ba" break="no"/>tudinaliter scimus Deum esse in 
+creatu<lb ed="#Ba" break="no"/>ris, nec dubitare licet.
+</p>
+               <p xml:id="Almn78-a10251-d1e3513">
+                  <lb ed="#Ba"/>In contrarium hujus, quod melior et
+<lb ed="#Ba"/>certior inhabitatio videtur esse per 
+gra<lb ed="#Ba" break="no"/>tiam, quam per naturam : et cum 
+inha<lb ed="#Ba" break="no"/>bitat per gratiam, non certi sumus de
+<lb ed="#Ba"/>presentia Dei: quia nemo scit utrum
+<lb ed="#Ba"/>odio vel amore dignus sit ?. Ergo multo
+<lb ed="#Ba"/>minus scimus eum presentem' esse per
+<lb ed="#Ba"/>nature vestigium vel imaginem.
+</p>
+               <p xml:id="Almn78-a10251-d1e3533">
+                  <lb ed="#Ba"/>Juxta hoc queritur, An Deus sit 
+in<lb ed="#Ba" break="no"/>cognoscibilis quocumque modo, nisi per
+<lb ed="#Ba"/>assimilationem ad ipsum ?
+</p>
+               <p xml:id="Almn78-a10251-d1e3542">
+                  <lb ed="#Ba"/>Et videtur. quod non.
+<lb ed="#Ba"/>1. 1 Joan. ur, 2: Scimus quoniam cum
+<lb ed="#Ba"/>apparuerit, similes ei erimus, quoniam
+<lb ed="#Ba"/>videbimus eum sicuti est. Premittit,
+<lb ed="#Ba"/>similes et erimus, ut notetur esse causa
+<lb ed="#Ba"/>ad videndum Deum: non ergo videtur
+<lb ed="#Ba"/>nisi per assimilationem ad ipsum.
+</p>
+               <p xml:id="Almn78-a10251-d1e3560">
+                  <lb ed="#Ba"/>2. Adhuc, Dionysius in Celesti 
+hierar<lb ed="#Ba" break="no"/>chia vult quod Deus immittendo lumen
+<lb ed="#Ba"/>in Angelos et homines, et Angeli et 
+ho<lb ed="#Ba" break="no"/>mines purgant dissimilitudinis habitum.
+<lb ed="#Ba"/>Sed dissimilitudinis habitus non purga=
+<lb ed="#Ba"/>tur, nisi per similitudinis habitum : quia
+<lb ed="#Ba"/>purgatur oppositum per oppositum. Ergo
+<lb ed="#Ba"/>videtur, quod Deus non videtur, nisi
+<lb ed="#Ba"/>per illuminationem assimilantem nos
+<lb ed="#Ba"/>Deo.
+</p>
+               <p xml:id="Almn78-a10251-d1e3584">
+                  <lb ed="#Ba"/>3. Adhuc, Empedocles dicit, et 
+Ari<lb ed="#Ba" break="no"/>stoteles probat in IT de Anima, quod 
+si<lb ed="#Ba" break="no"/>mile simili cognoscimus. Ergo nullius
+<lb ed="#Ba"/>rei cognitio fit, nisi per assimilationem
+<lb ed="#Ba"/>ad illam : ergo nec Dei.
+</p>
+               <p xml:id="Almn78-a10251-d1e3597">
+                  <lb ed="#Ba"/>4. Adhuc, Augustinus in libro IX de
+<lb ed="#Ba"/>Trinitate: <quote xml:id="Almn78-a10251-Qd1e3603"> Cum Deum cognoscimus,
+<lb ed="#Ba"/>quedam similitudo Dei in nobis est, qua
+<lb ed="#Ba"/>Deum cognoscimus *. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e3612">
+                  <lb ed="#Ba"/>In contrarium est, quod ante 
+proba<lb ed="#Ba" break="no"/>tum est, quod facie ad faciem videre, est
+<lb ed="#Ba"/>sine medio videre: per similitudinem 
+au<lb ed="#Ba" break="no"/>tem videre, per medium videre est.
+</p>
+               <p xml:id="Almn78-a10251-d1e3623">
+                  <pb ed="#Ba" n="68"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Solutio. Ad haec et hujusmodi 
+dicen<lb ed="#Ba" break="no"/>dum, quod indubitanter Deus 
+cognosci<lb ed="#Ba" break="no"/>tur in creaturis, sicut probatum est : quia
+<lb ed="#Ba"/>medium probandi Deum esse, in 
+creatu<lb ed="#Ba" break="no"/>ris certum est et in nostra facultate. 
+Ef<lb ed="#Ba" break="no"/>fectus enim certus per quem causa 
+osten<lb ed="#Ba" break="no"/>ditur, quem nisi causa continua 
+actio<lb ed="#Ba" break="no"/>ne detineret, in nihilum decideret. De
+<lb ed="#Ba"/>quo tamen in sequentibus, qualiter Deus
+<lb ed="#Ba"/>in creaturis sit, disputabitur et subtilius
+<lb ed="#Ba"/>inquiretur: Inhabitatio autem per 
+gra<lb ed="#Ba" break="no"/>tiam, non dicit tantum Deum esse in 
+no<lb ed="#Ba" break="no"/>bis sicut influentem esse et continentem,
+<lb ed="#Ba"/>sed insuper dicit acceptionem qua Deo
+<lb ed="#Ba"/>accepti sumus, et opus nostrum 
+accep<lb ed="#Ba" break="no"/>tum : que acceptio non sufficienter 
+re<lb ed="#Ba" break="no"/>presentatur per effectus. Et ideo an
+<lb ed="#Ba"/>Deus sit in nobis per gratiam, dubium
+<lb ed="#Ba"/>relinquitur. Et ideo licet inhabitatio per
+<lb ed="#Ba"/>gratiam dignior sit quam inhabitatio
+<lb ed="#Ba"/>per naturam, tamen non est certior ad
+<lb ed="#Ba"/>demonstrandum.
+</p>
+               <p xml:id="Almn78-a10251-d1e3678">
+                  <lb ed="#Ba"/>Ad i quod ulterius queritur de 
+simi<lb ed="#Ba" break="no"/>litudine, dicendum quod non videtur
+<lb ed="#Ba"/>Deus, nisi per habitus videntem Deo 
+as<lb ed="#Ba" break="no"/>similantes, non similitudine 
+equiparan<lb ed="#Ba" break="no"/>tie, sed imitationis, ut dicit Augustinus.
+<lb ed="#Ba"/>Sed tales habitus divini sive sint 
+natura<lb ed="#Ba" break="no"/>les, sive gratuiti, sive gloriosi, media
+<lb ed="#Ba"/>sunt coadjuvantia videntem et non in
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>terstantia. Et hoc intendit Augustinus
+<lb ed="#Ba"/>cum dicit, quod <quote xml:id="Almn78-a10251-Qd1e3704"> generatur similitudo
+<lb ed="#Ba"/>Dei in nobis. </quote>
+               </p>
+               <p xml:id="Almn78-a10251-d1e3710">
+                  <lb ed="#Ba"/>Quop autem Dionysius dicit, quod 
+illu<lb ed="#Ba" break="no"/>minatione purgatur dissimilitudinis 
+habi<lb ed="#Ba" break="no"/>tus, intelligitur de dissimilitudine 
+habi<lb ed="#Ba" break="no"/>tuali privationis que purgatur immisso
+<lb ed="#Ba"/>habitu, sicut ignorantia purgatur 
+sclen<lb ed="#Ba" break="no"/>tia, et sicut ceci illuminati per Christum
+<lb ed="#Ba"/>cecitate mentis purgati sunt. Habitus
+<lb ed="#Ba"/>enim assimilat, et privatio tollit 
+assimi<lb ed="#Ba" break="no"/>lans, et dissimilitudinem facit.
+</p>
+               <p xml:id="Almn78-a10251-d1e3732">
+                  <lb ed="#Ba"/>Et quop dicitur, Simile simili 
+cogno<lb ed="#Ba" break="no"/>scitur,verissimum est in omnibus : sed in
+<lb ed="#Ba"/>his que sunt actus purus,qui est et causa
+<lb ed="#Ba"/>et intellectus, et lux et intelligibile, non
+<lb ed="#Ba"/>differt simile a simili per substantiam,
+<lb ed="#Ba"/>sed per esse secundum rationem tantum,
+<lb ed="#Ba"/>scilicet secundum esse quod habet in 
+in<lb ed="#Ba" break="no"/>telligentia participante ipsum, et 
+secun<lb ed="#Ba" break="no"/>dum esse quod habet in seipso. Et ideo
+<lb ed="#Ba"/>non facit hoc similiter distantiam 
+viden<lb ed="#Ba" break="no"/>tis a re visa. Et hoc est quod dicit 
+Ber<lb ed="#Ba" break="no"/>nardus in libro de Consideratione ad
+<lb ed="#Ba"/>Eugenium : <quote xml:id="Almn78-a10251-Qd1e3762"> Beata visio est videre
+<lb ed="#Ba"/>Deum in se, videre Deum in teipso, et in
+<lb ed="#Ba"/>omnibus aliis, He enim visiones non
+<lb ed="#Ba"/>differunt per differentiam visibilis 
+secun<lb ed="#Ba" break="no"/>dum substantiam, sed per differentiam
+<lb ed="#Ba"/>esse, quo aliter est in se, et aliter in
+<lb ed="#Ba"/>aliis. </quote>
+  
+                  <cb ed="#Ba" n="b"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

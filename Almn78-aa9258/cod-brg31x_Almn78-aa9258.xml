@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="47"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa9258"><!-- p1t2q12 -->
+            <head xml:id="Almn78-aa9258-Hd1e106">Quaestio 12</head>
+            <head xml:id="Almn78-aa9258-Hd1e109" type="question-title">De rebus fruentibus et utentibus.</head>
+            <p xml:id="Almn78-aa9258-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XII.
+<lb ed="#Ba"/>De rebus fruentibus et utentibus.
+</p>
+            <div xml:id="Almn78-aa9258-Dd1e121">
+               <head xml:id="Almn78-aa9258-Hd1e123">Membrum 1</head>
+               <head xml:id="Almn78-aa9258-Hd1e126" type="question-title">
+  Utrum homines et Angeli sint res 
+  fruentes et utentes tamquam medii inter res
+  utibiles et fruibiles
+</head>
+               <p xml:id="Almn78-aa9258-d1e129">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum homines et Angeli sint res 
+fruen<lb ed="#Ba" break="no"/>les et utentes tamquam medii inter res
+<lb ed="#Ba"/>utibiles et fruibiles ?
+</p>
+               <p xml:id="Almn78-aa9258-d1e142">
+                  <lb ed="#Ba"/>Deinde queritur de fruentibus et 
+uten<lb ed="#Ba" break="no"/>tibus.
+</p>
+               <p xml:id="Almn78-aa9258-d1e149">
+                  <lb ed="#Ba"/>Et primo de fruentibus.
+<lb ed="#Ba"/>1. Dicit autem Augustinus, quod res
+<lb ed="#Ba"/>que fruuntur et utuntur, nos sumus,
+<lb ed="#Ba"/>quasi inter utrasque, fruibiles  scilicet
+<lb ed="#Ba"/>res, et utiles constituti, et Angeli sancti.
+<lb ed="#Ba"/>it videtur esse diminutus : quia etiam
+<lb ed="#Ba"/>lus seipso fruitur, ut dicit Gregorius
+<lb ed="#Ba"/>super illud Job, xz, 4 : Si habes 
+bra<lb ed="#Ba" break="no"/>thium, sic : <quote xml:id="Almn78-aa9258-Qd1e170"> Dum se fruitur, nullo
+<lb ed="#Ba"/>houo indiget, </quote> Res ergo fruentes 
+com<lb ed="#Ba" break="no"/>prehendunt etiam Deum.
+</p>
+               <p xml:id="Almn78-aa9258-d1e179">
+                  <lb ed="#Ba"/>2. Adhuc, Augustinus in libro I 
+Doe<lb ed="#Ba" break="no"/>trina Christiana : <quote xml:id="Almn78-aa9258-Qd1e185"> Cum Deus diligat
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>nos, aut fruendo, aut utendo diligit
+<lb ed="#Ba"/>nos. </quote> Si fruendo, eget bono nostro :
+<lb ed="#Ba"/>quod nemo sanus dixerit. Si utendo,
+<lb ed="#Ba"/>tunc bonum nostrum refert ad aliud : et
+<lb ed="#Ba"/>hoc verum est. Ille enim nostri 
+misere<lb ed="#Ba" break="no"/>tur, ut se perfruatur : nos autem nostri
+<lb ed="#Ba"/>miseremur, ut illo perfruamur. Ergo
+<lb ed="#Ba"/>Deus est de rebus fruentibus et 
+utenti<lb ed="#Ba" break="no"/>bus : qui tamen non est medius inter
+<lb ed="#Ba"/>fruibiles res et utiles.
+</p>
+               <p xml:id="Almn78-aa9258-d1e212">
+                  <lb ed="#Ba"/>3. Adhuc, Augustinus : <quote xml:id="Almn78-aa9258-Qd1e216"> Ille usus
+<lb ed="#Ba"/>quo nobis utitur Deus, non ad ejus, sed
+<lb ed="#Ba"/>nostram utilitatem refertur : ad ejus
+<lb ed="#Ba"/>vero tantummodo bonitatem. </quote> Ergo
+<lb ed="#Ba"/>Deus est de rebus fruentibus et 
+utenti<lb ed="#Ba" break="no"/>bus.
+</p>
+               <p xml:id="Almn78-aa9258-d1e230">
+                  <lb ed="#Ba"/>4, Ulterius etiam videtur data divisio
+<lb ed="#Ba"/>non esse sufficiens : quia etiam 
+insensi<lb ed="#Ba" break="no"/>bilia, vegetabilia scilicet, per se et super
+<lb ed="#Ba"/>omnia innituntur dulci commixto : ergo
+<lb ed="#Ba"/>fruuntur illo.
+</p>
+               <p xml:id="Almn78-aa9258-d1e243">
+                  <lb ed="#Ba"/>5. Adhuc, Bruta diligunt cibos, et non
+<lb ed="#Ba"/>referunt ad aliud : ergo fruuntur eis : 
+er<lb ed="#Ba" break="no"/>go tam vegetabilia quam bruta sunt de
+<lb ed="#Ba"/>rebus fruentibus : non ergo homines et
+<lb ed="#Ba"/>Angeli tantum.
+  
+<pb ed="#Ba" n="48"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ulterius queritur, Si homo naturali
+<lb ed="#Ba"/>dilectione frui potest ?
+</p>
+               <p xml:id="Almn78-aa9258-d1e265">
+                  <lb ed="#Ba"/>Et videtur, quod sic : diligere enim
+<lb ed="#Ba"/>aliquis potest naturali dilectione et 
+dile<lb ed="#Ba" break="no"/>etionem non ad aliud referre.
+</p>
+               <p xml:id="Almn78-aa9258-d1e274">
+                  <lb ed="#Ba"/>Apuvc ulterius queritur, Si homo in
+<lb ed="#Ba"/>peccato exislens frui potest ?
+</p>
+               <p xml:id="Almn78-aa9258-d1e282">
+                  <lb ed="#Ba"/>Et videtur, quod sic : quia in peccato
+<lb ed="#Ba"/>existens aliquid diligit propter se, 
+dile<lb ed="#Ba" break="no"/>ctionem ad aliud non referens : ergo 
+frui<lb ed="#Ba" break="no"/>tur secundum assignationem 
+preindu<lb ed="#Ba" break="no"/>cetam de frui.
+</p>
+               <p xml:id="Almn78-aa9258-d1e295">
+                  <lb ed="#Ba"/>In contrarium est, quod
+<lb ed="#Ba"/>1. De perfectione patrie frui est, et
+<lb ed="#Ba"/>non vie : referre ergo ad aliud, viantis
+<lb ed="#Ba"/>est et procedentis : non referre autem ad
+<lb ed="#Ba"/>aliud, stantis et manentis. Frui autem
+<lb ed="#Ba"/>est non ad aliud referre : ergo frui 
+stan<lb ed="#Ba" break="no"/>tis et manentis est : hoc autem patrie
+<lb ed="#Ba"/>est : ergo frui patria est : non ergo 
+ve<lb ed="#Ba" break="no"/>getabilia vel bruta vel homines naturali
+<lb ed="#Ba"/>dilectione vel in peccato existentes frui
+<lb ed="#Ba"/>possunt,.
+</p>
+               <p xml:id="Almn78-aa9258-d1e321">
+                  <lb ed="#Ba"/>2, Adhuc, Videtur quod nec beati
+<lb ed="#Ba"/>fruantur : fruens enim indiget fruibili :
+<lb ed="#Ba"/>beatus autem nullo indiget : ergo frui
+<lb ed="#Ba"/>non est beat.
+</p>
+               <p xml:id="Almn78-aa9258-d1e332">
+                  <lb ed="#Ba"/>Sotuno. Ad hoc dicendum, quod si
+<lb ed="#Ba"/>frui strictissime capiatur : tunc frui non
+<lb ed="#Ba"/>est nisi ejus qui diligit aliquid propter
+<lb ed="#Ba"/>se, in quo dilectionis gressum figit et
+<lb ed="#Ba"/>terminum ponit : ita quod nec diligens
+<lb ed="#Ba"/>habet ulterius quo referat dilectionem,
+<lb ed="#Ba"/>nec dilectum ad aliud referri potest 
+se<lb ed="#Ba" break="no"/>cundum se, nec secundum statum in
+<lb ed="#Ba"/>quo diligitur. Et sic non potest aliquis
+<lb ed="#Ba"/>frui nisi Deo concepto ab ipso ut est 
+ob<lb ed="#Ba" break="no"/>jectum gloria. Et sic verum est quod
+<lb ed="#Ba"/>dicit Augustinus, quod <quote xml:id="Almn78-aa9258-Qd1e360"> frui est solius
+<lb ed="#Ba"/>patrie et solius hominis et Angeli. </quote>
+                  <lb ed="#Ba"/>In his enim distinctum est fruens a 
+frui<lb ed="#Ba" break="no"/>bili per essentialem distinctionem : et
+<lb ed="#Ba"/>non est quo referatur dilectio vel 
+dile<lb ed="#Ba" break="no"/>clum.
+</p>
+               <p xml:id="Almn78-aa9258-d1e374">
+                  <lb ed="#Ba"/>Et cum dicitur, quod Deus seipso 
+frui<lb ed="#Ba" break="no"/>tur, non est distinctio inter fruens et
+<lb ed="#Ba"/>fruibile et fruitionem. Et ideo Gregorius
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>dicit : <quote xml:id="Almn78-aa9258-Qd1e387"> Dum se fruitur, nullo bono
+<lb ed="#Ba"/>indiget : </quote> ipse enim est et sibi presto
+<lb ed="#Ba"/>est et fruens et fruibile et fruitio : et ideo
+<lb ed="#Ba"/>non cadit in rationem medii, quod per
+<lb ed="#Ba"/>privationem extremi fiat medium, sicut
+<lb ed="#Ba"/>homo et Angelus. Et sic stat divisio
+<lb ed="#Ba"/>Augustini, quod scilicet quedam res
+<lb ed="#Ba"/>sunt quibus tantum fruendum est, ut
+<lb ed="#Ba"/>Deus trinitas : quedam quibus tantum
+<lb ed="#Ba"/>utendum est, ut mundus et in eo 
+con<lb ed="#Ba" break="no"/>tenta : quedam autem que fruuntur et
+<lb ed="#Ba"/>utuntur, ut homo et Angelus, que 
+me<lb ed="#Ba" break="no"/>dia dicuntur, quia ex utilibus pertingunt
+<lb ed="#Ba"/>ad fruibilia.
+</p>
+               <p xml:id="Almn78-aa9258-d1e419">
+                  <lb ed="#Ba"/>Si autem /rui communiter accipiatur :
+<lb ed="#Ba"/>tunc frui est uti cum gaudio : et sic 
+frui<lb ed="#Ba" break="no"/>mur cognitis, in quibus voluntas est vel
+<lb ed="#Ba"/>delectata conquiescit : et sic fruimur Deo
+<lb ed="#Ba"/>in via, quem tamen non habemus nisi
+<lb ed="#Ba"/>spe, ut dicit Augustinus. Et in quantum
+{ruimur ipso, peregrinationem nostram
+<lb ed="#Ba"/>tolerabilius sustinemus, et ardentius
+<lb ed="#Ba"/>finiri cupimus. Quamvis eniin dilectum
+<lb ed="#Ba"/>in tali fruitione ad aliud referibile non
+<lb ed="#Ba"/>sit, dilectio tamen fruentis ad aliud 
+ten<lb ed="#Ba" break="no"/>dit secundum statum, sicut  sentiens
+<lb ed="#Ba"/>dulcissimum per odorem, tendit ad 
+sa<lb ed="#Ba" break="no"/>porem ejusdem et gustum.’Et ideo dicit
+<lb ed="#Ba"/>Augustinus, quod <quote xml:id="Almn78-aa9258-Qd1e451"> sic fruendo 
+peregri<lb ed="#Ba" break="no"/>nationem nostram finiri cupimus, ut 
+sci<lb ed="#Ba" break="no"/>licet de odore ad gustum perveniamus. </quote>
+                  <lb ed="#Ba"/>Cantic. 1, 3 : Curremus in odorem 
+un<lb ed="#Ba" break="no"/>guentorum tuorum. Ad Philipp. 1, 23 :
+<lb ed="#Ba"/>Desideritum habens dissolvt, et esse cum
+<lb ed="#Ba"/>Christo, multo magis melius.
+</p>
+               <p xml:id="Almn78-aa9258-d1e469">
+                  <lb ed="#Ba"/>Ad Hoc quod objectum est, quod Deus
+<lb ed="#Ba"/>ulitur nobis, dicendum quod hoc verum
+<lb ed="#Ba"/>est et in via et in patria : quia omne 
+bo<lb ed="#Ba" break="no"/>num quod ad nostram utilitatem facit in
+<lb ed="#Ba"/>nobis, de sui natura et naturali ordine,
+<lb ed="#Ba"/>refertur ad bonitatis sue gloriam. Et
+<lb ed="#Ba"/>vult, quod etiam a nobis ad gloriam
+<lb ed="#Ba"/>suam referatur. Est enim sua _bonitas
+<lb ed="#Ba"/>causa efficiens, et causa formaliter 
+exem<lb ed="#Ba" break="no"/>plaris, et causa finalis omnis boni. Et
+<lb ed="#Ba"/>secundum quod est efficiens, percipitur
+<lb ed="#Ba"/>bonum ejus: secundum quod est forma
+<lb ed="#Ba"/>exemplaris, determinatur ad esse boni :
+<lb ed="#Ba"/>et secundum quod est finalis, convertit
+<pb ed="#Ba" n="49"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>ad primam bonitatem ut sit perfectum in
+<lb ed="#Ba"/>actu et operatione boni. Et tale bonum
+<lb ed="#Ba"/>vocavit Plato ethmagium sive sigillum
+<lb ed="#Ba"/>boni, ex quo ut causa fiunt boni forme :
+<lb ed="#Ba"/>et per idem ut impressa sigillata 
+determi<lb ed="#Ba" break="no"/>nantur ad sigilli formam et 
+similitudi<lb ed="#Ba" break="no"/>nem : per relationem autem sigillati ad
+<lb ed="#Ba"/>sigillum perfecta determinatur imitatio
+<lb ed="#Ba"/>sigillati ad sigillum.
+</p>
+               <p xml:id="Almn78-aa9258-d1e526">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod si fru 
+pro<lb ed="#Ba" break="no"/>prie accipiatur, non est nisi in eo bono
+<lb ed="#Ba"/>quod per se pascit, et quod summum 
+bo<lb ed="#Ba" break="no"/>tum est, et quod nec ad aliud refertur,
+<lb ed="#Ba"/>nec referibile est : unde vegetabilia non
+<lb ed="#Ba"/>fruuntur nisi secundum quid : quia ad
+<lb ed="#Ba"/>aliud non ‘referunt : secundum quid 
+au<lb ed="#Ba" break="no"/>tem fruitio, fruitionis simpliciter 
+ratio<lb ed="#Ba" break="no"/>nem non habet.
+</p>
+               <p xml:id="Almn78-aa9258-d1e548">
+                  <lb ed="#Ba"/>Eo modo dicendum est ad
+<lb ed="#Ba"/>quod de brutis inducitur.
+</p>
+               <p xml:id="Almn78-aa9258-d1e555">
+                  <lb ed="#Ba"/>Ad id autem quod ulterius queritur de
+<lb ed="#Ba"/>naturali dilectione, dicendum quod 
+natu<lb ed="#Ba" break="no"/>ralis dilectio non est tam fortis ut 
+inhe<lb ed="#Ba" break="no"/>sionem fruitionis simpliciter facere 
+pos<lb ed="#Ba" break="no"/>sit. Ex naturalibus enim procedit, que
+<lb ed="#Ba"/>sui natura ad gratuita et glorificantia 
+or<lb ed="#Ba" break="no"/>dinata sunt ut perficiantur. Frui autem
+<lb ed="#Ba"/>proprie est delectari in bono circa 
+opera<lb ed="#Ba" break="no"/>lionem non impeditam, nec ex parte 
+de<lb ed="#Ba" break="no"/>lectantis, nec ex parte delectabilis. Unde
+<lb ed="#Ba"/>taliter frui, nec est frui propriissime 
+di<lb ed="#Ba" break="no"/>clum, nec communiter dictum.
+</p>
+               <p xml:id="Almn78-aa9258-d1e584">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in peccato
+<lb ed="#Ba"/>mortali aliquid diligens, contrarium tali
+<lb ed="#Ba"/>dilectioni habet in seipso : et ideo 
+dele<lb ed="#Ba" break="no"/>clatio non potest esse operationis nullo
+<lb ed="#Ba"/>modo impedite. Propter quod taliter 
+di<lb ed="#Ba" break="no"/>ligere non est frui nisi secundum quid.
+</p>
+               <p xml:id="Almn78-aa9258-d1e600">
+                  <lb ed="#Ba"/>Ad 1Luup quod in contrarium objicitur,
+<lb ed="#Ba"/>dicendum, quod frui non est vie nisi
+<lb ed="#Ba"/>communiter, vel secundum quid 
+accep<lb ed="#Ba" break="no"/>lum.
+</p>
+               <p xml:id="Almn78-aa9258-d1e612">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum dicitur
+<lb ed="#Ba"/>quod beatus nullo indiget quod sit extra
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>ipsum, sine quo beatus esse non possit,
+<lb ed="#Ba"/>talis indigentia simpliciter indigentia est,
+<lb ed="#Ba"/>propter quam a creatore motus taliter
+<lb ed="#Ba"/>indigentibus adhibitus est, ut ex motu
+<lb ed="#Ba"/>acquirant quod in seipsis non habent, ut
+<lb ed="#Ba"/>in Il de Calo et Mundo dicit Aristoteles.
+<lb ed="#Ba"/>Et tali indigentia non indiget beatus. Est
+<lb ed="#Ba"/>autem indigentia exigentiae, qua etiam
+<lb ed="#Ba"/>intrinsecis sibi quis indiget, ut secundum
+<lb ed="#Ba"/>ipsa agat vel patiatur, sicut dicimus 
+edi<lb ed="#Ba" break="no"/>ficatorem indigere practico intellectu et
+<lb ed="#Ba"/>manu : quorum tamen utrumque habet
+<lb ed="#Ba"/>intra se, indiget tamen eis ut secundum
+<lb ed="#Ba"/>ipsa agat, quia exiguntur ad operationem
+<lb ed="#Ba"/>ipsius. Et sic fruens indiget fruibili, et
+<lb ed="#Ba"/>beatus beatificante, et homo humanitate,
+<lb ed="#Ba"/>et albus albedine : quia talis indigentia
+<lb ed="#Ba"/>statui perfectionis in nullo repugnat.
+</p>
+            </div>
+            <div xml:id="Almn78-aa9258-Dd1e661">
+               <head xml:id="Almn78-aa9258-Hd1e663">Membrum 2</head>
+               <head xml:id="Almn78-aa9258-Hd1e666" type="question-title">
+  Utrum homo vel Angelus utens sit
+  in patria
+</head>
+               <p xml:id="Almn78-aa9258-d1e669">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum homo vel Angelus utens sit
+<lb ed="#Ba"/>in patria ?
+</p>
+               <p xml:id="Almn78-aa9258-d1e678">
+                  <lb ed="#Ba"/>Secundo, Queritur de utentibus.
+</p>
+               <p xml:id="Almn78-aa9258-d1e683">
+                  <lb ed="#Ba"/>Et queritur, Utram homo vel Angelus
+<lb ed="#Ba"/>utens sit in patria?
+</p>
+               <p xml:id="Almn78-aa9258-d1e691">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Uti enim est ad aliud referre : quod
+<lb ed="#Ba"/>viatori et vie convenit, et non patriz.
+<lb ed="#Ba"/>Utens enim ex eo quod refert, procedit
+<lb ed="#Ba"/>in id ad quod refert, et sic viando proficit
+<lb ed="#Ba"/>per dilectionem. In patria autem existens
+<lb ed="#Ba"/>dilectionis gressum jam fixit: quia in
+<lb ed="#Ba"/>termino est, et non est quo ulterius 
+dili<lb ed="#Ba" break="no"/>gendo procedat. Ergo videtur, quod 
+pa<lb ed="#Ba" break="no"/>trie non sit uti.
+</p>
+               <p xml:id="Almn78-aa9258-d1e715">
+                  <lb ed="#Ba"/>2. Adhuc, Dicit Augustinus in libro
+<lb ed="#Ba"/>Ide Doctrina Christiana, quod <quote xml:id="Almn78-aa9258-Qd1e721"> mundus
+<lb ed="#Ba"/>iste nobis proponitur in usum, ut per ea
+<lb ed="#Ba"/>que facta sunt intellecta invisibilia Dei
+<lb ed="#Ba"/>conspiciantur ‘: etsicut scale gradus per
+<pb ed="#Ba" n="50"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>quem ad. invisibilia ascendamus, nobis
+<lb ed="#Ba"/>proponitur *, </quote> Dicit autem Bernardus in
+<lb ed="#Ba"/>libro V de Consideratione : <quote xml:id="Almn78-aa9258-Qd1e741"> Quid opus
+<lb ed="#Ba"/>est scalis tenenti jam solium *? </quote> Ergo ei
+<lb ed="#Ba"/>qui in solio stat invisibilium Dei, et jam
+<lb ed="#Ba"/>fruitur ipsis, non proponitur mundus ad
+<lb ed="#Ba"/>usum : beati autem sic stant in solio :
+<lb ed="#Ba"/>ergo non utuntur, sed fruuntur.
+</p>
+               <p xml:id="Almn78-aa9258-d1e756">
+                  <lb ed="#Ba"/>5. Adhuc, Omnis utens volubiles 
+ha<lb ed="#Ba" break="no"/>bet cogitationes, ut dicit Augustinus : et
+<lb ed="#Ba"/>discursas disciplinas, ut in Celesti 
+hie<lb ed="#Ba" break="no"/>rarchia dicit Dionysius : volvitur enim
+<lb ed="#Ba"/>et discurrit ab uno ad aliud, ut ex 
+pluri<lb ed="#Ba" break="no"/>bus accipiat unum, in quo gressum figat
+<lb ed="#Ba"/>et considerationis et dilectionis. In patria
+<lb ed="#Ba"/>autem talis cogitationum non est 
+volubi<lb ed="#Ba" break="no"/>litas, ut dicit Augustinus 3, nec sunt 
+dis<lb ed="#Ba" break="no"/>curse discipline, ut dicit Dionysius : sed
+<lb ed="#Ba"/>est unum simplex quod unice et 
+simpli<lb ed="#Ba" break="no"/>citer et immaterialiter et immobiliter et
+<lb ed="#Ba"/>indiminute et continue et intemporaliter
+<lb ed="#Ba"/>simplici et immateriali et perfecto 
+inniti<lb ed="#Ba" break="no"/>tur intellectui, circa quod immobiliter
+<lb ed="#Ba"/>stat intellectus et affectus per 
+contempla<lb ed="#Ba" break="no"/>tionem et dilectionem. Ergo videtur,
+<lb ed="#Ba"/>quod usus non sit in patria.
+</p>
+               <p xml:id="Almn78-aa9258-d1e798">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Angeli in patria existentes 
+cognitio<lb ed="#Ba" break="no"/>nes habent matutinam et vespertinam, et
+<lb ed="#Ba"/>vespertinam referunt ad matutinam : uti
+<lb ed="#Ba"/>autem est ad aliud referre : ergo Angeli
+<lb ed="#Ba"/>utuntur in patria : et beatitudo hominis
+<lb ed="#Ba"/>est ut beatitudo Angeli: ergo et homines
+<lb ed="#Ba"/>utuntur.
+</p>
+               <p xml:id="Almn78-aa9258-d1e818">
+                  <lb ed="#Ba"/>2. Adhuc,Jam habitum est, quod Deus
+<lb ed="#Ba"/>utitur nobis diligendo nos, et tamen se
+<lb ed="#Ba"/>fruitur ; ergo frui et utise compatiuntur.
+</p>
+               <p xml:id="Almn78-aa9258-d1e827">
+                  <lb ed="#Ba"/>3. Adhuc, Apocal. iv, 10, dicitur, quod
+<lb ed="#Ba"/>viginti quatuor seniores coronas suas
+<lb ed="#Ba"/>mittebant ante pedes sedentis in throno,
+<lb ed="#Ba"/>Et vult dicere, quod beatitudinem suam
+<lb ed="#Ba"/>referebant in summum regem. Uti autem
+<lb ed="#Ba"/>est bonum acceptum ad aliud referre. 
+Er<lb ed="#Ba" break="no"/>go beati etiam in patria sua beatitudine
+<lb ed="#Ba"/>utuntur : et sic usus est in patria.
+</p>
+               <p xml:id="Almn78-aa9258-d1e848">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod sicut fruit,
+<lb ed="#Ba"/>ita et <mentioned>uti</mentioned> dupliciter dicitur : propriissime,
+<lb ed="#Ba"/>et communiter. Propriissime uti, est ab
+<lb ed="#Ba"/>uno in aliud procedere quod extra ipsum
+<lb ed="#Ba"/>est, et tali processu, quod et procedens
+<lb ed="#Ba"/>proficiat ad ulterius per dilectionem, et
+<lb ed="#Ba"/>etiam id ex quo procedit ut via ducat in
+<lb ed="#Ba"/>aliud. Et hoc modo usus non est nisi vie.
+<lb ed="#Ba"/>Et hoc modo Deus non utitur, nec 
+An<lb ed="#Ba" break="no"/>gelus, nec homo in patria, nec hoc modo
+<lb ed="#Ba"/>Deo et Angelo mundus ut scala 
+proponi<lb ed="#Ba" break="no"/>tur.
+<lb ed="#Ba"/>Et de tali usu procedunt primo 
+indu<lb ed="#Ba" break="no"/>ctz rationes : sic enim utens ef 
+contem<lb ed="#Ba" break="no"/>plando et diligendo proficit.
+</p>
+               <p xml:id="Almn78-aa9258-d1e888">
+                  <lb ed="#Ba"/>Dicitur etiam uti communiter, scilicet 
+<lb ed="#Ba" break="no"/>unum acceptum per intellectum et 
+affe<lb ed="#Ba" break="no"/>ctum solo actu intellectus vel affectus ad
+<lb ed="#Ba"/>aliud referre. Et sic semper inferius 
+re<lb ed="#Ba" break="no"/>fertur ad superius et in patria et in via.
+<lb ed="#Ba"/>Et sic uti est in patria, et non 
+contraria<lb ed="#Ba" break="no"/>tur ad id quod est frui. Et sic Deus utitur
+<lb ed="#Ba"/>nobis, et Angeli visionem vespertinam
+<lb ed="#Ba"/>ad matutinam, et beati suas coronas 
+re<lb ed="#Ba" break="no"/>ferunt ad sedentem super thronum. In
+<lb ed="#Ba"/>tali autem usu non est cogitationum 
+vo<lb ed="#Ba" break="no"/>lubilitas : sed intellectus contemplans stat
+<lb ed="#Ba"/>circa unum et idem, in se scilicet et in
+<lb ed="#Ba"/>creatis acceptum et secundum esse quo
+<lb ed="#Ba"/>est in creaturis, ad se secundum esse
+<lb ed="#Ba"/>quod habet in seipso relatum : quod non
+<lb ed="#Ba"/>est discursa disciplina, sed a Dionysio
+<lb ed="#Ba"/>vocatur <quote xml:id="Almn78-aa9258-Qd1e929"> circularis contemplatio ab 
+eo<lb ed="#Ba" break="no"/>dem per idem in idem redeundo 
+proce<lb ed="#Ba" break="no"/>dens. </quote>
+               </p>
+               <p xml:id="Almn78-aa9258-d1e937">
+                  <lb ed="#Ba"/>Et de hoc usu secundo inducte 
+ratio<lb ed="#Ba" break="no"/>nes procedunt.
+</p>
+               <p xml:id="Almn78-aa9258-d1e944">
+                  <lb ed="#Ba"/>RecarituLanpo autem dicimus, quod
+<lb ed="#Ba"/>ex dictis jam patet, quod tota theologia
+<lb ed="#Ba"/>circa signa et res est : et quod res in tria
+<lb ed="#Ba"/>dividuntur, scilicet in res quibus 
+fruen<lb ed="#Ba" break="no"/>dum est, et res quibus utendum est, et
+<lb ed="#Ba"/>res que utuntur et fruuntur.
+</p>
+               <p xml:id="Almn78-aa9258-d1e960">
+                  <pb ed="#Ba" n="51"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Et inter res quibus utendum est, 
+que<lb ed="#Ba" break="no"/>dam sunt per quas sicut formas et 
+dispo<lb ed="#Ba" break="no"/>sitiones vel sicut per instrumenta fruimur
+<lb ed="#Ba"/>el utimur, sicut virtutes que deserviunt
+<lb ed="#Ba"/>ul instrumenta.De his ergo oportet 
+doc<lb ed="#Ba" break="no"/>lrinam tradere.
+</p>
+               <p xml:id="Almn78-aa9258-d1e980">
+                  <lb ed="#Ba"/>Et primo de rebus in tribus primis 
+li<lb ed="#Ba" break="no"/>bris, et postea de signis et signatis in
+<lb ed="#Ba"/>quarto libro, in quo ista doctrina 
+com<lb ed="#Ba" break="no"/>plebitur.
+</p>
+               <p xml:id="Almn78-aa9258-d1e992">
+                  <lb ed="#Ba"/>Signum autem quamvis propter 
+mo<lb ed="#Ba" break="no"/>um signandi oppositum dividat id circa
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quod est theologia cum re ex opposito,
+<lb ed="#Ba"/>tamen secundum substantiam ad rem 
+re<lb ed="#Ba" break="no"/>ducitur, et sub utili continetur. Et 
+quam<lb ed="#Ba" break="no"/>vis in accipiendo scientiam Dei, signi
+<lb ed="#Ba"/>usus sit ante rei significatee acceptionem :
+<lb ed="#Ba"/>tamen in tradendo scientiam sive 
+doctri<lb ed="#Ba" break="no"/>nam, signi ratio determinabilis non est
+<lb ed="#Ba"/>nisi determinata re cujus signum est :
+<lb ed="#Ba"/>signum enim ad rem refertur, res autem
+<lb ed="#Ba"/>utibilis ad fruibilem, et utens et fruens ad
+<lb ed="#Ba"/>fruibile referuntur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

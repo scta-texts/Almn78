@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 83</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 83</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="127"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h28087"><!-- p2t14q83 -->
+            <head xml:id="Almn78-h28087-Hd1e106">Quaestio 83</head>
+            <head xml:id="Almn78-h28087-Hd1e109" type="question-title">
+    Utrum corpus Adae fuerit passibile, vel impassibile, et qua
+    passibilitate
+  </head>
+            <p xml:id="Almn78-h28087-d1e112">
+               <lb ed="#Bc"/>QUAESTIO LXXXIII.
+<lb ed="#Bc"/>Utrum corpus Adae fuerit passibile, vel impassibile, et qua
+<lb ed="#Bc"/>passibilitate?
+</p>
+            <p xml:id="Almn78-h28087-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Inter hec primo prosequitur Magister
+<lb ed="#Bc"/>de passibilitate in libro II Sententiarum,
+<lb ed="#Bc"/>distinct. XIX : et ideo nos primo 
+dispu<lb ed="#Bc" break="no"/>tabimus, utrum corpus scilicet Ade
+<lb ed="#Bc"/>fuerit passibile, et qua passibilitate ?
+</p>
+            <p xml:id="Almn78-h28087-d1e137">
+               <lb ed="#Bc"/>1. Dicit enim Magister in eodem 
+capi<lb ed="#Bc" break="no"/>tulo quod inductum est, quod Adam in
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>primo statu et immortalis fuit 
+quodam<lb ed="#Bc" break="no"/>modo secundum aliquid, et mortalis
+<lb ed="#Bc"/>secundum aliquid. Habuit enim posse
+<lb ed="#Bc"/>mori, et posse non mori. Mors autem
+<lb ed="#Bc"/>passio est. Ergo passibilis fuit in primo
+<lb ed="#Bc"/>statu.
+</p>
+            <p xml:id="Almn78-h28087-d1e160">
+               <lb ed="#Bc"/>2. Ad haec etiam quidam objiciunt
+<pb ed="#Bc" n="128"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>per ordinem nature. Ordo enim nature
+<lb ed="#Bc"/>est, quod superiora corpora inferant
+<lb ed="#Bc"/>inferioribus passiones alterationum 
+se<lb ed="#Bc" break="no"/>cundum tertiam speciem qualitatis, quae
+<lb ed="#Bc"/>est passio vel passibilis qualitas inferens
+<lb ed="#Bc"/>vel illata. Corpus autem primorum 
+pa<lb ed="#Bc" break="no"/>rentum fuit animale, ut tradit 
+Augusti<lb ed="#Bc" break="no"/>nus in libro IX super Genesim ad 
+litte<lb ed="#Bc" break="no"/>ram, et in libro XIII de Civitate Dei.
+<lb ed="#Bc"/>Ergo videtur, quod susceptibile fuit
+<lb ed="#Bc"/>talium impressionum. Ergo pati 
+po<lb ed="#Bc" break="no"/>tuit.
+</p>
+            <p xml:id="Almn78-h28087-d1e195">
+               <lb ed="#Bc"/>3. Adhuc, Sentire potuit: sentire 
+au<lb ed="#Bc" break="no"/>tem est pati, ut dicit Aristoteles in libro
+<lb ed="#Bc"/>de Somno et vigilia: aliter enim natura
+<lb ed="#Bc"/>non desideraret somnum, nisi sentiret, ut
+<lb ed="#Bc"/>ibidem dicit Aristoteles. Et operari 
+se<lb ed="#Bc" break="no"/>cundum sensum est laborare : sicut enim
+<lb ed="#Bc"/>ibidem dicit, colliquativum est labor: et
+<lb ed="#Bc"/>humidum quod liquat a membris, elevat
+<lb ed="#Bc"/>ad cerebrum : quod ibi infrigidatum,
+<lb ed="#Bc"/>ascendit ad organa sensuum, et gravat
+<lb ed="#Bc"/>et ligat ea, et sic inducit somnum. Cum
+<lb ed="#Bc"/>ergo primus homo susceptibilis fuerit
+<lb ed="#Bc"/>somni et cause somni, videtur quod 
+pas<lb ed="#Bc" break="no"/>sibile habuit corpus.
+</p>
+            <p xml:id="Almn78-h28087-d1e228">
+               <lb ed="#Bc"/>4. Adhuc, Theologice objicitur sic:
+<lb ed="#Bc"/>Primus homo tentari potuit, et decipi,
+<lb ed="#Bc"/>sicut patet, Genes. mi, 4 et seq. Ergo
+<lb ed="#Bc"/>secundum animam pati potuit, et 
+patie<lb ed="#Bc" break="no"/>batur a contrariis. Cum ergo corpus
+<lb ed="#Bc"/>minus dignum sit quam anima, multo
+<lb ed="#Bc"/>magis passibilis fuit secundum corpus.
+</p>
+            <p xml:id="Almn78-h28087-d1e246">
+               <lb ed="#Bc"/>Ulterius queritur, Si alterabilis fuit
+<lb ed="#Bc"/>Adam secundum senectutem ?
+</p>
+            <p xml:id="Almn78-h28087-d1e253">
+               <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>Omnia enim inferiora mensurantur
+<lb ed="#Bc"/>periodo secundum esse et vitam, ut dicit
+<lb ed="#Bc"/>Aristoteles in IT de Generatione et 
+Cor<lb ed="#Bc" break="no"/>ruptione. De ordine autem periodi est,
+<lb ed="#Bc"/>quod de pueritia proficiat in juventutem,
+<lb ed="#Bc"/>de juventute in virilem etatem, in qua
+<lb ed="#Bc"/>est status virtutis et substantie et 
+quan<lb ed="#Bc" break="no"/>titatis, et de virili etate diminuta virtute
+<lb ed="#Bc"/>deficiat in senectutem, et de senectute
+<lb ed="#Bc"/>destituta substantia deficiat in senium
+<lb ed="#Bc"/>putrescens. Cum ergo Adam tali periodo
+<lb ed="#Bc"/>subjaceret, videtur quod etiam ex pe
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>riodo alteraretur corpus ejus secundum
+<lb ed="#Bc"/>gradus etalis.
+</p>
+            <p xml:id="Almn78-h28087-d1e290">
+               <lb ed="#Bc"/>Contra ;
+<lb ed="#Bc"/>Ad Hebr. VIII, 13: <quote xml:id="Almn78-h28087-Qd1e296">Quod antiquatur et
+<lb ed="#Bc"/>senescit, prope interitum est</quote>. Sed, sicut
+<lb ed="#Bc"/>dicit Augustinus in libro XIIT de Civitate
+<lb ed="#Bc"/>Dei: <quote xml:id="Almn78-h28087-Qd1e306"> Adam ex lignis paradisi habuit
+<lb ed="#Bc"/>refectionem contra defectionem, ex ligno
+<lb ed="#Bc"/>vite conservationem contra senectulem
+<lb ed="#Bc"/>et mortem. </quote> Ergo videtur, quod 
+sene<lb ed="#Bc" break="no"/>scere non potuit.
+</p>
+            <p xml:id="Almn78-h28087-d1e319">
+               <lb ed="#Bc"/>Utrerius queritur, Si corpus Adae
+<lb ed="#Bc"/>passibile fuit per membri alicujus 
+abla<lb ed="#Bc" break="no"/>tionem, vel mutilationem ?
+</p>
+            <p xml:id="Almn78-h28087-d1e328">
+               <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>Habitum enim est, Genes. m1, 21, quod
+<lb ed="#Bc"/>ablata fuit sibi costa qua formata est in
+<lb ed="#Bc"/>Hevam: et sicut ablata fuit costa, ita
+<lb ed="#Bc"/>amputari poterat aliud membrum : ergo
+<lb ed="#Bc"/>videtur, quod pati potuit mutilationem.
+</p>
+            <p xml:id="Almn78-h28087-d1e344">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>4. Isidorus in libro de Trinitate :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h28087-Qd1e352"> Adam si in paradiso perstitisset, corpus
+<lb ed="#Bc"/>ejus nec ignis ureret, nec aqua mergeret,
+<lb ed="#Bc"/>nec gladius scinderet, nec spina 
+punge<lb ed="#Bc" break="no"/>ret. </quote> Ergo videtur, quod nihil in eo 
+am<lb ed="#Bc" break="no"/>putari poterat.
+</p>
+            <p xml:id="Almn78-h28087-d1e364">
+               <lb ed="#Bc"/>2. Adhuc, Si aliquod membrum 
+am<lb ed="#Bc" break="no"/>pularetur, constat quod divideretur a
+<lb ed="#Bc"/>continuo, et hoc sentiret Adam : ergo
+<lb ed="#Bc"/>doleret : quia dicit Philosophus, quod
+<lb ed="#Bc"/>dolor est sensus divisionis continui.
+<lb ed="#Bc"/>Ergo videtur, quod doleret in primo
+<lb ed="#Bc"/>statu, quod est contra Augustinum in
+<lb ed="#Bc"/>libro II de Libero arbitrio, qui dicit sic :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h28087-Qd1e385"> Doloris passio esse non potest, ubi non
+<lb ed="#Bc"/>precessit malitia. </quote>
+            </p>
+            <p xml:id="Almn78-h28087-d1e391">
+               <lb ed="#Bc"/>Utrerius queritur, Si resolubilis
+<lb ed="#Bc"/>fuisset per morlem si mansisset in statu
+<lb ed="#Bc"/>innocentiae ?
+</p>
+            <p xml:id="Almn78-h28087-d1e400">
+               <lb ed="#Bc"/>Et videtur, quod sic: quia
+<lb ed="#Bc"/>4. Dicit Augustinus, quod terminum
+<lb ed="#Bc"/>vite habuisset : terminus autem vite
+<lb ed="#Bc"/>non est nisi mors: ergo videtur, quod
+<lb ed="#Bc"/>morti subjacuisset etiam in primo statu.
+</p>
+            <p xml:id="Almn78-h28087-d1e414">
+               <lb ed="#Bc"/>2. Adhuc, Definitio datur secundum
+<lb ed="#Bc"/>essentialia, et ideo in omni statu conve
+<pb ed="#Bc" n="129"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>nit: quia aliter nomen, cujus est 
+defini<lb ed="#Bc" break="no"/>tio, secundum diversos status aquivoce
+<lb ed="#Bc"/>diceretur. Definitio autem hominis est,
+<lb ed="#Bc"/>animal rationale mortale. In primo ergo
+<lb ed="#Bc"/>statu mortalis fuit. Sed in primo de
+<lb ed="#Bc"/>Celo et Mundo determinat Aristoteles,
+<lb ed="#Bc"/>quod omne corruptibile corrumpetur de
+<lb ed="#Bc"/>necessitate tempore determinato : 
+mor<lb ed="#Bc" break="no"/>tale autem est corruptibile: ergo 
+mor<lb ed="#Bc" break="no"/>tale corrumpetur tempore determinato :
+<lb ed="#Bc"/>et sic videtur, quod per mortem 
+dissolu<lb ed="#Bc" break="no"/>tus fuisset.
+</p>
+            <p xml:id="Almn78-h28087-d1e451">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Ad Roman. v, 12: Sicut per unum
+<lb ed="#Bc"/>hominem peccatum in hune mundum 
+in<lb ed="#Bc" break="no"/>travit, et per peccatum mors : et ita in
+<lb ed="#Bc"/>omnes homines mors pertranstit. Ergo
+<lb ed="#Bc"/>videtur, quod mors non esset si 
+pecca<lb ed="#Bc" break="no"/>tum non esset.
+</p>
+            <p xml:id="Almn78-h28087-d1e469">
+               <lb ed="#Bc"/>2. Adhuc, Sapient. 1, 12 et seq.:
+<lb ed="#Bc"/>Nolite selare mortem in errore vite 
+ve<lb ed="#Bc" break="no"/>stre, neque acguiratis perditionem in
+<lb ed="#Bc"/>operibus manuum vestrarum. Quoniam
+<lb ed="#Bc"/>Deus mortem non fecit, nec letatur in
+<lb ed="#Bc"/>perditione vivorum. Creavit enim ut
+<lb ed="#Bc"/>essent omnia: et sanabiles fecit nationes
+<lb ed="#Bc"/>orbis terrarum. ,
+</p>
+            <p xml:id="Almn78-h28087-d1e489">
+               <lb ed="#Bc"/>Solutio. Ad primo quesitum 
+dicen<lb ed="#Bc" break="no"/>dum, quod passio dupliciter dicitur. 
+Di<lb ed="#Bc" break="no"/>citur enim a Greco nade quod est 
+rect<lb ed="#Bc" break="no"/>pere: et sic omne quod actionem recipit
+<lb ed="#Bc"/>ab aliquo agente, passibile dicitur, et
+<lb ed="#Bc"/>hoc est passibile in genere. Dicitur etiam
+<lb ed="#Bc"/>passibile quod recipit actionem agentis
+<lb ed="#Bc"/>contrarii quod agit ad dissolutionem,
+<lb ed="#Bc"/>secundum quod dicit Aristoteles in 
+Topi<lb ed="#Bc" break="no"/>cis, quod omnis passio magis facta 
+ab<lb ed="#Bc" break="no"/>jicit a substantia. Que passio cum dolore
+<lb ed="#Bc"/>est, et cum immutatione substantia.
+<lb ed="#Bc"/>Primo ergo modo corpus Ade in primo
+<lb ed="#Bc"/>statu fuit passibile : secundo modo non,
+<lb ed="#Bc"/>Et sicut Augustinus dicit, ex natura 
+pro<lb ed="#Bc" break="no"/>pria habuit passibilitatem, ex ligno 
+au<lb ed="#Bc" break="no"/>tem vite habuit impassibilitatem, ita
+<lb ed="#Bc"/>quod non patiebatur a contrario ad 
+dis<lb ed="#Bc" break="no"/>solutionem substantia.
+</p>
+            <p xml:id="Almn78-h28087-d1e533">
+               <lb ed="#Bc"/>Ad primum ergo quod objicitur contra
+<lb ed="#Bc"/>hoc, dicendum quod Augustinus di
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>stinguit tres status hominis. In primo
+<lb ed="#Bc"/>habuit posse mori ex natura et sub 
+con<lb ed="#Bc" break="no"/>ditione si peccaret. In secundo, post 
+pec<lb ed="#Bc" break="no"/>catum scilicet, necessitatem moriendi
+<lb ed="#Bc"/>propter peccatum habuit. Et ideo dicit
+<lb ed="#Bc"/>dicere Apostolum, ad Roman. vm, 410:
+<lb ed="#Bc"/>Corpus quidem mortuum est propter
+<lb ed="#Bc"/>peccatum, hoc est, necessitati mortis
+<lb ed="#Bc"/>addictum. In tertio statu, post 
+resurre<lb ed="#Bc" break="no"/>ctionem scilicet, habebit impossibilitatem
+<lb ed="#Bc"/>moriendi: quia, ut dicit Augustinus in
+<lb ed="#Bc"/>libro XXI de Civitate Dei, vitam in fonte
+<lb ed="#Bc"/>suo bibet, qui eum mori non permittet.
+<lb ed="#Bc"/>Unde mors qua potuit mori in primo
+<lb ed="#Bc"/>statu non induxit in Adam passionem
+<lb ed="#Bc"/>simpliciter secundo modo dictam, sed
+<lb ed="#Bc"/>secundum quid: et ideo non procedit
+<lb ed="#Bc"/>argumentum.
+</p>
+            <p xml:id="Almn78-h28087-d1e581">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod etsi corpus
+<lb ed="#Bc"/>Ade susceptibile fuit impressionum
+<lb ed="#Bc"/>celestium corporum, non tamen 
+suscep<lb ed="#Bc" break="no"/>tibile fuit ad dissolutionem et dolorem,
+<lb ed="#Bc"/>conservante cum gratia innocentie et
+<lb ed="#Bc"/>ligno vite.
+</p>
+            <p xml:id="Almn78-h28087-d1e598">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod sentlire non
+<lb ed="#Bc"/>est pati, nisi primo modo dicta passione :
+<lb ed="#Bc"/>nec operari secundum sensum fuit sibi
+<lb ed="#Bc"/>labor, sed nobis post peccatum in quod
+<lb ed="#Bc"/>incidimus : nec sopor quem habuit ex 
+la<lb ed="#Bc" break="no"/>bore sensuum fuit, sed sicut dicitur,
+<lb ed="#Bc"/>Genes, u, 24: Immisit ergo Dominus
+<lb ed="#Bc"/>Deus soporem in Adam, ad 
+significatio<lb ed="#Bc" break="no"/>nem scilicet futurorum.
+</p>
+            <p xml:id="Almn78-h28087-d1e620">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod primus
+<lb ed="#Bc"/>homo tentari potuit et decipi tentatione
+<lb ed="#Bc"/>exteriori, sed non interiori: hec autem
+<lb ed="#Bc"/>tentatio secundum quod est ab hoste
+<lb ed="#Bc"/>exteriori, non inducit passionem: et
+<lb ed="#Bc"/>ideo etiam in corpore non signat 
+passio<lb ed="#Bc" break="no"/>nem simpliciter, sed secundum quid et
+<lb ed="#Bc"/>in potentia tantum.
+</p>
+            <p xml:id="Almn78-h28087-d1e640">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Bc"/>alterabilis esset secundum senectutem ?
+  
+<lb ed="#Bc"/>Dicendum, quod duplex est talis 
+alte<lb ed="#Bc" break="no"/>ratio, scilicet accepta in mensurante, et
+<lb ed="#Bc"/>accepta in mensurato. Secundum 
+perio<lb ed="#Bc" break="no"/>dum mensurantem bene fuit alterabilis:
+<lb ed="#Bc"/>fuisset enim junior et senior processu
+<pb ed="#Bc" n="130"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>aetatis, Secundum id autem guod 
+relin<lb ed="#Bc" break="no"/>quit mensurans in mensurato, non 
+fuis<lb ed="#Bc" break="no"/>set alterabilis. Unde virtute et quantitate
+<lb ed="#Bc"/>substantia nec profecisset nec defecisset,
+<lb ed="#Bc"/>sed in perfectione in qua creatus fuit,
+<lb ed="#Bc"/>stelissct usque ad terminum 
+preordina<lb ed="#Bc" break="no"/>tum a Deo quo translatus fuisset ad 
+vi<lb ed="#Bc" break="no"/>tam simpliciter immortalem, Et 
+diversi<lb ed="#Bc" break="no"/>tas periodi secundum diversitatem
+<lb ed="#Bc"/>virtutis et substantie non est nisi in
+<lb ed="#Bc"/>corporibus subjacentibus periodo que
+<lb ed="#Bc"/>sunt generabilia et corruptibilia: tali
+<lb ed="#Bc"/>autem periodo non subjacuit corpus
+<lb ed="#Bc"/>Ada, sed soli formationi divine et 
+gu<lb ed="#Bc" break="no"/>bernationi.
+</p>
+            <p xml:id="Almn78-h28087-d1e695">
+               <lb ed="#Bc"/>Quop contra objicitur, concedendum
+<lb ed="#Bc"/>est : quia senescere non potuit illo modo
+<lb ed="#Bc"/>qui dictus est.
+</p>
+            <p xml:id="Almn78-h28087-d1e704">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur de 
+mu<lb ed="#Bc" break="no"/>tilatione, dicendum quod si mutilatio
+<lb ed="#Bc"/>dicit violentam membri ablationem, non
+<lb ed="#Bc"/>fuit ad mutilationem passibilis : si autem
+<lb ed="#Bc"/>dicit potentiam obedientiae ad creatorem,
+<lb ed="#Bc"/>sic fuit quodlibet membrum auteribile
+<lb ed="#Bc"/>ab eo: sicut et costa, et sicut omnis alia
+<lb ed="#Bc"/>creatura: sed haec ablatio nihil pene
+<lb ed="#Bc"/>habuisset, sed potius delectationem :
+<lb ed="#Bc"/>sicut et omnis creatura necesse est quod
+<lb ed="#Bc"/>habeat naturalem delectationem, quando
+<lb ed="#Bc"/>transfertur ad obedientiam creatoris.
+</p>
+            <p xml:id="Almn78-h28087-d1e733">
+               <lb ed="#Bc"/>Ad hoc quod dicit Isidorus, 
+simpli<lb ed="#Bc" break="no"/>citer concedendum est: violenta enim
+<lb ed="#Bc"/>divisio continui non potuit cadere in
+<lb ed="#Bc"/>corpus Ade in statu innocentiz.
+</p>
+            <p xml:id="Almn78-h28087-d1e745">
+               <lb ed="#Bc"/>Aurup quod inducitur, procedit.
+</p>
+            <p xml:id="Almn78-h28087-d1e750">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur, Si 
+reso<lb ed="#Bc" break="no"/>lubilis fuisset per mortem ?
+</p>
+            <p xml:id="Almn78-h28087-d1e757">
+               <lb ed="#Bc"/>Dicendum quod non. Nec terminus
+<lb ed="#Bc"/>vite mors est, nisi corruptionis et 
+con<lb ed="#Bc" break="no"/>sumptionis : quod non potuit cadere in
+<lb ed="#Bc"/>corpus Adz in primo statu. Sed est 
+ter<lb ed="#Bc" break="no"/>minus preordinationis et dispositionis
+<lb ed="#Bc"/>divine, qui est terminus longitudinis
+<lb ed="#Bc"/>usque dum impleretur numerus electo
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>rum. Et in hoc termino non exspoliatus
+<lb ed="#Bc"/>corpore, sed supervestitus fuisset beata
+<lb ed="#Bc"/>immortalitate, quam in resurrectione
+<lb ed="#Bc"/>exspectamus, ut dicit Augustinus. Et 
+in<lb ed="#Bc" break="no"/>ducitur a Magistro in libro II 
+Sententia<lb ed="#Bc" break="no"/>rum, distinct. XIX, cap. De hac vero 
+im<lb ed="#Bc" break="no"/>mortalitate. Et inducit Apostolum 
+di<lb ed="#Bc" break="no"/>centem, II ad Corinth. v, 4: 
+Ingemisci<lb ed="#Bc" break="no"/>mus gravati, eo quod nolumus 
+exspolia<lb ed="#Bc" break="no"/>ri, sed supervestiri, ut absorbeatur quod
+<lb ed="#Bc"/>mortale est a vita.
+</p>
+            <p xml:id="Almn78-h28087-d1e801">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod corpus Ade
+<lb ed="#Bc"/>mortale fuit mortalitate que dicta est, et
+<lb ed="#Bc"/>in natura habuit posse mori : et sic ratio
+<lb ed="#Bc"/>mortalis convenit ei, sed actu mori non
+<lb ed="#Bc"/>potuit : et hoc contulit ei gratia 
+innocen<lb ed="#Bc" break="no"/>tie ut causa, et lignum vite ut 
+dispo<lb ed="#Bc" break="no"/>nens.
+</p>
+            <p xml:id="Almn78-h28087-d1e819">
+               <lb ed="#Bc"/>ILtup quod contra objicitur, 
+simplici<lb ed="#Bc" break="no"/>ter concedendum est: quia hoc 
+Catholi<lb ed="#Bc" break="no"/>cum est, et directe hoc dicit auctoritas
+<lb ed="#Bc"/>Sapientie consequenter inducta.
+</p>
+            <p xml:id="Almn78-h28087-d1e830">
+               <lb ed="#Bc"/>Juxta hoc queritur de termino vite,
+<lb ed="#Bc"/>de quo etiam querit Magister.
+</p>
+            <p xml:id="Almn78-h28087-d1e838">
+               <lb ed="#Bc"/>Sed hoc jam determinatum est ubi
+<lb ed="#Bc"/>querebatur de senectute. Dictum est
+<lb ed="#Bc"/>enim, quod ille terminus est spatium
+<lb ed="#Bc"/>vite quod preordinavit Deus, quo per
+<lb ed="#Bc"/>generationem ipsorum impleretur 
+nume<lb ed="#Bc" break="no"/>rus electorum. Et dicit Magister ibidem
+<lb ed="#Bc"/>ex verbis Augustini, quod hoc dupliciter
+<lb ed="#Bc"/>esse potuit, scilicet vel divisim, ut
+<lb ed="#Bc"/>assumptis patribus succederent filii. Vel
+<lb ed="#Bc"/>simul, ut scilicet omnes viverent donec
+<lb ed="#Bc"/>numerus electorum impleretur, et tunc
+<lb ed="#Bc"/>omnes simul assumerentur. Et hoc 
+se<lb ed="#Bc" break="no"/>cundum meum judicium probabilius est:
+<lb ed="#Bc"/>quia sic ex assumptione patrum filii 
+de<lb ed="#Bc" break="no"/>solationem non haberent : cum secundum
+<lb ed="#Bc"/>visiones Esdre in quinto et in sexto 
+li<lb ed="#Bc" break="no"/>bro, ubi querit, Quare non omnes 
+ho<lb ed="#Bc" break="no"/>mines simul producti sunt, sed 
+succes<lb ed="#Bc" break="no"/>sive? Et solvit dicens, quod terra simul
+<lb ed="#Bc"/>eos tenere non posset, videtur magis
+<lb ed="#Bc"/>consentire in primum modum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

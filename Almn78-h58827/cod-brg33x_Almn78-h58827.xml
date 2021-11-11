@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 104</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 104</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="264"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h58827"><!-- p2t16q104 -->
+            <head xml:id="Almn78-h58827-Hd1e106">Quaestio 104</head>
+            <head xml:id="Almn78-h58827-Hd1e109" type="question-title">
+    De justitia.
+  </head>
+            <p xml:id="Almn78-h58827-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAESTIO CIV.
+<lb ed="#Bc"/>De justitia.
+</p>
+            <p xml:id="Almn78-h58827-d1e121">
+               <lb ed="#Bc"/>Deinde,Queritur de hoc quod dicit 
+Ma<lb ed="#Bc" break="no"/>gister in libro IL Sententiarum, distinct.
+<lb ed="#Bc"/>XXVI, in cap. illo, ibi, Justitia magna
+<lb ed="#Bc"/>virtus animi est.
+<lb ed="#Bc"/>Ratione cujus querenda sunt tria.
+<lb ed="#Bc"/>Primum est, Que sit illa justitia que
+<lb ed="#Bc"/>tam magna virtus est, et in quo differat a
+<lb ed="#Bc"/>justitia speciali ?
+<lb ed="#Bc"/>Secundum est, De justificatione impii.
+<lb ed="#Bc"/>Tertium est, Qualiter fides que per 
+di<lb ed="#Bc" break="no"/>lectionem operatur, perficit 
+justificatio<lb ed="#Bc" break="no"/>nem ?
+<lb ed="#Bc"/>haec enim tria tanguntur in Littera.
+</p>
+            <div xml:id="Almn78-h58827-Dd1e152">
+               <head xml:id="Almn78-h58827-Hd1e154">Membrum 1</head>
+               <head xml:id="Almn78-h58827-Hd1e157" type="question-title">
+        Quae sit illa justitia generalis quae tam
+        magna est animi virtus ? et, In quo
+        differat a justitia speciali
+      </head>
+               <p xml:id="Almn78-h58827-d1e160">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quae sit illa justitia generalis quae tam
+<lb ed="#Bc"/>magna est animi virtus ? et, In quo
+<lb ed="#Bc"/>differat a justitia speciali ?
+</p>
+               <p xml:id="Almn78-h58827-d1e173">
+                  <lb ed="#Bc"/>Ad primum objicitur sic :
+<lb ed="#Bc"/>1. Justitia est, ut dicit Plato, virtus
+<lb ed="#Bc"/>que reddit unicuique quod suum est,
+<lb ed="#Bc"/>servata uniuscujusque propria dignitate.
+<lb ed="#Bc"/>Et haec non potest esse generalis : quia
+<lb ed="#Bc"/>non est nisi in communicandis et 
+distri<lb ed="#Bc" break="no"/>buendis, ut dicit Aristoteles in V 
+Ethico<lb ed="#Bc" break="no"/>rum. In communicandis quidem secun
+<pb ed="#Bc" n="265"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>dum medietatem arithmeticam, que est
+<lb ed="#Bc"/>medietas rei : in distribuendis autem 
+se<lb ed="#Bc" break="no"/>cundum medietatem geometricam, que
+<lb ed="#Bc"/>est medietas secundum proportionem 
+di<lb ed="#Bc" break="no"/>gnitatis accepta. Propter quod dixit 
+Py<lb ed="#Bc" break="no"/>thagoras, qui principia omnium posuit
+<lb ed="#Bc"/>esse numeros, quod justitia est numerus
+<lb ed="#Bc"/>pariter par, eo quod ad par dignitatis
+<lb ed="#Bc"/>vel rei reddit unicuique quod suum est,
+<lb ed="#Bc"/>sicut dicit Plato. Hac justitia non potest
+<lb ed="#Bc"/>esse generalis : quia in speciali materia
+<lb ed="#Bc"/>est. Illa ergo justitia non est qua 
+justifi<lb ed="#Bc" break="no"/>catur impius, et qua salvatur : illa enim
+<lb ed="#Bc"/>cum sit particularis, non potest salvari
+<lb ed="#Bc"/>totus homo.
+</p>
+               <p xml:id="Almn78-h58827-d1e230">
+                  <lb ed="#Bc"/>2. Adhuc, Illa est opus hominis, ut 
+di<lb ed="#Bc" break="no"/>cunt Philosophi : illa autem que magna
+<lb ed="#Bc"/>virtus est, non est opus hominis, sed Dei,
+<lb ed="#Bc"/>ut dicit Augustinus super illud Psalmi
+<lb ed="#Bc"/>oxvint, 121 : Feci pudicium et justitiam,
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h58827-Qd1e245"> Fect non ipsam virtutem dicit,
+<lb ed="#Bc"/>quam non facit in homine nisi Deus, non
+<lb ed="#Bc"/>homo. </quote> [lla ergo virtus non est major
+<lb ed="#Bc"/>alia : quia omnes virtutes infuse fiunt a
+<lb ed="#Bc"/>Deo, non ab homine, sicut dicit 
+Augu<lb ed="#Bc" break="no"/>stinus. Dicit enim ibidem, quod de aliis
+<lb ed="#Bc"/>virtutibus idem intelligendum est, quod
+<lb ed="#Bc"/>scilicet sunt opera Dei in homine, non
+<lb ed="#Bc"/>hominis. Non est ergo ratio qualiter hec
+<lb ed="#Bc"/>magna virtus dicatur pre aliis.
+</p>
+               <p xml:id="Almn78-h58827-d1e269">
+                  <lb ed="#Bc"/>3. Adhuc, Homo non perfecte sanatur
+<lb ed="#Bc"/>nisi secundum omnem virtutem : et tale
+<lb ed="#Bc"/>opus est opus Dei, sicut dicitur, Joan.
+<lb ed="#Bc"/>vu, 23: Totum hominem sanum feci in
+<lb ed="#Bc"/>sabbato. Non ergo fit secundum 
+justi<lb ed="#Bc" break="no"/>tiam solam, sed secundum omnem 
+vir<lb ed="#Bc" break="no"/>tutem. Justificatio ergo et sanatio non
+<lb ed="#Bc"/>debent potius attribui justitia quam alii
+<lb ed="#Bc"/>virtuti.
+</p>
+               <p xml:id="Almn78-h58827-d1e291">
+                  <lb ed="#Bc"/>4. Adhuc, Anselmus dicit, quod 
+justi<lb ed="#Bc" break="no"/>tia est rectitudo voluntatis. Voluntas 
+au<lb ed="#Bc" break="no"/>tem specialis potentia est, et rectitudo
+<lb ed="#Bc"/>ejus specialis rectitudo. Illa ergo 
+rectitu<lb ed="#Bc" break="no"/>dine non totus sanatur homo nec 
+justi<lb ed="#Bc" break="no"/>ficatur, sed in parte tantum. Ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod justitia non sit illa virtus qua
+<lb ed="#Bc"/>sanamur et justificamur.
+</p>
+               <p xml:id="Almn78-h58827-d1e311">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>5. Adhuc, Sicut dicit Tullius in libro
+<lb ed="#Bc"/>de Republica: <quote xml:id="Almn78-h58827-Qd1e319"> Omnis justitia 
+proficisci<lb ed="#Bc" break="no"/>tur a pari, vel a pacto, vel a judicato. </quote>
+                  <lb ed="#Bc"/>Hec tria non sunt nisi inter homines, et
+<lb ed="#Bc"/>sunt opera hominis. Ergo non justificant
+<lb ed="#Bc"/>nisi ad hominem, et non ad Deum. Sed
+<lb ed="#Bc"/>illa justitia que magna virtus est et opus
+<lb ed="#Bc"/>Dei, generaliter justificat ad Deum et ad
+<lb ed="#Bc"/>homines et ad Angelos. Illa ergo justitia
+<lb ed="#Bc"/>que proficiscitur a pari, pacto, et 
+judi<lb ed="#Bc" break="no"/>cato, non est illa justitia.
+</p>
+               <p xml:id="Almn78-h58827-d1e343">
+                  <lb ed="#Bc"/>Queritur ergo, Que sit, et quare 
+po<lb ed="#Bc" break="no"/>tius denominatur a justitia quam ab alia
+<lb ed="#Bc"/>virtute ?
+</p>
+               <p xml:id="Almn78-h58827-d1e352">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod duplex est
+<lb ed="#Bc"/>justitia, specialis scilicet, et generalis.
+<lb ed="#Bc"/>Specialis justitia est de qua loquuntur
+<lb ed="#Bc"/>Philosophi : et de illa inducte sunt 
+ob<lb ed="#Bc" break="no"/>jectiones. Generalis est, ut dicit 
+Aristo<lb ed="#Bc" break="no"/>teles in V Ethicorum, idem quod 
+perfe<lb ed="#Bc" break="no"/>cta consonantia legis. Lex enim, ut idem
+<lb ed="#Bc"/>dicit, que aptatur ad optimam 
+civilita<lb ed="#Bc" break="no"/>tem que secundum virtutem est, 
+praci<lb ed="#Bc" break="no"/>pit de omni virtute et consonantia legis
+<lb ed="#Bc"/>secundum omnem virtutem, justitia 
+gene<lb ed="#Bc" break="no"/>ralis est, ut ibidem dicit Aristoteles. Et
+<lb ed="#Bc"/>haec est de qua dicitur, Luce,1,6,de 
+Zacha<lb ed="#Bc" break="no"/>tiaet Elisabeth: Zrant autem justi ambo
+<lb ed="#Bc"/>ante Deum, incedentes in omnibus 
+man<lb ed="#Bc" break="no"/>datis et justificationibus Domini sine
+<lb ed="#Bc"/>guerela. haec ergo est justitia generalis
+<lb ed="#Bc"/>et Dei donum in homine et non opus
+<lb ed="#Bc"/>hominis, qua justificatur impius, et que
+<lb ed="#Bc"/>magna virtus dicitur, quia omnes 
+com<lb ed="#Bc" break="no"/>prehendit : et ideo perfecta sanitas 
+ho<lb ed="#Bc" break="no"/>minis est secundum illam. Et haec est de
+<lb ed="#Bc"/>qua dicit Augustinus, quod in persona
+<lb ed="#Bc"/>Eeclesie dicit Propheta : Feci 
+jsudi<lb ed="#Bc" break="no"/>cium, etc.'.
+</p>
+               <p xml:id="Almn78-h58827-d1e409">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod Plato
+<lb ed="#Bc"/>loquitur ibi de justitia speciali, et non
+<lb ed="#Bc"/>generali. Aptatur tamen generali sic :
+<lb ed="#Bc"/>quia non redditur Deo quod suum est,
+<lb ed="#Bc"/>nisi servando omnia mandata et 
+justifi<lb ed="#Bc" break="no"/>cationes Dei, servata dignitate 
+domina<lb ed="#Bc" break="no"/>tionis divine.
+</p>
+               <p xml:id="Almn78-h58827-d1e428">
+                  <pb ed="#Bc" n="266"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod illa 
+specia<lb ed="#Bc" break="no"/>lis bene est opus hominis, sed generalis
+<lb ed="#Bc"/>non : generalis enim non est nisi Dei :
+<lb ed="#Bc"/>quia sine charitate et gratia gratum 
+fa<lb ed="#Bc" break="no"/>ciente fieri non potest. Et hoc est quod
+<lb ed="#Bc"/>dicitur, ad Roman. xm, 10: Plenitudo
+<lb ed="#Bc"/>legis est dilectio.
+</p>
+               <p xml:id="Almn78-h58827-d1e450">
+                  <lb ed="#Bc"/>Ad aliud dicendum eodem modo, quod
+<lb ed="#Bc"/>illa attribuitur justitie generali que
+<lb ed="#Bc"/>comprehendit omnem virtutem, et 
+per<lb ed="#Bc" break="no"/>fectam legis impletionem.
+</p>
+               <p xml:id="Almn78-h58827-d1e461">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod quando
+<lb ed="#Bc"/>Anselmus dicit, quod justitia est 
+rectitu<lb ed="#Bc" break="no"/>do voluntatis, non accipit voluntatem
+<lb ed="#Bc"/>pro speciali potentia, sed pro generali
+<lb ed="#Bc"/>motore omnium potentiarum tam 
+ani<lb ed="#Bc" break="no"/>mée quam corporis, prout secundum 
+Da<lb ed="#Bc" break="no"/>mascenum diffundit libertatem suam in
+<lb ed="#Bc"/>omnes alias potentias : et sic rectitudo
+<lb ed="#Bc"/>ejus est rectitudo justitia generalis.
+</p>
+               <p xml:id="Almn78-h58827-d1e483">
+                  <lb ed="#Bc"/>Ad uLtimum dicendum, quod justitia
+<lb ed="#Bc"/>de qua Tullius loquitur, est justitia que
+<lb ed="#Bc"/>redditur in causis, et per sententias 
+ju<lb ed="#Bc" break="no"/>dicum secundum leges humanas, que
+<lb ed="#Bc"/>inter communitates precipiunt servari
+<lb ed="#Bc"/>paritatem rei, in lucro scilicet, et damno.
+<lb ed="#Bc"/>Et precipiunt servari pacta secundum
+<lb ed="#Bc"/>quod conventum est inter aliquos 
+paci<lb ed="#Bc" break="no"/>scentes. Precipiunt etiam servari 
+judica<lb ed="#Bc" break="no"/>ta principum pro lege : quia quod 
+prin<lb ed="#Bc" break="no"/>cipi placuit, legis habet vigorem. Unde
+<lb ed="#Bc"/>in his, sicut dicitur in V £thicorum,
+<lb ed="#Bc"/>quando discordant, confugiunt ad 
+judi<lb ed="#Bc" break="no"/>cem sicut ad justum animatum. Quare
+<lb ed="#Bc"/>autem attribuatur plus justitie, jam 
+di<lb ed="#Bc" break="no"/>ctum est : quia scilicet reddere unicuique
+<lb ed="#Bc"/>quod suum est in quolibet, non convenit
+<lb ed="#Bc"/>nisi justitie, que sicut dictum est, facit
+<lb ed="#Bc"/>incedere hominem in omnibus mandatis
+<lb ed="#Bc"/>et justificationibus Dei sine querela.
+</p>
+            </div>
+            <div xml:id="Almn78-h58827-Dd1e531">
+               <head xml:id="Almn78-h58827-Hd1e533">Membrum 2</head>
+               <head xml:id="Almn78-h58827-Hd1e536" type="question-title">
+        Utrum justificatio impii sit majus quam
+        creare coelum et terram ? et, Utrum sit
+        in tempore vel in instanti
+      </head>
+               <p xml:id="Almn78-h58827-d1e539">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum justificatio impii sit majus quam
+<lb ed="#Bc"/>creare coelum et terram ? et, Utrum sit
+<lb ed="#Bc"/>in tempore vel in instanti?
+</p>
+               <p xml:id="Almn78-h58827-d1e550">
+                  <lb ed="#Bc"/>Secundo, Queritur de justificatione 
+im<lb ed="#Bc" break="no"/>pii, de qua Magistri consueverunt 
+que<lb ed="#Bc" break="no"/>rere, Utrum justificatio impii sit majus
+<lb ed="#Bc"/>quam creare ccelum et terram, ut 
+vide<lb ed="#Bc" break="no"/>tur Augustinus dicere ?
+</p>
+               <p xml:id="Almn78-h58827-d1e563">
+                  <lb ed="#Bc"/>Et, Utrum sit in tempore, vel in 
+in<lb ed="#Bc" break="no"/>stanti ?
+</p>
+               <p xml:id="Almn78-h58827-d1e571">
+                  <lb ed="#Bc"/>Et videtur, quod justificatio impii sit
+<lb ed="#Bc"/>majus quam creare celum et terram :
+<lb ed="#Bc"/>quia
+</p>
+               <p xml:id="Almn78-h58827-d1e580">
+                  <lb ed="#Bc"/>1. In justificatione impii aliquid est
+<lb ed="#Bc"/>Deo contrarium, in creatione ceeli et
+<lb ed="#Bc"/>terre nihil contrariatur Deo : et majoris
+<lb ed="#Bc"/>potentiae est vincere contrarium et 
+ope<lb ed="#Bc" break="no"/>rari aliquid, quam operari solum : ergo
+<lb ed="#Bc"/>videtur, quod justificatio impii majoris
+<lb ed="#Bc"/>potenti sit quam creatio cceli et terre.
+</p>
+               <p xml:id="Almn78-h58827-d1e598">
+                  <lb ed="#Bc"/>2. Adhuc, Duo opera Dei sunt, 
+crea<lb ed="#Bc" break="no"/>tio scilicet, et recreatio. Unum scilicet’
+<lb ed="#Bc"/>opus creationis simplici verbo perfecit
+<lb ed="#Bc"/>Deus. Psal. xxx, 9: Ipse dixit, et 
+fa<lb ed="#Bc" break="no"/>cta sunt : ipse mandavit, et creata sunt.
+<lb ed="#Bc"/>Opus recreationis non simplici verbo 
+per<lb ed="#Bc" break="no"/>fecit : quia multa dixit, multa fecit, 
+mul<lb ed="#Bc" break="no"/>ta passus fuit antequam perficeretur. Et
+<lb ed="#Bc"/>quod est majoris difficultatis, est majoris
+<lb ed="#Bc"/>potentie. Cum ergo opus justifications
+<lb ed="#Bc"/>sit de opere recreationis, creatio autem
+<lb ed="#Bc"/>ceeli et terre sit de opere creationis sim~
+<lb ed="#Bc"/>pliciter, videtur quod majoris potentia
+<lb ed="#Bc"/>sit justificatio quam creatio.
+</p>
+               <p xml:id="Almn78-h58827-d1e631">
+                  <lb ed="#Bc"/>3. Adhuc, Majus opus est quod ad
+<lb ed="#Bc"/>majores obligat gratiarum actiones
+<lb ed="#Bc"/>opus justificationis ad majores obligat
+<lb ed="#Bc"/>gratiarum actiones quam creationis. Un
+<pb ed="#Bc" n="267"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>de Bernardus de opere justificationis sic
+<lb ed="#Bc"/>inquit super Cantica : <quote xml:id="Almn78-h58827-Qd1e650"> Multum 
+diffi<lb ed="#Bc" break="no"/>cultatis assumpsit, quo te multe 
+dilec<lb ed="#Bc" break="no"/>tionis debitorem constitueret, 
+admo<lb ed="#Bc" break="no"/>neretque gratiarum actionis difficultas
+<lb ed="#Bc"/>redemptionis, quem minus devotum
+<lb ed="#Bc"/>effecerat conditionis facilitas. </quote> Sed
+<lb ed="#Bc"/>majus opus majoris potentiae est 
+indica<lb ed="#Bc" break="no"/>tivum. Ergo videtur, quod justificatio
+<lb ed="#Bc"/>majoris potentie sit indicativa quam
+<lb ed="#Bc"/>creatio.
+</p>
+               <p xml:id="Almn78-h58827-d1e673">
+                  <lb ed="#Bc"/>4, Adhuc, Quod mirabilius est, 
+majo<lb ed="#Bc" break="no"/>ris potentie est indicativum. Justificatio
+<lb ed="#Bc"/>hominis mirabilior est quam creatio, ut
+<lb ed="#Bc"/>dicit Gregorius in Collecta que legitur in
+<lb ed="#Bc"/>vigilia Pasche sic : <quote xml:id="Almn78-h58827-Qd1e686"> Deus qui 
+mirabili<lb ed="#Bc" break="no"/>ter hominem creasti, sed mirabilius 
+red<lb ed="#Bc" break="no"/>emisti. </quote> Redemptio autem non fit nisi
+<lb ed="#Bc"/>per justificationem. Videtur ergo, quod
+<lb ed="#Bc"/>justificatio majoris potentie sit quam
+<lb ed="#Bc"/>creatio.
+</p>
+               <p xml:id="Almn78-h58827-d1e700">
+                  <lb ed="#Bc"/>ContRA :
+<lb ed="#Bc"/>Opus quod soli potentie divine 
+inniti<lb ed="#Bc" break="no"/>tur, majoris est potenti quam id quod
+<lb ed="#Bc"/>etiam innititur alii potentie. Creatio soli
+<lb ed="#Bc"/>innititur potentie divine, et 
+incommuni<lb ed="#Bc" break="no"/>cabilis est potentie create : nulla enim
+<lb ed="#Bc"/>creatura quidquam potest creare 
+quan<lb ed="#Bc" break="no"/>tumcumque parvum, sicut in primo libro
+<lb ed="#Bc"/>ostensum est in tractatu de his que 
+tem<lb ed="#Bc" break="no"/>poraliter Deo conveniunt, questione de
+<lb ed="#Bc"/>hoe nomine, Creator’. De opere autem
+<lb ed="#Bc"/>justificationis dicit Augustinus : <quote xml:id="Almn78-h58827-Qd1e728"> Qui
+<lb ed="#Bc"/>creavit te sine te, non justificabit te sine
+<lb ed="#Bc"/>te. </quote> Ergo videtur, quod opus creationis
+<lb ed="#Bc"/>majus sit quam opus justificationis, et
+<lb ed="#Bc"/>majoris potentiae.
+</p>
+               <p xml:id="Almn78-h58827-d1e741">
+                  <lb ed="#Bc"/>Unrsrivs queritur, Utrum sit in 
+tem<lb ed="#Bc" break="no"/>pore, vel in instanti ?
+</p>
+               <p xml:id="Almn78-h58827-d1e748">
+                  <lb ed="#Bc"/>Et videtur, quod in tempore.
+<lb ed="#Bc"/>1. Justificatio enim motus alterationis
+<lb ed="#Bc"/>est : et omnis motus est in tempore : 
+er<lb ed="#Bc" break="no"/>go justificatio erit in tempore.
+</p>
+               <p xml:id="Almn78-h58827-d1e759">
+                  <lb ed="#Bc"/>2. Adhuc, Objiciunt sic : Justificatio
+<lb ed="#Bc"/>est, quando de injusto fit justissimus :
+<lb ed="#Bc"/>ergo in ultimo nunc in quo desinit esse
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>justitia in homine, tunc adhuc injustus
+<lb ed="#Bc"/>est : si ergo in eodem nunc incipit 
+justi<lb ed="#Bc" break="no"/>tia, in eodem nunc erit homo justus et
+<lb ed="#Bc"/>injustus, et contraria erunt in eodem 
+si<lb ed="#Bc" break="no"/>mul et secundum idem, quod 
+impossi<lb ed="#Bc" break="no"/>bile est.
+</p>
+               <p xml:id="Almn78-h58827-d1e783">
+                  <lb ed="#Bc"/>Socio. Dicendum, quod ejusdem 
+po<lb ed="#Bc" break="no"/>tentia est, scilicet divine et infinite,’ et
+<lb ed="#Bc"/>creatio et justificatio : sicut enim solus
+<lb ed="#Bc"/>Deus creat, ita solus Deus justificat.
+</p>
+               <p xml:id="Almn78-h58827-d1e794">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod ratio
+<lb ed="#Bc"/>dicti Augustini est, non quod justificatio
+<lb ed="#Bc"/>majoris potentia est ex parte facientis,
+<lb ed="#Bc"/>sed quod in facto aliquid est ex parte
+<lb ed="#Bc"/>justificati et facti, quod non est in 
+crea<lb ed="#Bc" break="no"/>to: sed hoc nihil adjicit potentie ex
+<lb ed="#Bc"/>parte facientis, quia utrumque potentie
+<lb ed="#Bc"/>infinite est : et ideo uterque actus 
+in<lb ed="#Bc" break="no"/>communicabilis est ei quod est potenti
+<lb ed="#Bc"/>finite, sicut omne creatum.
+</p>
+               <p xml:id="Almn78-h58827-d1e818">
+                  <lb ed="#Bc"/>Ad aliud dicendum eodem modo,
+<lb ed="#Bc"/>quod omnes ille difficultates que facte
+<lb ed="#Bc"/>sunt in opere justi, propter hominem
+<lb ed="#Bc"/>justificatum facte sunt, et non propter
+<lb ed="#Bc"/>hoc, quod majorem potentiam exigeret
+<lb ed="#Bc"/>ex parte facientis : sed ut justificatus 
+ma<lb ed="#Bc" break="no"/>gis obligaretur justificanti.
+</p>
+               <p xml:id="Almn78-h58827-d1e837">
+                  <lb ed="#Bc"/>Ad aliud eodem modo dicendum est,
+<lb ed="#Bc"/>quod bene justificatus magis obligaretur
+<lb ed="#Bc"/>justificanti ex multis : sed ex his non
+<lb ed="#Bc"/>probatur, quod majori potentia utatur
+<lb ed="#Bc"/>Deus in justificando, quam in creando.
+</p>
+               <p xml:id="Almn78-h58827-d1e850">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod neutrum
+<lb ed="#Bc"/>opus, scilicet creatio vel recreatio est
+<lb ed="#Bc"/>miraculum ; sed utrumque mirabile :
+<lb ed="#Bc"/>neutrum enim est arduum et insolitum,
+<lb ed="#Bc"/>preter spem et facultatem apparens, quod
+<lb ed="#Bc"/>est definitio miraculi, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus. Utrumque tamen est mirabile
+<lb ed="#Bc"/>quia mirabile dicitur, ut dicit 
+Damasce<lb ed="#Bc" break="no"/>nus, quod altitudine sua suspendit 
+homi<lb ed="#Bc" break="no"/>nem, et ponit in agonia admirationis. In
+<lb ed="#Bc"/>hoc tamen opus recreationis mirabilius :
+<lb ed="#Bc"/>quia amplioris bonitatis et charitatis est
+<lb ed="#Bc"/>indicativum, ut dicit Petrus diaconus
+<lb ed="#Bc"/>beati Gregorii in benedictione cerei pa
+<pb ed="#Bc" n="268"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>schalis : <quote xml:id="Almn78-h58827-Qd1e889"> O inestimabilis erga nos tue
+<lb ed="#Bc"/>charitatis dilectio ! ut servum redimeres,
+<lb ed="#Bc"/>Filium tradidisti. </quote> Et in hoc dicitur 
+mi<lb ed="#Bc" break="no"/>rabilior recreatio : quia suspendit nos ad
+<lb ed="#Bc"/>altiorem bonitatem et charitatem Dei.
+</p>
+               <p xml:id="Almn78-h58827-d1e901">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod utrumque est ejusdem potenti et
+<lb ed="#Bc"/>equalis. Sed in hoc dicitur justificatio
+<lb ed="#Bc"/>fiéri non sine homine : quia non fit nisi
+<lb ed="#Bc"/>in homine consentiente et obstaculum
+<lb ed="#Bc"/>non ponente : et non ita, quod homo
+<lb ed="#Bc"/>aliquid faciat ad perfectionem 
+justifica<lb ed="#Bc" break="no"/>tionis.
+</p>
+               <p xml:id="Almn78-h58827-d1e921">
+                  <lb ed="#Bc"/>Ad mw quod ulterius queritur, Utruam
+<lb ed="#Bc"/>sit in tempore, vel in nunc?
+</p>
+               <p xml:id="Almn78-h58827-d1e928">
+                  <lb ed="#Bc"/>Dicendum, quod stulta questio est, et
+<lb ed="#Bc"/>magis curiosa quam fructuosa. In 
+omni<lb ed="#Bc" break="no"/>bus enim duobus motibus succedentibus
+<lb ed="#Bc"/>sibi, sicut generatio succedit corruptioni,
+<lb ed="#Bc"/>est accipere unum nunc ad quod 
+termi<lb ed="#Bc" break="no"/>natur prior motus, et est in motum esse :
+<lb ed="#Bc"/>et a quo incipit sequens motus, et est in
+<lb ed="#Bc"/>moveri : et hoc est nunc continuans
+<lb ed="#Bc"/>tempus, et nunc fluens vocatur in 
+philo<lb ed="#Bc" break="no"/>sophia. Et sic est in motu justificationis
+<lb ed="#Bc"/>ex parte justificati, non justificantis in
+<lb ed="#Bc"/>id quod peccatum est in deletum esse,
+<lb ed="#Bc"/>et a quo justitia incipit fieri. Unde non
+<lb ed="#Bc"/>sequitur, quod in illo sit simul justus et
+<lb ed="#Bc"/>injustus.
+</p>
+               <p xml:id="Almn78-h58827-d1e963">
+                  <lb ed="#Bc"/>Et sic patet solutio ad aliud 
+obje<lb ed="#Bc" break="no"/>ctum.
+</p>
+            </div>
+            <div xml:id="Almn78-h58827-Dd1e971">
+               <head xml:id="Almn78-h58827-Hd1e973">Membrum 3</head>
+               <head xml:id="Almn78-h58827-Hd1e976" type="question-title">
+        Qualiter fides quae per dilectionem 
+        operatur, perficit justificationem
+      </head>
+               <p xml:id="Almn78-h58827-d1e979">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Qualiter fides quae per dilectionem 
+ope<lb ed="#Bc" break="no"/>ratur, perficit justificationem ?
+</p>
+               <p xml:id="Almn78-h58827-d1e988">
+                  <lb ed="#Bc"/>Tertio queritur, Qualiter fides que
+<lb ed="#Bc"/>per dilectionem operatur, perficit 
+justifi<lb ed="#Bc" break="no"/>cationem ?
+</p>
+               <p xml:id="Almn78-h58827-d1e997">
+                  <lb ed="#Bc"/>Et hoc queritur gratia ejus quod dicit
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>
+                  <ref xml:id="Almn78-h58827-Rd1e1005">Magister, cap. <quote xml:id="Almn78-h58827-Qd1e1007" type="incipit">Nam de gratia fidei</quote>
+                  </ref>, ubi
+<lb ed="#Bc"/>dicit, quod fides gratia est et Dei donum,
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h58827-Qd1e1016"> De gratia fidei Ephesiis scribens
+<lb ed="#Bc"/>Apostolus ', similiter fidem non ex 
+ho<lb ed="#Bc" break="no"/>mine, sed ex Deo esse tantum asserit,
+<lb ed="#Bc"/>inquiens Gratia estis salvatt per
+<lb ed="#Bc"/>fidem : et hoc non ex vobis, Det enim
+<lb ed="#Bc"/>donum est. <!-- quotation end unclear --></quote>
+               </p>
+               <p xml:id="Almn78-h58827-d1e1032">
+                  <lb ed="#Bc"/>1. Queritur ergo, Quare attribuitur
+<lb ed="#Bc"/>fidei justificatio et charitati? cum a fide
+<lb ed="#Bc"/>et charitate non denominetur, sed a 
+ju<lb ed="#Bc" break="no"/>stitia sola.
+</p>
+               <p xml:id="Almn78-h58827-d1e1043">
+                  <lb ed="#Bc"/>2. Adhuc, Uniuscujusque virtutis est
+<lb ed="#Bc"/>rectificare suam potentiam et ad 
+rectitu<lb ed="#Bc" break="no"/>dinem deducere : et hec est justificatio
+<lb ed="#Bc"/>illa qua justificatur impius. Justitia
+<lb ed="#Bc"/>enim, ut dicit Anselmus, est rectitudo
+<lb ed="#Bc"/>voluntatis, secundum quod est motor
+<lb ed="#Bc"/>omnium potentiarum anime, recta, et
+<lb ed="#Bc"/>nusquam deflexa ad illicitum. Non ergo
+<lb ed="#Bc"/>debet hoc attribui fidei vel charitati, sed
+<lb ed="#Bc"/>omni virtuti.
+</p>
+               <p xml:id="Almn78-h58827-d1e1067">
+                  <lb ed="#Bc"/>3, Adhuc, <ref xml:id="Almn78-h58827-Rd1e1071">Cantic. 1, 3: <quote xml:id="Almn78-h58827-Qd1e1073" source="http://scta.info/resource/cant1_3@22-24" type="incipit">Recti diligunt
+<lb ed="#Bc"/>te</quote>. Glossa Ambrosii</ref> : <quote xml:id="Almn78-h58827-Qd1e1079">ecti sunt qui
+<lb ed="#Bc"/>habent voluntatem conformem voluntati
+  <lb ed="#Bc"/>divinae. <!-- IN EUMDEM PSALMUM 32 ENARRATIO II Sermo 1, section 2  --></quote> Videtur ergo, quod justitia
+<lb ed="#Bc"/>qua justificatur impius, non sit nisi 
+con<lb ed="#Bc" break="no"/>formitas voluntatum, hominis scilicet et
+<lb ed="#Bc"/>Dei, et non debet attribui alicui speciali
+<lb ed="#Bc"/>virtuti.
+</p>
+               <p xml:id="Almn78-h58827-d1e1097">
+                  <lb ed="#Bc"/>Ulterius queritur, Si motus liberi
+<lb ed="#Bc"/>arbitrii exigitur ad justificationem 
+im<lb ed="#Bc" break="no"/>pli?
+</p>
+               <p xml:id="Almn78-h58827-d1e1106">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>1. Omnis enim motus liberi arbitriia
+<lb ed="#Bc"/>libero arbitrio est : sed justitia qua 
+ju<lb ed="#Bc" break="no"/>stificatur impius, a solo Deo est, et non
+<lb ed="#Bc"/>a libero arbitrio, ut dicit Augustinus :
+<lb ed="#Bc"/>ergo videtur, quod motus liberi arbitrii
+<lb ed="#Bc"/>non exigitur ad justificationem impii.
+</p>
+               <p xml:id="Almn78-h58827-d1e1124">
+                  <lb ed="#Bc"/>2. Adhuc, Multi justificantur qui non
+<lb ed="#Bc"/>habent usum liberi arbitrii, sicut parvuli
+<lb ed="#Bc"/>et moriones qui justificantur et sanantur
+<lb ed="#Bc"/>a peccato originali. Non ergo generaliter
+<lb ed="#Bc"/>motus liberi arbitrii exigitur ad 
+justifi<lb ed="#Bc" break="no"/>cationem impii,
+</p>
+               <p xml:id="Almn78-h58827-d1e1141">
+                  <pb ed="#Bc" n="269"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro I 
+Re<lb ed="#Bc" break="no"/>tractationum : <quote xml:id="Almn78-h58827-Qd1e1151"> Homo sponte et libero
+<lb ed="#Bc"/>arbitrio cadere potuit, non etiam 
+resur<lb ed="#Bc" break="no"/>gere *. </quote> Sed si motus liberi arbitrii 
+exi<lb ed="#Bc" break="no"/>geretur et sufficeret ad impii 
+justificatio<lb ed="#Bc" break="no"/>nem, homo per se posset resurgere,
+<lb ed="#Bc"/>quod falsum est : ergo videtur, quod ad
+<lb ed="#Bc"/>justificationem impii non exigitur motus
+<lb ed="#Bc"/>liberi arbitrii, nec sufficit.
+</p>
+               <p xml:id="Almn78-h58827-d1e1170">
+                  <lb ed="#Bc"/>Contra objicit Pelagius intendens 
+pro<lb ed="#Bc" break="no"/>bare, quod gratie et virtutes sint motus
+<lb ed="#Bc"/>liberi arbitrii sic :
+</p>
+               <p xml:id="Almn78-h58827-d1e1179">
+                  <lb ed="#Bc"/>1. Augustinus super Joannem : <quote xml:id="Almn78-h58827-Qd1e1183"> Quid
+<lb ed="#Bc"/>est fides? credere quod non vides. </quote>
+                  <lb ed="#Bc"/>Credere autem motus est. Ergo fides
+<lb ed="#Bc"/>motus est.
+</p>
+               <p xml:id="Almn78-h58827-d1e1193">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in libro de
+<lb ed="#Bc"/>Doctrina Christiana : <quote xml:id="Almn78-h58827-Qd1e1199"> Charitatem ‘voco
+<lb ed="#Bc"/>motum animi. </quote> Ex hoc objicit : Si 
+cha<lb ed="#Bc" break="no"/>ritas que precipua virlutum est, et fides
+<lb ed="#Bc"/>sunt motus animi, etiam aliae virtutes
+<lb ed="#Bc"/>sunt motus animi : motus enim a libero
+<lb ed="#Bc"/>arbitrio est : ergo virlutes a libero 
+arbi<lb ed="#Bc" break="no"/>trio sunt. Et hoc expresse est contra ea
+<lb ed="#Bc"/>que prius probata ‘sunt ab Augustino,
+<lb ed="#Bc"/>scilicet quod fides est bona qualitas
+<lb ed="#Bc"/>mentis, qua recte vivitur, qua nemo 
+ma<lb ed="#Bc" break="no"/>le utitur, qaam Deus operatur in nobis
+<lb ed="#Bc"/>sine nobis.
+</p>
+               <p xml:id="Almn78-h58827-d1e1227">
+                  <lb ed="#Bc"/>Solutio. Dicendum quod justificatio
+<lb ed="#Bc"/>impii non esta nobis, nec ab aliquo 
+mo<lb ed="#Bc" break="no"/>tu quiest a nobis, sed a Deo solo, qui
+<lb ed="#Bc"/>causa virtutis et gratiae est in nobis, qua
+<lb ed="#Bc"/>scilicet mens hominis sanatur et 
+perfici<lb ed="#Bc" break="no"/>tur ut possit in opera meritoria : et
+<lb ed="#Bc"/>tunc ipse motus elicitur a libero arbitrio,
+<lb ed="#Bc"/>sed informatur gratia et virtute ut 
+ha<lb ed="#Bc" break="no"/>beat virtutem merendi. Et in hoc sensu
+<lb ed="#Bc"/>dicitur ab Augustino, quod <quote xml:id="Almn78-h58827-Qd1e1250"> gratia
+<lb ed="#Bc"/>meretur augeri, ut aucta mereatur 
+per<lb ed="#Bc" break="no"/>fici. </quote>
+               </p>
+               <p xml:id="Almn78-h58827-d1e1258">
+                  <lb ed="#Bc"/>Ad PRIMUM ergo quaesitum dicendum,
+<lb ed="#Bc"/>quod justificatio impii attribuitur fidei et
+<lb ed="#Bc"/>charitati principaliter, ideo quia fides
+<lb ed="#Bc"/>est fundamentum in aedificio spirituali,
+<lb ed="#Bc"/>charitas vero consummatio. De fide, ad
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Hebr. XI, 1: <quote xml:id="Almn78-h58827-Qd1e1275">Est autem fides 
+speranda<lb ed="#Bc" break="no"/>rum substantia rerum</quote>. Glossa, id est
+<lb ed="#Bc"/>fundamentum quod res sperandas facit
+<lb ed="#Bc"/>subsistere in nobis. Et quod justificet,
+<lb ed="#Bc"/>Act. xv, 9 : Mil diserevit inter nos et
+<lb ed="#Bc"/>illos, fide purificans corda eorum. De
+<lb ed="#Bc"/>charitate, ad Roman. xu, 10: 
+Plenitu<lb ed="#Bc" break="no"/>do legis est dilectio. Et ibidem, ¥. 8 :
+<lb ed="#Bc"/>Qui proximum diligit, legem implevit.
+<lb ed="#Bc"/>Et, I ad Corinth. xm, 43 : Nune autem
+<lb ed="#Bc"/>manent fides, spes, charitas, tria hee:
+<lb ed="#Bc"/>major autem horum est charitas. Et
+<lb ed="#Bc"/>propter hoc oportet, quod omnia opera
+<lb ed="#Bc"/>etiam aliarum virtutum in fide facta
+<lb ed="#Bc"/>sint, et in charitate formata, si debeant
+<lb ed="#Bc"/>valere ad meritum et ad justificationem.
+</p>
+               <p xml:id="Almn78-h58827-d1e1312">
+                  <lb ed="#Bc"/>Ad aliud quod objicitur, dicendum,
+<lb ed="#Bc"/>quod licet aliae virtutes rectificent 
+poten<lb ed="#Bc" break="no"/>tias sibi subjectas ad actus proprios, 
+ta<lb ed="#Bc" break="no"/>men non habent virtutem merendi vel
+<lb ed="#Bc"/>justificandi, nisi fundate in fide et 
+for<lb ed="#Bc" break="no"/>mate in charitate : et ideo justificatio et
+<lb ed="#Bc"/>meritum plus attribuitur fidei et 
+chari<lb ed="#Bc" break="no"/>tati, quam aliis virtutibus.
+</p>
+               <p xml:id="Almn78-h58827-d1e1332">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod recti esse
+<lb ed="#Bc"/>non possunt nisi per fidem et 
+charita<lb ed="#Bc" break="no"/>tem : quia fides conformat nos veritati,
+<lb ed="#Bc"/>et charitas bonitati : et in hoc est 
+re<lb ed="#Bc" break="no"/>ctitudo et plena conformitas ad Deum.
+</p>
+               <p xml:id="Almn78-h58827-d1e1345">
+                  <lb ed="#Bc"/>Ad aliud quod ulterius queritur, 
+di<lb ed="#Bc" break="no"/>cendum quod motus liberi arbitrii ut
+<lb ed="#Bc"/>causa nihil facit ad justificationem : nec
+<lb ed="#Bc"/>enim est causa efficiens, nec formalis,
+<lb ed="#Bc"/>sed solus Deus efficiens, et gratia 
+ope<lb ed="#Bc" break="no"/>rans et virtus formalis causa. Sed motus
+<lb ed="#Bc"/>liberi arbitrii in Deum et in 
+detestatio<lb ed="#Bc" break="no"/>nem peccati non exigitur, nisi ut non
+<lb ed="#Bc"/>ponatur obstaculum Spiritui sancto, qui
+<lb ed="#Bc"/>neminem justificat invitum. Et hoc est
+<lb ed="#Bc"/>quod dicitur in Psalmo xxx1, 1 : Beati
+<lb ed="#Bc"/>quorum remisse sunt iniquitates, et
+<lb ed="#Bc"/>quorum tecta sunt peccata. Et ibidem,
+<lb ed="#Bc"/>y. 2: Beatus vir cui non imputavit 
+Do<lb ed="#Bc" break="no"/>minus peccatum, nec est in spiritu ejus
+<lb ed="#Bc"/>dolus. Dolus enim esset si dissentiret.
+</p>
+               <p xml:id="Almn78-h58827-d1e1382">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod in his qui
+<pb ed="#Bc" n="270"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>non habent usum liberi arbitrii, 
+justifi<lb ed="#Bc" break="no"/>catio est per virtutem sacramenti, et per
+<lb ed="#Bc"/>virtutem sanguinis Christi : et a peccato
+<lb ed="#Bc"/>quod non a voluntate sed a natura 
+cor<lb ed="#Bc" break="no"/>rupta contractum est. De quo dicitur,
+<lb ed="#Bc"/>ad Ephes. u, 3: Eramus natura filii
+<lb ed="#Bc"/>ire. Et in Psalmo 1,7: Eece enim in
+<lb ed="#Bc"/>iniquitatibus conceptus sum, et in 
+pecea<lb ed="#Bc" break="no"/>tis concepit me mater mea. Et quia illud
+<lb ed="#Bc"/>aliena culpa contractum est, sicut culpa
+<lb ed="#Bc"/>primorum parentum, ita etiam aliena
+<lb ed="#Bc"/>justitia sufficit ad justificandum ab ipso,
+<lb ed="#Bc"/>sicut justitia Christi in regenerationis 
+sa<lb ed="#Bc" break="no"/>cramento. Sed in omnibus qui habent
+<lb ed="#Bc"/>liberum arbitrium exigitur motus liberi
+<lb ed="#Bc"/>arbitrii in detestationem peccati, et in
+<lb ed="#Bc"/>devotionem ad Deum justificantem
+<lb ed="#Bc"/>quia sine his, ut dictum est, obex 
+pone<lb ed="#Bc" break="no"/>retur Spiritui sancto.
+</p>
+               <p xml:id="Almn78-h58827-d1e1432">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Ad opsecta Pelagii que sumit ex
+<lb ed="#Bc"/>verbis Augustini, dicendum, quod illa
+<lb ed="#Bc"/>verba Augustini non dicunt virlutem
+<lb ed="#Bc"/>esse motum, nec fidem, nec charitatem :
+<lb ed="#Bc"/>sed loquitur ibi de virtutibus secundum
+<lb ed="#Bc"/>quod sunt in motu et actu, et sic 
+perfe<lb ed="#Bc" break="no"/>cte sunt ad meritum. Et ideo Pelagius
+<lb ed="#Bc"/>deceptus erravit, ponens perfectionem
+<lb ed="#Bc"/>sanctitatis et justificationis in homine,
+<lb ed="#Bc"/>que in solo Deo est ut in causa, ut 
+di<lb ed="#Bc" break="no"/>ctum est : licet in homine sit aliquid quo
+<lb ed="#Bc"/>disponitur ad justificationem ex 
+con<lb ed="#Bc" break="no"/>gruo, non ex condigno.
+</p>
+               <p xml:id="Almn78-h58827-d1e1465">
+                  <lb ed="#Bc"/>Ad trtimum dicendum, quod jam 
+so<lb ed="#Bc" break="no"/>lutum est, quod Augustinus loquitur de
+<lb ed="#Bc"/>fide et charitate prout sunt in actu, et
+<lb ed="#Bc"/>non prout sunt qualitates sive habitus
+<lb ed="#Bc"/>in anima a Deo create.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

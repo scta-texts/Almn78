@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="113"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d24969"><!-- p2t2prae -->
+            <head xml:id="Almn78-d24969-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-d24969-d1e109">
+               <pb ed="#Bb" n="113"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>TRACTATUS II.
+      <lb ed="#Bb"/>DE ANGELORUM CREATIONE.
+      <lb ed="#Bb"/>Omnibus praeinductis relictis erroribus, dicit Magister in libro II
+      <lb ed="#Bb"/>Sententiarum, distinct. I, cap. Horum ergo, ex verbis Bede et Ambrosii,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-d24969-Qd1e126">credamus rerum creatarum ccelestium vel terrestrium, 
+        visibi<lb ed="#Bb" break="no"/>lium vel invisibilium causam non esse, nisi bonitatem Creatoris, qui est
+        <lb ed="#Bb"/>Deus unus et verus : cujus tanta est bonitas, ut summe bonus 
+        beatitu<lb ed="#Bb" break="no"/>dinis su, qua eelernaliter beatus est, alios velit esse participes : quam
+        <lb ed="#Bb"/>videt et communicari posse, et minui omnino non posse ‘. </quote> Et quia
+      <lb ed="#Bb"/>non valet aliquis beatitudinis sue particeps existere (supple, perfecte)
+      <lb ed="#Bb"/>nisi per intelligentiam : que quanto magis intelligitur, tanto plenius
+      <lb ed="#Bb"/>habetur, fecit Deus rationalem creaturam, que summum bonum 
+      intellige<lb ed="#Bb" break="no"/>ret, et intelligendo amaret, et amando possideret, et possidendo frueretur.
+    </p>
+            <p xml:id="Almn78-d24969-d1e147">
+               <lb ed="#Bb"/>Ratione hujus queeritur hic de angelica natura.
+      <lb ed="#Bb"/>Et ante alia queerenda sunt sex, scilicet an sit ?
+      <lb ed="#Bb"/>Quid sit?
+      <lb ed="#Bb"/>Que causa multiplicationis ?
+      <lb ed="#Bb"/>Et, Utrum intra se invicem differant specie ?
+      <lb ed="#Bb"/>Et, Utrum specie differant ab animabus rationalibus ?
+      <lb ed="#Bb"/>Et, Ad quid facti sint ?
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

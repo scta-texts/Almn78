@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 23</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 23</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="266"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d59178"><!-- p2t5q23 -->
+            <head xml:id="Almn78-d59178-Hd1e106">Quaestio 23</head>
+            <head xml:id="Almn78-d59178-Hd1e109" type="question-title">
+      Per quid dejectus fuerit
+    </head>
+            <p xml:id="Almn78-d59178-d1e112">
+               <pb ed="#Bb" n="266"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO XXIII.
+      <lb ed="#Bb"/>Per quid dejectus fuerit?
+    </p>
+            <p xml:id="Almn78-d59178-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde queritur, Per quid dejectus
+      <lb ed="#Bb"/>fuerit ?
+    </p>
+            <p xml:id="Almn78-d59178-d1e132">
+               <lb ed="#Bb"/>Et hoc maxime propter hereticos 
+      Ma<lb ed="#Bb" break="no"/>nicheos, qui dicunt in dejectione 
+      Luci<lb ed="#Bb" break="no"/>feri proelium magnum fuisse in ccelo :
+      <lb ed="#Bb"/>inducentes illud Apocalypsis, xu, 7 et
+      <lb ed="#Bb"/>8: Hi factum est prelium magnum in
+      <lb ed="#Bb"/>celo : Michael et Angeli ejus 
+      prelia<lb ed="#Bb" break="no"/>bantur cum dracone, et draco 
+      pugna<lb ed="#Bb" break="no"/>bat et Angeli ejus : et non valuerunt,
+      <lb ed="#Bb"/>neque locus inventus est eorum 
+      am<lb ed="#Bb" break="no"/>plius in celo. Dicunt ergo si proelium
+      <lb ed="#Bb"/>fuit, et preelium reguirit moram et 
+      resi<lb ed="#Bb" break="no"/>stentem virtutem, videtur quod Angell
+      <lb ed="#Bb"/>cadentes postquam aversi sunt a Deo
+      <lb ed="#Bb"/>per superbiam, aliquam moram 
+      traxe<lb ed="#Bb" break="no"/>runt in ceelo, et quod aliquam virtutem
+      <lb ed="#Bb"/>habebant resistendi judicio Dei 
+      condem<lb ed="#Bb" break="no"/>nantis eos.
+    </p>
+            <p xml:id="Almn78-d59178-d1e172">
+               <lb ed="#Bb"/>Quod si concedatur, erit contra hoc:
+      <lb ed="#Bb"/>1. Quod dicit Petrus in secunda 
+      cano<lb ed="#Bb" break="no"/>nica sua sic, u, 11: Angeli fortitudine
+      <lb ed="#Bb"/>et virtute cum sint majores, non 
+      por<lb ed="#Bb" break="no"/>tant adversum se exsecrabile judicium.
+    </p>
+            <p xml:id="Almn78-d59178-d1e185">
+               <lb ed="#Bb"/>2. Adhuc, Cum supericrum 
+      Angelo<lb ed="#Bb" break="no"/>rum magis sit consentire Deo, quam 
+      in<lb ed="#Bb" break="no"/>feriorum, qualiter attribuitur magis 
+      pree<lb ed="#Bb" break="no"/>lium hoc Michaeli, quam Cherubim, et
+      <lb ed="#Bb"/>Seraphim ?
+    </p>
+            <p xml:id="Almn78-d59178-d1e198">
+               <lb ed="#Bb"/>Solutio. Preelium illud quod 
+      hereti<lb ed="#Bb" break="no"/>ci dicunt factum fuisse in ccelo, Glossa
+      <lb ed="#Bb"/>exponit factum esse in Ecclesia, et non
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>in coelo, nisi secundum quod exponitur,
+      <lb ed="#Bb"/>in coelo, hoc est, pro ceelo, sive pro 
+      ce<lb ed="#Bb" break="no"/>lestibus, sicut exponitur, ad Ephes. vi,
+      <lb ed="#Bb"/>12: Non est nobis colluctatio adversus
+      <lb ed="#Bb"/>carnem et sanguinem (supple, tantum),
+      <lb ed="#Bb"/>sed adversus principatus et potestates,
+      <lb ed="#Bb"/>adversus mundi rectores tenebrarum 
+      ha<lb ed="#Bb" break="no"/>rum, contra spiritualia nequitiz, in
+      <lb ed="#Bb"/>celestibus. Glossa, hoc est, <quote xml:id="Almn78-d59178-Qd1e228"> pro 
+        ceele<lb ed="#Bb" break="no"/>stibus : </quote> et secundum hoc Michael et
+      <lb ed="#Bb"/>Angeli ejus nominantur. Quia, sicut 
+      di<lb ed="#Bb" break="no"/>cit Hieronymus, Michael prepositus est
+      <lb ed="#Bb"/>Ecclesie et princeps. Angeli autem ejus
+      <lb ed="#Bb"/>sunt Angeli deputati ad custodiam 
+      ani<lb ed="#Bb" break="no"/>marum : quorum officium proprium est
+      <lb ed="#Bb"/>semper decertare contra diabolum, ne
+      <lb ed="#Bb"/>seducat animas sibi commissas. Et hoc
+      <lb ed="#Bb"/>patet per hoc quod sequitur, ubi anime
+      <lb ed="#Bb"/>defense cum Angelis sibi deputatis 
+      gra<lb ed="#Bb" break="no"/>tes Deo referunt, sic dicendo : Nunc 
+      fa<lb ed="#Bb" break="no"/>cta est salus, et virtus, et regnum Dei
+      <lb ed="#Bb"/>nostri, et potestas Christi ejus, quia 
+      pro<lb ed="#Bb" break="no"/>jectus est accusator fratrum nostrorum,
+      <lb ed="#Bb"/>qui accusabat illos ante conspectum Dei
+      <lb ed="#Bb"/>nostri die ac nocte : et ipsi vicerunt eum
+      <lb ed="#Bb"/>propter sanguinem Agni, et propier 
+      ver<lb ed="#Bb" break="no"/>bum testimonii sui: et non dilexerunt
+      <lb ed="#Bb"/>animas suas usque ad mortem *. Constat
+      <lb ed="#Bb"/>autem, quod sanguis Agni multo 
+      tem<lb ed="#Bb" break="no"/>pore fusus est post casum Angelorum a
+      <lb ed="#Bb"/>principio: et ideo pugna illa ad primum
+      <lb ed="#Bb"/>casum Angelorum referri non potest, sed
+      <lb ed="#Bb"/>ad Ecclesiam, ut dictum est.
+    </p>
+            <p xml:id="Almn78-d59178-d1e284">
+               <pb ed="#Bb" n="267"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Si autem instantie hereticorum 
+      con<lb ed="#Bb" break="no"/>descendatur, ut anagogice exponatur de
+      <lb ed="#Bb"/>prelio quod factum est im ceelo : tunc
+      <lb ed="#Bb"/>prelium nihil aliud est, quam conatus,
+      <lb ed="#Bb"/>quo contra justiliam Angeli mali conati
+      <lb ed="#Bb"/>sunt oblinere Dei similitudinem in hoc
+      <lb ed="#Bb"/>quod essent proprie potestatis : et talis
+      <lb ed="#Bb"/>conatus nec moram requirit, nec magne
+      <lb ed="#Bb"/>virtutis resistentiam, quia in se 
+      debilissi<lb ed="#Bb" break="no"/>mus est. Et hoc Michaeli attribuitur 
+      ra<lb ed="#Bb" break="no"/>tione interpretationis nominis : Michael
+      <lb ed="#Bb"/>enim guis ut Deus interpretatur : quod
+      <lb ed="#Bb"/>congrue cum increpatione et pugna 
+      di<lb ed="#Bb" break="no"/>citur ei, qui similitudinem Dei obtinere
+      <lb ed="#Bb"/>nititur conatu impio et contra justiliam.
+    </p>
+            <p xml:id="Almn78-d59178-d1e323">
+               <lb ed="#Bb"/>Juxta hoc ulterius queritur de 
+      ruden<lb ed="#Bb" break="no"/>tibus, de quibus dicit Petrus in secunda
+      <lb ed="#Bb"/>canonica, u, 4 : Deus Angelis 
+      peccanti<lb ed="#Bb" break="no"/>bus non pepereit, sed rudentibus inferni
+      <lb ed="#Bb"/>detractos in ‘tartarum tradidit 
+      crucian<lb ed="#Bb" break="no"/>dos, in Judicium reservart.
+    </p>
+            <p xml:id="Almn78-d59178-d1e339">
+               <lb ed="#Bb"/>Super quod dicit <name xml:id="Almn78-d59178-Nd1e343">Petrus Gallus</name> here
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>ticus, quod per hoc patet pugnam in
+      <lb ed="#Bb"/>ceelo fuisse, et Angelos cadentes primo
+      <lb ed="#Bb"/>corpora wtherea habuisse, in quibus 
+      li<lb ed="#Bb" break="no"/>gati funibus de celo precipitati sunt.
+    </p>
+            <p xml:id="Almn78-d59178-d1e359">
+               <lb ed="#Bb"/>Sed contra hoc est, quod secundum
+      <lb ed="#Bb"/>hoc Petrus debuisset hic dixisse, 
+      Funi<lb ed="#Bb" break="no"/>bus, non rudentibus eo enim ipso
+      <lb ed="#Bb"/>quod dixit, Rudentibus, significabat se
+      <lb ed="#Bb"/>metaphorice loqui. Unde Glossa ibidem
+      <lb ed="#Bb"/>sic dicit: <quote xml:id="Almn78-d59178-Qd1e374"> Rudentes sunt funes, quibus
+        <lb ed="#Bb"/>naute velum suspendunt, ut flante aura
+        <lb ed="#Bb"/>portus tranquillitatem relinquant, seque
+        <lb ed="#Bb"/>super ambiguis fluctibus credant. 
+        Qui<lb ed="#Bb" break="no"/>bus rudentibus convenienter 
+        immundo<lb ed="#Bb" break="no"/>rum spirituum conamina comparantur,
+        <lb ed="#Bb"/>qui mox ut flante superbia impulsi, se
+        <lb ed="#Bb"/>adversus Creatorem erexerunt, ipsis ela~
+        <lb ed="#Bb"/>tionis sue conatibus portum felicitatis
+        <lb ed="#Bb"/>eterne reliquerunt, et in profundum
+        <lb ed="#Bb"/>abyssi rapti sunt et dimersi.</quote> Unde 
+      pa<lb ed="#Bb" break="no"/>tet, quod nec corpora habuerunt, nec
+      <lb ed="#Bb"/>funibus ligati precipilati sunt, ut fingit
+      <lb ed="#Bb"/>hereticus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 101</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 101</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="252"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h56199"><!-- p2t16q101 -->
+            <head xml:id="Almn78-h56199-Hd1e106">Quaestio 101</head>
+            <head xml:id="Almn78-h56199-Hd1e109" type="question-title">
+    De gratia operante et cooperante
+  </head>
+            <p xml:id="Almn78-h56199-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAESTIO CI.
+<lb ed="#Bc"/>De gratia operante et cooperante.
+</p>
+            <p xml:id="Almn78-h56199-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde ratione ejus quod dicitur in
+<lb ed="#Bc"/>eadem distinctione *, cap. Hie conside-
+<lb ed="#Bc" break="no"/>randum est.
+</p>
+            <p xml:id="Almn78-h56199-d1e132">
+               <lb ed="#Bc"/>Hic queruntur tria.
+<lb ed="#Bc"/>Primum est, Utrum eadem sit operans
+<lb ed="#Bc"/>et cooperans, sive preveniens et 
+subse<lb ed="#Bc" break="no"/>quens, sive diverse ?
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Secundum, Ratione sequentis capituli,
+<lb ed="#Bc"/>St vero queritur. Quomodo gratia 
+pot<lb ed="#Bc" break="no"/>est augeri vel minui?
+<lb ed="#Bc"/>Tertium, Qualiter gratia differt a 
+vir<lb ed="#Bc" break="no"/>tute ? ;
+</p>
+            <p xml:id="Almn78-h56199-d1e157">
+               <lb ed="#Bc"/>De his enim tribus Magister querit in
+<lb ed="#Bc"/>Littera.
+</p>
+            <div xml:id="Almn78-h56199-Dd1e164">
+               <head xml:id="Almn78-h56199-Hd1e166">Membrum 1</head>
+               <head xml:id="Almn78-h56199-Hd1e169" type="question-title">
+        Utrum eadem sit gratia operans et 
+        cooperans, sive praeveniens et subsequens,
+        vel diverse
+      </head>
+               <p xml:id="Almn78-h56199-d1e172">
+                  <pb ed="#Bc" n="253"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum eadem sit gratia operans et 
+coope<lb ed="#Bc" break="no"/>rans, sive praeveniens et subsequens,
+<lb ed="#Bc"/>vel diverse?
+</p>
+               <p xml:id="Almn78-h56199-d1e188">
+                  <lb ed="#Bc"/>Ad primum objicitur sic :
+<lb ed="#Bc"/>1. Dicit Philosophus, quod actus sunt
+<lb ed="#Bc"/>previi potentiis secundum rationem ;
+<lb ed="#Bc"/>quia polentia distinguuntur per actus, et
+<lb ed="#Bc"/>actus per objecta : sed eadem ratione 
+di<lb ed="#Bc" break="no"/>stinguuntur habitus per actus sicut et 
+po<lb ed="#Bc" break="no"/>tentie : quia habitus ad potentias 
+ordi<lb ed="#Bc" break="no"/>nantur, et perficiunt potentias ad actus :
+<lb ed="#Bc"/>sed diversi sunt actus gratia 
+prevenien<lb ed="#Bc" break="no"/>tis et subsequentis, operantis et 
+coope<lb ed="#Bc" break="no"/>rantis, sicut patet, quod gratia operans
+<lb ed="#Bc"/>sive praeveniens liberat et praeparat 
+ho<lb ed="#Bc" break="no"/>minis voluntatem ut bonum velit: 
+sub<lb ed="#Bc" break="no"/>sequens autem sive cooperans, ut dicit
+<lb ed="#Bc"/>Augustinus, illam adjuvat ne frustra
+<lb ed="#Bc"/>velit : et isti sunt diversi actus: ergo et
+<lb ed="#Bc"/>diversi habitus.
+</p>
+               <p xml:id="Almn78-h56199-d1e227">
+                  <lb ed="#Bc"/>9. Adhuc, Ipso nomine ostenditur,
+<lb ed="#Bc"/>quod operans per se operatur : 
+coope<lb ed="#Bc" break="no"/>rans autem cum quodam alio: ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod non sunt ejusdem potentiae :
+<lb ed="#Bc"/>ergo nec ejusdem essentie sive 
+substan<lb ed="#Bc" break="no"/>tie : ergo sunt diverse.
+</p>
+               <p xml:id="Almn78-h56199-d1e244">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Gratiae proprius actus est gratum
+<lb ed="#Bc"/>facere habentem, et opus ejus gratum
+<lb ed="#Bc"/>reddere : iste actus unius rationis est in
+<lb ed="#Bc"/>communi et operante et cooperante :
+<lb ed="#Bc"/>ergo videtur, quod habitus unius 
+ratio<lb ed="#Bc" break="no"/>nis sit operantis et cooperantis, 
+preve<lb ed="#Bc" break="no"/>nientis et subsequentis.
+</p>
+               <p xml:id="Almn78-h56199-d1e264">
+                  <lb ed="#Bc"/>2. Adhuc, Gratia a duobus dicitur,
+<lb ed="#Bc"/>que vere gratia est et simpliciter, 
+scili<lb ed="#Bc" break="no"/>cet quia gratis datur et non meritis 
+red<lb ed="#Bc" break="no"/>ditur, et quia gratum facit habentem et
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>opus ejus : utrumque et per unam 
+ratio<lb ed="#Bc" break="no"/>nem habet operans et cooperans : ergo
+<lb ed="#Bc"/>videtur, quod sint gratia una et eadem.
+</p>
+               <p xml:id="Almn78-h56199-d1e284">
+                  <lb ed="#Bc"/>Solutio. Ad hane questionem satis 
+re<lb ed="#Bc" break="no"/>spondet Magister sic dicens: <quote xml:id="Almn78-h56199-Qd1e290"> 
+Quibus<lb ed="#Bc" break="no"/>dam non irrationabiliter videtur, quod
+<lb ed="#Bc"/>una et eadem sit gratia, idem donum,
+<lb ed="#Bc"/>eadem virlus, que operatur et 
+coopera<lb ed="#Bc" break="no"/>tur : sed propter diversos ejus effectus et
+<lb ed="#Bc"/>dicitur operans et cooperans. </quote> Et hoc
+<lb ed="#Bc"/>simpliciter concedendum est.
+</p>
+               <p xml:id="Almn78-h56199-d1e306">
+                  <lb ed="#Bc"/>Ad primum autem dicendum, quod
+<lb ed="#Bc"/>actus sint previi poientiis, hoc 
+innega<lb ed="#Bc" break="no"/>bile est : sed licet diversi sunt actus,
+<lb ed="#Bc"/>qui sunt liberare voluntatem et 
+adjuva<lb ed="#Bc" break="no"/>re, amen una et eadem virtus 
+secun<lb ed="#Bc" break="no"/>dum rationem estin eis: et hac est
+<lb ed="#Bc"/>virtus merendiet gratum faciendi que
+<lb ed="#Bc"/>est tam in gratia operante, quam in 
+gra<lb ed="#Bc" break="no"/>tia cooperante : et ideo una et eadem est
+<lb ed="#Bc"/>gratia que geminatur per officia sive
+<lb ed="#Bc"/>aclus, licet una forma gratie sit 
+utris<lb ed="#Bc" break="no"/>que : utraque enim confert vim 
+meren<lb ed="#Bc" break="no"/>di et gratum faciendi.
+</p>
+               <p xml:id="Almn78-h56199-d1e337">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod secundum
+<lb ed="#Bc"/>aliquid sunt ejusdem potentia, et 
+secun<lb ed="#Bc" break="no"/>dum aliquid non: secundum hoc enim
+<lb ed="#Bc"/>ejusdem potentie sunt, quod utraque
+<lb ed="#Bc"/>gralum facit et vim confert merendi.
+<lb ed="#Bc"/>Differunt autem in hoc, quod operans
+<lb ed="#Bc"/>facit hoc circa voluntatem, informando
+<lb ed="#Bc"/>eam : cooperans autem circa actum 
+libe<lb ed="#Bc" break="no"/>ri arbitrii, eliciendo eum et dando ei 
+vir<lb ed="#Bc" break="no"/>tutem ut mereri possit et dignus sit vila
+<lb ed="#Bc"/>eterna: et hoc non facit diversitatem
+<lb ed="#Bc"/>essentie sive forme, sed diversitatem
+<lb ed="#Bc"/>effectuum tantum in voluntate et actu
+<lb ed="#Bc"/>ejus.
+</p>
+               <p xml:id="Almn78-h56199-d1e370">
+                  <lb ed="#Bc"/>Duo que objiciuntur in contrarium,
+<lb ed="#Bc"/>procedunt, et probant hoc quod dictum
+<lb ed="#Bc"/>est.
+</p>
+            </div>
+            <div xml:id="Almn78-h56199-Dd1e380">
+               <head xml:id="Almn78-h56199-Hd1e382">Membrum 2</head>
+               <head xml:id="Almn78-h56199-Hd1e385" type="question-title">
+        Quomodo gratia possit vel
+        minui?
+      </head>
+               <p xml:id="Almn78-h56199-d1e388">
+                  <pb ed="#Bc" n="254"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quomodo gratia possit vel
+<lb ed="#Bc"/>minui?
+</p>
+               <p xml:id="Almn78-h56199-d1e401">
+                  <lb ed="#Bc"/>Secundo queritur, Quomodo gratia
+<lb ed="#Bc"/>potest augeri vel minui ?
+</p>
+               <p xml:id="Almn78-h56199-d1e408">
+                  <lb ed="#Bc"/>1. Dicit enim Augustinus: <quote xml:id="Almn78-h56199-Qd1e412"> Ipsa
+<lb ed="#Bc"/>enim gratia non est otiosa, sed meretur
+<lb ed="#Bc"/>augeri, ut aucta mereatur perfici. </quote> Hoc
+<lb ed="#Bc"/>enim non videtur esse proprie dictum :
+<lb ed="#Bc"/>cum augmentum proprie non sit nisi in
+<lb ed="#Bc"/>quantitatibus : in genere autem 
+quanti<lb ed="#Bc" break="no"/>tatis non est gratia preveniens nec 
+sub<lb ed="#Bc" break="no"/>sequens.
+</p>
+               <p xml:id="Almn78-h56199-d1e432">
+                  <lb ed="#Bc"/>2. Adhuc, Inconvenienter videtur 
+di<lb ed="#Bc" break="no"/>cere, quod gratia meretur augeri : 
+me<lb ed="#Bc" break="no"/>ritum enim illud aut est ex congruo, aut
+<lb ed="#Bc"/>ex debito. Non ex congruo: quia nihil
+<lb ed="#Bc"/>precedit primam gratiam unde 
+con<lb ed="#Bc" break="no"/>gruum sit ipsam augeri. Similiter nec
+<lb ed="#Bc"/>ex debito : quia hoc non possct esse nisi
+<lb ed="#Bc"/>ex Deo: et Deus nulli aliquid debet, ut
+<lb ed="#Bc"/>dicit Hieronymus : videtur ergo, quod
+<lb ed="#Bc"/>ex debito non possit augeri.
+</p>
+               <p xml:id="Almn78-h56199-d1e456">
+                  <lb ed="#Bc"/>Solutio. Dicendum cum Augustino in
+<lb ed="#Bc"/>libro de Quantitate anime, quod duplex
+<lb ed="#Bc"/>est quantitas, virtutis scilicet, et molis.
+<lb ed="#Bc"/>Cum enim queritur, quantus sit 
+Her<lb ed="#Bc" break="no"/>cules ? potest queri quot pedum sit, vel
+<lb ed="#Bc"/>quant virtutis. Et ideo dixerunt 
+anti<lb ed="#Bc" break="no"/>qui, quod quantitas molis dividitur ad
+<lb ed="#Bc"/>intus per aliquid numerans quantitatem
+<lb ed="#Bc"/>subjecti, sicut est pes, ulna, et palma.
+<lb ed="#Bc"/>Quantitas autem virtutis dividitur ad 
+ex<lb ed="#Bc" break="no"/>tra, sicut posse in duos vel in tres vel in
+<lb ed="#Bc"/>quatuor est virtus Herculis. Unde gratia
+<lb ed="#Bc"/>augetur augmento virtutis et non molis:
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>in hoc enim major est quod in 
+plu<lb ed="#Bc" break="no"/>ra merita potest et plus mereri, in hoc
+<lb ed="#Bc"/>scilicet, quod per depurationem magis
+<lb ed="#Bc"/>recedit a contrario, peccato scilicet, et
+<lb ed="#Bc"/>magis accedit ad puritatem prime 
+boni<lb ed="#Bc" break="no"/>tatis et virtutis: ex hoc enim habet
+<lb ed="#Bc"/>majorem vim merendi et perfectam 
+ac<lb ed="#Bc" break="no"/>cipit vim merendi quando est intra.
+</p>
+               <p xml:id="Almn78-h56199-d1e506">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod in
+<lb ed="#Bc"/>quantitatibus est augmentum quantitatis
+<lb ed="#Bc"/>molis: in spiritualibus autem bene est
+<lb ed="#Bc"/>augmentum virtutis, licet non molis, 
+sic<lb ed="#Bc" break="no"/>ut paulo ante dictum est.
+</p>
+               <p xml:id="Almn78-h56199-d1e519">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod meritum
+<lb ed="#Bc"/>illud virtutis est ex cougruo, et non ex
+<lb ed="#Bc"/>condigno vel debito : congruum enim
+<lb ed="#Bc"/>est, ut ipse dicit Augustinus, quod qui
+<lb ed="#Bc"/>bene utitur gratia, quod addatur ei 
+aug<lb ed="#Bc" break="no"/>mentum illius gratie. Matth. xxv, 15:
+<lb ed="#Bc"/>Dedit... unicuique secundum propriam
+<lb ed="#Bc"/>virtutem, id est, secundum usum et 
+co<lb ed="#Bc" break="no"/>natum virtutis.
+</p>
+            </div>
+            <div xml:id="Almn78-h56199-Dd1e542">
+               <head xml:id="Almn78-h56199-Hd1e544">Membrum 3</head>
+               <head xml:id="Almn78-h56199-Hd1e547" type="question-title">
+        Qualiter gratia differat a virtute
+      </head>
+               <p xml:id="Almn78-h56199-d1e550">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Qualiter gratia differat a virtute?
+</p>
+               <p xml:id="Almn78-h56199-d1e557">
+                  <lb ed="#Bc"/>Tertio queritur, Qualiter gratia differt
+<lb ed="#Bc"/>a virtute ?
+</p>
+               <p xml:id="Almn78-h56199-d1e564">
+                  <lb ed="#Bc"/>Et videtur, quod non differat :
+<lb ed="#Bc"/>1. Quorum enim una est definitio, 
+eo<lb ed="#Bc" break="no"/>rum unum est esse: sed una est gratia
+<lb ed="#Bc"/>et virtutis definitio: ergo unum esse.
+<lb ed="#Bc"/>Masor per se patet. Minor scribitur in
+<lb ed="#Bc"/>Littera in sequenti distinctione, cap. 1,
+<lb ed="#Bc"/>ubi inducitur Augustinus sic dicens:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h56199-Qd1e583"> Virtus est bona qualitas mentis, qua
+<lb ed="#Bc"/>recte vivitur, qua nemo male utitur,
+<lb ed="#Bc"/>quam Deus operatur in nobis sine no
+<pb ed="#Bc" n="255"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>bis. </quote> Omnia posita in hac definitione
+<lb ed="#Bc"/>conveniunt gratie gratum facienti : hec
+<lb ed="#Bc"/>enim est bona qualitas mentis, qua recte
+<lb ed="#Bc"/>vivitur, qua nemo male ulitur, quam
+<lb ed="#Bc"/>Deus, etc. Ergo videtur, quod virtus et
+<lb ed="#Bc"/>gratia sint idem, et _nullam habeant 
+dif<lb ed="#Bc" break="no"/>ferentiam.
+</p>
+               <p xml:id="Almn78-h56199-d1e611">
+                  <lb ed="#Bc"/>2. Adhuc, Quorum est effectus unus,
+<lb ed="#Bc"/>ipsa sunt eadem : virtutis et gratie unus
+<lb ed="#Bc"/>effectus est, scilicet meritum vite 
+eter<lb ed="#Bc" break="no"/>ne, quia virtute meremur, et gratia 
+me<lb ed="#Bc" break="no"/>remur : ergo sunt idem.
+</p>
+               <p xml:id="Almn78-h56199-d1e624">
+                  <lb ed="#Bc"/>3. Adhuc, Gratia dicilur, quia gratis
+<lb ed="#Bc"/>datur et gratum facit : utrumque horum
+<lb ed="#Bc"/>convenit virtuti, maxime infuse : ergo
+<lb ed="#Bc"/>videtur, quod gratia et virlus infusa sint
+<lb ed="#Bc"/>idem.
+</p>
+               <p xml:id="Almn78-h56199-d1e637">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Quaecumque dividuntur secundum
+<lb ed="#Bc"/>subjecta, dividuntur secundum esse:
+<lb ed="#Bc"/>virtutes et gratia dividuntur secundum
+<lb ed="#Bc"/>subjecta, quia multi sunt qui habent
+<lb ed="#Bc"/>virtutes cardinales, et non habent 
+gra<lb ed="#Bc" break="no"/>tiam gratum facientem : ergo virtus et
+<lb ed="#Bc"/>gratia gratum faciens non sunt idem.
+</p>
+               <p xml:id="Almn78-h56199-d1e657">
+                  <lb ed="#Bc"/>2. Adhuc, In Littera dicitur, quod
+<lb ed="#Bc"/>gratia gratum faciens est fides que per
+<lb ed="#Bc"/>dilectionem operatur, per quam 
+justifi<lb ed="#Bc" break="no"/>catur impius. Videtur ergo, quod gratia
+<lb ed="#Bc"/>non sit idem cum omni virtute, sed cum
+<lb ed="#Bc"/>quadam.
+</p>
+               <p xml:id="Almn78-h56199-d1e673">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod gratia 
+pot<lb ed="#Bc" break="no"/>est sumi in genere, et in specie. Si in
+<lb ed="#Bc"/>genere : tunc omne donum a Deo gratis
+<lb ed="#Bc"/>datum, sive corporale, sive spirituale
+<lb ed="#Bc"/>gratia est : et sic virtutes cardinales, sive
+<lb ed="#Bc"/>acquisite sive infuse gratiae sunt. Si in
+<lb ed="#Bc"/>specie et stricte accipitur: tunc gratia
+<lb ed="#Bc"/>gratum faciens non est nisi ipsum 
+do<lb ed="#Bc" break="no"/>num,cum quo dat seipsum Deus in 
+tem<lb ed="#Bc" break="no"/>porali processione Spiritus sancti, hoc
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>enim donum est sanctificans et 
+gratifi<lb ed="#Bc" break="no"/>cans: nec dicitur gratia que gratis 
+da<lb ed="#Bc" break="no"/>tur tantum, sed quia gratum facit 
+ha<lb ed="#Bc" break="no"/>bentem, et opus ejus gratum_ reddit:
+<lb ed="#Bc"/>et hoc vero nomine dicitur gratia. Et
+<lb ed="#Bc"/>sic virtus generaliter non est idem
+<lb ed="#Bc"/>cum gratia : sed primo modo omnis 
+vir<lb ed="#Bc" break="no"/>tus est gratia que gratis datur.
+</p>
+               <p xml:id="Almn78-h56199-d1e717">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod ex
+<lb ed="#Bc"/>illa definitione non potest probari, quod
+<lb ed="#Bc"/>virtus est gratia que gratum faciat. 
+Li<lb ed="#Bc" break="no"/>cet enim omnis virtus talis sit bona 
+qua<lb ed="#Bc" break="no"/>litas mentis, secundum quod bonum 
+de<lb ed="#Bc" break="no"/>finitur a Dionysio, quod bonum est quod
+<lb ed="#Bc"/>est a bono: non tamen est bona a 
+bo<lb ed="#Bc" break="no"/>nitale gratie gratum”facientis, sed est
+<lb ed="#Bc"/>bona, quia est a bono. Et licet recte 
+vi<lb ed="#Bc" break="no"/>vatur qualibet virtute, hec tamen non
+<lb ed="#Bc"/>est rectitudo talis que gratum faciat :
+<lb ed="#Bc"/>sed est rectitudo theologice virlutis, sive
+<lb ed="#Bc"/>cardinalis, que est rectitudo contingendi
+<lb ed="#Bc"/>finem, ut fides in primiam veritatem, et
+<lb ed="#Bc"/>spes in primam largitatem : vel 
+rectitu<lb ed="#Bc" break="no"/>do contingendi medium, sicut quatuor
+<lb ed="#Bc"/>virtutes cardinales, de quibus dicit 
+Ari<lb ed="#Bc" break="no"/>stoteles in JI] EHthicorum, quod quamvis
+<lb ed="#Bc"/>extremum in bono, tamen in passionibus
+<lb ed="#Bc"/>et operationibus sunt medium. Et sic
+<lb ed="#Bc"/>etiam nemo male utitur eis quantum
+<lb ed="#Bc"/>est de se: licet aliiscmale utens et non
+<lb ed="#Bc"/>recte vivens, possit eas habere 
+infor<lb ed="#Bc" break="no"/>mes et non informatas.
+</p>
+               <p xml:id="Almn78-h56199-d1e773">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod non cst
+<lb ed="#Bc"/>unus effectus virtutis et gratie, nisi 
+vir<lb ed="#Bc" break="no"/>tutis formate per gratiam : et bene 
+con<lb ed="#Bc" break="no"/>ceditur, quod illa virtus sit gratia.
+</p>
+               <p xml:id="Almn78-h56199-d1e784">
+                  <lb ed="#Bc"/>Ad uttimum dicendum, quod non 
+om<lb ed="#Bc" break="no"/>nis virtus infusa facit gratum, sed virtus
+<lb ed="#Bc"/>infusa cum qua infunditur Spiritus 
+san<lb ed="#Bc" break="no"/>ctus, gratum facit, et non alia: et talis
+<lb ed="#Bc"/>non est nisi virtus formata per gratiam
+<lb ed="#Bc"/>gratum facientem et per charitatem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

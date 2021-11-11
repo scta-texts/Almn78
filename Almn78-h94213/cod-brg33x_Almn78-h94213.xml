@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 128</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 128</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="422"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h94213"><!-- p2t20q128 -->
+            <head xml:id="Almn78-h94213-Hd1e106">Quaestio 128</head>
+            <head xml:id="Almn78-h94213-Hd1e109" type="question-title">
+    De maledicto
+  </head>
+            <p xml:id="Almn78-h94213-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXXVII.
+<lb ed="#Bc"/>De maledicto.
+</p>
+            <p xml:id="Almn78-h94213-d1e119">
+               <lb ed="#Bc"/>Deinde, Queritur de maledicto.
+<lb ed="#Bc"/>Et queruntur duo, scilicet primo quid
+<lb ed="#Bc"/>sit maledictum, et quid maledicere, et
+<lb ed="#Bc"/>an maledicere sit peccatum, et quantum
+<lb ed="#Bc"/>peccatum ?
+</p>
+            <p xml:id="Almn78-h94213-d1e132">
+               <lb ed="#Bc"/>Et secundo, Utrum maledictum possit
+<lb ed="#Bc"/>interminari in creaturam rationalem, 
+sic<lb ed="#Bc" break="no"/>ut hominem, et Angelum, et similiter in
+<lb ed="#Bc"/>irrationalem creaturam ?
+</p>
+            <div xml:id="Almn78-h94213-Dd1e144">
+               <head xml:id="Almn78-h94213-Hd1e146">Membrum 1</head>
+               <head xml:id="Almn78-h94213-Hd1e149" type="question-title">
+        Quid sit maledictum ? et, Quid 
+        maledicere ? et, Quantum peccatum sit ?
+      </head>
+               <p xml:id="Almn78-h94213-d1e152">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit maledictum ? et, Quid 
+maledi<lb ed="#Bc" break="no"/>cere ? et, Quantum peccatum sit ?
+</p>
+               <p xml:id="Almn78-h94213-d1e163">
+                  <lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>
+                  <name xml:id="Almn78-h94213-Nd1e169">Haymo</name> sic definit maledictum : <quote xml:id="Almn78-h94213-Qd1e172"> 
+Ma<lb ed="#Bc" break="no"/>ledictum est pcene in aliquem 
+impre<lb ed="#Bc" break="no"/>catio. </quote>
+               </p>
+               <p xml:id="Almn78-h94213-d1e180">
+                  <pb ed="#Bc" n="423"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Secundum hoc videtur, quod 
+maledi<lb ed="#Bc" break="no"/>cere non semper sit malum: quia
+</p>
+               <p xml:id="Almn78-h94213-d1e192">
+                  <lb ed="#Bc"/>1. Quod reo optetur peena, videtur
+<lb ed="#Bc"/>esse justum et conveniens, ut ex pena
+<lb ed="#Bc"/>corrigatur. Contra : Maledictio et 
+bene<lb ed="#Bc" break="no"/>dictio sunt opposita : benedictio est *
+bo<lb ed="#Bc" break="no"/>num : ergo maledictio est malum,
+</p>
+               <p xml:id="Almn78-h94213-d1e205">
+                  <lb ed="#Bc"/>2. Adhuc, Jacobi, ui, 10 et 41: Ex
+<lb ed="#Bc"/>ipso ore procedit benedictio et 
+male<lb ed="#Bc" break="no"/>dictio. Non oportet, fratres met, haec ita
+<lb ed="#Bc"/>fiert. Numquid fons de eodem foramine
+<lb ed="#Bc"/>emanat dulcem et amaram aquam ?
+<lb ed="#Bc"/>Quasi dicat : Inconveniens est, quod de
+<lb ed="#Bc"/>eodem ore procedat henedictio et 
+male<lb ed="#Bc" break="no"/>dictio. Unde, ibidem, y. 9: In ipsa,
+<lb ed="#Bc"/>scilicet lingua, benedicomus Deum et
+<lb ed="#Bc"/>Patrem, et inipsa maledicimus homines,
+<lb ed="#Bc"/>qui ad similitudinem Dei facti sunt.
+<lb ed="#Bc"/>Videtur ergo velle, quod benedictio sit
+<lb ed="#Bc"/>bonum, et maledictio malum.
+</p>
+               <p xml:id="Almn78-h94213-d1e236">
+                  <lb ed="#Bc"/>3. Adhuc, Proverb. xxvi, 2: 
+Afale<lb ed="#Bc" break="no"/>dictum frustra prolatum in quempiam
+<lb ed="#Bc"/>superveniet. Glossa, <quote xml:id="Almn78-h94213-Qd1e244"> In retributione
+<lb ed="#Bc"/>pene.</quote> Ergo maledictum est malum.
+</p>
+               <p xml:id="Almn78-h94213-d1e250">
+                  <lb ed="#Bc"/>4. Adhuc, I Petri, wm, 9 : Malum
+<lb ed="#Bc"/>pro malo non reddentes, nec 
+male<lb ed="#Bc" break="no"/>dictum pro maledicto, sed e contrarto
+<lb ed="#Bc"/>benedicentes *. Ergo maledictum malum
+<lb ed="#Bc"/>est,
+</p>
+               <p xml:id="Almn78-h94213-d1e263">
+                  <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>1. Quod fit per divinam justitiam,
+<lb ed="#Bc"/>bonum est. Imprecatio poene sepe fit
+<lb ed="#Bc"/>per divinam justitiam. Act. vm, 20,
+<lb ed="#Bc"/>Petrus dixit ad Simonem magum :
+<lb ed="#Bc"/>Pecunia tua tecum sit in perditionem !
+<lb ed="#Bc"/>Ergo bonum est.
+</p>
+               <p xml:id="Almn78-h94213-d1e281">
+                  <lb ed="#Bc"/>2. Adhuc, IV Reg. 1, 23 et 24, pueris
+<lb ed="#Bc"/>clamantibus post Eliseum : Ascende,
+<lb ed="#Bc"/>calve: ascende, calve : Eliseus 
+impreca<lb ed="#Bc" break="no"/>batur pueris malum pone: ef egress
+<lb ed="#Bc"/>sunt duo urst de silva, et laceraverunt
+<lb ed="#Bc"/>ex eis quadraginta duos pueros. Et non
+<lb ed="#Bc"/>est credendum, quod tantus’ Propheta
+<lb ed="#Bc"/>per maledictum peccaverit. Ergo non
+<lb ed="#Bc"/>universaliter est malum.
+</p>
+               <p xml:id="Almn78-h94213-d1e304">
+                  <lb ed="#Bc"/>Ulterius queritur, Si est malum sicut
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>probant prime auctoritates, utrum sit
+<lb ed="#Bc"/>peccatum veniale, vel mortale, vel 
+ali<lb ed="#Bc" break="no"/>quando sic, et aliquando aliter ?
+</p>
+               <p xml:id="Almn78-h94213-d1e317">
+                  <lb ed="#Bc"/>Et videtur, quod semper sit peccatum
+<lb ed="#Bc"/>mortale : quia quod est contra 
+prece<lb ed="#Bc" break="no"/>ptum Evangelicum, est peccatum 
+mor<lb ed="#Bc" break="no"/>tale. Dicit autem Dominus, Matth, v, 44
+<lb ed="#Bc"/>et 45: Orate pro persequentibus et 
+ca<lb ed="#Bc" break="no"/>lumniantibus vos: ut sitis filit Patris
+<lb ed="#Bc"/>vesiri qui in celis est. Ergo qui contra
+<lb ed="#Bc"/>hoc facit, mortaliter peccat. Maledicens
+<lb ed="#Bc"/>sive pcenam imprecans, facit sic. Ergo
+<lb ed="#Bc"/>mortaliter peccat.
+</p>
+               <p xml:id="Almn78-h94213-d1e341">
+                  <lb ed="#Bc"/>Quod autem aliquando sit veniale,
+<lb ed="#Bc"/>probatur per Augustinum sic dicentem :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h94213-Qd1e349"> Ad veniale peccatum pertinet 
+male<lb ed="#Bc" break="no"/>dicere cum facilitate et levitate. </quote> Et est
+<lb ed="#Bc"/>casus qui ponitur in Decretis, ubi de
+<lb ed="#Bc"/>venialibus agitur.
+</p>
+               <p xml:id="Almn78-h94213-d1e360">
+                  <lb ed="#Bc"/>Solutio. Ad primam partem 
+questio<lb ed="#Bc" break="no"/>nis dicendum per distinctionem, quod
+<lb ed="#Bc"/>maledictum aut profertur ab eo cujus
+<lb ed="#Bc"/>interest, et habet auctoritatem et 
+pote<lb ed="#Bc" break="no"/>statem poenam inferendi: aut ab eo cujus
+<lb ed="#Bc"/>non interest, nec habet auctoritatem. Si
+<lb ed="#Bc"/>primo modo: tunc nullum malum est.
+<lb ed="#Bc"/>Et sic fuit maledictio Petri et Elisei, qui
+<lb ed="#Bc"/>loco Dei fuerunt et pcenas imprecati
+<lb ed="#Bc"/>sunt, quas statim intulit Deus. Si autem
+<lb ed="#Bc"/>fit ab eo cujus non interest, nec habet
+<lb ed="#Bc"/>potestatem : tunc maledictum malum
+<lb ed="#Bc"/>est secundum definitionem Haymonis.
+</p>
+               <p xml:id="Almn78-h94213-d1e391">
+                  <lb ed="#Bc"/>Et sic loquuntur quatuor auctoritates
+<lb ed="#Bc"/>ad hoc inducte.
+</p>
+               <p xml:id="Almn78-h94213-d1e398">
+                  <lb ed="#Bc"/>Simililer ad secundam partem 
+respon<lb ed="#Bc" break="no"/>dendum est per distinctionem : quia 
+ma<lb ed="#Bc" break="no"/>ledictio ex parte maledicentis aut fit cum
+<lb ed="#Bc"/>levitate, aut animi malignitate : et pena
+<lb ed="#Bc"/>imprecata, autest eterna, aut temporalis.
+<lb ed="#Bc"/>Sicum levitate fit et ad peenam 
+tempo<lb ed="#Bc" break="no"/>ralem : tunc esset durum dicere, quod
+<lb ed="#Bc"/>esset mortale : et sic intelligitur canon
+<lb ed="#Bc"/>Augustini paulo ante inductus. Si autem
+<lb ed="#Bc"/>fit animi malignitate: tunc est timendum,
+<lb ed="#Bc"/>quod sit mortale, et sic intelliguntur 
+au<lb ed="#Bc" break="no"/>ctoritates hoc probantes.
+</p>
+               <p xml:id="Almn78-h94213-d1e428">
+                  <pb ed="#Bc" n="424"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et super hoc dederunt antiqui 
+distin<lb ed="#Bc" break="no"/>ctionem valde utilem, scilicet quod est
+<lb ed="#Bc"/>maledictum quadruplex, scilicet 
+subre<lb ed="#Bc" break="no"/>ptionis, cum quis subito maledicit, non
+<lb ed="#Bc"/>ex animi malignitate, et est yeniale 
+pec<lb ed="#Bc" break="no"/>catum. Et est maledictio lascive puerilis,
+<lb ed="#Bc"/>sicut pucri ex mala consuetudine 
+maledi<lb ed="#Bc" break="no"/>cunt invicem. Sed talis iterum non est
+<lb ed="#Bc"/>mortale peccatum, sed mala consuetudo
+<lb ed="#Bc"/>est, et prohibenda est. Unde 
+Hierony<lb ed="#Bc" break="no"/>mus: <quote xml:id="Almn78-h94213-Qd1e458"> Qui negligit oris maledicentis
+<lb ed="#Bc"/>resecare consuetudinem, etsi non corde
+<lb ed="#Bc"/>maledicat, immunditiam tamen labiorum,
+<lb ed="#Bc"/>et inquinamentum oris incurrit. </quote> Est
+<lb ed="#Bc"/>iterum maledictum quod ex odio concepto
+<lb ed="#Bc"/>procedit, et est mortale peccatum, sicut
+<lb ed="#Bc"/>dicunt et bene. Et est quartum 
+maledi<lb ed="#Bc" break="no"/>ctum ex charitate et zelo justitie 
+proce<lb ed="#Bc" break="no"/>dens, et est bonum, sicut fuit maledictum
+<lb ed="#Bc"/>Petri et Elisei quando imprecabantur 
+pe<lb ed="#Bc" break="no"/>nam temporalem, ut non reservarentur
+<lb ed="#Bc"/>ad eternam peenam.
+</p>
+            </div>
+            <div xml:id="Almn78-h94213-Dd1e486">
+               <head xml:id="Almn78-h94213-Hd1e488">Membrum 2</head>
+               <head xml:id="Almn78-h94213-Hd1e491" type="question-title">
+        Utrum maledictum possit interminari in
+        creaturam rationalem, et similiter
+        irrationalem ?
+      </head>
+               <p xml:id="Almn78-h94213-d1e494">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum maledictum possit interminari in
+<lb ed="#Bc"/>creaturam rationalem, et similiter
+<lb ed="#Bc"/>irrationalem ?
+</p>
+               <p xml:id="Almn78-h94213-d1e505">
+                  <lb ed="#Bc"/>Deiwve queritur, Utrum maledictum
+<lb ed="#Bc"/>possit interminari in creaturam 
+rationa<lb ed="#Bc" break="no"/>lem, et similiter irrationalem ?
+</p>
+               <p xml:id="Almn78-h94213-d1e514">
+                  <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. II Reg. II, 24 et seq., David maledixit
+<lb ed="#Bc"/>montibus Gelboe, ubi ceciderunt fortes
+<lb ed="#Bc"/>Israel, qui tamen irrationales erant.
+</p>
+               <p xml:id="Almn78-h94213-d1e526">
+                  <lb ed="#Bc"/>2. Adhuc, Jerem. xx, 14: Maledicta
+<lb ed="#Bc"/>dies, in qua natus sum ! Similiter, Job,
+<lb ed="#Bc"/>ut, 3: Pereat dies in qua natus sum, et
+<lb ed="#Bc"/>nox in gua dictum est: Conceptus est
+<lb ed="#Bc"/>homo! Videtur ergo, quod exemplo 
+ju<lb ed="#Bc" break="no"/>storum maledici possit creatura 
+irratio<lb ed="#Bc" break="no"/>nalis.
+</p>
+               <p xml:id="Almn78-h94213-d1e544">
+                  <lb ed="#Bc"/>3. Adhuc, Videtur etiam rationalis
+<lb ed="#Bc"/>ereatura posse maledici: quia dicitur,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Genes. ix, 25: Maledictus Chanaan,
+<lb ed="#Bc"/>servus servorum erit fratribus suis.
+</p>
+               <p xml:id="Almn78-h94213-d1e557">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Creatura irrationalis nullum peccatum
+<lb ed="#Bc"/>potest committere : et in se bona est 
+sic<lb ed="#Bc" break="no"/>ut omnis Dei creatura. Ergo videtur, quod
+<lb ed="#Bc"/>non debeat maledici. Similiter creatura
+<lb ed="#Bc"/>rationalis : quia tenemur diligere 
+inimi<lb ed="#Bc" break="no"/>cos, et benefacere his qui nos oderunt,
+<lb ed="#Bc"/>cum dicat Apostolus, ad Roman. xu, 17:
+<lb ed="#Bc"/>Nulli malum pro mato reddentes.
+</p>
+               <p xml:id="Almn78-h94213-d1e579">
+                  <lb ed="#Bc"/>Utrerius queritur, Si Angelus malus
+<lb ed="#Bc"/>possit maledici ?
+</p>
+               <p xml:id="Almn78-h94213-d1e586">
+                  <lb ed="#Bc"/>Et videtur, qued non.
+<lb ed="#Bc"/>1. Ecchi. xx1, 30: Dum maledicit 
+im<lb ed="#Bc" break="no"/>pius diabolum, maledicit ipse animam
+<lb ed="#Bc"/>suam. Sed nullus debet maledicere 
+ani<lb ed="#Bc" break="no"/>mam suam. Ergo nec Angelum malum.
+</p>
+               <p xml:id="Almn78-h94213-d1e599">
+                  <lb ed="#Bc"/>2. Adhuc, Judasin canonica sua, ¥.9:
+<lb ed="#Bc"/>Cum Michael Archangelus disputans 
+al<lb ed="#Bc" break="no"/>tercaretur cum diabolo de Moyst corpore,
+<lb ed="#Bc"/>non est ausus judicium inferre 
+blasphe<lb ed="#Bc" break="no"/>mie, sed dixit : Imperet tibi Dominus.
+<lb ed="#Bc"/>Si ergo Angelo bono non licuit inferre
+<lb ed="#Bc"/>maledictum malo, nec homini licet.
+</p>
+               <p xml:id="Almn78-h94213-d1e618">
+                  <lb ed="#Bc"/>Solutio. Dicendum ad primam partem
+<lb ed="#Bc"/>questionis, quod creatura irrationalis
+<lb ed="#Bc"/>non potest maledici, nec debet, nisi eo
+<lb ed="#Bc"/>modo quo ordinatur ad hominis 
+utilita<lb ed="#Bc" break="no"/>tem. Unde Gregorius : <quote xml:id="Almn78-h94213-Qd1e631"> Montes Gelboe
+<lb ed="#Bc"/>maledicuntur, ut dum arescente terra
+<lb ed="#Bc"/>fructus non oriuntur, possessores terre
+<lb ed="#Bc"/>sterilitatis damno feriantur, quatenus ipsi
+<lb ed="#Bc"/>maledictionis sententiam acciperent, qui
+<lb ed="#Bc"/>apud se mortem regis iniquitate sua 
+exi<lb ed="#Bc" break="no"/>gente meruissent. </quote> Et hoc expresse 
+si<lb ed="#Bc" break="no"/>gnificatur, Genes. in, 17: Maledicta 
+ter<lb ed="#Bc" break="no"/>ra, non simpliciter, sed in opere tuo, Et
+<lb ed="#Bc"/>quod haec maledictio redundet in 
+homi<lb ed="#Bc" break="no"/>nem, ex hoc patet quod sequitur, dicens
+<lb ed="#Bc"/>Deus ad Cain : Cum operatus fueris eam,
+<lb ed="#Bc"/>scilicet terram, non dabit tibi fructus
+<lb ed="#Bc"/>suos, Et supra, m, 18, dixit Dominus ad
+<lb ed="#Bc"/>Adam: Spinas et tribulos germinabit
+<lb ed="#Bc"/>tibi.
+</p>
+               <p xml:id="Almn78-h94213-d1e667">
+                  <lb ed="#Bc"/>Ad hoc ergo quod objicitur de Job et
+<lb ed="#Bc"/>Jeremia, qui maledixerunt diem et no
+<pb ed="#Bc" n="425"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>ctem, dicendum quod dies in quantum
+<lb ed="#Bc"/>dies ibi non maledicitur, sed natus in die,
+<lb ed="#Bc"/>propter hoc quod cum peccato originali
+<lb ed="#Bc"/>nascitur. Et sic iteram maledictio 
+redun<lb ed="#Bc" break="no"/>dat in hominem, non in diem.
+</p>
+               <p xml:id="Almn78-h94213-d1e689">
+                  <lb ed="#Bc"/>Ad aliud quod objicitur, quod 
+rationa<lb ed="#Bc" break="no"/>lis creatura possit maledici, dicendum
+<lb ed="#Bc"/>quod verum est : quia a Deo et ab 
+homi<lb ed="#Bc" break="no"/>ne habente potestatem potest maledici,
+<lb ed="#Bc"/>sicut in antehabitis probatum est.
+</p>
+               <p xml:id="Almn78-h94213-d1e702">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur de 
+irratio<lb ed="#Bc" break="no"/>nali, jam solutum est : quia ex eo quod
+<lb ed="#Bc"/>in se bona est, non maledicitur, sed in
+<lb ed="#Bc"/>quantum subjacet operi hominis quod
+<lb ed="#Bc"/>malum est.
+</p>
+               <p xml:id="Almn78-h94213-d1e715">
+                  <lb ed="#Bc"/>Ad hoc quod contra objicitur de 
+ratio<lb ed="#Bc" break="no"/>nali, scilicet quod tenemur diligere 
+ini<lb ed="#Bc" break="no"/>micos, dicendum quod hoc non probat,
+<lb ed="#Bc"/>nisi quod ex odio et cum malignitate non
+<lb ed="#Bc"/>possumus maledicere : sed qui habet 
+au<lb ed="#Bc" break="no"/>ctoritatem, zelo justitie potest maledicere,
+<lb ed="#Bc"/>id est, malum pcene interminare, sicut
+<lb ed="#Bc"/>in antehabitis probatum est.
+</p>
+               <p xml:id="Almn78-h94213-d1e735">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, Si 
+An<lb ed="#Bc" break="no"/>gelo malo sit maledicendum ?
+</p>
+               <p xml:id="Almn78-h94213-d1e743">
+                  <lb ed="#Bc"/>Dicendum, quod sic zelo justitie, sed
+<lb ed="#Bc"/>non odio et malignitate : quia sic 
+concor<lb ed="#Bc" break="no"/>dat voluntas hominis cum voluntate
+<lb ed="#Bc"/>Dei.
+</p>
+               <p xml:id="Almn78-h94213-d1e754">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Ad id quod objicitur de Ecclesiastico,
+<lb ed="#Bc"/>dicendum quod cum maledicit impius
+<lb ed="#Bc"/>diabolum, non directe maledicit animam,
+<lb ed="#Bc"/>sed maledicendam dicit propter 
+similitu<lb ed="#Bc" break="no"/>dinem peccati.
+</p>
+               <p xml:id="Almn78-h94213-d1e770">
+                  <lb ed="#Bc"/>Ad uttum dicendum, quod non omne
+<lb ed="#Bc"/>maledictum est blasphemia : quia 
+blas<lb ed="#Bc" break="no"/>phemia est falsi criminis impositio in
+<lb ed="#Bc"/>Deum, et non fit nisi quando creatura
+<lb ed="#Bc"/>maledicitur in quantum est Dei creatura:
+<lb ed="#Bc"/>quia sic maledictum creature redundat
+<lb ed="#Bc"/>in creatorem. Et ita non fuit ausus 
+Mi<lb ed="#Bc" break="no"/>chael inferre maledictum diabolo, in
+<lb ed="#Bc"/>quantum est creatura Dei.
+</p>
+               <p xml:id="Almn78-h94213-d1e792">
+                  <lb ed="#Bc"/>Ex dictis patet solutio ejus quod 
+qui<lb ed="#Bc" break="no"/>dam dicunt, Si maledici possit, cui 
+male<lb ed="#Bc" break="no"/>dixit Deus, propter verbum Balaam, 
+Nu<lb ed="#Bc" break="no"/>mer. xxut, 8: Quomodo maledicam, cui
+<lb ed="#Bc"/>non maledixit Deus ?
+</p>
+               <p xml:id="Almn78-h94213-d1e805">
+                  <lb ed="#Bc"/>Patet igitur, quod sic : dummodo 
+pro<lb ed="#Bc" break="no"/>batum sit ei, ut homini judici, et constet
+<lb ed="#Bc"/>ei de causa maledictionis. Qua probatione
+<lb ed="#Bc"/>non indiget Deus : quia novit corda 
+ho<lb ed="#Bc" break="no"/>minum.
+</p>
+               <p xml:id="Almn78-h94213-d1e818">
+                  <lb ed="#Bc"/>Patet etiam, quomodo maledictum sit
+<lb ed="#Bc"/>blasphemia et maximum peccatum :
+<lb ed="#Bc"/>quod etiam lapidatione secundum leges
+<lb ed="#Bc"/>punitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

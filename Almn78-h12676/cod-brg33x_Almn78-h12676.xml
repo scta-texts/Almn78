@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 75</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 75</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h12676"><!-- p2t13q75 -->
+            <head xml:id="Almn78-h12676-Hd1e106">Quaestio 75</head>
+            <head xml:id="Almn78-h12676-Hd1e109" type="question-title">
+    Utrum ab alio quam a Deo potuit formari corpus primi hominis
+  </head>
+            <p xml:id="Almn78-h12676-d1e112">
+               <lb ed="#Bc"/>QUAESTIO LXXV.
+<lb ed="#Bc"/>Utrum ab alio quam a Deo potuit formari corpus primi hominis?
+</p>
+            <p xml:id="Almn78-h12676-d1e119">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Primo ergo queritur, Utrum ab alio 
+<lb ed="#Bc"/>quam a Deo potuit formari corpus primi 
+<lb ed="#Bc" break="no"/>hominis ? 
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Et videtur, quod non.
+  <lb ed="#Bc"/>1. Genes. 11, 7: Formavit igitur Do
+  <lb ed="#Bc"/>minus Deus hominem de limo terre.
+</p>
+            <p xml:id="Almn78-h12676-d1e139">
+               <pb ed="#Bc" n="59"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Sed dicit Anselmus, quod quidquid facit
+<lb ed="#Bc"/>Deus, convenientissime facit, et 
+mini<lb ed="#Bc" break="no"/>mum inconveniens de Deo est 
+impossi<lb ed="#Bc" break="no"/>bile : ergo convenientissimum fuit Deum
+<lb ed="#Bc"/>ipsum facere corpus hominis, et 
+impossi<lb ed="#Bc" break="no"/>bile fuit fieri per alium, sive per 
+Ange<lb ed="#Bc" break="no"/>lum, sive per aliam creaturam.
+</p>
+            <p xml:id="Almn78-h12676-d1e162">
+               <lb ed="#Bc"/>2. Adhuc, Job, x, 8: Manus tue 
+fe<lb ed="#Bc" break="no"/>cerunt me, et plasmaverunt me totum
+<lb ed="#Bc"/>in circuitu. lbi dicit Gregorius: <quote xml:id="Almn78-h12676-Qd1e170"> 
+Fe<lb ed="#Bc" break="no"/>cerunt me in anima, plasmaverunt me
+<lb ed="#Bc"/>in circuitu in corpore. </quote> Et inde 
+argui<lb ed="#Bc" break="no"/>tur ut prius, quod inconveniens et 
+im<lb ed="#Bc" break="no"/>possibile fuisset fieri ab alio.
+</p>
+            <p xml:id="Almn78-h12676-d1e183">
+               <lb ed="#Bc"/>3. Adhuc, Isa. xiv, 8: Bl nunc, 
+Do<lb ed="#Bc" break="no"/>mine, pater nosier es tu, nos vero 
+lu<lb ed="#Bc" break="no"/>tum :et fictor noster tu, et opera 
+ma<lb ed="#Bc" break="no"/>nuum tuarum omnes nos. x hociterum,
+<lb ed="#Bc"/>ut prius arguitur, quod 
+convenientissi<lb ed="#Bc" break="no"/>mum fuit Deum ipsum facere hominem.
+</p>
+            <p xml:id="Almn78-h12676-d1e199">
+               <lb ed="#Bc"/>4. Adhuc, Jerem. xviu, 2: Surge, et
+<lb ed="#Bc"/>descende in domum figuli, et ibi audies
+<lb ed="#Bc"/>verba mea. Et sequitur, ¥. 3 et seq.: Et
+<lb ed="#Bc"/>ecce ipse, scilicet figulus, /aciebat opus
+<lb ed="#Bc"/>super rotam. Et dissipatum est vas quod
+<lb ed="#Bc"/>ipse faciebat e luto manibus suis : 
+con<lb ed="#Bc" break="no"/>versusque fecit illud, scilicet lutum, vas
+<lb ed="#Bc"/>alterum, sicut placuerat in oculis ejus ut
+<lb ed="#Bc"/>faceret. Et factum est verbum Domini ad
+<lb ed="#Bc"/>me, dicens :... Ecce sicut lutum in manu
+<lb ed="#Bc"/>figuli, sie vos in manu mea, domus 
+Is<lb ed="#Bc" break="no"/>rael. Et ex hoc iterum arguitur ut prius.
+</p>
+            <p xml:id="Almn78-h12676-d1e228">
+               <lb ed="#Bc"/>5. Adhuc, Hoc idem arguitur ex illo
+<lb ed="#Bc"/>Psalmo cxvin, 73: Manus tuz, Domine,
+<lb ed="#Bc"/>fecerunt me, et plasmaverunt me: da
+<lb ed="#Bc"/>mihi intellectum.
+</p>
+            <p xml:id="Almn78-h12676-d1e239">
+               <lb ed="#Bc"/>6. Adhuc, Hoc ostenditur per 
+ratio<lb ed="#Bc" break="no"/>nem ; Sicut enim in preecedentibus 
+ha<lb ed="#Bc" break="no"/>bitum est, et dicit Magister in libro 
+se<lb ed="#Bc" break="no"/>cundo Sententiarum, distinctione XVI,
+<lb ed="#Bc"/>homo etiam secundum corpus est ad
+<lb ed="#Bc"/>imaginem Dei: rectitudine enim 
+corpo<lb ed="#Bc" break="no"/>ris, et positione que tota sursum 
+dirigi<lb ed="#Bc" break="no"/>tur, ostendit dispositionem anime, 
+sci<lb ed="#Bc" break="no"/>licet quod intellectu tendit in summam
+<lb ed="#Bc"/>veritatem, voluntate in summam 
+boni<lb ed="#Bc" break="no"/>tatem, mente sive memoria in eternam
+<lb ed="#Bc"/>divinorum notitiam, que ex mente 
+pro<lb ed="#Bc" break="no"/>cedit et in mente reservatur: que et
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>mens dicitur, ut dicit Damascenus, quia
+<lb ed="#Bc"/>omnia ad recta rationis lineam 
+mensu<lb ed="#Bc" break="no"/>rat. Ergo non conveniebat corpus 
+huma<lb ed="#Bc" break="no"/>num fieri nisi a Deo, ad cujus imaginem
+<lb ed="#Bc"/>factum est, sicut nec anima fieri potuit
+<lb ed="#Bc"/>nisi a Deo.
+</p>
+            <p xml:id="Almn78-h12676-d1e285">
+               <lb ed="#Bc"/>7. Adhuc, In omnibus proportionata
+<lb ed="#Bc"/>sunt perfectio et perfectum, et ad 
+eam<lb ed="#Bc" break="no"/>dem causam ordinaniur : sed anima 
+ra<lb ed="#Bc" break="no"/>tionalis perfectio est corporis hominis :
+<lb ed="#Bc"/>ergo proportionata est corpori hominis,
+<lb ed="#Bc"/>et ad eamdem causam efficientem 
+utrum<lb ed="#Bc" break="no"/>que ordinatur. Constat autem, quod
+<lb ed="#Bc"/>anima facta est a Deo immediate: quia
+<lb ed="#Bc"/>illa fit per creationem, et creatio nulli
+<lb ed="#Bc"/>creature convenire poterit. Ergo factura
+<lb ed="#Bc"/>corporis hominis fieri non potuit nisi a
+<lb ed="#Bc"/>Deo immediate.
+</p>
+            <p xml:id="Almn78-h12676-d1e315">
+               <lb ed="#Bc"/>8. Adhuc, Alie res ad distinctionem et
+<lb ed="#Bc"/>ornatum mundi pertinentes, non sunt
+<lb ed="#Bc"/>facte, nec fieri poterant nisi a Deo. Gum
+<lb ed="#Bc"/>ergo corpus hominis precipuum sit inter
+<lb ed="#Bc"/>ea que pertinent ad ornatum, videtur
+<lb ed="#Bc"/>quod corpus hominis fieri non potuit nisi
+<lb ed="#Bc"/>a Deo.
+</p>
+            <p xml:id="Almn78-h12676-d1e333">
+               <lb ed="#Bc"/>9. Adhuc, IJ Machab. vu, 22 et 28,
+<lb ed="#Bc"/>dixit mater filiis : Nescio gualiter in
+<lb ed="#Bc"/>utero meo apparuistis: neque enim ego
+<lb ed="#Bc"/>spiritum et animam donavi vobis et 
+vi<lb ed="#Bc" break="no"/>tam, et singulorum membra non ego 
+ip<lb ed="#Bc" break="no"/>sa compegt : sed enim mundi Creator,
+<lb ed="#Bc"/>qui formavit hominis nativitatem, 
+qui<lb ed="#Bc" break="no"/>que omnium invenit originem, et 
+spirt<lb ed="#Bc" break="no"/>tum vobisiterum cum misericordia 
+red<lb ed="#Bc" break="no"/>det, ef vitam.
+</p>
+            <p xml:id="Almn78-h12676-d1e357">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Tn causis primordialibus mundi ordo
+<lb ed="#Bc"/>est, quod primum influit super 
+secun<lb ed="#Bc" break="no"/>dum, et secundum super tertium, et sic
+<lb ed="#Bc"/>deinceps. Sed in ordine illo corpus 
+ho<lb ed="#Bc" break="no"/>minis ultimum est et inter facturas, et
+<lb ed="#Bc"/>secundum naturam. Inter facturas : quia
+<lb ed="#Bc"/>post diem septimum homo secundum
+<lb ed="#Bc"/>corpus factus est, sicut dicitur, Genes.
+<lb ed="#Bc"/>u, 1: Formavit igitur Dominus Deus
+<lb ed="#Bc"/>hominem de limo terre. Secundum 
+na<lb ed="#Bc" break="no"/>turam : quia inter omnia corpora magis
+<lb ed="#Bc"/>mixtum, et ex pluribus mixtum est,
+<lb ed="#Bc"/>et majori compositione compositum.
+<pb ed="#Bc" n="60"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Cum ergo ordo quem Deus 
+impo<lb ed="#Bc" break="no"/>suit rebus sit, quod prius semper 
+in<lb ed="#Bc" break="no"/>fluit super posterius : tunc videtur, quod
+<lb ed="#Bc"/>corpus hominis non conveniebat 
+imme<lb ed="#Bc" break="no"/>diate a primo fieri, sed ab omnibus 
+in<lb ed="#Bc" break="no"/>termediis inter primum et ultimum : vel
+<lb ed="#Bc"/>Deus corrumperet ordinem quem 
+ipse<lb ed="#Bc" break="no"/>met instituit, quod inconveniens est
+<lb ed="#Bc"/>valde, quia dicit Dionysius, quod <quote xml:id="Almn78-h12676-Qd1e413"> lex
+<lb ed="#Bc"/>divinitatis est per prima media, et per
+<lb ed="#Bc"/>media ultima reducere. </quote>
+            </p>
+            <p xml:id="Almn78-h12676-d1e421">
+               <lb ed="#Bc"/>Sunt tamen quidam qui nituntur 
+pro<lb ed="#Bc" break="no"/>bare, quod corpus hominis fieri ef condi
+<lb ed="#Bc"/>potuit ab Angelo, sic:
+</p>
+            <p xml:id="Almn78-h12676-d1e430">
+               <lb ed="#Bc"/>1. Angeli (sicut supra in questione de
+<lb ed="#Bc"/>miraculo ostensum est per verba 
+Augu<lb ed="#Bc" break="no"/>stini) seminales causas colligentes in 
+ele<lb ed="#Bc" break="no"/>mentis, multa possunt producere ad
+<lb ed="#Bc"/>modum miraculi, omnia scilicet que 
+se<lb ed="#Bc" break="no"/>cundum seminales causas sunt in 
+elemen<lb ed="#Bc" break="no"/>tis. Dicit enim Augustinus, quod corpus
+<lb ed="#Bc"/>hominis antequam conderetur, secundum
+<lb ed="#Bc"/>seminales causas in elementis fuit. Ergo
+<lb ed="#Bc"/>videtur, quod ministerio Angelorum 
+pot<lb ed="#Bc" break="no"/>erat educi de elementis.
+</p>
+            <p xml:id="Almn78-h12676-d1e456">
+               <lb ed="#Bc"/>2. Adhuc, Augustinus in libro IX
+<lb ed="#Bc"/>super Genesim ad litteram : <quote xml:id="Almn78-h12676-Qd1e462"> Nonnulla
+<lb ed="#Bc"/>est in Angelis potentia ut aliquid 
+cre<lb ed="#Bc" break="no"/>etur'. </quote> Ergo multo magis nonnulla 
+po<lb ed="#Bc" break="no"/>tentia est in Angelis ut aliquid condatur:
+<lb ed="#Bc"/>quia creare plus est quam condere. Si
+<lb ed="#Bc"/>ergo creent vel condant corpus 
+homi<lb ed="#Bc" break="no"/>nis, nihil est inconveniens, ut vide~
+<lb ed="#Bc"/>tur.
+</p>
+            <p xml:id="Almn78-h12676-d1e482">
+               <lb ed="#Bc"/>3. Adhuc, Ejusdem potentia est, ut 
+vi<lb ed="#Bc" break="no"/>detur, reformare corpora mortuorum ex
+<lb ed="#Bc"/>pulvere, et condere ex pulvere corpus
+<lb ed="#Bc"/>hominis : sed reformationem corporum
+<lb ed="#Bc"/>mortuorum ex pulvere ministrabunt 
+An<lb ed="#Bc" break="no"/>geli : ergo multo magis conveniebat 
+An<lb ed="#Bc" break="no"/>gelis ministrare ad- formationem primi
+<lb ed="#Bc"/>hominis ex luto.
+</p>
+            <p xml:id="Almn78-h12676-d1e502">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Augustinus in libro IX super Genesim
+<lb ed="#Bc"/>ad litteram dicit, quod <quote xml:id="Almn78-h12676-Qd1e510"> Angeli non 
+pot<lb ed="#Bc" break="no"/>erant formare mulierem ex costa viri. </quote>
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Ergo multo minus ministrare poterant
+<lb ed="#Bc"/>ad conditionem corporis primi hominis
+<lb ed="#Bc"/>ex luto. Plus enim distant lutum et 
+cor<lb ed="#Bc" break="no"/>pus, quam os et corpus mulieris, et sic,
+<lb ed="#Bc"/>dicit Philosophus in II de Generatione
+<lb ed="#Bc"/>et Corruptione : <quote xml:id="Almn78-h12676-Qd1e531"> Habentium symbolum
+<lb ed="#Bc"/>facilior est transilus </quote>
+            </p>
+            <p xml:id="Almn78-h12676-d1e537">
+               <lb ed="#Bc"/>Unrenivs queritur hic propter 
+hereti<lb ed="#Bc" break="no"/>cos, quidicunt, quod corpus hominis 
+fa<lb ed="#Bc" break="no"/>ctum sita diabolo, Si hoc potuerit fieri?
+</p>
+            <p xml:id="Almn78-h12676-d1e546">
+               <lb ed="#Bc"/>Et videtur, quod sic: quia
+<lb ed="#Bc"/>1. Angelus malus, sicut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus, scit colligere semina ad opera 
+mira<lb ed="#Bc" break="no"/>culorum, sicut et bonus. Unde fecerunt
+<lb ed="#Bc"/>serpentes, sicut et virga Moysi conversa
+<lb ed="#Bc"/>est in serpentes per Angelos. Cum ergo
+<lb ed="#Bc"/>hoc non sit minoris potentia quam ex
+<lb ed="#Bc"/>seminibus producere figuram corporis
+<lb ed="#Bc"/>humani, videtur etiam quod figuram
+<lb ed="#Bc"/>corporis humani ex talibus seminibus
+<lb ed="#Bc"/>producere possint.
+</p>
+            <p xml:id="Almn78-h12676-d1e572">
+               <lb ed="#Bc"/>2. Adhuc, Tam boni quam mali Angeli
+<lb ed="#Bc"/>assumunt corpora in quibus apparent:
+<lb ed="#Bc"/>et constat, quod illi condensando et 
+figu<lb ed="#Bc" break="no"/>rando transformant in figuram corporis
+<lb ed="#Bc"/>humani : sed ex seminalibus causis 
+cor<lb ed="#Bc" break="no"/>pus hominis facilius est figurabile’ quam
+<lb ed="#Bc"/>ex elemento tenui. Cum ergo haec 
+pos<lb ed="#Bc" break="no"/>sunt figurare ex elemento tenui, poterunt
+<lb ed="#Bc"/>etiam corpus hominis figurare de 
+semi<lb ed="#Bc" break="no"/>nalibus causis.
+</p>
+            <p xml:id="Almn78-h12676-d1e596">
+               <lb ed="#Bc"/>Ulterius etiam queritur, Sisecundum Ques,
+<lb ed="#Bc"/>quod quidam dicunt Philosophi, stelle
+<lb ed="#Bc"/>et ccelum habent aliquam potestatem 
+for<lb ed="#Bc" break="no"/>mandi corpus?
+</p>
+            <p xml:id="Almn78-h12676-d1e608">
+               <lb ed="#Bc"/>Et videtur, qued sic:
+<lb ed="#Bc"/>1. <ref xml:id="Almn78-h12676-Rd1e614">
+                  <name xml:id="Almn78-h12676-Nd1e616">Ptolemeus</name> in Quadripartito</ref>, quod
+<lb ed="#Bc"/>Alarva vocatur Arabice, per totum
+<lb ed="#Bc"/>ostendit, qualiter constellatio et figuram
+<lb ed="#Bc"/>et complexionem et regimen vite dat
+<lb ed="#Bc"/>unicuique nato homini sub hac vel illa
+<lb ed="#Bc"/>constellatione. Unde dicit, quod natus in
+<lb ed="#Bc"/>prima facie Leonis, que est domus solis,
+<lb ed="#Bc"/>erit latus in facie splendentis coloris et
+<lb ed="#Bc"/>splendentis fortune. Ergo videtur, quod
+<pb ed="#Bc" n="61"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>ad formationem corporis hominis astra
+<lb ed="#Bc"/>operentur.
+</p>
+            <p xml:id="Almn78-h12676-d1e647">
+               <lb ed="#Bc"/>2. Adhuc, Astra et constellationes 
+ope<lb ed="#Bc" break="no"/>rantur ad meliorem dispositionem 
+cor<lb ed="#Bc" break="no"/>poris, et quo melius est dispositum, ut
+<lb ed="#Bc"/>dicit Avicenna, meliores sorlitur 
+poten<lb ed="#Bc" break="no"/>tias anime et expeditiores ad actum:
+<lb ed="#Bc"/>ergo videtur, quod ad formationem 
+cor<lb ed="#Bc" break="no"/>poris hominis operantur.
+</p>
+            <p xml:id="Almn78-h12676-d1e665">
+               <lb ed="#Bc"/>ConTRA :
+<lb ed="#Bc"/>Damascenus in libro II de Fide 
+ortho<lb ed="#Bc" break="no"/>doxa: <quote xml:id="Almn78-h12676-Qd1e673"> Nos dicimus, quoniam astra
+<lb ed="#Bc"/>non sunt causa alicujus eorum que fiunt,
+<lb ed="#Bc"/>neque corruptionis eorum que 
+corrum<lb ed="#Bc" break="no"/>puntur 4. </quote>
+            </p>
+            <p xml:id="Almn78-h12676-d1e683">
+               <lb ed="#Bc"/>Solutio, Dicendum, quod corpus
+<lb ed="#Bc"/>primi hominis et secundum dicta 
+Sancto<lb ed="#Bc" break="no"/>rum et secundum Catholicam fidem nec
+<lb ed="#Bc"/>conveniebat, nec potuit fieri nisi a Deo
+<lb ed="#Bc"/>ipso. Et hujus ratio est, quia in omni
+<lb ed="#Bc"/>natura ejusdem potentiae est facere 
+per<lb ed="#Bc" break="no"/>fectionem et perfectum, et facere movens
+<lb ed="#Bc"/>et mobile, maxime quando ad eumdem
+<lb ed="#Bc"/>finem movens movet, et mobile 
+move<lb ed="#Bc" break="no"/>tur, sicul est in anima rationali et 
+cor<lb ed="#Bc" break="no"/>pore secundum ordinem nature et 
+sa<lb ed="#Bc" break="no"/>plentia divine : in hoc enim ordine
+<lb ed="#Bc"/>anima rationalis ponitur in corpore, ut
+<lb ed="#Bc"/>perficiatur scientiis, et virtute 
+intelle<lb ed="#Bc" break="no"/>cluali, et virtule morali, et virtute 
+theo<lb ed="#Bc" break="no"/>logica infusa per gratiam, et donis 
+Spiri<lb ed="#Bc" break="no"/>tus sancti, et fructibus, et beatitudinibus,
+<lb ed="#Bc"/>et aliis bonis quibus homo ad meritum
+<lb ed="#Bc"/>vite disponitur et adjuvatur. Et propter
+<lb ed="#Bc"/>hoc quod corpus cum anima meritum
+<lb ed="#Bc"/>tale perficit, ideo corpus ad eamdem
+<lb ed="#Bc"/>beatitudinis participationem ordinatur
+<lb ed="#Bc"/>sicut ad finem. Et hoc expresse dicit 
+Da<lb ed="#Bc" break="no"/>mascenus in libro quarto de Fide 
+ortho<lb ed="#Bc" break="no"/>dora, cap. de resurrectione, dicens, quod
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h12676-Qd1e741"> si anima sine corpore athletice 
+pu<lb ed="#Bc" break="no"/>gnasset contra demones et vitia, tunc
+<lb ed="#Bc"/>aliqua ratio esset quare sine corpore
+<lb ed="#Bc"/>premiaretur : nunc autem quia non pu
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>gnavit sine corpore, sed cum corpore, et
+<lb ed="#Bc"/>in corpore, ideo ordo justitie divine est
+<lb ed="#Bc"/>et nature, quod cum corpore 
+premie<lb ed="#Bc" break="no"/>tur. </quote> Propter quod etiam, ut paulo ante
+<lb ed="#Bc"/>habitum est, homo etiam secundum 
+cor<lb ed="#Bc" break="no"/>pus aliquo modo est ad imaginem Dei:
+<lb ed="#Bc"/>et ideo penitus ad eamdem potentiam
+<lb ed="#Bc"/>pertinet facere hominem secundum 
+ani<lb ed="#Bc" break="no"/>mam, et facere hominem secundum
+<lb ed="#Bc"/>corpus.
+</p>
+            <p xml:id="Almn78-h12676-d1e775">
+               <lb ed="#Bc"/>Ad primum ergo dicendum et ad alia
+<lb ed="#Bc"/>octo que sequuntur, quod illa 
+proce<lb ed="#Bc" break="no"/>dunt, et Catholicam veritatem dicunt :
+<lb ed="#Bc"/>et cum sint auctoritates ex canone 
+sump<lb ed="#Bc" break="no"/>te, non licet eis contradicere : quia, sicut
+<lb ed="#Bc"/>dicit Augustinus in libro II seeper 
+Gene<lb ed="#Bc" break="no"/>sim ad litteram: <quote xml:id="Almn78-h12676-Qd1e792"> Major est hujus 
+Scrip<lb ed="#Bc" break="no"/>ture auctoritas, quam omnis humani 
+in<lb ed="#Bc" break="no"/>genil capacitas *. </quote>
+            </p>
+            <p xml:id="Almn78-h12676-d1e800">
+               <lb ed="#Bc"/>Ad id quod in contrarium objicitur,
+<lb ed="#Bc"/>dicendum quod influentia que ex primo
+<lb ed="#Bc"/>in secundum, et sic deinceps, est ad 
+pro<lb ed="#Bc" break="no"/>pagalionem nature, et non ad 
+institu<lb ed="#Bc" break="no"/>tionem principiorum nature : principia
+<lb ed="#Bc"/>enim nature omnia oportuit fieri 
+imme<lb ed="#Bc" break="no"/>diate a Deo. Et cum corpus hominis sit
+<lb ed="#Bc"/>unum de precipuis principiis, in quo
+<lb ed="#Bc"/>etiam imago Dei est, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus; quia sicut Deus est principium 
+om<lb ed="#Bc" break="no"/>nium ex quo omnia, ita corpus Ada est
+<lb ed="#Bc"/>principium omnium corporum 
+humano<lb ed="#Bc" break="no"/>rum et nature, ita quod in ipso per 
+cor<lb ed="#Bc" break="no"/>pulentam substantiam fuerunt omnia.
+<lb ed="#Bc"/>Et sicut Deus est finis omnium, ad quem
+<lb ed="#Bc"/>ordinantur omnia ut conserventur, prop~
+<lb ed="#Bc"/>ter quod dicitur Alpha et Omega ®*: ita
+<lb ed="#Bc"/>homo finis est crealorum, ad quem et
+<lb ed="#Bc"/>propler quem creata sunt omnia, el in
+<lb ed="#Bc"/>quo, sicut dicit Gregorius, propter 
+con<lb ed="#Bc" break="no"/>venientiam quamdam ommia sunt et
+<lb ed="#Bc"/>uniuntur.
+</p>
+            <p xml:id="Almn78-h12676-d1e851">
+               <lb ed="#Bc"/>Ad aliud quod de Angelis objicitur,
+<lb ed="#Bc"/>dicendum, quod licet multa possint 
+colli<lb ed="#Bc" break="no"/>gendo seminales causas et transmutando
+</p>
+            <p xml:id="Almn78-h12676-d1e860">
+
+  
+</p>
+            <p xml:id="Almn78-h12676-d1e863">
+               <pb ed="#Bc" n="62"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>subito in hoc vel in illud, quod est mo-
+  <lb ed="#Bc"/>dus mirabilis vel miraculi: tamen omnia
+  <lb ed="#Bc"/>illa sunt forinsecus adhibita, ut dicit Au
+  <lb ed="#Bc" break="no"/>gustinus, sicut sunt opera agricolarum
+  <lb ed="#Bc"/>circa semina et plantas. Corpus autem
+  <lb ed="#Bc"/>naturale in specie et forma et potentia
+  <lb ed="#Bc"/>nature non fit nisi per intrinsecus et na
+  <lb ed="#Bc" break="no"/>turaliter operantia, in quibus primum et
+  <lb ed="#Bc"/>omnia alia informans est virtus divina.
+  <lb ed="#Bc"/>Et ideo licet Angeli in talibus vivificent
+  <lb ed="#Bc"/>naturalia principia, et excitent ad ope
+  <lb ed="#Bc" break="no"/>randum secundum Augustinum: tamen
+<lb ed="#Bc"/>nec sunt creatores nec conditores talium,
+<lb ed="#Bc"/>sicut nec agricolas dicimus creatores vel 
+<lb ed="#Bc" break="no"/>conditores fructuum gquos colunt. Et si 
+<lb ed="#Bc"/>hoc in nullo corpore possunt, multo mi- 
+<lb ed="#Bc" break="no"/>nus in corpore hominis, et maxime 
+<lb ed="#Bc"/>primi hominis. 
+</p>
+            <p xml:id="Almn78-h12676-d1e909">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod Augustinus 
+<lb ed="#Bc"/>accipit ibi creare, non in propria et prin- 
+<lb ed="#Bc"/>cipali significatione, sed prout dicitur 
+<lb ed="#Bc"/>ereare pro formare: sic enim nonnulla 
+<lb ed="#Bc"/>potentia est in eis ut aliquid formetur. 
+<lb ed="#Bc"/>Sed hoc nihil est aliud, nisi quod adhi- 
+<lb ed="#Bc"/>bent operam extrinsecus colligendo se- 
+<lb ed="#Bc"/>mina, et excitando ea ut sic vel sic et 
+<lb ed="#Bc"/>tardius vel velocius in actum exeat que 
+<lb ed="#Bc"/>est in ipsis potentia. Quod autem 
+<lb ed="#Bc" break="no"/>creare multipliciter dicitur et quibus mo- 
+<lb ed="#Bc"/>dis, in prehabitis per verba Sanctorum  
+<lb ed="#Bc"/>ostensum est, questione de creatio- 
+<lb ed="#Bc"/>ne.
+</p>
+            <p xml:id="Almn78-h12676-d1e942">
+               <lb ed="#Bc"/>Av auiup dicendum, quod Angeli non 
+<lb ed="#Bc"/>ministrabunt ad reformationem 
+corpo<lb ed="#Bc" break="no"/>rum gloriosorum in resurrectione, nisi
+<lb ed="#Bc"/>ministerio exteriori, quod quidam vocant,
+<lb ed="#Bc"/>collectionem pulverum: sed ad 
+immuta<lb ed="#Bc" break="no"/>tionem in formam gloriosam nihil 
+ope<lb ed="#Bc" break="no"/>rantur, sed solus Deus‘. Hoc est enim
+<lb ed="#Bc"/>quod dicitur in Psalmo txvu, 34: Dabit
+<lb ed="#Bc"/>voci suae vocem virtutis. Et sic operantur
+<lb ed="#Bc"/>mirabilia vel mirabilibus similia, 
+colli<lb ed="#Bc" break="no"/>gendo semina in elementis sparsa ex 
+qui<lb ed="#Bc" break="no"/>bus producantur. Sed hoc non 
+conve<lb ed="#Bc" break="no"/>niebat fieri in corpore primi hominis,
+<lb ed="#Bc"/>propter rationes paulo ante inductas.
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Quod contra objicitur, concedendum a obj
+  <lb ed="#Bc"/>est 
+  
+  <lb ed="#Bc"/>Ad id quod ulterius queritur, dicen- 
+  <lb ed="#Bc"/>dum quod heretici propter hoc sunt
+  <lb ed="#Bc"/>heretici, quia errant circa principia fidei
+  <lb ed="#Bc"/>et philosophie. Unde mali Angeli num
+  <lb ed="#Bc" break="no"/>quam possunt facere corpus  alicujus
+  <lb ed="#Bc"/>hominis, nec primi, nec alicujus homi
+  <lb ed="#Bc" break="no"/>nis : quia si hoc boni Angeli non pos
+  <lb ed="#Bc" break="no"/>sunt, sicut jam probatum est, multo
+  <lb ed="#Bc"/>minus mali.
+  
+  <lb ed="#Bc"/>Ad objectum autem dicendum, quod
+  <lb ed="#Bc"/>possunt quidem colligere seuina et fo
+  <lb ed="#Bc"/>rinsecus adhibere operam sicut et boni:
+  <lb ed="#Bc"/>sed non propter hoc dicuntur vel creato
+  <lb ed="#Bc"/>res vel factores vel conditores, sicut nec
+  <lb ed="#Bc"/>agricole dicuntur creatores vel factores
+  <lb ed="#Bc"/>vel conditores fructuum, quibus tamen
+  <lb ed="#Bc"/>adhibent cultum exteriorem.
+  
+  <lb ed="#Bc"/>Ad aliud dicendum, quod Angeli cor-
+  <lb ed="#Bc"/>pora assumere possunt ex tenui ele-
+  <lb ed="#Bc"/>mento, ut dicit Augustinus : sed hoc est
+  <lb ed="#Bc"/>opus ad modum artis, sed non nature :
+  <lb ed="#Bc"/>et ideo minoris potentie est quam opus
+  <lb ed="#Bc"/>nature : et ideo hoc possunt secundum
+  <lb ed="#Bc"/>exigentiam sui ministerii et boni et mali.
+  <lb ed="#Bc"/>Aliud autem non possunt, nisi forinse
+  <lb ed="#Bc"/>cus operam adhibendo : quod est non
+  <lb ed="#Bc"/>facere, sed adjuvare ut fiat per causas
+  <lb ed="#Bc"/>naturales, ut paulo ante dictum est,
+  
+  <lb ed="#Bc"/>Ad id quod ulterius queritur, dicen-
+  <lb ed="#Bc"/>dum quod astra nihil penitus possunt
+  <lb ed="#Bc"/>facere circa hominem et actus hominis.
+  <lb ed="#Bc"/>Cujus enim virtus non venit ad hominem
+  <lb ed="#Bc"/>et humana, nisi per aliud et per acci
+  <lb ed="#Bc" break="no"/>dens, numquam potest esse per se causa
+  <lb ed="#Bc"/>humanorum aliquorum : virtus stella
+  <lb ed="#Bc" break="no"/>rum, ut ipse Ptolemeus dicit in primo
+  <lb ed="#Bc"/>capitulo Quadripartiti, numquam venit
+  <lb ed="#Bc"/>ad inferiora, nisi per aliud et per acci
+  <lb ed="#Bc" break="no"/>dens : ergo numquam possunt esse
+  <lb ed="#Bc"/>causa per se alicujus inferiorum, sive
+  <lb ed="#Bc"/>humanorum, sive aliorum : signa ta
+  <lb ed="#Bc" break="no"/>men possunt esse. Qualiter autem hoc
+  <pb ed="#Bc" n="63"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>sit, tractatum estin prima parte 
+Sem<lb ed="#Bc" break="no"/>me theologiz, tractatu de providentia et
+<lb ed="#Bc"/>fato, etin ista secunda parte, in 
+que<lb ed="#Bc" break="no"/>stione de virtutibus stellarum ef effectu.
+</p>
+            <p xml:id="Almn78-h12676-d1e1085">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod astra non
+<lb ed="#Bc"/>operantur nisi ut signa et remote 
+dispo<lb ed="#Bc" break="no"/>nentia, et nullam necessitatem 
+imponen<lb ed="#Bc" break="no"/>tia, ut dictum est.
+</p>
+            <p xml:id="Almn78-h12676-d1e1097">
+               <lb ed="#Bc"/>Ad id quod contra objicitur, 
+dicen<lb ed="#Bc" break="no"/>dum quod dictum Damasceni verum
+<lb ed="#Bc"/>est : quia astra non sunt cause, sed 
+sig<lb ed="#Bc" break="no"/>na, propter rationem que dicta est.
+</p>
+            <p xml:id="Almn78-h12676-d1e1108">
+               <lb ed="#Bc"/>Ex his patet solutio cujusdam quod
+<lb ed="#Bc"/>queri solet, Utrum scilicet majoris 
+po<lb ed="#Bc" break="no"/>tentie sit vel fuerit facere corpus 
+homi<lb ed="#Bc" break="no"/>nis de luto, vel creare de nihilo ?
+</p>
+            <p xml:id="Almn78-h12676-d1e1119">
+               <lb ed="#Bc"/>Si enim queratur de potentia 
+facien<lb ed="#Bc" break="no"/>tis, tunc stulta questio est : quia una et
+<lb ed="#Bc"/>eadem et semper equali potentia facit
+<lb ed="#Bc"/>quidquid facit. Potentia enim facientis
+<lb ed="#Bc"/>numquam disponitur per diversa, nec
+<lb ed="#Bc"/>mutatur aliqua mutatione.
+</p>
+            <p xml:id="Almn78-h12676-d1e1135">
+               <lb ed="#Bc"/>Si autem queratur de potentia facti,
+<lb ed="#Bc"/>scilicet utrum facilius fiat ex luto, vel ex
+<lb ed="#Bc"/>nihilo? tune it:rum stulta questio est :
+<lb ed="#Bc"/>quia inter nihil et aliquid est distantia
+<lb ed="#Bc"/>infinita: et ideo infinite potenti est
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>aliquid ex nihilo facere. Inter aliquid
+<lb ed="#Bc"/>autem et aliquid, sicut inter lutum et
+<lb ed="#Bc"/>corpus hominis, quod factum est ex 
+li<lb ed="#Bc" break="no"/>mo, distantia finita est : et ideo facilius
+<lb ed="#Bc"/>est ficri ex aliquo aliquid, quam ex 
+ni<lb ed="#Bc" break="no"/>hilo aliquid, non quantum ad facientem,
+<lb ed="#Bc"/>sed quantum ad factum.
+</p>
+            <p xml:id="Almn78-h12676-d1e1166">
+               <lb ed="#Bc"/>Et si objicitur quod Augustinus dicit,
+<lb ed="#Bc"/>quod magis est de impio facere pium,
+<lb ed="#Bc"/>quam creare ccelum et terram.
+</p>
+            <p xml:id="Almn78-h12676-d1e1175">
+               <lb ed="#Bc"/>Dicendum, quod hoc non est 
+simplici<lb ed="#Bc" break="no"/>ter dictum, sed quoad aliquid : quia 
+sci<lb ed="#Bc" break="no"/>licet quando de impio fit pius, id ex quo
+<lb ed="#Bc"/>fit talis transmutatio, contrarietatem
+<lb ed="#Bc"/>quamdam habet ad id ad quod fit talis
+<lb ed="#Bc"/>transmutatio : quod non est quando
+<lb ed="#Bc"/>creatur coelum et terra: et sic non est
+<lb ed="#Bc"/>quando de limo fit corpus hominis, quia
+<lb ed="#Bc"/>limo et omni creature inserta est ratio
+<lb ed="#Bc"/>obedientialis, ut fiat de ea quidquid
+<lb ed="#Bc"/>ereator vult: et sicul dicit Augustinus,
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h12676-Qd1e1203"> nihil justius est, quam quod creatura
+<lb ed="#Bc"/>obediat in omne quidquid creator vult. </quote>
+            </p>
+            <p xml:id="Almn78-h12676-d1e1210">
+               <lb ed="#Bc"/>Sic ergo patet, quod unius et ejusdem
+<lb ed="#Bc"/>et equalis potentie est divine facere
+<lb ed="#Bc"/>corpus hominis, puta ex nihilo, et ex
+<lb ed="#Bc"/>luto.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

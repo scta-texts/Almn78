@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 49</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 49</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="530"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e17851"><!-- p2t11q49 -->
+            <head xml:id="Almn78-e17851-Hd1e106">Quaestio 49</head>
+            <head xml:id="Almn78-e17851-Hd1e109" type="question-title">
+      De contrarietate quae est inter Augustinum et alios sanctos 
+      ratione hujus quod dicit Magister, quod sex diebus distinxit Deus
+      et in formas proprias redegit cuncta quae simul materialiter 
+      fecerat.
+    </head>
+            <p xml:id="Almn78-e17851-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XLIX.
+      <lb ed="#Bb"/>De contrarietate quae est inter Augustinum et alios sanctos 
+      ra<lb ed="#Bb" break="no"/>tione hujus quod dicit Magister, quod sex diebus distinxit Deus
+      <lb ed="#Bb"/>et in formas proprias redegit cuncta quae simul materialiter 
+      fe<lb ed="#Bb" break="no"/>cerat.
+    </p>
+            <p xml:id="Almn78-e17851-d1e128">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde, Queritur de his que dicit 
+      Ma<lb ed="#Bb" break="no"/>gister in libro IL Sententiarum, distinct.
+      <lb ed="#Bb"/>XII, in illo cap. Nune superest,ut 
+      dispo<lb ed="#Bb" break="no"/>sitionem illam qualiter per fecta sit, etc.
+    </p>
+            <p xml:id="Almn78-e17851-d1e141">
+               <lb ed="#Bb"/>Ibi enim dicit Magister, quod sex 
+      die<lb ed="#Bb" break="no"/>bus distinxit Deus et in formas proprias
+      <lb ed="#Bb"/>redegit cuncta que simul materialiter
+      <lb ed="#Bb"/>fecerat.
+    </p>
+            <p xml:id="Almn78-e17851-d1e153">
+               <lb ed="#Bb"/>Ubi queritur de contrarietate que est
+      <lb ed="#Bb"/>inter Augustinum et alios sanctos.
+    </p>
+            <p xml:id="Almn78-e17851-d1e160">
+               <lb ed="#Bb"/>1. Ubi Augustinus inducit pro se,
+      <lb ed="#Bb"/>quod omnia simul facta sunt in initio
+      <lb ed="#Bb"/>temporis in forma et materia: et dicit
+      <lb ed="#Bb"/>hoc intelligere Scripturam, Eccli. xvm,
+      <lb ed="#Bb"/>1: Qui vivit in elernum, creavit omnia
+      <lb ed="#Bb"/>simul, Quod etiam videtur dicere 
+      Grego<lb ed="#Bb" break="no"/>rius sic dicens in Glossa super idem in
+      <lb ed="#Bb"/>Ecclesiastico: <quote xml:id="Almn78-e17851-Qd1e179"> Cum factum ccelum et
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>terra describitur, simul facta spiritualia
+        <lb ed="#Bb"/>et corporalia et quidquid de ceelo et terra
+        <lb ed="#Bb"/>producitur, indicatur. </quote> Sed hoc directe
+      <lb ed="#Bb"/>est contra textum Genesis, de quo dicit
+      <lb ed="#Bb"/>Augustinus in libro II super Genesim ad
+      <lb ed="#Bb"/>litteram, quod <quote xml:id="Almn78-e17851-Qd1e197"> major est Scripture
+        <lb ed="#Bb"/>illius auctoritas, quam omnis humani
+        <lb ed="#Bb"/>ingenii perspicacitas. </quote> Ergo non licuit
+      <lb ed="#Bb"/>Augustinum preter intellectum illius
+      <lb ed="#Bb"/>textus aliquid dicere.
+    </p>
+            <p xml:id="Almn78-e17851-d1e209">
+               <lb ed="#Bb"/>2. Adhue, Si factasunt simul ea que
+      <lb ed="#Bb"/>prima et secunda et sic deinceps diebus
+      <lb ed="#Bb"/>facta sunt, cum non sint simul facta 
+      lo<lb ed="#Bb" break="no"/>co, oportet quod simul facta sint 
+      tempo<lb ed="#Bb" break="no"/>re: ergo necesse est, quod prima dies
+      <lb ed="#Bb"/>fuerit cum secunda, et secunda fuerit
+      <lb ed="#Bb"/>cum tertia, et sic deinceps: quod est
+      <lb ed="#Bb"/>inconveniens, quia cum tempus suc
+      <pb ed="#Bb" n="531"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" break="no"/>cessivum sit, nullam partem potest ha~
+      <lb ed="#Bb"/>bere cum alia, sed unam habet prius, et
+      <lb ed="#Bb"/>alteram posterius : propter quod dicit
+      <lb ed="#Bb"/>Aristoteles in IV Physicorum, quod
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e17851-Qd1e243">tempus est numerus motus secundum
+        <lb ed="#Bb"/>prius et posterius. </quote>
+            </p>
+            <p xml:id="Almn78-e17851-d1e249">
+               <lb ed="#Bb"/>3. Adhuc, Distinctio in Genesi 
+      distin<lb ed="#Bb" break="no"/>guit mane et vesperam et successionem
+      <lb ed="#Bb"/>diei ad diem, que non possunt intelligi
+      <lb ed="#Bb"/>esse simul.
+    </p>
+            <p xml:id="Almn78-e17851-d1e260">
+               <lb ed="#Bb"/>Queritur ergo, Quid secundum 
+      Au<lb ed="#Bb" break="no"/>gustinum dicatur mane, quid vespera,
+      <lb ed="#Bb"/>et quid dies, et quare nulla mentio fit de
+      <lb ed="#Bb"/>nocte, et qualiter Augustini opinio 
+      redu<lb ed="#Bb" break="no"/>citur ad opinionem aliorum Sanctorum,
+      <lb ed="#Bb"/>cum inter eos videatur esse contrarietas?
+    </p>
+            <p xml:id="Almn78-e17851-d1e276">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod non est 
+      con<lb ed="#Bb" break="no"/>trarietas Augustini et aliorum 
+      sancto<lb ed="#Bb" break="no"/>rum, nec Augustini ad textum Genesis.
+      <lb ed="#Bb"/>Augustinus enim distinguit opera sex
+      <lb ed="#Bb"/>dierum secundum sex illustrationes lucis
+      <lb ed="#Bb"/>spiritualis. Alii autem sancti distinguunt
+      <lb ed="#Bb"/>ea secundum sex illustrationes lucis 
+      cor<lb ed="#Bb" break="no"/>poralis. Quia licet Deus simul fecerit
+      <lb ed="#Bb"/>cuncta et in eodem momento, ut in 
+      pra<lb ed="#Bb" break="no"/>habitis dictum est in tractatu de 
+      Angelo<lb ed="#Bb" break="no"/>rum naturalibus, questione de visione
+      <lb ed="#Bb"/>matutina et vespertina': tamen quod
+      <lb ed="#Bb"/>simul per verbum Deus facere potuit, in
+      <lb ed="#Bb"/>intellectu Angeli simul illustrari non
+      <lb ed="#Bb"/>potuit, nec simul in esse rerum 
+      secun<lb ed="#Bb" break="no"/>dum genera et species et secundum
+      <lb ed="#Bb"/>differentiam cause et causati 
+      reve<lb ed="#Bb" break="no"/>lari in intellectu angelico potuit simul ;
+      <lb ed="#Bb"/>quia, sicut dicit Aristoteles in Zopicis *,
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e17851-Qd1e321">scire quidem plura possumus, 
+        intelli<lb ed="#Bb" break="no"/>gere vero secundum actum tantum
+        <lb ed="#Bb"/>unum: </quote> propter quod per lucem Verbi
+      <lb ed="#Bb"/>in mente angelica de creatura fienda,
+      <lb ed="#Bb"/>apud Augustinum, vocatur mane: 
+      cogni<lb ed="#Bb" break="no"/>tio perfecta rei facte vocatur dies : relatio
+      <lb ed="#Bb"/>ejusdem rei facte ad Jaudem creatoris,
+      <lb ed="#Bb"/>et acceptio alterius cognitionis rei fiende
+      <lb ed="#Bb"/>in verbo vocatur vespera, sicut in 
+      preha<lb ed="#Bb" break="no"/>bitis de cognitione matutina et vesperti
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" break="no"/>na satis sufficienter ostensum est. Et ‘hhoc
+      <lb ed="#Bb"/>dicit Augustinus precipue propter hoc
+      <lb ed="#Bb"/>quod dicitur, Genes. 11, 4 et 5, ubi 
+      poni<lb ed="#Bb" break="no"/>tur epilogus creationis et dicitur sic : [stz
+      <lb ed="#Bb"/>sunt generationes celi et terre, quando
+      <lb ed="#Bb"/>creata sunt, in die quo fecit Dominus
+      <lb ed="#Bb"/>Deus celum et terram, et omne 
+      virgul<lb ed="#Bb" break="no"/>tum agri: ubi habet translatio 
+      Septua<lb ed="#Bb" break="no"/>ginta: <quote xml:id="Almn78-e17851-Qd1e365"> Cum factus est dies, fecit Deus
+        <lb ed="#Bb"/>celum et terram, et omne virgultum
+        <lb ed="#Bb"/>agri, antequam oriretur in terra, 
+        om<lb ed="#Bb" break="no"/>nemque herbam regionis priusquam
+        <lb ed="#Bb"/>germinaret. </quote> Ex hoc enim arguit 
+      Au<lb ed="#Bb" break="no"/>gustinus, quod simul cum die factum est
+      <lb ed="#Bb"/>opus creationis celi et terre, et opus
+      <lb ed="#Bb"/>distinctionis virgulti et herbarum, quod
+      <lb ed="#Bb"/>tamen dicitur factum esse tertia die: et
+      <lb ed="#Bb"/>hee simul esse non possunt, secundum
+      <lb ed="#Bb"/>quod dies dicitur esse illustratio luminis
+      <lb ed="#Bb"/>corporalis : oportet ergo, quod alia dies
+      <lb ed="#Bb"/>queratur que tunc facta est cum ceelo et
+      <lb ed="#Bb"/>terra. Et dicit hanc esse cognitionem
+      <lb ed="#Bb"/>angelicam conversam ad Verbum, que
+      <lb ed="#Bb"/>tune facta est lux et dies, quando 
+      conver<lb ed="#Bb" break="no"/>sa est ad Verbum : que dies numeratur
+      <lb ed="#Bb"/>per illustrationes factas in intelligentia
+      <lb ed="#Bb"/>angelica secundum genera et species
+      <lb ed="#Bb"/>creatorum, et distinguitur secundum 
+      re<lb ed="#Bb" break="no"/>lationem de creatura fienda vel facta,
+      <lb ed="#Bb"/>vel relatione ad laudem creatoris, sicut
+      <lb ed="#Bb"/>dictum est. Et contra hoc nihil dicunt alii
+      <lb ed="#Bb"/>sancti, nec textus Genesis, sed 
+      xqui<lb ed="#Bb" break="no"/>voce accipitur apud eos dies: quia 
+      Au<lb ed="#Bb" break="no"/>gustinus accipit de illustratione 
+      intelli<lb ed="#Bb" break="no"/>gentie angelice sex modis facte in uno
+      <lb ed="#Bb"/>et eodem die.
+    </p>
+            <p xml:id="Almn78-e17851-d1e428">
+               <lb ed="#Bb"/>Alii vero sancti loquuntur de sex 
+      illu<lb ed="#Bb" break="no"/>strationibus lucis corporee : que facta
+      <lb ed="#Bb"/>est super sex differentias rerum creata~
+      <lb ed="#Bb"/>rum in distinctione et ornatu, eo quod
+      <lb ed="#Bb"/>opus creationis, ut in prehabitis 
+      osten<lb ed="#Bb" break="no"/>sum est, fuit ante omnem diem. Nec fit
+      <lb ed="#Bb"/>mentio secundum Augustinum de 
+      inter<lb ed="#Bb" break="no"/>positione noctis : quia in omnibus istis
+      <lb ed="#Bb"/>illustrationibus semper fuit conversio
+      <lb ed="#Bb"/>lucis angelice ad lucem externam que
+      <pb ed="#Bb" n="532"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Deus est : nec umqnam conversio fuit ad
+      <lb ed="#Bb"/>creaturam ut inhereret ei tamquam fini :
+      <lb ed="#Bb"/>que perversitas inducit tenebras 
+      spiritua<lb ed="#Bb" break="no"/>les, que dicitur nox: et inducitur illud
+      <lb ed="#Bb"/>Apostoli, ad Ephes. v, 8: Eratis 
+      ali<lb ed="#Bb" break="no"/>quando tenebre, nunc autem lux in 
+      Do<lb ed="#Bb" break="no"/>mino. Ut filii lucis ambulate. Propter
+      <lb ed="#Bb"/>quod dicit, quod Juz principalius dicitur
+      <lb ed="#Bb"/>de luce spirituali, quam de luce 
+      corpo<lb ed="#Bb" break="no"/>rali: eo quod lux corporalis a luce 
+      spi<lb ed="#Bb" break="no"/>rituali procedit ut causatum a causa.
+    </p>
+            <p xml:id="Almn78-e17851-d1e480">
+               <lb ed="#Bb"/>Alii autem sancti dicunt, quod simul
+      <lb ed="#Bb"/>in materia facta sunt omnia: quod non
+      <lb ed="#Bb"/>est contrarium Augustino: et secundum
+      <lb ed="#Bb"/>hoc interpositio noctis est spatium, 
+      scili<lb ed="#Bb" break="no"/>cet quod lux illuminans corporaliter
+      <lb ed="#Bb"/>transit per actum circuli, qui est inter
+      <lb ed="#Bb"/>occasum et ortum ejusdem lucis : quia
+      <lb ed="#Bb"/>tunc luci istt opponitur terre opacitas,
+      <lb ed="#Bb"/>que umbram facit in superiori 
+      hemi<lb ed="#Bb" break="no"/>spherio, que umbra nox vocatur.
+    </p>
+            <p xml:id="Almn78-e17851-d1e504">
+               <lb ed="#Bb"/>Et sic nulla contrarietas est inter 
+      Au<lb ed="#Bb" break="no"/>gustinum et alios sanctos,
+    </p>
+            <p xml:id="Almn78-e17851-d1e511">
+               <lb ed="#Bb"/>Ad ossectum contra, dicendum quod
+      <lb ed="#Bb"/>per dictum Gregorii intelligitur, quod
+      <lb ed="#Bb"/>omnia simul facta sunt que de ccelo et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>terra per distinctionem producta sunt,
+      <lb ed="#Bb"/>et per ornatum in materia: et postea di- ~
+      <lb ed="#Bb"/>stincta sunt per formam et locum. 
+      Augu<lb ed="#Bb" break="no"/>stinus autem intendit, quod simul facta
+      <lb ed="#Bb"/>sunt in materia et forma, et distincta et
+      <lb ed="#Bb"/>ornata per distinctas et diversas 
+      illustra<lb ed="#Bb" break="no"/>tiones ad diversas formas et diversa loca
+      <lb ed="#Bb"/>per distinctionem et ornatum : et sic 
+      Au<lb ed="#Bb" break="no"/>gustinus in nullo derogat textui Genesis,
+      <lb ed="#Bb"/>sed exponit, ut quod intus erat, per 
+      ex<lb ed="#Bb" break="no"/>positionem extra appareat et intelligatur.
+    </p>
+            <p xml:id="Almn78-e17851-d1e546">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod hoc optime
+      <lb ed="#Bb"/>sequeretur, si Augustinus diem diceret
+      <lb ed="#Bb"/>partem temporis, quo lux sive luminare
+      <lb ed="#Bb"/>prius est in superiori hemispherio 
+      illu<lb ed="#Bb" break="no"/>strando res creatas : et hoc non dicit 
+      Au<lb ed="#Bb" break="no"/>gustinus diem, sed potius illustrationem
+      <lb ed="#Bb"/>luminis angelici super creaturam 
+      fien<lb ed="#Bb" break="no"/>dam, factam, et ad laudem creatoris 
+      re<lb ed="#Bb" break="no"/>latam : et hoc secundum creaturas 
+      diver<lb ed="#Bb" break="no"/>sas in uno momento esse potuit. Unde
+      <lb ed="#Bb"/>sophisma squivocationis est in 
+      argu<lb ed="#Bb" break="no"/>mento.
+    </p>
+            <p xml:id="Almn78-e17851-d1e575">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod hoc jam
+      <lb ed="#Bb"/>solutum est in principio hujus solutionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

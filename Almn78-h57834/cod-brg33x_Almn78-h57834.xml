@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 103</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 103</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="260"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h57834"><!-- p2t16q103 -->
+            <head xml:id="Almn78-h57834-Hd1e106">Quaestio 103</head>
+            <head xml:id="Almn78-h57834-Hd1e109" type="question-title">
+    De virtute.
+  </head>
+            <p xml:id="Almn78-h57834-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CIII.
+<lb ed="#Bc"/>De virtute.
+</p>
+            <p xml:id="Almn78-h57834-d1e119">
+               <lb ed="#Bc"/>Deinde tractanda sunt ea que 
+conti<lb ed="#Bc" break="no"/>nentur in libro IT Sententiarum, distinct.
+<lb ed="#Bc"/>XXVII, ibi, Hie videndum est quid sit
+<lb ed="#Bc"/>virtus, eb quid sit actus vel opus ejus.
+<lb ed="#Bc"/>Ubi statim occurrunt duo querenda.
+<lb ed="#Bc"/>Primum est, Quid sit virtus in 
+ge<lb ed="#Bc" break="no"/>nere ?
+<lb ed="#Bc"/>Secundum, Quomodo genus 
+deduca<lb ed="#Bc" break="no"/>tur ad species virtutum per divisionem ?
+</p>
+            <div xml:id="Almn78-h57834-Dd1e141">
+               <head xml:id="Almn78-h57834-Hd1e143">Membrum 1</head>
+               <head xml:id="Almn78-h57834-Hd1e146" type="question-title">
+        Quid sit virtus in genere ?
+      </head>
+               <p xml:id="Almn78-h57834-d1e149">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit virtus in genere ?
+</p>
+               <p xml:id="Almn78-h57834-d1e156">
+                  <lb ed="#Bc"/>Invemuntur multe definitiones 
+virtu<lb ed="#Bc" break="no"/>tis.
+  
+<lb ed="#Bc"/>1. Prima est Augustini in Littera, hee
+<lb ed="#Bc"/>scilicet, <quote xml:id="Almn78-h57834-Qd1e166"> Virtus est bona qualitas 
+men<lb ed="#Bc" break="no"/>tis, qua recte vivitur, qua nullus males
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>utitur, quam solus Deus in homine 
+ope<lb ed="#Bc" break="no"/>ratur. </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e178">
+                  <lb ed="#Bc"/>2. Ex dictis Aristotelis trahitur ista, .
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h57834-Qd1e184"> virtus in genere est habitus circa
+<lb ed="#Bc"/>difficile et bonum, optimorum 
+operati<lb ed="#Bc" break="no"/>vus. </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e193">
+                  <lb ed="#Bc"/>3. Adhuc, Idem Aristoteles dat hanc
+<lb ed="#Bc"/>in HI £thicorum, quod <quote xml:id="Almn78-h57834-Qd1e199"> virtus est in
+<lb ed="#Bc"/>passionibus et operationibus medium
+<lb ed="#Bc"/>duarum malitiarum, quarum una est in
+<lb ed="#Bc"/>superabundantia, et altera in defectu, sed
+<lb ed="#Bc"/>in bono est extremum. </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e211">
+                  <lb ed="#Bc"/>4. A Tullio in fine Rhelorice prime
+<lb ed="#Bc"/>accipitur hee, <quote xml:id="Almn78-h57834-Qd1e217"> Virtus est habitus in
+<lb ed="#Bc"/>modum nature, rationi consentaneus., </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e223">
+                  <lb ed="#Bc"/>5. Ab Anselmo hac: <quote xml:id="Almn78-h57834-Qd1e227"> Virtus est 
+dis<lb ed="#Bc" break="no"/>positio mentis bene constitute. </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e233">
+                  <lb ed="#Bc"/>Et queritur de singulis istis’ 
+definitio<lb ed="#Bc" break="no"/>nibus.
+</p>
+               <p xml:id="Almn78-h57834-d1e240">
+                  <lb ed="#Bc"/>Primo ergo objicitur de definitione 
+Au<lb ed="#Bc" break="no"/>gustini.
+</p>
+               <p xml:id="Almn78-h57834-d1e247">
+                  <lb ed="#Bc"/>1. Videtur enim inconveniens, quod
+<lb ed="#Bc"/>dicit, Bona qualitas mentis: qualitas
+<pb ed="#Bc" n="261"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>enim est, ut dicit Philosophus in 
+Predi<lb ed="#Bc" break="no"/>camentis, secundum quam quales esse
+<lb ed="#Bc"/>dicimur : secundum virtutem autem non
+<lb ed="#Bc"/>solum dicimur quales, sed perfecti: et
+<lb ed="#Bc"/>sic virtus in aliquid plus videtur esse
+<lb ed="#Bc"/>quam qualitas.
+</p>
+               <p xml:id="Almn78-h57834-d1e272">
+                  <lb ed="#Bc"/>2. Adhuc quod dicit, Qua recte vivitur,
+<lb ed="#Bc"/>non videtur posse intelligi nisi de 
+justi<lb ed="#Bc" break="no"/>tia: quia illa solum considerat quod 
+re<lb ed="#Bc" break="no"/>ctum est : et hoc inconveniens est : quia
+<lb ed="#Bc"/>definitio generis debet convenire cuilibet
+<lb ed="#Bc"/>speciel.
+</p>
+               <p xml:id="Almn78-h57834-d1e288">
+                  <lb ed="#Bc"/>3. Adhuc quod dicit, Qua nullus male
+<lb ed="#Bc"/>utitur, videtur non convenire : quia
+<lb ed="#Bc"/>multi virtutibus acquisitis et 
+intellectua<lb ed="#Bc" break="no"/>libus et moralibus abutuntur in superbiam
+<lb ed="#Bc"/>et inanem gloriam, sicut Pharisei, qui
+<lb ed="#Bc"/>justitiam suam faciebant coram 
+homi<lb ed="#Bc" break="no"/>nibus ut viderentur et laudarentur ab eis.
+</p>
+               <p xml:id="Almn78-h57834-d1e306">
+                  <lb ed="#Bc"/>4, Adhuc, Quam solus Deus operatur
+<lb ed="#Bc"/>in hominibus, videtur inconveniens esse :
+<lb ed="#Bc"/>dicit enim Augustinus: <quote xml:id="Almn78-h57834-Qd1e314"> Qui creavit te
+<lb ed="#Bc"/>sine te, non justificabit te sine te. </quote> Et sic
+<lb ed="#Bc"/>non solus Deus operatur virtutem in 
+no<lb ed="#Bc" break="no"/>bis, sed etiam cooperatur homo.
+</p>
+               <p xml:id="Almn78-h57834-d1e325">
+                  <lb ed="#Bc"/>Similiter objicitur de secunda que est
+<lb ed="#Bc"/>Aristotelis, quod <quote xml:id="Almn78-h57834-Qd1e331"> virtus est habitus in 
+ge<lb ed="#Bc" break="no"/>nere circa difficile et bonum, optimorum
+<lb ed="#Bc"/>operativus : </quote> hoc enim non videtur
+<lb ed="#Bc"/>convenire virtuti in genere, sed 
+cui<lb ed="#Bc" break="no"/>dam virtuti quam vocant heroicam,
+<lb ed="#Bc"/>que est eorum qui dicuntur semidii
+<lb ed="#Bc"/>et semiviri sive homines, sicut dicit
+<lb ed="#Bc"/>Homerus de Hectore, ut narrat 
+Aristo<lb ed="#Bc" break="no"/>teles in VII Ethicorum, sic dicens :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h57834-Qd1e353"> Inquit Homerus de Hectore, quoniam
+<lb ed="#Bc"/>valde fuit optimus : nec videbatur filius
+<lb ed="#Bc"/>mortalis viri esse, sed Dei. </quote> Ergo 
+vide<lb ed="#Bc" break="no"/>tur definitio inconveniens esse : quia nec
+<lb ed="#Bc"/>omni, nec semper convenit, nec ubique:
+<lb ed="#Bc"/>cum secundum Aristotelem omne 
+univer<lb ed="#Bc" break="no"/>sale et essentiale debeat de omni esse
+<lb ed="#Bc"/>ubique et semper.
+</p>
+               <p xml:id="Almn78-h57834-d1e372">
+                  <lb ed="#Bc"/>Similiter objicitur de tertia que etiam
+<lb ed="#Bc"/>est Aristotelis quod <quote xml:id="Almn78-h57834-Qd1e378"> virtus est in 
+passio<lb ed="#Bc" break="no"/>nibus et operationibus medium duarum
+<lb ed="#Bc"/>malitiarum, etc., </quote> quia
+</p>
+               <p xml:id="Almn78-h57834-d1e386">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>1. Non omnis virtus est medium 
+dua<lb ed="#Bc" break="no"/>rum malitiarum, sed moralis tantum, 
+in<lb ed="#Bc" break="no"/>tellectualis non : et sic videtur definitio
+<lb ed="#Bc"/>non esse universalis.
+</p>
+               <p xml:id="Almn78-h57834-d1e400">
+                  <lb ed="#Bc"/>2. Adhuc, Extremum esse in bono per
+<lb ed="#Bc"/>superabundantiam dicitur : ergo 
+secun<lb ed="#Bc" break="no"/>dum doctrinam Philosophorum, uni soli
+<lb ed="#Bc"/>convenit quecumque est extrema virtus,
+<lb ed="#Bc"/>sicut in theologicis charitas, et in 
+cardi<lb ed="#Bc" break="no"/>nalibus prudentia.
+</p>
+               <p xml:id="Almn78-h57834-d1e416">
+                  <lb ed="#Bc"/>3. Adhuc, Magis videtur felicitas 
+extre<lb ed="#Bc" break="no"/>mum esse in bono, quam virtus : et sic
+<lb ed="#Bc"/>definitio magis convenit felicitati, quam
+<lb ed="#Bc"/>virtuti.
+</p>
+               <p xml:id="Almn78-h57834-d1e427">
+                  <lb ed="#Bc"/>Similiter objicitur de quarta quam dat
+<lb ed="#Bc"/>Tullius, quod scilicet <quote xml:id="Almn78-h57834-Qd1e433"> virtus est habitus
+<lb ed="#Bc"/>in modum nature, rationi consenta~
+<lb ed="#Bc"/>neus, </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e441">
+                  <lb ed="#Bc"/>1. Virtus enim videtur esse de 
+superad<lb ed="#Bc" break="no"/>ditis nature, et non natura quedam : et
+<lb ed="#Bc"/>sic videtur, quod non consentiat rationi
+<lb ed="#Bc"/>in modum nature.
+</p>
+               <p xml:id="Almn78-h57834-d1e452">
+                  <lb ed="#Bc"/>2. Adhuc, Virtus non est de esse 
+natu<lb ed="#Bc" break="no"/>re, sed de bene esse : natura est de esse:
+<lb ed="#Bc"/>ergo videtur, quod virtus in modum 
+na<lb ed="#Bc" break="no"/>ture rationi non consentiat : et sic 
+vide<lb ed="#Bc" break="no"/>tur esse inconveniens.
+</p>
+               <p xml:id="Almn78-h57834-d1e465">
+                  <lb ed="#Bc"/>Similiter objicitur de quinta et ultima
+<lb ed="#Bc"/>quam dat Anselmus, scilicet quod <quote xml:id="Almn78-h57834-Qd1e471"> 
+vir<lb ed="#Bc" break="no"/>tus est dispositio mentis bene 
+constitu<lb ed="#Bc" break="no"/>te. </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e480">
+                  <lb ed="#Bc"/>1. In hac enim definitione nihil 
+poni<lb ed="#Bc" break="no"/>tur essentiale virtuti : mens enim non est
+<lb ed="#Bc"/>de essentia virtutis.
+</p>
+               <p xml:id="Almn78-h57834-d1e489">
+                  <lb ed="#Bc"/>2. Adhuc, In specie qualitatis habitus
+<lb ed="#Bc"/>dividitur contra dispositionem : si ergo
+<lb ed="#Bc"/>virtus est habitus, virtus non est 
+dispo<lb ed="#Bc" break="no"/>sitio : et sic male dicit, quod sit 
+disposi<lb ed="#Bc" break="no"/>tio mentis bene constitute.
+</p>
+               <p xml:id="Almn78-h57834-d1e502">
+                  <lb ed="#Bc"/>Adhuc, Cum unius rei unicum sit esse
+<lb ed="#Bc"/>quod indicat definitio, penes quid 
+acci<lb ed="#Bc" break="no"/>piuntur tot definitiones ?
+</p>
+               <p xml:id="Almn78-h57834-d1e511">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod inter omnes
+<lb ed="#Bc"/>definitiones melior est Augustini, et etiam
+<lb ed="#Bc"/>convenientior.
+</p>
+               <p xml:id="Almn78-h57834-d1e520">
+                  <pb ed="#Bc" n="262"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et quod dicitur, Bona qualitas, hoc
+<lb ed="#Bc"/>modo dicitur quo modo omnis forma in
+<lb ed="#Bc"/>quale predicatur sive substantialis sive
+<lb ed="#Bc"/>accidentalis. Hoc enim modo habitus
+<lb ed="#Bc"/>qualitas est, et est bona qualitas : quia
+<lb ed="#Bc"/>virtus in ratione boni determinatur : et
+<lb ed="#Bc"/>licet sit in ratione perficientis ad bonum,
+<lb ed="#Bc"/>tamen quia habitus est, et habitus in 
+ge<lb ed="#Bc" break="no"/>nere qualitatis, qualitas est, ut dicit 
+Au<lb ed="#Bc" break="no"/>gustinus,
+</p>
+               <p xml:id="Almn78-h57834-d1e549">
+                  <lb ed="#Bc"/>Et per hoc patet solutio ad primum.
+</p>
+               <p xml:id="Almn78-h57834-d1e555">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod omni virtute
+<lb ed="#Bc"/>recte vivitur per se, licet per accidens
+<lb ed="#Bc"/>aliquis opere virtutis abulatur, non 
+refe<lb ed="#Bc" break="no"/>rendo ipsum ad debitum finem : quamvis
+<lb ed="#Bc"/>enim rectitudo debiti sit justitie, tamen
+<lb ed="#Bc"/>rectitudo contingendi medium vel finem
+<lb ed="#Bc"/>omnis virtulis est.
+</p>
+               <p xml:id="Almn78-h57834-d1e573">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod talis abusus
+<lb ed="#Bc"/>est per accidens, sicut dictum est,
+</p>
+               <p xml:id="Almn78-h57834-d1e580">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod ad 
+infusio<lb ed="#Bc" break="no"/>nem virtutis nihil operatur homo ut 
+cau<lb ed="#Bc" break="no"/>sa, sed ut removens contrarium, scilicet
+<lb ed="#Bc"/>ne ponatur obstaculum Spiritui sancto.
+<lb ed="#Bc"/>Deus enim non justificat invitum, sed
+<lb ed="#Bc"/>volentem et consentientem : et hoc 
+in<lb ed="#Bc" break="no"/>tendit dicere Augustinus.
+</p>
+               <p xml:id="Almn78-h57834-d1e598">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod definitio
+<lb ed="#Bc"/>Aristotelis datar secundum perfectionem
+<lb ed="#Bc"/>virtutis in opere : habitus enim, ut dicit
+<lb ed="#Bc"/>Aristoteles, est perfectio ut somnus :
+<lb ed="#Bc"/>actus autem ut vigilia. Et hoc est in anima
+<lb ed="#Bc"/>et potentiis ejus et habitibus : et licet hoc
+<lb ed="#Bc"/>plus principaliter conveniat heroice 
+vir<lb ed="#Bc" break="no"/>tuti, tamen communiter convenit omni
+<lb ed="#Bc"/>virtuti : quia quelibet virtus est in his
+<lb ed="#Bc"/>circa que est per se, sicut temperantia
+<lb ed="#Bc"/>circa concupiscentias et abstinentias, 
+for<lb ed="#Bc" break="no"/>titudo circa timores et audacias est. 
+opti<lb ed="#Bc" break="no"/>morum que sunt in illo genere operativa,
+<lb ed="#Bc"/>querum unumquodque est difficile et 
+bo<lb ed="#Bc" break="no"/>num : difficile enim est medium 
+contin<lb ed="#Bc" break="no"/>gere : et unumquodque talium in ratione
+<lb ed="#Bc"/>boni virtutis determinatur. Unde hoc
+<lb ed="#Bc"/>convenit omni virtuti et ubique virtuti et
+<lb ed="#Bc"/>semper, licet eminenter et excellenter
+<lb ed="#Bc"/>conveniat heroice.
+</p>
+               <p xml:id="Almn78-h57834-d1e644">
+                  <lb ed="#Bc"/>Av w quod objicitur de tertia, dicen- 
+<lb ed="#Bc"/>dum quod illa assignatio non est nisi
+<lb ed="#Bc"/>virtutis moralis, sicut probat objectio :
+<lb ed="#Bc"/>omnis tamen virtus medium est : sed
+<lb ed="#Bc"/>moralis duarum malitiarum medium est.
+<lb ed="#Bc"/>Intellectualis vero medium, quod est 
+ra<lb ed="#Bc" break="no"/>tio recta. Et sic universalis est definitio :
+<lb ed="#Bc"/>quia omnis virtus cirea medium est non
+<lb ed="#Bc"/>eodem modo acceptum.
+</p>
+               <p xml:id="Almn78-h57834-d1e666">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod extremum
+<lb ed="#Bc"/>esse in bono, secundum quod generaliter
+<lb ed="#Bc"/>convenit virtuti, non accipitur secundum
+<lb ed="#Bc"/>gradus boni : quia sic non conveniret 
+ni<lb ed="#Bc" break="no"/>si uni soli, sicut probat objectio: sed
+<lb ed="#Bc"/>accipitur secundum oppositionem boni
+<lb ed="#Bc"/>ad malum, in qua oppositione in extrema
+<lb ed="#Bc"/>distantia est virtus in ratione boni: et
+<lb ed="#Bc"/>ideo est optima in ratione boni, et vitium
+<lb ed="#Bc"/>pessimum. Quia, sicut dicit,Philosophus,
+<lb ed="#Bc"/>si aliquid opponitur alicui sicut bonum
+<lb ed="#Bc"/>malo, in eodem genere oppositionis 
+op<lb ed="#Bc" break="no"/>ponetur magis ad magis, et maxime ad
+<lb ed="#Bc"/>maxime. Unde sicut malum opponitur 
+bo<lb ed="#Bc" break="no"/>no, ita pejus meliori, et optimum pessimo.
+</p>
+               <p xml:id="Almn78-h57834-d1e702">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod felicitas est
+<lb ed="#Bc"/>aliter extremum quam virtus: felicitas
+<lb ed="#Bc"/>enim est extremum ut finis per virtutem
+<lb ed="#Bc"/>intentus, virtus autem est extremum in
+<lb ed="#Bc"/>ratione boni in oppositione ad malum,
+<lb ed="#Bc"/>sicut dictum est. :
+</p>
+               <p xml:id="Almn78-h57834-d1e718">
+                  <lb ed="#Bc"/>Ad EA que objiciuntur contra 
+definitio<lb ed="#Bc" break="no"/>nem Tullii, dicendum quod illa definitio
+<lb ed="#Bc"/>non datur per essentialia, sed penes 
+mo<lb ed="#Bc" break="no"/>tus virtutis quibus movet rationem in
+<lb ed="#Bc"/>modum nature, et non artis.
+</p>
+               <p xml:id="Almn78-h57834-d1e731">
+                  <lb ed="#Bc"/>Ad id quod objicitur de quinta, 
+dicen<lb ed="#Bc" break="no"/>dum quod Anselmus non intendit ibidem
+<lb ed="#Bc"/>definire virtutem, sed tantum dicere 
+qua<lb ed="#Bc" break="no"/>liter se habet ad mentem et animam
+<lb ed="#Bc"/>quam optime disponit ad bonum.
+</p>
+               <p xml:id="Almn78-h57834-d1e744">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod dispositio
+<lb ed="#Bc"/>dividitur contra habitum, in hoc quod est
+<lb ed="#Bc"/>qualitas facile mobilis, habitus autem
+<lb ed="#Bc"/>qualitas confirmata : et non in hoc
+<lb ed="#Bc"/>quod disponit subjectum et ordinat ad
+<lb ed="#Bc"/>optimum, quia hoc maxime facit habitus
+<lb ed="#Bc"/>virtutis.
+</p>
+               <p xml:id="Almn78-h57834-d1e762">
+                  <pb ed="#Bc" n="263"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Ad uttimum dicendum, quod licet 
+uni<lb ed="#Bc" break="no"/>cum sit esse rei quod indicat essentialis
+<lb ed="#Bc"/>definitio, tamen multe sunt habitudines
+<lb ed="#Bc"/>et comparationes effectus et cause 
+unius<lb ed="#Bc" break="no"/>cujusque, penes quas possunt accipi 
+di<lb ed="#Bc" break="no"/>verse assignationes notitiam rei facientes,
+<lb ed="#Bc"/>Unde prime due penes essentialia 
+virtu<lb ed="#Bc" break="no"/>tis accipiuntur et sunt essentiales : melior
+<lb ed="#Bc"/>tamen est Augustini, et magis essentialia
+<lb ed="#Bc"/>indicans, precipue de virtute infusa.
+<lb ed="#Bc"/>Quarta que Tulliiest, datur penes motum
+<lb ed="#Bc"/>virtutis quo movet rationem : movet
+<lb ed="#Bc"/>enim in modum nature, et non in 
+mo<lb ed="#Bc" break="no"/>dum artis : et propter hoc virtus est 
+om<lb ed="#Bc" break="no"/>ni arte certior, ut dicit Philosophus. De
+<lb ed="#Bc"/>Anselmi definitione jam dictum est.
+</p>
+               <p xml:id="Almn78-h57834-d1e804">
+                  <lb ed="#Bc"/>Et sic patet solutio ad omnia objecta.
+</p>
+            </div>
+            <div xml:id="Almn78-h57834-Dd1e811">
+               <head xml:id="Almn78-h57834-Hd1e813">Membrum 2</head>
+               <head xml:id="Almn78-h57834-Hd1e816" type="question-title">
+        Quomodo genus virtutis deducatur ad
+        species per divisionem
+      </head>
+               <p xml:id="Almn78-h57834-d1e819">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quomodo genus virtutis deducatur ad
+<lb ed="#Bc"/>species per divisionem ?
+</p>
+               <p xml:id="Almn78-h57834-d1e828">
+                  <lb ed="#Bc"/>Secundo queritur, Quomodo genus 
+vir<lb ed="#Bc" break="no"/>tutis deducatur ad species per 
+divisio<lb ed="#Bc" break="no"/>nem ?
+</p>
+               <p xml:id="Almn78-h57834-d1e837">
+                  <lb ed="#Bc"/>Et ad hoc dicendum, quod multe sunt
+<lb ed="#Bc"/>divisiones virtutis ab auctoribus 
+assigna<lb ed="#Bc" break="no"/>te, quarum omnium oportet assignare
+<lb ed="#Bc"/>rationes.
+</p>
+               <p xml:id="Almn78-h57834-d1e849">
+                  <lb ed="#Bc"/>Prima est, quod dividitur in virtutem
+<lb ed="#Bc"/>theologicam, et cardinalem sive 
+acquisi<lb ed="#Bc" break="no"/>tam. Theologice sunt tres, fides, spes, et
+<lb ed="#Bc"/>charitas : quarum unaqueque movet 
+se<lb ed="#Bc" break="no"/>cundum rectitudinem tendendi in finem,
+<lb ed="#Bc"/>Fides in verum summum, cui propter se
+<lb ed="#Bc"/>et super omnia consentiendum est. Spes
+<lb ed="#Bc"/>in arduum, quod est beatitudo summa
+<lb ed="#Bc"/>largitati divine subjecta et nulli alii: ex
+<lb ed="#Bc"/>sola enim largitate divina datur: unde
+<lb ed="#Bc"/>spes est certa exspectatio future 
+beatitu<lb ed="#Bc" break="no"/>dinis, ex meritis proveniens et gratia.
+<lb ed="#Bc"/>Charitas movet in summum bonum et in
+<lb ed="#Bc"/>omne bonum quod est imago summiboni.
+<lb ed="#Bc"/>Cardinales autem sunt quatuor, scilicet
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>prudentia, justitia, fortitudo, et 
+tempe<lb ed="#Bc" break="no"/>rantia. Inter quas, ut dicit Bernardus in
+<lb ed="#Bc"/>libro V de Consideratione ad Eugenium,
+<lb ed="#Bc"/>prudentia medium invenit, temperantia
+<lb ed="#Bc"/>tangit, fortitudo tenet, justitia reddit.
+</p>
+               <p xml:id="Almn78-h57834-d1e897">
+                  <lb ed="#Bc"/>Aliquando dividitur per effectum quem
+<lb ed="#Bc"/>consequitur in subjecto quod est anima,
+<lb ed="#Bc"/>quam purificat ab illicitis passionum et
+<lb ed="#Bc"/>operationum sicut est illa que datur a
+<lb ed="#Bc"/>Plotino Philosopho, quem beatus 
+Ber<lb ed="#Bc" break="no"/>nardus laudat in commento super Oseam
+<lb ed="#Bc"/>dicens sic : <quote xml:id="Almn78-h57834-Qd1e914"> Plotinum Philosophum
+<lb ed="#Bc"/>Socrates inventum inter ganeos et nepotes
+<lb ed="#Bc"/>probatissimum Philosophum fecit. Hic
+<lb ed="#Bc"/>dividit virtutes in purgantes, purgatorias,
+<lb ed="#Bc"/>et animi purgati. Vocans purgantes, que
+<lb ed="#Bc"/>jam incipiunt nebulas passionum 
+purga<lb ed="#Bc" break="no"/>re: purgatorias, que in profectu sunt
+<lb ed="#Bc"/>purgationis : purgati animi, que jam
+<lb ed="#Bc"/>animum purgaverunt, ita quod animus
+<lb ed="#Bc"/>nihil consentiat contrarium virtuti. </quote>
+               </p>
+               <p xml:id="Almn78-h57834-d1e937">
+                  <lb ed="#Bc"/>Aliquando dividitur secundum subje~
+<lb ed="#Bc"/>cta: et sicut dicit Aristoteles in libro de
+<lb ed="#Bc"/>Laudabilibus bonis, anima triplicis partis
+<lb ed="#Bc"/>assumpta esta Platone, scilicet 
+rationa<lb ed="#Bc" break="no"/>lis, irascibilis, et concupiscibilis. Et sic
+<lb ed="#Bc"/>rationalis virtutis est prudentia, ut dicit.
+<lb ed="#Bc"/>Trascibilis est mansuetudo et fortitudo.
+<lb ed="#Bc"/>Concupiscibilis vero temperantia et con~
+<lb ed="#Bc"/>tinentia. Totius autem anime justitia, 
+li<lb ed="#Bc" break="no"/>beralitas, et magnanimitas.
+</p>
+               <p xml:id="Almn78-h57834-d1e961">
+                  <lb ed="#Bc"/>Prima ergo divisio que est in 
+theolo<lb ed="#Bc" break="no"/>gicas et cardinales, datur penes causam
+<lb ed="#Bc"/>efficientem : theologice enim movent in
+<lb ed="#Bc"/>finem divinum, et sunt infuse a Deo.
+<lb ed="#Bc"/>Cardinales autem ordinant passiones et
+<lb ed="#Bc"/>movent in medium quod est in 
+passioni<lb ed="#Bc" break="no"/>bus et operationibus, et sunt acquisite,
+<lb ed="#Bc"/>ut dicit Aristoteles, per assuetudinem et
+<lb ed="#Bc"/>doctrinam : quamvis Socrates dixerit,
+<lb ed="#Bc"/>sicut narrat Plato in Mennone, quod 
+vir<lb ed="#Bc" break="no"/>tus nec est assuescibile, nec discibile 
+bo<lb ed="#Bc" break="no"/>num, sed donum Dei.
+</p>
+               <p xml:id="Almn78-h57834-d1e990">
+                  <lb ed="#Bc"/>Illa Plotini jam dictum est penes quid
+<lb ed="#Bc"/>sumitur : quoniam penes effectum quem
+<lb ed="#Bc"/>consequitur virtus in subjecto ordinando
+<lb ed="#Bc"/>passiones.
+</p>
+               <p xml:id="Almn78-h57834-d1e1001">
+                  <lb ed="#Bc"/>Illa que est in libro de Laudabilibus
+<pb ed="#Bc" n="264"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>bonis, datur penes subjectum quod est 
+po<lb ed="#Bc" break="no"/>tentia anime, quam perficit virtus ad
+<lb ed="#Bc"/>actum. Et ideo prudentia est in rationali
+<lb ed="#Bc"/>cum omnibus sibi adjunctis virtutibus,
+<lb ed="#Bc"/>que dicuntur intellectuales ab Aristotele,
+<lb ed="#Bc"/>secundum quod ratio comprehenditur
+<lb ed="#Bc"/>sub intellectu : quia in omnibus his, ut
+<lb ed="#Bc"/>dicitur in VII Ethicorum, medium est
+<lb ed="#Bc"/>ratio recta, Et sunt in universo quinque
+<lb ed="#Bc"/>principales, scilicet sapientia, scientia,
+<lb ed="#Bc"/>prudentia, ars: licet sapientia dicatur
+<lb ed="#Bc"/>duobus modis, et in duas dividatur, 
+sci<lb ed="#Bc" break="no"/>licet in sapientiam simpliciter, et in 
+sa<lb ed="#Bc" break="no"/>pientiam in hoc. Sapientia simpliciter
+<lb ed="#Bc"/>dicitur per causas scientie altissimas,
+<lb ed="#Bc"/>quas difficile est homini scire, et cujus
+<lb ed="#Bc"/>finis in seipsa est et sciendi gratia. 
+Scien<lb ed="#Bc" break="no"/>tia vero est quando scitur aliquid per ne
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>cessaria principia et per necessariam 
+con<lb ed="#Bc" break="no"/>secutionem. Prudentia vero est generalis
+<lb ed="#Bc"/>scientia omnium pertinentium ad 
+ordi<lb ed="#Bc" break="no"/>nem morum cum effectu. Propter quod
+<lb ed="#Bc"/>dicit Aristoteles in VIL E'thicorum, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h57834-Qd1e1063">qui perfecte habet prudentiam, habet
+<lb ed="#Bc"/>omnes virtutes. </quote> Ars autem dicitur 
+facti<lb ed="#Bc" break="no"/>vum principium cum ratione in his que
+<lb ed="#Bc"/>fiunt super materiam exteriorem, sicut
+<lb ed="#Bc"/>super ligna, lapides, et hujusmodi. Et
+<lb ed="#Bc"/>dicitur sapientia in qualibet arte habitus
+<lb ed="#Bc"/>rationis, docens ex fine artis rationes 
+om<lb ed="#Bc" break="no"/>nium operabilium ostendere que ad 
+il<lb ed="#Bc" break="no"/>Jam artem exiguntur.
+</p>
+               <p xml:id="Almn78-h57834-d1e1086">
+                  <lb ed="#Bc"/>De omnibus tamen his tractatum 
+facie<lb ed="#Bc" break="no"/>mus in tertio, ubi de virtutibus et donis
+<lb ed="#Bc"/>agetur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

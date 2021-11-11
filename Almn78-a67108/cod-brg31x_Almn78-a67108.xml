@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="304"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a67108"><!-- p1t7prae -->
+            <head xml:id="Almn78-a67108-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a67108-d1e109">
+               <pb ed="#Ba" n="304"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS VII.
+<lb ed="#Ba"/>DE DISTINCTIONE PERSONARUM IN DIVINIS 
+SE<lb ed="#Ba" break="no"/>CGUNDUM GENERATIONEM FILII ET 
+PROCESSIO<lb ed="#Ba" break="no"/>NEM SPIRITUS SANCTI.
+</p>
+            <p xml:id="Almn78-a67108-d1e125">
+               <lb ed="#Ba"/>Determinatis his que preambula sunt ad theologia scientiam et 
+divi<lb ed="#Ba" break="no"/>nam cognitionem, et his que conveniunt divine éssentiee secundum se 
+con<lb ed="#Ba" break="no"/>siderata, nunc consequenter inquirendum est de his que pertinent ad
+<lb ed="#Ba"/>distinctionem personarum, et de his que conveniunt essentiae in personis,
+<lb ed="#Ba"/>secundum causalitatem qua causa est creaturarum. Sicut enim dicit 
+Ansel<lb ed="#Ba" break="no"/>mus, <quote xml:id="Almn78-a67108-Qd1e140"> processio personarum est ante processionem creaturarum, sicut
+<lb ed="#Ba"/>causa ante effectum, et sicut eternum ante temporale, et sicut exemplar
+<lb ed="#Ba"/>ante exemplatum. </quote>
+            </p>
+            <p xml:id="Almn78-a67108-d1e148">
+               <lb ed="#Ba"/>Circa distinctionem personarum sic procedemus, quod primo queremus
+<lb ed="#Ba"/>de generatione Filii, et processione Spiritus sancti.
+<lb ed="#Ba"/>Deinde de relationibus et notionibus quibus persone distinguuntur et
+<lb ed="#Ba"/>noscuntur.
+<lb ed="#Ba"/>Deinde de hoc nomine persona, quid dicat, vel quid preedicet in 
+divi<lb ed="#Ba" break="no"/>nis.
+<lb ed="#Ba"/>Et tandem de equalitate personarum ad invicem.
+</p>
+            <p xml:id="Almn78-a67108-d1e166">
+               <lb ed="#Ba"/>Circa generationem Filii queremus quatuor.
+<lb ed="#Ba"/>Primo enim queritur, An in divinis sit generatio ?
+<lb ed="#Ba"/>Secundo, Si est, qualis est in divinis generatio ?
+<lb ed="#Ba"/>Tertio, Cujus est generatio et generari, utrum scilicet essentie, vel 
+per<lb ed="#Ba" break="no"/>sone, vel utriusque ?
+<lb ed="#Ba"/>Quarto, Utrum uni vel pluribus personis conveniat generare, et utrum
+<lb ed="#Ba"/>semper vel aliquando et secundum omnes differentias temporis ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 46</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 46</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="517"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e14903"><!-- p2t11q46 -->
+            <head xml:id="Almn78-e14903-Hd1e106">Quaestio 46</head>
+            <head xml:id="Almn78-e14903-Hd1e109" type="question-title">
+      Utrum simul vel per successiones temporum omnia creata sint
+    </head>
+            <p xml:id="Almn78-e14903-d1e112">
+               <pb ed="#Bb" n="517"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO XLVI.
+      <lb ed="#Bb"/>Utrum simul vel per successiones temporum omnia creata sint?
+    </p>
+            <p xml:id="Almn78-e14903-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Quarto queritur, Utrum simul vel per
+      <lb ed="#Bb"/>successiones temporum omnia creata
+      <lb ed="#Bb"/>sint ?
+    </p>
+            <p xml:id="Almn78-e14903-d1e134">
+               <lb ed="#Bb"/>Et videtur, quod omnia simul.
+      <lb ed="#Bb"/>1. Eecli. xvit, 4: Quit vivit in 
+      xter<lb ed="#Bb" break="no"/>num, creavit omnia simul. Ergo omnia
+      <lb ed="#Bb"/>creavit Deus simul in forma et materia :
+      <lb ed="#Bb"/>et sic non creavit per successionem 
+      tem<lb ed="#Bb" break="no"/>poris sex dierum.
+    </p>
+            <p xml:id="Almn78-e14903-d1e151">
+               <lb ed="#Bb"/>2. Adhuc, Job, xt, 10: Kece 
+      Behe<lb ed="#Bb" break="no"/>moth quem feci tecum. Behemoth autem
+      <lb ed="#Bb"/>Angelus est, qui cecidit, cum quo homo
+      <lb ed="#Bb"/>factus est. Homo autem sexta die factus
+      <lb ed="#Bb"/>est. Ergo ea que sexta die sunt facta,
+      <lb ed="#Bb"/>facta sunt cum his que in principio
+      <lb ed="#Bb"/>sunt facta : et eadem ratio est de 
+      me<lb ed="#Bb" break="no"/>diis : ergo omnia simul sunt facta.
+    </p>
+            <p xml:id="Almn78-e14903-d1e171">
+               <lb ed="#Bb"/>3. Adhuc, Hoc expresse dicit 
+      Augu<lb ed="#Bb" break="no"/>stinus in libro II super Genesim ad 
+      liite<lb ed="#Bb" break="no"/>ram.
+    </p>
+            <p xml:id="Almn78-e14903-d1e180">
+               <lb ed="#Bb"/>Contra :
+      <lb ed="#Bb"/>1. Unumquodque mensuratur sui 
+      ge<lb ed="#Bb" break="no"/>neris minimo et simplicissimo, ut dicit
+      <lb ed="#Bb"/>Aristoteles in IV prime philosophie :
+      <lb ed="#Bb"/>et in omnibus mensura respondet 
+      men<lb ed="#Bb" break="no"/>surato. Sed tam in creatis, quam 
+      distin<lb ed="#Bb" break="no"/>ctis et ornatis, mensurata distincta sunt
+      <lb ed="#Bb"/>per esse et durationem. Ergo mensure
+      <lb ed="#Bb"/>in quibus fiunt, distincte sunt
+      <lb ed="#Bb"/>mensurationes secundum dies et horas
+      <lb ed="#Bb"/>in quibus facta sunt omnia: non ergo
+      <lb ed="#Bb"/>simul facta sunt : simul enim in tempore
+      <lb ed="#Bb"/>sunt, quorum esse et constitutionem
+      <lb ed="#Bb"/>unum est tempus mensurans.
+    </p>
+            <p xml:id="Almn78-e14903-d1e213">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>2. Avuuc, Boetius in libro IV de 
+      Con<lb ed="#Bb" break="no"/>solatione philosophiz dicit, quod <quote xml:id="Almn78-e14903-Qd1e221"> nihil
+        <lb ed="#Bb"/>est quod esse suum totum in uno 
+        indivi<lb ed="#Bb" break="no"/>sibili habeat et possideat. </quote> Et hoc idem
+      <lb ed="#Bb"/>dicit Avicenna in IX suze prime 
+      philoso<lb ed="#Bb" break="no"/>phie. Et Boetius excipit Deum, qui
+      <lb ed="#Bb"/>totum esse suum in uno indivisibili 
+      pos<lb ed="#Bb" break="no"/>sidet : et ideo eternus est, nec creatus,
+      <lb ed="#Bb"/>nec factus. Avicenna vero excipit ens
+      <lb ed="#Bb"/>necesse, quod facit debere esse in 
+      omni<lb ed="#Bb" break="no"/>bus que sunt, et in nulla parte sui est
+      <lb ed="#Bb"/>in potentia ad aliquid a quo accipiat
+      <lb ed="#Bb"/>esse, vel aliquid quod est esse 
+      conse<lb ed="#Bb" break="no"/>quens. Omnia ergo creata et facta esse
+      <lb ed="#Bb"/>habent distensum, quod non est simul.
+      <lb ed="#Bb"/>in uno indivisibili. Sicut ergo 
+      unum<lb ed="#Bb" break="no"/>quodque talium habet esse proprium et
+      <lb ed="#Bb"/>propriam distinctionem sui esse : ita
+      <lb ed="#Bb"/>necesse est, quod unumquodque 
+      pro<lb ed="#Bb" break="no"/>priam habeat periodum in qua accipiat
+      <lb ed="#Bb"/>suum esse. Quecumque autem propria
+      <lb ed="#Bb"/>periodo distinguuntur, numquam 
+      pos<lb ed="#Bb" break="no"/>sunt fieri simul. Ergo omnia creata 
+      dis<lb ed="#Bb" break="no"/>tincta et ordinata simul in tempore fieri
+      <lb ed="#Bb"/>non possunt. ,
+    </p>
+            <p xml:id="Almn78-e14903-d1e275">
+               <lb ed="#Bb"/>Gratia hujus ulterius queritur sic 
+      se<lb ed="#Bb" break="no"/>cundum eos qui dicunt simul omnia
+      <lb ed="#Bb"/>facta esse, Utrum in uno et eodem 
+      indi<lb ed="#Bb" break="no"/>visibili nunc omnia sint simul facta et
+      <lb ed="#Bb"/>creata ?
+    </p>
+            <p xml:id="Almn78-e14903-d1e288">
+               <lb ed="#Bb"/>Et videtur, quod sic :
+      <lb ed="#Bb"/>1. Creata enim et facta illo modo 
+      con<lb ed="#Bb" break="no"/>venientissime exeunt a creatore et facto
+      <pb ed="#Bb" n="518"/>
+               <cb ed="#Bb" n="a"/>re, quo maxime indicant potentiam
+      <lb ed="#Bb"/>creatoris et factoris : sed maxime 
+      indi<lb ed="#Bb" break="no"/>cant potentiam creatoris, si omnia, fiant
+      <lb ed="#Bb"/>in uno nunc, quam si in diversis: ergo
+      <lb ed="#Bb"/>videtur, quod omnia facta sunt in uno
+      <lb ed="#Bb"/>nunc, et non in diversis. Videtur ergo,
+      <lb ed="#Bb"/>quod magis. congruebat, quod in uno
+      <lb ed="#Bb"/>nunc omnia fierent.
+    </p>
+            <p xml:id="Almn78-e14903-d1e318">
+               <lb ed="#Bb"/>_2: Adhuc, Constat, quod omnia in
+      <lb ed="#Bb"/>singulari esse facta sunt. Singulare 
+      au<lb ed="#Bb" break="no"/>tem, ut dicit Aristoteles in primo 
+      Physi<lb ed="#Bb" break="no"/>corum, concernit hoc et nunc: 
+      univer<lb ed="#Bb" break="no"/>sale autem ubique et semper. Sed 
+      maxi<lb ed="#Bb" break="no"/>ma potentia est, ea que divisa sunt
+      <lb ed="#Bb"/>secundum locum et tempus in uno nunc
+      <lb ed="#Bb"/>facere. Cum ergo in opere suo 
+      resplen<lb ed="#Bb" break="no"/>deat potentia facientis, congruissime
+      <lb ed="#Bb"/>Deus ad ostensionem potentia suze 
+      om<lb ed="#Bb" break="no"/>nia fecit in uno nunc.
+    </p>
+            <p xml:id="Almn78-e14903-d1e344">
+               <lb ed="#Bb"/>ConTRA :
+      <lb ed="#Bb"/>Aliud est creare, et aliud facere. 
+      Crea<lb ed="#Bb" break="no"/>tio enim, sicut habitum est, est ante
+      <lb ed="#Bb"/>omnem diem : factio autem in 
+      distin<lb ed="#Bb" break="no"/>ctione et ornatu distinguitur per sex
+      <lb ed="#Bb"/>dies : ergo creatio et factio non sunt 
+      si<lb ed="#Bb" break="no"/>mul in uno nunc : non ergo omnia fecit
+      <lb ed="#Bb"/>Deus simul in uno nunc.
+    </p>
+            <p xml:id="Almn78-e14903-d1e364">
+               <lb ed="#Bb"/>Quaeritur etiam de solutione Magistri
+      <lb ed="#Bb"/>Hugonis de sancto Victore in suis 
+      Sen<lb ed="#Bb" break="no"/>tentiis, qui sic dicit: <quote xml:id="Almn78-e14903-Qd1e372"> ‘Mihi videtur
+        <lb ed="#Bb"/>quantum conjicere valeo, inter 
+        creatio<lb ed="#Bb" break="no"/>nem et dispositionem rerum ordinem
+        <lb ed="#Bb"/>quidem temporis, sed nullam fuisse 
+        mo<lb ed="#Bb" break="no"/>ram interjectam : ila ut vere quidem
+        <lb ed="#Bb"/>dici possit hoc post iliud factum fuisse,
+        <lb ed="#Bb"/>sed inter hoc factum et illud nullam 
+        om<lb ed="#Bb" break="no"/>nino dilationem intervenisse.</quote>
+            </p>
+            <p xml:id="Almn78-e14903-d1e391">
+               <lb ed="#Bb"/>Quaritur etiam hic, Si Deus omnia
+      <lb ed="#Bb"/>creavit in nunc, utrum fuerit hoc nunc
+      <lb ed="#Bb"/>wternitatis, vel evi, vel temporis ?
+    </p>
+            <p xml:id="Almn78-e14903-d1e400">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod omnia simul
+      <lb ed="#Bb"/>creata sunt dupliciter. Secundum 
+      Augu<lb ed="#Bb" break="no"/>stinum enim omnia creata sunt simul in
+      <lb ed="#Bb"/>materia et forma, et distinctio sex die 
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" break="no"/>rum accipitur secundum ostensionem
+      <lb ed="#Bb"/>creandi in luce intelligentie angelice,
+      <lb ed="#Bb"/>representate et repetite in Verbo, quod
+      <lb ed="#Bb"/>est ars qua creatur omne quod creatur
+      <lb ed="#Bb"/>secundum ordinem creatorum : 
+      secun<lb ed="#Bb" break="no"/>dum ordinem enim illum, creatum in
+      <lb ed="#Bb"/>substantia est ante distinctum in forma
+      <lb ed="#Bb"/>et loco: et distinctum in forma et loco,
+      <lb ed="#Bb"/>est ante ornatum. Similiter ornatum 
+      fa<lb ed="#Bb" break="no"/>cile formabile in formas, sicut est 
+      humi<lb ed="#Bb" break="no"/>dum aqueum aereum, est ante ornatum
+      <lb ed="#Bb"/>non ita facile formabile in species et 
+      for<lb ed="#Bb" break="no"/>mas. Et similiter ornatum superius, quod
+      <lb ed="#Bb"/>est movens ad generationes inferiorum
+      <lb ed="#Bb"/>in formas et figuras, est ante ornatum 
+      in<lb ed="#Bb" break="no"/>feriorum. Et post omnia hec est factura
+      <lb ed="#Bb"/>hominis, in quo completur universitas.
+      <lb ed="#Bb"/>Similiter ordo est in distivctis : 
+      secun<lb ed="#Bb" break="no"/>dum naturam enim primo est distinctio
+      <lb ed="#Bb"/>primi extremi ab extremo, sive summi
+      <lb ed="#Bb"/>ab imo. Et naturali ordine post hoc est
+      <lb ed="#Bb"/>distinctio medii a summo, quando /ecit
+      <lb ed="#Bb"/>Deus firmamentum in medio aquarum,
+      <lb ed="#Bb"/>divisitque aquas que erant sub 
+      firma<lb ed="#Bb" break="no"/>mento, ab his que erant super firmamen
+      <lb ed="#Bb"/>tum'. Et ordine naturali distinctio 
+      oc<lb ed="#Bb" break="no"/>currit medii ab imo tertio loco, que fit
+      <lb ed="#Bb"/>tertia die, per hoc quod dicitur : 
+      Congre<lb ed="#Bb" break="no"/>gentur aque,que sub celo sunt, in 
+      lo<lb ed="#Bb" break="no"/>cum unum, et appareat arida*. Et 
+      se<lb ed="#Bb" break="no"/>cundum hunc ordinem  distinctionis
+      <lb ed="#Bb"/>ornatus et creationis sex illustrationes
+      <lb ed="#Bb"/>luminis Verbi in intelligentia angelica,
+      <lb ed="#Bb"/>sex faciunt dies secundum Augustinum,
+      <lb ed="#Bb"/>quarum quelibet habet mane et 
+      vespe<lb ed="#Bb" break="no"/>ram : mane, dum illustratur in verbo
+      <lb ed="#Bb"/>creature adoriende : vesperam, dum
+      <lb ed="#Bb"/>notitiam Creature facte et orte refert in
+      <lb ed="#Bb"/>laudem creatoris. Et hac sententia mihi
+      <lb ed="#Bb"/>probabilior videtur : quia non esset ratio
+      <lb ed="#Bb"/>quam aliquis posset assignare, cum
+      <cb ed="#Bb" n="b"/>quamlibet creaturam Deus faciat verbo.
+      <lb ed="#Bb"/>Dixit enim: Kt facta sunt : et quod
+      <lb ed="#Bb"/>verbo mentali fit, in puncto fit, et in nunc
+      <lb ed="#Bb"/>quod in residuo spatio temporis, quod
+      <lb ed="#Bb"/>vocatur dies naturalis, fecisset Deus opere
+      <lb ed="#Bb"/>illius diei facto. Et ideo dicimus, quod in
+      <pb ed="#Bb" n="519"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>uno et eodem nunc complevit omnia
+      <lb ed="#Bb"/>Deus. Sed ut dicit Augustinus, quod 
+      si<lb ed="#Bb" break="no"/>mul factum fuit, simul dici non potest :
+      <lb ed="#Bb"/>et ideo Moyses interposuit volumina 
+      die<lb ed="#Bb" break="no"/>rum, ut per volumina dierum notaretur
+      <lb ed="#Bb"/>distinctio naturarum, creatorum, 
+      distin<lb ed="#Bb" break="no"/>ctorum, et ornatorum.
+    </p>
+            <p xml:id="Almn78-e14903-d1e535">
+               <lb ed="#Bb"/>Secundum tamen alios sanctos, 
+      Hie<lb ed="#Bb" break="no"/>ronymum scilicet, et suos alios sequaces,
+      <lb ed="#Bb"/>omnia simul facta sunt in materia, sicut
+      <lb ed="#Bb"/>dictum est.
+    </p>
+            <p xml:id="Almn78-e14903-d1e547">
+               <lb ed="#Bb"/>Et ita intelligunt illud quod dicitur,
+      <lb ed="#Bb"/>Eccli. xvi, 1: Qui vivit in eternum,
+      <lb ed="#Bb"/>ereavit omnia simul.
+    </p>
+            <p xml:id="Almn78-e14903-d1e556">
+               <lb ed="#Bb"/>Per idem patet solutio ad sequens :
+      <lb ed="#Bb"/>Behemoth enim secundum Hieronymum
+      <lb ed="#Bb"/>et suos sequaces, cum homine factus est :
+      <lb ed="#Bb"/>quia cum materia prima im qua factum
+      <lb ed="#Bb"/>est corpus hominis, materialiter cum
+      <lb ed="#Bb"/>aliis factus est homo : cum angelica
+      <lb ed="#Bb"/>nitura et materia prima sunt coequeva,
+      <lb ed="#Bb"/>ut dicit Augustinus, et in antehabitis
+      <lb ed="#Bb"/>determinatum est.
+    </p>
+            <p xml:id="Almn78-e14903-d1e578">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod intellectus
+      <lb ed="#Bb"/>Augustini jam expositus est.
+    </p>
+            <p xml:id="Almn78-e14903-d1e585">
+               <lb ed="#Bb"/>Ad id quod objicitur in contrarium,
+      <lb ed="#Bb"/>dicendum, quod mensura illa qua 
+      unum<lb ed="#Bb" break="no"/>quodque mensuratur sui generis 
+      nume<lb ed="#Bb" break="no"/>ro, mensura est essentialis, que meo
+      <lb ed="#Bb"/>judicio simplex ratio est essenti rei. Et
+      <lb ed="#Bb"/>hee differt secundum mensurata : hac
+      <lb ed="#Bb"/>enim mensura dictum est unumquodque
+      <lb ed="#Bb"/>quod est quantum et attingit veram 
+      ra<lb ed="#Bb" break="no"/>tionem essentia sue. Et hac mensura est
+      <lb ed="#Bb"/>sola que differt secundum mensurata,
+      <lb ed="#Bb"/>Est alia mensura in qua res est sicut in
+      <lb ed="#Bb"/>numero, que non est essentialis rebus,
+      <lb ed="#Bb"/>sicut dicimus uno denario mensurari 
+      de<lb ed="#Bb" break="no"/>cem canes, et decem oves : quia ex uno
+      <lb ed="#Bb"/>numero numerante mensurantur, cum
+      <lb ed="#Bb"/>diversa sint. Et cum, sicut dicit 
+      Aristote<lb ed="#Bb" break="no"/>les in IV Physicorum, in tempore esse sit
+      <lb ed="#Bb"/>esse in numero numerante periodum 
+      se<lb ed="#Bb" break="no"/>cundum prius et posterius, non oportet
+      <lb ed="#Bb"/>quod ea que simul sunt in nunc 
+      tempo<lb ed="#Bb" break="no"/>ris, vel in- tempore, sint eadem ; nec
+      <lb ed="#Bb"/>oportet, quod temporalia que sunt in
+      <lb ed="#Bb"/>nunc temporis, vel in tempore (cum ipsa
+      <lb ed="#Bb"/>diversa sint) diversa habeant nunc, vel
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>tempora se mensurantia : quia in talibus
+      <lb ed="#Bb"/>diversitas mensure non sequitur ad 
+      di<lb ed="#Bb" break="no"/>versitatem mensurati.
+    </p>
+            <p xml:id="Almn78-e14903-d1e648">
+               <lb ed="#Bb"/>Av picrum Boetii dicendum, quod 
+      ve<lb ed="#Bb" break="no"/>rum est, quod elernum totum esse suum
+      <lb ed="#Bb"/>possidet in uno indivisibili nunc quod
+      <lb ed="#Bb"/>est elernitas : et creatum et factum esse
+      <lb ed="#Bb"/>suum simul non habet, sed distensum
+      <lb ed="#Bb"/>de preterito in presens, et de presenti
+      <lb ed="#Bb"/>in futurum. Sed hoc non prohibet, nec.
+      <lb ed="#Bb"/>impedit, quin multa creata vel facta et
+      <lb ed="#Bb"/>in uno indivisibili nunc et in uno 
+      tem<lb ed="#Bb" break="no"/>pore esse possit tale accipere : cum 
+      tem<lb ed="#Bb" break="no"/>pus et nunc sint mensure adjacentis
+      <lb ed="#Bb"/>extrinsecus per modum numeri, sicut
+      <lb ed="#Bb"/>dictum est.
+    </p>
+            <p xml:id="Almn78-e14903-d1e679">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod sicut probat ratio inducta,
+      <lb ed="#Bb"/>mihi magis videtur, quod in uno 
+      indivi<lb ed="#Bb" break="no"/>sibili nunc omnia facta sint. Per hoc
+      <lb ed="#Bb"/>enim maxime demonstratur, quod 
+      crea<lb ed="#Bb" break="no"/>toris potentia tanta est, quod nullo 
+      indi<lb ed="#Bb" break="no"/>get ad creandum, disponendum, et 
+      or<lb ed="#Bb" break="no"/>nandum : et hoc indivisibile nunc adjacet
+      <lb ed="#Bb"/>creationi, dispositioni, et ornatui sicut
+      <lb ed="#Bb"/>mensurans extrinsecus. Per hoc enim
+      <lb ed="#Bb"/>creator dat esse singulis que sunt, et, °
+      <lb ed="#Bb"/>sicut dicit Avicenna, facit debere esse in
+      <lb ed="#Bb"/>omnibus que sunt. Dicit enim 
+      Philoso<lb ed="#Bb" break="no"/>phus, quod sicut locus mensurat ens, ita
+      <lb ed="#Bb"/>esse entis mensuratur in tempore vel
+      <lb ed="#Bb"/>nune.
+    </p>
+            <p xml:id="Almn78-e14903-d1e717">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod hoc videtur
+      <lb ed="#Bb"/>concedendum, sicut dictum est.
+    </p>
+            <p xml:id="Almn78-e14903-d1e724">
+               <lb ed="#Bb"/>Ad oBsEcTUM in contrarium, dicendum
+      <lb ed="#Bb"/>secundum Augustinum, quod creatio, et
+      <lb ed="#Bb"/>factio, distinctio, ornatus, simul sunt in
+      <lb ed="#Bb"/>uno nune mensurante extrinsecus : quia
+      <lb ed="#Bb"/>creando distinxit, et distinguendo 
+      crea<lb ed="#Bb" break="no"/>vit et ornavit : sed que simul facta sunt,
+      <lb ed="#Bb"/>simul dici non poterant. Et ideo dictum
+      <lb ed="#Bb"/>est a Moyse, quod creatio est ante 
+      om<lb ed="#Bb" break="no"/>nem diem, distinctio vero et ornatus per
+      <lb ed="#Bb"/>volumina sex dierum explicata.
+    </p>
+            <p xml:id="Almn78-e14903-d1e748">
+               <lb ed="#Bb"/>Ad primum Magistri Hugonis dicendum,
+      <lb ed="#Bb"/>quod ordinem temporis vocat ordinem
+      <lb ed="#Bb"/>successionis naturalis, quo unum natura
+      <pb ed="#Bb" n="520"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>liter est ante alterum : et dicit 
+      dilatio<lb ed="#Bb" break="no"/>nem non intervenisse, ut innuat 
+      tempo<lb ed="#Bb" break="no"/>rales motus et moras inter unum et 
+      alte<lb ed="#Bb" break="no"/>rum non intervenisse, sed omnia hac
+      <lb ed="#Bb"/>perfecta simul in uno primo nunc 
+      tem<lb ed="#Bb" break="no"/>poris, sicut jam dictum est,
+    </p>
+            <p xml:id="Almn78-e14903-d1e774">
+               <lb ed="#Bb"/>Ad id quod ultimo queritur, dicendum
+      <lb ed="#Bb"/>quod illud nene non fuit eternitatis : quia
+      <lb ed="#Bb"/>quidquid est in nunc eternitatis, est
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>eternum, siestin nunc aeternitatis ut in
+      <lb ed="#Bb"/>mensura adequata sibi, et non sicut in
+      <lb ed="#Bb"/>mensura excellenti se. Et per eamdem
+      <lb ed="#Bb"/>rationem videtur dicendum, quod non
+      <lb ed="#Bb"/>est in nunc evi : sed est in nunc quod est
+      <lb ed="#Bb"/>principium temporis, a quo continue fluit
+      <lb ed="#Bb"/>tempus, et cujus fluxus facit tempus. Ab
+      <lb ed="#Bb"/>illo enim coequaeva sunt anyelica 
+      natu<lb ed="#Bb" break="no"/>ra, celum empyreum, materia prima
+      <lb ed="#Bb"/>corporalium, et tempus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

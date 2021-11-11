@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="793"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a48877"><!-- p1t19prae -->
+            <head xml:id="Almn78-a48877-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a48877-d1e109">
+               <pb ed="#Ba" n="793"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS XIX.
+<lb ed="#Ba"/>DE POTENTIA DEI.
+</p>
+            <p xml:id="Almn78-a48877-d1e120">
+               <lb ed="#Ba"/>Habitis his que de scientia Dei, et qualiter res suntin Deo, et e 
+con<lb ed="#Ba" break="no"/>verso qualiter Deus est- in rebus, querenda erant, tractanda sunt eade
+<lb ed="#Ba"/>quibus tractat Magister in libro primo Sententiarum, distinct. XLIL et
+<lb ed="#Ba"/>XLII, hoc est, de omnipotentia Dei.
+</p>
+            <p xml:id="Almn78-a48877-d1e131">
+               <lb ed="#Ba"/>Que, ut ordinatius inquirantur, in genere primo queremus duo : 
+quo<lb ed="#Ba" break="no"/>rum primum est de potentia Dei. Secundum, de possibili quod ad 
+poten<lb ed="#Ba" break="no"/>tiam Dei dependet.
+</p>
+            <p xml:id="Almn78-a48877-d1e140">
+               <lb ed="#Ba"/>De potentia queremus duo, scilicet de multiplicitate hujus nominis, 
+Po<lb ed="#Ba" break="no"/>tentia, ut habeatur sensus in quo Deo potentia conveniat. Secundum, de
+<lb ed="#Ba"/>conditionibus potentia, secundum quas perfecta dicitur in Deo esse 
+po<lb ed="#Ba" break="no"/>tentia.
+</p>
+            <p xml:id="Almn78-a48877-d1e152">
+               <lb ed="#Ba"/>De his autem querit Magister libro primo Sententiarum, distinct.
+<lb ed="#Ba"/>XLII, XLII et XLIV.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

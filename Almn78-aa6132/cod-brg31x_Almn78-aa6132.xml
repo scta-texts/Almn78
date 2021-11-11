@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="32"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa6132"><!-- p1t2q7 -->
+            <head xml:id="Almn78-aa6132-Hd1e106">Quaestio 7</head>
+            <head xml:id="Almn78-aa6132-Hd1e109" type="question-title">
+      De frui.
+    </head>
+            <p xml:id="Almn78-aa6132-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO VII.
+<lb ed="#Ba"/>De frui.
+</p>
+            <div xml:id="Almn78-aa6132-Dd1e121">
+               <head xml:id="Almn78-aa6132-Hd1e123">Membrum 1</head>
+               <head xml:id="Almn78-aa6132-Hd1e126" type="question-title">De frui</head>
+               <p xml:id="Almn78-aa6132-d1e129">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I. 
+<lb ed="#Ba"/>Quid sit frui genere, utrum scilicet actio, 
+<lb ed="#Ba"/>vel passio ? 
+</p>
+               <p xml:id="Almn78-aa6132-d1e140">
+                  <lb ed="#Ba" break="no"/>Quaeremus ergo primo, Quid sit fruit
+<lb ed="#Ba"/>genere, utrum actio, vel passio? 
+</p>
+               <p xml:id="Almn78-aa6132-d1e147">
+                  <lb ed="#Ba"/>Et videtur passio esse :
+<lb ed="#Ba"/>1. Frui enim delectabiliter, pasci est,
+<lb ed="#Ba"/>et intus refici, et quasi saginari : pasci
+<lb ed="#Ba"/>autem et refici et saginari, passiones sunt
+<lb ed="#Ba"/>et non actiones : ergo frui in genere
+<lb ed="#Ba"/>passionis est
+</p>
+               <p xml:id="Almn78-aa6132-d1e164">
+                  <lb ed="#Ba"/>2. Adhuc, Ratione delectationis intus
+<lb ed="#Ba"/>saginantis dicitur fruitio : delectatio au
+<lb ed="#Ba"/>tem omnis passio est : ergo fruitio
+<lb ed="#Ba"/>est passio 
+<pb ed="#Ba" n="33"/>
+                  <cb ed="#Ba" n="a"/>
+               </p>
+               <p xml:id="Almn78-aa6132-d1e180">
+                  <lb ed="#Ba"/>8. Adhuc. Fruitio est illatio in 
+fruen<lb ed="#Ba" break="no"/>lem, agente in eum fruibili passio
+<lb ed="#Ba"/>autem est effectus illatioque actionis, ut
+<lb ed="#Ba"/>in Sex principiis dicitur : ergo frui pati
+<lb ed="#Ba"/>est, et fruitio passio.
+</p>
+               <p xml:id="Almn78-aa6132-d1e193">
+                  <lb ed="#Ba"/>4, Adhuc, Fructuum sive fructibilium
+<lb ed="#Ba"/>est fruitionem facere : et ideo fructus 
+di<lb ed="#Ba" break="no"/>cuntur, quia delectant sancta et sincera
+<lb ed="#Ba"/>delectatione possessores suos. Non 
+au<lb ed="#Ba" break="no"/>tem faciunt nisi in fruente. Cum ergo
+<lb ed="#Ba"/>fruentis sit frui, frui erit pati et non
+<lb ed="#Ba"/>agere.
+</p>
+               <p xml:id="Almn78-aa6132-d1e211">
+                  <lb ed="#Ba"/>5. Adhuc, Ad Galat. v, 22, super 
+il<lb ed="#Ba" break="no"/>lud: Fructus autem Spiritus, dicit 
+Am<lb ed="#Ba" break="no"/>briosius in Glossa, quod <quote xml:id="Almn78-aa6132-Qd1e219"> virtutes /
+rau<lb ed="#Ba" break="no"/>clus dicuntur, quia delectant sancta et
+<lb ed="#Ba"/>sincera delectatione possessores suos. </quote>
+                  <lb ed="#Ba"/>Id autem quod delectat, delectationem
+<lb ed="#Ba"/>agit in eum qui delectatur. Et qui 
+dele<lb ed="#Ba" break="no"/>ctatur, facta in se delectatione delectatur,
+<lb ed="#Ba"/>et eo ipso fruitur: sic autem patitur :
+<lb ed="#Ba"/>Cum autem fruitio sit ejus qui 
+delecta<lb ed="#Ba" break="no"/>tur, fruitio passio est, et non actio, cum
+<lb ed="#Ba"/>delectatio actio delectantis sit in eum qui
+<lb ed="#Ba"/>delectatur.
+</p>
+               <p xml:id="Almn78-aa6132-d1e245">
+                  <lb ed="#Ba"/>6. Adhuce, Jacobi, v, 7: Ecce agricola
+<lb ed="#Ba"/>exspectat pretiosum fructum terre, 
+pa<lb ed="#Ba" break="no"/>tienter ferens donec accipiat 
+tempora<lb ed="#Ba" break="no"/>neum et serotinum. Videtur ex hoc elici,
+<lb ed="#Ba"/>quod fructus sit pastura in ultimo quod
+<lb ed="#Ba"/>intenditur per laborem. Ultimum ergo
+<lb ed="#Ba"/>dulce intentum agens est fruitionem : et
+<lb ed="#Ba"/>illius non est frui, sed potius fruentis eo
+<lb ed="#Ba"/>est frui : et cum in illo frui sit pati, frui
+<lb ed="#Ba"/>pati est, et fruitio passio.
+</p>
+               <p xml:id="Almn78-aa6132-d1e269">
+                  <lb ed="#Ba"/>Iv contrAnioM esse videtur, quod
+<lb ed="#Ba"/>1. Frui felicitas est, ut quidam dicunt:
+<lb ed="#Ba"/>felicitas autem operatio est et actio, ut
+<lb ed="#Ba"/>dicit Philosophus in I Ethicorum + ergo
+<lb ed="#Ba"/>frui operari est et agere.
+</p>
+               <p xml:id="Almn78-aa6132-d1e283">
+                  <lb ed="#Ba"/>2. Adhuc, Ultima perfectio 
+uniuscujus<lb ed="#Ba" break="no"/>que non potest esse passio, sed actio :
+<lb ed="#Ba"/>quia passio dispositio est imperfecti,
+<lb ed="#Ba"/>actio autem perfecti.Cum ergo frui 
+situl<lb ed="#Ba" break="no"/>timo perfecto et ultima perfectione, 
+vide<lb ed="#Ba" break="no"/>tur quod frui actio sit, et non passio.
+</p>
+               <p xml:id="Almn78-aa6132-d1e299">
+                  <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod 
+se<lb ed="#Ba" break="no"/>cundum substantiam et esse, frui pro cer
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>to passio est : sed est passio circa 
+opera<lb ed="#Ba" break="no"/>tionem sanctam. Cum enim intellectus
+<lb ed="#Ba"/>sive intellectualis natura sublimata per
+<lb ed="#Ba"/>gratiam et gloriam in ultimum finem 
+bo<lb ed="#Ba" break="no"/>nise extendit, ita quod immediate per
+<lb ed="#Ba"/>intellectum contingit primum et optimum
+<lb ed="#Ba"/>et dulcissimum, et in toto opere 
+inten<lb ed="#Ba" break="no"/>tum : tunc in intrinsecus sui sugens 
+il<lb ed="#Ba" break="no"/>lud, et intus se reficiens et saginans
+<lb ed="#Ba"/>fruitur : et sic fruitio est passio circa 
+ope<lb ed="#Ba" break="no"/>rationem intellectus : cum tamen 
+sub<lb ed="#Ba" break="no"/>stantia et esse fruitionis in ratione 
+passio<lb ed="#Ba" break="no"/>sionis consistat, et non actionis, nisi hoc
+<lb ed="#Ba"/>modo sicut circa quod est.
+</p>
+               <p xml:id="Almn78-aa6132-d1e338">
+                  <lb ed="#Ba"/>Et per hoc jam patet solutio ad 
+obje<lb ed="#Ba" break="no"/>cta.
+</p>
+               <p xml:id="Almn78-aa6132-d1e345">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod hoc
+<lb ed="#Ba"/>modo quo frui passio est, in primo 
+dele<lb ed="#Ba" break="no"/>ctabili passio est, circa operationem 
+ta<lb ed="#Ba" break="no"/>men intellectus : quia primum delectabile
+<lb ed="#Ba"/>per intellectum conjungitur,
+</p>
+               <p xml:id="Almn78-aa6132-d1e358">
+                  <lb ed="#Ba"/>SIMiiiTer ad secundum dicendum, quod’
+<lb ed="#Ba"/>ratione delectationis que passio est illata:
+<lb ed="#Ba"/>a delectabili, fruitio est passio, et frui
+<lb ed="#Ba"/>optime pati.
+</p>
+               <p xml:id="Almn78-aa6132-d1e369">
+                  <lb ed="#Ba"/>Similiter dicendum ad tertium : illatio
+<lb ed="#Ba"/>enim est agentis, et sic passio.
+</p>
+               <p xml:id="Almn78-aa6132-d1e377">
+                  <lb ed="#Ba"/>Ad quartum dicendum, quod fructuum
+<lb ed="#Ba"/>est facere passionem delectationis.: sed’
+<lb ed="#Ba"/>fructus dicitur hoc modo fruibile, quo quis
+<lb ed="#Ba"/>fruitur et ingerit delectationem.
+</p>
+               <p xml:id="Almn78-aa6132-d1e388">
+                  <lb ed="#Ba"/>Ad quintum dicendum, quod hoc modo
+<lb ed="#Ba"/>virtutes dicuntur sructus secundum 
+Am<lb ed="#Ba" break="no"/>brosium : quia talem ingerunt 
+delectatio<lb ed="#Ba" break="no"/>nem, qué passio est in fruente: sed hac
+<lb ed="#Ba"/>est fruitio quo, sive secundum quid, et
+<lb ed="#Ba"/>non simpliciter. Simpliciter enim frui
+<lb ed="#Ba"/>non contingit nisi simpliciter optimo,
+<lb ed="#Ba"/>quod solus Deus est.
+</p>
+               <p xml:id="Almn78-aa6132-d1e408">
+                  <lb ed="#Ba"/>Ad ultimum dicendum, quod per 
+au<lb ed="#Ba" break="no"/>ctoritatem Jacobi non potest haberi, nisi
+<lb ed="#Ba"/>quod fruitio est in ultimo bono et 
+dele<lb ed="#Ba" break="no"/>ctabili per omnes operationes intento: et
+<lb ed="#Ba"/>jam hoc concessum est.
+</p>
+               <p xml:id="Almn78-aa6132-d1e421">
+                  <lb ed="#Ba"/>Ad illud quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod felicitas secundum suum
+<lb ed="#Ba"/>nomen et rationem non est fruitio : 
+feli<lb ed="#Ba" break="no"/>citas enim sive sit activa, sive 
+contem<lb ed="#Ba" break="no"/>plativa, ab optima et optima virtutis quae
+<pb ed="#Ba" n="34"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>connaturalis et propria est, perficitur 
+ope<lb ed="#Ba" break="no"/>ratione et nominatur et definitur. 
+Frui<lb ed="#Ba" break="no"/>tio autem determinatur a passione que
+<lb ed="#Ba"/>est circa illam : et illa est talem 
+opera<lb ed="#Ba" break="no"/>tionem consequens, ut notat Philosophus
+<lb ed="#Ba"/>in X Ethicorum, ubi dicit, quod 
+delecta<lb ed="#Ba" break="no"/>tio que est ex contemplatione diametri,
+<lb ed="#Ba"/>quod est asimeter coste, non habet 
+con<lb ed="#Ba" break="no"/>trarium : non enim esset delectatio ex
+<lb ed="#Ba"/>tali intellectuali operatione, nisi esset ad
+<lb ed="#Ba"/>ipsam. Unde quando dicit Philosophus,
+<lb ed="#Ba"/>quod delectatio est operatio proprii et
+<lb ed="#Ba"/>connaturalis habitus non impedita, 
+defi<lb ed="#Ba" break="no"/>nitio data est per causam. Per intellectus
+<lb ed="#Ba"/>enim operationem intelligibile in luce
+<lb ed="#Ba"/>intelligentia secundum actionem factum,
+<lb ed="#Ba"/>summe conveniens est intellectui : quia
+<lb ed="#Ba"/>facit ipsum in forma optimi perfectivi
+<lb ed="#Ba"/>ipsius : et ideo tunc fruitur et delectatur :
+<lb ed="#Ba"/>quia dicit Dionysius, quod <quote xml:id="Almn78-aa6132-Qd1e481"> delectatio
+<lb ed="#Ba"/>est convenientis cum convenienti. </quote> Cum
+<lb ed="#Ba"/>enim recipit conveniens per intellectum,
+<lb ed="#Ba"/>undique dilatat se et diffundit, ut 
+undi<lb ed="#Ba" break="no"/>que in intimis recipiat : et ubicumque 
+re<lb ed="#Ba" break="no"/>cipit, floret in recepto, in hoc quod ad 
+si<lb ed="#Ba" break="no"/>militudinem recepti formatur. Et ideo 
+di<lb ed="#Ba" break="no"/>cit Michael Ephesius, quod <quote xml:id="Almn78-aa6132-Qd1e499"> delectatio
+<lb ed="#Ba"/>est dilatatio et diffusio et refloritio 
+natu<lb ed="#Ba" break="no"/>re super conveniens receptum, </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-aa6132-Dd1e508">
+               <head xml:id="Almn78-aa6132-Hd1e510">Membrum 2</head>
+               <head xml:id="Almn78-aa6132-Hd1e513" type="question-title">
+  Quid sit in specie frui
+</head>
+               <p xml:id="Almn78-aa6132-d1e516">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Quid sit in specie frui ?
+</p>
+               <p xml:id="Almn78-aa6132-d1e523">
+                  <lb ed="#Ba"/>Secundo queritur, Quid sit in specie
+<lb ed="#Ba"/>frui ?
+</p>
+               <p xml:id="Almn78-aa6132-d1e530">
+                  <lb ed="#Ba"/>1. Ex quo enim circa operationem est,
+<lb ed="#Ba"/>erit circa aliquam operationem. Et 
+vide<lb ed="#Ba" break="no"/>tur, quod sit circa operationem 
+intelle<lb ed="#Ba" break="no"/>clus.
+</p>
+               <p xml:id="Almn78-aa6132-d1e542">
+                  <lb ed="#Ba"/>Ex quo etiam optima passio est, erit
+<lb ed="#Ba"/>circa optimam et connaturalissimam
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>operationem : haec autem intellectualis
+<lb ed="#Ba"/>est : ergo fruitio passio est circa 
+intelle<lb ed="#Ba" break="no"/>ctualem operationem.
+</p>
+               <p xml:id="Almn78-aa6132-d1e558">
+                  <lb ed="#Ba"/>2. Adhuc, Dicit Augustinus, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-aa6132-Qd1e564"> visio est tota merces. </quote> Merces autem
+<lb ed="#Ba"/>consistit in fruitione. Ergo frui circa 
+vi<lb ed="#Ba" break="no"/>sionem est: et non circa sensibilem :
+<lb ed="#Ba"/>ergo circa intellectualem.
+</p>
+               <p xml:id="Almn78-aa6132-d1e575">
+                  <lb ed="#Ba"/>3. Adhuc, Hoc jam in prehabito 
+mem<lb ed="#Ba" break="no"/>bro probatum est.
+</p>
+               <p xml:id="Almn78-aa6132-d1e582">
+                  <lb ed="#Ba"/>In conTRARIUM:
+<lb ed="#Ba"/>1. Dicit Augustinus in libro X de 
+Tri<lb ed="#Ba" break="no"/>nitate: <quote xml:id="Almn78-aa6132-Qd1e590">Fruimur cognitis, in quibus
+<lb ed="#Ba"/>ipsis propter se voluntas delectata 
+con<lb ed="#Ba" break="no"/>quiescit, </quote> Ergo frui secundum 
+opera<lb ed="#Ba" break="no"/>tionem voluntatis est, et non intellectus
+<lb ed="#Ba"/>contemplativi, ut dictum est.
+</p>
+               <p xml:id="Almn78-aa6132-d1e603">
+                  <lb ed="#Ba"/>2. Adhuc, Frui dicit quietationem 
+ap<lb ed="#Ba" break="no"/>petitus et desiderii : non quietatur autem
+<lb ed="#Ba"/>appetitus nisi in optimo appetibili : 
+an<lb ed="#Ba" break="no"/>tequam enim sit in uno illo, semper 
+pro<lb ed="#Ba" break="no"/>cedit ab uno in alterum. Cum ergo 
+ulti<lb ed="#Ba" break="no"/>mum et optimum appetibile non sit 
+ob<lb ed="#Ba" break="no"/>jectum intellectus, sed voluntatis, videtur
+<lb ed="#Ba"/>quod frui circa operationem voluntatis
+<lb ed="#Ba"/>est, ef non intellectus.
+</p>
+               <p xml:id="Almn78-aa6132-d1e625">
+                  <lb ed="#Ba"/>Soxutio. Hoc solvere non est difficile :
+<lb ed="#Ba"/>voluntas enim in rationali natura 
+intel<lb ed="#Ba" break="no"/>lectui conjuncta est, sicut conjunctum est
+<lb ed="#Ba"/>id quod facit motum ei, quod nuntiat et
+<lb ed="#Ba"/>determinat ad quod movendum sit ei
+<lb ed="#Ba"/>quod movetur. Unde sicut in sensibili
+<lb ed="#Ba"/>natura apprehendens et estimans de 
+no<lb ed="#Ba" break="no"/>civo vel convenienti nuntiat et 
+determi<lb ed="#Ba" break="no"/>nat id ad quod movendum sit, vel a quo
+<lb ed="#Ba"/>fugiendum, et conjunctum sibi appetitum
+<lb ed="#Ba"/>movet ad illud, vel fugit ab eo, movetur
+<lb ed="#Ba"/>autem impetum faciendo in illud : ita
+<lb ed="#Ba"/>ex parte intellectualis nature intellectus
+<lb ed="#Ba"/>nuntiat, et voluntas impetum facit. Unde
+<lb ed="#Ba"/>Philosophus in Yopicis et in I] de 
+Ani<lb ed="#Ba" break="no"/>ma:<quote xml:id="Almn78-aa6132-Qd1e661">Inratione voluntas fit, in sensu
+<lb ed="#Ba"/>autem desiderium et animus. </quote> Et cum
+<lb ed="#Ba"/>intellectus non nuntiat sibi nisi per 
+intel<lb ed="#Ba" break="no"/>ligibile apprehensum, et per hoc nun
+<pb ed="#Ba" n="35"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tium fit voluntati, oportet quod 
+intelle<lb ed="#Ba" break="no"/>ctus et voluntas unum sint in radice.
+<lb ed="#Ba"/>nde frui prout passio est, voluntatis est:
+<lb ed="#Ba"/>prout autem consideratur in operatione
+<lb ed="#Ba"/>circa quam est, intellectus est: et non
+<lb ed="#Ba"/>nomen accipit et speciem a passione 
+vo<lb ed="#Ba" break="no"/>luntatis nisi prout relata est ad 
+operatio<lb ed="#Ba" break="no"/>nem intellectus : et ideo nomine unius
+<lb ed="#Ba"/>alicujus potentie non potest nominari :
+<lb ed="#Ba"/>non enim dicitur esse intellectus, vel 
+vo<lb ed="#Ba" break="no"/>luntatis : sicut nec scientia nomine 
+ali<lb ed="#Ba" break="no"/>cujus potenti nominatur : non enim 
+ra<lb ed="#Ba" break="no"/>lionis est simpliciter et absolute, sed est
+<lb ed="#Ba"/>rationis formate ex principiis. Et similiter
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>frui passio est voluntatis, sed.intellectus
+<lb ed="#Ba"/>operatione formate.
+</p>
+               <p xml:id="Almn78-aa6132-d1e714">
+                  <lb ed="#Ba"/>Et sic patet solutio qualiter supreme
+<lb ed="#Ba"/>et optime potentie est actus.
+</p>
+               <p xml:id="Almn78-aa6132-d1e721">
+                  <lb ed="#Ba"/>Ad secunpuM dicendum est, quod hoc
+<lb ed="#Ba"/>modo visio per intellectum tota merces
+<lb ed="#Ba"/>est : hoc enim intelligitur de visione que
+<lb ed="#Ba"/>conjunctam habet delectationem : et haec
+<lb ed="#Ba"/>est visio amati et habiti, que est 
+secun<lb ed="#Ba" break="no"/>dum aliquid in intellectu secundum 
+sub<lb ed="#Ba" break="no"/>stantiam ejus quo fruimur: secundum esse
+<lb ed="#Ba"/>tamen et formale fruitio in voluntate
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa6132-d1e743">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+               <p xml:id="Almn78-aa6132-d1e748">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>QUAESTIO INCIDENS.
+<lb ed="#Ba"/>Qua virtute fruitur qui fruitur, et qua potentia anime ?
+</p>
+               <p xml:id="Almn78-aa6132-d1e757">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Juxta hoc queritur, Que virlute sive
+<lb ed="#Ba"/>habitu fruitur qui fruitur ?
+</p>
+               <p xml:id="Almn78-aa6132-d1e766">
+                  <lb ed="#Ba"/>Et videtur,
+<lb ed="#Ba"/>1. Quod charitate : eo quod dicit 
+Au<lb ed="#Ba" break="no"/>vuslinus in libro [de Dectrina Christiana,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-aa6132-Qd1e776"> frui est amore alicui inherere rei
+<lb ed="#Ba"/>propter seipsam ‘. </quote> Quod autem amore
+<lb ed="#Ba"/>fil, actu charitatis fit. Videtur ergo, quod
+<lb ed="#Ba"/>qui fruitur, charitate fruatur.
+</p>
+               <p xml:id="Almn78-aa6132-d1e788">
+                  <lb ed="#Ba"/>2. Adhuc, Proprie loquendo frui est
+<lb ed="#Ba"/>palria, et non vie : delectabile enim non
+<lb ed="#Ba"/>impeditum conjungi non potest nisi per
+<lb ed="#Ba"/>modum patria : fides autem et spes non
+<lb ed="#Ba"/>manent in patria secundum speciem et
+<lb ed="#Ba"/>aclus suos: ergo secundum fidem et spem
+<lb ed="#Ba"/>Iruitio Heri non potest. Nec potest fieri 
+se<lb ed="#Ba" break="no"/>cundum aliquam cardinalem virtutem :
+<lb ed="#Ba"/>quia illa non movent in finem, sed in ea
+<lb ed="#Ba"/>qua sunt ad finem. Si ergo fit secundum
+<lb ed="#Ba"/>virtutem, relinquitur quod fiat secundum
+<lb ed="#Ba"/>charitatem.
+</p>
+               <p xml:id="Almn78-aa6132-d1e817">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>3. Adhuc, Videtur quod secundum
+<lb ed="#Ba"/>nullam specialiter fiat, sed secundum
+<lb ed="#Ba"/>totam beatitudinem : quia dicit 
+Augusti<lb ed="#Ba" break="no"/>nus, quod <quote xml:id="Almn78-aa6132-Qd1e830"> fruimur his rebus que nos
+<lb ed="#Ba"/>beatos faciunt : </quote> que autem nos beatos
+<lb ed="#Ba"/>faciunt, faciunt nos omni congregatione
+<lb ed="#Ba"/>bonorum perfectos, et ita potentes ad
+<lb ed="#Ba"/>fruendum. Cum ergo una virtute beati
+<lb ed="#Ba"/>non sumus, nulla una virtute videmur
+<lb ed="#Ba"/>frui, sed omni.
+</p>
+               <p xml:id="Almn78-aa6132-d1e846">
+                  <lb ed="#Ba"/>Solutio. Ad hac et hujusmodi solvere
+<lb ed="#Ba"/>non est difficile. Sicut enim in felicitate
+<lb ed="#Ba"/>est,quod quamvis felicitas sit in uno actu
+<lb ed="#Ba"/>perfectissime et optime et 
+connatura<lb ed="#Ba" break="no"/>lissime virtutis, tamen multa sunt 
+orga<lb ed="#Ba" break="no"/>nice ministrantia, ut potentatus, divitie,
+<lb ed="#Ba"/>sine quorum ministerio operatio expedita
+<lb ed="#Ba"/>non est: et quedam removentia 
+prohi<lb ed="#Ba" break="no"/>bens, ut optime fortunc : et quedam
+<lb ed="#Ba"/>decorantia felicitatem, ut nobilitas, et
+<pb ed="#Ba" n="36"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>pulcherrima species. Ita est in fruitione :
+<lb ed="#Ba"/>unde fruitio proprie secundum 
+inhesio<lb ed="#Ba" break="no"/>nem charitatis est: organice autem 
+de<lb ed="#Ba" break="no"/>serviunt comprehensio que deservit spei,
+<lb ed="#Ba"/>et aperta visio que succedit fidei. Visio
+<lb ed="#Ba"/>enim que per beatam delectationem 
+pa<lb ed="#Ba" break="no"/>scens est,visio est immediate amati et 
+ha<lb ed="#Ba" break="no"/>biti: nisi enim esset immediati, non 
+in<lb ed="#Ba" break="no"/>hereret,sed a medio ad extremum 
+trans<lb ed="#Ba" break="no"/>iret : et nisi esset habiti, adhuc ulterius
+<lb ed="#Ba"/>se extenderet ad habendum : et nisi esset
+<lb ed="#Ba"/>amati, non arderet,sedrefrigeraret. 
+Alia<lb ed="#Ba" break="no"/>rum autem virtutum cardinalium est 
+sic<lb ed="#Ba" break="no"/>ut disponentium ad perfectum, 
+secun<lb ed="#Ba" break="no"/>dum quod dicit Philosophus, quod <quote xml:id="Almn78-aa6132-Qd1e906"> 
+vir<lb ed="#Ba" break="no"/>tus est dispositio perfecti ad optimum. </quote>
+                  <lb ed="#Ba"/>Et sic alie virtutes operantur, sicut 
+re<lb ed="#Ba" break="no"/>moventes prohibens vel impediens, et ad
+<lb ed="#Ba"/>perfectissimum disponentes. Tamen ipsa
+<lb ed="#Ba"/>fruitio proprie amoris est, secundum quod
+<lb ed="#Ba"/>dicit Dionysius in libro de Divinis 
+nomi<lb ed="#Ba" break="no"/>nibus ex Terotheo sumens auctoritatem,
+<lb ed="#Ba"/>quod exstasim est faciens divinus amor,
+<lb ed="#Ba"/>non sinens ipsos amantes esse 
+sulipso<lb ed="#Ba" break="no"/>tum. Facit autem exstasim, quando 
+qua<lb ed="#Ba" break="no"/>si transponit amantem in amatum, ut 
+to<lb ed="#Ba" break="no"/>tus sitamati, et sine ipso nusquam et
+<lb ed="#Ba"/>numquam sit amatum in amante, ut 
+to<lb ed="#Ba" break="no"/>tum amantis sit ad nutum ab ipso 
+posses<lb ed="#Ba" break="no"/>sum. Et hoc Augustinus vocat 
+inhesio<lb ed="#Ba" break="no"/>nem: sic enim amans inheret amato
+<lb ed="#Ba"/>propter se.
+  
+<lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+               <p xml:id="Almn78-aa6132-d1e949">
+                  <lb ed="#Ba"/>Patet etiam ulterius solutio ad id quod
+<lb ed="#Ba"/>queri posset, Qua potentia anime 
+frui<lb ed="#Ba" break="no"/>tur qui fuitur 1? eo quod in libro de 
+Spi<lb ed="#Ba" break="no"/>ritu et anima dicitur, quod sensus 
+verte<lb ed="#Ba" break="no"/>tur in rationem, et ratio in intellectum,
+<lb ed="#Ba"/>et intellectus in intelligentiam.
+</p>
+               <p xml:id="Almn78-aa6132-d1e965">
+                  <lb ed="#Ba"/>Constat enim ex predictis, quod intel_
+<lb ed="#Ba"/>lectu affectivo fruitur qui fruitur. Ile
+<lb ed="#Ba"/>enim intellectus conjunctus est voluntati,
+<lb ed="#Ba"/>et objectum ejus proprium est primum
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>verum et bonum : et illud idem finis ejus
+<lb ed="#Ba"/>est in quo stat et cuiinheret. In 
+inferio<lb ed="#Ba" break="no"/>ribus autem potentiis non est nisi per 
+re<lb ed="#Ba" break="no"/>dundantiam a superioribus in ipsas, sicut
+<lb ed="#Ba"/>et beatitudo corporis secundum aliquos
+<lb ed="#Ba"/>redundantia est beatitudinis anime.
+Sic<lb ed="#Ba" break="no"/>ut enim in via superiores potentie ab
+<lb ed="#Ba"/>inferioribus accipiunt species 
+apprehen<lb ed="#Ba" break="no"/>sionum : ita e converso in patria 
+supe<lb ed="#Ba" break="no"/>riores refundunt in inferiores 
+delectatio<lb ed="#Ba" break="no"/>nes fruitionum. Et sicut in via id quod
+<lb ed="#Ba"/>accipit potentia superior ab inferiori, non
+<lb ed="#Ba"/>accipit secundum potestatem inferiorum,
+<lb ed="#Ba"/>sed secundum potestatem propriam : 
+un<lb ed="#Ba" break="no"/>de intellectus a sensibili accipit 
+intelle<lb ed="#Ba" break="no"/>ctualiter,et non sensibiliter : ita in patria
+<lb ed="#Ba"/>e converso inferiores a superiori accipiunt
+<lb ed="#Ba"/>secundum potestatem inferiorum, et non
+<lb ed="#Ba"/>superiorum. Et ideo delectatio fruitionis
+<lb ed="#Ba"/>que in superiori est intellectualiter, in 
+in<lb ed="#Ba" break="no"/>feriori efficitur sensibiliter. Quia sicut dicit
+<lb ed="#Ba"/>Philosophus in VI £thicorum, <quote xml:id="Almn78-aa6132-Qd1e1025"> omne
+<lb ed="#Ba"/>quod est in aliquo, est secundum 
+pote<lb ed="#Ba" break="no"/>statem ejus cui inest, et non secundum
+<lb ed="#Ba"/>potestatem ejus quod inest, sicut lumen
+<lb ed="#Ba"/>in pariele color efficitur et non lumen
+<lb ed="#Ba"/>propter parietis potestatem. </quote> Et hoc 
+in<lb ed="#Ba" break="no"/>tendit ille qui dixit, quod <quote xml:id="Almn78-aa6132-Qd1e1041"> sensus 
+verti<lb ed="#Ba" break="no"/>tur in rationem. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-aa6132-Dd1e1049">
+               <head xml:id="Almn78-aa6132-Hd1e1051">Membrum 3</head>
+               <head xml:id="Almn78-aa6132-Hd1e1054" type="question-title">
+  Quid sit frui diffinitione
+</head>
+               <p xml:id="Almn78-aa6132-d1e1057">
+                  <lb ed="#Ba"/>MEMBRUM III,
+<lb ed="#Ba"/>Quid sit frui diffinitione?
+</p>
+               <p xml:id="Almn78-aa6132-d1e1064">
+                  <lb ed="#Ba"/>Tertio queritur, Quid sit definitione
+<lb ed="#Ba"/>frui?
+</p>
+               <p xml:id="Almn78-aa6132-d1e1071">
+                  <lb ed="#Ba"/>1. Dicit autem Augustinus in libro
+<lb ed="#Ba"/>I de Doctrina Christiana quod <quote xml:id="Almn78-aa6132-Qd1e1077"> frui est
+<lb ed="#Ba"/>amore inherere alicui rei propter se. </quote>
+                  <lb ed="#Ba"/>Hoc autem valde multis videtur conve
+<pb ed="#Ba" n="37"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>nire. Sic enim, ut idem Augustinus dicit,
+<lb ed="#Ba"/>pecora cibis inherent propter se, et 
+fru<lb ed="#Ba" break="no"/>untur eis. Sic etiam peccator homo 
+mul<lb ed="#Ba" break="no"/>tis inheret propter se, scilicet in 
+quibus<lb ed="#Ba" break="no"/>cumque propter se delectatur, ad aliud
+<lb ed="#Ba"/>non referendo. Sic etiam homo in via
+<lb ed="#Ba"/>delectatione naturali multa diligit propter
+<lb ed="#Ba"/>se, sicut amicos, et virtutes, et 
+hujusmo<lb ed="#Ba" break="no"/>di: et propter hoc non dicitur malus,
+<lb ed="#Ba"/>sed bonus. Ex quibus omnibus sequitur,
+<lb ed="#Ba"/>quod frui tunc non erit proprium patrie,
+<lb ed="#Ba"/>sed etiam viae.
+</p>
+               <p xml:id="Almn78-aa6132-d1e1117">
+                  <lb ed="#Ba"/>2. Adhuc, ‘Aliter definit Augustinus
+<lb ed="#Ba"/>frui dicens, quod <quote xml:id="Almn78-aa6132-Qd1e1123"> frui est uti cum 
+gau<lb ed="#Ba" break="no"/>dio, non adhuc spei, sed jam rei!. </quote> Et
+<lb ed="#Ba"/>sic videtur, quod uti genus sit ad frui, et
+<lb ed="#Ba"/>utile ad fruibile : et si hoc est, male ex
+<lb ed="#Ba"/>opposito dividuntur.
+</p>
+               <p xml:id="Almn78-aa6132-d1e1136">
+                  <lb ed="#Ba"/>3. Adhuc, Aristotelis objectio est in
+<lb ed="#Ba"/>Topicis, quod cum unius rei unicum sit
+<lb ed="#Ba"/>esse quod indicatur definitione, 
+inconve<lb ed="#Ba" break="no"/>niens est unius rei esse plures 
+definitio<lb ed="#Ba" break="no"/>nes.
+</p>
+               <p xml:id="Almn78-aa6132-d1e1149">
+                  <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod frui
+<lb ed="#Ba"/>dicitur dupliciter, proprie scilicet et 
+sim<lb ed="#Ba" break="no"/>pliciter, et improprie et secundum quid.
+<lb ed="#Ba"/>Proprie dicitur frui et simpliciter, 
+quan<lb ed="#Ba" break="no"/>do aliquid inheret inhesione 
+delectatio<lb ed="#Ba" break="no"/>nis et dilectionis alicujus rei per se et non
+<lb ed="#Ba"/>secundum accidens, et non propter aliud,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>inhesione operationis non, impedite.
+<lb ed="#Ba"/>Quod non contingit nisi in fruitione 
+pa<lb ed="#Ba" break="no"/>triae : omnis enim alia inhesio vel per
+<lb ed="#Ba"/>accidens est, vel per aliud, vel in aliqua
+<lb ed="#Ba"/>parte impedita. De omnibus enim hoc
+<lb ed="#Ba"/>verum est quod dicitur, Proverb. xiv,
+<lb ed="#Ba"/>13°: Risus dolore miscebitur, et extrema
+<lb ed="#Ba"/>gaudi luctus occupat. Unde delectatio
+<lb ed="#Ba"/>qua pecora fruuntur cibis, et qua 
+pecca<lb ed="#Ba" break="no"/>tor fruitur delectabili, delectationes sunt
+<lb ed="#Ba"/>secundum quid et per accidens in hoc
+<lb ed="#Ba"/>quod inherent ei quod hic et nunc 
+dele<lb ed="#Ba" break="no"/>ctabile est et non simpliciter. Delectatio
+<lb ed="#Ba"/>autem ejus qui naturali delectatione 
+ali<lb ed="#Ba" break="no"/>cui inheret, delectatio impedita est, et
+<lb ed="#Ba"/>est delectatio secundum quid, et non
+<lb ed="#Ba"/>simpliciter sive perfecta. Frui autem dicit
+<lb ed="#Ba"/>delectationem perfectam et ultimam e¢
+<lb ed="#Ba"/>optimam.
+</p>
+               <p xml:id="Almn78-aa6132-d1e1210">
+                  <lb ed="#Ba"/>Et per Hoc jam patet solutio ad omnia
+<lb ed="#Ba"/>que quesita sunt. Non enim potest frui
+<lb ed="#Ba"/>nisi id quod dispositum et perfectum est
+<lb ed="#Ba"/>ad inhesionem pascentem perfectissimi
+<lb ed="#Ba"/>et optimi boni : hoc autem non est nisi
+<lb ed="#Ba"/>quod natura intellectualis est habitu 
+op<lb ed="#Ba" break="no"/>timo gratiae et gloria disposita ad 
+perfe<lb ed="#Ba" break="no"/>ctum et optimum. Sensibilis enim 
+dele<lb ed="#Ba" break="no"/>ctatio contrarium habet, naturalis autem
+<lb ed="#Ba"/>imperfectionem : et ea que est 
+peccato<lb ed="#Ba" break="no"/>ris, habet impedimentum in fruente.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

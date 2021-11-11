@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 137</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 137</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="458"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-g01762"><!-- p2t22q137 -->
+            <head xml:id="Almn78-g01762-Hd1e106">Quaestio 137</head>
+            <head xml:id="Almn78-g01762-Hd1e109" type="question-title">
+    An ex fine omnes actus pensari debeant utrum boni vel mali
+    dicantur
+  </head>
+            <p xml:id="Almn78-g01762-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXXXVII.
+<lb ed="#Bc"/>An ex fine omnes actus pensari debeant utrum boni vel mali
+<lb ed="#Bc"/>dicantur ?
+</p>
+            <p xml:id="Almn78-g01762-d1e121">
+               <lb ed="#Bc"/>Deinde transeundum est ad 
+quadra<lb ed="#Bc" break="no"/>gesimam distinctionem, que sic incipit :
+<lb ed="#Bc"/>Postea de actibus adjiciendum est'.
+</p>
+            <p xml:id="Almn78-g01762-d1e130">
+               <lb ed="#Bc"/>Et in ista distinctione sunt quatuor 
+ca<lb ed="#Bc" break="no"/>pitula secundum quatuor quastiones
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>que hic ponuntur sub duobus 
+mem<lb ed="#Bc" break="no"/>bris.
+</p>
+            <p xml:id="Almn78-g01762-d1e144">
+               <lb ed="#Bc"/>In primo capitulo queritur, Utrum
+<lb ed="#Bc"/>bona et mala actio differunt specie,
+<lb ed="#Bc"/>vel numero solo?
+<pb ed="#Bc" n="459"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>In secundo, Utrum opera hominis ex
+<lb ed="#Bc"/>effectu vel fine sint bona vel mala?
+<lb ed="#Bc"/>In tertio, Utrum omnes actus boni vel
+<lb ed="#Bc"/>mali sint ex intentione?
+<lb ed="#Bc"/>In quarto quedam objiciuntur contra
+<lb ed="#Bc"/>hoc et solvuntur.
+</p>
+            <div xml:id="Almn78-g01762-Dd1e170">
+               <head xml:id="Almn78-g01762-Hd1e172">Membrum 1</head>
+               <head xml:id="Almn78-g01762-Hd1e175" type="question-title">
+        Utrum bona et mala actio differant
+        specie, vel numero solo
+      </head>
+               <p xml:id="Almn78-g01762-d1e178">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum bona et mala actio differant
+<lb ed="#Bc"/>specie, vel numero solo?
+</p>
+               <p xml:id="Almn78-g01762-d1e187">
+                  <lb ed="#Bc"/>Ad primum sic objicitur logicis 
+ratio<lb ed="#Bc" break="no"/>nibus :
+</p>
+               <p xml:id="Almn78-g01762-d1e194">
+                  <lb ed="#Bc"/>Forma specifica non transmutatur 
+cir<lb ed="#Bc" break="no"/>ca subjectum, sed accidentalis 
+trans<lb ed="#Bc" break="no"/>mutatur : quia qui est homo, 
+sem<lb ed="#Bc" break="no"/>per est homo et non transmutatur a
+<lb ed="#Bc"/>specie humanitatis : accidens autem est
+<lb ed="#Bc"/>quod adest et abest preter subjecti 
+cor<lb ed="#Bc" break="no"/>ruptionem. Sed actio que est ad formam
+<lb ed="#Bc"/>virtutis determinata, et est forma 
+virtu<lb ed="#Bc" break="no"/>tis informata, numquam potest esse
+<lb ed="#Bc"/>informata forma vitil, nec e converso.
+<lb ed="#Bc"/>Ergo videtur, quod actio bona et mala
+<lb ed="#Bc"/>diflerant specifica differentia, et non
+<lb ed="#Bc"/>numero solum vel accidente : 
+differen<lb ed="#Bc" break="no"/>tia enim numero constituuntur per 
+ac<lb ed="#Bc" break="no"/>cidens convertibile, sicut dicunt Boetius
+<lb ed="#Bc"/>et Algazel in Logica sua.
+</p>
+               <p xml:id="Almn78-g01762-d1e232">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Quecumque uni et eadem in specie
+<lb ed="#Bc"/>adsunt et absunt, accidentia sunt, et
+<lb ed="#Bc"/>faciunt differentiam per accidens. Actio
+<lb ed="#Bc"/>voluntaria una est secundum speciem :
+<lb ed="#Bc"/>quia ‘aclio voluntatis sicut omnis actio
+<lb ed="#Bc"/>intelligentiae una est secundum speciem,
+<lb ed="#Bc"/>et omnis actio memorize, et aliquando
+<lb ed="#Bc"/>bona et aliquando mala : ergo bonum et
+<lb ed="#Bc"/>malum non faciunt in ea differentiam
+<lb ed="#Bc"/>specificam, sed numeri et accidentis.
+</p>
+               <p xml:id="Almn78-g01762-d1e258">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod bone et
+<lb ed="#Bc"/>male actiones et differunt specie, et
+<lb ed="#Bc"/>differunt proprio, et differunt accidente.
+<lb ed="#Bc"/>Specie differunt: quia diversis 
+habiti<lb ed="#Bc" break="no"/>bus eliciuntur ex potentia voluntatis,
+<lb ed="#Bc"/>quibus ad diversas species informantur.
+<lb ed="#Bc"/>Unde diversus specie est actus castitatis
+<lb ed="#Bc"/>et luxurie. Et similiter diversus specie
+<lb ed="#Bc"/>est actus misericordie et obdurationis,
+<lb ed="#Bc"/>qui claudit viscera in pauperem. 
+Diffe<lb ed="#Bc" break="no"/>runt etiam proprio : quia sicut dicit
+<lb ed="#Bc"/>Boeiius in Zopicis : <quote xml:id="Almn78-g01762-Qd1e288"> Omne!proprium
+<lb ed="#Bc"/>manat de substantialibus, et eadem
+<lb ed="#Bc"/>substantialia non possunt esse 
+consti<lb ed="#Bc" break="no"/>tuentia opus virtutis, et opus vitii. </quote>
+                  <lb ed="#Bc"/>Et propter hoc opus virtutis statim
+<lb ed="#Bc"/>efficitur honestorum et laudabilium 
+bo<lb ed="#Bc" break="no"/>norum : opus autem vitii inhonestorum
+<lb ed="#Bc"/>et vituperabilium, que proprietatibus
+<lb ed="#Bc"/>differunt. Differunt etiam accidente
+<lb ed="#Bc"/>quia penitus aliae sunt circumstantie
+<lb ed="#Bc"/>operis virtutis, et operis vitii. 
+Pro<lb ed="#Bc" break="no"/>pter hoc opus virtutis pulchrum, et
+<lb ed="#Bc"/>opus vitii feedum dicitur, que sunt 
+dif<lb ed="#Bc" break="no"/>ferentie {per accidens.
+</p>
+               <p xml:id="Almn78-g01762-d1e320">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod ideo
+<lb ed="#Bc"/>differunt specie, quia differunt forma
+<lb ed="#Bc"/>virtutis et vitii : que sunt specie 
+dilfe<lb ed="#Bc" break="no"/>rentes, sicut dictum est.
+</p>
+               <p xml:id="Almn78-g01762-d1e331">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod actio voluntaria non facit nisi 
+con<lb ed="#Bc" break="no"/>venientiam in genere : et sub illo genere
+<lb ed="#Bc"/>differunt specie actus virtutum, et actus
+<lb ed="#Bc"/>vitiorum et proprio et accidente.
+</p>
+            </div>
+            <div xml:id="Almn78-g01762-Dd1e345">
+               <head xml:id="Almn78-g01762-Hd1e347">Membrum 2</head>
+               <head xml:id="Almn78-g01762-Hd1e350" type="question-title">
+        Utrum opera hominis ex affectu vel fine
+        sint bona vel mala? et, Utrum 
+        omnes actus boni vel mali sint ex 
+        intentione
+      </head>
+               <p xml:id="Almn78-g01762-d1e353">
+                  <pb ed="#Bc" n="460"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum opera hominis ex affectu vel fine
+<lb ed="#Bc"/>sint bona vel mala? et, Utrum 
+om<lb ed="#Bc" break="no"/>nes actus boni vel mali sint ex 
+inten<lb ed="#Bc" break="no"/>tione?
+</p>
+               <p xml:id="Almn78-g01762-d1e371">
+                  <lb ed="#Bc"/>Secundo queritur, Utrum omnia 
+ope<lb ed="#Bc" break="no"/>ra hominis ex affectu vel fine sint bona
+<lb ed="#Bc"/>vel mala?
+</p>
+               <p xml:id="Almn78-g01762-d1e380">
+                  <lb ed="#Bc"/>Quam questionem Magister disputat
+<lb ed="#Bc"/>secundum diversas opiniones.
+</p>
+               <p xml:id="Almn78-g01762-d1e388">
+                  <lb ed="#Bc"/>1. Prima opinio est illorum qui 
+di<lb ed="#Bc" break="no"/>cunt, quod omnis actio voluntatis 
+indif<lb ed="#Bc" break="no"/>ferens est. Et ratio eorum talis est
+<lb ed="#Bc"/>Indifferens enim est quod potest bene et
+<lb ed="#Bc"/>male fieri: omnis actus voluntatis 
+pot<lb ed="#Bc" break="no"/>est et bene et male fieri: ergo 
+indiffe<lb ed="#Bc" break="no"/>rens est. Non ergo bonus vel malus nist
+<lb ed="#Bc"/>ex intentione et fine.
+</p>
+               <p xml:id="Almn78-g01762-d1e408">
+                  <lb ed="#Bc"/>2. Adhuc, Ambrosius in libro I 
+Off<lb ed="#Bc" break="no"/>ciorum : <quote xml:id="Almn78-g01762-Qd1e414"> Affectus tuus nomen tuo
+<lb ed="#Bc"/>operit imponit?</quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e420">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus super Psalmum
+<lb ed="#Bc"/>cl, qui est primum Benedic, dicit sic :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g01762-Qd1e428"> Bonum opus intentio facit, intentionem
+<lb ed="#Bc"/>fides dirigit. Non valde attendas quid
+<lb ed="#Bc"/>homo faciat, sed cum facit quid intendat. </quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e436">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus super 
+Joan<lb ed="#Bc" break="no"/>nem : <quote xml:id="Almn78-g01762-Qd1e442"> Quod quis invitus vel 
+necessi<lb ed="#Bc" break="no"/>tate facit, non bene facit : quia non bona
+<lb ed="#Bc"/>facit intentione. </quote> Ergo videtur, quod
+<lb ed="#Bc"/>intentio facit bonum opus.
+</p>
+               <p xml:id="Almn78-g01762-d1e452">
+                  <lb ed="#Bc"/>5. Adhuc, Augustlinus super illud
+<lb ed="#Bc"/>epist. I Joannis, 1v, 18 : Timor non est
+<lb ed="#Bc"/>in charitate, sic dicit: <quote xml:id="Almn78-g01762-Qd1e460"> Servilis timor
+<lb ed="#Bc"/>non est in charitate, in quo quamvis
+<lb ed="#Bc"/>credatur Deo, non tamen in Deum.
+<lb ed="#Bc"/>Nemo enim invilus bene facit, etiamsi
+<lb ed="#Bc"/>bonum est quod facit. </quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e472">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>6. Adhuc, Augustinus ad idem in libro
+<lb ed="#Bc"/>contra mendacium : <quote xml:id="Almn78-g01762-Qd1e480"> Omnes actus 
+se<lb ed="#Bc" break="no"/>cundum intentionem et causam 
+judi<lb ed="#Bc" break="no"/>candi sunt boni vel mali *. </quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e489">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in eodem: <quote xml:id="Almn78-g01762-Qd1e495"> Ea que
+<lb ed="#Bc"/>constat esse peccata, nullo bone cause
+<lb ed="#Bc"/>obtentu, nullo quasi bono fine, nulla
+<lb ed="#Bc"/>velut bona intentione facienda sunt. </quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e505">
+                  <lb ed="#Bc"/>2. Adhuc, Idem in eodem : <quote xml:id="Almn78-g01762-Qd1e509"> Justitia
+<lb ed="#Bc"/>merito punit eum, qui dicit se 
+subtra<lb ed="#Bc" break="no"/>xisse superflua diviti, ut preeberet 
+pau<lb ed="#Bc" break="no"/>peri. Et falsarium judicat, qui alienum
+<lb ed="#Bc"/>corrumpit testamentum, ut is esset heres
+<lb ed="#Bc"/>qui facturus inde fuerat eleemosynas
+<lb ed="#Bc"/>largas, non ille qui nullas, qui tamen in
+<lb ed="#Bc"/>testamento heres constitutus est. Et
+<lb ed="#Bc"/>condemnat etiam eum, qui adulterium
+<lb ed="#Bc"/>fecit, ut per illam cum qua fecit, 
+homi<lb ed="#Bc" break="no"/>nem a morte liberaret. </quote> Et objicit 
+Augu<lb ed="#Bc" break="no"/>stinus ibidem sic: <quote xml:id="Almn78-g01762-Qd1e535"> Sed dicet aliquis :
+<lb ed="#Bc"/>Ergo equandus esset fur quilibet ei fari
+<lb ed="#Bc"/>qui misericordiae voluntate furatur. </quote> Et
+<lb ed="#Bc"/>solvit statim sic subdens : <quote xml:id="Almn78-g01762-Qd1e545"> Sed quis
+<lb ed="#Bc"/>hoc dixerit ? Sed horum duorum non
+<lb ed="#Bc"/>ideo est quisquam bonus, quia pejor
+<lb ed="#Bc"/>unus. </quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e555">
+                  <lb ed="#Bc"/>Solutio. haec questio in prehabitis
+<lb ed="#Bc"/>disputata et determinata est : quia 
+que<lb ed="#Bc" break="no"/>dam mox nominata sunt mala, que per
+<lb ed="#Bc"/>rationem suam conjuncta sunt malo, et
+<lb ed="#Bc"/>non possunt bono fine fieri, quia in eis
+<lb ed="#Bc"/>semper est voluntas ad malum tendens :
+<lb ed="#Bc"/>licet stulte aliquando ratio agentis 
+pre<lb ed="#Bc" break="no"/>stituat sibi bonum finem: ipsum enim
+<lb ed="#Bc"/>opus finis est voluntatis, quod semper
+<lb ed="#Bc"/>malum est. Et ideo dicitur, Eccli. xxxiv,
+<lb ed="#Bc"/>24 : Qui offert sacrificium ex substantia
+<lb ed="#Bc"/>pauperum, quast qui victimat filium in
+<lb ed="#Bc"/>conspectu patris sui. Et hoc etiam dicit
+<lb ed="#Bc"/>Augustinus in libro contra mendacium,
+<lb ed="#Bc"/>ubi dicit omnes actus secundum 
+inten<lb ed="#Bc" break="no"/>tionem et causam esse judicandos bonos
+<lb ed="#Bc"/>vel malos. Et statim excipit : <quote xml:id="Almn78-g01762-Qd1e594"> Prater
+<pb ed="#Bc" n="461"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>quosdam qui ita mali sunt, ut numquam
+<lb ed="#Bc"/>possent esse boni, etsi bonam videantur
+<lb ed="#Bc"/>habere causam et intentionem. </quote> De
+<lb ed="#Bc"/>quibus dicit Philosophus, quod 
+conjun<lb ed="#Bc" break="no"/>cti sunt malo fine inseparabili : quia mox
+<lb ed="#Bc"/>nominata sunt mala. Ex omnibus his
+<lb ed="#Bc"/>colligitar, quod in bonis et 
+indifferen<lb ed="#Bc" break="no"/>tibus actibus intentio nomen operi 
+im<lb ed="#Bc" break="no"/>ponit, sed in actibus per se malis nullo
+<lb ed="#Bc"/>modo : quia intentione bona nullo modo
+<lb ed="#Bc"/>possunt fieri, ut dictum est.
+</p>
+               <p xml:id="Almn78-g01762-d1e625">
+                  <lb ed="#Bc"/>Dicendum ergo, quod actus voluntatis
+<lb ed="#Bc"/>secundum quod voluntas potest bene et
+<lb ed="#Bc"/>male fieri, sed postquam jam informatus
+<lb ed="#Bc"/>est forma vitii non potest bene fieri.
+</p>
+               <p xml:id="Almn78-g01762-d1e636">
+                  <lb ed="#Bc"/>Et sic patet solutio ad totum, scilicet
+<lb ed="#Bc"/>per duplicem intentionem, intendentis,
+<lb ed="#Bc"/>et operis. Intentione operis per se mala
+<lb ed="#Bc"/>numquam possunt fieri bene, licet stulla
+<lb ed="#Bc"/>intentione intendentis possint habere
+<lb ed="#Bc"/>figuram bone intentionis, ad quam 
+ta<lb ed="#Bc" break="no"/>men opus non potest ordinari.
+</p>
+               <p xml:id="Almn78-g01762-d1e654">
+                  <lb ed="#Bc"/>Et sic procedunt omnes auctoritates,
+<lb ed="#Bc"/>Ambrosii scilicet eb Augustini. Illa enim
+<lb ed="#Bc"/>intentio voluntas est cum fine operis
+<lb ed="#Bc"/>scilicet.
+</p>
+               <p xml:id="Almn78-g01762-d1e666">
+                  <lb ed="#Bc"/>Ex his patet etiam quod tertio et 
+quar<lb ed="#Bc" break="no"/>to quzrendum est.
+</p>
+               <p xml:id="Almn78-g01762-d1e673">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Ratione tamen horum querilur,
+<lb ed="#Bc"/>Utrum aliquis actus secundum theologos
+<lb ed="#Bc"/>sit indifferens ?
+</p>
+               <p xml:id="Almn78-g01762-d1e684">
+                  <lb ed="#Bc"/>Videtur enim, quod non : quia 
+indilfe<lb ed="#Bc" break="no"/>rens videtur esse oliosum, Otiosum 
+au<lb ed="#Bc" break="no"/>tem est, ut dicit Gregorius, quod caret
+<lb ed="#Bc"/>ratione juste necessitatis et pie utilitatis.
+<lb ed="#Bc"/>Et hoc condemnat Dominus, Matth. xu,
+<lb ed="#Bc"/>36: Omne verbum otiosum quod locutr
+<lb ed="#Bc"/>fuerint homines, reddent rationem de eo
+<lb ed="#Bc"/>in die judicii. Ergo otiosum condemnat
+<lb ed="#Bc"/>pro peccato : et sic nihil videtur esse 
+in<lb ed="#Bc" break="no"/>differens apud Theologos.
+</p>
+               <p xml:id="Almn78-g01762-d1e708">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod otiosum et
+<lb ed="#Bc"/>indifferens non sunt idem. Oliosum enim
+<lb ed="#Bc"/>redimit tempus inutiliter. Indifferens
+<lb ed="#Bc"/>autem equalem habet potentiam ad
+<lb ed="#Bc"/>bonum et ad malum. Et sic otiosum est
+<lb ed="#Bc"/>peccatum, indifferens vero non. 
+Ansel<lb ed="#Bc" break="no"/>mus super illud Matthei, v, 26: Non
+<lb ed="#Bc"/>exies inde, donec reddas novissimum
+<lb ed="#Bc"/>quadrantem : <quote xml:id="Almn78-g01762-Qd1e729"> Quid facies in illo die,
+<lb ed="#Bc"/>quando de toto tempore vite tue non
+<lb ed="#Bc"/>relinguitur momentum quod non 
+exiga<lb ed="#Bc" break="no"/>tur a te qualiter sit expensum ? </quote>
+               </p>
+               <p xml:id="Almn78-g01762-d1e739">
+                  <lb ed="#Bc"/>Et sic patet solutio hujus questionis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

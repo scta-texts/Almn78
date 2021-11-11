@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 28</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 28</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="303"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d67345"><!-- p2t7q28 -->
+            <head xml:id="Almn78-d67345-Hd1e106">Quaestio 28</head>
+            <head xml:id="Almn78-d67345-Hd1e109" type="question-title">
+      De tentatione daemonum.
+    </head>
+            <p xml:id="Almn78-d67345-d1e112">
+               <lb ed="#Bb"/>QUAESTIO XXVIII
+      <lb ed="#Bb"/>De tentatione daemonum.
+    </p>
+            <p xml:id="Almn78-d67345-d1e119">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Ratione enim hujus queritur de 
+      ten<lb ed="#Bb" break="no"/>tatione demonum.
+    </p>
+            <p xml:id="Almn78-d67345-d1e128">
+               <lb ed="#Bb"/>Et querunitur tria, scilicet quid sit 
+      ten<lb ed="#Bb" break="no"/>tatio ?
+      <lb ed="#Bb"/>Secundo, Quis sit tentator?
+      <lb ed="#Bb"/>Tertio, Qui sunt modi tentandi, et
+      <lb ed="#Bb"/>quot ?
+    </p>
+            <p xml:id="Almn78-d67345-d1e142">
+               <lb ed="#Bb"/>Quis autem sit progressus tentationis
+      <lb ed="#Bb"/>a serpente in sensualitatem, et a 
+      sen<lb ed="#Bb" break="no"/>sualitate in inferiorem partem rationis,
+      <lb ed="#Bb"/>et ab inferiori parte rationis in 
+      superio<lb ed="#Bb" break="no"/>rem, infra cum de casu Ade 
+      disputabi<lb ed="#Bb" break="no"/>tur, crit inguirendum.
+    </p>
+            <div xml:id="Almn78-d67345-Dd1e158">
+               <head xml:id="Almn78-d67345-Hd1e160">Membrum 1</head>
+               <head xml:id="Almn78-d67345-Hd1e163" type="question-title">
+        Quid sit tentatio
+      </head>
+               <p xml:id="Almn78-d67345-d1e166">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM 1.
+        <lb ed="#Bb"/>Quid sit tentatio?
+      </p>
+               <p xml:id="Almn78-d67345-d1e175">
+                  <lb ed="#Bb"/>Ad primum proceditur sic :
+        <lb ed="#Bb"/>Super illud Genesis, xxu, 1: Tentavit
+        <lb ed="#Bb"/>Deus Abraham, dicit Glossa sic: <quote xml:id="Almn78-d67345-Qd1e183"> Tentare
+          <lb ed="#Bb"/>pro eo quod est probare dicimus, unde
+          <lb ed="#Bb"/>scriptum est, Deuter. xur, 3: Tentat vos
+          <lb ed="#Bb"/>Dominus Deus vester, ut palam fiat
+          <pb ed="#Bb" n="304"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>utrum diligatis eum, an non. Vires
+          <lb ed="#Bb"/>enim dilectionis sue homo ignorat, nisi
+          <lb ed="#Bb"/>experimento cognoscat. </quote> Ex hoc 
+        acci<lb ed="#Bb" break="no"/>pitur, quod tentatio est probatio 
+        alicu<lb ed="#Bb" break="no"/>jus ad acceptationem experimenti.
+      </p>
+               <p xml:id="Almn78-d67345-d1e209">
+                  <lb ed="#Bb"/>Sed contra hoc videtur esse, quod
+        <lb ed="#Bb"/>1. Dicitur, Joan. 1, 25, quod 
+        Chri<lb ed="#Bb" break="no"/>sto opus non erat ut quis 
+        testimo<lb ed="#Bb" break="no"/>nium perhiberet de homine: ipse enim
+        <lb ed="#Bb"/>seiehat quid esset in homine. Cum 
+        er<lb ed="#Bb" break="no"/>go Deus cognoscat omnia que sunt in
+        <lb ed="#Bb"/>nobis, non oportet, quod utatur 
+        proba<lb ed="#Bb" break="no"/>tione ad acceptionem experimenti : 
+        con<lb ed="#Bb" break="no"/>stat autem, quod tentat Deus : 
+        tenta<lb ed="#Bb" break="no"/>vit enim Abrahain : ergo videtur quod
+        <lb ed="#Bb"/>tentatio non sit probatio ad acceptionem
+        <lb ed="#Bb"/>experimenti.
+      </p>
+               <p xml:id="Almn78-d67345-d1e239">
+                  <lb ed="#Bb"/>2. Si forte dicatur, quod intelligitur de
+        <lb ed="#Bb"/>tentatione que est a diabolo, et non a
+        <lb ed="#Bb"/>Deo. Contra : Illa que sunt in nobis,
+        <lb ed="#Bb"/>aut sunt naturalia, aut sunt voluntaria.
+        <lb ed="#Bb"/>Si sunt naturalia, illa cognoscit demon
+        <lb ed="#Bb"/>per habitus concreatos sibi et naturaliter,
+        <lb ed="#Bb"/>sicut cognoscit cetera sensibilia : ad illa
+        <lb ed="#Bb"/>ergo non oportet eum uli probatione
+        <lb ed="#Bb"/>experimenti. Si sunt voluntaria : aut
+        <lb ed="#Bb"/>manifestantur signo corporali, aut non.
+        <lb ed="#Bb"/>Si non manifestantur s‘gno corporali,
+        <lb ed="#Bb"/>nullo modo cognoscet ea, sicut in 
+        ante<lb ed="#Bb" break="no"/>habitis probatum est : et sic in vacuum
+        <lb ed="#Bb"/>uteretur probatione experimenti ad illa
+        <lb ed="#Bb"/>cognoscenda. Si autem manifestantur
+        <lb ed="#Bb"/>signo corporali : tanc cognuscit ea sicut
+        <lb ed="#Bb"/>et alia, sicut in antehabitis probatum
+        <lb ed="#Bb"/>est, et sic iterum non indiget probatione
+        <lb ed="#Bb"/>experimenti.
+      </p>
+               <p xml:id="Almn78-d67345-d1e283">
+                  <lb ed="#Bb"/>3. Adhuc, In philosophia, ut dicit
+        <lb ed="#Bb"/>Aristoteles in Topicis,tentator non accipit
+        <lb ed="#Bb"/>experimentum scienti, sed ignoranliz :
+        <lb ed="#Bb"/>videtur ergo, quod tentalio non sit 
+        pro<lb ed="#Bb" break="no"/>batio ad acceptionem experimenti ut
+        <lb ed="#Bb"/>sciat : et sic videtur, quod definitio que
+        <lb ed="#Bb"/>ponitur in Glossa, inutilis sit,
+      </p>
+               <p xml:id="Almn78-d67345-d1e301">
+                  <lb ed="#Bb"/>Solutio. Ad hoc per distinctionem
+        <lb ed="#Bb"/>solvendum est. Dicitur enim tenéatio
+        <lb ed="#Bb"/>sex modis : et in omnibus illis modis
+        <lb ed="#Bb"/>est in genere probationis, et ad unum
+        <lb ed="#Bb"/>finem in communi, qui est acceptio ex
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>perimenti. Et hoc attendens Glossa 
+        pre<lb ed="#Bb" break="no"/>inducta, dicit quod tentare pro eo quod
+        <lb ed="#Bb"/>est probare dicimus :-et quod homo
+        <lb ed="#Bb"/>vires sue dilectionis ignorat, nisi 
+        expe<lb ed="#Bb" break="no"/>rimento cognoscat.
+      </p>
+               <p xml:id="Almn78-d67345-d1e327">
+                  <lb ed="#Bb"/>Primo quidem modo dicitur ¢entatio
+        <lb ed="#Bb"/>in communi, probatio ad acceptionem
+        <lb ed="#Bb"/>experimenti scientie vel ignorantie : et
+        <lb ed="#Bb"/>sic dicit Aristoteles, quod tentator 
+        imita<lb ed="#Bb" break="no"/>tor est dialectici, et probat tentando 
+        cir<lb ed="#Bb" break="no"/>ca communia, quibus scitis non de
+        <lb ed="#Bb"/>necessitate scitur ars, sed quibus 
+        ignora<lb ed="#Bb" break="no"/>tis de necessitate ignoratur : et ille est
+        <lb ed="#Bb"/>tentator qui non accipit experimentum
+        <lb ed="#Bb"/>nisi ignorantia. Et est tentator qui tentat
+        <lb ed="#Bb"/>circa propria principia singulorum, ex
+        <lb ed="#Bb"/>quibus de necessitate sequitur conclusio
+        <lb ed="#Bb"/>et scientia, que est effectus et habitus
+        <lb ed="#Bb"/>conclusionis : et hac tentatio accipit
+        <lb ed="#Bb"/>experimentum scientie et ignorantie :
+        <lb ed="#Bb"/>propria enim sunt quibus scitis de 
+        neces<lb ed="#Bb" break="no"/>sitate scitur ars, et quibus ignoratis de
+        <lb ed="#Bb"/>necessitate ignoratur.
+      </p>
+               <p xml:id="Almn78-d67345-d1e369">
+                  <lb ed="#Bb"/>Secundo modo dicitur ¢entatio, 
+        pro<lb ed="#Bb" break="no"/>batio ad experimentum electionis et
+        <lb ed="#Bb"/>inclinationis voluntatis ad id quod 
+        in<lb ed="#Bb" break="no"/>tendit tentator : et sic dicitur tentare
+        <lb ed="#Bb"/>homo hominem, quia nititur inclinare
+        <lb ed="#Bb"/>eum ad voluntatem suam, et Angelus
+        <lb ed="#Bb"/>bonus hominem eodem modo, et 
+        Ange<lb ed="#Bb" break="no"/>lus malus hominem. Et sic dicit 
+        Magi<lb ed="#Bb" break="no"/>ster Hugo de tentatione diaboli, quod
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e392">tentatio est impulsus ad illicitum : </quote>
+                  <lb ed="#Bb"/>tentatio autem Angeli boni vel hominis
+        <lb ed="#Bb"/>boni ad illud quod licitum est, impellit,
+        <lb ed="#Bb"/>et est persuasiva ibi inclinatio voluntatis
+        <lb ed="#Bb"/>sive inductio ad id quod intendit 
+        persua<lb ed="#Bb" break="no"/>dens Angelus vel homo.
+      </p>
+               <p xml:id="Almn78-d67345-d1e407">
+                  <lb ed="#Bb"/>Tertio modo dicitur éentatio, probatio
+        <lb ed="#Bb"/>per difficilia ad acceptionem experimenti
+        <lb ed="#Bb"/>dilectionis vel fidelitatis : et hoc modo
+        <lb ed="#Bb"/>dicitur, Eccli, vt,7 : Si possides amicum,
+        <lb ed="#Bb"/>in tentatione posside illum, et ne facile
+        <lb ed="#Bb"/>eredas et.
+      </p>
+               <p xml:id="Almn78-d67345-d1e424">
+                  <lb ed="#Bb"/>Quarto modo dicitur ¢entatio, probatio
+        <lb ed="#Bb"/>per difficilia ad acceptionem 
+        experimen<lb ed="#Bb" break="no"/>ti, quod de viribus dilectionis et fideli- .
+        <lb ed="#Bb"/>tatis non ipse tentator et probator 
+        acci<lb ed="#Bb" break="no"/>piat, sed tentatus et probatus, ut se
+        <pb ed="#Bb" n="305"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>scilicet et vires suas cognoscens plus de
+        <lb ed="#Bb"/>Deo presumat. Et sic accipitur illud
+        <lb ed="#Bb"/>Sapientie, 1, 5 : Deus tentavil eos, et
+        <lb ed="#Bb"/>invenit illos dignos se, hoc est, invenire
+        <lb ed="#Bb"/>se fecit per experimentum. Et illud
+        <lb ed="#Bb"/>Tobie, xu, 13: Quia acceptus eras Deo,
+        <lb ed="#Bb"/>necesse fuit ut tentatio probaret te, hoc
+        <lb ed="#Bb"/>est, probatum te tibi ostenderet. Et
+        <lb ed="#Bb"/>illud Deuteronomii, xm, 3 Tentat
+        <lb ed="#Bb"/>vos Dominus Deus vester, ut palam frat,
+        <lb ed="#Bb"/>hoc est, ut scire vos faciat utrum 
+        diliga<lb ed="#Bb" break="no"/>tis eum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e468">
+                  <lb ed="#Bb"/>Quinto modo dicitur ¢entatio, probatio
+        <lb ed="#Bb"/>per exercitium operum, ut accipiatur
+        <lb ed="#Bb"/>experimentum potestatis sive facultatis
+        <lb ed="#Bb"/>in opere. Et sic tentatur manus, utrum
+        <lb ed="#Bb"/>sit potens ad tenendum : et securis, utrum
+        <lb ed="#Bb"/>sit potens ad incidendum : et jumentum,
+        <lb ed="#Bb"/>utrum potens sit ad laborandum. Lue.
+        <lb ed="#Bb"/>xiv, 19: Juga boum emi quinque, et eo
+        <lb ed="#Bb"/>probare illa. Et sic etiam tentat se homo
+        <lb ed="#Bb"/>in virtute quante potestatis sit, cum
+        <lb ed="#Bb"/>exercet se ad opera virtutum. Et sic 
+        ac<lb ed="#Bb" break="no"/>cipitur, Daniel. 1, 13, ubi Daniel dixit
+        <lb ed="#Bb"/>ad eunuchum : Jenta nos, obsecro,servos
+        <lb ed="#Bb"/>tuos diebus decem, ef dentur nobis 
+        legu<lb ed="#Bb" break="no"/>mina :... ef sicut videris, facies cum 
+        ser<lb ed="#Bb" break="no"/>vis tuis. Et sic etiam accipitur illud 
+        Ec<lb ed="#Bb" break="no"/>clesiastici, xxxiv, 11: Que tentatus non
+        <lb ed="#Bb"/>est, qualia scit? hoc est, qui virium
+        <lb ed="#Bb"/>suarum experimentum non accepit, qua~
+        <lb ed="#Bb"/>lia potest scire de seipso ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e514">
+                  <lb ed="#Bb"/>Sexto modo dicitur fentatio 
+        strictis<lb ed="#Bb" break="no"/>sime, actus demonis, observatio diaboli,
+        <lb ed="#Bb"/>et insidiatio et circumvolatio, quia tota
+        <lb ed="#Bb"/>die continue instat ad hominis 
+        decep<lb ed="#Bb" break="no"/>tionem. Et sic accipitur, I Petr. v, 8 et
+        <lb ed="#Bb"/>9 : Adversarius vester diabolus 
+        tam<lb ed="#Bb" break="no"/>quam leo rugiens circuit, querens quem
+        <lb ed="#Bb"/>devoret : cui resistite fortes in fide.
+        <lb ed="#Bb"/>Luce, xxn, 3f et 32, dixit Dominus
+        <lb ed="#Bb"/>Simoni Petro : Simon, Simon, ecce 
+        Sa<lb ed="#Bb" break="no"/>tanas expetivit vos ut ecribraret sicut
+        <lb ed="#Bb"/>triticum : ego autem rogavi pro te, ut
+        <lb ed="#Bb"/>non deficiat fides tua : et tu aliquando
+        <lb ed="#Bb"/>conversus, confirma fratres tuos. Unde
+        <lb ed="#Bb"/>Chrysostomus in homilia 22 super 
+        Joan<lb ed="#Bb" break="no"/>nem, sic dicit : <quote xml:id="Almn78-d67345-Qd1e550"> Plurimum nos diabolus
+          <lb ed="#Bb"/>urget, plurimum nostre insidiatur saluti.
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Invigilandum est igitur, et contra illius
+          <lb ed="#Bb"/>impetum unumquemque se ommi ex
+          <lb ed="#Bb"/>parte premunire oportet : nam vel 
+          mi<lb ed="#Bb" break="no"/>nimo aditu viam sibi quam latissimam
+          <lb ed="#Bb"/>patefacit, paulatim vires accipit. Quod
+          <lb ed="#Bb"/>si qua nobis salutis nostre cura est, ne
+          <lb ed="#Bb"/>minima quidem in re eum nobis 
+          preva<lb ed="#Bb" break="no"/>lere permiltamus, ne mox in majoribus
+          <lb ed="#Bb"/>prevaleat. Summe namque amentie
+          <lb ed="#Bb"/>est, ut cum ille tantopere animarum
+          <lb ed="#Bb"/>nostrarum perditioni invigilet, nos 
+          con<lb ed="#Bb" break="no"/>tra pro nostra ipsorum salute non 
+          eam<lb ed="#Bb" break="no"/>dem adhibeamus diligentiam. </quote> Et hoc
+        <lb ed="#Bb"/>solo modo querimus hic de 
+        tenta<lb ed="#Bb" break="no"/>tione.
+      </p>
+               <p xml:id="Almn78-d67345-d1e591">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod Deus
+        <lb ed="#Bb"/>non tentat ut ipse experimentum 
+        acci<lb ed="#Bb" break="no"/>piat, sed ut tentatus sue virtutis 
+        expe<lb ed="#Bb" break="no"/>rimentum accipiat, et cognoscat quid de
+        <lb ed="#Bb"/>Deo presumere valeat. Dicit enim 
+        Gre<lb ed="#Bb" break="no"/>gorius, quod <quote xml:id="Almn78-d67345-Qd1e606"> tanto alliori spe quis in
+          <lb ed="#Bb"/>Deum resurgit, quanto plus et fortiora
+          <lb ed="#Bb"/>pro nomine .ipsius pertulerit. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e614">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod ea que
+        <lb ed="#Bb"/>sunt in nobis voluntaria, non cognoscit
+        <lb ed="#Bb"/>demon antequam fiant : et ideo 
+        pcersua<lb ed="#Bb" break="no"/>siva et inclinativa tentatione utitur ad
+        <lb ed="#Bb"/>experiendum, utrum voluntas nostra
+        <lb ed="#Bb"/>inclinetur ad eligendum id quod vult :
+        <lb ed="#Bb"/>et hoc expresse dicit Gregorius super
+        <lb ed="#Bb"/>ilud Job, xvin, 10 : Adseondita est in
+        <lb ed="#Bb"/>terra pedica egus, et decipula illius
+        <lb ed="#Bb"/>super semitam : dicens, quod <quote xml:id="Almn78-d67345-Qd1e637"> semita
+          <lb ed="#Bb"/>cordis inclinatio cordis est, super quam
+          <lb ed="#Bb"/>diabolus abscondit decipulam 
+          tentatio<lb ed="#Bb" break="no"/>nis. ut facilius decipiat. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e647">
+                  <lb ed="#Bb"/>Ad ultimum jam patet solutio : hoc
+        <lb ed="#Bb"/>enim intelligitur de tentatore qui est
+        <lb ed="#Bb"/>tentator dialectici, et tentat circa 
+        com<lb ed="#Bb" break="no"/>munia : et de tali tentatione non 
+        loqui<lb ed="#Bb" break="no"/>mur hic.
+      </p>
+            </div>
+            <div xml:id="Almn78-d67345-Dd1e661">
+               <head xml:id="Almn78-d67345-Hd1e663">Membrum 2</head>
+               <head xml:id="Almn78-d67345-Hd1e666" type="question-title">
+        Quis sit tentator
+      </head>
+               <p xml:id="Almn78-d67345-d1e669">
+                  <pb ed="#Bb" n="306"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Quis sit tentator?
+      </p>
+               <p xml:id="Almn78-d67345-d1e680">
+                  <lb ed="#Bb"/>Secundo queritur, Quis sit tentator ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e685">
+                  <lb ed="#Bb"/>Et videtur, quod solus diabolus.
+        <lb ed="#Bb"/>1. I ad Thessal. 1m, 5, super illud :
+        <lb ed="#Bb"/>Ne forte tentaverté vos is qui tential:
+        <lb ed="#Bb"/>Glossa, <quote xml:id="Almn78-d67345-Qd1e695"> Diabolus, cujus officium est
+          <lb ed="#Bb"/>tentare. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e702">
+                  <lb ed="#Bb"/>2. Adhuc, Hieronymus in libro III
+        <lb ed="#Bb"/>super Jeremiam, dicit sic : <quote xml:id="Almn78-d67345-Qd1e708"> Quidquid
+          <lb ed="#Bb"/>peccamus, quidquid die et nocte facimus
+          <lb ed="#Bb"/>et malorum operum perpetramus : 
+          im<lb ed="#Bb" break="no"/>perium est demonum, qui numquam
+          <lb ed="#Bb"/>nobis dant requiem, el semper impellunt
+          <lb ed="#Bb"/>delictis augere delicta, et cumulum facere
+          <lb ed="#Bb"/>peccatorum .</quote> Cum ergo omnis 
+        ten<lb ed="#Bb" break="no"/>tatio propulsatio est ad illicitum, sive ad
+        <lb ed="#Bb"/>peccatum, videtur quod non sit tentator
+        <lb ed="#Bb"/>nisi demon.
+      </p>
+               <p xml:id="Almn78-d67345-d1e732">
+                  <lb ed="#Bb"/>3. Ad idem faciunt auctoritates in
+        <lb ed="#Bb"/>precedenti articulo adduct de 
+        Chryso<lb ed="#Bb" break="no"/>stomo, et I Petr. v, 8 et 9, et Luc. xxn,
+        <lb ed="#Bb"/>31. In quibus -omnibus expresse dicitur,
+        <lb ed="#Bb"/>quod Satan sive diabolus est, qui tentat.
+      </p>
+               <p xml:id="Almn78-d67345-d1e745">
+                  <lb ed="#Bb"/>4, Adhuc, Job, 1, 12 et 11, 6, expresse
+        <lb ed="#Bb"/>habetur, quod Dominus licentiam dedit
+        <lb ed="#Bb"/>Satan ad tentandum Job. Cum ergo non
+        <lb ed="#Bb"/>sit tentator, nisi cui Deus dat licentiam
+        <lb ed="#Bb"/>tentandi, videtur quod diabolus solus sit
+        <lb ed="#Bb"/>tentator.
+      </p>
+               <p xml:id="Almn78-d67345-d1e761">
+                  <lb ed="#Bb"/>5. Adhuc, Matth. 1v, 3: Accedens 
+        ten<lb ed="#Bb" break="no"/>tator, dixit ei. Nomen tentatoris non
+        <lb ed="#Bb"/>convenit, nisi ei cujus officium est 
+        ten<lb ed="#Bb" break="no"/>tare : sed, sicut dicit Glossa 
+        priusindu<lb ed="#Bb" break="no"/>cta, solius diaboli est officitum tentare :
+        <lb ed="#Bb"/>ergo solus diabolus est tentator.
+      </p>
+               <p xml:id="Almn78-d67345-d1e777">
+                  <lb ed="#Bb"/>6. Adhuc, Aut ille tentator est, qui
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>licentiam dat tentandi, aut qui exercet
+        <lb ed="#Bb"/>actum tentationis : sed non est tentator
+        <lb ed="#Bb"/>qui dat licentiam, Deus scilicet. Jacobi,
+        <lb ed="#Bb"/>1, 13: Nemo cum tentatur, dicat 
+        quo<lb ed="#Bb" break="no"/>niam a Deo tentatur : Deus enim 
+        inten<lb ed="#Bb" break="no"/>tator malorum est, ipse enim neminem
+        <lb ed="#Bb"/>tentat. Ergo relinquitur per locum a
+        <lb ed="#Bb"/>divisione, quod solus diabolus tentator
+        <lb ed="#Bb"/>sit, quia ille exercet actum tentationis,
+      </p>
+               <p xml:id="Almn78-d67345-d1e803">
+                  <lb ed="#Bb"/>SED CONTRA :
+        <lb ed="#Bb"/>1. Jacobi, 1, 14, dicilur : Unusquisque
+        <lb ed="#Bb"/>tentatur aconcupiscentia sua, abstractus
+        <lb ed="#Bb"/>et illectus.
+      </p>
+               <p xml:id="Almn78-d67345-d1e815">
+                  <lb ed="#Bb"/>2. Adhuc, Dicitur, quod mundus,
+        <lb ed="#Bb"/>caro, demonia tentant. I Joan. 1, 16;
+        <lb ed="#Bb"/>Omne qued est in mundo, 
+        concupiscen<lb ed="#Bb" break="no"/>tia carnis est, et concupiscentia 
+        oculo<lb ed="#Bb" break="no"/>rum, et superbia vite. Ergo non videtur
+        <lb ed="#Bb"/>unus solus esse tenlator, sed tres.
+      </p>
+               <p xml:id="Almn78-d67345-d1e831">
+                  <lb ed="#Bb"/>Juxta hoc queritur, Utrum Deus 
+        in<lb ed="#Bb" break="no"/>ducat aliquam tentationem ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e838">
+                  <lb ed="#Bb"/>Et videtur, quod sic.
+        <lb ed="#Bb"/>Matth. vi, 13 : Et ne nos inducas in
+        <lb ed="#Bb"/>tentationem : hoc enim frustra a Deo
+        <lb ed="#Bb"/>peteretur, si nullus a Deo in 
+        tentatio<lb ed="#Bb" break="no"/>nei induceretur.
+      </p>
+               <p xml:id="Almn78-d67345-d1e851">
+                  <lb ed="#Bb"/>SED CONTRA :
+        <lb ed="#Bb"/>1. Glossa ibidem: <quote xml:id="Almn78-d67345-Qd1e857"> In tentationem
+          <lb ed="#Bb"/>induci, est tentatione frangi, et tenta~
+          <lb ed="#Bb"/>tione superari ; et hoc non facit Deus,
+          <lb ed="#Bb"/>sed potius diabolus vel concupiscentia :</quote>
+                  <lb ed="#Bb"/>ergo videtur, quod Deus non inducat in
+        <lb ed="#Bb"/>tentalionem.
+      </p>
+               <p xml:id="Almn78-d67345-d1e871">
+                  <lb ed="#Bb"/>2. Adhuc, Tad Corinth. x, 13: Fidelis
+        <lb ed="#Bb"/>Deus est, qui non patietur vos tentari
+        <lb ed="#Bb"/>supra id quod potestis : sed faciet etiam
+        <lb ed="#Bb"/>cum tentatione proventum, ut possitis
+        <lb ed="#Bb"/>sustinere. Ergo videltur, quod Dei est
+        <lb ed="#Bb"/>adjuvare contra inductionem in 
+        tenta<lb ed="#Bb" break="no"/>tionem : non ergo inducit aliquem in
+        <lb ed="#Bb"/>tentationem.
+      </p>
+               <p xml:id="Almn78-d67345-d1e891">
+                  <lb ed="#Bb"/>Uxrtenivs queritur de hoc quod in libro
+        <pb ed="#Bb" n="307"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>II Sententiarum, distinct. VI, cap. 
+        ulti<lb ed="#Bb" break="no"/>mo, dicit Origenes sic : <quote xml:id="Almn78-d67345-Qd1e904"> Puto sane,
+          <lb ed="#Bb"/>quia Sancti repugnantes adversus istos
+          <lb ed="#Bb"/>incentores, et vincentes, minuant 
+          exer<lb ed="#Bb" break="no"/>citum demonum, vel ut quam plurimos
+          <lb ed="#Bb"/>eorum interimant: ne ultra fas sit illi
+          <lb ed="#Bb"/>spiritui, qui ab aliquo sancto caste et
+          <lb ed="#Bb"/>pudice vivendo victus est, impugnare
+          <lb ed="#Bb"/>ilerum alium hominem. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e924">
+                  <lb ed="#Bb"/>Hoc enim non videtur esse verum:
+        <lb ed="#Bb"/>quia
+      </p>
+               <p xml:id="Almn78-d67345-d1e931">
+                  <lb ed="#Bb"/>1. Deus providentia sua tentaliones
+        <lb ed="#Bb"/>ordinavit, et fieri permittit ad exercitium
+        <lb ed="#Bb"/>virtutis fidelium : sed in naluris tantus
+        <lb ed="#Bb"/>est ordo, ut in HI de Anima dicit 
+        Aristo<lb ed="#Bb" break="no"/>teles, quod <quote xml:id="Almn78-d67345-Qd1e944"> natura nec indiget 
+          neces<lb ed="#Bb" break="no"/>sariis, nec abundat superfluis. </quote> In ope-~
+        <lb ed="#Bb"/>ribus autem Dei major ordo est. Ergo in
+        <lb ed="#Bb"/>operibus providentiea divine non est
+        <lb ed="#Bb"/>abundantia superflui : superflaum autem
+        <lb ed="#Bb"/>est facere per plures, quod fieri potest
+        <lb ed="#Bb"/>per unum : sed idem demon qui victus
+        <lb ed="#Bb"/>est ab uno, adhue potest tentare alios :
+        <lb ed="#Bb"/>ergo superfluum est illum removere a 
+        pu<lb ed="#Bb" break="no"/>gna, et alteri licentiam dare impugnandi.
+      </p>
+               <p xml:id="Almn78-d67345-d1e967">
+                  <lb ed="#Bb"/>2. Sed contra hoc iterum videtur esse
+        <lb ed="#Bb"/>ibi, quod secundum moderamen Justitia,
+        <lb ed="#Bb"/>equale debet esse pondus belli inter im~
+        <lb ed="#Bb"/>pugnantes et impugnatos : sed homines
+        <lb ed="#Bb"/>impugnali, per mortem continue 
+        dimi<lb ed="#Bb" break="no"/>auuntur: si ergo exercitus demonum
+        <lb ed="#Bb"/>yon diminueretur per victoriam 
+        homi<lb ed="#Bb" break="no"/>yum, inequale esset pondus belli inter
+        <lb ed="#Bb"/>demones et homines : per victoriam
+        <lb ed="#Bb"/>enim qua vincuntur, diminuuntur.
+      </p>
+               <p xml:id="Almn78-d67345-d1e991">
+                  <lb ed="#Bb"/>Sorutro. Dicendum ad primo 
+        quesi<lb ed="#Bb" break="no"/>tum, quod diabolus proprie loquendo
+        <lb ed="#Bb"/>tentator est triplici ralione.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1000">
+                  <lb ed="#Bb"/>Prima est, quia invidie proprium est
+        <lb ed="#Bb"/>impugnare bonos: et dicitur, Sapient.
+        <lb ed="#Bb"/>u, 24: Invidia diaboli mors introwwit in
+        <lb ed="#Bb"/>orbem terrarum, hoc est, peccatum,
+        <lb ed="#Bb"/>quod est mors anime. Unde sicut 
+        su<lb ed="#Bb" break="no"/>perbia erexit se contra Deum, ita sicut
+        <lb ed="#Bb"/>dicit Augustinus in libro de Sancta 
+        vir<lb ed="#Bb" break="no"/>ginitate, invidia que pedissequa est su
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>perbiae, impugnavit et{tentavit hominem,
+        <lb ed="#Bb"/>ne ad beatitudinem ascenderet, unde ipse
+        <lb ed="#Bb"/>exciderat.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1029">
+                  <lb ed="#Bb"/>Secunda ratio est, quia obstinatus est
+        <lb ed="#Bb"/>in malo, sicut bonus Angelus 
+        confir<lb ed="#Bb" break="no"/>matus est in bono. Unde in libro II 
+        Sen<lb ed="#Bb" break="no"/>tentiarum, distinct. VII, cap. Supra 
+        di<lb ed="#Bb" break="no"/>clum est, dicit Magister sic: <quote xml:id="Almn78-d67345-Qd1e1042"> Mali per
+          <lb ed="#Bb"/>malitiam adeo sunt obstinati, quod 
+          bo<lb ed="#Bb" break="no"/>nam voluntatem habere, sive velle non
+          <lb ed="#Bb"/>valent, etsi bonum sit quod aliquando
+          <lb ed="#Bb"/>volunt. Volunt enim aliquando aliquid
+          <lb ed="#Bb"/>fieri, quod Deus vult fieri, et utique illud
+          <lb ed="#Bb"/>bonum est etjustum fieri : nec tamen
+          <lb ed="#Bb"/>cum bona voluntate illud volunt, nec
+          <lb ed="#Bb"/>bene illud volunt. Sed obstinati 
+          pro<lb ed="#Bb" break="no"/>prium est irasci contra omne bonum et
+          <lb ed="#Bb"/>impugnare illud : et cum diabolus sic sit
+          <lb ed="#Bb"/>obstinatus, suum proprium est et tentare
+          <lb ed="#Bb"/>et impugnare bonos. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e1073">
+                  <lb ed="#Bb"/>Tertia ratio est, quia prime 
+        tenta<lb ed="#Bb" break="no"/>tionis, que facta est ad Adam et Hevam,
+        <lb ed="#Bb"/>diabolis fuit inventor: et ab illa 
+        tenta<lb ed="#Bb" break="no"/>tione possibilitas tentandi in omnibus
+        <lb ed="#Bb"/>exorta est et creata. Unde cum virtus
+        <lb ed="#Bb"/>prime tentationis in omnibus aliis 
+        ten<lb ed="#Bb" break="no"/>tationibus sit, et tentet, ut dicit 
+        Augu<lb ed="#Bb" break="no"/>stinus in libro XII super Genesim ad
+        <lb ed="#Bb"/>litteram, diabolus jroprie tentator est,
+        <lb ed="#Bb"/>qui prime tentationis est inventor.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1097">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod in
+        <lb ed="#Bb"/>contrarium objicilur, quod unus solus est
+        <lb ed="#Bb"/>tentator : sed objectum et materiam 
+        ten<lb ed="#Bb" break="no"/>tationis aliquando accipit a 
+        concupi<lb ed="#Bb" break="no"/>scentia carnis : et sic sicut ab 
+        instrumen<lb ed="#Bb" break="no"/>to, non sicut a tentatore dicitur, Jacobi,
+        <lb ed="#Bb"/>1, 14, quod unusgquisgue tentatur a 
+        con<lb ed="#Bb" break="no"/>cupiscentia sua, abstractus ab 
+        incommu<lb ed="#Bb" break="no"/>fabili bono, eé tdlectus libidine boni 
+        com<lb ed="#Bb" break="no"/>mutabilis. Aliguando accipit objectum
+        <lb ed="#Bb"/>et materiam tentationis a spectaculis
+        <lb ed="#Bb"/>mundi, scilicet in divitiis, et honoribus.
+        <lb ed="#Bb"/>Aliquando accipit a seipso in superbia,
+        <lb ed="#Bb"/>et invidia, et ira: et sic dicitur, quod
+        <lb ed="#Bb"/>plura sunt tentantia instrumentaliter,
+        <lb ed="#Bb"/>sicut objecta: unus tamen est qui hec
+        <lb ed="#Bb"/>omnia movet sicut primus tentator.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1136">
+                  <pb ed="#Bb" n="308"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Qualiter autem Deus tentet sive 
+        pro<lb ed="#Bb" break="no"/>bet, in precedenti membro hujus 
+        que<lb ed="#Bb" break="no"/>stionis determinatum est.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1149">
+                  <lb ed="#Bb"/>Av 1p quod ulterius queritur, Utrum
+        <lb ed="#Bb"/>Deus inducat aliquem in tentationem ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e1156">
+                  <lb ed="#Bb"/>Dicendum, quod non proprie : non
+        <lb ed="#Bb"/>enim est causa malitia, sicut probat
+        <lb ed="#Bb"/>objectio: nec est causa, quod aliquis
+        <lb ed="#Bb"/>frangitur vel vincitur tentatione, 
+        immis<lb ed="#Bb" break="no"/>sione malitiz : sed quia aliquando deserit
+        <lb ed="#Bb"/>per gratiam, et permittit frangi 
+        tenta<lb ed="#Bb" break="no"/>tum confortatione maliti#, ideo locum
+        <lb ed="#Bb"/>habet oratio, hoc est, ut non deserat per
+        <lb ed="#Bb"/>gratiam, nec permittat confortari malitia
+        <lb ed="#Bb"/>usque ad fractionem tentari. Et sic etiam
+        <lb ed="#Bb"/>intelligitur dictum Apostoli, I ad 
+        Co<lb ed="#Bb" break="no"/>rinth. x, 13, quod facit cum tentatione
+        <lb ed="#Bb"/>proventum. Quia ipsum exercitium 
+        ten<lb ed="#Bb" break="no"/>talionis, proventus et profectus est. 
+        vir<lb ed="#Bb" break="no"/>tutis. Propter quod etiam Sancti facilius
+        <lb ed="#Bb"/>sustinent tentationem, ita quod 
+        aliquan<lb ed="#Bb" break="no"/>do petant tentari. Psal. xxv, 2 :°Proda
+        <lb ed="#Bb"/>me, Domine, et tenta me: ure renes
+        <lb ed="#Bb"/>meos, et cor meum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1200">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur de verbo
+        <lb ed="#Bb"/>Origenis, dicendum, quod satis probabile
+        <lb ed="#Bb"/>est, quod ita sit, maxime secundum
+        <lb ed="#Bb"/>quod glossat illud Magister ibidem, 
+        sci<lb ed="#Bb" break="no"/>licet quod de illo vitio in quo superatus
+        <lb ed="#Bb"/>est ab aliquo sancto perfecte, non habeat
+        <lb ed="#Bb"/>potestatem alium tentandi de cxetero. In
+        <lb ed="#Bb"/>bellis enim humanis sic est, quod 
+        supe<lb ed="#Bb" break="no"/>ratus aliquis ab aliquo perfecte, nec
+        <lb ed="#Bb"/>illum nec alium de familia sua eodem
+        <lb ed="#Bb"/>bello audet impetere. Propter quod
+        <lb ed="#Bb"/>etiam dicitur in libro IT Sententiarum,
+        <lb ed="#Bb"/>distinct. VI, cap. De Lucifero autem,
+        <lb ed="#Bb"/>quod religata sit potestas Luciferi ab eo
+        <lb ed="#Bb"/>tempore quo tentavit Christum in 
+        de<lb ed="#Bb" break="no"/>
+                  <lb ed="#Bb"/>serto, et victus est ab eo.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1240">
+                  <lb ed="#Bb"/>AbD RATIONEM que adducitur in 
+        con<lb ed="#Bb" break="no"/>trarium, dicendum, quod non est 
+        super<lb ed="#Bb" break="no"/>fluum quod ordini juris et justitie con
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>sonum est. Unde licet per affectum
+        <lb ed="#Bb"/>malitie possit alium tentare de eodem
+        <lb ed="#Bb"/>vitio in quo superatus est, tamen quia
+        <lb ed="#Bb"/>hoc non congruit ordini juris et justitie,
+        <lb ed="#Bb"/>providentia divina non permittit,
+      </p>
+            </div>
+            <div xml:id="Almn78-d67345-Dd1e1263">
+               <head xml:id="Almn78-d67345-Hd1e1265">Membrum 3</head>
+               <head xml:id="Almn78-d67345-Hd1e1268" type="question-title">
+        Qui sint modi tentandi, et quot
+      </head>
+               <p xml:id="Almn78-d67345-d1e1271">
+                  <lb ed="#Bb"/>MEMBRUM III.
+        <lb ed="#Bb"/>Qui sint modi tentandi, et quot?
+      </p>
+               <p xml:id="Almn78-d67345-d1e1278">
+                  <lb ed="#Bb"/>Tertio queritur, Qui sint modi 
+        ten<lb ed="#Bb" break="no"/>tandi, et quot ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e1285">
+                  <lb ed="#Bb"/>1. Dicit enim Glossa super Genesim,1m,
+        <lb ed="#Bb"/>1, super illud: Sed et serpens, sic :
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e1293">Tribus modis culpa perpetratur, scilicet
+          <lb ed="#Bb"/>suggestione, delectationc, et consensu.
+          <lb ed="#Bb"/>Primo per hostem, secundo per carnem,
+          <lb ed="#Bb"/>tertio per spiritum. Hostis enim prava
+          <lb ed="#Bb"/>suggerit, caro se delectatione subjicit,
+          <lb ed="#Bb"/>tandem spiritus delectalioni consentit.
+          <lb ed="#Bb"/>Suggestione peccatum cognoscimus, 
+          de<lb ed="#Bb" break="no"/>lectatione vincimur, consensu ligamur. </quote>
+                  <lb ed="#Bb"/>Igitur, secundum hanc Glossam,tres sunt
+        <lb ed="#Bb"/>modi tentationis.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1318">
+                  <lb ed="#Bb"/>2, Adhuc, Gregorius in libro XXXII
+        <lb ed="#Bb"/>Moralium super illud Job, xn, 10:
+        <lb ed="#Bb"/>Ecce Behemot, quem feci tecum, sic
+        <lb ed="#Bb"/>dicit : <quote xml:id="Almn78-d67345-Qd1e1328"> Fideli famulo Dominus cunctas
+          <lb ed="#Bb"/>hostis callidi machinaliones insinuat :
+          <lb ed="#Bb"/>omne quod opprimendo rapit, omne
+          <lb ed="#Bb"/>quod insidiando circumvolat, omne
+          <lb ed="#Bb"/>quod minando terret, omne quod 
+          sua<lb ed="#Bb" break="no"/>dendo blanditur, omne quod desperando
+          <lb ed="#Bb"/>frangit, omne quod promittendo 
+          deci<lb ed="#Bb" break="no"/>pit. </quote> Secundum Gregorium ergo sex
+        <lb ed="#Bb"/>isti sunt modi tentationis.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1350">
+                  <lb ed="#Bb"/>3. Adhuc, I ad Corinth. x, 13, super
+        <lb ed="#Bb"/>illud : Tentatio vos non apprehendat,
+        <lb ed="#Bb"/>nisi humana: distinguit Glossa 
+        tenta<lb ed="#Bb" break="no"/>tionem in humanam et diabolicam, sic
+        <lb ed="#Bb"/>dicens : <quote xml:id="Almn78-d67345-Qd1e1363"> Tentatio humana est, ut in
+          <pb ed="#Bb" n="309"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>necrssitafe vel pressura non diffidat
+          <lb ed="#Bb"/>homo de Deo, aux lium humanum 
+          re<lb ed="#Bb" break="no"/>quirendo : humanum enim est in 
+          neces<lb ed="#Bb" break="no"/>sitate auxilium humanum querere. </quote>
+                  <lb ed="#Bb"/>Et ibidem; <quote xml:id="Almn78-d67345-Qd1e1381"> Propter Christum pari
+          <lb ed="#Bb"/>humana tentalio est, per quam 
+          profici<lb ed="#Bb" break="no"/>tur apud Deum.</quote> Et addit: <quote xml:id="Almn78-d67345-Qd1e1388"> Item,
+            <lb ed="#Bb"/>humana tentalio est, aliter sapere, quam
+            <lb ed="#Bb"/>res se habet cum bono animo. </quote> Et 
+        sub<lb ed="#Bb" break="no"/>dit: <quote xml:id="Almn78-d67345-Qd1e1397"> em, humana tentatio est, cum
+          <lb ed="#Bb"/>irritatur quis in fratrem studio 
+          corri<lb ed="#Bb" break="no"/>gendi, plus tamen, quam humana 
+          tran<lb ed="#Bb" break="no"/>quillitas postulat. </quote> Et addit: <quote xml:id="Almn78-d67345-Qd1e1407"> 
+            Diabo<lb ed="#Bb" break="no"/>lica vero tentatio est, nimis amando 
+            sen<lb ed="#Bb" break="no"/>tentiam propriam vel invidendo 
+            meliori<lb ed="#Bb" break="no"/>bus usque ad pracidende communionis
+            <lb ed="#Bb"/>vel schismatis vel heresis condende 
+            sa<lb ed="#Bb" break="no"/>crilegium pervenire. </quote> Secundum hanc
+        <lb ed="#Bb"/>igitur Glossam quatuor sunt modi 
+        hu<lb ed="#Bb" break="no"/>mane tentationis, et unus diabolice.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1425">
+                  <lb ed="#Bb"/>Queritur ergo de omnibus his modis :
+        <lb ed="#Bb"/>et primo de primis qui sunt in Glossa
+        <lb ed="#Bb"/>super Genesim.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1434">
+                  <lb ed="#Bb"/>Videtur enim, quod illa divisio non
+        <lb ed="#Bb"/>omnem modum tentationis 
+        comprehen<lb ed="#Bb" break="no"/>dat: quia
+      </p>
+               <p xml:id="Almn78-d67345-d1e1443">
+                  <lb ed="#Bb"/>1. Non est idem modus tentalionis
+        <lb ed="#Bb"/>Christi, et tentationis nostra, et 
+        tenta<lb ed="#Bb" break="no"/>tionis primorum parentum. Christus
+        <lb ed="#Bb"/>enim, ut dicit Glossa Matthzi, rv, 1,
+        <lb ed="#Bb"/>super illud : Ué tentaretur a diabolo,
+        <lb ed="#Bb"/>tentabatur exterius tantum: ita quod a
+        <lb ed="#Bb"/>tentatione nec trahebatur in corpore,
+        <lb ed="#Bb"/>nec in anima : eo quod in neutro sensit
+        <lb ed="#Bb"/>aliquid corruptionis. Primi autem 
+        pa<lb ed="#Bb" break="no"/>rentes trahebantur quidem in anima.
+        <lb ed="#Bb"/>Heva enim dubitando a veritate se 
+        elon<lb ed="#Bb" break="no"/>gavit, et persuasioni serpentis 
+        appropin<lb ed="#Bb" break="no"/>quavit : dubitatio autem motus animi
+        <lb ed="#Bb"/>est. Sed in corpore non fuerunt moti :
+        <lb ed="#Bb"/>quia ad tenlationem non movetur, nisi
+        <lb ed="#Bb"/>corpus corruplum, quale primi parentes
+        <lb ed="#Bb"/>non habuerunt. Nos autem tentamur ab
+        <lb ed="#Bb"/>hoste, et trahimur in corpore et in 
+        ani<lb ed="#Bb" break="no"/>ma propter primi peccati corruptionem.
+        <lb ed="#Bb"/>Cum ergo hos modos Glossa illa non
+        <lb ed="#Bb"/>distinguat, videtur divisio illa 
+        insuffi<lb ed="#Bb" break="no"/>ciens esse.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1493">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>2. Adhuc, Falsum videtur esse quod
+        <lb ed="#Bb"/>dicit, quod secunda tentatio sit a carne.
+        <lb ed="#Bb"/>Nicit enim Augustinus in libro XII seper
+        <lb ed="#Bb"/>Genesim ad litteram, quod primus motus
+        <lb ed="#Bb"/>tentalionis est in sensualitate tamquam
+        <lb ed="#Bb"/>a serpente. Secundus in inferiori parte
+        <lb ed="#Bb"/>rationis tamquam in muliere. Tertius
+        <lb ed="#Bb"/>in superiori parte rationis tamquam in.
+        <lb ed="#Bb"/>viro. Inferior autem pars rationis non
+        <lb ed="#Bb"/>est caro. Ergo secundus modus 
+        tenta<lb ed="#Bb" break="no"/>lionis non est a carne, sicut dicit
+        <lb ed="#Bb"/>Glossa.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1525">
+                  <lb ed="#Bb"/>3. Adhuc, Falsum videtur quod dicit
+        <lb ed="#Bb"/>Glossa, quod delectatione vincimur :
+        <lb ed="#Bb"/>non enim vincitur, nec victus est, nisi
+        <lb ed="#Bb"/>qui mortaliter peccavit : sed non omnis
+        <lb ed="#Bb"/>delectatio que est in carne, mortale
+        <lb ed="#Bb"/>peccatum est. Ergo non est verum 
+        gene<lb ed="#Bb" break="no"/>raliter dictum, quod delectatione carnis
+        <lb ed="#Bb"/>vincimur.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1545">
+                  <lb ed="#Bb"/>Utrerivs queritur de divisione 
+        Grego<lb ed="#Bb" break="no"/>rii, et queritur, Quid vocatur, <quote xml:id="Almn78-d67345-Qd1e1551"> 
+          oppri<lb ed="#Bb" break="no"/>mendo rapere ? </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e1557">
+                  <lb ed="#Bb"/>1. Hoe enim videtur ad violentiam
+        <lb ed="#Bb"/>pertinere : sed diabolus nulli potest 
+        fa<lb ed="#Bb" break="no"/>cere violentiam : dicit enim Gregorius,
+        <lb ed="#Bb"/>quod <quote xml:id="Almn78-d67345-Qd1e1567"> debilis est hostis, qui non potest
+          <lb ed="#Bb"/>vincere nisi volentem. </quote> Et loquitur de
+        <lb ed="#Bb"/>de diabolo: ergo videtur, quod nullum
+        <lb ed="#Bb"/>opprimendo rapit.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1578">
+                  <lb ed="#Bb"/>2. Adhuc, Oppressio illa si esset: aut
+        <lb ed="#Bb"/>esset in corpore, aut in anima. Si in
+        <lb ed="#Bb"/>corpore : ex hoc nihil rapit: quia ex hoc,
+        <lb ed="#Bb"/>quod opprimit aliquem in corpore vel
+        <lb ed="#Bb"/>interficit, non rapit, potest enim anima
+        <lb ed="#Bb"/>habere evadere.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1594">
+                  <lb ed="#Bb"/>3. Adhuc, Glossa super illud I Petr.
+        <lb ed="#Bb"/>v,8: Adversarius vester diabolus, sic
+        <lb ed="#Bb"/>dicit : <quote xml:id="Almn78-d67345-Qd1e1602"> Non est timendus hostis, qui
+          <lb ed="#Bb"/>non potest etiam in porcos nisi ex 
+          dis<lb ed="#Bb" break="no"/>pensatione Conditoris. </quote> Ergo non oppri
+        <lb ed="#Bb"/>mit nisi licentia a Deo accepta : et tunc
+        <lb ed="#Bb"/>non ipse opprimit, sed Deus. Dicit enim
+        <lb ed="#Bb"/>lex, quod ille facit, cujus auctoritate fit.
+        <lb ed="#Bb"/>Si autem refertur oppressio ad animam :
+        <lb ed="#Bb"/>tunc plane falsum est, quod aliquem
+        <lb ed="#Bb"/>opprimit. Dicit enim Gregorius, quod
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e1625">potestatem in animam non _ habet, nisi °.
+          <pb ed="#Bb" n="310"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>homo eam sibi ex propria voluntate
+          <lb ed="#Bb"/>concesserit. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e1637">
+                  <lb ed="#Bb"/>4, Adhuc, Queritur de hoc quod dicit,
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e1643">Insidiando circumvolat. </quote> Insidia enim
+        <lb ed="#Bb"/>ponuntur ambulantibus in via publica :
+        <lb ed="#Bb"/>in moribus autem via publica, est via
+        <lb ed="#Bb"/>mandatorum Dei: ct hee non labet 
+        pe<lb ed="#Bb" break="no"/>riculum, nec subjacet periculis: videtur
+        <lb ed="#Bb"/>ergo, quod in hac via non insidiando
+        <lb ed="#Bb"/>circumvolat.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1661">
+                  <lb ed="#Bb"/>5. Adhuc, Opposita videtur in se 
+        con<lb ed="#Bb" break="no"/>tinere locutio. Ins:diantes enim in loco
+        <lb ed="#Bb"/>uno ponunt insidias, et non 
+        circumyo<lb ed="#Bb" break="no"/>lant: si ergo insidiatur, non 
+        circumyo<lb ed="#Bb" break="no"/>lat : et si circumvolat, non insidiatur.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1674">
+                  <lb ed="#Bb"/>6. Adhuc, Queritur de hoc quod dicit,
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e1680">Omne guod minando terret. </quote> Hoc
+        <lb ed="#Bb"/>enim videtur esse contra intenlionem
+        <lb ed="#Bb"/>demonis in tentando : tentando enim
+        <lb ed="#Bb"/>nititur sibi attrahere tentatum et allicere
+        <lb ed="#Bb"/>in consensum : minis autem et 
+        terrori<lb ed="#Bb" break="no"/>bus aliquis fugatur et non attrahitur,
+        <lb ed="#Bb"/>nec allicitur: iste ergo modus non 
+        vide<lb ed="#Bb" break="no"/>tur esse de intentione tentatoris.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1699">
+                  <lb ed="#Bb"/>7. Adhuc, Queritur de hoc quod 
+        di<lb ed="#Bb" break="no"/>cit, <quote xml:id="Almn78-d67345-Qd1e1705"> Desperando frangit. </quote> Ex hoc enim,
+        <lb ed="#Bb"/>quod aliquis desperat, non omnino 
+        fra<lb ed="#Bb" break="no"/>ctus est: adhuc enim potest resurgere
+        <lb ed="#Bb"/>ad peenitentiam.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1716">
+                  <lb ed="#Bb"/>8. Adhuc, Queritur de eo quod dicit,
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e1722">Promittendo decipit. </quote> Ejus enim 
+        pro<lb ed="#Bb" break="no"/>mittere est, cujus est dare: sed dicit
+        <lb ed="#Bb"/>Glossa Matthei, 1v, 9, super illud: Hee
+        <lb ed="#Bb"/>omnia tibi dabo, quod diabolus non
+        <lb ed="#Bb"/>habet potestatem dandi aliquid: ergo
+        <lb ed="#Bb"/>ejus non est promittere ; ergo nec 
+        pro<lb ed="#Bb" break="no"/>mittendo decipere.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1739">
+                  <lb ed="#Bb"/>9. Adhuc, Videtur quod non omnes
+        <lb ed="#Bb"/>modi machinationis demonis 
+        continen<lb ed="#Bb" break="no"/>tur istis sex. Dicit enim Augustinus 
+        sz<lb ed="#Bb" break="no"/>per Genesim ad litteram, quod demones
+        <lb ed="#Bb"/>se quandoque spectaculis oculorum 
+        obji<lb ed="#Bb" break="no"/>ciunt, invitantes ad van‘tates, et 
+        libi<lb ed="#Bb" break="no"/>dinem : et ideo dicitur, Genes. m, 6:
+        <lb ed="#Bb"/>Vidit mulier quod bonum esset lignum
+        <lb ed="#Bb"/>ad vescendum et pulchrum oculis, 
+        adspe<lb ed="#Bb" break="no"/>elugue delectabile : quod Augustinus
+        <lb ed="#Bb"/>dicit factum esse cx hoc, quod diabolus
+        <lb ed="#Bb"/>objecit se in fructu ligni oculis mulieris,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>ut per sensus ad delectationem ligni 
+        tra<lb ed="#Bb" break="no"/>heret.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1774">
+                  <lb ed="#Bb"/>10. Adhuc, Gregorius in Dialogis 
+        di<lb ed="#Bb" break="no"/>cit, quod <quote xml:id="Almn78-d67345-Qd1e1780"> diabolus sedit super folium
+          <lb ed="#Bb"/>lactuez, ut quamdam monialem ad 
+          li<lb ed="#Bb" break="no"/>bidinem gustus traheret. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e1789">
+                  <lb ed="#Bb"/>Adhuc, Augustinus in libro de 
+        Con<lb ed="#Bb" break="no"/>flictu vitiorum et virtutum, multiplices
+        <lb ed="#Bb"/>tangit modos tentationum, secundum
+        <lb ed="#Bb"/>numerum septem capitalium vitiorum ;
+        <lb ed="#Bb"/>et subdit dicens, quod his modis pie 
+        vi<lb ed="#Bb" break="no"/>ventes in Christo diabolus impugnare
+        <lb ed="#Bb"/>non desinit.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1807">
+                  <lb ed="#Bb"/>12. Et addit: <quote xml:id="Almn78-d67345-Qd1e1811"> Sed nec his 
+          conten<lb ed="#Bb" break="no"/>tus, ad alia convertitur argumenta: dum
+          <lb ed="#Bb"/>quibusdam in somniis sepius vera 
+          pro<lb ed="#Bb" break="no"/>nuntiat, ut eos quandoque ad fulsitatem
+          <lb ed="#Bb"/>pertrahat : dum dormientes ante horam
+          <lb ed="#Bb"/>vel tempus excitat, ut eos quando 
+          vigi<lb ed="#Bb" break="no"/>liarum tempus est, somno gravis-imo
+          <lb ed="#Bb"/>deprimat: dum orantes alque psallentes
+          <lb ed="#Bb"/>sibilis, stridoribus, latratibus diversis,
+          <lb ed="#Bb"/>et incognitis vocibus, jactis etiam 
+          lapidi<lb ed="#Bb" break="no"/>bus vel stercoribus perterret, ut eos 
+          quo<lb ed="#Bb" break="no"/>cumque pacto a spirituali opere 
+          retra<lb ed="#Bb" break="no"/>hens, inanes efficiat : dum etiam 
+          ali<lb ed="#Bb" break="no"/>quando de blasphemia tentat, ut circa
+          <lb ed="#Bb"/>divina insipidos faciat. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e1845">
+                  <lb ed="#Bb"/>43. Adhuc, Augustinus in libro I 
+        sw<lb ed="#Bb" break="no"/>per Genesim ad litteram: <quote xml:id="Almn78-d67345-Qd1e1851"> Mathematici
+          <lb ed="#Bb"/>instinctu demonum sepius vera 
+          predi<lb ed="#Bb" break="no"/>cunt: dur ea que ipsi facturi sunt, 
+          ma<lb ed="#Bb" break="no"/>thematicis pronuntiant. </quote> Videtur ergo
+        <lb ed="#Bb"/>quod multo plures sint modi tentationis,
+        <lb ed="#Bb"/>quam sex quos dicit Gregorius.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1865">
+                  <lb ed="#Bb"/>14. Adhuc, Suadendo blandiri, et 
+        pro<lb ed="#Bb" break="no"/>mittendo decipere non videntur habere
+        <lb ed="#Bb"/>differentiam : diabolus enim non 
+        pro<lb ed="#Bb" break="no"/>mittit, nisi persuasionem addat ut 
+        cre<lb ed="#Bb" break="no"/>datur promittenti.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1878">
+                  <lb ed="#Bb"/>15. Adhuc, Hoc quod dicit : <quote xml:id="Almn78-d67345-Qd1e1882"> 
+          Insi<lb ed="#Bb" break="no"/>diando circumvolare, </quote> non videtur
+        <lb ed="#Bb"/>habere differentiam ad aliquid aliorum:
+        <lb ed="#Bb"/>qui enim insidiando circumvyolat, 
+        oc<lb ed="#Bb" break="no"/>culle querit nocere omni modo quo
+        <lb ed="#Bb"/>potest: sed diabolus in omnibus dictis
+        <lb ed="#Bb"/>modis querit occulte nocere : ergo in
+        <lb ed="#Bb"/>omnibus dictis modis insidiando 
+        circum<lb ed="#Bb" break="no"/>volat. Insidiando ergo circumvolare,
+        <pb ed="#Bb" n="311"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>non est specialis modus, sed communis
+        <lb ed="#Bb"/>omnibus aliis,
+      </p>
+               <p xml:id="Almn78-d67345-d1e1912">
+                  <lb ed="#Bb"/>Avuuc queritur de terlia divisione
+        <lb ed="#Bb"/>que est in Glossa, super epist. Tad 
+        Co<lb ed="#Bb" break="no"/>rinth. x, 13.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1922">
+                  <lb ed="#Bb"/>1. Et primo de hoc quod Glossa 
+        dis<lb ed="#Bb" break="no"/>tinguit tentationem in humanam, et 
+        dia<lb ed="#Bb" break="no"/>bolicam : sicut enim quedam tentatio est
+        <lb ed="#Bb"/>a diabolo, ita quedam a mundo, que~
+        <lb ed="#Bb"/>dam a carne: et sic patet, quod 
+        insuffi<lb ed="#Bb" break="no"/>ciens est divisio.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1938">
+                  <lb ed="#Bb"/>2. Adhuc, Si dicitur tentatio 
+        diabo<lb ed="#Bb" break="no"/>lica, que ad similitudinem tentationis
+        <lb ed="#Bb"/>diaboli est, tune nibil est dicta 
+        tenta<lb ed="#Bb" break="no"/>tio diabolica : quia, sicut jam habitum
+        <lb ed="#Bb"/>est, diaboli non est tentari, sed tentare.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1951">
+                  <lb ed="#Bb"/>3. Adhuc, Quod dicit : <quote xml:id="Almn78-d67345-Qd1e1955"> Pro Christo
+          <lb ed="#Bb"/>pati, </quote> esse tentationem humanam, 
+        vi<lb ed="#Bb" break="no"/>detur esse falsum : quia pro Christo
+        <lb ed="#Bb"/>pati non est tentatio, sed potius virtutis
+        <lb ed="#Bb"/>constantia et fortitudinis opus.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1967">
+                  <lb ed="#Bb"/>4, Adhuc, Quod dicit: <quote xml:id="Almn78-d67345-Qd1e1971">In periculis
+          <lb ed="#Bb"/>querere humanum consilium, </quote> non est
+        <lb ed="#Bb"/>tentatio, sed actus prudentiz virtutis.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1979">
+                  <lb ed="#Bb"/>5. Adhuc, In periculis se committere 
+        dis<lb ed="#Bb" break="no"/>crimini postposito consilio humano 
+        quan<lb ed="#Bb" break="no"/>do potest haberi, hoc est tentare Deum:
+        <lb ed="#Bb"/>et hoc est peccatum mortale : ergo 
+        op<lb ed="#Bb" break="no"/>positum ejus, scilicet querere consilium
+        <lb ed="#Bb"/>humanum in periculis, est meritum et
+        <lb ed="#Bb"/>obedientia pxcepti. Deuter. vi, 16: Non
+        <lb ed="#Bb"/>tentabis Dominum Deum tuum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e1999">
+                  <lb ed="#Bb"/>6. Adhuc, II ad Corinth. x1, 32 et 33:
+        <lb ed="#Bb"/>Damasci prepositus gentis Arete regis
+        <lb ed="#Bb"/>custodiebal civitatem Damascenorum, ut
+        <lb ed="#Bb"/>me comprehenderet : et per fenestram in
+        <lb ed="#Bb"/>sporta dimissus sum per murum, et sic
+        <lb ed="#Bb"/>effugi manus ejus. Nec hoc reputatur
+        <lb ed="#Bb"/>tentatio, sed prudentia Apostoli, cum
+        <lb ed="#Bb"/>tamen in periculis quereret consilium
+        <lb ed="#Bb"/>humanum: unde Glossa ibidem: <quote xml:id="Almn78-d67345-Qd1e2020"> 
+          Fu<lb ed="#Bb" break="no"/>giat minister Christi sicut ipse Christus
+          <lb ed="#Bb"/>in AKgyptum fugit: fugiat qui specialiter
+          <lb ed="#Bb"/>queritur, dum per aliquos firma est 
+          Ec<lb ed="#Bb" break="no"/>clesi# salus. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e2033">
+                  <lb ed="#Bb"/>7. Adhuc, Philosophus in primo 
+        7o<lb ed="#Bb" break="no"/>picorum: <quote xml:id="Almn78-d67345-Qd1e2039"> Si unum oppositorum est
+          <lb ed="#Bb"/>multiplex, et reliquum: </quote> sed tentatio
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>humana et diabolica e diverso dividunt
+        <lb ed="#Bb"/>tentationem : ergo sunt opposita : tot
+        <lb ed="#Bb"/>ergo modi deberent esse diabolice 
+        ten<lb ed="#Bb" break="no"/>tationis, quot sunt humane : et hos non
+        <lb ed="#Bb"/>ponit Glossa: ergo est insufficiens.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2058">
+                  <lb ed="#Bb"/>Gravia hujus ulterius queritur, Quid
+        <lb ed="#Bb"/>sit tentare Deum ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e2065">
+                  <lb ed="#Bb"/>Si enim hoc est, ut quidam dicunt,
+        <lb ed="#Bb"/>petere miraculum propter se fieri: tune
+        <lb ed="#Bb"/>multi Sanctorum tentaverunt Deum,
+        <lb ed="#Bb"/>sicut ipse Petrus; qui petivit 
+        suscitatio<lb ed="#Bb" break="no"/>nem cognati Cesaris. Si autem est, ut
+        <lb ed="#Bb"/>quidam alii dicunt, offerre se periculo,
+        <lb ed="#Bb"/>cum possit haberi consilium humanum
+        <lb ed="#Bb"/>de evasione: tunc Catharina et 
+        Sebastia<lb ed="#Bb" break="no"/>nus tentaverunt Deum, qui se periculis
+        <lb ed="#Bb"/>obtulerunt : et Vincentius qui Daciano
+        <lb ed="#Bb"/>dixit: <quote xml:id="Almn78-d67345-Qd1e2091"> Insurge ergo, et toto 
+          malignita<lb ed="#Bb" break="no"/>tis spiritu. debacchare: videbis me plus
+          <lb ed="#Bb"/>posse qui torqueor, quam possis ipse qul
+          <lb ed="#Bb"/>torques. </quote>
+               </p>
+               <p xml:id="Almn78-d67345-d1e2101">
+                  <lb ed="#Bb"/>Utreris queritur, Si aliquis est 
+        pro<lb ed="#Bb" break="no"/>fectus in tentationibus, propter quem
+        <lb ed="#Bb"/>Deus Sanctos tentari permittit ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e2110">
+                  <lb ed="#Bb"/>Hoe enim videtur ex hoc quod 
+        dici<lb ed="#Bb" break="no"/>tur, I ad Corinth. x, 19: Qui faciet cum
+        <lb ed="#Bb"/>tentatione proventum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2119">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod prima 
+        di<lb ed="#Bb" break="no"/>visio data est penes gradus tentationis,
+        <lb ed="#Bb"/>quibus consummatur peccatum in nobis:
+        <lb ed="#Bb"/>qui sunt tres, ut dicit Augustinus in
+        <lb ed="#Bb"/>libro XII super Genesim ad literam,
+        <lb ed="#Bb"/>scilicet sensualitatis, et inferioris partis
+        <lb ed="#Bb"/>rationis, et superioris. Sensualitatis ab
+        <lb ed="#Bb"/>hoste, inferioris partis rationis a carne,
+        <lb ed="#Bb"/>superioris partis a spiritu. Et quia non
+        <lb ed="#Bb"/>sunt nisi tres gradus, patet quod 
+        suffi<lb ed="#Bb" break="no"/>ciens est divisio.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2146">
+                  <lb ed="#Bb"/>Ad primum ergo quod contra 
+        objici<lb ed="#Bb" break="no"/>tur, dicendum, quod tentatio primorum
+        <lb ed="#Bb"/>parentum, et tentatio Christi reducitur
+        <lb ed="#Bb"/>ad illam que est de suggestione hostis.
+        <lb ed="#Bb"/>Suggestio enim triplex est, scilicet 
+        exte<lb ed="#Bb" break="no"/>rior tantum, et sic fuit tentatio in 
+        Chri<lb ed="#Bb" break="no"/>sto. Et partim exterior, et parlim inte
+        <pb ed="#Bb" n="312"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>rior, quando scilicet anima inclinalur ad
+        <lb ed="#Bb"/>verba suggerentlis: et sic fuit in Heva.
+        <lb ed="#Bb"/>Et partim exterior, et completio interior,
+        <lb ed="#Bb"/>quando ad exteriorem suggestionem 
+        de<lb ed="#Bb" break="no"/>monis et inclinatur anima, et trahitur
+        <lb ed="#Bb"/>per concupiscentiam corpus.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2181">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod inferior 
+        por<lb ed="#Bb" break="no"/>tio rationis, eo quod est circa carnalia et
+        <lb ed="#Bb"/>vicina carni, dicitur caro, quia facile
+        <lb ed="#Bb"/>emollescit : et hac ratione etiam dicitur
+        <lb ed="#Bb"/>mulier, quia emollit superiora tamquam
+        <lb ed="#Bb"/>virum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2197">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod omnis 
+        dele<lb ed="#Bb" break="no"/>ctatio quantum est de se, vincit et ligat
+        <lb ed="#Bb"/>vinculo trahente, quamvis non liget 
+        vin<lb ed="#Bb" break="no"/>culo obligante ad mortem eternam. 
+        Pro<lb ed="#Bb" break="no"/>pter quod dicit Philosophus in VII 
+        Ethi<lb ed="#Bb" break="no"/>corum, quod incontinens vi passionis
+        <lb ed="#Bb"/>extrahitur a regimine mentis, ita quod
+        <lb ed="#Bb"/>nescit facienda quemadmodum oportet
+        <lb ed="#Bb"/>eum scire: sicut qui stat in fumo oculis
+        <lb ed="#Bb"/>apertis, videt quidem, sed non videt
+        <lb ed="#Bb"/>quemadmodum oportet eum videre.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2223">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur de 
+        divi<lb ed="#Bb" break="no"/>sione Gregorii, dicendum, quod illa 
+        da<lb ed="#Bb" break="no"/>tur per modos machinationis diaboli.
+        <lb ed="#Bb"/>Illi enim sunt vel in prosperis, vel 
+        ad<lb ed="#Bb" break="no"/>versis. In adversis dupliciter, scilicet
+        <lb ed="#Bb"/>respectu presentis adversitatis, vel 
+        fu<lb ed="#Bb" break="no"/>ture. Si respectu future: tune est ille
+        <lb ed="#Bb"/>modus qui dicitur. Jn minando terret:
+        <lb ed="#Bb"/>hoc fit, quando alicui incutit timorem
+        <lb ed="#Bb"/>defectus corporis, vel temporalium, vel
+        <lb ed="#Bb"/>ne possit perseverare: et sic retrahit a
+        <lb ed="#Bb"/>proposito serviendi Deo. Si autem est
+        <lb ed="#Bb"/>respectu prasentis adversitatis: tunc non
+        <lb ed="#Bb"/>potest esse nisi de nimia tristitia mali
+        <lb ed="#Bb"/>imminentis. Et hoc est vel malum culpa,
+        <lb ed="#Bb"/>vel malum peene : et siest malum culpa, °
+        <lb ed="#Bb"/>tune desperando frangit: si est malum
+        <lb ed="#Bb"/>pene, tune epprimendo rapit. Et dico
+        <lb ed="#Bb"/>nimiam tristitiam respectu  presentis
+        <lb ed="#Bb"/>maliculpe, vel pene: quia moderatio
+        <lb ed="#Bb"/>tristitia non est tentatio, sed polius 
+        vir<lb ed="#Bb" break="no"/>tus peenitentis. I] ad Corinth. vu, 10:
+        <lb ed="#Bb"/>Szeuli tristilia mortem operatur. 
+        Tristi<lb ed="#Bb" break="no"/>tia autem gue secundum Deum est,
+        <lb ed="#Bb"/>peniientiam in salutem stabilem opera
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>tur. Siautem tentat per prospera: tune
+        <lb ed="#Bb"/>tentat secundum conversionem ad com~
+        <lb ed="#Bb"/>mutabile bonum : et hec conversio 
+        du<lb ed="#Bb" break="no"/>pliciter consideratur, scilicet vel gene-~
+        <lb ed="#Bb"/>raliter ad quodcumque commutabile
+        <lb ed="#Bb"/>bonum : vel specialiter ad hoc bonum vel
+        <lb ed="#Bb"/>illud. Si generaliter, tunc instdiando 
+        cir<lb ed="#Bb" break="no"/>cumvolat : et tunc insidiari nihil aliud est,
+        <lb ed="#Bb"/>nisi observare omnem modum ut inclinet
+        <lb ed="#Bb"/>ad illectionem boni commutabilis: et per
+        <lb ed="#Bb"/>hoc abstrahit a desiderio boni 
+        incommu<lb ed="#Bb" break="no"/>tabilis. Si autem est specialiter ad hoc
+        <lb ed="#Bb"/>bonum vel illud: tune aut est respectu
+        <lb ed="#Bb"/>presentis boni, vel futuri. Si respectu
+        <lb ed="#Bb"/>presentis, tune swadendo blanditur :
+        <lb ed="#Bb"/>et tunc suadere nihil aliud est, nisi 
+        ra<lb ed="#Bb" break="no"/>liones assignare ex parte necessitatis
+        <lb ed="#Bb"/>humane quare hoc bonum appetendum
+        <lb ed="#Bb"/>sit, ut sub obtentu necessitatis ingerat
+        <lb ed="#Bb"/>voluptates. Si vero est respectu futuri,
+        <lb ed="#Bb"/>tune promitiendo decipit, ut sub spe
+        <lb ed="#Bb"/>promissionis aliquod illicitum 
+        commit<lb ed="#Bb" break="no"/>tatur: sicut est illud Matthei, iv, 9: Hee
+        <lb ed="#Bb"/>omnia tibi dabo, si cadens adoraveris
+        <lb ed="#Bb"/>me.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2336">
+                  <lb ed="#Bb"/>Sic ergo accipi possunt modi quos po-~
+        <lb ed="#Bb"/>nit Gregorius.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2343">
+                  <lb ed="#Bb"/>Quidam autem sic distinxerunt, quod
+        <lb ed="#Bb"/>tentatio diaboli vel est secundum vires
+        <lb ed="#Bb"/>apprehensivas, que per extensionem
+        <lb ed="#Bb"/>fiunt practic : vel est secundum vires
+        <lb ed="#Bb"/>motivas. Si est secundum 
+        apprehensi<lb ed="#Bb" break="no"/>vas: aut est ex parte phantasie, 
+        secun<lb ed="#Bb" break="no"/>dum quod accipit a sensu mullitudinem
+        <lb ed="#Bb"/>sensibilium: ef tunc dicunt, quod 
+        insi<lb ed="#Bb" break="no"/>diando circumvolat, ut per aliquid 
+        sen<lb ed="#Bb" break="no"/>sibilium decipiat. Si autem ex parte
+        <lb ed="#Bb"/>phantasie, secundum quod movet 
+        con<lb ed="#Bb" break="no"/>cupiscibilem : tune dicunt, quod suadendo
+        <lb ed="#Bb"/>blanditur, ut concupiscibilem illiciat. Si
+        <lb ed="#Bb"/>autem est ex parte motivarum tantum:
+        <lb ed="#Bb"/>tune aut est secundum actum irascibilis,
+        <lb ed="#Bb"/>aut secundum actum concupiscibilis, Si
+        <lb ed="#Bb"/>primo modo: tune est aut contra actum
+        <lb ed="#Bb"/>fortitudinis, aut contra actum spei: ille
+        <lb ed="#Bb"/>enim due virtutes sunt in irascibili. Si
+        <lb ed="#Bb"/>est contra actum fortitudinis: tunc 
+        di<lb ed="#Bb" break="no"/>cunt, quod opprimendo rapit. Si est
+        <lb ed="#Bb"/>contra actum spei, hoc dicunt esse 
+        du<lb ed="#Bb" break="no"/>
+                  <pb ed="#Bb" n="313"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>pliciter: si enim contra actum spei est,
+        <lb ed="#Bb"/>secundum quod spes est futuri boni 
+        exspe<lb ed="#Bb" break="no"/>ctatio, tune dicunt, quod promittendo
+        <lb ed="#Bb"/>decipit. Si autem contra actum spei,
+        <lb ed="#Bb"/>secundum quod est spes veniz de 
+        per<lb ed="#Bb" break="no"/>petrato malo, tune dicunt, quod 
+        despe<lb ed="#Bb" break="no"/>rando frangit. Isti dicunt, quod contra
+        <lb ed="#Bb"/>actum rationis nulla machinatio est:
+        <lb ed="#Bb"/>quia, sicut supra habitum est, diabolus
+        <lb ed="#Bb"/>supra rationem immediate nihil potest:
+        <lb ed="#Bb"/>et si potest, potest mediante phantasia.
+        <lb ed="#Bb"/>Isti etiam dicunt, quod licet machinari
+        <lb ed="#Bb"/>possit contra actum fortitudinis, tamen
+        <lb ed="#Bb"/>non potest machinari contra actum 
+        ju<lb ed="#Bb" break="no"/>stitiw, eo quod ille in ratione est: et 
+        ea<lb ed="#Bb" break="no"/>dem ratione non potest machinari 
+        con<lb ed="#Bb" break="no"/>tra actum prudentiv, quia illa etiam
+        <lb ed="#Bb"/>simpliciter in ratione est. Dicunt etiam,
+        <lb ed="#Bb"/>quod si machinatur contra aclum 
+        tempe<lb ed="#Bb" break="no"/>rantie que est in concupiscibili, hoc non
+        <lb ed="#Bb"/>est, nisisecundum quod concupiscibilis
+        <lb ed="#Bb"/>ordinata est ad bonum ut nunc: et hoc
+        <lb ed="#Bb"/>ex seipso susceptum est. Unde si 
+        machi<lb ed="#Bb" break="no"/>natur contra hoc, tune suadendo 
+        blan<lb ed="#Bb" break="no"/>ditur. Dicunt etiam, quod licet 
+        machi<lb ed="#Bb" break="no"/>netur contra actum spel, lamen non
+        <lb ed="#Bb"/>machinatur contra actum charilatis, quia
+        <lb ed="#Bb"/>charitas in voluntate rationabili est, 
+        su<lb ed="#Bb" break="no"/>pra quam, ut supra habitum est, demon
+        <lb ed="#Bb"/>non potest. Dicunt etiam adhuc, quod
+        <lb ed="#Bb"/>fides in ratione et in intellectu est: et
+        <lb ed="#Bb"/>si diabolus machinatur contra illam, hoc
+        <lb ed="#Bb"/>non potest facere immediate, sed per
+        <lb ed="#Bb"/>phantasiam phantasticis rationibus : et
+        <lb ed="#Bb"/>sic machinatio ejus reducitur ad illam
+        <lb ed="#Bb"/>que est, JInsidiando cireumvolat. Sic
+        <lb ed="#Bb"/>ergo dicunt sufficientem esse divisionem
+        <lb ed="#Bb"/>Gregori.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2483">
+                  <lb ed="#Bb"/>Ad primum ergo quod contra objicitur,
+        <lb ed="#Bb"/>dicendum quod oppressio illa non sonat
+        <lb ed="#Bb"/>coactionem voluntatis omnimodam, sed
+        <lb ed="#Bb"/>occasionalem : quod fit, quando multa
+        <lb ed="#Bb"/>mala ingeminantur alicui, ut ex multis
+        <lb ed="#Bb"/>amittat virtutem mansuetudinis et 
+        tran<lb ed="#Bb" break="no"/>quillitatis : sicut factum \fuit in beato
+        <lb ed="#Bb"/>Job, in quo uno nuntio referente mala,
+        <lb ed="#Bb"/>alius supervenit pejora nuntians’.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2505">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod oppressio
+        <lb ed="#Bb"/>ila ordinatur ad voluntatem et 
+        ratio<lb ed="#Bb" break="no"/>nem, sed, sicut dictum est, 
+        occasiona<lb ed="#Bb" break="no"/>liter, et non coactive : si enim coactiva
+        <lb ed="#Bb"/>esset, non esset tentatio sive 
+        machina<lb ed="#Bb" break="no"/>tio, sed violentia.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2523">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod tentatio
+        <lb ed="#Bb"/>diaboli non potest esse in aliquid, nisi
+        <lb ed="#Bb"/>ex licentia conditoris, sicut dicit Glossa
+        <lb ed="#Bb"/>super epist. 1] Petr. v, 8 : tamen quia
+        <lb ed="#Bb"/>diabolus tentando non tentat intuitu
+        <lb ed="#Bb"/>obedientie Creatoris, sed potius intuilu
+        <lb ed="#Bb"/>malitie propriz exsequende, ‘propter
+        <lb ed="#Bb"/>hoc oppressio et raptus dicuntur esse
+        <lb ed="#Bb"/>diaboli, et non Dei dantis  
+        licen<lb ed="#Bb" break="no"/>tiam.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2547">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod licet in via
+        <lb ed="#Bb"/>mandatorum, que recta est, non sit
+        <lb ed="#Bb"/>periculum ex ipsa via : tamen ex 
+        scan<lb ed="#Bb" break="no"/>dalis que sunt juxta viam, et insidiis
+        <lb ed="#Bb"/>multa pericula sunt: sicut dicilur in
+        <lb ed="#Bb"/>Psalmo cxxxix, 6: Juxta iter 
+        scanda<lb ed="#Bb" break="no"/>lum posuerunt mihi. Et in illis 
+        circum<lb ed="#Bb" break="no"/>volat insidiando. Est etiam via, ut dicit
+        <lb ed="#Bb"/>Gregorius super illud Job, xvin, 10:
+        <lb ed="#Bb"/>Abscondita est in terra pedica ejus, et
+        <lb ed="#Bb"/>decipula illius super semitam: quod
+        <lb ed="#Bb"/>via dicitur inclinatio cordis ad 
+        desidera<lb ed="#Bb" break="no"/>bilia sive delectabilia, in qua via homo
+        <lb ed="#Bb"/>sepe cadit in periculum, sicut dicilur,
+        <lb ed="#Bb"/>Proverb. xiv, 12: Est via que videtur
+        <lb ed="#Bb"/>homini recta, novissima autem ejus
+        <lb ed="#Bb"/>ducunt ad interitum. Et in hac via sepe
+        <lb ed="#Bb"/>diabolus insidiando circumvolat, 
+        obnu<lb ed="#Bb" break="no"/>bilando rationem, ne possit discernere
+        <lb ed="#Bb"/>rectum, el illiciendo voluntatem ad 
+        li<lb ed="#Bb" break="no"/>bidinosum, et sic abducat a via recta
+        <lb ed="#Bb"/>mandatorum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2597">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod 
+        cirewmvo<lb ed="#Bb" break="no"/>fare dicitur : quia per multa et non per
+        <lb ed="#Bb"/>unum insidiatur, ad similitudinem eo~
+        <lb ed="#Bb"/>rum qui in via per multos et in multis
+        <lb ed="#Bb"/>ponunt insidias : ut si unum periculum
+        <lb ed="#Bb"/>viator evadat, incidat in alterum.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2613">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+        pro<lb ed="#Bb" break="no"/>cederet, si per minas effugaret a se:
+        <lb ed="#Bb"/>sed hoc non intendit diabolus, sed per
+        <pb ed="#Bb" n="314"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>minas intendit effugare a Deo, ut sibi
+        <lb ed="#Bb"/>appropinquent.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2632">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod fractio
+        <lb ed="#Bb"/>desperationis non sonat omnimodam
+        <lb ed="#Bb"/>impossibilitatem redeundi ad salutem,
+        <lb ed="#Bb"/>sed sonat corruptionem ordinis ad hoc
+        <lb ed="#Bb"/>per quod omnia peccata remittuntur per
+        <lb ed="#Bb"/>misericordiam Dei, ad quod bono ordine
+        <lb ed="#Bb"/>ordinatur peenitens per spem. Desperans
+        <lb ed="#Bb"/>autem in eodem ordine fractus et 
+        cor<lb ed="#Bb" break="no"/>ruptus est per desperationem, sicut patet
+        <lb ed="#Bb"/>in verbis Cain, Genes. 1v, 13: Mayor
+        <lb ed="#Bb"/>est iniqguitas mea, quam ut veniam
+        <lb ed="#Bb"/>merear.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2661">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod diabolus
+        <lb ed="#Bb"/>nihil potest dare, sed fallaci promissione
+        <lb ed="#Bb"/>promittit, non vera : et ideo dicilur,
+        <lb ed="#Bb"/>quod promittendo decipit, sicut, 
+        Ge<lb ed="#Bb" break="no"/>nes. 1, 3, promisit Heve, quod futura
+        <lb ed="#Bb"/>esset sicut Deus, sciens omnia: sed 
+        de<lb ed="#Bb" break="no"/>cepit eam.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2679">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod multi sunt
+        <lb ed="#Bb"/>particulares modi machinationis : sed in
+        <lb ed="#Bb"/>communi reducuntur ad sex, sicut patet
+        <lb ed="#Bb"/>ex assignatione duplici divisionis, que
+        <lb ed="#Bb"/>in principio istius solutionis dicta est,
+        <lb ed="#Bb"/>Sive enim demon immisceat se 
+        sapori<lb ed="#Bb" break="no"/>bus ciborum, sive sanguini humano,
+        <lb ed="#Bb"/>sive aliis exterioribus vel interioribus,
+        <lb ed="#Bb"/>totum reducitur ad illam machinationem
+        <lb ed="#Bb"/>qua dicitur, Suadendo blanditur : in
+        <lb ed="#Bb"/>omnibus enim illis illicitam 
+        conversio<lb ed="#Bb" break="no"/>nem ad bonum commutabile intendit
+        <lb ed="#Bb"/>persuadere.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2710">
+                  <lb ed="#Bb"/>Per ipem patet solutio ad dictum
+        <lb ed="#Bb"/>Gregorii, quia per cibum lactuce 
+        sua<lb ed="#Bb" break="no"/>dendo blandiebatur mulieri.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2719">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod vitia 
+        capi<lb ed="#Bb" break="no"/>talia et filie eorum, que ponit 
+        Grego<lb ed="#Bb" break="no"/>rius super Job, in Glossa, licet multa
+        <lb ed="#Bb"/>sint particulariter, tamen duplici movent
+        <lb ed="#Bb"/>objecto, scilicet apparentis boni, et 
+        ap<lb ed="#Bb" break="no"/>parentis mali : ut ira est contra apparens
+        <lb ed="#Bb"/>malum, et similiter acedia, et similiter
+        <lb ed="#Bb"/>invidia. Gula vero, et luxuria, et 
+        ava<lb ed="#Bb" break="no"/>rilia in apparens bonum. Et ideo 
+        ten<lb ed="#Bb" break="no"/>tatio ire, acedie#, et invidie reducuntur
+        <lb ed="#Bb"/>ad illam machinationem que est, 
+        Mi<lb ed="#Bb" break="no"/>nando terret. Ila enim insurgit contra
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>apparentem examinationem sive 
+        irrita<lb ed="#Bb" break="no"/>tionem. Acedia vero ad difficultatem
+        <lb ed="#Bb"/>cultus Dei et servitii minatur in 
+        corde<lb ed="#Bb" break="no"/>Invidia vero minatur impedimentum
+        <lb ed="#Bb"/>excellentie vel prosperitatis propria ex
+        <lb ed="#Bb"/>bono proximi provenire. Unde omnia
+        <lb ed="#Bb"/>ista minando terrent. Alia vero peccata
+        <lb ed="#Bb"/>capitalia, que sunt per conversionem ad
+        <lb ed="#Bb"/>bonum ut nunc, sive apparens, omnia
+        <lb ed="#Bb"/>comprehenduntur sub illa machinatione
+        <lb ed="#Bb"/>que est, Swadendo blanditur.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2774">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod in somnis
+        <lb ed="#Bb"/>vera predicere, et ante tempus excitare,
+        <lb ed="#Bb"/>ad machinationem reducuniur que est,
+        <lb ed="#Bb"/>Promittendo decipere. Bonis enim 
+        qui<lb ed="#Bb" break="no"/>busdam presentibus promittit futura
+        <lb ed="#Bb"/>majora. Latratibus vero vel ictibus 
+        in<lb ed="#Bb" break="no"/>quietare psallentes, reducitur ad id quod
+        <lb ed="#Bb"/>est, Comminando terrere. Blasphemia
+        <lb ed="#Bb"/>aulem provenit ex infidelitate: et ideo
+        <lb ed="#Bb"/>sicut obnubilat circumvolando per 
+        insi<lb ed="#Bb" break="no"/>dias fidem, ut pertrahat ad infidelitatem :
+        <lb ed="#Bb"/>sic etiam insidiando circumvolat ut 
+        per<lb ed="#Bb" break="no"/>trahat ad blasphemiam.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2806">
+                  <lb ed="#Bb"/>Quop autem mathemalici vera dicunt,
+        <lb ed="#Bb"/>ut aliquando decipiant : et quod in 
+        som<lb ed="#Bb" break="no"/>niis vera revelantur, ut postea falsitas
+        <lb ed="#Bb"/>ingeratur : ad illam reducitur que est,
+        <lb ed="#Bb"/>Promittendo decipere.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2819">
+                  <lb ed="#Bb"/>Ex uis patet responsio ad sequentia
+        <lb ed="#Bb"/>duo argumenta.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2826">
+                  <lb ed="#Bb"/>Ad id quod queritur de tertia 
+        divi<lb ed="#Bb" break="no"/>sione, dicendum, quod humana tentatio
+        <lb ed="#Bb"/>dicitur ibi que fit in his sine quibus non
+        <lb ed="#Bb"/>est infirmitas humana. Diabolica autem
+        <lb ed="#Bb"/>presumptio in his que fiunt contra
+        <lb ed="#Bb"/>preceptum Dei, que provenit ex 
+        con<lb ed="#Bb" break="no"/>temptu precepti et precipientis. Et
+        <lb ed="#Bb"/>propter hoc in Glossa non ponitur 
+        dia<lb ed="#Bb" break="no"/>bolica tentatio, sed diabolica 
+        prasump<lb ed="#Bb" break="no"/>tio, et humana tentatio, Angelica 
+        per<lb ed="#Bb" break="no"/>fectio. Et dicitur presumptio diabolica
+        <lb ed="#Bb"/>quam suadet diabolus, non infirmitas
+        <lb ed="#Bb"/>humana, et que est ad imitationem 
+        dia<lb ed="#Bb" break="no"/>boli in pertinacia permanentis. Angelica
+        <lb ed="#Bb"/>vero perfectio, ut dicit Glossa, est in
+        <lb ed="#Bb"/>nullo errare, sed Deo pio et casto amore
+        <lb ed="#Bb"/>semper inherere, ut dicit Augtstinus,
+        <pb ed="#Bb" n="315"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Infirmitatis vero humane est tentari.
+        <lb ed="#Bb"/>Kt hee tentatio que cadit in humanam
+        <lb ed="#Bb"/>infirmitatem : aut est pro bonis anime,
+        <lb ed="#Bb"/>aut pro bonis aliis. Si pro bonis anime:
+        <lb ed="#Bb"/>tunc est in periculis, que pro bonis 
+        ani<lb ed="#Bb" break="no"/>me retinendis sustinemus. Kt tunc est
+        <lb ed="#Bb"/>duobus modis : homo enim in periculo
+        <lb ed="#Bb"/>aut habet possibilitatem evadendi 
+        peri<lb ed="#Bb" break="no"/>culum, aut non. Si est cum possibilitate
+        <lb ed="#Bb"/>evadendi periculum : tune est illa quam
+        <lb ed="#Bb"/>dicit Glossa, quod <quote xml:id="Almn78-d67345-Qd1e2893"> in necessitate vel
+          <lb ed="#Bb"/>pressura non diffidat homo de Deo,
+          <lb ed="#Bb"/>auxilium humanum querendo. </quote> Si 
+        au<lb ed="#Bb" break="no"/>tem est in impossibilitate evadendi 
+        pe<lb ed="#Bb" break="no"/>riculum : tunc est illa quam dicit 
+        Glos<lb ed="#Bb" break="no"/>sa, <quote xml:id="Almn78-d67345-Qd1e2906"> Pati pro Christo, humana tentatio
+          <lb ed="#Bb"/>est. </quote> Et ideo dicit Glossa, quod ille
+        <lb ed="#Bb"/>due tentationes sunt, per quas proficitur
+        <lb ed="#Bb"/>apud Deum: nec dicuntur tentationes,
+        <lb ed="#Bb"/>nisi quia sunt interrogationes 
+        infirmi<lb ed="#Bb" break="no"/>tatis humane, utrum constanter Deo
+        <lb ed="#Bb"/>adhereat. Si autem tentatio est pro 
+        bo<lb ed="#Bb" break="no"/>nis aliis, ad infirmitatem tamen 
+        huma<lb ed="#Bb" break="no"/>nam pertinentibus : tunc multiplicatur
+        <lb ed="#Bb"/>secundum tres vires que referuntur ad
+        <lb ed="#Bb"/>opus hujus vite. Et illa quidem que
+        <lb ed="#Bb"/>est aliter sapere quam res se habet
+        <lb ed="#Bb"/>cum bono animo, non usque ad 
+        singu<lb ed="#Bb" break="no"/>laritatem sensus condendi schismatis vel
+        <lb ed="#Bb"/>heresis, sumpta est penes opus rationis.
+        <lb ed="#Bb"/>Mla vero que amare est ea sine quibus
+        <lb ed="#Bb"/>vita ista non ducitur, sumpta est penes
+        <lb ed="#Bb"/>opus concupiscibilis. Hla vero cum quis
+        <lb ed="#Bb"/>irascitur in fratrem studio correctionis,
+        <lb ed="#Bb"/>plus tamen quam tranguillitas humana
+        <lb ed="#Bb"/>postulat, sumpta est penes opus 
+        irasci<lb ed="#Bb" break="no"/>bilis.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2956">
+                  <lb ed="#Bb"/>Et sic patet quomodo terminatur, et
+        <lb ed="#Bb"/>quod sufliciens sit divisio humane 
+        ten<lb ed="#Bb" break="no"/>talionis.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2965">
+                  <lb ed="#Bb"/>Pater etiam solutio ad objecta: 
+        hu<lb ed="#Bb" break="no"/>mana enim tentatio non dividitur contra
+        <lb ed="#Bb"/>diabolicam tentationem, sed contra 
+        dia<lb ed="#Bb" break="no"/>bolicam presumplionem : et ideo non
+        <lb ed="#Bb"/>oportet, quod si una cst multiplex, quod
+        <lb ed="#Bb"/>et alia : licet enim quedam tentatio sit
+        <lb ed="#Bb"/>a carne, quedam a mundo, semper 
+        ta<lb ed="#Bb" break="no"/>men sunt in his qu pertinent ad 
+        pre<lb ed="#Bb" break="no"/>sentem vitam.
+      </p>
+               <p xml:id="Almn78-d67345-d1e2987">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod non dicitur
+        <lb ed="#Bb"/>diabolica tentatio, quod sit ad 
+        similitudi<lb ed="#Bb" break="no"/>nem tentationis diaboli: sed dicitur 
+        dia<lb ed="#Bb" break="no"/>bolica presumptio, propter rationem
+        <lb ed="#Bb"/>que dicta est.
+      </p>
+               <p xml:id="Almn78-d67345-d1e3004">
+                  <lb ed="#Bb"/>Ao auiup dicendum, quod pro Christo
+        <lb ed="#Bb"/>pati non dicitur tentatio, nisi pro tanto,
+        <lb ed="#Bb"/>quia est interrogatio infirmitatis 
+        huma<lb ed="#Bb" break="no"/>ne, uirum constanter Deo adhereat, ut
+        <lb ed="#Bb"/>jam dictum est.
+      </p>
+               <p xml:id="Almn78-d67345-d1e3017">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod quzrere
+        <lb ed="#Bb"/>consilium humanum, pradentie virlutis
+        <lb ed="#Bb"/>est: famen ratione ejus quod dicitur in
+        <lb ed="#Bb"/>periculis interrogatio, infirmitatis 
+        hu<lb ed="#Bb" break="no"/>mane est, ef ex hoc accipit nomen 
+        ten<lb ed="#Bb" break="no"/>tationis.
+      </p>
+               <p xml:id="Almn78-d67345-d1e3033">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod in periculis
+        <lb ed="#Bb"/>ubi grex queritur, et non pastor, non
+        <lb ed="#Bb"/>potest homo confugere ad auxilium 
+        hu<lb ed="#Bb" break="no"/>manum, et evadere : sed tunc habet 
+        lo<lb ed="#Bb" break="no"/>cum quod dicitur, Joan. x, 14 : Bonus
+        <lb ed="#Bb"/>pastor animam suam dat pro ovibus
+        <lb ed="#Bb"/>suis. Sed ubi queritur pastor, et non
+        <lb ed="#Bb"/>grex, potest et debet confugere ad 
+        con<lb ed="#Bb" break="no"/>silium humanum, et evadere : quia tunc
+        <lb ed="#Bb"/>grex aliunde habet confortationem : et
+        <lb ed="#Bb"/>sic effugit Paulus.
+      </p>
+               <p xml:id="Almn78-d67345-d1e3059">
+                  <lb ed="#Bb"/>Per Hoc patet solutio ad sequens :
+        <lb ed="#Bb"/>iste enim est sensus Glosse, que 
+        indu<lb ed="#Bb" break="no"/>citur ibidem.
+      </p>
+               <p xml:id="Almn78-d67345-d1e3068">
+                  <lb ed="#Bb"/>Av vuttmum quod de Philosopho
+        <lb ed="#Bb"/>objicitur, patet solutio per antedicta :
+        <lb ed="#Bb"/>quia non oportet, quod multiplex sit
+        <lb ed="#Bb"/>presumptio diabolica, cum non 
+        oppo<lb ed="#Bb" break="no"/>natur humane tentationi que multiplex
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d67345-d1e3084">
+                  <lb ed="#Bb"/>Av w quod ulterius queritur, Quid
+        <lb ed="#Bb"/>sit tentare Deum ?
+      </p>
+               <p xml:id="Almn78-d67345-d1e3092">
+                  <lb ed="#Bb"/>Dicendum, quod secundum Glossam
+        <lb ed="#Bb"/>super Deuter. vi, 13, Deum tentat, qui
+        <lb ed="#Bb"/>habens quid faciat, sine ratione 
+        com<lb ed="#Bb" break="no"/>mittit se et fidem periculo, volens 
+        expe<lb ed="#Bb" break="no"/>riri utrum possit liberari a Deo. Et ideo
+        <lb ed="#Bb"/>tentatio Dei supponit tria, scilicet 
+        po<lb ed="#Bb" break="no"/>stulationem miraculi sine ratione 
+        utili<lb ed="#Bb" break="no"/>tatis, et quod committat se vel fidem
+        <lb ed="#Bb"/>periculo, tamquam per hoc velit experiri
+        <lb ed="#Bb"/>utrum Deo sit credendum. Unde imper
+        <pb ed="#Bb" n="316"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>fecta fides est in corde tentantis Deum.
+        <lb ed="#Bb"/>Kt hoc expres-e dicit Glossa super illum
+        <lb ed="#Bb"/>versum 9 Psalmi xciv : Ubi me 
+        tenta<lb ed="#Bb" break="no"/>verunt patres vestri. Vicit enim, quod
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d67345-Qd1e3131">dolose miraculum postulaverunt, in
+          <lb ed="#Bb"/>corde non credentes. </quote> Hoc etiam patet
+        <lb ed="#Bb"/>ex ipsa serie historia Exodi, xvi, 2 et
+        <lb ed="#Bb"/>seq., ubi dubitantes utram Deus posset
+        <lb ed="#Bb"/>dare panem in deserto, et parare 
+        men<lb ed="#Bb" break="no"/>sam populo suo, remiserunt notam
+        <lb ed="#Bb"/>imperfecte fidei, dicentes : Estne 
+        Do<lb ed="#Bb" break="no"/>minus in nobis, an nont?
+      </p>
+               <p xml:id="Almn78-d67345-d1e3150">
+                  <lb ed="#Bb"/>Ad id quod ulterius queritur de 
+        pro<lb ed="#Bb" break="no"/>fectu tentationis, dicendum, quod _licet
+        <lb ed="#Bb"/>ad multa valeant tentaliones, tamen
+        <lb ed="#Bb"/>Beda assignat quatuor ad que 
+        speciali<lb ed="#Bb" break="no"/>ter valent, scilicet ad delicti 
+        emunda<lb ed="#Bb" break="no"/>tionem : et hujus exemplum dicit esse
+        <lb ed="#Bb"/>Mariam sororem Moysi*. Et ad virtutum
+        <lb ed="#Bb"/>probationem : et hujus exemplum dicit
+        <lb ed="#Bb"/>esse in Job et Tobia. Et ad humilitatem
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>et experimentum proprie fragilitatis et
+        <lb ed="#Bb"/>virtulis : et hujus exemplum dicit esse
+        <lb ed="#Bb"/>in Paulo?. Et ad gloriam Dei 
+        manife<lb ed="#Bb" break="no"/>standam : et hujus exemplum dicit esse
+        <lb ed="#Bb"/>in ceco nato*. Glossa tamen super
+        <lb ed="#Bb"/>Mattheum, iv, 1 et seq., sic dicit : <quote xml:id="Almn78-d67345-Qd1e3186">
+          Om<lb ed="#Bb" break="no"/>nibus que in mundo sunt ut armis utitur
+          <lb ed="#Bb"/>diaholus contra nos. Nam nihil est in
+          <lb ed="#Bb"/>mundo, sicut dicitur, I Joan. nu, 16, nisi
+          <lb ed="#Bb"/>concupiscentia carnis, concupiscentia
+          <lb ed="#Bb"/>oculorum, et superbia vite. In his enim
+          <lb ed="#Bb"/>tribus omnia genera tentationum 
+          com<lb ed="#Bb" break="no"/>prehenduntur. </quote> Sed sciendum, quod
+        <lb ed="#Bb"/>Glossa illa non distinguit speciales 
+        mo<lb ed="#Bb" break="no"/>dos tenlationis, sed genera tentationum
+        <lb ed="#Bb"/>distinguit penes generalia objecta et
+        <lb ed="#Bb"/>generales fines peccatorum. Omne enim
+        <lb ed="#Bb"/>peccatum hominis fit aut propter 
+        con<lb ed="#Bb" break="no"/>cupiscentiam carnis, aut propter 
+        su<lb ed="#Bb" break="no"/>perbiam vite, aut propter 
+        concupiscen<lb ed="#Bb" break="no"/>tiam oculorum.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

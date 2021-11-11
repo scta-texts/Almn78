@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 99</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 99</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="231"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h51331"><!-- p2t16q99 -->
+            <head xml:id="Almn78-h51331-Hd1e106">Quaestio 99</head>
+            <head xml:id="Almn78-h51331-Hd1e109" type="question-title">De voluntate et annexis</head>
+            <p xml:id="Almn78-h51331-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAESTIO XCIX.
+<lb ed="#Bc"/>De voluntate et annexis.
+</p>
+            <p xml:id="Almn78-h51331-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur ratione ejus quod
+<lb ed="#Bc"/>dicitur in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXVI, cap. Voluntatem ipsam.
+</p>
+            <p xml:id="Almn78-h51331-d1e132">
+               <lb ed="#Bc"/>Primo queritur, Quid sit voluntas, et
+<lb ed="#Bc"/>que divisio voluntatis ?
+<lb ed="#Bc"/>Et secundo, De synderesi, quid sit,
+<lb ed="#Bc"/>an aliquando peccet, et utrum in toto
+<lb ed="#Bc"/>possit exstingui vel non?
+<lb ed="#Bc"/>Et tertio, Quid sit conscientia, et in
+<lb ed="#Bc"/>quo differt a synderesi, et proheresi?
+</p>
+            <div xml:id="Almn78-h51331-Dd1e151">
+               <head xml:id="Almn78-h51331-Hd1e153">Membrum 1</head>
+               <head xml:id="Almn78-h51331-Hd1e156" type="question-title">
+        Quid sit voluntas, et de divisione
+        ipsius?
+      </head>
+               <p xml:id="Almn78-h51331-d1e159">
+                  <pb ed="#Bc" n="232"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit voluntas, et de divisione
+<lb ed="#Bc"/>ipsius?
+</p>
+               <p xml:id="Almn78-h51331-d1e172">
+                  <lb ed="#Bc"/>Primo ergo quaritur, Quid sit 
+volun<lb ed="#Bc" break="no"/>tas, et que divisio ipsius ?
+  
+<lb ed="#Bc"/>1. Dicit autem Augustinus in libro de
+<lb ed="#Bc"/>Duabus animabus : <quote xml:id="Almn78-h51331-Qd1e182"> Voluntas est animi
+<lb ed="#Bc"/>motus, cogente nullo ad aliquid non 
+ad<lb ed="#Bc" break="no"/>mittendum, vel adipiscendum. </quote>
+               </p>
+               <p xml:id="Almn78-h51331-d1e190">
+                  <lb ed="#Bc"/>Et de hac definitione queritur, Utrum
+<lb ed="#Bc"/>data sit de voluntate que est potentia,
+<lb ed="#Bc"/>vel de voluntate que est actus ?
+</p>
+               <p xml:id="Almn78-h51331-d1e200">
+                  <lb ed="#Bc"/>Si de voluntate ut potentia: tunc non
+<lb ed="#Bc"/>esset dicendum, quod voluntas est animi
+<lb ed="#Bc"/>motus: quia potentia non est motus. Si
+<lb ed="#Bc"/>autem de motu sive de actu: tunc 
+ile<lb ed="#Bc" break="no"/>rum videtur inconveniens, quod 
+deter<lb ed="#Bc" break="no"/>minat motum potentie quam non 
+de<lb ed="#Bc" break="no"/>terminavit.
+</p>
+               <p xml:id="Almn78-h51331-d1e218">
+                  <lb ed="#Bc"/>2. Adhuc, Damascenus determinans
+<lb ed="#Bc"/>de voluntate inlibro WT de Fide 
+ortho<lb ed="#Bc" break="no"/>doxa, dicit sic: <quote xml:id="Almn78-h51331-Qd1e226"> Oportet scire, quod
+<lb ed="#Bc"/>anime inserta est naturaliter virtus 
+ap<lb ed="#Bc" break="no"/>petitiva ejus quod secundum naturam
+<lb ed="#Bc"/>est, et omnium que nature 
+substantia<lb ed="#Bc" break="no"/>liter conferunt, expetitiva est ea, que
+<lb ed="#Bc"/>vocatur voluntas *. </quote> Et illa est alia 
+de<lb ed="#Bc" break="no"/>finitio ab illa quam dat Augustinus.
+</p>
+               <p xml:id="Almn78-h51331-d1e242">
+                  <lb ed="#Bc"/>Sed contra hance similiter objicitur:
+<lb ed="#Bc"/>quia voluntas non est tantum appetitus
+<lb ed="#Bc"/>naturalium, sed in omnibus, sicut dicit
+<lb ed="#Bc"/>Philosophus, voluntas semper est finis:
+<lb ed="#Bc"/>consilium autem et electio sunt eorum
+<lb ed="#Bc"/>que sunt ad finem.
+</p>
+               <p xml:id="Almn78-h51331-d1e258">
+                  <lb ed="#Bc"/>3. Adhuc, Damascenus, ibidem 
+expo<lb ed="#Bc" break="no"/>nens quomodo voluntas sit eorum que
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>sunt secundum naturam, dicit sic :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h51331-Qd1e271"> Substantia et esse et vivere et moveri
+<lb ed="#Bc"/>secundum intellectum et sensum appetit,
+<lb ed="#Bc"/>propriam concupiscens et plenam 
+essen<lb ed="#Bc" break="no"/>tiam. </quote> Secundum hoc videtur, quod
+<lb ed="#Bc"/>voluntas non sit nisi de his que sunt
+<lb ed="#Bc"/>ordinata ad essentiam : quod omnino
+<lb ed="#Bc"/>falsum est.
+</p>
+               <p xml:id="Almn78-h51331-d1e287">
+                  <lb ed="#Bc"/>4, Adhuc, Damascenus ibidem intra
+<lb ed="#Bc"/>dicit sic: <quote xml:id="Almn78-h51331-Qd1e293"> Voluntas est ipse rationalis
+<lb ed="#Bc"/>et naturalis appetitus, et simpliciter
+<lb ed="#Bc"/>mixtus cum natura, et est nature 
+con<lb ed="#Bc" break="no"/>stitutivorum.</quote> Et hoc videtur iterum esse
+<lb ed="#Bc"/>falsum : quia voluntas est multorum
+<lb ed="#Bc"/>que naturam non constituunt.
+</p>
+               <p xml:id="Almn78-h51331-d1e307">
+                  <lb ed="#Bc"/>5. Adhuc, Aristoteles in IT Lthieorum
+<lb ed="#Bc"/>dicit, quod voluntarium est, cujus 
+prin<lb ed="#Bc" break="no"/>cipium est in ipso conscienle singularia
+<lb ed="#Bc"/>in quibus est actus: et talia sunt multa
+<lb ed="#Bc"/>que ad consistentiam nature non 
+per<lb ed="#Bc" break="no"/>tinent.
+</p>
+               <p xml:id="Almn78-h51331-d1e324">
+                  <lb ed="#Bc"/>6. Adhuc, Anselmus dicit, quod <quote xml:id="Almn78-h51331-Qd1e328"> 
+vo<lb ed="#Bc" break="no"/>luntas est universalis motor omnium
+<lb ed="#Bc"/>potentiarum anima. </quote> Cum enim dico,
+<lb ed="#Bc"/>Possum ambulare, subintelligitur, si
+<lb ed="#Bc"/>volo. Similiter cum dicitur, Possum
+<lb ed="#Bc"/>loqui. Et similiter cum dicitur, Possum
+<lb ed="#Bc"/>intelligere, possum videre, et sic de aliis.
+<lb ed="#Bc"/>Et sic voluntas de omnibus est que sunt
+<lb ed="#Bc"/>in liberlate nostra facere vel non facere,
+<lb ed="#Bc"/>sicut Aristoteles dicit, quod voluntaria
+<lb ed="#Bc"/>sunt, quorum principium est in nobis.
+</p>
+               <p xml:id="Almn78-h51331-d1e353">
+                  <lb ed="#Bc"/>7. Adhuc, Damascenus ibidem dividit
+<lb ed="#Bc"/>voluntatem in 6éAnow et GodAyow. Et dicit,
+<lb ed="#Bc"/>quod voluntas 6y0:¢ naturalis et 
+ratio<lb ed="#Bc" break="no"/>nalis est appetitus omnium nature 
+con<lb ed="#Bc" break="no"/>slitutivorum, et simplex virtus : qui enim
+<lb ed="#Bc"/>appetitus est aliorum non existens 
+ratio<lb ed="#Bc" break="no"/>nalis, non dicitur voluntas. BoSAqe 
+au<lb ed="#Bc" break="no"/>tem voluntas est qualiscumque naturalis
+<lb ed="#Bc"/>gidqas, id est, voluntas. Et exponitur,
+<lb ed="#Bc"/>scilicet naturalis et rationalis appetitus
+<lb ed="#Bc"/>alicujus rei. Nam injacet quidem homi
+<pb ed="#Bc" n="233"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>nis anime virtus rationabilis appetendi.
+<lb ed="#Bc"/>Cum igitur naturalis motus fuerit, ipse
+<lb ed="#Bc"/>naturalis appetitus ad aliquam rem 
+di<lb ed="#Bc" break="no"/>citur 6odAnos, id est, voluntas 
+consilia<lb ed="#Bc" break="no"/>tiva.
+</p>
+               <p xml:id="Almn78-h51331-d1e395">
+                  <lb ed="#Bc"/>Soxtvtio. Dicendum, quod Augustinus
+<lb ed="#Bc"/>optime definit voluntatem per 
+definitio<lb ed="#Bc" break="no"/>nem que ponitur in littera.
+</p>
+               <p xml:id="Almn78-h51331-d1e404">
+                  <lb ed="#Bc"/>Ad id quod primo queritur, Utrum
+<lb ed="#Bc"/>definiat motum vel potentiam ?
+</p>
+               <p xml:id="Almn78-h51331-d1e411">
+                  <lb ed="#Bc"/>Dicendum, quod definit potentiam in
+<lb ed="#Bc"/>actu sive in motu existentem: illa enim
+<lb ed="#Bc"/>perfectissima est. Et propter hoc dicit,
+<lb ed="#Bc"/>quod voluntas est motus animi. Et quia
+<lb ed="#Bc"/>talis cogi non potest, quia libera est ad
+<lb ed="#Bc"/>omnia que voluerit facere, sicut dicit
+<lb ed="#Bc"/>Augustinus, propter hoc dicit, Cogente
+<lb ed="#Bc"/>nullo. Quia quod cogitur, causa sui non
+<lb ed="#Bc"/>est, et per consequens liberum non est.
+<lb ed="#Bc"/>Dicit enim Aristoteles in primo prime
+<lb ed="#Bc"/>philosophie, quod liberum dicimus, qui
+<lb ed="#Bc"/>causa sui est. Et si libera non est, 
+vo<lb ed="#Bc" break="no"/>luntas non est. Et quia potentie 
+ratio<lb ed="#Bc" break="no"/>nales sunt ad opposita, ideo addit, Ad
+<lb ed="#Bc"/>aliquid non admitiendum, vel 
+adipi<lb ed="#Bc" break="no"/>scendum. Utrumque in potestate et 
+li<lb ed="#Bc" break="no"/>bertate habet: et non agitur vel cogitur
+<lb ed="#Bc"/>ad aliquos actus, sed habet in libertate
+<lb ed="#Bc"/>facere vel non facere.
+</p>
+               <p xml:id="Almn78-h51331-d1e455">
+                  <lb ed="#Bc"/>Ad id quod objicitur de Damasceno,
+<lb ed="#Bc"/>dicendum quod non intendit 
+Damasce<lb ed="#Bc" break="no"/>nus definire in genere voluntatem, sed
+<lb ed="#Bc"/>venatur ibi divisionem voluntatis in
+<lb ed="#Bc"/>bé\nov, id est, naturalem : et So5Axeu, id
+<lb ed="#Bc"/>est, consiliativam sive deliberativam,
+<lb ed="#Bc"/>sicut patet per verba inducta. 
+Quocum<lb ed="#Bc" break="no"/>que tamen modo voluntas sumatur, sive
+<lb ed="#Bc"/>naturalis, sive deliberativa, semper est
+<lb ed="#Bc"/>motus animi liber sui, qui nullo cogente
+<lb ed="#Bc"/>impellitur ad ea que facit, et adipiscitur
+<lb ed="#Bc"/>que adipiscitur, et non agitur ad aliquid,
+<lb ed="#Bc"/>sed agit ex propria libertate. Et ideo
+<lb ed="#Bc"/>ibidem dicit, quod libere appetit, et 
+li<lb ed="#Bc" break="no"/>bere inquirit et scrutatur, et libere 
+judi<lb ed="#Bc" break="no"/>cat, et libere disponit, et libere impetum
+<lb ed="#Bc"/>facit. De his tamen multum dictum est
+<lb ed="#Bc"/>in questione de libero arbitrio. Unde
+<lb ed="#Bc"/>verba Damasceni nihil faciunt ad defini
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tionem, sed ad divisionem. Unde ibidem
+<lb ed="#Bc"/>dicit, quod in Ui) Lthicorum dicit 
+Aristo<lb ed="#Bc" break="no"/>teles, quod voluntas impossibilium est :
+<lb ed="#Bc"/>volumus enim esse immortales, quod
+<lb ed="#Bc"/>impossibile est. Tamen antiqui, scilicet
+<lb ed="#Bc"/>Prepositivus, et Gulielmus de 
+Altisio<lb ed="#Bc" break="no"/>doro dixerunt, quod voluntas 
+impossi<lb ed="#Bc" break="no"/>bilium non est, sed velleitas quedam
+<lb ed="#Bc"/>sub conditione accepta: vellemus enim
+<lb ed="#Bc"/>si esset possibile. Et ratio eorum fuit,
+<lb ed="#Bc"/>quia, sicut dicit Aristoteles in III de
+<lb ed="#Bc"/>Anima, cap. de movente, non fit motus,
+<lb ed="#Bc"/>nisi fiat initium per intellectum et per
+<lb ed="#Bc"/>phantasiam. De impossibili autem non
+<lb ed="#Bc"/>potest fieri initium per intellectum : eo
+<lb ed="#Bc"/>quod falsum et impossibile numquam
+<lb ed="#Bc"/>scitur : propter quod etiam perfectus
+<lb ed="#Bc"/>motus voluntatis non potest esse In 
+im<lb ed="#Bc" break="no"/>possibile et falsum.
+</p>
+               <p xml:id="Almn78-h51331-d1e543">
+                  <lb ed="#Bc"/>Ad hoc quod contra objicitur, 
+dicen<lb ed="#Bc" break="no"/>dum quod generaliter et per se loquendo
+<lb ed="#Bc"/>voluntas semper finis est: tamen hec
+<lb ed="#Bc"/>eadem in naturalibus vocatur $:Aqs:, a
+<lb ed="#Bc"/>o2dnua Greco, quod est naturale: et in
+<lb ed="#Bc"/>deliberativis et consiliativis vocatur
+<lb ed="#Bc"/>GovAnats : GodAnors enim in Greco idem est
+<lb ed="#Bc"/>quod consiliativum.
+</p>
+               <p xml:id="Almn78-h51331-d1e563">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod non intendit
+<lb ed="#Bc"/>Damascenus dicere, quod voluntas in se
+<lb ed="#Bc"/>non sit naturalium, sed intendit, quod
+<lb ed="#Bc"/>omnibus existenlibus viventibus, 
+sentien<lb ed="#Bc" break="no"/>tibus, rationabilibus sit insertus quidam
+<lb ed="#Bc"/>naturalis appetitus appelendi omnium
+<lb ed="#Bc"/>eorum que faciunt ad nature 
+consisten<lb ed="#Bc" break="no"/>tiam et conservationem, qui in 
+rationa<lb ed="#Bc" break="no"/>bilibus dicitur voluntas geArote : in 
+ir<lb ed="#Bc" break="no"/>rationabilibus autem non potest dici
+<lb ed="#Bc"/>voluntas, sed appetitus naturalis. Quia
+<lb ed="#Bc"/>dicit Aristoteles et Joannes 
+Damasce<lb ed="#Bc" break="no"/>nus, et Gregorius Nyssenus, quod omnis
+<lb ed="#Bc"/>voluntas in ratione est: eo quod non
+<lb ed="#Bc"/>potest esse omnino liberum ad actus nisi
+<lb ed="#Bc"/>rationalis anima. Alia enim irrationalia
+<lb ed="#Bc"/>animalia magis aguntur quam agant, ut
+<lb ed="#Bc"/>dicit Damascenus: et ideo etiam non
+<lb ed="#Bc"/>possunt habere liberum arbitrium, ut in
+<lb ed="#Bc"/>prehabitis satis determinatum est.
+</p>
+               <p xml:id="Almn78-h51331-d1e609">
+                  <lb ed="#Bc"/>Ad aliud dicendum similiter, quod
+<lb ed="#Bc"/>Damascenus ibi non investigat definitio
+<pb ed="#Bc" n="234"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>nem voluntatis ut voluntas est: sed 
+tan<lb ed="#Bc" break="no"/>tum illam partem que dicitur 92dyo:s.
+</p>
+               <p xml:id="Almn78-h51331-d1e625">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod voluntas
+<lb ed="#Bc"/>deliberativa aliorum est quam 92Aysx.
+<lb ed="#Bc"/>Sed voluntarium in genere definit 
+Ari<lb ed="#Bc" break="no"/>stoteles: et illud est cujus principium est
+<lb ed="#Bc"/>in ipso consciente singularia in quibus
+<lb ed="#Bc"/>est actus: et opponitur duplici 
+involun<lb ed="#Bc" break="no"/>tario, scilicet per violentiam, et per 
+igno<lb ed="#Bc" break="no"/>rantiam. Involuntarium per violentiam
+<lb ed="#Bc"/>est, cujus principium est in alio nil 
+con<lb ed="#Bc" break="no"/>ferente vim passo. Et contra hoc 
+dici<lb ed="#Bc" break="no"/>tur in definitione voluntarii, Cujus
+<lb ed="#Bc"/>principium est in ipso. Tnvoluntarium
+<lb ed="#Bc"/>autem per ignorantiam est, quod casu
+<lb ed="#Bc"/>preter intentionem agentis fit, sicut
+<lb ed="#Bc"/>si aliquis in loco consueto ad 
+exercitan<lb ed="#Bc" break="no"/>dum projicit sagittas, et casu obviat
+<lb ed="#Bc"/>homo, et occiditur, in quem numquam
+<lb ed="#Bc"/>aliquid machinatus fuit projiciens 
+sagit<lb ed="#Bc" break="no"/>tas. Et propter hoc dicitur in definitione
+<lb ed="#Bc"/>voluntarii, Consciente singularia in 
+qui<lb ed="#Bc" break="no"/>bus est actus.
+</p>
+               <p xml:id="Almn78-h51331-d1e673">
+                  <lb ed="#Bc"/>Adhuc tamen secundum Aristotelem,
+<lb ed="#Bc"/>et Damascenum, et Gregorium 
+Nysse<lb ed="#Bc" break="no"/>num, sunt quedam operationes mixte
+<lb ed="#Bc"/>magis cum volutates quam 
+involunta<lb ed="#Bc" break="no"/>rie@, sicut est projectio mercium tempore
+<lb ed="#Bc"/>tempestatis de navi ne submergatur :
+<lb ed="#Bc"/>que dicuntur magis voluntarie, quia
+<lb ed="#Bc"/>principium est in ipso agente : mixte
+<lb ed="#Bc"/>tamen, quia aliquid compellit ad hoc ut
+<lb ed="#Bc"/>hoc eligatur.
+</p>
+               <p xml:id="Almn78-h51331-d1e697">
+                  <lb ed="#Bc"/>Ad 10 quod dicitur de Anselmo, 
+di<lb ed="#Bc" break="no"/>cendum, quod revera libertas que est in
+<lb ed="#Bc"/>voluntate, diffunditur per omnia que
+<lb ed="#Bc"/>sunt anime, et etiam hominis, et sic
+<lb ed="#Bc"/>generalis motor est voluntas omnium 
+vi<lb ed="#Bc" break="no"/>rium anime. Et hoc satis dictum est in
+<lb ed="#Bc"/>questione de dibero arbitrio.
+</p>
+               <p xml:id="Almn78-h51331-d1e716">
+                  <lb ed="#Bc"/>Ad utrimum dicendum, quod 
+Damasce<lb ed="#Bc" break="no"/>nus ibi non investigat definitionem 
+vo<lb ed="#Bc" break="no"/>luntatis, ut dictum est, sed divisionem
+<lb ed="#Bc"/>voluntatis in naturalem, et 
+constituti<lb ed="#Bc" break="no"/>vam. Et naturalis dicitur illa, que est
+<lb ed="#Bc"/>omnium natura constituentium, que di-
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>citur <foreign>6é4y5:¢.</foreign> Alia vero, scilicet 
+operabi<lb ed="#Bc" break="no"/>lium per nos, dicitur <foreign>6047s</foreign>, sive 
+consi<lb ed="#Bc" break="no"/>liativa.
+</p>
+            </div>
+            <div xml:id="Almn78-h51331-Dd1e748">
+               <head xml:id="Almn78-h51331-Hd1e750">Membrum 2</head>
+               <head xml:id="Almn78-h51331-Hd1e753" type="question-title">
+        De synderesi
+      </head>
+               <p xml:id="Almn78-h51331-d1e756">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De synderesi
+</p>
+               <p xml:id="Almn78-h51331-d1e763">
+                  <lb ed="#Bc"/>Secundo, Queritur de synderesi.
+</p>
+               <p xml:id="Almn78-h51331-d1e768">
+                  <lb ed="#Bc"/>Primo, Quid sit ?
+<lb ed="#Bc"/>Et secundo Utrum contingat eam 
+ali<lb ed="#Bc" break="no"/>guando peccare ?
+<lb ed="#Bc"/>Et tertio, Utrum in toto possit 
+exstin<lb ed="#Bc" break="no"/>gui vel non ?
+</p>
+               <div xml:id="Almn78-h51331-Dd1e782">
+                  <head xml:id="Almn78-h51331-Hd1e784">Articulus 1</head>
+                  <head xml:id="Almn78-h51331-Hd1e787" type="question-title">
+          Quid sit synderesis?
+        </head>
+                  <p xml:id="Almn78-h51331-d1e790">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Quid sit synderesis?
+</p>
+                  <p xml:id="Almn78-h51331-d1e799">
+                     <lb ed="#Bc"/>Primo queritur, Quid sit synderesis ?
+<lb ed="#Bc"/>Et videtur, quod sit potentia quedam
+<lb ed="#Bc"/>anime rationalis : quia
+</p>
+                  <p xml:id="Almn78-h51331-d1e808">
+                     <lb ed="#Bc"/>1. Ita dicit <ref xml:id="Almn78-h51331-Rd1e812">
+                        <name xml:id="Almn78-h51331-Nd1e814">Gregorius</name>
+                     </ref> in <ref xml:id="Almn78-h51331-Rd1e818">Glossa super
+<lb ed="#Bc"/>illud Ezechielis, 1, 10: <quote xml:id="Almn78-h51331-Qd1e822">Facies aquile
+<lb ed="#Bc"/>desuper ipsorum quatuor</quote>
+                     </ref>, sic : <quote xml:id="Almn78-h51331-Qd1e828"> Dicunt
+<lb ed="#Bc"/>plerique juxta <name xml:id="Almn78-h51331-Nd1e832">Platonem</name> rationabilitatem
+<lb ed="#Bc"/>intelligi in facie hominis, irascibilitatem
+<lb ed="#Bc"/>in facie leonis, concupiscibilitatem in
+<lb ed="#Bc"/>facie bovis, quartam ponentes super has,
+<lb ed="#Bc"/>quam Greci vocant synderesim, que 
+<lb ed="#Bc"/>intelligitur in facie aquile, que est 
+de<lb ed="#Bc" break="no"/>super ipsorum quatuor. </quote> Sed aliae tres
+<lb ed="#Bc"/>sunt potentie anime. Ergo et quarta que
+<lb ed="#Bc"/>synderesis dicitur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e856">
+                     <lb ed="#Bc"/>2. Adhuc, Malach. n, 15 : Custodite
+<pb ed="#Bc" n="235"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>spiritum vestrum, et uxorem 
+adolescen<lb ed="#Bc" break="no"/>tie tue nolite despicere. Super illud
+<lb ed="#Bc"/>Hieronymus in Glossa: <quote xml:id="Almn78-h51331-Qd1e871"> Per uxorem
+<lb ed="#Bc"/>adolescentie intelligit legem naturalem
+<lb ed="#Bc"/>scriptam in corde et in spiritu. Spiritus
+<lb ed="#Bc"/>vero dicitur non animalis pars que non
+<lb ed="#Bc"/>percipit que Dei sunt, sed rationalis
+<lb ed="#Bc"/>spiritus, get postulat pro nobis gemitibus
+<lb ed="#Bc"/>inenarrabilibus. <!-- quotation close unclear --></quote> Ergo videtur, quod
+<lb ed="#Bc"/>spiritus sit rationalis pars in nobis, qua
+<lb ed="#Bc"/>homo inclinatur in Deum, cui sicut viro
+<lb ed="#Bc"/>conjungitur lex naturalis a principio 
+vi<lb ed="#Bc" break="no"/>tae, et inclinat ad ea que Dei sunt, et
+<lb ed="#Bc"/>que sunt secundum naturam : sed illa
+<lb ed="#Bc"/>non est alia potentia quam synderesis :
+<lb ed="#Bc"/>ergo synderesis est pars rationis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e904">
+                     <lb ed="#Bc"/>3. Adhuc, Synderesis et sensualitas ex
+<lb ed="#Bc"/>opposito dividuntur in partibus anime :
+<lb ed="#Bc"/>quia sensualitas semper instigat ad 
+ma<lb ed="#Bc" break="no"/>lum, et synderesis semper ad bonum.
+<lb ed="#Bc"/>Sed sensualitas est potentia. Ergo et 
+syn<lb ed="#Bc" break="no"/>deresis : quia opposita sunt in eodem
+<lb ed="#Bc"/>genere.
+</p>
+                  <p xml:id="Almn78-h51331-d1e922">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in libro I de Baptismo
+<lb ed="#Bc"/>parvulorum': <quote xml:id="Almn78-h51331-Qd1e930"> Si rationem ipsam que
+<lb ed="#Bc"/>adhue velut quieta et quasi sopita in
+<lb ed="#Bc"/>parvulis latet, tamen inserta et 
+quodam<lb ed="#Bc" break="no"/>modo inseminata, illuminationem voluit
+<lb ed="#Bc"/>appellare, tamquam interioris oculi 
+crea<lb ed="#Bc" break="no"/>tionem, non renitendum est tunc eam
+<lb ed="#Bc"/>fieri cum anima creatur, et cum homo
+<lb ed="#Bc"/>venit in mundum *. </quote> Tlud lumen cum
+<lb ed="#Bc"/>semper illuminet ad bonum, non videtur
+<lb ed="#Bc"/>aliud esse quam synderesis : et illud 
+lu<lb ed="#Bc" break="no"/>men est habitus non potentia : ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod synderesis est habitus et
+<lb ed="#Bc"/>non potentia.
+</p>
+                  <p xml:id="Almn78-h51331-d1e960">
+                     <lb ed="#Bc"/>2. Adhuc, In intelligibilibus sive 
+con<lb ed="#Bc" break="no"/>templativis Phllosophi posuerunt lumen
+<lb ed="#Bc"/>semper incendens ad verum, quod est
+<lb ed="#Bc"/>intellectus agens : qui (sicut dicit 
+Aristo<lb ed="#Bc" break="no"/>teles in ITT de Anima) est in anima sicut
+<lb ed="#Bc"/>lux que repugnat falso et illuminat ad
+<lb ed="#Bc"/>verum. Cum ergo hoc magis necessa
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>rium sit in practicis quam in speculativis,
+<lb ed="#Bc"/>ad perfectionem rationalis anime 
+perti<lb ed="#Bc" break="no"/>net, quod in operabilibus sive practicis
+<lb ed="#Bc"/>sit lumen inclinans semper in bonum, et
+<lb ed="#Bc"/>remurmurans malo : hoc autem lumen
+<lb ed="#Bc"/>non potest esse nisi synderesis, quia 
+di<lb ed="#Bc" break="no"/>recte habet actum synderesis, et lumen
+<lb ed="#Bc"/>est habitus et non potentia : ergo 
+syn<lb ed="#Bc" break="no"/>deresis est habitus et non potentia.
+</p>
+                  <p xml:id="Almn78-h51331-d1e999">
+                     <lb ed="#Bc"/>3. Adhuc, Objiciunt quidam logice sic:
+<lb ed="#Bc"/>Synderesis et fomes ex opposito 
+dividun<lb ed="#Bc" break="no"/>tur : quia fomes semper instigat ad 
+ma<lb ed="#Bc" break="no"/>Jum, synderesis semper ad bonum :
+<lb ed="#Bc"/>fomes est habitus ; ergo synderesis est
+<lb ed="#Bc"/>habitus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1015">
+                     <lb ed="#Bc"/>4, Adhuc, Synderesis et proheresis ex
+<lb ed="#Bc"/>opposito se habent : proheresis enim
+<lb ed="#Bc"/>est habitus deliberativus, ut dicit 
+Philo<lb ed="#Bc" break="no"/>sophus inI Ethicorum: proheresis est
+<lb ed="#Bc"/>habitus : ergo synderesis est 
+habi<lb ed="#Bc" break="no"/>tus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1032">
+                     <lb ed="#Bc"/>Sotvtio. Ad hoc quidam valde leviter
+<lb ed="#Bc"/>solvunt, et bene dicentes, quod 
+synde<lb ed="#Bc" break="no"/>resis dicit potentiam cum habitu 
+com<lb ed="#Bc" break="no"/>pletam.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1043">
+                     <lb ed="#Bc"/>Et ad omnia que inducta sunt, una
+<lb ed="#Bc"/>sola responsione respondent, quod 
+ra<lb ed="#Bc" break="no"/>tione potentie quam dicit, numeratur
+<lb ed="#Bc"/>cum potentiis a Sanctis, et a Philosophis,
+<lb ed="#Bc"/>maxime Platonicis : ratione vero habitus
+<lb ed="#Bc"/>numeratur cum habitibus : et sic dicunt
+<lb ed="#Bc"/>solutum esse quidquid est objectum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1061">
+                     <lb ed="#Bc"/>Sed Ex ista determinatione sequitur
+<lb ed="#Bc"/>major difficultas. Si enim dicit 
+poten<lb ed="#Bc" break="no"/>tiam : tunc queritur, quam potentiam ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e1070">
+                     <lb ed="#Bc"/>1. Et videtur, quod rationem : quia
+<lb ed="#Bc"/>dicitur scintilla rationis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1077">
+                     <lb ed="#Bc"/>2. Adhuc, Super illud Job, 1, 15 :
+<lb ed="#Bc"/>Evasi ego solus, ut nuntiarem tibi,
+<lb ed="#Bc"/>Gregorius : <quote xml:id="Almn78-h51331-Qd1e1085"> Unus qui evasit, rationis
+<lb ed="#Bc"/>est discretio, que ad animum redit et
+<lb ed="#Bc"/>que admissa nuntiat, ut quod 
+preoccu<lb ed="#Bc" break="no"/>pata mens perdidit, afflicta recuperet.</quote>
+                     <pb ed="#Bc" n="236"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Ille autem unus synderesis est, ut dicunt
+<lb ed="#Bc"/>Sancti. Ergo synderesis est aliquid 
+ra<lb ed="#Bc" break="no"/>tionis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1106">
+                     <lb ed="#Bc"/>3. Adhuc, Augustinus in libro I de
+<lb ed="#Bc"/>Baptismo parvulorum : <quote xml:id="Almn78-h51331-Qd1e1112"> Ratio insita
+<lb ed="#Bc"/>sive inseminata lumen anime dicitur '. </quote>
+                     <lb ed="#Bc"/>Hoc aulem lumen dicitur synderesis. Ergo
+<lb ed="#Bc"/>synderesis est ratio.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1123">
+                     <lb ed="#Bc"/>4, Adhuc, Luc. x, 30, super illud :
+<lb ed="#Bc"/>Abierunt, semivivo relicto, Glossa :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h51331-Qd1e1131"> Immortalitatem exuere poterant, sed
+<lb ed="#Bc"/>rationis sensum abolere non possunt
+<lb ed="#Bc"/>quin, homo sapere et Deum possit 
+cc<lb ed="#Bc" break="no"/>gnoscere. <!-- quotation close unclear --> </quote> Sed hoc rationis lumen quod
+<lb ed="#Bc"/>aboleri non potest, est synderesis. Ergo
+<lb ed="#Bc"/>synderesis est ratio vel aliquid rationis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1148">
+                     <lb ed="#Bc"/>5. Adhuc, Augustinus in libro IE de
+<lb ed="#Bc"/>Libero arbitrio sic dicit : <quote xml:id="Almn78-h51331-Qd1e1154"> Ante omne
+<lb ed="#Bc"/>meritum boni operis,non est parvum 
+ac<lb ed="#Bc" break="no"/>cepisse naturale judicativum quo 
+sapien<lb ed="#Bc" break="no"/>tiam praeponat errori, quieti 
+difficulta<lb ed="#Bc" break="no"/>tem. </quote> Jllud autem ratio est et 
+syndere<lb ed="#Bc" break="no"/>sis. Ergo videtur, quod synderesis sit
+<lb ed="#Bc"/>aliquid rationis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1170">
+                     <lb ed="#Bc"/>6. Adhuc, Hoc videtur per Basilium,
+<lb ed="#Bc"/>qui dicit quod lex naturalis scripta est in
+<lb ed="#Bc"/>naturali judicatorio. Judicatorium autem
+<lb ed="#Bc"/>ratio est. Lex naturalis scripta est in
+<lb ed="#Bc"/>synderesi : quia secundum illam semper
+<lb ed="#Bc"/>agit ad bonum. Ergo videtur, quod 
+syn<lb ed="#Bc" break="no"/>deresis vel ratio sit vel aliquid rationis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1188">
+                     <lb ed="#Bc"/>Utrerius queritur, Utrum sit 
+volun<lb ed="#Bc" break="no"/>tas ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e1195">
+                     <lb ed="#Bc"/>Et videtur, quod sic : quia, sicut jam
+<lb ed="#Bc"/>habitum est in questione de voluntate,
+<lb ed="#Bc"/>voluntas est duplex : naturalis, et 
+delibe<lb ed="#Bc" break="no"/>rativa : et dictum est, quod naturalis
+<lb ed="#Bc"/>semper tendit ad hoc quod amat : amat
+<lb ed="#Bc"/>autem hoc quod secundum naturam est:
+<lb ed="#Bc"/>nihil autem ita secundum naturam est,
+<lb ed="#Bc"/>sicut odire et remurmurare malo, et
+<lb ed="#Bc"/>amare et appetere bonum divinum : quia
+<lb ed="#Bc"/>dicit Damascenus, quod peccatum est
+<lb ed="#Bc"/>recessio ab eo quod secundum naturam
+<lb ed="#Bc"/>est in id quod contra naturam est. Cum
+<lb ed="#Bc"/>ergo hoc sit synderesis : et cujuscunque
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>est actus, ejus etiam est potentia,
+<lb ed="#Bc"/>ut dicit Philosophus, videtur, quod 
+syn<lb ed="#Bc" break="no"/>deresis nihil aliud sit quam voluntas
+<lb ed="#Bc"/>rationalis appetens bonum et dissentiens
+<lb ed="#Bc"/>malo.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1239">
+                     <lb ed="#Bc"/>Soxvtio. Hoc solvere non est difficile. aa qugg
+</p>
+                  <p xml:id="Almn78-h51331-d1e1245">
+                     <lb ed="#Bc"/>Dicendum enim, quod ratio duplex est
+<lb ed="#Bc"/>in anima, scilicet contemplativa, penes
+<lb ed="#Bc"/>quam dicit Dionysius discursas 
+discipli<lb ed="#Bc" break="no"/>nas fieri in anima, que fiunt per 
+colla<lb ed="#Bc" break="no"/>tionem rationis. Est etiam ratio practica,
+<lb ed="#Bc"/>secundum quam, ut dicit Aristoteles in
+<lb ed="#Bc"/>libro de Laudabilibus bonis, a Platone
+<lb ed="#Bc"/>suscipimus animam divisam esse in tres
+<lb ed="#Bc"/>partes, scilicet in rationalem, 
+concupi<lb ed="#Bc" break="no"/>scibilem, et irascibilem : secundum hoc
+<lb ed="#Bc"/>enim ratio est vis anime ordinans de
+<lb ed="#Bc"/>agendis et non agendis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1274">
+                     <lb ed="#Bc"/>Cum ergo queritur, Si synderesis sit
+<lb ed="#Bc"/>aliquid rationis ? Dicendum, quod sit
+<lb ed="#Bc"/>rationis practice, que est ordinativa de
+<lb ed="#Bc"/>agendis : illius enim scintilla dicitur,
+<lb ed="#Bc"/>semper inclinans ad bonum, et 
+remur<lb ed="#Bc" break="no"/>murans malo. Et hoc intendunt Sancti
+<lb ed="#Bc"/>qui ponunt eam esse aliquid rationis.
+<lb ed="#Bc"/>Sed nihil est rationis speculative 
+secun<lb ed="#Bc" break="no"/>dum quam speculativas scientias 
+accipi<lb ed="#Bc" break="no"/>mus ratiocinando.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1298">
+                     <lb ed="#Bc"/>Sonuirer cum queritur, Si sit aliquid ad quest
+<lb ed="#Bc"/>voluntatis ? distinguendum, quod duplex
+<lb ed="#Bc"/>est voluntas, naturalis scilicet, et 
+delibe<lb ed="#Bc" break="no"/>rativa : et concedendum est, quod non
+<lb ed="#Bc"/>est sine voluntate naturali, sed nihil est
+<lb ed="#Bc"/>voluntatis deliberative.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1314">
+                     <lb ed="#Bc"/>Et secundum hunc modum procedunt
+<lb ed="#Bc"/>objectiones ad utramque partem, sicut
+<lb ed="#Bc"/>facile est videre cuilibet : nec oportet de
+<lb ed="#Bc"/>hoc plus dici.
+</p>
+               </div>
+               <div xml:id="Almn78-h51331-Dd1e1326">
+                  <head xml:id="Almn78-h51331-Hd1e1328">Articulus 2</head>
+                  <head xml:id="Almn78-h51331-Hd1e1331" type="question-title">
+          Utrum contingat synderesim aliquando
+          peccare?
+        </head>
+                  <p xml:id="Almn78-h51331-d1e1334">
+                     <pb ed="#Bc" n="237"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Utrum contingat synderesim aliquando
+<lb ed="#Bc"/>peccare?
+</p>
+                  <p xml:id="Almn78-h51331-d1e1350">
+                     <lb ed="#Bc"/>Querendum est ulterius, Utrum 
+con<lb ed="#Bc" break="no"/>tingat synderesim aliquando peccare ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e1357">
+                     <lb ed="#Bc"/>Et videtur, quod sic : .
+<lb ed="#Bc"/>1. Gregorius super Exzechielem dicit
+<lb ed="#Bc"/>sic, et loquitur de synderesi sive de 
+con<lb ed="#Bc" break="no"/>scientia : <quote xml:id="Almn78-h51331-Qd1e1367"> Hanc tamen videmus 
+ali<lb ed="#Bc" break="no"/>quando precipitari, cum impius in 
+pro<lb ed="#Bc" break="no"/>fundum venerit: tunc enim contemnit,
+<lb ed="#Bc"/>sicut dicitur, Proverb. xviu, 3: Impius
+<lb ed="#Bc"/>cum in profundum peccatorum venerit,
+<lb ed="#Bc"/>contemnit </quote> Talis contemptus non fit
+<lb ed="#Bc"/>sine peccato. Ergo synderesis aliquando
+<lb ed="#Bc"/>peccat.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1387">
+                     <lb ed="#Bc"/>2. Adhuc, Nihil punitur eternaliter in
+<lb ed="#Bc"/>homine nisi quod mortaliter peccat. Due
+<lb ed="#Bc"/>sunt pene ewterne, ignis scilicet, et
+<lb ed="#Bc"/>vermis conscientie. Vermis conscientie
+<lb ed="#Bc"/>eternus est. Isa. yxvi, 24: Vermis corum
+<lb ed="#Bc"/>non morietur, ef ignis eorum non 
+exstin<lb ed="#Bc" break="no"/>guetur : et erunt usque ad satietatem
+<lb ed="#Bc"/>visionis omni carni. Quod tractans bea-
+{us Bernardus in Cantica, dicit sic :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h51331-Qd1e1408"> Horreo ignem urentem, catenam 
+stri<lb ed="#Bc" break="no"/>dentem, vermem rodentem. </quote> Vermis
+<lb ed="#Bc"/>autem in conscientia sive in synderesi
+<lb ed="#Bc"/>est, et non insequitur nisi peccatum.
+<lb ed="#Bc"/>Ergo oportet, quod peccatum sit in 
+syn<lb ed="#Bc" break="no"/>deresi et in conscientia. Ergo peccat 
+ali<lb ed="#Bc" break="no"/>quando.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1425">
+                     <lb ed="#Bc"/>ConTRA :
+<lb ed="#Bc"/>1. Opposita simul inesse non possunt
+<lb ed="#Bc"/>secundum idem : semper remurmurare
+<lb ed="#Bc"/>peccato et malo, et aliquando consentire
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>peccato sunt opposita contradictorie :
+<lb ed="#Bc"/>quia si aliquando consentit, non 
+remur<lb ed="#Bc" break="no"/>murat semper : ergo haec circa idem non
+<lb ed="#Bc"/>possunt esse simul : synderesis est sem~
+<lb ed="#Bc"/>per remurmurare peccato: ergo 
+num<lb ed="#Bc" break="no"/>quam potest consentire peccato : ef non
+<lb ed="#Bc"/>fit peccatum nisi per consensum : ergo
+<lb ed="#Bc"/>synderesis non potest peccare.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1456">
+                     <lb ed="#Bc"/>2. Adhuc, Synderesis est consentire in
+<lb ed="#Bc"/>bonum, et dissentire in malum in 
+com<lb ed="#Bc" break="no"/>muni, et non in particulari : peccatum
+<lb ed="#Bc"/>omne fit in particularibus actibus : ergo
+<lb ed="#Bc"/>nullum peccatum fit secundum 
+syndere<lb ed="#Bc" break="no"/>sim.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1472">
+                     <lb ed="#Bc"/>Sonutio. Ad hoc dicendum sicut 
+di<lb ed="#Bc" break="no"/>xerunt antiqui, Prepositivus et 
+Altisio<lb ed="#Bc" break="no"/>dorensis, quod synderesis proprium est
+<lb ed="#Bc"/>non peccare secundum se : tamen habet
+<lb ed="#Bc"/>duas comparationes : unam scilicet ad
+<lb ed="#Bc"/>superius, et secundum hanc numquam
+<lb ed="#Bc"/>peccat : alteram que est ad inferius
+<lb ed="#Bc"/>quod regit, hoc est, ad liberum 
+arbi<lb ed="#Bc" break="no"/>trium, et ad rationem, et ad voluntatem
+<lb ed="#Bc"/>extra quas et supra quas est, ut dicit
+<lb ed="#Bc"/>Gregorius : et secundum hunc modum
+<lb ed="#Bc"/>precipitatur per accidens, sicut miles 
+ca<lb ed="#Bc" break="no"/>dente equo : qui casus non est vitium
+<lb ed="#Bc"/>militis, sed equi : et non refertur ad
+<lb ed="#Bc"/>militem, nisi quia non tenuit per franum
+<lb ed="#Bc"/>ne cespitaret. Ita aliquando imputatur
+<lb ed="#Bc"/>synderesi peccatum rationis, voluntatis,
+<lb ed="#Bc"/>et liberi arbitrii : quia non tenuit ne 
+ca<lb ed="#Bc" break="no"/>deret.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1516">
+                     <lb ed="#Bc"/>Et sic respondent ad primum : quia
+<lb ed="#Bc"/>sic videmus eam precipitari, non culpa
+<lb ed="#Bc"/>sua, sed inferiorum : cum impius in 
+pro<lb ed="#Bc" break="no"/>fundum venerit, et non continet 
+volun<lb ed="#Bc" break="no"/>tatem ab appetitu illiciti, nec rationem a
+<lb ed="#Bc"/>judicio injusto, in quo preponit iniquum
+<lb ed="#Bc"/>equo : et ideo cadere dicitur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1534">
+                     <lb ed="#Bc"/>Ad aliud dicvitur eodem modo, scilicet
+<lb ed="#Bc"/>quod vermis in conscientia non rodit
+<lb ed="#Bc"/>nisi sicut peccatum est in ea : et hoc est
+<lb ed="#Bc"/>quia inferiores vires quibus supereminet
+<lb ed="#Bc"/>non continuit, cum tamen semper in se
+<pb ed="#Bc" n="238"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>recta fuerit. Sicut etiam Philosophus 
+di<lb ed="#Bc" break="no"/>cit in III de Anima de intellectu regente
+<lb ed="#Bc"/>et movente, quod intellectus semper est
+<lb ed="#Bc"/>rectus, phantasia autem recta et non
+<lb ed="#Bc"/>recta.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1564">
+                     <lb ed="#Bc"/>Ad aliud duo que in contrarium 
+obji<lb ed="#Bc" break="no"/>ciuntur, dicendum quod primum 
+proce<lb ed="#Bc" break="no"/>dit.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1573">
+                     <lb ed="#Bc"/>Ad sxcunpum dicendum, quod sicut
+<lb ed="#Bc"/>respicit inferiores vires quas continere
+<lb ed="#Bc"/>debet, ita etiam respicit particularia que
+<lb ed="#Bc"/>sunt in actibus illarum virium, et sic 
+im<lb ed="#Bc" break="no"/>putatur ei peccatum quod fit in 
+tali<lb ed="#Bc" break="no"/>bus.
+</p>
+               </div>
+               <div xml:id="Almn78-h51331-Dd1e1590">
+                  <head xml:id="Almn78-h51331-Hd1e1592">Articulus 3</head>
+                  <head xml:id="Almn78-h51331-Hd1e1595" type="question-title">
+          Utrum contingat synderesim in toto
+          exstingui, vel non
+        </head>
+                  <p xml:id="Almn78-h51331-d1e1598">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS II,
+<lb ed="#Bc"/>Utrum contingat synderesim in toto
+<lb ed="#Bc"/>exstingui, vel non ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e1609">
+                     <lb ed="#Bc"/>Deinde queritur, Si contingat eam in
+<lb ed="#Bc"/>toto exstingui?
+</p>
+                  <p xml:id="Almn78-h51331-d1e1616">
+                     <lb ed="#Bc"/>Et videtur, quod sic : quia
+<lb ed="#Bc"/>1. Heresiarche sunt quibus dictat
+<lb ed="#Bc"/>conscientia, quod pro sua perfidia 
+defen<lb ed="#Bc" break="no"/>denda debeant exponere vitam : et hoc
+<lb ed="#Bc"/>est error et malum : ergo in eis non 
+re<lb ed="#Bc" break="no"/>murmurat malo: etsic videtur in toto
+<lb ed="#Bc"/>exstincta.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1635">
+                     <lb ed="#Bc"/>2. Adhuc, Ezechiel. 1, 10, super 
+il<lb ed="#Bc" break="no"/>lud : Facies aquile desuper ipsorum 
+qua<lb ed="#Bc" break="no"/>tuor, Glossa Hieronymi : <quote xml:id="Almn78-h51331-Qd1e1643"> Per faciem
+<lb ed="#Bc"/>aquile scintilla conscientie significatur,
+<lb ed="#Bc"/>que synderesis dicitur: et hance quoque
+<lb ed="#Bc"/>videmus precipitari et locum suum
+<lb ed="#Bc"/>amittere, cum impius in profundum 
+ve<lb ed="#Bc" break="no"/>nerit et contemnit *. </quote> Sed locum non
+<lb ed="#Bc"/>amittit nisi exstinguatur. Ergo videtur,
+<lb ed="#Bc"/>quod in talibus exstinguitur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1662">
+                     <lb ed="#Bc"/>3. Adhuc, Jerem. un, 16: Filii Mem
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>pheos et Taphnes constupraverunt te
+<lb ed="#Bc"/>usque ad verticem. Glossa Hieronymi :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h51331-Qd1e1675"> Malignus spiritus de membris 
+inferio<lb ed="#Bc" break="no"/>ribus usque ad verticem pertingit, 
+quan<lb ed="#Bc" break="no"/>do castam celsitudinem mentis 
+diffiden<lb ed="#Bc" break="no"/>tiae morbus corrumpit. </quote> Celsitudo mentis
+<lb ed="#Bc"/>synderesis est. Ergo videtur, quod 
+syn<lb ed="#Bc" break="no"/>deresis corrumpitur : ergo et 
+extingui<lb ed="#Bc" break="no"/>tur,
+</p>
+                  <p xml:id="Almn78-h51331-d1e1691">
+                     <lb ed="#Bc"/>4, Adhuc, Super illud Psalmi xu, { :
+<lb ed="#Bc"/>Corrupti sunt et abominabiles facti sunt,
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-h51331-Qd1e1699"> Omni vi rationis privati. </quote>
+                     <lb ed="#Bc"/>Quedam vis rationis est synderesis.
+<lb ed="#Bc"/>Ergo aliquando privatur et 
+exstingui<lb ed="#Bc" break="no"/>tur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1710">
+                     <lb ed="#Bc"/>3, Adhuc, Quidam objiciunt sic :
+<lb ed="#Bc"/>Fomes et synderesis ex opposito se
+<lb ed="#Bc"/>habent quantum ad actus : fomes 
+exstin<lb ed="#Bc" break="no"/>guitur in quibusdam, sicut in beata
+<lb ed="#Bc"/>Virgine ex plenitudine gratie : ergo
+<lb ed="#Bc"/>synderesis exstinguitur in quibusdam
+<lb ed="#Bc"/>propter multitudinem culpz.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1728">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>4. Isa. txvi, 24: Vermis eorum non
+<lb ed="#Bc"/>morietur. Glossa, ibidem, <quote xml:id="Almn78-h51331-Qd1e1736"> Vermis
+<lb ed="#Bc"/>scintilla conscientiae est, que est 
+synde<lb ed="#Bc" break="no"/>resis, que etiam in damnatis semper
+<lb ed="#Bc"/>remurmurat malo. </quote> Ergo numquam
+<lb ed="#Bc"/>exstinguitur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1748">
+                     <lb ed="#Bc"/>2. Adhuc, Sapient. v, 2 et 8 : 
+Dicen<lb ed="#Bc" break="no"/>tes intra se, penitentiam agentes, et pre
+<lb ed="#Bc"/>angustia spiritus gementes :... Quid
+<lb ed="#Bc"/>nobis profuit superbia ? Ergo in 
+damna<lb ed="#Bc" break="no"/>tis remorsus conscientie est ad malum :
+<lb ed="#Bc"/>ergo non exstinguitur in totum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1765">
+                     <lb ed="#Bc"/>3. Adhuc, Luc. xvi, 24, super illud :
+<lb ed="#Bc"/>Mitte Lazarum, ut intingat extremum
+<lb ed="#Bc"/>digiti sui in aguam, Glossa : <quote xml:id="Almn78-h51331-Qd1e1773"> Petiit
+<lb ed="#Bc"/>dives, ut extremo digiti Lazari 
+refrige<lb ed="#Bc" break="no"/>rium sentiret, et nuntiaret quinque
+<lb ed="#Bc"/>fratribus suis, ne venirent in hunc locum
+<lb ed="#Bc"/>tormentorum. Quia reproborum mentem
+<lb ed="#Bc"/>pena sua quandoque inutiliter erudit ad
+<lb ed="#Bc"/>dilectionem, ut tunc etiam suos 
+speciali<lb ed="#Bc" break="no"/>ter diligant, qui hic dum peccata 
+dilige<lb ed="#Bc" break="no"/>rent, nec se amabant. Petiit ergo et sibi
+<lb ed="#Bc"/>bonum et aliis. </quote> Ergo videtur, quod in
+<pb ed="#Bc" n="239"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>damnatis non omnino exstincta est, sed
+<lb ed="#Bc"/>remurmuret malo et desideret bonum et
+<lb ed="#Bc"/>sibi et aliis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1807">
+                     <lb ed="#Bc"/>4. Adhuc, Ibidem alia Glossa, <quote xml:id="Almn78-h51331-Qd1e1811"> 
+Ser<lb ed="#Bc" break="no"/>vatur diviti ad peenam et cognilio 
+paupe<lb ed="#Bc" break="no"/>ris quem despexit, et memoria fratrum
+<lb ed="#Bc"/>quos reliquit, ut de visa despecti gloria,
+<lb ed="#Bc"/>et de peena inutiliter amatorum amplius
+<lb ed="#Bc"/>torqueatur. </quote> Ergo videtur cum tortura
+<lb ed="#Bc"/>illa sit in conscientia, quod vermis non
+<lb ed="#Bc"/>moritur,nec synderesis exstinguitur quin
+<lb ed="#Bc"/>remurmuret malo.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1831">
+                     <lb ed="#Bc"/>5. Adhuc, Dionysius in libro de Divinis
+<lb ed="#Bc"/>nominibus, dicit de demonibus sic :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h51331-Qd1e1839"> Data illis naturalia dona nequaquam ea
+<lb ed="#Bc"/>mutata esse dicimus, sed sunt integra et
+<lb ed="#Bc"/>splendidissima : quamvis ipsi non 
+vi<lb ed="#Bc" break="no"/>deant,claudentes suorum boni inspectivas
+<lb ed="#Bc"/>virtutes '. </quote> Synderesis aulem est datum
+<lb ed="#Bc"/>naturale. Ergo in damnatis non omnino
+<lb ed="#Bc"/>exstinguitur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1856">
+                     <lb ed="#Bc"/>6. Adhuc, Bernardus in libro de 
+Libe<lb ed="#Bc" break="no"/>ro arbitrio : <quote xml:id="Almn78-h51331-Qd1e1862"> Quomodo non est ibi
+<lb ed="#Bc"/>aliquid sapere ubi mala que tolerantur,
+<lb ed="#Bc"/>cogunt peenitere malorum que facta
+<lb ed="#Bc"/>sunt. Numquid in tormentis est 
+poni<lb ed="#Bc" break="no"/>tere, aut poenitere non est sapere ? </quote>
+                     <lb ed="#Bc"/>Ergo videtur, quod pcenitere et aliquid
+<lb ed="#Bc"/>sapere per synderesim, sit in damnatis
+<lb ed="#Bc"/>sapere : ergo non exstinguitur in toto.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1881">
+                     <lb ed="#Bc"/>7. Adhuc, Hieronymus dicit, quod in
+<lb ed="#Bc"/>Cain scintilla conscientia non 
+exstingue<lb ed="#Bc" break="no"/>batur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1890">
+                     <lb ed="#Bc"/>Sotvtio. Dicendum, quod scintilla
+<lb ed="#Bc"/>conscientiae sive synderesis in nullo nec
+<lb ed="#Bc"/>viatore,- nec damnato exstinguitur ex
+<lb ed="#Bc"/>toto : sed actus ejus duplex est, scilicet
+<lb ed="#Bc"/>inclinatio ab bonum, et murmuratio
+<lb ed="#Bc"/>contra malum. Quantum ad 
+inelinatio<lb ed="#Bc" break="no"/>nem ad bonum in damnatis exstinguitur.
+<lb ed="#Bc"/>Quantum ad remurmurationem mali 
+ha<lb ed="#Bc" break="no"/>bet duplicem actum, scilicet 
+remurmu<lb ed="#Bc" break="no"/>rare malo quia malum, et hunc amittit
+<lb ed="#Bc"/>in damnatis : et remurmurare malo in
+<lb ed="#Bc"/>comparatione ad pcenam que sentitur ex
+<lb ed="#Bc"/>peccato, et hunc numquam amittit nec
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>in viatore nec in damnato : semper enim
+<lb ed="#Bc"/>vellent non commisisse hoc malum 
+pro<lb ed="#Bc" break="no"/>pter quod ita cruciantur. Et haec solutio
+<lb ed="#Bc"/>est antiquorum et bona : quia concordat
+<lb ed="#Bc"/>dictis Sanctorum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1935">
+                     <lb ed="#Bc"/>Ad primum ergo dicendum, quod in
+<lb ed="#Bc"/>heresiarchis synderesis non in toto 
+ex<lb ed="#Bc" break="no"/>stinguitur : hoc enim verum est quod
+<lb ed="#Bc"/>dicit conscientia heretico, quod vita pro
+<lb ed="#Bc"/>tide ponenda est: sed error rationis qui
+<lb ed="#Bc"/>dicit, quod hac heresis est fides, ita 
+ob<lb ed="#Bc" break="no"/>nubilat eam, quod actum remorsionis
+<lb ed="#Bc"/>habere non potest.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1955">
+                     <lb ed="#Bc"/>Ad aliud superius jam responsum est :
+<lb ed="#Bc"/>quia non amittit locum, nec precipitatur
+<lb ed="#Bc"/>nisi ratione inferiorum potentiarum, 
+ra<lb ed="#Bc" break="no"/>tionis scilicet, et voluntatis, etiam 
+li<lb ed="#Bc" break="no"/>beri arbitrii, sicut miles cadit cadente
+<lb ed="#Bc"/>equo. :
+</p>
+                  <p xml:id="Almn78-h51331-d1e1971">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod celsitudo
+<lb ed="#Bc"/>mentis dicitur ibi superior portio 
+ratio<lb ed="#Bc" break="no"/>nis, et non synderesis. In argumento
+<lb ed="#Bc"/>autem est fallacia accidentis : quia arguit
+<lb ed="#Bc"/>ac si idem necesse sit predicato et 
+acci<lb ed="#Bc" break="no"/>denti inesse.
+</p>
+                  <p xml:id="Almn78-h51331-d1e1987">
+                     <lb ed="#Bc"/>Ad aliud recte eodem modo 
+dicen<lb ed="#Bc" break="no"/>dum est, quod vis rationis ibi non 
+dici<lb ed="#Bc" break="no"/>tur synderesis, sed superior portio 
+ratio<lb ed="#Bc" break="no"/>nis deliberative. In processu autem est
+<lb ed="#Bc"/>fallacia accidentis sicut in priori.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2000">
+                     <lb ed="#Bc"/>Ad wuztimum dicendum, quod non est
+<lb ed="#Bc"/>simile de fomite et synderesi : quia 
+syn<lb ed="#Bc" break="no"/>deresis est de datis nature : et ideo 
+na<lb ed="#Bc" break="no"/>tura manente non corrumpitur nec 
+ex<lb ed="#Bc" break="no"/>stinguitur in toto: fomes autem est de
+<lb ed="#Bc"/>causatis a culpa et a peccato : et ideo in
+<lb ed="#Bc"/>his in quibus gratia ad plenum datur, in
+<lb ed="#Bc"/>toto tollitur.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2020">
+                     <lb ed="#Bc"/>Ea gu objiciuntur in contrarium, ad object.
+<lb ed="#Bc"/>concedenda sunt.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-h51331-Dd1e2029">
+               <head xml:id="Almn78-h51331-Hd1e2031">Membrum 3</head>
+               <head xml:id="Almn78-h51331-Hd1e2034" type="question-title">
+        De conscientia, utrum sit potentia vel
+        habitus ? Et si est habitus, qualis
+        sit ille ?
+      </head>
+               <p xml:id="Almn78-h51331-d1e2037">
+                  <pb ed="#Bc" n="240"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>De conscientia, utrum sit potentia vel
+<lb ed="#Bc"/>habitus ? Et si est habitus, qualis
+<lb ed="#Bc"/>sit ille ?
+</p>
+               <p xml:id="Almn78-h51331-d1e2053">
+                  <lb ed="#Bc"/>Denne queritur de conscientia, Utrum
+<lb ed="#Bc"/>sit potentia vel habitus ?
+<lb ed="#Bc"/>Et si est habitus, qualis sit ille ?
+<lb ed="#Bc"/>Et, Utrum sit idem quod synderesis
+<lb ed="#Bc"/>vel non ?
+</p>
+               <div xml:id="Almn78-h51331-Dd1e2066">
+                  <head xml:id="Almn78-h51331-Hd1e2068">Articulus 1</head>
+                  <head xml:id="Almn78-h51331-Hd1e2071" type="question-title">
+        Utrum synderesis sit potentia, vel
+        habitus
+      </head>
+                  <p xml:id="Almn78-h51331-d1e2074">
+                     <lb ed="#Bc"/>MEMBRI TERTII
+<lb ed="#Bc"/>ARTICULUS TI.
+<lb ed="#Bc"/>Utrum synderesis sit potentia, vel
+<lb ed="#Bc"/>habitus ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2085">
+                     <lb ed="#Bc"/>Videtur autem, quod non sit potentia,
+<lb ed="#Bc"/>sed habitus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2092">
+                     <lb ed="#Bc"/>1. Quando enim aliquid predicatur
+<lb ed="#Bc"/>essentialiter de alio, passiones et 
+diffe<lb ed="#Bc" break="no"/>rentie predicati predicabuntur de 
+subje<lb ed="#Bc" break="no"/>cto, per illam regulam quam dat 
+Aristo<lb ed="#Bc" break="no"/>teles in Predicamentis : <quote xml:id="Almn78-h51331-Qd1e2105"> Quando
+<lb ed="#Bc"/>alterum de altero predicatur ut de 
+subje<lb ed="#Bc" break="no"/>cto, quecumque de praedicato dicuntur,
+<lb ed="#Bc"/>de subjecto dici necesse est. </quote> Potentia
+<lb ed="#Bc"/>anime substantialis pars anime est, que
+<lb ed="#Bc"/>non potest pradicari de conscientia, quia
+<lb ed="#Bc"/>conscientia aliquando est et aliquando
+<lb ed="#Bc"/>non est, quod non convenit parti 
+ani<lb ed="#Bc" break="no"/>me. Ergo conscientia non est potentia
+<lb ed="#Bc"/>anime.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2129">
+                     <lb ed="#Bc"/>2. Adhuc, Damascenus : <quote xml:id="Almn78-h51331-Qd1e2133"> Conscientia
+<lb ed="#Bc"/>aliquando recta est, et aliquando 
+erro<lb ed="#Bc" break="no"/>nea : aliquando tranquilla, aliquando
+<lb ed="#Bc"/>perturbata : aliquando munda, aliquan
+<cb ed="#Bc" n="b"/>
+                        <lb ed="#Bc" break="no"/>do immunda : quorum nihil convenit
+<lb ed="#Bc"/>potentie anime </quote> ergo conscientia non
+<lb ed="#Bc"/>est anime potentia.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2152">
+                     <lb ed="#Bc"/>3. Adhuc, Damascenus : <quote xml:id="Almn78-h51331-Qd1e2156"> Conscientia
+<lb ed="#Bc"/>est lex nostri intellectus : </quote> lex nostri
+<lb ed="#Bc"/>intellectus non est potentia, sed potius
+<lb ed="#Bc"/>habitus naturalis insitus nobis : habitus
+<lb ed="#Bc"/>naturaliter insitus nobis non est potentia*
+<lb ed="#Bc"/>licet sit in potentia : ergo videtur, quod
+<lb ed="#Bc"/>conscientia non sit potentia, sed potius
+<lb ed="#Bc"/>habitus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2175">
+                     <lb ed="#Bc"/>Sed runc ulterius queritur, Utrum
+<lb ed="#Bc"/>sit habitus naturalis vel acquisitus ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2182">
+                     <lb ed="#Bc"/>Et videtur, quod acquisitus : quia
+<lb ed="#Bc"/>aliquando quis habet conscientiam de re
+<lb ed="#Bc"/>quam prius non habuit. Et hujus est
+<lb ed="#Bc"/>exemplum : quia dato mandato a 
+prin<lb ed="#Bc" break="no"/>cipe vela Deo, aliquis habet conscientiam
+<lb ed="#Bc"/>de transgressione mandati quam prius
+<lb ed="#Bc"/>non habuit: quod non posset si 
+natura<lb ed="#Bc" break="no"/>liter esset insita : tunc enim haberet se
+<lb ed="#Bc"/>uno modo.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2204">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Joannes Damascenus dicit 
+conscien<lb ed="#Bc" break="no"/>tiam legem esse nostri intellectus, prout
+<lb ed="#Bc"/>lex nostri intellectus repugnat legi carnis.
+<lb ed="#Bc"/>Ad Roman. vn, 22 et 23: Condelector
+<lb ed="#Bc"/>legi Dei secundum interiorem hominem :
+<lb ed="#Bc"/>video autem aliam legem in membris
+<lb ed="#Bc"/>meis, repugnantem legi mentis mee, et
+<lb ed="#Bc"/>captivantem me in lege peccati que est in
+<lb ed="#Bc"/>membris meis. Lex membrorum est 
+ha<lb ed="#Bc" break="no"/>bitus innatus per naturam corruptam.
+<lb ed="#Bc"/>Ergo et lex mentis sive intellectus habitus
+<lb ed="#Bc"/>videtur esse innatus per naturam 
+inte<lb ed="#Bc" break="no"/>gram et sanam. -
+</p>
+                  <p xml:id="Almn78-h51331-d1e2237">
+                     <lb ed="#Bc"/>2. Adhuc, Ad Roman. u, 14 et 15:
+<lb ed="#Bc"/>Cum enim gentes, que legem non habent,
+<lb ed="#Bc"/>naturaliter ea que legis sunt faciunt,
+<lb ed="#Bc"/>ejusmodi legem non habentes, ipsi sibi
+<lb ed="#Bc"/>sunt lex : qui ostendunt opus legis 
+scri<lb ed="#Bc" break="no"/>ptum in cordibus suis. Ibi Glossa 
+Au<lb ed="#Bc" break="no"/>gustini : <quote xml:id="Almn78-h51331-Qd1e2254"> Eisi gentiles non habent 
+le<lb ed="#Bc" break="no"/>gem scriptam, habent tamen legem
+<lb ed="#Bc"/>naturalem, qua quisque intelligit et sibi
+<lb ed="#Bc"/>conscius est quid sibi bonum, et quid sit
+<lb ed="#Bc"/>sibi malum. </quote> Hujusmodi lex habitus
+<lb ed="#Bc"/>est naturalis. Ergo et conscientia.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2269">
+                     <pb ed="#Bc" n="241"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Si hoc conceditur : tunc queritur
+<lb ed="#Bc"/>ulterius, Utrum sit habitus cognitivus,
+<lb ed="#Bc"/>vel motivus ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2282">
+                     <lb ed="#Bc"/>Et videtur, quod motivus : quia
+<lb ed="#Bc"/>1. Sicut dicit Damascenus: <quote xml:id="Almn78-h51331-Qd1e2288"> Immissio
+<lb ed="#Bc"/>perniciosi per quam fit lex membrorum,
+<lb ed="#Bc"/>habitus motivus est. </quote> Cum ergo 
+con<lb ed="#Bc" break="no"/>traria sint_ineodem genere, lex naturalis
+<lb ed="#Bc"/>sive conscientia que instigat ad bonum,
+<lb ed="#Bc"/>habitus motivus est.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2303">
+                     <lb ed="#Bc"/>2. Adhuc, Habitus motivus est, qui
+<lb ed="#Bc"/>movet ad delectabile et triste: et, sicut
+<lb ed="#Bc"/>dicit Aristoteles in III de Anima, qui
+<lb ed="#Bc"/>movetad fugiendum vel prosequendum :
+<lb ed="#Bc"/>et sic movet habitus conscientia : ergo
+<lb ed="#Bc"/>videtur esse habitus motivus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2319">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Conscientia dicit scientiam : scientia
+<lb ed="#Bc"/>est habitus cognilivus : ergo et 
+conscien<lb ed="#Bc" break="no"/>tia.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2330">
+                     <lb ed="#Bc"/>2. Adhuc, Cum dicitur, Iste est 
+con<lb ed="#Bc" break="no"/>scius secretorum illius, sensus est, quéd
+<lb ed="#Bc"/>cognitive scit iste ea que scit ille : et hoc
+<lb ed="#Bc"/>est secundum habitum cognitivum et non
+<lb ed="#Bc"/>motivum : ergo conscientia dicit 
+habi<lb ed="#Bc" break="no"/>tum cognitivum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2346">
+                     <lb ed="#Bc"/>3. Adhuc, <ref xml:id="Almn78-h51331-Rd1e2350">Ezechiel. 1, 10, in Glossa
+<lb ed="#Bc"/>super illud : <quote xml:id="Almn78-h51331-Qd1e2354">Facies aquile desuper 
+ipso<lb ed="#Bc" break="no"/>rum gquatuor</quote>
+                     </ref>, <quote xml:id="Almn78-h51331-Qd1e2360"> Conscientie est errata
+<lb ed="#Bc"/>corrigere et consiliari. </quote> Utrumque 
+ho<lb ed="#Bc" break="no"/>rum fit secundum habitum cognitivum.
+<lb ed="#Bc"/>Ergo videtur, quod sit habitus 
+cogniti<lb ed="#Bc" break="no"/>vus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2374">
+                     <lb ed="#Bc"/>4. Adhuc, I ad Corinth. 1v, 4 : Nihil
+<lb ed="#Bc"/>mihi consc.us sum, sed non in hoc 
+justi<lb ed="#Bc" break="no"/>ficatus sum. Hoc dixit Apostolus, quia
+<lb ed="#Bc"/>nescivit se esse in peccato secundum
+<lb ed="#Bc"/>habitum cognitivum. Ergo  videtur,
+<lb ed="#Bc"/>quod conscientia habitus cognitivus
+<lb ed="#Bc"/>sit.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2392">
+                     <lb ed="#Bc"/>5. Adhuc, Eccle. vir, 23 : Seié enim
+<lb ed="#Bc"/>conscientia tua, quia et tu crebro 
+male<lb ed="#Bc" break="no"/>dizisti aliis. Glossa, ibidem, <quote xml:id="Almn78-h51331-Qd1e2400"> Qua judice
+<lb ed="#Bc"/>nemo nocens absolvitur. </quote> Scire et 
+ju<lb ed="#Bc" break="no"/>dicare fiunt secundum habitum 
+cogniti<lb ed="#Bc" break="no"/>vum. Ergo conscientia est habitus 
+cogni<lb ed="#Bc" break="no"/>tivus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2413">
+                     <lb ed="#Bc"/>Solutio. Ad primam partem questio
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>nis dicendum est, quod conscientia 
+du<lb ed="#Bc" break="no"/>pliciter accipitur, scilicet materialiter, et
+<lb ed="#Bc"/>sic ponitur pro eo quod scitum est in
+<lb ed="#Bc"/>anima vel scibile : et hoc nec potentia
+<lb ed="#Bc"/>est, nec habitus, sed scitum. Aliquando
+<lb ed="#Bc"/>accipitur formaliter, pro scientia scilicet
+<lb ed="#Bc"/>que refertur ad scitum, licet non sub
+<lb ed="#Bc"/>eodem casu quo refertur scibile ad
+<lb ed="#Bc"/>scientiam, ut dicit Aristoteles in 
+Predi<lb ed="#Bc" break="no"/>camentis : quia scientia dicitur scibilis
+<lb ed="#Bc"/>scientia scibile autem non dicitur
+<lb ed="#Bc"/>scientia scibile, sed scientia scibile. Et si
+<lb ed="#Bc"/>sic accipitur pro scibili : tunc nec 
+poten<lb ed="#Bc" break="no"/>tia, nec habitus est, sicut scibile nes est
+<lb ed="#Bc"/>sciens, nec scientia. Si autem accipitur
+<lb ed="#Bc"/>formaliter : tunc pro certo habitus est,
+<lb ed="#Bc"/>et dicit habitum in potentia, vel 
+poten<lb ed="#Bc" break="no"/>tiam habitualem : et secundum hoc 
+re<lb ed="#Bc" break="no"/>spondendum est ad objecta.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2461">
+                     <lb ed="#Bc"/>Ad primum ergo dicendum, quod licet
+<lb ed="#Bc"/>scientia secundum subjectum sit pars
+<lb ed="#Bc"/>anime, tamen secundum id quod est, 
+ha<lb ed="#Bc" break="no"/>bitus est: et ideo non convenit ei 
+poten<lb ed="#Bc" break="no"/>tia esse : quia secundum id quod est, non
+<lb ed="#Bc"/>est pars anime. Regula autem 
+Aristote<lb ed="#Bc" break="no"/>lis intelligitur de his ubi preedicatum 
+es<lb ed="#Bc" break="no"/>sentialiter in est subjecto et actu et 
+in<lb ed="#Bc" break="no"/>tellectu.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2483">
+                     <lb ed="#Bc"/>Av atiup dicendum, quod 
+conscien<lb ed="#Bc" break="no"/>tiam esse rectam vel non rectam, 
+mun<lb ed="#Bc" break="no"/>dam vel immundam, accidit ei: ex his
+<lb ed="#Bc"/>que subjecta sunt conscientia : et ideo
+<lb ed="#Bc"/>non oportet, quod illa participet 
+con<lb ed="#Bc" break="no"/>scientia que est potentia habitualis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2499">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod conscientia
+<lb ed="#Bc"/>est pro certo habitus et non potentia,
+<lb ed="#Bc"/>sicut dictum est: sed aliquando 
+deno<lb ed="#Bc" break="no"/>minatur ab ipsa potentia, eo quod talis
+<lb ed="#Bc"/>habitus est in ipsa.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2513">
+                     <lb ed="#Bc"/>Ad idquod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod conscientia dupliciter 
+conside<lb ed="#Bc" break="no"/>ratur, scilicet in principiis regulantibus
+<lb ed="#Bc"/>conscientiam, que sunt principia 
+uni<lb ed="#Bc" break="no"/>versalia : Et haec innata sunt nobis, ut 
+di<lb ed="#Bc" break="no"/>cit Aristoteles in fine secundi 
+Posterio<lb ed="#Bc" break="no"/>rum: et etiam Boetius in libro de
+<lb ed="#Bc"/>Consolatione Philosophie, sequens 
+Pla<lb ed="#Bc" break="no"/>tonem et Socratem dicit, quod univer
+<pb ed="#Bc" n="242"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>salia retinet, et singula perdit. Potest
+<lb ed="#Bc"/>etiam considerari in scitis his et illis, et
+<lb ed="#Bc"/>sic habitus est acquisitus, et convenit ei
+<lb ed="#Bc"/>aliquando inesse, et aliquando non
+<lb ed="#Bc"/>imesse.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2550">
+                     <lb ed="#Bc"/>Ad idquod contra hoc objicitur, 
+di<lb ed="#Bc" break="no"/>cendum quod lex naturalis que dicitur
+<lb ed="#Bc"/>lex nostri intellectus, habitus est innatus
+<lb ed="#Bc"/>nobis quantum ad universalia principia
+<lb ed="#Bc"/>regulantia in bonum, sicut dictum est :
+<lb ed="#Bc"/>hoc enim est lumen de quo dicitur in
+<lb ed="#Bc"/>Psalmo iv, 7: Signatum est super nos
+<lb ed="#Bc"/>lumen vultus tui, Domine. Unde lex
+<lb ed="#Bc"/>mentis habitus naturalis est quantum ad
+<lb ed="#Bc"/>principia, acquisitus quantum ad scita.
+<lb ed="#Bc"/>Et non est simile de fomite sive lege
+<lb ed="#Bc"/>membrorum : ille enim non tam habitus
+<lb ed="#Bc"/>est, quam corruptio, et nihil habet 
+cogni<lb ed="#Bc" break="no"/>tionis, sed est simplex habitus ligans ad
+<lb ed="#Bc"/>malum ex natura corrupta: propter quod
+<lb ed="#Bc"/>dicit Apostolus, quod contrariatur legi
+<lb ed="#Bc"/>mentis que obligat ad bonum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2589">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod hoc 
+seque<lb ed="#Bc" break="no"/>retur si conscientia nihil aliud diceret
+<lb ed="#Bc"/>nisi habitum legis talis : sed hoc non est
+<lb ed="#Bc"/>verum : quia aliquando dicit potentiam
+<lb ed="#Bc"/>cum habitu.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2602">
+                     <lb ed="#Bc"/>Ad ww quod juxta hoc queritur, Utrum
+<lb ed="#Bc"/>sit habitus motivus, vel cognitivus?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2609">
+                     <lb ed="#Bc"/>Dicendum, quod motivus et cognitivus
+<lb ed="#Bc"/>est sicut intellectus practicus.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2616">
+                     <lb ed="#Bc"/>Ad id quod contra hoc objicitur, 
+di<lb ed="#Bc" break="no"/>cendum quod conscientia dicitur lex 
+ra<lb ed="#Bc" break="no"/>tionis et intellectus : quia ex 
+universali<lb ed="#Bc" break="no"/>bus regulis ligat ad faciendum vel non
+<lb ed="#Bc"/>faciendum : et sic est etiam habitus 
+mo<lb ed="#Bc" break="no"/>tivus et ad delectabile et ad ponale. Unde
+<lb ed="#Bc"/>II ad Corinth. 1, 12: Gloria nostra hee
+<lb ed="#Bc"/>est, testimonium conscientiae nostrae. Ibi
+<lb ed="#Bc"/>Glossa dicit sic : <quote xml:id="Almn78-h51331-Qd1e2637"> Sicut impiis est
+<lb ed="#Bc"/>magna peena conscientia, ita piis 
+mag<lb ed="#Bc" break="no"/>num gaudium. </quote> Et per hoc patet 
+so<lb ed="#Bc" break="no"/>lutio ad duo prima que probant esse
+<lb ed="#Bc"/>habitum motivum. Nec est simile de lege
+<lb ed="#Bc"/>carnis, et de lege mentis : quia lex 
+natu<lb ed="#Bc" break="no"/>ralis per cognitionem dirigit motivam
+<lb ed="#Bc"/>partem: et ideo oportet, quod. aliquid
+<lb ed="#Bc"/>cognitionis habeat : nee opponitur fo
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>miti ex omni parte, sed tantum ex illa
+<lb ed="#Bc"/>qua motiva est ad bonum, Et ideo non
+<lb ed="#Bc"/>oportet, si lex membrorum nihil habeat
+<lb ed="#Bc"/>cognitionis, quod etiam mentis nihil 
+ha<lb ed="#Bc" break="no"/>beat cognitionis : quia lex mentis et regit
+<lb ed="#Bc"/>et movet, lex carnis movet tantum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2674">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod delectabile
+<lb ed="#Bc"/>et triste sunt ex consequentibus 
+con<lb ed="#Bc" break="no"/>scientiam secundum quod est de hoc vel
+<lb ed="#Bc"/>de illo secundum actum, et sic etiam est
+<lb ed="#Bc"/>pena vel gaudium.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2687">
+                     <lb ed="#Bc"/>Ad id quod contra objicitur, quod ad oy
+<lb ed="#Bc"/>scientiam dicit, dicendum quod dicit
+<lb ed="#Bc"/>scientiam regentem, et illa non est pure
+<lb ed="#Bc"/>speculativa.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2698">
+                     <lb ed="#Bc"/>Av auiup dicendum, quod cum dici
+<lb ed="#Bc"/>tur, Iste est conscius secretorum, 
+con<lb ed="#Bc" break="no"/>scius sumitur equivoce ad conscientiam :
+<lb ed="#Bc"/>quia talis conscientia est pure 
+specula<lb ed="#Bc" break="no"/>tiva. Cum autem dicitur, Iste est 
+con<lb ed="#Bc" break="no"/>scius sibi, accipitur conscius pro con~
+<lb ed="#Bc"/>scientia approbationis et reprobationis, et
+<lb ed="#Bc"/>illa non est vere speculativa.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2718">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod corrigere et
+<lb ed="#Bc"/>consiliari sapienti convenit praecipue 
+se<lb ed="#Bc" break="no"/>cundum habitum, qui nec plene est 
+spe<lb ed="#Bc" break="no"/>culativus, nec plene practicus, sed
+<lb ed="#Bc"/>utrumque habens, et talis habitus est
+<lb ed="#Bc"/>conscientia.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2734">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod hoc dixit
+<lb ed="#Bc"/>Apostolus et vere : sed ex hoc non 
+sequi<lb ed="#Bc" break="no"/>tur, quod conscientia dicat habitum qui
+<lb ed="#Bc"/>non sit sine speculatione.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2745">
+                     <lb ed="#Bc"/>Ad vxtmum dicendum, quod 
+con<lb ed="#Bc" break="no"/>scientia est qua conscimus nobis de 
+secre<lb ed="#Bc" break="no"/>tis que sunt in cordibus nostris, et hoc
+<lb ed="#Bc"/>non fit sine speculatione: nec oportet,
+<lb ed="#Bc"/>quod pura speculatio sit, sed 
+frequen<lb ed="#Bc" break="no"/>tius multum habet de speculatione 
+pra<lb ed="#Bc" break="no"/>ctica.
+</p>
+               </div>
+               <div xml:id="Almn78-h51331-Dd1e2765">
+                  <head xml:id="Almn78-h51331-Hd1e2767">Articulus 2</head>
+                  <head xml:id="Almn78-h51331-Hd1e2770" type="question-title">
+          Utrum conscientia sit idem quod
+          synderesis
+        </head>
+                  <p xml:id="Almn78-h51331-d1e2773">
+                     <pb ed="#Bc" n="243"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>MEMBRI TERTII
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Utrum conscientia sit idem quod
+<lb ed="#Bc"/>synderesis ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2789">
+                     <lb ed="#Bc"/>Deinde queritur, Utrum conscientia
+<lb ed="#Bc"/>sit idem quod synderesis ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2796">
+                     <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Ezechiel. 1, 6, super illud : Quatuor
+<lb ed="#Bc"/>facies uni, Glossa : <quote xml:id="Almn78-h51331-Qd1e2804"> Synderesis est
+<lb ed="#Bc"/>scintilla conscientie. </quote> Videtur ergo,
+<lb ed="#Bc"/>quod conscientia sit idem quod 
+syndere<lb ed="#Bc" break="no"/>sis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2816">
+                     <lb ed="#Bc"/>2. Adhuc, In eadem Glossa dicitur,
+<lb ed="#Bc"/>quod per quatuor facies intelliguntur
+<lb ed="#Bc"/>quatuor vires anime, scilicet rationalis,
+<lb ed="#Bc"/>concupiscibilis, irascibilis, et synderesis,
+<lb ed="#Bc"/>Rationalis per faciem hominis, irascibilis
+<lb ed="#Bc"/>per faciem leonis, concupiscibilis per 
+fa<lb ed="#Bc" break="no"/>ciem vituli, synderesis per faciem aquila.
+<lb ed="#Bc"/>Cum ergo conscientiam necesse est 
+re<lb ed="#Bc" break="no"/>duci ad aliquam illarum, et non possit
+<lb ed="#Bc"/>reduci nisi ad synderesim : ergo videtur,
+<lb ed="#Bc"/>quod idem sit cum synderesi.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2842">
+                     <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>Differentiae conscientie non 
+conve<lb ed="#Bc" break="no"/>niunt cum syaderesi. Est enim 
+conscien<lb ed="#Bc" break="no"/>tia munda et immunda, et recta et non
+<lb ed="#Bc"/>recta, et deponibilis : unde dicitur alicui
+<lb ed="#Bc"/>qui habet conscientiam immundam, quod
+<lb ed="#Bc"/>deponat eam. Horum nihil convenit 
+syn<lb ed="#Bc" break="no"/>deresi, Ergo conscientia non est 
+synde<lb ed="#Bc" break="no"/>resis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2864">
+                     <lb ed="#Bc"/>Utrenvs queritur, Si conscientia sit
+<lb ed="#Bc"/>idem quod lex naturalis ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2871">
+                     <lb ed="#Bc"/>Et videtur, quod non: quia lex 
+natu<lb ed="#Bc" break="no"/>talis scripta in naturali judicatorio, ut
+<lb ed="#Bc"/>dicit Basilius, numquam est deponibilis,
+<lb ed="#Bc"/>Ergo conscientia non est idem quod lex
+<lb ed="#Bc"/>naturalis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2884">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Joannes Damascenus : <quote xml:id="Almn78-h51331-Qd1e2892"> Lex Dei
+<lb ed="#Bc"/>intellectum nostrum attrahit ad seipsam,
+<lb ed="#Bc"/>et pungit nostram conscientiam. </quote> Sed
+<lb ed="#Bc"/>attrahere intellectum nostrum officitum
+<lb ed="#Bc"/>est conscientie. Ergo videtur, quod
+<lb ed="#Bc"/>conscientia idem sit quod lex naturalis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2907">
+                     <lb ed="#Bc"/>2. Ad hoc idem arguitur in Glossa in
+<lb ed="#Bc"/>precedenti articulo superius inducta, ad
+<lb ed="#Bc"/>Roman. u, 14 et 15, que sic dicit :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h51331-Qd1e2917"> Etsi Gentiles non habeant legem 
+scrip<lb ed="#Bc" break="no"/>tam, habent tamen legem naturalem,
+<lb ed="#Bc"/>qua quis intelligit et sibi conscius est
+<lb ed="#Bc"/>quid sit bonum, et quid sit malum. </quote>
+                     <lb ed="#Bc"/>Sed conscientia est qua quis conscius est
+<lb ed="#Bc"/>sibi quid sit bonum et quid sit malum.
+<lb ed="#Bc"/>Ergo conscientia est lex naturalis.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2935">
+                     <lb ed="#Bc"/>Ulterius queritur, Si conscientia sit
+<lb ed="#Bc"/>semper in actu, vel aliquando in habitu ?
+</p>
+                  <p xml:id="Almn78-h51331-d1e2942">
+                     <lb ed="#Bc"/>Et videtur, quod semper in actu :
+<lb ed="#Bc"/>quia
+<lb ed="#Bc"/>1. Dicitur scintilla conscientie : 
+scin<lb ed="#Bc" break="no"/>tilla autem semper micat : ergo videtur,
+<lb ed="#Bc"/>quod conscientia semper sit in actu in~
+<lb ed="#Bc"/>clinationis ad bonum, et murmurationis
+<lb ed="#Bc"/>ad malum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2960">
+                     <lb ed="#Bc"/>2. Adhuc, Ezechiel. xxvii, 18, super
+<lb ed="#Bc"/>illud: Producam ignem de medio tut,
+<lb ed="#Bc"/>Glossa: <quote xml:id="Almn78-h51331-Qd1e2968"> Omnia que editicasti male
+<lb ed="#Bc"/>conscientie ignis consumet.</quote> Ergo 
+con<lb ed="#Bc" break="no"/>scientia est ignis. Ex hoc arguitur, quod
+<lb ed="#Bc"/>semper sit in actu: quia ignis semper
+<lb ed="#Bc"/>micat et ardet.
+</p>
+                  <p xml:id="Almn78-h51331-d1e2981">
+                     <lb ed="#Bc"/>3. Adhuc, Physicum dictum est, quod
+<lb ed="#Bc"/>ponderosum semper tendit ad centrum :
+<lb ed="#Bc"/>quia etsi actu non tendat, tamen semper
+<lb ed="#Bc"/>facit inclinationem ad descensum. Ergo
+<lb ed="#Bc"/>asimili cum conscienlia semper 
+remor<lb ed="#Bc" break="no"/>deat ad malum, et inclinet ad bonum,
+<lb ed="#Bc"/>semper debet dici in actu, quamvis non
+<lb ed="#Bc"/>semper consequatur effectum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3001">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Constat, quod conscientia est in
+<lb ed="#Bc"/>parvulis . et in illis non est in actu.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3010">
+                     <lb ed="#Bc"/>2. Adhuc, Conscientia est quaedam
+<lb ed="#Bc"/>scientia : scientia est habitus qui non est
+<lb ed="#Bc"/>semper in actu: ergo conscientia non
+<lb ed="#Bc"/>semper est, in actu.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3022">
+                     <pb ed="#Bc" n="244"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Sorunio. Ad primam questionem 
+di<lb ed="#Bc" break="no"/>cendum est, quod synderis non est 
+con<lb ed="#Bc" break="no"/>scientia : quia synderesis est quedam
+<lb ed="#Bc"/>potentia anime: conscientia autem est
+<lb ed="#Bc"/>habitus, ut in antehabitis probatum est.
+<lb ed="#Bc"/>Duo tamen habet in se synderesis per
+<lb ed="#Bc"/>duplicem respectum : unum ad superius,
+<lb ed="#Bc"/>et alterum ad inferius, A superiori 
+re<lb ed="#Bc" break="no"/>gitur, inferius regit. Et per respectum
+<lb ed="#Bc"/>ad superius attingit habitum legis 
+natu<lb ed="#Bc" break="no"/>ralis, que regens est: propter quod et
+<lb ed="#Bc"/>ipsa synderesis potentia habitualis est et
+<lb ed="#Bc"/>non potentia nuda: et sic dicitur 
+scin<lb ed="#Bc" break="no"/>tilla conscientig, et communicat in 
+ali<lb ed="#Bc" break="no"/>quo cum synderesi conscientia. Alterum
+<lb ed="#Bc"/>habet respectum’ ad rationem inferiorem
+<lb ed="#Bc"/>que disponit particularia: et in his 
+pro<lb ed="#Bc" break="no"/>pter defectum rationis et voluntatis et
+<lb ed="#Bc"/>liberi arbitrii aliquando pracipitatur :
+<lb ed="#Bc"/>et dicimus aliquando conscientiam 
+mun<lb ed="#Bc" break="no"/>dam et immundam, rectam et non
+<lb ed="#Bc"/>rectam. Et quantum ad hoc nullam 
+ha<lb ed="#Bc" break="no"/>bet convenientiam cum synderesi.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3079">
+                     <lb ed="#Bc"/>Et per hoc patet solutio ad omnia que
+<lb ed="#Bc"/>objiciuntur de hoc.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3086">
+                     <lb ed="#Bc"/>Ad idquod ulterius queritur, Si 
+con<lb ed="#Bc" break="no"/>scientia sit lex naturalis ?
+  
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Dicendum, quod lex naturalis et 
+con<lb ed="#Bc" break="no"/>scientia differunt per essentiam, sed 
+con<lb ed="#Bc" break="no"/>veniunt in ordine ad idem, sicut in
+<lb ed="#Bc"/>syllogismis principium et illata conclusio.
+<lb ed="#Bc"/>Lex enim naturalis principium est quo
+<lb ed="#Bc"/>regitur conscientia, sub quo principio
+<lb ed="#Bc"/>ratio assumit de hoc et de illo : et 
+con<lb ed="#Bc" break="no"/>scientia concludit de faciendo vel non 
+fa<lb ed="#Bc" break="no"/>ciendo. Ut sic verbi gratia, lex naturalis
+<lb ed="#Bc"/>dicit esse non fornicandum, nec 
+furan<lb ed="#Bc" break="no"/>dum, nec occidendum, ratio assumit hoc
+<lb ed="#Bc"/>vel illud esse fornicationem et furtum
+<lb ed="#Bc"/>vel homicidium, conscientia concludit
+<lb ed="#Bc"/>non esse furandum.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3125">
+                     <lb ed="#Bc"/>Et per hanc distinctionem patet 
+solu<lb ed="#Bc" break="no"/>tio omnium objectorum ad illam partem.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3132">
+                     <lb ed="#Bc"/>Ad id quod juxta hoc queritur, Utrum Ady
+<lb ed="#Bc"/>conscientia semper sit in actu?
+</p>
+                  <p xml:id="Almn78-h51331-d1e3139">
+                     <lb ed="#Bc"/>Dicendum, quod semper est in actu
+<lb ed="#Bc"/>instigationis ad bonum, et retractionis a
+<lb ed="#Bc"/>malo, sicut bene probant objectiones
+<lb ed="#Bc"/>inducte : sed non consequitur effectum
+<lb ed="#Bc"/>secundum actum propter exhortationem
+<lb ed="#Bc"/>rationis, voluntatis, et liberi arbitrii.
+</p>
+                  <p xml:id="Almn78-h51331-d1e3156">
+                     <lb ed="#Bc"/>Et per hoc iterum patet solutio circa
+<lb ed="#Bc"/>hoc.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

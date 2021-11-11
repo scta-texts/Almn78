@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 88</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 88</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="159"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h35179"><!-- p2t14q88 -->
+            <head xml:id="Almn78-h35179-Hd1e106">Quaestio 88</head>
+            <head xml:id="Almn78-h35179-Hd1e109" type="question-title">
+    An omnis ignorantia excuset a toto et a tanto? et, An in seipsa
+    sit peccatum ? et, Si quaedam excusat, quaedam vero non, quae
+    sint illae
+  </head>
+            <p xml:id="Almn78-h35179-d1e112">
+               <pb ed="#Bc" n="159"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUAESTIO LXXXVIII.
+<lb ed="#Bc"/>An omnis ignorantia excuset a toto et a tanto? et, An in seipsa
+<lb ed="#Bc"/>sit peccatum ? et, Si quaedam excusat, quaedam vero non, quae
+<lb ed="#Bc"/>sint illae?
+</p>
+            <p xml:id="Almn78-h35179-d1e128">
+               <lb ed="#Bc"/>Deinde, Queritur de hoc quod dicit
+<lb ed="#Bc"/>Magister in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXII, in illo cap. His autem
+<lb ed="#Bc"/>opponi solet, ubi inducit <name xml:id="Almn78-h35179-Nd1e138">Isidorum</name> sic
+<lb ed="#Bc"/>dicentem : <quote xml:id="Almn78-h35179-Qd1e144"> Tribus modis peccatum
+<lb ed="#Bc"/>geritur, scilicet ignorantia, infirmitate,
+<lb ed="#Bc"/>industria graviusque est infirmitate
+<lb ed="#Bc"/>peccare quam ignorantia, graviusque
+<lb ed="#Bc"/>industria quam infirmitate. </quote> Heva 
+au<lb ed="#Bc" break="no"/>tem videtur ex ignorantia peccasse, quia
+<lb ed="#Bc"/>fuit seducta. Jad Timoth. u, 13: Adam
+<lb ed="#Bc"/>non est seductus, mulier autem seducta
+<lb ed="#Bc"/>in prevaricatione fuit.
+</p>
+            <p xml:id="Almn78-h35179-d1e164">
+               <lb ed="#Bc"/>Gratia cujus hic queruntur tria de
+<lb ed="#Bc"/>ignorantia, scilicet an omnis ignorantia
+<lb ed="#Bc"/>excuset a toto et a tanto ?
+</p>
+            <p xml:id="Almn78-h35179-d1e174">
+               <lb ed="#Bc"/>Et, An ignorantia in seipsa sit 
+pecca<lb ed="#Bc" break="no"/>tum ?
+</p>
+            <p xml:id="Almn78-h35179-d1e181">
+               <lb ed="#Bc"/>Et si quedam excusat, et quedam non
+<lb ed="#Bc"/>excusat, que sit illa que excusat, et
+<lb ed="#Bc"/>que non excusat ?
+</p>
+            <p xml:id="Almn78-h35179-d1e190">
+               <lb ed="#Bc"/>Ad primum objicitur sic :
+<lb ed="#Bc"/>1. Dicit Augustinus, quod omne 
+pec<lb ed="#Bc" break="no"/>catum adeo est voluntarium, quod si non
+<lb ed="#Bc"/>sit voluntarium, peccatum non sit. Quod
+<lb ed="#Bc"/>ergo facit peccatum involuntarium, facit
+<lb ed="#Bc"/>peccatum non esse peccatum, et excusat
+<lb ed="#Bc"/>a toto. Ignorantia facit peccatum esse
+<lb ed="#Bc"/>involuntarium : quia dicunt Aristoteles
+<lb ed="#Bc"/>in II Ethicorum, et Damascenus in libro
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>II de Fide orthodozxa, et Gregorius 
+Nys<lb ed="#Bc" break="no"/>senus, quodinvoluntarium dicitur duobus
+<lb ed="#Bc"/>modis, scilicet per ignorantiam, et per
+<lb ed="#Bc"/>violentiam. Per violentiam dicitur 
+invo<lb ed="#Bc" break="no"/>luntarium, cujus principium est in alio
+<lb ed="#Bc"/>nihil conferente vim passo. Per 
+igno<lb ed="#Bc" break="no"/>rantiam dicitur involuntarium, cujus
+<lb ed="#Bc"/>principium est in ipso non consciente
+<lb ed="#Bc"/>singularia in quibus est actus. Et hoc
+<lb ed="#Bc"/>facit actum omnino involuntarium : quia
+<lb ed="#Bc"/>dicit Augustinus, quod non potest esse
+<lb ed="#Bc"/>volitum quod non est scitum : ignoratum
+<lb ed="#Bc"/>autem non est scitum : ergo ignoratum
+<lb ed="#Bc"/>non est voluntarium : et sic non est 
+pec<lb ed="#Bc" break="no"/>catum. Videtur ergo, quod ignorantia
+<lb ed="#Bc"/>excusat a toto.
+</p>
+            <p xml:id="Almn78-h35179-d1e249">
+               <lb ed="#Bc"/>2. Adhuc, I ad Timoth. 1, 15 et 16:
+<lb ed="#Bc"/>Fidelis sermo, et omni acceptione dignus,
+<lb ed="#Bc"/>quod Christus Jesus venit in hune 
+mun<lb ed="#Bc" break="no"/>dum peccatores salvos facere, quorum
+<lb ed="#Bc"/>primus ergo sum. Sed ideo 
+misericor<lb ed="#Bc" break="no"/>diam consecutus sum, quia ignorans
+<lb ed="#Bc"/>fect in ineredulitate *. Ex hoc accipitur,
+<lb ed="#Bc"/>quod ignorantia incredulitatis peccatum
+<lb ed="#Bc"/>excusat. Cum ergo illa sit ignorantia
+<lb ed="#Bc"/>crassissima et excuset, videtur quod
+<lb ed="#Bc"/>omnis ignorantia excuset per locum a
+<lb ed="#Bc"/>minori.
+</p>
+            <p xml:id="Almn78-h35179-d1e278">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Ad Roman. u, 4, super illud : [
+gno<lb ed="#Bc" break="no"/>ras quoniam benignitas Dei ad peniten
+<pb ed="#Bc" n="160"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>tiam te adducit ? Glossa dicit : <quote xml:id="Almn78-h35179-Qd1e293"> 
+Gra<lb ed="#Bc" break="no"/>vissime peccas si ignoras. </quote> Quod autem
+<lb ed="#Bc"/>gravissimum facit peccatum, non 
+excu<lb ed="#Bc" break="no"/>sat, sed accusat. Ergo videtur, quod
+<lb ed="#Bc"/>ignorantia non excuset.
+</p>
+            <p xml:id="Almn78-h35179-d1e305">
+               <lb ed="#Bc"/>2. Adhuc, I ad Corinth, xiv, 38: Si
+<lb ed="#Bc"/>quis ignorat, ignorabitur. Sed non 
+igno<lb ed="#Bc" break="no"/>rabitur a Deo nisi peccans. Ergo videtur,
+<lb ed="#Bc"/>quod ignorantia sit conditio aggravans
+<lb ed="#Bc"/>peccatum, et sic non potest esse 
+excu<lb ed="#Bc" break="no"/>sans.
+</p>
+            <p xml:id="Almn78-h35179-d1e322">
+               <lb ed="#Bc"/>3. Adhuc, Augustinus ad 
+Valentinia<lb ed="#Bc" break="no"/>num : <quote xml:id="Almn78-h35179-Qd1e328"> Kis aufertur excusatio, qui 
+man<lb ed="#Bc" break="no"/>data Dei noverunt, quam solent habere
+<lb ed="#Bc"/>homines de ignorantia. Et licet gravius
+<lb ed="#Bc"/>sit peccare scienter quam nescienter, non
+<lb ed="#Bc"/>ideo tamen confugiendum est ad 
+igno<lb ed="#Bc" break="no"/>rantie tenebras, ut in eis quisquam
+<lb ed="#Bc"/>excusationem requirat. Aliud enim est
+<lb ed="#Bc"/>nescisse, aliud scire noluisse: quia in
+<lb ed="#Bc"/>eis qui intelligere noluerunt, ipsa 
+igno<lb ed="#Bc" break="no"/>rantia peccatum est. Peccatum autem
+<lb ed="#Bc"/>additum peccato nihil excusat, sed 
+accu<lb ed="#Bc" break="no"/>sat‘. </quote> Ergo videtur, quod ignorantia
+<lb ed="#Bc"/>non excusat, sed accusat.
+</p>
+            <p xml:id="Almn78-h35179-d1e357">
+               <lb ed="#Bc"/>4, Adhuc, Idem accipitur ex hoc quod
+<lb ed="#Bc"/>dicitar in Psalmo xxxv, 4: Noluit 
+in<lb ed="#Bc" break="no"/>telligere ut bene ageret. Et constat, quod
+<lb ed="#Bc"/>illa ignorantia affectata est, de qua dicit
+<lb ed="#Bc"/>Augustinus ad Valentinianum, quod 
+ne<lb ed="#Bc" break="no"/>minem excusat. Dicit enim sic : <quote xml:id="Almn78-h35179-Qd1e372"> In eis
+<lb ed="#Bc"/>qui non potuerunt scire, ignorantia
+<lb ed="#Bc"/>pena peccati est. Ignorantia vero que
+<lb ed="#Bc"/>non est eorum qui scire noluerunt, sed
+<lb ed="#Bc"/>qui tamquam simpliciter nesciunt, 
+nul<lb ed="#Bc" break="no"/>lum sic excusat ut eterno igne non
+<lb ed="#Bc"/>ardeat, sed fortasse ut minus ardeat. </quote>
+            </p>
+            <p xml:id="Almn78-h35179-d1e389">
+               <lb ed="#Bc"/>Avuvc ulterius queritur, Si ignorantia
+<lb ed="#Bc"/>in se peccatum est ?
+</p>
+            <p xml:id="Almn78-h35179-d1e396">
+               <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>Augustinus ad Valentinianum : <quote xml:id="Almn78-h35179-Qd1e402"> In
+<lb ed="#Bc"/>eis qui intelligere nolucrunt, ignorantia
+<lb ed="#Bc"/>peccatum est. </quote>
+            </p>
+            <p xml:id="Almn78-h35179-d1e410">
+               <lb ed="#Bc"/>Szp contra hoc est, quod nihil idem
+<lb ed="#Bc"/>peccatum est et pcena peccati : sed 
+igno<lb ed="#Bc" break="no"/>rantia, ut dicit Augustinus, poena peccati
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>est : ergo videtur, quod non sit 
+pecca<lb ed="#Bc" break="no"/>tum.
+</p>
+            <p xml:id="Almn78-h35179-d1e426">
+               <lb ed="#Bc"/>Ulterius queritur de modis 
+igno<lb ed="#Bc" break="no"/>rantiae, qui et quot sint ?
+</p>
+            <p xml:id="Almn78-h35179-d1e434">
+               <lb ed="#Bc"/>Hos enim tangit Magister in illo cap.
+<lb ed="#Bc"/>Est autem ignorantia triplex, Et 
+enu<lb ed="#Bc" break="no"/>merat eos sic: <quote xml:id="Almn78-h35179-Qd1e442"> Est ignorantia eorum
+<lb ed="#Bc"/>qui scire nolunt cum possint, que non
+<lb ed="#Bc"/>excusat, quia ipsa peccatum est. Et est
+<lb ed="#Bc"/>ignorantia eorum qui scire volunt, sed
+<lb ed="#Bc"/>non possunt, que excusat, et est poena
+<lb ed="#Bc"/>peccati, sed non peccatum. Et est 
+igno<lb ed="#Bc" break="no"/>rantia eorum qui quasi simpliciter 
+ne<lb ed="#Bc" break="no"/>sciunt, non renuentes vel proponentes
+<lb ed="#Bc"/>scire, que neminem plene excusat, sed
+<lb ed="#Bc"/>fortasse ut minus punialur. </quote>
+            </p>
+            <p xml:id="Almn78-h35179-d1e465">
+               <lb ed="#Bc"/>Et videtur haec divisio insufficiens
+<lb ed="#Bc"/>esse: quia est ignorantia ebriorum, et
+<lb ed="#Bc"/>vulneratorum in capite, et morionum, et
+<lb ed="#Bc"/>phreneticorum, et insanorum, que nulla
+<lb ed="#Bc"/>illarum sunt.
+</p>
+            <p xml:id="Almn78-h35179-d1e478">
+               <lb ed="#Bc"/>Solutio. Ad omnia haec que solvenda
+<lb ed="#Bc"/>sunt, notanda est distinctio de ignorantia
+<lb ed="#Bc"/>valde utilis quam antiqui dederunt. 
+Di<lb ed="#Bc" break="no"/>viditur enim aliguando secundum 
+cau<lb ed="#Bc" break="no"/>sam efficientem, sicut quando dicitur,
+<lb ed="#Bc"/>quod est ignorantia vincibilis, et 
+igno<lb ed="#Bc" break="no"/>rantia invincibilis. Et invineibilis 
+du<lb ed="#Bc" break="no"/>plex est, scilicet invincibilis ex natura, et
+<lb ed="#Bc"/>invincibilis ex accidente. Invincibilis ex
+<lb ed="#Bc"/>natura est sicut in morionibus et 
+melan<lb ed="#Bc" break="no"/>cholicis: et de hac dixerunt, quod in
+<lb ed="#Bc"/>toto excusat. Invincibilis ex accidente
+<lb ed="#Bc"/>duplex est : illud enim accidens aut est
+<lb ed="#Bc"/>separabile, aut inseparabile Si est 
+sepa<lb ed="#Bc" break="no"/>rabile : tunc iterum duplex est: aut
+<lb ed="#Bc"/>eniu est ex aliquo oppilante vias 
+cere<lb ed="#Bc" break="no"/>bri, ita quod ratio per spiritum 
+anima<lb ed="#Bc" break="no"/>lem species scibilium accipere non 
+pot<lb ed="#Bc" break="no"/>est, sicut est ignorantia in ebriis ex potu
+<lb ed="#Bc"/>vini, vel in his qui comederunt 
+jusquia<lb ed="#Bc" break="no"/>mum vel cicutam, que ad insaniam 
+de<lb ed="#Bc" break="no"/>ducunt: vel est ex infirmitate sanabili
+<lb ed="#Bc"/>tamen. Et sic distinguendum est in 
+cau<lb ed="#Bc" break="no"/>sa: quia aut ipse homo insanus dedit
+<pb ed="#Bc" n="161"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>causam, aut non. Si dedit causam: aut
+<lb ed="#Bc"/>per rem licitam, et tunc meo judicio,
+<lb ed="#Bc"/>sicut dicit Prepositivus, poena est et non
+<lb ed="#Bc"/>peccatum, et in toto excusat: eo quod
+<lb ed="#Bc"/>facit actum simpliciter involuntarium,
+<lb ed="#Bc"/>ut dicit Damascenus. Si autem dedit
+<lb ed="#Bc"/>operam per rem illicitam: tunc meo
+<lb ed="#Bc"/>judicio, sicut videtur Damasceno, non
+<lb ed="#Bc"/>excusat, sed duplices maledictiones 
+me<lb ed="#Bc" break="no"/>retur, sicut quando aliquis ex ebrietate
+<lb ed="#Bc"/>occidit ignorans. Et in hoc casu dicit
+<lb ed="#Bc"/>Aristoteles in libro IV Polticorum, quod
+<lb ed="#Bc"/>legislator precepit tales plusquam alios
+<lb ed="#Bc"/>puniri. Si autem dedit operam per rem
+<lb ed="#Bc"/>licitam, que nullum peccatum fuit : tune
+<lb ed="#Bc"/>dicit Damascenus, quod meretur veniam
+<lb ed="#Bc"/>et ignoscenliam si aliquid facit ex tali
+<lb ed="#Bc"/>ignorantia : talis enim ignorantia 
+excu<lb ed="#Bc" break="no"/>sat, sicut si sic imsanus seipsum vel
+<lb ed="#Bc"/>alium interficit.
+</p>
+            <p xml:id="Almn78-h35179-d1e580">
+               <lb ed="#Bc"/>Dividitur etiam ignorantia per causam
+<lb ed="#Bc"/>materialem, sicut quando dividitur in
+<lb ed="#Bc"/>ignorantiam juris, et in ignorantiam
+<lb ed="#Bc"/>facti. Ignorantia juris dicitur, quando
+<lb ed="#Bc"/>homo ignorat id quod scire tenetur, 
+sic<lb ed="#Bc" break="no"/>ut mandata et precepta Dei secundum
+<lb ed="#Bc"/>que debet regere vitam suam. Et hee
+<lb ed="#Bc"/>ignorantia peccatum est omissionis et
+<lb ed="#Bc"/>neminem excusat: quia et ipsa peccatum
+<lb ed="#Bc"/>est, ut dicit Augustinus. Ignorantia
+<lb ed="#Bc"/>autem facti est quando aliquis in hoc
+<lb ed="#Bc"/>particulari facto decipitur ut unum 
+cre<lb ed="#Bc" break="no"/>datur esse pro alio, sicut illud, Genes.
+<lb ed="#Bc"/>xxix, 22 et seq., ubi Jacob cognovit
+<lb ed="#Bc"/>Liam ut suam, suppositam sibi pro
+<lb ed="#Bc"/>Rachel, et excusatur deceptus, sicut et
+<lb ed="#Bc"/>ibidem, ¥. 25, dicit: Quare imposuisti
+<lb ed="#Bc"/>mihi ? Quia in particularibus nemo 
+pot<lb ed="#Bc" break="no"/>est esse satis cautus.
+</p>
+            <p xml:id="Almn78-h35179-d1e624">
+               <lb ed="#Bc"/>Dividitur etiam secundum causam
+<lb ed="#Bc"/>formalem, sicut dicitur ignorantia 
+affe<lb ed="#Bc" break="no"/>ctata, vel non affectata. Et dicitur a/
+ffe<lb ed="#Bc" break="no"/>ctata, quando homo per affectum vult
+<lb ed="#Bc"/>aliquid cum quo scientia stare non 
+pot<lb ed="#Bc" break="no"/>est, sicut quod vult otiari quando 
+debe<lb ed="#Bc" break="no"/>ret discere. Et affectata accusat. Non
+<lb ed="#Bc"/>affectata autem dicitur simpliciter 
+ne<lb ed="#Bc" break="no"/>scientia, que non excusat a toto, sed a
+<lb ed="#Bc"/>tanto, ut dicit Augustinus.
+</p>
+            <p xml:id="Almn78-h35179-d1e648">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Dividitur etiam secundum causam
+<lb ed="#Bc"/>finalem, quando dicitur excusans, vel
+<lb ed="#Bc"/>accusans.
+</p>
+            <p xml:id="Almn78-h35179-d1e660">
+               <lb ed="#Bc"/>Et per hance distinctionem patet solutio
+<lb ed="#Bc"/>ad omnia objecta et quesita.
+</p>
+            <p xml:id="Almn78-h35179-d1e667">
+               <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+qui<lb ed="#Bc" break="no"/>dam fuerunt qui dixerunt, quod omnis
+<lb ed="#Bc"/>ignorantia ex toto excusat, propter 
+obje<lb ed="#Bc" break="no"/>clionem que inducta est. Sed quia hoc
+<lb ed="#Bc"/>directe contra verba Augustini est, que
+<lb ed="#Bc"/>ponuntur in textu et inducta sunt, non
+<lb ed="#Bc"/>est sic dicendum : sed, sicut supra 
+habi<lb ed="#Bc" break="no"/>tum est, distinguendum est de 
+ignoran<lb ed="#Bc" break="no"/>tia: quia quedam est scilicet que in
+<lb ed="#Bc"/>ignorante relinquit debitum sciendi, et
+<lb ed="#Bc"/>hec peccatum est, et non excusat, sed
+<lb ed="#Bc"/>potius accusat, ut dicit Augustinus. Et
+<lb ed="#Bc"/>est quedam quae nullum debitum 
+relin<lb ed="#Bc" break="no"/>quit in ignorante, sed simpliciter dicit
+<lb ed="#Bc"/>nescientiam quorumdam scibilium non
+<lb ed="#Bc"/>debitorum sciri: et hac peena peccati
+<lb ed="#Bc"/>est, et excusat.
+</p>
+            <p xml:id="Almn78-h35179-d1e706">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod talis 
+igno<lb ed="#Bc" break="no"/>rantia nullum excusat ut sempiterno igne
+<lb ed="#Bc"/>non ardeat, sed dicit quamdam 
+excusabi<lb ed="#Bc" break="no"/>litatem peccati, ut minus scilicet sit 
+accu<lb ed="#Bc" break="no"/>sabilis quam si ex malitia fecisset : sicut
+<lb ed="#Bc"/>dicimus peccatum in Filium excusabile,
+<lb ed="#Bc"/>sed non peccatum in Spiritum sanctum :
+<lb ed="#Bc"/>et iste est intellectus verborum Apostoli.
+</p>
+            <p xml:id="Almn78-h35179-d1e726">
+               <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod Glossa dicit peccatum ignorantie
+<lb ed="#Bc"/>gravissimum, non pondere peccati: quia
+<lb ed="#Bc"/>certum est, quod peccatum ex certa 
+ma<lb ed="#Bc" break="no"/>litia, quod est peccatum in Spiritum
+<lb ed="#Bc"/>sanctum, gravissimum est pondere 
+pec<lb ed="#Bc" break="no"/>cali: sed dicit ipsum gravissimum 
+peri<lb ed="#Bc" break="no"/>culo peccantis, quia ignorans non videt
+<lb ed="#Bc"/>per quid revertatur cecus existens, et sic
+<lb ed="#Bc"/>frequenter remanet in peccato: quod
+<lb ed="#Bc"/>non facit qui peccat ex impotentia vel
+<lb ed="#Bc"/>malitia.
+</p>
+            <p xml:id="Almn78-h35179-d1e755">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod Apostolus
+<lb ed="#Bc"/>loquitur de ignorantia eorum que debent
+<lb ed="#Bc"/>sciri : et ut patet per antedicta, illa 
+accu<lb ed="#Bc" break="no"/>sat et aggravat, et est peccatum in seipsa.
+<lb ed="#Bc"/>Et ideo dicit Augustinus, quod ad illius
+<lb ed="#Bc"/>latebras non est confugiendum.
+</p>
+            <p xml:id="Almn78-h35179-d1e771">
+               <pb ed="#Bc" n="162"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Eodem modo penitus respondendum
+<lb ed="#Bc"/>est ad sequens : quia ista tria penitus
+<lb ed="#Bc"/>unam habent solutionem.
+</p>
+            <p xml:id="Almn78-h35179-d1e785">
+               <lb ed="#Bc"/>Aliud quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod ignorantia debitorum sciri,
+<lb ed="#Bc"/>peccatum est, sicut jam dictum est. Et
+<lb ed="#Bc"/>est exemplum quod antiqui ponunt, sicut
+<lb ed="#Bc"/>si sacerdos ignoret ea que exiguntur ad
+<lb ed="#Bc"/>officium sacerdotale, et sine quibus 
+offi<lb ed="#Bc" break="no"/>cium sacerdotale administrare non 
+pot<lb ed="#Bc" break="no"/>est : et si Doctor ignoret que pertinent
+<lb ed="#Bc"/>ad officitum sux doctrine. Et ideo 
+dici<lb ed="#Bc" break="no"/>tur, Jacob. m, 4 : Nolite plures magistri
+<lb ed="#Bc"/>fiert, fratres mei, scientes guoniam 
+ma<lb ed="#Bc" break="no"/>jus judicium sumitis. Ubi dicit Glossa
+<lb ed="#Bc"/>Augustini, quod <quote xml:id="Almn78-h35179-Qd1e815"> officium magisterii
+<lb ed="#Bc"/>assumens in Ecclesia, et sacram 
+Scriptu<lb ed="#Bc" break="no"/>ram ignorans, non potest non peccare. </quote>
+            </p>
+            <p xml:id="Almn78-h35179-d1e823">
+               <lb ed="#Bc"/>Id quod ulterius queritur, solvitur
+<lb ed="#Bc"/>per prenotata secundum divisiones 
+igno<lb ed="#Bc" break="no"/>rantie.
+</p>
+            <p xml:id="Almn78-h35179-d1e832">
+               <lb ed="#Bc"/>Ad id quod contra objicitur, 
+dicen<lb ed="#Bc" break="no"/>dum, quod ignorantia que est pcena
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>peccati, est simplex nescientia aliquorum
+<lb ed="#Bc"/>scibilium que non relinquunt aliquod
+<lb ed="#Bc"/>debitum sciendi: et de illis non tenet
+<lb ed="#Bc"/>objectio.
+</p>
+            <p xml:id="Almn78-h35179-d1e850">
+               <lb ed="#Bc"/>Ad wm quod ulterius queritur, dicen- Ad quay
+<lb ed="#Bc"/>dum quod Augustinus et Magister 
+divi<lb ed="#Bc" break="no"/>dunt ibi ignorantiam, et dicunt ibi modos
+<lb ed="#Bc"/>ignorantie penes causam materialem et
+<lb ed="#Bc"/>formalem sumptas, et non penes causam
+<lb ed="#Bc"/>finalem et efficientem. Et ideo hoc totum
+<lb ed="#Bc"/>perfecte solutum est per distinctionem
+<lb ed="#Bc"/>qu inducta est in principio solutionis.
+<lb ed="#Bc"/>Est tamen adhuc ignorantia quedam,
+<lb ed="#Bc"/>de qua dicit Aristoteles in If Ethicorum,
+<lb ed="#Bc"/>quod omnis malus est ignorans ; sed hec
+<lb ed="#Bc"/>est ignorantia practica, que est privatio
+<lb ed="#Bc"/>recte electionis eorum que exiguntur ad
+<lb ed="#Bc"/>opus rectum, quod est opus virtutum :
+<lb ed="#Bc"/>quia cum practice scientia stent ad
+<lb ed="#Bc"/>opus, ut dicit Philosophus, peccator
+<lb ed="#Bc"/>semper errat in electione : et ideo dicitur
+<lb ed="#Bc"/>ignorans.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 57</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 57</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="578"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a27955"><!-- p1t14q57 -->
+            <head xml:id="Almn78-a27955-Hd1e106">Quaestio 57</head>
+            <head xml:id="Almn78-a27955-Hd1e109" type="question-title">
+      Utrum de Deo dicta dicant divinam essentiam?
+    </head>
+            <p xml:id="Almn78-a27955-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LVI.
+  <lb ed="#Ba"/>Utrum de Deo dicta dicant divinam essentiam?
+</p>
+            <p xml:id="Almn78-a27955-d1e121">
+               <lb ed="#Ba"/>Juxta boc queritur de nominihus
+<lb ed="#Ba"/>spectalibus, quibus nominatur Deus 
+no<lb ed="#Ba" break="no"/>minibus specierum, maxime 
+praedica<lb ed="#Ba" break="no"/>menti qualitatis, ut justus, virtus, 
+sa<lb ed="#Ba" break="no"/>piens, et sapientia, ef hujusmodi.
+</p>
+            <p xml:id="Almn78-a27955-d1e134">
+               <lb ed="#Ba"/>1. De quibus ait Dionysius in libro de
+<lb ed="#Ba"/>drvinis nominibus?. Vici enim : <quote xml:id="Almn78-a27955-Qd1e140"> 
+Ju<lb ed="#Ba" break="no"/>slitia rursus laudatur Deus, sicut 
+om<lb ed="#Ba" break="no"/>nibus secundum dignitatem distribucns
+<lb ed="#Ba"/>ef commensurationem eb pulchrudinem
+<lb ed="#Ba"/>el bonam ordinationem et ornalum, et
+<lb ed="#Ba"/>omnes distributiones et ordines 
+sevre<lb ed="#Ba" break="no"/>eans, unicuique secundum vere 
+exislen<lb ed="#Ba" break="no"/>lem justissimam deliniionem. </quote> Et ex
+<lb ed="#Ba"/>hoc accipitur, quod loc nomen, jees/as,
+<lb ed="#Ba"/>cum dicitur, sustus Deus, significal 
+di<lb ed="#Ba" break="no"/>vinam essenliam, ef connotat 
+retributio<lb ed="#Ba" break="no"/>nes secundum dignitatens.
+</p>
+            <p xml:id="Almn78-a27955-d1e169">
+               <lb ed="#Ba"/>2. Adhuc, Boetius in libro de 
+Trine<lb ed="#Ba" break="no"/>fale: <quote xml:id="Almn78-a27955-Qd1e175"> Cum dicitur Deus justus vel 
+bo<lb ed="#Ba" break="no"/>nus, predicatur justitia vel bonilas quae
+<lb ed="#Ba"/>est Det substantia. </quote>
+            </p>
+            <p xml:id="Almn78-a27955-d1e183">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>3. Adhuc, Commune argumentuin est,
+<lb ed="#Ba"/>quod justum et justitia tribus personis
+<lb ed="#Ba"/>conveniunl in summa singulariler, et
+<lb ed="#Ba"/>non pluraliter. Omne autem tale nomen
+<lb ed="#Ba"/>signilicat divinam essentiam. Ergo 
+ju<lb ed="#Ba" break="no"/>stus et bonus significant divinam 
+cssen<lb ed="#Ba" break="no"/>tiam.
+</p>
+            <p xml:id="Almn78-a27955-d1e203">
+               <lb ed="#Ba"/>4. Adhuc, Cum dicitur homo justus,
+<lb ed="#Ba"/>non predicatur justitia nisi que inest
+<lb ed="#Ba"/>homint : sed quod in crealuris 
+pradica<lb ed="#Ba" break="no"/>tur secundum inesse, in Deo 
+preedica<lb ed="#Ba" break="no"/>tur secundum esse, ut vult Boctius. 
+Kr<lb ed="#Ba" break="no"/>go cum dicitur, Deus faustus, priedicatur
+<lb ed="#Ba"/>justilia quae est idem Deo et essentia 
+di<lb ed="#Ba" break="no"/>vina. Ergo justus significal essentiam
+<lb ed="#Ba"/>divinam.
+</p>
+            <p xml:id="Almn78-a27955-d1e225">
+               <lb ed="#Ba"/>In contrarium hujus est,
+<lb ed="#Ba"/>1. Quod videtur Damascenus dicere :
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a27955-Qd1e233"> Jusltum et bonum et sanctum sequun
+  <lb ed="#Ba" break="no"/>tur natura, non ipsam substantiam
+<lb ed="#Ba"/>ostendunt. </quote>
+            </p>
+            <p xml:id="Almn78-a27955-d1e241">
+               <lb ed="#Ba"/>2. Adhuc, Damascenus, ibidem, <quote xml:id="Almn78-a27955-Qd1e245"> Si
+<pb ed="#Ba" n="579"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>bonum, si justum, si sapiens, si 
+quod<lb ed="#Ba" break="no"/>cumque dixeris, non naturam Dei dicis,
+<lb ed="#Ba"/>sed ea que sunt circa naturam. </quote>
+            </p>
+            <p xml:id="Almn78-a27955-d1e259">
+               <lb ed="#Ba"/>Ulterius queritur, Siconnotat effectum
+<lb ed="#Ba"/>in creatura cum dicitur, Deus sustus ?
+</p>
+            <p xml:id="Almn78-a27955-d1e267">
+               <lb ed="#Ba"/>Videtur, quod non: quia
+<lb ed="#Ba"/>1. Cum dicitur homo justus, nihil 
+pra<lb ed="#Ba" break="no"/>dicatur nisi justitia que est Deus : non
+<lb ed="#Ba"/>enim fit mutatio pradicationis nisi 
+qua<lb ed="#Ba" break="no"/>litatis in substantiam.
+</p>
+            <p xml:id="Almn78-a27955-d1e280">
+               <lb ed="#Ba"/>2. Adhuc, Si connotat effectum, cum
+<lb ed="#Ba"/>ille effectus non sit nist in creatura que
+<lb ed="#Ba"/>non est nisi ex tempore, videtur quod
+<lb ed="#Ba"/>hoc nomen, jsustus, sit de his que ex
+<lb ed="#Ba"/>tempore Deo conveniunt: et sic Deus ab
+<lb ed="#Ba"/>zterno non esset justus.
+</p>
+            <p xml:id="Almn78-a27955-d1e296">
+               <lb ed="#Ba"/>3. Adhuc, Cum dicitur, Deus est ens,
+<lb ed="#Ba"/>vel Deus est bonus, non connotatur 
+ali<lb ed="#Ba" break="no"/>quis effectus, licct ens et bonum dicant
+<lb ed="#Ba"/>divinam essentiam supereffluentem super
+<lb ed="#Ba"/>omne quod participat esse et bonum. 
+Kr<lb ed="#Ba" break="no"/>goa simili cum dicitur Deus justus, licet
+<lb ed="#Ba"/>justus dicat divinam essentiam ut 
+ju<lb ed="#Ba" break="no"/>stitiam supereffluentem super omne quod
+<lb ed="#Ba"/>participat justitiam, non propter hoc 
+con<lb ed="#Ba" break="no"/>notatur aliquis effectus.
+</p>
+            <p xml:id="Almn78-a27955-d1e320">
+               <lb ed="#Ba"/>Ulterius queritur propter hoc quod
+<lb ed="#Ba"/>Deus est in fine simplicitatis, utrum ita
+<lb ed="#Ba"/>dicatur justilia et bonilas sicut justus et
+<lb ed="#Ba"/>bonus ?
+</p>
+            <p xml:id="Almn78-a27955-d1e331">
+               <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. I ad Corinth. 1, 30: <quote xml:id="Almn78-a27955-Qd1e337">Factus est 
+no<lb ed="#Ba" break="no"/>bis sapientia a Deo, et justitia, et 
+san<lb ed="#Ba" break="no"/>clificatio, et redemptio</quote>.
+</p>
+            <p xml:id="Almn78-a27955-d1e345">
+               <lb ed="#Ba"/>2. Adhuc, Psal. xxxix, 12: 
+Afsericor<lb ed="#Ba" break="no"/>dia tua et veritas tua semper 
+suscepe<lb ed="#Ba" break="no"/>runt me.
+</p>
+            <p xml:id="Almn78-a27955-d1e355">
+               <lb ed="#Ba"/>In contrarium hujus est quod dicit
+<lb ed="#Ba"/>Prepositivus, quod quando copulativa
+<lb ed="#Ba"/>conjunclio ponitur inter nomina 
+signi<lb ed="#Ba" break="no"/>ficantia ut in subsistentia, exigit diversa
+<lb ed="#Ba"/>supposila que copulet, ef si non 
+inve<lb ed="#Ba" break="no"/>nit, locutio est incongrua. Sed cum 
+dici<lb ed="#Ba" break="no"/>tur, Deus est bonitas et justitia, non sunt
+<lb ed="#Ba"/>diversa supposila, sed idem. Ergo 
+co<lb ed="#Ba" break="no"/>pulativa conjunctio non invenit quod
+<lb ed="#Ba"/>exigit locutio. Ergo est incongrua,
+</p>
+            <p xml:id="Almn78-a27955-d1e379">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Solvtio. Dicendum, quod sicut dicit
+<lb ed="#Ba"/>Augustinus, Deus propter nimiam suam
+<lb ed="#Ba"/>perfectionem uno nomine significari non
+<lb ed="#Ba"/>potest : unde simpliciter innominabilts
+<lb ed="#Ba"/>est, secundum aliguid vero nominabilis,
+<lb ed="#Ba"/>et sic nominatur nominibus omnium
+<lb ed="#Ba"/>predicamentorum, ut prius ostensum
+<lb ed="#Ba"/>est. Sed considerandum est in 
+nomini<lb ed="#Ba" break="no"/>bus, utrum dicant quid generis in 
+habi<lb ed="#Ba" break="no"/>tudine et ordine ad actum. Verbi gratia
+<lb ed="#Ba"/>cum dicitur, Deus est, vel Deus est Deus,
+<lb ed="#Ba"/>per hoc nomen, Deus, et per hoc verbum,
+<lb ed="#Ba"/>est, non dicitur nisi quid generis 
+sub<lb ed="#Ba" break="no"/>stantiae absolute. Similiter cum dicitur,
+<lb ed="#Ba"/>Deus magnus, non dicitur nisi quid
+<lb ed="#Ba"/>quantitatis absolute. Cum autem dicitur,
+<lb ed="#Ba"/>Deus est justus vel misericors, justitia
+<lb ed="#Ba"/>vel misericordia habitus sunt perficientes
+<lb ed="#Ba"/>potentiam ad actum determinatum. 
+Ju<lb ed="#Ba" break="no"/>stitia enim, ut dicit Plato, est virtus
+<lb ed="#Ba"/>reddens unicuique quod suum est. 
+Mi<lb ed="#Ba" break="no"/>sericordia vero est virtus alienas 
+mise<lb ed="#Ba" break="no"/>rias faciens suas in subventione 
+misero<lb ed="#Ba" break="no"/>rum. Et in talibus considerandum est,
+<lb ed="#Ba"/>quod dicunt habitudinem ad actum 
+deter<lb ed="#Ba" break="no"/>minatum in tempore, sive ad rem 
+tem<lb ed="#Ba" break="no"/>poralem, ut dicunt habitudinem ad actum
+<lb ed="#Ba"/>in communi in eternitate vel in tempore.
+<lb ed="#Ba"/>Verbi gratia, justus et misericors sive
+<lb ed="#Ba"/>miserator habitudinem dicunt ad actus
+<lb ed="#Ba"/>in re temporali. Deo enim numquam
+<lb ed="#Ba"/>redditur quod suum est in eternitate,
+<lb ed="#Ba"/>nec subvenitur in miserendo, Cum vero
+<lb ed="#Ba"/>dicitur, Deus est sapiens, vel Deus est
+<lb ed="#Ba"/>bonus, licet sapientia dicat habitudinem
+<lb ed="#Ba"/>ad actum qui est sapere, et bonum dicat
+<lb ed="#Ba"/>habitudinem ad actum qui est se 
+diffun<lb ed="#Ba" break="no"/>dere vel communicare, ut dicit Dionysius,
+<lb ed="#Ba"/>quod bonum est communicativum sive
+<lb ed="#Ba"/>diffusivum sui : tamen quia ab eterno
+<lb ed="#Ba"/>se sapit Deus, et ab eterno diffundit 
+si<lb ed="#Ba" break="no"/>vecommunicat se Pater secundum 
+deita<lb ed="#Ba" break="no"/>tem per generationem Filio, et Pater et 
+Fi<lb ed="#Ba" break="no"/>lius per processionem Spiritui sancto, non
+<lb ed="#Ba"/>sunt isti actus determinati ad rem 
+tempo<lb ed="#Ba" break="no"/>ralem. Regulariter igitur accipiendum est,
+<lb ed="#Ba"/>quod nomina que significant quid 
+ge<lb ed="#Ba" break="no"/>neris, absolute non significant nisi 
+divi<lb ed="#Ba" break="no"/>nam essentiam non connotando effectum
+<pb ed="#Ba" n="580"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>cum ipsa in creatura. Illa vero nomina
+<lb ed="#Ba"/>que notant habitudinem in re 
+tempora<lb ed="#Ba" break="no"/>li, significant quidem divinam essentiam,
+<lb ed="#Ba"/>sed ex ipso modo significandi connotant
+<lb ed="#Ba"/>elfectum in creatura, ut justus et 
+mise<lb ed="#Ba" break="no"/>ricors : et ideo talia ab awterno Deo non
+<lb ed="#Ba"/>conveniunt, nisi secundum habitum et
+<lb ed="#Ba"/>non secundum actum. [lla vero nomina
+<lb ed="#Ba"/>que significant in habitudine ad actum
+<lb ed="#Ba"/>non determinatum in re temporali, etiam
+<lb ed="#Ba"/>divinam essentiam significant, non 
+con<lb ed="#Ba" break="no"/>notando effectum in ercatura.
+</p>
+            <p xml:id="Almn78-a27955-d1e520">
+               <lb ed="#Ba"/>His habitis, facile est respondere ad
+<lb ed="#Ba"/>objecta.
+</p>
+            <p xml:id="Almn78-a27955-d1e527">
+               <lb ed="#Ba"/>Ab prinum ergo dicendum, quod hoc
+<lb ed="#Ba"/>procedit.
+</p>
+            <p xml:id="Almn78-a27955-d1e534">
+               <lb ed="#Ba"/>Similiter tria sequentia concedenda
+<lb ed="#Ba"/>sunt. Quia cum dicitur, homo justus,
+<lb ed="#Ba"/>predicatur habitus justitia &gt; et 
+connota<lb ed="#Ba" break="no"/>tur actus qui est reddere unicuique quod
+<lb ed="#Ba"/>suum est. Et similiter cum dicitur, Deus
+<lb ed="#Ba"/>justus, preedicatur justilia quae est 
+essen<lb ed="#Ba" break="no"/>tia Dei, et ex modo significandi 
+connota<lb ed="#Ba" break="no"/>tur effectus, qui est reddere unicuique,
+<lb ed="#Ba"/>etc.
+</p>
+            <p xml:id="Almn78-a27955-d1e556">
+               <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod dictum Damasceni 
+in<lb ed="#Ba" break="no"/>tellivitur quantum ad communem 
+inten<lb ed="#Ba" break="no"/>tionem tportatam per nouen et in 
+crea<lb ed="#Ba" break="no"/>lore et in creaturis : sic cnimeverum est,
+<lb ed="#Ba"/>quod pomina sumplaa speciebus 
+prasdi<lb ed="#Ba" break="no"/>camentorum accidentis, ut quantitatis,
+<lb ed="#Ba"/>et qualitatis, non dicunt maturam sive
+<lb ed="#Ba"/>substantiam, sed dicunt id quod 
+sequi<lb ed="#Ba" break="no"/>tur, et est in substantia : hoc tamen in
+<lb ed="#Ba"/>Deo est substantia propler 
+indifferen<lb ed="#Ba" break="no"/>tiant simplicitalis : quia ipse est quidquid
+<lb ed="#Ba"/>habet, et nihil est in Deo per accidens,
+<lb ed="#Ba"/>exceplo quod Pater habet Filium et non
+<lb ed="#Ba"/>est Filius, Pater et Filius habent 
+Spiri<lb ed="#Ba" break="no"/>tum sanctum et non sunt Spiritus 
+san<lb ed="#Ba" break="no"/>clus : hwe enim relative dicuntur, et
+<lb ed="#Ba"/>non secundum subslantiam.
+</p>
+            <p xml:id="Almn78-a27955-d1e599">
+               <lb ed="#Ba"/>Per idem patet solutio ad sequens :
+<lb ed="#Ba"/>quia in eodem sensu dictum est.
+</p>
+            <p xml:id="Almn78-a27955-d1e606">
+               <lb ed="#Ba"/>Ad id quod ulterius objicitur, jam 
+pa<lb ed="#Ba" break="no"/>tet solutio : quia cum dicitur, Deus 
+ju<lb ed="#Ba" break="no"/>stus, et cum dicitur, homo justus, licet
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>principale predicatum sit Justitia que
+<lb ed="#Ba"/>est inherens homini cum dicitur, homo
+<lb ed="#Ba"/>justus : et que est essentia divina cum
+<lb ed="#Ba"/>dicitur, Deus justus : tamen ex modo
+<lb ed="#Ba"/>significandi per nomen quod significat
+<lb ed="#Ba"/>in habitudine ad actum, cum principali
+<lb ed="#Ba"/>significato connotatur effectus.
+</p>
+            <p xml:id="Almn78-a27955-d1e632">
+               <lb ed="#Ba"/>Ad srquuns patet solutio per 
+antedi<lb ed="#Ba" break="no"/>cla: ab aterno enim habitu justus est,
+<lb ed="#Ba"/>sed distributiones et ornatus non reddit
+<lb ed="#Ba"/>uniculque secundum actum nisi ex 
+tem<lb ed="#Ba" break="no"/>pore.
+</p>
+            <p xml:id="Almn78-a27955-d1e645">
+               <lb ed="#Ba"/>Ad srquens patet solulio per dicta. Ens
+<lb ed="#Ba"/>enim et bonum non sunt similia nomina
+<lb ed="#Ba"/>justo. Ens enim non dicit habitudinem
+<lb ed="#Ba"/>ad actum : bonum autem licet dicat 
+ha<lb ed="#Ba" break="no"/>bitudinem ad actum, tamen ille actus
+<lb ed="#Ba"/>non est determinalus ad rem 
+tempora<lb ed="#Ba" break="no"/>Jom.
+</p>
+            <p xml:id="Almn78-a27955-d1e663">
+               <lb ed="#Ba"/>Ad quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod secundum Dionysium, omnis
+<lb ed="#Ba"/>processio que est a Deo, secundum 
+di<lb ed="#Ba" break="no"/>vinas bonitates in Deo est ut participa
+<lb ed="#Ba"/>lio, et non ut participatio : et quod in
+<lb ed="#Ba"/>Deo est, Deus est. Unde ipse est sua
+<lb ed="#Ba"/>bonilas simplex et per se, et secundum
+<lb ed="#Ba"/>se bonitas, et similiter est de sapientia,
+<lb ed="#Ba"/>justitia, et de omnibus aliis bonitatibus,
+<lb ed="#Ba"/>quibus manifestatur in creatura 
+partici<lb ed="#Ba" break="no"/>panle bonitalem ipsius processio luminis
+<lb ed="#Ba"/>a Patre luminum, ul dicitur, Jacobi, 1,
+<lb ed="#Ba"/>17: Omne datiin optimum eb oimne 
+do<lb ed="#Ba" break="no"/>num perfectian desursum est, descendens
+<lb ed="#Ba"/>a Patre luminiaa. Et quamyis. sil sic
+<lb ed="#Ba"/>Deus Justus et misericors, et justilia et
+<lb ed="#Ba"/>misericordia : lamen, sicut dicit 
+Praepo<lb ed="#Ba" break="no"/>silivus, nomen quod significal in 
+adja<lb ed="#Ba" break="no"/>centia, ul juslus et miscricors et sapiens,
+<lb ed="#Ba"/>ex modo significandt plus accedit ad 
+com<lb ed="#Ba" break="no"/>posifionem et ad concreationem: et
+<lb ed="#Ba"/>nomen quod significat in subsistentia,
+<lb ed="#Ba"/>ut justilia et bonilas, ex modo 
+signifi<lb ed="#Ba" break="no"/>candi plus accedil ad simplicitatem. 
+Pro<lb ed="#Ba" break="no"/>pter quod cum copula ponilur in divinis
+<lb ed="#Ba"/>infer nomina signilicantia in adjacentia,
+<lb ed="#Ba"/>copulatur ibi diversitas effeeluum 
+conno<lb ed="#Ba" break="no"/>tatorum. Propter quod etiam tales 
+locu<lb ed="#Ba" break="no"/>tiones congrue determinantur adverbiis
+<pb ed="#Ba" n="581"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>notantibus intentionem forme in 
+subje<lb ed="#Ba" break="no"/>cto. Unde dicitur : Dulcis et rectus 
+Do<lb ed="#Ba" break="no"/>minus, et valde dulcis et valde rectus.
+<lb ed="#Ba"/>Cum autem ponitur copulatio inter 
+no<lb ed="#Ba" break="no"/>mina significantia in subsistentia, ut
+<lb ed="#Ba"/>cum dicitur Deus misericordia ef veritas,
+<lb ed="#Ba"/>vel bonitas e¢ justitia, copulativa 
+con<lb ed="#Ba" break="no"/>junclio copulare querit diversa 
+supposi<lb ed="#Ba" break="no"/>ta, que in divina predicatione non 
+in<lb ed="#Ba" break="no"/>venil : idem enim est suppositum 
+bo<lb ed="#Ba" break="no"/>nitatis et justitia : et ideo minus proprie
+<lb ed="#Ba"/>sunt tales locutiones, cum dicitur, Deas
+<lb ed="#Ba"/>justitiacet bonifas : nec tamen sunt 
+in<lb ed="#Ba" break="no"/>congrue vel false : copulat enim 
+con<lb ed="#Ba" break="no"/>junctio diversum modum  significandi.
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Sicut enim diximus, quoniam Deus 
+si<lb ed="#Ba" break="no"/>gnificatur secundum aliquid et non 
+sim<lb ed="#Ba" break="no"/>pliciter, multis modis, et non uno modo
+<lb ed="#Ba"/>oportet eum significari : et quia talia
+<lb ed="#Ba"/>nomina non significant in adjacentia,
+<lb ed="#Ba"/>ideo tales locutiones non recipiunt 
+ad<lb ed="#Ba" break="no"/>verbia notantia intentionem forme in
+<lb ed="#Ba"/>subjecto. Unde quamvis dicatur Deus
+<lb ed="#Ba"/>valde dulcis, non tamen dicitur valde
+<lb ed="#Ba"/>dulcedo : et quamvis dicatur multus,
+<lb ed="#Ba"/>rectus, non tamen dicitur multitudo, 
+re<lb ed="#Ba" break="no"/>ctitudo.
+</p>
+            <p xml:id="Almn78-a27955-d1e793">
+               <lb ed="#Ba"/>Et per hoc patet solutio ad objectum
+<lb ed="#Ba"/>in contrarium et ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

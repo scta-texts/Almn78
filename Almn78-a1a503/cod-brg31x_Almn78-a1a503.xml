@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a1a503"><!-- p1t1q1 -->
+            <head xml:id="Almn78-a1a503-Hd1e106">Quaestio 1</head>
+            <head xml:id="Almn78-a1a503-Hd1e109" type="question-title">An theologia sit scientia?</head>
+            <p xml:id="Almn78-a1a503-d1e112">
+               <lb ed="#Ba"/>QUAESTIO I.
+<lb ed="#Ba"/>An theologia sit scientia?
+</p>
+            <p xml:id="Almn78-a1a503-d1e119">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Primo ergo queritur, An theologia
+<lb ed="#Ba"/>rit scientia ?
+</p>
+            <p xml:id="Almn78-a1a503-d1e128">
+               <lb ed="#Ba"/>Et sex modis arguitur, quod non sit
+<lb ed="#Ba"/>scientia.
+</p>
+            <p xml:id="Almn78-a1a503-d1e136">
+               <lb ed="#Ba"/>1. Primus accipitur ex eo de quo est.
+<lb ed="#Ba"/>Est enim de gestis singularibus Dei et
+<lb ed="#Ba"/>sanctorum Veteris et Novi Testamenti,
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>que gesta historialiter describuntur. De
+<lb ed="#Ba"/>quibus dicit Augustinus in libro
+<lb ed="#Ba"/>LXXXIT Questionum, quod <quote xml:id="Almn78-a1a503-Qd1e153"> historie
+<lb ed="#Ba"/>rerum semper creduntur, et numquam
+<lb ed="#Ba"/>intelliguntur *. </quote> Sed de his que 
+num<lb ed="#Ba" break="no"/>quam intelliguntur, non potest esse
+<lb ed="#Ba"/>scientia: omnis enim scientia ex intelli
+<pb ed="#Ba" n="8"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>gibilibus accipitur, ut docet Aristoteles
+<lb ed="#Ba"/>in I Posteriorum: de intelligibilibus 
+au<lb ed="#Ba" break="no"/>tem meliorem habemus  acceptionem
+<lb ed="#Ba"/>quam sit scientia. Cum igitur ea ex 
+qui<lb ed="#Ba" break="no"/>bus accipitur theologia non sint 
+intelli<lb ed="#Ba" break="no"/>gibilia, videtur quod theologia non sit
+<lb ed="#Ba"/>scientia.
+</p>
+            <p xml:id="Almn78-a1a503-d1e185">
+               <lb ed="#Ba"/>Hoc confirmatur per hoc, quod omnis
+<lb ed="#Ba"/>scientia ex universalibus est: gesta 
+au<lb ed="#Ba" break="no"/>tem historica particularia sunt per hic et
+<lb ed="#Ba"/>nunc determinata, ut Philosophus in
+<lb ed="#Ba"/>I Metaphysice dicit, quod ex multis 
+par<lb ed="#Ba" break="no"/>ticularibus similiter acceptis experientia
+<lb ed="#Ba"/>fit, hoc est, experimentalis cognitio. Et
+<lb ed="#Ba"/>ibidem post pauca dicit : <quote xml:id="Almn78-a1a503-Qd1e204"> Universale
+<lb ed="#Ba"/>artis et scientiz# principium est. </quote>
+            </p>
+            <p xml:id="Almn78-a1a503-d1e210">
+               <lb ed="#Ba"/>2. Secundo, Objicitur ex 
+considera<lb ed="#Ba" break="no"/>tione ejus de quo est. Est enim de 
+trini<lb ed="#Ba" break="no"/>tate personarum in una natura, et 
+diver<lb ed="#Ba" break="no"/>sitate naturarum in una persona Christi,
+<lb ed="#Ba"/>et effectibus istorum. Cum enim 
+intelle<lb ed="#Ba" break="no"/>ctus noster possibiliter sit, non potest
+<lb ed="#Ba"/>accipere scientiam, nisi per propositiones
+<lb ed="#Ba"/>primas, quas habet apud se, eta nullo
+<lb ed="#Ba"/>accipit Doctore, quibus tamquam 
+instru<lb ed="#Ba" break="no"/>mentis de potentia ducitur ad actum, et
+<lb ed="#Ba"/>contrarium illis nihil accipit, sicut est
+<lb ed="#Ba"/>de quolibet affirmatio vel negatio vera,
+<lb ed="#Ba"/>et quod nomina et voces non significant
+<lb ed="#Ba"/>infinita, et hujusmodi que ponit 
+Aristo<lb ed="#Ba" break="no"/>teles in IV prime philosophiae. Inter has
+<lb ed="#Ba"/>autem est, quod una natura simplex per
+<lb ed="#Ba"/>esse numeratur in diversis hypostasibus,
+<lb ed="#Ba"/>et quod diversarum naturarum substantia
+<lb ed="#Ba"/>et potentia et proprietate dilferentium,
+<lb ed="#Ba"/>diverse sunt hypostases, et quod non
+<lb ed="#Ba"/>est idem corruptibile et incorruptibile,
+<lb ed="#Ba"/>sicut et probat Aristoteles in Ide Celo et
+<lb ed="#Ba"/>Mundo. Si enim potentia semper essendi
+<lb ed="#Ba"/>in eodem subjecto sit cum potentia 
+cor<lb ed="#Ba" break="no"/>rumpendi, sequitur quod idem 
+subje<lb ed="#Ba" break="no"/>ctum erit, et non erit aliquando, quod
+<lb ed="#Ba"/>est impossibile. Ista ergo principia que
+<lb ed="#Ba"/>intellectus apud se habet, non 
+permit<lb ed="#Ba" break="no"/>tunt quod scientia generatur in ipso vel
+<lb ed="#Ba"/>de fide Trinitatis et unitatis, vel de fide
+<lb ed="#Ba"/>incarnationis et passionis, vel de fide
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>resurrectionis et ascensionis : que potis—
+<lb ed="#Ba"/>sima sunt in scientia theologie. Ergo
+<lb ed="#Ba"/>videtur, quod scientia theologica non sit
+<lb ed="#Ba"/>scientia.
+</p>
+            <p xml:id="Almn78-a1a503-d1e291">
+               <lb ed="#Ba"/>3. Tertio, Arguitur ex hoc, quod tres
+<lb ed="#Ba"/>sunt acceptionis partes, ut dicit 
+Philoso<lb ed="#Ba" break="no"/>phus. Ex probabilibus enim est opinio. Ex
+<lb ed="#Ba"/>credibilibus fides, et hac etiam innata
+<lb ed="#Ba"/>rationibus ex probabilibus nascitur. Ex
+<lb ed="#Ba"/>intelligibilibus autera generatur scientia,
+<lb ed="#Ba"/>Cum ergo sacra Scriptura ex 
+credibili<lb ed="#Ba" break="no"/>bus sit, videtur quod non sit scientia de
+<lb ed="#Ba"/>theologicis, sed fides. Unde Augustinus
+<lb ed="#Ba"/>in libro XIV de Trinitate: <quote xml:id="Almn78-a1a503-Qd1e314"> Non 
+quid<lb ed="#Ba" break="no"/>quid sciri ab hominibus potest in rebus
+<lb ed="#Ba"/>humanis huic scientie tribuo, ubi 
+plu<lb ed="#Ba" break="no"/>rimum supervacue vanitatis et noxie
+<lb ed="#Ba"/>curiositatis est, sed illud tantummodo
+<lb ed="#Ba"/>quo fides saluberrima, que ad veram
+<lb ed="#Ba"/>beatitudinem ducit, gignitur, nutritur,
+<lb ed="#Ba"/>defenditur, roboratur '. </quote> Videtur ergo,
+<lb ed="#Ba"/>quod de theologicis sit fides et non 
+scien<lb ed="#Ba" break="no"/>tia.
+</p>
+            <p xml:id="Almn78-a1a503-d1e338">
+               <lb ed="#Ba"/>4. Quarto: quia dicit Richardus de
+<lb ed="#Ba"/>sancto Victore quod <quote xml:id="Almn78-a1a503-Qd1e344"> fides est supra
+<lb ed="#Ba"/>opmionem, et infra scientiam veritatis. </quote>
+               <lb ed="#Ba"/>Videtur ergo, quod de credibilibus non
+<lb ed="#Ba"/>sit scientia, sed aliquid infra scientiam.
+</p>
+            <p xml:id="Almn78-a1a503-d1e354">
+               <lb ed="#Ba"/>3. Quinto: quia si scientia est, 
+eva<lb ed="#Ba" break="no"/>cuat meritum fidei. Dicit enim 
+Grego<lb ed="#Ba" break="no"/>rius in homilia sua paschali, quod <quote xml:id="Almn78-a1a503-Qd1e362"> fides
+<lb ed="#Ba"/>non habet meritum, cui humana ratio
+<lb ed="#Ba"/>prebet experimentum. </quote> Et cum omnis
+<lb ed="#Ba"/>scientia que est in nobis, ex humana 
+ra<lb ed="#Ba" break="no"/>tione sit, videtur quod doctrina fidei non
+<lb ed="#Ba"/>sit scientia.
+</p>
+            <p xml:id="Almn78-a1a503-d1e378">
+               <lb ed="#Ba"/>6. Sexto, Arguitur ex hoc quod dicit
+<lb ed="#Ba"/>Boetius, et Ptolemezus in Almagesto, in
+<lb ed="#Ba"/>principio, quod <quote xml:id="Almn78-a1a503-Qd1e386"> quedam propter 
+ni<lb ed="#Ba" break="no"/>miam suam perfectionem perfecto 
+in<lb ed="#Ba" break="no"/>tellectu intelligibilia non sunt, ut Deus,
+<lb ed="#Ba"/>et substantia separate.</quote> Sed de 
+qui<lb ed="#Ba" break="no"/>bus non est perfectus intellectus, non 
+ge<lb ed="#Ba" break="no"/>neratur perfecta scientia. Et hoc 
+confir<lb ed="#Ba" break="no"/>mat Dionysius in libro de Divinis 
+nomi<lb ed="#Ba" break="no"/>nibus, dicens, quod <quote xml:id="Almn78-a1a503-Qd1e404">cum ad divina 
+veni<lb ed="#Ba" break="no"/>mus, perfectam invenimus trrationabilita
+<pb ed="#Ba" n="9"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tem. </quote> Et hoc est etiam quod dicit 
+Phi<lb ed="#Ba" break="no"/>losophus in libro de Causis, quod <quote xml:id="Almn78-a1a503-Qd1e417"> prima
+<lb ed="#Ba"/>causa est super omne nomen, et super
+<lb ed="#Ba"/>omnem rationem, et numquam sufficiunt
+<lb ed="#Ba"/>lingue ad narrationem = ejus, propter
+<lb ed="#Ba"/>excellentiam esse ejus. </quote> lad Timoth.
+<lb ed="#Ba"/>vi, 16: Lucem inhabitat inaccesstbilem.
+</p>
+            <p xml:id="Almn78-a1a503-d1e432">
+               <lb ed="#Ba"/>Contra hoc est, quod
+<lb ed="#Ba"/>1. Illud quod scitur ex primo, verius
+<lb ed="#Ba"/>scitur quam id quod scitur ex aliquo 
+se<lb ed="#Ba" break="no"/>cundorum : sed quod scitur per 
+inspira<lb ed="#Ba" break="no"/>tionem, scitur ex primo: ergo verius
+<lb ed="#Ba"/>scitur quam aliqua alia causa.
+</p>
+            <p xml:id="Almn78-a1a503-d1e448">
+               <lb ed="#Ba"/>2. Adhuc, Quod scitur ex 
+immobili<lb ed="#Ba" break="no"/>bus et immobilissimis, verius  scitur
+<lb ed="#Ba"/>quam quod scitur ex mobilibus vel 
+mi<lb ed="#Ba" break="no"/>nus immobilibus: quod autem per 
+reve<lb ed="#Ba" break="no"/>lationem scitur, ex immobilissimis 
+sci<lb ed="#Ba" break="no"/>tur: ergo illa verissime scientia est.
+</p>
+            <p xml:id="Almn78-a1a503-d1e464">
+               <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod 
+theo<lb ed="#Ba" break="no"/>logia verissima scientia est, et quod plus
+<lb ed="#Ba"/>est, sapientia: eo quod per altissimas
+<lb ed="#Ba"/>causas est, quas difficile est homini scire :
+<lb ed="#Ba"/>talia enim cognoscentem Philosophus
+<lb ed="#Ba"/>dicit esse sapientem in primo prime
+<lb ed="#Ba"/>philosophiz: et talem scientiam vocat
+<lb ed="#Ba"/>sapientiam.
+</p>
+            <p xml:id="Almn78-a1a503-d1e484">
+               <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+scien<lb ed="#Ba" break="no"/>tia theologie de particularibus est, non
+<lb ed="#Ba"/>quia sit in particularibus particulariter
+<lb ed="#Ba"/>consideratis, sed quia scientia est 
+secun<lb ed="#Ba" break="no"/>dum pietatem, ut dicitur,ad Titum, 1, 1 2,
+<lb ed="#Ba"/>ct informans ad fidem meritorum et 
+ope<lb ed="#Ba" break="no"/>rum. Talis autem scientie perfectio 
+ul<lb ed="#Ba" break="no"/>tima in operibus particularibus 
+particu<lb ed="#Ba" break="no"/>lariter operantibus est.
+</p>
+            <p xml:id="Almn78-a1a503-d1e506">
+               <lb ed="#Ba"/>Adhuc autem: quia talis scientia 
+ma<lb ed="#Ba" break="no"/>gis creditur eis qui talia amant opera et
+<lb ed="#Ba"/>faciunt, quam propter persuasionem, ut
+<lb ed="#Ba"/>dicit Philosophus in libro IX Ethicorum.
+</p>
+            <p xml:id="Almn78-a1a503-d1e518">
+               <lb ed="#Ba"/>Adhuc arguitur : quia in 
+particulari<lb ed="#Ba" break="no"/>bus proposita, plures quisecundum 
+sen<lb ed="#Ba" break="no"/>sum judicant, instruit et informat ad pie-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>tatem : ideo in libris suis in 
+particulari<lb ed="#Ba" break="no"/>bus proponitur. Unde Hieronymus in
+<lb ed="#Ba"/>suo Prowmio galeato: <quote xml:id="Almn78-a1a503-Qd1e535"> Nolo ut 
+offen<lb ed="#Ba" break="no"/>daris in Scripturis sanctis simplicitate
+<lb ed="#Ba"/>et quasi vilitate verborum, que vel vitio
+<lb ed="#Ba"/>interpretum, vel de industria sic prolata
+<lb ed="#Ba"/>sunt, ut rusticam concionem facilius 
+in<lb ed="#Ba" break="no"/>struerent, et in una eademque_ sententia
+<lb ed="#Ba"/>aliter doctus, aliter sentiret indoctus *. </quote>
+               <lb ed="#Ba"/>Singulare enim potentia universale est
+<lb ed="#Ba"/>aliquando : quia sicut in uno similiter se
+<lb ed="#Ba"/>habet in omnibus aliis. Propter quod
+<lb ed="#Ba"/>sequitur, si anima Petri est immortalis:
+<lb ed="#Ba"/>ergo anima omnis hominis. Et similiter,
+<lb ed="#Ba"/>si fides, spes et charitas in Abraham 
+ac<lb ed="#Ba" break="no"/>cepta est, in omnibus hominibus accepta
+<lb ed="#Ba"/>erit. Et si revelatum a Spiritu veritatis in
+<lb ed="#Ba"/>uno verum est, in omnibus verum erit.
+<lb ed="#Ba"/>Propter quod particularia sacre 
+Scri<lb ed="#Ba" break="no"/>plure potentia universalia sunt, ut ex
+<lb ed="#Ba"/>ipsis sicut ex universalibus arguatur. Si
+<lb ed="#Ba"/>enim semel interpositio terre, recto 
+dia<lb ed="#Ba" break="no"/>metro semel faciat eclipsim, sequitur
+<lb ed="#Ba"/>quod semper facit. Sic igitur et hac de
+<lb ed="#Ba"/>causa theologia in particularibus 
+propo<lb ed="#Ba" break="no"/>nitur, cum tamen verissime scientia sit
+<lb ed="#Ba"/>universalis.
+</p>
+            <p xml:id="Almn78-a1a503-d1e591">
+               <lb ed="#Ba"/>Quod autem quidam hic distinguunt,
+<lb ed="#Ba"/>quod quatuor modis dicitur universale.
+<lb ed="#Ba"/>Preedicatione scilicet, quod de pluribus
+<lb ed="#Ba"/>potentia vel actu vel utroque modo 
+pra<lb ed="#Ba" break="no"/>dicatur, ut homo, domus heptangula,
+<lb ed="#Ba"/>que forte numquam fuit, sed tamen esse
+<lb ed="#Ba"/>potuit, ut dicit Avicenna. Et sol qui 
+uni<lb ed="#Ba" break="no"/>versale est, quamvis non nisi de uno
+<lb ed="#Ba"/>actu predicatur. Secundo modo 
+univer<lb ed="#Ba" break="no"/>sale est, ut dicunt, quod exemplariter ad
+<lb ed="#Ba"/>multa refertur, ut sigillum, et actus
+<lb ed="#Ba"/>exemplaris Sanctorum. Tertio modo 
+uni<lb ed="#Ba" break="no"/>versale est significando ad multa 
+rela<lb ed="#Ba" break="no"/>tum, ut mors Abel ad mortem Christi in
+<lb ed="#Ba"/>se et in omnibus martyribus suis. 
+Pro<lb ed="#Ba" break="no"/>pter quod dicitur, Apocal. xm, 8: Agnus
+<lb ed="#Ba"/>gut occisus est ab origine mundi. Quarto
+<pb ed="#Ba" n="10"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>modo dicunt universale esse causando
+<lb ed="#Ba"/>ad multa relatum, sicut prima causa 
+uni<lb ed="#Ba" break="no"/>versalis dicitur esse. Hac quidem bene
+<lb ed="#Ba"/>dicta sunt, quamvis ad propositum 
+ni<lb ed="#Ba" break="no"/>hil: quia scientia non est de 
+universa<lb ed="#Ba" break="no"/>libus exemplificando, vel significando,
+<lb ed="#Ba"/>vel causando, sed predicando tantum.
+</p>
+            <p xml:id="Almn78-a1a503-d1e650">
+               <lb ed="#Ba"/>Et quod dicit Augustinus, quod talia
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a1a503-Qd1e656"> semper creduntur, et numquam 
+in<lb ed="#Ba" break="no"/>telliguntur, </quote> intelligitur de gestis 
+hu<lb ed="#Ba" break="no"/>manis, in quibus non*sicut in uno, sic in
+<lb ed="#Ba"/>omnibus aliis est.
+</p>
+            <p xml:id="Almn78-a1a503-d1e666">
+               <lb ed="#Ba"/>Ad id quod secundo objicitur, dicendum
+<lb ed="#Ba"/>quod noster intellectus perficitur 
+lumini<lb ed="#Ba" break="no"/>bus et elevatur: et ex lumine quidem
+<lb ed="#Ba"/>connaturali non elevatur ad scientiam
+<lb ed="#Ba"/>Trinitatis et incarnationis et 
+resurrectio<lb ed="#Ba" break="no"/>nis. Ex Jumine autem fluente a superiori
+<lb ed="#Ba"/>natura, ad supermundana elevatur, que
+<lb ed="#Ba"/>potentia sola divina et voluntate sunt, ut
+<lb ed="#Ba"/>dicit Chrysostomus. Et his lumine 
+desu<lb ed="#Ba" break="no"/>per fluente assentit: et certius ea scit,
+<lb ed="#Ba"/>quam ea que ex lumine sibi connaturali
+<lb ed="#Ba"/>accipit.
+</p>
+            <p xml:id="Almn78-a1a503-d1e695">
+               <lb ed="#Ba"/>Ad id quod tertio objicitur, dicendum
+<lb ed="#Ba"/>quod sunt credibilia que intelligibilia
+<lb ed="#Ba"/>esse non possunt, sicut gesta humana,
+<lb ed="#Ba"/>que potentiam universalitatis non 
+ha<lb ed="#Ba" break="no"/>bent. Et haec non generant nisi 
+opinio<lb ed="#Ba" break="no"/>nem, vel fidem, non secundum quod
+<lb ed="#Ba"/>fides est virtus, sed secundum quod dicit
+<lb ed="#Ba"/>Philosophus in IIT de Anima, opinio
+<lb ed="#Ba"/>innata rationibus fit fides. Et sunt 
+credi<lb ed="#Ba" break="no"/>bilia que per inductionem luminis 
+supe<lb ed="#Ba" break="no"/>rioris fiunt intelligibilia: et hac faciunt
+<lb ed="#Ba"/>certissimam scientiam. Isaie, vu, 9,
+<lb ed="#Ba"/>secundum translationem Septuaginta
+<lb ed="#Ba"/>interpretum : <quote xml:id="Almn78-a1a503-Qd1e727"> Nisi credideritis, non 
+in<lb ed="#Ba" break="no"/>telligetis '. </quote> Et Dionysius dicit in libro de
+<lb ed="#Ba"/>Divinis mominibus, quod <quote xml:id="Almn78-a1a503-Qd1e734"> fides est 
+lu<lb ed="#Ba" break="no"/>men locans credentes in prima veritate,
+<lb ed="#Ba"/>et primam veritatem in ipsis 
+immobili<lb ed="#Ba" break="no"/>bus *. </quote> Et ideo sub lumine illius 
+accipi<lb ed="#Ba" break="no"/>tur quod sub lumine naturali non potest
+<lb ed="#Ba"/>accipi. Dicit enim Boetius, quod <quote xml:id="Almn78-a1a503-Qd1e748"> quid-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quid potest potentia inferior, potest 
+su<lb ed="#Ba" break="no"/>perior, et amplius. </quote>
+            </p>
+            <p xml:id="Almn78-a1a503-d1e758">
+               <lb ed="#Ba"/>Ad quantum dicendum, quod 
+Richar<lb ed="#Ba" break="no"/>dus vocat opinionem omne id quod 
+hu<lb ed="#Ba" break="no"/>mana estimatione vel ratione acceptum
+<lb ed="#Ba"/>est : scientiam vero veritatis id solum
+<lb ed="#Ba"/>quod in visione Dei faciem ad facie 
+per<lb ed="#Ba" break="no"/>spectum est. Et sic verum est, quod fides
+<lb ed="#Ba"/>est media inter opinionem et scientiam
+<lb ed="#Ba"/>veritatis. I ad Corinth. xm, 12: Videmus
+<lb ed="#Ba"/>nunc per speculum in egnimate : tunc
+<lb ed="#Ba"/>autem facie ad faciem. Sed secundum
+<lb ed="#Ba"/>quod scientia est acceptio veritatis per
+<lb ed="#Ba"/>certas rationes et immobiles de 
+credibili<lb ed="#Ba" break="no"/>bus fidei, potest esse et est vera scientia.
+</p>
+            <p xml:id="Almn78-a1a503-d1e790">
+               <lb ed="#Ba"/>Ad quintum dicendum, quod si esset
+<lb ed="#Ba"/>ex humana ratione, teneret objectum :
+<lb ed="#Ba"/>nunc autem quia ex rationibus fidei est,
+<lb ed="#Ba"/>non tenet.
+</p>
+            <p xml:id="Almn78-a1a503-d1e801">
+               <lb ed="#Ba"/>Et quod dicitur, quod omnis nostra
+<lb ed="#Ba"/>scientia est ex humana ratione, falsum
+<lb ed="#Ba"/>est, nisi intelligatur humanitus non 
+di<lb ed="#Ba" break="no"/>vinitus accepta.
+</p>
+            <p xml:id="Almn78-a1a503-d1e812">
+               <lb ed="#Ba"/>Ad sextum jam patet solutio. 
+Perfe<lb ed="#Ba" break="no"/>ctissima enim lumine humani 
+intelle<lb ed="#Ba" break="no"/>ctus non perfecte intelliguntur, lumine
+<lb ed="#Ba"/>autem superioris nature vere possunt
+<lb ed="#Ba"/>intelligi et perfecte, perfectione vie, et
+<lb ed="#Ba"/>non patrie, nisi paucis, ut Paulo in Ta:
+<lb ed="#Ba"/>ptu hoc concessum fuit per privilegium
+<lb ed="#Ba"/>speciale. Job, xxxv1, 25: Omnes 
+homi<lb ed="#Ba" break="no"/>nes vident eum: unusquisque intuetur
+<lb ed="#Ba"/>procul, I ad Corinth. xm, 12: nunc 
+co<lb ed="#Ba" break="no"/>gnosco ex parte : tunc autem 
+cogno<lb ed="#Ba" break="no"/>scam, sicut et cognitus sum.
+</p>
+            <p xml:id="Almn78-a1a503-d1e841">
+               <lb ed="#Ba"/>Ex his patet, quod credibile tribus
+<lb ed="#Ba"/>modis se habet ad intellectum, ut dicit
+<lb ed="#Ba"/>Augustinus in libro LXXXIII 
+Quaxstio<lb ed="#Ba" break="no"/>num: <quote xml:id="Almn78-a1a503-Qd1e851">Impossibiliter, ut in gestis 
+homi<lb ed="#Ba" break="no"/>num, que semper creduntur et 
+num<lb ed="#Ba" break="no"/>quam intelliguntur. Antecedenter, ut in
+<lb ed="#Ba"/>gestis divinis, que non intelliguntur
+<lb ed="#Ba"/>nisi prius credantur. Consequenter, ut
+<lb ed="#Ba"/>in rationibus disciplinabilibus, que mox
+<lb ed="#Ba"/>ut intelliguntur, statim creduntur <!-- end of quotation unclear --></quote>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

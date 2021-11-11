@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="3"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-de110"><!-- p2t1q1 -->
+            <head xml:id="Almn78-de110-Hd1e106">Quaestio 1</head>
+            <head xml:id="Almn78-de110-Hd1e109" type="question-title">
+      Utrum unum principium sit omnium ?
+    </head>
+            <p xml:id="Almn78-de110-d1e112">
+               <pb ed="#Bb" n="3"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>TRACTATUS I.
+      <lb ed="#Bb"/>DE PRIMO PRINCIPIO.
+      <lb ed="#Bb"/>QUAESTIO I.
+      <lb ed="#Bb"/>Utrum unum principium sit omnium ?
+    </p>
+            <p xml:id="Almn78-de110-d1e128">
+               <lb ed="#Bb"/>Quod autem principlum unum sit
+      <lb ed="#Bb"/>omnium, queremus quidem hic 
+      princi<lb ed="#Bb" break="no"/>paliter, sed secundario adjungemus 
+      im<lb ed="#Bb" break="no"/>probationem erroris Platonis, Aristotelis,
+      <lb ed="#Bb"/>et Epicuri : quos errores Magister dicit
+      <lb ed="#Bb"/>circumstare hune articulum.
+    </p>
+            <p xml:id="Almn78-de110-d1e144">
+               <lb ed="#Bb"/>Ad primum objicitur sic :
+      <lb ed="#Bb"/>1. Magister in libro Hi Sententiarum,
+      <lb ed="#Bb"/>dictinctione I, dicit, quod <quote xml:id="Almn78-de110-Qd1e152">creationem
+        <lb ed="#Bb"/>rerum insinuans Scriptura, Deum esse
+        <lb ed="#Bb"/>creatorem initiumque temporis, atque
+        <lb ed="#Bb"/>omniim visibilium et invisibilium
+        <lb ed="#Bb"/>creaturarum, in primordio sui ostendit,
+        <lb ed="#Bb"/>dicens : In principio creavit Deus 
+        ca<lb ed="#Bb" break="no"/>lum et terram ‘. </quote> Ergo omnium 
+      crea<lb ed="#Bb" break="no"/>torum visibilium et invisibilium unum
+      <lb ed="#Bb"/>est principium.
+    </p>
+            <p xml:id="Almn78-de110-d1e175">
+               <lb ed="#Bb"/>2. Adhuc, Ibidem, <quote xml:id="Almn78-de110-Qd1e179"> His etenim verbis
+        <lb ed="#Bb"/>Moyses spiritu Dei afflatus, in uno
+        <lb ed="#Bb"/>principio a Deo creatore mundum fa
+        <lb ed="#Bb" break="no"/>ctum refert. </quote> Et hac verba licet Ma
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>gister ponat, tamen Bede sunt. Ergo
+      <lb ed="#Bb"/>omnium rerum que in mundo sunt,
+      <lb ed="#Bb"/>unum est principium effectivum.
+    </p>
+            <p xml:id="Almn78-de110-d1e198">
+               <lb ed="#Bb"/>3. Adhuc, Ambrosius in Hexameron
+      <lb ed="#Bb"/>etiam dicit, quod <quote xml:id="Almn78-de110-Qd1e204"> Moyses dicit, quia
+        <lb ed="#Bb"/>Deus fecit ccelum et terram : audisti 
+        au<lb ed="#Bb" break="no"/>ctorem, dubitare non debes. </quote> Et paulo
+      <lb ed="#Bb"/>post: <quote xml:id="Almn78-de110-Qd1e213"> Cum tot oracula audias quibus
+        <lb ed="#Bb"/>testificatur Deus quod fecit mundum,
+        <lb ed="#Bb"/>noli eum sine principio esse credere. </quote>
+               <lb ed="#Bb"/>Ergo credere non licet, quod ab uno
+      <lb ed="#Bb"/>principio, Deo scilicet, non processerit
+      <lb ed="#Bb"/>omne quod in mundo est. Unum ergo est
+      <lb ed="#Bb"/>omnium principium.
+    </p>
+            <p xml:id="Almn78-de110-d1e230">
+               <lb ed="#Bb"/>4. Adhuc, Sancti probant hoc, 
+      Dama<lb ed="#Bb" break="no"/>scenus sic : supponit enim, quod 
+      princi<lb ed="#Bb" break="no"/>pium non cognoscitur nisi ex 
+      compara<lb ed="#Bb" break="no"/>tione ad principiatum secundum 
+      eminen<lb ed="#Bb" break="no"/>tiam principii super principiatum : in
+      <lb ed="#Bb"/>omnibus autem principiatis, ex hoc ipso
+      <lb ed="#Bb"/>quod principiata sunt, de necessitate 
+      se<lb ed="#Bb" break="no"/>quitur mutabilitas, quia principiatum
+      <pb ed="#Bb" n="4"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>esse, est aliquo modo mutatum esse : et
+      <lb ed="#Bb"/>ideo dicit Damascenus, quod omne 
+      crea<lb ed="#Bb" break="no"/>bile vertibile est : vel secundum 
+      electio<lb ed="#Bb" break="no"/>nem, ut creatura spiritualis : vel 
+      secun<lb ed="#Bb" break="no"/>dum naturam, ut creatura corporalis :
+      <lb ed="#Bb"/>vel secundum utrumque, ut illa que est
+      <lb ed="#Bb"/>composita ex corporali et spirituali. 
+      Se<lb ed="#Bb" break="no"/>guitur ergo, quod omne mutabile, 
+      prin<lb ed="#Bb" break="no"/>cipiatum est : et nullum principiatum
+      <lb ed="#Bb"/>universaliter potest esse omnium 
+      princi<lb ed="#Bb" break="no"/>pium : ergo nullum mutabile potest esse
+      <lb ed="#Bb"/>omnium principium : mutabile ergo
+      <lb ed="#Bb"/>quod de necessitate principiatum est, erit
+      <lb ed="#Bb"/>a principio immutabili, quod ante omne
+      <lb ed="#Bb"/>mutabile est. Quod autem ante omne
+      <lb ed="#Bb"/>mutabile est, non est nisi unum :; ergo
+      <lb ed="#Bb"/>unum solum est principium omnium
+      <lb ed="#Bb"/>principiatorum spiritualium et 
+      corpora<lb ed="#Bb" break="no"/>lium.
+    </p>
+            <p xml:id="Almn78-de110-d1e295">
+               <lb ed="#Bb"/>3. Adhuc, Omne principiatum 
+      secun<lb ed="#Bb" break="no"/>dum esse suum et bonum, dependens
+      <lb ed="#Bb"/>est ad aliud quo in esse et bono 
+      perficia<lb ed="#Bb" break="no"/>tur. Ista igitur dependentia, aut deducetur
+      <lb ed="#Bb"/>in infinitum ut semper unum ab alio
+      <lb ed="#Bb"/>dependeat, ita quod in nullo uno ‘stet
+      <lb ed="#Bb"/>quod ad aliud non dependeat : aut 
+      cir<lb ed="#Bb" break="no"/>culariter reflectitur in seipsam, aut stat
+      <lb ed="#Bb"/>in uno a quo alia sic accipiunt 
+      perfectio<lb ed="#Bb" break="no"/>nem in esse vero et bono, quod ipsum
+      <lb ed="#Bb"/>plenitudinem esse veri et boni habet in
+      <lb ed="#Bb"/>seipso, quam anullo accipit, sed in 
+      om<lb ed="#Bb" break="no"/>nia transfundit.
+    </p>
+            <p xml:id="Almn78-de110-d1e326">
+               <lb ed="#Bb"/>Sed primum horum stare non potest :
+      <lb ed="#Bb"/>sicut enim dicit Aristoteles in primo de
+      <lb ed="#Bb"/>Anima, et in primo Posteriorum, 
+      de<lb ed="#Bb" break="no"/>monstrationes non abeunt in infinitum :
+      <lb ed="#Bb"/>theorice enim stant ad causam, practice
+      <lb ed="#Bb"/>autem ad opus : cum igitur resolutio
+      <lb ed="#Bb"/>principiali in principium, via 
+      demon<lb ed="#Bb" break="no"/>strationis theorica sit, nullo modo potest
+      <lb ed="#Bb"/>abire in infinitum : et si abiret in 
+      infini<lb ed="#Bb" break="no"/>tum, numquam esset devenire ad hoc vel
+      <lb ed="#Bb"/>illud principiatum : ante quodlibet enim
+      <lb ed="#Bb"/>hoc vel illud essent infinita, que non
+      <lb ed="#Bb"/>contingit pertransire nec actu nec 
+      in<lb ed="#Bb" break="no"/>tellectu.
+    </p>
+            <p xml:id="Almn78-de110-d1e359">
+               <lb ed="#Bb"/>Eodem modo secunda via impossibilis
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>est : quia probatum est in primo 
+      Poste<lb ed="#Bb" break="no"/>riorum, quod non contingit circulo fieri
+      <lb ed="#Bb"/>demonstrationem : sequeretur enim,
+      <lb ed="#Bb"/>quod idem esset principium et 
+      principia<lb ed="#Bb" break="no"/>tum a seipso : et verificarentur 
+      contradi<lb ed="#Bb" break="no"/>ctoria de eodem, erit enim idem 
+      princi<lb ed="#Bb" break="no"/>pium et non principium, et idem 
+      princi<lb ed="#Bb" break="no"/>piatum et nou principiatum, quod valde
+      <lb ed="#Bb"/>inconveniens est.
+    </p>
+            <p xml:id="Almn78-de110-d1e386">
+               <lb ed="#Bb"/>Relinquitur ergo, quod tertia via stet,
+      <lb ed="#Bb"/>scilicet quod omnia sint principium, vel
+      <lb ed="#Bb"/>a principio : et quod omnia que sunt a
+      <lb ed="#Bb"/>principio, dependeant ab uno quod a
+      <lb ed="#Bb"/>nullo alio dependet, et omnibus largitur
+      <lb ed="#Bb"/>esse verum et bonum.
+    </p>
+            <p xml:id="Almn78-de110-d1e402">
+               <lb ed="#Bb"/>6. Adhuc, Omnis multitudo reducitur
+      <lb ed="#Bb"/>ad unum, ut probatur in Il Arithmetice :
+      <lb ed="#Bb"/>constat autem, quod multitudo est in
+      <lb ed="#Bb"/>principiatis : ergo hec multitudo est
+      <lb ed="#Bb"/>multitudo processuum ab uno.
+    </p>
+            <p xml:id="Almn78-de110-d1e415">
+               <lb ed="#Bb"/>Dicit etiam Dionysius in libro de
+      <lb ed="#Bb"/>Divinis nominibus, quod <quote xml:id="Almn78-de110-Qd1e421"> que multa
+        <lb ed="#Bb"/>sunt processibus, sunt unum principio !:</quote>
+               <lb ed="#Bb"/>constat autem, quod omnia principiata,
+      <lb ed="#Bb"/>processibus sunt multa: omnia ergo
+      <lb ed="#Bb"/>talia sunt unum principio : quecumque
+      <lb ed="#Bb"/>autem sunt unum principio, ab uno 
+      de<lb ed="#Bb" break="no"/>scendunt principio, et eorum principium
+      <lb ed="#Bb"/>est unum : ergo omnium principiatorum
+      <lb ed="#Bb"/>est principium unum.
+    </p>
+            <p xml:id="Almn78-de110-d1e442">
+               <lb ed="#Bb"/>In contrarium ejus videtur esse,
+      <lb ed="#Bb"/>1. Quod dicit Manicheus, scilicet quod
+      <lb ed="#Bb"/>aliud sit principium boni, et aliud 
+      prin<lb ed="#Bb" break="no"/>cipium mali, sic objiciens: Bonum et
+      <lb ed="#Bb"/>malum sunt genera aliorum, ut dicit
+      <lb ed="#Bb"/>Aristoteles in Predicamentis : nec di- .
+      <lb ed="#Bb"/>cuntur genera aliorum, secundum quod
+      <lb ed="#Bb"/>genus dicitur ambitus pradicabilium
+      <lb ed="#Bb"/>secundum unam rationem, sicut 
+      sub<lb ed="#Bb" break="no"/>stantia et qualitas dicuntur genera : 
+      vide<lb ed="#Bb" break="no"/>tur ergo, quod genera dicuntur, quia a
+      <lb ed="#Bb"/>diversis principiis sunt fluentia : videtur
+      <lb ed="#Bb"/>ergo, quod duo principia sint, unum
+      <lb ed="#Bb"/>boni, et alterum mali. Sed quia de hac
+      <lb ed="#Bb"/>questione in prima parte Summe
+      <lb ed="#Bb"/>theologiv, tractatu de summo bono,
+      <lb ed="#Bb"/>multum disputatum est, ideo que ibi
+      <pb ed="#Bb" n="5"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>dicta sunt, hic subjaceant et 
+      supponan<lb ed="#Bb" break="no"/>tur’.
+    </p>
+            <p xml:id="Almn78-de110-d1e490">
+               <lb ed="#Bb"/>2. Alia via adhuc plura videntur esse
+      <lb ed="#Bb"/>principia. Videtur enim, quod 
+      spiritua<lb ed="#Bb" break="no"/>lium et corporalium non idem sit 
+      prin<lb ed="#Bb" break="no"/>ciplum : omne enim principiatum per se
+      <lb ed="#Bb"/>aliquam habet similitudinem cum 
+      prin<lb ed="#Bb" break="no"/>cipio : constat autem, quod primum
+      <lb ed="#Bb"/>principium summus spiritus est, eternus,
+      <lb ed="#Bb"/>et increatus : cum hoc autem nullam 
+      ha<lb ed="#Bb" break="no"/>bet similitudinem creatura corporalis :
+      <lb ed="#Bb"/>ergo videtur, quod creatura corporalis
+      <lb ed="#Bb"/>non ab eodem principio sit, a quo est
+      <lb ed="#Bb"/>creatura spiritualis.
+    </p>
+            <p xml:id="Almn78-de110-d1e519">
+               <lb ed="#Bb"/>3. Adhuc, Quzecumque ab eodem
+      <lb ed="#Bb"/>principio fluunt, ejusdem ordinis sunt et
+      <lb ed="#Bb"/>consentanea sibi invicem : corporalis et
+      <lb ed="#Bb"/>spiritualis creatura non sunt consentanea
+      <lb ed="#Bb"/>sibi invicem. Sapient. 1x, 15: Corpus
+      <lb ed="#Bb"/>quod corrumpitur aggravat animam, et
+      <lb ed="#Bb"/>terrena inhabitatio deprimit sensum
+      <lb ed="#Bb"/>multa cogitantem. Ergo corporalis 
+      crea<lb ed="#Bb" break="no"/>tura et spiritualis non sunt ab eodem
+      <lb ed="#Bb"/>principio, per locum a destructione 
+      con<lb ed="#Bb" break="no"/>sequentis.
+    </p>
+            <p xml:id="Almn78-de110-d1e546">
+               <lb ed="#Bb"/>4. Adhuc, In omnibus 
+      proportionabi<lb ed="#Bb" break="no"/>lia sunt efficiens, et id ex quo fit, sive
+      <lb ed="#Bb"/>materiale principium : dicit enim 
+      Aris<lb ed="#Bb" break="no"/>toteles in IX prime philosophizg, et
+      <lb ed="#Bb"/>Commentator ibidem idem asserit, quod
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-de110-Qd1e561">nihil est in potentia in alio, nisi quod
+        <lb ed="#Bb"/>uno et eodem motore educitur de illo: </quote>
+               <lb ed="#Bb"/>si ergo spiritualium et corporalium non
+      <lb ed="#Bb"/>est idem materiale principium, non erit
+      <lb ed="#Bb"/>idem motor qui et corporalia et 
+      spiritua<lb ed="#Bb" break="no"/>lia de potentia educat in actum : constat
+      <lb ed="#Bb"/>autem, quod non est idem materiale
+      <lb ed="#Bb"/>principium spiritualium et corporalium :
+      <lb ed="#Bb"/>aliud est ergo principium spiritualium,
+      <lb ed="#Bb"/>et aliud corporalium, et sic sunt duo
+      <lb ed="#Bb"/>principia.
+    </p>
+            <p xml:id="Almn78-de110-d1e586">
+               <lb ed="#Bb"/>3. Arguunt etiam Manichei ad hoc,
+      <lb ed="#Bb"/>dicentes quod corporalia plerumque
+      <lb ed="#Bb"/>confusa sunt et inordinata, spiritualia
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>autem ordinata : inordinata autem et
+      <lb ed="#Bb"/>ordinata ab eodem principio non 
+      viden<lb ed="#Bb" break="no"/>tur esse : et sic videtur esse aliud 
+      prin<lb ed="#Bb" break="no"/>cipium corporalium, et aliud spiritualium.
+      <lb ed="#Bb"/>Et alia multa ex Evangelio inducuntur,
+      <lb ed="#Bb"/>et epistolis Pauli de Deo hujus seculi,
+      <lb ed="#Bb"/>et de arbore bona et de arbore mala, et
+      <lb ed="#Bb"/>plantatore bono et plantatore malo : que
+      <lb ed="#Bb"/>diligenter in prima parte Summe 
+      theo<lb ed="#Bb" break="no"/>logiz, questione de summo bono et
+      <lb ed="#Bb"/>summo malo notata sunt, nec hic oportet
+      <lb ed="#Bb"/>repetere.
+    </p>
+            <p xml:id="Almn78-de110-d1e623">
+               <lb ed="#Bb"/>In conTrarium hujus est, quod 
+      mun<lb ed="#Bb" break="no"/>dus archetypus, omnium eorum que
+      <lb ed="#Bb"/>facta sunt, principium est, eo quod sunt
+      <lb ed="#Bb"/>in ipso sicut artificiata in arte artificis.
+      <lb ed="#Bb"/>In omnibus autem generaliter verum
+      <lb ed="#Bb"/>est, quod una est ars et una est scientia
+      <lb ed="#Bb"/>oppositorum et dissimilium et 
+      inzqua<lb ed="#Bb" break="no"/>lium: hoc ergo maxime est in prima
+      <lb ed="#Bb"/>arte, cum, sicut dicit Aristoteles in sexto
+      <lb ed="#Bb"/>Ethicorum, ars sit factivam principium
+      <lb ed="#Bb"/>cum ratione omnium eorum de quibus
+      <lb ed="#Bb"/>est ars. Est autem ars prima, que dicitur
+      <lb ed="#Bb"/>mundus archetypus, una notitia boni et
+      <lb ed="#Bb"/>mali : boni per formam, mali per 
+      priva<lb ed="#Bb" break="no"/>tionem, et corporalis et spiritualis 
+      crea<lb ed="#Bb" break="no"/>ture, et ordinati et inordinati, mobilis et
+      <lb ed="#Bb"/>immobilis, materialis et immaterialis, et
+      <lb ed="#Bb"/>multi et unius : dicit enim Dionysius in 
+      li<lb ed="#Bb" break="no"/>bro de Divinis nominibus?, quod <quote xml:id="Almn78-de110-Qd1e666"> 
+        cogno<lb ed="#Bb" break="no"/>scit mobilia immobiliter, materialia 
+        im<lb ed="#Bb" break="no"/>materialiter, confusa in ordine ad unum
+        <lb ed="#Bb"/>inconfusibiliter, multa unite :</quote> ergo 
+      om<lb ed="#Bb" break="no"/>nium horum prima ars videtur unicum
+      <lb ed="#Bb"/>principium : sed quorumdam per se,
+      <lb ed="#Bb"/>qua propria virtute facit et constituit, et
+      <lb ed="#Bb"/>vocat ad esse et veri formam et boni:
+      <lb ed="#Bb"/>quorumdam autem per deflexionem ab
+      <lb ed="#Bb"/>ilo, non principii, sed principiati a 
+      prin<lb ed="#Bb" break="no"/>cipio : que deflexio principiatum facit
+      <lb ed="#Bb"/>deficere a participatione perfecta esse,
+      <lb ed="#Bb"/>veri, et boni, quod omnibus largiter 
+      in<lb ed="#Bb" break="no"/>fluit primum principium.
+    </p>
+            <p xml:id="Almn78-de110-d1e698">
+      
+               <pb ed="#Bb" n="6"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Et hoc est concedendum : hoc enim
+      <lb ed="#Bb"/>consonat fidei Catholice, et etiam 
+      philo<lb ed="#Bb" break="no"/>sophia.
+    </p>
+            <p xml:id="Almn78-de110-d1e711">
+               <lb ed="#Bb"/>Unde dicendum, quod quando 
+      queri<lb ed="#Bb" break="no"/>tur de uno principio, queritur de 
+      prin<lb ed="#Bb" break="no"/>cipio quod est in ratione efficientis, et
+      <lb ed="#Bb"/>forme, et finis universi esse veri et boni
+      <lb ed="#Bb"/>quod est in omnibus creatis, et sine quo
+      <lb ed="#Bb"/>nihil de esse vero et bono potest esse in
+      <lb ed="#Bb"/>aliquo creatorum. Et hoc principium non
+      <lb ed="#Bb"/>potest habere aliquid prajacens ex quo
+      <lb ed="#Bb"/>et in quo operetur ut in materia, nec
+      <lb ed="#Bb"/>potest uti instrumento, nec 
+      dispositioni<lb ed="#Bb" break="no"/>bus aptantibus materiam. In omnibus
+      <lb ed="#Bb"/>enim principiis que supponunt 
+      mate<lb ed="#Bb" break="no"/>riam et utuntur instrumento et 
+      disposi<lb ed="#Bb" break="no"/>tionibus, aliquid de esse est a materia,
+      <lb ed="#Bb"/>et-aliquid ab instrumento, et aliquid a
+      <lb ed="#Bb"/>dispositionibus : et sic illa principia non
+      <lb ed="#Bb"/>sunt causa universi esse veri et boni
+      <lb ed="#Bb"/>quod est in causatis, nec sunt sufficientis
+      <lb ed="#Bb"/>potentiz ad producendum in esse sua
+      <lb ed="#Bb"/>causata, et sic non possunt prima esse
+      <lb ed="#Bb"/>principia. Primum enim principium sive
+      <lb ed="#Bb"/>prima causa est, ut dicitur in libro de
+      <lb ed="#Bb"/>Causis, dives in se, et <quote xml:id="Almn78-de110-Qd1e763" source="http://scta.info/resource/rom10_12@12-14">dives in omnibus</quote>,
+      <lb ed="#Bb"/>et ut habetur etiam, <ref xml:id="Almn78-de110-Rd1e768">ad Roman. x, 12°</ref>.
+      <lb ed="#Bb"/>Et quod dicitur dives, dicitur propter
+      <lb ed="#Bb"/>abundantiam potentie et virtutis in 
+      pro<lb ed="#Bb" break="no"/>ducendo : et ideo si in aliquo deficiat
+      <lb ed="#Bb"/>potentia in producendo, sequitur quod
+      <lb ed="#Bb"/>non sit dives, et per consequens, Tod
+      <lb ed="#Bb"/>nec sit principium primum, :
+    </p>
+            <p xml:id="Almn78-de110-d1e785">
+               <lb ed="#Bb"/>Hoc autem modo querendo de 
+      princi<lb ed="#Bb" break="no"/>pio primo, omnibus ratione utentibus
+      <lb ed="#Bb"/>ipsa veritas persuadet, primum 
+      princi<lb ed="#Bb" break="no"/>pium non esse nisi unum solum, sicut
+      <lb ed="#Bb"/>probant auctoritates et rationes ad 
+      pri<lb ed="#Bb" break="no"/>mam partem inducte.
+    </p>
+            <p xml:id="Almn78-de110-d1e802">
+               <lb ed="#Bb"/>Ad id ergo quod objiciunt Manichei ?,
+      <lb ed="#Bb"/>dicendum est, sicut dictum est in prima
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>parte Summe theologie *, tractatu de
+      <lb ed="#Bb"/>bono et malo, questione, Utrum sit 
+      sum<lb ed="#Bb" break="no"/>me malum, sicut est summe bonum ?
+      <lb ed="#Bb"/>quod error Manichzorum ex ignorantia
+      <lb ed="#Bb"/>provenit. Putabant enim, quod sicut 
+      bo<lb ed="#Bb" break="no"/>num est quod est a bono, et plantatum in
+      <lb ed="#Bb"/>forma boni ejus a quo est: ita malum
+      <lb ed="#Bb"/>esset, quod est a malo, et plantatum in
+      <lb ed="#Bb"/>forma mali ejus a quo est : et hoc jam
+      <lb ed="#Bb"/>in prehabitis ostensum est esse falsum :
+      <lb ed="#Bb"/>malum enim non est forma mali, et 
+      ma<lb ed="#Bb" break="no"/>litia non est forma: sicut enim dicit
+      <lb ed="#Bb"/>Dionysius in libro de Divinis nominibus :
+      <cb ed="#Bb" n="c"/>
+               <quote xml:id="Almn78-de110-Qd1e841"> Malum nec est quid existens, nec
+        <lb ed="#Bb"/>quid in existentibus *: </quote> unde non est
+      <lb ed="#Bb"/>forma, sed defectus pulchri et boni 
+      se<lb ed="#Bb" break="no"/>cundum formam : et ideo illud in quo
+      <lb ed="#Bb"/>est malum, malo non formatur, sed 
+      de<lb ed="#Bb" break="no"/>formatur, et privatur modo, specie, et
+      <lb ed="#Bb"/>ordine in esse, et forma veri et boni,
+      <lb ed="#Bb"/>propter quod non potest habere 
+      princi<lb ed="#Bb" break="no"/>pium efficiens, sed deficiens, ut dicit
+      <lb ed="#Bb"/>Augustinus: et hoc est liberum arbitrium
+      <lb ed="#Bb"/>hominis vel Angeli deflexum a summo
+      <lb ed="#Bb"/>bono.
+    </p>
+            <p xml:id="Almn78-de110-d1e868">
+               <lb ed="#Bb"/>Et quod dicit Philosophus, quod 
+      bo<lb ed="#Bb" break="no"/>num, et malum non sunt in genere, 
+      in<lb ed="#Bb" break="no"/>telligit, quod non sunt in genére uno,
+      <lb ed="#Bb"/>secundum quod unum genus facit una
+      <lb ed="#Bb"/>coordinatio praedicabilium : sed sunt in
+      <lb ed="#Bb"/>omni genere, ita quod bonum in 
+      sub<lb ed="#Bb" break="no"/>stantia est substantia, et’ in qualitate.
+      <lb ed="#Bb"/>qualitas, et in quantitate quantitas, et
+      <lb ed="#Bb"/>sic de aliis. Malum autem in omni genere
+      <lb ed="#Bb"/>est ut privatio boni : et sicut ens 
+      secun<lb ed="#Bb" break="no"/>dum formam et actum, et privatio entis
+      <lb ed="#Bb"/>secundum formam et actum, non 
+      redu<lb ed="#Bb" break="no"/>cuntur in diversa principia agentia in
+      <lb ed="#Bb"/>natura, sed in unum agens, et in alterum
+      <lb ed="#Bb"/>deficiens ab illo, quod non est agens, sed
+      <lb ed="#Bb"/>deficiens ab actione : ita bonum et malum
+      <pb ed="#Bb" n="7"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>reduci non possunt in diversa principia
+      <lb ed="#Bb"/>agentia, sed in unum agens, etin alterum
+      <lb ed="#Bb"/>deficiens ab illo: et hoc est quod dicit
+      <lb ed="#Bb"/>Augustinus in libro LXXXIII 
+      Questio<lb ed="#Bb" break="no"/>num sic: <quote xml:id="Almn78-de110-Qd1e920"><!-- q. 20 -->Omne quod deficit, ab eo
+        <lb ed="#Bb"/>quod est esse deficit, et tendit in non
+        <lb ed="#Bb"/>esse. Esse autem et in nullo deficere
+        <lb ed="#Bb"/>bonum est, et malum est deficere. At
+        <lb ed="#Bb"/>ille ad quem non esse pertinet, non est
+        <lb ed="#Bb"/>causa deficiendi : boni ergo tantum causa
+        <lb ed="#Bb"/>est. Et mali non potest esse aliqua causa
+        <lb ed="#Bb"/>nisi deficiens : causa autem deficiens in
+        <lb ed="#Bb"/>nullo potest esse principium primum '.</quote>
+            </p>
+            <p xml:id="Almn78-de110-d1e942">
+               <lb ed="#Bb"/>AD ALIUD dicendum, quod hoc verum
+      <lb ed="#Bb"/>est, quod omne principiatum aliquam 
+      si<lb ed="#Bb" break="no"/>militudinem habet cum principio, si per
+      <lb ed="#Bb"/>se et non per accidens principiatur ab
+      <lb ed="#Bb"/>illo : sed illa similitudo in his que agunt
+      <lb ed="#Bb"/>secundum intellectum, non est nisi se-~
+      <lb ed="#Bb"/>cundum convenientiam idew et ideati :
+      <lb ed="#Bb"/>et quia intellectus agens sive practicus
+      <lb ed="#Bb"/>divinus, exemplar est tam corporalium
+      <lb ed="#Bb"/>quam incorporalium seipso et uno 
+      exem<lb ed="#Bb" break="no"/>plari immateriali, ideo principium est
+      <lb ed="#Bb"/>tam corporalium quam incorporalium,
+      <lb ed="#Bb"/>quamvis corporalia dissimilitudinem 
+      ha<lb ed="#Bb" break="no"/>beant in natura ad ipsum et substantia.
+      <lb ed="#Bb"/>Et hujus exemplum est, quod intellectus
+      <lb ed="#Bb"/>artificis hominis non operatur aliquid
+      <lb ed="#Bb"/>secundum rationem et artem, nisi cujus
+      <lb ed="#Bb"/>exemplar et ratio est apud ipsum : se~
+      <lb ed="#Bb"/>cundum quod etiam dicit Aristoteles,
+      <lb ed="#Bb"/>quod in hac consideratione fundamentum
+      <lb ed="#Bb"/>est ex fundamento, et paries ex pariete,
+      <lb ed="#Bb"/>et ictus sive plaga ex plaga, et 
+      universa<lb ed="#Bb" break="no"/>liter domus illa que est in lapidibus et
+      <lb ed="#Bb"/>lignis ex illa que est in anima archite-~
+      <lb ed="#Bb"/>ctonici, quamvis intellectus 
+      architectoni<lb ed="#Bb" break="no"/>ci in substantia et natura nullam penitus
+      <lb ed="#Bb"/>habeat similitudinem cum fundamento,
+      <lb ed="#Bb"/>tecto, et domo.
+    </p>
+            <p xml:id="Almn78-de110-d1e1005">
+               <lb ed="#Bb"/>Et quod dicitur, quod principiata 
+      con<lb ed="#Bb" break="no"/>veniunt cum principio in susbtantfa et
+      <lb ed="#Bb"/>natura, non universaliter verum est, nisi
+      <lb ed="#Bb"/>de illis principiis que naturaliter et 
+      sub<lb ed="#Bb" break="no"/>stantialiter sunt in principiatis, et sic
+      <lb ed="#Bb"/>constituunt ea. Et hoc intellectui agenti
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>sive practico non convenit respectu suo
+      <lb ed="#Bb"/>rum principiatorum : quia de ipso dicit
+      <lb ed="#Bb"/>Anaxagoras, quod est separatus et 
+      im<lb ed="#Bb" break="no"/>mixtus nulli, nihil habens commune : et
+      <lb ed="#Bb"/>ideo similitudinem non habet ad sua 
+      cau<lb ed="#Bb" break="no"/>sata, nisi per exemplar.
+    </p>
+            <p xml:id="Almn78-de110-d1e1036">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod quecumque
+      <lb ed="#Bb"/>sunt ab eodem principio essentiali et
+      <lb ed="#Bb"/>connaturali, consentanea sunt: sed non
+      <lb ed="#Bb"/>est verum, quod quecumque sunt ab
+      <lb ed="#Bb"/>eodem principio effectivo, quod 
+      secun<lb ed="#Bb" break="no"/>dum intellectum operatur, et separatum
+      <lb ed="#Bb"/>est ab effectibus suis, illa sint 
+      consenta<lb ed="#Bb" break="no"/>nea: possunt enim ex principiis 
+      intrin<lb ed="#Bb" break="no"/>secis esse discordantia, sicut corpus et
+      <lb ed="#Bb"/>anima : corpus enim propter 
+      corruptio<lb ed="#Bb" break="no"/>hem contractam (que /omes vocatur)
+      <lb ed="#Bb"/>potest impelli ad unum, et anima ex 
+      ima<lb ed="#Bb" break="no"/>gine Dei quam intra se habet, potest in=
+      <lb ed="#Bb"/>clinari ad oppositum : cum tamen sint ab
+      <lb ed="#Bb"/>eodem principio, sicut dicit <ref xml:id="Almn78-de110-Rd1e1070">Apostolus,
+        <lb ed="#Bb"/>ad Roman. 7, 22 et 23</ref> : <quote xml:id="Almn78-de110-Qd1e1075" source="http://scta.info/resource/rom7_22 http://scta.info/resource/rom7_23">Condelector
+          <lb ed="#Bb"/>legi Dei secundum interiorem hominem :
+          <lb ed="#Bb"/>video autem aliam legem in membris
+          <lb ed="#Bb"/>meis repugnantem legi mentis mex, et
+          <lb ed="#Bb"/>captivantem me in lege peccati quae est
+          <lb ed="#Bb"/>in membris meis</quote>. ;
+    </p>
+            <p xml:id="Almn78-de110-d1e1089">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod 
+      spiritua<lb ed="#Bb" break="no"/>lium nullum est materiale principium, ut
+      <lb ed="#Bb"/>dicit Boetius : quia illa de nihilo 
+      crean<lb ed="#Bb" break="no"/>tur, ut probat Augustinus in libro VI 
+      sz<lb ed="#Bb" break="no"/>per Genesim ad litteram.
+    </p>
+            <p xml:id="Almn78-de110-d1e1103">
+               <lb ed="#Bb"/>Et quod dicitur, quod proportionalia
+      <lb ed="#Bb"/>sunt efficiens et materia, non generaliter
+      <lb ed="#Bb"/>est verum, nisi de efficiente quod in 
+      cau<lb ed="#Bb" break="no"/>sando supponit materiam : de talibus
+      <lb ed="#Bb"/>enim loquitur Philosophus in IX. prime
+      <lb ed="#Bb"/>philosophiz, et non de aliis : et ideo de
+      <lb ed="#Bb"/>primo principio nihil facit ad 
+      proposi<lb ed="#Bb" break="no"/>tum: illud enim uno modo secundum
+      <lb ed="#Bb"/>rationes diversas exemplariter producit
+      <lb ed="#Bb"/>et spiritualia et corporalia, eo quod 
+      ip<lb ed="#Bb" break="no"/>sum est principium universi esse, ut 
+      di<lb ed="#Bb" break="no"/>ctum est.
+    </p>
+            <p xml:id="Almn78-de110-d1e1132">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod confusa’ Ad object.5.
+      <lb ed="#Bb"/>et ordinata ab eodem separato principio
+      <lb ed="#Bb"/>esse possunt : quia confusionis et ordi
+      <pb ed="#Bb" n="8"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>nationis non est causa, quod a principiis
+      <lb ed="#Bb"/>diversis sint-: sed: potius ordo ad 
+      princi<lb ed="#Bb" break="no"/>pium secundum quod est in actu 
+      perfe<lb ed="#Bb" break="no"/>cto, causa est ordinationis, sed defluxus
+      <lb ed="#Bb"/>ab ordine in causato (quod mutabile est
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>et quod deflecti potest) causa est 
+      confu<lb ed="#Bb" break="no"/>sionis et inordinationis : et ideo 
+      argu<lb ed="#Bb" break="no"/>mentum hoc peccat secundum non 
+      cau<lb ed="#Bb" break="no"/>sam ut causam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

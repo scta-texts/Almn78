@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 76</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 76</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="63"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h13794"><!-- p2t13q76 -->
+            <head xml:id="Almn78-h13794-Hd1e106">Quaestio 76</head>
+            <head xml:id="Almn78-h13794-Hd1e109" type="question-title">
+    De natura et complexione formati corporis
+  </head>
+            <p xml:id="Almn78-h13794-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUAMSTIO LXXVI.
+<lb ed="#Bc"/>De natura et complexione formati corporis.
+</p>
+            <p xml:id="Almn78-h13794-d1e121">
+               <lb ed="#Bc"/>Secundo, Queritur de natura et 
+com<lb ed="#Bc" break="no"/>plexione formati corporis.
+</p>
+            <p xml:id="Almn78-h13794-d1e128">
+               <lb ed="#Bc"/>Quidam enim nituntur probare, quod
+<lb ed="#Bc"/>convenientius esset humanum corpus
+<lb ed="#Bc"/>simplex quam compositum, objicientes
+<lb ed="#Bc"/>logice sic :
+</p>
+            <p xml:id="Almn78-h13794-d1e140">
+               <lb ed="#Bc"/>1. Motori simplici secundum conve
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>nientiam nature aptalur mobile 
+sim<lb ed="#Bc" break="no"/>plex: anima rationalis motor simplex
+<lb ed="#Bc"/>est, non compositus ex diversis que sunt
+<lb ed="#Bc"/>diversorum generum : corpus hominis
+<lb ed="#Bc"/>est mobile a tali anima: ergo videtur,
+<lb ed="#Bc"/>quod convenientius esset simplex quam
+<lb ed="#Bc"/>commixtum.
+</p>
+            <p xml:id="Almn78-h13794-d1e162">
+               <pb ed="#Bc" n="64"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>2. Adhuc, Anima est in corpore (ut
+<lb ed="#Bc"/>dicunt Socrates et Plato) ut perficiatur
+<lb ed="#Bc"/>utraque virlute, scilicet intellectuali et
+<lb ed="#Bc"/>morali per Dei donum, non per 
+doctri<lb ed="#Bc" break="no"/>nam vel assuefactionem, sed ut hoc 
+me<lb ed="#Bc" break="no"/>reatur a Deo. Hi enim duo dixerunt,
+<lb ed="#Bc"/>quod virtus nec est discibile vel 
+assue<lb ed="#Bc" break="no"/>scibile bonum, sed Dei donum. Simplex
+<lb ed="#Bc"/>corpus, in quo non est resistentia vel
+<lb ed="#Bc"/>pugna unius ad alterum, facilius 
+conver<lb ed="#Bc" break="no"/>titur ad electionem motoris quam 
+com<lb ed="#Bc" break="no"/>positum : ergo videtur, quod 
+convenien<lb ed="#Bc" break="no"/>tius fuisset, quod corpus hominis fuisset
+<lb ed="#Bc"/>simplex quam compositum.
+</p>
+            <p xml:id="Almn78-h13794-d1e199">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Dicit Commentator super secundum
+<lb ed="#Bc"/>de Anima, quod diversitas que est in
+<lb ed="#Bc"/>corpore, est a diversitate potentiarum
+<lb ed="#Bc"/>que est inanima. Sed multa diversitas
+<lb ed="#Bc"/>est in qualibet specie anime. Vegetabilis
+<lb ed="#Bc"/>enim habet nutrilivam, augmentativam,
+<lb ed="#Bc"/>et generativam etiam in homine : 
+sensi<lb ed="#Bc" break="no"/>bilis quinque sensus extra, et quinque
+<lb ed="#Bc"/>intus : et exteriores noti sunt : quinque
+<lb ed="#Bc"/>intus, ut dicit Avicenna, sunt sensus
+<lb ed="#Bc"/>communis, imaginativa, phantasia, 
+esti<lb ed="#Bc" break="no"/>mativa, memorialis : et iste sunt 
+cog<lb ed="#Bc" break="no"/>nitive omnes : et preter hoc habet 
+mo<lb ed="#Bc" break="no"/>tum secundum appetitum et desiderium
+<lb ed="#Bc"/>sensualitatis. Similiter rationalis multas
+<lb ed="#Bc"/>habet partes, scilicet intellectualem, 
+ra<lb ed="#Bc" break="no"/>tionalem, et moralem, voluntatem, 
+me<lb ed="#Bc" break="no"/>moriam, et secundum appetitum 
+ratio<lb ed="#Bc" break="no"/>nalem motivum ad electionem, que
+<lb ed="#Bc"/>operantur omnes in organis. Quia sicut
+<lb ed="#Bc"/>dicit Constabenluce in libro de 
+Differen<lb ed="#Bc" break="no"/>tia spiritus et anime, etiam 
+intellectua<lb ed="#Bc" break="no"/>lis sive rationalis potentia operatur in
+<lb ed="#Bc"/>spiritu {(ranseunte per tres cellulas 
+cere<lb ed="#Bc" break="no"/>scilicet, mediam, et
+<lb ed="#Bc"/>postremam, abstrahendo scilicet, 
+ordi<lb ed="#Bc" break="no"/>nando, et eliciendo quid judicandum sit
+<lb ed="#Bc"/>de quolibet. Cum ergo tot potentiarum
+<lb ed="#Bc"/>operationes per corpus homogenium
+<lb ed="#Bc"/>sive simplex nullo modo fieri possint,
+<lb ed="#Bc"/>non conveniebat secundum naturam
+<lb ed="#Bc"/>anime rationali aptari corpus simplex
+<lb ed="#Bc"/>sive homogenium.
+</p>
+            <p xml:id="Almn78-h13794-d1e275">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Ulterius queritur, Si corpus hominis
+<lb ed="#Bc"/>commixtum est ex diversis elementis,
+<lb ed="#Bc"/>utrum in illo mixto elementa sint 
+equa<lb ed="#Bc" break="no"/>lia secundum quantitatem ?
+</p>
+            <p xml:id="Almn78-h13794-d1e288">
+               <lb ed="#Bc"/>Et videtur, quod sic. Dicit enim 
+Avi<lb ed="#Bc" break="no"/>cenna, quod elementa secundum 
+sub<lb ed="#Bc" break="no"/>stantiam salvantur in mixto : cujus 
+sig<lb ed="#Bc" break="no"/>num est, quia mixta resolvuntur in ea.
+<lb ed="#Bc"/>Cum ergo non sint mixta, nisi quia 
+mi<lb ed="#Bc" break="no"/>nimum unius est cum minimo alterius,
+<lb ed="#Bc"/>et in nullo genere sit aliquid minus 
+mi<lb ed="#Bc" break="no"/>nimo, videtur quod minima ignis sint
+<lb ed="#Bc"/>equalia minimis aeris et aque et terre :
+<lb ed="#Bc"/>et sic equaliter est ibi de quolibet 
+ele<lb ed="#Bc" break="no"/>mento secundum quantitatem.
+</p>
+            <p xml:id="Almn78-h13794-d1e314">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1, Avicenna et Algazel dicunt, quod
+<lb ed="#Bc"/>verum est, quod equaliter mixtum ex
+<lb ed="#Bc"/>quolibet elemento locum habere non
+<lb ed="#Bc"/>potest in mundo ad quem moveatur vel
+<lb ed="#Bc"/>in quo quiescat, nullum enim 
+elemen<lb ed="#Bc" break="no"/>tum dominatur in ipso ad cujus locum
+<lb ed="#Bc"/>inclinetur : corpus hominis inclinatur
+<lb ed="#Bc"/>secundum locum et motum ad terram:
+<lb ed="#Bc"/>ergo videtur, quod plus sit ex terra, et
+<lb ed="#Bc"/>minus ex aliis elementis.
+</p>
+            <p xml:id="Almn78-h13794-d1e341">
+               <lb ed="#Bc"/>2. Adhuc, Hoc videtur dicere textus
+<lb ed="#Bc"/>Genesis, u, 7 : fecit igitur Dominus
+<lb ed="#Bc"/>Deus hominem de limo terre, ubi dicit
+<lb ed="#Bc"/>Augustinus, quod <quote xml:id="Almn78-h13794-Qd1e351"> limus est terra 
+hu<lb ed="#Bc" break="no"/>mida sive infusa. </quote> Non ergo videtur
+<lb ed="#Bc"/>equaliter esse ex omnibus elementis.
+</p>
+            <p xml:id="Almn78-h13794-d1e360">
+               <lb ed="#Bc"/>Ulterius queritur, Si in corpore Ade
+<lb ed="#Bc"/>elementa fuerint secundum equalitatem
+<lb ed="#Bc"/>virlutis et potentia ?
+</p>
+            <p xml:id="Almn78-h13794-d1e369">
+               <lb ed="#Bc"/>Et videtur, quod sic : corpus enim
+<lb ed="#Bc"/>Ade optimse complexionis fuit sicut
+<lb ed="#Bc"/>quod Deus ipse fecerat, et optima 
+com<lb ed="#Bc" break="no"/>positionis in corpore. Optime 
+comple<lb ed="#Bc" break="no"/>xionis virtutes reducte sunt ad equale :
+<lb ed="#Bc"/>non enim est complexio nisi ad equale.
+<lb ed="#Bc"/>Complexio autem est equalitas 
+humo<lb ed="#Bc" break="no"/>rum: equalitas autem humorum non
+<lb ed="#Bc"/>est nisi ex gequalitate qualitatum 
+ele<lb ed="#Bc" break="no"/>mentorum mixtorum. Dicit enim 
+Aristo<lb ed="#Bc" break="no"/>teles in I de Generatione et 
+Corrup<lb ed="#Bc" break="no"/>tione, quod mixtio est miscibilium
+<lb ed="#Bc"/>alteratorum unio. Et intelligit de unione
+</p>
+            <p xml:id="Almn78-h13794-d1e400">
+               <pb ed="#Bc" n="65"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>virtutis et potentia, qua unio vocatur
+<lb ed="#Bc"/>equalitas in complexione. Ergo videtur 
+<lb ed="#Bc" break="no"/>cum heec sit bonitas uniuscujusque 
+cor<lb ed="#Bc" break="no"/>poris human et sanitas, quod hance 
+bo<lb ed="#Bc" break="no"/>nitatem maxime illud corpus habuit :
+<lb ed="#Bc"/>quia Deus ipse fecit et operatus est.
+</p>
+            <p xml:id="Almn78-h13794-d1e420">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Augustinus dicit super Genesim, quod
+<lb ed="#Bc"/>in corpore hominis prevalet 
+elemen<lb ed="#Bc" break="no"/>tum ad patiendum quam ad faciendum
+<lb ed="#Bc"/>aptius, sicut est elementum  inferius,
+<lb ed="#Bc"/>scilicet aqua, et terra. Et si elementa
+<lb ed="#Bc"/>inferiora prevalent, ergo virlutes eorum
+<lb ed="#Bc"/>prevalent: ergo videtur, quod in 
+cor<lb ed="#Bc" break="no"/>pore hominis primi non equaliter 
+secun<lb ed="#Bc" break="no"/>dum virtutem fuerunt elementa.
+</p>
+            <p xml:id="Almn78-h13794-d1e444">
+               <lb ed="#Bc"/>Utrerius queritur, Quid factum sit de
+<lb ed="#Bc"/>illa equalitate post peccatum, vel unde
+<lb ed="#Bc"/>ablata ? Debuit enim transfundi in natos
+<lb ed="#Bc"/>a parentibus : et videmus, quod hoc
+<lb ed="#Bc"/>non fit : corpora enim nostra infirma
+<lb ed="#Bc"/>sunt et ponderosa, et non semper in
+<lb ed="#Bc"/>equalitate et sanitate consistentia.
+</p>
+            <p xml:id="Almn78-h13794-d1e463">
+               <lb ed="#Bc"/>Si dicatur, quod per justitiam divinam
+<lb ed="#Bc"/>ablata est illa equalitas propter 
+pecca<lb ed="#Bc" break="no"/>tum. Contra: Ex ordine justitie est,
+<lb ed="#Bc"/>quod si per aversionem aliquis punitur,
+<lb ed="#Bc"/>per conversionem et satisfactionem pcena
+<lb ed="#Bc"/>eadem aufertur, et restituitur in statum
+<lb ed="#Bc"/>pristinum. Sed nos videmus, quod post
+<lb ed="#Bc"/>baptismum et conversionem, ctiam in
+<lb ed="#Bc"/>sanctis adhuc remanet pena. Ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod non sit secundum ordinem
+<lb ed="#Bc"/>justitie inflicta, sed a natura ipsa 
+con<lb ed="#Bc" break="no"/>tracta.
+</p>
+            <p xml:id="Almn78-h13794-d1e492">
+               <lb ed="#Bc"/>Ulterius queritur de erectione et 
+re<lb ed="#Bc" break="no"/>ctitudine stature hominis, qualiter et
+<lb ed="#Bc"/>propter quid indita sit corpori hominis ?
+</p>
+            <p xml:id="Almn78-h13794-d1e501">
+               <lb ed="#Bc"/>1. Dicit enim Gregorius Nazianzenus,
+<lb ed="#Bc"/>loquens de imagine ad quam factus est
+<lb ed="#Bc"/>homo sic, quod rectus est hominis 
+ha<lb ed="#Bc" break="no"/>bitus, et ad ccelum sese sustollens, 
+sur<lb ed="#Bc" break="no"/>sumque respiciens. Principalia haec dona
+<lb ed="#Bc"/>certissimum est esse approbantia regiam
+<lb ed="#Bc"/>potestatem. Etenim solus ita formatus
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>est, ceterorumque omnia prona sunt
+<lb ed="#Bc"/>corpora et in deorsum proclivius 
+incli<lb ed="#Bc" break="no"/>nata, Differentia honoris ostenditur, 
+sci<lb ed="#Bc" break="no"/>licet ut constet illa esse hujus subjecta
+<lb ed="#Bc"/>potentiae : hunc autem supereminentis
+<lb ed="#Bc"/>existere dignitatis.
+</p>
+            <p xml:id="Almn78-h13794-d1e534">
+               <lb ed="#Bc"/>2. Adhuc, Cassiodorus dicit sic in 
+li<lb ed="#Bc" break="no"/>bro de Anima: <quote xml:id="Almn78-h13794-Qd1e540"> Procerum animal 
+ho<lb ed="#Bc" break="no"/>mo, etin effigiem pulcherrime 
+specula<lb ed="#Bc" break="no"/>tionis erectum ad res supernas 
+intuen<lb ed="#Bc" break="no"/>das, et vestigium gratiae imitande apparet
+<lb ed="#Bc"/>in hac erectione. </quote>
+            </p>
+            <p xml:id="Almn78-h13794-d1e552">
+               <lb ed="#Bc"/>3. Adhuc, Basilius in Herameron :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h13794-Qd1e558"> Pecudes omnes terrene sunt: ob hoc
+<lb ed="#Bc"/>inclinantur ad terram. Sed alia est plan;
+<lb ed="#Bc"/>tatio celestis hominis, qui quantum 
+ha<lb ed="#Bc" break="no"/>bitu figure corporis, tantum dignitate
+<lb ed="#Bc"/>distat a pecoribus. Illorum facies 
+deor<lb ed="#Bc" break="no"/>sum fixa in terram perspectat : et quod
+<lb ed="#Bc"/>ejus libidini jucundum est, hoc 
+specta<lb ed="#Bc" break="no"/>tur. Tuum vero caput ad ccelum semper
+<lb ed="#Bc"/>erigitur, oculi tui superna semper 
+respi<lb ed="#Bc" break="no"/>ciunt. Sed si tu te corporis voluptate
+<lb ed="#Bc"/>feedaveris, obediendo luxui ventris et
+<lb ed="#Bc"/>inferioribus ejus partibus, comparatus
+<lb ed="#Bc"/>es jumentis insipientibus, et similis 
+fa<lb ed="#Bc" break="no"/>ctus es illis*. </quote>
+            </p>
+            <p xml:id="Almn78-h13794-d1e590">
+               <lb ed="#Bc"/>4, Adhuc, Ambrosius in Hexrameron :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h13794-Qd1e596"> Bic dicendum est de corpore hominis,
+<lb ed="#Bc"/>quod prestantius ceteris decoris gratia
+<lb ed="#Bc"/>esse quis abnuat? Nam si unam atque
+<lb ed="#Bc"/>camdem omnium corporum terrenorum
+<lb ed="#Bc"/>videamus esse substantiam, fortiludo
+<lb ed="#Bc"/>quoque et procerilas major sit in 
+qui<lb ed="#Bc" break="no"/>busdam bestiis, forme tamen humani
+<lb ed="#Bc"/>corporis venustior est status, erectus, et
+<lb ed="#Bc"/>mediocris, ut neque enormis proceritas
+<lb ed="#Bc"/>sit, neque vilis et abjecta pusillitas, inter
+<lb ed="#Bc"/>ceelestia positus, ut ibi semper habeat
+<lb ed="#Bc"/>animum. </quote>
+            </p>
+            <p xml:id="Almn78-h13794-d1e624">
+               <lb ed="#Bc"/>3. Adhuc, Augustinus in libro
+<lb ed="#Bc"/>LXXXIIL Questionum : <quote xml:id="Almn78-h13794-Qd1e630"> Corpus 
+ho<lb ed="#Bc" break="no"/>minis solum inter animalium 
+terreno<lb ed="#Bc" break="no"/>rum corpora, non pronum, nec in ima
+<lb ed="#Bc"/>prostratum est : cum sit visibile et ad
+<lb ed="#Bc"/>intuendum ccelum erectum : et tale est,
+<lb ed="#Bc"/>ut ad contemplandum ccelum sit aptius 
+<pb ed="#Bc" n="66"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>et in hoc ad imaginem et similitudinem
+<lb ed="#Bc"/>Dei magis quam cetera animalium 
+cor<lb ed="#Bc" break="no"/>pora merito videri potest esse factum. </quote>
+            </p>
+            <p xml:id="Almn78-h13794-d1e655">
+               <lb ed="#Bc"/>Solutio. Dicendum ad primum, quod
+<lb ed="#Bc"/>stultum est et innaturale, anime 
+ratio<lb ed="#Bc" break="no"/>nali attribuere corpus simplex vel 
+homo<lb ed="#Bc" break="no"/>genium : quia in illo, sicut probatum est
+<lb ed="#Bc"/>objiciendo, non posset exercere 
+opera<lb ed="#Bc" break="no"/>tiones potentiarum. Sicut enim probat
+<lb ed="#Bc"/>Aristoteles in secundo de Anima, sicut
+<lb ed="#Bc"/>partes anime se habent ad particularia
+<lb ed="#Bc"/>organa, ita tota anima ad totum corpus.
+<lb ed="#Bc"/>Unde si oculus esset animal, visus esset
+<lb ed="#Bc"/>anima ejus. Et ideo corpus simplex 
+nul<lb ed="#Bc" break="no"/>lo modo competebat anime in quo
+<lb ed="#Bc"/>exerceret operationes.
+</p>
+            <p xml:id="Almn78-h13794-d1e686">
+               <lb ed="#Bc"/>Ad ARGUMENTUM quod videtur hoc
+<lb ed="#Bc"/>probare, dicendum quod est ab adjunctis
+<lb ed="#Bc"/>tractum, et est in secunda figura, in qua
+<lb ed="#Bc"/>medium est ante extrema: et propter
+<lb ed="#Bc"/>hoe incidit in eo fallacia consequentis.
+<lb ed="#Bc"/>Adhuc etiam fundatur super falsum. Hac
+<lb ed="#Bc"/>enim est falsa, anima rationalis est 
+mo<lb ed="#Bc" break="no"/>tor simplex: quia anima in habitudine
+<lb ed="#Bc"/>qua se habet ad corpus, valde est 
+com<lb ed="#Bc" break="no"/>posita.
+</p>
+            <p xml:id="Almn78-h13794-d1e710">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod simplex
+<lb ed="#Bc"/>corpus nec animabile est, nec mobile ab
+<lb ed="#Bc"/>anima : et ideo nec ad bonum, nec ad
+<lb ed="#Bc"/>raalum converlibile ab anima: in illo
+<lb ed="#Bc"/>enim non movetur spiritus qui est 
+vir<lb ed="#Bc" break="no"/>tutis vector: et ideo falsum est cum
+<lb ed="#Bc"/>dicit, quod hoc facilius convertitur ad
+<lb ed="#Bc"/>bonum.
+</p>
+            <p xml:id="Almn78-h13794-d1e730">
+               <lb ed="#Bc"/>Av ip quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod elementa secundum equalem
+<lb ed="#Bc"/>quantilatem non fuerunt in corpore Ade,
+<lb ed="#Bc"/>nec sunt in corpore alicujus hominis. Et
+<lb ed="#Bc"/>hujus ratio est secundum naturam : quia
+<lb ed="#Bc"/>consistentia corporum inferiorum et 
+sub<lb ed="#Bc" break="no"/>stantia, est ex terra : et illam necesse
+<lb ed="#Bc"/>est abundare. Continuitas vero ex aqua
+<lb ed="#Bc"/>est conlinuante terrestrem substantiam
+<lb ed="#Bc"/>in omnibus partibus : et ideo etiam illam
+<lb ed="#Bc"/>oportet abundare, ut undique diffundi
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>possit continuando. Spirituale autem 
+hu<lb ed="#Bc" break="no"/>midum quod in talibus corporibus est,
+<lb ed="#Bc"/>sicut et ipse spiritus, non est nisi ad 
+ve<lb ed="#Bc" break="no"/>hendam virtutem de una parte in 
+alte<lb ed="#Bc" break="no"/>ram secundum virtutem vitalem, 
+natu<lb ed="#Bc" break="no"/>ralem, et animalem : et ideo illud in
+<lb ed="#Bc"/>quantitate non debuit esse tantum : esset
+<lb ed="#Bc"/>enim ad impedimentum operationis ut
+<lb ed="#Bc"/>evanesceret in eo virtus. Similiter igneum
+<lb ed="#Bc"/>non est in corpore nisi ad digestionem :
+<lb ed="#Bc"/>que licet inchoetur in hepate, tamen
+<lb ed="#Bc"/>sub medio thalamo cordis, ut dicit 
+Ari<lb ed="#Bc" break="no"/>stoteles, perficitur : et ideo si abundaret
+<lb ed="#Bc"/>sicut alia elementa secundum 
+quantita<lb ed="#Bc" break="no"/>tem, incenderet et dissolveret et membra
+<lb ed="#Bc"/>et virlutes, propter suam ustivam 
+quali<lb ed="#Bc" break="no"/>tatem. Propter quod non poterunt 
+ele<lb ed="#Bc" break="no"/>menta superiora ita abundare in corpore
+<lb ed="#Bc"/>sicut inferiora.
+</p>
+            <p xml:id="Almn78-h13794-d1e800">
+               <lb ed="#Bc"/>Et quod dicit Avicenna, quod elementa
+<lb ed="#Bc"/>sunt in mixto, verum est. Aliler enim
+<lb ed="#Bc"/>mixtum non resolyeretur in elementa.
+<lb ed="#Bc"/>Unumquodque enim resolvitur in ea
+<lb ed="#Bc"/>que essentialiter in ipso sunt. Sed 
+quan<lb ed="#Bc" break="no"/>do dicitur, quod minimum unius est
+<lb ed="#Bc"/>cum minimo alterius, non intelligitur de
+<lb ed="#Bc"/>minimo secundum quantitatem, sed 
+in<lb ed="#Bc" break="no"/>telligitur de minimo secundum 
+pro<lb ed="#Bc" break="no"/>portionem ad actum medii, ad quod
+<lb ed="#Bc"/>deducitur mixtum ab excellentiis 
+con<lb ed="#Bc" break="no"/>trariorum, que sunt in simplicibus.
+<lb ed="#Bc"/>Talis enim numerus proportionum est,
+<lb ed="#Bc"/>quo ligavit Deus omnia mixta ne 
+dissol<lb ed="#Bc" break="no"/>vantur, sed contineantur in uno actu
+<lb ed="#Bc"/>mixti. Et hoc est quod dicit Boetius in
+<lb ed="#Bc"/>libro quinto de Consolatione 
+philoso<lb ed="#Bc" break="no"/>phie :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h13794-Qd1e843">Tu numeris elementa ligas, ut frigora flammis,
+<lb ed="#Bc"/>Arida conveniant liquidis, ne purior ignis
+<lb ed="#Bc"/>Evolet, ac mersas deducant pondera terras.</quote>
+  
+               <lb ed="#Bc"/>Ad id quod contra objicitur per <name xml:id="Almn78-h13794-Nd1e852">
+Avi<lb ed="#Bc" break="no"/>cennam</name>, concedendum est. Et hec est
+<lb ed="#Bc"/>ratio, quod dicitur de d¢mo terre, cum
+<lb ed="#Bc"/>tamen sit ex omnibus elementis : limus
+<lb ed="#Bc"/>enim terra est infusa humido, rubra ca
+<pb ed="#Bc" n="67"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>lido igneo, formabilis in diversas formas
+<lb ed="#Bc"/>spirituali aereo humido. Et ideo etiam
+<lb ed="#Bc"/>magis dicitur de limo, quam de terra, ut
+<lb ed="#Bc"/>ex terra habeat consistentiam, ex 
+humi<lb ed="#Bc" break="no"/>do aqueo continuitatem, cx humido 
+ae<lb ed="#Bc" break="no"/>reo spongiositatem, ut possit undique
+<lb ed="#Bc"/>penetrare spiritu et virtute, ex calido
+<lb ed="#Bc"/>igneo puritatem et digestionem.
+</p>
+            <p xml:id="Almn78-h13794-d1e887">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur, Utram
+<lb ed="#Bc"/>in corpore Ade complexionantia fucrint
+<lb ed="#Bc"/>equalia secundum virtutem et 
+poten<lb ed="#Bc" break="no"/>tiam ?
+</p>
+            <p xml:id="Almn78-h13794-d1e898">
+               <lb ed="#Bc"/>Dicendum, quod equalitas est duplex,
+<lb ed="#Bc"/>scilicet proportionis ad medium 
+remo<lb ed="#Bc" break="no"/>tum ab excellentiis contrariorum, hoc
+<lb ed="#Bc"/>modo scilicet quod unumquodqve tanta
+<lb ed="#Bc"/>virtutis fueril in eo, quanta optime 
+sulfe<lb ed="#Bc" break="no"/>cit ad constituendam bonam habitudinem
+<lb ed="#Bc"/>complexionis. Et talis fuit in corpore
+<lb ed="#Bc"/>Ade equalilas : talis enim squalitas
+<lb ed="#Bc"/>causa est sanitatis et optime habitudinis.
+<lb ed="#Bc"/>Et corpus Ade, ut dicunt Sancti, in 
+sla<lb ed="#Bc" break="no"/>tu primo scilicet innocentie, nec fuit in~
+<lb ed="#Bc"/>firmabile, nec dissolubile. Et est 
+equali<lb ed="#Bc" break="no"/>tas complexionantium virtutum intra se,
+<lb ed="#Bc"/>ut scilicet tantum sit de frigido, 
+quan<lb ed="#Bc" break="no"/>tum de sicco, et tantum de frigido,
+<lb ed="#Bc"/>quantum de calido. Et hoc non fuit in
+<lb ed="#Bc"/>corpore Adw : quia hoc esset causa 
+pu<lb ed="#Bc" break="no"/>gne et dissolutionis, et non hone 
+habi<lb ed="#Bc" break="no"/>tudinis. Cum enim sint quatuor 
+quali<lb ed="#Bc" break="no"/>tates, et dua tantum sint principia, ut
+<lb ed="#Bc"/>dicit Aristoteles in libro de Causis, 
+lon<lb ed="#Bc" break="no"/>gioris vite, scilicet calidum et humidum.
+<lb ed="#Bc"/>Calidum enim non facile infrigidabile, et
+<lb ed="#Bc"/>humidum non facile siccabile. Et due
+<lb ed="#Bc"/>sint qualitates mortificalive, frigidum
+<lb ed="#Bc"/>scilicet et siccum : frigidum ut agens,
+<lb ed="#Bc"/>siccum ut patiens : que etiam non 
+de<lb ed="#Bc" break="no"/>serviunt ad vitam, sed ad figuram vivi,
+<lb ed="#Bc"/>frigidum scilicet in comprimendo partes,
+<lb ed="#Bc"/>ne recedant ab invicem : siccum in 
+te<lb ed="#Bc" break="no"/>nendo figuram quam necesse est esse 
+di<lb ed="#Bc" break="no"/>versam in omni corpore organico : quia
+<lb ed="#Bc"/>aliter anima operationes partium 
+sua<lb ed="#Bc" break="no"/>rum non posset perficere, nisi essent in
+<lb ed="#Bc"/>diversis figuris organa. Et ideo necesse
+<lb ed="#Bc"/>fuit, quod in corpore Ade et in quolibet
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>corpore alio perfecto secundum 
+com<lb ed="#Bc" break="no"/>plexionem et sanitatem, fuerit major
+<lb ed="#Bc"/>virtus calidi quam frigidi, et major 
+vir<lb ed="#Bc" break="no"/>tus humidi quam sicci. Proportione 
+ta<lb ed="#Bc" break="no"/>men ad medium complexionale equalia
+<lb ed="#Bc"/>sunt secundum virtutem, et equaliter 
+re<lb ed="#Bc" break="no"/>mota ab excellentiis primarum 
+qualita<lb ed="#Bc" break="no"/>tum simplicium.
+</p>
+            <p xml:id="Almn78-h13794-d1e998">
+               <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum 
+<lb ed="#Bc"/>quod dictum Augustini intelligitur, quod
+<lb ed="#Bc"/>inferiora elementa abundant in corpore
+<lb ed="#Bc"/>hominis materialiter propter causam
+<lb ed="#Bc"/>que dicta fuit paulo superius : quia 
+sci<lb ed="#Bc" break="no"/>licet ex terra est substantia corporis, et
+<lb ed="#Bc"/>ex aqua continuitas. Sed ex hoc non 
+se<lb ed="#Bc" break="no"/>quitur, quod adundent secandum 
+excel<lb ed="#Bc" break="no"/>lentiam virtutis agentis vel patientis :
+<lb ed="#Bc"/>quia numeris proportionum mixta et
+<lb ed="#Bc"/>complexionata ita ligantur, quod ad 
+ex<lb ed="#Bc" break="no"/>cellentias erumpere non possunt. Istis
+<lb ed="#Bc"/>enim numeris ligavit Deus elementa
+<lb ed="#Bc"/>mundi,ut unumquodque alteri conveniat,
+<lb ed="#Bc"/>et maxime in mixto et complexionato,
+<lb ed="#Bc"/>sicut patuit in versibus Boetii paulo ante
+<lb ed="#Bc"/>inductis.
+</p>
+            <p xml:id="Almn78-h13794-d1e1037">
+               <lb ed="#Bc"/>Ad aliud quod ulterius queritur, 
+di<lb ed="#Bc" break="no"/>cendum, quod si Adam remansisset in
+<lb ed="#Bc"/>statu innocentiz, ut dicunt Augustinus et
+<lb ed="#Bc"/>Anselmus, et generasset in illo, 
+equali<lb ed="#Bc" break="no"/>tatem istam transfundisset in posteros.
+<lb ed="#Bc"/>Sed quia peccavit, et justitiae ordinem
+<lb ed="#Bc"/>corrupit, qui Deo subdi debuit et 
+manda<lb ed="#Bc" break="no"/>tis ejus, ideo per ordinem justitie 
+cor<lb ed="#Bc" break="no"/>ruptus est talis ordo in ipso : et quia
+<lb ed="#Bc"/>peccavit non ut singularis homo, sed ut
+<lb ed="#Bc"/>principium materiale omnium hominum,
+<lb ed="#Bc"/>ideo tota massa corrupta est in ipso: et
+<lb ed="#Bc"/>quia ex massa fit transfusio seminis, ideo
+<lb ed="#Bc"/>necesse fuit per ordinem justitia divine,
+<lb ed="#Bc"/>quod corruptio transfunderetur in 
+poste<lb ed="#Bc" break="no"/>ros. Et quamvis per conversionem et
+<lb ed="#Bc"/>baptismum auferatur culpa originalis,
+<lb ed="#Bc"/>tamen poena sequens culpam manet et in
+<lb ed="#Bc"/>corpore et in anima, ut dicit Augustinus,
+<lb ed="#Bc"/>ad exercitium virtutis, et promotionem
+<lb ed="#Bc"/>meriti, quod acquirit homo ex pugna :
+<lb ed="#Bc"/>quia non debetur corona nisi pugnanti et
+<lb ed="#Bc"/>vincenti.
+</p>
+            <p xml:id="Almn78-h13794-d1e1089">
+               <pb ed="#Bc" n="68"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Ad id quod ullerius queritur, scilicet
+<lb ed="#Bc"/>de rectitudine stature, dicendum quod.
+<lb ed="#Bc"/>erectio et rectitudo indicant quod dicunt
+<lb ed="#Bc"/>Sancti, et etiam Ovidius in I 
+Metamor<lb ed="#Bc" break="no"/>phoseon, qui dicit :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h13794-Qd1e1108">Os homini sublime dedit, ccelumque tueri
+<lb ed="#Bc"/>Jussit, et erectus ad sidera tollere vultus.</quote>
+  
+               <lb ed="#Bc"/>Unde sine dubio regiam potestatem et
+<lb ed="#Bc"/>dignitatem in homine significat, ut dicit
+<lb ed="#Bc"/>Gregorius. Et ipsa rectitudo rectitudinem
+<lb ed="#Bc"/>justitie demonstrat, ut dicit Bernardus, et
+<lb ed="#Bc"/>erectio faciei significat erectos debere esse
+<lb ed="#Bc"/>sensus et intentionem ad contemplanda
+<lb ed="#Bc"/>et desideranda celestia. Et hujus causa
+<lb ed="#Bc"/>secundum naturales est, quod calor a
+<lb ed="#Bc"/>loco digestionis et a spiritualibus elevans
+<lb ed="#Bc"/>spiritam, quo rectius elevat, eo magis
+<lb ed="#Bc"/>serenat, quod forme elevate in spiritu
+<lb ed="#Bc"/>splendidiores cleventur ad caput, et fiant
+<lb ed="#Bc"/>in ea operationes virtutum 
+apprehensi<lb ed="#Bc" break="no"/>varum. Econtra de animalibus pronis in
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>terram, spiritus deprimuntur et 
+obscu<lb ed="#Bc" break="no"/>rantur et inspissantur, in quibus non
+<lb ed="#Bc"/>possunt fieri operationes rationales.
+</p>
+            <p xml:id="Almn78-h13794-d1e1153">
+               <lb ed="#Bc"/>Et si objicitur, quod plante que 
+indi<lb ed="#Bc" break="no"/>gne sunt et non nobiles, habent 
+rectitu<lb ed="#Bc" break="no"/>dinem stature.
+</p>
+            <p xml:id="Almn78-h13794-d1e1163">
+               <lb ed="#Bc"/>Dicendum, quod alia de causa habet
+<lb ed="#Bc"/>hoc planta, et alia de causa habet hoc
+<lb ed="#Bc"/>homo. Plante habent hoc per 
+necessita<lb ed="#Bc" break="no"/>tem nature : quia, sicut dixit 
+Pythago<lb ed="#Bc" break="no"/>ras, omnium plantarum terra est mater,
+<lb ed="#Bc"/>sol pater : et ideo sole evocante plantas,
+<lb ed="#Bc"/>omnes plante porrigunt ad solem 
+stipi<lb ed="#Bc" break="no"/>tes, ramos, folia, flores, et fructus : quia
+<lb ed="#Bc"/>humidum quod est in eis non 
+termina<lb ed="#Bc" break="no"/>tur ad completam digestionem nisi per
+<lb ed="#Bc"/>calorem’solis. In homine autem est, ut
+<lb ed="#Bc"/>conspective virtutes, qua incipiunt a
+<lb ed="#Bc"/>sensibus, depurate a fumis obscuris, 
+su<lb ed="#Bc" break="no"/>periorum decore informentur : et sic
+<lb ed="#Bc"/>ostendatur homini, quod ad superiorem
+<lb ed="#Bc"/>sedem natus est, et non obscuretur in
+<lb ed="#Bc"/>infimis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

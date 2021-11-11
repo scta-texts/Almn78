@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 38</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 38</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="389"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a86163"><!-- p1t9q38 -->
+            <head xml:id="Almn78-a86163-Hd1e106">Quaestio 38</head>
+            <head xml:id="Almn78-a86163-Hd1e109" type="question-title">
+      Quae et quot relationes sint in divinis
+    </head>
+            <p xml:id="Almn78-a86163-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XXXVIII.
+<lb ed="#Ba"/>Quae et quot relationes sint in divinis ?
+</p>
+            <p xml:id="Almn78-a86163-d1e121">
+               <lb ed="#Ba"/>
+               <lb ed="#Ba"/>Secundo queritur, Que et quot 
+rela<lb ed="#Ba" break="no"/>tiones sint in divinis ?
+</p>
+            <p xml:id="Almn78-a86163-d1e130">
+               <lb ed="#Ba"/>Sunt enim relationes superpositionis
+<lb ed="#Ba"/>ol suppositionis, ut dominus et servus.
+</p>
+            <p xml:id="Almn78-a86163-d1e138">
+               <lb ed="#Ba"/>Et sunt relationes fundate super 
+ali<lb ed="#Ba" break="no"/>quod dictum absolute, sicut supra quali-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>tatem et quantitatem, ut similis, 
+dissimi<lb ed="#Ba" break="no"/>lis, equalis, et ineequalis.
+</p>
+            <p xml:id="Almn78-a86163-d1e151">
+               <lb ed="#Ba"/>Et sunt relationes fundate super 
+scien<lb ed="#Ba" break="no"/>tiam ab alio acceptam, vel non 
+accep<lb ed="#Ba" break="no"/>tam, ut magister, et discipulus.
+</p>
+            <p xml:id="Almn78-a86163-d1e160">
+               <lb ed="#Ba"/>Et sunt relationes equalitatis sive
+<pb ed="#Ba" n="390"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>aequiparantiae, ut amicus : est enim amicus
+<lb ed="#Ba"/>amici amicus, frater, soror,et hujusmodi.
+</p>
+            <p xml:id="Almn78-a86163-d1e173">
+               <lb ed="#Ba"/>Et sunt relationes fundate super 
+di<lb ed="#Ba" break="no"/>versitatem situs, ut dexter et sinister, et
+<lb ed="#Ba"/>hujusmodi.
+</p>
+            <p xml:id="Almn78-a86163-d1e182">
+               <lb ed="#Ba"/>Et sunt relationes fundate super 
+op<lb ed="#Ba" break="no"/>positionem originis, et multa alia genera
+<lb ed="#Ba"/>sunt relationum.
+</p>
+            <p xml:id="Almn78-a86163-d1e191">
+               <lb ed="#Ba"/>Queritur ergo, Secundum quas 
+ista<lb ed="#Ba" break="no"/>rum distinguuntur persone ?
+</p>
+            <p xml:id="Almn78-a86163-d1e199">
+               <lb ed="#Ba"/>Et videtur quod non secundum 
+pri<lb ed="#Ba" break="no"/>mas, scilicet superpositionis et 
+supposi<lb ed="#Ba" break="no"/>tionis. Nihil enim talium est in personis
+<lb ed="#Ba"/>divinis. Fides enim non admittit aliquam
+<lb ed="#Ba"/>personam alii superponi vel supponi. Et
+<lb ed="#Ba"/>si dicatur, quod Pater major Filio est 
+se<lb ed="#Ba" break="no"/>cundum Hilarium, tamen addit Hilarius,
+<lb ed="#Ba"/>quod Filius non est minor.
+</p>
+            <p xml:id="Almn78-a86163-d1e219">
+               <lb ed="#Ba"/>Similiter videtur, quod non 
+distin<lb ed="#Ba" break="no"/>guantur per relationes fundatas super
+<lb ed="#Ba"/>qualitatem, et quantitatem, vel super
+<lb ed="#Ba"/>substantiam : quia ille quantum est de
+<lb ed="#Ba"/>suo intellectu, non causant modum 
+exi<lb ed="#Ba" break="no"/>stendi singularem,sed consequuntur esse
+<lb ed="#Ba"/>existentis secundum singularem 
+existen<lb ed="#Ba" break="no"/>tie modum, Similis enim non est similis
+<lb ed="#Ba"/>simili, nisi qui etiam est singulariter, et
+<lb ed="#Ba"/>cum alio qui etiam est singulariter, 
+eam<lb ed="#Ba" break="no"/>dem participat qualitalem. Dicit enim
+<lb ed="#Ba"/>Boetius, quod <quote xml:id="Almn78-a86163-Qd1e247"> similitudo est rerum
+<lb ed="#Ba"/>differentium eadem qualitas. </quote>
+            </p>
+            <p xml:id="Almn78-a86163-d1e253">
+               <lb ed="#Ba"/>Et eadem est ratio de relatione 
+equa<lb ed="#Ba" break="no"/>litatis. Auqualia enim ab equalitate non
+<lb ed="#Ba"/>accipiunt exislere per se sola secundum
+<lb ed="#Ba"/>singularem existentiae modum : sed jam
+<lb ed="#Ba"/>existentia singulariter, per 
+participatio<lb ed="#Ba" break="no"/>nem ejusdem qualitatis dicuntur 
+xgza<lb ed="#Ba" break="no"/>fia, Distinguentia autem ipsas personas,
+<lb ed="#Ba"/>ab ipsis distinguentibus sive per seipsa
+<lb ed="#Ba"/>habent, quod dant ef causant esse 
+per<lb ed="#Ba" break="no"/>sonale ei quod est existens per se 
+secun<lb ed="#Ba" break="no"/>dum singularem existentia modum : et
+<lb ed="#Ba"/>ideo ista secundum rationem intelligendi
+<lb ed="#Ba"/>consequuntur esse personale, et non dant
+<lb ed="#Ba"/>ipsum. ,
+</p>
+            <p xml:id="Almn78-a86163-d1e286">
+               <lb ed="#Ba"/>Et eadem ratio est de hoc quod dici-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>tur idem. Licet enim hoc fundetur super
+<lb ed="#Ba"/>unitatem substantia, tamen idem ei cu
+<lb ed="#Ba"/>est idem non dicitur, nisi quod jam s+
+<lb ed="#Ba"/>cundum intellectum est singulare :
+<lb ed="#Ba"/>dicitur idem, quod jam secundum intel
+<lb ed="#Ba"/>lectum habet esse singulare : et
+<lb ed="#Ba"/>secundum intellectum posterius est ills
+<lb ed="#Ba"/>quod dat esse secundum modum 
+existen<lb ed="#Ba" break="no"/>tie singularem.
+</p>
+            <p xml:id="Almn78-a86163-d1e312">
+               <lb ed="#Ba"/>Similiter non possunt distingui 
+perse<lb ed="#Ba" break="no"/>ne per relationes super scientia 
+funda<lb ed="#Ba" break="no"/>tas. Licet enim Filius sit sapientia 
+gr<lb ed="#Ba" break="no"/>nita, et Pater sapientia ingenita, taimen
+<lb ed="#Ba"/>per hoc quod Pater est sapientia 
+ingeni<lb ed="#Ba" break="no"/>ta, non habet esse et modum esse 
+singt<lb ed="#Ba" break="no"/>laris existentia, necetiam Filius per hor
+<lb ed="#Ba"/>quod est sapientia genita, sed potius per
+<lb ed="#Ba"/>hoc quod Pater est existens per se solum,
+<lb ed="#Ba"/>et Filius existens per se solum, Pater
+<lb ed="#Ba"/>modo ingeniti, Filius modo geniti 
+ha<lb ed="#Ba" break="no"/>bent, quod ille est sapientia ingenita,
+<lb ed="#Ba"/>iste est sapientia genita. Intellectus 
+au<lb ed="#Ba" break="no"/>tem non admittit, quod id quod sequitur
+<lb ed="#Ba"/>distinctum esse personale secundum 
+in<lb ed="#Ba" break="no"/>tellectum, sit dans vel causans esse 
+per<lb ed="#Ba" break="no"/>sonale distinctum.
+</p>
+            <p xml:id="Almn78-a86163-d1e351">
+               <lb ed="#Ba"/>Et si objiciatur quod dicitur, Joan.
+<lb ed="#Ba"/>xvi, 13, de Spiritu sancto, quod 
+gzar<lb ed="#Ba" break="no"/>cumque audiet, toquetur. Oceurrit 
+Au<lb ed="#Ba" break="no"/>gustinus dicens,quod audire illi esse est.
+<lb ed="#Ba"/>Et vult, quod cum dicitur : Non enim
+<lb ed="#Ba"/>loguetur a semetipso*, consequatur ad
+<lb ed="#Ba"/>hoc, quod non est a semetipso, sed a
+<lb ed="#Ba"/>Patre et Filio. Singulare ergo esse, quo
+<lb ed="#Ba"/>Spiritus sanctus sic est, quod non a 
+se<lb ed="#Ba" break="no"/>metipso, sed a Patre et Filio est, ab 
+ali<lb ed="#Ba" break="no"/>qua relatione est, que secundum 
+ratio<lb ed="#Ba" break="no"/>nem intelligendi est ante audire, et illa
+<lb ed="#Ba"/>causat distinetum esse personale : qua
+<lb ed="#Ba"/>tamen per indifferentiam simplicitatis
+<lb ed="#Ba"/>idem est ei quod est audire non 
+asemet<lb ed="#Ba" break="no"/>ipso. Nulla enim diversitas secundum
+<lb ed="#Ba"/>rem est in prima simplicitate.
+</p>
+            <p xml:id="Almn78-a86163-d1e391">
+               <lb ed="#Ba"/>Similiter relationes fundate super
+<lb ed="#Ba"/>eequiparantiam, non possunt distinguere
+<lb ed="#Ba"/>Trinitatem, propter eamdem causam.
+<lb ed="#Ba"/>Illae enim nihil dicunt quod sit causa esse
+<pb ed="#Ba" n="391"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>singularis in esse personali, sed potius 
+<lb ed="#Ba"/>ul quod est consequens esse personale
+<lb ed="#Ba"/>et singulare. Jam autem antehabitum
+<lb ed="#Ba"/>est, quod id quod est consequens esse,
+<lb ed="#Ba"/>non potest dare esse distinctum et 
+singu<lb ed="#Ba" break="no"/>lare : et ideo fraternitas in divinis 
+per<lb ed="#Ba" break="no"/>sonis esse non potest.
+</p>
+            <p xml:id="Almn78-a86163-d1e422">
+               <lb ed="#Ba"/>Eodem modo probatur, quod non 
+dis<lb ed="#Ba" break="no"/>linguuntur persone per relationes 
+fun<lb ed="#Ba" break="no"/>datas super diversitatem. In primo enim
+<lb ed="#Ba"/>simplicissimo nec fides permittit, nec 
+in<lb ed="#Ba" break="no"/>tellectus admittit aliquam esse situs 
+diffe<lb ed="#Ba" break="no"/>rentiam.
+</p>
+            <p xml:id="Almn78-a86163-d1e438">
+               <lb ed="#Ba"/>Et si objicitur, quod Filius dicitur 
+se<lb ed="#Ba" break="no"/>dere ad dexteram Patris. Occurrit 
+Au<lb ed="#Ba" break="no"/>vustinus dicens, quod dextfera symbolice
+<lb ed="#Ba"/>idicitur. Per dexteram enim vel 
+equa<lb ed="#Ba" break="no"/>litas, vel potissima bona 
+intelligun<lb ed="#Ba" break="no"/>tur.
+</p>
+            <p xml:id="Almn78-a86163-d1e454">
+               <lb ed="#Ba"/>Quod etiam non distinguantur per 
+re<lb ed="#Ba" break="no"/>lationes fundatas super oppositionem
+<lb ed="#Ba"/>originis, videtur ex hoc probari, quod
+<lb ed="#Ba"/>omne quod distinctum esse accipit 
+se<lb ed="#Ba" break="no"/>cundum modum esse individui singularis,
+<lb ed="#Ba"/>accipit illud per aliquod absoiutam quod
+<lb ed="#Ba"/>est causa individuationis ejus. Et relatio
+<lb ed="#Ba"/>qua refertur ad aliud, est illud 
+distin<lb ed="#Ba" break="no"/>ctum. Ergo esse non accipit a relatione.
+</p>
+            <p xml:id="Almn78-a86163-d1e476">
+               <lb ed="#Ba"/>Et si dicatur, quod hoc non tenet in
+<lb ed="#Ba"/>divinis, ubi nihil est per accidens.
+<lb ed="#Ba"/>In contrarium videtur esse quod dicit
+<lb ed="#Ba"/>Augustinus in libro VII de Trinitate,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a86163-Qd1e489"> omne relativum est etiam aliud
+<lb ed="#Ba"/>quam relativum'. </quote> Et ex hoc innuit,
+<lb ed="#Ba"/>quod ab alio sit distinctio esse individui,
+<lb ed="#Ba"/>et ab alio quod relativum sit, sive illud
+<lb ed="#Ba"/>individuum sit persona, sive non sit.
+<lb ed="#Ba"/>Isti enim intellectus consequuntur se, et
+<lb ed="#Ba"/>non sunt simul, hoc esse ab hoc per 
+ge<lb ed="#Ba" break="no"/>nerationem, et hic est pater, et hic est
+<lb ed="#Ba"/>filius : et ideo hune esse patrem, et hune
+<lb ed="#Ba"/>esse filium consequitur hoc esse ab hoc.
+<lb ed="#Ba"/>Et ideo esse patrem, et esse filium, 
+neu<lb ed="#Ba" break="no"/>tri confert hunc esse hunc. Distinctio
+<lb ed="#Ba"/>ergo in esse personali non potest esse a
+<lb ed="#Ba"/>paternitate vel filiatione.
+</p>
+            <p xml:id="Almn78-a86163-d1e521">
+               <lb ed="#Ba"/>Et sic videtur, quod per relationes
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>originis, vel alias non possit esse 
+dis<lb ed="#Ba" break="no"/>tinctio personalis.
+</p>
+            <p xml:id="Almn78-a86163-d1e533">
+               <lb ed="#Ba"/>Sonurio, Antequam procedamus ad
+<lb ed="#Ba"/>querendum, que in specie, et quot 
+nu<lb ed="#Ba" break="no"/>mero sunt relationes, ista que de genere
+<lb ed="#Ba"/>relationis quesita sunt, solyenda sunt.
+</p>
+            <p xml:id="Almn78-a86163-d1e544">
+               <lb ed="#Ba"/>Dicendum ergo, quod nulla relatio
+<lb ed="#Ba"/>multiplicat Trinitatem, ut dicit Boetius,
+<lb ed="#Ba"/>nisi in qua tria sunt, scilicet quod nihil
+<lb ed="#Ba"/>addit super substantiam : quia si 
+adde<lb ed="#Ba" break="no"/>ret, compositionem induceret. Et quod
+<lb ed="#Ba"/>de suo intellectu ordinem nature ponat
+<lb ed="#Ba"/>et causet. Et quod distinctum det esse
+<lb ed="#Ba"/>personale per oppositionem quam 
+consi<lb ed="#Ba" break="no"/>ghificat. Et iste sunt relationes que 
+im<lb ed="#Ba" break="no"/>portantur per non esse ab alio, et esse ab
+<lb ed="#Ba"/>alio, et esse ab aliis per duplicem 
+mo<lb ed="#Ba" break="no"/>dum communicationis sive emanationis,
+<lb ed="#Ba"/>natura scilicet, et voluntatis. Cum enim
+<lb ed="#Ba"/>in Deo idem sit substantia, virtus, et
+<lb ed="#Ba"/>operatio, precipue secundum quod est
+<lb ed="#Ba"/>in operante, ab aliis nihil potest esse
+<lb ed="#Ba"/>quod diminuat simplicitatem. Et ideo 
+di<lb ed="#Ba" break="no"/>cit Augustinus, quod <quote xml:id="Almn78-a86163-Qd1e585"> idem est Patrem
+<lb ed="#Ba"/>generare, quod Patrem esse patrem : </quote>
+               <lb ed="#Ba"/>nec unum addit supra alterum, sed 
+diffe<lb ed="#Ba" break="no"/>runt in modo intelligendi, et non in re.
+<lb ed="#Ba"/>Cum enim dicitur, Pater est pater, 
+signi<lb ed="#Ba" break="no"/>ficatur relatio ut proprietas, vel habitus.
+<lb ed="#Ba"/>Cum autem dicitur, Pater generat, 
+si<lb ed="#Ba" break="no"/>gnificatur ut actus, vel actio : nec est ibi
+<lb ed="#Ba"/>motus, propter eternitatem que est in
+<lb ed="#Ba"/>divinis : nec est ibi diversitas, propter
+<lb ed="#Ba"/>simplicitatem. Significatur etiam 
+neces<lb ed="#Ba" break="no"/>sario ordo nature, quo alter est ab 
+alte<lb ed="#Ba" break="no"/>ro : quia in ipso nomine quod est Pater,
+<lb ed="#Ba"/>significatur, quod alius ab ipso sit : et
+<lb ed="#Ba"/>in ipso nomine quod est Filius, 
+signifi<lb ed="#Ba" break="no"/>catur quod alio sit: et in oppositione
+<lb ed="#Ba"/>ipsa significatur, quod in esse personali
+<lb ed="#Ba"/>distincti sunt : non enim potest esse,
+<lb ed="#Ba"/>quod idem aliquis sit qui ab alio est, et
+<lb ed="#Ba"/>qui non ab alio est : quia sic 
+contradi<lb ed="#Ba" break="no"/>ctoria verificarentur de eodem, et 
+secun<lb ed="#Ba" break="no"/>dum idem, quia secundum eamdem 
+rela<lb ed="#Ba" break="no"/>tionem.
+</p>
+            <p xml:id="Almn78-a86163-d1e636">
+               <pb ed="#Ba" n="392"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Adhuc, Non ab alio esse, et ab alio
+<lb ed="#Ba"/>esse secundum propriam rationem dicunt
+<lb ed="#Ba"/>id quod antecedit secundum intellectum,
+<lb ed="#Ba"/>et causat et confert esse secundum 
+mo<lb ed="#Ba" break="no"/>dum existentis, quod existit per se 
+so<lb ed="#Ba" break="no"/>lum secundum singularis existentia 
+mo<lb ed="#Ba" break="no"/>dum: et ab hoc habet, quod distinguit
+<lb ed="#Ba"/>personam secundum esse personale. Et
+<lb ed="#Ba"/>ideo sola relatio originis habet tria que
+<lb ed="#Ba"/>dicta sunt, scilicet quod simplicitatem
+<lb ed="#Ba"/>non adimit, quod in ordine nature 
+po<lb ed="#Ba" break="no"/>nit, quod per opposilionem distinguit in
+<lb ed="#Ba"/>esse personali.
+</p>
+            <p xml:id="Almn78-a86163-d1e671">
+               <lb ed="#Ba"/>Ad ossectum contra hoc, dicendum
+<lb ed="#Ba"/>est, quod non procedit, nisi in his in
+<lb ed="#Ba"/>quibus relatio dicit accidens, sicut pro-
+-batum est in antecedenti membro_ istius
+<lb ed="#Ba"/>ejusdem questionis.
+  
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Ad dictum Augustini dicendum, quod
+<lb ed="#Ba"/>verum est, quod omne relativum ent
+<lb ed="#Ba"/>aliud quam relativum : sed in inferior
+<lb ed="#Ba"/>bus est aliud secundum essentianm, i
+<lb ed="#Ba"/>quibus relatio est accidens. In divinin
+<lb ed="#Ba"/>autem sufficit, quod sit secundum mu
+<lb ed="#Ba"/>dum significandi vel supponendi. Kast
+<lb ed="#Ba"/>enim hypostasis sive supposilum, quod
+<lb ed="#Ba"/>est aliud in significando vel supponendo
+<lb ed="#Ba"/>quam sit relativum : quia aliud 
+attrilui<lb ed="#Ba" break="no"/>tur supposito, aliud relativo : 
+supposi<lb ed="#Ba" break="no"/>tum enim absolute dicitur, relativum ad
+<lb ed="#Ba"/>aliud.
+</p>
+            <p xml:id="Almn78-a86163-d1e713">
+               <lb ed="#Ba"/>Omnes autem ali# argumentationes
+<lb ed="#Ba"/>que contra alios modos relativorum 
+in<lb ed="#Ba" break="no"/>ducte sunt, procedunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

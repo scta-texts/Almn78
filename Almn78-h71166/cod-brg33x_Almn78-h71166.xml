@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 111</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 111</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="319"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h71166"><!-- p2t17q111 -->
+            <head xml:id="Almn78-h71166-Hd1e106">Quaestio 111</head>
+            <head xml:id="Almn78-h71166-Hd1e109" type="question-title">
+    De fomite.
+  </head>
+            <p xml:id="Almn78-h71166-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXI.
+<lb ed="#Bc"/>De fomite.
+</p>
+            <p xml:id="Almn78-h71166-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Reliqua hujus distinctionis, scilicet
+<lb ed="#Bc"/>qualiter peccatum per carnem, et non
+<lb ed="#Bc"/>per animam transit in posteros? et,
+<lb ed="#Bc"/>Qualiter propter concupiscentiam 
+pec<lb ed="#Bc" break="no"/>catum dicitur esse in carne, et est caus
+<lb ed="#Bc"/>sa peccati in anima? et, Utrum feeditas
+<lb ed="#Bc"/>que est fomes in carne, sit culpa vel
+<lb ed="#Bc"/>pena? et, A quo sit, utrum a Deo, vel
+<lb ed="#Bc"/>a quo, et ad quid sit? et, Utrum 
+concu<lb ed="#Bc" break="no"/>bitus matrimonialis per cujus legem
+<lb ed="#Bc"/>concupiscentialem transfunditur 
+origina<lb ed="#Bc" break="no"/>le in parvulos, sit peccatum vel non?
+<lb ed="#Bc"/>et, Qualiter a parentibus qui nullum 
+ha<lb ed="#Bc" break="no"/>bent peccatum, tamen originaliter 
+trans<lb ed="#Bc" break="no"/>funditur in parvulos ? Omnia in 
+preha<lb ed="#Bc" break="no"/>bitis et disputata et determinata sunt :
+<lb ed="#Bc"/>et ideo transeundum est ad 
+distinctio<lb ed="#Bc" break="no"/>nem XXXII, ubi Magister determinat de
+<lb ed="#Bc"/>remissione originalis peccati.
+</p>
+            <p xml:id="Almn78-h71166-d1e167">
+               <lb ed="#Bc"/>Dicit autem, cap. Duplici ergo 
+ratio<lb ed="#Bc" break="no"/>ne originale peccatum dicitur dimitti in
+<lb ed="#Bc"/>baptismo.
+</p>
+            <p xml:id="Almn78-h71166-d1e177">
+               <lb ed="#Bc"/>Ubi tria sunt querenda.
+<lb ed="#Bc"/>Primo, An contingat fomitem 
+exstin<lb ed="#Bc" break="no"/>gui?
+<lb ed="#Bc"/>Secundo, Quid sit fomitem exstingui ?
+<lb ed="#Bc"/>Tertio, In quibus sanctis exstinctus
+<lb ed="#Bc"/>sit ?
+</p>
+            <div xml:id="Almn78-h71166-Dd1e193">
+               <head xml:id="Almn78-h71166-Hd1e195">Membrum 1</head>
+               <head xml:id="Almn78-h71166-Hd1e198" type="question-title">
+        Utrum contingat fomitem  exstingui
+      </head>
+               <p xml:id="Almn78-h71166-d1e201">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum contingat fomitem  exstingui ?
+</p>
+               <p xml:id="Almn78-h71166-d1e208">
+                  <lb ed="#Bc"/>Primo objicitur sic :
+<lb ed="#Bc"/>Videtur enim, quod non contingat
+<lb ed="#Bc"/>exstingui.
+</p>
+               <p xml:id="Almn78-h71166-d1e217">
+                  <pb ed="#Bc" n="320"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>1. I Joan. 1, 8 : Sidizerimus guoniam
+<lb ed="#Bc"/>peccatum non habemus, ipsi nos 
+seduct<lb ed="#Bc" break="no"/>mus, et veritas in nobis non est. 
+Pecca<lb ed="#Bc" break="no"/>tum non est nisi ex concupiscentia et
+<lb ed="#Bc"/>fomite : quia dicit Augustinus in libro
+<lb ed="#Bc"/>de Nuptiis et coneupiscentia, quod ex
+<lb ed="#Bc"/>concupiscentia et fomite tamquam filia
+<lb ed="#Bc"/>peccati innascitur peccatum : ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod in nullo exstinguitur.
+</p>
+               <p xml:id="Almn78-h71166-d1e244">
+                  <lb ed="#Bc"/>2, Adhuc, Job, xv, 14: Quid est 
+ho<lb ed="#Bc" break="no"/>mo ut immaculatus sit, et ut Justus 
+ap<lb ed="#Bc" break="no"/>pareat natus de muliere ? Cum ergo
+<lb ed="#Bc"/>peccatum non insit sine concupiscentia
+<lb ed="#Bc"/>et fomite, videtur quod nullus sit sine
+<lb ed="#Bc"/>fomite : ergo in nullo exstinguitur.
+</p>
+               <p xml:id="Almn78-h71166-d1e260">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro 
+Retra<lb ed="#Bc" break="no"/>ctationum : <quote xml:id="Almn78-h71166-Qd1e266">In hac vita nemo ita servat
+<lb ed="#Bc"/>mandata justitia, ut non sit ei 
+necessa<lb ed="#Bc" break="no"/>rium orare pro peccatis suis, et dicere :
+<lb ed="#Bc"/>Dimitte nobis debita nostra *. </quote> 
+Er<lb ed="#Bc" break="no"/>go videtur, quod nullus in hac vita
+<lb ed="#Bc"/>absolvitur a fomite concupiscentie : quia
+<lb ed="#Bc"/>debita non sunt nisi propter peccata
+<lb ed="#Bc"/>contracta.
+</p>
+               <p xml:id="Almn78-h71166-d1e285">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus in libro de
+<lb ed="#Bc"/>Natura et gratia: <quote xml:id="Almn78-h71166-Qd1e291"> Etiamsi non hic 
+vi<lb ed="#Bc" break="no"/>vatur sine peccato, licet tamen mori sine
+<lb ed="#Bc"/>peccato, dum peccatum venia deletur,
+<lb ed="#Bc"/>quod peccatum ignorantia vel 
+infirmita<lb ed="#Bc" break="no"/>te committitur. </quote> Sine infirmitate non
+<lb ed="#Bc"/>vivit homo que proprius effectus est 
+fo<lb ed="#Bc" break="no"/>mitis. Ergo videtur, quod in toto fomes
+<lb ed="#Bc"/>non exstinguitur in aliquo.
+</p>
+               <p xml:id="Almn78-h71166-d1e310">
+                  <lb ed="#Bc"/>5. Adhuc, Ad Roman. vir, 16 et 17:
+<lb ed="#Bc"/>Si quod nolo, illud facio, consentio legi,
+<lb ed="#Bc"/>quoniam bona est. Nune autem jam
+<lb ed="#Bc"/>non ego operor illud, sed quod habitat
+<lb ed="#Bc"/>in me peccatum. Dicit Glossa ibi, quod
+<lb ed="#Bc"/>loquitur in persona hominis damnati.
+<lb ed="#Bc"/>Omnes damnati sunt qui contrahunt
+<lb ed="#Bc"/>originale. Ergo videtur, quod omnes qui
+<lb ed="#Bc"/>contrahunt originale, fomitem habent
+<lb ed="#Bc"/>non exstinctum.
+</p>
+               <p xml:id="Almn78-h71166-d1e334">
+                  <lb ed="#Bc"/>6. Adhuc, Bernardus super Cantica :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h71166-Qd1e340"> Quantumlibet in hoc corpore manens
+<lb ed="#Bc"/>profeceris, erras si vitia putes emortua,
+<lb ed="#Bc"/>et non magis suppressa. Velis nolis in
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>tra fines tuos habitat Jebuseus : 
+subju<lb ed="#Bc" break="no"/>gari potest, sed non exterminari*. </quote> Sed
+<lb ed="#Bc"/>habitare Jebuseum, est fomitem et 
+con<lb ed="#Bc" break="no"/>cupiscentiam habitare. Ergo videtur,
+<lb ed="#Bc"/>quod in nullo exstinguitur 
+concupiscen<lb ed="#Bc" break="no"/>tia et fomes.
+</p>
+               <p xml:id="Almn78-h71166-d1e363">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in libro de Baptismo
+<lb ed="#Bc"/>parvulorum : <quote xml:id="Almn78-h71166-Qd1e371"> Non prestatur in 
+baptis<lb ed="#Bc" break="no"/>mo ut lex peccati que est in membris
+<lb ed="#Bc"/>nostris, exstinguatur prorsus, ita ut non
+<lb ed="#Bc"/>sit, nisi forte vinculo creatoris ineffabili. </quote>
+                  <lb ed="#Bc"/>Ergo ad minus potest exstingui vinculo
+<lb ed="#Bc"/>creatoris miraculose. °
+</p>
+               <p xml:id="Almn78-h71166-d1e387">
+                  <lb ed="#Bc"/>2. Adhuc, Constat, quod in Christo
+<lb ed="#Bc"/>nullus fuit fomes : propinquissimo autem
+<lb ed="#Bc"/>vinculo nature et gratie alligata fuit
+<lb ed="#Bc"/>Virgo mater Filio ; ergo et in matre 
+fo<lb ed="#Bc" break="no"/>mes in toto fuit exstinctus : ergo in aliquo
+<lb ed="#Bc"/>potest in toto exstingui.
+</p>
+               <p xml:id="Almn78-h71166-d1e403">
+                  <lb ed="#Bc"/>3. Adhuc, Anselmus in libro de 
+Con<lb ed="#Bc" break="no"/>ceptu virginali : <quote xml:id="Almn78-h71166-Qd1e409"> Decebat ut Virgo illa
+<lb ed="#Bc"/>ea puritate niteret, qua major sub Deo
+<lb ed="#Bc"/>nequit intelligi, quam Deus Pater umbra
+<lb ed="#Bc"/>sue virtutis et imagine, Filiosuo quem
+<lb ed="#Bc"/>de corde suo genitum tamquam seipsum
+<lb ed="#Bc"/>diligebat, et de qua Filius pellem nostre
+<lb ed="#Bc"/>mortalitatis accepit : et, sicut dicit 
+Gre<lb ed="#Bc" break="no"/>gorius, flamma divinitatis sue implevit,
+<lb ed="#Bc"/>qua mulier evangelica, sapientia scilicet
+<lb ed="#Bc"/>divina, composuit lucernam, totam 
+do<lb ed="#Bc" break="no"/>mum Ecclesie illustravit,et invenit 
+drach<lb ed="#Bc" break="no"/>mam decimam per peccatum primi
+<lb ed="#Bc"/>parentis perditam, summi Regis imagine
+<lb ed="#Bc"/>insignitam,et in thesaurum summi Regis
+<lb ed="#Bc"/>reponendam et non amplius perdendam,
+<lb ed="#Bc"/>et quam Spiritus omni perfectione 
+san<lb ed="#Bc" break="no"/>ctitatis sanctificavit ei matrem, de quo
+<lb ed="#Bc"/>ipse secundum divinitatem procedit : ut
+<lb ed="#Bc"/>sic triplici illustratione, Patris scilicet,
+<lb ed="#Bc"/>Filii, et Spiritus sancti, eluxerit in eam —
+<lb ed="#Bc"/>claritatem, qua major sub Deo nequit
+<lb ed="#Bc"/>intelligi. </quote> Sed talis sanctitas non potest
+<lb ed="#Bc"/>esse in eo in quo est aliqua umbra 
+pec<lb ed="#Bc" break="no"/>cati: umbra peccati est fomes : ergo in
+<lb ed="#Bc"/>beata Virgine fomes in toto exstinctus—
+<lb ed="#Bc"/>fuit : ergo in aliquo potest exstingui.
+</p>
+               <p xml:id="Almn78-h71166-d1e467">
+                  <pb ed="#Bc" n="321"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod sicut 
+pro<lb ed="#Bc" break="no"/>bant ultime objectiones, fomes in beata
+<lb ed="#Bc"/>Virgine totus exstinctus fuit. Unde 
+Ma<lb ed="#Bc" break="no"/>gister in libro UI Sententiarwm, distinct.
+<lb ed="#Bc"/>Til, cap. Quare etiam Mariam Spiritus
+<lb ed="#Bc"/>sanctus in eam preventens a peccato
+<lb ed="#Bc"/>prorsus purgavil, et a fomite peccati
+<lb ed="#Bc"/>etiam liberavit. Ex eo patet, quod fomes
+<lb ed="#Bc"/>penitus in ea extinctus fuit.
+</p>
+               <p xml:id="Almn78-h71166-d1e493">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+Au<lb ed="#Bc" break="no"/>gustinus de concupiscentia et fomite 
+lo<lb ed="#Bc" break="no"/>quitur prout habet inclinationem ad 
+ve<lb ed="#Bc" break="no"/>niale vel mortale : et etiam auctoritas
+<lb ed="#Bc"/>Joannis vult hoc. Et sic fuit in omnibus.
+<lb ed="#Bc"/>qui contrahunt originale, preterquam in
+<lb ed="#Bc"/>beata Virgine. Unde Augustinus in libro
+<lb ed="#Bc"/>de Natura et gratia tractans idem 
+ver<lb ed="#Bc" break="no"/>bum, sic dic't : <quote xml:id="Almn78-h71166-Qd1e514"> Excepta beata Virgine
+<lb ed="#Bc"/>Maria, de qua propter honorem Domini
+<lb ed="#Bc"/>cum de peccatis agitur, nullam volo
+<lb ed="#Bc"/>questionem prorsus haberi. Unde enim
+<lb ed="#Bc"/>scimus, quod ei plus gratiae collatum fuit
+<lb ed="#Bc"/>ad vincendum ex omni parte peccatum,
+<lb ed="#Bc"/>nisi quia concipere et parere meruit
+<lb ed="#Bc"/>Deum, quem nullum constat habuisse
+<lb ed="#Bc"/>peccatum. Hac igitur Virgine excepla, si
+<lb ed="#Bc"/>omnes alios sanctos et sanctas congregare
+<lb ed="#Bc"/>possemus et interrogare, utrum essent
+<lb ed="#Bc"/>sine peccato? quid putamus eos 
+respon<lb ed="#Bc" break="no"/>suros, nisi quod una voce clamassent: Si
+<lb ed="#Bc"/>dixerimus guoniam peccatum non 
+habe<lb ed="#Bc" break="no"/>mus, ipst nos seducimus, et veritas in
+<lb ed="#Bc"/>nobis non est'. </quote> Fomitem enim 
+haben<lb ed="#Bc" break="no"/>tes, inclinationem habebant et ad veniale
+<lb ed="#Bc"/>et mortale.
+</p>
+               <p xml:id="Almn78-h71166-d1e555">
+                  <lb ed="#Bc"/>Ad aliud dicendum eodem modo, quod
+<lb ed="#Bc"/>in nullo penitus exstinguitur, sed in 
+om<lb ed="#Bc" break="no"/>nibus est. In parvulis dicitur tantum
+<lb ed="#Bc"/>concupiscibilitas, ut dicit Augustinus, in
+<lb ed="#Bc"/>adultis autem concupiscentia.
+</p>
+               <p xml:id="Almn78-h71166-d1e568">
+                  <lb ed="#Bc"/>Ad aliud dicendum eodem modo, quod
+<lb ed="#Bc"/>Augustinus loquitur ibi de fomite prout
+<lb ed="#Bc"/>est inclinatio ad veniale vel mortale quod
+<lb ed="#Bc"/>facit debitum, pro quo orandum est in
+<lb ed="#Bc"/>hac vita, ut dimittatur.
+</p>
+               <p xml:id="Almn78-h71166-d1e582">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Augusti~
+<lb ed="#Bc"/>nus loquitur ibi de martyribus, m qui
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>bus falx martyrii resecat omne peccatum
+<lb ed="#Bc"/>et peenam peccati : et ideo immediate
+<lb ed="#Bc"/>evolant ad visionem Dei, cujus carentia
+<lb ed="#Bc"/>pena est originalis peccati. Ideo dicit eos
+<lb ed="#Bc"/>sine peccato mori, quia moriuntur sine
+<lb ed="#Bc"/>pena debita originali peccato.
+</p>
+               <p xml:id="Almn78-h71166-d1e604">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod sicut dictum
+<lb ed="#Bc"/>est, ibi loquitur Apostolus in persona
+<lb ed="#Bc"/>hominis damnati. Ille autem damnatus
+<lb ed="#Bc"/>est, qui fomitem habet secundum 
+incli<lb ed="#Bc" break="no"/>nationem ad veniale et mortale. Unde 
+ibi<lb ed="#Bc" break="no"/>dem Glossa dicit, quod ille ante 
+repara<lb ed="#Bc" break="no"/>tionem grati# non potest non peccare
+<lb ed="#Bc"/>venialiter : sed ex hoc non sequitur, quin
+<lb ed="#Bc"/>in aliquo possit esse exslinctus, sicut in
+<lb ed="#Bc"/>beata Virgine : quia privilegia paucorum
+<lb ed="#Bc"/>non faciunt legem communem.
+</p>
+               <p xml:id="Almn78-h71166-d1e630">
+                  <lb ed="#Bc"/>Ad uttimum dicendum, quod 
+Bernar<lb ed="#Bc" break="no"/>dus non loquitur ibi de eo in quo fomes
+<lb ed="#Bc"/>est secundum inclinationem ad veniale
+<lb ed="#Bc"/>vel mortale vel utrumque, in quo fomes
+<lb ed="#Bc"/>supprimi potest ne veniat ad consensum,
+<lb ed="#Bc"/>sed exstingui non potest in hac vita. 
+Ni<lb ed="#Bc" break="no"/>hilominus ex hoc non sequitur, quod
+<lb ed="#Bc"/>exstinctus non potest esse secundum 
+pri<lb ed="#Bc" break="no"/>vilegium speciale in beata Virgine. In
+<lb ed="#Bc"/>Christo autem non exstinctus fuit, quia
+<lb ed="#Bc"/>numquam in eo fuit. Et hoc est quod 
+di<lb ed="#Bc" break="no"/>cit beatus Augustinus in libro de 
+Baptis<lb ed="#Bc" break="no"/>mo parvulorum : <quote xml:id="Almn78-h71166-Qd1e660"> Sola illa 
+medici<lb ed="#Bc" break="no"/>nam prestare potuit nostro corpori, que
+<lb ed="#Bc"/>non ex peccati vulnere germen piae prolis
+<lb ed="#Bc"/>emisit. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-h71166-Dd1e671">
+               <head xml:id="Almn78-h71166-Hd1e673">Membrum 2</head>
+               <head xml:id="Almn78-h71166-Hd1e676" type="question-title">
+          Quid sit fomitem exstingui, utrum 
+          scilicet exstinguatur ut omnino tollatur,
+          vel quod aliquo modo remaneat 
+          debilitatus ?
+        </head>
+               <p xml:id="Almn78-h71166-d1e679">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit fomitem exstingui, utrum 
+scili<lb ed="#Bc" break="no"/>cet exstinguatur ut omnino tollatur,
+<lb ed="#Bc"/>vel quod aliquo modo remaneat 
+debi<lb ed="#Bc" break="no"/>litatus ?
+</p>
+               <p xml:id="Almn78-h71166-d1e692">
+                  <lb ed="#Bc"/>Secundo queritur, Quid sit fomitem
+<lb ed="#Bc"/>exstingui, scilicet utrum exslinguatur, ut
+<pb ed="#Bc" n="322"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>omnino tollatur, vel quod aliquo modo
+<lb ed="#Bc"/>remaneat debilitatus ?
+</p>
+               <p xml:id="Almn78-h71166-d1e708">
+                  <lb ed="#Bc"/>Circa primum sic proceditur :
+<lb ed="#Bc"/>1. Videtur, quod omnino 
+exstingua<lb ed="#Bc" break="no"/>tur : quia ex opposito se habent scintilla
+<lb ed="#Bc"/>rationis, que est synderesis, et scintilla
+<lb ed="#Bc"/>fomitis que instigat ad malum. Sed 
+scin<lb ed="#Bc" break="no"/>tilla rationis aliquando exstinguitur, ut
+<lb ed="#Bc"/>dicit Hieronymus super illud 
+Proverbio<lb ed="#Bc" break="no"/>rum, xviut, 3: Impius, cum in profundum
+<lb ed="#Bc"/>peccatorum venerit, contemnit : quod
+<lb ed="#Bc"/>in eis precipitatur conscientia, ita ut 
+ma<lb ed="#Bc" break="no"/>lo non remurmuret. Cum ergo gratia 
+po<lb ed="#Bc" break="no"/>tentior sit in quolibet quam peccatum,
+<lb ed="#Bc"/>videtur quod fomes in aliquo in toto
+<lb ed="#Bc"/>exstingul potest.
+</p>
+               <p xml:id="Almn78-h71166-d1e742">
+                  <lb ed="#Bc"/>2. Adhuc, Omne quod diminuitur, 
+de<lb ed="#Bc" break="no"/>ficere potest in toto: constat autem, quod
+<lb ed="#Bc"/>fomes minuitur in baptizatis per gratiam :
+<lb ed="#Bc"/>ergo videtur, quod in toto potest tolli et
+<lb ed="#Bc"/>exstingui, si crescat gratia et 
+augmente<lb ed="#Bc" break="no"/>tur.
+</p>
+               <p xml:id="Almn78-h71166-d1e758">
+                  <lb ed="#Bc"/>3. Adhuc, Exstingui est ejus quod 
+ali<lb ed="#Bc" break="no"/>quo modo est ign's : sed calor naturalis
+<lb ed="#Bc"/>qui in nobis conservat naturam, in toto
+<lb ed="#Bc"/>exstinguitur, ita quod homo moritur :
+<lb ed="#Bc"/>ergo videtur cum infirmius sit peccatum
+<lb ed="#Bc"/>quam natura, quod etiam ignis fomitis in
+<lb ed="#Bc"/>toto exstingui potest.
+</p>
+               <p xml:id="Almn78-h71166-d1e776">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Job, xxxi, 12 : Ignis est usque ad
+<lb ed="#Bc"/>perditionem devorans, ef omnia 
+eradi<lb ed="#Bc" break="no"/>cans genimina. Ergo videtur, quamdiu
+<lb ed="#Bc"/>est ibi aliquid consumendum, quod non
+<lb ed="#Bc"/>exstinguitur ignis fomitis,
+</p>
+               <p xml:id="Almn78-h71166-d1e792">
+                  <lb ed="#Bc"/>2. Adhuc, Proverb. xxx, 16 : Janis
+<lb ed="#Bc"/>numquam dicit : Suffcit. Ergo non
+<lb ed="#Bc"/>exstinguitur ignis fomitis quamdiu est
+<lb ed="#Bc"/>ibi aliquid cremabile.
+</p>
+               <p xml:id="Almn78-h71166-d1e803">
+                  <lb ed="#Bc"/>3. Adhuc, Gregorius in libro [IV 
+Dia<lb ed="#Bc" break="no"/>logorum scribit, quod quidam sacerdos
+<lb ed="#Bc"/>qui ante sacerdotium habuit uxorem,
+<lb ed="#Bc"/>quam cum sacerdos efficeretur, locavit in
+<lb ed="#Bc"/>claustro cum sacris virginibus : qui 
+de<lb ed="#Bc" break="no"/>venit in ultimam e#latem, et in 
+infirmi<lb ed="#Bc" break="no"/>tate mortis positus, ita ut jam tentaretur
+<lb ed="#Bc"/>pilis ante os positis si adhuc spiritum 
+ha<lb ed="#Bc" break="no"/>beret, accedente muliere ad lectulum ut
+<lb ed="#Bc"/>plangeret mortuun, collegit spiritum, et
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>dixit : Recede, mulier, adhuc vivit 
+igni<lb ed="#Bc" break="no"/>culus, tolle paleam. Si ergo in illo in
+<lb ed="#Bc"/>toto exstinctus non fuit, videtur quod in
+<lb ed="#Bc"/>nullo in toto exstingui potest.
+</p>
+               <p xml:id="Almn78-h71166-d1e838">
+                  <lb ed="#Bc"/>4, Adhuc, Hieronymus ad Marcellam ;
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h71166-Qd1e844"> Pallebant ora jejuniis, laxa cutis 
+ossi<lb ed="#Bc" break="no"/>bus adhzrebat : et in his omnibus cor
+<lb ed="#Bc"/>miserabilis senis choris puellarum Rome
+<lb ed="#Bc"/>interfuit. </quote> Ergo videtur, quod in 
+se<lb ed="#Bc" break="no"/>nectute jejuniis et laboribus fatigata 
+ad<lb ed="#Bc" break="no"/>huc manet igniculus : ergo in nullo in
+<lb ed="#Bc"/>toto exstinguitur.
+</p>
+               <p xml:id="Almn78-h71166-d1e862">
+                  <lb ed="#Bc"/>5. Adhuc, Augustinus in libro Quingue
+<lb ed="#Bc"/>responsionum : <quote xml:id="Almn78-h71166-Qd1e868"> Non est iste calor 
+bo<lb ed="#Bc" break="no"/>nus, nec genitalis in bonis genitalibus
+<lb ed="#Bc"/>membris, que formavit Deus : sed 
+ma<lb ed="#Bc" break="no"/>lus auctore diabolo peccato precedente
+<lb ed="#Bc"/>habet calorem. </quote> Videtur ergo ex quo
+<lb ed="#Bc"/>diabolus semper accendit, quod non
+<lb ed="#Bc"/>exstinguatur in toto.
+</p>
+               <p xml:id="Almn78-h71166-d1e884">
+                  <lb ed="#Bc"/>Urerivs hic queritur, Si 
+exstingua<lb ed="#Bc" break="no"/>tur vel debilitatur, per quid exstinguatur
+<lb ed="#Bc"/>vel debilitetur ?
+</p>
+               <p xml:id="Almn78-h71166-d1e893">
+                  <lb ed="#Bc"/>Et consuevit dict: et Magister dicit in
+<lb ed="#Bc"/>Sententiis, quod per gratiam 
+baptisma<lb ed="#Bc" break="no"/>lem.
+</p>
+               <p xml:id="Almn78-h71166-d1e902">
+                  <lb ed="#Bc"/>1. Sed secundum hoc videtur, quod
+<lb ed="#Bc"/>cui datur abundantior gratia, in illo 
+am<lb ed="#Bc" break="no"/>plius deletur, et sic tantum potest 
+cre<lb ed="#Bc" break="no"/>scere gratia, quod in toto deletur : et hoc
+<lb ed="#Bc"/>est contra predicta verba Augustini, qui
+<lb ed="#Bc"/>dicit quod minuitur, sed non in totum
+<lb ed="#Bc"/>exstinguitur.
+</p>
+               <p xml:id="Almn78-h71166-d1e920">
+                  <lb ed="#Bc"/>2. Adhuc, Unum uni opponitur uno
+<lb ed="#Bc"/>genere oppositionis, ut dicit Aristoteles :
+<lb ed="#Bc"/>gratia opponitur malo culpe : ergo non
+<lb ed="#Bc"/>opponitur malo pene eodem genere 
+op<lb ed="#Bc" break="no"/>positionis. Fomes sequela originalis 
+pec<lb ed="#Bc" break="no"/>cati est, et sic peena inflicta pro peccato :
+<lb ed="#Bc"/>ergo gratia non opponitur fomiti : ergo
+<lb ed="#Bc"/>non deletur per ipsam.
+</p>
+               <p xml:id="Almn78-h71166-d1e940">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod fomes dici:
+<lb ed="#Bc"/>tur ignis propter convenientiam ad ignem,
+<lb ed="#Bc"/>que ponitur, Proverb. xxx, :16, quod
+<lb ed="#Bc"/>sicut ignis numquam dicit : Sufficit, ita
+<lb ed="#Bc"/>nihil sufficit concupiscentie que est in
+<lb ed="#Bc"/>fomite. Unde concedendum est, quod
+<pb ed="#Bc" n="323"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>numquam in aliquo in toto exstinguitur
+<lb ed="#Bc"/>preterquam in beata Virgine, ut in 
+pre<lb ed="#Bc" break="no"/>habitis dictum est, cui abundantior 
+gra<lb ed="#Bc" break="no"/>tia collata est ad vincendum ex omni
+<lb ed="#Bc"/>parte peccatum. Unde fomes secundum
+<lb ed="#Bc"/>quod est sequela originalis peccati 
+insti<lb ed="#Bc" break="no"/>gans ad veniale vel mortale, in ipsa non’
+<lb ed="#Bc"/>fuit. Et hoc intendit Augustinus dicere
+<lb ed="#Bc"/>in auctoritate supra inducta, quod sine
+<lb ed="#Bc"/>vulnere peccati medicinam nobis pix
+<lb ed="#Bc"/>prolis emisit. In aliis autem omnibus,
+<lb ed="#Bc"/>sicut dixerunt antiqui Doctores, 
+secun<lb ed="#Bc" break="no"/>dum triplicem gradum est. In non 
+bapti<lb ed="#Bc" break="no"/>zatis enim et non reparatis per gratiam
+<lb ed="#Bc"/>gratum facientem exestuans est 
+concu<lb ed="#Bc" break="no"/>piscentia, ut dicit Augustinus, ita quod
+<lb ed="#Bc"/>non possint resistere, quin peccent 
+mor<lb ed="#Bc" break="no"/>taliter. In reparatis autem per graliam
+<lb ed="#Bc"/>vratum facientem frenata est, ita quod
+<lb ed="#Bc"/>resistunt ei in quantum est inclinativa ad
+<lb ed="#Bc"/>peccatum mortale, sed non in quantum
+<lb ed="#Bc"/>inclinativa est ad veniale. In aliis 
+omni<lb ed="#Bc" break="no"/>bus preter beatam Virginem et Christum
+<lb ed="#Bc"/>est in quantum est peena et vulnus quod
+<lb ed="#Bc"/>est sequela originalis peccati. Et hoc est
+<lb ed="#Bc"/>quod dicunt Sancti, quod non 
+exstingui<lb ed="#Bc" break="no"/>tur in totam : quia ad minus remanet
+<lb ed="#Bc"/>in quantum est pena et sequela 
+origina<lb ed="#Bc" break="no"/>lis peccati.
+</p>
+               <p xml:id="Almn78-h71166-d1e1024">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bc"/>est simile de scintilla rationis et fomite :
+<lb ed="#Bc"/>quia, sicut supra dictum est in questione
+<lb ed="#Bc"/>de synderesi, scintilla rationis 
+precipita<lb ed="#Bc" break="no"/>tur, alio quodam pracipitato, sicut 
+ra<lb ed="#Bc" break="no"/>tione : sicut miles precipitatur equo cui
+<lb ed="#Bc"/>insidet. Sed fomes non exstinguilur nisi
+<lb ed="#Bc"/>exstinguatur in seipso. Unde si in totum
+<lb ed="#Bc"/>exstingueretur, puritas illius hominis non
+<lb ed="#Bc"/>differret a puritate hominis que fuit in
+<lb ed="#Bc"/>statu innocentie : quod est inconveniens :
+<lb ed="#Bc"/>quia illa puritas non est recuperabilis in
+<lb ed="#Bc"/>via.
+</p>
+               <p xml:id="Almn78-h71166-d1e1055">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod hoc verum
+<lb ed="#Bc"/>est de his que diminuuntur essentialiter :
+<lb ed="#Bc"/>sed de his que diminuuntur virlule, non
+<lb ed="#Bc"/>est verum, secundum quod virtus aliquo
+<lb ed="#Bc"/>modo est infinita secundum quod est ad
+<lb ed="#Bc"/>infinita : unde restringi potest, sed in 
+to<lb ed="#Bc" break="no"/>tum tolli non potest.
+</p>
+               <p xml:id="Almn78-h71166-d1e1073">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod procedit
+<lb ed="#Bc"/>modo quo dictum est in solutione 
+mem<lb ed="#Bc" break="no"/>bri.
+</p>
+               <p xml:id="Almn78-h71166-d1e1084">
+                  <lb ed="#Bc"/>Ad guingvE auctoritates que dicunt,
+<lb ed="#Bc"/>quod in totum non potest exstingui, 
+di<lb ed="#Bc" break="no"/>cendum quod procedunt : quia ad minus
+<lb ed="#Bc"/>remanet secundum quod est peena et 
+se<lb ed="#Bc" break="no"/>quela originalis peccati.
+</p>
+               <p xml:id="Almn78-h71166-d1e1097">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod per gratiam baptismalem et
+<lb ed="#Bc"/>graliam reparantem minuitur et 
+exstin<lb ed="#Bc" break="no"/>guitur fomes concupiscentie.
+</p>
+               <p xml:id="Almn78-h71166-d1e1108">
+                  <lb ed="#Bc"/>Sed Ad id quod objicitur in contrarium
+<lb ed="#Bc"/>dicendum quod dupliciter augmentatur
+<lb ed="#Bc"/>gratia, in virtutibus scilicet, et donis : et
+<lb ed="#Bc"/>hec numquam in toto exstinguit 
+fomi<lb ed="#Bc" break="no"/>tem : quia non opponitur ei in quantum
+<lb ed="#Bc"/>est pena. Augetur etiam gratia in 
+privi<lb ed="#Bc" break="no"/>legiis : et haec in totum exstinguit: quia
+<lb ed="#Bc"/>non decet privilegiatam tanta dignitate
+<lb ed="#Bc"/>aliquod vulnus peccati habere, scilicet
+<lb ed="#Bc"/>beatam Virginem : quia nobis medicinam
+<lb ed="#Bc"/>pie prolis produxit contra peccatuin et
+<lb ed="#Bc"/>vulnus peccati.
+</p>
+               <p xml:id="Almn78-h71166-d1e1138">
+                  <lb ed="#Bc"/>Ad vuLtimum dicendum, quod unum
+<lb ed="#Bc"/>uni opponitur uno genere oppositionis,
+<lb ed="#Bc"/>ut dicit Aristoteles : sed fomes non est
+<lb ed="#Bc"/>simpliciter pcena, sed habet 
+inclinatio<lb ed="#Bc" break="no"/>nem ad culpam : et ex illa parte 
+opponi<lb ed="#Bc" break="no"/>tur ei gratia, et exstinguit eum.
+</p>
+            </div>
+            <div xml:id="Almn78-h71166-Dd1e1155">
+               <head xml:id="Almn78-h71166-Hd1e1157">Membrum 3</head>
+               <head xml:id="Almn78-h71166-Hd1e1160" type="question-title">
+          In quibus sanctis exstinctus sit fomes,
+          utrum in aliis quam in beata 
+          Virgine ?
+        </head>
+               <p xml:id="Almn78-h71166-d1e1163">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>In quibus sanctis exstinctus sit fomes,
+<lb ed="#Bc"/>utrum in aliis quam in beata 
+Vir<lb ed="#Bc" break="no"/>gine ?
+</p>
+               <p xml:id="Almn78-h71166-d1e1174">
+                  <lb ed="#Bc"/>Tertio queritur, In quibus sanctis 
+ex<lb ed="#Bc" break="no"/>stinctus sit fomes, utrum in aliis quamin
+<lb ed="#Bc"/>beata Virgine ?
+</p>
+               <p xml:id="Almn78-h71166-d1e1183">
+                  <lb ed="#Bc"/>Et videtur, quod etiam in 
+Aposto<lb ed="#Bc" break="no"/>lis.
+<lb ed="#Bc"/>1. Ad Roman. vu, 38 et 39 : Certus
+<lb ed="#Bc"/>sum, quia neque mors, neque vita,...
+<pb ed="#Bc" n="324"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>neque instantia, neque futura..., neque
+<lb ed="#Bc"/>alia creatura poterit nos separare a 
+cha<lb ed="#Bc" break="no"/>ritate Dei, que est in Christo Jesu Domino
+<lb ed="#Bc"/>nostro. Certus non esset nisi fomes non 
+es<lb ed="#Bc" break="no"/>set, qui incitat ad malum et separat a 
+cha<lb ed="#Bc" break="no"/>ritate. Ergo videtur, quod in Apostolis
+<lb ed="#Bc"/>exstinctus essetin totum fomes.
+</p>
+               <p xml:id="Almn78-h71166-d1e1215">
+                  <lb ed="#Bc"/>2. Adhuc, Luc. xxiv, 49 : Sedete in
+<lb ed="#Bc"/>civilate, quoadusque induamini virtute
+<lb ed="#Bc"/>ex alto. Sed simul non possunt esse in
+<lb ed="#Bc"/>eodem virtus Spiritus sancti et 
+foecundi<lb ed="#Bc" break="no"/>tas fomitis. Videtur ergo, quod ex quo
+<lb ed="#Bc"/>induti fuerunt virtute Spiritus sancti,
+<lb ed="#Bc"/>quod exstinctus fuit in eis fomes 
+quan<lb ed="#Bc" break="no"/>tum ad omnem feedilatem suam.
+</p>
+               <p xml:id="Almn78-h71166-d1e1235">
+                  <lb ed="#Bc"/>3. Adhuc, Joan. xvi, 47 : Sanctifica
+<lb ed="#Bc"/>eos, scilicet, quos dedisti mihi, in 
+veri<lb ed="#Bc" break="no"/>tate. Sermo tuus veritas est. Sed dicit
+<lb ed="#Bc"/>Dionysius in libro de Divinis nominibus,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h71166-Qd1e1248"> sanctitas est ab omni 
+inquina<lb ed="#Bc" break="no"/>mento libera et perfecta munditia‘. </quote> Et
+<lb ed="#Bc"/>haec non compatitur secum aliquam 
+im<lb ed="#Bc" break="no"/>munditiam vel fceditatem : aliter non
+<lb ed="#Bc"/>esset libera et perfecta. Ergo videtur cum
+<lb ed="#Bc"/>Apostoli sanctificali fuerunt hoc modo,
+<lb ed="#Bc"/>quod nihil remansit in eis de feeditate
+<lb ed="#Bc"/>fomitis, et sic in tolo exstinctus fuit.
+</p>
+               <p xml:id="Almn78-h71166-d1e1267">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Sicut habitum est in prehabitis,
+<lb ed="#Bc"/>I Joan. 1, 6 : Si dixerimus gquoniam
+<lb ed="#Bc"/>peccatum non habemus, etc. Quod 
+tra<lb ed="#Bc" break="no"/>ctans Augustinus in libro de Natura et
+<lb ed="#Bc"/>gratia, sic inquit: <quote xml:id="Almn78-h71166-Qd1e1282"> Si omnes sancti et
+<lb ed="#Bc"/>sancte convenirent et interrogarentur, si
+<lb ed="#Bc"/>peccatum non haberent ? quid dicerent,
+<lb ed="#Bc"/>nisi quod una voce clamarent : Si 
+dixe<lb ed="#Bc" break="no"/>rimus quoniam peccatum non habemus,
+<lb ed="#Bc"/>ipst nos seducimus, et veritas in nobis
+<lb ed="#Bc"/>non est. </quote> Sed inclinativum ad peccatum
+<lb ed="#Bc"/>est fomes. Ergo videtur, quod non fuit
+<lb ed="#Bc"/>exstinctus in eis fomes in toto.
+</p>
+               <p xml:id="Almn78-h71166-d1e1303">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod sicut ante
+<lb ed="#Bc"/>habitum est, inter omnes qui fomitem
+<lb ed="#Bc"/>habuerunt, in sola beata Virgine fomes
+<lb ed="#Bc"/>in totum exstinetus est, propter 
+privile<lb ed="#Bc" break="no"/>gium speciale : quia sicut dicit 
+Augustt<lb ed="#Bc" break="no"/>nus in libro de Correptione et gratia 
+<lb ed="#Bc" break="no"/>
+                  <quote xml:id="Almn78-h71166-Qd1e1322"> Medecinam prime corruptionis proferre
+<lb ed="#Bc"/>non potuit, nisi que corruptionis nullum
+<lb ed="#Bc"/>vulnus habuit : et sic curationem pie
+<lb ed="#Bc"/>prolis exhibuit. </quote> Et hoc  notatur,
+<lb ed="#Bc"/>Luc. 1, 28 : Ave, gratia plena. Plena
+<lb ed="#Bc"/>non esset si secundam aliquid in ea 
+gra<lb ed="#Bc" break="no"/>tia vacua fuisset. In his tamen notanda
+<lb ed="#Bc"/>est distinctio antiquorum que supra 
+in<lb ed="#Bc" break="no"/>ducta est, quod fomes tria habet in se,
+<lb ed="#Bc"/>scilicet instigationem ad mortale, et 
+in<lb ed="#Bc" break="no"/>stigationem ad veniale, et penam que est
+<lb ed="#Bc"/>foeditas carni adherens. Unde in 
+Aposto<lb ed="#Bc" break="no"/>lis exstinctus fuit fomes quantum ad
+<lb ed="#Bc"/>instigationem ad mortale, sed non 
+quan<lb ed="#Bc" break="no"/>tum ad instigationem ad veniale.
+</p>
+               <p xml:id="Almn78-h71166-d1e1356">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod fomes
+<lb ed="#Bc"/>exslinctus fuit in Apostolis quantum ad
+<lb ed="#Bc"/>instigationem ad mortale, sed non 
+quan<lb ed="#Bc" break="no"/>tum ad instigationem ad veniale. Et ideo
+<lb ed="#Bc"/>dicit : Quis nos separabit a charitate
+<lb ed="#Bc"/>Christi * ? quia veniale non separat a
+<lb ed="#Bc"/>charitate.
+</p>
+               <p xml:id="Almn78-h71166-d1e1374">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod simul 
+pos<lb ed="#Bc" break="no"/>sunt esse foeditas que instigat ad 
+ve<lb ed="#Bc" break="no"/>niale, et virtus que est ex alto, que
+<lb ed="#Bc"/>tamen cum mortali esse non 
+pot<lb ed="#Bc" break="no"/>est.
+</p>
+               <p xml:id="Almn78-h71166-d1e1388">
+                  <lb ed="#Bc"/>Ad uLtimum respondendum est eodem
+<lb ed="#Bc"/>modo : quia libera et. perfecla munditia
+<lb ed="#Bc"/>non compatitur secum mortale, quod
+<lb ed="#Bc"/>simpliciter est immunditia : sed secum
+<lb ed="#Bc"/>bene compatitur veniale quod non est
+<lb ed="#Bc"/>simpliciter immunditia, sed ad 
+immun<lb ed="#Bc" break="no"/>ditiam dispositio, ut dicunt Sancti.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

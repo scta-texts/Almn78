@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 130</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 130</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="430"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h95758"><!-- p2t21q130 -->
+            <head xml:id="Almn78-h95758-Hd1e106">Quaestio 130</head>
+            <head xml:id="Almn78-h95758-Hd1e109" type="question-title">
+    De personarum acceptione
+  </head>
+            <p xml:id="Almn78-h95758-d1e112">
+               <pb ed="#Bc" n="430"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUAESTIO CXXX.
+<lb ed="#Bc"/>De personarum acceptione.
+</p>
+            <p xml:id="Almn78-h95758-d1e123">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur de personarum 
+ac<lb ed="#Bc" break="no"/>ceptione, primo quid sit ?
+</p>
+            <p xml:id="Almn78-h95758-d1e132">
+               <lb ed="#Bc"/>Secundo, Quot modis fiat, et 
+quan<lb ed="#Bc" break="no"/>tum peccatum sit, utrum scilicet semper
+<lb ed="#Bc"/>sit peccatum mortale, vel aliquando 
+ve<lb ed="#Bc" break="no"/>niale ?
+</p>
+            <p xml:id="Almn78-h95758-d1e144">
+               <lb ed="#Bc"/>Et tertio, Quare specialiter dicatur
+<lb ed="#Bc"/>in sacra Scriptura, quod personarum 
+ac<lb ed="#Bc" break="no"/>ceptio non est apud Deum ?
+</p>
+            <div xml:id="Almn78-h95758-Dd1e153">
+               <head xml:id="Almn78-h95758-Hd1e155">Membrum 1</head>
+               <head xml:id="Almn78-h95758-Hd1e158" type="question-title">
+        Quid sit personarum acceptio
+      </head>
+               <p xml:id="Almn78-h95758-d1e161">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit personarum acceptio ?
+</p>
+               <p xml:id="Almn78-h95758-d1e170">
+                  <lb ed="#Bc"/>Primo ergo queritur, Quid sit 
+perso<lb ed="#Bc" break="no"/>narum acceptio ?
+</p>
+               <p xml:id="Almn78-h95758-d1e177">
+                  <lb ed="#Bc"/>Consuevit autem sic definiri a 
+Prepo<lb ed="#Bc" break="no"/>sitivo : <quote xml:id="Almn78-h95758-Qd1e183"> Personarum acceptio est unius
+<lb ed="#Bc"/>persone pra alia acceptio sive 
+prehono<lb ed="#Bc" break="no"/>ratio, non ex virlute et gratia, cui 
+debe<lb ed="#Bc" break="no"/>tur honor, sed ex prosperitate seculari
+<lb ed="#Bc"/>vel nobilitate, sicut sunt divitie, et 
+no<lb ed="#Bc" break="no"/>bilitas, et hujusmodi. </quote>
+               </p>
+               <p xml:id="Almn78-h95758-d1e198">
+                  <lb ed="#Bc"/>Et objicitur contra hanc definitionem :
+<lb ed="#Bc"/>quia dicit Aristoteles in | Ethicorum,
+<lb ed="#Bc"/>quod honor proprie est premium 
+virtu<lb ed="#Bc" break="no"/>tis : quia nulli debetur nisi honesto 
+se<lb ed="#Bc" break="no"/>cundum virtutem et excellenti. Sicut
+<lb ed="#Bc"/>etiam Apostolus, ad Roman. xii, 7, 
+di<lb ed="#Bc" break="no"/>cit : Reddite ergo omnibus debita: cut
+<lb ed="#Bc"/>tributum, tributum : cui vectigal, 
+vecti<lb ed="#Bc" break="no"/>gai: cui timorem, timorem: cut 
+hono<lb ed="#Bc" break="no"/>rem, honorem, Videtur ergo, quod ista
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>redditio sit secundum ordinem justitie.
+<lb ed="#Bc"/>Quia dicit Plato, et sumit hoc a 
+Pythago<lb ed="#Bc" break="no"/>ra, quod justitia est virtus reddens 
+unicui<lb ed="#Bc" break="no"/>que quod suum est, servata 
+uniuscujus<lb ed="#Bc" break="no"/>que propria dignitate. Et secundum hoc
+<lb ed="#Bc"/>videtur, quod si persona pauperis 
+preho<lb ed="#Bc" break="no"/>noratur diviti ex misericordia in judicio,
+<lb ed="#Bc"/>est personarum acceptio, et est 
+pecca<lb ed="#Bc" break="no"/>tum. Quod probatur, Levit. xix, 15: Non
+<lb ed="#Bc"/>consideres personam pauperis, nec 
+hono<lb ed="#Bc" break="no"/>res vultum potentis. Juste judica 
+proxi<lb ed="#Bc" break="no"/>mo tuo. Et, Exod. xxi, 6: Non 
+dechi<lb ed="#Bc" break="no"/>nabis in judicium pauperis. Et intendit
+<lb ed="#Bc"/>quod unicuique reddatur quod suum est
+<lb ed="#Bc"/>in judicio sine omni acceptione 
+perso<lb ed="#Bc" break="no"/>naraum.
+</p>
+               <p xml:id="Almn78-h95758-d1e259">
+                  <lb ed="#Bc"/>Sed Contra hoc videtur esse quod 
+di<lb ed="#Bc" break="no"/>citur, Eecli. iv, 10: In juditcando esto
+<lb ed="#Bc"/>pupillis misericors ut patet. Ht, Isa. 1,
+<lb ed="#Bc"/>17: Querite judicium, subvenite 
+op<lb ed="#Bc" break="no"/>presso, gudicate pupillo, defendite 
+vi<lb ed="#Bc" break="no"/>duam. Videtur ergo, quod tales 
+mise<lb ed="#Bc" break="no"/>rende persone preponende sint aliis :
+<lb ed="#Bc"/>et sic contingit aliquando personam 
+ac<lb ed="#Bc" break="no"/>cipere in judicio propter id quod in
+<lb ed="#Bc"/>persona est.
+</p>
+               <p xml:id="Almn78-h95758-d1e283">
+                  <lb ed="#Bc"/>Ulterius querit Prepositivus, Si in
+<lb ed="#Bc"/>ecclesiasticis beneficiis et dignitatibus
+<lb ed="#Bc"/>conferendis unus potest praferri alteri ?
+<lb ed="#Bc"/>Kt ponit talem casum. Sint duo, quorum
+<lb ed="#Bc"/>unus sit nobilis, potens, et dives, qui 
+pot<lb ed="#Bc" break="no"/>est defendere Kcclesiam : alter sit 
+litte<lb ed="#Bc" break="no"/>ratus, et virtuosus, qui scit verbo et
+<lb ed="#Bc"/>exemplo regere Ecclesiam. Et querit,
+<lb ed="#Bc"/>Si in hoc casu dives et potens possit 
+lit<lb ed="#Bc" break="no"/>terato et virtuoso preferri sine peccato ?
+</p>
+               <p xml:id="Almn78-h95758-d1e307">
+                  <pb ed="#Bc" n="431"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et dicit rationem, quod sic : quia 
+pre<lb ed="#Bc" break="no"/>latus ponitur ad defensionem Kcclesie,
+<lb ed="#Bc"/>ad quod exigitur potentia scularis et
+<lb ed="#Bc"/>nobilitas. Inducit etiam quamdam 
+De<lb ed="#Bc" break="no"/>cretalem, quod propter hoc potentibus
+<lb ed="#Bc"/>et nobilibus et litteratis conceditur 
+ha<lb ed="#Bc" break="no"/>bere plura beneficia, Et sic videtur, quod
+<lb ed="#Bc"/>in tali casu potens et nobilis sine 
+pec<lb ed="#Bc" break="no"/>cato potest preferri litterato et virtuoso
+<lb ed="#Bc"/>ignobili.
+</p>
+               <p xml:id="Almn78-h95758-d1e336">
+                  <lb ed="#Bc"/>Quop si concedatur, in contrarium est
+<lb ed="#Bc"/>Hlud Ecclesiaste, x, 7: Vidi servos in
+<lb ed="#Bc"/>equis, ef principes ambulantes super 
+ter<lb ed="#Bc" break="no"/>ram. Et illud Isaiw, xxxu, 5: Non 
+vo<lb ed="#Bc" break="no"/>cabitur ultra is quit insipiens est, 
+prin<lb ed="#Bc" break="no"/>ceps, neque fraudulentus appellabitur
+<lb ed="#Bc"/>major.
+</p>
+               <p xml:id="Almn78-h95758-d1e354">
+                  <lb ed="#Bc"/>Solutio. Dicendum primo, quod 
+defi<lb ed="#Bc" break="no"/>nitio bona est, nec emendari posset :
+<lb ed="#Bc"/>quia acceptio ibi est quando unus 
+pre<lb ed="#Bc" break="no"/>fertur alteri, propter quod non esset 
+pre<lb ed="#Bc" break="no"/>ferendus.
+</p>
+               <p xml:id="Almn78-h95758-d1e368">
+                  <lb ed="#Bc"/>Ad id quod objicitur in contrarinm, 
+di<lb ed="#Bc" break="no"/>cendum quod honor cui debetur 
+pre<lb ed="#Bc" break="no"/>mium virtutis, est exhibitio reverentic
+<lb ed="#Bc"/>in honorem virtutis et non gradus 
+digni<lb ed="#Bc" break="no"/>tatis. Unde acceptio personarum non est
+<lb ed="#Bc"/>circa hoc : sed talem reverentiam 
+acci<lb ed="#Bc" break="no"/>pit, quicumque ex virlute dignitatem
+<lb ed="#Bc"/>habet. Et honor talis a Sanctis dicitur
+<lb ed="#Bc"/>dulia. Ad Roman. xu, 10 et 11: Honore
+<lb ed="#Bc"/>imvicem prevenientes : sollicitudine non
+<lb ed="#Bc"/>pigri: spiritu. ferventes : Domino 
+ser<lb ed="#Bc" break="no"/>vientes.
+</p>
+               <p xml:id="Almn78-h95758-d1e397">
+                  <lb ed="#Bc"/>Ad id quod objicitur de Ecclesiastico,
+<lb ed="#Bc"/>dicendum quod in nullo est isti 
+contra<lb ed="#Bc" break="no"/>rium : quia humiles et pupilli 
+oppri<lb ed="#Bc" break="no"/>muntur in judicio : et precipit Dominus
+<lb ed="#Bc"/>ut subveniatur illis : tamen ordine 
+justi<lb ed="#Bc" break="no"/>tie guo redditur unicuique quod suum
+<lb ed="#Bc"/>est, nec pauper diviti, nec dives pauperi
+<lb ed="#Bc"/>preponitur.
+</p>
+               <p xml:id="Almn78-h95758-d1e417">
+                  <lb ed="#Bc"/>Et sic etiam intelligitur auctoritas
+<lb ed="#Bc"/>Isaiae.
+</p>
+               <p xml:id="Almn78-h95758-d1e424">
+                  <lb ed="#Bc"/>Ad sECUNDO qusitum dicendum,
+<lb ed="#Bc"/>quod alia sunt spiritualia, alia secularia
+<lb ed="#Bc"/>patrimonialia. Sicut etiam duo sunt or
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>dines charitatis. Unus secundum 
+natu<lb ed="#Bc" break="no"/>ram hominis habentis charitatem, qui
+<lb ed="#Bc"/>est ordo naturalis, in quo pater 
+prapo<lb ed="#Bc" break="no"/>nitur cognatis, et quilibet propinguus
+<lb ed="#Bc"/>remotiori. Alius est ordo ipsius 
+charita<lb ed="#Bc" break="no"/>tis, in quo magis bonus preponitur 
+mi<lb ed="#Bc" break="no"/>nus bono. Primum perverterunt 
+Phari<lb ed="#Bc" break="no"/>sei, Matth. xv, 3 et seq. : Quare et vos
+<lb ed="#Bc"/>transgredimint mandatum Dei propter
+<lb ed="#Bc"/>traditionem vestram ? Nam Deus dixit :
+<lb ed="#Bc"/>Honora patrem et matrem : et : Qui 
+ma<lb ed="#Bc" break="no"/>ledixerit patri vel matri, morte moria~
+<lb ed="#Bc"/>tur. Vos autem dicitis : Quicumque 
+di<lb ed="#Bc" break="no"/>xerit patrivel matri : Munus 
+quodcum<lb ed="#Bc" break="no"/>que ex me est, tibi proderit.
+</p>
+               <p xml:id="Almn78-h95758-d1e468">
+                  <lb ed="#Bc"/>De secundo ordine dicitur, Eccli. xu,
+<lb ed="#Bc"/>3: Da bono, ef non receperis 
+peccato<lb ed="#Bc" break="no"/>rem. Et illo ordine melius preferendum
+<lb ed="#Bc"/>est minus bono in spiritualibus bonis. In
+<lb ed="#Bc"/>patrimonialibus autem bonis 
+preponen<lb ed="#Bc" break="no"/>dus est magis conjunctus sanguine minus
+<lb ed="#Bc"/>conjuncto : et hoc non est personarum
+<lb ed="#Bc"/>acceptio, sed justitie ordo.
+</p>
+               <p xml:id="Almn78-h95758-d1e488">
+                  <lb ed="#Bc"/>De casu quem ponit Prepositivus, 
+di<lb ed="#Bc" break="no"/>cendum pro certo, quod licet Ecclesia
+<lb ed="#Bc"/>melius defendatur per nobilem et 
+poten<lb ed="#Bc" break="no"/>tem in exterioribus, tamen quia Prelatus
+<lb ed="#Bc"/>non tenetur ad talem defensionem que
+<lb ed="#Bc"/>fit gladio materiali, sed spirituali, 
+scili<lb ed="#Bc" break="no"/>cet verbo et exemplo, in promotione ad
+<lb ed="#Bc"/>gradum dignitatis spiritualis nequaquam
+<lb ed="#Bc"/>potens et nobilis preponendus est 
+pau<lb ed="#Bc" break="no"/>peri virtuoso et litterato. Et si secus fiat,
+<lb ed="#Bc"/>grave peccatum est acceptio talis 
+perso<lb ed="#Bc" break="no"/>narum. Nec est contrarium illud 
+Eccle<lb ed="#Bc" break="no"/>siaste, x, 7, quia servi dicuntur ibi 
+ser<lb ed="#Bc" break="no"/>viles ex defectu virtutis qui sunt in
+<lb ed="#Bc"/>equis, id est, in gradibus dignitatis 
+se<lb ed="#Bc" break="no"/>cundum mordinationem hujus seculi : et
+<lb ed="#Bc"/>principes ibi dicuntur gloriosi in virtute,
+<lb ed="#Bc"/>qui secundum eamdem inordinationem
+<lb ed="#Bc"/>detruduntur. Ibidem, v¥. 5 et 6: Est
+<lb ed="#Bc"/>malum quod vidi sub sole,... positum
+<lb ed="#Bc"/>stultum in dignitate sublimi.
+</p>
+            </div>
+            <div xml:id="Almn78-h95758-Dd1e537">
+               <head xml:id="Almn78-h95758-Hd1e539">Membrum 2</head>
+               <head xml:id="Almn78-h95758-Hd1e542" type="question-title">
+          Quot modis fiat personarum acceptio ?
+          et, Utrum quolibet modorum sit 
+          semper peccatum mortale, vel aliquando
+          veniale 
+        </head>
+               <p xml:id="Almn78-h95758-d1e545">
+                  <pb ed="#Bc" n="432"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quot modis fiat personarum acceptio ?
+<lb ed="#Bc"/>et, Utrum quolibet modorum sit 
+sem<lb ed="#Bc" break="no"/>per peccatum mortale, vel aliquando
+<lb ed="#Bc"/>veniale ?
+</p>
+               <p xml:id="Almn78-h95758-d1e563">
+                  <lb ed="#Bc"/>Sxcunno queritur, Quot modis fit 
+per<lb ed="#Bc" break="no"/>sonarum acceptio?
+</p>
+               <p xml:id="Almn78-h95758-d1e570">
+                  <lb ed="#Bc"/>Item, Utrum quolibet illorum 
+modo<lb ed="#Bc" break="no"/>rum sit semper peccatum mortale, vel
+<lb ed="#Bc"/>aliquando veniale ?
+</p>
+               <p xml:id="Almn78-h95758-d1e580">
+                  <lb ed="#Bc"/>Tres autem modi sunt.
+<lb ed="#Bc"/>Primus scilicet in judicio. Isa. v, 23:
+<lb ed="#Bc"/>Ve qui justificatis impium pro 
+muneri<lb ed="#Bc" break="no"/>bus, et fustitiam justi aufertis ab eo.
+</p>
+               <p xml:id="Almn78-h95758-d1e591">
+                  <lb ed="#Bc"/>Adhuc, Deuter. xvi, 19: Non accipies
+<lb ed="#Bc"/>personam, nec munera, scilicet ut a 
+veri<lb ed="#Bc" break="no"/>tate devies: guia munera excecant 
+ocu<lb ed="#Bc" break="no"/>los sapientum, et mutant verba 
+justo<lb ed="#Bc" break="no"/>rum.
+</p>
+               <p xml:id="Almn78-h95758-d1e604">
+                  <lb ed="#Bc"/>Secundus modus est, quando aliquis
+<lb ed="#Bc"/>propter divitias et nobilitatem 
+promo<lb ed="#Bc" break="no"/>vetur ad dignitates ecclesiasticas 
+con<lb ed="#Bc" break="no"/>tempto paupere litteratiore et sanctiore.
+</p>
+               <p xml:id="Almn78-h95758-d1e615">
+                  <lb ed="#Bc"/>His duobus modis acceptio 
+persona<lb ed="#Bc" break="no"/>rum mortale peccatum est, ut vult
+<lb ed="#Bc"/>Augustinus : quia est in prajudicium
+<lb ed="#Bc"/>alterius.
+</p>
+               <p xml:id="Almn78-h95758-d1e626">
+                  <lb ed="#Bc"/>De judicio dicitur, Deuter. 1, 147: Ita
+<lb ed="#Bc"/>parvum audietis ut magnum,... quia Det
+<lb ed="#Bc"/>judicium est. Et contra hoc preceptum
+<lb ed="#Bc"/>facere, peccatum est mortale. Sapient.
+<lb ed="#Bc"/>vi, 2et seq.: Audile ergo, reges, et 
+in<lb ed="#Bc" break="no"/>telligite : diseite, udices finium terre.
+<lb ed="#Bc"/>Prebete aures, vos qui continetis 
+multi<lb ed="#Bc" break="no"/>tudines, et placetis vobis in turbis 
+na<lb ed="#Bc" break="no"/>tionum. Quoniam data est a Domino
+<lb ed="#Bc"/>potestas vobis, et virtus ab Altissimo,
+<lb ed="#Bc"/>qui interrogabit opera vestra, et 
+cogita<lb ed="#Bc" break="no"/>tiones scrutabitur : quoniam cum essetis
+<lb ed="#Bc"/>ministri regni illius, non recte 
+judica<lb ed="#Bc" break="no"/>stis, nec custodistis legem justitiz, neque
+<lb ed="#Bc"/>secundum voluntatem Dei ambulastis.
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Glossa: <quote xml:id="Almn78-h95758-Qd1e665"> Apud quem non est acceptio
+<lb ed="#Bc"/>munerum, nec persone. </quote> Horrende et
+<lb ed="#Bc"/>cito apparebit vobis, quoniam judicium
+<lb ed="#Bc"/>durissimum his qui presunt fiet. 
+Exi<lb ed="#Bc" break="no"/>guo enim conceditur misericordia ; 
+po<lb ed="#Bc" break="no"/>tentes autem potenter tormenta 
+patien<lb ed="#Bc" break="no"/>tur. Et quod in ministris sit judicium
+<lb ed="#Bc"/>propter personarum acceptionem, statim
+<lb ed="#Bc"/>subdit : Non enim subtrahet personam
+<lb ed="#Bc"/>cugusquam Deus, qui est omnium 
+do<lb ed="#Bc" break="no"/>minator : nec verebitur magnitudinem
+<lb ed="#Bc"/>cujusquam, quoniam pusillum ef 
+ma<lb ed="#Bc" break="no"/>gnum ipse fecit, et egualiter cura est
+<lb ed="#Bc"/>illi de omnibus. Fortioribus autem 
+for<lb ed="#Bc" break="no"/>tior instat cruciatio.
+</p>
+               <p xml:id="Almn78-h95758-d1e699">
+                  <lb ed="#Bc"/>Tertius modus est in exhibitione 
+ho<lb ed="#Bc" break="no"/>noris exterioris, de quo et etiam de modo
+<lb ed="#Bc"/>secundo dicitur, Jacobi, 1, 4 et seq.:
+<lb ed="#Bc"/>Fratres met, nolite in personarum 
+acce<lb ed="#Bc" break="no"/>ptione habere fidem Domini nostri Jesu
+<lb ed="#Bc"/>Christi gloriz. Etenim si introierit in
+<lb ed="#Bc"/>conventum vestrum vir annulum aureum
+<lb ed="#Bc"/>habens, in veste candida, introierit 
+au<lb ed="#Bc" break="no"/>tem et pauper in sordido habitu, et 
+in<lb ed="#Bc" break="no"/>tendatis in eum qui indutus est veste
+<lb ed="#Bc"/>preclara, et dixeritis ei : Tu sede hic
+<lb ed="#Bc"/>bene : pauperi autem dicatis: Tu sta
+<lb ed="#Bc"/>illic, aut sede sub scabello pedum 
+meo<lb ed="#Bc" break="no"/>rum: nonne judicatis apud vosmetipsos,
+<lb ed="#Bc"/>et facti estis judices cogitationum 
+ini<lb ed="#Bc" break="no"/>quarum ? Ibi Augustinus in Glossa 
+mar<lb ed="#Bc" break="no"/>ginali: <quote xml:id="Almn78-h95758-Qd1e738"> Si hanc distantiam sedendi vel
+<lb ed="#Bc"/>standi ad ordines ecclesiasticos 
+refera<lb ed="#Bc" break="no"/>mus, non est putandum esse leve 
+pecca<lb ed="#Bc" break="no"/>tum in personarum acceptione habere
+<lb ed="#Bc"/>fidem Domini glorie. Quis enim ferat
+<lb ed="#Bc"/>eligi divitem ad sedem honoris Ecclesia,
+<lb ed="#Bc"/>contempto paupere instructiore et 
+san<lb ed="#Bc" break="no"/>ctiore? Si autem de quotidianis 
+conses<lb ed="#Bc" break="no"/>sibus loquimur, quis non -hic peccat?
+<lb ed="#Bc"/>Non tamen peccat, nisi cum apud 
+semet<lb ed="#Bc" break="no"/>ipsum intus ita judicat, ut ei tanto me-—
+<lb ed="#Bc"/>lior, quanto ditior ille videatur. </quote> Hoc
+<lb ed="#Bc"/>enim videtur significasse subdendo :
+<lb ed="#Bc"/>Nonne judicatis apud vosmetipsos, et
+<lb ed="#Bc"/>facti estis judices cogitationum 
+iniqua<lb ed="#Bc" break="no"/>rum ?
+</p>
+               <p xml:id="Almn78-h95758-d1e774">
+                  <lb ed="#Bc"/>Isto autem tertio modo, scilicet in 
+ex<lb ed="#Bc" break="no"/>hibitione honoris exterioris, non semper
+<pb ed="#Bc" n="433"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>peccat mortaliter: peccat tamen quando ,
+</p>
+               <p xml:id="Almn78-h95758-d1e787">
+                  <lb ed="#Bc"/>divitem pro divitiis judicat esse 
+hono<lb ed="#Bc" break="no"/>randum. Et propter hoc Augustinus dicit
+<lb ed="#Bc"/>in Regula: <quote xml:id="Almn78-h95758-Qd1e795"> Non debent velle omnes
+<lb ed="#Bc"/>quod paucos vident amplius, non quia
+<lb ed="#Bc"/>honorantur, sed quia tolerantur 
+acci<lb ed="#Bc" break="no"/>pere. </quote> Ubi nuit expresse, quod tales
+<lb ed="#Bc"/>exhibitiones necesse est fieri divilibus:
+<lb ed="#Bc"/>quia aliter tolerari non possunt. Tamen,
+<lb ed="#Bc"/>Esther, ur, 3, Mardochwus Judeus 
+lau<lb ed="#Bc" break="no"/>datur, quia Aman divitem iniquum 
+ado<lb ed="#Bc" break="no"/>rare noluit, ne honorem Vei sui 
+trans<lb ed="#Bc" break="no"/>ferret ad hominem. Sed super hoc
+<lb ed="#Bc"/>distinguunt antiqui Magistri, quod Aman
+<lb ed="#Bc"/>iniquus voluit adorari adoratione latrie,
+<lb ed="#Bc"/>que soli Deo debetur. Unde, ibidem,
+<lb ed="#Bc"/>xut, dL et seq., in oratione Mardochai :
+<lb ed="#Bc"/>Domine, cuncta nosti, et scis quia non
+<lb ed="#Bc"/>pro superbia, et contumelia, et aligua
+<lb ed="#Bc"/>glorie cupiditate, fecerim hoc, ut non
+<lb ed="#Bc"/>adorarem Aman superbissimum : 
+liben<lb ed="#Bc" break="no"/>ter enim pro salute Israel etiam vestigia
+<lb ed="#Bc"/>pedum ejus deosculari paratus essem :
+<lb ed="#Bc"/>sed timui ne honorem Dei mei 
+transfer<lb ed="#Bc" break="no"/>rem ad hominem, ef ne quemgquam 
+ado<lb ed="#Bc" break="no"/>rarem, excepto Deo meo. Dicit enim 
+Da<lb ed="#Bc" break="no"/>mascenus in libro Il de fide orthedoxra,
+<lb ed="#Bc"/>quod solus Deus adorandus est 
+prostra<lb ed="#Bc" break="no"/>tione corporis, ut significemus, quod de
+<lb ed="#Bc"/>nihilo in aliquid nos erexit, Dulia autem
+<lb ed="#Bc"/>est reverentia que debetur homini 
+ra<lb ed="#Bc" break="no"/>tione gradus dignitatis. Et hyperdulia
+<lb ed="#Bc"/>que debetur majoribus.
+</p>
+               <p xml:id="Almn78-h95758-d1e862">
+                  <lb ed="#Bc"/>His visis, patet quot modis fiat 
+perso<lb ed="#Bc" break="no"/>narum acceptio, et quantum peccatum
+<lb ed="#Bc"/>sit, quod similiter fuit querendum.
+</p>
+            </div>
+            <div xml:id="Almn78-h95758-Dd1e872">
+               <head xml:id="Almn78-h95758-Hd1e874">Membrum 3</head>
+               <head xml:id="Almn78-h95758-Hd1e877" type="question-title">
+        Quare specialiter dicatur in sacra 
+        Scriptura, quod personarum acceptio non
+        est apud Deum
+      </head>
+               <p xml:id="Almn78-h95758-d1e880">
+                  <lb ed="#Bc"/>MEMBRUM. III
+<lb ed="#Bc"/>Quare specialiter dicatur in sacra 
+Scri<lb ed="#Bc" break="no"/>ptura, quod personarum acceptio non
+<lb ed="#Bc"/>est apud Deum ?
+</p>
+               <p xml:id="Almn78-h95758-d1e891">
+                  <lb ed="#Bc"/>Tertio queritur, Quare specialiter 
+di<lb ed="#Bc" break="no"/>eatur, quod personarum acceplio non est
+<lb ed="#Bc"/>apud Deum ?
+</p>
+               <p xml:id="Almn78-h95758-d1e900">
+                  <lb ed="#Bc"/>Dicitur enim, ad Roman. u, 11: Non
+<lb ed="#Bc"/>est acceptio personarum apud Deum: et
+<lb ed="#Bc"/>loquitur ibi de Judwo et Graco. 
+Simili<lb ed="#Bc" break="no"/>ter, ad Coloss. ut, 25: Non est 
+persona<lb ed="#Bc" break="no"/>rum acceplio apud Deum. Et loquitur
+<lb ed="#Bc"/>ibi de Domino et servo. I Petr. 1, 17:
+<lb ed="#Bc"/>Sine personarum acceptione judicat.
+<lb ed="#Bc"/>Act. x, 3% el 35, dixit Petrus: Zi veritate
+<lb ed="#Bc"/>compert, guia non est personarum 
+acce<lb ed="#Bc" break="no"/>plor Deus: sed in omni gente qui timet
+<lb ed="#Bc"/>eum, et operalur Justitiam, acceptus est
+<lb ed="#Bc"/>uli. Ad hoc facit auctoritas Sapientiz,
+<lb ed="#Bc"/>vi, 2 et seq., paulo ante inducta *.
+</p>
+               <p xml:id="Almn78-h95758-d1e932">
+                  <lb ed="#Bc"/>Tamen videtur contrarium :
+<lb ed="#Bc"/>Deuter. vit, 6 : Te elegit Dominus
+<lb ed="#Bc"/>Deus tuus, ut sis ei populus de cunctis
+<lb ed="#Bc"/>populis qui sunt super terram. Luc. v1,
+<lb ed="#Bc"/>13: Voeavit discipulos suos, et elegit
+<lb ed="#Bc"/>duodecim ex ipsis, quos et Apostoles 
+no<lb ed="#Bc" break="no"/>minavil.
+</p>
+               <p xml:id="Almn78-h95758-d1e950">
+                  <lb ed="#Bc"/>Solutio. Ad hoc dicendum, quod in
+<lb ed="#Bc"/>veritate personarum acceptio non est
+<lb ed="#Bc"/>apud Deum: quia in omni eo quem 
+ele<lb ed="#Bc" break="no"/>git, causam non habet n’si liberam 
+in<lb ed="#Bc" break="no"/>dulgentie et bonitatis sue largitatem :
+<lb ed="#Bc"/>et non respicit personam hominis, nec
+<lb ed="#Bc"/>merita, nec munera, Ad Titum, i, 4 et
+<lb ed="#Bc"/>3: Cum apparuit benignitas et 
+huma<lb ed="#Bc" break="no"/>nitas Salvatoris nostri Det, non ex 
+ope<lb ed="#Bc" break="no"/>ribus justitie que fecimus nos, sed
+<lb ed="#Bc"/>secundum suam misericordiam salvos
+<lb ed="#Bc"/>nos fecit. Ideo dicitur etiam praventrix
+<pb ed="#Bc" n="434"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>gratia, quia prevenit nos libera sua 
+vo<lb ed="#Bc" break="no"/>luntate. Unde versus :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h95758-Qd1e989">Quidquid habes meriti preventrix gratia donat.
+<lb ed="#Bc"/>Nil Deus in nobis preter sua dona soronat.</quote>
+               </p>
+               <p xml:id="Almn78-h95758-d1e995">
+                  <lb ed="#Bc"/>Auctoritates vero in contrarium 
+addu<lb ed="#Bc" break="no"/>ctz, non intelliguntur de personarum
+<lb ed="#Bc"/>acceptione: quia propter propria peccata
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>abjicit quos abjicit, et propter propriam
+<lb ed="#Bc"/>bonitatem eligit quos eligit, ut dictum
+<lb ed="#Bc"/>est.
+</p>
+               <p xml:id="Almn78-h95758-d1e1013">
+                  <lb ed="#Bc"/>Sed quia satis dictum est de 
+diversi<lb ed="#Bc" break="no"/>tate actuum peccatorum, in quibus coa-"
+<lb ed="#Bc"/>lescit malum, transeundum est ad 
+di<lb ed="#Bc" break="no"/>stinctionem XXXVI libri Hl 
+Senfentia<lb ed="#Bc" break="no"/>rum,
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

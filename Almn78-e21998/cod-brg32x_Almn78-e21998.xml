@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 52</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 52</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="548"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e21998"><!-- p2t11q52 -->
+            <head xml:id="Almn78-e21998-Hd1e106">Quaestio 52</head>
+            <head xml:id="Almn78-e21998-Hd1e109" type="question-title">
+      De opere secundae diei.
+    </head>
+            <p xml:id="Almn78-e21998-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LII
+      <lb ed="#Bb"/>De opere secundae diei.
+    </p>
+            <p xml:id="Almn78-e21998-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde transeundum ad ea est que
+      <lb ed="#Bb"/>tractantur in libro II Sententiarum, 
+      di<lb ed="#Bb" break="no"/>stinctione XIV, ubi tractatur opus 
+      se<lb ed="#Bb" break="no"/>cunde diei per hoc quod dicit: Dixit
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>quoque Deus: Fiat firmamentum in 
+      me<lb ed="#Bb" break="no"/>dio aquarum, et dividat aquas ab aquis!.
+      <lb ed="#Bb"/>Hoc enim est opus distinctionis : eo quod
+      <lb ed="#Bb"/>ibi distingnuntur aque inferiores que
+      <pb ed="#Bb" n="549"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>sub coelo sunt, ab aquis superioribus
+      <lb ed="#Bb"/>que super coelos sunt, sicut dicit 
+      ibi<lb ed="#Bb" break="no"/>dem, Fiat firmamentum in medio 
+      aqua<lb ed="#Bb" break="no"/>rum, et dividat aquas ab aquis. Kt 
+      ibi<lb ed="#Bb" break="no"/>dem, Ft fecit Deus firmamentum,
+      <lb ed="#Bb"/>divisitque aquas que erant sub 
+      firma<lb ed="#Bb" break="no"/>mento, ab his que erant super 
+      firma<lb ed="#Bb" break="no"/>mentum ',
+    </p>
+            <p xml:id="Almn78-e21998-d1e167">
+               <lb ed="#Bb"/>Ubi tria querenda sunt, scilicet de
+      <lb ed="#Bb"/>ccelo aqueo sive crystallino, quid habeat
+      <lb ed="#Bb"/>pro materia, quid pro forma?
+      <lb ed="#Bb"/>Secundo, Utrum sit mobile vel 
+      immo<lb ed="#Bb" break="no"/>bile ?
+      <lb ed="#Bb"/>Tertio, Qua necessitate ponatur esse ?
+    </p>
+            <div xml:id="Almn78-e21998-Dd1e184">
+               <head xml:id="Almn78-e21998-Hd1e186">Membrum 1</head>
+               <head xml:id="Almn78-e21998-Hd1e189" type="question-title">
+        De celo aqueo sive crystallino, quid ha
+        beat pro materia, quid pro forma, et de
+        eo quod aque leguntur supra 
+        firmamentum
+      </head>
+               <p xml:id="Almn78-e21998-d1e192">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>De celo aqueo sive crystallino, quid ha
+        <lb ed="#Bb"/>beat pro materia, quid pro forma, et de
+        <lb ed="#Bb"/>eo quod aque leguntur supra 
+        firma<lb ed="#Bb" break="no"/>mentum ?
+      </p>
+               <p xml:id="Almn78-e21998-d1e205">
+                  <lb ed="#Bb"/>Av PRiMUM proceditur sic:
+        <lb ed="#Bb"/>1, Augustinus in libro II sper 
+        Gene<lb ed="#Bb" break="no"/>sim ad litteram : <quote xml:id="Almn78-e21998-Qd1e213"> Hoc exigit aquarum
+          <lb ed="#Bb"/>pondus, ut super terram fluant, vel in
+          <lb ed="#Bb"/>aere vaporabiliter ferantur, et non supra
+          <lb ed="#Bb"/>firmamentum sint. </quote> Cum ergo etiamsi
+        <lb ed="#Bb"/>celum aqueum est circulariter undique
+        <lb ed="#Bb"/>supra firmamentum expansum, non sit
+        <lb ed="#Bb"/>nisi de natura aque: et talis aqua non
+        <lb ed="#Bb"/>possit esse supra firmamentum, ut dicit
+        <lb ed="#Bb"/>Augustinus, videtur quod neque ccelum
+        <lb ed="#Bb"/>aqueum sit in rerum natura, nec aque
+        <lb ed="#Bb"/>sint supra firmamentum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e238">
+                  <lb ed="#Bb"/>2. Siforte aliquis dicat, quod aque
+        <lb ed="#Bb"/>sint ibi non naturaliter, sed miraculose.
+        <lb ed="#Bb"/>Contra hoc dicit. Augustinus, ibidem ;
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e21998-Qd1e248">Nec quisquam dicat hoc omnipotentia
+          <lb ed="#Bb"/>Dei fieri. Qualiter enim Deus naturas fe
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>cerit queritur, non quid de eis per 
+          mira<lb ed="#Bb" break="no"/>culum potentie sue operetur. </quote> Ergo
+        <lb ed="#Bb"/>non est dicendum, quod sint ibi contra
+        <lb ed="#Bb"/>naturam suam per miraculum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e266">
+                  <lb ed="#Bb"/>3. Adhuc, Hoc non esset opus 
+        distin<lb ed="#Bb" break="no"/>ctionis : habitum enim est, quod opus
+        <lb ed="#Bb"/>distinctionis est determinatio 
+        unius<lb ed="#Bb" break="no"/>cujusque elementi superioris vel medii
+        <lb ed="#Bb"/>vel inferioris ad suam propriam et 
+        natu<lb ed="#Bb" break="no"/>ralem formam et locum: quod non fit
+        <lb ed="#Bb"/>in opere- miraculi, sed per distinctionem
+        <lb ed="#Bb"/>naturalem.
+      </p>
+               <p xml:id="Almn78-e21998-d1e286">
+                  <lb ed="#Bb"/>4, Adhuc, Si forte aliquis negaret ibi
+        <lb ed="#Bb"/>aquas esse propter dictas rationes, 
+        oc<lb ed="#Bb" break="no"/>currit Augustinus ibidem dicens, quod
+        <lb ed="#Bb"/>hoc non licet: quia major est Scripture
+        <lb ed="#Bb"/>hujus auctoritas, quam omnis humani
+        <lb ed="#Bb"/>ingenii perspicacitas. Et ideo simpliciter
+        <lb ed="#Bb"/>confitendum est aquas esse ibi.
+      </p>
+               <p xml:id="Almn78-e21998-d1e304">
+                  <lb ed="#Bb"/>5. Adhuc, Objiciunt quidam, dicentes
+        <lb ed="#Bb"/>non esse ceelum aqueum etiam secun~
+        <lb ed="#Bb"/>dum dicta Sanctorum : eo quod Rabanus
+        <lb ed="#Bb"/>in Glossa super Deuteronomium, x, 44,
+        <lb ed="#Bb"/>ubi ponit numerum celorum, nec ponit
+        <lb ed="#Bb"/>ceelum aqueum, nec ponit ceelum 
+        ter<lb ed="#Bb" break="no"/>reum, sed ponit celum igneum, aereum,
+        <lb ed="#Bb"/>olympium, et stellarum. Cum ergo ipse
+        <lb ed="#Bb"/>sufficienter ponit numerum ccelorum, et
+        <lb ed="#Bb"/>non ponit aqueum, videtur nullum esse
+        <lb ed="#Bb"/>aqueum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e330">
+                  <lb ed="#Bb"/>6. Si forte dicatur, ut dicit Basilius in
+        <lb ed="#Bb"/>Hexameron, quod aquas Deus disposuit
+        <lb ed="#Bb"/>supra firmamentum, propter solis et
+        <lb ed="#Bb"/>etheris calidissimum fervorem, ut 
+        scili<lb ed="#Bb" break="no"/>cet fiat contemperatio calidi, humidi,
+        <lb ed="#Bb"/>frigidi, et sicci. Cum aque sunt ibi 
+        se<lb ed="#Bb" break="no"/>cundum potentiam refrigerandi, et sic
+        <lb ed="#Bb"/>sunt graves autem: ut graves autem 
+        de<lb ed="#Bb" break="no"/>scendunt, ut dicit Augustinus in 
+        preindu<lb ed="#Bb" break="no"/>cta auctoritate, eo quod in dispositione
+        <lb ed="#Bb"/>divina gravi elemento, terre scilicet,
+        <lb ed="#Bb"/>aque determinatur locus inferior, ubi 
+        di<lb ed="#Bb" break="no"/>citur: Congregentur aque, que sub celo
+        <lb ed="#Bb"/>sunt, in locum unum, et appareat arida.
+        <pb ed="#Bb" n="550"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Contra dispositionem ergo naturalem et
+        <lb ed="#Bb"/>divinam est, quod sint supra ccelum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e372">
+                  <lb ed="#Bb"/>7. Adhuc, Non potest esse verum
+        <lb ed="#Bb"/>quod dicit Beda, quod scilicet 
+        minutissi<lb ed="#Bb" break="no"/>mis guttis suspense sint supra 
+        firma<lb ed="#Bb" break="no"/>mentum, et valde minutioribus quam
+        <lb ed="#Bb"/>suspendantur in aere, et quod inde 
+        de<lb ed="#Bb" break="no"/>scendant pluvie etrores ad terram. Hoc
+        <lb ed="#Bb"/>videtur esse fabulosum : quia tante 
+        soli<lb ed="#Bb" break="no"/>ditatis est firmamentum, quod per ipsum
+        <lb ed="#Bb"/>manare et stillare aqua non potest. Job,
+        <lb ed="#Bb"/>xxxvul, 18: Tu forsitancum eo fabricatus
+        <lb ed="#Bb"/>es celos, qui solidissimi quasi ere fusi
+        <lb ed="#Bb"/>sunt.
+      </p>
+               <p xml:id="Almn78-e21998-d1e401">
+                  <lb ed="#Bb"/>8. Adhuc, Secundum dispositionem 
+        di<lb ed="#Bb" break="no"/>vinam locus conversionis vaporum in
+        <lb ed="#Bb"/>aquam non est supra firmamentum, sed
+        <lb ed="#Bb"/>potius medium interstitium aeris : qui 
+        lo<lb ed="#Bb" break="no"/>cus frigidus est, eo quod remotus est a
+        <lb ed="#Bb"/>vicinitate ignis in superioribus, et 
+        remo<lb ed="#Bb" break="no"/>tus a medio, ubi calor est ex 
+        reverbera<lb ed="#Bb" break="no"/>tione radiorum, ut in IV Afetecrorum
+        <lb ed="#Bb"/>probat Aristoteles: nihil ergo videtur
+        <lb ed="#Bb"/>esse quod dicit Beda.
+      </p>
+               <p xml:id="Almn78-e21998-d1e426">
+                  <lb ed="#Bb"/>9. Ad‘iuc, Beda videtur sibi contraria
+        <lb ed="#Bb"/>dicere : super illud enim Genesis, 1, 6:
+        <lb ed="#Bb"/>Fiat firmamentum, in Glossa marginali
+        <lb ed="#Bb"/>sic dicit Beda : <quote xml:id="Almn78-e21998-Qd1e436"> Ceeli in quo fixa sunt
+          <lb ed="#Bb"/>sidera, creatio describitur : quod constat
+          <lb ed="#Bb"/>esse in medio aquarum : nam supposite
+          <lb ed="#Bb"/>sunt ei aque in aere, et aliz superposite,
+          <lb ed="#Bb"/>de quibus dicitur in Psalmo cm, 2: Qui
+          <lb ed="#Bb"/>tegis aquis superiora ejus. In medio ergo
+          <lb ed="#Bb"/>firmamentum est, id est, sidereum 
+          coe<lb ed="#Bb" break="no"/>lum, quod de aquis factum esse credi
+          <lb ed="#Bb"/>potest.</quote>
+               </p>
+               <p xml:id="Almn78-e21998-d1e457">
+                  <lb ed="#Bb"/>10. Si quem vero movet, quomodo
+        <lb ed="#Bb"/>aque nature fluide et in ima labiles,
+        <lb ed="#Bb"/>supra celum possint consistere, cujus
+        <lb ed="#Bb"/>figura est rotunda, cum humidum non
+        <lb ed="#Bb"/>stet super rotundum, sed super planum
+        <lb ed="#Bb"/>vel convexum : de Deo scriptum esse
+        <lb ed="#Bb"/>meminerit, Job, xxvi, 8: Qui ligat
+        <lb ed="#Bb"/>aguas in nubibus suis. Qui enim infra
+        <lb ed="#Bb"/>ceeelos ligat aquas ad tempus vaporibus
+        <lb ed="#Bb"/>nubium retentas, potest etiam super
+        <lb ed="#Bb"/>celi spheram non vaporali tenuitate,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>sed glaciali solidilate aquas suspendere,
+        <lb ed="#Bb"/>ne labantur. In hoc ergo contrarius 
+        vi<lb ed="#Bb" break="no"/>detur sibi, quod primo dicit, quod 
+        vapo<lb ed="#Bb" break="no"/>rabiliter sintibi: et postea glaciali 
+        soli<lb ed="#Bb" break="no"/>ditate. Nihil ergo certum est de his que
+        <lb ed="#Bb"/>tradit Beda.
+      </p>
+               <p xml:id="Almn78-e21998-d1e499">
+                  <lb ed="#Bb"/>11. Adhue, Hoc quod dicit, contra
+        <lb ed="#Bb"/>Auguslinum est, et contra distinctionem
+        <lb ed="#Bb"/>divinam. Dicit enim Augustinus in
+        <lb ed="#Bb"/>preinducta auctoritate, quod <quote xml:id="Almn78-e21998-Qd1e509"> non est
+          <lb ed="#Bb"/>querendum qualiter Deus creaturis suis
+          <lb ed="#Bb"/>ad miraculum potentie sue utatur, sed
+          <lb ed="#Bb"/>qualiter unamquamque secundum 
+          incli<lb ed="#Bb" break="no"/>nationem propriz nature ad locum 
+          pro<lb ed="#Bb" break="no"/>prium distinxerit, </quote> Et dat exemplum,
+        <lb ed="#Bb"/>quod licet Deus posset facere, quod oleum
+        <lb ed="#Bb"/>sit sub aqua: sed tamen quando 
+        queri<lb ed="#Bb" break="no"/>tur natura olei secundum quam distincta
+        <lb ed="#Bb"/>est ab aliis naturis, queritur natura 
+        hu<lb ed="#Bb" break="no"/>midi pinguis quod natat super aquam,
+        <lb ed="#Bb"/>quia ad hane naturam determinavit
+        <lb ed="#Bb"/>oleum Deus, quando distinxit ab aliis
+        <lb ed="#Bb"/>naturis creatis.
+      </p>
+               <p xml:id="Almn78-e21998-d1e541">
+                  <lb ed="#Bb"/>Si iterum aliquis dicat propter hoc,
+        <lb ed="#Bb"/>cum dicitur: Divisit aguas que erant sub
+        <lb ed="#Bb"/>firmamento, ab. his que erant super 
+        fir<lb ed="#Bb" break="no"/>mamenium *, quod non sumilur ibi agua
+        <lb ed="#Bb"/>pro elemento, sed sumitur ibi pro 
+        fluidi<lb ed="#Bb" break="no"/>tate materie prime: sicut sumitur ibi,
+        <lb ed="#Bb"/>Spiritus Dei ferebatur super aguas ?.
+        <lb ed="#Bb"/>Unde quod dicitur aqua esse supra 
+        fir<lb ed="#Bb" break="no"/>mamentum, hoc est idem dicere, quod
+        <lb ed="#Bb"/>pars materia fluida est supra, et pars
+        <lb ed="#Bb"/>subtus. Hoc nihil videtur esse dictum :
+        <lb ed="#Bb"/>hec enim materia confusa est, omnes
+        <lb ed="#Bb"/>qualitates in se habens et omnia 
+        ele<lb ed="#Bb" break="no"/>menta. Unde si propter hance matcriam
+        <lb ed="#Bb"/>dixit aquas esse supra firmamentum et
+        <lb ed="#Bb"/>sub firmamento: tunc non propter hance
+        <lb ed="#Bb"/>qualitatem habuit dicere aquas esse 
+        su<lb ed="#Bb" break="no"/>pra firmamentum, sed etiam alia 
+        ele<lb ed="#Bb" break="no"/>menta, sicut terram, et ignem, et aerem:
+        <lb ed="#Bb"/>illa enim materia confusa fuit ex calido,
+        <lb ed="#Bb"/>humido, frigido, sicco, opaco, et 
+        lumi<lb ed="#Bb" break="no"/>noso.
+      </p>
+               <p xml:id="Almn78-e21998-d1e591">
+                  <lb ed="#Bb"/>12. Adhuc, Hoc est directe contra 
+        Am<lb ed="#Bb" break="no"/>brosium in Hexameron, qui dicit :
+        <pb ed="#Bb" n="551"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-e21998-Qd1e604"> Deinde cum Philosophi dicant volvi
+          <lb ed="#Bb"/>orbem cceli stellis ardentibus fulgentem,
+          <lb ed="#Bb"/>et dicant ex motu esse calorem : nonne
+          <lb ed="#Bb"/>divina providentia necessario prospexit,
+          <lb ed="#Bb"/>ut intra orbem ceeli et supra orbem 
+          red<lb ed="#Bb" break="no"/>undaret aqua, que illa ferventis axis
+          <lb ed="#Bb"/>incendia temperaret. Propterea qui 
+          exun<lb ed="#Bb" break="no"/>dat ignis et fervet, et aqua exundavit in
+          <lb ed="#Bb"/>terris, ne eas surgentis solis et stellarum
+          <lb ed="#Bb"/>micantium ardor exureret et tenera 
+          re<lb ed="#Bb" break="no"/>rum exordia insolitus vapor lederet. </quote>
+                  <lb ed="#Bb"/>Videtur ergo, quod vera aqua sit ibi:
+        <lb ed="#Bb"/>aqua enim non est exstinctiva nisi per
+        <lb ed="#Bb"/>humidum frigidum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e635">
+                  <lb ed="#Bb"/>13. Adhuc, Quidam dixerunt, quod
+        <lb ed="#Bb"/>aqua haberet multas qualitates et 
+        proprie<lb ed="#Bb" break="no"/>tates. Dicunt enim, quod est continuativa
+        <lb ed="#Bb"/>et conglutinativa : et per has duas 
+        pro<lb ed="#Bb" break="no"/>prietates est in ccelo, quod continuum et
+        <lb ed="#Bb"/>glutinatum est et solidissimum, ut dicit
+        <lb ed="#Bb"/>Job, quasi ex ere fusum sit. Et hoc modo
+        <lb ed="#Bb"/>dicunt aquas esse in ccelo totum celum,
+        <lb ed="#Bb"/>et partes ceeli conglutinantes. Et si hoc
+        <lb ed="#Bb"/>est verum : tunc non debuit dicere, aquas
+        <lb ed="#Bb"/>esse supra ceelum, sed in ccelo 
+        diffu<lb ed="#Bb" break="no"/>sas.
+      </p>
+               <p xml:id="Almn78-e21998-d1e665">
+                  <lb ed="#Bb"/>14, Adhuc, Aqua non continuat nec
+        <lb ed="#Bb"/>conglutinat nisi per humidum, ut dicit
+        <lb ed="#Bb"/>Aristoteles. Humidum enim male 
+        termi<lb ed="#Bb" break="no"/>nabile est termino proprio, et semper
+        <lb ed="#Bb"/>fluit ad siccum ad quod terminatur, et
+        <lb ed="#Bb"/>unam partem sicci facit fluere in aliam,
+        <lb ed="#Bb"/>et sic continuari unam cum alia per 
+        mix<lb ed="#Bb" break="no"/>tionem. Sic enim omnia generabilia et
+        <lb ed="#Bb"/>corruptibilia continua fiunt, ut 
+        solidita<lb ed="#Bb" break="no"/>tem in talibus corporibus faciat siccum,
+        <lb ed="#Bb"/>continuationem autem humidum, sicut
+        <lb ed="#Bb"/>dicit Avicenna in capitulo quod ponitur
+        <lb ed="#Bb"/>in fine IV Medeororum : <quote xml:id="Almn78-e21998-Qd1e695"> Terra pura 
+          la<lb ed="#Bb" break="no"/>pis non fit, quia continuationem non 
+          fa<lb ed="#Bb" break="no"/>cit, sed comminutionem. </quote>
+               </p>
+               <p xml:id="Almn78-e21998-d1e703">
+                  <lb ed="#Bb"/>15. Contra hoc videtur, quod 
+        secun<lb ed="#Bb" break="no"/>dum hoc natura celi commixta est ex
+        <lb ed="#Bb"/>elementis : quod est contra 
+        philoso<lb ed="#Bb" break="no"/>phiam omnino, et contra determinata
+        <lb ed="#Bb"/>in libro de Substantia orbis. Sic enim
+        <lb ed="#Bb"/>cceelum esset corruptibile et generabile,
+        <lb ed="#Bb"/>sicut et alia mixta ex contrariis, et 
+        reci<lb ed="#Bb" break="no"/>peret impressiones peregrinas sicut alia
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>alterabilia : qua’ omnia impossibilia esse
+        <lb ed="#Bb"/>in philosophia reprobata sunt.
+      </p>
+               <p xml:id="Almn78-e21998-d1e729">
+                  <lb ed="#Bb"/>Sonurto, Sicut in disputatione 
+        perpen<lb ed="#Bb" break="no"/>ditur, Sancti nihil certum concordiler
+        <lb ed="#Bb"/>tradunt de aquis que sunt supra 
+        firma<lb ed="#Bb" break="no"/>mentum, nisi hoc solum, quod propter
+        <lb ed="#Bb"/>Scripture auctoritatem certissime 
+        suppo<lb ed="#Bb" break="no"/>nendum sit, quod aque sint ibi. In qua
+        <lb ed="#Bb"/>autem qualitate, vel proprietate, vel 
+        na<lb ed="#Bb" break="no"/>tura, nullus eorum certe tradit.
+      </p>
+               <p xml:id="Almn78-e21998-d1e749">
+                  <lb ed="#Bb"/>Nobis tamen probabilius videtur id
+        <lb ed="#Bb"/>quod dicit Magister supra 
+        distinctio<lb ed="#Bb" break="no"/>nem XII libri Il Sententiarum, cap. Nunc
+        <lb ed="#Bb"/>superest, ubi dicit sic: <quote xml:id="Almn78-e21998-Qd1e759"> Tria elementa
+          <lb ed="#Bb"/>permixtione confusa, circumquaque 
+          sus<lb ed="#Bb" break="no"/>pensa eousque in altum porrigebantur,
+          <lb ed="#Bb"/>quousque nunc summitas corporee 
+          na<lb ed="#Bb" break="no"/>ture pertingit. Et sicut quibusdam 
+          vide<lb ed="#Bb" break="no"/>tur, ultra locum firmamenti 
+          extendeba<lb ed="#Bb" break="no"/>tur illa moles, que in inferiori parte
+          <lb ed="#Bb"/>spissior atque grossior erat : in superiori
+          <lb ed="#Bb"/>vero parte rarior ac levior atque subtilior
+          <lb ed="#Bb"/>existebat. De qua rariori substantia 
+          pu<lb ed="#Bb" break="no"/>tant quidam fuisse aquas, que supra 
+          fir<lb ed="#Bb" break="no"/>mamentum esse dicuntur. </quote> Hanc 
+        opinio<lb ed="#Bb" break="no"/>nem nos sequentes, aquas dicimus esse
+        <lb ed="#Bb"/>supra firmamentum certissime, propter
+        <lb ed="#Bb"/>celum crystallinum sive aqueum quod
+        <lb ed="#Bb"/>Sancti ibi esse dicunt. Et dicimus quod
+        <lb ed="#Bb"/>materia substantialis hujus ceeli est 
+        ra<lb ed="#Bb" break="no"/>rior et nobilior pars materia prime.
+        <lb ed="#Bb"/>Dispositio autem materialis ad formam
+        <lb ed="#Bb"/>ratione cujus disponitur esse supra 
+        firma<lb ed="#Bb" break="no"/>mentum tamquam ad locum proprium,
+        <lb ed="#Bb"/>est uniformis perspicuitas per totum, 
+        sic<lb ed="#Bb" break="no"/>ut aqua per totum perspicua est, et sicut
+        <lb ed="#Bb"/>erystallus. Forma autem per quam ad 
+        lo<lb ed="#Bb" break="no"/>cum supra firmamentum determinatur a
+        <lb ed="#Bb"/>disponente Deo, est uniformis 
+        luminosi<lb ed="#Bb" break="no"/>tas: per hance enim nobilius est 
+        firma<lb ed="#Bb" break="no"/>mento, et secundum ordinem nature 
+        su<lb ed="#Bb" break="no"/>per ipsum debet collocari. Et hoc est
+        <lb ed="#Bb"/>forte quod Joannes in Apocalypsi, xxu, 1,
+        <lb ed="#Bb"/>dispositionem ccelestium describens 
+        di<lb ed="#Bb" break="no"/>cit: Et ostendit mihi, Angelus scilicet,
+        <lb ed="#Bb"/>fluvium aque vite, splendidum 
+        tam<lb ed="#Bb" break="no"/>guam crystallum. Et hee opinio videtur
+        <lb ed="#Bb"/>fuisse Augustini, qui in libris contra Ma
+        <pb ed="#Bb" n="552"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>nicheum, de aquis que sunt supra 
+        cce<lb ed="#Bb" break="no"/>lum sic dicit : <quote xml:id="Almn78-e21998-Qd1e844"> Quoniam materiam
+          <lb ed="#Bb"/>illam dicebaumus nomine ague 
+          appella<lb ed="#Bb" break="no"/>tam, credo a firmamento celi materiam
+          <lb ed="#Bb"/>corporalem visibilium fuisse discretam.
+          <lb ed="#Bb"/>Cum enim celum sit corpus 
+          pulcherri<lb ed="#Bb" break="no"/>mum, omnis invisibilis creatura excedit
+          <lb ed="#Bb"/>etiam pulchritudinem cceli. Et ideo 
+          for<lb ed="#Bb" break="no"/>tasse super ccelum dicuntur esse aque
+          <lb ed="#Bb"/>invisibiles, que a paucis intelliguntur:
+          <lb ed="#Bb"/>super celum, in quam non locorum 
+          se<lb ed="#Bb" break="no"/>dibus, sed dignitate nature superare
+          <lb ed="#Bb"/>etiam celum. </quote> Hac igitur ratione puto
+        <lb ed="#Bb"/>aquas esse supra firmamentum ratione
+        <lb ed="#Bb"/>ceeli crystallini.
+      </p>
+               <p xml:id="Almn78-e21998-d1e875">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+        Au<lb ed="#Bb" break="no"/>gustinus ibi loquitur de aqua secundum
+        <lb ed="#Bb"/>proprietates ignobiles, que sunt 
+        frigidi<lb ed="#Bb" break="no"/>tas, et fluxibilitas: secundum has enim
+        <lb ed="#Bb"/>disponuntur ut supra terram fluant. Sed
+        <lb ed="#Bb"/>non negat, quin secundum proprietates
+        <lb ed="#Bb"/>nobiles, que sunt limpiditas, 
+        perspicui<lb ed="#Bb" break="no"/>tas, luminositas, disponantur ad hoc,
+        <lb ed="#Bb"/>quod sint supra firmamentum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e897">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod illa 
+        respon<lb ed="#Bb" break="no"/>sio nulla est, ut bene probatur in 
+        obji<lb ed="#Bb" break="no"/>ciendo.
+      </p>
+               <p xml:id="Almn78-e21998-d1e907">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+        proce<lb ed="#Bb" break="no"/>dit et improbat responsionem.
+      </p>
+               <p xml:id="Almn78-e21998-d1e914">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+        proce<lb ed="#Bb" break="no"/>dit, quia ita est credendum, sed illo modo
+        <lb ed="#Bb"/>quo dictum est.
+      </p>
+               <p xml:id="Almn78-e21998-d1e923">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Rabanus
+        <lb ed="#Bb"/>non considerat nisi quemdam numerum
+        <lb ed="#Bb"/>celorum secundum hane naturam 
+        com<lb ed="#Bb" break="no"/>Munem, que est esse dativum luminis,
+        <lb ed="#Bb"/>vel receptivum, vel utroque modo: et
+        <lb ed="#Bb"/>ideo non tangit omne celum. Et hoc
+        <lb ed="#Bb"/>determinabitur infra in quastione de
+        <lb ed="#Bb"/>numero celorum '.
+      </p>
+               <p xml:id="Almn78-e21998-d1e943">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Basilius 
+        lo<lb ed="#Bb" break="no"/>quitur contra opinionem Platonis et
+        <lb ed="#Bb"/>Demoeriti, qui dixerunt calum_ esse
+        <lb ed="#Bb"/>igneum, et quod non posset esse, quin ex
+        <lb ed="#Bb"/>tanta conflagratione ignis, sicut est 
+        to<lb ed="#Bb" break="no"/>tum ccelum, multe partes deciderent
+        <lb ed="#Bb"/>ignee, exfquibus in fnubibus fiunt ful
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>gura et coruscationes, et in visceribus
+        <lb ed="#Bb"/>therme et vulcani. Et dixerunt, quod
+        <lb ed="#Bb"/>contra hoc disposuit Deus supra 
+        firma<lb ed="#Bb" break="no"/>mentum aquas ad refrigerium hujus in:
+        <lb ed="#Bb"/>cendii, magis intelligentes hoc effective,
+        <lb ed="#Bb"/>quam materialiter. Quia sicut in ccelo in
+        <lb ed="#Bb"/>quibusdam signis est vis incensiva et
+        <lb ed="#Bb"/>combustiva, ita in eodem celo est in
+        <lb ed="#Bb"/>aliis signis vis refrigerativa et 
+        hume<lb ed="#Bb" break="no"/>factiva. Propter quos effectus aque 
+        di<lb ed="#Bb" break="no"/>cuntur esse supra firmamentum : sicut
+        <lb ed="#Bb"/>patet in Ovidio magno, ubi diluvium
+        <lb ed="#Bb"/>ignis describitur per fabulam de 
+        Phae<lb ed="#Bb" break="no"/>tonte, et sepulcrum Phaetontis, et 
+        ex<lb ed="#Bb" break="no"/>stinctio in Eridano qui est inter signa
+        <lb ed="#Bb"/>ceelestia descriptus. Et propter hoc 
+        duo<lb ed="#Bb" break="no"/>decim signa cceliin quatuor triplicitates
+        <lb ed="#Bb"/>dividunt: ita ut tria sint ignea, Aries
+        <lb ed="#Bb"/>scilicet, Leo, et Sagittarius : {ria terrea,
+        <lb ed="#Bb"/>Taurus scilicet, Virgo, et Capricornus :
+        <lb ed="#Bb"/>tria aquea, Cancer scilicet, Scorpius, et
+        <lb ed="#Bb"/>Pisces: tria aerea, scilicet Gemini, 
+        Li<lb ed="#Bb" break="no"/>bra, et Aquarius: quia has virtutes 
+        pla<lb ed="#Bb" break="no"/>nete accipiunt in istis signis, et 
+        secun<lb ed="#Bb" break="no"/>dum has alterant et immutant inferiora.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1017">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod dictum
+        <lb ed="#Bb"/>Bede non verificatur nisi per effectum,
+        <lb ed="#Bb"/>ut jam dictum est.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1026">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+        con<lb ed="#Bb" break="no"/>cedendum est sicut inducitur. Et bene
+        <lb ed="#Bb"/>probatur, quod locus vaporum non est
+        <lb ed="#Bb"/>supra firmamentum. Propter quod etiam
+        <lb ed="#Bb"/>quidam dixerunt, quod firmamentum
+        <lb ed="#Bb"/>supra quod dicuntur esse aque, non est
+        <lb ed="#Bb"/>celum stellarum, sed coelum aereum, ra~
+        <lb ed="#Bb"/>tione medii interstitii in quo est 
+        conver<lb ed="#Bb" break="no"/>sio vaporum. Sed hanc expositionem nos
+        <lb ed="#Bb"/>non approbamus: quia Sancti 
+        concordi<lb ed="#Bb" break="no"/>ter dicunt, quod firmamentum est celum
+        <lb ed="#Bb"/>stellarum. Propter hoc Moyses, ‘Genes.
+        <lb ed="#Bb"/>1, 14 et seq., dicit quod Deus fecit 
+        so<lb ed="#Bb" break="no"/>lem et lunam et stellas, ef posuié eas in
+        <lb ed="#Bb"/>firmamento celi.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1062">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Beda dicit
+        <lb ed="#Bb"/>supra firmamentum esse ccelum glaciali
+        <lb ed="#Bb"/>soliditate compactum, propter 
+        similitu<lb ed="#Bb" break="no"/>dinem glaciei ad ccelum crystallinum :
+        <pb ed="#Bb" n="553"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>est enim ubique glacies luminis 
+        susce<lb ed="#Bb" break="no"/>ptiva, sicut celum aqueum ubique 
+        soli<lb ed="#Bb" break="no"/>dum sicut crystallus. Propter quam 
+        si<lb ed="#Bb" break="no"/>militudinem etiam dicitur agaeum et
+        <lb ed="#Bb"/>erystallinum a Sanctis.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1088">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod si Beda 
+        di<lb ed="#Bb" break="no"/>ceret secundum veritatem nature aquas
+        <lb ed="#Bb"/>glaciali soliditate esse supra 
+        firmamen<lb ed="#Bb" break="no"/>tum, tunc bona esset objectio: sed quia
+        <lb ed="#Bb"/>loquitur per similitudinem, propter hoc
+        <lb ed="#Bb"/>nihil facit contra eum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1104">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod agua 
+        su<lb ed="#Bb" break="no"/>mitur ibi pro parte materia prime que
+        <lb ed="#Bb"/>per dispositionem posita est supra 
+        firma<lb ed="#Bb" break="no"/>mentum. Sed quia non disponitur ut ibi
+        <lb ed="#Bb"/>sit, nisi per proprietates aque que sunt
+        <lb ed="#Bb"/>perspicuum et luminosum ubique, ideo
+        <lb ed="#Bb"/>non nominatur nisi nomine ague, et non
+        <lb ed="#Bb"/>nominatur nomine ignis, terre, vel
+        <lb ed="#Bb"/>aeris. Licet enim ignis luminosus sit,
+        <lb ed="#Bb"/>tamen propter levitatem et caliditatem
+        <lb ed="#Bb"/>dissipat formas et non ‘continet eas, et
+        <lb ed="#Bb"/>semper disponitur ad figuram recti, non
+        <lb ed="#Bb"/>circularis. Aer autem licet suscipiat, non
+        <lb ed="#Bb"/>continet. Aqua autem et suscipit et 
+        con<lb ed="#Bb" break="no"/>tinet. Propter quod etiam natura 
+        ocu<lb ed="#Bb" break="no"/>lum, qui est lumen animalis, ex aqua
+        <lb ed="#Bb"/>constituit, ut dicit Aristoteles, et ad 
+        figu<lb ed="#Bb" break="no"/>ram orbicularem formavit.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1146">
+                  <lb ed="#Bb"/>Ad primum Ambrosii dicendum, quod
+        <lb ed="#Bb"/>Ambrosius non intellexit, quod 
+        provi<lb ed="#Bb" break="no"/>dentia divina aquas materialiter 
+        humi<lb ed="#Bb" break="no"/>das et frigidas in ccelo constituerit ad
+        <lb ed="#Bb"/>exstinctionem ardoris, nisi secundum
+        <lb ed="#Bb"/>causam efficientem et effectum, sicut
+        <lb ed="#Bb"/>paulo ante dictum est.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1164">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod illa 
+        respon<lb ed="#Bb" break="no"/>sio nihil valet, et bene improbata est.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1171">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod illud 
+        pro<lb ed="#Bb" break="no"/>cedit, et bene improbat positionem 
+        illo<lb ed="#Bb" break="no"/>rum,
+      </p>
+               <p xml:id="Almn78-e21998-d1e1181">
+                  <lb ed="#Bb"/>Av ip quod contra objicitur, 
+        dicen<lb ed="#Bb" break="no"/>dum quod hoc de necessitate procedit, et
+        <lb ed="#Bb"/>bene improbat dictum illorum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1190">
+                  <lb ed="#Bb"/>Et quod quidam dicunt, quod in ma
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>jori mundo debet esse sicut in minori,
+        <lb ed="#Bb"/>hoc est, in homine. In homine autem
+        <lb ed="#Bb"/>fons caloris in corde est, a quo oriuntur
+        <lb ed="#Bb"/>spiritus : frigidum autem et humidum in
+        <lb ed="#Bb"/>cerebro summo hominis vertice. Et ita
+        <lb ed="#Bb"/>in majori mundo cum fons caloris et
+        <lb ed="#Bb"/>vite sit in sole, divina providentia 
+        de<lb ed="#Bb" break="no"/>buit disponere, ut supra solem_ esset
+        <lb ed="#Bb"/>frigidum et humidum, ut exemplar 
+        re<lb ed="#Bb" break="no"/>sponderet suo exemplato. Nihil valet:
+        <lb ed="#Bb"/>providentia enim divina contemperat
+        <lb ed="#Bb"/>unumquodque in membris et partibus et
+        <lb ed="#Bb"/>positione membrorum prout optime 
+        pot<lb ed="#Bb" break="no"/>est exercere suas operationes. Et ideo in
+        <lb ed="#Bb"/>homine in cerebro, in quo sunt virtutes
+        <lb ed="#Bb"/>animales et operationes, posuit frigidum
+        <lb ed="#Bb"/>et humidum, ut frigidum constringeret,
+        <lb ed="#Bb"/>ne turbidi vapores et fumi elevari 
+        pos<lb ed="#Bb" break="no"/>sent ad organa animalium virtutum et
+        <lb ed="#Bb"/>turbidos generare spiritus, ex quibus
+        <lb ed="#Bb"/>confunderentur operationes animales :
+        <lb ed="#Bb"/>in mundo autem sublimi nihil talium
+        <lb ed="#Bb"/>est, sed plena lux et limpida que turbari
+        <lb ed="#Bb"/>non potest: et ideo talis mundi sublime
+        <lb ed="#Bb"/>non indigebat restrictivo.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1251">
+                  <lb ed="#Bb"/>Et quod Philosophi Aigyptii 
+        dixe<lb ed="#Bb" break="no"/>runt, ad stellas ascendere vapores, et ex
+        <lb ed="#Bb"/>his retrogradas fieri, fabulosum est et
+        <lb ed="#Bb"/>penitus falsum.
+      </p>
+            </div>
+            <div xml:id="Almn78-e21998-Dd1e1263">
+               <head xml:id="Almn78-e21998-Hd1e1265">Membrum 2</head>
+               <head xml:id="Almn78-e21998-Hd1e1268" type="question-title">
+        Utrum coelum crystallinum sit mobile
+        vel immobile
+      </head>
+               <p xml:id="Almn78-e21998-d1e1271">
+                  <lb ed="#Bb"/>MEMBRUM II,
+        <lb ed="#Bb"/>Utrum coelum crystallinum sit mobile
+        <lb ed="#Bb"/>vel immobile?
+      </p>
+               <p xml:id="Almn78-e21998-d1e1280">
+                  <lb ed="#Bb"/>Secundo queritur, Utrum ccelum
+        <lb ed="#Bb"/>crystallinum sit mobile vel immobile ?
+      </p>
+               <p xml:id="Almn78-e21998-d1e1287">
+                  <lb ed="#Bb"/>Et queritur de motu circulari, et non
+        <lb ed="#Bb"/>de alio.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1295">
+                  <lb ed="#Bb"/>Videtur autem, quod non moveatur
+        <lb ed="#Bb"/>circulariter: dicitur enim esse aqueum
+        <lb ed="#Bb"/>vel crystallinum.
+        <pb ed="#Bb" n="554"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>1. Dicit autem Aristoteles in IV de
+        <lb ed="#Bb"/>Colo et Mundo, quod omni corpori 
+        debe<lb ed="#Bb" break="no"/>tur motus secundum naturam: et quia
+        <lb ed="#Bb"/>simplicium nature non sunt nisi tres in
+        <lb ed="#Bb"/>genere, scilicet natura gravis 
+        simplici<lb ed="#Bb" break="no"/>ter, que movetur ad medium recto
+        <lb ed="#Bb"/>motu: et natura levis, que movetur a
+        <lb ed="#Bb"/>medio recto motu sursum: et natura
+        <lb ed="#Bb"/>ejus quod est leve in alio, et grave in
+        <lb ed="#Bb"/>alio, quod in quibusdam descendit et in
+        <lb ed="#Bb"/>quibusdam ascendit recto motu, sicut
+        <lb ed="#Bb"/>aqua in terra ascendit, in aere autem et
+        <lb ed="#Bb"/>igne descendit, et ideo plus levis est
+        <lb ed="#Bb"/>quam gravis: aer autem in igne 
+        descen<lb ed="#Bb" break="no"/>dit, in aqua autem et terra ascendit, et
+        <lb ed="#Bb"/>ideo plus levis est quam gravis. Extra
+        <lb ed="#Bb"/>autem istas tres naturas non est natura
+        <lb ed="#Bb"/>simplicis, nisi ceeli, quod dicitur esse
+        <lb ed="#Bb"/>quinta essentia ab Aristotele et 
+        Peripa<lb ed="#Bb" break="no"/>teticis. Et hoc movetur circa medium
+        <lb ed="#Bb"/>circulariter solum Cum ergo cclum
+        <lb ed="#Bb"/>aqueum sit de natura aque, videtur quod
+        <lb ed="#Bb"/>debet habere motum naturalem aque.
+        <lb ed="#Bb"/>ille autem est plus gravis quam levis et
+        <lb ed="#Bb"/>rectus: non ergo movetur circulariter.
+        <lb ed="#Bb"/>Et hoc maxime trahitur ab Ambrosio,
+        <lb ed="#Bb"/>qui in primo Hexameron sic dicit : <quote xml:id="Almn78-e21998-Qd1e1366"> 
+          Ni<lb ed="#Bb" break="no"/>hil agunt qui propter celi asserendam
+          <lb ed="#Bb"/>perpetuitatem, quintum corpus 
+          eithe<lb ed="#Bb" break="no"/>reum introducendum putarunt : cum
+          <lb ed="#Bb"/>zeque videant dissimilem ceteris 
+          ad<lb ed="#Bb" break="no"/>junctam membris portionem, labem
+          <lb ed="#Bb"/>corpori magis auferre consuevisse. </quote>
+                  <lb ed="#Bb"/>Secundum Ambrosium ergo quintum
+        <lb ed="#Bb"/>corpus quod c#lum dicimus, secundum
+        <lb ed="#Bb"/>omnem sui parlem esset de natura 
+        ele<lb ed="#Bb" break="no"/>mentorum : et si ita non esset, labem
+        <lb ed="#Bb"/>universitati induceret : et sic videtur,
+        <lb ed="#Bb"/>quod in toto celo nullus sit motus 
+        cir<lb ed="#Bb" break="no"/>cularis, sed rectus tantum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1398">
+                  <lb ed="#Bb"/>2. Adhuc, Videtur quod nullo motu
+        <lb ed="#Bb"/>movetur : ceelum enim aqueum altius est
+        <lb ed="#Bb"/>ceelo stellato: ergo nobilius. Dicit. autem
+        <lb ed="#Bb"/>Aristoteles in II de Calo et Mundo,
+        <lb ed="#Bb"/>quod altius ccelum nobilius participat 
+        bo<lb ed="#Bb" break="no"/>nitatem primi motoris, quam id quod est
+        <lb ed="#Bb"/>sub ipso. Et assignat rationem: quia
+        <lb ed="#Bb"/>immedialius est primo motori vel 
+        vici<lb ed="#Bb" break="no"/>nius, Cum ergo ccelum stellarum_parti
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>cipet bonitatem primi motoris per 
+        mo<lb ed="#Bb" break="no"/>tum, et celum aqueum non _ possit 
+        no<lb ed="#Bb" break="no"/>bilius participare, nisi participet sine
+        <lb ed="#Bb"/>motu, videtur quod ceelum aqueum 
+        im<lb ed="#Bb" break="no"/>mobile sit, et nullo motu moveatur.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1433">
+                  <lb ed="#Bb"/>3. Adhuc, Omnino uniforme, ut dicit
+        <lb ed="#Bb"/>Aristoteles in Il de Celo et Mundo, nullo
+        <lb ed="#Bb"/>motu movetur: quia non est unde 
+        inci<lb ed="#Bb" break="no"/>piat motus, et per quod regyret. Ccelum
+        <lb ed="#Bb"/>aqueum, ut jam habitum est in 
+        prace<lb ed="#Bb" break="no"/>denti membro questionis, totum 
+        uni<lb ed="#Bb" break="no"/>forme est: ergo omnino immobile.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1451">
+                  <lb ed="#Bb"/>Si forte aliquis dicat, quod ccelum
+        <lb ed="#Bb"/>aqueum non est principium, sed 
+        firma<lb ed="#Bb" break="no"/>mentum quod ccelum stellarum dicitur,
+        <lb ed="#Bb"/>sicut communiter dicunt astrorum periti,
+        <lb ed="#Bb"/>Ptolemeus, et Alphraganus. Contra
+        <lb ed="#Bb"/>objicit Avevalpetrans in Asérologia sua
+        <lb ed="#Bb"/>sic: ponit enim pro principio, quod ab
+        <lb ed="#Bb"/>uno motore simplici immediate 
+        conjun<lb ed="#Bb" break="no"/>cto suo mobili non potest esse nisi 
+        mo<lb ed="#Bb" break="no"/>tus unus. In ceelo stellato per 
+        observan<lb ed="#Bb" break="no"/>tias instrumentorum et considerationes
+        <lb ed="#Bb"/>inveniuntur motus tres, scilicet diurnus
+        <lb ed="#Bb"/>qui est super polos circuli 
+        equinoctia<lb ed="#Bb" break="no"/>lis, et super parallelos equinoctiali eque
+        <lb ed="#Bb"/>distantes. Et motus stellarum et augium
+        <lb ed="#Bb"/>quo moventur in centum annis gradu
+        <lb ed="#Bb"/>uno super polos circuli signorum, et
+        <lb ed="#Bb"/>super circulos parallellos circulo 
+        signo<lb ed="#Bb" break="no"/>rum, qui vocatur motus in circulo 
+        de<lb ed="#Bb" break="no"/>clivi, et completur in triginta sex 
+        milli<lb ed="#Bb" break="no"/>bus annis, ut dicit Aristoteles in libro de
+        <lb ed="#Bb"/>Causis proprietatum elementorum : et
+        <lb ed="#Bb"/>probat Ptolemeus in Almagesto per 
+        ob<lb ed="#Bb" break="no"/>servantias instrumentorum. Tertius 
+        mo<lb ed="#Bb" break="no"/>tus est, qui est super circulum capitis
+        <lb ed="#Bb"/>Arietis et Libra, cujus diameter per octo
+        <lb ed="#Bb"/>gradus ascendit in Aquilonem, et per
+        <lb ed="#Bb"/>totidem descendit in Meridiem, sicut 
+        pro<lb ed="#Bb" break="no"/>bat Thebithencorat in libro qui dicitur,
+        <lb ed="#Bb"/>De tabula motus octavi. Si ergo tres
+        <lb ed="#Bb"/>motus sunt ceeli stellati, non potest esse
+        <lb ed="#Bb"/>celum stellatum immediatum primo 
+        mo<lb ed="#Bb" break="no"/>tori simplici : quod ergo est immediatum
+        <lb ed="#Bb"/>primo motori simplici, est supra celum
+        <lb ed="#Bb"/>stellarum. Supra hoc autem non est nis;
+        <lb ed="#Bb"/>cceelum Trinitatis, quod non est corpus,
+        <lb ed="#Bb"/>nec movelur: et celum empyreum quod,
+        <pb ed="#Bb" n="555"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>uniforme est et immobile, nullum 
+        ha<lb ed="#Bb" break="no"/>bens motorem, eo quod contemplationi
+        <lb ed="#Bb"/>et quieti deputatum est, cum sit locus
+        <lb ed="#Bb"/>Angelorum et beatorum : et ccelum
+        <lb ed="#Bb"/>aqueum, quod oportet esse conjunctum
+        <lb ed="#Bb"/>primo motori: et oportet, quod habeat
+        <lb ed="#Bb"/>unum motum et simplicem et 
+        unifor<lb ed="#Bb" break="no"/>mem, quo participet bonitatem primi 
+        mo<lb ed="#Bb" break="no"/>toris, qui unus simplex est et uniformis.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1558">
+                  <lb ed="#Bb"/>Sorutio. Dicendum, quod ceelum quod
+        <lb ed="#Bb"/>Sancti vocant agueum vel erystallinum,
+        <lb ed="#Bb"/>et Philosophi vocant uniforme in 
+        lu<lb ed="#Bb" break="no"/>mine, cujus lumen tante simplicitatis
+        <lb ed="#Bb"/>est, quod visibus hominum non 
+        subji<lb ed="#Bb" break="no"/>citur, sicut dicitt Damascenus in libro II
+        <lb ed="#Bb"/>de Fide orthodoxa', ea que sunt Moysi
+        <lb ed="#Bb"/>sua facientes dogmata, est ccelum 
+        no<lb ed="#Bb" break="no"/>num, et est super septem cceelos septem
+        <lb ed="#Bb"/>planetarum, et super ccelum octavum,
+        <lb ed="#Bb"/>quod dicitur stellatum sive 
+        firmamen<lb ed="#Bb" break="no"/>tum : et est illud de quo dicit Aristoteles
+        <lb ed="#Bb"/>in II de Celo et Mundo, quod extra
+        <lb ed="#Bb"/>ceelum nihil est, nec locus, nec tempus,
+        <lb ed="#Bb"/>sed vita beata que est extra ipsum, non
+        <lb ed="#Bb"/>sicut in loco vel in tempore, sed sicut in
+        <lb ed="#Bb"/>objecto. Extra enim illud est ccelum 
+        em<lb ed="#Bb" break="no"/>pyreum, in quo objicit se Deus beatis ad
+        <lb ed="#Bb"/>contemplandum et fruendum immediate.
+        <lb ed="#Bb"/>De quo dicitur, Joan. xiv, 2: In domo
+        <lb ed="#Bb"/>Patris mei mansiones multe sunt. \bi
+        <lb ed="#Bb"/>sunt enim distinctiones ordinum 
+        Ange<lb ed="#Bb" break="no"/>lorum et omnium beatorum secundum
+        <lb ed="#Bb"/>meritorum differentias. Et sub illo 
+        im<lb ed="#Bb" break="no"/>mediate est celum aqueum, quod 
+        ordi<lb ed="#Bb" break="no"/>natum est ad generalionem et 
+        corruptio<lb ed="#Bb" break="no"/>nem inferiorum : et ideo necesse est
+        <lb ed="#Bb"/>moveri motu velocissimo et uniformi et
+        <lb ed="#Bb"/>simplici. Quia, sicut dicit Avevalpetrans,
+        <lb ed="#Bb"/>universaliter et regulariter verum est,
+        <lb ed="#Bb"/>quod omnis motoris virtus fortior est in
+        <lb ed="#Bb"/>immediato mobili, quam in mobili quod
+        <lb ed="#Bb"/>conjungitur ei per medium.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1632">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod illud
+        <lb ed="#Bb"/>argumentum _procederet, si coelum
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>aqueum diceretur aliquando propter 
+        na<lb ed="#Bb" break="no"/>turam aque fluxibilis deorsum. Hoc 
+        au<lb ed="#Bb" break="no"/>tem non est verum : sed dicitur agueum,
+        <lb ed="#Bb"/>quia materialiter est de parte puriori
+        <lb ed="#Bb"/>materiz prime sub dispositione 
+        perspi<lb ed="#Bb" break="no"/>cuitatis et figura circulari. Et dicitur
+        <lb ed="#Bb"/>erystallinum propter soliditatem et 
+        in<lb ed="#Bb" break="no"/>corruptibilitatem crystalli cui simile est :
+        <lb ed="#Bb"/>quia universaliter ubique est luminis
+        <lb ed="#Bb"/>susceptivum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1664">
+                  <lb ed="#Bb"/>Av autup dicendum, quod ccelum
+        <lb ed="#Bb"/>aqueum movetur uno motu simplici et
+        <lb ed="#Bb"/>uniformi : et sic nobilius participat 
+        bo<lb ed="#Bb" break="no"/>nitatem primi quam ccelum stellatum,
+        <lb ed="#Bb"/>quod participat eamdem bonitatem 
+        tri<lb ed="#Bb" break="no"/>bus motibus, ut probatum est. Unde
+        <lb ed="#Bb"/>hec fuit falsa, quod non posset nobilius
+        <lb ed="#Bb"/>participare,-nisi per immobilitatem.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1684">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod cclum
+        <lb ed="#Bb"/>stellatum non est mobile primum, nec
+        <lb ed="#Bb"/>immediatum ad primum motorem. Nec
+        <lb ed="#Bb"/>Philosophi dicunt ipsum primum, nisi
+        <lb ed="#Bb"/>inter ea que sensu percipiuntur, que
+        <lb ed="#Bb"/>sunt octo, scilicet septem planetarum,
+        <lb ed="#Bb"/>et ccelum stellatum. Et quando dictur
+        <lb ed="#Bb"/>uniforme, non dicitur uniforme, nisi in
+        <lb ed="#Bb"/>communi forma Juminis : quia scilicet
+        <lb ed="#Bb"/>ubique luminosum est : sed non est ita
+        <lb ed="#Bb"/>uniforme, quin in una parte sit magis
+        <lb ed="#Bb"/>dispositum ad motum motoris quam in
+        <lb ed="#Bb"/>alia, et sic habet dextrum a quo incipit
+        <lb ed="#Bb"/>motus motoris, et sinistrum per quod
+        <lb ed="#Bb"/>fit regyratio ejusdem : et hec sunt 
+        di<lb ed="#Bb" break="no"/>stincta in ipsa virtute, non figura, ut dicit
+        <lb ed="#Bb"/>Aristoteles in II de Celo et Mundo.
+      </p>
+            </div>
+            <div xml:id="Almn78-e21998-Dd1e1724">
+               <head xml:id="Almn78-e21998-Hd1e1726">Membrum 3</head>
+               <head xml:id="Almn78-e21998-Hd1e1729" type="question-title">
+        Qua necessitate ponatur celum 
+        crystallinum sive aqueum
+      </head>
+               <p xml:id="Almn78-e21998-d1e1732">
+                  <lb ed="#Bb"/>MEMBRUM III.
+        <lb ed="#Bb"/>Qua necessitate ponatur celum 
+        crystal<lb ed="#Bb" break="no"/>linum sive aqueum?
+      </p>
+               <p xml:id="Almn78-e21998-d1e1741">
+                  <lb ed="#Bb"/>Tertio queritur, Qua necessitate 
+        po<lb ed="#Bb" break="no"/>natur celum crystallinum sive aqueum ?
+      </p>
+               <p xml:id="Almn78-e21998-d1e1748">
+                  <pb ed="#Bb" n="556"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Videtur autem quod nulla :
+        <lb ed="#Bb"/>1. Sphere enim septem planetarum
+        <lb ed="#Bb"/>cum sphera stellarum fixarum per 
+        di<lb ed="#Bb" break="no"/>versitatem motuum suorum sufficienter
+        <lb ed="#Bb"/>causant (ut dicit Plolemzus) et 
+        genera<lb ed="#Bb" break="no"/>tionem et corruptionem, et magna et
+        <lb ed="#Bb"/>parva accidentia mundi: ergo videtur,
+        <lb ed="#Bb"/>quod nulla sit necessitas cli aquei sive
+        <lb ed="#Bb"/>erystallini.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1775">
+                  <lb ed="#Bb"/>2. Adhuc, Quod quidam dicunt, quod
+        <lb ed="#Bb"/>ante multiforme est uniforme secundum
+        <lb ed="#Bb"/>ordinem nature, et propter hoc ponitur
+        <lb ed="#Bb"/>celum crystallinum quod uniforme esse
+        <lb ed="#Bb"/>dicitur, nihil esse videtur : quia celum
+        <lb ed="#Bb"/>erystallinuin, ut jam habitum est, non
+        <lb ed="#Bb"/>omnino uniforme est, sed celum 
+        empy<lb ed="#Bb" break="no"/>reum penitus uniforme est, quod moveri
+        <lb ed="#Bb"/>non potest : quia eadem ratione qua 
+        in<lb ed="#Bb" break="no"/>ciperet motus ejus ab una parte, 
+        incipe<lb ed="#Bb" break="no"/>ret ab alia, et sic numquam incipere 
+        pos<lb ed="#Bb" break="no"/>set.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1804">
+                  <lb ed="#Bb"/>3. Adhuc, Multe difformitates sunt in
+        <lb ed="#Bb"/>celo. Est enim ibi dextrum et 
+        sini<lb ed="#Bb" break="no"/>strum, ante et retro: ad Austrum enim
+        <lb ed="#Bb"/>esse est ante, et ad Aquilonem est esse
+        <lb ed="#Bb"/>retro. Similiter est ibi deorsum et 
+        sur<lb ed="#Bb" break="no"/>sum per elevationem et depressionem in
+        <lb ed="#Bb"/>auge vel opposito augis planetarum, et
+        <lb ed="#Bb"/>in ascensu vel descensu circuli 
+        deferen<lb ed="#Bb" break="no"/>tis, secundum quod virlus unius planete
+        <lb ed="#Bb"/>prevalet super virtutem alterius, et 
+        se<lb ed="#Bb" break="no"/>cundum quod unns ascendit in epiciclo
+        <lb ed="#Bb"/>et alter descendit, et unus dirigitur et
+        <lb ed="#Bb"/>alter stat vel retrocedit, secundum quod
+        <lb ed="#Bb"/>dicit Albumasar, quod si sol ascendit
+        <lb ed="#Bb"/>super Mercurium et Lunam et adjuvatur
+        <lb ed="#Bb"/>a Marte, faciet longitudinem serenilatis
+        <lb ed="#Bb"/>et siccitatis : sie contra fuerit, 
+        significa<lb ed="#Bb" break="no"/>bit humiditatem et pluvias longas. 
+        Num<lb ed="#Bb" break="no"/>quid omnes ergo iste diversitates sint in
+        <lb ed="#Bb"/>ceelo aqueo? Si sunt: tunc in ipso sunt
+        <lb ed="#Bb"/>multi motus, et non unus tantum et
+        <lb ed="#Bb"/>uniformis, quod paulo ante improbatum
+        <lb ed="#Bb"/>est. Si non sunt: tunc non sufficienter
+        <lb ed="#Bb"/>est causa conservationis inferiorum, et
+        <lb ed="#Bb"/>sic non debet poni inter ccelos.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1861">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod quadruplici
+        <lb ed="#Bb"/>necessitate ponitur celum crystallinum.
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Quarum prima est. ex parte motus:
+        <lb ed="#Bb"/>quia, sicut paulo ante habitum est, ab
+        <lb ed="#Bb"/>uno motore simplici primo non potest
+        <lb ed="#Bb"/>esse nisi unus motus. Multi autem sunt
+        <lb ed="#Bb"/>motus in ceelo stellato : et ideo non 
+        pot<lb ed="#Bb" break="no"/>est esse mobile primum. Nullus vero in
+        <lb ed="#Bb"/>ceelo empyreo : et ideo illud nec est 
+        mo<lb ed="#Bb" break="no"/>bile primum. Multi vero et difformes
+        <lb ed="#Bb"/>valde in spheris planetarum : propter
+        <lb ed="#Bb"/>quod nulla spherarum planetarum 
+        pot<lb ed="#Bb" break="no"/>est esse mobile primum. Unde vel 
+        uni<lb ed="#Bb" break="no"/>versum non est completum in ordine
+        <lb ed="#Bb"/>moventium et motorum, vel oportet 
+        po<lb ed="#Bb" break="no"/>nere unum ceelum uniforme supra 
+        cce<lb ed="#Bb" break="no"/>lum stellatum, quod uno motu simplici
+        <lb ed="#Bb"/>moveatur a motore primo. Et hee est
+        <lb ed="#Bb"/>necessitas prima.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1907">
+                  <lb ed="#Bb"/>Secunda est, quod cum sit corpus 
+        cir<lb ed="#Bb" break="no"/>culare unum quod participat bonitatem
+        <lb ed="#Bb"/>primi motoris sine motu, ut celum 
+        em<lb ed="#Bb" break="no"/>pyreum : et cum sint alia que 
+        partici<lb ed="#Bb" break="no"/>pant eamdem bonitatem per metus
+        <lb ed="#Bb"/>multos ad sufficientiam motorum et 
+        mo<lb ed="#Bb" break="no"/>bilium : oportet quod medium sit inter
+        <lb ed="#Bb"/>hec extrema : et hoc est quod participat
+        <lb ed="#Bb"/>bonitatem primi motoris per motum
+        <lb ed="#Bb"/>unum : aliter enim esset insufiiciens
+        <lb ed="#Bb"/>numerus motorum et moventium in
+        <lb ed="#Bb"/>principiis nature : et hoc est celum
+        <lb ed="#Bb"/>aqueum sive crystallinum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e1938">
+                  <lb ed="#Bb"/>Tertia sumitur ex dictis Platonis in
+        <lb ed="#Bb"/>Timzo, qui dicit, quod creator ceeli 
+        cir<lb ed="#Bb" break="no"/>culum cceli reflexit in duos circulos,
+        <lb ed="#Bb"/>scilicet aplanes, et planes. Et alterum
+        <lb ed="#Bb"/>eorum, scilicet planes divisit in septem
+        <lb ed="#Bb"/>circulos, sicut in prehabitis dictum est.
+        <lb ed="#Bb"/>Cum ergo duo sint motus in genere, de
+        <lb ed="#Bb"/>perfectione nature principiorum est,
+        <lb ed="#Bb"/>quod uterque habeat mobile proprium.
+        <lb ed="#Bb"/>Et cum in celo  stellato inveniantur
+        <lb ed="#Bb"/>multi motus qui sunt planes, ut in 
+        pre<lb ed="#Bb" break="no"/>habitis dictum est, illud non potest esse
+        <lb ed="#Bb"/>mobile proprium illius motus qui dicitur
+        <lb ed="#Bb"/>aplanes. Oportet ergo de necessitate,
+        <lb ed="#Bb"/>quod illi motui mobile proprium 
+        pona<lb ed="#Bb" break="no"/>tur ante ceelum stellarum : sicut et ipse
+        <lb ed="#Bb"/>motus simplicior et prior est secundum
+        <lb ed="#Bb"/>naturam, quam ipse motus planes. Est
+        <lb ed="#Bb"/>enim motus aplanes super polos mundi,
+        <pb ed="#Bb" n="557"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>et super rectos circulos equidistantes
+        <lb ed="#Bb"/>ab equinoctiali ad tropicum estivalem,
+        <lb ed="#Bb"/>et ad tropicum hiemalem. Planes autem
+        <lb ed="#Bb"/>motus est super polos circuli #
+        quino<lb ed="#Bb" break="no"/>clialis, qui dicitur circulus declivis, et
+        <lb ed="#Bb"/>super circulos declives equidistantes ab
+        <lb ed="#Bb"/>equinoctiali ad utramque partem. Et
+        <lb ed="#Bb"/>mobile illi motui proprium, oportet quod
+        <lb ed="#Bb"/>sit uniforme, quod nos dicimus celum
+        <lb ed="#Bb"/>erystallinum sive aqueum, a quo in 
+        om<lb ed="#Bb" break="no"/>nibus inferioribus ceelis est motus 
+        diur<lb ed="#Bb" break="no"/>nus, qui motus aplanes vocatur. Quia
+        <lb ed="#Bb"/>Aristoteles dat regulam in II 
+        Metaphy<lb ed="#Bb" break="no"/>sicorum, quod quidquid est in pluribus
+        <lb ed="#Bb"/>secundum rationem unam, estin uno
+        <lb ed="#Bb"/>primo quod est causa omnium aliorum.
+        <lb ed="#Bb"/>Hac ratione utitur Philosophus in
+        <lb ed="#Bb"/>XV prime philosophiz, ubi querit 
+        nume<lb ed="#Bb" break="no"/>rum motorum et mobilium. Et ista que
+        <lb ed="#Bb"/>dicta sunt de motu planes et aplanes,
+        <lb ed="#Bb"/>inducit ab Kudoxo.
+      </p>
+               <p xml:id="Almn78-e21998-d1e2032">
+                  <lb ed="#Bb"/>Quarta necessitas est ex parte finis.
+        <lb ed="#Bb"/>Cum enim sit in inferioribus diversitas
+        <lb ed="#Bb"/>in figura, et diffurmitas generationis et
+        <lb ed="#Bb"/>alterationis et alioruam motuum 
+        influen<lb ed="#Bb" break="no"/>tium virtufes, ad hoc sunt orbes et ceeli
+        <lb ed="#Bb"/>difformes in partibus et in motu. Est
+        <lb ed="#Bb"/>autem in inferioribus etiam uniformitas
+        <lb ed="#Bb"/>in esse specifico et in esse generis.
+        <lb ed="#Bb"/>Oportet ergo, quod aliquod ponatur 
+        cce<lb ed="#Bb" break="no"/>lum quod sit uniforme, quod influat
+        <lb ed="#Bb"/>virtutem ad conservationem in specie et
+        <lb ed="#Bb"/>genere. Et hoc oportet uniforme esse et
+        <lb ed="#Bb"/>in partibus et in motu. Et hoc non pot
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>est esse, nisi quod nos vocamus celum
+        <lb ed="#Bb"/>crystallinum sive aqueum, quia nullum
+        <lb ed="#Bb"/>aliud est uniforme post empyreum.
+      </p>
+               <p xml:id="Almn78-e21998-d1e2072">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+        om<lb ed="#Bb" break="no"/>nia illa accidentia et magna et parva
+        <lb ed="#Bb"/>valde sunt difformia et in alteratione
+        <lb ed="#Bb"/>consistentia : et ideo sufficienter ab 
+        or<lb ed="#Bb" break="no"/>bibus sive ceelis difformibus causantur :
+        <lb ed="#Bb"/>et ideo necesse est ponere ccelum 
+        uni<lb ed="#Bb" break="no"/>forme propter conservationem in genere
+        <lb ed="#Bb"/>et specie uniformem.
+      </p>
+               <p xml:id="Almn78-e21998-d1e2092">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod ante 
+        multi<lb ed="#Bb" break="no"/>forme est uniforme secundum ordinem
+        <lb ed="#Bb"/>nature. Et ideo dicit Damascenus in 
+        li<lb ed="#Bb" break="no"/>bro Il de Fide orthodoxa, quod <quote xml:id="Almn78-e21998-Qd1e2102"> 
+          Philo<lb ed="#Bb" break="no"/>sophi Augyptii et Chaldei primum 
+          mo<lb ed="#Bb" break="no"/>bile dixerunt esse uniforme, ea que
+          <lb ed="#Bb"/>sunt Moysi sua facientes dogmata’. </quote> Et
+        <lb ed="#Bb"/>est uniforme in partibus quantum ad
+        <lb ed="#Bb"/>uniformitatem luminositatis et 
+        perspi<lb ed="#Bb" break="no"/>cuilatis : sed non potest esse uniforme
+        <lb ed="#Bb"/>in virtute, quin sint in eo principia 
+        mo<lb ed="#Bb" break="no"/>tus circularis uniformis et regularis,
+        <lb ed="#Bb"/>que sunt dextrum et sinistrum, sicut
+        <lb ed="#Bb"/>jam ante probatum est.
+      </p>
+               <p xml:id="Almn78-e21998-d1e2128">
+                  <lb ed="#Bb"/>Ab uLtiMum dicendum, quod nulla 
+        di<lb ed="#Bb" break="no"/>versitas est in eo nisi dextre ét sinistre :
+        <lb ed="#Bb"/>et principia alioram motuum non sunt
+        <lb ed="#Bb"/>in eo, sicut nec motus: sed illa sunt in
+        <lb ed="#Bb"/>circulo declivi, qui est in ccelo stellato.
+        <lb ed="#Bb"/>Est tamen sufficiens principium 
+        conser<lb ed="#Bb" break="no"/>vationis in esse specifico et in esse 
+        ge<lb ed="#Bb" break="no"/>neris, ut dictum est superius.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

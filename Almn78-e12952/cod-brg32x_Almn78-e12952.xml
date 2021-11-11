@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 43</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 43</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="508"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e12952"><!-- p2t11q43 -->
+            <head xml:id="Almn78-e12952-Hd1e106">Quaestio 43</head>
+            <head xml:id="Almn78-e12952-Hd1e109" type="question-title">
+      Quare nomine coli et terre intelligitur spiritualis et corporalis
+      creatura ?
+    </head>
+            <p xml:id="Almn78-e12952-d1e112">
+               <pb ed="#Bb" n="508"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO XLIII.
+      <lb ed="#Bb"/>Quare nomine coli et terre intelligitur spiritualis et corporalis
+      <lb ed="#Bb"/>creatura ?
+    </p>
+            <p xml:id="Almn78-e12952-d1e125">
+               <lb ed="#Bb"/>Ad primum proceditur sic :
+      <lb ed="#Bb"/>1. Coelum corporale est: ergo per
+      <lb ed="#Bb"/>convenientiam non potest intelligi 
+      spiri<lb ed="#Bb" break="no"/>tualis creatura. Mala est ergo expositio
+      <lb ed="#Bb"/>cum dicitur: Jn principio creavit Deus
+      <lb ed="#Bb"/>celum, id est, Angelos.
+    </p>
+            <p xml:id="Almn78-e12952-d1e141">
+               <lb ed="#Bb"/>2. Adhuc, Boetius in libro de Duabus
+      <lb ed="#Bb"/>naturis in una persona Christi dicit,
+      <lb ed="#Bb"/>quod natura spiritualis et intellectualis
+      <lb ed="#Bb"/>non est ex aliqua materia : celum cum
+      <lb ed="#Bb"/>sit corpus, ex materia est: ergo 
+      inconve<lb ed="#Bb" break="no"/>nienter angelica natura informis 
+      intelli<lb ed="#Bb" break="no"/>gitur per ccelum,
+    </p>
+            <p xml:id="Almn78-e12952-d1e160">
+               <lb ed="#Bb"/>3. Adhuc, Aer, aqua, et ignis 
+      nobilio<lb ed="#Bb" break="no"/>ra elementa sunt quam terra: materia
+      <lb ed="#Bb"/>ergo corporalium creaturarum 
+      conve<lb ed="#Bb" break="no"/>nientius intelligitur per ignem, aquam,
+      <lb ed="#Bb"/>et aerem, quam per terram: et sic per
+      <lb ed="#Bb"/>terram non deberet intelligi materia
+      <lb ed="#Bb"/>corporalium creaturarum.
+    </p>
+            <p xml:id="Almn78-e12952-d1e178">
+               <lb ed="#Bb"/>4, Adhuc, Cum utrumque sit et 
+      sen<lb ed="#Bb" break="no"/>sibile et intelligibile, scilicet.et cceelum
+      <lb ed="#Bb"/>et terra : quare in Psalmo cxxxv, 5,
+      <lb ed="#Bb"/>dicitur : Qui fecit caelos in intellectu ?
+      <lb ed="#Bb"/>De terra vero dicitur, ibidem, ¥. 6, quod
+      <lb ed="#Bb"/>firmavit eam.super aquas ?
+    </p>
+            <p xml:id="Almn78-e12952-d1e194">
+               <lb ed="#Bb"/>5. Adhuc, Isa. xtvin, 13, dicit sic:
+      <lb ed="#Bb"/>Manus mea fundavit terram, et dextera
+      <lb ed="#Bb"/>mea mensa est celos. Quare dicit sine
+      <lb ed="#Bb"/>distinctione, Manus mea fundavit 
+      ter<lb ed="#Bb" break="no"/>ram: et cum distinctione, Dextera mea
+      <lb ed="#Bb"/>mensa est celos ?
+    </p>
+            <p xml:id="Almn78-e12952-d1e210">
+               <lb ed="#Bb"/>6. Adhuc, Isaie, xt, 12et 13, dicitur:
+      <lb ed="#Bb"/>Quis mensus est pugillo aguas, et calos
+      <lb ed="#Bb"/>palmo ponderavit ? Quis appendit tribus
+      <lb ed="#Bb"/>digitis molem terre, et libravit in
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>pondere montes, et colles in statera ? Et
+      <lb ed="#Bb"/>queritur ratio dicti istius.
+    </p>
+            <p xml:id="Almn78-e12952-d1e228">
+               <lb ed="#Bb"/>SoLuvio. Dicendum est, sicut dicit 
+      Ari<lb ed="#Bb" break="no"/>stoteles in I de Celo et Mundo, quod
+      <lb ed="#Bb"/>omnes antiqui convenerunt in hoc, quod
+      <lb ed="#Bb"/>locus Dei et intellectualium et 
+      incorpo<lb ed="#Bb" break="no"/>ralium substantiarum, quas 
+      intelligen<lb ed="#Bb" break="no"/>tias vocaverunt antiqui Angelos, esse
+      <lb ed="#Bb"/>celum: et ideo per metonymiam in
+      <lb ed="#Bb"/>creatione cceli intelligitur creatio 
+      An<lb ed="#Bb" break="no"/>gelorum. In empyreo enim quod 
+      maxi<lb ed="#Bb" break="no"/>me celum, et dignius cuelum vocatur,
+      <lb ed="#Bb"/>creati sunt tamquam in loco sibi magis
+      <lb ed="#Bb"/>congruo inter omnes creaturas.
+    </p>
+            <p xml:id="Almn78-e12952-d1e257">
+               <lb ed="#Bb"/>Est hujus etiam alia ratio: quia 
+      lu<lb ed="#Bb" break="no"/>men inter omnes formas corporales 
+      ma<lb ed="#Bb" break="no"/>gis convenit cum substantia spirituali et
+      <lb ed="#Bb"/>intellectuali. Propter quod etiam 
+      Au<lb ed="#Bb" break="no"/>gustinus dicit, quod perfectiori ratione
+      <lb ed="#Bb"/>lucis et propria nomen lucis predicatur
+      <lb ed="#Bb"/>de spirituali lumine, quam de corporali.
+      <lb ed="#Bb"/>Et ratione hujus convenientie etiam
+      <lb ed="#Bb"/>per celum, quando ex natura propria
+      <lb ed="#Bb"/>luminosum est, intelligitur  spiritualis
+      <lb ed="#Bb"/>creatura, que veri luminis capax est.
+      <lb ed="#Bb"/>Alia enim corpora, sicut ignis, aer, aqua
+      (sicut dicit Aristoteles in If de Anima)
+      <lb ed="#Bb"/>ex se non lucent, nec capacia sunt lucis,
+      <lb ed="#Bb"/>sed ex convenientia cum perpetuo 
+      supe<lb ed="#Bb" break="no"/>rius corpore.
+    </p>
+            <p xml:id="Almn78-e12952-d1e293">
+               <lb ed="#Bb"/>Er per hoc patet solutio ad primum :
+      <lb ed="#Bb"/>quia licet celum corporeum sit, tamen
+      <lb ed="#Bb"/>propter duas rationes dictas angelica
+      <lb ed="#Bb"/>natura convenienter intelligitur per 
+      co<lb ed="#Bb" break="no"/>lum.
+    </p>
+            <p xml:id="Almn78-e12952-d1e306">
+               <pb ed="#Bb" n="509"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Ad dictum Boetii dicendum, quod licet
+      <lb ed="#Bb"/>ccelum sit corpus materiatum et non 
+      in<lb ed="#Bb" break="no"/>tellectualis natura, tamen intellectualis
+      <lb ed="#Bb"/>natura intelligitur per ccelum, non sicut
+      <lb ed="#Bb"/>materiatum in materia, quia materia
+      <lb ed="#Bb"/>hnumquam est principium cognoscendi
+      <lb ed="#Bb"/>aliquid nisi in potentia: sed per 
+      meto<lb ed="#Bb" break="no"/>nymiam, ut dictum est, quia proprius
+      <lb ed="#Bb"/>locus inter locos corporeos 
+      substantia<lb ed="#Bb" break="no"/>rum intellectualium est ccelum : et 
+      pri<lb ed="#Bb" break="no"/>ma forma que super creata primo 
+      re<lb ed="#Bb" break="no"/>splenduit, ut dicit Dionysius, est lumen
+      <lb ed="#Bb"/>intellectuale, cujus propria imago et 
+      si<lb ed="#Bb" break="no"/>militudo est lumen corporale.
+    </p>
+            <p xml:id="Almn78-e12952-d1e343">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod informis 
+      for<lb ed="#Bb" break="no"/>mabilitas convenientissime intelligitur
+      <lb ed="#Bb"/>per terram. Terra enim recipit et tenet
+      <lb ed="#Bb"/>formas et figuras : eo quod simplicis est
+      <lb ed="#Bb"/>soliditatis et gravitatis et quictis. Et hoc
+      <lb ed="#Bb"/>non habet ignis, nec habet aer, nec aqua.
+      <lb ed="#Bb"/>lgnis enim motu calidi dissipat formas :
+      <lb ed="#Bb"/>eo quod motum habet movendi a 
+      cen<lb ed="#Bb" break="no"/>tro ad circumferentiam. Aer autem
+      <lb ed="#Bb"/>ratione humidi spiritualis quod 
+      ha<lb ed="#Bb" break="no"/>bet, non tenet eas, nec recipit eas
+      <lb ed="#Bb"/>secundum esse naturale, sed secundum
+      <lb ed="#Bb"/>esse spirituale sicut medium in sensu.
+      <lb ed="#Bb"/>Aqua vero recipit aliquid facile, sed non
+      <lb ed="#Bb"/>tenet. Unde hec duo elementa nec 
+      sim<lb ed="#Bb" break="no"/>pliciter levia, nec simpliciter gratia sunt:
+      <lb ed="#Bb"/>sed sunt levia in alio, et gravia in alio,
+      <lb ed="#Bb"/>ut dicit Philosophus in IV de Colo et
+      <lb ed="#Bb"/>Mundo. Et ideo facile decidunt a formis
+      <lb ed="#Bb"/>receptis.
+    </p>
+            <p xml:id="Almn78-e12952-d1e389">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod licet 
+      utrum<lb ed="#Bb" break="no"/>que sit intelligibile et sensibile apud
+      <lb ed="#Bb"/>utentes sensu, tamen celum in 
+      intelle<lb ed="#Bb" break="no"/>ctu fieri dicitur, hoc est, in lumine 
+      in<lb ed="#Bb" break="no"/>tellectus : quia ipsum de natura sui 
+      lu<lb ed="#Bb" break="no"/>minosum est, et sic est imago et 
+      simili<lb ed="#Bb" break="no"/>tudo luminis intellectualis, quod non
+      <lb ed="#Bb"/>habet terra. Terra vero dicitur fundari
+      <lb ed="#Bb"/>super aquas, non in quantum est terra,
+      <lb ed="#Bb"/>sive unum de quatuor elementis: quia
+      <lb ed="#Bb"/>sic ex ea nihil fit, ut dicit Avicenna,
+      <lb ed="#Bb"/>et ponitur in fine Meteororum, ubi dicit
+      <lb ed="#Bb"/>sic: <quote xml:id="Almn78-e12952-Qd1e419"> Terra pura lapis non fit: quia
+        <lb ed="#Bb"/>continuationem non facit, sed 
+        comminu<lb ed="#Bb" break="no"/>tionem, </quote> Dicit ergo fundari super aquas,
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>in quantum est materia formabilis in
+      <lb ed="#Bb"/>species corporeas : quia ex aquis recipit
+      <lb ed="#Bb"/>et continuationem et formabilitatem.
+    </p>
+            <p xml:id="Almn78-e12952-d1e436">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod manus Do~
+      <lb ed="#Bb"/>mini dicitur potestas operandi, que 
+      dici<lb ed="#Bb" break="no"/>tur terram fundasse, eo quod immobilis
+      <lb ed="#Bb"/>est in centro ad quam, sicut Alpetragius
+      <lb ed="#Bb"/>dicit in Astrologia sua, sumitur virtus
+      <lb ed="#Bb"/>primi motoris : et ideo immobilis est et
+      <lb ed="#Bb"/>quiescit : et est fundamentum aliorum
+      <lb ed="#Bb"/>elementorum, eo quod fundamentum
+      <lb ed="#Bb"/>non movetur, sed sustentat et terminat
+      <lb ed="#Bb"/>alia supereediticata. Et ideo dicit : Manus
+      <lb ed="#Bb"/>mea fundavit terram: quia potestas
+      <lb ed="#Bb"/>operationis divine hoc contulit terre.
+      <lb ed="#Bb"/>Dextera autem dicitur mensurasse 
+      coo<lb ed="#Bb" break="no"/>los: quia materia ceeli sola 
+      determina<lb ed="#Bb" break="no"/>tur quantitate, et non contrarietate :
+      <lb ed="#Bb"/>primum autem mensure subjacens in
+      <lb ed="#Bb"/>corporalibus, quantitas est : et hoc 
+      dici<lb ed="#Bb" break="no"/>tur fieri per dexteram, quia sicut dicit
+      <lb ed="#Bb"/>Philosophus in II de Celo et Mundo,
+      <lb ed="#Bb"/>dextera est unde motus : sinistra autem
+      <lb ed="#Bb"/>per quam fit regyratio. Kt quia vis 
+      mo<lb ed="#Bb" break="no"/>tiva et motus in omnibus sunt a motu
+      <lb ed="#Bb"/>celi, sicut dicit Philosophus in VIII
+      <lb ed="#Bb"/>Physicorum, quod est tamquam _ vita
+      <lb ed="#Bb"/>quedam existentibus omnibus : ideo 
+      di<lb ed="#Bb" break="no"/>ctum est hoc per dexteram ceeli factum,
+      <lb ed="#Bb"/>quia virtus motoris primi, qui est Deus,
+      <lb ed="#Bb"/>virtutem motivam causat in ccelo, et
+      <lb ed="#Bb"/>per ceelum in omnibus aliis mobilibus.
+      <lb ed="#Bb"/>Quidam tamen Sancti metaphorice 
+      lo<lb ed="#Bb" break="no"/>quentes, dicunt, quod dezxtera potior est
+      <lb ed="#Bb"/>pars in animali, et quod per dexteram
+      <lb ed="#Bb"/>intelliguntur potiora bona, que sunt in
+      <lb ed="#Bb"/>ceelo : et propter hoc dicuntur 
+      mensura<lb ed="#Bb" break="no"/>rt dextera.
+    </p>
+            <p xml:id="Almn78-e12952-d1e514">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod sicut 
+      di<lb ed="#Bb" break="no"/>cit Aristoteles in XI] Animalium, 
+      ma<lb ed="#Bb" break="no"/>nus est organum intellectus practici
+      <lb ed="#Bb"/>sive operativi: et divisa est manus in.
+      <lb ed="#Bb"/>digitos, ad subtilitatem et operis 
+      expres<lb ed="#Bb" break="no"/>sionem. Unde tres digiti quibus 
+      appendi<lb ed="#Bb" break="no"/>tur moles terre, tres sunt expressiones
+      <lb ed="#Bb"/>operis Dei in ipsa. Et he sunt gravitas,
+      <lb ed="#Bb"/>qua statin centro ut fundamentum, 
+      te<lb ed="#Bb" break="no"/>nens omnes impressiones que fiunt in
+      <lb ed="#Bb"/>ipsa a superioribus, Secunda est frigi
+      <pb ed="#Bb" n="510"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" break="no"/>ditas, qua disponitur ad generationem
+      <lb ed="#Bb"/>et corruptionem generabilium et 
+      corru<lb ed="#Bb" break="no"/>ptibilium. Tertia est siccitas, qua 
+      dispo<lb ed="#Bb" break="no"/>nitur ad tensionem formarum et 
+      figura<lb ed="#Bb" break="no"/>rum : ex qua causatur densitas et 
+      opaci<lb ed="#Bb" break="no"/>tas, ad quam cum fit reflexio 
+      lumina<lb ed="#Bb" break="no"/>rium superiorum, divaricatio fit 
+      lumi<lb ed="#Bb" break="no"/>nis et diffusio caloris, qua terrenascentia
+      <lb ed="#Bb"/>quasi concepto quodam spiritu vite 
+      vi<lb ed="#Bb" break="no"/>vificantur et moventur ad 
+      generatio<lb ed="#Bb" break="no"/>nem.
+    </p>
+            <p xml:id="Almn78-e12952-d1e570">
+               <lb ed="#Bb"/>Quidam tamen sacri expositores 
+      con<lb ed="#Bb" break="no"/>siderantes ista ex parte Dei creantis, et
+      <lb ed="#Bb"/>non ex parte terre create, dicunt Zres
+      <lb ed="#Bb"/>digitos esse potentiam Patris, 
+      sapien<lb ed="#Bb" break="no"/>tiam Filii, et bonitatem Spiritus sancti,
+      <lb ed="#Bb"/>quibus appensa est in centro moles 
+      ter<lb ed="#Bb" break="no"/>re. Et dicitur appensa, quia undique
+      <lb ed="#Bb"/>zqualiter distat a circumferentia cceli et
+      <lb ed="#Bb"/>aliorum elementorum. Celi autem 
+      di<lb ed="#Bb" break="no"/>cuntur ponderart palmo : palmus enim
+      <lb ed="#Bb"/>secundum Geometros est quantitas 
+      cir<lb ed="#Bb" break="no"/>culi, quem describit extremitas 
+      digito<lb ed="#Bb" break="no"/>rum clausa super pollicem, ut sit id
+      <lb ed="#Bb"/>quod tenetur manu, quasi in circulo
+      <lb ed="#Bb"/>contineatur. Et per hance metaphoram
+      <lb ed="#Bb"/>coli circumferentia exterior dicitur 
+      pon<lb ed="#Bb" break="no"/>derari palmo : quia intra ipsam 
+      contine<lb ed="#Bb" break="no"/>tur omnis creatura. Dicit enim 
+      Dama<lb ed="#Bb" break="no"/>scenus, quod <quote xml:id="Almn78-e12952-Qd1e613"> ccelum est continentia
+        <lb ed="#Bb"/>visibilium et invisibilium creaturarum. </quote>
+               <lb ed="#Bb"/>Sic enim universitas creaturarum manu
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>potentie divine continetur ne diffluat et
+      <lb ed="#Bb"/>dissolvatur in non esse.
+    </p>
+            <p xml:id="Almn78-e12952-d1e628">
+               <lb ed="#Bb"/>
+               <ref xml:id="Almn78-e12952-Rd1e632">
+                  <name xml:id="Almn78-e12952-Nd1e634">Plato</name> autem in <title>Timaeo</title>
+               </ref> aliam rationem
+      <lb ed="#Bb"/>dicit, quare in principio mundi sensibilis
+      <lb ed="#Bb"/>complevit Deus creationem mundi per
+      <lb ed="#Bb"/>celum et terram. Dicit enim, quod per
+      <lb ed="#Bb"/>ceelum significatur ignis, eo quod hoc
+      <lb ed="#Bb"/>dativum luminis est ex sui natura,
+      <lb ed="#Bb"/>Nullus autem sensuum inter eos qui 
+      sen<lb ed="#Bb" break="no"/>tiunt per medium extrinsecum, ita 
+      cer<lb ed="#Bb" break="no"/>tificat sicut visus, qui certificat per
+      <lb ed="#Bb"/>lumen, Inter sensus autem qui non 
+      sen<lb ed="#Bb" break="no"/>tiunt per medium distans, nullus ita
+      <lb ed="#Bb"/>certificat sicut tactus. Tangibilitatem 
+      au<lb ed="#Bb" break="no"/>tem facit terra. Et ideo Creator tamquam
+      <lb ed="#Bb"/>ex duobus solidis et firmis incepit mundi
+      <lb ed="#Bb"/>creationem: ponens corpus luminosum
+      <lb ed="#Bb"/>et luminis dativum in summo, et corpus
+      <lb ed="#Bb"/>opacum tangibile in imo, et media 
+      com<lb ed="#Bb" break="no"/>plens aere et aqua, ut perfectum sit
+      <lb ed="#Bb"/>mundi corpus. Aqua enim plus se habet
+      <lb ed="#Bb"/>ad terram, el aer plus ad ccelum igneum :
+      <lb ed="#Bb"/>sicut in mathematicis quelibet duo 
+      so<lb ed="#Bb" break="no"/>lida per media conjunguntur, ut patet.
+      <lb ed="#Bb"/>Si enim accipiam ter tria, sunt novem :
+      <lb ed="#Bb"/>et accipiam ter tria ter, sunt viginti
+      <lb ed="#Bb"/>septem. Et sunt duo solidi numeri 
+      con<lb ed="#Bb" break="no"/>juncti duobus mediis duodecim et decem
+      <lb ed="#Bb"/>et octo: et duodecim se habet ad novem
+      <lb ed="#Bb"/>in. sexquitertia proportione, et in eadem
+      <lb ed="#Bb"/>proportione se habet viginti septem ad
+      <lb ed="#Bb"/>decem et octo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

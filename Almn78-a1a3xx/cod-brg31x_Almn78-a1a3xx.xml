@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a1a3xx"><!-- p1prologus -->
+            <head xml:id="Almn78-a1a3xx-Hd1e106">Prologus</head>
+            <p xml:id="Almn78-a1a3xx-d1e109">
+               <pb ed="#Ba" n="1"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>D. ALBERTI MAGNI,
+<lb ed="#Ba"/>RATISBONENSIS EPISCOPI, ORDINIS PRADICATORUM,
+<lb ed="#Ba"/>PRIMA PARS
+<lb ed="#Ba"/>SUMMA THEOLOGLA.
+<lb ed="#Ba"/>PROLOGUS.
+<lb ed="#Ba"/>Mirabilis facta est scientia tua ex me: confortata est, et non potero ad eam '.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e129">
+               <lb ed="#Ba"/>In hae auctoritate sex notantur, quibus scientia sacrarum litterarum omnes
+<lb ed="#Ba"/>excellit alias scientias: quod notatur cum dicilt, Mirabilis. Primum est subjecti
+<lb ed="#Ba"/>mirabilitas. Secundum, ejus acquisitionis auctoritas: quod notatur per, Facta
+<lb ed="#Ba"/>est, Tertium, ejus certitudinis credulitas : quod notatur per,Sczentia tua. 
+Quar<lb ed="#Ba" break="no"/>tum, ad intellectum nostrum applicabilitas : quod notatur per hoc quod dicit,
+<lb ed="#Ba"/>Ke me. Quintum, demonstrationis ipsius fortissima veritas : quod notatur per
+<lb ed="#Ba"/>hoc quod dicit, Confortata est. Sextum, super nos et intellectum nostrum 
+altis<lb ed="#Ba" break="no"/>sima cjus dignitas : quod notatur per hoc quod dicit, ¢ non potero ad eam.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e149">
+               <lb ed="#Ba"/>Ex hoc quod mirabilis est, habet honorabilitatem. Cum enim scientie in 
+duo<lb ed="#Ba" break="no"/>bus differant, scilicet subjecti mirabilitate et honorabilitate, ef demonstrationis
+<lb ed="#Ba"/>cortitudine, ut in principio de Andma dicitur, constat illam honorabilissimam
+<lb ed="#Ba"/>oss quee de mirabilissimo et altissimo est. Hac autem theologia est, que ‘tota
+<lb ed="#Ba"/>do Deo est, secundum quod per omnia opera sua atting/t a fine usque ad finem
+<lb ed="#Ba"/>fortiter, ut disponit omnia suaviter. Sic enim innotescit in omnibus. In effecti<pb ed="#Ba" n="2"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>bus quidem nature per vestigium et imaginem, in operibus autem reparationis
+<lb ed="#Ba"/>per similitudinem gratiw, in actibus autem glorificationis sive beatificationis
+<lb ed="#Ba"/>per consummationem glories. Mirabilis igitur est : et ex hoc altissima et 
+nobi<lb ed="#Ba" break="no"/>lissima et honorabilissima.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e178">
+               <lb ed="#Ba"/>Facta est etiam in nobis alio quodam superiori eam efficiente. Est enim 
+im<lb ed="#Ba" break="no"/>pressio quedam ut sigillatio divine sapientia in nobis, ut mens humana Dei
+<lb ed="#Ba"/>sapientis sit sigillum, ef impressa formis et rationibus cause prime in 
+sa<lb ed="#Ba" break="no"/>pientia sua creantis et reparantis et glorificantis sua ‘causata. Quod dicitur,
+<lb ed="#Ba"/>Cantic. vin, 6: Pone me ut signaculum super cor tuum. Quod exponens 
+Grego<lb ed="#Ba" break="no"/>rius dicit : <quote xml:id="Almn78-a1a3xx-Qd1e193"> Signaculum est sigillum profundatum. </quote> Propter quod, Ezechiel.
+<lb ed="#Ba"/>XXVIII, 12, dicitur de Angelo cateros excellente in sapientia: Tu signaculum
+<lb ed="#Ba"/>similitudinis, plenus sapientia, et perfectus decore. Per talem ergo impressionem
+<lb ed="#Ba"/>factam in nobis, constat quod fit in nobis, nobis ascendentibus ad Deum, et ad
+<lb ed="#Ba"/>ipsam, sicut cera ascendens ad sigillum, et non e converso. Propter quod 
+ora<lb ed="#Ba" break="no"/>tione et devotione plus acquiritur quam studio. Sapient. vu, 7: Optavi, et datus
+<lb ed="#Ba"/>est mihi sensus : invocavi, et venit in me sptritus sapienti#. Ex hoc infert 
+Augusti<lb ed="#Ba" break="no"/>nus inlibro VIII de 7rinitate, quod quia cor hominis ascendit ad illam, necesse
+<lb ed="#Ba"/>est quod in sola illa cor hominis exaltetur. Alia quippe scibilia vel equalia
+<lb ed="#Ba"/>sunt, vel inferiora corde humano: propter quod secundum quod in corde 
+hu<lb ed="#Ba" break="no"/>mano sunt, exaltationem recipiunt et nobilius esse quam habent in seipsis, 
+sic<lb ed="#Ba" break="no"/>ul nobilius est incorruptibile quam corruptibile. Sola autem illa est que cor
+<lb ed="#Ba"/>elevat, et elevatum purificat, et in eterna fundatimmortalitate. Sapient. xv, 3:
+<lb ed="#Ba"/>Nosse te, consummata justitia est : et scire justitiam tuam et virtutem tuam, radix
+<lb ed="#Ba"/>est immortalitatis. Hinc est quod dicit Alpharabius in libro de Intellectu et 
+in<lb ed="#Ba" break="no"/>telligibild, quod omnes Philosophiin intellectu adepto divino radicem 
+posue<lb ed="#Ba" break="no"/>runt immortalitatis anime. Licet autem sic facta sit, ut dicit Dionysius de
+<lb ed="#Ba"/>Ierotheo, quod patiendo divina didicit, tamen studium ad hoc cooperatur sicut
+<lb ed="#Ba"/>dispositio in subjecto. Propter quod studium sacrarum litterarum multum
+<lb ed="#Ba"/>commendat Hieronymus in Proemio galeato, et dicit, quod hoc commendat
+<lb ed="#Ba"/>Paulus in discipulo suo Timotheo. Dicit etiam, quod propter hoc oportet 
+Episco<lb ed="#Ba" break="no"/>pum esse amplectentem eum, qui secundum doctrinam est, fidelem sermonem, ut
+<lb ed="#Ba"/>potens sitexhortari in doctrina sana, et eos qui coniradicunt arguere '.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e245">
+               <lb ed="#Ba"/>Est etiam haec scientia certissime credulitatis et fidei. Aliae enim scientize
+<lb ed="#Ba"/>que de creaturis sunt, quamvis rationes habeant immobiles, tamen ee#dem
+<lb ed="#Ba"/>rationes per essein rebus creatis ac pie, mobiles sunt: hec autem in 
+rationi<lb ed="#Ba" break="no"/>bus eeternis fundata, penitus est immobilis et secundum esse et secundum 
+ra<lb ed="#Ba" break="no"/>tionem. Et cum scientia sit stans habitus et immobilis ex intellectualibus
+<lb ed="#Ba"/>acceptus et factus, ef non ex sensibilibus vel imaginabilibus, eo quod illa
+<lb ed="#Ba"/>ab appendiciis materie separata non sunt, planum est hance vel solam
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e263">
+               <pb ed="#Ba" n="3"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>vel precipuam esse scientiam : nihil enim nisi intellectuale est 
+intelle<lb ed="#Ba" break="no"/>ctus divinus, prout ipse lux est et causa omnium intelligibilium ; et ex illo nobis
+<lb ed="#Ba"/>est scientia divina. Et hoc est quod dicitur, Psal. xxxv, 10: In lumine tuo
+<lb ed="#Ba"/>videbimus lumen. Et, Psal. iv, 7: Signatum est super nos lumen vultus tui, 
+Do<lb ed="#Ba" break="no"/>mine: dedisti letitiam in corde meo. Hine est quod dicit Averroes, quod <quote xml:id="Almn78-a1a3xx-Qd1e280"> scibile
+  <lb ed="#Ba"/>illud quod omnes homines natura scire desiderant, intellectus divinus est,
+  <lb ed="#Ba"/>prout primam habet influentiam super omnia intelligentia et intelligibilia,
+  <lb ed="#Ba"/>conferens intelligentibus virtutem qua possint intelligere, et dans intelligibi-
+  <lb ed="#Ba"/>libus lumen quo movere valeant intellectum ad actum intelligendi. </quote> Et hoc
+<lb ed="#Ba"/>est quod dicit Dionysius in libro de Divinis nomintbus, quod <quote xml:id="Almn78-a1a3xx-Qd1e293"> intellectus divinus
+  <lb ed="#Ba"/>per omnes se expandit intellectuales vultus'. </quote> Il ad Corinth. 1v, 6: Deus, qui
+<lb ed="#Ba"/>dicit de tenebris lumen splendescere, tpse wluxit in cordibus nostris, ad 
+illumina<lb ed="#Ba" break="no"/>tionem scienti# claritatis Det, in facie Christi Jesu. Ex intelligibilibus ergo solis
+<lb ed="#Ba"/>est, et ex prima forma intelligendi omne quod intelligitur, et quod ab omni
+<lb ed="#Ba"/>homine scire desideratur. Si enim propter quod unumquodque tale, et illud
+<lb ed="#Ba"/>magis, ul dicit Aristoteles in 1 Postercorum: scimus autem secunda propter
+<lb ed="#Ba"/>prima: si natura scire desideramus secunda, multo magis desideramus scire
+<lb ed="#Ba"/>prima.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e314">
+               <lb ed="#Ba"/>Et sic dicitur, Scientia tua, secundum causam formalem omnis scibilis et
+<lb ed="#Ba"/>omnis scientis.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e321">
+               <lb ed="#Ba"/>Dicitur etiam, Scientia tua, secundum causam efficientem : eo quod Deus
+<lb ed="#Ba"/>largitate sua hance efficit in nobis per Spiritum sanctum. Joan. xvi, 13: Cum
+<lb ed="#Ba"/>venerit ille Sptritus veritatis, docebit vos omnem veritatem, Jerem. xxx1, 34: Non
+<lb ed="#Ba"/>docebit ultra vir proximum suum etvir fratrem suum dicens: Cognosce Dominum ;
+<lb ed="#Ba"/>omnes enim cognoscent me, a minimo eorum usque ad maximum.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e334">
+               <lb ed="#Ba"/>Est etiam scientia subjecti ut de quo : quia de ipso est. Et si objicitur, quod
+<lb ed="#Ba"/>materia cum efficiente et forma non coincidit in idem, ut dicit Aristoteles in
+<lb ed="#Ba"/>Il Physicorum. Dicimus, quod hoc intelligitur de materia ex qua, et non de
+<lb ed="#Ba"/>materia circa quam : alioquin instantia erit in omni intellecto et volito, quod
+<lb ed="#Ba"/>et materia et forma finis est intellectus et voluntatis.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e347">
+               <lb ed="#Ba"/>Dicitur etiam, Sczentia tua, quia ad Deum est sicut ad finem. Hine est enim
+<lb ed="#Ba"/>quod in Psalmo xu, 3, dicitur: Emitte lucem tuam et veritatem tuam : ipsa me
+<lb ed="#Ba"/>deduxerunt, et adduxerunt tn montem sanctum tuum, et in tabernacula tua. Ex
+<lb ed="#Ba"/>hoc consequens est, quod hec scientia sola sapientia sit, vel maxime. ‘Dicit
+<lb ed="#Ba"/>enim Philosophus in I prime philosophig, quod illa scientia maxime sapientia
+<lb ed="#Ba"/>est, cujus finis intus est et sciendi gratia sive causa. Hee autem scientia haec
+<lb ed="#Ba"/>omnia habet. Est enim ab intellectu divino sicut ab efficiente, et ex intellectu
+<lb ed="#Ba"/>divino sicut a primo formali, et de ipso prout est ars plena rationibus omnium
+<lb ed="#Ba"/>que suntet ad ipsum et propter ipsum sicut ad finem. Primum attribuitur
+<pb ed="#Ba" n="4"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Patri. Secundum et tertium Filio, secundum quod est virtus et sapientia Patris :
+<lb ed="#Ba"/>secundum quidem attribuitur ei in eo quod est virtus Patris, tertium vero in eo
+<lb ed="#Ba"/>quod est sapientia. Quartum autem attribuitur Spiritui sancto.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e381">
+               <lb ed="#Ba"/>Haec etiam scientia intellectui nostro maxime est applicabilis: et ideo in ipsa
+<lb ed="#Ba"/>maxime quiescit anima. Si enim omne intelligibile per hoc applicabile est 
+in<lb ed="#Ba" break="no"/>tellectui nostro, quod intelligibile est, hoc est, ad lumen scientia deputatum,
+<lb ed="#Ba"/>illud quod maxime est intelligibile et in purissimo intelligentice lumine, 
+ma<lb ed="#Ba" break="no"/>xime erit applicabile secundum naturam. Unde, Jacobi, 1, 2) : In mansuetudine
+<lb ed="#Ba"/>suscipite insitum verbum, quod potest salvare animas vestras. Ubi dicit Glossa,
+<lb ed="#Ba"/>quod insitum est per naturam. Ad Roman. x, 8: Prope est verbum inore tuo .
+<lb ed="#Ba"/>Cujus ratio est, quod in nullo scibili quiescit animus, nisi deducat illud ad
+<lb ed="#Ba"/>scibile primum, ad quod non est aliquod medium: et tunc quiescit et stat in
+<lb ed="#Ba"/>illo, et in omnibus aliis assentit propter illud.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e405">
+               <lb ed="#Ba"/>Cum igitur jam constet, quod hec scientia est de scibili primo, prout lux
+<lb ed="#Ba"/>luminum est in seipso, et relucens in omnibus aliis, constat quod in ipsa 
+ma<lb ed="#Ba" break="no"/>axime quiescit animus hominis.
+</p>
+            <p xml:id="Almn78-a1a3xx-d1e414">
+               <lb ed="#Ba"/>Et si objicitur, quod dicit Philosophus in II Metaphysice, quod <quote xml:id="Almn78-a1a3xx-Qd1e418"> dispositio
+  <lb ed="#Ba"/>nostri intellectus ad manifestissima nature est sicut dispositio oculorum
+  <lb ed="#Ba"/>vespertilionis ad lumen solis. </quote> Oculus autem vespertilionis nihil videt in
+<lb ed="#Ba"/>lumine solis, sed fugit ipsum. Ergo et noster intellectus manifestissima et
+<lb ed="#Ba"/>prima fugiet, et non quiescet in eis. Dicimus, quod hoc accidit oculis 
+vesperti<lb ed="#Ba" break="no"/>lionis in quantum sunt vespertilionis scilicet, et non in quantum sunt oculi.
+<lb ed="#Ba"/>Oculi quippe herodii applicantur lumini solis in rota, et quiescunt in ipsa. Et
+<lb ed="#Ba"/>sic accidit intellectui in quantum noster est, hoc est, cum continuo et tempore,
+<lb ed="#Ba"/>reverberari a nature manifestissimis et primis. In quantum autem intellectus
+<lb ed="#Ba"/>est et queedam pars divina, ut dicit Philosophus in VI Ethicorum, nihil adeo
+<lb ed="#Ba"/>convenil ei sicut quiescere in primis. Et ideo docent Philosophi, quod aliquis
+<lb ed="#Ba"/>per separationem a continuo et tempore, hoc est, ab imaginabilibus et 
+sensibi<lb ed="#Ba" break="no"/>libus, suum adipiscatur intellectum, ut possesso intellectu applicando ea ad
+<lb ed="#Ba"/>divina quieseat. Augustinus in libro 1 Con/fesstonum: <quote xml:id="Almn78-a1a3xx-Qd1e449"> Fecisti nos ad te, 
+Do<lb ed="#Ba" break="no"/>
+                  <quote xml:id="Almn78-a1a3xx-Qd1e453"> mine, et irrequietum est cor nostrum, donec requiescat in te.</quote> Hoe respectu
+<lb ed="#Ba"/>theologia que natura omnium scientiarum est prima, ultima efficitur ordine
+<lb ed="#Ba"/>studii et inquisitionis. Propter quod dicit <name xml:id="Almn78-a1a3xx-Nd1e460">Alpharabius</name>, quod  in studio illius
+<lb ed="#Ba"/>Philosophi vilam finierunt. </quote>
+            </p>
+            <p xml:id="Almn78-a1a3xx-d1e468">
+               <lb ed="#Ba"/>Est etiam in demonstratione fortissime veritatis : eo quod per revelationem
+<lb ed="#Ba"/>primiluminis omnia demonstret que probat. Aliw aulem per lucem 
+intelli<lb ed="#Ba" break="no"/>gentie in creatis acceptam, que lux sepe occumbit subjecti malitia in quo est
+<lb ed="#Ba"/>et caligine phantasiarum. Ista autem demonstrat per lucem puram et 
+invinci<lb ed="#Ba" break="no"/>bilem ef immutabilem. Sapient. vir, 29 et 30 : Luc? comparata, invenitur prior.
+<pb ed="#Ba" n="5"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Illi enim succedit nox: sapientiam autem non vineit malitia. Joan, 1, 4et5, de
+<lb ed="#Ba"/>luce quae vita est: Et vdta erat lux hominum., Et luz in ienebris lucet, et tenebre
+<lb ed="#Ba"/>eam non comprehenderunt. Chrysostomus in Original? super idem huic verbo
+<lb ed="#Ba"/>addens dicit : <quote xml:id="Almn78-a1a3xx-Qd1e494"> Quin potius lux comprehendit tenebras, et sui claritate 
+dis<lb ed="#Ba" break="no"/>sipat. </quote>
+            </p>
+            <p xml:id="Almn78-a1a3xx-d1e500">
+               <lb ed="#Ba"/>Altissima etiam ejus dignitas est, quod supra est non tantum nos, sed etiam
+<lb ed="#Ba"/>Angelicum intellectum posita, quam solus Deus perfecte habet et possidet,
+<lb ed="#Ba"/>Unde Augustinus in libro de Videndo Deum ad Paulinam: <quote xml:id="Almn78-a1a3xx-Qd1e508"> Scire Deum 
+possu<lb ed="#Ba" break="no"/>mus, comprehendere vero minime, </quote> Scire, est suprema mentis nostre 
+vir<lb ed="#Ba" break="no"/>tute per intellectum tangere. Comprehendere autem, discursus et contactus
+<lb ed="#Ba"/>intollectus est supra terminos rei: quod in infinito fieri non potest et 
+incireum<lb ed="#Ba" break="no"/>seripto. Propter quod dicit Damascenus, quod <quote xml:id="Almn78-a1a3xx-Qd1e520"> Deus infinitus dicitur, quia
+<lb ed="#Ba"/>nec loco, nec tempore,nec intellectu mensuratur.</quote> Et Anselmus in Prosologio,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a1a3xx-Qd1e527"> Deusest majus quam cogitari possit vel intelligi. </quote> Augustinus in libro
+<lb ed="#Ba"/>Ide Trinitate: <quote xml:id="Almn78-a1a3xx-Qd1e533"> Mentis humane invalida acies in tam excellenti luce non 
+figi<lb ed="#Ba" break="no"/>tur, nisi per justitiam fidei emundetur '. </quote> Ad Roman. x1, 34: Quis cognovit
+<lb ed="#Ba"/>sensum Domini ? Et ideo in hac scientia quilibet proficere poterit, numquam
+<lb ed="#Ba"/>aulem ad ultimum perfici: quia hoc esset comprehendere, ita quod nihil sui
+<lb ed="#Ba"/>esset extra intellectum. Ad Ephes. m, 20 et 21: Ed gut potens est omnia facere
+<lb ed="#Ba"/>superabundanier quam petimus aut intelligimus, secundum virtutem que operatur
+<lb ed="#Ba"/>tn nobis, tpst gloriain Ecclesia, et in Christo Jesu, in omnes generationes seculi
+<lb ed="#Ba"/>seculorum. Amen.
+<lb ed="#Ba"/>EXPLICIT PROLOGUS.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

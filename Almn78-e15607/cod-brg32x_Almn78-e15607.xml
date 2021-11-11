@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 47</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 47</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="520"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e15607"><!-- p2t11q47 -->
+            <head xml:id="Almn78-e15607-Hd1e106">Quaestio 47</head>
+            <head xml:id="Almn78-e15607-Hd1e109" type="question-title">
+      De duplici expositione Glossae super eo quod dicitur, Genes. I, 1 :
+      In principio creavit Deus, etc. Exponit enim de principio 
+      efficiente, et de principio quod est initium temporis.
+    </head>
+            <p xml:id="Almn78-e15607-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XLVI.
+      <lb ed="#Bb"/>De duplici expositione Glossae super eo quod dicitur, Genes. I, 1 :
+      <lb ed="#Bb"/>In principio creavit Deus, etc. Exponit enim de principio 
+      effi<lb ed="#Bb" break="no"/>ciente, et de principio quod est initium temporis.
+    </p>
+            <p xml:id="Almn78-e15607-d1e125">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde, Queritur de hoc quod dicit
+      <lb ed="#Bb"/>Magister in libro II Sententiarum, 
+      di<lb ed="#Bb" break="no"/>stinct. XH, Seeandum hanc itaque 
+      tradi<lb ed="#Bb" break="no"/>tionem, ubi dicit : In prineipio creavit
+      <lb ed="#Bb"/>Deus celum et terram'. Quod Glossa
+      <lb ed="#Bb"/>dupliciter exponit, scilicet de principio
+      <lb ed="#Bb"/>efficiente, et de principio quod est 
+      ini<lb ed="#Bb" break="no"/>tium temporis.
+    </p>
+            <p xml:id="Almn78-e15607-d1e147">
+               <lb ed="#Bb"/>De principio efficiente dicit sic : In
+      <lb ed="#Bb"/>principio, hoc est, in Filio creavit-Deus.
+    </p>
+            <p xml:id="Almn78-e15607-d1e155">
+               <lb ed="#Bb"/>SED contra est, quod
+      <lb ed="#Bb"/>Pater est principium non de principio :
+      <lb ed="#Bb"/>Filius principium de principio : principium
+      <lb ed="#Bb"/>ergo absolute dictum magis convenire 
+      vi<lb ed="#Bb" break="no"/>detur Patri quam Filio : et sic expositio
+      <lb ed="#Bb"/>videtur esse inconveniens. Quia quando
+      <lb ed="#Bb"/>dicitur: In principio creavit, magis 
+      de<lb ed="#Bb" break="no"/>bet intelligi Pater quam Filius : et sic 
+      ma<lb ed="#Bb" break="no"/>gis deberet exponi, in principio, hoc est,
+      <lb ed="#Bb"/>in Patre, quam in Filio.
+    </p>
+            <p xml:id="Almn78-e15607-d1e179">
+               <lb ed="#Bb"/>2. Adhuec, Creatio primus actus est,
+      <lb ed="#Bb"/>qui non nisi Deo convenit : videtur ergo,
+      <lb ed="#Bb"/>quod ille debeat appropriari primo prin
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>cipio. Ratio autem principii in se habet,
+      <lb ed="#Bb"/>quod non sit de principio. Cum ergo
+      <lb ed="#Bb"/>Pater sit principium non de principio,
+      <lb ed="#Bb"/>Filius autem principium de principio,
+      <lb ed="#Bb"/>et sic aliquo modo Filius habeat 
+      ratio<lb ed="#Bb" break="no"/>nem principiati, Pater autem rationem
+      <lb ed="#Bb"/>principii tantum, videtur quod creatio
+      <lb ed="#Bb"/>que primus actus est principii facientis
+      <lb ed="#Bb"/>esse in omnibus que sunt (ut dicit 
+      Avi<lb ed="#Bb" break="no"/>cenna) magis competat Patri quam Filio.
+    </p>
+            <p xml:id="Almn78-e15607-d1e212">
+               <lb ed="#Bb"/>3. Adhuc, Factio est productio rei 
+      exi<lb ed="#Bb" break="no"/>stentis in materia rei ad esse distinctum
+      <lb ed="#Bb"/>in forma, et hoc attribuitur Filio, Joan.
+      <lb ed="#Bb"/>1,3: Omnia per ipsum facta sunt. 
+      Crea<lb ed="#Bb" break="no"/>tio cum non sit factio, sed ante 
+      factio<lb ed="#Bb" break="no"/>nem, sicut ordine nature Filius ex Patre
+      <lb ed="#Bb"/>est, et non Pater ex Filio, quamvis Pater
+      <lb ed="#Bb"/>non sit prior Filio eternitate vel 
+      dura<lb ed="#Bb" break="no"/>tione evi vel temporis : ita videtur, quod
+      <lb ed="#Bb"/>creatio plus convenit Patri, quam Filio.
+    </p>
+            <p xml:id="Almn78-e15607-d1e236">
+               <lb ed="#Bb"/>4, Adhuc, Opera Trinitatis indivisa
+      <lb ed="#Bb"/>sunt : quia ratione unius essentia, que
+      <lb ed="#Bb"/>est in tribus, Trinitati attribuuntur.
+      <pb ed="#Bb" n="521"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Creatio autem opus Trinitatis est : et sic
+      <lb ed="#Bb"/>Pater et Filius et Spiritus sanctus sunt
+      <lb ed="#Bb"/>unus creans, sicut unus Deus. Cum ergo
+      <lb ed="#Bb"/>dicitur : In principio creavit Deus celum
+      <lb ed="#Bb"/>et terram, intellectu informato per fidem
+      <lb ed="#Bb"/>intelligitur Filius creans sicut et Pater,
+      <lb ed="#Bb"/>Sed inconvenienter dicitur, Filius creat
+      <lb ed="#Bb"/>in Filio ceelum et terram : ergo 
+      incon<lb ed="#Bb" break="no"/>venienter dicitur : Jn principio creavit
+      <lb ed="#Bb"/>Deus celum et terram, exponendo de
+      <lb ed="#Bb"/>Filio.
+    </p>
+            <p xml:id="Almn78-e15607-d1e273">
+               <lb ed="#Bb"/>5. Adhuc, Plato in Timzo dicit, quod
+      <lb ed="#Bb"/>si quis dicit solam voluntatem Dei 
+      cau<lb ed="#Bb" break="no"/>sam esse creationis mundi, verissime 
+      di<lb ed="#Bb" break="no"/>cit. Et hoc confirmatur per Augustinum
+      <lb ed="#Bb"/>qui dicit, quod credimus omnium 
+      crea<lb ed="#Bb" break="no"/>turarum non esse causam nisi 
+      volunta<lb ed="#Bb" break="no"/>tem creatoris. Et probatur in libro II 
+      Sen<lb ed="#Bb" break="no"/>tentiarum, distinct. I. Voluntas autem
+      <lb ed="#Bb"/>attribuitur Spiritui sancto, qui est 
+      prin<lb ed="#Bb" break="no"/>cipium de utroque principio, ut dicit
+      <lb ed="#Bb"/>Augustinus. Cum ergo dicitur : Jn 
+      prin<lb ed="#Bb" break="no"/>cipio creavit Deus celum et terram,
+      <lb ed="#Bb"/>secundum expositionem qua exponitur
+      <lb ed="#Bb"/>de principio effectivo, per principium
+      <lb ed="#Bb"/>magis deberet intelligi Spiritus sanctus,
+      <lb ed="#Bb"/>quam Filius, quia Spiritui sancto 
+      attri<lb ed="#Bb" break="no"/>buitur voluntas.
+    </p>
+            <p xml:id="Almn78-e15607-d1e312">
+               <lb ed="#Bb"/>6. Adhuc, Ad principium effectivam
+      <lb ed="#Bb"/>per intellectam tria exiguntur : posse,
+      <lb ed="#Bb"/>scire, et velle. Et in his velle, 
+      completi<lb ed="#Bb" break="no"/>vum est, ex quo sequitur actus principii :
+      <lb ed="#Bb"/>posse autem attribuitur Patri, Filio scire,
+      <lb ed="#Bb"/>velle Spiritui sancto. Cum ergo dicitur :
+      <lb ed="#Bb"/>in principio creavit, et per principium
+      <lb ed="#Bb"/>intelligitur principium in actu, et 
+      volun<lb ed="#Bb" break="no"/>tas facit principium in actu, non potentia,
+      <lb ed="#Bb"/>nec scientia : videtur quod cum dicitur ;
+      <lb ed="#Bb"/>In principio creavit Deus celum et 
+      ter<lb ed="#Bb" break="no"/>ram, magis intelligatur per principium
+      <lb ed="#Bb"/>Spiritus sanctus, quam Pater, vel Filius.
+    </p>
+            <p xml:id="Almn78-e15607-d1e344">
+               <lb ed="#Bb"/>Simtuizer objicitur contra secundam
+      <lb ed="#Bb"/>expositionem que dicit : In principio,
+      <lb ed="#Bb"/>hoc est, in initio temporis.
+    </p>
+            <p xml:id="Almn78-e15607-d1e353">
+               <lb ed="#Bb"/>4. Initium enim temporis (ut dicit 
+      Boe<lb ed="#Bb" break="no"/>tius in libro de 7rinitate, et in libro V de
+      <lb ed="#Bb"/>Consolatione philosophiz) est nunc 
+      con<lb ed="#Bb" break="no"/>tinue fluens a preterito in presens, et a
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>presenti in futurum. Nune autem, ut 
+      di<lb ed="#Bb" break="no"/>cit Aristoteles, non est tempus, nec pars
+      <lb ed="#Bb"/>temporis, sed substantia que eadem est
+      <lb ed="#Bb"/>in toto tempore. Initium autem rei 
+      ali<lb ed="#Bb" break="no"/>quid rei est : sicut initium domus quod
+      <lb ed="#Bb"/>est fundamentum, aliqua pars domus
+      <lb ed="#Bb"/>est. Male ergo exponitur cum dicitur :
+      <lb ed="#Bb"/>In principio, hoc est, in initio temporis :
+      <lb ed="#Bb"/>quod nihil temporis est.
+    </p>
+            <p xml:id="Almn78-e15607-d1e386">
+               <lb ed="#Bb"/>2. Adhuc, Tempus est unum de 
+      cow<lb ed="#Bb" break="no"/>quevis, ut dicit Augustinus, quod simul
+      <lb ed="#Bb"/>cum ccelo, et angelica natura, et materia
+      <lb ed="#Bb"/>prima creatum est. Cum ergo dicitur :
+      <lb ed="#Bb"/>In principio creavit Deus celum et 
+      ter<lb ed="#Bb" break="no"/>ram, sensus est, quod in principio 
+      tem<lb ed="#Bb" break="no"/>poris creavit Deus tempus. Sicut ergo in
+      <lb ed="#Bb"/>principio creavit Deus ccelum et terram :
+      <lb ed="#Bb"/>et sequitur, quod ceelum est ccelum, et
+      <lb ed="#Bb"/>terra est terra : ita sequi debet : [n initio
+      <lb ed="#Bb"/>temporis creavit Deus tempus : ergo in
+      <lb ed="#Bb"/>initio temporis est tempus, quod falsum
+      <lb ed="#Bb"/>est.
+    </p>
+            <p xml:id="Almn78-e15607-d1e417">
+               <lb ed="#Bb"/>3. Adhuc queritur, Quid dicatur 
+      coe<lb ed="#Bb" break="no"/>lum et terra? Si enim per terram 
+      intelli<lb ed="#Bb" break="no"/>gitur primordialis materia, cum tam
+      <lb ed="#Bb"/>coelum quam terra ex primordiali 
+      mate<lb ed="#Bb" break="no"/>ria facta sint, videtur quod non debuit.
+      <lb ed="#Bb"/>dicere : In principio creavit Deus celum
+      <lb ed="#Bb"/>et terram, cam ceelum et terra dicant res
+      <lb ed="#Bb"/>determinatas ad formam : sed debuit di~
+      <lb ed="#Bb"/>cere : In principio creavit Deus 
+      mate<lb ed="#Bb" break="no"/>riam, quam postea distinxit ad formam
+      <lb ed="#Bb"/>ceeli et terre : diversa enim opera Dei
+      <lb ed="#Bb"/>sunt creationis et distinctionis.
+    </p>
+            <p xml:id="Almn78-e15607-d1e446">
+               <lb ed="#Bb"/>4, Adhuc, Non videtur valere ratio
+      <lb ed="#Bb"/>Augustini quam ponit Magister ibidem :
+      <lb ed="#Bb"/>quia scilicet terra inter omnia elementa
+      <lb ed="#Bb"/>minus est speciosa, et ideo inanis erit et
+      <lb ed="#Bb"/>incomposita. Vel secundum nostram
+      <lb ed="#Bb"/>translationem, inanis et vacua, propter
+      <lb ed="#Bb"/>elementorum omnium commixtionem :
+      <lb ed="#Bb"/>quia, sicut ibidem dicit Augustinus 
+      con<lb ed="#Bb" break="no"/>tra Manicheos, aliquando vocat eam
+      <lb ed="#Bb"/>aquam, . aliquando abyssum, et multis
+      <lb ed="#Bb"/>aliis nominibus. Simplici ergo nomine
+      <lb ed="#Bb"/>terre designari non debuit.
+    </p>
+            <p xml:id="Almn78-e15607-d1e475">
+               <lb ed="#Bb"/>5, Adhuc. Sicut ex informi materia
+      <lb ed="#Bb"/>distinct sunt res terrene : ita ex eadem
+      <lb ed="#Bb"/>informi materia sunt distincte res ce
+      <pb ed="#Bb" n="522"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>lestes, sicut firmamentum, quod est in
+      <lb ed="#Bb"/>medio aquarum, et sol, et luna, et 
+      stel<lb ed="#Bb" break="no"/>le. Si ergo omnia ista designantur in
+      <lb ed="#Bb"/>informi materia, que nomine terre 
+      de<lb ed="#Bb" break="no"/>scribitur, videtur quod suffecisset dicere :
+      <lb ed="#Bb"/>In principio creavit Deus terram, et non
+      <lb ed="#Bb"/>oportuit dicere, coelum et terram.
+    </p>
+            <p xml:id="Almn78-e15607-d1e505">
+               <lb ed="#Bb"/>6. Adhuc, Non videtur valere ratio
+      <lb ed="#Bb"/>Augustini que ibidem ponitur a 
+      Magi<lb ed="#Bb" break="no"/>stro in libro UH Sententiarum, dist. XII,
+      <lb ed="#Bb"/>cap. Secundum hance itaque traditionem,
+      <lb ed="#Bb"/>quod scilicet multis nominibus vocat
+      <lb ed="#Bb"/>materiam, ut res ignota notis vocabulis
+      <lb ed="#Bb"/>insinuaretur imperitioribus, et non una
+      <lb ed="#Bb"/>tantum : nam si uno tantum 
+      significare<lb ed="#Bb" break="no"/>tur vocabulo, hoc esse putaretur quod
+      <lb ed="#Bb"/>consueverant homines in illo vocabulo
+      <lb ed="#Bb"/>intelligere. Significatum enim uno 
+      voca<lb ed="#Bb" break="no"/>bulo, distincte significatur : significatum
+      <lb ed="#Bb"/>multis confuse significatur : distincta
+      <lb ed="#Bb"/>autem signilicatio melior est et erudit
+      <lb ed="#Bb"/>certius imperitos quam confusa: nihil
+      <lb ed="#Bb"/>ergo est hoc dictum quod dixit 
+      Augu<lb ed="#Bb" break="no"/>stinus, quod propter erudifionem 
+      imperi<lb ed="#Bb" break="no"/>torum significavit eam multis vocabulis :
+      <lb ed="#Bb"/>quia multitudo vocabulorum confundit
+      <lb ed="#Bb"/>et impedit eruditionem imperitorum.
+    </p>
+            <p xml:id="Almn78-e15607-d1e551">
+               <lb ed="#Bb"/>7. Adhuc, Queritur de hoc quod in 
+      eo<lb ed="#Bb" break="no"/>dem capitulo dicit, quod tenebrz erant sus
+      <lb ed="#Bb"/>per faciem abyssi*‘. Et dicit Augustinus,
+      <lb ed="#Bb"/>quod abyssum vocat primam materiam,
+      <lb ed="#Bb"/>que sine candore fuit distinctionis et
+      <lb ed="#Bb"/>ornatus per formam et locum. Ex hoc
+      <lb ed="#Bb"/>enim objicit Manicheus, quod Deus
+      <lb ed="#Bb"/>creans seculum, prius habitavit in 
+      tene<lb ed="#Bb" break="no"/>bris quam in luce, et quod regio 
+      tene<lb ed="#Bb" break="no"/>brarumest, et Deus tenebrarum, et quod
+      <lb ed="#Bb"/>tenebre fuerunt ante lucem et lucis 
+      cor<lb ed="#Bb" break="no"/>poralis principium. Et si dicitur 
+      secun<lb ed="#Bb" break="no"/>dum Augustinum, quod tenebrae nihil
+      <lb ed="#Bb"/>sint : sicut privatio nihil est, ut ibidem
+      <lb ed="#Bb"/>dicitur, sicut silentium non est aliqua
+      <lb ed="#Bb"/>res, sed ubi sonus non est, silentium
+      <lb ed="#Bb"/>esse dicitur : et nuditas non est aliqua
+      <lb ed="#Bb"/>res, sed in corpore, ubi non est tegu
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>mentum, nuditas esse dicitur : et sicut
+      <lb ed="#Bb"/>inanitas non est aliquid, sed inanis 
+      dici<lb ed="#Bb" break="no"/>tur locus, ubi corpus non est, et inanitas
+      <lb ed="#Bb"/>non est nisi absentia corporis implentis
+      <lb ed="#Bb"/>locum.
+    </p>
+            <p xml:id="Almn78-e15607-d1e606">
+               <lb ed="#Bb"/>Contra hoc objicit Magister ibidem in
+      <lb ed="#Bb"/>cap. Adtende quod hic Augustinus dicit °.
+      <lb ed="#Bb"/>Et objectio sua hujus virtutis est, quod.
+      <lb ed="#Bb"/>quidquid inducitur ad laudandum Deum,
+      <lb ed="#Bb"/>aliquid est. Tenebre inducuntur ad 
+      lau<lb ed="#Bb" break="no"/>dandum Deum. Daniel. m1, 72 in hymno
+      <lb ed="#Bb"/>puerorum : Benedicite, lux et  
+      tene<lb ed="#Bb" break="no"/>bre, Domino. Non ergo tenebre nihil
+      <lb ed="#Bb"/>sunt, sed aliqua res.
+    </p>
+            <p xml:id="Almn78-e15607-d1e628">
+               <lb ed="#Bb"/>8. Adhuc, Ordo creationis non est
+      <lb ed="#Bb"/>contrarius ordini nature : sed ordine
+      <lb ed="#Bb"/>nature habitus precedit privationem, et
+      <lb ed="#Bb"/>affirmatio negationem, et lux tenebras :
+      <lb ed="#Bb"/>ordine autem creationis tenebras ponit
+      <lb ed="#Bb"/>ante lucem: quod inconveniens est, quia
+      <lb ed="#Bb"/>creator summe sapiens nihil facit contra
+      <lb ed="#Bb"/>ordinem nature : cum ordo nature sit
+      <lb ed="#Bb"/>secundum dispositionem summe 
+      sapien<lb ed="#Bb" break="no"/>tiz qua est in creatore.
+    </p>
+            <p xml:id="Almn78-e15607-d1e652">
+               <lb ed="#Bb"/>Uterius queritur de hoc quod dicit,
+      <lb ed="#Bb"/>quod Spiritus Dei ferebatur super
+      <lb ed="#Bb"/>aguas °, quis sit ille spiritus Domini ?
+    </p>
+            <p xml:id="Almn78-e15607-d1e661">
+               <lb ed="#Bb"/>Secundum enim Damascenum et 
+      Gre<lb ed="#Bb" break="no"/>gorium Nyssenum videtur ille spiritus
+      <lb ed="#Bb"/>Domini esse aer et ignis, que sunt 
+      spiri<lb ed="#Bb" break="no"/>tualia : quia de aere dicit Aristoteles in
+      <lb ed="#Bb"/>libro de Sensu et sensato, quod aer habet
+      <lb ed="#Bb"/>humidum  spirituale, non~ corporale
+      <lb ed="#Bb"/>ignis autem propter raritatem spiritualis
+      <lb ed="#Bb"/>est. Et confirmant per rationem quod sic
+      <lb ed="#Bb"/>exponendum est : quia in creatione 
+      par<lb ed="#Bb" break="no"/>tium mundi non fieret mentio de aere et
+      <lb ed="#Bb"/>igne, sed de aqua et terra tantum et
+      <lb ed="#Bb"/>celo : quod esset inconveniens, cum
+      <lb ed="#Bb"/>eque principales partes mundi sint aer
+      <lb ed="#Bb"/>et ignis sicut aqua et terra.
+    </p>
+            <p xml:id="Almn78-e15607-d1e695">
+               <lb ed="#Bb"/>Sed contra hoc est, quod Glossa dicit
+      <lb ed="#Bb"/>super illud : Spiritus Det ferebatur super
+      <lb ed="#Bb"/>aquas, sic, id est, bona voluntas Domini,
+      <pb ed="#Bb" n="523"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>cui subjacebat quod formandum erat :
+      <lb ed="#Bb"/>sicut sapientia artificis superfertur 
+      fabri<lb ed="#Bb" break="no"/>cando operi. Et secundum hance 
+      exposi<lb ed="#Bb" break="no"/>tionem locum habet questio, Quare non
+      <lb ed="#Bb"/>fit mentio de aere etigne ?
+    </p>
+            <p xml:id="Almn78-e15607-d1e719">
+               <lb ed="#Bb"/>Sotvrio. Sicut dicit Glossa super illud
+      <lb ed="#Bb"/>Genesis, 1, 2: Spiritus Dei ferebatur 
+      su<lb ed="#Bb" break="no"/>per aquas : <quote xml:id="Almn78-e15607-Qd1e727"> Gum dicitur : In principio
+        <lb ed="#Bb"/>creavit Deus : tota trinitas intelligitur :
+        <lb ed="#Bb"/>Pater, cum dicitur Deus : Filius, cum
+        <lb ed="#Bb"/>dicitur, In principio : Spiritus sanctus,
+        <lb ed="#Bb"/>cum dicitur, Spiritus Dei : eternitas et
+        <lb ed="#Bb"/>dominium, cum dicitur, ferebatur super
+        <lb ed="#Bb"/>aguas, ferebatur enim (ut dicit Glossa)
+        <lb ed="#Bb"/>sicut dominus et conditor, qui ab eterno
+        <lb ed="#Bb"/>preerat fluitanti et confuse materie, ut
+        <lb ed="#Bb"/>distingueret eam sicut vellet et quando
+        <lb ed="#Bb"/>vellet.</quote>
+            </p>
+            <p xml:id="Almn78-e15607-d1e752">
+               <lb ed="#Bb"/>Ad primum ergo dicendum, quod licet
+      <lb ed="#Bb"/>principium in ratione principii plus 
+      con<lb ed="#Bb" break="no"/>veniat Patri per appropriationem illam
+      <lb ed="#Bb"/>qua principium est non de alio, sed alia
+      <lb ed="#Bb"/>ab ipso, tamen principium creationis plus
+      <lb ed="#Bb"/>appropriatur Filio. Et hujus ratio est :
+      <lb ed="#Bb"/>quia, sicut dicit Aristoteles in XI prime
+      <lb ed="#Bb"/>philosophie, principium totius esse est,
+      <lb ed="#Bb"/>quod sicut dicit Avicenna, facit debere
+      <lb ed="#Bb"/>esse in omnibus que sunt sive fiunt ab
+      <lb ed="#Bb"/>ipso per intellectum practicum : qui per
+      <lb ed="#Bb"/>suam scientiam, que ars vocatur, causa
+      <lb ed="#Bb"/>est ecorum que fiunt. Ars enim, ut dicit
+      <lb ed="#Bb"/>Aristoteles in VI Ethicorum, est 
+      tacti<lb ed="#Bb" break="no"/>vum principium cum ratione. Talis
+      <lb ed="#Bb"/>enim intellectus est ex rationibus, que in
+      <lb ed="#Bb"/>ipso sunt vita et lux, ut dicitur, Joan.
+      <lb ed="#Bb"/>1, 4, et speciebus que idealiter sunt in
+      <lb ed="#Bb"/>ipso, omnibus que sunt vel fiunt, 
+      spe<lb ed="#Bb" break="no"/>ciem et numerum et ordinem dat 
+      existen<lb ed="#Bb" break="no"/>di, sicut artifex omnibus qu@ sunt in
+      <lb ed="#Bb"/>artificiato ex speciebus et rationibus artis,
+      <lb ed="#Bb"/>speciem et numerum existendi et 
+      ordi<lb ed="#Bb" break="no"/>nem dat et influit. Tale autem principium
+      <lb ed="#Bb"/>non est nisi per artem et notitiam : et
+      <lb ed="#Bb"/>hoc attribuitur Filio, non Patri: Filius
+      <lb ed="#Bb"/>enim est ars et notitia et verbum Patris,
+      <lb ed="#Bb"/>unde sermo dirigitur ad Patrem. Et est
+      <lb ed="#Bb"/>sensus : Deus Pater in principio quod
+      <lb ed="#Bb"/>est ars et notitia et verbum ejus et ratio
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>factorum, creavit ce@lum et terram, ila
+      <lb ed="#Bb"/>quod prepositio in, notet habitudinem
+      <lb ed="#Bb"/>cause formalis exemplaris in quantum
+      <lb ed="#Bb"/>est prepositio hee que convenientiam
+      <lb ed="#Bb"/>notat. In quantum vero est prepositio,
+      <lb ed="#Bb"/>eo quod prepositio transitiva est et 
+      di<lb ed="#Bb" break="no"/>versitatem aliquam notat, distinctionem
+      <lb ed="#Bb"/>notat inter Deum Patrem facientem, et
+      <lb ed="#Bb"/>Filium in quo fit.
+    </p>
+            <p xml:id="Almn78-e15607-d1e841">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod creatio
+      <lb ed="#Bb"/>licet sit primus actus prime cause non
+      <lb ed="#Bb"/>communicabilis alicui creato, tamen quia
+      <lb ed="#Bb"/>non est actus nisi cause agentis per
+      <lb ed="#Bb"/>intellectum et notitiam et artem et 
+      ver<lb ed="#Bb" break="no"/>bum, propter hoc attribuitur Fillo, non
+      <lb ed="#Bb"/>ut a quo solo fiat, sed ut in quo 
+      secun<lb ed="#Bb" break="no"/>dum rationem et speciem idealem solo
+      <lb ed="#Bb"/>fiat.
+    </p>
+            <p xml:id="Almn78-e15607-d1e863">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod /acézo 
+      pro<lb ed="#Bb" break="no"/>ductio rei est in specie et forma 
+      deter<lb ed="#Bb" break="no"/>minata, que preconcepta est idealiter in
+      <lb ed="#Bb"/>mente facientis : et ideo per 
+      appropria<lb ed="#Bb" break="no"/>tionem convenit Filio, qui verbum et
+      <lb ed="#Bb"/>nolitia Patris est. Joan. 1, 3 : Omnia per
+      <lb ed="#Bb"/>ipsum facta sunt, et sine ipso factum est
+      <lb ed="#Bb"/>nihil quod factum est. Creare autem
+      <lb ed="#Bb"/>sicut in principio istius secunde partis
+      <lb ed="#Bb"/>Summe theologixe dictum est, est 
+      quod<lb ed="#Bb" break="no"/>dam facere: et ideo principium in quo
+      <lb ed="#Bb"/>fiunt universa sive creantur, per 
+      appro<lb ed="#Bb" break="no"/>priationem convenit Filio, qui est ars et
+      <lb ed="#Bb"/>notitia Patris.
+    </p>
+            <p xml:id="Almn78-e15607-d1e896">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod creatio opus
+      <lb ed="#Bb"/>Trinitatis est, sicut dicit Glossa 
+      preindu<lb ed="#Bb" break="no"/>cta. Sed hoc non impedit, quin ea que
+      <lb ed="#Bb"/>circumstant creationem, et designant
+      <lb ed="#Bb"/>modum cause creantis, specialiter 
+      pos<lb ed="#Bb" break="no"/>sint attribui per appropriationem uni
+      <lb ed="#Bb"/>persone: sicut Deus appropriatur Patri,
+      <lb ed="#Bb"/>quia, sicut dicit Augustinus, Pater est
+      <lb ed="#Bb"/>principium totius divinitatis : et 
+      princi<lb ed="#Bb" break="no"/>pium in quo fit creatio, appropriatur
+      <lb ed="#Bb"/>Filio : et Spiritus Dei qui ferebatur 
+      su<lb ed="#Bb" break="no"/>per aguas, appropriatur Spiritui sancto.
+    </p>
+            <p xml:id="Almn78-e15607-d1e926">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod nulla causa
+      <lb ed="#Bb"/>est creationis nisi voluntas creatoris, qui
+      <lb ed="#Bb"/>sicut dicitur in Psalmo cxxxtv, 6: 
+      Om<lb ed="#Bb" break="no"/>nia quecumque voluit Dominus fecit, in
+      <lb ed="#Bb"/>celo, in terra, in mari et in omnibus
+      <pb ed="#Bb" n="524"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>abyssis. Tamen quia voluntas non dicit
+      <lb ed="#Bb"/>principium in quo formaliter et 
+      exempla<lb ed="#Bb" break="no"/>riter fit creatio mundi, propter hoc 
+      prin<lb ed="#Bb" break="no"/>cipium in quo creatur mundus, non 
+      at<lb ed="#Bb" break="no"/>tribuitur Spiritui sancto, sed Filio, ut
+      <lb ed="#Bb"/>dictum est.
+    </p>
+            <p xml:id="Almn78-e15607-d1e957">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod verum est
+      <lb ed="#Bb"/>quod probat objectio : sed non per hoc
+      <lb ed="#Bb"/>fit hic appropriatio, sed potius per 
+      habitu<lb ed="#Bb" break="no"/>dinem prepositionis in quantum est hee
+      <lb ed="#Bb"/>prepositio notans convenientiam cause
+      <lb ed="#Bb"/>formalis exemplaris : sic enim creatio
+      <lb ed="#Bb"/>non est in voluntate, sed arte et notitia.
+    </p>
+            <p xml:id="Almn78-e15607-d1e975">
+               <lb ed="#Bb"/>Ad id quod objicitur contra secundam
+      <lb ed="#Bb"/>expositionem, dicendum quod nune nihil
+      <lb ed="#Bb"/>temporis est, hoc est nulla pars, sed
+      <lb ed="#Bb"/>substantia : et ideo est initium temporis.
+      <lb ed="#Bb"/>Omne enim continuum initiatur et fluit
+      <lb ed="#Bb"/>ab aliquo indivisibili, sicut linea a 
+      pun<lb ed="#Bb" break="no"/>clo, et tempus ab invisibili nunc, cujus
+      <lb ed="#Bb"/>fluxus causat esse temporis in omnibus,
+      <lb ed="#Bb"/>ut dicit Boetius, que totum esse suum
+      <lb ed="#Bb"/>non accipiunt, nec habent in uno 
+      indivi<lb ed="#Bb" break="no"/>sibili, que proprie temporalia vocantur.
+      <lb ed="#Bb"/>Et ideo quia creatio fit in tali nunc 
+      prop<lb ed="#Bb" break="no"/>ter cause creantis omnipotentiam, que
+      <lb ed="#Bb"/>non demonstraretur perfecte si 
+      successio<lb ed="#Bb" break="no"/>ne temporis in creando indiguisset : bona
+      <lb ed="#Bb"/>ergo est expositio que dicit : Jn 
+      princi<lb ed="#Bb" break="no"/>pio, hoc est, in initio temporis.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1014">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod tempus est
+      <lb ed="#Bb"/>unum de coxequevis, quod ratione sui
+      <lb ed="#Bb"/>initii indivisibilis, scilicet nunc, creatum
+      <lb ed="#Bb"/>est simul cum ceelo et terra. Et ideo sicut
+      <lb ed="#Bb"/>non sequitur, quod aliquod continuum
+      <lb ed="#Bb"/>secundum esse continui sit in suo initio
+      <lb ed="#Bb"/>a quo fluit, sed continue post: ita non
+      <lb ed="#Bb"/>sequitur, quod tempus secundum esse
+      <lb ed="#Bb"/>temporis sit in sui initio, sed continue
+      <lb ed="#Bb"/>post. Nec est simile de ceelo et terra :
+      <lb ed="#Bb"/>quia illa esse suum simul habent: tempus
+      <lb ed="#Bb"/>autem esse suum habet in successione.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1043">
+               <lb ed="#Bb"/>Ad aliud quo queritur, Quare dicit
+      <lb ed="#Bb"/>ccelum et terram ?
+    </p>
+            <p xml:id="Almn78-e15607-d1e1050">
+               <lb ed="#Bb"/>Dicendum, quod propter hoc nominat
+      <lb ed="#Bb"/>celum et terram, quia in corporeis crea
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>tis diversa est materia incorruptibilium et
+      <lb ed="#Bb"/>corruptibilium ; et percelum supponitur
+      <lb ed="#Bb"/>materia incorruptibilium, et per ferram
+      <lb ed="#Bb"/>materia corruptibilium : qua 
+      distinctio<lb ed="#Bb" break="no"/>ne non ita signanter notaretur, si 
+      indi<lb ed="#Bb" break="no"/>stincte dixisset : In principio creavit
+      <lb ed="#Bb"/>materiam omnium corporeorum. 
+      Secun<lb ed="#Bb" break="no"/>dum Augustinum etiam per metonymiam
+      <lb ed="#Bb"/>intelligitur per celum angelica natura
+      <lb ed="#Bb"/>informis creata, que non intelligeretur,
+      <lb ed="#Bb"/>sidixisset informem materiam in 
+      com<lb ed="#Bb" break="no"/>muni. Et per eamdem figuram per
+      <lb ed="#Bb"/>terram intelligitur materia omnium ger
+      <lb ed="#Bb"/>neratorum et corruptorum : hec enim,
+      <lb ed="#Bb"/>ut dicit Philosophus, locus est omnium
+      <lb ed="#Bb"/>generabilium et corruptibilium.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1095">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod simplici
+      <lb ed="#Bb"/>nomine materia generabilium et 
+      corrup<lb ed="#Bb" break="no"/>tibilium designari non debuit, nisi per
+      <lb ed="#Bb"/>metonymiam. Si enim per essentiam
+      <lb ed="#Bb"/>designatur, tunc multis nominibus 
+      no<lb ed="#Bb" break="no"/>minatur, ut dicit Augustinus, et 
+      quan<lb ed="#Bb" break="no"/>doque dicitur terra, quandoque aqua.
+      <lb ed="#Bb"/>Terra, ratione que dicta est : aqua, quia
+      <lb ed="#Bb"/>sicut aqua ductilis est in omnem 
+      for<lb ed="#Bb" break="no"/>mam : quandoque chaos, quia sicut dicit
+      <lb ed="#Bb"/>Augustinus, omnia elementa in se 
+      ha<lb ed="#Bb" break="no"/>buit confusa terra quidem in imo, tria
+      <lb ed="#Bb"/>autem alia per modum spisse nebule
+      <lb ed="#Bb"/>oppansa per circuitum. Et hee verba
+      <lb ed="#Bb"/>Augustini ponit Magister in libro IT 
+      Sen<lb ed="#Bb" break="no"/>tentiarum, dist. XII, cap. Nune superest
+      <lb ed="#Bb"/>quod secundo proponebatur explicare.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1134">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod nomine
+      <lb ed="#Bb"/>terre convenienter non potuit designari
+      <lb ed="#Bb"/>propter causam que dicta est: quia 
+      di<lb ed="#Bb" break="no"/>versa est materia incorruptibilium et
+      <lb ed="#Bb"/>corruptibilium. Et sicut ex terra 
+      produ<lb ed="#Bb" break="no"/>cta sunt generabilia, ita ex ccelo 
+      ingene<lb ed="#Bb" break="no"/>rabilia, sicut sol, luna, et stelle, que ad
+      <lb ed="#Bb"/>formas proprias et ad loca quarta die
+      <lb ed="#Bb"/>distincta sunt et ornata. Quare autem
+      <lb ed="#Bb"/>terra dicatur inanis et vacua, et non
+      <lb ed="#Bb"/>celum, in prehabitis est expositum, in
+      <lb ed="#Bb"/>questione ubi determinatur, quomodo
+      <lb ed="#Bb"/>creatio coli et terre est ante omnem
+      <lb ed="#Bb"/>diem '. Sed hoc est addendum hic, quod
+      <pb ed="#Bb" n="525"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>materia prime informi attribuuntur
+      <lb ed="#Bb"/>proprie passiones loci, qu sunt inane et
+      <lb ed="#Bb"/>vacuum : quamvyis Aristoteles in IV 
+      Phy<lb ed="#Bb" break="no"/>sicorum reprehendit-Hesiodum de hoc,
+      <lb ed="#Bb"/>quod dixit eamdem receptibilitatem esse
+      <lb ed="#Bb"/>loci et materiw. Hoc enim ideo fit, quia
+      <lb ed="#Bb"/>in multis receptibilitas materia convenit
+      <lb ed="#Bb"/>cum receptibilitate loci. Sicut enim ad
+      <lb ed="#Bb"/>locum a generante est motus formati
+      <lb ed="#Bb"/>secundum generationem, et a loco uno
+      <lb ed="#Bb"/>eodem loco manente immobili: ita ad
+      <lb ed="#Bb"/>materiam que universale receptaculum
+      <lb ed="#Bb"/>est formarum, ut dicit Plato in Timezo,
+      <lb ed="#Bb"/>et a materia est motus formarum una
+      <lb ed="#Bb"/>materia manente immobili. Et ideo etiam
+      <lb ed="#Bb"/>Aristoteles in IV Physicorum dicit hac
+      <lb ed="#Bb"/>verba : <quote xml:id="Almn78-e15607-Qd1e1207"> Dicitur quandoque vacuum in
+        <lb ed="#Bb"/>quo nonest hoc aliquid, neque substantia
+        <lb ed="#Bb"/>corporea, ut dicunt quidam vacuum esse
+        <lb ed="#Bb"/>corporis materiam. </quote> Et ideo non dicitur
+      <lb ed="#Bb"/>inanis et vacua, quod destituatur 
+      solidi<lb ed="#Bb" break="no"/>tate corporis : per omnes enim distantias
+      <lb ed="#Bb"/>mensurarum suarum plena est tali 
+      soli<lb ed="#Bb" break="no"/>ditate : sed ideo dicitur inands et vacua,
+      <lb ed="#Bb"/>quia per omnes mensuras distantia sue
+      <lb ed="#Bb"/>vacua fuit et inanis, forma distinguente
+      <lb ed="#Bb"/>et ornante.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1232">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod unum 
+      sim<lb ed="#Bb" break="no"/>plex non potest nominari, nisi confuse
+      <lb ed="#Bb"/>mullis nominibus : quia imponens 
+      no<lb ed="#Bb" break="no"/>men afficitur qualitate a qua imponit
+      <lb ed="#Bb"/>nomen, et afficitur substantia ejus cui
+      <lb ed="#Bb"/>imponit. Et propter hoc omne nomen
+      <lb ed="#Bb"/>significat substantiam cum qualitate :
+      <lb ed="#Bb"/>sed unum confusum qualitatibus 
+      multo<lb ed="#Bb" break="no"/>rum, uno nomine signilicari non potest,
+      <lb ed="#Bb"/>sed multis : ef talis designatio multis
+      <lb ed="#Bb"/>nominibus facta (que designant mullas
+      <lb ed="#Bb"/>qualitates confusas in ipso) magis valet
+      <lb ed="#Bb"/>ad eruditionem imperitorum. Et iste est
+      <lb ed="#Bb"/>intellectus verbi Augustini.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1265">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod abyssum
+      <lb ed="#Bb"/>vocat primam materiam, ratione que
+      <lb ed="#Bb"/>dicta est in objiciendo secundum 
+      Augu<lb ed="#Bb" break="no"/>stinum.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1276">
+               <lb ed="#Bb"/>Et ad dictum Manichei dicendum,
+      <lb ed="#Bb"/>quod ab eterno Deus habitat lucem 
+      inac<lb ed="#Bb" break="no"/>cessibilem, sicut dicitur, lad Timoth. v1,
+      <lb ed="#Bb"/>16. Et dicit Augustinus in libro II super
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Genesim ad litteram, quod <quote xml:id="Almn78-e15607-Qd1e1291"> lux et 
+        lu<lb ed="#Bb" break="no"/>men magis proprie dicitur de lumine
+        <lb ed="#Bb"/>spirituali, quam corporali : et illa lux
+        <lb ed="#Bb"/>secundum rationem et substantiam et
+        <lb ed="#Bb"/>durationem fuit ante omnem tenebram. </quote>
+               <lb ed="#Bb"/>Et ideo Manichecus nescivit quid diceret.
+      <lb ed="#Bb"/>Tenebra enim in corporalibus nihil aliud
+      <lb ed="#Bb"/>est nisi lucis absentia, et nihil est in 
+      exi<lb ed="#Bb" break="no"/>stentibus vel de numero existentium, et
+      <lb ed="#Bb"/>ideo nullum ordinem habet ia factis a
+      <lb ed="#Bb"/>prima causa : nec est ante, nec est post,
+      <lb ed="#Bb"/>quod nihil est.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1318">
+               <lb ed="#Bb"/>Ad opsectioneM Magistri quam ipse
+      <lb ed="#Bb"/>solvit ibidem, per distinctionem ejus 
+      di<lb ed="#Bb" break="no"/>cendum est, quod ¢enebra quandoque
+      <lb ed="#Bb"/>significat simplicem privationem et 
+      ne<lb ed="#Bb" break="no"/>gationem luminis : et sic de tenebra 
+      lo<lb ed="#Bb" break="no"/>quuntur Auguslinus et Moyses : quia
+      <lb ed="#Bb"/>sic omnis creati non esse precedit suum
+      <lb ed="#Bb"/>esse. Dicitur etiam ¢enebra subjectum
+      <lb ed="#Bb"/>illuminabile non habens illuminationem
+      <lb ed="#Bb"/>secundum actum : sicut aer non 
+      illumi<lb ed="#Bb" break="no"/>natus, dicitur ¢enebra: et sic inducitur
+      <lb ed="#Bb"/>ad laudandum Deum. Et est simile, quia
+      <lb ed="#Bb"/>cecitas absolute nihil ponit : cxcitas
+      <lb ed="#Bb"/>autem in czco ponit faciem visus 
+      su<lb ed="#Bb" break="no"/>sceptibilem, sed visum non habentem.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1354">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod ordo crea~
+      <lb ed="#Bb"/>tionis non contrariatur ordini nature : in
+      <lb ed="#Bb"/>omni enim natura processus est a non
+      <lb ed="#Bb"/>esse in esse. Et sic in creatione a non
+      <lb ed="#Bb"/>esse lucis processus est in esse lucis :
+      <lb ed="#Bb"/>propter quod etiam Aristoteles in fine
+      <lb ed="#Bb"/>primi Physicorum privationem ponit
+      <lb ed="#Bb"/>principium motus et mutationis.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1374">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, quis sit
+      <lb ed="#Bb"/>spiritus qui ferebatur super aquas ?
+    </p>
+            <p xml:id="Almn78-e15607-d1e1381">
+               <lb ed="#Bb"/>Dicendum, quod secundum 
+      Hierony<lb ed="#Bb" break="no"/>mum et Hebraicam veritatem non 
+      pot<lb ed="#Bb" break="no"/>est intelligi de spiritu creato. Dicit enim
+      <lb ed="#Bb"/>Glossa sic: <quote xml:id="Almn78-e15607-Qd1e1391"> In hebreo habetur 
+        mere<lb ed="#Bb" break="no"/>phor, hoc est, incubabat vel fovebat
+        <lb ed="#Bb"/>more volucris ova calore animantis. </quote>
+               <lb ed="#Bb"/>Intelligimus ergo non de spiritu mundi
+      <lb ed="#Bb"/>dici, ut putant multi, sed de Spiritu
+      <lb ed="#Bb"/>sancto : quia ipse omnium vivificator
+      <lb ed="#Bb"/>est. Quia autem vivificator, et conditor.
+      <lb ed="#Bb"/>Si conditor, et Deus, Ait enim, Psal.
+      <pb ed="#Bb" n="526"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>an, 30: Emittes Spiritum tuum, et
+      <lb ed="#Bb"/>creabuntur.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1419">
+               <lb ed="#Bb"/>Et tunc ad questionem, Quare non
+      <lb ed="#Bb"/>facit mentionem de aere et igne ? 
+      Dicen<lb ed="#Bb" break="no"/>dum, quod ignis secundum Augustinum
+      <lb ed="#Bb"/>et Ambrosium in Hexameron 
+      intelligi<lb ed="#Bb" break="no"/>tur in celo, et aer similiter, propter hoc
+      <lb ed="#Bb"/>quod utrumque istorum est corpus 
+      rece<lb ed="#Bb" break="no"/>ptivum luminis in profundum sui : quod
+      <lb ed="#Bb"/>non potest esse, ut dicit Aristoteles in II
+      <lb ed="#Bb"/>de Anima, nisi ex convenientia cum 
+      per<lb ed="#Bb" break="no"/>petuo superius corpore.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1443">
+               <lb ed="#Bb"/>Et ideo Augustinus dicit, quod per
+      <lb ed="#Bb"/>celum intelligitur quidquid est de 
+      mate<lb ed="#Bb" break="no"/>ria prima, preter terram. Dicit enim sic
+      <lb ed="#Bb"/>in libro contra Manicheum, quod 
+      Moy<lb ed="#Bb" break="no"/>ses dicens : In principio creavit Deus
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>celum et lterram, totum opus creationis
+      <lb ed="#Bb"/>ab imo usque ad summum 
+      comprehen<lb ed="#Bb" break="no"/>dit. Et hoc congruit dicto Platonis, qui
+      <lb ed="#Bb"/>dicit, quod creator mundi sensibilis 
+      cce<lb ed="#Bb" break="no"/>lum igneum et terram tamquam duo
+      <lb ed="#Bb"/>extrema solida in mundo sensibili 
+      po<lb ed="#Bb" break="no"/>suit: que duobus mediis colligavit, aere
+      <lb ed="#Bb"/>scilicet, el aqua, et sicut in numeris duo
+      <lb ed="#Bb"/>solidi numeri semper duobus mediis 
+      nu<lb ed="#Bb" break="no"/>meris colligantur. Et de his satis dictum
+      <lb ed="#Bb"/>est supra, ubi quesitum est de Opere
+      <lb ed="#Bb"/>creationis quod est ante omnem diem’.
+    </p>
+            <p xml:id="Almn78-e15607-d1e1485">
+               <lb ed="#Bb"/>Ad id quod objicitur m contrarium,
+      <lb ed="#Bb"/>jam patet solutio : quia de Spiritu  
+      san<lb ed="#Bb" break="no"/>cto intelligitur. Ef dicta est ratio quare
+      <lb ed="#Bb"/>non facit mentionem de igne et aere :
+      <lb ed="#Bb"/>hec enim in cceelo supponuntur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

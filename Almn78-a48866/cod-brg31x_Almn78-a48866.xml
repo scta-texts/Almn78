@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 75</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 75</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="779"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a48866"><!-- p1t18q75 -->
+            <head xml:id="Almn78-a48866-Hd1e106">Quaestio 75</head>
+            <head xml:id="Almn78-a48866-Hd1e109" type="question-title">
+      De assumptione corporum Angelorum et motu eorumdem.
+    </head>
+            <p xml:id="Almn78-a48866-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LXXV.
+<lb ed="#Ba"/>De assumptione corporum Angelorum et motu eorumdem.
+</p>
+            <p xml:id="Almn78-a48866-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur de motu Angeli quem
+<lb ed="#Ba"/>habet assumpto corpore, quo etiam
+<lb ed="#Ba"/>Deus movet eum ut visibilis appareat
+<lb ed="#Ba"/>hominibus:
+</p>
+            <p xml:id="Almn78-a48866-d1e134">
+               <lb ed="#Ba"/>Et queruntur quinque.
+<lb ed="#Ba"/>Quorum primum est, An Angeli bont
+<lb ed="#Ba"/>assumant corpora ? ,
+<lb ed="#Ba"/>Secundum,Ex quo elemento assumant?
+<lb ed="#Ba"/>Tertium, Qualiter assumant?
+<lb ed="#Ba"/>Quartum, Ad quem usum assumant?
+<lb ed="#Ba"/>Quintum, Quid fiat de corporibus 
+as<lb ed="#Ba" break="no"/>sumptis post ministerium expletum ?
+<lb ed="#Ba"/>Utrum autem aliquid agant vel 
+pa<lb ed="#Ba" break="no"/>tiantur ex natura corporis assumpti, 
+quee<lb ed="#Ba" break="no"/>rendum erit in secunda parte Summe
+<lb ed="#Ba"/>Theologiae.
+</p>
+
+            <div xml:id="Almn78-a48866-Dd1e164">
+               <head xml:id="Almn78-a48866-Hd1e166">Membrum 1</head>
+               <head xml:id="Almn78-a48866-Hd1e169" type="question-title">
+  Utrum Angeli boni assumant corpora
+</head>
+               <p xml:id="Almn78-a48866-d1e172">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Utrum Angeli boni assumant corpora?
+</p>
+               <p xml:id="Almn78-a48866-d1e179">
+                  <lb ed="#Ba"/>Primo ergo queritur, An boni 
+Ange<lb ed="#Ba" break="no"/>li assumant corpora ?
+</p>
+               <p xml:id="Almn78-a48866-d1e186">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Dicit enim Damascenus in libro II
+<lb ed="#Ba"/>de ride orthodoxa, quod <quote xml:id="Almn78-a48866-Qd1e196"> Angelus est
+<lb ed="#Ba"/>substantia simplex incorporea’.</quote> Simplex
+<lb ed="#Ba"/>autem et incorporeum ad corpus pro- —
+<lb ed="#Ba"/>portionem non habet: et esset 
+inordina<lb ed="#Ba" break="no"/>tum siinter assumens et assumptum non
+<lb ed="#Ba"/>esset proportio. Cum ergo nihil sit 
+in<lb ed="#Ba" break="no"/>ordinatum in operibus divinis, videtur
+<lb ed="#Ba"/>quod Angelus non possit assumere corpus.
+</p>
+               <p xml:id="Almn78-a48866-d1e216">
+                  <lb ed="#Ba"/>2. Adhuc, De intellectu propter 
+sim<lb ed="#Ba" break="no"/>plicitatem dicit Philosophus, quod 
+nul<lb ed="#Ba" break="no"/>lius corporis est actus, nec operatio 
+in<lb ed="#Ba" break="no"/>tellectus ab aliquo corpore dependere
+<lb ed="#Ba"/>potest. Cum ergo Angelus simplicior sit,
+<lb ed="#Ba"/>et sit intellectus divinus, ut dicit 
+Diony<lb ed="#Ba" break="no"/>sius, videtur quod multo minus potest
+<lb ed="#Ba"/>uti corpore in operibus suis : et ita 
+vi<lb ed="#Ba" break="no"/>detur, quod non assumat corpora.
+</p>
+               <p xml:id="Almn78-a48866-d1e238">
+                  <lb ed="#Ba"/>3. Adhuc, In ordine creaturarum est,
+<lb ed="#Ba"/>ut dicit Augustinus in libro duodecimo
+<lb ed="#Ba"/>Confessionum, quod duo fecit. Deus, :
+<lb ed="#Ba"/>unum prope se, et alterum prope nihil.
+<lb ed="#Ba"/>Prope se angelicam naturam, ut ibidem
+<lb ed="#Ba"/>dicit Augustinus. Prope nihil materiam
+<pb ed="#Ba" n="780"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>primam. Sed materia que prope nihil
+<lb ed="#Ba"/>est, inclinabilis est in omnem formam et
+<lb ed="#Ba"/>omnis forma susceptibilis. Ergo 
+ange<lb ed="#Ba" break="no"/>lica natura que prope Deum est, per 
+op<lb ed="#Ba" break="no"/>positum, et, sicut dicit Augustinus, 
+im<lb ed="#Ba" break="no"/>mutabilitatis divine particeps, nullius
+<lb ed="#Ba"/>forme vel speciei est susceptibilis.
+</p>
+               <p xml:id="Almn78-a48866-d1e273">
+                  <lb ed="#Ba"/>4. Adhuc, Si assumunt, ad quid 
+assu<lb ed="#Ba" break="no"/>munt? Constat enim, quod ex natura
+<lb ed="#Ba"/>non indigent. Si dicatur, quod indigent
+<lb ed="#Ba"/>in comparatione ad Deum. Contra : 
+Ope<lb ed="#Ba" break="no"/>rationes quas habent ad Deum, sicut
+<lb ed="#Ba"/>assistere, laudare, contemplari, et hec
+<lb ed="#Ba"/>omnia melius faciunt sine corpore quam
+<lb ed="#Ba"/>in corpore. Si dicatur, quod indigent ad
+<lb ed="#Ba"/>operationes quas habent circa nos. 
+Vi<lb ed="#Ba" break="no"/>detur non esse verum : quia cum 
+ope<lb ed="#Ba" break="no"/>rantur circa nos : aut operantur: nos
+<lb ed="#Ba"/>custodiendo, aut illuminando intellectum
+<lb ed="#Ba"/>_ per visiones intellectuales, vel 
+imagina<lb ed="#Ba" break="no"/>rias, vel sensibiles, vel accendendo 
+affe<lb ed="#Ba" break="no"/>ctum : et haec omnia fiunt melius a. 
+spi<lb ed="#Ba" break="no"/>ritu sine corpore, quam cum corpore :
+<lb ed="#Ba"/>sergo videtur, quod non indigeant corpore
+<lb ed="#Ba"/>propter aliquam operationem : et sic 
+An<lb ed="#Ba" break="no"/>gelus frustra assumit corpus : frustra
+<lb ed="#Ba"/>autem non est in operibus divinis : ergo
+<lb ed="#Ba"/>videtur, quod Angelus non assumit 
+cor<lb ed="#Ba" break="no"/>pus. oo:
+</p>
+               <p xml:id="Almn78-a48866-d1e323">
+                  <lb ed="#Ba"/>5. Adhuc, Dicit Aristoteles, quod in
+<lb ed="#Ba"/>paucis via melior est. Quod ergo potest:
+<lb ed="#Ba"/>fieri per Angelum non assumpto 
+cor<lb ed="#Ba" break="no"/>pore, melius est quam si fiat corpore 
+as<lb ed="#Ba" break="no"/>sumpto. Sed operatio circa nos, et illa
+<lb ed="#Ba"/>que est corporea, potest fieri sine 
+cor<lb ed="#Ba" break="no"/>pore. Ergo pro nihilo-ad hanc 
+assumere<lb ed="#Ba" break="no"/>tur corpus. Propario minoris Dicit
+<lb ed="#Ba"/>Gregorius in libro XXVIII] Moralium':
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48866-Qd1e346"> Aliquando loquitur Deus per Angelum
+<lb ed="#Ba"/>ceelestibus substantiis, aliquando 
+terre<lb ed="#Ba" break="no"/>nis. Coelestibus, ut cum vox illa facta est
+<lb ed="#Ba"/>de nube : Hie est Filius meus dilectus? :
+<lb ed="#Ba"/>haec enim vox de ceelo dicitur esse facta.
+<lb ed="#Ba"/>Luce, 11, 22: Et vor de celo facta est. </quote>
+                  <lb ed="#Ba"/>Ex hoc accipitur, quod formatio illus
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>vocis ministerio Angeli facta est. Ergo
+<lb ed="#Ba"/>sine assumpto corpore potest formare
+<lb ed="#Ba"/>vocem corporalem de nube sensibilem et
+<lb ed="#Ba"/>audibilem, et sic de nihilo propter tales
+<lb ed="#Ba"/>operationes assumeret corpus.
+  
+<lb ed="#Ba"/>6. Adhuc, Numer. xxn, 28, constat,
+<lb ed="#Ba"/>quod Angelus formavit voces per linguam
+<lb ed="#Ba"/>asine audibiles et articulatas et 
+intelli<lb ed="#Ba" break="no"/>gibiles : cum tamen lingua asine 
+debi<lb ed="#Ba" break="no"/>tum instramentum non fuerit ad vocum
+<lb ed="#Ba"/>formationem. Videtur ergo, quod non
+<lb ed="#Ba"/>indiget assumptione corporis organizati.
+<lb ed="#Ba"/>Et sicut dictum est de lingua, ita est de
+<lb ed="#Ba"/>aliis membris : et sic videtur, quod non
+<lb ed="#Ba"/>indigeat ministerio corporum assumpto—
+<lb ed="#Ba"/>rum.
+  
+<lb ed="#Ba"/>7. Adhuc, Rabbi Moyses in libro qui
+<lb ed="#Ba"/>dicitur Dux neutrorum sive dubiorum,
+<lb ed="#Ba"/>dicit, quod hac que leguntur ab Angelis
+<lb ed="#Ba"/>facta, non sunt per assumpta corpora
+<lb ed="#Ba"/>facta, sed per visiones intellectuales; Sed
+<lb ed="#Ba"/>quia visio intellectualis imaginationi non
+<lb ed="#Ba"/>manifestatur, nisi modo possibili ipsi
+<lb ed="#Ba"/>imaginationi, ideo quod fulget per species
+<lb ed="#Ba"/>intelligibiles in intellectu, ut dicit 
+Augu<lb ed="#Ba" break="no"/>stinus in libro XII super Genesim ad 
+lit<lb ed="#Ba" break="no"/>teram*, hoc est per imagines corporeas
+<lb ed="#Ba"/>in spiritu. Ibidem enim dicit Augustinus,
+<lb ed="#Ba"/>quod spiritus est queedam vis mente 
+in<lb ed="#Ba" break="no"/>ferior, in qua corporalium rerum 
+imagi<lb ed="#Ba" break="no"/>nesi mprimuntur sive depinguntur. Et id
+<lb ed="#Ba"/>quod est fulgens in intellectu, per species
+<lb ed="#Ba"/>sensibiles representatur in sensu. Et hoc
+<lb ed="#Ba"/>modo Angelus non assumit corpus ad
+<lb ed="#Ba"/>operationes tales, sed potius ea de quibus
+<lb ed="#Ba"/>illuminat intellectum, facit imaginabiliter
+<lb ed="#Ba"/>apparere in spiritu et sensibiliter in 
+sen<lb ed="#Ba" break="no"/>su. Unde Augustinus in libro, tertio de
+<lb ed="#Ba"/>Trinitate*, querit, Utrum species in 
+qui<lb ed="#Ba" break="no"/>bus apparuit Deus ante incarnationem,
+<lb ed="#Ba"/>facte fuerint per Angelos vel per Deum
+<lb ed="#Ba"/>immediate? Et dicit sic : <quote xml:id="Almn78-a48866-Qd1e455"> Antiquis 
+pa<lb ed="#Ba" break="no"/>tribus nostris ante incarnationem 
+Salva<lb ed="#Ba" break="no"/>toris, cum Deus apparere dicebatur, 
+vo<lb ed="#Ba" break="no"/>ces ill ac species corporales per Ange
+<pb ed="#Ba" n="781"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>los factes sunt, sive ipsis loquentibus vel
+<lb ed="#Ba"/>agentibus aliquid ex persona Dei, sicut
+<lb ed="#Ba"/>etiam Prophetas solere ostendimus : sive
+<lb ed="#Ba"/>assumentibus ex creatura quod ipsi non
+<lb ed="#Ba"/>essent, ubi Deus figurate demonstraretur
+<lb ed="#Ba"/>hominibus. </quote> Patet ergo, quod 
+Augusti<lb ed="#Ba" break="no"/>nus relinquit in dubio utrum Angeli 
+fa<lb ed="#Ba" break="no"/>ciant ista per solas species, vel assumptis
+<lb ed="#Ba"/>corporibus. Sed cum per solas species
+<lb ed="#Ba"/>haec fieri possunt, superfluum est 
+assu<lb ed="#Ba" break="no"/>mere corpora : et sic Angeli corpora non
+<lb ed="#Ba"/>assumunt.
+</p>
+               <p xml:id="Almn78-a48866-d1e495">
+                  <lb ed="#Ba"/>8. Adhuc, Ante diluvium non legitur
+<lb ed="#Ba"/>Deus apparuisse, nisi per seipsum Ade
+<lb ed="#Ba"/>et Abel et Noe. Post diluvium semper
+<lb ed="#Ba"/>legitur apparuisse in Angelo, vel per 
+An<lb ed="#Ba" break="no"/>gelum : cujus signum est quod ibidem
+<lb ed="#Ba"/>dicitur semper vel frequenter, quod 
+An<lb ed="#Ba" break="no"/>gelus locutus est, quod Angeius apparuit,
+<lb ed="#Ba"/>sicut ante Josue apparuit armatus 
+pre<lb ed="#Ba" break="no"/>cedens. Malachiae, 11, 1, dicit: Bece ego
+<lb ed="#Ba"/>mitto Angelum meum, et preparabit
+<lb ed="#Ba"/>viam ante faciem meam. Similiter, ad
+<lb ed="#Ba"/>Galat. in, 19, dicitur de tota lege, quod
+<lb ed="#Ba"/>erat ordinata per Angelos in manu 
+me<lb ed="#Ba" break="no"/>diatoris. Post legem autem assumpto
+<lb ed="#Ba"/>corpore apparuit et perfecit per seipsum
+<lb ed="#Ba"/>opera : et queritur, quare hoc ?
+</p>
+               <p xml:id="Almn78-a48866-d1e532">
+                  <lb ed="#Ba"/>9. Adhuc, If Machabeorum, v, 2 et
+<lb ed="#Ba"/>seq., dicitur, quod contigit per universam
+<lb ed="#Ba"/>Jerosolymorum civitatem videri diebus
+<lb ed="#Ba"/>guadraginta per aera equites 
+discurren<lb ed="#Ba" break="no"/>tes, auratas stolas habentes, et hastis,
+<lb ed="#Ba"/>quast cohortes, armatos : et cursus 
+equo<lb ed="#Ba" break="no"/>rum per ordines digestos, et 
+congressio<lb ed="#Ba" break="no"/>nes fiert cominus, et scutorum motus, et
+<lb ed="#Ba"/>galeatorum multitudinem gladiis 
+distri<lb ed="#Ba" break="no"/>ctis, et telorum jactus, et aureorum 
+ar<lb ed="#Ba" break="no"/>morum splendorem, omnisque generis
+<lb ed="#Ba"/>loricarum. Quapropter omnes rogabant
+<lb ed="#Ba"/>in bonum monstra converti. Et hoc 
+vi<lb ed="#Ba" break="no"/>detur, quod talia melius fiunt per species
+<lb ed="#Ba"/>simplices, sensibiles, et imaginarias,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quam per assumptionem corporis : et sic
+<lb ed="#Ba"/>superflue assumunt corpora.
+</p>
+               <p xml:id="Almn78-a48866-d1e575">
+                  <lb ed="#Ba"/>In contrarium horum omnium est,
+<lb ed="#Ba"/>1. Quod dicit <name xml:id="Almn78-a48866-Nd1e581">Bernardus</name> in quinta
+<lb ed="#Ba"/>homilia super Cantica sic: <quote xml:id="Almn78-a48866-Qd1e586"> Quatuor
+<lb ed="#Ba"/>spiritus sunt, quorum unus est divinus
+<lb ed="#Ba"/>corpore non indigens, nec quoad esse,
+<lb ed="#Ba"/>nec quoad operationem. Angelicus, 
+cor<lb ed="#Ba" break="no"/>pore indigens ad ministerium. Spiritus
+<lb ed="#Ba"/>humanus, corpore indigens ad esse et
+<lb ed="#Ba"/>ad vitam *. Spiritus jumenti sine 
+corpo<lb ed="#Ba" break="no"/>re nec esse habens, nec vitam. </quote>
+               </p>
+               <p xml:id="Almn78-a48866-d1e605">
+                  <lb ed="#Ba"/>2. Adhuc, Augustinus, in libro VIII
+<lb ed="#Ba"/>de Civitate Dei 2, facit comparationem
+<lb ed="#Ba"/>inter tres substantias, deos scilicet, 
+de<lb ed="#Ba" break="no"/>mones, et homines : et inducit 
+Apu<lb ed="#Ba" break="no"/>leium in libro de Deo Socratis sic 
+dicen<lb ed="#Ba" break="no"/>tem : <quote xml:id="Almn78-a48866-Qd1e620"> Animalium, in quibus est anima
+<lb ed="#Ba"/>rationalis, tripartita divisio est : in deos,
+<lb ed="#Ba"/>homines, demones. Dii  
+excellentissi<lb ed="#Ba" break="no"/>mum lvcum tenent, homines infimum,
+<lb ed="#Ba"/>demones medium. Nam deorum sedes in
+<lb ed="#Ba"/>ceelo est, hominum in terra, damonum
+<lb ed="#Ba"/>in aere. </quote> Et infra *, dicit Apuleium
+<lb ed="#Ba"/>dixisse, deemones esse natura animalia,
+<lb ed="#Ba"/>animo passiva, mente rationalia, 
+corpo<lb ed="#Ba" break="no"/>re aerea, tempore eterna. Ergo 
+demo<lb ed="#Ba" break="no"/>nes qui ejusdem nature sunt cum 
+An<lb ed="#Ba" break="no"/>gelis, corpora habent naturaliter  sibi
+<lb ed="#Ba"/>unita : ergo et Angeli multo magis 
+pos<lb ed="#Ba" break="no"/>sunt sibi assumere corpora.
+</p>
+               <p xml:id="Almn78-a48866-d1e652">
+                  <lb ed="#Ba"/>3. Adhuc, Augustinus in. libro tertio
+<lb ed="#Ba"/>super Genesim ad litteram: <quote xml:id="Almn78-a48866-Qd1e658"> Demones
+<lb ed="#Ba"/>aerea dicuntur animalia: quia 
+corpo<lb ed="#Ba" break="no"/>rum aereorum natura vigent: nec per
+<lb ed="#Ba"/>mortem dissolvuntur *. </quote> Ex hoc 
+sequi<lb ed="#Ba" break="no"/>tur idem quod prius.
+</p>
+               <p xml:id="Almn78-a48866-d1e670">
+                  <lb ed="#Ba"/>4, Adhuc, Gregoriusin libro XXVIII
+<lb ed="#Ba"/>Moralium : <quote xml:id="Almn78-a48866-Qd1e676"> Abraham Angelos videre
+<lb ed="#Ba"/>non potuisset, nisi corpus ex aere 
+as<lb ed="#Ba" break="no"/>sumpsissent. </quote>
+  
+                  <lb ed="#Ba"/>5. Adhuc, <quote xml:id="Almn78-a48866-Qd1e685">Abraham Angelicum 
+nu<lb ed="#Ba" break="no"/>merum non caperet, nisi propter nos-ex
+<pb ed="#Ba" n="782"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>celesti elemento aliquod solidum 
+as<lb ed="#Ba" break="no"/>sumerent et gestarent. </quote>
+               </p>
+               <p xml:id="Almn78-a48866-d1e699">
+                  <lb ed="#Ba"/>Sontutio. Dicendum, quod in 
+questio<lb ed="#Ba" break="no"/>ne hac parum potest Philosophus vel
+<lb ed="#Ba"/>nihil : et ideo omnino innitendum est
+<lb ed="#Ba"/>auctoritatibus Sanctorum et Scripture
+<lb ed="#Ba"/>Bibliz.
+</p>
+               <p xml:id="Almn78-a48866-d1e712">
+                  <lb ed="#Ba"/>Ad primum ergo quesitum dicendum
+<lb ed="#Ba"/>quod Angeli assumunt corpora, ut dicit
+<lb ed="#Ba"/>Dionysius in capitulo secundo Celestis
+<lb ed="#Ba"/>hierarchiez, et theologia figurat eos 
+cor<lb ed="#Ba" break="no"/>poralibus formationibus, propter 
+no<lb ed="#Ba" break="no"/>strum materialem intellectum,qui propter
+<lb ed="#Ba"/>hoc quod, ut-dicit Philosophus in tertio
+<lb ed="#Ba"/>de Anima, conjunctus est continuo et
+<lb ed="#Ba"/>tempori, simplices intelligentias divinas
+<lb ed="#Ba"/>capere-non potest, nisi fuerint 
+corporali<lb ed="#Ba" break="no"/>bus assimilate : et ideo assumunt corpora
+<lb ed="#Ba"/>non propter se, sed ut hominibus 
+con<lb ed="#Ba" break="no"/>gruant, ad quos mittuntur purgandos,
+<lb ed="#Ba"/>illuminandos, et perficiendos, et 
+custo<lb ed="#Ba" break="no"/>diendos. Unde etiam talium corporum
+<lb ed="#Ba"/>sumunt figuras, ex quibus significetur
+<lb ed="#Ba"/>quod circa nos veniunt facere. Sicut 
+ve<lb ed="#Ba" break="no"/>nientes custodire ab insidiis, assumunt
+<lb ed="#Ba"/>figuras ministrorum bellicorum, quibus
+<lb ed="#Ba"/>hoc ipsum significetur quod intendunt.
+<lb ed="#Ba"/>IV Regum, vi, 17: Eece mons plenus
+<lb ed="#Ba"/>equorum et curruum igneorum in 
+cir<lb ed="#Ba" break="no"/>cuitu Elisei.
+</p>
+               <p xml:id="Almn78-a48866-d1e765">
+                  <lb ed="#Ba"/>Et per Hoc jam patet solutio ad 
+pri<lb ed="#Ba" break="no"/>mum. Licet enim quantum est de 
+natu<lb ed="#Ba" break="no"/>rasua incvorporei sint et simplices, 
+nul<lb ed="#Ba" break="no"/>lam habentes inclinationem vel 
+propor<lb ed="#Ba" break="no"/>tionem ad corpus : tamen quia nos 
+cor<lb ed="#Ba" break="no"/>porei sumus et corporalibus 
+similitudi<lb ed="#Ba" break="no"/>nibus facilius instruimur de ccelestibus,
+<lb ed="#Ba"/>ex convenientia ad nos, ut scilicet nobis
+<lb ed="#Ba"/>congruant, utile est eos assumere 
+cor<lb ed="#Ba" break="no"/>pora, et talia in quibus nobis congruant,
+<lb ed="#Ba"/>ex quorum similitudinibus manifestetur
+<lb ed="#Ba"/>quid circa nos acturi veniunt. Unde, 
+To<lb ed="#Ba" break="no"/>bie, v, 5, Raphael Angelus apparuit in
+<lb ed="#Ba"/>specie juvenis precincti ab 
+ambulan<lb ed="#Ba" break="no"/>dum, ut ex hoc doceret, quod itinere
+<lb ed="#Ba"/>recto et salubri ducturus esset filium.
+</p>
+               <p xml:id="Almn78-a48866-d1e802">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod operationes
+<lb ed="#Ba"/>Angeli duplices sunt, scilicet interiores,
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>et exteriores. Interiores duplices sunt:
+<lb ed="#Ba"/>circa Deum, et circa seipsos. Quantum
+<lb ed="#Ba"/>ad operationes interiores non indigent
+<lb ed="#Ba"/>corpore : et hoc et nihil amplius probat
+<lb ed="#Ba"/>objectio. Quantum ad operationes 
+ex<lb ed="#Ba" break="no"/>teriores qu circa nos sunt, non propter
+<lb ed="#Ba"/>se, sed propter nos quibus nobis 
+con<lb ed="#Ba" break="no"/>gruant, assumunt corpora. Quod patet,
+<lb ed="#Ba"/>Il Machabeorum, x1, 8 et 9 ubi Angelus
+<lb ed="#Ba"/>veniens ad animandum et protegendum
+<lb ed="#Ba"/>Judam Machabeum et suos ad purgnam,
+<lb ed="#Ba"/>talem figuram assumpsit, ut ipsa figura
+<lb ed="#Ba"/>realiter hoc loqueretur. Ad confortandum
+<lb ed="#Ba"/>enim eos apparuit, precedens eos eques
+<lb ed="#Ba"/>investe candida, armis aureis hastam
+<lb ed="#Ba"/>vibrans, scilicet contra inimicos. Tune
+<lb ed="#Ba"/>omnes simul benedixerunt misericordem
+<lb ed="#Ba"/>Dominum, et convaluerunt animis. Ad
+<lb ed="#Ba"/>protegendum autem, sicut dicitur,ibidem,
+<lb ed="#Ba"/>X, 29 et 830: Apparuerunt adversartiis de
+<lb ed="#Ba"/>colo viri quinque in equis... Ex quibus
+<lb ed="#Ba"/>duo Machabeum medium habentes, 
+ar<lb ed="#Ba" break="no"/>mis suis circumseptum incolumem , 
+con<lb ed="#Ba" break="no"/>servabant : in adversarios autem tela
+<lb ed="#Ba"/>et fulmina jaciebant, ex quo et cecitate
+<lb ed="#Ba"/>confusi, et repleti perturbatione, 
+cade<lb ed="#Ba" break="no"/>bant.
+</p>
+               <p xml:id="Almn78-a48866-d1e870">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod illud 
+argu<lb ed="#Ba" break="no"/>mentum procederet si nihil attribueretur
+<lb ed="#Ba"/>Angelo, nisi propter seipsum et propter
+<lb ed="#Ba"/>ipsius naturam. Sed quia in toto ordine
+<lb ed="#Ba"/>nature sic est, quod semper superior
+<lb ed="#Ba"/>provisiva est inferioris, ideo secundum
+<lb ed="#Ba"/>provisionem illam attribuitur Angelo
+<lb ed="#Ba"/>ministerium circa hominem, ut 
+mini<lb ed="#Ba" break="no"/>strans congruat homini, et congruere non
+<lb ed="#Ba"/>potest nisi conformetur : ideo 
+conces<lb ed="#Ba" break="no"/>sum est eis, quod possunt assumere
+<lb ed="#Ba"/>corpora, et quod possunt illa mutare in
+<lb ed="#Ba"/>formas et figuras ministerio 
+congruen<lb ed="#Ba" break="no"/>tes. ,
+</p>
+               <p xml:id="Almn78-a48866-d1e903">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod assumunt
+<lb ed="#Ba"/>corpora propter operationes suas quas
+<lb ed="#Ba"/>habent circa nos : et quamvis illas 
+pos<lb ed="#Ba" break="no"/>sint perficere sine corporibus quantum
+<lb ed="#Ba"/>est de se, tamen conformiter nobis non
+<lb ed="#Ba"/>possunt fieri sine corporibus assumptis,
+<lb ed="#Ba"/>ut dictum est. Unde etiam, Matth. 1, 20,
+<lb ed="#Ba"/>et ut, 13-et 19, ubi venit Angelus illumi
+<pb ed="#Ba" n="783"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>nare Joseph de his que debebant fieri
+<lb ed="#Ba"/>circa Salvatorem in somnis, per 
+imagi<lb ed="#Ba" break="no"/>nes corporales instruxit eum. Et sic etiam
+<lb ed="#Ba"/>factum est de regibus '.
+</p>
+               <p xml:id="Almn78-a48866-d1e936">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod duo 
+exigun<lb ed="#Ba" break="no"/>tur ad instructionem hominis si 
+aptissi<lb ed="#Ba" break="no"/>me debeat instrui, scilicet quod figura
+<lb ed="#Ba"/>vel species apparens quasi ipsa loquitur
+<lb ed="#Ba"/>hoc de quo homo debet instrui. Et quod
+<lb ed="#Ba"/>instructor conformis et familiaris per
+<lb ed="#Ba"/>omnia congruat ei qui instruitur. Et
+<lb ed="#Ba"/>quantum ad primum sufficeret 
+illumina<lb ed="#Ba" break="no"/>lio ostensa in sensibilibus speciebus,
+<lb ed="#Ba"/>vel imaginabilibus, vel intelligibilibus,
+<lb ed="#Ba"/>sicut factum est Prophetis. Sed quantum
+<lb ed="#Ba"/>ad secundum exigitur assumptio 
+corpo<lb ed="#Ba" break="no"/>rum, in quibus hominibus congruat,
+com<lb ed="#Ba" break="no"/>edendo, bibendo, ambulando, loquendo.
+</p>
+               <p xml:id="Almn78-a48866-d1e969">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod sic non 
+in<lb ed="#Ba" break="no"/>digent corpore, quod sine ipso non 
+pos<lb ed="#Ba" break="no"/>sint facere operationes illuminationis.
+<lb ed="#Ba"/>Unde aliquando etiam sonant de nube
+<lb ed="#Ba"/>voces articulatas et significalivas, quas
+<lb ed="#Ba"/>non formant per linguam, sed indigent
+<lb ed="#Ba"/>eis ut aptissimo modo homo iniruatur,
+<lb ed="#Ba"/>ut dictum est. ,
+</p>
+               <p xml:id="Almn78-a48866-d1e990">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Rabbi 
+Moy<lb ed="#Ba" break="no"/>ses et aliqui alii Judi, ut Rabbi 
+Elea<lb ed="#Ba" break="no"/>zar, et Rabbi Josua, et Rabbi Joanna,
+<lb ed="#Ba"/>et Isaac non referebant apparitiones 
+An<lb ed="#Ba" break="no"/>gelorum nisi ad actum illuminationis
+<lb ed="#Ba"/>que fiebat per eos. Et verum est, quod
+<lb ed="#Ba"/>illa potest fieri ex solis speciebus sine
+<lb ed="#Ba"/>assumptione corporum. Sed (ut dictum
+<lb ed="#Ba"/>est) sancti alii atlendentes 
+conformita<lb ed="#Ba" break="no"/>tem Angelorumcum hominibus in 
+acti<lb ed="#Ba" break="no"/>bus humanis, ex quibus per amorem
+<lb ed="#Ba"/>capitur et per significationem quasi 
+ma<lb ed="#Ba" break="no"/>nuducitur, ut dicit Dionysius, animus
+<lb ed="#Ba"/>hominis, et apertissime instruitur, 
+dixe<lb ed="#Ba" break="no"/>runt haec que scribuntur de Angelis, in
+<lb ed="#Ba"/>Genes, xvi, 1 et seq., qui comederunt
+<lb ed="#Ba"/>apud Abraham : et, Tobie, xn, 19, ubi
+<lb ed="#Ba"/>Angelus comedit. Et, Actuum, xn, 10,
+<lb ed="#Ba"/>ubi Angelus corporaliter pracessit 
+Pe<lb ed="#Ba" break="no"/>trum, et eduxit eum de carcere. De for-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>mis autem in quibus apparuit Deus ante
+<lb ed="#Ba"/>incarnationem, dicit Augustinus -
+expres<lb ed="#Ba" break="no"/>se in libro J1I de Trinitate, quod <quote xml:id="Almn78-a48866-Qd1e1044"> 
+An<lb ed="#Ba" break="no"/>geli eas preparaverunt, sed virtus 
+divi<lb ed="#Ba" break="no"/>na formavit eas et distinxit °. </quote>
+               </p>
+               <p xml:id="Almn78-a48866-d1e1052">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet ilud
+<lb ed="#Ba"/>non sit multum ad propositum quod ante
+<lb ed="#Ba"/>queritur de hoc, tamen ante diluvium
+<lb ed="#Ba"/>Deus magis familiaris videbatur 
+homini<lb ed="#Ba" break="no"/>bus: eo quod peccatum non tantum
+<lb ed="#Ba"/>inundaverat : et ideo apparuit per 
+se<lb ed="#Ba" break="no"/>ipsum. Cum autem peccatum inundavit,
+<lb ed="#Ba"/>post diluvium minus familiarem se
+<lb ed="#Ba"/>ostendit hominibus, et apparuit per 
+An<lb ed="#Ba" break="no"/>gelos. Tandem, ut dicunt Anselmus et
+<lb ed="#Ba"/>Ambrosius, quia opus redemptionis non
+<lb ed="#Ba"/>potuit fieri nisi per eum qui debuit ut
+<lb ed="#Ba"/>homo, et petuit ut Beus, oportuit ut
+<lb ed="#Ba"/>apparens per seipsum veritatem humani
+<lb ed="#Ba"/>corporis assumeret,
+</p>
+               <p xml:id="Almn78-a48866-d1e1087">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod apparitio
+<lb ed="#Ba"/>que scribitur in libro If Machabeorum,
+<lb ed="#Ba"/>v. 2 et seq., facta non fuit nisi ut
+<lb ed="#Ba"/>significaretur illuminatio de bello 
+futu<lb ed="#Ba" break="no"/>ro : et ideo ad hoc suffecerunt imagines
+<lb ed="#Ba"/>sine corporibus. Sed ex hoc non 
+sequi<lb ed="#Ba" break="no"/>tur, quin necessaria sit assumptio 
+corpo<lb ed="#Ba" break="no"/>ris ad familiarem instructionem 
+quarum<lb ed="#Ba" break="no"/>dam personarum, ut Abrahe et Tobie.
+</p>
+               <p xml:id="Almn78-a48866-d1e1109">
+                  <lb ed="#Ba"/>Ip guop primo in contrarium objicitur
+<lb ed="#Ba"/>de beato Bernardo, concedendum est :
+<lb ed="#Ba"/>angelicus enim spiritus propter 
+ministe<lb ed="#Ba" break="no"/>rium indiget corpore, non propter se,
+<lb ed="#Ba"/>sed propter nos, ut dictum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1122">
+                  <lb ed="#Ba"/>Ad dictum Augustini dicendum, quod
+<lb ed="#Ba"/>non dicit Augustinus, quod demones
+<lb ed="#Ba"/>sint animalia, et corpore aerea, nisi 
+se<lb ed="#Ba" break="no"/>cundum opinionem -Stoicorum : et
+<lb ed="#Ba"/>illa erronea fuit. Unde ex hoc non 
+se<lb ed="#Ba" break="no"/>quitur, guod Angeli habeant corpora,
+<lb ed="#Ba"/>vel assumant ea propter indigentiam
+<lb ed="#Ba"/>propriam.
+</p>
+               <p xml:id="Almn78-a48866-d1e1142">
+                  <lb ed="#Ba"/>Ad aliud dictum Augustini eodem
+<lb ed="#Ba"/>modo dicendum est: dicit enim hoc
+<lb ed="#Ba"/>recitando opinionem Stoicorum, et non
+<lb ed="#Ba"/>asserendo.
+</p>
+               <p xml:id="Almn78-a48866-d1e1154">
+                  <pb ed="#Ba" n="784"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Gre<lb ed="#Ba" break="no"/>gorii et sequens dictum, simpliciter 
+con<lb ed="#Ba" break="no"/>cedenda sunt.
+</p>
+            </div>
+            <div xml:id="Almn78-a48866-Dd1e1168">
+               <head xml:id="Almn78-a48866-Hd1e1170">Membrum 2</head>
+               <head xml:id="Almn78-a48866-Hd1e1173" type="question-title">
+  Ex quo elemento Angeli assumant
+  corpora?
+</head>
+               <p xml:id="Almn78-a48866-d1e1176">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Ex quo elemento Angeli assumant
+<lb ed="#Ba"/>corpora?
+</p>
+               <p xml:id="Almn78-a48866-d1e1185">
+                  <lb ed="#Ba"/>Secundo queritur, Ex quo elemento
+<lb ed="#Ba"/>Angeli assumant corpora ?
+</p>
+               <p xml:id="Almn78-a48866-d1e1192">
+                  <lb ed="#Ba"/>Sicut jam dictum est, auctoritati 
+inni<lb ed="#Ba" break="no"/>tendum est :
+</p>
+               <p xml:id="Almn78-a48866-d1e1200">
+                  <lb ed="#Ba"/>1. Habitum est autem nuper quod 
+di<lb ed="#Ba" break="no"/>cit Gregorius, Abraham Angelos non
+<lb ed="#Ba"/>potuisset videre, nisi corpora ex aere
+<lb ed="#Ba"/>assumpsissent.
+</p>
+               <p xml:id="Almn78-a48866-d1e1211">
+                  <lb ed="#Ba"/>2. Adhuc, <name xml:id="Almn78-a48866-Nd1e1215">Beda</name> in libro de Natura
+<lb ed="#Ba"/>rerum sic dicit : <quote xml:id="Almn78-a48866-Qd1e1220"> Colum  superioris
+<lb ed="#Ba"/>circuli proprio discretum termino et
+<lb ed="#Ba"/>equalibus spatiis collocatum, virtutes
+<lb ed="#Ba"/>angelicas continet, que ad nos 
+exeun<lb ed="#Ba" break="no"/>tes extherea corpora sumunt, ut possint
+<lb ed="#Ba"/>hominibus medendo assimilari, 
+eadem<lb ed="#Ba" break="no"/>que reverse ad ccelum deponunt.</quote> A%ther
+<lb ed="#Ba"/>autem est superior pars aeris, ut in
+<lb ed="#Ba"/>libro Meteororum dicit Aristoteles.
+</p>
+               <p xml:id="Almn78-a48866-d1e1242">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Sicut dicitur, Genes. 1, 4, et jam
+<lb ed="#Ba"/>habitum est, locus corporeus qui magis
+<lb ed="#Ba"/>convenit Angelo, celum empyreum est.
+<lb ed="#Ba"/>Dicit autem Philosophus, quod locus et
+<lb ed="#Ba"/>locatum connaturalia sunt: propter quod
+<lb ed="#Ba"/>unumquodque movetur ad locum sibi
+<lb ed="#Ba"/>connaturalem. Videtur ergo, quod 
+ma<lb ed="#Ba" break="no"/>gis congruum sit Angelo, quod sumat
+<lb ed="#Ba"/>corpus de corpore ccelesti, quam de aere.
+<lb ed="#Ba"/>Et hoc videtur etiam ex signo, Actuum, 
+<lb ed="#Ba" break="no"/>xu, 7: Et ecce Angelus Domini 
+adsti<lb ed="#Ba" break="no"/>tit, et lumen refulsit in habitaculo, 
+sci<lb ed="#Ba" break="no"/>licet in carcere. Constat, quod loquitur
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>de lumine corporali, quod potuit fulgere
+<lb ed="#Ba"/>nisi tantum de corpore Angeli. Cum
+<lb ed="#Ba"/>ergo corpus dese non luceat nisi 
+coe<lb ed="#Ba" break="no"/>leste, videtur quod corpus Angeli 
+as<lb ed="#Ba" break="no"/>sumptum fuit de substantia ccelesti.
+</p>
+               <p xml:id="Almn78-a48866-d1e1288">
+                  <lb ed="#Ba"/>2. Adhuc, Augustinus in libro III 
+su<lb ed="#Ba" break="no"/>per Genesim ad litteram?, et 
+induci<lb ed="#Ba" break="no"/>tur a Magistro in libro II Senéentiarum,
+<lb ed="#Ba"/>distinctione VIII, dicit sic : <quote xml:id="Almn78-a48866-Qd1e1298"> Daemones
+<lb ed="#Ba"/>quibus ante peccatum congruebat locus
+<lb ed="#Ba"/>ceelestis, quantum erat de prima natura
+<lb ed="#Ba"/>sua instituta, post peccatum ceciderunt
+<lb ed="#Ba"/>de ccelo in hunc aerem caliginosum : et
+<lb ed="#Ba"/>de illo assumunt corpora ad_ 
+tentan<lb ed="#Ba" break="no"/>dum. </quote> Si ergo boni Angeli non 
+cecide<lb ed="#Ba" break="no"/>runt de ceelo, congruitatem non habent
+<lb ed="#Ba"/>assumendi corpora de aere, sed de
+<lb ed="#Ba"/>ceelo. _
+</p>
+               <p xml:id="Almn78-a48866-d1e1322">
+                  <lb ed="#Ba"/>3. Adhuc, Ante habitum est de agilitate
+<lb ed="#Ba"/>Angelorum, quod in potestate habent
+<lb ed="#Ba"/>motum suum: tante autem agilitati
+<lb ed="#Ba"/>non competit corpus alicujus elementi,
+<lb ed="#Ba"/>sed de ccelesti assumptum : ergo videtur,
+<lb ed="#Ba"/>quod boni Angeli non assumant 
+corpo<lb ed="#Ba" break="no"/>ra de aere, sed de ceelo.
+</p>
+               <p xml:id="Almn78-a48866-d1e1340">
+                  <lb ed="#Ba"/>Sed hoc videtur esse impossibile :
+<lb ed="#Ba"/>1. Corpus enim ceeleste, ut dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles, est indivisibile : sed si Angelus
+<lb ed="#Ba"/>assumit corpus de ccelo, oportet de 
+ne<lb ed="#Ba" break="no"/>cessitate, quod corpus assumptum 
+divi<lb ed="#Ba" break="no"/>datur a reliquo quod non assumit: et
+<lb ed="#Ba"/>sic videtur, quod impossibile sit, quod
+<lb ed="#Ba"/>assumat corpus de ceelo.
+</p>
+               <p xml:id="Almn78-a48866-d1e1361">
+                  <lb ed="#Ba"/>2. Adhuc, Dicunt quidam ccelum esse
+<lb ed="#Ba"/>corpus inalterabile secundum qualitates :
+<lb ed="#Ba"/>alterationes enim non accipit, sicut 
+ca<lb ed="#Ba" break="no"/>lidum, frigidum, humidum, siccum, 
+ra<lb ed="#Ba" break="no"/>rum, spissum. Corpora autem assumpta
+<lb ed="#Ba"/>ab Angelis, ut dicunt Sancti, densabilia
+<lb ed="#Ba"/>et densata sunt, ut contineant figuras
+<lb ed="#Ba"/>membrorum humanorum et aliorum
+<lb ed="#Ba"/>animalium terminata in seipsis : quia si
+<lb ed="#Ba"/>essent in raritate aeris vel ztheris, 
+quo<lb ed="#Ba" break="no"/>cumque moveretur Angelus, corpus
+<pb ed="#Ba" n="785"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>suum continuaretur illi aeri et flueret
+<lb ed="#Ba"/>in ipsum: et sic Angelus indistinctus
+<lb ed="#Ba"/>ab aere esset per quem moveretur,
+</p>
+               <p xml:id="Almn78-a48866-d1e1398">
+                  <lb ed="#Ba"/>Soxutio. Dicendum, quod secundum
+<lb ed="#Ba"/>Sanctos oportet dicere, quod Angeli ex
+<lb ed="#Ba"/>ethere corpora assumant, et quod 
+ha<lb ed="#Ba" break="no"/>beant potestatem densandi ea, non 
+com<lb ed="#Ba" break="no"/>mixtione alterius corporis, sed 
+simplici<lb ed="#Ba" break="no"/>ter, prout densitas est situs quidam 
+par<lb ed="#Ba" break="no"/>tium propinque stantium in toto, et
+<lb ed="#Ba"/>quod habeant potestatem ad solidum
+<lb ed="#Ba"/>redigendi ea ut resistant tactui et non
+<lb ed="#Ba"/>cedant impellenti : sic enim et figurata
+<lb ed="#Ba"/>sunt et formata. Aither autem licet
+<lb ed="#Ba"/>multipliciter dicatur, ut dicit- Arisloteles
+<lb ed="#Ba"/>in libro AMeteororum, tamen principaliter
+<lb ed="#Ba"/>dicitur corpus non igne, sed lumine
+<lb ed="#Ba"/>inflammans et inflammatum : et talis est
+<lb ed="#Ba"/>superior pars aeris, que pura est, eo
+<lb ed="#Ba"/>quod vapores ad ipsam non attingunt :
+<lb ed="#Ba"/>luminosa est sive inflammata lumine ex
+<lb ed="#Ba"/>propinguitate siderum. Sapientie, xvi,
+<lb ed="#Ba"/>5, dicitur : Siderum limpide flamme.
+<lb ed="#Ba"/>Ex hoc ergo meo judicio corpora 
+assu<lb ed="#Ba" break="no"/>munt, secundum quod potest elici ex
+<lb ed="#Ba"/>dictis Sanctorum: hoc enim magis 
+obe<lb ed="#Ba" break="no"/>dit densationi et solidationi in figuras
+<lb ed="#Ba"/>corporales ministerio eorum congruentes.
+</p>
+               <p xml:id="Almn78-a48866-d1e1455">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+Gre<lb ed="#Ba" break="no"/>gorius vocat ethera aerem: quia 
+supe<lb ed="#Ba" break="no"/>rior pars aeris est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1464">
+                  <lb ed="#Ba"/>Ad dictum Bede patet solutio :
+<lb ed="#Ba"/>hoc concedendum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1471">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod licet coolum empyreum
+<lb ed="#Ba"/>inter corpora plus congruat nature 
+an<lb ed="#Ba" break="no"/>gelice, tamen non ita congruit 
+ministe<lb ed="#Ba" break="no"/>rio : quia non ita potest solidari et 
+den<lb ed="#Ba" break="no"/>sari sicut aereum, ut dictum est. 
+Dio<lb ed="#Ba" break="no"/>nysius tamen in Celesti hierarchia hujus
+<lb ed="#Ba"/>ponit etiam aliam rationem, dicens quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a48866-Qd1e1492"> sapienter providit theologia Angelos
+<lb ed="#Ba"/>formans figuris ignobilium corporum, ut
+<lb ed="#Ba"/>bonum, leonum, aquilarum, equorum
+<lb ed="#Ba"/>igneorum, ne scilicet imperiti et idiots
+<lb ed="#Ba"/>qui nihil estimare sciunt nisi quod vi-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>dent, crederent esse Angelos ejusdem
+<lb ed="#Ba"/>nature cujus est corpus in quo 
+appa<lb ed="#Ba" break="no"/>rent : sed ipsa vilitate et ignobilitate
+<lb ed="#Ba"/>elementi conjuncti, scirent Angelos esse
+<lb ed="#Ba"/>supermundanas substantias, habentes
+<lb ed="#Ba"/>potestatem hec inferiora movendi ad
+<lb ed="#Ba"/>usum sui ministerii!. </quote>
+               </p>
+               <p xml:id="Almn78-a48866-d1e1522">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod non intendit
+<lb ed="#Ba"/>Augustinus dicere, quod demones ante
+<lb ed="#Ba"/>peccatum et Angeli boni quantum est de
+<lb ed="#Ba"/>se, dependerent vel connaturalitatem
+<lb ed="#Ba"/>haberent ad aliquem locum : sed 
+quan<lb ed="#Ba" break="no"/>tum est de congruentia corporis ad 
+spi<lb ed="#Ba" break="no"/>ritum, lux corporalis plus congruit luci
+<lb ed="#Ba"/>spirituali quam aliud corpus : et sic
+<lb ed="#Ba"/>debebatur Angelo bono celum, et etiam
+<lb ed="#Ba"/>daemoni ante peccatum. Quoad 
+assump<lb ed="#Ba" break="no"/>tionem vero corporum que non respicit
+<lb ed="#Ba"/>nisi ministerii congruitatem, sic demoni
+<lb ed="#Ba"/>post peccatum ad congruitatem 
+tenta<lb ed="#Ba" break="no"/>tionis debetur aer caliginosus : quia 
+ca<lb ed="#Ba" break="no"/>liginoso corpore assumpto magis 
+con<lb ed="#Ba" break="no"/>gruit tentationi : ex ipsa enim caligine
+<lb ed="#Ba"/>signanter respondet, quod tentator est
+<lb ed="#Ba"/>et mendax. Aliquando tamen ¢
+ransfigz<lb ed="#Ba" break="no"/>rat se in Angelum lucis, ut hac 
+simula<lb ed="#Ba" break="no"/>tione decipiat, sicut dicit Apostolus,
+<lb ed="#Ba"/>Tl ad Corinth. xi, 14.
+</p>
+               <p xml:id="Almn78-a48866-d1e1571">
+                  <lb ed="#Ba"/>Et quod objicitur in -precedenti 
+argu<lb ed="#Ba" break="no"/>mento, Actuum, xu, 7 dicendum, quod
+<lb ed="#Ba"/>sicut dicit Avicenna in Sufficientia celi
+<lb ed="#Ba"/>et mundi, <quote xml:id="Almn78-a48866-Qd1e1581"> Omne perspicuum 
+densa<lb ed="#Ba" break="no"/>tum lucet : </quote> et ideo omne lucens actu
+<lb ed="#Ba"/>tegit et videri non permiltit corpus quod
+<lb ed="#Ba"/>post se est. Unde flamma candele alteri
+<lb ed="#Ba"/>candele objecta, umbram facit, et sol
+<lb ed="#Ba"/>tegit stellas. Propter quod etiam 
+Philo<lb ed="#Ba" break="no"/>sophi dicunt ignem non lucere in propria
+<lb ed="#Ba"/>sphera, propter nimiam raritatem 
+ip<lb ed="#Ba" break="no"/>sius. Non ergo est inconveniens si 
+cor<lb ed="#Ba" break="no"/>pus Angeli ex aethere densatum luxit in
+<lb ed="#Ba"/>carcere.
+</p>
+               <p xml:id="Almn78-a48866-d1e1607">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod _agilitati
+<lb ed="#Ba"/>Angeli non repugnat aether: tanta enim
+<lb ed="#Ba"/>est vis Angeli ad movendum, quod vincit
+<lb ed="#Ba"/>omnia talia, sicut paulo ante in 
+prehabi<lb ed="#Ba" break="no"/>tis ostensum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1620">
+                  <pb ed="#Ba" n="786"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Ari<lb ed="#Ba" break="no"/>stotelis procedit.
+</p>
+               <p xml:id="Almn78-a48866-d1e1631">
+                  <lb ed="#Ba"/>Ad aliud potest dici, quod illud 
+pro<lb ed="#Ba" break="no"/>cedit : licet enim corpus ceeleste, ut 
+di<lb ed="#Ba" break="no"/>cit Messealach in libro de Sphera mota,
+<lb ed="#Ba"/>et Averroes in libro de Subsiantia orbis,
+<lb ed="#Ba"/>sit inspissabile et rarefactibile quoad
+<lb ed="#Ba"/>positionem partium propinque vel 
+re<lb ed="#Ba" break="no"/>mote, eo quod aliter sequeretur quod
+<lb ed="#Ba"/>intercideret vacuum inter spheras 
+or<lb ed="#Ba" break="no"/>bium : tamen non est rarefactibile et
+<lb ed="#Ba"/>densabile ad divisionem substantia, et
+<lb ed="#Ba"/>alterationem passivam abjicientem a
+<lb ed="#Ba"/>forma et a specie : et ideo ab Angelo non
+<lb ed="#Ba"/>est assumptibile.
+</p>
+            </div>
+            <div xml:id="Almn78-a48866-Dd1e1663">
+               <head xml:id="Almn78-a48866-Hd1e1665">Membrum 3</head>
+               <head xml:id="Almn78-a48866-Hd1e1668" type="question-title">
+  Qualiter Angelus assumat corpus, utrum
+  scilicet sit in corpore assumpto ut 
+  perfectio in perfectibili, vel ut motor in
+  mobili?
+</head>
+               <p xml:id="Almn78-a48866-d1e1671">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Qualiter Angelus assumat corpus, utrum
+<lb ed="#Ba"/>scilicet sit in corpore assumpto ut 
+per<lb ed="#Ba" break="no"/>fectio in perfectibili, vel ut motor in
+<lb ed="#Ba"/>mobili?
+</p>
+               <p xml:id="Almn78-a48866-d1e1684">
+                  <lb ed="#Ba"/>Tertio queritur, Qualiter Angeli 
+assu<lb ed="#Ba" break="no"/>mant corpora ?
+</p>
+               <p xml:id="Almn78-a48866-d1e1691">
+                  <lb ed="#Ba"/>Et queritur hic, Utrum Angelus sit in
+<lb ed="#Ba"/>corpore assumpto ut perfectio in 
+perfe<lb ed="#Ba" break="no"/>ctibili, vel ut motorin mobili ?
+</p>
+               <p xml:id="Almn78-a48866-d1e1701">
+                  <lb ed="#Ba"/>1. Si enim est ut perfectio in 
+perfecti<lb ed="#Ba" break="no"/>bili: cum ex perfectibili et perfectione
+<lb ed="#Ba"/>naturaliter fiat unum, ex Angelo et 
+cor<lb ed="#Ba" break="no"/>pore assupto naturaliter fieret unum,
+<lb ed="#Ba"/>quod falsum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1714">
+                  <lb ed="#Ba"/>2. Adhuc, Quotiescumque spiritualis
+<lb ed="#Ba"/>substantia corporali unitur ut perfectio
+<lb ed="#Ba"/>perfectibili, spiritualis substantia 
+vivifi<lb ed="#Ba" break="no"/>cat corporalem. Si ergo Angelus 
+assu<lb ed="#Ba" break="no"/>mat corpus ut perfectio perfectibile,
+<lb ed="#Ba"/>corpus assumptum vivificatur ab Angelo,
+<lb ed="#Ba"/>quod absurdum est.
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>3, Si dicatur, quod assumat ut motor
+<lb ed="#Ba"/>mobile. Contraa : Secundum hoc assumit
+<lb ed="#Ba"/>omne corpus quod movet. Sed in 
+li<lb ed="#Ba" break="no"/>bro VIII super Genesim ad. litteram,
+<lb ed="#Ba"/>dicit Augustinus quod <quote xml:id="Almn78-a48866-Qd1e1744"> Angeli omnia
+<lb ed="#Ba"/>corpora possunt movere *.</quote> Ergo 
+om<lb ed="#Ba" break="no"/>nia corpora possunt assumere, quod 
+fal<lb ed="#Ba" break="no"/>sum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1754">
+                  <lb ed="#Ba"/>4, Adhuc, Zacharie, 1, 13, dicitur:
+<lb ed="#Ba"/>Respondit Dominus Angelo qui 
+loqueba<lb ed="#Ba" break="no"/>tur in me. Ergo Angelus movebat 
+Za<lb ed="#Ba" break="no"/>chariam et membra ejus. Et si assumit
+<lb ed="#Ba"/>omne corpus quod movet vel in quo
+<lb ed="#Ba"/>operatur : tunc sequitur, quod assumpsit
+<lb ed="#Ba"/>Zachariam, quod absurdum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e1772">
+                  <lb ed="#Ba"/>Ulterius queritur, A quo vel 
+quo<lb ed="#Ba" break="no"/>modo fiat corpus quod assumitur ab
+<lb ed="#Ba"/>Angelo ? hoc enim corpus organizatum
+<lb ed="#Ba"/>est. Queritur ergo, Quis’ organizal 
+cor<lb ed="#Ba" break="no"/>pus ?
+</p>
+               <p xml:id="Almn78-a48866-d1e1785">
+                  <lb ed="#Ba"/>Et videtur, quod non Angelus :
+<lb ed="#Ba"/>1. Organizatio enim cum ultima 
+per<lb ed="#Ba" break="no"/>fectio sit corporis animali, videtur quod
+<lb ed="#Ba"/>ad Deum pertineat : ultimum enim et
+<lb ed="#Ba"/>optimum in unoquoque Deo est 
+attri<lb ed="#Ba" break="no"/>buendum.
+</p>
+               <p xml:id="Almn78-a48866-d1e1801">
+                  <lb ed="#Ba"/>2. Adhuc, Augustinus in libro 1X 
+su<lb ed="#Ba" break="no"/>per Genesim ad litteram, dicit, quod <quote xml:id="Almn78-a48866-Qd1e1807">in
+<lb ed="#Ba"/>formalione corporis Heve Angeli 
+prae<lb ed="#Ba" break="no"/>paraverunt materiam, extrahendo 
+scili<lb ed="#Ba" break="no"/>cet de Adam costam, sed Deus perfecit
+<lb ed="#Ba"/>corpus, distinguendo in organa®. </quote> A
+<lb ed="#Ba"/>simili ergo videtur, quod in corporibus
+<lb ed="#Ba"/>suis preparatores tantum sint, et 
+Do<lb ed="#Ba" break="no"/>minus adhibeat organizationem.
+</p>
+               <p xml:id="Almn78-a48866-d1e1827">
+                  <lb ed="#Ba"/>3. Adhuc, Anima in generatione 
+ho<lb ed="#Ba" break="no"/>minis non facit organizationem in 
+cor<lb ed="#Ba" break="no"/>pore, sed organizato jam infunditur,
+<lb ed="#Ba"/>sicut dicitur, Il Machab. vir, 22 et 23:
+<lb ed="#Ba"/>Nescio qualiter in utero meo 
+apparui<lb ed="#Ba" break="no"/>stis : neque enim ego spiritum et animam
+<lb ed="#Ba"/>donavt vobis et vitam, et singulorum
+<lb ed="#Ba"/>membra non ego ipsa compegi : sed
+<pb ed="#Ba" n="787"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>enim mundi Creator, qui formavit 
+ho<lb ed="#Ba" break="no"/>munis nativitatem, quigue omnium 
+inve<lb ed="#Ba" break="no"/>nil originem, et spiritum vobis iterum
+<lb ed="#Ba"/>cin misericordia reddet et vitam, sicut
+<lb ed="#Ba"/>nunc vosmetipsos despicitis propter 
+le<lb ed="#Ba" break="no"/>yes ejus. Ergo videtur, quod nec 
+An<lb ed="#Ba" break="no"/>Kelus organizet corpus assumptum ab
+<lb ed="#Ba"/>ipso.
+</p>
+               <p xml:id="Almn78-a48866-d1e1869">
+                  <lb ed="#Ba"/>4. Adhuc, Videtur quod organizatum
+<lb ed="#Ba"/>rorpus non competat Angelo. Dicit enim
+<lb ed="#Ba"/>Commentator super secundum de Anima,
+<lb ed="#Ba"/>quod multitudo organorum in corpore
+‘est propter multitudinem potentiaram
+<lb ed="#Ba"/>in anima, que non nisi organis operari
+<lb ed="#Ba"/>possunt : sed talis multitudo 
+potentia<lb ed="#Ba" break="no"/>rum non est in Angelo : ergo non
+<lb ed="#Ba"/>competit sibi assumptio corporis 
+orga<lb ed="#Ba" break="no"/>nizati.
+</p>
+               <p xml:id="Almn78-a48866-d1e1891">
+                  <lb ed="#Ba"/>5. Adhuc, Cum fictio contraria sit 
+ve<lb ed="#Ba" break="no"/>ritati, ut dicit Gregorius, et Angelus
+<lb ed="#Ba"/>quando mittitur, veritatis nuntius sit,
+<lb ed="#Ba"/>videtur quod in operibus ejus non debet
+<lb ed="#Ba"/>esse fictio : ergo oculus ejus vere est
+<lb ed="#Ba"/>oculus, et pes vere pes, et lingua vere
+<lb ed="#Ba"/>lingua, et auris vere auris, et manus
+<lb ed="#Ba"/>vere manus : sed oculus vere oculus, et
+<lb ed="#Ba"/>vere auris, et sic de aliis organis 
+sen<lb ed="#Ba" break="no"/>suum immutantur passibilibus. 
+qualitati<lb ed="#Ba" break="no"/>bus corporum : ergo Angelus immutatur
+<lb ed="#Ba"/>et recipit a corporibus passiones et 
+passi<lb ed="#Ba" break="no"/>biles qualitates corporum inferentes vel
+<lb ed="#Ba"/>illatas : quod valde absurdum est, et
+<lb ed="#Ba"/>contra beatum Dionysium, qui dicit, quod
+<lb ed="#Ba"/>Angeli cognoscunt haec singularia nihil
+<lb ed="#Ba"/>recipientes ab ipsis.
+</p>
+               <p xml:id="Almn78-a48866-d1e1930">
+                  <lb ed="#Ba"/>6. Adhuc, Sicut in preehabitis dictum
+<lb ed="#Ba"/>ost, frustra fit mediante corpore quod 
+si<lb ed="#Ba" break="no"/>ne corpore fieri potest. Sed sonare, 
+lo<lb ed="#Ba" break="no"/>cutiones formare, accedere homines, 
+mo<lb ed="#Ba" break="no"/>vere corpora, et defendere a periculis,
+<lb ed="#Ba"/>ctc., hujusmodi potest Angelus facere
+<lb ed="#Ba"/>sine organis et sine corpore. Frustra
+<lb ed="#Ba"/>ergo ad opus suum corpus 
+organiza<lb ed="#Ba" break="no"/>tur.
+</p>
+               <p xml:id="Almn78-a48866-d1e1952">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod Angelus
+<lb ed="#Ba"/>assumit ex wthere sive ex puriore parte
+<lb ed="#Ba"/>aeris corpus, quod ipse virtute divina
+<lb ed="#Ba"/>spissat, solidat, et organizat ad singulas
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>operationes organorum singulorum : et
+<lb ed="#Ba"/>conjungitur ei et unitur quasi ut ‘motor
+<lb ed="#Ba"/>mobili. Probavit enim Aristoteles in
+<lb ed="#Ba"/>VII Physicorum, quod mobile 
+determi<lb ed="#Ba" break="no"/>nate figure et solide substantie et 
+in<lb ed="#Ba" break="no"/>corruptibilis non movetur in actu nisi a
+<lb ed="#Ba"/>motore conjuncto sibi. Assumptio ergo
+<lb ed="#Ba"/>corporis est conjunctio sive unio talis
+<lb ed="#Ba"/>Angeli cum corpore, ita quod Angelus
+<lb ed="#Ba"/>cum corpore intrinsecus sit ut quasi
+<lb ed="#Ba"/>unum fiat de Angelo motore et corpore
+<lb ed="#Ba"/>moto, in omnibus operationibus que
+<lb ed="#Ba"/>fiunt ad manifestationem divinam, vel ad
+<lb ed="#Ba"/>manifestationem Angeli. Dico autem ad
+<lb ed="#Ba"/>manifestationem divinam, propter hoc
+<lb ed="#Ba"/>quod aliquando Angelus apparet in 
+per<lb ed="#Ba" break="no"/>sona Dei: et tunc operatio ejus 
+ordina<lb ed="#Ba" break="no"/>tur ad manifestationem divinam, 
+Ali<lb ed="#Ba" break="no"/>quando apparet in persona propria : et
+<lb ed="#Ba"/>tunc operationes ejus ordinantur ad 
+ma<lb ed="#Ba" break="no"/>nifestationem angelicam. Et dico quasi
+<lb ed="#Ba"/>unum, non unum: quia non fit unum
+<lb ed="#Ba"/>ex Angelo et corpore assumpto vere et
+<lb ed="#Ba"/>secundum naturam. Corpus enim 
+as<lb ed="#Ba" break="no"/>sumptum est sibi quasi habitus congruus
+<lb ed="#Ba"/>in quo homini manifestatur. Unde Beda
+<lb ed="#Ba"/>dicit in libro de Natura rerum, quod <quote xml:id="Almn78-a48866-Qd1e2023"> in
+<lb ed="#Ba"/>ministerium missi induunt corpora, et
+<lb ed="#Ba"/>ministerio expleto deponunt. </quote>
+               </p>
+               <p xml:id="Almn78-a48866-d1e2031">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+An<lb ed="#Ba" break="no"/>gelus non est in corpore ut perfectio in
+<lb ed="#Ba"/>perfectibili, sed ut motor in mobili 
+tan<lb ed="#Ba" break="no"/>tum, in potestate voluntatis habens 
+mo<lb ed="#Ba" break="no"/>bile et motum mobilis et omnes 
+opera<lb ed="#Ba" break="no"/>tiones organorum corporis assumpti,
+<lb ed="#Ba"/>distinctus tamen ab ipso in essentia et
+<lb ed="#Ba"/>esse : idcirco ex ipso et mobili non fit
+<lb ed="#Ba"/>unum per naturam, sicut ex nauta et 
+na<lb ed="#Ba" break="no"/>vi non fit unum, licet nauta ut motor
+<lb ed="#Ba"/>conjunctus sit navi.
+</p>
+               <p xml:id="Almn78-a48866-d1e2058">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod hoc 
+proce<lb ed="#Ba" break="no"/>dit : et ideo non conjungitur corpori ut
+<lb ed="#Ba"/>perfectio perfectibili.
+</p>
+               <p xml:id="Almn78-a48866-d1e2067">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod est motor
+<lb ed="#Ba"/>extrinsecus, et est motor intrinsecus, et
+<lb ed="#Ba"/>est mobile motum ad conformitatem 
+ho<lb ed="#Ba" break="no"/>minis, et motum simpliciter quocumque
+<lb ed="#Ba"/>motu. Angeli omnia corpora possunt
+<lb ed="#Ba"/>movere quocumque motu ut motores
+<pb ed="#Ba" n="788"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>extrinseci : quia non est eis 
+determina<lb ed="#Ba" break="no"/>tum a Deo quod corpus moveant, et quod
+<lb ed="#Ba"/>non moveant, Sed cum superior sit
+<lb ed="#Ba"/>creatura spiritualis ad corporalem, et in
+<lb ed="#Ba"/>omni ordine nature superior natura sit
+<lb ed="#Ba"/>ut movens, et inferior ut mota, dicit
+<lb ed="#Ba"/>Augustinus, quod Angeli possunt 
+mo<lb ed="#Ba" break="no"/>vere corpora : sed ad talem motum 
+cor<lb ed="#Ba" break="no"/>poribus non indigent. Sed motor 
+intrin<lb ed="#Ba" break="no"/>secus distinctus secundum esse ab ipso
+<lb ed="#Ba"/>mobili, in motu qui est ad 
+manifestalio<lb ed="#Ba" break="no"/>nem divinam, vel angelicam factus 
+se<lb ed="#Ba" break="no"/>cundum conformitatem ad hominem non
+<lb ed="#Ba"/>indifferenter se habet ad omne corpus :
+<lb ed="#Ba"/>quia quodam corpore potest perficere
+<lb ed="#Ba"/>hoc, et quodam non : et ideo quoddam
+<lb ed="#Ba"/>assumit, et nonomne. |
+</p>
+               <p xml:id="Almn78-a48866-d1e2124">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Angelus 
+lo<lb ed="#Ba" break="no"/>quebatur in Zacharia per medium : 
+in<lb ed="#Ba" break="no"/>spirabat enim sive illuminabat, quod 
+me<lb ed="#Ba" break="no"/>lius est, animam Zachariae de his de
+<lb ed="#Ba"/>quibus loquendum erat : et anima 
+Zacha<lb ed="#Ba" break="no"/>riae movebat linguam et corpus. Et ideo
+<lb ed="#Ba"/>Angelus nec Zachariam nec corpus ejus
+<lb ed="#Ba"/>assumpsit : quia in corpore assumpto
+<lb ed="#Ba"/>immediatus motor est Angelus, et per
+<lb ed="#Ba"/>seipsum operatur in organis ejus.
+</p>
+               <p xml:id="Almn78-a48866-d1e2148">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+proba<lb ed="#Ba" break="no"/>biliter dici potest, quod in corporibus
+<lb ed="#Ba"/>talibus substantia ipsius corporis 
+prepa<lb ed="#Ba" break="no"/>ratur ab Angelo : distinctio vero et 
+figu<lb ed="#Ba" break="no"/>ratio in organis fit etiam ab Angelo, sed
+<lb ed="#Ba"/>virtute divina : sicut etiam locatio in
+<lb ed="#Ba"/>loco corporali Angeli non potest esse
+<lb ed="#Ba"/>virtute corporis : quia corpus non potest
+<lb ed="#Ba"/>contingere Angelum, sed virtute Dei,
+<lb ed="#Ba"/>qui proprius locus est Angelorum, ut
+<lb ed="#Ba"/>dicit Beda : <quote xml:id="Almn78-a48866-Qd1e2174"> Locus Angelorum Deus
+<lb ed="#Ba"/>est, intra quem currunt quocumque 
+mit<lb ed="#Ba" break="no"/>tuntur '. </quote> Dei enim solius est continere
+<lb ed="#Ba"/>Angelum, a quo et ipse Angelus habet
+<lb ed="#Ba"/>virtutem contentivam qua continet 
+cor<lb ed="#Ba" break="no"/>pus assumptum, ne defluat, nec 
+dissol<lb ed="#Ba" break="no"/>vatur.
+</p>
+               <p xml:id="Almn78-a48866-d1e2190">
+                  <lb ed="#Ba"/>Ad aliud patet solutio per ante dicta.
+<lb ed="#Ba"/>Conceditur enim secundum Augusti
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>num, quod preparatores sunt Angeli,
+<lb ed="#Ba"/>licet non creatores essentie et esse 
+re<lb ed="#Ba" break="no"/>rum : essentias enim et esse rebus solus
+<lb ed="#Ba"/>Deus dat.
+</p>
+               <p xml:id="Almn78-a48866-d1e2208">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod non est 
+si<lb ed="#Ba" break="no"/>mile. Anima enim non potest facere 
+or<lb ed="#Ba" break="no"/>gana in corpore : quia ipsa ante 
+organi<lb ed="#Ba" break="no"/>zalum corpus non est: et cum non est,
+<lb ed="#Ba"/>nec virtute propria, nec virtute divina
+<lb ed="#Ba"/>operari potest. Angelus autem ante 
+as<lb ed="#Ba" break="no"/>sumptum corpus est : et ideo assumendo
+<lb ed="#Ba"/>corpus potest organizare virtute divina,
+<lb ed="#Ba"/>ut dictum est : quod non potest anima,
+<lb ed="#Ba"/>que organizato jam infunditur corpori,
+<lb ed="#Ba"/>et infundendo creatur.
+</p>
+               <p xml:id="Almn78-a48866-d1e2235">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod illa objectio
+<lb ed="#Ba"/>non probat, nisi quod Angelus non 
+in<lb ed="#Ba" break="no"/>diget organis quantum ad seipsum : et
+<lb ed="#Ba"/>hoc verum est: indiget tamen organis
+<lb ed="#Ba"/>propter hominem circa quem ministrat,
+<lb ed="#Ba"/>cui convenienter significari non possunt
+<lb ed="#Ba"/>manifestationes divine et angelice, nisi
+<lb ed="#Ba"/>in corpore quod est conformé corpori 
+hu<lb ed="#Ba" break="no"/>mano.
+</p>
+               <p xml:id="Almn78-a48866-d1e2257">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod non est ibi
+<lb ed="#Ba"/>fictio, sed veritas. Sed veritas est duplex.
+<lb ed="#Ba"/>Verum enim organum secundum 
+natu<lb ed="#Ba" break="no"/>ram est, quod vere agit et patitur ad 
+na<lb ed="#Ba" break="no"/>turalis indigentie suppletionem’: et sic
+<lb ed="#Ba"/>dicitur oculus verus, qui vere nuntiat
+<lb ed="#Ba"/>conveniens animali per lumen et 
+colo<lb ed="#Ba" break="no"/>rem ; et auris vera, que conveniens
+<lb ed="#Ba"/>nuntiat per signum : et naris vera, que
+<lb ed="#Ba"/>nuptiat conveniens per odoris 
+susceptio<lb ed="#Ba" break="no"/>nem et passionem : et gustus verus, qui
+<lb ed="#Ba"/>passione nervi gustatim diffusi in lingua
+<lb ed="#Ba"/>et faucibus, tactu cibi judicium saporis
+<lb ed="#Ba"/>est: et tactus verus, qui sensibilibus et
+<lb ed="#Ba"/>tangibilibus qualitatibus immutatur. Et
+<lb ed="#Ba"/>haec est veritas rei: et hac veritate non
+<lb ed="#Ba"/>sunt vera organa assumpti corporis ab
+<lb ed="#Ba"/>Angelo. Sed est veritas signi, qua 
+signi<lb ed="#Ba" break="no"/>ficatur res ut res est: et sic auris sub
+<lb ed="#Ba"/>figura auris significat potestatem 
+audien<lb ed="#Ba" break="no"/>di, hoc est, percipiendi sensibilia sensus
+<lb ed="#Ba"/>auditus : et oculus significat potestatem
+<lb ed="#Ba"/>visivam, et pes virtutem processivam, et
+<pb ed="#Ba" n="789"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>manus virtutem operativam, et 
+unum<lb ed="#Ba" break="no"/>quodque istorum verum est quando 
+di<lb ed="#Ba" break="no"/>recte significat potestatem et veritatem
+<lb ed="#Ba"/>virtutis que in ipso operatur. Sic enim
+<lb ed="#Ba"/>dicimus Deum habere oculos, aures, etc.
+<lb ed="#Ba"/>Et sic assumptum corpus habet vera 
+or<lb ed="#Ba" break="no"/>gana, hoc est, tales potestates Angelo
+<lb ed="#Ba"/>inesse spiritualiter et non materialiter
+<lb ed="#Ba"/>demonstrantia. Nec est fictum quod vere
+<lb ed="#Ba"/>demonstrat talem potestatem inesse :
+<lb ed="#Ba"/>quamvis Angelus sine his eosdem actus
+<lb ed="#Ba"/>possit operari, quia, sicut dicit Boetius,
+<lb ed="#Ba"/>quidquid potest potentia inferior, potest
+<lb ed="#Ba"/>potentia superior eminentius et 
+excellen<lb ed="#Ba" break="no"/>tius. Unde quod anima facit per 
+orga<lb ed="#Ba" break="no"/>num, Angelus sine organo potest 
+ope<lb ed="#Ba" break="no"/>rari.
+</p>
+               <p xml:id="Almn78-a48866-d1e2351">
+                  <lb ed="#Ba"/>Ad uLtTimum dicendum, quod illa 
+obje<lb ed="#Ba" break="no"/>ctio procederet, si propter se dicerentur
+<lb ed="#Ba"/>Angeli assumere corpora : sed hoc non
+<lb ed="#Ba"/>est verum : assumunt enim propter 
+con<lb ed="#Ba" break="no"/>formitatem ad homines, et sine eis non
+<lb ed="#Ba"/>adeo competenter possent instruere et
+<lb ed="#Ba"/>custodire homines : et ideo non sunt
+<lb ed="#Ba"/>frustra, sed ad magnam utilitatem 
+homi<lb ed="#Ba" break="no"/>nis a divina providentia preordinata, et
+<lb ed="#Ba"/>ab Angelis assumpta.
+</p>
+            </div>
+            <div xml:id="Almn78-a48866-Dd1e2376">
+               <head xml:id="Almn78-a48866-Hd1e2378">Membrum 4</head>
+               <head xml:id="Almn78-a48866-Hd1e2381" type="question-title">
+  Ad quem usum Angeli assumant
+  corpora?
+</head>
+               <p xml:id="Almn78-a48866-d1e2384">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>Ad quem usum Angeli assumant
+<lb ed="#Ba"/>corpora?
+</p>
+               <p xml:id="Almn78-a48866-d1e2393">
+                  <lb ed="#Ba"/>Quarto queritur, Ad quem usum 
+An<lb ed="#Ba" break="no"/>geli assumant corpora ?
+</p>
+               <p xml:id="Almn78-a48866-d1e2400">
+                  <lb ed="#Ba"/>Et videtur, quod ad usum 
+comestio<lb ed="#Ba" break="no"/>nis, locutionis, ambulationis, et ad alios
+<lb ed="#Ba"/>quosdam.
+<lb ed="#Ba"/>1. Unde Augustinus in libro XII de
+<lb ed="#Ba"/>Civitate Dei? : <quote xml:id="Almn78-a48866-Qd1e2413"> Quod visibiliter et
+<lb ed="#Ba"/>tractabiliter apparentes Angeli, non quia
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>indigebant, sed quia volebant et poterant,
+<lb ed="#Ba"/>ut hominibus congruerent sui ministerii
+<lb ed="#Ba"/>quadam humanitate, fecerunt. Neque
+<lb ed="#Ba"/>enim in phantasmate. Angelos edisse
+<lb ed="#Ba"/>credendum est, quando eos homines 
+ho<lb ed="#Ba" break="no"/>spitio susceperunt, sicut dicitur, Genes.
+<lb ed="#Ba"/>xvi, 4 et seq., quod Abraham recepit
+<lb ed="#Ba"/>tres Angelos. Et, Genes. xix, 1 et seq.,
+<lb ed="#Ba"/>quod Loth recepit Angelos. </quote> Ex hoc 
+ac<lb ed="#Ba" break="no"/>cipitur, quod vere comederunt Angeli :
+<lb ed="#Ba"/>sed ad veram comestionem exigitur 
+ma<lb ed="#Ba" break="no"/>sticatio et lingua revolutio et in corpus
+<lb ed="#Ba"/>cibi gluttitio : ergo videtur, quod omnia
+<lb ed="#Ba"/>haec organa, os scilicet, et linguam, 
+den<lb ed="#Ba" break="no"/>tes, esophagum, et stomachum 
+accepe<lb ed="#Ba" break="no"/>runt Angeli : quia sine his organis isti
+<lb ed="#Ba"/>actus vere fieri non possunt.
+</p>
+               <p xml:id="Almn78-a48866-d1e2458">
+                  <lb ed="#Ba"/>2. Adhuc, Constat, quod etiam 
+ea<lb ed="#Ba" break="no"/>dem ratione vere loquebantur : sed vera
+<lb ed="#Ba"/>locutio non fit nisi interpretativa 
+poten<lb ed="#Ba" break="no"/>tia movente linguam et formante voces
+<lb ed="#Ba"/>articulatas : ergo assumpserunt et 
+inter<lb ed="#Ba" break="no"/>pretativam .potentiam que est rationalis
+<lb ed="#Ba"/>anime, et linguam, et os, et dentes, et
+<lb ed="#Ba"/>alia ad que flectitur lingua quando 
+for<lb ed="#Ba" break="no"/>mat voces : et sic assumpserunt animam
+<lb ed="#Ba"/>tationalem, non tantum corpus hominis
+<lb ed="#Ba"/>vel simile corpori hominis : quia aliter
+<lb ed="#Ba"/>hos actus non vere sed phantastice 
+fecis<lb ed="#Ba" break="no"/>sent,
+</p>
+               <p xml:id="Almn78-a48866-d1e2489">
+                  <lb ed="#Ba"/>3. Adhuc, Ex predictis constat, quod
+<lb ed="#Ba"/>Angeli ex aere densato et solidato 
+cor<lb ed="#Ba" break="no"/>pus assumunt, in quo operantur circa
+<lb ed="#Ba"/>nos: aer autem densatus et solidatus in
+<lb ed="#Ba"/>corpus figuratum et solidum non 
+move<lb ed="#Ba" break="no"/>tur per spatium, nisi commetiendo se
+<lb ed="#Ba"/>spatio et in tempore determinato: 
+An<lb ed="#Ba" break="no"/>gelus ergo in corpore moto non in 
+vo<lb ed="#Ba" break="no"/>luntatis potestate habet motum ut in
+<lb ed="#Ba"/>nunc vel in tempore transeat spatium 
+sic<lb ed="#Ba" break="no"/>ut vult, sed exigit tempus 
+determina<lb ed="#Ba" break="no"/>tum: ergo spatium transire potest, ita
+<lb ed="#Ba"/>quod in minori transire non possit.
+</p>
+               <p xml:id="Almn78-a48866-d1e2520">
+                  <lb ed="#Ba"/>4, Adhuc, Aristoteles in secundo de
+<lb ed="#Ba"/>Anima dicit, quod vivere dicitur multi
+<pb ed="#Ba" n="790"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>pliciter, scilicet nutriri, augeri, moveri
+<lb ed="#Ba"/>secundum locum, sentire, et intelligere.
+<lb ed="#Ba"/>Sed in omnibus inferius semper infert
+<lb ed="#Ba"/>suum superius. Si ergo Angelus 
+come<lb ed="#Ba" break="no"/>dit in corpore corporaliter, et si localiter
+<lb ed="#Ba"/>movebatur in corpore, cum motus 
+loca<lb ed="#Ba" break="no"/>lis non sit nisi animalis sensibilem 
+ani<lb ed="#Ba" break="no"/>mam habentis : hoc enim solum, ut 
+di<lb ed="#Ba" break="no"/>cit Avicenna, participat motum 
+processi<lb ed="#Ba" break="no"/>vum, si est perfectum : vel motum 
+con<lb ed="#Ba" break="no"/>tractionis et dilatationis si est 
+imperfe<lb ed="#Ba" break="no"/>ctum. Imperfectum autem dico, quod est
+<lb ed="#Ba"/>quasi medium finter plantam et animal,
+  <lb ed="#Ba"/>ut spongia, et quedam alia. Si ergo An-
+  <lb ed="#Ba"/>gelus vere movebatur localiter et motu
+<lb ed="#Ba"/>processivo corporaliter, sequitur quod in
+<lb ed="#Ba"/>eodem corpore vere et corporaliter vixit,
+  <lb ed="#Ba"/>et sensit secundum omnia organa 
+sen<lb ed="#Ba" break="no"/>suum : et sic non assumpsit tantum 
+cor<lb ed="#Ba" break="no"/>pus, sed totum animal secundum sensum
+<lb ed="#Ba"/>et motum.
+</p>
+               <p xml:id="Almn78-a48866-d1e2577">
+                  <lb ed="#Ba"/>Apvuvc ulterius queritur, Quid factum
+<lb ed="#Ba"/>sit de cibo quem comedit ? Indignum
+<lb ed="#Ba"/>enim est dicere de Angelo, quod 
+diges<lb ed="#Ba" break="no"/>serit vel egesserit eos : dubium est ergo
+<lb ed="#Ba"/>quid de eis sit factum ?
+</p>
+               <p xml:id="Almn78-a48866-d1e2590">
+                  <lb ed="#Ba"/>Et videtur, quod phantastice comederit
+  <lb ed="#Ba"/>et non vere.
+  
+  <lb ed="#Ba"/>Et hoc videtur accipi ex verbis Angeli,
+<lb ed="#Ba"/>Tobie, x11, 18 et 19, ubi dixit Raphael :
+<lb ed="#Ba"/>Etenim cum essem vobiscum, per 
+volun<lb ed="#Ba" break="no"/>tatem Dei eram... Videbar quidem 
+vobis<lb ed="#Ba" break="no"/>cum manducare et bibere : sed ego cibo
+<lb ed="#Ba"/>wivisibili, et potu, guiab hominibus 
+vi<lb ed="#Ba" break="no"/>deri non potest, utor.
+</p>
+               <p xml:id="Almn78-a48866-d1e2612">
+                  <lb ed="#Ba"/>Soxutio. Accipiendum est verbum
+<lb ed="#Ba"/>Augustini in libro XIII de Civitate Dei,
+<lb ed="#Ba"/>cap. 22, ubi dicit : <quote xml:id="Almn78-a48866-Qd1e2620"> Angeli potestate
+<lb ed="#Ba"/>comederunt, non necessitate. </quote> Et ponit
+<lb ed="#Ba"/>exemplum duplicis comestionis : quia
+<lb ed="#Ba"/>aliter terra sitiens absorbet aquam 
+plu<lb ed="#Ba" break="no"/>vie propter indigentiam sua siccitatis,
+<lb ed="#Ba"/>et aliter consumit eamdem radius solis
+<lb ed="#Ba"/>virtute potestatis ccelestis. Et ita vult,
+<lb ed="#Ba"/>quod omnes istos actus quos Angeli fe-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>cerunt in corpore, propter nos ad 
+de<lb ed="#Ba" break="no"/>monstrationem sue potestatis fecerunt,
+<lb ed="#Ba"/>et non ad indigentiam animalis 
+necessi<lb ed="#Ba" break="no"/>tatis, sicut paulo ante dictum est, quod
+<lb ed="#Ba"/>quidquid potest potentia inferior, 
+emi<lb ed="#Ba" break="no"/>nentius potest hoc idem potentia 
+supe<lb ed="#Ba" break="no"/>rior, ut dicunt Dionysius et Boetius.,
+<lb ed="#Ba"/>Unde Angeli hec opera non phantastice,
+<lb ed="#Ba"/>sed vere fecerunt veritate 
+demonstratio<lb ed="#Ba" break="no"/>nis potentie, licet hoc non fecerunt ani-
+‘mali necessitate. Unde comedendo vere
+<lb ed="#Ba"/>in se comestivam potentiam 
+demonstra<lb ed="#Ba" break="no"/>verunt, et loguendo vere in se 
+potestati<lb ed="#Ba" break="no"/>vam interpretationem ostenderunt, et
+<lb ed="#Ba"/>deambulando demonstraverunt 
+potesta<lb ed="#Ba" break="no"/>tem movendi secundum locum sibi
+<lb ed="#Ba"/>inesse, et non ad necessitatem 
+indigen<lb ed="#Ba" break="no"/>tia. Unde etiam illa organa sive 
+simili<lb ed="#Ba" break="no"/>tudines illorum organorum in 
+corpori<lb ed="#Ba" break="no"/>bus assumptis leguntur assumpsisse, ex
+<lb ed="#Ba"/>quorum actibus et operibus nobiles 
+po<lb ed="#Ba" break="no"/>testates demonstrantur. Sicut caput in
+<lb ed="#Ba"/>quo demonstrantur potestates discretive
+<lb ed="#Ba"/>per nervos ante ‘a cerebro descendentes,
+<lb ed="#Ba"/>et potestates motives per nervos a 
+poste<lb ed="#Ba" break="no"/>riori parte capitis descendentes : et ideo
+<lb ed="#Ba"/>dicuntur oculosi sive pleni oculi, ut dicit
+<lb ed="#Ba"/>Dionysius in libro de Celesti 
+hierar<lb ed="#Ba" break="no"/>chia', deividi, potestatem divinam 
+ha<lb ed="#Ba" break="no"/>bentes in videndo Deo et divinis. Et cum
+<lb ed="#Ba"/>auribus leguntur, quasi facile audituri
+<lb ed="#Ba"/>eorum que a Deo precipiuntur : et cum
+<lb ed="#Ba"/>manibus humanis, quasi potentes ad
+<lb ed="#Ba"/>intellectuales operationes : dicit enim
+<lb ed="#Ba"/>Aristoteles in libro XII de Animatlibus,
+<lb ed="#Ba"/>quod manus est instrumentum 
+intelle<lb ed="#Ba" break="no"/>ctus practici. Et leguntur alati, per 
+pen<lb ed="#Ba" break="no"/>nas et alas nihil demonstrantes 
+indigen<lb ed="#Ba" break="no"/>tie : sed, sicut dicit Dionysius, quod 
+al<lb ed="#Ba" break="no"/>tivoli sunt in divinas contemplationes :
+<lb ed="#Ba"/>et sic est de aliis organis mobilium 
+ope<lb ed="#Ba" break="no"/>rationum. Et non leguntur assumpsisse
+<lb ed="#Ba"/>hepar vel stomachum vel intestina vel
+<lb ed="#Ba"/>etiam exteriora membra turpium 
+opera<lb ed="#Ba" break="no"/>tiohum, ex quorum actibus non 
+demon<lb ed="#Ba" break="no"/>stratur nobilis potestas, sed indigentia
+<lb ed="#Ba"/>animalis necessitatis. Quamvis Augusti
+<pb ed="#Ba" n="791"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>nus dicat, quod demones effigies talium
+<lb ed="#Ba"/>membrorum in corporibus assumptis in
+<lb ed="#Ba"/>signum sue pravitatis et turpitudinis 
+le<lb ed="#Ba" break="no"/>guntur assumpsisse : sicut dicunt de
+<lb ed="#Ba"/>incubis et succubis, qui non corporaliter
+<lb ed="#Ba"/>tales turpitudines exercuerunt, sed quod
+<lb ed="#Ba"/>spiritualiter ad talia instigent, et hoc per
+<lb ed="#Ba"/>turpes effigies corporum ostendunt.
+</p>
+               <p xml:id="Almn78-a48866-d1e2764">
+                  <lb ed="#Ba"/>Ex his notatis est facile respondere
+<lb ed="#Ba"/>objectis.
+</p>
+               <p xml:id="Almn78-a48866-d1e2771">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+cor<lb ed="#Ba" break="no"/>pora receperunt in organis nobiles 
+po<lb ed="#Ba" break="no"/>testates demonstrantibus per proprias
+<lb ed="#Ba"/>operationes. Unde figuram oris 
+habue<lb ed="#Ba" break="no"/>runt et eorum que in ore sunt 
+potestati<lb ed="#Ba" break="no"/>vam comestionem demonstrantium, et
+<lb ed="#Ba"/>non phantastice comederunt, sed vere,
+<lb ed="#Ba"/>et potestativa veritate comestionis, non
+<lb ed="#Ba"/>indigentiz.
+</p>
+               <p xml:id="Almn78-a48866-d1e2793">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod vere 
+loque<lb ed="#Ba" break="no"/>bantur potestative locutionis 
+demonstra<lb ed="#Ba" break="no"/>tione, sed ad hoc non indigebant quod
+<lb ed="#Ba"/>assumerent animam vel partem anime
+<lb ed="#Ba"/>hominis : cum (sicut dictum est) natura
+<lb ed="#Ba"/>superiores sunt quam anima, et possunt
+<lb ed="#Ba"/>hoc eminenter per seipsos spiritualiter
+<lb ed="#Ba"/>quod anima potest animaliter et 
+indigen<lb ed="#Ba" break="no"/>ter et materialiter. Unde, Numer. xxu,
+<lb ed="#Ba"/>28, Glossa dicit, quod ad locutionem
+<lb ed="#Ba"/>formandam per os asine, non oportuit,
+<lb ed="#Ba"/>quod lingua asine fieret lingua humana,
+<lb ed="#Ba"/>vel anima asin mutaretur in rationalem
+<lb ed="#Ba"/>animam : cum hoc possit facere Angelus
+<lb ed="#Ba"/>etiam sine lingua, vel per contrariam
+<lb ed="#Ba"/>linguam, quod anima hominis per 
+lin<lb ed="#Ba" break="no"/>guam hominis operatur.
+</p>
+               <p xml:id="Almn78-a48866-d1e2832">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod hoc esset
+<lb ed="#Ba"/>verum quod objicitur, si Angelus motor
+<lb ed="#Ba"/>determinate virtutis proportionem 
+habe<lb ed="#Ba" break="no"/>ret ad corpus motum, sicut motor 
+natu<lb ed="#Ba" break="no"/>ralis, ut dicit Aristoteles, quod si celum
+<lb ed="#Ba"/>plures stellas haberet quam habet, a 
+mo<lb ed="#Ba" break="no"/>tore suo moveri non posset, Sed in ante
+<lb ed="#Ba"/>habitis dictum est, quod Angelus vircit
+<lb ed="#Ba"/>potentiam mobilis et medii per quod est
+<lb ed="#Ba"/>motus : et ideo si assumat corpus aereum
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>densatum, non propter hoc retardatur
+<lb ed="#Ba"/>motus ejus.
+</p>
+               <p xml:id="Almn78-a48866-d1e2863">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in omnibus
+<lb ed="#Ba"/>inferius infert suum superius, in quibus
+<lb ed="#Ba"/>superius ut natura superior actu et 
+in<lb ed="#Ba" break="no"/>tellectu est in inferiori: et sic non est
+<lb ed="#Ba"/>in vita et sensu et motu locali in quibus
+<lb ed="#Ba"/>ista sunt animaliter et indigenter. Ubi
+<lb ed="#Ba"/>autem sunt ad potestatis 
+demonstratio<lb ed="#Ba" break="no"/>nem, non oportet : eo quod in illis 
+supe<lb ed="#Ba" break="no"/>rius non est in inferiori, et in illis 
+infe<lb ed="#Ba" break="no"/>rius demonstrativum est nobilis 
+potesta<lb ed="#Ba" break="no"/>tis, quam non demonstrat superius nisi
+<lb ed="#Ba"/>potentialiter et imperfecte. Cujus causa
+<lb ed="#Ba"/>est, quia sicut innuit Aristoteles in
+<lb ed="#Ba"/>Il Prierum, inferius non est in suo 
+su<lb ed="#Ba" break="no"/>periori nisi potentia, superius autem in
+<lb ed="#Ba"/>inferiori actu et intellectu.
+</p>
+               <p xml:id="Almn78-a48866-d1e2900">
+                  <lb ed="#Ba"/>App quod ulterius queritur, jam patet
+<lb ed="#Ba"/>solutio. In potestativa enim comestione
+<lb ed="#Ba"/>consumitur cibus, et (sicut antiqui 
+dixe<lb ed="#Ba" break="no"/>runt) redigitur in prejacentem materiam
+<lb ed="#Ba"/>elementalem, sicut radio solis 
+consumi<lb ed="#Ba" break="no"/>tur humor aque : sed in indigentia 
+co<lb ed="#Ba" break="no"/>mestionis rejicitur et digeritur et 
+egeri<lb ed="#Ba" break="no"/>tur. Et quod dicit Angelus: Videbar
+<lb ed="#Ba"/>quidem vobiseum manducare et bibere *,
+<lb ed="#Ba"/>intendit, quod videbatur comedere et 
+bi<lb ed="#Ba" break="no"/>bere ad indigentiam : cum tamen non
+<lb ed="#Ba"/>comedit ad indigentiam, sed ad 
+pote<lb ed="#Ba" break="no"/>statis demonstrationem.
+</p>
+            </div>
+            <div xml:id="Almn78-a48866-Dd1e2932">
+               <head xml:id="Almn78-a48866-Hd1e2934">Membrum 5</head>
+               <head xml:id="Almn78-a48866-Hd1e2937" type="question-title">
+  Quid fiat de corporibus assumptis post
+  ministerium expletum, utrum redeant
+  in praejacentem materiam
+</head>
+               <p xml:id="Almn78-a48866-d1e2940">
+                  <lb ed="#Ba"/>MEMBRUM V.
+<lb ed="#Ba"/>Quid fiat de corporibus assumptis post
+<lb ed="#Ba"/>ministerium expletum, utrum redeant
+<lb ed="#Ba"/>in praejacentem materiam ?
+</p>
+               <p xml:id="Almn78-a48866-d1e2951">
+                  <lb ed="#Ba"/>Quinto queritur, Quid fiat de 
+corpo<lb ed="#Ba" break="no"/>ribus assumptis post ministerium 
+exple<lb ed="#Ba" break="no"/>tum ?
+  
+<pb ed="#Ba" n="792"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Et dicit Beda in libro de Natura 
+re<lb ed="#Ba" break="no"/>rum, quod missi in ministeria corpora
+<lb ed="#Ba"/>sumunt, et eodem ministerio expleto 
+de<lb ed="#Ba" break="no"/>ponunt.
+</p>
+               <p xml:id="Almn78-a48866-d1e2973">
+                  <lb ed="#Ba"/>Et sic videtur, quod corporibus 
+utun<lb ed="#Ba" break="no"/>tur ut habitibus.
+</p>
+               <p xml:id="Almn78-a48866-d1e2981">
+                  <lb ed="#Ba"/>1. Habitus autem post depositionem
+<lb ed="#Ba"/>integri manent. Ergo videtur, quod 
+cor<lb ed="#Ba" break="no"/>pora assumpta ab Angelis et deposita,
+<lb ed="#Ba"/>integra et salvata manent in figuris 
+orga<lb ed="#Ba" break="no"/>norum.
+</p>
+               <p xml:id="Almn78-a48866-d1e2994">
+                  <lb ed="#Ba"/>2, Adhuc, Habitum est, quod spissant
+<lb ed="#Ba"/>ea et solida faciunt.: spissum autem et
+<lb ed="#Ba"/>solidum post depositionem etiam retinet
+<lb ed="#Ba"/>figuram : quia ex spissitudine et 
+solidi<lb ed="#Ba" break="no"/>tate confortatur in eo potentia tenendi
+<lb ed="#Ba"/>formam et figuram : videtur ergo, quod
+<lb ed="#Ba"/>corpora deposita ab Angelis, in formis
+<lb ed="#Ba"/>suis manent et figuris.
+</p>
+               <p xml:id="Almn78-a48866-d1e3014">
+                  <lb ed="#Ba"/>Sep conrra hoc est, quod
+<lb ed="#Ba"/>1. Sicut dicit Beda, Figura corporum
+<lb ed="#Ba"/>in quibus apparuit Deus, expleto 
+mini<lb ed="#Ba" break="no"/>sterio, resoluta fuitin presjacentem 
+mate<lb ed="#Ba" break="no"/>riam, sicut columba in qua apparuit 
+Spi<lb ed="#Ba" break="no"/>ritus sanctus ', et stella que in aere 
+ap<lb ed="#Ba" break="no"/>paruit, et duxit Magos:. Ergo multo
+<lb ed="#Ba"/>Magis corpora in quibus apparent Angeli,
+<lb ed="#Ba"/>peracto ministerio resolvenda sunt in
+<lb ed="#Ba"/>prejacentem materiam.
+</p>
+               <p xml:id="Almn78-a48866-d1e3038">
+                  <lb ed="#Ba"/>2. Adhuc, Si manerent, ubimanerent,
+<lb ed="#Ba"/>vel ad quid manerent? Si enim ex aere
+<lb ed="#Ba"/>sunt, ut dicit auctoritas, non habent 
+lo<lb ed="#Ba" break="no"/>cum connaturalem ubi manerent, nisi
+<lb ed="#Ba"/>aerem : et sic a quibusdam viderentur.
+</p>
+               <p xml:id="Almn78-a48866-d1e3051">
+                  <lb ed="#Ba"/>3. Adhuc, Fortior est unio anime ad
+<lb ed="#Ba"/>corpus cui naturaliter unitur, quam 
+An<lb ed="#Ba" break="no"/>geli ad corpus assumptum: sed corpus
+<lb ed="#Ba"/>quod unitur anime, exuta anima a 
+cor<lb ed="#Ba" break="no"/>pore; statim resolvitur. Dicit enim Ari
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>stoteles in fine primi de Anima, quod
+<lb ed="#Ba"/>egrediente anima marcescit corpus et 
+ex<lb ed="#Ba" break="no"/>spirat. Ergo multo magis corpus Angeli
+<lb ed="#Ba"/>resolvitur postquam ab Angelo 
+deposi<lb ed="#Ba" break="no"/>tum est.
+</p>
+               <p xml:id="Almn78-a48866-d1e3077">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod corpus 
+An<lb ed="#Ba" break="no"/>geli resolvitur in prejacentem materiam
+<lb ed="#Ba"/>peracto ministerio. Prajacens autem 
+ma<lb ed="#Ba" break="no"/>teria aer est tenuis, non tenens figuram
+<lb ed="#Ba"/>in quam resolvitur corpus Angeli, et 
+dis<lb ed="#Ba" break="no"/>paret. Et hujus causa est, quia spissans
+<lb ed="#Ba"/>est continens corpus non est aliqua 
+na<lb ed="#Ba" break="no"/>tura vel qualitas naturalis que sit in ipso
+<lb ed="#Ba"/>corpore assumpto, sed ex virtute Angeli
+<lb ed="#Ba"/>assumentis corpus continetur : et ideo 
+re<lb ed="#Ba" break="no"/>lictum ab Angelo non habet quo 
+spisse<lb ed="#Ba" break="no"/>tur et quo contineatur, et consequenter
+<lb ed="#Ba"/>ex virtute elementali que in ipso est, in
+<lb ed="#Ba"/>tenuem aerem resolvitur et disparet.
+</p>
+               <p xml:id="Almn78-a48866-d1e3111">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+ha<lb ed="#Ba" break="no"/>bitus figuram retinent: quia in se 
+ha<lb ed="#Ba" break="no"/>bent potentiam sicci et duri quibus in eis
+<lb ed="#Ba"/>confortatur potentia tenendi figuras quas
+<lb ed="#Ba"/>receperunt. Et contrarium eorum est per
+<lb ed="#Ba"/>naturam in corpore Angeli, humidum
+<lb ed="#Ba"/>scilicet, quod proprio termino non 
+ter<lb ed="#Ba" break="no"/>minatur, et spiritualis raritas, que nihil
+<lb ed="#Ba"/>tenet sibi impressum, nec tenet 
+Angelo<lb ed="#Ba" break="no"/>rum figuram, et propterea statim 
+resolvi<lb ed="#Ba" break="no"/>tur depositum ab Angelo.
+</p>
+               <p xml:id="Almn78-a48866-d1e3137">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod spissum non
+<lb ed="#Ba"/>ienet figuram, nisi principia potentie
+<lb ed="#Ba"/>solidi et spissi radicentur in ipso spisso
+<lb ed="#Ba"/>per naturales qualitates. Jam autem 
+di<lb ed="#Ba" break="no"/>ctum est, quod sic non est in corporibus
+<lb ed="#Ba"/>Angelorum : et ideo resolvuntur.
+</p>
+               <p xml:id="Almn78-a48866-d1e3153">
+
+                  <lb ed="#Ba"/>Ea que objiciuntur in contrarium, 
+<lb ed="#Ba"/>procedunt.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 140</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 140</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="470"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-g04229"><!-- p2t23q140 -->
+            <head xml:id="Almn78-g04229-Hd1e106">Quaestio 140</head>
+            <head xml:id="Almn78-g04229-Hd1e109" type="question-title">De peccato in spiritum sanctum</head>
+            <p xml:id="Almn78-g04229-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXL.
+<lb ed="#Bc"/>De peccato in spiritum sanctum.
+</p>
+            <div xml:id="Almn78-g04229-Dd1e119">
+               <head xml:id="Almn78-g04229-Hd1e121">Membrum 1</head>
+               <head xml:id="Almn78-g04229-Hd1e124" type="question-title">
+        Quid sit peccatum in Spiritum
+        sanctum
+      </head>
+               <p xml:id="Almn78-g04229-d1e127">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit peccatum in Spiritum
+<lb ed="#Bc"/>sanctum?
+</p>
+               <p xml:id="Almn78-g04229-d1e138">
+                  <lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>Consuevit poni haec -diffinitio, et est
+<lb ed="#Bc"/>Augustini: <quote xml:id="Almn78-g04229-Qd1e146"> Pecécatum in Spiritum
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>sanctum est perseverans malitia cordis
+<lb ed="#Bc"/>impeenitentis. </quote>
+               </p>
+               <p xml:id="Almn78-g04229-d1e156">
+                  <lb ed="#Bc"/>In Littera Magister assignat aliam
+<lb ed="#Bc"/>que etiam dicitur esse Augustini, 
+quan<lb ed="#Bc" break="no"/>rum haec una est : <quote xml:id="Almn78-g04229-Qd1e164"> Peccatum in 
+Spiri<lb ed="#Bc" break="no"/>tum sanctum est consuetudo peccandi,”
+<lb ed="#Bc"/>qua Dei metus amitlitur, et contemptus
+<lb ed="#Bc"/>incurritur.</quote>
+               </p>
+               <p xml:id="Almn78-g04229-d1e175">
+                  <lb ed="#Bc"/>ContTRA PRIMAM arguitur sic : quia
+<lb ed="#Bc"/>1. Secundum illam videtur, quod non
+<lb ed="#Bc"/>sit peccatum in Spiritum sanctum nist
+<lb ed="#Bc"/>obstinatio : quod falsum est: quia plu
+<pb ed="#Bc" n="471"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>res sunt species ejus, sicut postea 
+pate<lb ed="#Bc" break="no"/>bit. Videtur ergo, quod nulla sit definitio.
+</p>
+               <p xml:id="Almn78-g04229-d1e195">
+                  <lb ed="#Bc"/>2. Adhuc, Objicitur contra secundam :
+<lb ed="#Bc"/>In quolibet enim actu iteratus actus 
+in<lb ed="#Bc" break="no"/>ducit consuetudinem : et si est mortale,
+<lb ed="#Bc"/>et non dimittitur propter timorem Dei,
+<lb ed="#Bc"/>inducit amissionem metus Dei : et 
+simili<lb ed="#Bc" break="no"/>ter si non dimittitur propter preceptum
+<lb ed="#Bc"/>et precipientem, inducit contemptum
+<lb ed="#Bc"/>precepti et precipientis : secundum hoc
+<lb ed="#Bc"/>ergo peccatum in Spiritum sanctum non
+<lb ed="#Bc"/>esset separatum ab aliquo mortali 
+pecca<lb ed="#Bc" break="no"/>to : quod falsum est : definitio ergo illa
+<lb ed="#Bc"/>non valet.
+</p>
+               <p xml:id="Almn78-g04229-d1e224">
+                  <lb ed="#Bc"/>3. Adhuc, Videtur nullum peccatum
+<lb ed="#Bc"/>specialiter esse in Spiritum sanctum :
+<lb ed="#Bc"/>quia sicut est una substantia trium, ita
+<lb ed="#Bc"/>est una bonitas in quam peccatur a 
+quo<lb ed="#Bc" break="no"/>libet peccante mortaliter : ergo videtur,
+<lb ed="#Bc"/>quod nullum pececatum sit in Spiritum
+<lb ed="#Bc"/>sanctum quod non sit in Patrem et 
+Fi<lb ed="#Bc" break="no"/>lium.
+</p>
+               <p xml:id="Almn78-g04229-d1e244">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Spiritui sancto attribuuntur remissiva
+<lb ed="#Bc"/>peccati, sicut est communio sanctorum,
+<lb ed="#Bc"/>gratia sanctificans Ecclesiam, bonitas,
+<lb ed="#Bc"/>misericordia, et hujusmodi : ergo sicut
+<lb ed="#Bc"/>est peccatum in Patrem quod est contra
+<lb ed="#Bc"/>attributum Patris quod est potentia, et
+<lb ed="#Bc"/>vocatur peccatum ex infirmitate, quod
+<lb ed="#Bc"/>minimum omnium dicitur : et sicut est
+<lb ed="#Bc"/>peccatum in Filium cui attribuitur 
+sa<lb ed="#Bc" break="no"/>pientia, quod peccatum dicitur ex 
+igno<lb ed="#Bc" break="no"/>rantia : ita est peccatum in Spiritum 
+san<lb ed="#Bc" break="no"/>ctum, scilicet cui attribuitur bonitas et
+<lb ed="#Bc"/>gratia, quod dicitur esse ex certa 
+mali<lb ed="#Bc" break="no"/>tia, et nullum habet colorem 
+excusatio<lb ed="#Bc" break="no"/>nis, sicut dicit Prepositivus. Et hoc 
+con<lb ed="#Bc" break="no"/>cedendum est. Certa autem malitia 
+sem<lb ed="#Bc" break="no"/>per quasi duo habet adjuncta, scilicet
+<lb ed="#Bc"/>mentis obstinationem qua Dei metus
+<lb ed="#Bc"/>amittitur, et contemptus Dei incurritur,
+<lb ed="#Bc"/>et hec ponuntur in secunda diffinitione :
+<lb ed="#Bc"/>et secundum est ipsa perseverans cordis
+<lb ed="#Bc"/>impenitentis malitia, et hoc dicit prima
+<lb ed="#Bc"/>definitio.
+</p>
+               <p xml:id="Almn78-g04229-d1e299">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Et sic patet qualiter definitiones due
+<lb ed="#Bc"/>prehabite accipiuntur.
+</p>
+               <p xml:id="Almn78-g04229-d1e308">
+                  <lb ed="#Bc"/>Ad idergo quod contra primam 
+obji<lb ed="#Bc" break="no"/>citur, dicendum quod falsum est: quia
+<lb ed="#Bc"/>pluribus aliis peccatis adjunctum est
+<lb ed="#Bc"/>quod perdurat in peccatis, sicut 
+obdura<lb ed="#Bc" break="no"/>tio, et sicut finalis impcenitentia, et 
+hu<lb ed="#Bc" break="no"/>jusmodi.
+</p>
+               <p xml:id="Almn78-g04229-d1e325">
+                  <lb ed="#Bc"/>Ad id quod contra secundam objicitur,
+<lb ed="#Bc"/>dicendum quod licet iteratus actus 
+indu<lb ed="#Bc" break="no"/>cit consuetudinem peccandi, tamen non
+<lb ed="#Bc"/>inducit obstinationem: quia multi qui
+<lb ed="#Bc"/>habent consuetudinem peccanti, 
+proposi<lb ed="#Bc" break="no"/>tum habent pcenitendi: sed 
+obstina<lb ed="#Bc" break="no"/>tus habet propositum non _ pcenitendi.
+<lb ed="#Bc"/>Unde Augustinus : <quote xml:id="Almn78-g04229-Qd1e344"> Obstinatio est 
+in<lb ed="#Bc" break="no"/>durate mentis in malitia pertinacia, per
+<lb ed="#Bc"/>quam fit homo impcenitens. </quote>
+               </p>
+               <p xml:id="Almn78-g04229-d1e352">
+                  <lb ed="#Bc"/>Aliud solvitur in solutione membri.
+</p>
+            </div>
+            <div xml:id="Almn78-g04229-Dd1e358">
+               <head xml:id="Almn78-g04229-Hd1e360">Membrum 2</head>
+               <head xml:id="Almn78-g04229-Hd1e363" type="question-title">
+        Quae sint differentiae hujus peccati 
+        secundum Augustinum?
+      </head>
+               <p xml:id="Almn78-g04229-d1e366">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quae sint differentiae hujus peccati 
+se<lb ed="#Bc" break="no"/>cundum Augustinum?
+</p>
+               <p xml:id="Almn78-g04229-d1e375">
+                  <lb ed="#Bc"/>Secundo queritur, Que sint 
+differen<lb ed="#Bc" break="no"/>tie hujus peccati secundum 
+Augusti<lb ed="#Bc" break="no"/>num ?
+</p>
+               <p xml:id="Almn78-g04229-d1e384">
+                  <lb ed="#Bc"/>Enumerant autem statim tres, scilicet
+<lb ed="#Bc"/>obstinationem, desperatiouem, et 
+impce<lb ed="#Bc" break="no"/>nitentiam finalem. Et de istis est 
+dispu<lb ed="#Bc" break="no"/>tandum et querendum.
+</p>
+               <p xml:id="Almn78-g04229-d1e396">
+                  <lb ed="#Bc"/>Et videtur, quod desperatio non sit
+<lb ed="#Bc"/>peccatum in Spiritum sanctum :
+</p>
+               <p xml:id="Almn78-g04229-d1e403">
+                  <lb ed="#Bc"/>1. Potest enim aliquis desperare ex
+<lb ed="#Bc"/>cordis infirmitate,sicut multi desperant :
+<lb ed="#Bc"/>et ille peccat in Patrem, sicut paulo
+<lb ed="#Bc"/>ante dictum est: et sic videtur, quod
+<lb ed="#Bc"/>desperatio non sit peccatum in Spiritum
+<lb ed="#Bc"/>sanctum, sed in Patrem in hoc casu.
+</p>
+               <p xml:id="Almn78-g04229-d1e419">
+                  <lb ed="#Bc"/>2. Adhuc, Similiter videtur de obsé
+i<lb ed="#Bc" break="no"/>natione: quia multi obstinantur in pec
+<pb ed="#Bc" n="472"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>catis in qua incidunt ex infirmitate vel
+<lb ed="#Bc"/>ignorantia: et ill non videntur peccare
+<lb ed="#Bc"/>in Spiritum sanctum, sed in Patrem et
+<lb ed="#Bc"/>in Filium.
+</p>
+               <p xml:id="Almn78-g04229-d1e439">
+                  <lb ed="#Bc"/>3. Eodem modo objicitur de 
+impeni<lb ed="#Bc" break="no"/>tentia, in quam incidunt ex delectatione
+<lb ed="#Bc"/>carnalium peccalorum potius, quam ex
+<lb ed="#Bc"/>certa malitia,
+</p>
+               <p xml:id="Almn78-g04229-d1e450">
+                  <lb ed="#Bc"/>4. Adhuc, Videtar quod pauciores
+<lb ed="#Bc"/>sunt species quam hic ponuntur. Unde,
+<lb ed="#Bc"/>Levit. x, 2, super illud: Egressus ignis,
+<lb ed="#Bc"/>Glossa Hesychii: <quote xml:id="Almn78-g04229-Qd1e460"> Peccatum in Spiritum
+<lb ed="#Bc"/>sanctum, est in sceleribus suis usque ad
+<lb ed="#Bc"/>finem vite perseverare, de sua salute
+<lb ed="#Bc"/>desperare, et de potentia Salvatoris 
+dif<lb ed="#Bc" break="no"/>fidere. </quote> Thi non enumerantur nisi due,
+<lb ed="#Bc"/>scilicet desperatio, et impcenitentia. Ergo
+<lb ed="#Bc"/>videtur, quod non sint tot sicut hic 
+enu<lb ed="#Bc" break="no"/>merat.
+</p>
+               <p xml:id="Almn78-g04229-d1e479">
+                  <lb ed="#Bc"/>5. Adhuc, In Spiritu sancto remittente
+<lb ed="#Bc"/>peccata non sunt nisi duo, scilicet 
+mise<lb ed="#Bc" break="no"/>ricordia, et justitia. Misericordia in 
+re<lb ed="#Bc" break="no"/>missione culpe, juslilia in exigentia
+<lb ed="#Bc"/>satisfactionis. Ergo videtur, quod in 
+pec<lb ed="#Bc" break="no"/>cato in Spiritum sanctum non debeant
+<lb ed="#Bc"/>esse nisi duo his opposita: et sic 
+pre<lb ed="#Bc" break="no"/>sumptio est contra justiliam, et 
+despera<lb ed="#Bc" break="no"/>tio contra misericordiam : et tunc non
+<lb ed="#Bc"/>sunt plura peccata in Spiritum sanctum
+<lb ed="#Bc"/>nisi duo.
+</p>
+               <p xml:id="Almn78-g04229-d1e506">
+                  <lb ed="#Bc"/>6. Adhuc, Non nisi tres virtutes 
+po<lb ed="#Bc" break="no"/>nuntur que ordinant in Deum, scilicet
+<lb ed="#Bc"/>fides, spes, et charitas. Ergo videtur,
+<lb ed="#Bc"/>quod tria debeant esse peccata que 
+de<lb ed="#Bc" break="no"/>formant hominem illum, et non plura,
+<lb ed="#Bc"/>scilicet desperatio contra spem, 
+impu<lb ed="#Bc" break="no"/>gnatio veritatis agnite contra fidem, 
+in<lb ed="#Bc" break="no"/>videntia gratie fraterne contra 
+charita<lb ed="#Bc" break="no"/>tem.
+  
+<lb ed="#Bc"/>7. Adhuc, Videtur quod tantum 
+de<lb ed="#Bc" break="no"/>beant esse due species, Augustinus in
+<lb ed="#Bc"/>libro de Blasphemia : <quote xml:id="Almn78-g04229-Qd1e534"> Peccatum in
+<lb ed="#Bc"/>Spiritum sanctum per se opponitur illi
+<lb ed="#Bc"/>gratia in qua fit remissio peccatorum, </quote>
+                  <lb ed="#Bc"/>Et hac est gratia poenitentie, que non
+<lb ed="#Bc"/>habet nisi duas partes, scilicet commissa
+<lb ed="#Bc"/>deflere, et flenda non committere.
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Contra primam est finalis impoenitentia,
+<lb ed="#Bc"/>contra secundam obstinatio. Ile ergo
+<lb ed="#Bc"/>dus sunt species peccati in Spiritum
+<lb ed="#Bc"/>sanctum, et non plures.
+</p>
+               <p xml:id="Almn78-g04229-d1e559">
+                  <lb ed="#Bc"/>8. Ulterius, Videtur, quod plures sint
+<lb ed="#Bc"/>quam hic enumerantur. Bernardus in
+<lb ed="#Bc"/>libro de Precepto et dispensatione' ;
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g04229-Qd1e569"> Non est idipsum nolle obedire, et non
+<lb ed="#Bc"/>obedire. Hoc quippe interdum erroris
+<lb ed="#Bc"/>est, nonnumquam et infirmitatis : illud
+<lb ed="#Bc"/>vero odiose pertinacie, aut conlumacie
+<lb ed="#Bc"/>non ferende, hoc est, non sustinenda.
+<lb ed="#Bc"/>Quod et ipsum repugnare est et resistere
+<lb ed="#Bc"/>Spiritui sancto. </quote> Et inducit hoc quod
+<lb ed="#Bc"/>dixit Stephanus, Act. vi, 51: Dura 
+cer<lb ed="#Bc" break="no"/>vice, etc., vos semper Spiritui sancto
+<lb ed="#Bc"/>resisiitis : sicut patres vestri, ita et vos.
+<lb ed="#Bc"/>Et si usque ad mortem perduraverit hee
+<lb ed="#Bc"/>blasphemia, non est remittenda. Ergo
+<lb ed="#Bc"/>videtur, quod talis inobedientia sit 
+pec<lb ed="#Bc" break="no"/>calum in Spiritum sanctum: et ita 
+plu<lb ed="#Bc" break="no"/>res sunt species.
+</p>
+               <p xml:id="Almn78-g04229-d1e604">
+                  <lb ed="#Bc"/>9. Adhuc, Videtur quod  simulatio
+<lb ed="#Bc"/>penitentie sit peccatum in Spiritum
+<lb ed="#Bc"/>sanctum. Levit. x, 16, super illud : Inter
+<lb ed="#Bc"/>hee, hircum, etc., Glossa: <quote xml:id="Almn78-g04229-Qd1e614"> Sicut vera
+<lb ed="#Bc"/>peenitentia veniam promeretur, ila 
+si<lb ed="#Bc" break="no"/>mulata Deum irritat. Hoc autem Sancti
+<lb ed="#Bc"/>irremissibile peccatum et blasphemiam
+<lb ed="#Bc"/>in Spiritum sanctum esse dixerunt. </quote>
+                  <lb ed="#Bc"/>Ergo videtur, quod simulata 
+pceni<lb ed="#Bc" break="no"/>tentia sit peccatum in Spiritum  
+san<lb ed="#Bc" break="no"/>ctum.
+</p>
+               <p xml:id="Almn78-g04229-d1e633">
+                  <lb ed="#Bc"/>10. Adhuc, Videtur quod schisma et
+<lb ed="#Bc"/>heresis sint peccata in Spiritam — 
+san<lb ed="#Bc" break="no"/>clum : quia dicit Joannesin secunda 
+ca<lb ed="#Bc" break="no"/>nonica, ¥. 9, quod omnis qui recedit, et
+<lb ed="#Bc"/>non permanet in doctrina Christi, Deum
+<lb ed="#Bc"/>non habet. Et infra, wy. 10 et li: Si quis
+<lb ed="#Bc"/>venit ad vos, el hane doctrinam non 
+af<lb ed="#Bc" break="no"/>Jert, nolite recipere cumin domum, nee
+<lb ed="#Bc"/>Ave et dixeritis. Qui enim dicit illi
+<lb ed="#Bc"/>Ave, communicat operibus ejus 
+mali<lb ed="#Bc" break="no"/>gnis. Videtur ergo, quod schisma et
+<lb ed="#Bc"/>heresis sint peccata in Spiritum 
+san<lb ed="#Bc" break="no"/>clum, que non remittuntur.
+  
+<pb ed="#Bc" n="473"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod vere species
+<lb ed="#Bc"/>peccati in Spiritum sanctum, sunt quas
+<lb ed="#Bc"/>Magister assignat in Liétera ex verbis
+<lb ed="#Bc"/>Augustini, scilicet desperatio, 
+obstina<lb ed="#Bc" break="no"/>tio, et finalis impcenitentia. Et dicit,
+<lb ed="#Bc"/>quod obstinatio est indurate mentis in
+<lb ed="#Bc"/>malitia pertinacia, per quam fit homo
+<lb ed="#Bc"/>impeenitens. Desperatio autem, qua quis
+<lb ed="#Bc"/>diffidit de bonitate Dei. Finalis autem
+<lb ed="#Bc"/>impenitentia, qua homo finaliter 
+propo<lb ed="#Bc" break="no"/>nit non peenitere de peccatis. 
+Presum<lb ed="#Bc" break="no"/>ptio, qua tantum presumit de 
+misericor<lb ed="#Bc" break="no"/>dia, quod putat Deum peccata non
+<lb ed="#Bc"/>vindicare. In libro autem de Sermone
+<lb ed="#Bc"/>Domini in monte Augustinus addit
+<lb ed="#Bc"/>aliam, scilicet impugnationem veritatis
+<lb ed="#Bc"/>agnil#, et invidentiam fraterne gratia :
+<lb ed="#Bc"/>que tamen duo dicit quasdam esse 
+spe<lb ed="#Bc" break="no"/>cies obstinationis.
+</p>
+               <p xml:id="Almn78-g04229-d1e709">
+                  <lb ed="#Bc"/>Si quis autem per artem vult scire
+<lb ed="#Bc"/>multiplicationem harum specierum, talis
+<lb ed="#Bc"/>potest esse multiplicatio. Ad 
+remissio<lb ed="#Bc" break="no"/>nem peccatorum quedam sunt ex parte
+<lb ed="#Bc"/>remittentis, quedam sunt ex parte ejus
+<lb ed="#Bc"/>cui fit remissio. Ex parte remittentis duo
+<lb ed="#Bc"/>sunt, scilicet misericordia, et justitia.
+<lb ed="#Bc"/>Contra unum illorum est presumptio,
+<lb ed="#Bc"/>contra aliud desperatio et obstinatio, ex
+<lb ed="#Bc"/>quibus oritur finals impenitentia, sicut
+<lb ed="#Bc"/>dicitur in Littera. Ex parte ejus cui fit
+<lb ed="#Bc"/>remissio, primum est, quod sit in 
+uni<lb ed="#Bc" break="no"/>tate Ecclesiae. Propter hoc in symbolo
+<lb ed="#Bc"/>Apostolorum dicitur: <quote xml:id="Almn78-g04229-Qd1e741"> Credo in sanctam
+<lb ed="#Bc"/>Eeclesiam, communionem sanctorum,
+<lb ed="#Bc"/>remissionem peccatorum. </quote> Et contra
+<lb ed="#Bc"/>sanctitatem Ecclesia in qua fit remissio,
+<lb ed="#Bc"/>est impugnatio veritatis agnite. Cofitra
+<lb ed="#Bc"/>communionem sanctorum est invidentia
+<lb ed="#Bc"/>fraterne gratiz. Et sic species peccati
+<lb ed="#Bc"/>in Spiritum sanctum accipiuntur 
+secun<lb ed="#Bc" break="no"/>dum remissiva sive ex parte Dei, sive ex
+<lb ed="#Bc"/>parte Ecclesie in qua fit remissio, sive
+<lb ed="#Bc"/>ex parte ejus cui fit remissio.
+</p>
+               <p xml:id="Almn78-g04229-d1e766">
+                  <lb ed="#Bc"/>Ad prima tria dicendum est, quod licet
+<lb ed="#Bc"/>in talia peccata aliquando aliquis incidat
+<lb ed="#Bc"/>ex infirmitate, vel ignorantia, tamen ipsa
+<lb ed="#Bc"/>peccata numquam sunt ignorantia vel 
+in<lb ed="#Bc" break="no"/>firmitas : et ideo sunt peccata in Spiritum
+<lb ed="#Bc"/>sancitum,non in Patrem, neque in Filium.
+</p>
+               <p xml:id="Almn78-g04229-d1e783">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Ad glossam. Hesychii dicendum, quod
+<lb ed="#Bc"/>licet ille non enumeret nisi duas species,
+<lb ed="#Bc"/>sub illis tamen comprehendit alias : quia
+<lb ed="#Bc"/>quod aliquis in sceleribus suis, perseverat
+<lb ed="#Bc"/>usque in finem, ex obstinatione venit vel
+<lb ed="#Bc"/>desperatione. Et hoc non est 
+inconve<lb ed="#Bc" break="no"/>niens, quod una species oriatur ex alia:
+<lb ed="#Bc"/>quia paulo ante dictum est, quod_ 
+obsti<lb ed="#Bc" break="no"/>natio est indurate mentis in malitia 
+per<lb ed="#Bc" break="no"/>tinacia, per quam fit homo impeenitens.
+</p>
+               <p xml:id="Almn78-g04229-d1e809">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod verum est
+<lb ed="#Bc"/>quod ex parte remittentis duo sunt, sed
+<lb ed="#Bc"/>ex parte Ecclesia in qua fit remissio, et
+<lb ed="#Bc"/>ex parte ejus cui fit remissio, multo
+<lb ed="#Bc"/>plura sunt : et ideo multo plures sunt
+<lb ed="#Bc"/>species.
+</p>
+               <p xml:id="Almn78-g04229-d1e825">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod nihil valet:
+<lb ed="#Bc"/>quia sicut superius sepe dictum est, 
+ma<lb ed="#Bc" break="no"/>lum multo amplioris divisionis est quam
+<lb ed="#Bc"/>bonum. Licet sint tres virtules 
+ordinan<lb ed="#Bc" break="no"/>tes, non sequitur tamen, quod tantum
+<lb ed="#Bc"/>tria debeant esse deordinantia, sed multo
+<lb ed="#Bc"/>plura ex corruptione que omnifariam
+<lb ed="#Bc"/>incidit.
+</p>
+               <p xml:id="Almn78-g04229-d1e845">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod non 
+proce<lb ed="#Bc" break="no"/>dit: quia licet tantum duo sunt in 
+peeni<lb ed="#Bc" break="no"/>tentia per quam fit remissio, tamen
+<lb ed="#Bc"/>multo plura sunt ex parte remittentis, et
+<lb ed="#Bc"/>ex parte Ecclesie, et ex parte ejus cui
+<lb ed="#Bc"/>fit remissio, ut dictum est.
+</p>
+               <p xml:id="Almn78-g04229-d1e861">
+                  <lb ed="#Bc"/>Ad vicrum Bernardi dicendum, quod
+<lb ed="#Bc"/>nolle obedire, non est peccatum in 
+Spi<lb ed="#Bc" break="no"/>ritum sanclum ex se, sed aliquam 
+con<lb ed="#Bc" break="no"/>formitatem habet cum pertinacia et 
+in<lb ed="#Bc" break="no"/>videntia fraterne gratiae : et propter
+<lb ed="#Bc"/>talem conformitatem dicit Bernardus
+<lb ed="#Bc"/>hoe quod dicit : non tamen formaliter
+<lb ed="#Bc"/>est peccatum in Spiritum sanctum, nisi
+<lb ed="#Bc"/>sicut omne peccatum mortale est contra
+<lb ed="#Bc"/>sanctitalem Spiritus sancti.
+</p>
+               <p xml:id="Almn78-g04229-d1e885">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod simulata
+<lb ed="#Bc"/>penitentia non est peccatum in Spiritum
+<lb ed="#Bc"/>sanctum, sed hypocrisis mendax que
+<lb ed="#Bc"/>evacuat remissionem. Et ex hoc 
+confor<lb ed="#Bc" break="no"/>mitatem habet cum peccato in Spiritum
+<lb ed="#Bc"/>sanctum, scilicet ex parte remittentis. Et
+<lb ed="#Bc"/>ita intelligitur Glossa. Et hoc quod 
+di<lb ed="#Bc" break="no"/>citur, Matth. xu, 43, super illud: Cum
+<lb ed="#Bc"/>immundus spiritus exiertt ab homine.
+<pb ed="#Bc" n="474"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Augustinus : <quote xml:id="Almn78-g04229-Qd1e913"> Simulata equitas non est
+<lb ed="#Bc"/>equitas, sed duplex iniquitas. </quote> Et sic
+<lb ed="#Bc"/>est de quolibet capitalium vitiorum
+<lb ed="#Bc"/>quando simulatum reddit.
+</p>
+               <p xml:id="Almn78-g04229-d1e924">
+                  <lb ed="#Bc"/>Ad vuLttimum dicendum, quod licet
+<lb ed="#Bc"/>schisma et heresis conformitatem 
+ha<lb ed="#Bc" break="no"/>beant cum peccato in Spiritum sanctum,
+<lb ed="#Bc"/>ex hoc quod non remittuntur: 
+nihilo<lb ed="#Bc" break="no"/>minus tamen ex specie non opponuntur
+<lb ed="#Bc"/>his ex quibus fit remissio: et ideo non
+<lb ed="#Bc"/>dicuntur peccata in Spiritum sanctum.
+</p>
+            </div>
+            <div xml:id="Almn78-g04229-Dd1e944">
+               <head xml:id="Almn78-g04229-Hd1e946">Membrum 2</head>
+               <head xml:id="Almn78-g04229-Hd1e949" type="question-title">
+        Quae sunt differentiae hujus peccati se
+        cundum Ambrosium
+      </head>
+               <p xml:id="Almn78-g04229-d1e952">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Quae sunt differentiae hujus peccati se
+<lb ed="#Bc" break="no"/>cundum Ambrosium ?
+</p>
+               <p xml:id="Almn78-g04229-d1e961">
+                  <lb ed="#Bc"/>Terrio, Queritur de assignatione 
+pec<lb ed="#Bc" break="no"/>cati in Spiritum’sanctum secundum 
+Am<lb ed="#Bc" break="no"/>brosium, quam Magister ponit in illo
+<lb ed="#Bc"/>cap. De hoc quoque peccato in Spiritum
+<lb ed="#Bc"/>sanctum Ambrosius in libro de Spiritu
+<lb ed="#Bc"/>sancto' disserens, diffinitam 
+assignatio<lb ed="#Bc" break="no"/>nem tradit, dicens.
+</p>
+               <p xml:id="Almn78-g04229-d1e979">
+                  <lb ed="#Bc"/>Ubi primo occurrit querere : quia
+<lb ed="#Bc"/>blasphemiam vocat peccatum in 
+Spiri<lb ed="#Bc" break="no"/>tum sanctum.
+</p>
+               <p xml:id="Almn78-g04229-d1e989">
+                  <lb ed="#Bc"/>Et de blasphemia queruntur quatuor,
+<lb ed="#Bc"/>scilicet primo quid sit?
+<lb ed="#Bc"/>Secundo, Que differentie ejus, et
+<lb ed="#Bc"/>quot?
+<lb ed="#Bc"/>Tertio, Quantum peccatum sit, utrum
+<lb ed="#Bc"/>semper mortale, vel aliqguando veniale ?
+<lb ed="#Bc"/>Et quarto, Quare vocatur peccatum
+<lb ed="#Bc"/>irremissibile ?
+</p>
+               <div xml:id="Almn78-g04229-Dd1e1009">
+                  <head xml:id="Almn78-g04229-Hd1e1011">Articulus 1</head>
+                  <head xml:id="Almn78-g04229-Hd1e1014" type="question-title">
+          Quid sit blasphemia ? et, Quae species
+          ejus, et quot? et, Utrum univoce vel
+          aequivoce an per prius et posterius
+          praedicetur de ipsis ?
+        </head>
+                  <p xml:id="Almn78-g04229-d1e1017">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>MEMBRI TERTII
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Quid sit blasphemia ? et, Quae species
+<lb ed="#Bc"/>ejus, et quot? et, Utrum univoce vel
+<lb ed="#Bc"/>aequivoce an per prius et posterius
+<lb ed="#Bc"/>praedicetur de ipsis ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1035">
+                     <lb ed="#Bc"/>Ad primum sic proceditur :
+<lb ed="#Bc"/>Super epistolam Jude, ¥. 8 : 
+Afaje<lb ed="#Bc" break="no"/>statem blasphemant. Glossa Haymonis :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-g04229-Qd1e1045"> Umnis blasphemia cavenda est, sed
+<lb ed="#Bc"/>maxime in creatorem. </quote> Ergo videtur,
+<lb ed="#Bc"/>quod omnis blasphemia sit in Deum, et
+<lb ed="#Bc"/>nulla in creaturam.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1056">
+                     <lb ed="#Bc"/>Adhucc, Ibidem definitio blasphemie
+<lb ed="#Bc"/>ponitur sic: <quote xml:id="Almn78-g04229-Qd1e1062"> Blasphemia est, per quam
+<lb ed="#Bc"/>de Deo ipso falsa dicuntur. </quote>
+                  </p>
+                  <p xml:id="Almn78-g04229-d1e1069">
+                     <lb ed="#Bc"/>Sed contra hoc objicitur : quia sicut
+<lb ed="#Bc"/>jam habebitur in sequenti articulo, tres
+<lb ed="#Bc"/>sunt species blasphemia. Prima est cum
+<lb ed="#Bc"/>attribuitur Deo quod ei non convenit.
+<lb ed="#Bc"/>Secunda est cum ab eo removetur quod
+<lb ed="#Bc"/>ei convenit. Tertia, cum attribuitur 
+crea<lb ed="#Bc" break="no"/>ture quod soli Deo appropriatur, sicut
+<lb ed="#Bc"/>quod Angelus creet, ut multi dixerunt.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1089">
+                     <lb ed="#Bc"/>Sed in illa specie nihil attribuitur
+<lb ed="#Bc"/>creature quod ei non convenit. Ergo
+<lb ed="#Bc"/>videtur, quod definitio nulla sit, nec 
+ge<lb ed="#Bc" break="no"/>neralis ad omnem speciem : cum enim
+<lb ed="#Bc"/>creature attribuitur quod Dei est, per
+<lb ed="#Bc"/>hoc nihil attribuitur Deo, nec aufertur
+<lb ed="#Bc"/>ab eo.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1107">
+                     <lb ed="#Bc"/>Solutio. Ad hoc dicendum, quod 
+in<lb ed="#Bc" break="no"/>ducta definitio Haymonis datur 
+secun<lb ed="#Bc" break="no"/>dum potissimam sui malitiam et esse,
+<lb ed="#Bc"/>non quia illa sola sit, sed quia potior est
+<lb ed="#Bc"/>inter alias. Aliae tres species assignantur
+<lb ed="#Bc"/>ab Augustino in libro de Trinitate, qua
+<pb ed="#Bc" n="475"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>rum una est eorum qui sapiunt de Deo
+<lb ed="#Bc"/>secundum corpus, ul qui credunt Deum
+<lb ed="#Bc"/>esse rutilum vel candidum. Alia est qui
+<lb ed="#Bc"/>sapiunt Deum secundum spiritum 
+crea<lb ed="#Bc" break="no"/>tum, ut qui dicunt Deum reminiscentem
+<lb ed="#Bc"/>et obliviscentem, iracundum et 
+miseri<lb ed="#Bc" break="no"/>cordem : eo quod Scriptura aliquando
+<lb ed="#Bc"/>talia dicit de Deo, cum Scriptura talia
+<lb ed="#Bc"/>non dicit de Deo, nisi per prosopeiam
+<lb ed="#Bc"/>que dicitur anthropospathos. Tertia est
+<lb ed="#Bc"/>eorum qui de Deo sentiunt quod nulli
+<lb ed="#Bc"/>spirituali vel corporali creature 
+conve<lb ed="#Bc" break="no"/>nit, sicut gui dicunt, quod Deus seipsum
+<lb ed="#Bc"/>genuerit : cum nulli creature conveniat,
+<lb ed="#Bc"/>quod seipsam gignat ut sic.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1159">
+                     <lb ed="#Bc"/>Queritur ergo, Utrum blasphemia 
+uni<lb ed="#Bc" break="no"/>voce predicetur de his speciebus, vel
+<lb ed="#Bc"/>per prius et posterius, vel etiam 
+equi<lb ed="#Bc" break="no"/>voce. Et penes quid sumatur numerus
+<lb ed="#Bc"/>harum specierum ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1172">
+                     <lb ed="#Bc"/>Videtur autem, quod univoce: quia
+<lb ed="#Bc"/>genus semper univoce predicatur de suis
+</p>
+                  <p xml:id="Almn78-g04229-d1e1179">
+                     <lb ed="#Bc"/>speciebus : blasphemia est genus, iste
+<lb ed="#Bc"/>sunt species : ergo predicatur de eis
+<lb ed="#Bc"/>univoce.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1189">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Iste species participant blasphemiam
+<lb ed="#Bc"/>secundum majus et minus posse: ergo
+<lb ed="#Bc"/>blasphemia predicatur de eis secundum
+<lb ed="#Bc"/>prius et posterius. Et hoc concedendum
+<lb ed="#Bc"/>est. Blasphemia enim dicitur dupliciter :
+<lb ed="#Bc"/>proprie, et extenso nomine. Proprie non
+<lb ed="#Bc"/>fit nisi in Deum. Extenso nomine fit etiam
+<lb ed="#Bc"/>in creaturam, in qua est potestas Dei,
+<lb ed="#Bc"/>sicut in Praelatos. Sicut dicitur, III Reg.
+<lb ed="#Bc"/>xx1, 10 ab impia Jezabel : Submittite
+<lb ed="#Bc"/>duos filios Belial contra eum, scilicet
+<lb ed="#Bc"/>Naboth, et falsum testimonium dicant :
+<lb ed="#Bc"/>Benedizxit Deum et regem. Et educite
+<lb ed="#Bc"/>eum, et lapidate, sicque moriatur Sic
+<lb ed="#Bc"/>enim extenso nomine blasphemia fit in
+<lb ed="#Bc"/>creaturam, licet vera ratione non fit nisi
+<lb ed="#Bc"/>in Deum.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1231">
+                     <lb ed="#Bc"/>Similiter secundum quod est in Deum,
+<lb ed="#Bc"/>non de omnibus speciebus dicitur 
+equa<lb ed="#Bc" break="no"/>liter, sed per prius et posterius.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1240">
+                     <lb ed="#Bc"/>Et si queritur, Inter quas species in
+<lb ed="#Bc"/>Deum dicatur per prius ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1247">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Dico quod inter primas tres species,
+<lb ed="#Bc"/>de prima dicitur per prius, in qua 
+attri<lb ed="#Bc" break="no"/>buitur Deo quod sibi non convenit. Sed
+<lb ed="#Bc"/>inter tres que sunt Augustini, de ultima
+<lb ed="#Bc"/>dicitur per prius : quia ibi attribuitur
+<lb ed="#Bc"/>Deo quod nulli rei convenit, neque 
+ve<lb ed="#Bc" break="no"/>stigio, neque imagini : quod sine 
+maxi<lb ed="#Bc" break="no"/>ma injuria esse non potest.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1269">
+                     <lb ed="#Bc"/>Si queritur, Quare sunt tot species ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1274">
+                     <lb ed="#Bc"/>Facile est respondere : prime enim
+<lb ed="#Bc"/>accipiuntur secundum injuriam que fit
+<lb ed="#Bc"/>Deo in seipso, scilicet attribuendo ei
+<lb ed="#Bc"/>quod sibi non convenit, vel auferendo
+<lb ed="#Bc"/>ab eo quod sibi convenit, vel attribuendo
+<lb ed="#Bc"/>alii quod sibi non convenit. Secunde
+<lb ed="#Bc"/>tres accipiuntur sub prima, quando 
+sci<lb ed="#Bc" break="no"/>licet Deo attribuitur quod soli corpori
+<lb ed="#Bc"/>convenit : et valde indigne Deo 
+attribui<lb ed="#Bc" break="no"/>tur, cum ipse sit supra omne corpus.
+<lb ed="#Bc"/>Secunda accipitur sub eadem, quando
+<lb ed="#Bc"/>scilicet attribuitur Deo quod convenit
+<lb ed="#Bc"/>spirituali creature : quod non potest
+<lb ed="#Bc"/>fieri nisi figurative, sicut dictum est.
+<lb ed="#Bc"/>Tertia que maxima est, accipitur etiam
+<lb ed="#Bc"/>sub eadem, quando scilicet attribuitur
+<lb ed="#Bc"/>Deo, quod nec vestigio ejus, nec 
+ima<lb ed="#Bc" break="no"/>gini convenit : propter quod maxima
+<lb ed="#Bc"/>dicitur.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1319">
+                     <lb ed="#Bc"/>Et sic determinatum est quid sit 
+blas<lb ed="#Bc" break="no"/>phemia, et que et quot ejus species :
+<lb ed="#Bc"/>quod secundo querendum fuit.
+</p>
+               </div>
+               <div xml:id="Almn78-g04229-Dd1e1329">
+                  <head xml:id="Almn78-g04229-Hd1e1331">Articulus 2</head>
+                  <head xml:id="Almn78-g04229-Hd1e1334" type="question-title">
+          Quantum peccatum sit blasphemia,
+          utrum semper sit mortale, vel 
+          aliquando veniale ?
+        </head>
+                  <p xml:id="Almn78-g04229-d1e1337">
+                     <lb ed="#Bc"/>MEMBRI TERTII
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Quantum peccatum sit blasphemia,
+<lb ed="#Bc"/>utrum semper sit mortale, vel 
+ali<lb ed="#Bc" break="no"/>quando veniale ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1350">
+                     <lb ed="#Bc"/>Deinde queritur, Quantum peccatum
+<lb ed="#Bc"/>sit blasphemia? et, Utrum semper sit
+<lb ed="#Bc"/>mortale, vel aliquando veniale ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1359">
+                     <pb ed="#Bc" n="476"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Et videtur, quod semper sit 
+mor<lb ed="#Bc" break="no"/>tale.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1371">
+                     <lb ed="#Bc"/>1. Isa, xvin, 2: Jte, Angeli veloces,
+<lb ed="#Bc"/>ad geniem convulsam et dilaceratam :
+<lb ed="#Bc"/>ad populum terribilem. Glossa : <quote xml:id="Almn78-g04229-Qd1e1379"> 
+Om<lb ed="#Bc" break="no"/>ne peccatum blasphemie comparatum,
+<lb ed="#Bc"/>levius est.</quote> Sed non esset levius, nisi
+<lb ed="#Bc"/>esset mortale peccatum.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1389">
+                     <lb ed="#Bc"/>2. Adhuc, Levit. xxiv, 14 : Edue
+<lb ed="#Bc"/>blasphemum extra castra :... et lapidet
+<lb ed="#Bc"/>eum populus universus, Et ibidem, ¥.
+<lb ed="#Bc"/>16: Quit blasphemaverit nomen Domini,
+<lb ed="#Bc"/>morte moriatur. Nullum'peccatum morte
+<lb ed="#Bc"/>et lapidatione puniebatur in Veteri 
+Te<lb ed="#Bc" break="no"/>stamento, nisi esset mortale peccatum.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1407">
+                     <lb ed="#Bc"/>Gratia hujus queritur, Utrum 
+blas<lb ed="#Bc" break="no"/>phemia sit peccatum tantum vie, vel
+<lb ed="#Bc"/>etiam damnationis in inferno ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1416">
+                     <lb ed="#Bc"/>Et videtur, quod in inferno 
+blasphe<lb ed="#Bc" break="no"/>mant. Apocal. xvi, 9 : 
+Blasphemave<lb ed="#Bc" break="no"/>runt nomen Dei habentis potestatem 
+su<lb ed="#Bc" break="no"/>per has plagas. Ibi Glossa : <quote xml:id="Almn78-g04229-Qd1e1426">Interius
+<lb ed="#Bc"/>penitentes dolebunt, extra confiteri non
+<lb ed="#Bc"/>audebunt. </quote> Ibidem Glossa alia : <quote xml:id="Almn78-g04229-Qd1e1434"> 
+In<lb ed="#Bc" break="no"/>terius dolebunt, quod Deus tantam 
+po<lb ed="#Bc" break="no"/>tentiam habebit, quod scilicet tales 
+pla<lb ed="#Bc" break="no"/>gas inferre possit. </quote> Hoe est 
+blasphe<lb ed="#Bc" break="no"/>mare, auferre scilicet a Deo quod sibi
+<lb ed="#Bc"/>convenit, scilicet potentiam,
+</p>
+                  <p xml:id="Almn78-g04229-d1e1448">
+                     <lb ed="#Bc"/>Ulterius queritur, Utrum 
+blasphe<lb ed="#Bc" break="no"/>mia semper sit in verbis, vel aliquando
+<lb ed="#Bc"/>in factis ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1457">
+                     <lb ed="#Bc"/>Et videtur, quod aliquando in factis.
+<lb ed="#Bc"/>II Petr. u, 2: Per quos via veritatis
+<lb ed="#Bc"/>blasphemabitur. Hoc videtur esse in
+<lb ed="#Bc"/>factis. Ergo in factis aliquando est
+<lb ed="#Bc"/>blasphemia.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1471">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Blasphemia peccatum est oris
+<lb ed="#Bc"/>quia ore attribuitur Deo quod sibi non
+<lb ed="#Bc"/>convenit, vel aufertur ab eo quod sibi
+<lb ed="#Bc"/>convenit secundum omnes species supra
+<lb ed="#Bc"/>inductas.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1487">
+                     <lb ed="#Bc"/>2. Adhuc, Quod sit in factis, probatur
+<lb ed="#Bc"/>sic: II Petr. u, 2, super illud : Per
+<lb ed="#Bc"/>quos via veritatis blasphemabitur, 
+Glos<lb ed="#Bc" break="no"/>sa: <quote xml:id="Almn78-g04229-Qd1e1497"> Per hereticos non solum in eis
+<cb ed="#Bc" n="b"/>
+                        <lb ed="#Bc"/>quos per turpissima facta sua et 
+sacri<lb ed="#Bc" break="no"/>ficia vel etiam minisleria exercenda,
+<lb ed="#Bc"/>que faciunt in odium Christiani 
+nomi<lb ed="#Bc" break="no"/>nis : et ad que concitant imperitos, 
+no<lb ed="#Bc" break="no"/>men Dei blasphematur. </quote> Ergo videtur,
+<lb ed="#Bc"/>quod etiam in factis blasphemia sit.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1517">
+                     <lb ed="#Bc"/>3. Adhuc, Isa. uu, 5 : Jugiter tota
+<lb ed="#Bc"/>die nomen meum '‘blasphematur, scilicet
+<lb ed="#Bc"/>inter gentes. Scitur, quod hoc non fit
+<lb ed="#Bc"/>nisi in factis. Dicit ibidem 
+Hierony<lb ed="#Bc" break="no"/>mus, quod <quote xml:id="Almn78-g04229-Qd1e1530"> in hoc blasphemant, quod
+<lb ed="#Bc"/>dicunt quod non possit esse potens
+<lb ed="#Bc"/>Deus et bonus qui talem populum 
+ha<lb ed="#Bc" break="no"/>bet, de cujus vita et actibus nulla laus
+<lb ed="#Bc"/>Deo accrescit. </quote> Ergo videtur, quod
+<lb ed="#Bc"/>etiam in his sit blasphemia.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1544">
+                     <lb ed="#Bc"/>Solutio. Ad primam partem 
+questio<lb ed="#Bc" break="no"/>nis dicendum, quod absque dubio 
+blas<lb ed="#Bc" break="no"/>phemia secundum omnes specics suas
+<lb ed="#Bc"/>mortale peccatum est, sicut probant
+<lb ed="#Bc"/>auctoritates ad hoc inducte : nisi forte
+<lb ed="#Bc"/>ex eventu efficiatur veniale per 
+confessio<lb ed="#Bc" break="no"/>nem et peenitentiam. Unde Augustinus
+<lb ed="#Bc"/>in sermone 44 de Verbis Domini in
+<lb ed="#Bc"/>monie sic dicit : <quote xml:id="Almn78-g04229-Qd1e1565"> Impcenitentia et cor
+<lb ed="#Bc"/>impeenitens quamdiu quisque in hac
+<lb ed="#Bc"/>carne vivit, non potest judicari. De nullo
+<lb ed="#Bc"/>enim desperandum est, quamdiu 
+patien<lb ed="#Bc" break="no"/>tia Dei ad peenitentiam adducit.Paganus
+<lb ed="#Bc"/>est hodie, Judaus est hodie, infidelis est
+<lb ed="#Bc"/>hodie, hereticus est hodie, 
+schismati<lb ed="#Bc" break="no"/>cus est hodie : quid si cras amplectatur
+<lb ed="#Bc"/>Catholicam pacem, et sequatur 
+Catho<lb ed="#Bc" break="no"/>licam veritatem? Quid si isti quos in
+<lb ed="#Bc"/>quocumque genere erroris notas et 
+tam<lb ed="#Bc" break="no"/>quam desperatissimos damnas, 
+ante<lb ed="#Bc" break="no"/>quam finiant hance vitam, agant 
+peeni<lb ed="#Bc" break="no"/>tentiam et inveniant veram requiem et
+<lb ed="#Bc"/>vitam in futuro? </quote> Et inducit illud
+<lb ed="#Bc"/>Apostoli 1 ad Corinth. 1v, 5 : Itaque
+<lb ed="#Bc"/>nolite ante tempus judicare.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1604">
+                     <lb ed="#Bc"/>Ad id quod queritur, dicendum quod 
+<lb ed="#Bc"/>in veritate peccatum blasphemie vie
+<lb ed="#Bc"/>est, non patrie. Unde cor blasphemi
+<lb ed="#Bc"/>proprie in via egreditur in actum 
+blas<lb ed="#Bc" break="no"/>phemie.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1617">
+                     <lb ed="#Bc"/>Et quod dicuntur damnati blasphe
+<pb ed="#Bc" n="477"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>mare, potius est ex amaritudine quam
+<lb ed="#Bc"/>sustinent in peenis qua murmurant con~
+<lb ed="#Bc"/>tra potentiam condemnantis, quam sit
+<lb ed="#Bc"/>ex aliquo spiritu. blasphemie — sicut
+<lb ed="#Bc"/>etiam in textu et in Glossa innuitur 
+in<lb ed="#Bc" break="no"/>ductis.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1640">
+                     <lb ed="#Bc"/>Et ita sunt intelligende auctoritates
+<lb ed="#Bc"/>inducte.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1647">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod proprie
+<lb ed="#Bc"/>loquendo blasphemia est in verbis
+<lb ed="#Bc"/>aliquando tamen refertur ad facta sicut
+<lb ed="#Bc"/>et confessio. Ad Titum, 1, 16 : 
+Conf<lb ed="#Bc" break="no"/>tentur se nosse Deum, factis autem 
+ne<lb ed="#Bc" break="no"/>gant.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1663">
+                     <lb ed="#Bc"/>Et sic procedunt auctoritates inducte
+<lb ed="#Bc"/>ad utramque partem.
+</p>
+               </div>
+               <div xml:id="Almn78-g04229-Dd1e1671">
+                  <head xml:id="Almn78-g04229-Hd1e1673">Articulus 3</head>
+                  <head xml:id="Almn78-g04229-Hd1e1676" type="question-title">
+          Quare blasphemia dicatur peccatum
+          irremissibile?
+        </head>
+                  <p xml:id="Almn78-g04229-d1e1679">
+                     <lb ed="#Bc"/>MEMBRI TERTII
+<lb ed="#Bc"/>ARTICULUS III.
+<lb ed="#Bc"/>Quare blasphemia dicatur peccatum
+<lb ed="#Bc"/>irremissibile?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1690">
+                     <lb ed="#Bc"/>Tertio queritur, Quare blasphemia
+<lb ed="#Bc"/>dicatur peccatum ad mortem et 
+irremis<lb ed="#Bc" break="no"/>sibile, pro quo non sit orandum ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1699">
+                     <lb ed="#Bc"/>1. Ad hoc dicit Magister Hugo de
+<lb ed="#Bc"/>sancto Victore, sic loquens de hoc
+<lb ed="#Bc"/>peccato, et bene : <quote xml:id="Almn78-g04229-Qd1e1707"> Peccatum 
+blasphe<lb ed="#Bc" break="no"/>miae nihil habet in se excusationis : et
+<lb ed="#Bc"/>ideo non meretur habere excusationem
+<lb ed="#Bc"/>remissionis. </quote> Matth. xu, 31 : Spiritus
+<lb ed="#Bc"/>blasphemia non remittetur,  scilicet
+<lb ed="#Bc"/>neque in hoc seculo, neque in 
+fu<lb ed="#Bc" break="no"/>turo.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1725">
+                     <lb ed="#Bc"/>2. Adhuc, Hugo : <quote xml:id="Almn78-g04229-Qd1e1729"> Blasphemus sine
+<lb ed="#Bc"/>misericordia punitur a patribus 
+tam<lb ed="#Bc" break="no"/>quam civis ineruditus, sine misericordia
+<lb ed="#Bc"/>ejicitur tamquam peregrinus, et veniam
+<lb ed="#Bc"/>non consequitur. </quote>
+                  </p>
+                  <p xml:id="Almn78-g04229-d1e1741">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Hieronymus : <quote xml:id="Almn78-g04229-Qd1e1749"> Blasphemia culpa
+<lb ed="#Bc"/>grave peccatum, quamquam culpa gravi
+<lb ed="#Bc"/>non careat, erroris tamen veniam habet
+<lb ed="#Bc"/>propter corporis infirmitatem. </quote>
+                  </p>
+                  <p xml:id="Almn78-g04229-d1e1759">
+                     <lb ed="#Bc"/>2. Adhuc, Matth. xu, 34 et 32, non
+<lb ed="#Bc"/>dicitur, quod, nulla blasphemia remitta 
+<lb ed="#Bc" break="no"/>tur, sed quod Spiritus blasphemia non
+<lb ed="#Bc"/>remittetur, Sic enim jacet littera : /deo
+<lb ed="#Bc"/>dico vobis : omne peccatum et 
+blasphe<lb ed="#Bc" break="no"/>mia remittelur hominibus : Spiritus
+<lb ed="#Bc"/>autem blasphemia non remittetur. Et
+<lb ed="#Bc"/>quicumque dixerit verbum contra 
+Fi<lb ed="#Bc" break="no"/>lium hominis, remittetur ei : qui autem
+<lb ed="#Bc"/>dizerit contra Spiritum sanctum, non
+<lb ed="#Bc"/>remittelur ei, negue in hoc seculo, neque
+<lb ed="#Bc"/>in futuro. Et ex hoc accipitur, quod
+<lb ed="#Bc"/>aliqua blasphemia remissibilis sit.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1790">
+                     <lb ed="#Bc"/>Sonurio. Ad hoc respondet Magister
+<lb ed="#Bc"/>Richardus de sancto Victore dicens,
+<lb ed="#Bc"/>quod aliquis blasphemat spirilu 
+blas<lb ed="#Bc" break="no"/>phemiae ex coactione : et hoc peccatum
+<lb ed="#Bc"/>procedit ex infirmitate carnis, et ideo in
+<lb ed="#Bc"/>Patrem fit, et hoc est remissibile. Alius
+<lb ed="#Bc"/>ex certa malitia : et hoc quia 
+excusatio<lb ed="#Bc" break="no"/>nem non habet, irremissibile est, hoc
+<lb ed="#Bc"/>est, de se non habens causam quare 
+re<lb ed="#Bc" break="no"/>mittatur.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1814">
+                     <lb ed="#Bc"/>Aliam videtur dare responsionem
+<lb ed="#Bc"/>Ambrosius, et ponitur in Zettera in 
+di<lb ed="#Bc" break="no"/>stinctione XLII, in illo cap. De hoc
+<lb ed="#Bc"/>quogue peccato. Et dicit sic : <quote xml:id="Almn78-g04229-Qd1e1824"> Si quis
+<lb ed="#Bc"/>corporis specie deceptu8 humani 
+remis<lb ed="#Bc" break="no"/>sius aliquid sentit de Christi carne quam
+<lb ed="#Bc"/>dignum est, habet culpam, non est 
+ta<lb ed="#Bc" break="no"/>men exclusus a venia. Si quis vero
+<lb ed="#Bc"/>Spiritus sancti dignitatem, majestatem
+<lb ed="#Bc"/>et potestaiem abneget sempiternam, et
+<lb ed="#Bc"/>putet non in Spiritu Dei ejici deemonia,
+<lb ed="#Bc"/>sed in Beelzebub (quod peccatum dicitur
+<lb ed="#Bc"/>invidentia gratiae oppugnans 
+fraternita<lb ed="#Bc" break="no"/>tem, et gratie Deiinvidere non dubitat)
+<lb ed="#Bc"/>hic excusationem non habet. Et ideo
+<lb ed="#Bc"/>irremissibile ejus peccatum dicitur :
+<lb ed="#Bc"/>quia causam remissibilitatis in se non
+<pb ed="#Bc" n="478"/>
+                        <cb ed="#Ba" n="a"/>
+                        <lb ed="#Bc"/>habet, infirmitatis scilicet vel 
+ignoran<lb ed="#Bc" break="no"/>tie : cum hoc quod non convenit nisi
+<lb ed="#Bc"/>Spiritui sancto, scilicet expellere 
+demo<lb ed="#Bc" break="no"/>nes, et remittere peccala, ex certa 
+ma<lb ed="#Bc" break="no"/>litia attribuit <name xml:id="Almn78-g04229-Nd1e1869">Beelzebub</name>, quod 
+blasphe<lb ed="#Bc" break="no"/>mia est, sicut in antehabitis dictum est :
+<lb ed="#Bc"/>quia hoc principi attribuitur 
+damonio<lb ed="#Bc" break="no"/>rum, quod non convenit nisi Spiritui
+<lb ed="#Bc"/>sancto. </quote> Et subjungit : <quote xml:id="Almn78-g04229-Qd1e1883"> Non itaque
+<lb ed="#Bc"/>distinctio illa verborum sic accipienda
+<lb ed="#Bc"/>est, quasi trium personarum divise sint
+<lb ed="#Bc"/>offense : sed ibi genera peccatorum
+<lb ed="#Bc"/>distincta sunt. Peccatum enim in 
+Pa<lb ed="#Bc" break="no"/>trem id intelligitur, quod per 
+infirmita<lb ed="#Bc" break="no"/>tem carnis fit, quia Patri Scriptura 
+fre<lb ed="#Bc" break="no"/>quenter attribuit potentiam. Peccatum
+<lb ed="#Bc"/>in Filium, quod fit per ignorantiam,
+<lb ed="#Bc"/>quia sapientia Filio attribuitur. Sed 
+pec<lb ed="#Bc" break="no"/>catum ex certa malitia dicitur esse
+<lb ed="#Bc"/>contra Spiritum sanctum, cui bonitas 
+at<lb ed="#Bc" break="no"/>tribuitur. </quote>
+                  </p>
+                  <p xml:id="Almn78-g04229-d1e1913">
+                     <lb ed="#Bc"/>Et sic patet solutio : quia procedunt
+<lb ed="#Bc"/>auctoritates ad utramque partem 
+intro<lb ed="#Bc" break="no"/>ducte.
+</p>
+               </div>
+               <div xml:id="Almn78-g04229-Dd1e1923">
+                  <head xml:id="Almn78-g04229-Hd1e1925">Articulus 4</head>
+                  <head xml:id="Almn78-g04229-Hd1e1928" type="question-title">
+          Quare hoc peccatum dicitur peccatum ad
+          mortem ?
+        </head>
+                  <p xml:id="Almn78-g04229-d1e1931">
+                     <lb ed="#Bc"/>MEMBRI TERTII
+<lb ed="#Bc"/>ARTICULUS IV.
+<lb ed="#Bc"/>Quare hoc peccatum dicitur peccatum ad
+<lb ed="#Bc"/>mortem ?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1942">
+                     <lb ed="#Bc"/>Ulterius quaeritur, Quare hoc 
+pecca<lb ed="#Bc" break="no"/>tum dicitur peccatum ad mortem pro
+<lb ed="#Bc"/>quo non est orandum?
+</p>
+                  <p xml:id="Almn78-g04229-d1e1951">
+                     <lb ed="#Bc"/>1. I Joan. v, 16 : Est autem 
+pecca<lb ed="#Bc" break="no"/>tum ad mortem, non pro illo dico roget
+<lb ed="#Bc"/>quis.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1961">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus in libro I de
+<lb ed="#Bc"/>Sermone Domini in monte: <quote xml:id="Almn78-g04229-Qd1e1967"> Peceatum
+<lb ed="#Bc"/>ad mortem esse puto, cum quis post
+<lb ed="#Bc"/>agnitionem Dei per gratiam Domini
+<lb ed="#Bc"/>nostri Jesu Christi fraternam oppugnat
+<lb ed="#Bc"/>charitatem, et adversus gratiam qua
+<cb ed="#Bc" n="b"/>
+                        <lb ed="#Bc"/>reconciliatus est Deo, invidentie facibus
+<lb ed="#Bc"/>agitatur. </quote> De hoc enim dicitur, Jerem.
+<lb ed="#Bc"/>vu, 16: Tu ergo, noli orare pro populo
+<lb ed="#Bc"/>hoc, nec assumas pro eis laudem et
+<lb ed="#Bc"/>orationem, ef non obsisias mihi, quia
+<lb ed="#Bc"/>non exaudiam te.
+</p>
+                  <p xml:id="Almn78-g04229-d1e1995">
+                     <lb ed="#Bc"/>3. Adhuc, Matth. xu, 31: Spiritus
+<lb ed="#Bc"/>blasphemia non remittetur. Glossa :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-g04229-Qd1e2003"> Blasphemus exigentibus malis meritis
+<lb ed="#Bc"/>suis sicut numquam ad remissionem,
+<lb ed="#Bc"/>ita numquam ad pcenitentiam 
+perve<lb ed="#Bc" break="no"/>niet. </quote>
+                  </p>
+                  <p xml:id="Almn78-g04229-d1e2013">
+                     <lb ed="#Bc"/>Ex his omnibus accipitur, quod 
+pec<lb ed="#Bc" break="no"/>catum in Spiritum sanctum non est
+<lb ed="#Bc"/>peccatum ad mortem, nisi cum finali
+<lb ed="#Bc"/>impeenitentia.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2024">
+                     <lb ed="#Bc"/>Sed contra hoc est,
+<lb ed="#Bc"/>1. Quod in precedenti articulo 
+habi<lb ed="#Bc" break="no"/>tum est ex verbis Augustini, et 
+ponun<lb ed="#Bc" break="no"/>tur in libro secundo Sententiarum, 
+di<lb ed="#Bc" break="no"/>distinct. XLII, cap. st etiam alia
+<lb ed="#Bc"/>hujus peccati assignatio, quod de nullo
+<lb ed="#Bc"/>desperandum est quamdiu patientia Dei
+<lb ed="#Bc"/>ad peenitentiam adducit : et de quo
+<lb ed="#Bc"/>non desperatur, pro illo non incongrue
+<lb ed="#Bc"/>oratur.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2048">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus super illud
+<lb ed="#Bc"/>Psalmi txvin, 23: Dixit Dominus : Ex
+<lb ed="#Bc"/>Basan convertam, convertam in 
+profun<lb ed="#Bc" break="no"/>dum maris. Hoc est eos qui erant 
+de<lb ed="#Bc" break="no"/>speratissimi. Et sicut peccatum 
+despe<lb ed="#Bc" break="no"/>rationis quod est peccatum in Spiritum
+<lb ed="#Bc"/>sanctum, remittitur : ita et alia. Ergo
+<lb ed="#Bc"/>non est peccatum irremissibile, nec ad
+<lb ed="#Bc"/>mortem, nisi in morte comitante.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2070">
+                     <lb ed="#Bc"/>3. Adhuc, Super illud Psalmi txvin,
+<lb ed="#Bc"/>71: Qui educii vinctos in fortitudine,
+<lb ed="#Bc"/>etc., Glossa : <quote xml:id="Almn78-g04229-Qd1e2078"> Eos qui vincti et 
+obsti<lb ed="#Bc" break="no"/>nati erant quasi de sepulcro a#terne
+<lb ed="#Bc"/>mortis educit ad pcenitentiam et ad 
+vi<lb ed="#Bc" break="no"/>tam. </quote>
+                  </p>
+                  <p xml:id="Almn78-g04229-d1e2089">
+                     <lb ed="#Bc"/>4, Adhuc, Super illud Psalmi cxtvu,
+<lb ed="#Bc"/>47 : Mittit crystallum suam sicut 
+buc<lb ed="#Bc" break="no"/>cellas, Glossa : <quote xml:id="Almn78-g04229-Qd1e2097"> Obstinatos et 
+indu<lb ed="#Bc" break="no"/>ratos facit aliorum doctores, sicut 
+Pau<lb ed="#Bc" break="no"/>lum. </quote> Ergo videtur, quod istud 
+pecca<lb ed="#Bc" break="no"/>tum aliquando remittitur : et quod 
+re<lb ed="#Bc" break="no"/>mittitur, pro eo non incongrue oratur,
+<pb ed="#Bc" n="479"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Sorvutio Magistri patet in Littera in
+<lb ed="#Bc"/>illo cap. Sed guzxritur, Utrum omnis
+<lb ed="#Bc"/>obstinatio mentis, quod non dicitur
+<lb ed="#Bc"/>irremissibile propter hoc, quod 
+num<lb ed="#Bc" break="no"/>quam remittatur, sed quia vix et 
+diffi<lb ed="#Bc" break="no"/>culter subit humilitatem pcenitentie qua
+<lb ed="#Bc"/>remittatur : sicut vix et magno igne
+<lb ed="#Bc"/>solvitur erystallus. Et hoc satis planum
+<lb ed="#Bc"/>est.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2133">
+                     <lb ed="#Bc"/>Et sic auctoritates procedunt ad
+<lb ed="#Bc"/>utramque partem : quia quidem 
+remitti<lb ed="#Bc" break="no"/>tur, sed vix et difficulter.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2142">
+                     <lb ed="#Bc"/>Alii tamen posteriores, distinctionem
+<lb ed="#Bc"/>accipiunt ex ipsis verbis Joannis' et
+<lb ed="#Bc"/>Glossa ibidem, et melius dicunt. Dicunt
+<lb ed="#Bc"/>enim, quod peccatum ad mortem dicitur
+<lb ed="#Bc"/>tribus modis. Uno modo quo omne 
+pec<lb ed="#Bc" break="no"/>catum mortale dicitur peccatum ad 
+mor<lb ed="#Bc" break="no"/>tem. Unde, Joan. v, 17: Omnis 
+ini<lb ed="#Bc" break="no"/>quitas peccatum est, et est peccatum ad
+<lb ed="#Bc"/>mortem. Et sic secundum specialem 
+ra<lb ed="#Bc" break="no"/>tionem non dicitur peccatum in 
+Spiri<lb ed="#Bc" break="no"/>tum sanctum ad mortem, sed generalem.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2168">
+                     <lb ed="#Bc"/>Secundo modo, dicitur peccatum ad
+<lb ed="#Bc"/>mortem,ut ibidem dicit Glossa,quod 
+se<lb ed="#Bc" break="no"/>parat finaliter a Deo,sicut mors animam e
+<lb ed="#Bc"/>corpore. Et sic peccatum in Spiritum
+<lb ed="#Bc"/>sanctum potest dici peccatum ad 
+mor<lb ed="#Bc" break="no"/>tem.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2184">
+                     <lb ed="#Bc"/>Tertio dicitur, dicitur peccatum ad
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>mortem, quod cum finali impcenitentia
+<lb ed="#Bc"/>et obstinatione perdurat usque ad 
+mor<lb ed="#Bc" break="no"/>tem. Unde <ref xml:id="Almn78-g04229-Rd1e2197">Glossa interlinearis super
+<lb ed="#Bc"/>illud I Joannis, v, 16</ref>: Est peccatum ad
+<lb ed="#Bc"/>mortem, hoc est, usque ad finem vite,
+<lb ed="#Bc"/>si in hac obstinatione impcenitens 
+deces<lb ed="#Bc" break="no"/>serit. Per istam distinclionem scitur,
+<lb ed="#Bc"/>quod obstinatio et finalis impcenitentia
+<lb ed="#Bc"/>sunt peccata ad mortem.
+</p>
+                  <p xml:id="Almn78-g04229-d1e2213">
+                     <lb ed="#Bc"/>Et sic patet solutio ad omnia objecta :
+<lb ed="#Bc"/>quia post mortem non est locus 
+remis<lb ed="#Bc" break="no"/>sionis, sed retributionis. Sed ante 
+mor<lb ed="#Bc" break="no"/>tem pro quolibet peccatore orandum
+<lb ed="#Bc"/>est : quia patientia Dei ad poenitentiam
+<lb ed="#Bc"/>adducit. Unde, ad Hebr. x, 28 et 29: _
+<lb ed="#Bc"/>Trritam quis faciens legem Moyst, sine
+<lb ed="#Bc"/>ulla miseratione duobus vel tribus 
+testt<lb ed="#Bc" break="no"/>bus morilur ; quanto magis putatis 
+de<lb ed="#Bc" break="no"/>leriora mereri supplicia, qui Filium Det
+<lb ed="#Bc"/>conculeaverit, et sanguinem testamenti
+<lb ed="#Bc"/>pollutum duxerit, in quo sanctificatus
+<lb ed="#Bc"/>est, et spiritui gratie contumeliam 
+fece<lb ed="#Bc" break="no"/>rit?
+</p>
+                  <p xml:id="Almn78-g04229-d1e2247">
+                     <lb ed="#Bc"/>Et haec de peccato in Spiritum 
+san<lb ed="#Bc" break="no"/>ctum dicta sufficiant : quia quod ultimo
+<lb ed="#Bc"/>de differentiis et sufficientia istorum
+<lb ed="#Bc"/>peccatorum querendum esset, secundo
+<lb ed="#Bc"/>membro istius distinctionis disputatum
+<lb ed="#Bc"/>et determinatum est per singula in 
+com<lb ed="#Bc" break="no"/>muni.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

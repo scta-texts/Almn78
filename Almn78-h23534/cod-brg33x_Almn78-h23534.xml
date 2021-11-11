@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 78</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 78</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="106"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h23534"><!-- p2t13q78 -->
+            <head xml:id="Almn78-h23534-Hd1e106">Quaestio 78</head>
+            <head xml:id="Almn78-h23534-Hd1e109" type="question-title">
+    Utrum corpus Adae fuerit animale, et qua animalitate
+  </head>
+            <p xml:id="Almn78-h23534-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>LXXVIII.
+<lb ed="#Bc"/>Utrum corpus Adae fuerit animale, et qua animalitate ?
+</p>
+            <p xml:id="Almn78-h23534-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde queritur, Utrum tale corpus
+<lb ed="#Bc"/>fuerit animale, et qua animalitate ?
+</p>
+            <p xml:id="Almn78-h23534-d1e130">
+               <lb ed="#Bc"/>Videtur enim, quod secundum 
+ratio<lb ed="#Bc" break="no"/>nem non conveniebat ei corpus animale,
+<lb ed="#Bc"/>sed spirituale.
+</p>
+            <p xml:id="Almn78-h23534-d1e140">
+               <lb ed="#Bc"/>1, Nobilissimae enim forme debetur
+<lb ed="#Bc"/>nobilissima materia : rationalis anima
+<lb ed="#Bc"/>maxime quam Deus inspiravit in faciem
+<lb ed="#Bc"/>Adz, nobilissima forma fuit. Ergo 
+no<lb ed="#Bc" break="no"/>billissimum corpus debetur ei : nobilius
+<lb ed="#Bc"/>autem est spirituale, quam animale : 
+vi<lb ed="#Bc" break="no"/>detur ergo, quod aptandum ei fuerit 
+cor<lb ed="#Bc" break="no"/>pus spirituale et non animale.
+</p>
+            <p xml:id="Almn78-h23534-d1e160">
+               <lb ed="#Bc"/>2. Adhuc, Nobilissimo artifici proprium
+<lb ed="#Bc"/>est producere opus suum nobiliori modo
+<lb ed="#Bc"/>quam ignobili : sed natura ignobilior est
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>artifex, quam Deus : et producit corpus
+<lb ed="#Bc"/>animale : videtur ergo, quod Dens 
+quan<lb ed="#Bc" break="no"/>do per seipsum poeratur, debeat 
+produ<lb ed="#Bc" break="no"/>cere corpus spirituale quod nobilius est.
+  
+<lb ed="#Bc"/>3. Adhuc, In prehabitis ostensum est
+<lb ed="#Bc"/>ex verbis Augustini et Bede, quod etiam
+<lb ed="#Bc"/>homo secundum corpus est ad imaginem
+<lb ed="#Bc"/>Dei aliquo modo : magis autem 
+imita<lb ed="#Bc" break="no"/>tur Deum corpus spirituale, quam 
+cor<lb ed="#Bc" break="no"/>pus animale. Ergo videtur, quod magis
+<lb ed="#Bc"/>competebat esse corpus spirituale, quam
+<lb ed="#Bc"/>animale, quod aptatum est primo 
+ho<lb ed="#Bc" break="no"/>mini. ,
+  
+<lb ed="#Bc"/>4. Adhuc, Sicut habitum est in 
+pre<lb ed="#Bc" break="no"/>cedentibus, distinctio rerum est de 
+or<lb ed="#Bc" break="no"/>dine et perfectione universi, ut scilicet
+<pb ed="#Bc" n="107"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>quodlibet adaptetur suo compari. Sed,
+<lb ed="#Bc"/>sicut dicit <name xml:id="Almn78-h23534-Nd1e214">Cassiodorus</name>, <quote xml:id="Almn78-h23534-Qd1e217"> Anima in
+<lb ed="#Bc"/>hoc est ad imaginem et similitudinem
+<lb ed="#Bc"/>Dei, quia est incorruptibilis et 
+immor<lb ed="#Bc" break="no"/>talis. </quote> Ergo de ordine nature est, quod
+<lb ed="#Bc"/>simile sibi corpus adaptetur, immortale
+<lb ed="#Bc"/>scilicet et incorruptibile : hoc autem non
+<lb ed="#Bc"/>potest esse animale, sed spirituale : ergo
+<lb ed="#Bc"/>videtur, quod debuit esse corpus 
+spiri<lb ed="#Bc" break="no"/>tuale, et non animale, quod prime 
+ani<lb ed="#Bc" break="no"/>me aptatum fuit.
+</p>
+            <p xml:id="Almn78-h23534-d1e240">
+               <lb ed="#Bc"/>5. Adhuc, Constat, quod in 
+resurre<lb ed="#Bc" break="no"/>ctione communi corpora resurgentium
+<lb ed="#Bc"/>spiritualia erunt, sicut dicitur, I ad 
+Co<lb ed="#Bc" break="no"/>rinth. xv, 44: Seminatur corpus animale,
+<lb ed="#Bc"/>surget corpus spiritale. Et tamen in re~
+<lb ed="#Bc"/>surrectione ad corpora illa operabuntur
+<lb ed="#Bc"/>Angeli. Si ergo corpus primi hominis
+<lb ed="#Bc"/>fuit animale, corpus illud in quo 
+opera<lb ed="#Bc" break="no"/>tus est solus Deus, ignobilius est quam
+<lb ed="#Bc"/>id in quo operatur Angelus, quod incon~
+<lb ed="#Bc"/>veniens reputatur quia, Deuteron.
+<lb ed="#Bc"/>xxxul, 4, dicitur : Det perfecta sunt 
+ope<lb ed="#Bc" break="no"/>ra. Non est autem perfectum corpus, nisi
+<lb ed="#Bc"/>spirituale.
+</p>
+            <p xml:id="Almn78-h23534-d1e273">
+               <lb ed="#Bc"/>6. Ex his et hujusmodi ratiunculis 
+he<lb ed="#Bc" break="no"/>retici qui dicuntur Manichzi, dicebant,
+<lb ed="#Bc"/>quod anime omnes primo create sunt
+<lb ed="#Bc"/>in ceelo a Deo bono, et habebant corpora
+<lb ed="#Bc"/>spiritualia, non animalia, que postea per
+<lb ed="#Bc"/>casum peccati mutata sunt in animalia
+<lb ed="#Bc"/>corpora.
+</p>
+            <p xml:id="Almn78-h23534-d1e291">
+               <lb ed="#Bc"/>Sed quop hac opinio falsa sit, 
+aucto<lb ed="#Bc" break="no"/>ritatibus Sanctorum probatur.
+</p>
+            <p xml:id="Almn78-h23534-d1e298">
+               <lb ed="#Bc"/>1. Augustinus in libro XIV de Civitate
+<lb ed="#Bc"/>Dei', enumerat multa bona quibus
+<lb ed="#Bc"/>Adam in primo statu innocentie 
+afflue<lb ed="#Bc" break="no"/>bat, et subjungit sic : <quote xml:id="Almn78-h23534-Qd1e308"> Quam felices
+<lb ed="#Bc"/>erant, et nullis agitabantur 
+perturbatio<lb ed="#Bc" break="no"/>nibus animorum, nullis corporum 
+lede<lb ed="#Bc" break="no"/>bantur incommodis. Atque ista 
+perma<lb ed="#Bc" break="no"/>nente felicitate, donec per illam 
+benedi<lb ed="#Bc" break="no"/>clionem, gua dictum est : Crescite, et
+<lb ed="#Bc"/>multiplicamini*, predestinatorum 
+san<lb ed="#Bc" break="no"/>ctorum numerus impleretur, alia major
+<lb ed="#Bc"/>daretur, que beatissimis Angelis data
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>est. </quote> Si ergo poterat generare, et non
+<lb ed="#Bc"/>generat nisi animale corpus, oportet
+<lb ed="#Bc"/>quod animale corpus haberet primum.
+</p>
+            <p xml:id="Almn78-h23534-d1e339">
+               <lb ed="#Bc"/>2. Adhuc, Sicut dicit Magister in 
+Sen<lb ed="#Bc" break="no"/>tentiis, corpus illud cibis erat 
+sustentan<lb ed="#Bc" break="no"/>dum : quia Dominus dixit, Genes. n, 16:
+<lb ed="#Bc"/>fx omni ligne. Unde Augustinus 
+ibi<lb ed="#Bc" break="no"/>dem in Glossa : <quote xml:id="Almn78-h23534-Qd1e352"> De lignorum fructibus
+<lb ed="#Bc"/>habebat refectionem contra defectionem,
+<lb ed="#Bc"/>de ligno vite stabilitatem contra 
+vetusta<lb ed="#Bc" break="no"/>tem. </quote> Constat ergo, quod cibo indiguit
+<lb ed="#Bc"/>corpus illud : et non indiget nisi anima
+<lb ed="#Bc"/>corpus : ergo fuit animale.
+</p>
+            <p xml:id="Almn78-h23534-d1e366">
+               <lb ed="#Bc"/>3. Adhuc, Augustinus in libro de
+<lb ed="#Bc"/>Baptismo parvulorum : <quote xml:id="Almn78-h23534-Qd1e372"> Quamvis 
+ho<lb ed="#Bc" break="no"/>mo secundum corpus terra esset, et 
+cor<lb ed="#Bc" break="no"/>pus in quo creatus est animale gestaret :
+<lb ed="#Bc"/>tamen si non peccasset, in corpus 
+spiri<lb ed="#Bc" break="no"/>tuale mutandus foret, et in illam 
+incor<lb ed="#Bc" break="no"/>ruptionem que fidelibus et sanctis 
+pro<lb ed="#Bc" break="no"/>mittitur, transilurus. </quote> Ergo fuit corpus
+<lb ed="#Bc"/>animale, sed transiturum in spirituale.
+</p>
+            <p xml:id="Almn78-h23534-d1e391">
+               <lb ed="#Bc"/>4, Adhuc, 1 ad Corinth. xv, 44 et 46:
+<lb ed="#Bc"/>Si est corpus animale, est et spiritale...
+<lb ed="#Bc"/>Sed non prius quod spiritale est, sed
+<lb ed="#Bc"/>quod animale : deinde quod spiritale.
+<lb ed="#Bc"/>Ubi expresse dicitur, quod primo fuit
+<lb ed="#Bc"/>animale.
+</p>
+            <p xml:id="Almn78-h23534-d1e407">
+               <lb ed="#Bc"/>Ulterius querilur de hoc quod dicit
+<lb ed="#Bc"/>Magister in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XVII, in illo cap. Solet gueri, ubi
+<lb ed="#Bc"/>inducit Augustinum super Genesim ad
+<lb ed="#Bc"/>hitteram dicentem, quod Adam in ztate
+<lb ed="#Bc"/>virili continuo factus est, et hoc 
+secun<lb ed="#Bc" break="no"/>dum superiores, et non secundum 
+infe<lb ed="#Bc" break="no"/>riores causas.
+</p>
+            <p xml:id="Almn78-h23534-d1e427">
+               <lb ed="#Bc"/>Sed videtur hoc non esse conveniens :
+<lb ed="#Bc"/>per haec enim conditionis opus corpori
+<lb ed="#Bc"/>Ade dabatur forma nature ad formanda
+<lb ed="#Bc"/>corpora : natura autem format paulatim
+<lb ed="#Bc"/>per intervalla et incrementa : ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod etiam Deus in primo opere suo
+<lb ed="#Bc"/>etiam ita facere debuerit.
+<pb ed="#Bc" n="108"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>nem fecerit extra paradisum, et factum
+<lb ed="#Bc"/>posuit intra paradisum ?
+</p>
+            <p xml:id="Almn78-h23534-d1e453">
+               <lb ed="#Bc"/>Videtur enim hoc non debuisse :
+<lb ed="#Bc"/>1. Terra enim paradisi nobilior est alia
+<lb ed="#Bc"/>terra : et sic videtur, quod magis 
+con<lb ed="#Bc" break="no"/>gruebat, quod ex terra paradisi 
+formare<lb ed="#Bc" break="no"/>tur quam ex alia.
+</p>
+            <p xml:id="Almn78-h23534-d1e467">
+               <lb ed="#Bc"/>2. Adhuc, In animalibus aliis idem est
+<lb ed="#Bc"/>locus generationis et educationis : ergo
+<lb ed="#Bc"/>videtur, quod in homine sacundum 
+cor<lb ed="#Bc" break="no"/>pus animale similiter debet esse. 
+Con<lb ed="#Bc" break="no"/>stat autem, quod in paradiso erat 
+edu<lb ed="#Bc" break="no"/>candus : ergo et in paradiso formandus,
+</p>
+            <p xml:id="Almn78-h23534-d1e483">
+               <lb ed="#Bc"/>3. Adhuc, Heva que indignior fuit
+<lb ed="#Bc"/>quam Adam, facta est in paradiso 
+se<lb ed="#Bc" break="no"/>cundum corpus. Ergo multo magis in
+<lb ed="#Bc"/>paradiso debuit fieri Adam.
+</p>
+            <p xml:id="Almn78-h23534-d1e494">
+               <lb ed="#Bc"/>4, Quamvis autem verissimum sit,
+<lb ed="#Bc"/>quod primi hominis corpus fuerit 
+ani<lb ed="#Bc" break="no"/>male, et non spiritale : tamen quidam
+<lb ed="#Bc"/>objiciunt in contrarium sic, dicentes,
+<lb ed="#Bc"/>quod primi hominis corpus beatum fuit,
+<lb ed="#Bc"/>ut dicit Augustinus. Nihil autem beatum
+<lb ed="#Bc"/>potest esse animale. Ergo corpus primi
+<lb ed="#Bc"/>hominis non fuit animale.
+</p>
+            <p xml:id="Almn78-h23534-d1e514">
+               <lb ed="#Bc"/>5. Adhuc, Si cibis utebatur Adam
+<lb ed="#Bc"/>contra defectionem, ut dicit Augustinus,
+<lb ed="#Bc"/>necesse fuit fieri digestionem et impuri
+<lb ed="#Bc"/>egestionem : talibus autem subjacere 
+mi<lb ed="#Bc" break="no"/>serrimum est : ergo in primo statu 
+mi<lb ed="#Bc" break="no"/>serrime necessitati subjacuit, quod 
+ne<lb ed="#Bc" break="no"/>gant Sancti.
+</p>
+            <p xml:id="Almn78-h23534-d1e532">
+               <lb ed="#Bc"/>Soturo. Dicendum, quod absque 
+du<lb ed="#Bc" break="no"/>bio corpus Adz fuit in primo statu 
+ani<lb ed="#Bc" break="no"/>male, et non spiritale, hoc est, utens 
+ci<lb ed="#Bc" break="no"/>bis et generans. Nuptie autem, ut dicit
+<lb ed="#Bc"/>Augustinus, sunt mortalium bonum.
+</p>
+            <p xml:id="Almn78-h23534-d1e545">
+               <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+no<lb ed="#Bc" break="no"/>bilissimee forme debetur nobilissima
+<lb ed="#Bc"/>materia secundum statum nature, et
+<lb ed="#Bc"/>non simpliciter : tunc autem fuit status
+<lb ed="#Bc"/>inchoantis nature, et non perfecte 
+se<lb ed="#Bc" break="no"/>cundum ultimam perfectionem, sed in
+<lb ed="#Bc"/>quo oportebat unum ex altero 
+propaga<lb ed="#Bc" break="no"/>ri: et non poterat hoc fieri animali et
+<lb ed="#Bc"/>non spirituali: et ideo nobilissimum
+<lb ed="#Bc"/>corpus accepit quod poterat esse 
+secun<lb ed="#Bc" break="no"/>dum statum illum.
+</p>
+            <p xml:id="Almn78-h23534-d1e572">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Ad aliud dicendum, quod 
+nobilissi<lb ed="#Bc" break="no"/>mus artifex sapientissimus est, et ille est
+<lb ed="#Bc"/>qui secundum statum semper facit 
+me<lb ed="#Bc" break="no"/>lius opus et magis congruum illi 
+sta<lb ed="#Bc" break="no"/>tui : sed corpus animale magis 
+congrue<lb ed="#Bc" break="no"/>bat statui innocentia ad generationem.
+</p>
+            <p xml:id="Almn78-h23534-d1e590">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod corpus
+<lb ed="#Bc"/>spirituale magis imitatur in 
+exteriori<lb ed="#Bc" break="no"/>bus: sed in his que essentialia sunt
+<lb ed="#Bc"/>imagini, magis imitatur corpus animale.
+<lb ed="#Bc"/>Dicit enim Augustinus, quod in hoc est
+<lb ed="#Bc"/>imago secundum corpus: quia sicut
+<lb ed="#Bc"/>Deus principium est omnium, ita Adam
+<lb ed="#Bc"/>secundum corpus principium est 
+om<lb ed="#Bc" break="no"/>nium que propagantur ab ipso. Ex 
+cor<lb ed="#Bc" break="no"/>pore autem spirituali nihil potest 
+pro<lb ed="#Bc" break="no"/>pagari. Unde, Matth. xxu, 30: In 
+resur<lb ed="#Bc" break="no"/>rectione, neque nubent neque nubentur :
+<lb ed="#Bc"/>sed erunt sicut Angeli Dei in celo.
+</p>
+            <p xml:id="Almn78-h23534-d1e621">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod corpus 
+ani<lb ed="#Bc" break="no"/>male per meritum virtutis ordinatum
+<lb ed="#Bc"/>est ad incorruptibilitatem et 
+immortali<lb ed="#Bc" break="no"/>tatem, et sic aptatum est anime, que
+<lb ed="#Bc"/>est ad imaginem Dei. Sed non 
+congrue<lb ed="#Bc" break="no"/>bat, quod tunc esset immortale et 
+incor<lb ed="#Bc" break="no"/>ruptibile nisi secundum congruentiam
+<lb ed="#Bc"/>status : et hoc est quod nec moreretur,
+<lb ed="#Bc"/>nec corrumperetur, si non peccaret :
+<lb ed="#Bc"/>corrumperetur autem et moreretur, si
+<lb ed="#Bc"/>peccaret.
+</p>
+            <p xml:id="Almn78-h23534-d1e647">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Bc"/>in resurrectione corpora resurgentium
+<lb ed="#Bc"/>erunt spiritualia sicut competit illi 
+sta<lb ed="#Bc" break="no"/>tui. Et ad immutationem corporum ad
+<lb ed="#Bc"/>formam glorie nihil operabuntur 
+Ange<lb ed="#Bc" break="no"/>li: sed si aliquid operabuntur, hoc est
+<lb ed="#Bc"/>in congregatione mortuorum, et 
+voca<lb ed="#Bc" break="no"/>tione et collectione cinerum. Nec dicitur
+<lb ed="#Bc"/>opus Dei perfectum ex hoc quod 
+nobi<lb ed="#Bc" break="no"/>lius in se est, sed ex hoc, quod 
+congru<lb ed="#Bc" break="no"/>entius et utilius est ad statum : ex hoc
+<lb ed="#Bc"/>enim accipit perfectionem ad finem.
+</p>
+            <p xml:id="Almn78-h23534-d1e676">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod heretici
+<lb ed="#Bc"/>propter hoc heretici sunt, quod nec 
+ra<lb ed="#Bc" break="no"/>tiones nec Scripturas intelligunt : omnes
+<lb ed="#Bc"/>enim ratiuncule tales ex icotibus et 
+si<lb ed="#Bc" break="no"/>gnis sunt, et in secunda figura, in qua
+<lb ed="#Bc"/>signa que sunt media, sunt ante 
+extre<lb ed="#Bc" break="no"/>ma : et a talibus signis syllogizare, facit
+<pb ed="#Bc" n="109"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>fallaciam consequentis, et nihil probat.
+</p>
+            <p xml:id="Almn78-h23534-d1e700">
+               <lb ed="#Bc"/>Qvatuor que in contrarium 
+adducun<lb ed="#Bc" break="no"/>tur, concedenda sunt : quia in illis 
+ex<lb ed="#Bc" break="no"/>presse determinatur veritas.
+</p>
+            <p xml:id="Almn78-h23534-d1e710">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur, In qua
+<lb ed="#Bc"/>etate factus sit Adam ?
+</p>
+            <p xml:id="Almn78-h23534-d1e717">
+               <lb ed="#Bc"/>Dicendum, quod si etas dicitur 
+proli<lb ed="#Bc" break="no"/>xitas temporis et mensura, in nulla
+<lb ed="#Bc"/>ztate factus est, sed in momento ad 
+vo<lb ed="#Bc" break="no"/>luntatem Dei. Si autem dicatur etas
+<lb ed="#Bc"/>perfectio que ex xtate relinquitur, tunc
+<lb ed="#Bc"/>factus est perfectus triplici perfectione,
+<lb ed="#Bc"/>sicut homo est in triginta annis, 
+scili<lb ed="#Bc" break="no"/>cet perfectione quantitatis membrorum,
+<lb ed="#Bc"/>et perfectione virtutum in membris, et
+<lb ed="#Bc"/>perfectione adunationis complexionis,
+<lb ed="#Bc"/>que tunc resedit : ita quod vires anima
+<lb ed="#Bc"/>stabiles poterant habere conceptiones, et
+<lb ed="#Bc"/>secundum animam factus est profectus
+<lb ed="#Bc"/>in cognitione naturali.
+</p>
+            <p xml:id="Almn78-h23534-d1e750">
+               <lb ed="#Bc"/>Av w quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod opus divinum licet sit exemplar
+<lb ed="#Bc"/>operis nature, tamen non dat ei 
+mo<lb ed="#Bc" break="no"/>dum : quia impossibile est, quod natura
+<lb ed="#Bc"/>que est artifex imperfectus, imitetur
+<lb ed="#Bc"/>modum operis divini.
+</p>
+            <p xml:id="Almn78-h23534-d1e766">
+               <lb ed="#Bc"/>Ad aliud quod ulterius queritur, 
+di<lb ed="#Bc" break="no"/>cendum, quod licet Deus potuisset fecis~
+<lb ed="#Bc"/>se corpus Ade de terra paradisi, tamen
+<lb ed="#Bc"/>noluit. Et de hoc ab antiquis assignate
+<lb ed="#Bc"/>sunt quatuor rationes. Una est ibidem
+<lb ed="#Bc"/>in Glossa que sic incipit : Datur 
+in<lb ed="#Bc" break="no"/>telligi : et haec etiam ponitur a 
+Ma<lb ed="#Bc" break="no"/>gistro in libro Il Sententiarum, distinct.
+<lb ed="#Bc"/>XVII, cap. Hominem autem formatum.
+<lb ed="#Bc"/>Et fundatur super hoc, quod ejectus 
+ni<lb ed="#Bc" break="no"/>mis doluisset, si de terra sibi 
+connatu<lb ed="#Bc" break="no"/>rali ejectus, terram non connaturalem
+<lb ed="#Bc"/>sibi colere juberetur. Secunda est 
+exci<lb ed="#Bc" break="no"/>tatio gratitudinis : quia voluit Deus,
+<lb ed="#Bc"/>quod quidquid boni fieret ei, totum 
+ad<lb ed="#Bc" break="no"/>scriberet gratie Dei, et non nature : et
+<lb ed="#Bc"/>ideo ex terra vili creavit eum, et non
+<lb ed="#Bc"/>nobili. Sicut dicitur, I ad Corinth. xv,
+<lb ed="#Bc"/>AT et 48 : Primus homo de terra, 
+lerre<lb ed="#Bc" break="no"/>nus : secundus homo de celo, celestis.
+<lb ed="#Bc"/>Qualis terrenus, tales et terreni. Tertia
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>est humiliatio sui, quando scilicet 
+recor<lb ed="#Bc" break="no"/>daretur se ex vili terra esse factum, 
+hu<lb ed="#Bc" break="no"/>miliaretur et obediret preceptis Dei. 
+Ec<lb ed="#Bc" break="no"/>li. x, 9: Quid superbit terra et cinis ?
+<lb ed="#Bc"/>Quarta est temperamentum afflictionis
+<lb ed="#Bc"/>et tristitie, ut scilicet quando ejiceretur,
+<lb ed="#Bc"/>minus doleret, videns se ejectum ad 
+ter<lb ed="#Bc" break="no"/>ram connaturalem sibi : et si fuisset ex
+<lb ed="#Bc"/>terra paradisi, nimis affligeretur in 
+eje<lb ed="#Bc" break="no"/>ctione paradisi, secundum illud 
+Ho<lb ed="#Bc" break="no"/>ratii :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h23534-Qd1e841">Nescio qua natale solum dulcedine cunctos
+<lb ed="#Bc"/>Ducit, et immemores non sinit esse sui.</quote>
+            </p>
+            <p xml:id="Almn78-h23534-d1e847">
+               <lb ed="#Bc"/>Et similiter dicitur in Psalmo cxxxv1,
+<lb ed="#Bc"/>1: Super flumina Babylonis illic 
+sedi<lb ed="#Bc" break="no"/>mus et flevimus, cum  recordaremur
+<lb ed="#Bc"/>Sion.
+</p>
+            <p xml:id="Almn78-h23534-d1e858">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod non est
+<lb ed="#Bc"/>simile de aliis animalibus et homine :
+<lb ed="#Bc"/>alia enim animalia non sunt ad 
+_beatitu<lb ed="#Bc" break="no"/>dinem ordinata secundum naturam et
+<lb ed="#Bc"/>meritum sicut homo. Et ideo homo 
+se<lb ed="#Bc" break="no"/>cundum tres status triplicem habet 
+lo<lb ed="#Bc" break="no"/>cum. Secundum statum enim nature
+<lb ed="#Bc"/>inchoantis formandus erat in nabitatione
+<lb ed="#Bc"/>communis terre, ad cujus ornatum cum
+<lb ed="#Bc"/>aliis animalibus factus est sexta die. 
+Se<lb ed="#Bc" break="no"/>cundum statum innocentie et felicitatis,
+<lb ed="#Bc"/>que debetur prime innocentie (ut dicit
+<lb ed="#Bc"/>Augustinus) positus est in paradisum,
+<lb ed="#Bc"/>ut ibi omnibus deliciis frueretur sine 
+in<lb ed="#Bc" break="no"/>commodo et nocumento. Secundum 
+sta<lb ed="#Bc" break="no"/>tum culpe ejectus est in terram 
+habita<lb ed="#Bc" break="no"/>tionis hujus, ubi in sudore vultus ejus
+<lb ed="#Bc"/>vescitur pane suo.
+</p>
+            <p xml:id="Almn78-h23534-d1e901">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod in Heva
+<lb ed="#Bc"/>aliter est quam in Adam: illam enim
+<lb ed="#Bc"/>humiliavit sexus. Et licet in paradiso
+<lb ed="#Bc"/>fieret, tamen ex nulla parte paradisi 
+fa<lb ed="#Bc" break="no"/>cta est, sed ex corpore viri: et sic 
+ulte<lb ed="#Bc" break="no"/>rius originalur ex terra communi, 
+tam<lb ed="#Bc" break="no"/>quam ex primo principio. Sed in 
+para<lb ed="#Bc" break="no"/>diso tamquam in loco facta est, ut 
+sal<lb ed="#Bc" break="no"/>tem unum contra multa deprimentia
+<lb ed="#Bc"/>haberet, ne tristitia absorberetur.
+</p>
+            <p xml:id="Almn78-h23534-d1e925">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod corpus 
+pri<lb ed="#Bc" break="no"/>mi hominis quadam beatitudine beatum
+<pb ed="#Bc" n="110"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>fuit, et non perfecta, quod scilicet 
+pce<lb ed="#Bc" break="no"/>nam et nocumentum non sentiret si non
+<lb ed="#Bc"/>peccaret : et hac beatitudo non 
+opponi<lb ed="#Bc" break="no"/>tur animali corpori, imo convenit ei.
+  
+<lb ed="#Bc"/>Ad aliud dicendum, quod Adam 
+pro<lb ed="#Bc" break="no"/>cul dubio comedisset de lignis paradisi,
+<lb ed="#Bc"/>Si permansisset : quod si non fecisset,
+<lb ed="#Bc"/>peccasset, ut dicit Prosper in libro de
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Contemplativa vita, et sic propter 
+pec<lb ed="#Bc" break="no"/>catum defecisset in comestione, tamen
+<lb ed="#Bc"/>digestio fuisset et impuri egestio : sed
+<lb ed="#Bc"/>hoc sine immunditia putrefactionis et
+<lb ed="#Bc"/>cetoris ab eo resolutum fuisset, ut 
+di<lb ed="#Bc" break="no"/>cunt Sancti: et propter hoc etiam in
+<lb ed="#Bc"/>egerendo non fuisset miserie subjectus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

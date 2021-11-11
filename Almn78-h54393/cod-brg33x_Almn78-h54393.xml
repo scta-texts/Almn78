@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 100</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 100</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="244"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h54393"><!-- p2t16q100 -->
+            <head xml:id="Almn78-h54393-Hd1e106">Quaestio 100</head>
+            <head xml:id="Almn78-h54393-Hd1e109" type="question-title">
+    Qualiter se gratia habeat ad voluntatem et ad rationem
+  </head>
+            <p xml:id="Almn78-h54393-d1e112">
+               <lb ed="#Bc"/>QUAESTIO C.
+<lb ed="#Bc"/>Qualiter se gratia habeat ad voluntatem et ad rationem ?
+</p>
+            <p xml:id="Almn78-h54393-d1e119">
+               <lb ed="#Bc"/>Deinde ratione ejus quod dicitur in
+<lb ed="#Bc"/>illo capitulo ejusdem  distinctionis :
+<lb ed="#Bc"/>Itaque bona volunias comitatur 
+gra<lb ed="#Bc" break="no"/>tiam, queritur, Qualiter gratia se 
+ha<lb ed="#Bc" break="no"/>beat ad voluntatem et rationem ?
+</p>
+            <p xml:id="Almn78-h54393-d1e132">
+               <lb ed="#Bc"/>Et queruntur quatuor.
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Primum est, Utrum in aliquo 
+volun<lb ed="#Bc" break="no"/>tas precedat gratiam ?
+<lb ed="#Bc"/>Secundum, Utrum voluntas et ratio
+<lb ed="#Bc"/>sine gratia possint non peccare 
+damnabi<lb ed="#Bc" break="no"/>liter, vel necesse sit damnabiliter 
+pec<lb ed="#Bc" break="no"/>care?
+<pb ed="#Bc" n="245"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Tertium, Utrum post habitam gratiam
+<lb ed="#Bc"/>necesse sit venialiter peccare, vel non?
+<lb ed="#Bc"/>Quartum, Que sit gratia illa que 
+vo<lb ed="#Bc" break="no"/>luntatem retinet a peccato ?
+</p>
+            <p xml:id="Almn78-h54393-d1e166">
+               <lb ed="#Bc"/>De his enim quatuor mentionem facit
+<lb ed="#Bc"/>Magister in Littera.
+</p>
+            <div xml:id="Almn78-h54393-Dd1e173">
+               <head xml:id="Almn78-h54393-Hd1e175">Membrum 1</head>
+               <head xml:id="Almn78-h54393-Hd1e178" type="question-title">
+        Utrum in aliquo voluntas praecedat
+        gratiam
+      </head>
+               <p xml:id="Almn78-h54393-d1e181">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum in aliquo voluntas praecedat
+<lb ed="#Bc"/>gratiam ?
+</p>
+               <p xml:id="Almn78-h54393-d1e190">
+                  <lb ed="#Bc"/>Primo ergo queritur, Utrum in aliquo
+<lb ed="#Bc"/>voluntas preacedat gratiam ?
+</p>
+               <p xml:id="Almn78-h54393-d1e197">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>1. Gratia enim dicitur gratia, quia
+<lb ed="#Bc"/>gratis datur. Si autem voluntas 
+precede<lb ed="#Bc" break="no"/>ret gratiam, voluntate mereretur quis
+<lb ed="#Bc"/>gratiam, et non esset gratia gratis data,
+<lb ed="#Bc"/>sed bone voluntatis meritis reddita. Et
+<lb ed="#Bc"/>hoc est argumentum Augustini in libro I
+<lb ed="#Bc"/>Retractationum ' contra Julianum 
+Pela<lb ed="#Bc" break="no"/>gianum,
+</p>
+               <p xml:id="Almn78-h54393-d1e220">
+                  <lb ed="#Bc"/>2. Adhuc, Gratia dividitur in 
+preve<lb ed="#Bc" break="no"/>nientem, et subsequentem : nec potest
+<lb ed="#Bc"/>dici, quod preveniens dicatur nisi 
+pre<lb ed="#Bc" break="no"/>veniat voluntatem : non ergo comitatur
+<lb ed="#Bc"/>vel sequitur voluntatem, sicut dixit 
+Ju<lb ed="#Bc" break="no"/>lianus, sed prevenit.
+</p>
+               <p xml:id="Almn78-h54393-d1e236">
+                  <lb ed="#Bc"/>3. Adhuc, Per rationem arguitur ad
+<lb ed="#Bc"/>hoc sic: Nulla potentia in perfectum
+<lb ed="#Bc"/>actum potest nisi sit completa per 
+habi<lb ed="#Bc" break="no"/>tum : voluntas potentia est: ergo in 
+per<lb ed="#Bc" break="no"/>fectum actum boni meriti non potest nisi
+<lb ed="#Bc"/>sit perfecta per habitum informantem ad
+<lb ed="#Bc"/>bonum meritum. Talis gratia non est
+<lb ed="#Bc"/>nisi gratia gratum faciens. Ergo 
+vo<lb ed="#Bc" break="no"/>luntas in actum meriti non potest nisi
+<lb ed="#Bc"/>primo informetur gratia.
+</p>
+               <p xml:id="Almn78-h54393-d1e260">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus ex illo verbo
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Apostoli, ad Roman. 1x, 16: Jgitur non
+<lb ed="#Bc"/>volentis, neque currentis, sed miserentis
+<lb ed="#Bc"/>Dei est, sic arguit contra Julianum, qui
+<lb ed="#Bc"/>dixit, quod hoc ideo dictum sit, quia non
+<lb ed="#Bc"/>est solius voluntatis implere preceptum
+<lb ed="#Bc"/>divinum, eo quodhomo nec sperare nec
+<lb ed="#Bc"/>credere potest nisi velit, nec ad palmam
+<lb ed="#Bc"/>currere nisi voluntate. Et Augustinus 
+ar<lb ed="#Bc" break="no"/>guit in contrarium ex ordine verborum
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h54393-Qd1e288"> Si propter hoc dictum est : Non
+<lb ed="#Bc"/>est volentis neque currentis, sed Dei 
+mi<lb ed="#Bc" break="no"/>serentis, quia sola voluntas hominis id
+<lb ed="#Bc"/>non implet, sed adjuta per gratiam : tunc
+<lb ed="#Bc"/>etiam e contrario poterat dici: Non est
+<lb ed="#Bc"/>miserentis Dei, sed volentis et 
+curren<lb ed="#Bc" break="no"/>tis. </quote> Et concludit sic: <quote xml:id="Almn78-h54393-Qd1e304"> Restat ergo ut
+<lb ed="#Bc"/>recte ita dictum intelligatur, ut totum
+<lb ed="#Bc"/>Deo detur, qui hominis voluntatem 
+bo<lb ed="#Bc" break="no"/>nam et preparat adjuvandam, et adjuvat
+<lb ed="#Bc"/>preparatam. Nolentem prevenit ut velit,
+<lb ed="#Bc"/>volentem subsequitur ne frustra velit. </quote>
+               </p>
+               <p xml:id="Almn78-h54393-d1e318">
+                  <lb ed="#Bc"/>5, Adhuc, Joan. xv, 5: Sine me nihil
+<lb ed="#Bc"/>potestis facere. Et ibidem, ¥ 4: Sicut
+<lb ed="#Bc"/>palmes non potest facere fructum a 
+se<lb ed="#Bc" break="no"/>metipso, nisi manserit in vite, ste nec
+<lb ed="#Bc"/>vos, nisi in me manseritis. Constat 
+au<lb ed="#Bc" break="no"/>tem, quod in ipso non manemus nisi per
+<lb ed="#Bc"/>inhabitantem gratiam, nec ipse in nobis.
+<lb ed="#Bc"/>Ergo voluntas sine gratia qua manet in
+<lb ed="#Bc"/>Deo et Deus in eo, nihil boni facere 
+pot<lb ed="#Bc" break="no"/>est: oportet igitur, quod preveniatur a
+<lb ed="#Bc"/>gratia.
+</p>
+               <p xml:id="Almn78-h54393-d1e344">
+                  <lb ed="#Bc"/>6. Adhuc, Isaie, xxvi, 12: Omnia
+<lb ed="#Bc"/>opera nostra operatus es nobis, Domine.
+<lb ed="#Bc"/>Constat, quod Deus non operatur in 
+no<lb ed="#Bc" break="no"/>bis sicut principium operum nostrorum
+<lb ed="#Bc"/>nisi per gratiam. Ergo videtur, quod
+<lb ed="#Bc"/>oportet, quod voluntas preveniatur per
+<lb ed="#Bc"/>gratiam: quia aliter gratia ut principio
+<lb ed="#Bc"/>non attribuerentur opera.
+</p>
+               <p xml:id="Almn78-h54393-d1e364">
+                  <lb ed="#Bc"/>7. Adhuc, Voluntas sine gratia non
+<lb ed="#Bc"/>est libera, sed serva servitute peccati °*.
+<lb ed="#Bc"/>Sed dicit Aristoteles in I Politicorum,
+<lb ed="#Bc"/>quod servus nullam habet virtutem nisi
+<pb ed="#Bc" n="246"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>in comparatione ad dominum, et 
+secun<lb ed="#Bc" break="no"/>dum jura liberum consensum non habet:
+<lb ed="#Bc"/>ergo voluntas ante gratiam cum 
+premi<lb ed="#Bc" break="no"/>tur servitute peccati, nec habet liberum
+<lb ed="#Bc"/>consensum ad aliquid boni faciendum,
+<lb ed="#Bc"/>nec habet virtutem ad aliquod bonum.
+</p>
+               <p xml:id="Almn78-h54393-d1e394">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in Enchiridion dicit:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h54393-Qd1e402"> Voluntas hominis multa Dei dona 
+pre<lb ed="#Bc" break="no"/>cedit. </quote> Non ergo semper prevenitur a
+<lb ed="#Bc"/>gratia, sed aliquando prevenit gratiam.
+</p>
+               <p xml:id="Almn78-h54393-d1e410">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus, <quote xml:id="Almn78-h54393-Qd1e414"> Qui creavit
+<lb ed="#Bc"/>te sine te, non justificabit te sine te. </quote>
+                  <lb ed="#Bc"/>Videtur ergo, quod voluntas precedit
+<lb ed="#Bc"/>justificationem : et tunc volenti 
+infundi<lb ed="#Bc" break="no"/>tur gratia justilicationis.
+</p>
+               <p xml:id="Almn78-h54393-d1e426">
+                  <lb ed="#Bc"/>3. Et hoc videtur accipi ex ordine
+<lb ed="#Bc"/>verborum Apostoli, ad Ephes. v, 14:
+<lb ed="#Bc"/>Surge, qui dormis, et exsurge a mortuis,
+<lb ed="#Bc"/>et illuminabit te Christus. Ex quo 
+vide<lb ed="#Bc" break="no"/>tur, quod oportet hominem primo 
+surge<lb ed="#Bc" break="no"/>re per se, et postea illuminari per 
+gra<lb ed="#Bc" break="no"/>tiam.
+</p>
+               <p xml:id="Almn78-h54393-d1e444">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod profanum
+<lb ed="#Bc"/>est dicere et hereticum de heresi 
+Pela<lb ed="#Bc" break="no"/>gii, quod voluntas vel preveniat vel 
+co<lb ed="#Bc" break="no"/>mitetur gratiam : sed gratia prevenit
+<lb ed="#Bc"/>sicut informans, preparans, et adjuvans.
+<lb ed="#Bc"/>Unde etiam antiqui versus fecerunt,
+<lb ed="#Bc"/>Prepositivus scilicet :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h54393-Qd1e463">Quidquid habes meriti preventrix gratia donat.
+<lb ed="#Bc"/>Nil Deus in nobis preter sua dona coronat</quote>.
+</p>
+               <p xml:id="Almn78-h54393-d1e469">
+                  <lb ed="#Bc"/>Unde profanum est dicere, nisi quod
+<lb ed="#Bc"/>gratia semper prevenit voluntatem, et
+<lb ed="#Bc"/>erigit eam ut velit bonum. Et ideo prima
+<lb ed="#Bc"/>septem procedunt, et veritatem fidei 
+con<lb ed="#Bc" break="no"/>cludunt.
+</p>
+               <p xml:id="Almn78-h54393-d1e482">
+                  <lb ed="#Bc"/>Ad primum ergo quod in contrarium
+<lb ed="#Bc"/>objicitur, dicendum quod Augustinus ibi
+<lb ed="#Bc"/>non loquitur de gratia gratum faciente,
+<lb ed="#Bc"/>sed de donis gratis datis, que aliquando
+<lb ed="#Bc"/>prevenit voluntas.
+</p>
+               <p xml:id="Almn78-h54393-d1e496">
+                  <lb ed="#Bc"/>Av atin dicendum, quod hoc verbum
+<lb ed="#Bc"/>Augustini intelligitur quando voluntas
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>non obicem ponit Spiritui sancto, quin
+<lb ed="#Bc"/>velit adjuvari per gratiam: quia si 
+nol<lb ed="#Bc" break="no"/>let, gratiam non reciperet: eo quod 
+gra<lb ed="#Bc" break="no"/>tiam sibi oblatam rejiceret.
+</p>
+               <p xml:id="Almn78-h54393-d1e514">
+                  <lb ed="#Bc"/>Ad vxtimum dicendum, quod hoc 
+ver<lb ed="#Bc" break="no"/>bum Apostoli intelligitur de surgente per
+<lb ed="#Bc"/>consensum voluntatis ad elevantem se,
+<lb ed="#Bc"/>ne elevanti dissentiat. Unde Augustinus
+<lb ed="#Bc"/>in libro VIII Confessionum, tractans illud
+<lb ed="#Bc"/>idem verbum de conversione sua ad
+<lb ed="#Bc"/>Deum dicit sic: <quote xml:id="Almn78-h54393-Qd1e531"> Non erat quid 
+respon<lb ed="#Bc" break="no"/>derem tibi dicenti mihi Surge, qui
+<lb ed="#Bc"/>dormis, et exsurge a mortuis, et 
+illumi<lb ed="#Bc" break="no"/>nabit te Christus, nisi verba lenta et
+<lb ed="#Bc"/>somnolenta : Modo et ecce modo, sine
+<lb ed="#Bc"/>paululum. Sed modo et modo non habe.
+<lb ed="#Bc"/>bat modum, et sine paululum, in 
+lon<lb ed="#Bc" break="no"/>gum ibat *. </quote> Sic etiam dicit Augustinus,
+<lb ed="#Bc"/>quod credere prevenitur cogitatione :
+<lb ed="#Bc"/>quia nemo credit nisi cogitet prius quare
+<lb ed="#Bc"/>vel quid credat. Credere enim est 
+cogi<lb ed="#Bc" break="no"/>tare cum assensu. Et ideo dicit 
+Aposto<lb ed="#Bc" break="no"/>lus, ad Roman, x, 10. Corde creditur
+<lb ed="#Bc"/>ad justitiam.
+</p>
+            </div>
+            <div xml:id="Almn78-h54393-Dd1e564">
+               <head xml:id="Almn78-h54393-Hd1e566">Membrum 2</head>
+               <head xml:id="Almn78-h54393-Hd1e569" type="question-title">
+        Utrum voluntas et ratio sine gratia 
+        possint non peccare damnabiliter, vel
+        necesse sit damnabiliter peccare
+      </head>
+               <p xml:id="Almn78-h54393-d1e572">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum voluntas et ratio sine gratia 
+pos<lb ed="#Bc" break="no"/>sint non peccare damnabiliter, vel
+<lb ed="#Bc"/>necesse sit damnabiliter peccare ?
+</p>
+               <p xml:id="Almn78-h54393-d1e583">
+                  <lb ed="#Bc"/>Secundo queritur, Utrum voluntas et
+<lb ed="#Bc"/>ratio sine gratia possint non peccare
+<lb ed="#Bc"/>damnabiliter, vel necesse sit 
+damnabili<lb ed="#Bc" break="no"/>ter peccare ?
+</p>
+               <p xml:id="Almn78-h54393-d1e594">
+                  <lb ed="#Bc"/>Et videtur, quod sit necesse, quod
+<lb ed="#Bc"/>damnabiliter peccent.
+</p>
+               <p xml:id="Almn78-h54393-d1e602">
+                  <lb ed="#Bc"/>1. In libro II Sententiarum, distinct.
+<lb ed="#Bc"/>XXV, cap. Et possunt notari in homine
+<lb ed="#Bc"/>quatuor status libert arbitrit. <quote xml:id="Almn78-h54393-Qd1e610"> Ante
+<lb ed="#Bc"/>peccatum enim ad bonum nil 
+impedie<lb ed="#Bc" break="no"/>bat, ad malum nil impellebat. Non
+<lb ed="#Bc"/>habuit infirmitatem ad malum, et ha
+<pb ed="#Bc" n="247"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>buit adjutorium ad bonum. Tune sine
+<lb ed="#Bc"/>errore ratio judicare, et voluntas sine
+<lb ed="#Bc"/>difficultate bonum appetere poterat.
+<lb ed="#Bc"/>Post peccatum vero ante reparationem
+<lb ed="#Bc"/>gratia premitur a concupiscentia et
+<lb ed="#Bc"/>vincitur, et habet infirmitatem in 
+ma<lb ed="#Bc" break="no"/>lo, sed non habet gratiam in bono: et
+<lb ed="#Bc"/>ideo potest peccare, et non potest non
+<lb ed="#Bc"/>peccare, etiam damnabiliter. Post 
+re<lb ed="#Bc" break="no"/>parationem vero, ante confirmationem
+<lb ed="#Bc"/>premitur a concupiscentia, sed non
+<lb ed="#Bc"/>vineitur: el habet infirmitatem in 
+ma<lb ed="#Bc" break="no"/>lo, sed gratiam in bono: ut possit 
+pec<lb ed="#Bc" break="no"/>care propter libertatem et 
+infirmita<lb ed="#Bc" break="no"/>tem, et possit non peccare ad 
+mor<lb ed="#Bc" break="no"/>tem propter libertatem, et gratiam
+<lb ed="#Bc"/>adjuvantem. </quote> Sed si ita est, quod
+<lb ed="#Bc"/>ante reparationem non posset non 
+pec<lb ed="#Bc" break="no"/>care damnabiliter; per consequentiam
+<lb ed="#Bc"/>quam docet Aristoteles in Il 
+Periherme<lb ed="#Bc" break="no"/>nias, necesse est damnabiliter peccare :
+<lb ed="#Bc"/>quia quod non potest non esse, necesse
+<lb ed="#Bc"/>est esse.
+</p>
+               <p xml:id="Almn78-h54393-d1e674">
+                  <lb ed="#Bc"/>2. Adhuc, Hoc idem videtur per illud
+<lb ed="#Bc"/>Isaiz, xxx1, 3: Dominus inelinabit 
+ma<lb ed="#Bc" break="no"/>num swam, et corruet auxiliator, et 
+ca<lb ed="#Bc" break="no"/>det cui prestatur auxilium, simulque
+<lb ed="#Bc"/>omnes consumentur. Ex his accipitur,
+<lb ed="#Bc"/>quod quem J)ominus non tenet per 
+ma<lb ed="#Bc" break="no"/>num gratia, cum propriis virtutibus 
+sta<lb ed="#Bc" break="no"/>re non possit, necesse est quod continue
+<lb ed="#Bc"/>cadat.
+</p>
+               <p xml:id="Almn78-h54393-d1e696">
+                  <lb ed="#Bc"/>3. Adhuc, In Psalmo txvin, 3: 
+Infi<lb ed="#Bc" break="no"/>zus sum in lumo profundi, et non est
+<lb ed="#Bc"/>substantia. Substantia illa dicitur 
+funda<lb ed="#Bc" break="no"/>mentum sustinens ne descendat : ergo
+<lb ed="#Bc"/>qui in limo concupiscentie infixus est,
+<lb ed="#Bc"/>et non habet gratiam sublevantem, 
+con<lb ed="#Bc" break="no"/>tinue descendit : ergo continue cadet.
+</p>
+               <p xml:id="Almn78-h54393-d1e714">
+                  <lb ed="#Bc"/>4. Adhuc, Gregorius: <quote xml:id="Almn78-h54393-Qd1e718"> Peccatum
+<lb ed="#Bc"/>quod per penitentiam mox non deletur,
+<lb ed="#Bc"/>suo pondere ad aliud trahit. </quote> Ergo 
+ne<lb ed="#Bc" break="no"/>cesse est, quod ante reparationem 
+conti<lb ed="#Bc" break="no"/>nue cadat.
+</p>
+               <p xml:id="Almn78-h54393-d1e730">
+                  <lb ed="#Bc"/>ConTRA :
+<lb ed="#Bc"/>Augustinus in libro I Retractationum :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h54393-Qd1e738"> Peccatum est adeo voluntarium, quod
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>si non sit voluntarium, non sit 
+pecca<lb ed="#Bc" break="no"/>tum. </quote> Sed peccatum sequens ante 
+re<lb ed="#Bc" break="no"/>parationem constat, quod est peccatum.
+<lb ed="#Bc"/>Ergo est voluntarium. Et arguit 
+Augu<lb ed="#Bc" break="no"/>stinus: <quote xml:id="Almn78-h54393-Qd1e754"> Si aliquid fit voluntate, non
+<lb ed="#Bc"/>fit necessitate. </quote> Ergo tale peccatum non
+<lb ed="#Bc"/>fit aliqua necessitate, sed voluntate 
+libe<lb ed="#Bc" break="no"/>ra: et sic non est necesse, quod peccet
+<lb ed="#Bc"/>damnabiliter.
+</p>
+               <p xml:id="Almn78-h54393-d1e766">
+                  <lb ed="#Bc"/>SoLutio. Dicendum, quod necessitas
+<lb ed="#Bc"/>duplex est, scilicet necessitas cause 
+agen<lb ed="#Bc" break="no"/>tis, et necessitas non prohibentis. Sicut
+<lb ed="#Bc"/>est in descensu lapidis deorsum, in quo,
+<lb ed="#Bc"/>sicut dicit Aristoteles et alii Philosophi
+<lb ed="#Bc"/>naturales, causa agens est generans ad
+<lb ed="#Bc"/>formam gravis, quod generando dat 
+for<lb ed="#Bc" break="no"/>mam, et dando formam dat omne quod
+<lb ed="#Bc"/>consequens est eam, sicut motum et 
+lo<lb ed="#Bc" break="no"/>cum : et ideo gravi generato de 
+necessi<lb ed="#Bc" break="no"/>tate descendit ad centrum, nisi aliquid
+<lb ed="#Bc"/>sit prohibens, sicut columna supposita,
+<lb ed="#Bc"/>que si removeatur, statim de necessitate
+<lb ed="#Bc"/>descendit. Et ita dicendum est ad 
+pro<lb ed="#Bc" break="no"/>positum, quod omne peccatum quidem
+<lb ed="#Bc"/>sive precedens reparationem gratia, sive
+<lb ed="#Bc"/>subsequens, voluntarie fit, et nullum ex
+<lb ed="#Bc"/>necessitate agentis fit, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus. Si autem attendatur non prohibens,
+<lb ed="#Bc"/>sive necessitas non prohibentis, cum ex
+<lb ed="#Bc"/>peccato perpetrato jam insit pondus 
+de<lb ed="#Bc" break="no"/>primens et non gratia tenens, post 
+per<lb ed="#Bc" break="no"/>petratum peccatum et ante gratie 
+repa<lb ed="#Bc" break="no"/>rationem, quantum est ad defectum
+<lb ed="#Bc"/>gratiae tenentis, homo non potest 
+resiste<lb ed="#Bc" break="no"/>re peccato: quia nec ratio potest 
+resi<lb ed="#Bc" break="no"/>stere errori,nec voluntas concupiscentie :
+<lb ed="#Bc"/>et ideo non potest non peccare 
+damna<lb ed="#Bc" break="no"/>biliter : et tamen quodlibet peccatum
+<lb ed="#Bc"/>quantum ad agens fit voluntarie, et non
+<lb ed="#Bc"/>necessitate. Et hoc est quod dicitur,
+<lb ed="#Bc"/>Osee, xu, 9: Perditio tua, Israel: 
+tan<lb ed="#Bc" break="no"/>tummodo in me auxilium tuum. Ft, in
+<lb ed="#Bc"/>Psalmo xc, 17: Misi guia Dominus
+<lb ed="#Bc"/>adjuvit me, paulo minus habitasset in
+<lb ed="#Bc"/>mferno anima mea.
+</p>
+               <p xml:id="Almn78-h54393-d1e848">
+                  <lb ed="#Bc"/>Ad prima ergo quatuor dicendum,
+<pb ed="#Bc" n="248"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>quod illa procedunt: quia non 
+conclu<lb ed="#Bc" break="no"/>dunt de necessitate quae est ex defectu
+<lb ed="#Bc"/>prohibentis et retinentis.
+</p>
+               <p xml:id="Almn78-h54393-d1e864">
+                  <lb ed="#Bc"/>Ad id quod objicitur, dicendum quod
+<lb ed="#Bc"/>illud procedit, et bene concludit de 
+ne<lb ed="#Bc" break="no"/>cessitate agentis: quia nulla necessitas
+<lb ed="#Bc"/>agentis est ibi: et talis necessitas vocatur
+<lb ed="#Bc"/>necessitas consequentie et non 
+conse<lb ed="#Bc" break="no"/>quentis. Et sic quatuor statas liberi 
+arbi<lb ed="#Bc" break="no"/>trii respondent quatuor nature hominis
+<lb ed="#Bc"/>statibus. Status enim innocentie, 
+quan<lb ed="#Bc" break="no"/>do poterat homo non mori si vellet,
+<lb ed="#Bc"/>et non poterat mori nisi peccaret, 
+re<lb ed="#Bc" break="no"/>spondet statui liberi arbitrii ejusdem 
+sta<lb ed="#Bc" break="no"/>tus, in quo homo ex adjutorio 
+imao<lb ed="#Bc" break="no"/>centie poterat non peccare: quia 
+nul<lb ed="#Bc" break="no"/>lam habebat infirmitatem deprimentem,
+<lb ed="#Bc"/>sicut in libero arbitrio nihil habuit 
+in<lb ed="#Bc" break="no"/>clinans ad peccatum. Status autem 
+dam<lb ed="#Bc" break="no"/>nali hominis post peccatum est de 
+ne<lb ed="#Bc" break="no"/>cessitale mori et non posse non mori:
+<lb ed="#Bc"/>eo quod habet infirmitatem 
+deprimen<lb ed="#Bc" break="no"/>tem de necessitate. Unde, Psal. txxxvmi,
+<lb ed="#Bc"/>49: Quis est homo qui vivet et non
+<lb ed="#Bc"/>videbit mortem ? eruet animam suam
+<lb ed="#Bc"/>de manu infert ? Huic respondet 
+sta<lb ed="#Bc" break="no"/>tus liberi arbitrii, in quo homo 
+pro<lb ed="#Bc" break="no"/>pter defectum grali# retinentis et 
+pro<lb ed="#Bc" break="no"/>pter vulnus peccali non potest resistere
+<lb ed="#Bc"/>peccato damnabili: quia semivivus 
+reli<lb ed="#Bc" break="no"/>ctus est a latronibus'!, et virtutem non
+<lb ed="#Bc"/>habet resistendi, nisi per gratiam 
+repa<lb ed="#Bc" break="no"/>retur. In statu post reparationem non
+<lb ed="#Bc"/>potuit resistere quin peccet venialiter,
+<lb ed="#Bc"/>propter adherentiam peccati que 
+multi<lb ed="#Bc" break="no"/>plex est et multipliciter infestat. I Joan.
+<lb ed="#Bc"/>1, 8: Si dixerimus quia peccatum non
+<lb ed="#Bc"/>habemus, ipsi nos seducimus,et veritas in
+<lb ed="#Bc"/>nobis non est. Et hoc est quod dicitur,
+<lb ed="#Bc"/>ad Roman, vu, 18 et seq.: Velle 
+adja<lb ed="#Bc" break="no"/>cet mihi, perficere autem bonum non 
+in<lb ed="#Bc" break="no"/>venio... Condelector enim legi Dei 
+secun<lb ed="#Bc" break="no"/>dum interiorem hominem : video autem
+<lb ed="#Bc"/>aliam legem in membris meis, 
+repu<lb ed="#Bc" break="no"/>gnantem legi mentis mex, et captivantem
+<lb ed="#Bc"/>me in lege peccali que est in membris
+<lb ed="#Bc"/>meis. Kit ideo staliminclamat, ¥. 24: In
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>felix ego homo! quis me liberabit de
+<lb ed="#Bc"/>corpore mortis hujus ? Et respondet,
+<lb ed="#Bc"/>¥. 25: Gratia Dei per Jesum Christum
+<lb ed="#Bc"/>Dominum nostrum. Unde in illo statu
+<lb ed="#Bc"/>sicut habet necessitatem moriendi, ita
+<lb ed="#Bc"/>habet necessitatem peccandi quantum ad
+<lb ed="#Bc"/>defectum retinentis et salvantis gratia:
+<lb ed="#Bc"/>tamen libertatem a coactione numquam
+<lb ed="#Bc"/>amittit, sicut ante dictum est. Sed post
+<lb ed="#Bc"/>resurrectionem quando liberabitur 
+natu<lb ed="#Bc" break="no"/>raa miseria et glorificabitur, tunc erit
+<lb ed="#Bc"/>status non posse mori, et non posse 
+pec<lb ed="#Bc" break="no"/>care : quia proportionalia sunt, non
+<lb ed="#Bc"/>posse mori, et non posse peccare: et
+<lb ed="#Bc"/>posse mori et posse peccare: eo quod
+<lb ed="#Bc"/>mors causata est a peccato: et sicut se
+<lb ed="#Bc"/>peccatum habet ad liberum arbitrium,
+<lb ed="#Bc"/>ita mors ad naturam.
+</p>
+            </div>
+            <div xml:id="Almn78-h54393-Dd1e1004">
+               <head xml:id="Almn78-h54393-Hd1e1006">Membrum 2</head>
+               <head xml:id="Almn78-h54393-Hd1e1009" type="question-title">
+        Utrum post habitam gratiam necesse sit
+        venialiter peccare, vel non
+      </head>
+               <p xml:id="Almn78-h54393-d1e1012">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum post habitam gratiam necesse sit
+<lb ed="#Bc"/>venialiter peccare, vel non ?
+</p>
+               <p xml:id="Almn78-h54393-d1e1021">
+                  <lb ed="#Bc"/>Tertio quaeritur, Utrum post habitam
+<lb ed="#Bc"/>gratiam necesse sit venialiter peccare,
+<lb ed="#Bc"/>vel non?
+</p>
+               <p xml:id="Almn78-h54393-d1e1030">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>1. Dicit Augustinus, et in prehabitis
+<lb ed="#Bc"/>habilum est, quod si Adam necessitatem.
+<lb ed="#Bc"/>habuisset peccandi et resistere non 
+po<lb ed="#Bc" break="no"/>tuisset, non fuisset ei peccatum 
+imputan<lb ed="#Bc" break="no"/>dum, et injuste imputaretur ei quod non
+<lb ed="#Bc"/>erat in ipso vitare vel facere. Ergo a 
+si<lb ed="#Bc" break="no"/>mili si homo post habitam gratiam 
+neces<lb ed="#Bc" break="no"/>sitatem haberet venialiter peccandi, 
+pec<lb ed="#Bc" break="no"/>catum non imputaretur ei.
+</p>
+               <p xml:id="Almn78-h54393-d1e1055">
+                  <lb ed="#Bc"/>2. Si forte quis dicat, quod peccatum
+<lb ed="#Bc"/>veniale non imputatur ei. Corra: Matth.
+<lb ed="#Bc"/>xu, 36: Dico vobis, guoniam omne 
+ver<lb ed="#Bc" break="no"/>bum otiosum quod locuti fuerint 
+homi<lb ed="#Bc" break="no"/>nes, reddent rationem de eo in die 
+novis<lb ed="#Bc" break="no"/>simo. De nullo redditur ratio in die
+<pb ed="#Bc" n="249"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>novissimo nisi de peccato. Ergo otiosum
+<lb ed="#Bc"/>verbum est peccatum : et sic videiur,
+<lb ed="#Bc"/>quod adhuc stet objectio prima.
+</p>
+               <p xml:id="Almn78-h54393-d1e1081">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus: <quote xml:id="Almn78-h54393-Qd1e1085"> Nullum est
+<lb ed="#Bc"/>adeo veniale peccatum quod non fiat
+<lb ed="#Bc"/>mortale dum placet: accedente enim
+<lb ed="#Bc"/>contemptu et libidine, ipso contemptu
+<lb ed="#Bc"/>potest fieri mortale. </quote> Et tune videtur,
+<lb ed="#Bc"/>quod idem sit de veniali et mortali 
+quan<lb ed="#Bc" break="no"/>tum ad hoc: et sic videtur, quod 
+sequa<lb ed="#Bc" break="no"/>tur idem inconveniens quod prius.
+</p>
+               <p xml:id="Almn78-h54393-d1e1103">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Bc"/>quantumcumque homo sit in gratia, nisi
+<lb ed="#Bc"/>exstinguatur fomes in ipso, sicut in beata
+<lb ed="#Bc"/>Virgine, in qua (sicut dicit Augustinus)
+<lb ed="#Bc"/>cum de peccato agitur, nullam vult 
+ha<lb ed="#Bc" break="no"/>beri questionem, propter honorem 
+Do<lb ed="#Bc" break="no"/>mini nostri Jesu Christi: tanta enim
+<lb ed="#Bc"/>gratia preeventa fuit et plena, quod sine
+<lb ed="#Bc"/>omni peccato fuit et veniali et mortali.
+<lb ed="#Bc"/>In aliis autem omnibus sanctis necesse
+<lb ed="#Bc"/>fuit incidere in peccatum veniale etiam
+<lb ed="#Bc"/>post habitam gratiam.
+</p>
+               <p xml:id="Almn78-h54393-d1e1132">
+                  <lb ed="#Bc"/>Si autem queritur, Qua necessitate ?
+</p>
+               <p xml:id="Almn78-h54393-d1e1137">
+                  <lb ed="#Bc"/>Distinguendum est ut prius, quod est
+<lb ed="#Bc"/>necessitas agentis, sicut ignis exurit de
+<lb ed="#Bc"/>necessitate presente combustibili. Et
+<lb ed="#Bc"/>hac necessitate nullum peccatum est
+<lb ed="#Bc"/>necessarium, sed omne peccatum est
+<lb ed="#Bc"/>voluntarium tam mortale quam veniale.
+<lb ed="#Bc"/>Et de hac sola necessitate sequitur,
+<lb ed="#Bc"/>quod necessarium non reputatur ad
+<lb ed="#Bc"/>peccatum. Et est necessitas 
+inevitabilita<lb ed="#Bc" break="no"/>tis, que causatur ex eo, quod 
+multipli<lb ed="#Bc" break="no"/>citer tentat fomes et instigat, et tot
+<lb ed="#Bc"/>modis, quod previderi non possint, nec
+<lb ed="#Bc"/>universaliter caveri. Et hac necessitate
+<lb ed="#Bc"/>necesse est hominem peccare venialiter.
+<lb ed="#Bc"/>Et hoc signat Damascenus in libro LU de
+<lb ed="#Bc"/>Fide orthodoza', ubi dicit, quod <quote xml:id="Almn78-h54393-Qd1e1173"> 
+ser<lb ed="#Bc" break="no"/>pens multiplicibus et delectabilibus 
+mo<lb ed="#Bc" break="no"/>tibus consuevit placere* mulieri, sicut
+<lb ed="#Bc"/>et sensualitas que per serpentem 
+signi<lb ed="#Bc" break="no"/>ficatur, multiplicibus motibus tentat 
+in<lb ed="#Bc" break="no"/>feriorem partem rationis que signatur
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>per mulierem. </quote> Et ideo impossibile est
+<lb ed="#Bc"/>quin ex aliqua parte incidat ad minus
+<lb ed="#Bc"/>in aliquod peccatum veniale, preter
+<lb ed="#Bc"/>quam de beata Virgine, ut dictum est,
+<lb ed="#Bc"/>de qua etiam dicit Anselmus in libro de
+<lb ed="#Bc"/>Conceptu virginalt : <quote xml:id="Almn78-h54393-Qd1e1202"> Decebat ut virgo
+<lb ed="#Bc"/>illa quam Deus Pater umbra sue 
+vir<lb ed="#Bc" break="no"/>tutis, hoc est, imagine (sicut imago 
+re<lb ed="#Bc" break="no"/>sultans in speculo dicitur umbra 
+inspi<lb ed="#Bc" break="no"/>cientis, ut dicit Origenes) designavit ut
+<lb ed="#Bc"/>esset mater ejus, quem de corde suo 
+ge<lb ed="#Bc" break="no"/>nitum tamquam seipsum diligebat, et
+<lb ed="#Bc"/>quam Filius integritate!sue divinitatis
+<lb ed="#Bc"/>implevit, et quam Spiritus sanctus 
+san<lb ed="#Bc" break="no"/>ctificavit ei matrem, de quo ipse  
+se<lb ed="#Bc" break="no"/>cundum divinitatem procedit, ea puritate
+<lb ed="#Bc"/>niteret qua major sub Deo nequit 
+intel<lb ed="#Bc" break="no"/>ligi*. </quote> Et ideo impossibile est, quod
+<lb ed="#Bc"/>beata Virgo intelligatur fuisse in aliquo
+<lb ed="#Bc"/>peccato veniali sive mortali, tanta 
+san<lb ed="#Bc" break="no"/>clitate undique preventa.
+</p>
+               <p xml:id="Almn78-h54393-d1e1239">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+ar<lb ed="#Bc" break="no"/>gumentum concluderet, si necessitas
+<lb ed="#Bc"/>esset efficientis. Jam autem dictum est,
+<lb ed="#Bc"/>quod non est talis necessitas, sed 
+inevi<lb ed="#Bc" break="no"/>tabilitatis : quod non semper imputatur
+<lb ed="#Bc"/>ad condemnationem, licet imputetur ad
+<lb ed="#Bc"/>contagionem et maculam.
+</p>
+               <p xml:id="Almn78-h54393-d1e1258">
+                  <lb ed="#Bc"/>Er sic intelligitur auctoritas Matthai,
+<lb ed="#Bc"/>xu, 36. Quia licet reddatur ratio de
+<lb ed="#Bc"/>otioso, tamen propter hoc non 
+condem<lb ed="#Bc" break="no"/>natur, sed contagionis alicujus reus
+<lb ed="#Bc"/>ostenditur, que purificanda est vel hic
+<lb ed="#Bc"/>per penitentiam, vel in futuro per 
+pur<lb ed="#Bc" break="no"/>gatorium.
+</p>
+               <p xml:id="Almn78-h54393-d1e1276">
+                  <lb ed="#Bc"/>Ad uutimum dicendum, quod peccatum
+<lb ed="#Bc"/>veniale ex genere numquam fit mortale :
+<lb ed="#Bc"/>sed contemptus adjunctus potest esse
+<lb ed="#Bc"/>mortale, si hoc facio in contemptum
+<lb ed="#Bc"/>Dei : sicut etiam sublevatio festuce de
+<lb ed="#Bc"/>terra facta in contemptum Dei, 
+pec<lb ed="#Bc" break="no"/>catum mortale est : et ita intelligitur 
+di<lb ed="#Bc" break="no"/>ctum Augustini.
+</p>
+            </div>
+            <div xml:id="Almn78-h54393-Dd1e1297">
+               <head xml:id="Almn78-h54393-Hd1e1299">Membrum 4</head>
+               <head xml:id="Almn78-h54393-Hd1e1302" type="question-title">
+        Que sit gratia illa que voluntatem 
+        relinet a peccato
+      </head>
+               <p xml:id="Almn78-h54393-d1e1305">
+                  <pb ed="#Bc" n="250"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>Que sit gratia illa que voluntatem 
+re<lb ed="#Bc" break="no"/>linet a peccato?
+</p>
+               <p xml:id="Almn78-h54393-d1e1318">
+                  <lb ed="#Bc"/>Quarto queritur, Que sit gratia
+<lb ed="#Bc"/>illa que voluntatem retinet a  
+pec<lb ed="#Bc" break="no"/>cato?
+</p>
+               <p xml:id="Almn78-h54393-d1e1327">
+                  <lb ed="#Bc"/>Hanc enim Augustinus vocat 
+operan<lb ed="#Bc" break="no"/>tem et cooperantem et prevenientem et
+<lb ed="#Bc"/>subsequentem.
+</p>
+               <p xml:id="Almn78-h54393-d1e1337">
+                  <lb ed="#Bc"/>Et ad hoc sic proceditur :
+<lb ed="#Bc"/>1. Augustinus in libro de Natura et
+<lb ed="#Bc"/>gratia dicit sic : <quote xml:id="Almn78-h54393-Qd1e1345"> Prevenit, ut pie
+<lb ed="#Bc"/>vivamus subsequitur, ut cum illo
+<lb ed="#Bc"/>semper vivamus. </quote> Secundum hoc 
+vi<lb ed="#Bc" break="no"/>detur quod gratia preveniens sive 
+ope<lb ed="#Bc" break="no"/>rans referatur ad totam vitam 
+presen<lb ed="#Bc" break="no"/>tem : subsequens autem sive cooperans
+<lb ed="#Bc"/>ad totam vitam futuram, in qua 
+vive<lb ed="#Bc" break="no"/>mus cum Deo.
+</p>
+               <p xml:id="Almn78-h54393-d1e1364">
+                  <lb ed="#Bc"/>2. Adhuc Augustinus, ibidem, <quote xml:id="Almn78-h54393-Qd1e1368"> 
+Pra<lb ed="#Bc" break="no"/>venit, ut sanemur : subsequitur, ut 
+ve<lb ed="#Bc" break="no"/>getemur. </quote> Secundum hoc videtur, quod
+<lb ed="#Bc"/>gratia justificationis impii sit gratia 
+pra<lb ed="#Bc" break="no"/>veniens : et gratia profectus de virtute in
+<lb ed="#Bc"/>virtutem, sit gratia subsequens.
+</p>
+               <p xml:id="Almn78-h54393-d1e1382">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-h54393-Qd1e1386"> 
+Pre<lb ed="#Bc" break="no"/>venit voluntatem, ut velit bonum : 
+sub<lb ed="#Bc" break="no"/>sequitur, ut compleat sive persistat. </quote>
+                  <lb ed="#Bc"/>Secundum hoc videtur, quod gratia
+<lb ed="#Bc"/>preveniens est voluntatem informans,
+<lb ed="#Bc"/>et gratia subsequens sit idem cum
+<lb ed="#Bc"/>perseverantia dono : et hoc non dicitur
+<lb ed="#Bc"/>in littera.
+</p>
+               <p xml:id="Almn78-h54393-d1e1405">
+                  <lb ed="#Bc"/>4, Adhuc, Ad Roman. vin, 29 et 30:
+<lb ed="#Bc"/>Quos preseivit, et predestinavit 
+con<lb ed="#Bc" break="no"/>formes fieri imaginis Filii sui... hos
+<lb ed="#Bc"/>ef vocavit : et quos vocavit, illos et
+<lb ed="#Bc"/>justificavit : quos autem justificavit,
+<lb ed="#Bc"/>illos et glorificavit. Videtur ergo, quod
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Apostolus aliter dividat gratiam quam
+<lb ed="#Bc"/>Augustinus. Apostolus enim  videtur
+<lb ed="#Bc"/>ponere has differentias predestinationis,
+<lb ed="#Bc"/>vocationis, justificationis,glorificationis :
+<lb ed="#Bc"/>Augustinus autem non ponit nisi 
+gra<lb ed="#Bc" break="no"/>tiam operationis et cooperationis.
+</p>
+               <p xml:id="Almn78-h54393-d1e1436">
+                  <lb ed="#Bc"/>5. Adhuc, <ref xml:id="Almn78-h54393-Rd1e1440">Super illud Exodi, xxxu1,
+<lb ed="#Bc"/>13 : <quote xml:id="Almn78-h54393-Qd1e1444">Si inveni gratiam in conspectu tuo,
+<lb ed="#Bc"/>oslende mihi faciem tuam</quote>
+                  </ref>, dicit Glossa :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h54393-Qd1e1452"> Non una gratia sufficit sanctis : una
+<lb ed="#Bc"/>enim precedit ut Deum diligant et 
+co<lb ed="#Bc" break="no"/>gnoscanf. Altera subsequitur ut se 
+mun<lb ed="#Bc" break="no"/>dos custodiant. </quote> Et hoc dicitur in 
+lit<lb ed="#Bc" break="no"/>tera : gratia enim preveniens dicitur in
+<lb ed="#Bc"/>littera que facit nos velle. Altera 
+sub<lb ed="#Bc" break="no"/>sequens que facit currere in profectum
+<lb ed="#Bc"/>bonorum.
+</p>
+               <p xml:id="Almn78-h54393-d1e1471">
+                  <lb ed="#Bc"/>6. Adhuc, Isa. xxx1, 3, super illud :
+<lb ed="#Bc"/>Proteget Dominus exercituum 
+Jerusa<lb ed="#Bc" break="no"/>lem, protegens et liberans, transiens
+<lb ed="#Bc"/>et salvans : datur quadruplex differentia
+<lb ed="#Bc"/>gratiz, scilicet protectionis, liberationis,
+<lb ed="#Bc"/>transitionis, et salutis, Et queritur,
+<lb ed="#Bc"/>Penes quid iste differentia sumantur ?
+</p>
+               <p xml:id="Almn78-h54393-d1e1490">
+                  <lb ed="#Bc"/>7. Adhuc Chrysostomus saper 
+Joan<lb ed="#Bc" break="no"/>nem, Homil. 14, super illud, Gratiam pro
+<lb ed="#Bc"/>gratia®, dicit sic : <quote xml:id="Almn78-h54393-Qd1e1498"> Etenim et ipsa que
+<lb ed="#Bc"/>sunt legis, gralie erant : et ipsum 
+gene<lb ed="#Bc" break="no"/>rari nos ex non entibus, gratia fuit : non
+<lb ed="#Bc"/>enim directionibus precedentibus hanc
+<lb ed="#Bc"/>accepimus remunerationem. Qualiier
+<lb ed="#Bc"/>enim qui neque eramus? </quote> Quasi 
+dice<lb ed="#Bc" break="no"/>ret : Non poteramus ex directione 
+acci<lb ed="#Bc" break="no"/>pere, cum non essemus : sed Deo ubique
+<lb ed="#Bc"/>precedentibus beneficiis incipiente, non
+<lb ed="#Bc"/>generari nos solum ex non entibus, sed
+<lb ed="#Bc"/>etiam generalos discere ea que facienda
+<lb ed="#Bc"/>sunt, et que non sunt facienda, et hanc
+<lb ed="#Bc"/>in natura accipere legem, et hoc 
+con<lb ed="#Bc" break="no"/>scientie judicium incorruptibile 
+impo<lb ed="#Bc" break="no"/>suisse nobis, gratia fuil maxime et 
+cle<lb ed="#Bc" break="no"/>mentie ineffabilis.
+</p>
+               <p xml:id="Almn78-h54393-d1e1534">
+                  <lb ed="#Bc"/>8. Adhuc, Idem, ibidem, <quote xml:id="Almn78-h54393-Qd1e1538"> Sed et
+<lb ed="#Bc"/>hane corrupiam, legem scilicet 
+natu<lb ed="#Bc" break="no"/>re, per legem scriptam instaurare gratia
+<lb ed="#Bc"/>fuit. </quote>
+               </p>
+               <p xml:id="Almn78-h54393-d1e1548">
+                  <pb ed="#Bc" n="251"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>9. Adhuc, Anselmus dicit, quod 
+gra<lb ed="#Bc" break="no"/>tia est que descendit a gratuita 
+volun<lb ed="#Bc" break="no"/>tate. Et secundum hoc valde multiplex
+<lb ed="#Bc"/>est, omne scilicet donum quod gratis
+<lb ed="#Bc"/>datur.
+</p>
+               <p xml:id="Almn78-h54393-d1e1566">
+                  <lb ed="#Bc"/>Unrertus queritur, Quare dicitur 
+gra<lb ed="#Bc" break="no"/>tia operans et cooperans ?
+</p>
+               <p xml:id="Almn78-h54393-d1e1573">
+                  <lb ed="#Bc"/>Si enim, sicut dicit Augustinus, 
+dici<lb ed="#Bc" break="no"/>tur gratia operans, que operatur bonam
+<lb ed="#Bc"/>voluntatem, cum bona voluntas non
+<lb ed="#Bc"/>sit nisi informata per gratiam, videbilur
+<lb ed="#Bc"/>quod sit operans que operatur 
+gra<lb ed="#Bc" break="no"/>tiam in voluntate : et sic idem facit
+<lb ed="#Bc"/>seipsum, quod est valde inconveniens et
+<lb ed="#Bc"/>impossibile.
+</p>
+               <p xml:id="Almn78-h54393-d1e1593">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod Augustini
+<lb ed="#Bc"/>auctoritas quam inducit Magister de
+<lb ed="#Bc"/>gratia praveniente et subsequente, ab
+<lb ed="#Bc"/>Augustino posila in libris contra 
+Pela<lb ed="#Bc" break="no"/>gianos, qui gratiam Dei evacuabant, et
+<lb ed="#Bc"/>dicebant a libero arbitrio esse bonum
+<lb ed="#Bc"/>opus sicut volente et currente, et a 
+gra<lb ed="#Bc" break="no"/>tia Dei nen nisi sicut adjuvante et 
+com<lb ed="#Bc" break="no"/>municante. Et propter hoc Augustinus
+<lb ed="#Bc"/>secundum Catholicam fidem volens hune
+<lb ed="#Bc"/>errorem corrigere per verbum Apostoli,
+<lb ed="#Bc"/>ad Roman. 1x, 16 : Non volentis, neque
+<lb ed="#Bc"/>currentis, sed Det miserentis est : dividit
+<lb ed="#Bc"/>gratiam in operantem et cooperantem,
+<lb ed="#Bc"/>sive prevenientem et subsequentem, ut
+<lb ed="#Bc"/>ostendat, quod totum est ex gratia Dei,
+<lb ed="#Bc"/>que primo prevenit voluntatem ut velit,
+<lb ed="#Bc"/>et subsequitur voluntatem opus 
+mini<lb ed="#Bc" break="no"/>strantem, ne frustra velit eo quod
+<lb ed="#Bc"/>opus voluntatis sive liberi arbitrii 
+fru<lb ed="#Bc" break="no"/>stra est ad meritum nisi sit gratia 
+infor<lb ed="#Bc" break="no"/>matum. Unde sole illa divisiones 
+Augu<lb ed="#Bc" break="no"/>stini ad propositum sunt, id est, ad
+<lb ed="#Bc"/>evacuationem heresis Pelagianorum.
+<lb ed="#Bc"/>Aliae tamen multe divisiones gratiae sunt,
+<lb ed="#Bc"/>sicut probant objectiones, per effectus
+<lb ed="#Bc"/>gratia date.
+</p>
+               <p xml:id="Almn78-h54393-d1e1655">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+li<lb ed="#Bc" break="no"/>cet principaliter preveniat informando
+<lb ed="#Bc"/>voluntatem, tamen etiam quidam modus
+<lb ed="#Bc"/>preventionis est, quo nos hic prevenit
+<lb ed="#Bc"/>in gratia : et quidam modus subsecu
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tionis, quo gloria sequitur gratiam. Et
+<lb ed="#Bc"/>hoc intendit Augustinus et non aliud,
+<lb ed="#Bc"/>ut scilicet intelligamus, quod nihil est
+<lb ed="#Bc"/>in nobis nisi ex gratia Dei.
+</p>
+               <p xml:id="Almn78-h54393-d1e1679">
+                  <lb ed="#Bc"/>Ad aliud dicendum
+<lb ed="#Bc"/>quod quidam modus preventionis est
+<lb ed="#Bc"/>quo sanaimur ab inlirmitate, et alius 
+sub<lb ed="#Bc" break="no"/>secutionis quo vegetamur de virtute in
+<lb ed="#Bc"/>virtutem : et hos effectus intendit 
+assi<lb ed="#Bc" break="no"/>gnare Augustinus, et non aliud.
+</p>
+               <p xml:id="Almn78-h54393-d1e1695">
+                  <lb ed="#Bc"/>Ad aliud eodem modo dicendum,
+<lb ed="#Bc"/>quod Augustinus duos effectus grativ
+<lb ed="#Bc"/>intendit ibi assignare : unum incipientis,
+<lb ed="#Bc"/>et allerum perseverantis in tentatione :
+<lb ed="#Bc"/>neutrum enim horum potest habere
+<lb ed="#Bc"/>homo nisi ex gratia Dei et gratuito 
+do<lb ed="#Bc" break="no"/>no ipsius.
+</p>
+               <p xml:id="Almn78-h54393-d1e1713">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Apostolus
+<lb ed="#Bc"/>intendit ibi assignare effectus gratia,
+<lb ed="#Bc"/>quos operatur Deus in nobis sine nobis,
+<lb ed="#Bc"/>qui sunt preparationes gratie, que est
+<lb ed="#Bc"/>predestinatio ab wterno : vocationis a
+<lb ed="#Bc"/>peccato, que accipitur per terminum a
+<lb ed="#Bc"/>quo : justificationis, que accipitur per
+<lb ed="#Bc"/>terminum ad quem: glorificalionis, que
+<lb ed="#Bc"/>accipitur per finem intentum a tribus
+<lb ed="#Bc"/>prehabitis : glorificat enim cum imponit
+<lb ed="#Bc"/>coronam gloriz.
+</p>
+               <p xml:id="Almn78-h54393-d1e1739">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod illud quod
+<lb ed="#Bc"/>dicitur in <ref xml:id="Almn78-h54393-Rd1e1745">Glossa super illud Exodi,
+<lb ed="#Bc"/>xxxin, 13 St mvent gratiam, elc.,</ref>
+                  <lb ed="#Bc"/>verum est: quia non una gratia 
+indi<lb ed="#Bc" break="no"/>gent Sancti, sed multis : quia 
+multifor<lb ed="#Bc" break="no"/>mis est gratia Dei. Et licet multipliciter
+<lb ed="#Bc"/>preveniat in omnibus gratiis, tamen
+<lb ed="#Bc"/>principaliter prevenit in fide et 
+dilectio<lb ed="#Bc" break="no"/>ne, ut cognoscamus et diligamus : quia
+<lb ed="#Bc"/>fides est fundamentum virtutum, gratia
+<lb ed="#Bc"/>vero forma : subsequens autem gratia
+<lb ed="#Bc"/>est, ut in omnibus mundam habeamus
+<lb ed="#Bc"/>vitam et in nullo pollutam.
+</p>
+               <p xml:id="Almn78-h54393-d1e1773">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod illud Isaiz,
+<lb ed="#Bc"/>xxxt, 5 : Protegit Dominus, datur per
+<lb ed="#Bc"/>quatuor effectus gratie, quorum primus
+<lb ed="#Bc"/>est transitus in visitando, quando 
+Domi<lb ed="#Bc" break="no"/>nus visitat singulos in salutari suo.
+<lb ed="#Bc"/>Secundus est protegens, quando protegit
+<lb ed="#Bc"/>nos ab impugnatore. Tertius est 
+libe<lb ed="#Bc" break="no"/>rans a malo quod indixit impugnator,
+</p>
+               <p xml:id="Almn78-h54393-d1e1794">
+                  <pb ed="#Bc" n="252"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Quartus est salus per quam nos salvat.
+<lb ed="#Bc"/>Et sic continue transit per Judam, hoc
+<lb ed="#Bc"/>est, per suos consitentes et glorificantes
+<lb ed="#Bc"/>Deum : quia, sicut dicit beatus 
+Bernar<lb ed="#Bc" break="no"/>dus : <quote xml:id="Almn78-h54393-Qd1e1811"> Sicut enim non dormit neque
+<lb ed="#Bc"/>dormitat qui custodit Israel‘, ita non
+<lb ed="#Bc"/>dormit neque dormitat qui impugnat
+<lb ed="#Bc"/>Israel. </quote>
+               </p>
+               <p xml:id="Almn78-h54393-d1e1821">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod 
+Chrysosto<lb ed="#Bc" break="no"/>mus intendit dicere, quod omne donum
+<lb ed="#Bc"/>nature et omne donum gratie a gratia
+<lb ed="#Bc"/>Dei est, et nihil horum habemus a 
+no<lb ed="#Bc" break="no"/>bis : sicut etiam dicitur, Jacobi, 1, 17:
+<lb ed="#Bc"/>Omne datum optimum, et omne donum
+<lb ed="#Bc"/>perfectum desursum est, descendens a
+<lb ed="#Bc"/>Patre luminum. Et tales divisiones non
+<lb ed="#Bc"/>faciunt ad propositum, ut scilicet 
+here<lb ed="#Bc" break="no"/>ses Pelagii evacuentur, et ideo non 
+in<lb ed="#Bc" break="no"/>ducuntur.
+</p>
+               <p xml:id="Almn78-h54393-d1e1847">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod 
+Chryso<lb ed="#Bc" break="no"/>stomus dicit, quod totum est de gratia
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>quidquid datur nobis de lege nature,
+<lb ed="#Bc"/>de lege scripta, et lege gratia : et hoc
+<lb ed="#Bc"/>verum est: et ideo dicitur, I ad Corinth.
+<lb ed="#Bc"/>xv, 10: Gratia Dei sumid quod sum.
+</p>
+               <p xml:id="Almn78-h54393-d1e1865">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Anselmus
+<lb ed="#Bc"/>verum dicit : quia illa est definitio 
+gra<lb ed="#Bc" break="no"/>tie, et quod mulliplices sunt gratie : sed
+<lb ed="#Bc"/>illas non oportuit inducere “hic : quia
+<lb ed="#Bc"/>hic non intendit de divisionibus 
+gratia<lb ed="#Bc" break="no"/>rum, sed tantum de evacuatione 
+he<lb ed="#Bc" break="no"/>resis Pelagiane, que gratiam 
+evacua<lb ed="#Bc" break="no"/>vit : et ideo non inducuntur nisi ea que
+<lb ed="#Bc"/>valent ad hoc.
+</p>
+               <p xml:id="Almn78-h54393-d1e1887">
+                  <lb ed="#Bc"/>Ad id quod juxta hoc ultimo 
+queri<lb ed="#Bc" break="no"/>tur, dicendum quod gratia non operatur
+<lb ed="#Bc"/>seipsam, sed operatur voluntatem in
+<lb ed="#Bc"/>forma gratuiti boni, sicut albedo 
+super<lb ed="#Bc" break="no"/>ficiem constituit in forma albi 
+efficien<lb ed="#Bc" break="no"/>ter : tamen totum faciens est Deus, et
+<lb ed="#Bc"/>gratuita ejus voluntas : et sic idem non
+<lb ed="#Bc"/>operatur seipsum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

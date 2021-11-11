@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 50</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 50</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="511"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a13068"><!-- p1t12q50 -->
+            <head xml:id="Almn78-a13068-Hd1e106">Quaestio 50</head>
+            <head xml:id="Almn78-a13068-Hd1e109" type="question-title">
+      De appropriationibus divinis.
+    </head>
+            <p xml:id="Almn78-a13068-d1e112">
+               <pb ed="#Ba" n="511"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO L.
+<lb ed="#Ba"/>De appropriationibus divinis.
+</p>
+            <p xml:id="Almn78-a13068-d1e123">
+               <lb ed="#Ba"/>Deinde tractandum est quod Magister
+<lb ed="#Ba"/>tractat in libro I Sententiarum, 
+distin<lb ed="#Ba" break="no"/>ctione XXXII, scilicet quomodo Patri
+<lb ed="#Ba"/>potentia, Filio sapientia, Spiritui sancto
+<lb ed="#Ba"/>voluntas sive bonitas appropriatur ?
+</p>
+            <p xml:id="Almn78-a13068-d1e136">
+               <lb ed="#Ba"/>Et queeruntur tria.
+<lb ed="#Ba"/>Primo enim in communi queritur,
+<lb ed="#Ba"/>Qualiter horum trium sit appropriatio ?
+<lb ed="#Ba"/>Secundo, Utrum Pater sit sapiens 
+sa<lb ed="#Ba" break="no"/>pientia genita vel ingenita ?
+<lb ed="#Ba"/>Tertio, Utrum Filius sit sapiens 
+sa<lb ed="#Ba" break="no"/>pientia genita vel ingenita ?
+<lb ed="#Ba"/>Has enim duas questiones movet 
+Ma<lb ed="#Ba" break="no"/>gister in libro 1 Sententiarum, 
+distin<lb ed="#Ba" break="no"/>ctione XXXII.
+</p>
+            <div xml:id="Almn78-a13068-Dd1e161">
+               <head xml:id="Almn78-a13068-Hd1e163">Membrum 1</head>
+               <head xml:id="Almn78-a13068-Hd1e166" type="question-title">
+  Qualiter potentia, sapientia, bonitas,
+  appropriantur personis divinis
+</head>
+               <p xml:id="Almn78-a13068-d1e169">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Qualiter potentia, sapientia, bonitas,
+<lb ed="#Ba"/>appropriantur personis divinis?
+</p>
+               <p xml:id="Almn78-a13068-d1e178">
+                  <lb ed="#Ba"/>Ad PRIMUM ergo objicitur sic :
+<lb ed="#Ba"/>1. I ad Corinth. 1, 24 : <quote xml:id="Almn78-a13068-Qd1e184" source="http://scta.info/resource/Icor1_24">Christum Dei
+<lb ed="#Ba"/>virtutem, et Dei sapientiam</quote>. Virtus ergo
+<lb ed="#Ba"/>appropriatur Filio. Virtus autem in 
+ge<lb ed="#Ba" break="no"/>nere potenti est. Potentia ergo 
+appro<lb ed="#Ba" break="no"/>priatur Filio : non ergo appropriatur 
+Pa<lb ed="#Ba" break="no"/>tri, quod est contra Augustinum.
+</p>
+               <p xml:id="Almn78-a13068-d1e199">
+                  <lb ed="#Ba"/>2. Adhuc, Primum secundum 
+ratio<lb ed="#Ba" break="no"/>nem intelligendi videtur debere appro-
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>priari persone que secundum ordinem
+<lb ed="#Ba"/>nature prior est. Cujus probatio est, quia
+<lb ed="#Ba"/>principium in ratione intelligendi 
+prin<lb ed="#Ba" break="no"/>cipium est ad sequens, et non 
+converti<lb ed="#Ba" break="no"/>tur, et non est de alio ut de principio,
+<lb ed="#Ba"/>sicut Pater non est de alio, et est 
+prin<lb ed="#Ba" break="no"/>cipium Filii. Sed haec tria, scilicet 
+po<lb ed="#Ba" break="no"/>tentia, scientia, et voluntas, sic se 
+ha<lb ed="#Ba" break="no"/>bent in Deo, quod scientia videtur esse
+<lb ed="#Ba"/>ante potentiam, et voluntas ante 
+utrum<lb ed="#Ba" break="no"/>que. Cujus probatio est, quia quidquid
+<lb ed="#Ba"/>potest Deus, scit: sed non convertitur,
+<lb ed="#Ba"/>scit enim mala, et non potest mala 
+fa<lb ed="#Ba" break="no"/>cere. Prius autem est secundum 
+ordi<lb ed="#Ba" break="no"/>nem nature a quo non convertitur 
+con<lb ed="#Ba" break="no"/>sequentia. Ergo videtur scientia esse ante
+<lb ed="#Ba"/>potentiam. Et quod ante est, principium
+<lb ed="#Ba"/>est respectu secundi. Videtur ergo 
+scien<lb ed="#Ba" break="no"/>tia appropriari illi persone que est
+<lb ed="#Ba"/>principium non de principio : et hac est
+<lb ed="#Ba"/>Pater.
+</p>
+               <p xml:id="Almn78-a13068-d1e255">
+                  <lb ed="#Ba"/>3. Adhuc, Sapientie, xu, 18: <quote xml:id="Almn78-a13068-Qd1e259">Subest
+<lb ed="#Ba"/>enim tibi, cum volueris, posse</quote>. Hoc 
+tra<lb ed="#Ba" break="no"/>ctans Augustinus dicit, quod <quote xml:id="Almn78-a13068-Qd1e266"> in 
+omni<lb ed="#Ba" break="no"/>bus in quibus est voluntas et potentia ad
+<lb ed="#Ba"/>aliquid operandum, voluntas preit. 
+po<lb ed="#Ba" break="no"/>tentiam, sicut cum dicitur, Possum 
+am<lb ed="#Ba" break="no"/>bulare, preintelligitur, si volo : possum
+<lb ed="#Ba"/>loqui, si volo. </quote> Et ex hoc accipit 
+An<lb ed="#Ba" break="no"/>selmus, quod <quote xml:id="Almn78-a13068-Qd1e282"> voluntas est generalis
+<lb ed="#Ba"/>motor omnium potentiarum tam 
+exterio<lb ed="#Ba" break="no"/>rum quam interiorum, sicut patet : 
+pos<lb ed="#Ba" break="no"/>sum enim intelligere si volo, possum eli- 
+<lb ed="#Ba" break="no"/>gere si volo.</quote> Et ex hoc videtur, quod
+<pb ed="#Ba" n="512"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>voluntas sit prior in ordine inter hec
+<lb ed="#Ba"/>tria: et si est prior, est principium ad
+<lb ed="#Ba"/>ea : ergo videtur, quod voluntas 
+appro<lb ed="#Ba" break="no"/>priatur Patri qui est principium non de
+<lb ed="#Ba"/>principio, et sapientia Filio, et potentia
+<lb ed="#Ba"/>Spiritui sancto.
+  
+<lb ed="#Ba"/>4. Adhuc, Hugo de sancto Victore in
+<lb ed="#Ba"/>Sententiis : <quote xml:id="Almn78-a13068-Qd1e314"> Voluntas movet, sapientia
+<lb ed="#Ba"/>disponit, potentia perficit. In omnibus
+<lb ed="#Ba"/>autem primum movens est principium
+<lb ed="#Ba"/>de non principio, de quo sicut de 
+prin<lb ed="#Ba" break="no"/>cipio est disponens : et de his duobus ut
+<lb ed="#Ba"/>de principiis procedit potentia 
+exse<lb ed="#Ba" break="no"/>quens. </quote> Videtur ergo, quod voluntas
+<lb ed="#Ba"/>que principium est non de principio, 
+ap<lb ed="#Ba" break="no"/>proprianda est Patri qui est principium
+<lb ed="#Ba"/>non de principio ; et sapientia que est
+<lb ed="#Ba"/>principium de principio, approprianda
+<lb ed="#Ba"/>sit Filio : et potentia que est principium
+<lb ed="#Ba"/>de utroque, approprianda sit Spirtui 
+san<lb ed="#Ba" break="no"/>cto.
+</p>
+               <p xml:id="Almn78-a13068-d1e347">
+                  <lb ed="#Ba"/>5. Adhuc, Constat, quod in omnibus
+<lb ed="#Ba"/>in quibus est potentia, sapientia, et 
+vo<lb ed="#Ba" break="no"/>luntas, finis est principium movens,
+<lb ed="#Ba"/>quod non movetur ab alio: finis enim
+<lb ed="#Ba"/>movet efficientem : efficiens autem 
+ma<lb ed="#Ba" break="no"/>teriam : et motus materie sive sua 
+mu<lb ed="#Ba" break="no"/>tatio stat in fine. Propter quod finis
+<lb ed="#Ba"/>causa causarum est, ut dicit Aristoteles
+<lb ed="#Ba"/>in. II Physicorum. Dicit autem <ref xml:id="Almn78-a13068-Rd1e368">
+Aristote<lb ed="#Ba" break="no"/>les in II Ethicorum</ref>, quod <quote xml:id="Almn78-a13068-Qd1e373"> voluntas
+<lb ed="#Ba"/>finis est, consilium vero eorum que sunt
+<lb ed="#Ba"/>ad finem. </quote> Et sic voluntas primum 
+vi<lb ed="#Ba" break="no"/>detur esse principium non ab alio 
+mo<lb ed="#Ba" break="no"/>tum. Et propter hoc voluntas videtur
+<lb ed="#Ba"/>esse approprianda Patri, et non Spiritui
+<lb ed="#Ba"/>sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e390">
+                  <lb ed="#Ba"/>In contrarium hujus est quod objicit
+<lb ed="#Ba"/>Richardus in libro de Trinitate, innitens
+<lb ed="#Ba"/>illi quod dicit Aristoteles in 
+Predica<lb ed="#Ba" break="no"/>mentis, quod prius natura et intellectu
+<lb ed="#Ba"/>est, a quo non convertitur consequentia.
+<lb ed="#Ba"/>Sic autem se habet potentia ad 
+poten<lb ed="#Ba" break="no"/>tiam sciendi : sequitur enim, si 
+poten<lb ed="#Ba" break="no"/>tiam habeo sciendi, quod habeo 
+poten<lb ed="#Ba" break="no"/>tiam : quia posse scire est posse : sed
+<lb ed="#Ba"/>non convertitur. Et sic videtur potentia
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>esse ante scientiam, et esse principium
+<lb ed="#Ba"/>ad illam. Similiter posse et. scire 
+viden<lb ed="#Ba" break="no"/>tur esse ante voluntatem : quia velle
+<lb ed="#Ba"/>aliquid posse est, et non convertitur. It
+<lb ed="#Ba"/>similiter velle bonum, precedit eligere
+<lb ed="#Ba"/>bonum : eligere autem bonum cum sit
+<lb ed="#Ba"/>ex consilio, ut dicit <ref xml:id="Almn78-a13068-Rd1e431">Aristoteles in 
+  Ethi<lb ed="#Ba" break="no"/>corum</ref>, aliqua scientia est : et sic velle
+<lb ed="#Ba"/>bonum  principiatur ex potentia et
+<lb ed="#Ba"/>scientia. Et secundum hune ordinem
+<lb ed="#Ba"/>concluditur, quod potentia attribuatur
+<lb ed="#Ba"/>Patri, sapientia Filio, et voluntas Spiritui
+<lb ed="#Ba"/>sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e448">
+                  <lb ed="#Ba"/>Ulterius queritur, Qualiter sapientia
+<lb ed="#Ba"/>attribuatur Filio ?
+</p>
+               <p xml:id="Almn78-a13068-d1e455">
+                  <lb ed="#Ba"/>Videtur enim non esse appropriatum,
+<lb ed="#Ba"/>sed proprium,
+</p>
+               <p xml:id="Almn78-a13068-d1e462">
+                  <lb ed="#Ba"/>4. Per hoc quod dicit Augustinus in
+<lb ed="#Ba"/>libro XV de Trinitate: <quote xml:id="Almn78-a13068-Qd1e468"> Sicut proprie
+<lb ed="#Ba"/>verbum Dei sapientia dicitur, cum 
+ta<lb ed="#Ba" break="no"/>men et Pater et Filius et Spiritus 
+san<lb ed="#Ba" break="no"/>ctus sint una sapientia : sic charitas 
+pro<lb ed="#Ba" break="no"/>prie Spiritus sanctus dicitur, cum Pater
+<lb ed="#Ba"/>et Filius et Spiritus sanctus sint una
+<lb ed="#Ba"/>charitas. </quote> Sed constat, quod Spiritus
+<lb ed="#Ba"/>proprie dicitur charitas sive amor. Ergo
+<lb ed="#Ba"/>sapientia proprie dicitur verbum sive
+<lb ed="#Ba"/>Filius.
+</p>
+               <p xml:id="Almn78-a13068-d1e493">
+                  <lb ed="#Ba"/>2, Adhuc, Augustinus in eodem :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a13068-Qd1e499"> Sicut unicum Dei verbum proprie 
+vo<lb ed="#Ba" break="no"/>camus nomine sapientia, cum tamen
+<lb ed="#Ba"/>Pater et Filius et Spiritus sanctus sint
+<lb ed="#Ba"/>sapientia : sic charitas proprie. dicitur
+<lb ed="#Ba"/>Spiritus sanctus, cum tamen communiter
+<lb ed="#Ba"/>de tribus dicatur, quod una sit charitas. </quote>
+                  <lb ed="#Ba"/>Et si est proprium, sequitur, quod non
+<lb ed="#Ba"/>est appropriatum : proprium enim 
+num<lb ed="#Ba" break="no"/>quam convenit tribus : appropriatum 
+au<lb ed="#Ba" break="no"/>tem cum sit essentiale, semper tribus
+</p>
+               <p xml:id="Almn78-a13068-d1e522">
+                  <lb ed="#Ba"/>3. Adhuc queratur, Que sit causa,
+<lb ed="#Ba"/>quod charitas Spiritui sancto et 
+pro<lb ed="#Ba" break="no"/>prium est et appropriatum, et sapientia
+<lb ed="#Ba"/>Filio est appropriatum, non -proprium ?
+<lb ed="#Ba"/>Eadem enim ratio videtur esse de uno et
+<lb ed="#Ba"/>de alio.
+  
+<pb ed="#Ba" n="513"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Unrerws queritur, Si sapientia 
+se<lb ed="#Ba" break="no"/>cundum quod dicitur essentialiter et 
+se<lb ed="#Ba" break="no"/>cundum quod dicitur personaliter, 
+dica<lb ed="#Ba" break="no"/>tur equivoce vel univoce ?
+</p>
+               <p xml:id="Almn78-a13068-d1e551">
+                  <lb ed="#Ba"/>Videtur enim, quod aquivoce : quia
+<lb ed="#Ba"/>4. Nihil est commune secundum 
+ra<lb ed="#Ba" break="no"/>tionem rei persone et essentie : 
+equi<lb ed="#Ba" break="no"/>voca autem, ut dicit Aristoteles in 
+Pre<lb ed="#Ba" break="no"/>dicamentis, sunt quorum solum nomen
+<lb ed="#Ba"/>commune est et ratio substantiae diversa :
+<lb ed="#Ba"/>videtur ergo, quod equivoce dicitur de
+<lb ed="#Ba"/>essentia et persona.
+</p>
+               <p xml:id="Almn78-a13068-d1e571">
+                  <lb ed="#Ba"/>2. Adhuc, Aristoteles, ibidem : <quote xml:id="Almn78-a13068-Qd1e575"> 
+Di<lb ed="#Ba" break="no"/>versorum generum et non subalternatim
+<lb ed="#Ba"/>positorum diverse sunt species et 
+diffe<lb ed="#Ba" break="no"/>rentiz. </quote> Sed in divinis sunt duo genera
+<lb ed="#Ba"/>predicamentorum, ut dicit Boetius in
+<lb ed="#Ba"/>libro de Trinitate, substantia scilicet, et
+<lb ed="#Ba"/>relatio, et non subalternatim posita :
+<lb ed="#Ba"/>propter quod nec unum continet alterum,
+<lb ed="#Ba"/>nec ambo continentur. sub eodem : et
+<lb ed="#Ba"/>ideo quod est in uno,non est in altero. Si
+<lb ed="#Ba"/>ergo uno nomine nominatur quod est in
+<lb ed="#Ba"/>uno, et quod est in altero, nomen erit
+<lb ed="#Ba"/>equivocum. Sed persona‘est in relatione,
+<lb ed="#Ba"/>essentia in’ substantia. Sapientia ergo
+<lb ed="#Ba"/>dicta de persona et essentia, equivoce
+<lb ed="#Ba"/>dicitur.
+</p>
+               <p xml:id="Almn78-a13068-d1e611">
+                  <lb ed="#Ba"/>Souutio. Dicendum, sicut communiter
+<lb ed="#Ba"/>dicunt Sancti et concorditer, quod 
+po<lb ed="#Ba" break="no"/>tentia appropriatur Patri, sapientia Filio,
+<lb ed="#Ba"/>et voluntas Spiritui sancto per rationem
+<lb ed="#Ba"/>que inducta est a Richardo. Et hoc, ut
+<lb ed="#Ba"/>vult Augustinus, in duplici fit causa :
+<lb ed="#Ba"/>quarum una est, ut obvietur errori. Alia,
+<lb ed="#Ba"/>ut instruatur veritas. Prima exemplum
+<lb ed="#Ba"/>est : quia cum in divinis diceretur, Pater,
+<lb ed="#Ba"/>Filius, et Spiritus sanctus, audivit hoc
+<lb ed="#Ba"/>homo, et sensu suo putabat Patrem esse
+<lb ed="#Ba"/>in divinis sicut in humanis : in humanis
+<lb ed="#Ba"/>autem generandorum deficit potentia 
+ge<lb ed="#Ba" break="no"/>nitoris, in divinis autem non. Occurrit
+<lb ed="#Ba"/>ergo Scriptura et attribuit potentiam 
+Pa<lb ed="#Ba" break="no"/>tri, ne invalidus et imponens ex 
+gene<lb ed="#Ba" break="no"/>ratione esse credatur. Unde, Isa. tix, i:
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Ecce non est abbreviata manus Domini,
+<lb ed="#Ba"/>hoc est, potentia Domini. Similiter cum
+<lb ed="#Ba"/>homo filium audivit, qui in humanis est
+<lb ed="#Ba"/>insipiens propter fluxibilitatem etatis,
+<lb ed="#Ba"/>que conceptus stabiles in juvenibus esse
+<lb ed="#Ba"/>non permittit, ne in divinis etiam 
+insi<lb ed="#Ba" break="no"/>piens crederetur, occurrit Scriptura, et
+<lb ed="#Ba"/>Filio attribuit sapientiam : unde, 
+Pro<lb ed="#Ba" break="no"/>verb. x, 1: Filius sapiens letificat 
+pa<lb ed="#Ba" break="no"/>trem, filius vero stulius mestitia est 
+ma<lb ed="#Ba" break="no"/>tris sue. Similiter spiritus nomen 
+infla<lb ed="#Ba" break="no"/>tionis est et ire in humanis. Isa. u, 22:
+<lb ed="#Ba"/>Quiescite ergo ab homine, cujus spiritus
+<lb ed="#Ba"/>ejus in naribus est, Etin Il Ethicorum
+<lb ed="#Ba"/>Aristoteles ex Homero dicit : <quote xml:id="Almn78-a13068-Qd1e684"> Fortes
+<lb ed="#Ba"/>inflabant spiritum per nares, et ebullivit
+<lb ed="#Ba"/>sanguis. </quote> Et ne crederetur spiritus 
+indi<lb ed="#Ba" break="no"/>gnationis et ire esse in divinis, occurrit
+<lb ed="#Ba"/>Scriptura,et attribuit Spiritui 
+benignita<lb ed="#Ba" break="no"/>tem et voluntatem bonam. Sapient. 1, 6:
+<lb ed="#Ba"/>Benignus est spiritus sapientiv. Et, 
+Sa<lb ed="#Ba" break="no"/>pient.. vu, 23, dicitur, quod Spiritus
+<lb ed="#Ba"/>sanctus est humanus, benignus, stabilis.
+<lb ed="#Ba"/>Et hac est ratio Augustini una in libro
+<lb ed="#Ba"/>de Trinitate.
+</p>
+               <p xml:id="Almn78-a13068-d1e710">
+                  <lb ed="#Ba"/>Secunda ratio est, ut instruatur 
+veri<lb ed="#Ba" break="no"/>tas : quia cum principium in genere 
+po<lb ed="#Ba" break="no"/>tentie sit : eo quod principia omnibus 
+po<lb ed="#Ba" break="no"/>tentiora sunt : et quo priora et 
+simplicio<lb ed="#Ba" break="no"/>ra sunt, eo potentiora sunt. Pater autem
+<lb ed="#Ba"/>solus in ordine nature habet rationem
+<lb ed="#Ba"/>perfectam principii, sicut is in quo est
+<lb ed="#Ba"/>principium totius divinitatis, ut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus in libro lV de Jrinitate' : est
+<lb ed="#Ba"/>enim principium non de principio, Filius
+<lb ed="#Ba"/>autem principium de principio, et Spiritus
+<lb ed="#Ba"/>sanctus principium de utroque principio :
+<lb ed="#Ba"/>esse autem de principio non est de ratione
+<lb ed="#Ba"/>principii : merito Patri attribuitur 
+poten<lb ed="#Ba" break="no"/>tia, et non Filio, vel Spiritui sancto. 
+Si<lb ed="#Ba" break="no"/>militer cum Filius per generationem
+<lb ed="#Ba"/>procedat a Patre sicut notitia a mente,
+<lb ed="#Ba"/>ut dicit Augustinus in libro XV de 
+Jri<lb ed="#Ba" break="no"/>nitate® : notitia autem sapientia sit 
+for<lb ed="#Ba" break="no"/>mata a mente sive intelligentia, habens
+<lb ed="#Ba"/>in se et sapere et saporem : est enim, ut
+<pb ed="#Ba" n="514"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dicit Augustinus, notitia amata : merito
+<lb ed="#Ba"/>attribuitur Filio sapientia. Similiter cum
+<lb ed="#Ba"/>Spiritus sanctus a Patre et Filio procedit
+<lb ed="#Ba"/>per modum amoris: amor autem intimus
+<lb ed="#Ba"/>et optimus affectus sit voluntatis, quando
+<lb ed="#Ba"/>non est privatus et est honesti : merito
+<lb ed="#Ba"/>attribuitur voluntas Spiritui sancto. De
+<lb ed="#Ba"/>Spiritu enim sancto dicitur, quod est
+<lb ed="#Ba"/>amans bonum, acutus, quem nihil vetat,
+<lb ed="#Ba"/>benefaciens.
+</p>
+               <p xml:id="Almn78-a13068-d1e785">
+                  <lb ed="#Ba"/>Istis sic habitis, respondendum est ad.
+<lb ed="#Ba"/>argumenta,
+</p>
+               <p xml:id="Almn78-a13068-d1e792">
+                  <lb ed="#Ba"/>Ad PRiMUM ergo dicendum est, quod
+<lb ed="#Ba"/>virtus est potentia quedam : est enim
+<lb ed="#Ba"/>potentia in ultimo, et sic ex additione se
+<lb ed="#Ba"/>habet ad potentiam, et sic cadit a ratione
+<lb ed="#Ba"/>primi, et accipit rationem medii vel
+<lb ed="#Ba"/>quasi medii : sicut virtus media est inter
+<lb ed="#Ba"/>potentiam et actum, et sic appropriatur
+<lb ed="#Ba"/>Filio virtus, et non potentia. Filius enim
+<lb ed="#Ba"/>est, per quem Deus facit omnia. Joan.
+<lb ed="#Ba"/>1,3: Omnia per ipsum facta sunt. 
+Po<lb ed="#Ba" break="no"/>tentia autem ut simpliciter accepta dicit
+<lb ed="#Ba"/>rationem primi, et non medii.
+</p>
+               <p xml:id="Almn78-a13068-d1e821">
+                  <lb ed="#Ba"/>Ad aliud dicendum est, quod aliud est
+<lb ed="#Ba"/>potentia simpliciter, et aliud est potentia
+<lb ed="#Ba"/>faciendi hoc. Potentia enim simpliciter
+<lb ed="#Ba"/>est ante scientiam et voluntatem, et illa
+<lb ed="#Ba"/>habet rationem principii simpliciter. 
+Po<lb ed="#Ba" break="no"/>tentiam autem faciendi hoc, nihil 
+prohi<lb ed="#Ba" break="no"/>bet precedere scientiam et pracedere
+<lb ed="#Ba"/>voluntatem : quia in talibus potentia 
+fa<lb ed="#Ba" break="no"/>ciendi hoc, frequenter est impotentia et
+<lb ed="#Ba"/>potentiae defectus : potentia enim faciendi
+<lb ed="#Ba"/>mala, ut dicit Anselmus in libro de 
+Li<lb ed="#Ba" break="no"/>bero arbitrio, defectus potentiae est : quia
+<lb ed="#Ba"/>sicut dicit Anselmus, ibidem : <quote xml:id="Almn78-a13068-Qd1e851"> Qui 
+pot<lb ed="#Ba" break="no"/>est quod sibi non prodest, nec sibi 
+expe<lb ed="#Ba" break="no"/>dit, quanto magis potest illud, tanto 
+ma<lb ed="#Ba" break="no"/>gis perversitas et adversitas possunt in
+<lb ed="#Ba"/>ipsum.</quote> Potentia autem secundum 
+pri<lb ed="#Ba" break="no"/>mam rationem attribuitur Patri, et non
+<lb ed="#Ba"/>secundum secundam.
+</p>
+               <p xml:id="Almn78-a13068-d1e867">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod est accipere
+<lb ed="#Ba"/>ista tria simpliciter et generaliter, et ut
+<lb ed="#Ba"/>ad hoc. Simpliciter et generaliter 
+acci<lb ed="#Ba" break="no"/>piendo potentia attribuitur Patri, ut di-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>ctum est, sapientia Filio, voluntas 
+Spiri<lb ed="#Ba" break="no"/>tui sancto. Sic enim ad id quod potest
+<lb ed="#Ba"/>et per sapientiam ordinatum est, 
+volun<lb ed="#Ba" break="no"/>tas ut perfecta impetum facit : et sic lit
+<lb ed="#Ba"/>appropriatio Sanctorum. Si autem 
+acci<lb ed="#Ba" break="no"/>pitur voluntas ut ad hoc, hoc est ut
+<lb ed="#Ba"/>finis: cum sapientis in unoquoque 
+ne<lb ed="#Ba" break="no"/>gatio ex ratione finis sit rationem 
+red<lb ed="#Ba" break="no"/>dere uniuscujusque ordinati ad finem
+<lb ed="#Ba"/>istum et dispositionis, sic voluntas preit
+<lb ed="#Ba"/>que est finis, et sapientia sequitur qux
+<lb ed="#Ba"/>disponit, et potentia ultima est que 
+ex<lb ed="#Ba" break="no"/>sequitur. Hoc autem modo non fit 
+adap<lb ed="#Ba" break="no"/>tatio.
+</p>
+               <p xml:id="Almn78-a13068-d1e911">
+                  <lb ed="#Ba"/>Per mem pater solutio ad sequens
+<lb ed="#Ba"/>quod movet Hugo de sancto Victore.
+</p>
+               <p xml:id="Almn78-a13068-d1e918">
+                  <lb ed="#Ba"/>Per noc etiam patet solutio ad 
+se<lb ed="#Ba" break="no"/>quens, quod eodem modo procedit.
+</p>
+               <p xml:id="Almn78-a13068-d1e926">
+                  <lb ed="#Ba"/>Ea vero que in contrarium 
+objiciun<lb ed="#Ba" break="no"/>tur, simpliciter concedenda sunt.
+  
+<lb ed="#Ba"/>Ad id quod ulterius queritur, dicen- 
+<lb ed="#Ba"/>dum, quod quedam sunt nomina 
+essen<lb ed="#Ba" break="no"/>tialia, nullo modo appropriabilia uni
+<lb ed="#Ba"/>persone, que significant generaliter 
+es<lb ed="#Ba" break="no"/>sentiam et*simpliciter, ut essentia, 
+dei<lb ed="#Ba" break="no"/>tas, divinitas et hujusmodi. Quedam
+<lb ed="#Ba"/>vero sunt propria, nullo modo essentiam
+<lb ed="#Ba"/>significantia nec supponentia, ut Pater
+<lb ed="#Ba"/>et Filius. Quedam vero sunt media, que
+<lb ed="#Ba"/>licet essentiam significent, non tamen
+<lb ed="#Ba"/>significant essentiam ut essentiam, sive
+<lb ed="#Ba"/>ut quo est, sed significant eam ut quod
+<lb ed="#Ba"/>est in habente. Et hoc dupliciter, scilicet
+<lb ed="#Ba"/>quia vel significant eam concretive, vel
+<lb ed="#Ba"/>quasi concretive : vel quia significant
+<lb ed="#Ba"/>eam ut ad actum qui particularium est.
+<lb ed="#Ba"/>Et haec possunt significare essentiam, et
+<lb ed="#Ba"/>supponere personam per adjunctum. Et
+<lb ed="#Ba"/>de his satis determinatum est in 
+tra<lb ed="#Ba" break="no"/>ctatu de generatione Filti, questione,
+<lb ed="#Ba"/>Ex quo fit generatio ? Unde quod dicit
+<lb ed="#Ba"/>Augustinus de sapientia, que significat
+<lb ed="#Ba"/>essentiam ut ad actum, et fit particulare
+<lb ed="#Ba"/>ut in habente, dicit quoad suppositum,
+<lb ed="#Ba"/>non quoad significationem : significat
+<lb ed="#Ba"/>enim commune, et supponit pro proprio.
+</p>
+               <p xml:id="Almn78-a13068-d1e989">
+                  <pb ed="#Ba" n="515"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Per idEM patet solutio ad sequens :
+<lb ed="#Ba"/>quia omnino eodem modo procedit.
+</p>
+               <p xml:id="Almn78-a13068-d1e1000">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod ratio est
+<lb ed="#Ba"/>illius, quod aliam constructionem habet
+<lb ed="#Ba"/>verbum sapiendi vel sciendi cum 
+suppo<lb ed="#Ba" break="no"/>sito suo, et aliam verbum diligendi.
+<lb ed="#Ba"/>Cum enim dicitur, sapio vel scio, 
+ver<lb ed="#Ba" break="no"/>bum sapio vel scio, dicit effectum scibilis
+<lb ed="#Ba"/>in anima sive in sciente vel sapiente, et
+<lb ed="#Ba"/>sic dicit qualitatem que efficitur a 
+sci<lb ed="#Ba" break="no"/>bili in sciente: et cum qualitas in 
+divi<lb ed="#Ba" break="no"/>nis sit essentia, ut dicit Augustinus,
+<lb ed="#Ba"/>oportet quod talis pradicatio sit 
+essen<lb ed="#Ba" break="no"/>tialis, et non propria uni persone. 
+Di<lb ed="#Ba" break="no"/>lectio autem et dicit habitum qui adheret
+<lb ed="#Ba"/>ul qualitas, et dicit-actum qui a diligere
+<lb ed="#Ba"/>procedit, Et sic dilectio propter duos 
+mo<lb ed="#Ba" break="no"/>dos significandi in quantum dicit 
+for<lb ed="#Ba" break="no"/>mam et habitum, essentialisvest et 
+ap<lb ed="#Ba" break="no"/>propriabilis ; et in quantum dicit actum
+<lb ed="#Ba"/>a diligente procedentem, personalis est
+<lb ed="#Ba"/>ot propria. Sapientia autem que dicit
+<lb ed="#Ba"/>lantum qualitatem in anima factam, 
+es<lb ed="#Ba" break="no"/>sentialis est et appropriabilis, et non 
+pro<lb ed="#Ba" break="no"/>pria.
+</p>
+               <p xml:id="Almn78-a13068-d1e1052">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod sapientia dicitur univoce de
+<lb ed="#Ba"/>persona et essentia. AMquivocatio enim
+<lb ed="#Ba"/>vel univocatio respicit significationem, et
+<lb ed="#Ba"/>non suppositum. Sapientia autem idem
+<lb ed="#Ba"/>significat, supponens pro essentia, et
+<lb ed="#Ba"/>supponens pro persona: et ideo cum
+<lb ed="#Ba"/>non mutet significatum, semper est 
+uni<lb ed="#Ba" break="no"/>vocum : ex adjuncto enim, et non per se
+<lb ed="#Ba"/>supponit pro persona aliquando, sicut et
+<lb ed="#Ba"/>hoc nomen, Deus, semper significat 
+es<lb ed="#Ba" break="no"/>sentiam ut quodest, licet aliquando 
+sup<lb ed="#Ba" break="no"/>ponant pro persona ex adjuncto, ut cum
+<lb ed="#Ba"/>dicitur, Deus de Deo, vel Deus genuit
+<lb ed="#Ba"/>Deum.
+</p>
+               <p xml:id="Almn78-a13068-d1e1087">
+                  <lb ed="#Ba"/>Ad ultimum dicendum, quod nihil
+<lb ed="#Ba"/>prohibet idem secundum significationem
+<lb ed="#Ba"/>esse in uno pradicamento, et secundum
+<lb ed="#Ba"/>suppositum in alio, ut album quod 
+se<lb ed="#Ba" break="no"/>cundum suppositum est in predicamento
+<lb ed="#Ba"/>substantia, secundum significationem in
+<lb ed="#Ba"/>predicamento qualitatis, et mon est 
+equi<lb ed="#Ba" break="no"/>vocum, sed univocum : et ita est de 
+sa<lb ed="#Ba" break="no"/>pientia que trahitur ad supponendum
+<lb ed="#Ba"/>pro persona, et significat essentiam.
+</p>
+               <p xml:id="Almn78-a13068-d1e1111">
+                  <lb ed="#Ba"/>QUAESTIO INCIDENS.
+<lb ed="#Ba"/>Utrum, Pater et Filius diligant se Spiritu sancto‘' ?
+</p>
+               <p xml:id="Almn78-a13068-d1e1119">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Juxta hoc ulterius queritur de 
+appro<lb ed="#Ba" break="no"/>priato Spiritui sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e1128">
+                  <lb ed="#Ba"/>Voluntas enim et dilectio 
+approprian<lb ed="#Ba" break="no"/>tur Spiritui sancto. Propter quod 
+Magi<lb ed="#Ba" break="no"/>ster querit in libro primo Senéentiarum,
+<lb ed="#Ba"/>distinct. XXXII, utrum Pater et Filius
+<lb ed="#Ba"/>diligant per Spiritum sanctum, vel 
+Spi<lb ed="#Ba" break="no"/>ritu sancto ?
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Et disputat ad utramque partem.
+<lb ed="#Ba"/>Quod enim diligant se per Spiritum
+<lb ed="#Ba"/>sanctum, vel Spiritu sancto, sic probat ex
+<lb ed="#Ba"/>verbis Augustiniin libro VI de Zrinitate :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a13068-Qd1e1156"> Manifestum est, quod non aliquis 
+duo<lb ed="#Ba" break="no"/>rum est quo utrique conjungitur, quo 
+ge<lb ed="#Ba" break="no"/>nitus a gignente diligatur, genitoremque
+<lb ed="#Ba"/>suum diligat, sitque non participatione,
+<pb ed="#Ba" n="516"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>sed essentia sua, neque dono superioris
+<lb ed="#Ba"/>alicujus, sed suo proprio, servantes 
+uni<lb ed="#Ba" break="no"/>tem pacis. </quote> :
+</p>
+               <p xml:id="Almn78-a13068-d1e1177">
+                  <lb ed="#Ba"/>Ex his arguit Magister sic : Si Spiritus
+<lb ed="#Ba"/>sanctus amor est quo Pater et Filius se
+<lb ed="#Ba"/>invicem diligunt, et diligunt se amore
+<lb ed="#Ba"/>qui ab ipsis procedit, videtur consequens
+<lb ed="#Ba"/>esse, quod diligant se per Spiritum 
+san<lb ed="#Ba" break="no"/>ctum, vel Spiritu sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e1193">
+                  <lb ed="#Ba"/>In contrarium objicitur sic :
+<lb ed="#Ba"/>1. Si Pater et Filius dicantur diligere
+<lb ed="#Ba"/>per Spiritum sanctum : cum diligere sit
+<lb ed="#Ba"/>esse, quia non est aliud Deo esse, et
+<lb ed="#Ba"/>aliud diligere, sed idem, videtur 
+conse<lb ed="#Ba" break="no"/>quens esse, quod si diligunt Spiritu 
+san<lb ed="#Ba" break="no"/>cto, quod sint Spiritu sancto: quod 
+ab<lb ed="#Ba" break="no"/>surdum est : Spiritus enim sanctus est a
+<lb ed="#Ba"/>Patre et Filio, et non e converso.
+</p>
+               <p xml:id="Almn78-a13068-d1e1215">
+                  <lb ed="#Ba"/>Hanc questionem dicit Magister 
+alti<lb ed="#Ba" break="no"/>tudinem nimiae profunditatis habere : et
+<lb ed="#Ba"/>ideo discutienda est. Quod enim Pater
+<lb ed="#Ba"/>et Filius diligant se Spiritu sancto, jam
+<lb ed="#Ba"/>in verbis Augustini habitum est.
+</p>
+               <p xml:id="Almn78-a13068-d1e1228">
+                  <lb ed="#Ba"/>2, Adhuc,Hieronymus, <quote xml:id="Almn78-a13068-Qd1e1232"> Spiritus 
+san<lb ed="#Ba" break="no"/>ctus est dilectio quam habet Pater in 
+Fi<lb ed="#Ba" break="no"/>lium, et e converso : </quote>sed diligentes 
+dili<lb ed="#Ba" break="no"/>gunt se dilectione : ergo diligunt se 
+Spi<lb ed="#Ba" break="no"/>ritu sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e1245">
+                  <lb ed="#Ba"/>3. Adhuc, Omnes diligentes spirant
+<lb ed="#Ba"/>amorem ad invicem, et diligunt se 
+di<lb ed="#Ba" break="no"/>lectione spirata invicem : hic autem 
+Spi<lb ed="#Ba" break="no"/>ritus sanctus est : ergo per Spiritum 
+san<lb ed="#Ba" break="no"/>etum et Spiritu sancto diligunt se 
+invi<lb ed="#Ba" break="no"/>cem.
+</p>
+               <p xml:id="Almn78-a13068-d1e1261">
+                  <lb ed="#Ba"/>4. Adhuc, Constat, quod Spiritus 
+san<lb ed="#Ba" break="no"/>ctus est nexus Patris et Filii : nec potest
+<lb ed="#Ba"/>esse nexus, nisi uno trium modorum,
+<lb ed="#Ba"/>scilicet} quia diligit Patrem et Filium:
+<lb ed="#Ba"/>vel quia est dilectio qua Pater et Filius
+<lb ed="#Ba"/>diligunt se, et connectuntur ipsa 
+dile<lb ed="#Ba" break="no"/>ctione : vel quia Pater et Filius diligunt
+<lb ed="#Ba"/>Spiritum sanctum. Primus modus stare
+<lb ed="#Ba"/>non potest : quia non est necesse, si 
+ali<lb ed="#Ba" break="no"/>quis tertius diligit duos, quod illi duo
+<lb ed="#Ba"/>ad invicem connectantur aliqua 
+dile<lb ed="#Ba" break="no"/>ctione. Nec tertius modus stare potest :
+<lb ed="#Ba"/>quia non est necesse, si aliqui duo dili
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>gunt, quod ipsi se ad invicem diliganl,
+<lb ed="#Ba"/>vel aligua dilectione connectantur. 
+Re<lb ed="#Ba" break="no"/>linquitur ergo, quod secundo modo 
+ii<lb ed="#Ba" break="no"/>catur nexus, scilicet quo Pater Filio, et 
+<lb ed="#Ba"/>converso dilectione connectitur: et sic
+<lb ed="#Ba"/>Pater et Filius diligunt se Spiritu sancto,
+<lb ed="#Ba"/>vel per Spiritum sanctum.
+</p>
+               <p xml:id="Almn78-a13068-d1e1309">
+                  <lb ed="#Ba"/>In contranium objicitur : quia
+<lb ed="#Ba"/>1. Diligere dicitur de tribus : ergo est
+<lb ed="#Ba"/>essentiale. Si ergo diligit Spiritu sancto,
+<lb ed="#Ba"/>vel per Spiritum sanctum Pater Filium :
+<lb ed="#Ba"/>cum diligere sit esse, videtur quod sit per
+<lb ed="#Ba"/>Spiritum sanctum. Sic enim arguit 
+Au<lb ed="#Ba" break="no"/>gustinus a simili: <quote xml:id="Almn78-a13068-Qd1e1326"> Si Pater est sapiens
+<lb ed="#Ba"/>sapientia genita : cum in divinis sapere
+<lb ed="#Ba"/>sit esse, sequitur, quod Pater sit 
+sapien<lb ed="#Ba" break="no"/>tia genita: quod absurdum est: Pater
+<lb ed="#Ba"/>enim principium est Filio ut sit, et non
+<lb ed="#Ba"/>e converso Filius Patri. </quote>
+               </p>
+               <p xml:id="Almn78-a13068-d1e1340">
+                  <lb ed="#Ba"/>2. Ad hoc forte dicet aliquis, quod non
+<lb ed="#Ba"/>sequitur hoc argumentum : Pater diligil
+<lb ed="#Ba"/>Filium Spiritu sancto: diligere est esse:
+<lb ed="#Ba"/>ergo Spiritu sancto est. Et instantia est:
+<lb ed="#Ba"/>Pater operatur per Filium: operari est
+<lb ed="#Ba"/>esse: ergo est per Filium. Cum enim 
+di<lb ed="#Ba" break="no"/>citur Pater operari per Filium, ex 
+habi<lb ed="#Ba" break="no"/>tudine prepositionis notatur causa 
+me<lb ed="#Ba" break="no"/>dia, et non intelligitur operari creaturas,
+<lb ed="#Ba"/>ad quas producendas Filius in quantum
+<lb ed="#Ba"/>est virtus et ars Patris, causa media est
+<lb ed="#Ba"/>vel quasi media : et operatio qua Pater
+<lb ed="#Ba"/>dicitur operari, est operatio tenens se ex
+<lb ed="#Ba"/>parte operati : et ideo cum dicitur, 
+ope<lb ed="#Ba" break="no"/>ratur per Filium, haec determinatio, per
+<lb ed="#Ba"/>Filium, determinat verbum, operatur,
+<lb ed="#Ba"/>respectu operati, et non respectu 
+ope<lb ed="#Ba" break="no"/>rantis. Cum autem dicitur, operari est
+<lb ed="#Ba"/>esse, significatur operatio secundum quod
+<lb ed="#Ba"/>est in operante : sic enim essentialis est :
+<lb ed="#Ba"/>et sic respectu ejus hac determinatio,
+<lb ed="#Ba"/>per Filium, nullam notat causalitatem in
+<lb ed="#Ba"/>operatione. Et ideo non sequitur : 
+ope<lb ed="#Ba" break="no"/>ratur per Filium : operari est esse : ergo
+<lb ed="#Ba"/>est per Filium. Et asimili non sequitur :
+<lb ed="#Ba"/>diligit Spiritu sancto, vel per Spiritum
+<lb ed="#Ba"/>sanctum : diligere est esse : ergo est per
+<lb ed="#Ba"/>Spiritum sanctum. Cum enim dicitur,
+<pb ed="#Ba" n="517"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Pater diligit Filium, significatur dilectio
+<lb ed="#Ba"/>procedens a Patre in Filium : et hac
+<lb ed="#Ba"/>wst dilectio notionalis : et si adveniat
+<lb ed="#Ba"/>determinatio, Spiritu sancto, vel per
+</p>
+               <p xml:id="Almn78-a13068-d1e1416">
+                  <lb ed="#Ba"/>Spiritum sanctum, determinat hoc 
+ver<lb ed="#Ba" break="no"/>bum, diligit, secundum quod est 
+notio<lb ed="#Ba" break="no"/>nale, hoc est, secundum quod significat
+<lb ed="#Ba"/>ad aliquid, et non quid, Cum autem 
+di<lb ed="#Ba" break="no"/>citur, Pater diligit simpliciter, 
+significa<lb ed="#Ba" break="no"/>tur dilectio consistens in ipso, que 
+essen<lb ed="#Ba" break="no"/>lialis est, et sic significat quid: et ideo
+<lb ed="#Ba"/>si addatur determinatio, notabit 
+causali<lb ed="#Ba" break="no"/>lalem in esse et essentia Patris. Et ideo
+<lb ed="#Ba"/>dicunt quidam et bene, quod non valet
+<lb ed="#Ba"/>talis processus : Pater diligit Filium 
+Spi<lb ed="#Ba" break="no"/>rita sancto: diligere est esse: ergo est
+<lb ed="#Ba"/>Spiritu sancto. Et mutatur ad aliquid in
+<lb ed="#Ba"/>quid : et sic incidit fallacia figura 
+dictio<lb ed="#Ba" break="no"/>nis. In prima enim cum dicitur, Pater
+<lb ed="#Ba"/>diligit Spiritu sancto, hoc verbum, 
+dili<lb ed="#Ba" break="no"/>gif, copulat actum notionalem. Cum au-
+{1m assumitur, diligere est esse, copulat
+<lb ed="#Ba"/>actum essentialem, cui repugnat 
+determi<lb ed="#Ba" break="no"/>natio hec, Spiritu sancto : et ideo non
+<lb ed="#Ba"/>valet talis processus.
+</p>
+               <p xml:id="Almn78-a13068-d1e1462">
+                  <lb ed="#Ba"/>Sed licet ita dicatur et bene ad 
+impedi<lb ed="#Ba" break="no"/>mentum talis processus, questio tamen
+<lb ed="#Ba"/>remanet non soluta dupliciter. Queritur
+<lb ed="#Ba"/>enim adhuc, Si similes locutiones 
+conce<lb ed="#Ba" break="no"/>dende sunt, Pater diligit Filium Spiritu
+<lb ed="#Ba"/>sancto, vel per Spiritum sanctum ? Et si
+<lb ed="#Ba"/>conceduntur aliquo modo: tunc 
+queri<lb ed="#Ba" break="no"/>tur, In qua habitudine ablativi Spiritu
+<lb ed="#Ba"/>sancto, vel accusativi cam dicitur, per
+<lb ed="#Ba"/>Spiritum sanctum, construuntur cum
+<lb ed="#Ba"/>hoc verbo, diligit. Videtur enim non
+<lb ed="#Ba"/>esse concedendum, quod Pater diligit
+<lb ed="#Ba"/>Filium per Spiritum sanctum, vel e 
+con<lb ed="#Ba" break="no"/>verso. Cum enim verbum, diligi#, dicat
+<lb ed="#Ba"/>actum notionalem, et haec determinatio,
+<lb ed="#Ba"/>per Spiritum sanctum, propter 
+habitudi<lb ed="#Ba" break="no"/>nem prepositionis dicat causalitatem vel
+<lb ed="#Ba"/>quasi principium esse Spiritum sanctum
+<lb ed="#Ba"/>illius actus, constat quod Spiritus 
+san<lb ed="#Ba" break="no"/>clus non est principium notionis 
+commu<lb ed="#Ba" break="no"/>nis qua Pater et Filius spirant Spiritum
+<lb ed="#Ba"/>sanctum : Pater enim et Filius in
+<lb ed="#Ba"/>quantum unum sunt in spirando, 
+prin<lb ed="#Ba" break="no"/>cipium sunt Spiritus sancti, et non
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>e converso Similiter Spiritus 
+san<lb ed="#Ba" break="no"/>clus non potest esse principium actus
+<lb ed="#Ba"/>spirationis prout est a Patre et Filio, sed
+<lb ed="#Ba"/>potius e converso. Nec Spiritus sanctus
+<lb ed="#Ba"/>potest esse principium amoris spirati :
+<lb ed="#Ba"/>quia sic esset principium suiipsius. 
+Vi<lb ed="#Ba" break="no"/>detur ergo, quod in nulla habitudine
+<lb ed="#Ba"/>potest construi hoc quod dico, Spiritu
+<lb ed="#Ba"/>sancto, vel per Spiritum sanctum, cum
+<lb ed="#Ba"/>hoc verbo, diligif’; et sic hac constructio
+<lb ed="#Ba"/>ad intellectum referri non potest : et ideo
+<lb ed="#Ba"/>secundum Priscianum nulla est.
+</p>
+               <p xml:id="Almn78-a13068-d1e1546">
+                  <lb ed="#Ba"/>3. Adhuc, Processus Augustini non
+<lb ed="#Ba"/>videtur valere. Si enim dicam, Pater et.
+<lb ed="#Ba"/>Filius diligunt se amore qui est Spiritus
+<lb ed="#Ba"/>sanctus, non sequitur, ergo diligunt se
+<lb ed="#Ba"/>Spiritu sancto : et peccat secundum 
+ac<lb ed="#Ba" break="no"/>cidens. Sicut hic: tu cognoscis 
+Chori<lb ed="#Ba" break="no"/>scum : Choriscus est veniens : ergo 
+cog<lb ed="#Ba" break="no"/>noscis venientem. Licet enim amor idem
+<lb ed="#Ba"/>sit quod Spiritus sanctus, tamen non
+<lb ed="#Ba"/>eumdem habet modum _ significandi.
+<lb ed="#Ba"/>Amor enim significatur per modum 
+vin<lb ed="#Ba" break="no"/>culi connectentis : propter quod etiam
+<lb ed="#Ba"/>hoc verbum, diligo, transitivum est, et
+<lb ed="#Ba"/>vehementis transitionis. Spiritus autem
+<lb ed="#Ba"/>ejus, ut dictum est in tractatu de 
+Spiri<lb ed="#Ba" break="no"/>tus sancti processione, proprium actus
+<lb ed="#Ba"/>est procedere : quod non significat per
+<lb ed="#Ba"/>modum nexus, sed potius per modum
+<lb ed="#Ba"/>exeuntis principiati a principio. Propter
+<lb ed="#Ba"/>quod etiam verbum, procedo, absolutum
+<lb ed="#Ba"/>est, nec significat transitionem in 
+ali<lb ed="#Ba" break="no"/>quod passivum : et ideo non valet : 
+dili<lb ed="#Ba" break="no"/>gunt se amore qui est Spiritus sanctus :
+<lb ed="#Ba"/>ergo diligunt se Spiritu sancto : quia, ut
+<lb ed="#Ba"/>dicit Aristoteles in II Elenchorum, non
+<lb ed="#Ba"/>est necesse idem subjecto et accidenti
+<lb ed="#Ba"/>inesse.
+</p>
+               <p xml:id="Almn78-a13068-d1e1607">
+                  <lb ed="#Ba"/>4. Adhuc, Etiam si concedatur quod
+<lb ed="#Ba"/>Pater et Filius diligunt se Spiritu sancto
+<lb ed="#Ba"/>aliquo modo, non sequitur quod diligant
+<lb ed="#Ba"/>se per Spiritum sanctum : quia in hac,
+<lb ed="#Ba"/>diligunt se Spiritu sancto, determinatio
+<lb ed="#Ba"/>nullam notat auctoritatem vel principium
+<lb ed="#Ba"/>respectu hujus verbi, diligunt, 
+secun<lb ed="#Ba" break="no"/>dum quod dicit actum Patris et Filii, sed
+<lb ed="#Ba"/>modum tantum quemdam dilectionis.
+<lb ed="#Ba"/>Cum autem dicitur, per Spiritum san-
+<pb ed="#Ba" n="518"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ctum, ex habitudine prepositionis 
+nota<lb ed="#Ba" break="no"/>tur principium vel auctoritas: et ideo
+<lb ed="#Ba"/>talis processus non valet.
+</p>
+               <p xml:id="Almn78-a13068-d1e1642">
+                  <lb ed="#Ba"/>Ad hoc dixerunt aliqui, quod diligere
+<lb ed="#Ba"/>in divinis duplex est, scilicet essentiale,
+<lb ed="#Ba"/>et notionale. Essentiale, ut cum dicitur,
+<lb ed="#Ba"/>Pater diligit se, Filius diligit se, Spiritus
+<lb ed="#Ba"/>sanctus diligit se, Pater diligit Filium,
+<lb ed="#Ba"/>Filius Patrem, Pater et Filius diligunt
+<lb ed="#Ba"/>Spiritum sanctum, et e converso essentia
+<lb ed="#Ba"/>sua, hoc est, dilectione, que est essentia
+<lb ed="#Ba"/>sua, Et secundum hoc conceditur, ut 
+di<lb ed="#Ba" break="no"/>cunt, quod Pater et Filius diligunt se
+<lb ed="#Ba"/>Spiritu sancto : quia diligunt se essentia
+<lb ed="#Ba"/>qua est Spiritus sanctus: eo quod 
+es<lb ed="#Ba" break="no"/>sentia in nullo distinguitur a persona.
+<lb ed="#Ba"/>Dicunt etiam, quod tunc non valet talis
+<lb ed="#Ba"/>processus, diligunt se Spiritu sancto :
+<lb ed="#Ba"/>diligere est esse : ergo sunt Spiritu 
+san<lb ed="#Ba" break="no"/>cto. Dicunt enim, quod est commutatio
+<lb ed="#Ba"/>predicamenti : eo quod cum dicitur, 
+di<lb ed="#Ba" break="no"/>ligunt se Spiritu sancto, accipitur diligere
+-notionaliter. Cum autem dicitur, diligere
+<lb ed="#Ba"/>est esse, accipitur diligere essentialiter :
+<lb ed="#Ba"/>et sic mutatur predicamentum, et incidit
+<lb ed="#Ba"/>fallacia figure dictionis. Hi dicunt, quod
+<lb ed="#Ba"/>cum dicitur, Pater et Filius diligunt se,
+<lb ed="#Ba"/>sensus est, Pater et Filius spirant sibi 
+in<lb ed="#Ba" break="no"/>vicem Spiritum sanctum quo diligunt se,
+<lb ed="#Ba"/>Eumdem sensum dicunt esse cum dicitur,
+<lb ed="#Ba"/>Pater et Filius diligunt nos : sensus est,
+<lb ed="#Ba"/>ut dicunt, hoc est, spirant in nos 
+Spiri<lb ed="#Ba" break="no"/>tum sanctum quo diligunt nos.
+</p>
+               <p xml:id="Almn78-a13068-d1e1707">
+                  <lb ed="#Ba"/>Sed si hoc est verum : tunc sicut 
+con<lb ed="#Ba" break="no"/>ceditur hac, Pater et Filius diligunt se
+<lb ed="#Ba"/>Spiritu sancto, ita haec concedenda est,
+<lb ed="#Ba"/>Pater et Filius spirant Spiritum sanctum
+<lb ed="#Ba"/>Spiritu sancto, quod falsum est.
+</p>
+               <p xml:id="Almn78-a13068-d1e1720">
+                  <lb ed="#Ba"/>Adhuc, Diligere idem est quod velle
+<lb ed="#Ba"/>bonum. Si ergo haec conceditur, Pater et
+<lb ed="#Ba"/>Filius diligunt se Spiritu sancto : tunc
+<lb ed="#Ba"/>etiam hac debet concedi, Pater et Filius
+<lb ed="#Ba"/>volunt sibi bonum Spiritu sancto, quod
+<lb ed="#Ba"/>absurdum est.
+</p>
+               <p xml:id="Almn78-a13068-d1e1736">
+                  <lb ed="#Ba"/>Propter hoc fuerunt aliqui qui aliquid
+<lb ed="#Ba"/>addiderunt, dicentes quod in divinis 
+du<lb ed="#Ba" break="no"/>plex est dilectio : naturalis scilicet, et
+<lb ed="#Ba"/>gratuita. Naturalis que est idem quod
+<lb ed="#Ba"/>essentia divina : quia dicit Augustinus :
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a13068-Qd1e1753">In Deo quidquid secundum qualitatem
+<lb ed="#Ba"/>dict videtur, propter nimiam 
+simplicita<lb ed="#Ba" break="no"/>tem que est in divinis, totum ad 
+essen<lb ed="#Ba" break="no"/>tiam refertur. </quote> Et hac dilectione Pater
+<lb ed="#Ba"/>et Filius et Spiritus sanctus diligunt se
+<lb ed="#Ba"/>invicem, ut dicit Augustinus. Dilectio
+<lb ed="#Ba"/>autem gratuita est, que procedit per 
+mo<lb ed="#Ba" break="no"/>dum doni ab uno in alterum, de qua 
+di<lb ed="#Ba" break="no"/>cit Augustinus, quod <quote xml:id="Almn78-a13068-Qd1e1773"> non dono 
+supr<lb ed="#Ba" break="no"/>rioris alicujus, sed suo proprio dono 
+ser<lb ed="#Ba" break="no"/>vant unitatem spiritus in vinculo 
+pa<lb ed="#Ba" break="no"/>cis: </quote> et quod neuter eorum est quo 
+yr<lb ed="#Ba" break="no"/>nitus a gignente diligatur, et genitorem
+<lb ed="#Ba"/>suum diligat. Et de hac dilectione 
+conce<lb ed="#Ba" break="no"/>dunt, quod Pater et Filius diligunt se
+<lb ed="#Ba"/>Spiritu sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e1793">
+                  <lb ed="#Ba"/>Szp contra hoc videtur esse : quia 
+se<lb ed="#Ba" break="no"/>cundum hoc hujus propositionis, Pater
+<lb ed="#Ba"/>et Filius diligunt se, sensus est, a Patre
+<lb ed="#Ba"/>procedit donum amoris in Filium, et
+<lb ed="#Ba"/>idem donum procedit a Filio in Patrem.
+<lb ed="#Ba"/>Si ergo ista conceditur, Pater et Filius
+<lb ed="#Ba"/>diligunt se Spiritu sancto : tunc etiam
+<lb ed="#Ba"/>illa debet concedi in quam resolvitur,
+<lb ed="#Ba"/>haec scilicet, donum amoris procedit a
+<lb ed="#Ba"/>Patre in Filium Spiritu sancto, et idem
+<lb ed="#Ba"/>donum procedit a Filio in Patrem Spiritu
+<lb ed="#Ba"/>sancto, quod falsum est: quia per hoc
+<lb ed="#Ba"/>notaretur, quod Spiritus sanctus esset
+<lb ed="#Ba"/>auctor vel principium processionis suae a
+<lb ed="#Ba"/>Patre in Filium, et a Filio in Patrem :
+<lb ed="#Ba"/>quod absurdum est.
+</p>
+               <p xml:id="Almn78-a13068-d1e1830">
+                  <lb ed="#Ba"/>Ideo fuerunt aliqui qui dixerunt, quod
+<lb ed="#Ba"/>cum dicitur, Pater et Filius diligunt se
+<lb ed="#Ba"/>Spiritu sancto, quod ablativi 
+construun<lb ed="#Ba" break="no"/>tur in ratione caus formalis, vel quasi
+<lb ed="#Ba"/>cause formalis. Et addunt, quod isti 
+abla<lb ed="#Ba" break="no"/>tivi, Spiritu sancto, hanc constructionem
+<lb ed="#Ba"/>habent non ratione modi significandi per
+<lb ed="#Ba"/>dictionem : quia isti ablativi, Spiritu
+<lb ed="#Ba"/>sancto, secundum modum significandi
+<lb ed="#Ba"/>important procedens et distinctum, et
+<lb ed="#Ba"/>relatione oppositum ad ida quo 
+proce<lb ed="#Ba" break="no"/>dit: et sic Spiritus sanctus accipitur ut
+<lb ed="#Ba"/>tertia in Trinitate persona, et non ut
+<lb ed="#Ba"/>nectens Patrem et Filium, sed ut 
+distin<lb ed="#Ba" break="no"/>ctum ab utroque: sed habent isti ablativi
+<lb ed="#Ba"/>hunc modum construendi, ut dicunt, a
+<lb ed="#Ba"/>modo ejus ad cujus similitudinem pro-
+<pb ed="#Ba" n="519"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>cedit Spiritus sanctus : procedit enim ad
+<lb ed="#Ba"/>similitudinem amoris et bone voluntatis,
+<lb ed="#Ba"/>non secundum quod voluntas est 
+poten<lb ed="#Ba" break="no"/>tia, sed secundum quod voluntas est
+<lb ed="#Ba"/>motus sive affectus boni ab uno in alium
+<lb ed="#Ba"/>procedens.
+</p>
+               <p xml:id="Almn78-a13068-d1e1887">
+                  <lb ed="#Ba"/>Sep contra hoc videtur esse, quod
+<lb ed="#Ba"/>cause formalis sive etiam forme multi
+<lb ed="#Ba"/>sunt actus, sicut continere, unire, 
+per<lb ed="#Ba" break="no"/>ficere, conservare : et nullo illoram 
+mo<lb ed="#Ba" break="no"/>dorum habet se Spiritus sanctus ad 
+Pa<lb ed="#Ba" break="no"/>trem et Filium, prout significatur per
+<lb ed="#Ba"/>hune terminum, Spiritus sanctus, sed
+<lb ed="#Ba"/>potius ut procedens, distinctus, et 
+op<lb ed="#Ba" break="no"/>positus secundum relationem : et si 
+con<lb ed="#Ba" break="no"/>structio secundum quod designatur sub
+<lb ed="#Ba"/>voce, ad intellectum referenda est, ut 
+di<lb ed="#Ba" break="no"/>cit <name xml:id="Almn78-a13068-Nd1e1915">Priscianus</name>, tunc nullam habitudinem’
+<lb ed="#Ba"/>forme vel quasi cause formalis possunt
+<lb ed="#Ba"/>isti habere ablativi, Spiritu sancto, ad
+<lb ed="#Ba"/>hoc verbum, diligunt, cum dicitur, Pater
+<lb ed="#Ba"/>et Filius diligunt se Spiritu sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e1927">
+                  <lb ed="#Ba"/>Propter hoc alii fuerunt, dicentes quod
+<lb ed="#Ba"/>cum Pater et Filius diligunt se Spiritu
+<lb ed="#Ba"/>sancto, isti ablativi, Spiritu sancto, 
+con<lb ed="#Ba" break="no"/>struuntur cum hoc verbo, diligunt, in
+<lb ed="#Ba"/>habitudine et demonstratione signi: et
+<lb ed="#Ba"/>est sensus, Pater et Filius diligunt se,
+<lb ed="#Ba"/>quod significatur Spiritu sancto, qui
+<lb ed="#Ba"/>unius, et ab uno principio concorditer
+<lb ed="#Ba"/>procedit ab eis.
+</p>
+               <p xml:id="Almn78-a13068-d1e1949">
+                  <lb ed="#Ba"/>Sed hoc facile refellitur : quia non
+<lb ed="#Ba"/>potest esse, quod diversus modus 
+con<lb ed="#Ba" break="no"/>struendi sit in locutionibus similibus:sed
+<lb ed="#Ba"/>cum dicitur, isti diligunt se dilectione
+<lb ed="#Ba"/>que ab uno procedit in alterum, in 
+abla<lb ed="#Ba" break="no"/>tivo non notatur habitudo signi, sed 
+for<lb ed="#Ba" break="no"/>me :ergo nec inista, Pater et Filius 
+di<lb ed="#Ba" break="no"/>ligunt se Spiritu sancto.
+</p>
+               <p xml:id="Almn78-a13068-d1e1969">
+                  <lb ed="#Ba"/>Solutio. Sine prejudicio melioris 
+sen<lb ed="#Ba" break="no"/>tentia videtur dicendum, quod omnes
+<lb ed="#Ba"/>iste locutiones, Pater et Filius diligunt
+<lb ed="#Ba"/>se Spiritu sancto, Pater diligit Filium
+<lb ed="#Ba"/>Spiritu sancto, Filius diligit Patrem 
+Spi<lb ed="#Ba" break="no"/>ritu sancto, Spiritus sanctus diligit 
+Pa<lb ed="#Ba" break="no"/>trem et Filium Spiritu sancto, si 
+secun<lb ed="#Ba" break="no"/>dum quod sunt in voce, referuntur ad 
+in<lb ed="#Ba" break="no"/>tellectum, ut dicit Priscianus, absolute
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>et simpliciter false sunt : et si 
+invenian<lb ed="#Ba" break="no"/>tur in auctoritate, non sunt extendenda,
+<lb ed="#Ba"/>sed exponende, sicut Pater et Filius 
+dili<lb ed="#Ba" break="no"/>gunt se amore qui est Spiritus sanctus :
+<lb ed="#Ba"/>et Pater et Filius connectuntur Spiritu
+<lb ed="#Ba"/>sancto, hoc est, nexu quiest Spiritus
+<lb ed="#Ba"/>sanctus : Pater et Filius uniuntur Spiritu
+<lb ed="#Ba"/>sancto, hoc est, unione vel unitate que
+<lb ed="#Ba"/>est Spiritus sanctus. Similiter hec, 
+Pa<lb ed="#Ba" break="no"/>ter et Filius copulantur Spiritu sancto,
+<lb ed="#Ba"/>hoc est, copula que est Spiritus sanctus.
+<lb ed="#Ba"/>Similiter haec, Pater et Filius uniuntur
+<lb ed="#Ba"/>Spiritu sancto, hoc est, vinculo quod est
+<lb ed="#Ba"/>Spiritus sanctus. Et alie similes similiter
+<lb ed="#Ba"/>suntexponenda. Et ratio hujus dicta est
+<lb ed="#Ba"/>in objiciendo : quia seilicet licet idem sit
+<lb ed="#Ba"/>amor, nexus, vinculum, unitas, pax, 
+di<lb ed="#Ba" break="no"/>lectio, quod Spiritus sanctus, tament res
+<lb ed="#Ba"/>designata secundum quod sub voce est,
+<lb ed="#Ba"/>non habet eumdem modum signilicandi,
+<lb ed="#Ba"/>et per consequens non potest habere
+<lb ed="#Ba"/>eamdem habitudinem constituendi : quia
+<lb ed="#Ba"/>sicut sepius dictum est, significatum
+<lb ed="#Ba"/>constructionis non refertur ad intellectum
+<lb ed="#Ba"/>nisi secundum quod sub voce est.
+</p>
+               <p xml:id="Almn78-a13068-d1e2048">
+                  <lb ed="#Ba"/>Si autem queratur, In qua habitudine
+<lb ed="#Ba"/>construatur ablativus cum dicitur, Pater
+<lb ed="#Ba"/>et Filius diligunt se amore qui est 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus, eo quod amor qui est 
+Spi<lb ed="#Ba" break="no"/>ritus sanctus, non potest’ esse causa vel
+<lb ed="#Ba"/>principium dilectionis Patris et Pilii qua
+<lb ed="#Ba"/>se diligunt ?
+</p>
+               <p xml:id="Almn78-a13068-d1e2066">
+                  <lb ed="#Ba"/>Videtur dicendum, quod construitur
+<lb ed="#Ba"/>in habitudine quasi forme. Est enim
+<lb ed="#Ba"/>forma duplex. Una que constituit 
+forma<lb ed="#Ba" break="no"/>tum, et haec est causa et principium, Alia
+<lb ed="#Ba"/>que procedit a formato. Et consuevit
+<lb ed="#Ba"/>dari exemplum, quod duo ligna 
+conglu<lb ed="#Ba" break="no"/>tinantur humore qui fluit ab utroque,
+<lb ed="#Ba"/>sicut in scientia Vegetabilium dicitur,
+<lb ed="#Ba"/>quod fit in insertionibus. In illis enim
+<lb ed="#Ba"/>conglutinatio fit ab humore qui procedit
+<lb ed="#Ba"/>ab inserto in id cui inseritur, et ex 
+hu<lb ed="#Ba" break="no"/>more qui procedit ab eo cui inseritur, in
+<lb ed="#Ba"/>id quod inseritur. Et similiter dicunt esse
+<lb ed="#Ba"/>in conglutinatione amoris, quando 
+duo<lb ed="#Ba" break="no"/>rum corda conglutinantur amore, qui
+<lb ed="#Ba"/>procedit ab uno in alterum, ete converso.
+<pb ed="#Ba" n="520"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Unde sicut non sequitur : ego diligo te
+<lb ed="#Ba"/>dilectione, quod dilectio sit principium
+<lb ed="#Ba"/>vel causa, quod ego diligo te ex parte
+<lb ed="#Ba"/>mei, sed potius, quod sit principiata a
+<lb ed="#Ba"/>me, et sit quasi forma, et non vere forma
+<lb ed="#Ba"/>qua ego et tu unimur in idem velle et
+<lb ed="#Ba"/>idem nolle, quod proprie amatorum est,
+<lb ed="#Ba"/>ut dicit Tullius in libro de Amicitia : ita
+<lb ed="#Ba"/>non sequitur, Pater et Filius diligunt se
+<lb ed="#Ba"/>dilectione que est Spiritus sanctus, quod
+<lb ed="#Ba"/>dilectio sit principium vel causa qua 
+Pa<lb ed="#Ba" break="no"/>ter et Filius diligunt se, sed potius, quod
+<lb ed="#Ba"/>sit principiata ab ipsis. Et hoc volebat
+<lb ed="#Ba"/>dicere Prepositivus, qui dixit, quod cum
+<lb ed="#Ba"/>dicitur, Pater et Filius diligunt se amore
+<lb ed="#Ba"/>qui est Spiritus sanctus, ablativus 
+amo<lb ed="#Ba" break="no"/>re, subauctoritatem originis notat 
+respe<lb ed="#Ba" break="no"/>ctu Patris et Filii diligentium se. Sed
+<lb ed="#Ba"/>quod diximus, artificiosius et melius
+<lb ed="#Ba"/>dictum est, licet idem intenderet 
+Preepo<lb ed="#Ba" break="no"/>sitivus. Si autem sic arguatur, Pater et
+<lb ed="#Ba"/>Filius diligunt se amore qui est Spiritus
+<lb ed="#Ba"/>sanctus : ergo diligunt se Spiritu sancto.
+<lb ed="#Ba"/>Jam in antehabitis dictum est, quod 
+in<lb ed="#Ba" break="no"/>cidit fallacia accidentis per diversum 
+mo<lb ed="#Ba" break="no"/>dum significandi : propter quem non
+<lb ed="#Ba"/>necesse est idem subjecto vel quasi 
+sub<lb ed="#Ba" break="no"/>jecto, et accidenti vel quasi accidenti
+<lb ed="#Ba"/>inesse.
+</p>
+               <p xml:id="Almn78-a13068-d1e2170">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad quesita :
+<lb ed="#Ba"/>Improbata enim, sicut improbata sunt,
+<lb ed="#Ba"/>credimus esse falsa.
+</p>
+            </div>
+            <div xml:id="Almn78-a13068-Dd1e2180">
+               <head xml:id="Almn78-a13068-Hd1e2182">Membrum 2</head>
+               <head xml:id="Almn78-a13068-Hd1e2185" type="question-title">
+  Utrum Pater sit sapiens sapientia 
+  genita vel ingenita?
+</head>
+               <p xml:id="Almn78-a13068-d1e2188">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum Pater sit sapiens sapientia 
+ge<lb ed="#Ba" break="no"/>nita vel ingenita?
+</p>
+               <p xml:id="Almn78-a13068-d1e2197">
+                  <lb ed="#Ba"/>Secundo queritur, Utrum Pater sit 
+sa<lb ed="#Ba" break="no"/>pientia genita, vel ingenita ? Quam 
+que<lb ed="#Ba" break="no"/>stionem movet Magister in libro 1 
+Sen<lb ed="#Ba" break="no"/>tentiarum, distinct. XXXII, cap. Praeter
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>ea diligenter investigari oportet,et 
+dispu<lb ed="#Ba" break="no"/>tatsic :
+</p>
+               <p xml:id="Almn78-a13068-d1e2215">
+                  <lb ed="#Ba"/>1. Si Pater diligit amore qui ab ipso
+<lb ed="#Ba"/>procedit, cur non et sapientia vel 
+intelli<lb ed="#Ba" break="no"/>gentia quam genuit, sapit vel intelligit ?
+<lb ed="#Ba"/>Quasi dicat, una ratio est. Ergo si 
+con<lb ed="#Ba" break="no"/>ceditur, quod diligit amore qui ab ipso
+<lb ed="#Ba"/>procedit, oportet etiam concedi, quod sit
+<lb ed="#Ba"/>sapiens sapientia quam genuit,
+</p>
+               <p xml:id="Almn78-a13068-d1e2234">
+                  <lb ed="#Ba"/>2. Adhuc, Augustinus : Scriptum est,
+<lb ed="#Ba"/>I ad Corinth, 1, 24: <quote xml:id="Almn78-a13068-Qd1e2240">Christum Dei 
+virtu<lb ed="#Ba" break="no"/>tem, et Dei sapientiam</quote>. Sed propter
+<lb ed="#Ba"/>hoc quod Christus est Dei virtus, 
+conce<lb ed="#Ba" break="no"/>ditur quod Pater operatur per Filium.
+<lb ed="#Ba"/>Ergo propter hoc quod Christus est Dei
+<lb ed="#Ba"/>sapientia, debet concedi, quod Pater 
+sa<lb ed="#Ba" break="no"/>pit per Filium.
+</p>
+               <p xml:id="Almn78-a13068-d1e2257">
+                  <lb ed="#Ba"/>3. Adhuc, Augustinus in libro LXX XII
+<lb ed="#Ba"/>Questionum : <quote xml:id="Almn78-a13068-Qd1e2263"> Pater est sapiens 
+sa<lb ed="#Ba" break="no"/>pientia quam genuit. </quote> Ergo ista 
+conce<lb ed="#Ba" break="no"/>denda est simpliciter.
+</p>
+               <p xml:id="Almn78-a13068-d1e2271">
+                  <lb ed="#Ba"/>4. Si quis dicat, quod Augustinus in
+<lb ed="#Ba"/>libro Retractationem hoc retractavit.
+<lb ed="#Ba"/>Contra : In libro Retractationum dicit
+<lb ed="#Ba"/>sic Augustinus : <quote xml:id="Almn78-a13068-Qd1e2281"> Dixi de Patre, quod
+<lb ed="#Ba"/>ea ipse sapiens est quam genuit 
+sapien<lb ed="#Ba" break="no"/>tia: sed melius hanc questionem in libro
+<lb ed="#Ba"/>de Trinitate tractavi. </quote> Hie nihil per hac
+<lb ed="#Ba"/>verba retractat. Licet enim melius 
+dixe<lb ed="#Ba" break="no"/>ritin libro de Trinitate, tamen non dicit
+<lb ed="#Ba"/>se male dixissein libro LXXXHI 
+Quez<lb ed="#Ba" break="no"/>sitonum.
+</p>
+               <p xml:id="Almn78-a13068-d1e2300">
+                  <lb ed="#Ba"/>5. Adhuc, Augustinus in libro XV de
+<lb ed="#Ba"/>Trinitaie : <quote xml:id="Almn78-a13068-Qd1e2306"> Pater novit omnia in seipso,
+<lb ed="#Ba"/>novit omnia in Filio : inseipso tamquam
+<lb ed="#Ba"/>seipsum, in Filio tamquam verbum
+<lb ed="#Ba"/>suum. </quote> Ergo Pater novit omnia : sed in
+<lb ed="#Ba"/>quo aliquis novit, illud formaliter 
+noti<lb ed="#Ba" break="no"/>tia vel sapientia est qua novit: ergo
+<lb ed="#Ba"/>Pater sapientia genita que est Filius,
+<lb ed="#Ba"/>formaliter sapiens est: ergo Pater 
+sa<lb ed="#Ba" break="no"/>pientia genita sapiens est.
+</p>
+               <p xml:id="Almn78-a13068-d1e2327">
+                  <lb ed="#Ba"/>6. Adhuc, Augustinus super Joannem
+<lb ed="#Ba"/>in principio, et ponitur in libro I 
+Sen<lb ed="#Ba" break="no"/>tentiarum, distinct. XXV, dicit, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a13068-Qd1e2337"> Filius est ars Patris. </quote> Sed unusquis
+<pb ed="#Ba" n="521"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>que arte sua sapiens est. Ergo videtur,
+<lb ed="#Ba"/>quod Pater Filio sit sapiens. Dicit etiam
+<lb ed="#Ba"/>inlibro XV de Trinitate, quod <quote xml:id="Almn78-a13068-Qd1e2351"> Filius
+<lb ed="#Ba"/>est sapientia genita. </quote> Et videtur esse
+<lb ed="#Ba"/>consequens, si Filio sapiens est, quod
+<lb ed="#Ba"/>saplentia genita sapiens est.
+</p>
+               <p xml:id="Almn78-a13068-d1e2362">
+                  <lb ed="#Ba"/>IN CONTRARIUM: 
+<lb ed="#Ba"/>4. Disputat Magister ex verbis 
+Au<lb ed="#Ba" break="no"/>gustini, in eodem capite, sic: <quote xml:id="Almn78-a13068-Qd1e2370"> Si hoe
+<lb ed="#Ba"/>est ibi esse quod sapere, non per illam
+<lb ed="#Ba"/>sapientiam quam genuit, sapiens est
+<lb ed="#Ba"/>Pater : alioquin non ipsa ab ipso, sed
+<lb ed="#Ba"/>ipse ab illa est. </quote>
+               </p>
+               <p xml:id="Almn78-a13068-d1e2383">
+                  <lb ed="#Ba"/>2. Adhuc, Ibidem, <quote xml:id="Almn78-a13068-Qd1e2387"> Si sapientia
+<lb ed="#Ba"/>quam genuit, causa est ut Pater 
+sa<lb ed="#Ba" break="no"/>piens sit, etiam ut sit, ipsa eadem causa
+<lb ed="#Ba"/>est illi: quod fieri non potest, nisi vel
+<lb ed="#Ba"/>gignendo eum, vel faciendo : sed nec 
+ge<lb ed="#Ba" break="no"/>nitricem, nec conditricem Patris ullo
+<lb ed="#Ba"/>modo quisque dixerit sapientiam 
+geni<lb ed="#Ba" break="no"/>tam: quid enim est insanius ? </quote>
+               </p>
+               <p xml:id="Almn78-a13068-d1e2406">
+                  <lb ed="#Ba"/>3. Adhuc, Sapientia genita ex 
+adjun<lb ed="#Ba" break="no"/>cto supponit pro Filio. Sed, ut dicit 
+An<lb ed="#Ba" break="no"/>selmus, intellectus non capit, quod ille
+<lb ed="#Ba"/>qui ab alio est, idem sit cum eo a quo
+<lb ed="#Ba"/>est : vel quod ille a quo ipse est, vice
+<lb ed="#Ba"/>versa sit ab eo qui ab illo est: quia 
+ali<lb ed="#Ba" break="no"/>ter principiatum esset principium, et 
+es<lb ed="#Ba" break="no"/>set circulus non ordo nature, et esset
+<lb ed="#Ba"/>idem a seipso: quia principium 
+princi<lb ed="#Ba" break="no"/>pit est principium principiati, sicut causa
+<lb ed="#Ba"/>cause est causa causati: que omnia 
+re<lb ed="#Ba" break="no"/>fugit intellectus: ergo non potest esse
+<lb ed="#Ba"/>vel intelligi, quod Pater sit sapiens 
+sa<lb ed="#Ba" break="no"/>pientia genita.
+</p>
+               <p xml:id="Almn78-a13068-d1e2439">
+                  <lb ed="#Ba"/>Sotvtio. Dicendum secundum 
+Catho<lb ed="#Ba" break="no"/>licam fidem, quod hec nullo modo est
+<lb ed="#Ba"/>est vera: Pater sapit per Filium, vel 
+Pa<lb ed="#Ba" break="no"/>ter est sapiens sapientia genita, sicut
+<lb ed="#Ba"/>bene probant objectiones facte in 
+con<lb ed="#Ba" break="no"/>trarium: que objectiones omnes sunt
+<lb ed="#Ba"/>secundum verba Augustini.
+</p>
+               <p xml:id="Almn78-a13068-d1e2457">
+                  <lb ed="#Ba"/>Ad PRIMUM ergo dicendum, quod in
+<lb ed="#Ba"/>precedentibus assignata est ratio: quia
+<lb ed="#Ba"/>scilicet hoc verbum, sapit, alium modum
+<lb ed="#Ba"/>significationis vel generis habet, quam
+<lb ed="#Ba"/>hec verba, diligit vel procedit. Sapit
+<lb ed="#Ba"/>enim dicit motum ad animam, et propter
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>hoc significat qualitatem sapienti 
+inhe<lb ed="#Ba" break="no"/>rentem : et talis qualitas in divinis esse
+<lb ed="#Ba"/>et substantia est. Diligere autem vel
+<lb ed="#Ba"/>amare dicit”° motum a_ diligente 
+proce<lb ed="#Ba" break="no"/>dentem : propter quod talis motus in 
+di<lb ed="#Ba" break="no"/>vinis notionalis est. Et propter hoc non
+<lb ed="#Ba"/>est simile: quia si sapere est esse, 
+se<lb ed="#Ba" break="no"/>quitur quod diligere sit esse. Quia 
+sa<lb ed="#Ba" break="no"/>pere semper essentiale est. Diligere 
+au<lb ed="#Ba" break="no"/>tem secundum quod dicit motum, 
+per<lb ed="#Ba" break="no"/>sonale est: et secundum quod dicit 
+ha<lb ed="#Ba" break="no"/>bitum vel formam, essentiale est : et ideo
+<lb ed="#Ba"/>non est simile quod inductum est pro 
+si<lb ed="#Ba" break="no"/>mili.
+</p>
+               <p xml:id="Almn78-a13068-d1e2505">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod non est 
+si<lb ed="#Ba" break="no"/>mile : quia cum dicitur, Pater operatur
+<lb ed="#Ba"/>per Filium, opus Patris non terminatur
+<lb ed="#Ba"/>nisi ad creaturas, quarum Filius est
+<lb ed="#Ba"/>causa quasi media: et ideo prepositio
+<lb ed="#Ba"/>per, auctoritatem notat in Patre, et 
+sub<lb ed="#Ba" break="no"/>auctoritatem in Filio: quia Filius prin-
+<lb ed="#Ba" break="no"/>cipium est creaturarum quas Pater 
+ope<lb ed="#Ba" break="no"/>ratur: et hoc Filius habet a Patre. Cum
+<lb ed="#Ba"/>autem dicitur, Pater sapit per Filium,
+<lb ed="#Ba"/>habitudo prepositionis non potest 
+no<lb ed="#Ba" break="no"/>tare aliquam auctoritatem vel 
+causalita<lb ed="#Ba" break="no"/>tem ad quam Filius sit principium nisi
+<lb ed="#Ba"/>respectu Patris. In Patre autem nullam
+<lb ed="#Ba"/>habet rationem auctoritatis vel principii
+<lb ed="#Ba"/>vel cause: et ideo locutio falsa. Sicut
+<lb ed="#Ba"/>bene dicitur, rex regit per prepositum
+<lb ed="#Ba"/>hance villam: et non bene dicitur, rex
+<lb ed="#Ba"/>regnat per prepositum. Quia in prima
+<lb ed="#Ba"/>cum dicitur, rex regit per prepositum,
+<lb ed="#Ba"/>notatur quod regimen prapositi 
+princi<lb ed="#Ba" break="no"/>pium est respectu rectoris, et non 
+re<lb ed="#Ba" break="no"/>spectu regis. Cum autem dicitur, regnat
+<lb ed="#Ba"/>per prepositum, notatur quod 
+preposi<lb ed="#Ba" break="no"/>tus principium sit regnandi in rege, et
+<lb ed="#Ba"/>non respectu rectoris.
+</p>
+               <p xml:id="Almn78-a13068-d1e2564">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum dicit
+<lb ed="#Ba"/>Augustinus, quod <quote xml:id="Almn78-a13068-Qd1e2570"> Pater est sapiens 
+sa<lb ed="#Ba" break="no"/>pientia quam genuit, </quote> locutio duplex
+<lb ed="#Ba"/>est: eo quod hoc quod dico, guam, 
+pot<lb ed="#Ba" break="no"/>est facere relationem personalem, vel
+<lb ed="#Ba"/>simplicem sive essentialem. Si facit 
+re<lb ed="#Ba" break="no"/>lationem personalem, locutio falsa est.
+<lb ed="#Ba"/>Sensus enim est, Pater est sapiens 
+sa<lb ed="#Ba" break="no"/>pientia Filio, scilicet quam genuit, hoc
+<pb ed="#Ba" n="522"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>est, Filio quem genuit: et hoc est 
+fal<lb ed="#Ba" break="no"/>sum et hereticum. Si autem faciat 
+rela<lb ed="#Ba" break="no"/>tionem simplicem sive  essentialem,
+<lb ed="#Ba"/>sensus est, Pater est sapiens sapientia
+<lb ed="#Ba"/>essentiali, que est essentia sua, exislens
+<lb ed="#Ba"/>eadem cum sapientia quam genuit. Et
+<lb ed="#Ba"/>hec est vera: quia Pater est sapiens
+<lb ed="#Ba"/>sua essentia, que est eadem cum Filio
+<lb ed="#Ba"/>qui est sapientia quam genuit.
+</p>
+               <p xml:id="Almn78-a13068-d1e2614">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in veritate
+<lb ed="#Ba"/>nihil retractavit per hac verba 
+Augusti<lb ed="#Ba" break="no"/>nus: sed quiainlibro de Zrinitate 
+de<lb ed="#Ba" break="no"/>terminavit, quod haec dictio, quam,
+<lb ed="#Ba"/>potest facere relationem personalem, in
+<lb ed="#Ba"/>quo sensu falsa est locutio, quod 
+impe<lb ed="#Ba" break="no"/>ritis occasionem errandi dare potuit, ideo
+<lb ed="#Ba"/>dixit:se melius dixisse.
+</p>
+               <p xml:id="Almn78-a13068-d1e2634">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum 
+dici<lb ed="#Ba" break="no"/>tur, Pater novit omnia in seipso, et Pater
+<lb ed="#Ba"/>novit omnia in Filio, prepositio, 7, non
+<lb ed="#Ba"/>eamdem notat habitudinem. Quod patet
+<lb ed="#Ba"/>per determinationem quam facit 
+Augu<lb ed="#Ba" break="no"/>stinus. Dicit enim, quod novit omnia in
+<lb ed="#Ba"/>se tamquam seipsum : ipse enim sibiipsi
+<lb ed="#Ba"/>principium est et ratio cognoscendi 
+se<lb ed="#Ba" break="no"/>ipsum, et Filium, et Spiritum sanctum,
+<lb ed="#Ba"/>et omnia alia: quia omnium est 
+princi<lb ed="#Ba" break="no"/>pium. Cum autem dicitur, in Filio 
+tam<lb ed="#Ba" break="no"/>quam suum verbum, verbum quo dicit,
+<lb ed="#Ba"/>non est principium cognoscendi nisi
+<lb ed="#Ba"/>creaturas : quia illas dicit verbo : nec
+<lb ed="#Ba"/>enim seipsum, nec Filium, nec Spiritum
+<lb ed="#Ba"/>sanctum, sed creaturas solas dicit verbo.
+<lb ed="#Ba"/>Et ideo cum dicit, novit omnia in Filio,
+<lb ed="#Ba"/>quia est suum verbum, haec distributio,
+<lb ed="#Ba"/>omnia, non potest distribuere nisi pro
+<lb ed="#Ba"/>creaturis. Tamen si quis subtiliter 
+inspi<lb ed="#Ba" break="no"/>ciat, cum dicitur, Pater novit omnia in
+<lb ed="#Ba"/>Filio, duplex est locutio: eo quod hac
+<lb ed="#Ba"/>determinatio, in Filio,” potest 
+determi<lb ed="#Ba" break="no"/>nare hoc verbum, novit, respectu 
+sup<lb ed="#Ba" break="no"/>positi sive nominativi ut sit sensus,
+<lb ed="#Ba"/>Pater novit in Filio omnia: et sic 
+locu<lb ed="#Ba" break="no"/>tio falsa est, et composita : quia tunc
+<lb ed="#Ba"/>prepositio in, notat auctoritatem [
+go<lb ed="#Ba" break="no"/>scendi in Patre esse a Filio: et hoc est
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>falsum. Vel potest determinare hoc 
+ver<lb ed="#Ba" break="no"/>bum, novi, in comparatione ad 
+apposi<lb ed="#Ba" break="no"/>tum, sive ad accusativum : et sic vera est
+<lb ed="#Ba"/>locutio: quia sic principium noscendi
+<lb ed="#Ba"/>ereaturas a Filio est: quia Filius cst
+<lb ed="#Ba"/>causa essendi. Unde sensus est, novit
+<lb ed="#Ba"/>omnia in Filio, in quantum est suum
+<lb ed="#Ba"/>verbum, hoc est, novit creaturas esse in
+<lb ed="#Ba"/>Filio sicut in causa, in quantum est et
+<lb ed="#Ba"/>principium et verbum creaturam.
+  
+<lb ed="#Ba"/>Ad aliud dicendum, quod secus cst
+<lb ed="#Ba"/>in divinis et in-humanis. Sapiens enim
+<lb ed="#Ba"/>homo non est nisi arte que informat
+<lb ed="#Ba"/>ipsum : et ideo ars causa est sibi ut 
+sa<lb ed="#Ba" break="no"/>piens sit et principium. In divinis autem
+<lb ed="#Ba"/>duplex est : quia si ars essentialiter 
+acci<lb ed="#Ba" break="no"/>piatur, tunc Pater sapiens est seipso,
+<lb ed="#Ba"/>hoc est, essentia sua. Si autem 
+persona<lb ed="#Ba" break="no"/>liter accipiatur, tunc ars dicit 
+sapien<lb ed="#Ba" break="no"/>tiam que ab ipso procedit. Sapientia 
+au<lb ed="#Ba" break="no"/>tem qua ab ipso procedit, nemo. 
+sa<lb ed="#Ba" break="no"/>piens est, formaliter loquendo, sed
+<lb ed="#Ba"/>potius sapientia que procedit in
+<lb ed="#Ba"/>ipsum. Unde magister vel doctor non
+<lb ed="#Ba"/>est sapiens sapientia que procedit in
+<lb ed="#Ba"/>discipulum, sed potius discipulus : 
+ma<lb ed="#Ba" break="no"/>gister autem seipso sapiens est.
+</p>
+               <p xml:id="Almn78-a13068-d1e2760">
+                  <lb ed="#Ba"/>Qu objiciuntur in contrarium, de
+<lb ed="#Ba"/>necessitate procedunt.
+</p>
+            </div>
+            <div xml:id="Almn78-a13068-Dd1e2768">
+               <head xml:id="Almn78-a13068-Hd1e2770">Membrum 3</head>
+               <head xml:id="Almn78-a13068-Hd1e2773" type="question-title">
+  Utrum Filius sapiens sit sapientia genita
+  vel ingenita?
+</head>
+               <p xml:id="Almn78-a13068-d1e2776">
+                  <lb ed="#Ba"/>MEMBRUM III
+<lb ed="#Ba"/>Utrum Filius sapiens sit sapientia genita
+<lb ed="#Ba"/>vel ingenita?
+</p>
+               <p xml:id="Almn78-a13068-d1e2785">
+                  <lb ed="#Ba"/>Tertio queritur, Utrum Filius sapiens
+<lb ed="#Ba"/>sit sapientia genita vel ingenita? Quam
+<lb ed="#Ba"/>questionem Magister movet in libro
+<lb ed="#Ba"/>primo Sententiarum, distinct. XXXII,
+<lb ed="#Ba"/>cap. Post haec solet queria quibusdam,
+<lb ed="#Ba"/>Utrum Filius sit sapiens sapientia 
+ge<lb ed="#Ba" break="no"/>nita, vel ingenita ?
+</p>
+               <p xml:id="Almn78-a13068-d1e2803">
+                  <pb ed="#Ba" n="523"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Et disputat ad eam sic: Si non est
+<lb ed="#Ba"/>sapiens sapientia genita, nec seipso 
+sa<lb ed="#Ba" break="no"/>piens erit: quod falsum est. Seipso enim
+<lb ed="#Ba"/>sapiens est, qui in propria natura sive
+<lb ed="#Ba"/>essentia habet unde sapiens sit. Filius
+<lb ed="#Ba"/>autem in essentialibus habet unde 
+sa<lb ed="#Ba" break="no"/>piens sit. Seipso ergo sapiens est.
+</p>
+               <p xml:id="Almn78-a13068-d1e2826">
+                  <lb ed="#Ba"/>Quod si conceditur, objicitur in 
+con<lb ed="#Ba" break="no"/>trarium sic; Si sapientia genita sapiens
+<lb ed="#Ba"/>est, non videtur esse sapiens sapientia
+<lb ed="#Ba"/>ingenita : cum sapientia genita et 
+inge<lb ed="#Ba" break="no"/>nita opponantur relative. Si autem 
+sa<lb ed="#Ba" break="no"/>pientia ingenita non est sapiens, cum
+<lb ed="#Ba"/>Pater sapiens sit sapientia ingenita, 
+vi<lb ed="#Ba" break="no"/>detur non esse sapiens a Patre; quod
+<lb ed="#Ba"/>iterum falsum est, cum a Patre habeat’
+<lb ed="#Ba"/>omnia.
+</p>
+               <p xml:id="Almn78-a13068-d1e2850">
+                  <lb ed="#Ba"/>Ad hanc questionem respondet 
+Ma<lb ed="#Ba" break="no"/>gister sic: Ad quod dicimus, quod una
+<lb ed="#Ba"/>est sapientia Patris et Filii et Spiritus
+<lb ed="#Ba"/>sancti, sicut una essentia: et tamen 
+Fi<lb ed="#Ba" break="no"/>lius tantum est sapientia genita, et 
+Pa<lb ed="#Ba" break="no"/>ter tantum est sapientia ingenita: et 
+sa<lb ed="#Ba" break="no"/>pientia genita est de sapientia ingenita,
+<lb ed="#Ba"/>vel a sapienta ingenita. Et sumit hance
+<lb ed="#Ba"/>solutionem ab Augustino in libro XV de
+<lb ed="#Ba"/>Trinitate.
+</p>
+               <p xml:id="Almn78-a13068-d1e2874">
+                  <lb ed="#Ba"/>Sed hec solutio videtur mirabilis : quia
+<lb ed="#Ba"/>si Pater est tantum sapiens sapientia 
+in<lb ed="#Ba" break="no"/>genita et in quantum est ingenita: cum
+<lb ed="#Ba"/>per hoc ipsum quod dico, ingeniia, 
+sa<lb ed="#Ba" break="no"/>pientia trahatur ad supponendum pro
+<lb ed="#Ba"/>persona Patris in quantum est 
+innasci<lb ed="#Ba" break="no"/>bilis, per innascibile autem nihil 
+pona<lb ed="#Ba" break="no"/>tur, sed privetur origo, videbitur Pater
+<lb ed="#Ba"/>quasi formaliter sapiens esse sapientia
+<lb ed="#Ba"/>determinata notione : et cum  essentia
+<lb ed="#Ba"/>numquam determinetur notione, 
+vide<lb ed="#Ba" break="no"/>bitur non esse sapiens sapientia 
+essen<lb ed="#Ba" break="no"/>tiali: quod absurdum est: quia una est
+<lb ed="#Ba"/>sapientia trium qua sapientes sunt, et
+<lb ed="#Ba"/>sic sapientia essentiali quasi formaliter
+<lb ed="#Ba"/>quilibet trium sapiens est.
+</p>
+               <p xml:id="Almn78-a13068-d1e2911">
+                  <lb ed="#Ba"/>Ulterius queritur de dicto Augustini,
+<lb ed="#Ba"/>quod ponitur in libro XV de Trinitate,
+<lb ed="#Ba"/>qui dicit, quod <quote xml:id="Almn78-a13068-Qd1e2919"> Spiritus sanctus est sa-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>pientia procedens de Patre, et Filio 
+sa<lb ed="#Ba" break="no"/>pientia. </quote> Hoc enim videtur non esse
+<lb ed="#Ba"/>verum : quia, sicut habitum est, 
+sapien<lb ed="#Ba" break="no"/>tia non appropriatur nisi Filio, et sic
+<lb ed="#Ba"/>Spiritus sanctus non potest dici 
+sapien<lb ed="#Ba" break="no"/>tia : sicut enim proprium unius non est
+<lb ed="#Ba"/>proprium alterius, ita appropriatum
+<lb ed="#Ba"/>unius non est appropriatum alterius.
+</p>
+               <p xml:id="Almn78-a13068-d1e2942">
+                  <lb ed="#Ba"/>Ulterius queritur de hoc quod 
+mo<lb ed="#Ba" break="no"/>vet Magister in prehabita definitione,
+<lb ed="#Ba"/>cap. Ex predictis constat, An scilicet
+<lb ed="#Ba"/>Filius sit sapiens seipso, vel per 
+se<lb ed="#Ba" break="no"/>ipsum ?
+</p>
+               <p xml:id="Almn78-a13068-d1e2955">
+                  <lb ed="#Ba"/>Videtur enim per seipsum sapiens
+<lb ed="#Ba"/>esse, sed non a seipso. Dicit enim 
+Hila<lb ed="#Ba" break="no"/>rius in libro IX de Trinitate: <quote xml:id="Almn78-a13068-Qd1e2963"> Nature,
+  <lb ed="#Ba"/>inquit, cui contradicis, heretice, haec
+  <lb ed="#Ba"/>unitas est, ut ita per se agat Filius, ne
+  <lb ed="#Ba"/>ase agat: etitanon a se agat, ut per se
+  <lb ed="#Ba"/>agat. Intellige Filium agentem, et per
+  <lb ed="#Ba"/>eum Patrem agentem. Nona se agit,
+  <lb ed="#Ba"/>cum Pater in eo manere monstratur.
+  <lb ed="#Ba"/>Perse agit, cum secundum nativita-
+  <lb ed="#Ba"/>tem Filii agit ipse que placita sunt. </quote>
+                  <lb ed="#Ba"/>A simili dicunt quidam, quod per se 
+sa<lb ed="#Ba" break="no"/>piens est, quamvis non a se sapiens sit.
+</p>
+               <p xml:id="Almn78-a13068-d1e2990">
+                  <lb ed="#Ba"/>Quaerit etiam Magister ulterius, quod
+<lb ed="#Ba"/>tamen non oporteret, An una tantum sit
+<lb ed="#Ba"/>sapientia in divinis, vel plures?
+</p>
+               <p xml:id="Almn78-a13068-d1e2999">
+                  <lb ed="#Ba"/>Souvtio, Dicendum, quod Filius 
+sa<lb ed="#Ba" break="no"/>piens sapientia genita sapiens est, sicut
+<lb ed="#Ba"/>dicit Magister, et ex seipso sapiens est:
+<lb ed="#Ba"/>quia ipse est sapientia genita. Sed cum
+<lb ed="#Ba"/>dicitur, quod sapientia genita sapiens
+<lb ed="#Ba"/>sit, ablativus sapientia, construitur in
+<lb ed="#Ba"/>habitudine cause quasi formalis: et hec
+<lb ed="#Ba"/>determinatio, genita, circa ablativum
+<lb ed="#Ba"/>notat positionem originis. Omni eodem
+<lb ed="#Ba"/>modo cum dicitur, Pater sapiens 
+sapien<lb ed="#Ba" break="no"/>tia ingenita, ablativus notat quasi 
+for<lb ed="#Ba" break="no"/>mam: et hoc cum additur, ingeniza,
+<lb ed="#Ba"/>privationem designat originis. Cum 
+au<lb ed="#Ba" break="no"/>tem dicitur, sapiens est seipso, isti 
+abla<lb ed="#Ba" break="no"/>tivi se ipso pronominales designant
+<pb ed="#Ba" n="524"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>identitatem suppositi ejus qui est 
+sa<lb ed="#Ba" break="no"/>piens, et ejus quod est sapientia genita
+<lb ed="#Ba"/>qua sapiens est qui est sapiens. Omni
+<lb ed="#Ba"/>eodem modo dicendum est de hac, 
+Pa<lb ed="#Ba" break="no"/>ter est sapiens sapientia ingenita, et
+<lb ed="#Ba"/>Pater est sapiens seipso. Et iste est 
+in<lb ed="#Ba" break="no"/>tellectus solutionis Magistri.
+</p>
+               <p xml:id="Almn78-a13068-d1e3054">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod sapientia in divinis 
+dici<lb ed="#Ba" break="no"/>tur essentialiter et personaliter. Quando
+<lb ed="#Ba"/>essentialiter dicitur: tunc sapientia 
+ge<lb ed="#Ba" break="no"/>nita que est Filius, est sapientia 
+inge<lb ed="#Ba" break="no"/>nita, hoc est, non genita, que est 
+es<lb ed="#Ba" break="no"/>sentia divina: non enim est distinctio
+<lb ed="#Ba"/>inter essentiam et personam. Quando
+<lb ed="#Ba"/>autem personaliter dicitur: tunc 
+sapien<lb ed="#Ba" break="no"/>tia genita per adjunctum participium
+<lb ed="#Ba"/>trahitur ad supponendum pro persona
+<lb ed="#Ba"/>Filii, et sapientia ingenita per eamdem
+<lb ed="#Ba"/>rationem trahitur ad supponendum pro
+<lb ed="#Ba"/>persona Patris. Et sic verum est, quod
+<lb ed="#Ba"/>opponuntur relative ratione adjuncti. Et
+<lb ed="#Ba"/>sic alia est sapientia genita, et alia 
+inge<lb ed="#Ba" break="no"/>nita : sicut alia est persona Patris, et
+<lb ed="#Ba"/>alia Filii. Sed non est concedendum,
+<lb ed="#Ba"/>quod sapientia ingenita et sapientia 
+ge<lb ed="#Ba" break="no"/>nita sint alia et alia sapientia 
+simplici<lb ed="#Ba" break="no"/>ter, sed potius una et eadem sapientia:
+<lb ed="#Ba"/>quia sapientia sine adjuncto notionali
+<lb ed="#Ba"/>participio supponit pro sapientia 
+essen<lb ed="#Ba" break="no"/>tiali. Unde sicut non sequitur, alius est
+<lb ed="#Ba"/>Deus generans, et alius Deus genitus:
+<lb ed="#Ba"/>ergo generans et genitus sunt alius Deus,
+<lb ed="#Ba"/>sed potius idem neutraliter: ita non 
+se<lb ed="#Ba" break="no"/>quitur, alia est sapientia ingenita, et
+<lb ed="#Ba"/>alia sapientia genita, ergo ingenila et
+<lb ed="#Ba"/>genita sunt alia et alia sapientia, sed 
+po<lb ed="#Ba" break="no"/>tius eadem. Relativum enim diversitatis
+<lb ed="#Ba"/>quod est alius vel alia, diversitatem
+<lb ed="#Ba"/>suam ponit inter participia notionalia
+<lb ed="#Ba"/>adjuncta, et non in nomine 
+essentia<lb ed="#Ba" break="no"/>li cui adjungitur, quod est  
+sapien<lb ed="#Ba" break="no"/>tia.
+</p>
+               <p xml:id="Almn78-a13068-d1e3135">
+                  <lb ed="#Ba"/>Ad 1 quod objicitur, quod essentia 
+de<lb ed="#Ba" break="no"/>terminatur notione, dicendum quod hoc
+<lb ed="#Ba"/>non est verum: imo terminus essentialis
+<lb ed="#Ba"/>ex modo significandi inclinatus ad 
+sup<lb ed="#Ba" break="no"/>positum, ex adjuncto notionali cogitur
+<lb ed="#Ba"/>ad standum pro supposito : et istud sup
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>positum intelligitur determinari notione
+<lb ed="#Ba"/>et non essentia.
+</p>
+               <p xml:id="Almn78-a13068-d1e3157">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de dicto
+<lb ed="#Ba"/>Augustini, dicendum est, quod verum
+<lb ed="#Ba"/>est, quod Spiritus sanctus est sapientia
+<lb ed="#Ba"/>procedens de Patre et Filio sapientia.
+</p>
+               <p xml:id="Almn78-a13068-d1e3168">
+                  <lb ed="#Ba"/>Ad objectum in contrarium, dicendum
+<lb ed="#Ba"/>quod licet sapientia appropriabilis sit 
+Fi<lb ed="#Ba" break="no"/>lio secundum se, et non Spiritui sancto,
+<lb ed="#Ba"/>tamen cum sit de appropriabilibus et non
+<lb ed="#Ba"/>appropriatis, per adjunctum potest trahi
+<lb ed="#Ba"/>ad supponendum pro Spiritu sancto, ut
+<lb ed="#Ba"/>cum dicitur sapientia procedens : 
+proce<lb ed="#Ba" break="no"/>dere enim non convenit nisi Spiritui 
+san<lb ed="#Ba" break="no"/>cto proprie.
+</p>
+               <p xml:id="Almn78-a13068-d1e3191">
+                  <lb ed="#Ba"/>Aviv quod ulterius fqueritur, 
+dicen<lb ed="#Ba" break="no"/>dum est, quod procul dubio proprie 
+lo<lb ed="#Ba" break="no"/>quendo Filius per se sapiens est, sed
+<lb ed="#Ba"/>nona se. Perse enim proprie loquendo
+<lb ed="#Ba"/>exclusionem dicit ejus quod est per 
+acci<lb ed="#Ba" break="no"/>dens. Et ideo per se agit qui per naturam
+<lb ed="#Ba"/>propriam sapit et agit. A se autem dicit
+<lb ed="#Ba"/>exclusionem quasi efficientis sive origi:
+<lb ed="#Ba"/>nis: et tunc Filius non a se agit, neca
+<lb ed="#Ba"/>se sapit : quia in omnibus talibus 
+princi<lb ed="#Ba" break="no"/>pium et originem habet Patrem: sicut
+<lb ed="#Ba"/>ipse dicit, Joan. xiv, 10: Pater in me
+<lb ed="#Ba"/>manens, ipse facit opera. Et, Joan. vu,
+<lb ed="#Ba"/>16: Mea doctrina non est mea, sed efus
+<lb ed="#Ba"/>qui mistt me.
+</p>
+               <p xml:id="Almn78-a13068-d1e3226">
+                  <lb ed="#Ba"/>Apip quod ulterius querit Magister,
+<lb ed="#Ba"/>An una sit sapientia vel plures ? Dicit
+<lb ed="#Ba"/>Magister et bene, quodindignum est 
+re<lb ed="#Ba" break="no"/>sponsione. Omnibus enim etiam parum
+<lb ed="#Ba"/>peritis in theologia notum est, quod 
+re<lb ed="#Ba" break="no"/>lationes sive proprietates non distinguunt
+<lb ed="#Ba"/>essentiam. sed personas tantum. Unde
+<lb ed="#Ba"/>sicut una est deitas trium, ita una 
+sapien<lb ed="#Ba" break="no"/>tia et una bonitas. Et per hoc quod 
+dici<lb ed="#Ba" break="no"/>tur, sapientia genita, et sapientia 
+inge<lb ed="#Ba" break="no"/>nita, non agitur in pluralitatem 
+secun<lb ed="#Ba" break="no"/>dum rem, sed in plures modos 
+signifi<lb ed="#Ba" break="no"/>candi tantum, per quod plures modos co-s
+<lb ed="#Ba"/>gitur ad supponendum pro diversis, licet
+<lb ed="#Ba"/>res sit eadem.
+</p>
+            </div>
+            <div xml:id="Almn78-a13068-Dd1e3262">
+               <head xml:id="Almn78-a13068-Hd1e3264">Membrum 4</head>
+               <head xml:id="Almn78-a13068-Hd1e3267" type="question-title">
+  De verbo Apostoli ad Romanos, XI, 36:
+  Ex ipso, et per ipsum, et in ipso sunt
+  omnia.
+</head>
+               <p xml:id="Almn78-a13068-d1e3270">
+                  <pb ed="#Ba" n="525"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>De verbo Apostoli ad Romanos, XI, 36:
+<lb ed="#Ba"/>Ex ipso, et per ipsum, et in ipso sunt
+<lb ed="#Ba"/>omnia.
+</p>
+               <p xml:id="Almn78-a13068-d1e3286">
+                  <lb ed="#Ba"/>Deinde queritur de verbo Apostoli,
+<lb ed="#Ba"/>ad Roman. x1, 36: <quote xml:id="Almn78-a13068-Qd1e3292">Ex ipso, et per 
+ip<lb ed="#Ba" break="no"/>sum, et in ipso</quote>.
+</p>
+               <p xml:id="Almn78-a13068-d1e3298">
+                  <lb ed="#Ba"/>1. Ubi dicit Augustinus, quod ex ipso
+<lb ed="#Ba"/>dicit propter Patrem, per ipsum propter
+<lb ed="#Ba"/>Kilium, in ipso propter Spiritum 
+san<lb ed="#Ba" break="no"/>ctum.
+</p>
+               <p xml:id="Almn78-a13068-d1e3310">
+                  <lb ed="#Ba"/>In contrarium autem hujus (est quod
+<lb ed="#Ba"/>dicit <name xml:id="Almn78-a13068-Nd1e3316">Ambrosius</name> in libro de Spiritu 
+san<lb ed="#Ba" break="no"/>cto, ubi tractat idem, sic dicens: <quote xml:id="Almn78-a13068-Qd1e3321"> Hec
+<lb ed="#Ba"/>tria, Ex ipso, per ipsum, et in ipso sunt
+<lb ed="#Ba"/>omnia, que verbum esse diximus : 
+eam<lb ed="#Ba" break="no"/>dem enim vim habent omnia haec in 
+ip<lb ed="#Ba" break="no"/>so, et per ipsum, et ex ipso, et cum ipso,
+<lb ed="#Ba"/>et unum in his atque simile omnino et
+<lb ed="#Ba"/>non contrarium intelligitur.</quote>
+               </p>
+               <p xml:id="Almn78-a13068-d1e3338">
+                  <lb ed="#Ba"/>2. Adhuc, Si per habitudines harum
+<lb ed="#Ba"/>prepositionum causa notatur, cum unus
+<lb ed="#Ba"/>modus causandi sit in omnibus tribus
+<lb ed="#Ba"/>personis, videtur quod et ex et in et per
+<lb ed="#Ba"/>referantur ad omnes tres personas 
+equa<lb ed="#Ba" break="no"/>liter.
+</p>
+               <p xml:id="Almn78-a13068-d1e3354">
+                  <lb ed="#Ba"/>Solutio. Dicendum est, quod si 
+atten<lb ed="#Ba" break="no"/>datur substantia causalitatis, tance procul
+<lb ed="#Ba"/>dubio,sicut dicit Ambrosius, hec ad 
+om<lb ed="#Ba" break="no"/>nes tres personas referuntur equaliter :
+<lb ed="#Ba"/>quia sic omnia sunt ex Patre, per 
+Pa<lb ed="#Ba" break="no"/>trem, et in Patre : et omniasunt ex Filio,
+<lb ed="#Ba"/>per Filium, et in Filio : et omnia sunt ex
+<lb ed="#Ba"/>Spiritu sancto, per Spiritum sanctum, et
+<lb ed="#Ba"/>in Spiritu sansto. Si autem attendatur
+<lb ed="#Ba"/>modus causalitatis, tunc ex dicit 
+ratio<lb ed="#Ba" break="no"/>nem principii primi, quod non est ab
+<lb ed="#Ba"/>alio, sed ab ipso est alius : et cum Pater
+<lb ed="#Ba"/>in ordine nature sit principium non de
+<lb ed="#Ba"/>alio de quo alius, per hunc modum signi
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>ficandi appropriatur ei ez. Et similiter
+<lb ed="#Ba"/>cum per dicat habitudinem medie cause
+<lb ed="#Ba"/>et quasi instrumentalis, sicut dicimus,
+<lb ed="#Ba"/>iste percutit per baculum, vel edificat
+<lb ed="#Ba"/>per securim : media autem causa mota
+<lb ed="#Ba"/>sit ab alia et moveat aliud : sic accedit
+<lb ed="#Ba"/>ad Filium, qui est ab alio a quo alius.
+<lb ed="#Ba"/>Et cum prepositio iae dicat 
+continen<lb ed="#Ba" break="no"/>tiam vel conservationem : continentia
+<lb ed="#Ba"/>autem et conservatio. bonitatis sint et
+<lb ed="#Ba"/>amoris, que appropriantur Spiritui
+<lb ed="#Ba"/>sancto : sic habitudo prepositionis 2 
+ac<lb ed="#Ba" break="no"/>cedit ad Spiritum sanctum. Ideo dicit
+<lb ed="#Ba"/>Augustinus, quod ex ipso dicit propter
+<lb ed="#Ba"/>Patrem, per ipsum propter Filium, in
+<lb ed="#Ba"/>ipso propter Spiritum sanctum.
+</p>
+               <p xml:id="Almn78-a13068-d1e3424">
+                  <lb ed="#Ba"/>Quod autem ipso, dicit et non ipsis,
+<lb ed="#Ba"/>notat unitatem essentiz. Fiunt enim 
+sep<lb ed="#Ba" break="no"/>tem modis in Scriptura et notantur 
+di<lb ed="#Ba" break="no"/>stinctiones personarum. Primo 
+significa<lb ed="#Ba" break="no"/>tione, ut Pater, et Filius,et Spiritus 
+san<lb ed="#Ba" break="no"/>ctus. Secundo, suppositione per 
+adjun<lb ed="#Ba" break="no"/>ctum, ut Deus de Deo, sapientia de 
+sa<lb ed="#Ba" break="no"/>pientia. Tertio, consignificatione numeri
+<lb ed="#Ba"/>pluralis, ut, Genes. mi, 5: Britis sicut
+<lb ed="#Ba"/>dit, hoc est, divine persone. Quarto,
+<lb ed="#Ba"/>connotatione, ut in his verbis, mittere,
+<lb ed="#Ba"/>mitti, dare, dari, in quibus per 
+connota<lb ed="#Ba" break="no"/>tionem distinguitur missus a mittente.
+<lb ed="#Ba"/>Quinto, modo loquendi, ut in Psalmo
+<lb ed="#Ba"/>xxx, 6: Verbo Domini cel firmati
+<lb ed="#Ba"/>sunt. Ubi ex modo loquendi, quia 
+obli<lb ed="#Ba" break="no"/>qui transitivi sunt, notatur quod Domine
+<lb ed="#Ba"/>dicit propter Patrem, et verbo propter
+<lb ed="#Ba"/>Filium. Sexto, numero verborum, ut,
+<lb ed="#Ba"/>Isa, vi, 3: Sanctus, sanctus, sanctus.
+<lb ed="#Ba"/>Ubi non invenitur ratio quare ter dixerit
+<lb ed="#Ba"/>sanctus, nisi propter tres personas. 
+Sep<lb ed="#Ba" break="no"/>timo, verborum ordine, ut in Psalmo
+<lb ed="#Ba"/>LxvI, 7 et 8 : Benedicat nos Deus Deus 
+no<lb ed="#Ba" break="no"/>ster! Benedicat nos Deus. Ubi ex ordine
+<lb ed="#Ba"/>primum Deus notat Patrem qui non est
+<lb ed="#Ba"/>ab alio, secundum Deus notat Filium qui
+<lb ed="#Ba"/>ab alio est. Et cum subdit: Benedicai nos
+<lb ed="#Ba"/>Deus, notat Spiritum sanctum qui est a
+<lb ed="#Ba"/>Patre et Filio. Et cum subjungit : £7 
+me<lb ed="#Ba" break="no"/>tuant eum, et non eos, notat unitatem
+<lb ed="#Ba"/>essentie in tribus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

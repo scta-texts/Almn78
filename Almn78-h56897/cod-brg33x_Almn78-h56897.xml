@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 102</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 102</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="256"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h56897"><!-- p2t16q102 -->
+            <head xml:id="Almn78-h56897-Hd1e106">Quaestio 102</head>
+            <head xml:id="Almn78-h56897-Hd1e109" type="question-title">
+    De gratia tria quaeruntur
+  </head>
+            <p xml:id="Almn78-h56897-d1e112">
+               <pb ed="#Bc" n="256"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO CI.
+<lb ed="#Bc"/>De gratia tria quaeruntur.
+</p>
+            <p xml:id="Almn78-h56897-d1e123">
+               <lb ed="#Bc"/>Deinde, Querendum est de hoc quod
+<lb ed="#Bc"/>dicitur in illo cap. St vero queritur,
+<lb ed="#Bc"/>Quomodo ipsa gratia preveniens 
+me<lb ed="#Bc" break="no"/>reatur augeri1 ?
+</p>
+            <p xml:id="Almn78-h56897-d1e134">
+               <lb ed="#Bc"/>Et queruntur tria in capite illo.
+<lb ed="#Bc"/>Primum est, Qualiter gratia 
+auge<lb ed="#Bc" break="no"/>tur?
+<lb ed="#Bc"/>Secundum, De divisione bonorum
+<lb ed="#Bc"/>quam ibidem dat Augustinus.
+<lb ed="#Bc"/>Tertium, Si virtute aliquis male possit
+<lb ed="#Bc"/>uti ?
+</p>
+            <div xml:id="Almn78-h56897-Dd1e153">
+               <head xml:id="Almn78-h56897-Hd1e155">Membrum 1</head>
+               <head xml:id="Almn78-h56897-Hd1e158" type="question-title">
+        Qualiter gratia augetur
+      </head>
+               <p xml:id="Almn78-h56897-d1e161">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Qualiter gratia augetur ?
+</p>
+               <p xml:id="Almn78-h56897-d1e168">
+                  <lb ed="#Bc"/>Ad primum objicitur sic :
+<lb ed="#Bc"/>1. Augeri non potest nisi quod habet
+<lb ed="#Bc"/>quantitatem : sed gratia et virtus 
+nul<lb ed="#Bc" break="no"/>lam habent quantitatem : ergo videtur,
+<lb ed="#Bc"/>quod augeri non possunt.
+</p>
+               <p xml:id="Almn78-h56897-d1e181">
+                  <lb ed="#Bc"/>2. Adhuc, Jam habitum est paulo 
+an<lb ed="#Bc" break="no"/>te, quod hominis damnati per peccatum
+<lb ed="#Bc"/>duo sunt status, scilicet ante 
+reparatio<lb ed="#Bc" break="no"/>nem, et post reparationem. Et ante 
+re<lb ed="#Bc" break="no"/>parationem necesse est eum peccare
+<lb ed="#Bc"/>damnabiliter, post reparationem vero
+<lb ed="#Bc"/>venialiter. Uterque status facit ad 
+dimi<lb ed="#Bc" break="no"/>nutionem gratiae et virtutis, et non ad
+<lb ed="#Bc"/>augmentum. Ergo nullus status hominis
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>est in quo gratia et virtus possint 
+auge<lb ed="#Bc" break="no"/>ri in ipso : in hoc ergo non potest 
+auge<lb ed="#Bc" break="no"/>ri virtus et gratia.
+</p>
+               <p xml:id="Almn78-h56897-d1e213">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Profectus meriti est in homine :
+<lb ed="#Bc"/>profectus meriti auget bonum gratia et
+<lb ed="#Bc"/>virtutis : ergo videtur, quod gratia et
+<lb ed="#Bc"/>virtus continue augentur in sanctis.
+</p>
+               <p xml:id="Almn78-h56897-d1e226">
+                  <lb ed="#Bc"/>2. Adhuc, Luc. u, 52: Et Jesus 
+pro<lb ed="#Bc" break="no"/>fictebat sapientia, et extate, et gratia
+<lb ed="#Bc"/>apud Deum et homines. Non potest hoc
+<lb ed="#Bc"/>intelligi de Jesu in propria persona :
+<lb ed="#Bc"/>quia ab instanti conceptionis propter
+<lb ed="#Bc"/>unionem divinitatis plenus fuit omni
+<lb ed="#Bc"/>gratia, et crescere non potuit: oportet
+<lb ed="#Bc"/>ergo, quod intelligatur per effectum in
+<lb ed="#Bc"/>sanctis : videtur ergo, quod 
+incremen<lb ed="#Bc" break="no"/>tum accipiat gratia et virtus in homine :
+<lb ed="#Bc"/>ergo gratia et virtus augentur.
+</p>
+               <p xml:id="Almn78-h56897-d1e252">
+                  <lb ed="#Bc"/>Ulterius queritur, Quomodo 
+perfici<lb ed="#Bc" break="no"/>tur gratia ?
+</p>
+               <p xml:id="Almn78-h56897-d1e259">
+                  <lb ed="#Bc"/>1. Omnis enim perfectio est ad_ 
+ali<lb ed="#Bc" break="no"/>quem terminum : ad summum gratia et
+<lb ed="#Bc"/>perfectum nemo venit: videtur ergo,
+<lb ed="#Bc"/>quod nemo in hac vita perfectus potest
+<lb ed="#Bc"/>esse.
+</p>
+               <p xml:id="Almn78-h56897-d1e272">
+                  <lb ed="#Bc"/>2, Adhuc, Aristoteles in II 
+Physico<lb ed="#Bc" break="no"/>rum dicit, quod <quote xml:id="Almn78-h56897-Qd1e278"> perfectum est cui
+<lb ed="#Bc"/>nihil deest: </quote> sed nemo est cui nihil
+<lb ed="#Bc"/>desit in gratia: detur ergo, quod nihil
+<lb ed="#Bc"/>perfectum sit in hac vita.
+</p>
+               <p xml:id="Almn78-h56897-d1e288">
+                  <lb ed="#Bc"/>3. Adhuc, Jacobi, m1, 2: In multis
+<lb ed="#Bc"/>offendimus omnes. Si hoc dicit Aposto
+<pb ed="#Bc" n="257"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>lus dese, multo magis de aliis est verum.
+<lb ed="#Bc"/>Videtur ergo, quod in nullo gratia 
+per<lb ed="#Bc" break="no"/>fecla est.
+</p>
+               <p xml:id="Almn78-h56897-d1e307">
+                  <lb ed="#Bc"/>CONTRA:
+<lb ed="#Bc"/>Ad Hebr. v. 14 : Perfectorum est 
+so<lb ed="#Bc" break="no"/>lidus cibus : eorum qui pro consuetudine
+<lb ed="#Bc"/>exercitatos habent sensus ad 
+diseretio<lb ed="#Bc" break="no"/>nem boni ac mali.
+</p>
+               <p xml:id="Almn78-h56897-d1e320">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod sicut dicit
+<lb ed="#Bc"/>Augustinus et in Litlera ponitur, gratia
+<lb ed="#Bc"/>meretur augeri, ut aucta mereatur 
+per<lb ed="#Bc" break="no"/>fici.
+</p>
+               <p xml:id="Almn78-h56897-d1e331">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+du<lb ed="#Bc" break="no"/>plex est perfectio : corporalis, et 
+spiri<lb ed="#Bc" break="no"/>tualis : et duplex est quantitas, ut dicit
+<lb ed="#Bc"/>Augustinus in libro de Quantitate 
+ani<lb ed="#Bc" break="no"/>me, scilicet corporalis, et virtualis. Que
+<lb ed="#Bc"/>corporaliter augentur, augentur 
+secun<lb ed="#Bc" break="no"/>dum quantitalem corporalem 
+divisibi<lb ed="#Bc" break="no"/>lem. Que vero spiritualiter et virtualiter
+<lb ed="#Bc"/>augentur, augentur secundum 
+quantita<lb ed="#Bc" break="no"/>tem virtualem dupliciter : vel secundum
+<lb ed="#Bc"/>recessum a contrario et secundum 
+acces<lb ed="#Bc" break="no"/>sum ad terminum, secundum quod dicit
+<lb ed="#Bc"/>Auctor libri Sex principiorum ', quod
+<lb ed="#Bc"/>albius dicitur nigro impermixtius 
+secun<lb ed="#Bc" break="no"/>dum recessum a contrario : et dicitur
+<lb ed="#Bc"/>etiam albius sive lucidius secundum
+<lb ed="#Bc"/>accessum ad hoc quod est in termino
+<lb ed="#Bc"/>albedinis cujus est prima nominis 
+impo<lb ed="#Bc" break="no"/>sitio, quod hoc vere dicitur album.
+</p>
+               <p xml:id="Almn78-h56897-d1e375">
+                  <lb ed="#Bc"/>Dicendum ergo, quod gratia non 
+au<lb ed="#Bc" break="no"/>getur corporali augmento, sed spirituali :
+<lb ed="#Bc"/>et augetur per accessum ad terminum,
+<lb ed="#Bc"/>id est ad vere bonum cui nihil admixtum
+<lb ed="#Bc"/>est de malo: quia illi vere imponitur
+<lb ed="#Bc"/>nomen gratiz, et illud vere dicitur 
+bo<lb ed="#Bc" break="no"/>num, et assimilatur primo bono magis
+<lb ed="#Bc"/>inter bona, de quo dicitur, Marc. x, 17:
+<lb ed="#Bc"/>Nemo bonus, nisi unus Deus ?. Ht sic
+<lb ed="#Bc"/>magis bonum est quod magis 
+assimila<lb ed="#Bc" break="no"/>tur prime bonitati. Et hoc est bonum
+<lb ed="#Bc"/>gratia.
+</p>
+               <p xml:id="Almn78-h56897-d1e404">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod est 
+augmen<lb ed="#Bc" break="no"/>tum proportionatum statui, et est 
+aug<lb ed="#Bc" break="no"/>mentum simpliciter. Augmentum pro
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>portionatum statui hominis potest 
+ac<lb ed="#Bc" break="no"/>cipere homo ex merito : augmentum
+<lb ed="#Bc"/>puritatis simpliciter non potest homo 
+ac<lb ed="#Bc" break="no"/>cipere in hac vita : quia dicit Joannes in
+<lb ed="#Bc"/>prima canonica, 1, 8: Si dixerimus 
+quo<lb ed="#Bc" break="no"/>niam peccatum non habemus, etc., et
+<lb ed="#Bc"/>Proverb. xx, 9: Quis potest dicere ?
+<lb ed="#Bc"/>Mundum est cor meum, purus suma
+<lb ed="#Bc"/>peccato ? nec infans cujus vita unius diei
+<lb ed="#Bc"/>est super terram : quia ad minus habet
+<lb ed="#Bc"/>originale. Et super illud Augustinus :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h56897-Qd1e440"> Si omnes sancti et sancta convenirent
+<lb ed="#Bc"/>et dicerent, quia peccatum non habemus,
+<lb ed="#Bc"/>seipsos seducerent, et in ipsis veritas
+<lb ed="#Bc"/>non esset. Excepta beata Virgine, de qua
+<lb ed="#Bc"/>cum de peccatis agitur, propter 
+hono<lb ed="#Bc" break="no"/>rem Domini Nostri Jesu Christi nullam
+<lb ed="#Bc"/>volo haberi questionem.</quote> —
+</p>
+               <p xml:id="Almn78-h56897-d1e457">
+                  <lb ed="#Bc"/>Unde ad id quod objicitur de veniali,
+<lb ed="#Bc"/>de quo non potest homo sibi cavere
+<lb ed="#Bc"/>etiam post reparationem, dicendum
+<lb ed="#Bc"/>quod veniale non excludit gratiam, nec
+<lb ed="#Bc"/>gratia incrementum : quia non est 
+sim<lb ed="#Bc" break="no"/>pliciter peccatum, sed ad peccatum 
+tan<lb ed="#Bc" break="no"/>tum dispositio.
+</p>
+               <p xml:id="Almn78-h56897-d1e476">
+                  <lb ed="#Bc"/>Ad iia gue objiciuntur in 
+contra<lb ed="#Bc" break="no"/>rium, dicendum quod simpliciter 
+conce<lb ed="#Bc" break="no"/>denda sunt et procedunt.
+</p>
+               <p xml:id="Almn78-h56897-d1e485">
+                  <lb ed="#Bc"/>Ad id quod ulterius querilur de 
+perfe<lb ed="#Bc" break="no"/>ctione gratie, dicendum quod perfectio
+<lb ed="#Bc"/>duplex est, simpliciter scilicet, et 
+pro<lb ed="#Bc" break="no"/>portionata statui. Nemo simpliciter est
+<lb ed="#Bc"/>perfectus, nisi solus Deus : secundum
+<lb ed="#Bc"/>modum autem status sancti possunt esse
+<lb ed="#Bc"/>perfecti, quibus nihil deest de his que
+<lb ed="#Bc"/>pertinent ad statum virtutis et 
+me<lb ed="#Bc" break="no"/>riti.
+</p>
+               <p xml:id="Almn78-h56897-d1e507">
+                  <lb ed="#Bc"/>Av axiup dicendum, quod nihil ita
+<lb ed="#Bc"/>simpliciter perfectum est cui nihil desit
+<lb ed="#Bc"/>preter Deum: sed multa sunt ita 
+per<lb ed="#Bc" break="no"/>fecta, quod nihil deest eis de his que
+<lb ed="#Bc"/>pertinent ad statum merili. Et hoc est
+<lb ed="#Bc"/>quod dicitur, I ad Corinth. 1, 5 et seq.,
+<lb ed="#Bc"/>in Glossa et in textu : In omnibus divites
+<lb ed="#Bc"/>acti estis in illo, in omni verbo, et in
+<lb ed="#Bc"/>omni scientia : sicut testimonium Christi
+<pb ed="#Bc" n="258"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>confirmatum est in vobis: ita ut nihil
+<lb ed="#Bc"/>desit vobis in ulla gratia, exspectantibus
+<lb ed="#Bc"/>revelationem Domini nostri Jesu Christt,
+<lb ed="#Bc"/>gui et confirmabtt vos usque in finem
+<lb ed="#Bc"/>sine crimine, in die adventus Domint
+<lb ed="#Bc"/>nostri Jesu Chrisit.
+</p>
+               <p xml:id="Almn78-h56897-d1e546">
+                  <lb ed="#Bc"/>Ad uLtimuM dicendum, quod 
+Aposto<lb ed="#Bc" break="no"/>lus dicit, quod desit ei et aliis perfectio
+<lb ed="#Bc"/>simpliciter, et non secundum statum.
+</p>
+               <p xml:id="Almn78-h56897-d1e555">
+                  <lb ed="#Bc"/>Ad id quod in contrarium objicitur,
+<lb ed="#Bc"/>dicendum quod Apostolus ibi loquitur
+<lb ed="#Bc"/>de perfectione status, quo multi sunt
+<lb ed="#Bc"/>perfecti : cum nihil desit eis de his
+<lb ed="#Bc"/>que pertinent ad meritum. Ad Philip.
+<lb ed="#Bc"/>m, 12: Non quod jam acceperim, aut
+<lb ed="#Bc"/>jam perfectus sim: sequor autem, si
+<lb ed="#Bc"/>quo modo comprehendam in quo 
+com<lb ed="#Bc" break="no"/>prehensus sum a Christo Jesu.
+</p>
+            </div>
+            <div xml:id="Almn78-h56897-Dd1e578">
+               <head xml:id="Almn78-h56897-Hd1e580">Membrum 2</head>
+               <head xml:id="Almn78-h56897-Hd1e583" type="question-title">
+        De divisione bonorum in magna, 
+        minima, et media
+      </head>
+               <p xml:id="Almn78-h56897-d1e586">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De divisione bonorum in magna, 
+mini<lb ed="#Bc" break="no"/>ma, et media
+</p>
+               <p xml:id="Almn78-h56897-d1e595">
+                  <lb ed="#Bc"/>Secundo, Queritur de divisione 
+bono<lb ed="#Bc" break="no"/>rum quam dat Augustinus, in bona
+<lb ed="#Bc"/>magna, minima, et media.
+</p>
+               <p xml:id="Almn78-h56897-d1e604">
+                  <lb ed="#Bc"/>Dicit enim, quod species quorumlibet
+<lb ed="#Bc"/>corporum minima bona sunt, sine quibus
+<lb ed="#Bc"/>recte vivi potest. Virtutes autem quibus
+<lb ed="#Bc"/>recte vivitur, magna bona sunt. Potentie
+<lb ed="#Bc"/>vero animi, sine quibus recte vivi non
+<lb ed="#Bc"/>potest, media bona sunt.
+</p>
+               <p xml:id="Almn78-h56897-d1e621">
+                  <lb ed="#Bc"/>Videtur autem, quod hec divisio 
+in<lb ed="#Bc" break="no"/>sufficiens sit :
+<lb ed="#Bc"/>1. Multa enim alia sunt bona que 
+re<lb ed="#Bc" break="no"/>feruntur ad bonam vitam preter ista,
+<lb ed="#Bc"/>sicut sunt bona fortune, de quibus dicit
+<lb ed="#Bc"/>Aristoteles in primo Ethicorum, quod
+<lb ed="#Bc"/>organice deserviunt ad felicem vitam,
+<lb ed="#Bc"/>sive ad felicitatem.
+</p>
+               <p xml:id="Almn78-h56897-d1e641">
+                  <lb ed="#Bc"/>2. Adhuc, Bona fortune vicinius 
+vi<lb ed="#Bc" break="no"/>dentur se habere ad felicitatem quam
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>species corporum : quia, sicut dicit
+<lb ed="#Bc"/>Aristoteles ibidem, species corporum
+<lb ed="#Bc"/>non nisi decorant beatitudinem: bona
+<lb ed="#Bc"/>autem fortune organice deserviunt: et
+<lb ed="#Bc"/>vicinius est quod organice deservit,
+<lb ed="#Bc"/>quam id quod decorat solum.
+</p>
+               <p xml:id="Almn78-h56897-d1e663">
+                  <lb ed="#Bc"/>3. Adhuc, In bonis magnis que sunt
+<lb ed="#Bc"/>virtutes, multe sunt differentia. In his
+<lb ed="#Bc"/>enim est virtus theologica, virtus 
+con<lb ed="#Bc" break="no"/>suetudinalis, et donum Spiritus sancti :
+<lb ed="#Bc"/>et in virtute consuetudinali est bonum
+<lb ed="#Bc"/>in genere, bonum circumstantie, et 
+bo<lb ed="#Bc" break="no"/>num virtutis, de quibus omnibus nullam
+<lb ed="#Bc"/>facit mentionem Augustinus : et sic 
+vide<lb ed="#Bc" break="no"/>tur esse diminutus.
+</p>
+               <p xml:id="Almn78-h56897-d1e685">
+                  <lb ed="#Bc"/>Solutio. Dicendum quod bona que
+<lb ed="#Bc"/>enumerat Augustinus, non enumerantur
+<lb ed="#Bc"/>secundum diversitates generum vel 
+spe<lb ed="#Bc" break="no"/>cieruin, sed secundum quantitatem,
+boni<lb ed="#Bc" break="no"/>tatis qua faciunt ad rectam vitam et
+<lb ed="#Bc"/>bonum usum : et ideo dividit in magna,
+<lb ed="#Bc"/>minima, et media: vocans illa magna,
+<lb ed="#Bc"/>que essentialiter et causaliter constituunt
+<lb ed="#Bc"/>rectam vilam et bonum usum, et ad
+<lb ed="#Bc"/>alium usum referri non possunt. Et 
+vo<lb ed="#Bc" break="no"/>cans illa minima, que nec essentialiter,
+<lb ed="#Bc"/>nec causaliter ad rectam vitam 
+referun<lb ed="#Bc" break="no"/>tur, et aliquando referuntur ad malum
+<lb ed="#Bc"/>usum. Et vocans illa media, sine quibus
+<lb ed="#Bc"/>recta vita et bonus usus non est, licet
+<lb ed="#Bc"/>aliquando aliquis possit eis abuti. Et
+<lb ed="#Bc"/>secundum hoc Augustini divisio bona et
+<lb ed="#Bc"/>sufficiens est. Bonum enim, ut dicit
+<lb ed="#Bc"/>Dionysius in libro de Divinis 
+nomini<lb ed="#Bc" break="no"/>bus ', si perfectam rationem boni haberé
+<lb ed="#Bc"/>debeat, tria debet habere, scilicet quod
+<lb ed="#Bc"/>sita bono, et in bono plantatum et ad
+<lb ed="#Bc"/>bonum. Unde illud bonum a quo recta
+<lb ed="#Bc"/>vita est plantata, et bonus usus recta
+<lb ed="#Bc"/>vite, et ad quod est recta vita et bonus
+<lb ed="#Bc"/>usus recte vite, hoc magnum bonam —
+<lb ed="#Bc"/>est. Illud autem bonum a quo recta vita
+<lb ed="#Bc"/>non est, nec bonus usus recte -vite, et
+<lb ed="#Bc"/>ad quod non est, vocatur minimum
+<lb ed="#Bc"/>bonum : quia nihil facit ad bonum et
+<lb ed="#Bc"/>rectam vitam nisi per occasionem. Illud
+<pb ed="#Bc" n="259"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>vero bonum a quo recta vita essentialiter
+<lb ed="#Bc"/>per se non est, sine quo tamen esse non
+<lb ed="#Bc"/>potest, sicut hberum arbitrium, et 
+intel<lb ed="#Bc" break="no"/>lectus, et voluntas, medium bonum. [it
+<lb ed="#Bc"/>hoc modo data est divisio Augustini : et
+<lb ed="#Bc"/>hoc modo inducitur contra Pelagium,
+<lb ed="#Bc"/>qui dixit, quod media bona 
+constitue<lb ed="#Bc" break="no"/>rent bonam vitam, quod falsum est. De
+<lb ed="#Bc"/>aliis bonis non tractat, quia non sunt
+<lb ed="#Bc"/>presentis intentionis.
+</p>
+               <p xml:id="Almn78-h56897-d1e781">
+                  <lb ed="#Bc"/>Et per hoc patet solutio ad tria 
+obje<lb ed="#Bc" break="no"/>cta in contrarium.
+</p>
+               <p xml:id="Almn78-h56897-d1e788">
+                  <lb ed="#Bc"/>De his tamen jamdudum facta est
+<lb ed="#Bc"/>summa que intitulatur de bono, in qua
+<lb ed="#Bc"/>disposite de omnibus differentiis 
+bono<lb ed="#Bc" break="no"/>rum et oppositorum malorum tractatum
+<lb ed="#Bc"/>est: que multum vulgata est, et 
+com<lb ed="#Bc" break="no"/>muniter habetur: et propter hoc non
+<lb ed="#Bc"/>oportet de talibus hic inquirere.
+</p>
+            </div>
+            <div xml:id="Almn78-h56897-Dd1e807">
+               <head xml:id="Almn78-h56897-Hd1e809">Membrum 3</head>
+               <head xml:id="Almn78-h56897-Hd1e812" type="question-title">
+        Utrum virtute aliquis possit male uti
+      </head>
+               <p xml:id="Almn78-h56897-d1e815">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum virtute aliquis possit male uti ?
+</p>
+               <p xml:id="Almn78-h56897-d1e822">
+                  <lb ed="#Bc"/>Tertio queritur et ultimo, Utrum 
+vir<lb ed="#Bc" break="no"/>tute aliquis male possit uti ?
+</p>
+               <p xml:id="Almn78-h56897-d1e829">
+                  <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Augustinus in libro I de Doctrina
+<lb ed="#Bc"/>Christiana, ubi distinguit inter frui et
+<lb ed="#Bc"/>uli, dicit, quod virtutes quibusdam 
+per<lb ed="#Bc" break="no"/>suaserunt, quod eas propter se 
+dilige<lb ed="#Bc" break="no"/>rent, sicut fuerunt Socratici Philosophi.
+<lb ed="#Bc"/>Quod non est faciendum nisi de summo
+<lb ed="#Bc"/>bono et incommunicabili. Illi ergo male
+<lb ed="#Bc"/>usi sunt virtulibus: et sic aliquis male
+<lb ed="#Bc"/>uli posset eis.
+</p>
+               <p xml:id="Almn78-h56897-d1e854">
+                  <lb ed="#Bc"/>2. Adhuc, Hoc idem dicit Boetius in
+<lb ed="#Bc"/>proemio Arithmetice, sic : <quote xml:id="Almn78-h56897-Qd1e860"> Socrates
+<lb ed="#Bc"/>in exhortationibus suis cum virtutem
+<lb ed="#Bc"/>laudaret, ét diceret eam omnium 
+bono<lb ed="#Bc" break="no"/>rum matrem esse perfectam, que cuncta
+<lb ed="#Bc"/>difficilia redigat ad facilitatem. Hoc non
+<lb ed="#Bc"/>convenit, nec est attribuendum alicui
+<lb ed="#Bc"/>bono creato, sed increato solum. </quote> Qui
+<lb ed="#Bc"/>ergo hoc attribuit virluti create, male
+<lb ed="#Bc"/>utitur virtute : et sic conlingit virtutibus
+<lb ed="#Bc"/>male uti.
+</p>
+               <p xml:id="Almn78-h56897-d1e884">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Augustinus in libro II de Libero 
+arbi<lb ed="#Bc" break="no"/>trio dicit, et ponitur in Lztéera in 
+se<lb ed="#Bc" break="no"/>quenti distinctione, quod virtus est bona
+<lb ed="#Bc"/>qualitas mentis, qua bene vivitur, qua
+<lb ed="#Bc"/>nemo male utitur. Ergo videtur, quod
+<lb ed="#Bc"/>virtute non contingat male uti.
+</p>
+               <p xml:id="Almn78-h56897-d1e902">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod virtutes 
+du<lb ed="#Bc" break="no"/>plices sunt, infuse scilicet, et acquisite :
+<lb ed="#Bc"/>informes et formate. Virtutibus 
+theolo<lb ed="#Bc" break="no"/>gicis formatis numquam contingit male
+<lb ed="#Bc"/>uti. Virtutibus autem acquisitis per
+<lb ed="#Bc"/>assuetudinem vel per doctrinam 
+contin<lb ed="#Bc" break="no"/>git male uti per accidens et non per se:
+<lb ed="#Bc"/>contingit enim aliquid attribuere virtuti
+<lb ed="#Bc"/>quod non convenit ei nisi per accidens,
+<lb ed="#Bc"/>sicut quod propter se diligenda sit, cum
+<lb ed="#Bc"/>non propter se diligenda sit, sed per se:
+<lb ed="#Bc"/>propter se enim diligitur quod ad alium
+<lb ed="#Bc"/>finem non refertur, quod non est 
+facien<lb ed="#Bc" break="no"/>dum nisi de Trinitate, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus. Per se vero diligitur qui in natura
+<lb ed="#Bc"/>et essentia propria habet quare diligatur,
+<lb ed="#Bc"/>sicut honestum et partes honesti. Sicut
+<lb ed="#Bc"/>enim dicit Tullius, <quote xml:id="Almn78-h56897-Qd1e943"> honestum est quod
+<lb ed="#Bc"/>sua propria vi trahit ut ametur, et sua
+<lb ed="#Bc"/>propria dignitate nos allicit *. </quote>
+               </p>
+               <p xml:id="Almn78-h56897-d1e951">
+                  <lb ed="#Bc"/>Ad PRIMUM ergo dicendum, quod cum
+<lb ed="#Bc"/>dicitur aliquid per se diligi, #quivoce
+<lb ed="#Bc"/>sumitur per se. Potest enim per se sumi
+<lb ed="#Bc"/>per oppositionem ad propter aliud: et
+<lb ed="#Bc"/>sic non sunt virtutes propter se 
+dili<lb ed="#Bc" break="no"/>gendz, sed dilectio earum referenda est
+<lb ed="#Bc"/>ad dilectionem Dei: et sic eam Socratici
+<lb ed="#Bc"/>dilexerunt: quia, sicut dicit Plato in
+<lb ed="#Bc"/>Mennone, Socrates dixit, quod virtus non
+<pb ed="#Bc" n="260"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>acquiritur doctrina vel assuetudine, sed
+<lb ed="#Bc"/>dono Dei. Et hoc dicitur etiam, Sapient.
+<lb ed="#Bc"/>vin, 2i : Btu scivt guoniam non poteram
+<lb ed="#Bc"/>esse continens, nisi Deus det :et hoc
+<lb ed="#Bc"/>ipsum erat sapientie,scire cujus esset hoc
+<lb ed="#Bc"/>donum : adit Dominum, et deprecatus
+<lb ed="#Bc"/>sum illum ex intimis precordiis meis.
+<lb ed="#Bc"/>Continentia enim, ut dicit Aristoteles
+<lb ed="#Bc"/>in VII Ethicorum, idem est quod mora
+<lb ed="#Bc"/>in mente, quando scilicet aliquis vi
+<lb ed="#Bc"/>passionis, timoris scilicet vel ire et 
+tri<lb ed="#Bc" break="no"/>stitie vel gaudii, non extruditur extra
+<lb ed="#Bc"/>repagula mentis, que sunt limites virtu
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tis: et hoc non potest esse nisi per 
+vir<lb ed="#Bc" break="no"/>tutem: et talis numquam male utitur
+<lb ed="#Bc"/>virtute, sed semper bene.
+</p>
+               <p xml:id="Almn78-h56897-d1e1014">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod licet hoc fiat
+<lb ed="#Bc"/>virtute increata sicut per causam 
+pri<lb ed="#Bc" break="no"/>mam, tamen fit virtutibus acquisilis et
+<lb ed="#Bc"/>infusis sicut per causas proximas : unde
+<lb ed="#Bc"/>hoc sic attribuere virtutibus non est 
+vir<lb ed="#Bc" break="no"/>tutibus male uti.
+</p>
+               <p xml:id="Almn78-h56897-d1e1030">
+                  <lb ed="#Bc"/>Intup quod in contrarium objicitur,
+<lb ed="#Bc"/>concedendum est: et illo modo quo 
+di<lb ed="#Bc" break="no"/>ctum est intelligendum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 115</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 115</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="345"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h76974"><!-- p2t18q115 -->
+            <head xml:id="Almn78-h76974-Hd1e106">Quaestio 115</head>
+            <head xml:id="Almn78-h76974-Hd1e109" type="question-title">
+    De septem vitiis capitalibus, que mortalia dicuntur in communi.
+  </head>
+            <p xml:id="Almn78-h76974-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXV.
+<lb ed="#Bc"/>De septem vitiis capitalibus, que mortalia dicuntur in communi.
+</p>
+            <p xml:id="Almn78-h76974-d1e121">
+               <lb ed="#Bc"/>Sed transeundum est ad tractandum
+<lb ed="#Bc"/>de mortali peccato et differentiis ejus.
+<lb ed="#Bc"/>Hoc enim est quod, ut dicit Magister,
+<lb ed="#Bc"/>inter differentias peccatorum 
+proxi<lb ed="#Bc" break="no"/>mum occurrit post veniale peccatum.
+</p>
+            <p xml:id="Almn78-h76974-d1e134">
+               <lb ed="#Bc"/>Primo ergo queritur, Quid sit mortale
+<lb ed="#Bc"/>peccatum ?
+<lb ed="#Bc"/>Secundo, Que sit differentia inter
+<lb ed="#Bc"/>mortale et criminale?
+<lb ed="#Bc"/>Tertio, Que sit differentia inter 
+cri<lb ed="#Bc" break="no"/>minale et radicale?
+</p>
+            <p xml:id="Almn78-h76974-d1e151">
+               <lb ed="#Bc"/>Post hae fiet inquisitio de differentiis
+<lb ed="#Bc"/>capitalium ad invicem et in speciali, sci
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>licet superbia, invidia, acedia, ira, 
+avari<lb ed="#Bc" break="no"/>tia, gula, luxuria.
+</p>
+            <div xml:id="Almn78-h76974-Dd1e164">
+               <head xml:id="Almn78-h76974-Hd1e166">Membrum 1</head>
+               <head xml:id="Almn78-h76974-Hd1e169" type="question-title">
+        Quid sit mortale peccatum
+      </head>
+               <p xml:id="Almn78-h76974-d1e172">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit mortale peccatum ?
+</p>
+               <p xml:id="Almn78-h76974-d1e179">
+                  <lb ed="#Bc"/>Ad primum sic proceditur :
+<lb ed="#Bc"/>Videtur, quod non debeat dici mortale
+<lb ed="#Bc"/>peccatum.,
+</p>
+               <p xml:id="Almn78-h76974-d1e188">
+                  <pb ed="#Bc" n="346"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>1. Stenim dicitur mortale peccatum,
+<lb ed="#Bc"/>quod morte punitur: tunc non omne
+<lb ed="#Bc"/>mortale potest dici mortale: quia non
+<lb ed="#Bc"/>omne mortale morte punitur, scilicet 
+na<lb ed="#Bc" break="no"/>ture : fornicatio entm non punitur morte
+<lb ed="#Bc"/>temporali secundum legem.
+</p>
+               <p xml:id="Almn78-h76974-d1e209">
+                  <lb ed="#Bc"/>2. Si autem dicatur mortale, quod
+<lb ed="#Bc"/>morte eterna puniendum est in inferno:
+<lb ed="#Bc"/>tunc videtur, quod non per se dicatur
+<lb ed="#Bc"/>mortale, sed conditionaliter, ut si per
+<lb ed="#Bc"/>penitentiam non deleatur : quia si per
+<lb ed="#Bc"/>peenitentiam deletur, non punietur 
+mor<lb ed="#Bc" break="no"/>te eterna : et sic conditionaliter dicitur
+<lb ed="#Bc"/>mortale, non per se.
+</p>
+               <p xml:id="Almn78-h76974-d1e229">
+                  <lb ed="#Bc"/>3. Adhuc, Qui damnati sunt in 
+infer<lb ed="#Bc" break="no"/>no, non videntur esse mortui: vivunt
+<lb ed="#Bc"/>enim, et sentiunt, et intelligunt: qui
+<lb ed="#Bc"/>sunt actus vite. Apocal. x, 6: In 
+die<lb ed="#Bc" break="no"/>bus illis querent homines mortem, et
+<lb ed="#Bc"/>non invenient eam : et desiderabunt 
+mo<lb ed="#Bc" break="no"/>ri et fugiet mors ab eis. Et sic videtur,
+<lb ed="#Bc"/>quod mortale non debeat dici mortale ob
+<lb ed="#Bc"/>hoc, quod in inferno punitur.
+</p>
+               <p xml:id="Almn78-h76974-d1e251">
+                  <lb ed="#Bc"/>Si autem dicatur mortale, quia separat
+<lb ed="#Bc"/>a vita gratiae : tune videtur, quod sola
+<lb ed="#Bc"/>infidelitas dicitur mortale peccatum. 
+Ha<lb ed="#Bc" break="no"/>bacuc, u, 4: Justus ex fide sua vivet 1.
+<lb ed="#Bc"/>Et ita non sunt multa  mortalia, sed
+<lb ed="#Bc"/>unum.
+</p>
+               <p xml:id="Almn78-h76974-d1e267">
+                  <lb ed="#Bc"/>Sorvurio. Dicendum, quod mortale 
+di<lb ed="#Bc" break="no"/>citur mortale et mors anime: quia 
+se<lb ed="#Bc" break="no"/>parat a principio vite quod est Deus, et
+<lb ed="#Bc"/>ab influentia vite que est gratia gratum
+<lb ed="#Bc"/>faciens. Potest etiam dici mortale, quia
+<lb ed="#Bc"/>punitur morte eterna. Ad Roman. 1, 18
+<lb ed="#Bc"/>et seq., Apostolus enumerat multa 
+mor<lb ed="#Bc" break="no"/>talia peccata, et postea infert : Non 
+in<lb ed="#Bc" break="no"/>tellexerunt quoniam qui talia agunt 
+di<lb ed="#Bc" break="no"/>gni sunt morte : et non solum qui ea
+<lb ed="#Bc"/>faciunt, sed etiam qui consentiunt 
+fa<lb ed="#Bc" break="no"/>cientibus.
+</p>
+               <p xml:id="Almn78-h76974-d1e296">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bc"/>ideo dicitur mortale, quod puniatur 
+mor<lb ed="#Bc" break="no"/>te temporali: sed, ut dictum est, quia
+<lb ed="#Bc"/>separat a principio vite, sicut dictum
+<lb ed="#Bc"/>est, quod est Deus, quod influit vi
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tam per gratiam. Sicut enim anima 
+in<lb ed="#Bc" break="no"/>fluit vilam corpori, ita Deus influit 
+vi<lb ed="#Bc" break="no"/>tam anime.
+</p>
+               <p xml:id="Almn78-h76974-d1e318">
+                  <lb ed="#Bc"/>Ad id quod dicitur, quod 
+conditionali<lb ed="#Bc" break="no"/>ter dicatur mortale, dicendum quod 
+sim<lb ed="#Bc" break="no"/>pliciter dicitur mortale : quia morte 
+eter<lb ed="#Bc" break="no"/>na dignum est quamdiu est. Si autem
+<lb ed="#Bc"/>per peenitentiam deletur: tunc non est
+<lb ed="#Bc"/>mortale, quia per gratiam deletum est.
+</p>
+               <p xml:id="Almn78-h76974-d1e335">
+                  <lb ed="#Bc"/>Av 1p quod objicitur, quod illi qui in
+<lb ed="#Bc"/>inferno sunt, vivunt, dicendum, quod 
+ta<lb ed="#Bc" break="no"/>lis vita continua mors est : quia continua
+<lb ed="#Bc"/>separatio a beate vite principio, et con~
+<lb ed="#Bc"/>tinuus sensus mortis eterne. Unde 
+Ber<lb ed="#Bc" break="no"/>nardus super Cantica : <quote xml:id="Almn78-h76974-Qd1e350"> Continue 
+mo<lb ed="#Bc" break="no"/>ritur, et numquam permoritur vivens in
+<lb ed="#Bc"/>inferno. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-h76974-Dd1e359">
+               <head xml:id="Almn78-h76974-Hd1e361">Membrum 2</head>
+               <head xml:id="Almn78-h76974-Hd1e364" type="question-title">
+        Que sit differentia inter mortale et 
+        criminale
+      </head>
+               <p xml:id="Almn78-h76974-d1e367">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Que sit differentia inter mortale et 
+cri<lb ed="#Bc" break="no"/>minale ?
+</p>
+               <p xml:id="Almn78-h76974-d1e376">
+                  <lb ed="#Bc"/>Secundo queritur, Que sit differentia
+<lb ed="#Bc"/>inter mortale et criminale ?
+</p>
+               <p xml:id="Almn78-h76974-d1e383">
+                  <lb ed="#Bc"/>Et statim accipitur differentia ex 
+Isi<lb ed="#Bc" break="no"/>doro. Isidorus enim dicit, <quote xml:id="Almn78-h76974-Qd1e389"> quod 
+pecca<lb ed="#Bc" break="no"/>tum mortale est, quod per reatum ad
+<lb ed="#Bc"/>mortem eternam obligat : crimen autem
+<lb ed="#Bc"/>quod polluit. </quote>
+               </p>
+               <p xml:id="Almn78-h76974-d1e400">
+                  <lb ed="#Bc"/>St unrertus queritur, Unde dicatur
+<lb ed="#Bc"/>capitale peccatum ?
+</p>
+               <p xml:id="Almn78-h76974-d1e407">
+                  <lb ed="#Bc"/>Sienim dicitur capitale, quod capite
+<lb ed="#Bc"/>punitur - cum caput viri Deus sit, ut 
+di<lb ed="#Bc" break="no"/>cit Apostolus, 1 Corinth. xi, 3, quod
+<lb ed="#Bc"/>omne mortale capitale sit: quia per
+<lb ed="#Bc"/>quodlibet mortale preciditur hoc caput
+<lb ed="#Bc"/>quod est Deus.
+</p>
+               <p xml:id="Almn78-h76974-d1e423">
+                  <lb ed="#Bc"/>Adhuc, Cum multis nominibus 
+nomi<lb ed="#Bc" break="no"/>netur peccatum mortale, dicitur enim
+<lb ed="#Bc"/>peccatum, dicitur malum, dicitur vitium,
+<pb ed="#Bc" n="347"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>dicitur culpa, dicitur crimen, dicitur 
+te<lb ed="#Bc" break="no"/>nebra, dicitur reatus, dicitur macula,
+<lb ed="#Bc"/>queritur, unde accipit tot nominum 
+di<lb ed="#Bc" break="no"/>versitates ?
+</p>
+               <p xml:id="Almn78-h76974-d1e445">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod peccatum
+<lb ed="#Bc"/>dicitur peccatum in quantum est 
+con<lb ed="#Bc" break="no"/>tra rectitudinem legis divine. Unde 
+di<lb ed="#Bc" break="no"/>cit Ambrosius: <quote xml:id="Almn78-h76974-Qd1e455"> Peccatum est 
+pra<lb ed="#Bc" break="no"/>varicatio legis divine et ccelestium 
+in<lb ed="#Bc" break="no"/>obedientia mandatorum. </quote> Sed in 
+quan<lb ed="#Bc" break="no"/>tum est contrarium virtuti, que 
+lau<lb ed="#Bc" break="no"/>dabilium et honorabilium bonorum est,
+<lb ed="#Bc"/>ut dicit Aristoteles, sic accipit nomen
+<lb ed="#Bc"/>eriminis : quia polluit decorem virtulis,
+<lb ed="#Bc"/>cui debetur honos et laus. Vitiwm autem
+<lb ed="#Bc"/>dicitur, in quantum vitiat et deturpat
+<lb ed="#Bc"/>pulchritudinem boni naturalis. Culpa
+<lb ed="#Bc"/>vero dicitur, in quantum est culpabile et
+<lb ed="#Bc"/>vituperabile a justissimo judice Deo.
+<lb ed="#Bc"/>Malum autem dicitur, ut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus, quia aliquid adimit de bono 
+natu<lb ed="#Bc" break="no"/>rali. Tenebra spiritualis dicitur, in 
+quan<lb ed="#Bc" break="no"/>tum est contrarium luci gratie: quia
+<lb ed="#Bc"/>per gratiam illuminatur anima: quod 
+lu<lb ed="#Bc" break="no"/>men tollitur per peccatum. Reatus 
+dici<lb ed="#Bc" break="no"/>tur, quia obligat ad mortem externam :
+<lb ed="#Bc"/>et sic etiam dicitur moréale, ut supra
+<lb ed="#Bc"/>in objectione probatum est.
+</p>
+               <p xml:id="Almn78-h76974-d1e502">
+                  <lb ed="#Bc"/>Av w quod querilur, Unde dicatur
+<lb ed="#Bc"/>capitale ?
+</p>
+               <p xml:id="Almn78-h76974-d1e509">
+                  <lb ed="#Bc"/>Dicendum,quod dupliciter dicitur 
+ca<lb ed="#Bc" break="no"/>pitale. Aliquando dicitur capitale omne
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>id quod capite plectitur sive punitur.
+<lb ed="#Bc"/>Sic omne mortale est capitale, sicut in
+<lb ed="#Bc"/>objectione probatum est. Aliquando 
+di<lb ed="#Bc" break="no"/>citur capitale, ex quo sicut ex capite
+<lb ed="#Bc"/>multa alia oriuntur. Sic dicuntur septem
+<lb ed="#Bc"/>capitalia peccata tantum, scilicet 
+super<lb ed="#Bc" break="no"/>bia, invidia, acedia, ira, avaritia, gula,
+<lb ed="#Bc"/>luxuria.
+</p>
+            </div>
+            <div xml:id="Almn78-h76974-Dd1e536">
+               <head xml:id="Almn78-h76974-Hd1e538">Membrum 3</head>
+               <head xml:id="Almn78-h76974-Hd1e541" type="question-title">
+        Quae sit differentia inter criminale et
+        radicale
+      </head>
+               <p xml:id="Almn78-h76974-d1e544">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Quae sit differentia inter criminale et
+<lb ed="#Bc"/>radicale ?
+</p>
+               <p xml:id="Almn78-h76974-d1e553">
+                  <lb ed="#Bc"/>Tertio queritur, Que sit differentia
+<lb ed="#Bc"/>inter criminale et radicale ?
+</p>
+               <p xml:id="Almn78-h76974-d1e560">
+                  <lb ed="#Bc"/>Et ad hoc jam patet solutio : quia
+<lb ed="#Bc"/>criminale est, quod contrarium est 
+ho<lb ed="#Bc" break="no"/>nori et laudabilitati virtutis, ut jam 
+di<lb ed="#Bc" break="no"/>ctum est. Radicale autem est, quod
+<lb ed="#Bc"/>sicut radix quedam est prestans 
+libidi<lb ed="#Bc" break="no"/>nem ex parte conversionis ad 
+commuta<lb ed="#Bc" break="no"/>bile bonum : sicut dicitur, I ad Timoth.
+<lb ed="#Bc"/>vi, 10 : Radix omnium malorum est 
+cu<lb ed="#Bc" break="no"/>piditas. Et sumitur ibi cupiditas 
+genera<lb ed="#Bc" break="no"/>liter pro improba voluntate concupiscente
+<lb ed="#Bc"/>inordinate commutabile bonum, 
+secun<lb ed="#Bc" break="no"/>dum quod dicitur, I Joan. 1, 16: Omne
+<lb ed="#Bc"/>quod est in mundo, concupiscentia carnis
+<lb ed="#Bc"/>est, et concupiscentia oculorum, et 
+su<lb ed="#Bc" break="no"/>perbia vite.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 24</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 24</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="267"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d59480"><!-- p2t5q24 -->
+            <head xml:id="Almn78-d59480-Hd1e106">Quaestio 24</head>
+            <head xml:id="Almn78-d59480-Hd1e109" type="question-title">
+      Per quid dejectus fuerit
+    </head>
+            <p xml:id="Almn78-d59480-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XXIV.
+      <lb ed="#Bb"/>Quando ceciderit malus Angelus ! ?
+    </p>
+            <p xml:id="Almn78-d59480-d1e121">
+               <lb ed="#Bb"/>Deinde queritur, Quando cecidit ?
+    </p>
+            <p xml:id="Almn78-d59480-d1e126">
+               <lb ed="#Bb"/>Et videtur, quod ab initio a primo 
+      in<lb ed="#Bb" break="no"/>stanti ex quo factus fuit.
+      <lb ed="#Bb"/>1. Perillud Joannis,vit,44 : Hle 
+      homi<lb ed="#Bb" break="no"/>cida erat ab initio, et in veritate non
+      <lb ed="#Bb"/>stetit.
+    </p>
+            <p xml:id="Almn78-d59480-d1e140">
+               <lb ed="#Bb"/>2. Adhuc, Augustinus in libro XI 
+      su<lb ed="#Bb" break="no"/>per Genesim ad litteram : <quote xml:id="Almn78-d59480-Qd1e146"> Angelus 
+        ma<lb ed="#Bb" break="no"/>lus beate atque angelic vite 
+        dulcedi<lb ed="#Bb" break="no"/>nem non gustavit, quam non utique ac
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>ceptam fastidivit, sed nolendo accipere
+        <lb ed="#Bb"/>deseruit et amisit. Proinde nec sui casus
+        <lb ed="#Bb"/>prescius esse potuit, quoniam sapientia
+        <lb ed="#Bb"/>pietatis fructus est. Tle autem continuo
+        <lb ed="#Bb"/>impius, consequenter et mente cecus,
+        <lb ed="#Bb"/>non ex eo quod acceperat cedidit, sed ex
+        <lb ed="#Bb"/>eo quod acciperet si Deo subdi voluisset.
+        <lb ed="#Bb"/>Quod profecto quia noluit, et ab eo
+        <lb ed="#Bb"/>quod accepturus erat cecidit, et potesta~
+        <lb ed="#Bb"/>tem illius sub quo esse noluit, non eva
+        <pb ed="#Bb" n="268"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>sit</quote> Et ex hoc sequitur idem quod
+      <lb ed="#Bb"/>prius, scilicet quod ab initio cecidit.
+    </p>
+            <p xml:id="Almn78-d59480-d1e186">
+               <lb ed="#Bb"/>Sed CONTRA:
+      <lb ed="#Bb"/>1. Augustinus, ibidem, <quote xml:id="Almn78-d59480-Qd1e192"> Quod 
+        puta<lb ed="#Bb" break="no"/>tur diabolus numquam in veritate ste
+        <lb ed="#Bb"/>tisse, numquam cum Angelis beatam 
+        vi<lb ed="#Bb" break="no"/>tam duxisse, sed ab ipso conditionis sux
+        <lb ed="#Bb"/>initio cecidisse, non sic accipiendum est,
+        <lb ed="#Bb"/>ut non propria voluntate depravatus, sed
+        <lb ed="#Bb"/>malus a bono Deo creatus putetur : 
+        alio<lb ed="#Bb" break="no"/>quin non ab initio cecidisse diceretur,
+        <lb ed="#Bb"/>neque enim cecidit si talis factus fuit. </quote>
+            </p>
+            <p xml:id="Almn78-d59480-d1e213">
+               <lb ed="#Bb"/>2. Adhuc, Augustinus, ibidem dicit,
+      <lb ed="#Bb"/>quod postquam factus est, accepit 
+      justi<lb ed="#Bb" break="no"/>tiam et rationem antequam caderet. Ergo
+      <lb ed="#Bb"/>non ab initio cecidit, sed post initinm
+      <lb ed="#Bb"/>sue conditionis.
+    </p>
+            <p xml:id="Almn78-d59480-d1e226">
+               <lb ed="#Bb"/>3, Adhuc, Anselmus dicit, quod 
+      An<lb ed="#Bb" break="no"/>gelus factus voluit beatitudinem, et 
+      per<lb ed="#Bb" break="no"/>severare inea: sed non pervoluit, hoc
+      <lb ed="#Bb"/>est perseveranter voluit.
+    </p>
+            <p xml:id="Almn78-d59480-d1e237">
+               <lb ed="#Bb"/>4, Adhuc, Magister in Historiis inducit
+      <lb ed="#Bb"/>Bedam, et quosdam sanctos dicentes,
+      <lb ed="#Bb"/>quod secundo die ceciderunt Angeli: et
+      <lb ed="#Bb"/>de hoc assignaverunt tres rationes : 
+      qua<lb ed="#Bb" break="no"/>rum prima accipitur ex ipso numero:
+      <lb ed="#Bb"/>binarius enim prius recedit ab unitate :
+      <lb ed="#Bb"/>et hoc competenter significabat recessum
+      <lb ed="#Bb"/>Angelia monade Deo, Deus enim 
+      mo<lb ed="#Bb" break="no"/>nas est propter individuitatem et 
+      simpli<lb ed="#Bb" break="no"/>citatem. Secunda ratio est: quia cum,
+      <lb ed="#Bb"/>Genes, 1, 3, dicitur: Fiat luz, secundum
+      <lb ed="#Bb"/>Augustinum intelligitur angelica natura
+      <lb ed="#Bb"/>formata per gratiam. Similiter cum 
+      dici<lb ed="#Bb" break="no"/>tur, Genes.1, 7: Divisit Deus aguas que
+      <lb ed="#Bb"/>sunt sub frmamento, ab his que erant
+      <lb ed="#Bb"/>super firmamentum, que ad loca 
+      cali<lb ed="#Bb" break="no"/>ginosa descenderunt.
+    </p>
+            <p xml:id="Almn78-d59480-d1e276">
+               <lb ed="#Bb"/>Dicit Augustinus in hbro XII 
+      Confes<lb ed="#Bb" break="no"/>sionum, quod per aquas que 
+      descende<lb ed="#Bb" break="no"/>runt in preceps, significantur Angeli
+      <lb ed="#Bb"/>qui descenderunt in abyssum, de quibus,
+      <lb ed="#Bb"/>Job, xxvi, 5, dicitur: Eece gigantes 
+      ge<lb ed="#Bb" break="no"/>munt sub aquis, et qui habitant cum
+      <lb ed="#Bb"/>eis. Et, Isa. xiv, 9, dicitur ad 
+      Nabucho<lb ed="#Bb" break="no"/>donosor : Suscitavit tibt gigantes. Et hoc
+      <lb ed="#Bb"/>opus secunda die factum est. Tertia ra
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb" break="no"/>tio est, Genes. 1, 8, quiaopus secunde diei
+      <lb ed="#Bb"/>benedictione caret. Non enim dicitur:
+      <lb ed="#Bb"/>Vidit Deus quod esset bonum. Quod illi
+      <lb ed="#Bb"/>dicunt omissum propter ruinam 
+      caden<lb ed="#Bb" break="no"/>tium Angelorum: et ideo etiam in 
+      ho<lb ed="#Bb" break="no"/>nore stantium faciunt missas celebrare.
+    </p>
+            <p xml:id="Almn78-d59480-d1e314">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod tempus et
+      <lb ed="#Bb"/>momentum casus malorum incertum est,
+      <lb ed="#Bb"/>et non determinatum : sed certum est,
+      <lb ed="#Bb"/>quod bonicreati sunt, et propria voluntate
+      <lb ed="#Bb"/>depravata sic ceciderunt. Etideo Magister
+      <lb ed="#Bb"/>in libro If Sententiarum, distinct. IV,
+      <lb ed="#Bb"/>cap. Aliis autem videtur, dicit morulam
+      <lb ed="#Bb"/>fuisse inter creationem et casum. Et cum
+      <lb ed="#Bb"/>dicit Dominus, Joan. vi, 44: Ile 
+      homi<lb ed="#Bb" break="no"/>cida erat ab initio : glossat, hoc est,
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-d59480-Qd1e340">subito post initium, </quote>
+            </p>
+            <p xml:id="Almn78-d59480-d1e344">
+               <lb ed="#Bb"/>Posset tamen dici, quod aliud est 
+      ini<lb ed="#Bb" break="no"/>tium temporis, et aliud initium creationis
+      <lb ed="#Bb"/>Angeli, et aliud initium status Angeli.
+      <lb ed="#Bb"/>Et quod verbum Domini non intelligitur
+      <lb ed="#Bb"/>de initio temporis, vel de initio 
+      creatio<lb ed="#Bb" break="no"/>nis, sed de initio status : status enim fuit
+      <lb ed="#Bb"/>ante creationem sicut quelibet res 
+      im<lb ed="#Bb" break="no"/>perfecta est in sui initio, perfecta autem
+      <lb ed="#Bb"/>in statu pleno.
+    </p>
+            <p xml:id="Almn78-d59480-d1e366">
+               <lb ed="#Bb"/>Et per hoc patet solutio etiam ad duas
+      <lb ed="#Bb"/>auctoritates Augustini sequentes.
+    </p>
+            <p xml:id="Almn78-d59480-d1e373">
+               <lb ed="#Bb"/>Noranpum tamen, quod super hac 
+      que<lb ed="#Bb" break="no"/>stione Augustinus in libro XI super 
+      Ge<lb ed="#Bb" break="no"/>nesim ad litteram, quatuor opiniones
+      <lb ed="#Bb"/>inducit, quarum prima est, quod ab 
+      ini<lb ed="#Bb" break="no"/>tio status sux conditionis diabolus a 
+      bea<lb ed="#Bb" break="no"/>titudine cecidit, non quam habuit, sed
+      <lb ed="#Bb"/>quam habuisset si voluisset et stetisset.
+    </p>
+            <p xml:id="Almn78-d59480-d1e391">
+               <lb ed="#Bb"/>Secunda est, quod ut quidam dicunt,
+      <lb ed="#Bb"/>fuerunt quidam Angeli inferioris ordinis
+      <lb ed="#Bb"/>in hoc mundo prescii sue beatitudinis, a
+      <lb ed="#Bb"/>quibus ipse diabolus cecidit, ceteris 
+      po<lb ed="#Bb" break="no"/>stea beatificatis. Sed dicit de hac, quod
+      <lb ed="#Bb"/>probari non potest: ideo hac opinio ab
+      <lb ed="#Bb"/>omnibus tamquam heretica reprobata
+      <lb ed="#Bb"/>est.
+    </p>
+            <p xml:id="Almn78-d59480-d1e411">
+               <lb ed="#Bb"/>Tertia, quod Lucifer de superioribus
+      <lb ed="#Bb"/>Angelis existens, casum suum prescivit,
+      <lb ed="#Bb"/>sicut boni Angeli presciverunt suam bea-~
+      <pb ed="#Bb" n="269"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>titudinem : sed quia rationabiliter 
+      inve<lb ed="#Bb" break="no"/>niri non potest, quare sic inter Angelos
+      <lb ed="#Bb"/>Deus distinxerit, ideo etiam hee opinio
+      <lb ed="#Bb"/>reprobata est.
+    </p>
+            <p xml:id="Almn78-d59480-d1e434">
+               <lb ed="#Bb"/>Quarta opinio est, quod tam boni quam
+      <lb ed="#Bb"/>mali incerti fuerunt sui status: sed boni
+      <lb ed="#Bb"/>ante confirmationem profecerunt, et mali
+      <lb ed="#Bb"/>aversi sunt ? Verba Augustini posita sunt
+      <lb ed="#Bb"/>supra de hoc in questione, Utrum 
+      An<lb ed="#Bb" break="no"/>gelus potuit esse prescius sui casus ' ?
+      <lb ed="#Bb"/>Unde Augustinus, ibidem, <quote xml:id="Almn78-d59480-Qd1e451"> Peccatores
+        <lb ed="#Bb"/>Angelos minime dubitemus esse detru
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>sos tanquam in carcerem caliginis hujus
+        <lb ed="#Bb"/>aeree circa istas terras, secundum 
+        Apo<lb ed="#Bb" break="no"/>stolicam fidem in judicio puniendos 
+        ser<lb ed="#Bb" break="no"/>vari ®, et illa in superna beatitudine 
+        bea<lb ed="#Bb" break="no"/>torum Angelorum non esse incertam
+        <lb ed="#Bb"/>vitam wternam, nec nobis secundum Dei
+        <lb ed="#Bb"/>misericordiam et gratiam et fidelissimam
+        <lb ed="#Bb"/>pollicitationem incertam futuram, cum
+        <lb ed="#Bb"/>fuerimus bonis Angelis post 
+        resurrectio<lb ed="#Bb" break="no"/>nem et istorum corporum mutationem
+        <lb ed="#Bb"/>copulati. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="12"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa1671"><!-- p1t1q3 -->
+            <head xml:id="Almn78-aa1671-Hd1e106">Quaestio 3</head>
+            <head xml:id="Almn78-aa1671-Hd1e109" type="question-title">De quo sit theologia ut de subjecto</head>
+            <p xml:id="Almn78-aa1671-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO III
+<lb ed="#Ba"/>De quo sit theologia ut de subjecto ?
+</p>
+            <p xml:id="Almn78-aa1671-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Tertio queritur, De quo sit theologia
+<lb ed="#Ba"/>ut de subjecto?
+</p>
+            <p xml:id="Almn78-aa1671-d1e130">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Et de hoc sunt quatuor positiones.
+<lb ed="#Ba"/>Una est Augustini in libro I de Doc
+<pb ed="#Ba" n="13"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>trina Christiania, quam sequitur 
+Ma<lb ed="#Ba" break="no"/>gister in Sententiis, que est, quod <quote xml:id="Almn78-aa1671-Qd1e147"> qui
+<lb ed="#Ba"/>diligenter legit continentiam nove et
+<lb ed="#Ba"/>veteris legis, inveniet eam circa res et
+<lb ed="#Ba"/>signa versarl. </quote>
+            </p>
+            <p xml:id="Almn78-aa1671-d1e158">
+               <lb ed="#Ba"/>Secunda est Hugonis de sancto 
+Victo<lb ed="#Ba" break="no"/>re in libro Sententiarum suarum, que
+<lb ed="#Ba"/>dicit, quod <quote xml:id="Almn78-aa1671-Qd1e166"> materia divinarum 
+Secri<lb ed="#Ba" break="no"/>pturarum sunt opera reparationis
+<lb ed="#Ba"/>aliarum vero scientiarum materia sunt
+<lb ed="#Ba"/>opera conditionis. </quote>
+            </p>
+            <p xml:id="Almn78-aa1671-d1e176">
+               <lb ed="#Ba"/>Tertia, In principio Glosse Psalterii
+<lb ed="#Ba"/>dicitur, quod <quote xml:id="Almn78-aa1671-Qd1e182"> nihil est in Scriptura 
+di<lb ed="#Ba" break="no"/>vina, quod non ad Christum vel 
+Hecle<lb ed="#Ba" break="no"/>siam pertineat. </quote> Ergo caput et corpus,
+<lb ed="#Ba"/>sponsus et sponsa, Christus et Ecclesia
+<lb ed="#Ba"/>subjectum sunt sacre Scripture, hoc est,
+<lb ed="#Ba"/>totus Christus integer.
+</p>
+            <p xml:id="Almn78-aa1671-d1e197">
+               <lb ed="#Ba"/>Alia positio est, quod Deus sit 
+sub<lb ed="#Ba" break="no"/>jectum sacre Scripture, sicut et per no-
+<lb ed="#Ba" break="no"/>men significatur quo ¢heologia vocatur.
+</p>
+            <p xml:id="Almn78-aa1671-d1e206">
+               <lb ed="#Ba"/>De istis ergo positionibus queritur.
+<lb ed="#Ba"/>Et principaliter quidem queritur de
+<lb ed="#Ba"/>subjecto.
+</p>
+            <p xml:id="Almn78-aa1671-d1e215">
+               <lb ed="#Ba"/>Sed quia per subjectum scientia est
+<lb ed="#Ba"/>una vel plures, secundo queritur, utrum
+<lb ed="#Ba"/>theologia scientia sit una vel plures?
+<lb ed="#Ba"/>et, Qua unitate est una, si una est ?
+</p>
+            <p xml:id="Almn78-aa1671-d1e226">
+               <lb ed="#Ba"/>Item, Ex subjecto habet quod sit 
+pra<lb ed="#Ba" break="no"/>ctica vel theorica.
+</p>
+            <p xml:id="Almn78-aa1671-d1e234">
+               <lb ed="#Ba"/>Adhuc, Ex subjecto habet quod sit
+<lb ed="#Ba"/>universalis vel particularis. Et ideo 
+quar<lb ed="#Ba" break="no"/>lo queritur, utrum universalis vel 
+par<lb ed="#Ba" break="no"/>ticularis est scientia ?
+</p>
+            <div xml:id="Almn78-aa1671-Dd1e245">
+               <head xml:id="Almn78-aa1671-Hd1e247">Membrum 1</head>
+               <head xml:id="Almn78-aa1671-Hd1e250" type="question-title">
+        De subjecto theologiae secundum quatuor
+        positiones assignatas.
+      </head>
+               <p xml:id="Almn78-aa1671-d1e253">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>De subjecto theologiae secundum quatuor
+<lb ed="#Ba"/>positiones assignatas.
+</p>
+               <p xml:id="Almn78-aa1671-d1e262">
+                  <lb ed="#Ba"/>Primum ergo inter haec est querere
+<lb ed="#Ba"/>de subjecto theologiz.
+</p>
+               <p xml:id="Almn78-aa1671-d1e269">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Et queramus primo de positione 
+Au<lb ed="#Ba" break="no"/>gustinis, qui dicit res et signd esse 
+sub<lb ed="#Ba" break="no"/>jectum,
+</p>
+               <p xml:id="Almn78-aa1671-d1e281">
+                  <lb ed="#Ba"/>Hoc enim probatur sic :
+<lb ed="#Ba"/>Jam enim habitum est, quod 
+theolo<lb ed="#Ba" break="no"/>gia est scientia de his que ad salutem
+<lb ed="#Ba"/>hominis pertinent : ergo erit de his que
+<lb ed="#Ba"/>salutem faciunt effective, et sunt objecta
+<lb ed="#Ba"/>salutis, et de his que ad salutem 
+dis<lb ed="#Ba" break="no"/>ponunt, et de ipso homine percipiente
+<lb ed="#Ba"/>salutem secundum quod salutis est
+<lb ed="#Ba"/>perceptibilis. Erit ergo de rebus 
+qui<lb ed="#Ba" break="no"/>bus fruimur tantum, in quibus salutis
+<lb ed="#Ba"/>est complementum. Et erit de utilibus
+<lb ed="#Ba"/>disponentibus ad hoc. Et hoc 
+duplici<lb ed="#Ba" break="no"/>ter, scilicet ex parte intellectus, et ex
+<lb ed="#Ba"/>parte affectus. Ex parle quidem 
+intelle<lb ed="#Ba" break="no"/>ctus significando ut signa. Ex parte
+<lb ed="#Ba"/>autem affectus ut disponentia ad 
+salu<lb ed="#Ba" break="no"/>tem per se vel per accidens in recessu a
+<lb ed="#Ba"/>malo, vel in accessu ad bonum : et hac
+<lb ed="#Ba"/>sunt utilia. Et hac ratione dixit 
+Augu<lb ed="#Ba" break="no"/>stinus?, quod tota theologia versatur
+<lb ed="#Ba"/>aut circa res quibus fruendum est, que
+<lb ed="#Ba"/>sunt Pater, Filius, et Spiritus sanctus :
+<lb ed="#Ba"/>aut circa res quibus utendum est, 
+signi<lb ed="#Ba" break="no"/>ficando vel disponendo ad salutem : aut
+<lb ed="#Ba"/>circa res fruentes vel utentes, que sunt
+<lb ed="#Ba"/>salutis perceptibiles, ut homo. Sic enim
+<lb ed="#Ba"/>signum ad rem utilem reducitur, 
+se<lb ed="#Ba" break="no"/>cundum quod uti est, ut dicit 
+Augusti<lb ed="#Ba" break="no"/>nus, aliquid in facultatem voluntatis
+<lb ed="#Ba"/>assumere, et ad aliud referre 
+significan<lb ed="#Ba" break="no"/>do vel disponendo.
+</p>
+               <p xml:id="Almn78-aa1671-d1e351">
+                  <lb ed="#Ba"/>Sed contra hanc opinionem videtur
+<lb ed="#Ba"/>esse, quod
+<lb ed="#Ba"/>1. Signa et res non videntur esse
+<lb ed="#Ba"/>ordinabilia sub uno genere  subjecti.
+<lb ed="#Ba"/>Unde in aliis scientiis, scientie de signis
+<lb ed="#Ba"/>ut de sermonibus, distinguuntur a 
+scien<lb ed="#Ba" break="no"/>tiis de rebus. Sermotionales enim a 
+rea<lb ed="#Ba" break="no"/>libus scientiis distinguuntur. Ergo 
+vide<lb ed="#Ba" break="no"/>tur, quod in ista scientia non possit
+<lb ed="#Ba"/>esse una scientia de rebus et de signis.
+</p>
+               <p xml:id="Almn78-aa1671-d1e375">
+                  <pb ed="#Ba" n="14"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>2. Adhuc, Signa valde multiplicia
+<lb ed="#Ba"/>sunt: quedam enim sunt signa per
+<lb ed="#Ba"/>allezoriam, quedam vero per modum
+<lb ed="#Ba"/>sacramentalem : et illa in una parte
+<lb ed="#Ba"/>scientiae non continentur : alia enim
+<lb ed="#Ba"/>scienlia sacramentalis est, et alia 
+sym<lb ed="#Ba" break="no"/>bolica. Et ita videtur, quod res et
+<lb ed="#Ba"/>signa materia non possunt esse sacre
+<lb ed="#Ba"/>Scripture.
+</p>
+               <p xml:id="Almn78-aa1671-d1e401">
+                  <lb ed="#Ba"/>3. Adhuc, Res valde ample accepta est
+<lb ed="#Ba"/>secundum quod ad unam scientiam non
+<lb ed="#Ba"/>videtur posse reduci. Res enim quibus
+<lb ed="#Ba"/>utimur et fruimur, omnia continent :
+<lb ed="#Ba"/>omnibus enim quot sunt in ceelo et in
+<lb ed="#Ba"/>terra utimur vel fruimur : ergo videtur,
+<lb ed="#Ba"/>quod theologia sit de omnibus : et
+<lb ed="#Ba"/>consequenter tunc aliis scientiis non
+<lb ed="#Ba"/>indigeremus.
+</p>
+               <p xml:id="Almn78-aa1671-d1e423">
+                  <lb ed="#Ba"/>Contra positionem secundam, scilicet
+<lb ed="#Ba"/>Hugonis, sic objicitur :
+</p>
+               <p xml:id="Almn78-aa1671-d1e430">
+                  <lb ed="#Ba"/>1. Statim in principio Genesis 
+theolo<lb ed="#Ba" break="no"/>gia est de operibus conditionis : ergo
+<lb ed="#Ba"/>non videtur materia sacre Scripture
+<lb ed="#Ba"/>tantum esse de operibus reparationis.
+</p>
+               <p xml:id="Almn78-aa1671-d1e442">
+                  <lb ed="#Ba"/>2. Adhuc, Sacra theologia est de
+<lb ed="#Ba"/>causa operum conditionis et 
+reparatio<lb ed="#Ba" break="no"/>nis : non ergo videtur, quod sit de 
+ope<lb ed="#Ba" break="no"/>ribus reparationis tantum ut de subjecto.
+</p>
+               <p xml:id="Almn78-aa1671-d1e453">
+                  <lb ed="#Ba"/>Contra positionem tertiam sic 
+obji<lb ed="#Ba" break="no"/>citur : quia
+<lb ed="#Ba"/>1. Multa sunt in sacra Scriptura que
+<lb ed="#Ba"/>nec de Christo sunt, nec de Ecclesia,
+<lb ed="#Ba"/>sicut quod Deus creavit in principio 
+cc<lb ed="#Ba" break="no"/>lum et terram, quod diluvium inductum
+<lb ed="#Ba"/>est, quod lingue divise sunt, et alia
+<lb ed="#Ba"/>multa que de ceelis, elementis, et 
+Ange<lb ed="#Ba" break="no"/>lis scribuntur. Videtur ergo, quod totus
+<lb ed="#Ba"/>Christus non sit materia sacre Scripture.
+</p>
+               <p xml:id="Almn78-aa1671-d1e477">
+                  <lb ed="#Ba"/>2. Prwterea, Mali sive in via, sive in
+<lb ed="#Ba"/>inferno, et diabolus, non sunt de capite,
+<lb ed="#Ba"/>nec de corpore: et tamen de illis etiam
+<lb ed="#Ba"/>sub differentiis eorum in sacra Scriptura
+<lb ed="#Ba"/>determinatur.
+</p>
+               <p xml:id="Almn78-aa1671-d1e490">
+                  <lb ed="#Ba"/>Contra quartam positionem objicitur
+<lb ed="#Ba"/>per hoc, quod
+<lb ed="#Ba"/>i. Multa tractantur in sacra Scriptura
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>que non sunt Deus, nec de Deo 
+pro<lb ed="#Ba" break="no"/>bantur ut de subjecto.
+</p>
+               <p xml:id="Almn78-aa1671-d1e506">
+                  <lb ed="#Ba"/>2. Adhuc, Quia dicit Boetius in libro
+<lb ed="#Ba"/>de Trinitate, quod <quote xml:id="Almn78-aa1671-Qd1e512"> Deus subjectum esse
+<lb ed="#Ba"/>non potest : </quote> ergo non potest esse 
+sub<lb ed="#Ba" break="no"/>jectum theologia.
+</p>
+               <p xml:id="Almn78-aa1671-d1e520">
+                  <lb ed="#Ba"/>Solutio. Ad haec et similia dicendum,
+<lb ed="#Ba"/>quod subjectum in  scientiis tripliciter
+<lb ed="#Ba"/>assignatur, scilicet quod principaliter
+<lb ed="#Ba"/>intenditur et in principali parte scientia,
+<lb ed="#Ba"/>sicut Deus dicitur esse subjectum prime
+<lb ed="#Ba"/>philosophie, quia in principali parte
+<lb ed="#Ba"/>ejus de Deo intenditur et de substantiis
+<lb ed="#Ba"/>divinis que separate sunt, a quo etiam
+<lb ed="#Ba"/>ab antiquis Philosophis theologia 
+voca<lb ed="#Ba" break="no"/>batur ; denominatio enim debet fieri ab
+<lb ed="#Ba"/>ultimo et optimo,
+</p>
+               <p xml:id="Almn78-aa1671-d1e547">
+                  <lb ed="#Ba"/>Secundo modo assignatur subjectum
+<lb ed="#Ba"/>in scientiis, de quo et de cujus 
+par<lb ed="#Ba" break="no"/>tibus probantur passio nes : sicut ens
+<lb ed="#Ba"/>subjectum esse dicitur prime 
+philoso<lb ed="#Ba" break="no"/>phie, quia unum et multa, potentia et
+<lb ed="#Ba"/>actus, et ens necesse et ens possibile
+<lb ed="#Ba"/>probantur de ente.
+</p>
+               <p xml:id="Almn78-aa1671-d1e565">
+                  <lb ed="#Ba"/>Tertio modo assignatur subjectum
+<lb ed="#Ba"/>scientiae, circa quod est continentia ejus
+<lb ed="#Ba"/>propter bonitatem et claritatem doctrine,
+<lb ed="#Ba"/>et talia sunt quecumque sunt 
+adminicu<lb ed="#Ba" break="no"/>lativa ad subjectum primo modo vel 
+se<lb ed="#Ba" break="no"/>cundo modo dictum, per que declaratur
+<lb ed="#Ba"/>in prima vel in secunda intentione 
+sub<lb ed="#Ba" break="no"/>jectum, sicut prima philosophia est 
+cir<lb ed="#Ba" break="no"/>ca positiones antiquorum, et circa 
+prin<lb ed="#Ba" break="no"/>cipia demonstrabilium, et circa uno 
+mo<lb ed="#Ba" break="no"/>do vel multipliciter dicta, etiam circa
+<lb ed="#Ba"/>definitiones secundum se, vel physicam,
+<lb ed="#Ba"/>et circa principia definilionis utriusque,
+</p>
+               <p xml:id="Almn78-aa1671-d1e596">
+                  <lb ed="#Ba"/>Et in omnibus generalibus scientiis
+<lb ed="#Ba"/>hance triplicem subjecti determinationem
+<lb ed="#Ba"/>necesse est esse.
+</p>
+               <p xml:id="Almn78-aa1671-d1e605">
+                  <lb ed="#Ba"/>Dicimus igitur, quod si assignetur
+<lb ed="#Ba"/>subjectam theologiae secundum quod
+<lb ed="#Ba"/>principaliter est intentum, et propter
+<lb ed="#Ba"/>quod cognoscendum tractatur de 
+omni<lb ed="#Ba" break="no"/>bus aliis, Deus est subjectum theologia,
+<lb ed="#Ba"/>et ab ipso denominatur. Si vero dicitur
+<lb ed="#Ba"/>subjectum secundo modo de quo 
+pro<lb ed="#Ba" break="no"/>bantur passiones, et quod per passiones
+<pb ed="#Ba" n="15"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>determinatur, Christus et Ecclesia est
+<lb ed="#Ba"/>subjectum, vel Verbum incarnatum cum
+<lb ed="#Ba"/>omnibus sacramentis que perficit in
+<lb ed="#Ba"/>Ecclesia. Et hoc est idem dicere, quod
+<lb ed="#Ba"/>opera reparationis sunt subjectum : haec
+<lb ed="#Ba"/>enim de capite probantur ut de influente,
+<lb ed="#Ba"/>de Ecclesia autem ut de eo cui 
+influun<lb ed="#Ba" break="no"/>tur. Et hac declarant Deum prout est
+<lb ed="#Ba"/>res qua perfecte quis fruitur. Si vero
+<lb ed="#Ba"/>tertio modo assignatur subjectum, prout
+<lb ed="#Ba"/>subjectum est ‘circa quod ut 
+adminicu<lb ed="#Ba" break="no"/>lans ad hoc, est sacra Scriptura : tunc
+<lb ed="#Ba"/>sacra Scriptura habet res et signa.
+</p>
+               <p xml:id="Almn78-aa1671-d1e657">
+                  <lb ed="#Ba"/>Ad id ergo quod primo contra hanc
+<lb ed="#Ba"/>positionem objicitur, dicendum quod alia
+<lb ed="#Ba"/>scienti# considerant signa secundum
+<lb ed="#Ba"/>principia que signa faciunt esse signa,
+<lb ed="#Ba"/>et non secundum principia secundum
+<lb ed="#Ba"/>que signa fiunt signata : et ideo divisa
+<lb ed="#Ba"/>est consideratio signorum a signatis.
+<lb ed="#Ba"/>Theologia autem considerat signum sub
+<lb ed="#Ba"/>ratione utilis rei, et ideo in generali 
+con<lb ed="#Ba" break="no"/>sideratione signum comprehendit cum re :
+<lb ed="#Ba"/>et si distinguit ab ipsa particulari 
+consi<lb ed="#Ba" break="no"/>deratione, hoc facit, quia particularis
+<lb ed="#Ba"/>consideratio scientiam secundum se in
+<lb ed="#Ba"/>species non dividit.
+</p>
+               <p xml:id="Almn78-aa1671-d1e690">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod theologia
+<lb ed="#Ba"/>hoc modo est de omnibus, non sub 
+ra<lb ed="#Ba" break="no"/>tione diversa qua differunt singula, sed
+<lb ed="#Ba"/>sub una ratione, que est utile esse 
+signi<lb ed="#Ba" break="no"/>ficando vel disponendo ad id quo 
+fruen<lb ed="#Ba" break="no"/>dum est. Et sic non sequitur, quod non
+<lb ed="#Ba"/>indigeamus aliis scientiis : ill enim 
+tra<lb ed="#Ba" break="no"/>ctant de rebus secundum differentias 
+es<lb ed="#Ba" break="no"/>sentiales quibus differunt ab invicem,
+</p>
+               <p xml:id="Almn78-aa1671-d1e713">
+                  <lb ed="#Ba"/>Ad i quod objicitur contra secundam
+<lb ed="#Ba"/>positionem, jam patet solutio. Sacra
+<lb ed="#Ba"/>enim theologia non est de operibus 
+con<lb ed="#Ba" break="no"/>ditionis nisi ut de subjecto circa quod :
+<lb ed="#Ba"/>accipit enim ea ut adminiculantia per
+<lb ed="#Ba"/>modum signi vel usus ad id quo fruen-
+<lb ed="#Ba" break="no"/>dum est, et ad opera restaurationis vel
+<lb ed="#Ba"/>reparationis, que de Christo et Ecclesia
+<lb ed="#Ba"/>demonstrantur. Non enim optime 
+scire<lb ed="#Ba" break="no"/>tur qualiter homo reparatus est, nisi 
+sci<lb ed="#Ba" break="no"/>retur quantus et qualis fuit lapsus ejus.
+</p>
+               <p xml:id="Almn78-aa1671-d1e739">
+                  <lb ed="#Ba"/>Quantitas autem lapsus nesciretur bene,
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>nisi sciretur a quo lapsus est: hoc enim
+<lb ed="#Ba"/>scitur ex hoc, quod ostenditur bonum
+<lb ed="#Ba"/>ejus in quo conditus est in seipso et 
+om<lb ed="#Ba" break="no"/>nibus que creata sunt propter ipsum :
+<lb ed="#Ba"/>el sic inducitur de opere conditionis et
+<lb ed="#Ba"/>creationis mundi.
+</p>
+               <p xml:id="Almn78-aa1671-d1e759">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod est de causa
+<lb ed="#Ba"/>conditionis et reparationis : sed causa
+<lb ed="#Ba"/>non sufficieuter innotescit secundum hoc
+<lb ed="#Ba"/>quod causa est, nisi per opera sive 
+effe<lb ed="#Ba" break="no"/>ctus : et ideo oportet, quod in sacra 
+Scri<lb ed="#Ba" break="no"/>ptura etiam de operibus tractetur 
+condi<lb ed="#Ba" break="no"/>tionis et reparationis. Et sic Christus ut
+<lb ed="#Ba"/>causa et materia et ut finis est sacre
+<lb ed="#Ba"/>Scripture. Jam enim ante diximus, quod
+<lb ed="#Ba"/>non est inconveniens, quod materia 
+cir<lb ed="#Ba" break="no"/>ca quam sit et efficiens et finisin 
+quibus<lb ed="#Ba" break="no"/>dam, licet inconveniens sit in materia ex
+<lb ed="#Ba"/>qua. Sic prima fidei veritas materia est
+<lb ed="#Ba"/>circa quam et efficiens et finis.
+</p>
+               <p xml:id="Almn78-aa1671-d1e792">
+                  <lb ed="#Ba"/>Ad id quod contra tertiam positionem
+<lb ed="#Ba"/>objicitur, dicendum quod sacra Scriptura
+<lb ed="#Ba"/>de illis agit secundum tertium modum 
+ac<lb ed="#Ba" break="no"/>cipiendi subjectum. Adminiculantia enim
+<lb ed="#Ba"/>sunt ad judicium Dei cognoscendum, et
+<lb ed="#Ba"/>sic per modum fuge inclinantia ad 
+ope<lb ed="#Ba" break="no"/>ra reparationis et ad res quibus 
+fruen<lb ed="#Ba" break="no"/>dum est.
+</p>
+               <p xml:id="Almn78-aa1671-d1e812">
+                  <lb ed="#Ba"/>Per em patet solutio ad sequens. 
+Ma<lb ed="#Ba" break="no"/>lum enim detestatione sui fugam inducit,
+<lb ed="#Ba"/>et accessum ad bonum : et sic 
+conside<lb ed="#Ba" break="no"/>ratur in scientia que secundum pietatem
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa1671-d1e825">
+                  <lb ed="#Ba"/>Ad id quod contra quartam positionem
+<lb ed="#Ba"/>objicitur, dicendum quod Deus est 
+sub<lb ed="#Ba" break="no"/>jectum in primo modo sumendi 
+subje<lb ed="#Ba" break="no"/>ctum : et quecumque alia in sacra 
+Scri<lb ed="#Ba" break="no"/>ptura tractantur, sunt de subjecto tertio
+<lb ed="#Ba"/>modo dicto, et assumuntur ut 
+adminicu<lb ed="#Ba" break="no"/>lantia ad cognitionem ipsius.
+</p>
+               <p xml:id="Almn78-aa1671-d1e844">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+Bo<lb ed="#Ba" break="no"/>etil intelligitur, quod Deus in genere 
+cau<lb ed="#Ba" break="no"/>se non potest esse subjectum. Est enim
+<lb ed="#Ba"/>in genere cause efficientis, formalis, et
+<lb ed="#Ba"/>finalis, que numquam in eamdem rem
+<lb ed="#Ba"/>coincidunt cum materia subjecta. 
+Intelli<lb ed="#Ba" break="no"/>gitur etiam, quod in genere entis non
+<pb ed="#Ba" n="16"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>potest esse subjectum. Subjectum enim in
+<lb ed="#Ba"/>genere entis est substans, vel nature 
+es<lb ed="#Ba" break="no"/>sentiali, vel accidenteli : et si primo 
+mo<lb ed="#Ba" break="no"/>do esset subjectum, esset in ipso 
+univer<lb ed="#Ba" break="no"/>sale et particulare : quod est 
+inconve<lb ed="#Ba" break="no"/>niens. Si secundo modo, esset in ipso
+<lb ed="#Ba"/>accidens, et esset mutabilis : quod 
+ite<lb ed="#Ba" break="no"/>rum esset inconveniens. Sed non 
+intel<lb ed="#Ba" break="no"/>lexit Boetius, quin posset esse subjectum
+<lb ed="#Ba"/>de quo multa probantur, que per modum
+<lb ed="#Ba"/>relationis et attributionis conveniunt ei :
+<lb ed="#Ba"/>talia enim multa etiam Philosophi 
+proba<lb ed="#Ba" break="no"/>verunt de Deo, sicut quod sit simplex,
+<lb ed="#Ba"/>et eternus, et principium, et hujusmodi
+<lb ed="#Ba"/>alia que de ipso ut de subjecto probata
+<lb ed="#Ba"/>sunt.
+</p>
+            </div>
+            <div xml:id="Almn78-aa1671-Dd1e902">
+               <head xml:id="Almn78-aa1671-Hd1e904">Membrum 2</head>
+               <head xml:id="Almn78-aa1671-Hd1e907" type="question-title">
+  Utrum theologia sit scientia una, vel
+  plures ? Et, Qua unitate sit una, st
+  una est?
+</head>
+               <p xml:id="Almn78-aa1671-d1e910">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum theologia sit scientia una, vel
+<lb ed="#Ba"/>plures ? Et, Qua unitate sit una, st
+<lb ed="#Ba"/>una est?
+</p>
+               <p xml:id="Almn78-aa1671-d1e921">
+                  <lb ed="#Ba"/>Juxta hoc secundo queritur, Utrum
+<lb ed="#Ba"/>theologia sit una, vel plures, et qua 
+uni<lb ed="#Ba" break="no"/>tate sit una, si una est ?
+</p>
+               <p xml:id="Almn78-aa1671-d1e930">
+                  <lb ed="#Ba"/>Videtur, quod non sit una.
+<lb ed="#Ba"/>1. Dicit enim Aristoteles in I 
+Poste<lb ed="#Ba" break="no"/>riorum?, quod una scientia est, que est
+<lb ed="#Ba"/>unius generis subjecti. Et est sensus,
+<lb ed="#Ba"/>quod una scientia est de uno subjecto in
+<lb ed="#Ba"/>genere, ad cujus ambitum predicationis
+<lb ed="#Ba"/>reducuntur omnia que sicut partes sunt
+<lb ed="#Ba"/>in totalitate subjecti. Sicut geometria de
+<lb ed="#Ba"/>quantitate continua est, ad cujus 
+commu<lb ed="#Ba" break="no"/>nitatem omnia reducuntur que 
+conside<lb ed="#Ba" break="no"/>rat geometria. Et sic arithmetica una
+<lb ed="#Ba"/>scientia est, que est de numeris. Et non
+<lb ed="#Ba"/>tantum hoc est in realibus, sed etiam in
+<lb ed="#Ba"/>logica, que de syllogismo est et partibus
+<lb ed="#Ba"/>syllogismi, ad cujus formam omnes aliz
+<lb ed="#Ba"/>rationes reducuntur. Ad unum autem 
+ta<lb ed="#Ba" break="no"/>le commune res et signa reduci non pos-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>sunt, nec Christus et opera reparationis.
+<lb ed="#Ba"/>Crucifixio enim et mors passiones sunt:
+<lb ed="#Ba"/>resurrectio vero et ascensio actiones :
+<lb ed="#Ba"/>actio vero et passio ad unum commune
+<lb ed="#Ba"/>genus non reducuntur. Similiter caput
+<lb ed="#Ba"/>et corpus, et actiones capitis et corporis,
+<lb ed="#Ba"/>in uno communi genere non continentur
+<lb ed="#Ba"/>cum passionibus eorumdem.
+</p>
+               <p xml:id="Almn78-aa1671-d1e990">
+                  <lb ed="#Ba"/>2. Adhuc, Deus in nullo genere est,
+<lb ed="#Ba"/>nec genus alicujus rei. Que ergo 
+tractan<lb ed="#Ba" break="no"/>tur in sacra Scriptura, ad nullum unum
+<lb ed="#Ba"/>genus reduci possunt. Ergo sacra 
+Scrip<lb ed="#Ba" break="no"/>tura una scientia non est.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1003">
+                  <lb ed="#Ba"/>3. Adhuc, Etiamsi signa reducantur
+<lb ed="#Ba"/>ad res, secundum quod res dicitur ens
+<lb ed="#Ba"/>ratum : tamen res utiles et fruibiles ad
+<lb ed="#Ba"/>unum genus nullo modo possunt reduci,
+<lb ed="#Ba"/>eo quod fruibile nec genus est, nec cum
+<lb ed="#Ba"/>aliqua re in uno genere. Relinquitur
+<lb ed="#Ba"/>ergo, quod de fruibili et utili non potest
+<lb ed="#Ba"/>esse una scientia.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1023">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Sancti loquuntur de theologia sicut
+<lb ed="#Ba"/>de scientia una. Dicit enim Augustinus
+<lb ed="#Ba"/>in libro XIV de Trinitate quod <quote xml:id="Almn78-aa1671-Qd1e1033"> sacra
+<lb ed="#Ba"/>Scriptura est de his que ad salutem 
+ho<lb ed="#Ba" break="no"/>minis pertinent. </quote>
+               </p>
+               <p xml:id="Almn78-aa1671-d1e1041">
+                  <lb ed="#Ba"/>2. Adhuc, Si non est una, sequitur
+<lb ed="#Ba"/>quod est plures : et sic sunt plures 
+theo<lb ed="#Ba" break="no"/>logie, subjectis passionibus et principiis
+<lb ed="#Ba"/>a se invicem divise.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1052">
+                  <lb ed="#Ba"/>Solutio, Ad hoc dixerunt quidam,
+<lb ed="#Ba"/>quod omnia que tractantur in sacra 
+Scri<lb ed="#Ba" break="no"/>ptura sub una ratione stant, que est 
+re<lb ed="#Ba" break="no"/>velabile esse : et sic de ipsis est sacra
+<lb ed="#Ba"/>Scriptura ut una. Et quod hoc falsum
+<lb ed="#Ba"/>sit, statim patet. In sacra enim Scriptura
+<lb ed="#Ba"/>tractatur de historiis, parabolis, moribus,
+<lb ed="#Ba"/>et potentiis anime : et non secundum
+<lb ed="#Ba"/>quod accipiuntur per revelationem, 
+Ad<lb ed="#Ba" break="no"/>huc autem de Deo secundum quod via 
+ra<lb ed="#Ba" break="no"/>tionis investigatur : que quamvis 
+com<lb ed="#Ba" break="no"/>muni nomine revelatio vocatur, 1 ad Co
+  <lb ed="#Ba" break="no"/>rinth. u, 10: <quote xml:id="Almn78-aa1671-Qd1e1082" source="http://scta.info/resource/Icor2_10@1-4">Nobis revelavit Deus</quote> :
+<pb ed="#Ba" n="17"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>tamen haec scientia non est forma uniens
+<lb ed="#Ba"/>scientias vel scibilia sub una forma 
+coar<lb ed="#Ba" break="no"/>clans : alioquin omnis scientia esset una
+<lb ed="#Ba"/>scientia. Dicit enim Ambrosius, et 
+poni<lb ed="#Ba" break="no"/>tur super epist. I ad Corinth. xu, 3, 
+su<lb ed="#Ba" break="no"/>per illud : Nemo potest dicere : Dominus
+<lb ed="#Ba"/>Jesus, nisi in Spiritu sancto, quod <quote xml:id="Almn78-aa1671-Qd1e1105"> 
+om<lb ed="#Ba" break="no"/>ne verum a quocumque dicatur, a 
+Spi<lb ed="#Ba" break="no"/>rita sancto est. </quote> Adhuc, Forma que
+<lb ed="#Ba"/>unit scientiam secundum Aristotelem,
+<lb ed="#Ba"/>forma est que subjectum facit unum et
+<lb ed="#Ba"/>solum et totam causam passionis, ita
+<lb ed="#Ba"/>quod passio per se vel sub disjunctione
+<lb ed="#Ba"/>dicitur de subjecto per se et de omni 
+to<lb ed="#Ba" break="no"/>talitate subjecti et temporis et secundum
+<lb ed="#Ba"/>quod ipsum, sicut triangulus rectilineus
+<lb ed="#Ba"/>subjectum est ejus quod est habere tres
+<lb ed="#Ba"/>ingulos equos duobus rectis, et convenit
+<lb ed="#Ba"/>omni triangulo per se et semper et 
+se<lb ed="#Ba" break="no"/>cundum quod ipsum. Nisi enim talis 
+for<lb ed="#Ba" break="no"/>ma uniret subjectum, omnia que 
+de<lb ed="#Ba" break="no"/>monstrantur de subjecto, 
+demonstraren<lb ed="#Ba" break="no"/>tur per accidens. Revelatio autem sive
+<lb ed="#Ba"/>revelabilitas non est forma sic uniens ea
+<lb ed="#Ba"/>quz in sacra Scriptura determinantur.
+<lb ed="#Ba"/>Kevelatio enim non est aliquid ponens
+<lb ed="#Ba"/>in eo quod revelatur, sed in eo cui fit
+<lb ed="#Ba"/>revelatio. Ergo nihil est dicere, quod ab
+<lb ed="#Ba"/>unitate revelationis wna dicatur scientia.
+<lb ed="#Ba"/>Alii vero dixerunt, quod non oportet
+<lb ed="#Ba"/>ita stricte quarere subjectum in sacra
+<lb ed="#Ba"/>Scriptura, eo quod est scientia generalis,
+<lb ed="#Ba"/>omnia quodammodo considerans. Contra
+<lb ed="#Ba"/>quos objicitur : quia in metaphysica,
+<lb ed="#Ba"/>qua scientia generalis est, talis 
+requiri<lb ed="#Ba" break="no"/>tur unitas subjecti. Nisi enim talis sit,
+<lb ed="#Ba"/>procul dubio quacumque de subjecto
+<lb ed="#Ba"/>ustenduntur, per accidens ostenduntur,
+<lb ed="#Ba"/>sive superiora, sive inferiora sint 
+subje<lb ed="#Ba" break="no"/>clo, Sicut habere tres angulos, per 
+acci<lb ed="#Ba" break="no"/>dens ostenditur de isoscele, eo quod 
+ac<lb ed="#Ba" break="no"/>cidit triangulo isoscelem esse : et per 
+ac<lb ed="#Ba" break="no"/>cidens de figura, quia accidit figure
+\riangulum esse. Et hec unitas requiritur
+<lb ed="#Ba"/>in metaphysica sicut in aliis scientiis.
+<lb ed="#Ba"/>Haec autem que concludunt de 
+neces<lb ed="#Ba" break="no"/>xilale, concedimus dicentes quod 
+theolo<lb ed="#Ba" break="no"/>via una est scientia ab unitate forme
+<lb ed="#Ba"/>unum = facientis subjectum, secundum
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quod substat et causa est passionum que
+<lb ed="#Ba"/>determinantur de subjecto, quod 
+secun<lb ed="#Ba" break="no"/>dum primam intentionem subjecti 
+dici<lb ed="#Ba" break="no"/>tur. Jam enim habitum est, quod signum
+<lb ed="#Ba"/>refertur ad utile : utile autem refertur ad
+<lb ed="#Ba"/>fruibile. Dicit enim Philosophus, quod
+<lb ed="#Ba"/>ubi unum propter alterum, utrobique
+<lb ed="#Ba"/>unum. Et est sensus, quod finis et non
+<lb ed="#Ba"/>aliud quam finis inspicitur et queritur et
+<lb ed="#Ba"/>in seipso et in eo quod est ad ipsum : et
+<lb ed="#Ba"/>sic utrobique quaritur finis : et sic in
+<lb ed="#Ba"/>utili queritur fruibile, et stat sub forma
+<lb ed="#Ba"/>fruibilis. Et haecc unitas non est generis,
+<lb ed="#Ba"/>nec speciei, sed principii : quod 
+simplici<lb ed="#Ba" break="no"/>ter est in uno et in aliis secundum 
+mo<lb ed="#Ba" break="no"/>dum quo respiciunt in ipsum per 
+analo<lb ed="#Ba" break="no"/>giam unicuique determinatam : et talis
+<lb ed="#Ba"/>unitas est prime philosophia et 
+theolo<lb ed="#Ba" break="no"/>gie.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1240">
+                  <lb ed="#Ba"/>Ad primum igitur dicendum, quod cum
+<lb ed="#Ba"/>dicit Philosophus, quod una scientia est
+<lb ed="#Ba"/>que est unius generis subjecti, 
+intelligi<lb ed="#Ba" break="no"/>tur unum genus in communi ad 
+unita<lb ed="#Ba" break="no"/>tem generis et unitatem proportionis 
+si<lb ed="#Ba" break="no"/>ve analogiz. Unitas enim generis facit
+<lb ed="#Ba"/>unitatem scientiae specialis : unitas autem
+<lb ed="#Ba"/>analogie facit unitatem scientia 
+commu<lb ed="#Ba" break="no"/>nis.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1263">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet Deus
+<lb ed="#Ba"/>in nullo genere sit predicabili cum 
+ali<lb ed="#Ba" break="no"/>quo, eo quod nec est genus, nec est 
+spe<lb ed="#Ba" break="no"/>cies, nec particulare : est tamen in multis
+<lb ed="#Ba"/>sicut per analogiam communibus. Tale
+<lb ed="#Ba"/>enim commune in uno simpliciter est, et
+<lb ed="#Ba"/>in aliis non sunt nisi modi ejus, qui sunt
+<lb ed="#Ba"/>extra ipsum, et realiter sunt in his que
+<lb ed="#Ba"/>respiciunt ad ipsum. Et sic in forma 
+frui<lb ed="#Ba" break="no"/>bilis est utile et signum, et in forma 
+cau<lb ed="#Ba" break="no"/>se est et opus conditioniis et opus 
+repa<lb ed="#Ba" break="no"/>rationis : nihil enim queritur in eo quod
+<lb ed="#Ba"/>est ad finem, nisi finis.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1294">
+                  <lb ed="#Ba"/>Ad id quod in contrarium objectum
+<lb ed="#Ba"/>est, concedimus. Solutiones etiam 
+indu<lb ed="#Ba" break="no"/>cle nulle sunt sicut de necessitate 
+pro<lb ed="#Ba" break="no"/>batum est.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1305">
+                  <lb ed="#Ba"/>Per hoc patet solutio ad totum.
+</p>
+            </div>
+            <div xml:id="Almn78-aa1671-Dd1e1311">
+               <head xml:id="Almn78-aa1671-Hd1e1313">Membrum 3</head>
+               <head xml:id="Almn78-aa1671-Hd1e1316" type="question-title">
+  Utrum theologia sit scientia practica vel
+  theorica 
+</head>
+               <p xml:id="Almn78-aa1671-d1e1319">
+                  <pb ed="#Ba" n="18"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Utrum theologia sit scientia practica vel
+<lb ed="#Ba"/>theorica ?
+</p>
+               <p xml:id="Almn78-aa1671-d1e1332">
+                  <lb ed="#Ba"/>Deinde queritur juxta idem, Utrum
+<lb ed="#Ba"/>sit scientia practica vel theorica? Hoc
+<lb ed="#Ba"/>enim a modo subjecti habet determinare.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1341">
+                  <lb ed="#Ba"/>4. Dicit autem Aristoteles in I de 
+Ani<lb ed="#Ba" break="no"/>ma, quod practice scientiae stant ad opus,
+<lb ed="#Ba"/>speculative autem ad causam et ad 
+ve<lb ed="#Ba" break="no"/>rum, Ista autem scientia ad opus stat 
+sic<lb ed="#Ba" break="no"/>utad ultimum perfectivum. Jacobi,1,25 :
+<lb ed="#Ba"/>Qui perspexerit in legem perfectam 
+h<lb ed="#Ba" break="no"/>bertatis, et permanserit in ea, non 
+audi<lb ed="#Ba" break="no"/>tur obliviosus factus, sed factor operis,
+<lb ed="#Ba"/>hic beatus in facto suo erit. Videtur 
+er<lb ed="#Ba" break="no"/>go, quod id ad quod stat Scriptura, 
+fa<lb ed="#Ba" break="no"/>ctum sit et opus : ergo practica est.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1368">
+                  <lb ed="#Ba"/>2. Adhuc, In operibus traditur, et in
+<lb ed="#Ba"/>historicis, et in parabolicis, et praeceptis
+<lb ed="#Ba"/>legalibus, et in Evangellis, et 
+propheti<lb ed="#Ba" break="no"/>cis, et epistolis Apostolorum : omnes
+<lb ed="#Ba"/>enim ille admonitorie sunt et 
+exhortati<lb ed="#Ba" break="no"/>vee ad opera.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1384">
+                  <lb ed="#Ba"/>Adhuc, Ad Titum, i, 1 : Secundum
+<lb ed="#Ba"/>jidem electorum Dei, et agnitionem 
+veri<lb ed="#Ba" break="no"/>tatis que secundum pictatem est. Ergo
+<lb ed="#Ba"/>theologia non est veritatis ut veritatis,
+<lb ed="#Ba"/>sed veritatis ut est inclinativa pietatem :
+<lb ed="#Ba"/>slat ergo ad opus, et non ad verum : 
+vi<lb ed="#Ba" break="no"/>detur ergo, quod practica sit.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1402">
+                  <lb ed="#Ba"/>Iy contrarium hujus videtur esse, quod
+<lb ed="#Ba"/>sacra doctrina est de Deo et operibus
+<lb ed="#Ba"/>ejus, in quibus opus nostrum non 
+requi<lb ed="#Ba" break="no"/>ritur, sed requiritur verum quod est in
+<lb ed="#Ba"/>eis. In omnibus autem practicis sive 
+li<lb ed="#Ba" break="no"/>beralibus sive mechanicis opus nostrum
+<lb ed="#Ba"/>requiritur videtur ergo; quod hac
+<lb ed="#Ba"/>scientia sit theorica et non practica.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1422">
+                  <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod in
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>veritate sacra Scriptura practica est, et
+<lb ed="#Ba"/>stat in opere virtutis vel theologice vel
+<lb ed="#Ba"/>cardinalis : quia si etiam verum in re
+<lb ed="#Ba"/>fruibili vel utili inquirit, hoc ipsum refert
+<lb ed="#Ba"/>ad affectum, ut scilicet in fide vel in eo
+<lb ed="#Ba"/>quod succedit fidei fruatur per affectum
+<lb ed="#Ba"/>vel intellectum affectivum summa 
+veri<lb ed="#Ba" break="no"/>tate, per speciem vel spei succedens
+<lb ed="#Ba"/>summe beatificante, per charitatem 
+sum<lb ed="#Ba" break="no"/>ma bonitate. Historice autem proposita
+<lb ed="#Ba"/>et preceptive in lege et parabolice ad
+<lb ed="#Ba"/>opus refert meritorium. Hymnidice 
+au<lb ed="#Ba" break="no"/>tem ut in Psalmis descripta, ad atfectum
+<lb ed="#Ba"/>refert pietatis : et verum quod inquirit,
+<lb ed="#Ba"/>de Deo et operibus ejus inquirit, non ut
+<lb ed="#Ba"/>verum simpliciter, sed ut summe 
+beatifi<lb ed="#Ba" break="no"/>cans, in quod referat totam pietatis 
+in<lb ed="#Ba" break="no"/>tentionem in affectu et opere. Sicut
+<lb ed="#Ba"/>etiam Aristoteles in X Lthicorum 
+felici<lb ed="#Ba" break="no"/>tatem contemplativam determinat, ut ad
+<lb ed="#Ba"/>finem ad quem referantur actus virtutum
+<lb ed="#Ba"/>intellectualium et moralium et 
+heroica<lb ed="#Ba" break="no"/>rum: propter quod et ipsa que tractat
+<lb ed="#Ba"/>de felicitate contemplativa, moralis sive
+<lb ed="#Ba"/>practica est sicut et ceteree partes 
+mora<lb ed="#Ba" break="no"/>lis scientia. Differt tamen ab allis 
+practi<lb ed="#Ba" break="no"/>cis quas Philosophus considerat. Allie
+<lb ed="#Ba"/>enim practice stant ad opus perfectum
+<lb ed="#Ba"/>perfectione virtutis acquisile : ista autem
+<lb ed="#Ba"/>stat ad opus perfectum perfectione 
+virtu<lb ed="#Ba" break="no"/>tis infuse per gratiam.
+  
+<lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+            </div>
+            <div xml:id="Almn78-aa1671-Dd1e1499">
+               <head xml:id="Almn78-aa1671-Hd1e1501">Membrum 4</head>
+               <head xml:id="Almn78-aa1671-Hd1e1504" type="question-title">
+  Utrum theologia sit scientia universalis,
+  vel particularis
+</head>
+               <p xml:id="Almn78-aa1671-d1e1507">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>Utrum theologia sit scientia universalis,
+<lb ed="#Ba"/>vel particularis ?
+</p>
+               <p xml:id="Almn78-aa1671-d1e1516">
+                  <lb ed="#Ba"/>Demum juxta idem queritur quarto,
+<lb ed="#Ba"/>Utrum sit universalis vel particularis
+<lb ed="#Ba"/>scienlia ?
+</p>
+               <p xml:id="Almn78-aa1671-d1e1525">
+                  <lb ed="#Ba"/>Et videtur, quod universalis.
+<lb ed="#Ba"/>1. Est enim de universali subjecto
+<pb ed="#Ba" n="19"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quod omnia comprehendit, et est de 
+om<lb ed="#Ba" break="no"/>nibus, sicut jam ante habitum est
+<lb ed="#Ba"/>quod autem de omnibus est, universale
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1546">
+                  <lb ed="#Ba"/>2. Adhuc, Aristoteles in II prime 
+phi<lb ed="#Ba" break="no"/>losophiae dicit, quod est scientia que 
+con<lb ed="#Ba" break="no"/>siderat ens in quantum ens: et hac est
+<lb ed="#Ba"/>hon una de scientiis particularibus, sed
+<lb ed="#Ba"/>est scientia universalis. A simili ergo et
+<lb ed="#Ba"/>ista universalis est, que considerat omne
+<lb ed="#Ba"/>ens,
+</p>
+               <p xml:id="Almn78-aa1671-d1e1564">
+                  <lb ed="#Ba"/>3. Adhuc, Si particularis scientia 
+dici<lb ed="#Ba" break="no"/>lur a particulari subjecto, et universalis
+<lb ed="#Ba"/>ab universali, videtur haec esse 
+univer<lb ed="#Ba" break="no"/>salis, quia nihil relinquit quod non 
+con<lb ed="#Ba" break="no"/>sideret sive in practicis scientiis sive in
+<lb ed="#Ba"/>theoricis : hoc enim facere non potest
+<lb ed="#Ba"/>nisi sub aliquo communi subjecto ad 
+om<lb ed="#Ba" break="no"/>nia.
+</p>
+               <p xml:id="Almn78-aa1671-d1e1584">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod sicut
+<lb ed="#Ba"/>ens particulare in principio est in ente
+<lb ed="#Ba"/>universali, sic principia entis particularis
+<lb ed="#Ba"/>sunt in principiis entis universalis sicut
+<lb ed="#Ba"/>in primis essentiantibus ipsa, sive sint
+<lb ed="#Ba"/>complexa, sive incomplexa : 
+incomple<lb ed="#Ba" break="no"/>xa, sicut subjectum et passio : complexa,
+<lb ed="#Ba"/>sicut dignitates et principia que sunt
+<lb ed="#Ba"/>propositiones sive virtute sive subjecto
+<lb ed="#Ba"/>syllogismum ingredientes. Sicut ergo
+<lb ed="#Ba"/>omnes particulares scientie principia sua
+<lb ed="#Ba"/>accipiunt a scientia universali que est
+<lb ed="#Ba"/>prima philosophia, sic a theologia 
+acci<lb ed="#Ba" break="no"/>pient,si ipsa est scientia universalis : hoc
+<lb ed="#Ba"/>autem falsum est : ergo theologia non
+<lb ed="#Ba"/>est scientia universalis.
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Solutio. Ad hoc dicendum, quod 
+theo<lb ed="#Ba" break="no"/>logia proprie loquendo non est 
+particu<lb ed="#Ba" break="no"/>laris, nec universalis. Proprie enim
+<lb ed="#Ba"/>universalis est, que est de ente quod
+<lb ed="#Ba"/>universale est essentialiter omnibus.
+<lb ed="#Ba"/>Particularis autem, que est de aliqua.
+<lb ed="#Ba"/>specie entis sive parte ejus per formam
+<lb ed="#Ba"/>substantialem coarctati sub ente 
+com<lb ed="#Ba" break="no"/>muni sicut sub principio, et non sub 
+ge<lb ed="#Ba" break="no"/>nere. Theologia autem non est de ente
+<lb ed="#Ba"/>ut ens est, nec de partibus entis est ut
+<lb ed="#Ba"/>entis partes sunt: sed est de ente 
+deter<lb ed="#Ba" break="no"/>minato per formam analogie ad id quo
+<lb ed="#Ba"/>fruendum est, et de partibus ejus 
+secun<lb ed="#Ba" break="no"/>dum quod specialem habet analogiam ad
+<lb ed="#Ba"/>illud. Et ideo non simpliciter est 
+univer<lb ed="#Ba" break="no"/>salis vel particularis, sed quodammodo
+<lb ed="#Ba"/>universalis et particularis, sicut et 
+ethi<lb ed="#Ba" break="no"/>ca que quodammodo de omnibus est et
+<lb ed="#Ba"/>moralibus et fortuitis, ut de potentatu, et
+<lb ed="#Ba"/>divitiis, et partibus utriusque istorum,
+<lb ed="#Ba"/>prout organice vel condecorative ad 
+feli<lb ed="#Ba" break="no"/>citatem civilem faciunt. Quia enim in
+<lb ed="#Ba"/>ratione speciali de omnibus est, propter
+<lb ed="#Ba"/>hoc non potest esse scientia universalis.
+<lb ed="#Ba"/>Et quia haec ratio specialis omnibus 
+ap<lb ed="#Ba" break="no"/>plicabilis est per modum diversum signi
+<lb ed="#Ba"/>vel utilis vel fruibilis, ideo proprie 
+parti<lb ed="#Ba" break="no"/>cularis esse non potest: propter quod
+<lb ed="#Ba"/>etiam aliae scientie ab ipsa principia sua
+<lb ed="#Ba"/>accipere non possunt : non enim 
+consi<lb ed="#Ba" break="no"/>derat id quod commune essentialiter
+<lb ed="#Ba"/>omnibus particularibus est per principia
+<lb ed="#Ba"/>essentialia,sed per analogiam, secundum
+<lb ed="#Ba"/>quod dictum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

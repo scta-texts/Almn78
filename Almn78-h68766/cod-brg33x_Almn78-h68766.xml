@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 109</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 109</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="308"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h68766"><!-- p2t17q109 -->
+            <head xml:id="Almn78-h68766-Hd1e106">Quaestio 109</head>
+            <head xml:id="Almn78-h68766-Hd1e109" type="question-title">
+    Utrum actus concubitus in matrimonio sit peccatum?
+  </head>
+            <p xml:id="Almn78-h68766-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CIX.
+<lb ed="#Bc"/>Utrum actus concubitus in matrimonio sit peccatum?
+</p>
+            <p xml:id="Almn78-h68766-d1e119">
+               <lb ed="#Bc"/>Deinde ratione hujus quod dicit 
+Ma<lb ed="#Bc" break="no"/>gister in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXX, in illo cap. Unde 
+Augu<lb ed="#Bc" break="no"/>stinus Juliano heretico *, ubi dicit, quod
+<lb ed="#Bc"/>querit Julianus per quid peccatum 
+in<lb ed="#Bc" break="no"/>venitur in parvulo, ita inquiens : <quote xml:id="Almn78-h68766-Qd1e134"> Non
+<lb ed="#Bc"/>peccat iste qui nascitur : non peccat ille
+<lb ed="#Bc"/>qui genuit : non peccat ille qui condidit.
+<lb ed="#Bc"/>Per quas igitur rimas in tot presidia
+<lb ed="#Bc"/>innocentie peccatum fingis 
+ingres<lb ed="#Bc" break="no"/>sum ? </quote>
+            </p>
+            <p xml:id="Almn78-h68766-d1e148">
+               <lb ed="#Bc"/>Gratia hujus oportet querere, Utrum
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>actus concubitus in matrimonio sit 
+pec<lb ed="#Bc" break="no"/>catum ?
+</p>
+            <p xml:id="Almn78-h68766-d1e160">
+               <lb ed="#Bc"/>Videtur, quod actus ille sit peccatum.
+<lb ed="#Bc"/>1. Augustinus in libro XIV de 
+Crvita<lb ed="#Bc" break="no"/>te Dei : <quote xml:id="Almn78-h68766-Qd1e168"> Genitales corporis partes ita
+<lb ed="#Bc"/>libido suo juri quodammodo 
+mancipa<lb ed="#Bc" break="no"/>vit, ut moveri non valeant si ipsa 
+de<lb ed="#Bc" break="no"/>fuerit, et nisi ipsa vel ultro vel excitata*
+<lb ed="#Bc"/>surrexerit *. </quote> Ergo videtur, quod actus!
+<lb ed="#Bc"/>concubitus non est sine libidine : libido.
+<lb ed="#Bc"/>peccatum est : ergo actus ille sine pecca-"
+<lb ed="#Bc"/>to non est,
+</p>
+            <p xml:id="Almn78-h68766-d1e187">
+               <pb ed="#Bc" n="309"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>2. Adhuc, Augustinus ad Valerium :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h68766-Qd1e197"> Ipse licitas honestusque concubitus
+<lb ed="#Bc"/>non est sine ardore libidinis, ut peragi
+<lb ed="#Bc"/>possit quod rationis est,non libidinis : qui
+<lb ed="#Bc"/>certe ardor sive sequatur sive praveniat
+<lb ed="#Bc"/>voluntatem, non tamen nisi quodam suo
+<lb ed="#Bc"/>imperio moveat membra que aliter non
+<lb ed="#Bc"/>possunt moveri, non perficitur 
+concubi<lb ed="#Bc" break="no"/>tus ad generationem. </quote> Ex quo accipitur,
+<lb ed="#Bc"/>guod concubitus non est sine libidine :
+<lb ed="#Bc"/>ergo non sine peccato.
+</p>
+            <p xml:id="Almn78-h68766-d1e221">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Super illud Apostoli, 1 ad Corinth,
+<lb ed="#Bc"/>vi, 16: Brunt duo in carne una, 
+Glos<lb ed="#Bc" break="no"/>sa: <quote xml:id="Almn78-h68766-Qd1e231">In carnali opere, quod inter 
+con<lb ed="#Bc" break="no"/>juges sine peccato fit. </quote> Ergo actus 
+con<lb ed="#Bc" break="no"/>cubitus inter conjuges peccatum non
+<lb ed="#Bc"/>est.
+</p>
+            <p xml:id="Almn78-h68766-d1e242">
+               <lb ed="#Bc"/>2. Adhuc, Augustinus in libro de Bono
+<lb ed="#Bc"/>conjugalt: <quote xml:id="Almn78-h68766-Qd1e248"> Bona quedam nobis data
+<lb ed="#Bc"/>sunt a Deo, que propter se sunt 
+appe<lb ed="#Bc" break="no"/>tenda, sicut sapientia, salus, et amicitia
+<lb ed="#Bc"/>sunt. Et alia que ad vitam sunt 
+necessa<lb ed="#Bc" break="no"/>ria, ut-doctrina, cibus, conjugium. 
+Qui<lb ed="#Bc" break="no"/>cumque his que propter aliud sunt 
+appe<lb ed="#Bc" break="no"/>tenda, utitur ad ea ad que sunt 
+consti<lb ed="#Bc" break="no"/>tuta, non peccat : qui vero non ad ea
+<lb ed="#Bc"/>utitur eisdem, peccat alias venialiter,
+<lb ed="#Bc"/>alias criminaliter. </quote> Unde qui utitur his,
+<lb ed="#Bc"/>bene facit, qui abstinet melius facit :
+<lb ed="#Bc"/>ergo actus concubitus potest fieri sine
+<lb ed="#Bc"/>peccato.
+</p>
+            <p xml:id="Almn78-h68766-d1e278">
+               <lb ed="#Bc"/>3. Adhuc, Augustinus in libro de 
+Ba<lb ed="#Bc" break="no"/>ptismo parvulorum: <quote xml:id="Almn78-h68766-Qd1e284"> Bene utitur
+<lb ed="#Bc"/>bono, continentiam dedicans Deo : male
+<lb ed="#Bc"/>utitur bono, continentiam vovens idolo:
+<lb ed="#Bc"/>male utitur malo, concupiscentiam rela
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>xans adulterio : bene utitur malo, 
+con<lb ed="#Bc" break="no"/>cupiscentiam restringens connubio. </quote>
+               <lb ed="#Bc"/>Hoc enim dicit Apostolus, I ad Corinth.
+<lb ed="#Bc"/>vu, 9: Melius est nubere quam uri. Et
+<lb ed="#Bc"/>ibidem, Si non continent, nubant. Ergo
+<lb ed="#Bc"/>concubitus sine peccato fit.
+</p>
+            <p xml:id="Almn78-h68766-d1e310">
+               <lb ed="#Bc"/>Solutio. Dicendum, quod sine dubio
+<lb ed="#Bc"/>secundum fidem Catholicam concubitus
+<lb ed="#Bc"/>conjugalis sine peccato fit, et redditur in
+<lb ed="#Bc"/>eo debitum, propter quod justus est, et
+<lb ed="#Bc"/>bonus est. Unde Apostolus, I ad Corinth.
+<lb ed="#Bc"/>vu, 5: Nolite fraudare invicem, nist
+<lb ed="#Bc"/>forte ex consensu ad tempus, ut vacetis
+<lb ed="#Bc"/>orationi. Et ibidem, ¥. 4: Mulier sui
+<lb ed="#Bc"/>corporis potestatem non habet, sed vir :
+<lb ed="#Bc"/>similiter autem et vir sui corporis 
+pote<lb ed="#Bc" break="no"/>statem non habet, sed mulier. Unde
+<lb ed="#Bc"/>Manichei et Tatiani damnantur, qui
+<lb ed="#Bc"/>contradicunt nuptiis.
+</p>
+            <p xml:id="Almn78-h68766-d1e342">
+               <lb ed="#Bc"/>Ad prima ergo duo dicendum, quod 
+li<lb ed="#Bc" break="no"/>bido in veritate, que est in concubitu
+<lb ed="#Bc"/>conjugali, non dicitur malum, quia
+<lb ed="#Bc"/>peccatum sit conjugibus ipsis: sed per
+<lb ed="#Bc"/>eam transfunditur peccatum in parvulos.
+<lb ed="#Bc"/>Et ideo dicit Augustinus super eadem
+<lb ed="#Bc"/>verba Apostoli, quod concupiscentia que
+<lb ed="#Bc"/>alias rueret in preceps, honestate 
+exci<lb ed="#Bc" break="no"/>pitur nuptiarum ut turpis non sit. Et hec
+<lb ed="#Bc"/>honestas est in tribus bonis conjugii, fide
+<lb ed="#Bc"/>scilicet thori, bono prolis, et bono 
+sacra<lb ed="#Bc" break="no"/>menti. De his tamen subtilius dicetur in
+<lb ed="#Bc"/>quarto Sententiarum, tractatu de 
+con<lb ed="#Bc" break="no"/>jugio.
+</p>
+            <p xml:id="Almn78-h68766-d1e375">
+               <lb ed="#Bc"/>Ad tTRIA que in contrarium 
+objiciun<lb ed="#Bc" break="no"/>tur : dicendum quod procedunt et 
+veri<lb ed="#Bc" break="no"/>tatem concludunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 41</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 41</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="426"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a94409"><!-- p1t9q41 -->
+            <head xml:id="Almn78-a94409-Hd1e106">Quaestio 41</head>
+            <head xml:id="Almn78-a94409-Hd1e109" type="question-title">
+        De intentione principii et ordine naturae in divinis
+      </head>
+            <p xml:id="Almn78-a94409-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUESTIO XLI.
+<lb ed="#Ba"/>De intentione principii et ordine naturae in divinis.
+</p>
+            <p xml:id="Almn78-a94409-d1e121">
+               <lb ed="#Ba"/>Deinde, quia per distinctionem 
+perso<lb ed="#Ba" break="no"/>narum ex relatione originis causatur
+<lb ed="#Ba"/>ordo nature in divinis, ideo hic 
+queren<lb ed="#Ba" break="no"/>dum est de ordine nature quo alter est
+<lb ed="#Ba"/>ex altero.
+</p>
+            <p xml:id="Almn78-a94409-d1e134">
+               <lb ed="#Ba"/>Sed quia ordo talis causatur ex hoe,
+<lb ed="#Ba"/>quod Pater est principium non de 
+prin<lb ed="#Ba" break="no"/>cipio, Filius autem principium de 
+princi<lb ed="#Ba" break="no"/>pio, et Spiritus sanctus principium de
+<lb ed="#Ba"/>principio utroque: ideo querenda sunt
+<lb ed="#Ba"/>hic duo.
+<lb ed="#Ba"/>Primo scilicet, de intentione principii.
+<lb ed="#Ba"/>Secundo, De ordine nature.
+  
+<lb ed="#Ba"/>De intentione principii querenda sunt
+<lb ed="#Ba"/>duo : quorum unum est, Utrum univoce
+<lb ed="#Ba"/>de Deo dicatur respectu creature quando
+<lb ed="#Ba"/>dicitur principium omnis creature, et
+<lb ed="#Ba"/>respeciu persone quando dicitur Pater
+<lb ed="#Ba"/>principium Filii, et Filius principium
+<lb ed="#Ba"/>Spiritus sancti ?
+</p>
+            <p xml:id="Almn78-a94409-d1e170">
+               <lb ed="#Ba"/>Secundum est, Quid significet in 
+divi<lb ed="#Ba" break="no"/>nis ?
+</p>
+            <div xml:id="Almn78-a94409-Dd1e177">
+               <head xml:id="Almn78-a94409-Hd1e179">Membrum 1</head>
+               <head xml:id="Almn78-a94409-Hd1e182" type="question-title">De intentione principii</head>
+               <p xml:id="Almn78-a94409-d1e185">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>De intentione principii.
+</p>
+               <div xml:id="Almn78-a94409-Dd1e194">
+                  <head xml:id="Almn78-a94409-Hd1e196">Articulus 1</head>
+                  <head xml:id="Almn78-a94409-Hd1e199" type="question-title">
+        Utrum principium aequivoce dicatur
+        quando dicitur de Deo respectu 
+        creaturae et essentialiter, et quando 
+        dicitur respectu persone et notionaliter
+      </head>
+                  <p xml:id="Almn78-a94409-d1e202">
+                     <lb ed="#Ba"/>MEMBRI PRIMI
+<lb ed="#Ba"/>ARTICULUS 1.
+<lb ed="#Ba"/>Utrum principium equivoce dicatur
+<lb ed="#Ba"/>quando dicitur de Deo respectu 
+crea<lb ed="#Ba" break="no"/>turae et essentialiter, et quando 
+dici<lb ed="#Ba" break="no"/>tur respectu persone et notionaliter?
+</p>
+                  <p xml:id="Almn78-a94409-d1e218">
+                     <lb ed="#Ba"/>Primo ergo queritur, Utrum 
+princi<lb ed="#Ba" break="no"/>plum aequivoce dicatur quando dicitur de
+<lb ed="#Ba"/>Deo respectu creature et essentialiter,
+<lb ed="#Ba"/>et quando dicitur de personis,et dicit 
+ra<lb ed="#Ba" break="no"/>tionem ordinis in ipsis ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e231">
+                     <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>AEquivoca enim sunt, ut dicit Aristote
+<pb ed="#Ba" n="427"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>les in Predicamentis, quorum solum
+<lb ed="#Ba"/>fiamen commune, et ratio substantia
+<lb ed="#Ba"/>diversa. Ubi autem ratio substantia 
+di<lb ed="#Ba" break="no"/>versa est, ibi substantia diversa est : sed
+<lb ed="#Ba"/>essentia et persona non sunt diverse
+<lb ed="#Ba"/>substantia : si ergo nomen commune 
+di<lb ed="#Ba" break="no"/>catur eis, secundum unam rationem 
+sub<lb ed="#Ba" break="no"/>atantia convenit eis, et ita univoce.
+</p>
+                  <p xml:id="Almn78-a94409-d1e261">
+                     <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Principium dictum  notionaliter,
+<lb ed="#Ba"/>quod ordinem nature dicit in personis,
+<lb ed="#Ba"/>convenit ab eterno. Principium autem
+<lb ed="#Ba"/>dictum essentialiter, quo principium est
+<lb ed="#Ba"/>rreature, ut dicit Magister in primo 
+Sen<lb ed="#Ba" break="no"/>tentiarum, distinct. XXLX, convenit ex
+<lb ed="#Ba"/>tempore. Nihil autem univocum est sub
+<lb ed="#Ba"/>uno nomine conveniens temporali et
+<lb ed="#Ba"/>wterno, Principium ergo non dicitur 
+uni<lb ed="#Ba" break="no"/>voce, essentialiter dictum et notionaliter.
+</p>
+                  <p xml:id="Almn78-a94409-d1e287">
+                     <lb ed="#Ba"/>2. Adhuc, Principium  notionaliter
+<lb ed="#Ba"/>dictum, dicit notionem sive relationem,
+<lb ed="#Ba"/>que secundum esse relationis in persona
+<lb ed="#Ba"/>ilivina est, etin Deo est etiam secundum
+<lb ed="#Ba"/>rationem, Principium autem essentialiter
+<lb ed="#Ba"/>dictum, dicit relationem que secundum
+<lb ed="#Ba"/>osse relationis in creatura est, et 
+secun<lb ed="#Ba" break="no"/>dum rationem tantum in Deo. Ergo non
+<lb ed="#Ba"/>dicitur secundum unam rationem 
+sub<lb ed="#Ba" break="no"/>stantie notionaliter et essentialiter: quia
+<lb ed="#Ba"/>substantia non est una.
+</p>
+                  <p xml:id="Almn78-a94409-d1e313">
+                     <lb ed="#Ba"/>3. Adhuc, Principium dictum 
+notio<lb ed="#Ba" break="no"/>naliter, relatum ad principiatum est,
+<lb ed="#Ba"/>quod secundum esse est ad aliud. Pater
+<lb ed="#Ba"/>enim est Filii principium, Filius a Patre
+<lb ed="#Ba"/>principium, ita quod uterque alterius,
+<lb ed="#Ba"/>Sic autem non est quando dicitur 
+princi<lb ed="#Ba" break="no"/>pium creature. Creatura enim dependet
+<lb ed="#Ba"/>ad creatorem, et secundum esse et 
+se<lb ed="#Ba" break="no"/>cundum dici. Creator autem ad 
+creatu<lb ed="#Ba" break="no"/>ram secundum esse dependere non 
+pot<lb ed="#Ba" break="no"/>est, sed secundum dici tantum. Videtur
+<lb ed="#Ba"/>ergo, quod non univoce dicatur 
+princi<lb ed="#Ba" break="no"/>plum.
+</p>
+                  <p xml:id="Almn78-a94409-d1e344">
+                     <lb ed="#Ba"/>4. Si forte aliquis dicere velit, quod
+<lb ed="#Ba"/>dicitur secundum communitatem 
+analo<lb ed="#Ba" break="no"/>giae, et ita nec univoce, nec equivoce
+<lb ed="#Ba"/>principium. Hoc videtur non esse 
+ve<lb ed="#Ba" break="no"/>rum: quia tunc de uno diceretur 
+simpli<lb ed="#Ba" break="no"/>citer, et de alio non nisi secundum quid,
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>sive secundum aliquem modum sicut
+<lb ed="#Ba"/>ens de substantia dicitur simpliciter, et
+<lb ed="#Ba"/>de accidente secundum aliquem modum:
+<lb ed="#Ba"/>et sanum de animali simpliciter, et de
+<lb ed="#Ba"/>urina secundum aliquem modum. Sed
+<lb ed="#Ba"/>principium quod Pater est principium
+<lb ed="#Ba"/>Filii, simpliciter est principium secun-
+<lb ed="#Ba" break="no"/>dum perfectam rationem principii : 
+simi<lb ed="#Ba" break="no"/>liter cum dicitur, Deus est principium
+<lb ed="#Ba"/>creature, simpliciter est principium 
+se<lb ed="#Ba" break="no"/>cundum perfectam principii rationem,
+<lb ed="#Ba"/>Videtur ergo, quod non dicatur per prius
+<lb ed="#Ba"/>et posterius sive secundum analogiam.
+</p>
+                  <p xml:id="Almn78-a94409-d1e390">
+                     <lb ed="#Ba"/>Apuuc, Si conceditur aliquo modo se-_
+<lb ed="#Ba"/>cundum analogiam dici : tunc queratur,
+<lb ed="#Ba"/>De quo dicitur per prius?
+</p>
+                  <p xml:id="Almn78-a94409-d1e399">
+                     <lb ed="#Ba"/>Et videtur, quod de notionali: quia
+<lb ed="#Ba"/>hoc est ab eterno : essentiale autem 
+di<lb ed="#Ba" break="no"/>citur ex tempore: eternum autem est
+<lb ed="#Ba"/>ante temporale.
+</p>
+                  <p xml:id="Almn78-a94409-d1e411">
+                     <lb ed="#Ba"/>In contrarium autem hujus esse 
+vide<lb ed="#Ba" break="no"/>tur, quod secundum rationem intelligendi
+<lb ed="#Ba"/>essentia est ante personam et ante 
+no<lb ed="#Ba" break="no"/>tionem : et sic videtur sequi,. quod es-
+<lb ed="#Ba" break="no"/>sentiale est ante personale et ante 
+notio<lb ed="#Ba" break="no"/>nale.
+</p>
+                  <p xml:id="Almn78-a94409-d1e427">
+                     <lb ed="#Ba"/>Soxutio. Sicut dicit Magister in primo
+<lb ed="#Ba"/>Sententiarum, distinct. XXIX, 
+princi<lb ed="#Ba" break="no"/>pium est nomen multiplicem nominans
+<lb ed="#Ba"/>relationem, et sine prejudicio loquendo,
+<lb ed="#Ba"/>est nomen significans essentiam. Et ideo
+<lb ed="#Ba"/>Pater est principium, Filius est 
+princi<lb ed="#Ba" break="no"/>pium, Spiritus sanctus est principium,
+<lb ed="#Ba"/>et hi tres unum principium. Sed virtute
+<lb ed="#Ba"/>prepositionis notionalis sibi adjuncte
+<lb ed="#Ba"/>trahitur ad standum pro persona, et 
+effi<lb ed="#Ba" break="no"/>citur notionale, notionem consignificans
+<lb ed="#Ba"/>in persona, ut cum dicitur, principium
+<lb ed="#Ba"/>non de principio, stat pro Patre, 
+consig<lb ed="#Ba" break="no"/>nificans notionem paternitatis et 
+inna<lb ed="#Ba" break="no"/>scibilitatis : paternitatis in eo quod 
+dici<lb ed="#Ba" break="no"/>tur, principium: innascibilitatis, in eo
+<lb ed="#Ba"/>quod dicitur, non de principio. Et cum
+<lb ed="#Ba"/>dicitur, principium de principio, stat
+<lb ed="#Ba"/>pro persona Filii, significando notionem :
+<lb ed="#Ba"/>filiationis in eo quod dicitur, de 
+princi<lb ed="#Ba" break="no"/>pio: et notionem spirationis in hoc
+<pb ed="#Ba" n="428"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>quod dicitur, principium. Et cum 
+dici<lb ed="#Ba" break="no"/>tur, principium de utroque. stat pro 
+per<lb ed="#Ba" break="no"/>sona Spiritus sancti, consignificando 
+no<lb ed="#Ba" break="no"/>tionem a Patre et Filio, et 
+consignifican<lb ed="#Ba" break="no"/>do relationem ad creaturam in hoc quod
+<lb ed="#Ba"/>dicitur, principium, et hoc habet ex 
+uni<lb ed="#Ba" break="no"/>tate essentis quam habet cum Patre et
+<lb ed="#Ba"/>Filio, sic unum principium est cum Patre
+<lb ed="#Ba"/>et Filio universe creature. Et sic. patet
+<lb ed="#Ba"/>quomodo multiplicem notat relationem.
+</p>
+                  <p xml:id="Almn78-a94409-d1e501">
+                     <lb ed="#Ba"/>Ad PRIMUM ergo quesitum dicendum
+<lb ed="#Ba"/>est, quod nec simpliciter univoce, nec
+<lb ed="#Ba"/>simpliciter equivoce dicitur, sed 
+secun<lb ed="#Ba" break="no"/>dum modum analogie.
+</p>
+                  <p xml:id="Almn78-a94409-d1e512">
+                     <lb ed="#Ba"/>Et sic patet solutio ad primam partem
+<lb ed="#Ba"/>questionis et ad secundam. Identitas
+<lb ed="#Ba"/>enim rei sive substantia significate per
+<lb ed="#Ba"/>nomen que in divinis est, propter 
+indif<lb ed="#Ba" break="no"/>ferentiam simplicitatis non. sufficit ad 
+fa<lb ed="#Ba" break="no"/>ciendum simpliciter univocum in 
+divi<lb ed="#Ba" break="no"/>nis, nisi adsit etiam identitas modi 
+signi<lb ed="#Ba" break="no"/>ficandi per terminum. Et similiter 
+diver<lb ed="#Ba" break="no"/>sitas modi significandi per terminum,
+<lb ed="#Ba"/>non sufficit ad faciendum simpliciter
+<lb ed="#Ba"/>equivocum, nisi adsit diversitas rei ex
+<lb ed="#Ba"/>cujus diversitate sit ratio substantiae 
+di<lb ed="#Ba" break="no"/>versa.
+</p>
+                  <p xml:id="Almn78-a94409-d1e543">
+                     <lb ed="#Ba"/>Ad id quod objicitur ad hoc quod non
+<lb ed="#Ba"/>dicatur secundum analogiam, dicendum
+<lb ed="#Ba"/>est, quod non est. tantum unus modus
+<lb ed="#Ba"/>analogiae, sed plures. Unde argumentum 
+<lb ed="#Ba"/>procedit ab insufficienti enumeratione,
+<lb ed="#Ba"/>et peccat secundum fallaciam 
+consequen<lb ed="#Ba" break="no"/>tis. Est enim analogia quando aliquid
+<lb ed="#Ba"/>convenit alicui simpliciter, et aliud 
+con<lb ed="#Ba" break="no"/>venit ei non nisi ex adjuncto, ut hoc 
+no<lb ed="#Ba" break="no"/>men, Deus, simpliciter essentiale est,
+<lb ed="#Ba"/>notionale autem ex adjuncto, et ita sub
+<lb ed="#Ba"/>uno nomine commune est ad essentiale
+<lb ed="#Ba"/>et notionale: sed unum convenit ei ex
+<lb ed="#Ba"/>se,alterum autem ex adjuncto : et sic nec
+<lb ed="#Ba"/>univoce, nec equivoce,sed per 
+analo<lb ed="#Ba" break="no"/>giam: et tamen simpliciter est Deus de
+<lb ed="#Ba"/>Deo, et simpliciter Deus essentia divina,
+<lb ed="#Ba"/>et neutrum secundum quid.
+</p>
+                  <p xml:id="Almn78-a94409-d1e585">
+                     <lb ed="#Ba"/>Ad id quod queritur, De quo dicatur
+<lb ed="#Ba"/>secundum prius ?
+<lb ed="#Ba"/>Dicendum, quod est prius quoad nos,
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>et prius quoad naturam rei. Quoad nae
+<lb ed="#Ba"/>turam rei prius dicitur de notionali : quia
+<lb ed="#Ba"/>dicit <name xml:id="Almn78-a94409-Nd1e602">Anselmus</name>, quod <quote xml:id="Almn78-a94409-Qd1e605"> processio pete
+<lb ed="#Ba"/>sonarum est ante processionem creatura:
+<lb ed="#Ba"/>rum, sicut causa ante causatum. </quote> Quoad
+<lb ed="#Ba"/>nos autem, hoc est, quoad nostrum ins
+<lb ed="#Ba"/>tellectum, tunc prius dicitur do essen
+<lb ed="#Ba" break="no"/>tiali quod per se principium est, et 
+poste<lb ed="#Ba" break="no"/>rius de notionali pro quo stare habet
+<lb ed="#Ba"/>adjuncto.
+</p>
+               </div>
+               <div xml:id="Almn78-a94409-Dd1e625">
+                  <head xml:id="Almn78-a94409-Hd1e627">Articulus 2</head>
+                  <head xml:id="Almn78-a94409-Hd1e630" type="question-title">
+        Quid principium significet in divinis
+      </head>
+                  <p xml:id="Almn78-a94409-d1e633">
+                     <lb ed="#Ba"/>MEMBRE PRIMI
+<lb ed="#Ba"/>ARTICULUS II.
+<lb ed="#Ba"/>Quid principium significet in divinis ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e642">
+                     <lb ed="#Ba"/>Secundo queritur, Quid principium
+<lb ed="#Ba"/>significet in divinis?
+</p>
+                  <p xml:id="Almn78-a94409-d1e649">
+                     <lb ed="#Ba"/>Cum enim dicitur principium, videtur
+<lb ed="#Ba"/>non significare personam Patris: 
+princi<lb ed="#Ba" break="no"/>pium enim non dicit relationem 
+secun<lb ed="#Ba" break="no"/>dum intellectum, nisi ad post et ad
+<lb ed="#Ba"/>unum. Pater autem est duorum 
+princi<lb ed="#Ba" break="no"/>pium, et illi respectus non importantur
+<lb ed="#Ba"/>in nomine principii : sed in nomine 
+Pa<lb ed="#Ba" break="no"/>tris non importatur nisi principium Filii,
+<lb ed="#Ba"/>etnon Spiritus sancti: et sic per hance
+<lb ed="#Ba"/>circumlocutionem, principium non de
+<lb ed="#Ba"/>principio, non sufficienter exprimitur
+<lb ed="#Ba"/>Pater secundum quod ipse est 
+princi<lb ed="#Ba" break="no"/>pium. Similiter cum dicitur Filius 
+prin<lb ed="#Ba" break="no"/>cipium de principio, filiatio non dicit nisi
+<lb ed="#Ba"/>principium esse de Patre, et non 
+impor<lb ed="#Ba" break="no"/>tatur communis spiratio : et sic perfecte
+<lb ed="#Ba"/>non circumloquitur Filium hoc quod
+<lb ed="#Ba"/>dico, principium de principio. Similiter
+<lb ed="#Ba"/>cum dicitur Spiritus sanctus principium
+<lb ed="#Ba"/>de utroque principio, videtur non 
+con<lb ed="#Ba" break="no"/>venire Spiritui sancto : quia Spiritus 
+san<lb ed="#Ba" break="no"/>ctus nullius est principium, licet sit de
+<lb ed="#Ba"/>utroque principio.
+</p>
+                  <p xml:id="Almn78-a94409-d1e702">
+                     <lb ed="#Ba"/>Adhuc, Cum dicitur, de utroque 
+prin<lb ed="#Ba" break="no"/>cipio, videtur male dicere : quia hoc
+<pb ed="#Ba" n="429"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>bignum, wrogue, distinguit principium
+<lb ed="#Ba"/>In plura, cum Pater et Filius non sunt
+<lb ed="#Ba"/>hisi unum principium Spiritus sancti.
+</p>
+                  <p xml:id="Almn78-a94409-d1e720">
+                     <lb ed="#Ba"/>Solutio. Dicendum est, quod 
+priici<lb ed="#Ba" break="no"/>pium in divinis dicit notionem qua 
+pro<lb ed="#Ba" break="no"/>cedit persona a persona, et distinguitur
+<lb ed="#Ba"/>in ordine nature. Sed dupliciter 
+contin<lb ed="#Ba" break="no"/>git dicere notionem, scilicet determinate
+<lb ed="#Ba"/>et distincte, et indeterminate et confuse.
+<lb ed="#Ba"/>Determinate, ut Pater et paternitas, 
+Fi<lb ed="#Ba" break="no"/>lius et filiatio, Spiritus et spiratio. 
+Con<lb ed="#Ba" break="no"/>fuse autem et indeterminate, sicut 
+prin<lb ed="#Ba" break="no"/>cipium. Unde cum dicitur, principium
+<lb ed="#Ba"/>non de principio, hoc quod dico, 
+prin<lb ed="#Ba" break="no"/>cipium, in Patre notionem paternitatis et
+<lb ed="#Ba"/>spirationis active in communi dicit et
+<lb ed="#Ba"/>confuse : notionem autem innascibilitatis
+<lb ed="#Ba"/>dicit per hoc quod est, non de principio,
+<lb ed="#Ba"/>ox consequenti et indeterminate: 
+sequi<lb ed="#Ba" break="no"/>lur enim, si est non de principio, quod
+<lb ed="#Ba"/>innascibilis sit etiam, secundum quod 
+in<lb ed="#Ba" break="no"/>nascibilem esse universaliter negat esse
+<lb ed="#Ba"/>ab alio per generationem et esse ab alio
+<lb ed="#Ba"/>per spirationem, secundum quod in 
+que<lb ed="#Ba" break="no"/>stione de innascibilitate in antehabitis
+<lb ed="#Ba"/>determinatum est. Et cum dicitur, 
+prin<lb ed="#Ba" break="no"/>cipium de principio, circumloquitur 
+per<lb ed="#Ba" break="no"/>sonam Filii: et per hoc quod dicitur,
+<lb ed="#Ba"/>principium, communiter et confuse dicit
+<lb ed="#Ba"/>spirationem activam Spiritus sancti. Per
+<lb ed="#Ba"/>hoc autem quod dicitur, de principio,
+<lb ed="#Ba"/>confuse dicit filiationem. Et ideo nec
+<lb ed="#Ba"/>dicit notiones distinctas, sed duas in
+<lb ed="#Ba"/>communi et confuse. Et eodem modo
+<lb ed="#Ba"/>est cum dicitur, principium de utroque
+<lb ed="#Ba"/>principio, principium tunc dicit in
+<lb ed="#Ba"/>communi et confuse et processionem
+<lb ed="#Ba"/>passivam in hoc quod dicitur, de
+<lb ed="#Ba"/>utrogue principio, et relationem ad
+<lb ed="#Ba"/>creaturas per hoc quod dicitur 
+princi<lb ed="#Ba" break="no"/>pium.
+</p>
+                  <p xml:id="Almn78-a94409-d1e805">
+                     <lb ed="#Ba"/>Et per hoc patet solutio ad totum, nisi
+<lb ed="#Ba"/>ad id quod objicitur de hac dictione,
+<lb ed="#Ba"/>utrogue, que est signum distributivum,
+<lb ed="#Ba"/>et distribuit hunc terminum, principium.
+  
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>Et ad hoc dicendum, quod cum 
+dici<lb ed="#Ba" break="no"/>tur, Spiritus sanctum est principium de
+<lb ed="#Ba"/>utroque principio, hoc quod dico, 
+utro<lb ed="#Ba" break="no"/>que, substantive tenetur : et hoc quod
+<lb ed="#Ba"/>dico, principio, adjective : et sic 
+signifi<lb ed="#Ba" break="no"/>catum distributivum distribuit pro 
+sup<lb ed="#Ba" break="no"/>positis contentis in seipso, et non 
+distri<lb ed="#Ba" break="no"/>buit formam importatam per 
+princi<lb ed="#Ba" break="no"/>pium : et est sensus, est de utroque qui
+<lb ed="#Ba"/>sunt unum principium.
+</p>
+                  <p xml:id="Almn78-a94409-d1e840">
+                     <lb ed="#Ba"/>Et sic non procedit objectio.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-a94409-Dd1e847">
+               <head xml:id="Almn78-a94409-Hd1e849">Membrum 2</head>
+               <head xml:id="Almn78-a94409-Hd1e852" type="question-title">
+  De ordine nature in divinis
+</head>
+               <p xml:id="Almn78-a94409-d1e855">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>De ordine nature in divinis ?
+</p>
+               <p xml:id="Almn78-a94409-d1e862">
+                  <lb ed="#Ba"/>Deinde, Queritur de ordine natura.
+<lb ed="#Ba"/>Et queruntur tria.
+<lb ed="#Ba"/>Primo, An scilicet ordo nature sit in
+<lb ed="#Ba"/>divinis ?
+<lb ed="#Ba"/>Secundo, An possibile sit esse 
+perso<lb ed="#Ba" break="no"/>nam in divinis que sit sine ordine
+<lb ed="#Ba"/>tali?
+<lb ed="#Ba"/>Tertio, An non intellecto ordine in 
+di<lb ed="#Ba" break="no"/>vinis, adhuc possibile sit distinctionem
+<lb ed="#Ba"/>personarum esse in divinis ?
+</p>
+               <div xml:id="Almn78-a94409-Dd1e886">
+                  <head xml:id="Almn78-a94409-Hd1e888">Articulus 1</head>
+                  <head xml:id="Almn78-a94409-Hd1e891" type="question-title">
+      Utrum ordo sit in divinis?
+    </head>
+                  <p xml:id="Almn78-a94409-d1e894">
+                     <lb ed="#Ba"/>MEMBRI SECUNDI
+<lb ed="#Ba"/>ARTICULUS I.
+<lb ed="#Ba"/>Utrum ordo sit in divinis?
+</p>
+                  <p xml:id="Almn78-a94409-d1e903">
+                     <lb ed="#Ba"/>Primo ergo queritur, Utrum ordo sit
+<lb ed="#Ba"/>in divinis ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e910">
+                     <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Si enim accipiantur modi omnes
+<lb ed="#Ba"/>quibus attenditur ordo, sive secundum
+<pb ed="#Ba" n="430"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>tempus, sive secundum locum, sive 
+se<lb ed="#Ba" break="no"/>cundum numerum, sive secundum 
+intel<lb ed="#Ba" break="no"/>lectum, sive secundum dignitatem, 
+sem<lb ed="#Ba" break="no"/>per ordo ponit inequalitatem in his que
+<lb ed="#Ba"/>ordinata sunt in eodem nature ordine :
+<lb ed="#Ba"/>quod patet per inductionem. In tempore
+<lb ed="#Ba"/>enim ponit successionem eorum que
+<lb ed="#Ba"/>sunt secundum prius et posterius. In
+<lb ed="#Ba"/>loco ponit separationem, In natura ponit
+<lb ed="#Ba"/>inconvertibilitatem :quoniam natura 
+su<lb ed="#Ba" break="no"/>perior non convertitur cum inferiori, nec
+<lb ed="#Ba"/>est par ei in potestate. In intellectu ponit
+<lb ed="#Ba"/>causam et causatum, que sunt 
+inequa<lb ed="#Ba" break="no"/>lia secundum potestatem. In dignitate
+<lb ed="#Ba"/>ponit prepositionem et suppositionem,
+<lb ed="#Ba"/>que inequalia sunt. Cum ergo summa
+<lb ed="#Ba"/>equalitas sit in divinis, videtur quod
+<lb ed="#Ba"/>nullus ordo possit esse in divinis.
+</p>
+                  <p xml:id="Almn78-a94409-d1e963">
+                     <lb ed="#Ba"/>2. Adhuc, Si est ordo in divinis : tunc
+<lb ed="#Ba"/>ordo ille aut dicit essentiam, aut 
+notio<lb ed="#Ba" break="no"/>nem, aut personam. Non essentiam :
+<lb ed="#Ba"/>quia ordo non est nisi distinctorum :
+<lb ed="#Ba"/>essentia autem indistincta est omnino.
+<lb ed="#Ba"/>Nec personam : ordo enim personarum
+<lb ed="#Ba"/>est : persona autem personarum non
+<lb ed="#Ba"/>est : sicut non sunt ordinata ordo, sed
+<lb ed="#Ba"/>ordo est ordinatorum. Nec potest dicere
+<lb ed="#Ba"/>notionem : notio enim dicit 
+proprieta<lb ed="#Ba" break="no"/>tem distinctam : ordo autem non dicit
+<lb ed="#Ba"/>quid distinctum, sed distinctorum 
+redu<lb ed="#Ba" break="no"/>ctionem ad unum.
+</p>
+                  <p xml:id="Almn78-a94409-d1e994">
+                     <lb ed="#Ba"/>3. Adhuc, Augustinus in libro XIX de
+<lb ed="#Ba"/>Civitate Dei : <quote xml:id="Almn78-a94409-Qd1e1000"> Ordo est parium 
+dispa<lb ed="#Ba" break="no"/>riumque sua cuique tribuens loca 
+dispo<lb ed="#Ba" break="no"/>sitio’. </quote> Si ergo in divinis non est 
+ali<lb ed="#Ba" break="no"/>qua dispositio que distribuat loca 
+pari<lb ed="#Ba" break="no"/>bus et imparibus, non erit ibi aliquis
+<lb ed="#Ba"/>ordo, per locum a definitione. Sed non
+<lb ed="#Ba"/>est in divinis talis dispositio. Ergo nullus
+<lb ed="#Ba"/>est ibi ordo.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1019">
+                     <lb ed="#Ba"/>4. Si dicatur, quod in divinis est
+<lb ed="#Ba"/>ordo nature, et non ordo simpliciter.
+<lb ed="#Ba"/>Contra : Ubicumque est ordo nature,
+<lb ed="#Ba"/>intelligitur distinctio nature : sed in 
+di<lb ed="#Ba" break="no"/>vinis natura omnino indistincta est :
+<lb ed="#Ba"/>ergo nullus est ibi ordo nature.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1035">
+                     <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>5. Adhuc, Si dicatur, quod ibi st
+<lb ed="#Ba"/>ordo nature secundum principium que
+<lb ed="#Ba"/>alter est ex altero. Contra : Ad 
+prinel<lb ed="#Ba" break="no"/>pium secundum naturam sequitur pri
+<lb ed="#Ba"/>esse secundum naturam : si ergo Pater
+<lb ed="#Ba"/>est principium Filii in ordine nature,
+<lb ed="#Ba"/>sequitur quod Pater prior sit Filio 
+se<lb ed="#Ba" break="no"/>cundum naturam, quod est huresis
+<lb ed="#Ba"/>Ariana.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1059">
+                     <lb ed="#Ba"/>6. Adhuc, Cum natura in divinis idem
+<lb ed="#Ba"/>sit quod substantia et essentia, si est ihi
+<lb ed="#Ba"/>ordo nature, videtur quod ibi sit ordo
+<lb ed="#Ba"/>essentie et substantie : quod omnino
+<lb ed="#Ba"/>absurdum est.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1072">
+                     <lb ed="#Ba"/>7, Adhuc, Ex equo et indifferenter et
+<lb ed="#Ba"/>coequeve est natura in tribus personis :
+<lb ed="#Ba"/>ergo non secundum ordinem aliquem :
+<lb ed="#Ba"/>et sic in divinis non est ordo nature.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1084">
+                     <lb ed="#Ba"/>8. Adhuc, Si est ibi ordo nature : aut
+<lb ed="#Ba"/>est ibi secundum ordinem ordinantem,
+<lb ed="#Ba"/>aut secundum ordinem ordinatum. Non
+<lb ed="#Ba"/>primo modo ; quia quo alter est ex 
+alle<lb ed="#Ba" break="no"/>ro, secundum quod attenditur ille ordo,
+<lb ed="#Ba"/>ut dicit Augustinus, est secundum 
+no<lb ed="#Ba" break="no"/>tionem, et non secundum naturam. Necs
+<lb ed="#Ba"/>secundo modo : quia natura in divinis
+<lb ed="#Ba"/>nec ordinatur a persona, nec ordinatur
+<lb ed="#Ba"/>ad seipsam: eo quod ordo differentium
+<lb ed="#Ba"/>est, et natura non differt a seipsa, nec
+<lb ed="#Ba"/>differt a persona,
+</p>
+                  <p xml:id="Almn78-a94409-d1e1113">
+                     <lb ed="#Ba"/>Ulterius queritur, Cum ordo sit 
+per<lb ed="#Ba" break="no"/>sonarum, et ordo nature, in qua ratione
+<lb ed="#Ba"/>differenti sit nature, et personarum?
+</p>
+                  <p xml:id="Almn78-a94409-d1e1122">
+                     <lb ed="#Ba"/>Si quis propter haec diceret, quod in
+<lb ed="#Ba"/>divinis non est ordo.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1129">
+                     <lb ed="#Ba"/>1. In contrarium erit quod dicit 
+Au<lb ed="#Ba" break="no"/>gustinus in libro ITT contra Maximinum,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a94409-Qd1e1137"> in divinis est ordo nature, quo
+<lb ed="#Ba"/>alter sit ex altero, non quo alter prior
+<lb ed="#Ba"/>altero *. </quote>
+                  </p>
+                  <p xml:id="Almn78-a94409-d1e1145">
+                     <lb ed="#Ba"/>2. Adhuc, Quecumque secundum ort:
+<lb ed="#Ba"/>ginem sic se habent ad invicem, quod
+<lb ed="#Ba"/>unum est in ratione principii originalis,
+<lb ed="#Ba"/>et alterum in ratione medii originalis, et
+<lb ed="#Ba"/>tertium in ratione termini terminantis
+<pb ed="#Ba" n="431"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>fluxum originis, in illis est ordo 
+origi<lb ed="#Ba" break="no"/>nix : Pater, Filius, Spiritus sanctus sic
+<lb ed="#Ba"/>we habent ad invicem : ergo in divinis
+<lb ed="#Ba"/>ext ordo originis. Prima patet per se :
+<lb ed="#Ba"/>quia subjectum causa est praedicati. 
+Sr<lb ed="#Ba" break="no"/>cuypA probatur ex hoc, quod Pater est
+<lb ed="#Ba"/>principium totius divinitatis, Filius ex
+<lb ed="#Ba"/>Vatre principium Spiritus sancti, 
+Spiri<lb ed="#Ba" break="no"/>lus sanctus autem ut terminus 
+commu<lb ed="#Ba" break="no"/>nicate divinitatis, eo quod ab ipse non
+<lb ed="#Ba"/>Nuit alter.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1187">
+                     <lb ed="#Ba"/>3. Adhuc, In quacumque natura 
+plu<lb ed="#Ba" break="no"/>res sunt, hos melius est esse ordinatos
+<lb ed="#Ba"/>quam sine ordine. Cum ergo melius in
+<lb ed="#Ba"/>omnibus attribuendum sit Deo, et iu
+<lb ed="#Ba"/>iivina natura plures sint persone, 
+ne<lb ed="#Ba" break="no"/>cosse est, quod sint sub ordine : per
+<lb ed="#Ba"/>consequentiam quam in libro II 
+Perther<lb ed="#Ba" break="no"/>menias ponit Aristoteles, secundum
+<lb ed="#Ba"/>quam necesse esse sequitur ad 
+impossi<lb ed="#Ba" break="no"/>hile non esse. Dicit enim Anselmus,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a94409-Qd1e1213"> quodlibet inconveniens de Deo,
+<lb ed="#Ba"/>impossibile est. </quote> Unde cum sit 
+incon<lb ed="#Ba" break="no"/>veniens plures esse sine ordine, 
+impossi<lb ed="#Ba" break="no"/>bile est plures non esse sub ordine: et
+<lb ed="#Ba"/>sic necesse est plures esse sub ordine.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1226">
+                     <lb ed="#Ba"/>Ulterius queritur, Si in divinis 
+con<lb ed="#Ba" break="no"/>cedatur ordo esse, unde contingit hoc,
+<lb ed="#Ba"/>quod in illo ordine non est prius et 
+po<lb ed="#Ba" break="no"/>sterius, cum hoc videtur proprium 
+ordi<lb ed="#Ba" break="no"/>nis, et generaliter consequens ad ipsum ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e1239">
+                     <lb ed="#Ba"/>Sotvutio. Dicendum, sicut dicit 
+Augu<lb ed="#Ba" break="no"/>stinus, quod in divinis est ordo nature,
+<lb ed="#Ba"/>qui dicitur ordo originis, sive secundum
+<lb ed="#Ba"/>relationem originis, quo alter est ex
+<lb ed="#Ba"/>altero, qui cum ordinatis habet 
+distin<lb ed="#Ba" break="no"/>clionem, sed non habet differentie 
+gra<lb ed="#Ba" break="no"/>dum, nisi differentia large sumatur pro
+<lb ed="#Ba"/>proprietate distinguente et modum 
+di<lb ed="#Ba" break="no"/>stinctionis importante in auctoritate et
+<lb ed="#Ba"/>sub auctoritate ejus qui procedit, ad
+<lb ed="#Ba"/>eum a quo procedit, sicut probat ultima
+<lb ed="#Ba"/>inducta ratio, que movit Augustinus ad
+<lb ed="#Ba"/>hoc ut diceret, quod in divinis est ordo
+<lb ed="#Ba"/>nature.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1272">
+                     <lb ed="#Ba"/>Ad primum ergo dicendum, quod
+<lb ed="#Ba"/>nullo istorum modorum est ordo in di
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>vinis : et propter hoc non dicitur ordoe
+<lb ed="#Ba"/>simpliciter, sed nature sive originis, ut
+<lb ed="#Ba"/>per hoc quod dico, naturx, extrahatar
+<lb ed="#Ba"/>ordo extra rationem propriam et 
+pri<lb ed="#Ba" break="no"/>mam, ita quod non sit ordo simpliciter,
+<lb ed="#Ba"/>sed nature sive originis. Sicut 
+extrahi<lb ed="#Ba" break="no"/>tur aliquid extra rationem suam ex 
+ad<lb ed="#Ba" break="no"/>jecto opposito, et relinquitur secundum
+<lb ed="#Ba"/>aliquid et non simpliciter. Unde est ibi
+<lb ed="#Ba"/>ordo aliquis, et non ordo simpliciter.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1303">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod ordo non
+<lb ed="#Ba"/>dicit essentiam, nec personam, sed dicit
+<lb ed="#Ba"/>notionem in communi, qua alter est ex
+<lb ed="#Ba"/>altero, et dicit eam confuse, sicut 
+dixi<lb ed="#Ba" break="no"/>mus in precedenti questione de 
+princi<lb ed="#Ba" break="no"/>pro, et sub alio modo significandi. Notio
+<lb ed="#Ba"/>enim dicit sub modo significandi 
+distin<lb ed="#Ba" break="no"/>ctionem.: ordo autem sub modo 
+signifi<lb ed="#Ba" break="no"/>candi reductionem distinctorum ad unum
+<lb ed="#Ba"/>quod est principium communicationis
+<lb ed="#Ba"/>nature, secundum quod ab uno natura
+<lb ed="#Ba"/>communicatur alteri in quo est, per 
+ge<lb ed="#Ba" break="no"/>nerationem vel spirationem.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1334">
+                     <lb ed="#Ba"/>Ad aliud dicendum est, quod 
+Augu<lb ed="#Ba" break="no"/>stinus definit ordinem prout est 
+disposi<lb ed="#Ba" break="no"/>tio inclinans ad locum. Et bene 
+conce<lb ed="#Ba" break="no"/>dendum est, quod talis ordo non est in
+<lb ed="#Ba"/>divinis : sed ex hoc non sequitur, quod
+<lb ed="#Ba"/>nullus ordo sit in divinis : quia negata
+<lb ed="#Ba"/>parte multipliciter dicti, negatur totum.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1352">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod natura in
+<lb ed="#Ba"/>divinis dicitur duobus modis. Dicitur
+<lb ed="#Ba"/>enim id quod est natura: et dicitur 
+na<lb ed="#Ba" break="no"/>tura unde est natura, hoc est vis ex
+<lb ed="#Ba"/>qua pullulat pallulans, ut dicit 
+Aristote<lb ed="#Ba" break="no"/>les in V primae philosophiae. Primo 
+mo<lb ed="#Ba" break="no"/>do dicitur natura absolute, et est penitus 
+<lb ed="#Ba"/>indistincta in divinis : et hoc modo non
+<lb ed="#Ba"/>est ordo nature in divinis. Secundo
+<lb ed="#Ba"/>modo natura supponit pro persona, 
+con<lb ed="#Ba" break="no"/>significando notionem delerminantem
+<lb ed="#Ba"/>modum pullulationis, quo natura 
+com<lb ed="#Ba" break="no"/>municatur persone pullulanti a persona
+<lb ed="#Ba"/>ex qua fit pullulatio : et sic est in divinis
+<lb ed="#Ba"/>ordo natura. Talis enim pullulatio 
+natu<lb ed="#Ba" break="no"/>re est, et talis natura distinguitur et 
+di<lb ed="#Ba" break="no"/>stinguit, et est ratio distinctionis. Sicut
+<lb ed="#Ba"/>enim in antehabitis dictum est, cum 
+di<lb ed="#Ba" break="no"/>citur potentia generandi, si gerundivum
+<pb ed="#Ba" n="432"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>sumatur a verbo personali activo, tunc
+<lb ed="#Ba"/>est potentia ut quis generet, et haec 
+no<lb ed="#Ba" break="no"/>tionalis est, et non est nisi Patris. Si 
+au<lb ed="#Ba" break="no"/>tem sumatur a verbo impersonali, tunc
+<lb ed="#Ba"/>potentia generandi est ut generatio sit,
+<lb ed="#Ba"/>et sic potentia generandi est essentialis et
+<lb ed="#Ba"/>communis Patri et Filio, et est Patris ut
+<lb ed="#Ba"/>generet, et Filii ut generetur, sicut 
+dici<lb ed="#Ba" break="no"/>tur in primo libro Sententiarum, 
+distin<lb ed="#Ba" break="no"/>ctione quinta, et etiam quarta. Ita 
+dici<lb ed="#Ba" break="no"/>mus de potentia pullulandi, et per 
+conse<lb ed="#Ba" break="no"/>quens de natura. Natura enim pullulandi
+<lb ed="#Ba"/>si est natura ut pullulet, in Patre et Filio
+<lb ed="#Ba"/>est, et dicit personam Patris et Filii, et
+<lb ed="#Ba"/>confuse significat notionem paternitatis
+<lb ed="#Ba"/>et spirationis. Si autem natura 
+pullu<lb ed="#Ba" break="no"/>landi dicitur ut pullulatio sit a verbo 
+im<lb ed="#Ba" break="no"/>personali, tunc dicit personam Patris et
+<lb ed="#Ba"/>Filii et Spiritus sancti, et sub uno 
+com<lb ed="#Ba" break="no"/>muni nomine consignificat notionem 
+pa<lb ed="#Ba" break="no"/>ternitatis, filiationis, et spirationis tam
+<lb ed="#Ba"/>active quam passive, et dicit eas sub
+<lb ed="#Ba"/>modo significandi secundum 
+reductio<lb ed="#Ba" break="no"/>nem eorum ad unum qui est principium
+<lb ed="#Ba"/>emanationis divine.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1455">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod principium
+<lb ed="#Ba"/>secundum naturam, non sequitur prius
+<lb ed="#Ba"/>esse secundum numerum, nisi in his in
+<lb ed="#Ba"/>quibus principium secundum numerum
+<lb ed="#Ba"/>est causa per motum, et principiatum
+<lb ed="#Ba"/>secundum numerum est causatum per
+<lb ed="#Ba"/>mutationem. Sic autem principium 
+se<lb ed="#Ba" break="no"/>cundum naturam non est in divinis, sed
+<lb ed="#Ba"/>tantum secundum esse ab alio, sive a
+<lb ed="#Ba"/>quo alius sine motu et mutatione in 
+ea<lb ed="#Ba" break="no"/>dem re qua non est prior et posterior.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1481">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod in 
+argu<lb ed="#Ba" break="no"/>mento illo est fallacia accidentis. Licet
+<lb ed="#Ba"/>enim natura et substantia sint idem in
+<lb ed="#Ba"/>re, tamen secundum modum significandi
+<lb ed="#Ba"/>non sunt idem : et ideo natura prout 
+di<lb ed="#Ba" break="no"/>cit pullulationem sive principium 
+pullu<lb ed="#Ba" break="no"/>lationis, propter notionem quam 
+signifi<lb ed="#Ba" break="no"/>cat, receptiva est ordinis distinctorum,
+<lb ed="#Ba"/>quod non convenit substantie sive 
+es<lb ed="#Ba" break="no"/>sentiz.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1505">
+                     <lb ed="#Ba"/>Ad aliud dicendum est, quod hoc 
+ar<lb ed="#Ba" break="no"/>gumentum procedit de eo quod est 
+na<lb ed="#Ba" break="no"/>tura, sed non de natura : unde natura
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>principium est pullulationis. Et si vull
+<lb ed="#Ba"/>dicere, ex zquo, id est, ex eadem pro
+<lb ed="#Ba"/>prietate : tunc non est verum. In S'atre
+<lb ed="#Ba"/>enim est proprietate illa qua alius est ab
+<lb ed="#Ba"/>eo : in Filio autem proprietate qua ipse
+<lb ed="#Ba"/>est ab alio. Cowquave tamen sunt in
+<lb ed="#Ba"/>utroque et ab eterno. Hac autem cow
+<lb ed="#Ba"/>quevitas ordinem nature non excludit,
+<lb ed="#Ba"/>ut sepius dictum est.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1536">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod neutro 
+mo<lb ed="#Ba" break="no"/>do est ibi ordo nature, secundum quod
+<lb ed="#Ba"/>natura dicit rationem ordinis : 
+princi<lb ed="#Ba" break="no"/>pium enim talis pullulationis ratio orth.
+<lb ed="#Ba"/>nis est in divinis.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1549">
+                     <lb ed="#Ba"/>Ad aliud quod ulterius queritur, 
+di<lb ed="#Ba" break="no"/>cendum quod ordo in personis est sicul
+<lb ed="#Ba"/>in ordinatis, in natura autem sicut in
+<lb ed="#Ba"/>ratione ordinis : et sic differenter est in
+<lb ed="#Ba"/>natura et in personis.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1562">
+                     <lb ed="#Ba"/>Et que adducuntur in contrarium,
+<lb ed="#Ba"/>procedunt.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1570">
+                     <lb ed="#Ba"/>Ad uttimem dicendum, quod in 
+divi<lb ed="#Ba" break="no"/>nis non potest esse prius et posterius :
+<lb ed="#Ba"/>quia omne quod est in divinis, eternum
+<lb ed="#Ba"/>est : et ideo in uno totum simul et 
+per<lb ed="#Ba" break="no"/>fecte possessum, et in tali nihil est prius
+<lb ed="#Ba"/>et posterius. Et causa hujus est, quia ex
+<lb ed="#Ba"/>principio et principiato non potest 
+in<lb ed="#Ba" break="no"/>telligi sequi prius et posterius, nisi
+<lb ed="#Ba"/>motu principium sit principium, et 
+mu<lb ed="#Ba" break="no"/>tatione principiatum sit principiatum :
+<lb ed="#Ba"/>et si motus ab utroque auferatur, et 
+re<lb ed="#Ba" break="no"/>linquatur principium et principiatum,
+<lb ed="#Ba"/>erit ordo habitudinis principii ad 
+princi<lb ed="#Ba" break="no"/>piatum, et e converso, sine priori et 
+po<lb ed="#Ba" break="no"/>steriori. Exemplum in sole et radio, ubi
+<lb ed="#Ba"/>sol principium est radii sine sui 
+mutatio<lb ed="#Ba" break="no"/>ne, et radius principiatus, et absque 
+exi<lb ed="#Ba" break="no"/>tu de potentia ad actum : et sol et radius
+<lb ed="#Ba"/>sunt simul, non successive.
+</p>
+               </div>
+               <div xml:id="Almn78-a94409-Dd1e1616">
+                  <head xml:id="Almn78-a94409-Hd1e1618">Articulus 2</head>
+                  <head xml:id="Almn78-a94409-Hd1e1621" type="question-title">
+      An possibile sit personam esse in divinis
+      quae sit sine ordine tali
+    </head>
+                  <p xml:id="Almn78-a94409-d1e1624">
+                     <pb ed="#Ba" n="433"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>MEMBRI SECUNDI
+<lb ed="#Ba"/>ARTICULUS II.
+<lb ed="#Ba"/>An possibile sit personam esse in divinis
+<lb ed="#Ba"/>quae sit sine ordine tali'?
+</p>
+                  <p xml:id="Almn78-a94409-d1e1640">
+                     <lb ed="#Ba"/>Secundo queritur, An possibile sit
+<lb ed="#Ba"/>personam esse in divinis que sit sine 
+or<lb ed="#Ba" break="no"/>dine tali?
+</p>
+                  <p xml:id="Almn78-a94409-d1e1649">
+                     <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Dicit enim Hilarius in libro de 
+Syno<lb ed="#Ba" break="no"/>dis : <quote xml:id="Almn78-a94409-Qd1e1657"> Si quis innascibilem et sine initio
+<lb ed="#Ba"/>dicat Filium tamquam duo sine 
+princi<lb ed="#Ba" break="no"/>pio, et duo innascibilia, et duo innata
+<lb ed="#Ba"/>licens, duos faciat deos anathema
+<lb ed="#Ba"/>sit. </quote> Hoc est synodus. Hane exponit
+<lb ed="#Ba"/>Hilarius sic : <quote xml:id="Almn78-a94409-Qd1e1671"> Caput enim quod est
+<lb ed="#Ba"/>principium omnium, Filius : caput 
+au<lb ed="#Ba" break="no"/>tem quod est principium Christi, Deus :
+<lb ed="#Ba"/>sic enim ad unum initiabile omnium
+<lb ed="#Ba"/>initium per Filium universa referimus.
+<lb ed="#Ba"/>Filiam innascibilem confiteri, 
+impiissi<lb ed="#Ba" break="no"/>mum est. Si enim duo innascibiles 
+po<lb ed="#Ba" break="no"/>nerentur; neuter eorum haberet 
+na<lb ed="#Ba" break="no"/>turam divinam ab altero, nec ab 
+ali<lb ed="#Ba" break="no"/>quo alio, et sic non haberet ordinem
+<lb ed="#Ba"/>nature, secundum quod importatur 
+or<lb ed="#Ba" break="no"/>do nature ab hoc quod dicitur, qui ab
+<lb ed="#Ba"/>alio. Per innascibilitatem etiam non 
+or<lb ed="#Ba" break="no"/>dinatur ad post, ut scilicet a quo alius.
+<lb ed="#Ba"/>Non enim necesse est, quod ab 
+innasci<lb ed="#Ba" break="no"/>bili sit alius : quia per nomen non 
+im<lb ed="#Ba" break="no"/>portatur plus, nisi quod innascibilis non
+<lb ed="#Ba"/>sit ab alio. </quote> Videtur ergo, quod ordo
+<lb ed="#Ba"/>nature non permittat duos innascibiles
+<lb ed="#Ba"/>esse.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1716">
+                     <lb ed="#Ba"/>2. Adhuc, Hilarius, ibidem, <quote xml:id="Almn78-a94409-Qd1e1720"> Cum
+<lb ed="#Ba"/>unus Deus sit, duo innascibiles esse non
+<lb ed="#Ba"/>possunt. </quote> Et queritur, Que sit ratio 
+hu<lb ed="#Ba" break="no"/>jus, quod ad duos innascibiles sequitur
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>duos deos esse secundum Hilarium ? 
+Vi<lb ed="#Ba" break="no"/>detur enim hoc non esse necesse : 
+essen<lb ed="#Ba" break="no"/>tia enim divina est indivisibilis et 
+indi<lb ed="#Ba" break="no"/>stinguibilis : et unitas essentie, sicut
+<lb ed="#Ba"/>prehabitum est, non excludit 
+pluralita<lb ed="#Ba" break="no"/>tem persone sive hypostasis. Cum ergo
+<lb ed="#Ba"/>innascibilem esse, dicat existendi modum
+<lb ed="#Ba"/>singularem in divinis, sicut dicit 
+exi<lb ed="#Ba" break="no"/>stendi modum in uno, ita potest dicere
+<lb ed="#Ba"/>existendi modum in pluribus : et sic
+<lb ed="#Ba"/>possunt esse duo vel tres innascibiles.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1756">
+                     <lb ed="#Ba"/>3. Si quis dicat, quod una proprietas
+<lb ed="#Ba"/>in duobus esse non potest : quia contra
+<lb ed="#Ba"/>rationem proprietatis est, quod duobus
+<lb ed="#Ba"/>sit communis. Hoc nihil est : quia una
+<lb ed="#Ba"/>proprietas distinctiva etiam est in Patre
+<lb ed="#Ba"/>et Filio respectu Spiritus sancti.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1772">
+                     <lb ed="#Ba"/>4. Adhuc, Dignitate et virtute 
+perso<lb ed="#Ba" break="no"/>ne sunt equales. Innascibilem autem
+<lb ed="#Ba"/>esse, est idem quod a se esse et non ab
+<lb ed="#Ba"/>alio : et hoc libertatis est, dignitatis, et
+<lb ed="#Ba"/>virtutis : personis ergo convenit 
+equali<lb ed="#Ba" break="no"/>ter. Videtur ergo, quod omnes persone
+<lb ed="#Ba"/>sint innascibiles.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1790">
+                     <lb ed="#Ba"/>5. Adhuc, Uni essentie et uni Deo
+<lb ed="#Ba"/>plus competit innascibilem esse in 
+omni<lb ed="#Ba" break="no"/>bus, quam innascibilem esse in uno, et
+<lb ed="#Ba"/>nascibilem in alio : quia nascibilem esse,
+<lb ed="#Ba"/>ponit distinctionem, et sic videtur 
+divi<lb ed="#Ba" break="no"/>dere unitatem. Cum ergo tres persone
+<lb ed="#Ba"/>sint unus Deus, videtur quod 
+convenien<lb ed="#Ba" break="no"/>tius sit omnes eas dicere esse 
+innascibi<lb ed="#Ba" break="no"/>les, quam aliquam nascibilem.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1812">
+                     <lb ed="#Ba"/>Urrerivs queritur, Utrum secundum
+<lb ed="#Ba"/>ordinem nature duo possint esse in 
+di<lb ed="#Ba" break="no"/>vinis qui ab alio, ita quod neuter eorum
+<lb ed="#Ba"/>sit ab altero ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e1823">
+                     <lb ed="#Ba"/>Et videtur, quod sic : quia
+<lb ed="#Ba"/>1. Hoc dicunt Graeci de Filio et de 
+Spi<lb ed="#Ba" break="no"/>rilu sancto, quod scilicet uterque 
+proce<lb ed="#Ba" break="no"/>dit a Patre, et neuter ab alio. Et dicit
+<lb ed="#Ba"/>Magister in Sententiis, quod <quote xml:id="Almn78-a94409-Qd1e1836"> Graci 
+in<lb ed="#Ba" break="no"/>tegre sapiunt et fidem Catholicam 
+te<lb ed="#Ba" break="no"/>nent. </quote> Ergo potest dici secundum 
+ordi<lb ed="#Ba" break="no"/>nem nature.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1847">
+                     <pb ed="#Ba" n="434"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>2. Adhuc, Ea que sunt in creaturis,
+<lb ed="#Ba"/>exemplata sunt ab his que in divinis
+<lb ed="#Ba"/>sunt. Et hoc probat dictum Anselmi, qui
+<lb ed="#Ba"/>dicit, quod <quote xml:id="Almn78-a94409-Qd1e1862"> processio personarum 
+pre<lb ed="#Ba" break="no"/>cedit ut causa et exemplar processionis
+<lb ed="#Ba"/>creaturarum. </quote> In humanis autem sic
+<lb ed="#Ba"/>est, quod ab uno procedunt plures, 
+quo<lb ed="#Ba" break="no"/>rum nullus procedit ab alio, non violato
+<lb ed="#Ba"/>ordine nature. Ergo videtur, quod in
+<lb ed="#Ba"/>divinis similiter possit esse.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1878">
+                     <lb ed="#Ba"/>Apuvc queritur, Quare dicat Hilarius,
+<lb ed="#Ba"/>quod destructo ordine ad unum 
+innasci<lb ed="#Ba" break="no"/>bilem, per unum innascibilem non{potest
+<lb ed="#Ba"/>reduci universitas creatorum ad unum
+<lb ed="#Ba"/>omnium principium ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e1891">
+                     <lb ed="#Ba"/>Hoc enim non videtur esse verum : quia
+<lb ed="#Ba"/>1. Sicut est reducere per unum, ita
+<lb ed="#Ba"/>est reducere per duos, dummodo illi duo
+<lb ed="#Ba"/>sint ab uno. Omnis enim humerus, ut in
+<lb ed="#Ba"/>II Arithmetice probatur, ad unitatem 
+re<lb ed="#Ba" break="no"/>ducitur per binarium : et ita potest fieri
+<lb ed="#Ba"/>reductio ad unum per duo.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1909">
+                     <lb ed="#Ba"/>2. Adhuc, In libro Fontis vite dicitur,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a94409-Qd1e1915"> post monadem est dias sive 
+bi<lb ed="#Ba" break="no"/>narius. </quote> Si ergo que in creaturis sunt,
+<lb ed="#Ba"/>exemplata sunt ab his que sunt in 
+divi<lb ed="#Ba" break="no"/>nis, videtur quod secundum ordinem 
+na<lb ed="#Ba" break="no"/>ture post unum primum innascibilem
+<lb ed="#Ba"/>debeant esse duo, quorum neuter est a
+<lb ed="#Ba"/>reliquo.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1932">
+                     <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Si quis ponat duos innascibiles, illi
+<lb ed="#Ba"/>non differunt proprietate : nec possunt
+<lb ed="#Ba"/>differre essentia, quia essentia divina 
+in<lb ed="#Ba" break="no"/>divisibilis est : ergo nec essentia, nec
+<lb ed="#Ba"/>proprietate differunt. Sed dicit 
+Aristote<lb ed="#Ba" break="no"/>les in septimo Jopicorum, quod <quote xml:id="Almn78-a94409-Qd1e1949"> idem
+<lb ed="#Ba"/>est a quo non differt differentia. </quote> Duo
+<lb ed="#Ba"/>ergo innascibiles unus et idem sunt.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1957">
+                     <lb ed="#Ba"/>2. Si quis dicat, quod possunt esse duo
+<lb ed="#Ba"/>innascibiles : unus qui non ab alio a quo
+<lb ed="#Ba"/>nullus, alius qui non ab alio a quo 
+ali<lb ed="#Ba" break="no"/>quis. Hoc nihil est : persone enim 
+divi<lb ed="#Ba" break="no"/>nz in omnibus idem sunt, in quibus non
+<lb ed="#Ba"/>distinguit eas oppositionis relatio, ut 
+di<lb ed="#Ba" break="no"/>cunt Anselmus et Boetius. Duo autem
+<lb ed="#Ba"/>innascibiles non opponuntur ad invicem
+<lb ed="#Ba"/>relative per hoc quod ab uno nullus, et
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>ab alio aliquis. Ergo per hoc non 
+distin<lb ed="#Ba" break="no"/>guuntur ab invicem, et sic remanent
+<lb ed="#Ba"/>unus et idem sicut prius.
+</p>
+                  <p xml:id="Almn78-a94409-d1e1989">
+                     <lb ed="#Ba"/>3. Si quis dicat, quod Spiritus sanctus
+<lb ed="#Ba"/>per hoc quod ab ipso nullus est, 
+distin<lb ed="#Ba" break="no"/>guitur a Patre et Filio, derisoritum est ;
+<lb ed="#Ba"/>fundatur enim super positionem falsi ;
+<lb ed="#Ba"/>non enim per hoc distinguitur Spiritus
+<lb ed="#Ba"/>sanctus a Patre et Filio, sed potius per
+<lb ed="#Ba"/>oppositum relationis quo ipse est a Patre
+<lb ed="#Ba"/>et Filio : sed per hoc quod ab ipso 
+nul<lb ed="#Ba" break="no"/>lus, terminus est in ordine nature : quin
+<lb ed="#Ba"/>stat in ipso divinitatis emanatio.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2013">
+                     <lb ed="#Ba"/>Osncirur etiam contra alieram 
+par<lb ed="#Ba" break="no"/>tem questionis, qua dicitur duos posse
+<lb ed="#Ba"/>esse qui ab alio, quorum neuter sit ab
+<lb ed="#Ba"/>altero.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2024">
+                     <lb ed="#Ba"/>1. Illi enim cum essentiam ab uno 
+ac<lb ed="#Ba" break="no"/>cipiant, in essentia differre non possunt,
+<lb ed="#Ba"/>eo quod eamdem accipiunt essentiam
+<lb ed="#Ba"/>rei: nec proprietate opponuntur, sed
+<lb ed="#Ba"/>potius conveniunt : ergo et proprietate
+<lb ed="#Ba"/>et essentia unus et idem sunt, et non
+<lb ed="#Ba"/>plures.
+  
+  
+<lb ed="#Ba"/>2. Adhuc, Richardus convenientias 
+po<lb ed="#Ba" break="no"/>nit ad hoc, quia scilicet inter eos quorum
+<lb ed="#Ba"/>neuter ab altero est, non potest esse 
+sum<lb ed="#Ba" break="no"/>ma germanitas : summa enim 
+germani<lb ed="#Ba" break="no"/>tas ex prima et summa est cornexione :
+<lb ed="#Ba"/>haec autem est ex hoc, quod unus 
+acci<lb ed="#Ba" break="no"/>pit ex altero, et alter dat divinam 
+natu<lb ed="#Ba" break="no"/>ram : et hoc esse non potest inter eos
+<lb ed="#Ba"/>quorum neuter est ab altero : et inter
+<lb ed="#Ba"/>quos non est summa germanitas, non
+<lb ed="#Ba"/>potest esse summa dilectio, et per 
+con<lb ed="#Ba" break="no"/>sequens summa felicitas. Et tales 
+conve<lb ed="#Ba" break="no"/>nientias plures ponit Richardus in libro
+<lb ed="#Ba"/>de Trinitate. Sed rationes vere 
+proban<lb ed="#Ba" break="no"/>tes propositum, sunt que inducte sunt,
+<lb ed="#Ba"/>et extrahuntur ex verbis Anselmi et 
+Boe<lb ed="#Ba" break="no"/>tii.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2079">
+                     <lb ed="#Ba"/>Uxrenivs posset queri de ordine 
+natu<lb ed="#Ba" break="no"/>re qui est inter generationem Fill, et
+<lb ed="#Ba"/>processionem Spiritus sancti : sed. quia
+<lb ed="#Ba"/>satis patet per ea que dicta sunt de 
+ge<lb ed="#Ba" break="no"/>neratione Filii, et processione Spiritus
+<lb ed="#Ba"/>sancti, ideo dimittitur.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2095">
+                     <pb ed="#Ba" n="435"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>Solutio. Ad primam partem 
+questio<lb ed="#Ba" break="no"/>mia dicendam est, quod supposito ordine
+<lb ed="#Ba"/>nature, impossibile est dicere duos vel
+<lb ed="#Ba"/>plures esse innascibiles. Si enim dicatur,
+<lb ed="#Ba"/>bequitur duos deos esse, vel plures. 
+Cu<lb ed="#Ba" break="no"/>jux causa est, quod omnis unitas nature
+<lb ed="#Ba"/>in pluribus nulla potest esse causa, nec
+<lb ed="#Ba"/>intelligi, nisi emanatio nature ab uno
+<lb ed="#Ba"/>principio emanationis illius. Et si natura
+<lb ed="#Ba"/>in illo divisibilis est, fit una natura in
+<lb ed="#Ba"/>pluribus ratione, et non re. Si autem 
+in<lb ed="#Ba" break="no"/>ivisibilis est omnino, fit una natura in
+<lb ed="#Ba"/>pluribus re et ratione. Si autem duo 
+in<lb ed="#Ba" break="no"/>nascibiles sint, a neutro emanat natura
+<lb ed="#Ba"/>in alterum, nec ab uno aliquo in ambos.
+<lb ed="#Ba"/>Quecumgue autem sic duo sunt, quod
+<lb ed="#Ba"/>neuler corum refertur ad alterum 
+secun<lb ed="#Ba" break="no"/>dium nature communicationem, nec 
+am<lb ed="#Ba" break="no"/>ho ad aliquod tertium, penitus sunt 
+di<lb ed="#Ba" break="no"/>versa secundum naturam. Si ergo duo
+<lb ed="#Ba"/>mnascibiles ponantur, erunt duo dii 
+di<lb ed="#Ba" break="no"/>versi, sicut dicit Hilarius. Et quod iste sit
+<lb ed="#Ba"/>mellectus Hilarii, accipitur ex verbis
+<lb ed="#Ba"/>suis ibi positis sic : <quote xml:id="Almn78-a94409-Qd1e2153"> Duo innascibiles
+<lb ed="#Ba"/>esse Hon possunt : cum idcirco Deus
+<lb ed="#Ba"/>wnus sit, cum Pater Deus sit, et Filius
+<lb ed="#Ba"/>Nei Deus sit, quia innascibilitas sola 
+pe<lb ed="#Ba" break="no"/>nes unum sit. Filius autem idcirco Deus,
+<lb ed="#Ba"/>quia ex innascibili essenlia natus existat,
+<lb ed="#Ba"/>hoc est, ex innascibili Patre qui est 
+es<lb ed="#Ba" break="no"/>senlia, in eadem essentia per nativitatem
+<lb ed="#Ba"/>exislat. </quote>
+                  </p>
+                  <p xml:id="Almn78-a94409-d1e2174">
+                     <lb ed="#Ba"/>Ad primum ergo dicendum, quod ratio
+<lb ed="#Ba"/>illa procedit.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2182">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod ratio hujus
+<lb ed="#Ba"/>jam patuit per expositionem verborum
+<lb ed="#Ba"/>Hilarii positam.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2191">
+                     <lb ed="#Ba"/>Et quod dicitur, quod innascibilem 
+es<lb ed="#Ba" break="no"/>se, modus est existendi singularis. 
+Di<lb ed="#Ba" break="no"/>cendum, quod hoc verum est : sed in
+<lb ed="#Ba"/>duobus vel pluribus esse non potest, 
+pro<lb ed="#Ba" break="no"/>pler rationem in principio solutionis 
+di<lb ed="#Ba" break="no"/>clam ; quia scilicet una natura re et 
+ra<lb ed="#Ba" break="no"/>lione indivisibilis, in pluribus esse non
+<lb ed="#Ba"/>potest, nisi ili secundum originem 
+refe<lb ed="#Ba" break="no"/>rantur ad unum, propter causam que
+<lb ed="#Ba"/>ilicta est.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2215">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod una 
+proprie<lb ed="#Ba" break="no"/>las in duobus in quantum unum sunt,
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>esse potest, sicut Pater et Filius unum
+<lb ed="#Ba"/>sunt in spirando. Sed innascibilitas non
+<lb ed="#Ba"/>potest esse in duobus secundum aliquam
+<lb ed="#Ba"/>communionem quam duo vel plures
+<lb ed="#Ba"/>possint habere ad invicem : et ideo etiam
+<lb ed="#Ba"/>hec proprietas consistit in negatione : et
+<lb ed="#Ba"/>etiam quando convenit Patri, non 
+conve<lb ed="#Ba" break="no"/>nit ei ut proprietas personalis, que sola
+<lb ed="#Ba"/>facit modum existendi singularem sub
+<lb ed="#Ba"/>una natura communi, sed convenit ei ut
+<lb ed="#Ba"/>proprietas persone, que secundum 
+ratio<lb ed="#Ba" break="no"/>nem intelligendi consequens est ad hoc
+<lb ed="#Ba"/>esse personale quod est primi patris in
+<lb ed="#Ba"/>quantum primus est : et ideo 
+innascibi<lb ed="#Ba" break="no"/>litas esse personale non confert, quia non
+<lb ed="#Ba"/>confert modum existendi singularem in
+<lb ed="#Ba"/>esse personali.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2261">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod innascibilem
+<lb ed="#Ba"/>esse in una persona dignitatis est, in 
+plu<lb ed="#Ba" break="no"/>ribus confusionis et indignitatis : 
+confu<lb ed="#Ba" break="no"/>sionis, quia aufert nature ordinem : 
+in<lb ed="#Ba" break="no"/>dignitatis, quia dividit et particulat 
+natu<lb ed="#Ba" break="no"/>ram ut non in quolibet sit secundum
+<lb ed="#Ba"/>totum esse et posse.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2279">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod hec 
+obje<lb ed="#Ba" break="no"/>clio supponit falsum : quia plures 
+inna<lb ed="#Ba" break="no"/>scibiles esse, scindit unitalem : aliquem
+<lb ed="#Ba"/>autem esse nascibilem ab alio, ponit 
+uni<lb ed="#Ba" break="no"/>tatem, dum eamdem et totam naturam
+<lb ed="#Ba"/>secundum esse et posse natus accipit a
+<lb ed="#Ba"/>generante.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2297">
+                     <lb ed="#Ba"/>Ad id quod ulterius queritur, Si 
+scili<lb ed="#Ba" break="no"/>cet duo possint esse qui ab alio, quorum
+<lb ed="#Ba"/>neuter ab altero ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e2307">
+                     <lb ed="#Ba"/>Dicendum, quod subtiliter intuendo
+<lb ed="#Ba"/>non possunt esse. Et de hoc de 
+proces<lb ed="#Ba" break="no"/>sione Spiritus sancti in questione contra
+<lb ed="#Ba"/>Grecos satis dictum est.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2318">
+                     <lb ed="#Ba"/>Ad id quod objicitur, quod in creaturis
+<lb ed="#Ba"/>sic est, dicendum quod ea que sunt in
+<lb ed="#Ba"/>creaturis, perfecte imitari non possunt ea
+<lb ed="#Ba"/>que sunt in divinis. Creature enim 
+di<lb ed="#Ba" break="no"/>viduntur secundum esse, licet procedant
+<lb ed="#Ba"/>ab uno, et dividuntur secundum 
+proprie<lb ed="#Ba" break="no"/>tates et differentias absolutas tam 
+essen<lb ed="#Ba" break="no"/>tiales, que sunt magis propria, quam
+<lb ed="#Ba"/>proprias, quam etiam communes. In. 
+di<lb ed="#Ba" break="no"/>vinis autem nulla divisio potest esse se-
+<pb ed="#Ba" n="436"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>cundum esse substantiale, nec secundum
+<lb ed="#Ba"/>differentias magis proprias, proprias, et
+<lb ed="#Ba"/>communes : sed est ibi distinctio tantum
+<lb ed="#Ba"/>secundum oppositionem relationis 
+origi<lb ed="#Ba" break="no"/>nis. Et ideo inter quascumque personas
+<lb ed="#Ba"/>non distinguit oppositio talis relationis,
+<lb ed="#Ba"/>ille propter indifferentiam simplicitatis
+<lb ed="#Ba"/>summe remanent una et eadem, unus et
+<lb ed="#Ba"/>idem.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2366">
+                     <lb ed="#Ba"/>Ad aliud dicendum est, quod causa 
+di<lb ed="#Ba" break="no"/>cti Hilarii est, quod omne quod: 
+reduci<lb ed="#Ba" break="no"/>tur ad unum principium multorum et
+<lb ed="#Ba"/>diversorum, per idem reducitur in ipsum
+<lb ed="#Ba"/>quod exit ab ipso. Omnia autem que
+<lb ed="#Ba"/>sunt a Deo existentia per creationem, ab
+<lb ed="#Ba"/>ipso exeunt per Verbum genitum ab eo.
+<lb ed="#Ba"/>Joan. 1, 3: <quote xml:id="Almn78-a94409-Qd1e2385" source="http://scta.info/resource/io1_3">Omnia per ipsum facta sunt,
+<lb ed="#Ba"/>et sine ipso factum est nihil quod 
+fa<lb ed="#Ba" break="no"/>ctum est</quote>. Per illud ergo verbum unum et
+<lb ed="#Ba"/>idem reducuntur. Superius autem 
+pro<lb ed="#Ba" break="no"/>batum est in questione de verbo, quod
+<lb ed="#Ba"/>in divinis notionaliter dictum non potest
+<lb ed="#Ba"/>esse nisi unum verbum. Qui ergo duo
+<lb ed="#Ba"/>nota verba ponit, destruit reductionem
+<lb ed="#Ba"/>ad unum. Et quod hic sit sensus 
+verbo<lb ed="#Ba" break="no"/>rum Hilarii, patet. Sicut enim dicit 
+ibi<lb ed="#Ba" break="no"/>dem, caput omnium, hoc est, principium
+<lb ed="#Ba"/>per quod facta sunt omnia, Filius est :
+<lb ed="#Ba"/>sed caput Filii Deus est, Pater scilicet :
+<lb ed="#Ba"/>et ad unum, scilicet Patrem, omnia hoc
+<lb ed="#Ba"/>gradu et hac confessione referuntur : cum
+<lb ed="#Ba"/>ab eo, scilicet Filio, sumant universa
+<lb ed="#Ba"/>principium, cujus scilicet Filii, ipse 
+sci<lb ed="#Ba" break="no"/>licet Pater principium sit.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2426">
+                     <lb ed="#Ba"/>Ad id quod objicitur de arithmetica,
+<lb ed="#Ba"/>dicendum quod omnis multitudo 
+reduci<lb ed="#Ba" break="no"/>tur ad unum per divisionem multitudinis,
+<lb ed="#Ba"/>sicut Gilbertus ibidem ostendit in 
+com<lb ed="#Ba" break="no"/>mento : et ideo non reducitur ad 
+bina<lb ed="#Ba" break="no"/>rium ut ibi stet, sed ut ulterius per 
+divi<lb ed="#Ba" break="no"/>sionem reducatur ad unum, quod est
+<lb ed="#Ba"/>binarii principium. In divinis autem non
+<lb ed="#Ba"/>potest esse talis multitudinis principium,
+<lb ed="#Ba"/>quod aggregatione suiipsius faciat 
+multi<lb ed="#Ba" break="no"/>tudinem : quia primum principium 
+crea<lb ed="#Ba" break="no"/>turarum principium est sicut intellectus
+<lb ed="#Ba"/>practicus : et intellectus practicus non
+<lb ed="#Ba"/>est principium, nisi per verbum practi
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>cum intra se conceptum et ex se formas
+<lb ed="#Ba"/>tum : et illud est impossibile dividi 
+se<lb ed="#Ba" break="no"/>cundum comparationem quam habet ad
+<lb ed="#Ba"/>intellectum, licet plurificetur in rations
+<lb ed="#Ba"/>ideali secundum comparationem quam
+<lb ed="#Ba"/>habet ad ea que fiunt per ipsum. Quando
+<lb ed="#Ba"/>autem fit reductio in primum principium
+<lb ed="#Ba"/>per verbum, non fit reductio, nisi 
+secun<lb ed="#Ba" break="no"/>dum hoc quod comparatur ad primum :
+<lb ed="#Ba"/>et ideo non fit reductio per ipsum, nisi
+<lb ed="#Ba"/>secundum quod unum est, et non 
+secun<lb ed="#Ba" break="no"/>dum quod plura.
+  
+<lb ed="#Ba"/>Ad aliud dicendum, quod post 
+mona<lb ed="#Ba" break="no"/>dem est dias in discretis. In principiis
+<lb ed="#Ba"/>autem primis falsum est. In illis enim
+<lb ed="#Ba"/>est, quod ab uno primo non est nisi
+<lb ed="#Ba"/>unum, ut dicunt Philosophi omnes 
+re<lb ed="#Ba" break="no"/>cte philosophantes, et ab uno et secundo
+<lb ed="#Ba"/>in ordine, principiorum tertium est. Et
+<lb ed="#Ba"/>hujus exemplar est, quod a Patre Filius,
+<lb ed="#Ba"/>et a Patre et Filio Spiritus sanctus.
+  
+<lb ed="#Ba"/>Tria que adducuntur in contrarium,
+<lb ed="#Ba"/>procedunt.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2511">
+                     <lb ed="#Ba"/>Ad id quod objicitur contra alteram
+<lb ed="#Ba"/>partem questionis, omnino verum est et
+<lb ed="#Ba"/>concedendum.
+</p>
+               </div>
+               <div xml:id="Almn78-a94409-Dd1e2521">
+                  <head xml:id="Almn78-a94409-Hd1e2523">Articulus 3</head>
+                  <head xml:id="Almn78-a94409-Hd1e2526" type="question-title">
+        Utrum non intellecto ordine in divinis,
+        adhuc possibile sit distinctionem 
+        personarum esse in divinis
+      </head>
+                  <p xml:id="Almn78-a94409-d1e2529">
+                     <lb ed="#Ba"/>MEMBRI SECUNDI
+<lb ed="#Ba"/>ARTICULUS III.
+<lb ed="#Ba"/>Utrum non intellecto ordine in divinis,
+<lb ed="#Ba"/>adhuc possibile sit distinctionem 
+per<lb ed="#Ba" break="no"/>sonarum esse in divinis ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e2542">
+                     <lb ed="#Ba"/>Tertio queritur, An non intellecto 
+or<lb ed="#Ba" break="no"/>dine in divinis, adhuc possibile. sit 
+di<lb ed="#Ba" break="no"/>stinctionem esse in personis divinis ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e2551">
+                     <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Sicut enim est in imagine, sic 
+vi<lb ed="#Ba" break="no"/>detur in prototypo, sicut dicit 
+Damasce<lb ed="#Ba" break="no"/>nus. In imagine autem est ordo nature :
+<lb ed="#Ba"/>est enim mens generans notitiam sui,
+<pb ed="#Ba" n="437"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>notitia genita, amor ab utroque 
+proce<lb ed="#Ba" break="no"/>dens. Est igitur ibi ordo nature : et 
+ta<lb ed="#Ba" break="no"/>men non est ibi personalis distinctio. 
+Vi<lb ed="#Ba" break="no"/>detur ergo, quod similiter sit in 
+proto<lb ed="#Ba" break="no"/>lypo, quod licet ibi sit ordo nature, non
+<lb ed="#Ba"/>tamen distinctio personarum.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2583">
+                     <lb ed="#Ba"/>2. Videtur etiam e converso, quod 
+sci<lb ed="#Ba" break="no"/>licet distinctio personarum possit esse 
+ab<lb ed="#Ba" break="no"/>aque ordine nature. Distinctio enim 
+per<lb ed="#Ba" break="no"/>sonarum de intellectu suo non dicit nisi
+<lb ed="#Ba"/>singularis existentie modum, ut dicit 
+Ri<lb ed="#Ba" break="no"/>chardus. Singularis autem existentie
+<lb ed="#Ba"/>modus in multis est in quibus non est
+<lb ed="#Ba"/>ordo nature. In omnibus enim est que
+<lb ed="#Ba"/>singulariter existunt in rationali natura,
+<lb ed="#Ba"/>sive habeant ordinem ad unum, sive non.
+<lb ed="#Ba"/>In divinis ergo similiter potest esse, vel
+<lb ed="#Ba"/>ad minus intelligi.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2612">
+                     <lb ed="#Ba"/>3. Ulterius, Videtur confusus esse 
+or<lb ed="#Ba" break="no"/>do, sicut patet in imagine. Dicit enim
+<lb ed="#Ba"/>Augustinus in libro IX de Trinitate,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a94409-Qd1e2622"> amorem rei cognite  praecedit
+<lb ed="#Ba"/>voluntas rel cognoscende. </quote> Amor 
+au<lb ed="#Ba" break="no"/>tem rei cognite respondet Spiritui 
+san<lb ed="#Ba" break="no"/>cto: voluntas autem cognoscendi etiam
+<lb ed="#Ba"/>ost amor ad cognoscendum, quod 
+atten<lb ed="#Ba" break="no"/>ditur quis ad inquirendum, ut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2639">
+                     <lb ed="#Ba"/>Queratur ergo, Cui respondeat ille
+<lb ed="#Ba"/>amor? Videtur, quod non Spiritui 
+san<lb ed="#Ba" break="no"/>cto : ille enim precedit -generationem
+<lb ed="#Ba"/>cognitionis. Amor autem rei cognite,
+<lb ed="#Ba"/>qui appropriatur Spiritui sancto, est
+<lb ed="#Ba"/>amor procedens ex cognitione jam genita
+<lb ed="#Ba"/>sive nata, sicut et Spiritus sanctus 
+pro<lb ed="#Ba" break="no"/>cedit a Filio. Videtur ergo, quod ante
+<lb ed="#Ba"/>generationem Filii secundum ordinem
+<lb ed="#Ba"/>natures processus sit cujusdam amoris,
+<lb ed="#Ba"/>qui non procedit nisi a Patre generante
+<lb ed="#Ba"/>sive a mente, cujus processus tamen non
+<lb ed="#Ba"/>sit secundum rationem intelligendi in 
+si<lb ed="#Ba" break="no"/>militudine speciei et natura cum 
+gene<lb ed="#Ba" break="no"/>rante, nec sit secundum nature 
+commu<lb ed="#Ba" break="no"/>nicationem, sed secundum  voluntatis
+<lb ed="#Ba"/>communicationem, non potest referri ad
+<lb ed="#Ba"/>generationem Filii, quia ante 
+generatio<lb ed="#Ba" break="no"/>nem Filii est : nec potest referri ad Pa
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>trem, quia Pater non procedit ab aliquo:
+<lb ed="#Ba"/>amor autem procedit a mente sive 
+gene<lb ed="#Ba" break="no"/>rante : nec potest referri ad Spiritum
+<lb ed="#Ba"/>sanctum, ut jam habitum est : oportet
+<lb ed="#Ba"/>ergo, quod vel quaternitas sit in 
+Trini<lb ed="#Ba" break="no"/>tate, vel sit consensus ordo nature, ut
+<lb ed="#Ba"/>scilicet processio Spiritus sancti 
+secun<lb ed="#Ba" break="no"/>dum ordinem nature et fprecedat 
+gene<lb ed="#Ba" break="no"/>rationem Filii, et sequatur.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2704">
+                     <lb ed="#Ba"/>Ulterius queritur, Utrum secundum
+<lb ed="#Ba"/>ordinem nature possit dici Pater prima
+<lb ed="#Ba"/>in Trinitate persona, et Filius secunda,
+<lb ed="#Ba"/>et Spiritus sanctus tertia ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e2715">
+                     <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Dicit enim <name xml:id="Almn78-a94409-Nd1e2721">Priscianus</name>, quod ista 
+no<lb ed="#Ba" break="no"/>mina, primum, secundum, tertium, 
+no<lb ed="#Ba" break="no"/>mina ordinalia sunt. Ordo autem in 
+di<lb ed="#Ba" break="no"/>vinis, ut dicit Augustinus, non est quo
+<lb ed="#Ba"/>alter sit prior altero, sed quo alter sit
+<lb ed="#Ba"/>tantum ex altero propter ordinem : ergo
+<lb ed="#Ba"/>ordine nature non potest dici una 
+perso<lb ed="#Ba" break="no"/>na prima, vel secunda, vel tertia.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2740">
+                     <lb ed="#Ba"/>In contranium hujus est, quod
+<lb ed="#Ba"/>1. Primum et simpliciter principium
+<lb ed="#Ba"/>convertuntur in omnibus: et principiatum
+<lb ed="#Ba"/>esse ab uno, pracedit et antecedit ad 
+se<lb ed="#Ba" break="no"/>cundum esse : et secundum esse, infertur
+<lb ed="#Ba"/>eX principiatum esse ab uno : et similiter
+<lb ed="#Ba"/>ex principiatum esse ab uno et uno, 
+se<lb ed="#Ba" break="no"/>quitur de necessitate tertium esse, ut
+<lb ed="#Ba"/>probant <name xml:id="Almn78-a94409-Nd1e2761">Avicena</name> et <name xml:id="Almn78-a94409-Nd1e2764">Algazel</name> in 
+metaphy<lb ed="#Ba" break="no"/>sicis suis. Et Aristoteles etiam hoc dicit
+<lb ed="#Ba"/>in epistola quadam de principio 
+univer<lb ed="#Ba" break="no"/>si esse. Cum ergo Pater sit principium
+<lb ed="#Ba"/>non de principio secundum ordinem 
+na<lb ed="#Ba" break="no"/>ture, Filius principium de uno principio,
+<lb ed="#Ba"/>Spiritus sanctus de utroque principio,
+<lb ed="#Ba"/>uno scilicet et alio, videtur de 
+necessi<lb ed="#Ba" break="no"/>tate sequi, quod Pater in ordine nature
+<lb ed="#Ba"/>sit prima persona, Filius perona secunda,
+<lb ed="#Ba"/>Spiritus sanctus persona tertia.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2791">
+                     <lb ed="#Ba"/>2. Adhuc, Hune ordinem in 
+glorifican<lb ed="#Ba" break="no"/>do personas tota tenet Ecclesia. Beatus
+<lb ed="#Ba"/>enim Hieronymus qui fecit, <quote xml:id="Almn78-a94409-Qd1e2799"> Gloria
+<lb ed="#Ba"/>Patri et Filio et Spiritui sancto, </quote> et
+<lb ed="#Ba"/>Damasus Papa qui confirmavit, et Psal-
+<pb ed="#Ba" n="438"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>mis annotari fecit, hunc ordinem 
+tenue<lb ed="#Ba" break="no"/>runt.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2816">
+                     <lb ed="#Ba"/>3. Adhuc, In antehabitis de 
+processio<lb ed="#Ba" break="no"/>ne Spiritus sancti probatum est, quod
+<lb ed="#Ba"/>Pater in ordine nature se habet per -
+mo<lb ed="#Ba" break="no"/>dum principii, ut dicit Hilarius: Spiritus
+<lb ed="#Ba"/>autem sanctus in ratione termini : eo
+<lb ed="#Ba"/>quod ab ipso nullus est. Cum ergo 
+Fi<lb ed="#Ba" break="no"/>lius sit ab alio, et ab ipso alius, oportet
+<lb ed="#Ba"/>quod habeat sein ratione medii : quia
+<lb ed="#Ba"/>inter hac duo, qui a nullo a quo alius,
+<lb ed="#Ba"/>et quiab aliis a quo nullus, secundum
+<lb ed="#Ba"/>rationem intelligendi medius est, qui ab
+<lb ed="#Ba"/>alio a quo alius.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2845">
+                     <lb ed="#Ba"/>Soxutio. Ad primam partem 
+questio<lb ed="#Ba" break="no"/>nis dicendum est, quod si persone in
+<lb ed="#Ba"/>vera ratione personarum accipiantur et
+<lb ed="#Ba"/>in una natura re et ratione, non possunt
+<lb ed="#Ba"/>intelligi persone distinctee non 
+intelle<lb ed="#Ba" break="no"/>cto ordine nature. Non enim in una 
+na<lb ed="#Ba" break="no"/>tura sunt, que unam naturam ab uno
+<lb ed="#Ba"/>non accipiunt, ut paulo ante probatum
+<lb ed="#Ba"/>est. Nec sub communitate unius nature
+<lb ed="#Ba"/>ad esse singulare distincli sunt, qui 
+se<lb ed="#Ba" break="no"/>cundum relationem originis sub illa na-
+<lb ed="#Ba" break="no"/>tura non habent distinctionem 
+secun<lb ed="#Ba" break="no"/>dum supposita. Similiter e converso, si
+<lb ed="#Ba"/>in rationali natura accipiatur distinctio
+<lb ed="#Ba"/>personarum, non potest intelligi ordo
+<lb ed="#Ba"/>nature sine distinctione personarum
+<lb ed="#Ba"/>propter eamdem causam : statim enim
+<lb ed="#Ba"/>in ipsa distinctione personarum 
+intelli<lb ed="#Ba" break="no"/>gitur et qui non ab alio a quo alius, et
+<lb ed="#Ba"/>qui ab alio a quo alius, et qui ab aliisa
+<lb ed="#Ba"/>quo nullus : quod est principium 
+me<lb ed="#Ba" break="no"/>dium et terminus in ordine nature.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2895">
+                     <lb ed="#Ba"/>Ad id quod objicitur primo contra
+<lb ed="#Ba"/>hoc, dicendum quod imago in anima,
+<lb ed="#Ba"/>sicut etiam dicit Augustinus non 
+perfe<lb ed="#Ba" break="no"/>cte implet id cujus est imago. Unde,
+<lb ed="#Ba"/>Sententiarum, distinct. TI, dicit 
+Magi<lb ed="#Ba" break="no"/>ster, quod <quote xml:id="Almn78-a94409-Qd1e2910"> in anima Trinitatis 
+imveni<lb ed="#Ba" break="no"/>tur exemplum, licet exiguum. </quote> Unde
+<lb ed="#Ba"/>mens, intelligentia, et voluntas in anima
+<lb ed="#Ba"/>non sunt persone, sed potentie : et in
+<lb ed="#Ba"/>hoc deficit ab exemplari : tamen ordo
+<lb ed="#Ba"/>qui est in potentiis comparatis ad 
+habi<lb ed="#Ba" break="no"/>tus et actus, aliquatenus licet longe in-
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>feriori modo representat ordinem natu
+<lb ed="#Ba"/>re quiest in personis. Unde ratio illa
+<lb ed="#Ba"/>procedit ac si imago Trinitatis in anima
+<lb ed="#Ba"/>perfecta sit, et est in argumento fallacia
+<lb ed="#Ba"/>secundum quid ad simpliciter : procedit
+<lb ed="#Ba"/>enim ab eo quod est secundum quid ac
+<lb ed="#Ba"/>si esset simpliciter.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2944">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod licet 
+sinygu<lb ed="#Ba" break="no"/>laris existentie modi sint qui non sin
+<lb ed="#Ba"/>secundum ordinem nature, illi modi non
+<lb ed="#Ba"/>sunt nisi singularis individui, et non 
+sin<lb ed="#Ba" break="no"/>gularis persone sub una natura distinct,
+<lb ed="#Ba"/>Singulares enim existenti# modi 
+perso<lb ed="#Ba" break="no"/>nales non sunt nisi in natura rationali,
+<lb ed="#Ba"/>ut dicit Boetius : nec distinguuntur, nisi
+<lb ed="#Ba"/>per actum principii concomitantis 
+natu<lb ed="#Ba" break="no"/>ram illam : quem actum semper 
+conco<lb ed="#Ba" break="no"/>mitatur relatio originis : et ideo talis
+<lb ed="#Ba"/>ordo nature sine distinctione 
+persona<lb ed="#Ba" break="no"/>rum esse non potest, nec distinctio 
+per<lb ed="#Ba" break="no"/>sonarum intelligi potest sine tali ordine.
+</p>
+                  <p xml:id="Almn78-a94409-d1e2977">
+                     <lb ed="#Ba"/>Ad id quod ulterius queritur de 
+con<lb ed="#Ba" break="no"/>fuso ordine, dicendum quod nec 
+quater<lb ed="#Ba" break="no"/>nitas est in Trinitate, nec ordo confusus.
+<lb ed="#Ba"/>Amor enim rei cognoscende sive 
+volun<lb ed="#Ba" break="no"/>tas, imperfectus est, nec est voluntatis
+<lb ed="#Ba"/>que sit determinata potentia in anima,
+<lb ed="#Ba"/>sed est cujusdam nature, que placentia
+<lb ed="#Ba"/>quedam est diffusa per omnes 
+poten<lb ed="#Ba" break="no"/>tias, qua unicuique placet suum objectum
+<lb ed="#Ba"/>et proprius actus : quam voluntatem
+<lb ed="#Ba"/>Grace 0Anow, hoc est anlecedentem 
+vo<lb ed="#Ba" break="no"/>cat Damascenus. Augustinus autem 
+vo<lb ed="#Ba" break="no"/>cateam primum motorem omnium 
+po<lb ed="#Ba" break="no"/>tentiarum anime et universalem : que
+<lb ed="#Ba"/>voluntas quia communis est et 
+imperfe<lb ed="#Ba" break="no"/>cta, ad nihil distinctum in Trinitate 
+re<lb ed="#Ba" break="no"/>ferri potest : et si referatur ad aliquid,
+<lb ed="#Ba"/>refertur ad unitatem voluntatis 
+essentia<lb ed="#Ba" break="no"/>lis que est una tribus personis, quia illa
+<lb ed="#Ba"/>nihil distinctum representat : ideo ex ea
+<lb ed="#Ba"/>non potest referri quarta persona. Et
+<lb ed="#Ba"/>quia Spiritus sanctus est amor distinctus,
+<lb ed="#Ba"/>ideo licet pracedat generationem notitie
+<lb ed="#Ba"/>secundum rationem intelligendi, non
+<lb ed="#Ba"/>potest ex hoc inferri, quod Spiritus 
+san<lb ed="#Ba" break="no"/>cli processio preecedat in ordine nature
+<lb ed="#Ba"/>generationem Filii : et sic non sequitur,
+<lb ed="#Ba"/>quod sit confusus ordo.
+</p>
+                  <p xml:id="Almn78-a94409-d1e3041">
+                     <pb ed="#Ba" n="439"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Ba"/>Pater dicatur prima persona, Filius 
+se<lb ed="#Ba" break="no"/>cunda, et Spiritus sanctus tertia ?
+</p>
+                  <p xml:id="Almn78-a94409-d1e3054">
+                     <lb ed="#Ba"/>Dicendum, quod absolute et sine 
+de<lb ed="#Ba" break="no"/>lerminatione non debet dici, sed cum
+<lb ed="#Ba"/>hac determinatione, prima secundum
+<lb ed="#Ba"/>ordinem nature, secunda secundum. 
+or<lb ed="#Ba" break="no"/>dinem nature, terlia secundum ordinem
+<lb ed="#Ba"/>nature : quia tunc hoc ipsum quod dico,
+<lb ed="#Ba"/>nature, tollit et privat prius et posterius,
+<lb ed="#Ba"/>quod poneret ordo si non apponeretur
+<lb ed="#Ba"/>nature. Natura enim ponit equalitatem :
+<lb ed="#Ba"/>quz enim unam habent naturam, in 
+na<lb ed="#Ba" break="no"/>turailla, et in omnibus consequentibus
+<lb ed="#Ba"/>illam naturam, ewqualia sunt, et 
+secun<lb ed="#Ba" break="no"/>dum eque et coequeve habent eam: et
+<lb ed="#Ba"/>non unum primo, et alterum secundo :
+<lb ed="#Ba"/>quia hoc dicit gradum potestatis : ista
+<lb ed="#Ba"/>autem secundum eamdem potestatem
+<lb ed="#Ba"/>habent eam. Dicit enim Priscianus in
+<lb ed="#Ba"/>majori volumine, in tractatu de 
+conjun<lb ed="#Ba" break="no"/>clione, quod <quote xml:id="Almn78-a94409-Qd1e3097"> ordo pars potestatis est. </quote>
+                     <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>Unde que gradum differentem habent
+<lb ed="#Ba"/>in ordine, habent etiam differentem 
+gra<lb ed="#Ba" break="no"/>dum in potestate : quod in Trinitate esse
+<lb ed="#Ba"/>non potest.
+</p>
+                  <p xml:id="Almn78-a94409-d1e3112">
+                     <lb ed="#Ba"/>Ad id quod dicitur de Algazele, 
+Avi<lb ed="#Ba" break="no"/>cenna et Aristotele, dicendum quod 
+_lo<lb ed="#Ba" break="no"/>quuntur de his que procedunt ab uno in
+<lb ed="#Ba"/>diversitate essentia : inter que est ordo
+<lb ed="#Ba"/>simpliciter, et non ordo nature tantum.
+</p>
+                  <p xml:id="Almn78-a94409-d1e3125">
+                     <lb ed="#Ba"/>Abd RATIONEM autem que inducitur, 
+di<lb ed="#Ba" break="no"/>cendum, quod ex illa ratione non 
+proba<lb ed="#Ba" break="no"/>tur, quod aliqua persona sit prima in 
+or<lb ed="#Ba" break="no"/>dine simpliciter, vel secunda, vel tertia,
+<lb ed="#Ba"/>sed quod aliqua sit prima in ordine 
+na<lb ed="#Ba" break="no"/>ture. Et hoc attendentes Sancti, hoc
+<lb ed="#Ba"/>modo docuerunt nos glorificare 
+Trinita<lb ed="#Ba" break="no"/>tem.
+  
+<lb ed="#Ba"/>Ad aliud dicendum, quod ex illa 
+ra<lb ed="#Ba" break="no"/>tione non probatur amplius, quam quod
+<lb ed="#Ba"/>dictum est, scilicet quod Pater primus
+<lb ed="#Ba"/>sit ordine nature, et Filius secundus, et
+<lb ed="#Ba"/>Spiritus sanctus tertius, sive terminus.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

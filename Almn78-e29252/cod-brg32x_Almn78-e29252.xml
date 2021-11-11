@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 58</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 58</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="581"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e29252"><!-- p2t11q58 -->
+            <head xml:id="Almn78-e29252-Hd1e106">Quaestio 58</head>
+            <head xml:id="Almn78-e29252-Hd1e109" type="question-title">
+      De hoc quod dicit: 
+      Et sint in signa, et tempora, et dies, et annos
+    </head>
+            <p xml:id="Almn78-e29252-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XLVI.
+      <lb ed="#Bb"/>De hoc quod dicit : ET sint in signa, et tempora, et dies, et annos.
+    </p>
+            <p xml:id="Almn78-e29252-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde queritur de hoc quod dicit: Et
+      <lb ed="#Bb"/>sint in signa, et tempora, et dies, et 
+      an<lb ed="#Bb" break="no"/>nos.
+    </p>
+            <p xml:id="Almn78-e29252-d1e132">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Et queritur, Quomodo sint in signa ?
+      <lb ed="#Bb"/>Et dicit Glossa interlinearis, ibidem,
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e29252-Qd1e142">In signa serenitatis et tempestatis. </quote>
+               <pb ed="#Bb" n="582"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Sed secundum hoc signum videtur dici
+      <lb ed="#Bb"/>causa : et sic superiora, luminaria 
+      scili<lb ed="#Bb" break="no"/>cet et stella, cause videntur esse 
+      inferio<lb ed="#Bb" break="no"/>rum.
+    </p>
+            <p xml:id="Almn78-e29252-d1e160">
+               <lb ed="#Bb"/>1. Adhuc, Job, 1x, 9: Qui facit 
+      Aretu<lb ed="#Bb" break="no"/>rum et Ortona, et Hyadas et interiora
+      <lb ed="#Bb"/>Austri. Ist stelle, sicut dicit Gregorius
+      <lb ed="#Bb"/>ibi, Hyadz dicuntur, quia pluvias 
+      susci<lb ed="#Bb" break="no"/>tant et tempestates, et horum sunt signa.
+      <lb ed="#Bb"/>Ergo signum ponitur ibi pro causa.
+    </p>
+            <p xml:id="Almn78-e29252-d1e176">
+               <lb ed="#Bb"/>2. Adhuc, Job, xxxvin, 34, super 
+      il<lb ed="#Bb" break="no"/>lud: Numguid congungere valebis 
+      mi<lb ed="#Bb" break="no"/>cantes stellas Pleiadas, aut gyrum 
+      Ar<lb ed="#Bb" break="no"/>eturt poteris dissipare ? Nicit Gregorius,
+      <lb ed="#Bb"/>quod Pleiades dicuntur, quasi pluviades :
+      <lb ed="#Bb"/>quia pluvias et tempestates suscitant, et
+      <lb ed="#Bb"/>sunt signa talium. Videtur ergo, quod 
+      si<lb ed="#Bb" break="no"/>gnum idem sit quod causa.
+    </p>
+            <p xml:id="Almn78-e29252-d1e196">
+               <lb ed="#Bb"/>Ulterius queritur, Quomodo sint in
+      <lb ed="#Bb"/>tempora, cum tempus ante fuit ?
+    </p>
+            <p xml:id="Almn78-e29252-d1e203">
+               <lb ed="#Bb"/>Apvuvuc, Quomodo sint in dies, cum tres
+      <lb ed="#Bb"/>ante precesserunt.
+    </p>
+            <p xml:id="Almn78-e29252-d1e210">
+               <lb ed="#Bb"/>Sotvtio. Dicendum, quod signum 
+      di<lb ed="#Bb" break="no"/>citur multis modis. Uno modo sicut dicit
+      <lb ed="#Bb"/>Augustinus ‘, signum est quod preter
+      <lb ed="#Bb"/>speciem quam ingerit sensibus, aliud 
+      fa<lb ed="#Bb" break="no"/>cit in notitiam venire. Et sic signum
+      <lb ed="#Bb"/>accipitur proprie in sacramentis. Alio
+      <lb ed="#Bb"/>modo dicitur stgnum causa communis,
+      <lb ed="#Bb"/>non proprie innuens aliquem effectum, et
+      <lb ed="#Bb"/>non de necessitate inducens. Et hoc modo
+      <lb ed="#Bb"/>luminaria ceeli sunt 2m signa ex situ 
+      radia<lb ed="#Bb" break="no"/>tionis in conjunctione vel preventione
+      <lb ed="#Bb"/>vel alia radiatione oppositionis, scilicet
+      <lb ed="#Bb"/>quadrati, trigoni, sextilis adspectus, 
+      si<lb ed="#Bb" break="no"/>gnans effectum quem non de necessitate
+      <lb ed="#Bb"/>causat. Et ideo dicit Ptolemeus in 
+      Cen<lb ed="#Bb" break="no"/>tilogio, quod <quote xml:id="Almn78-e29252-Qd1e246"> sapiens homo dominatur
+        <lb ed="#Bb"/>astris. </quote> Et dicit ibi Haliin commento,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-e29252-Qd1e254"> si stelle scintillant ad 
+        melancho<lb ed="#Bb" break="no"/>liam et quartanas, quod sapiens medicus
+        <lb ed="#Bb"/>disponat corpora ad sanguinem, et 
+        quar<lb ed="#Bb" break="no"/>tane non inducentur. </quote> Et ideo dicit
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Messehallach in libro de Sphera mota,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-e29252-Qd1e269"> sapiens homo juvat ccelestem
+        <lb ed="#Bb"/>circulum, sicut ad fructum juvatur terra
+        <lb ed="#Bb"/>aratione et seminatione. </quote> Hujus autem
+      <lb ed="#Bb"/>causam, quod non possint esse cause
+      <lb ed="#Bb"/>producentes de necessitate effectum, 
+      op<lb ed="#Bb" break="no"/>time assignat Ptolemeus in I 
+      Quadri<lb ed="#Bb" break="no"/>pariiti, dicens quod virtutes astrorum et
+      <lb ed="#Bb"/>lumina sive radiationes non deveniunt
+      <lb ed="#Bb"/>ad inferiora corpora, nisi per aliud, et
+      <lb ed="#Bb"/>per accidens : per aliud, quia media 
+      ele<lb ed="#Bb" break="no"/>menta : per accidens, quia non agunt in
+      <lb ed="#Bb"/>nos nisi informando qualitates activas et
+      <lb ed="#Bb"/>passivas elementorum, que sic 
+      informa<lb ed="#Bb" break="no"/>te immutant corpora. Eorum autem que
+      <lb ed="#Bb"/>sunt sub libero arbitrio hominis, nec 
+      si<lb ed="#Bb" break="no"/>gna, nec cause sunt : quia liberum 
+      arbi<lb ed="#Bb" break="no"/>trium nec immutatur virtute ccelesti, nec
+      <lb ed="#Bb"/>virtute elementali de necessitate. Sed,
+      <lb ed="#Bb"/>sicut dicunt Aristoteles et Beda et 
+      Grego<lb ed="#Bb" break="no"/>rius Nyssenus et Damascenus, liberum
+      <lb ed="#Bb"/>arbitrium est de his que in nobis sunt,
+      <lb ed="#Bb"/>et quorum nosipsi causa sumus agendi
+      <lb ed="#Bb"/>vel non agendi. Et hoc est quod dicit
+      <lb ed="#Bb"/>Damascenus in libro II de Fide 
+      orthodo<lb ed="#Bb" break="no"/>xa, sic: <quote xml:id="Almn78-e29252-Qd1e324"> Gentiles aiunt per astrorum
+        <lb ed="#Bb"/>horum et solis et lune ortum, occasum
+        <lb ed="#Bb"/>et commixtiones omnia dispensari que
+        <lb ed="#Bb"/>apud nos fiunt: circa hoc enim 
+        astrolo<lb ed="#Bb" break="no"/>gia vagatur. Nos autem dicimus, quoniam
+        <lb ed="#Bb"/>signa quidem ex ipsis fiunt imbris et
+        <lb ed="#Bb"/>serenitatis, frigoris et caliditatis, 
+        humi<lb ed="#Bb" break="no"/>ditatis et siccitatis, et ventorum, et 
+        ho<lb ed="#Bb" break="no"/>rum talium : nostrorum autem actuum
+        <lb ed="#Bb"/>nequaquam : nos enim liberi arbitri a
+        <lb ed="#Bb"/>conditore facti, domininostrorum 
+        existi<lb ed="#Bb" break="no"/>mus actuum ?. </quote> Et inducit rationem :
+      <lb ed="#Bb"/>quia si de necessitate ageremus acti ab
+      <lb ed="#Bb"/>astris, actus nostri nec vituperio, nec
+      <lb ed="#Bb"/>laude essent digni, nec premio, nec
+      <lb ed="#Bb"/>peena. Unde signa hee dicuntur 
+      disposi<lb ed="#Bb" break="no"/>tiones astrorum, innuentes aliquid 
+      futu<lb ed="#Bb" break="no"/>rum, et non de necessitate causantes. Et
+      <lb ed="#Bb"/>de hoc Aristoteles in Il de Somno et 
+      vi<lb ed="#Bb" break="no"/>gilia dat pulchrum exemplum, ubi 
+      lo<lb ed="#Bb" break="no"/>quitur de somniis que per signum, et
+      <pb ed="#Bb" n="583"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>non per causam sunt intra nos. Dicit
+      <lb ed="#Bb"/>enim, quod sicut consilia magnorum qui
+      <lb ed="#Bb"/>pluribus intendunt, et ideo his que 
+      pro<lb ed="#Bb" break="no"/>pria sunt singulorum circumspecte 
+      in<lb ed="#Bb" break="no"/>tendere non possunt, se#pe mutantur a
+      <lb ed="#Bb"/>privatis hominibus qui propriis 
+      singulo<lb ed="#Bb" break="no"/>rum magis intendere possunt : ita fit, ut
+      <lb ed="#Bb"/>signa que fiunt ex impressionibus 
+      astro<lb ed="#Bb" break="no"/>rum, et imprimuntur in somniis, sepe
+      <lb ed="#Bb"/>fallant : eo quod mutantur a proximis
+      <lb ed="#Bb"/>causis agentibus in corpora nostra, et 
+      al<lb ed="#Bb" break="no"/>terantibus ea ad alias dispositiones. Et
+      <lb ed="#Bb"/>ideo frequenter fallunt talia signa et tales
+      <lb ed="#Bb"/>visiones, nisi sint visiones vel oracula
+      <lb ed="#Bb"/>divinis revelationibus accepta. Sic ergo
+      <lb ed="#Bb"/>sunt in signa cceli luminaria.
+    </p>
+            <p xml:id="Almn78-e29252-d1e410">
+               <lb ed="#Bb"/>Ad dicta Gregorii super Job. 1x, 9, et
+      <lb ed="#Bb"/>xxxvil, 31, dicendum, quod sicut jam
+      <lb ed="#Bb"/>dictum est, signa sunt et etiam causa,
+      <lb ed="#Bb"/>non de necessitate causantes.
+    </p>
+            <p xml:id="Almn78-e29252-d1e422">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Ad aliud dicendum, quod dicuntur 
+      <lb ed="#Bb"/>esse in tempora, non quod sint causa
+      <lb ed="#Bb"/>temporis secundum substantiam, sed ut
+      <lb ed="#Bb"/>per significatum numeri pluralis signifi-~
+      <lb ed="#Bb"/>cetur distinctio temporis. Unde Glossa
+      <lb ed="#Bb"/>jnterlinearis ibidem, <quote xml:id="Almn78-e29252-Qd1e439"> Ver, estatem,
+        <lb ed="#Bb"/>autumnum, hiemem: hec enim 
+        tem<lb ed="#Bb" break="no"/>pora suo cursu distinguunt luminaria. </quote>
+            </p>
+            <p xml:id="Almn78-e29252-d1e447">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod hoc modo Ad quest.2,
+      <lb ed="#Bb"/>etiam sunt in dies, hoc est, in dierum
+      <lb ed="#Bb"/>distinctiones. Unde Glossa Augustini et
+      <lb ed="#Bb"/>Bede: <quote xml:id="Almn78-e29252-Qd1e457"> Quia priusquam sidera fierent,
+        <lb ed="#Bb"/>ordo temporum aullis notabatur indiciis,
+        <lb ed="#Bb"/>vel meridiana hora, vel qualibet hora. </quote>
+               <lb ed="#Bb"/>Sunt ergo luminaria‘ in signa, et 
+      tem<lb ed="#Bb" break="no"/>pora, ef dies, et annos, non quod a 
+      con<lb ed="#Bb" break="no"/>ditione eorum tempora cceperint vel
+      <lb ed="#Bb"/>dies vel anni, .sed quia per ortus eorum
+      <lb ed="#Bb"/>vel transitus temporum dierum et 
+      anno<lb ed="#Bb" break="no"/>rum signatur ordo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

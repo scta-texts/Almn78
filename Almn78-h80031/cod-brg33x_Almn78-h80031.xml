@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 117</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 117</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="358"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h80031"><!-- p2t18q117 -->
+            <head xml:id="Almn78-h80031-Hd1e106">Quaestio 117</head>
+            <head xml:id="Almn78-h80031-Hd1e109" type="question-title">De invidia</head>
+            <p xml:id="Almn78-h80031-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXVII.
+<lb ed="#Bc"/>De invidia.
+</p>
+            <p xml:id="Almn78-h80031-d1e119">
+               <lb ed="#Bc"/>Post tractalum de superbia que est
+<lb ed="#Bc"/>regina vitiorum, ut dicit Augustinus in
+<lb ed="#Bc"/>libro de Saneta virginitate, tractandum
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>est de invidia, que ejus est pedissequa,
+<lb ed="#Bc"/>ut ibidem dicit.
+  
+<lb ed="#Bc"/>De invidia autem queremus duo in
+<pb ed="#Bc" n="359"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>genere, de invidia secundum se, et de
+<lb ed="#Bc"/>filiabus ejus, quas Gregorius ponit in
+<lb ed="#Bc"/>Glossa super illud Job, xxxix, 25: 
+Ex<lb ed="#Bc" break="no"/>hortationem ducum, et ululatum 
+exer<lb ed="#Bc" break="no"/>citus, ubi ponit exercitum diaboli, et
+<lb ed="#Bc"/>dicit esse detraclionem, et 
+susurra<lb ed="#Bc" break="no"/>tionem, et quasdam alias quas inferius
+<lb ed="#Bc"/>inducemus.
+</p>
+            <div xml:id="Almn78-h80031-Dd1e158">
+               <head xml:id="Almn78-h80031-Hd1e160">Membrum 1</head>
+               <head xml:id="Almn78-h80031-Hd1e163" type="question-title">De invidia secundum se</head>
+               <p xml:id="Almn78-h80031-d1e166">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De invidia secundum se.
+</p>
+               <p xml:id="Almn78-h80031-d1e173">
+                  <lb ed="#Bc"/>De invidia secundum se queremus
+<lb ed="#Bc"/>quatuor.
+<lb ed="#Bc"/>Primo, Quid sit ?
+<lb ed="#Bc"/>Secundo, An semper sit mortale pec- .
+<lb ed="#Bc"/>catum, vel aliquando veniale ?
+<lb ed="#Bc"/>Tertio, Quomodo sit peccatum 
+capi<lb ed="#Bc" break="no"/>tale ?
+<lb ed="#Bc"/>Et quarto, Quomodo ex ipsa oriuntur
+<lb ed="#Bc"/>filiae ?
+</p>
+               <div xml:id="Almn78-h80031-Dd1e195">
+                  <head xml:id="Almn78-h80031-Hd1e197">Articulus 1</head>
+                  <head xml:id="Almn78-h80031-Hd1e200" type="question-title">
+          Quid sit invidia ?
+        </head>
+                  <p xml:id="Almn78-h80031-d1e203">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Quid sit invidia ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e212">
+                     <lb ed="#Bc"/>Quaeritur ergo primo, Quid sit 
+invi<lb ed="#Bc" break="no"/>dia ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e219">
+                     <lb ed="#Bc"/>1. Joan Damascenus in libro III de
+<lb ed="#Bc"/>Fide orthodoxa dicit, quod <quote xml:id="Almn78-h80031-Qd1e225"> invidia est
+<lb ed="#Bc"/>tristitia de alienis bonis. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e232">
+                     <lb ed="#Bc"/>2. Adhuc, Augustinus super illud
+<lb ed="#Bc"/>Psalmi crv, 25: Convertit cor eorum, ut
+<lb ed="#Bc"/>odirent populum ejus, diffinit sic: <quote xml:id="Almn78-h80031-Qd1e240"> 
+In<lb ed="#Bc" break="no"/>vidia est odium felicitatis aliens. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e246">
+                     <lb ed="#Bc"/>3. Adhuc, Remigius sic diffinit eam :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h80031-Qd1e252"> Invidia est dolor de alieno bono. </quote>
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Et opsicirur contra istas sic:
+<lb ed="#Bc"/>1. Definitio et nomen ad idem 
+referun<lb ed="#Bc" break="no"/>tur. Invidia autem dicit privationem in
+<lb ed="#Bc"/>usu rationis, que est potentia rationalis.
+<lb ed="#Bc"/>Ergo deberet diffiniri vel per habitum
+<lb ed="#Bc"/>vel per actum rationalis potentie : dolor
+<lb ed="#Bc"/>autem et odium sunt potentiae irascibilis:
+<lb ed="#Bc"/>ergo male diffinitur vel per dolorem vel
+<lb ed="#Bc"/>per odium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e278">
+                     <lb ed="#Bc"/>2. Adhuc, Odium, ut dicit Gregorius,
+<lb ed="#Bc"/>est inveterata ira: hoc autem magis 
+per<lb ed="#Bc" break="no"/>tinet ad iram, quam ad invidiam: ergo
+<lb ed="#Bc"/>male ponitur in definitione ejus odium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e289">
+                     <lb ed="#Bc"/>3. Adhuc, Aristoteles in II et ITT 
+2thz<lb ed="#Bc" break="no"/>corum dicit, quod nemesis et invidia 
+op<lb ed="#Bc" break="no"/>ponuntur. Nemesis autem est tristitia in
+<lb ed="#Bc"/>malorum prosperitatibus. Invidia vero
+<lb ed="#Bc"/>in prosperitatibus bonorum est tristitia.
+<lb ed="#Bc"/>Deberet ergo definiri per tristitiam, et
+<lb ed="#Bc"/>non per odium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e307">
+                     <lb ed="#Bc"/>4. Adhuc, Seneca ad Lucillum: <quote xml:id="Almn78-h80031-Qd1e311"> Cum
+<lb ed="#Bc"/>ea ingeruntur oculis que mens refugit,
+<lb ed="#Bc"/>cum dolore videntur. Cum vero 
+inge<lb ed="#Bc" break="no"/>runtur que mens appetit, videntur cum
+<lb ed="#Bc"/>gaudio. </quote> Ergo videtur, quod invidia
+<lb ed="#Bc"/>definiatur per tristiliam et gaudium que
+<lb ed="#Bc"/>sunt affectiones opposite : et hoc est
+<lb ed="#Bc"/>impossibile : quia opposita in uno non
+<lb ed="#Bc"/>conveniunt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e332">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod in invidia
+<lb ed="#Bc"/>duo sunt. Unum per comparationem ad
+<lb ed="#Bc"/>subjectum in quo est. Aliud per 
+compa<lb ed="#Bc" break="no"/>rationem ad objectum de quo est, quod,
+<lb ed="#Bc"/>est motivum ejus ad actum: quia, sicut
+<lb ed="#Bc"/>dicit Philosophus, actus sunt previil 
+po<lb ed="#Bc" break="no"/>tentiis, et objecta actibus secundum 
+ra<lb ed="#Bc" break="no"/>tionem. Unde per comparationem ad
+<lb ed="#Bc"/>subjectum in duplici genere ponitur,
+<lb ed="#Bc"/>propter diversa objecta que causant 
+di<lb ed="#Bc" break="no"/>versas affectiones. Bonum enim in 
+invi<lb ed="#Bc" break="no"/>dia, est causa doloris et odii in proximo:
+<lb ed="#Bc"/>malum autem visum in proximo, est
+<lb ed="#Bc"/>causa gaudii et amoris. Invidus enim
+<lb ed="#Bc"/>amat malum proximi. Opposita enim
+<lb ed="#Bc"/>objecta oppositarum affectionum sunt
+<lb ed="#Bc"/>causa. Unde propter odium felicitatis
+<lb ed="#Bc"/>proximi, necesse est, quod per odium
+<lb ed="#Bc"/>definiatur et tristiliam : et propter gau
+<pb ed="#Bc" n="360"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>dium adversitatis, necesse est, quod
+<lb ed="#Bc"/>gaudium in definitione ponatur: quia
+<lb ed="#Bc"/>aliter non dicere(ur totum quod est in
+<lb ed="#Bc"/>invidia: quia, sicut dicit Aristoteles in
+<lb ed="#Bc"/>Topicis et Ethicis, <quote xml:id="Almn78-h80031-Qd1e390"> Sicut ejusdem 
+mo<lb ed="#Bc" break="no"/>ris est amicis benefacere, et inimicis
+<lb ed="#Bc"/>male: ita ejusdem moris est gaudere de
+<lb ed="#Bc"/>bono proximi, et tristari de malo, et 
+gau<lb ed="#Bc" break="no"/>dere de malis et tristari de bonis. </quote> Et
+<lb ed="#Bc"/>propter hoc etiam vitium vocatur, quia
+<lb ed="#Bc"/>bonum morem vitiat.
+</p>
+                  <p xml:id="Almn78-h80031-d1e407">
+                     <lb ed="#Bc"/>Dicendum ergo, quod definitiones 
+in<lb ed="#Bc" break="no"/>duct a Sanctis bone sunt, licet in 
+du<lb ed="#Bc" break="no"/>plici genere affectionum ponant 
+invi<lb ed="#Bc" break="no"/>diam, propter causam que dicta est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e418">
+                     <lb ed="#Bc"/>Ab pRiMuM ergo quo dicitur, quod 
+in<lb ed="#Bc" break="no"/>vidia dicit privationem usus in ralione,
+<lb ed="#Bc"/>dicendum quod hoc verum est secundum
+<lb ed="#Bc"/>Bernardum, quod invidia est quasi intus
+<lb ed="#Bc"/>vidia: pervidet hoc quod videt: et hic
+<lb ed="#Bc"/>est actus ejus quasi preambulus ad
+<lb ed="#Bc"/>actum motum. Sicut dicitur tertio 
+capi<lb ed="#Bc" break="no"/>tulo de Anima, de movente quod in 
+om<lb ed="#Bc" break="no"/>nibus motivis actus cognitive faciens
+<lb ed="#Bc"/>signum de motu, precedit et excitat 
+mo<lb ed="#Bc" break="no"/>tum ad actum: et sic ingestum bonum
+<lb ed="#Bc"/>cognitive invidorum, causa est doloris et
+<lb ed="#Bc"/>odii in invido.
+</p>
+                  <p xml:id="Almn78-h80031-d1e449">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod ad 
+utrum<lb ed="#Bc" break="no"/>que potest pertinere diversis rationibus :
+<lb ed="#Bc"/>ad iram scilicet, secundum quod odium
+<lb ed="#Bc"/>est inveterata ira in proximum et 
+appeti<lb ed="#Bc" break="no"/>tus vindicte : ad invidiam autem, 
+se<lb ed="#Bc" break="no"/>cundum quod est aversio oculi 
+benepla<lb ed="#Bc" break="no"/>citi a bono proximi, et conversio oculi
+<lb ed="#Bc"/>displicentie ad bonum proximi.
+</p>
+                  <p xml:id="Almn78-h80031-d1e469">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod diffinitur
+<lb ed="#Bc"/>per odium et tristitiam: quia odium in
+<lb ed="#Bc"/>talibus causa tristitia est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e478">
+                     <lb ed="#Bc"/>Ad urtimum dicendum, quod Seneca
+<lb ed="#Bc"/>verum dicit. Et quod dicitur, quod 
+oppo<lb ed="#Bc" break="no"/>silain uno non conveniunt, intelligitur
+<lb ed="#Bc"/>de formaliter oppositis, sicut album et 
+ni<lb ed="#Bc" break="no"/>grum : sed de affectionibus oppositis non
+<lb ed="#Bc"/>est verum quando causantur ex oppositis
+<lb ed="#Bc"/>objectis : tune enim in eodem sunt, et
+<lb ed="#Bc"/>ad eumdem motum referuntur 
+secun<lb ed="#Bc" break="no"/>dum doctrinam Philosophorum. Unum
+<lb ed="#Bc"/>enim sequitur ad aliud: quia gaudere
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>de malo proximi, sequitur tristari de
+<lb ed="#Bc"/>bono, et e converso, quia aliter opposila
+<lb ed="#Bc"/>objecta non essent cause opposilarum
+<lb ed="#Bc"/>affectionum.
+</p>
+               </div>
+               <div xml:id="Almn78-h80031-Dd1e515">
+                  <head xml:id="Almn78-h80031-Hd1e517">Articulus 2</head>
+                  <head xml:id="Almn78-h80031-Hd1e520" type="question-title">
+          Utrum invidia sit semper mortale 
+          peccatum, vel aliquando veniale ?
+        </head>
+                  <p xml:id="Almn78-h80031-d1e523">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Utrum invidia sit semper mortale 
+pec<lb ed="#Bc" break="no"/>catum, vel aliquando veniale ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e534">
+                     <lb ed="#Bc"/>Secundo queritur, Utrum invidia sit
+<lb ed="#Bc"/>semper mortale peccatum, vel aliquando
+<lb ed="#Bc"/>veniale ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e543">
+                     <lb ed="#Bc"/>Et videtur, quod semper sit mortale.
+<lb ed="#Bc"/>1. Dicitur enim, Matth. xxu, 39: 
+Dili<lb ed="#Bc" break="no"/>ges proximum tuum sicut teipsum. Et
+<lb ed="#Bc"/>contra haec directe venit invidia, que est
+<lb ed="#Bc"/>odium sive dolor felicitatis proximi. 
+Ve<lb ed="#Bc" break="no"/>nire contra preceptum semper est 
+mor<lb ed="#Bc" break="no"/>tale peccatum, et maxime contra istud
+<lb ed="#Bc"/>preceptum de quo dicitur, Matth. xxu, 37
+<lb ed="#Bc"/>et seq.: Diliges Dominum Deum tuum
+<lb ed="#Bc"/>ex toto corde tuo, et in tota anima tua, et
+<lb ed="#Bc"/>in tota mente tua, Hoe est maximum et
+<lb ed="#Bc"/>primum mandatum. Secundum autem
+<lb ed="#Bc"/>simile esthuic: Diliges proximum tuum
+<lb ed="#Bc"/>sieut teipsum. Ergo invidia semper est
+<lb ed="#Bc"/>mortale peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e579">
+                     <lb ed="#Bc"/>2. Adhuc, Apostolus, I ad Corinth.
+<lb ed="#Bc"/>xu, 4: Charitas non emulatur. Glossa,
+<lb ed="#Bc"/>hoc est, non invidet. Ergo invidia venit
+<lb ed="#Bc"/>contra charitatem: venire contra 
+chari<lb ed="#Bc" break="no"/>tatem semper est mortale peccatum :
+<lb ed="#Bc"/>ergo videtur, quod invidia semper sit
+<lb ed="#Bc"/>mortale peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e597">
+                     <lb ed="#Bc"/>3. Adhuc, Proverb. xiv, 30: Putredo
+<lb ed="#Bc"/>ossium invidia, Glossa: <quote xml:id="Almn78-h80031-Qd1e603"> Vult, quod
+<lb ed="#Bc"/>per ossa significentur virtutes. </quote> Ergo
+<lb ed="#Bc"/>invidia destruit virtutes : quidquid 
+de<lb ed="#Bc" break="no"/>struit virtutes, mortale peccatum est:
+<lb ed="#Bc"/>ergo invidia semper mortale peccatum
+<lb ed="#Bc"/>est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e618">
+                     <pb ed="#Bc" n="361"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>4. Adhuc, Sapient. n, 24 et 33: 
+Invi<lb ed="#Bc" break="no"/>dia diaboli mors introwvit in orbem 
+terra<lb ed="#Bc" break="no"/>rum : imitantur autem illum qui sunt
+<lb ed="#Bc"/>ex parte illius, id est, ex parte invidiz.
+<lb ed="#Bc"/>Imitari diabolum, mortale peccatum est.
+<lb ed="#Bc"/>Ergo invidia semper mortale peccatum
+<lb ed="#Bc"/>est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e640">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus et Damascenus dicunt,
+<lb ed="#Bc"/>quod invidia est tristitia de felicitate
+<lb ed="#Bc"/>proximi: tristitia passio est et pcena:
+<lb ed="#Bc"/>ergo invidia passio est vel pcena: sed
+<lb ed="#Bc"/>nec passionibus nec pcenis meremur nec
+<lb ed="#Bc"/>demeremur, cum jnvoluntaria fiant, et
+<lb ed="#Bc"/>omne peccatum cst ita voluntarium,
+<lb ed="#Bc"/>quod sinon sit voluntarium, non est
+<lb ed="#Bc"/>peccatum, sicut dicit Augustinus: et ita
+<lb ed="#Bc"/>videtur, quod invidia non sit peccatum,
+<lb ed="#Bc"/>cum ponatur in genere passionis.
+</p>
+                  <p xml:id="Almn78-h80031-d1e669">
+                     <lb ed="#Bc"/>2. Adhuc, Seneca ad Lucillum : <quote xml:id="Almn78-h80031-Qd1e673"> 
+Ne<lb ed="#Bc" break="no"/>quitia que est invidia, sui pcena est.
+<lb ed="#Bc"/>Quanta enim sunt gaudia felicium, tanti
+<lb ed="#Bc"/>sunt gemitus invidentium. </quote> Et ideo 
+di<lb ed="#Bc" break="no"/>cit, quod vellet oculos invidorum esse in
+<lb ed="#Bc"/>toto mundo, ut ubique conspectis 
+gau<lb ed="#Bc" break="no"/>diis felictum, semper torquerentur. Ad
+<lb ed="#Bc"/>hoe facit illud Horatii:
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h80031-Qd1e693">Invidia Siculi non invenere tyranni
+<lb ed="#Bc"/>Majus tormentum.</quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e699">
+                     <lb ed="#Bc"/>Tormentum pcena est involuntaria.
+<lb ed="#Bc"/>Sed nullum peccatum involuntarium.
+<lb ed="#Bc"/>Ergo invidia non est peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e709">
+                     <lb ed="#Bc"/>3. Adhuc, Videtur quod non sit 
+sem<lb ed="#Bc" break="no"/>per mortale peccatum, sed aliquando 
+ve<lb ed="#Bc" break="no"/>niale: quia sicut in aliis peccatis sunt
+<lb ed="#Bc"/>primi motus, ita et in invidia, et primi
+<lb ed="#Bc"/>motus non sunt mortalia peccata, quia ex
+<lb ed="#Bc"/>subreptione surgunt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e725">
+                     <lb ed="#Bc"/>4, Adhuc, In omni peccato mortali est
+<lb ed="#Bc"/>aversio a bono incommutabili, et 
+con<lb ed="#Bc" break="no"/>versio ad bonum commutabile: in 
+invi<lb ed="#Bc" break="no"/>dia non videtur bonum commutabile ad
+<lb ed="#Bc"/>quod convertatur : ergo videtur, quod 
+in<lb ed="#Bc" break="no"/>vidia nec sit mortale, nec veniale 
+pecca<lb ed="#Bc" break="no"/>tum,
+</p>
+                  <p xml:id="Almn78-h80031-d1e743">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod invidia 
+sem<lb ed="#Bc" break="no"/>per est peccatum, et aliquando veniale,
+<lb ed="#Bc"/>et aliquando mortale, sicut objectum est.
+<lb ed="#Bc"/>Qualiter autem sit in genere passionis
+<lb ed="#Bc"/>vel pene, in precedenti articulo 
+que<lb ed="#Bc" break="no"/>stionis satis determinatum est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e761">
+                     <lb ed="#Bc"/>Ad hoc autem quod objicitur, quod
+<lb ed="#Bc"/>passionibus vel penis non meremur,
+<lb ed="#Bc"/>quia involuntaria sunt, dicendum quod
+<lb ed="#Bc"/>hoc est verum in quantum involuntaria
+<lb ed="#Bc"/>sunt. In quantum autem virtus est in 
+ra<lb ed="#Bc" break="no"/>tionabili ordine passionum et pcenarum,
+<lb ed="#Bc"/>est falsum : quia tunc passionibus et
+<lb ed="#Bc"/>penis meremur et demeremur in 
+cor<lb ed="#Bc" break="no"/>ruptione talis ordinis.
+</p>
+                  <p xml:id="Almn78-h80031-d1e783">
+                     <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+ve<lb ed="#Bc" break="no"/>nire contra preceplum ex deliberatione
+<lb ed="#Bc"/>et consensu, semper est mortale 
+pecca<lb ed="#Bc" break="no"/>tum, sed ex subreptione et ex primo
+<lb ed="#Bc"/>motu non semper: hoc enim non est
+<lb ed="#Bc"/>conira preceptum, sed preter 
+prece<lb ed="#Bc" break="no"/>ptum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e801">
+                     <lb ed="#Bc"/>Eonem modo respondendum est ad 
+se<lb ed="#Bc" break="no"/>quens : quia primo motu non venit 
+ali<lb ed="#Bc" break="no"/>quis contra charitatem, sed preter 
+chari<lb ed="#Bc" break="no"/>tatem facit.
+</p>
+                  <p xml:id="Almn78-h80031-d1e813">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod invidia non
+<lb ed="#Bc"/>semper est putredo ossium, hoc est, 
+vir<lb ed="#Bc" break="no"/>tutum : sed quando est ex deliberato
+<lb ed="#Bc"/>consensu cum actu susurrationis, vel 
+de<lb ed="#Bc" break="no"/>tractionis, vel alterius impedimenti, quo
+<lb ed="#Bc"/>impeditur bonum proximi: tune enim
+<lb ed="#Bc"/>corrumpit virtutes.
+</p>
+                  <p xml:id="Almn78-h80031-d1e831">
+                     <lb ed="#Bc"/>Eovem modo dicendum est ad 
+se<lb ed="#Bc" break="no"/>quens: quia non imitantur diabolum in
+<lb ed="#Bc"/>quibus est primus motus subreptionis :
+<lb ed="#Bc"/>sed qui ex consensu et voluntarie 
+impe<lb ed="#Bc" break="no"/>diunt bonum proximi, et gaudent de
+<lb ed="#Bc"/>malo, illi imitantur diabolum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e847">
+                     <lb ed="#Bc"/>Ad puo sequentia objecta que sunt in
+<lb ed="#Bc"/>contrarium, dicendum quod jam soluta
+<lb ed="#Bc"/>sunt per distinctionem que paulo ante
+<lb ed="#Bc"/>ponitur in hujus articuli determinatione,
+</p>
+                  <p xml:id="Almn78-h80031-d1e858">
+                     <lb ed="#Bc"/>Ab 1p quod objicitur, quod non 
+sem<lb ed="#Bc" break="no"/>per sit mortale, sed aliquando veniale,
+<lb ed="#Bc"/>dicendum quod concedendum est, et
+<lb ed="#Bc"/>procedit, sicut dictum est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e869">
+                     <lb ed="#Bc"/>Ad vuntimom dicendum sicut dicitur in
+<lb ed="#Bc"/>Glossa Gregorii super Job, v, 2: Parvu-
+  <pb ed="#Bc" n="362"/>
+                     <cb ed="#Ba" n="a"/>
+                     <!-- left off -->
+                     <lb ed="#Bc"/>lum occidit invidia : <quote xml:id="Almn78-h80031-Qd1e884"> Nisi parvulus esset,
+<lb ed="#Bc"/>non timeret equalem sibi preferri, et
+<lb ed="#Bc"/>minorem sibi parificari. </quote> Unde omnis
+<lb ed="#Bc"/>invidus propter hoc invidus est quia 
+de<lb ed="#Bc" break="no"/>lectatur in sui excellentia: et hoc est
+<lb ed="#Bc"/>commutabile bonum ad quod 
+converti<lb ed="#Bc" break="no"/>tur, et timet alium sibi preferri vel
+<lb ed="#Bc"/>equari. Et propter hoc dicit Augustinus,
+<lb ed="#Bc"/>quod individua pedissequa regine 
+super<lb ed="#Bc" break="no"/>bie, est invidia.
+</p>
+               </div>
+               <div xml:id="Almn78-h80031-Dd1e908">
+                  <head xml:id="Almn78-h80031-Hd1e910">Articulus 3</head>
+                  <head xml:id="Almn78-h80031-Hd1e913" type="question-title">
+          Quomodo invidia sit peccatum capitale?
+          et Quomodo ex ipsa oriuntur filiae ?
+        </head>
+                  <p xml:id="Almn78-h80031-d1e916">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS III.
+<lb ed="#Bc"/>Quomodo invidia sit peccatum capitale?
+<lb ed="#Bc"/>et Quomodo ex ipsa oriuntur filiae ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e927">
+                     <lb ed="#Bc"/>Tertio queritur, Quomodo invidia sit
+<lb ed="#Bc"/>peccatum capitale? et, Quomodo ex ipsa
+<lb ed="#Bc"/>oriuntur filie ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e936">
+                     <lb ed="#Bc"/>1. Quod sit capitale, probatur per 
+Gre<lb ed="#Bc" break="no"/>gorium in Job, xxx1, 1 et seq., ubi dicit
+<lb ed="#Bc"/>septem esse capitalia, ex quibus alia
+<lb ed="#Bc"/>oriuntur, inter que numeratur invidia:
+<lb ed="#Bc"/>ergo invidia est capitale peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e950">
+                     <lb ed="#Bc"/>2. Adhuc, Super illud Threnorum, u1,
+<lb ed="#Bc"/>Tet9: Cireumedificavit adversum me,
+<lb ed="#Bc"/>ut non egrediar... Conclusit vias meus
+<lb ed="#Bc"/>lapidibus quadris, dicit Paschasius,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h80031-Qd1e963"> quatuor sunt prime affectiones
+<lb ed="#Bc"/>sive passiones animi, scilicet spes, timor,
+<lb ed="#Bc"/>gaudium, et tristitia, quibus diabolus
+<lb ed="#Bc"/>concludit vias hominum ut de peccatis
+<lb ed="#Bc"/>non egrediantur. </quote> Et una illarum est
+<lb ed="#Bc"/>tristitia, ut dictam est, circa quam est
+<lb ed="#Bc"/>invidia, quia est tristitia de bono proximi.
+<lb ed="#Bc"/>Cum ergo sit circa unam de primis 
+affe<lb ed="#Bc" break="no"/>ctionibus, videtur esse capitale vitium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e983">
+                     <lb ed="#Bc"/>3. Adhuc, Amor de bonis proximi
+<lb ed="#Bc"/>charitas est, que precipua virtutum et
+<lb ed="#Bc"/>omnis boni mater et caput est. Gum ergo
+<lb ed="#Bc"/>opposita sint circa idem, dolor de bono
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>proximi erit capitale peccatum, mater et
+<lb ed="#Bc"/>caput vitiorum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1001">
+                     <lb ed="#Bc"/>Contra:
+<lb ed="#Bc"/>Dicit Gregorius, quod <quote xml:id="Almn78-h80031-Qd1e1007"> ex amore 
+pro<lb ed="#Bc" break="no"/>prie excellenti@ nascitur invidia 
+felicita<lb ed="#Bc" break="no"/>tis aliene, dum timet eam sibi parificari
+<lb ed="#Bc"/>vel preferri. </quote> Ergo videtur, quod 
+invi<lb ed="#Bc" break="no"/>dia sit filia superbiw et non capitale 
+vi<lb ed="#Bc" break="no"/>tium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1021">
+                     <lb ed="#Bc"/>Sotutto. Dicendum, quod invidia 
+ca<lb ed="#Bc" break="no"/>pitale vitium est ex quo oriuntur alia,
+<lb ed="#Bc"/>sicut dicit Gregorius, detractio, 
+susurra<lb ed="#Bc" break="no"/>tio, emulatio, et etiam zelus quando
+<lb ed="#Bc"/>aliquis zelat malum alterius. Unde super
+<lb ed="#Bc"/>illud Psalmi xxxvi, 1: Noli emulari in
+<lb ed="#Bc"/>malignantibus, neque selaveris facientes
+<lb ed="#Bc"/>iniguitatem : in Glossa, <quote xml:id="Almn78-h80031-Qd1e1040"> “mulari, hoc
+<lb ed="#Bc"/>est, invidere. Et zelare est amare malum
+<lb ed="#Bc"/>proximi. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e1048">
+                     <lb ed="#Bc"/>Unde objectiones inducte ad 
+proban<lb ed="#Bc" break="no"/>dum hoc, procedunt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1055">
+                     <lb ed="#Bc"/>Ad id quod contra objicitur, scilicet
+<lb ed="#Bc"/>quod sit filia superbiz, dicendum quod
+<lb ed="#Bc"/>non est directe filia superbie, sed 
+pe<lb ed="#Bc" break="no"/>dissequa ejus, ut dicit Augustinus: quia
+<lb ed="#Bc"/>semper sequitur superbiam sicut 
+pedis<lb ed="#Bc" break="no"/>sequa dominam. Sicut enim dictum est,
+<lb ed="#Bc"/>superbia est amor proprie excellentia :
+<lb ed="#Bc"/>et invidus propter hoc est invidus et 
+do<lb ed="#Bc" break="no"/>let de aliena felicitate, quia requiescit in
+<lb ed="#Bc"/>propria excellentia, timens ne alius sibi
+<lb ed="#Bc"/>in hoc parificetur.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-h80031-Dd1e1084">
+               <head xml:id="Almn78-h80031-Hd1e1086">Membrum 2</head>
+               <head xml:id="Almn78-h80031-Hd1e1089" type="question-title">De filiabus invidiae</head>
+               <p xml:id="Almn78-h80031-d1e1092">
+                  <lb ed="#Bc"/>MEMBRUM IT.
+<lb ed="#Bc"/>De filiabus invidiae ?
+</p>
+               <p xml:id="Almn78-h80031-d1e1099">
+                  <lb ed="#Bc"/>Deinde, Queritur de filiabus invidie,
+<lb ed="#Bc"/>que sunt, ut dicit Gregorius, detractio,
+<lb ed="#Bc"/>susurratio, emulatio, et zelus.
+</p>
+               <p xml:id="Almn78-h80031-d1e1108">
+                  <lb ed="#Bc"/>Et queritur primo de  detractione,
+<lb ed="#Bc"/>primo quid sit?
+<lb ed="#Bc"/>Secundo, An sit semper peccatum
+<lb ed="#Bc"/>mortale vel aliquando veniale?
+<pb ed="#Bc" n="363"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Tertio, In quo differt a susurratione?
+<lb ed="#Bc"/>Quarto, Utrum detractor tenetur ad
+<lb ed="#Bc"/>restitutionem fame ejus cui detraxit ?
+<lb ed="#Bc"/>Denique, De emulatione, quid sit, et
+<lb ed="#Bc"/>quomodo differat ab invidia ?
+</p>
+               <div xml:id="Almn78-h80031-Dd1e1135">
+                  <head xml:id="Almn78-h80031-Hd1e1137">Articulus 1</head>
+                  <head xml:id="Almn78-h80031-Hd1e1140" type="question-title">
+          Quid sit detractio ?
+        </head>
+                  <p xml:id="Almn78-h80031-d1e1143">
+                     <lb ed="#Bc"/>MEMBRT SECUNDI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Quid sit detractio ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1152">
+                     <lb ed="#Bc"/>Primo ergo queritur, Quid sit 
+detra<lb ed="#Bc" break="no"/>ctio?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1159">
+                     <lb ed="#Bc"/>Et dicitur, quod detractio est aliene
+<lb ed="#Bc"/>fame denigratio.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1167">
+                     <lb ed="#Bc"/>Vel sic, Detrahere est absentem 
+pro<lb ed="#Bc" break="no"/>ximum dolose mordere.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1174">
+                     <lb ed="#Bc"/>Neutra harum definitionum
+<lb ed="#Bc"/>convenire.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1181">
+                     <lb ed="#Bc"/>1. Contingit enim detrahere peccatori
+<lb ed="#Bc"/>qui non habet famam.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1188">
+                     <lb ed="#Bc"/>2. Et contingit detrahere terre, sicut
+<lb ed="#Bc"/>dicitur, Numer. xu, 26 et seg., quod
+<lb ed="#Bc"/>exploratores missi a filiis Israel, 
+detra<lb ed="#Bc" break="no"/>xerunt terre promissionis: et ideo non
+<lb ed="#Bc"/>intraverunt in eam. Unde non est 
+detra<lb ed="#Bc" break="no"/>ctio hominum tantum, imo aliarum 
+re<lb ed="#Bc" break="no"/>rum. Et, Job, vi, 25: Quare detrazistis
+<lb ed="#Bc"/>sermonibus veritatis ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1208">
+                     <lb ed="#Bc"/>3. Adhuc, Definitio non respondet rei
+<lb ed="#Bc"/>definite : quia detrahere est de summa
+<lb ed="#Bc"/>alicujus aliquid deponere: et hoc multis
+<lb ed="#Bc"/>modis aliis potest fieri sine denigratione
+<lb ed="#Bc"/>fame.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1221">
+                     <lb ed="#Bc"/>4, Adhuc, Occultum et apertum non
+<lb ed="#Bc"/>differunt nisi per accidens : sed susurrum
+<lb ed="#Bc"/>est delatio occulta, detractio delatio
+<lb ed="#Bc"/>aperta : ergo videtur, quod non differant
+<lb ed="#Bc"/>nisi secundum accidens per occultum -et
+<lb ed="#Bc"/>apertum: et sic non erunt due filiae 
+in<lb ed="#Bc" break="no"/>vidie, sed una geminata per accidens,
+</p>
+                  <p xml:id="Almn78-h80031-d1e1240">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>5. Adhuc, Omne peccatum contra 
+ali<lb ed="#Bc" break="no"/>quod preceptum est: quia peccatum est
+<lb ed="#Bc"/>dictum vel factum vel concupitum 
+con<lb ed="#Bc" break="no"/>tra legem Dei, ul dicit Augustinus. Et
+<lb ed="#Bc"/>videtur, quod susurratio et detractio sint
+<lb ed="#Bc"/>contra idem preceptum: et hoc est, Non
+<lb ed="#Bc"/>maledices surdo*. Absens enim surdus
+<lb ed="#Bc"/>reputatur, eo quod non audit ut 
+contra<lb ed="#Bc" break="no"/>dicat. Et sic susurratio et detractio (cum
+<lb ed="#Bc"/>sint contra idem preeceptum) sunt 
+pecca<lb ed="#Bc" break="no"/>tum unum, et non duz filia, quod est
+<lb ed="#Bc"/>contra Gregorium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1271">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Ad Roman. 1, 29 et 30, ubi Apostolus
+<lb ed="#Bc"/>enumerat susurrationem et detractionem
+<lb ed="#Bc"/>dicens : Suserrones, detractores, Deo 
+odi<lb ed="#Bc" break="no"/>biles: ubi pro diversis peccatis 
+nume<lb ed="#Bc" break="no"/>rantur. Ergo non sunt unum peccatum,
+<lb ed="#Bc"/>sed. diversa.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1289">
+                     <lb ed="#Bc"/>Apuvc, Ratione ejus quod dicitur, 
+Le<lb ed="#Bc" break="no"/>vit. xix, 16 et 18: Non eris criminator,
+<lb ed="#Bc"/>nec susurro in populo... Nec memor eris
+<lb ed="#Bc"/>injurie civium tuorum, queritur, In
+<lb ed="#Bc"/>quo differant ista tria, et utrum detractor
+<lb ed="#Bc"/>sit criminator?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1305">
+                     <lb ed="#Bc"/>Et videtur, quod sic: quia nullus 
+pot<lb ed="#Bc" break="no"/>est denigrare famam alterius, nisi 
+impo<lb ed="#Bc" break="no"/>nat ei crimina: et sic videtur, quod 
+de<lb ed="#Bc" break="no"/>tractor sit criminator.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1316">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod definitiones
+<lb ed="#Bc"/>bone sunt ad minus ad describendum
+<lb ed="#Bc"/>detractionem : et tales definitiones 
+suf<lb ed="#Bc" break="no"/>ficientes sunt in moralibus, ubi non 
+re<lb ed="#Bc" break="no"/>quiruntur principia essentialia, sed 
+tan<lb ed="#Bc" break="no"/>tum accidentalia, per que cognoscuntur
+<lb ed="#Bc"/>mores: et ideo satis dictum: est, quod
+<lb ed="#Bc"/>detractio est alienw fame diminutio.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1336">
+                     <lb ed="#Bc"/>Ad id quod primo objicitur, quod
+<lb ed="#Bc"/>peccator non habet famam, dicendum
+<lb ed="#Bc"/>quod licet non habeat famam generalem
+<lb ed="#Bc"/>virtutis, tamen in omni peccatore est
+<lb ed="#Bc"/>aliquod bonum quod contingit denigrari
+<lb ed="#Bc"/>vel diminui lingua detrahentis.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1353">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod detractatio
+<lb ed="#Bc"/>terre redundatin eum qui terram pro
+<pb ed="#Bc" n="364"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>misit, quasi verax non fuerit. Similiter
+<lb ed="#Bc"/>detractio sermonum redundat in eum qui
+<lb ed="#Bc"/>dixit sermones, quasi verax non fuerit.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1371">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod definitio 
+re<lb ed="#Bc" break="no"/>spondet nomini: quia detractio deponit
+<lb ed="#Bc"/>aliquid de summa fame et laudis ejus
+<lb ed="#Bc"/>eul detrahitur.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1382">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod due filie
+<lb ed="#Bc"/>sunt invidie et diversa peccata. 
+Detra<lb ed="#Bc" break="no"/>ctor enim plus nocet, quia in plures in+
+<lb ed="#Bc"/>fundit venenum sue detractionis : 
+susur<lb ed="#Bc" break="no"/>ro autem minus, quia in pauciores
+<lb ed="#Bc"/>diffundit et occulte: uterque tamen 
+no<lb ed="#Bc" break="no"/>cet, sed non equaliter.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1400">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod licet contra
+<lb ed="#Bc"/>unum preceptum sunt, tamen  plura
+<lb ed="#Bc"/>peccata sunt, quia diverse malitie sunt.
+<lb ed="#Bc"/>Dicit enim Augustinus, quod malum 
+di<lb ed="#Bc" break="no"/>citur peccatum quia adimit : publica 
+au<lb ed="#Bc" break="no"/>tem fama majus bonum est que adimitur
+<lb ed="#Bc"/>per detractionem, quam privala que
+<lb ed="#Bc"/>adimitur per occultam susurrationem. Et
+<lb ed="#Bc"/>hoe est quod dicitur, Eccle. x, 11: Si
+<lb ed="#Bc"/>mordeat serpens in silentio, nihil eo 
+mi<lb ed="#Bc" break="no"/>nus habet qui occulte detrahit. Propter
+<lb ed="#Bc"/>quod etiam serpentes dicuntur: quia
+<lb ed="#Bc"/>per linguam sicut serpens venena 
+diffun<lb ed="#Bc" break="no"/>dunt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1433">
+                     <lb ed="#Bc"/>Av wiup quod objicitur de epistola
+<lb ed="#Bc"/>ad Romanos, dicendum quod 
+conceden<lb ed="#Bc" break="no"/>dum est: quia diversa peccata sunt, ut
+<lb ed="#Bc"/>dictum est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1444">
+                     <lb ed="#Bc"/>Av 1 quod ultimo objicitur, dicendum
+<lb ed="#Bc"/>quod detractor non est criminator: quia
+<lb ed="#Bc"/>criminator tantum est impositor 
+crimi<lb ed="#Bc" break="no"/>num: detractor autem quatuor modis
+<lb ed="#Bc"/>detrahit, scilicet malum quod non est
+<lb ed="#Bc"/>aliquando imponendo, et malum quod
+<lb ed="#Bc"/>est in alios diffamando, et bonum quod
+<lb ed="#Bc"/>est vel negando, vel diminuendo : his
+<lb ed="#Bc"/>enim detrahitur fama proximi: et ista
+<lb ed="#Bc"/>distinctio est Hesychii super Leviticum.
+</p>
+               </div>
+               <div xml:id="Almn78-h80031-Dd1e1469">
+                  <head xml:id="Almn78-h80031-Hd1e1471">Articulus 2</head>
+                  <head xml:id="Almn78-h80031-Hd1e1474" type="question-title">
+          Utrum detractio semper sit mortale 
+          peccatum, vel aliquando veniale
+        </head>
+                  <p xml:id="Almn78-h80031-d1e1477">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Utrum detractio semper sit mortale 
+  pec<lb ed="#Bc" break="no"/>catum, vel aliquando veniale ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1490">
+                     <lb ed="#Bc"/>Secundo queritur, Utrum detractio
+<lb ed="#Bc"/>semper sit peccatum mortale, vel 
+ali<lb ed="#Bc" break="no"/>quando veniale ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1499">
+                     <lb ed="#Bc"/>Et videtur, quod semper mortale.
+<lb ed="#Bc"/>1. Prohibitum enim in sacra Scriptura
+<lb ed="#Bc"/>transgressionem habet mortalem. Sed
+<lb ed="#Bc"/>dicitur, Jacobi, 1v, 11: Nolite detrahere
+<lb ed="#Bc"/>alterutrum, fratres. Ibi Glossa: <quote xml:id="Almn78-h80031-Qd1e1512"> Non
+<lb ed="#Bc"/>solum debes vitare detractionem ne ut
+<lb ed="#Bc"/>transgressor a Deo judiceris, sed ideo
+<lb ed="#Bc"/>fortasse, quia in nullo precellis illos
+<lb ed="#Bc"/>quos vituperas. </quote> Ergo detractio mortale
+<lb ed="#Bc"/>peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1527">
+                     <lb ed="#Bc"/>2. Adhuc, Ibidem, Qui detrahit fratri,
+<lb ed="#Bc"/>detrahit legi. Glossa, <quote xml:id="Almn78-h80031-Qd1e1533"> Que 
+detractio<lb ed="#Bc" break="no"/>nem prohibuit. </quote> Ergo detrahere est 
+le<lb ed="#Bc" break="no"/>gem transgredi: et sic mortale 
+pecca<lb ed="#Bc" break="no"/>tum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1543">
+                     <lb ed="#Bc"/>3. Adhuc, Proverb. xxiv, 9: 
+Abomi<lb ed="#Bc" break="no"/>natio hominum detractor. Quod 
+abomi<lb ed="#Bc" break="no"/>nationi est, est mortale peccatum. Ergo
+<lb ed="#Bc"/>detractio est mortale peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1554">
+                     <lb ed="#Bc"/>4, Adbuc, Isa. v, 20: Ve gui dicitis
+<lb ed="#Bc"/>malum bonum et bonum malum! Ve in
+<lb ed="#Bc"/>sacra Scriptura non est nisi comminatio
+<lb ed="#Bc"/>pene eterne. Ergo detractio habet 
+com<lb ed="#Bc" break="no"/>minationem pcene: ergo mortale 
+pecca<lb ed="#Bc" break="no"/>tum est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1570">
+                     <lb ed="#Bc"/>5. Adhuc, Ad Roman. 1, 29 et 30:
+<lb ed="#Bc"/>Susurrones, detractores, Deo odibiles.
+<lb ed="#Bc"/>Odium Dei non est nisi super mortale
+<lb ed="#Bc"/>peccatum. Ergo detractio est mortale
+<lb ed="#Bc"/>peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1583">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in libro de Correptione
+<lb ed="#Bc"/>et gratia: <quote xml:id="Almn78-h80031-Qd1e1591"> Detractio sub minutis pece
+<lb ed="#Bc"/>catis continetur. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e1597">
+                     <pb ed="#Bc" n="365"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>2. Adhuc, <quote xml:id="Almn78-h80031-Qd1e1605"> Adulatio et detractio 
+op<lb ed="#Bc" break="no"/>posita sunt. </quote> Adulatio aliquando fit 
+ve<lb ed="#Bc" break="no"/>niali peccato, et non mortali. Ergo et
+<lb ed="#Bc"/>detractio.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1617">
+                     <lb ed="#Bc"/>Sorvtio. Dicendum, quod detractio
+<lb ed="#Bc"/>aliquando est veniale, aliquando 
+mor<lb ed="#Bc" break="no"/>tale: sed in sacra Scriptura miagis 
+acci<lb ed="#Bc" break="no"/>pitur pro mortali quam veniali. Et hee
+<lb ed="#Bc"/>est causa quia, Proverb. xxu, 4, dicitur:
+<lb ed="#Bc"/>Melius est nomen bonum quam divitiz
+<lb ed="#Bc"/>multe, Sed diripere substantiam proximi
+<lb ed="#Bc"/>per furtum vel rapinam, peccatum 
+mor<lb ed="#Bc" break="no"/>tale est. Ergo multo magis diripere 
+fa<lb ed="#Bc" break="no"/>mam bonam est mortale peccatum. Hoc
+<lb ed="#Bc"/>facit detractor. Ergo detractio est 
+mor<lb ed="#Bc" break="no"/>tale peccatum tantum. Quia post corru=
+<lb ed="#Bc"/>ptionem homines proni sunt ad 
+maledi<lb ed="#Bc" break="no"/>cendum de se invicem, et ad prodenduin
+<lb ed="#Bc"/>malum quod sciunt de se invicem. Et
+<lb ed="#Bc"/>fama hominis, ut dicit Augustinus, 
+con<lb ed="#Bc" break="no"/>sistit in lingua, que sita est in lubrico et
+<lb ed="#Bc"/>humido: ideo dicit Augustinus, quod
+<lb ed="#Bc"/>inter minuta peccata est et consueta, hoc
+<lb ed="#Bc"/>est, que reputantur minuta.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1663">
+                     <lb ed="#Bc"/>Et ideo antiqui Magistri distinxerunt
+<lb ed="#Bc"/>sic, quod ille qui detrahit, potest 
+detra<lb ed="#Bc" break="no"/>here animo nocendi ex malignitate : et
+<lb ed="#Bc"/>tune peccat mortaliter : quia intendit 
+au<lb ed="#Bc" break="no"/>ferre famam: quia tune est illud quod
+<lb ed="#Bc"/>dicitur in Psalmo xutx, 20: Sedens 
+ad<lb ed="#Bc" break="no"/>versus fratrem tuum loquebaris, et 
+ad<lb ed="#Bc" break="no"/>versum filium matris tue ponebas 
+scan<lb ed="#Bc" break="no"/>dalum, etc. Aliquando fit ex levitate, et
+<lb ed="#Bc"/>non ex malignitate, nec animo nocendi,
+<lb ed="#Bc"/>sed ex lubrico linguxe : et tunc est 
+ve<lb ed="#Bc" break="no"/>niale peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1692">
+                     <lb ed="#Bc"/>Er per uac patet sofutio ad 
+argu<lb ed="#Bc" break="no"/>menta. Primo enim adducta procedunt
+<lb ed="#Bc"/>secundum quod fit ex malignitate et 
+ani<lb ed="#Bc" break="no"/>mo nocendi. Tunc vero mortale 
+pecca<lb ed="#Bc" break="no"/>tum est. Et sic loquitur de detractione
+<lb ed="#Bc"/>sacra Scriptura : quia sic filia invidie
+<lb ed="#Bc"/>est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1710">
+                     <lb ed="#Bc"/>Argumenta vero in contrarium 
+addu<lb ed="#Bc" break="no"/>cta,loquuntur secundum quod fit ex 
+levi<lb ed="#Bc" break="no"/>tate et loquacitate quadam, que filia
+<lb ed="#Bc"/>cule est, ut dicit Gregorius: et non fit
+<lb ed="#Bc"/>animo nocendi: sed quia non potest spi
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc" break="no"/>ritum tenere nisi quia loquatur, dilatat
+<lb ed="#Bc"/>malum proximi ex levitate plus quam ex
+<lb ed="#Bc"/>malignitate. Et hoc est. quod dicitur,
+<lb ed="#Bc"/>Proverb. xxi, 20: Noli esse in 
+convi<lb ed="#Bc" break="no"/>viis peccatorum, nec in comessationibus
+<lb ed="#Bc"/>eorum qui carnes ad vescendum 
+confe<lb ed="#Bc" break="no"/>runt. Glossa ibidem, <quote xml:id="Almn78-h80031-Qd1e1740"> Carnes ad 
+vescen<lb ed="#Bc" break="no"/>dum conferre, est mollia et infirma 
+pro<lb ed="#Bc" break="no"/>ximorum dente detractionis rodere. </quote>
+                     <lb ed="#Bc"/>Job, xix, 22: Quare persequimini me
+<lb ed="#Bc"/>sicul Deus, et carnibus mets saturamini ?
+<lb ed="#Bc"/>Et secundum istum modum procedunt
+<lb ed="#Bc"/>argumenta in contrarium adducta: et
+<lb ed="#Bc"/>tunc est veniale peccatum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1759">
+                     <lb ed="#Bc"/>Ad id quod de adulatione objicitur,
+<lb ed="#Bc"/>dicendum quod non est simile : quia
+<lb ed="#Bc"/>adulatio plus se tenet in bono, detractio
+<lb ed="#Bc"/>plus in malo : et ideo gravius est 
+pecca<lb ed="#Bc" break="no"/>tum detractio, quam adulatio.
+</p>
+               </div>
+               <div xml:id="Almn78-h80031-Dd1e1773">
+                  <head xml:id="Almn78-h80031-Hd1e1775">Articulus 3</head>
+                  <head xml:id="Almn78-h80031-Hd1e1778" type="question-title">
+          In quo differat detractio a susurratione
+        </head>
+                  <p xml:id="Almn78-h80031-d1e1781">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS III.
+<lb ed="#Bc"/>In quo differat detractio a susurratione ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1790">
+                     <lb ed="#Bc"/>Tertio queritur, In quo differat 
+detra<lb ed="#Bc" break="no"/>ctio a susurratione ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1797">
+                     <lb ed="#Bc"/>Et videtur, quod in nullo: quia dicunt
+<lb ed="#Bc"/>etiam Sancti, quod detractio est quando
+<lb ed="#Bc"/>per verba occulta denigratur alicujus 
+fa<lb ed="#Bc" break="no"/>ma : et idem videtur esse susurratio.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1809">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Super illud Apostoli, ad Roman. 1,
+<lb ed="#Bc"/>29 et 30: Susurrones, detractores, Deo
+<lb ed="#Bc"/>odibiles. Glossa : <quote xml:id="Almn78-h80031-Qd1e1819"> Detractores sunt, qui
+<lb ed="#Bc"/>aliorum bona negant vel invertunt: 
+su<lb ed="#Bc" break="no"/>surrones inter amicos discordiam 
+semi<lb ed="#Bc" break="no"/>nantes.</quote> Ergo differunt susurratio et
+<lb ed="#Bc"/>detractio.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1832">
+                     <lb ed="#Bc"/>2. Adhuc, Sapient. 1, 11: Custodite
+<lb ed="#Bc"/>vos a murmuratione que nihil prodest,
+<lb ed="#Bc"/>et a detractione pareite linguz : quoniam
+<lb ed="#Bc"/>sermo obscurus in vacuum non ibit. Ibi
+<pb ed="#Bc" n="366"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>enumerantur tamquam duo. Ergo 
+diffe<lb ed="#Bc" break="no"/>runt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1852">
+                     <lb ed="#Bc"/>3. Adhuc, Gregorius super illud Job,
+<lb ed="#Bc"/>xxxIx, 25: Eehortationem ducum, sic
+<lb ed="#Bc"/>dicit : <quote xml:id="Almn78-h80031-Qd1e1860"> Ab invidia oriuntur odia, 
+detra<lb ed="#Bc" break="no"/>ctiones, susurrationes. </quote> Ibi iterum 
+enu<lb ed="#Bc" break="no"/>merat tamquam diversa. Ergo diversa
+<lb ed="#Bc"/>sunt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1871">
+                     <lb ed="#Bc"/>4, Adhuc, Eccli. v, 16 et 47 : Non 
+ap<lb ed="#Bc" break="no"/>pelleris susurro, et lingua tua ne 
+capia<lb ed="#Bc" break="no"/>ris et confundaris: super furem enim
+<lb ed="#Bc"/>confusio ef penitentia, el denotatio 
+pesst<lb ed="#Bc" break="no"/>ma super bilinguem : susurratori autem
+<lb ed="#Bc"/>odium, et intmicitia, et contumelia. 
+Er<lb ed="#Bc" break="no"/>go videtur, quod differunt : quia ut 
+di<lb ed="#Bc" break="no"/>versa enumerantur et in textu et in 
+Glos<lb ed="#Bc" break="no"/>sa. Dicit enim Glossa, quod <quote xml:id="Almn78-h80031-Qd1e1892"> bilinguis
+<lb ed="#Bc"/>est, qui aliud loquitur de presente, ct
+<lb ed="#Bc"/>aliud de absente. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e1900">
+                     <lb ed="#Bc"/>Sonutio. Dicendum, quod differunt 
+su<lb ed="#Bc" break="no"/>surratio et detractio, ut dicit Glossa, ad
+<lb ed="#Bc"/>Roman. 1, 29 et 30, que inducta est.
+<lb ed="#Bc"/>Detractio enim diminuit famam aliorum
+<lb ed="#Bc"/>bona negando vel invertendo : susurro
+<lb ed="#Bc"/>autem qui inter amicos seminat 
+discor<lb ed="#Bc" break="no"/>dias, uni de alio mala suggerendo. 
+Pro<lb ed="#Bc" break="no"/>pter quod etiam, Proverb. xxtv, 21, 
+di<lb ed="#Bc" break="no"/>citur: Cum detractoribus non 
+commi<lb ed="#Bc" break="no"/>scearis. Dicit Glossa : <quote xml:id="Almn78-h80031-Qd1e1923"> Hoc speciali vilio
+<lb ed="#Bc"/>periclitatur pene totum genus humanum.</quote>
+                     <lb ed="#Bc"/>Et Hieronymus : <quote xml:id="Almn78-h80031-Qd1e1931"> Hoc malum ideo 
+ce<lb ed="#Bc" break="no"/>lebre est, quia in multis regnat hoc 
+vi<lb ed="#Bc" break="no"/>tium. </quote> Et adhuc Hieronymus : <quote xml:id="Almn78-h80031-Qd1e1938"> Tanta
+<lb ed="#Bc"/>hujus mali libido mentes hominum 
+in<lb ed="#Bc" break="no"/>vasit, ut qui procul ab aliis peccatis 
+re<lb ed="#Bc" break="no"/>cesserunt, in istud quasi in ultimum 
+la<lb ed="#Bc" break="no"/>queum diaboli incidant : quia pene ab
+<lb ed="#Bc"/>omnibus libenter auditur. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e1952">
+                     <lb ed="#Bc"/>Juxra hoc queritur, Utrum hoc 
+pecca<lb ed="#Bc" break="no"/>tum fit contra prelatos tantum, vel 
+com<lb ed="#Bc" break="no"/>muniter contra omnes ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e1962">
+                     <lb ed="#Bc"/>Et videtur,quod contra prelatostantum.
+<lb ed="#Bc"/>1. Exod. xxu, 28: Duis non detrahes,
+<lb ed="#Bc"/>ef prineipt populi tui non maledices.
+<lb ed="#Bc"/>Glossa, hoc est, Doctoribus vel 
+sacerdo<lb ed="#Bc" break="no"/>tibus. Ergo videtur, quod flat contra
+<lb ed="#Bc"/>prelatos tantum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e1978">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>2. Adhuc, Eccle. x, 20 : In cogitatione
+<lb ed="#Bc"/>tua regi ne detrahas, et in secreto 
+cubili<lb ed="#Bc" break="no"/>culi twi ne maledixeris diviti. Glossa :
+<lb ed="#Bc"/>
+                     <quote xml:id="Almn78-h80031-Qd1e1991"> Simpliciter monet ne ira vel levitate
+<lb ed="#Bc"/>majoribus maledicamus. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e1997">
+                     <lb ed="#Bc"/>Sonurio. Dicendum, quod utrumque,
+<lb ed="#Bc"/>scilicet detractio et susurratio fit contra
+<lb ed="#Bc"/>omnes, frequentius tamen contra 
+prela<lb ed="#Bc" break="no"/>tos et majores, de quibus dicit 
+Augusti<lb ed="#Bc" break="no"/>nus, quod <quote xml:id="Almn78-h80031-Qd1e2010"> sunt positi quasi signum ad
+<lb ed="#Bc"/>sagittam. </quote> Et ideo dicit Hieronymus,
+<lb ed="#Bc"/>quod est commune peccatum : lex tamen,
+<lb ed="#Bc"/>et in Ecclesiastico prohibet Salomon ne
+<lb ed="#Bc"/>fiat contra prelatos, quia contra illos 
+fre<lb ed="#Bc" break="no"/>quenter fit.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2024">
+                     <lb ed="#Bc"/>Et per hoc patet solutio ad totum 
+ob<lb ed="#Bc" break="no"/>jectum. Uterque tamen bilinguis, ec licet
+<lb ed="#Bc"/>detractor et susurro : quia aliud Joquitur
+<lb ed="#Bc"/>de presente, el aliud ce absente.
+</p>
+               </div>
+               <div xml:id="Almn78-h80031-Dd1e2036">
+                  <head xml:id="Almn78-h80031-Hd1e2038">Articulus 4</head>
+                  <head xml:id="Almn78-h80031-Hd1e2041" type="question-title">
+          Utrum detractor teneatur ad 
+          restitutionem fame ejus cui detrahit
+        </head>
+                  <p xml:id="Almn78-h80031-d1e2044">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS IV.
+<lb ed="#Bc"/>Utrum detractor teneatur ad 
+restitutio<lb ed="#Bc" break="no"/>nem fame ejus cui detrahit ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e2055">
+                     <lb ed="#Bc"/>Quarto queritur, Utrum detractor 
+te<lb ed="#Bc" break="no"/>netur ad restitutionem fame ejus cui
+<lb ed="#Bc"/>detrahit ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e2064">
+                     <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Proverb. xxur, 1: Melius est nomen
+<lb ed="#Bc"/>bonum quam divitie multe : super 
+ar<lb ed="#Bc" break="no"/>genium et aurum gratia bona, Sed 
+au<lb ed="#Bc" break="no"/>ferens aurum et argentum, tenetur ad
+<lb ed="#Bc"/>restitutionem. Ergo multo magis 
+aufe<lb ed="#Bc" break="no"/>rens famam bonam, quod facit 
+detra<lb ed="#Bc" break="no"/>ctor.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2085">
+                     <lb ed="#Bc"/>2. Adhuc, Gregorius: <quote xml:id="Almn78-h80031-Qd1e2089"> Multum 
+di<lb ed="#Bc" break="no"/>stant damna morum a damnis rerum
+<lb ed="#Bc"/>corporalium : cum ista extra nos sint,
+<lb ed="#Bc"/>ila autem in nobis. </quote> Sed qui aufert
+<lb ed="#Bc"/>exteriora bona, tenetur ad restitutionem.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2101">
+                     <pb ed="#Bc" n="367"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Ergo multo magis qui aufert interiora
+<lb ed="#Bc"/>bona.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2112">
+                     <lb ed="#Bc"/>CONTRA:
+<lb ed="#Bc"/>1. Nemo tenetur ad impossibile:sed 
+pot<lb ed="#Bc" break="no"/>est esse, quod ille qui detraxit, non 
+pot<lb ed="#Bc" break="no"/>est auferre malam opinionem a cordibus
+<lb ed="#Bc"/>eorum qui detractionem audiverunt: ergo
+<lb ed="#Bc"/>videtur, quod in illo casu non tenetur.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2128">
+                     <lb ed="#Bc"/>2. Adhuc, Malum auditum de uno in
+<lb ed="#Bc"/>alium multiplicabile est in infinitum :
+<lb ed="#Bc"/>infinita non contingit pertransire,ut dicit
+<lb ed="#Bc"/>Aristoteles : ergo non potest reparare :
+<lb ed="#Bc"/>quia impossibile est isti pertransire 
+om<lb ed="#Bc" break="no"/>nes ad quos devenit mala fama quam 
+se<lb ed="#Bc" break="no"/>minavit,
+</p>
+                  <p xml:id="Almn78-h80031-d1e2146">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod ille qui ex
+<lb ed="#Bc"/>malignitate et deliberatione animoque
+<lb ed="#Bc"/>nocendi detraxit, pro certo tenetur ad 
+re<lb ed="#Bc" break="no"/>parationem apud eos apud quos detraxit :
+<lb ed="#Bc"/>quia aliter non impleret verbum Domini,
+<lb ed="#Bc"/>ad Roman. vi, 19 : Sieut exhibuistis
+<lb ed="#Bc"/>memora vestra servire immunditte et 
+ini<lb ed="#Bc" break="no"/>quitati, ad iniquitatem, ita nunc exhrbete
+<lb ed="#Bc"/>membra vestra servire Jusiitie, in 
+sancti<lb ed="#Bc" break="no"/>ficationem.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2170">
+                     <lb ed="#Bc"/>Et in hoc casu loquuntur due 
+auctori<lb ed="#Bc" break="no"/>tales primo inductee, scilicet 
+Proverbio<lb ed="#Bc" break="no"/>rum, xxu, 1, et Gregorii.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2180">
+                     <lb ed="#Bc"/>Ad pRiMUM ergo quod in contrarium
+<lb ed="#Bc"/>objicitur, dicendum, quod non est 
+impos<lb ed="#Bc" break="no"/>sibile, quod apud iilos reparet famam
+<lb ed="#Bc"/>apud quos detraxit.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2191">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod licet malum
+<lb ed="#Bc"/>multiplicabile sit in infinitum per 
+audi<lb ed="#Bc" break="no"/>tum, eo quod quilibet ipsum libenter
+<lb ed="#Bc"/>audit, ut dicit Hieronymus : quia proni
+<lb ed="#Bc"/>sunt sensus hominis ad malum, ut 
+dici<lb ed="#Bc" break="no"/>tur, Genes. vii, 21: tamen etiam per
+<lb ed="#Bc"/>eumdem modum reparatio fame 
+multi<lb ed="#Bc" break="no"/>plicabilis est in infinitum: et sic potest
+<lb ed="#Bc"/>vulnus detractionis reparari, de quo 
+di<lb ed="#Bc" break="no"/>cilur, Jerem. 1x, 3: Sagitla vadlnerans
+<lb ed="#Bc"/>lingua eorum, dolum locuta est. Et 
+Au<lb ed="#Bc" break="no"/>gustinus in Regula: <quote xml:id="Almn78-h80031-Qd1e2219"> Si autem in tantum
+<lb ed="#Bc"/>processerit malum, ut convitio vel 
+cri<lb ed="#Bc" break="no"/>minis objectu aliquem leserit, non 
+pi<lb ed="#Bc" break="no"/>geat ex ipso ore proferre medicamenta
+<lb ed="#Bc"/>unde facta sunt vulnera. </quote>
+                  </p>
+               </div>
+               <div xml:id="Almn78-h80031-Dd1e2232">
+                  <head xml:id="Almn78-h80031-Hd1e2234">Articulus 5</head>
+                  <head xml:id="Almn78-h80031-Hd1e2237" type="question-title">
+          Quid sit aemulatio et in quo differat ab
+          invidia ? et si sit mater omnium 
+          malorum sicut videntur sancti dicere
+        </head>
+                  <p xml:id="Almn78-h80031-d1e2240">
+                     <lb ed="#Bc"/>MEMBRI SECUNDI
+<lb ed="#Bc"/>ARTICULUS V.
+<lb ed="#Bc"/>Quid sit aemulatio et in quo differat ab
+<lb ed="#Bc"/>invidia ? et si sit mater omnium 
+ma<lb ed="#Bc" break="no"/>lorum sicut videntur sancti dicere ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e2253">
+                     <lb ed="#Bc"/>Quinto, Queritur de aemulatione, que
+<lb ed="#Bc"/>etiam conjuncta est invidiae sicut filia,
+<lb ed="#Bc"/>de qua duo queruntur, scilicet quid sit
+<lb ed="#Bc"/>emulatio, et in quo differt ab invidia ?
+</p>
+                  <p xml:id="Almn78-h80031-d1e2264">
+                     <lb ed="#Bc"/>Queritur ergo primo, Quid sit 
+emula<lb ed="#Bc" break="no"/>tio?
+</p>
+                  <p xml:id="Almn78-h80031-d1e2272">
+                     <lb ed="#Bc"/>Et videtur, quod sit idem quod 
+indi<lb ed="#Bc" break="no"/>dignatio : quia super illud Psalmi xxxv1,
+<lb ed="#Bc"/>4: Noli emulari in malignantibus, 
+Glos<lb ed="#Bc" break="no"/>sa, <quote xml:id="Almn78-h80031-Qd1e2282"> Inter tales emulari est indignari. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e2286">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Chrysostomus super Joannem, 
+Ho<lb ed="#Bc" break="no"/>milia 54, emulationem ponit loco 
+invi<lb ed="#Bc" break="no"/>die, et e converso. Ergo videtur, quod
+<lb ed="#Bc"/>sint idem.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2299">
+                     <lb ed="#Bc"/>2. Adhuc, Invidus imdignatur ei cui
+<lb ed="#Bc"/>invidet : si ergo emulatio indignatio est,
+<lb ed="#Bc"/>videtur zmulatio idem esse cum 
+invi<lb ed="#Bc" break="no"/>dia.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2310">
+                     <lb ed="#Bc"/>3. Adhuc, I Regu, 1, 6, de Anna
+<lb ed="#Bc"/>dicitur et de Phenenna, uxoribus Elcane :
+<lb ed="#Bc"/>Affligebat quoque eam emula ejus, et
+<lb ed="#Bc"/>vehementer angebat, in tantum, ut 
+expro<lb ed="#Bc" break="no"/>braret quod Dominus conclusisset vulvam
+<lb ed="#Bc"/>ejus. Et constat, quod Phenenna non
+<lb ed="#Bc"/>emulabatur Annam, nisi quia invidebat
+<lb ed="#Bc"/>ei de majori dilectione mariti. Ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod emulatio et imvidia sjnt
+<lb ed="#Bc"/>idem.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2334">
+                     <lb ed="#Bc"/>Adhuc, Contra istud Apostoli, ad
+<lb ed="#Bc"/>Galat. v, 19 et 22 : Manifesta sunt opera
+<lb ed="#Bc"/>carnis, que sunt... contentiones, 
+emula<lb ed="#Bc" break="no"/>tiones,... invidie. Apostolus 
+emulatio<lb ed="#Bc" break="no"/>nem ibi et invidiam tamquam diversa
+<lb ed="#Bc"/>enumerat. Ergo diversa sunt.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2350">
+                     <pb ed="#Bc" n="368"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Utreriws queritur hic, Utrum invidia
+<lb ed="#Bc"/>sit mater omnium malorum, sicut 
+viden<lb ed="#Bc" break="no"/>tur sancti dicere.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2364">
+                     <lb ed="#Bc"/>1. Chrysostomus super Joannem, 
+Ho<lb ed="#Bc" break="no"/>milia que prius inducta est : <quote xml:id="Almn78-h80031-Qd1e2370"> Fera 
+ve<lb ed="#Bc" break="no"/>nenosa invidia est, fera immunda et 
+mor<lb ed="#Bc" break="no"/>bus voluntatis, omnivenia et excusatione
+<lb ed="#Bc"/>indigna, omnium causa et mater 
+malo<lb ed="#Bc" break="no"/>rum '.</quote> Ergo videtur, quod invidia sit
+<lb ed="#Bc"/>causa et mater omnium malorum.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2384">
+                     <lb ed="#Bc"/>2. Adhuc, Sapient. u, 24 et 25: 
+Invi<lb ed="#Bc" break="no"/>dia diaboli mors introivit in orbem 
+ter<lb ed="#Bc" break="no"/>rarum : imitantur autem illum gui sunt
+<lb ed="#Bc"/>ex parte illius. Ergo videtur, quod 
+invi<lb ed="#Bc" break="no"/>dia sit causa et mater omnium malorum:
+<lb ed="#Bc"/>quia hoc quod per invidiam diaboli 
+in<lb ed="#Bc" break="no"/>travit in mundum, omne malum est.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2402">
+                     <lb ed="#Bc"/>3. Adhuc, Genes. xxxvu, 33: Fera
+<lb ed="#Bc"/>pessima comedit eum, bestia devoravit
+<lb ed="#Bc"/>Joseph. Glossa: <quote xml:id="Almn78-h80031-Qd1e2410"> Fera pessima, id est,
+<lb ed="#Bc"/>invidia, devoravit Joseph, id est, 
+Ghri<lb ed="#Bc" break="no"/>stum tam in se quam in membris. </quote>
+                  </p>
+                  <p xml:id="Almn78-h80031-d1e2418">
+                     <lb ed="#Bc"/>Sotvrio, Ad primam partem 
+questio<lb ed="#Bc" break="no"/>nis dicendum, quod emulatio 
+diversi<lb ed="#Bc" break="no"/>mode accipilur a Sanctis, et 
+equi<lb ed="#Bc" break="no"/>voce.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2429">
+                     <lb ed="#Bc"/>Aliquando enim accipitur pro amore.
+<lb ed="#Bc"/>If ad Corinth. x1, 2: A’muler enim vos
+<lb ed="#Bc"/>Dei emulatione. Glossa, hoc est, amore.
+<lb ed="#Bc"/>Ad Galativ, 17 et 18: Atmulantur vos
+<lb ed="#Bc"/>non bene : sed excludere vos volunt, ut
+<lb ed="#Bc"/>illos emulemint. Bonum autem 
+emula<lb ed="#Bc" break="no"/>mini in bono semper. Et sic nihil habet
+<lb ed="#Bc"/>invidie, sed est virtus.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2449">
+                     <lb ed="#Bc"/>Aliquando accipitur pro contentione,
+<lb ed="#Bc"/>quando scilicet duo vel plures contendunt
+<lb ed="#Bc"/>ad idem obtinendum : et tunc habet 
+ali<lb ed="#Bc" break="no"/>quid invidie, indignationem scilicet : quia
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>non potest esse quando duo ita conten~
+<lb ed="#Bc"/>dunt, quin unus indignetur alteri, quasi
+<lb ed="#Bc"/>volenti sibi preripere illud, sicut 
+Phenen<lb ed="#Bc" break="no"/>na indignabatur Anne, quasi volenti sibi
+<lb ed="#Bc"/>preripere dilectionem mariti. Et sic 
+di<lb ed="#Bc" break="no"/>xerunt antiqui, quod invidia est in actu
+<lb ed="#Bc"/>interiori, scilicet quando aliquis videt
+<lb ed="#Bc"/>felicitatem proximi, et livet, et tabescit
+<lb ed="#Bc"/>intrinsecus. /Amulatio autem in actu 
+ex<lb ed="#Bc" break="no"/>teriori, quando per actum exteriorem
+<lb ed="#Bc"/>cum indignatione contendit ad ipsum
+<lb ed="#Bc"/>habendum pro quo alium emulatur.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2489">
+                     <lb ed="#Bc"/>Et ita patet solutio ad omnia que 
+in<lb ed="#Bc" break="no"/>ducta sunt pro hac parte: quia non sunt
+<lb ed="#Bc"/>nisi auctoritates Sanctorum de 
+emula<lb ed="#Bc" break="no"/>lione diversimode loquentium.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2500">
+                     <lb ed="#Bc"/>Ab uLTerivs quesitum dicendum, quod
+<lb ed="#Bc"/>vera causa et mater malorum superbia
+<lb ed="#Bc"/>est, sicut in antehabitis determinatum
+<lb ed="#Bc"/>est: sed quia talis regine, superbie 
+sci<lb ed="#Bc" break="no"/>licet, pedissequa est semper inyidia, ideo
+<lb ed="#Bc"/>hoc etiam attribuitur invidie. Superbia
+<lb ed="#Bc"/>enim diaboli causa est omnis mali, tam
+<lb ed="#Bc"/>inse quam in homine : sed per 
+invi<lb ed="#Bc" break="no"/>diam malum procuravit in homine, non
+<lb ed="#Bc"/>autem in seipso, quia nemo invidet 
+si<lb ed="#Bc" break="no"/>biipsi.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2526">
+                     <lb ed="#Bc"/>Et sic patet solutio ad argumenta.
+</p>
+                  <p xml:id="Almn78-h80031-d1e2531">
+                     <lb ed="#Bc"/>Et ad auctoritatem Chrysostomi 
+dicen<lb ed="#Bc" break="no"/>dum, quod fera pessima est invidia, et
+<lb ed="#Bc"/>omnium mater; quia sicut dicit 
+Gre<lb ed="#Bc" break="no"/>gorius in libro XXXVI AMoralium, 
+in<lb ed="#Bc" break="no"/>ter septem vitia capitalia nullum est quin
+<lb ed="#Bc"/>aliquando unum oriatur ex allero, sicut
+<lb ed="#Bc"/>ex invidia superbia, et de superbia ira,
+<lb ed="#Bc"/>et sic de aliis. Et hoc modo loquitur
+<lb ed="#Bc"/>Chrysostomus de invidia.
+</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

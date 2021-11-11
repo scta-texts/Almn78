@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 129</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 129</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="426"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h94977"><!-- p2t21q129 -->
+            <head xml:id="Almn78-h94977-Hd1e106">Quaestio 129</head>
+            <head xml:id="Almn78-h94977-Hd1e109" type="question-title">
+    De judicio suspicionis
+  </head>
+            <p xml:id="Almn78-h94977-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXXIX.
+<lb ed="#Bc"/>De judicio suspicionis.
+</p>
+            <p xml:id="Almn78-h94977-d1e119">
+               <lb ed="#Bc"/>De judicio suspicionis quaeremus tria
+<lb ed="#Bc"/>principaliter.
+<lb ed="#Bc"/>Primo scilicet, quid sit ? 
+<lb ed="#Bc"/>Secundo, An semper peccatum 
+mor<lb ed="#Bc" break="no"/>tale sit, vel aliquando mortale, et ali- 
+<lb ed="#Bc"/>quando veniale? et, Utrum aliquando sit
+<lb ed="#Bc"/>poena et non culpa ? et, De quibus 
+permit<lb ed="#Bc" break="no"/>titur nobis judicare, et de quibus non?
+<lb ed="#Bc"/>Tertio, Utrum solius Dei sit judicare, 
+<lb ed="#Bc"/>vel etiam hominis? 
+</p>
+            <div xml:id="Almn78-h94977-Dd1e143">
+               <head xml:id="Almn78-h94977-Hd1e145">Membrum 1</head>
+               <head xml:id="Almn78-h94977-Hd1e148" type="question-title">
+        Quid sit judicium suspicionis
+      </head>
+               <p xml:id="Almn78-h94977-d1e151">
+                  <lb ed="#Bc"/>MEMBRUM 1.
+  <lb ed="#Bc"/>Quid sit judicium suspicionis ?
+</p>
+               <p xml:id="Almn78-h94977-d1e158">
+                  <lb ed="#Bc"/>Ad primum proceditur sic :
+  <lb ed="#Bc"/>Tullius dicit in fine prime Rhetorice :
+  <lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h94977-Qd1e166"> Suspicio est mala opinio de aliquo.</quote>
+               </p>
+               <p xml:id="Almn78-h94977-d1e170">
+                  <pb ed="#Bc" n="427"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Sed contra hoc videtur esse : quia 
+opi<lb ed="#Bc" break="no"/>nio videtur esse id ex quo formatur 
+judi<lb ed="#Bc" break="no"/>cium suspiciosum, et non ipsum judicium.
+<lb ed="#Bc"/>Judicium enim, sicut dicit Glossa super
+<lb ed="#Bc"/>illud Apostoli, I ad Corinth. iv, 5: 
+No<lb ed="#Bc" break="no"/>lite ante tempus judicare, est definitiva
+<lb ed="#Bc"/>sententia. De quo Augustinus ibidem 
+di<lb ed="#Bc" break="no"/>cit in Glossa: <quote xml:id="Almn78-h94977-Qd1e193"> Si suspiciones evitare
+<lb ed="#Bc"/>non possumus, quia homines sumus,
+<lb ed="#Bc"/>saltem non judicemus, ut definitivas 
+sen<lb ed="#Bc" break="no"/>tentias proferamus. </quote> Suspicio ergo 
+ibi<lb ed="#Bc" break="no"/>dem non videtur esse idem quod 
+judi<lb ed="#Bc" break="no"/>cium,
+</p>
+               <p xml:id="Almn78-h94977-d1e209">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod pro certo
+<lb ed="#Bc"/>hoc verum est, quod suspicio non est
+<lb ed="#Bc"/>judicium,.sed judicium est sententia 
+dif<lb ed="#Bc" break="no"/>finitiva informata ex suspicione : et ideo
+<lb ed="#Bc"/>aliquando unum ponitur pro altero.
+</p>
+               <p xml:id="Almn78-h94977-d1e222">
+                  <lb ed="#Bc"/>Et per hoc patet solutio ad 
+argumen<lb ed="#Bc" break="no"/>tum quod factum est contra definitionem.
+</p>
+            </div>
+            <div xml:id="Almn78-h94977-Dd1e231">
+               <head xml:id="Almn78-h94977-Hd1e233">Membrum 2</head>
+               <head xml:id="Almn78-h94977-Hd1e236" type="question-title">
+      Utrum judicium suspiciosum semper sit
+      peccatum mortale, vel aliquando 
+      veniale ? Et, Ex qua suspicione fiat
+      judicium rectum, et ex qua judicium
+      non rectum
+    </head>
+               <p xml:id="Almn78-h94977-d1e239">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum judicium suspiciosum semper sit
+<lb ed="#Bc"/>peccatum mortale, vel aliquando 
+ve<lb ed="#Bc" break="no"/>niale ? Et, Ex qua suspicione fiat
+<lb ed="#Bc"/>judicium rectum, et ex qua judicium
+<lb ed="#Bc"/>non rectum ?
+</p>
+               <p xml:id="Almn78-h94977-d1e255">
+                  <lb ed="#Bc"/>Secundo queritur, Utrum judicium 
+su<lb ed="#Bc" break="no"/>spiciosum semper sit mortale vel 
+aliquan<lb ed="#Bc" break="no"/>do veniale ?
+</p>
+               <p xml:id="Almn78-h94977-d1e264">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>Suspicari enim de malo quod malum
+<lb ed="#Bc"/>est, bonum est : quia sic se habet in re.
+</p>
+               <p xml:id="Almn78-h94977-d1e274">
+                  <lb ed="#Bc"/>Et iterum, Suspicari de bono quod
+<lb ed="#Bc"/>bonum est, bonum est : quia sic etiam se
+<lb ed="#Bc"/>habet in re. Ergo judicium suspiciosum
+<lb ed="#Bc"/>nullum peccatum est aliquando, ut 
+vide<lb ed="#Bc" break="no"/>tur, sed aliquando bonum.
+</p>
+               <p xml:id="Almn78-h94977-d1e287">
+                  <lb ed="#Bc"/>ContTRA :
+<lb ed="#Bc"/>1. Quod sub prohibitione cadit, malum
+<lb ed="#Bc"/>est si fiat. Matth. vir, 1 : Nolite judicare,
+<lb ed="#Bc"/>ul non judieemini, etc. Glossa ibidem :
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h94977-Qd1e302"> De occultis aliorum malum est 
+judica<lb ed="#Bc" break="no"/>re. </quote> Ergo videtur, quod judicium 
+suspi<lb ed="#Bc" break="no"/>ciosum mortale peccatum sit: quia si
+<lb ed="#Bc"/>prohibitum fiat, mortale peccatum est.
+</p>
+               <p xml:id="Almn78-h94977-d1e312">
+                  <lb ed="#Bc"/>2. Adhuc, <ref xml:id="Almn78-h94977-Rd1e316">I ad Corinth. iv, 5, super
+<lb ed="#Bc"/>illud : <quote xml:id="Almn78-h94977-Qd1e320">Nolite ante tempus judicare</quote>,
+  <lb ed="#Bc"/>Glossa</ref> : <quote xml:id="Almn78-h94977-Qd1e326"> Prohibet nobis Apostolus 
+ju<lb ed="#Bc" break="no"/>dicia : quia occulta sunt nobis corda 
+ho<lb ed="#Bc" break="no"/>minum, et de occultis non licet nobis 
+ju<lb ed="#Bc" break="no"/>dicare. </quote> Ergo videtur, quod judicium
+<lb ed="#Bc"/>tale sit peccatum mortale.
+</p>
+               <p xml:id="Almn78-h94977-d1e338">
+                  <lb ed="#Bc"/>3. Adhuc, Hieronymus: <quote xml:id="Almn78-h94977-Qd1e342"> De rebus
+<lb ed="#Bc"/>occultis non diffinias, sed suspensam tene
+<lb ed="#Bc"/>sententiam. </quote> Et Augustinus : <quote xml:id="Almn78-h94977-Qd1e349"> Si 
+su<lb ed="#Bc" break="no"/>spiciones evitare non possumus, saltem
+<lb ed="#Bc"/>non judicemus, ut definitivas sententias
+<lb ed="#Bc"/>proferamus : quia hoc prohibet nobis
+<lb ed="#Bc"/>Apostolus. </quote> Ergo tale judicium mortale
+<lb ed="#Bc"/>peccatum est.
+</p>
+               <p xml:id="Almn78-h94977-d1e363">
+                  <lb ed="#Bc"/>Ulterius hic queritur, ex quo pendet
+<lb ed="#Bc"/>tota questio, scilicet ex qua suspicione
+<lb ed="#Bc"/>fit judicium rectum, et ex qua fit judicium
+<lb ed="#Bc"/>non rectum ?
+</p>
+               <p xml:id="Almn78-h94977-d1e374">
+                  <lb ed="#Bc"/>Sorurio. Dicendum ad primam partem
+<lb ed="#Bc"/>questionis, quod suspicio sive judicium
+<lb ed="#Bc"/>aliquando est in genere mali pene, et
+<lb ed="#Bc"/>aliquando in genere mali culpz, sicut
+<lb ed="#Bc"/>ignorantia et error in que incidit homo
+<lb ed="#Bc"/>per peccatum.
+</p>
+               <p xml:id="Almn78-h94977-d1e391">
+                  <lb ed="#Bc"/>Similiter, dicendum, quod aliquando
+<lb ed="#Bc"/>est mortale peccatum, aliquando veniale.
+<lb ed="#Bc"/>Et hoc est quod dicit Glossa super illud
+<lb ed="#Bc"/>Psalmi cxvin, 39: Amputa opprobrium
+<lb ed="#Bc"/>meum quod suspicatus sum, hoc est,
+<lb ed="#Bc"/>opprobrium suspicationis quo nos de 
+fal<lb ed="#Bc" break="no"/>sis quasi de veris judicamus : in quod 
+ho<lb ed="#Bc" break="no"/>mo per primum peccatum incidit. Unde
+<lb ed="#Bc"/>si accipiantur secundum pronitatem 
+pce<lb ed="#Bc" break="no"/>ne, sunt ex originali causate : per quod
+<lb ed="#Bc"/>ad tales peenas, ignorantiam scilicet, et
+<lb ed="#Bc"/>errorem, et suspicionem damnati sumus.
+<lb ed="#Bc"/>Et ideo dicit Augustinus, quod <quote xml:id="Almn78-h94977-Qd1e421"> talia
+<lb ed="#Bc"/>sunt pena hominis damnati, non natura
+<lb ed="#Bc"/>instituti. </quote>
+               </p>
+               <p xml:id="Almn78-h94977-d1e429">
+                  <lb ed="#Bc"/>Similiter, si suspicio ex signis 
+exte<lb ed="#Bc" break="no"/>rioribus procedat non usque ad 
+definiti<lb ed="#Bc" break="no"/>vas sententias : tunc est in genere pec
+<pb ed="#Bc" n="428"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>cati venialis : quia tunc humana 
+tenta<lb ed="#Bc" break="no"/>tio est secundum Augustinum supra in
+<lb ed="#Bc"/>Glossa. Si vero procedat usque ad 
+defint<lb ed="#Bc" break="no"/>tivam sententiam damnationis, tune 
+dia<lb ed="#Bc" break="no"/>bolica tentatio est, et mortale 
+pecca<lb ed="#Bc" break="no"/>tum,
+</p>
+               <p xml:id="Almn78-h94977-d1e455">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+sus<lb ed="#Bc" break="no"/>picatio talis est de ipso facto, non de
+<lb ed="#Bc"/>homine. Et sic procedit objectio : quia
+<lb ed="#Bc"/>qui suspicatur perjurium esse malum,
+<lb ed="#Bc"/>non peccat : sed qui judicat hominem ex
+<lb ed="#Bc"/>signis condemnabilem, peccat. Unde
+<lb ed="#Bc"/>Apostolus, ad Roman. u, 1: Propter
+<lb ed="#Bc"/>quod inexcusabilis es, 0 homo omnis qui
+<lb ed="#Bc"/>judicas : in quo etiam judicas alterum,
+<lb ed="#Bc"/>teipsum condemnas.
+</p>
+               <p xml:id="Almn78-h94977-d1e479">
+                  <lb ed="#Bc"/>Et per hoc patet solutio, quando sit
+<lb ed="#Bc"/>mortale, et quando veniale.
+</p>
+               <p xml:id="Almn78-h94977-d1e486">
+                  <lb ed="#Bc"/>Ad SECUNDAM partem, questionis, ex
+<lb ed="#Bc"/>quibus scilicet signis fit judicium rectum,
+<lb ed="#Bc"/>et ex quibus non rectum ?
+</p>
+               <p xml:id="Almn78-h94977-d1e495">
+                  <lb ed="#Bc"/>Dicendum quod solvendum est per
+<lb ed="#Bc"/>Apostolum, Tad Timoth. v, 24: 
+Quo<lb ed="#Bc" break="no"/>rumdam hominum peccata manifesta
+<lb ed="#Bc"/>sunt, precedentia ad judicium: 
+quos<lb ed="#Bc" break="no"/>dam autem et subseqguuntur. Unde 
+di<lb ed="#Bc" break="no"/>cendum, quod signa que sunt ex factis
+<lb ed="#Bc"/>hominum et manifesta, faciunt judicium
+<lb ed="#Bc"/>rectum. Signa autem que potius 
+fin<lb ed="#Bc" break="no"/>guntur ex malitia judicantis, quam 
+ap<lb ed="#Bc" break="no"/>pareant in rebus, faciunt judicium non
+<lb ed="#Bc"/>rectum. Et hoc est quod in canone 
+dici<lb ed="#Bc" break="no"/>tur, quod de quolibet presumendum est
+<lb ed="#Bc"/>bonum, nisi probetur contrarium. Et,
+<lb ed="#Bc"/>Job, vi, 25 et seq: Quare detraxistis
+<lb ed="#Bc"/>sermonibus veritatis, cum e vobis nullus
+<lb ed="#Bc"/>sit qui possit arguere me ? Ad 
+increpan<lb ed="#Bc" break="no"/>dum tantum eloquia concinnatis, et in
+<lb ed="#Bc"/>ventum verba profertis. Super pupillum
+<lb ed="#Bc"/>irruitis, ef subvertere nitimini amicum
+<lb ed="#Bc"/>vestrum. Verumiamen quod ceepistis 
+ex<lb ed="#Bc" break="no"/>plete : prebete aurem, et videte an 
+men<lb ed="#Bc" break="no"/>tiar. Respondete, obsecro, absque 
+con<lb ed="#Bc" break="no"/>tentione: et loquentes id quod justum
+<lb ed="#Bc"/>est, judicate. Et non invenietis in 
+lin<lb ed="#Bc" break="no"/>gua mea iniquitaiem, nee in faucibus
+<lb ed="#Bc"/>meis stultitia personabit. Et Bernardus
+<lb ed="#Bc"/>super Cantica ponens medicinam contra
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>istud peccatum, sic dicit : <quote xml:id="Almn78-h94977-Qd1e560"> Si videris in
+<lb ed="#Bc"/>proximo tuo malum, non in fames eum,
+<lb ed="#Bc"/>sed excusa factum. Si non potes 
+excusa<lb ed="#Bc" break="no"/>re factum, excusa intentionem faéti. Si
+<lb ed="#Bc"/>nec factum nec intentionem facti 
+excu<lb ed="#Bc" break="no"/>sare poteris, accusa teipsum in 
+compa<lb ed="#Bc" break="no"/>ratione ipsius, et dic : O quam vehemens
+<lb ed="#Bc"/>fuit ista tentatio ! si me  invenisset,
+<lb ed="#Bc"/>quanto {urpius me quam illum 
+prostra<lb ed="#Bc" break="no"/>visset. Sic enim fiet, quod in quo alium
+<lb ed="#Bc"/>judicas, teipsum non condemnas. </quote>
+  
+                  <lb ed="#Bc"/>Quod vero de tertio et quarto 
+que<lb ed="#Bc" break="no"/>rendum esset. jam tactum est, quando
+<lb ed="#Bc"/>scilicet judicium suspiciosum sit culpa,
+<lb ed="#Bc"/>et quando peena, et etiam de quibus 
+mo<lb ed="#Bc" break="no"/>dis permittitur judicare, et satis patet.
+</p>
+            </div>
+            <div xml:id="Almn78-h94977-Dd1e596">
+               <head xml:id="Almn78-h94977-Hd1e598">Membrum 3</head>
+               <head xml:id="Almn78-h94977-Hd1e601" type="question-title">
+      Utrum solius Dei sit judicare de 
+      occultis hominum, vel etiam hominis ? Et,
+      Si homo possit judicare de occultis
+      proprii cordis
+    </head>
+               <p xml:id="Almn78-h94977-d1e604">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum solius Dei sit judicare de 
+occul<lb ed="#Bc" break="no"/>tis hominum, vel etiam hominis ? Et,
+<lb ed="#Bc"/>Si homo possit judicare de occultis
+<lb ed="#Bc"/>proprii cordis ?
+</p>
+               <p xml:id="Almn78-h94977-d1e617">
+                  <lb ed="#Bc"/>Tertio queritur, Utrum solius Dei sit
+<lb ed="#Bc"/>judicare de occultis hominum vel etiam
+<lb ed="#Bc"/>hominis ?
+</p>
+               <p xml:id="Almn78-h94977-d1e626">
+                  <lb ed="#Bc"/>Et videtur, quod solius Dei.
+<lb ed="#Bc"/>1. Solus enim Deus novit corda 
+homi<lb ed="#Bc" break="no"/>num, sicut dicitur, ad Roman. u, 1, 
+su<lb ed="#Bc" break="no"/>per illud : In quo alium judicas, ete.
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-h94977-Qd1e639"> Solius Dei est judicium, cujus
+<lb ed="#Bc"/>nosse est occulta cordis. </quote>
+               </p>
+               <p xml:id="Almn78-h94977-d1e646">
+                  <lb ed="#Bc"/>2. Adhuc, I Reg. xv1, 7: Homo videt
+<lb ed="#Bc"/>ea que parent, Dominus autem intuetur
+<lb ed="#Bc"/>cor; etillius est judicare, cujus est 
+in<lb ed="#Bc" break="no"/>tueri: ergo solius Dei est judicare de
+<lb ed="#Bc"/>occultis hominum.
+</p>
+               <p xml:id="Almn78-h94977-d1e659">
+                  <lb ed="#Bc"/>3. Adhuc, Ad Roman. xiv, 1: Non in
+<lb ed="#Bc"/>disceptationibus cogitationum. Glossa :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h94977-Qd1e667"> Non usurpemus dijudicare cogitationes
+<lb ed="#Bc"/>aliorum, sed Deo committamus. </quote>
+               </p>
+               <p xml:id="Almn78-h94977-d1e673">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Proverb. xxvn, 19 : Quomodo in
+<lb ed="#Bc"/>aquis resplendent vultus prospicientium,
+<pb ed="#Bc" n="429"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>sic corda hominum manifesta sunt 
+pru<lb ed="#Bc" break="no"/>dentibus. Sed que nobis sunt manifesta,
+<lb ed="#Bc"/>de illis possumus judicare. Ergo de 
+cor<lb ed="#Bc" break="no"/>dibus hominum possumus judicare.
+</p>
+               <p xml:id="Almn78-h94977-d1e695">
+                  <lb ed="#Bc"/>2. Adhuc, Eccli. xix, 26: He visu
+<lb ed="#Bc"/>cognoscitur vir, et ab occursu faciei 
+co<lb ed="#Bc" break="no"/>gnoscitur sensatus. Sed secundum quod
+<lb ed="#Bc"/>cognoscitur potest judicari, Ergo homo
+<lb ed="#Bc"/>de alio potest judicare, non solus Deus.
+</p>
+               <p xml:id="Almn78-h94977-d1e708">
+                  <lb ed="#Bc"/>3. Adhuc, Matth. via, 146: A fructibus
+<lb ed="#Bc"/>eorum cognoscetis eos, id est, hypocritas.
+<lb ed="#Bc"/>Ergo ut prius patuit.
+</p>
+               <p xml:id="Almn78-h94977-d1e717">
+                  <lb ed="#Bc"/>Unterivs queritur, Si homo possit
+<lb ed="#Bc"/>judicare de occultis proprii cordis ?
+</p>
+               <p xml:id="Almn78-h94977-d1e725">
+                  <lb ed="#Bc"/>Et videtur, quod non.
+<lb ed="#Bc"/>Super illud Apostoli, I ad Corinth.
+<lb ed="#Bc"/>iv, 3: Sed neque meipsum judico, dicit
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-h94977-Qd1e735"> Periculosum est nobis de 
+oc<lb ed="#Bc" break="no"/>cultis cordis nostri vel aliorum 
+judica<lb ed="#Bc" break="no"/>re: quia tanta est cordis profunditas,
+<lb ed="#Bc"/>quod etiam ipsum latet cujus est cor. </quote>
+               </p>
+               <p xml:id="Almn78-h94977-d1e745">
+                  <lb ed="#Bc"/>Jerem. xvu, 9: Pravum est cor om=
+<lb ed="#Bc"/>nium, et inscrutabile: quis cognoscet
+<lb ed="#Bc"/>illud ?
+</p>
+               <p xml:id="Almn78-h94977-d1e754">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. I ad Corinth. x1, 31 et 32: Si 
+nos<lb ed="#Bc" break="no"/>metipsos dijudicaremus, non ulique 
+judi<lb ed="#Bc" break="no"/>caremur. Dum gudicamur autem, a 
+Do<lb ed="#Bc" break="no"/>mino corripimur, ut non cum hoc 
+mun<lb ed="#Bc" break="no"/>do damnemur.
+</p>
+               <p xml:id="Almn78-h94977-d1e770">
+                  <lb ed="#Bc"/>2. Adhuc, De talibus dicit Augustinus
+<lb ed="#Bc"/>in libro de Penitentia, quod <quote xml:id="Almn78-h94977-Qd1e776"> sedeat
+<lb ed="#Bc"/>judicans ratio, et stet accusans 
+conscien<lb ed="#Bc" break="no"/>tia, ut nullum peccatum transeat 
+inul<lb ed="#Bc" break="no"/>tum quod conscientia accusavit. </quote>
+               </p>
+               <p xml:id="Almn78-h94977-d1e786">
+                  <lb ed="#Bc"/>Solutio. Dicendum ad primam par
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tem questionis, quod judicio definitionis
+<lb ed="#Bc"/>solius Dei est judicare, qui solus novit
+<lb ed="#Bc"/>occulta hominum, sicut probant 
+aucto<lb ed="#Bc" break="no"/>ritates ad hoc induct. Sed judicio 
+con<lb ed="#Bc" break="no"/>jecturationis per signa exteriora potest
+<lb ed="#Bc"/>homo judicare, dummodo illa signa 
+con<lb ed="#Bc" break="no"/>vertibilia sint, et certam faciant 
+conje<lb ed="#Bc" break="no"/>cturam.,
+</p>
+               <p xml:id="Almn78-h94977-d1e810">
+                  <lb ed="#Bc"/>Et sic intelliguntur auctoritates ad hoc
+<lb ed="#Bc"/>inducte.
+</p>
+               <p xml:id="Almn78-h94977-d1e818">
+                  <lb ed="#Bc"/>AD SECUNDAM partem questionis 
+di<lb ed="#Bc" break="no"/>cendum, quod homo de occultis propriis
+<lb ed="#Bc"/>potest judicare, et debet : quia illa scit.
+<lb ed="#Bc"/>Unde, Tad Corinth. u, 15: Spiritualis
+<lb ed="#Bc"/>homo judicat omnia, et ipse a nemine
+<lb ed="#Bc"/>judicatur. Et supra, y. 11: Quis enim
+<lb ed="#Bc"/>hominum scit que sunt hominis, nisi
+<lb ed="#Bc"/>spiritus hominis, qui in ipso est ? Ha et
+<lb ed="#Bc"/>que sunt Dei, nemo cognovit, nisi 
+Spi<lb ed="#Bc" break="no"/>ritus Dei.
+</p>
+               <p xml:id="Almn78-h94977-d1e842">
+                  <lb ed="#Bc"/>Unde due auctoritates que hoc 
+pro<lb ed="#Bc" break="no"/>bant, procedunt.
+</p>
+               <p xml:id="Almn78-h94977-d1e849">
+                  <lb ed="#Bc"/>Ad id autem quod objicitur primo de
+<lb ed="#Bc"/>Glossa super epistolam I ad Corinthios,
+<lb ed="#Bc"/>x1, 31 et 32, dicendum quod intelligitur
+<lb ed="#Bc"/>de judicio definitionis, non discussionis.
+<lb ed="#Bc"/>In dubiis enim de quibus nescimus quo
+<lb ed="#Bc"/>animo fiant, debemus ad meliorem 
+par<lb ed="#Bc" break="no"/>tem interpretari, ut dicit Augustinus.
+</p>
+               <p xml:id="Almn78-h94977-d1e867">
+                  <lb ed="#Bc"/>Et haec de judicio suspicionis dicta
+<lb ed="#Bc"/>sufficiant.
+</p>
+               <p xml:id="Almn78-h94977-d1e874">
+                  <lb ed="#Bc"/>De judicio autem temerario et 
+usurpa<lb ed="#Bc" break="no"/>to et injusto non hic, sed in scientia juris
+<lb ed="#Bc"/>disputandum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

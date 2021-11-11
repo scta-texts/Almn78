@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 135</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 135</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="453"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-g00676"><!-- p2t22q135 -->
+            <head xml:id="Almn78-g00676-Hd1e106">Quaestio 135</head>
+            <head xml:id="Almn78-g00676-Hd1e109" type="question-title">
+    An ex fine cognoscatur voluntas utrum recta sit vel prava
+  </head>
+            <p xml:id="Almn78-g00676-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXXV.
+<lb ed="#Bc"/>An ex fine cognoscatur voluntas utrum recta sit vel prava ?
+</p>
+            <p xml:id="Almn78-g00676-d1e121">
+               <lb ed="#Bc"/>Deinde transeundum est ad 
+distinctio<lb ed="#Bc" break="no"/>nem XXXVIII ejusdem libri If 
+Senten<lb ed="#Bc" break="no"/>tiarum, que sic incipit : Post predicta de
+<lb ed="#Bc"/>voluntate et ejus fine disserendum est.
+</p>
+            <p xml:id="Almn78-g00676-d1e132">
+               <lb ed="#Bc"/>Et quia jam de voluntate in 
+questio<lb ed="#Bc" break="no"/>nibus de viribus anime, tractatu de 
+li<lb ed="#Bc" break="no"/>bero arbitrio, satis dictum est,et simili
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>ter de libertate voluntatis, non oportet
+<lb ed="#Bc"/>hic querere nisi ex fine, qualiter 
+pense<lb ed="#Bc" break="no"/>tur voluntas, propter dictum Augustini
+<lb ed="#Bc"/>quod inducit Magister in Littera sic :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-g00676-Qd1e153"> Ex fine suo (ut ait Augustinus in 
+li<lb ed="#Bc" break="no"/>bro XI de Trinitate) voluntas 
+cogno<lb ed="#Bc" break="no"/>scitur utrum recta, vel prava sit. Finis
+<pb ed="#Bc" n="454"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>autem bone voluntatis beatitudo est,
+<lb ed="#Bc"/>vita eterna, ipse Deus. Male vero finis
+<lb ed="#Bc"/>est aliud, scilicet mala delectatio, vel
+<lb ed="#Bc"/>aliquid aliud in quo non debet voluntas
+<lb ed="#Bc"/>quiescere.</quote>
+            </p>
+            <p xml:id="Almn78-g00676-d1e177">
+               <lb ed="#Bc"/>Hoc enim videtur esse falsum, quod
+<lb ed="#Bc"/>bona voluntas sit, cujus bonus est finis.
+</p>
+            <p xml:id="Almn78-g00676-d1e184">
+               <lb ed="#Bc"/>4. Unde antiqui, Prepositivus scilicet
+<lb ed="#Bc"/>et alii dederunt instantiam sic : Aliquis
+<lb ed="#Bc"/>est qui cum heretica fornicatur ut eam
+<lb ed="#Bc"/>ab heresi avertat, bonus finis est, et 
+ta<lb ed="#Bc" break="no"/>men voluntas mala, et actus malus est:
+<lb ed="#Bc"/>ergo non semper ex fine cognoscitur 
+vo<lb ed="#Bc" break="no"/>luntas utrum recta sit vel prava.
+</p>
+            <p xml:id="Almn78-g00676-d1e202">
+               <lb ed="#Bc"/>2, Adhuc, Omnis sapiens in actu suo,
+<lb ed="#Bc"/>sicut dicit Philosophus in Il Ethicorum,
+<lb ed="#Bc"/>prestituit sibi finem per rationem ad
+<lb ed="#Bc"/>quem dirigatactionem suam : aliter 
+ne<lb ed="#Bc" break="no"/>scit quid facit.Tunc videtur, quod 
+inten<lb ed="#Bc" break="no"/>tio non sit voluntas cum fine, sed ratio
+<lb ed="#Bc"/>prestituens finem.
+</p>
+            <p xml:id="Almn78-g00676-d1e220">
+               <lb ed="#Bc"/>3. Adhuc, Magister dicit in eodem
+<lb ed="#Bc"/>cap. 1 distinctionis ejusdem: <quote xml:id="Almn78-g00676-Qd1e226"> Finem
+<lb ed="#Bc"/>vero bonum insinuat propheta, Psal.
+<lb ed="#Bc"/>cxvin, 96, dicens: Omnis 
+consumma<lb ed="#Bc" break="no"/>tionis vidi finem, etc. Charitas ergo 
+cu<lb ed="#Bc" break="no"/>jus latum mandatum est, finis est omnis
+<lb ed="#Bc"/>consummationis, id est, omnis bone 
+vo<lb ed="#Bc" break="no"/>luntatis et actionis, ad quam omne 
+pre<lb ed="#Bc" break="no"/>ceptum referendum est. </quote> Et secundum
+<lb ed="#Bc"/>hoc idem videtur esse forma et finis,
+<lb ed="#Bc"/>quod tamen non contingit. Charitas
+<lb ed="#Bc"/>enim est forma informans omne nostrum
+<lb ed="#Bc"/>meritum, sine qua omnis actio et virtus
+<lb ed="#Bc"/>informis est. Deus autem finis, ut paulo
+<lb ed="#Bc"/>ante dictum est. Et sic videtur, quod
+<lb ed="#Bc"/>charitas non sit finis, sed forma.
+</p>
+            <p xml:id="Almn78-g00676-d1e260">
+               <lb ed="#Bc"/>4. Ulterius queritur de argumento
+<lb ed="#Bc"/>quod inducitur in Littera ex epistola
+<lb ed="#Bc"/>Lad Timoth. 1, 3, ubi dicitur, quod finis
+<lb ed="#Bc"/>precepti est charitas de corde puro, et
+<lb ed="#Bc"/>conscientia bona, et fide non ficta. Ibi
+<lb ed="#Bc"/>enim plura videntur adjungi charitati si
+<lb ed="#Bc"/>debeat esse finis.
+</p>
+            <p xml:id="Almn78-g00676-d1e278">
+               <lb ed="#Bc"/>5. Adhuc, In quarto capite ejusdem
+<lb ed="#Bc"/>distinctionis objicit Magister contra hoc,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>quod unus est finis nostrarum actionum,
+<lb ed="#Bc"/>per Augustinum in libro de Sermone
+<lb ed="#Bc"/>Domini in monte, ubi dicit : <quote xml:id="Almn78-g00676-Qd1e293"> Ne nobis
+<lb ed="#Bc"/>duos fines constituamus : non enim 
+de<lb ed="#Bc" break="no"/>bemus ideo evangelizare ut manduce~
+<lb ed="#Bc"/>mus, sed ideo manducare ut 
+evangelize<lb ed="#Bc" break="no"/>mus '. </quote> Ex hoc videtur, quod duo fines
+<lb ed="#Bc"/>aliquando sint in aliquibus actionibus,
+<lb ed="#Bc"/>et non Deus, vel charitas sola.
+</p>
+            <p xml:id="Almn78-g00676-d1e310">
+               <lb ed="#Bc"/>Ulterius queritur de hoc quod dicit
+<lb ed="#Bc"/>Magister in eadem distinctione, cap.
+pen<lb ed="#Bc" break="no"/>ultimo, ibi, Solet etiam queri, quid
+<lb ed="#Bc"/>distat inter voluntatem, intentionem, et
+<lb ed="#Bc"/>jinem.
+</p>
+            <p xml:id="Almn78-g00676-d1e323">
+               <lb ed="#Bc"/>Et solvit dicens, quod voluntas est 
+po<lb ed="#Bc" break="no"/>tentia animi qua volumus aliquid. Finis
+<lb ed="#Bc"/>vero est id quod volumus, per quod 
+im<lb ed="#Bc" break="no"/>pletur voluntas. Intentio vero interdum
+<lb ed="#Bc"/>pro voluntate, interdum pro volito 
+acci<lb ed="#Bc" break="no"/>pitur. Et quia secundum hunc modum
+<lb ed="#Bc"/>multi sunt fines et multe intentiones in
+<lb ed="#Bc"/>quolibet opere, contra hoc videtur esse
+<lb ed="#Bc"/>quod dicitur: Omnis consummationis
+<lb ed="#Bc"/>vidi finem*, unum, scilicet charitatem.
+</p>
+            <p xml:id="Almn78-g00676-d1e347">
+               <lb ed="#Bc"/>Ulterius queritur de hoc quod dicitur
+<lb ed="#Bc"/>in ultimo capite, ibi, Sed queritur,
+<lb ed="#Bc"/>utrum mtentio talis sit voluntas, scilicet
+<lb ed="#Bc"/>quando aliquis reficit esurientem ut 
+ha<lb ed="#Bc" break="no"/>beat vitam eternam. Aliud enim est
+<lb ed="#Bc"/>velle reficere esurientem, et aliud velle
+<lb ed="#Bc"/>habere vitam ezternam ad quod tendit
+<lb ed="#Bc"/>voluntas.
+</p>
+            <p xml:id="Almn78-g00676-d1e367">
+               <lb ed="#Bc"/>Et sic ilerum videtur, quod plures sunt
+<lb ed="#Bc"/>fines differentes inter se, et non sola
+<lb ed="#Bc"/>charitas.
+</p>
+            <p xml:id="Almn78-g00676-d1e376">
+               <lb ed="#Bc"/>Adhuc, Quidam objiciunt ex hoc quod
+<lb ed="#Bc"/>dicitur in fine Ecclesiaste, xu, 13, quod
+<lb ed="#Bc"/>scilicet charitas non sit finis, sed timor
+<lb ed="#Bc"/>Dei. Dicitur enim ibi: Finem loquendi
+<lb ed="#Bc"/>pariter omnes audiamus. Deum time, et
+<lb ed="#Bc"/>mandata ejus observa : hoc est enim 
+om<lb ed="#Bc" break="no"/>nis homo, id est, ad hoc est omnis homo.
+<lb ed="#Bc"/>Ergo charitas non videtur esse finis, sed
+<lb ed="#Bc"/>timor Dei.
+</p>
+            <p xml:id="Almn78-g00676-d1e398">
+
+               <pb ed="#Bc" n="455"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Solutio. Dicendum ad primam 
+par<lb ed="#Bc" break="no"/>tem distinctionis istius per illud 
+Philo<lb ed="#Bc" break="no"/>sophi in H Ethicorum, quod quedam
+<lb ed="#Bc"/>mox conjuncta sunt malo, et non 
+pos<lb ed="#Bc" break="no"/>sunt bono fine fieri, ut fornicatio, et 
+hu<lb ed="#Bc" break="no"/>jusmodi, que per se mala sunt, et in
+<lb ed="#Bc"/>ratione sua concludunt, quod mala sunt.
+<lb ed="#Bc"/>Unde nihil dictum, quod fornicatur cum
+<lb ed="#Bc"/>heretica ut avertat eam: quia hoc opus
+<lb ed="#Bc"/>ad talem finem nullo modo de se 
+ordina<lb ed="#Bc" break="no"/>tur, sed potius ad delectationem pravam,
+<lb ed="#Bc"/>per quam illa heretica plus confirmatur
+<lb ed="#Bc"/>in malo, quam abstrahatur.
+</p>
+            <p xml:id="Almn78-g00676-d1e434">
+               <lb ed="#Bc"/>Similiter dicendum de illo qui furatur
+<lb ed="#Bc"/>ut pascat pauperem.
+</p>
+            <p xml:id="Almn78-g00676-d1e441">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod utrumque
+<lb ed="#Bc"/>verum est, quod et ratio prestituens 
+fi<lb ed="#Bc" break="no"/>nem est finis, et ille est finis 
+intenden<lb ed="#Bc" break="no"/>tis : voluntas vero est finis sicut tendens
+<lb ed="#Bc"/>in finem per opus, sicut dicitur in II
+<lb ed="#Bc"/>Ethicorum.
+</p>
+            <p xml:id="Almn78-g00676-d1e457">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod in tota 
+na<lb ed="#Bc" break="no"/>tura contingit, quod idem est forma et
+<lb ed="#Bc"/>finis, et multo magis in moribus. Unde
+<lb ed="#Bc"/>hec objectio fundatur super falsum, cum
+<lb ed="#Bc"/>non sint diversi fines charitas et Deus :
+<lb ed="#Bc"/>quia dicitur, I Joan. tv, 16: Deus 
+cha<lb ed="#Bc" break="no"/>ritas est, et qui manet in charitate, in
+<lb ed="#Bc"/>Deo manet, et Deus in eo.
+</p>
+            <p xml:id="Almn78-g00676-d1e477">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod illa 
+adjun<lb ed="#Bc" break="no"/>cta charitati cum charitate sunt et 
+infor<lb ed="#Bc" break="no"/>mantur ab ipsa : et ideo unum sunt cum
+<lb ed="#Bc"/>ea inseparabiliter adjuncta ei.
+</p>
+            <p xml:id="Almn78-g00676-d1e488">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod unus solus
+<lb ed="#Bc"/>est finis intentionis, licet plures termini
+<lb ed="#Bc"/>sint actionum. Et hoc est, sicut dicitur
+<lb ed="#Bc"/>in II Topicorum, quod una scientia est
+<lb ed="#Bc"/>plurium velut amborum finium: unius
+<lb ed="#Bc"/>tamquam ejus quod est finis, alterius
+<lb ed="#Bc"/>tanquam ejus quod est ad finem. Et ita
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>est hic : qui enim manducat ut 
+evange<lb ed="#Bc" break="no"/>lizet, manducationem refert ad 
+Evange<lb ed="#Bc" break="no"/>lium, et corporale ad spirituale et ad
+<lb ed="#Bc"/>Deum: et sic unim finem habet, et
+<lb ed="#Bc"/>non plures.
+</p>
+            <p xml:id="Almn78-g00676-d1e519">
+               <lb ed="#Bc"/>Avi quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum, quod bene solvit Magister, et jam
+<lb ed="#Bc"/>solutum est: quia nihil prohibet esse
+<lb ed="#Bc"/>multos terminos actionum, dummodo
+<lb ed="#Bc"/>unus finis sit ad quem omnia referuntur.
+</p>
+            <p xml:id="Almn78-g00676-d1e533">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur de ulti- 
+<lb ed="#Bc"/>mo capitulo, eodem modo dicenduin
+<lb ed="#Bc"/>est: quia omnes particulares actiones
+<lb ed="#Bc"/>habent speciales terminos, per quos 
+ta<lb ed="#Bc" break="no"/>men tenditur ad unum finem. Et dator
+<lb ed="#Bc"/>simile, sicut sunt diverse mansiones 
+via<lb ed="#Bc" break="no"/>toris in singulis hospitiis in quibus 
+ma<lb ed="#Bc" break="no"/>net ut peregrinus, una tamen patria ad
+<lb ed="#Bc"/>quam per omnia illa tendit : ita sunt 
+di<lb ed="#Bc" break="no"/>versi termini meritorum, una tamen 
+be<lb ed="#Bc" break="no"/>atitudo ad quam per omnes illos 
+ten<lb ed="#Bc" break="no"/>dit.
+</p>
+            <p xml:id="Almn78-g00676-d1e562">
+               <lb ed="#Bc"/>Ad vuttimum dicendum, quod timor
+<lb ed="#Bc"/>Dei finis est secundum recessum a 
+ma<lb ed="#Bc" break="no"/>lo : charitas finis est secundum accessum
+<lb ed="#Bc"/>ad bonum. Et sic utramque verum est,
+<lb ed="#Bc"/>quod et charitas est finis, et timor est
+<lb ed="#Bc"/>finis. Ille enim timor cum charitate, et
+<lb ed="#Bc"/>in charitate est, sicut dicit beatus 
+Gre<lb ed="#Bc" break="no"/>gorius, sic: <quote xml:id="Almn78-g00676-Qd1e581"> Gum peena sic timetur,
+<lb ed="#Bc"/>quod facies judicis non amatur, timor
+<lb ed="#Bc"/>ex timore est, et non ex amore. Cum 
+au<lb ed="#Bc" break="no"/>tem facies judicis amatur, etsi pcena 
+ti<lb ed="#Bc" break="no"/>meatur, timor ex amore est, non 
+timo<lb ed="#Bc" break="no"/>re : et vocatur amor filialis et non 
+servi<lb ed="#Bc" break="no"/>lis, nec foras mittitur sicut servilis 
+ti<lb ed="#Bc" break="no"/>mor. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

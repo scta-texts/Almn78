@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 37</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 37</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="384"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a85009"><!-- p1t9q37 -->
+            <head xml:id="Almn78-a85009-Hd1e106">Quaestio 37</head>
+            <head xml:id="Almn78-a85009-Hd1e109" type="question-title">
+      An in divinis sit relatio.
+    </head>
+            <p xml:id="Almn78-a85009-d1e112">
+               <lb ed="#Ba"/>QUAESTIO XXXVII.
+<lb ed="#Ba"/>An in divinis sit relatio.
+</p>
+            <p xml:id="Almn78-a85009-d1e119">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Primo ergo queritur, An in divinis
+<lb ed="#Ba"/>sit relatio ? 
+</p>
+            <p xml:id="Almn78-a85009-d1e128">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Quam questionem tractat Magister in
+<lb ed="#Ba"/>I Sententiarum, distinct. XXVI.
+</p>
+            <p xml:id="Almn78-a85009-d1e138">
+               <pb ed="#Ba" n="385"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Dicit enim Augustinus in libro V de
+<lb ed="#Ba"/>Trinitate ', quod nihil in Deo secundum
+<lb ed="#Ba"/>accidens dicitur : quia nihil ei accidit :
+<lb ed="#Ba"/>omnis autem relatio accidens est : et 
+ne<lb ed="#Ba" break="no"/>gato consequente negatur antecedens :
+<lb ed="#Ba"/>ergo in Deo non est relatio, nec aliquid
+<lb ed="#Ba"/>dicitur secundum relationem.
+</p>
+            <p xml:id="Almn78-a85009-d1e162">
+               <lb ed="#Ba"/>2. Adhuc, Boetius in libro de Trinitate
+<lb ed="#Ba"/>sic dicit : <quote xml:id="Almn78-a85009-Qd1e168"> Predicamenta que sunt 
+se<lb ed="#Ba" break="no"/>ciundum accidens, cum quis in divinum
+<lb ed="#Ba"/>predicationem verlerit, cuncta 
+mutan<lb ed="#Ba" break="no"/>tur que predicari possunt. </quote> Sed relatio
+<lb ed="#Ba"/>predicamentum accidentis est. Ergo in
+<lb ed="#Ba"/>divinam predicationem versum mutatur.
+<lb ed="#Ba"/>Mutatum autem non remanet relatio :
+<lb ed="#Ba"/>quia nulla substantia relatio est, et nulla
+<lb ed="#Ba"/>relatio substantia. Videtur ergo, quod
+<lb ed="#Ba"/>relatio non maneat relatio sumpta in 
+di<lb ed="#Ba" break="no"/>vina predicatione.
+</p>
+            <p xml:id="Almn78-a85009-d1e193">
+               <lb ed="#Ba"/>3. Adhuc, Augustinus dicit : <quote xml:id="Almn78-a85009-Qd1e197"> Quod 
+di<lb ed="#Ba" break="no"/>cilur ad alterum, non substantiam 
+signi<lb ed="#Ba" break="no"/>ficat. </quote> Sed immediata divisio est, quod
+<lb ed="#Ba"/>omne quod de altero dicitur, aut 
+secun<lb ed="#Ba" break="no"/>dum substantiam dicitur, aut sccundum
+<lb ed="#Ba"/>accidens. Omne enim quod est, aut est
+<lb ed="#Ba"/>ens per se nullo indigens ut ens sit, aut
+<lb ed="#Ba"/>ens non per se, sed per aliud et in alio
+<lb ed="#Ba"/>et alio indigens ut sit, et nitens alii, cum
+<lb ed="#Ba"/>non possit esse in seipso. Et si est ens
+<lb ed="#Ba"/>per se, substantia est et substantiam
+<lb ed="#Ba"/>predicat. Si autem est in alio et per aliud,
+<lb ed="#Ba"/>alio indigens et alii nitens, de necessitate
+<lb ed="#Ba"/>accidens est et praedicat accidens quando
+<lb ed="#Ba"/>dicitur de aliquo. <quote xml:id="Almn78-a85009-Qd1e230"> Cum ergo ad aliquid
+<lb ed="#Ba"/>non predicet substantiam, </quote> ut dicit 
+Au<lb ed="#Ba" break="no"/>vustinus, videtur sequi de necessitate,
+<lb ed="#Ba"/>quod predicet accidens : et sic ut prius
+<lb ed="#Ba"/>arguitur, cum accidens non sit in Deo,
+<lb ed="#Ba"/>relatio non erit in Deo.
+</p>
+            <p xml:id="Almn78-a85009-d1e245">
+               <lb ed="#Ba"/>4. Si quis ad hoc solvere velit, sicut
+<lb ed="#Ba"/>solvit Augustinus in libro V de /riniiate,
+<lb ed="#Ba"/>sic dicens : <quote xml:id="Almn78-a85009-Qd1e253"> Nihil in Deo secundum 
+ac<lb ed="#Ba" break="no"/>cidens dicitur, quia nihil ei accidit. Nec
+<lb ed="#Ba"/>tamen omne quod dicitur, secundum
+<lb ed="#Ba"/>substantiam dicitur. In rebus enim 
+crea<lb ed="#Ba" break="no"/>lis atque mutabilibus, quod non 
+  secun
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>dum substantiam dicitur, restat ut 
+secun<lb ed="#Ba" break="no"/>dum accidens dicatur. In Deo autem 
+ni<lb ed="#Ba" break="no"/>hil quidem secundum accidens dicitur ,
+<lb ed="#Ba"/>quia nihil in eo mutabile est aut 
+amissi<lb ed="#Ba" break="no"/>bile. Nec tamen omne quod dicitur, 
+se<lb ed="#Ba" break="no"/>cundum substantiam dicitur’ dicitur
+<lb ed="#Ba"/>enim ad aliquid, sicut pater ad filium, et
+<lb ed="#Ba"/>filius ad patrem : quod non est accidens:
+<lb ed="#Ba"/>quia ille semper pater est, et ille semper
+<lb ed="#Ba"/>filius. </quote> Et ad hoc redit dictum 
+Augu<lb ed="#Ba" break="no"/>stini,quod relatio in divinis ideo non 
+di<lb ed="#Ba" break="no"/>citur accidens, quia semper adest et 
+im<lb ed="#Ba" break="no"/>mutabiliter. Et videtur non solvere : 
+ac<lb ed="#Ba" break="no"/>cidens enim naturam accidentis non 
+ha<lb ed="#Ba" break="no"/>bet ex hoc quod mutabile est, vel 
+separa<lb ed="#Ba" break="no"/>bile, sed ex hoc quod inest. Ergo relatio
+<lb ed="#Ba"/>ex hoc quod inest, licet inseparabiliter et
+<lb ed="#Ba"/>ab eterno, nihilominus tamen accidens
+<lb ed="#Ba"/>est. Et inde objicitur ut prius, quod 
+sci<lb ed="#Ba" break="no"/>licet in Deo non sit relatio: quia 
+acci<lb ed="#Ba" break="no"/>dens in Deo non est.
+</p>
+            <p xml:id="Almn78-a85009-d1e313">
+               <lb ed="#Ba"/>5. Adhuc, Inter genera accidentis 
+re<lb ed="#Ba" break="no"/>latio imperfectius est : eo quod id quod
+<lb ed="#Ba"/>est, ad alterum est, et nihil est absolute.
+<lb ed="#Ba"/>Quod autem imperfectum est, maxime
+<lb ed="#Ba"/>removendum est a divinis. Relatio ergo
+<lb ed="#Ba"/>maxime erit removenda a divinis.
+</p>
+            <p xml:id="Almn78-a85009-d1e329">
+               <lb ed="#Ba"/>6. Adhuc, Omne quod secundum 
+veri<lb ed="#Ba" break="no"/>tatem est in aliquo, si ipsum est et 
+in<lb ed="#Ba" break="no"/>est, addit aliquid ei cui inest, et 
+subtra<lb ed="#Ba" break="no"/>clum minuit aliquid ab eo: et si 
+ali<lb ed="#Ba" break="no"/>quando insit, et aliquando non, mutat,
+<lb ed="#Ba"/>vel mutationem que secundum ipsum
+<lb ed="#Ba"/>est, inducit. Relatio ei in quo est, nihil
+<lb ed="#Ba"/>addit, et subtracta nihil minuit, et 
+exi<lb ed="#Ba" break="no"/>stens aliquando et aliquando non, 
+nul<lb ed="#Ba" break="no"/>Jam inducit mutationem in eo in quo est.
+<lb ed="#Ba"/>Aristoteles enim in V Physicorum, dicit,
+<lb ed="#Ba"/>quod in ad aliquid non est motus. Ad
+<lb ed="#Ba"/>aliquid ergo entis alicujus non habet 
+ve<lb ed="#Ba" break="no"/>titatem. Nihil autem in Deo est nisi 
+se<lb ed="#Ba" break="no"/>cundum essenti# veritatem. Ergo 
+rela<lb ed="#Ba" break="no"/>tio in Deo secundum veritatem esse non
+<lb ed="#Ba"/>videtur. Prima pars patet per se. 
+Szcun<lb ed="#Ba" break="no"/>pam scribit Boetius in libro de Vrinitate :
+<lb ed="#Ba"/>dicit enim, quod <quote xml:id="Almn78-a85009-Qd1e372"> relatio nec addit,
+<lb ed="#Ba"/>nec minuit, nec mutat id in quo est. </quote>
+            </p>
+            <p xml:id="Almn78-a85009-d1e379">
+               <pb ed="#Ba" n="386"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>7. Adhuc, Omne quod simplicissimo
+<lb ed="#Ba"/>nullam affert compositionem, 
+quantum<lb ed="#Ba" break="no"/>cumgue multiplicetur in ipso, nullam
+<lb ed="#Ba"/>habet entitalis veritatem. Relatio 
+simpli<lb ed="#Ba" break="no"/>cissimo addita et in eo multiplicata, 
+nul<lb ed="#Ba" break="no"/>lam affert compositionem. Ergo nullam
+<lb ed="#Ba"/>entitatis habet veritatem. Peima 
+proba<lb ed="#Ba" break="no"/>tur ex hoe, quod si haberet veram 
+enti<lb ed="#Ba" break="no"/>tatem, haec addita simplicissimo 
+induce<lb ed="#Ba" break="no"/>ret compositionem. Sscunpa scribitur ab
+<lb ed="#Ba"/>Avicenna in prima sua philosophia, ubi
+<lb ed="#Ba"/>loquitur de relatione. Dicit enim, quod
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a85009-Qd1e413"> quanto aliquid simplicius est, tanto
+<lb ed="#Ba"/>pluribus relationibus ad plura refertur.’
+<lb ed="#Ba"/>Et quod simplicissimum, omnimodis 
+re<lb ed="#Ba" break="no"/>lationibus refertur ad omnia. </quote> Et sic 
+pa<lb ed="#Ba" break="no"/>tet, quod relatio nullam veram habet
+<lb ed="#Ba"/>entitatem secundum veritatem. Ergo in
+<lb ed="#Ba"/>divinis esse non videtur : ens enim et
+<lb ed="#Ba"/>verum convertuntur. Et sicut dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in V prime phylosophiae, <quote xml:id="Almn78-a85009-Qd1e433"> 
+sic<lb ed="#Ba" break="no"/>ut se habet res ad esse, ita se habet ad
+<lb ed="#Ba"/>verum. </quote>
+            </p>
+            <p xml:id="Almn78-a85009-d1e441">
+               <lb ed="#Ba"/>In contrarium hujus est,
+<lb ed="#Ba"/>1. Quod dicit Boetius in libro de 
+7ri<lb ed="#Ba" break="no"/>nitate, quod <quote xml:id="Almn78-a85009-Qd1e449"> substantia continet 
+unita<lb ed="#Ba" break="no"/>tem in divinis, relatio vero multiplicat
+<lb ed="#Ba"/>Trinitatem. </quote> Constat autem, quod 
+Tri<lb ed="#Ba" break="no"/>nitas vere multiplicatur in tres personas.
+<lb ed="#Ba"/>Ergo id quod multiplicat eam, relatio
+<lb ed="#Ba"/>scilicet, vere est in divinis, et secundum
+<lb ed="#Ba"/>veram entitatem.
+</p>
+            <p xml:id="Almn78-a85009-d1e466">
+               <lb ed="#Ba"/>2. Adhuc, Damascenus dicit, quod
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a85009-Qd1e472"> Pater et Filius et Spiritus sanctus non
+<lb ed="#Ba"/>sunt nomina significantia substantiam,
+<lb ed="#Ba"/>sed nomina habitudinis, qua persone se
+<lb ed="#Ba"/>habent ad invicem secundum existentie
+<lb ed="#Ba"/>modum. </quote> Sed existentia modus 
+veris<lb ed="#Ba" break="no"/>sime est in Trinitate, quo quelibet 
+per<lb ed="#Ba" break="no"/>sona secundum seipsam existit. Ergo et
+<lb ed="#Ba"/>relativum et relatio verissime significant
+<lb ed="#Ba"/>modum illum: et ita secundum 
+verita<lb ed="#Ba" break="no"/>tem sunt in divinis.
+</p>
+            <p xml:id="Almn78-a85009-d1e495">
+               <lb ed="#Ba"/>3. Adhuc, Quod assumptum in 
+divi<lb ed="#Ba" break="no"/>nam predicationem omnino non 
+muta<lb ed="#Ba" break="no"/>tur a modo predicandi quod predicat,
+<lb ed="#Ba"/>verissime manet in divinis. Relatio 
+as<lb ed="#Ba" break="no"/>sumpta in divinam predicationem, 
+om<lb ed="#Ba" break="no"/>nino non mutatur a modo predicandi
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>quod predicat. Ergo verissime manet
+<lb ed="#Ba"/>in divinis. Prima patet per se. Secunia
+<lb ed="#Ba"/>scribitur a Boetio in libro de TZrinitalr.
+</p>
+            <p xml:id="Almn78-a85009-d1e519">
+               <lb ed="#Ba"/>4. Adhuc, In prainducta Augustin
+<lb ed="#Ba"/>aucloritate habetur, quod <quote xml:id="Almn78-a85009-Qd1e525"> id quod 
+di<lb ed="#Ba" break="no"/>citur ad aliquid, non dicitur secundum
+<lb ed="#Ba"/>substantiam. </quote> Aut ergo vere dicitur,
+<lb ed="#Ba"/>aut non. Si non: tunc false dicerelur :
+<lb ed="#Ba"/>quod inconveniens est: tunc enim hive:
+<lb ed="#Ba"/>esset falsa, pater est filii pater. Si aulem
+<lb ed="#Ba"/>vere dicitur, sequitur quod vere est in
+<lb ed="#Ba"/>divinis ad aliquid et relatio.
+</p>
+            <p xml:id="Almn78-a85009-d1e544">
+               <lb ed="#Ba"/>Ulterius queritur, Si ea que 
+dicun<lb ed="#Ba" break="no"/>tur in divinis, secundum substantiam
+<lb ed="#Ba"/>possint dici?
+</p>
+            <p xml:id="Almn78-a85009-d1e554">
+               <lb ed="#Ba"/>Et videtur, quod non,
+<lb ed="#Ba"/>1. Substantia enim, ut dicit 
+Aristote<lb ed="#Ba" break="no"/>les in Predicamentis, a substare. 
+dici<lb ed="#Ba" break="no"/>tur : eo quod substat accidentibus et
+<lb ed="#Ba"/>fundat ea in esse per hoc quod sunt in
+<lb ed="#Ba"/>ipsa et de ipsa. Dicit autem Augustinus
+<lb ed="#Ba"/>in libro Vil de Trinitate, quod <quote xml:id="Almn78-a85009-Qd1e571"> nefas
+<lb ed="#Ba"/>est dicere ut substet Deus et subsit 
+bo<lb ed="#Ba" break="no"/>nitati sue, tamquam illa bonitas non
+<lb ed="#Ba"/>substantia sit, sed in illa sit tamquam in
+<lb ed="#Ba"/>subjecto. </quote> Ergo videtur, quod nihil in
+<lb ed="#Ba"/>Deo secundum substantiam dicatur.
+</p>
+            <p xml:id="Almn78-a85009-d1e585">
+               <lb ed="#Ba"/>2. Adhuc, Substantia que maxime
+<lb ed="#Ba"/>substat, est prima substantia, que sic
+<lb ed="#Ba"/>subjectum est, ut dicit Aristoteles, quod
+<lb ed="#Ba"/>ab ipsa nulla exit pradicatio, et 
+ratio<lb ed="#Ba" break="no"/>nem predicati nullo modo suscipere
+<lb ed="#Ba"/>potest, ut in Logicis determinatum est.
+<lb ed="#Ba"/>Unde illa dicitur, que primo et 
+princi<lb ed="#Ba" break="no"/>paliter et maxime substat : eo quod
+<lb ed="#Ba"/>omne quod substat, compositum est ex
+<lb ed="#Ba"/>eo quod substat et cui substat. In 
+divi<lb ed="#Ba" break="no"/>nis ergo nihil secundum substantiam
+<lb ed="#Ba"/>potest pradicari.
+</p>
+            <p xml:id="Almn78-a85009-d1e614">
+               <lb ed="#Ba"/>3. Adhuc, Omne quod predicatur de
+<lb ed="#Ba"/>aliquo, predicatur ut de subjecto, sive
+<lb ed="#Ba"/>predicetur modo substantia, sive modo
+<lb ed="#Ba"/>accidentis. In divinis nihil est 
+subje<lb ed="#Ba" break="no"/>ctum, vel in ratione subjecti : eo quod
+<lb ed="#Ba"/>simplicissimum est omne quod est in 
+di<lb ed="#Ba" break="no"/>vinis. Ergo videtur, quod in Deo nihil
+<lb ed="#Ba"/>predicetur secundum substantiam, vel
+<lb ed="#Ba"/>secundum accidens. .
+</p>
+            <p xml:id="Almn78-a85009-d1e636">
+               <pb ed="#Ba" n="387"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Solutio. Ad primam partem 
+questio<lb ed="#Ba" break="no"/>his prenotandum est, quod multi 
+philo<lb ed="#Ba" break="no"/>avuphi propter rationes superius inductas
+<lb ed="#Ba"/>relalionem dixerunt non esse entis 
+pra<lb ed="#Ba" break="no"/>dicamentum, sed aliquid per rationem
+<lb ed="#Ba"/>im omnibus existens, ex hoc scilicet,
+<lb ed="#Ba"/>quod ratio comparat unum ad alterum
+<lb ed="#Ba"/>aicul superius ad inferius, vel sicut 
+par<lb ed="#Ba" break="no"/>ei ad totum,vel sicut partem ad 
+compar<lb ed="#Ba" break="no"/>win: vel par ad compar vel dispar : 
+ra<lb ed="#Ba" break="no"/>lionem accipientes ex hoc, quod dicunt
+<lb ed="#Ba"/>Alexander et Boetius in commento libri
+<lb ed="#Ba"/>lredicamentorum, quod si accipiantur
+<lb ed="#Ba"/>wt quae secundum dici et esse ad aliquid
+<lb ed="#Ba"/>sunt, ut duplum et dimidium, que 
+se<lb ed="#Ba" break="no"/>cundum eumdem casum, genitivum 
+sci<lb ed="#Ba" break="no"/>livet, ad convertentiam dicuntur, per hoc
+<lb ed="#Ba"/>quod dicitur dimidium, nihil additur ei
+<lb ed="#Ba"/>quod entitatis sit, sed sola divisione per
+<lb ed="#Ba"/>medium efficitur dimidium : divisio 
+au<lb ed="#Ba" break="no"/>tem nihil addit, nec minuit ab utroque
+<lb ed="#Ba"/>divisorum, nec mutationem inducit que
+<lb ed="#Ba"/>nit in ipsis dividentibus : et ideo 
+dimi<lb ed="#Ba" break="no"/>dium super id quod est dimidium, nihil
+<lb ed="#Ba"/>videtur addere quod veram habeat 
+enti<lb ed="#Ba" break="no"/>falem.
+</p>
+            <p xml:id="Almn78-a85009-d1e699">
+               <lb ed="#Ba"/>Hi tamen decepti sunt secundum 
+Ari<lb ed="#Ba" break="no"/>slotelem. Constat enim, quod modus
+<lb ed="#Ba"/>comparationis in ipsis comparatis est
+<lb ed="#Ba"/>aliquid, ut proportio et habitudo, 
+etiam<lb ed="#Ba" break="no"/>si numquam comparentur ad invicem 
+se<lb ed="#Ba" break="no"/>cundum actum : et alle modus aliquid
+<lb ed="#Ba"/>wntitatis est, et sic cadit im modum 
+pra<lb ed="#Ba" break="no"/>dicandi specialem divisam ab omnibus
+<lb ed="#Ba"/>aliis modis predicamentorum, qui 
+pra<lb ed="#Ba" break="no"/>icant ens absolutum : et tales modi 
+se<lb ed="#Ba" break="no"/>cundum coordinationem taliter 
+preedica<lb ed="#Ba" break="no"/>bilium sub uno communi coordinati,
+<lb ed="#Ba"/>unum speciale faciunt predicamentum.
+<lb ed="#Ba"/>In hoc tamen quod nihil apponunt, vel
+<lb ed="#Ba"/>minuunt entitatis absolute, maxime
+<lb ed="#Ba"/>competit summe simplicitati distingui
+<lb ed="#Ba"/>per relationes, ut dicit Boetius in libro
+<lb ed="#Ba"/>de Trinitate, et si quis diligenter 
+adver<lb ed="#Ba" break="no"/>tal, secundum rationem procedit omne
+<lb ed="#Ba"/>predicamentum, tam substantie, quam
+<lb ed="#Ba"/>accidentis. Principia enim pradicamenti
+<lb ed="#Ba"/>prima sunt polentia et actus. Statim
+<lb ed="#Ba"/>autem nominata potentia, in nomine
+</p>
+            <p xml:id="Almn78-a85009-d1e751">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>concipitur et cointelligitur comparatio 
+<lb ed="#Ba"/>potentia ad actum, et in ipso nomine
+<lb ed="#Ba"/>actus cointelligitur comparatio actus ad
+<lb ed="#Ba"/>potentiam, et comparatio utriusque ad
+<lb ed="#Ba"/>totum : et sic relatio. Unde intellectus:
+<lb ed="#Ba"/>relationis est ante intellectum 
+substan<lb ed="#Ba" break="no"/>tia, eo modo quo substantia 
+predica<lb ed="#Ba" break="no"/>mentum est et genus : quia sic composita
+<lb ed="#Ba"/>est ex esse et determinante esse ad 
+sub<lb ed="#Ba" break="no"/>stantiam et ad id quod est: et sunt isti
+<lb ed="#Ba"/>tres intellectus primi consequentes se,
+<lb ed="#Ba"/>esse scilicet, et esse hoc, et 
+determina<lb ed="#Ba" break="no"/>tum ad genus. Et ante-hune secundum
+<lb ed="#Ba"/>intellectum est esse : ad hoc enim 
+coin<lb ed="#Ba" break="no"/>telligitur in habitudine principiorum 
+fa<lb ed="#Ba" break="no"/>cientium hoc esse hoc et distinctum in
+<lb ed="#Ba"/>esse.Et postistos tres intellectus non 
+con<lb ed="#Ba" break="no"/>sequitur,sed accidit intelleetus ejus quod
+<lb ed="#Ba"/>est inesse, qui est intellectus accidentis :
+<lb ed="#Ba"/>accidentis enim esse est inesse. Unde 
+intel<lb ed="#Ba" break="no"/>lectus ejus quod est esse ad aliquid,
+<lb ed="#Ba"/>antecedit intellectum accidentis. Et 
+prop<lb ed="#Ba" break="no"/>ter hoc dicit Augustinus, quod <quote xml:id="Almn78-a85009-Qd1e805"> aliquid
+<lb ed="#Ba"/>potest esse pradicamentum ad aliquid,
+<lb ed="#Ba"/>quod non est predicamentum secundum
+<lb ed="#Ba"/>accidens. </quote> Prius enim natura est esse
+<lb ed="#Ba"/>ad, quam esse in. Et ideo non sequitur,
+<lb ed="#Ba"/>quod pradicatum secundum aliquid 
+pre<lb ed="#Ba" break="no"/>dicetur secundum accidens : prius enim
+<lb ed="#Ba"/>natura non infert posterius natura, sed
+<lb ed="#Ba"/>posterius natura infert prius natura.
+</p>
+            <p xml:id="Almn78-a85009-d1e827">
+               <lb ed="#Ba"/>His ira quam prenotatis, facile est 
+re<lb ed="#Ba" break="no"/>spondere ad objecta.
+</p>
+            <p xml:id="Almn78-a85009-d1e834">
+               <lb ed="#Ba"/>Duo enim prima nihil concludunt
+<lb ed="#Ba"/>eo quod intellectus ejus quod est esse ad
+<lb ed="#Ba"/>aliquid, est ante intellectum accidentis :
+<lb ed="#Ba"/>et ideo ablato accidente, non aufertur
+<lb ed="#Ba"/>intellectus ejus quod est esse ad 
+ali<lb ed="#Ba" break="no"/>quid.
+</p>
+            <p xml:id="Almn78-a85009-d1e850">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod in creaturis
+<lb ed="#Ba"/>bene sequitur, quod non predicatur 
+se<lb ed="#Ba" break="no"/>cundum substantiam, predicatur 
+secun<lb ed="#Ba" break="no"/>dum accidens, dummodo accidens large
+<lb ed="#Ba"/>sumatur, ita quod commune sit ad 
+pro<lb ed="#Ba" break="no"/>prium. Sed in creatore non valet, etiam
+<lb ed="#Ba"/>secundum Philosophos : quia illi propter
+<lb ed="#Ba"/>nimiam simplicitatem nihil accidit : et
+<lb ed="#Ba"/>sicut non est in genere substantie per
+<lb ed="#Ba"/>hoc quod substantia est, ita non est in
+<pb ed="#Ba" n="388"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>genere accidentis per hoc quod ad 
+ali<lb ed="#Ba" break="no"/>quid est. Est enim per hoc quod 
+sub<lb ed="#Ba" break="no"/>stantia est, ante omnem substantiam :
+<lb ed="#Ba"/>et per hoc quod relativum est, ante
+<lb ed="#Ba"/>omne accidens. Nec prima divisio entis
+<lb ed="#Ba"/>est in substantiam et accidens, sed 
+se<lb ed="#Ba" break="no"/>cunda : sed prima divisio est in ens ab
+<lb ed="#Ba"/>alio, et ens non ab alio : et postea entis
+<lb ed="#Ba"/>ab alio divisio est in substantiam et 
+acci<lb ed="#Ba" break="no"/>dens. Substantia enim que dividit ens
+<lb ed="#Ba"/>cum accidente, est substantia 
+subje<lb ed="#Ba" break="no"/>clum. Ens autem non ab alio nullius 
+pot<lb ed="#Ba" break="no"/>est esse subjectum : est enim per 
+intelle<lb ed="#Ba" break="no"/>ctum ante substantiale, et ante 
+acciden<lb ed="#Ba" break="no"/>dale. Et ideo non sequitur in illo, quod
+<lb ed="#Ba"/>non predicatur ut substantia, quod 
+pre<lb ed="#Ba" break="no"/>dicetur ut accidens,
+</p>
+            <p xml:id="Almn78-a85009-d1e915">
+               <lb ed="#Ba"/>Et ex isto patet intellectus verbi 
+Au<lb ed="#Ba" break="no"/>gustini.
+</p>
+            <p xml:id="Almn78-a85009-d1e922">
+               <lb ed="#Ba"/>Et ad objectum contra, dicendum est,
+<lb ed="#Ba"/>quod hoc verum est, quod accidens est :
+<lb ed="#Ba"/>et sive mobiliter sive immobiliter insit,
+<lb ed="#Ba"/>semper accidens est. Sed in divinis 
+rela<lb ed="#Ba" break="no"/>tio non inest ut accidens, sed inest ut
+<lb ed="#Ba"/>idem, non differens ab eo cui insit, nisi
+<lb ed="#Ba"/>secundum modum intelligendi vel 
+signi<lb ed="#Ba" break="no"/>ficandi. Sicut enim habitum est in 
+supe<lb ed="#Ba" break="no"/>rioribus, ex illa parte predicandi modus
+<lb ed="#Ba"/>relativi mutatur in modum predicandi
+<lb ed="#Ba"/>substantiae :paternitas enim in Patre
+<lb ed="#Ba"/>idem est quod Pater.
+</p>
+            <p xml:id="Almn78-a85009-d1e951">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod ad aliquid
+<lb ed="#Ba"/>suo modo perfectum est, sicut et alia
+<lb ed="#Ba"/>predicamenta. Est enim forma 
+respecti<lb ed="#Ba" break="no"/>va, que si absolute significaretur, jam
+<lb ed="#Ba"/>ad aliquid non esset. Unde suo modo
+<lb ed="#Ba"/>prout perfectionem habet, in divinam
+<lb ed="#Ba"/>refertur predicationem. Et quod dicit
+<lb ed="#Ba"/>Boetius, quod non addit, nec minuit, vel
+<lb ed="#Ba"/>mutat, hoc facit relationem magis 
+con<lb ed="#Ba" break="no"/>venire maxime simplicitati, ut in 
+princi<lb ed="#Ba" break="no"/>pio solutionis istius dictum est.
+  
+<lb ed="#Ba"/>Et per Hoc patet solutio ad sequens.
+  
+<lb ed="#Ba"/>Ad aliud dicendum, quod ad aliquid,
+<lb ed="#Ba"/>nullam habet absolutam entitatem : et
+<lb ed="#Ba"/>ideo simplicissimo nihil addit vel 
+mi<lb ed="#Ba" break="no"/>nuit : et propter hoc maxime competit
+<lb ed="#Ba"/>distinctioni que est in divinis.
+  
+<lb ed="#Ba"/>Ad 1 quod in contrarium adducitur,
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>dicendum est, quod relatio in divinis
+<lb ed="#Ba"/>verissimo modo est, sed modo relationis,
+<lb ed="#Ba"/>hoc est, quod non predicat aliquid quid
+<lb ed="#Ba"/>insit modo forme substantialis vel 
+acer<lb ed="#Ba" break="no"/>dentalis, universalis vel particularis, ut
+<lb ed="#Ba"/>dicit Boetius : sed totum quod est, dicit
+<lb ed="#Ba"/>et predicat ad id quod extra est, hoc est,
+<lb ed="#Ba"/>ad oppositum correlativum : quia ad
+<lb ed="#Ba"/>ipsum se habet sicut terminus et finis ad
+<lb ed="#Ba"/>quem determinatur respectus 
+opposilio<lb ed="#Ba" break="no"/>nis ejus. Et ideo dicit Philosophus, quod
+<lb ed="#Ba"/>relativum est hoc ipsum quidquid est, ad
+<lb ed="#Ba"/>alterum, et alterius est. Et secundum
+<lb ed="#Ba"/>hanc veritatem verissime est in divinis.
+<lb ed="#Ba"/>Secundum hune enim modum nihil 
+ad<lb ed="#Ba" break="no"/>dit, vel minuit, vel mutat : quia hoc
+<lb ed="#Ba"/>ipsum quod est, totum ad alterum est,
+<lb ed="#Ba"/>et nihil sui est ad id in quo est. Propler
+<lb ed="#Ba"/>quod etiam Porretanus dicit, quod 
+for<lb ed="#Ba" break="no"/>ma relationis potius esf forma assistcens
+<lb ed="#Ba"/>quam inherens, sicut in Logicis in libro
+<lb ed="#Ba"/>qui dicitur Sex principiorum, 
+determi<lb ed="#Ba" break="no"/>natum est. Et: haec est causa propler
+<lb ed="#Ba"/>quam nulla ei in quo est, affert 
+compo<lb ed="#Ba" break="no"/>sitionem secundum esse : quia cujus
+<lb ed="#Ba"/>esse totum ad alterum est, nihil addit ei
+<lb ed="#Ba"/>in quo est.
+</p>
+            <p xml:id="Almn78-a85009-d1e1054">
+               <lb ed="#Ba"/>Ad oictum Damasceni dicendum,
+<lb ed="#Ba"/>quod Pater et Filius et Spiritus sanctus
+<lb ed="#Ba"/>sunt nomina habitudinis : sed 
+habitudi<lb ed="#Ba" break="no"/>nis illius esse in hoc est, quod ad 
+alte<lb ed="#Ba" break="no"/>rum est, etnon in hoc quod inest alicul :
+<lb ed="#Ba"/>hoc enim est esse accidentis, quod in 
+di<lb ed="#Ba" break="no"/>vinis non est. Habitum enim est, quod
+<lb ed="#Ba"/>intellectus relationis separatus est al
+<lb ed="#Ba"/>intellectu accidentis in omnibus in 
+qui<lb ed="#Ba" break="no"/>bus non fundatur relatio super aliquod
+<lb ed="#Ba"/>aliud accidens, sicut in creaturis. Unde
+<lb ed="#Ba"/>cum dico, similis, similitudo fundatur
+<lb ed="#Ba"/>super unam qualitatem. Cum dico, 
+pa<lb ed="#Ba" break="no"/>ter, paternitas fundatur super aclum 
+ge<lb ed="#Ba" break="no"/>nerationis, qui est accidens generantis :
+<lb ed="#Ba"/>et ita est in omnibus creaturis. Et ideo
+<lb ed="#Ba"/>relatio in creaturis in suo intellectu 
+po<lb ed="#Ba" break="no"/>nit accidens, Sed in divinis substantia,
+<lb ed="#Ba"/>virtus, et operatio, idem sunt sub 
+di<lb ed="#Ba" break="no"/>verso modo significandi et .ideo relatio
+<lb ed="#Ba"/>fundata in his et causata in ipsis, nullum
+<lb ed="#Ba"/>ponit intellectum accidentis,
+</p>
+            <p xml:id="Almn78-a85009-d1e1104">
+               <pb ed="#Ba" n="389"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Ad Aliud dicendum, quod cum dicit
+<lb ed="#Ba"/>Boetius, quod <quote xml:id="Almn78-a85009-Qd1e1114"> ad aliquid omnino non
+<lb ed="#Ba"/>mutatur, </quote> intelligit, quod negatio 
+for<lb ed="#Ba" break="no"/>maliter signum distributivum respiciat,
+<lb ed="#Ba"/>ul sitsensus, non omnino mutatur. Cum
+<lb ed="#Ba"/>mim in creaturis duos habeat modos
+<lb ed="#Ba"/>preedicandi, scilicet accidentis quod in
+<lb ed="#Ba"/>micllectu suo ponit, et eo quod id quod
+<lb ed="#Ba"/>rnusatur ab accidente, non potest esse
+<lb ed="#Ba"/>nisi accidens: alterum autem quem 
+ha<lb ed="#Ba" break="no"/>bet in quantum relatio est: qui est ad
+<lb ed="#Ba"/>extra, assumptum in divina 
+predicatio<lb ed="#Ba" break="no"/>ne, mutat primum et retinet secundum,
+<lb ed="#Ba"/>eo quod in divinis ex accidente non 
+cau<lb ed="#Ba" break="no"/>sutur : et ideo dicit, <quote xml:id="Almn78-a85009-Qd1e1146"> non omnino 
+mu<lb ed="#Ba" break="no"/>tatur. </quote>
+  
+               <lb ed="#Ba"/>Ad aliud dicendum, quod vere dicitur
+<lb ed="#Ba"/>in divinis ad aliquid, et verissime. Et
+<lb ed="#Ba"/>hene conceditur, quod in divinis 
+verissi<lb ed="#Ba" break="no"/>me est relatio veritate relationis, non
+<lb ed="#Ba"/>veritate accidentis : quia in divinis non
+<lb ed="#Ba"/>potuit esse accidens : eo quod non 
+causa<lb ed="#Ba" break="no"/>tur ab accidente : non enim habet esse
+<lb ed="#Ba"/>accidentis relatio nisi secundum quod ab
+<lb ed="#Ba"/>accidente causatur, ut dictum est.
+</p>
+            <p xml:id="Almn78-a85009-d1e1171">
+               <lb ed="#Ba"/>Ad id quod ulterius*queritur, scilicet
+<lb ed="#Ba"/>utrum aliquid secundum — substantiam
+<lb ed="#Ba"/>predicetur in divinis ?
+</p>
+            <p xml:id="Almn78-a85009-d1e1180">
+               <lb ed="#Ba"/>Dicendum, quod substantia dupliciter
+<lb ed="#Ba"/>dicitur, scilicet secundum rationem no-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>minis quod ab actu substandi 
+imponi<lb ed="#Ba" break="no"/>tur: et sic solum substantia est, quod
+<lb ed="#Ba"/>omnium et primum subjectum est : et
+<lb ed="#Ba"/>sic in Deo substantia non est : nec 
+ali<lb ed="#Ba" break="no"/>quid predicatur secundum substantiam.
+<lb ed="#Ba"/>Alio modo dicitur per se ens, quod est
+<lb ed="#Ba"/>causa et occasio omnibus subsistendi in
+<lb ed="#Ba"/>ipso : et sic substantia dicitur de Deo
+<lb ed="#Ba"/>maxime, et de aliis posterius. Ab ipso
+<lb ed="#Ba"/>enim sicut a conficiente, et in ipso sicut
+<lb ed="#Ba"/>in continente, subsistit omne quod est.
+<lb ed="#Ba"/>Et hoc modo aliquid secundum 
+substan<lb ed="#Ba" break="no"/>tiam dicitur de Deo, sicut id quod 
+dici<lb ed="#Ba" break="no"/>tur absolute, et non ad aliquid.
+</p>
+            <p xml:id="Almn78-a85009-d1e1219">
+               <lb ed="#Ba"/>Ad aliud dicendum est, quod omne
+<lb ed="#Ba"/>quod pradicatur per inherentiam, 
+pra<lb ed="#Ba" break="no"/>dicatur ut de subjecto, et omne tale
+<lb ed="#Ba"/>compositum est : et hoc modo nihil 
+pre<lb ed="#Ba" break="no"/>dicatur in divinis. Sed id quod 
+predica<lb ed="#Ba" break="no"/>tur per identitatem, non predicatur per
+<lb ed="#Ba"/>inherentiam : quia inherens non est id
+<lb ed="#Ba"/>cui inheret. Et ideo in divinis ubi est
+<lb ed="#Ba"/>predicatio per identitatem, non 
+predi<lb ed="#Ba" break="no"/>catur aliquid per inherentiam : et quod
+<lb ed="#Ba"/>predicatur in divinis, non pradicatur
+<lb ed="#Ba"/>per inherentiam, sed ut idem: et ideo
+<lb ed="#Ba"/>non predicatur ut de subjecto secundum
+<lb ed="#Ba"/>rationem subjecti, sed pradicatur ut de
+<lb ed="#Ba"/>eo quod perjse existit, et ut idem illi : et
+<lb ed="#Ba"/>ideo predicatur secundum substantiam,
+<lb ed="#Ba"/>sed non ut de subjecto.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

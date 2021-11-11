@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 93</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 93</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="199"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h44168"><!-- p2t15q93 -->
+            <head xml:id="Almn78-h44168-Hd1e106">Quaestio 93</head>
+            <head xml:id="Almn78-h44168-Hd1e109" type="question-title">
+    De ratione et ejus partibus
+  </head>
+            <p xml:id="Almn78-h44168-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO XCIII.
+<lb ed="#Bc"/>De ratione et ejus partibus.
+</p>
+            <p xml:id="Almn78-h44168-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur ratione ejus quod 
+di<lb ed="#Bc" break="no"/>cit Magister in libro II Sententiarum,
+<lb ed="#Bc"/>distinct. XXIV, in illo cap. Est enim
+<lb ed="#Bc"/>sensualitas. <quote xml:id="Almn78-h44168-Qd1e134"> Et ubi nobis gradatim in
+<lb ed="#Bc"/>consideratione partium anime 
+progre<lb ed="#Bc" break="no"/>dientibus, primum aliquid  occurrit
+<lb ed="#Bc"/>quod non est nobis commune cum
+<lb ed="#Bc"/>bestiis, ibi incipit ratio. </quote> Et inducit
+<lb ed="#Bc"/>Augustinum in libro XII de Trinitate
+<lb ed="#Bc"/>sic dicentem: <quote xml:id="Almn78-h44168-Qd1e149"> Videamus ubi sit quasi
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>quoddam hominis exterioris et interioris
+<lb ed="#Bc"/>confinium. </quote>
+            </p>
+            <p xml:id="Almn78-h44168-d1e159">
+               <lb ed="#Bc"/>Ratione cujus querendum est de 
+ra<lb ed="#Bc" break="no"/>tione.
+</p>
+            <p xml:id="Almn78-h44168-d1e167">
+               <lb ed="#Bc"/>Et queruntur sex.
+<lb ed="#Bc"/>Primo, quid sit ratio ?
+<lb ed="#Bc"/>Secundo, In quo differt ab intellectu
+<lb ed="#Bc"/>agente, possibili, adepto, et speculativo ?
+<lb ed="#Bc"/>Tertio, Quid sit superior portio 
+ratio<lb ed="#Bc" break="no"/>nis ?
+<pb ed="#Bc" n="200"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Quarto, Quid sit portio rationis 
+infe<lb ed="#Bc" break="no"/>rior ?
+<lb ed="#Bc"/>Quinto, Qualiter conjugium spirituale
+<lb ed="#Bc"/>sit inter superiorem et inferiorem 
+por<lb ed="#Bc" break="no"/>tionem rationis ?
+<lb ed="#Bc"/>Sexto, Qualiter peccatum 
+consumme<lb ed="#Bc" break="no"/>tur in illis ad similitudinem primi 
+pec<lb ed="#Bc" break="no"/>cati primorum parentum ?
+</p>
+            <div xml:id="Almn78-h44168-Dd1e204">
+               <head xml:id="Almn78-h44168-Hd1e206">Membrum 1</head>
+               <head xml:id="Almn78-h44168-Hd1e209" type="question-title">
+        Quid sit ratio
+      </head>
+               <p xml:id="Almn78-h44168-d1e212">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit ratio ?
+</p>
+               <p xml:id="Almn78-h44168-d1e219">
+                  <lb ed="#Bc"/>Primo ergo queritur, Quid sit ratio ?
+</p>
+               <p xml:id="Almn78-h44168-d1e224">
+                  <lb ed="#Bc"/>1. Et sumatur definitio Isaae in libro
+<lb ed="#Bc"/>de Definitionibus, qui eam definit sic:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h44168-Qd1e232"> Ratio est vis sive virtus anime, faciens
+<lb ed="#Bc"/>currere Causam in causatum. </quote> 
+Secun<lb ed="#Bc" break="no"/>dum hoc enim ratio est virtus collativa
+<lb ed="#Bc"/>et ratiocinativa, secundum quod Boetius
+<lb ed="#Bc"/>dicit, quod <quote xml:id="Almn78-h44168-Qd1e244"> argumentum est ratio rei
+<lb ed="#Bc"/>dubiae faciens fidem: </quote> et sie ratio 
+vide<lb ed="#Bc" break="no"/>tur esse tam superioribus quam 
+inferiori<lb ed="#Bc" break="no"/>bus inherescens: de utrisque enim 
+ar<lb ed="#Bc" break="no"/>gumentatur quid conveniens et quid
+<lb ed="#Bc"/>inconveniens.
+</p>
+               <p xml:id="Almn78-h44168-d1e260">
+                  <lb ed="#Bc"/>2. Adhuc, Damascenus in libro II de
+<lb ed="#Bc"/>Fide orthodoza dicit, quod <quote xml:id="Almn78-h44168-Qd1e266"> cum 
+ratio<lb ed="#Bc" break="no"/>ne et libero arbitrio homo rationalis 
+in<lb ed="#Bc" break="no"/>quirit et scrutatur et disponit et judicat.</quote>
+                  <lb ed="#Bc"/>Et haec omnia ratiocinantis sunt. 
+Vide<lb ed="#Bc" break="no"/>tur ergo, quod primus actus rationis sic
+<lb ed="#Bc"/>definite, sit inquisitio principiorum ex
+<lb ed="#Bc"/>quibus argumentetur : secundus 
+perscru<lb ed="#Bc" break="no"/>tatio, in qua ponderantur principia
+<lb ed="#Bc"/>quante virtutis sint ad inferendum 
+con<lb ed="#Bc" break="no"/>clusionem propositam: et tertius actus
+<lb ed="#Bc"/>sit judicare quid ex quo inferri posset:
+<lb ed="#Bc"/>et quartus sit disponere sive ordinare
+<lb ed="#Bc"/>qualiter ex ipsis inferatur conclusio 
+pro<lb ed="#Bc" break="no"/>posita : hac enim omnia sunt 
+ratiocina<lb ed="#Bc" break="no"/>tionis.
+</p>
+               <p xml:id="Almn78-h44168-d1e300">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Hec enim non habentur perfecte ab
+<lb ed="#Bc"/>homine a natura, sed acquisitione artis
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>et scientia, sicut et dicit Aristoteles in
+<lb ed="#Bc"/>principio Posteriorum, quod <quote xml:id="Almn78-h44168-Qd1e315"> omnis
+<lb ed="#Bc"/>ars et omnis doctrina intellectiva (et alia
+<lb ed="#Bc"/>translatio habet cogitativa sive 
+ratioci<lb ed="#Bc" break="no"/>nativa) ex preexistenti fit cognitione. </quote>
+                  <lb ed="#Bc"/>Isaac autem loquitur de ratione 
+secun<lb ed="#Bc" break="no"/>dum quod est vis naturalis et pars 
+ani<lb ed="#Bc" break="no"/>mz. Ergo videtur, quod hoc modo 
+de<lb ed="#Bc" break="no"/>finire non debuit. Sicut enim dicit
+<lb ed="#Bc"/>Aristoteles in VI Topicorum : Peccat qui
+<lb ed="#Bc"/>definit rem secundum optimum rei et
+<lb ed="#Bc"/>perfectissimum. Sicut volens definire
+<lb ed="#Bc"/>furem dicit, quod fur est qui clam 
+fura<lb ed="#Bc" break="no"/>tur: hec enim non est definitio furis, sed
+<lb ed="#Bc"/>boni furis et perfecti. Similiter definitio
+<lb ed="#Bc"/>inducta ab Isaac non videtur esse 
+ratio<lb ed="#Bc" break="no"/>nis, sed bone rationis et perfecte 
+se<lb ed="#Bc" break="no"/>cundum scientiam et artem.
+</p>
+               <p xml:id="Almn78-h44168-d1e353">
+                  <lb ed="#Bc"/>2. Adhuc, Super illud Psalmi iv, 7:
+<lb ed="#Bc"/>Signatum est super nos lumen vultus
+<lb ed="#Bc"/>tui, Domine, dicit Glossa, quod <quote xml:id="Almn78-h44168-Qd1e361"> imago
+<lb ed="#Bc"/>creationis est ratio, que signata est 
+su<lb ed="#Bc" break="no"/>per nos lumine vultus Dei, que ostendit
+<lb ed="#Bc"/>nobis bona ex lumine divino. </quote> Imago
+<lb ed="#Bc"/>autem ab imitatione definienda est, et
+<lb ed="#Bc"/>sic deberet definiri, quod ratio est imago
+<lb ed="#Bc"/>Dei per quam homo Deum imitatur.
+</p>
+               <p xml:id="Almn78-h44168-d1e378">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod ratio bene
+<lb ed="#Bc"/>definita est ab Isaac: eo quod virtus 
+col<lb ed="#Bc" break="no"/>lativa est, per quam homo de faciendis
+<lb ed="#Bc"/>et agendis et appetendis regitur et 
+in<lb ed="#Bc" break="no"/>struitur lumine vultus Dei, quod in 
+crea<lb ed="#Bc" break="no"/>tione impressum est nobis quantum ad
+<lb ed="#Bc"/>prima principia universalia scibilium et
+<lb ed="#Bc"/>operabilium : talia enim principia cum
+<lb ed="#Bc"/>ipsa natura inserta sunt nobis, et sine
+<lb ed="#Bc"/>eis capaces esse non possumus scibilium
+<lb ed="#Bc"/>et operandorum. Et hoc est quod dicit,
+<lb ed="#Bc"/>quod facit currere causam in causatum.
+<lb ed="#Bc"/>Referendo enim talia principia ad ea que
+<lb ed="#Bc"/>eliciuntur ex ipsis, fit in nobis scientia
+<lb ed="#Bc"/>et theorica et practica. Unde illa 
+princi<lb ed="#Bc" break="no"/>pia dicuntur lumen divinum signatum
+<lb ed="#Bc"/>super nos, ex quo instruimur et ad 
+agen<lb ed="#Bc" break="no"/>da et scienda. Et hoc etiam dicit 
+Aristo<lb ed="#Bc" break="no"/>teles in fine secundi Posteriorum, quod
+<lb ed="#Bc"/>principia prima per naturam sunt in 
+no<lb ed="#Bc" break="no"/>bis. Et Boetius dicit in Consolatione phi
+<pb ed="#Bc" n="201"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>losophiae, quod <quote xml:id="Almn78-h44168-Qd1e432"> intellectus noster 
+sum<lb ed="#Bc" break="no"/>mam retinet, et singula perdit : </quote> vocans
+<lb ed="#Bc"/>summam prima principia scibilium et
+<lb ed="#Bc"/>operandorum : singula vero hec velilla
+<lb ed="#Bc"/>de quibus est scientia vel operatio.
+</p>
+               <p xml:id="Almn78-h44168-d1e444">
+                  <lb ed="#Bc"/>Ad primum ergo quod contra objicitur,
+<lb ed="#Bc"/>dicendum quod res definienda est 
+secun<lb ed="#Bc" break="no"/>dum esse perfectum quod habet in 
+natu<lb ed="#Bc" break="no"/>ra: quia aliter definitio non indicaret
+<lb ed="#Bc"/>esse ejus, et quia secundum naturam hoc
+<lb ed="#Bc"/>habet ratio ex prima creatione ejus in
+<lb ed="#Bc"/>anima : et ideo definitur per actum quem
+<lb ed="#Bc"/>habet ex illis principiis. Nec est simile
+<lb ed="#Bc"/>de fure: quod enim fur clam furatur, ab
+<lb ed="#Bc"/>exercitio habet accidentali : definitio
+<lb ed="#Bc"/>autem non indicat esse accidentale.
+</p>
+               <p xml:id="Almn78-h44168-d1e470">
+                  <lb ed="#Bc"/>Av attup dicendum, quod ratio est
+<lb ed="#Bc"/>imago creationis, hoc est, in qua creati
+<lb ed="#Bc"/>sumus, et non est imago similitudinis,
+<lb ed="#Bc"/>nec recreationis. Imago autem 
+similitu<lb ed="#Bc" break="no"/>dinis est, que ab imitatione definitur :
+<lb ed="#Bc"/>quamvis et ista imitetur in lumine 
+prin<lb ed="#Bc" break="no"/>cipiorum scibilium et agendorum que
+<lb ed="#Bc"/>impressa sunt nobis a lumine sapientiz
+<lb ed="#Bc"/>divine.
+</p>
+            </div>
+            <div xml:id="Almn78-h44168-Dd1e493">
+               <head xml:id="Almn78-h44168-Hd1e495">Membrum 2</head>
+               <head xml:id="Almn78-h44168-Hd1e498" type="question-title">
+        In quo differat ratio ab intellectu agente,
+        possibili, adepto, et speculativo
+      </head>
+               <p xml:id="Almn78-h44168-d1e501">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>In quo differat ratio ab intellectu agente,
+<lb ed="#Bc"/>possibili, adepto, et speculativo ?
+</p>
+               <p xml:id="Almn78-h44168-d1e510">
+                  <lb ed="#Bc"/>Secundo queritur, In quo differat ra
+<lb ed="#Bc" break="no"/>tio ab intellectu agente, possibili, adepto,
+<lb ed="#Bc"/>et speculativo ?
+</p>
+               <p xml:id="Almn78-h44168-d1e519">
+                  <lb ed="#Bc"/>Dicit enim Aristoteles in Ide Anima,
+<lb ed="#Bc"/>quod in anima est sicut in omni natura. In
+<lb ed="#Bc"/>omni enim natura aliud est universaliter
+<lb ed="#Bc"/>agens, quo est omnia facere naturalia :
+<lb ed="#Bc"/>et aliud est quo est omnia fieri, quod 
+di<lb ed="#Bc" break="no"/>citur materia. Ita in anima necesse est
+<lb ed="#Bc"/>esse istas differentias, hoc est, 
+intelle<lb ed="#Bc" break="no"/>ctum agentem, quo est omnia intelligibi
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>lia intellecta secundum actum facere : et
+<lb ed="#Bc"/>intellectum possibilem, quo est omnia
+<lb ed="#Bc"/>intelligibilia secundum actum fieri: qui
+<lb ed="#Bc"/>intellectus est sicut locus specierum 
+in<lb ed="#Bc" break="no"/>telligibilium : agens autem sicut species
+<lb ed="#Bc"/>specierum intelligibilium, sicut lux 
+cor<lb ed="#Bc" break="no"/>poralis et species et actus est omnium
+<lb ed="#Bc"/>visibilium secundum actum.
+</p>
+               <p xml:id="Almn78-h44168-d1e559">
+                  <lb ed="#Bc"/>Est etiam in anima intellectus, qui 
+di<lb ed="#Bc" break="no"/>citur adeptus ex lumine principiorum 
+in<lb ed="#Bc" break="no"/>telligibiliuam, qui intellectus est 
+secun<lb ed="#Bc" break="no"/>dum prudentiam et sapientiam dictus, de
+<lb ed="#Bc"/>quo dicit Aristoteles in principio libri de
+<lb ed="#Bc"/>Anima, quod non equaliter inest 
+omni<lb ed="#Bc" break="no"/>bus, sed neque hominibus. De quo dicit
+<lb ed="#Bc"/>Gregorius Nyssenus in libro de 
+Homi<lb ed="#Bc" break="no"/>ne*, quod Aristoteles et Democritus 
+dixe<lb ed="#Bc" break="no"/>runt, quod intellectus agens et adeptus
+<lb ed="#Bc"/>non habentur ab aliquo secundum
+<lb ed="#Bc"/>actum, nisi a Philosopho. Et Plato in
+<lb ed="#Bc"/>secunda parte Timi dicit, quod talis 
+in<lb ed="#Bc" break="no"/>tellectus admodum paucorum et 
+divino<lb ed="#Bc" break="no"/>rum hominum est.
+</p>
+               <p xml:id="Almn78-h44168-d1e594">
+                  <lb ed="#Bc"/>Est etiam in anima intellectus formalis
+<lb ed="#Bc"/>sive speculativus, qui est adeptio 
+specie<lb ed="#Bc" break="no"/>rum intelligibilium. Et cum omnes isti
+<lb ed="#Bc"/>intellectus sint in anima ut partes et 
+po<lb ed="#Bc" break="no"/>tentia anime, quia non licet nobis 
+po<lb ed="#Bc" break="no"/>nere intellectum extra animam, sicut
+<lb ed="#Bc"/>quidam Arabes posuerunt, eo quod in
+<lb ed="#Bc"/>libro Il de Fide crthodoxa dicit 
+Dama<lb ed="#Bc" break="no"/>scenus de anima rationali, quod <quote xml:id="Almn78-h44168-Qd1e615"> anima
+<lb ed="#Bc"/>non est habens extra seipsam intellectum,
+<lb ed="#Bc"/>sed partem suiipsius purissimam : </quote> tunc
+<lb ed="#Bc"/>queritur, In quo ratio differt ab 
+intelle<lb ed="#Bc" break="no"/>ctu?
+</p>
+               <p xml:id="Almn78-h44168-d1e628">
+                  <lb ed="#Bc"/>1. Si enim dicatur, quod ratio 
+compo<lb ed="#Bc" break="no"/>nil et dividit ea que intellectus concipit,
+<lb ed="#Bc"/>sicut videtur dicere Gregorius Nyssenus
+<lb ed="#Bc"/>in libro de Homine, sic : <quote xml:id="Almn78-h44168-Qd1e638"> Rationalis 
+na<lb ed="#Bc" break="no"/>ture capitulum est, hoc est, summa, 
+fu<lb ed="#Bc" break="no"/>gere et avertere mala: pertransire vero
+<lb ed="#Bc"/>et eligere bona ?. </quote> Et vult accipere hoc
+<lb ed="#Bc"/>ab Apostolo, I ad Thessal. v, 21: Omnia
+<lb ed="#Bc"/>probate, quod bonum est tenete. 
+Per<lb ed="#Bc" break="no"/>transit enim ratio omnia dijudicando, et
+<pb ed="#Bc" n="202"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>eligit, hoc est, eligendo determinat, 
+sen<lb ed="#Bc" break="no"/>tentiam proferendo de bono eligendo a
+<lb ed="#Bc"/>voluntate. Secundum hoc ratio non 
+vi<lb ed="#Bc" break="no"/>detur differre ab intellectu componente
+<lb ed="#Bc"/>et dividente, sicut dicit Aristoteles in III
+<lb ed="#Bc"/>de Anima, quod intelligentia est 
+indi<lb ed="#Bc" break="no"/>visibilium, in quibus non est verum
+<lb ed="#Bc"/>vel falsum : in quibus autem est verum
+<lb ed="#Bc"/>vel falsum, jam compositio quedam 
+in<lb ed="#Bc" break="no"/>tellectus est. Et in Predicamentis dicit,
+<lb ed="#Bc"/>quod singulum incomplexorum nec 
+ve<lb ed="#Bc" break="no"/>rum nec falsum est.
+</p>
+               <p xml:id="Almn78-h44168-d1e685">
+                  <lb ed="#Bc"/>2. Adhuc, Tam ratio quam intellectus
+<lb ed="#Bc"/>non insunt anime nisi secundum 
+men<lb ed="#Bc" break="no"/>tem, que superior pars anime est, 
+se<lb ed="#Bc" break="no"/>cundum quam, ut dicit Augustinus in 
+li<lb ed="#Bc" break="no"/>bro XV de Trinitate : <quote xml:id="Almn78-h44168-Qd1e698"> Factus est homo
+<lb ed="#Bc"/>ad imaginem Dei in memoria, 
+intelligen<lb ed="#Bc" break="no"/>tia, et voluntate. </quote> Mens autem, ut dicit
+<lb ed="#Bc"/>Damascenus, dicitur a metior, metiris :
+<lb ed="#Bc"/>quia singula mensurat ut sunt. Et in
+<lb ed="#Bc"/>quarto prime philosophiae dicit 
+Aristote<lb ed="#Bc" break="no"/>les Anaxagoram dixisse, quod solus 
+ho<lb ed="#Bc" break="no"/>mo sapiens mensura est omnium: quia
+<lb ed="#Bc"/>per sensum mensura est sensibilium, per
+<lb ed="#Bc"/>intellectum vero mensura intelligibilium.
+<lb ed="#Bc"/>Si ergo ratio est mensurans et pars 
+men<lb ed="#Bc" break="no"/>tis, et intellectus mensurans et pars 
+men<lb ed="#Bc" break="no"/>tis : similiter et mens composita ex
+<lb ed="#Bc"/>memoria, intelligentia, et voluntate, ut
+<lb ed="#Bc"/>dicit Augustinus : et constat, quod ratio
+<lb ed="#Bc"/>ad memoriam non potest reduci, nec ad
+<lb ed="#Bc"/>voluntatem : relinquitur, quod reducatur
+<lb ed="#Bc"/>ad intelligentiam.
+</p>
+               <p xml:id="Almn78-h44168-d1e738">
+                  <lb ed="#Bc"/>SED CONTRA :
+<lb ed="#Bc"/>Secundum Dionysium, ratio habet
+<lb ed="#Bc"/>discursam scientiam, que colligitur 
+ra<lb ed="#Bc" break="no"/>tiocinando et discurrendo ab uno in
+<lb ed="#Bc"/>aliud. Intellectus autem habet scientiam
+<lb ed="#Bc"/>simplicem et deiformem. Cum igitur
+<lb ed="#Bc"/>actus sint priores potentiis, ut dicit
+<lb ed="#Bc"/>Aristoteles in Il de Anima, et non sit
+<lb ed="#Bc"/>idem actus rationis et intellectus, 
+sequi<lb ed="#Bc" break="no"/>tur quod non sit eadem potentia 
+intel<lb ed="#Bc" break="no"/>lectus et ratio.
+</p>
+               <p xml:id="Almn78-h44168-d1e764">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod absque 
+du<lb ed="#Bc" break="no"/>bio ratio et intellectus componens et 
+di<lb ed="#Bc" break="no"/>videns et conferens intellecta, sunt una
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>potentia anime, que inest anime 
+se<lb ed="#Bc" break="no"/>cundum sui superiorem partem, que
+<lb ed="#Bc"/>mens dicitur. Sunt tamen in anima,
+<lb ed="#Bc"/>sicut dictum est, intellectus agens qui
+<lb ed="#Bc"/>est lux, ut dicit Aristoteles in HI de
+<lb ed="#Bc"/>Anima, eo quod ille est imago et 
+si<lb ed="#Bc" break="no"/>militudo quedam luminis prime 
+cau<lb ed="#Bc" break="no"/>se sive Dei, cujus virtute omnia 
+intel<lb ed="#Bc" break="no"/>lecta agit ad lumen intellectuale, 
+abs<lb ed="#Bc" break="no"/>trahens formas  intellectas ab omni
+<lb ed="#Bc"/>obscuratione materie et obumbratione
+<lb ed="#Bc"/>ab appenditiis materialibus causata, et
+<lb ed="#Bc"/>ponens eam in simplici esse suo, 
+secun<lb ed="#Bc" break="no"/>dum quod est ubique et semper, et non
+<lb ed="#Bc"/>hic et nunc. Est etiam in anima 
+intelle<lb ed="#Bc" break="no"/>ctus possibilis, qui non estin potentia
+<lb ed="#Bc"/>materie ad intellecta, quemadmodum
+<lb ed="#Bc"/>male dixit Theophrastus. Quia si in tali
+<lb ed="#Bc"/>potentia esset ad intellecta, per 
+quamli<lb ed="#Bc" break="no"/>bet speciem intellectam formaretur ad
+<lb ed="#Bc"/>esse naturale illius speciei, sicut materia
+<lb ed="#Bc"/>formatur ad esse per formam: et sic 
+in<lb ed="#Bc" break="no"/>telligendo lapidem, esset lapis, et sic de
+<lb ed="#Bc"/>aliis, quod absurdum est: sed habet se
+<lb ed="#Bc"/>ad intellecta ut locus, et sicut tabula rasa
+<lb ed="#Bc"/>ad picturam, que locus est picture in
+<lb ed="#Bc"/>se et salvans picturam. Et ideo dicit 
+Al<lb ed="#Bc" break="no"/>gazel, quod anima secundum intellectum
+<lb ed="#Bc"/>est sicut chartula brevis, in qua species
+<lb ed="#Bc"/>omnium sunt descripte.
+</p>
+               <p xml:id="Almn78-h44168-d1e841">
+                  <lb ed="#Bc"/>Est etiam in anima intellectus 
+adep<lb ed="#Bc" break="no"/>tus, qui est, quando anima adipiscitur
+<lb ed="#Bc"/>simplices intellectus rerum 
+intelligibi<lb ed="#Bc" break="no"/>lium per principia prima scibilia, ex 
+qui<lb ed="#Bc" break="no"/>bus sicut ex preexistentibus in anima,
+<lb ed="#Bc"/>formatur et distinguitur intellectus ad
+<lb ed="#Bc"/>hoc intelligendum, vel illud 
+determi<lb ed="#Bc" break="no"/>nate et simpliciter. Et hic vocatur 
+in<lb ed="#Bc" break="no"/>tellectus adeptus ex lumine agentis. Et
+<lb ed="#Bc"/>ideo Aristoteles in UT de Anima de
+<lb ed="#Bc"/>intellectu agente loquens, duo ponit
+<lb ed="#Bc"/>exempla, scilicet quod est ut lux: est
+<lb ed="#Bc"/>enim imago prime et divine lucis,
+<lb ed="#Bc"/>qua omnia intelligibilia in esse simplici
+<lb ed="#Bc"/>accepta, sicut fuerunt in prima luce, 
+se<lb ed="#Bc" break="no"/>cundum actum fiunt intelligibilia. Sed
+<lb ed="#Bc"/>quia hoc non sufficit ad perfectam 
+scien<lb ed="#Bc" break="no"/>tiam rei, sed oportet habere distinctam
+<lb ed="#Bc"/>notitiam de quolibet, dat aliud exem
+<pb ed="#Bc" n="203"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>plum de lumine istius intellectus, et 
+di<lb ed="#Bc" break="no"/>cit, quod est ut ars ad materiam. Ars
+<lb ed="#Bc"/>autem est, ut dicit Tullius, collectio
+<lb ed="#Bc"/>principiorum ad eumdem finem 
+tenden<lb ed="#Bc" break="no"/>tium. Ita est in lumine intellectus 
+agen<lb ed="#Bc" break="no"/>tis collectio principiorum primorum,
+<lb ed="#Bc"/>sine quibus non fit scientia in aliquo, per
+<lb ed="#Bc"/>quorum lumen in intellectu possibili 
+ge<lb ed="#Bc" break="no"/>neratur scientia, et adipiscitur scientia
+<lb ed="#Bc"/>scibilium determinata: sicut per 
+princi<lb ed="#Bc" break="no"/>pia artis determinatus habitus generatur
+<lb ed="#Bc"/>in anima artificis, et in omnibus his 
+in<lb ed="#Bc" break="no"/>quirit et scrutatur, sicut dicit 
+Damasce<lb ed="#Bc" break="no"/>nus, disponit et confert ratio quid verum,
+<lb ed="#Bc"/>quid falsum, quid bonum, quid malum.
+<lb ed="#Bc"/>Et ideo a Dionysio dicitur habere 
+discur<lb ed="#Bc" break="no"/>sas scientias, et non simplices et 
+deifor<lb ed="#Bc" break="no"/>mes : quia, sicut dicit Augustinus, in
+<lb ed="#Bc"/>Deo non sunt cogitationes volubiles hinc
+<lb ed="#Bc"/>illinc, aut inde huc: sed omnia uno 
+in<lb ed="#Bc" break="no"/>tuitu et simplici in seipso videt et scit.
+<lb ed="#Bc"/>Et per hoc patet, quod ratio est 
+intelle<lb ed="#Bc" break="no"/>ctus componens et dividens et conferens
+<lb ed="#Bc"/>in lumine intellectus agentis accepta, et
+<lb ed="#Bc"/>in lumine principiorum determinata.
+<lb ed="#Bc"/>Principia enim sunt sicut instrumenta
+<lb ed="#Bc"/>intellectus agentis, quibus possibilem
+<lb ed="#Bc"/>ducit in actum, et lumine intellectus
+<lb ed="#Bc"/>agentis facit intelligibilia in potentia in
+<lb ed="#Bc"/>actu intellecta, sicut lux solis visibilia in
+<lb ed="#Bc"/>potentia, secundum actum facit visa. Et
+<lb ed="#Bc"/>ideo dicit Aristoteles, et etiam 
+Com<lb ed="#Bc" break="no"/>mentator suus, quod sicut in visu 
+secun<lb ed="#Bc" break="no"/>dum actum lux sive lumen quod est actus
+<lb ed="#Bc"/>visibilis, et visibile sunt res una: visibile
+<lb ed="#Bc"/>enim formatur ad actu luminis in ipso:
+<lb ed="#Bc"/>et sic visibile et actus visibilis 
+efficiun<lb ed="#Bc" break="no"/>tur res una composita: sic in his que
+<lb ed="#Bc"/>sunt sine materia, intellectus et intellecta
+<lb ed="#Bc"/>sunt res una: quia intelligibile ad hoc
+<lb ed="#Bc"/>quod actu intelligatur, oportet quod 
+for<lb ed="#Bc" break="no"/>metur lumine intellectus agentis quod
+<lb ed="#Bc"/>est agens intellectus.
+</p>
+               <p xml:id="Almn78-h44168-d1e982">
+                  <lb ed="#Bc"/>Sic ergo patet differentia et 
+conve<lb ed="#Bc" break="no"/>nientia rationis ad intellectum agentem,
+<lb ed="#Bc"/>adeptum, possibilem, formalem et 
+spe<lb ed="#Bc" break="no"/>culativum. Formalis enim et speculati
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>vus in anima nihil aliud est, nisi species
+<lb ed="#Bc"/>intelligibilium in intellectu  possibili,
+<lb ed="#Bc"/>quas adeptus est per lumen intellectus
+<lb ed="#Bc"/>agentis et intellectus adepti. Et ideo 
+di<lb ed="#Bc" break="no"/>cit Alpharabius in libro de Intellectu et
+<lb ed="#Bc"/>intelligibihi, quod intellectus in omnibus
+<lb ed="#Bc"/>intellectis adipiscitur seipsum et 
+pro<lb ed="#Bc" break="no"/>prium lumen suum. Et ideo dicit ibidem,
+<lb ed="#Bc"/>quod omnes Philosophi posuerunt in tali
+<lb ed="#Bc"/>intellectu radicem immortalitatis anime.
+</p>
+            </div>
+            <div xml:id="Almn78-h44168-Dd1e1018">
+               <head xml:id="Almn78-h44168-Hd1e1020">Membrum 3</head>
+               <head xml:id="Almn78-h44168-Hd1e1023" type="question-title">
+        Quid sit superior portio rationis
+      </head>
+               <p xml:id="Almn78-h44168-d1e1026">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Quid sit superior portio rationis ?
+</p>
+               <p xml:id="Almn78-h44168-d1e1033">
+                  <lb ed="#Bc"/>Tertio queritur, Quid sit superior 
+por<lb ed="#Bc" break="no"/>tio rationis ?
+</p>
+               <p xml:id="Almn78-h44168-d1e1040">
+                  <lb ed="#Bc"/>1. Et accipiantur verba Augustini, ubi
+<lb ed="#Bc"/>in libro XII de Trinitate sic dicit: <quote xml:id="Almn78-h44168-Qd1e1046">
+Ratio<lb ed="#Bc" break="no"/>nis autem pars superior eternis 
+rationi<lb ed="#Bc" break="no"/>bus conspiciendis vel consulendis 
+adhe<lb ed="#Bc" break="no"/>rescit ‘+. </quote> Secundum hoc superior portio
+<lb ed="#Bc"/>rationis est, qua convertitur homo ad
+<lb ed="#Bc"/>Deum et divino lumine informatur: sed
+<lb ed="#Bc"/>secundum totam mentem in qua est ima
+<lb ed="#Bc"/>go Dei convertitur ad Deum, et 
+informa<lb ed="#Bc" break="no"/>tur lumine divino: ergo videtur, quod
+<lb ed="#Bc"/>illa portio rationis superior sit tota mens.
+</p>
+               <p xml:id="Almn78-h44168-d1e1070">
+                  <lb ed="#Bc"/>Quod si concedatur. Contra est, quod
+<lb ed="#Bc"/>vir qui intelligitur per superiorem 
+par<lb ed="#Bc" break="no"/>tem rationis, frequenter avertitur et 
+gu<lb ed="#Bc" break="no"/>stat illicitum cum muliere : que aiitem
+<lb ed="#Bc"/>ponuntur in definitione alicujus, semper
+<lb ed="#Bc"/>conveniunt : non ergo debet in 
+definitio<lb ed="#Bc" break="no"/>ne superioris portionis poni, quod <quote xml:id="Almn78-h44168-Qd1e1087"> 
+ra<lb ed="#Bc" break="no"/>tionibus superius conspiciendis et 
+consu<lb ed="#Bc" break="no"/>lendis semper inherescit. </quote>
+               </p>
+               <p xml:id="Almn78-h44168-d1e1095">
+                  <lb ed="#Bc"/>2. Adhuc, Secundum Augustinum in’
+<lb ed="#Bc"/>libro de Spiritu et anima, et secundum
+<lb ed="#Bc"/>Richardum de sancto Victore, hec 
+ma<lb ed="#Bc" break="no"/>gis conveniunt intelligentia. Dicit enim
+<lb ed="#Bc"/>Richardus, quod <quote xml:id="Almn78-h44168-Qd1e1108"> intellectus est 
+spiri<lb ed="#Bc" break="no"/>tualium, intelligentia vero divinorum,
+<pb ed="#Bc" n="204"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>ratio vero materialium et corporalium. </quote>
+  
+                  <lb ed="#Bc"/>3. Adhuc, Ulterius queritur de hoc
+<lb ed="#Bc"/>quod dicit Augustinus in eodem libro de
+<lb ed="#Bc"/>Trinitate, quod <quote xml:id="Almn78-h44168-Qd1e1125"> illa rationis intentio
+<lb ed="#Bc"/>qua contemplamur eterna, sapientia 
+de<lb ed="#Bc" break="no"/>putatur : illa vero qua bene utimur 
+tem<lb ed="#Bc" break="no"/>poralibus rebus, scientie deputatur. </quote>
+                  <lb ed="#Bc"/>potentiae enim anime non distinguuntur
+<lb ed="#Bc"/>per sapientiam et scientiam, cum 
+sapien<lb ed="#Bc" break="no"/>tia et scientia secundum idem insunt
+<lb ed="#Bc"/>anime, eo quod, sicut dicit Aristoteles
+<lb ed="#Bc"/>in V Ethicorum, tam sapientia quam
+<lb ed="#Bc"/>scientia sunt intellectuales virtutes. Et
+<lb ed="#Bc"/>sic videtur, quod partes rationis non per
+<lb ed="#Bc"/>hoe debeant distingui.
+</p>
+               <p xml:id="Almn78-h44168-d1e1153">
+                  <lb ed="#Bc"/>Sotunio. Dicendum, quod sicut dicit
+<lb ed="#Bc"/>Augustinus in libro XII de Trinitate :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h44168-Qd1e1161"> Cum disserimus de natura mentis 
+hu<lb ed="#Bc" break="no"/>mane, de una quadam re disserimus, nec
+<lb ed="#Bc"/>eam in haec duo que commemoravimus
+<lb ed="#Bc"/>nisi per officia geminamus'. </quote>
+               </p>
+               <p xml:id="Almn78-h44168-d1e1171">
+                  <lb ed="#Bc"/>Dicendum ergo est, quod portio 
+supe<lb ed="#Bc" break="no"/>rior dicitur propter officium illa pars
+<lb ed="#Bc"/>mentis superior, que extenditur ad 
+con<lb ed="#Bc" break="no"/>templandum Deum, et rationes justitie
+<lb ed="#Bc"/>divine, quibus homo regitur secundum
+<lb ed="#Bc"/>totum ordinem vite sue ad formam 
+ju<lb ed="#Bc" break="no"/>stitie divine. Et ideo dicit Augustinus,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h44168-Qd1e1190"> contemplandis et consulendis 
+ra<lb ed="#Bc" break="no"/>tionibus eternis inherescit. </quote> Hoc enim
+<lb ed="#Bc"/>est officium superioris partis mentis in
+<lb ed="#Bc"/>qua impressa est homini imago 
+creatio<lb ed="#Bc" break="no"/>nis, signata lumine vultus Dei per 
+exem<lb ed="#Bc" break="no"/>plum justitie eterne, que cst lumen
+<lb ed="#Bc"/>sapientie divine : quia, sicut dicitur,
+<lb ed="#Bc"/>Sapient. vin, 1: Attengit a fine usque ad
+<lb ed="#Bc"/>finem fortiter, et disponit omnia 
+sua<lb ed="#Bc" break="no"/>viter.
+</p>
+               <p xml:id="Almn78-h44168-d1e1213">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod licet
+<lb ed="#Bc"/>hoe sit de officio portionis superioris 
+sic<lb ed="#Bc" break="no"/>ut viri, tamen per apostasiam ab 
+incom<lb ed="#Bc" break="no"/>mutabili bono potest deflecti. Et tunc,
+<lb ed="#Bc"/>sicut dicit Damascenus, deflectitur in id
+<lb ed="#Bc"/>quod est preter naturam ipsius, sicut
+<lb ed="#Bc"/>peccatum quod est contra naturam. Et
+<lb ed="#Bc"/>per hoc non debet determinari, vel defi
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>niri : quia secundum ordinem sue 
+na<lb ed="#Bc" break="no"/>ture semper est ad hoc quod 
+conspicien<lb ed="#Bc" break="no"/>dis vel consulendis rationibus aternis 
+in<lb ed="#Bc" break="no"/>herescat.
+</p>
+               <p xml:id="Almn78-h44168-d1e1244">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod intelligentia,
+<lb ed="#Bc"/>sicut prehabitum est, componens et 
+di<lb ed="#Bc" break="no"/>videns est cum ratione. Unde etiam 
+Au<lb ed="#Bc" break="no"/>gustinus dicit, quod non nisi per officia
+<lb ed="#Bc"/>geminatur, Richardus autem dividit hec
+<lb ed="#Bc"/>secundum simplicitatem objectorum 
+ma<lb ed="#Bc" break="no"/>jorem vel minorem. Et ideo dicit 
+intelli<lb ed="#Bc" break="no"/>gentiam esse divinorum propter 
+confor<lb ed="#Bc" break="no"/>mitatem ad intelligentiam angelicam,
+<lb ed="#Bc"/>que semper extenditur ad divina. 
+Intel<lb ed="#Bc" break="no"/>lectum autem esse spiritualium, eo quod
+<lb ed="#Bc"/>est separatorum a materia, sicut 
+spiri<lb ed="#Bc" break="no"/>tualia separata sunt. Et rationem dicit
+<lb ed="#Bc"/>esse corporalium et materialium, eo
+<lb ed="#Bc"/>quod ratio inquisitiva est et judicativa,
+<lb ed="#Bc"/>et, sicut dicit Dionysius, discursam 
+ha<lb ed="#Bc" break="no"/>bet scientiam : eo quod motu et 
+muta<lb ed="#Bc" break="no"/>tion subjacet et quasi contingens est. Et
+<lb ed="#Bc"/>sicut dicit Ptolemeus in principio 
+Alma<lb ed="#Bc" break="no"/>gesti, de talibus non potest haberi certa
+<lb ed="#Bc"/>scientia sicut de necessariis, sed 
+inquisi<lb ed="#Bc" break="no"/>tiva et opinione permixta.
+</p>
+               <p xml:id="Almn78-h44168-d1e1295">
+                  <lb ed="#Bc"/>Ad uLtimum dicendum, quod superior
+<lb ed="#Bc"/>portio deputatur sapientie, secundum
+<lb ed="#Bc"/>quod sapientia dicitur scientia per 
+altis<lb ed="#Bc" break="no"/>simas causas, quas difficile est homini
+<lb ed="#Bc"/>cognoscere, ut dicit Aristoteles in primo
+<lb ed="#Bc"/>primae philosophiae. Scientia vero dicitur
+<lb ed="#Bc"/>habitus intellectualis acceptus per 
+cau<lb ed="#Bc" break="no"/>sam et medium nature inferioris. Et
+<lb ed="#Bc"/>ideo licet utraque sit virtus intellectualis,
+<lb ed="#Bc"/>non tamen eodem modo, nec per idem
+<lb ed="#Bc"/>medium accepta.
+</p>
+            </div>
+            <div xml:id="Almn78-h44168-Dd1e1322">
+               <head xml:id="Almn78-h44168-Hd1e1324">Membrum 4</head>
+               <head xml:id="Almn78-h44168-Hd1e1327" type="question-title">
+        Quid sit inferior portio rationis
+      </head>
+               <p xml:id="Almn78-h44168-d1e1330">
+                  <lb ed="#Bc"/>MEMBRUM IV.
+<lb ed="#Bc"/>Quid sit inferior portio rationis ?
+</p>
+               <p xml:id="Almn78-h44168-d1e1337">
+                  <lb ed="#Bc"/>Quarto queritur, Quid sit portio 
+ratio<lb ed="#Bc" break="no"/>nis inferior ?
+</p>
+               <p xml:id="Almn78-h44168-d1e1344">
+                  <pb ed="#Bc" n="205"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et dicit Augustinus, quod portio 
+infe<lb ed="#Bc" break="no"/>rior ad temporalia gubernanda deflectitur.
+</p>
+               <p xml:id="Almn78-h44168-d1e1356">
+                  <lb ed="#Bc"/>Et videtur inconvenienter dici, quod
+<lb ed="#Bc"/>deflectitur ad temporalia :
+</p>
+               <p xml:id="Almn78-h44168-d1e1363">
+                  <lb ed="#Bc"/>4. Temporalia enim debent gubernari
+<lb ed="#Bc"/>ad eterna : gubernans autem oportet
+<lb ed="#Bc"/>quod habeat habitum regiminis, 
+secun<lb ed="#Bc" break="no"/>dum quem gubernat, et sic oportet quod
+<lb ed="#Bc"/>habeat habitum rationis eternorum, ad
+<lb ed="#Bc"/>quem gubernat temporalia : ergo non
+<lb ed="#Bc"/>deflectitur ab eternis.
+</p>
+               <p xml:id="Almn78-h44168-d1e1381">
+                  <lb ed="#Bc"/>2. Adhuc, Scientia videtur esse 
+eter<lb ed="#Bc" break="no"/>norum sicut sapientia. Dicit enim 
+Phi<lb ed="#Bc" break="no"/>losophus in I Posteriorum, quod <quote xml:id="Almn78-h44168-Qd1e1389"> scire
+<lb ed="#Bc"/>arbitramur cum causam cognoscimus, et
+<lb ed="#Bc"/>quomodo illius causa est, et quod 
+impos<lb ed="#Bc" break="no"/>sibile est aliter se habere. </quote> Talia sunt 
+ne<lb ed="#Bc" break="no"/>cessaria et eterna : omnia enim 
+necessa<lb ed="#Bc" break="no"/>ria immutabilia sunt : et hoc solum 
+con<lb ed="#Bc" break="no"/>venit eternis. Male ergo dicit Augustinus
+<lb ed="#Bc"/>quod portio inferior que est ratio 
+scien<lb ed="#Bc" break="no"/>tie, deflectitur ad temporalia 
+gubernan<lb ed="#Bc" break="no"/>da : nihil enim temporalium necessarium
+<lb ed="#Bc"/>est et immutabile.
+</p>
+               <p xml:id="Almn78-h44168-d1e1414">
+                  <lb ed="#Bc"/>Ucrenius queritur de hoc quod dicit
+<lb ed="#Bc"/>ibidem Augustinus*, quod <quote xml:id="Almn78-h44168-Qd1e1420"> sensualis
+<lb ed="#Bc"/>motus anime, quiin corporis sensus 
+in<lb ed="#Bc" break="no"/>tenditur, et nobis pecoribusque communis
+<lb ed="#Bc"/>est, seclusus est a rationibus sapientie,
+<lb ed="#Bc"/>rationi autem scientie vicinior. </quote> Hoc
+<lb ed="#Bc"/>enim videtur falsum : quia ex quo nobis
+<lb ed="#Bc"/>et pecoribus communis est, et pecora 
+ni<lb ed="#Bc" break="no"/>hil habent vicinitatis ad rationem, ut
+<lb ed="#Bc"/>ante dixit, tunc videtur, quod nee 
+vici<lb ed="#Bc" break="no"/>nus portioni superioris rationis, nec
+<lb ed="#Bc"/>portioni rationis inferioris, sed ab 
+utra<lb ed="#Bc" break="no"/>que equaliter seclusus.
+</p>
+               <p xml:id="Almn78-h44168-d1e1447">
+                  <lb ed="#Bc"/>Solutio. Dicendum quod Augustinus
+<lb ed="#Bc"/>bene determinat portionem rationis 
+in<lb ed="#Bc" break="no"/>feriorem quando dicit, quod deflectitur
+<lb ed="#Bc"/>ad inferiora gubernanda. Non enim 
+pot<lb ed="#Bc" break="no"/>est gubernari inferius nisi ex propriis
+<lb ed="#Bc"/>rationibus inferiorum. Nihil enim 
+guber<lb ed="#Bc" break="no"/>nabilium gubernabile nisi ex propriis 
+ra<lb ed="#Bc" break="no"/>tionibus gubernetur. Et ideo aliter guber
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>natur civitas, et aliter navis, ut dicit 
+Phi<lb ed="#Bc" break="no"/>losophus. Similiter temporalia oportet
+<lb ed="#Bc"/>quod secundum rationem temporalium
+<lb ed="#Bc"/>gubernentur et dispensentur : et talem
+<lb ed="#Bc"/>conversionem rationis ad inferiora 
+Augu<lb ed="#Bc" break="no"/>stinus vocat defluxum.
+</p>
+               <p xml:id="Almn78-h44168-d1e1482">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod licet
+<lb ed="#Bc"/>temporalia gubernanda sint ad eterna et
+<lb ed="#Bc"/>secundum rationes justitie divine 
+eter<lb ed="#Bc" break="no"/>ne, sicut ad finem et formam : tamen
+<lb ed="#Bc"/>oportet considerare etiam rationes 
+tem<lb ed="#Bc" break="no"/>poralium, secundum quas gubernabilia
+<lb ed="#Bc"/>sunt temporalia : et hoc vocat 
+Augusti<lb ed="#Bc" break="no"/>nus scientiam. Sicut est scientia juris
+<lb ed="#Bc"/>humani, que casibus et mutationibus
+<lb ed="#Bc"/>permixta est, etjideo tota die variatur,
+<lb ed="#Bc"/>et ad nullam uniformem regulam redigi
+<lb ed="#Bc"/>potest : propterea quod humana 
+unifor<lb ed="#Bc" break="no"/>mia non sunt, sed continue novis 
+emer<lb ed="#Bc" break="no"/>gentibus casibus variata.
+</p>
+               <p xml:id="Almn78-h44168-d1e1516">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Aristoteles
+<lb ed="#Bc"/>loquitur de scientia secundum quod est
+<lb ed="#Bc"/>ex primis, veris, et immediatis : et hoc
+<lb ed="#Bc"/>modo non loquitur Augustinus de 
+scien<lb ed="#Bc" break="no"/>tia, sed secundum quod est ex 
+conjectu<lb ed="#Bc" break="no"/>ris humanorum ad gubernationem vite
+<lb ed="#Bc"/>humane pertinentium.
+</p>
+               <p xml:id="Almn78-h44168-d1e1534">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod pecualis motus quantum ad
+<lb ed="#Bc"/>naturam ab utraque parte equaliter 
+se<lb ed="#Bc" break="no"/>clusus est : sed quantum ad subjecta su~
+<lb ed="#Bc"/>per que convertitur portio rationis, 
+vi<lb ed="#Bc" break="no"/>cinior est inferiori portioni rationis que
+<lb ed="#Bc"/>convertitur super sensibilia, quam 
+supe<lb ed="#Bc" break="no"/>riori.
+</p>
+            </div>
+            <div xml:id="Almn78-h44168-Dd1e1555">
+               <head xml:id="Almn78-h44168-Hd1e1557">Membrum 5</head>
+               <head xml:id="Almn78-h44168-Hd1e1560" type="question-title">
+        Qualiter conjugium spirituale sit inter
+        superiorem et inferiorem portionem
+        rationis
+      </head>
+               <p xml:id="Almn78-h44168-d1e1563">
+                  <lb ed="#Bc"/>MEMBRUM V.
+<lb ed="#Bc"/>Qualiter conjugium spirituale sit inter
+<lb ed="#Bc"/>superiorem et inferiorem portionem
+<lb ed="#Bc"/>rationis ?
+</p>
+               <p xml:id="Almn78-h44168-d1e1574">
+                  <lb ed="#Bc"/>Quinto queritur, Qualiter conjugium
+<lb ed="#Bc"/>spirituale sit inter superiorem et 
+inferio<lb ed="#Bc" break="no"/>rem portionem rationis ?
+</p>
+               <p xml:id="Almn78-h44168-d1e1583">
+                  <pb ed="#Bc" n="206"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Videtur enim, quod non possit esse
+<lb ed="#Bc"/>conjugium : videtur enim, quod utraque
+<lb ed="#Bc"/>portio sit loco mulieris : utraque enim
+<lb ed="#Bc"/>acceptionis pars est.
+</p>
+               <p xml:id="Almn78-h44168-d1e1600">
+                  <lb ed="#Bc"/>1. Dicit enim Aristoteles in IL de
+<lb ed="#Bc"/>Anima, quod apprehensiva potentia 
+ani<lb ed="#Bc" break="no"/>me est acceptionis pars. Id autem quod
+<lb ed="#Bc"/>accipit et concipit ex altero, loco 
+mulie<lb ed="#Bc" break="no"/>ris est. Dicit enim Aristoteles in XII de
+<lb ed="#Bc"/>Animalibus, quod femina est que in
+<lb ed="#Bc"/>seipsa generat ex alio : vir autem qui in
+<lb ed="#Bc"/>alio generat ex semine proprio. Cum 
+er<lb ed="#Bc" break="no"/>go utraque pars ex alio concipiat et in
+<lb ed="#Bc"/>seipsa formet conceptum, videtur quod
+<lb ed="#Bc"/>utraque pars sit loco mulieris : et sic
+<lb ed="#Bc"/>non potest esse conjugium.
+</p>
+               <p xml:id="Almn78-h44168-d1e1629">
+                  <lb ed="#Bc"/>2. Adhuc, Hoc idem habetur per 
+di<lb ed="#Bc" break="no"/>ctum Augustini. Dicit enim, quod <quote xml:id="Almn78-h44168-Qd1e1635"> 
+su<lb ed="#Bc" break="no"/>perior portio dicitur ratio sapientia : </quote>
+                  <lb ed="#Bc"/>quod non potest intelligi dictum esse, 
+ni<lb ed="#Bc" break="no"/>si propter hoc, quod formatur a 
+sapien<lb ed="#Bc" break="no"/>tia : et inferior portio dicitur ratio 
+scien<lb ed="#Bc" break="no"/>tia : et sic utraque pars formatur ab
+<lb ed="#Bc"/>alio : formari autem ab alio mulieris est,
+<lb ed="#Bc"/>et non viri : et sic videtur, quod. utraque
+<lb ed="#Bc"/>pars sit loco mulieris : et sic nullum 
+pot<lb ed="#Bc" break="no"/>est esse conjugium.
+</p>
+               <p xml:id="Almn78-h44168-d1e1658">
+                  <lb ed="#Bc"/>3. Adhuc, In bonis conceptis auctor
+<lb ed="#Bc"/>non est nisi Deus, qui operatur omnia
+<lb ed="#Bc"/>in omnibus. Isa, xxvi, 12: Omnia opera
+<lb ed="#Bc"/>nostra operatus es in nobis, Domine. Et,
+<lb ed="#Bc"/>Joan. xv, 5 : Sine me nihil potestis 
+fa<lb ed="#Bc" break="no"/>cere. Ad Philip. 11, 13 : Deus est qui 
+ope<lb ed="#Bc" break="no"/>ratur in vobis et velle et perficere, pro
+<lb ed="#Bc"/>bona voluntate. Videtur ergo, quod Deus
+<lb ed="#Bc"/>sit loco viri, et ulraque portio loco 
+mu<lb ed="#Bc" break="no"/>lieris.
+</p>
+               <p xml:id="Almn78-h44168-d1e1682">
+                  <lb ed="#Bc"/>4, Adhuc, Gratia dividitur sicut dictum
+<lb ed="#Bc"/>est supra in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XX VI, in prevenientem et 
+subse<lb ed="#Bc" break="no"/>quentem : et dicituribi, quod gratia 
+pre<lb ed="#Bc" break="no"/>veniens est qua Deus prevenit 
+volunta<lb ed="#Bc" break="no"/>tem nostram ut velimus bonum ; 
+subse<lb ed="#Bc" break="no"/>quens vero ne frustra velimus, sed ut
+<lb ed="#Bc"/>bonam voluntatem ad opus perducamus.
+<lb ed="#Bc"/>Et sic habetur quod secundum 
+Scriptu<lb ed="#Bc" break="no"/>ram ex Deo sicut ex sponso concipimus :
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>et tota anima nostra loco sponse est
+<lb ed="#Bc"/>que concipit.
+</p>
+               <p xml:id="Almn78-h44168-d1e1713">
+                  <lb ed="#Bc"/>3. Adhuc, Hoc expresse dicitur, Isa.
+<lb ed="#Bc"/>xxvi, 17 et 18, ubi sic dicitur : Sae facti
+<lb ed="#Bc"/>sumus a facie tua, Domine. Concepimus,
+<lb ed="#Bc"/>et quasi parturivimus, et peperimus 
+spi<lb ed="#Bc" break="no"/>ritum, scilicet salutis.
+</p>
+               <p xml:id="Almn78-h44168-d1e1726">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Augustinus in libro XII de Trinitate :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h44168-Qd1e1734"> Pro muliere inferior portio rationis est,
+<lb ed="#Bc"/>pro viro superior rationis portio’. </quote> Et
+<lb ed="#Bc"/>hic est vir qui secundum Apostolum 
+di<lb ed="#Bc" break="no"/>citur imago et gloria Dei? : etilla est 
+mu<lb ed="#Bc" break="no"/>lier, que secundum eumdem Apostolum
+<lb ed="#Bc"/>ibidem dicitur gloria viri. Atque inter
+<lb ed="#Bc"/>hune virum et hance mulierem est velut
+<lb ed="#Bc"/>quoddam spirituale conjugium 
+naturalis<lb ed="#Bc" break="no"/>que contractus, quo superior rationis
+<lb ed="#Bc"/>porlio quasi vir debet presse et 
+domi<lb ed="#Bc" break="no"/>nari : inferior vero quasi mulier debet
+<lb ed="#Bc"/>subesse et obedire.
+</p>
+               <p xml:id="Almn78-h44168-d1e1763">
+                  <lb ed="#Bc"/>Sotvrio. Dicendum cum Augustino,
+<lb ed="#Bc"/>quod portio superior loco viri est, portio
+<lb ed="#Bc"/>inferior loco mulieris est. Et est locutio
+<lb ed="#Bc"/>metaphorica, fundata super dictum 
+Apo<lb ed="#Bc" break="no"/>stoli, lad Corinth. x1, 7, ubi dicit, quod
+<lb ed="#Bc"/>vir non debet velare caput suum, 
+quo<lb ed="#Bc" break="no"/>niam imago et gloria Dei est : eo quod
+<lb ed="#Bc"/>portio superior rationis est in qua est
+<lb ed="#Bc"/>imago Dei, et inter ipsam et Deum nihil
+<lb ed="#Bc"/>debet esse medium : et ideo non debet
+<lb ed="#Bc"/>habere velamen. Portio autem inferior
+<lb ed="#Bc"/>dicitur mulier, quia est imago et gloria
+<lb ed="#Bc"/>superioris portionis : sicut mulier est
+<lb ed="#Bc"/>imago et gloria viri, in hoc quod data
+<lb ed="#Bc"/>est ei in adjutorium generationis, similis
+<lb ed="#Bc"/>sibi quantum ad naturam rationabilitatis,
+<lb ed="#Bc"/>sicut dictum est, Genes. n, 20 et 18 :
+<lb ed="#Bc"/>Adz vero non inveniebatur adjutor 
+si<lb ed="#Bc" break="no"/>milis ejus... Dixit quoque Dominus
+<lb ed="#Bc"/>Deus : Non est bonum esse hominem 
+so<lb ed="#Bc" break="no"/>lum : faciamus et adjutorium simile
+<lb ed="#Bc"/>sibi. Et sic est hic naturalis contractus in
+<lb ed="#Bc"/>partibus rationalis anime, in quo 
+supe<lb ed="#Bc" break="no"/>rior pars que immediate est imitans
+<lb ed="#Bc"/>imaginem Dei, et formatur ex ipso lu
+<pb ed="#Bc" n="207"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>mine sapientiae, et ex eodem format et
+<lb ed="#Bc"/>regit inferiorem, sicut in pracedenti
+<lb ed="#Bc"/>membro questionis dictum est.
+</p>
+               <p xml:id="Almn78-h44168-d1e1831">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+ve<lb ed="#Bc" break="no"/>rum est, quod utraque pars est 
+acceptio<lb ed="#Bc" break="no"/>nis : sed superior accipit ex Deo, quinon
+<lb ed="#Bc"/>est sui generis, sed sicut secunda causa
+<lb ed="#Bc"/>accipit a prima : interior vero portio 
+ac<lb ed="#Bc" break="no"/>cipit a superiori regimen et formam 
+re<lb ed="#Bc" break="no"/>giminis, sicut ab eo quod est sui generis.
+<lb ed="#Bc"/>Et ideo superior dicitur vir, et inferior
+<lb ed="#Bc"/>dicitur mulier. Quia vir est, qui in alio
+<lb ed="#Bc"/>sui generis individuo generat ex proprio
+<lb ed="#Bc"/>semine : mulier autem, que ex alio sui
+<lb ed="#Bc"/>generis individuo generat. Et hoc modo
+<lb ed="#Bc"/>Deus non habet se ad animam : quia
+<lb ed="#Bc"/>non est ejusdem nature 
+ani<lb ed="#Bc" break="no"/>ma.
+</p>
+               <p xml:id="Almn78-h44168-d1e1866">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod formari ab
+<lb ed="#Bc"/>alio sui generis est mulieris, sed formari
+<lb ed="#Bc"/>ab alio non sui generis, sed superioris,
+<lb ed="#Bc"/>cause secunde est, que sic formatur a
+<lb ed="#Bc"/>causa prima.
+</p>
+               <p xml:id="Almn78-h44168-d1e1879">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod illa 
+forma<lb ed="#Bc" break="no"/>tio qua Deus format nos ad opera bona,
+<lb ed="#Bc"/>est sicut formatio cause secunde a causa
+<lb ed="#Bc"/>prima, que non sunt ejusdem generis,
+<lb ed="#Bc"/>Et hoc est quod dicitur in libro de 
+Cau<lb ed="#Bc" break="no"/>sis, quod <quote xml:id="Almn78-h44168-Qd1e1894"> primum est dives in se et in
+<lb ed="#Bc"/>omnibus aliis. </quote>
+               </p>
+               <p xml:id="Almn78-h44168-d1e1900">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod in nullo 
+eo<lb ed="#Bc" break="no"/>rum salvatur conjugium : eo quod 
+sem<lb ed="#Bc" break="no"/>per deficit similitudo ejusdem nature et
+<lb ed="#Bc"/>ejusdem speciei. Sed ibi est similitudo
+<lb ed="#Bc"/>ejusdem cause consequentis ad causam
+<lb ed="#Bc"/>primam universalem, que movet alias
+<lb ed="#Bc"/>omnes consequentes, et informat eas.
+<lb ed="#Bc"/>Et hoc potius est secundum Augustinum
+<lb ed="#Bc"/>et Boetium fatum, quam matrimonium :
+<lb ed="#Bc"/>fatum enim, quod Greci elpappévgy 
+di<lb ed="#Bc" break="no"/>cunt, est implexio causarum, in qua (ut
+<lb ed="#Bc"/>dicit Augustinus in libro V de Civitate
+<lb ed="#Bc"/>Dei?) dominatur providentia, a qua
+<lb ed="#Bc"/>implexione causatur dispositio 
+immobi<lb ed="#Bc" break="no"/>lis inherens rebus mobilibus, per quam
+<lb ed="#Bc"/>providentia singula suis nectit finibus,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>ut dicit Boetius in V de Consolatione
+<lb ed="#Bc"/>philosophiae.
+</p>
+               <p xml:id="Almn78-h44168-d1e1944">
+                  <lb ed="#Bc"/>Ad uLrimum dicendum, quod a timore
+<lb ed="#Bc"/>Dei concipimus, sed non conceptum
+<lb ed="#Bc"/>matrimonii vel conjugii, sed conceptum
+<lb ed="#Bc"/>cause, quo scilicet secunda causa 
+con<lb ed="#Bc" break="no"/>cipit a prima. Et ex hoc aliquando 
+dici<lb ed="#Bc" break="no"/>tur Deus verus anime vir vel sponsus,
+<lb ed="#Bc"/>propter individuam vitam que est ex
+<lb ed="#Bc"/>amore, non propter connaturalitatem
+<lb ed="#Bc"/>que exigitur ad matrimonium.
+</p>
+               <p xml:id="Almn78-h44168-d1e1967">
+                  <lb ed="#Bc"/>InLup quod contra objicitur, 
+simplici<lb ed="#Bc" break="no"/>ter concedendum est sub metaphora que
+<lb ed="#Bc"/>dicta est.
+</p>
+            </div>
+            <div xml:id="Almn78-h44168-Dd1e1978">
+               <head xml:id="Almn78-h44168-Hd1e1980">Membrum 6</head>
+               <head xml:id="Almn78-h44168-Hd1e1983" type="question-title">
+        Qualiter in utraque portione, superiore
+        scilicet et inferiore, peccatum 
+        conconsummetur ad similitudinem primi
+        peccati primorum parentum
+      </head>
+               <p xml:id="Almn78-h44168-d1e1986">
+                  <lb ed="#Bc"/>MEMBRUM VI.
+<lb ed="#Bc"/>Qualiter in utraque portione, superiore
+<lb ed="#Bc"/>scilicet et inferiore, peccatum 
+con<lb ed="#Bc" break="no"/>consummetur ad similitudinem primi
+<lb ed="#Bc"/>peccati primorum parentum?
+</p>
+               <p xml:id="Almn78-h44168-d1e1999">
+                  <lb ed="#Bc"/>Sexto queritur, Qualiter peccatum
+<lb ed="#Bc"/>consummetur in illis ad similitudinem
+<lb ed="#Bc"/>primi peccati primorum parentum ?
+</p>
+               <p xml:id="Almn78-h44168-d1e2008">
+                  <lb ed="#Bc"/>Et de hoc in libro II Sententiarum, 
+di<lb ed="#Bc" break="no"/>stinct. XXIV, cap. Nune superest 
+osten<lb ed="#Bc" break="no"/>dere, ita dicit Magister : <quote xml:id="Almn78-h44168-Qd1e2016"> In nobis
+<lb ed="#Bc"/>sensualis motus cum illecebram 
+pec<lb ed="#Bc" break="no"/>cati conceperit, quasi serpens 
+sugge<lb ed="#Bc" break="no"/>rit miulieri, scilicet inferiori parti
+<lb ed="#Bc"/>rationis, id est, rationi scientia :
+<lb ed="#Bc"/>que si consenserit illecebre, mulier
+<lb ed="#Bc"/>edit cibum vetitum : post de eodem
+<lb ed="#Bc"/>dat viro, cum superiori parti rationis,
+<lb ed="#Bc"/>id est, rationi sapientiae eamdem 
+ille<lb ed="#Bc" break="no"/>cebram suggerit : que si consentit,
+<lb ed="#Bc"/>tunc vir etiam cum fcemina cibum
+<lb ed="#Bc"/>vetitum gustat. </quote>
+               </p>
+               <p xml:id="Almn78-h44168-d1e2044">
+                  <lb ed="#Bc"/>Videtur autem hoc generaliter non
+<lb ed="#Bc"/>esse verum, quia
+</p>
+               <p xml:id="Almn78-h44168-d1e2051">
+                  <lb ed="#Bc"/>1. Non omne peccatum incipit a sen
+<pb ed="#Bc" n="208"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>suali motu. Est enim peccatum 
+infideli<lb ed="#Bc" break="no"/>tatis, quod maximum peccatum est,
+<lb ed="#Bc"/>quod nullum objectum habet in 
+sensua<lb ed="#Bc" break="no"/>litate vel in sensu, quod etiam maxime
+<lb ed="#Bc"/>suggerit diabolus, sicut et in prima 
+ten<lb ed="#Bc" break="no"/>tatione maxime suggessit, ut verbis Dei
+<lb ed="#Bc"/>non crederetur quando dixit, Genes.
+<lb ed="#Bc"/>ul, 1: Cur precepit vobis Deus ut non
+<lb ed="#Bc"/>comederetis de omni ligno paradisi?
+<lb ed="#Bc"/>Et Heva respondit, ¥. 3 : Ne forte 
+mo<lb ed="#Bc" break="no"/>riamur. Serpens intulit, yy. 4 et 3 :
+<lb ed="#Bc"/>Nequaquam morte moriemini. Scit
+<lb ed="#Bc"/>enim Deus quod in quocumque die
+<lb ed="#Bc"/>comederitis ex eo, aperientur oculit 
+ve<lb ed="#Bc" break="no"/>stri : et eritis sicut dii, scientes bonum
+<lb ed="#Bc"/>et malum. Ergo videtur, quod non
+<lb ed="#Bc"/>omne peccatum incipit a sensuali
+<lb ed="#Bc"/>motu.
+</p>
+               <p xml:id="Almn78-h44168-d1e2099">
+                  <lb ed="#Bc"/>2. Adhuc, Cum serpens, ut dicitur,
+<lb ed="#Bc"/>Genes. 1, 1, callidior sit cunctis 
+ani<lb ed="#Bc" break="no"/>mantibus terre, sive astutior, videtur
+<lb ed="#Bc"/>male appropriari sensualitati : major
+<lb ed="#Bc"/>enim astutia non est in sensualitate, sed
+<lb ed="#Bc"/>potius in ratione : et sic non est 
+conve<lb ed="#Bc" break="no"/>niens adaptatio Augustini,
+</p>
+               <p xml:id="Almn78-h44168-d1e2117">
+                  <lb ed="#Bc"/>Ulterius queritur, Quantum hoc 
+pec<lb ed="#Bc" break="no"/>catum sit in quolibet gradu ?
+</p>
+               <p xml:id="Almn78-h44168-d1e2124">
+                  <lb ed="#Bc"/>Et dicit Magister, Si in motu sensuali
+<lb ed="#Bc"/>tantum peccati illecebra teneatur, veniale
+<lb ed="#Bc"/>ac levissimum peccatum est. De muliere
+<lb ed="#Bc"/>autem dicit in eodem capite, infra : Si
+<lb ed="#Bc"/>peccatum non diu teneatur delectatione
+<lb ed="#Bc"/>cogitationis, sed statim ut mulierem
+<lb ed="#Bc"/>tetigit, viri auctoritate pellatur, veniale
+<lb ed="#Bc"/>est. Si vero diu in cogitatione 
+delecta<lb ed="#Bc" break="no"/>tionis teneatur, etsi voluntas perficiendi
+<lb ed="#Bc"/>desit, mortale est, et pro eo damnabitur
+<lb ed="#Bc"/>similiter vir et mulier, id est, totus 
+ho<lb ed="#Bc" break="no"/>mo : quia tunc vir non sicut debuit,
+<lb ed="#Bc"/>mulierem cohibuit : unde potest dici 
+con<lb ed="#Bc" break="no"/>sensisse.
+</p>
+               <p xml:id="Almn78-h44168-d1e2157">
+                  <lb ed="#Bc"/>Quzrirur ergo ratione hujus, quando
+<lb ed="#Bc"/>dicenda sit morosa delectatio, que 
+di<lb ed="#Bc" break="no"/>citur esse mortale peccatum ?
+</p>
+               <p xml:id="Almn78-h44168-d1e2167">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Legitur enim in vitis Patrum, quod
+<lb ed="#Bc"/>quidam per triginta annos stimulum
+<lb ed="#Bc"/>carnis sustinuit : et cum semper 
+pugna<lb ed="#Bc" break="no"/>ret contra stimulum cinere et cilicio et
+<lb ed="#Bc"/>jejunio, non profecit, sed crevit in eo
+<lb ed="#Bc"/>stimulus : ergo videtur, quod morosa
+<lb ed="#Bc"/>delectatio non dicatur a tempore, sed ab
+<lb ed="#Bc"/>aliquo alio.
+</p>
+               <p xml:id="Almn78-h44168-d1e2189">
+                  <lb ed="#Bc"/>Avuvuc queritur de hoc quod dicit
+<lb ed="#Bc"/>Augustinus in libro XII de Trinitate*:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h44168-Qd1e2197"> Sane cum sola cogitatione mens 
+oble<lb ed="#Bc" break="no"/>ctatur illicitis, non quidem discernens
+<lb ed="#Bc"/>esse facienda, tenens tamen et volvens
+<lb ed="#Bc"/>libenter, que statim ut attigerunt 
+ani<lb ed="#Bc" break="no"/>mum, respui debuerant, negandum non
+<lb ed="#Bc"/>est esse peccatum, sed longe minus
+<lb ed="#Bc"/>quam si et opere statuatur implendum.
+<lb ed="#Bc"/>Et ideo de talibus quoque cogitationibus
+<lb ed="#Bc"/>venia petenda est, pectusque 
+percutien<lb ed="#Bc" break="no"/>dum, atque dicendum : Dimitte nobis
+<lb ed="#Bc"/>debita nostra . </quote> Constat, quod talis 
+in<lb ed="#Bc" break="no"/>junctio peenitentie venialis peccati est,
+<lb ed="#Bc"/>et non mortalis : ergo videtur, quod
+<lb ed="#Bc"/>talis delectatio veniale peccatum sit.
+</p>
+               <p xml:id="Almn78-h44168-d1e2229">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod optima est
+<lb ed="#Bc"/>adaptio Augustini, et conveniens valde
+<lb ed="#Bc"/>de peccati perfectione ad similitudinem
+<lb ed="#Bc"/>primi peccati.
+</p>
+               <p xml:id="Almn78-h44168-d1e2240">
+                  <lb ed="#Bc"/>Ad 1D ergo quod primo  objicitur,
+<lb ed="#Bc"/>quod non omne peccatum a sensualitate
+<lb ed="#Bc"/>incipit, dicendum quod licet non omne
+<lb ed="#Bc"/>peccatum objectum habeat in 
+sensuali<lb ed="#Bc" break="no"/>tate, tamen omne peccatum a 
+corrup<lb ed="#Bc" break="no"/>tione sensualitatis procedit, et incipit :
+<lb ed="#Bc"/>quia primo parentum sensualitas a 
+gu<lb ed="#Bc" break="no"/>stu vetiti et corrupta et infecta est, et
+<lb ed="#Bc"/>sic m nos transfusa. Et ideo dicit 
+Au<lb ed="#Bc" break="no"/>gustinus, quod initium peccati a 
+sen<lb ed="#Bc" break="no"/>sualitate est, corrupta scilicet et infecta.
+</p>
+               <p xml:id="Almn78-h44168-d1e2266">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod bona est
+<lb ed="#Bc"/>adaptatio. Sicut enim dicit Damascenus,
+<lb ed="#Bc"/>serpens non tantum astute persuasit et
+<lb ed="#Bc"/>callide, sed etiam delectabilibus 
+moti<lb ed="#Bc" break="no"/>bus mulieri appropinquavit et placuit.
+</p>
+               <p xml:id="Almn78-h44168-d1e2279">
+                  <pb ed="#Bc" n="209"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Et quantum ad hoc magis attribuitur
+<lb ed="#Bc"/>sensualitati, quam inferiori parti rationis.
+<lb ed="#Bc"/>Dicit tamen Magister in libro H 
+Sen<lb ed="#Bc" break="no"/>tentiarum, distinct. XXIV, cap. Non est
+<lb ed="#Bc"/>autem silentio prelermitlendum, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h44168-Qd1e2298"> aliquando nomine sensualitatis 
+intelli<lb ed="#Bc" break="no"/>gitur inferior portio rationis, qua 
+tem<lb ed="#Bc" break="no"/>poralium dispositioni intendit : </quote> et 
+hu<lb ed="#Bc" break="no"/>jus causa est, quod inferior portio
+<lb ed="#Bc"/>rationis est que reflectitur ad sensum
+<lb ed="#Bc"/>et sensibilia, et quantum ad hoc concipit
+<lb ed="#Bc"/>illecebrosam delectationem,
+</p>
+               <p xml:id="Almn78-h44168-d1e2316">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod sicut Magister dicit, et etiam
+<lb ed="#Bc"/>Augustinus, siin sensualitate solo motu
+<lb ed="#Bc"/>teneatur, qui primus motus dicitur,
+<lb ed="#Bc"/>veniale et levissimum est : quia non
+<lb ed="#Bc"/>est nisi primus lactus peccati, et non
+<lb ed="#Bc"/>est in sensualitate sicut in subjecto,
+<lb ed="#Bc"/>sicut in antehabilis probatum est, sed
+<lb ed="#Bc"/>sicut in origine corrupta.
+</p>
+               <p xml:id="Almn78-h44168-d1e2338">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur de 
+mo<lb ed="#Bc" break="no"/>rosa delectatione, dicendum quod non
+<lb ed="#Bc"/>dicitur morosa quantitate temporis, sed
+<lb ed="#Bc"/>morosa, sicut dixerunt antiqui, 
+Preposi<lb ed="#Bc" break="no"/>tivus et Gulielmus Allisiodorensis, a
+<lb ed="#Bc"/>negligentia superioris partis rationis.
+<lb ed="#Bc"/>Et hoc est quando superior portio videt
+<lb ed="#Bc"/>et advertit, quod injacet illecebrosa de-
+</p>
+               <p xml:id="Almn78-h44168-d1e2358">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>lectatio peccati in inferiori parte 
+ratio<lb ed="#Bc" break="no"/>nis, et non avertit inferiorem partem
+<lb ed="#Bc"/>rationis, nec abslrahit, sed dissimulat et
+<lb ed="#Bc"/>permittit inferiorem partem turpiter in
+<lb ed="#Bc"/>ea delectari. Et tales dicuntur a beato
+<lb ed="#Bc"/>Gregorio ponderosi, qui pondus 
+dele<lb ed="#Bc" break="no"/>ctationis in corde portant, et non 
+ex<lb ed="#Bc" break="no"/>cludunt. Et tales pertinent ad malitiam
+<lb ed="#Bc"/>Phariseorum, qui dixerunt legem 
+cohi<lb ed="#Bc" break="no"/>bere manum, non animam: cum 
+Sal<lb ed="#Bc" break="no"/>vator dicat, Matth. v, 28 : Omnis qui
+<lb ed="#Bc"/>viderit mulierem ad concupiscendum
+<lb ed="#Bc"/>eam, jam machalus est eam in corde
+<lb ed="#Bc"/>suo. Et, Job, xxxt, 1 : Pepigi fedus
+<lb ed="#Bc"/>cum oculis meis, ut ne cogitarem 
+qui<lb ed="#Bc" break="no"/>dem de virgine. \bi Glossa : <quote xml:id="Almn78-h44168-Qd1e2397"> Quia
+<lb ed="#Bc"/>mors per fenestras sensuum intrat, eos
+<lb ed="#Bc"/>extra custodit, ne per eos anima 
+exte<lb ed="#Bc" break="no"/>riora capiat. </quote> Non enim debet intueri
+<lb ed="#Bc"/>quod non licet concupisci : quia 
+ce<lb ed="#Bc" break="no"/>tera bona non placent sine munditia
+<lb ed="#Bc"/>cordis.
+</p>
+               <p xml:id="Almn78-h44168-d1e2413">
+                  <lb ed="#Bc"/>Ad urrimum quod queritur, dicendum
+<lb ed="#Bc"/>quod non intendit Augustinus dicere,
+<lb ed="#Bc"/>quod tale peccatum sit veniale ex 
+gene<lb ed="#Bc" break="no"/>re, sed ex circumstantia aliqua quam
+<lb ed="#Bc"/>habet in se : quia scilicet ad opus non
+<lb ed="#Bc"/>deducitur, venia dignum est: et ideo cum
+<lb ed="#Bc"/>dolore contritionis et oratione 
+Domini<lb ed="#Bc" break="no"/>ca remittitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

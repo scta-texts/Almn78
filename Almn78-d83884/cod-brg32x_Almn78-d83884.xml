@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 35</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 35</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="376"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d83884"><!-- p2t9q35 -->
+            <head xml:id="Almn78-d83884-Hd1e106">Quaestio 35</head>
+            <head xml:id="Almn78-d83884-Hd1e109" type="question-title">
+      De locutione Angelorum
+    </head>
+            <p xml:id="Almn78-d83884-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XXXV.
+      <lb ed="#Bb"/>De locutione Angelorum
+    </p>
+            <p xml:id="Almn78-d83884-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde queritur de locutione 
+      Angelo<lb ed="#Bb" break="no"/>rum, que maxime fit in missione eorum.
+    </p>
+            <p xml:id="Almn78-d83884-d1e130">
+               <lb ed="#Bb"/>Et queruntur sex, quorum primum
+      <lb ed="#Bb"/>est, An loquantur?
+      <lb ed="#Bb"/>Secundum, Quo sermone loquantur ?
+      <lb ed="#Bb"/>Tertium, De organis loquentium et
+      <lb ed="#Bb"/>audientium ?
+      <lb ed="#Bb"/>Quartum, Utrum omnes omnibus 
+      lo<lb ed="#Bb" break="no"/>quantur, vel quidam quibusdam ?
+      <lb ed="#Bb"/>Quintum, Utrum omnia vel quedam
+      <lb ed="#Bb"/>loquantur ?
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Sextum, Utrum omnes eodem modo
+      <lb ed="#Bb"/>loquantur ad animas, et ad se invicem,
+      <lb ed="#Bb"/>et ad Deum.
+    </p>
+            <div xml:id="Almn78-d83884-Dd1e162">
+               <head xml:id="Almn78-d83884-Hd1e164">Membrum 1</head>
+               <head xml:id="Almn78-d83884-Hd1e167" type="question-title">
+        Utrum Angeli loquantur
+      </head>
+               <p xml:id="Almn78-d83884-d1e170">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>Utrum Angeli loquantur?
+      </p>
+               <p xml:id="Almn78-d83884-d1e177">
+                  <lb ed="#Bb"/>Primo ergo queritur, An loquantur ?
+      </p>
+               <p xml:id="Almn78-d83884-d1e182">
+                  <pb ed="#Bb" n="377"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Et videtur, quod sic.
+        <lb ed="#Bb"/>1. I ad Corinth. xin, 4: <quote xml:id="Almn78-d83884-Qd1e192">Si linguis
+          <lb ed="#Bb"/>hominum loquar et Angelorum</quote>. Ergo
+        <lb ed="#Bb"/>videtur, quod loquantur.
+      </p>
+               <p xml:id="Almn78-d83884-d1e202">
+                  <lb ed="#Bb"/>2. Adhuc ibidem in Glossa super illud,
+        <lb ed="#Bb"/>Si linguis hominum loquar, et 
+        Angelo<lb ed="#Bb" break="no"/>rum. <quote xml:id="Almn78-d83884-Qd1e210"> Lingue quibus superiores 
+          signifi<lb ed="#Bb" break="no"/>cant inferioribus quod de Dei voluntate
+          <lb ed="#Bb"/>perceperunt, quod fit nutibus et signis.</quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e218">
+                  <lb ed="#Bb"/>3. Adhuc, Damascenus in libro If de
+        <lb ed="#Bb"/>Fide orthodoza dicit : <quote xml:id="Almn78-d83884-Qd1e224"> Angeli sunt 
+          lu<lb ed="#Bb" break="no"/>mina illuminationem habentia ex primo
+          <lb ed="#Bb"/>principio, non lingua et auditu 
+          indigen<lb ed="#Bb" break="no"/>tia, sed sine sermone voce prolato 
+          tra<lb ed="#Bb" break="no"/>dentia sibi invicem et consilia sua et
+          <lb ed="#Bb"/>intelligentias '. </quote> Ergo loquuntur, licet
+        <lb ed="#Bb"/>non loquantur voce prolata.
+      </p>
+               <p xml:id="Almn78-d83884-d1e240">
+                  <lb ed="#Bb"/>4, Adhuc, Boetius et Dionysius :
+        <lb ed="#Bb"/>Quidquid potest potentia inferior, potest
+        <lb ed="#Bb"/>et potentia superior excellenter et 
+        emi<lb ed="#Bb" break="no"/>nenter : sed homo in ratione potentiz
+        <lb ed="#Bb"/>inferior est, quam Angelus: ergo quod
+        <lb ed="#Bb"/>per rationem potest homo, hoc per 
+        ra<lb ed="#Bb" break="no"/>tionem potest Angelus excellenter et
+        <lb ed="#Bb"/>eminenter : sed homo potest interpretari
+        -conceptus suos ad alterum: ergo 
+        Ange<lb ed="#Bb" break="no"/>lus potest multo excellentius conceptus
+        <lb ed="#Bb"/>suos interpretari: et hoc est loqui: ergo
+        <lb ed="#Bb"/>Angelus potest loqui.
+      </p>
+               <p xml:id="Almn78-d83884-d1e266">
+                  <lb ed="#Bb"/>
+                  <sic>6</sic>. Adhuc, Zachar. 1, 14: Angelus qui
+        <lb ed="#Bb"/>loquebatur in me: sed plus ordinis 
+        ha<lb ed="#Bb" break="no"/>bet Angelus ad Angelum, quam Angelus
+        <lb ed="#Bb"/>ad animam: si ergo loquitur ad animam,
+        <lb ed="#Bb"/>loquitur ad Angelum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e283">
+                  <lb ed="#Bb"/>6. Adhuc, Constat, quod secundum
+        <lb ed="#Bb"/>Dionysium, Angeli superiores plus 
+        no<lb ed="#Bb" break="no"/>verunt de Dei voluntate, quam 
+        inferio<lb ed="#Bb" break="no"/>res: propter quod illuminationes a 
+        su<lb ed="#Bb" break="no"/>perioribus descendunt in inferiores, ut
+        <lb ed="#Bb"/>dicit Augustinus. Aut ergo habent 
+        po<lb ed="#Bb" break="no"/>testatem tradendt inferioribus que 
+        no<lb ed="#Bb" break="no"/>verunt de Deo, aut non. Si non: tunc in
+        <lb ed="#Bb"/>tradendo suas intelligentias, 
+        impotentio<lb ed="#Bb" break="no"/>res sunt quam homines, quod absurdum
+        <lb ed="#Bb"/>est. Si habent: cum tradere 
+        intelligen<lb ed="#Bb" break="no"/>tias alteri sit interpretari eas ad alterum,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>habent interpretari potentias suas ad
+        <lb ed="#Bb"/>alterum: et hoc est loqui: ergo habent
+        <lb ed="#Bb"/>potentiam loquendi.
+      </p>
+               <p xml:id="Almn78-d83884-d1e320">
+                  <lb ed="#Bb"/>Contra :
+        <lb ed="#Bb"/>1. Basilius super illud Deuteronomii,
+        <lb ed="#Bb"/>xxv, 9: Altende, et audi, sic dicit:
+        <quote xml:id="Almn78-d83884-Qd1e328">Sermonis nobis usum Deus qui nos
+          <lb ed="#Bb"/>creavit indulsit, pro eo, ut cordis occulta
+          <lb ed="#Bb"/>invicem nobis verbi ministerio 
+          pande<lb ed="#Bb" break="no"/>remus: ut commyni in alterutrum 
+          affe<lb ed="#Bb" break="no"/>ctione natura unusquisque nostrum 
+          pro<lb ed="#Bb" break="no"/>ximo suo velut ex arcanis quibusdam
+          <lb ed="#Bb"/>domiciliis consilii secreta depromeret. Si
+          <lb ed="#Bb"/>enim nuda solummodo atque intecta
+          <lb ed="#Bb"/>anima viveremus, ex ipsis tantum 
+          men<lb ed="#Bb" break="no"/>tis motibus atque cogitationibus 
+          inten<lb ed="#Bb" break="no"/>tionibusque cogitationum alterutrum
+          <lb ed="#Bb"/>nosceremur. </quote> Ex hoc -accipitur, quod
+        <lb ed="#Bb"/>anime nude sine locutione ex ipsis 
+        men<lb ed="#Bb" break="no"/>tis motibus ad invicem cognoscunt 
+        con<lb ed="#Bb" break="no"/>ceptus. Ergo multo magis Angeli.
+      </p>
+               <p xml:id="Almn78-d83884-d1e363">
+                  <lb ed="#Bb"/>2. Adhuc, Basilius,ibidem, <quote xml:id="Almn78-d83884-Qd1e367"> Quoniam
+          <lb ed="#Bb"/>vigor anime velamine carnis cooperitur,
+          <lb ed="#Bb"/>ad indicanda atque in publicam faciem
+          <lb ed="#Bb"/>proferenda ea que in profundo cordis
+          <lb ed="#Bb"/>vel cogitationibus vel sensibus 
+          commo<lb ed="#Bb" break="no"/>ventur nobis, et nominibus et 
+          vocabu<lb ed="#Bb" break="no"/>lis indigemus. </quote> Ex hoc accipitur, quod
+        <lb ed="#Bb"/>ubi non est velamen carnis, ibi non est
+        <lb ed="#Bb"/>de vocabulis et nominibus indigentia :
+        <lb ed="#Bb"/>ergo nec de locutione.
+      </p>
+               <p xml:id="Almn78-d83884-d1e390">
+                  <lb ed="#Bb"/>3. Adhuc, I ad Corinth. 1v, 5, super
+        <lb ed="#Bb"/>illud: Nolite ante tempus judicare, dicit
+        <lb ed="#Bb"/>Glossa sic : <quote xml:id="Almn78-d83884-Qd1e398"> Gesta et cogitata bona vel
+          <lb ed="#Bb"/>mala tunc erunt aperta: et quia omnia
+          <lb ed="#Bb"/>tunc erunt nota, tunc omnes poterunt
+          <lb ed="#Bb"/>judicare de se et de aliis. </quote> In Angelis
+        <lb ed="#Bb"/>ergo (qui lumina divina sunt, ut dicit
+        <lb ed="#Bb"/>Damascenus) gesta et cogitata erunt 
+        om<lb ed="#Bb" break="no"/>nibus nota: et sic vana est locutio: et
+        <lb ed="#Bb"/>nihil vanum est in operibus Dei: ergo
+        <lb ed="#Bb"/>non est locutio inter Angelos.
+      </p>
+               <p xml:id="Almn78-d83884-d1e419">
+                  <lb ed="#Bb"/>4, Adhuc, Augustinus: <quote xml:id="Almn78-d83884-Qd1e423"> In ceelis non
+          <lb ed="#Bb"/>erunt cogitationes volubiles hince illuc,
+          <lb ed="#Bb"/>aut inde huc: sed omnia simul 
+          videbi<lb ed="#Bb" break="no"/>mus in uno’*. </quote> Cum ergo Angeli non
+        <pb ed="#Bb" n="378"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>sic modo habeant cogitationes volubiles,
+        <lb ed="#Bb"/>sed omnia simul in uno videant, non est
+        <lb ed="#Bb"/>necesse unum loqui ad alterum aliquid
+        <lb ed="#Bb"/>de conceptu cordis sui: et sic non erit
+        <lb ed="#Bb"/>locutio inter Angelos.
+      </p>
+               <p xml:id="Almn78-d83884-d1e448">
+                  <lb ed="#Bb"/>5. Adhuc, Gregorius in libro IV 
+        Dia<lb ed="#Bb" break="no"/>logorum dicit : <quote xml:id="Almn78-d83884-Qd1e454"> Quid est quod non 
+          vi<lb ed="#Bb" break="no"/>deat, qui videntem omnia videt‘!? </quote> Et
+        <lb ed="#Bb"/>loquitur de Angelis: cum ergo quilibet
+        <lb ed="#Bb"/>Angelus videt omnia videntem, quilibet
+        <lb ed="#Bb"/>videt omnia, et que in se sunt, et que
+        <lb ed="#Bb"/>in alio:, ergo nulla indigent locutione.
+      </p>
+               <p xml:id="Almn78-d83884-d1e469">
+                  <lb ed="#Bb"/>6. Adhuc, Gregorius super illud Job,
+        <lb ed="#Bb"/>xxvil, 17: Non adequabitur ei aurum
+        <lb ed="#Bb"/>vel vitrum : dicit, quod <quote xml:id="Almn78-d83884-Qd1e477"> in resurrectione
+          <lb ed="#Bb"/>corporibus glorificatis sanctorum 
+          unius<lb ed="#Bb" break="no"/>cujusque mentem ab alterius oculis
+          <lb ed="#Bb"/>membrorum corpulentia non 
+          abscon<lb ed="#Bb" break="no"/>det 2. </quote> Cum ergo in Angelis nulla sit 
+        cor<lb ed="#Bb" break="no"/>pulentia, mens unius non absconditur ab
+        <lb ed="#Bb"/>alterius spiritualibus sive intellectualibus
+        <lb ed="#Bb"/>oculis : et sic sequitur iterum, quod non
+        <lb ed="#Bb"/>est necessaria locutio.
+      </p>
+               <p xml:id="Almn78-d83884-d1e498">
+                  <lb ed="#Bb"/>7. Adhuc, In luminibus corporalibus
+        <lb ed="#Bb"/>sic est, quod ad hoc quod unum 
+        mani<lb ed="#Bb" break="no"/>festetur alteri, nihil exigitur nisi directa
+        <lb ed="#Bb"/>oppositio, et quod inter ea non sit 
+        me<lb ed="#Bb" break="no"/>dium prohibens, ut dicit Anselmus: et
+        <lb ed="#Bb"/>quod proportionata distantia distent ab
+        <lb ed="#Bb"/>invicem, ita quod non nimis ab invicem
+        <lb ed="#Bb"/>sint elongata. Cum ergo duo vel plures
+        <lb ed="#Bb"/>Angeli sint lumina inteilectualia, nec
+        <lb ed="#Bb"/>inter ea sit medium prohibens, et sint ad
+        <lb ed="#Bb"/>invicem ordinata, nec nimis ab invicem
+        <lb ed="#Bb"/>elongata, videtur quod unum seipso 
+        ma<lb ed="#Bb" break="no"/>nifestetur alteri, et quidquid est in ipso:
+        <lb ed="#Bb"/>ergo inter ea vana esset locutio, et ad
+        <lb ed="#Bb"/>nihil utilis.
+      </p>
+               <p xml:id="Almn78-d83884-d1e534">
+                  <lb ed="#Bb"/>Soxvutio. Dicendum, quod Angeli 
+        lo<lb ed="#Bb" break="no"/>quuntur ad invicem, ut dicit Glossa, et
+        <lb ed="#Bb"/>Damascenus, et in Apocalypsi expresse
+        <lb ed="#Bb"/>legitur, et Daniel.x,9 et 11, et Zachar.1, 9
+        <lb ed="#Bb"/>et 14: et ex quo hec auctoritas expresse
+        <lb ed="#Bb"/>promulgavit, consentiendum est ita esse.
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Qualiter autem loquantur, et quo 
+        ser<lb ed="#Bb" break="no"/>mone,.in sequenti membro questionis
+        <lb ed="#Bb"/>hujus erit manifestum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e558">
+                  <lb ed="#Bb"/>Primo ergo inducte rationes et 
+        aucto<lb ed="#Bb" break="no"/>ritates concetentie sunt.
+      </p>
+               <p xml:id="Almn78-d83884-d1e565">
+                  <lb ed="#Bb"/>Ad dicta Basilii que adducta sunt in
+        <lb ed="#Bb"/>contrarium, dicendum quod Basilius non
+        <lb ed="#Bb"/>ostendit nisi causam, quare nobis Deus
+        <lb ed="#Bb"/>indulsit usum sermonis, qui voce 
+        corpo<lb ed="#Bb" break="no"/>rea profertur ad alterum distantem et
+        <lb ed="#Bb"/>distinctum ab ipso loquente: et bene
+        <lb ed="#Bb"/>concedendum est, quod si nuda et 
+        inte<lb ed="#Bb" break="no"/>cta anima viveremus, tali sermone non
+        <lb ed="#Bb"/>uteremur : sed ex hoc non sequitur,
+        <lb ed="#Bb"/>quod nullo nutu mentis et nullo signo
+        <lb ed="#Bb"/>indigeremus ad hoc, quod unus alteri
+        <lb ed="#Bb"/>conceptus suos manifestaret : unde etiam
+        <lb ed="#Bb"/>Angeli tali sermone non utuntur, nisi 
+        as<lb ed="#Bb" break="no"/>sumptis corporibus.
+      </p>
+               <p xml:id="Almn78-d83884-d1e598">
+                  <lb ed="#Bb"/>Ad aliud dictum Basilii,
+        <lb ed="#Bb"/>modo solvendum est:
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d83884-d1e607">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Glossa 
+        su<lb ed="#Bb" break="no"/>per epist. I ad Corinth. iv, 5, loquitur
+        <lb ed="#Bb"/>de lumine divino, quod in judicio 
+        per<lb ed="#Bb" break="no"/>lustrabit et manifestabit conscientias 
+        om<lb ed="#Bb" break="no"/>nium et omnibus, ita quod non est 
+        ne<lb ed="#Bb" break="no"/>cesse quid de se vel aliis indicet. Sed
+        <lb ed="#Bb"/>tale lumen non est angelice 
+        intelligen<lb ed="#Bb" break="no"/>tie : imo illud multa clausa tenet in 
+        se<lb ed="#Bb" break="no"/>ipso: et ideo ut illa pandantur alii, 
+        indi<lb ed="#Bb" break="no"/>get locutione spiriluali, etst non 
+        corpo<lb ed="#Bb" break="no"/>rali. aw 2
+      </p>
+               <p xml:id="Almn78-d83884-d1e633">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Augustinus
+        <lb ed="#Bb"/>loquitur de cognitione t evisione in 
+        Ver<lb ed="#Bb" break="no"/>bo, que non erit volubilis, sed in uno.
+        <lb ed="#Bb"/>Sed de conceptis in mente Angeli, si 
+        de<lb ed="#Bb" break="no"/>beat conferre de his Angelus que et 
+        qua<lb ed="#Bb" break="no"/>liter talia manifestet alii Angelo, oportet
+        <lb ed="#Bb"/>quod habeat cogitationes volubiles, 
+        scili<lb ed="#Bb" break="no"/>cet hinc illuc, et inde huc, et quibus 
+        si<lb ed="#Bb" break="no"/>gnis talia interpretetur ad alterum.
+        <lb ed="#Bb"/>Propter quos motus dicit Augustinus §,
+        <lb ed="#Bb"/>et ponitur in libro I Sententiarum, 
+        dis<lb ed="#Bb" break="no"/>tinct. XX XVII, quod Deus movet creatu
+        <pb ed="#Bb" n="379"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>ram spiritualem per tempus, etsi non per
+        <lb ed="#Bb"/>locum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e671">
+                  <lb ed="#Bb"/>Ad dictum Gregorii omni eodem modo
+        <lb ed="#Bb"/>respondendum est: quia loquitur de 
+        vi<lb ed="#Bb" break="no"/>sione que est in Verbo, ad quam 
+        mani<lb ed="#Bb" break="no"/>festandam non est necessaria locutio,
+        <lb ed="#Bb"/>sed potius ad illa manifestanda que
+        <lb ed="#Bb"/>clausa sunt in conceptibus Angelorum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e687">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Gregorius
+        <lb ed="#Bb"/>Joquitur de visione Dei in glorificatis,
+        <lb ed="#Bb"/>que pars beatitudinis est: illud enim
+        <lb ed="#Bb"/>quod de Deo concipit, corpulentia non
+        <lb ed="#Bb"/>absconditur. Unde beatus Bernardus in
+        <lb ed="#Bb"/>libro V de Consideratione ad Kugenium
+        <lb ed="#Bb"/>dicit::<quote xml:id="Almn78-d83884-Qd1e704"> 0 beata visio videre Deum in
+          <lb ed="#Bb"/>seipso, videre Deum et in meipso, 
+          vi<lb ed="#Bb" break="no"/>dere et in omnibus beatis! </quote> Unde ut
+        <lb ed="#Bb"/>plenum sit gaudium, corpulentia non
+        <lb ed="#Bb"/>abscondit quod de Deo unusquisque in
+        <lb ed="#Bb"/>se concipit: ut sic gaudeamus de Deo in
+        <lb ed="#Bb"/>Deo, de Deo in nobis, de Deo in 
+        omni<lb ed="#Bb" break="no"/>bus beatis. Et sic dicit Augustinus in 
+        li<lb ed="#Bb" break="no"/>bro XXII de Civitate Dei, quod erit in
+        <lb ed="#Bb"/>dispari claritate pax et gaudium. Sed
+        <lb ed="#Bb"/>propter alios conceptus qui clausi sunt
+        <lb ed="#Bb"/>in mentibus Angelorum et animarum
+        <lb ed="#Bb"/>beatarum, necessaria erit locutio: quia
+        <lb ed="#Bb"/>aliter ad alterutrum non possunt 
+        inter<lb ed="#Bb" break="no"/>pretari.
+      </p>
+               <p xml:id="Almn78-d83884-d1e738">
+                  <lb ed="#Bb"/>Ab uLtimum dicendum, quod non est
+        <lb ed="#Bb"/>simile de luminibus corporalibus, et 
+        lu<lb ed="#Bb" break="no"/>minibus spiritualibus: lumen enim 
+        cor<lb ed="#Bb" break="no"/>porale de necessitate nature habet, quod
+        <lb ed="#Bb"/>manifestet seipsum: lumen autem 
+        spi<lb ed="#Bb" break="no"/>rituale sive intellectuale in libertate 
+        vo<lb ed="#Bb" break="no"/>luntatis habet, quod manifestet se vel
+        <lb ed="#Bb"/>non manifestet : et ideo si manifestat se,
+        <lb ed="#Bb"/>oportet quod per interpretationem fiat,
+        <lb ed="#Bb"/>que est locutio.
+      </p>
+            </div>
+            <div xml:id="Almn78-d83884-Dd1e763">
+               <head xml:id="Almn78-d83884-Hd1e765">Membrum 2</head>
+               <head xml:id="Almn78-d83884-Hd1e768" type="question-title">
+        Quo sermone Angeli loquantur
+      </head>
+               <p xml:id="Almn78-d83884-d1e771">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Quo sermone Angeli loquantur ?
+      </p>
+               <p xml:id="Almn78-d83884-d1e780">
+                  <lb ed="#Bb"/>Secundo queritur, Quo sermone 
+        lo<lb ed="#Bb" break="no"/>quantur ?
+      </p>
+               <p xml:id="Almn78-d83884-d1e787">
+                  <lb ed="#Bb"/>1. Et dicit Glossa super epist. I ad
+        <lb ed="#Bb"/>Corinth. xm, 41, quod nutibus et signis
+        <lb ed="#Bb"/>loquuntur. Et videtur inconveniens : 
+        nu<lb ed="#Bb" break="no"/>tus enim potius deservit demonstrationi
+        <lb ed="#Bb"/>yisus, quam locutioni: et sic videtur,
+        <lb ed="#Bb"/>quod per nutus non proprie fit locutio.
+      </p>
+               <p xml:id="Almn78-d83884-d1e804">
+                  <lb ed="#Bb"/>2. Adhuc, Basilius in auctoritate 
+        pre<lb ed="#Bb" break="no"/>inducta * dicit, quod <quote xml:id="Almn78-d83884-Qd1e810"> si intecta et nuda
+          <lb ed="#Bb"/>anima viveremus, ex ipsis tantum 
+          men<lb ed="#Bb" break="no"/>tis motibus et intentionibus 
+          cogitatio<lb ed="#Bb" break="no"/>num alterutram nosceremur. </quote> Si ergo
+        <lb ed="#Bb"/>concordari debent dicta Sanctorum, 
+        mo<lb ed="#Bb" break="no"/>tus mentis eritidem quod nutus, et 
+        inten<lb ed="#Bb" break="no"/>tio cogitationum erit idem quod signum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e827">
+                  <lb ed="#Bb"/>3. Adhuc, Queritur de signo, Quid
+        <lb ed="#Bb"/>vocatur ibi signum ? Aut enim est 
+        si<lb ed="#Bb" break="no"/>gnum institutum ad placitum, aut est 
+        si<lb ed="#Bb" break="no"/>gnum quod per naturam rem significat,
+        <lb ed="#Bb"/>sicut fumus significat ignem. Si primo
+        <lb ed="#Bb"/>modo: tunc cum res sint plures quam 
+        si<lb ed="#Bb" break="no"/>gna, ut dicit Aristoteles in I 
+        Elencho<lb ed="#Bb" break="no"/>rum *, oportebit quod unum signum ad
+        <lb ed="#Bb"/>plures referatur, et erit aquivocum: et
+        <lb ed="#Bb"/>tunc in Angelis quemadmodum in 
+        lo<lb ed="#Bb" break="no"/>cutione hominum generabit confusum et
+        <lb ed="#Bb"/>falsum intellectum : quod absurdum est :
+        <lb ed="#Bb"/>quia dicit Damascenus, quod sine voce
+        <lb ed="#Bb"/>prolato sermone tradunt sibi suas 
+        in<lb ed="#Bb" break="no"/>telligentias discretas et determinatas 
+        In<lb ed="#Bb" break="no"/>telligentias autem discretas et 
+        determina<lb ed="#Bb" break="no"/>tas non traderet confusum et multiplex
+        <lb ed="#Bb"/>signum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e869">
+                  <lb ed="#Bb"/>4, Adhue, Si per talia signa esset 
+        lo<lb ed="#Bb" break="no"/>cutio, oporteret quod sicut in homini
+        <pb ed="#Bb" n="380"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>bus doctrina et disciplina signorum 
+        pre<lb ed="#Bb" break="no"/>cedit locutionem factam ad intellectum,
+        <lb ed="#Bb"/>eo quod talia signa non sunt eadem apud
+        <lb ed="#Bb"/>omnes: ita esset apud Angelos, quod
+        <lb ed="#Bb"/>oporteret eos prius discere intentionem
+        <lb ed="#Bb"/>signorum, et postea loqui per ea: quod
+        <lb ed="#Bb"/>absurdum est: Angeli enim vel in Verbo
+        <lb ed="#Bb"/>vel per species concreatas sibi notitiam
+        <lb ed="#Bb"/>habent rerum, ut in antehabitis 
+        deter<lb ed="#Bb" break="no"/>minatum est, et de novo notitiam non
+        <lb ed="#Bb"/>accipiunt per doctrinam, vel 
+        inventio<lb ed="#Bb" break="no"/>nem, vel experimentum. Si autem sunt
+        <lb ed="#Bb"/>signa naturalia rerum de quibus 
+        loquun<lb ed="#Bb" break="no"/>tur: autsunt communia, aut 
+        eonvertibi<lb ed="#Bb" break="no"/>lia. Si communia : tune determinatum
+        <lb ed="#Bb"/>intellectum de re non faciunt, commune
+        <lb ed="#Bb"/>enim non est proprium nisi secundum
+        <lb ed="#Bb"/>potentiam, ut docet Aristoteles in fine
+        <lb ed="#Bb"/>secundi Priorum : nec ex ipso 
+        ostende<lb ed="#Bb" break="no"/>retur res, nisi fallaciter secundum 
+        falla<lb ed="#Bb" break="no"/>ciam consequentis: dicit enim 
+        Aristole<lb ed="#Bb" break="no"/>teles in IT Priorum, quod ex talibus
+        -signis syllogizare in secunda figura, 
+        in<lb ed="#Bb" break="no"/>ducit fallaciam consequentis.
+      </p>
+               <p xml:id="Almn78-d83884-d1e930">
+                  <lb ed="#Bb"/>5. Adhuc, Augustinus dicit +, quod
+        <lb ed="#Bb"/>signum est, quod preter speciem quam
+        <lb ed="#Bb"/>ingerit sensibus vel cogitationi, aliud
+        <lb ed="#Bb"/>facit in notitiam venire. Et ideo refertur
+        <lb ed="#Bb"/>signum ad signatum, quia de signato
+        <lb ed="#Bb"/>facit notitiam. Et si talibus signis in 
+        lo<lb ed="#Bb" break="no"/>quendo utuntur Angeli: tunc videtur,
+        <lb ed="#Bb"/>quod signum nihil aliud sit nisi species
+        <lb ed="#Bb"/>intelligibilis de qua loquitur Angelus: et
+        <lb ed="#Bb"/>cum ille species sint in Angelis omnibus
+        <lb ed="#Bb"/>et eodem modo a creatione, videtur
+        <lb ed="#Bb"/>quod unus scit quod alius scit : et sic
+        <lb ed="#Bb"/>non erit necessaria locutio.
+      </p>
+               <p xml:id="Almn78-d83884-d1e961">
+                  <lb ed="#Bb"/>6. Adhuc, Proportionaliter locutio est
+        <lb ed="#Bb"/>inter homines et Angelos : sed inter 
+        ho<lb ed="#Bb" break="no"/>mines non esset locutio, nisi ea que sunt
+        <lb ed="#Bb"/>in vente, essent note passionum que sunt
+        <lb ed="#Bb"/>in anima: nec essct locutio de rebus,
+        <lb ed="#Bb"/>nisi passiones que sunt in anima, essent
+        <lb ed="#Bb"/>note rerum, ut in primo Perihermenias
+        <lb ed="#Bb"/>docet Aristoteles: si ergo proportionali
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>ter locutio est in Angelis, oportet quod
+        <lb ed="#Bb"/>signa per que loquuntur, sint signa 
+        in<lb ed="#Bb" break="no"/>tentionum et specierum que sunt 
+        intelli<lb ed="#Bb" break="no"/>gentia angelica : quia aliter per illa unus
+        <lb ed="#Bb"/>Angelus non manifestaret alii suos 
+        con<lb ed="#Bb" break="no"/>ceptus quos habet in seipso : et oportet,
+        <lb ed="#Bb"/>quod ille species sint note rerum de
+        <lb ed="#Bb"/>quibus loquuntur: aliter enim unus 
+        An<lb ed="#Bb" break="no"/>gelus non intelligeret res de quibus 
+        lo<lb ed="#Bb" break="no"/>quitur alius.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1005">
+                  <lb ed="#Bb"/>Solvtio. Concedendum est sicut 
+        di<lb ed="#Bb" break="no"/>cunt Sancti, quod nutibus et signis 
+        lo<lb ed="#Bb" break="no"/>quuntur Angeli, et quod ad locutionem
+        <lb ed="#Bb"/>tria exiguntur: conversio scilicet 
+        lumi<lb ed="#Bb" break="no"/>nis intelligenti# angelice super speciem
+        <lb ed="#Bb"/>rei de qua vult loqui: et hee species
+        <lb ed="#Bb"/>vocatur signum per quod loquitur 
+        An<lb ed="#Bb" break="no"/>gelus. Secundum est voluntas manife~
+        <lb ed="#Bb"/>standi alteri Angelo conceptum suum : et
+        <lb ed="#Bb"/>hoc a Basilio vocatur intentio cogitatio- .
+        <lb ed="#Bb"/>num, in hunc enim finem tendit Angelus
+        <lb ed="#Bb"/>loquendo : et dicit Augustinus, quod 
+        in<lb ed="#Bb" break="no"/>tentio est voluntas cum fine. Exigitur
+        <lb ed="#Bb"/>etiam tertio innuilio per lumen 
+        intelli<lb ed="#Bb" break="no"/>gentie ad rem quam vult manifestare :
+        <lb ed="#Bb"/>et haec vocatur nutus. Dicit autem Au-.
+        <lb ed="#Bb"/>gustinus in libro XV de Trinitate*, quod
+        <lb ed="#Bb"/>formata cogitatio de ea re quam scimus,
+        <lb ed="#Bb"/>verbum est, quod interius in intellectu
+        <lb ed="#Bb"/>dispositum est, antequam vel 
+        dispositio<lb ed="#Bb" break="no"/>nem accipiat aliquam vocis vel 
+        imagi<lb ed="#Bb" break="no"/>nem. Unde dicit de illo, quod nec 
+        Grae<lb ed="#Bb" break="no"/>cum, nec Latinum est, nec alicujus 
+        lin<lb ed="#Bb" break="no"/>gue habet sonum. Et de eodem loquens
+        <lb ed="#Bb"/>Damascenus, in libro I] de Fide orthodoxa
+        <lb ed="#Bb"/>sic dicit: <quote xml:id="Almn78-d83884-Qd1e1063"> Rursus dividit rationalis 
+          ani<lb ed="#Bb" break="no"/>ma interius dispositum sermonem et
+          <lb ed="#Bb"/>prolatum. Est autem interius dispositus
+          <lb ed="#Bb"/>sermo, motus in excogitando fines sine
+          <lb ed="#Bb"/>aliqua enuntiatione. Unde multoties 
+          si<lb ed="#Bb" break="no"/>lentes sermonem totum apud 
+          nosmetip<lb ed="#Bb" break="no"/>sos transimus, et in somnis disputamus.
+          <lb ed="#Bb"/>Prolatus vero sermo et in syllabis et in
+          <lb ed="#Bb"/>voce operationem habet*. </quote> Et hoc est
+        <pb ed="#Bb" n="381"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>quod dicit Damascenus, quod tradunt sibi
+        <lb ed="#Bb"/>suas intelligentias quantum ad conceptus
+        <lb ed="#Bb"/>qui sunt de rebus, et sua consilia 
+        quan<lb ed="#Bb" break="no"/>tum ad conceptus qui sunt de operandis
+        <lb ed="#Bb"/>sine voce prolato sermone.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1100">
+                  <lb ed="#Bb"/>Et hoc sic prenotato, facile est 
+        re<lb ed="#Bb" break="no"/>spondere ad questionem et ad objecta.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1107">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+        nu<lb ed="#Bb" break="no"/>tus in sensibilibus deservit 
+        demonstra<lb ed="#Bb" break="no"/>tioni visus : sed nutus qui est innuitio et
+        <lb ed="#Bb"/>directio luminis intelligentia ad rem 
+        cu<lb ed="#Bb" break="no"/>jus species concepta est in intellectu, 
+        de<lb ed="#Bb" break="no"/>servit locutioni spirituali-et immateriali :
+        <lb ed="#Bb"/>ergo in argumento est fallacia 
+        equivoca<lb ed="#Bb" break="no"/>tionis.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1127">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod motus 
+        men<lb ed="#Bb" break="no"/>tis secundum Basilium, cum innuitione
+        <lb ed="#Bb"/>et directione luminis intelligentie est
+        <lb ed="#Bb"/>nutus: et sic concordant dicta 
+        Sancto<lb ed="#Bb" break="no"/>rum. Intentio autem dicitur  voluntas
+        <lb ed="#Bb"/>manifestandi rem conceptam ab Angelo
+        <lb ed="#Bb"/>loquente, ut dictum est.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1145">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod jam parum
+        <lb ed="#Bb"/>ante exposilum est quid sit signum : est
+        <lb ed="#Bb"/>enim species concepta sub voluntate
+        <lb ed="#Bb"/>manifestandi et innuilione luminis 
+        intel<lb ed="#Bb" break="no"/>ligentiz ad res cujus est species. Et ideo
+        <lb ed="#Bb"/>nec est naturale, nec ad placilum, sed
+        <lb ed="#Bb"/>verbum est intelligentie rei. Et ideo 
+        ra<lb ed="#Bb" break="no"/>tiones inducte de signo ad placitum,
+        <lb ed="#Bb"/>vel naturali, nihil faciunt ad propositum:
+        <lb ed="#Bb"/>signum enim predicatur equivoce de
+        <lb ed="#Bb"/>signo ad placitum, et naturali, et verbo
+        <lb ed="#Bb"/>quod est intellectus rei. Si enim esset
+        <lb ed="#Bb"/>communitas aliqua vel mulltiplicitas in
+        <lb ed="#Bb"/>illis signis, ex innuitione sive directione
+        <lb ed="#Bb"/>luminis intelligentia ad rem cujus est
+        <lb ed="#Bb"/>signum, statim determinaretur et 
+        appro<lb ed="#Bb" break="no"/>priaretur, ila quod in eo cui loquitur 
+        An<lb ed="#Bb" break="no"/>gelus, nullum generaret confusum vel
+        <lb ed="#Bb"/>incertum intellectum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1189">
+                  <lb ed="#Bb"/>Per Hoc etiam patetsolutio ad sequens:
+        <lb ed="#Bb"/>quia talia signa non sunt sicut sunt apud
+        <lb ed="#Bb"/>homines, sed sunt conceptus et species
+        <lb ed="#Bb"/>et verba intellectualia rerum per innui
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>tionem luminis intelligentize ad rem 
+        de<lb ed="#Bb" break="no"/>terminata.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1207">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod signa illa
+        <lb ed="#Bb"/>species rerum sunt Angelis concreate :
+        <lb ed="#Bb"/>et licet in communi eodem modo sint in
+        <lb ed="#Bb"/>omnibus Angelis per species concreatas,
+        <lb ed="#Bb"/>tamen secundum quod stant sub 
+        con<lb ed="#Bb" break="no"/>ceptu et voluntate, unus concipit per eas
+        <lb ed="#Bb"/>quod non concipit alius: et ad hoc quod
+        <lb ed="#Bb"/>unus manifestet aliis quod concipit, 
+        ne<lb ed="#Bb" break="no"/>cessaria est locutio.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1230">
+                  <lb ed="#Bb"/>Ad ultimum dicendum, quod hoc 
+        sim<lb ed="#Bb" break="no"/>pliciter procedit : quia recte verum est:
+        <lb ed="#Bb"/>species enim intell'gibiles sunt note 
+        con<lb ed="#Bb" break="no"/>ceptuum Angelorum, et ipsi conceptus
+        <lb ed="#Bb"/>sunt note rerum de quibus loquuntur
+        <lb ed="#Bb"/>Angeli, sed sunt note intelligibiles, non
+        <lb ed="#Bb"/>sensibiles : quia, sicut dicit Damascenus,
+        <lb ed="#Bb"/>locutio eorum est sine voce prolato 
+        ser<lb ed="#Bb" break="no"/>mone.
+      </p>
+            </div>
+            <div xml:id="Almn78-d83884-Dd1e1253">
+               <head xml:id="Almn78-d83884-Hd1e1255">Membrum 3</head>
+               <head xml:id="Almn78-d83884-Hd1e1258" type="question-title">
+        De organis Angelorum loquentium et
+        audientium
+      </head>
+               <p xml:id="Almn78-d83884-d1e1261">
+                  <lb ed="#Bb"/>MEMBRUM III.
+        <lb ed="#Bb"/>De organis Angelorum loquentium et
+        <lb ed="#Bb"/>audientium.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1270">
+                  <lb ed="#Bb"/>Tertio, Queritur de organis 
+        loquen<lb ed="#Bb" break="no"/>tium et audientium.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1277">
+                  <lb ed="#Bb"/>Videtur, quod in Angelis debent esse
+        <lb ed="#Bb"/>lingue, et aures spirituales :
+        <lb ed="#Bb"/>1. Aliter enim non posset assignari,
+        <lb ed="#Bb"/>qualiter verbum ab uno procederet in
+        <lb ed="#Bb"/>alterum : locutio enim non fit nisi verbum
+        <lb ed="#Bb"/>procedat a dicente ad audientem : et id
+        <lb ed="#Bb"/>quo verbum formatur,linguw# habetactum
+        <lb ed="#Bb"/>et vicem : et id quo recipitur, actum
+        <lb ed="#Bb"/>habet auris: et ita videtur, quod 
+        spiri<lb ed="#Bb" break="no"/>tuales aures et lingue sint in Angelis.
+        <lb ed="#Bb"/>Sicut et Apostolus nominat linguam 
+        di<lb ed="#Bb" break="no"/>cens, I ad Corinth, xm, 4: St linguis
+        <lb ed="#Bb"/>hominum loquar, et Angelorum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1309">
+                  <pb ed="#Bb" n="382"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>2. Adhuc, Luc. xv1, 24, dives exutus
+        <lb ed="#Bb"/>corpore, dixit se cruciari in lingua : et si
+        <lb ed="#Bb"/>anima exuta corpore linguam_habet,
+        <lb ed="#Bb"/>videtur quod et Angelus habeat: in hoc
+        <lb ed="#Bb"/>enim similes sunt, quod sunt substantia
+        <lb ed="#Bb"/>spirituales rationales, non ex materia
+        <lb ed="#Bb"/>corporea existentes.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1331">
+                  <lb ed="#Bb"/>Contra: Lingua instrumentum 
+        corpo<lb ed="#Bb" break="no"/>rum est, et auris similiter: nihil 
+        corpo<lb ed="#Bb" break="no"/>ree nature est in Angelo: ergo nihil
+        <lb ed="#Bb"/>talium est in eo.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1342">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod nihil talium
+        <lb ed="#Bb"/>est in Angelo, nisi ad anagogicam 
+        signi<lb ed="#Bb" break="no"/>ficationem referatur, ut dicit Dionysius
+        <lb ed="#Bb"/>in libro de Calesti hierarchia, ubi dicit
+        <lb ed="#Bb"/>sic : <quote xml:id="Almn78-d83884-Qd1e1355"> Olfactivum vero significat 
+          discre<lb ed="#Bb" break="no"/>tivas virtutes: illud super intellectum
+          <lb ed="#Bb"/>suave olentis distributionis, quantum
+          <lb ed="#Bb"/>possibile, receptivum : et eorum que sic
+          <lb ed="#Bb"/>non sunt, per scientiam discretivum et
+          <lb ed="#Bb"/>omnino refugitivum. Aurium vero 
+          vir<lb ed="#Bb" break="no"/>tutes illud particeps et gnosticum divine
+          <lb ed="#Bb"/>inspirationis susceptivum'. </quote> Unde 
+        lin<lb ed="#Bb" break="no"/>gua in Angelis nec materialis est, nec
+        <lb ed="#Bb"/>virtus organo determinata : sed potestas
+        <lb ed="#Bb"/>intellectualis interpretandi suos 
+        concep<lb ed="#Bb" break="no"/>tus ad alterum, lingua vocatur ab 
+        Apo<lb ed="#Bb" break="no"/>stolo secundum anagogicam significatio -
+        <lb ed="#Bb"/>nem.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1387">
+                  <lb ed="#Bb"/>Ad primum objectum dicendum, quod
+        <lb ed="#Bb"/>verbum a dicente Angelo non procedit
+        <lb ed="#Bb"/>in audientem per aliquem spiritum 
+        me<lb ed="#Bb" break="no"/>dium, qui sit verbi vehiculum, sicut est
+        <lb ed="#Bb"/>in locutione hominis: sed ab uno 
+        for<lb ed="#Bb" break="no"/>matur in altero, quando per intentionem
+        <lb ed="#Bb"/>communicandi sibi suos conceptus 
+        diri<lb ed="#Bb" break="no"/>gunt ad invicem : sicut quod est in uno
+        <lb ed="#Bb"/>speculo, formatur in altero directe sibi
+        <lb ed="#Bb"/>opposito, per processum luminis de uno
+        <lb ed="#Bb"/>in alterum per reflexionem. Et he 
+        di<lb ed="#Bb" break="no"/>cuntur inlerpretative potestates et 
+        audi<lb ed="#Bb" break="no"/>tive im Angelis secundum anagogicas
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>signifieationes: et hoc vocat Apostolus
+        <lb ed="#Bb"/>linguam, ut dictum est.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1424">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod non est 
+        si<lb ed="#Bb" break="no"/>mile de Angelo, et anima exuta de 
+        cor<lb ed="#Bb" break="no"/>pore: quia anima per hoc quod 
+        secun<lb ed="#Bb" break="no"/>dum naturam est actus corporis, potentias
+        <lb ed="#Bb"/>habet organicas quas retinet etiam exuta
+        <lb ed="#Bb"/>a corpore. Angelus autem nullius 
+        corpo<lb ed="#Bb" break="no"/>ris est actus, et nullam habet potentiam —
+        <lb ed="#Bb"/>organicam: et si assumpto corpore 
+        di<lb ed="#Bb" break="no"/>catur habere organum corporis, erit 
+        re<lb ed="#Bb" break="no"/>ferendum ad anagogicam significationem,
+        <lb ed="#Bb"/>ui dictum est, secundum quod spiritualia
+        <lb ed="#Bb"/>sepe figuris corporalium describuntur,
+        <lb ed="#Bb"/>sicut in prehabitis in questione de 
+        figa<lb ed="#Bb" break="no"/>ris corporum dictum est.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1457">
+                  <lb ed="#Bb"/>Qvop in contrarium objicitur, 
+        conce<lb ed="#Bb" break="no"/>dendum est, quia procedit.
+      </p>
+            </div>
+            <div xml:id="Almn78-d83884-Dd1e1465">
+               <head xml:id="Almn78-d83884-Hd1e1467">Membrum 4</head>
+               <head xml:id="Almn78-d83884-Hd1e1470" type="question-title">
+        Utrum omnes Angeli omnibus loquantur,
+        vel quidam quibusdam
+      </head>
+               <p xml:id="Almn78-d83884-d1e1473">
+                  <lb ed="#Bb"/>MEMBRUM IV.
+        <lb ed="#Bb"/>Utrum omnes Angeli omnibus loquantur,
+        <lb ed="#Bb"/>vel quidam quibusdam?
+      </p>
+               <p xml:id="Almn78-d83884-d1e1482">
+                  <lb ed="#Bb"/>Quarto queritur, Utrum omnes 
+        omni<lb ed="#Bb" break="no"/>bus loquantur, vel quidam quibusdam ?
+      </p>
+               <p xml:id="Almn78-d83884-d1e1489">
+                  <lb ed="#Bb"/>Et videtur, quod non omnes 
+        omni<lb ed="#Bb" break="no"/>bus.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1497">
+                  <lb ed="#Bb"/>1.1 ad Corinth. xm, 1, super illud: Si
+        <lb ed="#Bb"/>linguis, Glossa: <quote xml:id="Almn78-d83884-Qd1e1503"> Linguis quibus 
+          pre<lb ed="#Bb" break="no"/>positi minoribus quod de Dei voluntate
+          <lb ed="#Bb"/>primi sentiunt, significant. </quote> Ergo. 
+        vide<lb ed="#Bb" break="no"/>tur, quod majores minoribus loquantur,
+        <lb ed="#Bb"/>et non omnes omnibus.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1515">
+                  <lb ed="#Bb"/>2. Adhuc, Damascenus in libro II de
+        <lb ed="#Bb"/>Fide orthodexa : <quote xml:id="Almn78-d83884-Qd1e1521"> Qui eminent, 
+          inferio<lb ed="#Bb" break="no"/>ribus tradunt suas intelligentias et 
+          consi<lb ed="#Bb" break="no"/>lia*, </quote> tradere autem intelligentias et
+        <lb ed="#Bb"/>consilia, est loqui, ut habitum est : ergo
+        <pb ed="#Bb" n="383"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>videtur, quod eminentes inferioribus 
+        lo<lb ed="#Bb" break="no"/>quantur, et non e converso: ergo non
+        <lb ed="#Bb"/>omnes omnibus loquuntur.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1542">
+                  <lb ed="#Bb"/>3. Adhuc, Dionysius, <quote xml:id="Almn78-d83884-Qd1e1546"> Superiores
+          <lb ed="#Bb"/>illuminant inferiores: </quote> illuminare est
+        <lb ed="#Bb"/>tradere intelligentias et consilia : et hoc
+        <lb ed="#Bb"/>est loqui, ut dicit Damascenus: ergo
+        <lb ed="#Bb"/>videtur, quod superiores tantum 
+        inferio<lb ed="#Bb" break="no"/>ribus loquuntur.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1561">
+                  <lb ed="#Bb"/>Contra : :
+        <lb ed="#Bb"/>1. In nullo ordine sic est, quod 
+        infe<lb ed="#Bb" break="no"/>rior non potest loqui superiori: 
+        discipu<lb ed="#Bb" break="no"/>lus enim loquitur magistro, servus 
+        do<lb ed="#Bb" break="no"/>mino, et sic de aliis: sed ordines angelici
+        <lb ed="#Bb"/>maxime sunt ordinati: ergo videtur,
+        <lb ed="#Bb"/>quod et in illis inferior potest logui 
+        su<lb ed="#Bb" break="no"/>periori.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1581">
+                  <lb ed="#Bb"/>2. Adhuc, Dionysius dicit, tractans
+        <lb ed="#Bb"/>ilud Isaie, txut, 1: Quis est iste qui
+        <lb ed="#Bb"/>venit de Edom ? quod inferiores 
+        questio<lb ed="#Bb" break="no"/>nes faciunt superioribus: et querere est
+        <lb ed="#Bb"/>loqui : ergo inferiores loquuntur 
+        superio<lb ed="#Bb" break="no"/>ribus : ergo omnes omnibus.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1597">
+                  <lb ed="#Bb"/>3. Adhuc, I ad Corinth. xiv, 30, super
+        <lb ed="#Bb"/>illud : Quod si alii revelatum fuertt 
+        se<lb ed="#Bb" break="no"/>denti, prior taceat, Glossa: <quote xml:id="Almn78-d83884-Qd1e1605"> Aliquando
+          <lb ed="#Bb"/>datur inferiori, quod non datur 
+          supe<lb ed="#Bb" break="no"/>riori. </quote> Cum ergo Ecclesiastica 
+        hierar<lb ed="#Bb" break="no"/>chia descendat a ceelesti, etiam in celesti
+        <lb ed="#Bb"/>hierarchia datur inferior), quod non da~
+        <lb ed="#Bb"/>tur superiori: et de hoc potest inferior
+        <lb ed="#Bb"/>loqui superiori, et illuminare ipsum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1623">
+                  <lb ed="#Bb"/>4, Adhuc, In prehabitis probatum est,
+        <lb ed="#Bb"/>quod Angeli inferiores aliquid didicerant
+        <lb ed="#Bb"/>ab Ecclesia et ab Apostolo de mysterio
+        <lb ed="#Bb"/>Incarnationis : constat autem, quod 
+        ho<lb ed="#Bb" break="no"/>mines in carne existentes inferiores sunt
+        <lb ed="#Bb"/>Angelis: ergo in ordine hierarchie ad
+        <lb ed="#Bb"/>hierarchiam inferior loquitur superiori,
+        <lb ed="#Bb"/>et illuminat eum de quibusdam.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1643">
+                  <lb ed="#Bb"/>Ad hoc dixerunt quidam, quod Angeli
+        <lb ed="#Bb"/>sunt ministrantes, et assistentes: et 
+        mi<lb ed="#Bb" break="no"/>nistrantes plura cognoscunt ad 
+        ministe<lb ed="#Bb" break="no"/>rium pertinentia, que sunt circa nos, et
+        <lb ed="#Bb"/>de his loquuntur superioribus. 
+        Assisten<lb ed="#Bb" break="no"/>tes autem plura cognoscunt de divinis,
+        <lb ed="#Bb"/>et de his loquuntur inferioribus, et 
+        illu<lb ed="#Bb" break="no"/>minant eos. Sed hoc stare non potest :
+        <lb ed="#Bb"/>quia sive illa cognitio sit de divinis, sive
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>de humanis ad ministerium pertinentibus :
+        <lb ed="#Bb"/>aut est gratuita, aut naturalis, Si 
+        gra<lb ed="#Bb" break="no"/>tuita: tunc plane falsum est: in omnibus
+        <lb ed="#Bb"/>enim gratuitis superiores majorem 
+        ha<lb ed="#Bb" break="no"/>bent cognitionem, quam inferiores: et
+        <lb ed="#Bb"/>sic tantum superiores loquerentur 
+        infe<lb ed="#Bb" break="no"/>rioribus, et non e converso. Si de 
+        natu<lb ed="#Bb" break="no"/>rali: cum naturalium cognitionem omnes
+        <lb ed="#Bb"/>a creatore acceperint, omnes omnibus
+        <lb ed="#Bb"/>loquuntur. -
+      </p>
+               <p xml:id="Almn78-d83884-d1e1689">
+                  <lb ed="#Bb"/>Si quis dicat, quod Deus revelat 
+        assi<lb ed="#Bb" break="no"/>stentibus sive superioribus plura de his
+        <lb ed="#Bb"/>que pertinent ad assistentiam : mini
+        <lb ed="#Bb"/>strantibus autem sive inferioribus plura
+        <lb ed="#Bb"/>revelat de his que pertinent ad 
+        custo<lb ed="#Bb" break="no"/>diam : et sic de pertinentibus ad 
+        virtu<lb ed="#Bb" break="no"/>tem assistricem superiores loquuntur 
+        in<lb ed="#Bb" break="no"/>ferioribus, de pertinentibus vero ad vim
+        <lb ed="#Bb"/>ministratricem inferiores loquuntur 
+        su<lb ed="#Bb" break="no"/>perioribus. Hoc erit directe contra 
+        Dio<lb ed="#Bb" break="no"/>nysium, Revelatio enim illa fit per 
+        theo<lb ed="#Bb" break="no"/>phanias a Deo descendentes in Angelis :
+        <lb ed="#Bb"/>in omnibus autem tam pertinentibus ad
+        <lb ed="#Bb"/>assistentiam, quam pertinentibus ad 
+        mi<lb ed="#Bb" break="no"/>nisterium, theophanie semper 
+        descen<lb ed="#Bb" break="no"/>dunt per superiores ad inferiores : ergo
+        <lb ed="#Bb"/>superiores loquerentur inferioribus, et
+        <lb ed="#Bb"/>non e converse.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1731">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod omnes 
+        om<lb ed="#Bb" break="no"/>nibus loquuntur. Sed aliud est loqui
+        <lb ed="#Bb"/>simpliciter ad interpretationem 
+        concep<lb ed="#Bb" break="no"/>tus : hoc enim est de naturalibus 
+        Ange<lb ed="#Bb" break="no"/>lorum, et non pertinet ad distinctionem
+        <lb ed="#Bb"/>assistentium et ministrantium. Et aliud
+        <lb ed="#Bb"/>est loqui ad illuminationem : illuminatio
+        <lb ed="#Bb"/>enim est lumen per theophanias 
+        descen<lb ed="#Bb" break="no"/>dens a Deo : et his purgatur Angelus a
+        <lb ed="#Bb"/>dissimilitudinis habitu, et illustratur 
+        di<lb ed="#Bb" break="no"/>vino lumine, quo ponitur in 
+        similitudi<lb ed="#Bb" break="no"/>nem luminis divini, et perticitur per
+        <lb ed="#Bb"/>reductionem et conversionem.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1762">
+                  <lb ed="#Bb"/>Dicendum ergo, quod omnes omnibus
+        <lb ed="#Bb"/>loqauntur locutione simplici et naturali,
+        <lb ed="#Bb"/>que est interpretatio conceptuum : sed
+        <lb ed="#Bb"/>superiores inferioribus loquuntur 
+        locu<lb ed="#Bb" break="no"/>tione ad illuminationem pertinente. 
+        Se<lb ed="#Bb" break="no"/>cundum hance enim locutionem dicit
+        <lb ed="#Bb"/>Dionysius, quod <quote xml:id="Almn78-d83884-Qd1e1779"> lex divinitatis est per
+          <pb ed="#Bb" n="384"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>prima media, et per media ultima 
+          redu<lb ed="#Bb" break="no"/>cere.</quote> Et, Zachar. n, 4, super illud:
+        <lb ed="#Bb"/>Curre, et loquere ad puerum istum, 
+        di<lb ed="#Bb" break="no"/>cens : Absque muro habitabitur 
+        Jeru<lb ed="#Bb" break="no"/>salem, Gregorius dicit, quod Angelus
+        <lb ed="#Bb"/>superior de media hierarchia 
+        Joqueba<lb ed="#Bb" break="no"/>tur Angelo inferiori de 
+        infima_hierar<lb ed="#Bb" break="no"/>chia illuminando eum: et ille 
+        illumina<lb ed="#Bb" break="no"/>vit Prophetam de hoc, quod absque
+        <lb ed="#Bb"/>muro habitabttur Jerusalem.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1808">
+                  <lb ed="#Bb"/>Et de hac ratione procedunt prime
+        <lb ed="#Bb"/>tres rationes inducte.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1816">
+                  <lb ed="#Bb"/>Ad id quod primo objicitur, dicendum
+        <lb ed="#Bb"/>quod locutione que est simplex 
+        inter<lb ed="#Bb" break="no"/>pretatio conceptus, omnes omnibus 
+        lo<lb ed="#Bb" break="no"/>‘quuntur, et superiores inferioribus, et e
+        <lb ed="#Bb"/>converso. |
+      </p>
+               <p xml:id="Almn78-d83884-d1e1829">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod querere non
+        <lb ed="#Bb"/>est loqui ad illuminationem, sed est petere
+        <lb ed="#Bb"/>illuminationem, et expetendo 
+        illumina<lb ed="#Bb" break="no"/>tionem interpretari conceptum cordis.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1840">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod quando
+        <lb ed="#Bb"/>revelatio fit inferiori in Angelis, 
+        theo<lb ed="#Bb" break="no"/>phania descendit in Angelum a Deo : et
+        <lb ed="#Bb"/>de hac potest loqui inferior superiori
+        <lb ed="#Bb"/>locutione interpretativa, sed non ad 
+        illu<lb ed="#Bb" break="no"/>minationem : quia illuminatio 
+        abundan<lb ed="#Bb" break="no"/>tior est in superiori, quam in 
+        inferiori<lb ed="#Bb" break="no"/>Similiter cum datur inferiori, quod non
+        <lb ed="#Bb"/>datur superiori in Ecclesia, merito 
+        Ec<lb ed="#Bb" break="no"/>clesie fit, et merito humilitatis, de quo
+        <lb ed="#Bb"/>dicitur, Matth. x1, 23: Confiteor bt,
+        <lb ed="#Bb"/>Pater, Domine cali et terre quia 
+        abscon<lb ed="#Bb" break="no"/>disti hec a sapientibus et prudentibus,
+        <lb ed="#Bb"/>et revelasti ea parvulis. Et de hoc 
+        infe<lb ed="#Bb" break="no"/>rior potest superiori interpretari, sed
+        <lb ed="#Bb"/>illuminare eum non potest, quia solus
+        <lb ed="#Bb"/>ille illuminator verus est, qui illuminat
+        <lb ed="#Bb"/>omnem hominem venientem in hune
+        <lb ed="#Bb"/>mundum, Et ideo dicitur, Matth. xxmz,
+        <lb ed="#Bb"/>8, ut dicit Augustinus in libro de 
+        Magi<lb ed="#Bb" break="no"/>stro, quod <quote xml:id="Almn78-d83884-Qd1e1887"> unus est Magister noster,
+          <lb ed="#Bb"/>qui in coelis est : et quod frustra extra
+          <lb ed="#Bb"/>laborat lingua Doctoris, nisi intus adsit
+          <lb ed="#Bb"/>illuminatio conditoris et gratia. </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e1897">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod hoc verum
+        <lb ed="#Bb"/>est, quod aliquid didicerunt Angeli ab
+        <lb ed="#Bb"/>Ecclesia de mysterio Incarnationis 
+        quan<lb ed="#Bb" break="no"/>tum ad circumstantia mysterium et 
+        de<lb ed="#Bb" break="no"/>terminantia ipsum quantum ad tempus
+        <lb ed="#Bb"/>et locum et effectus : sed illuminatio
+        <lb ed="#Bb"/>perficiens hujusmodi disciplinam semper
+        <lb ed="#Bb"/>descendens fuit secundum ordinem 
+        theo<lb ed="#Bb" break="no"/>phaniz a Deo : talis enim cognitio 
+        expe<lb ed="#Bb" break="no"/>rimentalis fuit.hoc modo quo Angeli
+        <lb ed="#Bb"/>boni et mali experimentalem habent 
+        co<lb ed="#Bb" break="no"/>gnilionem, utin prehabitis dictum est :
+        <lb ed="#Bb"/>et esset imperfecta, nisi theophania 
+        de<lb ed="#Bb" break="no"/>super descendente perficeretur.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1932">
+                  <lb ed="#Bb"/>Ab SOLUTIONES que inducte sunt, 
+        di<lb ed="#Bb" break="no"/>cendum quod non valent, et bene 
+        im<lb ed="#Bb" break="no"/>probate sunt.
+      </p>
+            </div>
+            <div xml:id="Almn78-d83884-Dd1e1942">
+               <head xml:id="Almn78-d83884-Hd1e1944">Membrum 5</head>
+               <head xml:id="Almn78-d83884-Hd1e1947" type="question-title">
+        Utrum Angeli omnia vel quaedam 
+        loquantur
+      </head>
+               <p xml:id="Almn78-d83884-d1e1950">
+                  <lb ed="#Bb"/>MEMBRUM V.
+        <lb ed="#Bb"/>Utrum Angeli omnia vel quaedam 
+        lo<lb ed="#Bb" break="no"/>quantur?
+      </p>
+               <p xml:id="Almn78-d83884-d1e1959">
+                  <lb ed="#Bb"/>Quinto queritur, Utrum Angeli 
+        om<lb ed="#Bb" break="no"/>nia, vel quedam loquantur ?
+      </p>
+               <p xml:id="Almn78-d83884-d1e1966">
+                  <lb ed="#Bb"/>Et videtur, quod non omnia: de 
+        qui<lb ed="#Bb" break="no"/>busdam enim cognitionem habent per
+        <lb ed="#Bb"/>revelationem verbi : et illa cognitio non
+        <lb ed="#Bb"/>est omnibus communis: per 
+        revelatio<lb ed="#Bb" break="no"/>nem enim talem quedam scit unus, que
+        <lb ed="#Bb"/>non scit alius : ergo de illis non est
+        <lb ed="#Bb"/>omnibus communis locutio.
+      </p>
+               <p xml:id="Almn78-d83884-d1e1985">
+                  <lb ed="#Bb"/>Sed contra hoc est, quod in 
+        homini<lb ed="#Bb" break="no"/>bus homo naturali interpretatione 
+        pot<lb ed="#Bb" break="no"/>est loqui et de revelatis per gratiam, et
+        <lb ed="#Bb"/>de scilis per naturam : cum ergo Angeli
+        <lb ed="#Bb"/>non sint inferioris potestatis quam 
+        ho<lb ed="#Bb" break="no"/>mines, omnes Angeli ad invicem 
+        pote<lb ed="#Bb" break="no"/>runt loqui et de revelatis per verbum, et
+        <lb ed="#Bb"/>de omnibus aliis conceptibus naturali
+        <lb ed="#Bb"/>interpretatione.
+      </p>
+               <p xml:id="Almn78-d83884-d1e2007">
+                  <pb ed="#Bb" n="385"/>
+                  <cb ed="#Bb" n="a"/>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2014">
+                  <lb ed="#Bb"/>Ad noc dicunt quidam, quod tribug
+        <lb ed="#Bb"/>modis loquuntur Angeli, scilicet facto,
+        <lb ed="#Bb"/>verbo spirituali, et resultatione ejus
+        <lb ed="#Bb"/>quod est in uno in alteram, sicut paulo
+        <lb ed="#Bb"/>ante dictum est de duobus speculis.
+        <lb ed="#Bb"/>Facto, quando aliquis facit aliquid coram
+        <lb ed="#Bb"/>eo, quo facto ille scit quod ante 
+        nescie<lb ed="#Bb" break="no"/>bat, ex facto ipso notitiam accipiens.
+        <lb ed="#Bb"/>Verbo spirituali, sicut per speciem rei
+        <lb ed="#Bb"/>de qua loquitur voluntate manifestandi
+        <lb ed="#Bb"/>illud lamen intelligentie dirigit, et 
+        in<lb ed="#Bb" break="no"/>nuit alterum ipsum : sicut ante dictum
+        <lb ed="#Bb"/>est, quod Angeli loquuntur. Et his 
+        duo<lb ed="#Bb" break="no"/>bus modis dicunt, quod omnes omnibus,
+        <lb ed="#Bb"/>et de omnibus loquuntur, tam de 
+        gra<lb ed="#Bb" break="no"/>tuitis, quam de naturalibus. Tertio 
+        mo<lb ed="#Bb" break="no"/>do, quando unus ostendit alteri quod in
+        <lb ed="#Bb"/>ipso resultat de theophaniis divinis :
+        <lb ed="#Bb"/>sicut unum speculum ostendit alteri
+        <lb ed="#Bb"/>quod est in ipso, quando sibi opponitur
+        <lb ed="#Bb"/>secundum processum luminis divini : et
+        <lb ed="#Bb"/>sic non omnes omnibus nec de omnibus
+        <lb ed="#Bb"/>loquuntur : multa enim resultant in 
+        su<lb ed="#Bb" break="no"/>perioribus, que non resultant in 
+        infe<lb ed="#Bb" break="no"/>rioribus de illuminationibus divinis, de
+        <lb ed="#Bb"/>quibus inferiores non possunt loqui 
+        su<lb ed="#Bb" break="no"/>perioribus, cum locutio nihil aliud sit
+        <lb ed="#Bb"/>quam interpretatio ejus quod est in
+        <lb ed="#Bb"/>corde vel in intellectu. Et hoc videtur
+        <lb ed="#Bb"/>mihi bene et satis rationabiliter 
+        di<lb ed="#Bb" break="no"/>ctum.
+      </p>
+            </div>
+            <div xml:id="Almn78-d83884-Dd1e2085">
+               <head xml:id="Almn78-d83884-Hd1e2087">Membrum 6</head>
+               <head xml:id="Almn78-d83884-Hd1e2090" type="question-title">
+        Utrum Angeli eodem modo loquantur
+        ad animas, et ad se invicem, et ad
+        Deum
+      </head>
+               <p xml:id="Almn78-d83884-d1e2093">
+                  <lb ed="#Bb"/>MEMBRUM VI.
+        <lb ed="#Bb"/>Utrum Angeli eodem modo loquantur
+        <lb ed="#Bb"/>ad animas, et ad se invicem, et ad
+        <lb ed="#Bb"/>Deum?
+      </p>
+               <p xml:id="Almn78-d83884-d1e2104">
+                  <lb ed="#Bb"/>Sexto queritur, Utram eodem modo
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>loquantur ad animas, et ad se invicem,
+        <lb ed="#Bb"/>et ad Deum? .
+      </p>
+               <p xml:id="Almn78-d83884-d1e2115">
+                  <lb ed="#Bb"/>Et hujus questionis determinatio 
+        su<lb ed="#Bb" break="no"/>menda est ex verbis Sanctorum.
+      </p>
+               <p xml:id="Almn78-d83884-d1e2123">
+                  <lb ed="#Bb"/>1. Dicit enim Augustinus in libro XI
+        <lb ed="#Bb"/>super Genesim ad litteram : <quote xml:id="Almn78-d83884-Qd1e2129"> Deus per
+          <lb ed="#Bb"/>Angelos suos loquitur anime hominis,
+          <lb ed="#Bb"/>sive in exstasi spiritus corporalibus
+          <lb ed="#Bb"/>imaginibus, sive ipsis sensibus corporis
+          <lb ed="#Bb"/>aliqua sensibili specie presentata ad 
+          vi<lb ed="#Bb" break="no"/>dendum vel audiendum?. </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2143">
+                  <lb ed="#Bb"/>2. Adhuc, Gregorius in libro II 
+        Mora<lb ed="#Bb" break="no"/>lium : <quote xml:id="Almn78-d83884-Qd1e2149"> Loquitur Deus ad Angelos
+          <lb ed="#Bb"/>sanctos eo ipso quo eorum cordibus 
+          in<lb ed="#Bb" break="no"/>visibilia sua ostendit, ut quidquid agere
+          <lb ed="#Bb"/>debeant, in ipsa contemplatione 
+          verita<lb ed="#Bb" break="no"/>tis legant, ut velut quedam precepta
+          <lb ed="#Bb"/>vocis, sint ipsa gaudia 
+          contemplatio<lb ed="#Bb" break="no"/>nis°, </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2166">
+                  <lb ed="#Bb"/>3. Adhuc, Gregorius, ibidem, <quote xml:id="Almn78-d83884-Qd1e2170"> Vox
+          <lb ed="#Bb"/>Angelorum est in laude conditoris 
+          admi<lb ed="#Bb" break="no"/>ratio intime contemplationis. </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2178">
+                  <lb ed="#Bb"/>4. Adhuc, Gregorius in libro XXVIIT
+        <lb ed="#Bb"/>Moralium : <quote xml:id="Almn78-d83884-Qd1e2184"> Locutio ad nos intrinsecus
+          <lb ed="#Bb"/>facta, visio potius est quam auditio:
+          <lb ed="#Bb"/>quia dum seipsum sine mora sermonis
+          <lb ed="#Bb"/>insinuat, repentina luce tenebras nostra
+          <lb ed="#Bb"/>ignorantiz illuminat*. </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2196">
+                  <lb ed="#Bb"/>3. Adhuc, Gregorius in libro Il 
+        Mora<lb ed="#Bb" break="no"/>lium*:<quote xml:id="Almn78-d83884-Qd1e2202"> Locutio anime ad Deum, et
+          <lb ed="#Bb"/>verba animarum ad ipsum, sunt ipsa
+          <lb ed="#Bb"/>desideria : nam si desiderum sermo non
+          <lb ed="#Bb"/>esset, Propheta non diceret : Desiderium
+          <lb ed="#Bb"/>cordis met audivit aurts tua’. </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2214">
+                  <lb ed="#Bb"/>6. Adhuc, Gregorius, ibidem, <quote xml:id="Almn78-d83884-Qd1e2218"> 
+          Dia<lb ed="#Bb" break="no"/>bolum loqui ad Deum, est omnipotenti
+          <lb ed="#Bb"/>majestati ejus nil posse celare. </quote>
+               </p>
+               <p xml:id="Almn78-d83884-d1e2227">
+                  <lb ed="#Bb"/>7. Adhuc, Gregorius in libro XXVIII
+        <lb ed="#Bb"/>Moralium’ : <quote xml:id="Almn78-d83884-Qd1e2233"> Spiritum Dei quasi 
+          que<lb ed="#Bb" break="no"/>dam verba nobis dicere, est occulta vi
+          <lb ed="#Bb"/>ea que agenda sunt intimare, et cor ho
+          <pb ed="#Bb" n="386"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb" break="no"/>minis ignarum, non adhibito strepitu et
+          <lb ed="#Bb"/>tarditate sermonis, peritum repente de
+          <lb ed="#Bb"/>absconditis reddere. </quote> Cum vero per 
+        An<lb ed="#Bb" break="no"/>gelum, voluntatem suam Dominus 
+        in<lb ed="#Bb" break="no"/>dicat, aliquando eam verbis, aliquando
+        <lb ed="#Bb"/>rebus demonstrat, aliquando simul 
+        ver<lb ed="#Bb" break="no"/>bis et rebus, aliquando imaginibus cordis
+        <lb ed="#Bb"/>oculis ostensis, aliquando imaginibus et
+        <lb ed="#Bb"/>ante corporeos oculos ex aere assumptis,
+        <lb ed="#Bb"/>aliquando ccelestibus substantiis, 
+        alli<lb ed="#Bb" break="no"/>quando terrenis, aliquando simul 
+        terre<lb ed="#Bb" break="no"/>nis et celestibus. Nonnumquam vero
+        <lb ed="#Bb"/>etiam per Angelum ita humanis cordibus
+        <lb ed="#Bb"/>loquitur, ut ipse quoque Angelus mentis
+        <lb ed="#Bb"/>obtutibus presentetur. Verbis namque
+        <lb ed="#Bb"/>per Angelum loquitur, cum nihil Deus
+        <lb ed="#Bb"/>imagine ostendit, sed superna verba 
+        lo<lb ed="#Bb" break="no"/>cutionis audiuntur, sicut dicitur, Joan.
+        <lb ed="#Bb"/>xn, 28: Et clarificavi, et iterum 
+        clarifi<lb ed="#Bb" break="no"/>cabo. Neque enim Deus, qui sine 
+        tem<lb ed="#Bb" break="no"/>pore vi impulsionis intime clamat, in
+        <lb ed="#Bb"/>tempore per suam substantiam illam
+        <lb ed="#Bb"/>vocem edidit, quam incircumscriptam
+        <lb ed="#Bb"/>tempore per humana verba distinxit, sed
+        <lb ed="#Bb"/>de ceelestibus loquens, verba sua que ab
+        <lb ed="#Bb"/>hominibus audiri voluit, rationali 
+        crea<lb ed="#Bb" break="no"/>tura administrante (hoc est, Angelo) 
+        for<lb ed="#Bb" break="no"/>mavit. Aliquando autem per Angelos
+        <lb ed="#Bb"/>loquitur Deus rebus, non verbis, cum
+        <lb ed="#Bb"/>nihil verbo dicitur, sed ea que futura
+        <lb ed="#Bb"/>sunt, assumpta de elementis imagine
+        <lb ed="#Bb"/>nuntiantur, sicut Ezechiel nil verborum
+        <lb ed="#Bb"/>audiens, electri speciem in medio igni
+        <lb ed="#Bb"/>vidit! : per quam Christum hominem et
+        <lb ed="#Bb"/>Deum intellexit. Aliquando vero per
+        <lb ed="#Bb"/>Angelos verbis simul et rebus loquitur,
+        <lb ed="#Bb"/>sicut, Genes. 11,8 : Cum audissent vocem
+        <lb ed="#Bb"/>Domini Dei deambulantis in paradiso
+        <lb ed="#Bb"/>ad auram post meridiem, abscondit se
+        <lb ed="#Bb"/>Adam et uxor ejus, etc. Aliquando 
+        lo<lb ed="#Bb" break="no"/>quitur imaginibus cordis oculis ostensis,
+        <lb ed="#Bb"/>sicut, Genes. xxvul, 12 et 13, Jacob
+        <lb ed="#Bb"/>dormiens vidit scalam, cujus summitas
+        <lb ed="#Bb"/>celum tangebat, et Dominum innixum
+        <lb ed="#Bb"/>scale desuper, et Angelos descendentes
+        <lb ed="#Bb"/>et ascendentes per eam. Aliquando 
+        lo<lb ed="#Bb" break="no"/>quitur anime hominis imaginibus ante
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>corporeos oculos ad tempus formatis et
+        <lb ed="#Bb"/>assumplis, sicut, Genes. xvi, passim,
+        <lb ed="#Bb"/>Abraham tres viros videre potuit, qui
+        <lb ed="#Bb"/>modo Angeli, modo Deus vocantur.
+        <lb ed="#Bb"/>Aliquando loquitur ccelestibus 
+        substan<lb ed="#Bb" break="no"/>tiis, sicut cum vox de nube sonuit :
+        <lb ed="#Bb"/>Hie est Filius meus dilectus, in quo
+        <lb ed="#Bb"/>mihi bene complacui. Aliquando 
+        ter<lb ed="#Bb" break="no"/>renis substantiis in loquendo utitur, 
+        sic<lb ed="#Bb" break="no"/>ut, Numer. xxu, 28, per Angelum ore
+        <lb ed="#Bb"/>asine humana verba formavit. 
+        Aliquan<lb ed="#Bb" break="no"/>do vero terrenis et ccelestibus substantiis
+        <lb ed="#Bb"/>loquitur Deus, sicut, Exod. m, 4 et seq.,
+        <lb ed="#Bb"/>et, Exod. xix, 19, ad Moysen in monte’
+        <lb ed="#Bb"/>Sinai loquebatur, cum jussionis sue
+        <lb ed="#Bb"/>verba edidit, ignem rubumque sociavit,
+        <lb ed="#Bb"/>atque aliud  superius, aliud inferius
+        <lb ed="#Bb"/>junxit. Aliquando per Angelos humanis
+        <lb ed="#Bb"/>cordibus’ secreta Angelorum presentia,
+        <lb ed="#Bb"/>virtute sue imspirationis infundit, sicut,
+        <lb ed="#Bb"/>Zachar. 1, 14: Dizitad me Angelus qui
+        <lb ed="#Bb"/>loquebatur in me.
+      </p>
+               <p xml:id="Almn78-d83884-d1e2397">
+                  <lb ed="#Bb"/>Ex nis patet, qualiter Deus loquitur
+        <lb ed="#Bb"/>Angelo, et qualiter anime, et qualiter
+        <lb ed="#Bb"/>anima Angelo, et qualiter anima Deo,
+        <lb ed="#Bb"/>et qualiter diabolus Deo, et e converso :
+        <lb ed="#Bb"/>et quod locutio in omnibus his modis est
+        <lb ed="#Bb"/>cum voluntate manifestandi conceptum,
+        <lb ed="#Bb"/>et cum voluntate tradendi intelligentiam
+        <lb ed="#Bb"/>et consilium, sicut dicit Damascenus : et
+        <lb ed="#Bb"/>tamen propter modos diversos non 
+        pot<lb ed="#Bb" break="no"/>est ista locutio dici de istis nisi 
+        equi<lb ed="#Bb" break="no"/>voce. |
+      </p>
+               <p xml:id="Almn78-d83884-d1e2423">
+                  <lb ed="#Bb"/>Patet etiam ex dictis, quod aliquando
+        <lb ed="#Bb"/>loquitur Deus per seipsum, aliquando
+        <lb ed="#Bb"/>ministerio creature spiritualis vel etiam
+        <lb ed="#Bb"/>corporalis. Et quando loquitur 
+        ministe<lb ed="#Bb" break="no"/>rio creature, actus loquendi Dei est 
+        sic<lb ed="#Bb" break="no"/>ut primi moventis, et creature sicut
+        <lb ed="#Bb"/>ministrantis. Et quando loquitur per
+        <lb ed="#Bb"/>Angelum, qui media creatura est inter
+        <lb ed="#Bb"/>Deum et hominem: ita ex officio 
+        con<lb ed="#Bb" break="no"/>venit ei notitiam Dei ponere in animam
+        <lb ed="#Bb"/>hominis.
+      </p>
+               <p xml:id="Almn78-d83884-d1e2449">
+                  <lb ed="#Bb"/>Patet etiam solutio duorum que ab_
+        <lb ed="#Bb"/>antiquis queri solebant : quorum pri-—
+        <pb ed="#Bb" n="387"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>mum est, Cum Angelus loquitur 
+        Ange<lb ed="#Bb" break="no"/>lo, utrum exigatur distantia 
+        proportio<lb ed="#Bb" break="no"/>nata ad quam audiri possit, et ultra
+        <lb ed="#Bb"/>quam non audiatur? Constat enim, quod
+        <lb ed="#Bb"/>si loquitur non assumpto corpore cum
+        <lb ed="#Bb"/>Angelo vel homine, tune non exigitur
+        <lb ed="#Bb"/>distantia localis, sed ita auditur longe
+        <lb ed="#Bb"/>distans sicut prope existens, dummodo.
+        <lb ed="#Bb"/>voluntatem habeat se manifestandi illis
+        <lb ed="#Bb"/>cum directione speciei intelligibilis ad
+        <lb ed="#Bb"/>ipsum, cum nutu sive innuitione ad rem
+        <lb ed="#Bb"/>de qua loquitur. Si autem loquitur 
+        as<lb ed="#Bb" break="no"/>sumpto corpore, tunc exigitur distantia
+        <lb ed="#Bb"/>proportionata, precipue quando 
+        loqui<lb ed="#Bb" break="no"/>tur ad hominem, quia tunc locutio 
+        spi<lb ed="#Bb" break="no"/>ritualis commensuratur potentiis et 
+        ope<lb ed="#Bb" break="no"/>ribus organicis corporis assumpti, quia
+        <lb ed="#Bb"/>per illa fit sicut per instrumenta.
+      </p>
+               <p xml:id="Almn78-d83884-d1e2499">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Secundum est, utrum sicut in 
+        homi<lb ed="#Bb" break="no"/>nibus, audiens velit nolit (dummodo non
+        <lb ed="#Bb"/>sit impedimentum) audit loquentem : ita
+        <lb ed="#Bb"/>sit in Angelis, quod audiens velit nolit
+        <lb ed="#Bb"/>audiat lJoquentem Angelum. Ad hoc
+        <lb ed="#Bb"/>enim dixerunt antiqui bene, quod si 
+        lo<lb ed="#Bb" break="no"/>quitur locutione ad illuminationem 
+        per<lb ed="#Bb" break="no"/>tinente, duabus potestatibus loquitur,
+        <lb ed="#Bb"/>scilicet potestale manifestandi 
+        concep<lb ed="#Bb" break="no"/>tum, et potestate inclinandi audientem
+        <lb ed="#Bb"/>ad auditum et consensum : et ideo sic
+        <lb ed="#Bb"/>loquentem audit Angelus, et etiam 
+        ani<lb ed="#Bb" break="no"/>ma hominis velit nolit. Si autem 
+        loqui<lb ed="#Bb" break="no"/>tur de naturalibus conceptibus suis, nur
+        <lb ed="#Bb"/>audit nisi velit : quia in tali locutione
+        <lb ed="#Bb"/>sicut loquens ordinatur per innuitionem
+        <lb ed="#Bb"/>ad audientem, sic audiens ad 
+        loquen<lb ed="#Bb" break="no"/>tem.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

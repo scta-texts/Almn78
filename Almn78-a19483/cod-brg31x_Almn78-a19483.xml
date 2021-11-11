@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 53</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 53</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="539"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a19483"><!-- p1t13q53 -->
+            <head xml:id="Almn78-a19483-Hd1e106">Quaestio 53</head>
+            <head xml:id="Almn78-a19483-Hd1e109" type="question-title">
+      De hoc nomine, Creator
+    </head>
+            <p xml:id="Almn78-a19483-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LIII.
+<lb ed="#Ba"/>De hoc nomine, Creator
+</p>
+            <p xml:id="Almn78-a19483-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Tertio, Queritur de hoc -nomine,
+<lb ed="#Ba"/>Creator.
+</p>
+            <p xml:id="Almn78-a19483-d1e130">
+               <lb ed="#Ba"/>Et queruntur duo, de respectu 
+crea<lb ed="#Ba" break="no"/>toris scilicet quem ponit ad creaturam,
+<lb ed="#Ba"/>et de respectu creature ad creatorem.
+</p>
+            <p xml:id="Almn78-a19483-d1e140">
+               <lb ed="#Ba"/>Respectus enim creatoris ad creaturam
+<lb ed="#Ba"/>causa est creatio actio, et respectus 
+crea<lb ed="#Ba" break="no"/>ture ad creatorem causa est creatio pas-
+</p>
+            <div xml:id="Almn78-a19483-Dd1e149">
+               <head xml:id="Almn78-a19483-Hd1e151">Membrum 1</head>
+               <head xml:id="Almn78-a19483-Hd1e154" type="question-title">
+      Quid significetur per hoc nomen,
+      Creator.
+    </head>
+               <p xml:id="Almn78-a19483-d1e157">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Quid significetur per hoc nomen,
+<lb ed="#Ba"/>Creator.
+</p>
+               <p xml:id="Almn78-a19483-d1e168">
+                  <lb ed="#Ba"/>Primo igitur queritur, Quid 
+signitice<lb ed="#Ba" break="no"/>tur per hoc nomen, Creator ?
+</p>
+               <p xml:id="Almn78-a19483-d1e175">
+                  <pb ed="#Ba" n="540"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Et dicitur communiter, quod divina
+<lb ed="#Ba"/>essentia, et connotatur effectus in 
+creatu<lb ed="#Ba" break="no"/>ra, qui est exitus rei in esse ex nihilo,
+<lb ed="#Ba"/>causante hoc voluntate creatoris.
+</p>
+               <p xml:id="Almn78-a19483-d1e192">
+                  <lb ed="#Ba"/>1. Sic enim dicit Damascenus in primo
+<lb ed="#Ba"/>suo libro de Fide orthodoxa, distinguens
+<lb ed="#Ba"/>inter generationem et creationem :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a19483-Qd1e202"> Creatio enim est in Dei voluntate opus
+<lb ed="#Ba"/>existens, non coeterna Deo: quia non
+<lb ed="#Ba"/>aptum natum est, quod ex non ente ad
+<lb ed="#Ba"/>esse deducitur, co#ternum esse ei quod
+<lb ed="#Ba"/>sine principio est et semper est’. </quote> Ex
+<lb ed="#Ba"/>hoc accipitur, quod creatio est actio 
+di<lb ed="#Ba" break="no"/>vine voluntatis, non ex substantia 
+crean<lb ed="#Ba" break="no"/>tis, sed ex nihilo aliquid ad esse 
+dedu<lb ed="#Ba" break="no"/>centis : et ab hac actione creator dicitur
+<lb ed="#Ba"/>creator. Ex hoc autem quod ex nihilo est
+<lb ed="#Ba"/>ad esse deducens, quod homini non 
+con<lb ed="#Ba" break="no"/>venit, ut dicit: Damascenus ibidem, 
+vi<lb ed="#Ba" break="no"/>detur iste actus omnipotentie esse 
+de<lb ed="#Ba" break="no"/>monstrativus. Et hoc dicitur, ad Roman.
+<lb ed="#Ba"/>iv, 18: Qui vocat ea que non sunt, 
+tam<lb ed="#Ba" break="no"/>quam ea que sunt. Videtur ergo, quod
+<lb ed="#Ba"/>per omnipotentiam determinari deberet,
+<lb ed="#Ba"/>et non per voluntatem.
+</p>
+               <p xml:id="Almn78-a19483-d1e243">
+                  <lb ed="#Ba"/>2. Adhuc, Dispositio voluntatis est 
+bo<lb ed="#Ba" break="no"/>num : propter quod, sicut in principio
+<lb ed="#Ba"/>habitum est, bonum dicitur a @éaw- quod
+<lb ed="#Ba"/>est voco, as : et ideo probatum est in 
+an<lb ed="#Ba" break="no"/>tecedentibus, quod bona sunt, que sunt
+<lb ed="#Ba"/>a bono. Et sic videtur terminus 
+creatio<lb ed="#Ba" break="no"/>nis esse consummatum in bono. Sed hoc
+<lb ed="#Ba"/>falsum est: quia super illud Genesis, 1,
+<lb ed="#Ba"/>1: In principio creavit Deus caelum et
+<lb ed="#Ba"/>terram, dicit Augustinus, quod per 
+co<lb ed="#Ba" break="no"/>lum et terram informis materia 
+intelligi<lb ed="#Ba" break="no"/>tur. Informe autem non est 
+consumma<lb ed="#Ba" break="no"/>tum in bono.
+</p>
+               <p xml:id="Almn78-a19483-d1e274">
+                  <lb ed="#Ba"/>3. Adhuc, Augustinus in libro I Contra
+<lb ed="#Ba"/>adversarium legis et prophetarum dicit
+<lb ed="#Ba"/>sic : <quote xml:id="Almn78-a19483-Qd1e282"> Facere est quod omnino non erat :
+<lb ed="#Ba"/>creare vero, ex eo quod jam erat 
+ordi<lb ed="#Ba" break="no"/>nando aliud constituere’. </quote> Et inducit
+<lb ed="#Ba"/>illud Isaie, xxv, 6 et 7: Ego Dominus...
+<lb ed="#Ba"/>formans lucem, et creans tenebras : 
+fa<lb ed="#Ba" break="no"/>ciens pacem, et creans malum. Et addit
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Augustinus : <quote xml:id="Almn78-a19483-Qd1e300"> Ideo hoc loco dictus est
+<lb ed="#Ba"/>Deus creans mala : quia peccantibus ea
+<lb ed="#Ba"/>convertit in malum, que bonitatis ejus
+<lb ed="#Ba"/>largitate facta sunt bona. </quote> Ex hoc 
+vide<lb ed="#Ba" break="no"/>tur, quod creatio non est ex nihilo ad
+<lb ed="#Ba"/>esse deducere, sed potius ejus quod ad
+<lb ed="#Ba"/>esse deductum est, ordinatio.
+</p>
+               <p xml:id="Almn78-a19483-d1e317">
+                  <lb ed="#Ba"/>4. Adhuc, In Psalmo cxuvim, 5: [pse
+<lb ed="#Ba"/>dixit, et facta sunt : ipse mandavtt, et
+<lb ed="#Ba"/>creata sunt. Ubi premittit factum esse,
+<lb ed="#Ba"/>ante creatum : et sic innuit, quod facere
+<lb ed="#Ba"/>sit ex nihilo ad esse deducere, et creare
+<lb ed="#Ba"/>factum ordinare : et sic connotatum ejus
+<lb ed="#Ba"/>quod est creator, non videtur esse exitus
+<lb ed="#Ba"/>de nihilo in esse, sed potius ordinatio
+<lb ed="#Ba"/>facti.
+</p>
+               <p xml:id="Almn78-a19483-d1e339">
+                  <lb ed="#Ba"/>5.Adhuc, Quod dicitur, quod significet
+<lb ed="#Ba"/>essentiam divinam, videtur esse falsum :
+<lb ed="#Ba"/>si enim hoc esset verum, creatio actio 
+es<lb ed="#Ba" break="no"/>set : Deus et divina essentia eterna sunt,
+<lb ed="#Ba"/>creatio autem ex tempore.
+</p>
+               <p xml:id="Almn78-a19483-d1e352">
+                  <lb ed="#Ba"/>6. Adhuc, Creatio multiplex est valde
+<lb ed="#Ba"/>in effectibus : Deus autem et divina 
+es<lb ed="#Ba" break="no"/>sentia nullam habent multiplicitatem.
+<lb ed="#Ba"/>Alia enim est creatio hujus, et alia illius :
+<lb ed="#Ba"/>quod nullo modo convenit divine 
+essen<lb ed="#Ba" break="no"/>tie sive Deo.
+</p>
+               <p xml:id="Almn78-a19483-d1e369">
+                  <lb ed="#Ba"/>In contrarium tamen hujus est, quod
+<lb ed="#Ba"/>1. Quidquid est in Deo, Deus est :
+<lb ed="#Ba"/>creatio actio constat, quod in Deo est
+<lb ed="#Ba"/>quando creat, omnis enim actio in 
+agen<lb ed="#Ba" break="no"/>te est quando agit : ergo videtur, quod
+<lb ed="#Ba"/>creatio actio Deus sit.
+</p>
+               <p xml:id="Almn78-a19483-d1e385">
+                  <lb ed="#Ba"/>2. Adhuc, In solo Deo idem est quod
+<lb ed="#Ba"/>est et quo est : sed creatione actione
+<lb ed="#Ba"/>creator est creator : ergo creatio actio
+<lb ed="#Ba"/>non differt ab eo quod est creator : sed
+<lb ed="#Ba"/>quod est creator, est Deus et divina 
+es<lb ed="#Ba" break="no"/>sentia : ergo creatio actio Deus est et 
+di<lb ed="#Ba" break="no"/>vina essentia.
+</p>
+               <p xml:id="Almn78-a19483-d1e403">
+                  <lb ed="#Ba"/>3. Adhuc, Potentia creandi et actio
+<lb ed="#Ba"/>que est creatio, incommunicabilia sunt
+<lb ed="#Ba"/>creato. Unde Damascenus : <quote xml:id="Almn78-a19483-Qd1e411"> Non 
+si<lb ed="#Ba" break="no"/>militer facit homo et Deus : homo enim
+<lb ed="#Ba"/>nihil quidem ex non ente ad esse 
+de<lb ed="#Ba" break="no"/>ducit, sed quod facit, ex materia pre
+<pb ed="#Ba" n="541"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>jucente facit : Deus autem volens 
+so<lb ed="#Ba" break="no"/>lum ex non ente ad esse deduxit 
+univer<lb ed="#Ba" break="no"/>su’. </quote> Ex hoc accipilur, quod potentia
+<lb ed="#Ba"/>creandi et actus qui est creatio, non sunt
+<lb ed="#Ba"/>communicabilia homini.
+</p>
+               <p xml:id="Almn78-a19483-d1e437">
+                  <lb ed="#Ba"/>4. Si forte diceretur, quod sunt 
+com<lb ed="#Ba" break="no"/>municabilia Angelo, Contra : 
+Augusti<lb ed="#Ba" break="no"/>nus in tertio libro de Trinitate : <quote xml:id="Almn78-a19483-Qd1e445"> Sicut
+<lb ed="#Ba"/>nec parentes dicimus creatores hominum,
+<lb ed="#Ba"/>nec agricolas creatores frugum, quamvis
+<lb ed="#Ba"/>vorum extrinsecus adhibitis motibus Dei
+<lb ed="#Ba"/>virtus ista creando interius operatur : ita
+<lb ed="#Ba"/>non solum malos, sed nec bonos Angelos
+<lb ed="#Ba"/>fas est putare creatores esse®. </quote> Videtur
+<lb ed="#Ba"/>ergo, quod potentia creandi et actus qui
+<lb ed="#Ba"/>est creatio, ila sint solius Dei, quod 
+in<lb ed="#Ba" break="no"/>communicabilia sint creature : quod 
+ta<lb ed="#Ba" break="no"/>men est contra opinionem tam 
+Pelagia<lb ed="#Ba" break="no"/>norum quam Judgzorum.
+</p>
+               <p xml:id="Almn78-a19483-d1e473">
+                  <lb ed="#Ba"/>Ulterius queritur de dicto Magistri
+<lb ed="#Ba"/>in libro I Sententiarum, distinct. XXX,
+<lb ed="#Ba"/>qui dicit, quod <quote xml:id="Almn78-a19483-Qd1e481"> creatio ex tempore Deo
+<lb ed="#Ba"/>convenit. </quote>
+               </p>
+               <p xml:id="Almn78-a19483-d1e487">
+                  <lb ed="#Ba"/>Hoc enim videtur falsum esse. Quia
+<lb ed="#Ba"/>quod est principium alicujus, non est ex
+<lb ed="#Ba"/>ipso : creatio principium temporis est :
+<lb ed="#Ba"/>ergo ex tempore non est, sed ante 
+tem<lb ed="#Ba" break="no"/>pus : et sic videtur iterum, quod creatio
+<lb ed="#Ba"/>sit eterna et Deus, et nature 
+incommu<lb ed="#Ba" break="no"/>nicabilis. -
+</p>
+               <p xml:id="Almn78-a19483-d1e506">
+                  <lb ed="#Ba"/>Contra hoc tamen quidam objiciunt.
+<lb ed="#Ba"/>1. Ex hoc verbo Augustini dicentis,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a19483-Qd1e514"> magis est facere de impio pium,
+<lb ed="#Ba"/>quam creare ccelum et terram. </quote> Sed
+<lb ed="#Ba"/>justificare impium et sic aliquo modo
+<lb ed="#Ba"/>facere de impio pium, communicatum
+<lb ed="#Ba"/>est creature : ministri enim Ecclesia per
+<lb ed="#Ba"/>potestatem ligandi et solvendi operantur
+<lb ed="#Ba"/>remissionem peccatorum. Ergo eisdem
+<lb ed="#Ba"/>potest communicari potentia creandi.
+</p>
+               <p xml:id="Almn78-a19483-d1e533">
+                  <lb ed="#Ba"/>2. Adhuc, In Deo est omniscientia 
+sic<lb ed="#Ba" break="no"/>ut omuipotentia : sed omniscientiam
+<lb ed="#Ba"/>communicavit alicui creature, sicut 
+ani<lb ed="#Ba" break="no"/>me Christi: ergo etiam alicui creature
+<lb ed="#Ba"/>potest communicare omnipotentiam.
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>3. Adhuc, Cum infinita sit 
+communi<lb ed="#Ba" break="no"/>catio liberalitatis divine, omne id quod
+<lb ed="#Ba"/>est in ipso, communicat quod creature
+<lb ed="#Ba"/>non repugnat : sed potentia creandi 
+crea<lb ed="#Ba" break="no"/>ture non repugnat, cum nulla sit 
+oppo<lb ed="#Ba" break="no"/>sitio inter creaturam et potentiam 
+crean<lb ed="#Ba" break="no"/>di: ergo videtur, quod potentiam 
+crean<lb ed="#Ba" break="no"/>di et communicavit et potuit 
+communi<lb ed="#Ba" break="no"/>care.
+</p>
+               <p xml:id="Almn78-a19483-d1e568">
+                  <lb ed="#Ba"/>4. Adhuc probant quidam cum Magi-
+<lb ed="#Ba" break="no"/>stro in Senteniits, quod creatio sit ex
+<lb ed="#Ba"/>tempore. Creat enim Deus nunc hance
+<lb ed="#Ba"/>animam quam ante hoc nunc non 
+crea<lb ed="#Ba" break="no"/>vit, et post hoc nunc non creavit :
+<lb ed="#Ba"/>quod autem fit in munc ante se 
+ha<lb ed="#Ba" break="no"/>benti aliquod nunc, et post se habenti
+<lb ed="#Ba"/>aliquod nunc, fit in nunc continuante
+<lb ed="#Ba"/>preteritum cum futuro : sed omne tale
+<lb ed="#Ba"/>fit in tempore et est ex tempore : ergo
+<lb ed="#Ba"/>creatio hujus anime et in tempore et ex
+<lb ed="#Ba"/>tempore est. Et eadem ratio est de 
+crea<lb ed="#Ba" break="no"/>tione omnis rei : ergo videtur, quod
+<lb ed="#Ba"/>creatio sit ex tempore et in tempore. Sed
+<lb ed="#Ba"/>creatione creator est. Ergo creator est ex
+<lb ed="#Ba"/>tempore. Quidquid autem est ex 
+tempo<lb ed="#Ba" break="no"/>re, temporale est. Ergo videtur, quod
+<lb ed="#Ba"/>creator sit temporalis. Dicit enim 
+Aristo<lb ed="#Ba" break="no"/>teles in IV Physicorum, quod in 
+tem<lb ed="#Ba" break="no"/>pore esse, est quadam parte temporis
+<lb ed="#Ba"/>mensurari. Hoc autem falsum est : quia
+<lb ed="#Ba"/>creator eternus est,et tempore non 
+men<lb ed="#Ba" break="no"/>suratur.
+</p>
+               <p xml:id="Almn78-a19483-d1e620">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Ba"/>multipliciter dicitur ereare, similiter et
+<lb ed="#Ba"/>facere. Sienim creare est de nibilo 
+ali<lb ed="#Ba" break="no"/>quid facere, secundum quod multipliciter
+<lb ed="#Ba"/>dicitur nihil, ita dicitur multipliciter
+<lb ed="#Ba"/>creare.
+</p>
+               <p xml:id="Almn78-a19483-d1e636">
+                  <lb ed="#Ba"/>Dicitur autem nihil et omnino et 
+sim<lb ed="#Ba" break="no"/>pliciter nihil : et sic cum dicitur, ex 
+1<lb ed="#Ba" break="no"/>hilo, per prepositionem ez, habitudo 
+no<lb ed="#Ba" break="no"/>tatur defeclus principii essentialis ad id
+<lb ed="#Ba"/>quod fit : quia scilicet id quod sie fit, ex
+<lb ed="#Ba"/>nullo essentiali prineipio fit, et nihil 
+en<lb ed="#Ba" break="no"/>tium est principium ejus ex quo deduca
+<pb ed="#Ba" n="542"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tur in esse. Principio dico intrinseco :
+<lb ed="#Ba"/>quia hoc solum essentiale est facto. Et
+<lb ed="#Ba"/>sic nihil sumitur propriissime. Unde sic
+<lb ed="#Ba"/>ex nihilo aliquid facere, propriissime
+<lb ed="#Ba"/>creare est. Et hoc est quod connotatur
+<lb ed="#Ba"/>in hoc nomine, Creator. Et ideo creator
+<lb ed="#Ba"/>quantum ad id quod significat, essentiam
+<lb ed="#Ba"/>divinam significat : et quantum ad id
+- quo significat, connotat in creatura talem
+<lb ed="#Ba"/>scilicet exitum, de nihilo scilicct ad esse.
+<lb ed="#Ba"/>Et hec est propria significatio hujus 
+no<lb ed="#Ba" break="no"/>minis, Creator.
+</p>
+               <p xml:id="Almn78-a19483-d1e682">
+                  <lb ed="#Ba"/>Dicitur etiam nihil secundum quod
+<lb ed="#Ba"/>dicit privationem esse vel negationem,
+<lb ed="#Ba"/>secundum quod esse diffinit Boetius :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a19483-Qd1e692"> Esse est quod ordinem retinet 
+servat<lb ed="#Ba" break="no"/>que naturam. </quote> Et sic dicitur dupliciter.
+<lb ed="#Ba"/>Uno modo quod deficit ab ordine, et est
+<lb ed="#Ba"/>corruptio ordinis : et hoc est peccatum
+<lb ed="#Ba"/>culpa, sicut dicit Glossa super Joannem,
+<lb ed="#Ba"/>1, 3, super illud : Sine ipso factum est
+<lb ed="#Ba"/>nihil, hoc est, peccatum quod nihil est.
+<lb ed="#Ba"/>Et nihil fiunt homines cum peccant. 
+Pec<lb ed="#Ba" break="no"/>catum enim nihil habet de esse ordinato
+<lb ed="#Ba"/>et servante naturam. Quia, -sicut dicit
+<lb ed="#Ba"/>Augustinus in libro de Natura bont, 
+pec<lb ed="#Ba" break="no"/>catum est corruptio modi, speciei, et 
+or<lb ed="#Ba" break="no"/>dinis. Et Damascenus : <quote xml:id="Almn78-a19483-Qd1e721"> Peccatum est
+<lb ed="#Ba"/>recessus ab eo quod est secundum 
+na<lb ed="#Ba" break="no"/>turam, in id quod est contra 
+natu<lb ed="#Ba" break="no"/>ram: </quote> Et sic dicitur in Psalmo 1, 12:
+<lb ed="#Ba"/>Cor mundum crea in me, Deus. Sed non
+<lb ed="#Ba"/>est hoc creare proprie : quia hoc nihil,
+<lb ed="#Ba"/>licet nihil habeat de esse ordinato, tamen
+<lb ed="#Ba"/>non simpliciter nihil habet de esse. Et
+<lb ed="#Ba"/>sic creare potius est reformare, quam
+<lb ed="#Ba"/>creare simpliciter. Unde talis exitus de
+<lb ed="#Ba"/>non esse ad esse non connotatur in hoc
+<lb ed="#Ba"/>nomine, Creator, quando de eo dicitur
+<lb ed="#Ba"/>simpliciter et sine determinatione.
+</p>
+               <p xml:id="Almn78-a19483-d1e752">
+                  <lb ed="#Ba"/>Alio modo dicitur creare secundum
+<lb ed="#Ba"/>quod. nihil dicit aliquid deficiens ab esse
+<lb ed="#Ba"/>per penam vel corruptionem : sic enim
+<lb ed="#Ba"/>quod de malo pcene reducitur in esse, de
+<lb ed="#Ba"/>nihilo fieri dicitur. Malum enim, ut dicit
+<lb ed="#Ba"/>Dionysius, in non ente fundatur. Dicit
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>enim in libro de Divinis nominibus, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a19483-Qd1e773"> malum nec aliquid existentium est,
+<lb ed="#Ba"/>nec aliquid in existentibus'. </quote> Et tale
+<lb ed="#Ba"/>ereare idem est quod recreare, et non
+<lb ed="#Ba"/>est creare proprie. Unde nec hoc 
+con<lb ed="#Ba" break="no"/>notatur in hoc nomine, Creator.
+</p>
+               <p xml:id="Almn78-a19483-d1e786">
+                  <lb ed="#Ba"/>Similiter facere dicitur multipliciter,
+<lb ed="#Ba"/>proprie scilicet, et communiter. Proprie
+<lb ed="#Ba"/>faciens dicitur, ut dicit Damascenus, qui
+<lb ed="#Ba"/>super prejacentem materiam et ex 
+pra<lb ed="#Ba" break="no"/>jacenti materia aliquid operando 
+produ<lb ed="#Ba" break="no"/>cit. Et hoc modo dicit Aristoteles in
+<lb ed="#Ba"/>VI Ethicorum, quod <quote xml:id="Almn78-a19483-Qd1e803"> ars est factivum
+<lb ed="#Ba"/>principium cum ratione. </quote> Et hoc modo
+<lb ed="#Ba"/>creare non est facere nisi in secunda et
+<lb ed="#Ba"/>tertia acceptione. Communiter autem 
+di<lb ed="#Ba" break="no"/>citur faciens, a quo ut movente fluit 
+ver<lb ed="#Ba" break="no"/>sio vel mutatio in esse simpliciter, vel in
+<lb ed="#Ba"/>esse quodam ejus quod fit quocumque
+<lb ed="#Ba"/>modo. Et sic creare est facere, et agere
+<lb ed="#Ba"/>est facere : et creare hoc modo est in
+<lb ed="#Ba"/>predicamento actionis, quamvis actio
+<lb ed="#Ba"/>proprie sit illatio ejus quod est actus, in
+<lb ed="#Ba"/>id in quod agitur secundum quod est in
+<lb ed="#Ba"/>agente, et non secundum quod est in
+<lb ed="#Ba"/>acto : sicut intelligere actio est intellectus
+<lb ed="#Ba"/>in intelligibile, et velle actio voluntatis
+<lb ed="#Ba"/>in volitum. Et hoc modo dicit Aristoteles
+<lb ed="#Ba"/>in VI Ethicorum, quod <quote xml:id="Almn78-a19483-Qd1e841"> prudentia est
+<lb ed="#Ba"/>activum principium cum ratione.</quote>
+               </p>
+               <p xml:id="Almn78-a19483-d1e847">
+                  <lb ed="#Ba"/>His habitis, facile est respondere ad
+<lb ed="#Ba"/>objecta.
+</p>
+               <p xml:id="Almn78-a19483-d1e854">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod ratio
+<lb ed="#Ba"/>Damasceni bona est, et ideo concedenda
+<lb ed="#Ba"/>est. Et ad id quod infert, quod 
+omni<lb ed="#Ba" break="no"/>potenti demonstrativus potius est,
+<lb ed="#Ba"/>quam voluntatis, dicendum quod 
+utrius<lb ed="#Ba" break="no"/>que demonstrativus est, Quantum enim
+<lb ed="#Ba"/>ad eliciens actum qui libere et non ex
+<lb ed="#Ba"/>necessitate fita Deo, voluntatis 
+demon<lb ed="#Ba" break="no"/>strativus est. In quantum autem nihil
+<lb ed="#Ba"/>presupponit coadjuvans, vel in quo 
+fun<lb ed="#Ba" break="no"/>detur, infinite potentie demonstrativus
+<lb ed="#Ba"/>est: huic enim nihil convenit vel 
+subje<lb ed="#Ba" break="no"/>ctum vel instrumentum quo juvetur ad
+<lb ed="#Ba"/>actum.
+</p>
+               <p xml:id="Almn78-a19483-d1e887">
+                  <pb ed="#Ba" n="543"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod creatio est
+<lb ed="#Ba"/>primus et principalis et nobilissimus
+<lb ed="#Ba"/>actus Dei super creaturam: nec est 
+tan<lb ed="#Ba" break="no"/>tum super uniforme, sed super totum
+<lb ed="#Ba"/>esse. Et hoc modo dicit Augustinus in
+<lb ed="#Ba"/>libro de Symbolo: <quote xml:id="Almn78-a19483-Qd1e906"> Rectissime creditur
+<lb ed="#Ba"/>Deum omnia de nihilo fecisse, ut 
+ordi<lb ed="#Ba" break="no"/>natissimo Dei munere primo capacitas
+<lb ed="#Ba"/>formatum fieret, ac deinde omnia que
+<lb ed="#Ba"/>furmantur. </quote> Unde licet creatio primo
+<lb ed="#Ba"/>sit informis materia (dico autem primo,
+<lb ed="#Ba"/>in ordine nature ejus quod creatur), 
+ni<lb ed="#Ba" break="no"/>hilominus tamen et forma creatur in
+<lb ed="#Ba"/>materia, et totum quod est de esse 
+crea<lb ed="#Ba" break="no"/>li, in quantum de non esse ad esse 
+pro<lb ed="#Ba" break="no"/>ducitur. Creatio enim est actus creantis
+<lb ed="#Ba"/>in totum esse creati. Sicut enim actio
+<lb ed="#Ba"/>perfecta est et perfecti agentis, ita est
+<lb ed="#Ba"/>actio perfecti operis. Deuter, xxxu, 3 et
+<lb ed="#Ba"/>4: Date magnificentiam Deo nostro. Det
+<lb ed="#Ba"/>perfecta sunt opera.
+</p>
+               <p xml:id="Almn78-a19483-d1e942">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Ba"/>ibi et Isaias sumunt ecreare in tertia
+<lb ed="#Ba"/>jus significatione, et non in principali :
+<lb ed="#Ba"/>et sumunt facere communiter, quod 
+an<lb ed="#Ba" break="no"/>lonomastice convenit primo facienti, qui
+<lb ed="#Ba"/>ex arte que verbum suum est et 
+sapien<lb ed="#Ba" break="no"/>lia, omnia facit que facit. Sicut enim 
+su<lb ed="#Ba" break="no"/>pra dictum est, ars factivum principium
+<lb ed="#Ba"/>est cum ratione. Et sic distingunt 
+in<lb ed="#Ba" break="no"/>ter facere primi artificis, et ereare tertio
+<lb ed="#Ba"/>modo dictum.
+</p>
+               <p xml:id="Almn78-a19483-d1e969">
+                  <lb ed="#Ba"/>Pzr noc etiam patet solutio ad 
+se<lb ed="#Ba" break="no"/>quens. Per dictum enim, hoc est, per
+<lb ed="#Ba"/>verbum fiunt omnia que fiunt: et per
+<lb ed="#Ba"/>mandatum cum requirat obedientiam,
+<lb ed="#Ba"/>ordinantur quecumque ordinantur.
+</p>
+               <p xml:id="Almn78-a19483-d1e982">
+                  <lb ed="#Ba"/>Ad aliud dicendum est, quod creatio
+<lb ed="#Ba"/>actio secundum quod est in Deo, absque
+<lb ed="#Ba"/>omni dubietate Deus est et divina 
+essen<lb ed="#Ba" break="no"/>tia: sed quia aclio est exitus potentie
+<lb ed="#Ba"/>in opus, et sic opus est terminus ejus,
+<lb ed="#Ba"/>ideo ex parte termini.habet quod non
+<lb ed="#Ba"/>est eterna, et non ex parte agentis. In
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>omni enim actione principium est agens,
+<lb ed="#Ba"/>et terminus id quod agit.
+</p>
+               <p xml:id="Almn78-a19483-d1e1006">
+                  <lb ed="#Ba"/>Per Hoc etiam patet solutio ad 
+se<lb ed="#Ba" break="no"/>quens. Creatio enim non est multiplex
+<lb ed="#Ba"/>ex parle agentis, sed ex parti acti. In
+<lb ed="#Ba"/>agente autem simplex est.
+</p>
+               <p xml:id="Almn78-a19483-d1e1017">
+                  <lb ed="#Ba"/>Et pvo que sunt in contrarium, 
+con<lb ed="#Ba" break="no"/>cedenda sunt.
+</p>
+               <p xml:id="Almn78-a19483-d1e1024">
+                  <lb ed="#Ba"/>Ad TertIum dicendum, quod pro certo
+<lb ed="#Ba"/>potentia creandi incommunicabilis est
+<lb ed="#Ba"/>creature ‘4, sicut bene dicit Damascenus.
+<lb ed="#Ba"/>Et ratio hujus duplex est. Una est, quia
+<lb ed="#Ba"/>omnis potentia creata existentis est post
+<lb ed="#Ba"/>non esse. Potentia autem existentis post
+<lb ed="#Ba"/>non esse, in esse fundata est, et in eo
+<lb ed="#Ba"/>quod est esse consequens: et ideo in
+<lb ed="#Ba"/>nullo habet respectum ad non esse, eo
+<lb ed="#Ba"/>quod ipsa est non esse consequens : et
+<lb ed="#Ba"/>consequens non habet posse super 
+ante<lb ed="#Ba" break="no"/>cedens in tempore, sed e converso: 
+an<lb ed="#Ba" break="no"/>tecedens enim duratione principium est
+<lb ed="#Ba"/>consequentis, et non e converso : 
+princi<lb ed="#Ba" break="no"/>piatum enim habet nihil in principio,
+<lb ed="#Ba"/>sed e converso. Secunda ratio est, quia
+<lb ed="#Ba"/>omne creatum creatione deducitur ad
+<lb ed="#Ba"/>esse et ad posse: et quidquid est et 
+quid<lb ed="#Ba" break="no"/>quid potest, creatione est et creatione
+<lb ed="#Ba"/>potest : et ideo nulla ratio admittit,
+<lb ed="#Ba"/>quod aliquid possit creando, vel 
+poten<lb ed="#Ba" break="no"/>tiam creantem accipere. Altioris enim
+<lb ed="#Ba"/>potenti est potentia creans, quam 
+po<lb ed="#Ba" break="no"/>tentia creati. Et sicut potentia causati in
+<lb ed="#Ba"/>quantum causatum, non potest esse 
+po<lb ed="#Ba" break="no"/>tentia cause in quantum causa est : sic
+<lb ed="#Ba"/>potentia creati in quantum hujusmodi,
+<lb ed="#Ba"/>non potest esse potentia creantis, nec
+<lb ed="#Ba"/>similis ei.
+</p>
+               <p xml:id="Almn78-a19483-d1e1089">
+                  <lb ed="#Ba"/>Ad wp quod ulterius queritur de dicto
+<lb ed="#Ba"/>Magistri, quod etiam dictum est 
+Augu<lb ed="#Ba" break="no"/>stini, patet solutio.Creatio enim ex 
+tem<lb ed="#Ba" break="no"/>pore non est nisi ex ratione termini.
+</p>
+               <p xml:id="Almn78-a19483-d1e1101">
+                  <lb ed="#Ba"/>Ad objectum autem dicendum, quod
+<lb ed="#Ba"/>creatio principium temporis est ut causa
+<pb ed="#Ba" n="544"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>agens : et huic non repugnat quin creatio
+<lb ed="#Ba"/>ex parte creati ex tempore sit vel cum
+<lb ed="#Ba"/>tempore, ita quod tempus large sumatur
+<lb ed="#Ba"/>pro omni eo quod est de essentia 
+tem<lb ed="#Ba" break="no"/>poris, sicut etiam nunc tempus est quod
+<lb ed="#Ba"/>est substantia temporis: creatio enim
+<lb ed="#Ba"/>prime materi est in nunc vel cum nunc
+<lb ed="#Ba"/>temporis.
+</p>
+               <p xml:id="Almn78-a19483-d1e1130">
+                  <lb ed="#Ba"/>Ad id quod in contrarium objicitur,
+<lb ed="#Ba"/>dicendum quod justificare impium non
+<lb ed="#Ba"/>dicitur majotis potentie esse quam
+<lb ed="#Ba"/>creare ccelum et terram, nisi secundum
+<lb ed="#Ba"/>quid, scilicet quia ad justificationem
+<lb ed="#Ba"/>impii requiritur aliquid ex parte 
+justifi<lb ed="#Ba" break="no"/>cati, scilicet voluntas consentiens et non
+<lb ed="#Ba"/>obnitens: ad creationem autem ceeli et
+<lb ed="#Ba"/>terre nihil requiritur ex parte creati, et
+<lb ed="#Ba"/>nihil reluctatur. Nec ministri Ecclesia
+<lb ed="#Ba"/>remissionem faciunt ex parte culpe. Isa.
+<lb ed="#Ba"/>xu, 20: Ago sum, ego sum qui deleo
+<lb ed="#Ba"/>iniquitates tuas propter me. Unde Judai
+<lb ed="#Ba"/>cum audirent a Christo, Matth. ix, 2 et
+<lb ed="#Ba"/>3: Confide, fli: remittuntur tibi peccata
+<lb ed="#Ba"/>tua. Et non crederent eum nisi 
+simpli<lb ed="#Ba" break="no"/>cem hominem, dixerunt: Hie 
+blasphe<lb ed="#Ba" break="no"/>mat. Quis potest dimittere peccata nisi
+<lb ed="#Ba"/>solus Deus 1? Sed est remissio peccati
+<lb ed="#Ba"/>ex parte pene in parte vel in toto 
+di<lb ed="#Ba" break="no"/>mittendi: et hoc committitur ministris
+<lb ed="#Ba"/>Kcclesiz.,
+</p>
+               <p xml:id="Almn78-a19483-d1e1180">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in 
+omni<lb ed="#Ba" break="no"/>sciéwtia non est sicut in omnipotentia:
+<lb ed="#Ba"/>scientia enim est ex motu scibilis ad
+<lb ed="#Ba"/>animam : et ideo activa potentia in 
+scibi<lb ed="#Ba" break="no"/>li est in omniscientia, passiva tantum in
+<lb ed="#Ba"/>anima: et creature est bene multum 
+sus<lb ed="#Ba" break="no"/>tinere, sed non multum facere. In 
+om<lb ed="#Ba" break="no"/>nipotentia autem e converso est: 
+omni<lb ed="#Ba" break="no"/>potentia enim est infinita facere: quod
+<lb ed="#Ba"/>convenire non potest creature qua 
+fini<lb ed="#Ba" break="no"/>te potentiae est. Et quamvis hoc bene
+<lb ed="#Ba"/>dictum sit, tamen multi et magni 
+dixe<lb ed="#Ba" break="no"/>runt, quod omniscientia non convenit
+<lb ed="#Ba"/>anime Christi secundum se, et in 
+quan<lb ed="#Ba" break="no"/>tum est creata, sed in quantum est unita
+<lb ed="#Ba"/>divinitati: sic enim non ex se, sed ex 
+di<lb ed="#Ba" break="no"/>vinitate cui unitur, est potentic infinite.
+</p>
+               <p xml:id="Almn78-a19483-d1e1219">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod potentia
+<lb ed="#Ba"/>creandi creato repugnat propter causas
+<lb ed="#Ba"/>que dicte sunt: propter adjuncta enim
+<lb ed="#Ba"/>est oppositio inter ea. Potentia enim
+<lb ed="#Ba"/>creandi potest in ens, et in non ens: 
+po<lb ed="#Ba" break="no"/>tentia autem creati eo quod entis, vel
+<lb ed="#Ba"/>post non ens, non potest nisi in ens
+<lb ed="#Ba"/>tantum.,
+</p>
+               <p xml:id="Almn78-a19483-d1e1241">
+                  <lb ed="#Ba"/>Ad uLtTimum dicendum,. quod cum 
+di<lb ed="#Ba" break="no"/>citur, Deus nunc creat hance animam,
+<lb ed="#Ba"/>creatio secundum quod est in creante,
+<lb ed="#Ba"/>hoc est, secundum quod est actus 
+crean<lb ed="#Ba" break="no"/>tis, ab w@terno est in eodem modo: ab
+<lb ed="#Ba"/>zterno enim Deus intellexit et scivit et
+<lb ed="#Ba"/>voluit ut nunc esset hec anima: et nulla
+<lb ed="#Ba"/>variatio facta est circa ipsum. Sed quod
+<lb ed="#Ba"/>dicitur, quod nunc et non ante nec post
+<lb ed="#Ba"/>fecit, ex parte facti est, et non ex parte
+<lb ed="#Ba"/>factionis vel facientis: et ideo sequitur,
+<lb ed="#Ba"/>quod factum temporale sit et ex 
+tem<lb ed="#Ba" break="no"/>pore: sed non sequitur, quod creator
+<lb ed="#Ba"/>vel creatio secundum quod est in 
+crea<lb ed="#Ba" break="no"/>tore, ex tempore sit vel temporalis:
+<lb ed="#Ba"/>sicut enim dicitur in libro de Causis,
+<lb ed="#Ba"/>prima causa est substantia, cujus 
+sub<lb ed="#Ba" break="no"/>stantia et actio est.in momento 
+eternita<lb ed="#Ba" break="no"/>tis et non temporis.
+</p>
+               <p xml:id="Almn78-a19483-d1e1285">
+                  <lb ed="#Ba"/>Advertendum tamen, quod aliter quam
+<lb ed="#Ba"/>dictum est, Philosophi sumunt 
+creatio<lb ed="#Ba" break="no"/>nem, secundum quod dicitur in libro de
+<lb ed="#Ba"/>Causis, quod <quote xml:id="Almn78-a19483-Qd1e1295"> prima rerum creatarum
+<lb ed="#Ba"/>causata est esse. </quote> Illi enim non dicunt
+<lb ed="#Ba"/>esse creatum, nisi quod ante se non
+<lb ed="#Ba"/>presupponit aliud, sicut ens et unum:
+<lb ed="#Ba"/>quod autem ante se supponit aliquid,
+<lb ed="#Ba"/>non dicunt esse creatum, sed factum per
+<lb ed="#Ba"/>informationem: creationem autem 
+se<lb ed="#Ba" break="no"/>cundum quod fit ex puro nihilo, per 
+ra<lb ed="#Ba" break="no"/>tionem cognoscere non potuerunt. Non
+<lb ed="#Ba"/>enim cum sit entis creati, decurrit nisi
+<lb ed="#Ba"/>de ente in ens, de principio scilicet in
+<lb ed="#Ba"/>principiatum, et non potest se fundare
+<lb ed="#Ba"/>in non ente. Et ideo, ut dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in primo Physicorum, omnes
+<lb ed="#Ba"/>Philosophi convenerunt in hoc, quod
+<lb ed="#Ba"/>ex nihilo nihil fit. Propter quod etiam
+<lb ed="#Ba"/>non acceptio intellectus humani, sed
+<pb ed="#Ba" n="545"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>arliculus fidei est quod dicitur in
+<lb ed="#Ba"/>symbolo Niceno: <quote xml:id="Almn78-a19483-Qd1e1342"> Credo in unum
+  <lb ed="#Ba"/>Deum, Patrem omnipotentem, facto-
+  <lb ed="#Ba"/>rem cei et terre. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-a19483-Dd1e1351">
+               <head xml:id="Almn78-a19483-Hd1e1353">Membrum 2</head>
+               <head xml:id="Almn78-a19483-Hd1e1356" type="question-title">
+  De respectu creature ad creatorem. Et
+  Quid sit creatio passiva?
+</head>
+               <p xml:id="Almn78-a19483-d1e1359">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>De respectu creature ad creatorem. Et
+<lb ed="#Ba"/>Quid sit creatio passiva?
+</p>
+               <p xml:id="Almn78-a19483-d1e1368">
+                  <lb ed="#Ba"/>Secundo, Queritur de respectu 
+creatu<lb ed="#Ba" break="no"/>rw ad creatorem. Hujus enim causa est
+<lb ed="#Ba"/>ereatio passiva qua res creatur: et ideo
+<lb ed="#Ba"/>oportet querere, quid sit creatio 
+passi<lb ed="#Ba" break="no"/>va?
+</p>
+               <p xml:id="Almn78-a19483-d1e1381">
+                  <lb ed="#Ba"/>Quid autem non potest determinari,
+<lb ed="#Ba"/>nisi sciatur in quid sit genere, et que
+<lb ed="#Ba"/>sint ejus differentie constituentes. Et
+<lb ed="#Ba"/>etiam quia accidentia magnam partem
+<lb ed="#Ba"/>conferunt ad cognoscendum quod quid
+<lb ed="#Ba"/>est, oportet determinare ejus accidentia
+<lb ed="#Ba"/>consequentia propria.
+</p>
+               <p xml:id="Almn78-a19483-d1e1400">
+                  <lb ed="#Ba"/>Videtur autem, quod si in aliquo 
+ge<lb ed="#Ba" break="no"/>nere est creatio passiva, quod est in 
+ge<lb ed="#Ba" break="no"/>nere mutationis.
+</p>
+               <p xml:id="Almn78-a19483-d1e1409">
+                  <lb ed="#Ba"/>1, Dicit enim Augustinus in libro I
+<lb ed="#Ba"/>Contra adversarium legis et 
+propheta<lb ed="#Ba" break="no"/>rum: <quote xml:id="Almn78-a19483-Qd1e1417"> Mutabilia sunt: quia non de illo,
+<lb ed="#Ba"/>sed de nihilo facta sunt. </quote> Videtur ergo,
+<lb ed="#Ba"/>quod creari mutarisit. Mutabilitas enim
+<lb ed="#Ba"/>inre creata non causatur nisi a 
+muta<lb ed="#Ba" break="no"/>lione que est creatio.
+</p>
+               <p xml:id="Almn78-a19483-d1e1430">
+                  <lb ed="#Ba"/>2, Adhuc, Joannes Damascenus :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a19483-Qd1e1436"> Quod a versione incipit, versioni 
+subja<lb ed="#Ba" break="no"/>cet vel secundum electionem tantum,
+<lb ed="#Ba"/>vel secundum electionem et naturam
+<lb ed="#Ba"/>simul, </quote> Sed creari est verti: verti 
+au<lb ed="#Ba" break="no"/>tem mutari: ergo creari mutari: ergo
+<lb ed="#Ba"/>creatio in genere mutationis est.
+</p>
+               <p xml:id="Almn78-a19483-d1e1450">
+                  <lb ed="#Ba"/>3. Adhuc, In Psalmo a, 27 et 28:
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Sicut opertorium mutabis eos, et 
+muta<lb ed="#Ba" break="no"/>buntur : tu autem idem ipse es, et annt
+<lb ed="#Ba"/>tui non deficient. Mutabilium autem
+<lb ed="#Ba"/>esse, ut dicit Dionysius, mensuratur 
+tem<lb ed="#Ba" break="no"/>pore. Secundum naturam autem sic. est,
+<lb ed="#Ba"/>quod nullius esse mensuratur tempore,
+<lb ed="#Ba"/>nisi cujus fieri mutatio est. 
+Creatura<lb ed="#Ba" break="no"/>rum esse mensuratur tempore. Ergo
+<lb ed="#Ba"/>creaturarum fieri mutatio est : ergo 
+crea<lb ed="#Ba" break="no"/>flo creati mutatio est.
+</p>
+               <p xml:id="Almn78-a19483-d1e1479">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod nihil est
+<lb ed="#Ba"/>in genere, quod non sit in aliqua 
+specie<lb ed="#Ba" break="no"/>rum generis illius. Si ergo creatio 
+muta<lb ed="#Ba" break="no"/>tio est, vel est mutatio de non subjecto
+<lb ed="#Ba"/>in subjectum, et erit generatio: vel de
+<lb ed="#Ba"/>subjecto in non subjectum, et erit 
+cor<lb ed="#Ba" break="no"/>ruptio : vel de subjecto in subjectum, et
+<lb ed="#Ba"/>erit alteratio, vel augmentatio, vel 
+dimi<lb ed="#Ba" break="no"/>nutio, vel secundum locum mutatio. Sed
+<lb ed="#Ba"/>nihil horum est. In omni enim 
+muta<lb ed="#Ba" break="no"/>tione unum et idem est quod est 
+subje<lb ed="#Ba" break="no"/>ctum mutationis. Dico autem unum et
+<lb ed="#Ba"/>idem in termino <unclear>a</unclear> quo et in termino ad
+<lb ed="#Ba"/>quem et in medio. In generatione enim
+<lb ed="#Ba"/>et corruptione unum et idem est, quod
+<lb ed="#Ba"/>est materia que transmutatur. In aliis
+<lb ed="#Ba"/>autem quatuor mutationibus unum et
+<lb ed="#Ba"/>idem est, quod est subjectum salvatum
+<lb ed="#Ba"/>in esse substantiali, et mutatum in 
+quan<lb ed="#Ba" break="no"/>titate vel qualitare vel ubi, ut docet 
+Ari<lb ed="#Ba" break="no"/>stoteles in quinto Physicorum. Et 
+pro<lb ed="#Ba" break="no"/>pter hoc dicit in primo de Generatione et
+<lb ed="#Ba"/>Corruptione, quod <quote xml:id="Almn78-a19483-Qd1e1534"> universale est 
+sub<lb ed="#Ba" break="no"/>jectum generationis et corruptionis 
+pri<lb ed="#Ba" break="no"/>mum. </quote> In creatione autem nihil unum
+<lb ed="#Ba"/>et idem est subjectum ejus quod est 
+ni<lb ed="#Ba" break="no"/>hil, et ejus quod est aliquid, et ejus quod
+<lb ed="#Ba"/>est fieri ex nihilo. Ergo creatio non est
+<lb ed="#Ba"/>mutatio.
+</p>
+               <p xml:id="Almn78-a19483-d1e1550">
+                  <lb ed="#Ba"/>Ulterius queritur de differentiis 
+con<lb ed="#Ba" break="no"/>stituentibus hanc mutationem, si 
+muta<lb ed="#Ba" break="no"/>tio est in esse speciali quod est creatio.
+</p>
+               <p xml:id="Almn78-a19483-d1e1560">
+                  <lb ed="#Ba"/>Cum enim dicat Averroes super ter
+<pb ed="#Ba" n="546"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tium Physicorum, quod motus et 
+muta<lb ed="#Ba" break="no"/>tio non est nisi forma post formam, vel
+<lb ed="#Ba"/>ubi post ubi, quod cum creatio sit 
+muta<lb ed="#Ba" break="no"/>tio ad esse ex nihilo, quod creatio non
+<lb ed="#Ba"/>est nisi esse post esse: et sic videtur esse
+<lb ed="#Ba"/>exitus de potentia ad actum. Esse enim
+<lb ed="#Ba"/>post esse, et forma post formam, non
+<lb ed="#Ba"/>est, nisi processus esse et forme de 
+po<lb ed="#Ba" break="no"/>tentia ad actum in tempore continuo, et
+<lb ed="#Ba"/>non subito, sicut dicit Avicenna.
+</p>
+               <p xml:id="Almn78-a19483-d1e1591">
+                  <lb ed="#Ba"/>Quod si concedatur, in contrarium est,
+<lb ed="#Ba"/>quod
+</p>
+               <p xml:id="Almn78-a19483-d1e1598">
+                  <lb ed="#Ba"/>1. Talis processus de esse in esse, vel
+<lb ed="#Ba"/>de non esse in esse est processus agentis,
+<lb ed="#Ba"/>quod non potest in totum esse, et est
+<lb ed="#Ba"/>agens imperfectum. Creatio autem est ab
+<lb ed="#Ba"/>agente perfecto, quod potest in totum
+<lb ed="#Ba"/>esse, et ab agente primo quod est a per
+<lb ed="#Ba"/>se et propria causa esse. Et sic videtur,
+<lb ed="#Ba"/>quod creatio non potest esse nisi perfecti
+<lb ed="#Ba"/>esse collatio, quod est esse perfectum 
+to<lb ed="#Ba" break="no"/>tius creati. Non ergo videtur esse muta-
+‘tio, sed influxio esse perfecti.
+</p>
+               <p xml:id="Almn78-a19483-d1e1622">
+                  <lb ed="#Ba"/>2. Adhuc, Creari est nunc primo esse,
+<lb ed="#Ba"/>et ante nihil fuisse. Hoc autem non 
+di<lb ed="#Ba" break="no"/>cit exitum de potentia ad actum, sed
+<lb ed="#Ba"/>esse perfectum ejus quod ante nec 
+secun<lb ed="#Ba" break="no"/>dum potentiam, nec secundum actum
+<lb ed="#Ba"/>fuit. Ergo videtur, quod creari non sit
+<lb ed="#Ba"/>mutari, sed nunc primo esse a voluntate
+<lb ed="#Ba"/>creatoris, qui solus potest dare esse: eo
+<lb ed="#Ba"/>quod ipse est causa prima et omnis esse
+<lb ed="#Ba"/>principium.
+</p>
+               <p xml:id="Almn78-a19483-d1e1646">
+                  <lb ed="#Ba"/>3. Adhuc, Si creari diceret fieri, cum
+<lb ed="#Ba"/>omne fierl precedat suum factum, 
+opor<lb ed="#Ba" break="no"/>teret quod creari.esset ante suum 
+crea<lb ed="#Ba" break="no"/>tum esse: et hoc est inconveniens. 
+Crea<lb ed="#Ba" break="no"/>ri enim est effectus et illatio actionis
+<lb ed="#Ba"/>primiagentis, secundum quod dicitur.in
+<lb ed="#Ba"/>Sex principiis, quod <quote xml:id="Almn78-a19483-Qd1e1663"> passio est effectus
+<lb ed="#Ba"/>illatioque actionis, </quote> Talis autem actio
+<lb ed="#Ba"/>cum temporalis sit, et cum fieri 
+praece<lb ed="#Ba" break="no"/>dat factum, non est agentis primi: cum,
+<lb ed="#Ba"/>sicut probatum estin libro de Causis,
+<lb ed="#Ba"/>agens primum sit substantia, cujus 
+sub<lb ed="#Ba" break="no"/>stantia et actio est in momento 
+eternita<lb ed="#Ba" break="no"/>tis. Videtur ergo, quod creatio 
+secun<lb ed="#Ba" break="no"/>dum quod est creati passio, non sit nisi
+<lb ed="#Ba"/>esse acceptio postquam non fuit.
+</p>
+               <p xml:id="Almn78-a19483-d1e1686">
+                  <lb ed="#Ba"/>In contrarium tamen hujus videtur ae
+<lb ed="#Ba"/>esse : quia
+</p>
+               <p xml:id="Almn78-a19483-d1e1694">
+                  <lb ed="#Ba"/>In rebus que sunt citra primum,
+<lb ed="#Ba"/>differt quod est et quo est : sed esse 
+crea<lb ed="#Ba" break="no"/>tum est quod est, creatio autem quo est:
+<lb ed="#Ba"/>ergo creatio non est esse acceptum nunc
+<lb ed="#Ba"/>primo,
+</p>
+               <p xml:id="Almn78-a19483-d1e1707">
+                  <lb ed="#Ba"/>2. Adhuc, Creatio passio, et crcatio
+<lb ed="#Ba"/>actio, principium est ejus esse quod est
+<lb ed="#Ba"/>nunc primo: nihil autem est id cujus cst
+<lb ed="#Ba"/>principium : ergo creatio non est esse
+<lb ed="#Ba"/>nunc primo.
+</p>
+               <p xml:id="Almn78-a19483-d1e1720">
+                  <lb ed="#Ba"/>3. Adhuc, Secundum hoc creari 
+me<lb ed="#Ba" break="no"/>dium esset inter creantem et creatum, et
+<lb ed="#Ba"/>tunc esset medium inter creatorem et
+<lb ed="#Ba"/>creatum: et tunc queritur de illo, an
+<lb ed="#Ba"/>esset creatum, vel creator? et 
+quodcum<lb ed="#Ba" break="no"/>que dicatur, inconveniens sequitur. Si
+<lb ed="#Ba"/>enim creatum est: tunc creatione exivit
+<lb ed="#Ba"/>de non esse : et sic creationis est 
+crea<lb ed="#Ba" break="no"/>tio, et abibit hoc in infinitum. Si autem
+<lb ed="#Ba"/>est creator: cum creator sit ab eterno,
+<lb ed="#Ba"/>erit creatio que est creati passio ab
+<lb ed="#Ba"/>eterno, quod falsum est, Et sic videtur,
+<lb ed="#Ba"/>quod per nullam differentiam 
+poni_pos<lb ed="#Ba" break="no"/>sit in esse specialis mutationis.
+</p>
+               <p xml:id="Almn78-a19483-d1e1753">
+                  <lb ed="#Ba"/>4. Si quis forte dicat, quod ponitur in
+<lb ed="#Ba"/>speciali differentia per id cujus est 
+crea<lb ed="#Ba" break="no"/>tio. Est enim exitus principium 
+compo<lb ed="#Ba" break="no"/>sitionis, sicut forma et materia, et non
+<lb ed="#Ba"/>est compositi. Et sic hoc modo diffinitur,
+<lb ed="#Ba"/>quod creatio est exitus principiorum
+<lb ed="#Ba"/>compositi, forme scilicet et materia, de
+<lb ed="#Ba"/>non esse in esse. Hoc enim quidam 
+di<lb ed="#Ba" break="no"/>xerunt, et ad hoc adduxerunt tres 
+ratio<lb ed="#Ba" break="no"/>nes. Prima est, quia quod ex principiis
+<lb ed="#Ba"/>exit ad esse, principia sui esse habet
+<lb ed="#Ba"/>ante se, et sic non potest fieri ex nihilo,
+<lb ed="#Ba"/>sed ex potentia: videtur ergo, quod 
+prin<lb ed="#Ba" break="no"/>cipiatum creatum esse non potest, nec
+<lb ed="#Ba"/>principiato convenit creatio. Secunda
+<lb ed="#Ba"/>est, quod principium secundum quod
+<lb ed="#Ba"/>principium non habet ante se nisi 
+ni<lb ed="#Ba" break="no"/>hil: si ergo fiat, oportet quod fiat ex
+<lb ed="#Ba"/>nihilo : et sic sibi proprie convenit
+<lb ed="#Ba"/>creari: sic enim omnes Philosophi 
+lo<lb ed="#Ba" break="no"/>cuti sunt de creatione. Tertia ratio est
+<lb ed="#Ba"/>theologica. Super illud Genesis, 1, 4:
+<lb ed="#Ba"/>In principio creavit Deus celum et ter
+<pb ed="#Ba" n="547"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ram, Glossa Augustini dicit, quod <quote xml:id="Almn78-a19483-Qd1e1811"> per
+<lb ed="#Ba"/>celum et terram intelligitur materia 
+in<lb ed="#Ba" break="no"/>formis. </quote> Creari ergo proprie est 
+mate<lb ed="#Ba" break="no"/>riae informis que ante se non habuit
+<lb ed="#Ba"/>nisi nihil.
+</p>
+               <p xml:id="Almn78-a19483-d1e1823">
+                  <lb ed="#Ba"/>Sed contra hoc est quod dicit 
+Augus<lb ed="#Ba" break="no"/>tinus contra Manicheum, quod cum 
+dici<lb ed="#Ba" break="no"/>tur: In principio creavit Deus celum et
+<lb ed="#Ba"/>lerram, nomine celi et terre universa
+<lb ed="#Ba"/>creatura significata est, quam fecit et
+<lb ed="#Ba"/>condidit Deus. Et sic videtur, quod
+<lb ed="#Ba"/>creari non tantum convenit materiae et
+<lb ed="#Ba"/>forme, sed etiam compositis.
+</p>
+               <p xml:id="Almn78-a19483-d1e1843">
+                  <lb ed="#Ba"/>Uxrerws queritur de opinione 
+quo<lb ed="#Ba" break="no"/>rumdam dicentium, quod in omnibus,
+<lb ed="#Ba"/>sive in naturalibus, sive in voluntariis,
+<lb ed="#Ba"/>ultima forma non sit nisi per creationem.
+<lb ed="#Ba"/>it ad hoc adducunt rationes.
+</p>
+               <p xml:id="Almn78-a19483-d1e1857">
+                  <lb ed="#Ba"/>Quarum prima est, quod dicunt, quod
+<lb ed="#Ba"/>natura et voluntas non possunt ultra
+<lb ed="#Ba"/>quam disponere materiam, et quod 
+for<lb ed="#Ba" break="no"/>mam dare non possunt: sed dispositione
+<lb ed="#Ba"/>perfecta, a Deo creatur forma. Et hoe
+<lb ed="#Ba"/>confirmant per Augustinum in libro LIT
+<lb ed="#Ba"/>de Trinitate. Dicit enim sic : <quote xml:id="Almn78-a19483-Qd1e1874"> Sicut
+<lb ed="#Ba"/>matres gravide sunt feetibus, sic ipse
+<lb ed="#Ba"/>mundus gravidus est causis nascentium,
+<lb ed="#Ba"/>que in illo non creantur, nisi ab illa
+<lb ed="#Ba"/>summa essentia, ubi nec oritur, nec 
+mo<lb ed="#Ba" break="no"/>ritur aliquid, nec incipit esse, nec 
+desi<lb ed="#Ba" break="no"/>nit *. </quote>
+               </p>
+               <p xml:id="Almn78-a19483-d1e1891">
+                  <lb ed="#Ba"/>Adhuc, Secundo adducunt quod dicit
+<lb ed="#Ba"/>Augustinus in libro V1 super Genesim
+<lb ed="#Ba"/>ad litteram, sic: <quote xml:id="Almn78-a19483-Qd1e1899"> Consummasse ista
+<lb ed="#Ba"/>intelligimus Deum cum creavit omnia
+<lb ed="#Ba"/>simul, ita perfecte ut nihil ei adhuc in
+<lb ed="#Ba"/>ordine temporum creandum esset, quod
+<lb ed="#Ba"/>non hic ab eo jam in ordine causarum
+<lb ed="#Ba"/>creatum esset?. </quote> Ex quo accipitur, quod
+<lb ed="#Ba"/>omnia que fiunt natura sive voluntate,
+<lb ed="#Ba"/>non nisi disponuntur a natura et 
+volun<lb ed="#Ba" break="no"/>tate ut susceptibilia sint esse et forma.
+<lb ed="#Ba"/>Forma autem et esse non dantur nisi a
+<lb ed="#Ba"/>primo creante.
+</p>
+               <p xml:id="Almn78-a19483-d1e1924">
+                  <lb ed="#Ba"/>Tertia ratio est, If Machabeorum,
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>VII, 22 et 23, ubi dicit mater ad filios:
+<lb ed="#Ba"/>Nescio qualiter in utero meo 
+apparui<lb ed="#Ba" break="no"/>stis : neque enim ego sptritum et animam
+<lb ed="#Ba"/>donavi vobis, et singulorum membra non
+<lb ed="#Ba"/>ego ipsa compegi: sed entm mundi 
+Crea<lb ed="#Ba" break="no"/>tor, gui formavit hominis nativitatem,
+<lb ed="#Ba"/>gquique omnium invenit originem, et
+<lb ed="#Ba"/>spiritum vobis iterum cum misericordia
+<lb ed="#Ba"/>reddet et vitam. Videtur ergo, quod 
+om<lb ed="#Ba" break="no"/>nium origo, que est forma et esse, sit
+<lb ed="#Ba"/>immediate a Deo per creationem.
+</p>
+               <p xml:id="Almn78-a19483-d1e1955">
+                  <lb ed="#Ba"/>In conrrariuM tamen hujus est quod
+<lb ed="#Ba"/>dicitur, Genes. u, 2: Reguievit Deus die
+<lb ed="#Ba"/>septimo ab universo \opere quod 
+patra<lb ed="#Ba" break="no"/>rat. Si requiescere est ab omni opere
+<lb ed="#Ba"/>cessare, videtur quod Deus nihil de novo
+<lb ed="#Ba"/>creavit post diem septimum.
+</p>
+               <p xml:id="Almn78-a19483-d1e1971">
+                  <lb ed="#Ba"/>Sep quia haec opinio antiqua fuit 
+Stoi<lb ed="#Ba" break="no"/>corum, Socratis scilicet et Platonis, qui
+<lb ed="#Ba"/>dixerunt, quod omnes forme sunt a
+<lb ed="#Ba"/>datore formarum, et quod jnihil facit
+<lb ed="#Ba"/>natura nisi disponere materiam, et 
+se<lb ed="#Ba" break="no"/>cundum varietatem dispositionis varias
+<lb ed="#Ba"/>meretur formas a datore formarum,
+<lb ed="#Ba"/>queratur, Utrum creatura in aliquo
+<lb ed="#Ba"/>cooperetur creatori in creatione ?
+</p>
+               <p xml:id="Almn78-a19483-d1e1993">
+                  <lb ed="#Ba"/>Et videtur, quod non.
+<lb ed="#Ba"/>1. Creare enim est ex nihilo facere:
+<lb ed="#Ba"/>nihil autem quod solum prajacet 
+crea<lb ed="#Ba" break="no"/>tioni, dispositionibus aptari non potest :
+<lb ed="#Ba"/>et cum creatura creatori cooperari non
+<lb ed="#Ba"/>possit nisi disponendo, et hoc non 
+pot<lb ed="#Ba" break="no"/>est: ergo in nullo potest cooperari.
+</p>
+               <p xml:id="Almn78-a19483-d1e2012">
+                  <lb ed="#Ba"/>2. Adhuc, Creatio actio est ante 
+sub<lb ed="#Ba" break="no"/>stantiam creati secundum naturam : 
+na<lb ed="#Ba" break="no"/>tura ergo creati in eo quod est ante se
+<lb ed="#Ba"/>per naturam cooperari non potest.
+</p>
+               <p xml:id="Almn78-a19483-d1e2023">
+                  <lb ed="#Ba"/>3, Adhuc, Si cooperaretur, hoc 
+indu<lb ed="#Ba" break="no"/>ceret imperfectionem in creante: agens
+<lb ed="#Ba"/>enim non summe perfectum est quod i 
+in<lb ed="#Ba" break="no"/>diget cooperante.
+</p>
+               <p xml:id="Almn78-a19483-d1e2034">
+                  <lb ed="#Ba"/>In contrarium tamen hujus est quod sed contra,
+<lb ed="#Ba"/>dicit Augustinus in libro III de 
+Trini<lb ed="#Ba" break="no"/>tate? ; <quote xml:id="Almn78-a19483-Qd1e2042"> Exteriores operationes sive 
+bo<lb ed="#Ba" break="no"/>norum sive malorum, vel Angelorum
+<pb ed="#Ba" n="548"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>vel hominum, sive etiam 
+quorumcum<lb ed="#Ba" break="no"/>que animalium, secundum imperium
+<lb ed="#Ba"/>suum, et a se impertitas distributiones
+<lb ed="#Ba"/>potestatum et appetitiones 
+commodita<lb ed="#Ba" break="no"/>tum, ita rerum nature adhibet in qua
+<lb ed="#Ba"/>creat omnia quemadmodum terre 
+agri<lb ed="#Ba" break="no"/>culturam. </quote> Unde de agricultura 
+simi<lb ed="#Ba" break="no"/>litudinem assumens ait Apostolus, I ad
+<lb ed="#Ba"/>Corinth. iu, 6: Ego plantavi, Apollo
+<lb ed="#Ba"/>rigavit, sed Deus incrementum dedit.
+<lb ed="#Ba"/>Ergo tam natura quam alia creatura
+<lb ed="#Ba"/>cooperatur ad creationem.
+</p>
+               <p xml:id="Almn78-a19483-d1e2078">
+                  <lb ed="#Ba"/>Ulterius queritur, Utrum 
+acciden<lb ed="#Ba" break="no"/>tium sit creari?
+</p>
+               <p xml:id="Almn78-a19483-d1e2085">
+                  <lb ed="#Ba"/>Hoc enim videtur esse contra 
+ratio<lb ed="#Ba" break="no"/>nem accidentis. Accidentis enim esse
+<lb ed="#Ba"/>est inesse, et est ex illo in quo est 
+ac<lb ed="#Ba" break="no"/>cidens : ergo semper ex aliquo est, et
+<lb ed="#Ba"/>habet in ratione sua ex aliquo esse.
+<lb ed="#Ba"/>Quod autem creatur, semper ex nihilo
+<lb ed="#Ba"/>est. Ergo intellectus accidentis repugnat
+<lb ed="#Ba"/>creationi, et sic creari non potest.
+</p>
+               <p xml:id="Almn78-a19483-d1e2105">
+                  <lb ed="#Ba"/>In contrarium est, quod omne illud
+<lb ed="#Ba"/>creatur, quod nunc primo est et ante
+<lb ed="#Ba"/>hoc nihil fuit : accidens quod nunc
+<lb ed="#Ba"/>primo et ante hoc nihil fuit, accidens
+<lb ed="#Ba"/>est : ergo creatur.
+</p>
+               <p xml:id="Almn78-a19483-d1e2119">
+                  <lb ed="#Ba"/>Sotuno. Ad primum quesitum, in
+<lb ed="#Ba"/>quo scilicet genere sit? Dicendum, quod
+<lb ed="#Ba"/>mutatio duplex est, scilicet in totum
+<lb ed="#Ba"/>esse, et in partem esse. Mutatio in 
+to<lb ed="#Ba" break="no"/>tum esse non potest esse nisi ab agente
+<lb ed="#Ba"/>quod largitur totum esse: et hac 
+muta<lb ed="#Ba" break="no"/>tio nihil supponit pro subjecto. Si enim
+<lb ed="#Ba"/>aliquid supponeret, illi quod supponeret,
+<lb ed="#Ba"/>esse non largiretur, et sic non esset ad
+<lb ed="#Ba"/>totum esse: sicut generatio esse 
+mate<lb ed="#Ba" break="no"/>rie non largitur, nec corruptio adimit
+<lb ed="#Ba"/>esse materia. Propter quod Aristoteles
+<lb ed="#Ba"/>in fine primi Physicorum probat, quod
+<lb ed="#Ba"/>materia ingenerabilis et incorruptibilis
+<lb ed="#Ba"/>est. Similiter est de aliis quatuor 
+moti<lb ed="#Ba" break="no"/>bus, in quibus salvatur: subjectum 
+se<lb ed="#Ba" break="no"/>cundum esse substantiale subjecti: eo
+<lb ed="#Ba"/>quod non est ibi mutatio nisi ad esse 
+ac<lb ed="#Ba" break="no"/>cidentis, et non ad. totum esse. Mutatio
+<lb ed="#Ba"/>autem que est ad totum esse, confert
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>esse tam composito quam principiia
+<lb ed="#Ba"/>componentibus, et tam subjecto quam
+<lb ed="#Ba"/>accidentibus que in subjecto sunt. Unde
+<lb ed="#Ba"/>hec mutatio non proprie mutatio 
+dici<lb ed="#Ba" break="no"/>tur, sed communiter. Magis autem 
+pro<lb ed="#Ba" break="no"/>prie versio vocatur : quod enim creatur,
+<lb ed="#Ba"/>vertitur in esse ex non esse. 
+Propriis<lb ed="#Ba" break="no"/>sime autem vocatur creatio.
+</p>
+               <p xml:id="Almn78-a19483-d1e2184">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad omnia
+<lb ed="#Ba"/>prima quesita. Sancti enim qui dicunt
+<lb ed="#Ba"/>mutabilia esse que a mutatione 
+inci<lb ed="#Ba" break="no"/>piunt, elargato vocabulo vocant 
+muta<lb ed="#Ba" break="no"/>tionem versionem in totum esse. 
+Philo<lb ed="#Ba" break="no"/>sophi autem quorum rationes 
+adducun<lb ed="#Ba" break="no"/>tur in contrarium, non loquuntur nisi
+<lb ed="#Ba"/>de mutatione que est in partem esse:
+<lb ed="#Ba"/>quia in illis aliquid mutatur quod 
+sub<lb ed="#Ba" break="no"/>jectum est mutationi, et mutari illorum
+<lb ed="#Ba"/>est ante mutatum esse, et fieri ante 
+fa<lb ed="#Ba" break="no"/>ctum esse: tales enim mutationes 
+men<lb ed="#Ba" break="no"/>surantur tempore. Mutatio autem que
+<lb ed="#Ba"/>est in totum esse, fit in momento, et
+<lb ed="#Ba"/>fieri ejus est cum factum_esse, et matari
+<lb ed="#Ba"/>cum mutatum esse.
+</p>
+               <p xml:id="Almn78-a19483-d1e2221">
+                  <lb ed="#Ba"/>Et per hance distinctionem solutum est
+<lb ed="#Ba"/>quidquid pro prima parte et contra 
+que<lb ed="#Ba" break="no"/>situm est. ,
+</p>
+               <p xml:id="Almn78-a19483-d1e2230">
+                  <lb ed="#Ba"/>Apo quod ulterius queritur de 
+dif<lb ed="#Ba" break="no"/>ferentiis constituentibus definitionem
+<lb ed="#Ba"/>ejus, dicendum quod creatio non est
+<lb ed="#Ba"/>mutatio que sit esse post esse. Et 
+di<lb ed="#Ba" break="no"/>ctum Averrois non se extendit nisi ad
+<lb ed="#Ba"/>mutationem que est in partem esse, et
+<lb ed="#Ba"/>non totum esse: et ideo dictum illud
+<lb ed="#Ba"/>nihil probat de creatione.
+</p>
+               <p xml:id="Almn78-a19483-d1e2250">
+                  <lb ed="#Ba"/>Ad ww quod in contrarium® adducitur,
+<lb ed="#Ba"/>dicendum quod creatio et creari est 
+ac<lb ed="#Ba" break="no"/>ceptio esse nunc primo : et licet acceptio
+<lb ed="#Ba"/>esse non sit ipsum esse secundum 
+ra<lb ed="#Ba" break="no"/>tionem et modum significandi, est 
+ta<lb ed="#Ba" break="no"/>men cum ipso in eodem momento, in
+<lb ed="#Ba"/>quantum creatio est simplex actus 
+crean<lb ed="#Ba" break="no"/>tis, cujus terminus est esse creati.
+</p>
+               <p xml:id="Almn78-a19483-d1e2270">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet 
+prin<lb ed="#Ba" break="no"/>cipium non est id cujus est principium,
+<lb ed="#Ba"/>nihil tamen prohibet quin in simplicibus
+<lb ed="#Ba"/>que successiva non sunt, sit cum altero
+<lb ed="#Ba"/>in eodem momento. Et.est simile, licet
+<pb ed="#Ba" n="549"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>emanatio lucis a sole que est principium
+<lb ed="#Ba"/>diei, non sit dies : tamen emanatio lucis
+<lb ed="#Ba"/>a sole et esse diei, sunt simulin uno et
+<lb ed="#Ba"/>todem momento.
+</p>
+               <p xml:id="Almn78-a19483-d1e2297">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod creatio re
+<lb ed="#Ba"/>nihil est medium inter creatorem et 
+crea<lb ed="#Ba" break="no"/>tum: si tamen diceretur creatum, non
+<lb ed="#Ba"/>iretur in infinitum: quia seipsa 
+referre<lb ed="#Ba" break="no"/>tur ad creatorem, nec alia creatione
+<lb ed="#Ba"/>crearetur nisi seipsa. Unde re non est
+<lb ed="#Ba"/>inedium, sed cum esse creati, et 
+concrea<lb ed="#Ba" break="no"/>tur cum illo. Medium tamen est 
+secun<lb ed="#Ba" break="no"/>dum rationem, secundum quod actio et
+<lb ed="#Ba"/>passio media sunt inter agens et patiens.
+</p>
+               <p xml:id="Almn78-a19483-d1e2321">
+                  <lb ed="#Ba"/>Ad id quod dicunt quidam, quod 
+spe<lb ed="#Ba" break="no"/>cificatur per id quod est principiorum et
+<lb ed="#Ba"/>non principiatorum, dicendum quod 
+ni<lb ed="#Ba" break="no"/>hil valet dictum illorum : sed specificatur
+<lb ed="#Ba"/>per hoc quod est mutatio in totum esse.
+</p>
+               <p xml:id="Almn78-a19483-d1e2334">
+                  <lb ed="#Ba"/>Et prime due rationes quas inducunt
+<lb ed="#Ba"/>pro se, nihil concludunt de creatione
+<lb ed="#Ba"/>simpliciter dicta, que est actio primi
+<lb ed="#Ba"/>creanlis, que est eductio entis de nihilo,
+<lb ed="#Ba"/>sed de creatione quam ponunt 
+Philoso<lb ed="#Ba" break="no"/>phi: et illa equivoce dicitur creatio cum
+<lb ed="#Ba"/>creatione que est actio primi agentis:
+<lb ed="#Ba"/>unde utraque illarum rationum peccat
+<lb ed="#Ba"/>secundum equivocationem.
+</p>
+               <p xml:id="Almn78-a19483-d1e2356">
+                  <lb ed="#Ba"/>Ad TermiaM rationem que theologica
+<lb ed="#Ba"/>est, dicendum quod ccelum et terra et
+<lb ed="#Ba"/>materia prima non dicuntur in principio
+<lb ed="#Ba"/>creata, quod per se creatio sit in illis et
+<lb ed="#Ba"/>non de aliis: sed quia prima sunt in 
+or<lb ed="#Ba" break="no"/>dine creatorum: in hoc enim ordine
+<lb ed="#Ba"/>prior est capacitas dispositionis et 
+for<lb ed="#Ba" break="no"/>mationis et ornatus, quam sit esse 
+dis<lb ed="#Ba" break="no"/>positi formati et ornati. Et ideo materia
+<lb ed="#Ba"/>que per hoc quod informis est, capax
+<lb ed="#Ba"/>formarum est, in principio dicitur: et
+<lb ed="#Ba"/>duplici nomine nominatur, cceli scilicet,
+<lb ed="#Ba"/>et terre : quia secundum subtilem 
+consi<lb ed="#Ba" break="no"/>derationem Philosophorum non est una
+<lb ed="#Ba"/>materia corruptibilium et 
+incorruptibi<lb ed="#Ba" break="no"/>lium: et ideo uno nomine nominari non
+<lb ed="#Ba"/>potuit.
+</p>
+               <p xml:id="Almn78-a19483-d1e2395">
+                  <lb ed="#Ba"/>Qvop per Augustinum in contrarium
+<lb ed="#Ba"/>objicitur, concedendum est.
+</p>
+               <p xml:id="Almn78-a19483-d1e2402">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de crea
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tione forme, dicendum quod. si 
+quera<lb ed="#Ba" break="no"/>tur de prima inchoatione forme in 
+ma<lb ed="#Ba" break="no"/>teria, et de esse forma inchoate: tunc
+<lb ed="#Ba"/>videtur concedendum, quod forma talis
+<lb ed="#Ba"/>et esse ejus non sit nisi [per creationem
+<lb ed="#Ba"/>primi esse: hoc enim esse et haec 
+inchoa<lb ed="#Ba" break="no"/>tio non est nisi splendor perlustrans 
+to<lb ed="#Ba" break="no"/>tam materiam, in quo splendore 
+radica<lb ed="#Ba" break="no"/>tur et inchoatur omne id quod esse et
+<lb ed="#Ba"/>cognoscibilitatem dat materia: et hoc
+<lb ed="#Ba"/>nihil aliud est nisi ex quo ut inchoativo
+<lb ed="#Ba"/>et fundamentali educitur omnis forma,
+<lb ed="#Ba"/>que dat esse et rationem materie et ei
+<lb ed="#Ba"/>quod est. Si autem queratur de forma
+<lb ed="#Ba"/>que dat esse actu, et que constituit in
+<lb ed="#Ba"/>hac specie vel illa: tunc non fit per 
+crea<lb ed="#Ba" break="no"/>tionem, sed per generationem, que est
+<lb ed="#Ba"/>eductio potenti ad actum, ita quod
+<lb ed="#Ba"/>potentia illa habitualis sit et confusa
+<lb ed="#Ba"/>forme inchoatio, sicut genus, confusa
+<lb ed="#Ba"/>est inchoatio specierum. Et ideo talis
+<lb ed="#Ba"/>forma non fit ex nihilo sue essentiae,
+<lb ed="#Ba"/>sed ex aliquo. Et hac est opinio 
+Aristo<lb ed="#Ba" break="no"/>telis et omnium Peripateticorum, qui
+<lb ed="#Ba"/>omnes concorditer dixerunt, quod ex
+<lb ed="#Ba"/>tali potentia educitur forma: aliter enim
+<lb ed="#Ba"/>nec differentia potestate essent in genere,
+<lb ed="#Ba"/>nec forme in materia. Sicut enim dicit
+<lb ed="#Ba"/>Aristoteles in VI Physicorum, et sicut
+<lb ed="#Ba"/>probatur in libro de Causis multis 
+ra<lb ed="#Ba" break="no"/>tionibus, omne quod est in aliquo, est
+<lb ed="#Ba"/>in eo secundum potestatem ejus in quo
+<lb ed="#Ba"/>est, et non secundum potestatem ejus .
+<lb ed="#Ba"/>quod inest illi.
+</p>
+               <p xml:id="Almn78-a19483-d1e2484">
+                  <lb ed="#Ba"/>Et sic intelliguntur auctoritates inductae.
+<lb ed="#Ba"/>Illa est enim originalis causa omnium
+<lb ed="#Ba"/>quam invenit Deus, ut dixit bona 
+Macha<lb ed="#Ba" break="no"/>beorum mater : et ista est seminalis causa
+<lb ed="#Ba"/>quam sparsit Deus in universam ateria,ut
+<lb ed="#Ba"/>dicit Augustinus. Et si quid aliud oritur
+<lb ed="#Ba"/>a materia ad imperium Dei, hoc non est
+<lb ed="#Ba"/>secundum causam seminalem, sed 
+se<lb ed="#Ba" break="no"/>cundum rationem obedientialem, qua
+<lb ed="#Ba"/>quelibet creatura mirabiliter obedit Deo
+<lb ed="#Ba"/>in omne id quod voluerit, sicut dicitur,
+<lb ed="#Ba"/>Matth. us, 9: Potens est Deus de 
+lapidi<lb ed="#Ba" break="no"/>bus istis suscitare filios Abrahe. Et 
+si<lb ed="#Ba" break="no"/>cut dicit Anselmus, quod <quote xml:id="Almn78-a19483-Qd1e2516"> Deus de
+<lb ed="#Ba"/>trunco potest facere vitulum. </quote>
+               </p>
+               <p xml:id="Almn78-a19483-d1e2522">
+                  <pb ed="#Ba" n="550"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad id quod in contrarium objicitur,
+<lb ed="#Ba"/>sufficienter solvit Glossa, ibidem dicens,
+<lb ed="#Ba"/>quod nihil post septimum diem fecit
+<lb ed="#Ba"/>Deus quod non ante in seminali causa,
+<lb ed="#Ba"/>vel obedientiali ratione, vel similitudine
+<lb ed="#Ba"/>fecerit : et sic aliquo modo ante diem
+<lb ed="#Ba"/>septimum fecit. Quatuor enim modis, ut
+<lb ed="#Ba"/>dicit ibi Glossa, operatur ibi Deus. In
+<lb ed="#Ba"/>verbo scilicet, rationes omnium ut in
+<lb ed="#Ba"/>arte preconcipiendo et generando: et
+<lb ed="#Ba"/>propter hoc Plato vocavit verbum 
+mun<lb ed="#Ba" break="no"/>dum archetypum. In materia prima 
+ra<lb ed="#Ba" break="no"/>tiones seminales et obedientiales, In 
+dan<lb ed="#Ba" break="no"/>do et disponendo et ornando, primas
+<lb ed="#Ba"/>species ad esse deducendo. Et 
+unum<lb ed="#Ba" break="no"/>quodque secundum speciem propriam
+<lb ed="#Ba"/>multiplicando vel propagando, secundum
+<lb ed="#Ba"/>quod dicitur, natura est principium ex
+<lb ed="#Ba"/>similia procreans. Et sic dicitur, Joan.
+<lb ed="#Ba"/>v, 17: Pater meus usque modo operatur,
+<lb ed="#Ba"/>et ego operor.
+</p>
+               <p xml:id="Almn78-a19483-d1e2574">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de 
+opi<lb ed="#Ba" break="no"/>nione Stoicorum, dicendum quod non
+<lb ed="#Ba"/>est vera, nisi secundum modum dictuni,
+<lb ed="#Ba"/>de prima scilicet inchoatione formarum.
+<lb ed="#Ba"/>Tamen hoc modo non dicebant Stoici,
+<lb ed="#Ba"/>sed potius, quod ante quamlibet formam
+<lb ed="#Ba"/>esset forma actu, ex qua sicut ex sigillo
+<lb ed="#Ba"/>prodirent omnes forme ejusdem speciei.
+<lb ed="#Ba"/>Et secundum hune modum improbat
+<lb ed="#Ba"/>eam Aristoteles *: quia secundum hune
+<lb ed="#Ba"/>modum non essent nisi monstra et 
+fig<lb ed="#Ba" break="no"/>menta ficta ab imperitis : et non essent
+<lb ed="#Ba"/>cause eorum que sunt, nec principia
+<lb ed="#Ba"/>cognoscendi ea que sunt: quia 
+secun<lb ed="#Ba" break="no"/>dum hune modum nihil sunt in his que
+<lb ed="#Ba"/>sunt. ,
+</p>
+               <p xml:id="Almn78-a19483-d1e2611">
+                  <lb ed="#Ba"/>Et quod queritur, Utrum creatura 
+ali<lb ed="#Ba" break="no"/>quid cooperetur ad creationem ? 
+Dicen<lb ed="#Ba" break="no"/>dum quod impossibile est, quod in aliquo
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>cooperetur, sicut jam paulo ante proba.
+<lb ed="#Ba"/>tum est. Cooperatur tamen ad hoc, quod
+<lb ed="#Ba"/>res que est in potentia, exeat ad actum:
+<lb ed="#Ba"/>hoc enim non est creationis, sed 
+genera<lb ed="#Ba" break="no"/>tionis.
+</p>
+               <p xml:id="Almn78-a19483-d1e2633">
+                  <lb ed="#Ba"/>Per hoc patetsolutio ad ea que 
+indu<lb ed="#Ba" break="no"/>euntur ad hoc, quod creatura non potest
+<lb ed="#Ba"/>cooperari creatori in creatione.
+</p>
+               <p xml:id="Almn78-a19483-d1e2642">
+                  <lb ed="#Ba"/>Ad 1 est in contrarium, dicendum
+<lb ed="#Ba"/>quod secundum dictum Augustini 
+intelli<lb ed="#Ba" break="no"/>gitur, quod nature operatio et alia 
+qux<lb ed="#Ba" break="no"/>dam cooperantur ad nature actionem,
+<lb ed="#Ba"/>que est eductio actus de” potentia: in
+<lb ed="#Ba"/>qua etiam operatione secunda causa 
+ha<lb ed="#Ba" break="no"/>bet a prima causa, quod est, et quod
+<lb ed="#Ba"/>causa est, et quod operatur, ut dicitur in
+<lb ed="#Ba"/>libro de Causis : sed potentie creandi 
+ni<lb ed="#Ba" break="no"/>hil cooperatur, ut. probatum est: hac
+<lb ed="#Ba"/>enim est potentia super totum esse, et
+<lb ed="#Ba"/>de nihilo ad esse deducens, et nullo 
+in<lb ed="#Ba" break="no"/>digens.
+</p>
+               <p xml:id="Almn78-a19483-d1e2674">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de 
+crea<lb ed="#Ba" break="no"/>tione accidentium, dicendum quod aliud
+<lb ed="#Ba"/>est de esse accidentium simpliciter, et
+<lb ed="#Ba"/>aliud est de esse actu. Esse fenim 
+acci<lb ed="#Ba" break="no"/>dentium simpliciter pro’certo ex creatione
+<lb ed="#Ba"/>est: hoc enim est esse post non esse.
+<lb ed="#Ba"/>Esse autem accidentis actu secundum
+<lb ed="#Ba"/>quod accidentis esse est inesse subjecto,
+<lb ed="#Ba"/>reducitur ad causam aliquam 
+immedia<lb ed="#Ba" break="no"/>tam que est in subjecto. Unde esse 
+acci<lb ed="#Ba" break="no"/>dens simpliciter ex creatione est. Esse
+<lb ed="#Ba"/>accidentis ut est accidens in actu, ex 
+ali<lb ed="#Ba" break="no"/>quo est: quia est ex causa que est in
+<lb ed="#Ba"/>subjecto. Et primum esse accidentis non
+<lb ed="#Ba"/>repugnat creationi: secundum autem 
+re<lb ed="#Ba" break="no"/>pugnat intellectui creationis.
+</p>
+               <p xml:id="Almn78-a19483-d1e2711">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad totum :
+<lb ed="#Ba"/>quod enim in contrarium est, de primo
+<lb ed="#Ba"/>esse procedit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

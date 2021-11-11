@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="30"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa5767"><!-- p1t1q6 -->
+            <head xml:id="Almn78-aa5767-Hd1e106">Quaestio 6</head>
+            <head xml:id="Almn78-aa5767-Hd1e109" type="question-title">
+      Ad quid sit theologia tamquam ad causam finalem ?
+    </head>
+            <p xml:id="Almn78-aa5767-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO VI.
+<lb ed="#Ba"/>Ad quid sit theologia tamquam ad causam finalem ?
+</p>
+            <p xml:id="Almn78-aa5767-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Sexto secundum principalem  
+divi<lb ed="#Ba" break="no"/>sionem queritur, Ad quid est sicut ad
+<lb ed="#Ba"/>finem ?
+</p>
+            <p xml:id="Almn78-aa5767-d1e132">
+               <lb ed="#Ba"/>1. Si enim sapientia est, sicut in 
+pra<lb ed="#Ba" break="no"/>habitis dictum est, sequitur quod finis
+<lb ed="#Ba"/>ejus intus est sciendi gratia. Sequitur
+<lb ed="#Ba"/>etiam, quod alie omnes, quamvis forte
+<lb ed="#Ba"/>ad actus humanos magis sint necessarie,
+<lb ed="#Ba"/>potior tamen nulla est : utrumque enim
+<lb ed="#Ba"/>probatur in primo primae philosophiae de
+<lb ed="#Ba"/>sapientia.
+</p>
+            <p xml:id="Almn78-aa5767-d1e153">
+               <lb ed="#Ba"/>2. Adhuc, Finis secundum quod est
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>finis omnium, ad finem esse non potest :
+<lb ed="#Ba"/>sequeretur enim, quod aliquid in 
+exsecu<lb ed="#Ba" break="no"/>tione esset ultimius ultimo, et aliquid in
+<lb ed="#Ba"/>intentione esset prius primo : quorum
+<lb ed="#Ba"/>utrumque impossibile est. Dicunt autem
+<lb ed="#Ba"/>omnes Philosophi, quod theologia est
+<lb ed="#Ba"/>finis omnium scientiarum, que in 
+om<lb ed="#Ba" break="no"/>ni scibili intenditur prima, et per omne
+<lb ed="#Ba"/>scibile accipitur ultima. Propter quod 
+di<lb ed="#Ba" break="no"/>cunt Avicenna et Algazel, quod in 
+omni<lb ed="#Ba" break="no"/>bus scientiis adepti, in hac tamquam in
+<lb ed="#Ba"/>ultimo perfectivo Philosophi vitam finie
+<pb ed="#Ba" n="31"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba" break="no"/>runt. Cum igitur sit finis omnium, non
+<lb ed="#Ba"/>erit ad aliquem finem.
+</p>
+            <p xml:id="Almn78-aa5767-d1e195">
+               <lb ed="#Ba"/>3. Adhuc, Hoc idem probatur ex 
+li<lb ed="#Ba" break="no"/>bertate hujus scientie : et utemur 
+ra<lb ed="#Ba" break="no"/>tione Aristotelis in primo prime 
+philo<lb ed="#Ba" break="no"/>sophie, ubi dicit, quod maultipliciter
+<lb ed="#Ba"/>humana natura ancilla est, scilicet tam
+<lb ed="#Ba"/>secundum corpus, quam secundum 
+ani<lb ed="#Ba" break="no"/>mam. Secundum corpus, propter 
+ancil<lb ed="#Ba" break="no"/>lationem querit mechanicas, ut 
+edifi<lb ed="#Ba" break="no"/>cationem, lanificium, coquinationem, et
+<lb ed="#Ba"/>hujusmodi : et quod ad ancillandum
+<lb ed="#Ba"/>queritur, liberum esse non potest. 
+Se<lb ed="#Ba" break="no"/>cundum animam autem ancilla est, et
+<lb ed="#Ba"/>secundum hoc querit sermonicales et
+<lb ed="#Ba"/>logicas scientias, ut ancillentur ad 
+scien<lb ed="#Ba" break="no"/>di adminiculum et modum sive 
+addi<lb ed="#Ba" break="no"/>scendi.Physicas autem scientias querit,
+<lb ed="#Ba"/>ut in hiscorpus physicum cognoscat, et
+<lb ed="#Ba"/>corporis physici passiones. Sed quia
+<lb ed="#Ba"/>substantiam cujuslibet physici 
+conse<lb ed="#Ba" break="no"/>quitur quantitas et figura, querit 
+ma<lb ed="#Ba" break="no"/>thematicas, ut in his certitudinem 
+con<lb ed="#Ba" break="no"/>tinui et discreti et figurarum cognoscat
+<lb ed="#Ba"/>proportiones. Has autem querere non
+<lb ed="#Ba"/>potest, sicut nec physicas, nisi referendo
+<lb ed="#Ba"/>ad principia ex quibus causantur. 
+Prin<lb ed="#Ba" break="no"/>cipia autem illa in ipsis non sunt, sed
+<lb ed="#Ba"/>in illa que principium considerat : hec
+<lb ed="#Ba"/>autem est theologia, ut dicit 
+Philoso<lb ed="#Ba" break="no"/>phus : omnes ergo ancillantur ad istam,
+<lb ed="#Ba"/>et nulla perfecta ratione libertatis libera
+<lb ed="#Ba"/>yst, nisi ista sola, que ad nihil aliud
+<lb ed="#Ba"/>refertur quod sit extra ipsam. Dicit
+<lb ed="#Ba"/>enim Philosophus in primo prime 
+phi<lb ed="#Ba" break="no"/>losophie, quod liberum dicimus, quod
+<lb ed="#Ba"/>causa sui est, hoc est, qui ad nullum
+<lb ed="#Ba"/>ul sit habet respicere. Sola ergo libera
+<lb ed="#Ba"/>est et sola sui causa est, et ex hoc 
+sa<lb ed="#Ba" break="no"/>pientia est.
+</p>
+            <p xml:id="Almn78-aa5767-d1e280">
+               <lb ed="#Ba"/>In contrarium hujus est, quod 
+scien<lb ed="#Ba" break="no"/>tia in eo quod de simpliciori est et magis
+<lb ed="#Ba"/>ultimo, uniformior est. Ergo a 
+destru<lb ed="#Ba" break="no"/>clione consequentis, que omnibus multi=
+<lb ed="#Ba"/>formior est, in se non habet 
+simplicissi<lb ed="#Ba" break="no"/>mum et ultimum de quo sit. Est autem
+<lb ed="#Ba"/>hec multiformis, ut patet per 
+prehabi<lb ed="#Ba" break="no"/>ta. Ad Ephes. in, 10 : Ut innotescat
+<lb ed="#Ba"/>principatibus et potestatibus in ceelesti
+<cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>bus per Ecclesiam multiformis saptentia
+<lb ed="#Ba"/>Dei, Osee, xu, 10 : Ego visionem 
+mul<lb ed="#Ba" break="no"/>liplicavi, et in manibus Prophetarum
+<lb ed="#Ba"/>assimilatus sum. Constat autem, quod
+<lb ed="#Ba"/>mullis visionibus revelatum, et mullis
+<lb ed="#Ba"/>operibus et rebus assimilatum, uniforme
+<lb ed="#Ba"/>non est. Ergo non est de uno primo et
+<lb ed="#Ba"/>ultimo simplici.
+</p>
+            <p xml:id="Almn78-aa5767-d1e322">
+               <lb ed="#Ba"/>Soxvrio. Ad hoc dicendum, quod est
+<lb ed="#Ba"/>finis intra, et finis extra. Finis intra
+<lb ed="#Ba"/>in ipsa scientia est, et finis extra in
+<lb ed="#Ba"/>sciente. Et sicut probatum est in primis
+<lb ed="#Ba"/>rationibus, impossibile est, quod haec
+<lb ed="#Ba"/>scientia finem in allis scientiis habeat,
+<lb ed="#Ba"/>sed ipsa finis aliarum scientiarum est,
+<lb ed="#Ba"/>ad quam omnes alie referuntur ut 
+an<lb ed="#Ba" break="no"/>cille. Et hoc modo sola libera est : 
+om<lb ed="#Ba" break="no"/>nibus enim existentibus et 
+suffraganti<lb ed="#Ba" break="no"/>bus nobis et ad voluptatem et ad 
+neces<lb ed="#Ba" break="no"/>sitatem, ista post omnia habita et in
+<lb ed="#Ba"/>omnibus habitis queritur : et ideo 
+libe<lb ed="#Ba" break="no"/>ra est, et domina est, et sapientia, et
+<lb ed="#Ba"/>in omnibas potior.
+</p>
+            <p xml:id="Almn78-aa5767-d1e357">
+               <lb ed="#Ba"/>Ad lw quod in contrarium est, 
+dicen<lb ed="#Ba" break="no"/>dum quod multiformis est propter nos,
+<lb ed="#Ba"/>et non propter seipsam, ut patet per
+<lb ed="#Ba"/>prius habita : materialem enim nostrum
+<lb ed="#Ba"/>intellectum non instrueret, nisi 
+multi<lb ed="#Ba" break="no"/>formis esset. Et tam simplex est scibile
+<lb ed="#Ba"/>ejus, quod sicut dicit Augustinus,
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-aa5767-Qd1e376"> mentis humane invalida acies in tam
+<lb ed="#Ba"/>excellenti luce non figitur, nisi ipsa lux
+<lb ed="#Ba"/>multiformis et umbris involveretur. </quote>
+               <lb ed="#Ba"/>Unde multiformitas ejus ex eadem 
+cau<lb ed="#Ba" break="no"/>sa est, propter quam etiam in 
+particula<lb ed="#Ba" break="no"/>ribus tradita est, secundum quod omnis
+<lb ed="#Ba"/>practica stat ad opus, et ex 
+particula<lb ed="#Ba" break="no"/>ribus facilius instruitur rustica concio.
+<lb ed="#Ba"/>Finis autem in scienle, potius finis est
+<lb ed="#Ba"/>studii, quam scientie. Et ille triplex est,
+<lb ed="#Ba"/>proximus scilicet operi, ut habeatur 
+no<lb ed="#Ba" break="no"/>titia theologicorum. Secundus proximus
+<lb ed="#Ba"/>perfectioni, ut ex hoc quis perfectus sit
+<lb ed="#Ba"/>ad actus felicitatis contemplative. 
+Ul<lb ed="#Ba" break="no"/>timus ut ex hoc per habitum 
+beatitudi<lb ed="#Ba" break="no"/>nis create béatitudinem increatam in
+<lb ed="#Ba"/>prima veritate consequatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

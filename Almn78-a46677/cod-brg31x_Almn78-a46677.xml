@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="674"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a46677"><!-- p1t17prae -->
+            <head xml:id="Almn78-a46677-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a46677-d1e109">
+               <pb ed="#Ba" n="674"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS XVII
+<lb ed="#Ba"/>DE PROVIDENTIA, FATO, ET LIBRO VITA.
+<lb ed="#Ba"/>Deinde queritur de providentia.
+</p>
+            <p xml:id="Almn78-a46677-d1e122">
+               <lb ed="#Ba"/>Et queeruntur tria.
+<lb ed="#Ba"/>Primum est, De ipsa providentia.
+<lb ed="#Ba"/>Secundum est, De fato, de quo dicit Boetius in libro V de Consolatione
+<lb ed="#Ba"/>philosophie, quod <quote xml:id="Almn78-a46677-Qd1e132"> providentia per fatum queeque suis nectit ordinibus. </quote>
+               <lb ed="#Ba"/>Et quia preescientia et providentia secundum quod in eis sunt rationes
+<lb ed="#Ba"/>omnium peccatorum presentium et futurorum, que omnia in divina
+<lb ed="#Ba"/>sapientia sunt vita et lux, dicitur liber vile, ideo tertio queeremus de libro
+<lb ed="#Ba"/>vite.
+<lb ed="#Ba"/>De providentia autem queremus quatuor, scilicet primo an sit ?
+<lb ed="#Ba"/>Secundo, Quid sit ?s
+<lb ed="#Ba"/>Tertio, Cujus sit ?
+<lb ed="#Ba"/>Et quarto, Quibus sit modis ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

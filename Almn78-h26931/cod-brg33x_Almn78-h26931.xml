@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 81</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 81</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="121"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h26931"><!-- p2t13q81 -->
+            <head xml:id="Almn78-h26931-Hd1e106">Quaestio 81</head>
+            <head xml:id="Almn78-h26931-Hd1e109" type="question-title">
+    Utrum formatio <name xml:id="Almn78-h26931-Nd1e111">Hevae</name> fuerit miraculosa, vel naturalis
+  </head>
+            <p xml:id="Almn78-h26931-d1e115">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO LXXXI.
+<lb ed="#Bc"/>Utrum formatio <name xml:id="Almn78-h26931-Nd1e123">Hevae</name> fuerit miraculosa, vel naturalis ?
+</p>
+            <p xml:id="Almn78-h26931-d1e127">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur ratione ejus quod
+<lb ed="#Bc"/>dicit Magister in libro IT Sententiarum,
+<lb ed="#Bc"/>distinct. XVII, cap. Sed queritur, An
+<lb ed="#Bc"/>ratio quam Deus primis operibus 
+con<lb ed="#Bc" break="no"/>creavil, etc. Utrum formatio Heve fuit
+<lb ed="#Bc"/>miraculosa, vel naturalis ?
+</p>
+            <p xml:id="Almn78-h26931-d1e145">
+               <lb ed="#Bc"/>Et videtur, quod miraculosa.
+<lb ed="#Bc"/>1. Dicit enim ibi Magister per verba
+<lb ed="#Bc"/>Augustini in libro IX super Genesim ad
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>litteram, qui sic de costa viri ponit:
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h26931-Qd1e160"> Ut mulierem ita necesse fieri foret,
+<lb ed="#Bc"/>non in rebus conditum, sed in Deo
+<lb ed="#Bc"/>absconditum erat. Omnis creature
+<lb ed="#Bc"/>cursus habet naturales leges : super
+<lb ed="#Bc"/>hunc naturalem cursum Creator habet
+<lb ed="#Bc"/>apud se posse de omnibus facere aliud,
+<lb ed="#Bc"/>quam eorum naturalis ratio habet: 
+utsci<lb ed="#Bc" break="no"/>licet virga arida repente floreat, et fru
+<pb ed="#Bc" n="122"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>ctum gignat‘, et in juventute sterilis
+<lb ed="#Bc"/>feemina in senectute pariat, et asina
+<lb ed="#Bc"/>loquatur, et hujusmodi. Dedit autem
+<lb ed="#Bc"/>naturis, ut ex his etiam haec fieri
+<lb ed="#Bc"/>possent, non in naturali motu haberent.
+<lb ed="#Bc"/>Habet ergo Deus in se absconditas 
+quo<lb ed="#Bc" break="no"/>rumdam futurorum causas, quas rebus
+<lb ed="#Bc"/>conditis non inseruit, easqueimplet non
+<lb ed="#Bc"/>opere providentia, quo nature 
+subsi<lb ed="#Bc" break="no"/>stunt ut sint : sed quo illas administrat
+<lb ed="#Bc"/>ut voluerit, quas ut voluit condidit. </quote>
+               <lb ed="#Bc"/>Hinc patet, quod Augustinus 
+formatio<lb ed="#Bc" break="no"/>nem mulieris de costa numerat inter 
+mi<lb ed="#Bc" break="no"/>raculosa, quorum abscondite sunt cause
+<lb ed="#Bc"/>in Deo. Ergo miraculosa fuit.
+</p>
+            <p xml:id="Almn78-h26931-d1e216">
+               <lb ed="#Bc"/>2. Adhuc, Augustinus definiens 
+mira<lb ed="#Bc" break="no"/>culum dicit sic : <quote xml:id="Almn78-h26931-Qd1e222"> Miraculum est aliquod
+<lb ed="#Bc"/>arduum et insolitum, preter spem et
+<lb ed="#Bc"/>facultatem admirantis apparens *. </quote> Hee
+<lb ed="#Bc"/>omnia conveniunt formationi Heve de
+<lb ed="#Bc"/>costa : est enim hoc arduum, supra posse
+<lb ed="#Bc"/>nature elevatum : insolitum, preter 
+cur<lb ed="#Bc" break="no"/>sum nature factum: preter spem, ex
+<lb ed="#Bc"/>causis enim naturalibus tale quid non
+<lb ed="#Bc"/>potest sperari: preter tacultatem, quia
+<lb ed="#Bc"/>homo nec faciendo nec cognoscendo ex
+<lb ed="#Bc"/>virtutibus naturalibus potest in illud,
+<lb ed="#Bc"/>cum solius divine virtutis sit, ut 
+habi<lb ed="#Bc" break="no"/>tum est paulo ante.
+</p>
+            <p xml:id="Almn78-h26931-d1e252">
+               <lb ed="#Bc"/>Contra hoc est quod quidam objiciunt,
+<lb ed="#Bc"/>quod preter spem non sit : quia non est
+<lb ed="#Bc"/>preter spem, quod creatura obediat in
+<lb ed="#Bc"/>omnem formam quam vult creator, et ea
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>ratione non est insolitum, sed in 
+simili<lb ed="#Bc" break="no"/>bus sepe factum.
+</p>
+            <p xml:id="Almn78-h26931-d1e270">
+               <lb ed="#Bc"/>Sotvtio. Dicendum, quod procul
+<lb ed="#Bc"/>dubio illud opus mirabile fuit, non eis
+<lb ed="#Bc"/>qui tune fuerunt, sed in se secundum
+<lb ed="#Bc"/>naturam operis. Unde etsi non fuit 
+mi<lb ed="#Bc" break="no"/>raculum secundum strictam acceptionem
+<lb ed="#Bc"/>miraculi, tamen mirabile fuit formam
+<lb ed="#Bc"/>habens miraculi. Dicit enim Joannes
+<lb ed="#Bc"/>Chrysostomus in quadam homilia super
+<lb ed="#Bc"/>Joannem, quod <quote xml:id="Almn78-h26931-Qd1e291"> miraculum est opus
+<lb ed="#Bc"/>solius voluntatis divine, in quo natura
+<lb ed="#Bc"/>cooperatur: </quote> sed ipsa creatura obedit
+<lb ed="#Bc"/>creatori in hoc quod vult: sed eadem
+<lb ed="#Bc"/>virtute qua condidit creaturas, 
+transmu<lb ed="#Bc" break="no"/>tat eas in hoc quod vult, et maxime in
+<lb ed="#Bc"/>his fit, que fiunt ad gratiam 
+significan<lb ed="#Bc" break="no"/>dam et sub ratione.
+</p>
+            <p xml:id="Almn78-h26931-d1e310">
+               <lb ed="#Bc"/>Prima duo objecta procedunt.
+</p>
+            <p xml:id="Almn78-h26931-d1e315">
+               <lb ed="#Bc"/>App quod contra objicitur, dicendum,
+<lb ed="#Bc"/>quod contra spem est, ut dictum est,
+<lb ed="#Bc"/>quia ex causis naturalibus non speratur.
+<lb ed="#Bc"/>Sic etiam est insolitum, quia ex causis
+<lb ed="#Bc"/>naturalibus non est solitum procedere.
+<lb ed="#Bc"/>Sic etiam est preter facultatem, quia
+<lb ed="#Bc"/>facultas operandi talia non est in natura.
+<lb ed="#Bc"/>Sic etiam est preter facultatem 
+cogno<lb ed="#Bc" break="no"/>scendi : cognitio enim nostra fundatur in
+<lb ed="#Bc"/>ente,et in differentiis entis creati: et quod
+<lb ed="#Bc"/>in illis non est, supra facultatem nostre
+<lb ed="#Bc"/>cognitionis est. Et ita mirabile dicitur
+<lb ed="#Bc"/>esse opus formationis mulieris de costa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 71</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 71</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="27"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-hh5690"><!-- p2t12q71 -->
+            <head xml:id="Almn78-hh5690-Hd1e106">Quaestio 71</head>
+            <head xml:id="Almn78-hh5690-Hd1e109" type="question-title">
+    Quot et quibus modis anima dicitur imago et similitudo Dei, sive
+    ad imaginem et similitudinem?
+  </head>
+            <p xml:id="Almn78-hh5690-d1e112">
+               <pb ed="#Bc" n="27"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO LXXI.
+<lb ed="#Bc"/>Quot et quibus modis anima dicitur imago et similitudo Dei, sive
+<lb ed="#Bc"/>ad imaginem et similitudinem?
+</p>
+            <p xml:id="Almn78-hh5690-d1e125">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur ratione ejus quod
+<lb ed="#Bc"/>dicit Magister in libro Il Sententiarum,
+<lb ed="#Bc"/>distinct. XVI, cap. Imago autem et 
+si<lb ed="#Bc" break="no"/>militudo. Quot et quibus modis anima
+<lb ed="#Bc"/>dicitur imago et similitudo Dei, sive ad
+<lb ed="#Bc"/>imaginem et similitudinem ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e143">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Videtur enim anima non esse imago.
+<lb ed="#Bc"/>1. Dicit enim Hilarius in libro de 
+Syne<lb ed="#Bc" break="no"/>dis : <quote xml:id="Almn78-hh5690-Qd1e153"> Imago est rei ad rem coequande
+<lb ed="#Bc"/>imaginata et indiscreta similitudo, sive
+<lb ed="#Bc"/>species indifferens. </quote> Constat, quod hoc
+<lb ed="#Bc"/>modo anima non est imago Dei: quia
+<lb ed="#Bc"/>sica Deo non differret, sed equaretur
+<lb ed="#Bc"/>ei : quod esse non potest.
+</p>
+            <p xml:id="Almn78-hh5690-d1e169">
+               <lb ed="#Bc"/>2. Adhuc, Hugo de sancto Victore
+<lb ed="#Bc"/>dicit, quod <quote xml:id="Almn78-hh5690-Qd1e175"> imago ad figuram 
+perti<lb ed="#Bc" break="no"/>net. </quote> Nulla figura communis est Dei et
+<lb ed="#Bc"/>anime. Ergo anima nec imago nec ad
+<lb ed="#Bc"/>imaginem Dei est.
+</p>
+            <p xml:id="Almn78-hh5690-d1e185">
+               <lb ed="#Bc"/>3. Adhuc, Augustinus in libro
+<lb ed="#Bc"/>LXXXII1 Questionum : <quote xml:id="Almn78-hh5690-Qd1e191"> Imago diritur
+<lb ed="#Bc"/>similitudo expressa®. </quote> Sed nec in forma
+<lb ed="#Bc"/>substantiali, nec azcidentali similitudo
+<lb ed="#Bc"/>potest esse inter Deum et animam. Ergo
+<lb ed="#Bc"/>anima non potest esse imago vel ad
+<lb ed="#Bc"/>imaginem Dei.
+</p>
+            <p xml:id="Almn78-hh5690-d1e206">
+               <lb ed="#Bc"/>ContRA :
+<lb ed="#Bc"/>
+               <name xml:id="Almn78-hh5690-Nd1e212">Cassiodorus</name> super illud Psalmi xxxvim,
+<lb ed="#Bc"/>7: In imagine pertransit homo, dicit
+<lb ed="#Bc"/>sic : <quote xml:id="Almn78-hh5690-Qd1e220"> Quomodo possetesse, quod anime
+<lb ed="#Bc"/>hominum mortis termino clauderentur,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>quae sunt imago Dei ? imago enim Dei
+<lb ed="#Bc"/>mortis termino claudi non potest.</quote> Ex
+<lb ed="#Bc"/>hoe accipitur, quod anima secundum
+<lb ed="#Bc"/>immortalitatem imago Dei est.
+</p>
+            <p xml:id="Almn78-hh5690-d1e236">
+               <lb ed="#Bc"/>Ulterius queritur, Si soli anime
+<lb ed="#Bc"/>rationali conveniat imago Dei esse, vel
+<lb ed="#Bc"/>ad imaginem ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e245">
+               <lb ed="#Bc"/>Et videtur, quod non <sic>?</sic>
+               <lb ed="#Bc"/>1. In aliis enim creaturis convenientia
+<lb ed="#Bc"/>est ad tres personas in unitate essentie,
+<lb ed="#Bc"/>sicut in anima, sicut dicit Augustinus,
+<lb ed="#Bc"/>per unitatem, veritatem, et bonitatem.
+<lb ed="#Bc"/>Dicit enim, quod omne creatum est
+<lb ed="#Bc"/>unum, verum, et bonum : et unum 
+at<lb ed="#Bc" break="no"/>tribuitur Patri, et verum Filio, et 
+bo<lb ed="#Bc" break="no"/>num Spiritui sancto.
+</p>
+            <p xml:id="Almn78-hh5690-d1e270">
+               <lb ed="#Bc"/>2 Adhuc, De Angelo dicit Gregorius
+<lb ed="#Bc"/>in libro XXXIT Aforaltzwm, quod <quote xml:id="Almn78-hh5690-Qd1e276"> quanto
+<lb ed="#Bc"/>in eo subtilior est natura, eo imago Dei
+<lb ed="#Bc"/>insinuatur in eo subtilius expressa *. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e285">
+               <lb ed="#Bc"/>3. Adhuc, Anima sensibilis imitatur
+<lb ed="#Bc"/>Deum in potentia cognoscendi, et in 
+po<lb ed="#Bc" break="no"/>tentia diligendi. Ergo videtur, quod sit
+<lb ed="#Bc"/>ad imaginem Dei sicut anima rationalis.
+</p>
+            <p xml:id="Almn78-hh5690-d1e296">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Augustinus in sermone de imagine:
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-hh5690-Qd1e304"> Nulli alii creature dedit, quod sit ad
+<lb ed="#Bc"/>imaginem, nisi homini secundum 
+ratio<lb ed="#Bc" break="no"/>nem. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e312">
+               <pb ed="#Bc" n="28"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>Ulterius queritur, Que differentia
+<lb ed="#Bc"/>sit inter esse imaginem, et esse ad 
+ima<lb ed="#Bc" break="no"/>ginem ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e325">
+               <lb ed="#Bc"/>1. Videtur dicere Magister in libro
+<lb ed="#Bc"/>II Sententiarum, distinct. XVI, cap. 
+Fi<lb ed="#Bc" break="no"/>fius, quod Filius dicitur imago proprie,
+<lb ed="#Bc"/>sicut in primo libro, tractatu. de his
+<lb ed="#Bc"/>que proprie dicuntur de Filio, ostensum
+<lb ed="#Bc"/>est. Homo autem ad imaginem et non
+<lb ed="#Bc"/>imago, ut sic notetur distinctio inter
+<lb ed="#Bc"/>hominem et Filium, creatum et 
+geni<lb ed="#Bc" break="no"/>tum. Sed videtur, quod homo sit ad
+<lb ed="#Bc"/>imaginem que est Filius ; quia ita dicit
+<lb ed="#Bc"/>Augustinus super Genesim, in Glossa
+<lb ed="#Bc"/>que est, <quote xml:id="Almn78-hh5690-Qd1e353"> Imago Dei ad cujus 
+simili<lb ed="#Bc" break="no"/>tudinem factus est homo, non nisi 
+Sal<lb ed="#Bc" break="no"/>vator noster qui est primogenitus omnis
+<lb ed="#Bc"/>creature. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e363">
+               <lb ed="#Bc"/>2. Adhuc, If ad Corinth. m, 18 : Nos
+<lb ed="#Bc"/>omnes revelata facie gloriam Domini
+<lb ed="#Bc"/>speculantes, 1d eamdem imaginem 
+trans<lb ed="#Bc" break="no"/>formamur, a claritate in claritatem,
+<lb ed="#Bc"/>tamquam a Domini Spiritu.
+</p>
+            <p xml:id="Almn78-hh5690-d1e376">
+               <lb ed="#Bc"/>3. Adhuc, Ad Roman. vin, 29 et 30:
+<lb ed="#Bc"/>Quos prescivit, et predestinavit 
+confor<lb ed="#Bc" break="no"/>mes fieri imaginis Filit sui,... hos et 
+vo<lb ed="#Bc" break="no"/>cavit. Ergo videtur, quodnonsolum Filius,
+<lb ed="#Bc"/>sed etiam homo efliciatur imago Dei.
+</p>
+            <p xml:id="Almn78-hh5690-d1e390">
+               <lb ed="#Bc"/>Unrertus adhuc queritur, Que sit
+<lb ed="#Bc"/>differentia inter esse ad imaginem, et
+<lb ed="#Bc"/>inter esse ad similitudinem ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e399">
+               <lb ed="#Bc"/>1. Dicit enim Augustinus in libro
+<lb ed="#Bc"/>LXXXIIL Questionum, quod <quote xml:id="Almn78-hh5690-Qd1e405"> ubi est
+<lb ed="#Bc"/>imago, ibi est similitudo : sed non 
+con<lb ed="#Bc" break="no"/>verlitur ‘. </quote> Ergo videtur, quod 
+similitu<lb ed="#Bc" break="no"/>do generalis sit ad imaginem,
+</p>
+            <p xml:id="Almn78-hh5690-d1e415">
+               <lb ed="#Bc"/>2. Adhuc, I ad Corinth. 1v, 4, super
+<lb ed="#Bc"/>illud : Ut non fulgeat illis illuminatio
+<lb ed="#Bc"/>Evangelii glorie Christi, qui est imago
+<lb ed="#Bc"/>Dei: ubi Glossa, <quote xml:id="Almn78-hh5690-Qd1e425"> Ubiimago, continuo
+<lb ed="#Bc"/>similitudo : sed non convertitur, quod
+<lb ed="#Bc"/>ubisimilitudo, continuo imago. </quote> In 
+du<lb ed="#Bc" break="no"/>obus enim ovis est similitudo : neutrum
+<lb ed="#Bc"/>tamen est imago alterius.
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Glossa <name xml:id="Almn78-hh5690-Nd1e443">Bedae</name> super Genesim :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-hh5690-Qd1e449"> Imago dicitur quantum ad naturalia,
+<lb ed="#Bc"/>similitudo quantum ad gratuita. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e455">
+               <lb ed="#Bc"/>2. Adhuc, Hugo de sancto Victore in
+<lb ed="#Bc"/>Sententiis : <quote xml:id="Almn78-hh5690-Qd1e461"> Quia omnia in ipsa anima
+<lb ed="#Bc"/>sunt, secundum sapientiam est 
+similitu<lb ed="#Bc" break="no"/>do: quia una et simplex dicitur esse
+<lb ed="#Bc"/>secundum essentiam, est imago. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e471">
+               <lb ed="#Bc"/>3. Aliter, Iterum dicit Cassiodorus sic:
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-hh5690-Qd1e477"> Imago attenditursecundum 
+immortalita<lb ed="#Bc" break="no"/>tem, similitudo secundum simplicitatem. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e483">
+               <lb ed="#Bc"/>Utrenius queritur, Secundum quid
+<lb ed="#Bc"/>conveniat anime quod sit ad imaginem,
+<lb ed="#Bc"/>vel etiam homini ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e493">
+               <lb ed="#Bc"/>Et videtur, quod secundum corpus
+<lb ed="#Bc"/>conveniat homini. Augustinus in libro
+<lb ed="#Bc"/>LXXXIIT Questionum : <quote xml:id="Almn78-hh5690-Qd1e501">In exteriori
+<lb ed="#Bc"/>homine quedam trinitas reperitur, etsi
+<lb ed="#Bc"/>non ita expressa sicut in interiori. Quia
+<lb ed="#Bc"/>tale est corpus, ut ad contemplandum
+<lb ed="#Bc"/>celum sit aptius, magis in hoc ad 
+ima<lb ed="#Bc" break="no"/>ginem et similitudinem Dei quam 
+cete<lb ed="#Bc" break="no"/>ra corpora animalium facta sint, jure
+<lb ed="#Bc"/>videri potest *. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e520">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Beda in Glossa super Genesim :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-hh5690-Qd1e528"> Adimaginem Dei dicitur esse homo
+<lb ed="#Bc"/>secundum illam partem anime qua in
+<lb ed="#Bc"/>rationalibus antecellit. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e536">
+               <lb ed="#Bc"/>2. Adhuc, Augustinus in libro XIV
+<lb ed="#Bc"/>de Trinitate: <quote xml:id="Almn78-hh5690-Qd1e542">Illa pars anime imago
+<lb ed="#Bc"/>Dei dicitur esse, secundum quam fanima
+<lb ed="#Bc"/>ejus particeps esse potest . </quote> Sed anima
+<lb ed="#Bc"/>particeps Dei esse non potest nisi 
+secun<lb ed="#Bc" break="no"/>dum mentem. Ergo non dicitur imago
+<lb ed="#Bc"/>nisi secundum mentem.
+</p>
+            <p xml:id="Almn78-hh5690-d1e557">
+               <lb ed="#Bc"/>ContRA :
+<lb ed="#Bc"/>1. Augustinus in libro de XII de Zrini-_
+<lb ed="#Bc"/>tate: <quote xml:id="Almn78-hh5690-Qd1e565"> Cum in natura mentis 
+hu<lb ed="#Bc" break="no"/>mane querimus trinitatem, in tota
+<lb ed="#Bc"/>querimus, non separantes actionem 
+ra<lb ed="#Bc" break="no"/>tionis in temporalibus ab actione 
+ratio<lb ed="#Bc" break="no"/>nis que contemplatur eterna ‘. </quote> Ex
+<pb ed="#Bc" n="29"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>hoc accipitur, quod et secundum partem
+<lb ed="#Bc"/>rationis inferiorem et secundum partem
+<lb ed="#Bc"/>superiorem dicitur imago.
+</p>
+            <p xml:id="Almn78-hh5690-d1e588">
+               <lb ed="#Bc"/>2. Adhuc, In exterioribus tam vir
+<lb ed="#Bc"/>quam mulier dicuntur ad imaginem.
+<lb ed="#Bc"/>Ergo similiter in interioribus: sed in
+<lb ed="#Bc"/>interioribus portio inferior dicitur 
+mu<lb ed="#Bc" break="no"/>lier, et superior vir: ergo tam 
+secun<lb ed="#Bc" break="no"/>dum inferiorem quam secundum 
+supe<lb ed="#Bc" break="no"/>riorem partem rationis dicetur homo ad
+<lb ed="#Bc"/>imaginem Dei.
+</p>
+            <p xml:id="Almn78-hh5690-d1e608">
+               <lb ed="#Bc"/>Ulterius queritur, Utrum anima 
+ra<lb ed="#Bc" break="no"/>tionalis sive homo dicatur ad imaginem
+<lb ed="#Bc"/>secundum quod refertur ad se, vel 
+se<lb ed="#Bc" break="no"/>cundum quod refertur ad Deum ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e620">
+               <lb ed="#Bc"/>Et videtur, quod secundum quod 
+re<lb ed="#Bc" break="no"/>fertur ad se. Augustinus in libro XIV de
+<lb ed="#Bc"/>Trinitate: <quote xml:id="Almn78-hh5690-Qd1e628"> Ecce mens meminit sui,
+<lb ed="#Bc"/>intelligit se, diligit se : hoc si cernimus,
+<lb ed="#Bc"/>cernimus trinitatem, nondum quidem
+<lb ed="#Bc"/>Deum, sed jam imaginem Dei. </quote> Ergo
+<lb ed="#Bc"/>anima ad imaginem est secundum quod
+<lb ed="#Bc"/>refertur ad seipsam.
+</p>
+            <p xml:id="Almn78-hh5690-d1e643">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Augustinus, ibidem : <quote xml:id="Almn78-hh5690-Qd1e649"> haec trinitas
+<lb ed="#Bc"/>mentis non propterea Dei imago est,
+<lb ed="#Bc"/>quia sui meminit mens et intelligit ac
+<lb ed="#Bc"/>diligit se, sed quia potest etiam 
+memi<lb ed="#Bc" break="no"/>nisse et intelligere et diligere eum a quo
+<lb ed="#Bc"/>facta est ?. </quote> Ergo non est trinitas in 
+ani<lb ed="#Bc" break="no"/>ma, nisi secundum quod refertur ad
+<lb ed="#Bc"/>Deum.
+</p>
+            <p xml:id="Almn78-hh5690-d1e667">
+               <lb ed="#Bc"/>Solutio. Dicendum, quod si imago
+<lb ed="#Bc"/>propriissime accipitur secundum 
+defini<lb ed="#Bc" break="no"/>tionem Hilarii, tunc nihil creatum potest
+<lb ed="#Bc"/>esse imago Dei,.sed solus Filius hoc
+<lb ed="#Bc"/>modo erit imago Patris, sicut ostensum
+<lb ed="#Bc"/>est in primo libro Sententiarum, tractatu
+<lb ed="#Bc"/>de his que proprie conveniunt Filo. Si
+<lb ed="#Bc"/>autem accipitur imago ut imitans in 
+ali<lb ed="#Bc" break="no"/>quo, non equans protolypum : tunc
+<lb ed="#Bc"/>nihil impedit, quin homo sit ad 
+imagi<lb ed="#Bc" break="no"/>nem Dei: nihil enim prohibet, quin
+<lb ed="#Bc"/>imitetur (ut dicit Magister in libro] 
+Sen<lb ed="#Bc" break="no"/>tentiarum, distinct. III) tres personas
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>in una essentia, et ordinem nature qui
+<lb ed="#Bc"/>est in tribus persunis, in hoc, quod 
+sic<lb ed="#Bc" break="no"/>ut ex Patre Filius, “et ex Patre et Filio
+<lb ed="#Bc"/>Spiritus sanctus, et sunt unius essentie
+<lb ed="#Bc"/>et unius substantia : ita ex mente sive
+<lb ed="#Bc"/>ex memoria sit intelligentia sive notitia,
+<lb ed="#Bc"/>et ex memoria sive mente et intelligentia
+<lb ed="#Bc"/>procedat amor sive voluntas naturalis.
+<lb ed="#Bc"/>Et sicut Pater totus est in Filio, et Filius
+<lb ed="#Bc"/>in Patre: ita tota mens sive memoria est
+<lb ed="#Bc"/>in intelligentia, et e converso 
+intelli<lb ed="#Bc" break="no"/>gentia in memoria, et in utroque amor,
+<lb ed="#Bc"/>et e converso memoria et intelligentia
+<lb ed="#Bc"/>in amore naturali que ab ipso procedit.
+<lb ed="#Bc"/>Et sicut tres persone una sunt essentia
+<lb ed="#Bc"/>et una substantia in divinitate, ita 
+po<lb ed="#Bc" break="no"/>tentiae in anima rationali sunt una 
+essen<lb ed="#Bc" break="no"/>tia, una substantia, una vita, et una
+<lb ed="#Bc"/>anima : et in hoc dicitur anima rationalis
+<lb ed="#Bc"/>non imago, sed ad imaginem Trinitatis.
+</p>
+            <p xml:id="Almn78-hh5690-d1e743">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod nulla figura
+<lb ed="#Bc"/>est nisi in corporalibus si proprie 
+suma<lb ed="#Bc" break="no"/>tur figura secundum quod figura 
+defini<lb ed="#Bc" break="no"/>tur, quod est terminatio quanti sive
+<lb ed="#Bc"/>quantitas terminata. Sic enim priori
+<lb ed="#Bc"/>modo dicta in predicamento qualitatis
+<lb ed="#Bc"/>est, sicut dicit Aristoteles in 
+Predica<lb ed="#Bc" break="no"/>mentis, quod quarta species qualitatis
+<lb ed="#Bc"/>est forma, vel circa hoc aliquid constans
+<lb ed="#Bc"/>figura. Secundo autem modo dicta, est
+<lb ed="#Bc"/>in predicamento quantitatis sicut 
+trigo<lb ed="#Bc" break="no"/>num, et tetragonum, et sicut alia figure
+<lb ed="#Bc"/>geometrice. Si autem accipiatur figura
+<lb ed="#Bc"/>symbolice, hoc modo quod dicit 
+Diony<lb ed="#Bc" break="no"/>sius in epistola ad Timotheum, quod
+<lb ed="#Bc"/>corporalia per dissimiles similitudines ad
+<lb ed="#Bc"/>spiritualia referuntur, sicut Christus 
+di<lb ed="#Bc" break="no"/>citur petra propter veritatis soliditatem :
+<lb ed="#Bc"/>cum tamen soliditas dissimiliter sit in
+<lb ed="#Bc"/>petra, et in veritate: sic nihil prohibet
+<lb ed="#Bc"/>figuram esse in spiritualibus et in 
+imagi<lb ed="#Bc" break="no"/>ne, spirituali configuratione trium 
+poten<lb ed="#Bc" break="no"/>tiarum in una anima, sicut est trium
+<lb ed="#Bc"/>personarum in una divina essentia, ut
+<lb ed="#Bc"/>paulo ante dictum est.
+</p>
+            <p xml:id="Almn78-hh5690-d1e800">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod imago 
+ex<lb ed="#Bc" break="no"/>pressa ibi non est, sed imitativa, ut di
+<pb ed="#Bc" n="30"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>ctum est. Et propter hoc dicit Magister
+<lb ed="#Bc"/>in libro 1 Sententiarum, distinct. IV,
+<lb ed="#Bc"/>quod est similitudo exigua, eo quod alia
+<lb ed="#Bc"/>non potest esse inter creaturam et 
+crea<lb ed="#Bc" break="no"/>torem nisi exigua.
+</p>
+            <p xml:id="Almn78-hh5690-d1e822">
+               <lb ed="#Bc"/>Ip guop contra objicitur, concedendum
+<lb ed="#Bc"/>est: solus enim Deus, ut dicitur, I ad
+<lb ed="#Bc"/>Timoth. vr, 16, per naturam habet 
+im<lb ed="#Bc" break="no"/>mortalitatem *. Omnia autem alia que
+<lb ed="#Bc"/>creata sunt, ut dicit Plato in Timeo, si
+<lb ed="#Bc"/>sunt immortalia, immortalitatem 
+acci<lb ed="#Bc" break="no"/>piunt ex Dei bona voluntate. Et ideo
+<lb ed="#Bc"/>dicit Damascenus in libro IT de Fide
+<lb ed="#Bc"/>orthodoxa, quod <quote xml:id="Almn78-hh5690-Qd1e843"> Angelus ex gratia,
+<lb ed="#Bc"/>non natura est immortalitatem 
+susci<lb ed="#Bc" break="no"/>piens *. </quote> Et quia anima rationalis etiam
+<lb ed="#Bc"/>suscipit immortalitatem ex gratia, ideo
+<lb ed="#Bc"/>dicit Cassiodorus, quod in hoc imitatur
+<lb ed="#Bc"/>immortalitatem divinam, et cst imago
+<lb ed="#Bc"/>ejus.
+</p>
+            <p xml:id="Almn78-hh5690-d1e861">
+               <lb ed="#Bc"/>Ad ww quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum, quod sola anima rationalis est ad
+<lb ed="#Bc"/>imaginem Dei, sicut dicit Augustinus.
+<lb ed="#Bc"/>Imitatio autem que est in aliis creaturis
+<lb ed="#Bc"/>in unitate, veritate, bonitate, dicitur 
+ve<lb ed="#Bc" break="no"/>stigium et non imago, eo quod non 
+per<lb ed="#Bc" break="no"/>fecte imitatur: licet enim imitetur in
+<lb ed="#Bc"/>tribus que appropriantur tribus personis,
+<lb ed="#Bc"/>tamen in ordine nature que est inter
+<lb ed="#Bc"/>tres personas, non imitatur,
+</p>
+            <p xml:id="Almn78-hh5690-d1e885">
+               <lb ed="#Bc"/>Ad id quod objicitur de Angelo, 
+di<lb ed="#Bc" break="no"/>cendum quod nec in Angelo sufficiens
+<lb ed="#Bc"/>imitatio est: quia licet Angelus imitetur
+<lb ed="#Bc"/>in tribus potentiis et ordine earum,
+<lb ed="#Bc"/>tamen in hoc non imitatur, quod 
+Ange<lb ed="#Bc" break="no"/>lus sit vita alicujus sibi conjuncti, sicut
+<lb ed="#Bc"/>Deus est vita omnium, et sicut anima
+<lb ed="#Bc"/>vivificat corpus sibi conjunctum. Et ideo
+<lb ed="#Bc"/>Augustinus in sermone de imagine 
+osten<lb ed="#Bc" break="no"/>dens differentiam secundum quam 
+ima<lb ed="#Bc" break="no"/>go est Filius Patris, et secundum quam
+<lb ed="#Bc"/>homo est ad imaginem, dicit quod 
+ima<lb ed="#Bc" break="no"/>go imperatoris aliler est in filio suo,
+<lb ed="#Bc"/>quia ibi est per naturam et expressa, et
+<lb ed="#Bc"/>aliter est in solido aureo, ubi sicut dicit
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Aristoteles in I Politicarum, est in 
+si<lb ed="#Bc" break="no"/>gnum equi ponderis, et puritatis. Et ita
+<lb ed="#Bc"/>estin homine per gratia impressionem
+<lb ed="#Bc"/>in sigaum divine imitetionis. Matth.
+<lb ed="#Bc"/>xxu, 20 et 21: Cujus est imago hee
+<lb ed="#Bc"/>ef superscriptio ? Dicunt ev: Cesaris.
+<lb ed="#Bc"/>Et stalim subinferl: Reddite ergo que
+<lb ed="#Bc"/>sunt Cexsaris Cxsart, et que sunt Dei
+<lb ed="#Bc"/>Deo.
+</p>
+            <p xml:id="Almn78-hh5690-d1e942">
+               <lb ed="#Bc"/>Ad aliud dicendum, quod memoria,
+<lb ed="#Bc"/>notitia, amor anime sensibilis in actu
+<lb ed="#Bc"/>immediate in Deum referri non possunt,
+<lb ed="#Bc"/>sed in aliquod sensibile. Et cum imago
+<lb ed="#Bc"/>dicatur ab imitatione actuali immediate
+<lb ed="#Bc"/>in Deum relata, imago Dei in anima
+<lb ed="#Bc"/>sensibili esse non potest: sed talis 
+imi<lb ed="#Bc" break="no"/>tatio erit vestigium.
+</p>
+            <p xml:id="Almn78-hh5690-d1e962">
+               <lb ed="#Bc"/>Ip gvop in contrarium est, procedit: ac
+<lb ed="#Bc"/>quia concedendum est.
+</p>
+            <p xml:id="Almn78-hh5690-d1e969">
+               <lb ed="#Bc"/>App quod ulterius queritur, Utrum aa
+<lb ed="#Bc"/>homo sit imago vel ad imaginem ?
+</p>
+            <p xml:id="Almn78-hh5690-d1e976">
+               <lb ed="#Bc"/>Dicendum, quod non est imago, sed
+<lb ed="#Bc"/>ad imaginem: ut preposilio ad, que
+<lb ed="#Bc"/>transiliva est, nolet diversitatem 
+essen<lb ed="#Bc" break="no"/>liae imitantis unam essentiam in tribus
+<lb ed="#Bc"/>personis per imaginem creationis et
+<lb ed="#Bc"/>similitudinis, ut dicit Glossa super illud
+<lb ed="#Bc"/>Psalmi, iv, 7: Signalum est super nos
+<lb ed="#Bc"/>lumen vultus tui, Domine: Filius vero
+<lb ed="#Bc"/>propter opposilam rationem, quia scilicet
+<lb ed="#Bc"/>est in eadem essentia cum Patre, et
+<lb ed="#Bc"/>similitudo ejus expressa, est imago, et
+<lb ed="#Bc"/>non ad imaginem.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1006">
+               <lb ed="#Bc"/>Ad id vero quod objicitur per 
+Augu<lb ed="#Bc" break="no"/>stinum, dicendum quod non _ loguitur
+<lb ed="#Bc"/>de imagine similitudinis in naturalibus,
+<lb ed="#Bc"/>sed loquitur de imitatione similitudinis
+<lb ed="#Bc"/>ad Christum hominem in operibus 
+meri<lb ed="#Bc" break="no"/>toriis et gratia, ad quem imitandum
+<lb ed="#Bc"/>factus est homo. Eccle. xu, 13: Deum
+<lb ed="#Bc"/>time, el mandata efus observa: hoc est
+<lb ed="#Bc"/>enim omnis homo. Glossa, <quote xml:id="Almn78-hh5690-Qd1e1027"> Ad hoc est
+<lb ed="#Bc"/>omnis homo. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e1033">
+               <lb ed="#Bc"/>Simiuiter loquitur illud quod 
+addu<lb ed="#Bc" break="no"/>clum est de epist. II ad Corinth. 11, 18
+<pb ed="#Bc" n="31"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>loquitur enim ibi de similitudine et 
+imi<lb ed="#Bc" break="no"/>talione secundum gratiam, et precipue
+<lb ed="#Bc"/>in contemplatione veritatis.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1051">
+               <lb ed="#Bc"/>Eovem modo loquitur in epist. ad 
+Roma<lb ed="#Bc" break="no"/>nus, vii, 29 et 30. Homo enim imilando
+<lb ed="#Bc"/>in gratia, non efficitur imago essentialis
+<lb ed="#Bc"/>Dei, sed efficitur imago per 
+conformi<lb ed="#Bc" break="no"/>tatem in gratia.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1064">
+               <lb ed="#Bc"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod secundum Augustinum et
+<lb ed="#Bc"/>Bedam, imago proprie est in naturalibus
+<lb ed="#Bc"/>polentiis rationalis anime : quia in illis
+<lb ed="#Bc"/>est quantitas virtutis, licet ibi non sit
+<lb ed="#Bc"/>quantilas molis, ut dicit Augustinus : et
+<lb ed="#Bc"/>est imitatio nature quantum ad 
+origi<lb ed="#Bc" break="no"/>nem qua altera est ex altera, non qua
+<lb ed="#Bc"/>altera prior est altera, sicut in divinis
+<lb ed="#Bc"/>personis. Similitudo autem refertur ad
+<lb ed="#Bc"/>conformitatem in gratia, qui 
+superdu<lb ed="#Bc" break="no"/>citur nature sicut qualitas, eo quod,
+<lb ed="#Bc"/>sicut dicit Philosophus, similitudo est
+<lb ed="#Bc"/>rerum differentium eadem qualitas.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1097">
+               <lb ed="#Bc"/>Smunirer dicendum est de dicto 
+Hu<lb ed="#Bc" break="no"/>gonis, quod ille refert imaginem ad 
+natu<lb ed="#Bc" break="no"/>ralia, et similitudinem ad gratuita: et
+<lb ed="#Bc"/>ideo dicit, quod similitudo est in 
+capaci<lb ed="#Bc" break="no"/>tate sapientiee et gratia: imaginem 
+au<lb ed="#Bc" break="no"/>tem refert ad simplicitatem essentie in
+<lb ed="#Bc"/>tribus potentiis, sicut est una et simplex
+<lb ed="#Bc"/>essentia in tribus personis.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1117">
+               <lb ed="#Bc"/>Ad aliud dicéndum, quod Cassiodorus
+<lb ed="#Bc"/>non altendit imaginem secundum 
+per<lb ed="#Bc" break="no"/>fectam rationem imitationis, sed 
+quan<lb ed="#Bc" break="no"/>tamcumque conformitatem in natura
+<lb ed="#Bc"/>vyocat imaginem, ab imitando diclam, et
+<lb ed="#Bc"/>quantamcumque convenientiam in gratia
+</p>
+            <p xml:id="Almn78-hh5690-d1e1134">
+               <lb ed="#Bc"/>et qualilate nature vocat 
+similitudi<lb ed="#Bc" break="no"/>nem.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1141">
+               <lb ed="#Bc"/>Ad 10 quod ulterius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod differenter attenditur imago
+<lb ed="#Bc"/>in interiori et exteriori homine. In 
+inte<lb ed="#Bc" break="no"/>riori enim est naturaliter et essentialiter
+<lb ed="#Bc"/>secundum potentiam cognoscendi et
+<lb ed="#Bc"/>diligendi : in exteriori autem sicut in
+<lb ed="#Bc"/>signo, qua erecta statura in exteriori,
+<lb ed="#Bc"/>signum est erectionis in potentia 
+cogno<lb ed="#Bc" break="no"/>scendi et diligendi in Deum. Unde <name xml:id="Almn78-hh5690-Nd1e1162">Ber
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>nardus</name> super Cantica inducit corpus
+<lb ed="#Bc"/>loquens ad animam sic : <quote xml:id="Almn78-hh5690-Qd1e1172"> Pudeat te
+<lb ed="#Bc"/>tuam amisisse rectitudinem justitia, cum
+<lb ed="#Bc"/>adhue meam teneam rectitudinem in
+<lb ed="#Bc"/>membrorum positione. </quote>
+            </p>
+            <p xml:id="Almn78-hh5690-d1e1182">
+               <lb ed="#Bc"/>Ad id quod objicitur in contrarium
+<lb ed="#Bc"/>per Bedam et Augustinum, dicendum
+<lb ed="#Bc"/>quod verum est quod dicunt : sed 
+lo<lb ed="#Bc" break="no"/>quuntur de imagine prout essentialiter
+<lb ed="#Bc"/>et secundum veritatem est in interiori
+<lb ed="#Bc"/>homine in potentia cognoscendi, et in
+<lb ed="#Bc"/>polentia diligendi : quod sicut in signo
+<lb ed="#Bc"/>ostenditur in exteriori corporis 
+rectitu<lb ed="#Bc" break="no"/>dine et erectione.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1204">
+               <lb ed="#Bc"/>Ad id quod queritur de inferiori et
+<lb ed="#Bc"/>superiori portione rationis, dicendum
+<lb ed="#Bc"/>quod propriissime loquendo imago est
+<lb ed="#Bc"/>in superiori parle rationis, hoc est, in
+<lb ed="#Bc"/>mente: quia, sicut dicit Augustinus,
+<lb ed="#Bc"/>excellentior pars anime est : secundum
+<lb ed="#Bc"/>illam enim actu imitatur in cognitione
+<lb ed="#Bc"/>veri et boni quod Deus est, et dilectione
+<lb ed="#Bc"/>ejusdem. Est tamen etiam in inferiori
+<lb ed="#Bc"/>parte, sed posterius : sicut contingit
+<lb ed="#Bc"/>cognoscere verum et bonum quod Deus
+<lb ed="#Bc"/>est et in se et in creatis in quibus relucet :
+<lb ed="#Bc"/>sed quando cognoscitur in creatis, 
+opor<lb ed="#Bc" break="no"/>tet, quod ulterius referatur ad verum et
+<lb ed="#Bc"/>bonum quod Deus est in seipso.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1239">
+               <lb ed="#Bc"/>Av wm quod ullerius queritur, 
+dicen<lb ed="#Bc" break="no"/>dum quod si imago dicatur ab actuali
+<lb ed="#Bc"/>imitatione : tunc imago est in anima
+<lb ed="#Bc"/>rationali ex hoc, quod meminit Dei, 
+in<lb ed="#Bc" break="no"/>telligit Deum, vult vel diligit Deum sive
+<lb ed="#Bc"/>verum et bonum quod Deus est. Si 
+au<lb ed="#Bc" break="no"/>tem dicatur a potentiali imitatione : tunc
+<lb ed="#Bc"/>etiam est imago in anima rationali ex
+<lb ed="#Bc"/>hoc, quod meminit se, intelligit se, 
+dili<lb ed="#Bc" break="no"/>git se. Et his duobus modis solis 
+secun<lb ed="#Bc" break="no"/>dum Augustinum in libro XV de 
+Zrini<lb ed="#Bc" break="no"/>tate, circumincedunt se potentie, ut
+<lb ed="#Bc"/>unaqueque alias contineat: quia 
+quid<lb ed="#Bc" break="no"/>quid meminit et intelligit de Deo et de
+<lb ed="#Bc"/>seipsa, hoc est, de vero et bono quod
+<lb ed="#Bc"/>Deus est, et de vero et bono quod ipsa
+<lb ed="#Bc"/>est, hoc totum diligit: et quidquid 
+dili<lb ed="#Bc" break="no"/>git de se vel de Deo, hoc meminit et
+<lb ed="#Bc"/>intelligit. Sed sic non est de aliis memo
+<pb ed="#Bc" n="32"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>rabilibus, intelligibilibus, et diligibilibus.
+<lb ed="#Bc"/>Multorum enim meminit, et intelligit
+<lb ed="#Bc"/>multa, que non diligit, maxime in malis.
+<lb ed="#Bc"/>Ad id quod contra objicitur, per istam
+<lb ed="#Bc"/>distinctionem jam patet solutio.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1298">
+               <lb ed="#Bc"/>Ex hoc patet solutio duorum que
+<lb ed="#Bc"/>consueverunt queri : quorum unum est,
+<lb ed="#Bc"/>Utrum imago sit in anima secundum 
+na<lb ed="#Bc" break="no"/>turalia, vel gratuita ? Propter Glossam
+<lb ed="#Bc"/>super illud Psalmiiv, 7: Signatum est
+<lb ed="#Bc"/>super nos lumen vultus tui, Domine :
+<lb ed="#Bc"/>que distinguit triplicem imaginem in
+<lb ed="#Bc"/>anima, scilicet creationis, recreationis,
+<lb ed="#Bc"/>et similitudinis. Et dicit, quod imago
+<lb ed="#Bc"/>creationis est ratio que dicit imaginem
+<lb ed="#Bc"/>potentialiter imitantem et indistinctam.
+<lb ed="#Bc"/>Dicit etiam, quod imago recreationis est
+<lb ed="#Bc"/>fides, spes, et charitas : quia ex illa 
+re<lb ed="#Bc" break="no"/>creatur imago creationis et similitudinis,
+<lb ed="#Bc"/>ut perfecte et cum effectu meriti possit
+<lb ed="#Bc"/>imilari, ut fiat in ea quod dicit beatus
+<lb ed="#Bc"/>Bernardus, ut scilicet sit in voluntate
+<lb ed="#Bc"/>Dei perfectio charitatis, in intelligentia
+<lb ed="#Bc"/>sinceritas lucis et veritas fidei : quia
+<lb ed="#Bc"/>dicit Dionysius in libro de Divinis 
+nomi<lb ed="#Bc" break="no"/>nibus, quod <quote xml:id="Almn78-hh5690-Qd1e1345"> fides est lumen, credentes
+<lb ed="#Bc"/>ponens in prima veritate, et primam
+<lb ed="#Bc"/>veritatem in ipsis *.</quote> Memoriae autem
+<lb ed="#Bc"/>Deus futurus est continuatio eternitatis :
+<lb ed="#Bc"/>quia in aliis memoralis aliquando 
+inter<lb ed="#Bc" break="no"/>cidit oblivio: in memorato autem veri
+<lb ed="#Bc"/>boni quod Deus est, et veri boni quod
+<lb ed="#Bc"/>anima est, nulla intercidit oblivio: cum
+<lb ed="#Bc"/>per naturam inserta sit omnibus.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1367">
+               <lb ed="#Bc"/>Secundum quod quidam querunt,
+<lb ed="#Bc"/>patet esse solutum ex predictis. Querunt
+<lb ed="#Bc"/>enim, In quo anima est repraesentativa
+<lb ed="#Bc"/>Trinitatis ? Hoc enim patet, quod in
+<lb ed="#Bc"/>memoria, intelligentia, et voluntate, et
+<lb ed="#Bc"/>ordine nature quo altera est ex altera
+<lb ed="#Bc"/>inter eas, et circumincessione earum qua
+<lb ed="#Bc"/>una est tota in altera respectu veri et
+<lb ed="#Bc"/>boni quod Deus est, et respectu veri et
+  <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>boni quod anima est, sicut una quelibet
+<lb ed="#Bc"/>personarum tota est in Trinitate, tota est
+<lb ed="#Bc"/>in altera per identitatem essentia.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1398">
+               <lb ed="#Bc"/>Et si objicitur per <ref xml:id="Almn78-hh5690-Rd1e1402">Glossam super illud
+<lb ed="#Bc"/>Eeclesiastici, xvu, 1: <quote xml:id="Almn78-hh5690-Qd1e1406" type="incipit">Secundum 
+imagi<lb ed="#Bc" break="no"/>nem suam fecit illum</quote>
+               </ref> : que dicit, <!-- quote here ? --> quod
+<lb ed="#Bc"/>homo in hoc ad imaginem Dei factus
+<lb ed="#Bc"/>est, quod imitatur tres personas in 
+uni<lb ed="#Bc" break="no"/>tate essentiae per tres potentias in unitate
+<lb ed="#Bc"/>substantie anime : quia, sicut ex 
+intelli<lb ed="#Bc" break="no"/>gentia est memoria, et ex memoria et
+<lb ed="#Bc"/>intelligentia voluntas sive amor, ita ex
+<lb ed="#Bc"/>Patre Filius, et ex utroque Spiritus
+<lb ed="#Bc"/>sanctus, cum hoc dictum sit per 
+Augusti<lb ed="#Bc" break="no"/>num, quod ex memoria est intelligentia,
+<lb ed="#Bc"/>et ex ulroque voluntas.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1437">
+               <lb ed="#Bc"/>Dicendum, quod Glossa Eeclesiastici
+<lb ed="#Bc"/>loquitur de memoria, intelligentia, et
+<lb ed="#Bc"/>voluntate acquisitis per inventionem et
+<lb ed="#Bc"/>docirinam : ibi enim primo quod 
+acqui<lb ed="#Bc" break="no"/>ritur, capitur in intellectu, et reponitur
+<lb ed="#Bc"/>in memoria tamquam in thesauro ut
+<lb ed="#Bc"/>servetur : et ex his duobus procedit 
+di<lb ed="#Bc" break="no"/>lectio, ut diligatur quod sic memoriae et
+<lb ed="#Bc"/>intellectui commissum est. Augustinus
+<lb ed="#Bc"/>autem loquitur de memoria, intelligentia,
+<lb ed="#Bc"/>et voluntate, secundum quod sunt 
+re<lb ed="#Bc" break="no"/>spectu veri et boni, quod Deus est, et
+<lb ed="#Bc"/>quod anima est in habitibus concreatis
+<lb ed="#Bc"/>ipsi anime et insertis per naturam, 
+se<lb ed="#Bc" break="no"/>cundum quod actus memoriae est 
+noti<lb ed="#Bc" break="no"/>tiam rei apud se tenere : et actus 
+intelle<lb ed="#Bc" break="no"/>ctus est sive intelligentia, intuitus illius
+<lb ed="#Bc"/>notitiae : et voluntas est dilectio ab
+<lb ed="#Bc"/>utroque procedens. Sic enim memoria
+<lb ed="#Bc"/>attribuitur Patri, intelligentia Filio, et
+<lb ed="#Bc"/>voluntas Spiritui sancto: et nihil 
+pro<lb ed="#Bc" break="no"/>hibet unum et idem diversimode consi- |
+<lb ed="#Bc"/>deratum, diversis adaptari.
+</p>
+            <p xml:id="Almn78-hh5690-d1e1489">
+               <lb ed="#Bc"/>Plurima de hac materia dicta sunt mm
+<lb ed="#Bc"/>primo libro Sententiarum, distinct. III,
+<lb ed="#Bc"/>que si conferantur ad ea que hic dicta
+<lb ed="#Bc"/>sunt, perfectior erit questio de imagine.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

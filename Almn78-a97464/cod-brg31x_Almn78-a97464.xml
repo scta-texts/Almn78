@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="439"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a97464"><!-- p1t9q42 -->
+            <head xml:id="Almn78-a97464-Hd1e106">Quaestio 42</head>
+            <head xml:id="Almn78-a97464-Hd1e109" type="question-title">De numero qui est in divinis personis</head>
+            <p xml:id="Almn78-a97464-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XLII.
+<lb ed="#Ba"/>De numero qui est in divinis personis.
+</p>
+            <p xml:id="Almn78-a97464-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur de numero qui est in
+<lb ed="#Ba"/>divinis personis.
+<lb ed="#Ba"/>Et queruntur tria.
+<lb ed="#Ba"/>Quorum primum est, An numerus sit
+<lb ed="#Ba"/>in divinis personis ?
+<lb ed="#Ba"/>Secundum, Quis aut qualis numerus
+<lb ed="#Ba"/>sit in divinis personis ?
+<lb ed="#Ba"/>Tertium, Quantus numerus sit in 
+di<lb ed="#Ba" break="no"/>vinis personis ?
+</p>
+            <div xml:id="Almn78-a97464-Dd1e145">
+               <head xml:id="Almn78-a97464-Hd1e147">Membrum 1</head>
+               <head xml:id="Almn78-a97464-Hd1e150" type="question-title">
+  Utrum numerus sit in divinis
+  personis?
+</head>
+               <p xml:id="Almn78-a97464-d1e153">
+                  <lb ed="#Ba"/>MEMBRUM 1.
+<lb ed="#Ba"/>Utrum numerus sit in divinis
+<lb ed="#Ba"/>personis?
+</p>
+               <p xml:id="Almn78-a97464-d1e162">
+                  <lb ed="#Ba"/>Primo ergo queritur, An numerus sit
+<lb ed="#Ba"/>in divinis personis ?
+<lb ed="#Ba"/>Et videtur, quod non.
+</p>
+               <p xml:id="Almn78-a97464-d1e171">
+                  <pb ed="#Ba" n="440"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>1. Boetius in libro de Trinitate: <quote xml:id="Almn78-a97464-Qd1e179">Unum
+<lb ed="#Ba"/>vere, in quo nullus numerus. </quote> Cum 
+er<lb ed="#Ba" break="no"/>go Deus verissime sit unum, nullus 
+nu<lb ed="#Ba" break="no"/>merus potest esse in ipso. :
+</p>
+               <p xml:id="Almn78-a97464-d1e191">
+                  <lb ed="#Ba"/>2. Adhuc, Ambrosius, in libro I de
+<lb ed="#Ba"/>Trinitate:: <quote xml:id="Almn78-a97464-Qd1e197"> In Deo numquam 
+totalita<lb ed="#Ba" break="no"/>tem ponimus: quia nec numerus, nec
+<lb ed="#Ba"/>quantitas ibi est. </quote>
+               </p>
+               <p xml:id="Almn78-a97464-d1e205">
+                  <lb ed="#Ba"/>3. Adhuc, Cum numerus nutus meme
+<lb ed="#Ba"/>ris sit, hoc est, divisionis, ubi divisio
+<lb ed="#Ba"/>non est, ibi numerus non est. In Deo
+<lb ed="#Ba"/>autem nulla potest esse divisio. Ergo
+<lb ed="#Ba"/>nullus numerus.
+</p>
+               <p xml:id="Almn78-a97464-d1e218">
+                  <lb ed="#Ba"/>4. Adhuc, Unum numero, est unum
+<lb ed="#Ba"/>subjecto et substantia, quamvis multas
+<lb ed="#Ba"/>habeat proprietates et accidentia : talis
+<lb ed="#Ba"/>enim multitudo non prejudicat uni 
+nu<lb ed="#Ba" break="no"/>mero, nec facit multa numero. Quod
+<lb ed="#Ba"/>ergo non est divisum per substantiam
+<lb ed="#Ba"/>subjecti, non habet numerum, nec in
+<lb ed="#Ba"/>ipso est numerus. In Deo autem per
+<lb ed="#Ba"/>substantiam nihil divisum est. Videtur
+<lb ed="#Ba"/>ergo, quod ibi nullus numerus sit, licet
+<lb ed="#Ba"/>ibi sint proprietates diverse.
+</p>
+               <p xml:id="Almn78-a97464-d1e244">
+                  <lb ed="#Ba"/>5. Adhuc, Numerus (ut dicunt 
+Pytha<lb ed="#Ba" break="no"/>goras et Boetius) est acervus ex 
+unitati<lb ed="#Ba" break="no"/>bus profusus. Ubi ergo non est profusus
+<lb ed="#Ba"/>acervus, non est numerus, a 
+destru<lb ed="#Ba" break="no"/>ctione consequentis. Sed cum dicimus,
+<lb ed="#Ba"/>Pater est unus, Filius est unus, Spiritus
+<lb ed="#Ba"/>sanctus est unus, intelligentes, unus
+<lb ed="#Ba"/>Deus Pater, unus Deus Filius, unus
+<lb ed="#Ba"/>Deus Spiritus sanctus, nullus 
+profundi<lb ed="#Ba" break="no"/>tur acervus: quia hi tres sunt unus
+<lb ed="#Ba"/>Deus, non tres dii. Ergo ex unitatibus
+<lb ed="#Ba"/>que sunt in divinis, nullus profunditur
+<lb ed="#Ba"/>numerus : ergo numerus non est in 
+di<lb ed="#Ba" break="no"/>vinis.
+</p>
+               <p xml:id="Almn78-a97464-d1e277">
+                  <lb ed="#Ba"/>6. Adhuc, Aristoteles dicit in I 
+Physt<lb ed="#Ba" break="no"/>corum, quod unum est indivisum in se,
+<lb ed="#Ba"/>et divisum ab aliis, et hoc vere unum
+<lb ed="#Ba"/>est: et intelligitur, quod sic essentialiter
+<lb ed="#Ba"/>divisum sit ab aliis. Tale autem unum
+<lb ed="#Ba"/>nullum est in divinis : quia nec sic unus
+<lb ed="#Ba"/>Pater est, nec Filius unus, nec Spiritus
+<lb ed="#Ba"/>sanctus unus. Et ubicumque non est
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>vere unum, ibi non est vere acervus 
+<lb ed="#Ba"/>unitatibus profusus, qui est numerus.
+<lb ed="#Ba"/>Ergo in divinis non est vere numerus.
+</p>
+               <p xml:id="Almn78-a97464-d1e306">
+                  <lb ed="#Ba"/>Adhuc, Per se ens cum per se ente 
+fu<lb ed="#Ba" break="no"/>cit numerum: Socrates enim et Socrates
+<lb ed="#Ba"/>musicus sunt unum, non duo. Relalio
+<lb ed="#Ba"/>autem in divinis est minus quam in alio
+<lb ed="#Ba"/>ens. Ergo multo minus facit numerum,
+<lb ed="#Ba"/>quam accidens. Cum ergo ‘istud non 
+Ia<lb ed="#Ba" break="no"/>ciat, nec istud faciet, per locum a 
+mu<lb ed="#Ba" break="no"/>jori.
+</p>
+               <p xml:id="Almn78-a97464-d1e327">
+                  <lb ed="#Ba"/>8. Adhuc, Licet differentia, ut dicit
+<lb ed="#Ba"/>Damascenus, sit causa numeri: tamen
+<lb ed="#Ba"/>hoc non habet nisi differentia divisiva,
+<lb ed="#Ba"/>et in quantum dividit. Differentia enim
+<lb ed="#Ba"/>communis qua Socrates stans differt a
+<lb ed="#Ba"/>se sedente, non dividit, ideo in 
+nume<lb ed="#Ba" break="no"/>rum non ponit. Cum ergo per relativa
+<lb ed="#Ba"/>nihil differat substantialiter, per relativa
+<lb ed="#Ba"/>nihil simpliciter ponitur in numerum.
+<lb ed="#Ba"/>Dicit autem Boetius in libro -de 
+Jrini<lb ed="#Ba" break="no"/>tate, quod sola relatio multiplicat Trini-
+<lb ed="#Ba" break="no"/>tatem. Cum ergo relatio non dividat
+<lb ed="#Ba"/>simpliciter secundum essentiam, relatio
+<lb ed="#Ba"/>hoc quod distinguit, non ponit in 
+nu<lb ed="#Ba" break="no"/>merum, et sic numerus non est 
+simpli<lb ed="#Ba" break="no"/>citer in divinis.
+</p>
+               <p xml:id="Almn78-a97464-d1e364">
+                  <lb ed="#Ba"/>In contrarium hujus est:
+<lb ed="#Ba"/>1. Dionysius in libro de Divinis 
+no<lb ed="#Ba" break="no"/>minibus , quod Deus est principium et
+<lb ed="#Ba"/>causa et ordo et numerus: propter quod
+<lb ed="#Ba"/>est unitas et supertrinitas.
+</p>
+               <p xml:id="Almn78-a97464-d1e377">
+                  <lb ed="#Ba"/>2. Adhuc, Ex predictis constat, quod
+<lb ed="#Ba"/>in divinis est substantia communicabilis,
+<lb ed="#Ba"/>et incommunicabilis substantia. In 
+infe<lb ed="#Ba" break="no"/>rioribus autem ubi sunt duz substantia
+<lb ed="#Ba"/>respondentes istis, verus numerus 
+sequi<lb ed="#Ba" break="no"/>tur substantias incommunicahiles : et
+<lb ed="#Ba"/>istum impedire non potest substantia
+<lb ed="#Ba"/>communicabilis: Socrates enim et Plato
+<lb ed="#Ba"/>et Cicero vere sunt tres: et huic numero
+<lb ed="#Ba"/>non obstat, quod participatione speciei
+<lb ed="#Ba"/>sint unus homo. Cum ergo Pater et 
+Fi<lb ed="#Ba" break="no"/>lius et Spiritus sanctus sunt tres persone,
+<lb ed="#Ba"/>unitas substantie communis non potest
+<lb ed="#Ba"/>obstare, quin in eis sit verus numerus.
+</p>
+               <p xml:id="Almn78-a97464-d1e410">
+                  <pb ed="#Ba" n="441"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Sotvutio. Dicendum, quod in Trinitate
+<lb ed="#Ba"/>sive in divinis simpliciter non est 
+nume<lb ed="#Ba" break="no"/>rus sicut in creaturis. Et hujus causa
+<lb ed="#Ba"/>est: quia dicit Aristoteles in IV 
+Physi<lb ed="#Ba" break="no"/>corum, quod numerum cognoscimus 
+di<lb ed="#Ba" break="no"/>visione continul, sive divisione 
+commu<lb ed="#Ba" break="no"/>nis, quod quasi continuum unit divisa.
+<lb ed="#Ba"/>omne enim quod in numeram ponit, sub
+<lb ed="#Ba"/>aliquo communi quod secundum se 
+divi<lb ed="#Ba" break="no"/>sum est in numeratis, in numerum 
+po<lb ed="#Ba" break="no"/>nilur, ut Socrates et Plato duo homines
+<lb ed="#Ba"/>sunt, homo et asinus duo animalia, homo
+<lb ed="#Ba"/>et lapis dua substantia, substantia et
+<lb ed="#Ba"/>accidens duo entia. Cum enim dicat 
+Da<lb ed="#Ba" break="no"/>mascenus, quod <quote xml:id="Almn78-a97464-Qd1e449"> differentia est causa
+<lb ed="#Ba"/>numeri, </quote> intelligitur hoc de differentia
+<lb ed="#Ba"/>simpliciter, hoc est, de differentia 
+sub<lb ed="#Ba" break="no"/>stantiali, que dividit esse substantiale :
+<lb ed="#Ba"/>differentia enim accidentalis quia non
+<lb ed="#Ba"/>recedit a substantiali uno, non ponit
+<lb ed="#Ba"/>in numerum : Socrates enim et Socrates
+<lb ed="#Ba"/>musicus substantialiter unum est, et non
+<lb ed="#Ba"/>faciunt simpliciter numerum. Unde cum
+<lb ed="#Ba"/>in divinis substantia uniens personas in
+<lb ed="#Ba"/>porsonis numeratis non dividatur, Pater
+<lb ed="#Ba"/>enim et Filius non sunt duo dii, sed
+<lb ed="#Ba"/>unus, non potest in divinis- simpliciter
+<lb ed="#Ba"/>esse numerus, sed numerus quidam,
+<lb ed="#Ba"/>scilicet numerus personarum, que penes
+<lb ed="#Ba"/>guoddam numerantur, et non 
+simplici<lb ed="#Ba" break="no"/>ter, penes scilicet incommunicabilem
+<lb ed="#Ba"/>proprietatem, qua quelibet persona 
+to<lb ed="#Ba" break="no"/>tam possidet substantiam, et habet 
+in<lb ed="#Ba" break="no"/>divisam : talis enim proprietas per hoc
+<lb ed="#Ba"/>quod relatio est, et oppositionem 
+relatio<lb ed="#Ba" break="no"/>nis habet, nihil intrinsecorum dividit,
+<lb ed="#Ba"/>quia ad nihil intrinsecorum habet 
+oppo<lb ed="#Ba" break="no"/>sitionem. Quod patet: si enim aliquis
+<lb ed="#Ba"/>idem sit pater unius et filius alterius,
+<lb ed="#Ba"/>quamvis habeat oppositas relationes, in
+<lb ed="#Ba"/>scipso non dividitur, sed ipse unus et
+<lb ed="#Ba"/>idem manens est pater et filius, sed 
+di<lb ed="#Ba" break="no"/>viditur ab extrinsecis duobus, ad quos
+<lb ed="#Ba"/>per duas relationes habet oppositionem,
+<lb ed="#Ba"/>per paternitatem enim dividitur a suo
+<lb ed="#Ba"/>filio, per filiationem autem a suo patre.
+<lb ed="#Ba"/>Per quod patet, quod Pater non distin-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>guitur nisi a Filio, et non a substantia
+<lb ed="#Ba"/>divina, et Spiritus sanctus ab utroque.
+<lb ed="#Ba"/>Numerus autem qui simpliciter 
+nume<lb ed="#Ba" break="no"/>rus est, intrinseca dividit et communia
+<lb ed="#Ba"/>substantialiter, ut Socrates et Plato sunt
+<lb ed="#Ba"/>duo homines:; et ideo in divinis non 
+pot<lb ed="#Ba" break="no"/>est esse numerus simpliciter, sed 
+nume<lb ed="#Ba" break="no"/>rus quidam: qui eo modo quo distinguit,
+<lb ed="#Ba"/>in numerum ponit: non distinguit autem
+<lb ed="#Ba"/>nisi in oppositione ad alium : non ergo
+<lb ed="#Ba"/>in numerum ponit nisi ad alium. Unde
+<lb ed="#Ba"/>Pater et Filius non sunt duo, nisi in
+<lb ed="#Ba"/>quantum Pater opponitur Filio, et Filius
+<lb ed="#Ba"/>Patri: in omnibus autem aliis unum
+<lb ed="#Ba"/>sunt.
+</p>
+               <p xml:id="Almn78-a97464-d1e556">
+                  <lb ed="#Ba"/>Per uac que dicta sunt, patet solutio
+<lb ed="#Ba"/>ad primam partem questionis. Illa enim
+<lb ed="#Ba"/>non probat, nisi quod simpliciter 
+nume<lb ed="#Ba" break="no"/>rus sicut est in creaturis, non est in 
+di<lb ed="#Ba" break="no"/>vinis: et non prohibet, quin numerus
+<lb ed="#Ba"/>quidam qui ex oppositione relationis
+<lb ed="#Ba"/>est ad extra, sit in divinis, sicut jam
+<lb ed="#Ba"/>dictum est.
+</p>
+               <p xml:id="Almn78-a97464-d1e576">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod Dionysius non loquitur
+<lb ed="#Ba"/>de numero personarum, sed de numero
+<lb ed="#Ba"/>tali qui Deus est, omnia, sicut dicitur,
+<lb ed="#Ba"/>Sapient. x1, 21, disponens in numero,
+<lb ed="#Ba"/>pondere, et mensura *. Ubi dicit 
+Augu<lb ed="#Ba" break="no"/>stinus, quod disponit in seipso, qui est
+<lb ed="#Ba"/>numerus absque numero et numerus 
+nu<lb ed="#Ba" break="no"/>merans effective. Sicut etiam Boetius in
+<lb ed="#Ba"/>prologo Arithmetice dicit, quod <quote xml:id="Almn78-a97464-Qd1e599"> Deus
+<lb ed="#Ba"/>omnia in numero creavit. </quote> Et sicut
+<lb ed="#Ba"/>Plato numerum principium entis esse
+<lb ed="#Ba"/>dixit.
+</p>
+               <p xml:id="Almn78-a97464-d1e611">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in 
+inferiori<lb ed="#Ba" break="no"/>bus dividentia sequitur numerus propter
+<lb ed="#Ba"/>hoc, quod commune secundum esse 
+di<lb ed="#Ba" break="no"/>viditur in ipsis, hoc est, commune quod
+<lb ed="#Ba"/>est substantiale ipsis et uniens ea. Et hoc
+<lb ed="#Ba"/>non est in divinis: dividentia enim in
+<lb ed="#Ba"/>divinis sive distinguentia non dividunt
+<lb ed="#Ba"/>communem substantiam, sed 
+determi<lb ed="#Ba" break="no"/>nant et distinguunt ab alio tantum : et
+<lb ed="#Ba"/>ideo non sequitur ea numerus 
+simplici<lb ed="#Ba" break="no"/>ter, sed numerus quidam, ut dictum est.
+</p>
+            </div>
+            <div xml:id="Almn78-a97464-Dd1e639">
+               <head xml:id="Almn78-a97464-Hd1e641">Membrum 2</head>
+               <head xml:id="Almn78-a97464-Hd1e644" type="question-title">
+  Quis vel qualis numerus sit in divinis
+  personis
+</head>
+               <p xml:id="Almn78-a97464-d1e647">
+                  <pb ed="#Ba" n="442"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Quis vel qualis numerus sit in divinis
+<lb ed="#Ba"/>personis ?
+</p>
+               <p xml:id="Almn78-a97464-d1e660">
+                  <lb ed="#Ba"/>Secundo queritur, Quis vel qualis 
+nu<lb ed="#Ba" break="no"/>merus sit in divinis personis ?
+</p>
+               <p xml:id="Almn78-a97464-d1e667">
+                  <lb ed="#Ba"/>Et queritur, Quis numerus 
+nume<lb ed="#Ba" break="no"/>rans ?
+</p>
+               <p xml:id="Almn78-a97464-d1e675">
+                  <lb ed="#Ba"/>1. Videtur autem per Augustinum,
+<lb ed="#Ba"/>quod relatio est numerus numerans in
+<lb ed="#Ba"/>divinis. Dicit enim: <quote xml:id="Almn78-a97464-Qd1e683">In relatione 
+perso<lb ed="#Ba" break="no"/>narum numerus cernitur, in divinitate
+<lb ed="#Ba"/>nature quid unum sit, apprehenditur. </quote>
+               </p>
+               <p xml:id="Almn78-a97464-d1e691">
+                  <lb ed="#Ba"/>2. Adhuc, Hoc videtur per rationem :
+<lb ed="#Ba"/>Sicut enim in re divisione continui 
+nu<lb ed="#Ba" break="no"/>meramus, et quoties unum nutum ad
+<lb ed="#Ba"/>divisionem facimus, tantum numerum
+<lb ed="#Ba"/>esse dicimus : sic videtur secundum 
+ana<lb ed="#Ba" break="no"/>logiam esse in divinis. In his enim 
+dis<lb ed="#Ba" break="no"/>tinguens per modum dividentis est. Unde
+<lb ed="#Ba"/>quoties nutum ad distinguens in esse
+<lb ed="#Ba"/>personali facimus, tantum numerum
+<lb ed="#Ba"/>personarum esse dicimus. Oppositione
+<lb ed="#Ba"/>autem relationis nutum facimus ad 
+dis<lb ed="#Ba" break="no"/>tinctionem in esse personali. Ergo oppo-
+<lb ed="#Ba" break="no"/>sitione relationis numeramus: et sic 
+vi<lb ed="#Ba" break="no"/>detur. numerans esse propriectas 
+perso<lb ed="#Ba" break="no"/>nalis sive relatio.
+</p>
+               <p xml:id="Almn78-a97464-d1e726">
+                  <lb ed="#Ba"/>3. Adhuc, In divinis personis, sicut in
+<lb ed="#Ba"/>prehabito membro questionis probatum
+<lb ed="#Ba"/>est, non potest esse numerus per 
+distin<lb ed="#Ba" break="no"/>guens ad intus, sed per id quod ponit
+<lb ed="#Ba"/>oppositionem ad extra. Nihil autem 
+po<lb ed="#Ba" break="no"/>nit talem opposifionem nisi personalis
+<lb ed="#Ba"/>proprietas, sive relatio. Ergo nihil
+<lb ed="#Ba"/>ponit numerum in divinis, nisi 
+perso<lb ed="#Ba" break="no"/>nalis proprietas per oppositionem quam
+<lb ed="#Ba"/>habet ad correlativum.
+</p>
+               <p xml:id="Almn78-a97464-d1e750">
+                  <lb ed="#Ba"/>In contrarivm hujus est,
+<lb ed="#Ba"/>1. Quod dicit Boetius in libro de 
+7ri<lb ed="#Ba" break="no"/>nitate, quod <quote xml:id="Almn78-a97464-Qd1e758"> relatio nihil addit ad esse
+<lb ed="#Ba"/>relativi. </quote> In omni autem numero quo
+<lb ed="#Ba"/>numeramus, unum addit alteri. Ergo re
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>latio non potest esse numerus quo nue
+<lb ed="#Ba"/>meramus in divinis.
+</p>
+               <p xml:id="Almn78-a97464-d1e773">
+                  <lb ed="#Ba"/>2. Adhuc, Ex cujus unitatibus 
+ayyre<lb ed="#Ba" break="no"/>gatio non provenit, non ponit in 
+nume<lb ed="#Ba" break="no"/>rum: ex unitatibus relationum nulla
+<lb ed="#Ba"/>congesta provenit pluralitas vel 
+agyre<lb ed="#Ba" break="no"/>gatio : ergo relationibus non numeramiun
+<lb ed="#Ba"/>in divinis. Prima pars patet per se, et
+<lb ed="#Ba"/>per numeri definitionem. Srcunpa 
+pro<lb ed="#Ba" break="no"/>batur in exemplo. Punctum enim per
+<lb ed="#Ba"/>hoc quod principium est a quo fluit linea,
+<lb ed="#Ba"/>et per hoc quod est finis ad quem linea
+<lb ed="#Ba"/>terminatur, et per hoc quod est medium
+<lb ed="#Ba"/>in quo copulantur due linex, nullam
+<lb ed="#Ba"/>congestam facit aggregationem vel 
+plu<lb ed="#Ba" break="no"/>ralitatem, sed remanet unum et idem,
+<lb ed="#Ba"/>Si autem relatio hoc haberet per se, quad
+<lb ed="#Ba"/>numerum poneret, tunc ubique 
+habe<lb ed="#Ba" break="no"/>ret: et si ubique non habet, nusquam
+<lb ed="#Ba"/>habet ; relatione ergo numerus fieri non
+<lb ed="#Ba"/>potest in divinis.
+</p>
+               <p xml:id="Almn78-a97464-d1e817">
+                  <lb ed="#Ba"/>Ulterius ex hoc videtur, quod non
+<lb ed="#Ba"/>numerus realis, sed rationis solum sit in
+<lb ed="#Ba"/>divinis.
+</p>
+               <p xml:id="Almn78-a97464-d1e827">
+                  <lb ed="#Ba"/>1. Dicit enim Joannes Damascenus,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a97464-Qd1e833">in creaturis commune consideratur
+<lb ed="#Ba"/>ratione, hypostases autem re. </quote> In 
+divi<lb ed="#Ba" break="no"/>nis autem e converso est, quod in 
+divi<lb ed="#Ba" break="no"/>nis commune consideratur re, 
+hyposta<lb ed="#Ba" break="no"/>ses autem ratione. Sed quo 
+consideran<lb ed="#Ba" break="no"/>tur differre hypostases, eo numerantur
+<lb ed="#Ba"/>et in numerum ponuntur : ratione 
+con<lb ed="#Ba" break="no"/>siderantur differre : ergo ratione in 
+nu<lb ed="#Ba" break="no"/>merum ponuntur.
+</p>
+               <p xml:id="Almn78-a97464-d1e854">
+                  <lb ed="#Ba"/>2. Adhuc, Punctum per hoc quod est
+<lb ed="#Ba"/>principium, medium, et finis, non differt
+<lb ed="#Ba"/>re, sed ratione tantum : ergo relatio 
+dif<lb ed="#Ba" break="no"/>ferentiam non facit nisi rationis, et non
+<lb ed="#Ba"/>rei. Et sic a simili, in divinis inter 
+Pa<lb ed="#Ba" break="no"/>trem et Filium et Spiritum sanctum non
+<lb ed="#Ba"/>erit differentia nisi rationis tantum: et
+<lb ed="#Ba"/>per consequens nec numerus nisi 
+ratio<lb ed="#Ba" break="no"/>nis: quia differentia est causa numeri,
+<lb ed="#Ba"/>ut dicit Damascenus.
+</p>
+               <p xml:id="Almn78-a97464-d1e878">
+                  <lb ed="#Ba"/>3. Adhuc, Cum dico, Pater est Deus,
+<lb ed="#Ba"/>Filius est Deus, Spiritus sanctus est
+<lb ed="#Ba"/>Deus, non constituo numerum realem:
+<lb ed="#Ba"/>quia hi tres sunt una res, que est Deus:
+<pb ed="#Ba" n="443"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>sicut enim Pater est Deus, ita paternitas
+<lb ed="#Ba"/>est Deus: et sicut Filius Deus, ita 
+filia<lb ed="#Ba" break="no"/>tio Deus : et sicut Spiritus sanctus Deus,
+<lb ed="#Ba"/>ita spiratio Deus: nihil enim hic est
+<lb ed="#Ba"/>actum in aliquam pluralitatem ex 
+repeti<lb ed="#Ba" break="no"/>lione istorum. Videtur ergo, quod. 
+repe<lb ed="#Ba" break="no"/>litio istorum non faciat nisi pluralitatem
+<lb ed="#Ba"/>rationis, et non rei alicujus.
+</p>
+               <p xml:id="Almn78-a97464-d1e911">
+                  <lb ed="#Ba"/>4. Adhuc, Si aliquis dicat, quod 
+pro<lb ed="#Ba" break="no"/>pter ordinem nature in relatione 
+origi<lb ed="#Ba" break="no"/>nis est ibi numerus rei, et non rationis
+<lb ed="#Ba"/>tantum. Videtur hoc non esse verum. In
+<lb ed="#Ba"/>imagine enim similitudinis que est in
+<lb ed="#Ba"/>anima, ordo nature est secundum 
+rela<lb ed="#Ba" break="no"/>tionem originis, qua ex mente est 
+in<lb ed="#Ba" break="no"/>tellectus, et ex mente sive memoria 
+vo<lb ed="#Ba" break="no"/>luntas : et tamen hec non differunt re,
+<lb ed="#Ba"/>nec re numerantur, sed ratione tantum :
+<lb ed="#Ba"/>haec enim, ut dicit Augustinus in libro X
+<lb ed="#Ba"/>de Trinitate', sunt una anima, una vita,
+<lb ed="#Ba"/>una substantia, et non differunt nisi 
+ra<lb ed="#Ba" break="no"/>tione.
+</p>
+               <p xml:id="Almn78-a97464-d1e944">
+                  <lb ed="#Ba"/>Sruoc concedatur, videbitur heresis
+<lb ed="#Ba"/>Sabelliana incidere : quia secundum hoc
+<lb ed="#Ba"/>persone non differunt nisi ratione, et
+<lb ed="#Ba"/>non re, sed solum secundum intellectum
+<lb ed="#Ba"/>nostrum : et hoc dixit Sabellius.
+</p>
+               <p xml:id="Almn78-a97464-d1e957">
+                  <lb ed="#Ba"/>Ulterius queritur, Quis sit numerus
+<lb ed="#Ba"/>numeratus, utrum relatio, vel 
+hyposta<lb ed="#Ba" break="no"/>sis ?
+</p>
+               <p xml:id="Almn78-a97464-d1e967">
+                  <lb ed="#Ba"/>Et videtur, quod relatio : quia
+<lb ed="#Ba"/>1. Dicit Boetius in libro de Trinitate,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a97464-Qd1e975"> sola relatio multiplicat 
+Trinita<lb ed="#Ba" break="no"/>tem :</quote> non autem multiplicat, nisi per
+<lb ed="#Ba"/>hoc quod multiplex est: multiplex 
+au<lb ed="#Ba" break="no"/>tem est, quod numeratur in omni 
+nu<lb ed="#Ba" break="no"/>mero, cum omnis numerus multitudo
+<lb ed="#Ba"/>quedam sit aggregata per unum.
+</p>
+               <p xml:id="Almn78-a97464-d1e990">
+                  <lb ed="#Ba"/>2. Adhuc, Quidquid absolutum est in
+<lb ed="#Ba"/>Trinitate, ut dicit Augustinus, de 
+quali<lb ed="#Ba" break="no"/>bet persona dicitur sigillatim et in 
+sin<lb ed="#Ba" break="no"/>gulari, et de omnibus simul in singulari.
+<lb ed="#Ba"/>Ergo nihil absolute dictum agitur in
+<lb ed="#Ba"/>pluralitatem, ex hoc quod sigillatim 
+di<lb ed="#Ba" break="no"/>citur de singulis: nihil ergo absolute di-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>ctum numeratur in Trinitate : .ergo 
+re<lb ed="#Ba" break="no"/>linquitur, quod sola relatio numeratur.
+  
+<lb ed="#Ba"/>In conrtarium hujus est, quod non
+<lb ed="#Ba"/>intellectis relationibus, adhuc sunt tres
+<lb ed="#Ba"/>hypostases habentes divinitatem: et si
+<lb ed="#Ba"/>tres sunt, cadunt in numerum: et sic
+<lb ed="#Ba"/>hypostases namerantur. Hoc probatur
+<lb ed="#Ba"/>per Augustinum in libro VII de 
+Trini<lb ed="#Ba" break="no"/>tate, ubi dicit, quod <quote xml:id="Almn78-a97464-Qd1e1029"> omne relativum
+<lb ed="#Ba"/>est etiam aliud quam relativum: est
+<lb ed="#Ba"/>enim hypostasis in qua est relatio, </quote>
+               </p>
+               <p xml:id="Almn78-a97464-d1e1037">
+                  <lb ed="#Ba"/>Sonutio. Ad questionem dicendum
+<lb ed="#Ba"/>est, quod pro certo sicut probatum est,
+<lb ed="#Ba"/>hoc modo quo in divinis est numerus
+<lb ed="#Ba"/>aliquis, ita est ibi numerus numerans, et
+<lb ed="#Ba"/>numerus numeratus. Et numerus 
+nume<lb ed="#Ba" break="no"/>rans, est proprietas personalis per 
+oppo<lb ed="#Ba" break="no"/>sitionem relationis distinguens in esse
+<lb ed="#Ba"/>personali, et non in esse simpliciter,
+<lb ed="#Ba"/>secundum quod Augustinus in libro
+<lb ed="#Ba"/>V de Trinitate, dicit, quod <quote xml:id="Almn78-a97464-Qd1e1060"> aliud
+<lb ed="#Ba"/>est esse Patrem, et aliud est esse
+<lb ed="#Ba"/>Filium : quamvis idem neutraliter, non
+<lb ed="#Ba"/>masculine dictum, sit Patrem esse, et
+<lb ed="#Ba"/>Filium esse”. </quote> Unde sicut in rebus 
+crea<lb ed="#Ba" break="no"/>tis, in quibus simpliciter numerus est,
+<lb ed="#Ba"/>numerus numerans relatus ad rem est id
+<lb ed="#Ba"/>quod distinguit in esse communi, et facit
+<lb ed="#Ba"/>unum esse indivisum in se, et divisum
+<lb ed="#Ba"/>ab alio, per hoc quod terminat ipsum in
+<lb ed="#Ba"/>se, et determinat ab aliis : et tale unum
+<lb ed="#Ba"/>additum uni facit numerum in esse in
+<lb ed="#Ba"/>quo ponit distinctionem, et non in esse
+<lb ed="#Ba"/>in quo nullam ponit distinctionem, ut
+<lb ed="#Ba"/>unum quod est Socrates, et unum quod
+<lb ed="#Ba"/>est Plato, sunt duo in esse hominis : quia
+<lb ed="#Ba"/>hoc distinguitur in Socrate et Platone :
+<lb ed="#Ba"/>et ideo sunt duo homines, non unus ho+
+<lb ed="#Ba"/>mo : ita in divinis per modum quo est
+<lb ed="#Ba"/>ibi numerus, numerus numerans est id
+<lb ed="#Ba"/>quod distinguit in esse personali, et facit
+<lb ed="#Ba"/>unum terminatum in se, et ab alio 
+de<lb ed="#Ba" break="no"/>terminatum in esse personali in quantum .
+<lb ed="#Ba"/>personale est : et unum et unum facit
+<lb ed="#Ba"/>duas personas, et unum et unum et
+<pb ed="#Ba" n="444"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>unum facit tres personas : sed non facit
+<lb ed="#Ba"/>duos vel tres deos : quia in esse divino
+<lb ed="#Ba"/>nullam ponit determinationem sive dis—
+<lb ed="#Ba"/>tinctionem : esse enim substantiale 
+divi<lb ed="#Ba" break="no"/>num non distinguitur nec determinatur
+<lb ed="#Ba"/>proprietate aliqua, ut in antehabitis 
+se<lb ed="#Ba" break="no"/>pius determinatum est. Esse autem 
+per<lb ed="#Ba" break="no"/>sonale, in quo persone distinguuntur, est
+<lb ed="#Ba"/>quod significatur in hoc verbo, est,
+<lb ed="#Ba"/>quando est tertium adjacens, et non 
+alte<lb ed="#Ba" break="no"/>rum extremorum, quando dicitur, Pater
+<lb ed="#Ba"/>est persona, Filius est persona, et persona
+<lb ed="#Ba"/>Patris non est persona Filii, et Pater et
+<lb ed="#Ba"/>Filius sunt due persone et non una:
+<lb ed="#Ba"/>quia in. esse personali distinguuntur, et
+<lb ed="#Ba"/>distinguens est incommunicabilis 
+pro<lb ed="#Ba" break="no"/>prietas : et per hoc quod est distinguens
+<lb ed="#Ba"/>in esse personali, est innumerum ponens.
+<lb ed="#Ba"/>Numerus autem numeratus hoc numero,
+<lb ed="#Ba"/>est pluralitas hypostasum sive 
+persona<lb ed="#Ba" break="no"/>rum.
+</p>
+               <p xml:id="Almn78-a97464-d1e1166">
+                  <lb ed="#Ba"/>Unde tria prima que hoc modo 
+proce<lb ed="#Ba" break="no"/>dunt, concedenda sunt.
+</p>
+               <p xml:id="Almn78-a97464-d1e1173">
+                  <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod relatio nihil addit rei
+<lb ed="#Ba"/>absolute : addit tamen aliquid quantum
+<lb ed="#Ba"/>ad modum significandi: qui tamen 
+mo<lb ed="#Ba" break="no"/>dus significandi vere est in divinis :
+<lb ed="#Ba"/>qui refertur ad esse personale, quod
+<lb ed="#Ba"/>vere est in divinis veritate relationis
+<lb ed="#Ba"/>et communicabilitatis : et hoc sufficit
+<lb ed="#Ba"/>in divinis ad numerum aliquem qui est
+<lb ed="#Ba"/>in divinis, licet non sufficiat ad numerum
+<lb ed="#Ba"/>simpliciter.
+</p>
+               <p xml:id="Almn78-a97464-d1e1199">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod alia est 
+re<lb ed="#Ba" break="no"/>latio in divinis, et alia in puncto 
+secun<lb ed="#Ba" break="no"/>dum quod est principium, medium, et
+<lb ed="#Ba"/>finis. Relatio enim in divinis est relatio
+<lb ed="#Ba"/>originis substantialis emanationis unius
+<lb ed="#Ba"/>ab alio : etideo facit eum quem 
+distin<lb ed="#Ba" break="no"/>guit, totam divinitatem incommunicabili
+<lb ed="#Ba"/>proprietate possidere, et est vere id quod
+<lb ed="#Ba"/>est substantia, licet differat per modum
+<lb ed="#Ba"/>significandi, et non distinguit nisi in esse
+<lb ed="#Ba"/>personali : et id in quo ponit 
+distinctio<lb ed="#Ba" break="no"/>nem, ponit in numerum verum et 
+rea<lb ed="#Ba" break="no"/>lem veritate esse personalis et realitate :
+<lb ed="#Ba"/>quia persona est ens ratum et perfectum :
+<lb ed="#Ba"/>et hoc numeratur in divinis. In puncto
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>autem secundum quod est principium,
+<lb ed="#Ba"/>medium, et finis, non ponit relationem
+<lb ed="#Ba"/>ad oppositam rem, sed ad oppositam 
+po<lb ed="#Ba" break="no"/>sitionem in continuo, sive ad oppositum
+<lb ed="#Ba"/>situm : et ideo in puncto non diversum
+<lb ed="#Ba"/>facit ens ratum, ut suppositum a 
+suppo<lb ed="#Ba" break="no"/>sito diversum est : sed facit diversum 
+se<lb ed="#Ba" break="no"/>cundum rationem, que causatur ex 
+di<lb ed="#Ba" break="no"/>versitate situs, ut dictum est, ex qua
+<lb ed="#Ba"/>provenit diversitas actus puncti, et non
+<lb ed="#Ba"/>suppositi, secundum quod punctum aliud
+<lb ed="#Ba"/>est actione principians, copulans, et 
+ter<lb ed="#Ba" break="no"/>minans, nec tamen aliud supposito vel
+<lb ed="#Ba"/>subjecto.
+</p>
+               <p xml:id="Almn78-a97464-d1e1268">
+                  <lb ed="#Ba"/>Ad ww quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum, quod radio dupliciter dicitur, 
+scili<lb ed="#Ba" break="no"/>cet prout est actus ratiocinantis tantum,
+<lb ed="#Ba"/>et prout est actus rei de qua fit ratio.
+<lb ed="#Ba"/>Sicut dicitur universale ratio, non ideo
+<lb ed="#Ba"/>quia tantum fit in nobis, sive in mente
+<lb ed="#Ba"/>nostra ; sed ideo quia est res non in uno
+<lb ed="#Ba"/>absolute accepta, sed que in collatione
+<lb ed="#Ba"/>accipitur, que est in multis et de multis :
+<lb ed="#Ba"/>quam collationem facit ratio. Et hoc
+<lb ed="#Ba"/>modo Damascenus accipit rationem. Et
+<lb ed="#Ba"/>sic ratio ad idem refertur, sicut res 
+que<lb ed="#Ba" break="no"/>dam est, quod conferendo accipitur ut
+<lb ed="#Ba"/>unum in Socrate et Platone, et de 
+So<lb ed="#Ba" break="no"/>crate et Platone: et res in qua est et de
+<lb ed="#Ba"/>qua est realiter distincte, accipitur 
+So<lb ed="#Ba" break="no"/>crates et Plato. In divinis autem e 
+con<lb ed="#Ba" break="no"/>verso est : quia natura accipitur ut res
+<lb ed="#Ba"/>eadem secundum esse in Patre et Filio :
+<lb ed="#Ba"/>Pater autem et Filius ut ratione et 
+rela<lb ed="#Ba" break="no"/>tione distincli. Et ex hoc non sequitur,
+<lb ed="#Ba"/>quod persone non differant nisi ratione
+<lb ed="#Ba"/>que sit actus ratiocinantis. Et hoc 
+igno<lb ed="#Ba" break="no"/>ravit Sabellius.
+</p>
+               <p xml:id="Almn78-a97464-d1e1323">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad sequens.
+</p>
+               <p xml:id="Almn78-a97464-d1e1328">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod realiter 
+ni<lb ed="#Ba" break="no"/>hil agitur in pluralitatem, nisi quod 
+rea<lb ed="#Ba" break="no"/>liter distinguitur : esse autem divinum
+<lb ed="#Ba"/>non distinguitur, ut jam habitum est,
+<lb ed="#Ba"/>sed esse personale per oppositionem ad
+<lb ed="#Ba"/>alterum, et non per differentiam quam
+<lb ed="#Ba"/>habeat ad aliquid quod sit in persona : et
+<lb ed="#Ba"/>ideo esse personale numeratur ut esse
+<lb ed="#Ba"/>personale, et nihil aliud.
+<pb ed="#Ba" n="445"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod ex ordine
+<lb ed="#Ba"/>nature numerus est in divinis, in 
+quan<lb ed="#Ba" break="no"/>tum natura principium pullulationis est
+<lb ed="#Ba"/>et emanationis substantialis unius ab
+<lb ed="#Ba"/>alio: eo quod in divinis nihil est per
+<lb ed="#Ba"/>accidens, ut dicit Augustinus, et nihil
+<lb ed="#Ba"/>
+                  <foreign>avaréctatov</foreign>, ut dicit Damascenus, sed
+<lb ed="#Ba"/>unusquisque est secundum 
+incommunica<lb ed="#Ba" break="no"/>bilis existentia modum in hypostasi 
+per<lb ed="#Ba" break="no"/>fectus. In anima autem non est sic. 
+Sub<lb ed="#Ba" break="no"/>stantiali enim emanatione non emanat
+<lb ed="#Ba"/>mens de anima, nec intelligentia de mente,
+<lb ed="#Ba"/>nec voluntas de utroque, sed ut potentie
+<lb ed="#Ba"/>naturales : et in talibus est ordo nature
+<lb ed="#Ba"/>secundum quid, et non simpliciter : 
+prop<lb ed="#Ba" break="no"/>ter quod personas eflicere non potest,
+<lb ed="#Ba"/>sed differentiam potentiarum in una 
+per<lb ed="#Ba" break="no"/>sona que est homo, et in una substantia
+<lb ed="#Ba"/>que est anima et vita vel essentia. In_
+<lb ed="#Ba"/>divinis autem ordo nature est secundum
+<lb ed="#Ba"/>perfectissimam rationem nature, que
+<lb ed="#Ba"/>perfectissime principium est pullulandi et
+<lb ed="#Ba"/>emanandi, quo alter procedit ex altero :
+<lb ed="#Ba"/>et ideo in divinis constituit perfectissime
+<lb ed="#Ba"/>rem nature et hypostasim, que cum 
+in<lb ed="#Ba" break="no"/>communicabili proprietate naturam 
+possi<lb ed="#Ba" break="no"/>deat, perfectissime habet nomen persone
+<lb ed="#Ba"/>et veritatem.
+</p>
+               <p xml:id="Almn78-a97464-d1e1418">
+                  <lb ed="#Ba"/>Ad i quod in contrarium objicitur,
+<lb ed="#Ba"/>jam solutum est. Sabellius enim dixit
+<lb ed="#Ba"/>personas differre ratione que est actus
+<lb ed="#Ba"/>ratiocinantis tantum, et non que est res
+<lb ed="#Ba"/>de qua est ratio.
+</p>
+               <p xml:id="Almn78-a97464-d1e1431">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, Quid
+<lb ed="#Ba"/>numeretur in divinis ?
+  
+<lb ed="#Ba"/>Dicendum, quod hypostasis in esse
+<lb ed="#Ba"/>personali in quantum personale est et
+<lb ed="#Ba"/>incommunicabile est: hoc enim est esse
+<lb ed="#Ba"/>Patri per hoc quod Pater est, et esse
+<lb ed="#Ba"/>Filii per hoc quod Filius est, et esse
+<lb ed="#Ba"/>Spiritus Sancti per hoc. quod Spiritus
+<lb ed="#Ba"/>sanctus est.
+</p>
+               <p xml:id="Almn78-a97464-d1e1453">
+                  <lb ed="#Ba"/>Ad dictum Boetii dicendum, quod hoc
+<lb ed="#Ba"/>non ostendit, nisi quod illa relatio 
+effe<lb ed="#Ba" break="no"/>ctive multiplicet Trinitatem ut numerus
+<lb ed="#Ba"/>numerans, et non ut numerus 
+numera<lb ed="#Ba" break="no"/>tus. Et quod dicitur, quod non 
+multipli<lb ed="#Ba" break="no"/>cat nisi in quantum est multiplex, fal
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>sum est : nullum enim multiplex 
+multi<lb ed="#Ba" break="no"/>plicit numeratur, sed numeratur uno,
+<lb ed="#Ba"/>quod congregatione agitur in 
+multitudi<lb ed="#Ba" break="no"/>nem. Et sic est in divinis, quod relatio
+<lb ed="#Ba"/>in diversitate oppositorum, quae fundatur
+<lb ed="#Ba"/>super diversum modum originis, 
+multi<lb ed="#Ba" break="no"/>plicat Trinitatem. Sic enim Pater est una
+<lb ed="#Ba"/>persona, et Pater cum suo opposito 
+cor<lb ed="#Ba" break="no"/>relativo due persone, et Pater et Filius
+<lb ed="#Ba"/>per hoc quod sunt unum principium
+<lb ed="#Ba"/>spirationis, cum suo opposito correlativo
+<lb ed="#Ba"/>sunt tres persone.
+</p>
+               <p xml:id="Almn78-a97464-d1e1498">
+                  <lb ed="#Ba"/>Ad nvicrum Augustini dicendum est,
+<lb ed="#Ba"/>quod esse personale et persona non est
+<lb ed="#Ba"/>simpliciter absolutum, sicut patebit in
+<lb ed="#Ba"/>sequentibus : sed intelligitur distinctum
+<lb ed="#Ba"/>incommunicabili proprietate, que 
+ratio<lb ed="#Ba" break="no"/>nem incommunicabilitatis non habet nisi
+<lb ed="#Ba"/>ex oppositione relationis originis. Quia,
+<lb ed="#Ba"/>sicut dicit Richardus in libro de 7rinitate,
+<lb ed="#Ba"/>nec natura permittit, nec intellectus 
+ad<lb ed="#Ba" break="no"/>mittit, ut idem sit masculine ille qui est
+<lb ed="#Ba"/>ab alio, cum eo a quo est.
+</p>
+               <p xml:id="Almn78-a97464-d1e1524">
+                  <lb ed="#Ba"/>Ad id quod in contrarium objicitur,
+<lb ed="#Ba"/>dicendum est, quod licet verum sit quod
+<lb ed="#Ba"/>concluditur, tamen id quod proponitur,
+<lb ed="#Ba"/>caute intelligendum est. Non enim aliud
+<lb ed="#Ba"/>est hypostasis et relatio re, sed modo
+<lb ed="#Ba"/>significandi, ut sepius dictum est : et si
+<lb ed="#Ba"/>relationes non essent in divinis que sunt
+<lb ed="#Ba"/>incommunicabiles proprietates, non 
+es<lb ed="#Ba" break="no"/>set ponere diversas emanationes et 
+sin<lb ed="#Ba" break="no"/>gulares modos existendi, ad quos 
+secun<lb ed="#Ba" break="no"/>dum modum intelligendi de necessitate
+<lb ed="#Ba"/>concomitanturincommunicabiles 
+proprie<lb ed="#Ba" break="no"/>tates, determinantes eos qui procedunt
+<lb ed="#Ba"/>ab his in quibus procedunt: et. si 
+in<lb ed="#Ba" break="no"/>telligerentur sine his, impossibile esset,
+<lb ed="#Ba"/>quod differrent ab invicem, cum hoc solo
+<lb ed="#Ba"/>differant per incommunicabilem 
+proprie<lb ed="#Ba" break="no"/>tatem.
+</p>
+            </div>
+            <div xml:id="Almn78-a97464-Dd1e1567">
+               <head xml:id="Almn78-a97464-Hd1e1569">Membrum 3</head>
+               <head xml:id="Almn78-a97464-Hd1e1572" type="question-title">
+  Quantus sit numerus in divinis, utrum
+  scilicet finitus, vel infinitus ? Et, si
+  finitus, in quo numero stat ut in 
+  termino?
+</head>
+               <p xml:id="Almn78-a97464-d1e1575">
+                  <pb ed="#Ba" n="446"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Quantus sit numerus in divinis, utrum
+<lb ed="#Ba"/>scilicet finitus, vel infinitus ? Et, si
+<lb ed="#Ba"/>finitus, in quo numero stat ut in 
+ter<lb ed="#Ba" break="no"/>mino?
+</p>
+               <p xml:id="Almn78-a97464-d1e1593">
+                  <lb ed="#Ba"/>Tertio queritur, Quantus sit numerus
+<lb ed="#Ba"/>in divinis personis, utrum scilicet 
+fini<lb ed="#Ba" break="no"/>tus ? Et si finitus, in quo numero stat ut
+<lb ed="#Ba"/>in termino ?
+</p>
+               <p xml:id="Almn78-a97464-d1e1604">
+                  <lb ed="#Ba"/>Videtur autem, quod infinitus.
+<lb ed="#Ba"/>1. Si enim perfectio bonitatis et 
+per<lb ed="#Ba" break="no"/>fectio charitatis et perfectio virtutis, ut
+<lb ed="#Ba"/>dicit Dionysius in libro de Divinis 
+nomi<lb ed="#Ba" break="no"/>nibus &gt;, Deum non sinit esse sine 
+germi<lb ed="#Ba" break="no"/>ne, sed facit ex ipso pullulare ut divinos
+<lb ed="#Ba"/>flores et ut divina lumina Filium et 
+Spi<lb ed="#Ba" break="no"/>ritum sanctum : tunc quanto plures 
+pul<lb ed="#Ba" break="no"/>lulant, tanto perfectior est virtus, 
+boni<lb ed="#Ba" break="no"/>tas, et charitas communior. Charitatis
+<lb ed="#Ba"/>autem perfectio est in communitate, ut
+<lb ed="#Ba"/>dicit Augustinus. Privatus enim amor
+<lb ed="#Ba"/>vituperabilis est : communis autem 
+lau<lb ed="#Ba" break="no"/>dabilis. Perfectissima autem charitas et
+<lb ed="#Ba"/>incomparabilis omni charitati, est 
+chari<lb ed="#Ba" break="no"/>tas divina, et est infinita. Ergo non stat
+<lb ed="#Ba"/>nisi ad infinitos quos diligit ut seipsum.
+<lb ed="#Ba"/>Videtur ergo, quod numerus personarum
+<lb ed="#Ba"/>sit infinitus.
+</p>
+               <p xml:id="Almn78-a97464-d1e1649">
+                  <lb ed="#Ba"/>2. Adhuc, Ad hoc videntur facere
+<lb ed="#Ba"/>convenientie superius adducte. de Ri-
+' chardo in tractatu de dono, et tractatu de
+<lb ed="#Ba"/>uno.
+</p>
+               <p xml:id="Almn78-a97464-d1e1658">
+                  <lb ed="#Ba"/>3. Adhuc, Principii primi non est 
+de<lb ed="#Ba" break="no"/>ficere in principiando sive producendo.
+<lb ed="#Ba"/>Pater principium est totius divinitatis.
+<lb ed="#Ba"/>Ergo non deficit in hoc, quin semper
+<lb ed="#Ba"/>producat. Sempiterna autem productio
+<lb ed="#Ba"/>est ad infinitos, Videtur ergo, qued et
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Pater producat infinitos filios, et Pater
+<lb ed="#Ba"/>et Filius infinitos spiritus.
+</p>
+               <p xml:id="Almn78-a97464-d1e1680">
+                  <lb ed="#Ba"/>4, Adhuc, Hoc modo in secundo de
+<lb ed="#Ba"/>Generatione et Corruptione probat 
+Ari<lb ed="#Ba" break="no"/>stoteles generationem infinitam et 
+in<lb ed="#Ba" break="no"/>quietam esse : quia scilicet accessus solis
+<lb ed="#Ba"/>et recessus in circulo declivi sive obliqui
+<lb ed="#Ba"/>inquietus est et infinitus. Videtur ergo
+<lb ed="#Ba"/>a simili cum potentia principiandi in
+<lb ed="#Ba"/>Patre sit infinita, et similiter in Patre et
+<lb ed="#Ba"/>Filio sit infinita, quod productio infinita
+<lb ed="#Ba"/>sit et infinitorum.
+</p>
+               <p xml:id="Almn78-a97464-d1e1704">
+                  <lb ed="#Ba"/>5. Adhuc, Unumquodque potentius est
+<lb ed="#Ba"/>in sibi coessentialibus, quam in his quz
+<lb ed="#Ba"/>sunt diverse essentie ab ipso, Deus 
+infini<lb ed="#Ba" break="no"/>tus est in creando que creata sunt in 
+di<lb ed="#Ba" break="no"/>versitate essentia ab ipso. Ergo multo 
+ma<lb ed="#Ba" break="no"/>gis infinitus debet esse in producendo 
+per<lb ed="#Ba" break="no"/>sonas que sunt ejusdem essentie cum
+<lb ed="#Ba"/>ipso.
+</p>
+               <p xml:id="Almn78-a97464-d1e1724">
+                  <lb ed="#Ba"/>6. Si quis ad hoc dicat, sicut dicunt
+<lb ed="#Ba"/>quidam, quod infinitum esse confusionis
+<lb ed="#Ba"/>est, et non ordinis nature : et ideo 
+per<lb ed="#Ba" break="no"/>sone non possunt esse infinite : quia
+<lb ed="#Ba"/>confusio in divina non cadit. Contra hoc
+<lb ed="#Ba"/>est : quia id quod est de demonstratione
+<lb ed="#Ba"/>potentie, non est confusionis, sed potius
+<lb ed="#Ba"/>exigentie naturalis. Dicit autem 
+Aristo<lb ed="#Ba" break="no"/>teles in primo Celi et mundi, quod 
+po<lb ed="#Ba" break="no"/>tentia activa non demonstratur perfecte
+<lb ed="#Ba"/>nisi in ultimo et maximo in quo est 
+vir<lb ed="#Ba" break="no"/>tus ejus, et ultra quod nihil potest : 
+sic<lb ed="#Ba" break="no"/>ut et potentia passiva non demonstratur,
+<lb ed="#Ba"/>nisi in ultimo et minimo in quo est 
+vir<lb ed="#Ba" break="no"/>tus passionis ejus, et.ex quo ul ex 
+prin<lb ed="#Ba" break="no"/>cipio infertur omnis passibilitas ejus. Et
+<lb ed="#Ba"/>dat exemplum : quia si aliquid patitur
+<lb ed="#Ba"/>ab uno quod minimum. est, statim 
+infer<lb ed="#Ba" break="no"/>tur, quod patitur a duobus, et sic in 
+in<lb ed="#Ba" break="no"/>finitum. Et si aliquid potentia activa 
+pot<lb ed="#Ba" break="no"/>est in centum quod maximum est, statim
+<lb ed="#Ba"/>infertur, quod potest in nonaginta et in
+<lb ed="#Ba"/>octoginta, et sic in infinitum. Cum ergo
+<lb ed="#Ba"/>potentia principiandi in Deo sit infinita
+<lb ed="#Ba"/>et activa, videtur, quod virtus ejus
+<pb ed="#Ba" n="447"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>non demonstratur nisi producat 
+infini<lb ed="#Ba" break="no"/>tos,
+</p>
+               <p xml:id="Almn78-a97464-d1e1789">
+                  <lb ed="#Ba"/>In contrarium hujus est quod 
+disputa<lb ed="#Ba" break="no"/>tuin est supra in tractatu de generatione
+<lb ed="#Ba"/>Pili, et in tractatu de ordine nature,
+<lb ed="#Ba"/>ubi ostensum est, quod productio 
+perso<lb ed="#Ba" break="no"/>sonarum stat in tribus, quorum unus
+<lb ed="#Ba"/>est principium, et alter medium, et 
+ter<lb ed="#Ba" break="no"/>lius in ratione termini, in quo stat 
+pro<lb ed="#Ba" break="no"/>ductio non ex impotentia que sit in ipso,
+<lb ed="#Ba"/>sed ex hoc quod in ordine nature in 
+ra<lb ed="#Ba" break="no"/>lione termini est, ex ratione proprietatis
+<lb ed="#Ba"/>qua distinguitur a Patre et Filio,
+</p>
+               <p xml:id="Almn78-a97464-d1e1816">
+                  <lb ed="#Ba"/>Sonutio. Dicendum est, quod nec sunt,
+<lb ed="#Ba"/>nec esse possunt in divinis nisi tres 
+per<lb ed="#Ba" break="no"/>sone. in illis enim sufficientia 
+perfectio<lb ed="#Ba" break="no"/>nis est, bonitatis, virtutis, et charitatis,
+<lb ed="#Ba"/>delectationis, jucunditatis, et amicitie.
+<lb ed="#Ba"/>Et haec omnia in prehabitis ostensa sunt.
+<lb ed="#Ba"/>Si enim attenditur ordo nature, perfectio
+<lb ed="#Ba"/>in tribus est, in principio, medio, et fine.
+<lb ed="#Ba"/>Non enim sunt nisi duo principia 
+com<lb ed="#Ba" break="no"/>municationis, natura scilicet, et 
+volun<lb ed="#Ba" break="no"/>tas. Si natura attenditur, multiplicari
+<lb ed="#Ba"/>non potest nisi in tres, scilicet in eum
+<lb ed="#Ba"/>qui pullulat ex seipso, et in eum qui
+<lb ed="#Ba"/>pullulat ex alio, et in eum qui pullulat
+<lb ed="#Ba"/>tantum ex alio passive : sive in eum qui
+<lb ed="#Ba"/>producit non productus, et in eum qui
+<lb ed="#Ba"/>producit productus, et in eum qui 
+pro<lb ed="#Ba" break="no"/>ducitur non producens : sive secundum
+<lb ed="#Ba"/>verba Augustini, <quote xml:id="Almn78-a97464-Qd1e1859"> a quo alius qui non
+<lb ed="#Ba"/>ab alio, a quo alius qui ab alio, et qui ab
+<lb ed="#Ba"/>alio a quo nullus. </quote>
+               </p>
+               <p xml:id="Almn78-a97464-d1e1867">
+                  <lb ed="#Ba"/>Si enim dicatur, quod est quartus, qui
+<lb ed="#Ba"/>nec est ab alio, nec ab ipso alius, ille
+<lb ed="#Ba"/>non potest esse in. communicatione 
+na<lb ed="#Ba" break="no"/>ture : in eadem enim natura non est 
+se<lb ed="#Ba" break="no"/>cundum communionem, nisi qui vel dat
+<lb ed="#Ba"/>naturam, vel accipit: non enim habet
+<lb ed="#Ba"/>communionem in natura, nisi accipiens
+<lb ed="#Ba"/>eam ab alio, vel dans eam alii, vel 
+utro<lb ed="#Ba" break="no"/>que modo, Si autem diceretur, quod 
+es<lb ed="#Ba" break="no"/>sent duo dantes, et non accipientes, illi
+<lb ed="#Ba"/>proprietate non differrent, sive specie :
+<lb ed="#Ba"/>nec materia differrent, quia materia non
+<lb ed="#Ba"/>potest esse in divinis: nec essentia 
+differ<lb ed="#Ba" break="no"/>rent, quia essentia in divinis nec dividi
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>tur, nec distinguitur : et sic sequeretur,
+<lb ed="#Ba"/>quod penitus idem essent et una 
+perso<lb ed="#Ba" break="no"/>na. Idem enim est, ut dicit Aristoteles
+<lb ed="#Ba"/>in VII Topicorum, a quo non differt 
+dif<lb ed="#Ba" break="no"/>ferentia. Penitus eodem modo probatur,
+<lb ed="#Ba"/>quod si essent duo vel plures qui ab alio
+<lb ed="#Ba"/>aquibus alii, quod essent una et eadem
+<lb ed="#Ba"/>persona et proprietate et essentia. Et 
+eo<lb ed="#Ba" break="no"/>dem modo probatur, quod si duo vel
+<lb ed="#Ba"/>plures essent qui ab alio a quibus nulli,
+<lb ed="#Ba"/>quod essent una et eadem persona.
+</p>
+               <p xml:id="Almn78-a97464-d1e1926">
+                  <lb ed="#Ba"/>Si autem diceretur, quod essent plures
+<lb ed="#Ba"/>dii in diversitate essentie, sequeretur,
+<lb ed="#Ba"/>quod non essent in uno et eodem ordine
+<lb ed="#Ba"/>nature. Et ideo dixit synodus Nicena,
+<lb ed="#Ba"/>quod si quis dicat duos innascibiles, duos
+<lb ed="#Ba"/>faciens deos, anathema sit. Sic enim 
+di<lb ed="#Ba" break="no"/>cens, ut dicit Hilarius, destruit ordinem
+<lb ed="#Ba"/>nature ad unum, et per consequens 
+di<lb ed="#Ba" break="no"/>versos esse deos ponit.
+</p>
+               <p xml:id="Almn78-a97464-d1e1948">
+                  <lb ed="#Ba"/>Similiter perfectio communicationis
+<lb ed="#Ba"/>voluntatis in tribus est, et non in 
+pluri<lb ed="#Ba" break="no"/>bus, scilicet in uno qui diligit eum qui
+<lb ed="#Ba"/>ab ipso est, et in uno qui diligit eum a
+<lb ed="#Ba"/>quo est, et in uno qui est nexus 
+ambo<lb ed="#Ba" break="no"/>rum : et si ponantur duo vel plures 
+dili<lb ed="#Ba" break="no"/>gentes eos qui ab ipsis sunt, vel 
+diligen<lb ed="#Ba" break="no"/>tes a quibus sunt, vel qui sunt nexus
+<lb ed="#Ba"/>amborum, probabitur, quod omnes illi
+<lb ed="#Ba"/>idem sunt, sicut prius probatum est,
+<lb ed="#Ba"/>cum nec formalem nec materialem nec
+<lb ed="#Ba"/>essentialem habeant differentiam. Et sic
+<lb ed="#Ba"/>patet, quod utriusque communicationis
+<lb ed="#Ba"/>perfectio in tribus est. Hoc enim patet
+<lb ed="#Ba"/>per verba Augustini : <quote xml:id="Almn78-a97464-Qd1e1982"> Omnis enim
+<lb ed="#Ba"/>multitudo que procedit ab uno 
+princi<lb ed="#Ba" break="no"/>pio, per eadem principia reducitur per
+<lb ed="#Ba"/>que exit ab ipso, Exit autem omne quod
+<lb ed="#Ba"/>exit ab intellectu agente per principium
+<lb ed="#Ba"/>efficiens, per formam qua fit, et per 
+spi<lb ed="#Ba" break="no"/>ritum qui formam invehit ei quod fit. Si
+<lb ed="#Ba"/>autem reducitur, oportet quod spiritu
+<lb ed="#Ba"/>apprehendatur, et spiritu ordinetur. 
+Di<lb ed="#Ba" break="no"/>co autem spiritu, quem concepit ex 
+pri<lb ed="#Ba" break="no"/>mo faciente. Et oportet ut formam qua
+<lb ed="#Ba"/>exivit, sequatur, et sic in principium
+<lb ed="#Ba"/>unde exivit, reducatur. </quote> Sic ergo in 
+tri<lb ed="#Ba" break="no"/>bus omnis factionis et omnis 
+reductio<lb ed="#Ba" break="no"/>nis est sufficientia. Communicationis er
+<pb ed="#Ba" n="448"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>go nature, et communicationis 
+volunta<lb ed="#Ba" break="no"/>tis, et perfectio factionis, et perfectio 
+re<lb ed="#Ba" break="no"/>ductionis est in tribus. Et superfluum
+<lb ed="#Ba"/>abjicitur a natura et ab arte et ab 
+omni<lb ed="#Ba" break="no"/>bus. Non ergo possunt esse plures vel
+<lb ed="#Ba"/>pauciores persone quam tres, Pater 
+sci<lb ed="#Ba" break="no"/>licet formans omnia que sunt, Filius
+<lb ed="#Ba"/>forma omnium eorum que formantur,
+<lb ed="#Ba"/>et Spiritus sanctus invehens virtutes et
+<lb ed="#Ba"/>dona formantis et forme, et reductione
+<lb ed="#Ba"/>spiritus reducens forma, que est Filius
+<lb ed="#Ba"/>quam sequatur, et Pater in quem 
+reduci<lb ed="#Ba" break="no"/>tur.
+</p>
+               <p xml:id="Almn78-a97464-d1e2049">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod 
+infi<lb ed="#Ba" break="no"/>nitus numerus confusionis est et 
+super<lb ed="#Ba" break="no"/>fluitatis : et ideo esse non potest. Licet
+<lb ed="#Ba"/>enim infinitum potentia sit in quibusdam
+<lb ed="#Ba"/>causatis, tamen actu numquam est, et in
+<lb ed="#Ba"/>ordine causatum nec est, nec esse potest.
+<lb ed="#Ba"/>Quidquid autem in Deo ponitur, sicut in
+<lb ed="#Ba"/>ordine cause ponitur, et non sicut in
+<lb ed="#Ba"/>ordine causati,
+</p>
+               <p xml:id="Almn78-a97464-d1e2071">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod 
+convenien<lb ed="#Ba" break="no"/>tiae supra adducte non probant, nisi quod
+<lb ed="#Ba"/>solitudo non potest esse in divinis, et
+<lb ed="#Ba"/>quod sufficientia communicationis est in
+<lb ed="#Ba"/>tribus.
+</p>
+               <p xml:id="Almn78-a97464-d1e2085">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod illa ratio
+<lb ed="#Ba"/>procedit ac si Pater principium sit motu
+<lb ed="#Ba"/>et sui divisioue et per vices temporum :
+<lb ed="#Ba"/>et hoc falsum est. Unde ratio illa nihil
+<lb ed="#Ba"/>probat in divinis.
+</p>
+               <p xml:id="Almn78-a97464-d1e2098">
+                  <lb ed="#Ba"/>Ad aliud patet solutio per idem. Sol
+<lb ed="#Ba"/>enim non est principium generationis et
+<lb ed="#Ba"/>corruptionis, nisi per motus accessus et
+<lb ed="#Ba"/>recessus : quod in sphera circuli recti
+<lb ed="#Ba"/>fieri non potuit, qui secundum angulos
+<lb ed="#Ba"/>rectos spherales secaret horizontem : et
+  <lb ed="#Ba"/>
+                  <lb ed="#Ba"/>ideo oportuit, quod fieret secundum 
+an<lb ed="#Ba" break="no"/>gulos circuli obliqui, qui horizontem 
+sv<lb ed="#Ba" break="no"/>cat secundum angulos acutos et obtusos,
+<lb ed="#Ba"/>Nihil autem talium est in divinis: sel
+<lb ed="#Ba"/>idem eodem modo se habens, semper 
+fa<lb ed="#Ba" break="no"/>cit idem, et ab eterno.
+</p>
+               <p xml:id="Almn78-a97464-d1e2129">
+                  <lb ed="#Ba"/>Ad aliud dicendum est, quod in hoe
+<lb ed="#Ba"/>infinitas notatur producentis : quia de se
+<lb ed="#Ba"/>producit alium qui infinitus est essentia
+<lb ed="#Ba"/>et potentia sicut ipse, et non in hoe
+<lb ed="#Ba"/>quod infinitos numero producat. Talis
+<lb ed="#Ba"/>enim productio non sine divisione fit :
+<lb ed="#Ba"/>divisio autem non convenit nisi materiw
+<lb ed="#Ba"/>et continuo : unde Aristoteles in IV 
+Phy<lb ed="#Ba" break="no"/>sicorum dicit, quod infinitum in 
+nume<lb ed="#Ba" break="no"/>ro causatur ex infinito et continuo. Talia
+<lb ed="#Ba"/>autem in divinis esse non possunt : quia
+<lb ed="#Ba"/>talis infinitas materialis est et infirmi.
+</p>
+               <p xml:id="Almn78-a97464-d1e2158">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod dictum 
+illo<lb ed="#Ba" break="no"/>rum bene dictum est.
+</p>
+               <p xml:id="Almn78-a97464-d1e2165">
+                  <lb ed="#Ba"/>Et ad objectionem dicendum, quod
+<lb ed="#Ba"/>multiplicatio in infinitum, non demonstrat
+<lb ed="#Ba"/>aliquam’potentiam activam vel virtutem
+<lb ed="#Ba"/>ejus : sed cum multitudo in infinitum
+<lb ed="#Ba"/>causetur ex divisione in infinitum, 
+de<lb ed="#Ba" break="no"/>monstrat infirmitatem et defectum 
+mate<lb ed="#Ba" break="no"/>rialis principii : sed actus infinitus in 
+es<lb ed="#Ba" break="no"/>sentia et potentia, sicut Filius et 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus, quisunt actus nihil 
+poten<lb ed="#Ba" break="no"/>tie habentes sive imperfectionis, 
+de<lb ed="#Ba" break="no"/>monstrant infinitam potentiam 
+produ<lb ed="#Ba" break="no"/>centis eos. Et ideo Philosophus dicit in
+<lb ed="#Ba"/>libro de Causis, quod <quote xml:id="Almn78-a97464-Qd1e2195"> omnis virtus
+<lb ed="#Ba"/>unita magis est infinita, quam 
+multipli<lb ed="#Ba" break="no"/>cata. </quote>
+               </p>
+               <p xml:id="Almn78-a97464-d1e2203">
+                  <lb ed="#Ba"/>Ip quod adducitur in contrarium, 
+con<lb ed="#Ba" break="no"/>ceditur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

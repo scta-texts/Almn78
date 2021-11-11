@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="52"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a10181"><!-- p1t3prae -->
+            <head xml:id="Almn78-a10181-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a10181-d1e109">
+               <pb ed="#Ba" n="52"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS III.
+<lb ed="#Ba"/>DE COGNOSCIBILITATE, NOMINABILITATE, ET 
+DE<lb ed="#Ba" break="no"/>MONSTRABILITATE DEL
+</p>
+            <p xml:id="Almn78-a10181-d1e122">
+               <lb ed="#Ba"/>Primo ergo de fruibili, hoc est, de mysterio trinitatis et unitatis agendum
+<lb ed="#Ba"/>est.
+<lb ed="#Ba"/>Sed quia doctrina non potest tradi nisi cogniti, ideo primo an 
+cognosci<lb ed="#Ba" break="no"/>bilis sit Deus et qualiter, disputabimus.
+<lb ed="#Ba"/>Queremus autem tria, scilicet primo, An cognoscibilis sit Deus, hoc est,
+<lb ed="#Ba"/>essentia divina ? Et secundo, An nominabilis sit aliquo nomine ? Et tertio,
+<lb ed="#Ba"/>An demonstrabilis sit saltem per effectum ?
+</p>
+            <p xml:id="Almn78-a10181-d1e140">
+               <lb ed="#Ba"/>Circa primum queritur primo de cognitione divina ex parte cognosci- '
+<lb ed="#Ba"/>bilis : secundo, ex parte cognoscentis: tertio, de eo quod cognoscitur, quod
+<lb ed="#Ba"/>est quasi medium cognoscendi ipsum.
+</p>
+            <p xml:id="Almn78-a10181-d1e149">
+               <lb ed="#Ba"/>Circa primum queruntur sex, scilicet primo, An cognoscibilis sit Deus
+<lb ed="#Ba"/>per essentiam ?
+<lb ed="#Ba"/>Secundo, An cognoscibilis sit per attributum ipsius quod est immensitas,
+<lb ed="#Ba"/>sive essentia, sive virtutis ?
+<lb ed="#Ba"/>Tertio, An cognoscibilis sit secundum quod est unus Deus in tribus 
+per<lb ed="#Ba" break="no"/>sonis ?
+<lb ed="#Ba"/>Quarto, Quid sit cognoscere facie ad faciem ?
+<lb ed="#Ba"/>Quinto, Quid sit cognoscere per speciem ?
+<lb ed="#Ba"/>Sexto, Quid sit cognoscere t7 presentia, secundum quod presens dicitur
+<lb ed="#Ba"/>esse creature.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

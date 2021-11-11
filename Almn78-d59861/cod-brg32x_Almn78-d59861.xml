@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 25</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 25</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="269"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d59861"><!-- p2t5q25 -->
+            <head xml:id="Almn78-d59861-Hd1e106">Quaestio 25</head>
+            <head xml:id="Almn78-d59861-Hd1e109" type="question-title">
+      In quid ceciderit Angelus malus
+    </head>
+            <p xml:id="Almn78-d59861-d1e112">
+               <lb ed="#Bb"/>QUHSTIO XXV.
+      <lb ed="#Bb"/>In quid ceciderit Angelus malus ?
+    </p>
+            <p xml:id="Almn78-d59861-d1e119">
+               <lb ed="#Bb"/>Deinde queritur, In quid cecidit ?
+      <lb ed="#Bb"/>Et queruntur tria, scilicet in quid 
+      ce<lb ed="#Bb" break="no"/>cidit quoad culpam ?
+      <lb ed="#Bb"/>Secundo, In quid cecidit quoad 
+      pe<lb ed="#Bb" break="no"/>nam ?
+      <lb ed="#Bb"/>Tertio, In quid cecidit quoad locum ?
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Tertium, Utrum culpa sua aliquid 
+      vir<lb ed="#Bb" break="no"/>tutis secum compatiatur ?
+      <lb ed="#Bb"/>Quartum, Que sit causa obstinationis
+      <lb ed="#Bb"/>ejus in malo ?
+    </p>
+            <div xml:id="Almn78-d59861-Dd1e145">
+               <head xml:id="Almn78-d59861-Hd1e147">Membrum 1</head>
+               <head xml:id="Almn78-d59861-Hd1e150" type="question-title">
+        In quid ceciderit Angelus malus quoad culpam
+      </head>
+               <p xml:id="Almn78-d59861-d1e153">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>In quid ceciderit Angelus malus quoad
+        <lb ed="#Bb"/>culpam ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e164">
+                  <lb ed="#Bb"/>Circa PRIMUM queruntur quatuor.
+        <lb ed="#Bb"/>Quorum primum est, Utrum adhuc in
+        <lb ed="#Bb"/>peccato suo perseveret ?
+        <lb ed="#Bb"/>Secundum, Utrum omni motu suo 
+        pec<lb ed="#Bb" break="no"/>cet ?
+      </p>
+               <div xml:id="Almn78-d59861-Dd1e177">
+                  <head xml:id="Almn78-d59861-Hd1e179">Articulus 1</head>
+                  <head xml:id="Almn78-d59861-Hd1e182" type="question-title">
+          Utrum Angelus malus adhuc in peccato
+          suo perseveret
+        </head>
+                  <p xml:id="Almn78-d59861-d1e185">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>MEMBRI PRIMI
+          <lb ed="#Bb"/>ARTICULUS I.
+          <lb ed="#Bb"/>Utrum Angelus malus adhuc in peccato
+          <lb ed="#Bb"/>suo perseveret?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e198">
+                     <lb ed="#Bb"/>Primo queritur, Utrum adhuc 
+          perse<lb ed="#Bb" break="no"/>veret in peccato suo?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e205">
+                     <lb ed="#Bb"/>Et videtur, quod sic:
+          <lb ed="#Bb"/>1. In Psalmo rxxm, 23, dicitur: Su
+          <pb ed="#Bb" n="270"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>perbia eorum qui te oderunt, ascendit
+          <lb ed="#Bb"/>semper. Sed, Il Sententiarum, distinct. V,
+          <lb ed="#Bb"/>cap. Post hee consideratio, sic dicitur
+          <lb ed="#Bb"/>de cadentibus demonibus : <quote xml:id="Almn78-d59861-Qd1e224"> Averti, est
+            <lb ed="#Bb"/>odio habere, vel invidere. </quote> Invidie
+          <lb ed="#Bb"/>namque mater est superbia, qua 
+          volue<lb ed="#Bb" break="no"/>runt se parificare Deo. Ergo superbia
+          <lb ed="#Bb"/>eorum qui te oderunt, est superbia 
+          dia<lb ed="#Bb" break="no"/>boli cadentis: et illa ascendit semper :
+          <lb ed="#Bb"/>ergo adhuc perdurat in primo peccato
+          <lb ed="#Bb"/>suo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e244">
+                     <lb ed="#Bb"/>2. Adhuc Glossa super illud Isaia,
+          <lb ed="#Bb"/>xiv, 12: Quomodo cecidisti de celo, 
+          Lu<lb ed="#Bb" break="no"/>cifer, sic dicit : <quote xml:id="Almn78-d59861-Qd1e252"> Lucifer major aliis 
+            An<lb ed="#Bb" break="no"/>gelis in exordio creatus, et inter 
+            Ange<lb ed="#Bb" break="no"/>los gloriosus corruit, secundum illud
+            <lb ed="#Bb"/>Luce, x, 18: Videbam Satanam sicut
+            <lb ed="#Bb"/>fulgur de celo cadentem. Et qui in corde
+            <lb ed="#Bb"/>prius dicebat et cogitabat: In celum
+            <lb ed="#Bb"/>conscendam, super astra Dei exaltabo
+            <lb ed="#Bb"/>solium meum, hoc est, ad solium Dei:
+            <lb ed="#Bb"/>sedebo in monte testamenti, in lateribus
+            <lb ed="#Bb"/>Aquilonis': idem quoque post lapsum
+            <lb ed="#Bb"/>arrogat sibi. Unde et gloriatur ascendere
+            <lb ed="#Bb"/>super Angelos in ccelum, et super nubes,
+            <lb ed="#Bb"/>hoc est, corda elatorum: et sedere in
+            <lb ed="#Bb"/>monte testamenti, hoc est, in Ecclesia :
+            <lb ed="#Bb"/>etin lateribus Aquilonis, hoc est, in 
+            fri<lb ed="#Bb" break="no"/>gidis et obscuris. </quote> Ex hoc accipitur,
+          <lb ed="#Bb"/>quod adhuc vult esse similis Deco, et sic
+          <lb ed="#Bb"/>perdurat in peccato primo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e293">
+                     <lb ed="#Bb"/>3. Adhuc, Augustinus in libro XI 
+          su<lb ed="#Bb" break="no"/>per Genesim ad litteram dicit, quod 
+          dia<lb ed="#Bb" break="no"/>bolus Heve persuasit similitudinem sue
+          <lb ed="#Bb"/>voluntatis : sed dicit Boetius, quod 
+          simi<lb ed="#Bb" break="no"/>litudo est, quorum est qualitas una, cum
+          <lb ed="#Bb"/>tamen inter se substantialiter differant :
+          <lb ed="#Bb"/>ergo quod persuasit Heve, fuit in sua
+          <lb ed="#Bb"/>voluntate: persuasit autem Heve, quod
+          <lb ed="#Bb"/>futura esset sicut Deus scicns bonum et
+          <lb ed="#Bb"/>malum: ergo post casum adhuc habuit
+          <lb ed="#Bb"/>in voluntate, quod esset sicut Deus : et
+          <lb ed="#Bb"/>non est ratio quare postea cessaverit ab
+          <lb ed="#Bb"/>hac voluntate: ergo adhuc perdurat in
+          <lb ed="#Bb"/>peccato, quod vult esse sicut Deus, et sic
+          <lb ed="#Bb"/>adhuc perdurat in primo peccato.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e328">
+                     <lb ed="#Bb"/>4, Adhuc, Hujus signum dicit esse
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Augustinus quod vult esse sicut Deus,
+          <lb ed="#Bb"/>quia nititur habere Apostolos suos qui
+          <lb ed="#Bb"/>eum predicent, sicut dicitur, If ad 
+          Co<lb ed="#Bb" break="no"/>rinth. x1, 13 quod pseudoapostoli 
+          trans<lb ed="#Bb" break="no"/>figurant se in Apostolos Christi. Et non
+          <lb ed="#Bb"/>mirum, tpse enim Satanas transfigurat
+          <lb ed="#Bb"/>sein Angelum lucis. Non est ergo 
+          mag<lb ed="#Bb" break="no"/>num siministri ejus transfigurentur velut
+          <lb ed="#Bb"/>ministri gustitie : quorum finis erit 
+          se<lb ed="#Bb" break="no"/>cundum opera ipsorum.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e357">
+                     <lb ed="#Bb"/>Nititur etiam habere Prophetas qui
+          <lb ed="#Bb"/>vaticinentur in spiritu suo. II] Reg. xxu,
+          <lb ed="#Bb"/>22: Ero spiritus mendax in ore omnium
+          <lb ed="#Bb"/>Prophetarum ejus. Apocal. xvi, 13 : Vidi
+          <lb ed="#Bb"/>de ore draconis, et de ore bestixv, et de
+          <lb ed="#Bb"/>ore pseudoprophete spiritus tres 
+          immun<lb ed="#Bb" break="no"/>dos inmodum ranarum.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e375">
+                     <lb ed="#Bb"/>Nititur habere pseudoapostolos, Matth.
+          <lb ed="#Bb"/>xxiv, 11: Multi pseudoprophete surgent,
+          <lb ed="#Bb"/>Et nititur habere
+          <lb ed="#Bb"/>pseudomartyres, sicut dicit Eusebius in
+          <lb ed="#Bb"/>historia ecclesiastica quod multi 
+          here<lb ed="#Bb" break="no"/>ticl passi sunt cum martyribus, et adhuc
+          <lb ed="#Bb"/>patiuntur pertinacia erroris sui. Et sic 
+          ni<lb ed="#Bb" break="no"/>titur habere ceteros gradus 
+          Ecclesiasti<lb ed="#Bb" break="no"/>cos, cupiens esse sicut Deus: ergo adhuc
+          <lb ed="#Bb"/>perdurat in peccato primo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e399">
+                     <lb ed="#Bb"/>Contra :
+          <lb ed="#Bb"/>In II canonica Petri, 1, 11, super illud:
+          <lb ed="#Bb"/>Ubi Angeli fortitudine et virtute cum
+          <lb ed="#Bb"/>sint majores, dicit Glossa sic: <quote xml:id="Almn78-d59861-Qd1e409"> [bi 
+            cru<lb ed="#Bb" break="no"/>ciabuntur iniqui, ubi Angeli mali, qui
+            <lb ed="#Bb"/>prius superbierant contra Deum, et inde
+            <lb ed="#Bb"/>puniti sunt, jam non portant, sed potius
+            <lb ed="#Bb"/>abjiciunt judicium superbiendi contra
+            <lb ed="#Bb"/>Deum, quod est exsecrabile adversum
+            <lb ed="#Bb"/>seipsos: quia pro illo graviter 
+            puniun<lb ed="#Bb" break="no"/>tur, et territi magnitudine peenarum jam
+            <lb ed="#Bb"/>ab illo judicio presumptionis desistunt. </quote>
+                     <lb ed="#Bb"/>Ergo non adhuc perdurant in illo, sed
+          <lb ed="#Bb"/>desistunt.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e436">
+                     <lb ed="#Bb"/>Solutio. Distinguendum estin appetitu
+          <lb ed="#Bb"/>demonis: potest enim comparari ad ra~
+          <lb ed="#Bb"/>dicem sive ad iniquam voluntatem ex
+          <lb ed="#Bb"/>qua procedit: vel potest comparari ad
+          <lb ed="#Bb"/>objectum, sive ad altitudinem Dei in
+          <pb ed="#Bb" n="271"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>quam procedit. Et primo modo adhuc
+          <lb ed="#Bb"/>dupliciter consideratur, scilicet quoad
+          <lb ed="#Bb"/>naturam voluntatis, et quoad iniquitatem
+          <lb ed="#Bb"/>que informat voluntatem. Si primo 
+          mo<lb ed="#Bb" break="no"/>do: tune nature remorsus contradicit
+          <lb ed="#Bb"/>appetitui propter scintillam rationis, que
+          <lb ed="#Bb"/>synderesis vocatur: et quoad hoe, sicut
+          <lb ed="#Bb"/>dicit Glossa inducta, desistunt ab iniqua
+          <lb ed="#Bb"/>voluntate, et hoc est secundum quid 
+          tan<lb ed="#Bb" break="no"/>. tum. Si autem comparatur ad. 
+          iniquita<lb ed="#Bb" break="no"/>tem voluntatis, secundum quod iniqua
+          <lb ed="#Bb"/>est, que rationem naturalem vincit in
+          <lb ed="#Bb"/>demone, et trahit ad actum: tune adhuc
+          <lb ed="#Bb"/>idem usurpat sibi quod prius: non 
+          ta<lb ed="#Bb" break="no"/>men in eodem, sed in simili, ut scilicet in
+          <lb ed="#Bb"/>malis habeat potestatem sicut Deus in
+          <lb ed="#Bb"/>bonis. Si vero comparatur voluntas ad
+          <lb ed="#Bb"/>objectum, iterum dupliciter attenditur.
+          <lb ed="#Bb"/>Voluntatis enim objectum est ipsum 
+          vo<lb ed="#Bb" break="no"/>litum : et hoc potest intelligi conjunctum
+          <lb ed="#Bb"/>culpe tantum, vel conjunctum pene
+          <lb ed="#Bb"/>per culpam. Et si primo modo: tune
+          <lb ed="#Bb"/>non desistunt ab iniqua voluntate. Si 
+          se<lb ed="#Bb" break="no"/>cundo modo: sic decor justitie resultat
+          ‘inculpa punita : et quia displicet demoni
+          <lb ed="#Bb"/>omnis decor justitie, ideo sic desistit ab
+          <lb ed="#Bb"/>iniqua voluntate. Cujus ctiam alia ratio
+          <lb ed="#Bb"/>est, quia sicut dicit Augustinus, peenam
+          <lb ed="#Bb"/>horret natura bona : et quia demon 
+          natu<lb ed="#Bb" break="no"/>re bone est et intellectualis, in eo horret
+          <lb ed="#Bb"/>penam, et horrore pene aliquando 
+          de<lb ed="#Bb" break="no"/>sistit ab iniqna voluntate, cum tamen
+          <lb ed="#Bb"/>culpa semper placeat ei.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e523">
+                     <lb ed="#Bb"/>Ad opsecrom ergo dicendum, quod
+          <lb ed="#Bb"/>auctoritates primo inducte loquuntur de
+          <lb ed="#Bb"/>actu voluntatis comparato ad iniquam
+          <lb ed="#Bb"/>voluntatem, secundum quod iniqua est :
+          <lb ed="#Bb"/>et de comparatione voluntatis ad 
+          obje<lb ed="#Bb" break="no"/>ctum conjunctum culpe tantum, et non
+          <lb ed="#Bb"/>pene : et sic superbia eorum semper
+          <lb ed="#Bb"/>ascendit et numquam desistit, et 
+          simili<lb ed="#Bb" break="no"/>tudinem Dei semper usurpat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e545">
+                     <lb ed="#Bb"/>Glossa autem que est super epistolam
+          <lb ed="#Bb"/>Petri inducta in contrarium, loquitur de
+          <lb ed="#Bb"/>comparatione voluntatis ad naturam et
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>ad scintillam rationis, et de comparatione
+          <lb ed="#Bb"/>voluntatis ad objectum cum culpa et
+          <lb ed="#Bb"/>peena : et sic a superbiendo malus spiri~
+          <lb ed="#Bb"/>tus aliquando desistit.
+        </p>
+               </div>
+               <div xml:id="Almn78-d59861-Dd1e567">
+                  <head xml:id="Almn78-d59861-Hd1e569">Articulus 2</head>
+                  <head xml:id="Almn78-d59861-Hd1e572" type="question-title">
+          Utrum omni motu suo peccet Angelus
+          malus
+        </head>
+                  <p xml:id="Almn78-d59861-d1e575">
+                     <lb ed="#Bb"/>MEMBRI PRIMI
+          <lb ed="#Bb"/>ARTICULUS II
+          <lb ed="#Bb"/>Utrum omni motu suo peccet Angelus
+          <lb ed="#Bb"/>malus?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e586">
+                     <lb ed="#Bb"/>Secundo queritur, Utrum omni motu
+          <lb ed="#Bb"/>suo peccet ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e593">
+                     <lb ed="#Bb"/>Et videtur, quod sic.
+          <lb ed="#Bb"/>1. Glossa super primam epistolam ad
+          <lb ed="#Bb"/>Corinth. 1,10: <quote xml:id="Almn78-d59861-Qd1e601"> Diabolus omnia male
+            <lb ed="#Bb"/>agit: </quote> sed omnia mala agere, est omni
+          <lb ed="#Bb"/>motu peccare : ergo omni motu suo 
+          pec<lb ed="#Bb" break="no"/>cat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e613">
+                     <lb ed="#Bb"/>2. Adhuc, Augustinus : <quote xml:id="Almn78-d59861-Qd1e617"> Tota vita 
+            in<lb ed="#Bb" break="no"/>fidelium peccatum est: </quote> sed diabolus
+          <lb ed="#Bb"/>infideli deterior est: ergo multo magis
+          <lb ed="#Bb"/>tota vita diaboli peccatum est: ergo omni
+          <lb ed="#Bb"/>motu suo peccat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e629">
+                     <lb ed="#Bb"/>8. Adhuc, Hoc videtur sonare nomen
+          <lb ed="#Bb"/>obstinationis in malo: obstinatus enim
+          <lb ed="#Bb"/>inflexibilis est a malo: ergo non facit
+          <lb ed="#Bb"/>nisi malum: non facere nisi malum,
+          <lb ed="#Bb"/>omni motu suo est peccare: ergo omni
+          <lb ed="#Bb"/>motu suo peccal.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e645">
+                     <lb ed="#Bb"/>4, Adhuc, Per opposita se habent vita
+          <lb ed="#Bb"/>boni Angeli et vita mali: sed vita boni
+          <lb ed="#Bb"/>Angeli, tota refertur ad gratiam et 
+          glo<lb ed="#Bb" break="no"/>riam Dei: ergo vita mali Angeli, tota
+          <lb ed="#Bb"/>est contraria glorie et gratia: contra~
+          <lb ed="#Bb"/>rium gratia et glorie Dei totum est
+          <lb ed="#Bb"/>peccatum : ergo vita mali Angeli, tota
+          <lb ed="#Bb"/>est peccatum : ergo omni motu suo pec~
+          <lb ed="#Bb"/>cat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e667">
+                     <pb ed="#Bb" n="272"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>3. Adhuc, Augustinus super epistolam
+          <lb ed="#Bb"/>primam ad Corinthios: <quote xml:id="Almn78-d59861-Qd1e677"> Sicut Christus
+            <lb ed="#Bb"/>agit omnia bene, ita diabolus agit omnia
+            <lb ed="#Bb"/>male. </quote> Ergo omni motu suo peccat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e685">
+                     <lb ed="#Bb"/>ConTRA :
+          <lb ed="#Bb"/>Diabolus ad imperium Christi exivit
+          <lb ed="#Bb"/>ab obsessis. Luc. XI, 14: Erat Jesus 
+          e7i<lb ed="#Bb" break="no"/>ciens demonium, et illud erat mutum.
+          <lb ed="#Bb"/>Et constat, quod illo motu quo Deo 
+          obe<lb ed="#Bb" break="no"/>divit, non peccavit : ergo omni motu non
+          <lb ed="#Bb"/>peccat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e703">
+                     <lb ed="#Bb"/>Solvtio. Motus diaboli duplices sunt,
+          <lb ed="#Bb"/>secundum duplices potentias a quibus
+          <lb ed="#Bb"/>egrediuntur. Sunt enim in ipso potentie
+          <lb ed="#Bb"/>naturales, de quibus dicit Dionysius in
+          <lb ed="#Bb"/>libro de Divinis nominibus 1, quod
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-d59861-Qd1e718">data illis naturalia nequaquam ea 
+            mu<lb ed="#Bb" break="no"/>tata esse dicimus, sed sunt integra et
+            <lb ed="#Bb"/>splendidissima. </quote> Et sunt in eo potentie
+          <lb ed="#Bb"/>deliberative et rationales, ordinantes
+          <lb ed="#Bb"/>actus diaboli. Et he considerantur 
+          dupli<lb ed="#Bb" break="no"/>citer, scilicet in se, prout fluunt a natura
+          <lb ed="#Bb"/>bona: ct prout sunt informate peccato
+          <lb ed="#Bb"/>obstinationis in malo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e738">
+                     <lb ed="#Bb"/>Dicendum igitur, quod motus qui
+          <lb ed="#Bb"/>egrediuntur a potentiis naturalibus, vel a
+          <lb ed="#Bb"/>potentiis deliberativis, secundum quod
+          <lb ed="#Bb"/>fluunt a natura bona, non semper mali
+          <lb ed="#Bb"/>sunt : et proprie loquendo nec boni sunt
+          <lb ed="#Bb"/>bonitate virtutis, nec ‘mali malitia vitii.
+          <lb ed="#Bb"/>Motus autem qui egrediuntur de 
+          poten<lb ed="#Bb" break="no"/>tiis deliberativis, secundum quod stant
+          <lb ed="#Bb"/>in forma obstinationis in iniquitate, om -
+          <lb ed="#Bb"/>nes mali sunt : qui etsi quandoque justi
+          <lb ed="#Bb"/>sunt secundum quod ordinantur a 
+          pote<lb ed="#Bb" break="no"/>state Dei, que semper justa est, ut dicit
+          <lb ed="#Bb"/>Gregorius, tamen propter intentionem
+          <lb ed="#Bb"/>malam mali sunt: motus enim 
+          intelli<lb ed="#Bb" break="no"/>gentie, precipue ex fine intento et 
+          infor<lb ed="#Bb" break="no"/>matur et denominatur,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e775">
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod
+          <lb ed="#Bb"/>Glossa illa intelligitur quantum ad 
+          in<lb ed="#Bb" break="no"/>tentionem diaboli, que semper mala est.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e784">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod Augustini
+          <lb ed="#Bb"/>auctoritas intelligitur, quod tota vita
+          <lb ed="#Bb"/>infidelium peccatum est, hoc est, in 
+          pec<lb ed="#Bb" break="no"/>cato: quia nullum peccatum sive 
+          modi<lb ed="#Bb" break="no"/>cum, sive grande, sine gratia remittitur,
+          <lb ed="#Bb"/>quam illi non habent : non tamen
+          <lb ed="#Bb"/>propter hoc quolibet motu suo peccant.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e802">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod obstinatio in
+          <lb ed="#Bb"/>malo non mutavit naturam, sed inten~
+          <lb ed="#Bb"/>tionem : et ideo nihil prohibet, quin 
+          mo<lb ed="#Bb" break="no"/>tibus naturalibus non peccet.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e813">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod per opposi-~
+          <lb ed="#Bb"/>tum se habent Angelus bonus et malus :
+          <lb ed="#Bb"/>sed in Angelo bono sunt etiam potentie
+          <lb ed="#Bb"/>naturales, a quibus actus egredientes
+          <lb ed="#Bb"/>indifferentes sunt, secundum quod 
+          hu<lb ed="#Bb" break="no"/>jusmodi : sed boni sunt bonitate gratia,
+          <lb ed="#Bb"/>hoc est, per informationem intentionis,
+          <lb ed="#Bb"/>sicut et motus diaboli et mali efficiuntur
+          <lb ed="#Bb"/>per intentionem informationis in malo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e835">
+                     <lb ed="#Bb"/>Ad ultimum dicendum, quod Christus
+          <lb ed="#Bb"/>omnia bene egit : quia per gratiam
+          <lb ed="#Bb"/>unionis, qua unitus fuit deitati, per 
+          in<lb ed="#Bb" break="no"/>tentionem omnia retulit ad gratiam et
+          <lb ed="#Bb"/>gloriam Dei, et ad opus redemptionis : et
+          <lb ed="#Bb"/>diabolus omnia male, quia omnia refert ”
+          <lb ed="#Bb"/>ad Dei odium per intentionem obstinatam
+          <lb ed="#Bb"/>in malo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e856">
+                     <lb ed="#Bb"/>Av 1 quod objicitur in contrarium, 
+          di<lb ed="#Bb" break="no"/>cendum quod hoc ipso quod Deo obedit
+          <lb ed="#Bb"/>exeundo de obessis, male agit, quia 
+          invi<lb ed="#Bb" break="no"/>tus fugit. Unde Auguslinus super 
+          pri<lb ed="#Bb" break="no"/>mam canonicam Joannis : <quote xml:id="Almn78-d59861-Qd1e869"> Nemo 
+            in<lb ed="#Bb" break="no"/>vitus bene facit, etsi bonum est quod
+            <lb ed="#Bb"/>facit. </quote>
+                  </p>
+               </div>
+               <div xml:id="Almn78-d59861-Dd1e878">
+                  <head xml:id="Almn78-d59861-Hd1e880">Articulus 3</head>
+                  <head xml:id="Almn78-d59861-Hd1e883" type="question-title">
+          Utrum culpa diaboli aliquid virtutis
+          secum compatiatur
+        </head>
+                  <p xml:id="Almn78-d59861-d1e886">
+                     <lb ed="#Bb"/>MEMBRI PRIMI
+          <lb ed="#Bb"/>ARTICULUS III.
+          <lb ed="#Bb"/>Utrum culpa diaboli aliquid virtutis
+          <lb ed="#Bb"/>secum compatiatur?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e897">
+                     <lb ed="#Bb"/>Tertio queritur, Utrum culpa diaboli
+          <lb ed="#Bb"/>aliquid secum virtutis compatiatur ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e904">
+                     <pb ed="#Bb" n="273"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>Et videtur, quod sic.
+          <lb ed="#Bb"/>1. Dionysius in libro de Divinis 
+          nomi<lb ed="#Bb" break="no"/>nibus : <quote xml:id="Almn78-d59861-Qd1e917"> Quod secundum omnem 
+            mo<lb ed="#Bb" break="no"/>dum bono privatum esi nusquam nullo
+            <lb ed="#Bb"/>iodo, nec erat, nec est, nec erit,.nec
+            <lb ed="#Bb"/>esse potest '. </quote> Ergo videtur, quod culpa
+          <lb ed="#Bb"/>demonis aliquid habet virlutis 
+          admix<lb ed="#Bb" break="no"/>tun.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e932">
+                     <lb ed="#Bb"/>2. Si quis dicat, quod Dionysius 
+          lo<lb ed="#Bb" break="no"/>quitur ibi de bono quod convertitur cum
+          <lb ed="#Bb"/>ente, quod est bonum natura. Conta :
+          <lb ed="#Bb"/>Sic sequitur in littera ibidem : <quote xml:id="Almn78-d59861-Qd1e942"> 
+            Impu<lb ed="#Bb" break="no"/>dicus quamvis privatus est bono 
+            secun<lb ed="#Bb" break="no"/>dum irrationabilem concupiscentiam, in
+            <lb ed="#Bb"/>hoc quidem neque est, neque existentia
+            <lb ed="#Bb"/>concupiscit : in hoc tamen quod 
+            concu<lb ed="#Bb" break="no"/>piscit, participat bonum secundum ipsam
+            <lb ed="#Bb"/>unitionis et amicitie obscuram 
+            resonan<lb ed="#Bb" break="no"/>tiam. </quote> Ex hoc patet, quod Dionysius
+          <lb ed="#Bb"/>ponit bonum etiam in actu peccati : 
+          mul<lb ed="#Bb" break="no"/>to ergo magis in agente et faciente 
+          pec<lb ed="#Bb" break="no"/>catum : actus enim peccati voluntarius
+          <lb ed="#Bb"/>est : et non potest participare bono, nisi
+          <lb ed="#Bb"/>virtulis, quia ad aliud bonum non est
+          <lb ed="#Bb"/>ordinatus : et opposita apta sunt nata
+          <lb ed="#Bb"/>fieri circa idem : bonum autem virtutis et
+          <lb ed="#Bb"/>malum peccati opposita sunt.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e979">
+                     <lb ed="#Bb"/>3. Adhuc, Dionysius, ibidem, <quote xml:id="Almn78-d59861-Qd1e983"> Furor
+            <lb ed="#Bb"/>quidem participat bono, secundum ipsum
+            <lb ed="#Bb"/>moveriet desiderare, apparentia mala ad
+            <lb ed="#Bb"/>apparens pulchium redigere et 
+            conver<lb ed="#Bb" break="no"/>tere. </quote> Ex hoc iterum accipitur, quod in
+          <lb ed="#Bb"/>ipso furore bonum est quod desiderat
+          <lb ed="#Bb"/>furens : et hoc si compatiatur secum
+          <lb ed="#Bb"/>bonum virtutis, multo magis ipse qui 
+          fu<lb ed="#Bb" break="no"/>rit, compatilur secum bonum virtutis
+          <lb ed="#Bb"/>alicujus.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1006">
+                     <lb ed="#Bb"/>4. Adhuc, Dionysius, ibidem, <quote xml:id="Almn78-d59861-Qd1e1010"> 
+            Pessi<lb ed="#Bb" break="no"/>mam vitam desiderans et optimam ipsi
+            <lb ed="#Bb"/>apparantem secundum ipsum desiderare
+            <lb ed="#Bb"/>et ad optimam vitam respicere, 
+            partici<lb ed="#Bb" break="no"/>pat bonum. </quote> Ex hoc etiam patet, quod
+          <lb ed="#Bb"/>in intentione mali aliquid boni sit : et ex
+          <lb ed="#Bb"/>hoc sequitur idem quod prius.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1026">
+                     <lb ed="#Bb"/>5. Adhuc. Jacob. n, 19 : Demones
+          <lb ed="#Bb"/>credunt et contremiscunt. Sed si credunt :
+          <lb ed="#Bb"/>vel credunt fide informi, vel fide forma
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>
+                     <lb ed="#Bb"/>ta. Et quodeumque detur, aliquid 
+          virtu<lb ed="#Bb" break="no"/>tis habent : quia fides informis virtus
+          <lb ed="#Bb"/>est : fides autem formata, perfecta virtus.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1046">
+                     <lb ed="#Bb"/>6. Adhuc, Ibidem dicitur, quod 
+          con<lb ed="#Bb" break="no"/>tremiscunt. Ergo timorem habent: aut
+          <lb ed="#Bb"/>ergo servilem, aut castum. Et 
+          quodcum<lb ed="#Bb" break="no"/>que dicatur, donum sancti Spiritus est :
+          <lb ed="#Bb"/>ex fide enim non oritur nisi timor qui
+          <lb ed="#Bb"/>donum est Spiritus sancti : naturalis
+          <lb ed="#Bb"/>enim timor et humanus et mundanus non
+          <lb ed="#Bb"/>oriuntur ex fide. Donum autem 
+          Spiri<lb ed="#Bb" break="no"/>tus sancti aliquid virtutis est. Ergo 
+          ma<lb ed="#Bb" break="no"/>litia diaboli aliquid virtutis’ secundum
+          <lb ed="#Bb"/>se patitur.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1072">
+                     <lb ed="#Bb"/>7. Adhuc, Peccatum mortale in 
+          homi<lb ed="#Bb" break="no"/>ne non repugnat virtuti politic : quia
+          <lb ed="#Bb"/>multi etiam infideles multas virtutes 
+          ha<lb ed="#Bb" break="no"/>bent politicas, sicut dicitur de 
+          Philoso<lb ed="#Bb" break="no"/>phis, et sicut dicit Homerus in heroicis
+          <lb ed="#Bb"/>de Priamo et de Hectore. Unde 
+          Aristote<lb ed="#Bb" break="no"/>les in VU Ethicorum sic dicit : <quote xml:id="Almn78-d59861-Qd1e1089"> Inquit
+            <lb ed="#Bb"/>Homerus de Hectore, quod valde fuit
+            <lb ed="#Bb"/>optimus, et propter conversationem 
+            ho<lb ed="#Bb" break="no"/>nestatis, qua semper heroicas virtutes
+            <lb ed="#Bb"/>pretendit, non videbatur viri mortalis
+            <lb ed="#Bb"/>filius esse, sed Dei. </quote> Cum ergo 
+          demo<lb ed="#Bb" break="no"/>nes melioris nature sint, quam homo,
+          <lb ed="#Bb"/>videtur quod naturale bonum non sit
+          <lb ed="#Bb"/>ipsis adeo corruptum, quin  patiatur
+          <lb ed="#Bb"/>secum aliquid virtutis ad minus politice.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1113">
+                     <lb ed="#Bb"/>8. Adhuc, Bonum divinum, quo 
+          scili<lb ed="#Bb" break="no"/>cet Deus essentialiter, presentialiter,
+          <lb ed="#Bb"/>potentialiter est in omnibus, non potest
+          <lb ed="#Bb"/>esse privatum a natura demonis : quia
+          <lb ed="#Bb"/>si hoc diceretur, demon in esse non
+          <lb ed="#Bb"/>salvaretur, sed decideret in nihil, sicut
+          <lb ed="#Bb"/>ex nihilo factus est. Cum ergo hoc 
+          bo<lb ed="#Bb" break="no"/>num divinum majus sit omni bono 
+          vir<lb ed="#Bb" break="no"/>tulis, et natura demonis non obstante
+          <lb ed="#Bb"/>malilia compatiatur hoc secum, videtur
+          <lb ed="#Bb"/>quod multo magis compatiatur bonum
+          <lb ed="#Bb"/>virtutis secum, ad minus politice. -
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1142">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod malitia 
+          de<lb ed="#Bb" break="no"/>monis nihil compatitur secum virtutis,
+          <lb ed="#Bb"/>nec informis, nec formate, nec politice,
+          <lb ed="#Bb"/>nec theologice. ,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1153">
+                     <pb ed="#Bb" n="274"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod pro
+          <lb ed="#Bb"/>certo Dionysius loquitur de bono quod
+          <lb ed="#Bb"/>convertitur cum ente : et illud est ipsum
+          <lb ed="#Bb"/>esse rei : et ideo universaliter privatum
+          <lb ed="#Bb"/>tali bono, nihil est, sicut universaliter
+          <lb ed="#Bb"/>privatum esse, nihil est.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1173">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod Dionysius
+          <lb ed="#Bb"/>loquitur ibi de bono quod est pars 
+          bea<lb ed="#Bb" break="no"/>titudinis, non simpliciter,sed secundum
+          <lb ed="#Bb"/>obscuram resonantiam, secundum quod
+          <lb ed="#Bb"/>dicitur, quod omnis homo appetit 
+          bea<lb ed="#Bb" break="no"/>titudinem, et propter illam agit quidquid
+          <lb ed="#Bb"/>agit. Unde impudicus appetit dulcedinem
+          <lb ed="#Bb"/>amicitie, et delectabili tali frui : quod
+          <lb ed="#Bb"/>quidem delectabile (ut dicit Augustinus
+          <lb ed="#Bb"/>in libro II Confessionum) secundum
+          <lb ed="#Bb"/>aptum et pulchrum est in vera amicitia :
+          <lb ed="#Bb"/>in statera autem libidinis non est nisi
+          <lb ed="#Bb"/>secundum obscuram resonantiam : 
+          dele<lb ed="#Bb" break="no"/>ctabile enim petit : quod quidem delecta -
+          <lb ed="#Bb"/>bile nihil delectationis haberet, nisi esset
+          <lb ed="#Bb"/>resonantia obscura summe delectationis
+          <lb ed="#Bb"/>et summi boni. Et ideo talia bona vocat
+          <lb ed="#Bb"/>Augustinus nutus summi boni: sic 
+          di<lb ed="#Bb" break="no"/>cens in‘libro X Confessionum :  <quote xml:id="Almn78-d59861-Qd1e1216">Vae his
+            <lb ed="#Bb"/>qui diligunt nutus tuos pro te, non 
+            con<lb ed="#Bb" break="no"/>siderantes quid innuis !</quote>
+                  </p>
+                  <p xml:id="Almn78-d59861-d1e1224">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod bonum 
+          pa<lb ed="#Bb" break="no"/>cis et quietis in solo summo bono est
+          <lb ed="#Bb"/>secundum veritatem, sed illius 
+          resonan<lb ed="#Bb" break="no"/>tiam obscuram desiderat furens et 
+          ira<lb ed="#Bb" break="no"/>scens : ad hoc enim irascitur, ut repellat
+          <lb ed="#Bb"/>contrarium sibi nocens, quo repulso
+          <lb ed="#Bb"/>pacem habeat et quiescat. Propter quod
+          <lb ed="#Bb"/>Augustinus dicit quod bellum dicitur
+          <lb ed="#Bb"/>parvum bonum : quia eo queritur 
+          bo<lb ed="#Bb" break="no"/>num pacis et quietis, quod nutus et 
+          re<lb ed="#Bb" break="no"/>sonantia est summe pacis et summe
+          <lb ed="#Bb"/>quietis. Nec actus peccati ordinatus est
+          <lb ed="#Bb"/>ad bonum virlutis, secundum quod est
+          <lb ed="#Bb"/>actus, nisi in potentia valde remota:
+          <lb ed="#Bb"/>simpliciter autem privatus est bono
+          <lb ed="#Bb"/>virtutis, licet in ipso sit bonum quod est
+          <lb ed="#Bb"/>aliquis nutus et resonanlia summi boni,
+          <lb ed="#Bb"/>quia aliter nullo modo esset appetibilis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1266">
+                     <lb ed="#Bb"/>Per Hoc etiam patet solutio ad se
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>quens : quia illud expresse hoc dicit.
+          <lb ed="#Bb"/>Pessima enim vita nulli esset 
+          desidera<lb ed="#Bb" break="no"/>bilis, nisi in ipsa esset nutus et 
+          resonan<lb ed="#Bb" break="no"/>tia summi boni, per quam pessimo 
+          desi<lb ed="#Bb" break="no"/>derabilis efficitur talis vita.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1285">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod demones
+          <lb ed="#Bb"/>nec fidem informem, nec formatam 
+          ha<lb ed="#Bb" break="no"/>bent : utraque enim est in voluntate
+          <lb ed="#Bb"/>electiva : quia dicit Augustinus, quod
+          <lb ed="#Bb"/>cetera potest homo nolens, credere non
+          <lb ed="#Bb"/>nisi volens : et utraque credit Deo 
+          prop<lb ed="#Bb" break="no"/>ter se et super omnia, et utraque (sicut
+          <lb ed="#Bb"/>dicit Dionysius in libro de Divinis 
+          nomi<lb ed="#Bb" break="no"/>nibus ') est lumen collocans credentes in
+          <lb ed="#Bb"/>prima veritate, et primam, veritatem in
+          <lb ed="#Bb"/>ipsis. Et quod dicit Jacobus, quod 
+          ere<lb ed="#Bb" break="no"/>dunt, credere illud non est actus virtutis
+          <lb ed="#Bb"/>fidei, sed est illius fidei de qua dicit
+          <lb ed="#Bb"/>Aristoteles in HI de Anima, quod <quote xml:id="Almn78-d59861-Qd1e1317"> 
+            opi<lb ed="#Bb" break="no"/>nio juvata rationibus fit fides. </quote> Et sic
+          <lb ed="#Bb"/>demones ratione convicti et experimento
+          <lb ed="#Bb"/>pen, credunt Deum esse ullorem 
+          ini<lb ed="#Bb" break="no"/>quitatis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1330">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod timore 
+          con<lb ed="#Bb" break="no"/>tremiscuni : sed ille timor, nec servilis
+          <lb ed="#Bb"/>est, nec initialis. Timor enim servilis 
+          re<lb ed="#Bb" break="no"/>movet ab actu peccati timore pene,
+          <lb ed="#Bb"/>quamvis (ut dicit Gregorius) vivat in eo
+          <lb ed="#Bb"/>peccandi voluntas : et sequeretur opus,
+          <lb ed="#Bb"/>si speraretur impunitas. Demon autem
+          <lb ed="#Bb"/>non cessat ab actu peccati propter 
+          pae<lb ed="#Bb" break="no"/>nam. Et quod contremiscit timens 
+          pe<lb ed="#Bb" break="no"/>nam et judicium, non est nisi ex timore
+          <lb ed="#Bb"/>naturali, qui orilur ex tali fide, de qua
+          <lb ed="#Bb"/>paulo ante dictum est.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1359">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod licet demon
+          <lb ed="#Bb"/>nobilioris nature sit, quam homo, tamen
+          <lb ed="#Bb"/>bonum nature plus corruptum est in
+          <lb ed="#Bb"/>demone, quam in homine : est enim in
+          <lb ed="#Bb"/>demone corruptum secundum omnia
+          <lb ed="#Bb"/>quibus debebat ordinari ad bonum, hoc
+          <lb ed="#Bb"/>est, secundum rationem, et appetitum
+          <lb ed="#Bb"/>sive voluntatem, et quamcumque 
+          appa<lb ed="#Bb" break="no"/>rentiam boni. Secundum rationem enim
+          (ut dicit Dionysius in libro de Divinis
+          <lb ed="#Bb"/>nominibus *) malum ejus est furor irra
+          <pb ed="#Bb" n="275"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb" break="no"/>tionabilis, qua irrationabiliter exagitatur
+          <lb ed="#Bb"/>et irascitur contra omne bonum. 
+          Secun<lb ed="#Bb" break="no"/>dum appetitum (ut ibidem dicitur) malum
+          <lb ed="#Bb"/>ejus est demens concupiscentia, qua nulla
+          <lb ed="#Bb"/>mente frenatus malum concupiscit, et
+          <lb ed="#Bb"/>non bonum. Secundum apparens bonum,
+          <lb ed="#Bb"/>malum ejus est (ut ibidem dicitur) 
+          phan<lb ed="#Bb" break="no"/>tasia prolerva, secundum quod phantasia
+          <lb ed="#Bb"/>non dicitur potentia anime sensibilis,sed
+          <lb ed="#Bb"/>a oaivw Greece, quod Latine sonat 
+          appa<lb ed="#Bb" break="no"/>reo : quia contra omne quod apparet in
+          <lb ed="#Bb"/>boni specie et ratione, protervit et 
+          repu<lb ed="#Bb" break="no"/>gnat. Et ideo non sequitur, si malum
+          <lb ed="#Bb"/>hominis compatiatur secum aliquid 
+          vir<lb ed="#Bb" break="no"/>tutis, quod etiam malum demonis 
+          se<lb ed="#Bb" break="no"/>cum aliquid virtutis compatiatur.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1422">
+                     <lb ed="#Bb"/>Ad ultimum dicendum, quod bonum
+          <lb ed="#Bb"/>divinum licet in se majus sit omni bono,
+          <lb ed="#Bb"/>tamen secundum actum hune qui est
+          <lb ed="#Bb"/>continere et conservare, non ita repugnat
+          <lb ed="#Bb"/>nature corrupt ad bonum sicut bonum
+          <lb ed="#Bb"/>virlutis. Et ideo non sequitur, si bonum
+          <lb ed="#Bb"/>divinum secundum continere et 
+          con<lb ed="#Bb" break="no"/>servare, est in natura corrupta ad 
+          bo<lb ed="#Bb" break="no"/>num, quod etiam bonum virtutis possit
+          <lb ed="#Bb"/>inesse.
+        </p>
+               </div>
+               <div xml:id="Almn78-d59861-Dd1e1447">
+                  <head xml:id="Almn78-d59861-Hd1e1449">Articulus 4</head>
+                  <head xml:id="Almn78-d59861-Hd1e1452" type="question-title">
+          Quae sit causa obstinationis diaboli
+          in malo
+        </head>
+                  <p xml:id="Almn78-d59861-d1e1455">
+                     <lb ed="#Bb"/>MEMBRI PRIMI
+          <lb ed="#Bb"/>ARTICULUS IV.
+          <lb ed="#Bb"/>Quae sit causa obstinationis diaboli
+          <lb ed="#Bb"/>in malo ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1466">
+                     <lb ed="#Bb"/>Quarto queritur, Que sit causa 
+          obsti<lb ed="#Bb" break="no"/>nationis ejus in malo ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1473">
+                     <lb ed="#Bb"/>Et videtur, quod hee non
+          <lb ed="#Bb"/>Deo.
+          <lb ed="#Bb"/>1. Dionysius in libro de Divinis nomi
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>nibus : <quote xml:id="Almn78-d59861-Qd1e1486"> Optimi est optima adducere *. </quote>
+                     <lb ed="#Bb"/>Sed obstinatio in malo de pessimis est.
+          <lb ed="#Bb"/>Ergo optimum non conducit ad eam : 
+          op<lb ed="#Bb" break="no"/>timum autem est Deus: ergo Deus non
+          <lb ed="#Bb"/>conducit ad ipsam.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1499">
+                     <lb ed="#Bb"/>2. Adhuc, Augustinus : <quote xml:id="Almn78-d59861-Qd1e1503"> Sapientis
+            <lb ed="#Bb"/>non est facere aliquid, quo opus suum
+            <lb ed="#Bb"/>fiat deterius : </quote> sapiens autem est Deus :
+          <lb ed="#Bb"/>ergo non facit aliquid quo opus suum fiat
+          <lb ed="#Bb"/>deterius : sed per obstinationem in malo
+          <lb ed="#Bb"/>opus fit pessimum ; ergo hance non facit
+          <lb ed="#Bb"/>Deus.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1520">
+                     <lb ed="#Bb"/>3. Adhuc, In naturis sic est, quod
+          <lb ed="#Bb"/>causa efficiens alicujus secundum esse,
+          <lb ed="#Bb"/>confirmata et corroborata est causa 
+          con<lb ed="#Bb" break="no"/>firmationis in illo et immobilitatis : sicut
+          <lb ed="#Bb"/>equalitis humorum facit sanitatem, et
+          <lb ed="#Bb"/>eadem corroborata facit immobilitalem
+          <lb ed="#Bb"/>et confirmationem sanitatis : ergo in
+          <lb ed="#Bb"/>spiritualibus videtur debere  similiter
+          <lb ed="#Bb"/>esse : sed in damone voluntas peccati
+          <lb ed="#Bb"/>fuit causa peccali : ergo eadem 
+          corrobo<lb ed="#Bb" break="no"/>rata est cansa obstinationis in peccato.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1546">
+                     <lb ed="#Bb"/>Contra :
+          <lb ed="#Bb"/>1. Anselmus in libro de Casu diaboli
+          <lb ed="#Bb"/>dicit : <quote xml:id="Almn78-d59861-Qd1e1554"> Illi Angeli qui maluerunt illud
+            <lb ed="#Bb"/>plus quod Deus illis nondum dare 
+            vole<lb ed="#Bb" break="no"/>bat, quam stare in justitia in qua facti
+            <lb ed="#Bb"/>erant, eadem justitia judicante, et illud
+            <lb ed="#Bb"/>peopter quod illam contempserunt, 
+            ne<lb ed="#Bb" break="no"/>quaquam obtinuerunt, et quod tenebant
+            <lb ed="#Bb"/>bonum, amiserunt. Sic ergo distincti
+            <lb ed="#Bb"/>sunt Angeli, ut adherentes justitie 
+            nul<lb ed="#Bb" break="no"/>lum bonum velle possint, quo non 
+            gau<lb ed="#Bb" break="no"/>deant, et deserentes illam, nullum 
+            bo<lb ed="#Bb" break="no"/>num velle queant, quo non careant. </quote> Ex
+          <lb ed="#Bb"/>hoc videtur, quod justitia Dei causa est
+          <lb ed="#Bb"/>obstinationis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1584">
+                     <lb ed="#Bb"/>Sed contra.
+          <lb ed="#Bb"/>2. Adhuc, <name xml:id="Almn78-d59861-Nd1e1590">Prosper</name> in libro de 
+          Con<lb ed="#Bb" break="no"/>templativa vita: <quote xml:id="Almn78-d59861-Qd1e1595"> Illi Angeli qui se
+            <lb ed="#Bb"/>contra Creatorem suum typo superbise
+            <lb ed="#Bb"/>lethales hostiliter extulerunt, de 
+            super<lb ed="#Bb" break="no"/>na celi regione projecti sunt: quos 
+            di<lb ed="#Bb" break="no"/>vina sententia eo judicio condemnavit,
+            <pb ed="#Bb" n="276"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb"/>ut quia noluerunt perseverare cum 
+            pos<lb ed="#Bb" break="no"/>sent, nec velint reparari neque possint :
+            <lb ed="#Bb"/>siquidem prevaricationis eorum  fuit,
+            <lb ed="#Bb"/>quod irrevocabilis judicii 
+            animadver<lb ed="#Bb" break="no"/>sione percussi sunt. Et ad damnationem
+            <lb ed="#Bb"/>justissimam profecto pertinuit, quod 
+            fa<lb ed="#Bb" break="no"/>cultatem redeundi ac voluntatem penitus
+            <lb ed="#Bb"/>amiserunt. </quote> Ergo judicium Dei videtur
+          <lb ed="#Bb"/>esse causa obstinationis,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1632">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod obstinatio
+          <lb ed="#Bb"/>dupliciter consideratur, scilicet ut 
+          af<lb ed="#Bb" break="no"/>fectus immobilis ad malum : et sic 
+          pro<lb ed="#Bb" break="no"/>cedit a voluntate diaboli indurata, nec
+          <lb ed="#Bb"/>timore peenarum retrahitur, nec pietate
+          <lb ed="#Bb"/>mollitur, sicut dicilur, Job, xu, 15
+          <lb ed="#Bb"/>Cor ejus indurabitur tamquam lapis,
+          <lb ed="#Bb"/>et stringetur quasi malleatoris incus.
+          <lb ed="#Bb"/>Potest etiam considerari ut peena, 
+          scili<lb ed="#Bb" break="no"/>cet secundum quod est non posse redire
+          <lb ed="#Bb"/>ad bonum, quod maxima peena est. Et
+          <lb ed="#Bb"/>hoc non potuit procedere, nisi a justo
+          <lb ed="#Bb"/>Dei judicio, secundum quod inflicta est :
+          <lb ed="#Bb"/>sicut omnis pena peccati inflictaa Dei
+          <lb ed="#Bb"/>judicio procedit.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1667">
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+          obs<lb ed="#Bb" break="no"/>tinatio. secundum quod est affectus 
+          im<lb ed="#Bb" break="no"/>mobilis in malo, non procedit ab optimo
+          <lb ed="#Bb"/>Deo, quia sic pessima est : sed 
+          secun<lb ed="#Bb" break="no"/>dum. quod est pena peccati, sic 
+          re<lb ed="#Bb" break="no"/>splendet in ea decor justitie : et sic 
+          opli<lb ed="#Bb" break="no"/>ma est.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1686">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod secundum
+          <lb ed="#Bb"/>quod pena est punitiva delicti, sapientis
+          <lb ed="#Bb"/>opus est, et non facit opus deterius, sed
+          <lb ed="#Bb"/>melius : quia iniquitas que non punitur,
+          <lb ed="#Bb"/>turpis est, et punita decore justitie# 
+          re<lb ed="#Bb" break="no"/>splendet : sicut dicit Ambrosius, quod
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-d59861-Qd1e1703">fur pulcher est in patibulo, et Judas
+            <lb ed="#Bb"/>sedet in inferno sicut gemma carbunculi
+            <lb ed="#Bb"/>in auro, </quote>
+                  </p>
+                  <p xml:id="Almn78-d59861-d1e1711">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+          proce<lb ed="#Bb" break="no"/>dit secundum quod obstinatio est in 
+          ge<lb ed="#Bb" break="no"/>nere culpe, et est immobilis affectus in
+          <lb ed="#Bb"/>malo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1722">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>Ad id quod objicitur in contrarium, 
+          <lb ed="#Bb"/>dicendum, quod et Anselmus et Prosper
+          <lb ed="#Bb"/>loquuntur de obstinatione, secundum
+          <lb ed="#Bb"/>quod est pena justissimo Dei judicio
+          <lb ed="#Bb"/>inflicta : justissimum enim est, quod
+          <lb ed="#Bb"/>Angelus qui deiformis intellectus erat,
+          <lb ed="#Bb"/>et nihil in se habuit quod inclinaret eum
+          <lb ed="#Bb"/>ad peccaudum, sed propria electione
+          <lb ed="#Bb"/>spontanea elegit malum, in eo 
+          immobi<lb ed="#Bb" break="no"/>lis permaneret quod elegit Quod enim
+          <lb ed="#Bb"/>in hominibus est mors, ut dicit 
+          Dama<lb ed="#Bb" break="no"/>scenus, hoc est in Angelis casus. Unde
+          <lb ed="#Bb"/>sicut homo post mortem non potest 
+          re<lb ed="#Bb" break="no"/>parari, ita nec Angelus post casum :
+          <lb ed="#Bb"/>tunc enim est tempus retributionis, non
+          <lb ed="#Bb"/>merili.
+        </p>
+               </div>
+            </div>
+            <div xml:id="Almn78-d59861-Dd1e1764">
+               <head xml:id="Almn78-d59861-Hd1e1766">Membrum 2</head>
+               <head xml:id="Almn78-d59861-Hd1e1769" type="question-title">
+        In quid ceciderit Angelus malus quoad
+        poenam
+      </head>
+               <p xml:id="Almn78-d59861-d1e1772">
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>In quid ceciderit Angelus malus quoad
+        <lb ed="#Bb"/>poenam ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e1781">
+                  <lb ed="#Bb"/>Deinde queritur, In quid cecidit
+        <lb ed="#Bb"/>quoad poenam ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e1788">
+                  <lb ed="#Bb"/>Et non queremus de peen's 
+        exterio<lb ed="#Bb" break="no"/>ribus que sunt in inferno, hoc enim
+        <lb ed="#Bb"/>pertinet ad questionem de i/ferno:
+        <lb ed="#Bb"/>sed queremus de his pcenis, in quas
+        <lb ed="#Bb"/>cecidit per peecatum. Sicut enim homo
+        <lb ed="#Bb"/>per peccatum cecidit in ignorantiam
+        <lb ed="#Bb"/>agendorum, et difficultatlem operandi
+        <lb ed="#Bb"/>bene, et pronitatem ad malum, et 
+        passi<lb ed="#Bb" break="no"/>bilitatem a contrariis, quem si non 
+        pec<lb ed="#Bb" break="no"/>casset, ut dicit Augustinus, nec‘ ignis
+        <lb ed="#Bb"/>ureret, nec gladius scinderet, nec aqua
+        <lb ed="#Bb"/>submergeret. Ita dicitur de diabolo,
+        <lb ed="#Bb"/>quod incidit in peenas ex peccato, 
+        scili<lb ed="#Bb" break="no"/>cet ignem sentiendo et patiendo ab ipso,
+        <lb ed="#Bb"/>et a frigore similiter. Dicitur enim,
+        <lb ed="#Bb"/>Matth. xin, 50, quod ibi erit fletus et
+        <lb ed="#Bb"/>stridor dentium : fletus ex flamma, stri
+        <pb ed="#Bb" n="277"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>dor dentium ex frigore. Et dicit 
+        Diony<lb ed="#Bb" break="no"/>sius in libro de Divinis nominibus, quod
+        <quote xml:id="Almn78-d59861-Qd1e1835">talum demonis, est furor 
+          irrationa<lb ed="#Bb" break="no"/>bilis, demens concupiscentia, et 
+          phan<lb ed="#Bb" break="no"/>tasia proterva'. </quote>
+               </p>
+               <p xml:id="Almn78-d59861-d1e1844">
+                  <lb ed="#Bb"/>Et circa hoc necesse est duo querere:
+        <lb ed="#Bb"/>omnia enim haec in homine sunt circa
+        <lb ed="#Bb"/>sensibilem partem, et sine sensu 
+        im<lb ed="#Bb" break="no"/>possibile est hoc fieri.
+      </p>
+               <p xml:id="Almn78-d59861-d1e1855">
+                  <lb ed="#Bb"/>Queremus ergo primo, si sensibilis
+        <lb ed="#Bb"/>potentia est in demone cum differentiis
+        <lb ed="#Bb"/>suis, que sunt sensus, et 
+        concupiscibi<lb ed="#Bb" break="no"/>lis, et irascibilis, et phantasia ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e1866">
+                  <lb ed="#Bb"/>Et secundo, Qualiter hac mala sunt
+        <lb ed="#Bb"/>in ipso ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e1873">
+                  <lb ed="#Bb"/>Et quia etiam de pcenis et verme
+        <lb ed="#Bb"/>conscientize queremus, tertio, Utrum
+        <lb ed="#Bb"/>synderesis secundum quam est vermis
+        <lb ed="#Bb"/>conscientie, est in demone?
+      </p>
+               <div xml:id="Almn78-d59861-Dd1e1884">
+                  <head xml:id="Almn78-d59861-Hd1e1886">Articulus 1</head>
+                  <head xml:id="Almn78-d59861-Hd1e1889" type="question-title">
+          Utrum pars sensibilis sit in daemone
+          cum omnibus suis differentiis, quae
+          sunt sensus et appetitus, 
+          concupiscibilis et irascibilis
+        </head>
+                  <p xml:id="Almn78-d59861-d1e1892">
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS I.
+          <lb ed="#Bb"/>Utrum pars sensibilis sit in daemone
+          <lb ed="#Bb"/>cum omnibus suis differentiis, quae
+          <lb ed="#Bb"/>sunt sensus et appetitus, 
+          concupisci<lb ed="#Bb" break="no"/>bilis et irascibilis ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1908">
+                     <lb ed="#Bb"/>ARTICULI PRIMI
+          <lb ed="#Bb"/>PARTICULA I.
+          <lb ed="#Bb"/>Utrum sensus sint in demone?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1917">
+                     <lb ed="#Bb"/>Primo ergo queritur, Utrum sensibi
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>lis pars cum suis differentiis sit in 
+          de<lb ed="#Bb" break="no"/>mone ? a
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1929">
+                     <lb ed="#Bb"/>Et videtur, quod demoni insit 
+          sen<lb ed="#Bb" break="no"/>sibilis pars :
+          <lb ed="#Bb"/>1. Cognoscit enim sensibilia 
+          secun<lb ed="#Bb" break="no"/>dum quod sensibilia sunt, ut in 
+          preha<lb ed="#Bb" break="no"/>bitis determinatum est, hoc est 
+          secun<lb ed="#Bb" break="no"/>dum quod hic et nunc : hec autem sine
+          <lb ed="#Bb"/>sensu cognosci non possunt: ergo 
+          vi<lb ed="#Bb" break="no"/>detur, quod daemonibus insit sensitiva
+          <lb ed="#Bb"/>pars.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1951">
+                     <lb ed="#Bb"/>2. Adhuc, Constat, quod sentit 
+          cali<lb ed="#Bb" break="no"/>dum ab igne secundum contactum :
+          <lb ed="#Bb"/>hoc autem sine sensu tactus fieri non
+          <lb ed="#Bb"/>potest : ergo videtur, quod insit et
+          <lb ed="#Bb"/>sensus tactus. ,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e1964">
+                     <lb ed="#Bb"/>3. Adhuc, Augustinus in libro XXI
+          <lb ed="#Bb"/>de Civitate Det : <quote xml:id="Almn78-d59861-Qd1e1970" source="http://scta.info/resource/adcd-l21-d1e3514@123-210">Cur non dicamus,
+            <lb ed="#Bb"/>quamvis miris, tamen veris modis etiam
+            <lb ed="#Bb"/>spirilus incorporeos posse pcena 
+            corpo<lb ed="#Bb" break="no"/>ralis ignis affligi, si spiritus hominum
+            <lb ed="#Bb"/>eliam ipsi incorporei, et nunc possunt
+            <lb ed="#Bb"/>includi corporalibus membris, et tune
+            <lb ed="#Bb"/>poterunt corporum suorum  vinculis
+            <lb ed="#Bb"/>insolubiliter alligari? Adherebunt ergo
+            <lb ed="#Bb"/>si eis nulla sint corpora spiritus 
+            daemo<lb ed="#Bb" break="no"/>num, imo spiritus dzemones, licet 
+            in<lb ed="#Bb" break="no"/>corporei, tamen corporeis ignibus 
+            cru<lb ed="#Bb" break="no"/>ciandi : non ut ignes ipsi, quibus 
+            adhe<lb ed="#Bb" break="no"/>rebunt, eorum junclura inspirentur, et
+            <lb ed="#Bb"/>animalia fiant, que constent spiritu et
+            <lb ed="#Bb"/>corpore : sed, ut dixi, miris et 
+            ineffabi<lb ed="#Bb" break="no"/>libus modis adhzrendo accipientes ex
+            <lb ed="#Bb"/>ignibus peenam, non dantes ignibus 
+            vi<lb ed="#Bb" break="no"/>tam</quote>.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2010">
+                     <lb ed="#Bb"/>4, Adhuc Isidorus : <quote xml:id="Almn78-d59861-Qd1e2014"> Multa noverunt
+            <lb ed="#Bb"/>Angeli per experientiam, que a 
+            princi<lb ed="#Bb" break="no"/>pio non cognoverunt :</quote> experientia 
+          au<lb ed="#Bb" break="no"/>tem non est nisi secundum partem 
+          sen<lb ed="#Bb" break="no"/>sibilem : ergo potentiam sensitivam 
+          ha<lb ed="#Bb" break="no"/>bent.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2028">
+                     <lb ed="#Bb"/>5. Adhuc, Dionysius in libro de 
+          Di<lb ed="#Bb" break="no"/>vinis nominibus*, dicit, quod in 
+          demo<lb ed="#Bb" break="no"/>nibus est phantasia proterva : phantasia
+          <pb ed="#Bb" n="278"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>non est nisi in parte sensiliva : ergo 
+          par<lb ed="#Bb" break="no"/>tem habent sensitivam,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2046">
+                     <lb ed="#Bb"/>6. Adhuc, Gregorius dicit, quod 
+          illu<lb ed="#Bb" break="no"/>siones phantastice in somnis fiunt per
+          <lb ed="#Bb"/>demones : cum ergo nihil det nisi quod
+          <lb ed="#Bb"/>habet, demon habet phantasiam : et
+          <lb ed="#Bb"/>non habet nisi secundum parlem 
+          sen<lb ed="#Bb" break="no"/>sitivam : ergo habet partem  
+          sensiti<lb ed="#Bb" break="no"/>vam.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2065">
+                     <lb ed="#Bb"/>7. Adhuc, Augustinus in libro VIII
+          <lb ed="#Bb"/>de Civitate Dei: <quote xml:id="Almn78-d59861-Qd1e2071" source="http://scta.info/resource/adcd-l8-d1e1128@79-148">Universi mundi 
+            cor<lb ed="#Bb" break="no"/>pus, figuras, qualitates, ordinatumque
+            <lb ed="#Bb"/>motum et elementa disposita a ccelo 
+            us<lb ed="#Bb" break="no"/>que ad terram, et quecumque corpora
+            <lb ed="#Bb"/>in eis sunt sive omnem vitam, vel que
+            <lb ed="#Bb"/>nutrit et continet, qualis est in 
+            arbori<lb ed="#Bb" break="no"/>bus : vel que hee habet et cum hoc
+            <lb ed="#Bb"/>sentit, qualis est in animalibus : vel que
+            <lb ed="#Bb"/>hec habet et intelligit, qualis est in 
+            ho<lb ed="#Bb" break="no"/>minibus: vel que nutritorio subsidio
+            <lb ed="#Bb"/>non indiget, sed tantum continet, sentit,
+            <lb ed="#Bb"/>intelligit, qualis est in Angelis</quote>. Et
+          <lb ed="#Bb"/>ex hoc accipitur, quod in Angelo est et
+          <lb ed="#Bb"/>vegetativa et sensitiva : cum ergo omnia
+          <lb ed="#Bb"/>naturalia retinuerit demon, et 
+          vegeta<lb ed="#Bb" break="no"/>tivam et sensitivam habet.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2107">
+                     <lb ed="#Bb"/>In contrarium hujus est,
+          <lb ed="#Bb"/>1.Quod dicit Aristotelesin II de Anima,
+          <lb ed="#Bb"/>quod omnis sensus est secundum 
+          con<lb ed="#Bb" break="no"/>sonantiam organi corporei et 
+          harmo<lb ed="#Bb" break="no"/>niam : nulla harmonia organi corporei
+          <lb ed="#Bb"/>est in demone : ergo nullus sensus nec
+          <lb ed="#Bb"/>interior nec exterior : ergo nec pars
+          <lb ed="#Bb"/>sensitiva.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2127">
+                     <lb ed="#Bb"/>2. Adhuc, Intelligentia angelica 
+          se<lb ed="#Bb" break="no"/>cundum naturam excellentior est, quam
+          <lb ed="#Bb"/>intelligentia humana: sed homo 
+          secun<lb ed="#Bb" break="no"/>dum partem intellectivam nullius 
+          sen<lb ed="#Bb" break="no"/>sus susceptibilis est : ergo multo 
+          mi<lb ed="#Bb" break="no"/>nus susceptibilis est intelligentia 
+          ange<lb ed="#Bb" break="no"/>lica,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2145">
+                     <lb ed="#Bb"/>3. Adhuc, Forma sensibilis corporalis
+          <lb ed="#Bb"/>est: et oportet proportionem esse inter
+          <lb ed="#Bb"/>susceptibile et susceptum : ergo videtur,
+          <lb ed="#Bb"/>quod non suscipiatur, nisi in organo
+          <lb ed="#Bb"/>corporeo : angelica natura est tota spi
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>ritualis : ergo nullam potentiam habet
+          <lb ed="#Bb"/>susceptivam sensibilium specierum.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2165">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod in Angelo
+          <lb ed="#Bb"/>non est potentia sensitiva secundum
+          <lb ed="#Bb"/>naturam : Angeli enim natura tota 
+          in<lb ed="#Bb" break="no"/>tellectualis est, et per consequens 
+          sim<lb ed="#Bb" break="no"/>plex, et incorporea : et ab illa 
+          impossi<lb ed="#Bb" break="no"/>bile est fluere potentiam corpoream,
+          <lb ed="#Bb"/>qualis est sensitiva tam interior quam
+          <lb ed="#Bb"/>exterior.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2185">
+                     <lb ed="#Bb"/>Unde rationes in contrarium adducta,
+          <lb ed="#Bb"/>procedunt.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2193">
+                     <lb ed="#Bb"/>Ad primum autem dicendum, quod
+          <lb ed="#Bb"/>Angelus, et demon non cognoscunt
+          <lb ed="#Bb"/>sensibilia prout sunt hic et nunc, per
+          <lb ed="#Bb"/>sensum, sed per intellectum per species
+          <lb ed="#Bb"/>formarum, que sunt similitudines artis
+          <lb ed="#Bb"/>qua facta sunt sensibilia, ut in 
+          anteha<lb ed="#Bb" break="no"/>bitis in questione, Qualiter Angeli
+          <lb ed="#Bb"/>cognoscunt — sensibilia , determinatum
+          <lb ed="#Bb"/>est.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2215">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod calidum ab
+          <lb ed="#Bb"/>igne non percipit sensu tactus, sed 
+          po<lb ed="#Bb" break="no"/>tius specie intcllectus, prout percipit
+          <lb ed="#Bb"/>speciem flamme secundum quod est 
+          ul<lb ed="#Bb" break="no"/>trix iniquitatis : quam speciem accipit a
+          <lb ed="#Bb"/>virtute justitia divine, cujus est 
+          pro<lb ed="#Bb" break="no"/>prium instrumentum ulciscens peccatum
+          <lb ed="#Bb"/>in peccatoribus.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2235">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod Augustinus
+          <lb ed="#Bb"/>vocat miros modos, quibus corporalis
+          <lb ed="#Bb"/>ignis affligit spiritus incorporeos : quia
+          <lb ed="#Bb"/>species corporea ignis non adheret eis
+          <lb ed="#Bb"/>ut corporea sensibiliter : sed, ut dictum
+          <lb ed="#Bb"/>est, adheret eis intelligibiliter ut 
+          ulci<lb ed="#Bb" break="no"/>scens et insequens iniquitatem. Et ideo
+          <lb ed="#Bb"/>est, quod ab ignibus sumunt peenam, et
+          <lb ed="#Bb"/>non dant ignibus vitam : nullus enim
+          <lb ed="#Bb"/>actus vite est circa tales species, sed
+          <lb ed="#Bb"/>tantum ab ipsis est afflictio passionis in
+          <lb ed="#Bb"/>quam inciderunt ex demerito iniquita~
+          <lb ed="#Bb"/>tis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2266">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod hec est
+          <lb ed="#Bb"/>falsa, quod experientia non est nisi circa
+          <lb ed="#Bb"/>partem sensitivam : licet enim expe
+          <pb ed="#Bb" n="279"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>rientia sit singularium cognitio, in 
+          An<lb ed="#Bb" break="no"/>gelo tamen non est per sensum, sed per
+          <lb ed="#Bb"/>intellectum : talis enim cognitio 
+          singu<lb ed="#Bb" break="no"/>larium (ut paulo ante dictum est) prout
+          <lb ed="#Bb"/>sunt hie et nunc, ab Isidoro vocatur
+          <lb ed="#Bb"/>experientia.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2292">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod phantasia
+          <lb ed="#Bb"/>non dicitur in demonibus esse, prout
+          <lb ed="#Bb"/>est potentia sensibilis, sed prout 
+          obscu<lb ed="#Bb" break="no"/>ratio intelligibilis : intelligibile enim
+          <lb ed="#Bb"/>quod in lumine intelligentie clarum est,
+          <lb ed="#Bb"/>consideratum sub nebula peccati 
+          obscu<lb ed="#Bb" break="no"/>rantis intellectum, obscurum est, et hoc
+          <lb ed="#Bb"/>vocatur phantasia in demonibus.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2312">
+                     <lb ed="#Bb"/>Ad primum Gregorii dicendum, quod
+          <lb ed="#Bb"/>demones faciunt illusiones in somnis,
+          <lb ed="#Bb"/>ordinando et confundendo et 
+          pertur<lb ed="#Bb" break="no"/>bando phantasmata, que sunt in 
+          sensi<lb ed="#Bb" break="no"/>bili anima somniantis, et non immitendo
+          <lb ed="#Bb"/>phantasmata que in seipsis habeant.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2329">
+                     <lb ed="#Bb"/>Ad ultimum dicendum, quod 
+          Augu<lb ed="#Bb" break="no"/>stinus non intendit dicere, quod Angeli
+          <lb ed="#Bb"/>habeant vegetabilem et sensitivam 
+          par<lb ed="#Bb" break="no"/>tem ut nutrientia et sentienlia, sed quod
+          <lb ed="#Bb"/>habent eam secundum actum vegetandi
+          <lb ed="#Bb"/>et sensibilia percipiendi, sicut potentia
+          <lb ed="#Bb"/>superior habet ea que sunt inferioris
+          (ut dicit Dionysius) excellenter et 
+          emi<lb ed="#Bb" break="no"/>nenter.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2349">
+                     <lb ed="#Bb"/>ARTICULI PRIMI
+          <lb ed="#Bb"/>PARTICULA I.
+          <lb ed="#Bb"/>Utrum demones habeant 
+          concupiscibi<lb ed="#Bb" break="no"/>lem et irascibilem, que a Philosophis
+          <lb ed="#Bb"/>dicuntur inesse secundum partem
+          <lb ed="#Bb"/>sensibilem' ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2365">
+                     <lb ed="#Bb"/>Juxta hoc ulterius queritur, Utrum
+          <lb ed="#Bb"/>demones habeant concupiscibilem et
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>irascibilem, que a Philosophis 
+          dicun<lb ed="#Bb" break="no"/>tur inesse secundum partem  
+          sensibi<lb ed="#Bb" break="no"/>lem ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2381">
+                     <lb ed="#Bb"/>Et videtur, quod. sic.
+          <lb ed="#Bb"/>1. Dicit enim Dionysius, quod inest eis
+          <lb ed="#Bb"/>demens concupiscentia : et hoc 
+          adjecti<lb ed="#Bb" break="no"/>vu, demens, non diminuit 
+          concupi<lb ed="#Bb" break="no"/>scentiam, sed auget : et ubi est actus, ibi
+          <lb ed="#Bb"/>est potentia : ergo concupiscentia cum
+          <lb ed="#Bb"/>sit actus concupiscibilis, ostendit eis
+          <lb ed="#Bb"/>inesse concupiscibilem.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2401">
+                     <lb ed="#Bb"/>Eodem modo probatur, quod inest
+          <lb ed="#Bb"/>eis irascibilis. Furor enim actus est 
+          ira<lb ed="#Bb" break="no"/>scibilis : et ubi est actus,ibi est potentia.
+          <lb ed="#Bb"/>Dicit autem Dionysius, quod inest eis
+          <lb ed="#Bb"/>furor irrationabilis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2414">
+                     <lb ed="#Bb"/>2. Adhuc, Que per naturam insunt
+          <lb ed="#Bb"/>omnibus Angelis, hee etiam insunt 
+          de<lb ed="#Bb" break="no"/>monibus : sed multipliciter probatur,
+          <lb ed="#Bb"/>quod concupiscibilis et irascibilis insunt
+          <lb ed="#Bb"/>per naturam omnibus Angelis. Primo,
+          <lb ed="#Bb"/>quia per concupiscibilem est appetitus
+          <lb ed="#Bb"/>boni, per irascibilem fuga mali: hee
+          <lb ed="#Bb"/>autem per naturam insunt omnibus 
+          An<lb ed="#Bb" break="no"/>gelis ; ergo irascibilis et concupiscibilis
+          <lb ed="#Bb"/>insunt eis. Secundo, quia Angeli boni
+          <lb ed="#Bb"/>diligunt nostram salutem, et Angeli
+          <lb ed="#Bb"/>mali irascuntur. Apocal. xi1,12 : 
+          Descen<lb ed="#Bb" break="no"/>dit diabolus ad vos, habens iram 
+          mag<lb ed="#Bb" break="no"/>nam. Dilectio autem et ira non insunt,
+          <lb ed="#Bb"/>nisi secundum concupiscibilem et 
+          irasci<lb ed="#Bb" break="no"/>bilem. Ergo concupiscibilis et irascibilis
+          <lb ed="#Bb"/>insunt Angelis tam bonis, quam malis
+          <lb ed="#Bb"/>per naturam. Tertio, quia boni Angeli
+          <lb ed="#Bb"/>habent gaudium, et mali tristitiam: et
+          <lb ed="#Bb"/>hec non insunt nisi secundum 
+          concupi<lb ed="#Bb" break="no"/>scibilem et irascibilem. Quarto, In libro
+          <lb ed="#Bb"/>de Spiritu et anima dicitur, quod 
+          trini<lb ed="#Bb" break="no"/>tas secundum quam anima assimilalur
+          <lb ed="#Bb"/>Deo, est rationabilitas, concupiscibilitas,
+          <lb ed="#Bb"/>et-irascibilitas : Angelus autem similior
+          <lb ed="#Bb"/>est Deo, quam anima rationalis. Ergo
+          <lb ed="#Bb"/>hee tria magis sunt in Angelo, quam in
+          <lb ed="#Bb"/>anima rationali. Quinto, quia Glossa,
+          <lb ed="#Bb"/>Exod. xxvi, 32, super illud : Appendes
+          <lb ed="#Bb"/>velum ante quatuor columnas : <quote xml:id="Almn78-d59861-Qd1e2481"> Qua-
+            <pb ed="#Bb" n="280"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb" break="no"/>tuor columne ante quas appensum est
+            <lb ed="#Bb"/>velum, sunt potestates cceli quatuor 
+            vir<lb ed="#Bb" break="no"/>tutibus eximiis predite, scilicet 
+            fortitu<lb ed="#Bb" break="no"/>dine, temperantia, prudentia, justitia
+            <lb ed="#Bb"/>que aliter servantur in ccelis ab Angelis
+            <lb ed="#Bb"/>et animabus sanctis, et aliter hic. </quote> Et
+          <lb ed="#Bb"/>ibidem dicit Glossa, quod angelici 
+          spiri<lb ed="#Bb" break="no"/>tus quatuor virtutes colunt plenarie :
+          <lb ed="#Bb"/>sed virtutes iste non insunt, nisi 
+          secun<lb ed="#Bb" break="no"/>dum tres potentias, scilicet rationalem,
+          <lb ed="#Bb"/>concupiscibilem, et irascibilem : ergo
+          <lb ed="#Bb"/>iste tres potentie insunt omnibus 
+          Ange<lb ed="#Bb" break="no"/>lis et bonis et malis per naturam. Sexto,
+          <lb ed="#Bb"/>Constat, quia in Angelo est motus in
+          <lb ed="#Bb"/>verum, et motus'in bonum, et motus in
+          <lb ed="#Bb"/>arduum : et ista non sunt nisi secundum
+          <lb ed="#Bb"/>rationalem, et concupiscibilem, et 
+          ira<lb ed="#Bb" break="no"/>scibilem : ergo iste tres potentie insunt
+          <lb ed="#Bb"/>omnibus Angelis et bonis et malis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2531">
+                     <lb ed="#Bb"/>ContTRA :
+          <lb ed="#Bb"/>1. Damascenus et Gregorius Nyssenus
+          <lb ed="#Bb"/>letitiam dividunt in animalem, et 
+          cor<lb ed="#Bb" break="no"/>poralem : neutra convenit Angelis : ergo
+          <lb ed="#Bb"/>nec concupiscibilis, cujus est actus 
+          leti<lb ed="#Bb" break="no"/>tia vel passio.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2547">
+                     <lb ed="#Bb"/>2. Adhuc, Secundum Aristotelem,
+          <lb ed="#Bb"/>concupiscentia non est sine protensione
+          <lb ed="#Bb"/>sanguinis et spiritus et caloris in 
+          concu<lb ed="#Bb" break="no"/>piscibile : talium nihil est in Angelis :
+          <lb ed="#Bb"/>ergo nec concupiscibilis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2560">
+                     <lb ed="#Bb"/>3. Adhuc, Ita, ut dicit Damascenus
+          <lb ed="#Bb"/>accensio est sanguinis circa cor ex 
+          eva<lb ed="#Bb" break="no"/>poratione fellis : nihil talium’ est in 
+          An<lb ed="#Bb" break="no"/>gelis : ergo nec irascibilis. ,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2571">
+                     <lb ed="#Bb"/>4, Adhuc, Augustinus in libro IX de
+          <lb ed="#Bb"/>Civitate Dei, quatuor passiones 
+          natu<lb ed="#Bb" break="no"/>rales, scilicet tristiliam, gaudium, spem,
+          <lb ed="#Bb"/>et timorem vocat perturbationes : 
+          per<lb ed="#Bb" break="no"/>turbatio autem secundum naturam non
+          <lb ed="#Bb"/>convenit Angelis : ergo iste quatuor
+          <lb ed="#Bb"/>passiones non conveniunt Angelis 
+          se<lb ed="#Bb" break="no"/>cundum naturam : ergo nec vires 
+          secun<lb ed="#Bb" break="no"/>dum quas insunt: he autem sunt 
+          con<lb ed="#Bb" break="no"/>cupiscibilis et irascibilis : ergo iste vires
+          <lb ed="#Bb"/>non insunt Angelis per naturam, sive
+          <lb ed="#Bb"/>bonis, sive malis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2600">
+                     <lb ed="#Bb"/>5. Adhuc, Non videtur esse verum
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>quod dicit Glossa super Exodum. Dicit
+          <lb ed="#Bb"/>enim Beda, quod fortitudo est in perfe~
+          <lb ed="#Bb"/>rendis molestiis, et temperantia in 
+          coer<lb ed="#Bb" break="no"/>cendis delectationibus pravis, prudentia
+          <lb ed="#Bb"/>in precavendis insidiis : quorum nihil
+          <lb ed="#Bb"/>convenit Angelis secundum naturam ;
+          <lb ed="#Bb"/>ergo nec potentia secundum quas insunt
+          <lb ed="#Bb"/>iste virtutes : ille autem sunt 
+          concupi<lb ed="#Bb" break="no"/>scibilis et irascibilis : ergo concupiscibilis
+          <lb ed="#Bb"/>et irascibilis per naturam non insunt
+          <lb ed="#Bb"/>Angelis, nec demonibus.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2631">
+                     <lb ed="#Bb"/>Solutio. Ad hanc questionem 
+          anti<lb ed="#Bb" break="no"/>qui responderunt, dicentes, quod 
+          concu<lb ed="#Bb" break="no"/>piscibilis et irascibilis dupliciter 
+          dicun<lb ed="#Bb" break="no"/>tur, scilicet proprie, et communiter.
+          <lb ed="#Bb"/>Communiter omnis appetitus boni in
+          <lb ed="#Bb"/>quo protenditur voluntas in bonum, sive
+          <lb ed="#Bb"/>ille appetitus ordinatus sit ratione, sive
+          <lb ed="#Bb"/>non, dicitur concupiscibilis : et hance 
+          di<lb ed="#Bb" break="no"/>xerunt esse concupiscibilem humanam
+          <lb ed="#Bb"/>ut humanam. Proprie vero sive stricte
+          <lb ed="#Bb"/>dicitur concupiscibilis desiderium 
+          sensi<lb ed="#Bb" break="no"/>bile, in quo in apparens bonum sibi 
+          pro<lb ed="#Bb" break="no"/>tenditur calor naturalis cum motu 
+          san<lb ed="#Bb" break="no"/>guinis et spiritus in sibi bonum : et hanc
+          <lb ed="#Bb"/>dixerunt esse concupiscibilem brutalem,
+          <lb ed="#Bb"/>quam communem habent homines et
+          <lb ed="#Bb"/>bruta animalia,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2671">
+                     <lb ed="#Bb"/>Similiter distinxerunt irascibilem, 
+          sci<lb ed="#Bb" break="no"/>licet quod communiter dicta irascibilis
+          <lb ed="#Bb"/>dicitur omnis insurrectio appetitus 
+          con<lb ed="#Bb" break="no"/>tra malum et in arduum, sive sit ex 
+          or<lb ed="#Bb" break="no"/>dine rationis, sive non; et hanc dixerunt
+          <lb ed="#Bb"/>esse irascibilem humanam ut humanam,
+          <lb ed="#Bb"/>in qua ul in subjecto proprio fortitudo
+          -yirlus est. Proprie autem dicta sive
+          <lb ed="#Bb"/>stricte irascibilis, est insurrectio contra
+          <lb ed="#Bb"/>appareus nocivum cum ebullitione 
+          san<lb ed="#Bb" break="no"/>guinis et caloris : et hanc dixerunt esse
+          <lb ed="#Bb"/>communem homini et brutis. Et hee
+          <lb ed="#Bb"/>distinctio bona est et tenenda.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2700">
+                     <lb ed="#Bb"/>Dicendum ergo, quod nihil prohibet 
+          con<lb ed="#Bb" break="no"/>cupiscibilem et irascibilem primo modo
+          <lb ed="#Bb"/>dictas, secundum quosdam actus 
+          ordina<lb ed="#Bb" break="no"/>tos a ratione inesse Angelis per naturam.
+          <lb ed="#Bb"/>Sed concupiscibilem et irascibilem se
+          <pb ed="#Bb" n="281"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb" break="no"/>cundo modo dictas, nullo modo 
+          conce<lb ed="#Bb" break="no"/>dendum est posse inesse Angelis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2722">
+                     <lb ed="#Bb"/>Et per hoc patet solutio ad duo 
+          pri<lb ed="#Bb" break="no"/>ma ; quia illa omnia procedunt de 
+          con<lb ed="#Bb" break="no"/>cupiscibili et irascibili ordinatis a 
+          ra<lb ed="#Bb" break="no"/>tione, in quibus nullus motus est caloris
+          <lb ed="#Bb"/>vel sanguinis vel spiritus animalis,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2735">
+                     <lb ed="#Bb"/>Ad primum quod contra hoc objicitur,
+          <lb ed="#Bb"/>dicendum, quod Damascenus et 
+          Grego<lb ed="#Bb" break="no"/>rius ibi non loquuntur nisi de letitia,
+          <lb ed="#Bb"/>que est concupiscibilis stricte dicte.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2746">
+                     <lb ed="#Bb"/>Per ipem patet solutio ad sequens :
+          <lb ed="#Bb"/>quia de eodem procedit.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2753">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod iram definit
+          <lb ed="#Bb"/>ibi Damascenus, prout est passio 
+          irascibi<lb ed="#Bb" break="no"/>lis stricte dict, que est communis 
+          ho<lb ed="#Bb" break="no"/>mini et brutis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2765">
+                     <lb ed="#Bb"/>Per ipem patet solutio ad dictum 
+          Au<lb ed="#Bb" break="no"/>gustini sequens : quia passiones 
+          natura<lb ed="#Bb" break="no"/>les non dicuntur perturbationes, nisi 
+          se<lb ed="#Bb" break="no"/>cundum quod communes sunt 
+          homini<lb ed="#Bb" break="no"/>bus et brutis : propter quod, sicut
+          <lb ed="#Bb"/>Augustinus ibidem dicit, <quote xml:id="Almn78-d59861-Qd1e2780"> Stoici probant
+            <lb ed="#Bb"/>tales perturbationes non cadere in 
+            sa<lb ed="#Bb" break="no"/>pientem. </quote>
+                  </p>
+                  <p xml:id="Almn78-d59861-d1e2788">
+                     <lb ed="#Bb"/>Ad ultimum dicendum, quod verum_
+          <lb ed="#Bb"/>est quod dicit Glossa : fortitudo enim in
+          <lb ed="#Bb"/>Angelis, ut dicit Augustinus, est fortiter
+          <lb ed="#Bb"/>adherere amato : prudentia, prudenter
+          <lb ed="#Bb"/>adherere amato : temperantia, amore
+          <lb ed="#Bb"/>casto adherere amato. Et hoc dicit 
+          Au<lb ed="#Bb" break="no"/>gustinus in libro de Moribus, et in 
+          li<lb ed="#Bb" break="no"/>bro IX de Civitate Dei. Et Beda non 
+          lo<lb ed="#Bb" break="no"/>quitur de istis virtutibus, nisi secandum
+          <lb ed="#Bb"/>quod suntin nobis qui adhuc animales
+          <lb ed="#Bb"/>sumus, et non glorificati, secundum 
+          sla<lb ed="#Bb" break="no"/>{um in quo nobis est lucta contra 
+          car<lb ed="#Bb" break="no"/>nem et sanguinem.
+        </p>
+               </div>
+               <div xml:id="Almn78-d59861-Dd1e2820">
+                  <head xml:id="Almn78-d59861-Hd1e2822">Articulus 2</head>
+                  <head xml:id="Almn78-d59861-Hd1e2825" type="question-title">
+          Qualiter haec mala sunt in demone, 
+          scilicet furor irrationabilis, demens 
+          concupiscentia, et phantasia proterva
+        </head>
+                  <p xml:id="Almn78-d59861-d1e2828">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS II.
+          <lb ed="#Bb"/>Qualiter haec mala sunt in demone, 
+          sci<lb ed="#Bb" break="no"/>licet furor irrationabilis, demens 
+          con<lb ed="#Bb" break="no"/>cupiscentia, et phantasia proterva ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2844">
+                     <lb ed="#Bb"/>Secundo queritur, Qualiter hec mala
+          <lb ed="#Bb"/>sunt in ipso demone ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2851">
+                     <lb ed="#Bb"/>Videtur enim, quod in demonibus
+          <lb ed="#Bb"/>non sit furor irrationabilis.
+          <lb ed="#Bb"/>4. Irrationabilis enim furor dicitur a
+          <lb ed="#Bb"/>privatione potentia, et illa non 
+          privan<lb ed="#Bb" break="no"/>tur: aut a privatione habitus rationis,
+          <lb ed="#Bb"/>et illo similiter non privantur, quia 
+          con<lb ed="#Bb" break="no"/>creatus est eis, et sub illo cognoscunt
+          <lb ed="#Bb"/>cognoscibilia in inferioribus. Aut dicitur
+          <lb ed="#Bb"/>a privatione actus, et illo similiter non
+          <lb ed="#Bb"/>privantur, si enim furit demon, non 
+          fu<lb ed="#Bb" break="no"/>rit nisi secundum potentiam motivam :
+          <lb ed="#Bb"/>et illa non movetur, nisi fiat ei initium a
+          <lb ed="#Bb"/>cognitiva : semper ergo actus rationis
+          <lb ed="#Bb"/>in quem furendum est, precedit 
+          furo<lb ed="#Bb" break="no"/>rem : numquam ergo est furor 
+          irratio<lb ed="#Bb" break="no"/>nabilis a privatione actus rationis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2889">
+                     <lb ed="#Bb"/>2, Similiter, Videtur quod malum 
+          de<lb ed="#Bb" break="no"/>monis non sit demens concupiscentia.
+          <lb ed="#Bb"/>Concupiscentia enim (que est in actu
+          <lb ed="#Bb"/>concupiscendi) motus est motive vel
+          <lb ed="#Bb"/>communiter vel proprie dicte : et hec
+          <lb ed="#Bb"/>non movetur, nisi a mente fiat ei 
+          nun<lb ed="#Bb" break="no"/>tium a concupiscentia : ergo neque 
+          pri<lb ed="#Bb" break="no"/>vatur mens secundum quod potentia est,
+          <lb ed="#Bb"/>nec secundum quod habitus est, nec 
+          se<lb ed="#Bb" break="no"/>cundum quod est actus : et sic videtur,
+          <lb ed="#Bb"/>quod demens concupiscentia non sit
+          <lb ed="#Bb"/>malum demonis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2918">
+                     <lb ed="#Bb"/>3. Similiter, Videtur quod nec 
+          phan<lb ed="#Bb" break="no"/>tasia proterva. Phantasia enim pars
+          <lb ed="#Bb"/>sensibilis anime est, que non est in
+          <lb ed="#Bb"/>demone, sicut paulo ante habitum est :
+          <lb ed="#Bb"/>et sic nullum eorum (que dicit 
+          Diony<lb ed="#Bb" break="no"/>sius) malum demonis videtur esse,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2934">
+                     <pb ed="#Bb" n="282"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>Solutio. Hee tria sunt malum 
+          demo<lb ed="#Bb" break="no"/>nis secundum ordinem demonis in 
+          bo<lb ed="#Bb" break="no"/>num in quo corruptus est per peccatum.
+          <lb ed="#Bb"/>Perlectus enim ordo in bonum consistit
+          <lb ed="#Bb"/>in tribus in rationali creatura, ut scilicet
+          <lb ed="#Bb"/>optime ordinetur contra malum 
+          secun<lb ed="#Bb" break="no"/>dum fugam, et optime in bonum 
+          cligen<lb ed="#Bb" break="no"/>dum et faciendum, et optime in verum
+          <lb ed="#Bb"/>secundum intellectum dirigentem, et
+          <lb ed="#Bb"/>contra malum et in bonum. Et contra
+          <lb ed="#Bb"/>primum ordinem est furor irrationabilis,
+          <lb ed="#Bb"/>contra secundum demens 
+          concupiscen<lb ed="#Bb" break="no"/>tia, contra tertium phantasia proterva.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e2969">
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+          fu<lb ed="#Bb" break="no"/>ror irrationabilis non dicitur a 
+          privatio<lb ed="#Bb" break="no"/>ne potentie rationis, nec a privatione
+          <lb ed="#Bb"/>habitus rationis, nec a privatione actus
+          <lb ed="#Bb"/>qui est nuntiare contra quod furendum
+          <lb ed="#Bb"/>sit vel irascendum : sed dicitur a 
+          priva<lb ed="#Bb" break="no"/>tione ordinis rationis. Rationis enim est
+          <lb ed="#Bb"/>ordinare motivam in omni actu suo, ut
+          <lb ed="#Bb"/>ordinate moveatur. Unde deberet 
+          ordi<lb ed="#Bb" break="no"/>nare, quod demon non irasceretur 
+          ma<lb ed="#Bb" break="no"/>lo : tune enim esset ira per zelum que
+          <lb ed="#Bb"/>ordinata est et bona. Nunc autem per
+          <lb ed="#Bb"/>corruptionem peccali inordinato motu
+          <lb ed="#Bb"/>irascitur bono et furit contra ipsum : et
+          <lb ed="#Bb"/>a privatione talis ordinis dicitur furor
+          <lb ed="#Bb"/>irrationabilis,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3006">
+                     <lb ed="#Bb"/>Av ww quod objicitur de demente 
+          con<lb ed="#Bb" break="no"/>cupiseentia, fere eodem modo 
+          respon<lb ed="#Bb" break="no"/>dendum est. Mens enim grammatice a
+          <lb ed="#Bb"/>metior, metiris derivatur, ut dicit 
+          Da<lb ed="#Bb" break="no"/>mascenus : sed secundum quod dicit
+          <lb ed="#Bb"/>Aristoteles in X prime philosophiz,
+          <lb ed="#Bb"/>sapiens mensura est omnium : quia 
+          sic<lb ed="#Bb" break="no"/>ut idem dicit in primo prime 
+          philoso<lb ed="#Bb" break="no"/>phiz, sapientis est ordinare : et sicut
+          <lb ed="#Bb"/>dicit in VII £thicorum, continentia est
+          <lb ed="#Bb"/>mora in mente. Unde mentis est 
+          ordi<lb ed="#Bb" break="no"/>nare et mensurare quid et quantum 
+          de<lb ed="#Bb" break="no"/>beat concupisci, et qualiter quodlibet.
+          <lb ed="#Bb"/>Et quia in demone his actibus privatur
+          <lb ed="#Bb"/>mens : concupiscit enim malum, et odit
+          <lb ed="#Bb"/>bonum, et multum concupiscit malum,
+          <lb ed="#Bb"/>et perverso ordine rationis et mentis:
+          <lb ed="#Bb"/>ideo a tali corruptione dicitur demens
+          <lb ed="#Bb"/>concupiscentia, et non a privatione 
+          men<lb ed="#Bb" break="no"/>tis secundum quod potentia est, neque
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>a privatione mentis secundum quod 
+          ha<lb ed="#Bb" break="no"/>bitus est, nec a privatione omnis actus
+          <lb ed="#Bb"/>mentis, sed illius qui dictus est, 
+          secun<lb ed="#Bb" break="no"/>dun quod mentis est ordinare et 
+          mensu<lb ed="#Bb" break="no"/>rare ea que coficupiscenda sunt 
+          secun<lb ed="#Bb" break="no"/>dum quid, et quantum, et qualiter, ut
+          <lb ed="#Bb"/>dictum est.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3069">
+                     <lb ed="#Bb"/>Ad id autem quod objicitur de 
+          phan<lb ed="#Bb" break="no"/>tasia proterva, dicendum quod 
+          phanta<lb ed="#Bb" break="no"/>sia non sumitur ibi secundum quod est
+          <lb ed="#Bb"/>potentia sensibilis anime : sed a 
+          simili<lb ed="#Bb" break="no"/>tudine per translationem corruptus 
+          in<lb ed="#Bb" break="no"/>tellectus ad verum, dicitur phantasticus.
+          <lb ed="#Bb"/>Sicut intelligibile in phantasmate 
+          accep<lb ed="#Bb" break="no"/>tum, obscuratum est appenditiis 
+          mate<lb ed="#Bb" break="no"/>rialibus, ut dicit Avicenna, et lumine
+          <lb ed="#Bb"/>intelligentiz non perlustratur, nisi 
+          sepa<lb ed="#Bb" break="no"/>ratum ab illis : ita intellectus daemonis
+          <lb ed="#Bb"/>obscuratus per peccatum, non accipit
+          <lb ed="#Bb"/>verum quod intelligibile est, nisi in 
+          um<lb ed="#Bb" break="no"/>bra corruptionis peccati : et cum ex 
+          ra<lb ed="#Bb" break="no"/>tione non possit contra verum negando,
+          <lb ed="#Bb"/>quia, sicut dicitur in apocrypho Esdre,
+          <lb ed="#Bb"/>ut, 12: Super omnia vineit veritas, 
+          ta<lb ed="#Bb" break="no"/>men potervit ex malitia contra verum :
+          <lb ed="#Bb"/>et hoc malum accidit ei ex peccato quod
+          <lb ed="#Bb"/>incidit, quia cum ante peccatum 
+          deifor<lb ed="#Bb" break="no"/>mis esset intellectus, et lumen veritatis
+          <lb ed="#Bb"/>in lumine divino acciperet, sicut dicitur,
+          <lb ed="#Bb"/>Psal, xxxv, 10: In lumine tuo 
+          videbi<lb ed="#Bb" break="no"/>mus lumen: modo corrupto intellectu
+          <lb ed="#Bb"/>per peccatum, umbroso accipit 
+          intelle<lb ed="#Bb" break="no"/>ctu, et ideo protervit contra ipsum.
+        </p>
+               </div>
+               <div xml:id="Almn78-d59861-Dd1e3130">
+                  <head xml:id="Almn78-d59861-Hd1e3132">Articulus 3</head>
+                  <head xml:id="Almn78-d59861-Hd1e3135" type="question-title">
+          Utrum synderesis sit in daemone
+        </head>
+                  <p xml:id="Almn78-d59861-d1e3138">
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS III.
+          <lb ed="#Bb"/>Utrum synderesis sit in demone ?
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3147">
+                     <lb ed="#Bb"/>Tertio queritur de synderesi, Utrum
+          <lb ed="#Bb"/>ipsa sit in demone ? quia secundum eam
+          <lb ed="#Bb"/>est vermis conscientie.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3156">
+                     <lb ed="#Bb"/>Et videtur, quod non.
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>1. Si enim esset in demone, tunc per
+          <lb ed="#Bb"/>naturam esset in ipso: et cum una na~
+          <lb ed="#Bb"/>tura sit boni et mali Angeli, tune etiam
+          <lb ed="#Bb"/>esset in bono Angelo: hoc autem non
+          <lb ed="#Bb"/>videlur : synderesis enim, ut dicit 
+          Gre<lb ed="#Bb" break="no"/>gorius, proprium actum habet 
+          remur<lb ed="#Bb" break="no"/>murare malo, et huncnon habet in bono
+          <lb ed="#Bb"/>Angelo, quia non habet malum : nec
+          <lb ed="#Bb"/>habet in malo, quia non remurmurat
+          <lb ed="#Bb"/>malo, sed placet ei : ergo secundum
+          <lb ed="#Bb"/>actum proprium nec est in bono nec in
+          <lb ed="#Bb"/>malo : omnis autem potentia inest 
+          se<lb ed="#Bb" break="no"/>cundum actum proprium : ergo videtur,
+          <lb ed="#Bb"/>quod potentia, que dicitur synderesis,
+          <lb ed="#Bb"/>nec sit in bono, nec in malo Angelo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3196">
+                     <lb ed="#Bb"/>2. Adhuc, Hieronymus super 
+          princi<lb ed="#Bb" break="no"/>pium Exzechielis, super illud : Facies
+          <lb ed="#Bb"/>aguile desuper ipsorum quatuor' : 
+          di<lb ed="#Bb" break="no"/>cit, quod <quote xml:id="Almn78-d59861-Qd1e3206"> per faciem aquile significatar
+            <lb ed="#Bb"/>synderesis in homine : </quote> et non attribuit
+          <lb ed="#Bb"/>ipsam Angelo : ergo videtur, quod 
+          An<lb ed="#Bb" break="no"/>gelis non conveniat.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3217">
+                     <lb ed="#Bb"/>3, Adhuc, Ibidem dicit Hieronymus,
+          <lb ed="#Bb"/>quod <quote xml:id="Almn78-d59861-Qd1e3223"> synderesis data est homint in 
+            adju<lb ed="#Bb" break="no"/>torium resurgendi de peccato : </quote> Angelus
+          <lb ed="#Bb"/>non resurgit a peccato, quia bonus non
+          <lb ed="#Bb"/>peccavit, ct malus reparari non potest :
+          <lb ed="#Bb"/>ergo videtur, quod synderesis non in
+          <lb ed="#Bb"/>insit Angelis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3238">
+                     <lb ed="#Bb"/>4. Adhuc, Gregorius super illud Job,
+          <lb ed="#Bb"/>1, 15: Evasi ego solus, ut nuntiarem
+          <lb ed="#Bb"/>tibi : dicit, quod <quote xml:id="Almn78-d59861-Qd1e3246"> synderesis est scintilla
+            <lb ed="#Bb"/>conscienti#, que remurmurat malo, et
+            <lb ed="#Bb"/>nuntiat malum quod factum est. </quote> Si 
+          er<lb ed="#Bb" break="no"/>go conscientia non est in Angelo, 
+          sequi<lb ed="#Bb" break="no"/>tur quod nec scintilla conscientie, nec
+          <lb ed="#Bb"/>synderesis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3261">
+                     <lb ed="#Bb"/>Quod autem conscientia non sit in
+          <lb ed="#Bb"/>Angelo, probatur sic : A quocumque 
+          re<lb ed="#Bb" break="no"/>moventur omnes differentie alicujus
+          <lb ed="#Bb"/>communis, ab illo eodem removetur
+          <lb ed="#Bb"/>illud commune : sed differentia 
+          con<lb ed="#Bb" break="no"/>scientie, sunt recta et erronea, sana et
+          <lb ed="#Bb"/>cauteriata, tranquilla et perturbata : et
+          <lb ed="#Bb"/>omnes he differenti removentur a 
+          na<lb ed="#Bb" break="no"/>tura angelica. Natura enim angelica 
+          se<lb ed="#Bb" break="no"/>cundum se recta est per deiformem in
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>tellectum : et ideo non indiget 
+          rectifi<lb ed="#Bb" break="no"/>cante conscientia. Similiter secundum se
+          <lb ed="#Bb"/>ordinata est, licet secundum electionem
+          <lb ed="#Bb"/>liberi arbitrii inordinata sit in 
+          demoni<lb ed="#Bb" break="no"/>bus. Similiter secundum se sana est,
+          <lb ed="#Bb"/>nusquam cauteriata, et secundum se
+          <lb ed="#Bb"/>tranquilla, et non perturbata. Frustra
+          <lb ed="#Bb"/>ergo daretur ei conscientia ad hos actus :
+          <lb ed="#Bb"/>et in operibus divinis nihil est frustra :
+          <lb ed="#Bb"/>ergo videtur, quod non sit eis data 
+          con<lb ed="#Bb" break="no"/>scientia : ergo nec synderesis, quia 
+          syn<lb ed="#Bb" break="no"/>deresis est scintilla conscientie#, ut dicit
+          <lb ed="#Bb"/>Gregorius,
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3316">
+                     <lb ed="#Bb"/>Contra :
+          <lb ed="#Bb"/>1. <sic>Basiliussuper</sic> principium 
+          Proverbio<lb ed="#Bb" break="no"/>rum dicit, quod <quote xml:id="Almn78-d59861-Qd1e3327"> synderesis est naturale
+            <lb ed="#Bb"/>judicatorium, in quo scripta est lex 
+            na<lb ed="#Bb" break="no"/>turalis. </quote> Tale judicatorium de faciendis
+          <lb ed="#Bb"/>et non faciendis est in Angelis tam bonis,
+          <lb ed="#Bb"/>quam malis. Ergo synderesis est in 
+          An<lb ed="#Bb" break="no"/>gelis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3342">
+                     <lb ed="#Bb"/>2, Adhuc,Gregorius super Job : <quote xml:id="Almn78-d59861-Qd1e3346"> 
+            Syn<lb ed="#Bb" break="no"/>deresis est scintilla conscienlie, que 
+            in<lb ed="#Bb" break="no"/>clinat ad bonum, etremurmurat malo : </quote>
+                     <lb ed="#Bb"/>talis inclinatio ad bonum et 
+          remurmu<lb ed="#Bb" break="no"/>ratio convenit nature angelice : ergo
+          <lb ed="#Bb"/>synderesis convenit nature angelice.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3361">
+                     <lb ed="#Bb"/>3. Adhuc, Gaudium et delectatio sunt
+          <lb ed="#Bb"/>in conscientia boni : et hoc convenit et
+          <lb ed="#Bb"/>pertinet ad beatitudinem boni Angeli :
+          <lb ed="#Bb"/>ergo synderesis et conscientia secundum
+          <lb ed="#Bb"/>hune actum conveniunt bono Angelo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3374">
+                     <lb ed="#Bb"/>4, Adhuc, Tristitia et remorsus 
+          con<lb ed="#Bb" break="no"/>scientie sunt secundum conscientiam
+          <lb ed="#Bb"/>mali, ita quod (sicut dicit Aristoteles in
+          <lb ed="#Bb"/>IX E£thicorum) aliquando non 
+          invenien<lb ed="#Bb" break="no"/>tes in seipsis unde delectentur, 
+          interfi<lb ed="#Bb" break="no"/>ciunt seipsos. Unde, Sapient. xvu, 10 :
+          <lb ed="#Bb"/>Semper presumit seva, perturbata 
+          con<lb ed="#Bb" break="no"/>scientia. Et hoc pertinet ad 
+          damnatio<lb ed="#Bb" break="no"/>nem peccati per ordinem justitie 
+          divi<lb ed="#Bb" break="no"/>ne : ergo hoc debet esse in Angelo
+          <lb ed="#Bb"/>malo : ergo et synderesis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3400">
+                     <lb ed="#Bb"/>5. Adhue, Synderesis et prohzresis
+          <lb ed="#Bb"/>ejusdem ordinationis sunt : proheresis
+          <lb ed="#Bb"/>enim habitus est intelligibilis, regens in
+          <lb ed="#Bb"/>eligentia eligendorum : synderesis autem
+          <pb ed="#Bb" n="284"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>est potentia habitualis, habitu intellectivo
+          <lb ed="#Bb"/>regens in his que secundum ordinem
+          <lb ed="#Bb"/>naturalem et rectum appetenda vel 
+          fu<lb ed="#Bb" break="no"/>gienda sunt : propter quod dicit 
+          Philo<lb ed="#Bb" break="no"/>sophus in primo Ethicorum, quod 
+          pro<lb ed="#Bb" break="no"/>heresis alicujus boni operativa esse 
+          vi<lb ed="#Bb" break="no"/>detur : proh@resis est in Angelis : ergo
+          <lb ed="#Bb"/>et synderesis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3433">
+                     <lb ed="#Bb"/>Sotvtio. Dicendum, sicut dicitur,
+          <lb ed="#Bb"/>Isaiw, Lxvi, 24: Vermis eorum non 
+          mo<lb ed="#Bb" break="no"/>rietur. Sicut demones habent 
+          aftlictio<lb ed="#Bb" break="no"/>nem ignis : ita etiam habent afflictionem
+          <lb ed="#Bb"/>ex remorsu conscientie, sive synderesis
+          <lb ed="#Bb"/>murmurantis contra malum, et 
+          remorden<lb ed="#Bb" break="no"/>tis peccantem. Unde concedendum est,
+          <lb ed="#Bb"/>quod synderesis est in bonis et in malis
+          <lb ed="#Bb"/>Angelis, sed in bonis ad jucunditatem
+          <lb ed="#Bb"/>conscientie, in malis autem ad 
+          alflictio<lb ed="#Bb" break="no"/>nem et tristitiam ejusdem conscientia.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3459">
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod in
+          <lb ed="#Bb"/>bono Angelo est synderesis non 
+          secun<lb ed="#Bb" break="no"/>dum remurmurationem vel remorsum,
+          <lb ed="#Bb"/>sed ad jucunditatem et delectationem
+          <lb ed="#Bb"/>conscientie : in malis autem est 
+          secun<lb ed="#Bb" break="no"/>dum remorsum et afflictionem. Hud
+          <lb ed="#Bb"/>vero pertinet ad beatitudinem bonorum,
+          <lb ed="#Bb"/>et istud ad condemnationem malorum.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3479">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod 
+          Hierony<lb ed="#Bb" break="no"/>mus vult, quod synderesis differenter sit
+          <lb ed="#Bb"/>hominibus et Angelis : quia synderesis
+          <lb ed="#Bb"/>secundum omnes actus convenit homini,
+          <lb ed="#Bb"/>et non secundum omnes suos actus 
+          An<lb ed="#Bb" break="no"/>gelo.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3496">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod secundum
+          <lb ed="#Bb"/>actum qui est resurgere de peccatis, non
+          <lb ed="#Bb"/>convenit Angelis, sed secundum alios
+          <lb ed="#Bb"/>actus qui dicti sunt.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3507">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod secundum
+          <lb ed="#Bb"/>actus illarum differentiarum omnes, 
+          syn<lb ed="#Bb" break="no"/>deresis est in homine, et non in Angelo :
+          <lb ed="#Bb"/>sed secundum alios actus secundum
+          <lb ed="#Bb"/>quos est naturale judicatorium, et facit
+          <lb ed="#Bb"/>jucundari in bono in conscientia, et 
+          affli<lb ed="#Bb" break="no"/>ctionem in malo perpetrato, est in An
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>gelis : secundum primum quidem in
+          <lb ed="#Bb"/>ipsa natura angelica, et secundum £@-
+          <lb ed="#Bb"/>cundum in bonis Angelis, et secundum
+          <lb ed="#Bb"/>tertium in malis Angelis.
+        </p>
+                  <p xml:id="Almn78-d59861-d1e3536">
+                     <lb ed="#Bb"/>Qu in contrarium sunt adducta, 
+          con<lb ed="#Bb" break="no"/>ceduntur et procedunt.
+        </p>
+               </div>
+            </div>
+            <div xml:id="Almn78-d59861-Dd1e3545">
+               <head xml:id="Almn78-d59861-Hd1e3547">Membrum 3</head>
+               <head xml:id="Almn78-d59861-Hd1e3550" type="question-title">
+        In quid ceciderit Angelus malus quoad
+        locum
+      </head>
+               <p xml:id="Almn78-d59861-d1e3553">
+                  <lb ed="#Bb"/>MEMBRUM III
+        <lb ed="#Bb"/>In quid ceciderit Angelus malus quoad
+        <lb ed="#Bb"/>locum ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e3562">
+                  <lb ed="#Bb"/>Deinde queritur, In quid malus 
+        An<lb ed="#Bb" break="no"/>gelus cecidit quoad locum ?
+      </p>
+               <p xml:id="Almn78-d59861-d1e3569">
+                  <lb ed="#Bb"/>Et dicit Magister in libro H 
+        Sententia<lb ed="#Bb" break="no"/>rum, distinct. VI, cap. Solet gueri, quod
+        <lb ed="#Bb"/>
+                  <quote xml:id="Almn78-d59861-Qd1e3577">in istum caliginosum aerem 
+          cecide<lb ed="#Bb" break="no"/>runt : </quote> quotidie tamen descendunt in
+        <lb ed="#Bb"/>infernum, qui animas impiorum illuc
+        <lb ed="#Bb"/>deferunt, et ibi cruciant. De Lucifero
+        <lb ed="#Bb"/>etiam dicit, quod quidam opinantur,
+        <lb ed="#Bb"/>quod in inferno religatus sit, et ad nos
+        <lb ed="#Bb"/>tentandos modo ante tempora Antichristi
+        <lb ed="#Bb"/>accessum non habeat.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3597">
+                  <lb ed="#Bb"/>Contra hoc tamen objicitur.
+        <lb ed="#Bb"/>1. Il Petr. u, 4, dicitur, quod 
+        ruden<lb ed="#Bb" break="no"/>tibus inferni detracti sunt, qui trahunt
+        <lb ed="#Bb"/>in infernum, non in istum aerem,
+      </p>
+               <p xml:id="Almn78-d59861-d1e3608">
+                  <lb ed="#Bb"/>2. Adhuc, Locus peenarum eternarum
+        <lb ed="#Bb"/>infernus est : demones autem 
+        condem<lb ed="#Bb" break="no"/>nati sunt ad peenas eternas : ergo 
+        vide<lb ed="#Bb" break="no"/>tur, quod ceciderunt in infernum.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3619">
+                  <lb ed="#Bb"/>3. Adhuc, Summe superbie per 
+        ratio<lb ed="#Bb" break="no"/>nem condemnantis justitie debetur 
+        infi<lb ed="#Bb" break="no"/>mus locus : infimus locus infernus est :
+        <lb ed="#Bb"/>ergo summa superbia eorum projecta est
+        <lb ed="#Bb"/>in infernum.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3632">
+                  <lb ed="#Bb"/>ContTRA:
+        <lb ed="#Bb"/>1. II Sententiarum, distinet. VI, cap.
+        <lb ed="#Bb"/>Solet autem queri, dicitur, quod <quote xml:id="Almn78-d59861-Qd1e3640"> in
+          <lb ed="#Bb"/>istum caliginosum aerem projecti sunt. </quote>
+               </p>
+               <p xml:id="Almn78-d59861-d1e3646">
+                  <pb ed="#Bb" n="285"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>2. Adhuc, Apocal. xu, 9 : Projectus
+        <lb ed="#Bb"/>est draco ille magnus, serpens antiquus,
+        <lb ed="#Bb"/>qui vocatur diabolus et Satanas,... et
+        <lb ed="#Bb"/>projectus est in terram, et Angeli ejus
+        <lb ed="#Bb"/>cum illo missi sunt. Et, ibidem, y. 12 :
+        <lb ed="#Bb"/>Vez terre et mari, quia descendit diabolus
+        <lb ed="#Bb"/>ad vos, habens tram magnam.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3668">
+                  <lb ed="#Bb"/>3. Adhuc, Videtur quod alium locum
+        <lb ed="#Bb"/>sui casus habuerunt ante passionem 
+        Do<lb ed="#Bb" break="no"/>mini, et alium post, et alium in die 
+        judi<lb ed="#Bb" break="no"/>cii, Apocal. xx, f et seq. : Et vidi 
+        An<lb ed="#Bb" break="no"/>gelum descendentem de celo, habentem
+        <lb ed="#Bb"/>clavem abyssi, et catenam magnam in
+        <lb ed="#Bb"/>manu sua, Et apprehendit draconem,
+        <lb ed="#Bb"/>serpentem antiquum, qui est diabolus et
+        <lb ed="#Bb"/>Satanas, et ligavit eum per annos mille :
+        <lb ed="#Bb"/>et misit eum in abyssum, et clausit, et
+        <lb ed="#Bb"/>signavit super illum. Et infra, ¥.7 :
+        <lb ed="#Bb"/>Et cum consummati fuerint mille anni,
+        <lb ed="#Bb"/>solvetur Satanas de carcere suo, et 
+        exi<lb ed="#Bb" break="no"/>bit, et seducet gentes que sunt super
+        <lb ed="#Bb"/>quatuor angulos terre, Gog et Magog.
+        <lb ed="#Bb"/>Ergo videtur, quod ante tempus 
+        Incarna<lb ed="#Bb" break="no"/>tionis fuit in mundo cum hominibus, et
+        <lb ed="#Bb"/>per totum tempus gratie (quod per mille
+        <lb ed="#Bb"/>annos significatur) religatus sit in abysso,
+        <lb ed="#Bb"/>et tempore Antichristi iterum futurus in
+        <lb ed="#Bb"/>mundo cum hominibus.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3717">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod duplex est
+        <lb ed="#Bb"/>locus in quem cecidit damon. Unus 
+        se<lb ed="#Bb" break="no"/>cundum debitum culpe superbie sue.
+        <lb ed="#Bb"/>Alter secundum ordinem providentiz 
+        di<lb ed="#Bb" break="no"/>vine, que etiam malum quod fit, ut 
+        di<lb ed="#Bb" break="no"/>cit Augustinus, fieri non permitteret, nisi
+        <lb ed="#Bb"/>sciret que bona ex malo facto eliccret.
+        <lb ed="#Bb"/>Et de talibus dicit Gregorius, quod <quote xml:id="Almn78-d59861-Qd1e3736"> Deo
+          <lb ed="#Bb"/>militat etiam id quod per malitiam 
+          vo<lb ed="#Bb" break="no"/>luntatis contrariatur et obstat. </quote> Primus
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>locus casus, est profundum inferni : talis
+        <lb ed="#Bb"/>enim locus quia infimus est, tante 
+        su<lb ed="#Bb" break="no"/>perbie debetur. Isa. xiv, 15 : 
+        Verumta<lb ed="#Bb" break="no"/>men ad infernum detraheris, in 
+        profun<lb ed="#Bb" break="no"/>dum lact. Secundus locus est iste 
+        cali<lb ed="#Bb" break="no"/>ginosus aer, in quo usque ad diem judicit
+        <lb ed="#Bb"/>in exercitio tentationis hominum 
+        conti<lb ed="#Bb" break="no"/>nentur. Hoc enim bonum, quod est
+        <lb ed="#Bb"/>exercitium virtutis Sanctorum,
+        <lb ed="#Bb"/>providentia divina de tanto malo.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3768">
+                  <lb ed="#Bb"/>Primo igitur modo procedunt prime
+        <lb ed="#Bb"/>rationes : quia procul dubio tante 
+        super<lb ed="#Bb" break="no"/>bie demerito debebatur infimus locus :
+        <lb ed="#Bb"/>ut scilicet de summo loco luminis, hoc
+        <lb ed="#Bb"/>est, de ceelo empyreo in carcerem ima~
+        <lb ed="#Bb"/>rum tenebrarum detruderetur, perpetuis
+        <lb ed="#Bb"/>ignibus affligendus. Verumtamen est,
+        <lb ed="#Bb"/>quod quantum ad exercilium tentationis
+        <lb ed="#Bb"/>diversas habet potestates. Ante tempora
+        <lb ed="#Bb"/>enim Antichristi dicitur habere 
+        religa<lb ed="#Bb" break="no"/>tam potestatem : eo quod in deserto
+        <lb ed="#Bb"/>tentavit Christum, et victus est*. Et in
+        <lb ed="#Bb"/>passione tentavit impedire passionem
+        <lb ed="#Bb"/>Christi, et iterum victus est : ubi 
+        appa<lb ed="#Bb" break="no"/>ruit uxori Pilati, et voluit impedire 
+        pas<lb ed="#Bb" break="no"/>sionem Christi? : unde tunc superatus
+        <lb ed="#Bb"/>minorem habuit potestatem. Tempore
+        <lb ed="#Bb"/>vero Antichristi, sicut dicitur, IT ad 
+        Thes<lb ed="#Bb" break="no"/>sal. u, 10 et 11 : Ho quod charitatem
+        <lb ed="#Bb"/>veritatis non receperunt ut salvi fierent,
+        <lb ed="#Bb"/>ideo mittet illis Deus operationem 
+        erro<lb ed="#Bb" break="no"/>ris, ut credant mendacio, ut Judicentur
+        <lb ed="#Bb"/>omnes gui non erediderunt verilati : 
+        di<lb ed="#Bb" break="no"/>citur solvendus esse ad ministerium 
+        An<lb ed="#Bb" break="no"/>tichristi, relaxata sibi potestate.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3825">
+                  <lb ed="#Bb"/>Et quantum ad hune ordinem 
+        provi<lb ed="#Bb" break="no"/>dentiz procedunt rationes in contrarium
+        <lb ed="#Bb"/>adducte.
+      </p>
+               <p xml:id="Almn78-d59861-d1e3834">
+                  <lb ed="#Bb"/>Et per hoc patet solutio ad totum.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

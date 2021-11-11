@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="117"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a25154"><!-- p1t3q18 -->
+            <head xml:id="Almn78-a25154-Hd1e106">Quaestio 18</head>
+            <head xml:id="Almn78-a25154-Hd1e109" type="question-title">
+      De cognoscibilitate Dei ex naturali ductu rationis.
+    </head>
+            <p xml:id="Almn78-a25154-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO XVIII.
+<lb ed="#Ba"/>De cognoscibilitate Dei ex naturali ductu rationis.
+</p>
+            <p xml:id="Almn78-a25154-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Omnibus his habitis, scilicet quod
+<lb ed="#Ba"/>Ieus cognoscibilis sit, nominabilis, et
+<lb ed="#Ba"/>demonstrabilis : querendum est, quibus
+<lb ed="#Ba"/>viis Philosophi naturali:ductu rationis
+<lb ed="#Ba"/>cognoverunt Deum esse.
+<lb ed="#Ba"/>Et secundo, Utrum unus perfectius 
+co<lb ed="#Ba" break="no"/>guovit alio ?
+<lb ed="#Ba"/>Et tertio, Utrum aliquis cognovit vel
+<lb ed="#Ba"/>cognoscere potuit cognitione 
+compre<lb ed="#Ba" break="no"/>hensionis ?
+</p>
+            <div xml:id="Almn78-a25154-Dd1e147">
+               <head xml:id="Almn78-a25154-Hd1e149">Membrum 1</head>
+               <head xml:id="Almn78-a25154-Hd1e152" type="question-title">
+  Quibus viis Philosophi naturali ductu
+  rationis cognoverunt Deum esse
+</head>
+               <p xml:id="Almn78-a25154-d1e155">
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Quibus viis Philosophi naturali ductu
+<lb ed="#Ba"/>rationis cognoverunt Deum esse ?
+</p>
+               <p xml:id="Almn78-a25154-d1e164">
+                  <lb ed="#Ba"/>Ad primum Magister in Sententiis
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quatuor vias dat: primam quidem 
+Am<lb ed="#Ba" break="no"/>brosii, alias autem Augustini.
+</p>
+               <p xml:id="Almn78-a25154-d1e175">
+                  <lb ed="#Ba"/>Amprosii via sumitur per causam 
+effi<lb ed="#Ba" break="no"/>clentem, que etiam in antecedentibus a
+<lb ed="#Ba"/>nobis per Aristotelem posita est in libro
+<lb ed="#Ba"/>de Natura deorumDicit enim Ambrosius’,
+<lb ed="#Ba"/>quod Deus fecit opus, quod visibilitate
+<lb ed="#Ba"/>sui opificem manifestavit, ut ille Deus
+<lb ed="#Ba"/>omnium esse crederetur, qui hoc fecit
+<lb ed="#Ba"/>quod nulla creaturarum facere vel 
+de<lb ed="#Ba" break="no"/>struere potuit. <quote xml:id="Almn78-a25154-Qd1e196"> Accedat quecumque vis
+<lb ed="#Ba"/>creatura, et faciat tale ccelum, talem
+<lb ed="#Ba"/>terram: et dicam quia Deus est. Sed
+<lb ed="#Ba"/>quia nulla creatura talia facere valet,
+<lb ed="#Ba"/>constal super omnem creaturam esse
+<lb ed="#Ba"/>illum qui ea fecit, ac per hoc illum esse
+<lb ed="#Ba"/>Deum humana mens cognoscere potuit. </quote>
+               </p>
+               <p xml:id="Almn78-a25154-d1e214">
+                  <lb ed="#Ba"/>Hac ratio fundatur super ordinem
+<lb ed="#Ba"/>cause efficientis sic, quod in omnibus
+<pb ed="#Ba" n="118"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>partibus factum est quod in totum 
+fa<lb ed="#Ba" break="no"/>ctum esse oportebat, et quod nihil est
+<lb ed="#Ba"/>factivum sui ipsius: sequeretur enim,
+<lb ed="#Ba"/>quod idem esset potentia et actu, et quod
+<lb ed="#Ba"/>idem esset et non esset simul : quod est
+<lb ed="#Ba"/>impossibile: quia aliter contradictoria
+<lb ed="#Ba"/>simul essent vera. Ex quibus tertio 
+acci<lb ed="#Ba" break="no"/>pitur, quod sicut pars causam habet 
+effi<lb ed="#Ba" break="no"/>cientem particularem, ita totum causam
+<lb ed="#Ba"/>habet universalem efficientem: et quod
+<lb ed="#Ba"/>causa universalis nec factiva sui est in
+<lb ed="#Ba"/>toto vel in parte. Ex his sequitur, quod
+<lb ed="#Ba"/>cum omnis creatura facta sit, quod nulla
+<lb ed="#Ba"/>creatura universaliter potest esse factiva
+<lb ed="#Ba"/>mundi. Ergo factor mundi creatura non
+<lb ed="#Ba"/>est. Est autem creatura vel creator sive
+<lb ed="#Ba"/>Deus. Relinquitur ergo, quod creator et
+<lb ed="#Ba"/>Deus sit.
+</p>
+               <p xml:id="Almn78-a25154-d1e264">
+                  <lb ed="#Ba"/>Simili ratione probant Augustinus et
+<lb ed="#Ba"/>Chrysostomus contra Arium, quod 
+Ver<lb ed="#Ba" break="no"/>bum quod erat in principio, Deus sit :
+<lb ed="#Ba"/>omnia enim per ipsum facia sunt’: et
+<lb ed="#Ba"/>ideo ipsum factum esse non potest : sed
+<lb ed="#Ba"/>relinquitur, quod ipse factor sit omnium.
+<lb ed="#Ba"/>Et hec ratio non probat, nisi quod Deus
+<lb ed="#Ba"/>est per modum cause.
+</p>
+               <p xml:id="Almn78-a25154-d1e284">
+                  <lb ed="#Ba"/>Secunda via est <ref xml:id="Almn78-a25154-Rd1e288">Augustini in lib. VIII
+<lb ed="#Ba"/>de Civitate Dei<!-- ref target: "viderunt summi...nullo fieri potuisse --></ref>?: et est per ablationem
+<lb ed="#Ba"/>sic : Omne quod est, vel corpus est, vel
+<lb ed="#Ba"/>non corpus est. Corpus ergo non potest
+<lb ed="#Ba"/>esse primum : cum sit compositum, et
+<lb ed="#Ba"/>nullum compositum est  universaliter
+<lb ed="#Ba"/>activum : quia aliidebet quod est,
+compo<lb ed="#Ba" break="no"/>nentibus scilicet. Et ideo transcendentes
+<lb ed="#Ba"/>cuncta corpora, et auferentes a Deo,
+<lb ed="#Ba"/>Deum non corpus esse dixerunt. 
+Vide<lb ed="#Ba" break="no"/>runt etiam, quod omne quod est, vel
+<lb ed="#Ba"/>mutabila, vel immutabile est vel ad esse
+<lb ed="#Ba"/>vel ad locum Tertio etiam viderunt,
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>quod omne quod mutabile est vel ad
+<lb ed="#Ba"/>locum, in potentia est ad id quod mutat
+<lb ed="#Ba"/>ipsum vel movet. Et ex his arguerunt,
+<lb ed="#Ba"/>quod nec corpus, nec mutabile, sicut
+<lb ed="#Ba"/>anima vel Angelus, universaliter 
+moti<lb ed="#Ba" break="no"/>vum esse potest, nec universaliter 
+acti<lb ed="#Ba" break="no"/>vum. Deum autem universaliter esse
+<lb ed="#Ba"/>activum posuerunt et cognoverunt.Deus
+<lb ed="#Ba"/>igitur aliqua substantia est, que nec
+<lb ed="#Ba"/>corpus, nec Angelus est, sed est quid
+<lb ed="#Ba"/>universaliter activum et motivum. Hee
+<lb ed="#Ba"/>ratio plus certificat, quam prima.
+</p>
+               <p xml:id="Almn78-a25154-d1e347">
+                  <lb ed="#Ba"/>Tertia via est adhuc Augustinis,et est
+<lb ed="#Ba"/>aliquid prima, et est ex comparatione
+<lb ed="#Ba"/>cause particularis agentis ad causam 
+effi<lb ed="#Ba" break="no"/>cientem universalem, et est hac: 
+Uni<lb ed="#Ba" break="no"/>versaliterfactivum non potest esse factum
+<lb ed="#Ba"/>ab aliquo: sed Deus ab omnibus ponitur
+<lb ed="#Ba"/>universaliter factivum : ergo a nullo 
+fa<lb ed="#Ba" break="no"/>ctus, sed factor omnium. Et hec ratio
+<lb ed="#Ba"/>non certificat de Deo ut Deus, nisi ex
+<lb ed="#Ba"/>consequenti. Certificat enim, quod 
+ali<lb ed="#Ba" break="no"/>quid sit factivam omnium, et hoc sit
+<lb ed="#Ba"/>Deus.
+</p>
+               <p xml:id="Almn78-a25154-d1e376">
+                  <lb ed="#Ba"/>Quarta via est ejusdem Augustini
+<lb ed="#Ba"/>et est per comparationem rei ad rem
+<lb ed="#Ba"/>secundum formam et preeminentiam sic :
+<lb ed="#Ba"/>Corpus est per speciem corporis sensibile
+<lb ed="#Ba"/>sensu communi vel particulari vel per
+<lb ed="#Ba"/>accidens. Species sive substantia 
+incor<lb ed="#Ba" break="no"/>porea est per speciem intelligibilem. Et
+<lb ed="#Ba"/>nihil potest esse nisi per speciem qua et
+<lb ed="#Ba"/>sit et cognoscatur. Si autem he species
+<lb ed="#Ba"/>comparentur, sensibilis scilicet et 
+intelli<lb ed="#Ba" break="no"/>gibilis, preeeminet illud quod est per
+<lb ed="#Ba"/>speciem intelligibilem. Sed in 
+unoquo<lb ed="#Ba" break="no"/>que quod melius est, Deo attribuendum
+<lb ed="#Ba"/>est. Deus ergo nihil substantiarum sen-
+  <cb ed="#Ba" n="b"/>
+                  <pb ed="#Ba" n="119"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>sibilium est, sed aliqua substantiarum
+<lb ed="#Ba"/>intelligibilium. Inter intelligibilia autem
+<lb ed="#Ba"/>speciosiora sunt que sunt intelligentia et
+<lb ed="#Ba"/>intellecta, quam ea qué sunt intellecta
+<lb ed="#Ba"/>tantum : et inter intelligentia 
+speciosis<lb ed="#Ba" break="no"/>ximum est quod est omnis intelligentia
+<lb ed="#Ba"/>causa et non causatum : hoc ergo Deo 
+at<lb ed="#Ba" break="no"/>tribuendum est, quod sit substantia 
+intel<lb ed="#Ba" break="no"/>lizibilis intelligens, omnis intelligentice
+<lb ed="#Ba"/>rausa per intellectum omnium 
+universa<lb ed="#Ba" break="no"/>liter factiva. Super hanc rationem 
+fun<lb ed="#Ba" break="no"/>dat se Plato, tractans in Zimeo de 
+natu<lb ed="#Ba" break="no"/>rali justitia et ordine factorum, qualiter
+<lb ed="#Ba"/>omnia producuntur ex paterno intellectu
+<lb ed="#Ba"/>qui est mundus archetypus, et 
+matri<lb ed="#Ba" break="no"/>cula que est materia.
+</p>
+               <p xml:id="Almn78-a25154-d1e450">
+                  <lb ed="#Ba"/>Quintam viam innuit Magister in
+<lb ed="#Ba"/>Sententiis, ex verbis Augustini super
+<lb ed="#Ba"/>illud epist. ad Roman. 1, 20 : Invisibilia
+<lb ed="#Ba"/>Dei, etc. ‘.Et est sumpta per eminentiam
+<lb ed="#Ba"/>proprietatis creatoris ad proprietatem
+<lb ed="#Ba"/>creature, sicut dicit Aristoteles in I de
+<lb ed="#Ba"/>Celo et Mundo, quod creator eminet
+<lb ed="#Ba"/>proprietatibus eorum que sunt creata,
+<lb ed="#Ba"/>et sic durationem temporis que in 
+crea<lb ed="#Ba" break="no"/>tura non est nisi ex creatore, non potest
+<lb ed="#Ba"/>extendere nisi e@ternitate, sicut Boetius
+<lb ed="#Ba"/>in libro de Consolatione philosophie 
+di<lb ed="#Ba" break="no"/>cit:
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a25154-Qd1e482">Qui tempus ab xvo
+<lb ed="#Ba"/>Ire jubes.</quote>
+               </p>
+               <p xml:id="Almn78-a25154-d1e489">
+                  <lb ed="#Ba"/>Et magnitudinem molis et virtutis in
+<lb ed="#Ba"/>creatura non potest extendere, nisi 
+in<lb ed="#Ba" break="no"/>linitate omnipotentiae, et sic ex 
+magni<lb ed="#Ba" break="no"/>tudine creature intelligitur creator 
+om<lb ed="#Ba" break="no"/>nipotens. Similiter species est in creatis
+<lb ed="#Ba"/>ex creatore. Et cum omnia creata per
+<lb ed="#Ba"/>speciem ad creatorem se habeant, sicut
+<lb ed="#Ba"/>omnia artificialia opera ad intellectum
+<lb ed="#Ba"/>artificis, et ex artificialium specie 
+in<lb ed="#Ba" break="no"/>telligatur artifex sapiens, sequitur quod
+<lb ed="#Ba"/>ex dispositione et specie creaturarum
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>creator summe sapiens intelligatur esse,
+<lb ed="#Ba"/>et supereminens omnem sapientiam.
+</p>
+               <p xml:id="Almn78-a25154-d1e522">
+                  <lb ed="#Ba"/>Et iteram : Unumquodque bonum est
+<lb ed="#Ba"/>in eo quod attingit finem : tam 
+mora<lb ed="#Ba" break="no"/>lia quam naturalia et rationalia et 
+artifi<lb ed="#Ba" break="no"/>cialia diriguntur in finem, et 
+guber<lb ed="#Ba" break="no"/>nantur : et haec gubernatio non est in
+<lb ed="#Ba"/>ipsis nisi ex creatore, et est bonum in
+<lb ed="#Ba"/>ipsis : cum ergo ex eodem emineat
+<lb ed="#Ba"/>creator, ex hoc ipse creator intelligitur
+<lb ed="#Ba"/>summe bonus, et summum bonum 
+emi<lb ed="#Ba" break="no"/>nens bonitatibus omnium. Et haec via
+<lb ed="#Ba"/>manifestat Deum secundum attributa
+<lb ed="#Ba"/>diversa, que differunt secundum 
+conno<lb ed="#Ba" break="no"/>tata in creaturis, quorum connotatorum
+<lb ed="#Ba"/>speciem prehabet et eminenter hahet,
+<lb ed="#Ba"/>ut dicit Dionysius in libro de Divinis 
+no<lb ed="#Ba" break="no"/>minibus °.
+</p>
+               <p xml:id="Almn78-a25154-d1e559">
+                  <lb ed="#Ba"/>His vus ego addo duas. Una que 
+su<lb ed="#Ba" break="no"/>mitur ex octavo Physicorum, in cujus
+<lb ed="#Ba"/>principio probatur, quod motor primus
+<lb ed="#Ba"/>non potest esse motus ab aliquo. Deinde
+<lb ed="#Ba"/>probatur, quod movens motum nec 
+mo<lb ed="#Ba" break="no"/>vere, nec moveri habet nisi a motore
+<lb ed="#Ba"/>primo. Similiter motum tantum, moveri
+<lb ed="#Ba"/>non habet nisi per influentiam a primo
+<lb ed="#Ba"/>per omnia media moventia et mota
+<lb ed="#Ba"/>usque ad ultimum quod est motum
+<lb ed="#Ba"/>tantum. Propter quod si cessaret 
+mo<lb ed="#Ba" break="no"/>tus in primo secundum quod est actus
+<lb ed="#Ba"/>moventis, cessaret in omnibus mediis
+<lb ed="#Ba"/>in quibus est actus moventis et 
+mobi<lb ed="#Ba" break="no"/>lis, et cessaret in ultimo in quo est actus
+<lb ed="#Ba"/>mobilis tantum. Destruatur ergo 
+conse<lb ed="#Ba" break="no"/>quens : quia videmus, quod non cessat
+<lb ed="#Ba"/>in mediis, nec in ultimo. Ad sensum
+<lb ed="#Ba"/>enim patet esse multa mota, et multa
+<lb ed="#Ba"/>esse moventia et mota : ergo necesse
+<lb ed="#Ba"/>est esse unum primum movens, in quo
+<lb ed="#Ba"/>non cessat motus, secundum quod est
+<lb ed="#Ba"/>actus moventis et non mobilis. Hanc
+<lb ed="#Ba"/>rationem supponit Augustinus, sed non
+<lb ed="#Ba"/>deducit eam in libro de Civitate Dei,
+<lb ed="#Ba"/>dicens quod <quote xml:id="Almn78-a25154-Qd1e617"> Apuleius Philosophus
+<lb ed="#Ba"/>propter istam rationem definiens Deum
+<pb ed="#Ba" n="120"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>dixit, quod Deus est anima, motu et 
+ra<lb ed="#Ba" break="no"/>tione mundum gubernans. </quote> Et addit,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a25154-Qd1e632"> si Deum animam non dixisset,
+<lb ed="#Ba"/>sed spiritum vel substantiam 
+intellectua<lb ed="#Ba" break="no"/>lem, nihil in ratione peccasset. </quote>
+               </p>
+               <p xml:id="Almn78-a25154-d1e640">
+                  <lb ed="#Ba"/>Secunda quam addo, est haec, quod
+<lb ed="#Ba"/>dicit Boetius in libro de Hebdomadibus,
+<lb ed="#Ba"/>et perse notum est, quod omne quod
+<lb ed="#Ba"/>habet esse et quod hoc est, ab alio 
+ha<lb ed="#Ba" break="no"/>bet esse, et quod hoc est. Omne quod
+<lb ed="#Ba"/>est in mundo, habet esse, et quod hoc
+<lb ed="#Ba"/>est. Ergo ab alio habet esse, et quod
+<lb ed="#Ba"/>hoc est. A causa autem determinata 
+ha<lb ed="#Ba" break="no"/>bet, quod hoc est : ergo non ab eodem
+<lb ed="#Ba"/>lrabet esse : omnis causa secunda 
+deter<lb ed="#Ba" break="no"/>minata est: ergo a nulla causarum 
+se<lb ed="#Ba" break="no"/>cundarum habet esse quod hoc est. Est
+<lb ed="#Ba"/>autem aliqua causa ejus quod est esse in
+<lb ed="#Ba"/>entibus factis. Cum autem non sit nisi
+<lb ed="#Ba"/>causa prima, vel secunda, oportet quod
+<lb ed="#Ba"/>esse causatum sit a prima causa in 
+om<lb ed="#Ba" break="no"/>nibus que sunt. Causam autem primam
+<lb ed="#Ba"/>vocamus Deum. Et haec ratio fundatur
+<lb ed="#Ba"/>super quartam propositionem libri 
+Caw<lb ed="#Ba" break="no"/>sarum, que dicit quod <quote xml:id="Almn78-a25154-Qd1e685"> prima rerum
+<lb ed="#Ba"/>creatarum est esse. </quote> Et ex eadem via
+<lb ed="#Ba"/>probatur, quod esse est effectus prime
+<lb ed="#Ba"/>cause in omnibus his que sunt. Et est
+<lb ed="#Ba"/>Aristotelis in quadam epistola quam
+<lb ed="#Ba"/>fecit de principio universi esse. Sola
+<lb ed="#Ba"/>enim causa prima simplex in fine 
+sim<lb ed="#Ba" break="no"/>plicitatis existens, et nullo determinante
+<lb ed="#Ba"/>ad secundum contracta, potest esse 
+cau<lb ed="#Ba" break="no"/>sa secundum quod est esse.
+</p>
+               <p xml:id="Almn78-a25154-d1e708">
+                  <lb ed="#Ba"/>Ista sunt viae ad veniendum in 
+noti<lb ed="#Ba" break="no"/>tiam creatoris per creaturas.
+</p>
+               <p xml:id="Almn78-a25154-d1e715">
+                  <lb ed="#Ba"/>Una autem adhuc via est per quam
+<lb ed="#Ba"/>venerunt Philosophi in cognitionem 
+uni<lb ed="#Ba" break="no"/>talis et trinitatis : et hoc est per 
+vesti<lb ed="#Ba" break="no"/>gium et imaginem. Et hanc viam ponit
+<lb ed="#Ba"/>Augustinus in lib. V1 de Trinitate*, et
+<lb ed="#Ba"/>fundatur super duas propositiones, 
+qua<lb ed="#Ba" break="no"/>rum una est, quod nihil quod ad 
+nobili<lb ed="#Ba" break="no"/>tatem pertinet, invenitur in creaturis,
+<lb ed="#Ba"/>quod non supereminenter et 
+exemplari<lb ed="#Ba" break="no"/>ter inveniatur in creatore. In creaturis
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>autem invenitur unum in tribus, et triain
+<lb ed="#Ba"/>uno in vestigio et in imagine. Ergo tria
+<lb ed="#Ba"/>in uno et unum in tribus supere 
+minen<lb ed="#Ba" break="no"/>ter invenitur in creatore. Per hoc ergo
+<lb ed="#Ba"/>aliquam potuerunt habere cognitionem
+<lb ed="#Ba"/>trinitatis et unitatis.
+</p>
+               <p xml:id="Almn78-a25154-d1e755">
+                  <lb ed="#Ba"/>Et huic vie addo ego istam, quod
+<lb ed="#Ba"/>ommne operans per intellectum proprium
+<lb ed="#Ba"/>et non per habitum aliunde conceptum,
+<lb ed="#Ba"/>operari non potest nisi formando ex se
+<lb ed="#Ba"/>rationem operis et speciem. Deus autem
+<lb ed="#Ba"/>sic operans est per intellectum 
+univer<lb ed="#Ba" break="no"/>saliter agentem. Ergo format ex se 
+ra<lb ed="#Ba" break="no"/>tionem operis et speciem, que est sicut
+<lb ed="#Ba"/>proles ipsius intellectus per omnia 
+intel<lb ed="#Ba" break="no"/>lectui agenti similis in quantum agens
+<lb ed="#Ba"/>est. Scitur autem, quod species operis
+<lb ed="#Ba"/>est, et ratio in opus ab agente non
+<lb ed="#Ba"/>procedit nisi vehente spiritu  agentis,
+<lb ed="#Ba"/>quem necesse est simplicem esse et
+<lb ed="#Ba"/>ejusdem substantia cum agente primo,
+<lb ed="#Ba"/>si primum agens tante simplicitatis sit,
+<lb ed="#Ba"/>ut esse et quod est et actio ejus in ipso
+<lb ed="#Ba"/>unum sint. Cum ergo hoc in creaturis
+<lb ed="#Ba"/>esse non possit, nisi per exemplar 
+crea<lb ed="#Ba" break="no"/>toris, in quo haec primo sunt et 
+eminen<lb ed="#Ba" break="no"/>ter, ex creaturis cognoscere potuerunt
+<lb ed="#Ba"/>in Deo esse aliquid simile formanti in
+<lb ed="#Ba"/>speciem et rationem, et aliquid simile
+<lb ed="#Ba"/>formato, et aliquid simile spiritui 
+ve<lb ed="#Ba" break="no"/>ctori forma, ‘quem necesse fuit a 
+pri<lb ed="#Ba" break="no"/>mo formante procedere, et forma quam
+<lb ed="#Ba"/>defert connaturalem esse. Et sic 
+tri<lb ed="#Ba" break="no"/>nitatis et unitatis aliquod, licet 
+exi<lb ed="#Ba" break="no"/>guum, potuerunt habere judicium. Non
+<lb ed="#Ba"/>enim deferret spiritus formam primi
+<lb ed="#Ba"/>formantis, nisi a primo formante 
+pro<lb ed="#Ba" break="no"/>cederet, nec iterum deferret formam
+<lb ed="#Ba"/>cui connaturalis non esset. Super hanc
+<lb ed="#Ba"/>rationem fundat Anselmus intentionem
+<lb ed="#Ba"/>suam in hoc quod dicit, quod <quote xml:id="Almn78-a25154-Qd1e833"> processio
+<lb ed="#Ba"/>personarum ut causa praecedit 
+processio<lb ed="#Ba" break="no"/>neni crealurarum a Deo. </quote>
+               </p>
+            </div>
+            <div xml:id="Almn78-a25154-Dd1e843">
+               <head xml:id="Almn78-a25154-Hd1e845">Membrum 2</head>
+               <head xml:id="Almn78-a25154-Hd1e848" type="question-title">
+  Utrum cognoscentium Deum unus 
+  perfectius cognoscat alio per viam 
+  rationis
+</head>
+               <p xml:id="Almn78-a25154-d1e851">
+                  <pb ed="#Ba" n="121"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Utrum cognoscentium Deum unus per-
+<lb ed="#Ba" break="no"/>ectius cognoscat alio per viam 
+ra<lb ed="#Ba" break="no"/>tionis ?
+</p>
+               <p xml:id="Almn78-a25154-d1e867">
+                  <lb ed="#Ba"/>SEcunDo queritur, Utrum 
+cognoscen<lb ed="#Ba" break="no"/>tium Deum unus perfectius cognoscat
+<lb ed="#Ba"/>alio per viam rationis? quia de visione
+<lb ed="#Ba"/>per gratiam non est dubium.
+</p>
+               <p xml:id="Almn78-a25154-d1e878">
+                  <lb ed="#Ba"/>Videtur autem, quod omnes equaliter
+<lb ed="#Ba"/>copnoscant.
+<lb ed="#Ba"/>1. Augustinus in libro LXXXIII 
+Quae<lb ed="#Ba" break="no"/>siionum dicit, quod <quote xml:id="Almn78-a25154-Qd1e888"> unam rem non
+<lb ed="#Ba"/>potest alius alio plus intelligere. </quote> Deus
+<lb ed="#Ba"/>nutem una res est ductu rationis cognita,
+<lb ed="#Ba"/>Kyo unus non potest alio perfectius 
+co<lb ed="#Ba" break="no"/>gnoscere.
+</p>
+               <p xml:id="Almn78-a25154-d1e902">
+                  <lb ed="#Ba"/>2. Adhuc, Nullus cognoscentium Deum
+<lb ed="#Ba"/>ductu rationis, cognoscit de Deo nisi
+<lb ed="#Ba"/>quid non est, et quia est, et quid est 
+infi<lb ed="#Ba" break="no"/>nite, et hoc omnis cognoscens Deum 
+co<lb ed="#Ba" break="no"/>ynoscit : ergo videtur, quod aequaliter
+<lb ed="#Ba"/>cognoscant.
+</p>
+               <p xml:id="Almn78-a25154-d1e918">
+                  <lb ed="#Ba"/>3. Adhuc, Ex uno cognoscentes, 
+equa<lb ed="#Ba" break="no"/>liter videntur cognoscere : ductu autem
+<lb ed="#Ba"/>rationis cognoscentes, ex uno 
+cogno<lb ed="#Ba" break="no"/>scunt,quia ex mundi creatura : ergo 
+vi<lb ed="#Ba" break="no"/>detur, quod equaliter cognoscant.
+</p>
+               <p xml:id="Almn78-a25154-d1e931">
+                  <lb ed="#Ba"/>In conTRARIUM est, quod
+<lb ed="#Ba"/>1. De Deo sic cognoscentes eum, 
+ina<lb ed="#Ba" break="no"/>qualiter significaverunt per sermonem,
+<lb ed="#Ba"/>sicut patet in Trimegisto et Apuleio et
+<lb ed="#Ba"/>Platone et aliis multis. Non autem 
+signi<lb ed="#Ba" break="no"/>ficaverunt nisi sicut cognoverunt. Ergo
+<lb ed="#Ba"/>unus alio perfectius cognovit:
+</p>
+               <p xml:id="Almn78-a25154-d1e949">
+                  <lb ed="#Ba"/>2, Adhuc, In Sententzis dicitur, tertia
+<lb ed="#Ba"/>distinctione, quod duobus juvabantur ad
+<lb ed="#Ba"/>covnitionem Dei. A natura que 
+rationa<lb ed="#Ba" break="no"/>lis erat: et ab opere, quod visibilitate sui
+<lb ed="#Ba"/>Ikoum ostendit*. Sed nec natura equa
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>liter .rationalis, si potentia comparatur
+<lb ed="#Ba"/>ad actum, nec studio equaliter disposita,
+<lb ed="#Ba"/>nec in actu considerationis equaliter
+<lb ed="#Ba"/>perfecta : nec opera sunt equaliter 
+osten<lb ed="#Ba" break="no"/>dentia, sed unum plus et alterum 
+mi<lb ed="#Ba" break="no"/>nus. Ergo videtur, quod equalem 
+cogni<lb ed="#Ba" break="no"/>tionem generare non possunt.
+</p>
+               <p xml:id="Almn78-a25154-d1e980">
+                  <lb ed="#Ba"/>Quod concedendum est.
+<lb ed="#Ba"/>Ad primum autem dicendum, quod
+<lb ed="#Ba"/>Augustinus loquitur de his qua ambo
+<lb ed="#Ba"/>per idem intelligunt et ex eodem habitu:
+<lb ed="#Ba"/>quia aliter falsum esset quod dicit. 
+Pot<lb ed="#Ba" break="no"/>est enim unus unam et eamdem rem
+<lb ed="#Ba"/>cognoscere per medium 
+demonstratio<lb ed="#Ba" break="no"/>nis, et alter per medium opinionis, et
+<lb ed="#Ba"/>tertius per medium conjecturationis
+<lb ed="#Ba"/>et constat, quod primus perfectius 
+intel<lb ed="#Ba" break="no"/>ligit quam secundus, et secundus quam
+<lb ed="#Ba"/>tertius.
+</p>
+               <p xml:id="Almn78-a25154-d1e1009">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet non
+<lb ed="#Ba"/>cognoscant de Deo nisi tria que dicta
+<lb ed="#Ba"/>sunt, tamen quodlibet eorum contingit
+<lb ed="#Ba"/>perfectius et imperfectius intelligi 
+prop<lb ed="#Ba" break="no"/>ter differentiam ingenii, et habitus 
+me<lb ed="#Ba" break="no"/>dii, ut dictum est.
+</p>
+               <p xml:id="Almn78-a25154-d1e1026">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod licet ex uno
+<lb ed="#Ba"/>cognoscant in communi, tamen illud in
+<lb ed="#Ba"/>speciali multas habet differentias, 
+ima<lb ed="#Ba" break="no"/>ginis scilicet, vestigii, speculi, 
+enigma<lb ed="#Ba" break="no"/>tis, et secundum Dionysium, 
+similitudi<lb ed="#Ba" break="no"/>nis, et obscure resonantie. Et in his
+<lb ed="#Ba"/>ipsis multi sunt gradus representationis
+<lb ed="#Ba"/>divine, ex quibus necesse est 
+differen<lb ed="#Ba" break="no"/>tem generari cognitionem.
+</p>
+            </div>
+            <div xml:id="Almn78-a25154-Dd1e1049">
+               <head xml:id="Almn78-a25154-Hd1e1051">Membrum 3</head>
+               <head xml:id="Almn78-a25154-Hd1e1054" type="question-title">
+  Utrum aliquis cognoverit vel 
+  cognoscere possit Deum cognitione 
+  comprehensionis ?
+</head>
+               <p xml:id="Almn78-a25154-d1e1057">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Utrum aliquis cognoverit vel cogno-
+<lb ed="#Ba" break="no"/>scere possit Deum cognitione 
+compre<lb ed="#Ba" break="no"/>hensionis ?
+</p>
+               <p xml:id="Almn78-a25154-d1e1068">
+                  <lb ed="#Ba"/>Tertio queritur, Utrum aliquis co-
+<pb ed="#Ba" n="122"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>gnoverit vel cognoscere possit Deum 
+co<lb ed="#Ba" break="no"/>gnitione comprehensionis ?
+</p>
+               <p xml:id="Almn78-a25154-d1e1081">
+                  <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. Probat enim <ref xml:id="Almn78-a25154-Rd1e1087">Aristoteles in VI 
+Phy<lb ed="#Ba" break="no"/>sicorum</ref>, quod si simplex tangit simplex,
+<lb ed="#Ba"/>totum tangit : et eadem ratione si 
+sim<lb ed="#Ba" break="no"/>plex mente attingitur, totum quod est
+<lb ed="#Ba"/>Dei attingitur, comprehenditur : dicit
+<lb ed="#Ba"/>enim Augustinus in libro de Videndo
+<lb ed="#Ba"/>Deum, quod <quote xml:id="Almn78-a25154-Qd1e1103"> illud comprehenditur,
+<lb ed="#Ba"/>cujus nihil latet, et cujus fines 
+circum<lb ed="#Ba" break="no"/>spiciuntur. </quote> Ergo videtur, quod Deus a
+<lb ed="#Ba"/>quolibet qui cognoscit Deum, 
+compre<lb ed="#Ba" break="no"/>hendatur.
+</p>
+               <p xml:id="Almn78-a25154-d1e1116">
+                  <lb ed="#Ba"/>2. Adhuc, Ut in antehabitis dictum
+<lb ed="#Ba"/>est, comprehensio est contactus 
+intelle<lb ed="#Ba" break="no"/>ctus super terminos rei: Deus autem
+<lb ed="#Ba"/>terminos non habet, cum simplex sit,
+<lb ed="#Ba"/>et terminus non est terminatus. In 
+ter<lb ed="#Ba" break="no"/>mino autem omnis captio per 
+intelle<lb ed="#Ba" break="no"/>ctum, comprehensio est. Constat autem,
+<lb ed="#Ba"/>quod qui cognoscit Deum, capit Deum,
+<lb ed="#Ba"/>et capiens comprehendit. Ergo qui 
+co<lb ed="#Ba" break="no"/>gnoscit, comprehendit.
+</p>
+               <p xml:id="Almn78-a25154-d1e1140">
+                  <lb ed="#Ba"/>3. Adhuc, Comprehensio non videtur
+<lb ed="#Ba"/>repugnare cognitioni vie. Ad Philip.
+<lb ed="#Ba"/>mi, 12: Seqguor, st quo modo 
+compre<lb ed="#Ba" break="no"/>hendam in quo et comprehensus sum.
+</p>
+               <p xml:id="Almn78-a25154-d1e1151">
+                  <lb ed="#Ba"/>Item, I ad Corinth. 1x, 24: Sie currite
+<lb ed="#Ba"/>ut comprehendatis. Si ergo 
+comprehen<lb ed="#Ba" break="no"/>sio potest esse in cognitione vie, tunc
+<lb ed="#Ba"/>videtur, quod in ductu rationis 
+compre<lb ed="#Ba" break="no"/>hendi potest.
+</p>
+               <p xml:id="Almn78-a25154-d1e1164">
+                  <lb ed="#Ba"/>In contrarium est quod dicit,
+<lb ed="#Ba"/>1. Augustinus in libro de Videndo.
+<lb ed="#Ba"/>Deum ad Paulinam, quod <quote xml:id="Almn78-a25154-Qd1e1172"> videre Deum
+<lb ed="#Ba"/>possumus, comprehendere vero 
+mini<lb ed="#Ba" break="no"/>me. </quote> Deus ergo comprehendi non 
+pot<lb ed="#Ba" break="no"/>est.
+</p>
+               <p xml:id="Almn78-a25154-d1e1182">
+                  <lb ed="#Ba"/>2, Adhuc, Gregorius super illud Job,
+<lb ed="#Ba"/>x1, 7: Usque ad perfectum 
+Omnipoten<lb ed="#Ba" break="no"/>tem reperies? <quote xml:id="Almn78-a25154-Qd1e1190"> In futuro reperietur
+<lb ed="#Ba"/>Omnipotens per speciem, sed non ad
+<lb ed="#Ba"/>perfectum : quia ejus essentia a nullo
+<lb ed="#Ba"/>plene videbitur. </quote> Sed hoc quod 
+com<lb ed="#Ba" break="no"/>prehenditur, plene videtur. Ergo a nullo
+<lb ed="#Ba"/>nec hic nec in futuro comprehenditur.
+</p>
+               <p xml:id="Almn78-a25154-d1e1205">
+                  <lb ed="#Ba"/>3. Adhuc, Jerem. xxxu, 18 et 19 :
+<lb ed="#Ba"/>Fortissime, magne, et potens, Dominus
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>exercituum nomen tibi. Magnus 
+consi<lb ed="#Ba" break="no"/>lio, et incomprehensibilis cogitatu. Ergo
+<lb ed="#Ba"/>incomprhensibilis est.
+</p>
+               <p xml:id="Almn78-a25154-d1e1222">
+                  <lb ed="#Ba"/>4. Adhuc, <ref xml:id="Almn78-a25154-Rd1e1226">In symbolo Athanasii</ref>
+                  <lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a25154-Qd1e1231">Immensus Pater, immensus Filius,
+<lb ed="#Ba"/>immensus Spiritus sanctus. </quote> Dicit
+<lb ed="#Ba"/>autem Damascenus, quod immensum
+<lb ed="#Ba"/>sive infinitum nec loco, nec tempore,
+<lb ed="#Ba"/>nec intellectu finitur. Ex hoc sic arguo :
+<lb ed="#Ba"/>Nullum infinitum intellectu  
+cognoscen<lb ed="#Ba" break="no"/>tis finitur : omne quod comprehenditur,
+<lb ed="#Ba"/>intellectu. cognoscentis finitur : ergo
+<lb ed="#Ba"/>nullum infinitum comprehenditur : Deus
+<lb ed="#Ba"/>est infinitus essentia et virtute : ergo nec
+<lb ed="#Ba"/>essentia nec virtute comprehenditur.
+</p>
+               <p xml:id="Almn78-a25154-d1e1257">
+                  <lb ed="#Ba"/>5. Adhuc, Gregorius vult, quod nihil
+<lb ed="#Ba"/>sit intra quod sit Deus, ita quod Deus sit
+<lb ed="#Ba"/>inclusus. Comprehensum in intellectu
+<lb ed="#Ba"/>inclusum est. Ergo Deus a nullo 
+compre<lb ed="#Ba" break="no"/>hensus esse potest, sive cognoscat eum
+<lb ed="#Ba"/>per naturam, sive per gratiam, sive per
+<lb ed="#Ba"/>gloriam.
+</p>
+               <p xml:id="Almn78-a25154-d1e1275">
+                  <lb ed="#Ba"/>Et hoc concedendum est.
+<lb ed="#Ba"/>Ad primum ergo dicendum, quod id
+<lb ed="#Ba"/>quod dicit Aristoteles, verum est de 
+sim<lb ed="#Ba" break="no"/>plici positionem habente in continuo,
+<lb ed="#Ba"/>sicut est punctum : hoc enim aliquo 
+mo<lb ed="#Ba" break="no"/>do refertur ad tactum, quia ipso fit ta-
+<lb ed="#Ba" break="no"/>ctus. De simplici autem intelligibili non *
+<lb ed="#Ba"/>est verum : deillo enim dicit Avicenna et
+<lb ed="#Ba"/>Aristoteles, quod quanto simplicius est
+<lb ed="#Ba"/>essentia, tanto multiplicius est virtute et
+<lb ed="#Ba"/>relatione. Et ideo mente attingi potest
+<lb ed="#Ba"/>quoad unum vel duo vel plura, sed non
+<lb ed="#Ba"/>quoad omnia, nec quoad unum mente
+<lb ed="#Ba"/>potest contingi secundum infinitatem
+<lb ed="#Ba"/>qua in seipso est, sed secundum 
+propor<lb ed="#Ba" break="no"/>tionem qua se habet ad causatum et 
+effe<lb ed="#Ba" break="no"/>ctum. Propter quod dicitur, I ad Timoth.
+<lb ed="#Ba"/>vi, 16 quod nullus hominum vidit, sed
+<lb ed="#Ba"/>nec videre potest. Et, Job, xxxvi, 25 :
+<lb ed="#Ba"/>Omnes homines vident eum: unusquisque
+<lb ed="#Ba"/>intuetur procul.
+</p>
+               <p xml:id="Almn78-a25154-d1e1323">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod 
+simplici<lb ed="#Ba" break="no"/>tas et infinitas non repugnant in eo quod
+<lb ed="#Ba"/>ut principium est simplex, licet 
+repu<lb ed="#Ba" break="no"/>gnent in eo quod positione simplex est.
+<lb ed="#Ba"/>Unde cum Deus dicatur terminus vel
+<pb ed="#Ba" n="123"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>finis, et non terminatus neque finitus :
+<lb ed="#Ba"/>est tamen terminus et finis sicut 
+princi<lb ed="#Ba" break="no"/>pum omnium primum et omnium 
+ulti<lb ed="#Ba" break="no"/>mum :et ideo infinitus essentia, 
+virtu<lb ed="#Ba" break="no"/>ts, et relatione : propter quod attingi
+<lb ed="#Ba"/>potest intellectu, sed non comprehendi.
+</p>
+               <p xml:id="Almn78-a25154-d1e1354">
+                  <lb ed="#Ba"/>Av atiup dicendum, quod in hoc 
+ar<lb ed="#Ba" break="no"/>Kumento est fallacia equivocationis.
+<lb ed="#Ba"/>Comprehendere enim equivocum est ad
+<lb ed="#Ba"/>mele comprehensionem et intellectus.
+<lb ed="#Ba"/>Metam apprehendit cursor, quando 
+attin<lb ed="#Ba" break="no"/>giteam. Et sic loquitur Apostolus, ad.
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>cumspicit, et totum intelligibile quoad
+<lb ed="#Ba"/>omnia que in illius sunt essentia, 
+virtu<lb ed="#Ba" break="no"/>te, et operatione, et proprietate, et 
+attri<lb ed="#Ba" break="no"/>buto, in se claudit. Et hoc modo nullus
+<lb ed="#Ba"/>creatus intellectus Deum 
+comprehen<lb ed="#Ba" break="no"/>dit.
+</p>
+               <p xml:id="Almn78-a25154-d1e1385">
+                  <lb ed="#Ba"/>Sic ergo de cognitione Dei naturali,
+<lb ed="#Ba"/>que ductu rationis fit, quo quasi 
+pal<lb ed="#Ba" break="no"/>pando querimus Deum, ut, Act. xvu,
+<lb ed="#Ba"/>27‘, dicit Paulus, determinatum sit. 
+Co<lb ed="#Ba" break="no"/>gnitio enim Dei per gratiam et gloriam
+<lb ed="#Ba"/>alterius est inquisitionis.
+</p>
+               <p xml:id="Almn78-a25154-d1e1402">
+                  <lb ed="#Ba"/>Et de his in sequentibus in locis 
+oppor<lb ed="#Ba" break="no"/>tunis Domino concedente tractabimus.
+<lb ed="#Ba"/>ctent eum, aut inveniant, etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

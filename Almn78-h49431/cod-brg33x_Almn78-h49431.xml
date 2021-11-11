@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="223"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h49431"><!-- p2t16prae -->
+            <head xml:id="Almn78-h49431-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-h49431-d1e109">
+               <pb ed="#Bc" n="223"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>TRACTATUS  XVI.
+<lb ed="#Bc"/>DE GRATIA QUA PERFICITUR ANIMA IN GRATUITIS,
+<lb ed="#Bc"/>DE VOLUNTATE, ET VIRTUTE.
+</p>
+            <p xml:id="Almn78-h49431-d1e122">
+               <lb ed="#Bc"/>Deinde traclanda suntea que dicuntur in distinctione XXVI libri I
+<lb ed="#Bc"/>Sententiarum, que incipit ibi, Hec est gratia operans et cooperans.
+<lb ed="#Bc"/>Ubi ratione primi quod dicit in principio, Hae est gratia operans et
+<lb ed="#Bc"/>cooperans, queeritur de gratia.
+</p>
+            <p xml:id="Almn78-h49431-d1e133">
+               <lb ed="#Bc"/>Et queruntur quatuor, scilicet an sit, quid sit re, et quid sit definitione,
+<lb ed="#Bc"/>et cui insit primo et per se, utrum scilicet potentic: vel substantia anime ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

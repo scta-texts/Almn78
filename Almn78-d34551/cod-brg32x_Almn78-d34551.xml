@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="157"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d34551"><!-- p2t4prae -->
+            <head xml:id="Almn78-d34551-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-d34551-d1e109">
+               <pb ed="#Bb" n="157"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>TRACTATUS IV,
+      <lb ed="#Bb"/>DE ANGELORUM NATURALIBUS, ET DE QUATUOR
+      <lb ed="#Bb"/>ATTRIBUTIS EORUMDEM.
+    </p>
+            <p xml:id="Almn78-d34551-d1e122">
+               <lb ed="#Bb"/>Deinde queritur de tertia questione, quam supra posuit Magister in
+      <lb ed="#Bb"/>principio secunde distinctionis libri If Sententiarum, scilicet qualis facta
+      <lb ed="#Bb"/>sit angelica natura dum primo conderetur: de qua in secundo libro 
+      Sen<lb ed="#Bb" break="no"/>tentiarum, distinctione III, cap. Ecce ostensum est, sic dicit Magister :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-d34551-Qd1e135">Nunc consequens est investigare quales facti fuerunt in ipso primordio
+        <lb ed="#Bb"/>sue conditionis : et quatuor quidem Angelis videntur esse attributa in
+        <lb ed="#Bb"/>initio subsistentiz sua, scilicet essentia simplex, id est indivisibilis et
+        <lb ed="#Bb"/>immaterialis : et discretio personalis : et per rationem naturaliter insitam
+        <lb ed="#Bb"/>intelligentia, memoria, et voluntas sive dilectio : liberum quoque 
+        arbi<lb ed="#Bb" break="no"/>trium, id est, libera inclinande voluntatis sive ad bonum, sive ad
+        <lb ed="#Bb"/>malum facultas. Poterant enim et per liberum arbitrium sine violentia
+        <lb ed="#Bb"/>vel coactione ad utrumlibet propria voluntate deflecti. </quote>
+            </p>
+            <p xml:id="Almn78-d34551-d1e154">
+               <lb ed="#Bb"/>De istis ergo quatuor attributis quzerendum est.
+      <lb ed="#Bb"/>Et querenda sunt duo, scilicet de istis attributis primo in speciali, et
+      <lb ed="#Bb"/>secundo de istis omnibus simul in communi.
+      <lb ed="#Bb"/>De singulis queeruntur quatuor, scilicel primo de essentie simplicitate.
+      <lb ed="#Bb"/>Secundo, De ratione naturaliter insita, sive intelligentize perspicacitate.
+      <lb ed="#Bb"/>Tertio, De personali discretione.
+      <lb ed="#Bb"/>Et quarto, De libertate arbitrii.
+      <lb ed="#Bb"/>De essentiz simplicitate queeruntur tria.
+      <lb ed="#Bb"/>Primo, An Angelus sit essentia simplex ?
+      <lb ed="#Bb"/>Secundo, Quis sit modus simplicitatis ejus ?
+      <lb ed="#Bb"/>Tertio, Que sit comparatio simplicitatis ejus ad simplicitatem divinam et
+      <lb ed="#Bb"/>ad simplicitatem anime rationalis ?
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

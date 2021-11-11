@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 118</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 118</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="369"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h82484"><!-- p2t18q118 -->
+            <head xml:id="Almn78-h82484-Hd1e106">Quaestio 118</head>
+            <head xml:id="Almn78-h82484-Hd1e109" type="question-title">De acedia</head>
+            <p xml:id="Almn78-h82484-d1e112">
+               <pb ed="#Bc" n="369"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUAESTIO CXVIII.
+<lb ed="#Bc"/>De acedia.
+</p>
+            <p xml:id="Almn78-h82484-d1e123">
+               <lb ed="#Bc"/>Inter septem capitalia peccata quatuor
+<lb ed="#Bc"/>sunt spiritualia, scilicet superbia, invidia,
+<lb ed="#Bc"/>ira et acedia: sed quia acedia 
+spiritua<lb ed="#Bc" break="no"/>lior est quam ira, ideo prius de ea tra~
+<lb ed="#Bc"/>ctandum est.
+</p>
+            <p xml:id="Almn78-h82484-d1e136">
+               <lb ed="#Bc"/>De acedia autem queremus duo, 
+scili<lb ed="#Bc" break="no"/>cet de acedia secundum se, et de filiabus
+<lb ed="#Bc"/>ejus.
+</p>
+            <div xml:id="Almn78-h82484-Dd1e146">
+               <head xml:id="Almn78-h82484-Hd1e148">Membrum 1</head>
+               <head xml:id="Almn78-h82484-Hd1e151" type="question-title">De acedia secundum se</head>
+               <p xml:id="Almn78-h82484-d1e154">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De acedia secundum se.
+</p>
+               <p xml:id="Almn78-h82484-d1e161">
+                  <lb ed="#Bc"/>De acedia secundum se quaeremus
+<lb ed="#Bc"/>duo.
+<lb ed="#Bc"/>Primo, Quid sit ?
+<lb ed="#Bc"/>Secundo, An semper sit mortale, vel
+<lb ed="#Bc"/>aliquando veniale ? et, Quomodo dicatur
+<lb ed="#Bc"/>peccatum capitale ?
+</p>
+               <div xml:id="Almn78-h82484-Dd1e177">
+                  <head xml:id="Almn78-h82484-Hd1e179">Articulus 1</head>
+                  <head xml:id="Almn78-h82484-Hd1e182" type="question-title">
+          Quid sit acedia secundum 
+          definitionem et rem
+        </head>
+                  <p xml:id="Almn78-h82484-d1e185">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS I.
+<lb ed="#Bc"/>Quid sit acedia secundum 
+definitio<lb ed="#Bc" break="no"/>nem et rem ?
+</p>
+                  <p xml:id="Almn78-h82484-d1e196">
+                     <lb ed="#Bc"/>Quaeritur ergo primo, Quid sit acedia
+<lb ed="#Bc"/>secundum definitionem et rem?
+</p>
+                  <p xml:id="Almn78-h82484-d1e203">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>1. Dicit autem Augustinus super illud
+<lb ed="#Bc"/>Psalmi cvi, 18 : Omnem escam abominata
+<lb ed="#Bc"/>est anima eorum: <quote xml:id="Almn78-h82484-Qd1e213"> Acedia est tedium
+<lb ed="#Bc"/>internt boni. </quote>
+                  </p>
+                  <p xml:id="Almn78-h82484-d1e220">
+                     <lb ed="#Bc"/>2. Adhuc, Damascenus : <quote xml:id="Almn78-h82484-Qd1e224"> Acedia est
+<lb ed="#Bc"/>tristitia aggravans.</quote>
+                  </p>
+                  <p xml:id="Almn78-h82484-d1e230">
+                     <lb ed="#Bc"/>3. Idem, Libro II de Fide orthodoxa,
+<lb ed="#Bc"/>ubi distinguit species tristitiarum dicit,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h82484-Qd1e238"> acedia est tristitia vocem 
+aufe<lb ed="#Bc" break="no"/>rens, </quote>
+                  </p>
+                  <p xml:id="Almn78-h82484-d1e244">
+                     <lb ed="#Bc"/>4. Adhuc, Richardus de sancto Victore
+<lb ed="#Bc"/>dat hance : <quote xml:id="Almn78-h82484-Qd1e250"> Acedia est torpor mentis,
+<lb ed="#Bc"/>bona negligentis inchoare. </quote>
+                  </p>
+                  <p xml:id="Almn78-h82484-d1e256">
+                     <lb ed="#Bc"/>5. Adhuc, Antiqui Magistri dederunt
+<lb ed="#Bc"/>hanc : <quote xml:id="Almn78-h82484-Qd1e262"> Acedia est diflidentia implendi
+<lb ed="#Bc"/>mandata.</quote>
+                  </p>
+                  <p xml:id="Almn78-h82484-d1e268">
+                     <lb ed="#Bc"/>Videtur, quod nulla istarum 
+defini<lb ed="#Bc" break="no"/>fionum conveniat : quia
+</p>
+                  <p xml:id="Almn78-h82484-d1e275">
+                     <lb ed="#Bc"/>1. Acedia vitium est, sive capitale 
+pec<lb ed="#Bc" break="no"/>catum : cum igitur unum genus sit op~
+<lb ed="#Bc"/>positorum, acedia erit in genere habitus
+<lb ed="#Bc"/>in quo est etiam virtus. Per istas autem
+<lb ed="#Bc"/>omnes definitiones non ponitur in genere
+<lb ed="#Bc"/>habitus. Ergo videtur, quod nulla 
+con<lb ed="#Bc" break="no"/>veniat ei.
+</p>
+                  <p xml:id="Almn78-h82484-d1e294">
+                     <lb ed="#Bc"/>2. Adhuc, Quam nos dicimus 
+ace<lb ed="#Bc" break="no"/>diam, Gregorius in libro XXXII 
+Afora<lb ed="#Bc" break="no"/>lium vocat tristitiam : et constat, quod
+<lb ed="#Bc"/>tristitia est in genere habitus : ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod male definitur, eo quod
+<lb ed="#Bc"/>omne vitium in genere habitus sit.
+</p>
+                  <p xml:id="Almn78-h82484-d1e310">
+                     <lb ed="#Bc"/>3. Adhuc, Aspasius in libello de 
+Pas<lb ed="#Bc" break="no"/>sionibus dicit, quod omnis passio motus
+<lb ed="#Bc"/>est. Et ratio sua est : quia passio non fit
+<lb ed="#Bc"/>nisi secundum illam speciem qualitatis
+<lb ed="#Bc"/>quam vocat Aristoteles passionem vel
+<pb ed="#Bc" n="370"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>passibilem qualilatem, inferentem vel
+<lb ed="#Bc"/>illatam : et in illa sola, sicut dicitur in
+<lb ed="#Bc"/>VIL Physicorum, est motus alterationis.
+<lb ed="#Bc"/>Habitus autem in quo genera sunt vitia
+<lb ed="#Bc"/>et virtutes non est motus, sed potius
+<lb ed="#Bc"/>perfectio potentie et quies
+</p>
+                  <p xml:id="Almn78-h82484-d1e341">
+                     <lb ed="#Bc"/>4, Adhuc, Iste definitiones omnes
+<lb ed="#Bc"/>peccant, quod non ponunt acediam in
+<lb ed="#Bc"/>uno genere passionis, sed in diversis
+<lb ed="#Bc"/>valde. Auguslinus ponit in genere tedii,
+<lb ed="#Bc"/>Damascenus in genere tristitia, 
+Richar<lb ed="#Bc" break="no"/>dus in genere corporis, qui est pigritia
+<lb ed="#Bc"/>quedam originalis diffidentie, quae 
+op<lb ed="#Bc" break="no"/>ponitur fortitudini secundum Tullium.
+</p>
+                  <p xml:id="Almn78-h82484-d1e361">
+                     <lb ed="#Bc"/>Solutio. Dicendum, quod acedia est
+<lb ed="#Bc"/>unum de capitalibus peccatis, sicut dicit
+<lb ed="#Bc"/>beatus Gregorius : et secundum quod est
+<lb ed="#Bc"/>peccatum, est in genere habitus: sed
+<lb ed="#Bc"/>guia omnis habitus generatur ex actibus,
+<lb ed="#Bc"/>sive sit vitil, sive virtutis 
+consuetudina<lb ed="#Bc" break="no"/>lis, Virtus enim medium est passionum :
+<lb ed="#Bc"/>vitium autem extremum, ut dicit 
+Philo<lb ed="#Bc" break="no"/>sophus, sicut fortitudo medium est inter
+<lb ed="#Bc"/>timores et audacias, et temperantia 
+me<lb ed="#Bc" break="no"/>dium in delectationibus innatis inter
+<lb ed="#Bc"/>superfluum et diminutum. Unde passio
+<lb ed="#Bc"/>causa est actus, in quo cognoscitur 
+ha<lb ed="#Bc" break="no"/>bitus in omnibus consuetudinalibus et
+<lb ed="#Bc"/>vitiis et virtutibus. Et ideo sancti 
+volen<lb ed="#Bc" break="no"/>tes notificare, acediam, non solum per
+<lb ed="#Bc"/>genus, sed etiam per causam posuerunt
+<lb ed="#Bc"/>eam in genere passionis : eo quod talis
+<lb ed="#Bc"/>notificatio magis certificat essentiam 
+de<lb ed="#Bc" break="no"/>finiti.
+</p>
+                  <p xml:id="Almn78-h82484-d1e407">
+                     <lb ed="#Bc"/>Et per hoc patet solutio 
+ad_pri<lb ed="#Bc" break="no"/>mum.
+</p>
+                  <p xml:id="Almn78-h82484-d1e414">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod _ tristitia
+<lb ed="#Bc"/>passio est: sed illa passio causa est 
+ha<lb ed="#Bc" break="no"/>bitus : et ita nihil certificatur sicut quod
+<lb ed="#Bc"/>certificatur per causam,
+<lb ed="#Bc"/>est.
+</p>
+                  <p xml:id="Almn78-h82484-d1e428">
+                     <lb ed="#Bc"/>Ad aliud dicendum, quod passio 
+mo<lb ed="#Bc" break="no"/>tus est: et ideo est causa actuum 
+gene<lb ed="#Bc" break="no"/>rantium vitium et virtutem 
+consuetudi<lb ed="#Bc" break="no"/>nalem : propter quod etiam diffinitur
+<lb ed="#Bc"/>per ipsam.
+</p>
+                  <p xml:id="Almn78-h82484-d1e441">
+                     <lb ed="#Bc"/>Ad untimum dicendum, quod 
+Augusti<lb ed="#Bc" break="no"/>nus ponit acediam in genere tedii : quia
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>taedium in talibus est circa difficile et
+<lb ed="#Bc"/>bonum internum quod est virtus : quia
+<lb ed="#Bc"/>virtus, sicut dicit Philosophus, est circa
+<lb ed="#Bc"/>difficile et honum. Unde ex difficultate
+<lb ed="#Bc"/>boni incidit in tristitiam, et ex tristitia in
+<lb ed="#Bc"/>tedium, quia tedium habet operandi
+<lb ed="#Bc"/>difficile circa quod est bonum, 
+Dama<lb ed="#Bc" break="no"/>scenus autem ponit eam in genere 
+tristi<lb ed="#Bc" break="no"/>tie, propter causam que dicta est. Et
+<lb ed="#Bc"/>dicit, quod est tristitia aggravans : quia
+<lb ed="#Bc"/>ex difficultate boni aggravatur et 
+infir<lb ed="#Bc" break="no"/>matur ad bonum. In omnibus autem
+<lb ed="#Bc"/>infirmitas aggravans acuit vocem, sicut
+<lb ed="#Bc"/>patet in omnibus egris : et ex tali 
+aggra<lb ed="#Bc" break="no"/>vatione derivatur Latine nomen acediz:
+<lb ed="#Bc"/>quia 4x0; in Greco idem est quod vocem
+<lb ed="#Bc"/>aggravans. Richardus autem ponit eam
+<lb ed="#Bc"/>in genere torporis qui est pigritia circa
+<lb ed="#Bc"/>operanda : in quam homo incidit ex
+<lb ed="#Bc"/>tristitia circa difficultates operabilium.
+</p>
+                  <p xml:id="Almn78-h82484-d1e493">
+                     <lb ed="#Bc"/>Ad definitionem Magistrorum 
+dicen<lb ed="#Bc" break="no"/>dum, quod diffdentia ibi dicitur non
+<lb ed="#Bc"/>confidere de propriis viribus ad 
+imple<lb ed="#Bc" break="no"/>tionem boni difficilis circa quod est 
+vir<lb ed="#Bc" break="no"/>tus, que enervat animos viriles, qui
+<lb ed="#Bc"/>deberent viriliter insurgere ad bona 
+ope<lb ed="#Bc" break="no"/>randa.
+</p>
+               </div>
+               <div xml:id="Almn78-h82484-Dd1e513">
+                  <head xml:id="Almn78-h82484-Hd1e515">Articulus 2</head>
+                  <head xml:id="Almn78-h82484-Hd1e518" type="question-title">
+          Utrum acedia sit semper mortale 
+          peccatum, vel aliquando veniale? et,
+          Quomodo dicatur peccatum 
+          caprtale
+        </head>
+                  <p xml:id="Almn78-h82484-d1e521">
+                     <lb ed="#Bc"/>MEMBRI PRIMI
+<lb ed="#Bc"/>ARTICULUS II.
+<lb ed="#Bc"/>Utrum acedia sit semper mortale 
+pec<lb ed="#Bc" break="no"/>catum, vel aliquando veniale? et,
+  <lb ed="#Bc"/>Quomodo dicatur peccatum 
+capr<lb ed="#Bc" break="no"/>tale ?
+</p>
+                  <p xml:id="Almn78-h82484-d1e537">
+                     <lb ed="#Bc"/>Secundo quaeritur, An acedia sit 
+sem<lb ed="#Bc" break="no"/>per mortale, vel aliquando veniale ? et,
+<lb ed="#Bc"/>Quomodo dicatur peccatum capitale?
+</p>
+                  <p xml:id="Almn78-h82484-d1e546">
+                     <lb ed="#Bc"/>Et videtur, quod semper sit 
+mor<lb ed="#Bc" break="no"/>tale. .
+</p>
+                  <p xml:id="Almn78-h82484-d1e554">
+                     <lb ed="#Bc"/>1. Eccli. xxxio, 29: Multam 
+mali<lb ed="#Bc" break="no"/>tiam docuit otiositas. Super hoc dicit.
+<pb ed="#Bc" n="371"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Bernardus : <quote xml:id="Almn78-h82484-Qd1e567"> Otiositas mater est 
+vi<lb ed="#Bc" break="no"/>tiorum, et noverca Virtutum. </quote> Tale 
+au<lb ed="#Bc" break="no"/>tem vilium quod gignit alia villa, et’
+<lb ed="#Bc"/>persequitur virtutes, maximum est et
+<lb ed="#Bc"/>mortale. Ergo acedia maximum 
+pecca<lb ed="#Bc" break="no"/>ium est et mortale. Mason patet: quia
+<lb ed="#Bc"/>illa est auctoritas. Mtnor probatur ex
+<lb ed="#Bc"/>hoc, quod otiositas est desiderabile 
+mo<lb ed="#Bc" break="no"/>vens ad acediam : propter hoc enim 
+gra<lb ed="#Bc" break="no"/>vatur et tristatur in operatione virtutum,
+<lb ed="#Bc"/>quia desiderat otiositatem.
+</p>
+                  <p xml:id="Almn78-h82484-d1e592">
+                     <lb ed="#Bc"/>2. Adhuc, Eccli. xxxvu1, 20, super
+<lb ed="#Bc"/>illud : In absconsione' permaneé 
+tristi<lb ed="#Bc" break="no"/>tia, Glossa : <quote xml:id="Almn78-h82484-Qd1e600"> Hic incipit, et in futuram
+<lb ed="#Bc"/>penam durabit, propter diffidentiam
+<lb ed="#Bc"/>superne consolationis. </quote> Sed illud 
+pec<lb ed="#Bc" break="no"/>catum gravissimum est quod habet 
+gra<lb ed="#Bc" break="no"/>vissimam ponam: nulla pcena gravior
+<lb ed="#Bc"/>quam illa que hic incipit et in futurum
+<lb ed="#Bc"/>durabit : acedia talis poena est : ergo
+<lb ed="#Bc"/>videtur, quod sit gravissimum peccatum
+<lb ed="#Bc"/>et mortale semper.
+</p>
+                  <p xml:id="Almn78-h82484-d1e621">
+                     <lb ed="#Bc"/>3. Adhuc, Hf ad Corinth. vu, 10:
+<lb ed="#Bc"/>Seculi tristitia mortem operatur. Sed
+<lb ed="#Bc"/>quod operatur mortem, mortale 
+pecca<lb ed="#Bc" break="no"/>tum est, quia de morte eterna 
+intelligi<lb ed="#Bc" break="no"/>tur. Ergo acedia semper mortale 
+pecca<lb ed="#Bc" break="no"/>tum est.
+</p>
+                  <p xml:id="Almn78-h82484-d1e637">
+                     <lb ed="#Bc"/>4. Adhuc, I Joan. v, 16: Est 
+pecca<lb ed="#Bc" break="no"/>tum ad mortem, non pro illo dico ut
+<lb ed="#Bc"/>roget quis. Sed jam habitum est, quod
+<lb ed="#Bc"/>acedia sive tristitia est peccatum ad
+<lb ed="#Bc"/>mortem. Ergo pro eo non est orandum :
+<lb ed="#Bc"/>et sic irremediabile est, et peccatum
+<lb ed="#Bc"/>mortale.
+</p>
+                  <p xml:id="Almn78-h82484-d1e655">
+                     <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Humanum est tristari de laborioso,
+<lb ed="#Bc"/>sicut de vigiliis, jejuniis, et orationibus,
+<lb ed="#Bc"/>et hujusmodi : et contingit spe sanctis
+<lb ed="#Bc"/>hominibus tristari de hujusmodi quando
+<lb ed="#Bc"/>superexcrescit labor. Unde Gregorius ad
+<lb ed="#Bc"/>Petrum in dialogo, cum Petrus 
+quere<lb ed="#Bc" break="no"/>ret: <quote xml:id="Almn78-h82484-Qd1e674"> Cur te meeror plus tenet solito ?
+<lb ed="#Bc"/>sic respondit : Meror, Petre, quem 
+con<lb ed="#Bc" break="no"/>tinue patior, et mihi per augmentum
+<lb ed="#Bc"/>novus est, et per assuetudinem
+<lb ed="#Bc"/>tus. </quote>
+                  </p>
+                  <p xml:id="Almn78-h82484-d1e686">
+                     <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>2. Adhuc, Matth. xxvi, 38 : Tristis
+<lb ed="#Bc"/>est anima mea usque ad mortem. Verba
+<lb ed="#Bc"/>sunt Christi : et difficile esset dicere,
+<lb ed="#Bc"/>quod Sancti in tali tristitia peccarent
+<lb ed="#Bc"/>mortaliter.
+</p>
+                  <p xml:id="Almn78-h82484-d1e703">
+                     <lb ed="#Bc"/>Sorunio. Dicendum, quod acedia non
+<lb ed="#Bc"/>semper mortale peccatum est, nec 
+maxi<lb ed="#Bc" break="no"/>mum: quantum tamen sit, ex 
+circum<lb ed="#Bc" break="no"/>stantiis judicandum est.
+</p>
+                  <p xml:id="Almn78-h82484-d1e714">
+                     <lb ed="#Bc"/>Aliquando enim tanta est tristitia circa
+<lb ed="#Bc"/>difficile et bonum, quod dejicit in 
+despe<lb ed="#Bc" break="no"/>rationem : et tune peccatum mortale est
+<lb ed="#Bc"/>et maximum, quia desperatio peccatum
+<lb ed="#Bc"/>in Spiritum sanctum est, et est cum
+<lb ed="#Bc"/>finali impeenitentia, que etiam est 
+pec<lb ed="#Bc" break="no"/>calum in Spiritum sanctum, sicut 
+infe<lb ed="#Bc" break="no"/>rius ostendetur.
+</p>
+                  <p xml:id="Almn78-h82484-d1e734">
+                     <lb ed="#Bc"/>Aliquando causatur ex infirmitate, ex
+<lb ed="#Bc"/>qua fit quod homo tristatur et acediosus
+<lb ed="#Bc"/>fit cirea operationem bonorum, que 
+dif<lb ed="#Bc" break="no"/>ficilia sunt ad operandum. Et tune non
+<lb ed="#Bc"/>potest dici, quod sit peccatum mortale,
+<lb ed="#Bc"/>sed veniale ex infirmitate causatum. If ad
+<lb ed="#Bc"/>Corinth. 1,8 : Non volumus ignorare
+<lb ed="#Bc"/>vos, fratres, de tribulatione nostra que
+<lb ed="#Bc"/>facta est in Asia, quoniam supra 
+mo<lb ed="#Bc" break="no"/>dum gravati sumus supra virtutem, ita
+<lb ed="#Bc"/>ut tederet nos etiam vivere. Et in hoc
+<lb ed="#Bc"/>casu nullum peccatum est nec veniale
+<lb ed="#Bc"/>nec mortale : quia sic fuit in Christo et
+<lb ed="#Bc"/>in sanctis. Unde, Matth. xxvi, 38:
+<lb ed="#Bc"/>Tristis est anima mea usque ad mortem.
+<lb ed="#Bc"/>Job, x, 1: Tedet animam meam vite
+<lb ed="#Bc"/>mee : dimitiam adversum me eloquium
+<lb ed="#Bc"/>meum, Et sic non proprie vocatur 
+capi<lb ed="#Bc" break="no"/>tale peccatum, sed tristitia naturalis,
+<lb ed="#Bc"/>que ex gravitate nature incidit in 
+om<lb ed="#Bc" break="no"/>nem hominem, qui infirme nature est
+<lb ed="#Bc"/>et infirmitates carnis patitur : necesse
+<lb ed="#Bc"/>enim est, quod omnis talis tristetur circa
+<lb ed="#Bc"/>operationem bonorum, que difticilia
+<lb ed="#Bc"/>sunt. Unde, Psal. vi, 3 et 4: Miserere
+<lb ed="#Bc"/>mei, Domine, quoniam infirmus sum :
+<lb ed="#Bc"/>sana me, Domine, queniam conturbata
+<lb ed="#Bc"/>sunt ossa mea,et anima mea turbata
+<lb ed="#Bc"/>est valde.
+</p>
+                  <p xml:id="Almn78-h82484-d1e799">
+                     <pb ed="#Bc" n="372"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>Aliquando causatur ex desiderio 
+se<lb ed="#Bc" break="no"/>cularis jucunditatis, et libidine peccati,
+<lb ed="#Bc"/>ex quibus incipit tristari circa bonorum
+<lb ed="#Bc"/>operationem. Et sic est mortale 
+pecca<lb ed="#Bc" break="no"/>tum semper grave : sed gravissimum
+<lb ed="#Bc"/>quando conjungitur desperationi, et
+<lb ed="#Bc"/>finali impcenitentie : quia tunc est
+<lb ed="#Bc"/>peccatum ad mortem : quia abstrahit
+<lb ed="#Bc"/>a bonis et immergit hominem in multis
+<lb ed="#Bc"/>malis.
+</p>
+                  <p xml:id="Almn78-h82484-d1e828">
+                     <lb ed="#Bc"/>Et in hoc solo casu loquuntur quatuor
+<lb ed="#Bc"/>auctoritates primo inducte : quia sic
+<lb ed="#Bc"/>peccatum ad mortem est, pro quo non
+<lb ed="#Bc"/>est orandum, sicut dicitur, Matth. xu,
+<lb ed="#Bc"/>32 : Non remitietur ei, neque in hoc 
+se<lb ed="#Bc" break="no"/>culo, neque in futuro: quia est 
+pecca<lb ed="#Bc" break="no"/>tum in Spirilum sanctum, quod est
+<lb ed="#Bc"/>conjunctum finali impcenitentie, ut
+<lb ed="#Bc"/>dictum est: per solam enim 
+pceniten<lb ed="#Bc" break="no"/>tiam posset remitti: et illa privatur per
+<lb ed="#Bc"/>impeenitentiam finalem, cui conjunctum
+<lb ed="#Bc"/>est. Et ideo dicitur, II ad Corinth. vu, 10 :
+<lb ed="#Bc"/>Seculi tristitia mortem operatur.
+</p>
+                  <p xml:id="Almn78-h82484-d1e859">
+                     <lb ed="#Bc"/>Et per hac patet solutio ad quatuor
+<lb ed="#Bc"/>primo inducta.
+</p>
+                  <p xml:id="Almn78-h82484-d1e867">
+                     <lb ed="#Bc"/>Ad Duo que in contrarium 
+objiciun<lb ed="#Bc" break="no"/>tur, dicendum quod illa procedunt : quia
+<lb ed="#Bc"/>loquuntur de tristilia causata ex 
+natu<lb ed="#Bc" break="no"/>rali infirmitate, que nullum peccatum
+<lb ed="#Bc"/>est, ut paulo ante diximus. Et hac fuit
+<lb ed="#Bc"/>in Christo ut propassio, in aliis autem
+<lb ed="#Bc"/>Sanctis ut passio naturalis Propassio
+<lb ed="#Bc"/>enim, ut dicunt sancti Augustinus et
+<lb ed="#Bc"/>Hilarius, vocatur passio afficiens, et non
+<lb ed="#Bc"/>abducens ralionem : passio autem est
+<lb ed="#Bc"/>afficiens, et aliquando abducens, 
+secun<lb ed="#Bc" break="no"/>dum quod Arisloteles dicit in VIL 
+Ethi<lb ed="#Bc" break="no"/>corum de continente et incontinente,
+<lb ed="#Bc"/>quod continens est qui moratur in
+<lb ed="#Bc"/>mente, et vi passionis non abducitur 
+in<lb ed="#Bc" break="no"/>continens e converso, qui in mente non
+<lb ed="#Bc"/>moratur, et vi passionis abducitur
+<lb ed="#Bc"/>mollis vero qui sicut enervatus et 
+disso<lb ed="#Bc" break="no"/>lutus, omni subjacet passioni. Capitale
+<lb ed="#Bc"/>autem peccatum dicitur, quia sicut caput
+<lb ed="#Bc"/>in membra dividitur, ita in multa 
+pec<lb ed="#Bc" break="no"/>cata dividitur, que dicuntur a Gregorio
+<lb ed="#Bc"/>filie ejus, de quibus per ordinem 
+que<lb ed="#Bc" break="no"/>rendum est.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-h82484-Dd1e924">
+               <head xml:id="Almn78-h82484-Hd1e926">Membrum 2</head>
+               <head xml:id="Almn78-h82484-Hd1e929" type="question-title">De filiabus acediae, quot et quae sint</head>
+               <p xml:id="Almn78-h82484-d1e932">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>MEMBRUM IL.
+<lb ed="#Bc"/>De filiabus acediae, quot et quae sint?
+</p>
+               <p xml:id="Almn78-h82484-d1e941">
+                  <lb ed="#Bc"/>Tertio queritur de filiabus acedia,
+<lb ed="#Bc"/>Quot et quae sint ?
+</p>
+               <p xml:id="Almn78-h82484-d1e948">
+                  <lb ed="#Bc"/>1. Quas tangit Gregorius in libro
+<lb ed="#Bc"/>XXXI AMoralium, sic dicens : <quote xml:id="Almn78-h82484-Qd1e954"> De
+<lb ed="#Bc"/>tristitia malitia, rancor, pusillanimitas,
+<lb ed="#Bc"/>desperatio, torpor circa precepta, 
+vaga<lb ed="#Bc" break="no"/>tio mentis erga illicita nascitur. </quote>
+               </p>
+               <p xml:id="Almn78-h82484-d1e965">
+                  <lb ed="#Bc"/>2. Isidorus autem ex tristitia dicit
+<lb ed="#Bc"/>nasci quatuor. Dicit enim sic: <quote xml:id="Almn78-h82484-Qd1e971"> 
+Qua<lb ed="#Bc" break="no"/>tuor autem nascentia ex tristitia, sunt
+<lb ed="#Bc"/>timor, pusillanimitas, amaritudo, 
+despe<lb ed="#Bc" break="no"/>ratio. </quote>
+               </p>
+               <p xml:id="Almn78-h82484-d1e981">
+                  <lb ed="#Bc"/>3. Beda vero assignat ista sic dicens:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h82484-Qd1e987"> De acedia oriuntur septem, scilicet
+<lb ed="#Bc"/>otiositas, somnolentia, importunitas 
+men<lb ed="#Bc" break="no"/>tis, inquietudo, corporis instabilitas, 
+ver<lb ed="#Bc" break="no"/>bositas, curiositas. </quote>
+               </p>
+               <p xml:id="Almn78-h82484-d1e997">
+                  <lb ed="#Bc"/>Queritur ergo de istis. Et primo de
+<lb ed="#Bc"/>numero quem assignat Gregorius, 
+qua<lb ed="#Bc" break="no"/>liter ista ex tristitia oriuntur sive ex 
+ace<lb ed="#Bc" break="no"/>dia?
+</p>
+               <p xml:id="Almn78-h82484-d1e1008">
+                  <lb ed="#Bc"/>Et Ad hoc dicendum, quod sicut in
+<lb ed="#Bc"/>prehabitis dictum est, acedia addit super.
+<lb ed="#Bc"/>tristitiam : quia acedia est tristitia 
+ag<lb ed="#Bc" break="no"/>gravans, et vocem auferens : tristitia 
+au<lb ed="#Bc" break="no"/>tem passio est ex presenti laborioso.
+<lb ed="#Bc"/>Unde in quantum adimit bonum virtutis
+<lb ed="#Bc"/>quod est difficile et laboriosum, dicitur
+<lb ed="#Bc"/>ex ea nasci malitia. Dicit enim 
+Augusti<lb ed="#Bc" break="no"/>nus, quod malitia est, que adimit 
+bo<lb ed="#Bc" break="no"/>num. In quantum autem conturbat 
+ani<lb ed="#Bc" break="no"/>mum, et facit odiosum bonum, sic 
+na<lb ed="#Bc" break="no"/>scitur ex ea rancor : quia sic facit furere
+<lb ed="#Bc"/>contra bonum. Rancor enim nihil aliud
+<lb ed="#Bc"/>est, nisi furor ire contra bonum : et est.
+<lb ed="#Bc"/>una malitiarum diaboli, sicut dicit 
+Dio<lb ed="#Bc" break="no"/>nysius in libro de Divinis nominibus :
+<lb ed="#Bc"/>ubi dicit, quod <quote xml:id="Almn78-h82484-Qd1e1047"> malum demonis est
+<lb ed="#Bc"/>contra deiformem intellectum esse. Et.
+<pb ed="#Bc" n="373"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>est triplex, scilicet furor irrationabilis,
+<lb ed="#Bc"/>demens concupiscentia, phantasia 
+pro<lb ed="#Bc" break="no"/>terva’. </quote> Pusillanimitas vero nascitur
+<lb ed="#Bc"/>ex tristitia, in quantum ab arduo quod
+<lb ed="#Bc"/>est circa bonum et precepta, in seipso
+<lb ed="#Bc"/>destituitur, ad quod tamen quilibet 
+de<lb ed="#Bc" break="no"/>beret esse animosus ad aggrediendum.
+<lb ed="#Bc"/>In hoc enim dicitur magnus vir bonus,
+<lb ed="#Bc"/>eo quod magnum habet animum talia
+<lb ed="#Bc"/>aggrediendi : et cadens a tali 
+magnitu<lb ed="#Bc" break="no"/>dine efficitur pusillanimis. Desperatio
+<lb ed="#Bc"/>autem oritur ex eadem tristitia : quia
+<lb ed="#Bc"/>spes est ceria exspectatio futuri boni, ut
+<lb ed="#Bc"/>dicit Augustinus, que tutat et firmat
+<lb ed="#Bc"/>animum, ut audeat aggredi ardua 
+virtu<lb ed="#Bc" break="no"/>tis et praecepti, propter quod sperat bona
+<lb ed="#Bc"/>eterna : tristitia autem dejicit a tali spe
+<lb ed="#Bc"/>et audacia, et sic dejicit in 
+desperatio<lb ed="#Bc" break="no"/>nem. Jorpor autem circa pracepta 
+ori<lb ed="#Bc" break="no"/>tur ex tristitia : quia cum tristitia dejicit
+<lb ed="#Bc"/>aspe aggrediendi magna et exspectandi
+<lb ed="#Bc"/>bona, torpere incipit et marcescere in
+<lb ed="#Bc"/>seipso, quasi non habens vigorem 
+ope<lb ed="#Bc" break="no"/>randi ea que préecipiuntur.
+</p>
+               <p xml:id="Almn78-h82484-d1e1109">
+                  <lb ed="#Bc"/>Et omnes iste filie oriuntur ex parte
+<lb ed="#Bc"/>aversionis a bono, quod est in omni
+<lb ed="#Bc"/>peccato. Ex parte autem conversionis ad
+<lb ed="#Bc"/>bonum commutabile, quod etiam est
+<lb ed="#Bc"/>in peccato, oritur vagatio mentis erga
+<lb ed="#Bc"/>illicita, Non enim habens in se bonum
+<lb ed="#Bc"/>spirituale in quo gaudeat in bono 
+in<lb ed="#Bc" break="no"/>commutabili, remedium querit in rebus
+<lb ed="#Bc"/>temporalibus, et sic incipit evagari circa
+<lb ed="#Bc"/>illicita.
+</p>
+               <p xml:id="Almn78-h82484-d1e1133">
+                  <lb ed="#Bc"/>Ea vero que enumerat Isidorus, sic
+<lb ed="#Bc"/>accipiuntur, quod é2mor oritur ex 
+trisli<lb ed="#Bc" break="no"/>tia quam habet ad magnum et arduum,
+<lb ed="#Bc"/>quod timet aggredi. Et ex eodem oritur
+<lb ed="#Bc"/>pusillanimitas, sicut paulo ante diclum
+<lb ed="#Bc"/>est, quod ex tali timore cadit a 
+magni<lb ed="#Bc" break="no"/>tudine in pusillanimitatem. Et sic per
+<lb ed="#Bc"/>consequens cadit in amaritudinem :
+<lb ed="#Bc"/>amaricatur enim in seipso ex timore et
+<lb ed="#Bc"/>pusillanimitate, nihil in seipso sentiens
+<lb ed="#Bc"/>dulcedinis veri boni, quod solum dulco
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>rat animum. Propter quod dicitur in
+<lb ed="#Bc"/>Psalmo xxxvi, 4: Delectare in Domino,
+<lb ed="#Bc"/>et dabit tibi petitiones cordis tui, Et sic
+<lb ed="#Bc"/>ulterius pracipitatur in desperationem,
+<lb ed="#Bc"/>sicut prius dictum est: quia non habens
+<lb ed="#Bc"/>in se bonum meriti, desperat. Et hoc
+<lb ed="#Bc"/>patet per definitionem spei quam ponit
+<lb ed="#Bc"/>Magister in libro IIT Sententiarum, ex
+<lb ed="#Bc"/>verbis Augustini sic dicens : <quote xml:id="Almn78-h82484-Qd1e1180"> Spes est
+<lb ed="#Bc"/>cerla exspectatio future beatitudinis, ex
+<lb ed="#Bc"/>meritis et gratia proveniens. </quote> Tristis
+<lb ed="#Bc"/>enim avertitur a meritis et gratia, ex
+<lb ed="#Bc"/>quibus deberet sperare futura.
+</p>
+               <p xml:id="Almn78-h82484-d1e1194">
+                  <lb ed="#Bc"/>Ex istis jam facile patet quomodo 
+su<lb ed="#Bc" break="no"/>mitur divisio Bede. Ex hoc enim, quod
+<lb ed="#Bc"/>tristitia avertit a bono meriti et virtutis,
+<lb ed="#Bc"/>cirea quod solum debet esse otiositas
+<lb ed="#Bc"/>hominis, cadit in otiositatem. Et ex hoc
+<lb ed="#Bc"/>torpens in seipso, cadit in somnolentiam.
+<lb ed="#Bc"/>Et quia mens non potest otiosa esse quin
+<lb ed="#Bc"/>aliquid operetur, efficitur amportuna, se
+<lb ed="#Bc"/>ingerens illicitis. Unde versus poete :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h82484-Qd1e1217">Queritur Egistus quare sil factus adulter ?
+<lb ed="#Bc"/>In promptu causa est, desidiosus erat.</quote>
+               </p>
+               <p xml:id="Almn78-h82484-d1e1223">
+                  <lb ed="#Bc"/>Ex hoc autem nascitur inguietudo :
+<lb ed="#Bc"/>quia non habens quietem in seipso, 
+va<lb ed="#Bc" break="no"/>gatur circa illicita, Et ex hoc iteram 
+ori<lb ed="#Bc" break="no"/>tur corporis instabilitas, sicut dicitur,
+<lb ed="#Bc"/>Proverb. vu, 10 et seq.: Eé cece occurrit
+<lb ed="#Bc"/>ili mulier... garrula et vaga, quietis
+<lb ed="#Bc"/>impatiens, nec valens in domo 
+consi<lb ed="#Bc" break="no"/>stere pedibus suis: nune foris, nune in
+<lb ed="#Bc"/>plateis, nune jucta angulos insidians. Et
+<lb ed="#Bc"/>ex hoc causatur verbositas et curiositas :
+<lb ed="#Bc"/>quia dum non habet ubi quiescat in
+<lb ed="#Bc"/>propriis bonis, verbose et curiose ingerit
+<lb ed="#Bc"/>se aliis. Contra quod dicitur, Sapient.
+<lb ed="#Bc"/>vin, 16: Infrans in domum meam, 
+con<lb ed="#Bc" break="no"/>quiescam cum illa, scilicet sapientia :
+<lb ed="#Bc"/>non enim habet amaritudinem 
+conver<lb ed="#Bc" break="no"/>satio illius, nec tedium convictus illius,
+<lb ed="#Bc"/>sed lzxtitia et gaudium.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

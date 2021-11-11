@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="837"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a49922"><!-- p1t20prae -->
+            <head xml:id="Almn78-a49922-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a49922-d1e109">
+               <pb ed="#Ba" n="837"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS XX.
+<lb ed="#Ba"/>DE VOLUNTATE DEI.
+</p>
+            <p xml:id="Almn78-a49922-d1e120">
+               <lb ed="#Ba"/>Consequenter queeritur de voluntate Dei. Quamvis enim potentia 
+secun<lb ed="#Ba" break="no"/>dum intentionem potenti prior sit scientia et voluntate, eo quod omnis
+<lb ed="#Ba"/>scientia secundum potentiam aliquam est, et non convertitur, et omnis 
+vo<lb ed="#Ba" break="no"/>luntas secundum potentiam aliquam est, etnon convertitur: tamen 
+se<lb ed="#Ba" break="no"/>cundum quod haec referuntur ad objecta, majoris amplitudinis est scientia
+<lb ed="#Ba"/>quam potentia : quia scientia malorum et bonorum est, et entium in actu
+<lb ed="#Ba"/>etin potentia : potentia autem tantum bonorum, sed tam existentium in
+<lb ed="#Ba"/>potentia quam in aclu : voluntas autem est bonorum existentium tantum :
+<lb ed="#Ba"/>et ideo quorumcumque est voluntas, eorum est potentia, sed non 
+conver<lb ed="#Ba" break="no"/>titur : et quorumcumque est potentia, eorumdem est scientia, sed non 
+con<lb ed="#Ba" break="no"/>verlitur. Quamvis etiam voluntas secundum Anselmum aliquando 
+genera<lb ed="#Ba" break="no"/>liter sumatur prout est motor animi et omnium potentiarum .ejus, et
+<lb ed="#Ba"/>secundum hoc dicat Magister Hugo, quod <quote xml:id="Almn78-a49922-Qd1e150"> voluntas est movens, scientia
+<lb ed="#Ba"/>disponens et ordinans, et potentia operans sive exsequens :</quote> tamen 
+se<lb ed="#Ba" break="no"/>cundum quod voluntas comparatur ad volitum, sic voluntas procedit a
+<lb ed="#Ba"/>scientia quee nuntium facit, et coarctatur sub potentia que multa potest
+<lb ed="#Ba"/>quée non vult. Ideo hune ordinem sequi elegit Magister in libro primo 
+Sen<lb ed="#Ba" break="no"/>tentiarum, distinct. XLV, ut primo determinaret de scientia, secundo de
+<lb ed="#Ba"/>potentia, tertiode voluntate. Quadragesima ergo quinta distinctione libri
+<lb ed="#Ba"/>primi Senfentiarum, cap. Jam de voluntate Dei aliquid pro sensus nostri
+<lb ed="#Ba"/>embecillitate dicendum est, agere incipit Magister.
+  
+<lb ed="#Ba"/>De qua voluntate in communi queremus duo, scilicet primo de ipsa 
+vo<lb ed="#Ba" break="no"/>luntate. .
+<lb ed="#Ba"/>Secundo, De signis voluntatis.
+  
+<lb ed="#Ba"/>De voluntate in communi Magister querit duo, scilicet primo quid sit
+<lb ed="#Ba"/>voluntas in Deo ?
+<lb ed="#Ba"/>Et secundo, De causalitate divine voluntatis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

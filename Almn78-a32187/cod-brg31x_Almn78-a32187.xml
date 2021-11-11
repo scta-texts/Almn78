@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="598"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a32187"><!-- p1t15prae -->
+            <head xml:id="Almn78-a32187-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a32187-d1e109">
+               <pb ed="#Ba" n="598"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS XV.
+<lb ed="#Ba"/>DE SCIENTIA, PRAESCIENTIA, ET DISPOSITIONE.
+</p>
+            <p xml:id="Almn78-a32187-d1e120">
+               <lb ed="#Ba"/>Deinde quarendum est de sapientia sive scientia, potentia, et voluntate,
+<lb ed="#Ba"/>quae licet essenlialia sint, tamen (ul dicit Magister in libro primo 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinchione NXXY) specialem efflagitant tractatum.
+<lb ed="#Ba"/>Et quia scientia est respectu omnium verorum tam bonorum quam 
+ma<lb ed="#Ba" break="no"/>lorum, polenta autem respectu possibilium et impossibilium bonorum 
+tan<lb ed="#Ba" break="no"/>tum, voluntas autem respectu bonorum tantum et factorum, ideo primo de
+<lb ed="#Ba"/>scientia faciemus inquisitionem, sccundo de potentia, tertio de voluntate :
+<lb ed="#Ba"/>quia hoc ordine etiam procedit Magister in Sententiis.
+<lb ed="#Ba"/>De scientia igilur queerunus hoc modo, scilicet quod prime quaremus de
+<lb ed="#Ba"/>scientia in communi.
+<lb ed="#Ba"/>Secundo, In speciali de prascicnhia, dispositione, preedeslinatione, 
+repro<lb ed="#Ba" break="no"/>batione, et providentia.
+<lb ed="#Ba"/>De scientia quaremus in communi quatuor, scilicet primo quid sit ?
+<lb ed="#Ba"/>Secundo, Per quid sit ?
+<lb ed="#Ba"/>Tertio, De quo sit ?
+<lb ed="#Ba"/>Et quarto, Quomodo se habeat et ad scientem et ad seibile ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 124</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 124</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="409"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h91389"><!-- p2t19q124 -->
+            <head xml:id="Almn78-h91389-Hd1e106">Quaestio 124</head>
+            <head xml:id="Almn78-h91389-Hd1e109" type="question-title">
+    Quomodo coalescit malum in istis quae a privatione actus 
+    denominantur, sicut ignorantia, negligentia, et omissio.
+  </head>
+            <p xml:id="Almn78-h91389-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXIV,
+<lb ed="#Bc"/>Quomodo coalescit malum in istis quae a privatione actus 
+deno<lb ed="#Bc" break="no"/>minantur, sicut ignorantia, negligentia, et omissio.
+</p>
+            <p xml:id="Almn78-h91389-d1e123">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Queritur ratione ejus quod
+<lb ed="#Bc"/>dicit Magister in illo capitulo, Quidam
+<lb ed="#Bc"/>autem diligenter attendentes verba 
+Au<lb ed="#Bc" break="no"/>gustini, quod non coalescit malum nisi
+<lb ed="#Bc"/>in bono, queritur, Quomodo coalescit
+<lb ed="#Bc"/>malum in istis que a privatione actus
+<lb ed="#Bc"/>denominantur, sicut ignorantia, 
+negli<lb ed="#Bc" break="no"/>gentia, et omissio ?
+</p>
+            <p xml:id="Almn78-h91389-d1e145">
+               <lb ed="#Bc"/>Et ad hoc objicitur sic:
+<lb ed="#Bc"/>In peccatis quae a privatione actus 
+de<lb ed="#Bc" break="no"/>nominantur, actus esse non potest : ergo
+<lb ed="#Bc"/>malum non coalescit in talibus in actu:
+<lb ed="#Bc"/>nec potest aliquid assignari in quo 
+coa<lb ed="#Bc" break="no"/>lescit: ergo malum non est in eis. Quod
+<lb ed="#Bc"/>expresse falsum est: cum dicat 
+Augusti<lb ed="#Bc" break="no"/>nus, quod omne malum fit ideo, vel quia
+<lb ed="#Bc"/>fiunt ea que prohibentur, vel non fiunt
+<lb ed="#Bc"/>ea que jubentur.
+</p>
+            <p xml:id="Almn78-h91389-d1e170">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Sozvutio. Ad hoc facile est respondere
+<lb ed="#Bc"/>etiam secundum Grammaticum : quia in
+<lb ed="#Bc"/>omni peccato tam commissionis quam
+<lb ed="#Bc"/>etiam omissionis, est actus interior 
+vo<lb ed="#Bc" break="no"/>luntatis, in quo malum coalescit. Cum
+<lb ed="#Bc"/>enim dicitur, nolo, non vis, per totum
+<lb ed="#Bc"/>condeclinium voluntas manet affirmata,
+<lb ed="#Bc"/>et volitum negatum, ut nolo comedere,
+<lb ed="#Bc"/>id est, volo non comedere : et illa 
+volun<lb ed="#Bc" break="no"/>tas et a Deo est et bona, in quantum est.
+<lb ed="#Bc"/>Apud Philosophos enim, sicut Avicenna
+<lb ed="#Bc"/>probat in Metaphysica sua, primum
+<lb ed="#Bc"/>principium esse, hoc est, ejus quod est
+<lb ed="#Bc"/>esse, est, quod est causa in omni eo quod
+<lb ed="#Bc"/>est. Et ideo dicit Anselmus, quod 
+te<lb ed="#Bc" break="no"/>merarium est dicere, quod aliquid sit
+<lb ed="#Bc"/>quod non sit ab ente primo. Et ideo 
+di<lb ed="#Bc" break="no"/>cit Dionysius in libro de Divinis nomi
+<pb ed="#Bc" n="410"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc" break="no"/>nibus, quod <quote xml:id="Almn78-h91389-Qd1e219"> malum nihil est, nee 
+ali<lb ed="#Bc" break="no"/>quid existentium, nec potest esse nisi in
+<lb ed="#Bc"/>bono, sicut privatio non potest esse nisi
+<lb ed="#Bc"/>in subjecto habitus, sicut cecitas in 
+ocu<lb ed="#Bc" break="no"/>lo, ubi visus esse deberet!.</quote> Et 
+Aristo<lb ed="#Bc" break="no"/>teles in XII primae philosophiae dicit,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h91389-Qd1e235"> locus mali non potest esse nisi
+<lb ed="#Bc"/>bonum. </quote> Sic ergo in istis peccatis que
+<lb ed="#Bc"/>a privatione actus denominantur, est
+<lb ed="#Bc"/>actus interior voluntatis, que est 
+volun<lb ed="#Bc" break="no"/>tas non faciendi quod jubetur, in quo
+<lb ed="#Bc"/>coalescit malum: et ideo inter peccata
+<lb ed="#Bc"/>computantur, el sunt peccata aliquando
+<lb ed="#Bc"/>venialia, aliquando mortalia, sicut in
+<lb ed="#Bc"/>antehabitis dictum est.
+</p>
+            <p xml:id="Almn78-h91389-d1e256">
+               <lb ed="#Bc"/>Ulterius guaeritur, Quia multa sunt
+<lb ed="#Bc"/>peccata convenientiam cum negligentia
+<lb ed="#Bc"/>habentia, sicut est ignavia, torpor, 
+desi<lb ed="#Bc" break="no"/>dia, pigritia, que sit differentia in his?
+</p>
+            <p xml:id="Almn78-h91389-d1e267">
+               <lb ed="#Bc"/>Et ad hoc dicendum, quod negligentia
+<lb ed="#Bc"/>dicitur, quando aliquis negligit 
+electio<lb ed="#Bc" break="no"/>nem voluntatis, et maxime in 
+circum<lb ed="#Bc" break="no"/>stantia temporis, ut dictum est. Desidia
+<lb ed="#Bc"/>autem a desinendo dicta, quando aliquis
+<lb ed="#Bc"/>desinit a continuatione boni operis quod
+<lb ed="#Bc"/>continuandum esset. Jgnavia autem 
+dici<lb ed="#Bc" break="no"/>tur ignorantia propriarum virium, 
+quan<lb ed="#Bc" break="no"/>do aliquis ex ignorantia propriarum 
+vi<lb ed="#Bc" break="no"/>rium, opus virile non aggreditur. Torpor
+<lb ed="#Bc"/>S. Dionysius, Lib. de Divinis nominibus,
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>vero, quando homo in seipso marcet et
+<lb ed="#Bc"/>torpet sicut somnolentus, et ideo 
+sus<lb ed="#Bc" break="no"/>penditur a bono opere virtutis. Piger
+<lb ed="#Bc"/>autem dicitur, quem quodlibet exterius
+<lb ed="#Bc"/>terret ab opere. Proverb. xx, 4: 
+Pro<lb ed="#Bc" break="no"/>pter frigus piger arare noluit : 
+mendi<lb ed="#Bc" break="no"/>cabit ergo estate, et non dabitur ili.
+<lb ed="#Bc"/>Et, ibidem, xix, 24: Abscondit piger
+<lb ed="#Bc"/>manus sub ascella. Unde pigritia est
+<lb ed="#Bc"/>que privat opus exterius per aliquam
+<lb ed="#Bc"/>occasionem non sufficientem.
+</p>
+            <p xml:id="Almn78-h91389-d1e319">
+               <lb ed="#Bc"/>Sr qgumrirour, utrum ista sint capitalia,
+<lb ed="#Bc"/>vel reducantur ad capitale aliquod ?
+</p>
+            <p xml:id="Almn78-h91389-d1e326">
+               <lb ed="#Bc"/>Dicendum, quod non sunt capitalia:
+<lb ed="#Bc"/>sed si reducuntur ad aliquod, tunc 
+redu<lb ed="#Bc" break="no"/>cuntur ad acediam. Et hoc videtur 
+di<lb ed="#Bc" break="no"/>cere Gregorius super illud Job, 1x, 28:
+<lb ed="#Bc"/>Verebar omnia opera mea, sic: <quote xml:id="Almn78-h91389-Qd1e339"> 
+Desi<lb ed="#Bc" break="no"/>dia vel negligentia per torporem 
+nasci<lb ed="#Bc" break="no"/>tur, fraus per privatam dilectionem. 
+Il<lb ed="#Bc" break="no"/>lam minor amor Dei exaggerat, hanc
+<lb ed="#Bc"/>proprius amor sui excitat. </quote>
+            </p>
+            <p xml:id="Almn78-h91389-d1e351">
+               <lb ed="#Bc"/>haec de peccatis que a privatione 
+de<lb ed="#Bc" break="no"/>nominantur dicta sufficiant : de radicibus
+<lb ed="#Bc"/>enim peccatorum, et de peccatis que in
+<lb ed="#Bc"/>verbis consistunt, inferius erit locus
+<lb ed="#Bc"/>queerendi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

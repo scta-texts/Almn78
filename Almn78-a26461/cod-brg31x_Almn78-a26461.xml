@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="124"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a26461"><!-- p1t4prae -->
+            <head xml:id="Almn78-a26461-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-a26461-d1e109">
+               <pb ed="#Ba" n="124"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>TRACTATUS IV.
+<lb ed="#Ba"/>DE ESSENTIALITATE, SIMPLICITATE, ET 
+INCOMMU<lb ed="#Ba" break="no"/>TABILITATE DEI.
+</p>
+            <p xml:id="Almn78-a26461-d1e122">
+               <lb ed="#Ba"/>Habito de his que quasi preambula sunt ad hance scientiam, scilicel que
+<lb ed="#Ba"/>et qualis sit scientia de ipso, et quibus viis cognoscitur : nunc de ipso 
+co<lb ed="#Ba" break="no"/>gnoscibili quod est Deus, queerendum est.
+</p>
+            <p xml:id="Almn78-a26461-d1e131">
+               <lb ed="#Ba"/>Et quia quoad nos prius cognoscitur in unitate essentia, quam in 
+distin<lb ed="#Ba" break="no"/>ctione personarum, ideo inquisilionem islam in tria dividimus.
+</p>
+            <p xml:id="Almn78-a26461-d1e138">
+               <lb ed="#Ba"/>Inquiremus enim primo ea que propria sunt essentice. Secundo, que
+<lb ed="#Ba"/>sunt propria distinctioni personarum. Tertio, que communia personis in
+<lb ed="#Ba"/>unitate essentie existentibus.
+</p>
+            <p xml:id="Almn78-a26461-d1e148">
+               <lb ed="#Ba"/>Inter cognoscibilia autem que prius intellectui occurrunt, tria sunt, 
+sci<lb ed="#Ba" break="no"/>licet essentialitas, simplicitas, et incommutabilitas, de quibus agit Magister
+<lb ed="#Ba"/>in I Sententiarum*.
+</p>
+            <p xml:id="Almn78-a26461-d1e157">
+               <lb ed="#Ba"/>Inter hac enim primo querendum est de essentialitate.
+<lb ed="#Ba"/>Circa hanc autem quatuor inquiruntur, scilicet utrum solus Deus vere et
+<lb ed="#Ba"/>proprie sit ?
+<lb ed="#Ba"/>Et secundo, Utrum possit non esse, vel cogitari non esse ?
+<lb ed="#Ba"/>Tertio, Utrum alia in comparatione ejus sint per se vel per accidens ?
+<lb ed="#Ba"/>Et hoc est querere, Utrum accidat eis esse vel per se conveniat ?
+<lb ed="#Ba"/>Quarto, Utrum hoc ipsum, non posse cogitari non esse, sit Deo proprium,
+<lb ed="#Ba"/>vel etiam aliis conveniat ?
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

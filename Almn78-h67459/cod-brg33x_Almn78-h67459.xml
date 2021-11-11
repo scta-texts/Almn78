@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 108</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 108</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="303"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h67459"><!-- p2t17q108 -->
+            <head xml:id="Almn78-h67459-Hd1e106">Quaestio 108</head>
+            <head xml:id="Almn78-h67459-Hd1e109" type="question-title">
+    De concupiscentia et fomite.
+  </head>
+            <p xml:id="Almn78-h67459-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CVIII.
+<lb ed="#Bc"/>De concupiscentia et fomite.
+</p>
+            <p xml:id="Almn78-h67459-d1e121">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde transeundum est ad ea que
+<lb ed="#Bc"/>dicuntur a Magistro in libro II 
+Senten<lb ed="#Bc" break="no"/>tiarum,’ distinct. XXX, cap. Nune 
+su<lb ed="#Bc" break="no"/>perest videre quid sit ipsum originale
+<lb ed="#Bc"/>peccatum.
+</p>
+            <p xml:id="Almn78-h67459-d1e137">
+               <lb ed="#Bc"/>Ratione enim hujus quod dicit 
+Magi<lb ed="#Bc" break="no"/>ster in eodem cap. Originale peccatum
+<lb ed="#Bc"/>est fomes ef coneupiscentia : oportet
+<lb ed="#Bc"/>querere de concupiscentia et fomite.
+</p>
+            <p xml:id="Almn78-h67459-d1e149">
+               <lb ed="#Bc"/>Et queruntur tria.
+<lb ed="#Bc"/>Primo, Quid sit fomes sive 
+concupi<lb ed="#Bc" break="no"/>scentia fomitis? Et, Quare fomes 
+voce<lb ed="#Bc" break="no"/>tur ?
+<lb ed="#Bc"/>Secundo, In quo sit, utrum in carne,
+<lb ed="#Bc"/>vel anima, vel in utroque?
+<lb ed="#Bc"/>Tertio, A quo sit sicut a causa?
+</p>
+            <div xml:id="Almn78-h67459-Dd1e167">
+               <head xml:id="Almn78-h67459-Hd1e169">Membrum 1</head>
+               <head xml:id="Almn78-h67459-Hd1e172" type="question-title">
+        Quid sit concupiscentia sive fomes ?
+      </head>
+               <p xml:id="Almn78-h67459-d1e175">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Quid sit concupiscentia sive fomes ?
+</p>
+               <p xml:id="Almn78-h67459-d1e182">
+                  <lb ed="#Bc"/>Ad primum objicitur sic:
+<lb ed="#Bc"/>1, Augustinus ad Valerium : <quote xml:id="Almn78-h67459-Qd1e188"> 
+Con<lb ed="#Bc" break="no"/>cupiscentia est affectio quedam male
+<lb ed="#Bc"/>voluntatis sicut languor. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e196">
+                  <lb ed="#Bc"/>2, Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-h67459-Qd1e200"> 
+Con<lb ed="#Bc" break="no"/>cupiscentia est radix omnium malo-
+  <cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>rum.</quote> Et hoc accipitur ex epist. I ad
+<lb ed="#Bc"/>Timoth. vi, 10, ubi dicitur: Radix 
+om<lb ed="#Bc" break="no"/>nium malorum est cupiditas.
+</p>
+               <p xml:id="Almn78-h67459-d1e215">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro XIII
+<lb ed="#Bc"/>de Civitate Dei: <quote xml:id="Almn78-h67459-Qd1e221"> Concupiscentia est
+<lb ed="#Bc"/>malum nobiscum congenitum *.</quote> Et huic
+<lb ed="#Bc"/>concordat quod dicitur in II Ethicorum,
+<lb ed="#Bc"/>ubi dicit Aristoteles, quod oportet nos
+<lb ed="#Bc"/>fugere maxime delectationem sive 
+con<lb ed="#Bc" break="no"/>cupiscentiam contemporaneam vite : et
+<lb ed="#Bc"/>pati ad eam quod sapientes plebis passi
+<lb ed="#Bc"/>sunt ad Helenam, qui videntes decorem
+<lb ed="#Bc"/>Helene dixerunt: Fugiamus, fugiamus,
+<lb ed="#Bc"/>ne capiamur decore ejus quam juvenes
+<lb ed="#Bc"/>prosecuti sunt et capti.
+</p>
+               <p xml:id="Almn78-h67459-d1e247">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus ad Valerium:
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h67459-Qd1e253"> Concupiscentia est vulnus humano
+<lb ed="#Bc"/>generia diabolo inflictum, ut tamquam
+<lb ed="#Bc"/>de suo genere fructum decerpat. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e261">
+                  <lb ed="#Bc"/>5. Adhuc, Eccli, xvi, 30 et 34: Fili,
+<lb ed="#Bc"/>post concupiscentias tuas non eas, et a
+<lb ed="#Bc"/>voluntate tua avertere. Si prestes anime
+<lb ed="#Bc"/>tue concupiscentias ejus, faciet te in
+<lb ed="#Bc"/>gaudium inimicis tuis.
+</p>
+               <p xml:id="Almn78-h67459-d1e274">
+                  <lb ed="#Bc"/>6. Adhuc, Augustinus in libro XIV de
+<lb ed="#Bc"/>Civitate Dei: <quote xml:id="Almn78-h67459-Qd1e280"> Post peccatum orta est
+<lb ed="#Bc"/>hec libido: post peccatum eam natura
+<lb ed="#Bc"/>non impudens, amissa potestate cui 
+cor<lb ed="#Bc" break="no"/>pus ex omni parte serviebat, sensit.</quote> Et
+<lb ed="#Bc"/>ibidem: <quote xml:id="Almn78-h67459-Qd1e291"> Libido eo magis erubescenda
+<pb ed="#Bc" n="304"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>existit, quo animus in ea, nec sibi 
+effi<lb ed="#Bc" break="no"/>caciter imperat, ut omnino non libeat:
+<lb ed="#Bc"/>nec omnino corpori, ut pudenda membra
+<lb ed="#Bc"/>voluntas potius quam libido 
+commo<lb ed="#Bc" break="no"/>veat '. </quote> Ex omnibus istis auctoritatibus
+<lb ed="#Bc"/>sumitur, quod concupiscentia est in 
+du<lb ed="#Bc" break="no"/>plici genere, scilicet in genere culpa, et
+<lb ed="#Bc"/>in genere pene.
+</p>
+               <p xml:id="Almn78-h67459-d1e317">
+                  <lb ed="#Bc"/>Et hoc videtur-esse inconveniens : quia
+<lb ed="#Bc"/>sicut dicit Aristoteles in Predicamentis :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h67459-Qd1e325"> Diversorum generum et non 
+subalter<lb ed="#Bc" break="no"/>natim positorum diverse sunt species et
+<lb ed="#Bc"/>differentia. </quote> Nisi enim esset in genere
+<lb ed="#Bc"/>peccati, non diceret Glossa super illud
+<lb ed="#Bc"/>epist. ad Roman. iv, 7: Beati quorum
+<lb ed="#Bc"/>remissz, etc. <quote xml:id="Almn78-h67459-Qd1e339"> Concupiscentia ante 
+ba<lb ed="#Bc" break="no"/>ptismum peccatum est, post baptismum
+<lb ed="#Bc"/>vero pena. </quote> Ex his sequitur, quod
+<lb ed="#Bc"/>in generibus duobus sit, quod est 
+incon<lb ed="#Bc" break="no"/>veniens.
+</p>
+               <p xml:id="Almn78-h67459-d1e351">
+                  <lb ed="#Bc"/>Ulterius queritur, Quare dicatur 
+fo<lb ed="#Bc" break="no"/>mes ?
+</p>
+               <p xml:id="Almn78-h67459-d1e359">
+                  <lb ed="#Bc"/>1. Ad Roman. VIII, 8, super illud :
+<lb ed="#Bc"/>Occasione accepta, peccatum, etc., dicit
+<lb ed="#Bc"/>Glossa: <quote xml:id="Almn78-h67459-Qd1e367"> Fomes peccati, id est, vitium
+<lb ed="#Bc"/>concupiscentiz. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e373">
+                  <lb ed="#Bc"/>2. Adhuc, Ambrosius: <quote xml:id="Almn78-h67459-Qd1e377"> Fomes est
+<lb ed="#Bc"/>quidam morbidus affectus, qui commovet
+<lb ed="#Bc"/>ad desiderium illicitum. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e385">
+                  <lb ed="#Bc"/>Contra hoc objici potest sic:
+<lb ed="#Bc"/>Constat, quod concupiscentia est in
+<lb ed="#Bc"/>anima : fomes autem in carne, quia 
+di<lb ed="#Bc" break="no"/>citur etiam lex membrorum: ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod male dicitur fomes.
+</p>
+               <p xml:id="Almn78-h67459-d1e398">
+                  <lb ed="#Bc"/>Sotuno. Dicendum ad primo 
+quasi<lb ed="#Bc" break="no"/>tum, scilicet quid sit fomes sive 
+concu<lb ed="#Bc" break="no"/>piscentia ? quod concupiscentia 
+secun<lb ed="#Bc" break="no"/>dum sui essentiam pro certo est in
+<lb ed="#Bc"/>genere pene, et estuna de penis que
+<lb ed="#Bc"/>causantur de originali peccato, sicut
+<lb ed="#Bc"/>paulo ante habitum est. Dicitur tamen
+<lb ed="#Bc"/>aliquando peccatum, sicut dicit 
+Augusti<lb ed="#Bc" break="no"/>nus in libro de Nuptiis et concupiscentia
+<lb ed="#Bc"/>contra Julianum et Pelagianum: quia
+<lb ed="#Bc"/>est et ex peccato, et inclinat ad pecca
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tum Et sunt verba Augustini: <quote xml:id="Almn78-h67459-Qd1e428"> Ex hac
+<lb ed="#Bc"/>tamquam filia peccati, in omnibus qui
+<lb ed="#Bc"/>secundum legem concupiscentie descen~
+<lb ed="#Bc"/>dunt ab Adam propagatione corrupte
+<lb ed="#Bc"/>nature, innascitur originale peccatum,
+<lb ed="#Bc"/>Et ideo quidam sancti ponunt eam in
+<lb ed="#Bc"/>genere peccali, quidam in  genere
+<lb ed="#Bc"/>pene. </quote> Et sic patet solutio ad omnes
+<lb ed="#Bc"/>auctoritates inductas pro prima parte.
+</p>
+               <p xml:id="Almn78-h67459-d1e449">
+                  <lb ed="#Bc"/>Av w quod objicitur in contrarium
+<lb ed="#Bc"/>per Aristotelem, dicendum, quod 
+diver<lb ed="#Bc" break="no"/>sorum generum, sicut dicit Aristoteles,
+<lb ed="#Bc"/>dummodo sunt diversa genera ratione et
+<lb ed="#Bc"/>natura, diverse sunt species. Sed hic non
+<lb ed="#Bc"/>est ita: quia sicut dictum est, 
+concupi<lb ed="#Bc" break="no"/>scentia non dicitur peccatum, nisi quia ex
+<lb ed="#Bc"/>peccato, et ad peccatum: quia 
+secun<lb ed="#Bc" break="no"/>dum suam essentiam est poena, et filia
+<lb ed="#Bc"/>peccati dicitur ab Augustino.
+</p>
+               <p xml:id="Almn78-h67459-d1e473">
+                  <lb ed="#Bc"/>Ad id quod ulterius queritur, Quare
+<lb ed="#Bc"/>fomes dicatur? leve est solvere: verba
+<lb ed="#Bc"/>enim Ambrosii inducta solvunt hoc. Est
+<lb ed="#Bc"/>enim morbidus affectus fovens illicita,
+<lb ed="#Bc"/>sicut dicitur fomes ignis illud quod fovet
+<lb ed="#Bc"/>ignem ut ardeat. Et dicitur etiam lez
+<lb ed="#Bc"/>membrorum, quia ligat membra ad 
+illi<lb ed="#Bc" break="no"/>cita. Et hac ratione dicitur etiam 
+tyran<lb ed="#Bc" break="no"/>nus, in quantum cum quadam coactione
+<lb ed="#Bc"/>compellit ad illicita corruptam naturam.
+</p>
+               <p xml:id="Almn78-h67459-d1e498">
+                  <lb ed="#Bc"/>Ad id quod contra objicitur, dicendum
+<lb ed="#Bc"/>quod sicut dicit Glossa super epist. ad
+<lb ed="#Bc"/>Galat. v, 17, super illud: Caro 
+concu<lb ed="#Bc" break="no"/>pisctt adversus spiritum, <quote xml:id="Almn78-h67459-Qd1e508"> 
+Concupi<lb ed="#Bc" break="no"/>scentia non est in anima tantum, nec in
+<lb ed="#Bc"/>carne tantum, sed in ipso conjuncto :
+<lb ed="#Bc"/>quia nulla delectatio sentitur sine 
+utro<lb ed="#Bc" break="no"/>que. </quote> Unde cum dicitur : Caro 
+con<lb ed="#Bc" break="no"/>cupiscit adversus spiritum, dicitur caro
+<lb ed="#Bc"/>carnalis affectus, spiritus spiritualis 
+af<lb ed="#Bc" break="no"/>fectus : que semper sibi reluctantur. Et
+<lb ed="#Bc"/>homo qui sequitur carnalem affectum, |
+<lb ed="#Bc"/>dicitur animalis homo. 1 ad Corinth. u,
+<lb ed="#Bc"/>14, super illud: Animalis homo non 
+per<lb ed="#Bc" break="no"/>cipit ea. que sunt Spiritus Dei, dicit
+<lb ed="#Bc"/>Glossa: <quote xml:id="Almn78-h67459-Qd1e537"> Animalis vita est, que 
+disso<lb ed="#Bc" break="no"/>luta lascivia fertur in delectabilia quin
+<pb ed="#Bc" n="305"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc" break="no"/>que sensuum: quam inter metas suas
+<lb ed="#Bc"/>spiritus rector non continet. </quote> Et hic ab
+<lb ed="#Bc"/>Aristotele in VII Ethicorum, vocatur 
+in<lb ed="#Bc" break="no"/>continens, quem scilicet passio 
+concu<lb ed="#Bc" break="no"/>piscentia violenter abducit extra metas
+<lb ed="#Bc"/>mentis et rationis.
+</p>
+            </div>
+            <div xml:id="Almn78-h67459-Dd1e561">
+               <head xml:id="Almn78-h67459-Hd1e563">Membrum 2</head>
+               <head xml:id="Almn78-h67459-Hd1e566" type="question-title">
+        In quo sit fomes, utrum in corpore, vel
+        in anima, vel in utroque ?
+      </head>
+               <p xml:id="Almn78-h67459-d1e569">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>In quo sit fomes, utrum in corpore, vel
+<lb ed="#Bc"/>in anima, vel in utroque ?
+</p>
+               <p xml:id="Almn78-h67459-d1e578">
+                  <lb ed="#Bc"/>Secundo queritur, Utrum fomes sit in
+<lb ed="#Bc"/>anima, vel in corpore, vel in utroque?
+</p>
+               <p xml:id="Almn78-h67459-d1e585">
+                  <lb ed="#Bc"/>Et videtur, quod in carne sola. Inter
+<lb ed="#Bc"/>penas enim causatas ex originali peccato
+<lb ed="#Bc"/>ponuntur concupiscentia et ignorantia.
+<lb ed="#Bc"/>Videtur ergo, quod sicut ignorantia 
+re<lb ed="#Bc" break="no"/>fertur ad animam, ita concupiscentia 
+re<lb ed="#Bc" break="no"/>feratur ad carnem.
+</p>
+               <p xml:id="Almn78-h67459-d1e602">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in libro de Spiritu et
+<lb ed="#Bc"/>anima dicit : <quote xml:id="Almn78-h67459-Qd1e610"> Concupiscentia quasi 
+ge<lb ed="#Bc" break="no"/>nerale malum complexus est Dominus
+<lb ed="#Bc"/>cum dixit: Non concupisces' : neque
+<lb ed="#Bc"/>enim unum aliquod peccatum est quod
+<lb ed="#Bc"/>non concupiscendo committatur. </quote> 
+Vide<lb ed="#Bc" break="no"/>tur ergo, quod fomes sit in anima: quia
+<lb ed="#Bc"/>concupiscentia est in anima.
+</p>
+               <p xml:id="Almn78-h67459-d1e627">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus in libro
+<lb ed="#Bc"/>LXXXII Questionum : <quote xml:id="Almn78-h67459-Qd1e633"> Turpis est
+<lb ed="#Bc"/>affectio, quam animus inferior sectatur,
+<lb ed="#Bc"/>que magis proprie dicitur 
+concupiscen<lb ed="#Bc" break="no"/>tia. </quote> Videtur ergo, quod sit in anima :
+<lb ed="#Bc"/>quia concupiscentia est in anima.
+</p>
+               <p xml:id="Almn78-h67459-d1e645">
+                  <lb ed="#Bc"/>Solutio. Dicendum, quod in veritate
+<lb ed="#Bc"/>fomes, sive libido, sive concupiscentia,
+<lb ed="#Bc"/>in anima sunt, et proprie passiones et
+<lb ed="#Bc"/>actiones anime, sed dicuntur in carne
+<lb ed="#Bc"/>esse, quia delectabilia sunt in carne : et
+<lb ed="#Bc"/>ad membra corporalia se extendunt,
+<lb ed="#Bc"/>que habent quasi arma iniquitatis. Ad
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Roman. vi, 13 : Ne exhibeatis membra
+<lb ed="#Bc"/>vesira arma iniquitatis peccato.
+</p>
+               <p xml:id="Almn78-h67459-d1e669">
+                  <lb ed="#Bc"/>Et sic patet solutio, et etiam 
+auctorita<lb ed="#Bc" break="no"/>tes inductee.
+</p>
+            </div>
+            <div xml:id="Almn78-h67459-Dd1e677">
+               <head xml:id="Almn78-h67459-Hd1e679">Membrum 3</head>
+               <head xml:id="Almn78-h67459-Hd1e682" type="question-title">
+        A quo sit fomes sicut a causa?
+      </head>
+               <p xml:id="Almn78-h67459-d1e685">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>A quo sit fomes sicut a causa?
+</p>
+               <p xml:id="Almn78-h67459-d1e692">
+                  <lb ed="#Bc"/>Tertio queritur, A quo sit fomes 
+sic<lb ed="#Bc" break="no"/>ut a causa ?
+</p>
+               <p xml:id="Almn78-h67459-d1e699">
+                  <lb ed="#Bc"/>Et videtur, quod a Deo.
+<lb ed="#Bc"/>1, Augustinus in libro de Libero 
+ar<lb ed="#Bc" break="no"/>bitrio : <quote xml:id="Almn78-h67459-Qd1e707"> Peena peccati justa est, et 
+sup<lb ed="#Bc" break="no"/>plicium nominatur. </quote> Fomes pena 
+pec<lb ed="#Bc" break="no"/>cati est. Ergo justa est. Omne justum
+<lb ed="#Bc"/>bonum, ut dicunt Augustinus et 
+Boe<lb ed="#Bc" break="no"/>tius : omne justum et bonum a Deo :
+<lb ed="#Bc"/>ergo fomes est a Deo.
+</p>
+               <p xml:id="Almn78-h67459-d1e723">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus, ibidem in libro
+<lb ed="#Bc"/>de Libero arbitrio : <quote xml:id="Almn78-h67459-Qd1e729"> Deus fecit 
+concu<lb ed="#Bc" break="no"/>piscentiam ut ultor peccati. </quote>] Ultio talis
+<lb ed="#Bc"/>a Deo est. Ergo concupiscentia sive 
+fo<lb ed="#Bc" break="no"/>mes a Deo est.
+</p>
+               <p xml:id="Almn78-h67459-d1e739">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in libro Quingue 
+re<lb ed="#Bc" break="no"/>sponsionum ?: <quote xml:id="Almn78-h67459-Qd1e747"> Libido non est nature
+<lb ed="#Bc"/>bonum, sed per peccatum primorum 
+ho<lb ed="#Bc" break="no"/>minum accidens malum atque 
+puden<lb ed="#Bc" break="no"/>dum, cujus auctor Deus non est, sed 
+dia<lb ed="#Bc" break="no"/>bolus. </quote> Videtur ergo, quod fomes a
+<lb ed="#Bc"/>diabolo est, non a Deo. ,
+</p>
+               <p xml:id="Almn78-h67459-d1e761">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-h67459-Qd1e765"> 
+Libi<lb ed="#Bc" break="no"/>do est inimica vite que me currentem,
+<lb ed="#Bc"/>et placere Deo per ducatum gratie 
+vo<lb ed="#Bc" break="no"/>lentem, diversorum libitu malorum 
+acu<lb ed="#Bc" break="no"/>leis impugnat et provocat. </quote> Tale quid
+<lb ed="#Bc"/>non potest esse a Deo, sed a diabolo.
+<lb ed="#Bc"/>Ergg fomes non est a Deo.
+</p>
+               <p xml:id="Almn78-h67459-d1e781">
+                  <lb ed="#Bc"/>3. Adhuc, Ad Roman. vi, 12, super
+<lb ed="#Bc"/>illud : Non regnet peccatum in vestro
+<lb ed="#Bc"/>mortali corpore, Glossa, id est, fomes
+<lb ed="#Bc"/>peccati : peccatum non est a Deo : ergo
+<lb ed="#Bc"/>nec fomes.
+</p>
+               <p xml:id="Almn78-h67459-d1e794">
+                  <pb ed="#Bc" n="306"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>4, Adhuc, Ad Roman. v1, 6, super
+<lb ed="#Bc"/>illud : Vetus homo noster simul 
+crucifi<lb ed="#Bc" break="no"/>sus est, Glossa, id est, fomes, qui nobis
+<lb ed="#Bc"/>non est a Deo.
+</p>
+               <p xml:id="Almn78-h67459-d1e810">
+                  <lb ed="#Bc"/>5. Adhuc, Augustinus in libro 
+Quin<lb ed="#Bc" break="no"/>que responsionum : <quote xml:id="Almn78-h67459-Qd1e816"> Credite malum
+<lb ed="#Bc"/>esse adiabolo, non bonum. </quote> Sed libido
+<lb ed="#Bc"/>est quoddam malum, quam Apostolus
+<lb ed="#Bc"/>legem carnis, id est, malam 
+consuetudi<lb ed="#Bc" break="no"/>nem nominat. Ergo libido non est a
+<lb ed="#Bc"/>Deo : ergo nec fomes.
+</p>
+               <p xml:id="Almn78-h67459-d1e832">
+                  <lb ed="#Bc"/>6. Adhuc, <name xml:id="Almn78-h67459-Nd1e836">Fulgentius</name> : <quote xml:id="Almn78-h67459-Qd1e839"> Sapiens non
+<lb ed="#Bc"/>facit unde opus suum fiat deterius. </quote> Ex
+<lb ed="#Bc"/>libidine opus Dei deterius fit. Ergo 
+libi<lb ed="#Bc" break="no"/>dinem sapiens Deus in opere suo non
+<lb ed="#Bc"/>Jacit : ergo libido sive fomes a Deo non
+<lb ed="#Bc"/>est.
+</p>
+               <p xml:id="Almn78-h67459-d1e854">
+                  <lb ed="#Bc"/>7. Adhuc, Omnes poenas 
+indetractabi<lb ed="#Bc" break="no"/>les, ut dicit Damascenus, quas Deus
+<lb ed="#Bc"/>plantavit in nobis, Christus suscipiendo
+<lb ed="#Bc"/>nostram naturam suscepit. Libidinem
+<lb ed="#Bc"/>sive fomitem in nostra natura non 
+susce<lb ed="#Bc" break="no"/>pit. Ergo in nostra natura non 
+planta<lb ed="#Bc" break="no"/>vit : ergo fomes non est a Deo.
+</p>
+               <p xml:id="Almn78-h67459-d1e872">
+                  <lb ed="#Bc"/>8. Adhuc, Secundum Philosophum in
+<lb ed="#Bc"/>Moralibus, passiones vel habitus bona
+<lb ed="#Bc"/>vel mala differunt operatione. Nulla
+<lb ed="#Bc"/>operatio libidinis bona est : quia dicit
+<lb ed="#Bc"/>Augustinus, quod universorum malorum
+<lb ed="#Bc"/>est causa, et secundum Aristotelem in
+<lb ed="#Bc"/>Ethicis, maxime fugienda est his qui 
+vo<lb ed="#Bc" break="no"/>lunt esse boni secundum virtutem. Ergo
+<lb ed="#Bc"/>libido non est bona: ergo non a Deo
+<lb ed="#Bc"/>est : quia dicit Dionysius, quod bonum
+<lb ed="#Bc"/>est, quod est a Deo bono.
+</p>
+               <p xml:id="Almn78-h67459-d1e898">
+                  <lb ed="#Bc"/>Ulterius queritur ad intellectum 
+di<lb ed="#Bc" break="no"/>ctorum, Ad quid sit concupiscentia in
+<lb ed="#Bc"/>nobis?
+</p>
+               <p xml:id="Almn78-h67459-d1e907">
+                  <lb ed="#Bc"/>Et videtur, quod ad nihil nisi ad 
+ma<lb ed="#Bc" break="no"/>lum.
+<lb ed="#Bc"/>1, Augustinus in libro de Libero 
+arbi<lb ed="#Bc" break="no"/>trio : <quote xml:id="Almn78-h67459-Qd1e917"> Clarum est, nihil aliud quam 
+li<lb ed="#Bc" break="no"/>bidinem esse causam omnium 
+malo<lb ed="#Bc" break="no"/>rum, </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e925">
+                  <lb ed="#Bc"/>2. Adhuc, Super illud epist. ad 
+Ro<lb ed="#Bc" break="no"/>man, vi, 24 : Ego carnalis sum, ve
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>numdatus sub peccato, Glossa : <quote xml:id="Almn78-h67459-Qd1e935"> Hic
+<lb ed="#Bc"/>peccati nomine concupiscentiam 
+appel<lb ed="#Bc" break="no"/>lat, unde oriuntur omnia peccata : 
+quid<lb ed="#Bc" break="no"/>quid enim peccatorum est in dictis et in
+<lb ed="#Bc"/>factis et in cogitationibus, non oritur
+<lb ed="#Bc"/>nisi ex mala concupiscentia que ex 
+pec<lb ed="#Bc" break="no"/>cato est. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e953">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Super illud epist. ad Galat. v, 19:
+<lb ed="#Bc"/>Manifesia sunt opera carnis, Glossa :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h67459-Qd1e963"> Credere omnia mala accidere ex carne,
+<lb ed="#Bc"/>error est: non enim omnia vite inque
+<lb ed="#Bc"/>vitia tribuenda sunt carni, ne forte ab
+<lb ed="#Bc"/>his omnibus mundemus diabolum qui
+<lb ed="#Bc"/>carnem non habet. </quote> Ergo 
+concupiscen<lb ed="#Bc" break="no"/>tia non est causa omnium malorum.
+</p>
+               <p xml:id="Almn78-h67459-d1e978">
+                  <lb ed="#Bc"/>2. Adhuc, Peccatum est in diabolo : et
+<lb ed="#Bc"/>constat non esse ex fomite, quia carnem
+<lb ed="#Bc"/>non habet, et fomes non habetur nisi in
+<lb ed="#Bc"/>carne ; ergo non omne peccatum est ex
+<lb ed="#Bc"/>fomite.
+</p>
+               <p xml:id="Almn78-h67459-d1e991">
+                  <lb ed="#Bc"/>Ulterius queritur ad perfectam 
+in<lb ed="#Bc" break="no"/>telligentiam predictorum, Utrum fomes
+<lb ed="#Bc"/>equaliter sit in eis in quibus est?
+</p>
+               <p xml:id="Almn78-h67459-d1e1000">
+                  <lb ed="#Bc"/>Et videtur, quod sic : quia
+<lb ed="#Bc"/>1. Quod ex uno equali est, in 
+omni<lb ed="#Bc" break="no"/>bus est equale : fomes est ex uno, 
+scili<lb ed="#Bc" break="no"/>cet ex originali peccato et equali: ergo
+<lb ed="#Bc"/>equalis est in omnibus secundum legem
+<lb ed="#Bc"/>concupiscentie ab Adam 
+descendenti<lb ed="#Bc" break="no"/>bus.
+</p>
+               <p xml:id="Almn78-h67459-d1e1018">
+                  <lb ed="#Bc"/>2. Adhuc, Fomes est pronitas ad
+<lb ed="#Bc"/>quodcumque peccatum : sed ultra 
+quod<lb ed="#Bc" break="no"/>cumque non potest se extendi, quia illud
+<lb ed="#Bc"/>omnia comprehendit : ergo videtur,
+<lb ed="#Bc"/>quod equaliter sitin omnibus in quibus
+<lb ed="#Bc"/>est.
+</p>
+               <p xml:id="Almn78-h67459-d1e1034">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Unus pronior est ad peccandum
+<lb ed="#Bc"/>quam alius : et non nisi ex fomite, qui
+<lb ed="#Bc"/>magis intenditur in uno quam in alio.
+</p>
+               <p xml:id="Almn78-h67459-d1e1046">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus ad Valerium :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h67459-Qd1e1052"> Coneupiscentia quotidie minuitur in
+<lb ed="#Bc"/>proficientibus et continentibus, maxime
+<lb ed="#Bc"/>accedente senectute 4. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e1060">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro de
+<pb ed="#Bc" n="307"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Lapsu mundi: <quote xml:id="Almn78-h67459-Qd1e1070"> Concupiscentia cum
+<lb ed="#Bc"/>qua nati sumus, finiri non potest 
+quam<lb ed="#Bc" break="no"/>diu vivimus : minui potest, sed finiri
+<lb ed="#Bc"/>non potest. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e1080">
+                  <lb ed="#Bc"/>Sorurio. Ad primo quesitum, scilicet
+<lb ed="#Bc"/>a quo sit fomes sicut a causa?
+</p>
+               <p xml:id="Almn78-h67459-d1e1087">
+                  <lb ed="#Bc"/>Dicendum quod dupliciter 
+considera<lb ed="#Bc" break="no"/>tur fomes, scilicet secundum ordinem ad
+<lb ed="#Bc"/>peccatum originale, ex quo est ut 
+pro<lb ed="#Bc" break="no"/>pria sequela ipsius et peena. 
+Considera<lb ed="#Bc" break="no"/>tur etiam secundum ordinem ad 
+pecca<lb ed="#Bc" break="no"/>tum sequens, ad quod instigat et 
+inflam<lb ed="#Bc" break="no"/>mat ; et sic causa mali est. Et in istis
+<lb ed="#Bc"/>duabus considerationibus a Deo esse non
+<lb ed="#Bc"/>potest : quia Deus causa mali non est :
+<lb ed="#Bc"/>tamen ordinator mali est et ordinat 
+ma<lb ed="#Bc" break="no"/>lum. Unde ordinatio fomitis hoc modo a
+<lb ed="#Bc"/>Deo est, quod scilicet sit in peenam 
+pec<lb ed="#Bc" break="no"/>cati prateriti, et in exercitium 
+sancto<lb ed="#Bc" break="no"/>rum in pugna contra futurum peccatum :
+<lb ed="#Bc"/>quia si non esset fomes, non esset pugna
+<lb ed="#Bc"/>contra incontinentiam. Et propter hoc
+<lb ed="#Bc"/>Sancti loquuntur diversimode de fomite.
+<lb ed="#Bc"/>Quidam enim dicunt, quod non sit a
+<lb ed="#Bc"/>Deo : quidam, quod sit a Deo : quia 
+or<lb ed="#Bc" break="no"/>dinatio ejus a Deo est : et sic justa poena
+<lb ed="#Bc"/>est ordinatione divina inflicta.
+</p>
+               <p xml:id="Almn78-h67459-d1e1135">
+                  <lb ed="#Bc"/>Ad paimum ergo dicendum, quod 
+di<lb ed="#Bc" break="no"/>ctum Augustini respicit ordinationem et
+<lb ed="#Bc"/>justitiam, et sic a Deo est : secundum se
+<lb ed="#Bc"/>tamen a Deo non est.
+</p>
+               <p xml:id="Almn78-h67459-d1e1146">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod solutio 
+pa<lb ed="#Bc" break="no"/>tet per idem : talis enim ultio respicit
+<lb ed="#Bc"/>justitiam divinam : et illa a Deo est, licet
+<lb ed="#Bc"/>fomes prout est concupiscentia 
+inordi<lb ed="#Bc" break="no"/>nata, a Deo non sit.
+</p>
+               <p xml:id="Almn78-h67459-d1e1160">
+                  <lb ed="#Bc"/>Ad ocro que inducuntur in 
+contra<lb ed="#Bc" break="no"/>rium, dicendum quod omnia considerant
+<lb ed="#Bc"/>fomitem in quantum est libido inordinata
+<lb ed="#Bc"/>ad malum instigans, et a malo causata.
+<lb ed="#Bc"/>Et sic dicit Augustinus in libro de 
+Nu<lb ed="#Bc" break="no"/>pliis et concupiscentia, quod est filia
+<lb ed="#Bc"/>peccati, ex qua traducitur originale in
+<lb ed="#Bc"/>omnes, gui secundum legem 
+concupi<lb ed="#Bc" break="no"/>scentiae descendunt ab Adam. Et sic dicit
+<lb ed="#Bc"/>Philosophus eam esse fugiendam : quia
+<lb ed="#Bc"/>operationes ejus malz sunt. Et sic dicit
+<lb ed="#Bc"/>Damascenus passionem detractabilem
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>sive vituperabilem, quam Deus nec in
+<lb ed="#Bc"/>natura plantavit, nec cum natura 
+susce<lb ed="#Bc" break="no"/>pit.
+</p>
+               <p xml:id="Almn78-h67459-d1e1197">
+                  <lb ed="#Bc"/>Av w quod ulterius queritur, Ad ad quest.t
+<lb ed="#Bc"/>quid sit ?
+</p>
+               <p xml:id="Almn78-h67459-d1e1204">
+                  <lb ed="#Bc"/>Dicendum quod secundum se non est
+<lb ed="#Bc"/>nisi ad malum : quia causa malorum est,
+<lb ed="#Bc"/>et radix omnium que ex concupiscentia
+<lb ed="#Bc"/>oriuntur. Et sic etiam est improba 
+vo<lb ed="#Bc" break="no"/>luntas et improbus appetitus, ardens in
+<lb ed="#Bc"/>malum et inflammans.
+</p>
+               <p xml:id="Almn78-h67459-d1e1220">
+                  <lb ed="#Bc"/>Ad puo objecta sequentia dicendum,
+<lb ed="#Bc"/>quod concedenda sunt et procedunt :
+<lb ed="#Bc"/>quia hoc idem probant. Sicut enim dicit
+<lb ed="#Bc"/>Gregorius, venumdatos sub peccato non
+<lb ed="#Bc"/>tenet nos nisi concupiscentia a diabolo :
+<lb ed="#Bc"/>qui, sicut dicit, parentibus primis 
+mini<lb ed="#Bc" break="no"/>mum deceptionis obtulit, et ab omnibus
+<lb ed="#Bc"/>posteris continue peccati et mortis 
+debi<lb ed="#Bc" break="no"/>tum exposcit, tamquam a servis pretio
+<lb ed="#Bc"/>prime deceptionis in servitutem emptis.
+</p>
+               <p xml:id="Almn78-h67459-d1e1244">
+                  <lb ed="#Bc"/>Av 1 quod contra objicitur, 
+dicen<lb ed="#Bc" break="no"/>dum quod concupiscentia dupliciter 
+su<lb ed="#Bc" break="no"/>mitur : generaliter et specialiter. 
+Gene<lb ed="#Bc" break="no"/>raliter enim sumpta nihil aliud est,
+<lb ed="#Bc"/>quam improba voluntas inclinans ad
+<lb ed="#Bc"/>malum quodlibet, ut dictum est. Et sic
+<lb ed="#Bc"/>est in diabolo et in homine. Et sic dicit
+<lb ed="#Bc"/>Dionysius in libro de Divinis nominibus,
+<lb ed="#Bc"/>quod triplex est malum demonis, 
+scili<lb ed="#Bc" break="no"/>cet furor irrationabilis, demens 
+concu<lb ed="#Bc" break="no"/>piscentia, et phantasia proterva. Et sic
+<lb ed="#Bc"/>causa omnium malorum est. Dicitur
+<lb ed="#Bc"/>etiam specialiter in venereis et 
+delectabi<lb ed="#Bc" break="no"/>libus carnis : et sic proprie dicitur 
+fo<lb ed="#Bc" break="no"/>mes. Et ita loquitur Glossa super epist.
+<lb ed="#Bc"/>ad Galat. v, 19.
+</p>
+               <p xml:id="Almn78-h67459-d1e1281">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod jam 
+solu<lb ed="#Bc" break="no"/>tum est. In diabolo enim peccatum est
+<lb ed="#Bc"/>ex concupiscentia large dicta, que 
+de<lb ed="#Bc" break="no"/>mens concupiscentia dicitur, et non ex
+<lb ed="#Bc"/>fomite prout est concupiscentia in carne.
+</p>
+               <p xml:id="Almn78-h67459-d1e1295">
+                  <lb ed="#Bc"/>Ad idquod ulterius queritur, Utrum 
+<lb ed="#Bc"/>fomes equaliter sit in omnibus?
+<lb ed="#Bc"/>Dicendum quod non. Unus enim 
+pro<lb ed="#Bc" break="no"/>nior est ad peccandum quam alius. 
+Li<lb ed="#Bc" break="no"/>cet enim ex una et equali causa sit in
+<pb ed="#Bc" n="308"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>omnibus, tamen diverse sunt 
+dispositio<lb ed="#Bc" break="no"/>nes subjecti in quo est, scilicet ex etate,
+<lb ed="#Bc"/>et consuetudine et complexione, ex 
+qui<lb ed="#Bc" break="no"/>bus plus intenditur in uno quam in
+<lb ed="#Bc"/>alio : et in eodem plus in uno tempore,
+<lb ed="#Bc"/>quam in alio. Juvenes enim plus ardent
+<lb ed="#Bc"/>quam senes. Propter quod dicit 
+Philo<lb ed="#Bc" break="no"/>sophus in Il Ethicorum, quod peccata
+<lb ed="#Bc"/>incontinentie ad puerilia peccata 
+feri<lb ed="#Bc" break="no"/>mus, nisi sint senes dierum malorum,
+<lb ed="#Bc"/>de quibus dicitur, Daniel. xu, 52. De
+<lb ed="#Bc"/>quibus dicit Augustinus ad Valerium
+<lb ed="#Bc"/>sic: <quote xml:id="Almn78-h67459-Qd1e1340"> Qui concupiscentiae nequiter 
+ser<lb ed="#Bc" break="no"/>viunt, tantas in eis vires accipit, ut 
+plu<lb ed="#Bc" break="no"/>rimi qui jam etate deficientibus 
+mem<lb ed="#Bc" break="no"/>bris, eisdemque partibus corporis ad
+<lb ed="#Bc"/>illud opus admoveri minus valentibus,
+<lb ed="#Bc"/>turpius et procacius insanire non 
+desi<lb ed="#Bc" break="no"/>nant. </quote>
+               </p>
+               <p xml:id="Almn78-h67459-d1e1357">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod licet ad
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>omnia se habeat, et extra nihil sit, 
+ta<lb ed="#Bc" break="no"/>men ex dispositionibus diversis subjecti
+<lb ed="#Bc"/>intenditur et remittitur, ut dictum est, et:
+<lb ed="#Bc"/>in eodem et in diversis : sed non finitur,
+<lb ed="#Bc"/>ut dicit Augustinus. Et hujus causa est,
+<lb ed="#Bc"/>quia corruptio que ex originali peccato
+<lb ed="#Bc"/>est in homine, non finitur dum est. Ex~.
+<lb ed="#Bc"/>cipitur tamen beata Virgo ab Augustino,
+<lb ed="#Bc"/>propter honorem Domini nostri Jesu
+<lb ed="#Bc"/>Christi, quam in vase corrupto non 
+de<lb ed="#Bc" break="no"/>cuit concipi, nec formari, nec nasci. Et
+<lb ed="#Bc"/>propter hoc, ut dicit Damascenus, 
+pre<lb ed="#Bc" break="no"/>venit in eam Spiritus sanctificans et
+<lb ed="#Bc"/>emundans ab omni vitiosa corruptione
+<lb ed="#Bc"/>fomitis.
+</p>
+               <p xml:id="Almn78-h67459-d1e1396">
+                  <lb ed="#Bc"/>Ad TRIA que in contrarium 
+objiciun<lb ed="#Bc" break="no"/>tur, dicendum quod jam patet solutio :
+<lb ed="#Bc"/>quia jam dictum est, quod minuitur ex
+<lb ed="#Bc"/>dispositione subjecti et augetur, et ta~
+<lb ed="#Bc"/>men non finitur, ut dictum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

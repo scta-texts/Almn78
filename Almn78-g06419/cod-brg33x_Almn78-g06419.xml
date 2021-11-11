@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 141</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 141</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="480"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-g06419"><!-- p2t24q141 -->
+            <head xml:id="Almn78-g06419-Hd1e106">Quaestio 141</head>
+            <head xml:id="Almn78-g06419-Hd1e109" type="question-title">
+    Unde sit potentia peccandi in nobis
+  </head>
+            <p xml:id="Almn78-g06419-d1e112">
+               <lb ed="#Bc"/>QUAESTIO CXLI.
+<lb ed="#Bc"/>Unde sit potentia peccandi in nobis ?
+</p>
+            <p xml:id="Almn78-g06419-d1e119">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Et circa hance distinctionem tria 
+oc<lb ed="#Bc" break="no"/>currunt querenda.
+<lb ed="#Bc"/>Primum, Utrum potentia peccandi sit
+<lb ed="#Bc"/>potentia, vel impotentia? 
+<lb ed="#Bc" break="no"/>Secundo, Utrum sit a Deo, vel non?
+<lb ed="#Bc"/>Tertium, Utrum sit una, vel plures?
+</p>
+            <div xml:id="Almn78-g06419-Dd1e137">
+               <head xml:id="Almn78-g06419-Hd1e139">Membrum 1</head>
+               <head xml:id="Almn78-g06419-Hd1e142" type="question-title">
+        Utrum potentia peccandi sit potentia,
+        vel impotentia
+      </head>
+               <p xml:id="Almn78-g06419-d1e145">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum potentia peccandi sit potentia,
+<lb ed="#Bc"/>vel impotentia ?
+</p>
+               <p xml:id="Almn78-g06419-d1e154">
+                  <lb ed="#Bc"/>Ad primum objicitur sic :
+<lb ed="#Bc"/>1. Dicit Philosophus, quod potentiae
+  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>rationales sunt ad opposita : opposita
+<lb ed="#Bc"/>sunt malum et bonum : sed potentia 
+ra<lb ed="#Bc" break="no"/>tionalis ad bonum, est potentia : ergo
+<lb ed="#Bc"/>potentia que potest facere malum, est
+<lb ed="#Bc"/>potentia.
+</p>
+               <p xml:id="Almn78-g06419-d1e174">
+                  <lb ed="#Bc"/>2. Adhuc, Eecli. xxxi, 10 et 9: Qui
+<lb ed="#Bc"/>potuit transgredi, et non est 
+transgres<lb ed="#Bc" break="no"/>sus : facere mala, et non fecit. Quis est
+<lb ed="#Bc"/>hic? Et laudabimus eum. Vir sanctus
+<lb ed="#Bc"/>non laudatur de impotentia, sed de 
+po<lb ed="#Bc" break="no"/>tentia, cum sit laudabilium bonorum.
+<lb ed="#Bc"/>Ergo potentia ad malum, simpliciter 
+po<lb ed="#Bc" break="no"/>tentia est.
+</p>
+               <p xml:id="Almn78-g06419-d1e195">
+                  <lb ed="#Bc"/>3. Adhuc, In prehabitis, distinct.
+<lb ed="#Bc"/>XXXIV, dictum est, quod liberum 
+arbi<lb ed="#Bc" break="no"/>trium est facultas rationis, et voluntas
+<lb ed="#Bc"/>qua bonum eligitur gratia assistente,
+<pb ed="#Bc" n="481"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>et malum eligitur ea deserente. 
+Libe<lb ed="#Bc" break="no"/>rum arbitrium est simpliciter potentia.
+<lb ed="#Bc"/>Ergo videtur, quod potentia mali sit 
+sim<lb ed="#Bc" break="no"/>pliciter potentia.
+</p>
+               <p xml:id="Almn78-g06419-d1e219">
+                  <lb ed="#Bc"/>4. Adhuc, Augustinus dicit in libro
+<lb ed="#Bc"/>de Vera religione, quod malum est
+<lb ed="#Bc"/>adeo voluntarium, quod si non sit 
+vo<lb ed="#Bc" break="no"/>luntarium, non est peccatum'. Voluntas
+<lb ed="#Bc"/>est simpliciter potentia et libera inter
+<lb ed="#Bc"/>omnes. Ergo videtur, quod potentia
+<lb ed="#Bc"/>peccandi sit potentia.
+</p>
+               <p xml:id="Almn78-g06419-d1e237">
+                  <lb ed="#Bc"/>5, Adhuc, Activa potentia, simpliciter
+<lb ed="#Bc"/>potentia est : malum non fit nisi per
+<lb ed="#Bc"/>activam potentiam : ergo potentia 
+pec<lb ed="#Bc" break="no"/>candi, simpliciter potentia est.
+</p>
+               <p xml:id="Almn78-g06419-d1e248">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Anselmus in libro de Libero 
+arbi<lb ed="#Bc" break="no"/>trio: <quote xml:id="Almn78-g06419-Qd1e256"> Putasne quod additum minuit
+<lb ed="#Bc"/>libertatem, et subtractum auget, esse
+<lb ed="#Bc"/>libertatem, vel partem libertatis?</quote> Et
+<lb ed="#Bc"/>intendit dicere, quod facultas peccandi
+<lb ed="#Bc"/>addita minuit libertatem, et subtracta
+<lb ed="#Bc"/>auget. Ergo videtur, quod facultas sive
+<lb ed="#Bc"/>potentia peccandi nulla potentia sit, sed
+<lb ed="#Bc"/>magna impotentia.
+</p>
+               <p xml:id="Almn78-g06419-d1e275">
+                  <lb ed="#Bc"/>2. Adhuc, In corporalibus est ita,
+<lb ed="#Bc"/>quod potentia moriendi sive deficiendi,
+<lb ed="#Bc"/>summa impotentia est : ergo in 
+spiri<lb ed="#Bc" break="no"/>tualibus etiam sie erit : quia potentia
+<lb ed="#Bc"/>mali est potentia deficiendi malum
+<lb ed="#Bc"/>enim defectus est : ergo potentia ad
+<lb ed="#Bc"/>malum summa erit impotentia.
+</p>
+               <p xml:id="Almn78-g06419-d1e293">
+                  <lb ed="#Bc"/>3. Adhuc, Augustinus in libro de 
+Li<lb ed="#Bc" break="no"/>bero arbitrio et gratia: <quote xml:id="Almn78-g06419-Qd1e299">Qui potest quod
+<lb ed="#Bc"/>sibi non prodest et sibi non expedit,
+<lb ed="#Bc"/>quanto magis potest, tanto magis 
+per<lb ed="#Bc" break="no"/>versitas et adversitas possunt in ipsum. </quote>
+               </p>
+               <p xml:id="Almn78-g06419-d1e310">
+                  <lb ed="#Bc"/>Sonutio. Ad hoc dicendum, quod 
+po<lb ed="#Bc" break="no"/>tentia mali dicitur duobus modis, scilicet
+<lb ed="#Bc"/>ad actum malum, qui dupliciter potest
+<lb ed="#Bc"/>considerari, scilicet ut actus, vel ut
+<lb ed="#Bc"/>actus sub deformitate. Si consideratur
+<lb ed="#Bc"/>ut actus : tunc non est dubium quin ta
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>lis potentia ad talem actum sit potentia.
+<lb ed="#Bc"/>Si autem consideratur sub deformitate
+<lb ed="#Bc"/>mali, cum malum defectus est et non
+<lb ed="#Bc"/>ens, non potest habere nisi causam 
+defi<lb ed="#Bc" break="no"/>ciendi, qua non est potentia simpliciter.
+</p>
+               <p xml:id="Almn78-g06419-d1e339">
+                  <lb ed="#Bc"/>De hoc tamep disputatum est in 
+prin<lb ed="#Bc" break="no"/>cipio prime partis hujus Summe 
+theo<lb ed="#Bc" break="no"/>logie, tractatu de bono et malo, 
+que<lb ed="#Bc" break="no"/>stione, Unde malum’* ? Ubi expresse
+<lb ed="#Bc"/>ostensum est, quod malum non habet
+<lb ed="#Bc"/>causam efficientem, sed deficientem.
+</p>
+               <p xml:id="Almn78-g06419-d1e355">
+                  <lb ed="#Bc"/>Et sic procedunt rationes et 
+auctorita<lb ed="#Bc" break="no"/>tes ad utramque partem.
+</p>
+            </div>
+            <div xml:id="Almn78-g06419-Dd1e364">
+               <head xml:id="Almn78-g06419-Hd1e366">Membrum 2</head>
+               <head xml:id="Almn78-g06419-Hd1e369" type="question-title">
+        Utrum potentia peccandi sit a Deo,
+        vel non
+      </head>
+               <p xml:id="Almn78-g06419-d1e372">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum potentia peccandi sit a Deo,
+<lb ed="#Bc"/>vel non?
+</p>
+               <p xml:id="Almn78-g06419-d1e381">
+                  <lb ed="#Bc"/>Secundo, Hic queritur super illud
+<lb ed="#Bc"/>quod dicit Magister in cap. 2, ibi 
+scili<lb ed="#Bc" break="no"/>cet, Sed pluribus sanctorum testimoniis.
+<lb ed="#Bc"/>Utrum ista potestas a Deo sit, vel non?
+</p>
+               <p xml:id="Almn78-g06419-d1e392">
+                  <lb ed="#Bc"/>Et videtur quod sic, per hoc quod 
+di<lb ed="#Bc" break="no"/>citur, ad Roman. xm, 1, et in Litlera
+<lb ed="#Bc"/>inducitur : Non est potestas nisi a Deo.
+<lb ed="#Bc"/>Inducit etiam hoc quod dicitur, Joan.
+<lb ed="#Bc"/>xix, 11: Non haberes potestatem 
+adver<lb ed="#Bc" break="no"/>sum me ullam, nisi tibi datum esset
+<lb ed="#Bc"/>desuper. Quod non nisi de mala 
+po<lb ed="#Bc" break="no"/>testate accipi potest. Inducit etiam hoc
+<lb ed="#Bc"/>quod dicitur, Job, 1, 11: Eztende 
+pau<lb ed="#Bc" break="no"/>lulum manum tuam, et tange cuncta
+<lb ed="#Bc"/>que possidet.
+</p>
+               <p xml:id="Almn78-g06419-d1e419">
+                  <lb ed="#Bc"/>Ex his videtur, quod omnis potestas
+<lb ed="#Bc"/>male faciendi sit a Deo.
+</p>
+               <p xml:id="Almn78-g06419-d1e426">
+                  <lb ed="#Bc"/>Sotumio. Augustinus solvit hoc per
+<lb ed="#Bc"/>unum verbum, et inducitur etiam in
+<lb ed="#Bc"/>Littera sic: <quote xml:id="Almn78-g06419-Qd1e434"> Malitia nempe hominum
+<pb ed="#Bc" n="482"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>cupiditatem nocendi ex se habet, 
+pote<lb ed="#Bc" break="no"/>statem autem non nisi a Deo. </quote>
+               </p>
+               <p xml:id="Almn78-g06419-d1e446">
+                  <lb ed="#Bc"/>Unde dicendum, quod potentia 
+pec<lb ed="#Bc" break="no"/>candi secundum quod potentia est, a
+<lb ed="#Bc"/>Deo est, sed secundum quod mala, a
+<lb ed="#Bc"/>Deo non est, sed ex defectu boni sive a
+<lb ed="#Bc"/>bono deficiente.
+</p>
+               <p xml:id="Almn78-g06419-d1e459">
+                  <lb ed="#Bc"/>Et sic intelliguntur auctoritates, quod
+<lb ed="#Bc"/>potentia mali secundum quod potentia,
+<lb ed="#Bc"/>a Deo est: sed secundum quod mali, a
+<lb ed="#Bc"/>Deo esse non potest.
+</p>
+            </div>
+            <div xml:id="Almn78-g06419-Dd1e471">
+               <head xml:id="Almn78-g06419-Hd1e473">Membrum 3</head>
+               <head xml:id="Almn78-g06419-Hd1e476" type="question-title">
+        Utrum sit una potentia, vel plures 
+        ordinatae sub una ? et, Si utrique et 
+        ecclesiasticae et seculari sit 
+        resistendum, maxime si contrarium Deo
+        praecipiunt
+      </head>
+               <p xml:id="Almn78-g06419-d1e479">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum sit una potentia, vel plures or
+<lb ed="#Bc"/>dinatae sub una ? et, Si utrique et 
+ec<lb ed="#Bc" break="no"/>clesiasticae et seculari sit 
+resisten<lb ed="#Bc" break="no"/>dum, maxime si contrarium Deo
+<lb ed="#Bc"/>praecipiunt?
+</p>
+               <p xml:id="Almn78-g06419-d1e495">
+                  <lb ed="#Bc"/>Tertio et ultimo queritur, Utrum sit
+<lb ed="#Bc"/>una potentia vel plures ordinate sub
+<lb ed="#Bc"/>una? propter hoc quod dicit Magister in
+<lb ed="#Bc"/>illo cap. Hie oritur questio non 
+transi<lb ed="#Bc" break="no"/>lienda silentio. Certum est enim, quod
+<lb ed="#Bc"/>una est principalis potestas cui cuncta
+<lb ed="#Bc"/>subjiciuntur, potestas scilicet Dei. Sub
+<lb ed="#Bc"/>illa sunt potestates seculares, que etiam
+<lb ed="#Bc"/>sunt a Deo.
+</p>
+               <p xml:id="Almn78-g06419-d1e517">
+                  <lb ed="#Bc"/>Et queritur, Utrum potestatibus illis
+<lb ed="#Bc"/>sit resistendum, maxime si contrarium
+<lb ed="#Bc"/>Deo precipiunt ?
+</p>
+               <p xml:id="Almn78-g06419-d1e527">
+                  <lb ed="#Bc"/>Et ad hoc objicitur :
+<lb ed="#Bc"/>1. Ad Roman. xiu, 1 et seq.: Omnis
+<lb ed="#Bc"/>anima potestatibus sublimioribus 
+sub<lb ed="#Bc" break="no"/>dita sit: non enim est potestas nisi a
+<lb ed="#Bc"/>Deo : que autem sunt, a Deo ordinate
+<lb ed="#Bc"/>sunt. Itaque qui resistit potestati, 
+ordi<lb ed="#Bc" break="no"/>nation Dei resistit : qui autem resistunt,
+<lb ed="#Bc"/>ipsi sibi damnationem acguirunt... Vis
+<lb ed="#Bc"/>autem non timere potestatem? bonum
+<lb ed="#Bc"/>fac, et habebis laudem ex illa,.. Si au
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>tem feceris malum, time : non enim
+<lb ed="#Bc"/>sine causa gladium portat. Dei enim
+<lb ed="#Bc"/>minister est, vindex in iram ei qui 
+ma<lb ed="#Bc" break="no"/>lum agit. Ex hoc habetur, quod etiam
+<lb ed="#Bc"/>potestati seculari non sit resistendum,
+<lb ed="#Bc"/>sed in omnibus obediendum.
+</p>
+               <p xml:id="Almn78-g06419-d1e566">
+                  <lb ed="#Bc"/>2. Adhuc, Per rationem  objiciunt
+<lb ed="#Bc"/>quidam : quia communicatio humana
+<lb ed="#Bc"/>(qua homines sibi communicant) non
+<lb ed="#Bc"/>subsistit sine tali ordine inferioris ad
+<lb ed="#Bc"/>superiorem per obedientiam. Omnis
+<lb ed="#Bc"/>enim ordo est ad unum, ut dicit 
+Aristo<lb ed="#Bc" break="no"/>teles in Politicis, ad quem  ordinatur
+<lb ed="#Bc"/>tota communitas lege dirigente 
+commu<lb ed="#Bc" break="no"/>nitatem, ¢liamsi sit tyrannica politia.
+<lb ed="#Bc"/>Ergo videtur, quod tali potestati etiamsi
+<lb ed="#Bc"/>sit tyrannica, non sit resistendum.
+</p>
+               <p xml:id="Almn78-g06419-d1e592">
+                  <lb ed="#Bc"/>3. Adhuc, Decretum est Gregorii
+<lb ed="#Bc"/>Pape quinti super illud Canticorum, v,
+<lb ed="#Bc"/>2: Aperi mthi, soror mea, amica mea,
+<lb ed="#Bc"/>columba mea, immaculata mea : et 
+lo<lb ed="#Bc" break="no"/>quitur de Ecclesia, et dicit sic : <quote xml:id="Almn78-g06419-Qd1e605"> Grues
+<lb ed="#Bc"/>unum sequuntur ordine lineato. </quote> Ergo
+<lb ed="#Bc"/>videtur, quod omnis homo debet subjici
+<lb ed="#Bc"/>potestati superiori in quocumque ordine,
+<lb ed="#Bc"/>et in omnibus obedire.
+</p>
+               <p xml:id="Almn78-g06419-d1e617">
+                  <lb ed="#Bc"/>4, Adhuc, Hoc congruit nature : quia
+<lb ed="#Bc"/>in toto corpore est unum membrum
+<lb ed="#Bc"/>quod motum et sensum influit omnibus
+<lb ed="#Bc"/>aliis, et hoc secundum Aristotelem in
+<lb ed="#Bc"/>libro de Motu cordis, est cor, sed 
+secun<lb ed="#Bc" break="no"/>dum Augustinum et quosdam alios, est
+<lb ed="#Bc"/>caput. Sicut ergo omnia membra cordi
+<lb ed="#Bc"/>vel capiti subjiciuntur : ita videtur, quod
+<lb ed="#Bc"/>omnes quotquot sint de principatu 
+prin<lb ed="#Bc" break="no"/>cipis unius, debent subdi principi illi.
+</p>
+               <p xml:id="Almn78-g06419-d1e641">
+                  <lb ed="#Bc"/>5. Adhuc, Jerem, xxix, 7, precipitur
+<lb ed="#Bc"/>filiis Israel, quod serviant regi 
+Babylo<lb ed="#Bc" break="no"/>nis, et orent pro pace ejus, et pro pace
+<lb ed="#Bc"/>regni ejus: quia in pace illius pax erit
+<lb ed="#Bc"/>vobis. Et tamen Nabuchodonosor 
+signi<lb ed="#Bc" break="no"/>ficat diabolum, et potestas ejus 
+potesta<lb ed="#Bc" break="no"/>tem diaboli. Ergo videtur, quod etiam
+<lb ed="#Bc"/>potestati diaboli non est resistendum.
+</p>
+               <p xml:id="Almn78-g06419-d1e661">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Boetius in commento super Predica
+<pb ed="#Bc" n="483"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>menta dicit, quod <quote xml:id="Almn78-g06419-Qd1e674"> tyranni invasores
+<lb ed="#Bc"/>sunt, non principes. </quote> Sed invasoribus
+<lb ed="#Bc"/>resistendum est: quia illi potestatem a
+<lb ed="#Bc"/>Deo non habent, sed violentiam infe~
+<lb ed="#Bc"/>runt : ergo potestati illorum 
+resisten<lb ed="#Bc" break="no"/>dum.
+</p>
+               <p xml:id="Almn78-g06419-d1e689">
+                  <lb ed="#Bc"/>Ulterivs queritur de potestate 
+reli<lb ed="#Bc" break="no"/>giosorum, scilicet utrum Prelatus possit
+<lb ed="#Bc"/>precipere ea que non sunt in regula?
+</p>
+               <p xml:id="Almn78-g06419-d1e698">
+                  <lb ed="#Bc"/>Et videtur quod sic.
+<lb ed="#Bc"/>1. Hieronymus ad Rusticum 
+mona<lb ed="#Bc" break="no"/>chum ;: <quote xml:id="Almn78-g06419-Qd1e706"> Prepositum monasterii ut
+<lb ed="#Bc"/>Deum timeas, ut Deum diligas. Credas
+<lb ed="#Bc"/>quidquid jusserit esse salubre : nec 
+mi<lb ed="#Bc" break="no"/>nor (supple, existens) judices sententiam
+<lb ed="#Bc"/>majoris. </quote> Ergo videtur, quod in 
+omni<lb ed="#Bc" break="no"/>bus prelato obediendum est, sive hoc
+<lb ed="#Bc"/>dicat regula, sive non dicat.
+</p>
+               <p xml:id="Almn78-g06419-d1e723">
+                  <lb ed="#Bc"/>2. Adhuc, Luc. x, 16: Qui vos audit,
+<lb ed="#Bc"/>me audit : et gui vos spernit, me spernit.
+<lb ed="#Bc"/>Ergo videtur, quod in omnibus prelato
+<lb ed="#Bc"/>obediendum est sicut Deo.
+</p>
+               <p xml:id="Almn78-g06419-d1e734">
+                  <lb ed="#Bc"/>3. Adhuc, <ref xml:id="Almn78-g06419-Rd1e738">
+                     <name xml:id="Almn78-g06419-Nd1e740">Benedictus</name> in Regula</ref> :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g06419-Qd1e746"> Prelato etiamsi impossibile precipiat
+<lb ed="#Bc"/>facere, obediendum est. </quote> Ergo videtur
+<lb ed="#Bc"/>quod multo magis in possibilibus 
+obedi<lb ed="#Bc" break="no"/>endum sit, sive hoc dicat regula, sive non.
+</p>
+               <p xml:id="Almn78-g06419-d1e757">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Bernardus in libro de Precepto et
+<lb ed="#Bc"/>dispensatione : <quote xml:id="Almn78-g06419-Qd1e765"> Nihil exigat prelatus
+<lb ed="#Bc"/>eorum que non promisit subditus. 
+Sub<lb ed="#Bc" break="no"/>ditus enim ultra id quod promisit non est
+<lb ed="#Bc"/>lege obedientie urgendus, nec citra 
+inhi<lb ed="#Bc" break="no"/>bendus!. </quote>
+               </p>
+               <p xml:id="Almn78-g06419-d1e777">
+                  <lb ed="#Bc"/>Ulterius queritur de hoc quod in 
+eo<lb ed="#Bc" break="no"/>dem capite dicit Augustinus, ibi, <quote xml:id="Almn78-g06419-Qd1e783"> Ipsos
+<lb ed="#Bc"/>humanarum rerum gradus adyerte. Si
+<lb ed="#Bc"/>quid jusserit procurator, numquid est
+<lb ed="#Bc"/>faciendum si contra proconsulem jubeat ?
+<lb ed="#Bc"/>Et si jusserit proconsul, numquid est
+<lb ed="#Bc"/>faciendum si contra imperatorem 
+ju<lb ed="#Bc" break="no"/>beat? </quote> Quasi dicat : Non.
+</p>
+               <p xml:id="Almn78-g06419-d1e801">
+                  <lb ed="#Bc"/>Ex hoc enim videtur, quod subditi
+<lb ed="#Bc"/>Episcoporum magis tenentur 
+Archiepi<lb ed="#Bc" break="no"/>scopis obedire quam Episcopis.
+</p>
+               <p xml:id="Almn78-g06419-d1e810">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Super illud Apocalypsis, nu, 12: Ee
+<lb ed="#Bc"/>Angelo Pergami ecclesiae scribe, Glossa :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g06419-Qd1e823"> Non audeat Archiepiscopus super 
+sub<lb ed="#Bc" break="no"/>ditos Episcopi manum imponere sine
+<lb ed="#Bc"/>eo. </quote> Ergo videtur, quod superior 
+pre<lb ed="#Bc" break="no"/>latus non habeat potestatem super 
+sub<lb ed="#Bc" break="no"/>ditos inferioris sine eo,
+</p>
+               <p xml:id="Almn78-g06419-d1e835">
+                  <lb ed="#Bc"/>Solutio. Ad primam partem 
+questio<lb ed="#Bc" break="no"/>nis dicendum, quod potestatibus 
+secula<lb ed="#Bc" break="no"/>ribus in his que sunt ad ordinem 
+civili<lb ed="#Bc" break="no"/>tatis et communitatis secundum 
+ordina<lb ed="#Bc" break="no"/>tionem divinam, nullo modo 
+resisten<lb ed="#Bc" break="no"/>dum est, sed in omnibus obediendum.
+<lb ed="#Bc"/>Si autem aliquid precipiant contra 
+or<lb ed="#Bc" break="no"/>dinationem divinam, tune eis non est
+<lb ed="#Bc"/>obediendum, sed resistendum est, ut 
+di<lb ed="#Bc" break="no"/>eit Augustinus.
+</p>
+               <p xml:id="Almn78-g06419-d1e859">
+                  <lb ed="#Bc"/>Unde auctoritates et rationes ad
+<lb ed="#Bc"/>utramque partem procedunt per 
+distin<lb ed="#Bc" break="no"/>ctionem.
+</p>
+               <p xml:id="Almn78-g06419-d1e868">
+                  <lb ed="#Bc"/>Sed Ad hoc quod objicitur de Jeremia,
+<lb ed="#Bc"/>dicendum quod licet significet diabolum
+<lb ed="#Bc"/>et regnum ejus, tamen non accepit 
+po<lb ed="#Bc" break="no"/>testatem super regnum nisi ab 
+ordina<lb ed="#Bc" break="no"/>tione divina, que dedit potestatem ad
+<lb ed="#Bc"/>vindictam malefactorum et laudem 
+bo<lb ed="#Bc" break="no"/>norum. Et propter talem ordinationem
+<lb ed="#Bc"/>dixit Jeremias ei esse obediendum et
+<lb ed="#Bc"/>pro eo orandum.
+</p>
+               <p xml:id="Almn78-g06419-d1e890">
+                  <lb ed="#Bc"/>Ad id quod queritur de potestate 
+reli<lb ed="#Bc" break="no"/>giosorum, <name xml:id="Almn78-g06419-Nd1e896">Bernardus</name> solvit in libro I de
+<lb ed="#Bc"/>Precepto et dispensatione. Distinguit
+<lb ed="#Bc"/>enim obedientiam secundum legem 
+cha<lb ed="#Bc" break="no"/>ritatis, et secundum legem justitie. Et
+<lb ed="#Bc"/>dicit, quod lex charitatis finem nescit in
+<lb ed="#Bc"/>obediendo, sed obedit usque ad 
+mor<lb ed="#Bc" break="no"/>tem, sive promiserit hoc quod jubetur,
+<lb ed="#Bc"/>sive non promiserit. Et propter hoc
+<lb ed="#Bc"/>dicitur mandatum charitatis in Psalmo
+<lb ed="#Bc"/>cexvul, 96, latem mandatum nimis. Sed
+<lb ed="#Bc"/>secundum legem justitiae et obedientiae
+<lb ed="#Bc"/>certe non tenetur in omnibus obedire,
+<lb ed="#Bc"/>nisi in his que promisit. Dicit Magister
+<lb ed="#Bc"/>Hugo de sancto Victore, quod obedien
+<pb ed="#Bc" n="484"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>tia est virtus, qua vir obediens loquetur
+<lb ed="#Bc"/>victorias, libentissime omnia 
+amplecti<lb ed="#Bc" break="no"/>tur injuncta necessario implenda, nisi
+<lb ed="#Bc"/>obstiterit imperantis auctoritas.
+</p>
+               <p xml:id="Almn78-g06419-d1e942">
+                  <lb ed="#Bc"/>Unde auctoritates Hieronymi, Luce,
+<lb ed="#Bc"/>et Benedicti in regula, procedunt 
+secun<lb ed="#Bc" break="no"/>dum legem charitatis obedientiae.
+</p>
+               <p xml:id="Almn78-g06419-d1e951">
+                  <lb ed="#Bc"/>Ad id quod queritur de potestate 
+su<lb ed="#Bc" break="no"/>perioris et inferioris, dicendum per 
+di<lb ed="#Bc" break="no"/>stinctionem. Quia superior aut habet
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>potestatem limitatam, aut potestatis
+<lb ed="#Bc"/>plenitudinem, sicut Papa qui est 
+ordina<lb ed="#Bc" break="no"/>rius cujuslibet. Si primo modo: tunc
+<lb ed="#Bc"/>non habet potestatem in subditos sine
+<lb ed="#Bc"/>inferioris voluntate. Si secundo modo :
+<lb ed="#Bc"/>tunc habet : quia Papa est ordinarius
+<lb ed="#Bc"/>omnium hominum : quia vice Dei est in
+<lb ed="#Bc"/>terris. Et sic verum esset quod objicitur
+<lb ed="#Bc"/>de Augustino, si Archiepiscopus non
+<lb ed="#Bc"/>haberet potestatem limitatam.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

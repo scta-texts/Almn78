@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="507"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e12875"><!-- p2t11prae -->
+            <head xml:id="Almn78-e12875-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-e12875-d1e109">
+               <pb ed="#Bb" n="507"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>TRACTATUS XI.
+      <lb ed="#Bb"/>DE CREATIONE ALIARUM RERUM, ET PRAXCIPUE
+      <lb ed="#Bb"/>OPERUM SEX DIERUM
+      <lb ed="#Bb"/>DISTINCTIONE, ET REQUIE SEPTIMI DIET.
+    </p>
+            <p xml:id="Almn78-e12875-d1e125">
+               <lb ed="#Bb"/>Post tractatum de Angelis; jam tractata sunt que dicunlur in decima
+      <lb ed="#Bb"/>distinctione et undecima, ubi tractatum est de missione et custodia 
+      Ange<lb ed="#Bb" break="no"/>lorum : transeundum est ad ea que dicuntur in distinctione XII, ubi 
+      Magi<lb ed="#Bb" break="no"/>ster dicit, quod nunc superest de aliarum quoque rerum creatione, et 
+      pre<lb ed="#Bb" break="no"/>cipue de operum sex dierum distinctione nonnulla in medium proferre. Et
+      <lb ed="#Bb"/>mox dicit: <!--<quote>--> Cum Deus in sapientia sua angelicos condidit spiritus, alia
+      <lb ed="#Bb"/>etiam creavit, sicut ostendit supra memorata Scriptura, Genes. 1, 1, que
+      <lb ed="#Bb"/>dicit : In principio creavit Deus celum, id est, Angelos : et ferram, id est,
+      <lb ed="#Bb"/>materiam quatuor-elementorum adhuc confusam et informem, que a
+      <lb ed="#Bb"/>Greecis dicta est chaos : et heec fuit ante omnem diem.
+    </p>
+            <p xml:id="Almn78-e12875-d1e151">
+               <lb ed="#Bb"/>Ratione cujus queruntur hic quatuor.
+      <lb ed="#Bb"/>Primo, Quare nomine cceli et terre intelligitur spiritualis et corporalis
+      <lb ed="#Bb"/>creatura ?
+      <lb ed="#Bb"/>Secundo, An conveniebat corporalem creaturam primo in materia 
+      con<lb ed="#Bb" break="no"/>fusa et informi fieri? an per speciem et locum distinclam ?
+      <lb ed="#Bb"/>Tertio, Quomodo hoc opus fuerit ante omnem diem ?
+      <lb ed="#Bb"/>Quarto, Ratione ejus quod in fine ejusdem capituli dicit: <quote xml:id="Almn78-e12875-Qd1e168"> Qua non
+        <lb ed="#Bb"/>simul, ut quibusdam sanctorum patrum placuit, sed per intervalla 
+        tenpo<lb ed="#Bb" break="no"/>rum ac sex volumina dierum, ut aliis visum est, formavit. </quote> Ratione, enim
+      <lb ed="#Bb"/>hujus queritur, Utrum simul vel per successiones temporum omnia creata
+      <lb ed="#Bb"/>sint ?
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="158"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d34631"><!-- p2t4q13 -->
+            <head xml:id="Almn78-d34631-Hd1e106">Quaestio 13</head>
+            <head xml:id="Almn78-d34631-Hd1e109" type="question-title">
+      De Angeli essentiae simplicitate
+    </head>
+            <p xml:id="Almn78-d34631-d1e112">
+               <pb ed="#Bb" n="158"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO XIII.
+      <lb ed="#Bb"/>De Angeli essentiae simplicitate.
+    </p>
+            <div xml:id="Almn78-d34631-Dd1e123">
+               <head xml:id="Almn78-d34631-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-d34631-Hd1e128" type="question-title">
+        Utrum Angelus sit essentia simplex
+      </head>
+               <p xml:id="Almn78-d34631-d1e131">
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>Utrum Angelus sit essentia simplex?
+      </p>
+               <p xml:id="Almn78-d34631-d1e138">
+                  <lb ed="#Bb"/>Quod autem Angelus sit essentia 
+        sim<lb ed="#Bb" break="no"/>plex,
+      </p>
+               <p xml:id="Almn78-d34631-d1e145">
+                  <lb ed="#Bb"/>4. Sic probat Augustinus ; Primum
+        <lb ed="#Bb"/>attributum angelice nature est essentia
+        <lb ed="#Bb"/>simplex : ergo videtur, quod Angelus
+        <lb ed="#Bb"/>simplex essentia sit.
+      </p>
+               <p xml:id="Almn78-d34631-d1e157">
+                  <lb ed="#Bb"/>2. Adhuc, In libro de Spiritu et 
+        Ani<lb ed="#Bb" break="no"/>ma dicitur, quod anima est essentia
+        <lb ed="#Bb"/>simplex : minus autem videtur, quod
+        <lb ed="#Bb"/>anima est simplex, quam Angelus :
+        <lb ed="#Bb"/>ergo multo magis Angelus est essentia
+        <lb ed="#Bb"/>simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e173">
+                  <lb ed="#Bb"/>3. Adhuc, Constat, quod Angelus vel
+        <lb ed="#Bb"/>est composita essentia, vel simplex. Si
+        <lb ed="#Bb"/>est composita, cum omne compositum
+        <lb ed="#Bb"/>sit resolubile in componentia vel actu
+        <lb ed="#Bb"/>vel intellectu, Angelus resolubilis erit in
+        <lb ed="#Bb"/>componentia : sed hoc non est verum :
+        <lb ed="#Bb"/>componentia enim composito ipso 
+        prio<lb ed="#Bb" break="no"/>ra sunt et tempore et generatione : 
+        An<lb ed="#Bb" break="no"/>gelum componentia etiamsi aliquis 
+        fin<lb ed="#Bb" break="no"/>gere velit, non precedunt tempore et
+        <lb ed="#Bb"/>generatione : ergo remanet, quod 
+        Ange<lb ed="#Bb" break="no"/>lus est essentia simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e202">
+                  <lb ed="#Bb"/>4, Adhuc, Esse Angeli non precedunt
+        <lb ed="#Bb"/>nisi duo, scilicet Deus, et nihil : Deus
+        <lb ed="#Bb"/>enim creavit Angelum, et ex nihilo
+        <lb ed="#Bb"/>creatus est Angelus : et constat, quod ex
+        <lb ed="#Bb"/>his non potest habere compositionem
+        <lb ed="#Bb"/>aliquam : remanet ergo, quod sit 
+        essen<lb ed="#Bb" break="no"/>tia simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e220">
+                  <lb ed="#Bb"/>5. Adhuc, Philosophi prima 
+        compo<lb ed="#Bb" break="no"/>nentia dixerunt esse formam et 
+        mate<lb ed="#Bb" break="no"/>riam:in omnibus autem talibus materia
+        <lb ed="#Bb"/>primum est ut subjectum, et per motum
+        <lb ed="#Bb"/>accedit forma ut actus : et tale quid non
+        <lb ed="#Bb"/>potest poni in Angelo : ergo videtur,
+        <lb ed="#Bb"/>quod sit essentia simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e238">
+                  <lb ed="#Bb"/>6. Adhue, In libro de Causis dicitur,
+        <lb ed="#Bb"/>quod intelligentia est substantia que
+        <lb ed="#Bb"/>non dividitur : sed Angelus vel est 
+        in<lb ed="#Bb" break="no"/>telligentia, vel intelligentiz similis. :
+        <lb ed="#Bb"/>ergo non dividitur, nec substantia, nec
+        <lb ed="#Bb"/>motu, nec tempore. Omne autém 
+        com<lb ed="#Bb" break="no"/>positum aliquo illorum trium dividitur
+        <lb ed="#Bb"/>vel intellectu vel actu : Angelus nullo
+        <lb ed="#Bb"/>illorum dividitur : ergo remanet, quod
+        <lb ed="#Bb"/>sit essentia simplex,
+      </p>
+               <p xml:id="Almn78-d34631-d1e262">
+                  <lb ed="#Bb"/>7. Adhuc, Rabbi Moyses in libro 
+        Du<lb ed="#Bb" break="no"/>cis neutrorum, cap. de uno Deo, dicit,
+        <lb ed="#Bb"/>quod omne compositum est corpus
+        <lb ed="#Bb"/>Angelus non est corpus : ergo non est
+        <lb ed="#Bb"/>compositus : et sic adhuc remanet, quod
+        <lb ed="#Bb"/>sit essentia simplex, et sic idem quod
+        <lb ed="#Bb"/>prius.
+      </p>
+               <p xml:id="Almn78-d34631-d1e281">
+                  <lb ed="#Bb"/>3. Adhuc, Si dicitur Angelus esse
+        <lb ed="#Bb"/>compositus, queratur, In quo dignosci
+        <pb ed="#Bb" n="159"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>tur compositio ejus? Si dicatur, quod in
+        <lb ed="#Bb"/>hoc, quod aliquod influxum sibi potest
+        <lb ed="#Bb"/>recipere. Contra : Constat, quod 
+        Ange<lb ed="#Bb" break="no"/>lus non est in potentia recipiendi ab 
+        ali<lb ed="#Bb" break="no"/>quo inferiorum : sed si recipit, recipit a
+        <lb ed="#Bb"/>prima causa influxas sibi illuminationes
+        <lb ed="#Bb"/>et bonitates. Et sic dicitur in libro de
+        <lb ed="#Bb"/>Causis : <quote xml:id="Almn78-d34631-Qd1e309"> Quanto plures recipit bonita.
+          <lb ed="#Bb"/>tes a prima causa, tanto plus accedit ad
+          <lb ed="#Bb"/>unum. </quote> Per hoc autem, quod aliquid
+        <lb ed="#Bb"/>accedit ad unum, non recipit 
+        composi<lb ed="#Bb" break="no"/>tionem, sed simplicitatem : ergo per 
+        ta<lb ed="#Bb" break="no"/>lem receptionem non dignoscitur 
+        An<lb ed="#Bb" break="no"/>gelus esse compositus, sed potius 
+        sim<lb ed="#Bb" break="no"/>plex essentia.
+      </p>
+               <p xml:id="Almn78-d34631-d1e328">
+                  <lb ed="#Bb"/>IN CONTRARIUM est, .
+        <lb ed="#Bb"/>1. Quod dicit Boetius in libro de 
+        Heb<lb ed="#Bb" break="no"/>domadibus, quod <quote xml:id="Almn78-d34631-Qd1e336"> omne quod est citra
+          <lb ed="#Bb"/>primum, est hoc et hoc : </quote> Angelus est
+        <lb ed="#Bb"/>citra primum : ergo est hoc et hoc: et
+        <lb ed="#Bb"/>omne quod est hoc et hoc, est 
+        composi<lb ed="#Bb" break="no"/>tum: ergo Angelus est compositum, et
+        <lb ed="#Bb"/>non essentia simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e351">
+                  <lb ed="#Bb"/>2. Adhuc, Boetius, ibidem, <quote xml:id="Almn78-d34631-Qd1e355"> Quod
+          <lb ed="#Bb"/>est, habere aliquid potest, preter id
+          <lb ed="#Bb"/>quod est: esse vero nihil habet 
+          admix<lb ed="#Bb" break="no"/>tum ; </quote> Angelus vero aliquid habere
+        <lb ed="#Bb"/>potest preter id quod est, quia 
+        illumina<lb ed="#Bb" break="no"/>tiones, et bonitates, a prima causa sibi
+        <lb ed="#Bb"/>influxas : ergo Angelus est ex quod est et
+        <lb ed="#Bb"/>quo est : omne autem tale compositum
+        <lb ed="#Bb"/>est: ergo Angelus compositum quid
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e378">
+                  <lb ed="#Bb"/>3. Adhuc, In libro de Uno Deo 
+        dici<lb ed="#Bb" break="no"/>tur, quod <quote xml:id="Almn78-d34631-Qd1e384"> omne quod est simplex, esse
+          <lb ed="#Bb"/>suum a seipso habet, et non ab alio: </quote>
+                  <lb ed="#Bb"/>cum igitur Angelus esse suum a seipso
+        <lb ed="#Bb"/>non habeat, non potest esse essentia
+        <lb ed="#Bb"/>simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e397">
+                  <lb ed="#Bb"/>4. Adhuc, Boetius in libro de 
+        Hebdo<lb ed="#Bb" break="no"/>madibus : <quote xml:id="Almn78-d34631-Qd1e403"> Omne quod est, alio 
+          partici<lb ed="#Bb" break="no"/>pat ut sit, et alio ut hoc aliquid sit : </quote>
+                  <lb ed="#Bb"/>Angelus autem est, et hoc aliquid est:
+        <lb ed="#Bb"/>ergo in substantia sua habet a quo est,
+        <lb ed="#Bb"/>et aliud quo hoc aliquid est : omne 
+        au<lb ed="#Bb" break="no"/>tem tale compositum est : ergo Angelus
+        <lb ed="#Bb"/>composita essentia est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e420">
+                  <lb ed="#Bb"/>5. Adhuc, Boetius dicit, et in primo
+        <lb ed="#Bb"/>libro Senéentiarum, distinct. VIII, tra
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>ctatu de simplicitate divina probatum
+        <lb ed="#Bb"/>est, quod propter simplicitatem divinam
+        <lb ed="#Bb"/>in Deo non est accipere universale et
+        <lb ed="#Bb"/>particulare : ergo a destructione 
+        conse<lb ed="#Bb" break="no"/>quentis, si in Angelo est accipere 
+        uni<lb ed="#Bb" break="no"/>versale et particulare, Angelus non est
+        <lb ed="#Bb"/>substantia simplex : sed in Angelo est
+        <lb ed="#Bb"/>accipere universale, et particulare, 
+        pos<lb ed="#Bb" break="no"/>sum enim dicere, Angelus, et hic Ange=
+        <lb ed="#Bb"/>lus : ergo a positione antecedentis, An~
+        <lb ed="#Bb"/>gelus non est substantia simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e454">
+                  <lb ed="#Bb"/>6. Adhuc, Aristoteles in JIL de 
+        Ani<lb ed="#Bb" break="no"/>ma : <quote xml:id="Almn78-d34631-Qd1e460"> Jn omni natura aliud est quo est
+          <lb ed="#Bb"/>omnia facere, et aliud est quo est omnia
+          <lb ed="#Bb"/>fieri. </quote> Et dicit, quod oportet in anima
+        <lb ed="#Bb"/>accipere istas differentias. Sed in 
+        Ange<lb ed="#Bb" break="no"/>lo aliud est quo est omnia intelligibilia
+        <lb ed="#Bb"/>facere, et aliud quo est omnia 
+        intelligi<lb ed="#Bb" break="no"/>bilia fieri : ergo in substantia Angeli sunt
+        <lb ed="#Bb"/>duo : ergo est substantia composita.
+      </p>
+               <p xml:id="Almn78-d34631-d1e479">
+                  <lb ed="#Bb"/>7. Adhuc, Ab uno simplici non fluit
+        <lb ed="#Bb"/>nisi unum : sed ab essentia Angeli 
+        po<lb ed="#Bb" break="no"/>tentie naturales fluunt diverse : dicit
+        <lb ed="#Bb"/>enim Augustinus, quod memoria, 
+        intel<lb ed="#Bb" break="no"/>ligentia, et voluntas, et liberum 
+        arbi<lb ed="#Bb" break="no"/>trium : ergo relinquitur, quod essentia
+        <lb ed="#Bb"/>sua non sit simplex.
+      </p>
+               <p xml:id="Almn78-d34631-d1e497">
+                  <lb ed="#Bb"/>8. Adhuc, Idem eodem modo se 
+        ha<lb ed="#Bb" break="no"/>bens, non potest esse principium 
+        con<lb ed="#Bb" break="no"/>tradictorioram et contrariorum : sed in
+        <lb ed="#Bb"/>Angelo est quod convenit multis, et est
+        <lb ed="#Bb"/>communicabile, scilicet quod Angelus
+        <lb ed="#Bb"/>est, quod spiritus est, quod lumen 
+        divi<lb ed="#Bb" break="no"/>num est : et est in eo quod est 
+        incom<lb ed="#Bb" break="no"/>municabile, et convenit uni soli : ergo
+        <lb ed="#Bb"/>hec non causantur ab uno, quod sit in
+        <lb ed="#Bb"/>substantia Angeli, sed a diversis : sed
+        <lb ed="#Bb"/>quidquid diversa habet in substantia,
+        <lb ed="#Bb"/>compositum est: ergo Angelus 
+        compo<lb ed="#Bb" break="no"/>sita substantia est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e528">
+                  <lb ed="#Bb"/>9. Adhuc, In quocumque est 
+        composi<lb ed="#Bb" break="no"/>tio secunda, que est ex substantia et
+        <lb ed="#Bb"/>accidente, in illo est compositio prima,
+        <lb ed="#Bb"/>que est ex natura suppositi, ef ex 
+        na<lb ed="#Bb" break="no"/>tura communi cui suppositum est. Et
+        <lb ed="#Bb"/>hoc probatur ex Boetio in libro de 
+        Heb<lb ed="#Bb" break="no"/>domadibus, qui dicit,quod <quote xml:id="Almn78-d34631-Qd1e545"> materia sim-=-
+          <lb ed="#Bb"/>plex subjectum accidentis esse non 
+          pot<lb ed="#Bb" break="no"/>est.</quote> Et ex Avicenna qui dicit, quod
+        <pb ed="#Bb" n="160"/>
+                  <cb ed="#Bb" n="a"/>
+                  <quote xml:id="Almn78-d34631-Qd1e556">subjectum est ens in se completum,
+          <lb ed="#Bb"/>quod est causa vel occasio accidentis
+          <lb ed="#Bb"/>existendi in eo, vel quod insit sibi 
+          acci<lb ed="#Bb" break="no"/>dens :</quote> accidens enim causatur 
+        asubje<lb ed="#Bb" break="no"/>cto, et nullum habet esse, nisi per hoc
+        <lb ed="#Bb"/>quod est in subjecto : accidentis enim
+        <lb ed="#Bb"/>esse est inesse, ut dicit Porphyrius, et
+        <lb ed="#Bb"/>Aristoteles dicit, quod accidens est quod
+        <lb ed="#Bb"/>cum sit in aliquo, non est in eo sicut
+        <lb ed="#Bb"/>quedam pars, et impossibile est esse
+        <lb ed="#Bb"/>sine eo in quo est. Sed in Angelo est
+        <lb ed="#Bb"/>compositio secunda, habet enim 
+        gra<lb ed="#Bb" break="no"/>tiam et virtutem. Ergo Angelus est 
+        sub<lb ed="#Bb" break="no"/>jectum. Et in omni subjecto aliud est
+        <lb ed="#Bb"/>quod substat, et aliud cui substat :
+        <lb ed="#Bb"/>omne autem tale substantia composita
+        <lb ed="#Bb"/>est: ergo Angelus substantia composita
+        <lb ed="#Bb"/>est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e597">
+                  <lb ed="#Bb"/>Sotvutio. Dicendum, quod Angelus
+        <lb ed="#Bb"/>substantia composita est, et est 
+        supposi<lb ed="#Bb" break="no"/>tum, et hoc aliquid. Suppositum autem
+        <lb ed="#Bb"/>et hoc aliquid in ratione sui habent,
+        <lb ed="#Bb"/>quod sint compositum ad minus ex quod
+        <lb ed="#Bb"/>est et quo est: onine enim suppositum
+        <lb ed="#Bb"/>alicui substat communi, scilicet nature,
+        <lb ed="#Bb"/>qua est in genere vel specie illius 
+        natu<lb ed="#Bb" break="no"/>re : etomne quod substat, res nature
+        <lb ed="#Bb"/>determinata est in illa natura ad hoc
+        <lb ed="#Bb"/>quod est signatum hoc aliquid. Et per
+        <lb ed="#Bb"/>hoc patet, quod in ratione suppositi est, .
+        <lb ed="#Bb"/>quod compositum sit.
+      </p>
+               <p xml:id="Almn78-d34631-d1e628">
+                  <lb ed="#Bb"/>Et si objicitur de puncto et unitate,
+        <lb ed="#Bb"/>que sunt hoc aliquid : et tamen 
+        dicun<lb ed="#Bb" break="no"/>tur simplicia esse. Dico, quod simplicia
+        <lb ed="#Bb"/>sunt, id est, quantitatem non habentia,
+        <lb ed="#Bb"/>et secundum quantitatem indivisibilia :
+        <lb ed="#Bb"/>nihilominus tamen partibus 
+        essentiali<lb ed="#Bb" break="no"/>bus composita sunt. Quod patet per 
+        ra<lb ed="#Bb" break="no"/>tiones eorum si ponantur : punctum
+        <lb ed="#Bb"/>enim est substantia, in continuo habens
+        <lb ed="#Bb"/>positionem determinatam : et si 
+        substan<lb ed="#Bb" break="no"/>tia est secundum id quod est, indivisibile
+        <lb ed="#Bb"/>quoddam est : et si positionem habet in
+        <lb ed="#Bb"/>natura continui, aliquid est : et sic 
+        com<lb ed="#Bb" break="no"/>positum est, et non habet idem in seipso
+        <lb ed="#Bb"/>id quod est et esse, sive quod est et quo
+        <lb ed="#Bb"/>est. Et similiter est de unitate relata ad
+        <lb ed="#Bb"/>genus discreti.
+      </p>
+               <p xml:id="Almn78-d34631-d1e668">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>Unde omnes rationes que inducuntur
+        <lb ed="#Bb"/>ad hoc, quod Angelus composita 
+        sub<lb ed="#Bb" break="no"/>stantia sit, procedunt.
+      </p>
+               <p xml:id="Almn78-d34631-d1e679">
+                  <lb ed="#Bb"/>Ad primum ergo quo videtur probari,
+        <lb ed="#Bb"/>quod simplex substantia sit, dicendum
+        <lb ed="#Bb"/>quod cum Augustinus dicit 
+        simplicita<lb ed="#Bb" break="no"/>tem esse attributum Angelice nature,
+        <lb ed="#Bb"/>non intelligit de simplicitate simpliciter,
+        <lb ed="#Bb"/>sed de simplicitate secundum quid, qua
+        <lb ed="#Bb"/>scilicet non habet compositionem 
+        quan<lb ed="#Bb" break="no"/>titativam et corpoream : habet tamen
+        <lb ed="#Bb"/>compositionem essentialem que est ex
+        <lb ed="#Bb"/>quod est et quo est, eo modo quo etiam
+        <lb ed="#Bb"/>anima simplex esse dicitur respectu 
+        cor<lb ed="#Bb" break="no"/>poris.
+      </p>
+               <p xml:id="Almn78-d34631-d1e708">
+                  <lb ed="#Bb"/>Ad aliud similiter dicendum, quia nec
+        <lb ed="#Bb"/>anima, nec Angelus simpliciter simplicia
+        <lb ed="#Bb"/>sunt, hoc est, omni compositione 
+        pri<lb ed="#Bb" break="no"/>vata : habent enim intra se essentialem
+        <lb ed="#Bb"/>compositionem, et ex principiis 
+        essen<lb ed="#Bb" break="no"/>tialibus composita sunt.
+      </p>
+               <p xml:id="Almn78-d34631-d1e724">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod 
+        componen<lb ed="#Bb" break="no"/>tia aliquid, non semper precedunt 
+        gene<lb ed="#Bb" break="no"/>ratione et tempore : sed in 
+        corruptibili<lb ed="#Bb" break="no"/>bus simul sunt cum composito, et non
+        <lb ed="#Bb"/>sunt priora ipso, nisi natura : nec 
+        com<lb ed="#Bb" break="no"/>positum resolubile est in ipsa, nisi 
+        se<lb ed="#Bb" break="no"/>cundum intellectum tantum : quia, sicut
+        <lb ed="#Bb"/>dicit Damascenus, subtilibus 
+        intelligen<lb ed="#Bb" break="no"/>tiis distinguuntur in ipso, quamvis 
+        se<lb ed="#Bb" break="no"/>cundum actum compositum numquam
+        <lb ed="#Bb"/>resolvatur in ea, sicut patet in ceelo et in
+        <lb ed="#Bb"/>omnibus incorruptibilibus. Dicit enim
+        <lb ed="#Bb"/>Philosophus in primo de Calo et 
+        Mun<lb ed="#Bb" break="no"/>do, quod cum dico celum, dico formam :
+        <lb ed="#Bb"/>cum dico hoc celum, dico formam in hac
+        <lb ed="#Bb"/>materia : per formam intelligens 
+        crea<lb ed="#Bb" break="no"/>turam communem, que est forma totius
+        <lb ed="#Bb"/>predicabilis de toto, que universale 
+        vo<lb ed="#Bb" break="no"/>catur : per formam in hac materia 
+        in<lb ed="#Bb" break="no"/>telligens incommunicabile suppositum,
+        <lb ed="#Bb"/>substans nature communi, quod de
+        <lb ed="#Bb"/>aliis ejusdem nature non predicabile
+        <lb ed="#Bb"/>est, nisi large sumendo predicationem,
+        <lb ed="#Bb"/>qua aliquid dicitur de seipso, sicut 
+        dici<lb ed="#Bb" break="no"/>mus, quod Socrates est Socrates : sed
+        <lb ed="#Bb"/>hec predicatio non est per inherentiam
+        <lb ed="#Bb"/>sed per identitatem.
+      </p>
+               <p xml:id="Almn78-d34631-d1e785">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Deus pra
+        <pb ed="#Bb" n="161"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>cedit esse Angeli ut principium efficiens,
+        <lb ed="#Bb"/>non componens, et nihil precedit esse
+        <lb ed="#Bb"/>Angeli ordine tantum, sicut post quod
+        <lb ed="#Bb"/>est esse Angeli sed principia 
+        com<lb ed="#Bb" break="no"/>ponentia Aiigelum, sicut quo 
+        Ange<lb ed="#Bb" break="no"/>lus est, et hoc est, sunt principia 
+        com<lb ed="#Bb" break="no"/>positionis, et non precedunt esse Angeli
+        <lb ed="#Bb"/>nisi natura et intellectu, sicut paulo ante
+        <lb ed="#Bb"/>dictum est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e814">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Philosophi
+        <lb ed="#Bb"/>ponendo mate.iam et formam, non 
+        po<lb ed="#Bb" break="no"/>suerunt principia compositionis, nisi 
+        ge<lb ed="#Bb" break="no"/>nerabilium et universaliter mobilium
+        <lb ed="#Bb"/>motu physico : et ideo talia Angelis non
+        <lb ed="#Bb"/>competunt, sicut satis supra in 
+        que<lb ed="#Bb" break="no"/>stione de compositione rerum 
+        determina<lb ed="#Bb" break="no"/>tum est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e835">
+                  <lb ed="#Bb"/>Ad aliud dicendum est, quod Angelus
+        <lb ed="#Bb"/>est substantia, que procul dubio non 
+        di<lb ed="#Bb" break="no"/>viditur motu, vel tempore, vel actu; et
+        <lb ed="#Bb"/>sic intelligitur dictum Philosophi. 
+        Divi<lb ed="#Bb" break="no"/>ditur tamen intellectu et intelligentia
+        <lb ed="#Bb"/>Angelus : quia per intellectum distincta
+        <lb ed="#Bb"/>accipiuntur in ipso principio 
+        compositio<lb ed="#Bb" break="no"/>nis essentialis, que sunt quod est, et
+        <lb ed="#Bb"/>quo est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e857">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Rabbi 
+        Moy<lb ed="#Bb" break="no"/>ses dicit esse compositum quod ex 
+        par<lb ed="#Bb" break="no"/>tibus quantitativis per modum totius 
+        in<lb ed="#Bb" break="no"/>tegralis compositum est: et ideo dictum
+        <lb ed="#Bb"/>ejus nihil facit ad propositum.
+      </p>
+               <p xml:id="Almn78-d34631-d1e870">
+                  <lb ed="#Bb"/>Ad ultimum dicendum, quod Angeli
+        <lb ed="#Bb"/>compositio dignoscitur in hoc quod 
+        An<lb ed="#Bb" break="no"/>gelus est, et hic Angelus per hoc quod
+        <lb ed="#Bb"/>recipit bonitates influxas a primo, 
+        dig<lb ed="#Bb" break="no"/>noscitur esse suppositum recipiens, 
+        te<lb ed="#Bb" break="no"/>nens, et sustinens illas bonitates : et
+        <lb ed="#Bb"/>per hoc non accedit ad unum quo sit
+        <lb ed="#Bb"/>essentialiter, sed ad unum ad quod est
+        <lb ed="#Bb"/>finaliter : et accessus ejus est per 
+        imi<lb ed="#Bb" break="no"/>tationem similitudinis, et non per 
+        mo<lb ed="#Bb" break="no"/>dum simplicitatis.
+      </p>
+            </div>
+            <div xml:id="Almn78-d34631-Dd1e897">
+               <head xml:id="Almn78-d34631-Hd1e899">Membrum 2</head>
+               <head xml:id="Almn78-d34631-Hd1e902" type="question-title">
+        Utrum modus simplicitatis Angeli sit,
+        quod Angelus sit quidquid habet, et,
+        Utrum Angelus et potentia Angeli sint
+        idem 
+      </head>
+               <p xml:id="Almn78-d34631-d1e905">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>Utrum modus simplicitatis Angeli sit,
+        <lb ed="#Bb"/>quod Angelus sit quidquid habet ? et,
+        <lb ed="#Bb"/>Utrum Angelus et potentia Angeli sint
+        <lb ed="#Bb"/>idem ?
+      </p>
+               <p xml:id="Almn78-d34631-d1e921">
+                  <lb ed="#Bb"/>Secundo, Queritur de modo 
+        simplici<lb ed="#Bb" break="no"/>tatis angelice nature.
+      </p>
+               <p xml:id="Almn78-d34631-d1e928">
+                  <lb ed="#Bb"/>Et queritur, Utrum modus simplicita~
+        <lb ed="#Bb"/>tis ejus sit, quod Angelus sit quidquid
+        <lb ed="#Bb"/>habet ?
+      </p>
+               <p xml:id="Almn78-d34631-d1e938">
+                  <lb ed="#Bb"/>Et maxime, utrum Angelus et 
+        poten<lb ed="#Bb" break="no"/>tia Angeli sunt idem?
+      </p>
+               <p xml:id="Almn78-d34631-d1e945">
+                  <lb ed="#Bb"/>1. Hoc enim videtur Augustinus in 
+        li<lb ed="#Bb" break="no"/>bro XV de Trinitate dicere, quod <quote xml:id="Almn78-d34631-Qd1e951"> 
+          me<lb ed="#Bb" break="no"/>moria, intelligentia, et voluntas, sunt
+          <lb ed="#Bb"/>una vila, una mens, et una essentia : </quote>
+                  <lb ed="#Bb"/>constat autem quod non est nisi 
+        essen<lb ed="#Bb" break="no"/>tia anime rationalis : ergo memoria,
+        <lb ed="#Bb"/>intelligentia, et voluntas, sunt idem
+        <lb ed="#Bb"/>quod essentia anime rationalis : sed
+        <lb ed="#Bb"/>major est simplicitas in Angelo, quam
+        <lb ed="#Bb"/>in anima rationali: ergo multo magis
+        <lb ed="#Bb"/>in Angelo potentia eadem est cum ipso :
+        <lb ed="#Bb"/>et sic essentia Angeli eadem est cum
+        <lb ed="#Bb"/>potentia ipsius, Et ex hoc sequitur,
+        <lb ed="#Bb"/>quod intelligentia, memoria, et voluntas
+        <lb ed="#Bb"/>idem sint cum essentia Angeli, nec 
+        ha<lb ed="#Bb" break="no"/>beat aliam essentiam.
+      </p>
+               <p xml:id="Almn78-d34631-d1e985">
+                  <lb ed="#Bb"/>2. Adhuc, Dionysius dicit, quod <quote xml:id="Almn78-d34631-Qd1e989"> 
+          An<lb ed="#Bb" break="no"/>gelus est essentia simplex. </quote> Dicitur 
+        au<lb ed="#Bb" break="no"/>tem, quod in perpetuis idem est posse et
+        <lb ed="#Bb"/>esse : quia si simplex est, non potest
+        <lb ed="#Bb"/>esse quod ab alio dependeat potentia, et
+        <lb ed="#Bb"/>ab alio essentia. Ergo videtur, quod in
+        <lb ed="#Bb"/>Angelo potentia sit idem cum essentia :
+        <lb ed="#Bb"/>et sic iterum relinquitur, quod memoria,
+        <lb ed="#Bb"/>intelligentia, et voluntas, in Angelo sint
+        <lb ed="#Bb"/>essentia ipsius.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1012">
+                  <lb ed="#Bb"/>3. Adhuc, In libro de Spiritu et 
+        ani<lb ed="#Bb" break="no"/>ma dicitur, quod <quote xml:id="Almn78-d34631-Qd1e1018"> Deus est omnia
+          <lb ed="#Bb"/>sua: </quote> anima autem quedam sua, habet
+        <lb ed="#Bb"/>enim intellectum, et ipsa est suus intel
+        <pb ed="#Bb" n="162"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb" break="no"/>lectus : et habet memoriam, et ipsa est
+        <lb ed="#Bb"/>sua memoria : et habet voluntatem, et
+        <lb ed="#Bb"/>ipsa est sua voluntas. Sed in Angelo
+        <lb ed="#Bb"/>major simplicitas est, quam in anima
+        <lb ed="#Bb"/>rationali. Ergo multo magis Angelus est
+        <lb ed="#Bb"/>quelibet suarum potentiarum, et 
+        essen<lb ed="#Bb" break="no"/>tia Angeli idem cum qualibet potentia
+        <lb ed="#Bb"/>sua.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1048">
+                  <lb ed="#Bb"/>In contrarium est, quod
+        <lb ed="#Bb"/>1. Hoc est contra omnem intellectum,
+        <lb ed="#Bb"/>quod id quod fluit ab aliquo ut qualitas
+        <lb ed="#Bb"/>ipsius, idem possit esse essentialiler cum
+        <lb ed="#Bb"/>ipso : unum enim est in genere 
+        qualita<lb ed="#Bb" break="no"/>tis, etin specie qualitatis que dicitur
+        <lb ed="#Bb"/>naturalis potentia vel impotentia : 
+        alte<lb ed="#Bb" break="no"/>rum autem est in genere substantie ut
+        <lb ed="#Bb"/>principium essentialiter constitulivum
+        <lb ed="#Bb"/>substantie : ergo numquam potest 
+        intel<lb ed="#Bb" break="no"/>ligi, quod sint eadem essentia : sed 
+        con<lb ed="#Bb" break="no"/>stat, quod omnis potentia Angeli flait ab
+        <lb ed="#Bb"/>essenlia ipsius ut naluralis potentia
+        <lb ed="#Bb"/>ergo humquam potest esse vel intelligi,
+        <lb ed="#Bb"/>quod essentia Angeli idem sit cum 
+        po<lb ed="#Bb" break="no"/>tentia ipsius.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1085">
+                  <lb ed="#Bb"/>2. Adhuc, Potentia media est semper
+        <lb ed="#Bb"/>inter essentiam et actum : medium 
+        au<lb ed="#Bb" break="no"/>tem cum extremo numquam potest esse
+        <lb ed="#Bb"/>ejusdem essentix : ergo potentia et 
+        es<lb ed="#Bb" break="no"/>sentia Angeli diversa sunt. Et hoc 
+        con<lb ed="#Bb" break="no"/>cedendum est.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1102">
+                  <lb ed="#Bb"/>Dicendum igitur, quod hoc soli Deo
+        <lb ed="#Bb"/>convenit, quod ipse est quidquid habet :
+        <lb ed="#Bb"/>eo quod sibi soli convenit, quod in ipso
+        <lb ed="#Bb"/>est idem penitus quod est et esse : et
+        <lb ed="#Bb"/>quod quidquid est in ipso, est idem cum
+        <lb ed="#Bb"/>substantia ipsius.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1118">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod cum
+        <lb ed="#Bb"/>dicit Augustinus, quod memoria, 
+        intelli<lb ed="#Bb" break="no"/>gentia, et voluntas, sunt una vita, una
+        <lb ed="#Bb"/>mens, una essentia : non _ intelligit,
+        <lb ed="#Bb"/>quod essentialiter sint idem et indivisa
+        <lb ed="#Bb"/>secundum essentiam, quia hoc est 
+        im<lb ed="#Bb" break="no"/>possibile, sicut probat objectio : sed 
+        in<lb ed="#Bb" break="no"/>tullicit, quod in spiritualibus non est
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>enim potentie distribuuntur secundum
+        <lb ed="#Bb"/>partes silu distantes, ila quod non tolum
+        <lb ed="#Bb"/>corpus secundum essentiam adest 
+        cuili<lb ed="#Bb" break="no"/>bet potentie : in spiritualibus autem,
+        <lb ed="#Bb"/>sicut in anima, et in Angelo, non sic
+        <lb ed="#Bb"/>distribuuntur : sed anima et Angelus 
+        se<lb ed="#Bb" break="no"/>cundum totam essentiam, secundum 
+        to<lb ed="#Bb" break="no"/>tam vilam, secundum totam meniem,
+        <lb ed="#Bb"/>adest cuilibet potentiz.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1160">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Dionysius
+        <lb ed="#Bb"/>dicit, quod Angelus est quodammodo
+        <lb ed="#Bb"/>simplex : sed non dicit, quod est in fine
+        <lb ed="#Bb"/>simplicitatis. Unde essentialiter 
+        compo<lb ed="#Bb" break="no"/>situs est : et ideo ab alio dependet esse
+        <lb ed="#Bb"/>ipsius, et ab alio potentia : nec est idem
+        <lb ed="#Bb"/>in eo posse et esse.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1178">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod si sustinea~
+        <lb ed="#Bb"/>tur dictum in libro de Spiritu et anima,
+        <lb ed="#Bb"/>non potest sustineri, nisi eo modo quo
+        <lb ed="#Bb"/>dictum est de dicto Augustini in libro de
+        <lb ed="#Bb"/>Trinitate : aliler enim omnino falsum
+        <lb ed="#Bb"/>est et absurdum. Et secundum hoc ex
+        <lb ed="#Bb"/>dicto illo non sequitur, quod potentia
+        <lb ed="#Bb"/>idem sit quod essentia, sed quod 
+        indi<lb ed="#Bb" break="no"/>stans sit anima secundum essentiam et
+        <lb ed="#Bb"/>vitam a qualibet potentia.
+      </p>
+            </div>
+            <div xml:id="Almn78-d34631-Dd1e1204">
+               <head xml:id="Almn78-d34631-Hd1e1206">Membrum 3</head>
+               <head xml:id="Almn78-d34631-Hd1e1209" type="question-title">
+        Quae sit comparatio simplicitatis Angeli
+        ad simplicitatem divinam, et ad 
+        simplicitatem animae rationalis?
+      </head>
+               <p xml:id="Almn78-d34631-d1e1212">
+                  <lb ed="#Bb"/>MEMBRUM III
+        <lb ed="#Bb"/>Quae sit comparatio simplicitatis Angeli
+        <lb ed="#Bb"/>ad simplicitatem divinam, et ad 
+        sim<lb ed="#Bb" break="no"/>plicitatem animae rationalis?
+      </p>
+               <p xml:id="Almn78-d34631-d1e1223">
+                  <lb ed="#Bb"/>Tertio queritur, Quae sit comparatio
+        <lb ed="#Bb"/>simplicitatis Angeli ad simplicitatem 
+        di<lb ed="#Bb" break="no"/>vinam, et ad simplicitatem anime 
+        ralio<lb ed="#Bb" break="no"/>nalis ?
+      </p>
+               <p xml:id="Almn78-d34631-d1e1234">
+                  <lb ed="#Bb"/>Et videtur, quod nulla.
+        <lb ed="#Bb"/>1. Dicit enim Augustinus, quod 
+        sim<lb ed="#Bb" break="no"/>plicitas divina tanta est, quod Deus est
+        <lb ed="#Bb"/>quidquid habet : habet enim vitam, et
+        <lb ed="#Bb"/>ipse est sua vita: habet justiliam, et
+        <pb ed="#Bb" n="163"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>ipse est sua justitia : habet virlutem, et
+        <lb ed="#Bb"/>ipse est sua virtus. Angelica simplicitas
+        <lb ed="#Bb"/>nihil horum admittit : Angelus enim nec
+        <lb ed="#Bb"/>vita sua est, nec intelligentia, nec 
+        justi<lb ed="#Bb" break="no"/>lia, nec aliquid eorum_ que habet. Ergo
+        <lb ed="#Bb"/>nulla est comparatio simplicitatis divine
+        <lb ed="#Bb"/>ad angelicam.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1268">
+                  <lb ed="#Bb"/>2. Adhuc, Damascenus in libro IE de
+        <lb ed="#Bb"/>Fide orthodoza dicit, quod <quote xml:id="Almn78-d34631-Qd1e1274"> Angelus in
+          <lb ed="#Bb"/>comparatione Dei corporalis est’: </quote> 
+        cor<lb ed="#Bb" break="no"/>poralis autem ad simpliciter incorporale,
+        <lb ed="#Bb"/>in simplicitate nulla est comparatio vel:
+        <lb ed="#Bb"/>proportio : ergo videtur, quod Dei et
+        <lb ed="#Bb"/>Angeli in simplicitate nulla sit 
+        compara<lb ed="#Bb" break="no"/>tio.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1291">
+                  <lb ed="#Bb"/>3. Adhuc, Ad animam rationalem non
+        <lb ed="#Bb"/>videtur esse comparatio : unibilis enim
+        <lb ed="#Bb"/>cum corpore, et non unibilis, in 
+        simpli<lb ed="#Bb" break="no"/>citate nulla comparatio est : aninia 
+        ratio<lb ed="#Bb" break="no"/>nalis unibilis est cum corpore, Angelus
+        <lb ed="#Bb"/>non unibilis : ergo in simplicitate 
+        nul<lb ed="#Bb" break="no"/>lam habent comparationem.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1309">
+                  <lb ed="#Bb"/>Sotunio. Dicendum, quod duplex est
+        <lb ed="#Bb"/>comparaltio. Una est univoci, que est
+        <lb ed="#Bb"/>secundum unum quod est in duobus vel
+        <lb ed="#Bb"/>pluribus secundum unam et eamdem 
+        ra<lb ed="#Bb" break="no"/>tionem, sicut dicimus album, albius, 
+        al<lb ed="#Bb" break="no"/>bissimum : et de hac dicit Philosophus,
+        <lb ed="#Bb"/>quod comparatio univoci est. Et talis
+        <lb ed="#Bb"/>comparatio in simplicitate non est inter
+        <lb ed="#Bb"/>Deum, et Angelum, et animam 
+        rationa<lb ed="#Bb" break="no"/>lem.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1333">
+                  <lb ed="#Bb"/>Alia est comparatio analogi,* hoc est,
+        <lb ed="#Bb"/>unius quod est in pluribus secundum
+        <lb ed="#Bb"/>analogiam sive proportionem ad aliquod
+        <lb ed="#Bb"/>unum, sicut dicimus esse Deum 
+        justio<lb ed="#Bb" break="no"/>rem Angelo vel ,homine : quia 
+        secun<lb ed="#Bb" break="no"/>dum proportionem justitie ad actum,
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>que est reddere unicuique quod suum
+        <lb ed="#Bb"/>est, Deus essenlialiter justus est, et 
+        re<lb ed="#Bb" break="no"/>clitudinem et perfectionem actus justitize
+        <lb ed="#Bb"/>semper conlingit, et ab eo deflecti non
+        <lb ed="#Bb"/>potest. Angelus autem et homo 
+        partici<lb ed="#Bb" break="no"/>pative justi sunt, et a rectitudine actus et
+        <lb ed="#Bb"/>perfectione deflecti possunt.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1366">
+                  <lb ed="#Bb"/>Similiter dicimus de simplicitate,
+        <lb ed="#Bb"/>quod cum simplicitas in Deo, in Angelo,
+        <lb ed="#Bb"/>et in anima rationali non sit univoce, 
+        se<lb ed="#Bb" break="no"/>cundum primum modum non potest esse
+        <lb ed="#Bb"/>comparatio simplicitatis inter Deum, et
+        <lb ed="#Bb"/>Angelum, et animam rationalem. 
+        Se<lb ed="#Bb" break="no"/>cundo autem modo quodammodo est
+        <lb ed="#Bb"/>comparatio : quia maxima simplicitas
+        <lb ed="#Bb"/>est, que est in fine simplicitatis, ut 
+        sci<lb ed="#Bb" break="no"/>licet idem sit habens et quidquid habet,
+        <lb ed="#Bb"/>et sint idem per essentiam, hoc est,
+        <lb ed="#Bb"/>quod una sit essentia habentis et 
+        quid<lb ed="#Bb" break="no"/>quid habet. Et minor simplicitas est in
+        <lb ed="#Bb"/>eo quod participalive simplex est, nec
+        <lb ed="#Bb"/>est quidquid habet. Et minima 
+        simplici<lb ed="#Bb" break="no"/>tas sit ejus quod unibile est corpori
+        <lb ed="#Bb"/>quantitatem habenti, et dividitur 
+        secun<lb ed="#Bb" break="no"/>dum potentias secundum parles 
+        organi<lb ed="#Bb" break="no"/>cas corporis.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1410">
+                  <lb ed="#Bb"/>Ad primum ergo dicendum, quod non
+        <lb ed="#Bb"/>est comparalio sicut univoci, sed 
+        quo<lb ed="#Bb" break="no"/>dammodo est sicut analogi.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1420">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod Angeli non
+        <lb ed="#Bb"/>dicuntur corporales, nisi secundum
+        <lb ed="#Bb"/>quemdam modum : quia scilicet locales
+        <lb ed="#Bb"/>sunt definitive, sicut dictum est in 
+        que<lb ed="#Bb" break="no"/>stione de definitione Angeli.
+      </p>
+               <p xml:id="Almn78-d34631-d1e1433">
+                  <lb ed="#Bb"/>Ad aliud dicendum, quod unibilitas
+        <lb ed="#Bb"/>anime ad corpus non impedit 
+        compara<lb ed="#Bb" break="no"/>tionem analogi, licet impediat 
+        compara<lb ed="#Bb" break="no"/>tionem univoci.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

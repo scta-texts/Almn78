@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 55</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 55</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="571"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e27039"><!-- p2t11q55 -->
+            <head xml:id="Almn78-e27039-Hd1e106">Quaestio 55</head>
+            <head xml:id="Almn78-e27039-Hd1e109" type="question-title">
+      Quare non est dictum sicut in aliorum dierum operibus: Vidit
+      Deus quod esset bonum?
+    </head>
+            <p xml:id="Almn78-e27039-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LV.
+      <lb ed="#Bb"/>Quare non est dictum sicut in aliorum dierum operibus: Vidit
+      <lb ed="#Bb"/>Deus quod esset bonum?
+    </p>
+            <p xml:id="Almn78-e27039-d1e123">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde ratione ejus quod dicit 
+      Magi<lb ed="#Bb" break="no"/>ster in libro II Sententiarum, dist. XLV,
+      <lb ed="#Bb"/>cap. Post hoc queri solet. Quare hic non
+      <lb ed="#Bb"/>est dictum sicut in aliorum dierum 
+      ope<lb ed="#Bb" break="no"/>ribus : Vidit Deus quod esset bonum 2 ?
+    </p>
+            <p xml:id="Almn78-e27039-d1e139">
+               <lb ed="#Bb"/>Ratione cujus queritur de verbis 
+      qui<lb ed="#Bb" break="no"/>bus usus est in opere distinctionis. In
+      <lb ed="#Bb"/>opere creationis non dixit : Fiant ccelum
+      <lb ed="#Bb"/>et terra: sed, Jn principio creavit Deus
+      <lb ed="#Bb"/>celum et terram *. In opere distinctionis
+      <lb ed="#Bb"/>statim dixit: Fiat lux. Et facta est lux.
+      <lb ed="#Bb"/>Et vidit Deus lucem quod esset bona‘.
+      <lb ed="#Bb"/>Sed in distinctione firmamenti dixit :
+      <lb ed="#Bb"/>Fiat firmamentum in medio aquarum,
+      <lb ed="#Bb"/>et dividat aquas ab aquis. Et fecit Deus
+    </p>
+            <p xml:id="Almn78-e27039-d1e164">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>firmamentum: et non addidit : Vidit
+      <lb ed="#Bb"/>Deus firmamentum, quod esset bonum.
+    </p>
+            <p xml:id="Almn78-e27039-d1e173">
+               <lb ed="#Bb"/>Ad quod respondet Augustinus in libro
+      <lb ed="#Bb"/>Isuper Genesim ad litteram, quod cum
+      <lb ed="#Bb"/>dicitur. Fiat, verbum determinat 
+      dispo<lb ed="#Bb" break="no"/>silionem faciendi. Cum dicitur, Feedt, 
+      de<lb ed="#Bb" break="no"/>terminat illustrationem faciendi in 
+      An<lb ed="#Bb" break="no"/>gelorum notilia. Cum dicitur, Factum
+      <lb ed="#Bb"/>est, determinat perfectionem facli in
+      <lb ed="#Bb"/>propria natura.
+    </p>
+            <p xml:id="Almn78-e27039-d1e193">
+               <lb ed="#Bb"/>Secundum alios Sanctos qui aliter 
+      ex<lb ed="#Bb" break="no"/>ponunt opera sex dierum, cum dicitur,
+      <lb ed="#Bb"/>Fiat, significatur voluntas artificis 
+      facien<lb ed="#Bb" break="no"/>tis de faciendo. Cum dicitur, Fecit, signi
+      <pb ed="#Bb" n="572"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb" break="no"/>ficatur processus actus ab artifice in id
+      <lb ed="#Bb"/>quod facit. Psal. xcix, 3: Ipse fecit nos,
+      <lb ed="#Bb"/>et non ipsi nos. Cum dicitur, Factum est,
+      <lb ed="#Bb"/>significatur perfectio facti in seipso. In
+      <lb ed="#Bb"/>opere creationis utitur verbo creationis :
+      <lb ed="#Bb"/>quia in illo corpora simpliciter 
+      produ<lb ed="#Bb" break="no"/>cuntur ex nihilo. In opere distinctionis
+      <lb ed="#Bb"/>utitur hoc verbo, fad, et fecié : quia illud
+      <lb ed="#Bb"/>non fit ex nihilo, sed est determinatio
+      <lb ed="#Bb"/>proprie ad formam et ad locum: quod
+      <lb ed="#Bb"/>ex parte operis est proprie fieri, et ex
+      <lb ed="#Bb"/>parte artificis proprie est facere,
+    </p>
+            <p xml:id="Almn78-e27039-d1e235">
+               <lb ed="#Bb"/>Et quod dicit, Vidit Deus: dicit 
+      Au<lb ed="#Bb" break="no"/>gustinus, quod non est ita intelligendum,
+      <lb ed="#Bb"/>quod ante non viderit, quia quodlibet
+      ‘vidit ab eterno in seipso: sed secundum
+      <lb ed="#Bb"/>quod dicitur, quod nuntius amoris est
+      <lb ed="#Bb"/>oculus, et mulliplicatur adspectus, ideo
+      <lb ed="#Bb"/>dicitur: Vidit Deus lucem quod esset 
+      bo<lb ed="#Bb" break="no"/>na: et quod ante viderat in se 
+      facien<lb ed="#Bb" break="no"/>dum, hoc approbavit factum, ut dicit
+      <lb ed="#Bb"/>Augustinus : et lumen bonitatis sue 
+      im<lb ed="#Bb" break="no"/>misit ut maneret in esse. De quo dicit
+      <lb ed="#Bb"/>Boetius in IV de Consolatione 
+      philoso<lb ed="#Bb" break="no"/>phiz: <quote xml:id="Almn78-e27039-Qd1e263"> Esse est quod ordinem retinet 
+        ser<lb ed="#Bb" break="no"/>vatque naturam. </quote> Et propter hoc dicit
+      <lb ed="#Bb"/>Dionysius in libro de Divinis nominibus:
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e27039-Qd1e272">In idem determinat bonum et lumen'.</quote>
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Et dixit, quod lumen de quo in 
+      princi<lb ed="#Bb" break="no"/>pio dixit Deus: Fiat luz, fuit bonitas
+      <lb ed="#Bb"/>sua quam effudit super creaturam.
+    </p>
+            <p xml:id="Almn78-e27039-d1e285">
+               <lb ed="#Bb"/>In opere secunde diei non dicitur : 
+      Vi<lb ed="#Bb" break="no"/>dit Deus quod esset bonum, nec 
+      bene<lb ed="#Bb" break="no"/>dixit operi secunde diei. De quo 
+      Magi<lb ed="#Bb" break="no"/>ster in libro Il Sententiarum, dist. XIV,
+      <lb ed="#Bb"/>cap. Solet etiam queri. Et Beda in 
+      Glos<lb ed="#Bb" break="no"/>sa reddunt rationem mysticam, non 
+      na<lb ed="#Bb" break="no"/>turalem: dicentes, quod in hoc 
+      sacra<lb ed="#Bb" break="no"/>mentum aliquod commendatur, quod
+      <lb ed="#Bb"/>Deo scilicet tantum placet indivisibilitas
+      <lb ed="#Bb"/>unitatis in ecclesia, ut scilicet, sicut dicit
+      <lb ed="#Bb"/>Apostolas, ad Ephes. rv, 3: Solliciti 
+      ser<lb ed="#Bb" break="no"/>vare unitatem spiritus in vinculo pacis,
+      <lb ed="#Bb"/>quod operi secunde diei, eo quod 
+      bina<lb ed="#Bb" break="no"/>rius primus numerus est qui ab unitate
+      <lb ed="#Bb"/>recedit, benedicere noluit. Potest etiam
+      <lb ed="#Bb"/>dicit litteraliler, quod ideo non 
+      benedi<lb ed="#Bb" break="no"/>xit, quod opus secunde diei distinctio
+      <lb ed="#Bb"/>est supremi ab infimo, medii a 
+      supre<lb ed="#Bb" break="no"/>mo: et remanebat adhuc imperfectum
+      <lb ed="#Bb"/>opus distinctionis, eo quod exigebatur
+      <lb ed="#Bb"/>infimorum distinclio ab invicem, que
+      <lb ed="#Bb"/>facta est die tertia. Secunde ergo diei
+      <lb ed="#Bb"/>imperfecto opere non benedixit, sed diei
+      <lb ed="#Bb"/>tertia jam toto opere perfecto 
+      benedictio<lb ed="#Bb" break="no"/>nem dedit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

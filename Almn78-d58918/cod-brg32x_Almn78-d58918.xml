@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="264"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d58918"><!-- p2t5q22 -->
+            <head xml:id="Almn78-d58918-Hd1e106">Quaestio 22</head>
+            <head xml:id="Almn78-d58918-Hd1e109" type="question-title">
+      A quo Angelus malus ceciderit
+    </head>
+            <p xml:id="Almn78-d58918-d1e112">
+               <lb ed="#Bb"/>QUAESTIO XXII.
+      <lb ed="#Bb"/>A quo Angelus malus ceciderit?
+    </p>
+            <p xml:id="Almn78-d58918-d1e119">
+               <lb ed="#Bb"/>Deinde queritur, A quo cecidit?
+    </p>
+            <p xml:id="Almn78-d58918-d1e124">
+               <lb ed="#Bb"/>Et videtur, quod a gratia.
+      <lb ed="#Bb"/>1. Anselmus in libro II Cur Deus
+      <lb ed="#Bb"/>homo, sic dicit: <quote xml:id="Almn78-d58918-Qd1e132"> Rationalis natura ad
+        <lb ed="#Bb"/>hoc accepit potestatem discernendi, ut
+        <lb ed="#Bb"/>odisset et vitaret malum : ac amaret et
+        <lb ed="#Bb"/>diligeret bonum, et magis bonum magis
+        <lb ed="#Bb"/>diligeret, et maxime bonum maxime.
+        <lb ed="#Bb"/>Aliter namque frustra dedisset illi Deus
+        <lb ed="#Bb"/>potestatem hane discernendi, quia in va
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb" break="no"/>num discerneret, si secundum 
+        discretio<lb ed="#Bb" break="no"/>nem non amaret bonum, et vilaret 
+        ma<lb ed="#Bb" break="no"/>lum. </quote> Sed non convenit, ut Deus 
+      fru<lb ed="#Bb" break="no"/>stra potestatem dederit. Ad hoc itaque
+      <lb ed="#Bb"/>factam rationalem naturam certum est,
+      <lb ed="#Bb"/>ut summum bonum super omnia amaret
+      <lb ed="#Bb"/>et diligerer, non propter aliud, sed 
+      pro<lb ed="#Bb" break="no"/>pter ipsum. Sed hoc facere Angelus sine
+      <lb ed="#Bb"/>gratia non potuit : et cecidit a bono quod
+      <lb ed="#Bb"/>accepit : ergo cecidit a gratia.
+    </p>
+            <p xml:id="Almn78-d58918-d1e173">
+               <pb ed="#Bb" n="265"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>2. Adhuc, Anselmus, ibidem, <quote xml:id="Almn78-d58918-Qd1e181"> 
+        Ratio<lb ed="#Bb" break="no"/>nalis natura summum bonum summe
+        <lb ed="#Bb"/>amare non potuit nisi justa. </quote> Ut igitur
+      <lb ed="#Bb"/>frustra rationalis non sit, ad hoc 
+      rationa<lb ed="#Bb" break="no"/>lis et justa facta est. Sed justa non potuit
+      <lb ed="#Bb"/>esse nisi per gratiam : et cccidit a bono
+      <lb ed="#Bb"/>in quo fuit : ergo cecidit a gratia.
+    </p>
+            <p xml:id="Almn78-d58918-d1e198">
+               <lb ed="#Bb"/>3. Adhuc, Ibidem, Anselmus, <quote xml:id="Almn78-d58918-Qd1e202"> 
+        Quam<lb ed="#Bb" break="no"/>diu rationalis natura eligendo el amando
+        <lb ed="#Bb"/>bonum summum justa faciet, ad quod
+        <lb ed="#Bb"/>facta est misera erit, quia indigens erit,
+        <lb ed="#Bb"/>contra voluntalem non habendo quod
+        <lb ed="#Bb"/>desiderat. Gratia autem indiget ut 
+        sum<lb ed="#Bb" break="no"/>mum bonum summe amet. </quote> Ergo 
+      vide<lb ed="#Bb" break="no"/>tur, quod gratiam tunc habuit quando
+      <lb ed="#Bb"/>creata fuit : et cecidit a bono in quo
+      <lb ed="#Bb"/>fuit : ergo cecidit a bono gratie.
+    </p>
+            <p xml:id="Almn78-d58918-d1e225">
+               <lb ed="#Bb"/>4. Adhuc, Augustinus in libro HI 
+      sa<lb ed="#Bb" break="no"/>per Genesim ad litteram sic dicit
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-d58918-Qd1e233">Quemadmodum ratio qua creatura
+        <lb ed="#Bb"/>conditur, prior est in Verbo Dei quam
+        <lb ed="#Bb"/>ipsa que conditur : ita ejusdem rationis
+        <lb ed="#Bb"/>cognitio prius fit in creatura intellectuali,
+        <lb ed="#Bb"/>que peccato non obtenebrata est : ac
+        <lb ed="#Bb"/>deinde ipsa cognitio creature in genere
+        <lb ed="#Bb"/>proprio. Neque enim sicut nos ad 
+        perci<lb ed="#Bb" break="no"/>piendam sapientiam Dei proficiebant 
+        An<lb ed="#Bb" break="no"/>geli, ut invisibilia Dei per ea que facta
+        <lb ed="#Bb"/>sunt, intellecta, conspicerent * : qui ex
+        <lb ed="#Bb"/>quo creati sunt, ipsa verbi eternitate
+        <lb ed="#Bb"/>pia et sancta contemplatione 
+        perfruun<lb ed="#Bb" break="no"/>tur ?. </quote> Sed tali contemplatione non 
+      pot<lb ed="#Bb" break="no"/>erant perfrui sine gratia: ct ceciderunt a
+      <lb ed="#Bb"/>bono quod habuerunt : ergo 
+      cecide<lb ed="#Bb" break="no"/>runt a bonitateet Verbi contemplatione,
+    </p>
+            <p xml:id="Almn78-d58918-d1e270">
+               <lb ed="#Bb"/>5. Adhuc, Anselmus in libro de Casy
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>diaboli : <quote xml:id="Almn78-d58918-Qd1e278"> Prius Angelus habuit 
+        volun<lb ed="#Bb" break="no"/>tatem beatitudinis et justitiam et 
+        volun<lb ed="#Bb" break="no"/>tatem perseverandi in utroque. </quote> Et ab
+      <lb ed="#Bb"/>hoc cecidit diabolus : ergo cecidil a 
+      gra<lb ed="#Bb" break="no"/>tia.
+    </p>
+            <p xml:id="Almn78-d58918-d1e291">
+               <lb ed="#Bb"/>Contra :
+      <lb ed="#Bb"/>Augustinus in libro super Genesim
+      <lb ed="#Bb"/>ad litteram, super illud : Jn principio
+      <lb ed="#Bb"/>creavit Deus celum eé terram &gt;: dicit
+      <lb ed="#Bb"/>quod per ccelum intelligitur natura 
+      an<lb ed="#Bb" break="no"/>gelica informis, que postea cum 
+      dici<lb ed="#Bb" break="no"/>tur: Fiat luz, formata est, per 
+      conver<lb ed="#Bb" break="no"/>sionem ad Verbum. Sed si habuisset
+      <lb ed="#Bb"/>gratiam, informis esse non posset : ergo
+      <lb ed="#Bb"/>Angelus bonus ante confirmationem, et
+      <lb ed="#Bb"/>Angelus malus ante casum a gratia 
+      ca<lb ed="#Bb" break="no"/>dere non potuit.
+    </p>
+            <p xml:id="Almn78-d58918-d1e320">
+               <lb ed="#Bb"/>Solutio Dicendum, quod sicut supra
+      <lb ed="#Bb"/>notatum est *, circa hoc fuerunt due
+      <lb ed="#Bb"/>opiniones antiquorum. Quidam enim
+      <lb ed="#Bb"/>Angelos mox in creatione dixerunt simul
+      <lb ed="#Bb"/>accepisse naturam et gratiam,. Et 
+      secun<lb ed="#Bb" break="no"/>dum hos procedit prima pars 
+      objectio<lb ed="#Bb" break="no"/>num : et concedunt, quod a gratia 
+      ceci<lb ed="#Bb" break="no"/>derunt demones. Alii dixerunt, quod in
+      <lb ed="#Bb"/>solis naturalibus conditi sunt. Et illi
+      <lb ed="#Bb"/>dicunt, quod a bono naturali ceciderunt,
+      <lb ed="#Bb"/>quod est innocentia et innocentiz 
+      justi<lb ed="#Bb" break="no"/>tia : et non ceciderunt a gratia, nisi
+      <lb ed="#Bb"/>quam accepturi erant si stetissent.
+    </p>
+            <p xml:id="Almn78-d58918-d1e352">
+               <lb ed="#Bb"/>Sed de hoc plenius disputatum est
+      <lb ed="#Bb"/>superius, tract. 1V, questione, An im
+      <lb ed="#Bb"/>gratia creati sunt Angeli, et ibi 
+      requira<lb ed="#Bb" break="no"/>tur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 30</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 30</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="305"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a67189"><!-- p1t7q30 -->
+            <head xml:id="Almn78-a67189-Hd1e106">Quaestio 30</head>
+            <head xml:id="Almn78-a67189-Hd1e109" type="question-title">
+      De generatione Filii.
+    </head>
+            <p xml:id="Almn78-a67189-d1e112">
+               <pb ed="#Ba" n="305"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO XXX.
+<lb ed="#Ba"/>De generatione Filii.
+</p>
+            <div xml:id="Almn78-a67189-Dd1e123">
+               <head xml:id="Almn78-a67189-Hd1e125">Membrum 1</head>
+               <head xml:id="Almn78-a67189-Hd1e128" type="question-title">
+  Utrum in divinis sit generatio
+</head>
+               <p xml:id="Almn78-a67189-d1e131">
+                  <lb ed="#Ba"/>MEMBRUM I
+<lb ed="#Ba"/>Utrum in divinis sit generatio?
+</p>
+               <p xml:id="Almn78-a67189-d1e138">
+                  <lb ed="#Ba"/>Primo ergo queritur, An in divinis
+<lb ed="#Ba"/>sit generatio ?
+</p>
+               <p xml:id="Almn78-a67189-d1e145">
+                  <lb ed="#Ba"/>Probant enim quidam Philosophorum,
+<lb ed="#Ba"/>quod generatio non potest esse in 
+di<lb ed="#Ba" break="no"/>vinis.
+</p>
+               <p xml:id="Almn78-a67189-d1e155">
+                  <lb ed="#Ba"/>1. Generatio enim non est nisi in his
+<lb ed="#Ba"/>in quibus divinum bonum in uno non
+<lb ed="#Ba"/>est perfectum, et nititur naturam tenere
+<lb ed="#Ba"/>in successione multorum, quod in uno
+<lb ed="#Ba"/>simul et totum possidere non potest :
+<lb ed="#Ba"/>propter quod generatio motus est. In
+<lb ed="#Ba"/>esse autem divino in uno totum esse
+<lb ed="#Ba"/>divinum possessum est, et perfectissimo
+<lb ed="#Ba"/>modo, ut in questione de e#xternitate
+<lb ed="#Ba"/>probatum est *. Ergo in divinis generatio
+<lb ed="#Ba"/>esse non potest.
+</p>
+               <p xml:id="Almn78-a67189-d1e181">
+                  <lb ed="#Ba"/>2. Adhuc, Quod omnino et penitus
+<lb ed="#Ba"/>actus est, nullo modo in potentia esse
+<lb ed="#Ba"/>potest. Ens divinum omnino et penitus
+<lb ed="#Ba"/>actus est et primus, Ergo nullo modo
+<lb ed="#Ba"/>potest esse in potentia. In omni 
+gene<lb ed="#Ba" break="no"/>ratione generantis aliquid in potentia
+<lb ed="#Ba"/>est. Ergo in divinis generatio esse nullo
+<lb ed="#Ba"/>modo potest.
+</p>
+               <p xml:id="Almn78-a67189-d1e201">
+                  <lb ed="#Ba"/>3. Adhuc, In omni generatione gene-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>rantis natura divisibilis est. Ens divinum
+<lb ed="#Ba"/>penitus indivisibile est. Ergo ens 
+divi<lb ed="#Ba" break="no"/>num generationis susceptibile non est.
+</p>
+               <p xml:id="Almn78-a67189-d1e214">
+                  <lb ed="#Ba"/>4. Adhuc, Tres sunt cause assignate
+<lb ed="#Ba"/>a Philosophis, propter quas aliquid 
+in<lb ed="#Ba" break="no"/>generabile est, scilicet si immobile est :
+<lb ed="#Ba"/>si id quod est in ipso, indivisibile est :
+<lb ed="#Ba"/>et si est ex materia sua tota. Et hoc 
+ul<lb ed="#Ba" break="no"/>timum exponitur a Philosophis, si totum
+<lb ed="#Ba"/>illud in quo possibile est formam suam
+<lb ed="#Ba"/>esse, intra ipsum est. Hac omnia tria
+<lb ed="#Ba"/>conveniunt in esse divino : hoc enim
+<lb ed="#Ba"/>immobile est, hoc est id quod 
+indivisi<lb ed="#Ba" break="no"/>bile est, et totum in quo possibile est
+<lb ed="#Ba"/>formam divinam esse, intra ipsum est.
+<lb ed="#Ba"/>Ergo generationis susceptibile non est.
+<lb ed="#Ba"/>Exemplum primi secundum 
+Philoso<lb ed="#Ba" break="no"/>phos, est causa prima que re immobilis
+<lb ed="#Ba"/>est, et movens sicut immobile. 
+Exem<lb ed="#Ba" break="no"/>plum secundi est intelligentia secundum
+<lb ed="#Ba"/>Philosophos, et Angeli secundum 
+Theo<lb ed="#Ba" break="no"/>logos, in quibus licet sit quod est et quo
+<lb ed="#Ba"/>est, tamen quia quod est indivisibile est,
+<lb ed="#Ba"/>generationem non suscipiunt nec 
+Ange<lb ed="#Ba" break="no"/>lus nec intelligentia. Exemplum tertii
+<lb ed="#Ba"/>est sol et cetera celestia, que licet 
+mo<lb ed="#Ba" break="no"/>bilia sint, tamen quia sunt ex materia
+<lb ed="#Ba"/>sua tota, et totum in quo possibile est
+<lb ed="#Ba"/>esse formam, intra est, generationem
+<lb ed="#Ba"/>non suscipiunt.
+</p>
+               <p xml:id="Almn78-a67189-d1e275">
+                  <lb ed="#Ba"/>5. Adhuc, Videtur quod generatio 
+re<lb ed="#Ba" break="no"/>pugnet rationi divini esse. Generatio
+<lb ed="#Ba"/>enim, ut dicit Philosophus in II 
+Physi<lb ed="#Ba" break="no"/>corum, est via de non esse in esse. Et
+<pb ed="#Ba" n="306"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>hoc repugnat divino esse. Si enim illud
+<lb ed="#Ba"/>de non esse venit in esse, jam non est
+<lb ed="#Ba"/>esse divinum : sequitur enim, quod non
+<lb ed="#Ba"/>sit purum et primum.
+</p>
+               <p xml:id="Almn78-a67189-d1e299">
+                  <lb ed="#Ba"/>Istis rationibus et similibus quidam
+<lb ed="#Ba"/>philosophantes negant generationem esse
+<lb ed="#Ba"/>in divinis.
+</p>
+               <p xml:id="Almn78-a67189-d1e309">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Generatio communicatio est 
+natu<lb ed="#Ba" break="no"/>re :illi ergo maxime convenit, quod
+<lb ed="#Ba"/>maxime communicabilis nature est : sed
+<lb ed="#Ba"/>summum bonum maxime 
+communica<lb ed="#Ba" break="no"/>tivum est sui, ut in prehabitis 
+proba<lb ed="#Ba" break="no"/>tum est : ergo sibi maxime convenit 
+ge<lb ed="#Ba" break="no"/>neratio. Hujus probatio est quod dicit
+<lb ed="#Ba"/>Dionysius in libro de Divinis nominibus,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a67189-Qd1e332"> exstasis amoris summi boni non
+<lb ed="#Ba"/>sinit ipsum sine germine esse’. </quote> 
+Ger<lb ed="#Ba" break="no"/>minare autem generare est.
+</p>
+               <p xml:id="Almn78-a67189-d1e341">
+                  <lb ed="#Ba"/>2. Si forte aliquis dicat, quod divinum
+<lb ed="#Ba"/>generat equivoce, in diversitate forme
+<lb ed="#Ba"/>scilicet et nature. Contra : Ex quo
+<lb ed="#Ba"/>generatio est communicabilis nature
+<lb ed="#Ba"/>diffusio, et hac est actus boni ipsius,
+<lb ed="#Ba"/>sicut prehabitum est, quod boni est
+<lb ed="#Ba"/>bona adducere, et optimi optima, 
+conse<lb ed="#Ba" break="no"/>quens est, quod optima nature 
+commu<lb ed="#Ba" break="no"/>nicabili optima attribuitur 
+communica<lb ed="#Ba" break="no"/>tio : haec autem est per generationem
+<lb ed="#Ba"/>univocam : Deo ergo secundum 
+natu<lb ed="#Ba" break="no"/>ram attribuetur generatio univoca.
+</p>
+               <p xml:id="Almn78-a67189-d1e370">
+                  <lb ed="#Ba"/>3. Adhuc, Constat, quod in tota 
+na<lb ed="#Ba" break="no"/>tura corruptibilium et incorruptibilium,
+<lb ed="#Ba"/>boni proprius actus est communicare
+<lb ed="#Ba"/>esse et bonum per diffusionem. Hoc
+<lb ed="#Ba"/>enim videmus in intelligentiis per 
+influ<lb ed="#Ba" break="no"/>xionem superiorum in inferiora. Hoc
+<lb ed="#Ba"/>videmus in Angelis per purgationem,
+<lb ed="#Ba"/>illuminationem, et perfectionem. Hoc
+<lb ed="#Ba"/>videmus in stellis per applicationem 
+in<lb ed="#Ba" break="no"/>ferioris ad superiorem ut formetur ab
+<lb ed="#Ba"/>ipsa, et,quasi conceptio luminis 
+supe<lb ed="#Ba" break="no"/>rioris ad boni diffusionem impregnetur.
+<lb ed="#Ba"/>Et videmus hoc in generabilibus, in 
+qui<lb ed="#Ba" break="no"/>bus bonum nature per generationem
+<lb ed="#Ba"/>diffunditur. Quod ergo sic generaliter
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>est in omnibus proportionabiliter 
+uni<lb ed="#Ba" break="no"/>cuique inherens, secundum doctrinam
+<lb ed="#Ba"/>Aristotelis in secundo primx 
+philoso<lb ed="#Ba" break="no"/>phiae, oportet quod sit in uno primo
+<lb ed="#Ba"/>quod sit causa et exemplar omnium
+<lb ed="#Ba"/>aliorum. Est autem probatum in 
+phi<lb ed="#Ba" break="no"/>losophia, quod xquivocum non potest
+<lb ed="#Ba"/>esse primum, oportet ergo quod primo,
+<lb ed="#Ba"/>quod causa generationis est omnis et
+<lb ed="#Ba"/>exemplar, attribuatur generatio 
+univo<lb ed="#Ba" break="no"/>ca.
+  
+<lb ed="#Ba"/>4. Hoe expresse vult Dionysius in 
+li<lb ed="#Ba" break="no"/>bro de Divinis nominibus2, tractans
+<lb ed="#Ba"/>illud Apostoli ad Ephes, ur, 14 et 13:
+<lb ed="#Ba"/>Hujus rei gratia flecto genua mea ad
+<lb ed="#Ba"/>Patrem Domini nostri Jesu Christi, ex
+<lb ed="#Ba"/>quo omnis paternitas in celis et in terra
+<lb ed="#Ba"/>nominatur. Dicit enim, quod ex hoc
+<lb ed="#Ba"/>accipitur, quod <quote xml:id="Almn78-a67189-Qd1e448"> omnis paternitas et
+<lb ed="#Ba"/>omnis filiatio, ex qua et deorum patres
+<lb ed="#Ba"/>et deorum filii, sive in ccelo, sive in
+<lb ed="#Ba"/>terra, est ex patriarchia et filiarchia 
+om<lb ed="#Ba" break="no"/>nibus preposita. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e460">
+                  <lb ed="#Ba"/>5. Hoc expresse probatur per illud
+<lb ed="#Ba"/>Isaie, txvi1, 9: Siego qui generationem
+<lb ed="#Ba"/>ceteris tribuo, sterilis ero? ait 
+Domi<lb ed="#Ba" break="no"/>nus Deus tuus.
+</p>
+               <p xml:id="Almn78-a67189-d1e471">
+                  <lb ed="#Ba"/>6. Adhuc Aristoteles in quinto primx
+<lb ed="#Ba"/>philosophie dicit, quod <quote xml:id="Almn78-a67189-Qd1e477"> natura est
+<lb ed="#Ba"/>ex qua pullulat pullulans. </quote> Vis ergo
+<lb ed="#Ba"/>principalis nature et generalis pullulare
+<lb ed="#Ba"/>est : hanc enim accipit a prima omnium
+<lb ed="#Ba"/>et generali causa. Oportet igitur, quod
+<lb ed="#Ba"/>haec vis sit in causa prima. Quod enim
+<lb ed="#Ba"/>dicit philosophus in libro de Causis,
+<lb ed="#Ba"/>quod secunda causa, et quod est, et
+<lb ed="#Ba"/>causa est, habet a prima causa, 
+genera<lb ed="#Ba" break="no"/>liter verum est in omni causarum 
+ordi<lb ed="#Ba" break="no"/>ne. Vis ergo pullulandi unum ex alio 
+se<lb ed="#Ba" break="no"/>cundum analogiam sibi convenientem
+<lb ed="#Ba"/>erit in Deo qui causa prima est. Et 
+prop<lb ed="#Ba" break="no"/>ter hoc est, quod Dionysius in libro de
+<lb ed="#Ba"/>Divinis nominibus, Filium et Spiritum
+<lb ed="#Ba"/>sanctum vocat divinos flores, et divina
+<lb ed="#Ba"/>luminaria : quia ex Patre pullulant ut
+<lb ed="#Ba"/>flores et lumina. Unde etiam Boetius
+<pb ed="#Ba" n="307"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dicit, quod <quote xml:id="Almn78-a67189-Qd1e523"> natura est vis insita rebus,
+<lb ed="#Ba"/>ex similibus similia procreans. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e529">
+                  <lb ed="#Ba"/>7. Adhuc, Philosophus, <quote xml:id="Almn78-a67189-Qd1e533"> 
+Unumquod<lb ed="#Ba" break="no"/>que perfectum dicimus, cum potest 
+fa<lb ed="#Ba" break="no"/>cere alterum quale ipsum est. </quote> Si hoc
+<lb ed="#Ba"/>est actus et signum perfecti, ‘attribuetur
+<lb ed="#Ba"/>summe perfecto maxime quod est Deus :
+<lb ed="#Ba"/>non autem facit tale alterum quale ipsum
+<lb ed="#Ba"/>ost nisi per generationem :] ergo Deo
+<lb ed="#Ba"/>convenit generare.
+</p>
+               <p xml:id="Almn78-a67189-d1e553">
+                  <lb ed="#Ba"/>Sotvtio. Dicendum, quod in creaturis
+<lb ed="#Ba"/>duplex est generatio : materialis, et
+<lb ed="#Ba"/>formalis. Materialis est cum motu, et
+<lb ed="#Ba"/>est finis motus et forma semper, et est
+<lb ed="#Ba"/>cum divisione materie, que potentia
+<lb ed="#Ba"/>est ad formam : et ideo est exitus de
+<lb ed="#Ba"/>potentia ad actum, et de non esse ad
+<lb ed="#Ba"/>esse, nec convenit alicui, nisi ei in quo
+<lb ed="#Ba"/>divisibile est id quod est, et quod non
+<lb ed="#Ba"/>est ex materia sua tota. Et talis nullo
+<lb ed="#Ba"/>modo est in divinis, nec potest esse.
+<lb ed="#Ba"/>Formalis autem duplex est, scilicet 
+crea<lb ed="#Ba" break="no"/>ture corporalis, et ‘creature spiritualis.
+<lb ed="#Ba"/>Creature: corporalis, ‘sicut}videmus 
+lu<lb ed="#Ba" break="no"/>cem in corpore luminoso quod est sol,
+<lb ed="#Ba"/>ex se gignere globos lucis et radios,
+<lb ed="#Ba"/>quorum 'globorum quilibet tantus est,
+<lb ed="#Ba"/>quantus est 7sol, quos ex se gignit sine
+<lb ed="#Ba"/>sul divisione et mutatione : et formaliter
+<lb ed="#Ba"/>cjusdem sunt essentie lucis cum sole.
+<lb ed="#Ba"/>amen quia procedendo a sole distant
+<lb ed="#Ba"/>ab ipso, pyramidaliter enim descendunt
+<lb ed="#Ba"/>et illuminant hemispherium, aliquam
+<lb ed="#Ba"/>similitudinem habent cum? generatione
+<lb ed="#Ba"/>divina, sed non perfectam. In divinis
+<lb ed="#Ba"/>enim Pater est in Filio, et Filius in
+<lb ed="#Ba"/>Patre per unitatem essentie, nec aliqua
+<lb ed="#Ba"/>distantia potest esse inter eos. In hoc
+<lb ed="#Ba"/>tamen aliqua similitudo est, quod sine
+<lb ed="#Ba"/>sui mutatione et divisione tantos ex se
+<lb ed="#Ba"/>gignit globos lucis, quantus ipse est sol,
+<lb ed="#Ba"/>ct quod globus genitus ex sole coevus
+<lb ed="#Ba"/>est soli, et quod inter generantem solem
+<lb ed="#Ba"/>ct genitum globum non est spatium,
+<lb ed="#Ba"/>quo alter sit prior altero, sed tantum
+<lb ed="#Ba"/>ordo nature, quo alter ex altero, hoc
+<lb ed="#Ba"/>est, globus ex globo.
+</p>
+               <p xml:id="Almn78-a67189-d1e636">
+                  <lb ed="#Ba"/>In creatura autem spirituali duplex
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>attenditur generatio, scilicet secundum
+<lb ed="#Ba"/>intellectum possibilem, et secundum 
+in<lb ed="#Ba" break="no"/>tellectum agentem, Secundum 
+intelle<lb ed="#Ba" break="no"/>cium possibilem fit generatio in ipsum
+<lb ed="#Ba"/>intellectum possibilem. Per hoc enim
+<lb ed="#Ba"/>quod forma efficitur in lumine 
+intelle<lb ed="#Ba" break="no"/>ctus agentis per abstractionem, 
+genera<lb ed="#Ba" break="no"/>tur in possibili intellectu : sicut forma
+<lb ed="#Ba"/>visibilis in actu lucis accepta, generatur
+<lb ed="#Ba"/>in visu. Et talis generatio quamvis sine
+<lb ed="#Ba"/>motu sit proprie loquendo, et sit tota
+<lb ed="#Ba"/>formalis, eo quod receptio possibilis
+<lb ed="#Ba"/>intellectus non est receptio materi, ut
+<lb ed="#Ba"/>dicit Aristoteles contra Theophrastum
+<lb ed="#Ba"/>disputans, tamen quia est ex alio 
+quo<lb ed="#Ba" break="no"/>dam agente in aliud, non habet 
+simili<lb ed="#Ba" break="no"/>tudinem cum divina generatione. Ea
+<lb ed="#Ba"/>autem generatio que est secundum
+<lb ed="#Ba"/>intellectum agentem, duplex est. Est
+<lb ed="#Ba"/>enim agens imperfectum, et agens ex
+<lb ed="#Ba"/>seipso perfectum. Agens imperfectum
+<lb ed="#Ba"/>est, quod non agit nisi secundum 
+virtu<lb ed="#Ba" break="no"/>tem quam per inventionem et 
+doctri<lb ed="#Ba" break="no"/>nam, et generationem et augmentum
+<lb ed="#Ba"/>accipit in ipso : sicut est activus 
+intel<lb ed="#Ba" break="no"/>lectus in nobis, qui per artem agit,
+<lb ed="#Ba"/>quam per inventionem et doctrinam et
+<lb ed="#Ba"/>studium et generationem et augmentum
+<lb ed="#Ba"/>accipit. Et hoc etiam quia aliena virtute
+<lb ed="#Ba"/>fit et quasi forma aliena generata in
+<lb ed="#Ba"/>agente, habet quidem aliquam 
+similitu<lb ed="#Ba" break="no"/>dinem cum divina generatione, sed non
+<lb ed="#Ba"/>perfectam. Et ideo in Glossa super 
+prin<lb ed="#Ba" break="no"/>cipium Joannis, tam Augustinus quam
+<lb ed="#Ba"/>Beda ad generationem Verbi ponunt 
+si<lb ed="#Ba" break="no"/>militudinem de forma arce, que ex
+<lb ed="#Ba"/>mente generatur artificis, et vivit in
+<lb ed="#Ba"/>ipsa.
+</p>
+               <p xml:id="Almn78-a67189-d1e725">
+                  <lb ed="#Ba"/>Et est generatio secundum intellectum
+<lb ed="#Ba"/>agentem qui est ex seipso, et lumine
+<lb ed="#Ba"/>essentiali suo profert formas quas pro 
+<lb ed="#Ba" break="no"/>ducit in actum et in opus, que 
+forma<lb ed="#Ba" break="no"/>tz ex ipso et indistanter in ipso 
+accep<lb ed="#Ba" break="no"/>te, sunt omnium que operantur rationes
+<lb ed="#Ba"/>indistantes ab ipso per essentiam et lo=
+<lb ed="#Ba"/>cum, et tamen formate ex ipso et sibi
+<lb ed="#Ba"/>coequeve et coessentiales. Et haec 
+ge<lb ed="#Ba" break="no"/>neratio inter omnia majorem 
+similitudi<lb ed="#Ba" break="no"/>nem habet cum divina generatione,
+<pb ed="#Ba" n="308"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>quamvis non perfectam : eo quod in
+<lb ed="#Ba"/>creaturis nihil perfecte simile invenitur
+<lb ed="#Ba"/>creatori. Et ad hoc respiciens Plato,
+<lb ed="#Ba"/>posuit paternum intellectum, et formam
+<lb ed="#Ba"/>ex ipso formatam dixit esse archetypum
+<lb ed="#Ba"/>ad omne opus ejus. Non enim negari
+<lb ed="#Ba"/>potest, quin formatum ex intellectu 
+dis<lb ed="#Ba" break="no"/>tinctum sit ab ipso relatione originis :
+<lb ed="#Ba"/>et cum non formetur nisi ab ipso, negari
+<lb ed="#Ba"/>non potest quin sit coessentiale et 
+indi<lb ed="#Ba" break="no"/>stans ab ipso. Et ad hoc videtur 
+respi<lb ed="#Ba" break="no"/>cere Augustinus, dicens quod <quote xml:id="Almn78-a67189-Qd1e781"> Filius
+<lb ed="#Ba"/>est ars Patris plena ratione omnium 
+vi<lb ed="#Ba" break="no"/>ventium. </quote> Non enim dicitur plena 
+ra<lb ed="#Ba" break="no"/>tione, nisi quia in ipsa sunt rationes
+<lb ed="#Ba"/>operum. Nec dicuntur viventes, nisi quia
+<lb ed="#Ba"/>sunt vita Patris. Nobilissima enim vita
+<lb ed="#Ba"/>est intelligere, et maxime intelligere 
+se<lb ed="#Ba" break="no"/>cundum universaliter agentem 
+intelle<lb ed="#Ba" break="no"/>ctum. Ad hoc etiam respiciens 
+Augu<lb ed="#Ba" break="no"/>stinus, exponens illud Genesis, 1, 3 :
+<lb ed="#Ba"/>Dixit Deus: Fiat lux : sic dicit, Dixit,
+<lb ed="#Ba"/>hoc est, Verbum genuit, in quo erat ut
+<lb ed="#Ba"/>fieret. Dicit enim Damascenus, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a67189-Qd1e812"> verbum dividitur in endiadentum, hoc
+<lb ed="#Ba"/>est, interius dispositum sermonem, et
+<lb ed="#Ba"/>in verbum prolatum exterius, quod est
+<lb ed="#Ba"/>augelus, sive nuntius intelligentiae ‘. </quote>
+                  <lb ed="#Ba"/>Verbum igitur interius dispositum et
+<lb ed="#Ba"/>ex intellectu agente formatum, 
+proce<lb ed="#Ba" break="no"/>dens et generatum ab intellectu, 
+similio<lb ed="#Ba" break="no"/>rem habet inter omnia generationem
+<lb ed="#Ba"/>cum generalione divina : non tamen
+<lb ed="#Ba"/>idem est omnino, vel perfecte simile,
+<lb ed="#Ba"/>sicut patebit in sequentibus. Et ideo 
+di<lb ed="#Ba" break="no"/>cit <ref xml:id="Almn78-a67189-Rd1e838">Augustinus in libro VI de Trinitate</ref>,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a67189-Qd1e844"> eo est verbum quo est Filius, et
+<lb ed="#Ba"/>eo Filius quo verbum ?</quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e850">
+                  <lb ed="#Ba"/>His waviris, planum est respondere
+<lb ed="#Ba"/>objectis.
+</p>
+               <p xml:id="Almn78-a67189-d1e857">
+                  <lb ed="#Ba"/>Quod enim in divinis sit generatio et
+<lb ed="#Ba"/>perfectissima et prima, concedendum
+<lb ed="#Ba"/>est.
+</p>
+               <p xml:id="Almn78-a67189-d1e866">
+                  <lb ed="#Ba"/>Et rationes ad hoc inducte procedunt
+<lb ed="#Ba"/>de necessitate, ex modog quo dicit 
+Ansel<lb ed="#Ba" break="no"/>mus, quod <quote xml:id="Almn78-a67189-Qd1e874"> omne conveniens Deo, est
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>necessarium : et omne inconveniens, 
+im<lb ed="#Ba" break="no"/>possibile, </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e885">
+                  <lb ed="#Ba"/>Prima autem philosophica argumenta
+<lb ed="#Ba"/>quinque non removent ab esse divino,
+<lb ed="#Ba"/>nisi materialem generationem que cum
+<lb ed="#Ba"/>motu est et materia: et hec generatio
+<lb ed="#Ba"/>imperfecta est,et imperfecti actus. Et hac
+<lb ed="#Ba"/>difinitur in II Physicorum. Generatio
+<lb ed="#Ba"/>autem secundum quod est actus 
+perfectis<lb ed="#Ba" break="no"/>simi communicantis bonum nature quod
+<lb ed="#Ba"/>est in ipso, per illa argumenta non 
+re<lb ed="#Ba" break="no"/>movetur a Deo: quinimo maxime 
+con<lb ed="#Ba" break="no"/>venit Deo et primo. Non enim, sicut 
+di<lb ed="#Ba" break="no"/>cit Philosophus, motus esset actus 
+im<lb ed="#Ba" break="no"/>perfecti et imperfectus, nisi prius natura
+<lb ed="#Ba"/>ratione, et tempore esset actus perfectus
+<lb ed="#Ba"/>et perfecti. Est enim actus moventis prius,
+<lb ed="#Ba"/>quam mobilis. Et similiter generatio non
+<lb ed="#Ba"/>posset esse actus imperfecti, nisi prius
+<lb ed="#Ba"/>natura, ratione,.et tempore esset actus
+<lb ed="#Ba"/>perfectissimi.
+</p>
+               <p xml:id="Almn78-a67189-d1e929">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+            </div>
+            <div xml:id="Almn78-a67189-Dd1e935">
+               <head xml:id="Almn78-a67189-Hd1e937">Membrum 2</head>
+               <head xml:id="Almn78-a67189-Hd1e940" type="question-title">
+  Qualis sit generatio in divinis 
+</head>
+               <p xml:id="Almn78-a67189-d1e943">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Qualis sit generatio in divinis ?
+</p>
+               <p xml:id="Almn78-a67189-d1e950">
+                  <lb ed="#Ba"/>Secundo queritur, Si in divinis est
+<lb ed="#Ba"/>generatio, qualis sit illa generatio?
+</p>
+               <p xml:id="Almn78-a67189-d1e957">
+                  <lb ed="#Ba"/>Et videtur per prehabita, quod sit 
+ta<lb ed="#Ba" break="no"/>lis, qualis est generatio prime 
+intelligen<lb ed="#Ba" break="no"/>tia agentis per seipsam et ex seipsa.
+</p>
+               <p xml:id="Almn78-a67189-d1e967">
+                  <lb ed="#Ba"/>1. Hoc enim intelligitur in principio 
+Jo<lb ed="#Ba" break="no"/>annis, 1, 4: <quote xml:id="Almn78-a67189-Qd1e973">In principio erat Verbum</quote>. Ibi
+<lb ed="#Ba"/>enim, ut dicit Chrysostomus, per 
+princi<lb ed="#Ba" break="no"/>ptum intelligitur intellectus prime cause
+<lb ed="#Ba"/>et Patris. Ile autem intellectus cum 
+in<lb ed="#Ba" break="no"/>telligit se, speciem suam, et 
+similitudi<lb ed="#Ba" break="no"/>nem indistantem et perfectam, et 
+imagi<lb ed="#Ba" break="no"/>nem per omnia similem et coequalem
+<lb ed="#Ba"/>et coessentialem formando et 
+principian<lb ed="#Ba" break="no"/>do producit seipso et in seipso. Hee au
+<pb ed="#Ba" n="309"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>tom generatio Filii est, ut dicit 
+Chryso<lb ed="#Ba" break="no"/>stomus. Ergo generatio eterna non est
+<lb ed="#Ba"/>nisi generatio prime intelligentia, 
+quan<lb ed="#Ba" break="no"/>do endiadento ad seipsam conversa, 
+prin<lb ed="#Ba" break="no"/>cipiat et format ex seipsa.
+</p>
+               <p xml:id="Almn78-a67189-d1e1010">
+                  <lb ed="#Ba"/>2. Adhuc, De tali generatione Verbi
+<lb ed="#Ba"/>dicitur, Joan. 1,3: Omnia per ipsum
+<lb ed="#Ba"/>facta sunt, et sine ipso factum est nihil
+<lb ed="#Ba"/>quod factum est. Nullum autem est quod
+<lb ed="#Ba"/>sit ars et virtas ad omnia facienda, nisi
+<lb ed="#Ba"/>solum endiadentum prime intelligentie.
+<lb ed="#Ba"/>In sola ergo tali generatione distinctum
+<lb ed="#Ba"/>profertur verbum, quod est Filium 
+gene<lb ed="#Ba" break="no"/>rari a Patre, ut dicunt Chrysostomus et
+<lb ed="#Ba"/>Augustinus. Propter quod etiam 
+Augu<lb ed="#Ba" break="no"/>stinus dicit, quod <quote xml:id="Almn78-a67189-Qd1e1036"> Filius est forma qua
+<lb ed="#Ba"/>facta sunt omnia. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e1042">
+                  <lb ed="#Ba"/>3. Adhuc, Idem Joannes 1, 4, dicit,
+<lb ed="#Ba"/>quod que facta sunt, in ipso Verbo sunt
+<lb ed="#Ba"/>vita et lux ‘. Nullum autem est verbum,
+<lb ed="#Ba"/>in quo omnia sint vita et lux, nisi quod
+<lb ed="#Ba"/>procedit ex intelligentia prima et causa
+<lb ed="#Ba"/>prima. In illa enim omnia splendent 
+ra<lb ed="#Ba" break="no"/>tione veritatis, et omnia vivunt ratione
+<lb ed="#Ba"/>vite intellectualis. Ergo generatio 
+eter<lb ed="#Ba" break="no"/>na talis intellectus, intellectualis est verbi
+<lb ed="#Ba"/>formatio et productio.
+</p>
+               <p xml:id="Almn78-a67189-d1e1066">
+                  <lb ed="#Ba"/>4, Adhuc, Hee sola intelligentia que
+<lb ed="#Ba"/>prima est omnium, et causa prima, sic
+<lb ed="#Ba"/>speciem suam et similitudinem 
+simplici<lb ed="#Ba" break="no"/>ter format ex seipsa,etin nullo distat a
+<lb ed="#Ba"/>scipsa. Omnis autem alia intelligentia
+<lb ed="#Ba"/>cujuscumque ordinis, sive humani, sive
+<lb ed="#Ba"/>ceelestis, ex se similitudinem non format,
+<lb ed="#Ba"/>nisi per influentiam luminis superioris :
+<lb ed="#Ba"/>et sic inclinata ad aliud distat a seipsa.
+<lb ed="#Ba"/>Generatio ergo eterna non est aliud, nisi
+<lb ed="#Ba"/>primam essentiam intellectualem sic 
+in<lb ed="#Ba" break="no"/>tellectualiter ex seipsa producere speciem
+<lb ed="#Ba"/>et similitudinem. .
+</p>
+               <p xml:id="Almn78-a67189-d1e1097">
+                  <lb ed="#Ba"/>5. Si forte quis dicat, quod talis 
+intel<lb ed="#Ba" break="no"/>lectualis speciei et similitudinis ab 
+intelli<lb ed="#Ba" break="no"/>gentia processio, per similitudinem 
+ap<lb ed="#Ba" break="no"/>propriabilis est divine generationi, sed
+<lb ed="#Ba"/>non est ipsa. Contra : Istud est primum
+<lb ed="#Ba"/>quod intelligi potest in processibus qui
+<lb ed="#Ba"/>fiunt a prima intelligentia agente. Ergo
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>non est appropriabile ad aliud, sed alia
+<lb ed="#Ba"/>possunt ad ipsum appropriari. Primum
+<lb ed="#Ba"/>enim necesse est, quod sit proprium,
+<lb ed="#Ba"/>et non appropriatum. Omne enim
+<lb ed="#Ba"/>appropriatum ante se ponit proprium
+<lb ed="#Ba"/>secundum intellectum : omnis enim 
+ap<lb ed="#Ba" break="no"/>propriatio fit per convenientiam ad 
+pro<lb ed="#Ba" break="no"/>prium. Videtur ergo, quod generatio 
+di<lb ed="#Ba" break="no"/>vina non sit aliud, quam tallis processio
+<lb ed="#Ba"/>speciei et similitudinis ab intelligentia
+<lb ed="#Ba"/>agente, que est omnium prima et 
+uni<lb ed="#Ba" break="no"/>versalis causa.
+</p>
+               <p xml:id="Almn78-a67189-d1e1143">
+                  <lb ed="#Ba"/>6. Adhuc, Hoc videtur ex verbis 
+An<lb ed="#Ba" break="no"/>selmiin Monologio. Dicit enim, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a67189-Qd1e1151">essentia prima cum intelligit se, dicit
+<lb ed="#Ba"/>se.</quote> Et intelligentiam divinam dicere
+<lb ed="#Ba"/>se, est, Patrem generare, et Filium 
+ge<lb ed="#Ba" break="no"/>nerari.
+</p>
+               <p xml:id="Almn78-a67189-d1e1163">
+                  <lb ed="#Ba"/>7. Hoc etiam videtur sentire 
+Augusti<lb ed="#Ba" break="no"/>nus in libro super Genesim ad litteram.
+<lb ed="#Ba"/>Dicit enim, quod <quote xml:id="Almn78-a67189-Qd1e1171"> Deum dicere verbum,
+<lb ed="#Ba"/>est Patrem generare Filium. </quote> Et 
+con<lb ed="#Ba" break="no"/>stat, quod nonloquitur de dictione 
+ex<lb ed="#Ba" break="no"/>teriori et corporali, sed spirituali et 
+in<lb ed="#Ba" break="no"/>tellectuali que est in verbo, quod 
+endia<lb ed="#Ba" break="no"/>dentum dicitur.
+</p>
+               <p xml:id="Almn78-a67189-d1e1186">
+                  <lb ed="#Ba"/>In contrarium est, quod
+<lb ed="#Ba"/>1. Intelligere in divinis non dicit nisi
+<lb ed="#Ba"/>essentiam, et absolutum est secundum
+<lb ed="#Ba"/>intellectum : generatio fit secundum 
+in<lb ed="#Ba" break="no"/>tellectum relativum et ad aliquid 
+di<lb ed="#Ba" break="no"/>ctum : ergo generatioin divinis, nec est
+<lb ed="#Ba"/>intelligere se, nec dicere se.
+</p>
+               <p xml:id="Almn78-a67189-d1e1204">
+                  <lb ed="#Ba"/>2. Adhuc, Intelligens sic intelligit seip-
+<lb ed="#Ba" break="no"/>sum ut dicit seipsum. Nihil sive in Deo
+<lb ed="#Ba"/>sive in creaturis generat seipsum, ut 
+di<lb ed="#Ba" break="no"/>cit Augustinus, nec hoc potest intelligi,
+<lb ed="#Ba"/>quod aliquid generet seipsum. Ergo sic
+<lb ed="#Ba"/>intelligere vel dicere non est. generare.
+</p>
+               <p xml:id="Almn78-a67189-d1e1220">
+                  <lb ed="#Ba"/>5. Adhuc, Qualibet persona sic 
+intel<lb ed="#Ba" break="no"/>ligit se et alias : solus autem Pater 
+gene<lb ed="#Ba" break="no"/>rat Filium: ergo sic intelligere vel sic
+<lb ed="#Ba"/>dicere non est generare.
+</p>
+               <p xml:id="Almn78-a67189-d1e1231">
+                  <lb ed="#Ba"/>Soxutio. Dicendum, quod procul 
+du<lb ed="#Ba" break="no"/>bio generare proprie loquendo in divinis,
+<lb ed="#Ba"/>nec sic intelligere, nec sic dicere est :
+<pb ed="#Ba" n="310"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>tamen cum tali intelligere, et cum tali
+<lb ed="#Ba"/>dicere, et est prius eis secundum 
+natu<lb ed="#Ba" break="no"/>ram et secundum rationem intelligentiae,
+<lb ed="#Ba"/>sicut proprium est prius appropriato.
+<lb ed="#Ba"/>Generatio enim substantialem nature
+<lb ed="#Ba"/>communicabilis dicit diffusionem, et ideo
+<lb ed="#Ba"/>numquam est sine pluralitate 
+persona<lb ed="#Ba" break="no"/>rum in intellectuali natura. Intelligere
+<lb ed="#Ba"/>autem sic vel dicere, secundum ipsam
+<lb ed="#Ba"/>rationem nominis vel vocis nec dicit 
+sub<lb ed="#Ba" break="no"/>stantialem diffusionem nature 
+commu<lb ed="#Ba" break="no"/>nicabilis, nec ponit personarum 
+plurali<lb ed="#Ba" break="no"/>tatem. Et ideo vere loquendo intelligere
+<lb ed="#Ba"/>sic et dicere, non est generare, tamen
+<lb ed="#Ba"/>unum non est separatum ab altero, et
+<lb ed="#Ba"/>sicut dictum est, generare aliquid illius
+<lb ed="#Ba"/>est, sed non est illud.
+</p>
+               <p xml:id="Almn78-a67189-d1e1281">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod per
+<lb ed="#Ba"/>hoc non probatur, nisi quod simile est
+<lb ed="#Ba"/>geherationi eterne et appropriabile : sed
+<lb ed="#Ba"/>cum nullam dicat oppositionem inter
+<lb ed="#Ba"/>intelligentem et intellectum, et dicentem
+<lb ed="#Ba"/>et dictum, cum sola oppositionis relatio
+<lb ed="#Ba"/>multiplicet Trinitatem, ut dicit Boetius,
+<lb ed="#Ba"/>non per propria determinat 
+generatio<lb ed="#Ba" break="no"/>nem, secundum quod ipsa generatio est
+<lb ed="#Ba"/>transfusio et communicatio nature a
+<lb ed="#Ba"/>generante in genitum, per quam 
+trans<lb ed="#Ba" break="no"/>fusionem oppositis relationibus 
+determi<lb ed="#Ba" break="no"/>nantur generans et genitus, ut unus est
+<lb ed="#Ba"/>Pater, et alter Filius. Talia enim relativa
+<lb ed="#Ba"/>secundum rationem intelligentie, non
+<lb ed="#Ba"/>fiunt nisi ex tali naturali operatione, qua
+<lb ed="#Ba"/>unus naturam communicabilem producit
+<lb ed="#Ba"/>in alterum: ex tali enim actione unus
+<lb ed="#Ba"/>est Pater, et alter Filius.
+</p>
+               <p xml:id="Almn78-a67189-d1e1326">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod per hoc non
+<lb ed="#Ba"/>probatur, nisi quod Filius est Verbum :
+<lb ed="#Ba"/>tamen processus proprius verbi ab 
+intel<lb ed="#Ba" break="no"/>lectu, qui est sic intelligere se, vel dicere
+<lb ed="#Ba"/>se, secundum intentionem vocis non dat
+<lb ed="#Ba"/>ei.quod sit Filius : sed emanatio 
+substan<lb ed="#Ba" break="no"/>tialis Filii a Patre secundum nature 
+com<lb ed="#Ba" break="no"/>municabilitatem in perfecta similitudine
+<lb ed="#Ba"/>speciei et forme, dat ei quod sit Filius,
+<lb ed="#Ba"/>et quod generans ipsum sit Pater. 
+Quod<lb ed="#Ba" break="no"/>cumque enim horum trium desit, scilicet
+<lb ed="#Ba"/>quod, aut non sit ex alio, aut non sit 
+sub<lb ed="#Ba" break="no"/>stantialis emanatio, aut non sit ad per-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>fectam similitudinem speciei et forma cl
+<lb ed="#Ba"/>nature secundum omnem nature 
+pote<lb ed="#Ba" break="no"/>statem : tunc deficit a generationis 
+perfe<lb ed="#Ba" break="no"/>cta ratione. Et per hoc patet, quod 
+intel<lb ed="#Ba" break="no"/>ligere se, et dicere se non dicunt 
+ratio<lb ed="#Ba" break="no"/>nem perfecte generationis, sed aliquid
+<lb ed="#Ba"/>simile appropriabile illi.
+</p>
+               <p xml:id="Almn78-a67189-d1e1374">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Verbum
+<lb ed="#Ba"/>non est nisi Filius: quia, sicut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus, <quote xml:id="Almn78-a67189-Qd1e1382"> eadem ratione relationis 
+di<lb ed="#Ba" break="no"/>citur Verbum qua dicitur Filius: </quote> sed
+<lb ed="#Ba"/>cum omnia dicuntur esse in Verbo vita
+<lb ed="#Ba"/>et lux, hoc altribuitur Verbo in quantum
+<lb ed="#Ba"/>est ars universalis, plena rationibus 
+om<lb ed="#Ba" break="no"/>nium factorumfet fiendorum 
+splendenti<lb ed="#Ba" break="no"/>bus et viventibus in ipsa. Et quamvis
+<lb ed="#Ba"/>Verbum sit proprium, tamen artem 
+ta<lb ed="#Ba" break="no"/>lem esse, est appropriatum et essentiale
+<lb ed="#Ba"/>et commune tribus : non enim possumus
+<lb ed="#Ba"/>dicere, quod rationes factorum non sint
+<lb ed="#Ba"/>lux et vita in Patre, sicut in Filio, et in
+<lb ed="#Ba"/>Spiritu sancto. Similiter, licet hoc per
+<lb ed="#Ba"/>convenientiam majorem attribuatur 
+Fi<lb ed="#Ba" break="no"/>lio, sicut et sapientia attribuitur Filio,
+<lb ed="#Ba"/>licet Pater et Filius et Spiritus sanctus
+<lb ed="#Ba"/>sint una sapientia, sicut una essentia.
+</p>
+               <p xml:id="Almn78-a67189-d1e1421">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod talis 
+produ<lb ed="#Ba" break="no"/>ctio sue speciei ex prima intelligentia,
+<lb ed="#Ba"/>simillima est generationi, et est semper
+<lb ed="#Ba"/>cum ipsa : sed non dicit totum esse 
+ge<lb ed="#Ba" break="no"/>nerationis : sic enim prima intelligentia
+<lb ed="#Ba"/>dicit se : nihil autem, ut dicit 
+Augusti<lb ed="#Ba" break="no"/>nus, genérat seipsum ut sit.
+</p>
+               <p xml:id="Almn78-a67189-d1e1439">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod aliud est
+<lb ed="#Ba"/>primum in processibus simpliciter et 
+ge<lb ed="#Ba" break="no"/>neraliter, et aliud primum in processu
+<lb ed="#Ba"/>substantial. Et licet conversio sui ad se,
+<lb ed="#Ba"/>et productio sue similitudinis ex seipso,
+<lb ed="#Ba"/>sit primum in ordine causantium 
+intelli<lb ed="#Ba" break="no"/>gentiarum, quo ordine causantur res
+<lb ed="#Ba"/>create ab ipsa intelligentia : tamen in
+<lb ed="#Ba"/>emanatione substantiali, qua in natura
+<lb ed="#Ba"/>communicabili alter est ex altero, non
+<lb ed="#Ba"/>alter prior altero, non est prima, sed
+<lb ed="#Ba"/>omnium emanationum secundum causam
+<lb ed="#Ba"/>intelligentiae in tali ordine nature prima
+<lb ed="#Ba"/>est generatio : sicut communicare 
+sub<lb ed="#Ba" break="no"/>stantiam et naturam, secundum modum
+<lb ed="#Ba"/>intelligendi prius est, quam ad se conver-
+<pb ed="#Ba" n="311"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>ti per lumen intellectus, et ex se 
+produ<lb ed="#Ba" break="no"/>cere speciem et similitudinem in 
+intelli<lb ed="#Ba" break="no"/>gendo se. :
+</p>
+               <p xml:id="Almn78-a67189-d1e1487">
+                  <lb ed="#Ba"/>Ad dictum Augustini et Anselmi est
+<lb ed="#Ba"/>una solutio, scilicet quod dicere se per
+<lb ed="#Ba"/>intellectum dicitur duobus modis, 
+com<lb ed="#Ba" break="no"/>muniter scilicet, et proprie. Communiter
+<lb ed="#Ba"/>ilicere per intellectum, est manifestare in
+<lb ed="#Ba"/>lumine intellectus. Et sic Pater dicit se,
+<lb ed="#Ba"/>Filius dicit se, et Spiritus sanctus dicit
+<lb ed="#Ba"/>so, in lumine intellectus se manifestans.
+<lb ed="#Ba"/>Et sic Spiritus sanctus dicit Patrem et
+<lb ed="#Ba"/>Killum, et dicitur ab eis, et Filius dicit
+<lb ed="#Ba"/>Patrem, ete converso: quia sic dicere
+<lb ed="#Ba"/>ost essentiale : et sic dicere non ponit
+<lb ed="#Ba"/>aliquam proprietatem in dicente vel 
+di<lb ed="#Ba" break="no"/>cto.Proprie autem dicere per intellectum,
+<lb ed="#Ba"/>est ex se formatum et distinctum ab 
+in<lb ed="#Ba" break="no"/>tcllectu dicente proferre sive producere
+<lb ed="#Ba"/>verbum, quod sui similitudo sit 
+secun<lb ed="#Ba" break="no"/>dum speciem, et imago perfecta 
+secun<lb ed="#Ba" break="no"/>dum substantiam et omnia substantialia.
+<lb ed="#Ba"/>Kit sic dicens principium est verbi 
+di<lb ed="#Ba" break="no"/>cli, et verbum dictum principiatum a 
+di<lb ed="#Ba" break="no"/>cente : et est inter ea oppositio 
+relatio<lb ed="#Ba" break="no"/>nis. Unde hoc modo solus Pater dicit
+<lb ed="#Ba"/>Vilium, et nulla persona dicit seipsam,
+<lb ed="#Ba"/>et nulla dicit aliam, nisi Pater solus dicit
+<lb ed="#Ba"/>Kilium : quia sic dicere est notionale, et
+<lb ed="#Ba"/>non essentiale, et soli convenit Patri. Et
+<lb ed="#Ba"/>soli Filio convenit esse verbum: quia
+<lb ed="#Ba"/>sic eadem relatione est verbum et Filius,
+<lb ed="#Ba"/>eteadem relatione dicens et Pater. Sic
+<lb ed="#Ba"/>enim dicere est generare. Et iste est 
+in<lb ed="#Ba" break="no"/>tellectus verborum Anselmi et 
+Augu<lb ed="#Ba" break="no"/>stini.
+</p>
+            </div>
+            <div xml:id="Almn78-a67189-Dd1e1563">
+               <head xml:id="Almn78-a67189-Hd1e1565">Membrum 3</head>
+               <head xml:id="Almn78-a67189-Hd1e1568" type="question-title">
+  Cujus sit generare et generari, utrum 
+  essentiae, vel personae, vel utriusque
+</head>
+               <p xml:id="Almn78-a67189-d1e1571">
+                  <lb ed="#Ba"/>MEMBRUM III.
+<lb ed="#Ba"/>Cujus sit generare et generari, utrum 
+es<lb ed="#Ba" break="no"/>sentie, vel persone, vel utriusque ?
+</p>
+               <p xml:id="Almn78-a67189-d1e1580">
+                  <lb ed="#Ba"/>Tertio queritur, Cujus est generare et
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>generari, utrum scilicet essentiae, vel
+<lb ed="#Ba"/>personae, vel utriusque ?
+</p>
+               <p xml:id="Almn78-a67189-d1e1591">
+                  <lb ed="#Ba"/>Et circa hoc queruntur duo.
+<lb ed="#Ba"/>Primo, Utrum aliquo modo concedi
+<lb ed="#Ba"/>possit quod dixit abbas Joachim, quod
+<lb ed="#Ba"/>scilicet essentia divina generat et 
+gene<lb ed="#Ba" break="no"/>ratur, sive in se, sive in persona accepta ?
+</p>
+               <p xml:id="Almn78-a67189-d1e1605">
+                  <lb ed="#Ba"/>Secundo, Si hoc nullo modo concedi
+<lb ed="#Ba"/>potest, cui persone conveniat generare,
+<lb ed="#Ba"/>et cui generari, et qualiter?
+</p>
+               <div xml:id="Almn78-a67189-Dd1e1614">
+                  <head xml:id="Almn78-a67189-Hd1e1616">Articulus 1</head>
+                  <head xml:id="Almn78-a67189-Hd1e1619" type="question-title">
+      An divinae essentiae sit generare, vel generari
+    </head>
+                  <p xml:id="Almn78-a67189-d1e1622">
+                     <lb ed="#Ba"/>MEMBRI TERTHIL
+<lb ed="#Ba"/>ARTICULUS I.
+<lb ed="#Ba"/>An divinae essentiae sit generare, vel
+<lb ed="#Ba"/>generari
+</p>
+                  <p xml:id="Almn78-a67189-d1e1633">
+                     <lb ed="#Ba"/>Primo ergo queritur, An essentie 
+di<lb ed="#Ba" break="no"/>vine sit generare, vel generari?
+</p>
+                  <p xml:id="Almn78-a67189-d1e1640">
+                     <lb ed="#Ba"/>Et videtur, quod non :
+<lb ed="#Ba"/>1. Per probationes Augustini, quas 
+po<lb ed="#Ba" break="no"/>nit Magister in libro I Sententiarum, 
+di<lb ed="#Ba" break="no"/>slinctione V. Et est una probatio : quia
+<lb ed="#Ba"/>si divina essentia generaret vel 
+genera<lb ed="#Ba" break="no"/>retur, divina essentia relative diceretur :
+<lb ed="#Ba"/>et quod relative dicitur, non significat
+<lb ed="#Ba"/>substantiam, ut in quinto libro de 
+Zri<lb ed="#Ba" break="no"/>nitate dicit®. Et ex hoc ulterius 
+conclu<lb ed="#Ba" break="no"/>dit, quod secundum hoc divina essentia
+<lb ed="#Ba"/>sive natura nec esset, nec Deus -esset,:
+<lb ed="#Ba"/>sed ad alterum tantum esset. Secundum
+<lb ed="#Ba"/>quod concludit, est quod si natura 
+divi<lb ed="#Ba" break="no"/>na generaret, vel generaretur, cum 
+di<lb ed="#Ba" break="no"/>vina natura sibi causa sit secundum 
+ra<lb ed="#Ba" break="no"/>tionem intelligendi quod est, ab eo quod
+<lb ed="#Ba"/>generaretur ab ipsa, causaliter esset : et
+<lb ed="#Ba"/>hoc non capit intellectus, quod aliquid
+<lb ed="#Ba"/>causaliter sit ab eo quod generatur ab
+<lb ed="#Ba"/>ipso : natura ergo divina nec generare
+<lb ed="#Ba"/>nec generari potest.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1689">
+                     <pb ed="#Ba" n="312"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>2. Adhuc, Omne generans et 
+genera<lb ed="#Ba" break="no"/>tum in divinis distinctum est relatione
+<lb ed="#Ba"/>originis : natura divina penitus 
+indistin<lb ed="#Ba" break="no"/>cta est, sed semper tribus communis :
+<lb ed="#Ba"/>natura ergo divina nullo modo 
+genera<lb ed="#Ba" break="no"/>tur.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1709">
+                     <lb ed="#Ba"/>3. Adhuc, Omne generans et 
+genera<lb ed="#Ba" break="no"/>tum tam in divinis quam in creatis, est
+<lb ed="#Ba"/>existens per sesolum secundum 
+singula<lb ed="#Ba" break="no"/>ris existentia modum : natura numquam
+<lb ed="#Ba"/>est existens per se solum, sed semper in
+<lb ed="#Ba"/>communicatione alterius accepta, et ab
+<lb ed="#Ba"/>illo nec divisa, nec separata, ut 
+existen<lb ed="#Ba" break="no"/>tie simpliciter modum habere possit :
+<lb ed="#Ba"/>ergo impossibile est essentiam divinam
+<lb ed="#Ba"/>sive naturam vel generare vel generari.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1733">
+                     <lb ed="#Ba"/>4, Adhuc, Communi secundum quod
+<lb ed="#Ba"/>commune est, non convenit determinari
+<lb ed="#Ba"/>proprio : aliter enim opposita essent in
+<lb ed="#Ba"/>eodem, scilicet communicabile esse, et
+<lb ed="#Ba"/>incommunicabile esse. Natura sive 
+es<lb ed="#Ba" break="no"/>sentia divina semper communis manet :
+<lb ed="#Ba"/>igitur nulla proprietate determinabilis est.
+<lb ed="#Ba"/>Omne generans et generatum singulari
+<lb ed="#Ba"/>proprietate determinatum est: ergo 
+na<lb ed="#Ba" break="no"/>tura divina numquam potest esse 
+gene<lb ed="#Ba" break="no"/>rans vel generata.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1759">
+                     <lb ed="#Ba"/>5. Adhuc, In omni generatione, sicut
+<lb ed="#Ba"/>vult Aristoteles in V Phystcorum, hic
+<lb ed="#Ba"/>generat hunc per se : et quia hic 
+gene<lb ed="#Ba" break="no"/>rat, est pater: et quia hic generatur, est
+<lb ed="#Ba"/>filius. Si ergo essentia divina vel natura
+<lb ed="#Ba"/>generaretur vel generaret, primo 
+seque<lb ed="#Ba" break="no"/>retur, quod essentia divina esset hic vel
+<lb ed="#Ba"/>hoc singulare, et non commune. Secundo
+<lb ed="#Ba"/>sequeretur, quod esset pater vel filius. Et .
+<lb ed="#Ba"/>ex hoc ulterius per divisionem 
+sequere<lb ed="#Ba" break="no"/>tur, quod esset pater vel filius suiipsius
+<lb ed="#Ba"/>vel alterius. Si suiipsius : idem sibi esset
+<lb ed="#Ba"/>pater vel filius, quod nullus capit 
+intel<lb ed="#Ba" break="no"/>lectus : nec exemplum hujus vel simile
+<lb ed="#Ba"/>invenire potest aliquis in tota natura 
+se<lb ed="#Ba" break="no"/>cundum omnem modum generationis 
+na<lb ed="#Ba" break="no"/>ture, sive corporalis sive spiritualis, sive
+<lb ed="#Ba"/>materialis sive immaterialis. Si autem
+<lb ed="#Ba"/>alterius esset pater vel filius : aut alte-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>rius in natura, aut alterius in persona.
+<lb ed="#Ba"/>Non alterius in natura : quia pater et
+<lb ed="#Ba"/>filius semper sunt unius nature in 
+om<lb ed="#Ba" break="no"/>nibus. Nec alterius in persona: quia tunc
+<lb ed="#Ba"/>sequeretur, quod natura divina esset 
+per<lb ed="#Ba" break="no"/>sona, et communicabile et 
+incommuni<lb ed="#Ba" break="no"/>cabile, et distinctum et indistinctum, ec!
+<lb ed="#Ba"/>multa alia inconvenientia.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1822">
+                     <lb ed="#Ba"/>6. Adhuc, Actus in omnibus 
+particu<lb ed="#Ba" break="no"/>larium sunt : generare autem et generari
+<lb ed="#Ba"/>actus sunt : ergo particularium, Nulla
+<lb ed="#Ba"/>persona particularis est in 'quantum 
+na<lb ed="#Ba" break="no"/>tura est ; nullius ergo nature in quantum
+<lb ed="#Ba"/>est natura, generare vel generari est :
+<lb ed="#Ba"/>divina ergo natura nec generat, nec 
+ge<lb ed="#Ba" break="no"/>neratur.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1842">
+                     <lb ed="#Ba"/>In contrartum hujus videtur esse,
+<lb ed="#Ba"/>1. Quod dicit Augustinus in libro
+<lb ed="#Ba"/>VII de Trinitate, quod <quote xml:id="Almn78-a67189-Qd1e1850"> Pater et Filius
+<lb ed="#Ba"/>simul sunt una sapientia : quia una 
+essen<lb ed="#Ba" break="no"/>tia, et sigillatim sapientia de sapientia, 
+sic<lb ed="#Ba" break="no"/>ut essentia de essentia. </quote> Sed cum dicitur,
+<lb ed="#Ba"/>essentia de essentia, preepositio de notio-
+<lb ed="#Ba" break="no"/>nalis est : ergo notat habitudinem 
+gene<lb ed="#Ba" break="no"/>rantis ad genitum : essentia est ergo 
+ge<lb ed="#Ba" break="no"/>nerans et essentia genita.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1870">
+                     <lb ed="#Ba"/>2. Adhuc, Augustinus in libro de Fide
+<lb ed="#Ba"/>ad Petrum: <quote xml:id="Almn78-a67189-Qd1e1876"> Sic Christum Dei Filium
+<lb ed="#Ba"/>unam in Trinitate personam Deum ve-
+<lb ed="#Ba" break="no"/>rum crede, ut divinitatem ejus de natura
+<lb ed="#Ba"/>Patris naturam esse non dubites!. </quote> Ex
+<lb ed="#Ba"/>hoc accipitur expresse, quod divinitas est
+<lb ed="#Ba"/>generans, et divinitas nata : ergo natura
+<lb ed="#Ba"/>est generans, et natura genita.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1893">
+                     <lb ed="#Ba"/>3. Adhuc, Augustinus in libro XV de
+<lb ed="#Ba"/>Trinitate : <quote xml:id="Almn78-a67189-Qd1e1899"> Dicitur Filius consilium de
+<lb ed="#Ba"/>consilio, et voluntas de voluntate : sicut
+<lb ed="#Ba"/>dicitur substantia de substantia, et 
+sa<lb ed="#Ba" break="no"/>pientia de sapientia®.</quote> Si autem 
+substan<lb ed="#Ba" break="no"/>tia de substantia, et prepositio de notat
+<lb ed="#Ba"/>habitudinem generantis ad genitum, tunc
+<lb ed="#Ba"/>substantia est generans, et substantia
+<lb ed="#Ba"/>genita.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1918">
+                     <lb ed="#Ba"/>4, Adhuc, Hilarius in libro IV de 
+7ri<lb ed="#Ba" break="no"/>nitate : <quote xml:id="Almn78-a67189-Qd1e1924"> Nihil nisi natum habet Filius. </quote>
+                     <lb ed="#Ba"/>Sed habet naturam divinam. Ergo habet
+<pb ed="#Ba" n="313"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>eam natam sive genitam : natura ergo
+<lb ed="#Ba"/>divina genita est.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1939">
+                     <lb ed="#Ba"/>5. Adhuc, Hilarius in libro IX de 
+Tri<lb ed="#Ba" break="no"/>nitate: <quote xml:id="Almn78-a67189-Qd1e1945"> Ex Patre ejusdem generis 
+geni<lb ed="#Ba" break="no"/>tam naturam in Filio naturaliter in se 
+gi<lb ed="#Ba" break="no"/>gnentem habuisse naturam predicamus. </quote>
+                     <lb ed="#Ba"/>Hic expresse dicit Hilarius naturam 
+gi<lb ed="#Ba" break="no"/>gnentem et naturam genitam.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1957">
+                     <lb ed="#Ba"/>6. Adhuc, Hilarius, ibidem, <quote xml:id="Almn78-a67189-Qd1e1961"> Ex 
+in<lb ed="#Ba" break="no"/>nascibili Deo nativitas unigenita in 
+na<lb ed="#Ba" break="no"/>turam unigenitam subsistit. </quote> Hic 
+ex<lb ed="#Ba" break="no"/>presse dicit naturam esse unigenitam :
+<lb ed="#Ba"/>ox quo sequitur genitam : quia omne
+<lb ed="#Ba"/>unigenitum, genitum est.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1975">
+                     <lb ed="#Ba"/>7. Per rationem probatur idem : 
+Ge<lb ed="#Ba" break="no"/>neratio inferiorum et perfectorum 
+anima<lb ed="#Ba" break="no"/>lium, sicut hominum, exemplata est a
+<lb ed="#Ba"/>generatione divina : sed in hominibus
+<lb ed="#Ba"/>generatis generatur natura, et quidquid
+<lb ed="#Ba"/>est naturalium in ipsis : ergo in divinis
+<lb ed="#Ba"/>similiter est, quod generato Filio, natura
+<lb ed="#Ba"/>divina generatur in ipso.
+</p>
+                  <p xml:id="Almn78-a67189-d1e1996">
+                     <lb ed="#Ba"/>8. Adhuc, Constat, quod potentia 
+ge<lb ed="#Ba" break="no"/>nerandi naturalis potentia est tam in 
+di<lb ed="#Ba" break="no"/>vinis quam in humanis. Potentia autem
+<lb ed="#Ba"/>naturalis id natura radicata est. Ergo
+<lb ed="#Ba"/>potentia generandi natura est divine. Et
+<lb ed="#Ba"/>generaliter verum est quod dicit 
+Philoso<lb ed="#Ba" break="no"/>phus, quod cujus est potentia, ejus est
+<lb ed="#Ba"/>actus. Ergo et actus generandi nature
+<lb ed="#Ba"/>est : et sic natura generat.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2018">
+                     <lb ed="#Ba"/>9. Adhuc, Natura divina est Pater, et
+<lb ed="#Ba"/>ce converso Pater natura divina est, et
+<lb ed="#Ba"/>non est predicatio per accidens : et 
+Pa<lb ed="#Ba" break="no"/>ter generat, nec hec predicatio per 
+ac<lb ed="#Ba" break="no"/>cidens est : videtur ergo sequi, quod 
+na<lb ed="#Ba" break="no"/>tura divina generat.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2034">
+                     <lb ed="#Ba"/>10. Adhuc, Videtur sequi inconveniens,
+<lb ed="#Ba"/>si dicatur, quod divina natura nec est
+<lb ed="#Ba"/>gignens, nec genita. Secundum hoc enim
+<lb ed="#Ba"/>in Trinitate res est gignens non genita,
+<lb ed="#Ba"/>quia Pater : et est ibi res genita, quia 
+Fi<lb ed="#Ba" break="no"/>lius : et est ibi res procedens, nec 
+gi<lb ed="#Ba" break="no"/>gnens, nec genita, quia Spiritus 
+san<lb ed="#Ba" break="no"/>ctus : et est ibi res nec gignens, nec 
+ge<lb ed="#Ba" break="no"/>nita, nec spirans, nec spirata, quia 
+essen<lb ed="#Ba" break="no"/>tia sive natura divina : ergo in Trinitate
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>sunt quatuor res : et sic quaternitas 
+de<lb ed="#Ba" break="no"/>bet dici, non Trinitas.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2065">
+                     <lb ed="#Ba"/>11. Adhuc, Est objectio abbatis 
+Joa<lb ed="#Ba" break="no"/>chim : Conceditur enim hec, Deus Deum
+<lb ed="#Ba"/>genuit : et tamen Deus nomen essentize
+<lb ed="#Ba"/>est sive nature. Queratur ergo, aut se
+<lb ed="#Ba"/>Deum genuit, aut alium Deum.. Si se :
+<lb ed="#Ba"/>tunc aliquid dicitur generare se : et sic
+<lb ed="#Ba"/>essentia potest dict generare essentiam.
+<lb ed="#Ba"/>Si alium Deum : tunc generans et 
+geni<lb ed="#Ba" break="no"/>tus non sunt unus Deus, sed duo 
+essen<lb ed="#Ba" break="no"/>tialiter differentes, quod est heresis Arii.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2089">
+                     <lb ed="#Ba"/>Solutio. Prima pars hujus 
+disputa<lb ed="#Ba" break="no"/>tionis concedenda est : quia hac est 
+Ca<lb ed="#Ba" break="no"/>tholica fides, quod natura divina, nec
+<lb ed="#Ba"/>generans, nec genita est, nec spirans, nec
+<lb ed="#Ba"/>spirata.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2102">
+                     <lb ed="#Ba"/>Et rationes ad illam partem inducte,
+<lb ed="#Ba"/>procedunt.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2110">
+                     <lb ed="#Ba"/>Ad intelligentiam autem eorum que
+<lb ed="#Ba"/>sequuntur et in contrarium adducuntur,
+<lb ed="#Ba"/>intelligendum regulariter, quod essentia
+<lb ed="#Ba"/>divina secundum modum  significandi
+<lb ed="#Ba"/>per nomen tripliciter designari solet. 
+Ali<lb ed="#Ba" break="no"/>quando enim abstracte et absolute 
+desi<lb ed="#Ba" break="no"/>gnatur et simpliciter prout est in seipsa,
+<lb ed="#Ba"/>sicut cum dicitur, essentia. Aliquando
+<lb ed="#Ba"/>autem quasi per modum concretionis 
+de<lb ed="#Ba" break="no"/>signatur, sive per modum ejus quod est.
+<lb ed="#Ba"/>Et hoc dupliciter, scilicet secundum 
+in<lb ed="#Ba" break="no"/>tellectum et inclinationem ad actum 
+sub<lb ed="#Ba" break="no"/>stantialem, qui proprie est suppositi et
+<lb ed="#Ba"/>non essentie, sive nature per se, sicut
+<lb ed="#Ba"/>cum dicitur, substantia. Aliquando 
+au<lb ed="#Ba" break="no"/>tem per ipsum actum suppositi 
+substan<lb ed="#Ba" break="no"/>tis, quod sicut id quod est, substat 
+na<lb ed="#Ba" break="no"/>ture communi, sicut cum dicitur, Ade
+<lb ed="#Ba"/>Deus, sicut, Deuter. xxx, 4, secundum
+<lb ed="#Ba"/>translationem Septuaginta dicitur : <quote xml:id="Almn78-a67189-Qd1e2155"> Hic
+<lb ed="#Ba"/>Deus noster, in quo non est iniquitas *. </quote>
+                     <lb ed="#Ba"/>Et,Baruch, m1, 36: Hic est Deus noster,
+<lb ed="#Ba"/>ef non exstimabitur alius adversus eum.
+<lb ed="#Ba"/>Hic enim de essentia communi non satis
+<lb ed="#Ba"/>convenienter dicetur. Non enim 
+demon<lb ed="#Ba" break="no"/>strabile est per hoc nisi suppositum. Hoc
+<lb ed="#Ba"/>enim secundum modum significandi de-
+<pb ed="#Ba" n="314"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>monstrat aliquid formatum et 
+supposi<lb ed="#Ba" break="no"/>tum sub natura communi. Aliquando 
+si<lb ed="#Ba" break="no"/>gnificatur ut relata ad actum, ut cum 
+di<lb ed="#Ba" break="no"/>citur, natura, vel virtus, vel vita, vel 
+lu<lb ed="#Ba" break="no"/>men, vel sapientia. Et quando istorum
+<lb ed="#Ba"/>modorum aliquo significatur, preter per
+<lb ed="#Ba"/>primum, per notionalem prepositionem
+<lb ed="#Ba"/>designantem ordinem nature, secundum
+<lb ed="#Ba"/>originem trahitur ad standum per 
+perso<lb ed="#Ba" break="no"/>na. Et hoc est ideo, quia nihil in divinis,
+<lb ed="#Ba"/>nec etiam in aliis supponibile est, vel
+<lb ed="#Ba"/>etiam substans actu, nisi hypostasis, vel
+<lb ed="#Ba"/>persona : et nihil proprie agit sive actum
+<lb ed="#Ba"/>habet, nisi particulare vel personale. Et
+<lb ed="#Ba"/>ideo in dictis Sanctorum frequenter 
+inve<lb ed="#Ba" break="no"/>nitur, substantia de substantia, Deus de
+<lb ed="#Ba"/>Deo, lumen de lumine, vita de vita, 
+na<lb ed="#Ba" break="no"/>tura de natura, virtus de virtute, 
+sapien<lb ed="#Ba" break="no"/>tia de sapientia, et hujusmodi:eo quod
+<lb ed="#Ba"/>haec nature non primo secundum se 
+con<lb ed="#Ba" break="no"/>veniunt, sed nature secundum quod est
+<lb ed="#Ba"/>in hypostasi. Rarissime autem invenitur,
+<lb ed="#Ba"/>essentia de essentia : eo quod essentia
+<lb ed="#Ba"/>absolute significat commune quo est, et
+<lb ed="#Ba"/>non per modum hypostasis sive 
+subsi<lb ed="#Ba" break="no"/>stentis, nec significat naturam 
+ordina<lb ed="#Ba" break="no"/>tam ad actum, sed absolute in 
+simplici<lb ed="#Ba" break="no"/>tate consistens. Et quando invenitur a
+<lb ed="#Ba"/>Sanctis, essentia de essentia, ex causa
+<lb ed="#Ba"/>dictum est, et sub figura locutionis que
+<lb ed="#Ba"/>dicitur emphasis, hoc est, expressio, Ex
+<lb ed="#Ba"/>causa quidem, quia propter hereticos,
+<lb ed="#Ba"/>precipue Arianos et Nestorianos, qui
+<lb ed="#Ba"/>dixerunt Patrem et Filium esse diverse
+<lb ed="#Ba"/>essentia. Et tunc Sancti occurrentes illi
+<lb ed="#Ba"/>heresi, in oppositum extendendo 
+locu<lb ed="#Ba" break="no"/>tionem dixerunt essentiam de essentia,
+<lb ed="#Ba"/>ut unam essentiam Patris et Filii 
+signifi<lb ed="#Ba" break="no"/>carent : quia sicut una est essentia in
+<lb ed="#Ba"/>omni generatione univoca genitoris et
+<lb ed="#Ba"/>geniti, una (dico) et communis 
+secun<lb ed="#Ba" break="no"/>dum rationem et esse in una re, si tanta
+<lb ed="#Ba"/>esset simplicitas, quod in natura illa non
+<lb ed="#Ba"/>esset universale et particulare : ita in 
+di<lb ed="#Ba" break="no"/>vinis, ubi maxima simplicitas est, ne-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>cesse est unam re et numero esse 
+essen<lb ed="#Ba" break="no"/>tiam genitoris et geniti, sive Patris et
+<lb ed="#Ba"/>Filii. Et ad hoc respicientes dixerunt
+<lb ed="#Ba"/>essentiam de essentia. Emphatice autem
+<lb ed="#Ba"/>dico, quia sic propter expressionem 
+al<lb ed="#Ba" break="no"/>quando dicimus et ponimus abstractum
+<lb ed="#Ba"/>pro concreto, et in bono et in malo. In
+<lb ed="#Ba"/>malo, sicut, II ad Thessal. mn, 3, 
+Anti<lb ed="#Ba" break="no"/>christus dicitur filius perditionis : ov
+<lb ed="#Ba"/>quod nihil in eo apparet nisi perditio :
+<lb ed="#Ba"/>et Judas etiam dicitur filius perditionis'.
+<lb ed="#Ba"/>Et dicitur adhuc diabolus’, non quod
+<lb ed="#Ba"/>perditio habeat filium vel diabolus, sed
+<lb ed="#Ba"/>quod perditio et diabolus eum totum
+<lb ed="#Ba"/>traxerunt in formam suam. In bono,
+<lb ed="#Ba"/>sicut usitate dicimus, Rogo paternitatem
+<lb ed="#Ba"/>tuam, vel bonitatem, vel clementiam,
+<lb ed="#Ba"/>hoc est, rogo te patrem, bonum et 
+cle<lb ed="#Ba" break="no"/>mentem, quem paternitas, bonitas, et
+<lb ed="#Ba"/>clementia, totum in formas suas 
+traxe<lb ed="#Ba" break="no"/>runt. Et in hoc Sancti, ut dicit 
+Aristote<lb ed="#Ba" break="no"/>les in WI Ethicorum, aliquid simile 
+fece<lb ed="#Ba" break="no"/>runt his qui tortuosa lignorum dirigunt.
+<lb ed="#Ba"/>Tili enim non tantum tortuosum lignum
+<lb ed="#Ba"/>dirigunt ad rectum, sed incurvant ad 
+op<lb ed="#Ba" break="no"/>positum, ut amissa curvitate indebita,
+<lb ed="#Ba"/>per naturam in rectum redeat. Unde 
+ta<lb ed="#Ba" break="no"/>les locutiones non sunt extendende per
+<lb ed="#Ba"/>exemplum, sed (sicut dictum est) 
+excu<lb ed="#Ba" break="no"/>sande. Unde cum dicitur essentia de 
+es<lb ed="#Ba" break="no"/>sentia, sensus est, Filius qui est essentia,
+<lb ed="#Ba"/>est de Patre qui est eadem essentia. Et
+<lb ed="#Ba"/>sic excusatur illud dictum Augustini in
+<lb ed="#Ba"/>libro de Fide ad Petrum : <quote xml:id="Almn78-a67189-Qd1e2351"> Deus Pater
+<lb ed="#Ba"/>qui verissime se indicare animis 
+cogni<lb ed="#Ba" break="no"/>turis et voluit et potuit, hoc ad seipsum
+<lb ed="#Ba"/>indicandum genuit, quod est ipse qui
+<lb ed="#Ba"/>genuit. </quote>
+                  </p>
+                  <p xml:id="Almn78-a67189-d1e2363">
+                     <lb ed="#Ba"/>Si objicitur de dicto Augustini qui 
+di<lb ed="#Ba" break="no"/>cit in libro IV de Trinitate, quod <quote xml:id="Almn78-a67189-Qd1e2369"> Pater
+<lb ed="#Ba"/>est principium totius divinitatis : non 
+au<lb ed="#Ba" break="no"/>tem potest esse principium nisi 
+gene<lb ed="#Ba" break="no"/>rando vel spirando: et sic divinitatem
+<lb ed="#Ba"/>vel genuit, vel spiravit ‘. </quote> Dicimus,
+<lb ed="#Ba"/>quod loquitur contra Arianos et Nesto-
+<pb ed="#Ba" n="315"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>rianos, Ariani enim dixerunt Filium non
+<lb ed="#Ba"/>esse in divinitate Patris, Nestoriani 
+au<lb ed="#Ba" break="no"/>tem negaverunt hoc de Spiritu sancto.
+<lb ed="#Ba"/>Volens autem Augustinus elidere hunc
+<lb ed="#Ba"/>crrorem, dixit quod est principium 
+to<lb ed="#Ba" break="no"/>lius divinitatis in Filio, prout dicit 
+Phi<lb ed="#Ba" break="no"/>losophus in II] Physicorum, <quote xml:id="Almn78-a67189-Qd1e2402"> Totum et
+<lb ed="#Ba"/>perfectum idem dico..</quote> Et est sensus,
+<lb ed="#Ba"/>Pater est principium, quod divinitas 
+per<lb ed="#Ba" break="no"/>fecte sit in Filio, et quod divinitas 
+per<lb ed="#Ba" break="no"/>fecte sit in Spiritus sancto: ita quod
+<lb ed="#Ba"/>principium sit respectu Filii per 
+genera<lb ed="#Ba" break="no"/>lionem, et respectu Spiritus sancti per
+<lb ed="#Ba"/>spirationem, et non respectu essentie vel
+<lb ed="#Ba"/>divinitatis, a qua non distinguitur Pater.
+<lb ed="#Ba"/>Sed divinitas in obliquo ponitur ibi, ut
+<lb ed="#Ba"/>notetur ibi communicatio nature 
+divi<lb ed="#Ba" break="no"/>ne, in qua perfecte communicant Pater
+<lb ed="#Ba"/>et Filius et Spiritus sanctus: quamvis
+<lb ed="#Ba"/>enim respectu creaturarum essentia sit
+<lb ed="#Ba"/>principium et causa agendi sicut 
+per<lb ed="#Ba" break="no"/>sona, eo quod essentia divina agit et
+<lb ed="#Ba"/>creat : tamen respectu actuum 
+persona<lb ed="#Ba" break="no"/>lium non potest esse principium : unde
+<lb ed="#Ba"/>nec generandi, nec spirandi potest esse
+<lb ed="#Ba"/>principium. Et hujus causa est, quia 
+ge<lb ed="#Ba" break="no"/>nerare et spirare proprietates personales
+<lb ed="#Ba"/>dicunt ut actus: proprietates autem 
+per<lb ed="#Ba" break="no"/>sonales per oppositionem relationis 
+di<lb ed="#Ba" break="no"/>stinguunt personas et determinant: 
+es<lb ed="#Ba" break="no"/>sentia autem divina vel natura nec ad
+<lb ed="#Ba"/>seipsam, nec ad personam aliquam 
+di<lb ed="#Ba" break="no"/>stinguitur vel determinatur : et ideo 
+ta<lb ed="#Ba" break="no"/>lium proprietatum nullo modo potest
+<lb ed="#Ba"/>esse causa susceptibilis. Causa autem et
+<lb ed="#Ba"/>causatum licet dicant relationem, tamen
+<lb ed="#Ba"/>in-intellectu suo non ponunt tales 
+pro<lb ed="#Ba" break="no"/>prietates : et ideo non distinguunt. Et
+<lb ed="#Ba"/>haec eadem est causa, quod quamvis 
+op<lb ed="#Ba" break="no"/>positio contradictionis major sit quam
+<lb ed="#Ba"/>relationis, tamen in divinis non facit 
+di<lb ed="#Ba" break="no"/>stinctionem sicut oppositio relationis.
+<lb ed="#Ba"/>Est enim persona ens distinctum 
+pro<lb ed="#Ba" break="no"/>prietate, et essentia ens non distinctum :
+<lb ed="#Ba"/>et tamen essentia est persona, et 
+per<lb ed="#Ba" break="no"/>sona essentia: et Pater est persona 
+pro<lb ed="#Ba" break="no"/>prietate distincta, scilicet paternitate : et
+<lb ed="#Ba"/>Filius persona distincta opposita 
+pro<lb ed="#Ba" break="no"/>prietate, filiatione scilicet et ideo
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>Pater non est Filius, nec Filius Pater.
+  
+<lb ed="#Ba"/>His itaque suppositis, facillimum est
+<lb ed="#Ba"/>respondere ad objecta.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2505">
+                     <lb ed="#Ba"/>Ad primum ergo dicendum, quod sa- Adobject.1.
+<lb ed="#Ba"/>pientia dicitur de sapientia, et essentia
+<lb ed="#Ba"/>de essentia propter indifferentiam et 
+in<lb ed="#Ba" break="no"/>distinctionem sapientie et essentia in
+<lb ed="#Ba"/>Patre et Filio. Et sensus est: Filius qui
+<lb ed="#Ba"/>est sapientia et essentia, est de Patre qui
+<lb ed="#Ba"/>est sapientia et essentia : ita quod notio
+<lb ed="#Ba"/>quam |importat prepositio, notat 
+habi<lb ed="#Ba" break="no"/>tudinem persone ad personam, et 
+habi<lb ed="#Ba" break="no"/>tudo inter nominativum et ablativum 
+no<lb ed="#Ba" break="no"/>tat consubstantialitatem.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2531">
+                     <lb ed="#Ba"/>Sic ertam ad secundum respondendum Ad object.2,
+<lb ed="#Ba"/>est: quia Filius qui est divinitas, natus
+<lb ed="#Ba"/>est.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2540">
+                     <lb ed="#Ba"/>Ad Tertium jam patet solutio. In om-
+<lb ed="#Ba" break="no"/>nibus enim substantialibus substantiale
+<lb ed="#Ba"/>trahitur ad personam virtute 
+prepositio<lb ed="#Ba" break="no"/>nis, et habitudo ablativi ad nominativum
+<lb ed="#Ba"/>notat consubstantialitatem, quam 
+nega<lb ed="#Ba" break="no"/>bant heretici. Consilium enim et 
+sa<lb ed="#Ba" break="no"/>pientia relationem dicunt ad actum, qui
+<lb ed="#Ba"/>persone est proprie : nomen autem 
+sub<lb ed="#Ba" break="no"/>stantie ab actu substandi imponitur,
+<lb ed="#Ba"/>quod proprie convenit hypostasi.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2564">
+                     <lb ed="#Ba"/>Ad primum quod objicitur de Hilario,
+<lb ed="#Ba"/>antiqui satis bene responderunt. Cum
+<lb ed="#Ba"/>enim dicitur, <quote xml:id="Almn78-a67189-Qd1e2572"> Nihil nisi natum habet
+<lb ed="#Ba"/>Filius, </quote> sensus est, nihil habet Filius
+<lb ed="#Ba"/>nisi quod nascendo accepit: licet enim
+<lb ed="#Ba"/>divinitas non distinguatur proprietate
+<lb ed="#Ba"/>generationis, tamen Filius proprietate
+<lb ed="#Ba"/>generationis distinctus, habet eam a Patre
+<lb ed="#Ba"/>ut communem Patri et Filio, sicut 
+dici<lb ed="#Ba" break="no"/>tur, Joan. x, 29: Pater meus, quod 
+de<lb ed="#Ba" break="no"/>dit mihi, majus omnibus est. Ad Philip.
+<lb ed="#Ba"/>u, 9: Donavit illi nomen quod est super
+<lb ed="#Ba"/>omne nomen. Glossa: <quote xml:id="Almn78-a67189-Qd1e2597"> Aiterna 
+genera<lb ed="#Ba" break="no"/>tione dedit illi, ut verus Deus sit et 
+no<lb ed="#Ba" break="no"/>minetur. </quote>
+                  </p>
+                  <p xml:id="Almn78-a67189-d1e2606">
+                     <lb ed="#Ba"/>Ad secundum dicendum, quod natura Adcbject.s
+<lb ed="#Ba"/>dicitur genita esse modo qui prius dictus
+<lb ed="#Ba"/>est, scilicet quia per generationem ili
+<lb ed="#Ba"/>est accepta.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2617">
+                     <lb ed="#Ba"/>Sic Etiam ad tertium dicendum: 
+dici<lb ed="#Ba" break="no"/>tur enim nativitas sive natura unigenita,
+<lb ed="#Ba"/>quia ab Unigenito accepta.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2626">
+                     <pb ed="#Ba" n="316"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>Ad primum quod per rationem objicitur,
+<lb ed="#Ba"/>dicendum est, quod aliter est in humanis,
+<lb ed="#Ba"/>et aliter in divinis. In humanis enim 
+na<lb ed="#Ba" break="no"/>tura non repugnat distinctioni et 
+divi<lb ed="#Ba" break="no"/>sioni: quinimo in generante et genito
+<lb ed="#Ba"/>realiter et secundum esse distinguitur et
+<lb ed="#Ba"/>dividitur. Quod nullo modo potest esse
+<lb ed="#Ba"/>in divinis, propter hoc quod natura 
+di<lb ed="#Ba" break="no"/>vina est in fine simplicitatis.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2652">
+                     <lb ed="#Ba"/>Et quod objicitur, quod generatio 
+hu<lb ed="#Ba" break="no"/>mana exemplata est a divina. Dicendum,
+<lb ed="#Ba"/>quod verum est: sed exemplar totum
+<lb ed="#Ba"/>exemplatum implere non potest, sed 
+imi<lb ed="#Ba" break="no"/>tatur quantum potest, in hoc scilicet 
+po<lb ed="#Ba" break="no"/>tissime, quod est ad similitudinem 
+spe<lb ed="#Ba" break="no"/>ciei et forme. Sed in hoc quod est 
+ea<lb ed="#Ba" break="no"/>dem natura in generante et genito, non
+<lb ed="#Ba"/>potest imitari : quia in humanis quiddam
+<lb ed="#Ba"/>est per se generans et quiddam genitum
+<lb ed="#Ba"/>per se, et quiddam generans et genitum
+<lb ed="#Ba"/>per accidens, et quiddam generans et 
+ge<lb ed="#Ba" break="no"/>nitum per consequens. Per se enim hic
+<lb ed="#Ba"/>generat hunc. Per accidens autem, quia
+<lb ed="#Ba"/>generans est homo, et genitus est homo,
+<lb ed="#Ba"/>generans est pater, et genitus est filius:
+<lb ed="#Ba"/>et sic pater generat filium. Per 
+conse<lb ed="#Ba" break="no"/>quens autem, quia hic generans est 
+ho<lb ed="#Ba" break="no"/>mo, et hic genitus est homo: ideo 
+ge<lb ed="#Ba" break="no"/>nerat homo hominem. In divinis autem
+<lb ed="#Ba"/>non sic: ibi enim totum est per se et
+<lb ed="#Ba"/>substantiale. Pater enim non per 
+acci<lb ed="#Ba" break="no"/>dens est Pater,}, quia paternitas sua est
+<lb ed="#Ba"/>essentia sua : et paternitas non differt a
+<lb ed="#Ba"/>generatione : quinimo paternitas 
+eam<lb ed="#Ba" break="no"/>dem proprietatem dicit quam generatio :
+<lb ed="#Ba"/>sed dicit eam ut actum, paternitas autem
+<lb ed="#Ba"/>ut proprietatem : et hec duo non faciunt
+<lb ed="#Ba"/>rem differre a re, sed faciunt 
+differen<lb ed="#Ba" break="no"/>tiam in modo significandi vel dicendi
+<lb ed="#Ba"/>eamdem rem. Et similiter estin Filio de
+<lb ed="#Ba"/>filiatione et generatione passiva, quod
+<lb ed="#Ba"/>quia in tanta simplicitate non est 
+parti<lb ed="#Ba" break="no"/>culare et universale, nihil generatur ibi
+<lb ed="#Ba"/>per consequens : quia cum dicitur, Pater
+<lb ed="#Ba"/>est Deus, idem penitus est in predicato
+<lb ed="#Ba"/>et subjecto sub alio modo significandi :
+<lb ed="#Ba"/>quem diversum modum significandi,
+an<lb ed="#Ba" break="no"/>tiqui vocabant diversum modum 
+aittri<lb ed="#Ba" break="no"/>buendi, et diversum modum supponen-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>di : quia scilicet_ supposito uno non 
+sup<lb ed="#Ba" break="no"/>ponitur alterum: et aliquid attribuitur
+<lb ed="#Ba"/>uni quod non attribuitur alteri : Deus
+<lb ed="#Ba"/>enim significat aliquid indistincte, Pater
+<lb ed="#Ba"/>autem distinctum  proprietate 
+paternita<lb ed="#Ba" break="no"/>tis.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2756">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod cum dici
+<lb ed="#Ba" break="no"/>tur, potentia generandi, triplex est 
+lo<lb ed="#Ba" break="no"/>cutio, ex hoc quod gerundivum 
+generan<lb ed="#Ba" break="no"/>di potest sumi a verbo personali activo,
+<lb ed="#Ba"/>vel a verbo personali passivo, vel potest
+<lb ed="#Ba"/>sumia verbo impersonali. Si sumatur a
+<lb ed="#Ba"/>verbo personali activo ; tunc potentia 
+ge<lb ed="#Ba" break="no"/>nerandi est potentia qua quis generat :
+<lb ed="#Ba"/>et hoc non radicatur in natura, sed in
+<lb ed="#Ba"/>Patre. Si autem sumatur a verbo 
+perso<lb ed="#Ba" break="no"/>nali passivo : tunc potentia generandi est
+<lb ed="#Ba"/>potentia qua quis generatur : et hoc nec
+<lb ed="#Ba"/>in Patre nec in natura radicatur, sed in
+<lb ed="#Ba"/>Filio. Si sumatur a verbo impersonali :
+<lb ed="#Ba"/>tunc potentia generandi est, qua potentia
+<lb ed="#Ba"/>ab aliquo fiat generatio : et hoc solo 
+mo<lb ed="#Ba" break="no"/>do radicatur in natura, quantum ad hoc,
+<lb ed="#Ba"/>quod natura communicabilis est per 
+ge<lb ed="#Ba" break="no"/>nerationem. Et tunc eadem potentia 
+ge<lb ed="#Ba" break="no"/>nerandi est in Patre et in Filio. Et quod
+<lb ed="#Ba"/>dicit- Philosophus, quod <quote xml:id="Almn78-a67189-Qd1e2803"> cujus est 
+po<lb ed="#Ba" break="no"/>tentia, ejus est actus, </quote> verum est de 
+pri<lb ed="#Ba" break="no"/>mo et secundo modo dicta potentia 
+ge<lb ed="#Ba" break="no"/>nerandi : sed de tertio modo non est 
+ve<lb ed="#Ba" break="no"/>rum: quia verbum impersonale a. quo
+<lb ed="#Ba"/>sumitur, non determinat potentiam cujus
+<lb ed="#Ba"/>sit actus, cum tamen omnis actus certe
+<lb ed="#Ba"/>persone sit.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2822">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod licet in 
+di<lb ed="#Ba" break="no"/>vinis non sit predicatio per accidens, ut
+<lb ed="#Ba"/>dictum est, tamen modus supponendi 
+di<lb ed="#Ba" break="no"/>versus est, et attribuendi et significandi.
+<lb ed="#Ba"/>Unde cum dicitur, Pater generat : Pater
+<lb ed="#Ba"/>est natura divina: ergo natura divina 
+ge<lb ed="#Ba" break="no"/>perat : incidit fallacia figure dictionis :
+<lb ed="#Ba"/>mutatur enim quis in quid, ac si idem
+<lb ed="#Ba"/>attribuatur ei quod est quid, quod 
+attri<lb ed="#Ba" break="no"/>buitur ei qui est Deus.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2847">
+                     <lb ed="#Ba"/>Ad aliud dicendum, quod ab 
+insuffi<lb ed="#Ba" break="no"/>cienti procedit : deberet enim addere,
+<lb ed="#Ba"/>quod res nec gignens nec genita, nec
+<lb ed="#Ba"/>spirans nec spirata, non est eadem: sed
+<lb ed="#Ba"/>in numerum ponit cum re gignente non.
+  <pb ed="#Ba" n="317"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>genita, et cum re genita non gignente,
+<lb ed="#Ba"/>et cum re spirata nec gignente nec genita.
+<lb ed="#Ba"/>Et hoc falsum est : eadem enim est 
+es<lb ed="#Ba" break="no"/>sentia cum personis. Unde in argumento
+<lb ed="#Ba"/>incidit fallacia consequentis. .
+</p>
+                  <p xml:id="Almn78-a67189-d1e2876">
+                     <lb ed="#Ba"/>Ad Hoc autem quod ulterius objicitur,
+<lb ed="#Ba"/>satis respondet Magister in I 
+Sententia<lb ed="#Ba" break="no"/>rum, distinctione IV. Cum enim dicit,
+<lb ed="#Ba"/>autse Deum genuit, aut alium Deum,
+<lb ed="#Ba"/>relativum diversitatis quod est, alium,
+<lb ed="#Ba"/>potest esse substantivum, vel 
+adjecti<lb ed="#Ba" break="no"/>vum. Si substantivam: tunc non 
+no<lb ed="#Ba" break="no"/>tat diversitatem nisi inter duo 
+suppo<lb ed="#Ba" break="no"/>sita generantis et geniti: et tunc 
+conce<lb ed="#Ba" break="no"/>dendum est, quod alium Deum, hoc est
+<lb ed="#Ba"/>alium qui est Deus. Si autem sit 
+adje<lb ed="#Ba" break="no"/>clivum : tunc ponit formam diversitatis
+<lb ed="#Ba"/>quam significat circa substantivum quod
+<lb ed="#Ba"/>est Deus : et tunc locutio falsa est : quia
+<lb ed="#Ba"/>idem Deus, neutraliter accipiendo idem,
+<lb ed="#Ba"/>non masculine, ut dicit Augustinus, sunt
+<lb ed="#Ba"/>Pater et Filius. Et sub hoc sensu dicit
+<lb ed="#Ba"/>Augustinus, quod Deus Pater de se 
+ge<lb ed="#Ba" break="no"/>nuit alium se, hoc est, alium qui est idem
+<lb ed="#Ba"/>sibi.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2922">
+                     <lb ed="#Ba"/>Et sic patet solutio ad totum.
+</p>
+               </div>
+               <div xml:id="Almn78-a67189-Dd1e2928">
+                  <head xml:id="Almn78-a67189-Hd1e2930">Articulus 2</head>
+                  <head xml:id="Almn78-a67189-Hd1e2933" type="question-title">
+      Cujus persone sit generare, utrum scilicet Patris, et qualiter
+    </head>
+                  <p xml:id="Almn78-a67189-d1e2936">
+                     <lb ed="#Ba"/>MEMBRI TERTII
+<lb ed="#Ba"/>ARTICULUS II.
+<lb ed="#Ba"/>Cujus persone sit generare, utrum scili
+<lb ed="#Ba" break="no"/>cet Patris, et qualiter ?
+</p>
+                  <p xml:id="Almn78-a67189-d1e2947">
+                     <lb ed="#Ba"/>Secundo queritur, Cujus persone sit
+<lb ed="#Ba"/>generare, utrum scilicet Patris, et 
+quali<lb ed="#Ba" break="no"/>ter ?.
+</p>
+                  <p xml:id="Almn78-a67189-d1e2956">
+                     <lb ed="#Ba"/>Propter questiones Augustini contra
+<lb ed="#Ba"/>Felicianum, quas ponit Magister in libro
+<lb ed="#Ba"/>I Sententiarum, distinctione VI, que
+<lb ed="#Ba"/>sunt iste : An Pater genuit Filium 
+vo<lb ed="#Ba" break="no"/>luntate, vel necessitate ?
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>Et, distinctione VII: An potuerit vel
+<lb ed="#Ba"/>voluerit gignere Filium ?
+</p>
+                  <p xml:id="Almn78-a67189-d1e2977">
+                     <lb ed="#Ba"/>Et propter tertiam quam ponit in 
+di<lb ed="#Ba" break="no"/>stinctione V: An Pater de sua 
+substan<lb ed="#Ba" break="no"/>tia, vel de nihilo, vel de aliquo genuerit
+<lb ed="#Ba"/>Filium ? Quam questionem Augustinus
+<lb ed="#Ba"/>tractat in libro contra Maximinum.
+  
+<lb ed="#Ba"/>Ex his questionibus probare volebant
+<lb ed="#Ba"/>heretic! Patrem non gignere Filium,
+</p>
+                  <p xml:id="Almn78-a67189-d1e2995">
+                     <lb ed="#Ba"/>Quantum ad primum scilicet, An Pater
+<lb ed="#Ba"/>genuit Filium voluntate, vel 
+necessi<lb ed="#Ba" break="no"/>tate ? sic objiciebant :
+</p>
+                  <p xml:id="Almn78-a67189-d1e3004">
+                     <lb ed="#Ba"/>1. Pater aut voluntate, aut necessitate
+<lb ed="#Ba"/>genuit Filium. Si necessitate, necessitas
+<lb ed="#Ba"/>cadit in Deum: quod miseria est : et hoc
+<lb ed="#Ba"/>absurdum est, quod miseria cadat in
+<lb ed="#Ba"/>Deum. Si autem voluntate : cum omnis
+<lb ed="#Ba"/>voluntas precedat volitum, voluntas 
+Pa<lb ed="#Ba" break="no"/>tris preiret generationem Filii : quod esse
+<lb ed="#Ba"/>non potest: quia secundum hoc 
+genera<lb ed="#Ba" break="no"/>tio esset opus voluntatis. Sed sicut dicit
+<lb ed="#Ba"/>Damascenus distinguens inter 
+generatio<lb ed="#Ba" break="no"/>nem et creationem, quod <quote xml:id="Almn78-a67189-Qd1e3030"> generatio est
+<lb ed="#Ba"/>opus nature existens, creatio autem opus
+<lb ed="#Ba"/>voluntatis, non nature, </quote> sequeretur
+<lb ed="#Ba"/>quod Filius esset factus per creationem,
+<lb ed="#Ba"/>sicut dixit Arius, etnon esset Patri 
+co<lb ed="#Ba" break="no"/>zeternus.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3044">
+                     <lb ed="#Ba"/>2. Adhuc, Objicitur de responso 
+Au<lb ed="#Ba" break="no"/>gustini qui dicit, quod nec necessitate,
+<lb ed="#Ba"/>nec voluntate: quia necessitas in Deo
+<lb ed="#Ba"/>non est, et voluntas sapientiam preire
+<lb ed="#Ba"/>non potest: et cum Filius sit sapientia
+<lb ed="#Ba"/>Patris et verbum, voluntas preire 
+gene<lb ed="#Ba" break="no"/>rationem Filii non potest. Hoc enim 
+fal<lb ed="#Ba" break="no"/>sum videtur, In omnibus enim in quibus
+<lb ed="#Ba"/>sapientia nascitur per acquisitionem, vel
+<lb ed="#Ba"/>considerationem, pracedit voluntas 
+que<lb ed="#Ba" break="no"/>rendi et inveniendi, et sic voluntas 
+pre<lb ed="#Ba" break="no"/>cedit sapientiam. Unde Augustinus in 
+li<lb ed="#Ba" break="no"/>bro IV de Trinitate : <quote xml:id="Almn78-a67189-Qd1e3074"> Partum mentis
+<lb ed="#Ba"/>preit quidam appetitus querendi et 
+in<lb ed="#Ba" break="no"/>veniendi : et sic proles nascitur, que es
+<lb ed="#Ba"/>mentis notitia. </quote>
+                  </p>
+                  <p xml:id="Almn78-a67189-d1e3084">
+                     <lb ed="#Ba"/>3. Adhuc, Anselmus dicit, quod <quote xml:id="Almn78-a67189-Qd1e3088"> vo-
+<pb ed="#Ba" n="318"/>
+                        <cb ed="#Ba" n="a"/>
+                        <lb ed="#Ba" break="no"/>luntas non tantum potentia est ad actum
+<lb ed="#Ba"/>specialem, sed generalis motor omnium
+<lb ed="#Ba"/>aliarum potentiarum ad actus suos. </quote>
+                     <lb ed="#Ba"/>Unde cum dicitur, Possum ambulare,
+<lb ed="#Ba"/>intelligitur, si volo: possum loqui, si
+<lb ed="#Ba"/>volo : possum intelligere, sivolo. Falsum
+<lb ed="#Ba"/>ergo est, quod voluntas sapientiam preire
+<lb ed="#Ba"/>non possit. Et sic videtur stare objectio
+<lb ed="#Ba"/>heretici, quod scilicet generatio Filii sit
+<lb ed="#Ba"/>opus voluntatis, et non nature.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3117">
+                     <lb ed="#Ba"/>4. Adhuc, QObjicit Arius et discipuli
+<lb ed="#Ba"/>sui, Maximinus, et Eunomius, et 
+Feli<lb ed="#Ba" break="no"/>cianus : Pater aut voluntarie genuit 
+Fi<lb ed="#Ba" break="no"/>lium, aut involuntarie. Si involuntarie :
+<lb ed="#Ba"/>cum involuntarium, sicut dicit 
+Aristote<lb ed="#Ba" break="no"/>les in IL Fthicorum, et Joannes 
+Dama<lb ed="#Ba" break="no"/>scenus ', et Gregorius Nyssenus in libro
+<lb ed="#Ba"/>de Anima, non sit nisi dupliciter, 
+scili<lb ed="#Ba" break="no"/>cet per violentiam, et ignorantiam, 
+se<lb ed="#Ba" break="no"/>queretur quod in Deum vel violentia vel
+<lb ed="#Ba"/>ignorantia caderet, quod absurdum est.
+<lb ed="#Ba"/>Si autem genuit voluntarie, putant sequi
+‘sui erroris propositum, quod scilicet 
+ge<lb ed="#Ba" break="no"/>neratio Filii opus sit voluntatis, non 
+na<lb ed="#Ba" break="no"/>ture, et quod Filius creatus sit et Patri
+<lb ed="#Ba"/>non coeternus.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3153">
+                     <lb ed="#Ba"/>Anuuc, idem volunt habere ex alia 
+di<lb ed="#Ba" break="no"/>visione, querentes scilicet, An Pater
+<lb ed="#Ba"/>potuerit, vel voluerit gignere Filium *?
+</p>
+                  <p xml:id="Almn78-a67189-d1e3162">
+                     <lb ed="#Ba"/>4, Si enim voluit, concludunt statim,
+<lb ed="#Ba"/>quod Filius est opus voluntatis. Si 
+po<lb ed="#Ba" break="no"/>tuit : cum omnis potentia precedat
+<lb ed="#Ba"/>actum, ut dicit Aristoteles in IX 
+Meta<lb ed="#Ba" break="no"/>physice, sive sit activa, sive passiva,
+<lb ed="#Ba"/>dummodo potentia et actus in eodem 
+ac<lb ed="#Ba" break="no"/>cipiantur, concludunt iterum propositum
+<lb ed="#Ba"/>errorem, quod scilicet Filius de potentia
+<lb ed="#Ba"/>exivit ad actum, et sic cowternus Patri
+<lb ed="#Ba"/>esse non potest.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3186">
+                     <lb ed="#Ba"/>2. Si dicatur hereticis, quod divisio
+<lb ed="#Ba"/>non est sufficiens, probant suam 
+inten<lb ed="#Ba" break="no"/>tionem per hoc quod dicitur ab 
+Aristo<lb ed="#Ba" break="no"/>tele in IL Physicorum, quod <quote xml:id="Almn78-a67189-Qd1e3196"> omne
+  <cb ed="#Ba" n="b"/>
+                        <lb ed="#Ba"/>quod fit, aut fit a proposito, aut a 
+na<lb ed="#Ba" break="no"/>tura. </quote> Et vult, quod hec duo principia
+<lb ed="#Ba"/>sunt agendi, et non plura. Et si fit a 
+pro<lb ed="#Ba" break="no"/>posito: cum propositum, ut dicit 
+Avi<lb ed="#Ba" break="no"/>cenna, et omnis potentia propositi sit ad
+<lb ed="#Ba"/>opposita, scilicet ad agere, et ad non 
+age<lb ed="#Ba" break="no"/>re: quod autem per naturam fit, de 
+ne<lb ed="#Ba" break="no"/>cessitate fit: volunt propositum habere,
+<lb ed="#Ba"/>quod aut necessitate, aut voluntate 
+ge<lb ed="#Ba" break="no"/>nuit Filium: et sic sequentur ea qua
+<lb ed="#Ba"/>supra conclusa sunt.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3226">
+                     <lb ed="#Ba"/>3. Adhuc errorem suum confirmant :
+<lb ed="#Ba"/>quia omne quod fit, aut contingenter fit,
+<lb ed="#Ba"/>aut ex necessitate fit. In divinis autem
+<lb ed="#Ba"/>nihil est contingenter, et sicut habitum
+<lb ed="#Ba"/>est, necessitas in Deum non cadit : 
+ge<lb ed="#Ba" break="no"/>neratio ergo Filii a Patre, nec 
+contin<lb ed="#Ba" break="no"/>genter fit, nec ex necessitate : et sic 
+ge<lb ed="#Ba" break="no"/>neratio Filii a Patre esse non potest.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3246">
+                     <lb ed="#Ba"/>Ipem volunt habere per aliam 
+divisio<lb ed="#Ba" break="no"/>nem, querentes, Si Filius generatur a
+<lb ed="#Ba"/>Patre, aut de aliquo generatur, aut de
+<lb ed="#Ba"/>nihilo ? ?
+</p>
+                  <p xml:id="Almn78-a67189-d1e3257">
+                     <lb ed="#Ba"/>Si de nihilo : tunc Filius de nihilo
+<lb ed="#Ba"/>factus est, et creatura est : et sic habetur
+<lb ed="#Ba"/>propositum. Si de aliquo : aut de 
+mate<lb ed="#Ba" break="no"/>ria, aut de substantia generantis. Si de
+<lb ed="#Ba"/>materia : tunc sequitur, quod de materia
+<lb ed="#Ba"/>factus est Filius, et sic iterum creatus est,
+<lb ed="#Ba"/>et non genitus a Patre.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3276">
+                     <lb ed="#Ba"/>Si autem dicatur natus de substantia
+<lb ed="#Ba"/>Patris, querunt dividentes, utrum de 
+to<lb ed="#Ba" break="no"/>ta substantia, vel de parte. Si de tota :
+<lb ed="#Ba"/>tunc nihil substantialium est in Patre
+<lb ed="#Ba"/>quod non sit in Filio : et hoc falsum est,
+<lb ed="#Ba"/>ut dicunt : quia sic dicitur, Joan. xiv,
+<lb ed="#Ba"/>28 : Pater major me est : quod non
+<lb ed="#Ba"/>posset dici, nisi aliquid esset in Patre,
+<lb ed="#Ba"/>quod non esset in Filio.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3298">
+                     <lb ed="#Ba"/>Adhuc, Hoc esset contra habitudinem
+<lb ed="#Ba"/>prepositionis de, que participationem
+<lb ed="#Ba"/>notat. Si autem est de parte : tunc 
+sub<lb ed="#Ba" break="no"/>stantia Patris partibilis est : et tunc non
+<pb ed="#Ba" n="319"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>est summe simplicitatis, et non ejusdem
+<lb ed="#Ba"/>substantie sunt Pater et Filius.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3318">
+                     <lb ed="#Ba"/>Propter hec et similia sophismata
+<lb ed="#Ba"/>dixit Arius, sicut in libro Arii legitur,
+<lb ed="#Ba"/>quem ipse ad confirmationem erroris sui
+<lb ed="#Ba"/>scripsit, quod Filius est creatura et opus
+<lb ed="#Ba"/>voluntatis sieut cetera creata : sed est
+<lb ed="#Ba"/>creatura in qua est virtus, verbum, et
+<lb ed="#Ba"/>sapientia prime cause. Dicit enim, sicut
+<lb ed="#Ba"/>ego ipse in libro Arii legi, quod Filius
+<lb ed="#Ba"/>est intellectus sive intelligentia ante
+<lb ed="#Ba"/>mundum creata, et ante omnem ordinem
+<lb ed="#Ba"/>intelligentiaram, que ordinibus 
+ccelesti<lb ed="#Ba" break="no"/>bus mobilibus sunt attribute : in quem
+<lb ed="#Ba"/>intellectum sive intelligentiam influxit
+<lb ed="#Ba"/>Deus mentale verbum, quod est forma,
+<lb ed="#Ba"/>ct virtus, et sapientia, et ars omnium
+<lb ed="#Ba"/>creatorum. Et hoc dixit esse quod 
+dici<lb ed="#Ba" break="no"/>tur, Joan. 1, 3: Omnia per ipsum facta
+<lb ed="#Ba"/>sunt, ef sine ipso factum est nihil quod
+<lb ed="#Ba"/>factum est. Et hoc est quod dicitur,
+<lb ed="#Ba"/>Joan. v, 17: Pater meus usque modo
+<lb ed="#Ba"/>operatur, et ego operor. Et dixit, quod
+<lb ed="#Ba"/>ideo dicitur Filius, quia in similitudine
+<lb ed="#Ba"/>forme et speciei est divine, per 
+poten<lb ed="#Ba" break="no"/>tiam inclinationis ad corpus a 
+simplicita<lb ed="#Ba" break="no"/>te et forma Dei non dissimilis.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3375">
+                     <lb ed="#Ba"/>Et in libro illo omnes rationes que
+<lb ed="#Ba"/>induct sunt, inveni conscriptas.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3382">
+                     <lb ed="#Ba"/>Sozurio. Ad hoc quod objiciunt 
+here<lb ed="#Ba" break="no"/>tici, non est difficile solvere.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3389">
+                     <lb ed="#Ba"/>Ad hoc enim quod prima questione
+<lb ed="#Ba"/>querunt, Utrum Pater voluntate vel 
+ne<lb ed="#Ba" break="no"/>cessitate genuerit Filium ? satis 
+respon<lb ed="#Ba" break="no"/>derunt antiqui, Magister scilicet in 
+Sen<lb ed="#Ba" break="no"/>lentiis, Prepositivus, et Gulielmus de
+<lb ed="#Ba"/>Altisiodoro, distinguentes voluntatem,
+<lb ed="#Ba"/>et distinguentes necessitatem, quod 
+sci<lb ed="#Ba" break="no"/>licet est voluntas preecedens, et est 
+vo<lb ed="#Ba" break="no"/>luntas concomitans. Voluntate 
+prace<lb ed="#Ba" break="no"/>dente non genuit Pater Filium : quia sic
+<lb ed="#Ba"/>sequeretur, quod esset opus voluntatis.
+<lb ed="#Ba"/>Voluntas autem concomitans duplex est,
+<lb ed="#Ba"/>seilicet concomitans actum interiorem
+<lb ed="#Ba"/>substantialem et naturalem, qui 
+involun<lb ed="#Ba" break="no"/>tarius esse non potest in Deo, et actum
+<lb ed="#Ba"/>exteriorem, qui concomitatur actum crea-
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba" break="no"/>tionis, qui in diversitate essentie est, et
+<lb ed="#Ba"/>terminatur ad opus creatum. Voluntate
+<lb ed="#Ba"/>igitur concomitante actum interiorem
+<lb ed="#Ba"/>generationis in eadem substantia genuit
+<lb ed="#Ba"/>Pater Filium, sed non voluntate 
+conco<lb ed="#Ba" break="no"/>mitante actum exteriorem qui est in 
+di<lb ed="#Ba" break="no"/>versitate essentia. Et ex hoc non 
+sequi<lb ed="#Ba" break="no"/>tur, quod Filius sit opus voluntatis,
+<lb ed="#Ba"/>sed opus nature quod concomitatur 
+vo<lb ed="#Ba" break="no"/>luntas.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3451">
+                     <lb ed="#Ba"/>Similiter distinguebant necessitatem,
+<lb ed="#Ba"/>que multiplex est, secundum omne 
+ge<lb ed="#Ba" break="no"/>nus cause. Est enim necessitas 
+coactio<lb ed="#Ba" break="no"/>nis, secundum causam efficientem. Et est
+<lb ed="#Ba"/>necessitas obligationis, secundum 
+cau<lb ed="#Ba" break="no"/>sam materialem, secundum quod dicit
+<lb ed="#Ba"/>Philosophus in IV de Celo et Mundo,
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-a67189-Qd1e3470"> id in quo vincit terra, de 
+neces<lb ed="#Ba" break="no"/>sitate descendit a tribus elementis, igne
+<lb ed="#Ba"/>scilicet, aere, et aqua. </quote> Et est necessitas
+<lb ed="#Ba"/>inevitabilitatis dicta, secundum causam
+<lb ed="#Ba"/>formalem, sicut necesse est lucem 
+illumi<lb ed="#Ba" break="no"/>nare, et intellectum intelligere. Et has
+<lb ed="#Ba"/>tres necessitates in Deum, qui summe
+<lb ed="#Ba"/>liber est et libera causa omnium operum
+<lb ed="#Ba"/>suorum, impossibile est cadere. Ex 
+pri<lb ed="#Ba" break="no"/>ma enim necessitate sequeretur, quod
+<lb ed="#Ba"/>cogi posset : ex secunda, quod obligatus
+<lb ed="#Ba"/>esset : ex tertia, quod coarctatus ad
+<lb ed="#Ba"/>unum : que omnia prejudicium facerent
+<lb ed="#Ba"/>summe libertati. Dicitur quarto modo
+<lb ed="#Ba"/>necesssitas secundum causam finalem,
+<lb ed="#Ba"/>quam Boetius vocat necessitatem 
+suppo<lb ed="#Ba" break="no"/>sitionis, secundum quam dicimus, si 
+foe<lb ed="#Ba" break="no"/>mina honesta esse debeat, necesse est
+<lb ed="#Ba"/>castam esse : et secundum quam dicitur,
+<lb ed="#Ba"/>Luc. x, 42: Unum est necessarium : et,
+<lb ed="#Ba"/>Joan. 1x, 4: Me oportet operart opera
+<lb ed="#Ba"/>ejus qui misit me, donec dies est. Et hoc
+<lb ed="#Ba"/>modo dicimus, quod Pater necessitate
+<lb ed="#Ba"/>genuit Filium ; quia si summum bonum
+<lb ed="#Ba"/>esse debeat, necesse est quod summa et
+<lb ed="#Ba"/>perfecta diffusione seipsum diffundat et
+<lb ed="#Ba"/>communicet. Summa autem diffusio est
+<lb ed="#Ba"/>per generationem : quia nisi sic se 
+dif<lb ed="#Ba" break="no"/>funderet, deficeret a ratione summi boni,
+<lb ed="#Ba"/>et sic esset mutabilis. Unde hec etiam
+<lb ed="#Ba"/>necessitas dicitur necessitas 
+immutabili<lb ed="#Ba" break="no"/>tatis ad finem.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3541">
+                     <pb ed="#Ba" n="320"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba"/>Similiter distinxerunt potentiam in
+<lb ed="#Ba"/>eodem acceptam cum actu, scilicet in
+<lb ed="#Ba"/>potentiam precedentem, et in potentiam
+<lb ed="#Ba"/>concomitantem. Et cum dicitur, quod
+<lb ed="#Ba"/>Deus potuit generare Filium, conceditur
+<lb ed="#Ba"/>hoc de potentia concomitante: et ex hoc
+‘non sequitur, quod Filius sit potenti
+<lb ed="#Ba"/>Filius, et quod generatio opus sit 
+poten<lb ed="#Ba" break="no"/>tie preeuntis, sed quod sit opus nature
+<lb ed="#Ba"/>quod concomitatur potentia. Ex hoc
+<lb ed="#Ba"/>etiam non sequitur, quod Deus sit 
+im<lb ed="#Ba" break="no"/>potens si non habet potentiam actum 
+pre<lb ed="#Ba" break="no"/>euntem.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3574">
+                     <lb ed="#Ba"/>Per hoc patet solutio ad omnia que
+<lb ed="#Ba"/>inducunt heretici ad primas duas 
+que<lb ed="#Ba" break="no"/>stiones confirmandas.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3583">
+                     <lb ed="#Ba"/>Ad id quod querunt, An Deus Pater
+<lb ed="#Ba"/>Filium de aliquo, vel nihilo genuerit ?
+</p>
+                  <p xml:id="Almn78-a67189-d1e3590">
+                     <lb ed="#Ba"/>Respondendum est per Hilarium in
+<lb ed="#Ba"/>libro XIV de Trinitate, ubi sic dicit :
+<lb ed="#Ba"/>
+                     <quote xml:id="Almn78-a67189-Qd1e3598"> Unigenitus Deus cum natus sit, 
+Pa<lb ed="#Ba" break="no"/>trem testatur auctorem :; cum ex 
+manen<lb ed="#Ba" break="no"/>te natus est, non est natus ex nihilo : et
+<lb ed="#Ba"/>cum ante tempus natus est, omnem
+<lb ed="#Ba"/>sensum prevenit nascendo. </quote> 
+Distin<lb ed="#Ba" break="no"/>guendum ergo, quod propositio de, vel
+<lb ed="#Ba"/>ex, cum dicitur, hoc est ex nihilo, 
+tripli<lb ed="#Ba" break="no"/>cem notat habitudinem, scilicet originis
+<lb ed="#Ba"/>secundum quod initiata est res illa post
+<lb ed="#Ba"/>nihil, sicut dicit Philosophus : Ex his
+<lb ed="#Ba"/>sive ludis olympia, hoc est, post hos 
+lu<lb ed="#Ba" break="no"/>dos sunt olympia. Et sic notat 
+habitudi<lb ed="#Ba" break="no"/>nem nullius ex quo fiat presuppositi. Et
+<lb ed="#Ba"/>hoc secundum Philosophos dicitur 
+crea<lb ed="#Ba" break="no"/>tum, secundum quod ens dicitur creatum
+<lb ed="#Ba"/>primum. Aliquando notat habitudinem
+<lb ed="#Ba"/>negationis principii materialis tantum,
+<lb ed="#Ba"/>sicut animam et Angelum dicimus facta
+<lb ed="#Ba"/>ex nihilo. Nullo istorum modorum vel
+<lb ed="#Ba"/>Pater vel Filius vel Spiritus sanctus est
+<lb ed="#Ba"/>ex nihilo. Non enim sunt post nihil, nec
+<lb ed="#Ba"/>sunt creata prima, nec per abnegationem
+<lb ed="#Ba"/>principii materialis hoc modo sicut anima
+<lb ed="#Ba"/>et Angelus dicuntur esse ex nihilo : quia
+<lb ed="#Ba"/>quod hoc modo ex nihilo est, initium
+<lb ed="#Ba"/>habet esse et durationis.
+  
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>Similiter cum dicitur hoc esse de 
+ali<lb ed="#Ba" break="no"/>quo, prepositio de in triplici est 
+habitu<lb ed="#Ba" break="no"/>dine, scilicet originis tantum : et sic.
+<lb ed="#Ba"/>Filius et Spiritus sanctus sunt de aliquo,
+<lb ed="#Ba"/>et Pater non de aliquo. Sed ex hoc non
+<lb ed="#Ba"/>sequitur, quod Pater sit ex nihilo 
+prop<lb ed="#Ba" break="no"/>ter habitudinem ordinis que remanet in
+<lb ed="#Ba"/>prepositione, cum dicitur, hoc est ex
+<lb ed="#Ba"/>nihilo, hoc est, post nihil.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3677">
+                     <lb ed="#Ba"/>Notat etiam habitudinem cause 
+ma<lb ed="#Ba" break="no"/>terialis, sicut cum dicitur cultellus de
+<lb ed="#Ba"/>ferro. Et tunc aliquando est partitiva
+<lb ed="#Ba"/>prepositio, et aliquando notat 
+indistin<lb ed="#Ba" break="no"/>ctionem substantie materialis in 
+mate<lb ed="#Ba" break="no"/>riato, Et nullo istorum modorum dici
+<lb ed="#Ba"/>potest, quod Pater vel Filius vel 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus sint de aliquo.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3698">
+                     <lb ed="#Ba"/>Aliquando simplicem notat 
+habitudi<lb ed="#Ba" break="no"/>nem substantiae ad habens substantiam
+<lb ed="#Ba"/>illam. Et sic dicitur Filius de substantia
+<lb ed="#Ba"/>Patris, et Spiritus sanctus de substantia
+<lb ed="#Ba"/>Patris et Filii, secundum quod diximus,
+<lb ed="#Ba"/>quod habitudo originis que est in 
+pre<lb ed="#Ba" break="no"/>positione de, notat habitudinem persone
+<lb ed="#Ba"/>ad personam : et habitudo obliqui ad
+<lb ed="#Ba"/>rectum, cum dicitur Filius esse 
+substan<lb ed="#Ba" break="no"/>tia de substantia, vel Filii substantia de
+<lb ed="#Ba"/>substantia Patris, non notat nisi 
+indis<lb ed="#Ba" break="no"/>tinctam coessentialitatem. Et sic dicimus
+<lb ed="#Ba"/>Filium esse de tota substantia Patris, et
+<lb ed="#Ba"/>non de Patre, hoc est, totam habere
+<lb ed="#Ba"/>Patris substantiam, et Spiritum sanctum
+<lb ed="#Ba"/>de tota substantia Patris et Filii.
+</p>
+                  <p xml:id="Almn78-a67189-d1e3735">
+                     <lb ed="#Ba"/>Et quod Filius dicit : Pater major me
+<lb ed="#Ba"/>est ', secundum Augustinum et Hilarium
+<lb ed="#Ba"/>non refertur nisi ad auctoritatem 
+princi<lb ed="#Ba" break="no"/>pii que est in Patre, et non ad substantia
+<lb ed="#Ba"/>particularitatem. Unde non sequitur, si
+<lb ed="#Ba"/>Pater major est, quod Filius minor sit :
+<lb ed="#Ba"/>quia generatio et etiam processio nature
+<lb ed="#Ba"/>ponunt equalitatem in eo a quo 
+proce<lb ed="#Ba" break="no"/>dunt Filius et Spiritus sanctus, et in eis
+<lb ed="#Ba"/>qui procedunt. Natura enim cum 
+sim<lb ed="#Ba" break="no"/>plicissima sit, quando communicatur per
+<lb ed="#Ba"/>actum substantialis processionis, necesse
+<lb ed="#Ba"/>est, quod tota communicetur. Unde per
+<lb ed="#Ba"/>majoritatem illam non notatur nisi au-
+<pb ed="#Ba" n="321"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>ctoritas que est in Patre, qui est 
+princi<lb ed="#Ba" break="no"/>pium non de principio : que in Filio
+<lb ed="#Ba"/>esse non potest, cum sit principium de
+<lb ed="#Ba"/>principio : nec in Spiritu sancto esse
+<lb ed="#Ba"/>polest, cum sit principium de utrogne
+<lb ed="#Ba"/>principio. Minor tamen non potest. esse
+<lb ed="#Ba"/>Filius vel Spiritus sanctus : quia 
+gene<lb ed="#Ba" break="no"/>ratio et processio non sunt productiones,
+<lb ed="#Ba"/>quibus quis ex se proferat minus, sed
+<lb ed="#Ba"/>wquale per omnia, sicut probatur verbis
+<lb ed="#Ba"/>Augustini in libro XIV de Trinitate ',
+<lb ed="#Ba"/>que ponit Magister in I Sententiarum,
+<lb ed="#Ba"/>distinct. IL, ubi loquitur de equalitate
+<lb ed="#Ba"/>mentis et intellectus et voluntatis, ex
+<lb ed="#Ba"/>quibus vult probare coessentialitatem
+<lb ed="#Ba"/>Trinitatis et equalitatem. .
+</p>
+                  <p xml:id="Almn78-a67189-d1e3807">
+                     <lb ed="#Ba"/>Et per hoc patet solutio ad totum hoc
+<lb ed="#Ba"/>quod adducunt ad tertiam questionem
+<lb ed="#Ba"/>pro sui erroris confirmatione.
+</p>
+               </div>
+            </div>
+            <div xml:id="Almn78-a67189-Dd1e3818">
+               <head xml:id="Almn78-a67189-Hd1e3820">Membrum 4</head>
+               <head xml:id="Almn78-a67189-Hd1e3823" type="question-title">
+  Utrum uni vel pluribus personis in 
+  divinis conveniat generare ? et, Utrum
+  semper, vel aliquando ?
+</head>
+               <p xml:id="Almn78-a67189-d1e3826">
+                  <lb ed="#Ba"/>MEMBRUM IV.
+<lb ed="#Ba"/>Utrum uni vel pluribus personis in 
+di<lb ed="#Ba" break="no"/>vinis conveniat generare ? et, Utrum
+<lb ed="#Ba"/>semper, vel aliquando ?
+</p>
+               <p xml:id="Almn78-a67189-d1e3837">
+                  <lb ed="#Ba"/>Quarto queritur, Si persone convenit
+<lb ed="#Ba"/>generare, cui persone conveniat, utrum
+<lb ed="#Ba"/>uni, vel pluribus, et utrum semper, vel
+<lb ed="#Ba"/>aliquando ?
+</p>
+               <p xml:id="Almn78-a67189-d1e3848">
+                  <lb ed="#Ba"/>Et hoc est querere, Utrum necesse sit
+<lb ed="#Ba"/>generationem divinam inquietam esse et
+<lb ed="#Ba"/>infinitam per successionem.
+</p>
+               <p xml:id="Almn78-a67189-d1e3858">
+                  <lb ed="#Ba"/>Quam questionem tractat Augustinus
+<lb ed="#Ba"/>in libro contra Eunomium hereticum,
+<lb ed="#Ba"/>ct Magister tangit eam in libro I 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinct. VII.
+</p>
+               <p xml:id="Almn78-a67189-d1e3869">
+                  <lb ed="#Ba"/>Et iterum, Utrum generatio divina
+<lb ed="#Ba"/>continue fiat secundum omne tempus,
+<lb ed="#Ba"/>vel et facta sit aliquando, et aliquando
+<lb ed="#Ba"/>futura, vel praesens ?
+</p>
+               <p xml:id="Almn78-a67189-d1e3880">
+                  <lb ed="#Ba"/>Ad prima partem questionis 
+objici<lb ed="#Ba" break="no"/>tur sic: ;
+<lb ed="#Ba"/>1. Nulla potentia est in Patre, que
+<lb ed="#Ba"/>non sit in Filio : potentia generandi est
+<lb ed="#Ba"/>in Patre : ergo potentia generandi est
+<lb ed="#Ba"/>etiam in Filio : ergo “sicut "Pater potest
+<lb ed="#Ba"/>generare, ita etiam et Filius. Sed dicit
+<lb ed="#Ba"/>Philosophus in 1X prime philosophiae,
+<lb ed="#Ba"/>quod in rebus perpetuis sive eternis
+<lb ed="#Ba"/>idem est esse et posse : si ergo Filius
+<lb ed="#Ba"/>habet potentiam generandi, generat 
+Fi<lb ed="#Ba" break="no"/>lium, et ille Filius alium, et sic in 
+infini<lb ed="#Ba" break="no"/>tum per successionem, et ita non finitur
+<lb ed="#Ba"/>generatio.
+</p>
+               <p xml:id="Almn78-a67189-d1e3913">
+                  <lb ed="#Ba"/>2. Adhuc, Generatio humana ‘
+exem<lb ed="#Ba" break="no"/>plata est a divina : generatio autem 
+hu<lb ed="#Ba" break="no"/>mana non stat in filio, quinimo filius
+<lb ed="#Ba"/>generat sicut et pater : Filius ergo in
+<lb ed="#Ba"/>divinis generabit Filium, et ille alium,
+<lb ed="#Ba"/>et non stabit generatio per successionem,
+<lb ed="#Ba"/>sicut quidam poetarum videntur 
+di<lb ed="#Ba" break="no"/>cere.
+</p>
+               <p xml:id="Almn78-a67189-d1e3933">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Si Filius generabit filium alium,
+<lb ed="#Ba"/>ille erit nepos primi Patris : non ergo
+<lb ed="#Ba"/>conjungetur avo nisi per filium : et sic
+<lb ed="#Ba"/>per medium : et tamen erit persona 
+di<lb ed="#Ba" break="no"/>vina : non ergo summa germanitas et
+<lb ed="#Ba"/>propinquitas est inter personas divinas :
+<lb ed="#Ba"/>quod est inconveniens.
+</p>
+               <p xml:id="Almn78-a67189-d1e3953">
+                  <lb ed="#Ba"/>2. Adhuc, Anselmus in libro de 
+Pro<lb ed="#Ba" break="no"/>cessione Spiritus sancti contra Grecos,
+<lb ed="#Ba"/>volens probare Spiritum sanctum 
+proce<lb ed="#Ba" break="no"/>dere a Filio sicut a Patre, supponit illud
+<lb ed="#Ba"/>Boetii in libro de Trinitate, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a67189-Qd1e3968"> sola oppositio relationis distinguit 
+Tri<lb ed="#Ba" break="no"/>nitatem : et ubi non est oppositio 
+rela<lb ed="#Ba" break="no"/>tionis, manet unitas et identitas. </quote> 
+Spi<lb ed="#Ba" break="no"/>ritus autem sanctus per hoc quod procedit
+<lb ed="#Ba"/>a Patre, relative non opponitur Filio.
+<lb ed="#Ba"/>Ergo cum Filio manet unus et idem,
+<lb ed="#Ba"/>nisi etiam a Filio procedere dicatur, ut
+<lb ed="#Ba"/>relativam ad ipsum habeat 
+oppositio<lb ed="#Ba" break="no"/>nem.
+</p>
+               <p xml:id="Almn78-a67189-d1e3990">
+                  <lb ed="#Ba"/>3. A simili arguitur sic : Nepos per
+<pb ed="#Ba" n="322"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>hoc quod generatur a Filio, relativam
+<lb ed="#Ba"/>oppositionem nec ad Patrem habet, nec
+<lb ed="#Ba"/>ad Spiritum sanctum : a neutro ergo
+<lb ed="#Ba"/>distinguitur in persona : unus ergo erit
+<lb ed="#Ba"/>et idem cum Patre et Spiritu sancto :
+<lb ed="#Ba"/>quod absurdum valde est et omni 
+intel<lb ed="#Ba" break="no"/>lectui contrarium : sic ergo Filius 
+gene<lb ed="#Ba" break="no"/>rando Filium, generaret Patrem et 
+Spi<lb ed="#Ba" break="no"/>ritum sanctum.
+</p>
+               <p xml:id="Almn78-a67189-d1e4019">
+                  <lb ed="#Ba"/>4, Adhuc, Si Filius generaret filium,
+<lb ed="#Ba"/>ille filius proprietate filiationis erit filius,
+<lb ed="#Ba"/>et persona divina : et similiter primus
+<lb ed="#Ba"/>fililus proprietate filiationis erit filius et
+<lb ed="#Ba"/>persona divina : quero, secundum quid
+<lb ed="#Ba"/>differant iste filiationes ? Constat, quod
+<lb ed="#Ba"/>non differunt per materiam in qua 
+indi<lb ed="#Ba" break="no"/>viduentur : quia materia in divinis nec
+<lb ed="#Ba"/>esse potest, nec est : Nec differunt per
+<lb ed="#Ba"/>essentiam : quia proprietas in divinis ab
+<lb ed="#Ba"/>essentia nullam facit distinctionem. Nec
+<lb ed="#Ba"/>formaliter differunt : quia unius speciei
+<lb ed="#Ba"/>sunt, et definitionis, et forme, sicut 
+om<lb ed="#Ba" break="no"/>nis albedo cum omni albedine. Ergo
+<lb ed="#Ba"/>exdem sunt filiationes iste : quia dicit
+<lb ed="#Ba"/>Philosophus in VII Topicorum, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a67189-Qd1e4058"> eadem sunt,in quibus non est 
+differen<lb ed="#Ba" break="no"/>tia :</quote> sed eadem proprietates personales
+<lb ed="#Ba"/>easdem constituunt personas : ergo 
+pri<lb ed="#Ba" break="no"/>mus filius cum secundo erit una persona
+<lb ed="#Ba"/>et eadem erit per eamdem rationem : et
+<lb ed="#Ba"/>si in infinitum multiplicentur, idem 
+se<lb ed="#Ba" break="no"/>quetur : et sic sequitur, quod idem 
+gene<lb ed="#Ba" break="no"/>rat seipsum : quod dicit Richardus esse
+<lb ed="#Ba"/>contra omnem intellectum, quod 
+scili<lb ed="#Ba" break="no"/>cet ille de quo aliquis est, sit ille qui est
+<lb ed="#Ba"/>de ipso, vel sit ab eo qui est de ipso.
+</p>
+               <p xml:id="Almn78-a67189-d1e4083">
+                  <lb ed="#Ba"/>Ad id quod secundo queritur ', sic
+<lb ed="#Ba"/>proceditur :
+</p>
+               <p xml:id="Almn78-a67189-d1e4090">
+                  <lb ed="#Ba"/>Videtur enim, quod Filius non semel,
+<lb ed="#Ba"/>sed continue nascilur de Patre : et sic
+<lb ed="#Ba"/>generatio ejus sit inquieta et infinita.
+<lb ed="#Ba"/>Origenes super Jeremiam: <quote xml:id="Almn78-a67189-Qd1e4100"> Salvator
+  <cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>noster est sapientia Dei : sapientia vero
+<lb ed="#Ba"/>est splendor eterne lucis *. </quote> Ad Hebr.
+<lb ed="#Ba"/>I, 3 : Qui cum sit splendor gloria.
+<lb ed="#Ba"/>Splendor autem non semel nascitur, ot
+<lb ed="#Ba"/>desinit : sed quoties ortum fuerit lumen
+<lb ed="#Ba"/>ex quo splendor oritur, toties etiam 
+ori<lb ed="#Ba" break="no"/>tur splendor claritatis. Unde ait in libro
+<lb ed="#Ba"/>Proverbiorum, vin, 25 : Ante omnes
+<lb ed="#Ba"/>colles generat me Dominus : non, ut
+<lb ed="#Ba"/>quidam male legunt, generavit me 3. Kx
+<lb ed="#Ba"/>his verbis accipitur, quod continue per
+<lb ed="#Ba"/>temporis successionem generetur Filius :
+<lb ed="#Ba"/>et sic infinita et inquieta sit ejus 
+genera<lb ed="#Ba" break="no"/>tio.
+</p>
+               <p xml:id="Almn78-a67189-d1e4136">
+                  <lb ed="#Ba"/>In contrarium hujus est,
+<lb ed="#Ba"/>1. Quod dicit Gregorius in Moralibus,
+<lb ed="#Ba"/>super Job sic dicens : <quote xml:id="Almn78-a67189-Qd1e4144"> Dominus Jesus
+<lb ed="#Ba"/>in eo quod virtus et sapientia Dei est,
+<lb ed="#Ba"/>de Palre ante tempora natus est : vel
+<lb ed="#Ba"/>potius quia nec ccepit nasci, nec desiit,
+<lb ed="#Ba"/>dicamus verius, semper nalus: non 
+au<lb ed="#Ba" break="no"/>tem possumus dicere, semper nascitur,
+<lb ed="#Ba"/>ne imperfectum esse videatur. At vero
+<lb ed="#Ba"/>ut eternus designari valeat et perfectus,
+<lb ed="#Ba"/>et semper dicamus, et natus, quatenus
+<lb ed="#Ba"/>et natus ad perfectionem pertineat, et
+<lb ed="#Ba"/>semper ad eternitatem ‘. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e4169">
+                  <lb ed="#Ba"/>2. Ad idem, Augustinus in libro
+<lb ed="#Ba"/>LXXXUL Questionum de semper nato
+<lb ed="#Ba"/>disserens sic ait: <quote xml:id="Almn78-a67189-Qd1e4177"> Melior est semper
+<lb ed="#Ba"/>natus, quam qui semper nascitur: quia
+<lb ed="#Ba"/>qui semper nascitur, nondum est 
+na<lb ed="#Ba" break="no"/>tus : et numquam natus est, vel natus
+<lb ed="#Ba"/>erit si semper nascitur. Aliud enim est
+<lb ed="#Ba"/>nasci, aliud natum esse. Ac per hoc
+<lb ed="#Ba"/>numquam Filius est, si numquam natus
+<lb ed="#Ba"/>est. Filius aufem est, quia natus : et
+<lb ed="#Ba"/>semper Filius : semper igitur natus. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e4199">
+                  <lb ed="#Ba"/>Sorunio. Ad primam questionem 
+di<lb ed="#Ba" break="no"/>cendum, quod sicut probant rationes 
+in<lb ed="#Ba" break="no"/>ducte, Filius non generat alium filium :
+<lb ed="#Ba"/>et secundum quod dicit Anselmus, quod
+<pb ed="#Ba" n="323"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>omne inconveniens Deo impossibile est :
+<lb ed="#Ba"/>impossibile est ergo Filium generare
+<lb ed="#Ba"/>lium filium.
+</p>
+               <p xml:id="Almn78-a67189-d1e4221">
+                  <lb ed="#Ba"/>Ad primum autem quod objicitur 
+con<lb ed="#Ba" break="no"/>tra hoe, dicendum quod quecumque
+<lb ed="#Ba"/>potentia est in Patre, est in Filio, sed
+<lb ed="#Ba"/>non ad idem, nisi in genere : et, 
+poten<lb ed="#Ba" break="no"/>lia generandi, secundum quod 
+gerundi<lb ed="#Ba" break="no"/>vum sumitur a verbo impersonali, 
+ea<lb ed="#Ba" break="no"/>dem est in Patre et in Filio. Sed in Patre
+<lb ed="#Ba"/>est ad hoc quod generet, in Filio autem
+<lb ed="#Ba"/>ad hoc quod generetur. Et haec solutio
+<lb ed="#Ba"/>est Magistri in primo Sententiarum, 
+di<lb ed="#Ba" break="no"/>stinct. VII, et ratio solutionis.
+</p>
+               <p xml:id="Almn78-a67189-d1e4247">
+                  <lb ed="#Ba"/>Tnnuit tamen etiam aliam solutionem.
+<lb ed="#Ba"/>Cum enim dico, potentia generandi, duo
+<lb ed="#Ba"/>dico, scilicet potentiam, et hoc nature
+<lb ed="#Ba"/>est : et generandi, quod secundum 
+Do<lb ed="#Ba" break="no"/>natum verbum,est, quia actionem 
+signi<lb ed="#Ba" break="no"/>ficat et agere : secundum Priscianum
+<lb ed="#Ba"/>autem nomen verbale : et sic iterum
+<lb ed="#Ba"/>refertur ad actionem et ad agere : et
+<lb ed="#Ba"/>hoc est notionis sive proprietatis. Unde
+<lb ed="#Ba"/>quod nature est, scilicet potentia, unum
+<lb ed="#Ba"/>est in Patre et Filio : sed quod notionis
+<lb ed="#Ba"/>sive proprietatis est, est in Patre et Filio
+<lb ed="#Ba"/>diversum : Patri enim proprium est ut
+<lb ed="#Ba"/>generet, Filio autem ut generetur.
+</p>
+               <p xml:id="Almn78-a67189-d1e4280">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod in 
+genera<lb ed="#Ba" break="no"/>tione hominis vel animalium, potentia
+<lb ed="#Ba"/>generandi a patre transfunditur in filium
+<lb ed="#Ba"/>hac de causa: quia in tali generatione
+<lb ed="#Ba"/>pater imperfectum esse largitur filio per
+<lb ed="#Ba"/>generationem : quod quia per se 
+imper<lb ed="#Ba" break="no"/>fectum est, et deficit in seipso, non in
+<lb ed="#Ba"/>uno et simul possidens se totum, oportet
+<lb ed="#Ba"/>quod apprehendat et teneat se per 
+suc<lb ed="#Ba" break="no"/>cessionem in esse divino, quod 
+deside<lb ed="#Ba" break="no"/>rare omni nature est inditum. Secus
+<lb ed="#Ba"/>autem est in divinis, ubi Pater 
+perfe<lb ed="#Ba" break="no"/>ctum esse largitur Filio, quod se totum
+<lb ed="#Ba"/>in uno possidet et simul: et ideo 
+succes<lb ed="#Ba" break="no"/>sio esset ibi inconveniens. Nec generatio
+<lb ed="#Ba"/>humana exemplificare potest 
+generatio<lb ed="#Ba" break="no"/>nem divinam in omnibus : sed in hoc
+<lb ed="#Ba"/>exemplificat, quod ex potentia naturali
+<lb ed="#Ba"/>est, et in simile speciei et formae.
+</p>
+               <p xml:id="Almn78-a67189-d1e4324">
+                  <lb ed="#Ba"/>Ad aliud partem questionis dicen-
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba" break="no"/>dum, quod Sancti non intendunt dicere,
+<lb ed="#Ba"/>quod generatio divina temporibus vel
+<lb ed="#Ba"/>differentiis temporum subjaceat, sed
+<lb ed="#Ba"/>quod eteraa sit, et nulli desit 
+differen<lb ed="#Ba" break="no"/>tiae temporis, ut dicit Hieronymus. Unde
+<lb ed="#Ba"/>proprie loquendo verba motus 
+tempora<lb ed="#Ba" break="no"/>les significantia, ad esse resolvenda
+<lb ed="#Ba"/>sunt : quia in differentiis temporum se-
+<lb ed="#Ba" break="no"/>cundum esse duo invenimus perfecta,
+<lb ed="#Ba"/>preteritum scilicet, et prasens : 
+preteri<lb ed="#Ba" break="no"/>tum enim necesse est esse, presens 
+au<lb ed="#Ba" break="no"/>tem non totum. Est autem cavendum,
+<lb ed="#Ba"/>quia duplex est presens, scilicet 
+imparti<lb ed="#Ba" break="no"/>bile, et partibile. Impartibile totum 
+si<lb ed="#Ba" break="no"/>mul est, de quo dicit Aristoteles in
+<lb ed="#Ba"/>III Physicorum, quod de tempore non est
+<lb ed="#Ba"/>accipere nisi nunc temporis : et hoc est
+<lb ed="#Ba"/>substantia temporis. Et aliud presens de
+<lb ed="#Ba"/>quo dicit Priscianus, cujus pars 
+preter<lb ed="#Ba" break="no"/>iit, pars in instanti est, et pars futura :
+<lb ed="#Ba"/>et hoc est accidens verbo quod agere et
+<lb ed="#Ba"/>pati significat : quia probat Aristoteles
+<lb ed="#Ba"/>in VI Physicorum, quod quidquid 
+mo<lb ed="#Ba" break="no"/>vetur, movebatur, et movebitur. Et sic
+<lb ed="#Ba"/>est de omnibus successivis passionibus
+<lb ed="#Ba"/>et actionibus. Unde nihil talium est, nisi
+<lb ed="#Ba"/>dum fit : et dum fit, est imperfectum. Et
+<lb ed="#Ba"/>hoc presens a divina generatione 
+inten<lb ed="#Ba" break="no"/>dunt excludere Gregorius et Augustinus.
+<lb ed="#Ba"/>Unde Gregorius : <quote xml:id="Almn78-a67189-Qd1e4395"> Non dicamus, 
+sem<lb ed="#Ba" break="no"/>per nascitur, ne imperfectum esse 
+creda<lb ed="#Ba" break="no"/>tur. </quote> Et Augustinus : <quote xml:id="Almn78-a67189-Qd1e4402"> Quod semper
+<lb ed="#Ba"/>nascitur, numquam natum est. </quote> 
+Pre<lb ed="#Ba" break="no"/>sens autem impartibile quod totum est
+<lb ed="#Ba"/>simul, intendit adstruere Origines de 
+di<lb ed="#Ba" break="no"/>vina generatione : et ideo dicit: <quote xml:id="Almn78-a67189-Qd1e4414"> Non
+<lb ed="#Ba"/>semel oritur et desinit, </quote> intendens,
+<lb ed="#Ba"/>quod in ortu continue est.
+</p>
+               <p xml:id="Almn78-a67189-d1e4422">
+                  <lb ed="#Ba"/>Similiter loquentes de preterito, non
+<lb ed="#Ba"/>accipiunt preteritum in hoc quod 
+pre<lb ed="#Ba" break="no"/>teriit, quia in hoc non est: sed 
+acci<lb ed="#Ba" break="no"/>piunt preteritum in hoc quod 
+perfe<lb ed="#Ba" break="no"/>ctum, quia in hoc ex preteritione sua
+<lb ed="#Ba"/>non preteriit,ut dicitur in Sex principiis,
+<lb ed="#Ba"/>sed in necessitate manet et stat. Et hoc
+<lb ed="#Ba"/>innuit Gregorius dicens : <quote xml:id="Almn78-a67189-Qd1e4441"> Et semper
+<lb ed="#Ba"/>dicamus, et natus, quatenus et natus ad
+<lb ed="#Ba"/>perfectionem pertineat, et semper ad
+<lb ed="#Ba"/>eternitatem. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e4452">
+                  <pb ed="#Ba" n="324"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>Futurum autem quia totum in 
+poten<lb ed="#Ba" break="no"/>tia est, ad generationem divinam referri
+<lb ed="#Ba"/>non potest, nisi per abnegationem 
+oppo<lb ed="#Ba" break="no"/>siti, ut dicit Augustinus, quod <quote xml:id="Almn78-a67189-Qd1e4467"> erit,
+<lb ed="#Ba"/>quia numquam deerit '. </quote>
+               </p>
+               <p xml:id="Almn78-a67189-d1e4473">
+                  <lb ed="#Ba"/>Propria enim verba de tam excellenti
+<lb ed="#Ba"/>re habere non possumus, ut dicit 
+Grego<lb ed="#Ba" break="no"/>rius : sed ut possumus balbutiendo 
+po<lb ed="#Ba" break="no"/>tius quam loquendo divina resonamus.
+  
+  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Et Dionysius in libro de Divinis 
+nomi<lb ed="#Ba" break="no"/>nibus : <quote xml:id="Almn78-a67189-Qd1e4490"> Cum ad divina venimus, 
+per<lb ed="#Ba" break="no"/>fectam invenimus irrationabilitatem ?. </quote>
+                  <lb ed="#Ba"/>Et Ambrosius : <quote xml:id="Almn78-a67189-Qd1e4497"> Ego non possum scire
+<lb ed="#Ba"/>generationis secretum : silet vox non
+<lb ed="#Ba"/>mea tantum, sed etiam Angelorum. </quote>
+                  <lb ed="#Ba"/>Unde, Isa. um, 8 : Generationem ejus
+<lb ed="#Ba"/>quis enarrabit ?
+  
+<lb ed="#Ba"/>Et per hoc patet solutio ad totum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

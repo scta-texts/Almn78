@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="220"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d48925"><!-- p2t4q17 -->
+            <head xml:id="Almn78-d48925-Hd1e106">Quaestio 17</head>
+            <head xml:id="Almn78-d48925-Hd1e109" type="question-title">
+      De attributis Angelorum in communi
+    </head>
+            <p xml:id="Almn78-d48925-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO XVII.
+      <lb ed="#Bb"/>De attributis Angelorum in communi
+    </p>
+            <p xml:id="Almn78-d48925-d1e121">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>Deinde queritur de istis attributis 
+      om<lb ed="#Bb" break="no"/>nibus in communi.
+    </p>
+            <p xml:id="Almn78-d48925-d1e130">
+               <lb ed="#Bb"/>Non aliud hic querendum est, nisi de
+      <lb ed="#Bb"/>verbo Magistri quod dicit in libro IT 
+      Sen<lb ed="#Bb" break="no"/>tentiarum, distinct. ITT, cap. Hie 
+      consi<lb ed="#Bb" break="no"/>derandum est, ubi questiones inductas
+      <lb ed="#Bb"/>ordinavit, et dicit quod <quote xml:id="Almn78-d48925-Qd1e143"> prima 
+        consi<lb ed="#Bb" break="no"/>deratio est de substantia, secunda de
+        <lb ed="#Bb"/>forma, tertia de potestate. </quote> Et dicit,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-d48925-Qd1e152"> ad substantiam pertinet nature
+        <lb ed="#Bb"/>subtilitas, ad formam vero 
+        intelligen<lb ed="#Bb" break="no"/>tle perspicacitas, et ad potestatem 
+        ra<lb ed="#Bb" break="no"/>tionalis voluntatis habilitas. </quote> Et paulo
+      <lb ed="#Bb"/>ante dixit, quod <quote xml:id="Almn78-d48925-Qd1e163"> persona substantia est,
+        <lb ed="#Bb"/>sapientia forma, arbitrium potestas. </quote>
+               <lb ed="#Bb"/>Et nullam fecit de simplicitate essentize
+      <lb ed="#Bb"/>mentionem ‘et sic videtur, quod
+    </p>
+            <p xml:id="Almn78-d48925-d1e175">
+               <lb ed="#Bb"/>1. Essentie simplicitas ad substantiam
+      <lb ed="#Bb"/>non pertinet, et quod contradicit 
+      sibi<lb ed="#Bb" break="no"/>ipsi. ;
+    </p>
+            <p xml:id="Almn78-d48925-d1e184">
+               <lb ed="#Bb"/>2. Adhuc, In omnibus in quibus est
+      <lb ed="#Bb"/>simplicitas, simplicitas pertinet ad 
+      for<lb ed="#Bb" break="no"/>mam: sed simplicitas essenti# est in
+      <lb ed="#Bb"/>Angelis : ergo pertinet ad formam: male
+      <lb ed="#Bb"/>ergo dicit, quod sapientia pertinet ad
+      <lb ed="#Bb"/>formam.
+    </p>
+            <p xml:id="Almn78-d48925-d1e200">
+               <lb ed="#Bb"/>3. Adhuc, In omnibus in quibus est
+      <lb ed="#Bb"/>sapientia, sapientia habitus 
+      intellectua<lb ed="#Bb" break="no"/>lis est et virtus, ut dicit Aristoteles in
+      <lb ed="#Bb"/>VI Ethicorum, quod est prima et 
+      preci<lb ed="#Bb" break="no"/>pua virtus intellectualium virtutum, que
+      <lb ed="#Bb"/>sunt quinque, scilicet intellectus qui est
+      <lb ed="#Bb"/>habitus principiorum. Sapientia, que est
+      <lb ed="#Bb"/>cognitio per causas altissimas, quas 
+      dif<lb ed="#Bb" break="no"/>ficile est homini scire, in his scibilibus in
+      <lb ed="#Bb"/>quibus finis intus est et sciendi gratia,
+      <lb ed="#Bb"/>hoc est, in his que propter seipsa scire
+      <lb ed="#Bb"/>volumus, et non propter aliud. Scientia,
+      <lb ed="#Bb"/>que est habitus conclusionis. Dicit enim
+      <lb ed="#Bb"/>Aristoteles in I Posteriorum, quod scire
+      <lb ed="#Bb"/>arbitramur unumquodque, cum causam
+      <lb ed="#Bb"/>cognoscimus, et quoniamillius causa est,
+      <lb ed="#Bb"/>et quod impossibile est aliter se habere :
+      <lb ed="#Bb"/>quod cognosci non potest, nisi per con- ,
+      <lb ed="#Bb"/>sequentiam conclusionis ad principia.
+      <lb ed="#Bb"/>Prudentiaest cum ratione activum 
+      prin<lb ed="#Bb" break="no"/>cipium in his que conferunt ad mores,
+      <lb ed="#Bb"/>velutilitatem prudentis. Ars est factivum
+      <lb ed="#Bb"/>principium cum ratione super materiam
+      <lb ed="#Bb"/>extrinsecam, sicut sunt artes mechanice.
+      <lb ed="#Bb"/>Ex his accipitur, quod sapientia non
+      <lb ed="#Bb"/>pertinet ad esse, sed ad bene esse, et
+    </p>
+            <p xml:id="Almn78-d48925-d1e259">
+               <pb ed="#Bb" n="221"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>sic inter attributa angelice nature non
+      <lb ed="#Bb"/>debet numerari : attributa enim 
+      angeli<lb ed="#Bb" break="no"/>ce nature sunt de esse ejus.
+    </p>
+            <p xml:id="Almn78-d48925-d1e272">
+               <lb ed="#Bb"/>4, Adhuc, Dicit ibidem, quod persona
+      <lb ed="#Bb"/>substantia est: in nulla autem natura
+      <lb ed="#Bb"/>idem est altributum, et id cui 
+      attribui<lb ed="#Bb" break="no"/>tur : cum ergo persona sit substantia cui
+      {it attributio, persona non debet 
+      nume<lb ed="#Bb" break="no"/>rari inter attributa.
+    </p>
+            <p xml:id="Almn78-d48925-d1e285">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod sicut dicit
+      <lb ed="#Bb"/>Magister, quatuor sunt attributa ange~-
+      <lb ed="#Bb"/>lice nature, scilicet simplicitas essentia,
+      <lb ed="#Bb"/>que omnibus convenit, secundum quod
+      <lb ed="#Bb"/>simplicitas dicit privationem 
+      compositio<lb ed="#Bb" break="no"/>nis quantitative, que corporalis est 
+      crea<lb ed="#Bb" break="no"/>ture. Et perspicacitas intell'gentie, qua
+      <lb ed="#Bb"/>Angelus formatur ad intellectum et 
+      sa<lb ed="#Bb" break="no"/>pientiam et ceteras virtutes intellectuales.
+      <lb ed="#Bb"/>Et discretio personalis, qua in personali
+      <lb ed="#Bb"/>singularitate et incommunicabilitate 
+      An<lb ed="#Bb" break="no"/>gelus in unum numerum discretum 
+      poni<lb ed="#Bb" break="no"/>tur, et Angelo alteri connumeralur ut
+      <lb ed="#Bb"/>suppositum hujus nature communis,
+      <lb ed="#Bb"/>spiritus rationalis, sive intellectualis 
+      na<lb ed="#Bb" break="no"/>ture. Et libertas arbitrii, qua facultatem
+      <lb ed="#Bb"/>accipit faciendi quod vult et eligendi. Et
+      <lb ed="#Bb"/>artificiose ista accipiuntur: natura enim
+      <lb ed="#Bb"/>angelica si perfici debet in naturalibus,
+      <lb ed="#Bb"/>non potest considerari, nisi secundum
+      <lb ed="#Bb"/>substantiam, vel secundum potestatem.
+      <lb ed="#Bb"/>Si secundum substantiam, aut secundum
+      <lb ed="#Bb"/>substantiam que est in forma, aut 
+      secun<lb ed="#Bb" break="no"/>dum substantiam que est subjectum
+      <lb ed="#Bb"/>sive suppositum. Si primo modo: aut
+      <lb ed="#Bb"/>accipitur forma perficiens in esse 
+      abso<lb ed="#Bb" break="no"/>lute : et sic attributum est essentie 
+      sim<lb ed="#Bb" break="no"/>plicitas. Aut accipitur secundum formam
+      <lb ed="#Bb"/>qua perficitur in comparatione 
+      ad_pri<lb ed="#Bb" break="no"/>mum principrum a quo est, eta quo 
+      se<lb ed="#Bb" break="no"/>cundum esse semper dependet: et iste
+      <lb ed="#Bb"/>perfectiones non possunt esse nisi 
+      illu<lb ed="#Bb" break="no"/>minationes et bonitates fluentes a primo
+      <lb ed="#Bb"/>principio in ipsum: et sic altributum est
+      <lb ed="#Bb"/>intelligentie perspicacitas, quia per illam
+      <lb ed="#Bb"/>efficitur capax hujusmodi illuminationum
+      <lb ed="#Bb"/>et bonitatum. Si autem accipitur ex parte
+      <lb ed="#Bb"/>substantia que est subjectum, sive hoc
+      <lb ed="#Bb"/>aliquid, sic attributum est discretio 
+      per<lb ed="#Bb" break="no"/>sonalis. Si vero consideratur natura 
+      an<lb ed="#Bb" break="no"/>gelica ex parte potestatis, pericitur 
+      se<lb ed="#Bb" break="no"/>cundum facullatem agendi quod vult et
+      <lb ed="#Bb"/>eligendi: et sic attributum est libertas
+      <lb ed="#Bb"/>arbitrii. Et quia non sunt plures 
+      conside<lb ed="#Bb" break="no"/>rationes angelice natura, ideo non sunt
+      <lb ed="#Bb"/>plura attributa: et si aliquod illorum
+      <lb ed="#Bb"/>deesset, opus Dei esset imperfectum:
+      <lb ed="#Bb"/>quod esset contra illud Deuteronomii,
+      <lb ed="#Bb"/>xxxu, 3et 4: Date magnificentiam Deo
+      <lb ed="#Bb"/>nostro. Detperfecta sunt opera.
+    </p>
+            <p xml:id="Almn78-d48925-d1e397">
+               <lb ed="#Bb"/>Ad primum ergo dicendum, quod 
+      Ma<lb ed="#Bb" break="no"/>gister non contradicit ,sibiipsi : quia 
+      es<lb ed="#Bb" break="no"/>sentie simplicitas pertinet ad 
+      substan<lb ed="#Bb" break="no"/>tiam, guo est, sive secundum formam
+      <lb ed="#Bb"/>secundum esse absolutum. Persona vero
+      <lb ed="#Bb"/>pertinet ad substantiam, qwod est, sive
+      <lb ed="#Bb"/>subjectum. Et Magister secundum 
+      utrius<lb ed="#Bb" break="no"/>que substantia considerationem 
+      pro<lb ed="#Bb" break="no"/>prium ponit attributum.
+    </p>
+            <p xml:id="Almn78-d48925-d1e419">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod simplicitas
+      <lb ed="#Bb"/>pertinet ad formam secundum esse ab-~
+      <lb ed="#Bb"/>solutum, sapientia vero ad formam 
+      se<lb ed="#Bb" break="no"/>cundum esse relatum ad primum 
+      princi<lb ed="#Bb" break="no"/>pium: et hac non sunt contraria, nec
+      <lb ed="#Bb"/>impossibilia.
+    </p>
+            <p xml:id="Almn78-d48925-d1e435">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod Magister 
+      ac<lb ed="#Bb" break="no"/>cipit ibi habitum pro potentia habituali,
+      <lb ed="#Bb"/>hoc est, ut perfecta per habitum. Dictum
+      <lb ed="#Bb"/>enim est in antehabitis, quod angelice
+      <lb ed="#Bb"/>potentia per habitus sibi conereatos 
+      per<lb ed="#Bb" break="no"/>fecte sunt. Et accipit sapientiam non
+      <lb ed="#Bb"/>stricte, prout est una precipua virtus 
+      in<lb ed="#Bb" break="no"/>tellectualis : sed large, a qua dicitur
+      <lb ed="#Bb"/>sapiens, ut ipse ibidem dicit 
+      Aristo<lb ed="#Bb" break="no"/>teles, qui in unoquoque intellectu, 
+      sa<lb ed="#Bb" break="no"/>pientia, ‘scientia, prudentia, et arle ex
+      <lb ed="#Bb"/>cons‘deratione finis rationem scit 
+      red<lb ed="#Bb" break="no"/>dere, et potest de omnibus his que 
+      per<lb ed="#Bb" break="no"/>tinent ad illum intellectum, sapientiam,
+      <lb ed="#Bb"/>scientiam, prudentiam, et artem. Sic
+      <lb ed="#Bb"/>enim sapientia est forma ad 
+      perficien<lb ed="#Bb" break="no"/>dum creaturam rationalem sive 
+      intelle<lb ed="#Bb" break="no"/>ctualem secundum esse intellectuale quod
+      <lb ed="#Bb"/>estin ipsa: sic enim ponit eam in 
+      ex<lb ed="#Bb" break="no"/>tremo sui boni naturalis, secundum
+      <lb ed="#Bb"/>quod dicit Aristoteles in HI Ezthicorum,
+      <lb ed="#Bb"/>quod <quote xml:id="Almn78-d48925-Qd1e484"> virtus est extremum in bono
+        <lb ed="#Bb"/>uniuscujusque secundum naturam : </quote> li
+      <pb ed="#Bb" n="222"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>cet quedam virtus, sicut moralis, sit
+      <lb ed="#Bb"/>medium in passionibus et operationibus
+      <lb ed="#Bb"/>naturalibus.
+    </p>
+            <p xml:id="Almn78-d48925-d1e501">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod persona
+      <lb ed="#Bb"/>non numeratur inter attributa, sed est
+      <lb ed="#Bb"/>id cui fit atfributio : sed personalis dis
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>cretio que non est persona, numeratur
+      <lb ed="#Bb"/>inter attributa, propter causam que paulo
+      <lb ed="#Bb"/>ante dicta est : nihil enim perfectum est,
+      <lb ed="#Bb"/>quod in se non est unum, discrelum,
+      <lb ed="#Bb"/>et ab aliis distinctum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

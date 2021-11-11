@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 38</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 38</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="417"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d93019"><!-- p2t10q38 -->
+            <head xml:id="Almn78-d93019-Hd1e106">Quaestio 38</head>
+            <head xml:id="Almn78-d93019-Hd1e109" type="question-title">
+      De divisione hierarchiae
+    </head>
+            <p xml:id="Almn78-d93019-d1e112">
+               <lb ed="#Bb"/>QUAESTIO XXXVIII.
+      <lb ed="#Bb"/>De divisione hierarchiae.
+    </p>
+            <p xml:id="Almn78-d93019-d1e119">
+               <lb ed="#Bb"/>Deinde, Queritur de ratione ejus quod
+      <lb ed="#Bb"/>dicit Magister in libro Il Sententiarum,
+      <lb ed="#Bb"/>distinct. IX, cap. 1, ubi sic dicit: <quote xml:id="Almn78-d93019-Qd1e127"> 
+        In<lb ed="#Bb" break="no"/>veniuntur in istis ordinibus tria terna
+        <lb ed="#Bb"/>esse, et in singulis tres ordines, ut
+        <lb ed="#Bb"/>Trinitatis similitudo in eis insinuetur
+        <lb ed="#Bb"/>impressa. Unde Dionysius tres ordines
+        <lb ed="#Bb"/>Angelorum esse tradit, ternos in 
+        sin<lb ed="#Bb" break="no"/>gulis ponens. Sunt enim tres 
+        supe<lb ed="#Bb" break="no"/>riores, tres inferiores, et tres medii.
+        <lb ed="#Bb"/>Superiores sunt Seraphin, Cherubin,
+        <lb ed="#Bb"/>Throni. Medii, Dominationes, 
+        Virtu<lb ed="#Bb" break="no"/>tes, Potestates.’ Inferiores, 
+        Principa<lb ed="#Bb" break="no"/>tus, Archangeli, Angeli. </quote> Et sunt
+      <lb ed="#Bb"/>verba Dionysii in Celesti: hierarchia’,
+      <lb ed="#Bb"/>ubi sic dicit Dionysius : <quote xml:id="Almn78-d93019-Qd1e158"> Omnis 
+        theolo<lb ed="#Bb" break="no"/>gia ccelestes essentias novem vocavit
+        <lb ed="#Bb"/>manifestativis cognominationibus. Has
+        <lb ed="#Bb"/>divinus noster sanctus perfector (Paulus
+        <lb ed="#Bb"/>scilicet qui raptus est in tertium celum,
+        <lb ed="#Bb"/>et ibi dicitur vidisse quod Dionysius
+        <lb ed="#Bb"/>descripsit in Celesti hierarchia) in tres
+        <lb ed="#Bb"/>segregat dispositiones. </quote>
+            </p>
+            <p xml:id="Almn78-d93019-d1e177">
+               <lb ed="#Bb"/>Gratia ergo hujus queritur hie de 
+      di<lb ed="#Bb" break="no"/>visione hierarchie. Et queruntur duo,
+      <lb ed="#Bb"/>scilicet de divisione hierarchi# in 
+      com<lb ed="#Bb" break="no"/>muni, et de divisione hierarchie in 
+      spe<lb ed="#Bb" break="no"/>ciali angelic, quia de illa intendimus.
+    </p>
+            <div xml:id="Almn78-d93019-Dd1e191">
+               <head xml:id="Almn78-d93019-Hd1e193">Membrum 1</head>
+               <head xml:id="Almn78-d93019-Hd1e196" type="question-title">
+        De divisione hierarchiae in communi
+      </head>
+               <p xml:id="Almn78-d93019-d1e199">
+                  <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>MEMBRUM I.
+        <lb ed="#Bb"/>De divisione hierarchiae in communi.
+      </p>
+               <p xml:id="Almn78-d93019-d1e208">
+                  <lb ed="#Bb"/>De divisione hierarchiae in communi
+        <lb ed="#Bb"/>sic objicitur : .
+      </p>
+               <p xml:id="Almn78-d93019-d1e215">
+                  <lb ed="#Bb"/>1. Dicitur communiter ab antiquis,
+        <lb ed="#Bb"/>quod hierarchia triplex est, scilicet 
+        su<lb ed="#Bb" break="no"/>percelestis quam dicunt esse divinam,
+        <lb ed="#Bb"/>hierarchia ceelestis quam dicunt esse 
+        an<lb ed="#Bb" break="no"/>gelicam, et subcceleslis quam dicunt esse
+        <lb ed="#Bb"/>humanam sive Ecclesiasticam.
+      </p>
+               <p xml:id="Almn78-d93019-d1e232">
+                  <lb ed="#Bb"/>Videtur autem, quod illa que dicitur
+        <lb ed="#Bb"/>supercelestis nulla sit: habitum est enim
+        <lb ed="#Bb"/>in prima definitione hierarchia, quod 
+        di<lb ed="#Bb" break="no"/>cit Dionysius, quod <quote xml:id="Almn78-d93019-Qd1e242"> hierarchia Deum
+          <lb ed="#Bb"/>habet omnis scientizet actionis ducem ; </quote>
+                  <lb ed="#Bb"/>divina autem hierarchia nullum habet
+        <lb ed="#Bb"/>ducem scientie et actionis, sed dux est
+        <lb ed="#Bb"/>aliorum : ergo superceelestis five divina
+        <lb ed="#Bb"/>hierarchia non est hierarchia.
+      </p>
+               <p xml:id="Almn78-d93019-d1e257">
+                  <lb ed="#Bb"/>2. Adhuc, Dionysius in Ceelesti 
+        hierar<lb ed="#Bb" break="no"/>chia dicit sic : <quote xml:id="Almn78-d93019-Qd1e263"> Hierarchia est deiforme
+          <lb ed="#Bb"/>quantum possibile similans, et ad inditas
+          <pb ed="#Bb" n="418"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>ei divinitus illuminationes in Dei 
+          simili<lb ed="#Bb" break="no"/>tudinem proportionaliter ascendens '. </quote>
+                  <lb ed="#Bb"/>Deo nulle illuminationes sunt indite,
+        <lb ed="#Bb"/>quia quod inditum est, ab alio acceptum
+        <lb ed="#Bb"/>est: et in Deo nihil est altius ascendens,
+        <lb ed="#Bb"/>quia in summo est. Ergo in Deo non 
+        vi<lb ed="#Bb" break="no"/>detur esse hierarchia : et sic nulla videtur
+        <lb ed="#Bb"/>esse superccelestis hierarchia sive divina.
+      </p>
+               <p xml:id="Almn78-d93019-d1e290">
+                  <lb ed="#Bb"/>3. Adhuc, Nulla videtur esse 
+        sabeale<lb ed="#Bb" break="no"/>stis : dicit enim Alexander in libro de
+        <lb ed="#Bb"/>Motu cordis, quod anima humana 
+        illu<lb ed="#Bb" break="no"/>minationum que sunt a primo, ultima
+        <lb ed="#Bb"/>relatione est perceptiva. Post ultimam
+        <lb ed="#Bb"/>autem non est aliquid in quod 
+        transfun<lb ed="#Bb" break="no"/>datur illuminatio. Cum ergo substantiale
+        <lb ed="#Bb"/>sit hierarchie, quod illuminationem 
+        per<lb ed="#Bb" break="no"/>ceptam transfundat in aliud, et humana
+        <lb ed="#Bb"/>non habeat in quod transfundat, videtur
+        <lb ed="#Bb"/>humana hierarchia non esse hierarchia.
+      </p>
+               <p xml:id="Almn78-d93019-d1e316">
+                  <lb ed="#Bb"/>Solutio. Dicendum, quod hierarchia
+        <lb ed="#Bb"/>potest accipi secundum definitionem 
+        es<lb ed="#Bb" break="no"/>sentialem que paulo ante disputata est :
+        <lb ed="#Bb"/>et potest accipi secundum nominis 
+        com<lb ed="#Bb" break="no"/>positionem. Si primo modo accipiatur,
+        <lb ed="#Bb"/>et accipiatur in omnibus essentialibus
+        <lb ed="#Bb"/>differentiis per quas definita est : tunc
+        <lb ed="#Bb"/>procul dubio illa que dicitur 
+        superee<lb ed="#Bb" break="no"/>lestis sive divina, non dicitur hierarchia
+        <lb ed="#Bb"/>proprie loquendo. Si autem secundo
+        <lb ed="#Bb"/>modo accipiatur : tunc hierarchia non
+        <lb ed="#Bb"/>est nisi sacra et ordinata potestas : et si
+        <lb ed="#Bb"/>ordo referatur ad ordinem nature Patris
+        <lb ed="#Bb"/>et Filii et Spiritus sancti, quo alter est
+        <lb ed="#Bb"/>ex altero, et non quo alter prior est 
+        alte<lb ed="#Bb" break="no"/>ro: tune procul dubio in Trinitate 
+        su<lb ed="#Bb" break="no"/>perceelesti est hierarchia quedam : est
+        <lb ed="#Bb"/>enim sacra et ordinata potestas in Filio
+        <lb ed="#Bb"/>ex Patre, et in Spiritu sancto ex Patre et
+        <lb ed="#Bb"/>Filio. Et *hoc intendit Magister dicere
+        <lb ed="#Bb"/>in libro I! Sententiarum, dist. 1X,cap. 1,
+        <lb ed="#Bb"/>ubi dicit sic : <quote xml:id="Almn78-d93019-Qd1e365"> Jn singulis hierarchiis
+          <lb ed="#Bb"/>tres ordines sunt, ut Trinitatis in eis 
+          si<lb ed="#Bb" break="no"/>militudo insinuetur impressa</quote>. Et propter
+        <lb ed="#Bb"/>hoc dicit Dionysius in libro de Divinis
+        <lb ed="#Bb"/>nominibus, quod <quote xml:id="Almn78-d93019-Qd1e377"> ex Patre luminum
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>secundum quod principium est totius
+          <lb ed="#Bb"/>divinitatis, ab eterno procedunt, Filius
+          <lb ed="#Bb"/>per generationem, et Spiritus sanctus
+          <lb ed="#Bb"/>per spirationem, ut divina lumina et 
+          di<lb ed="#Bb" break="no"/>vini flores. </quote>
+               </p>
+               <p xml:id="Almn78-d93019-d1e394">
+                  <lb ed="#Bb"/>Et per hoc patet solutio ad hoc quod
+        <lb ed="#Bb"/>objicitur de superceelesti hierarchia.
+      </p>
+               <p xml:id="Almn78-d93019-d1e401">
+                  <lb ed="#Bb"/>Ad id quod de subcelesti sive humana
+        <lb ed="#Bb"/>objicitur, dicendum, quod licet humana
+        <lb ed="#Bb"/>non habet aliam hierarchiam post se in
+        <lb ed="#Bb"/>quam transfundat illuminationes a Deo
+        <lb ed="#Bb"/>vel ab Angelis acceptas, tamen in seipsa
+        <lb ed="#Bb"/>distinctiones habet inferiores et 
+        superio<lb ed="#Bb" break="no"/>res gradus, secundum quos superiores
+        <lb ed="#Bb"/>transfundere debent illuminationes in 
+        in<lb ed="#Bb" break="no"/>feriores : et in his consideratur sacra et
+        <lb ed="#Bb"/>ordinata potestas,
+      </p>
+               <p xml:id="Almn78-d93019-d1e426">
+                  <lb ed="#Bb"/>Ad dictum Alexandri in libro de Motu
+        <lb ed="#Bb"/>cordis, dicendum, quod anima humana
+        <lb ed="#Bb"/>ultima relatione dicitur illuminationum
+        <lb ed="#Bb"/>que sunt a primo perceptiva, relatione
+        <lb ed="#Bb"/>ultima, quia in quantum in corpore est
+        <lb ed="#Bb"/>et sensibus conjuncta, illuminationes non
+        <lb ed="#Bb"/>percipit nisi in speculo et in wnigmate
+        <lb ed="#Bb"/>et vestigio, quas Angelus percipit in
+        <lb ed="#Bb"/>Verbo : que est prima relatio 
+        intellectua<lb ed="#Bb" break="no"/>lis nature ad illuminationem. Et hoc est
+        <lb ed="#Bb"/>quod dicit Dionysius in libro de Celesti
+        <lb ed="#Bb"/>hierarchia® : <quote xml:id="Almn78-d93019-Qd1e454"> CGeelestes essentie ut 
+          in<lb ed="#Bb" break="no"/>tellectus intelligunt juxta quod eis fas est
+          <lb ed="#Bb"/>divinas illuminationes in seipsis : nos
+          <lb ed="#Bb"/>vero sensibilibus imaginibus in divinas
+          <lb ed="#Bb"/>quantum possibile est reducimur 
+          con<lb ed="#Bb" break="no"/>templationes. I ad Corinth. xum, 12: 
+          Vi<lb ed="#Bb" break="no"/>demus nune per speculum in enigmate :
+          <lb ed="#Bb"/>tunc autem facie ad faciem. Quia sicut
+          <lb ed="#Bb"/>dicitur, Matth. xxu, 30 : Erunt sicut
+          <lb ed="#Bb"/>Angeli Dei in celo. In gradibus enim
+          <lb ed="#Bb"/>Ecclesiastice hierarchie superiorum est
+          <lb ed="#Bb"/>limpide videre divinas illuminationes, et
+          <lb ed="#Bb"/>super inferiores in parabolis: et 
+          similitu<lb ed="#Bb" break="no"/>dinibus transfundere eos : sicut 
+          Aposto<lb ed="#Bb" break="no"/>lis dicit Christus, Luc. vm, 10 : Vobis
+          <lb ed="#Bb"/>datum est nosse mysterium regni Dei,
+          <lb ed="#Bb"/>ceteris autem in parabolis. </quote>
+               </p>
+               <p xml:id="Almn78-d93019-d1e492">
+                  <lb ed="#Bb"/>Et sic patet solutio ad totum.
+      </p>
+            </div>
+            <div xml:id="Almn78-d93019-Dd1e498">
+               <head xml:id="Almn78-d93019-Hd1e500">Membrum 2</head>
+               <head xml:id="Almn78-d93019-Hd1e503" type="question-title">
+        De diffinitione hierarchie in speciali
+      </head>
+               <p xml:id="Almn78-d93019-d1e506">
+                  <pb ed="#Bb" n="419"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>MEMBRUM II.
+        <lb ed="#Bb"/>De diffinitione hierarchie in speciali.
+      </p>
+               <p xml:id="Almn78-d93019-d1e517">
+                  <lb ed="#Bb"/>Sscunpo, Queritur de speciali 
+        divisio<lb ed="#Bb" break="no"/>ne angelice hierarchie que inducta est
+        <lb ed="#Bb"/>paulo ante : et de qua Dionysius in C@-
+        <lb ed="#Bb"/>lesti hierarchia dicit sic : <quote xml:id="Almn78-d93019-Qd1e527"> Omnis 
+          theo<lb ed="#Bb" break="no"/>logia ccelestes essentias novem esse 
+          vo<lb ed="#Bb" break="no"/>cavit '. </quote>
+               </p>
+               <p xml:id="Almn78-d93019-d1e535">
+                  <lb ed="#Bb"/>Circa quam divisionem quruntur
+        <lb ed="#Bb"/>tria : quorum primum est, Cujus nature
+        <lb ed="#Bb"/>sit ista divisto ?
+        <lb ed="#Bb"/>Secundum, De sufficientia divisionis.
+        <lb ed="#Bb"/>Tertium, De ordine dividentium et
+        <lb ed="#Bb"/>divisi.
+      </p>
+               <div xml:id="Almn78-d93019-Dd1e552">
+                  <head xml:id="Almn78-d93019-Hd1e554">Articulus 1</head>
+                  <head xml:id="Almn78-d93019-Hd1e557" type="question-title">
+          Cujus nature sit ista divisio
+        </head>
+                  <p xml:id="Almn78-d93019-d1e560">
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS I.
+          <lb ed="#Bb"/>Cujus nature sit ista divisio ?
+        </p>
+                  <p xml:id="Almn78-d93019-d1e569">
+                     <lb ed="#Bb"/>Ad primum objicitur sic :
+        </p>
+                  <p xml:id="Almn78-d93019-d1e574">
+                     <lb ed="#Bb"/>Dicit Boetius in libro Divisionum,
+          <lb ed="#Bb"/>quod multiplex est divisio. Est divisio
+          <lb ed="#Bb"/>vocis in significationes, et est divisio
+          <lb ed="#Bb"/>totius universalis in species sive partes,
+          <lb ed="#Bb"/>et est divisio totius integralis in suas
+          <lb ed="#Bb"/>partes. ;
+        </p>
+                  <p xml:id="Almn78-d93019-d1e591">
+                     <lb ed="#Bb"/>Queratur ergo, cujusmodi sit ista 
+          di<lb ed="#Bb" break="no"/>visio quando dicitur, Hierarchia alia 
+          su<lb ed="#Bb" break="no"/>perior, alia inferior, alia media ?
+        </p>
+                  <p xml:id="Almn78-d93019-d1e600">
+                     <lb ed="#Bb"/>Constat enim, quod non est vocis.in
+          <lb ed="#Bb"/>significationes : hierarchia enim per
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>unam intentionem predicatur de illis 
+          tri<lb ed="#Bb" break="no"/>bus. Et constat iterum, quod non est 
+          to<lb ed="#Bb" break="no"/>tius universalis : quia totum universale
+          <lb ed="#Bb"/>per equipotentiam est in qualibet parte
+          <lb ed="#Bb"/>sua. Hierarchia autem per 
+          equipoten<lb ed="#Bb" break="no"/>tiam non dicitur de suprema, infima, et
+          <lb ed="#Bb"/>media : unde potentior est in superiori,
+          <lb ed="#Bb"/>quam in media, vel in infima. Nec potest
+          <lb ed="#Bb"/>esse totius integralis in partes : quia
+          <lb ed="#Bb"/>totum integrale non pradicatur de aliqua
+          <lb ed="#Bb"/>parte sua : domus enim nec est paries,:
+          <lb ed="#Bb"/>nec fundamentum, neque tectum : sed
+          <lb ed="#Bb"/>hierarchia est tam in suprema, quam
+          <lb ed="#Bb"/>media, et quam infima, et predicatur de
+          <lb ed="#Bb"/>cis secundum completam sui rationem.
+          <lb ed="#Bb"/>Nec potest dici, quod sit divisio 
+          acciden<lb ed="#Bb" break="no"/>tis in subjecta: sicut album dividitur in
+          <lb ed="#Bb"/>nivem, et cygnum : quia sic hierarchia
+          <lb ed="#Bb"/>per accidens diceretur de suprema, 
+          me<lb ed="#Bb" break="no"/>dia, et infima, quod falsum est. Nec
+          <lb ed="#Bb"/>potest dici, quod sit accidentis in 
+          acci<lb ed="#Bb" break="no"/>dentia : quia hierarchia nec in communi
+          <lb ed="#Bb"/>est accidens, nec partes ejus sunt 
+          acci<lb ed="#Bb" break="no"/>dentia. Et cum non sint plures modi
+          <lb ed="#Bb"/>divisionum secundum artem, et ista
+          <lb ed="#Bb"/>divisio nulla illarum sit, videtur non esse
+          <lb ed="#Bb"/>artificialis divisio.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e668">
+                     <lb ed="#Bb"/>Si forte dicatur, quod est totius 
+          pote<lb ed="#Bb" break="no"/>stativi : sicut regnum quod dividitur in
+          <lb ed="#Bb"/>ducatum, et presidatum, et in 
+          prefectu<lb ed="#Bb" break="no"/>ram. Contra : In partibus totius 
+          potesta<lb ed="#Bb" break="no"/>livi sic est, quod in sequenti parte 
+          secun<lb ed="#Bb" break="no"/>dum eminentiam est prima : quia dicunt
+          <lb ed="#Bb"/>Dionysius et, Boetius, quod quidquid
+          <lb ed="#Bb"/>potest potentia inferior, potest superior
+          <lb ed="#Bb"/>excellenter et eminenter, sed non 
+          con<lb ed="#Bb" break="no"/>vertitur : secundum hoc ergo quidquid
+          <lb ed="#Bb"/>potest prima hierarchia, potest media et
+          <lb ed="#Bb"/>inferior excellenter et eminenter : quod
+          <lb ed="#Bb"/>falsum est.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e699">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod hee divisio
+          <lb ed="#Bb"/>est tolius potestativi in partes potestati~
+          <lb ed="#Bb"/>vas. Unde concedendum est, quod non
+          <lb ed="#Bb"/>est vocis in significationes, nec totius
+          <pb ed="#Bb" n="420"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>universalis in subjectivas partes, nec
+          <lb ed="#Bb"/>totius integralis in partes integrales, nec
+          <lb ed="#Bb"/>accidentis in subjecta, nec accidentis in
+          <lb ed="#Bb"/>accidentia, sicut probatum est, sed est
+          <lb ed="#Bb"/>totius potestativi in suas partes.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e725">
+                     <lb ed="#Bb"/>Ad objectum contra, dicendum quod
+          <lb ed="#Bb"/>dictum Dionysii et Boetli verum est et
+          <lb ed="#Bb"/>generaliter : sed male accipit ordinem
+          <lb ed="#Bb"/>potestalum ; potestas enim ponitur in
+          <lb ed="#Bb"/>minimo sui, et proficit in medio, et 
+          com<lb ed="#Bb" break="no"/>pletur in maximo. Unde sic deberet 
+          in<lb ed="#Bb" break="no"/>ferre : ergo quidquid potest infima 
+          hie<lb ed="#Bb" break="no"/>rarchia, possunt media et suprema
+          <lb ed="#Bb"/>excellenter et eminenter: et hoc verum
+          <lb ed="#Bb"/>est.
+        </p>
+               </div>
+               <div xml:id="Almn78-d93019-Dd1e750">
+                  <head xml:id="Almn78-d93019-Hd1e752">Articulus 2</head>
+                  <head xml:id="Almn78-d93019-Hd1e755" type="question-title">
+          De sufficientia hujus divisionis
+        </head>
+                  <p xml:id="Almn78-d93019-d1e758">
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS II.
+          <lb ed="#Bb"/>De sufficientia hujus divisionis.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e767">
+                     <lb ed="#Bb"/>Secundo, Queritur de sufficientia hujus
+          <lb ed="#Bb"/>divisionis.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e774">
+                     <lb ed="#Bb"/>Et ut questio melius intelligatur, 
+          po<lb ed="#Bb" break="no"/>namus divisiones.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e782">
+                     <lb ed="#Bb"/>Dicit autem Magister in libro HI 
+          Sen<lb ed="#Bb" break="no"/>tentiarum, dist. IX, cap. Post predicta,
+          <lb ed="#Bb"/>quod sunt tres hierarchie, et quelibet
+          <lb ed="#Bb"/>habet tres ordines. Et tres superiores
+          <lb ed="#Bb"/>sunt Seraphin, Cherubin, Throni. Tres
+          <lb ed="#Bb"/>medie sunt Dominationes, Principatus,
+          <lb ed="#Bb"/>et Potestates. Inferiores sunt Virtutes,
+          <lb ed="#Bb"/>Archangeli, et Angeli. Propter quod
+          <lb ed="#Bb"/>antiqui Prepositivus et Gulielmus 
+          An<lb ed="#Bb" break="no"/>tisidorensis tres dixerunt hierarchias
+          <lb ed="#Bb"/>esse, scilicet epiphaniam, hyperphaniam,
+          <lb ed="#Bb"/>et hypophaniam. ,
+        </p>
+                  <p xml:id="Almn78-d93019-d1e811">
+                     <lb ed="#Bb"/>Epiphaniam sic definiunt : Epiphania
+          <lb ed="#Bb"/>est incalescentis affectionis incendio,
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>altioris intellectus fastigio, judicii libera
+          <lb ed="#Bb"/>resultatio distributa. Dicunt etiam isti,
+          <lb ed="#Bb"/>quod in delfinitione epiphanie ponitur,
+          <lb ed="#Bb"/>Incalescentis affectionis incendio, propter
+          <lb ed="#Bb"/>Seraphin, qui interpretatur fotus ardens,
+          <lb ed="#Bb"/>vel tolus incendens. Altioris intellectus
+          <lb ed="#Bb"/>fastigio, ponitur propter Cherubin, qui
+          <lb ed="#Bb"/>interpretatur plenitudo scientie. JSudicii
+          <lb ed="#Bb"/>libera, propter Thronos, du quibus dicit
+          <lb ed="#Bb"/>Gregorius, quod in eis Dominus sedet, et
+          <lb ed="#Bb"/>judicia sua decernit.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e844">
+                     <lb ed="#Bb"/>Hyperphaniam sic definiunt : 
+          Hyper<lb ed="#Bb" break="no"/>phania est divina illuminatio sui 
+          parti<lb ed="#Bb" break="no"/>ceps interscalari reverentia insigniens,
+          <lb ed="#Bb"/>usum dominandi edocens, arcensque
+          <lb ed="#Bb"/>contrarium. In definitione autem 
+          hyper<lb ed="#Bb" break="no"/>phanie dicunt, quod divina illuminatio
+          <lb ed="#Bb"/>sui particeps interscalari reverentia in
+          <lb ed="#Bb"/>signiens, ponitur propter Principatus,
+          <lb ed="#Bb"/>quorum, ut dicunt, est interscalarem
+          <lb ed="#Bb"/>reverentiam docere, ut unicuique 
+          secun<lb ed="#Bb" break="no"/>dum suum gradum reverentia 
+          exhibea<lb ed="#Bb" break="no"/>tur. Usum dominandi edocens, ponitur
+          <lb ed="#Bb"/>propter Dominationes, quorum, ut 
+          di<lb ed="#Bb" break="no"/>cunt, est docere usum dominandi. 
+          Ar<lb ed="#Bb" break="no"/>censque contrarium, dicunt quod ponitur
+          <lb ed="#Bb"/>propter Potestates : Potestatum enim est
+          <lb ed="#Bb"/>arcere contrarias potestates, ne tantum
+          <lb ed="#Bb"/>noceant, quantum nocere vellent, ut dicit
+          <lb ed="#Bb"/>Gregorius.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e888">
+                     <lb ed="#Bb"/>Hypophaniam sic definiunt : 
+          Hypo<lb ed="#Bb" break="no"/>phania est divinum participium nature
+          <lb ed="#Bb"/>legibus occurrens, secreta revelans 
+          se<lb ed="#Bb" break="no"/>cundum discretam participationem. Et
+          <lb ed="#Bb"/>dicunt, quod nature legibus occurrens,
+          <lb ed="#Bb"/>dicitur propter Virtutes, quarum (ut dicit
+          <lb ed="#Bb"/>Gregorius) est miracula facere, que fiunt
+          <lb ed="#Bb"/>contra leges nature. Secreta revelans
+          <lb ed="#Bb"/>secundum discretam  participationem,
+          <lb ed="#Bb"/>dicunt quod dicitur propter Archangelos
+          <lb ed="#Bb"/>et Angelos, quorum est secreta 
+          annun<lb ed="#Bb" break="no"/>tiare : ita quod Archangeli majora, 
+          An<lb ed="#Bb" break="no"/>geli vero minora nuntiant, ut dicit 
+          Gre<lb ed="#Bb" break="no"/>gorius.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e921">
+                     <lb ed="#Bb"/>Aliam divisionem ponit Dionysius in
+          <pb ed="#Bb" n="421"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>libro de Ceelesti hizrarchia, ubi sic dicit:
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-d93019-Qd1e934">Divinus noster perfector (hoc est, 
+            Pau<lb ed="#Bb" break="no"/>lus vel leroiheus) in tres segregat ternas
+            <lb ed="#Bb"/>dispositiones. Et primam quidem esse .
+            <lb ed="#Bb"/>dicit circa Deum existentem, semper et
+            <lb ed="#Bb"/>attente ipsi et ante alias immediate uniri
+            <lb ed="#Bb"/>traditam. Sanctissimos enim Thronos et
+            <lb ed="#Bb"/>oculosos et pennosos ordines Cherubin
+            <lb ed="#Bb"/>Hebraorum voce et Seraphin nominatos,
+            <lb ed="#Bb"/>secundum omnibus superpositam 
+            propin<lb ed="#Bb" break="no"/>quitatem circa Deum immediate 
+            collo<lb ed="#Bb" break="no"/>cari, divinorum ait tradere eloquiorum
+            <lb ed="#Bb"/>manifestationem. Trinum ergo hunc 
+            or<lb ed="#Bb" break="no"/>natum quasi unam et eque ordinatam et
+            <lb ed="#Bb"/>vere primam hierarchiam gloriosus 
+            no<lb ed="#Bb" break="no"/>ster Magister ait (Paulus vel Terotheus)
+            <lb ed="#Bb"/>qua non est alia deiformior, et per se
+            <lb ed="#Bb"/>preoperantibus divinitatis 
+            illuminationi<lb ed="#Bb" break="no"/>bus immediate intentior. Secundum vero
+            <lb ed="#Bb"/>esse ait ex Potestatibus et 
+            Dominationi<lb ed="#Bb" break="no"/>bus et Virtutibus completam. Et ternarum
+            <lb ed="#Bb"/>novissime ccelestium hierarchiarum 
+            An<lb ed="#Bb" break="no"/>gelorum et Archangelorum et 
+            Principa<lb ed="#Bb" break="no"/>tuum dispositionem '. </quote>
+                  </p>
+                  <p xml:id="Almn78-d93019-d1e985">
+                     <lb ed="#Bb"/>Queritur ergo de sufficientia harum
+          <lb ed="#Bb"/>divisionum.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e993">
+                     <lb ed="#Bb"/>Videtur enim, quod multo plures 
+          de<lb ed="#Bb" break="no"/>beant esse : quia
+          <lb ed="#Bb"/>Si una accipiatur penes immediate
+          <lb ed="#Bb"/>converti in Deum, scilicet prima : et 
+          alte<lb ed="#Bb" break="no"/>ra penes converli super hominem, 
+          scili<lb ed="#Bb" break="no"/>cet tertia : media accipitur penes converti
+          <lb ed="#Bb"/>super mediam naturam, hoc est, super
+          <lb ed="#Bb"/>Angelum : media autem sunt multa 
+          se<lb ed="#Bb" break="no"/>cundum novem ordines : ergo videtur,
+          <lb ed="#Bb"/>quod medie hierarchiz sunt multe.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1017">
+                     <lb ed="#Bb"/>2. Adhuc, In Celesti hierarchia dicit
+          <lb ed="#Bb"/>Dionysius sic : <quote xml:id="Almn78-d93019-Qd1e1023"> Secundum seipsum
+            <lb ed="#Bb"/>uniusquisque et ceelestis et humanus 
+            ani<lb ed="#Bb" break="no"/>mus, speciales habet et primas et medias
+            <lb ed="#Bb"/>et ultimas ordinationes, et virtutes *. </quote>
+                     <lb ed="#Bb"/>Ergo videtur, quod secundum 
+          quemli<lb ed="#Bb" break="no"/>bet angelorum, et secundum quamlibet
+          <lb ed="#Bb"/>animam sit dispositio hierarchie : et sic
+          <lb ed="#Bb"/>multe erunt hierarchie, et quasi 
+          infini<lb ed="#Bb" break="no"/>tae.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1044">
+                     <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>3. Adhuc, Videtur quod non debeant
+          <lb ed="#Bb"/>esse nisi due. Etenim,Daniel. vir, 10,
+          di<lb ed="#Bb" break="no"/>viduntur Angeli in duos ordines sacri
+          <lb ed="#Bb"/>priticipatus, quiest hierarchia. Dicit enim
+          <lb ed="#Bb"/>sic : Millia millium ministrabant ei, et
+          <lb ed="#Bb"/>decies millies centena millia assistebant
+          <lb ed="#Bb"/>ez. Gum ergo sacer principatus 
+          Angelo<lb ed="#Bb" break="no"/>rum non sit nisi penes assistere, vel 
+          mi<lb ed="#Bb" break="no"/>nistrare, videtur quod non sint nisi due
+          <lb ed="#Bb"/>hierarchie : una penes assistere, et alia
+          <lb ed="#Bb"/>penes ministrare.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1073">
+                     <lb ed="#Bb"/>4. Si forte dicat aliquis, quod tria sunt
+          <lb ed="#Bb"/>de essentia hierarchiw, scilicet ordo,
+          <lb ed="#Bb"/>scientia, et actio : et penes hee tria tres
+          <lb ed="#Bb"/>accipiuntur hierarchia. Hoc stare non
+          <lb ed="#Bb"/>potest : quia secundum hoc tres ordines
+          <lb ed="#Bb"/>prime hierarchie ab ordine denominari
+          <lb ed="#Bb"/>deberent : et hoc falsum est, quia nullus
+          <lb ed="#Bb"/>eorum denominatur ab ordine. 
+          Simili<lb ed="#Bb" break="no"/>ter tres mediz hierarchie denominari
+          <lb ed="#Bb"/>deberent a scientia : quod falsum est,
+          <lb ed="#Bb"/>cum omnes denominentur a potestate. Et
+          <lb ed="#Bb"/>similiter tres infime hierarchia deberent
+          <lb ed="#Bb"/>denominari ab actione : quod iterum 
+          fal<lb ed="#Bb" break="no"/>sum est, Principatus enim non 
+          denomi<lb ed="#Bb" break="no"/>nantur ab actione, nec Archangeli, nec
+          <lb ed="#Bb"/>etiam Angeli.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1110">
+                     <lb ed="#Bb"/>5. Adhuc, Ordo, scientia, et actio
+          <lb ed="#Bb"/>omni hierarchia sunt communia :. sed
+          <lb ed="#Bb"/>nihil distinguitur per commune, sed per
+          <lb ed="#Bb"/>proprium : ergo distinctio hierarchize
+          <lb ed="#Bb"/>non est penes ordinem, scientiam, et
+          <lb ed="#Bb"/>actionem.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1126">
+                     <lb ed="#Bb"/>6. Si forte aliquis dicat, quod tres
+          <lb ed="#Bb"/>sunt actus hierarchici, purgare scilicet,
+          <lb ed="#Bb"/>illuminare, et perficere : et penes hos est
+          <lb ed="#Bb"/>distinctio hierarchie in tria. Per 
+          eam<lb ed="#Bb" break="no"/>dem rationem stare non potest : illi enim
+          <lb ed="#Bb"/>actus communes sunt omni hierarchie :
+          <lb ed="#Bb"/>per commune autem nihil distinguitur,
+          <lb ed="#Bb"/>nec ad proprias species, nec ad proprias
+          <lb ed="#Bb"/>substantias. .
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1149">
+                     <lb ed="#Bb"/>7. Ad hoc dixerunt quidam, quod tres
+          <lb ed="#Bb"/>sunt termini ad quos convertuntur 
+          An<lb ed="#Bb" break="no"/>geli secundum illuminationem : ad
+          <lb ed="#Bb"/>Deum enim convertuntur secundum il
+          <pb ed="#Bb" n="422"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>luminationis acceptionem : ad Angelum,
+          <lb ed="#Bb"/>secundum illuminationem et 
+          acceptio<lb ed="#Bb" break="no"/>nem et transfusionem : a quibusdam
+          <lb ed="#Bb"/>enim accipiunt illuminationes quidam
+          <lb ed="#Bb"/>Angeli, et in quosdam transfundunt eas.
+          <lb ed="#Bb"/>Ad hominem autem convertuntur 
+          se<lb ed="#Bb" break="no"/>cundum illuminationis transfusionem.
+          <lb ed="#Bb"/>Et penes hoc tres dicunt distingui 
+          hie<lb ed="#Bb" break="no"/>rarchias. Conrrs : Magister Hugo de
+          <lb ed="#Bb"/>sancto Victore in Commenio super 
+          cc<lb ed="#Bb" break="no"/>lestem hierarchiam dicit sic : <quote xml:id="Almn78-d93019-Qd1e1188"> Ineo quod
+            <lb ed="#Bb"/>Angeli illuminantur, fiunt gratie 
+            parti<lb ed="#Bb" break="no"/>cipes : in eo vero quod illuminant, 
+            effi<lb ed="#Bb" break="no"/>ciuntur potestatis consortes : et constat
+            <lb ed="#Bb"/>ex his duobus omnis hierarchia. Si ergo
+            <lb ed="#Bb"/>hoc est commune omni hierarchia et 
+            ac<lb ed="#Bb" break="no"/>cipere illuminationes et dare, nulla in
+            <lb ed="#Bb"/>propria specie et esse potest distingui per
+            <lb ed="#Bb"/>illa.</quote>
+                  </p>
+                  <p xml:id="Almn78-d93019-d1e1209">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod proprie 
+          di<lb ed="#Bb" break="no"/>stinctio hierarchiarum accipitur penes
+          <lb ed="#Bb"/>duo, scilicet penes simplicitatem et 
+          sub<lb ed="#Bb" break="no"/>tilitatem et divinitatem luminis, quod est
+          <lb ed="#Bb"/>in illuminatione : et penes analogiam
+          <lb ed="#Bb"/>intelligentie angelica ad tales 
+          illumina<lb ed="#Bb" break="no"/>tiones.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1227">
+                     <lb ed="#Bb"/>Quod ut melius intelligatur, 
+          accipien<lb ed="#Bb" break="no"/>dum est ex eo quod dicitur in libro de
+          <lb ed="#Bb"/>Causis. bi enim dicitur, quod bonitates
+          <lb ed="#Bb"/>que sunt in causa prima, in ea puritate
+          <lb ed="#Bb"/>et nobilitate qua sunt in causa prima,
+          <lb ed="#Bb"/>non sunt perceptibiles ab aliqua 
+          causa<lb ed="#Bb" break="no"/>rum secundarum intelligentiarum : 
+          ta<lb ed="#Bb" break="no"/>men perspicacius et nobilius et simpli
+          lb break="no"/&gt;cius percipiuntur ab intelligentia primi
+          <lb ed="#Bb"/>ordinis, quam ab intelligentia secundi
+          <lb ed="#Bb"/>ordinis vel tertii, et sic deinceps. Ita 
+          di<lb ed="#Bb" break="no"/>cimus, quod cum Angelus per 
+          intelle<lb ed="#Bb" break="no"/>ctum medius sit inter lumen Verbi et
+          <lb ed="#Bb"/>rationalem animam, habet se in 
+          analo<lb ed="#Bb" break="no"/>gia medii ad utrumque extremorum :
+          <lb ed="#Bb"/>medium enim aliquo modo contingit
+          <lb ed="#Bb"/>utrumque extremorum. Unde illi Angeli
+          <lb ed="#Bb"/>quise habent in essentie simplicitate et
+          <lb ed="#Bb"/>intelligentie perspicacitate ad 
+          illumina<lb ed="#Bb" break="no"/>tiones divinas percipiendas in ea puritate
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>et nobilitate qua major sub Deo nequit
+          <lb ed="#Bb"/>intelligi, ad illuminationes divinas et
+          <lb ed="#Bb"/>Verbi prima relatione habent se, et sunt
+          <lb ed="#Bb"/>de prima hierarchia. Illi vero qui 
+          se<lb ed="#Bb" break="no"/>cunda relatione habent se ad divinas
+          <lb ed="#Bb"/>illuminationes easdem secundum 
+          pro<lb ed="#Bb" break="no"/>portionem puritatis, qua recepte sunt in
+          <lb ed="#Bb"/>intelligentia angelica, habent se secunda
+          <lb ed="#Bb"/>relatione ad illuminationes, et sunt de
+          <lb ed="#Bb"/>media hierarchia. Illi vero qui se habent
+          <lb ed="#Bb"/>ad easdem illuminationes secundum
+          <lb ed="#Bb"/>quod transfusibiles sunt in rationalem
+          <lb ed="#Bb"/>animam, cujus intellectus conjunctus est
+          <lb ed="#Bb"/>continuo et tempori, tertia relatione 
+          ha<lb ed="#Bb" break="no"/>bent se ad illuminationes divinas, et sunt
+          <lb ed="#Bb"/>de infima hierarchia. Et sic penes 
+          tripli<lb ed="#Bb" break="no"/>cem proportionem intellectus angelici ad
+          <lb ed="#Bb"/>illuminationes divinas, distinguuntar tres
+          <lb ed="#Bb"/>hierarchie.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1314">
+                     <lb ed="#Bb"/>Quod autem hoc verum sit, probatur
+          <lb ed="#Bb"/>per ea que dicit Dionysius unicuique
+          <lb ed="#Bb"/>hierarchia esse propria. De prima enim
+          <lb ed="#Bb"/>dicit-in libro de Celesii hicrarchia', sic:
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-d93019-Qd1e1327">Prima ceelestium essentiarum 
+            disposi<lb ed="#Bb" break="no"/>tio in circuitu Dei, et circa Deum 
+            imme<lb ed="#Bb" break="no"/>diate stans, et simpliciter et incessanter
+            <lb ed="#Bb"/>circumiens aeternam ejus scientiam 
+            se<lb ed="#Bb" break="no"/>cundum excellentissimam quantum in
+            <lb ed="#Bb"/>Angelis semper mobilem  collocatio~
+            <lb ed="#Bb"/>nem. </quote> Et hujus proprietates subdit sex :
+          <lb ed="#Bb"/>
+                     <quote xml:id="Almn78-d93019-Qd1e1345">Prima est, quod multas et beatas 
+            vi<lb ed="#Bb" break="no"/>det contemplationes. Secunda est, quod
+            <lb ed="#Bb"/>illuminata simplos et immediate fulgores
+            <lb ed="#Bb"/>accipit, a Deo. Tertia est, quod divino
+            <lb ed="#Bb"/>alimento repleta est. Quarta est, quod
+            <lb ed="#Bb"/>multa et primo data fusione, solaque do- .
+            <lb ed="#Bb"/>mestica et vivifica divine refectionis 
+            uni<lb ed="#Bb" break="no"/>tate repletur. Quinta est, quod multa
+            <lb ed="#Bb"/>communione Dei et cooperatione digna
+            <lb ed="#Bb"/>effecta est in similitudine ad Deum 
+            bo<lb ed="#Bb" break="no"/>narum habitudinum et actionum. Sexta
+            <lb ed="#Bb"/>est, quod multa divinorum superposile,
+            <lb ed="#Bb"/>hoc est, eminenter, est cognoscens, et
+            <lb ed="#Bb"/>divine scientie et cognitionis in 
+            parlici<lb ed="#Bb" break="no"/>patione secundum quod fas est facta, hoc
+            <lb ed="#Bb"/>est, secundum quod possibile est sibi,
+            <lb ed="#Bb"/>secundum analogiam simplicitatis essen
+            <pb ed="#Bb" n="423"/>
+                        <cb ed="#Bb" n="a"/>
+                        <lb ed="#Bb" break="no"/>tiae et perspicacitatis intelligentie 
+            dispo<lb ed="#Bb" break="no"/>nilur ad primas et supremas 
+            illumina<lb ed="#Bb" break="no"/>tiones immediate a Deo fluentes. </quote> 
+          Pro<lb ed="#Bb" break="no"/>pter quod dicit, quod incessanter 
+          cho<lb ed="#Bb" break="no"/>rum ducit cirea illas, et circumit eas.
+          <lb ed="#Bb"/>Quod exponens beatus Maximus in 
+          Com<lb ed="#Bb" break="no"/>mento dicit sic, quod <quote xml:id="Almn78-d93019-Qd1e1402"> secunda primis
+            <lb ed="#Bb"/>uniuntur : sed distant ab eis 
+            essentiali<lb ed="#Bb" break="no"/>ter, et intelligendo se, intelligunt id a
+            <lb ed="#Bb"/>quo sunt et a quo eluxerunt : et quod
+            <lb ed="#Bb"/>sic secundum naturam  singulis 
+            intel<lb ed="#Bb" break="no"/>lectibus Angelorum est impetus desiderii
+            <lb ed="#Bb"/>ad Deum tendens, et cirea eum veluti
+            <lb ed="#Bb"/>circa centrum circularis chorus, ut 
+            cir<lb ed="#Bb" break="no"/>culi circa signum et centrum a quo 
+            sta<lb ed="#Bb" break="no"/>tutum est. Etenim secundum etiam
+            <lb ed="#Bb"/>naturalem necessitalem unumquodque
+            <lb ed="#Bb"/>eorum que sunt circa Deum, choros 
+            du<lb ed="#Bb" break="no"/>cit, sive choro tripudiat, illud esse quod
+            <lb ed="#Bb"/>est auctoris affectans. </quote> Sensus est,
+          <lb ed="#Bb"/>quod prima hierarchia circa Deum 
+          im<lb ed="#Bb" break="no"/>mediate disponitur, quamvis per 
+          essen<lb ed="#Bb" break="no"/>tiam ei non uniatur, sicut circumferentia
+          <lb ed="#Bb"/>numquam unitur centro, quamvis equali
+          <lb ed="#Bb"/>distantia semper circumeat ipsum. Ita
+          <lb ed="#Bb"/>Angeli prime hierarchie tota mentis 
+          in<lb ed="#Bb" break="no"/>tentione semper extendunt se in Deum,
+          <lb ed="#Bb"/>ut illuminationes divinas ea purilate
+          <lb ed="#Bb"/>qua in Deo sunt, percipiant secundum
+          <lb ed="#Bb"/>quod possibile est eis, etin illis feliciter
+          <lb ed="#Bb"/>gaudeant et delectentur. Et hac extensio
+          <lb ed="#Bb"/>eorum circa divinas illuminationes, 
+          vo<lb ed="#Bb" break="no"/>catur circularis motus eorum et chorus
+          <lb ed="#Bb"/>et tripudium quod ‘ducunt circa Deum.
+          <lb ed="#Bb"/>Proprietates autem secunde 
+          hierar<lb ed="#Bb" break="no"/>chiz ponit Dionysius in capite octavo
+          <lb ed="#Bb"/>sic: <quote xml:id="Almn78-d93019-Qd1e1470"> Secunda hierarchia has habens
+            <lb ed="#Bb"/>proprietates deiformes, purgatur quidem
+            <lb ed="#Bb"/>et illuminatur et perficitur, 
+            quemadmo<lb ed="#Bb" break="no"/>dum dictum est, a divinis 
+            illuminationi<lb ed="#Bb" break="no"/>bus inditis sibi secundo per primam 
+            hie<lb ed="#Bb" break="no"/>rarchicam dispositionem, et per mediam
+            <lb ed="#Bb"/>illam secunda manifestatione delatis. </quote>
+                     <lb ed="#Bb"/>Sensus est, quod secunda hierarchia 
+          ac<lb ed="#Bb" break="no"/>cipitur per analogiam perspicacitatis 
+          in<lb ed="#Bb" break="no"/>telligentia ad illuminationes divinas,
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>non prima manifestatione ad ipsos 
+          Ange<lb ed="#Bb" break="no"/>los secunde hierarchie delatas, sed per
+          <lb ed="#Bb"/>primam. Secunda enim hierarchia non
+          <lb ed="#Bb"/>immediate a Deo purgatur, illuminatur,
+          <lb ed="#Bb"/>et perficitur. Et per hoc patet, quod per
+          <lb ed="#Bb"/>analogiam secunde proportionis ad 
+          illu<lb ed="#Bb" break="no"/>minationes divinas constituitur secunda
+          <lb ed="#Bb"/>hierarchia.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1513">
+                     <lb ed="#Bb"/>Tertie hierarchie proprietates ponit
+          <lb ed="#Bb"/>Dionysius’, sic dicens: <quote xml:id="Almn78-d93019-Qd1e1519"> Ipsi Angeli,
+            <lb ed="#Bb"/>sicut prediximus, completive 
+            consum<lb ed="#Bb" break="no"/>mant omnes celestium animorum 
+            dispo<lb ed="#Bb" break="no"/>sitiones secundum quod 
+            consumman<lb ed="#Bb" break="no"/>dum est. Quippe in ccelestibus essentiis
+            <lb ed="#Bb"/>habentes angelicam proprietatem, et 
+            ma<lb ed="#Bb" break="no"/>gis apud nos Angeli quam priores aptius
+            <lb ed="#Bb"/>nominati, quantum circa quod 
+            mani<lb ed="#Bb" break="no"/>festius est ipsis hierarchia. </quote> Sensus est,
+          <lb ed="#Bb"/>quod infima hierarchia constituitur 
+          pro<lb ed="#Bb" break="no"/>portione perspicacitatis intelligentie ad
+          <lb ed="#Bb"/>illuminationes nobis proportionabiles et
+          <lb ed="#Bb"/>manifestatas : et ideo complet 
+          hierar<lb ed="#Bb" break="no"/>chie dispositionem, quia nulle sunt 
+          in<lb ed="#Bb" break="no"/>feriores illuminationes, ad quas 
+          intel<lb ed="#Bb" break="no"/>lectus angelicus proportionari 
+          ha<lb ed="#Bb" break="no"/>beat.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1557">
+                     <lb ed="#Bb"/>Hoc autem Dionysius probat per 
+          Bi<lb ed="#Bb" break="no"/>bliam, Zachar. 1, 8 et seq., et Daniel. x,
+          <lb ed="#Bb"/>4 et seq. Dicit enim, quod imperium
+          <lb ed="#Bb"/>Dei ad Angelum et locutio significat 
+          il<lb ed="#Bb" break="no"/>luminationem prime proportionis 
+          im<lb ed="#Bb" break="no"/>mediate a Deo in primam hierarchiam
+          <lb ed="#Bb"/>descendentis. Et inducit hoc quod 
+          habe<lb ed="#Bb" break="no"/>tur, Isa.. nxn, 1 et seq., ubi per 
+          seip<lb ed="#Bb" break="no"/>sum Filius Dei Angelos querentes : Quits
+          <lb ed="#Bb"/>est iste, qui venit de Edom, tinetis 
+          vesti<lb ed="#Bb" break="no"/>bus de Bosra? illuminavit dicens : Ego
+          <lb ed="#Bb"/>gui loquor justitiam, et propugnator
+          <lb ed="#Bb"/>sum ad salvandum. Et ibidem, y. 2:
+          <lb ed="#Bb"/>Quare rubrum est indumentum tuum ?
+          <lb ed="#Bb"/>Et sic querentes iterum per seipsum 
+          il<lb ed="#Bb" break="no"/>luminavit dicens, ¥. 3: Torcular calcavi
+          <lb ed="#Bb"/>solus, et de gentibus non est vir 
+          me<lb ed="#Bb" break="no"/>cum,
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1600">
+                     <lb ed="#Bb"/>Dispositionem vero secunde 
+          hierar<lb ed="#Bb" break="no"/>chie probat per illud quod Zachar., 1, 12,
+          <pb ed="#Bb" n="424"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>dicitur, quod Angelus clamavit ad 
+          alle<lb ed="#Bb" break="no"/>rum Angelum. Et per id quod dicitur,
+          <lb ed="#Bb"/>Daniel. vit, 16, quod unus superior 
+          An<lb ed="#Bb" break="no"/>gelus dixit Gabrieli : Gabriel, fac 
+          intel<lb ed="#Bb" break="no"/>ligere istam visionem. Dicit enim, quod
+          <lb ed="#Bb"/>clamor qui longe sonat, significat 
+          illu<lb ed="#Bb" break="no"/>minationem distantem a primo 
+          illumi<lb ed="#Bb" break="no"/>natore, et per alium sicut per medium
+          <lb ed="#Bb"/>delatam.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1631">
+                     <lb ed="#Bb"/>Tertia vero hierarchie dispositionem
+          <lb ed="#Bb"/>dicit significari, Zachar. 1, 14, ubi 
+          dici<lb ed="#Bb" break="no"/>tur: Angelus qui loquebatur in me :
+          <lb ed="#Bb"/>ubi significatur illuminatio descendens
+          <lb ed="#Bb"/>ab Angelo in hominem, quod proprie est
+          <lb ed="#Bb"/>terlie hierarchie.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1647">
+                     <lb ed="#Bb"/>Unde quia Theologi, hoc est, Auctores
+          <lb ed="#Bb"/>sacre Scripture, Prophete scilicet, et
+          <lb ed="#Bb"/>Apostoli sic loquuntur de illumination:-
+          <lb ed="#Bb"/>bus, dicit eos per hoc significare 
+          tripli<lb ed="#Bb" break="no"/>cem hierarchiam Angelorum.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1660">
+                     <lb ed="#Bb"/>Per hoc patet, quod. sufficiens est 
+          di<lb ed="#Bb" break="no"/>visio in supremam, mediam, et infimam
+          <lb ed="#Bb"/>hierarchiam : eo quod illuminationes a
+          <lb ed="#Bb"/>Deo descendentes, in ista triplici sunt
+          <lb ed="#Bb"/>proportione, et non in pluribus.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1673">
+                     <lb ed="#Bb"/>Ad primum ergo dicendum, quod licet
+          <lb ed="#Bb"/>media multa sint in numero, tamen in
+          <lb ed="#Bb"/>ratione medii et forma non sunt nisi
+          <lb ed="#Bb"/>unum : et ideo proportio iluminationis
+          <lb ed="#Bb"/>ad mediam hierarchiam una est specie
+          <lb ed="#Bb"/>et ralione, penes quam accipitur media
+          <lb ed="#Bb"/>hierarchia : et ideo media non est nisi
+          <lb ed="#Bb"/>una.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1693">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod Dionysius
+          <lb ed="#Bb"/>non intendit, quod secundum quemlibet
+          <lb ed="#Bb"/>Angelum et secundum quamlibet 
+          ani<lb ed="#Bb" break="no"/>mam sit hierarchia, sed quod quilibet
+          <lb ed="#Bb"/>Angelus et quilibet anima secundum
+          <lb ed="#Bb"/>proportionem capacitatis sue, aliquando
+          <lb ed="#Bb"/>altiori, aliquando media, aliquando 
+          in<lb ed="#Bb" break="no"/>feriori illuminatione perficiatur et 
+          vir<lb ed="#Bb" break="no"/>tute.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1716">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod hierarchie
+          <lb ed="#Bb"/>non sumuntur penes assistere et 
+          mi<lb ed="#Bb" break="no"/>nistrare : sed obsequia Angelorum 
+          acci<lb ed="#Bb" break="no"/>piuntur penes illa, quidam enim 
+          obse<lb ed="#Bb" break="no"/>quuntur assistendo, quidam ministran
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb" break="no"/>do. Sed distinctiones hierarchiarum 
+          ac<lb ed="#Bb" break="no"/>cipiuntur penes proportionem 
+          contem<lb ed="#Bb" break="no"/>plative virtutis ad triplicem 
+          illumina<lb ed="#Bb" break="no"/>tionem, ut dictum est,
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1740">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod illa 
+          assi<lb ed="#Bb" break="no"/>gnatio sufficientie nulla est, sicut 
+          pro<lb ed="#Bb" break="no"/>hatur objiciendo.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1749">
+                     <lb ed="#Bb"/>Er per hoc patet solutio ad sequens :
+          <lb ed="#Bb"/>concedendum enim est quod probat 
+          ob<lb ed="#Bb" break="no"/>jectio.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1758">
+                     <lb ed="#Bb"/>Similiter dicendum est ad sequens :
+          <lb ed="#Bb"/>quia penes hos tres actus non distin~
+          <lb ed="#Bb"/>guuntur tres hierarchie, sicut videtur
+          <lb ed="#Bb"/>probative objicienda.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1769">
+                     <lb ed="#Bb"/>Ad aliud dicendum, quod penes tres
+          <lb ed="#Bb"/>terminos non accipitur distinctio 
+          hie<lb ed="#Bb" break="no"/>rarchie : omnes enim convertuntur in
+          <lb ed="#Bb"/>Deum per acceptionem illuminationis,
+          <lb ed="#Bb"/>per quam, ut dicit Magister Hugo, 
+          effi<lb ed="#Bb" break="no"/>ciuntur gratiz et luminis participes, et
+          <lb ed="#Bb"/>omnes transfundunt in inferiores vel per
+          <lb ed="#Bb"/>se, vel per alios, vel per quod 
+          efficiun<lb ed="#Bb" break="no"/>tur potestatis consortes. Et hoc jam 
+          sul<lb ed="#Bb" break="no"/>ficienter determinatum est in tractatu de
+          <lb ed="#Bb"/>missionibus Angelorum’.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1795">
+                     <lb ed="#Bb"/>Id quod objicitur in contrarium, 
+          con<lb ed="#Bb" break="no"/>cedendum est, sicut dicit Magister Hugo
+          <lb ed="#Bb"/>de sancto Victore.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1805">
+                     <lb ed="#Bb"/>Ad hoc quod dicitur, quod prima 
+          hie<lb ed="#Bb" break="no"/>rarchia dicitur epiphania, secunda 
+          hy<lb ed="#Bb" break="no"/>perphania, tertia hypophania, et de 
+          defi<lb ed="#Bb" break="no"/>nitionibus quas inducunt horum trium,
+          <lb ed="#Bb"/>dicendum quod verba ficta sunt que
+          <lb ed="#Bb"/>Dionysius numquam dicit, nec per 
+          sen<lb ed="#Bb" break="no"/>sum, nec per verba. Thronis enim 
+          Dio<lb ed="#Bb" break="no"/>nysius numquam attribuit libertatem 
+          ju<lb ed="#Bb" break="no"/>dicii. Similiter, Principatus numquam
+          <lb ed="#Bb"/>posuit in secunda hierarchia, sed in 
+          ter<lb ed="#Bb" break="no"/>tia. Unde verba illa tamquam ficta 
+          abji<lb ed="#Bb" break="no"/>cienda sunt.
+        </p>
+               </div>
+               <div xml:id="Almn78-d93019-Dd1e1835">
+                  <head xml:id="Almn78-d93019-Hd1e1837">Articulus 3</head>
+                  <head xml:id="Almn78-d93019-Hd1e1840" type="question-title">
+          De ordine dividentium et divisi
+        </head>
+                  <p xml:id="Almn78-d93019-d1e1843">
+                     <pb ed="#Bb" n="425"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>MEMBRI SECUNDI
+          <lb ed="#Bb"/>ARTICULUS III.
+          <lb ed="#Bb"/>De ordine dividentium et divisi.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1856">
+                     <lb ed="#Bb"/>Tertio, Queritur de ordine 
+          dividen<lb ed="#Bb" break="no"/>tium et divisi.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1863">
+                     <lb ed="#Bb"/>Videtur enim, quod inter dividentia
+          <lb ed="#Bb"/>nullus sit ordo : quecumque enim partes
+          <lb ed="#Bb"/>subjective aliquod totum dividunt, quod
+          <lb ed="#Bb"/>secundum unam rationem predicatur de
+          <lb ed="#Bb"/>ipsis, non secundum ordinem, sed 
+          cox<lb ed="#Bb" break="no"/>queva sunt in illo, sicut homo, asinus,
+          <lb ed="#Bb"/>et equus cowqueva sunt in animali. 
+          Hie<lb ed="#Bb" break="no"/>rarchia secundum unam rationem 
+          predi<lb ed="#Bb" break="no"/>cature de prima, secunda, et tertia, ut
+          <lb ed="#Bb"/>Dionysius vult : dicitur enim prima 
+          hie<lb ed="#Bb" break="no"/>rarchia secundum perfectam rationem
+          <lb ed="#Bb"/>hierarchia, et similiter secunda, et 
+          simi<lb ed="#Bb" break="no"/>liter tertia. Ergo tres hierarchie 
+          cow<lb ed="#Bb" break="no"/>queve sunt in hoc communi quod est
+          <lb ed="#Bb"/>hierarchia : non ergo habent ordinem in
+          <lb ed="#Bb"/>illo communi. as
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1901">
+                     <lb ed="#Bb"/>Conrra Primum, secundum, 
+          ter<lb ed="#Bb" break="no"/>tium, nomina sunt <unclear>ordinabilia<!-- handwritten correction to ordinalia --></unclear>, ut dicit
+          <lb ed="#Bb"/>
+                     <name xml:id="Almn78-d93019-Nd1e1913">Priscianus</name>. Dicitur autem prima 
+          hierar<lb ed="#Bb" break="no"/>chia, secunda, tertia : similiter suprema,
+          <lb ed="#Bb"/>media, infima : et non potest dici, quod
+          <lb ed="#Bb"/>ordinem ponant hec nomina, nisi in hoc
+          <lb ed="#Bb"/>communi guod est hierarchia. Ergo 
+          or<lb ed="#Bb" break="no"/>dinem ponunt in hoc communi quod est
+          <lb ed="#Bb"/>hierarchia.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1930">
+                     <lb ed="#Bb"/>Solutio. Dicendum, quod 
+          particula<lb ed="#Bb" break="no"/>res hierarchie secundum ordinem 
+          par<lb ed="#Bb" break="no"/>ticipant hoc commune quod est 
+          hierar<lb ed="#Bb" break="no"/>chia. Est enim hierarchia communis
+          <lb ed="#Bb"/>totum potestativum ad particulares 
+          hie<lb ed="#Bb" break="no"/>rarchias. In toto autem potestativo sic
+          <cb ed="#Bb" n="b"/>
+                     <lb ed="#Bb"/>est, ut dicunt Dionysius et Boetius, quod
+          <lb ed="#Bb"/>quidquid potest inferior potentia, potest
+          <lb ed="#Bb"/>superior eminenter et excellenter, et non
+          <lb ed="#Bb"/>convertitur : et sic est in hierarchiis, quia
+          <lb ed="#Bb"/>quidquid potest inferior, potest et media
+          <lb ed="#Bb"/>et suprema : et quidquid potest media,
+          <lb ed="#Bb"/>potest suprema, sed non convertitur :
+          <lb ed="#Bb"/>est enim inter eas ordo potestatis sive
+          <lb ed="#Bb"/>facultatis participandi illuminationes 
+          di<lb ed="#Bb" break="no"/>vinas, sicut in antehabitis in questione
+          <lb ed="#Bb"/>de divisione hierarchiz dictum est.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e1972">
+                     <lb ed="#Bb"/>Ad hoc quod contra hoc esse videtur,
+          <lb ed="#Bb"/>dicendum quod hoc argumentum 
+          proce<lb ed="#Bb" break="no"/>deret, si hoc commune quod est 
+          hierar<lb ed="#Bb" break="no"/>chia, de particularibus predicaretur ut
+          <lb ed="#Bb"/>universale: hoc autem falsum est, 
+          pre<lb ed="#Bb" break="no"/>dicatur enim ut totum potestativum,
+          <lb ed="#Bb"/>quod medium est inter totum universale
+          <lb ed="#Bb"/>et totum integrale : et convenit cum toto
+          <lb ed="#Bb"/>universali, quia predicatur de qualibet
+          <lb ed="#Bb"/>parte: cum toto autem integrali 
+          conve<lb ed="#Bb" break="no"/>nit, quia secundum perfectam sui 
+          ratio<lb ed="#Bb" break="no"/>nem non est in qualibet parte, sed in
+          <lb ed="#Bb"/>suprema tantum. Proprium autem habet
+          <lb ed="#Bb"/>in quo differt ab utroque toto, scilicet
+          <lb ed="#Bb"/>universali et integrali: quia in eo 
+          quid<lb ed="#Bb" break="no"/>quid potest potentia inferior, potest 
+          su<lb ed="#Bb" break="no"/>perior eminenter et excellenter, sed non
+          <lb ed="#Bb"/>convertitur, sicut patet in exemplo 
+          Boe<lb ed="#Bb" break="no"/>tii de regno: quidquid enim potest 
+          pre<lb ed="#Bb" break="no"/>fectus, potest prases excellenter et 
+          emi<lb ed="#Bb" break="no"/>nenter, sed non convertitur: et quidquid
+          <lb ed="#Bb"/>potest preses, potest rex excellenter et
+          <lb ed="#Bb"/>eminenter, et similiter non convertitur.
+        </p>
+                  <p xml:id="Almn78-d93019-d1e2024">
+                     <lb ed="#Bb"/>Est etiam exemplum in anima 
+          homi<lb ed="#Bb" break="no"/>nis, in qua sicut dicit Philosophus in II
+          <lb ed="#Bb"/>de Anima, vegetativum est in 
+          sensi<lb ed="#Bb" break="no"/>tivo, et sensitivum in rationali sicut 
+          tri<lb ed="#Bb" break="no"/>gonum in tetragono: et ideo quidquid
+          <lb ed="#Bb"/>potest vegetativum, potest et 
+          sensiti<lb ed="#Bb" break="no"/>vum excellenter et eminenter : et 
+          quid<lb ed="#Bb" break="no"/>quid potest sensitivum, potest 
+          ratio<lb ed="#Bb" break="no"/>nale excellenter et eminenter, sed non
+          <lb ed="#Bb"/>convertitur. Propter quod dicit 
+          Philoso<lb ed="#Bb" break="no"/>phus, quod ratio partium talis totius est
+          <lb ed="#Bb"/>sicut ratio figure: una enim figura po
+          <pb ed="#Bb" n="426"/>
+                     <cb ed="#Bb" n="a"/>
+                     <lb ed="#Bb"/>testate continetur in alia : quot enim 
+          an<lb ed="#Bb" break="no"/>gulos habet polygonum, tot sunt in eo
+          <lb ed="#Bb"/>trianguli potestate: unde quidquid pot
+          <lb ed="#Bb"/>est trigonum, potest tetragonum, 
+          penta<lb ed="#Bb" break="no"/>gonum, et hexagonum excellenter et
+          <lb ed="#Bb"/>eminenter, sed non convertitur.
+        </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

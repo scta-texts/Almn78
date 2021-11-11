@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 66</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 66</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="666"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a46644"><!-- p1t16q66 -->
+            <head xml:id="Almn78-a46644-Hd1e106">Quaestio 66</head>
+            <head xml:id="Almn78-a46644-Hd1e109" type="question-title">De reprobatione</head>
+            <p xml:id="Almn78-a46644-d1e112">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>QUAESTIO LXVI.
+<lb ed="#Ba"/>De reprobatione.
+</p>
+            <p xml:id="Almn78-a46644-d1e121">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Deinde queritur de reprobatione, de
+<lb ed="#Ba"/>qua Magister ait in libro primo 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinctione XLI, cap. Cumque
+<lb ed="#Ba"/>predestinatio sit, et cap. sequenti, 
+Sic<lb ed="#Ba" break="no"/>ut enim predestinatioms effectus.
+<lb ed="#Ba"/>Quaeremus autem duo, scilicet primo
+<lb ed="#Ba"/>quid sit reprobatio ?
+<lb ed="#Ba"/>Et secundo, Quis sit ejus effectus ?
+</p>
+            <div xml:id="Almn78-a46644-Dd1e143">
+               <head xml:id="Almn78-a46644-Hd1e145">Membrum 1</head>
+               <head xml:id="Almn78-a46644-Hd1e148" type="question-title">
+  Quid sit reprobatio
+</head>
+               <p xml:id="Almn78-a46644-d1e151">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>MEMBRUM I.
+<lb ed="#Ba"/>Quid sit reprobatio?
+  
+<lb ed="#Ba"/>Primo ergo queritur, Quid sit 
+repro<lb ed="#Ba" break="no"/>batio?
+</p>
+               <p xml:id="Almn78-a46644-d1e164">
+                  <lb ed="#Ba"/>Et dicit Magister in Sententiis, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a46644-Qd1e170">reprobatio est prescientia iniquitatis
+<lb ed="#Ba"/>quorumdam, et preparatio damnationis
+<lb ed="#Ba"/>eorumdem. </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e178">
+                  <lb ed="#Ba"/>Et contra hoc objicitur sic : quia
+<lb ed="#Ba"/>1. Sicut dicit Aristoteles in principio
+<lb ed="#Ba"/>Predicamentorum, diversorum § 
+gene<lb ed="#Ba" break="no"/>rum non subalternatim positorum 
+di<lb ed="#Ba" break="no"/>verse sunt species et differentia : 
+prae<lb ed="#Ba" break="no"/>scientia autem et preparatio diversa
+<lb ed="#Ba"/>sunt genera non subalternatim posita :
+<lb ed="#Ba"/>ergo nihil unum ut species continetur in
+<lb ed="#Ba"/>utroque : hic autem reprobatio ponitur
+<lb ed="#Ba"/>et in genere prescientie, et in genere
+<lb ed="#Ba"/>preparationis : ergo male diffinitur.
+</p>
+               <p xml:id="Almn78-a46644-d1e205">
+                  <lb ed="#Ba"/>2. Adhuc, Prescientia simplicis 
+noti<lb ed="#Ba" break="no"/>tie nullam ponit causalitatem respectu
+<pb ed="#Ba" n="667"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>presciti : preparatio autem ponit 
+respe<lb ed="#Ba" break="no"/>clu preparati causalitatem : ergo 
+pre<lb ed="#Ba" break="no"/>paratio in genere prescicnliae non 
+conti<lb ed="#Ba" break="no"/>netur.
+</p>
+               <p xml:id="Almn78-a46644-d1e225">
+                  <lb ed="#Ba"/>3. Adhuc, Presciti et praescientia ex
+<lb ed="#Ba"/>opposito se habent ad predestinatos et
+<lb ed="#Ba"/>ad predestinationem guia presciti
+<lb ed="#Ba"/>finaliter damnandi sunt, et praedestinati
+<lb ed="#Ba"/>finaliter salvandi : praeparatio autem 
+ca<lb ed="#Ba" break="no"/>dit in definitionem predestinationis : et
+<lb ed="#Ba"/>sic videtur, quod predestinatio 
+secun<lb ed="#Ba" break="no"/>dum totum ambitum sue communitatis
+<lb ed="#Ba"/>nihil habet in genere prescientie : et
+<lb ed="#Ba"/>cum reprobatio sit preparatio quedam,
+<lb ed="#Ba"/>preparatio non potest cadere in genere
+<lb ed="#Ba"/>prescientia.
+</p>
+               <p xml:id="Almn78-a46644-d1e254">
+                  <lb ed="#Ba"/>Ulterius queritur, Si reprobatio est
+<lb ed="#Ba"/>ex meritis, vel non ?
+</p>
+               <p xml:id="Almn78-a46644-d1e261">
+                  <lb ed="#Ba"/>Et videtur, quod sic.
+<lb ed="#Ba"/>1. I Sententiarum, distinctione XLI,
+<lb ed="#Ba"/>sic dicitur : <quote xml:id="Almn78-a46644-Qd1e269"> Si querimus meritum
+<lb ed="#Ba"/>obdurationis et misericordie, 
+obduratio<lb ed="#Ba" break="no"/>nis meritum inveniemus, misericordize
+<lb ed="#Ba"/>vero meritum non inveniemus, </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e279">
+                  <lb ed="#Ba"/>2. Adhuc, Ibidem ex verbis Augustini
+<lb ed="#Ba"/>contra Julianum : <quote xml:id="Almn78-a46644-Qd1e285"> Miseretur utique 
+se<lb ed="#Ba" break="no"/>cundum gratiam, qué gratis datur : 
+ob<lb ed="#Ba" break="no"/>durat. autem secundum judicium, quod
+<lb ed="#Ba"/>meritis redditur. </quote> Ergo cum obduratio
+<lb ed="#Ba"/>effectus sit reprobationis, videtur qued
+<lb ed="#Ba"/>reprobatio sit ex meritis.
+</p>
+               <p xml:id="Almn78-a46644-d1e299">
+                  <lb ed="#Ba"/>3. Adhuc, Ad Roman. 1, 21, super
+<lb ed="#Ba"/>illud Obscuratum est insipiens cor
+<lb ed="#Ba"/>eorum, Augustinus in Glossa: <quote xml:id="Almn78-a46644-Qd1e307"> Ista 
+ob<lb ed="#Ba" break="no"/>scuratio pena et vindicta est, per quam
+<lb ed="#Ba"/>penam, hoc est, cordis cecitatem in
+<lb ed="#Ba"/>plura peccata lapsi sunt. </quote> Videtur ergo,
+<lb ed="#Ba"/>quod ex malis meritis sit.
+</p>
+               <p xml:id="Almn78-a46644-d1e320">
+                  <lb ed="#Ba"/>4, Adhuc, Reprobatio, sicut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus ', est nolle misereri : nolle 
+au<lb ed="#Ba" break="no"/>tem misereri sine causa non potest 
+con<lb ed="#Ba" break="no"/>venire ei cujus proprium est misereri et
+<lb ed="#Ba"/>parcere : causa autem non potest esse
+<lb ed="#Ba"/>nisi peccatum : ergo reprobatio non est
+<lb ed="#Ba"/>nisi ex peccato.
+</p>
+               <p xml:id="Almn78-a46644-d1e338">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>5. Adhuc, Isaie, uix, 2 : Iniguétates
+<lb ed="#Ba"/>vesire diviserunt inter vos et Deum 
+ve<lb ed="#Ba" break="no"/>strum. Sed reprobatio separatio et 
+divi<lb ed="#Ba" break="no"/>sio est a Deo. Videtur ergo, quod esse
+<lb ed="#Ba"/>non possit nisi propter peccatum : et sic
+<lb ed="#Ba"/>reprobatio est ad minus ex praescientia
+<lb ed="#Ba"/>tali meriti.
+</p>
+               <p xml:id="Almn78-a46644-d1e358">
+                  <lb ed="#Ba"/>6. Adhuc, Subtractio gratia 
+commu<lb ed="#Ba" break="no"/>niter dicitur effectus reprobationis. 
+Que<lb ed="#Ba" break="no"/>ratur ergo, Cujus sit effectus, vel Dei,
+<lb ed="#Ba"/>vel alicujus alterius? Subtractio. enim
+<lb ed="#Ba"/>est in genere motus violenti, et dicit 
+mo<lb ed="#Ba" break="no"/>tum abstrahentem : et prapositio sub
+<lb ed="#Ba"/>que per compositionem est in nomine,
+<lb ed="#Ba"/>dicit ablationem ejus quod trahitur ab 
+ali<lb ed="#Ba" break="no"/>quo : videtur ergo, quod subtractio 
+mo<lb ed="#Ba" break="no"/>tus Dei sit ab aliquo revocantis gratiam :
+<lb ed="#Ba"/>et sic subtractio gratie ens est quod 
+ne<lb ed="#Ba" break="no"/>cesse est, quod a Deo sit faciente. Quod
+<lb ed="#Ba"/>si concedatur, quod sit aliquid.a Deo
+<lb ed="#Ba"/>quo fit homo deterior, est contra 
+Ful<lb ed="#Ba" break="no"/>gentium relatum in primo libro 
+Senten<lb ed="#Ba" break="no"/>tiarum, distinctione XL, cap. Sicut
+<lb ed="#Ba"/>enim, ubi dicit Fulgentius, quod <quote xml:id="Almn78-a46644-Qd1e397"> Deus
+<lb ed="#Ba"/>non est preparator pravitatis. </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e403">
+                  <lb ed="#Ba"/>7. Adhuc, Videtur inconveniens esse,
+<lb ed="#Ba"/>quod Deus subtrahit gratiam. Dicit enim
+<lb ed="#Ba"/>Dionysius, quod optimi est optima 
+addu<lb ed="#Ba" break="no"/>cere, et non optima subtrahere.
+</p>
+               <p xml:id="Almn78-a46644-d1e414">
+                  <lb ed="#Ba"/>8. Adhuc, Dicit Dionysius, quod divina .
+<lb ed="#Ba"/>bonitas per omnia se diffundit et 
+expan<lb ed="#Ba" break="no"/>dit. Quod autem per omnia se diffundit
+<lb ed="#Ba"/>et expandit, nulli se subtrahit. Ergo
+<lb ed="#Ba"/>subtractio gratie et bonitatis, Deo non
+<lb ed="#Ba"/>competit,
+</p>
+               <p xml:id="Almn78-a46644-d1e430">
+                  <lb ed="#Ba"/>SimiLireR queritur de excecatione,
+<lb ed="#Ba"/>Utrum possit esse opus divinum ?
+</p>
+               <p xml:id="Almn78-a46644-d1e438">
+                  <lb ed="#Ba"/>Et videtur quod sic.
+<lb ed="#Ba"/>II ad Corinth. tv, 4, super illud :
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a46644-Qd1e446">Deus hujus seculi excecavit mentes 
+in<lb ed="#Ba" break="no"/>fidelium</quote>, Glossa : <quote xml:id="Almn78-a46644-Qd1e451"> Deus hujus seaculi
+<lb ed="#Ba"/>qui non solum bonos regit, sed etiam
+<lb ed="#Ba"/>malos pro meritis precipitat, excecavit
+<lb ed="#Ba"/>mentes infidelium. </quote> Et paulo post se
+  <lb ed="#Ba"/>Deus verus et justus exce
+  <lb ed="#Ba" break="no"/>quitur : <quote xml:id="Almn78-a46644-Qd1e465">Deus verus et justus excae
+<pb ed="#Ba" n="668"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Ba" break="no"/>cavit mentes infidelium hujus 
+se<lb ed="#Ba" break="no"/>culi. </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e477">
+                  <lb ed="#Ba"/>SED IN contrarium videtur esse, quod
+<lb ed="#Ba"/>1. Sicut dicit Augustinus in libro
+<lb ed="#Ba"/>LXXXII Questionum, opus quod ope &gt;
+<lb ed="#Ba"/>ratur Deus per seipsum, est illuminare
+<lb ed="#Ba"/>animas : eo quod, Joan. 1, 9, dicitur :
+<lb ed="#Ba"/>Erat lux vera, que illuminat omnem
+<lb ed="#Ba"/>hominem venientem in hune mundum.
+<lb ed="#Ba"/>Lucis autem opus non potest esse 
+exca<lb ed="#Ba" break="no"/>catio : et sic videtur, quod verus Deus
+<lb ed="#Ba"/>nullum excecat : maxime quia sicut 
+dici<lb ed="#Ba" break="no"/>tur, I ad Corinth. 1, 4: Deus hujus
+<lb ed="#Ba"/>seculi excecavit mentes infidelium, ut
+<lb ed="#Ba"/>non fulgeat illis illuminatio Evangelii
+<lb ed="#Ba"/>gloriae Christi, qui est imago Dei, 
+scili<lb ed="#Ba" break="no"/>cet invisibilis. Talem autem 
+illumina<lb ed="#Ba" break="no"/>tionem prohibere non est proprium ejus
+<lb ed="#Ba"/>qui lux est.
+</p>
+               <p xml:id="Almn78-a46644-d1e516">
+                  <lb ed="#Ba"/>2. Adhuc, Joan. 1, 5, super illud :
+<lb ed="#Ba"/>Lux in tenebris lucet, dicit Augustinus
+<lb ed="#Ba"/>in Glossa : <quote xml:id="Almn78-a46644-Qd1e524"> Sicut ceco posito in sole
+<lb ed="#Ba"/>presens est lux, et ipse absens est ab
+<lb ed="#Ba"/>ipsa : ita omnis iniquus cecus corde,
+<lb ed="#Ba"/>absens est a sapientia, et sapientia 
+pre<lb ed="#Ba" break="no"/>sens est illi. Exczecatio autem non polest
+<lb ed="#Ba"/>esse opus Dei, cum ipse sit lux. </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e538">
+                  <lb ed="#Ba"/>3. Adhuc, Sapient. n, 21 et 22, 
+exce<lb ed="#Ba" break="no"/>catio Deo non attribuitur, sed potius
+<lb ed="#Ba"/>malitie et diabolo : dicitur enim sic :
+<lb ed="#Ba"/>Hee cogitaverunt et erraverunt : 
+exce<lb ed="#Ba" break="no"/>cavit enim illos malitia eorum. Et 
+ne<lb ed="#Ba" break="no"/>seierunt sacramenta Dei : neque 
+merce<lb ed="#Ba" break="no"/>dem speraverunt sustitiae, nec 
+judicave<lb ed="#Ba" break="no"/>runt honorem animarum sanctarum,
+</p>
+               <p xml:id="Almn78-a46644-d1e558">
+                  <lb ed="#Ba"/>Sotvutio. Dicendum, quod reprobatio
+<lb ed="#Ba"/>est, ut dicit Augustinus, prescientia 
+ini<lb ed="#Ba" break="no"/>quitatis quorumdam, et preparatio 
+dam<lb ed="#Ba" break="no"/>nationis eorumdem. Et sic tria sunt in
+<lb ed="#Ba"/>reprobatione, scilicet prescientia 
+iniqui<lb ed="#Ba" break="no"/>tatis, que simplex est notitia absque
+<lb ed="#Ba"/>omni causalitate qua Deus previdet
+<lb ed="#Ba"/>quidquid futurum est. Secundum est 
+fu<lb ed="#Ba" break="no"/>tura iniquitas in eo qui reprobatur. 
+Ter<lb ed="#Ba" break="no"/>tium est praparata damnatio, que 
+debe<lb ed="#Ba" break="no"/>tur iniquis. Et respectu hujus, 
+prescien<lb ed="#Ba" break="no"/>tia non dicit simplicem visionem, sed
+<lb ed="#Ba"/>potius notitiam practicam que est cum
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>ordinatione, dispositione, et 
+praparatio<lb ed="#Ba" break="no"/>ne operativa. Et in his tribus primum
+<lb ed="#Ba"/>nullo modo causa est secundi, sed 
+se<lb ed="#Ba" break="no"/>cundum est causa tertii. Ex opposito
+<lb ed="#Ba"/>enim habet se reprobatio ad 
+pradestina<lb ed="#Ba" break="no"/>tionem, que est prascientia beneplaciti
+<lb ed="#Ba"/>sive approbationis, et praeparatio gratix
+<lb ed="#Ba"/>in presenti et gloria in futuro : et
+<lb ed="#Ba"/>in his prascientia beneplaciti 
+secun<lb ed="#Ba" break="no"/>dum rationem intelligentia est ratio 
+se<lb ed="#Ba" break="no"/>cundi, et causa hec est preparationis
+<lb ed="#Ba"/>gratie in presenti, et primum et 
+secun<lb ed="#Ba" break="no"/>dum causa tertii, hoc est, gloria in 
+fu<lb ed="#Ba" break="no"/>turo.
+</p>
+               <p xml:id="Almn78-a46644-d1e621">
+                  <lb ed="#Ba"/>Et quia plura sunt in ratione 
+reproba<lb ed="#Ba" break="no"/>tionis, ideo necesse fuit ut in pluribus
+<lb ed="#Ba"/>generibus poneretur. Sicut etiam 
+secun<lb ed="#Ba" break="no"/>dum philosophiam bene conceditur,
+<lb ed="#Ba"/>quod homo albus magnus pater 
+Socra<lb ed="#Ba" break="no"/>tis, in pluribus est generibus quoad 
+di<lb ed="#Ba" break="no"/>versa que sunt in ipso. Dico autem 
+ge<lb ed="#Ba" break="no"/>neribus non subalternatim positis. 
+Dam<lb ed="#Ba" break="no"/>natio enim iniqui justa est, ut dicit 
+Au<lb ed="#Ba" break="no"/>gustinus : et si justa est, bona est : quia
+<lb ed="#Ba"/>omne justum bonum est: omne autem
+<lb ed="#Ba"/>bonum a Deo est: unde respectu 
+dam<lb ed="#Ba" break="no"/>nationis iniquorum, oportuit quod 
+re<lb ed="#Ba" break="no"/>probatio esset in genere preparationis,
+<lb ed="#Ba"/>et in genere scientie practice que est
+<lb ed="#Ba"/>scientia ordinans, disponens, et 
+prepa<lb ed="#Ba" break="no"/>rans. Respectu autem iniquitatis, cujus
+<lb ed="#Ba"/>Deus causa esse non potest, eo quod 
+di<lb ed="#Ba" break="no"/>cit Augustinus, quod nullo modo causa
+<lb ed="#Ba"/>est ejus quo fit homo deterior, non 
+po<lb ed="#Ba" break="no"/>tuit poni in genere scientie practice :
+<lb ed="#Ba"/>quia Deus preparator iniquitatis non est,
+<lb ed="#Ba"/>ut dicit Fulgentius. Sed quia nihil latet
+<lb ed="#Ba"/>eum ex omnibus futuris, oportuit quod
+<lb ed="#Ba"/>poneretur in genere simplicis notitiz.
+</p>
+               <p xml:id="Almn78-a46644-d1e679">
+                  <lb ed="#Ba"/>Et guop dicit Philosophus, quod 
+di<lb ed="#Ba" break="no"/>versorum generum, etc., intelligitur de
+<lb ed="#Ba"/>speciebus simplicibus, in quarum 
+defini<lb ed="#Ba" break="no"/>tione genus est in potentia, et differentia
+<lb ed="#Ba"/>ejusdem generis divisiva est in eadem ut
+<lb ed="#Ba"/>constitutiva actus.
+</p>
+               <p xml:id="Almn78-a46644-d1e695">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad duo 
+se<lb ed="#Ba" break="no"/>quentia.
+</p>
+               <p xml:id="Almn78-a46644-d1e702">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, dicen- 
+<pb ed="#Ba" n="669"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>dum quod sicut in questione de 
+prede<lb ed="#Ba" break="no"/>stinatione dictum est, actus eternus ex
+<lb ed="#Ba"/>re temporali causam habere non potest.
+<lb ed="#Ba"/>Unde reprobatio dupliciter dicitur, 
+scili<lb ed="#Ba" break="no"/>cet abjectio eterna, qua mali reprobati
+<lb ed="#Ba"/>sunt: et subtractio gratie in tempore.
+<lb ed="#Ba"/>Quantum ad actum zxternum non est ex
+<lb ed="#Ba"/>meritis ut ex causa, sed quantum ad
+<lb ed="#Ba"/>subtractionem gratiw potest esse ex 
+ma<lb ed="#Ba" break="no"/>lis meritis, propter que Deus subtrahit
+<lb ed="#Ba"/>gratiam. Et hoc est quod dicit 
+Augusti<lb ed="#Ba" break="no"/>nus ad Sixtum : <quote xml:id="Almn78-a46644-Qd1e736"> Non obdurat Deus
+<lb ed="#Ba"/>impartiendo malitiam, sed non 
+imper<lb ed="#Ba" break="no"/>tiendo gratiam, sicut qui nec digni
+<lb ed="#Ba"/>sunt : quibus enim non impertitur, nec
+<lb ed="#Ba"/>digni sunt, nec merentur : potius ut non
+<lb ed="#Ba"/>impartiatur, hoc digni sunt, hoc 
+meren<lb ed="#Ba" break="no"/>tur *. </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e753">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod judicium
+<lb ed="#Ba"/>quo Deus obdurat, vel gratiam subtrahit,
+<lb ed="#Ba"/>quod temporaliter reprobare est, est 
+or<lb ed="#Ba" break="no"/>dinatio culpe per penam justam. 
+Ju<lb ed="#Ba" break="no"/>stum enim est, quod gratia subtrahatur
+<lb ed="#Ba"/>peccanti, et peccantem concomiletur 
+ta<lb ed="#Ba" break="no"/>lis obduratio, que est non emolliri ad
+<lb ed="#Ba"/>precepta et consilia et sacramenta per
+<lb ed="#Ba"/>que quis justificari possit : quia si illis
+<lb ed="#Ba"/>emolliretur cor suum, peccatum non
+<lb ed="#Ba"/>committeretur. Unde talis obduratio
+<lb ed="#Ba"/>concomitatur esse peccatum mortale ;
+<lb ed="#Ba"/>et haec est reprobationis effectus 
+tempo<lb ed="#Ba" break="no"/>ralis.
+</p>
+               <p xml:id="Almn78-a46644-d1e786">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod ex malis
+<lb ed="#Ba"/>meritis potest esse reprobationis effe.tus
+<lb ed="#Ba"/>temporalis, sive ille sit excacatio, sive
+<lb ed="#Ba"/>obduratio, ut predictum est.
+</p>
+               <p xml:id="Almn78-a46644-d1e797">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod nolle 
+mise<lb ed="#Ba" break="no"/>reri duplex est, eterna scilicet voluntas
+<lb ed="#Ba"/>non miserendi, et actualis dissensus ad
+<lb ed="#Ba"/>faciendum misericordiam in tempore.
+<lb ed="#Ba"/>Primum non potest habere causam cum
+<lb ed="#Ba"/>sit eternum. Secundum habet causam,
+<lb ed="#Ba"/>cum sit temporale ; et de illo est verum,
+<lb ed="#Ba"/>quod ci cujus proprium est misereri et
+<lb ed="#Ba"/>parcere, non competit sine causa nolle
+<lb ed="#Ba"/>misereri,
+</p>
+               <p xml:id="Almn78-a46644-d1e822">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod iniquitates
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>actualem separationem faciunt a Deo:
+<lb ed="#Ba"/>et hec est temporalis reprobatio, non
+<lb ed="#Ba"/>eterna.
+</p>
+               <p xml:id="Almn78-a46644-d1e835">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod subtractio
+<lb ed="#Ba"/>gratie non dicit motum, sed privationem
+<lb ed="#Ba"/>vel negationem, hoc est, non apponere,
+<lb ed="#Ba"/>vel nolle apponere gratiam. Et hujus
+<lb ed="#Ba"/>causa nulla est efficiens, sed potius 
+defi<lb ed="#Ba" break="no"/>ciens et ex parte nostra. Deus “autem
+<lb ed="#Ba"/>non est causa hujus, nisi sicut dicit
+<lb ed="#Ba"/>Aristoteles in Il Physicorum, quod 
+nau<lb ed="#Ba" break="no"/>ta per absentiam est causa 
+periclitatio<lb ed="#Ba" break="no"/>nis navis, non quod aliquid faciat unde
+<lb ed="#Ba"/>navis periclitetur, sed quia non facit ea
+<lb ed="#Ba"/>quibus salvetur.
+</p>
+               <p xml:id="Almn78-a46644-d1e864">
+                  <lb ed="#Ba"/>Et per hoc patet solutio ad sequens.
+<lb ed="#Ba"/>Non enim est causa nisi per 
+abnegatio<lb ed="#Ba" break="no"/>nem appositi : quia scilicet gratiam non
+<lb ed="#Ba"/>apponit. Et hujus antiqui quidam 
+dede<lb ed="#Ba" break="no"/>runt exemplum de hoc quod dicit 
+Ari<lb ed="#Ba" break="no"/>stoteles in I] Physicorum, quod natura
+<lb ed="#Ba"/>est principium motus et status in quo est
+<lb ed="#Ba"/>per se, et non secundum accidens. 
+Di<lb ed="#Ba" break="no"/>cunt enim, quod natura principium 
+mo<lb ed="#Ba" break="no"/>tus est movendo et faciendo : principium
+<lb ed="#Ba"/>autem status sive quietis non est nisi
+<lb ed="#Ba"/>cessando a metu. Hoc tamen exemplum
+<lb ed="#Ba"/>non est satis conveniens : quia quies in
+<lb ed="#Ba"/>quo est status in forma vel in ubi, in
+<lb ed="#Ba"/>appetitu nature est, et motus nature est
+<lb ed="#Ba"/>ad ipsam et propter eam : ad 
+privatio<lb ed="#Ba" break="no"/>nem autem gratie sive subtractionem
+<lb ed="#Ba"/>nullus est Dei appetitus vel operatio.
+<lb ed="#Ba"/>Sed exemplum Augustini valde est 
+con<lb ed="#Ba" break="no"/>veniens, scilicet quod sol unica lucis suze
+<lb ed="#Ba"/>presentia facit illuminationem, et 
+absen<lb ed="#Ba" break="no"/>tia tenebras, et illuminationem facit 
+ope<lb ed="#Ba" break="no"/>ratione presentie, tenebras autem non
+<lb ed="#Ba"/>facit aliqua operatione : sed cum absens
+<lb ed="#Ba"/>fuerit, tenebre fiunt ex objectione opaci
+<lb ed="#Ba"/>quod repellit radios luminosi. Dixerunt
+<lb ed="#Ba"/>tamen quidam satis probabiliter, quod
+<lb ed="#Ba"/>subtractio gratia potest duobus modis
+<lb ed="#Ba"/>considerari, scilicet absolute : et sic est
+<lb ed="#Ba"/>privatio, nec habet causam efficientem,
+<lb ed="#Ba"/>sed deficientem : et sic fit homo ea 
+dete<lb ed="#Ba" break="no"/>rior : quia sic spoliatur bono gratia, et
+<pb ed="#Ba" n="670"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>vulneratur in bono nature, Potest etiam
+<lb ed="#Ba"/>considerari ut pena ordinata ad culpam,
+<lb ed="#Ba"/>et ut inflicta propter peccatum : et sic
+<lb ed="#Ba"/>justa est et bona, et a Deo : quia sic non
+<lb ed="#Ba"/>est pravitas qua aliquis fiat deterior, sed
+<lb ed="#Ba"/>ordinatio culpe commendans justitiam :
+<lb ed="#Ba"/>quia sic est pena damni quam juste 
+in<lb ed="#Ba" break="no"/>currit peceator.
+  
+<lb ed="#Ba"/>Ad aliud dicendum, quod Deus 
+opti<lb ed="#Ba" break="no"/>ma adducit; et nulli subtrahit : sed quod
+<lb ed="#Ba"/>non adducuntur in isto vel in illo, hoc
+<lb ed="#Ba"/>est ex eo, quod obicem ponit per 
+pecca<lb ed="#Ba" break="no"/>tum,
+</p>
+               <p xml:id="Almn78-a46644-d1e968">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod Deus nulli
+<lb ed="#Ba"/>se subtrahit in quantum est de se : sed
+<lb ed="#Ba"/>quod isti subtrahitur vel illi, est ex obice
+<lb ed="#Ba"/>peccati. Et est exemplum Augustini,
+<lb ed="#Ba"/>quod sol lucendo omnibus se exhibet :
+<lb ed="#Ba"/>tamen qui claudit fenestram, beneficium
+<lb ed="#Ba"/>luminis in domo non percipit + quia
+<lb ed="#Ba"/>obicem ponit.
+</p>
+               <p xml:id="Almn78-a46644-d1e988">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur de 
+ex<lb ed="#Ba" break="no"/>cecatione, eodem modo dicendum est,
+<lb ed="#Ba"/>quod Deus nullum excecat impertiendo
+<lb ed="#Ba"/>malitiam, sed non exhibendo lucis 
+pre<lb ed="#Ba" break="no"/>sentiam : sed excecat homo se 
+obscuri<lb ed="#Ba" break="no"/>tate peccati,-privando se luce veritatis
+<lb ed="#Ba"/>eterne et lumine gratie : et hac 
+exce<lb ed="#Ba" break="no"/>catio prout est peena damni, pro peccatis
+<lb ed="#Ba"/>inflicta, justa est, et a Deo est ordinante
+<lb ed="#Ba"/>peccatum per poeenam : secundum 
+au<lb ed="#Ba" break="no"/>tem quod absolute est privatio quedam
+<lb ed="#Ba"/>luminis in ratione et voluntate 
+peccan<lb ed="#Ba" break="no"/>tis, non habet causam nisi deficientem,
+<lb ed="#Ba"/>hoc est, hominis aversionem a luce. Et
+<lb ed="#Ba"/>hoc est quod dicitur, Job, xxiv, 13 :
+<lb ed="#Ba"/>Ipsi fuerunt rebelles lumini, nesciverunt
+<lb ed="#Ba"/>vias ejus, nec reversi sunt per semitas
+<lb ed="#Ba"/>ejus.
+</p>
+               <p xml:id="Almn78-a46644-d1e1030">
+                  <lb ed="#Ba"/>Per hoc patet solutio ad illud quod
+<lb ed="#Ba"/>primo in contrarium adductum est.
+</p>
+               <p xml:id="Almn78-a46644-d1e1038">
+                  <lb ed="#Ba"/>Ad sEquEns dicendum, quod 
+exem<lb ed="#Ba" break="no"/>plum Augustini valde est conveniens :
+<lb ed="#Ba"/>quia cecus non caret beneficio lucis,
+<lb ed="#Ba"/>nisi pet obicem cecitatis quem ipse
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>posuit, qui excludit ab eo presens 
+bene<lb ed="#Ba" break="no"/>ficium luminis. Omnis enim qui se 
+con<lb ed="#Ba" break="no"/>jungit per intellectum et affectum 
+obscu<lb ed="#Ba" break="no"/>ris et obscurantibus, juste perdit 
+benc<lb ed="#Ba" break="no"/>ficium luminis, et incurrit 
+obscuratio<lb ed="#Ba" break="no"/>nem cordis, et excecationem rationis,
+<lb ed="#Ba"/>et obdurationem voluntatis.
+</p>
+               <p xml:id="Almn78-a46644-d1e1067">
+                  <lb ed="#Ba"/>Ad uLtimum dicendum, - quod verum
+<lb ed="#Ba"/>est, quod malitia excecat sicut obex 
+lu<lb ed="#Ba" break="no"/>minis, et diabolus excecat sicut suasor
+<lb ed="#Ba"/>iniquitatis : et si obscuratio dicitur 
+pe<lb ed="#Ba" break="no"/>na damni ordinata contra culpam, etiam
+<lb ed="#Ba"/>verus Deus excecat justa pcena feriens
+<lb ed="#Ba"/>et condemnans eum qui obscura 
+dile<lb ed="#Ba" break="no"/>xit: sicut dicit illa Glossa super epist.
+<lb ed="#Ba"/>Il ad Corinth. 1v, 4. Hoc enim justum
+<lb ed="#Ba"/>judicium est, de quo dicitur, Joan. in,
+<lb ed="#Ba"/>19: Hoe est autem Judicium : quia lux
+<lb ed="#Ba"/>venit in mundum, et dilexerunt 
+homi<lb ed="#Ba" break="no"/>nes magis tenebras quam lucem : erant
+<lb ed="#Ba"/>enim eorum mala opera,
+</p>
+            </div>
+            <div xml:id="Almn78-a46644-Dd1e1102">
+               <head xml:id="Almn78-a46644-Hd1e1104">Membrum 2</head>
+               <head xml:id="Almn78-a46644-Hd1e1107" type="question-title">
+  Quis sit effectus proprius reprobationis,
+  uerum scilicet obduratio
+</head>
+               <p xml:id="Almn78-a46644-d1e1110">
+                  <lb ed="#Ba"/>MEMBRUM II.
+<lb ed="#Ba"/>Quis sit effectus proprius reprobationis,
+<lb ed="#Ba"/>uerum scilicet obduratio ?
+</p>
+               <p xml:id="Almn78-a46644-d1e1119">
+                  <lb ed="#Ba"/>Secunpo queritur, Quis sit ejus 
+effe<lb ed="#Ba" break="no"/>ctus proprius?
+</p>
+               <p xml:id="Almn78-a46644-d1e1126">
+                  <lb ed="#Ba"/>Et si dicatur cum Augustino, quod
+<lb ed="#Ba"/>effectus ejus est obduratio, queratur,
+<lb ed="#Ba"/>Quid sit obduratio, et in quo sit?
+</p>
+               <p xml:id="Almn78-a46644-d1e1136">
+                  <lb ed="#Ba"/>1. Dicitur enim, ad Roman. ix, 18,
+<lb ed="#Ba"/>super illud : Cujus vult miseretur, et
+<lb ed="#Ba"/>quem vult indurat : quod obduratio est
+<lb ed="#Ba"/>nolle misereri : et secundum hoc 
+obdu<lb ed="#Ba" break="no"/>ratio in Deo est, et non in homine : et
+<lb ed="#Ba"/>est idem quod reprobatio, et est eterna
+<lb ed="#Ba"/>sicut reprobatio : quia voluntas Dei
+<lb ed="#Ba"/>zterna est.
+</p>
+               <p xml:id="Almn78-a46644-d1e1156">
+                  <lb ed="#Ba"/>2. Adhuc,Augustinus?: <quote xml:id="Almn78-a46644-Qd1e1160"> Obduratio est
+<lb ed="#Ba"/>propositum non miserendi : </quote> et cum pro
+<pb ed="#Ba" n="671"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba" break="no"/>positum non nisi in Deo sit, videtur
+<lb ed="#Ba"/>quod secundum hoc obduratio iterum in
+<lb ed="#Ba"/>Deo sit et non in homine.
+</p>
+               <p xml:id="Almn78-a46644-d1e1177">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod
+<lb ed="#Ba"/>1. Sicut dicit Augustinus in Glossa
+<lb ed="#Ba"/>super epist. Apostoli ad Roman. 1x, 18,
+<lb ed="#Ba"/>et ponitur in libro primo Sententiarum,
+<lb ed="#Ba"/>distincltione XLT: <quote xml:id="Almn78-a46644-Qd1e1190"> Miseretur secundum
+<lb ed="#Ba"/>gratiam que gratis datur, obdurat autem
+<lb ed="#Ba"/>secundum judicium quod meritis 
+reddi<lb ed="#Ba" break="no"/>tur. </quote> Merita autem non sunt nisi 
+tem<lb ed="#Ba" break="no"/>poralia. Ergo obduratio temporalis non
+<lb ed="#Ba"/>eterna. est nullum temporale est
+<lb ed="#Ba"/>eternum : ergo obduratio non est 
+re<lb ed="#Ba" break="no"/>probatio.
+</p>
+               <p xml:id="Almn78-a46644-d1e1208">
+                  <lb ed="#Ba"/>2. Adhuc, Obduratio semper ex 
+meri<lb ed="#Ba" break="no"/>tis est : reprobatio cum sit eterna, 
+num<lb ed="#Ba" break="no"/>quam ex meritis est : ergo obduratio 
+re<lb ed="#Ba" break="no"/>probatio non est.
+</p>
+               <p xml:id="Almn78-a46644-d1e1219">
+                  <lb ed="#Ba"/>3. Adhuc, Ad Roman. rx, 18, in 
+Glos<lb ed="#Ba" break="no"/>sa dicitur sic : <quote xml:id="Almn78-a46644-Qd1e1225"> Obduratio est indurate
+<lb ed="#Ba"/>in malitia mentis pertinacia, per quam
+<lb ed="#Ba"/>fit homo impesnitens. </quote> Sed talis 
+obdu<lb ed="#Ba" break="no"/>ratio est peccatum in Spiritum sanctum,
+<lb ed="#Ba"/>ut ibidem dicit Glossa. Ergo videtur,
+<lb ed="#Ba"/>quod non ex omni peccato mortali 
+re<lb ed="#Ba" break="no"/>linquitur obduratio.
+</p>
+               <p xml:id="Almn78-a46644-d1e1242">
+                  <lb ed="#Ba"/>4, Adhuc, Videtur esse poena, non
+<lb ed="#Ba"/>culpa : dicit enim Augustinus, quod
+<lb ed="#Ba"/>
+                  <quote xml:id="Almn78-a46644-Qd1e1250"> obdurat per justum judicium. </quote> 
+Judi<lb ed="#Ba" break="no"/>cium autem non infligit nisi penam.
+<lb ed="#Ba"/>Ergo obduratio videtur esse poena, non
+<lb ed="#Ba"/>culpa.
+</p>
+               <p xml:id="Almn78-a46644-d1e1262">
+                  <lb ed="#Ba"/>3. Et adhuc, Augustinus : <quote xml:id="Almn78-a46644-Qd1e1266"> Deus 
+de<lb ed="#Ba" break="no"/>relinquentes se deserit, resistentes 
+indu<lb ed="#Ba" break="no"/>rat, contemnentes contemnit. </quote> Ergo
+<lb ed="#Ba"/>videtur, quod obduratio sive induratio sit
+<lb ed="#Ba"/>peena inflicta Deo resistenti. Et sic iterum
+<lb ed="#Ba"/>videltur, cum non omnis peccans 
+pec<lb ed="#Ba" break="no"/>cato mortali Deo resistat, quod obduratio
+<lb ed="#Ba"/>non sit relictum quid ex quolibet peccato
+<lb ed="#Ba"/>mortali : et ex hoc ulterius videtur, quod
+<lb ed="#Ba"/>obduratio non sit effectus reprobationis,
+<lb ed="#Ba"/>sed potius ad Dei resistentiam refertur
+<lb ed="#Ba"/>ut ad causam meritoriam, et ad Deum
+<lb ed="#Ba"/>ut ad causam eflicientem.
+</p>
+               <p xml:id="Almn78-a46644-d1e1296">
+                  <cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>Ulterius queritur, Utrum generaliter
+<lb ed="#Ba"/>obduratio est consequens peccatum 
+mor<lb ed="#Ba" break="no"/>tale, sive sit originale, sive actuale ?
+</p>
+               <p xml:id="Almn78-a46644-d1e1307">
+                  <lb ed="#Ba"/>Et videtur, quod sic : quia
+<lb ed="#Ba"/>1. Ex parte rationis obscuritas sive
+<lb ed="#Ba"/>cecitas cordis sequitur tam originale
+<lb ed="#Ba"/>quam actuale mortale : ergo ex parte
+<lb ed="#Ba"/>voluntatis generaliter sequitur obduratio
+<lb ed="#Ba"/>tam originale quam actuale mortale.
+</p>
+               <p xml:id="Almn78-a46644-d1e1323">
+                  <lb ed="#Ba"/>2. Adhuc, Durum est, ut dicit 
+Aristo<lb ed="#Ba" break="no"/>teles, quod non cedit tangenti, sed 
+po<lb ed="#Ba" break="no"/>tius tangentem repellit : sed hoc 
+spiri<lb ed="#Ba" break="no"/>tualiter fit in omni peccato mortali 
+ac<lb ed="#Ba" break="no"/>tuali et originali : peccans enim quando
+<lb ed="#Ba"/>peccat, Deum et pracepta ejus repellit,
+<lb ed="#Ba"/>nec cedit Deo, nec precepto ejus, sed
+<lb ed="#Ba"/>polius Deus et precepta cedunt sibi
+<lb ed="#Ba"/>ergo videtur quod obduratio sit poena
+<lb ed="#Ba"/>consequens tam originale quam actuale
+<lb ed="#Ba"/>mortale.
+</p>
+               <p xml:id="Almn78-a46644-d1e1349">
+                  <lb ed="#Ba"/>In contrarium hujus est, quod 
+secun<lb ed="#Ba" break="no"/>dum hoc parvuli in originali peccato 
+ob<lb ed="#Ba" break="no"/>durati dicerentur, quod in Scriptura non
+<lb ed="#Ba"/>invenitur. Si enim obduratio est 
+indura<lb ed="#Ba" break="no"/>te mentis in malitia pertinacia, parvuli
+<lb ed="#Ba"/>non possunt dici obdurati. Unde, Exod.
+<lb ed="#Ba"/>Ix, passim, dicitur de Pharaone, quod
+<lb ed="#Ba"/>induratus est. Et, Exod. 1v, 21 : Ego 
+ob<lb ed="#Ba" break="no"/>durabo cor ejust. Et, Deuteron. u, 30,
+<lb ed="#Ba"/>Induravit Dominus cor Sehon, regis
+<lb ed="#Ba"/>Amorrhezorum.. Parvuli autem nesciunt
+<lb ed="#Ba"/>habere indurati cordis malitiam.
+</p>
+               <p xml:id="Almn78-a46644-d1e1378">
+                  <lb ed="#Ba"/>Solutio. Dicendum, quod obduratio
+<lb ed="#Ba"/>dicitur tripliciter. Dicitur enim 
+obdura<lb ed="#Ba" break="no"/>tio aliquando pertinax voluntas, et 
+actu<lb ed="#Ba" break="no"/>alis permanendi in peccato, repellens
+<lb ed="#Ba"/>Deum et precepta ejus, ne de peccato
+<lb ed="#Ba"/>educatur, vel ad pcenitentiam 
+emollia<lb ed="#Ba" break="no"/>tur : et sic obduratio peccatum in 
+Spi<lb ed="#Ba" break="no"/>ritum sanctum est, et est species peccati
+<lb ed="#Ba"/>forma et specie peccati distincta ab aliis
+<lb ed="#Ba"/>peccatis mortalibus. Et sic accipitur 
+ob<lb ed="#Ba" break="no"/>duratio, ad Roman, ix, 18, ubi dicit
+<lb ed="#Ba"/>Augustinus, quod <quote xml:id="Almn78-a46644-Qd1e1406"> obduratio est 
+obs<lb ed="#Ba" break="no"/>tinate mentis in malitia pertinacia,
+<lb ed="#Ba"/>per quam fit homo impeenitens. </quote> Per
+<pb ed="#Ba" n="672"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>hanc enim homo concipit nolle ad Deum
+<lb ed="#Ba"/>redire per pcenitentiam.
+</p>
+               <p xml:id="Almn78-a46644-d1e1423">
+                  <lb ed="#Ba"/>Secundo modo dicitur obduratio 
+se<lb ed="#Ba" break="no"/>quela peccati habitualis, non actualis,
+<lb ed="#Ba"/>que sequitur peccatum mortale, quod
+<lb ed="#Ba"/>cum fit, concomitatur ipsum durities
+<lb ed="#Ba"/>cordis, que est non cedere mandatis et
+<lb ed="#Ba"/>verbis Dei, et non emolliri ad pietatem
+<lb ed="#Ba"/>revocantis Dei, et ad verba ejus et ‘
+man<lb ed="#Ba" break="no"/>data revocantia a peccato: et haec est
+<lb ed="#Ba"/>mala et vitiosa dispositio cordis relicta
+<lb ed="#Ba"/>ex omni peccato mortali, in quantum est
+<lb ed="#Ba"/>contemptus Dei praecipientis et 
+precep<lb ed="#Ba" break="no"/>torum ejus : ex hoc enim comtemptu fit
+<lb ed="#Ba"/>omne peccatum mortale. Et sic dicta
+<lb ed="#Ba"/>obduratio effectus est reprobationis.
+  
+<lb ed="#Ba"/>Tertio modo dicitur obduratio 
+habi<lb ed="#Ba" break="no"/>tualis dispositio, qua homo disponitur
+<lb ed="#Ba"/>ad talem obdurationem ex fomite qui
+<lb ed="#Ba"/>relinquitur ex originali peccato.
+</p>
+               <p xml:id="Almn78-a46644-d1e1465">
+                  <lb ed="#Ba"/>Ex his prenotatis facile est 
+respon<lb ed="#Ba" break="no"/>dere ab objecta.
+</p>
+               <p xml:id="Almn78-a46644-d1e1472">
+                  <lb ed="#Ba"/>Ad primum ergo dicendum, quod ob-
+<lb ed="#Ba" break="no"/>duratio secundo modo dicta potest acci-
+<lb ed="#Ba" break="no"/>pi in causa, vel in seipsa. Si accipitur im
+<lb ed="#Ba"/>causa, adhuc duobus modis potest 
+acci<lb ed="#Ba" break="no"/>pi, scilicet quia potest referri ad causam
+<lb ed="#Ba"/>meritoriam : et sic temporalis est, et
+<lb ed="#Ba"/>non wterna, et est in. obdurato. Putest
+<lb ed="#Ba"/>etiam referri ad causam efficientem: et
+<lb ed="#Ba"/>hoc dupliciter, scilicet positive sive 
+affir<lb ed="#Ba" break="no"/>mative, vel per negationem oppositi
+<lb ed="#Ba"/>emollientis. Si primo modo, non est in
+<lb ed="#Ba"/>Deo faciente. Si secundo modo, est in
+<lb ed="#Ba"/>Deo ut permittente et non faciente 
+oppo<lb ed="#Ba" break="no"/>situm. Dicit enim Augustinus, quod
+<lb ed="#Ba"/>Deus non obdurat aliquem impertiendo
+<lb ed="#Ba"/>malitiam qua ad peccatum impellatur,
+<lb ed="#Ba"/>sed obdurat aliquem non impertiendo
+<lb ed="#Ba"/>gratiam qua emolliatur. Et hoc est quod
+<lb ed="#Ba"/>dicitur in libro primo Sententiarum, 
+di<lb ed="#Ba" break="no"/>stinct. XL, cap. ullimo, ex verbis 
+Augu<lb ed="#Ba" break="no"/>stini’, sic : <quote xml:id="Almn78-a46644-Qd1e1519"> Intelligendum est, quod
+<lb ed="#Ba"/>Deus non ita induret quasi quemquam
+<lb ed="#Ba"/>peccare cogat : sed tamen quibusdam
+<lb ed="#Ba"/>peccatoribus misericordiam suae justifi-
+<lb ed="#Ba" break="no"/>cationis non largitur, et ob hoc eos ob
+<cb ed="#Ba" n="b"/>
+                     <lb ed="#Ba"/>durare dicitur, quia non eorum 
+misere<lb ed="#Ba" break="no"/>tur, non quia impellat ut peccent. 
+Ko<lb ed="#Ba" break="no"/>rum autem non miseretur, quibus 
+gra<lb ed="#Ba" break="no"/>tiam non prebendam esse equitate
+<lb ed="#Ba"/>occultissima et ab humanis sensibus
+<lb ed="#Ba"/>remotissima judicat : quam non aperit,
+<lb ed="#Ba"/>sed miratur Apostolus, ad Roman. x1,
+<lb ed="#Ba"/>33, dicens : <quote xml:id="Almn78-a46644-Qd1e1549">O altitudo divinitiarum 
+sa<lb ed="#Ba" break="no"/>pientie, et scientie Dei!</quote> 
+                  </quote>
+               </p>
+               <p xml:id="Almn78-a46644-d1e1556">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod cum 
+dici<lb ed="#Ba" break="no"/>tur, <quote xml:id="Almn78-a46644-Qd1e1562"> obduratio est propositum non 
+mi<lb ed="#Ba" break="no"/>serendi, </quote> locutio est per causam. Dico
+<lb ed="#Ba"/>autem causam non facientem ellfective,
+<lb ed="#Ba"/>sed privative, hoc est, non 
+impertien<lb ed="#Ba" break="no"/>tem gratiam qua emolliatur. Sicut dico,
+<lb ed="#Ba"/>quod nox est sol non lucens super 
+ter<lb ed="#Ba" break="no"/>ram.
+</p>
+               <p xml:id="Almn78-a46644-d1e1579">
+                  <lb ed="#Ba"/>Ad id quod objicitar in contrarium,
+<lb ed="#Ba"/>dicendum quod obduratio per se et
+<lb ed="#Ba"/>secundum essentiam considerata, in 
+ob<lb ed="#Ba" break="no"/>durato est et temporalis. Obduratio 
+au<lb ed="#Ba" break="no"/>tem considerata in causa, que est 
+eter<lb ed="#Ba" break="no"/>na voluntas non miserendi, eterna est :
+<lb ed="#Ba"/>et illa verissime est reprobatio, et non
+<lb ed="#Ba"/>ex meritis est prevenientibus eam, licet
+<lb ed="#Ba"/>prescientia malorum meritorum 
+adjun<lb ed="#Ba" break="no"/>cta sit ei per concomitantiam, per quam
+<lb ed="#Ba"/>etiam dicitur reprobatio ab Augustino,
+<lb ed="#Ba"/>quod equitate occultissima et ab 
+huma<lb ed="#Ba" break="no"/>nis sensibus remotissima judicat Deus
+<lb ed="#Ba"/>reprobis gratiam non esse apponendam.
+</p>
+               <p xml:id="Almn78-a46644-d1e1612">
+                  <lb ed="#Ba"/>Merita enim occultissima, sicut in 
+pre<lb ed="#Ba" break="no"/>habitis dictum est, sunt merita in Dei
+<lb ed="#Ba"/>prescientia.
+</p>
+               <p xml:id="Almn78-a46644-d1e1622">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod obduratio
+<lb ed="#Ba"/>que est effectus reprobationis, propter
+<lb ed="#Ba"/>quod semper ex meritis est, quia est
+<lb ed="#Ba"/>sequela mortalis peccati, ut dictum est,
+<lb ed="#Ba"/>dicitur aliquando reprobatio : eo quod
+<lb ed="#Ba"/>per illam actualiter homo a beneplacito
+<lb ed="#Ba"/>Dei separatur, et ita reprobatur. Sed 
+re<lb ed="#Ba" break="no"/>probatio eterna que est propositum non
+<lb ed="#Ba"/>miserendi, obduratio non est, sicut 
+pro<lb ed="#Ba" break="no"/>bat objectio.
+</p>
+               <p xml:id="Almn78-a46644-d1e1646">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod sicut paulo
+<lb ed="#Ba"/>ante dictum est, obduratio que est 
+pec<lb ed="#Ba" break="no"/>catum in Spiritum sanctum, peccatum
+<pb ed="#Ba" n="673"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>distinctum est a quolibet alio peccato :
+<lb ed="#Ba"/>est enim speciale peccatum actuali 
+vo<lb ed="#Ba" break="no"/>luntate factum : est enim voluntas 
+actu<lb ed="#Ba" break="no"/>alis non exeundi de peccato, sed 
+per<lb ed="#Ba" break="no"/>manendi in peccato : et specialis 
+obsti<lb ed="#Ba" break="no"/>natio cordis contra pietatem et 
+benigni<lb ed="#Ba" break="no"/>tatem Dei, et contra precepta ejus, et
+<lb ed="#Ba"/>contra omnia que a Spiritu sancto 
+dan<lb ed="#Ba" break="no"/>tur hominibus ad remedium contra 
+pec<lb ed="#Ba" break="no"/>catum. Et de hac non loquitur hic, sed
+<lb ed="#Ba"/>de illa que est sequela cujuslibet peccati
+<lb ed="#Ba"/>mortalis vitiosa et involuntaria, eo quod
+<lb ed="#Ba"/>nemo vult obdurari : in quam incidit
+<lb ed="#Ba"/>peccator justo Dei judicio, eo quod 
+sub<lb ed="#Ba" break="no"/>mittit se peccato, quod ex contemptu
+<lb ed="#Ba"/>Dei est et praceptorum ejus, sicut in
+<lb ed="#Ba"/>prehabitis dictum est. Hee enim in
+<lb ed="#Ba"/>quantum est pcena justa, justo Dei 
+judi<lb ed="#Ba" break="no"/>cio infligitur : in quantum autem ex
+<lb ed="#Ba"/>peccato est et sequela peccati, non fit
+<lb ed="#Ba"/>Deo jubente vel faciente, sed justo 
+judi<lb ed="#Ba" break="no"/>cio Dei permittente, eo modo quo 
+dici<lb ed="#Ba" break="no"/>tur, II ad Thessal. 11, 10: <quote xml:id="Almn78-a46644-Qd1e1708">Eo quod 
+cha<lb ed="#Ba" break="no"/>ritatem veritatis non receperunt, ideo
+<lb ed="#Ba"/>illis Deus mittet operationem erroris,
+<lb ed="#Ba"/>ut credant mendacio,</quote> hoc est, eis qui
+<lb ed="#Ba"/>noluerunt credere veritati mitti permittet.
+</p>
+               <p xml:id="Almn78-a46644-d1e1721">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod hoc modo
+<lb ed="#Ba"/>quo sequela peccati est, pena est justo
+<lb ed="#Ba"/>Dei judicio et permittente Deo inducta.
+</p>
+               <p xml:id="Almn78-a46644-d1e1730">
+                  <lb ed="#Ba"/>Ad aliud dicendum, quod omnis 
+pec<lb ed="#Ba" break="no"/>cans peccato mortali resistit Deo : quia
+<lb ed="#Ba"/>ponit obicem Deo porrigenti gratiam, et
+<cb ed="#Ba" n="b"/>
+                  <lb ed="#Ba"/>excludit a se gratiam sibi exhibitam a
+<lb ed="#Ba"/>bonitate Dei : et ideo incidit in obdura
+<lb ed="#Ba"/>tionem ut non audiat eum, de quo 
+di<lb ed="#Ba" break="no"/>citur, Apocal. ui, 20 : EBece sto ad 
+osti<lb ed="#Ba" break="no"/>um, et pulso. Propter quod dicitur in
+<lb ed="#Ba"/>Psalmo xciv, 8 : Hodie si vocem ejus
+<lb ed="#Ba"/>audieritis, nolite obdurare corda 
+ve<lb ed="#Ba" break="no"/>stra.
+</p>
+               <p xml:id="Almn78-a46644-d1e1759">
+                  <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod talis obduratio potest accipi
+<lb ed="#Ba"/>habitualiter et actualiter. Habitualiter
+<lb ed="#Ba"/>sequitur originale tam in parvulis quam
+<lb ed="#Ba"/>in adultis. Actualiter autem non sequitur
+<lb ed="#Ba"/>nisi actuale mortale : actualiter enim
+<lb ed="#Ba"/>peccans mortaliter, aliquid facit quo
+<lb ed="#Ba"/>obduratur contra pietatem bonitatis.
+</p>
+               <p xml:id="Almn78-a46644-d1e1779">
+                  <lb ed="#Ba"/>Av w quod sequitur, dicendum quod
+<lb ed="#Ba"/>hoc procedit : sed habitualiter sequitur
+<lb ed="#Ba"/>originale, actualiter autem actuale 
+mor<lb ed="#Ba" break="no"/>tale.
+</p>
+               <p xml:id="Almn78-a46644-d1e1791">
+                  <lb ed="#Ba"/>Ad ultimum dicendum, quod 
+actuali<lb ed="#Ba" break="no"/>ter parvuli non indurantur, sed 
+habitua<lb ed="#Ba" break="no"/>liter : trahunt enim vitiosum habitum
+<lb ed="#Ba"/>cum fomite, quo cum tempus erit, 
+ob<lb ed="#Ba" break="no"/>firmabunt cor contra Deum et pietatem
+<lb ed="#Ba"/>Dei revocantis a peccato, nisi per 
+gra<lb ed="#Ba" break="no"/>tiam appositam cor eorum emolliatur.
+<lb ed="#Ba"/>Et hoc est quod dicitur, Ezechiel. xxx1,
+<lb ed="#Ba"/>26: Auferam cor lapideum de carne
+<lb ed="#Ba"/>vestra, et dabo vobis cor carneum', quod
+<lb ed="#Ba"/>scilicet emolliri possit ad pietatem mee
+<lb ed="#Ba"/>vocationis interioris, etc.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

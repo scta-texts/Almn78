@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="114"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-d25031"><!-- p2t2q5 -->
+            <head xml:id="Almn78-d25031-Hd1e106">Quaestio 5</head>
+            <head xml:id="Almn78-d25031-Hd1e109" type="question-title">Utrum Angeli sint vel non</head>
+            <p xml:id="Almn78-d25031-d1e112">
+               <pb ed="#Bb" n="114"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>QUAESTIO V.
+      <lb ed="#Bb"/>Utrum Angeli sint vel non
+    </p>
+            <p xml:id="Almn78-d25031-d1e123">
+               <lb ed="#Bb"/>Ad hoc quod non sit angelica natura,
+      <lb ed="#Bb"/>quidam adducunt persuasiones : quia, 
+      sic<lb ed="#Bb" break="no"/>ut dicit Plato in Timeo, <quote xml:id="Almn78-d25031-Qd1e131"> In magna 
+        ma<lb ed="#Bb" break="no"/>teria sive magne rei consideratione non
+        <lb ed="#Bb"/>sunt exquirende multum subtiles et 
+        pro<lb ed="#Bb" break="no"/>fund rationes, sed potius mirandum,
+        <lb ed="#Bb"/>quod qualescumque haberi possint. </quote>
+               <lb ed="#Bb"/>Quod ergo non sit Angelus sicut Saddu-~
+      <lb ed="#Bb"/>cei dicebant, tales antiqui adducebant
+      <lb ed="#Bb"/>persuasiones ad exercitium potius, quam
+      <lb ed="#Bb"/>ad assertionem veritatis.
+    </p>
+            <p xml:id="Almn78-d25031-d1e152">
+               <lb ed="#Bb"/>Objiciunt igitur primo sic :
+      <lb ed="#Bb"/>4. In tota universitate creaturarum
+      <lb ed="#Bb"/>ordo est ad unum sicut ad ducem 
+      excer<lb ed="#Bb" break="no"/>citus : et quod non habet gradum in hoc
+      <lb ed="#Bb"/>ordine, nihil est : si ergo Angelus in hoc
+      <lb ed="#Bb"/>ordine gradum non habet, nihil est. Dicit
+      <lb ed="#Bb"/>autem Augustinus in sermone de imagine,
+      <lb ed="#Bb"/>quod inter mentem hominis qua ad 
+      ima<lb ed="#Bb" break="no"/>ginem Dei factus est, et Deum mhil est
+      <lb ed="#Bb"/>medium : ergo homo in hoc ordine 
+      poni<lb ed="#Bb" break="no"/>tur in summo juxta Deum: Angelus ergo
+      <lb ed="#Bb"/>non habet superiorem gradum ad 
+      homi<lb ed="#Bb" break="no"/>nem, nec potest habere inferiorem ad
+      <lb ed="#Bb"/>ipsum, eo quod spiritualis natura pure
+      <lb ed="#Bb"/>non potest esse inferior creatura 
+      corpo<lb ed="#Bb" break="no"/>rali, nec illa que composila est ex 
+      spi<lb ed="#Bb" break="no"/>rituali et corporali : ergo nec 
+      inferiorita<lb ed="#Bb" break="no"/>tis gradum habet ad ipsum : ergo nullum
+      <lb ed="#Bb"/>gradum habet in universitate, et sic nihil
+      <lb ed="#Bb"/>est.
+    </p>
+            <p xml:id="Almn78-d25031-d1e199">
+               <lb ed="#Bb"/>2. Si quis dicat, quod omnia sunt
+      <lb ed="#Bb"/>propter hominem, et Angeli etiam 
+      prop<lb ed="#Bb" break="no"/>ter hominem, sicut videtur dicere 
+      Apo<lb ed="#Bb" break="no"/>stolus, ad Hebr. 1,14 : Nowne omnes sunt
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>administratorit spiritus, in ministerium
+      <lb ed="#Bb"/>missi propter eos qui hereditatem 
+      ca<lb ed="#Bb" break="no"/>pient salutis ? Secundum hoc Angelus
+      <lb ed="#Bb"/>gradum inferioritatis haberet : secundum
+      <lb ed="#Bb"/>enim quod propter hominem est, actus
+      <lb ed="#Bb"/>habet, revelare, custodire, ministrare :
+      <lb ed="#Bb"/>secundum autem nullum illorum actuum
+      <lb ed="#Bb"/>Angelus est assistens Deo: nulli ergo
+      <lb ed="#Bb"/>essent Angeli Deo assistentes, quod valde
+      <lb ed="#Bb"/>absurdum est : dicit enim Gregorius,
+      <lb ed="#Bb"/>quod illa superiora agmina que 
+      imme<lb ed="#Bb" break="no"/>diate Deo assistunt, usum exterioris 
+      offi<lb ed="#Bb" break="no"/>cii non habent.
+    </p>
+            <p xml:id="Almn78-d25031-d1e241">
+               <lb ed="#Bb"/>3. Adhuc, Nihil movetur propter 
+      inte<lb ed="#Bb" break="no"/>rius et indignius se : homo autem inferior
+      <lb ed="#Bb"/>et indignior est Angelo: Angelus ergo
+      <lb ed="#Bb"/>non movetur in ministerium propter ho-~ “
+      <lb ed="#Bb"/>minem.
+    </p>
+            <p xml:id="Almn78-d25031-d1e254">
+               <lb ed="#Bb"/>4, Adhuc, Ejusdem virtus in omnibus
+      <lb ed="#Bb"/>naturis est dare esse et custodire in illo :
+      <lb ed="#Bb"/>sed virtutis divine est dare homini esse :
+      <lb ed="#Bb"/>ergo virtutis divine et custodire homi- -
+      <lb ed="#Bb"/>nem in esse: frustra ergo dicitur, quod
+      <lb ed="#Bb"/>Angelus sit propter hominem creatus in
+      <lb ed="#Bb"/>ministerium : et hoc videtur dici in 
+      Psal<lb ed="#Bb" break="no"/>mo cxxvi, 1: Nist Dominus edificaverit
+      <lb ed="#Bb"/>domum, in vanum laboraverunt qui 
+      edi<lb ed="#Bb" break="no"/>ficant eam. Et iterum, Nisi Dominus |
+      <lb ed="#Bb"/>custodierit civitatem, etc. Et sic videtur,
+      <lb ed="#Bb"/>quod in gradibus universitatis Angelus
+      <lb ed="#Bb"/>non habeat locum : propter quod nihil
+      <lb ed="#Bb"/>videtur esse, sicut dicunt Sadducei.
+    </p>
+            <p xml:id="Almn78-d25031-d1e287">
+               <lb ed="#Bb"/>In cONTRARIUM est,
+      <lb ed="#Bb"/>1. Quod inducit Augustinus in libro XII
+      <lb ed="#Bb"/>Confesstonum, sic dicens : <quote xml:id="Almn78-d25031-Qd1e295"> Duo fecisti,
+        <lb ed="#Bb"/>nove editionis.
+        <pb ed="#Bb" n="115"/>
+                  <cb ed="#Bb" n="a"/>
+                  <lb ed="#Bb"/>Domine : unum prope te, alterum prope
+        <lb ed="#Bb"/>nihil : unum quo superior tu es, alteram
+        <lb ed="#Bb"/>quo inferius nihil est. </quote> Et dicit, quod
+      <lb ed="#Bb"/>prope Deum est angelica natura, quod
+      <lb ed="#Bb"/>celum vocatur. Et sunt hec ejus verba :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-d25031-Qd1e318">Nimirum ceelum ceeli, quod in 
+        princi<lb ed="#Bb" break="no"/>pio fecisti, aliqua creatura est 
+        intellectua<lb ed="#Bb" break="no"/>lis, quamquam nequaquam tibi trinitati
+        <lb ed="#Bb"/>coeterna : particeps tamen eternitatis
+        <lb ed="#Bb"/>tue, valde mutabilitatem suam pre 
+        dul<lb ed="#Bb" break="no"/>cedine felicissime contemplationis tue
+        <lb ed="#Bb"/>cohibet, et sine ulle lapsu. ex quo facta
+        <lb ed="#Bb"/>est, inherendo tibi excedit omnem 
+        volu<lb ed="#Bb" break="no"/>bilem vicissitudinem temporum. Ista 
+        in<lb ed="#Bb" break="no"/>formitas terra invisibilis et incomposite,
+        <lb ed="#Bb"/>nec ipsa in diebus numerata est. Ubi
+        <lb ed="#Bb"/>enim nulla species, nullus ordo, nec 
+        ve<lb ed="#Bb" break="no"/>nit quidquam, nec preterit. Et ubi hoc
+        <lb ed="#Bb"/>non fit, non sunt utique dies, nec 
+        vicissi<lb ed="#Bb" break="no"/>tudo spatiorum temporalium. </quote> Ergo 
+      se<lb ed="#Bb" break="no"/>cundum Augustinum, omne creatum in
+      <lb ed="#Bb"/>tribus est ordinibus. Aut enim est in 
+      su<lb ed="#Bb" break="no"/>premo prope Deum, felici 
+      contemplatio<lb ed="#Bb" break="no"/>ne mutabilitatem cohibens : aut in infimo
+      <lb ed="#Bb"/>prope nihil, ex ultima sui informitate
+      <lb ed="#Bb"/>mutari non valens, sicut materia prima,
+      <lb ed="#Bb"/>que terra, mhil, et abyssus vocatur 
+      se<lb ed="#Bb" break="no"/>cundum Augustinum ‘. Aut est in medio,
+      <lb ed="#Bb"/>sicut ea qu dispositione Dei vel 
+      forma<lb ed="#Bb" break="no"/>tione producta sunt. Et cum sapientia
+      <lb ed="#Bb"/>Dei sit ordinare creaturas unamquamque
+      <lb ed="#Bb"/>in proprium gradum, eo quod nihil 
+      inor<lb ed="#Bb" break="no"/>dinatum relinquit, et sicut dicunt Plato
+      <lb ed="#Bb"/>et Boetius, nulli negat commoda sui 
+      ordi<lb ed="#Bb" break="no"/>nis et gradus : constat quod dignissimam
+      <lb ed="#Bb"/>in supremo gradu ponit. Dignissima 
+      au<lb ed="#Bb" break="no"/>tem est intellectualis et spiritualis et Deo
+      <lb ed="#Bb"/>propinquissima inter omnes creaturas.
+      <lb ed="#Bb"/>Hec autem est sola intellectualis natura, -
+      <lb ed="#Bb"/>quam vocamus Angelum : ergo Angelus
+      <lb ed="#Bb"/>est, et inter creaturas maxime est. Aliter
+      <lb ed="#Bb"/>enim Deus imperfectus esset in 
+      com<lb ed="#Bb" break="no"/>plendo gradus universitatis, quod 
+      incon<lb ed="#Bb" break="no"/>veniens est dicere : cum, Sapientie,
+      <lb ed="#Bb"/>vin, 1, scriptum sit, quod attingit a
+      <lb ed="#Bb"/>fine usque ad finem fortiter, et disponit
+      <lb ed="#Bb"/>omnia suaviter.
+    </p>
+            <p xml:id="Almn78-d25031-d1e410">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>2. Adhuc, Et est ratio sumpta ex verbis
+      <lb ed="#Bb"/>beati Bernardi in quinto libro de 
+      Consi<lb ed="#Bb" break="no"/>deratione ad Eugenium: <quote xml:id="Almn78-d25031-Qd1e420"> Deus enim
+        <lb ed="#Bb"/>omne quod creavit, ad hoc creavit, ut
+        <lb ed="#Bb"/>sua bonitate frueretur. Creavit autem
+        <lb ed="#Bb"/>quedam in infimo loco, que solo 
+        appe<lb ed="#Bb" break="no"/>titu nature vel vitali motu, vel sensibili,
+        <lb ed="#Bb"/>bonitate Dei perfrui possunt. Creavit
+        <lb ed="#Bb"/>quedam in medio, que per speculum et
+        <lb ed="#Bb"/>enigma bonitatis Dei cognitionem quasi
+        <lb ed="#Bb"/>mendicando acciperent, et sic quasi per
+        <lb ed="#Bb"/>scalas continuis incrementis et gradibus
+        <lb ed="#Bb"/>ascendendo, perfecta cognita bonitate
+        <lb ed="#Bb"/>Dei perfruerentur : sicut dicit Apostolus,
+        <lb ed="#Bb"/>Tad Corinth. xm, 12: Nune cognosco
+        <lb ed="#Bb"/>ex parte : tunc autem cognoscam sicut et
+        <lb ed="#Bb"/>cognitus sum. Et ibidem, Videmus nune
+        <lb ed="#Bb"/>per speculum in enigmate : tune autem
+        <lb ed="#Bb"/>facie ad faciem.</quote> Si autem Deus per
+      <lb ed="#Bb"/>omnem gradum entium debuit se prebere
+      <lb ed="#Bb"/>participabilem, ne esset insufficiens in
+      <lb ed="#Bb"/>operibus creaturarum, sicut fecit gradus
+      <lb ed="#Bb"/>participationis infime et media, ita fecit
+      <lb ed="#Bb"/>aliquam creaturam que participaret eum
+      <lb ed="#Bb"/>secundum summum gradum 
+      participatio<lb ed="#Bb" break="no"/>nis qui esse potuit. Ile autem gradus
+      <lb ed="#Bb"/>esse non potest, nisi secundum 
+      contem<lb ed="#Bb" break="no"/>plationem intellectualem sine medio 
+      pra<lb ed="#Bb" break="no"/>senter exhibitam, et non per speculum
+      <lb ed="#Bb"/>et enigma mendicatam. Ergo talem 
+      sub<lb ed="#Bb" break="no"/>stantiam intellectualem, inter quam et
+      <lb ed="#Bb"/>Deum nullus gradus creaturarum esset,
+      <lb ed="#Bb"/>fecit Deus : sine illa enim opus 
+      universi<lb ed="#Bb" break="no"/>tatis completum non esset : talis autem
+      <lb ed="#Bb"/>substantia intellectualis non potest esse,
+      <lb ed="#Bb"/>nisi angelica natura : ergo angelica 
+      natu<lb ed="#Bb" break="no"/>rain summo gradu entium est.
+    </p>
+            <p xml:id="Almn78-d25031-d1e497">
+               <lb ed="#Bb"/>3. Adhuc expresse dicit Psalmista, ubi
+      <lb ed="#Bb"/>loquitur de dignitate hominum in 
+      Psal<lb ed="#Bb" break="no"/>mo vi, 3 et 6, et quantum ad naturam
+      <lb ed="#Bb"/>supponit eum Angelo sic : Quid est homo,
+      <lb ed="#Bb"/>quod memor es ejus ? aut filius hominis,
+      <lb ed="#Bb"/>quoniam visitas eum ? Minuisti eum
+      <lb ed="#Bb"/>paulo minus ab Angelis.
+    </p>
+            <p xml:id="Almn78-d25031-d1e516">
+               <lb ed="#Bb"/>4, Adhuc, Addunt quidam 
+      persuasio<lb ed="#Bb" break="no"/>nem talem, quod homo parvulus est et
+      <lb ed="#Bb"/>infirmus et debilis : talis autem tutore
+      <pb ed="#Bb" n="116"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>indiget. Ad Galat. iv, 1 et 2: Quanto
+      <lb ed="#Bb"/>tempore heres parvulus est, nihil differt
+      <lb ed="#Bb"/>a servo, cum sit dominus omnium : sed
+      <lb ed="#Bb"/>sub tutoribvs et actoribus est, usque ad
+      <lb ed="#Bb"/>prefinitum tempus a patre. Si ergo Deus
+      <lb ed="#Bb"/>nulla adminicula negavit homini, quin
+      <lb ed="#Bb"/>omnia exhiberet, quibus juvaretur ad
+      <lb ed="#Bb"/>beatitudinem : constat,quod etiam creavit
+      <lb ed="#Bb"/>Angelum, quo tutore et gubernatore ad
+      <lb ed="#Bb"/>beatitudinem pertingeret.
+    </p>
+            <p xml:id="Almn78-d25031-d1e551">
+               <lb ed="#Bb"/>3. Adhuc, Quidam objiciunt sic, quod
+      <lb ed="#Bb"/>in anima rationali sunt duo, intellectus
+      <lb ed="#Bb"/>scilicet possibilis, quo homo conjungitur
+      <lb ed="#Bb"/>continuo et tempori quod est sub se : et
+      <lb ed="#Bb"/>intellectus agens, quo se habet ad 
+      illu<lb ed="#Bb" break="no"/>minationes superiorum. Sicut ergo per
+      <lb ed="#Bb"/>possibilem conjungitur nature inferiori,
+      <lb ed="#Bb"/>ita necesse est, quod per agentem 
+      con<lb ed="#Bb" break="no"/>jungatur alicui nature superiori, a qua
+      <lb ed="#Bb"/>illuminationes accipiat. Talis autem 
+      na<lb ed="#Bb" break="no"/>tura non potest esse nisi Angelus : ergo
+      <lb ed="#Bb"/>est, et in supremo gradu creature est :
+      <lb ed="#Bb"/>et anima secundum intellectum 
+      illumi<lb ed="#Bb" break="no"/>nationes accipit ab ipso.
+    </p>
+            <p xml:id="Almn78-d25031-d1e584">
+               <lb ed="#Bb"/>Solutio. Dicendum, qued Angelus
+      <lb ed="#Bb"/>est: et de perfectione universi esse est,
+      <lb ed="#Bb"/>quod Angelus sit : et, sicut dicit 
+      Augu<lb ed="#Bb" break="no"/>stinus, est in primo gradu juxta Deum,
+      <lb ed="#Bb"/>inter omnia entia plus participans et 
+      bo<lb ed="#Bb" break="no"/>nitatem divinam et eternitatem 
+      secun<lb ed="#Bb" break="no"/>dum ordinem creaturarum.
+    </p>
+            <p xml:id="Almn78-d25031-d1e602">
+               <lb ed="#Bb"/>Et quod Angelus sit, multipliciter 
+      pro<lb ed="#Bb" break="no"/>batur ex Scriptura. Missus est enim 
+      An<lb ed="#Bb" break="no"/>gelus ad Manue *. Et quod pre omnibus
+      <lb ed="#Bb"/>auctoritatem dat, est quod, Matth. 1, 20,
+      <lb ed="#Bb"/>dicitur, quod Angelus missus est ad 
+      Jo<lb ed="#Bb" break="no"/>seph. Et, Luc. 1, 26 et 11, ad Virginem
+      <lb ed="#Bb"/>Mariam, Angelus scilicet Gabriel, et ad
+      <lb ed="#Bb"/>Zachariam. Et, Actuum, xn, 7 et seq.,
+      <lb ed="#Bb"/>ubi Angelus Petrum a vinculis absolvit.
+      <lb ed="#Bb"/>Et ex multis aliis locis probatur Angelos
+      <lb ed="#Bb"/>esse expresse.
+    </p>
+            <p xml:id="Almn78-d25031-d1e628">
+               <lb ed="#Bb"/>Ab pRimuM ergo quod est contra hoc,
+      <lb ed="#Bb"/>dicendum, quod Ang: lus habet gradum
+      <lb ed="#Bb"/>in universitate : quia secundum naturam
+      <lb ed="#Bb"/>spivitualem prope Deum est in altissimo
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>gradu, sicut dicit Augustinus : secundum
+      <lb ed="#Bb"/>relationem autem similitudinis 
+      potentia<lb ed="#Bb" break="no"/>rum, quibus et homo et Angelus capax
+      <lb ed="#Bb"/>est Dei, si similitudo attenditur in ordine
+      <lb ed="#Bb"/>potentiarum, et defertur illa similitudo ad
+      <lb ed="#Bb"/>ordinem nature, qui est in personis 
+      di<lb ed="#Bb" break="no"/>vinis : tunc verum est, quod expressior
+      <lb ed="#Bb"/>similitudo est in homine, quam sit in
+      <lb ed="#Bb"/>Angelo,
+    </p>
+            <p xml:id="Almn78-d25031-d1e661">
+               <lb ed="#Bb"/>Si autem attenditur similitudo in 
+      par<lb ed="#Bb" break="no"/>ticipatione Dei, sive in modo 
+      participa<lb ed="#Bb" break="no"/>tionis : tune cum Angelus participet 
+      dei<lb ed="#Bb" break="no"/>formem intellectum, homo vero colla-~
+      <lb ed="#Bb"/>tionem rationis, qua scilicet intellectus
+      <lb ed="#Bb"/>ex memoria formatur, et voluntats ex
+      <lb ed="#Bb"/>utroque : tunc expressior similitudo est
+      <lb ed="#Bb"/>in Angelo, quam sit in homine. Et ideo,
+      <lb ed="#Bb"/>Ezechiel. xxviu, 12, dicitur signaculum
+      <lb ed="#Bb"/>similitudinis, plenus sapientia, et 
+      per<lb ed="#Bb" break="no"/>fectus decore. Ubi dicit Gregorius, quod -
+      <lb ed="#Bb"/>quo inter alios similior Deo fuerat, eo
+      <lb ed="#Bb"/>magis imago Dei intelligitur in eo 
+      im<lb ed="#Bb" break="no"/>pressa : signaculum enim est signum sive
+      <lb ed="#Bb"/>sigillum profundatum. Dicit tamen 
+      Au<lb ed="#Bb" break="no"/>gustinus super Genesim ad litteram, quod
+      <lb ed="#Bb"/>imago Deiin duobus attenditur, scilicet
+      <lb ed="#Bb"/>in imitatione exteriori, et in imitatione
+      <lb ed="#Bb"/>interiori. In imitatione exteriori 
+      secun<lb ed="#Bb" break="no"/>dum quod dicitur, Genes. 1, 26 : 
+      Facia<lb ed="#Bb" break="no"/>mus hominem ad imaginem et 
+      similitu<lb ed="#Bb" break="no"/>dinem nostram : et presit piscibus maris,
+      <lb ed="#Bb"/>et volatilibus cali, et bestiis, 
+      universe<lb ed="#Bb" break="no"/>que terre. Et sic solus Adam vir ad 
+      ima<lb ed="#Bb" break="no"/>ginem est, et non mulier, et non 
+      Ange<lb ed="#Bb" break="no"/>lus. Quia sicut simpliciter propter Deum
+      <lb ed="#Bb"/>omnia sunt, et Deus preponitur 
+      omni<lb ed="#Bb" break="no"/>bus : ita quodammodo omnia pré6pter
+      <lb ed="#Bb"/>hominem sunt, et homo preponitur
+      <lb ed="#Bb"/>omnibus, secundum quod Apostolus,
+      <lb ed="#Bb"/>Tad Corinth. ni, 22, dicit : Omnia vestra
+      <lb ed="#Bb"/>sunt. Et, ad Hebr. 1, 14, dicitur, quod
+      <lb ed="#Bb"/>Angeli propter hominem sunt. Et hee
+      <lb ed="#Bb"/>sunt verba : Nonne omnes sunt 
+      admini<lb ed="#Bb" break="no"/>stratorti spiritus, in ministerium missi
+      <lb ed="#Bb"/>propter cos qui hereditatem capient 
+      sa<lb ed="#Bb" break="no"/>lutis ? Et quoad hoc Angelus non est ad
+      <lb ed="#Bb"/>imaginem Dei.
+    </p>
+            <p xml:id="Almn78-d25031-d1e747">
+               <pb ed="#Bb" n="117"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Attenditur etiam in imitatione interiori,
+      <lb ed="#Bb"/>sicut ante dictum est. Et si tunc referatur
+      <lb ed="#Bb"/>imitatio ad ordinem potentiarum, et ad
+      <lb ed="#Bb"/>ordinem nature in personis divinis, 
+      ho<lb ed="#Bb" break="no"/>mo est ad imaginem Dei, et non 
+      Ange<lb ed="#Bb" break="no"/>lus. Si autem referatur ad modum 
+      capa<lb ed="#Bb" break="no"/>citatis, uterque immediate per mentem
+      <lb ed="#Bb"/>conjungitur Deo : et sic sunt xquales.
+      <lb ed="#Bb"/>Sed in hoc non attenduntur gradus 
+      en<lb ed="#Bb" break="no"/>tium, sed potius penes dignitatem nature
+      <lb ed="#Bb"/>secundum Augustinum, qui Angelum
+      <lb ed="#Bb"/>propter dignitatem nature ordinat juxta
+      <lb ed="#Bb"/>Deum, et materiam propter 
+      imperfectio<lb ed="#Bb" break="no"/>nem ponit prope nihil, et cetera ordinat
+      <lb ed="#Bb"/>in medio, propter diversam dignitatem
+      <lb ed="#Bb"/>nature eorum.
+    </p>
+            <p xml:id="Almn78-d25031-d1e789">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod custodia
+      <lb ed="#Bb"/>qua Angelus custodit hominem 
+      secun<lb ed="#Bb" break="no"/>dum omnes actus custodi#, non ponit
+      <lb ed="#Bb"/>eum in gradu inferioritatis ad 
+      homi<lb ed="#Bb" break="no"/>nem : hoc enim non facit de debito
+      <lb ed="#Bb"/>servitutis, sed potius ex affectu 
+      charita<lb ed="#Bb" break="no"/>tis et ordine legis divine. Dicit enim
+      <lb ed="#Bb"/>Dionysius, quod legis diving est prima
+      <lb ed="#Bb"/>per media, et per media ultima 
+      redu<lb ed="#Bb" break="no"/>cere. Et Ierotheus dicit, quod movet
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>superiora amor in genere acceptus ad
+      <lb ed="#Bb"/>inferiorum providentiam.
+    </p>
+            <p xml:id="Almn78-d25031-d1e820">
+               <lb ed="#Bb"/>Ad aliud dicendum eodem modo,
+      <lb ed="#Bb"/>quod nihil ex seipso movetur ad 
+      indi<lb ed="#Bb" break="no"/>gnius se: sed ex ordine legis divine et
+      <lb ed="#Bb"/>charitatis, quo superiora habent 
+      provi<lb ed="#Bb" break="no"/>dere inferioribus, sepe ad inferiora 
+      mo<lb ed="#Bb" break="no"/>ventur, et propter inferiora.
+    </p>
+            <p xml:id="Almn78-d25031-d1e836">
+               <lb ed="#Bb"/>Apo auiup dicendum, quod licet eadem
+      <lb ed="#Bb"/>virtus custodiat in esse que dat esse,
+      <lb ed="#Bb"/>tamen propter multitudinem 
+      alteran<lb ed="#Bb" break="no"/>tium, et debilitatem alterabilis, saepe
+      <lb ed="#Bb"/>virtus dans esse, adjungit sibi multa
+      <lb ed="#Bb"/>adminicula custodie, non propter 
+      defe<lb ed="#Bb" break="no"/>ctum suum, sed propter defectum 
+      cu<lb ed="#Bb" break="no"/>stoditi et debilitatem. Ita Deus, licet 
+      per<lb ed="#Bb" break="no"/>fectissimus sit ad custodiam nullo 
+      indi<lb ed="#Bb" break="no"/>gens, et sine cujus custodia nulla valet
+      <lb ed="#Bb"/>custodia : tamen propter debilitatem
+      <lb ed="#Bb"/>hominis et mutabilitatem et ad malum
+      <lb ed="#Bb"/>pronitatem, necessaria etiam fuit 
+      custo<lb ed="#Bb" break="no"/>dia Angelorum : sicut dicitur, Isaia,
+      <lb ed="#Bb"/>uxn, 6 : Super muros tuos, Jerusalem,
+      <lb ed="#Bb"/>constitui custodes.
+    </p>
+            <p xml:id="Almn78-d25031-d1e873">
+               <lb ed="#Bb"/>Ea que in contrarium adducuntur,
+      <lb ed="#Bb"/>concedenda sunt.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

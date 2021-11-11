@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 126</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 126</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="417"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h92964"><!-- p2t20q126 -->
+            <head xml:id="Almn78-h92964-Hd1e106">Quaestio 126</head>
+            <head xml:id="Almn78-h92964-Hd1e109" type="question-title">
+    Utrum multiloquium sit peccatum? et, Utrum tacere de Deo
+    aliquis possit sine peccato ?
+  </head>
+            <p xml:id="Almn78-h92964-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXVI.
+<lb ed="#Bc"/>Utrum multiloquium sit peccatum? et, Utrum tacere de Deo
+<lb ed="#Bc"/>aliquis possit sine peccato ?
+</p>
+            <p xml:id="Almn78-h92964-d1e123">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde, Querendum est de 
+multilo<lb ed="#Bc" break="no"/>quio, contentione, et maledicto.
+</p>
+            <p xml:id="Almn78-h92964-d1e132">
+               <lb ed="#Bc"/>Videtur enim multiloquium esse 
+pec<lb ed="#Bc" break="no"/>calum.
+</p>
+            <p xml:id="Almn78-h92964-d1e140">
+               <lb ed="#Bc"/>1. Proverb. x, 19: In multiloguio
+<lb ed="#Bc"/>non deerit peccatum.
+</p>
+            <p xml:id="Almn78-h92964-d1e147">
+               <lb ed="#Bc"/>2. Adhuc, Job, x1,2: Numguid qui
+<lb ed="#Bc"/>multa loquitur, non et audiet ? aut vir
+<lb ed="#Bc"/>verbosus justificabitur ?
+</p>
+            <p xml:id="Almn78-h92964-d1e156">
+               <lb ed="#Bc"/>3. Adhuc, Qui moderatur labia sua,
+<lb ed="#Bc"/>ut dicitur, Proverb. x, 19, 
+prudentissi<lb ed="#Bc" break="no"/>mus est.
+</p>
+            <p xml:id="Almn78-h92964-d1e165">
+               <lb ed="#Bc"/>Ex omnibus concluditur, quod 
+multi<lb ed="#Bc" break="no"/>loguium sit peccatum.
+</p>
+            <p xml:id="Almn78-h92964-d1e172">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Augustinus in fine librorum de 
+Tri<lb ed="#Bc" break="no"/>nitate : <quote xml:id="Almn78-h92964-Qd1e180"> Scio, Domine, scriptum esse,
+<lb ed="#Bc"/>quod in multiloquio non deerit 
+pecca<lb ed="#Bc" break="no"/>tum: sed de te, quantumlibet homo 
+lo<lb ed="#Bc" break="no"/>quatur, numquam est satis.</quote> Ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod multum loqui de Deo non
+<lb ed="#Bc"/>sit malum, sed etiam bonum. Ergo 
+ge<lb ed="#Bc" break="no"/>neraliter multiloquium non est peccatum.
+</p>
+            <p xml:id="Almn78-h92964-d1e197">
+               <lb ed="#Bc"/>2. Adhuc, Augustinus, ibidem, <quote xml:id="Almn78-h92964-Qd1e201"> Ve
+<lb ed="#Bc"/>tacentibus de te: quia loquaces multi
+<lb ed="#Bc"/>sunt. </quote>
+            </p>
+            <p xml:id="Almn78-h92964-d1e210">
+               <lb ed="#Bc"/>3. Adhuc, Ptolemeus in proverbiis
+<lb ed="#Bc"/>que ponuntur in principio Almagesti :
+<lb ed="#Bc"/>
+               <quote xml:id="Almn78-h92964-Qd1e218"> Sapiens est qui refrenat linguam
+<lb ed="#Bc"/>suam, nisi cum de Deo loquitur, </quote>
+            </p>
+            <p xml:id="Almn78-h92964-d1e224">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>4, Adhuc, De uno loqui, non est de
+<lb ed="#Bc"/>multis loqui : Deus unus est in omnibus
+<lb ed="#Bc"/>sacramentis, et in omnibus figuris 
+Scri<lb ed="#Bc" break="no"/>pturarum : de Deo ergo loqui, quantum.
+<lb ed="#Bc"/>libet quis loquatur, non est 
+multilo<lb ed="#Bc" break="no"/>quium : quia de uno loquilur.
+</p>
+            <p xml:id="Almn78-h92964-d1e242">
+               <lb ed="#Bc"/>3. Adhuc, Aristoteles in VIII 
+Ethico<lb ed="#Bc" break="no"/>rum, ubi loquitur de amicitia, dicit,
+<lb ed="#Bc"/>quod <quote xml:id="Almn78-h92964-Qd1e250"> proprium amicorum est simul
+<lb ed="#Bc"/>esse, et de amicitia conterere totos
+<lb ed="#Bc"/>dies. </quote> Cum ergo aliquis habet 
+charita<lb ed="#Bc" break="no"/>tem ad Deum, signum est, quod 
+mul<lb ed="#Bc" break="no"/>tum loquatur de Deo orando, 
+predican<lb ed="#Bc" break="no"/>do. Isa. rx, 6 et 7: Super muros tuos,
+<lb ed="#Bc"/>Jerusalem, constitui custodes : tota die et
+<lb ed="#Bc"/>tola nocte in perpetuum non tacebunt,
+<lb ed="#Bc"/>scilicet non cessabunt laudare nomen
+<lb ed="#Bc"/>Domini. Qui reminiseumint Domini, ne
+<lb ed="#Bc"/>taceatis, eé.ne detis silentium ei, etc.
+<lb ed="#Bc"/>Ergo multum loqui de Deo non est 
+pec<lb ed="#Bc" break="no"/>catum, imo meritorium.
+</p>
+            <p xml:id="Almn78-h92964-d1e280">
+               <lb ed="#Bc"/>Ulterius queritur, Utrum tacere de
+<lb ed="#Bc"/>Deo aliquis possit sine peccato ?
+</p>
+            <p xml:id="Almn78-h92964-d1e287">
+               <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>Eccle. m, 7: Tempus tacendi, et 
+tem<lb ed="#Bc" break="no"/>pus loqguendi. Ergo videtur, quod 
+ali<lb ed="#Bc" break="no"/>quando tacere bonum est.
+</p>
+            <p xml:id="Almn78-h92964-d1e298">
+               <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1, Job, xvi, 7: Sz locutus fuero, non
+<pb ed="#Bc" n="418"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>quiescet dolor meus, ei si tacuero, non
+<lb ed="#Bc"/>recedat ame. Glossa : <quote xml:id="Almn78-h92964-Qd1e313"> Hoc ipsum 
+am<lb ed="#Bc" break="no"/>plius quod tacet, gemit : quia se tacente
+<lb ed="#Bc"/>perversorum culpas excrescere 
+conspi<lb ed="#Bc" break="no"/>cit. </quote>
+            </p>
+            <p xml:id="Almn78-h92964-d1e324">
+               <lb ed="#Bc"/>2. Adhuc, Ezechiel. xxxm, 6: Si 
+spe<lb ed="#Bc" break="no"/>culator viderit gladium venientem, et
+<lb ed="#Bc"/>non insonuerit buccina, predicatione
+<lb ed="#Bc"/>scilicet, veneritgue gladius, et tulerit de
+<lb ed="#Bc"/>eis animam : ille quidem in iniquitate
+<lb ed="#Bc"/>sua captus est, sanguinem autem ejus
+<lb ed="#Bc"/>de manu speculatoris requiram. Ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod taciturnitas in eo qui debet
+<lb ed="#Bc"/>premonere populum, peccatum mortale
+<lb ed="#Bc"/>sit.
+</p>
+            <p xml:id="Almn78-h92964-d1e348">
+               <lb ed="#Bc"/>3. Adhuc, II ad Timoth, iv, 4 et 2:
+<lb ed="#Bc"/>Testificor coram Deo et Jesu Christo,
+<lb ed="#Bc"/>qui judicaturus est vivos et mortuos,
+<lb ed="#Bc"/>per advenium ipsius et regnum ejus,
+<lb ed="#Bc"/>predica verbum : insta opportune, 
+im<lb ed="#Bc" break="no"/>portune.
+</p>
+            <p xml:id="Almn78-h92964-d1e364">
+               <lb ed="#Bc"/>Contra hoc videtur esse, quod 
+num<lb ed="#Bc" break="no"/>quam importune instandum est.
+</p>
+            <p xml:id="Almn78-h92964-d1e371">
+               <lb ed="#Bc"/>1. Eccle. vi, 6: Omni  negotio
+<lb ed="#Bc"/>tempus est, et opportunitas. Ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod non sit instandum importune.
+</p>
+            <p xml:id="Almn78-h92964-d1e380">
+               <lb ed="#Bc"/>2. Adhuc, Proverb. xxv, 11: Mala
+<lb ed="#Bc"/>aurea in lectis argenteis, qui loquitur
+<lb ed="#Bc"/>verbum in tempore suo. Glossa: <quote xml:id="Almn78-h92964-Qd1e388"> Qui
+<lb ed="#Bc"/>verbum Dei opportune novit juxta 
+capa<lb ed="#Bc" break="no"/>citatem audientium predicare, modo
+<lb ed="#Bc"/>exempla juxta litteram replicat, modo
+<lb ed="#Bc"/>suaviores spiritualium sensuum flores
+<lb ed="#Bc"/>pandit. </quote>
+            </p>
+            <p xml:id="Almn78-h92964-d1e402">
+               <lb ed="#Bc"/>Solutio. Ad primam partem 
+questio<lb ed="#Bc" break="no"/>nis dicendum est, quod aliud est 
+multi<lb ed="#Bc" break="no"/>loquium, et aliud vaniloquium, et aliud
+<lb ed="#Bc"/>turpiloquium, quod scurrilitas vocatur.
+<lb ed="#Bc"/>Multiloguium non potest esse 
+loquen<lb ed="#Bc" break="no"/>tium de Deo, sicut patet per auctoritates
+<lb ed="#Bc"/>paulo ante inductas : quia numquam est
+<lb ed="#Bc"/>multum quod numquam est satis, Psal.
+<lb ed="#Bc"/>xxx, 2: Semper laus ejus in ore meo.
+<lb ed="#Bc"/>Ideo in talibus numquam est 
+multilo<lb ed="#Bc" break="no"/>quium. Unde omnes auctoritates hoc
+<lb ed="#Bc"/>probantes procedunt. In vaniloquio sem
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc" break="no"/>per multum est: quia binarius actuum
+<lb ed="#Bc"/>etiam inducit multitudinem. Et sunt de
+<lb ed="#Bc"/>quibus dicitur in Psalmo x1, 3: Vana
+<lb ed="#Bc"/>locuti sunt unusguisque ad proxzimum
+<lb ed="#Bc"/>suum. Vaniloguium autem est, quia,
+<lb ed="#Bc"/>sicut dicitur in II Physicorum, <quote xml:id="Almn78-h92964-Qd1e445"> Vanum
+<lb ed="#Bc"/>est quod est ad aliquem finem quem non
+<lb ed="#Bc"/>includit. </quote> Sermo vero est ad finem 
+instru<lb ed="#Bc" break="no"/>ctionis et edificationis. Sapient. xu, 4:
+<lb ed="#Bc"/>Vani sunt omnes homines in quibus non
+<lb ed="#Bc"/>subest scientia Dei. Et ideo omnis homo
+<lb ed="#Bc"/>qui utitur sermone non ad 
+edificatio<lb ed="#Bc" break="no"/>nem, vaniloquus est et peccat : non 
+ta<lb ed="#Bc" break="no"/>men dico, quod mortaliter. Sed ¢
+erpilo<lb ed="#Bc" break="no"/>guium, quod scurrarum est, pessimum
+<lb ed="#Bc"/>est : qui loquuntur de turpibus 
+venereo<lb ed="#Bc" break="no"/>rum, et carnali amore, et fingunt 
+canti<lb ed="#Bc" break="no"/>lenas, et inficiunt aures audientium, de
+<lb ed="#Bc"/>quibus dicitur in Psalmo v, 11: 
+Sepul<lb ed="#Bc" break="no"/>crum patens est guttur eorum. Et 
+timen<lb ed="#Bc" break="no"/>dum est, quod hoc pro consuetudine sit
+<lb ed="#Bc"/>mortale peccatum.
+</p>
+            <p xml:id="Almn78-h92964-d1e484">
+               <lb ed="#Bc"/>Et secundum hoc procedunt 
+auctorita<lb ed="#Bc" break="no"/>tes primo inducte, probantes quod 
+mul<lb ed="#Bc" break="no"/>tilopuium sit peccatum.
+</p>
+            <p xml:id="Almn78-h92964-d1e493">
+               <lb ed="#Bc"/>Ad secunpaM partem de taciturnitate
+<lb ed="#Bc"/>dicendum, quod taciturnitas de Deo est
+<lb ed="#Bc"/>mala, et maxime in illo qui ex officio
+<lb ed="#Bc"/>tenetur predicare, sicut prelatus. Ille
+<lb ed="#Bc"/>enim si tempore opportuno non 
+predi<lb ed="#Bc" break="no"/>cat subditis et docet, pabulum subtrahit,
+<lb ed="#Bc"/>et subditos mori fame facit. Thren. tv,
+<lb ed="#Bc"/>4: Parvuli petierunt panem, et non erat
+<lb ed="#Bc"/>qui frangeret eis. Et ibidem, ¥. 9: Melius
+<lb ed="#Bc"/>fuit occisis gladio, quam interfectis 
+fa<lb ed="#Bc" break="no"/>me, quoniam isti extabuerunt. Et adhuc,
+<lb ed="#Bc"/>ibidem, u, 12: Matribus suis dixerunt:
+<lb ed="#Bc"/>Ubi est triticum et vinum ? cum 
+defice<lb ed="#Bc" break="no"/>rent quasi vulnerati in plateis civitatis,:
+<lb ed="#Bc"/>cum exhalarent animas suas in sini
+<lb ed="#Bc"/>matrum suarum. Et tales absque dubio.
+<lb ed="#Bc"/>tempore necessitatis et opportuno 
+sub<lb ed="#Bc" break="no"/>trahentes pabulum verbi Dei, peccant
+<lb ed="#Bc"/>mortaliter. Unde dictum est Petro ter :
+<lb ed="#Bc"/>Pasce oves meas *. Pasce verbo, pasce
+<lb ed="#Bc"/>exemplo, pasce temporali subsidio. Si
+<pb ed="#Bc" n="419"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>vero subditi sunt incorrigibiles, et verbi
+<lb ed="#Bc"/>Dei irrisores : tunc pro certo tacendum
+<lb ed="#Bc"/>est, ut patet, Matth. vir, 6 : Nolite dare
+<lb ed="#Bc"/>sanctum canibus, neque mittalis 
+mar<lb ed="#Bc" break="no"/>garitas vestras ante poreos. Irrisoribus
+<lb ed="#Bc"/>enim non est predicandum. Tamen dicit
+<lb ed="#Bc"/>Augustinus super illud Apostoli, If ad
+<lb ed="#Bc"/>Timoth. iv, 2: Predica verbum, insta
+<lb ed="#Bc"/>opportune, etc. <quote xml:id="Almn78-h92964-Qd1e564"> Sonet verbum tuum
+<lb ed="#Bc"/>volentibus opportune, importune 
+nolen<lb ed="#Bc" break="no"/>tibus : inveniat locum ubi requiescat,
+<lb ed="#Bc"/>sicut terra dat locum semini. Nec 
+re<lb ed="#Bc" break="no"/>quiescat bonus arator nisi faciat terram
+<lb ed="#Bc"/>germinare, que tamen aliquando pelrosa
+<lb ed="#Bc"/>est, sicut dicitur, Matth. xim, 3 et 6,
+<lb ed="#Bc"/>aliquando spinosa. Quod si forte statim
+<lb ed="#Bc"/>non facit fructum in memoria manens,
+<lb ed="#Bc"/>aliquando facit fructam posterius. </quote>
+               <lb ed="#Bc"/>Adhuc, Notandum est quod dicitur,
+<lb ed="#Bc"/>Eccli. xx, 7: Homo sapiens tacebit 
+us<lb ed="#Bc" break="no"/>que in tempus. Ubi dicit Glossa: <quote xml:id="Almn78-h92964-Qd1e593"> 
+Vi<lb ed="#Bc" break="no"/>dens vir ecclesiasticus incorrigibiles esse
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>subditos, subtrahet correptionem, 
+nevi<lb ed="#Bc" break="no"/>deatur sanctum dare canibus. </quote> 
+Obji<lb ed="#Bc" break="no"/>ciunt tamen quidam de Petro, qui 
+pra<lb ed="#Bc" break="no"/>dicavit Simoni mago, quem scivit esse
+<lb ed="#Bc"/>incorrigibilem.
+</p>
+            <p xml:id="Almn78-h92964-d1e611">
+               <lb ed="#Bc"/>Ad omnia ista que ad secundam 
+par<lb ed="#Bc" break="no"/>tem inducuntur, solyenduin est per 
+di<lb ed="#Bc" break="no"/>stinctionem, quod ille qui tenetur ex 
+offi<lb ed="#Bc" break="no"/>cio, opportune et importune debet 
+pra<lb ed="#Bc" break="no"/>dicare, dum corrigibiles videat esse 
+sub<lb ed="#Bc" break="no"/>ditos aliquo modo, Si autem viderit 
+in<lb ed="#Bc" break="no"/>corrigigiles, potest subtrahere ad 
+tem<lb ed="#Bc" break="no"/>pus, ne ad deteriora provocentur. Unde
+<lb ed="#Bc"/>super illud Levitici,xv, 2: Vir, qui 
+pa<lb ed="#Bc" break="no"/>titur fluxum seminis, Glossa: <quote xml:id="Almn78-h92964-Qd1e634"> Quid
+<lb ed="#Bc"/>est semen, nisi verbum, quod dum 
+op<lb ed="#Bc" break="no"/>portune proponitur, mens auditoris 
+fo<lb ed="#Bc" break="no"/>cundatur. Si autem importune, mens
+<lb ed="#Bc"/>auditoris polluitur, et virtus generativa
+<lb ed="#Bc"/>amittitur. </quote>
+            </p>
+            <p xml:id="Almn78-h92964-d1e648">
+               <lb ed="#Bc"/>His autem consideratis, patet solutio
+<lb ed="#Bc"/>ad totum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

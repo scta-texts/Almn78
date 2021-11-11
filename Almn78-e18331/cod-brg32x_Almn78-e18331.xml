@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 50</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 50</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="532"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e18331"><!-- p2t11q50 -->
+            <head xml:id="Almn78-e18331-Hd1e106">Quaestio 50</head>
+            <head xml:id="Almn78-e18331-Hd1e109" type="question-title">
+      De quatuor modis divinae operationis
+    </head>
+            <p xml:id="Almn78-e18331-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO L.
+      <lb ed="#Bb"/>De quatuor modis divinae operationis.
+    </p>
+            <p xml:id="Almn78-e18331-d1e121">
+               <lb ed="#Bb"/>Deinde, Quaeritur de hoc quod dicitur
+      <lb ed="#Bb"/>in illo libro II Sententiarum, dist. XII,
+      <lb ed="#Bb"/>cap. H: <quote xml:id="Almn78-e18331-Qd1e129"> Quatuor enim modis, ut dicit
+        <lb ed="#Bb"/>Alcuinus super Genesim, operatur
+        <lb ed="#Bb"/>Deus. Primo in verbo, omnia 
+        dispo<lb ed="#Bb" break="no"/>nendo. Secundo, in materia informi
+        <lb ed="#Bb"/>quatuor elementorum, de nihilo eam
+        <lb ed="#Bb"/>creando. Unde, Qui vivit in eternum,
+        <lb ed="#Bb"/>creavit omnia simul ', Omnia scilicet
+        <cb ed="#Bb" n="b"/>
+                  <lb ed="#Bb"/>elementa, vel omnia corpora 
+        materiali<lb ed="#Bb" break="no"/>ter simul creavit. Tertio, per opera sex
+        <lb ed="#Bb"/>dierum varias distinxit creaturas,
+        <lb ed="#Bb"/>Quarto, ex primordialibus seminibus
+        <lb ed="#Bb"/>non incognite oriuntur nature, sed
+        <lb ed="#Bb"/>notae saepius reformantur, ne pereant. </quote>
+            </p>
+            <p xml:id="Almn78-e18331-d1e161">
+               <lb ed="#Bb"/>De hoc enim queritur:
+      <lb ed="#Bb"/>1. Dicit enim Gregorius Nyssenus et
+      <lb ed="#Bb"/>Damascenus, quod operativum dicitur,
+      <pb ed="#Bb" n="533"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>quod ex seipso movetur : moveri autem
+      <lb ed="#Bb"/>Deo non convenit: ergo nec operari.
+    </p>
+            <p xml:id="Almn78-e18331-d1e180">
+               <lb ed="#Bb"/>2. Adhuc, Quecumque sunt in una
+      <lb ed="#Bb"/>divisione, divisum debent participare per
+      <lb ed="#Bb"/>unam rationem : sed operari in verbo et
+      <lb ed="#Bb"/>operari in materia, non sunt unius ra~
+      <lb ed="#Bb"/>tionis opera: ergo ad unam divisionem
+      <lb ed="#Bb"/>operandi non debent referri.
+    </p>
+            <p xml:id="Almn78-e18331-d1e196">
+               <lb ed="#Bb"/>3. Adhuc, Operari in verbo est ‘dispo~
+      <lb ed="#Bb"/>nere opera: sed disponere opera, non
+      <lb ed="#Bb"/>est operari, sed ante operationem: ergo
+      <lb ed="#Bb"/>videtur, quod falsum sit, quod unus 
+      mo<lb ed="#Bb" break="no"/>dus operandi sit in verbo.
+    </p>
+            <p xml:id="Almn78-e18331-d1e209">
+               <lb ed="#Bb"/>4, Adhuc, Ex seminibus non 
+      incogni<lb ed="#Bb" break="no"/>tas producere naturas, opus nature est,
+      <lb ed="#Bb"/>non Dei, ut videtur: et ita videtur, quod
+      <lb ed="#Bb"/>non debeat poni inter modos operationis
+      <lb ed="#Bb"/>divine.
+    </p>
+            <p xml:id="Almn78-e18331-d1e222">
+               <lb ed="#Bb"/>Solutio. Dicendum, quod quatuor
+      <lb ed="#Bb"/>modi sunt operationis divine, ut dicit
+      <lb ed="#Bb"/>Alcuinus et Glossa super Genesim: et est
+      <lb ed="#Bb"/>divisio non generis in species, sed data
+      <lb ed="#Bb"/>secundum modos operationis sapientis.
+      <lb ed="#Bb"/>Hic enim primo disponit in seipso quid
+      <lb ed="#Bb"/>operandum sit, et qualiter, et ad quem
+      <lb ed="#Bb"/>finem. Et penes hoc accipitur primus
+      <lb ed="#Bb"/>modus, qui est in verbo, in quo Deus
+      <lb ed="#Bb"/>disposuit ab eterno quid, quomodo, et
+      <lb ed="#Bb"/>qualiter, et quo fine producatur 
+      unum<lb ed="#Bb" break="no"/>quodque.
+    </p>
+            <p xml:id="Almn78-e18331-d1e251">
+               <lb ed="#Bb"/>Secundus modus est sapientis, quod
+      <lb ed="#Bb"/>statim preparat materiam in quam 
+      in<lb ed="#Bb" break="no"/>ducturus est formam: propter quod dicit
+      <lb ed="#Bb"/>Aristoteles in II Physicorum, quod 
+      ar<lb ed="#Bb" break="no"/>chitectonici sapientis est ordinare 
+      mate<lb ed="#Bb" break="no"/>riam in quam possit inducere formam.
+      <lb ed="#Bb"/>Volens enim facere serram, non querit
+      <lb ed="#Bb"/>lanam pro materia: quia in lanam non
+      <lb ed="#Bb"/>potest induci forma instrumenti dentati,
+      <lb ed="#Bb"/>fortitudine dentium et acumine volentis
+      <lb ed="#Bb"/>dividere dura. Et penes hoc accipitur
+      <lb ed="#Bb"/>modus secundus, gui est omnia simul
+      <lb ed="#Bb"/>in materia confusa producere.
+    </p>
+            <p xml:id="Almn78-e18331-d1e282">
+               <lb ed="#Bb"/>Tertius modus est sapientis, 
+      unum<lb ed="#Bb" break="no"/>quodque ad proprium actum et propriam
+      <lb ed="#Bb"/>formam determinare et ad opus suum. Et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>propter hoc dicit Aristoteles in VI 
+      Ethico<lb ed="#Bb" break="no"/>rum, quod in unoquoque sapiens est, qui
+      <lb ed="#Bb"/>ex ratione forme et finis rationes assignat
+      <lb ed="#Bb"/>factorum et operum suorum. Et penes
+      <lb ed="#Bb"/>hoc accipitur modus tertius.
+    </p>
+            <p xml:id="Almn78-e18331-d1e305">
+               <lb ed="#Bb"/>Sed quia sapientissimus artifex est
+      <lb ed="#Bb"/>primus artifex, et conditor omnium
+      <lb ed="#Bb"/>Deus, de quo dicitur in libro de Causis,
+      <lb ed="#Bb"/>quod est dives in se, et dives in omnibus
+      <lb ed="#Bb"/>aliis : ideo convenit ei non operari in se
+      <lb ed="#Bb"/>tantum, sed in omnibus aliis que ab
+      <lb ed="#Bb"/>ipso sunt : et sic operatur in natura. Et
+      <lb ed="#Bb"/>hic est quartus modus operationis. Isa.
+      <lb ed="#Bb"/>xxv1, 12: Omnia opera nostra operatus
+      <lb ed="#Bb"/>es nobis, Domine. Joan. xv, 15 : Sine
+      <lb ed="#Bb"/>me nihil potestis facere. Et ideo dicit
+      <lb ed="#Bb"/>Augustinus, quod ille qui ex quinque
+      <lb ed="#Bb"/>panibus pavit quinque millia hominum |},
+      <lb ed="#Bb"/>majori virlute ex paucis granis 
+      sege<lb ed="#Bb" break="no"/>tes producit, ex quibus pascit totum
+      <lb ed="#Bb"/>mundum.
+    </p>
+            <p xml:id="Almn78-e18331-d1e342">
+               <lb ed="#Bb"/>Ad primum ergo dicendum, quod a
+      <lb ed="#Bb"/>Gregorio Nysseno definitur opus se~
+      <lb ed="#Bb"/>cundum quod est in genere actus, sive
+      <lb ed="#Bb"/>actionis, que cum motu est, ut in Sex
+      <lb ed="#Bb"/>principiis dicitur. Et hoc modo Deo
+      <lb ed="#Bb"/>non convenit, qui immobilis est. Unde
+      <lb ed="#Bb"/>Boetius in’ V de Consolatione 
+      philo<lb ed="#Bb" break="no"/>sophie :
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e18331-Qd1e363">Qui tempus ab zvo
+        <lb ed="#Bb"/>Ire jubes, stabilisque manens das cuncta 
+        mo<lb ed="#Bb" break="no"/>[veri.</quote>
+            </p>
+            <p xml:id="Almn78-e18331-d1e371">
+               <lb ed="#Bb"/>Divisio vero Alcuini sumitur penes
+      <lb ed="#Bb"/>modos qui sunt in opere sapientis, ut
+      <lb ed="#Bb"/>dictum est : et sumitur opus large et
+      <lb ed="#Bb"/>communi rationead opus, et modos qui
+      <lb ed="#Bb"/>circumstant opus prout procedit a 
+      sa<lb ed="#Bb" break="no"/>piente.
+    </p>
+            <p xml:id="Almn78-e18331-d1e387">
+               <lb ed="#Bb"/>Ad aliud ergo dicendum, quod hoc
+      <lb ed="#Bb"/>non est verum de divisione generis in
+      <lb ed="#Bb"/>species. Diximus autem jam, quod 
+      divi<lb ed="#Bb" break="no"/>sio aliquando est non generis in species,
+      <lb ed="#Bb"/>sed in modos qui circumstant ex parte
+      <lb ed="#Bb"/>operantis et ex parte operati.
+    </p>
+            <p xml:id="Almn78-e18331-d1e403">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod hoc 
+      proce<lb ed="#Bb" break="no"/>deret, si in dicta divisione opus stricte
+      <pb ed="#Bb" n="534"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>sumeretur. Dictum est autem, quod 
+      su<lb ed="#Bb" break="no"/>mitur large pro ipso opere, et pro modis
+      <lb ed="#Bb"/>qui circumstant ipsum ex parte operantis
+      <lb ed="#Bb"/>et ex parte operati.
+    </p>
+            <p xml:id="Almn78-e18331-d1e423">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod hoc est
+      <lb ed="#Bb"/>opus nature proxime operantis : Dei
+      <lb ed="#Bb"/>autem est opus sicut primo operantis et
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>influentis virtutem nature. Sicut enim
+      <lb ed="#Bb"/>dicitur in libro de Causis, secunda causa
+      <lb ed="#Bb"/>secundum omne genus cause a prima
+      <lb ed="#Bb"/>causa habet, et quod est, et quod causa
+      <lb ed="#Bb"/>est.
+    </p>
+            <p xml:id="Almn78-e18331-d1e446">
+               <lb ed="#Bb"/>Et hec dicta sint de opere creationis,
+      <lb ed="#Bb"/>que sufficiunt pro nunc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 105</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 105</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="270"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h60203"><!-- p2t16q105 -->
+            <head xml:id="Almn78-h60203-Hd1e106">Quaestio 105</head>
+            <head xml:id="Almn78-h60203-Hd1e109" type="question-title">
+    De tribus haeresibus inimicis gratiae, scilicet Pelagii, Joviniani,
+    et Manichaei
+  </head>
+            <p xml:id="Almn78-h60203-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CV.
+<lb ed="#Bc"/>De tribus haeresibus inimicis gratiae, scilicet Pelagii, Joviniani,
+<lb ed="#Bc"/>et Manichaei.
+</p>
+            <p xml:id="Almn78-h60203-d1e123">
+               <lb ed="#Bc"/>Deinde tractanda sunt ea que 
+dicun<lb ed="#Bc" break="no"/>tur a Magistro in libro II Sententiarum,
+<lb ed="#Bc"/>dist. XXVIH, que incipit ibi, Jd vero
+<lb ed="#Bc"/>inconcusse et incunctanter teneamus.
+</p>
+            <p xml:id="Almn78-h60203-d1e134">
+               <lb ed="#Bc"/>Ubi principaliter queruntur tria.
+<lb ed="#Bc"/>Primum est de heresi Pelagii.
+<lb ed="#Bc"/>Secundum est de testimoniis inductis
+<lb ed="#Bc"/>ab ipso, qui hujus heresim suam 
+con<lb ed="#Bc" break="no"/>firmavit.
+<lb ed="#Bc"/>Tertium est de tribus heresibus que
+<lb ed="#Bc"/>contradicunt gratiz, scilicet Joviniani,
+<lb ed="#Bc"/>Manichei, et Pelagii.
+</p>
+            <div xml:id="Almn78-h60203-Dd1e155">
+               <head xml:id="Almn78-h60203-Hd1e157">Membrum 1</head>
+               <head xml:id="Almn78-h60203-Hd1e160" type="question-title">
+        De heresi Pelagii.
+      </head>
+               <p xml:id="Almn78-h60203-d1e163">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>De heresi Pelagii.
+</p>
+               <p xml:id="Almn78-h60203-d1e170">
+                  <lb ed="#Bc"/>Primo ergo queritur de heresi 
+Pela<lb ed="#Bc" break="no"/>gii, de qua Augustinus in libro I 
+Retra<lb ed="#Bc" break="no"/>clationum : sicdicit <quote xml:id="Almn78-h60203-Qd1e178"> : Pelagianorum 
+he<lb ed="#Bc" break="no"/>resis omnium novissima, a Pelagio 
+mo<lb ed="#Bc" break="no"/>nacho exorta est. Hi Dei gratie qua
+<lb ed="#Bc"/>predestinati sumus, et qua meruimus de
+<lb ed="#Bc"/>potestate tenebrarum erui, in tantum
+<pb ed="#Bc" n="271"/>
+                     <cb ed="#Ba" n="a"/>
+                     <lb ed="#Bc"/>inimici sunt, in sine hac credant 
+homi<lb ed="#Bc" break="no"/>nem posse facere omnia mandata 
+di<lb ed="#Bc" break="no"/>vina. </quote>
+               </p>
+               <p xml:id="Almn78-h60203-d1e201">
+                  <lb ed="#Bc"/>Pelagius autem ad haec que dixit 
+ta<lb ed="#Bc" break="no"/>lem induxit rationem :
+</p>
+               <p xml:id="Almn78-h60203-d1e209">
+                  <lb ed="#Bc"/>1. Dicit™ enim Ambrosium dicere et
+<lb ed="#Bc"/>concilium Nicenum, quod anathema sit,
+<lb ed="#Bc"/>qui dicit Deum impossibilia pracepisse.
+<lb ed="#Bc"/>Mandata autem Dei data sunt homini
+<lb ed="#Bc"/>gratiam non habenti : et, sicut dicitur,
+<lb ed="#Bc"/>I Joan. v, 3: Mandata ejus gravia non
+<lb ed="#Bc"/>sunt. Aut ergo possibile est, quod homo
+<lb ed="#Bc"/>sine gratia operante et cooperante 
+im<lb ed="#Bc" break="no"/>pleat mandata, aut non. Si non : tune
+<lb ed="#Bc"/>Deus impossibilia homini precepit
+<lb ed="#Bc"/>quod esse non potest : quia anathema
+<lb ed="#Bc"/>est qui hoc dicit. Et sic habetur 
+propo<lb ed="#Bc" break="no"/>situm, quod non indigemus gratia ad
+<lb ed="#Bc"/>servandum mandata.
+</p>
+               <p xml:id="Almn78-h60203-d1e242">
+                  <lb ed="#Bc"/>2. Adhuc, Gregorius : <quote xml:id="Almn78-h60203-Qd1e246"> Servitia 
+quan<lb ed="#Bc" break="no"/>to minus debita, tanto magis sunt 
+gra<lb ed="#Bc" break="no"/>ta. </quote> Sed si servimus Deo ex nostro,
+<lb ed="#Bc"/>minus debitum est quam si servimus ex
+<lb ed="#Bc"/>suo. Ergo videtur, quod magis sit 
+gra<lb ed="#Bc" break="no"/>tum ex solis naturalibus servare 
+man<lb ed="#Bc" break="no"/>data, quam ex naturalibus et gratia.
+</p>
+               <p xml:id="Almn78-h60203-d1e263">
+                  <lb ed="#Bc"/>3. Adhuc, Gratia habitus est 
+acciden<lb ed="#Bc" break="no"/>talis, quem contingit adesse et abesse
+<lb ed="#Bc"/>preter subjecti corruptionem. Ergo 
+vi<lb ed="#Bc" break="no"/>detur, quod non nisi accidentaliter se
+<lb ed="#Bc"/>habet ad impletionem mandatorum
+<lb ed="#Bc"/>ergo e(si absit, nihilominus possent 
+im<lb ed="#Bc" break="no"/>pleri ad salutem mandata.
+</p>
+               <p xml:id="Almn78-h60203-d1e281">
+                  <lb ed="#Bc"/>4, Adhuc objicit Pelagius, et hoc 
+po<lb ed="#Bc" break="no"/>nitur in Littera in illo cap. Quod vero
+<lb ed="#Bc"/>dicunt, sic : <quote xml:id="Almn78-h60203-Qd1e289"> Augustinus in libro III de
+<lb ed="#Bc"/>Libero arbitrio 4 asserit : et hoc 
+assu<lb ed="#Bc" break="no"/>mit Pelagius contra eum sic dicens : Tu
+<lb ed="#Bc"/>ipse, Augustine, in libro de Libero 
+arbi<lb ed="#Bc" break="no"/>trio sic asseris : Quis, inquis, peccat in
+<lb ed="#Bc"/>eo quod nullo modo caveri potest? 
+Pec<lb ed="#Bc" break="no"/>catum autem caveri potest. </quote> Ergo 
+vide<lb ed="#Bc" break="no"/>tur, quod sine gratia homo proficere
+<lb ed="#Bc"/>potest ne peccet non observando 
+man<lb ed="#Bc" break="no"/>data.
+</p>
+               <p xml:id="Almn78-h60203-d1e313">
+                  <lb ed="#Bc"/>3. Adhuc, Potentie definiuntur per
+<lb ed="#Bc"/>actus et actus per objecta, ita quod ad
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>intellectum veri perfectum non exigilur
+<lb ed="#Bc"/>nisi quod intellectus dirigatur in verum
+<lb ed="#Bc"/>et comprehendat ipsum. Ergo similiter
+<lb ed="#Bc"/>ad voluntatem bonam quod perfecte 
+bo<lb ed="#Bc" break="no"/>na sit, non exigitur nisi ut voluntas 
+di<lb ed="#Bc" break="no"/>rigatur in bonum et appetat ipsum : non
+<lb ed="#Bc"/>ergo requiritur gratia.
+</p>
+               <p xml:id="Almn78-h60203-d1e337">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>Nulla potentia potest in proprium
+<lb ed="#Bc"/>actum nisi sit completa per habitum
+<lb ed="#Bc"/>actus illius : potentia merendi vitam
+<lb ed="#Bc"/>eternam per observationem 
+mandato<lb ed="#Bc" break="no"/>rum, constat quod est in homine 
+secun<lb ed="#Bc" break="no"/>dum animam : quia, sicut dicit 
+Dama<lb ed="#Bc" break="no"/>scenus, anima hominis propter hoc 
+po<lb ed="#Bc" break="no"/>sita est in corpore, ut in eo pugnans
+<lb ed="#Bc"/>athletice contra vitia, mereatur 
+beatitu<lb ed="#Bc" break="no"/>dinem eternam et sibi et corpori. Ergo
+<lb ed="#Bc"/>in hunc actum non potest nisi completa
+<lb ed="#Bc"/>per habitum proprium istius : ille autem
+<lb ed="#Bc"/>habitus est gratia gratum faciens : quia
+<lb ed="#Bc"/>sicut supra in eodem tractatu de gratia
+<lb ed="#Bc"/>probatum est, questione, guid sit 
+gra<lb ed="#Bc" break="no"/>tia, solus habitus est gratia ille qui 
+gra<lb ed="#Bc" break="no"/>tum facit habentem, et opus ejus gratum
+<lb ed="#Bc"/>reddit : ergo nullus actus alicujus 
+po<lb ed="#Bc" break="no"/>tentiae potest esse meritorius sine gratia.
+</p>
+               <p xml:id="Almn78-h60203-d1e384">
+                  <lb ed="#Bc"/>Auctoritates etiam sunt contra 
+Pela<lb ed="#Bc" break="no"/>gium, ad quas, sicut dicit Augustinus,
+<lb ed="#Bc"/>astute respondit ut evaderet. Sicut est
+<lb ed="#Bc"/>illa Joannis, xv, 5: Sine me nihil 
+pot<lb ed="#Bc" break="no"/>estis facere. Glossa, <quote xml:id="Almn78-h60203-Qd1e397"> sine gratia mea, </quote>
+                  <lb ed="#Bc"/>Et illa Isaie, xxvi, 12 : Omnia opera
+<lb ed="#Bc"/>nostra operatus es nobis, Domine. | ad
+<lb ed="#Bc"/>Corinth. xv, 10: Gratia Dei sum id
+<lb ed="#Bc"/>quod sum. Et ibidem, Non ego autem,
+<lb ed="#Bc"/>sed gratia Dei mecum.
+</p>
+               <p xml:id="Almn78-h60203-d1e411">
+                  <lb ed="#Bc"/>Ad has omnes auctoritates et similes
+<lb ed="#Bc"/>dicit Augustinus respondisse Pelagium
+<lb ed="#Bc"/>astute ut evaderet : sic quod gratia 
+di<lb ed="#Bc" break="no"/>vidatur ut facilius impleantur mandata,
+<lb ed="#Bc"/>non quin ex libero arbitrio possint 
+im<lb ed="#Bc" break="no"/>pleri ante habentem gratiam. Sicut eum
+<lb ed="#Bc"/>qui vult discere aliquam scientiam juvat
+<lb ed="#Bc"/>doctor ut facilius discat : licet etiam sine
+<lb ed="#Bc"/>doctore potentiam discendi habeat per
+<lb ed="#Bc"/>inventionem.
+  
+<pb ed="#Bc" n="272"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Soxtvunio. Dicendum, quod absque 
+du<lb ed="#Bc" break="no"/>bio incunctanter et indubitanter 
+tenen<lb ed="#Bc" break="no"/>dum est, nullum umquam potuisse vel
+<lb ed="#Bc"/>posse implere mandata divina ad 
+effica<lb ed="#Bc" break="no"/>ciam meriti sine gratia gratum faciente :
+<lb ed="#Bc"/>nec umquam hoc dixil nisi inimicus 
+gra<lb ed="#Bc" break="no"/>tie. Et indiget homo duplici gratia,
+<lb ed="#Bc"/>operante, et cooperante, de quibus in
+<lb ed="#Bc"/>prehabitis disputatum est sufficienter.
+</p>
+               <p xml:id="Almn78-h60203-d1e459">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod Deus
+<lb ed="#Bc"/>impossibilia homini non precepit : nec
+<lb ed="#Bc"/>hoc aliquis dicit Catholicus. Pracepit
+<lb ed="#Bc"/>tamen servari mandata que sine gratia
+<lb ed="#Bc"/>servari non possunt : sed haec gratia
+<lb ed="#Bc"/>omnibus est preparata. Jacob. 1, 5:
+<lb ed="#Bc"/>Dat nobis omnibus affluenter, et non
+<lb ed="#Bc"/>improperat. Qui enim facit quod in se
+<lb ed="#Bc"/>est, exhibendo Deo se, statim accipit
+<lb ed="#Bc"/>gratiam a Deo. Et hoc expresse dicitur
+<lb ed="#Bc"/>in Glossa super illud Psalmi cxxxvun,
+<lb ed="#Bc"/>16: Imperfectum meum viderunt oculi
+<lb ed="#Bc"/>tui, et in libro tuo omnes scribentur.
+<lb ed="#Bc"/>Glossa, <quote xml:id="Almn78-h60203-Qd1e491"> Supple, qui faciunt hoc quod
+<lb ed="#Bc"/>possunt. </quote> Dies formabuniur splendore,
+<lb ed="#Bc"/>scilicet gratiae a te date : ef nemo in eis,
+<lb ed="#Bc"/>supple, deficit qui tecit hoc quod potuit.
+<lb ed="#Bc"/>Et sic Deus non precipit impossibilia :
+<lb ed="#Bc"/>et tamen sine gratia non possunt servari
+<lb ed="#Bc"/>mandata ad efficaciam meriti, ut dictum
+<lb ed="#Bc"/>est. Et hoc est quod dicitur, ad Roman.
+<lb ed="#Bc"/>vu, 18: Velle adjacet mihi: perficere
+<lb ed="#Bc"/>autem bonum non invenio. Et subdit
+<lb ed="#Bc"/>Apostolus, ¥. 24, in persona damnati
+<lb ed="#Bc"/>hominis, ut dicit Augustinus: Infelix
+<lb ed="#Bc"/>ego homo ! quis me liberabit de corpore
+<lb ed="#Bc"/>mortis hujus ? Et statim subdit, ¥. 25:
+<lb ed="#Bc"/>Gratia Dei per Jesum Christum 
+Domi<lb ed="#Bc" break="no"/>num nostrum.
+</p>
+               <p xml:id="Almn78-h60203-d1e527">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod hoc stulte et
+<lb ed="#Bc"/>contra intenlionem Gregorii inductum
+<lb ed="#Bc"/>est : quia nulla crealura habet aliquid de
+<lb ed="#Bc"/>suo nisi acceperit a Deo. I ad Corinth.
+<lb ed="#Bc"/>iv, 1: Quid habes quod non accepisti ?
+<lb ed="#Bc"/>si autem accepisti, quid gloriaris quasi
+<lb ed="#Bc"/>non acceperis? Unde etiam id quod
+<lb ed="#Bc"/>naturale esse dicitur, non est nostrum :
+<lb ed="#Bc"/>quod si etiam nostrum esset aliquo mo
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc" break="no"/>do, tamen ex ipso placere Deo non 
+pos<lb ed="#Bc" break="no"/>semus. Et hoc supra probatum est in
+<lb ed="#Bc"/>questione de divisione gratiae : quia non
+<lb ed="#Bc"/>possumus placere Deo nisi ex hoc quod
+<lb ed="#Bc"/>Dei est, et per quod ipse habitat in 
+no<lb ed="#Bc" break="no"/>bis. Plura etiam de hoc dicta sunt in
+<lb ed="#Bc"/>primo libro Summe Theologiz, in tra~
+<lb ed="#Bc"/>ctatu de missione Spiritus sancti in cor
+<lb ed="#Bc"/>per invisibilem gratiam.
+</p>
+               <p xml:id="Almn78-h60203-d1e571">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod licet gratia
+<lb ed="#Bc"/>sit habitus habentis, tamen non 
+acciden<lb ed="#Bc" break="no"/>taliter se habet ad actum merendi, sed
+<lb ed="#Bc"/>substantialiter : et ideo meritum non
+<lb ed="#Bc"/>potest esse sine gratia : sicut virtus, licet
+<lb ed="#Bc"/>accidens quoddam sit, tamen non potest
+<lb ed="#Bc"/>progredi in actum, nisi adsit virtus :
+<lb ed="#Bc"/>quia aliter non potest esse actus virtutis
+<lb ed="#Bc"/>nisi informetur virtute.
+</p>
+               <p xml:id="Almn78-h60203-d1e593">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod Pelagius in
+<lb ed="#Bc"/>cassum sensit verbum Augustini. Homo
+<lb ed="#Bc"/>enim cavere potest peccatum accepta
+<lb ed="#Bc"/>gratia,quam semper potest homo habere
+<lb ed="#Bc"/>si facit quod in se est. De hoc tamen
+<lb ed="#Bc"/>multum dictum est supra, in questione
+<lb ed="#Bc"/>ubi queritur, Si liberum arbitrium per
+<lb ed="#Bc"/>se potest resistere peccato' ?
+</p>
+               <p xml:id="Almn78-h60203-d1e614">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod in his que
+<lb ed="#Bc"/>secundum naturam vel sub natura sunt,
+<lb ed="#Bc"/>tenet illa objectio : sed in his que supra
+<lb ed="#Bc"/>naturam sunt, sicut est meritum, et
+<lb ed="#Bc"/>fides, et bonum vite extern, non sufficit
+<lb ed="#Bc"/>nisi adsit aliquod divinum elevans 
+natu<lb ed="#Bc" break="no"/>ram supra se : et hoc est gratia per
+<lb ed="#Bc"/>quam Deus habitat in sanctis.
+</p>
+               <p xml:id="Almn78-h60203-d1e634">
+                  <lb ed="#Bc"/>Illa que in contrarium objiciuntur,
+<lb ed="#Bc"/>procedunt.
+</p>
+               <p xml:id="Almn78-h60203-d1e641">
+                  <lb ed="#Bc"/>Ad idquod ultimo objicitur de 
+respon<lb ed="#Bc" break="no"/>sione Pelagii, dicendum quod gratia
+<lb ed="#Bc"/>exigitur ut necessaria ad meritum, et
+<lb ed="#Bc"/>sine qua non potest esse meritum, ut
+<lb ed="#Bc"/>patet in rationibus inductis contra 
+Pela<lb ed="#Bc" break="no"/>gium.
+</p>
+               <p xml:id="Almn78-h60203-d1e657">
+                  <lb ed="#Bc"/>Ad similitudinem quam inducit, 
+dicen<lb ed="#Bc" break="no"/>dum quod nulla est. Doctrina enim
+<lb ed="#Bc"/>scientie non est supra naturam : et ideo
+<lb ed="#Bc"/>non indiget aliquo elevante se supra
+<lb ed="#Bc"/>naturam : meritum autem beatitudinis
+<pb ed="#Bc" n="273"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>aeterne supra omnem naturam est, et
+<lb ed="#Bc"/>ideo indiget gratia elevante se supra 
+na<lb ed="#Bc" break="no"/>turam,
+</p>
+            </div>
+            <div xml:id="Almn78-h60203-Dd1e682">
+               <head xml:id="Almn78-h60203-Hd1e684">Membrum 2</head>
+               <head xml:id="Almn78-h60203-Hd1e687" type="question-title">
+        De testimoniis Pelagii quibus errorem
+        suum confirmavit.
+      </head>
+               <p xml:id="Almn78-h60203-d1e690">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De testimoniis Pelagii quibus errorem
+<lb ed="#Bc"/>suum confirmavit.
+</p>
+               <p xml:id="Almn78-h60203-d1e699">
+                  <lb ed="#Bc"/>Secundo, Queritur de testimoniis 
+in<lb ed="#Bc" break="no"/>ductis a Pelagio quibus errorem suum
+<lb ed="#Bc"/>confirmavit.
+</p>
+               <p xml:id="Almn78-h60203-d1e708">
+                  <lb ed="#Bc"/>Que sunt in universo quatuor ex 
+ver<lb ed="#Bc" break="no"/>bis Augustini sumpta, quorum unum
+<lb ed="#Bc"/>jam habitum est in libro III de Libero
+<lb ed="#Bc"/>arbitrio sumptum, ubi dicit 
+Augusti<lb ed="#Bc" break="no"/>nus: <quote xml:id="Almn78-h60203-Qd1e721"> Quis peccat in eo quod nullo
+<lb ed="#Bc"/>modo cavere potest ? etc. </quote>
+               </p>
+               <p xml:id="Almn78-h60203-d1e728">
+                  <lb ed="#Bc"/>Secundum est sumptum in libro contra
+<lb ed="#Bc"/>Adamantinum, Manichei discipulum °,
+<lb ed="#Bc"/>ubi sic dicit : <quote xml:id="Almn78-h60203-Qd1e736"> Nisi quisque voluntatem
+<lb ed="#Bc"/>suam mutaverit in bonum, bonum 
+ope<lb ed="#Bc" break="no"/>rari non potest : quod in nostra 
+potesta<lb ed="#Bc" break="no"/>te esse positum Dominus docet, Matth.
+<lb ed="#Bc"/>xu, 33, ubi ait: Aut facite arborem 
+bo<lb ed="#Bc" break="no"/>nam, et fructum ejus bonum : aut facite
+<lb ed="#Bc"/>arborem malam, et fructum ejus 
+ma<lb ed="#Bc" break="no"/>lum. x hoc enim arguit <name xml:id="Almn78-h60203-Nd1e753">Pelagius</name>: Si hoc
+<lb ed="#Bc"/>est in nostra potestate, homo sine 
+gra<lb ed="#Bc" break="no"/>tia potest esse bonus, et potest esse 
+ma<lb ed="#Bc" break="no"/>lus. <!-- quotation end unclear --></quote>
+               </p>
+               <p xml:id="Almn78-h60203-d1e765">
+                  <lb ed="#Bc"/>Tertium sumptum est de libro 
+Augu<lb ed="#Bc" break="no"/>stint de Duabus animabus?, ubi dicit
+<lb ed="#Bc"/>in nostra potestate esse, ut vel inseri in
+<lb ed="#Bc"/>bonam olivam, scilicet bonitatem Dei,
+<lb ed="#Bc"/>vel excidi ejus severitate mereamur. Ex
+<lb ed="#Bc"/>hoc enim arguit sic : Si in nostra 
+po<lb ed="#Bc" break="no"/>testate est, non requiritur gratia ulterior
+<lb ed="#Bc"/>ad hoc,
+</p>
+               <p xml:id="Almn78-h60203-d1e785">
+                  <lb ed="#Bc"/>Quartum est quod etiam inducit ab
+<lb ed="#Bc"/>Augustino super epistolam ad Romanos,
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>VII, 15 et seq., sic dicente : <quote xml:id="Almn78-h60203-Qd1e795"> Quod 
+cre<lb ed="#Bc" break="no"/>dimus, nostrum est: quod autem bonum
+<lb ed="#Bc"/>operamur, illius est qui credentibus dat
+<lb ed="#Bc"/>Spiritum sanctum. </quote> Et ibidem paulo
+<lb ed="#Bc"/>post: <quote xml:id="Almn78-h60203-Qd1e807"> Nostrum est credere et velle,
+<lb ed="#Bc"/>illius autem dare credentibus et 
+volenti<lb ed="#Bc" break="no"/>bus facultatem bene operandi per 
+Spiri<lb ed="#Bc" break="no"/>tum sanctum. </quote>
+               </p>
+               <p xml:id="Almn78-h60203-d1e817">
+                  <lb ed="#Bc"/>His adhuc addit unum sumptum de
+<lb ed="#Bc"/>libro Senientiarum Prosperi ab 
+Augu<lb ed="#Bc" break="no"/>stino, ubi sic dicit Augustinus : <quote xml:id="Almn78-h60203-Qd1e825"> Posse
+<lb ed="#Bc"/>habere fidem sicut posse habere 
+charita<lb ed="#Bc" break="no"/>tem natura hominum est: habere autem
+<lb ed="#Bc"/>fidem sicut habere charitatem gratia est
+<lb ed="#Bc"/>fidelium. </quote> Ex hoc enim arguit Pelagius,
+<lb ed="#Bc"/>quod in potestate hominis est posse 
+ha<lb ed="#Bc" break="no"/>bere fidem et charitatem.
+</p>
+               <p xml:id="Almn78-h60203-d1e842">
+                  <lb ed="#Bc"/>So.vutio. Ad hec omnia respondetur
+<lb ed="#Bc"/>per verbum Augustini in libro I 
+Retra<lb ed="#Bc" break="no"/>ctationum*, ubi hoc solvit sic dicens :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-h60203-Qd1e852"> Verum est quidem a Deo esse quod
+<lb ed="#Bc"/>operamur bonum : sed eadem regula
+<lb ed="#Bc"/>utriusque est, et volendi scilicet et 
+fa<lb ed="#Bc" break="no"/>ciendi : et utrumque ipsius est, quia
+<lb ed="#Bc"/>ipse preparat voluntatem : et ulrumque
+<lb ed="#Bc"/>nostrum est, quia non fit nisi volentibus
+<lb ed="#Bc"/>nobis. </quote> Et hec est eadem solutio que
+<lb ed="#Bc"/>ante assignata est in questione de 
+Justi<lb ed="#Bc" break="no"/>fcatione impii, quod scilicet ad 
+justifi<lb ed="#Bc" break="no"/>cationem exigitur voluntas consentiens,
+<lb ed="#Bc"/>non faciens, ne scilicet obstaculum 
+po<lb ed="#Bc" break="no"/>natur Spirilui sancto, qui facit gratiam
+<lb ed="#Bc"/>in Sanctis.
+</p>
+            </div>
+            <div xml:id="Almn78-h60203-Dd1e883">
+               <head xml:id="Almn78-h60203-Hd1e885">Membrum 3</head>
+               <head xml:id="Almn78-h60203-Hd1e888" type="question-title">
+        De tribus heresibus in speciali quae
+        contradicunt gratiae, scilicet 
+        Manichet, Joviniani, et Pelagii, et 
+        precipue Joviniani
+      </head>
+               <p xml:id="Almn78-h60203-d1e891">
+                  <pb ed="#Bc" n="274"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>De tribus heresibus in speciali quae
+<lb ed="#Bc"/>contradicunt gratiae, scilicet 
+Mani<lb ed="#Bc" break="no"/>chet, Joviniani, et Pelagii, et 
+preci<lb ed="#Bc" break="no"/>pue Joviniani.
+</p>
+               <p xml:id="Almn78-h60203-d1e909">
+                  <lb ed="#Bc"/>Tertio, Queritur de tribus heresibus
+<lb ed="#Bc"/>que contradicunt gratie, Joviniani 
+sci<lb ed="#Bc" break="no"/>licet, Manichei, et Pelagii.
+</p>
+               <p xml:id="Almn78-h60203-d1e918">
+                  <lb ed="#Bc"/>Et hoc queritur ratione ejus quod 
+di<lb ed="#Bc" break="no"/>citur in Liélera, cap. Id ergo de gratia
+<lb ed="#Bc"/>et libero arbitrio indubitanter 
+tenea<lb ed="#Bc" break="no"/>mus : ubi dicitur, quod Manicheus dixit
+<lb ed="#Bc"/>hominem peccatum vitare non posse:
+<lb ed="#Bc"/>Jovinianus autem hominem posse 
+pec<lb ed="#Bc" break="no"/>care : Pelagius autem ad vitandum 
+pec<lb ed="#Bc" break="no"/>catum hominem gratia non indigere.
+<lb ed="#Bc"/>Tres enim iste hereses tollunt 
+liberta<lb ed="#Bc" break="no"/>tem arbitrii, et adjutorium gratie. 
+Ma<lb ed="#Bc" break="no"/>nicheus dixit esse duo principia : unum
+<lb ed="#Bc"/>mali, et alterum boni: et mala esse de
+<lb ed="#Bc"/>necessitate que de malo principio 
+pro<lb ed="#Bc" break="no"/>cedunt, sicut omnia peccata : et ideo
+<lb ed="#Bc"/>dicebat, quod homo de necessitate 
+pec<lb ed="#Bc" break="no"/>cat. Jovinianus dicebat hominem non
+<lb ed="#Bc"/>posse peccare : et sicut dicit 
+Hierony<lb ed="#Bc" break="no"/>mus in libro contra Jovinianum, 
+damna<lb ed="#Bc" break="no"/>bat virginitatem in sacris virginibus, 
+di<lb ed="#Bc" break="no"/>cens virgines in hoc peccare, quia 
+absti<lb ed="#Bc" break="no"/>nendo ab amplexibus viri volebant se
+<lb ed="#Bc"/>preferre sanctis matronis patriarcharum
+<lb ed="#Bc"/>uxoribus, Saree, Rebecce, quod 
+incon<lb ed="#Bc" break="no"/>veniens reputabat. Pelagius autem in eo
+<lb ed="#Bc"/>errabat, quod dixit hominem non 
+indi<lb ed="#Bc" break="no"/>gere gratia.
+</p>
+               <p xml:id="Almn78-h60203-d1e978">
+                  <lb ed="#Bc"/>Contra omnia haec dicit Hieronymus
+<lb ed="#Bc"/>scribens ad papam Damasum : <quote xml:id="Almn78-h60203-Qd1e984"> 
+Libe<lb ed="#Bc" break="no"/>rum arbitrium, inquit, sic confilemur,
+<lb ed="#Bc"/>ut dicamus nos semper indigere Dei 
+au<lb ed="#Bc" break="no"/>xilio : et hoc contra Pelagium : et tam
+<lb ed="#Bc"/>illos errare qui cum Manicheo dicunt
+<cb ed="#Bc" n="b"/>
+                     <lb ed="#Bc"/>hominem peccatum vitare non posse,
+<lb ed="#Bc"/>quam illos qui cum Joviniano asserunt
+<lb ed="#Bc"/>hominem non posse peccare. Utrumque
+<lb ed="#Bc"/>tollit libertatem arbitrii. Nos vero 
+dici<lb ed="#Bc" break="no"/>mus hominem semper peccare posse, et
+<lb ed="#Bc"/>non peccare posse : ut semper nos liberi
+<lb ed="#Bc"/>arbitrii esse confiteamur, et tamen 
+auxi<lb ed="#Bc" break="no"/>lio gratia indigere. Hac est fides quam
+<lb ed="#Bc"/>in Catholica Ecclesia didicimus, et quam
+<lb ed="#Bc"/>semper tenuimus. </quote>
+               </p>
+               <p xml:id="Almn78-h60203-d1e1020">
+                  <lb ed="#Bc"/>De istis autem tribus heresibus jam
+<lb ed="#Bc"/>in antehabitis satis pertractatum est :
+<lb ed="#Bc"/>hic enim satis dictum est de heresi 
+Pe<lb ed="#Bc" break="no"/>lagii.
+</p>
+               <p xml:id="Almn78-h60203-d1e1031">
+                  <lb ed="#Bc"/>In principio autem secundi hujus 
+con<lb ed="#Bc" break="no"/>tra Manicheum plene disputatum est,
+<lb ed="#Bc"/>qui dicebat duo principia esse : unum
+<lb ed="#Bc"/>boni, alterum mali'.
+</p>
+               <p xml:id="Almn78-h60203-d1e1042">
+                  <lb ed="#Bc"/>De heresi autem Joviniani hic solum
+<lb ed="#Bc"/>relinquitur inquirendum : quia probabat
+<lb ed="#Bc"/>matrimonium equari virginitati, vel
+<lb ed="#Bc"/>etiam preferri ex duobus, ut dicit 
+Hie<lb ed="#Bc" break="no"/>ronymus in libro contra Jovinianum.
+</p>
+               <p xml:id="Almn78-h60203-d1e1055">
+                  <lb ed="#Bc"/>Unum est dictum Augustini, qui dicit,
+<lb ed="#Bc"/>quod ceelibatus Joannis non prefertur
+<lb ed="#Bc"/>conjugio Abrahe. Alterum est, quod
+<lb ed="#Bc"/>matrimonium in paradiso institutum est,
+<lb ed="#Bc"/>et benedictionem a Deo accepit, et 
+pra<lb ed="#Bc" break="no"/>ceptum de generatione et multiplicatione
+<lb ed="#Bc"/>quando dixit, Genes. 1, 28 : Cresctte, et
+<lb ed="#Bc"/>multiplicamini. Ex hoc enim dicit 
+ma<lb ed="#Bc" break="no"/>trimonium omnibus esse preferendum.
+</p>
+               <p xml:id="Almn78-h60203-d1e1077">
+                  <lb ed="#Bc"/>Et hoc facile eliditur.
+<lb ed="#Bc"/>4. Matth. xm, 8, ubi loquitur 
+Domi<lb ed="#Bc" break="no"/>nus de fructu seminis in bonam terram
+<lb ed="#Bc"/>cadentis, et secundum expositionem
+<lb ed="#Bc"/>Sanctorum et orthodoxorum 
+tractato<lb ed="#Bc" break="no"/>rum datur matrimonio fructus  
+trigesi<lb ed="#Bc" break="no"/>mus, viduitati sexagesimus, virginitati_
+<lb ed="#Bc"/>centesimus : nec esset distantia in 
+pre<lb ed="#Bc" break="no"/>miis, nisi esset distantia in gratiis.
+</p>
+               <p xml:id="Almn78-h60203-d1e1100">
+                  <lb ed="#Bc"/>2. Adhuc, Augustinus, in libro de
+<lb ed="#Bc"/>Sancta virginitate, tractans illud 
+Apoca<lb ed="#Bc" break="no"/>lypsis, xiv, 3 et 4: Nemo potest dicere
+<lb ed="#Bc"/>canticum, nisi illa centum quadraginta
+<lb ed="#Bc"/>quatuor millia qui empti sunt de terra.
+<lb ed="#Bc"/>Hi sunt qui cum mulieribus non sunt
+<pb ed="#Bc" n="275"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>coinguinati : sic dicit loquens ad 
+virgi<lb ed="#Bc" break="no"/>nes: <quote xml:id="Almn78-h60203-Qd1e1123"> Cateri sancti sequuntur agnum
+<lb ed="#Bc"/>non quocumque ierit, sed quo 
+potue<lb ed="#Bc" break="no"/>runt : vos felicius exsultabitis, 
+jucun<lb ed="#Bc" break="no"/>diusque regnabitis, sequentes agnum
+<lb ed="#Bc"/>quocumque ierit. </quote>
+               </p>
+               <p xml:id="Almn78-h60203-d1e1135">
+                  <lb ed="#Bc"/>Ad id ergo quod non prefertur 
+cceli<lb ed="#Bc" break="no"/>batus Joannis conjugio Abrahe, 
+dicen<lb ed="#Bc" break="no"/>dum quod hoc dixit Augustinus, 
+quan<lb ed="#Bc" break="no"/>tum ad utilitatis equalitatem in 
+propa<lb ed="#Bc" break="no"/>gatione fidelium : quia tempus Abrahe
+<lb ed="#Bc"/>non erat tempus revelate gratia : et
+<lb ed="#Bc"/>tunc propagatio religionis non fiebat
+<lb ed="#Bc"/>nisi cum propagatione seminis, ut dicit
+<lb ed="#Bc"/>Ambrosius : quando scilicet nemo 
+tene<lb ed="#Bc" break="no"/>batur ad religionis observantiam, nisi
+<lb ed="#Bc"/>qui fuit in domo patriarche. Et ideo
+<lb ed="#Bc"/>utile fuit {unc semen propagare, ut cum
+<lb ed="#Bc"/>semine propagaretur et religio : et hoc
+<lb ed="#Bc"/>fiebat per nuptias. Tempus autem 
+ceeli<lb ed="#Bc" break="no"/>batus Joannis fuit tempus revelate 
+gra<lb ed="#Bc" break="no"/>tiw,quando scilicet per spirituale semen,
+<lb ed="#Bc"/>id est, verbi Dei fiebat propagatio 
+me<lb ed="#Bc" break="no"/>lius quam per carnalem copulam. Unde
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>quantum ad hoc equalia sunt : quia
+<lb ed="#Bc"/>ulrumque suo tempore proficiebat ad
+<lb ed="#Bc"/>utililatem propagationem religionis : in
+<lb ed="#Bc"/>statu autem dignitatis inequalia sunt.
+</p>
+               <p xml:id="Almn78-h60203-d1e1187">
+                  <lb ed="#Bc"/>Et ideo Hieronymus eodem libro
+<lb ed="#Bc"/>contra Jovinianum inducit rationes
+<lb ed="#Bc"/>Theophrasti Philosophi in libro qui 
+dici<lb ed="#Bc" break="no"/>tur Aceolus, quibus probat, quod 
+Philo<lb ed="#Bc" break="no"/>sopho non est ducenda uxor, ut 
+persua<lb ed="#Bc" break="no"/>deat sanctis virginibus propositum 
+te<lb ed="#Bc" break="no"/>nere, et nuptias non concupiscere : €0
+<lb ed="#Bc"/>quod magnum impedimentum sunt in
+<lb ed="#Bc"/>spiritualibus. Et inducit verba Apostoli,
+<lb ed="#Bc"/>Lad Corinth. vu, 34 : Mulier innupta, et
+<lb ed="#Bc"/>virgo cogitat que Domini sunt, ut sit
+<lb ed="#Bc"/>sancla corpore et spiritu: que autem
+<lb ed="#Bc"/>nupta est, cogitat que sunt mundi, 
+quo<lb ed="#Bc" break="no"/>modo placeat viro. Et ibidem Apostolus
+<lb ed="#Bc"/>cum persuadet virginitatem, dicit sic,
+<lb ed="#Bc"/>dico, non ut laqueum vobis injiciam,
+<lb ed="#Bc"/>sed ad id quod honestum est, scil:cet
+<lb ed="#Bc"/>provocem, et quod facultatem prebeat
+<lb ed="#Bc"/>sine impedimento Dominum obsecrandt.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

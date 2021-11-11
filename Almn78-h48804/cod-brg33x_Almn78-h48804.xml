@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 97</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 97</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="220"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h48804"><!-- p2t15q97 -->
+            <head xml:id="Almn78-h48804-Hd1e106">Quaestio 97</head>
+            <head xml:id="Almn78-h48804-Hd1e109" type="question-title">
+    Respectu quorum sit liberum arbitrium
+  </head>
+            <p xml:id="Almn78-h48804-d1e112">
+               <pb ed="#Bc" n="220"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>QUASTIO XCVII.
+<lb ed="#Bc"/>Respectu quorum sit liberum arbitrium ?
+</p>
+            <p xml:id="Almn78-h48804-d1e123">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>Deinde ratione ejus quod dicitur in 
+li<lb ed="#Bc" break="no"/>bro II Sententiarum, distinct. XXV, cap.
+<lb ed="#Bc"/>Hoe autem sciendum est, queritur 
+re<lb ed="#Bc" break="no"/>spectu quorum sit liberum arbitrium ?
+</p>
+            <p xml:id="Almn78-h48804-d1e136">
+               <lb ed="#Bc"/>Et queruntur duo, scilicet utrum 
+re<lb ed="#Bc" break="no"/>spectu presentium, preteritorum, et 
+futu<lb ed="#Bc" break="no"/>rorum, vel futurorum tantum ?
+<lb ed="#Bc"/>Et secundo, Qui sunt actus liberi 
+arbi<lb ed="#Bc" break="no"/>trii?
+</p>
+            <div xml:id="Almn78-h48804-Dd1e150">
+               <head xml:id="Almn78-h48804-Hd1e152">Membrum 1</head>
+               <head xml:id="Almn78-h48804-Hd1e155" type="question-title">
+        Utrum liberum arbitrium sit respectu
+        praesentium, praeteritorum, et 
+        futurorum, vel futurorum tantum
+      </head>
+               <p xml:id="Almn78-h48804-d1e158">
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum liberum arbitrium sit respectu
+<lb ed="#Bc"/>praesentium, praeteritorum, et 
+futuro<lb ed="#Bc" break="no"/>rum, vel futurorum tantum?
+</p>
+               <p xml:id="Almn78-h48804-d1e169">
+                  <lb ed="#Bc"/>Ad primum dicit Magister, quod 
+libe<lb ed="#Bc" break="no"/>rum arbitrium non-refertur ad prasens,
+<lb ed="#Bc"/>nec preteritum, sed ad futura 
+contingen<lb ed="#Bc" break="no"/>tia.
+</p>
+               <p xml:id="Almn78-h48804-d1e180">
+                  <lb ed="#Bc"/>Szp contra hoc est, quod
+<lb ed="#Bc"/>1. Videtur liberum arbitrium esse 
+cau<lb ed="#Bc" break="no"/>sa secundum propositum et voluntatem :
+<lb ed="#Bc"/>voluntas autem, ut dicunt Aristoteles et
+<lb ed="#Bc"/>Damascenus, finis est : finis autem 
+ali<lb ed="#Bc" break="no"/>quando est presens, aliquando 
+preteri<lb ed="#Bc" break="no"/>tus, et aliquando futurus: nihil ergo est
+<lb ed="#Bc"/>dicere, quod liberum arbitrium respiciat
+<lb ed="#Bc"/>futurum contingens, et non praesens, nec
+<lb ed="#Bc"/>preteritum.
+</p>
+               <p xml:id="Almn78-h48804-d1e205">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>2. Adhuc, Ut dicunt Damascenus et
+<lb ed="#Bc"/>Gregorius Nyssenus, liberum arbitrium
+<lb ed="#Bc"/>est de his que sunt in nobis: ea que
+<lb ed="#Bc"/>sunt in nobis aliquando sunt presentia,
+<lb ed="#Bc"/>aliquando preterita, et aliquando futura:
+<lb ed="#Bc"/>ergo liberum arbitrium aliquando est de
+<lb ed="#Bc"/>presentibus, aliquando de preteritis, et
+<lb ed="#Bc"/>aliquando de futuris.
+</p>
+               <p xml:id="Almn78-h48804-d1e227">
+                  <lb ed="#Bc"/>3. Adhuc, In contingentibus et futuris,
+<lb ed="#Bc"/>ut dicit Aristoteles in 1 Perihermenias,
+<lb ed="#Bc"/>non est determinata veritas, neque 
+falsi<lb ed="#Bc" break="no"/>tas. Si ergo liberum arbitrium tantum est
+<lb ed="#Bc"/>de contingentibus futuris, non erit neque
+<lb ed="#Bc"/>de veris, neque de falsis determinate,
+<lb ed="#Bc"/>quod videtur esse inconveniens.
+</p>
+               <p xml:id="Almn78-h48804-d1e245">
+                  <lb ed="#Bc"/>Solutio. Dicendum quod sicut dicit
+<lb ed="#Bc"/>Magister, liberum arbitrium non est nisi
+<lb ed="#Bc"/>de contingentibus et futuris. Et ratio est,
+<lb ed="#Bc"/>guia liberum arbilrium non est nisi de
+<lb ed="#Bc"/>operabilibus per nos, que sunt in nobis
+<lb ed="#Bc"/>quoad facere vel non facere, et quorum
+<lb ed="#Bc"/>nos domini sumus et causa. Presentia
+<lb ed="#Bc"/>autem determinata sunt ad esse: 
+pre<lb ed="#Bc" break="no"/>terita vero ad necesse fuisse. Et ideo nec
+<lb ed="#Bc"/>presentia nec preterita se habent ad esse
+<lb ed="#Bc"/>et non esse, sed ad esse tantum, propter
+<lb ed="#Bc"/>quod consilium non est de illis, nec 
+in<lb ed="#Bc" break="no"/>quisitio. Consilium autem est, ut dicunt
+<lb ed="#Bc"/>Damascenus et Gregorius Nyssenus, de
+<lb ed="#Bc"/>operabilibus per nos, que et aliter 
+pos<lb ed="#Bc" break="no"/>sunt fieri. Et hoc idem dicit Aristoteles
+<lb ed="#Bc"/>in II Ethicorum. Unde consilium non est
+<pb ed="#Bc" n="221"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>nisi de contingentibus et futuris. Et ideo
+<lb ed="#Bc"/>liberum arbitrium, cujus est eligere id
+<lb ed="#Bc"/>quod ex consilio definitum et 
+sententia<lb ed="#Bc" break="no"/>tum est, ut dicit Damascenus, non est
+<lb ed="#Bc"/>nisi de contingentibus et futuris. De 
+ne<lb ed="#Bc" break="no"/>cessariis enim, sicut si sol orietur cras,
+<lb ed="#Bc"/>velnon, nullus consiliatur: quia hee
+<lb ed="#Bc"/>subjacent necessario ordini causarum
+<lb ed="#Bc"/>naturalium et essentialium. Similiter cum
+<lb ed="#Bc"/>Deus sit causa omnium, de operibus Dei
+<lb ed="#Bc"/>qualiter illa velit facere, vel non facere,
+<lb ed="#Bc"/>nullus consiliatur : quia non sunt 
+opera<lb ed="#Bc" break="no"/>bilia per nos. Sed de futuris et 
+contin<lb ed="#Bc" break="no"/>gentibus et operabilibus per nos 
+consilia<lb ed="#Bc" break="no"/>mur qualiter fiant, ut finem propositum
+<lb ed="#Bc"/>et intentum attingant: illa sunt futura
+<lb ed="#Bc"/>contingentia possibilia per nos sic et 
+ali<lb ed="#Bc" break="no"/>ter fieri.
+</p>
+               <p xml:id="Almn78-h48804-d1e328">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod 
+vo<lb ed="#Bc" break="no"/>luntas est fints propositi et intenti, et ille
+<lb ed="#Bc"/>semper est futurus et possibilis sic et 
+ali<lb ed="#Bc" break="no"/>ter obtineri: sed finis acquisitus jam 
+ali<lb ed="#Bc" break="no"/>quando est presens, aliquando 
+preteri<lb ed="#Bc" break="no"/>tus. Unde in argumento est fallacia
+<lb ed="#Bc"/>accidentis : arguit enim ac si necesse sit
+<lb ed="#Bc"/>idem subjecto et accidenti inesse : et hoc
+<lb ed="#Bc"/>non est verum.
+</p>
+               <p xml:id="Almn78-h48804-d1e350">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod liberum 
+ar<lb ed="#Bc" break="no"/>bitrium est de his que sunt in nobis: sed
+<lb ed="#Bc"/>hoc est falsum quod assumit, quod ea
+<lb ed="#Bc"/>que sunt in nobis, secundum quod sunt
+<lb ed="#Bc"/>in nobis, sint aliquando presentia, 
+ali<lb ed="#Bc" break="no"/>quando preterita, sed semper sunt futura
+<lb ed="#Bc"/>et contingentia : et quando sunt 
+presen<lb ed="#Bc" break="no"/>tia et preterita, non amplius sunt in 
+no<lb ed="#Bc" break="no"/>bis.
+</p>
+               <p xml:id="Almn78-h48804-d1e372">
+                  <lb ed="#Bc"/>Ad uttimum dicendum, quod liberum
+<lb ed="#Bc"/>arbitrium est de his que neque vera 
+ne<lb ed="#Bc" break="no"/>que-falsa sunt determinate: quia sicut
+<lb ed="#Bc"/>dicit Aristoteles in V prime philosophiz,
+<lb ed="#Bc"/>unumquodque sicut se habet ad esse, ita
+<lb ed="#Bc"/>se habet ad verum. Operabilia autem per
+<lb ed="#Bc"/>nos et contingentia nec se habent 
+deter<lb ed="#Bc" break="no"/>minate ad esse, nec ad non esse, sed 
+pos<lb ed="#Bc" break="no"/>sibilia sunt sic et aliter fieri : et hocnon
+<lb ed="#Bc"/>est inconveniens in his que subjacent 
+li<lb ed="#Bc" break="no"/>bero arbitrio et consilio.
+</p>
+            </div>
+            <div xml:id="Almn78-h48804-Dd1e399">
+               <head xml:id="Almn78-h48804-Hd1e401">Membrum 2</head>
+               <head xml:id="Almn78-h48804-Hd1e404" type="question-title">
+        De actibus liberi arbitrii
+      </head>
+               <p xml:id="Almn78-h48804-d1e407">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>De actibus liberi arbitrii.
+</p>
+               <p xml:id="Almn78-h48804-d1e414">
+                  <lb ed="#Bc"/>Secundo, Queritur de actibus liberi
+<lb ed="#Bc"/>arbitrii.
+</p>
+               <p xml:id="Almn78-h48804-d1e421">
+                  <lb ed="#Bc"/>1. Dicit enim Damascenus in libro II
+<lb ed="#Bc"/>de Fide orthodoxa, quod <quote xml:id="Almn78-h48804-Qd1e427"> in libero 
+ar<lb ed="#Bc" break="no"/>bitrio conjugate sunt et cognoscitive et
+<lb ed="#Bc"/>animales et vitales virtutes : et cum 
+ra<lb ed="#Bc" break="no"/>tione movente libero arbitrio appetit, et
+<lb ed="#Bc"/>libero arbitrio vult, et libero arbitrio
+<lb ed="#Bc"/>inquirit et scrutatur, et libero arbitrio
+<lb ed="#Bc"/>judicat et disponit, eligit et facit impetum
+<lb ed="#Bc"/>et agit’. </quote> Secundum hoc multi actus
+<lb ed="#Bc"/>sunt liberi arbitrii.
+</p>
+               <p xml:id="Almn78-h48804-d1e449">
+                  <lb ed="#Bc"/>2. Adhuc, Quecumque potentie sic se
+<lb ed="#Bc"/>habent ad invicem, quod quedam sunt
+<lb ed="#Bc"/>definientes alias, et quedam definite per
+<lb ed="#Bc"/>alias, harum actus similiter se habebunt
+<lb ed="#Bc"/>ad invicem, ita quod actus definientium
+<lb ed="#Bc"/>sint in actibus definitarum. Ratio et 
+vo<lb ed="#Bc" break="no"/>luntas definiunt liberum arbjtrium, 
+ma<lb ed="#Bc" break="no"/>xime secundum Augustinum, secundum
+<lb ed="#Bc"/>quod dicit, quod liberum arbitrium est
+<lb ed="#Bc"/>facultas rationis et voluntatis. Ergo vi~
+<lb ed="#Bc"/>detur, quod actus rationis et actus 
+facul<lb ed="#Bc" break="no"/>tatis sint in libero arbitrio et actibus
+<lb ed="#Bc"/>ejus.
+</p>
+               <p xml:id="Almn78-h48804-d1e480">
+                  <lb ed="#Bc"/>3. Adhuc, Secundum Augustinum 
+eli<lb ed="#Bc" break="no"/>gere est liberi arbitrii : eligere aulem est
+<lb ed="#Bc"/>duobus vel pluribus propositis hoc illi
+<lb ed="#Bc"/>vel illis preoptare : sed plura proponere
+<lb ed="#Bc"/>cum sit cum collatione, et omnis collatio
+<lb ed="#Bc"/>sit rationis, non potest esse collatio nisi
+<lb ed="#Bc"/>rationis actus.
+</p>
+               <p xml:id="Almn78-h48804-d1e498">
+                  <lb ed="#Bc"/>4, Adhuc, Objiciunt quidam 
+antiquo<lb ed="#Bc" break="no"/>rum sic : Eligere est respectu veri et boni ;
+<lb ed="#Bc"/>quia collatio est ad verum eliciendum.
+<lb ed="#Bc"/>Bonum autem quod optatur in electione
+<lb ed="#Bc"/>finis, est voluntatis : quia omnis 
+appeti<lb ed="#Bc" break="no"/>tus rationalis voluntatis est, sicut dicit
+<pb ed="#Bc" n="222"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>Damascenus sic: <quote xml:id="Almn78-h48804-Qd1e519"> Voluntas est 
+rationa<lb ed="#Bc" break="no"/>lis appetitus : </quote> et Aristoteles in JI 
+Zo<lb ed="#Bc" break="no"/>picorum : <quote xml:id="Almn78-h48804-Qd1e527"> Omnis voluntas in ratione
+<lb ed="#Bc"/>est.</quote> Ergo videtur, quod actus liberi 
+ar<lb ed="#Bc" break="no"/>bitrii qui est electio, duplicem habet 
+fi<lb ed="#Bc" break="no"/>nem, scilicet verum et bonum: verum
+<lb ed="#Bc"/>est finis rationis, et bonum finis volun-
+  <lb ed="#Bc"/>tatis. In actu ergo liberi arbitrii sunt et
+<lb ed="#Bc"/>actus rationis, et actus voluntatis.
+</p>
+               <p xml:id="Almn78-h48804-d1e543">
+                  <lb ed="#Bc"/>Ulterius qaeritur, Si liberum 
+arbi<lb ed="#Bc" break="no"/>trium habet plures actus, quis sit 
+princi<lb ed="#Bc" break="no"/>palis, et quis sit ordo inter illos?
+</p>
+               <p xml:id="Almn78-h48804-d1e552">
+                  <lb ed="#Bc"/>Sorurio. Dicendum, quod sicut 
+libe<lb ed="#Bc" break="no"/>rum arbitrium est una potentia, ponens
+<lb ed="#Bc"/>tamen libertatem suam circa rationem et
+<lb ed="#Bc"/>circa voluntatem principaliler, ita multos
+<lb ed="#Bc"/>habet actus in quibus libertas ejus 
+consi<lb ed="#Bc" break="no"/>deratur, sicut patet in auctoritate 
+Dama<lb ed="#Bc" break="no"/>sceni inducta, iter quos tamen est
+<lb ed="#Bc"/>unus principalis : quia necesse est, quod
+<lb ed="#Bc"/>una potentia habeat unum principalem
+<lb ed="#Bc"/>actum : et ille actus est electio, sicut vult
+<lb ed="#Bc"/>Augustinus.
+</p>
+               <p xml:id="Almn78-h48804-d1e578">
+                  <lb ed="#Bc"/>Ad primum ergo dicendum, quod non
+<lb ed="#Bc"/>sunt multi actus propter hoc, quod 
+mul<lb ed="#Bc" break="no"/>te# sunt potentie : sed propter hoc, quod
+<lb ed="#Bc"/>libertatem ponit circa multas potentias,
+<lb ed="#Bc"/>precipue circa rationem et voluntatem.
+<lb ed="#Bc"/>Unde ex ratione est, quod arbitratur,
+<lb ed="#Bc"/>quod judicat, quod disponit, quod 
+sen<lb ed="#Bc" break="no"/>tentiat, quod eligit : ex voluntate enim
+<lb ed="#Bc"/>est, quod vult, et appetit, et impetum 
+fa<lb ed="#Bc" break="no"/>cit, et agit, et utitur.
+</p>
+               <p xml:id="Almn78-h48804-d1e603">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod procedit et
+<lb ed="#Bc"/>veritatem concludit : sed ita sunt in 
+libe<lb ed="#Bc" break="no"/>ro arbitrio quod circa has potentias 
+po<lb ed="#Bc" break="no"/>nit suam libertatem: et non ita quod
+<lb ed="#Bc"/>constituant essentiam liberi arbitrii 
+se<lb ed="#Bc" break="no"/>cundum quod potentia quedam est 
+di<lb ed="#Bc" break="no"/>stincta et separata ab aliis.
+</p>
+               <p xml:id="Almn78-h48804-d1e621">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod verissimum
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>est, quod collatio rationis actus est, sed
+<lb ed="#Bc"/>est circa que ponit liberum arbitrium
+<lb ed="#Bc"/>suam libertatem, secundum quod liberum
+<lb ed="#Bc"/>arbitrium est generalis potentia et 
+gene<lb ed="#Bc" break="no"/>ralis motor, libere utens aliis potentiis et
+<lb ed="#Bc"/>actibus aliarum potentiarum.
+</p>
+               <p xml:id="Almn78-h48804-d1e641">
+                  <lb ed="#Bc"/>Ad aliud dicendum, quod verum est
+<lb ed="#Bc"/>finis rationis, et bonum finis voluntatis,
+<lb ed="#Bc"/>et quod eligere respectu utriusque est:
+<lb ed="#Bc"/>quia etiam est verum ut verum, et est
+<lb ed="#Bc"/>verum ut bonum, secundum quod eliam
+<lb ed="#Bc"/>dicit Philosophus, quod intellectus 
+theo<lb ed="#Bc" break="no"/>ricus sive speculativus per extensionem
+<lb ed="#Bc"/>fit practicus, sicut et ipsa potentia que
+<lb ed="#Bc"/>et liberum arbitrium dicit, arbitrationem
+<lb ed="#Bc"/>suam qué actus rationis est, extendit ad
+<lb ed="#Bc"/>appetilum voluntatis. Et ideo duo que
+<lb ed="#Bc"/>sunt in ipso ut fines,efticiuntur unum ‘re
+<lb ed="#Bc"/>quando arbitratur de aliquo vero ut sibi
+<lb ed="#Bc"/>bono.
+</p>
+               <p xml:id="Almn78-h48804-d1e674">
+                  <lb ed="#Bc"/>Aviv quod ullerius queritur, dicendum
+<lb ed="#Bc"/>quod electio principalis ejus actus est 
+se<lb ed="#Bc" break="no"/>cundum Augustinum et veritatem.
+</p>
+               <p xml:id="Almn78-h48804-d1e683">
+                  <lb ed="#Bc"/>Et ad id quod ulterius queritur de 
+or<lb ed="#Bc" break="no"/>dine, dicendum quod in actibus rationis
+<lb ed="#Bc"/>qui dicuntur esse liberi arbitrii, ordo est
+<lb ed="#Bc"/>secundum dispositionem et processum ab
+<lb ed="#Bc"/>imperfecto ad perfectum : et in hoc 
+or<lb ed="#Bc" break="no"/>dine primum est inquirere, secundum est
+<lb ed="#Bc"/>inquisita et inventa disponere, tertium
+<lb ed="#Bc"/>disposita dijudicare, quartum dijudicata
+<lb ed="#Bc"/>per sententiam determimare, quintum
+<lb ed="#Bc"/>determinata eligere, qui actus perfectior
+<lb ed="#Bc"/>est quatuor pracedentium. In actibus
+<lb ed="#Bc"/>autem voluntatis etiam proceditur ab 
+im<lb ed="#Bc" break="no"/>perfecto ad perfectum: et sic primo 
+oc<lb ed="#Bc" break="no"/>currit appetere, secundo velle, tertio 
+fa<lb ed="#Bc" break="no"/>cere impetum, quarto agere in opere,
+<lb ed="#Bc"/>quinto uti ad usum voluntatis sive referre
+<lb ed="#Bc"/>ad exercitium.
+</p>
+               <p xml:id="Almn78-h48804-d1e722">
+                  <lb ed="#Bc"/>Et haec de libero arbitrio dicta 
+suffi<lb ed="#Bc" break="no"/>ciant.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

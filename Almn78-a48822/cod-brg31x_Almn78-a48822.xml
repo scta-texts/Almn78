@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 71</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 71</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="743"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-a48822"><!-- p1t18q71 -->
+            <head xml:id="Almn78-a48822-Hd1e106">Quaestio 71</head>
+            <head xml:id="Almn78-a48822-Hd1e109" type="question-title">
+      De modo quo Deus est in Sanctis per gratiam
+    </head>
+            <p xml:id="Almn78-a48822-d1e112">
+               <pb ed="#Ba" n="743"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUASTIO, LXXI.
+<lb ed="#Ba"/>De modo quo Deus est in Sanctis per gratiam‘.
+</p>
+            <p xml:id="Almn78-a48822-d1e123">
+               <lb ed="#Ba"/>Juxta hoc ulterius queritur in speciali
+<lb ed="#Ba"/>de modo quo Deus est in sanctis per 
+gra<lb ed="#Ba" break="no"/>tiam.
+</p>
+            <p xml:id="Almn78-a48822-d1e132">
+               <lb ed="#Ba"/>1. Ex hoc enim quod Deus per inesse
+<lb ed="#Ba"/>essentialiter, presentialiter, et 
+potentia<lb ed="#Ba" break="no"/>liter dat esse rebus, per inesse autem per
+<lb ed="#Ba"/>gratiam non dat nisi bene esse, et bene
+<lb ed="#Ba"/>esse quod est secundum quid, videtur
+<lb ed="#Ba"/>quod inesse per gratiam sit inesse 
+se<lb ed="#Ba" break="no"/>cundum quid et non simpliciter : et hoc
+<lb ed="#Ba"/>videtur inconveniens, cum optimus
+<lb ed="#Ba"/>modus quo inest, sit per gratiam 
+ines<lb ed="#Ba" break="no"/>se.
+</p>
+            <p xml:id="Almn78-a48822-d1e157">
+               <lb ed="#Ba"/>2. Adhuc, Augustinus dicit et ponitur
+<lb ed="#Ba"/>in libro primo Sententiarum, 
+distin<lb ed="#Ba" break="no"/>ctione XXXVII, in illo cap. In sanetis
+<lb ed="#Ba"/>vero habitat. Ibi enim dicit : <quote xml:id="Almn78-a48822-Qd1e167"> Mali
+<lb ed="#Ba"/>vero, etsi ibi sunt ubi Deus est, qui
+<lb ed="#Ba"/>nusquam deest, non tamen sunt cum
+<lb ed="#Ba"/>eo’. </quote> Hoc enim falsum videtur esse.
+</p>
+            <p xml:id="Almn78-a48822-d1e177">
+               <lb ed="#Ba"/>Idem Augustinus in libro 
+Confessio<lb ed="#Ba" break="no"/>num : <quote xml:id="Almn78-a48822-Qd1e183"> Mecum eras, et ego tecum non
+<lb ed="#Ba"/>eram *. </quote> Et constat, quod loquitur
+<lb ed="#Ba"/>de se prout adhuc fuit in peccato. Ergo
+<lb ed="#Ba"/>peccatores etiam et mali sunt cum
+<lb ed="#Ba"/>Deo.
+  
+<lb ed="#Ba"/>3. Adhuc, Plus est inesse quam cum
+<lb ed="#Ba"/>esse : et Deus est in malis : ergo multo
+<lb ed="#Ba"/>magis est cum eis : quod tamen videtur
+<lb ed="#Ba"/>abhorrere fides : quia si Deus est in 
+ma<lb ed="#Ba" break="no"/>lis, tunc Deus est in diabolo : et cum
+<lb ed="#Ba"/>Spiritus sanctus sit Deus, videtur 
+Spiri<lb ed="#Ba" break="no"/>tus sanctus esse in diabolo et in malis,
+<lb ed="#Ba"/>quod absurdum esse videtur.
+</p>
+            <p xml:id="Almn78-a48822-d1e213">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>4, Adhuc, Videtur Augustinus facere
+<lb ed="#Ba"/>differentiam inter inesse et inhabitare :
+<lb ed="#Ba"/>sic enim dicit, et inducitur in libro prime
+<lb ed="#Ba"/>Sententiarum, distinctione XXXVII,
+<lb ed="#Ba"/>cap. In sanctis vero habitat, in epistola
+<lb ed="#Ba"/>ad Hieronymum. de origine anime sic
+<lb ed="#Ba"/>dicens : <quote xml:id="Almn78-a48822-Qd1e232"> Per omnes particulas corporis
+<lb ed="#Ba"/>tota simul adest anima, nec. minor in
+<lb ed="#Ba"/>minoribus, nec major in majoribus, sed
+<lb ed="#Ba"/>tamen in aliis intensius, in aliis remis=
+<lb ed="#Ba"/>sius operatur, cum in singulis particulis
+<lb ed="#Ba"/>corporis essentialiter tota sit. Ita Deus
+<lb ed="#Ba"/>cum in omnibus essentialiter ac totus sit,
+<lb ed="#Ba"/>in illis tamen plenius esse dicitur quos
+<lb ed="#Ba"/>inhabitat, id est, in quibus ita est, ut
+<lb ed="#Ba"/>faciat eos templum suum : et hi tales 
+<lb ed="#Ba" break="no"/>cum eo jam sunt ex: parte, sed in bea
+<lb ed="#Ba"/>titudine cum eo erunt perfecte. </quote> Hoc
+<lb ed="#Ba"/>enim videtur falsum esse: magis enim
+<lb ed="#Ba"/>ibi inhabitat ubi non transit, quam ibi
+<lb ed="#Ba"/>unde transit : sed a Sanctis in quibus ha
+<lb ed="#Ba"/>bitat per gratiam, frequenter transit :
+<lb ed="#Ba"/>a creaturis in quibus est, numquam
+<lb ed="#Ba"/>transit : ergo magis habitare in 
+crea<lb ed="#Ba" break="no"/>turis dicendus est, quam in Sanctis.
+</p>
+            <p xml:id="Almn78-a48822-d1e274">
+               <lb ed="#Ba"/>5. Adhuc, Augustinus super Joannem,
+<lb ed="#Ba"/>xvi, 24 : <quote xml:id="Almn78-a48822-Qd1e280"> Non satis fuit dicere, Ubi
+<lb ed="#Ba"/>ego sum, et illi stint : sed addidit, 
+Me<lb ed="#Ba" break="no"/>cum : quia et miseri possunt esse ubi et
+<lb ed="#Ba"/>ille est, qui nusquam deest. Sed beati
+<lb ed="#Ba"/>sunt.cum illo : quia non sunt beati nisi
+<lb ed="#Ba"/>ex eo quod cum illo sunt, qui fruuntur
+<lb ed="#Ba"/>eo et vident eum sicuti est. Mali vero
+<lb ed="#Ba"/>cum illo, ut caeci in luce non sunt cum
+<pb ed="#Ba" n="744"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Ba"/>luce : nec boni ita nunc sunt cum eo ut
+<lb ed="#Ba"/>videant per speciem, etsi sunt aliquo
+<lb ed="#Ba"/>modo cum eo per fidem. </quote> Hoe enim 
+vi<lb ed="#Ba" break="no"/>detur falsum. Cum enim notat 
+associatio<lb ed="#Ba" break="no"/>nem eorum qui sunt in uno loco vel
+<lb ed="#Ba"/>in uno tempore : ergo si malisunt ubi
+<lb ed="#Ba"/>Deus, videtur quod cum Deo sint.
+</p>
+            <p xml:id="Almn78-a48822-d1e319">
+               <lb ed="#Ba"/>6. Adhuc, Non videtur Deus esse cum
+<lb ed="#Ba"/>Sanctis, sed e converso. Cum enim, ut
+<lb ed="#Ba"/>dicunt grammiatici, principalitatem 
+no<lb ed="#Ba" break="no"/>tatin ablativo cui apponitur : unde 
+di<lb ed="#Ba" break="no"/>citur, quod miles est cum rege, non rex
+<lb ed="#Ba"/>eum milite. Ergo Deus non est cum 
+San<lb ed="#Ba" break="no"/>ctis, sed Sanctisunt cum eo.
+</p>
+            <p xml:id="Almn78-a48822-d1e337">
+               <lb ed="#Ba"/>In contranium hujus est quod 
+dici<lb ed="#Ba" break="no"/>tur, Exod. im, 12: Ego ero tecum. Et
+<lb ed="#Ba"/>illud quod paulo ante dictum est de
+<lb ed="#Ba"/>Augustino : <quote xml:id="Almn78-a48822-Qd1e347"> Mecum eras, et ego tecum
+<lb ed="#Ba"/>hon eram. </quote>
+            </p>
+            <p xml:id="Almn78-a48822-d1e354">
+               <lb ed="#Ba"/>Ulterius queritur de hoc quod dicit
+<lb ed="#Ba"/>Magister in libro I Sententiarum, 
+Dis<lb ed="#Ba" break="no"/>tinct. XXXVII, in alio cap. Si autem
+<lb ed="#Ba"/>queris, ubi habitabat Deus, ubi inducit
+<lb ed="#Ba"/>Augustinum sic dicentem contra 
+Maxi<lb ed="#Ba" break="no"/>minum : <quote xml:id="Almn78-a48822-Qd1e369"> Antequam faceret Deus 
+cee<lb ed="#Ba" break="no"/>lum etterram, antequam faceret Sanctos,
+<lb ed="#Ba"/>tbi habitabat ? In se habitabat Deus :
+<lb ed="#Ba"/>apud te habitat, et apud se est. Non 
+er<lb ed="#Ba" break="no"/>go sic Sancti sunt domus Dei, ut ea
+<lb ed="#Ba"/>subtracta cadat Deus. Imo sic habitat
+<lb ed="#Ba"/>_Deus in Sanctis, ut si ipse discesserit,
+<lb ed="#Ba"/>cadant '. </quote> Hoc enim videtur falsum :
+<lb ed="#Ba"/>prepositiones enim transitive sunt et
+<lb ed="#Ba"/>diversitatem notant, ut dicit Priscianus.
+<lb ed="#Ba"/>Si ergo est in seipso, oportet quod 
+di<lb ed="#Ba" break="no"/>versitas sit inter ipsum et se, quod esse
+<lb ed="#Ba"/>non potest.
+</p>
+            <p xml:id="Almn78-a48822-d1e399">
+               <lb ed="#Ba"/>2. Adhuc, Aristoteles in IV 
+Physico<lb ed="#Ba" break="no"/>rum dicit, quod <quote xml:id="Almn78-a48822-Qd1e405"> omnes Philosophi
+<lb ed="#Ba"/>convenerunt in hoc, quod nihil est in
+<lb ed="#Ba"/>seipso. </quote>
+            </p>
+            <p xml:id="Almn78-a48822-d1e413">
+               <lb ed="#Ba"/>Ulterius queritur, Si concedendum Qu
+<lb ed="#Ba"/>sit, quod Deus sit alibi quam in seipso ?
+</p>
+            <p xml:id="Almn78-a48822-d1e420">
+               <lb ed="#Ba"/>Et videtur, quod sic. Est enim in 
+crea<lb ed="#Ba" break="no"/>turis que non sunt ipse : ergo est alibi
+<lb ed="#Ba"/>quam in seipso.
+</p>
+            <p xml:id="Almn78-a48822-d1e429">
+               <lb ed="#Ba"/>Ulterius queritur, Utrum 
+conceden<lb ed="#Ba" break="no"/>dum sit, quod sit in alio quam in 
+se<lb ed="#Ba" break="no"/>ipso ?
+</p>
+            <p xml:id="Almn78-a48822-d1e438">
+               <lb ed="#Ba"/>Et videtur, quod sic. Est enim in 
+An<lb ed="#Ba" break="no"/>gelo qui est alius quam ipse : ergo est in
+<lb ed="#Ba"/>alio quam in seipso.
+</p>
+            <p xml:id="Almn78-a48822-d1e448">
+               <lb ed="#Ba"/>Ulterius queritur de hoc quod dicit
+<lb ed="#Ba"/>Augustinus, quod est apud seipsum.
+</p>
+            <p xml:id="Almn78-a48822-d1e455">
+               <lb ed="#Ba"/>Dicit enim Glossa super illud verbum
+<lb ed="#Ba"/>Joannis, 1,4: <quote xml:id="Almn78-a48822-Qd1e461">Verbum erat apud Deum</quote>,
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a48822-Qd1e466">ut alius apud alium.</quote> Ergo videtur,quod
+<lb ed="#Ba"/>prepositio apud, distinctionem notet
+<lb ed="#Ba"/>vel personalem vel essentialem. Deus
+<lb ed="#Ba"/>autem a se nec essentialiter nec 
+persona<lb ed="#Ba" break="no"/>liter distinguitur. Ergo Deus non est
+<lb ed="#Ba"/>apud se.
+</p>
+            <p xml:id="Almn78-a48822-d1e481">
+               <lb ed="#Ba"/>Ulterius iterum queritur de hoc quod
+<lb ed="#Ba"/>inducit Magister in illo cap. Solet etiam
+<lb ed="#Ba"/>ab eisdem -queri*, scilicet quomodo
+<lb ed="#Ba"/>Deus essentialiter sit in omnibus rebus,
+<lb ed="#Ba"/>et tamen sordibus corporalium 
+inquina<lb ed="#Ba" break="no"/>tionum non inquinatur?.
+</p>
+            <p xml:id="Almn78-a48822-d1e497">
+               <lb ed="#Ba"/>Ibi enim ponit duo similia, | scilicet
+<lb ed="#Ba"/>quod anima coinquinatione corporis non
+<lb ed="#Ba"/>coinquinatur, et radii solares multa 
+con<lb ed="#Ba" break="no"/>tingunt immunda, et tamen non 
+inqui<lb ed="#Ba" break="no"/>nantur. Unde Augustinus in libro de
+<lb ed="#Ba"/>Natura boni®: <quote xml:id="Almn78-a48822-Qd1e512"> Cum in Deo, inquit,
+<lb ed="#Ba"/>sint omnia que condidit, non tamen
+<lb ed="#Ba"/>inquinant eum qui peccant. De cujus
+<lb ed="#Ba"/>etiam sapientia que attingit a fine 
+us<lb ed="#Ba" break="no"/>que ad finem fortiter, et disponit omnia
+<lb ed="#Ba"/>suaviter, dicitur, Attingit omnia 
+prop<lb ed="#Ba" break="no"/>ter suam munditiam, et nihil 
+inquina<lb ed="#Ba" break="no"/>tum incurrit in eam. </quote>
+            </p>
+            <p xml:id="Almn78-a48822-d1e531">
+               <pb ed="#Ba" n="745"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Uxreris etiam videtur, quod multo
+<lb ed="#Ba"/>plures sint modi quibus Deus est in 
+re<lb ed="#Ba" break="no"/>bus quam illi qui dicti sunt. Aliter
+<lb ed="#Ba"/>enim est in ceelo, et aliter in templo, et
+<lb ed="#Ba"/>aliter in anima. Unde Bernardus : <quote xml:id="Almn78-a48822-Qd1e548"> In
+<lb ed="#Ba"/>ceelo est, ut in quo relucent opera 
+glo<lb ed="#Ba" break="no"/>ri@ sue : in mundo autem, ut creator
+<lb ed="#Ba"/>et gubernator : in Angelo, ut sapor et
+<lb ed="#Ba"/>decor : in Ecclesia, ut paterfamilias in
+<lb ed="#Ba"/>domo : in anima fideli, ut sponsus in
+<lb ed="#Ba"/>thalamo : ubique essentialiter 
+conser<lb ed="#Ba" break="no"/>vando et sustinendo. Per gratiam 
+inha<lb ed="#Ba" break="no"/>bitantem in justis, per efficaciam in 
+sa<lb ed="#Ba" break="no"/>cramentis, per mysterium et signum in
+<lb ed="#Ba"/>columba et flatu et linguis igneis : in
+<lb ed="#Ba"/>loco sibi proportionato in templo. Unde,
+<lb ed="#Ba"/>Genes. xxvm, 16 : Vere Dominus est in
+<lb ed="#Ba"/>loco isto. Et ibidem, y. 17 : Quam
+<lb ed="#Ba"/>terribilis est locus iste ! non est. hic
+<lb ed="#Ba"/>aliud nisi domus Dei et porta celi.
+<lb ed="#Ba"/>Per unionem in Christo '. </quote>
+            </p>
+            <p xml:id="Almn78-a48822-d1e586">
+               <lb ed="#Ba"/>Solutio. Dicendum ad primum 
+que<lb ed="#Ba" break="no"/>situm, quod inesse per gratiam optimus
+<lb ed="#Ba"/>modus est, ideo quia super commune
+<lb ed="#Ba"/>modum quo in omnibus essentialiter est,
+<lb ed="#Ba"/>addit specialem modum, quo homo est
+<lb ed="#Ba"/>cum Deo et in Deo. Et in hoc non est
+<lb ed="#Ba"/>de bene esse tantum, secundum quod
+<lb ed="#Ba"/>bene esse accidentale est, sed est de 
+per<lb ed="#Ba" break="no"/>fectione esse. Dico autem de perfectione
+<lb ed="#Ba"/>esse, secundum quod definit esse 
+Boe<lb ed="#Ba" break="no"/>tius, dicens in libro de Consolatione
+<lb ed="#Ba"/>philosophiae, quod <quote xml:id="Almn78-a48822-Qd1e614"> esse est, quod retinet
+<lb ed="#Ba"/>ordinem servatque naturam. </quote> Cui esse
+<lb ed="#Ba"/>opponitur peccatum, ut dicit Augustinus
+<lb ed="#Ba"/>super principium Joannis, in Glossa
+<lb ed="#Ba"/>super illud : Sene ipso factum est nihil ,
+<lb ed="#Ba"/>id est, peccatum. Peccatum enim nihil
+<lb ed="#Ba"/>est: nihil enim fiunt homines cum 
+pec<lb ed="#Ba" break="no"/>cant : cadunt enim ab esse quod 
+ordi<lb ed="#Ba" break="no"/>nem retinet servatque naturam. Et sic
+<lb ed="#Ba"/>inesse per gratiam, est simpliciter 
+ines<lb ed="#Ba" break="no"/>gse. Inesse etiam per essentiam. non est
+<lb ed="#Ba"/>secundum quid inesse, sed simpliciter :
+<lb ed="#Ba"/>nec inesse per essentiam et inesse per
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>gratiam differunt, sicut inesse ab hoc,
+<lb ed="#Ba"/>et inesse ad hoc, et ad aliud' cum hoc.
+<lb ed="#Ba"/>In Sanctis enim est ad esse 
+conservatio<lb ed="#Ba" break="no"/>nem, et quoad effectum gratie, quo
+<lb ed="#Ba"/>optime conservatur et ordinatur esse
+<lb ed="#Ba"/>naturale.
+</p>
+            <p xml:id="Almn78-a48822-d1e660">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod cum 
+mul<lb ed="#Ba" break="no"/>tipliciter sumitur secundum quod 
+syn<lb ed="#Ba" break="no"/>categorematice sumitur. Aliquando enim
+<lb ed="#Ba"/>notat simplicem associationem. 
+Ali<lb ed="#Ba" break="no"/>quando notat associationem cum causa
+<lb ed="#Ba"/>associationis. Associatio enim species
+<lb ed="#Ba"/>amicitia est, ut dicit Aristoteles in
+<lb ed="#Ba"/>VUI Ethicorum, eo quod amicitia causa
+<lb ed="#Ba"/>est societatis. Aliquando etiam notat 
+as<lb ed="#Ba" break="no"/>sociationem inferioris ad superiorem cum
+<lb ed="#Ba"/>dignatione superioris ad inferiorem :
+<lb ed="#Ba"/>quia proprie loquendo superior ad 
+in<lb ed="#Ba" break="no"/>feriorem amicitia non habet, sed 
+digna<lb ed="#Ba" break="no"/>tionem : et inferior ad superiorem 
+pro<lb ed="#Ba" break="no"/>prie amicitiam non habet, sed 
+reveren<lb ed="#Ba" break="no"/>tiam, ut docet Aspasius in commento
+<lb ed="#Ba"/>super Il Ethicorum Aristotelis. Quando
+<lb ed="#Ba"/>notat simplicem associationem, Deus
+<lb ed="#Ba"/>est cum malis : quia essentialiter 
+exi<lb ed="#Ba" break="no"/>stens in ipsis, nihil facit quod violet
+<lb ed="#Ba"/>societatem. Quando autem notat 
+asso<lb ed="#Ba" break="no"/>ciationem cum causa mali, non sunt
+<lb ed="#Ba"/>cum Deo : quia per hoc quod mali sunt,
+<lb ed="#Ba"/>violant amicitiam, que causa societatis
+<lb ed="#Ba"/>est. Quando vero notat associationem
+<lb ed="#Ba"/>cum dignatione alterius associatorum,
+<lb ed="#Ba"/>tunc ponit principalitatem in ablativo :
+<lb ed="#Ba"/>et sic Sancti sunt cum Deo, et Deus non
+<lb ed="#Ba"/>cum Sanctis, sicut miles est cum rege,
+<lb ed="#Ba"/>et non rex cum milite. Mali autem non
+<lb ed="#Ba"/>sunt cum Deo hoc modo, nec Deus est
+<lb ed="#Ba"/>cum ipsis.
+</p>
+            <p xml:id="Almn78-a48822-d1e732">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod inesse 
+in<lb ed="#Ba" break="no"/>timius est quam cum esse : sed quia
+<lb ed="#Ba"/>cum associationem et causam 
+associa<lb ed="#Ba" break="no"/>tionis notat, plus importatur in eo quod
+<lb ed="#Ba"/>est cum esse, quam inesse : quia cum
+<lb ed="#Ba"/>esse supponit inesse, et insuper plus,
+<lb ed="#Ba"/>sicut dictum est. Unde dicendum, quod
+<lb ed="#Ba"/>licet Deus essentialiter sit in omnibus
+<pb ed="#Ba" n="746"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>presentialiter, potentialiter, et 
+simpli<lb ed="#Ba" break="no"/>citer sit in eis : tamen non est 
+conce<lb ed="#Ba" break="no"/>dendum simpliciter, quod sit in eis que
+<lb ed="#Ba"/>dicunt deformitatem esse, sicut mali,
+<lb ed="#Ba"/>demon, fornicator, adulter : talia enim
+<lb ed="#Ba"/>nomina imposita sunt a deformitate,
+<lb ed="#Ba"/>que non est a Deo : quia, sicut dicit
+<lb ed="#Ba"/>Augustinus, deformitas peccati non 
+con<lb ed="#Ba" break="no"/>servat naturam, ‘sed vitiat. Unde in 
+ta<lb ed="#Ba" break="no"/>libus non est dicendum, quod Deus sit
+<lb ed="#Ba"/>simpliciter, sed cum determinatione,
+<lb ed="#Ba"/>ut dicatur in diabolo esse secundum esse
+<lb ed="#Ba"/>substantiale et naturale et 
+conservatio<lb ed="#Ba" break="no"/>nem illius : quia sic dicitur esse in eo
+<lb ed="#Ba"/>qui diabolus, et non in diabolo in 
+quan<lb ed="#Ba" break="no"/>tum diabolus est. Et si conceditur jhoc
+<lb ed="#Ba"/>modo, quod Deus est in eo qui diabolus
+<lb ed="#Ba"/>est, nullo modo debet concedi, quod, 
+Spi<lb ed="#Ba" break="no"/>ritus sanctus sit in diabolo, licet ipse sit
+<lb ed="#Ba"/>Deus. Spiritus enim sanctus ut Spiritus
+<lb ed="#Ba"/>sanctus, in eo in quo est, est per 
+inspi<lb ed="#Ba" break="no"/>rationem et sanctificationem:: et hoc
+<lb ed="#Ba"/>modo non est in diabolo, nec in malis.
+<lb ed="#Ba"/>Unde. proprie dicendo Spiritus sanctus
+<lb ed="#Ba"/>non est in malis : licet haec concedi
+<lb ed="#Ba"/>possit, quod Deus qui est Spiritus 
+san<lb ed="#Ba" break="no"/>ctus, sit in malis essentialiter, praesen-—
+<lb ed="#Ba"/>tialiter, et potentialiter quantum ad esse
+<lb ed="#Ba"/>naturale. Et hic modus loquendi sumitur
+<lb ed="#Ba"/>a beato Dionysio in libro de Divinis 
+no<lb ed="#Ba" break="no"/>minibus, ubi de demonibus loquens, sic
+<lb ed="#Ba"/>dicit : <quote xml:id="Almn78-a48822-Qd1e825"> Data demonibus naturalia dona
+<lb ed="#Ba"/>nequaquam ea mutata esse dicimus : sed
+<lb ed="#Ba"/>sunt integra et splendidissima, quamvis
+<lb ed="#Ba"/>ipsi non videant, claudentes. ipsorum
+<lb ed="#Ba"/>boni inspectivas virtutes'.</quote> Non enim
+<lb ed="#Ba"/>essent integra et splendida, nisi Deus
+<lb ed="#Ba"/>essentialiter esset in eis conservans ea.
+<lb ed="#Ba"/>Ad aliud dicendum, quod Augustinus
+<lb ed="#Ba"/>facit vim in eo quod est inhabitare :
+<lb ed="#Ba"/>inhabitatio enim ejus est in eis qui
+<lb ed="#Ba"/>sunt de familia, et qui consentiunt 
+pa<lb ed="#Ba" break="no"/>trifamilias inhabitanti : et sic inhabitare
+<lb ed="#Ba"/>addit super inesse effectum specialem,
+<lb ed="#Ba"/>sicut dicit Psalmus unanimes habitare
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>in domo. Et illud, In domo Det 
+ambu<lb ed="#Ba" break="no"/>lavimus cum consensu*®. Et ideo 
+diffe<lb ed="#Ba" break="no"/>rentiam inter inhabitare et inesse facit
+<lb ed="#Ba"/>Augustinus. Inhabitare autem non 
+op<lb ed="#Ba" break="no"/>ponitur transitui, cum gratia in via
+<lb ed="#Ba"/>amissibilis sit : sed inesse essentialiter
+<lb ed="#Ba"/>opponitur transitui, quia esse rerum 
+gra<lb ed="#Ba" break="no"/>tia cujus esse dicitur Deus essentialiter
+<lb ed="#Ba"/>in rebus, non est amissibile.
+</p>
+            <p xml:id="Almn78-a48822-d1e878">
+               <lb ed="#Ba"/>Ad aliud jam patet solutio per dicta :
+<lb ed="#Ba"/>ostensum est enim qualiter mali sint
+<lb ed="#Ba"/>cum Deo, et qualiter in malis est Deus,
+<lb ed="#Ba"/>et qualiter non.
+</p>
+            <p xml:id="Almn78-a48822-d1e889">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod si cum
+<lb ed="#Ba"/>notat associationem cum causa 
+associa<lb ed="#Ba" break="no"/>tionis que est amicitia, Sancti sunt
+<lb ed="#Ba"/>cum Deo. In consensu enim 
+volun<lb ed="#Ba" break="no"/>talis et operis sunt cum ipso; 
+secun<lb ed="#Ba" break="no"/>dum quod Tullius dicit in libro de
+<lb ed="#Ba"/>Amicitia, quod <quote xml:id="Almn78-a48822-Qd1e906"> amicorum est idem
+<lb ed="#Ba"/>velle et idem nolle. </quote> Et ibidem,
+<lb ed="#Ba"/>
+               <quote xml:id="Almn78-a48822-Qd1e913"> Prima lex sancitur amicitie, ut pro
+<lb ed="#Ba"/>amicis non nisi honesta faciamus. </quote>
+               <lb ed="#Ba"/>Secundum autem quod haec 
+preposi<lb ed="#Ba" break="no"/>tio, cum, principalitatem notat et 
+digna<lb ed="#Ba" break="no"/>tionem in ablativo, sic Deus est cum
+<lb ed="#Ba"/>Sanctis, et non Sancti cum Deo.
+</p>
+            <p xml:id="Almn78-a48822-d1e928">
+               <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>patet solutio per predicta que posita
+<lb ed="#Ba"/>sunt in distinctione hujus quod dicitur
+<lb ed="#Ba"/>cum.
+</p>
+            <p xml:id="Almn78-a48822-d1e939">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Ba"/>Deus in seipso habitat ? Dicendum, quod
+<lb ed="#Ba"/>sic, et in seipso habitat, et apud 
+se<lb ed="#Ba" break="no"/>ipsum.
+</p>
+            <p xml:id="Almn78-a48822-d1e951">
+               <lb ed="#Ba"/>Ad objectum contra, dicendum, quod
+<lb ed="#Ba"/>prepositiones quidem transitive sunt,
+<lb ed="#Ba"/>sed ad transitionem illam sufficit 
+diver<lb ed="#Ba" break="no"/>sitas modi significandi, etiamsi res 
+signi<lb ed="#Ba" break="no"/>ficata sit eadem, et secundum id quod
+<lb ed="#Ba"/>est et sibi inest secundum ambitum 
+ma<lb ed="#Ba" break="no"/>jestatis et virtutis sue : sic enim is qui
+<lb ed="#Ba"/>inest, idem est cum eo cui inest: differt
+<lb ed="#Ba"/>autem secundum modum significandi.
+</p>
+            <p xml:id="Almn78-a48822-d1e973">
+               <pb ed="#Ba" n="747"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Ad aliud dicendum, quod Philosophi
+<lb ed="#Ba"/>conveniunt in hoc, quod nihil est in
+<lb ed="#Ba"/>seipso, secundum quod idem est in re
+<lb ed="#Ba"/>et in modo significandi : quia sic nulla
+<lb ed="#Ba"/>diversitas esset inter id quod inest, et
+<lb ed="#Ba"/>cui inest : sic autem non est hic cum 
+di<lb ed="#Ba" break="no"/>citur Deus esse in seipso, ut patet per
+<lb ed="#Ba"/>predicta.
+</p>
+            <p xml:id="Almn78-a48822-d1e997">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod meo judicio haec bene 
+con<lb ed="#Ba" break="no"/>cederetur, est alibi ut in seipso. Et hoc
+<lb ed="#Ba"/>probat objectio et nihil amplius : sed
+<lb ed="#Ba"/>hec non est concedenda, est alibi quam
+<lb ed="#Ba"/>in seipso : quia comparatio que 
+impor<lb ed="#Ba" break="no"/>tatur per adverbium, guam, vult habere
+<lb ed="#Ba"/>habitudinem univocam : eo quod omnis
+‘comparatio inter univoca est. Non 
+au<lb ed="#Ba" break="no"/>tem est habitudo univoca quando dicitur,
+<lb ed="#Ba"/>Deus est in creaturis, et quando dicitur,
+<lb ed="#Ba"/>est in seipso. In creaturis est per 
+habi<lb ed="#Ba" break="no"/>tudinem causantis et continentis et 
+con<lb ed="#Ba" break="no"/>servantis. Cum autem dicitur esse in
+<lb ed="#Ba"/>seipso, negative exponendum est, scilicet
+<lb ed="#Ba"/>quia non ab alio continetur et 
+conserva<lb ed="#Ba" break="no"/>tur nisi a seipso.
+</p>
+            <p xml:id="Almn78-a48822-d1e1034">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Ba"/>sit in alio quam in seipso? ,
+</p>
+            <p xml:id="Almn78-a48822-d1e1041">
+               <lb ed="#Ba"/>Videtur dicendum, quod non est 
+con<lb ed="#Ba" break="no"/>cedendum : quia cum dicitur, in alio
+<lb ed="#Ba"/>guam in seipso, per relativum diversitatis
+<lb ed="#Ba"/>importatur, quod ab alio contineatur
+<lb ed="#Ba"/>quam a seipso : et hoc non est verum :
+<lb ed="#Ba"/>in omnibus enim existens semper 
+con<lb ed="#Ba" break="no"/>tinetur et conservatur a seipso. Per
+<lb ed="#Ba"/>adverbium autem comparandi 
+relinqui<lb ed="#Ba" break="no"/>tur negativa continentie ad seipsum,
+<lb ed="#Ba"/>et affirmativa continentie ab alio : est
+<lb ed="#Ba"/>enim sensus, quod non continetur a
+<lb ed="#Ba"/>seipso, sed continetur ab alio.
+</p>
+            <p xml:id="Almn78-a48822-d1e1070">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, Utrum
+<lb ed="#Ba"/>Deus sit apud seipsum? Dicendum quod
+<lb ed="#Ba"/>apud seipsum est.
+</p>
+            <p xml:id="Almn78-a48822-d1e1080">
+               <lb ed="#Ba"/>Ad id quod objicitur in contrarium,
+<lb ed="#Ba"/>dicendum quod prepositio, apud, de se
+<lb ed="#Ba"/>non notat distinctionem : sed cum 
+po<lb ed="#Ba" break="no"/>nitur cum nominibus distinctivis perso-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>nalibus, ex adjuncto trahit quod 
+distin<lb ed="#Ba" break="no"/>clum est, ut cum dicitur, Verbum erat
+<lb ed="#Ba"/>apud Deum : verbum enim personale
+<lb ed="#Ba"/>nomen est, et per prepositionem 
+distin<lb ed="#Ba" break="no"/>ctio notatur inter Deum et verbum apud
+<lb ed="#Ba"/>quem est: per seipsam autem 
+prepo<lb ed="#Ba" break="no"/>sitio apud non notat distinctionem, nisi
+<lb ed="#Ba"/>eam que est in modo significandi, ut
+<lb ed="#Ba"/>paulo ante dictum est.
+</p>
+            <p xml:id="Almn78-a48822-d1e1113">
+               <lb ed="#Ba"/>Ad aliud quod ulterius queritur, di-
+<lb ed="#Ba" break="no"/>cendum quod inquinationis unius ex
+<lb ed="#Ba"/>altero triplex est causa, scilicet 
+commu<lb ed="#Ba" break="no"/>nis materia, contactus, et 
+communica<lb ed="#Ba" break="no"/>tio passionum, scilicet quod passiones
+<lb ed="#Ba"/>unius redundant in alterum. Unde 
+ani<lb ed="#Ba" break="no"/>ma non inquinatur a corpore 
+inquina<lb ed="#Ba" break="no"/>tione corporis : quia anima et corpus
+<lb ed="#Ba"/>non sunt materi# unius. Unde anima
+<lb ed="#Ba"/>leprosi non dicitur leprosa in ipso :
+<lb ed="#Ba"/>tamen quia passiones corporis 
+redun<lb ed="#Ba" break="no"/>dant in animam, et e converso 
+passio<lb ed="#Ba" break="no"/>nes anime, in corpus, ideo aliqua affectio
+<lb ed="#Ba"/>gaudii vel tristitie fit in anima ex 
+in<lb ed="#Ba" break="no"/>quinatione corporis. Secunda causa est
+<lb ed="#Ba"/>contactus unius ab altero. Contingunt
+<lb ed="#Ba"/>autem se, ut dicit Aristoteles in primo
+<lb ed="#Ba"/>de Generatione et Corruptione, quorum
+<lb ed="#Ba"/>ultima sunt simul. Et sic aliquando
+<lb ed="#Ba"/>dicitur lumen et radius solis inquinari
+<lb ed="#Ba"/>ex contactu immundorum : sicut in
+<lb ed="#Ba"/>exsequiis mortuorum dicitur, quod 
+de<lb ed="#Ba" break="no"/>hujus mundi luce cenulenta ducis ad
+<lb ed="#Ba"/>patriam. colestem. Tertia causa est 
+com<lb ed="#Ba" break="no"/>municatio passionum, sicut est inter
+<lb ed="#Ba"/>animam et corpus, ut dictum est. Et
+<lb ed="#Ba"/>propter hoc quod Deus nullo istorum
+<lb ed="#Ba"/>modorum se habet ad ea quibus inest,
+<lb ed="#Ba"/>ideo nullo modo sordibus eorum 
+qui<lb ed="#Ba" break="no"/>bus inest, sordidatur vel contingitur
+<lb ed="#Ba"/>vel inficitur.
+</p>
+            <p xml:id="Almn78-a48822-d1e1183">
+               <lb ed="#Ba"/>Ad id quod ulterius queritur, 
+dicen<lb ed="#Ba" break="no"/>dum quod si singulares modi effectuum
+<lb ed="#Ba"/>quos operatur Deus in creaturis, 
+atten<lb ed="#Ba" break="no"/>duntur, multo plures sunt quam 
+quin<lb ed="#Ba" break="no"/>que, sicut probat objectio, sed in 
+com<lb ed="#Ba" break="no"/>muni omnes reducuntur ad quinque,
+<lb ed="#Ba"/>Non enim possunt esse nisi due gratia,
+<pb ed="#Ba" n="748"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>Non enim habitat Deus in homine vel
+<lb ed="#Ba"/>in Angelo nisi per gratiam adoptionis,
+<lb ed="#Ba"/>vel per gratiam unionis. In natura autem
+<lb ed="#Ba"/>rerum, ut dicit Dionysius, non est
+<lb ed="#Ba"/>nisi substantia, virtus, et operatio
+<lb ed="#Ba"/>vel sicut dicit Augustinus in libro
+<lb ed="#Ba"/>LXXXUI Questionum, quod est, quod
+<lb ed="#Ba"/>discernitur, quod congruit. Et quantum
+<lb ed="#Ba"/>ad id quod est, sive quantum ad sub-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>stantiam que causatur ab essentia divina,
+<lb ed="#Ba"/>inest essentialiter : quantum ad speciem
+<lb ed="#Ba"/>qua discernitur res a qua fluit virtus,
+<lb ed="#Ba"/>inest ei presentialiter: per speciem enim
+<lb ed="#Ba"/>res in potentia Dei est, et a lumine 
+po<lb ed="#Ba" break="no"/>tentiae ipsius fluit species : quantum
+<lb ed="#Ba"/>autem ad hoc quod congruit ordine et
+<lb ed="#Ba"/>comparatione et appetitu vel naturali
+<lb ed="#Ba"/>vel animali, fluit a potentia divina.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

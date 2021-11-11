@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 138</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 138</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="461"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-g02405"><!-- p2t22q138 -->
+            <head xml:id="Almn78-g02405-Hd1e106">Quaestio 138</head>
+            <head xml:id="Almn78-g02405-Hd1e109" type="question-title">
+    De differentiis actuum secundum intentionem bonam vel malam
+  </head>
+            <p xml:id="Almn78-g02405-d1e112">
+               <cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>QUASTIO CXXXVIII.
+<lb ed="#Bc"/>De differentiis actuum secundum intentionem bonam vel malam.
+</p>
+            <p xml:id="Almn78-g02405-d1e121">
+               <lb ed="#Bc"/>Deinde transeundum est ad 
+distinctio<lb ed="#Bc" break="no"/>nem XLI libri II Sententiarum, que sic
+<lb ed="#Bc"/>incipit : Cumgue intentio, ut supra 
+di<lb ed="#Bc" break="no"/>clum est, bonum opus facial.
+<lb ed="#Bc"/>Et in hac distinctione Magister de
+<lb ed="#Bc"/>differentiis actuum tractat secundum 
+in<lb ed="#Bc" break="no"/>tentionem bonam vel malam.
+<lb ed="#Bc"/>Et sunt in ea tres questiones.
+<lb ed="#Bc"/>Prima est, Utrum mensuretur actio
+<cb ed="#Bc" n="b"/>
+               <lb ed="#Bc"/>intentione et fide et charitate, 
+dirigenti<lb ed="#Bc" break="no"/>bus actionem ?
+<lb ed="#Bc"/>Et concesso quod sic, secundo objicit
+<lb ed="#Bc"/>in contrarium et solvit, et adhuc inducit
+<lb ed="#Bc"/>aliam solutionem secundum alios.
+<lb ed="#Bc"/>Tertio querit, Utrum omne peccatum
+<lb ed="#Bc"/>sit voluntarium ?s
+<lb ed="#Bc"/>Et secundum hoc ordinabimus 
+que<lb ed="#Bc" break="no"/>stiones.
+</p>
+            <div xml:id="Almn78-g02405-Dd1e165">
+               <head xml:id="Almn78-g02405-Hd1e167">Membrum 1</head>
+               <head xml:id="Almn78-g02405-Hd1e170" type="question-title">
+        Utrum actio mensuretur intentione, fide,
+        et charitate, dirigentibus actionem
+      </head>
+               <p xml:id="Almn78-g02405-d1e173">
+                  <pb ed="#Bc" n="462"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>MEMBRUM I.
+<lb ed="#Bc"/>Utrum actio mensuretur intentione, fide,
+<lb ed="#Bc"/>et charitate, dirigentibus actionem ?
+</p>
+               <p xml:id="Almn78-g02405-d1e186">
+                  <lb ed="#Bc"/>Ad primum proceditur sic :
+<lb ed="#Bc"/>4. Bernardus in libro de Libero 
+arbi<lb ed="#Bc" break="no"/>trio et gratia: <quote xml:id="Almn78-g02405-Qd1e194"> Intentio sufficit ad
+<lb ed="#Bc"/>meritum, bonum opus requiritur ad
+<lb ed="#Bc"/>exemplum. </quote> Videtur ergo, quod ad
+<lb ed="#Bc"/>quantitatem meriti nihil facit opus, sed
+<lb ed="#Bc"/>tantum intentio in fide et charitate.
+</p>
+               <p xml:id="Almn78-g02405-d1e207">
+                  <lb ed="#Bc"/>2. Adhuc, In precedenti distinctione
+<lb ed="#Bc"/>habitum est, quod dicit Augustinus in
+<lb ed="#Bc"/>prefatione ad Psalmum xxxi, quod
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g02405-Qd1e217"> intentio bonum opus facit, et 
+inten<lb ed="#Bc" break="no"/>tionem fides et charitas dirigunt. </quote>
+               </p>
+               <p xml:id="Almn78-g02405-d1e224">
+                  <lb ed="#Bc"/>3. Adhuc, Super illud Psalmi XXXI,
+<lb ed="#Bc"/>5: Dixi: Confitebor adversum me, 
+Glos<lb ed="#Bc" break="no"/>sa: <quote xml:id="Almn78-g02405-Qd1e232"> Voluntas pro opere computatur. </quote>
+                  <lb ed="#Bc"/>Cum ergo, ut dicit Augustinus, intentio
+<lb ed="#Bc"/>nihil aliud sit quam voluntas cum fine,
+<lb ed="#Bc"/>videtur quod intentio sufficit ad 
+meri<lb ed="#Bc" break="no"/>tum, et non requiritur opus.
+</p>
+               <p xml:id="Almn78-g02405-d1e245">
+                  <lb ed="#Bc"/>4. Adhuc, Super illud Psalmi cxxv,
+<lb ed="#Bc"/>5: Quod seminant in lacrymis, dicit
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-g02405-Qd1e253"> Ad que sufficit voluntas, si
+<lb ed="#Bc"/>desit facultas. </quote> Ex hoc argue ut prius.
+</p>
+               <p xml:id="Almn78-g02405-d1e259">
+                  <lb ed="#Bc"/>5. Adhuc, Objiciunt quidam per 
+ratio<lb ed="#Bc" break="no"/>nem sic : Meritum et demeritum maxime
+<lb ed="#Bc"/>consistunt in eo quod in nostra est 
+pote<lb ed="#Bc" break="no"/>state. Nihil ita in nostra potestate est
+<lb ed="#Bc"/>sicut ipsa voluntas, ut dicit Augustinus
+<lb ed="#Bc"/>in libro de Libero arbitrio '. Ex hoc 
+ar<lb ed="#Bc" break="no"/>gue ut prius, et conclude, quod opus
+<lb ed="#Bc"/>necessario non exigitur ad meritum.
+</p>
+               <p xml:id="Almn78-g02405-d1e279">
+                  <lb ed="#Bc"/>6. Adhuc, Objiciunt alii per rationem
+<lb ed="#Bc"/>sic: Deus nos omnes equaliter creavit
+<lb ed="#Bc"/>ad sibi serviendum: ergo potestatem
+<lb ed="#Bc"/>merendi in aliquo posuit, quod quilibet
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>habet in sua potestate, pauper scilicet et
+<lb ed="#Bc"/>dives, sanus et infirmus: et hoc nihil
+<lb ed="#Bc"/>aliud est nisi voluntas: ergo totum 
+me<lb ed="#Bc" break="no"/>ritum consistit in devotione voluntatis,
+<lb ed="#Bc"/>et non in exterioribus operibus.
+</p>
+               <p xml:id="Almn78-g02405-d1e303">
+                  <lb ed="#Bc"/>7. Adhuc, Super illud Luce, xxi, 3:
+<lb ed="#Bc"/>Vidua haec pauper plus quam omnes
+<lb ed="#Bc"/>misit, scilicet in gazophylacium, Glossa :
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g02405-Qd1e313"> Merito pie intentionis sunt opera
+<lb ed="#Bc"/>accepta. </quote> Et ibidem alia Glossa : <quote xml:id="Almn78-g02405-Qd1e319"> Non
+<lb ed="#Bc"/>quantum, sed ex quanto Deus 
+consi<lb ed="#Bc" break="no"/>derat. </quote> Et ex hoc sequitur idem, quod
+<lb ed="#Bc"/>penes intentionem est meritum, et non
+<lb ed="#Bc"/>penes opus.
+</p>
+               <p xml:id="Almn78-g02405-d1e331">
+                  <lb ed="#Bc"/>ULterius queritur, Siin malis sic sit,
+<lb ed="#Bc"/>quod etiam penes intentionem tantum
+<lb ed="#Bc"/>sit malum vel demeritum ?
+</p>
+               <p xml:id="Almn78-g02405-d1e341">
+                  <lb ed="#Bc"/>Et videtur, quod sic.
+<lb ed="#Bc"/>1. Super ilud Psalmi ivi, 3: In corde
+<lb ed="#Bc"/>iniquilates operamini: in terra 
+injusti<lb ed="#Bc" break="no"/>tias manus vestre concinnant, dicit
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-g02405-Qd1e354"> Si vis et non potes, Dominus
+<lb ed="#Bc"/>factum reputat. </quote> Ergo videtur, quod
+<lb ed="#Bc"/>etiam in malis sola voluntas sufficit ad
+<lb ed="#Bc"/>demeritum, non opus,
+</p>
+               <p xml:id="Almn78-g02405-d1e364">
+                  <lb ed="#Bc"/>2. Adhuc, Super illud Levitici, xv,
+<lb ed="#Bc"/>19: Mulier que redeunte mense patitur
+<lb ed="#Bc"/>flucum sanguinis, dicit Glossa: <quote xml:id="Almn78-g02405-Qd1e372"> 
+Vo<lb ed="#Bc" break="no"/>luntas pro facto reputatur. </quote> Ergo in
+<lb ed="#Bc"/>bonis et in malis nihil operatur ad 
+meri<lb ed="#Bc" break="no"/>tum et demeritum preter intentionem.
+</p>
+               <p xml:id="Almn78-g02405-d1e383">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>1. Jacobi, 1, 20: Fides sine operibus
+<lb ed="#Bc"/>mortua est. Glossa: <quote xml:id="Almn78-g02405-Qd1e391"> Quibus 
+revivi<lb ed="#Bc" break="no"/>scit. </quote> Ergo videtur, quod ad meritum
+<lb ed="#Bc"/>faciant opera exteriora, et quod fides
+<lb ed="#Bc"/>dirigens intentionem sine operibus nihil
+<lb ed="#Bc"/>valet.
+</p>
+               <p xml:id="Almn78-g02405-d1e404">
+                  <lb ed="#Bc"/>2. Adhuc, Gregorius super illud 
+Joan<lb ed="#Bc" break="no"/>nis, xiv, 23: Si quis diligit me, etc.
+<lb ed="#Bc"/>
+                  <quote xml:id="Almn78-g02405-Qd1e412"> Charitas magna operatur, si est. Si
+<lb ed="#Bc"/>vero operari renuit, charitas non est. </quote>
+                  <lb ed="#Bc"/>Ergo videtur, quod nec charitas, nec
+<lb ed="#Bc"/>intentio prosint sine operibus.
+</p>
+               <p xml:id="Almn78-g02405-d1e423">
+                  <pb ed="#Bc" n="463"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>3. Adhuc, IT ad Corinth. vin, 10 et
+<lb ed="#Bc"/>1: Hoc vobis utile est, qui non solum
+<lb ed="#Bc"/>facere, sed et velle cepistis ab anno
+<lb ed="#Bc"/>priore. Nune vero et facto perficite, ut
+<lb ed="#Bc"/>quemadmodum promptus est animus
+<lb ed="#Bc"/>voluntatis, ita sit et perficiendi ex eo
+<lb ed="#Bc"/>quod habetis.
+  
+<lb ed="#Bc"/>4. Adhuc, II ad Corinth. 1x, 6: Qui
+<lb ed="#Bc"/>parce seminat, parce et metet. Et 
+loqui<lb ed="#Bc" break="no"/>tur de operibus eleemosynarum. Ergo
+<lb ed="#Bc"/>videtur, quod secundum opus exterius
+<lb ed="#Bc"/>mensurelur meritum vel demeritumn.
+</p>
+               <p xml:id="Almn78-g02405-d1e456">
+                  <lb ed="#Bc"/>5. Adhuc, Matth. xxv, 34 et 35, 
+con<lb ed="#Bc" break="no"/>demnatio impiorum et salus bonorum
+<lb ed="#Bc"/>ponitur in operibus. Dicitur enim: 
+Ve<lb ed="#Bc" break="no"/>nite, benedicti Patris mei... Esurivi, et
+<lb ed="#Bc"/>dedistis mihi manducare. Aliis autem,
+<lb ed="#Bc"/>y. 41 et 42: Discedite ame, maledicti,
+<lb ed="#Bc"/>in ignem eternum...Esurivi enim, et non
+<lb ed="#Bc"/>dedistis mihi manducare.Ergo videtur ut
+<lb ed="#Bc"/>prius.
+</p>
+               <p xml:id="Almn78-g02405-d1e479">
+                  <lb ed="#Bc"/>6. Adhuc, IJoan. iu, 18: Filioli mez,
+<lb ed="#Bc"/>non diligamus verbo, neque lingua, sed
+<lb ed="#Bc"/>opere et veritate. Et supra, ¥. 17: Qui
+<lb ed="#Bc"/>habuerit substantiam hujus mundi, et
+<lb ed="#Bc"/>viderit fratrem suum necessitatem 
+ha<lb ed="#Bc" break="no"/>bere, et clauserit viscera sua ab eo,
+<lb ed="#Bc"/>quomodo charitas Dei manet in eo ?
+</p>
+               <p xml:id="Almn78-g02405-d1e497">
+                  <lb ed="#Bc"/>Ex omnibus his accipitur, quod 
+meri<lb ed="#Bc" break="no"/>tum secundum veritatem est in opere, et
+<lb ed="#Bc"/>secundum rationem in intentione quam
+<lb ed="#Bc"/>dirigit fides et charitas.
+</p>
+               <p xml:id="Almn78-g02405-d1e508">
+                  <lb ed="#Bc"/>Solutio. Ad omnia solvendum est per
+<lb ed="#Bc"/>distinctionem. Habenti enim bonam 
+in<lb ed="#Bc" break="no"/>tentionem, fide directam, et charitate
+<lb ed="#Bc"/>formatam, aut suppetit facultas operis,
+<lb ed="#Bc"/>vel non. Si suppetit facultas, numquam
+<lb ed="#Bc"/>sulficit intentio in bonis, nec est vera
+<lb ed="#Bc"/>intentio. Quia cum intentio sit voluntas
+<lb ed="#Bc"/>cum fine, et finis voluntatis sit opus, et
+<lb ed="#Bc"/>voluntas non pervenit ad opus, non est
+<lb ed="#Bc"/>completa intentio. Si vero facultas non
+<lb ed="#Bc"/>suppetit, tune pro certo sufficit intentio
+<lb ed="#Bc"/>ad premium vita eterne. Quod enim
+<lb ed="#Bc"/>in nostra potestate non est, non requirit
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Deus a nobis. Et sic intelligitur, quod
+<lb ed="#Bc"/>vidua plus posuit, quia cum majori
+<lb ed="#Bc"/>affectu posuit.
+</p>
+               <p xml:id="Almn78-g02405-d1e547">
+                  <lb ed="#Bc"/>Similiter duplex est premium, 
+substan<lb ed="#Bc" break="no"/>tiale scilicet, et accidentale, Substantiale
+<lb ed="#Bc"/>est beatitudo eterna, cujus quantitas est
+<lb ed="#Bc"/>secundum quantitatem charitatis et fidei
+<lb ed="#Bc"/>dirigentis intentionem. Accidentale est
+<lb ed="#Bc"/>in multis operibus gloriari que in 
+hono<lb ed="#Bc" break="no"/>rem Dei facta sunt, et illud consistit in
+<lb ed="#Bc"/>operibus tamquam in causa meritoria,
+<lb ed="#Bc"/>sicut patet in parabola, Matth. xxv, 24
+<lb ed="#Bc"/>et seq., de servo pigro cui abstulit 
+do<lb ed="#Bc" break="no"/>minus talentum, et jussit eum projici in
+<lb ed="#Bc"/>tenebras exteriores : servo autem fideli
+<lb ed="#Bc"/>jussit addi, et intrare in gaudium domini
+<lb ed="#Bc"/>sul.
+</p>
+               <p xml:id="Almn78-g02405-d1e580">
+                  <lb ed="#Bc"/>Et sic patet solutio ad utramque 
+par<lb ed="#Bc" break="no"/>tem objectam.
+</p>
+               <p xml:id="Almn78-g02405-d1e587">
+                  <lb ed="#Bc"/>Et sic etiam de mala intentione, quod
+<lb ed="#Bc"/>distinguatur est solvendum.
+</p>
+            </div>
+            <div xml:id="Almn78-g02405-Dd1e596">
+               <head xml:id="Almn78-g02405-Hd1e598">Membrum 2</head>
+               <head xml:id="Almn78-g02405-Hd1e601" type="question-title">
+        Utrum bonum et malum sint in opere ex
+        intentione, vel ex ipso opere
+      </head>
+               <p xml:id="Almn78-g02405-d1e604">
+                  <lb ed="#Bc"/>MEMBRUM II.
+<lb ed="#Bc"/>Utrum bonum et malum sint in opere ex
+<lb ed="#Bc"/>intentione, vel ex ipso opere?
+</p>
+               <p xml:id="Almn78-g02405-d1e613">
+                  <lb ed="#Bc"/>Secundo, Queritur circa secundum
+<lb ed="#Bc"/>capitulum ejusdem distinctionis, quod
+<lb ed="#Bc"/>sic incipit: His autem objsicitur. Utrum
+<lb ed="#Bc"/>bonum et malum sint in opere ex 
+inten<lb ed="#Bc" break="no"/>tione, vel ex ipso opere ?
+</p>
+               <p xml:id="Almn78-g02405-d1e626">
+                  <lb ed="#Bc"/>Et videtur, quod ex intentione.
+<lb ed="#Bc"/>4. Matth. xn, 35, dicitur de utroque :
+<lb ed="#Bc"/>Bonus homo de bono thesauro, scilicet
+<lb ed="#Bc"/>cordis sui, profert bona: et malus 
+ho<lb ed="#Bc" break="no"/>mo de malo .thesauro profert mala.
+<lb ed="#Bc"/>Glossa : <quote xml:id="Almn78-g02405-Qd1e641"> Thesaurus cordis intentio est,
+<lb ed="#Bc"/>ex qua Dominus judicat opera. </quote> Ergo
+<lb ed="#Bc"/>videtur, quod bonum et malum sint in
+<lb ed="#Bc"/>opere ex intentione, et non ex ipso
+<lb ed="#Bc"/>opere.
+</p>
+               <p xml:id="Almn78-g02405-d1e654">
+                  <pb ed="#Bc" n="464"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc"/>2. Adhuc, Quidam hoc arguunt a 
+mi<lb ed="#Bc" break="no"/>nori : Minus enim videtur, quod bonum
+<lb ed="#Bc"/>possit fieri malum per intentionem,
+<lb ed="#Bc"/>quam € converso : quia Deus pronior est
+<lb ed="#Bc"/>ad miserendum, quam ad 
+condemnan<lb ed="#Bc" break="no"/>dum. Sed bonum potest fieri malum per
+<lb ed="#Bc"/>corruptam intentionem, ut credere in
+<lb ed="#Bc"/>Deum mala intentione, et dare 
+eleemo<lb ed="#Bc" break="no"/>synam mala intentione. Ergo multo
+<lb ed="#Bc"/>magis malum potest fieri bonum per 
+in<lb ed="#Bc" break="no"/>tentionem : et sic iterum bonum et 
+ma<lb ed="#Bc" break="no"/>lum sunt in opere ex intentione.
+</p>
+               <p xml:id="Almn78-g02405-d1e687">
+                  <lb ed="#Bc"/>3. Adhuc, In exemplis Biblia 
+inve<lb ed="#Bc" break="no"/>nitur hoc Exodi, m, 22: Spoliabitis
+<lb ed="#Bc"/>Egyptum. Qui enim asportabant vestes
+<lb ed="#Bc"/>et vasa intentione obediendi Domino,
+<lb ed="#Bc"/>videntur bene fecisse. Et sic videtur,
+<lb ed="#Bc"/>quod furtum possit fieri bona intentione.
+<lb ed="#Bc"/>Ex hoc sequitur ut prius.
+</p>
+               <p xml:id="Almn78-g02405-d1e705">
+                  <lb ed="#Bc"/>Contra :
+<lb ed="#Bc"/>In antehabitis dictum est in 
+distin<lb ed="#Bc" break="no"/>ctione XL, in illo cap. Sed Augustinus
+<lb ed="#Bc"/>evidentissime docet, quod multa sunt
+<lb ed="#Bc"/>que numquam possunt bene fieri, nec
+<lb ed="#Bc"/>per aliquam intentionem bonam, que
+<lb ed="#Bc"/>scilicet mox nominata sunt mala et per
+<lb ed="#Bc"/>se mala, ut ibidem determinatum est.
+</p>
+               <p xml:id="Almn78-g02405-d1e725">
+                  <lb ed="#Bc"/>Sotvtio. Dicendum, quod ex sola 
+in<lb ed="#Bc" break="no"/>tentione non est bonum et malum in
+<lb ed="#Bc"/>opere : sed sicut dicit Dionysius in libro
+<lb ed="#Bc"/>de Divinis nominibus: <quote xml:id="Almn78-g02405-Qd1e735"> Bonum est
+<lb ed="#Bc"/>ex una et tota et sola causa : malum 
+au<lb ed="#Bc" break="no"/>tem omnifariam ‘. </quote> Hoc est dictum,
+<lb ed="#Bc"/>quod bonum im opere est ex omnibus
+<lb ed="#Bc"/>causis bonitatis, sieul ex virtutis forma
+<lb ed="#Bc"/>elicientis actum, et omnibus 
+circumstan<lb ed="#Bc" break="no"/>tiis operis, et voluntate, et fine. Malum
+<lb ed="#Bc"/>autem causatur ex corruptione cujuslibet
+<lb ed="#Bc"/>istorum etiam singulariter : quodlibet
+<lb ed="#Bc"/>enim corruptum causat malum,
+</p>
+               <p xml:id="Almn78-g02405-d1e759">
+                  <lb ed="#Bc"/>Ad Primo ergo dicendum, quod 
+inten<lb ed="#Bc" break="no"/>tio confert aliquid bonitati, sed non 
+to<lb ed="#Bc" break="no"/>tam bonitatem. sed cum sit radix boni
+<lb ed="#Bc"/>operis, influit bonitatem suam super
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>opus, sed non totam operis bonitatem,
+<lb ed="#Bc"/>sicut quelibet causa influit suam 
+causali<lb ed="#Bc" break="no"/>tatem super causatum. Et sic intelligitue
+<lb ed="#Bc"/>Glossa super Mattheum.
+</p>
+               <p xml:id="Almn78-g02405-d1e781">
+                  <lb ed="#Bc"/>Av aAtiup dicendum, quod ibi non est
+<lb ed="#Bc"/>locus a minori: sed sicut jam dictum
+<lb ed="#Bc"/>est, facile est recedere a medio, sed 
+diffi<lb ed="#Bc" break="no"/>cile est invenire medium: ita facile est
+<lb ed="#Bc"/>recedere a medio virtulis, et difficile
+<lb ed="#Bc"/>invenire virtutem sive medium 
+attingen<lb ed="#Bc" break="no"/>di virtutem, et facile divertere.
+</p>
+               <p xml:id="Almn78-g02405-d1e800">
+                  <lb ed="#Bc"/>Ad untimum dicendum, quod ibi non
+<lb ed="#Bc"/>fuit furtum, sed voluit Dominus 
+trans<lb ed="#Bc" break="no"/>ferre dominium rerum illarum ad 
+He<lb ed="#Bc" break="no"/>breos, maxime propter remunerationem
+<lb ed="#Bc"/>laboris gravis luti et lateris in Augypto.
+</p>
+            </div>
+            <div xml:id="Almn78-g02405-Dd1e814">
+               <head xml:id="Almn78-g02405-Hd1e816">Membrum 3</head>
+               <head xml:id="Almn78-g02405-Hd1e819" type="question-title">
+        Utrum intentio quantitatem operi 
+        imponat, scilicet quod tantum mereatur
+        homo, quantum intenderit, vel non
+      </head>
+               <p xml:id="Almn78-g02405-d1e822">
+                  <lb ed="#Bc"/>MEMBRUM III.
+<lb ed="#Bc"/>Utrum intentio quantitatem operi 
+impo<lb ed="#Bc" break="no"/>nat, scilicet quod tantum mereatur
+<lb ed="#Bc"/>homo, quantum intenderit, vel non?
+</p>
+               <p xml:id="Almn78-g02405-d1e833">
+                  <lb ed="#Bc"/>Deiwpe ratione ejus quod dicit 
+Magi<lb ed="#Bc" break="no"/>ster in illo cap. Aliae vero qui trifariam
+<lb ed="#Bc"/>distinctionem actuum faciunt, queritur,
+<lb ed="#Bc"/>Utrum intentio quantitatem dat operi,
+<lb ed="#Bc"/>scilicet quod tantum mereatur homo,
+<lb ed="#Bc"/>quantum intendit, vel non ?
+</p>
+               <p xml:id="Almn78-g02405-d1e849">
+                  <lb ed="#Bc"/>Et videtur, quod sic. Matth. xu, 35:
+<lb ed="#Bc"/>Bonus homo de bono thesauro, scilicet
+<lb ed="#Bc"/>cordis sui, profert bona. Ibi Glossa 
+Be<lb ed="#Bc" break="no"/>de: <quote xml:id="Almn78-g02405-Qd1e859"> Quantum boni intendis, tantum
+<lb ed="#Bc"/>facis.</quote> Et ibidem : Malus homo de malo
+<lb ed="#Bc"/>thesauro, scilicet cordis sui, profert 
+ma<lb ed="#Bc" break="no"/>la, Glossa Bede: <quote xml:id="Almn78-g02405-Qd1e869"> Quantum malum 
+in<lb ed="#Bc" break="no"/>tendis, tantum facis. </quote> Ergo videtur,
+<lb ed="#Bc"/>quod in utroque, scilicet bono et malo,
+<lb ed="#Bc"/>intentio quantitatem dat operi.
+</p>
+               <p xml:id="Almn78-g02405-d1e880">
+                  <lb ed="#Bc"/>ConTRA :
+<lb ed="#Bc"/>1. Supra in distinclione XXXVIII di
+<pb ed="#Bc" n="465"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>ctum est et probatum, quod aliquis per
+<lb ed="#Bc"/>errorem intendit peccare per 
+fornicatio<lb ed="#Bc" break="no"/>nem venialiter, sicut Greci, qui dicunt
+<lb ed="#Bc"/>fornicationem non esse peccatum 
+mor<lb ed="#Bc" break="no"/>tale. Secundum hoc ergo fornicator 
+pec<lb ed="#Bc" break="no"/>caret venialiter: quod falsum est et 
+he<lb ed="#Bc" break="no"/>reticum, quia contra Scripturam est.
+</p>
+               <p xml:id="Almn78-g02405-d1e906">
+                  <lb ed="#Bc"/>2. Adhuc, Secundum hoc quilibet 
+pos<lb ed="#Bc" break="no"/>set dicere: Non intendi malum cum 
+ma<lb ed="#Bc" break="no"/>lum facit, sicut dicitur, Joan. xvi, 2:
+<lb ed="#Bc"/>Venit hora, ut omnis qui interficit vos,
+<lb ed="#Bc"/>arbitretur obsequium se prestare Deo.
+<lb ed="#Bc"/>Et hic error est pessimus.
+</p>
+               <p xml:id="Almn78-g02405-d1e922">
+                  <lb ed="#Bc"/>Sosurio. Dicendum, quod ad hoc in
+<lb ed="#Bc"/>prehabitis conveniens solutio data est,
+<lb ed="#Bc"/>scilicet quod duplex est intentio : operis,
+<lb ed="#Bc"/>et intendentis. Secundum intentionem
+<lb ed="#Bc"/>operis verum est quod hic dicitur, quia
+<lb ed="#Bc"/>illa quantitatem dat merito : secundum
+<lb ed="#Bc"/>enim devotionem fidei et charitatis ex qua
+<lb ed="#Bc"/>aliquis aliquid facit, tantum meretur. Et
+<lb ed="#Bc"/>similiter est in malo: secundum 
+quanti<lb ed="#Bc" break="no"/>tatem contemptus quo Deum contemnit,
+<lb ed="#Bc"/>tantum peccat. Unde antiqui Magistri
+<lb ed="#Bc"/>dixerunt, quod homo elevando calamum
+<lb ed="#Bc"/>potest peccare mortaliter, quando fit in
+<lb ed="#Bc"/>contemptum et in vitium Dei. Tamen
+<lb ed="#Bc"/>Altisidorensis aliquantulum aliter dixit,
+<lb ed="#Bc"/>sed intendens idem dicere. Dixit enim,
+<lb ed="#Bc"/>quod quando dicitur: Quantum intendis,
+<lb ed="#Bc"/>tantum facis: quod guantum et tantum
+<lb ed="#Bc"/>possunt sumi nominaliter, vel 
+adverbia<lb ed="#Bc" break="no"/>liter. Adverbialiter ut sit sensus, ex
+<lb ed="#Bc"/>quanta fide et ex quanta charitate: quia
+<lb ed="#Bc"/>prepositio cum ablativo transit in vim
+<lb ed="#Bc"/>adverbii, sicut manu te percussi, id
+<lb ed="#Bc"/>est, manualiter te percussi. Nominaliter
+<lb ed="#Bc"/>tunc potest redire ad supradictam 
+distin<lb ed="#Bc" break="no"/>ctionem, scilicet de intentione operis, et
+<lb ed="#Bc"/>de intentione intendentis. Secundum 
+in<lb ed="#Bc" break="no"/>tentionem ergo operis sic verum est : sed
+<lb ed="#Bc"/>secundum intentionem intendentis sic
+<lb ed="#Bc"/>non verum est: quia illa erronea est.
+</p>
+               <p xml:id="Almn78-g02405-d1e990">
+                  <lb ed="#Bc"/>Et sie procedunt duz objectiones factee
+<lb ed="#Bc"/>in conirarium.
+</p>
+               <p xml:id="Almn78-g02405-d1e997">
+                  <cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>Contra omnia tamen ista, scilicet quod
+<lb ed="#Bc"/>fides intentionem dirigat, et charitas 
+in<lb ed="#Bc" break="no"/>formet in bonis, quidam objiciunt sic:
+<lb ed="#Bc"/>dicentes,
+</p>
+               <p xml:id="Almn78-g02405-d1e1010">
+                  <lb ed="#Bc"/>1. Quod ratio per seipsam sufficit 
+di<lb ed="#Bc" break="no"/>rigere intentionem: unde fides non 
+re<lb ed="#Bc" break="no"/>quiritur.
+</p>
+               <p xml:id="Almn78-g02405-d1e1020">
+                  <lb ed="#Bc"/>2. Similiter, Charitas ines! secundum
+<lb ed="#Bc"/>affectum, non secundum adspectum: 
+ad<lb ed="#Bc" break="no"/>spectus autem est dirigere, et non 
+affe<lb ed="#Bc" break="no"/>ctus.
+</p>
+               <p xml:id="Almn78-g02405-d1e1031">
+                  <lb ed="#Bc"/>Adhuc querunt, Quare spes non 
+poni<lb ed="#Bc" break="no"/>tur inter dirigentia, cum sit una de 
+tri<lb ed="#Bc" break="no"/>bus theologicis virtutibus ?
+</p>
+               <p xml:id="Almn78-g02405-d1e1040">
+                  <lb ed="#Bc"/>Solutio. Dicendum. quod sine dubio
+<lb ed="#Bc"/>fides intentionem dirigit, et charitas 
+in<lb ed="#Bc" break="no"/>format, et quantitatem dat operi.
+</p>
+               <p xml:id="Almn78-g02405-d1e1049">
+                  <lb ed="#Bc"/>Ex guop objicitur de ratione, 
+dicen<lb ed="#Bc" break="no"/>dum quod ratio non informata fide non
+<lb ed="#Bc"/>sufficienter dirigit: quia finem verum
+<lb ed="#Bc"/>non ostendit quem fides ostendit. In
+<lb ed="#Bc"/>finem enim beatitudinis dirigit fides, 
+eri<lb ed="#Bc" break="no"/>git spes, ducit charitas. Et ideo dicitur
+<lb ed="#Bc"/>fides substantia rerum sperandarum ',
+<lb ed="#Bc"/>Glossa, id est, fundamentum: quia facit
+<lb ed="#Bc"/>subsistere res sperandas in nobis sicut
+<lb ed="#Bc"/>finem omnium operum nostrorum et
+<lb ed="#Bc"/>meritorum. Et sicut Glossa ibidem dicit,
+<lb ed="#Bc"/>intelligitur de fide que per dilectionem
+<lb ed="#Bc"/>operatur.
+</p>
+               <p xml:id="Almn78-g02405-d1e1080">
+                  <lb ed="#Bc"/>Er guop objicitur de charitate, jam 
+di<lb ed="#Bc" break="no"/>ctum est, quia charitas dirigit in 
+eter<lb ed="#Bc" break="no"/>nam beatitudinem quasi adhibendo vim
+<lb ed="#Bc"/>motivam et incitativam et tractivam
+<lb ed="#Bc"/>per affectum ad progrediendum. Osee,
+<lb ed="#Bc"/>x1, 4: In funieulis Adam traham eos,
+<lb ed="#Bc"/>in vineulis charitatis. Unde in primo
+<lb ed="#Bc"/>capite istius distinctionis multa 
+addun<lb ed="#Bc" break="no"/>tur, quod extra fidem nulla virtus sit, et
+<lb ed="#Bc"/>nullam bonum meritorium: quia dicit
+<lb ed="#Bc"/>Augustinus, et ibi inducitur : <quote xml:id="Almn78-g02405-Qd1e1106"> Quod
+<lb ed="#Bc"/>in fide non fit, et ad charitatem non 
+re<lb ed="#Bc" break="no"/>fertur, non fit quemadmodum oportet. </quote>
+                  <lb ed="#Bc"/>Et ideo dicitur in Glossa super illud
+<lb ed="#Bc"/>Psalmi txxxiu, 4: Passer invenit sibi do
+<pb ed="#Bc" n="466"/>
+                  <cb ed="#Ba" n="a"/>
+                  <lb ed="#Bc" break="no"/>mum, quod qui pullos bonorum operum
+<lb ed="#Bc"/>extra Ecclesiam facit, et in nido Ecclesia
+<lb ed="#Bc"/>non collocat tamquam in altari, pulli
+<lb ed="#Bc"/>conculcantur, et nen sufficiunt ad 
+sacri<lb ed="#Bc" break="no"/>ficium Domini.
+</p>
+               <p xml:id="Almn78-g02405-d1e1133">
+                  <lb ed="#Bc"/>Quop autem queritur de spe, jam di~
+<lb ed="#Bc"/>clum est, quod spes in illa intentione 
+eri<lb ed="#Bc" break="no"/>git: et isti sunt funiculi charitatis, 
+qui<lb ed="#Bc" break="no"/>bus trahit hominem Deus,et tendere facit
+<lb ed="#Bc"/>in beatitudinem. Et ideo dicit Augustinus
+<lb ed="#Bc"/>in libro Sententiarum Prosperi: <quote xml:id="Almn78-g02405-Qd1e1148"> Ubi
+<lb ed="#Bc"/>deest agnitio aterne veritatis, falsa 
+vir<lb ed="#Bc" break="no"/>tus est, etiam in optimis moribus. </quote> Ad
+<lb ed="#Bc"/>Roman. xiv, 23: Omne quod non est ex
+<lb ed="#Bc"/>fide, peccatum est. Unde dicitur in 
+eo<lb ed="#Bc" break="no"/>dem capitulo istius distinctionis, et est
+<lb ed="#Bc"/>Augustini verbum, quod illi qui sunt
+<cb ed="#Bc" n="b"/>
+                  <lb ed="#Bc"/>extra fidem, multa possunt facere de 
+ge<lb ed="#Bc" break="no"/>nere bonorum, sicut Judei et Sarraceni,
+<lb ed="#Bc"/>sed nihil possunt remunerabile ad vitam
+<lb ed="#Bc"/>zternam. Possunt etiam facere utilia,
+<lb ed="#Bc"/>propter que disponuntur et vicinantur
+<lb ed="#Bc"/>ad salutem. Possunt facere signa boni,
+<lb ed="#Bc"/>per que edificant proximum. Possunt.
+<lb ed="#Bc"/>etiam facere opera misericordie, quibus
+<lb ed="#Bc"/>juvant proximum. Et haec non sunt 
+per<lb ed="#Bc" break="no"/>fecte bona nisi fiant intentione quam
+<lb ed="#Bc"/>fides dirigit, et charitas informat, sicut
+<lb ed="#Bc"/>dictum est.
+</p>
+               <p xml:id="Almn78-g02405-d1e1194">
+                  <lb ed="#Bc"/>Quop autem ulterius esset querendum,
+<lb ed="#Bc"/>Utrum omne peccatum sit voluntarium ?
+<lb ed="#Bc"/>In libro Il Sententiarum, distinct. XXIV,
+<lb ed="#Bc"/>questione de libero arbitrio et voluntate
+<lb ed="#Bc"/>disputatum est multum: et ibi 
+requira<lb ed="#Bc" break="no"/>tur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

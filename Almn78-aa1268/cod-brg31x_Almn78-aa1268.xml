@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Ba" n="11"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-aa1268"><!-- p1t1q2 -->
+            <head xml:id="Almn78-aa1268-Hd1e106">Quaestio 2</head>
+            <head xml:id="Almn78-aa1268-Hd1e109" type="question-title">Quid sit theologia secundum definitionem</head>
+            <p xml:id="Almn78-aa1268-d1e112">
+
+               <pb ed="#Ba" n="11"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>QUAESTIO II.
+<lb ed="#Ba"/>Quid sit theologia secundum definitionem ?
+</p>
+            <p xml:id="Almn78-aa1268-d1e123">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Secundo queritur, Quid est theologia
+<lb ed="#Ba"/>per rationem definitivam ?
+</p>
+            <p xml:id="Almn78-aa1268-d1e132">
+               <lb ed="#Ba"/>Et dicit Augustinus in libro XIV de
+<lb ed="#Ba"/>Trinitate, quod <quote xml:id="Almn78-aa1268-Qd1e138"> theologia est scientia
+<lb ed="#Ba"/>qu est de rebus ad salutem hominum
+<lb ed="#Ba"/>pertinentibus *. </quote>
+            </p>
+            <p xml:id="Almn78-aa1268-d1e147">
+               <lb ed="#Ba"/>Item, Ibidem dicit : <quote xml:id="Almn78-aa1268-Qd1e151"> Non quidquid
+<lb ed="#Ba"/>sciri potest ab hominibus in rebus 
+hu<lb ed="#Ba" break="no"/>manis, ubi plurimum est supervacue
+<lb ed="#Ba"/>vanitatis, aut noxiae curiositatis, huic
+<lb ed="#Ba"/>scientie tribuo : sed id solummodo quo
+<lb ed="#Ba"/>fides saluberrima, que ad veram 
+beati<lb ed="#Ba" break="no"/>tudinem ducit, gignitur, nutritur, et 
+ro<lb ed="#Ba" break="no"/>boratur. </quote>
+            </p>
+            <p xml:id="Almn78-aa1268-d1e170">
+               <lb ed="#Ba"/>Ex quo accipitur, quod theologia
+<lb ed="#Ba"/>scientia est, ea que sunt ad fidem 
+gene<lb ed="#Ba" break="no"/>randam, nutriendam, roborandam 
+con<lb ed="#Ba" break="no"/>siderans.
+</p>
+            <p xml:id="Almn78-aa1268-d1e181">
+               <lb ed="#Ba"/>Contra PrivaM harum definitionum
+<lb ed="#Ba"/>objicitur sic :
+</p>
+            <p xml:id="Almn78-aa1268-d1e188">
+               <lb ed="#Ba"/>1. Theologia de multis est, que non
+<lb ed="#Ba"/>directe ad salutem hominis pertinent,
+<lb ed="#Ba"/>que in diversis narrantur historiis. Ergo
+<lb ed="#Ba"/>non tantum est de his que ad salutem
+<lb ed="#Ba"/>hominis pertinent.
+</p>
+            <p xml:id="Almn78-aa1268-d1e201">
+               <lb ed="#Ba"/>2. Adhuc, De peccatis est, que ad
+<lb ed="#Ba"/>silutem hominis non pertinent, sed
+<lb ed="#Ba"/>potius impediunt, non ergo est de
+<lb ed="#Ba"/>his quae ad salutem hominis pertinent
+<lb ed="#Ba"/>tantum.
+</p>
+            <p xml:id="Almn78-aa1268-d1e214">
+               <lb ed="#Ba"/>Contra sEcunpAM vero definitionem
+<lb ed="#Ba"/>sic objicitur :
+<lb ed="#Ba"/>1. Fides enim saluberrima in quan-
+  <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba" break="no"/>tum fides, gignitur per miracula, et in
+<lb ed="#Ba"/>quantum saluberrima, informatur per
+<lb ed="#Ba"/>charitatem. Secundum hoc ergo tota
+<lb ed="#Ba"/>theologia esse debet de miraculis et 
+cha<lb ed="#Ba" break="no"/>ritate : quod constat esse falsum.
+</p>
+            <p xml:id="Almn78-aa1268-d1e237">
+               <lb ed="#Ba"/>2. Adhuc, Diffinitio et nomen per 
+im<lb ed="#Ba" break="no"/>plicitum et explicitum idem dicunt :
+<lb ed="#Ba"/>nomen autem theologiae non dicit nisi
+<lb ed="#Ba"/>sermonem vel rationem de Deo : ergo
+<lb ed="#Ba"/>videtur, quod in diffinitione non plus
+<lb ed="#Ba"/>debeat contineri : non ergo debet poni,
+<lb ed="#Ba"/>quod sit de his que ad salutem hominis
+<lb ed="#Ba"/>pertinent.
+</p>
+            <p xml:id="Almn78-aa1268-d1e257">
+               <lb ed="#Ba"/>3. Adhuc, Dicit Augustinus in libro
+<lb ed="#Ba"/>Il de Libero arbitrio, quod <quote xml:id="Almn78-aa1268-Qd1e263"> virtus est
+<lb ed="#Ba"/>bona qualitas mentis, qua recte vivitur,
+<lb ed="#Ba"/>qua nemo male utitur, quam Deus 
+ope<lb ed="#Ba" break="no"/>ratur in nobis sine nobis ®. </quote> Secundum
+<lb ed="#Ba"/>hoc ergo theologia non esset nisi de
+<lb ed="#Ba"/>Deo in quantum gignit in nobis virtutes :
+<lb ed="#Ba"/>nihil enim gignit in nobis virtutes nisi
+<lb ed="#Ba"/>Deus.
+</p>
+            <p xml:id="Almn78-aa1268-d1e282">
+               <lb ed="#Ba"/>Solutio. Ad haec et similia dicendum,
+<lb ed="#Ba"/>quod sicut dicitur ad Titum, 1, 1, 
+theo<lb ed="#Ba" break="no"/>logia scientia est secundum pietatem,
+<lb ed="#Ba"/>hoc est, quod non est de scibili 
+simpli<lb ed="#Ba" break="no"/>citer ut scibile est, nec de omni scibili,
+<lb ed="#Ba"/>sed secundum quod est inclinans ad
+<lb ed="#Ba"/>pietatem. Pietas autem, ut dicit 
+Augu<lb ed="#Ba" break="no"/>stinus, cultus Dei est, qui perficitur fide,
+<lb ed="#Ba"/>spe, charitate, oratione, et sacrificiis.
+<lb ed="#Ba"/>Et hoc modo theologia scientia est de his
+<lb ed="#Ba"/>que ad salutem pertinent : pietas enim
+<lb ed="#Ba"/>conducit ad salutem. Hoc etiam modo
+<pb ed="#Ba" n="12"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Ba"/>est de his ex quibus fides generatur,
+<lb ed="#Ba"/>nutritur, et roboratur in nobis quantum
+<lb ed="#Ba"/>ad assensum prime veritatis. Assensus
+<lb ed="#Ba"/>est prime veritatis propter se et super
+<lb ed="#Ba"/>omnia : fides est in actu. Hunc autem
+<lb ed="#Ba"/>assensum inductive quedam generant,
+<lb ed="#Ba"/>sicut auditus operum et miraculorum,
+<lb ed="#Ba"/>sive in seipso, sive in factis Sanctorum,
+<lb ed="#Ba"/>sive etiam in judiciis et penis malorum,
+<lb ed="#Ba"/>sive in mundi constitutione, lapsu 
+ho<lb ed="#Ba" break="no"/>minis, in recreatione et glorificatione
+<lb ed="#Ba"/>Sanctorum. <ref xml:id="Almn78-aa1268-Rd1e340">Ad Roman. x, 17</ref> : <quote xml:id="Almn78-aa1268-Qd1e343" source="http://scta.info/resource/rom10_17">Fides
+<lb ed="#Ba"/>est ex auditu : auditus autem per 
+ver<lb ed="#Ba" break="no"/>bum Christi</quote>. Haec etiam saepius 
+medi<lb ed="#Ba" break="no"/>tata fidem nutriunt ut calescat, et 
+con<lb ed="#Ba" break="no"/>fortant ut avertentibus resistat. Et de
+<lb ed="#Ba"/>omnibus his in quantum hujusmodi sunt,
+<lb ed="#Ba"/>theologia est.
+</p>
+            <p xml:id="Almn78-aa1268-d1e360">
+               <lb ed="#Ba"/>Ad primum ergo dicendum, quod sicut
+<lb ed="#Ba"/>dicit Aristoteles, nihil prohibet unam
+<lb ed="#Ba"/>scientiam esse plurium, velut amborum
+<lb ed="#Ba"/>finium : unius tamquam finis, alterius
+<lb ed="#Ba"/>tamquam ejus quod est ad finem. Et
+<lb ed="#Ba"/>ideo theologia est de his que ad 
+salu<lb ed="#Ba" break="no"/>tem pertinent ut finis : de multis autem
+<lb ed="#Ba"/>aliis est ut inclinantibus ad pietatem
+<lb ed="#Ba"/>que ducit ad finem: et haec in 
+theolo<lb ed="#Ba" break="no"/>gia describuntur.
+</p>
+            <p xml:id="Almn78-aa1268-d1e384">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod de peccatis
+<lb ed="#Ba"/>est theologia, in quantum per fugam
+<lb ed="#Ba"/>eorum inclinant ad pietatem, sicut 
+me<lb ed="#Ba" break="no"/>dicina de egritudinibus est, docens 
+per<lb ed="#Ba" break="no"/>severare corpora ne egritudinem 
+inci<lb ed="#Ba" break="no"/>dant : siegra sint, docet quibus 
+antido<lb ed="#Ba" break="no"/>tis ab egritudine purgentur et liberentur.
+<lb ed="#Ba"/>Et hoc modo theologia tractat de 
+pec<lb ed="#Ba" break="no"/>catis et remediis peccatorum.
+</p>
+            <p xml:id="Almn78-aa1268-d1e406">
+               <cb ed="#Ba" n="b"/>
+               <lb ed="#Ba"/>Ex ms facile patet respondere ad 
+se<lb ed="#Ba" break="no"/>quens.
+</p>
+            <p xml:id="Almn78-aa1268-d1e416">
+               <lb ed="#Ba"/>Ad aliud dicendum, quod theologia
+<lb ed="#Ba"/>nomine ipso non dicit nisi rationem vel
+<lb ed="#Ba"/>sermonem de Deo: sermo autem de Deo
+<lb ed="#Ba"/>debet esse determinativus Dei, non
+<lb ed="#Ba"/>secundum esse et substantiam tantum,
+<lb ed="#Ba"/>sed secundum quod est principium et
+<lb ed="#Ba"/>finis eorum que sunt : quia aliter
+<lb ed="#Ba"/>imperfecte cognoscitur. Non autem est
+<lb ed="#Ba"/>principium et finis nisi per ea que ad
+<lb ed="#Ba"/>exitum rerum ab ipso et ad 
+reductio<lb ed="#Ba" break="no"/>nem rerum ad ipsum pertinent : et haec
+<lb ed="#Ba"/>sunt que pertinent ad salutem hominis.
+<lb ed="#Ba"/>Et per hoc patet solutio.
+</p>
+            <p xml:id="Almn78-aa1268-d1e447">
+               <lb ed="#Ba"/>Ad woc quod objicitur, quod solus
+<lb ed="#Ba"/>Deus operatur fidem in nobis et 
+virtu<lb ed="#Ba" break="no"/>tes, dicendum quod licet solus efficienter
+<lb ed="#Ba"/>operetur dando gratiam prevenientem
+<lb ed="#Ba"/>et subsequentem, in virtutibus tamen
+<lb ed="#Ba"/>multa sunt que inductive et inclinative
+<lb ed="#Ba"/>ad hoc cooperantur ex parte nostra, 
+se<lb ed="#Ba" break="no"/>cundum quod fides est ex auditu 
+interio<lb ed="#Ba" break="no"/>ri vel exteriori.
+</p>
+            <p xml:id="Almn78-aa1268-d1e469">
+               <lb ed="#Ba"/>Ex his accipitur, quod theologia 
+scien<lb ed="#Ba" break="no"/>tia religiosa est, secundum quod Tullius
+<lb ed="#Ba"/>in fine prime rhetorice religionem 
+dif<lb ed="#Ba" break="no"/>finit, dicens, quod <quote xml:id="Almn78-aa1268-Qd1e479"> religio est que
+<lb ed="#Ba"/>curam ceremoniamque cuidam nature
+<lb ed="#Ba"/>quam superiorem vocant, affert. </quote>
+            </p>
+            <p xml:id="Almn78-aa1268-d1e487">
+               <lb ed="#Ba"/>Patet etiam, quod est scientia, 
+secun<lb ed="#Ba" break="no"/>dum quod sanctitatem in libro de Bonts
+<lb ed="#Ba"/>laudabilibus diffinit Aristoteles, dicens
+<lb ed="#Ba"/>quod <quote xml:id="Almn78-aa1268-Qd1e497"> sanctitas est scientia scire faciens
+<lb ed="#Ba"/>que ad Deum justa sunt. </quote> Sapient. x,
+<lb ed="#Ba"/>10: Dedit illi seientiam Sanctorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

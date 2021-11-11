@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h12617"><!-- p2t13prae -->
+            <head xml:id="Almn78-h12617-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-h12617-d1e109">
+               <pb ed="#Bc" n="58"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>TRACTATUS  XIII.
+<lb ed="#Bc"/>DE FORMATIONE HOMINIS JUNCTA ANIMA.
+</p>
+            <p xml:id="Almn78-h12617-d1e120">
+               <lb ed="#Bc"/>Hic autem determinato de formatione hominis secundum animam, tangit
+<lb ed="#Bc"/>Magister formationem hominis secundum corpus in libro II Sententiarum,
+<lb ed="#Bc"/>distinct XVII, cap. 1, sic dicens : <quote xml:id="Almn78-h12617-Qd1e128"> Sicut hominis formatio secundum 
+cor<lb ed="#Bc" break="no"/>pus describitur, cum dicitur : Formavit Deus hominem de limo terre 1. </quote>
+               <lb ed="#Bc"/>Et paulo post: <quote xml:id="Almn78-h12617-Qd1e136"> Corpus enim de limo terre formavit Deus cul animam
+<lb ed="#Bc"/>inspiravit. </quote>
+            </p>
+            <p xml:id="Almn78-h12617-d1e142">
+               <lb ed="#Bc"/>Propter quod tractandum est hic de formatione hominis secundum 
+cor<lb ed="#Bc" break="no"/>pus.
+<lb ed="#Bc"/>Ubi quinque querenda sunt, scilicet si ab alio quam a Deo potuit 
+for<lb ed="#Bc" break="no"/>mari corpus hominis primi ?
+<lb ed="#Bc"/>Secundum, De complexione et natura formati corporis.
+<lb ed="#Bc"/>Tertium, De unione corporis cum anima ?
+<lb ed="#Bc"/>Quartum, Utrum tale corpus fuerit animale, et qua animalitate ?
+<lb ed="#Bc"/>Quintum, De habitatione paradisi que congruebat tali'corpori.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

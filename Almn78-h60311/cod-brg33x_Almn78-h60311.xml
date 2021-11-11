@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bc" n="276"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-h60311"><!-- p2t17prae -->
+            <head xml:id="Almn78-h60311-Hd1e106">Praeambulum</head>
+            <p xml:id="Almn78-h60311-d1e109">
+               <pb ed="#Bc" n="276"/>
+               <cb ed="#Ba" n="a"/>
+               <lb ed="#Bc"/>TRACTATUS  XVII.
+<lb ed="#Bc"/>DE PECCATO ORIGINALI, ET QUIBUSDAM 
+CIRCUM<lb ed="#Bc" break="no"/>STANTIBUS IPSUM.
+</p>
+            <p xml:id="Almn78-h60311-d1e122">
+               <lb ed="#Bc"/>Deinde sunt tractanda ea que dicuntur a Magistro in libro Il 
+Sententia<lb ed="#Bc" break="no"/>rum, distinct. XXIX, que incipit ibi, Post hec considerandum est. In qua
+<lb ed="#Bc"/>Magister in septem capitulis per ordinem posilis sex dicit esse querenda.
+</p>
+            <p xml:id="Almn78-h60311-d1e131">
+               <lb ed="#Bc"/>Primum est, Utrum homo ante peccatum in primo statu indiguerit gratia
+<lb ed="#Bc"/>operante et cooperante ?
+<lb ed="#Bc"/>Secundum est, Utrum ante peccatum habuerit virlutes, vel non ?
+<lb ed="#Bc"/>Tertium est, De ejectione hominis de paradiso.
+<lb ed="#Bc"/>Quartum est, De flammeo gladio posito ante paradisum.
+<lb ed="#Bc"/>Quintum est, Utrum ante peccatum comederint de ligno vite, vel non, et
+<lb ed="#Bc"/>quare non sunt facti immortales si comederunt ?
+<lb ed="#Bc"/>Sextum, Quomodo intelligatur illud, Nunc ergo ne forte mittat manum
+<lb ed="#Bc"/>suam, et sumat de ligno vite, ef comedat, et vivat in elernum' ?.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

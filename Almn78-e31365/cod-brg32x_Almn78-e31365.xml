@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 61</title>
+            <author ref="#Albert">Albert the Great</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 61</title>
+               <date when="2021-11-11">November 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-11-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Bb" n="591"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Almn78-e31365"><!-- p2t11q61 -->
+            <head xml:id="Almn78-e31365-Hd1e106">Quaestio 61</head>
+            <head xml:id="Almn78-e31365-Hd1e109" type="question-title">
+      De opere sextae diei
+    </head>
+            <p xml:id="Almn78-e31365-d1e112">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>QUAESTIO LXI.
+      <lb ed="#Bb"/>De opere sextae diei, quare dicat :
+      <lb ed="#Bb"/>aducat terra’, cum virtus
+      <lb ed="#Bb"/>producendi talia non sit in terra, sed secundum astronomos
+      <lb ed="#Bb"/>sit in coelo ?
+    </p>
+            <p xml:id="Almn78-e31365-d1e128">
+               <lb ed="#Bb"/>Deinde, Queritur de hoc quod dicit
+      <lb ed="#Bb"/>Magister in libro II Sententiarum, 
+      di<lb ed="#Bb" break="no"/>stinct. XV, cap. Sequitur, Dixit Deus:
+      <lb ed="#Bb"/>Producat terra animam viventem in 
+      ge<lb ed="#Bb" break="no"/>nere suo, gumenta, et reptilia, et bestias
+      <lb ed="#Bb"/>terre secundum species, ubi, sicut dicit,
+      <lb ed="#Bb"/>sexte diei opus describitur.
+    </p>
+            <p xml:id="Almn78-e31365-d1e146">
+               <lb ed="#Bb"/>Et queritur primo, quare dicat: 
+      Pro<lb ed="#Bb" break="no"/>ducat terra.
+    </p>
+            <p xml:id="Almn78-e31365-d1e154">
+               <lb ed="#Bb"/>1. Cum virtus producendi talia non sit
+      <lb ed="#Bb"/>in terra, sed secundum Asironomos sit
+      <lb ed="#Bb"/>in celo: ita quod Albumasar dicit in 
+      Jn<lb ed="#Bb" break="no"/>troductorio, quod Virgo in cujus facie
+      <lb ed="#Bb"/>prima oritur constellatio quedam ad si
+      <pb ed="#Bb" n="592"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>militudinem virginis in gremio habentis
+      <lb ed="#Bb"/>puerum, que tante virtutis est ut 
+      foecun<lb ed="#Bb" break="no"/>ditatem quibusdam virginibus afferat sine
+      <lb ed="#Bb"/>commixtione virili. Et dat exemplum,
+      <lb ed="#Bb"/>quod penitus hereticum est, quod beata
+      <lb ed="#Bb"/>Virgo sic conceperat Jesum quem gens
+      <lb ed="#Bb"/>Christianorum adorat.
+    </p>
+            <p xml:id="Almn78-e31365-d1e187">
+               <lb ed="#Bb"/>2. Adhuc, Damascenus dicit, quod 
+      cu<lb ed="#Bb" break="no"/>juslibet speciei animalis perfecti prime
+      <lb ed="#Bb"/>duz hypostases masculus et foemina,
+      <lb ed="#Bb"/>primo immediate a Deo create sunt, in
+      <lb ed="#Bb"/>quibus propter distinctos sexus 
+      semen<lb ed="#Bb" break="no"/>tiva vis est propagandi. Et si ita est, non
+      <lb ed="#Bb"/>debuit dicere: Producat terra, sed ego
+      <lb ed="#Bb"/>producam in terra.
+    </p>
+            <p xml:id="Almn78-e31365-d1e207">
+               <lb ed="#Bb"/>3. Adhuc, Querit Augustinus, Cum
+      <lb ed="#Bb"/>multorum animalium, eorum  scilicet
+      <lb ed="#Bb"/>que nascuntur ex pulrefactione, 
+      semen<lb ed="#Bb" break="no"/>tiva virtus sit in istis elementis, sicut et
+      <lb ed="#Bb"/>plantarum: et non sit in eis distinctio
+      <lb ed="#Bb"/>sexus, sicut nec in plantis: quare in
+      <lb ed="#Bb"/>communi productione animalium non
+      <lb ed="#Bb"/>eodem modo dicit de illis sicut de 
+      plan<lb ed="#Bb" break="no"/>tis : Germinet terra, sed communiter
+      <lb ed="#Bb"/>dixit: Producat terra?
+    </p>
+            <p xml:id="Almn78-e31365-d1e231">
+               <lb ed="#Bb"/>Ulterius queritur, Quas sit differentia
+      <lb ed="#Bb"/>eorum que dicit sumenta, reptilia, et
+      <lb ed="#Bb"/>bestias terre secundum species suas,
+    </p>
+            <p xml:id="Almn78-e31365-d1e240">
+               <lb ed="#Bb"/>Quaair etiam Magister ulterius in 
+      li<lb ed="#Bb" break="no"/>bro II Sententiarum, distinct. XV, cap.
+      <lb ed="#Bb"/>Quezri solet de venenosis et perniciosis
+      <lb ed="#Bb"/>animantibus, Utrum post peccatum 
+      ho<lb ed="#Bb" break="no"/>minis ad vindictam creata sint, an prius
+      <lb ed="#Bb"/>creata innozia fuerint, et post peccatum
+      <lb ed="#Bb"/>nocere ceperint ?
+    </p>
+            <p xml:id="Almn78-e31365-d1e258">
+               <lb ed="#Bb"/>Et videtur, quod primo fuerint 
+      inno<lb ed="#Bb" break="no"/>Xia? quia
+    </p>
+            <p xml:id="Almn78-e31365-d1e266">
+               <lb ed="#Bb"/>1. Poenae instrumentum non est ante
+      <lb ed="#Bb"/>peccatum quod pcenam meretur : ergo
+      <lb ed="#Bb"/>videtur, quod non fuerint nociva ante
+      <lb ed="#Bb"/>peccatum.
+    </p>
+            <p xml:id="Almn78-e31365-d1e277">
+               <lb ed="#Bb"/>2. Adhuc, Signum quod non fuerint
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>nociva, expressum est, quod mulier non
+      <lb ed="#Bb"/>horruit serpentem, quem pro certo 
+      hor<lb ed="#Bb" break="no"/>ruisset si nocivus fuisset.
+    </p>
+            <p xml:id="Almn78-e31365-d1e290">
+               <lb ed="#Bb"/>3. Adhuc, Damascenus dicit in libro II
+      <lb ed="#Bb"/>de Fide orthodoxa', quod serpens erat
+      <lb ed="#Bb"/>homini assuetus, magisaliis ei adherens,
+      <lb ed="#Bb"/>et delectabilibus ei adjunctus motibus :
+      <lb ed="#Bb"/>quod esse non posset si nocivus tunc
+      <lb ed="#Bb"/>fuisset.
+    </p>
+            <p xml:id="Almn78-e31365-d1e306">
+               <lb ed="#Bb"/>Apuuc queritur de hoc quod dicit
+      <lb ed="#Bb"/>Deus: Producat terra... bestias terre : et
+      <lb ed="#Bb"/>in aliis dictum est: Factumque est ita ?:
+      <lb ed="#Bb"/>quare hoc sit?
+    </p>
+            <p xml:id="Almn78-e31365-d1e317">
+               <lb ed="#Bb"/>Apuuc, Cum de ornatu aque 
+      loquere<lb ed="#Bb" break="no"/>tur dixit: Creavit Deus cete grandia*:
+      <lb ed="#Bb"/>hic autem dicit: Et fecit Deus bestias
+      <lb ed="#Bb"/>terre juxta species suas *.
+    </p>
+            <p xml:id="Almn78-e31365-d1e328">
+               <lb ed="#Bb"/>Et queritur, Que sit causa, quod 
+      di<lb ed="#Bb" break="no"/>versimode in istis et in illis loquitur ?
+    </p>
+            <p xml:id="Almn78-e31365-d1e336">
+               <lb ed="#Bb"/>Apuuc, In benedictione animalium
+      <lb ed="#Bb"/>non ponitur plus, nisi quod vidit Deus
+      <lb ed="#Bb"/>quod esset bonum*: sed in benedictione
+      <lb ed="#Bb"/>aquatilium et volatilium dixit: Ht vidit
+      <lb ed="#Bb"/>Deus, quod esset bonum. Benedixitque
+      <lb ed="#Bb"/>eis, dicens : Crescite, et 
+      mutltiplica<lb ed="#Bb" break="no"/>mini *,
+    </p>
+            <p xml:id="Almn78-e31365-d1e354">
+               <lb ed="#Bb"/>Et queritur, Quare hic omisit hoc,
+      <lb ed="#Bb"/>cum vis generativa istorum magis sit in
+      <lb ed="#Bb"/>ipsis distincta, scilicet per sexus, quam
+      <lb ed="#Bb"/>ilorum.
+    </p>
+            <p xml:id="Almn78-e31365-d1e365">
+               <lb ed="#Bb"/>Solutio. Dicendum ad primum, quod
+      <lb ed="#Bb"/>quando dixit Deus: Producat terra, non
+      <lb ed="#Bb"/>designat nisi quod terra sit materiale
+      <lb ed="#Bb"/>principium animalium gradientium in
+      <lb ed="#Bb"/>terra. Activum autem secundum quod
+      <lb ed="#Bb"/>est primum movens per dispositionem
+      <lb ed="#Bb"/>luminis et figuram, est celum: sed non
+      <lb ed="#Bb"/>movet ut causa necessaria quod de 
+      ne<lb ed="#Bb" break="no"/>cessitate sequatur effectus, sed movet ut
+      <lb ed="#Bb"/>disponens per accidens et per aliud, sicut 
+      <pb ed="#Bb" n="593"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>in questione de ornatu celi dictum est.
+    </p>
+            <p xml:id="Almn78-e31365-d1e396">
+               <lb ed="#Bb"/>Hoc autem quod dicit <name xml:id="Almn78-e31365-Nd1e400">Albumasar</name>, 
+      er<lb ed="#Bb" break="no"/>ror pessimus est: et viluperandi sunt qui
+      <lb ed="#Bb"/>hoc adducunt quasi pro testimonio, quod
+      <lb ed="#Bb"/>Philosophi nobis testificentur de partu
+      <lb ed="#Bb"/>Virginis. In conceptu enim Salvatoris
+      <lb ed="#Bb"/>non operatus est nisi Spiritus sanctus,
+      <lb ed="#Bb"/>sicut dicit symbolum Nicenum: <quote xml:id="Almn78-e31365-Qd1e416"> Qui
+        <lb ed="#Bb"/>conceptus est de Spiritu sancto, natus
+        <lb ed="#Bb"/>ex Maria Virgine. </quote> Talis enim 
+      ope<lb ed="#Bb" break="no"/>rans, in conceptu fcecunditatem Virgini
+      <lb ed="#Bb"/>attulit, et virginitatem non abstulit, sed
+      <lb ed="#Bb"/>sacravit. Nec pater {uit : quia de 
+      substan<lb ed="#Bb" break="no"/>tia sua nihil ad conceptum posuit, sed
+      <lb ed="#Bb"/>simplici virtute divina purissimum 
+      san<lb ed="#Bb" break="no"/>guinem Virginis in corpus concept 
+      trans<lb ed="#Bb" break="no"/>mutavit.
+    </p>
+            <p xml:id="Almn78-e31365-d1e439">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod Dama:
+      ce<lb ed="#Bb" break="no"/>nus verissime in hoc dixit quantum ad
+      <lb ed="#Bb"/>animalia perfecta: perfecta autem dico,
+      <lb ed="#Bb"/>que perfectos habent sensus et vires 
+      ani<lb ed="#Bb" break="no"/>males: talia enim virtutem sementivam
+      <lb ed="#Bb"/>non possunt habere in elementis, nec
+      <lb ed="#Bb"/>effectivam causam possunt habere in
+      <lb ed="#Bb"/>stellis.
+    </p>
+            <p xml:id="Almn78-e31365-d1e459">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod in talibus
+      <lb ed="#Bb"/>animalibus imperfectis semen sufficiens
+      <lb ed="#Bb"/>est in materia putrefacta, et activum
+      <lb ed="#Bb"/>sufficiens in radiatione stellarum, sicut
+      <lb ed="#Bb"/>dicunt Philosophi, Aristoteles, et 
+      Avi<lb ed="#Bb" break="no"/>cenna. Etideo etiam, ut dicit 
+      Augusti<lb ed="#Bb" break="no"/>nus, talia frequenter distinctionem sexus
+      <lb ed="#Bb"/>non hahent perfecte, sed virtutem et
+      <lb ed="#Bb"/>figuram : licet dicat Aristoteles in XVII
+      <lb ed="#Bb"/>Animalium, quod in omni animali est
+      <lb ed="#Bb"/>masculus et foemina, preter enchiles
+      <lb ed="#Bb"/>quod apud nos sonat anguillam, in qua
+      <lb ed="#Bb"/>non est inventus masculus vel fomina,
+      <lb ed="#Bb"/>quia nec ova nec lac invenitur habere:
+      <lb ed="#Bb"/>et in omni animali ubi est masculus et
+      <lb ed="#Bb"/>feemina, masculus semen trajicit in 
+      fo<lb ed="#Bb" break="no"/>minam preterquam in uno genere 
+      mu<lb ed="#Bb" break="no"/>scarum, quod semen format ex superfluo
+      <lb ed="#Bb"/>nutrimenti, et in inferiorem partem, 
+      lo<lb ed="#Bb" break="no"/>cum scilicet generationis, ponit intra 
+      in<lb ed="#Bb" break="no"/>feriorem partem masculi, non ut recipiat,
+      <lb ed="#Bb"/>sed ut concipiat quemdam calorem semi
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>nis jam intrinsecus concepti ex superfluo
+      <lb ed="#Bb"/>nulrimenti maturativum. Et illa in 
+      prin<lb ed="#Bb" break="no"/>cipio Genesis continentur sub reptilibus.
+      <lb ed="#Bb"/>Et quia in sensu abundant super 
+      plan<lb ed="#Bb" break="no"/>tas, propter hoc non dicit : Germinet
+      <lb ed="#Bb"/>terra talia, sed communi verbo cum 
+      ani<lb ed="#Bb" break="no"/>malibus utitur, et dicit : Producat terra.
+    </p>
+            <p xml:id="Almn78-e31365-d1e528">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, respon-
+      <lb ed="#Bb"/>dendum est per Damascenum in libro II
+      <lb ed="#Bb"/>de Fide orthodoxa, qui diversos usus
+      <lb ed="#Bb"/>animalium creatorum determinat sic 
+      di<lb ed="#Bb" break="no"/>cens: <quote xml:id="Almn78-e31365-Qd1e541"> Eduxit terra, conditore jubente,
+        <lb ed="#Bb"/>omnia genera animalium, et reptilium et
+        <lb ed="#Bb"/>ferarum et jumentorum: omnia quidem
+        <lb ed="#Bb"/>ad hominis usum opportunum. Sed 
+        ho<lb ed="#Bb" break="no"/>rum hee quidem ad escam, puta cervos,
+        <lb ed="#Bb"/>oves, dorcades sive damas, et que talia:
+        <lb ed="#Bb"/>alia vero ad ministerium que juwmenta
+        <lb ed="#Bb"/>dicuntur, quasi juvamenta, puta 
+        came<lb ed="#Bb" break="no"/>los, boves, equos, asinos, et que talia:
+        <lb ed="#Bb"/>alia vero ad jucunditatem, puta simias,
+        <lb ed="#Bb"/>et volucrum psittacos, picas, et qua
+        <lb ed="#Bb"/>talia'. </quote> Et per hoc patet differentia.
+      <lb ed="#Bb"/>Pecora autem sunt proprie que ad escam
+      <lb ed="#Bb"/>sunt. Jumenta sunt, que sunt 
+      juva<lb ed="#Bb" break="no"/>menta laborum. Fere a feritate dicta,
+      <lb ed="#Bb"/>que nocive sunt: quod nocumentum
+      <lb ed="#Bb"/>prodest homini, sicut dicit Damascenus,
+      <lb ed="#Bb"/>sic: <quote xml:id="Almn78-e31365-Qd1e580"> Sed neque tune inutilis fuit 
+        fera<lb ed="#Bb" break="no"/>rum natura illum terrens et ad 
+        cogni<lb ed="#Bb" break="no"/>tionem nostri, et ad invocationem Dei
+        <lb ed="#Bb"/>qui nos fecit, ferens vel ducens. </quote> 
+      Be<lb ed="#Bb" break="no"/>stie autem dicuntur quasi vastie, que
+      <lb ed="#Bb"/>unguibus et dent:bus laccrant vel 
+      utro<lb ed="#Bb" break="no"/>que. Que autem reptilia sunt, in 
+      pre<lb ed="#Bb" break="no"/>cedenti questione determinatum est. Hac
+      <lb ed="#Bb"/>omnia dicuntur animalia propter animalis
+      <lb ed="#Bb"/>sensum qui tactus est, ut dicit Avicenna:
+      <lb ed="#Bb"/>dicit enim sicin VI de Naturalibus:
+      <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e31365-Qd1e606">Primus sensuum propter quem animal
+        <lb ed="#Bb"/>est animal, tactus est: et propter 
+        anima<lb ed="#Bb" break="no"/>lis motum qui duplex est, scilicet motus
+        <lb ed="#Bb"/>contractionis et dilatationis, qui 
+        omni<lb ed="#Bb" break="no"/>bus et perfectis et imperfectis convenit:
+        <lb ed="#Bb"/>et motus processivus, qui fit pede, ala, et
+        <lb ed="#Bb"/>raptu corporis. </quote>
+            </p>
+            <p xml:id="Almn78-e31365-d1e623">
+               <pb ed="#Bb" n="594"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>Ad aliud dicendum sicut respondet
+      <lb ed="#Bb"/>Magister ibidem sic ex verbis Augustini
+      <lb ed="#Bb"/>super Genesim + <quote xml:id="Almn78-e31365-Qd1e636"> Sane dici potest,
+        <lb ed="#Bb"/>quod creata sunt venenosa sicut nunc
+        <lb ed="#Bb"/>sunt: sed nihil homini nocuissent si non
+        <lb ed="#Bb"/>peccasset. Puniendorum namque 
+        vitio<lb ed="#Bb" break="no"/>rum et terrendorum vel proband 
+        per<lb ed="#Bb" break="no"/>ficiendeque virtulis causa nocere 
+        ccepe<lb ed="#Bb" break="no"/>runt. Fuerunt ergo creata innoxia, sed
+        <lb ed="#Bb"/>propter peccatum facta sunt noxia. </quote>
+               <lb ed="#Bb"/>Hoc idem dicit Damascenus in libro II de
+      <lb ed="#Bb"/>Fide orthodoxa, sic: <quote xml:id="Almn78-e31365-Qd1e658"> Ante 
+        transgres<lb ed="#Bb" break="no"/>sionem igitur omnia subjecta erant 
+        ho<lb ed="#Bb" break="no"/>mini: principem enim eum constituit
+        <lb ed="#Bb"/>Deus omnium que in terra et in aquis
+        <lb ed="#Bb"/>sunt. Post transgressionem autem nocere
+        <lb ed="#Bb"/>cceperunt *. </quote> Augustinus tamen in 
+      li<lb ed="#Bb" break="no"/>bro Ll super Genesim ad litteram * 
+      que<lb ed="#Bb" break="no"/>rit, Si animalia noxia vivos homines aut
+      <lb ed="#Bb"/>penaliter ledunt, aut salubriter 
+      exer<lb ed="#Bb" break="no"/>cent, aut utiliter probant, aut 
+      ignoran<lb ed="#Bb" break="no"/>ter docent, cur in escas suas dilacerent
+      <lb ed="#Bb"/>etiam corpora hominum mortuorum ? Et
+      <lb ed="#Bb"/>respondet, quod <quote xml:id="Almn78-e31365-Qd1e686"> hec questio fit a 
+        qui<lb ed="#Bb" break="no"/>busdam, quasi aliquid intersit ad 
+        no<lb ed="#Bb" break="no"/>stram utilitatem ,caro jam exanimis in
+        <lb ed="#Bb"/>nature profunda secreta per quos 
+        trans<lb ed="#Bb" break="no"/>itus eat, unde mirabili omnipotentia
+        <lb ed="#Bb"/>creatoris reformanda rursus  servatur
+        (alias, eruatur) qua mirabili 
+        omnipoten<lb ed="#Bb" break="no"/>tia in resurrectione est reformanda :
+        <lb ed="#Bb"/>quamvis hinc doceatur propter inanes
+        <lb ed="#Bb"/>curas exanimatorum corporum suorum
+        <lb ed="#Bb"/>nulla genera mortium esse horrenda. </quote>
+            </p>
+            <p xml:id="Almn78-e31365-d1e709">
+               <lb ed="#Bb"/>Querit etiam Augustinus, ibidem?, de
+      <lb ed="#Bb"/>quibusdam minutissimis animalibus,
+      <lb ed="#Bb"/>Utrum in prima rerum conditione creata
+      <lb ed="#Bb"/>sint, an ex rebus corruptis postea 
+      gene<lb ed="#Bb" break="no"/>rata? Nam pleraque eorum aut de 
+      vivo<lb ed="#Bb" break="no"/>rum corporum vitiis, vel purgamentis,
+      <lb ed="#Bb"/>vel exhalationibus, aut cadaverum tabe
+      <lb ed="#Bb"/>gignuntur : quedam autem de 
+      corrup<lb ed="#Bb" break="no"/>tione lignorum et herbarum : quedam
+      <lb ed="#Bb"/>de corruptionibus fructuum : et Deus
+      <lb ed="#Bb"/>auctor omnium est. Et respondet sic :
+    </p>
+            <p xml:id="Almn78-e31365-d1e735">
+               <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>
+               <quote xml:id="Almn78-e31365-Qd1e741">Potest dici, que ex terra et aquis 
+        na<lb ed="#Bb" break="no"/>scuntur, tunc esse creata : in aqua enim
+        <lb ed="#Bb"/>et terra illa intelliguntur que nascuntur
+        <lb ed="#Bb"/>ex ipsis. Que vero de corporibus 
+        ani<lb ed="#Bb" break="no"/>malium gignuntur, absurdissimum est
+        <lb ed="#Bb"/>tune dicere creata, cum animalia ipsa
+        <lb ed="#Bb"/>creata sunt: nisi quia potentialiter et
+        <lb ed="#Bb"/>materialiter in ipsis erant 
+        presemi<lb ed="#Bb" break="no"/>nata, </quote>
+            </p>
+            <p xml:id="Almn78-e31365-d1e762">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod est noci-~
+      <lb ed="#Bb"/>vum in habitu, et est nocivum in actu.
+      <lb ed="#Bb"/>Secundum actum nullo modo nociva
+      <lb ed="#Bb"/>fuerunt ante peccatum. In habitu autem
+      <lb ed="#Bb"/>complexionis in quo nunc nocent, tunc
+      <lb ed="#Bb"/>etiam fuerunt, sed secundum actum 
+      no<lb ed="#Bb" break="no"/>cere non poterant propter statum 
+      inno<lb ed="#Bb" break="no"/>centie in quo fuit homo : et ideo mulier
+      <lb ed="#Bb"/>non horruit serpentem, quia horror non
+      <lb ed="#Bb"/>est nisi contra id quod est nocivum in
+      <lb ed="#Bb"/>actu.
+    </p>
+            <p xml:id="Almn78-e31365-d1e788">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod 
+      Damasce<lb ed="#Bb" break="no"/>nus intelligit, quod non erat nocivus in
+      <lb ed="#Bb"/>actu, sed motibus delectabilibus 
+      homi<lb ed="#Bb" break="no"/>num subjectus : et hoc fuit propter 
+      sta<lb ed="#Bb" break="no"/>tum innocentia, de quo dicit 
+      Augusti<lb ed="#Bb" break="no"/>nus, quod si homo in innocentia 
+      per<lb ed="#Bb" break="no"/>mansisset, nec ignis eum ureret, nec
+      <lb ed="#Bb"/>gladius eum scinderet, nec spina 
+      pun<lb ed="#Bb" break="no"/>geret, nec aqua necaret, nec venenum
+      <lb ed="#Bb"/>noceret.
+    </p>
+            <p xml:id="Almn78-e31365-d1e813">
+               <lb ed="#Bb"/>Ad id quod ulterius queritur, 
+      dicen<lb ed="#Bb" break="no"/>dum quod animalia ex aquis facta, ex
+      <lb ed="#Bb"/>facili formabili elemento facta sunt: et
+      <lb ed="#Bb"/>ideo in formatione eorum dictum est :
+      <lb ed="#Bb"/>Et factum est. Animalia autem per 
+      sen<lb ed="#Bb" break="no"/>sum et motum elevantur super naturam
+      <lb ed="#Bb"/>corporaliam creaturarum : et anima
+      <lb ed="#Bb"/>sensibilis influens vitam et motum non
+      <lb ed="#Bb"/>potuit fieri nisi operatione Dei. Probat
+      <lb ed="#Bb"/>enim Aristoteles in II de Anima, quod
+      <lb ed="#Bb"/>anima nec corpus est, nec harmonia vel
+      <lb ed="#Bb"/>compositio corporis, nec ad harmoniam
+      <lb ed="#Bb"/>essentialiter consequens. Et ideo dicit
+      <lb ed="#Bb"/>hic: Et fecit Deus : quia tale princi
+      <pb ed="#Bb" n="595"/>
+               <cb ed="#Bb" n="a"/>
+               <lb ed="#Bb"/>pium vite sensus et motus fecit in ipsis
+      <lb ed="#Bb"/>non natura, sed Deus.
+    </p>
+            <p xml:id="Almn78-e31365-d1e855">
+               <lb ed="#Bb"/>Querit autem Augustinus, Quare
+      <lb ed="#Bb"/>Deus ultimo inter elementa ornavit 
+      ter<lb ed="#Bb" break="no"/>ram? Et dicit solvendo hoc, quod ad
+      <lb ed="#Bb"/>sensum sensibilis animalis quod est 
+      or<lb ed="#Bb" break="no"/>natus terre omnia operantur elementa.
+      <lb ed="#Bb"/>Et dicit sic in libro III super Genesim ad
+      <lb ed="#Bb"/>litteram : <!--<quote>--> Quidam elementa sic 
+      distin<lb ed="#Bb" break="no"/>guunt, ut oculos ad ignem, aures ad
+      <lb ed="#Bb"/>aerem pertinere dicant : olfactum autem
+      <lb ed="#Bb"/>et gustum iribuant humide nature.
+      <lb ed="#Bb"/>Tactus autem congruit terre. Ignis enim
+      <lb ed="#Bb"/>omnia penetrat ut motum in eis faciat.
+      <lb ed="#Bb"/>Inchoat enim anima motum suum in
+      <lb ed="#Bb"/>omnibus sensibus a subtilitate ignis, sed
+      <lb ed="#Bb"/>non in omnibus ad idem pervenit. In
+      <lb ed="#Bb"/>visu enim pervenit represso calore usque
+      <lb ed="#Bb"/>ad ejus lumen. In auditu usque ad 
+      li<lb ed="#Bb" break="no"/>quidiorem aerem calore ignis penetrat.
+      <lb ed="#Bb"/>Tn olfactu transit aerem purum, et 
+      per<lb ed="#Bb" break="no"/>venit usque ad humidam exhalationem,
+      <lb ed="#Bb"/>unde crassior hee aura subsistit. In
+      <lb ed="#Bb"/>gusiu vero etiam hanc transit et 
+      perve<lb ed="#Bb" break="no"/>nit usque ad humorem corpulentiorem,
+      <lb ed="#Bb"/>in quo etiam sapores fiunt : quo etiam
+      <lb ed="#Bb"/>penctrato atque trajecto, cum ad 
+      terre<lb ed="#Bb" break="no"/>nam gravitatem pervenit, tangendi 
+      ulti<lb ed="#Bb" break="no"/>mum sensum agit. Hunc ordinem non
+      <lb ed="#Bb"/>ignorabat qui conditionem eorum que
+      <lb ed="#Bb"/>intra mundum sunt inducens, prius ceeli
+      <lb ed="#Bb"/>luminaria, deinde aquarum animantia,
+      <lb ed="#Bb"/>terrena vero animalia postremo 
+      narra<lb ed="#Bb" break="no"/>vit '.
+    </p>
+            <p xml:id="Almn78-e31365-d1e929">
+               <lb ed="#Bb"/>Ad aliud dicendum, quod de perfectis
+      <lb ed="#Bb"/>animalibus loquens dixit, Creavit: hee
+      <cb ed="#Bb" n="b"/>
+               <lb ed="#Bb"/>enim in tanta quantitate molis et 
+      virtu<lb ed="#Bb" break="no"/>lis a principiis sive qualitatibus 
+      clemen<lb ed="#Bb" break="no"/>torum et virtute cceli secundum primas
+      <lb ed="#Bb"/>hypostases suze speciei fieri non 
+      pote<lb ed="#Bb" break="no"/>rant, nisi virtute creatoris. Hie autem
+      <lb ed="#Bb"/>dicit, Fecit, quod notat formationem :
+      <lb ed="#Bb"/>quia sola animalia terre formata sunt
+      <lb ed="#Bb"/>cum anima, que est principium vite
+      <lb ed="#Bb"/>manifesta per motum et sensum. Sic
+      <lb ed="#Bb"/>ergo ornata est terra, sicut dicitur, 
+      Ba<lb ed="#Bb" break="no"/>ruch, ut, 32, quod Deus preparavit 
+      ter<lb ed="#Bb" break="no"/>ram in eterno tempore, et replevit eam
+      <lb ed="#Bb"/>pecudibus et quadrupedibus. Et 
+      lumina<lb ed="#Bb" break="no"/>ribus ornavit, sicut dicitur, Jerem. xxx,
+      <lb ed="#Bb"/>33: Qui dat solem in lumine diei, 
+      ordi<lb ed="#Bb" break="no"/>nem lune et stellarum in lumine noctis.
+      <lb ed="#Bb"/>Et, Baruch, im, 33 et seq. : Qut emittit
+      <lb ed="#Bb"/>lumen, ef vadit: ef vocavit tllud, et
+      <lb ed="#Bb"/>obedit illi in tremore. Stelle autem 
+      de<lb ed="#Bb" break="no"/>derunt lucem in custodiis suis, et 
+      leta<lb ed="#Bb" break="no"/>iz sunt: vocate sunt, et dixerunt : 
+      Ad<lb ed="#Bb" break="no"/>sumus : et luxerunt ei cum jucunditate,
+      <lb ed="#Bb"/>qui fecit illas. Hie est Deus noster, et
+      <lb ed="#Bb"/>non estimabitur alius adversus eum.
+    </p>
+            <p xml:id="Almn78-e31365-d1e990">
+               <lb ed="#Bb"/>Ad ultimum dicendum, quod hic non 
+      <lb ed="#Bb"/>dicit, nisi vidit Deus quod esset bonum,
+      <lb ed="#Bb"/>quia ista cum homine communem 
+      ha<lb ed="#Bb" break="no"/>bent habitationem terram : et homo
+      <lb ed="#Bb"/>principium est in ornatu terre, cujus
+      <lb ed="#Bb"/>domino omnia alia subjiciuntur : et ideo
+      <lb ed="#Bb"/>compleri non debuit eorum benedictio
+      <lb ed="#Bb"/>nisi jam formato homine. Dicit tamen
+      <lb ed="#Bb"/>Augustinus, <quote xml:id="Almn78-e31365-Qd1e1011"> quod dictum est de 
+        aqua<lb ed="#Bb" break="no"/>ticis : Crescite, et multiplicamini, et de
+        <lb ed="#Bb"/>avibus, debet etiam intelligi de terrestri-.
+        <lb ed="#Bb"/>bus : et ideo non oportuit hic repetere. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
