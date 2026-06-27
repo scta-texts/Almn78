@@ -1,337 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 28</title>
-            <author ref="#Albert">Albert the Great</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 28</title>
-               <date when="2021-11-11">November 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-11-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Ba" n="287"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Almn78-a63369"><!-- p1t6q28 -->
-            <head xml:id="Almn78-a63369-Hd1e106">Quaestio 28</head>
-            <head xml:id="Almn78-a63369-Hd1e109" type="question-title">
-      De comparatione istorum trium ad invicem, et ad ens, utrum 
-      scilicet ens, unum, verum, et bonum convertantur ?
-    </head>
-            <p xml:id="Almn78-a63369-d1e112">
-               <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="71"/>QUAESTIO XXVIII.
-<lb ed="#Ba" n="72"/>De comparatione istorum trium ad invicem, et ad ens, utrum 
-sci<lb ed="#Ba" break="no" n="73"/>licet ens, unum, verum, et bonum convertantur ?
-</p>
-            <p xml:id="Almn78-a63369-d1e123">
-               <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="74"/>Deinde queritur de comparatione 
-isto<lb ed="#Ba" break="no" n="75"/>rum trium ad invicem et ad ens.
-</p>
-            <p xml:id="Almn78-a63369-d1e132">
-               <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="76"/>Dicitur enim communiter, quod ista
-<lb ed="#Ba" n="77"/>convertuntur,
-</p>
-            <p xml:id="Almn78-a63369-d1e142">
-               <pb ed="#Ba" n="288"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Ba" n="1"/>Et videtur hoc esse falsum: quia
-<lb ed="#Ba" n="2"/>1. Que convertuntur ad invicem,eque
-<lb ed="#Ba" n="3"/>prima sunt: et utrumque est antecedens
-<lb ed="#Ba" n="4"/>et consequens ad reliquum. Sed unum
-<lb ed="#Ba" n="5"/>et ens ad invicem ita se habent, quod
-<lb ed="#Ba" n="6"/>unum est antecedens ad ens, et none
-<lb ed="#Ba" n="7"/>converso. Videtur ergo, quod non 
-con<lb ed="#Ba" break="no" n="8"/>vertuntur. Prozpatio autem hujus est,
-<lb ed="#Ba" n="9"/>quod sequitur, si unum est, ens est: sed
-<lb ed="#Ba" n="10"/>non e converso, si ens est, unum est:
-<lb ed="#Ba" n="11"/>quia multum est ens, et non est unum.
-<lb ed="#Ba" n="12"/>Ergo non convertuntur ens et unum.
-</p>
-            <p xml:id="Almn78-a63369-d1e175">
-               <lb ed="#Ba" n="13"/>2. Adhuc, <ref xml:id="Almn78-a63369-Rd1e179">Philosophus in libro de
-<lb ed="#Ba" n="14"/>Causis</ref>: <quote xml:id="Almn78-a63369-Qd1e184"> Prima rerum creatarum est
-<lb ed="#Ba" n="15"/>esse, et non est ante ipsum creatum
-<lb ed="#Ba" n="16"/>aliud. </quote> Videtur ergo, quod ens sit ante
-<lb ed="#Ba" n="17"/>unum; verum, et bonum.
-</p>
-            <p xml:id="Almn78-a63369-d1e194">
-               <lb ed="#Ba" n="18"/>3. Adhuc, In libro de Causis dicitur,
-<lb ed="#Ba" n="19"/>quod ens sit per creationem, unum 
-au<lb ed="#Ba" break="no" n="20"/>tem, verum, et bonum per 
-informatio<lb ed="#Ba" break="no" n="21"/>nem : et que sic se habent, non 
-conver<lb ed="#Ba" break="no" n="22"/>tuntur ad invicem: ergo ens, unum,
-ve<lb ed="#Ba" break="no" n="23"/>rum, et bonum, ad invicem non 
-conver<lb ed="#Ba" break="no" n="24"/>tuntur. Et ratio dicti Philosophi est,
-<lb ed="#Ba" n="25"/>guod id quod nihil ponit ante se ut sui
-<lb ed="#Ba" n="26"/>principium, necesse est si fit, quod fiat
-<lb ed="#Ba" n="27"/>ex nihilo : et quod fit ex nihilo, creatum
-<lb ed="#Ba" n="28"/>est: ens autem nihil ponit ante se: ens
-<lb ed="#Ba" n="29"/>ergo creatum est, et est primum quod
-<lb ed="#Ba" n="30"/>fluit a prima causa: unum autem, verum,
-<lb ed="#Ba" n="31"/>et bonum, determinant ens, et dicunt
-<lb ed="#Ba" n="32"/>ens forma unitatis, veritatis, et bonitatis
-<lb ed="#Ba" n="33"/>determinatum et formatum : oportet 
-er<lb ed="#Ba" break="no" n="34"/>go, quod fiant per informationem : et sic
-<lb ed="#Ba" n="35"/>videtur, quod non convertantur.
-</p>
-            <p xml:id="Almn78-a63369-d1e236">
-               <lb ed="#Ba" n="36"/>4. Adhuc, Quod habet oppositum,
-<lb ed="#Ba" n="37"/>forma oppositionis est determinatum et
-<lb ed="#Ba" n="38"/>etiam specificatum. Unum, verum, et
-<lb ed="#Ba" n="39"/>bonum, habent opposita, multum 
-scili<lb ed="#Ba" break="no" n="40"/>cet, falsum, et malum. Ergo unum, 
-ve<lb ed="#Ba" break="no" n="41"/>rum,et bonum, forma oppositionis 
-deter<lb ed="#Ba" break="no" n="42"/>minata sunt. Ens autem indeterminatum
-<lb ed="#Ba" n="43"/>est, cum nec diversum nec oppositum 
-ha<lb ed="#Ba" break="no" n="44"/>beat. Ergo unum, verum, bonum, cum
-<lb ed="#Ba" n="45"/>ente converti non possunt.
-</p>
-            <p xml:id="Almn78-a63369-d1e260">
-               <lb ed="#Ba" n="46"/>3. Similiter, Objicitur de uno et vero,
-<lb ed="#Ba" n="47"/>et de uno et bono. Quecumque enim 
-di<lb ed="#Ba" break="no" n="48"/>versa forma oppositionis determinantur,
-<lb ed="#Ba" n="49"/>ad invicem converti non possunt. Unum
-  <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="50"/>et verum diversa forma oppositionis 
-de<lb ed="#Ba" break="no" n="51"/>terminantur : quia unum formam 
-oppo<lb ed="#Ba" break="no" n="52"/>sitionis habet ad multum, verum 
-for<lb ed="#Ba" break="no" n="53"/>mam oppositionis habet ad falsum, et
-<lb ed="#Ba" n="54"/>bonum formam oppositionis habet ad
-<lb ed="#Ba" n="55"/>malum. Ergo videtur, quod non 
-conver<lb ed="#Ba" break="no" n="56"/>tuntur. .
-</p>
-            <p xml:id="Almn78-a63369-d1e289">
-               <lb ed="#Ba" n="57"/>In contrarium hujus est,
-</p>
-            <p xml:id="Almn78-a63369-d1e295">
-               <lb ed="#Ba" n="58"/>1. Quod dicit Boetius in Consolatione
-<lb ed="#Ba" n="59"/>philosophie, quod <quote xml:id="Almn78-a63369-Qd1e301"> quidguid contendit
-<lb ed="#Ba" n="60"/>ad esse, contendit ad hoc quod unum
-<lb ed="#Ba" n="61"/>sit. </quote> Idem ergo est esse, et esse unum.
-<lb ed="#Ba" n="62"/>Per eamdem rationem probatur, quod
-<lb ed="#Ba" n="63"/>verum sit, et bonum : quia quidquid 
-con<lb ed="#Ba" break="no" n="64"/>tendit ad esse, contendit ad hoc quod
-<lb ed="#Ba" n="65"/>verum sit, et ad hoc quod bonum sit: et
-<lb ed="#Ba" n="66"/>sic videtur, quod idem sit esse, et verum
-<lb ed="#Ba" n="67"/>esse, et esse unum, et esse bonum.
-</p>
-            <p xml:id="Almn78-a63369-d1e322">
-               <lb ed="#Ba" n="68"/>2. Si quis dicat, quod haec 
-convertun<lb ed="#Ba" break="no" n="69"/>tur secundum supposita, et non 
-secun<lb ed="#Ba" break="no" n="70"/>dum intentionem. Videtur falsum esse:
-<lb ed="#Ba" n="71"/>unitivum enim et uniens est faciens esse :
-<lb ed="#Ba" n="72"/>et sic unum est in intentione entis, sine
-<lb ed="#Ba" n="73"/>quo non est id quod est. Unde omne
-<lb ed="#Ba" n="74"/>quod est, ideo est, quia unum est, ut 
-di<lb ed="#Ba" break="no" n="75"/>cit Boetius.
-</p>
-            <p xml:id="Almn78-a63369-d1e342">
-               <lb ed="#Ba" n="76"/>Similiter videtur verum in intentione
-<lb ed="#Ba" n="77"/>unius et entis esse. Omne enim quod est,
-<lb ed="#Ba" n="78"/>et quod unum est, ideo est et unum est,
-<lb ed="#Ba" n="79"/>quia verum est et verum esse habet:
-<lb ed="#Ba" n="80"/>ergo in intentione entis et unius videtur
-<lb ed="#Ba" n="81"/>esse verum. Quod ex opposito probatur :
-<lb ed="#Ba" n="82"/>quia falsum nec est, nec unum est. Et ex
-<lb ed="#Ba" n="83"/>hoc eodem sequitur, quod verum sit
-<lb ed="#Ba" n="84"/>ante unum et ens secundum intellectum.
-</p>
-            <p xml:id="Almn78-a63369-d1e364">
-               <lb ed="#Ba" n="85"/>Eodem modo. objicitur de bono. Bo-
-<lb ed="#Ba" break="no" n="86"/>num enim, ut dicit Dionysius, diffusivum
-<lb ed="#Ba" n="87"/>esse est et vocativum : diffusivum autem
-<lb ed="#Ba" n="88"/>est ante diffusum - et sic bonum videtur
-<lb ed="#Ba" n="89"/>esse ante ens et unum et verum, et non
-<lb ed="#Ba" n="90"/>convertitur cum ipsis.
-</p>
-            <p xml:id="Almn78-a63369-d1e380">
-               <lb ed="#Ba" n="91"/>3. Adhuc, Proclus dicit, quod 
-uniti<lb ed="#Ba" break="no" n="92"/>vum salvativum est, salvativum autem
-<lb ed="#Ba" n="93"/>bonum: unum autem unitivum est, et
-<lb ed="#Ba" n="94"/>uniendo salvat: ergo unum principium
-<lb ed="#Ba" n="95"/>est, quo unum est id quod bonum est,
-<lb ed="#Ba" n="96"/>et sic unum erit ante bonum,
-</p>
-            <p xml:id="Almn78-a63369-d1e396">
-               <lb ed="#Ba" n="97"/>4. Adhuc, Non contendit ad bonum
-<lb ed="#Ba" n="98"/>nisi quod est ens, unum, et verum: vide-
-<pb ed="#Ba" n="289"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Ba" break="no" n="1"/>tur ergo, quod ante bonum sit ens, unum
-<lb ed="#Ba" n="2"/>ot verum.
-</p>
-            <p xml:id="Almn78-a63369-d1e413">
-               <lb ed="#Ba" n="3"/>Solutio. Dicendum, quod ista 
-qua<lb ed="#Ba" break="no" n="4"/>tuor, ens, unum, verum, bonum, 
-con<lb ed="#Ba" break="no" n="5"/>vertuntur secundum supposita, sed non
-<lb ed="#Ba" n="6"/>secundum intentiones nominum: 
-quam<lb ed="#Ba" break="no" n="7"/>vis unumquodque ipsorum aliquo modo
-<lb ed="#Ba" n="8"/>inducat rationem alterius secundum 
-mo<lb ed="#Ba" break="no" n="9"/>dum existendi quem habet. Unde etiam
-<lb ed="#Ba" n="10"/>unum,verum, et bonum, non addunt 
-su<lb ed="#Ba" break="no" n="11"/>per ens nisi modos quosdam existendi,
-<lb ed="#Ba" n="12"/>vel qui consistunt in negatione vel in
-<lb ed="#Ba" n="13"/>elfectu consequente. Tamen primus 
-in<lb ed="#Ba" break="no" n="14"/>tellectus est entis, circa quem ut modi
-<lb ed="#Ba" n="15"/>quidam essendi ponuntur intellectus 
-alio<lb ed="#Ba" break="no" n="16"/>rum, scilicet unius, veri, et boni. Est
-<lb ed="#Ba" n="17"/>enim primum ens ut objectum est. Esse
-<lb ed="#Ba" n="18"/>autem entis potest accipi ut absolutum,
-<lb ed="#Ba" n="19"/>aut relatum ad ipsius esse principium. Si<!--</quote>.-->
-<lb ed="#Ba" n="20"/>accipitur ut absolutum : tunc est 
-intelle<lb ed="#Ba" break="no" n="21"/>clus esse et entis. Si accipiatur ut
-<lb ed="#Ba" n="22"/>principium esse relatum: aut refertur
-<lb ed="#Ba" n="23"/>ad principium formale, vel finale: 
-li<lb ed="#Ba" break="no" n="24"/>cet enim hoc unum sit, tamen 
-intentio<lb ed="#Ba" break="no" n="25"/>nes principiandi non sunt unum. Si 
-re<lb ed="#Ba" break="no" n="26"/>fertur ad principium formale: aut 
-refer<lb ed="#Ba" break="no" n="27"/>tur ad ipsum secundum actum proprium
-<lb ed="#Ba" n="28"/>formalis principii, aut secundum actum
-<lb ed="#Ba" n="29"/>consequentem. Si primo modo: sic est
-<lb ed="#Ba" n="30"/>intellectus unius : proprius enim actus
-<lb ed="#Ba" n="31"/>principii formalis est terminare id quod
-<lb ed="#Ba" n="32"/>ost: terminatum autem esse indivisum
-<lb ed="#Ba" n="33"/>est in se, et ab aliis divisum per hoc
-<lb ed="#Ba" n="34"/>ipsum, quod in esse terminatum est.
-<lb ed="#Ba" n="35"/>Kit sic patet, quod proximus intellectus
-<lb ed="#Ba" n="36"/>ad ens, est intellectus wnius. Si vero
-<lb ed="#Ba" n="37"/>referatur ad actum consequentem 
-for<lb ed="#Ba" break="no" n="38"/>malis principii, intellectus consequens
-<lb ed="#Ba" n="39"/>est, quo. discernitur in esse. Et iste
-<lb ed="#Ba" n="40"/>est intellectus ver?. Et quod dico, quo
-<lb ed="#Ba" n="41"/>discernitur, secundum habitum: 
-intelli<lb ed="#Ba" break="no" n="42"/>gitur hoc quod discernibile est in esse:
-<lb ed="#Ba" n="43"/>ct ideo intellectus veri consequitur
-<lb ed="#Ba" n="44"/>intellectum entis et unius. Si autem 
-re<lb ed="#Ba" break="no" n="45"/>feratur ad principium finale: tunc est
-<lb ed="#Ba" n="46"/>intellectus dont. Et quia ista quatuor in
-<lb ed="#Ba" n="47"/>omni sunt quod est, et in causa, et in
-<lb ed="#Ba" n="48"/>causato, et in universali, et in particu-
-  <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="49"/>lari, nec potest aliquid intelligi esse nisi
-<lb ed="#Ba" n="50"/>statim occurrant ista quatuor inesse ipsi :
-<lb ed="#Ba" n="51"/>ideo ista quatuor convertuntur 
-secun<lb ed="#Ba" break="no" n="52"/>dum supposita : et ideo dicit Dionysius,
-<lb ed="#Ba" n="53"/>quod <quote xml:id="Almn78-a63369-Qd1e529"> non est aliquid existentium quod
-<lb ed="#Ba" n="54"/>non participet uno,: et quod non 
-partici<lb ed="#Ba" break="no" n="55"/>pet bono. </quote> Et per eamdem rationem
-<lb ed="#Ba" n="56"/>non est aliquid existentium quod non
-<lb ed="#Ba" n="57"/>participet vero : quia esse uniuscujusque
-<lb ed="#Ba" n="58"/>sive caus# sive causati, sive principii
-<lb ed="#Ba" n="59"/>sive: principiati, sive particularis sive
-<lb ed="#Ba" n="60"/>universalis, sive substantia sive 
-acciden<lb ed="#Ba" break="no" n="61"/>tis, sive potentiae sive actus, secundum
-<lb ed="#Ba" n="62"/>modos essendi significatur per unum,
-<lb ed="#Ba" n="63"/>verum, bonum : absolutum autem 
-signi<lb ed="#Ba" break="no" n="64"/>ficatur per ens.
-</p>
-            <p xml:id="Almn78-a63369-d1e557">
-               <lb ed="#Ba" n="65"/>His habitis, facile est respondere ab
-<lb ed="#Ba" n="66"/>objecta.
-</p>
-            <p xml:id="Almn78-a63369-d1e564">
-               <lb ed="#Ba" n="67"/>Ad TRIA enim prima jam patet 
-solu<lb ed="#Ba" break="no" n="68"/>tio. Unum enim, verum, bonum, non
-<lb ed="#Ba" n="69"/>antecedunt ad ens, nec sunt secunda
-<lb ed="#Ba" n="70"/>creata, nec sunt per informationem dicta
-<lb ed="#Ba" n="71"/>propter naturam aliquam  suppositam
-<lb ed="#Ba" n="72"/>quam addant super ens, sed propter
-<lb ed="#Ba" n="73"/>modum essendi quem procul dubio 
-po<lb ed="#Ba" break="no" n="74"/>nunt circa esse entis.
-</p>
-            <p xml:id="Almn78-a63369-d1e584">
-               <lb ed="#Ba" n="75"/>Ad aliud dicendum, quod eo quod 
-ad<lb ed="#Ba" break="no" n="76"/>dunt super ens, forma oppositionis 
-de<lb ed="#Ba" break="no" n="77"/>terminantur. In hoc autem est modus
-<lb ed="#Ba" n="78"/>essendi, et non natura aliqua, ut jam
-<lb ed="#Ba" n="79"/>dictum est.
-</p>
-            <p xml:id="Almn78-a63369-d1e597">
-               <lb ed="#Ba" n="80"/>Et per hoc etiam patet solutio ad 
-se<lb ed="#Ba" break="no" n="81"/>quens.
-</p>
-            <p xml:id="Almn78-a63369-d1e604">
-               <lb ed="#Ba" n="82"/>Ad id quod objicitur in contrarium,
-<lb ed="#Ba" n="83"/>dicendum quod dictum Boetii non 
-pro<lb ed="#Ba" break="no" n="84"/>bat, quod convertantur secundum 
-inten<lb ed="#Ba" break="no" n="85"/>tiones, sed secundum supposita tantum :
-<lb ed="#Ba" n="86"/>modi enim illi essendi a nullo esse 
-sepa<lb ed="#Ba" break="no" n="87"/>rabiles sunt.
-</p>
-            <p xml:id="Almn78-a63369-d1e621">
-               <lb ed="#Ba" n="88"/>Ad id quod ulterius queritur de dicto
-<lb ed="#Ba" n="89"/>quorumdam, dicendum, quod licet ista
-<lb ed="#Ba" n="90"/>non convertantur secundum intentiones,
-<lb ed="#Ba" n="91"/>tamen secundum aliquem actum ipsorum
-<lb ed="#Ba" n="92"/>unumquodque istorum se habet ad 
-alte<lb ed="#Ba" break="no" n="93"/>rum ut principium : sed hoc est in 
-ali<lb ed="#Ba" break="no" n="94"/>quo esse, et non inesse_ simpliciter.
-<lb ed="#Ba" n="95"/>Unde unum constitutivum est alicujus
-<lb ed="#Ba" n="96"/>esse, sed non esse simpliciter : sicut 
-ve<lb ed="#Ba" break="no" n="97"/>rum in principio constitutivum est esse
-<pb ed="#Ba" n="290"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Ba" n="1"/>in principiato, et bonum in causa 
-diffu<lb ed="#Ba" break="no" n="2"/>sivum est esse in causato : esse tamen
-<lb ed="#Ba" n="3"/>simpliciter est ante quodlibet istorum.
-<lb ed="#Ba" n="4"/>Av victum Procli dicendum, quod
-<lb ed="#Ba" n="5"/>unum per aclum quemdam est ante 
-bo<lb ed="#Ba" break="no" n="6"/>num. Si autem modi essendi 
-conside<lb ed="#Ba" break="no" n="7"/>rentur quos dicunt unum et bonum,
-  <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="8"/>tunc convertuntur ad invicem secundum
-<lb ed="#Ba" n="9"/>supposita, et unum per actum illum et
-<lb ed="#Ba" n="10"/>nomen et rationem boni induit.
-</p>
-            <p xml:id="Almn78-a63369-d1e673">
-               <lb ed="#Ba" n="11"/>Ad vLtrmum concedendum est. Intel 
-<lb ed="#Ba" break="no" n="12"/>lectus enim entis et unius et veri sunt
-<lb ed="#Ba" n="13"/>ante intellectum boni, ut paulo ante 
-di<lb ed="#Ba" break="no" n="14"/>ctum est,
-</p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28</title>
+        <author ref="#Albert">Albert the Great</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28</title>
+          <date when="2021-11-11">November 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-11-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ba" n="287"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Almn78-a63369"><!-- p1t6q28 -->
+        <head xml:id="Almn78-a63369-Hd1e106">Quaestio 28</head>
+        <head xml:id="Almn78-a63369-Hd1e109" type="question-title">
+          De comparatione istorum trium ad invicem, et ad ens, utrum 
+          scilicet ens, unum, verum, et bonum convertantur ?
+        </head>
+        <p xml:id="Almn78-a63369-d1e112">
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="71"/>QUAESTIO XXVIII.
+          <lb ed="#Ba" n="72"/>De comparatione istorum trium ad invicem, et ad ens, utrum 
+          sci<lb ed="#Ba" break="no" n="73"/>licet ens, unum, verum, et bonum convertantur ?
+        </p>
+        <p xml:id="Almn78-a63369-d1e123">
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="74"/>Deinde queritur de comparatione 
+          isto<lb ed="#Ba" break="no" n="75"/>rum trium ad invicem et ad ens.
+        </p>
+        <p xml:id="Almn78-a63369-d1e132">
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="76"/>Dicitur enim communiter, quod ista
+          <lb ed="#Ba" n="77"/>convertuntur,
+        </p>
+        <p xml:id="Almn78-a63369-d1e142">
+          <pb ed="#Ba" n="288"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Ba" n="1"/>Et videtur hoc esse falsum: quia
+          <lb ed="#Ba" n="2"/>1. Que convertuntur ad invicem,eque
+          <lb ed="#Ba" n="3"/>prima sunt: et utrumque est antecedens
+          <lb ed="#Ba" n="4"/>et consequens ad reliquum. Sed unum
+          <lb ed="#Ba" n="5"/>et ens ad invicem ita se habent, quod
+          <lb ed="#Ba" n="6"/>unum est antecedens ad ens, et none
+          <lb ed="#Ba" n="7"/>converso. Videtur ergo, quod non 
+          con<lb ed="#Ba" break="no" n="8"/>vertuntur. Prozpatio autem hujus est,
+          <lb ed="#Ba" n="9"/>quod sequitur, si unum est, ens est: sed
+          <lb ed="#Ba" n="10"/>non e converso, si ens est, unum est:
+          <lb ed="#Ba" n="11"/>quia multum est ens, et non est unum.
+          <lb ed="#Ba" n="12"/>Ergo non convertuntur ens et unum.
+        </p>
+        <p xml:id="Almn78-a63369-d1e175">
+          <lb ed="#Ba" n="13"/>2. Adhuc, <ref xml:id="Almn78-a63369-Rd1e179">Philosophus in libro de
+            <lb ed="#Ba" n="14"/>Causis</ref>: <quote xml:id="Almn78-a63369-Qd1e184"> Prima rerum creatarum est
+              <lb ed="#Ba" n="15"/>esse, et non est ante ipsum creatum
+              <lb ed="#Ba" n="16"/>aliud. </quote> Videtur ergo, quod ens sit ante
+          <lb ed="#Ba" n="17"/>unum; verum, et bonum.
+        </p>
+        <p xml:id="Almn78-a63369-d1e194">
+          <lb ed="#Ba" n="18"/>3. Adhuc, In libro de Causis dicitur,
+          <lb ed="#Ba" n="19"/>quod ens sit per creationem, unum 
+          au<lb ed="#Ba" break="no" n="20"/>tem, verum, et bonum per 
+          informatio<lb ed="#Ba" break="no" n="21"/>nem : et que sic se habent, non 
+          conver<lb ed="#Ba" break="no" n="22"/>tuntur ad invicem: ergo ens, unum,
+          ve<lb ed="#Ba" break="no" n="23"/>rum, et bonum, ad invicem non 
+          conver<lb ed="#Ba" break="no" n="24"/>tuntur. Et ratio dicti Philosophi est,
+          <lb ed="#Ba" n="25"/>guod id quod nihil ponit ante se ut sui
+          <lb ed="#Ba" n="26"/>principium, necesse est si fit, quod fiat
+          <lb ed="#Ba" n="27"/>ex nihilo : et quod fit ex nihilo, creatum
+          <lb ed="#Ba" n="28"/>est: ens autem nihil ponit ante se: ens
+          <lb ed="#Ba" n="29"/>ergo creatum est, et est primum quod
+          <lb ed="#Ba" n="30"/>fluit a prima causa: unum autem, verum,
+          <lb ed="#Ba" n="31"/>et bonum, determinant ens, et dicunt
+          <lb ed="#Ba" n="32"/>ens forma unitatis, veritatis, et bonitatis
+          <lb ed="#Ba" n="33"/>determinatum et formatum : oportet 
+          er<lb ed="#Ba" break="no" n="34"/>go, quod fiant per informationem : et sic
+          <lb ed="#Ba" n="35"/>videtur, quod non convertantur.
+        </p>
+        <p xml:id="Almn78-a63369-d1e236">
+          <lb ed="#Ba" n="36"/>4. Adhuc, Quod habet oppositum,
+          <lb ed="#Ba" n="37"/>forma oppositionis est determinatum et
+          <lb ed="#Ba" n="38"/>etiam specificatum. Unum, verum, et
+          <lb ed="#Ba" n="39"/>bonum, habent opposita, multum 
+          scili<lb ed="#Ba" break="no" n="40"/>cet, falsum, et malum. Ergo unum, 
+          ve<lb ed="#Ba" break="no" n="41"/>rum,et bonum, forma oppositionis 
+          deter<lb ed="#Ba" break="no" n="42"/>minata sunt. Ens autem indeterminatum
+          <lb ed="#Ba" n="43"/>est, cum nec diversum nec oppositum 
+          ha<lb ed="#Ba" break="no" n="44"/>beat. Ergo unum, verum, bonum, cum
+          <lb ed="#Ba" n="45"/>ente converti non possunt.
+        </p>
+        <p xml:id="Almn78-a63369-d1e260">
+          <lb ed="#Ba" n="46"/>3. Similiter, Objicitur de uno et vero,
+          <lb ed="#Ba" n="47"/>et de uno et bono. Quecumque enim 
+          di<lb ed="#Ba" break="no" n="48"/>versa forma oppositionis determinantur,
+          <lb ed="#Ba" n="49"/>ad invicem converti non possunt. Unum
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="50"/>et verum diversa forma oppositionis 
+          de<lb ed="#Ba" break="no" n="51"/>terminantur : quia unum formam 
+          oppo<lb ed="#Ba" break="no" n="52"/>sitionis habet ad multum, verum 
+          for<lb ed="#Ba" break="no" n="53"/>mam oppositionis habet ad falsum, et
+          <lb ed="#Ba" n="54"/>bonum formam oppositionis habet ad
+          <lb ed="#Ba" n="55"/>malum. Ergo videtur, quod non 
+          conver<lb ed="#Ba" break="no" n="56"/>tuntur. .
+        </p>
+        <p xml:id="Almn78-a63369-d1e289">
+          <lb ed="#Ba" n="57"/>In contrarium hujus est,
+        </p>
+        <p xml:id="Almn78-a63369-d1e295">
+          <lb ed="#Ba" n="58"/>1. Quod dicit Boetius in Consolatione
+          <lb ed="#Ba" n="59"/>philosophie, quod <quote xml:id="Almn78-a63369-Qd1e301"> quidguid contendit
+            <lb ed="#Ba" n="60"/>ad esse, contendit ad hoc quod unum
+            <lb ed="#Ba" n="61"/>sit. </quote> Idem ergo est esse, et esse unum.
+          <lb ed="#Ba" n="62"/>Per eamdem rationem probatur, quod
+          <lb ed="#Ba" n="63"/>verum sit, et bonum : quia quidquid 
+          con<lb ed="#Ba" break="no" n="64"/>tendit ad esse, contendit ad hoc quod
+          <lb ed="#Ba" n="65"/>verum sit, et ad hoc quod bonum sit: et
+          <lb ed="#Ba" n="66"/>sic videtur, quod idem sit esse, et verum
+          <lb ed="#Ba" n="67"/>esse, et esse unum, et esse bonum.
+        </p>
+        <p xml:id="Almn78-a63369-d1e322">
+          <lb ed="#Ba" n="68"/>2. Si quis dicat, quod haec 
+          convertun<lb ed="#Ba" break="no" n="69"/>tur secundum supposita, et non 
+          secun<lb ed="#Ba" break="no" n="70"/>dum intentionem. Videtur falsum esse:
+          <lb ed="#Ba" n="71"/>unitivum enim et uniens est faciens esse :
+          <lb ed="#Ba" n="72"/>et sic unum est in intentione entis, sine
+          <lb ed="#Ba" n="73"/>quo non est id quod est. Unde omne
+          <lb ed="#Ba" n="74"/>quod est, ideo est, quia unum est, ut 
+          di<lb ed="#Ba" break="no" n="75"/>cit Boetius.
+        </p>
+        <p xml:id="Almn78-a63369-d1e342">
+          <lb ed="#Ba" n="76"/>Similiter videtur verum in intentione
+          <lb ed="#Ba" n="77"/>unius et entis esse. Omne enim quod est,
+          <lb ed="#Ba" n="78"/>et quod unum est, ideo est et unum est,
+          <lb ed="#Ba" n="79"/>quia verum est et verum esse habet:
+          <lb ed="#Ba" n="80"/>ergo in intentione entis et unius videtur
+          <lb ed="#Ba" n="81"/>esse verum. Quod ex opposito probatur :
+          <lb ed="#Ba" n="82"/>quia falsum nec est, nec unum est. Et ex
+          <lb ed="#Ba" n="83"/>hoc eodem sequitur, quod verum sit
+          <lb ed="#Ba" n="84"/>ante unum et ens secundum intellectum.
+        </p>
+        <p xml:id="Almn78-a63369-d1e364">
+          <lb ed="#Ba" n="85"/>Eodem modo. objicitur de bono. Bo-
+          <lb ed="#Ba" break="no" n="86"/>num enim, ut dicit Dionysius, diffusivum
+          <lb ed="#Ba" n="87"/>esse est et vocativum : diffusivum autem
+          <lb ed="#Ba" n="88"/>est ante diffusum - et sic bonum videtur
+          <lb ed="#Ba" n="89"/>esse ante ens et unum et verum, et non
+          <lb ed="#Ba" n="90"/>convertitur cum ipsis.
+        </p>
+        <p xml:id="Almn78-a63369-d1e380">
+          <lb ed="#Ba" n="91"/>3. Adhuc, Proclus dicit, quod 
+          uniti<lb ed="#Ba" break="no" n="92"/>vum salvativum est, salvativum autem
+          <lb ed="#Ba" n="93"/>bonum: unum autem unitivum est, et
+          <lb ed="#Ba" n="94"/>uniendo salvat: ergo unum principium
+          <lb ed="#Ba" n="95"/>est, quo unum est id quod bonum est,
+          <lb ed="#Ba" n="96"/>et sic unum erit ante bonum,
+        </p>
+        <p xml:id="Almn78-a63369-d1e396">
+          <lb ed="#Ba" n="97"/>4. Adhuc, Non contendit ad bonum
+          <lb ed="#Ba" n="98"/>nisi quod est ens, unum, et verum: vide-
+          <pb ed="#Ba" n="289"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Ba" break="no" n="1"/>tur ergo, quod ante bonum sit ens, unum
+          <lb ed="#Ba" n="2"/>ot verum.
+        </p>
+        <p xml:id="Almn78-a63369-d1e413">
+          <lb ed="#Ba" n="3"/>Solutio. Dicendum, quod ista 
+          qua<lb ed="#Ba" break="no" n="4"/>tuor, ens, unum, verum, bonum, 
+          con<lb ed="#Ba" break="no" n="5"/>vertuntur secundum supposita, sed non
+          <lb ed="#Ba" n="6"/>secundum intentiones nominum: 
+          quam<lb ed="#Ba" break="no" n="7"/>vis unumquodque ipsorum aliquo modo
+          <lb ed="#Ba" n="8"/>inducat rationem alterius secundum 
+          mo<lb ed="#Ba" break="no" n="9"/>dum existendi quem habet. Unde etiam
+          <lb ed="#Ba" n="10"/>unum,verum, et bonum, non addunt 
+          su<lb ed="#Ba" break="no" n="11"/>per ens nisi modos quosdam existendi,
+          <lb ed="#Ba" n="12"/>vel qui consistunt in negatione vel in
+          <lb ed="#Ba" n="13"/>elfectu consequente. Tamen primus 
+          in<lb ed="#Ba" break="no" n="14"/>tellectus est entis, circa quem ut modi
+          <lb ed="#Ba" n="15"/>quidam essendi ponuntur intellectus 
+          alio<lb ed="#Ba" break="no" n="16"/>rum, scilicet unius, veri, et boni. Est
+          <lb ed="#Ba" n="17"/>enim primum ens ut objectum est. Esse
+          <lb ed="#Ba" n="18"/>autem entis potest accipi ut absolutum,
+          <lb ed="#Ba" n="19"/>aut relatum ad ipsius esse principium. Si<!--</quote>.-->
+          <lb ed="#Ba" n="20"/>accipitur ut absolutum : tunc est 
+          intelle<lb ed="#Ba" break="no" n="21"/>clus esse et entis. Si accipiatur ut
+          <lb ed="#Ba" n="22"/>principium esse relatum: aut refertur
+          <lb ed="#Ba" n="23"/>ad principium formale, vel finale: 
+          li<lb ed="#Ba" break="no" n="24"/>cet enim hoc unum sit, tamen 
+          intentio<lb ed="#Ba" break="no" n="25"/>nes principiandi non sunt unum. Si 
+          re<lb ed="#Ba" break="no" n="26"/>fertur ad principium formale: aut 
+          refer<lb ed="#Ba" break="no" n="27"/>tur ad ipsum secundum actum proprium
+          <lb ed="#Ba" n="28"/>formalis principii, aut secundum actum
+          <lb ed="#Ba" n="29"/>consequentem. Si primo modo: sic est
+          <lb ed="#Ba" n="30"/>intellectus unius : proprius enim actus
+          <lb ed="#Ba" n="31"/>principii formalis est terminare id quod
+          <lb ed="#Ba" n="32"/>ost: terminatum autem esse indivisum
+          <lb ed="#Ba" n="33"/>est in se, et ab aliis divisum per hoc
+          <lb ed="#Ba" n="34"/>ipsum, quod in esse terminatum est.
+          <lb ed="#Ba" n="35"/>Kit sic patet, quod proximus intellectus
+          <lb ed="#Ba" n="36"/>ad ens, est intellectus wnius. Si vero
+          <lb ed="#Ba" n="37"/>referatur ad actum consequentem 
+          for<lb ed="#Ba" break="no" n="38"/>malis principii, intellectus consequens
+          <lb ed="#Ba" n="39"/>est, quo. discernitur in esse. Et iste
+          <lb ed="#Ba" n="40"/>est intellectus ver?. Et quod dico, quo
+          <lb ed="#Ba" n="41"/>discernitur, secundum habitum: 
+          intelli<lb ed="#Ba" break="no" n="42"/>gitur hoc quod discernibile est in esse:
+          <lb ed="#Ba" n="43"/>ct ideo intellectus veri consequitur
+          <lb ed="#Ba" n="44"/>intellectum entis et unius. Si autem 
+          re<lb ed="#Ba" break="no" n="45"/>feratur ad principium finale: tunc est
+          <lb ed="#Ba" n="46"/>intellectus dont. Et quia ista quatuor in
+          <lb ed="#Ba" n="47"/>omni sunt quod est, et in causa, et in
+          <lb ed="#Ba" n="48"/>causato, et in universali, et in particu-
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="49"/>lari, nec potest aliquid intelligi esse nisi
+          <lb ed="#Ba" n="50"/>statim occurrant ista quatuor inesse ipsi :
+          <lb ed="#Ba" n="51"/>ideo ista quatuor convertuntur 
+          secun<lb ed="#Ba" break="no" n="52"/>dum supposita : et ideo dicit Dionysius,
+          <lb ed="#Ba" n="53"/>quod <quote xml:id="Almn78-a63369-Qd1e529"> non est aliquid existentium quod
+            <lb ed="#Ba" n="54"/>non participet uno,: et quod non 
+            partici<lb ed="#Ba" break="no" n="55"/>pet bono. </quote> Et per eamdem rationem
+          <lb ed="#Ba" n="56"/>non est aliquid existentium quod non
+          <lb ed="#Ba" n="57"/>participet vero : quia esse uniuscujusque
+          <lb ed="#Ba" n="58"/>sive caus# sive causati, sive principii
+          <lb ed="#Ba" n="59"/>sive: principiati, sive particularis sive
+          <lb ed="#Ba" n="60"/>universalis, sive substantia sive 
+          acciden<lb ed="#Ba" break="no" n="61"/>tis, sive potentiae sive actus, secundum
+          <lb ed="#Ba" n="62"/>modos essendi significatur per unum,
+          <lb ed="#Ba" n="63"/>verum, bonum : absolutum autem 
+          signi<lb ed="#Ba" break="no" n="64"/>ficatur per ens.
+        </p>
+        <p xml:id="Almn78-a63369-d1e557">
+          <lb ed="#Ba" n="65"/>His habitis, facile est respondere ab
+          <lb ed="#Ba" n="66"/>objecta.
+        </p>
+        <p xml:id="Almn78-a63369-d1e564">
+          <lb ed="#Ba" n="67"/>Ad TRIA enim prima jam patet 
+          solu<lb ed="#Ba" break="no" n="68"/>tio. Unum enim, verum, bonum, non
+          <lb ed="#Ba" n="69"/>antecedunt ad ens, nec sunt secunda
+          <lb ed="#Ba" n="70"/>creata, nec sunt per informationem dicta
+          <lb ed="#Ba" n="71"/>propter naturam aliquam  suppositam
+          <lb ed="#Ba" n="72"/>quam addant super ens, sed propter
+          <lb ed="#Ba" n="73"/>modum essendi quem procul dubio 
+          po<lb ed="#Ba" break="no" n="74"/>nunt circa esse entis.
+        </p>
+        <p xml:id="Almn78-a63369-d1e584">
+          <lb ed="#Ba" n="75"/>Ad aliud dicendum, quod eo quod 
+          ad<lb ed="#Ba" break="no" n="76"/>dunt super ens, forma oppositionis 
+          de<lb ed="#Ba" break="no" n="77"/>terminantur. In hoc autem est modus
+          <lb ed="#Ba" n="78"/>essendi, et non natura aliqua, ut jam
+          <lb ed="#Ba" n="79"/>dictum est.
+        </p>
+        <p xml:id="Almn78-a63369-d1e597">
+          <lb ed="#Ba" n="80"/>Et per hoc etiam patet solutio ad 
+          se<lb ed="#Ba" break="no" n="81"/>quens.
+        </p>
+        <p xml:id="Almn78-a63369-d1e604">
+          <lb ed="#Ba" n="82"/>Ad id quod objicitur in contrarium,
+          <lb ed="#Ba" n="83"/>dicendum quod dictum Boetii non 
+          pro<lb ed="#Ba" break="no" n="84"/>bat, quod convertantur secundum 
+          inten<lb ed="#Ba" break="no" n="85"/>tiones, sed secundum supposita tantum :
+          <lb ed="#Ba" n="86"/>modi enim illi essendi a nullo esse 
+          sepa<lb ed="#Ba" break="no" n="87"/>rabiles sunt.
+        </p>
+        <p xml:id="Almn78-a63369-d1e621">
+          <lb ed="#Ba" n="88"/>Ad id quod ulterius queritur de dicto
+          <lb ed="#Ba" n="89"/>quorumdam, dicendum, quod licet ista
+          <lb ed="#Ba" n="90"/>non convertantur secundum intentiones,
+          <lb ed="#Ba" n="91"/>tamen secundum aliquem actum ipsorum
+          <lb ed="#Ba" n="92"/>unumquodque istorum se habet ad 
+          alte<lb ed="#Ba" break="no" n="93"/>rum ut principium : sed hoc est in 
+          ali<lb ed="#Ba" break="no" n="94"/>quo esse, et non inesse_ simpliciter.
+          <lb ed="#Ba" n="95"/>Unde unum constitutivum est alicujus
+          <lb ed="#Ba" n="96"/>esse, sed non esse simpliciter : sicut 
+          ve<lb ed="#Ba" break="no" n="97"/>rum in principio constitutivum est esse
+          <pb ed="#Ba" n="290"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Ba" n="1"/>in principiato, et bonum in causa 
+          diffu<lb ed="#Ba" break="no" n="2"/>sivum est esse in causato : esse tamen
+          <lb ed="#Ba" n="3"/>simpliciter est ante quodlibet istorum.
+          <lb ed="#Ba" n="4"/>Av victum Procli dicendum, quod
+          <lb ed="#Ba" n="5"/>unum per aclum quemdam est ante 
+          bo<lb ed="#Ba" break="no" n="6"/>num. Si autem modi essendi 
+          conside<lb ed="#Ba" break="no" n="7"/>rentur quos dicunt unum et bonum,
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="8"/>tunc convertuntur ad invicem secundum
+          <lb ed="#Ba" n="9"/>supposita, et unum per actum illum et
+          <lb ed="#Ba" n="10"/>nomen et rationem boni induit.
+        </p>
+        <p xml:id="Almn78-a63369-d1e673">
+          <lb ed="#Ba" n="11"/>Ad vLtrmum concedendum est. Intel 
+          <lb ed="#Ba" break="no" n="12"/>lectus enim entis et unius et veri sunt
+          <lb ed="#Ba" n="13"/>ante intellectum boni, ut paulo ante 
+          di<lb ed="#Ba" break="no" n="14"/>ctum est,
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

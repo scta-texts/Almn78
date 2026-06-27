@@ -1,528 +1,528 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 15</title>
-            <author ref="#Albert">Albert the Great</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 15</title>
-               <date when="2021-11-11">November 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-11-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Bb" n="203"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Almn78-d44928"><!-- p2t4q15 -->
-            <head xml:id="Almn78-d44928-Hd1e106">Quaestio 15</head>
-            <head xml:id="Almn78-d44928-Hd1e109" type="question-title">
-      De tertio attributo, quod est discretio personalis.
-    </head>
-            <p xml:id="Almn78-d44928-d1e112">
-               <cb ed="#Bb" n="b"/>
-               <lb ed="#Bb" n="19"/>QUAESTIO XV.
-      <lb ed="#Bb" n="20"/>De tertio attributo, quod est discretio personalis.
-    </p>
-            <p xml:id="Almn78-d44928-d1e121">
-               <lb ed="#Bb" n="21"/>Deinde, Queritur de tertio attributo,
-      <lb ed="#Bb" n="22"/>quod est personalis discretio.
-      <lb ed="#Bb" n="23"/>Et queruntur duo, scilicet an discretio
-      <lb ed="#Bb" n="24"/>personalis conveniat Angelo?
-      <lb ed="#Bb" n="25"/>Secundo etsi convenit, secundum quam
-      <lb ed="#Bb" n="26"/>rationem conveniat ei?
-    </p>
-    
-            <div xml:id="Almn78-d44928-Dd1e137">
-               <head xml:id="Almn78-d44928-Hd1e139">Membrum 1</head>
-               <head xml:id="Almn78-d44928-Hd1e142" type="question-title">
-        An discretio personalis conveniat
-        Angelo?
-      </head>
-               <p xml:id="Almn78-d44928-d1e145">
-                  <lb ed="#Bb" n="27"/>MEMBRUM I.
-        <lb ed="#Bb" n="28"/>An discretio personalis conveniat
-        <lb ed="#Bb" n="29"/>Angelo?
-      </p>
-               <p xml:id="Almn78-d44928-d1e154">
-                  <lb ed="#Bb" n="30"/>Ad primum sic proceditur :
-        <lb ed="#Bb" n="31"/>4. Richardus in libro de Trinitate dicit,
-        <lb ed="#Bb" n="32"/>quod persona distinguitur tribus modis,
-        <lb ed="#Bb" n="33"/>scilicet origine tantum, et proprietate 
-        tan<lb ed="#Bb" break="no" n="34"/>tum, et utroque modo, scilicet origine et
-        <lb ed="#Bb" n="35"/>proprietate. Origine tantum, sicut in Deo
-        <lb ed="#Bb" n="36"/>Pater et Filius et Spiritus sanctus : he
-        <lb ed="#Bb" n="37"/>enim tres persone divine relatione ori
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" break="no" n="38"/>ginis tantum differunt. Proprietate 
-        tan<lb ed="#Bb" break="no" n="39"/>tum, sicut in Angelis, in quibus unus
-        <lb ed="#Bb" n="40"/>non originatur ab alio : sed in hoc 
-        dis<lb ed="#Bb" break="no" n="41"/>cernuntur, quod propria unius que
-        <lb ed="#Bb" n="42"/>convertuntur cum ipso et singularitatem
-        <lb ed="#Bb" n="43"/>ejus demonstrant, non sunt propria alte- -
-        <lb ed="#Bb" n="44"/>rius. Utroque modo, sicut in homine :
-        <lb ed="#Bb" n="45"/>homo enim et origine differt ab altero,
-        <lb ed="#Bb" n="46"/>et proprietate accidentium, que 
-        enume<lb ed="#Bb" break="no" n="47"/>rat Boetius, quod sunt patria, parentela,
-        <lb ed="#Bb" n="48"/>locus, et tempus, et hujusmodi, quorum
-        <lb ed="#Bb" n="49"/>collectio non potest esse in alio quam in
-        <lb ed="#Bb" n="50"/>uno, et ostendunt singularitatem ejus.
-        <lb ed="#Bb" n="51"/>Sed videtur, quod persone angelice non
-        <lb ed="#Bb" n="52"/>differant proprietate tantum : que enim
-        <lb ed="#Bb" n="53"/>proprietate differunt tantum, per 
-        acci<lb ed="#Bb" break="no" n="54"/>dens differunt : si ergo proprietate 
-        tan<lb ed="#Bb" break="no" n="55"/>tum distinguuntur persone in Angelis,
-        <lb ed="#Bb" n="56"/>non nisi accidentaliter differunt : quod
-        <lb ed="#Bb" n="57"/>falsum est, nihil enim ita differt 
-        substan<lb ed="#Bb" break="no" n="58"/>tialiter sicut persona a persona, 
-        preter<lb ed="#Bb" break="no" n="59"/>quam in divinis : est enim una persona
-        <lb ed="#Bb" n="60"/>una substantia que est hoc aliquid, et
-        <lb ed="#Bb" n="61"/>alia persona est alia substantia que
-        <pb ed="#Bb" n="204"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" break="no" n="1"/>etiam est hoc aliquid : et sic videtur,
-        <lb ed="#Bb" n="2"/>quod angelice persone non tantum 
-        pro<lb ed="#Bb" break="no" n="3"/>prietate distinguantur.
-      </p>
-               <p xml:id="Almn78-d44928-d1e239">
-                  <lb ed="#Bb" n="4"/>2. Adhuc, Rabbi Moyses in libro qui
-        <lb ed="#Bb" n="5"/>dicitur Dux neutrorum, dicit quod in 
-        se<lb ed="#Bb" break="no" n="6"/>paratis a materia non est numerus, nisi
-        <lb ed="#Bb" n="7"/>per causam et causatum tantum : sed
-        <lb ed="#Bb" n="8"/>Angeli separati sunt a materia : ergo si
-        <lb ed="#Bb" n="9"/>est in eis numerus, vel differentia 
-        nume<lb ed="#Bb" break="no" n="10"/>ri, hoc erit per causam et causatum : sed
-        <lb ed="#Bb" n="11"/>ratio causz et causati, ratio originis est :
-        <lb ed="#Bb" n="12"/>ergo videtur, quod angéTice persone 
-        di<lb ed="#Bb" break="no" n="13"/>stinguantur origine, et non proprietate
-        <lb ed="#Bb" n="14"/>tantum.
-      </p>
-               <p xml:id="Almn78-d44928-d1e266">
-                  <lb ed="#Bb" n="15"/>
-                  <sic>2.</sic> Adhuc, Boetius in libro de Duabus
-        <lb ed="#Bb" n="16"/>naturis in una persona Christi : <quote xml:id="Almn78-d44928-Qd1e275"> 
-          Per<lb ed="#Bb" break="no" n="17"/>sona est rationalis creature individua
-          <lb ed="#Bb" n="18"/>substantia : </quote> sed individuum est, ut dicit
-        <lb ed="#Bb" n="19"/>Porphyrius, collectione accidentium que
-        <lb ed="#Bb" n="20"/>in alio non possunt inveniri : et hec sunt
-        <lb ed="#Bb" n="21"/>patria, parentela, locus, et hujusmodi,
-        <lb ed="#Bb" n="22"/>quorum nullum convenit angelice 
-        natu<lb ed="#Bb" break="no" n="23"/>re : ergo in angelica creatura non est 
-        in<lb ed="#Bb" break="no" n="24"/>dividuum : ergo nec individua 
-        substan<lb ed="#Bb" break="no" n="25"/>tia : ergo nec per consequens persona.
-      </p>
-               <p xml:id="Almn78-d44928-d1e298">
-                  <lb ed="#Bb" n="26"/>4. Adhuc, Quidam objiciunt, quod
-        <lb ed="#Bb" n="27"/>sicut Angelus distinctionem habet in
-        <lb ed="#Bb" n="28"/>intellectuali natura, ita habet anima 
-        ra<lb ed="#Bb" break="no" n="29"/>tionalis. Unde anima rationalis est per se
-        <lb ed="#Bb" n="30"/>una, sicut unus Angelus per se unus est.
-        <lb ed="#Bb" n="31"/>Sed propter hoc, quod anima est per se
-        <lb ed="#Bb" n="32"/>una in rationali natura, non potest dici
-        <lb ed="#Bb" n="33"/>persona. Ergo nec Angelus propter hoc
-        <lb ed="#Bb" n="34"/>debet dici persona.
-      </p>
-               <p xml:id="Almn78-d44928-d1e320">
-                  <lb ed="#Bb" n="35"/>5. Adhuc objiciunt, quod natura 
-        hu<lb ed="#Bb" break="no" n="36"/>mana in Christo perfectioribus 
-        proprie<lb ed="#Bb" break="no" n="37"/>tatibus distingu tur, quam aliquis 
-        An<lb ed="#Bb" break="no" n="38"/>gelus : non tamen est persona : ergo
-        <lb ed="#Bb" n="39"/>videtur, quod nec Angelus persona sit
-        <lb ed="#Bb" n="40"/>propter solam distinctionem 
-        proprieta<lb ed="#Bb" break="no" n="41"/>tum.
-      </p>
-               <p xml:id="Almn78-d44928-d1e338">
-                  <lb ed="#Bb" n="42"/>6. Si forte aliquis dicat, sieut quidam
-        <lb ed="#Bb" n="43"/>antiquorum dixeruut, quod personam
-        <lb ed="#Bb" n="44"/>esse in Angelis ostendit Grammaticorum
-        <lb ed="#Bb" n="45"/>distinctio, ubi dicitur, quod prima 
-        per<lb ed="#Bb" break="no" n="46"/>sona est, que loquitur de se : secunda,
-        <lb ed="#Bb" n="47"/>ad quam loquitur : tertia, de qua 
-        loqui<lb ed="#Bb" break="no" n="48"/>tur: sicut, Isaias, dicit, quod Seraphim
-        <lb ed="#Bb" n="49"/>stantia super solium, clamabant ad se
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>invicem : Sanctus, Sanctus, Sanctus. Et,
-        <lb ed="#Bb" n="51"/>Daniel. x, 22, ubi dicitur, quod Gabriel
-        <lb ed="#Bb" n="52"/>alii Angelo dixit, ut instrueret Danielem :
-        <lb ed="#Bb" n="53"/>et similiter, Zacharie#,1, 10. Hoc 
-        frivo<lb ed="#Bb" break="no" n="54"/>lum est : quia per prosopopeiam 
-        indu<lb ed="#Bb" break="no" n="55"/>citur lignum ut loquens, et alterum ut
-        <lb ed="#Bb" n="56"/>cui loquitur, et tertium de quo loquitur,
-        <lb ed="#Bb" n="57"/>ut, Judicum,1x, 12 et 13,ubidicitur, quod
-        <lb ed="#Bb" n="58"/>ierunt ligna ad vitem, et dixerunt ei :
-        <lb ed="#Bb" n="59"/>Veni, et impera nobis. Que, scilicet vitis,
-        <lb ed="#Bb" n="60"/>respondit eis : Numquid possum deserere
-        <lb ed="#Bb" n="61"/>vinum meum, quod letificat Deum et
-        <lb ed="#Bb" n="62"/>homines, et inter ligna cetera 
-        prome<lb ed="#Bb" break="no" n="63"/>veri. Unde si grammaticalis distinctio
-        <lb ed="#Bb" n="64"/>sufficeret ad constitutionem persone, 
-        li<lb ed="#Bb" break="no" n="65"/>gna essent persone, quod valde 
-        absur<lb ed="#Bb" break="no" n="66"/>dum est. Videtur ergo, quod in Angelis
-        <lb ed="#Bb" n="67"/>aut non sit persona, aut non sit hoc
-        <lb ed="#Bb" n="68"/>modo.
-      </p>
-               <p xml:id="Almn78-d44928-d1e401">
-                  <lb ed="#Bb" n="69"/>7. Adhuc, Objiciunt quidam, quod
-        <lb ed="#Bb" n="70"/>Angelus non est rationalis natura, sed 
-        in<lb ed="#Bb" break="no" n="71"/>tellectualis : et cum persona sit 
-        rationa<lb ed="#Bb" break="no" n="72"/>lis nature individua substantia: ergo
-        <lb ed="#Bb" n="73"/>Angelus non erit persona.
-      </p>
-               <p xml:id="Almn78-d44928-d1e414">
-                  <lb ed="#Bb" n="74"/>In contrarium est, quod
-        <lb ed="#Bb" n="75"/>4. Quilibet Angelus est per se una
-        <lb ed="#Bb" n="76"/>substantia sub hoc communi quod est
-        <lb ed="#Bb" n="77"/>natura rationalis, vel nalura 
-        intellectua<lb ed="#Bb" break="no" n="78"/>lis: ergo secundum Boetium quilibet
-        <lb ed="#Bb" n="79"/>Angelus est persona.
-      </p>
-               <p xml:id="Almn78-d44928-d1e431">
-                  <lb ed="#Bb" n="80"/>2. Adhuc, Hoc nomen, persona, 
-        no<lb ed="#Bb" break="no" n="81"/>men civile est: et individui homines 
-        in<lb ed="#Bb" break="no" n="82"/>siguiti prelaturis, persone dicuntur, sicut
-        <lb ed="#Bb" n="83"/>preses, tribunus, proconsul,’ et 
-        hujus<lb ed="#Bb" break="no" n="84"/>modi: sed tales prelature sunt in 
-        An<lb ed="#Bb" break="no" n="85"/>gelis ad dignitatem pertinentes, quia
-        <lb ed="#Bb" n="86"/>unus purgat, et alius purgatur: et unus
-        <lb ed="#Bb" n="87"/>illuminat, et alter illuminatur: et unus
-        <lb ed="#Bb" n="88"/>perficit, et alter perficitur, ut dicit 
-        Dio<lb ed="#Bb" break="no" n="89"/>nysius in Celesti hierarchia : igitur 
-        per<lb ed="#Bb" break="no" n="90"/>sonatus sunt in Angelis: ‘sed personatus
-        <lb ed="#Bb" n="91"/>non commiituntur nisi his qui 
-        secun<lb ed="#Bb" break="no" n="92"/>dum naturam persone sunt distinct sub
-        <lb ed="#Bb" n="93"/>hoc communi quod’est rationalis natura:
-        <lb ed="#Bb" n="94"/>ergo Angeli distincte persone sunt:
-        <lb ed="#Bb" n="95"/>ergo personalis discretio convenit 
-        An<lb ed="#Bb" break="no" n="96"/>gelis.
-      </p>
-               <p xml:id="Almn78-d44928-d1e470">
-                  <lb ed="#Bb" n="97"/>Soxutto. Dicendum, quod personalis
-        <pb ed="#Bb" n="205"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>discretio convenit Augelis, ut probatum
-        <lb ed="#Bb" n="2"/>est: et he discretio sola proprietate 
-        co<lb ed="#Bb" break="no" n="3"/>gnoscitur, ut dicit Richardus.
-      </p>
-               <p xml:id="Almn78-d44928-d1e486">
-                  <lb ed="#Bb" n="4"/>Ad primum ergo dicendum, quod 
-        Ri<lb ed="#Bb" break="no" n="5"/>chardus bene dicit, quando dicit, quod
-        <lb ed="#Bb" n="6"/>tribus modis distinguuntur persone. In
-        <lb ed="#Bb" n="7"/>divinis enim non nisi relatione originis,
-        <lb ed="#Bb" n="8"/>ut in prima parte Summe theologiz
-        <lb ed="#Bb" n="9"/>probatum est: substantia enim una et
-        <lb ed="#Bb" n="10"/>eadem est in tribus personis. In 
-        huma<lb ed="#Bb" break="no" n="11"/>nis autem distinguuntur origine et 
-        pro<lb ed="#Bb" break="no" n="12"/>prietate: nec una substantia est eadem
-        <lb ed="#Bb" n="13"/>in pluribus personis, sed sunt substantiz
-        <lb ed="#Bb" n="14"/>individue a se invicem distincte. In 
-        An<lb ed="#Bb" break="no" n="15"/>gelis etiam aliud est discretionem 
-        sub<lb ed="#Bb" break="no" n="16"/>stantia faciens, et aliud est discretam
-        <lb ed="#Bb" n="17"/>substantiam ostendens, Sicut enim in
-        <lb ed="#Bb" n="18"/>materialibus individuatio nature com.
-        <lb ed="#Bb" n="19"/>munis super hanc_materiam 
-        determina<lb ed="#Bb" break="no" n="20"/>tam et propriam, facit hoc aliquid, et
-        <lb ed="#Bb" n="21"/>hoc est individuum: ita in natura 
-        spiri<lb ed="#Bb" break="no" n="22"/>tuali in qua differt quod est a quo est,
-        <lb ed="#Bb" n="23"/>natura communis que significatur per
-        <lb ed="#Bb" n="24"/>quo est particulata super hoc quod est
-        <lb ed="#Bb" n="25"/>singulariter demonstratum, facit 
-        singu<lb ed="#Bb" break="no" n="26"/>larem existentie modum, et facit hoc
-        <lb ed="#Bb" n="27"/>aliquid et spiritualis nature individuum.
-        <lb ed="#Bb" n="28"/>Kt sicut in corporalibus est collectio 
-        ac<lb ed="#Bb" break="no" n="29"/>cidentium, que indicat in hoc corporali
-        <lb ed="#Bb" n="30"/>individuo singularis et incommunicabilis
-        <lb ed="#Bb" n="31"/>existentia modum : ita in hoc spirituali
-        <lb ed="#Bb" n="32"/>individuo quedam collectio 
-        proprieta<lb ed="#Bb" break="no" n="33"/>tum est, sicut circumscriptio sive 
-        locali<lb ed="#Bb" break="no" n="34"/>tas definitiva, non corporalis, et sicut
-        <lb ed="#Bb" n="35"/>officlum, et actus proprius, que in eo
-        <lb ed="#Bb" n="36"/>indicant singularis existentie modum et
-        <lb ed="#Bb" n="37"/>incommunicabilis. Et quando dicit 
-        Ri<lb ed="#Bb" break="no" n="38"/>chardus, quod proprietate sola 
-        distin<lb ed="#Bb" break="no" n="39"/>guuntur person® angelice, tangit illud
-        <lb ed="#Bb" n="40"/>quod est ostendens distinctionem, et non
-        <lb ed="#Bb" n="41"/>faciens.
-      </p>
-               <p xml:id="Almn78-d44928-d1e571">
-                  <lb ed="#Bb" n="42"/>Ad aliud dicendum, quod dictum
-        <lb ed="#Bb" n="43"/>Rabbi Moysis intelligitur de his que 
-        se<lb ed="#Bb" break="no" n="44"/>parata sunt a materia et materiali 
-        prin<lb ed="#Bb" break="no" n="45"/>cipio: et hoc non est in divinis, que
-        <lb ed="#Bb" n="46"/>sunt in fine simplicitatis, et est in eis
-        <lb ed="#Bb" n="47"/>idem quod est et esse. In Angelis autem
-        <lb ed="#Bb" n="48"/>licet non sit materia corporalis, tamen
-        <lb ed="#Bb" n="49"/>est ibi diversum quod est et quo est,
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>et quod est in hoc materiale est, quod
-        <lb ed="#Bb" n="51"/>principium est individuationis nature
-        <lb ed="#Bb" n="52"/>communis: et per hoc fit divisio 
-        sub<lb ed="#Bb" break="no" n="53"/>stantie per quam persone differunt 
-        se<lb ed="#Bb" break="no" n="54"/>cundum substantiam : que differentia
-        <lb ed="#Bb" n="55"/>ostenditur collectione proprietatum 
-        in<lb ed="#Bb" break="no" n="56"/>communicabilium,
-      </p>
-               <p xml:id="Almn78-d44928-d1e608">
-                  <lb ed="#Bb" n="57"/>Ad aliud dicendum, quod Angelus
-        <lb ed="#Bb" n="58"/>unus, et individuum est, et rationalis 
-        na<lb ed="#Bb" break="no" n="59"/>ture est, et ideo persona est. Et quod dicit
-        <lb ed="#Bb" n="60"/>Porphyrius de collectione accidentium,
-        <lb ed="#Bb" n="61"/>dicit de corporalibus que individuantur
-        <lb ed="#Bb" n="62"/>per hanc materiam : et ideo spiritualibus
-        <lb ed="#Bb" n="63"/>individuis illa non conveniunt : et ideo
-        <lb ed="#Bb" n="64"/>illorum est collectio spiritualium 
-        pro<lb ed="#Bb" break="no" n="65"/>prietatum, que incommunicabilis 
-        exi<lb ed="#Bb" break="no" n="66"/>stentie modum ostendunt in uno, et
-        <lb ed="#Bb" n="67"/>non in alio.
-      </p>
-               <p xml:id="Almn78-d44928-d1e634">
-                  <lb ed="#Bb" n="68"/>Ad aliud dicendum, quod vilis 
-        obje<lb ed="#Bb" break="no" n="69"/>ctio est : non enim vere individuum est,
-        <lb ed="#Bb" n="70"/>quod unibile est alteri. Individuum enim
-        <lb ed="#Bb" n="71"/>est in se consistens unum ab omnibus
-        <lb ed="#Bb" n="72"/>aliis divisum. Et sic anima etiam 
-        sepa<lb ed="#Bb" break="no" n="73"/>rata non est individuum: quia adhuc
-        <lb ed="#Bb" n="74"/>unibilis est corpori.
-      </p>
-               <p xml:id="Almn78-d44928-d1e653">
-                  <lb ed="#Bb" n="75"/>Eopem modo dicendum est ad 
-        se<lb ed="#Bb" break="no" n="76"/>quens: natura enim humana in Christo
-        <lb ed="#Bb" n="77"/>unita est divine in una persona Filii :
-        <lb ed="#Bb" n="78"/>et ideo nec per se proprie una est, nec
-        <lb ed="#Bb" n="79"/>individua.
-      </p>
-               <p xml:id="Almn78-d44928-d1e666">
-                  <lb ed="#Bb" n="80"/>Ad aliud dicendum, quod nihil valet
-        <lb ed="#Bb" n="81"/>dictum illud, sicut bene improbatum est:
-        <lb ed="#Bb" n="82"/>Angelus enim per se et propria persona
-        <lb ed="#Bb" n="83"/>est: est enim hypostasis individua, 
-        dis<lb ed="#Bb" break="no" n="84"/>tincta a proprietate ad dignitatem 
-        perti<lb ed="#Bb" break="no" n="85"/>nente: intellectualis enim natura 
-        sem<lb ed="#Bb" break="no" n="86"/>per digna est: et propter hoc hujus
-        <lb ed="#Bb" n="87"/>solius individuum est persona, et nullius
-        <lb ed="#Bb" n="88"/>alterius nature individuum persona est,
-        <lb ed="#Bb" n="89"/>ut dicit Boetius.
-      </p>
-               <p xml:id="Almn78-d44928-d1e690">
-                  <lb ed="#Bb" n="90"/>Ad aliud dicendum, quod omnis 
-        ra<lb ed="#Bb" break="no" n="91"/>tionalis natura est intellectualis, et e
-        <lb ed="#Bb" n="92"/>converso : rationale enim non 
-        constitui<lb ed="#Bb" break="no" n="93"/>tur nisi ex intellectu composito, sicut in
-        <lb ed="#Bb" n="94"/>prehabitis determinatum est.
-      </p>
-               <p xml:id="Almn78-d44928-d1e703">
-                  <lb ed="#Bb" n="95"/>Que sunt in contrarium, procedunt.
-      </p>
-            </div>
-            <div xml:id="Almn78-d44928-Dd1e710">
-               <head xml:id="Almn78-d44928-Hd1e712">Membrum 2</head>
-               <head xml:id="Almn78-d44928-Hd1e715" type="question-title">
-        Si convenit Angelo personalis discretio,
-        secundum quam rationem et 
-        conveniat 
-      </head>
-               <p xml:id="Almn78-d44928-d1e718">
-                  <pb ed="#Bb" n="206"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>MEMBRUM II.
-        <lb ed="#Bb" n="2"/>Si convenit Angelo personalis discretio,
-        <lb ed="#Bb" n="3"/>secundum quam rationem et 
-        conve<lb ed="#Bb" break="no" n="4"/>niat ?
-      </p>
-               <p xml:id="Almn78-d44928-d1e734">
-                  <lb ed="#Bb" n="5"/>Secundo, Si convenit Angelo 
-        persona<lb ed="#Bb" break="no" n="6"/>lis discretio, queritur, secundum quam
-        <lb ed="#Bb" n="7"/>rationem ei conveniat ?
-      </p>
-               <p xml:id="Almn78-d44928-d1e743">
-                  <lb ed="#Bb" n="8"/>Sunt enim quatuor rationes persone.
-        <lb ed="#Bb" n="9"/>Una est, secundum quod persone 
-        di<lb ed="#Bb" break="no" n="10"/>cuntur que representantur in theatris,
-        <lb ed="#Bb" n="11"/>quando facta heroum recitantur vel 
-        can<lb ed="#Bb" break="no" n="12"/>tantur a comcedis et trageedis : sicut 
-        cir<lb ed="#Bb" break="no" n="13"/>cumligatur ab aliquo facies sive larva
-        <lb ed="#Bb" n="14"/>similis faciei Hectoris, vel’ Hecube, et
-        <lb ed="#Bb" n="15"/>cantantur facta heroica illius. Et sic
-        <lb ed="#Bb" n="16"/>persona accipitur in poetis. Propter quod
-        <lb ed="#Bb" n="17"/>etiam dicit Boetius in libro de Duabus
-        <lb ed="#Bb" n="18"/>naturis in una persona Christi, quod
-        <lb ed="#Bb" n="19"/>debet pronuntiari media circumflexa,
-        <lb ed="#Bb" n="20"/>eo quod inter os poete cantantis, et 
-        figu<lb ed="#Bb" break="no" n="21"/>ram oris larve per quod cantat, cantus
-        <lb ed="#Bb" n="22"/>fieri non potest nisi accentu circumflexo
-        <lb ed="#Bb" n="23"/>et spiritu. Hoc modo persona non potest
-        <lb ed="#Bb" n="24"/>accipi in Angelis, nisi forte quando 
-        as<lb ed="#Bb" break="no" n="25"/>sumunt corpora: sed nos hic de tali
-        <lb ed="#Bb" n="26"/>discretione personali non loquimur, sed
-        <lb ed="#Bb" n="27"/>potius de illa qua quilibet Angelus ab
-        <lb ed="#Bb" n="28"/>alio discreta persona monstratur.
-      </p>
-               <p xml:id="Almn78-d44928-d1e792">
-                  <lb ed="#Bb" n="29"/>Est et alia ratio persone quam ponit
-        <lb ed="#Bb" n="30"/>Boetius in libro de Duabus naturis in
-        <lb ed="#Bb" n="31"/>una persona Christi, quod <quote xml:id="Almn78-d44928-Qd1e800"> persona est
-          <lb ed="#Bb" n="32"/>rationalis nature hypostasis sive 
-          sub<lb ed="#Bb" break="no" n="33"/>stantia individua. </quote> Et secundum hanc
-        <lb ed="#Bb" n="34"/>iterum videtur personalitas non 
-        conve<lb ed="#Bb" break="no" n="35"/>nire Angelo: quia secundum 
-        Philoso<lb ed="#Bb" break="no" n="36"/>phum, principium individuationis est
-        <lb ed="#Bb" n="37"/>hac materia, et collectio accidentium
-        <lb ed="#Bb" n="38"/>que in alio inveniri non possunt : inter
-        <lb ed="#Bb" n="39"/>que (sicut dicit Boetius) precipuum est
-        <lb ed="#Bb" n="40"/>distinctio per locum: quia individuum
-        <lb ed="#Bb" n="41"/>sic est hic, quod non est alibi: et sic est
-        <lb ed="#Bb" n="42"/>hic, quod aliud non est secum in eodem
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="43"/>loco. Propter quod etiam Philosophus
-        <lb ed="#Bb" n="44"/>dicit, quod <quote xml:id="Almn78-d44928-Qd1e833"> distincta subjecto, sunt 
-          dis<lb ed="#Bb" break="no" n="45"/>tincta loco. </quote> Igitur secundum hanc 
-        ra<lb ed="#Bb" break="no" n="46"/>tionem personalitas non convenit 
-        An<lb ed="#Bb" break="no" n="47"/>gelo.
-      </p>
-               <p xml:id="Almn78-d44928-d1e844">
-                  <lb ed="#Bb" n="48"/>Est iterum ratio persone quam dat 
-        Ri<lb ed="#Bb" break="no" n="49"/>chardus in libro de Trinitate, dicens,
-        <lb ed="#Bb" n="50"/>quod <quote xml:id="Almn78-d44928-Qd1e852"> persona est existens per se solum
-          <lb ed="#Bb" n="51"/>secundum quemdam singularis 
-          existen<lb ed="#Bb" break="no" n="52"/>tia modum. </quote> Et secundum hanc 
-        ratio<lb ed="#Bb" break="no" n="53"/>nem iterum non videtur personalitas
-        <lb ed="#Bb" n="54"/>convenire Angelo: quia secundum 
-        Ri<lb ed="#Bb" break="no" n="55"/>chardum, existens est quod ex alio 
-        quo<lb ed="#Bb" break="no" n="56"/>dam sui generis secundum’ causalitatem
-        <lb ed="#Bb" n="57"/>vel principii rationem proeedit, ut Deus
-        <lb ed="#Bb" n="58"/>ex Deo, et homo ex homine. Et talis
-        <lb ed="#Bb" n="59"/>processus originis non convenit Angelis,
-        <lb ed="#Bb" n="60"/>ut preostensum est.
-      </p>
-               <p xml:id="Almn78-d44928-d1e878">
-                  <lb ed="#Bb" n="61"/>Est et ratio persone in civilibus,
-        <lb ed="#Bb" n="62"/>quod persona est hypostasis sive 
-        substan<lb ed="#Bb" break="no" n="63"/>tia individua insignata ad dignitatem
-        <lb ed="#Bb" n="64"/>pertinente. Et secundum hanc rationem
-        <lb ed="#Bb" n="65"/>iterum non convenit discretio personalis
-        <lb ed="#Bb" n="66"/>Angelis : quia secundum hoc non 
-        quili<lb ed="#Bb" break="no" n="67"/>bet Angelus esset persona, sed tantum
-        <lb ed="#Bb" n="68"/>illi qui in sublimioribus officiis et 
-        ordini<lb ed="#Bb" break="no" n="69"/>bus constituti sunt ordine hierarchico : et
-        <lb ed="#Bb" n="70"/>hoc falsum est.
-      </p>
-               <p xml:id="Almn78-d44928-d1e902">
-                  <lb ed="#Bb" n="71"/>Solutio. Dicendum, quod secundum
-        <lb ed="#Bb" n="72"/>quamlibet rationum inductarum, Angelo
-        <lb ed="#Bb" n="73"/>convenit personalitas. Dictum est enim
-        <lb ed="#Bb" n="74"/>in membro precedenti hujus questionis,
-        <lb ed="#Bb" n="75"/>quod discretionem personalem facit 
-        in<lb ed="#Bb" break="no" n="76"/>dividuatio nature communis, que 
-        signi<lb ed="#Bb" break="no" n="77"/>ficatur cum dicitur, quod Angelus est
-        <lb ed="#Bb" n="78"/>spiritualis et intellectualis natura super
-        <lb ed="#Bb" n="79"/>id quod est, quod est suppositum et res
-        <lb ed="#Bb" n="80"/>nature ejusdem, eductum de non esse
-        <lb ed="#Bb" n="81"/>ad esse per creationem. Sed proprietates .
-        <lb ed="#Bb" n="82"/>incommunicabiles, que sic sunt unius,,
-        <lb ed="#Bb" n="83"/>quod non aiterius, ostendunt unum 
-        dis<lb ed="#Bb" break="no" n="84"/>cretum esse ab alio : qua cum accipian- .
-        <lb ed="#Bb" n="85"/>tur ex officiis et actibus et gratiis 
-        Ange<lb ed="#Bb" break="no" n="86"/>lorum singularibus, sunt sicut facies sive
-        <lb ed="#Bb" n="87"/>larva circumligata in theatro, que unum
-        <lb ed="#Bb" n="88"/>singularem Angelum secundum 
-        discre<lb ed="#Bb" break="no" n="89"/>tum esse demonstrant.
-      </p>
-               <p xml:id="Almn78-d44928-d1e946">
-                  <lb ed="#Bb" n="90"/>Similiter cum ex io individuus An
-        <pb ed="#Bb" n="207"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" break="no" n="1"/>gelus ab omnibus aliis divisus, ab hoc
-        <lb ed="#Bb" n="2"/>communi quod est spiritualis nature 
-        in<lb ed="#Bb" break="no" n="3"/>tellectualis, sicut suppositum 
-        demonstre<lb ed="#Bb" break="no" n="4"/>(ur, secundum discretum esse suppositi
-        <lb ed="#Bb" n="5"/>erit Angelus secundum rationem 
-        secun<lb ed="#Bb" break="no" n="6"/>dam persone: erit enim rationalis 
-        na<lb ed="#Bb" break="no" n="7"/>ture substantia individua. Sed verum
-        <lb ed="#Bb" n="8"/>est, quod principium individuationis in
-        <lb ed="#Bb" n="9"/>eis non est materia, sed id quod est sub
-        <lb ed="#Bb" n="10"/>quadam convenientia ad materiam, de
-        <lb ed="#Bb" n="11"/>quain membro pracedenti istius 
-        que<lb ed="#Bb" break="no" n="12"/>stionis dictum est.
-      </p>
-               <p xml:id="Almn78-d44928-d1e981">
-                  <lb ed="#Bb" n="13"/>Secundum tertiam autem rationem 
-        Ri<lb ed="#Bb" break="no" n="14"/>chardi, si existens refertur ad rationem
-        <lb ed="#Bb" n="15"/>originis secundum quod unum 
-        origina<lb ed="#Bb" break="no" n="16"/>tur ad aliud sui generis, personalitas non
-        <lb ed="#Bb" n="17"/>convenit Angelis. Si autem referatur ad
-        <lb ed="#Bb" n="18"/>principia essentialia, qua sunt quod est
-        <lb ed="#Bb" n="19"/>et quo est, secundum quod dicitur 
-        exi<lb ed="#Bb" break="no" n="20"/>stens vere ens in natura ex quo est 
-        deter<lb ed="#Bb" break="no" n="21"/>minato ad quod est, ex qua 
-        determina<lb ed="#Bb" break="no" n="22"/>tione discretum esse accipit, nihil
-        <lb ed="#Bb" n="23"/>prohibet etiam secundum illam rationem
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="24"/>personalitatem etiam convenire Angelo:
-        <lb ed="#Bb" n="25"/>sic enim quilibet Angelus secundum se
-        <lb ed="#Bb" n="26"/>est existens per se solum secundum
-        <lb ed="#Bb" n="27"/>quemdam singularis existentie modum.
-      </p>
-               <p xml:id="Almn78-d44928-d1e1019">
-                  <lb ed="#Bb" n="28"/>Secundum quartam rationem, qua 
-        per<lb ed="#Bb" break="no" n="29"/>sona nomen civile est, scilicet proprietas
-        <lb ed="#Bb" n="30"/>ad dignitatem pertinens, si sumitur ab
-        <lb ed="#Bb" n="31"/>officio, tune secundum eam non 
-        genera<lb ed="#Bb" break="no" n="32"/>liter personalitas convenit Angelo. Si
-        <lb ed="#Bb" n="33"/>autem sumitur a natura, secundum quod
-        <lb ed="#Bb" n="34"/>dicimus, quod dignissima creaturarum
-        <lb ed="#Bb" n="35"/>est natura spiritualis et intellectualis,
-        <lb ed="#Bb" n="36"/>que propria efficitur ex individuatione
-        <lb ed="#Bb" n="37"/>sui super id quod est: tune etiam se~
-        <lb ed="#Bb" n="38"/>cundum eam personalitas convenit omni
-        <lb ed="#Bb" n="39"/>Angelo.
-      </p>
-               <p xml:id="Almn78-d44928-d1e1048">
-                  <lb ed="#Bb" n="40"/>Et per hoc patet solutio ad totum.
-        <lb ed="#Bb" n="41"/>Quod enim quidam querunt, Utrum
-        <lb ed="#Bb" n="42"/>Angeli differant solum numero, vel 
-        ge<lb ed="#Bb" break="no" n="43"/>nere, vel specie ad invicem? Jam in
-        <lb ed="#Bb" n="44"/>prehabitis in questione de differentia
-        <lb ed="#Bb" n="45"/>Angelorum ab invicem, a nobis 
-        determi<lb ed="#Bb" break="no" n="46"/>natum est.
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 15</title>
+        <author ref="#Albert">Albert the Great</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 15</title>
+          <date when="2021-11-11">November 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-11-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Bb" n="203"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Almn78-d44928"><!-- p2t4q15 -->
+        <head xml:id="Almn78-d44928-Hd1e106">Quaestio 15</head>
+        <head xml:id="Almn78-d44928-Hd1e109" type="question-title">
+          De tertio attributo, quod est discretio personalis.
+        </head>
+        <p xml:id="Almn78-d44928-d1e112">
+          <cb ed="#Bb" n="b"/>
+          <lb ed="#Bb" n="19"/>QUAESTIO XV.
+          <lb ed="#Bb" n="20"/>De tertio attributo, quod est discretio personalis.
+        </p>
+        <p xml:id="Almn78-d44928-d1e121">
+          <lb ed="#Bb" n="21"/>Deinde, Queritur de tertio attributo,
+          <lb ed="#Bb" n="22"/>quod est personalis discretio.
+          <lb ed="#Bb" n="23"/>Et queruntur duo, scilicet an discretio
+          <lb ed="#Bb" n="24"/>personalis conveniat Angelo?
+          <lb ed="#Bb" n="25"/>Secundo etsi convenit, secundum quam
+          <lb ed="#Bb" n="26"/>rationem conveniat ei?
+        </p>
+        
+        <div xml:id="Almn78-d44928-Dd1e137">
+          <head xml:id="Almn78-d44928-Hd1e139">Membrum 1</head>
+          <head xml:id="Almn78-d44928-Hd1e142" type="question-title">
+            An discretio personalis conveniat
+            Angelo?
+          </head>
+          <p xml:id="Almn78-d44928-d1e145">
+            <lb ed="#Bb" n="27"/>MEMBRUM I.
+            <lb ed="#Bb" n="28"/>An discretio personalis conveniat
+            <lb ed="#Bb" n="29"/>Angelo?
+          </p>
+          <p xml:id="Almn78-d44928-d1e154">
+            <lb ed="#Bb" n="30"/>Ad primum sic proceditur :
+            <lb ed="#Bb" n="31"/>4. Richardus in libro de Trinitate dicit,
+            <lb ed="#Bb" n="32"/>quod persona distinguitur tribus modis,
+            <lb ed="#Bb" n="33"/>scilicet origine tantum, et proprietate 
+            tan<lb ed="#Bb" break="no" n="34"/>tum, et utroque modo, scilicet origine et
+            <lb ed="#Bb" n="35"/>proprietate. Origine tantum, sicut in Deo
+            <lb ed="#Bb" n="36"/>Pater et Filius et Spiritus sanctus : he
+            <lb ed="#Bb" n="37"/>enim tres persone divine relatione ori
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" break="no" n="38"/>ginis tantum differunt. Proprietate 
+            tan<lb ed="#Bb" break="no" n="39"/>tum, sicut in Angelis, in quibus unus
+            <lb ed="#Bb" n="40"/>non originatur ab alio : sed in hoc 
+            dis<lb ed="#Bb" break="no" n="41"/>cernuntur, quod propria unius que
+            <lb ed="#Bb" n="42"/>convertuntur cum ipso et singularitatem
+            <lb ed="#Bb" n="43"/>ejus demonstrant, non sunt propria alte- -
+            <lb ed="#Bb" n="44"/>rius. Utroque modo, sicut in homine :
+            <lb ed="#Bb" n="45"/>homo enim et origine differt ab altero,
+            <lb ed="#Bb" n="46"/>et proprietate accidentium, que 
+            enume<lb ed="#Bb" break="no" n="47"/>rat Boetius, quod sunt patria, parentela,
+            <lb ed="#Bb" n="48"/>locus, et tempus, et hujusmodi, quorum
+            <lb ed="#Bb" n="49"/>collectio non potest esse in alio quam in
+            <lb ed="#Bb" n="50"/>uno, et ostendunt singularitatem ejus.
+            <lb ed="#Bb" n="51"/>Sed videtur, quod persone angelice non
+            <lb ed="#Bb" n="52"/>differant proprietate tantum : que enim
+            <lb ed="#Bb" n="53"/>proprietate differunt tantum, per 
+            acci<lb ed="#Bb" break="no" n="54"/>dens differunt : si ergo proprietate 
+            tan<lb ed="#Bb" break="no" n="55"/>tum distinguuntur persone in Angelis,
+            <lb ed="#Bb" n="56"/>non nisi accidentaliter differunt : quod
+            <lb ed="#Bb" n="57"/>falsum est, nihil enim ita differt 
+            substan<lb ed="#Bb" break="no" n="58"/>tialiter sicut persona a persona, 
+            preter<lb ed="#Bb" break="no" n="59"/>quam in divinis : est enim una persona
+            <lb ed="#Bb" n="60"/>una substantia que est hoc aliquid, et
+            <lb ed="#Bb" n="61"/>alia persona est alia substantia que
+            <pb ed="#Bb" n="204"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" break="no" n="1"/>etiam est hoc aliquid : et sic videtur,
+            <lb ed="#Bb" n="2"/>quod angelice persone non tantum 
+            pro<lb ed="#Bb" break="no" n="3"/>prietate distinguantur.
+          </p>
+          <p xml:id="Almn78-d44928-d1e239">
+            <lb ed="#Bb" n="4"/>2. Adhuc, Rabbi Moyses in libro qui
+            <lb ed="#Bb" n="5"/>dicitur Dux neutrorum, dicit quod in 
+            se<lb ed="#Bb" break="no" n="6"/>paratis a materia non est numerus, nisi
+            <lb ed="#Bb" n="7"/>per causam et causatum tantum : sed
+            <lb ed="#Bb" n="8"/>Angeli separati sunt a materia : ergo si
+            <lb ed="#Bb" n="9"/>est in eis numerus, vel differentia 
+            nume<lb ed="#Bb" break="no" n="10"/>ri, hoc erit per causam et causatum : sed
+            <lb ed="#Bb" n="11"/>ratio causz et causati, ratio originis est :
+            <lb ed="#Bb" n="12"/>ergo videtur, quod angéTice persone 
+            di<lb ed="#Bb" break="no" n="13"/>stinguantur origine, et non proprietate
+            <lb ed="#Bb" n="14"/>tantum.
+          </p>
+          <p xml:id="Almn78-d44928-d1e266">
+            <lb ed="#Bb" n="15"/>
+            <sic>2.</sic> Adhuc, Boetius in libro de Duabus
+            <lb ed="#Bb" n="16"/>naturis in una persona Christi : <quote xml:id="Almn78-d44928-Qd1e275"> 
+              Per<lb ed="#Bb" break="no" n="17"/>sona est rationalis creature individua
+              <lb ed="#Bb" n="18"/>substantia : </quote> sed individuum est, ut dicit
+            <lb ed="#Bb" n="19"/>Porphyrius, collectione accidentium que
+            <lb ed="#Bb" n="20"/>in alio non possunt inveniri : et hec sunt
+            <lb ed="#Bb" n="21"/>patria, parentela, locus, et hujusmodi,
+            <lb ed="#Bb" n="22"/>quorum nullum convenit angelice 
+            natu<lb ed="#Bb" break="no" n="23"/>re : ergo in angelica creatura non est 
+            in<lb ed="#Bb" break="no" n="24"/>dividuum : ergo nec individua 
+            substan<lb ed="#Bb" break="no" n="25"/>tia : ergo nec per consequens persona.
+          </p>
+          <p xml:id="Almn78-d44928-d1e298">
+            <lb ed="#Bb" n="26"/>4. Adhuc, Quidam objiciunt, quod
+            <lb ed="#Bb" n="27"/>sicut Angelus distinctionem habet in
+            <lb ed="#Bb" n="28"/>intellectuali natura, ita habet anima 
+            ra<lb ed="#Bb" break="no" n="29"/>tionalis. Unde anima rationalis est per se
+            <lb ed="#Bb" n="30"/>una, sicut unus Angelus per se unus est.
+            <lb ed="#Bb" n="31"/>Sed propter hoc, quod anima est per se
+            <lb ed="#Bb" n="32"/>una in rationali natura, non potest dici
+            <lb ed="#Bb" n="33"/>persona. Ergo nec Angelus propter hoc
+            <lb ed="#Bb" n="34"/>debet dici persona.
+          </p>
+          <p xml:id="Almn78-d44928-d1e320">
+            <lb ed="#Bb" n="35"/>5. Adhuc objiciunt, quod natura 
+            hu<lb ed="#Bb" break="no" n="36"/>mana in Christo perfectioribus 
+            proprie<lb ed="#Bb" break="no" n="37"/>tatibus distingu tur, quam aliquis 
+            An<lb ed="#Bb" break="no" n="38"/>gelus : non tamen est persona : ergo
+            <lb ed="#Bb" n="39"/>videtur, quod nec Angelus persona sit
+            <lb ed="#Bb" n="40"/>propter solam distinctionem 
+            proprieta<lb ed="#Bb" break="no" n="41"/>tum.
+          </p>
+          <p xml:id="Almn78-d44928-d1e338">
+            <lb ed="#Bb" n="42"/>6. Si forte aliquis dicat, sieut quidam
+            <lb ed="#Bb" n="43"/>antiquorum dixeruut, quod personam
+            <lb ed="#Bb" n="44"/>esse in Angelis ostendit Grammaticorum
+            <lb ed="#Bb" n="45"/>distinctio, ubi dicitur, quod prima 
+            per<lb ed="#Bb" break="no" n="46"/>sona est, que loquitur de se : secunda,
+            <lb ed="#Bb" n="47"/>ad quam loquitur : tertia, de qua 
+            loqui<lb ed="#Bb" break="no" n="48"/>tur: sicut, Isaias, dicit, quod Seraphim
+            <lb ed="#Bb" n="49"/>stantia super solium, clamabant ad se
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>invicem : Sanctus, Sanctus, Sanctus. Et,
+            <lb ed="#Bb" n="51"/>Daniel. x, 22, ubi dicitur, quod Gabriel
+            <lb ed="#Bb" n="52"/>alii Angelo dixit, ut instrueret Danielem :
+            <lb ed="#Bb" n="53"/>et similiter, Zacharie#,1, 10. Hoc 
+            frivo<lb ed="#Bb" break="no" n="54"/>lum est : quia per prosopopeiam 
+            indu<lb ed="#Bb" break="no" n="55"/>citur lignum ut loquens, et alterum ut
+            <lb ed="#Bb" n="56"/>cui loquitur, et tertium de quo loquitur,
+            <lb ed="#Bb" n="57"/>ut, Judicum,1x, 12 et 13,ubidicitur, quod
+            <lb ed="#Bb" n="58"/>ierunt ligna ad vitem, et dixerunt ei :
+            <lb ed="#Bb" n="59"/>Veni, et impera nobis. Que, scilicet vitis,
+            <lb ed="#Bb" n="60"/>respondit eis : Numquid possum deserere
+            <lb ed="#Bb" n="61"/>vinum meum, quod letificat Deum et
+            <lb ed="#Bb" n="62"/>homines, et inter ligna cetera 
+            prome<lb ed="#Bb" break="no" n="63"/>veri. Unde si grammaticalis distinctio
+            <lb ed="#Bb" n="64"/>sufficeret ad constitutionem persone, 
+            li<lb ed="#Bb" break="no" n="65"/>gna essent persone, quod valde 
+            absur<lb ed="#Bb" break="no" n="66"/>dum est. Videtur ergo, quod in Angelis
+            <lb ed="#Bb" n="67"/>aut non sit persona, aut non sit hoc
+            <lb ed="#Bb" n="68"/>modo.
+          </p>
+          <p xml:id="Almn78-d44928-d1e401">
+            <lb ed="#Bb" n="69"/>7. Adhuc, Objiciunt quidam, quod
+            <lb ed="#Bb" n="70"/>Angelus non est rationalis natura, sed 
+            in<lb ed="#Bb" break="no" n="71"/>tellectualis : et cum persona sit 
+            rationa<lb ed="#Bb" break="no" n="72"/>lis nature individua substantia: ergo
+            <lb ed="#Bb" n="73"/>Angelus non erit persona.
+          </p>
+          <p xml:id="Almn78-d44928-d1e414">
+            <lb ed="#Bb" n="74"/>In contrarium est, quod
+            <lb ed="#Bb" n="75"/>4. Quilibet Angelus est per se una
+            <lb ed="#Bb" n="76"/>substantia sub hoc communi quod est
+            <lb ed="#Bb" n="77"/>natura rationalis, vel nalura 
+            intellectua<lb ed="#Bb" break="no" n="78"/>lis: ergo secundum Boetium quilibet
+            <lb ed="#Bb" n="79"/>Angelus est persona.
+          </p>
+          <p xml:id="Almn78-d44928-d1e431">
+            <lb ed="#Bb" n="80"/>2. Adhuc, Hoc nomen, persona, 
+            no<lb ed="#Bb" break="no" n="81"/>men civile est: et individui homines 
+            in<lb ed="#Bb" break="no" n="82"/>siguiti prelaturis, persone dicuntur, sicut
+            <lb ed="#Bb" n="83"/>preses, tribunus, proconsul,’ et 
+            hujus<lb ed="#Bb" break="no" n="84"/>modi: sed tales prelature sunt in 
+            An<lb ed="#Bb" break="no" n="85"/>gelis ad dignitatem pertinentes, quia
+            <lb ed="#Bb" n="86"/>unus purgat, et alius purgatur: et unus
+            <lb ed="#Bb" n="87"/>illuminat, et alter illuminatur: et unus
+            <lb ed="#Bb" n="88"/>perficit, et alter perficitur, ut dicit 
+            Dio<lb ed="#Bb" break="no" n="89"/>nysius in Celesti hierarchia : igitur 
+            per<lb ed="#Bb" break="no" n="90"/>sonatus sunt in Angelis: ‘sed personatus
+            <lb ed="#Bb" n="91"/>non commiituntur nisi his qui 
+            secun<lb ed="#Bb" break="no" n="92"/>dum naturam persone sunt distinct sub
+            <lb ed="#Bb" n="93"/>hoc communi quod’est rationalis natura:
+            <lb ed="#Bb" n="94"/>ergo Angeli distincte persone sunt:
+            <lb ed="#Bb" n="95"/>ergo personalis discretio convenit 
+            An<lb ed="#Bb" break="no" n="96"/>gelis.
+          </p>
+          <p xml:id="Almn78-d44928-d1e470">
+            <lb ed="#Bb" n="97"/>Soxutto. Dicendum, quod personalis
+            <pb ed="#Bb" n="205"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>discretio convenit Augelis, ut probatum
+            <lb ed="#Bb" n="2"/>est: et he discretio sola proprietate 
+            co<lb ed="#Bb" break="no" n="3"/>gnoscitur, ut dicit Richardus.
+          </p>
+          <p xml:id="Almn78-d44928-d1e486">
+            <lb ed="#Bb" n="4"/>Ad primum ergo dicendum, quod 
+            Ri<lb ed="#Bb" break="no" n="5"/>chardus bene dicit, quando dicit, quod
+            <lb ed="#Bb" n="6"/>tribus modis distinguuntur persone. In
+            <lb ed="#Bb" n="7"/>divinis enim non nisi relatione originis,
+            <lb ed="#Bb" n="8"/>ut in prima parte Summe theologiz
+            <lb ed="#Bb" n="9"/>probatum est: substantia enim una et
+            <lb ed="#Bb" n="10"/>eadem est in tribus personis. In 
+            huma<lb ed="#Bb" break="no" n="11"/>nis autem distinguuntur origine et 
+            pro<lb ed="#Bb" break="no" n="12"/>prietate: nec una substantia est eadem
+            <lb ed="#Bb" n="13"/>in pluribus personis, sed sunt substantiz
+            <lb ed="#Bb" n="14"/>individue a se invicem distincte. In 
+            An<lb ed="#Bb" break="no" n="15"/>gelis etiam aliud est discretionem 
+            sub<lb ed="#Bb" break="no" n="16"/>stantia faciens, et aliud est discretam
+            <lb ed="#Bb" n="17"/>substantiam ostendens, Sicut enim in
+            <lb ed="#Bb" n="18"/>materialibus individuatio nature com.
+            <lb ed="#Bb" n="19"/>munis super hanc_materiam 
+            determina<lb ed="#Bb" break="no" n="20"/>tam et propriam, facit hoc aliquid, et
+            <lb ed="#Bb" n="21"/>hoc est individuum: ita in natura 
+            spiri<lb ed="#Bb" break="no" n="22"/>tuali in qua differt quod est a quo est,
+            <lb ed="#Bb" n="23"/>natura communis que significatur per
+            <lb ed="#Bb" n="24"/>quo est particulata super hoc quod est
+            <lb ed="#Bb" n="25"/>singulariter demonstratum, facit 
+            singu<lb ed="#Bb" break="no" n="26"/>larem existentie modum, et facit hoc
+            <lb ed="#Bb" n="27"/>aliquid et spiritualis nature individuum.
+            <lb ed="#Bb" n="28"/>Kt sicut in corporalibus est collectio 
+            ac<lb ed="#Bb" break="no" n="29"/>cidentium, que indicat in hoc corporali
+            <lb ed="#Bb" n="30"/>individuo singularis et incommunicabilis
+            <lb ed="#Bb" n="31"/>existentia modum : ita in hoc spirituali
+            <lb ed="#Bb" n="32"/>individuo quedam collectio 
+            proprieta<lb ed="#Bb" break="no" n="33"/>tum est, sicut circumscriptio sive 
+            locali<lb ed="#Bb" break="no" n="34"/>tas definitiva, non corporalis, et sicut
+            <lb ed="#Bb" n="35"/>officlum, et actus proprius, que in eo
+            <lb ed="#Bb" n="36"/>indicant singularis existentie modum et
+            <lb ed="#Bb" n="37"/>incommunicabilis. Et quando dicit 
+            Ri<lb ed="#Bb" break="no" n="38"/>chardus, quod proprietate sola 
+            distin<lb ed="#Bb" break="no" n="39"/>guuntur person® angelice, tangit illud
+            <lb ed="#Bb" n="40"/>quod est ostendens distinctionem, et non
+            <lb ed="#Bb" n="41"/>faciens.
+          </p>
+          <p xml:id="Almn78-d44928-d1e571">
+            <lb ed="#Bb" n="42"/>Ad aliud dicendum, quod dictum
+            <lb ed="#Bb" n="43"/>Rabbi Moysis intelligitur de his que 
+            se<lb ed="#Bb" break="no" n="44"/>parata sunt a materia et materiali 
+            prin<lb ed="#Bb" break="no" n="45"/>cipio: et hoc non est in divinis, que
+            <lb ed="#Bb" n="46"/>sunt in fine simplicitatis, et est in eis
+            <lb ed="#Bb" n="47"/>idem quod est et esse. In Angelis autem
+            <lb ed="#Bb" n="48"/>licet non sit materia corporalis, tamen
+            <lb ed="#Bb" n="49"/>est ibi diversum quod est et quo est,
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>et quod est in hoc materiale est, quod
+            <lb ed="#Bb" n="51"/>principium est individuationis nature
+            <lb ed="#Bb" n="52"/>communis: et per hoc fit divisio 
+            sub<lb ed="#Bb" break="no" n="53"/>stantie per quam persone differunt 
+            se<lb ed="#Bb" break="no" n="54"/>cundum substantiam : que differentia
+            <lb ed="#Bb" n="55"/>ostenditur collectione proprietatum 
+            in<lb ed="#Bb" break="no" n="56"/>communicabilium,
+          </p>
+          <p xml:id="Almn78-d44928-d1e608">
+            <lb ed="#Bb" n="57"/>Ad aliud dicendum, quod Angelus
+            <lb ed="#Bb" n="58"/>unus, et individuum est, et rationalis 
+            na<lb ed="#Bb" break="no" n="59"/>ture est, et ideo persona est. Et quod dicit
+            <lb ed="#Bb" n="60"/>Porphyrius de collectione accidentium,
+            <lb ed="#Bb" n="61"/>dicit de corporalibus que individuantur
+            <lb ed="#Bb" n="62"/>per hanc materiam : et ideo spiritualibus
+            <lb ed="#Bb" n="63"/>individuis illa non conveniunt : et ideo
+            <lb ed="#Bb" n="64"/>illorum est collectio spiritualium 
+            pro<lb ed="#Bb" break="no" n="65"/>prietatum, que incommunicabilis 
+            exi<lb ed="#Bb" break="no" n="66"/>stentie modum ostendunt in uno, et
+            <lb ed="#Bb" n="67"/>non in alio.
+          </p>
+          <p xml:id="Almn78-d44928-d1e634">
+            <lb ed="#Bb" n="68"/>Ad aliud dicendum, quod vilis 
+            obje<lb ed="#Bb" break="no" n="69"/>ctio est : non enim vere individuum est,
+            <lb ed="#Bb" n="70"/>quod unibile est alteri. Individuum enim
+            <lb ed="#Bb" n="71"/>est in se consistens unum ab omnibus
+            <lb ed="#Bb" n="72"/>aliis divisum. Et sic anima etiam 
+            sepa<lb ed="#Bb" break="no" n="73"/>rata non est individuum: quia adhuc
+            <lb ed="#Bb" n="74"/>unibilis est corpori.
+          </p>
+          <p xml:id="Almn78-d44928-d1e653">
+            <lb ed="#Bb" n="75"/>Eopem modo dicendum est ad 
+            se<lb ed="#Bb" break="no" n="76"/>quens: natura enim humana in Christo
+            <lb ed="#Bb" n="77"/>unita est divine in una persona Filii :
+            <lb ed="#Bb" n="78"/>et ideo nec per se proprie una est, nec
+            <lb ed="#Bb" n="79"/>individua.
+          </p>
+          <p xml:id="Almn78-d44928-d1e666">
+            <lb ed="#Bb" n="80"/>Ad aliud dicendum, quod nihil valet
+            <lb ed="#Bb" n="81"/>dictum illud, sicut bene improbatum est:
+            <lb ed="#Bb" n="82"/>Angelus enim per se et propria persona
+            <lb ed="#Bb" n="83"/>est: est enim hypostasis individua, 
+            dis<lb ed="#Bb" break="no" n="84"/>tincta a proprietate ad dignitatem 
+            perti<lb ed="#Bb" break="no" n="85"/>nente: intellectualis enim natura 
+            sem<lb ed="#Bb" break="no" n="86"/>per digna est: et propter hoc hujus
+            <lb ed="#Bb" n="87"/>solius individuum est persona, et nullius
+            <lb ed="#Bb" n="88"/>alterius nature individuum persona est,
+            <lb ed="#Bb" n="89"/>ut dicit Boetius.
+          </p>
+          <p xml:id="Almn78-d44928-d1e690">
+            <lb ed="#Bb" n="90"/>Ad aliud dicendum, quod omnis 
+            ra<lb ed="#Bb" break="no" n="91"/>tionalis natura est intellectualis, et e
+            <lb ed="#Bb" n="92"/>converso : rationale enim non 
+            constitui<lb ed="#Bb" break="no" n="93"/>tur nisi ex intellectu composito, sicut in
+            <lb ed="#Bb" n="94"/>prehabitis determinatum est.
+          </p>
+          <p xml:id="Almn78-d44928-d1e703">
+            <lb ed="#Bb" n="95"/>Que sunt in contrarium, procedunt.
+          </p>
+        </div>
+        <div xml:id="Almn78-d44928-Dd1e710">
+          <head xml:id="Almn78-d44928-Hd1e712">Membrum 2</head>
+          <head xml:id="Almn78-d44928-Hd1e715" type="question-title">
+            Si convenit Angelo personalis discretio,
+            secundum quam rationem et 
+            conveniat 
+          </head>
+          <p xml:id="Almn78-d44928-d1e718">
+            <pb ed="#Bb" n="206"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>MEMBRUM II.
+            <lb ed="#Bb" n="2"/>Si convenit Angelo personalis discretio,
+            <lb ed="#Bb" n="3"/>secundum quam rationem et 
+            conve<lb ed="#Bb" break="no" n="4"/>niat ?
+          </p>
+          <p xml:id="Almn78-d44928-d1e734">
+            <lb ed="#Bb" n="5"/>Secundo, Si convenit Angelo 
+            persona<lb ed="#Bb" break="no" n="6"/>lis discretio, queritur, secundum quam
+            <lb ed="#Bb" n="7"/>rationem ei conveniat ?
+          </p>
+          <p xml:id="Almn78-d44928-d1e743">
+            <lb ed="#Bb" n="8"/>Sunt enim quatuor rationes persone.
+            <lb ed="#Bb" n="9"/>Una est, secundum quod persone 
+            di<lb ed="#Bb" break="no" n="10"/>cuntur que representantur in theatris,
+            <lb ed="#Bb" n="11"/>quando facta heroum recitantur vel 
+            can<lb ed="#Bb" break="no" n="12"/>tantur a comcedis et trageedis : sicut 
+            cir<lb ed="#Bb" break="no" n="13"/>cumligatur ab aliquo facies sive larva
+            <lb ed="#Bb" n="14"/>similis faciei Hectoris, vel’ Hecube, et
+            <lb ed="#Bb" n="15"/>cantantur facta heroica illius. Et sic
+            <lb ed="#Bb" n="16"/>persona accipitur in poetis. Propter quod
+            <lb ed="#Bb" n="17"/>etiam dicit Boetius in libro de Duabus
+            <lb ed="#Bb" n="18"/>naturis in una persona Christi, quod
+            <lb ed="#Bb" n="19"/>debet pronuntiari media circumflexa,
+            <lb ed="#Bb" n="20"/>eo quod inter os poete cantantis, et 
+            figu<lb ed="#Bb" break="no" n="21"/>ram oris larve per quod cantat, cantus
+            <lb ed="#Bb" n="22"/>fieri non potest nisi accentu circumflexo
+            <lb ed="#Bb" n="23"/>et spiritu. Hoc modo persona non potest
+            <lb ed="#Bb" n="24"/>accipi in Angelis, nisi forte quando 
+            as<lb ed="#Bb" break="no" n="25"/>sumunt corpora: sed nos hic de tali
+            <lb ed="#Bb" n="26"/>discretione personali non loquimur, sed
+            <lb ed="#Bb" n="27"/>potius de illa qua quilibet Angelus ab
+            <lb ed="#Bb" n="28"/>alio discreta persona monstratur.
+          </p>
+          <p xml:id="Almn78-d44928-d1e792">
+            <lb ed="#Bb" n="29"/>Est et alia ratio persone quam ponit
+            <lb ed="#Bb" n="30"/>Boetius in libro de Duabus naturis in
+            <lb ed="#Bb" n="31"/>una persona Christi, quod <quote xml:id="Almn78-d44928-Qd1e800"> persona est
+              <lb ed="#Bb" n="32"/>rationalis nature hypostasis sive 
+              sub<lb ed="#Bb" break="no" n="33"/>stantia individua. </quote> Et secundum hanc
+            <lb ed="#Bb" n="34"/>iterum videtur personalitas non 
+            conve<lb ed="#Bb" break="no" n="35"/>nire Angelo: quia secundum 
+            Philoso<lb ed="#Bb" break="no" n="36"/>phum, principium individuationis est
+            <lb ed="#Bb" n="37"/>hac materia, et collectio accidentium
+            <lb ed="#Bb" n="38"/>que in alio inveniri non possunt : inter
+            <lb ed="#Bb" n="39"/>que (sicut dicit Boetius) precipuum est
+            <lb ed="#Bb" n="40"/>distinctio per locum: quia individuum
+            <lb ed="#Bb" n="41"/>sic est hic, quod non est alibi: et sic est
+            <lb ed="#Bb" n="42"/>hic, quod aliud non est secum in eodem
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="43"/>loco. Propter quod etiam Philosophus
+            <lb ed="#Bb" n="44"/>dicit, quod <quote xml:id="Almn78-d44928-Qd1e833"> distincta subjecto, sunt 
+              dis<lb ed="#Bb" break="no" n="45"/>tincta loco. </quote> Igitur secundum hanc 
+            ra<lb ed="#Bb" break="no" n="46"/>tionem personalitas non convenit 
+            An<lb ed="#Bb" break="no" n="47"/>gelo.
+          </p>
+          <p xml:id="Almn78-d44928-d1e844">
+            <lb ed="#Bb" n="48"/>Est iterum ratio persone quam dat 
+            Ri<lb ed="#Bb" break="no" n="49"/>chardus in libro de Trinitate, dicens,
+            <lb ed="#Bb" n="50"/>quod <quote xml:id="Almn78-d44928-Qd1e852"> persona est existens per se solum
+              <lb ed="#Bb" n="51"/>secundum quemdam singularis 
+              existen<lb ed="#Bb" break="no" n="52"/>tia modum. </quote> Et secundum hanc 
+            ratio<lb ed="#Bb" break="no" n="53"/>nem iterum non videtur personalitas
+            <lb ed="#Bb" n="54"/>convenire Angelo: quia secundum 
+            Ri<lb ed="#Bb" break="no" n="55"/>chardum, existens est quod ex alio 
+            quo<lb ed="#Bb" break="no" n="56"/>dam sui generis secundum’ causalitatem
+            <lb ed="#Bb" n="57"/>vel principii rationem proeedit, ut Deus
+            <lb ed="#Bb" n="58"/>ex Deo, et homo ex homine. Et talis
+            <lb ed="#Bb" n="59"/>processus originis non convenit Angelis,
+            <lb ed="#Bb" n="60"/>ut preostensum est.
+          </p>
+          <p xml:id="Almn78-d44928-d1e878">
+            <lb ed="#Bb" n="61"/>Est et ratio persone in civilibus,
+            <lb ed="#Bb" n="62"/>quod persona est hypostasis sive 
+            substan<lb ed="#Bb" break="no" n="63"/>tia individua insignata ad dignitatem
+            <lb ed="#Bb" n="64"/>pertinente. Et secundum hanc rationem
+            <lb ed="#Bb" n="65"/>iterum non convenit discretio personalis
+            <lb ed="#Bb" n="66"/>Angelis : quia secundum hoc non 
+            quili<lb ed="#Bb" break="no" n="67"/>bet Angelus esset persona, sed tantum
+            <lb ed="#Bb" n="68"/>illi qui in sublimioribus officiis et 
+            ordini<lb ed="#Bb" break="no" n="69"/>bus constituti sunt ordine hierarchico : et
+            <lb ed="#Bb" n="70"/>hoc falsum est.
+          </p>
+          <p xml:id="Almn78-d44928-d1e902">
+            <lb ed="#Bb" n="71"/>Solutio. Dicendum, quod secundum
+            <lb ed="#Bb" n="72"/>quamlibet rationum inductarum, Angelo
+            <lb ed="#Bb" n="73"/>convenit personalitas. Dictum est enim
+            <lb ed="#Bb" n="74"/>in membro precedenti hujus questionis,
+            <lb ed="#Bb" n="75"/>quod discretionem personalem facit 
+            in<lb ed="#Bb" break="no" n="76"/>dividuatio nature communis, que 
+            signi<lb ed="#Bb" break="no" n="77"/>ficatur cum dicitur, quod Angelus est
+            <lb ed="#Bb" n="78"/>spiritualis et intellectualis natura super
+            <lb ed="#Bb" n="79"/>id quod est, quod est suppositum et res
+            <lb ed="#Bb" n="80"/>nature ejusdem, eductum de non esse
+            <lb ed="#Bb" n="81"/>ad esse per creationem. Sed proprietates .
+            <lb ed="#Bb" n="82"/>incommunicabiles, que sic sunt unius,,
+            <lb ed="#Bb" n="83"/>quod non aiterius, ostendunt unum 
+            dis<lb ed="#Bb" break="no" n="84"/>cretum esse ab alio : qua cum accipian- .
+            <lb ed="#Bb" n="85"/>tur ex officiis et actibus et gratiis 
+            Ange<lb ed="#Bb" break="no" n="86"/>lorum singularibus, sunt sicut facies sive
+            <lb ed="#Bb" n="87"/>larva circumligata in theatro, que unum
+            <lb ed="#Bb" n="88"/>singularem Angelum secundum 
+            discre<lb ed="#Bb" break="no" n="89"/>tum esse demonstrant.
+          </p>
+          <p xml:id="Almn78-d44928-d1e946">
+            <lb ed="#Bb" n="90"/>Similiter cum ex io individuus An
+            <pb ed="#Bb" n="207"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" break="no" n="1"/>gelus ab omnibus aliis divisus, ab hoc
+            <lb ed="#Bb" n="2"/>communi quod est spiritualis nature 
+            in<lb ed="#Bb" break="no" n="3"/>tellectualis, sicut suppositum 
+            demonstre<lb ed="#Bb" break="no" n="4"/>(ur, secundum discretum esse suppositi
+            <lb ed="#Bb" n="5"/>erit Angelus secundum rationem 
+            secun<lb ed="#Bb" break="no" n="6"/>dam persone: erit enim rationalis 
+            na<lb ed="#Bb" break="no" n="7"/>ture substantia individua. Sed verum
+            <lb ed="#Bb" n="8"/>est, quod principium individuationis in
+            <lb ed="#Bb" n="9"/>eis non est materia, sed id quod est sub
+            <lb ed="#Bb" n="10"/>quadam convenientia ad materiam, de
+            <lb ed="#Bb" n="11"/>quain membro pracedenti istius 
+            que<lb ed="#Bb" break="no" n="12"/>stionis dictum est.
+          </p>
+          <p xml:id="Almn78-d44928-d1e981">
+            <lb ed="#Bb" n="13"/>Secundum tertiam autem rationem 
+            Ri<lb ed="#Bb" break="no" n="14"/>chardi, si existens refertur ad rationem
+            <lb ed="#Bb" n="15"/>originis secundum quod unum 
+            origina<lb ed="#Bb" break="no" n="16"/>tur ad aliud sui generis, personalitas non
+            <lb ed="#Bb" n="17"/>convenit Angelis. Si autem referatur ad
+            <lb ed="#Bb" n="18"/>principia essentialia, qua sunt quod est
+            <lb ed="#Bb" n="19"/>et quo est, secundum quod dicitur 
+            exi<lb ed="#Bb" break="no" n="20"/>stens vere ens in natura ex quo est 
+            deter<lb ed="#Bb" break="no" n="21"/>minato ad quod est, ex qua 
+            determina<lb ed="#Bb" break="no" n="22"/>tione discretum esse accipit, nihil
+            <lb ed="#Bb" n="23"/>prohibet etiam secundum illam rationem
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="24"/>personalitatem etiam convenire Angelo:
+            <lb ed="#Bb" n="25"/>sic enim quilibet Angelus secundum se
+            <lb ed="#Bb" n="26"/>est existens per se solum secundum
+            <lb ed="#Bb" n="27"/>quemdam singularis existentie modum.
+          </p>
+          <p xml:id="Almn78-d44928-d1e1019">
+            <lb ed="#Bb" n="28"/>Secundum quartam rationem, qua 
+            per<lb ed="#Bb" break="no" n="29"/>sona nomen civile est, scilicet proprietas
+            <lb ed="#Bb" n="30"/>ad dignitatem pertinens, si sumitur ab
+            <lb ed="#Bb" n="31"/>officio, tune secundum eam non 
+            genera<lb ed="#Bb" break="no" n="32"/>liter personalitas convenit Angelo. Si
+            <lb ed="#Bb" n="33"/>autem sumitur a natura, secundum quod
+            <lb ed="#Bb" n="34"/>dicimus, quod dignissima creaturarum
+            <lb ed="#Bb" n="35"/>est natura spiritualis et intellectualis,
+            <lb ed="#Bb" n="36"/>que propria efficitur ex individuatione
+            <lb ed="#Bb" n="37"/>sui super id quod est: tune etiam se~
+            <lb ed="#Bb" n="38"/>cundum eam personalitas convenit omni
+            <lb ed="#Bb" n="39"/>Angelo.
+          </p>
+          <p xml:id="Almn78-d44928-d1e1048">
+            <lb ed="#Bb" n="40"/>Et per hoc patet solutio ad totum.
+            <lb ed="#Bb" n="41"/>Quod enim quidam querunt, Utrum
+            <lb ed="#Bb" n="42"/>Angeli differant solum numero, vel 
+            ge<lb ed="#Bb" break="no" n="43"/>nere, vel specie ad invicem? Jam in
+            <lb ed="#Bb" n="44"/>prehabitis in questione de differentia
+            <lb ed="#Bb" n="45"/>Angelorum ab invicem, a nobis 
+            determi<lb ed="#Bb" break="no" n="46"/>natum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

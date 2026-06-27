@@ -1,290 +1,290 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 95</title>
-            <author ref="#Albert">Albert the Great</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 95</title>
-               <date when="2021-11-11">November 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-11-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Bc" n="215"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Almn78-h47718"><!-- p2t15q95 -->
-            <head xml:id="Almn78-h47718-Hd1e106">Quaestio 95</head>
-            <p xml:id="Almn78-h47718-d1e109">
-               <pb ed="#Bc" n="215"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Bc" n="1"/>QUESTIO XCV.
-<lb ed="#Bc" n="2"/>De quadruplici statu liberi arbitrii.
-</p>
-            <p xml:id="Almn78-h47718-d1e120">
-               <cb ed="#Bc" n="b"/>
-               <lb ed="#Bc" n="3"/>Deinde ratione hujus quod dicit 
-Ma<lb ed="#Bc" break="no" n="4"/>gister in libro II Sententiarum, distinct.
-<lb ed="#Bc" n="5"/>XXV, cap. £t possunt in homine notari
-<lb ed="#Bc" n="6"/>quatuor status, queritur de statibus 
-li<lb ed="#Bc" break="no" n="7"/>beri arbitrii.
-</p>
-            <p xml:id="Almn78-h47718-d1e136">
-               <lb ed="#Bc" n="8"/>Dicit enim ibi Magister, quod <quote xml:id="Almn78-h47718-Qd1e140"> ante
-<lb ed="#Bc" n="9"/>peccatum nil impediebat ad bonum,
-<lb ed="#Bc" n="10"/>nil impellebat ad malum. Non habuit
-<lb ed="#Bc" n="11"/>infirmitatem ad malum, et habuit 
-ad<lb ed="#Bc" break="no" n="12"/>jutorium ad bonum. Tune sine errore
-<lb ed="#Bc" n="13"/>ratio judicare, et voluntas sine 
-difficul<lb ed="#Bc" break="no" n="14"/>tate bonum appetere poterat, etc. </quote>
-            </p>
-            <p xml:id="Almn78-h47718-d1e157">
-               <lb ed="#Bc" n="15"/>Secundum hoc videtur, quod liberum
-<lb ed="#Bc" n="16"/>arbitrium non secundum unam rationem
-<lb ed="#Bc" n="17"/>dicatur in statu ante peccatum, et in 
-sta<lb ed="#Bc" break="no" n="18"/>tu post peccatum :
-</p>
-            <p xml:id="Almn78-h47718-d1e169">
-               <lb ed="#Bc" n="19"/>1. Quod tamen negat <name xml:id="Almn78-h47718-Nd1e173">Bernardus</name> in
-<lb ed="#Bc" n="20"/>libro de Libero arbitrio, dicens quod in
-<lb ed="#Bc" n="21"/>omnibus tam bonis quam malis dicitur
-<lb ed="#Bc" n="22"/>liberum a coactione et necessitate.
-</p>
-            <p xml:id="Almn78-h47718-d1e183">
-               <lb ed="#Bc" n="23"/>2. Adhuc. Constat, quod liberum 
-ar<lb ed="#Bc" break="no" n="24"/>bitrium secundum nomen communiter
-<lb ed="#Bc" n="25"/>predicatur in omni statu de homine: et
-<lb ed="#Bc" n="26"/>causa est, ut dicit Damascenus et 
-Grego<lb ed="#Bc" break="no" n="27"/>rius Nyssenus, quia in ipso homine est,
-<lb ed="#Bc" n="28"/>quod sit principium actuum suorum et
-<lb ed="#Bc" n="29"/>dominus. Liberum enim dicimus, ut 
-di<lb ed="#Bc" break="no" n="30"/>cit Aristoteles in primo prime 
-philoso<lb ed="#Bc" break="no" n="31"/>phiz, qui causa sui est: et sicut in ante
-<lb ed="#Bc" n="32"/>habitis dictum est ex verbis Damasceni,
-<lb ed="#Bc" n="33"/>qui agit et non agitur ad aliquid. 
-Vide<lb ed="#Bc" break="no" n="34"/>tur ergo, quod nomine et ratione 
-com<lb ed="#Bc" break="no" n="35"/>mune sit ad omnem statum et sic 
-univo<lb ed="#Bc" break="no" n="36"/>ce predicatur.
-</p>
-            <p xml:id="Almn78-h47718-d1e216">
-               <cb ed="#Bc" n="b"/>
-               <lb ed="#Bc" n="37"/>3. Contra, Ibidem dicit Magister de
-<lb ed="#Bc" n="38"/>secundo statu qui est post peccatum sic:
-<lb ed="#Bc" n="39"/>
-               <quote xml:id="Almn78-h47718-Qd1e226"> Post peccatum vero ante reparalionem
-<lb ed="#Bc" n="40"/>gratie premitur a concupiscentia et 
-vin<lb ed="#Bc" break="no" n="41"/>citur, et habet infirmitatem in malo, sed
-<lb ed="#Bc" n="42"/>non habet gratiam in bono : et ideo 
-pot<lb ed="#Bc" break="no" n="43"/>est peccare, el non potest non peccare,
-<lb ed="#Bc" n="44"/>etiam damnabiliter. </quote> Ex hoc videtur,
-<lb ed="#Bc" n="45"/>quod in statu post peccatum, quando non
-<lb ed="#Bc" n="46"/>habet gratiam gratum facientem, homo
-<lb ed="#Bc" n="47"/>necessitatem habet ad peccandum et 
-co<lb ed="#Bc" break="no" n="48"/>actionem. Ex hoc sequitur, quod 
-pecca<lb ed="#Bc" break="no" n="49"/>tum suum non sit voluntarium. 
-Augu<lb ed="#Bc" break="no" n="50"/>stinus enim sic objicit in libro de 
-prede<lb ed="#Bc" break="no" n="51"/>stinatione Sanctorum : <quote xml:id="Almn78-h47718-Qd1e255"> Si est 
-volunta<lb ed="#Bc" break="no" n="52"/>rium, jam non est necessarium. </quote>
-            </p>
-            <p xml:id="Almn78-h47718-d1e261">
-               <lb ed="#Bc" n="53"/>4, Adhuc, Nihil necessarium debet 
-ho<lb ed="#Bc" break="no" n="54"/>mini imputari : quia non est in ipso 
-fa<lb ed="#Bc" break="no" n="55"/>cere vel non facere. Si ergo sic est 
-pec<lb ed="#Bc" break="no" n="56"/>catum in quod incidit homo, post 
-pec<lb ed="#Bc" break="no" n="57"/>catum non debet homini imputari ad
-<lb ed="#Bc" n="58"/>peenam : et hoc falsum est et contra 
-fi<lb ed="#Bc" break="no" n="59"/>dem, cum dicit, Eecle. xu, 14, quod de
-<lb ed="#Bc" n="60"/>omnierrato adducet Deus in judicium
-<lb ed="#Bc" n="61"/>hominem errantem ‘. Et, Matth. xn, 26:
-<lb ed="#Bc" n="62"/>Dico vobis, guoniam omne verbum 
-otio<lb ed="#Bc" break="no" n="63"/>sum quod locuti fuerint homines, 
-red<lb ed="#Bc" break="no" n="64"/>dent rationem de co in die judicii.
-</p>
-            <p xml:id="Almn78-h47718-d1e290">
-               <lb ed="#Bc" n="65"/>5. Adhuc, Naturalia non tolluntur per
-<lb ed="#Bc" n="66"/>peccatum, licet vulnerentur. Et hoc idem
-<lb ed="#Bc" n="67"/>inducit Magister in illo cap. Unde 
-ma<lb ed="#Bc" break="no" n="68"/>nifestum est. Ergo videtur, quod post
-<lb ed="#Bc" n="69"/>peccatum non amittit homo -libertatem :
-<lb ed="#Bc" n="70"/>quia est de naturalibus donis : ergo nul
-<pb ed="#Bc" n="216"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Bc" break="no" n="1"/>lam incurrit peccandi necessitatem : 
-er<lb ed="#Bc" break="no" n="2"/>go post peccatum potest resistere 
-pecca<lb ed="#Bc" break="no" n="3"/>to sicut et ante.
-</p>
-            <p xml:id="Almn78-h47718-d1e316">
-               <lb ed="#Bc" n="4"/>6. Ulterius, Queritur de tertio statu
-<lb ed="#Bc" n="5"/>quem ponit ibidem Magister dicens:
-<lb ed="#Bc" n="6"/>
-               <quote xml:id="Almn78-h47718-Qd1e324"> Post reparationem vero ante 
-confirma<lb ed="#Bc" break="no" n="7"/>tionem premitur a concupiscentia, sed
-<lb ed="#Bc" n="8"/>non vincitur : et habet quidem 
-infirmi<lb ed="#Bc" break="no" n="9"/>tatem in malo, sed gratiam in bono: ut
-<lb ed="#Bc" n="10"/>possit peccare propter libertatem et 
-in<lb ed="#Bc" break="no" n="11"/>firmitatem, et possit non peccare ad
-<lb ed="#Bc" n="12"/>mortem propter libertatem et gratiam
-<lb ed="#Bc" n="13"/>adjuvantem. </quote>
-            </p>
-            <p xml:id="Almn78-h47718-d1e344">
-               <lb ed="#Bc" n="14"/>Solutio. Dicendum, quod sicut dicit
-<lb ed="#Bc" n="15"/>Augustinus, quatuor sunt status 
-liberta<lb ed="#Bc" break="no" n="16"/>tis in homine, scilicet ante peccatum,
-<lb ed="#Bc" n="17"/>sub peccato, sub gratia, et in 
-confirma<lb ed="#Bc" break="no" n="18"/>tione future beatitudinis. Et in omnibus
-<lb ed="#Bc" n="19"/>his meo judicio libertas a coactione
-<lb ed="#Bc" n="20"/>equaliter remanet in homine propter 
-li<lb ed="#Bc" break="no" n="21"/>bertatem voluntatis, quam si perderet
-<lb ed="#Bc" n="22"/>homo, ‘peccatum non esset peccatum.
-<lb ed="#Bc" n="23"/>Dicit enim Augustinus in hibro I 
-Retra<lb ed="#Bc" break="no" n="24"/>ctationum, quod <quote xml:id="Almn78-h47718-Qd1e370"> omne peccatum est
-<lb ed="#Bc" n="25"/>adeo voluntarium, quod si non sit 
-vo<lb ed="#Bc" break="no" n="26"/>luntarium, non sit peccatum '. </quote> Sed 
-li<lb ed="#Bc" break="no" n="27"/>bertas a peccato et libertas a miseria
-<lb ed="#Bc" n="28"/>non conveniunt homini equaliter sed 
-di<lb ed="#Bc" break="no" n="29"/>versimode secundum hos status.
-</p>
-            <p xml:id="Almn78-h47718-d1e384">
-               <lb ed="#Bc" n="30"/>Ad primum ergo dicendum, quod 
-Ma<lb ed="#Bc" break="no" n="31"/>gister bene describit ibi primum statum
-<lb ed="#Bc" n="32"/>liberi arbitrii quantum ad rationem et
-<lb ed="#Bc" n="33"/>voluntatem, quarum facultas est 
-libe<lb ed="#Bc" break="no" n="34"/>rum arbitrium.
-</p>
-            <p xml:id="Almn78-h47718-d1e397">
-               <lb ed="#Bc" n="35"/>Et quod objicitar contra per Bernar-
-  <lb ed="#Bc" n="36"/>dum, dicendum, quod libertas a coactio-
-  <lb ed="#Bc" n="37"/>ne que naturalis est, manet in omni
-  <lb ed="#Bc" n="38"/>statu sicut et in ipsa natura. Nullus enim
-<lb ed="#Bc" n="39"/>cogitur ad peccatum, nec cogi potest :
-<lb ed="#Bc" n="40"/>quia facere peccatum, vel non facere
-<lb ed="#Bc" n="41"/>peccatum est in libertate voluntatis.
-</p>
-            <p xml:id="Almn78-h47718-d1e415">
-               <lb ed="#Bc" n="42"/>Ad aliud dicendum, quod conceditur,
-<lb ed="#Bc" n="43"/>quod univoce predicatur quantum ad
-<lb ed="#Bc" n="44"/>libertatem a coactione.
-</p>
-            <p xml:id="Almn78-h47718-d1e424">
-               <lb ed="#Bc" n="45"/>Ad id quod objicit Magister de 
-secun<lb ed="#Bc" break="no" n="46"/>do statu, dicendum quod verba Magistri
-<cb ed="#Bc" n="b"/>
-               <lb ed="#Bc" n="47"/>tenenda sunt : quia sunt verba 
-Augusti<lb ed="#Bc" break="no" n="48"/>ni. Sed hoc non sequitur, si vincitur
-<lb ed="#Bc" n="49"/>quod cogatur de necessitate : loquuntur
-<lb ed="#Bc" n="50"/>enim Augustinus et Magister per 
-quam<lb ed="#Bc" break="no" n="51"/>dam similitudinem qui necessaria est.
-<lb ed="#Bc" n="52"/>Si enim aliquis habeat deprimentia, et
-<lb ed="#Bc" n="53"/>nihil elevans, necesse est quod 
-depri<lb ed="#Bc" break="no" n="54"/>mentia vincant, et faciant ipsum cadere
-<lb ed="#Bc" n="55"/>deorsum. Ita est in libero arbitrio quod
-<lb ed="#Bc" n="56"/>non habet gratiam elevantem, et habet
-<lb ed="#Bc" n="57"/>infirmitatem propriam prementem, et
-<lb ed="#Bc" n="58"/>pondus peccati mortalis, necesse est,
-<lb ed="#Bc" n="59"/>quod cadat in peccatum : tamen semper
-<lb ed="#Bc" n="60"/>cadit electione propriae voluntatis, et
-<lb ed="#Bc" n="61"/>nulla necessitate coactionis. Et hoc est
-<lb ed="#Bc" n="62"/>quod dicitur, Isa. uxtv, 6: Cecidimus
-<lb ed="#Bc" n="63"/>quasi folium universi, et iniguitates
-<lb ed="#Bc" n="64"/>nostre quasi ventus abstulerunt nos. Et,
-<lb ed="#Bc" n="65"/>Jerem. xu, 23 : Si mutare potest 
-Asthi<lb ed="#Bc" break="no" n="66"/>ops pellem suam, aut pardus varietates
-<lb ed="#Bc" n="67"/>suas, et vos poteritis bene facere,
-<lb ed="#Bc" n="68"/>cum didiceritis malum. Et causam 
-red<lb ed="#Bc" break="no" n="69"/>dit <name xml:id="Almn78-h47718-Nd1e482">Gregorius</name> dicens: <quote xml:id="Almn78-h47718-Qd1e485">Peccatum quod
-<lb ed="#Bc" n="70"/>per penitentiam citius non deletur, suo
-<lb ed="#Bc" n="71"/>pondere ad aliud trahit. </quote> Unde quando
-<lb ed="#Bc" n="72"/>homo est in peccato, et non habet 
-gra<lb ed="#Bc" break="no" n="73"/>liam adjutricem et reparantem vulnus
-<lb ed="#Bc" n="74"/>peccati, non potest resistere peccato
-<lb ed="#Bc" n="75"/>propter dispositionem malam que est in
-<lb ed="#Bc" n="76"/>ipso : et tamen nulla necessitate cogitur
-<lb ed="#Bc" n="77"/>ad peccandum, sed infirmitate 
-volunta<lb ed="#Bc" break="no" n="78"/>tis deprimitur ut sit servus peccali, et
-(ut dicit Augustinus) nullam habet 
-li<lb ed="#Bc" break="no" n="79"/>bertatem nisi hanc miseram et extreme
-<lb ed="#Bc" n="80"/>servituli subjectam, quod delectabiliter
-<lb ed="#Bc" n="81"/>et voluntarie servit peccato. Et hoc in
-<lb ed="#Bc" n="82"/>sequentibus magis apparebit, ubi de 
-li<lb ed="#Bc" break="no" n="83"/>bertate disputabitur,
-</p>
-            <p xml:id="Almn78-h47718-d1e519">
-               <lb ed="#Bc" n="84"/>Ad id quod ulterius objicitur, 
-dicen<lb ed="#Bc" break="no" n="85"/>dum quod loquitur Augustinus ibi de
-<lb ed="#Bc" n="86"/>necessitate coactionis : quia hoc est 
-in<lb ed="#Bc" break="no" n="87"/>voluntarium quod nihil habet de 
-volun<lb ed="#Bc" break="no" n="88"/>tate, quod ab Aristotele definitur in II 
-<lb ed="#Bc" break="no" n="89"/>Ethicorum, et a Damasceno in libro
-<lb ed="#Bc" n="90"/>Il de Fide orthodoxa, quod violentum
-<lb ed="#Bc" n="91"/>est, cujus principium est in alio nil 
-con<lb ed="#Bc" break="no" n="92"/>ferente ad violentiam vim passo : et hoc
-<pb ed="#Bc" n="217"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Bc" n="1"/>est, quod non imputatur ad peccatum.
-</p>
-            <p xml:id="Almn78-h47718-d1e549">
-               <lb ed="#Bc" n="2"/>Ad aliud dicendum, quod per 
-pecca<lb ed="#Bc" break="no" n="3"/>tum non tollitur libertas a coactione, 
-li<lb ed="#Bc" break="no" n="4"/>cet vulneretur: sed tollitur libertas a
-<lb ed="#Bc" n="5"/>peccato, et per peccatum servituli 
-adji<lb ed="#Bc" break="no" n="6"/>citur, et premitur ad aliud peccatum, ita
-<lb ed="#Bc" n="7"/>quod non resistit : tamen-semper hoc
-<lb ed="#Bc" n="8"/>facit ex voluntate et non ex necessitate
-<lb ed="#Bc" n="9"/>coactionis.
-</p>
-            <p xml:id="Almn78-h47718-d1e569">
-               <lb ed="#Bc" n="10"/>Ad hoc quod ultimo queritur, dicen
-<cb ed="#Bc" n="b"/>
-               <lb ed="#Bc" break="no" n="11"/>dum quod Magister satis bene describit
-<lb ed="#Bc" n="12"/>ibi statum tertium qui est sub gratia,
-<lb ed="#Bc" n="13"/>in quo potest homo peccare venialiter ex
-<lb ed="#Bc" n="14"/>libertate arbitrii et voluntate : quia 
-sic<lb ed="#Bc" break="no" n="15"/>ut dicitur in prima canonica Joannis, 1,
-<lb ed="#Bc" n="16"/>8 : Si dixerimus quoniam peccatum non
-<lb ed="#Bc" n="17"/>habemus, ipsi nos seducimus, et veritas
-<lb ed="#Bc" n="18"/>in nobis non est. Et potest resistere 
-pec<lb ed="#Bc" break="no" n="19"/>cato mortali propter gratiam 
-adjuvan<lb ed="#Bc" break="no" n="20"/>tem.
-</p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 95</title>
+        <author ref="#Albert">Albert the Great</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 95</title>
+          <date when="2021-11-11">November 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Bc" n="cod-brg33x">Paris 1895, Volume 33</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-11-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Bc" n="215"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Almn78-h47718"><!-- p2t15q95 -->
+        <head xml:id="Almn78-h47718-Hd1e106">Quaestio 95</head>
+        <p xml:id="Almn78-h47718-d1e109">
+          <pb ed="#Bc" n="215"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Bc" n="1"/>QUESTIO XCV.
+          <lb ed="#Bc" n="2"/>De quadruplici statu liberi arbitrii.
+        </p>
+        <p xml:id="Almn78-h47718-d1e120">
+          <cb ed="#Bc" n="b"/>
+          <lb ed="#Bc" n="3"/>Deinde ratione hujus quod dicit 
+          Ma<lb ed="#Bc" break="no" n="4"/>gister in libro II Sententiarum, distinct.
+          <lb ed="#Bc" n="5"/>XXV, cap. £t possunt in homine notari
+          <lb ed="#Bc" n="6"/>quatuor status, queritur de statibus 
+          li<lb ed="#Bc" break="no" n="7"/>beri arbitrii.
+        </p>
+        <p xml:id="Almn78-h47718-d1e136">
+          <lb ed="#Bc" n="8"/>Dicit enim ibi Magister, quod <quote xml:id="Almn78-h47718-Qd1e140"> ante
+            <lb ed="#Bc" n="9"/>peccatum nil impediebat ad bonum,
+            <lb ed="#Bc" n="10"/>nil impellebat ad malum. Non habuit
+            <lb ed="#Bc" n="11"/>infirmitatem ad malum, et habuit 
+            ad<lb ed="#Bc" break="no" n="12"/>jutorium ad bonum. Tune sine errore
+            <lb ed="#Bc" n="13"/>ratio judicare, et voluntas sine 
+            difficul<lb ed="#Bc" break="no" n="14"/>tate bonum appetere poterat, etc. </quote>
+        </p>
+        <p xml:id="Almn78-h47718-d1e157">
+          <lb ed="#Bc" n="15"/>Secundum hoc videtur, quod liberum
+          <lb ed="#Bc" n="16"/>arbitrium non secundum unam rationem
+          <lb ed="#Bc" n="17"/>dicatur in statu ante peccatum, et in 
+          sta<lb ed="#Bc" break="no" n="18"/>tu post peccatum :
+        </p>
+        <p xml:id="Almn78-h47718-d1e169">
+          <lb ed="#Bc" n="19"/>1. Quod tamen negat <name xml:id="Almn78-h47718-Nd1e173">Bernardus</name> in
+          <lb ed="#Bc" n="20"/>libro de Libero arbitrio, dicens quod in
+          <lb ed="#Bc" n="21"/>omnibus tam bonis quam malis dicitur
+          <lb ed="#Bc" n="22"/>liberum a coactione et necessitate.
+        </p>
+        <p xml:id="Almn78-h47718-d1e183">
+          <lb ed="#Bc" n="23"/>2. Adhuc. Constat, quod liberum 
+          ar<lb ed="#Bc" break="no" n="24"/>bitrium secundum nomen communiter
+          <lb ed="#Bc" n="25"/>predicatur in omni statu de homine: et
+          <lb ed="#Bc" n="26"/>causa est, ut dicit Damascenus et 
+          Grego<lb ed="#Bc" break="no" n="27"/>rius Nyssenus, quia in ipso homine est,
+          <lb ed="#Bc" n="28"/>quod sit principium actuum suorum et
+          <lb ed="#Bc" n="29"/>dominus. Liberum enim dicimus, ut 
+          di<lb ed="#Bc" break="no" n="30"/>cit Aristoteles in primo prime 
+          philoso<lb ed="#Bc" break="no" n="31"/>phiz, qui causa sui est: et sicut in ante
+          <lb ed="#Bc" n="32"/>habitis dictum est ex verbis Damasceni,
+          <lb ed="#Bc" n="33"/>qui agit et non agitur ad aliquid. 
+          Vide<lb ed="#Bc" break="no" n="34"/>tur ergo, quod nomine et ratione 
+          com<lb ed="#Bc" break="no" n="35"/>mune sit ad omnem statum et sic 
+          univo<lb ed="#Bc" break="no" n="36"/>ce predicatur.
+        </p>
+        <p xml:id="Almn78-h47718-d1e216">
+          <cb ed="#Bc" n="b"/>
+          <lb ed="#Bc" n="37"/>3. Contra, Ibidem dicit Magister de
+          <lb ed="#Bc" n="38"/>secundo statu qui est post peccatum sic:
+          <lb ed="#Bc" n="39"/>
+          <quote xml:id="Almn78-h47718-Qd1e226"> Post peccatum vero ante reparalionem
+            <lb ed="#Bc" n="40"/>gratie premitur a concupiscentia et 
+            vin<lb ed="#Bc" break="no" n="41"/>citur, et habet infirmitatem in malo, sed
+            <lb ed="#Bc" n="42"/>non habet gratiam in bono : et ideo 
+            pot<lb ed="#Bc" break="no" n="43"/>est peccare, el non potest non peccare,
+            <lb ed="#Bc" n="44"/>etiam damnabiliter. </quote> Ex hoc videtur,
+          <lb ed="#Bc" n="45"/>quod in statu post peccatum, quando non
+          <lb ed="#Bc" n="46"/>habet gratiam gratum facientem, homo
+          <lb ed="#Bc" n="47"/>necessitatem habet ad peccandum et 
+          co<lb ed="#Bc" break="no" n="48"/>actionem. Ex hoc sequitur, quod 
+          pecca<lb ed="#Bc" break="no" n="49"/>tum suum non sit voluntarium. 
+          Augu<lb ed="#Bc" break="no" n="50"/>stinus enim sic objicit in libro de 
+          prede<lb ed="#Bc" break="no" n="51"/>stinatione Sanctorum : <quote xml:id="Almn78-h47718-Qd1e255"> Si est 
+            volunta<lb ed="#Bc" break="no" n="52"/>rium, jam non est necessarium. </quote>
+        </p>
+        <p xml:id="Almn78-h47718-d1e261">
+          <lb ed="#Bc" n="53"/>4, Adhuc, Nihil necessarium debet 
+          ho<lb ed="#Bc" break="no" n="54"/>mini imputari : quia non est in ipso 
+          fa<lb ed="#Bc" break="no" n="55"/>cere vel non facere. Si ergo sic est 
+          pec<lb ed="#Bc" break="no" n="56"/>catum in quod incidit homo, post 
+          pec<lb ed="#Bc" break="no" n="57"/>catum non debet homini imputari ad
+          <lb ed="#Bc" n="58"/>peenam : et hoc falsum est et contra 
+          fi<lb ed="#Bc" break="no" n="59"/>dem, cum dicit, Eecle. xu, 14, quod de
+          <lb ed="#Bc" n="60"/>omnierrato adducet Deus in judicium
+          <lb ed="#Bc" n="61"/>hominem errantem ‘. Et, Matth. xn, 26:
+          <lb ed="#Bc" n="62"/>Dico vobis, guoniam omne verbum 
+          otio<lb ed="#Bc" break="no" n="63"/>sum quod locuti fuerint homines, 
+          red<lb ed="#Bc" break="no" n="64"/>dent rationem de co in die judicii.
+        </p>
+        <p xml:id="Almn78-h47718-d1e290">
+          <lb ed="#Bc" n="65"/>5. Adhuc, Naturalia non tolluntur per
+          <lb ed="#Bc" n="66"/>peccatum, licet vulnerentur. Et hoc idem
+          <lb ed="#Bc" n="67"/>inducit Magister in illo cap. Unde 
+          ma<lb ed="#Bc" break="no" n="68"/>nifestum est. Ergo videtur, quod post
+          <lb ed="#Bc" n="69"/>peccatum non amittit homo -libertatem :
+          <lb ed="#Bc" n="70"/>quia est de naturalibus donis : ergo nul
+          <pb ed="#Bc" n="216"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Bc" break="no" n="1"/>lam incurrit peccandi necessitatem : 
+          er<lb ed="#Bc" break="no" n="2"/>go post peccatum potest resistere 
+          pecca<lb ed="#Bc" break="no" n="3"/>to sicut et ante.
+        </p>
+        <p xml:id="Almn78-h47718-d1e316">
+          <lb ed="#Bc" n="4"/>6. Ulterius, Queritur de tertio statu
+          <lb ed="#Bc" n="5"/>quem ponit ibidem Magister dicens:
+          <lb ed="#Bc" n="6"/>
+          <quote xml:id="Almn78-h47718-Qd1e324"> Post reparationem vero ante 
+            confirma<lb ed="#Bc" break="no" n="7"/>tionem premitur a concupiscentia, sed
+            <lb ed="#Bc" n="8"/>non vincitur : et habet quidem 
+            infirmi<lb ed="#Bc" break="no" n="9"/>tatem in malo, sed gratiam in bono: ut
+            <lb ed="#Bc" n="10"/>possit peccare propter libertatem et 
+            in<lb ed="#Bc" break="no" n="11"/>firmitatem, et possit non peccare ad
+            <lb ed="#Bc" n="12"/>mortem propter libertatem et gratiam
+            <lb ed="#Bc" n="13"/>adjuvantem. </quote>
+        </p>
+        <p xml:id="Almn78-h47718-d1e344">
+          <lb ed="#Bc" n="14"/>Solutio. Dicendum, quod sicut dicit
+          <lb ed="#Bc" n="15"/>Augustinus, quatuor sunt status 
+          liberta<lb ed="#Bc" break="no" n="16"/>tis in homine, scilicet ante peccatum,
+          <lb ed="#Bc" n="17"/>sub peccato, sub gratia, et in 
+          confirma<lb ed="#Bc" break="no" n="18"/>tione future beatitudinis. Et in omnibus
+          <lb ed="#Bc" n="19"/>his meo judicio libertas a coactione
+          <lb ed="#Bc" n="20"/>equaliter remanet in homine propter 
+          li<lb ed="#Bc" break="no" n="21"/>bertatem voluntatis, quam si perderet
+          <lb ed="#Bc" n="22"/>homo, ‘peccatum non esset peccatum.
+          <lb ed="#Bc" n="23"/>Dicit enim Augustinus in hibro I 
+          Retra<lb ed="#Bc" break="no" n="24"/>ctationum, quod <quote xml:id="Almn78-h47718-Qd1e370"> omne peccatum est
+            <lb ed="#Bc" n="25"/>adeo voluntarium, quod si non sit 
+            vo<lb ed="#Bc" break="no" n="26"/>luntarium, non sit peccatum '. </quote> Sed 
+          li<lb ed="#Bc" break="no" n="27"/>bertas a peccato et libertas a miseria
+          <lb ed="#Bc" n="28"/>non conveniunt homini equaliter sed 
+          di<lb ed="#Bc" break="no" n="29"/>versimode secundum hos status.
+        </p>
+        <p xml:id="Almn78-h47718-d1e384">
+          <lb ed="#Bc" n="30"/>Ad primum ergo dicendum, quod 
+          Ma<lb ed="#Bc" break="no" n="31"/>gister bene describit ibi primum statum
+          <lb ed="#Bc" n="32"/>liberi arbitrii quantum ad rationem et
+          <lb ed="#Bc" n="33"/>voluntatem, quarum facultas est 
+          libe<lb ed="#Bc" break="no" n="34"/>rum arbitrium.
+        </p>
+        <p xml:id="Almn78-h47718-d1e397">
+          <lb ed="#Bc" n="35"/>Et quod objicitar contra per Bernar-
+          <lb ed="#Bc" n="36"/>dum, dicendum, quod libertas a coactio-
+          <lb ed="#Bc" n="37"/>ne que naturalis est, manet in omni
+          <lb ed="#Bc" n="38"/>statu sicut et in ipsa natura. Nullus enim
+          <lb ed="#Bc" n="39"/>cogitur ad peccatum, nec cogi potest :
+          <lb ed="#Bc" n="40"/>quia facere peccatum, vel non facere
+          <lb ed="#Bc" n="41"/>peccatum est in libertate voluntatis.
+        </p>
+        <p xml:id="Almn78-h47718-d1e415">
+          <lb ed="#Bc" n="42"/>Ad aliud dicendum, quod conceditur,
+          <lb ed="#Bc" n="43"/>quod univoce predicatur quantum ad
+          <lb ed="#Bc" n="44"/>libertatem a coactione.
+        </p>
+        <p xml:id="Almn78-h47718-d1e424">
+          <lb ed="#Bc" n="45"/>Ad id quod objicit Magister de 
+          secun<lb ed="#Bc" break="no" n="46"/>do statu, dicendum quod verba Magistri
+          <cb ed="#Bc" n="b"/>
+          <lb ed="#Bc" n="47"/>tenenda sunt : quia sunt verba 
+          Augusti<lb ed="#Bc" break="no" n="48"/>ni. Sed hoc non sequitur, si vincitur
+          <lb ed="#Bc" n="49"/>quod cogatur de necessitate : loquuntur
+          <lb ed="#Bc" n="50"/>enim Augustinus et Magister per 
+          quam<lb ed="#Bc" break="no" n="51"/>dam similitudinem qui necessaria est.
+          <lb ed="#Bc" n="52"/>Si enim aliquis habeat deprimentia, et
+          <lb ed="#Bc" n="53"/>nihil elevans, necesse est quod 
+          depri<lb ed="#Bc" break="no" n="54"/>mentia vincant, et faciant ipsum cadere
+          <lb ed="#Bc" n="55"/>deorsum. Ita est in libero arbitrio quod
+          <lb ed="#Bc" n="56"/>non habet gratiam elevantem, et habet
+          <lb ed="#Bc" n="57"/>infirmitatem propriam prementem, et
+          <lb ed="#Bc" n="58"/>pondus peccati mortalis, necesse est,
+          <lb ed="#Bc" n="59"/>quod cadat in peccatum : tamen semper
+          <lb ed="#Bc" n="60"/>cadit electione propriae voluntatis, et
+          <lb ed="#Bc" n="61"/>nulla necessitate coactionis. Et hoc est
+          <lb ed="#Bc" n="62"/>quod dicitur, Isa. uxtv, 6: Cecidimus
+          <lb ed="#Bc" n="63"/>quasi folium universi, et iniguitates
+          <lb ed="#Bc" n="64"/>nostre quasi ventus abstulerunt nos. Et,
+          <lb ed="#Bc" n="65"/>Jerem. xu, 23 : Si mutare potest 
+          Asthi<lb ed="#Bc" break="no" n="66"/>ops pellem suam, aut pardus varietates
+          <lb ed="#Bc" n="67"/>suas, et vos poteritis bene facere,
+          <lb ed="#Bc" n="68"/>cum didiceritis malum. Et causam 
+          red<lb ed="#Bc" break="no" n="69"/>dit <name xml:id="Almn78-h47718-Nd1e482">Gregorius</name> dicens: <quote xml:id="Almn78-h47718-Qd1e485">Peccatum quod
+            <lb ed="#Bc" n="70"/>per penitentiam citius non deletur, suo
+            <lb ed="#Bc" n="71"/>pondere ad aliud trahit. </quote> Unde quando
+          <lb ed="#Bc" n="72"/>homo est in peccato, et non habet 
+          gra<lb ed="#Bc" break="no" n="73"/>liam adjutricem et reparantem vulnus
+          <lb ed="#Bc" n="74"/>peccati, non potest resistere peccato
+          <lb ed="#Bc" n="75"/>propter dispositionem malam que est in
+          <lb ed="#Bc" n="76"/>ipso : et tamen nulla necessitate cogitur
+          <lb ed="#Bc" n="77"/>ad peccandum, sed infirmitate 
+          volunta<lb ed="#Bc" break="no" n="78"/>tis deprimitur ut sit servus peccali, et
+          (ut dicit Augustinus) nullam habet 
+          li<lb ed="#Bc" break="no" n="79"/>bertatem nisi hanc miseram et extreme
+          <lb ed="#Bc" n="80"/>servituli subjectam, quod delectabiliter
+          <lb ed="#Bc" n="81"/>et voluntarie servit peccato. Et hoc in
+          <lb ed="#Bc" n="82"/>sequentibus magis apparebit, ubi de 
+          li<lb ed="#Bc" break="no" n="83"/>bertate disputabitur,
+        </p>
+        <p xml:id="Almn78-h47718-d1e519">
+          <lb ed="#Bc" n="84"/>Ad id quod ulterius objicitur, 
+          dicen<lb ed="#Bc" break="no" n="85"/>dum quod loquitur Augustinus ibi de
+          <lb ed="#Bc" n="86"/>necessitate coactionis : quia hoc est 
+          in<lb ed="#Bc" break="no" n="87"/>voluntarium quod nihil habet de 
+          volun<lb ed="#Bc" break="no" n="88"/>tate, quod ab Aristotele definitur in II 
+          <lb ed="#Bc" break="no" n="89"/>Ethicorum, et a Damasceno in libro
+          <lb ed="#Bc" n="90"/>Il de Fide orthodoxa, quod violentum
+          <lb ed="#Bc" n="91"/>est, cujus principium est in alio nil 
+          con<lb ed="#Bc" break="no" n="92"/>ferente ad violentiam vim passo : et hoc
+          <pb ed="#Bc" n="217"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Bc" n="1"/>est, quod non imputatur ad peccatum.
+        </p>
+        <p xml:id="Almn78-h47718-d1e549">
+          <lb ed="#Bc" n="2"/>Ad aliud dicendum, quod per 
+          pecca<lb ed="#Bc" break="no" n="3"/>tum non tollitur libertas a coactione, 
+          li<lb ed="#Bc" break="no" n="4"/>cet vulneretur: sed tollitur libertas a
+          <lb ed="#Bc" n="5"/>peccato, et per peccatum servituli 
+          adji<lb ed="#Bc" break="no" n="6"/>citur, et premitur ad aliud peccatum, ita
+          <lb ed="#Bc" n="7"/>quod non resistit : tamen-semper hoc
+          <lb ed="#Bc" n="8"/>facit ex voluntate et non ex necessitate
+          <lb ed="#Bc" n="9"/>coactionis.
+        </p>
+        <p xml:id="Almn78-h47718-d1e569">
+          <lb ed="#Bc" n="10"/>Ad hoc quod ultimo queritur, dicen
+          <cb ed="#Bc" n="b"/>
+          <lb ed="#Bc" break="no" n="11"/>dum quod Magister satis bene describit
+          <lb ed="#Bc" n="12"/>ibi statum tertium qui est sub gratia,
+          <lb ed="#Bc" n="13"/>in quo potest homo peccare venialiter ex
+          <lb ed="#Bc" n="14"/>libertate arbitrii et voluntate : quia 
+          sic<lb ed="#Bc" break="no" n="15"/>ut dicitur in prima canonica Joannis, 1,
+          <lb ed="#Bc" n="16"/>8 : Si dixerimus quoniam peccatum non
+          <lb ed="#Bc" n="17"/>habemus, ipsi nos seducimus, et veritas
+          <lb ed="#Bc" n="18"/>in nobis non est. Et potest resistere 
+          pec<lb ed="#Bc" break="no" n="19"/>cato mortali propter gratiam 
+          adjuvan<lb ed="#Bc" break="no" n="20"/>tem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

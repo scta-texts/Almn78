@@ -1,1519 +1,1519 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 16</title>
-            <author ref="#Albert">Albert the Great</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 16</title>
-               <date when="2021-11-11">November 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-11-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Bb" n="207"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Almn78-d45892"><!-- p2t4q16 -->
-            <head xml:id="Almn78-d45892-Hd1e106">Quaestio 16</head>
-            <head xml:id="Almn78-d45892-Hd1e109" type="question-title">
-      De quarto attributo, quod est libertas arbitrii.
-    </head>
-            <p xml:id="Almn78-d45892-d1e112">
-               <cb ed="#Bb" n="b"/>
-               <lb ed="#Bb" n="47"/>QUAESTIO XVI.
-      <lb ed="#Bb" n="48"/>De quarto attributo, quod est libertas arbitrii.
-    </p>
-            <p xml:id="Almn78-d45892-d1e121">
-               <lb ed="#Bb" n="49"/>Sequitur de quarto attributo, quod
-      <lb ed="#Bb" n="50"/>est libertas arbitrii.
-    </p>
-            <p xml:id="Almn78-d45892-d1e128">
-               <lb ed="#Bb" n="51"/>De quo quinque queruntur, scilicet
-      <lb ed="#Bb" n="52"/>an convenit Angelo libertas arbitrii ?
-      <lb ed="#Bb" n="53"/>Secundo, Secundum quam rationem
-      <lb ed="#Bb" n="54"/>libertas conveniat ei?
-      <lb ed="#Bb" n="55"/>Tertio, Utrum plus conveniat Angelo,
-      <lb ed="#Bb" n="56"/>vel homini, vel eque ?
-      <lb ed="#Bb" n="57"/>Quarto, Utrum equaliter conveniat 
-      om<lb ed="#Bb" break="no" n="58"/>ni Angelo, vel secundum plus et minus?
-      <cb ed="#Bb" n="b"/>
-               <lb ed="#Bb" n="59"/>Quinto, A quo causetur ista libertas
-      <lb ed="#Bb" n="60"/>in Angelo?
-    </p>
-            <div xml:id="Almn78-d45892-Dd1e155">
-               <head xml:id="Almn78-d45892-Hd1e157">Membrum 1</head>
-               <head xml:id="Almn78-d45892-Hd1e160" type="question-title">
-        An Angelo conveniat libertas arbitrii?
-      </head>
-               <p xml:id="Almn78-d45892-d1e163">
-                  <lb ed="#Bb" n="61"/>MEMBRUM I.
-        <lb ed="#Bb" n="62"/>An Angelo conveniat libertas arbitrii?
-      </p>
-               <p xml:id="Almn78-d45892-d1e170">
-                  <lb ed="#Bb" n="63"/>Primo ergo queritur, An Angelo 
-        con<lb ed="#Bb" break="no" n="64"/>veniat libertas arbitrii ?
-      </p>
-               <p xml:id="Almn78-d45892-d1e177">
-                  <pb ed="#Bb" n="208"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>Et videtur, quod sic.
-        <lb ed="#Bb" n="2"/>1. Dicit enim Magister in libro II ‘
-        Sen<lb ed="#Bb" break="no" n="3"/>tentiarum, distinct. V cap. 2, ex verbis
-        <lb ed="#Bb" n="4"/>Augustini, quod <quote xml:id="Almn78-d45892-Qd1e192"> liberam arbitriam
-          <lb ed="#Bb" n="5"/>inest Angelis, hoc est, libera inclinande
-          <lb ed="#Bb" n="6"/>voluntatis sive ad bonum, sive ad 
-          ma<lb ed="#Bb" break="no" n="7"/>lum facultas. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e203">
-                  <lb ed="#Bb" n="8"/>2. Adhuc, Augustinus in libro primo
-        <lb ed="#Bb" n="9"/>de Libero arbitrio: <quote xml:id="Almn78-d45892-Qd1e209"> Liberum arbitrium
-          <lb ed="#Bb" n="10"/>inest Deo, Angelo, et homini. </quote>~
-      </p>
-               <p xml:id="Almn78-d45892-d1e215">
-                  <lb ed="#Bb" n="11"/>3. Adhuc, Remigius: <quote xml:id="Almn78-d45892-Qd1e219"> Omnis 
-          crea<lb ed="#Bb" break="no" n="12"/>tura rationalis arbitrio libera est: </quote> sed
-        <lb ed="#Bb" n="13"/>Angelus est creatura rationalis : ergo 
-        ar<lb ed="#Bb" break="no" n="14"/>bitrio liber.
-      </p>
-               <p xml:id="Almn78-d45892-d1e229">
-                  <lb ed="#Bb" n="15"/>4, Adhuc, Augustinus in libro de Fide
-        <lb ed="#Bb" n="16"/>ad Petrum : <quote xml:id="Almn78-d45892-Qd1e235"> Ut dilectio haberetjustam et
-          <lb ed="#Bb" n="17"/>congruam laudem, voluntatis tribuit 
-          An<lb ed="#Bb" break="no" n="18"/>gelis libertatem Deus, ut esset in eis
-          <lb ed="#Bb" n="19"/>possibile sive ad eum qui est supra 
-          in<lb ed="#Bb" break="no" n="20"/>tentionem sancte dilectionis erigere,
-          <lb ed="#Bb" n="21"/>sive ad se, vel ad eos qui infra eum sunt
-          <lb ed="#Bb" n="22"/>prave cupiditatis pondere semetipsos
-          <lb ed="#Bb" n="23"/>declinare. </quote> Ergo Angeli habent liberam
-        <lb ed="#Bb" n="24"/>facultatem sive ad bonum, sive ad 
-        ma<lb ed="#Bb" break="no" n="25"/>lum : ergo habent liberum arbitrium.
-      </p>
-               <p xml:id="Almn78-d45892-d1e258">
-                  <lb ed="#Bb" n="26"/>5. Adhuc, Augustinus in lib. de 
-        Cor<lb ed="#Bb" break="no" n="27"/>rectione et gratia: <quote xml:id="Almn78-d45892-Qd1e264"> Scivit Deus magis
-          <lb ed="#Bb" n="28"/>ad suam omnipctentissimam bonitatem
-          <lb ed="#Bb" n="29"/>pertinere et de malis benefacere, quam
-          <lb ed="#Bb" n="30"/>mala esse non sinere: et sic ordinavit
-          <lb ed="#Bb" n="31"/>Angelorum et hominum vitam, ut in ea
-          <lb ed="#Bb" n="32"/>prius ostenderet quid posset liberum
-          <lb ed="#Bb" n="33"/>arbitrium, et deinde quid posset gratie
-          <lb ed="#Bb" n="34"/>beneficium. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e283">
-                  <lb ed="#Bb" n="35"/>6. Adhuc, Damascenus deseribens
-        <lb ed="#Bb" n="36"/>Angelum, dicit : <quote xml:id="Almn78-d45892-Qd1e289"> Angelus est natura
-          <lb ed="#Bb" n="37"/>intellectualis, arbitrio libera, vertibilis
-          <lb ed="#Bb" n="38"/>secundum voluntatem, </quote> Omne enim
-        <lb ed="#Bb" n="39"/>creabile esi vertibile, et omne rationale
-        <lb ed="#Bb" n="40"/>arbitrio liberum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e301">
-                  <lb ed="#Bb" n="41"/>7. Adhuc, Per rationem probatur
-        <lb ed="#Bb" n="42"/>idem : Nullum enim opus est laudabile
-        <lb ed="#Bb" n="43"/>vel vituperabile, nisi quod in libertate
-        <lb ed="#Bb" n="44"/>arbitrii est : quod probatur ex hoc quod
-        <lb ed="#Bb" n="45"/>dicit Philosophus, quod naturalia que
-        <lb ed="#Bb" n="46"/>ex necessitate procedunt, sicut comburit
-        <lb ed="#Bb" n="47"/>ignis, nec laudabilia noc vituperabilia
-        <lb ed="#Bb" n="48"/>sunt. Similiter violenta, quorum 
-        princi<lb ed="#Bb" break="no" n="49"/>pium est in alio, nihil conferente vim
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>passo, nec laudantur, nec vituperantur,
-        <lb ed="#Bb" n="51"/>nec in civilibus rata habentur. Unde in
-        <lb ed="#Bb" n="52"/>Digesto veteri, lib. IV, dicitur : <quote xml:id="Almn78-d45892-Qd1e331"> Quod
-          <lb ed="#Bb" n="53"/>vi metusve causa fit, ratum non habeo,
-          <lb ed="#Bb" n="54"/>dicit Prator. </quote> Similiter operationes’
-        <lb ed="#Bb" n="55"/>brutorum, que (sicul dicunt 
-        Damasce<lb ed="#Bb" break="no" n="56"/>nus et Gregorius Nyssenus) magis 
-        agun<lb ed="#Bb" break="no" n="57"/>tur a natura quam agant, quia 
-        liber<lb ed="#Bb" break="no" n="58"/>tatem arbitrii non habent, nec laudantur
-        <lb ed="#Bb" n="59"/>nec vituperantur. Angelorum 
-        opera<lb ed="#Bb" break="no" n="60"/>tiones laudantur, vel viluperantur. Ergo
-        <lb ed="#Bb" n="61"/>procedunt ex liberlate arbitrii: ergo
-        <lb ed="#Bb" n="62"/>libertas arbitrii inest Angelis.
-      </p>
-               <p xml:id="Almn78-d45892-d1e357">
-                  <lb ed="#Bb" n="63"/>8. Adhuc, Augustinus in libro de
-        <lb ed="#Bb" n="64"/>Libero arbitrio dicit, quod <quote xml:id="Almn78-d45892-Qd1e363"> omne 
-          me<lb ed="#Bb" break="no" n="65"/>ritum vel demerilum in libertate 
-          consi<lb ed="#Bb" break="no" n="66"/>stit arbitrii : </quote> in Angelis est meritum et
-        <lb ed="#Bb" n="67"/>demeritum : ergo hoc consistit in 
-        liberta<lb ed="#Bb" break="no" n="68"/>te arbitrii: ergo Angelis inest libertas
-        <lb ed="#Bb" n="69"/>arbitrii.
-      </p>
-               <p xml:id="Almn78-d45892-d1e378">
-                  <lb ed="#Bb" n="70"/>In conTRARIUM est,
-        <lb ed="#Bb" n="71"/>4. Quod dicit Augustinus in hbro 
-        pri<lb ed="#Bb" break="no" n="72"/>mo de Libero arbitrio, quod <quote xml:id="Almn78-d45892-Qd1e386"> liberum
-          <lb ed="#Bb" n="73"/>arbitrium est facultas rationis et 
-          volun<lb ed="#Bb" break="no" n="74"/>tatis, qua bonum eligitur gratia 
-          assi<lb ed="#Bb" break="no" n="75"/>stente, et malum eam deserente. </quote> In
-        <lb ed="#Bb" n="76"/>Angelo autem malo non est facultas
-        <lb ed="#Bb" n="77"/>eligendi bonum, gratia assistente, quia
-        <lb ed="#Bb" n="78"/>non est susceptibilis gratiz. In Angelo
-        <lb ed="#Bb" n="79"/>bono non est facultas eligendi malum,
-        <lb ed="#Bb" n="80"/>gratia deserente, quia confirmatus est
-        <lb ed="#Bb" n="81"/>in gratia. Ergo in neutro est facultas
-        <lb ed="#Bb" n="82"/>liberi arbitrii.
-      </p>
-               <p xml:id="Almn78-d45892-d1e411">
-                  <lb ed="#Bb" n="83"/>2. Adhuc, Si libertas arbitrii inest
-        <lb ed="#Bb" n="84"/>Angelis sicut attributum natura, sicut
-        <lb ed="#Bb" n="85"/>essentia simplicitas, et intelligentie
-        <lb ed="#Bb" n="86"/>perspicacitas : cum id quod naturale
-        <lb ed="#Bb" n="87"/>est, numquam deserat naturam, tune&gt;
-        <lb ed="#Bb" n="88"/>facultas arbitrii que est libera voluntas
-        <lb ed="#Bb" n="89"/>declinandi in bonum vel in malum,
-        <lb ed="#Bb" n="90"/>numquam deseret naturam angelicam :
-        <lb ed="#Bb" n="91"/>et hoc falsum est : bonus enim Angelus
-        <lb ed="#Bb" n="92"/>post confirmationem non potest decli-~
-        <lb ed="#Bb" n="93"/>nare slatum in malum, nec malus in
-        <lb ed="#Bb" n="94"/>bonum post statum confirmationis in
-        <lb ed="#Bb" n="95"/>malo. Et hoc probatur per Prosperum
-        <lb ed="#Bb" n="96"/>in libro de Contemplativa vita, sic 
-        di<lb ed="#Bb" break="no" n="97"/>centem: <quote xml:id="Almn78-d45892-Qd1e445"> Divina sententia eo judicio
-          <lb ed="#Bb" n="98"/>condemnayit malos Angelos, ut quia’
-          <pb ed="#Bb" n="209"/>
-                     <cb ed="#Bb" n="a"/>
-                     <lb ed="#Bb" n="1"/>noluerunt perseverare cum possent, nec
-          <lb ed="#Bb" n="2"/>velint reparari, nec possint. Si quidem
-          <lb ed="#Bb" n="3"/>voluntatis eoram fuit quod irrevocabilis
-          <lb ed="#Bb" n="4"/>judicii animadvers‘one percussi sunt :
-          <lb ed="#Bb" n="5"/>et al damnationem justissimam 
-          pro<lb ed="#Bb" break="no" n="6"/>fecto pertinuit, quod voluntatem 
-          red<lb ed="#Bb" break="no" n="7"/>eundi ac facultatem penitus amiserunt :
-          <lb ed="#Bb" n="8"/>sicut e contrario voluntatis sanctorum
-          <lb ed="#Bb" n="9"/>Angelorum fuit, quod malis sponte
-          <lb ed="#Bb" n="10"/>cadentibus, ipsi in sua dignilate 
-          manse<lb ed="#Bb" break="no" n="11"/>runt: et divino justoque judicio factum
-          <lb ed="#Bb" n="12"/>est, ut que fuit eis cum Deo suo 
-          ma<lb ed="#Bb" break="no" n="13"/>nendi voluntas, fieret permanendi 
-          vo<lb ed="#Bb" break="no" n="14"/>juntaria felixque necessilas. </quote> Ergo
-        <lb ed="#Bb" n="15"/>videtur, quod libera inclinande 
-        volun<lb ed="#Bb" break="no" n="16"/>tatis sive ad bonum sive ad malum
-        <lb ed="#Bb" n="17"/>facultas, nec bonis nec malis Angelis
-        <lb ed="#Bb" n="18"/>insit : ergo numquam fuit attributum
-        <lb ed="#Bb" n="19"/>na'ure: quia si nature fuisset 
-        attribu<lb ed="#Bb" break="no" n="20"/>tum, naturam non deseruissct in aliquo
-        <lb ed="#Bb" n="21"/>statu.
-      </p>
-               <p xml:id="Almn78-d45892-d1e500">
-                  <lb ed="#Bb" n="22"/>3. Adhuc, Dionysius in libro de 
-        Divi<lb ed="#Bb" break="no" n="23"/>nis nominibus, de demonibus dicit sic :
-        <quote xml:id="Almn78-d45892-Qd1e506">Data illis naturalia dona nequaquam
-          <lb ed="#Bb" n="24"/>ea mutata esse dicimus, sed sunt integra
-          <lb ed="#Bb" n="25"/>et splendidissima, quamvis ipsi non
-          <lb ed="#Bb" n="26"/>videant, claudentes ipsorum boni 
-          inspe<lb ed="#Bb" break="no" n="27"/>ctivas virtutes ‘.</quote> Si ergo libertas arbitrit
-        <lb ed="#Bb" n="28"/>donum est nature angelice, nequaquam
-        <lb ed="#Bb" n="29"/>mutatum est in malo Angelo : sed est
-        <lb ed="#Bb" n="30"/>mutatum, quia non potest inclinare
-        <lb ed="#Bb" n="31"/>voluntatem ad bonum, ut dicit Prosper :
-        <lb ed="#Bb" n="32"/>ergo a destructione consequentis, 
-        num<lb ed="#Bb" break="no" n="33"/>quam fuit donum naturale : ergo non
-        <lb ed="#Bb" n="34"/>fuit unum de attributis nature angelice
-        <lb ed="#Bb" n="35"/>cum ipsa creatione dalis.
-      </p>
-               <p xml:id="Almn78-d45892-d1e535">
-                  <lb ed="#Bb" n="36"/>4, Adhuc, Non posse peccare convenit
-        <lb ed="#Bb" n="37"/>nature, et est communicabile creature,
-        <lb ed="#Bb" n="38"/>ut patet in verbis Prosperi, quod 
-        com<lb ed="#Bb" break="no" n="39"/>municatum est bonis Angelis : sed non
-        <lb ed="#Bb" n="40"/>posse peccare converlitur cum mnecesse
-        <lb ed="#Bb" n="41"/>non peccare, ut docet Aristoteles in
-        <lb ed="#Bb" n="42"/>libro Perihermenias: necesse non 
-        pec<lb ed="#Bb" break="no" n="43"/>care non stat cum libero arbitrio, hoc
-        <lb ed="#Bb" n="44"/>est, cum libera inclinande voluntatis
-        <lb ed="#Bb" n="45"/>faculiate ad quod voluerit, sive ad 
-        bo<lb ed="#Bb" break="no" n="46"/>num, sive ad malum : ergo videtur,
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="47"/>quod libertas arbitrii non attribuatur
-        <lb ed="#Bb" n="48"/>bonis Angelis.
-      </p>
-               <p xml:id="Almn78-d45892-d1e568">
-                  <lb ed="#Bb" n="49"/>Solutio. Dicendum, quod absque
-        <lb ed="#Bb" n="50"/>dubio liberum arbitrium est in Angelis,
-        <lb ed="#Bb" n="51"/>hoc est, libera inclinande voluntatis
-        <lb ed="#Bb" n="52"/>ad quod voluerint facultas. Sicut enim
-        <lb ed="#Bb" n="53"/>dicit Aristoteles in primo prime 
-        philo<lb ed="#Bb" break="no" n="54"/>sophie, liberum dicimus hominem, qui
-        <lb ed="#Bb" n="55"/>causa sui est, et quem aliena potestas
-        <lb ed="#Bb" n="56"/>ad nihil cogere potest. Ita dicimus 
-        libe<lb ed="#Bb" break="no" n="57"/>rum arbitrium, quod in arbitrando judex
-        <lb ed="#Bb" n="58"/>sui est, et in volendo penitus liberum
-        <lb ed="#Bb" n="59"/>esL : et ita est in dominio suorum
-        <lb ed="#Bb" n="60"/>actuum, quod nulla aliena potestate
-        <lb ed="#Bb" n="61"/>cogilur ad volendum quod vult. Et hoc
-        <lb ed="#Bb" n="62"/>est in omui rationali et intellectuali
-        <lb ed="#Bb" n="63"/>natura, quae causa suorum actuum est
-        {am interiorum, quam exteriorum. Et
-        <lb ed="#Bb" n="64"/>hanc naturam_vocat Philosophus 
-        domi<lb ed="#Bb" break="no" n="65"/>nam suorum actuum, et faculiatem 
-        con<lb ed="#Bb" break="no" n="66"/>vertendi se ad quidquid voluerit libere.
-      </p>
-               <p xml:id="Almn78-d45892-d1e611">
-                  <lb ed="#Bb" n="67"/>Unde auctoritates et rationes que 
-        in<lb ed="#Bb" break="no" n="68"/>ducte sunt ad hoe, procedunt.
-      </p>
-               <p xml:id="Almn78-d45892-d1e618">
-                  <lb ed="#Bb" n="69"/>Ad tp quod objicitur in contrarium,
-        <lb ed="#Bb" n="70"/>dicendum, quod est facultas ex ralione
-        <lb ed="#Bb" n="71"/>et natura rationali, et est facultas ex 
-        dis<lb ed="#Bb" break="no" n="72"/>positione ct habitu. Prima facultas que
-        <lb ed="#Bb" n="73"/>est ex natura rationali eligendi bonum
-        <lb ed="#Bb" n="74"/>gratia assistente, et malum ea deserente,
-        <lb ed="#Bb" n="75"/>est tam in bono quam in malo Angelo
-        <lb ed="#Bb" n="76"/>per naturam. Secunda fucultas que est
-        <lb ed="#Bb" n="77"/>ex habitu confirmato in neutro est, quia
-        <lb ed="#Bb" n="78"/>Angelus bonus confirmato habitu gratiz
-        <lb ed="#Bb" n="79"/>felicem necessitalem incurrit, qua non
-        <lb ed="#Bb" n="80"/>potest velle malum : Angelus malus
-        <lb ed="#Bb" n="81"/>propter pertinaciam in malo, infelicem
-        <lb ed="#Bb" n="82"/>necessilatem incurrit, qua non potest
-        <lb ed="#Bb" n="83"/>velle bonum. Et hee non sunt 
-        con<lb ed="#Bb" break="no" n="84"/>traria, ex natura posse eligere bonum
-        <lb ed="#Bb" n="85"/>et malum, et ex habitu confirmato non
-        <lb ed="#Bb" n="86"/>posse cligere nisi bonum, et ex 
-        perli<lb ed="#Bb" break="no" n="87"/>nacia damnata non posse eligere nisi
-        <lb ed="#Bb" n="88"/>malum ; et in eodem simul esse 
-        pos<lb ed="#Bb" break="no" n="89"/>sunt.
-      </p>
-               <p xml:id="Almn78-d45892-d1e666">
-                  <lb ed="#Bb" n="90"/>Ad aliud dicendum, quod pront 
-        li<lb ed="#Bb" break="no" n="91"/>bertas est arbitrium nature, non dese
-        <pb ed="#Bb" n="210"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" break="no" n="1"/>ruit naturam, nec natura ipsum degerit :
-        <lb ed="#Bb" n="2"/>natura enim intellectualis ex ipsa 
-        liber<lb ed="#Bb" break="no" n="3"/>tate qua causa sui est, semper domina
-        <lb ed="#Bb" n="4"/>est suorum actuum, et liberam habet
-        <lb ed="#Bb" n="5"/>facultatem incl.nandi se ad quod 
-        vo<lb ed="#Bb" break="no" n="6"/>luerit ex natura: sed quod bonus non
-        <lb ed="#Bb" n="7"/>eligit nisi bonum, et malus non nisi
-        <lb ed="#Bb" n="8"/>malum, non est ex natura, sed ex 
-        ha<lb ed="#Bb" break="no" n="9"/>bitu confirmato, ut dictum est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e697">
-                  <lb ed="#Bb" n="10"/>Ad aliud dicendum, quod verba 
-        Dio<lb ed="#Bb" break="no" n="11"/>nysii vera sunt: libertas enim 
-        secun<lb ed="#Bb" break="no" n="12"/>dum quod est donum nature, non est
-        <lb ed="#Bb" n="13"/>mutata, sed integra, et splendida. 
-        De<lb ed="#Bb" break="no" n="14"/>mon enim libere facit quod vult, sed
-        <lb ed="#Bb" n="15"/>quod numquam bonum vult, nec potest
-        <lb ed="#Bb" n="16"/>velle, non ex natura, sed habituali 
-        per<lb ed="#Bb" break="no" n="17"/>finacia quam justa damnatione 
-        incur<lb ed="#Bb" break="no" n="18"/>rit.
-      </p>
-               <p xml:id="Almn78-d45892-d1e719">
-                  <lb ed="#Bb" n="19"/>Av uxtimum dicendum, quod necesse
-        <lb ed="#Bb" n="20"/>non peccare ex habitu gratie 
-        confir<lb ed="#Bb" break="no" n="21"/>mato in bono, bene stat cum posse 
-        pec<lb ed="#Bb" break="no" n="22"/>care ex naturali arbitrii libertate : sic
-        <lb ed="#Bb" n="23"/>enim ad non posse peccare, non 
-        sequi<lb ed="#Bb" break="no" n="24"/>{ur necesse non peccare, nec hoc est
-        <lb ed="#Bb" n="25"/>contra doctrinam Aristotelis : sed 
-        quan<lb ed="#Bb" break="no" n="26"/>do non posse peccare, et necesse non
-        <lb ed="#Bb" n="27"/>pcceare referuntur ad idem, unc unum
-        <lb ed="#Bb" n="28"/>sequitur ad alterum.
-      </p>
-            </div>
-            <div xml:id="Almn78-d45892-Dd1e744">
-               <head xml:id="Almn78-d45892-Hd1e746">Membrum 2</head>
-               <head xml:id="Almn78-d45892-Hd1e749" type="question-title">
-        Secundum quam rationem libertatis 
-        conveniat Angelo libertas arbitrii 
-      </head>
-               <p xml:id="Almn78-d45892-d1e752">
-                  <lb ed="#Bb" n="29"/>MEMBRUM II.
-      </p>
-               <p xml:id="Almn78-d45892-d1e757">
-                  <lb ed="#Bb" n="30"/>Secundum quam rationem libertatis 
-        con<lb ed="#Bb" break="no" n="31"/>veniat Angelo libertas arbitrii ?
-      </p>
-               <p xml:id="Almn78-d45892-d1e764">
-                  <lb ed="#Bb" n="32"/>Secundo queritur, Secundum quam
-        <lb ed="#Bb" n="33"/>ralionem Jlibertalis conveniat Angelo
-        <lb ed="#Bb" n="34"/>libertas arbitrii?
-      </p>
-               <p xml:id="Almn78-d45892-d1e774">
-                  <lb ed="#Bb" n="35"/>4. Dat eniin Augustinus hance 
-        ratio<lb ed="#Bb" break="no" n="36"/>nemin libro primo de Libero arbitrio :
-        <lb ed="#Bb" n="37"/>
-                  <quote xml:id="Almn78-d45892-Qd1e782">Liberum arbilrium est facultas rationis
-          <lb ed="#Bb" n="38"/>et voluntatis, qua bonum cligitur 
-          gra<lb ed="#Bb" break="no" n="39"/>tia assislente, el malum ea deserente. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e790">
-                  <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="40"/>2. Adhuc, Bernardus in lib. de Libe-~
-        <lb ed="#Bb" n="41"/>ro arbitrio: <quote xml:id="Almn78-d45892-Qd1e798"> Liberum arbitrium est
-          <lb ed="#Bb" n="42"/>liberum sui propter voluntatem, judex
-          <lb ed="#Bb" n="43"/>sul propler rationem. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e806">
-                  <lb ed="#Bb" n="44"/>Adhuc, Bernardus, ibidem, <quote xml:id="Almn78-d45892-Qd1e810"> 
-          Volun<lb ed="#Bb" break="no" n="45"/>tas -habet quocumque Se vertat, 
-          ratio<lb ed="#Bb" break="no" n="46"/>nem semper comitem et quasi 
-          pedisse<lb ed="#Bb" break="no" n="47"/>quam: non quod semper agat ex 
-          ra<lb ed="#Bb" break="no" n="48"/>tione, sed quod numquam absque 
-          ra<lb ed="#Bb" break="no" n="49"/>tione moveatur, ifa ut multa agat per
-          <lb ed="#Bb" n="50"/>rationem contra rationem. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e827">
-                  <lb ed="#Bb" n="51"/>3. Adhuc, Anselmus in lib. de Liberg
-        <lb ed="#Bb" n="52"/>arbitrio, ostendit, quod posse eligere
-        <lb ed="#Bb" n="53"/>malum, non est facultas liberi arbitrii :
-        <lb ed="#Bb" n="54"/>per hoc quod talis facultas libero 
-        arbi<lb ed="#Bb" break="no" n="55"/>trio minuit libertatem, et subtracta
-        <lb ed="#Bb" n="56"/>auget: quia posse mori non est 
-        po<lb ed="#Bb" break="no" n="57"/>tentia, sed impotentia : et similiter
-        <lb ed="#Bb" n="58"/>posse cadere, Et ratio sua est : quia
-        <lb ed="#Bb" n="59"/>qui potest hoc quod sibi non prodest
-        <lb ed="#Bb" n="60"/>et sibi non expedit, quanto magis potest
-        <lb ed="#Bb" n="61"/>illud, tanto magis adversitas et 
-        perver<lb ed="#Bb" break="no" n="62"/>sitas possunt in ipsum. Unde post hance |
-        <lb ed="#Bb" n="63"/>considerationem dat talem definitionem .
-        <lb ed="#Bb" n="64"/>liberi arbitrii : <quote xml:id="Almn78-d45892-Qd1e859"> Liberam arbitrium est
-          <lb ed="#Bb" n="65"/>potestas conservandi rectitudinem pro- -
-          <lb ed="#Bb" n="66"/>pter ipsam rectitudinem. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e867">
-                  <lb ed="#Bb" n="67"/>Has rationes quidam calummiantur, :
-        <lb ed="#Bb" n="68"/>ostendentes, quod secundum eas non
-        <lb ed="#Bb" n="69"/>convenit liberum arbilrium Angelo.
-      </p>
-               <p xml:id="Almn78-d45892-d1e876">
-        {. De prima dicunt, quod ratio non
-        <lb ed="#Bb" n="70"/>convenit Angelo, sed homini, propter
-        <lb ed="#Bb" n="71"/>quod etiam rationale differentia 
-        consti<lb ed="#Bb" break="no" n="72"/>tutiva est hominis, et non Angeli: et.
-        <lb ed="#Bb" n="73"/>ideo liberam arbitrium prout in Angelo
-        <lb ed="#Bb" n="74"/>est, non potest esse facullas rationis et
-        <lb ed="#Bb" n="75"/>voluntatis : quia si Angelo non est ratio,
-        <lb ed="#Bb" n="76"/>non est in eo facultas rationis: et sic
-        <lb ed="#Bb" n="77"/>liberam arbitrium non est in Angelo.
-        <lb ed="#Bb" n="78"/>secundum quod cst facultas rationis et,
-        <lb ed="#Bb" n="79"/>voluntatis.
-      </p>
-               <p xml:id="Almn78-d45892-d1e901">
-                  <lb ed="#Bb" n="80"/>Eodem modo objiciunt contra secun-’
-        <lb ed="#Bb" n="81"/>dam que est beati Bernardi, que dicit,
-        <lb ed="#Bb" n="82"/>quod <quote xml:id="Almn78-d45892-Qd1e909"> liberum arbitrium est judex sui
-          <lb ed="#Bb" n="83"/>propter rationem : </quote> si enim in Angelo:
-        <lb ed="#Bb" n="84"/>non est ratio, non erit in eo judicium
-        <pb ed="#Bb" n="211"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>de faciendo, quia judicium rationis ect :
-        <lb ed="#Bb" n="2"/>et s:c non erit in eo ratio judex sui.
-      </p>
-               <p xml:id="Almn78-d45892-d1e926">
-                  <lb ed="#Bb" n="3"/>2. Adhuc, Damascenus dicit, quod
-        <lb ed="#Bb" n="4"/>
-                  <quote xml:id="Almn78-d45892-Qd1e932">judicium est sententia quam dat ratio
-          <lb ed="#Bb" n="5"/>post inquisitionem et dispositionem de
-          <lb ed="#Bb" n="6"/>faciendo sive eligendo: </quote> si autem in 
-        An<lb ed="#Bb" break="no" n="7"/>gelo non est ratio, tunc nullus actus
-        <lb ed="#Bb" n="8"/>rationis in ipso est : ergo nec inquisitio,
-        <lb ed="#Bb" n="9"/>nec dispositio, nec sententia, quia ut
-        <lb ed="#Bb" n="10"/>dicuat Gregorius Nyssenus et 
-        Damas<lb ed="#Bb" break="no" n="11"/>cenus, liberum arbitrium de faciendo
-        <lb ed="#Bb" n="12"/>et eligendo libere inquirit, libere 
-        con<lb ed="#Bb" break="no" n="13"/>siliatur, libere disponit, libere judicat,
-        <lb ed="#Bb" n="14"/>libere eligit, libere impetum facit ad
-        <lb ed="#Bb" n="15"/>opus post electionem. Et si ratio non est
-        <lb ed="#Bb" n="16"/>in Angelo, nihil de istis erit in ipso, et
-        <lb ed="#Bb" n="17"/>sic nec liberum arbitrium.
-      </p>
-               <p xml:id="Almn78-d45892-d1e964">
-                  <lb ed="#Bb" n="18"/>3. Fortius objicitur ad idem per hoc
-        <lb ed="#Bb" n="19"/>quod dicit Isaac in libro de 
-        Definitio<lb ed="#Bb" break="no" n="20"/>nibus, quod <quote xml:id="Almn78-d45892-Qd1e972"> ratio creatur in umbra
-          <lb ed="#Bb" n="21"/>intelligentiz : </quote> in Angelis nulla 
-        intelli<lb ed="#Bb" break="no" n="22"/>gentia umbrosa est: ergo in Angelis
-        <lb ed="#Bb" n="23"/>nulla creatur ratio.
-      </p>
-               <p xml:id="Almn78-d45892-d1e983">
-                  <lb ed="#Bb" n="24"/>4. Adhue, Dionysius in Celesti 
-        hierar<lb ed="#Bb" break="no" n="25"/>chia dicit, quod <quote xml:id="Almn78-d45892-Qd1e989"> rationalis natura sub
-          <lb ed="#Bb" n="26"/>intellectuali est, sicut sensibilis sub 
-          ra<lb ed="#Bb" break="no" n="27"/>tionali, et vegetabilis sub sensibili. </quote>
-                  <lb ed="#Bb" n="28"/>Cum ergo Angelus sit natura 
-        intelle<lb ed="#Bb" break="no" n="29"/>ctualis, ut dicit Damascenus, rationalis
-        <lb ed="#Bb" n="30"/>natura erit sub ipso: et sic ratio non
-        <lb ed="#Bb" n="31"/>erit in ipso, sed sub ipso: ergo nec 
-        li<lb ed="#Bb" break="no" n="32"/>berum arbitrium secundum quod est
-        <lb ed="#Bb" n="33"/>facullas rationis et voluntatis, nec 
-        se<lb ed="#Bb" break="no" n="34"/>cundum quod est judex sui propter 
-        ra<lb ed="#Bb" break="no" n="35"/>tionem.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1014">
-                  <lb ed="#Bb" n="36"/>3. Similiter contra tertiam que est
-        <lb ed="#Bb" n="37"/>Anselmi objiciunt : quia si liberum 
-        ar<lb ed="#Bb" break="no" n="38"/>bitrium est potestas conservandi 
-        recti<lb ed="#Bb" break="no" n="39"/>tudinem propter ipsam rectitudinem :
-        <lb ed="#Bb" n="40"/>cum Angelus malus nullam habeat 
-        po<lb ed="#Bb" break="no" n="41"/>testatem conservandi rectitudinem quam
-        <lb ed="#Bb" n="42"/>non habet, nec potest habere, videtur
-        <lb ed="#Bb" n="43"/>quod non habeat liberum arbitrium :
-        <lb ed="#Bb" n="44"/>quod tamen falsum est : de omnibus
-        <lb ed="#Bb" n="45"/>enim essentialiter dicitur a Damasceno,
-        <lb ed="#Bb" n="46"/>quod sunt nature intellectuales arbilrio
-        <lb ed="#Bb" n="47"/>libera.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1043">
-                  <lb ed="#Bb" n="48"/>Similiter, in Il Sententiarum, distinct.
-        <lb ed="#Bb" n="49"/>HI, cap. Ecce ostensum, dicitur, quod
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>omnibus sicut nature attribulum-inest 
-        li<lb ed="#Bb" break="no" n="51"/>berum arbitrium, id est libera inclinande
-        <lb ed="#Bb" n="52"/>voluntatis sive ad bonum, sive ad 
-        ma<lb ed="#Bb" break="no" n="53"/>lum facultas : poterant enim per Jiberum
-        <lb ed="#Bb" n="54"/>arbitrium sine violentia ct coactione
-        <lb ed="#Bb" n="55"/>propria voluntate deflecti.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1066">
-                  <lb ed="#Bb" n="56"/>Sotvrio. Dicendum, quod secundum
-        <lb ed="#Bb" n="57"/>quamlibet rationum induclarum inest
-        <lb ed="#Bb" n="58"/>Angelo liberum arbitrium.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1075">
-                  <lb ed="#Bb" n="59"/>Et quod objicitur de ratione, quod
-        <lb ed="#Bb" n="60"/>non insit Angelis, solutum cst in 
-        pre<lb ed="#Bb" break="no" n="61"/>habitis, ubi quesilum est de illo verbo
-        <lb ed="#Bb" n="62"/>Magistri, in libro 11 Sententiarum, 
-        dis<lb ed="#Bb" break="no" n="63"/>tinct. HHI, ubi ex verbis Augustini dicit,
-        <lb ed="#Bb" n="64"/>quod <quote xml:id="Almn78-d45892-Qd1e1090"> per rationem naturaliter Angelis
-          <lb ed="#Bb" n="65"/>insitam inest memoria, intelligentia, et
-          <lb ed="#Bb" n="66"/>voluntas. </quote> Et dictum est ibi, quod
-        <lb ed="#Bb" n="67"/>duplex est ratio, scilicet inquisitiva, et
-        <lb ed="#Bb" n="68"/>umbrosa, colligens intelleclum ex 
-        phan<lb ed="#Bb" break="no" n="69"/>tismatibus eorum que creata sunt per
-        <lb ed="#Bb" n="70"/>sensum acceptis : et hee est ratio a qua
-        <lb ed="#Bb" n="71"/>homo dicitur rationalis. Et est ratio que
-        <lb ed="#Bb" n="72"/>est intellectus compositivus et collativus
-        <lb ed="#Bb" n="73"/>eorum ex quibus est consequentia, que
-        <lb ed="#Bb" n="74"/>est certe scientia causa de rebus : et
-        <lb ed="#Bb" n="75"/>hic intellectus est, qui per extensionem
-        <lb ed="#Bb" n="76"/>fit practicus, et motive potenti enuntiat
-        <lb ed="#Bb" n="77"/>quid eligendum vel faciendum cst ; et
-        <lb ed="#Bb" n="78"/>hic potentior est in Angelo, quam in
-        <lb ed="#Bb" n="79"/>homine: secundum Aristotelem enim
-        <lb ed="#Bb" n="80"/>in lItde Anima, motiva sive appetitiva
-        <lb ed="#Bb" n="81"/>non movet ad cligendum vel faciendum,
-        <lb ed="#Bb" n="82"/>nisi fasto ad cam nuntio per 
-        apprehensi<lb ed="#Bb" break="no" n="83"/>vam : et si est motiva ratioaalis, hoc est
-        <lb ed="#Bb" n="84"/>in rationali natura fundata, id est, 
-        vo<lb ed="#Bb" break="no" n="85"/>juntas, non movet, nisi facto nuntio per
-        <lb ed="#Bb" n="86"/>ralionem.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1141">
-                  <lb ed="#Bb" n="87"/>His prenotatis, facile est respondere
-        <lb ed="#Bb" n="88"/>ad objecta.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1148">
-                  <lb ed="#Bb" n="89"/>Ad primum enim dicendum, quod aq object. 1,
-        <lb ed="#Bb" n="90"/>ratio est in Angelis, sed non hoc modo
-        <lb ed="#Bb" n="91"/>sicut in hominibus, ut praedictum est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1157">
-                  <lb ed="#Bb" n="92"/>Ad aliud dicendum, quod ratio in gq object,
-      </p>
-               <p xml:id="Almn78-d45892-d1e1162">
-                  <lb ed="#Bb" n="93"/>Angelo est secundum quod est judex
-        <lb ed="#Bb" n="94"/>sui, et judicat de facicndo et eligendo,
-        <lb ed="#Bb" n="95"/>et consulit lumen rationis, et disponit et
-        <lb ed="#Bb" n="96"/>ordinat utilia ad finem voluntatis, et 
-        pro<lb ed="#Bb" break="no" n="97"/>fert sententiam de faciendo et eligendo,
-        <pb ed="#Bb" n="212"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>et eligit, et impetum facit ad opus, et
-        <lb ed="#Bb" n="2"/>ulitur electo et facto, ut dicit 
-        Damasce<lb ed="#Bb" break="no" n="3"/>nus, ad finem de quo voluntas est 
-        obti<lb ed="#Bb" break="no" n="4"/>nendum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1189">
-                  <lb ed="#Bb" n="5"/>Ad aliud dicendum, quod ratio que
-        <lb ed="#Bb" n="6"/>crealur in umbra intelligentix, ratio 
-        ho<lb ed="#Bb" break="no" n="7"/>minis est inquisitiva, et non est illa que
-        <lb ed="#Bb" n="8"/>est compositivus et collativus 
-        intelle<lb ed="#Bb" break="no" n="9"/>ctus : que per cerlam scientiam veri et
-        <lb ed="#Bb" n="10"/>boni voluntati nuntiat de faciendo et 
-        eli<lb ed="#Bb" break="no" n="11"/>gendo,
-      </p>
-               <p xml:id="Almn78-d45892-d1e1207">
-                  <lb ed="#Bb" n="12"/>Per ipem patet solutio ad sequens
-        <lb ed="#Bb" n="13"/>quia de tali rationali natura loquitur
-        <lb ed="#Bb" n="14"/>Dionysius, que est inquisiliva et 
-        dubi<lb ed="#Bb" break="no" n="15"/>taliva, sicut est ratio hominis.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1218">
-                  <lb ed="#Bb" n="16"/>Ad ultimum quod contra rationem
-        <lb ed="#Bb" n="17"/>Anselmi objicilur, dicendum, quod 
-        du<lb ed="#Bb" break="no" n="18"/>plex est potestas conservandi 
-        rectitudi<lb ed="#Bb" break="no" n="19"/>nem, scilicet ex parte natura 
-        conser<lb ed="#Bb" break="no" n="20"/>vantis, et ex parte rei conservate. Licet
-        <lb ed="#Bb" n="21"/>enim aliquis habeat facultatem 
-        conser<lb ed="#Bb" break="no" n="22"/>vandi thesaurum quantum est ad se,
-        <lb ed="#Bb" n="23"/>tamen non potest servares thesaurum
-        <lb ed="#Bb" n="24"/>quem nec habet, nec habere potest: et
-        <lb ed="#Bb" n="25"/>ita est in Angelo malo, quod ex natura
-        <lb ed="#Bb" n="26"/>facultatem habet servandi rectitudinem
-        <lb ed="#Bb" n="27"/>si haberet eam : quam tamen quia nec
-        <lb ed="#Bb" n="28"/>habet, nec habere potest, servare non
-        <lb ed="#Bb" n="29"/>potest : et hoc non est ex natura, sed ex
-        <lb ed="#Bb" n="30"/>justissima damnalione pertinacis 
-        volun<lb ed="#Bb" break="no" n="31"/>tatis ad malitiam.
-      </p>
-            </div>
-            <div xml:id="Almn78-d45892-Dd1e1256">
-               <head xml:id="Almn78-d45892-Hd1e1258">Membrum 3</head>
-               <head xml:id="Almn78-d45892-Hd1e1261" type="question-title">
-        Utrum libertas arbitrii plus conveniat
-        Angelo, quam homini, vel aeque
-      </head>
-               <p xml:id="Almn78-d45892-d1e1264">
-                  <lb ed="#Bb" n="32"/>MEMBRUM III.
-        <lb ed="#Bb" n="33"/>Utrum libertas arbitrii plus conveniat
-        <lb ed="#Bb" n="34"/>Angelo, quam homini, vel qeque ?
-      </p>
-               <p xml:id="Almn78-d45892-d1e1273">
-                  <lb ed="#Bb" n="35"/>Tertio queritur, Utrum libertas 
-        arbi<lb ed="#Bb" break="no" n="36"/>trii plus conveniat Angelo, quam hoinini,
-        <lb ed="#Bb" n="37"/>vel aeque ?
-      </p>
-               <p xml:id="Almn78-d45892-d1e1282">
-                  <lb ed="#Bb" n="38"/>Et videtur, quod plus Angelo.
-        <lb ed="#Bb" n="39"/>1. IL Sententiarum, distinct. III, cap.
-        <lb ed="#Bb" n="40"/>Hic considerandum, dicit Magister : <quote xml:id="Almn78-d45892-Qd1e1290"> Et
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16</title>
+        <author ref="#Albert">Albert the Great</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16</title>
+          <date when="2021-11-11">November 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Bb" n="cod-brg32x">Paris 1895, Volume 32</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-11-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Bb" n="207"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Almn78-d45892"><!-- p2t4q16 -->
+        <head xml:id="Almn78-d45892-Hd1e106">Quaestio 16</head>
+        <head xml:id="Almn78-d45892-Hd1e109" type="question-title">
+          De quarto attributo, quod est libertas arbitrii.
+        </head>
+        <p xml:id="Almn78-d45892-d1e112">
           <cb ed="#Bb" n="b"/>
-                     <lb ed="#Bb" n="41"/>sicut differens vigor, et subtilitas na~—
-          <lb ed="#Bb" n="42"/>ture infirmitatem non adducit, 
-          mi<lb ed="#Bb" break="no" n="43"/>norque cognitio sapientie ignorantiam
-          <lb ed="#Bb" n="44"/>non ingerit : sic libertas inferior nullam
-          <lb ed="#Bb" n="45"/>arbitrio voluntatis necessitatem 
-          im<lb ed="#Bb" break="no" n="46"/>ponit. </quote> Ex hoc accipitur, quod 
-        infe<lb ed="#Bb" break="no" n="47"/>rior Angelus minoris est libertatis, quam
-        <lb ed="#Bb" n="48"/>superior: cum ergo homo multo inferior -
-        <lb ed="#Bb" n="49"/>sit Angelo, liberum arbitrium erit 
-        mi<lb ed="#Bb" break="no" n="50"/>noris libertatis in homine, quam in 
-        An<lb ed="#Bb" break="no" n="51"/>gelo.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1321">
-                  <lb ed="#Bb" n="52"/>2. Adhuc, Ibidem in capite sequenti,
-        <lb ed="#Bb" n="53"/>Et sicut in predictis, dicit sic : <quote xml:id="Almn78-d45892-Qd1e1327"> In
-          <lb ed="#Bb" n="54"/>subtilitate vero essentia, et 
-          intelligen<lb ed="#Bb" break="no" n="55"/>tia sapientia, ct libertate voluntatis
-          <lb ed="#Bb" n="56"/>Angeli differentes erant. </quote> Ergo cum
-        <lb ed="#Bb" n="57"/>homo inferioritate nature multo magis
-        <lb ed="#Bb" n="58"/>differat ab Angelo, quam Angelus ab
-        <lb ed="#Bb" n="59"/>Angelo, differt etiam libertate arbitrii ab
-      </p>
-               <p xml:id="Almn78-d45892-d1e1344">
-                  <lb ed="#Bb" n="60"/>Angelo : ita quod minor et inferior
-        <lb ed="#Bb" n="61"/>libertas arbitrii erit in homine, quam
-        <lb ed="#Bb" n="62"/>in Angelo,
-      </p>
-               <p xml:id="Almn78-d45892-d1e1353">
-                  <lb ed="#Bb" n="63"/>3. Adhuc, Ibidem inter quatuor 
-        altri<lb ed="#Bb" break="no" n="64"/>buta angelice nature ponit Magister
-        <lb ed="#Bb" n="65"/>talem ordinem, quod ubi plus est de
-        <lb ed="#Bb" n="66"/>subtilitate essentie, ibi sit plus de per- _
-        <lb ed="#Bb" n="67"/>spicacitate intelligentie, et plus de li- ;
-        <lb ed="#Bb" n="68"/>berlate voluntatis. Cum ergo homo ab ~
-        <lb ed="#Bb" n="69"/>Angelo differat mullum in subtilitate .
-        <lb ed="#Bb" n="70"/>essenti, et perspicacitate intelligentia, —
-        <lb ed="#Bb" n="71"/>differt etiam in libertate voluntatis, ita
-        <lb ed="#Bb" n="72"/>quod homo minoris erit libertatis, quam
-        <lb ed="#Bb" n="73"/>Angelus.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1379">
-                  <lb ed="#Bb" n="74"/>4, Adhuc, Liberum arbitrium est 
-        fa<lb ed="#Bb" break="no" n="75"/>cultas rationis et voluntatis : ila famen,
-        <lb ed="#Bb" n="76"/>quod facultas sive libertas voluntatis
-        <lb ed="#Bb" n="77"/>sequitur arbitrium rationis, quia per
-        <lb ed="#Bb" n="78"/>arbitrium rationis voluntati fit nuntium -
-        <lb ed="#Bb" n="79"/>de faciendo vel eligendo : sed arbitrium *
-        <lb ed="#Bb" n="80"/>rationis in Angelo multo certius est,
-        <lb ed="#Bb" n="81"/>quam in homine: ergo etiam tacultas ,
-        <lb ed="#Bb" n="82"/>voluntatis, sive libertas inclinande vo- |
-        <lb ed="#Bb" n="83"/>luntatis ad faciendum vel eligendum |
-        <lb ed="#Bb" n="84"/>quodeumque voluerit, major erit in 
-        An<lb ed="#Bb" break="no" n="85"/>gelo, quam in homine. _
-      </p>
-               <p xml:id="Almn78-d45892-d1e1408">
-                  <lb ed="#Bb" n="86"/>3. Adhuc, Liberum arbitrium est in
-        <lb ed="#Bb" n="87"/>Deo, in Angelo, et in homine : et constat,
-        <pb ed="#Bb" n="213"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>quod libertas completissima est in Deo:
-        <lb ed="#Bb" n="2"/>ille enim sufficit sibi ad quocumque vult
-        <lb ed="#Bb" n="3"/>faciendum vel eligendum, sive in se,
-        <lb ed="#Bb" n="4"/>sive in creaturis sibi subjectis : ad quod
-        <lb ed="#Bb" n="5"/>non sufficit nec Angelus, nec homo:
-        <lb ed="#Bb" n="6"/>cum ergo liberum arbitrium non sit in
-        <lb ed="#Bb" n="7"/>Angelo, nec in homine, nisi per aliquam
-        <lb ed="#Bb" n="8"/>similitudinem ad Deum, cumque 
-        Ange<lb ed="#Bb" break="no" n="9"/>lus per similitudinem plus accedat ad
-        <lb ed="#Bb" n="10"/>Deum, quam homo, videtur liberum
-        <lb ed="#Bb" n="11"/>esse arbitrium plus in Angelo, quam in
-        <lb ed="#Bb" n="12"/>homine.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1445">
-                  <lb ed="#Bb" n="13"/>6. Adhuc, Perfectior et liberior est
-        <lb ed="#Bb" n="14"/>ad faciendum et eligendum potentia
-        <lb ed="#Bb" n="15"/>completa per habitum concreatum sibi,
-        <lb ed="#Bb" n="16"/>quam potentia non habens habitum nisi
-        <lb ed="#Bb" n="17"/>acquisitum per assuetudinem vel 
-        doctri<lb ed="#Bb" break="no" n="18"/>nam : Angeli ad faciendum et eligendum
-        <lb ed="#Bb" n="19"/>et arbitrandum completi sunt per 
-        habi<lb ed="#Bb" break="no" n="20"/>tum concreatum sibi : homo vero non
-        <lb ed="#Bb" n="21"/>nisi per habitum acquisitum per 
-        assue<lb ed="#Bb" break="no" n="22"/>tudinem vel doctrinam : cujus signum
-        <lb ed="#Bb" n="23"/>est, quod pueri non sciunt statim eligere
-        <lb ed="#Bb" n="24"/>et facere et arbitrari, sed exigitur tempus
-        <lb ed="#Bb" n="25"/>quo per assuetudinem et experimentum
-        <lb ed="#Bb" n="26"/>et doctrinam ad ista sufficiant. Sed
-        <lb ed="#Bb" n="27"/>perfectiorem potentiam ad faciendum,
-        <lb ed="#Bb" n="28"/>eligendum, et arbitrandum, sequitur
-        <lb ed="#Bb" n="29"/>major libertas ad eadem. Ergo major
-        <lb ed="#Bb" n="30"/>libertas ad faciendum, eligendum, et
-        <lb ed="#Bb" n="31"/>arbitrandum, est in Angelo, quam in
-        <lb ed="#Bb" n="32"/>homine.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1492">
-                  <lb ed="#Bb" n="33"/>Ad omnia hee respondent quidam,
-        <lb ed="#Bb" n="34"/>quod libertas a coactione equalis est in
-        <lb ed="#Bb" n="35"/>Angelo et in homine.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1501">
-                  <lb ed="#Bb" n="36"/>Et sex argumenta inducta non 
-        proce<lb ed="#Bb" break="no" n="37"/>dunt : quia
-      </p>
-               <p xml:id="Almn78-d45892-d1e1508">
-                  <lb ed="#Bb" n="38"/>1. Fundantur super quoddam falsum,
-        <lb ed="#Bb" n="39"/>super hoc scilicet, quod major libertas
-        <lb ed="#Bb" n="40"/>arbitrii sequatur ad majorem vel 
-        mino<lb ed="#Bb" break="no" n="41"/>rem nobilitatem nature intellectualis :
-        <lb ed="#Bb" n="42"/>et hos dictum est falsum dicentes
-        <lb ed="#Bb" n="43"/>libertatem arbitrii non esse in Angelo
-        <lb ed="#Bb" n="44"/>vel in anima rationali ex hoc, quod est
-        <lb ed="#Bb" n="45"/>intellectualis nature vel rationalis, sed
-        <lb ed="#Bb" n="46"/>ex quadam dignitate que a Deo fluit in
-      </p>
-               <p xml:id="Almn78-d45892-d1e1530">
-                  <lb ed="#Bb" n="47"/>Angelum, vel in animam rationalem.
-        <lb ed="#Bb" n="48"/>Sed non determinant que sit illa digni
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="49"/>tas : propter quod insufficiens est eorum
-        <lb ed="#Bb" n="50"/>responsio.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1543">
-                  <lb ed="#Bb" n="51"/>Adhuc, Aristoteles, Gregorius 
-        Nysse<lb ed="#Bb" break="no" n="52"/>nus, et Joannes Damascenus, concorditer
-        <lb ed="#Bb" n="53"/>dicunt et probant, quod libertas agendi
-        <lb ed="#Bb" n="54"/>vel eligendi, de ratione voluntarii est in
-        <lb ed="#Bb" n="55"/>homine : voluntarium autem est, ut
-        <lb ed="#Bb" n="56"/>tidem dicunt, cujus principium est in
-        <lb ed="#Bb" n="57"/>ipso consciente singularia, sive 
-        singula<lb ed="#Bb" break="no" n="58"/>res circumstantias in quibus est actus.
-        <lb ed="#Bb" n="59"/>Ergo in quacumque natura principium
-        <lb ed="#Bb" n="60"/>agendi et eligendi et arbitrandi de 
-        singu<lb ed="#Bb" break="no" n="61"/>laribus circumstantiis est intus ex 
-        prin<lb ed="#Bb" break="no" n="62"/>cipio naturali et essentiali, in illa est
-        <lb ed="#Bb" n="63"/>per naturam liberum arbitrium sive 
-        li<lb ed="#Bb" break="no" n="64"/>bertas arbitrii. In natura intellectuali
-        <lb ed="#Bb" n="65"/>per hoc quod est intellectualis sive 
-        ra<lb ed="#Bb" break="no" n="66"/>tionalis, principium agendi et eligendi
-        <lb ed="#Bb" n="67"/>est intra : et similiter principium 
-        ar<lb ed="#Bb" break="no" n="68"/>bitrandi de circumstantiis in quibus
-        <lb ed="#Bb" n="69"/>est actus : ergo libertas arbitrii 
-        sequi<lb ed="#Bb" break="no" n="70"/>tur naturam intellectualem per hoc
-        <lb ed="#Bb" n="71"/>quod est intellectualis : ergo non valet
-        <lb ed="#Bb" n="72"/>responsio inducta.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1593">
-                  <lb ed="#Bb" n="73"/>2.Aliter tamen objiciturin contrarium ;
-        <lb ed="#Bb" n="74"/>Dicit beatus <name xml:id="Almn78-d45892-Nd1e1599">Bernardus</name> in libro de
-        <lb ed="#Bb" n="75"/>Libero arbitrio : <quote xml:id="Almn78-d45892-Qd1e1604"> Libertas a necessitate,
-          <lb ed="#Bb" n="76"/>nee peccalo nec miseria amitlitur, nec :
-          <lb ed="#Bb" n="77"/>per opposita istorum augetur, nec 
-          ple<lb ed="#Bb" break="no" n="78"/>nior est in homine, quam in Angelo, nec
-          <lb ed="#Bb" n="79"/>e converso. Hac prerogativa conditor
-          <lb ed="#Bb" n="80"/>rationalem creaturam insignivit, ut 
-          sic<lb ed="#Bb" break="no" n="81"/>ut sui juris sueque voluntatis, non 
-          coa<lb ed="#Bb" break="no" n="82"/>ctionis est, quod bona est : ita et sui
-          <lb ed="#Bb" n="83"/>juris existeret, ut non (nisi vellet) bona
-          <lb ed="#Bb" n="84"/>vel mala faceret. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e1628">
-                  <lb ed="#Bb" n="85"/>3. Adhuc, Bernardus, ibidem, 
-        distin<lb ed="#Bb" break="no" n="86"/>guit triplicem libertatem, scilicet 
-        liber<lb ed="#Bb" break="no" n="87"/>tatem consilii, libertatem complacili, et
-        <lb ed="#Bb" n="88"/>libertatem a coactione sive a necessitate.
-        <lb ed="#Bb" n="89"/>Et dicit, quod <quote xml:id="Almn78-d45892-Qd1e1641"> libertas a coactione 
-          se<lb ed="#Bb" break="no" n="90"/>quitur imaginem, libertas vero consilii
-          <lb ed="#Bb" n="91"/>et complaciti simililudinem : </quote> sed imago
-        <lb ed="#Bb" n="92"/>tam in hominc, quam in Angelo est 
-        se<lb ed="#Bb" break="no" n="93"/>cundum naturales potentias : ergo 
-        vi<lb ed="#Bb" break="no" n="94"/>detur, quod etiam jibertas arbitrii insit
-        <lb ed="#Bb" n="95"/>homini et Angelo secundum naturales
-        <lb ed="#Bb" n="96"/>potentias : ct sic praeinducta nulla esse
-        <lb ed="#Bb" n="97"/>videntur.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1662">
-                  <pb ed="#Bb" n="214"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>4. Adhuc, Bernardus, ibidem, <quote xml:id="Almn78-d45892-Qd1e1670"> 
-          Divi<lb ed="#Bb" break="no" n="2"/>ne similitudinis summum gradum 
-          te<lb ed="#Bb" break="no" n="3"/>nent Angeli boni, nos infinum, Adam in
-          <lb ed="#Bb" n="4"/>primo statu medium, demones 
-          nul<lb ed="#Bb" break="no" n="5"/>lum. </quote> Constat ergo, quod cum in 
-        de<lb ed="#Bb" break="no" n="6"/>monibus sit liberlas arbitrii, libertas
-        <lb ed="#Bb" n="7"/>arbitrit non descendit in intellectualem
-        <lb ed="#Bb" n="8"/>naturam per aliquam rationem sive 
-        di<lb ed="#Bb" break="no" n="9"/>gnitatem simililudinis ad Deum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1691">
-                  <lb ed="#Bb" n="10"/>In contrarium tamen omnium horum
-        <lb ed="#Bb" n="11"/>objicitur : quia
-        <lb ed="#Bb" n="12"/>1. Videtur esse major libertas in 
-        ho<lb ed="#Bb" break="no" n="13"/>mine, quam in Angelo. Libertas enim ex
-        <lb ed="#Bb" n="14"/>verlibilitate voluntatis videtur inesse
-        <lb ed="#Bb" n="15"/>sed magis verlibilis est homo, quam
-        <lb ed="#Bb" n="16"/>Angelus : cujus signum est, quia homo
-        <lb ed="#Bb" n="17"/>vertibilis est in bonum et in malum sicut
-        <lb ed="#Bb" n="18"/>vult : et quando vertiturin malum, 
-        ite<lb ed="#Bb" break="no" n="19"/>rum potest redire in bonum : quod non
-        <lb ed="#Bb" n="20"/>potest Angelus : ergo videlur, quod
-        <lb ed="#Bb" n="21"/>major libertas sit in homine, quam in
-        <lb ed="#Bb" n="22"/>Angelo.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1722">
-                  <lb ed="#Bb" n="23"/>2. Adhuc, Libertas, ut_dicit 
-        Bernar<lb ed="#Bb" break="no" n="24"/>dus, sequitur imaginem : sed expresse
-        <lb ed="#Bb" n="25"/>dicitur, Genes. 1, 26 : Faciamus 
-        homi<lb ed="#Bb" break="no" n="26"/>nem ad imaginem et similitudinem 
-        no<lb ed="#Bb" break="no" n="27"/>stram : quod non expresse dic‘tur de
-        <lb ed="#Bb" n="28"/>Angelo : ergo sicut imago expressior
-        <lb ed="#Bb" n="29"/>est in homine quam in Angelo, ita
-        <lb ed="#Bb" n="30"/>videtur libertas major esse in homine
-        <lb ed="#Bb" n="31"/>quam in Angelo.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1744">
-                  <lb ed="#Bb" n="32"/>In contRARIUM Omnium istorum 
-        obji<lb ed="#Bb" break="no" n="33"/>ciunt quidam dicentes, quod
-        <lb ed="#Bb" n="34"/>1. Libertas arbitrii consistil in 
-        verti<lb ed="#Bb" break="no" n="35"/>bilitale voluntalis ad bonum et ad 
-        ma<lb ed="#Bb" break="no" n="36"/>lum : sed vertibilitas illa causatur ex
-        <lb ed="#Bb" n="37"/>hoc, quod creatura rationalis ex Deo
-        <lb ed="#Bb" n="38"/>est et ex nihilo : sed esse ex Deo et ex
-        <lb ed="#Bb" n="39"/>nihilo equaliter convenit Angelo et 
-        ani<lb ed="#Bb" break="no" n="40"/>me rationali: ergo libertas arbitrii 
-        con<lb ed="#Bb" break="no" n="41"/>venit utrigue equaliter.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1768">
-                  <lb ed="#Bb" n="42"/>2. Adhuc, Libertas sequitur 
-        volunta<lb ed="#Bb" break="no" n="43"/>tem intellectualem sive rationalem : sed
-        <lb ed="#Bb" n="44"/>voluntas intellectualis sive rationalis ex
-        <lb ed="#Bb" n="45"/>zquo inest Angelo ct homini : cujus
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="46"/>probatio est, quia neutri inest per 
-        alte<lb ed="#Bb" break="no" n="47"/>rum: ergo libertas arbitrii equalis est
-        <lb ed="#Bb" n="48"/>in Angelo et in homine.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1789">
-                  <lb ed="#Bb" n="49"/>Solutio. Sicut dicit Magister in libro
-        <lb ed="#Bb" n="50"/>II Sententiarum, distinct. XXV, cap.
-        <lb ed="#Bb" n="51"/>Est namque triplex libertas, scilicet 
-        a<lb ed="#Bb" break="no" n="52"/>coactione sive ex necessitate, a peccato,
-        <lb ed="#Bb" n="53"/>et a miseria'. Libertas a coactione 
-        tripli<lb ed="#Bb" break="no" n="54"/>cem habet gradum, scilicet quod in 
-        qui<lb ed="#Bb" break="no" n="55"/>busdam nec habet cogens ad malum vel
-        <lb ed="#Bb" n="56"/>ad bonum,' nec inclinans ad malum. Et
-        <lb ed="#Bb" n="57"/>sic est in Angelo bono, sed non in 
-        An<lb ed="#Bb" break="no" n="58"/>gelo malo : et sic etiam in homine
-        <lb ed="#Bb" n="59"/>bono, sed non in homine malo : quia
-        <lb ed="#Bb" n="60"/>dicit Gregorius, quod <quote xml:id="Almn78-d45892-Qd1e1817"> peccatum quod
-          <lb ed="#Bb" n="61"/>per peenitentiam} citius non deletur, suo
-          <lb ed="#Bb" n="62"/>pondere adjaliud trahit. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e1825">
-                  <lb ed="#Bb" n="63"/>In quibusdam non habet cogens ad
-        <lb ed="#Bb" n="64"/>bonum vel ad malum : tamen infirmita~
-        <lb ed="#Bb" n="65"/>tis aliquid habet ad bonum, sicut in
-        <lb ed="#Bb" n="66"/>homine, quem pondus carnis facit 
-        infir<lb ed="#Bb" break="no" n="67"/>mum ad bonum. Sapientie, ix, 15.
-        <lb ed="#Bb" n="68"/>
-                  <quote xml:id="Almn78-d45892-Qd1e1840">Corpus quod corrumpitur aggravat
-          <lb ed="#Bb" n="69"/>animam, et terrena inhabitatio deprimit
-          <lb ed="#Bb" n="70"/>sensum mulia cogitantem</quote>. Et, ibidem,
-        <lb ed="#Bb" n="71"/>y. 14-: <quote xml:id="Almn78-d45892-Qd1e1849">Cognitiones mortalium sunt
-          <lb ed="#Bb" n="72"/>timide, et incerte providentizv nostre</quote>.
-        <lb ed="#Bb" n="73"/>Propter_ quod etiam remediabile dicitur
-        <lb ed="#Bb" n="74"/>peccatum hominis, et non Angeli. Unde
-        <lb ed="#Bb" n="75"/>Gregorius in Moralibus : <quote xml:id="Almn78-d45892-Qd1e1861"> Angelorum
-          <lb ed="#Bb" n="76"/>spiritus idcirco irremissibiliter peccavit,
-          <lb ed="#Bb" n="77"/>quia Angeli tanto robustius stare 
-          pot<lb ed="#Bb" break="no" n="78"/>erant, quanto cos carnis fragililas non
-          <lb ed="#Bb" n="79"/>aggravabat. Homo vero post calpam
-          <lb ed="#Bb" n="80"/>veniam meruit, quia per carnale corpus
-          <lb ed="#Bb" n="81"/>aliquid quo semelipso mimor csset,
-          <lb ed="#Bb" n="82"/>accepit. </quote> Idem per omnia dicunt 
-        Grego<lb ed="#Bb" break="no" n="83"/>rius Nyssenus, et{Damascenus, et 
-        in<lb ed="#Bb" break="no" n="84"/>ducuntillud Genesis, vi, 3,: Nov 
-        per<lb ed="#Bb" break="no" n="85"/>manebit spiritus meus in homine in.
-        <lb ed="#Bb" n="86"/>ewternum;, quia caro est. Quod 
-        expo<lb ed="#Bb" break="no" n="87"/>nuut de spiritu indignationis divine. Ac
-        <lb ed="#Bb" n="88"/>si dicat : Spiritus indignationis mee non —
-        <lb ed="#Bb" n="89"/>eri in homine in eternum, sicut fuit in
-        <pb ed="#Bb" n="215"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>Angelo peccante, quia infirmilate carnis
-        <lb ed="#Bb" n="2"/>deprimitur : et ideo remediabile est 
-        pec<lb ed="#Bb" break="no" n="3"/>catum ejus, quod non fuit in Angelo.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1906">
-                  <lb ed="#Bb" n="4"/>Tertius gradus ejusdem liberlatis est
-        <lb ed="#Bb" n="5"/>privatio a coactione agentis et 
-        necessi<lb ed="#Bb" break="no" n="6"/>talem imponentis : et sic equaliter est
-        <lb ed="#Bb" n="7"/>in Angelis bonis et malis, et im 
-        homini<lb ed="#Bb" break="no" n="8"/>bus bonis et malis, et in damnat's et non
-        <lb ed="#Bb" n="9"/>damnatis : in nullo enim istorum habet
-        <lb ed="#Bb" n="10"/>aliquid cogens sive necessitatem 
-        impo<lb ed="#Bb" break="no" n="11"/>nens, sed libere vult quod vult, et Jibere
-        <lb ed="#Bb" n="12"/>eligit quod eligit, et libere facit quod ex
-        <lb ed="#Bb" n="13"/>voluntate facit. Et causa, quod equaliter
-        <lb ed="#Bb" n="14"/>est in eis, est quod fundatur super 
-        pri<lb ed="#Bb" break="no" n="15"/>vationem cogentis et privationem 
-        impo<lb ed="#Bb" break="no" n="16"/>nentis necessitatem, que cum pura sit
-        <lb ed="#Bb" n="17"/>et omnimoda privatio, in omnibus, non
-        <lb ed="#Bb" n="18"/>potest intelligi, quod secundum magis
-        <lb ed="#Bb" n="19"/>et minus insit eis, quia non polest
-        <lb ed="#Bb" n="20"/>intelligi, quod privatio pura et 
-        omnimo<lb ed="#Bb" break="no" n="21"/>na secundum magis et minus insit 
-        di<lb ed="#Bb" break="no" n="22"/>versis, quia privatio talis non potest
-        <lb ed="#Bb" n="23"/>recipere intensionem et remissionem.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1952">
-                  <lb ed="#Bb" n="24"/>Libertas autem a peccato, maxime est
-        <lb ed="#Bb" n="25"/>in Deo, et post hoc in Angelo bono,
-        <lb ed="#Bb" n="26"/>post hoc in homine bono : nulla in 
-        ho<lb ed="#Bb" break="no" n="27"/>mine malo, et nulla in demone. Et
-        <lb ed="#Bb" n="28"/>similiter est in liberiate a miseria. He
-        <lb ed="#Bb" n="29"/>enim liberlates dicuntur per 
-        elongatio<lb ed="#Bb" break="no" n="30"/>nem a peccato, et a miseria, qua 
-        maxi<lb ed="#Bb" break="no" n="31"/>me est in Deo, secundo in Angelo bono,
-        <lb ed="#Bb" n="32"/>tertio in homine bono : nulla in homine
-        <lb ed="#Bb" n="33"/>malo, nulla in demone. Quia sicut 
-        di<lb ed="#Bb" break="no" n="34"/>cilur, Proverb. xiv, 34 : Miseros facit
-        <lb ed="#Bb" n="35"/>populos peccatum. Et hoc, ut dicit 
-        Au<lb ed="#Bb" break="no" n="36"/>gustinus, notavit Deus quando dixit,
-        <lb ed="#Bb" n="37"/>Genes. 1, 9 : Adam, ubi es? hoc est,
-        <lb ed="#Bb" n="38"/>vide in quanta miseria propter peccatum
-        <lb ed="#Bb" n="39"/>transgressionis es.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1989">
-                  <lb ed="#Bb" n="40"/>His habitis, facile est respondere ad
-        <lb ed="#Bb" n="41"/>objecta.
-      </p>
-               <p xml:id="Almn78-d45892-d1e1996">
-                  <lb ed="#Bb" n="42"/>Ad primum ergo dicendum, quod /
-        i<lb ed="#Bb" break="no" n="43"/>bertas a coactione propter causam que
-        <lb ed="#Bb" n="44"/>dicta est, quia scilicet in pura et 
-        omni<lb ed="#Bb" break="no" n="45"/>moda privatione coactionis consistit,
-        <lb ed="#Bb" n="46"/>cequalis est in Angelis superioribus et 
-        in<lb ed="#Bb" break="no" n="47"/>ferioribus, et in homine: sed quantum
-        <lb ed="#Bb" n="48"/>ad inclinantia ad bonum et ad malum,
-        <lb ed="#Bb" n="49"/>cum essentia simplicior, et perspicacilas
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>intelligentiae major de natura sui sint 
-        in<lb ed="#Bb" break="no" n="51"/>clinantia ad bonum plusquam essentia
-        <lb ed="#Bb" n="52"/>minus simplex, et perspicacitas 
-        intelli<lb ed="#Bb" break="no" n="53"/>gentie minor: propter quod etiam dicit
-        <lb ed="#Bb" n="54"/>Aristoteles in X Ethicorum, quod <quote xml:id="Almn78-d45892-Qd1e2028"> id
-          <lb ed="#Bb" n="55"/>cujus natura est simplex, una sola et 
-          sim<lb ed="#Bb" break="no" n="56"/>plici gaudet operatione : </quote> quantum ad
-        <lb ed="#Bb" n="57"/>hoc non est equalis, sed major libertas
-        <lb ed="#Bb" n="58"/>est in Angelo, quam in homine.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2041">
-                  <lb ed="#Bb" n="59"/>Omnino eodem modo dicendum est ad
-        <lb ed="#Bb" n="60"/>sequens : quia hoc eodem modo 
-        intelli<lb ed="#Bb" break="no" n="61"/>gitur.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2050">
-                  <lb ed="#Bb" n="62"/>Per idem patet solutio ad sequens:
-        <lb ed="#Bb" n="63"/>quia illa tria super idem fundantur.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2057">
-                  <lb ed="#Bb" n="64"/>Ad aliud dicendum, quod arbitrium
-        <lb ed="#Bb" n="65"/>quod est actus rationis de faciendo vel
-        <lb ed="#Bb" n="66"/>eligendo, lucidius est in Angelo quam in
-        <lb ed="#Bb" n="67"/>homine, et clarius nuntiat voluntati: et
-        <lb ed="#Bb" n="68"/>per hoc etiam voluntas sequens in 
-        An<lb ed="#Bb" break="no" n="69"/>gelo magis inclinatur ad rectum et ad
-        <lb ed="#Bb" n="70"/>bonum, quam in homine. Non tamen
-        <lb ed="#Bb" n="71"/>propter hoc obligatur in Angelo, vel 
-        co<lb ed="#Bb" break="no" n="72"/>gitur in homine: sed in utroque manet
-        <lb ed="#Bb" n="73"/>libertas in hoc, quod in utroque est 
-        po<lb ed="#Bb" break="no" n="74"/>testas libere faciendi quod vult sine 
-        obli<lb ed="#Bb" break="no" n="75"/>gatione vel coactione alicujus.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2086">
-                  <lb ed="#Bb" n="76"/>Ad aliud dicendum, quod Angelus 
-        ma<lb ed="#Bb" break="no" n="77"/>gis accidit in similitudinem libertatis ad
-        <lb ed="#Bb" n="78"/>Deum, quam homo, et ideo magis 
-        incli<lb ed="#Bb" break="no" n="79"/>natur ut libere velit bonum: sed tamen
-        ‘propter accessum illum Angelus non
-        <lb ed="#Bb" n="80"/>obligatur, sicut nec propter minorem 
-        ac<lb ed="#Bb" break="no" n="81"/>cessum homo cogitur ad unum vel ad
-        <lb ed="#Bb" n="82"/>alterum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2104">
-                  <lb ed="#Bb" n="83"/>Av autup dicendum, quod hoc non
-        <lb ed="#Bb" n="84"/>probat, nisi quod Angelus magis 
-        dispo<lb ed="#Bb" break="no" n="85"/>situs est ad libere volendum bonum,
-        <lb ed="#Bb" n="86"/>quam homo : sed non probat, quod 
-        An<lb ed="#Bb" break="no" n="87"/>gelus obligetur ad aliquid, vel homo 
-        co<lb ed="#Bb" break="no" n="88"/>gatur ad aliquid eorum que in ipsis
-        <lb ed="#Bb" n="89"/>sunt, ut dicit Aristoleles in II 
-        Eihico<lb ed="#Bb" break="no" n="90"/>rum, quorum nos sumus causa et 
-        agen<lb ed="#Bb" break="no" n="91"/>di principium, et conscientes singulares
-        <lb ed="#Bb" n="92"/>circumstantias in quibus est actus.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2128">
-                  <lb ed="#Bb" n="93"/>Ad aliud dicendum, quod sine dubio
-        <lb ed="#Bb" n="94"/>illa responsio insufficiens est, sicut 
-        pro<lb ed="#Bb" break="no" n="95"/>bant objectiones facta in contrarium,
-        <lb ed="#Bb" n="96"/>nisi dicatur, quod illa dignitas que a Deo
-        <pb ed="#Bb" n="216"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>descendit in animam rationalem et in
-        <lb ed="#Bb" n="2"/>Angelum, et quod ipsa natura 
-        intelle<lb ed="#Bb" break="no" n="3"/>ctualis clevatur super materiam et 
-        natu<lb ed="#Bb" break="no" n="4"/>ram, ita quod ex ipsa elevatione causa et
-        <lb ed="#Bb" n="5"/>liberum principium efficitur omnium
-        <lb ed="#Bb" n="6"/>suarum actionum et electionum: quia,
-        <lb ed="#Bb" n="7"/>sicut dicit Damascenus in libro II de Fide
-        <lb ed="#Bb" n="8"/>orthodoxa, ubi de libero arbitrio sermo
-        <lb ed="#Bb" n="9"/>est, hoc est de eo quod in nobis est, 
-        pri<lb ed="#Bb" break="no" n="10"/>mo quidem habet questionem, si est
-        <lb ed="#Bb" n="11"/>quid in nobis’.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2168">
-                  <lb ed="#Bb" n="12"/>Ad aliud dicendum, quod dictum 
-        bea<lb ed="#Bb" break="no" n="13"/>ti Bernardi verum est quantum ad 
-        liber<lb ed="#Bb" break="no" n="14"/>tatem a coactione, secundum quod 
-        liber<lb ed="#Bb" break="no" n="15"/>tas illa dicit puram et omnimodam
-        <lb ed="#Bb" n="16"/>privationem coactionis et nihil plus.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2181">
-                  <lb ed="#Bb" n="17"/>Ad aliud dicendum, quod libertas a
-        <lb ed="#Bb" n="18"/>coactione sequitur imaginem, ut dicit
-        <lb ed="#Bb" n="19"/>beatus Bernardus et naturales potentias
-        <lb ed="#Bb" n="20"/>imaginis : quia imago est in naturalibus.
-        <lb ed="#Bb" n="21"/>Libertas autem consilii et complaciti 
-        se<lb ed="#Bb" break="no" n="22"/>quuntur similitudinem que est in 
-        gra<lb ed="#Bb" break="no" n="23"/>tuitis. Et quod concluditur, quod 
-        respon<lb ed="#Bb" break="no" n="24"/>sio est insufficiens, concedendum est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2201">
-                  <lb ed="#Bb" n="25"/>Ad aliud dicendum similiter, quod 
-        li<lb ed="#Bb" break="no" n="26"/>bertas arbitrii est in homine et in Angelo,
-        <lb ed="#Bb" n="27"/>per hoc quod principium agendi et 
-        eli<lb ed="#Bb" break="no" n="28"/>gendi est in ipsis conscientibus singulares
-        <lb ed="#Bb" n="29"/>circumstantias in quibus est actus. Et
-        <lb ed="#Bb" n="30"/>verum est, quod hoc sicut omne aliud
-        <lb ed="#Bb" n="31"/>bonum in intellectualem naturam 
-        crea<lb ed="#Bb" break="no" n="32"/>tam descendit a Deo.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2221">
-                  <lb ed="#Bb" n="33"/>Ad id quod objicitur in contrarium,
-        <lb ed="#Bb" n="34"/>probando quod major libertas sit in 
-        ho<lb ed="#Bb" break="no" n="35"/>mine, quam in Angelo, dicendum quod
-        <lb ed="#Bb" n="36"/>nihil valet, et fundatur super quoddam
-        <lb ed="#Bb" n="37"/>falsura, scilicet quod major vel minor
-        <lb ed="#Bb" n="38"/>vertibilitas sit causa majoris vel minoris
-        <lb ed="#Bb" n="39"/>libertatis : hac cnim non est causa 
-        majo<lb ed="#Bb" break="no" n="40"/>ris vel minoris libertatis, sed potius hoc
-        <lb ed="#Bb" n="41"/>quod in ipsa natura intellectuali est, et
-        <lb ed="#Bb" n="42"/>non extra ipsam, quod liberum sit 
-        prin<lb ed="#Bb" break="no" n="43"/>ciplum ct causa suarum electionum et
-        <lb ed="#Bb" n="44"/>actionum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2250">
-                  <lb ed="#Bb" n="45"/>Ad aliud dicendum, quod licet 
-        expres<lb ed="#Bb" break="no" n="46"/>se ibi non dicatur Angelus ad imaginem,
-        <lb ed="#Bb" n="47"/>tamen, Ezechiel. xxvin, 12, sub typo re
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="48"/>gis Tyride Angelo dicitur : <quote xml:id="Almn78-d45892-Qd1e2263">Tu 
-          signacu<lb ed="#Bb" break="no" n="49"/>lum similitudinis, plenus sapientia, et
-          <lb ed="#Bb" n="50"/>perfectus decore</quote>. Super quod dicit 
-        Gre<lb ed="#Bb" break="no" n="51"/>gorius, quod <quote xml:id="Almn78-d45892-Qd1e2272">ex eo quod in Angelo
-          <lb ed="#Bb" n="52"/>subtilior et nobilior est natura quam in
-          <lb ed="#Bb" n="53"/>homine, eo in Angelo imago Dei magis
-          <lb ed="#Bb" n="54"/>est expressa. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e2282">
-                  <lb ed="#Bb" n="55"/>Ad aliud dicendum, quod libertas 
-        ar<lb ed="#Bb" break="no" n="56"/>bitrii in quantum est a coactione 
-        simpli<lb ed="#Bb" break="no" n="57"/>ci, que non dicit nisi privationem puram
-        <lb ed="#Bb" n="58"/>et omnimodam cogentis et necessitatem
-        <lb ed="#Bb" n="59"/>imponentis, equalis est in Angelo et in
-        <lb ed="#Bb" n="60"/>homine : in aliis tamen non est aqualis,
-        <lb ed="#Bb" n="61"/>ut dictum est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2301">
-                  <lb ed="#Bb" n="62"/>Ad ultimum dicendum, quod voluntas
-        <lb ed="#Bb" n="63"/>intellectualis aqualis est in homine et in
-        <lb ed="#Bb" n="64"/>Angelo quantum ad libertatem a 
-        coa<lb ed="#Bb" break="no" n="65"/>clione necessitatem imponentis, sed non
-        <lb ed="#Bb" n="66"/>in aliis, ut dictum est.
-      </p>
-            </div>
-            <div xml:id="Almn78-d45892-Dd1e2315">
-               <head xml:id="Almn78-d45892-Hd1e2317">Membrum 4</head>
-               <head xml:id="Almn78-d45892-Hd1e2320" type="question-title">
-        Utrum libertas arbitrii aequaliter 
-        conveniat omni Angelo, vel secundum plus
-        vel minus uni, quam alteri?
-      </head>
-               <p xml:id="Almn78-d45892-d1e2323">
-                  <lb ed="#Bb" n="67"/>MEMBRUM IV.
-        <lb ed="#Bb" n="68"/>Utrum libertas arbitrii aequaliter 
-        conve<lb ed="#Bb" break="no" n="69"/>niat omni Angelo, vel secundum plus
-        <lb ed="#Bb" n="70"/>vel minus uni, quam alteri?
-      </p>
-               <p xml:id="Almn78-d45892-d1e2334">
-                  <lb ed="#Bb" n="71"/>Quarto queritur, Utrum libertas 
-        arbi<lb ed="#Bb" break="no" n="72"/>trii aequaliter conveniat omni Angelo,
-        <lb ed="#Bb" n="73"/>vel secundum plus et minus uni, quam
-        <lb ed="#Bb" n="74"/>alteri?
-      </p>
-               <p xml:id="Almn78-d45892-d1e2345">
-                  <lb ed="#Bb" n="75"/>Et videtur, quod secundum plus et
-        <lb ed="#Bb" n="76"/>minus.
-        <lb ed="#Bb" n="77"/>1. Ex quo enim major libertas sequitur
-        <lb ed="#Bb" n="78"/>ad subtiliorem intelligentiam et 
-        simpli<lb ed="#Bb" break="no" n="79"/>ciorem essentiam, et in simplicitate 
-        es<lb ed="#Bb" break="no" n="80"/>senlie et subtilitate intelligentiz 
-        diffe<lb ed="#Bb" break="no" n="81"/>rentes sunt Angeli, videtur quod in
-        <lb ed="#Bb" n="82"/>libertate -arbitrii differentes sint: et sic
-        <lb ed="#Bb" n="83"/>unus habet majorem liberiatem, quam
-        <lb ed="#Bb" n="84"/>alius.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2370">
-                  <lb ed="#Bb" n="85"/>2. Adhuc, Secundum hierarchias et
-        <lb ed="#Bb" n="86"/>ordines distincti sunt Angeli, ila quod
-        <lb ed="#Bb" n="87"/>ili de prima hierarchia a beato Dionysio
-        <pb ed="#Bb" n="217"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>in libro de Celesti hierarchia, dicuntur
-        <lb ed="#Bb" n="2"/>divinum agahna, eo quod similitudo
-        <lb ed="#Bb" n="3"/>Dei expressius relucet in eis, quam
-        <lb ed="#Bb" n="4"/>in aliis: sed ista relucentia similitudinis
-        <lb ed="#Bb" n="5"/>accipitur secundum participationem 
-        bo<lb ed="#Bb" break="no" n="6"/>nitatum a Deo descendentium in ipsos:
-        <lb ed="#Bb" n="7"/>sed precipua bonitatum est libertas: illa
-        <lb ed="#Bb" n="8"/>ergo in superioribus expressius 
-        resplen<lb ed="#Bb" break="no" n="9"/>det, quam in inferioribus ad 
-        similitudi<lb ed="#Bb" break="no" n="10"/>nem Dei.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2405">
-                  <lb ed="#Bb" n="11"/>3. Adhuc, Secundum ordinem 
-        causa<lb ed="#Bb" break="no" n="12"/>rum in philosophia a Philosophis 
-        deter<lb ed="#Bb" break="no" n="13"/>minatum, bonitates prima cause magis
-        <lb ed="#Bb" n="14"/>resplendent in proxima secunda causa
-        <lb ed="#Bb" n="15"/>juxta primam, et potentiores sunt quam
-        <lb ed="#Bb" n="16"/>in tertia et quarta, et sic deinceps: ergo
-        <lb ed="#Bb" n="17"/>in ordine Angelorum ad Deum idem est:
-        <lb ed="#Bb" n="18"/>quia si in naturalibus est ordo, multo
-        <lb ed="#Bb" n="19"/>magis in divinis: quia magis ordinata
-        <lb ed="#Bb" n="20"/>sunt divina, quam naturalia. Cum ergo
-        <lb ed="#Bb" n="21"/>precipua bonitatum sit libertas arbitrii,
-        <lb ed="#Bb" n="22"/>in superioribus Angelis proximis Deo erit
-        <lb ed="#Bb" n="23"/>libertas potentior, quam in inferioribus.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2436">
-                  <lb ed="#Bb" n="24"/>4. Adhuc, In humanis sic est, quod 
-        in<lb ed="#Bb" break="no" n="25"/>ferior qui respicere habet ad preceptum
-        <lb ed="#Bb" n="26"/>superioris, non est equalis libertatis ad
-        <lb ed="#Bb" n="27"/>agendum et eligendum que vult cum
-        <lb ed="#Bb" n="28"/>superiori. Cum ergo subjectio et 
-        prela<lb ed="#Bb" break="no" n="29"/>tio sit in Angelis, ad quam, ut dicit 
-        Dio<lb ed="#Bb" break="no" n="30"/>nysius in Celesti hierarchia, prelatio et
-        <lb ed="#Bb" n="31"/>subjectio humana excmplata est, videtur
-        <lb ed="#Bb" n="32"/>quod in subjecto Angelo non sit xqualis
-        <lb ed="#Bb" n="33"/>libertas, sicut in Angelo prelato.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2460">
-                  <lb ed="#Bb" n="34"/>5. Adhuc, Secundum jura canonica et
-        <lb ed="#Bb" n="35"/>civilia, subditus. liberum consensum ad
-        <lb ed="#Bb" n="36"/>facienda vel eligenda non habet sine 
-        li<lb ed="#Bb" break="no" n="37"/>centia superioris. Cum ergo in Angelis
-        <lb ed="#Bb" n="38"/>sint prelati et subjecti, subjectus liberum
-        <lb ed="#Bb" n="39"/>consensum ad agenda et eligenda non
-        <lb ed="#Bb" n="40"/>habet, sed prelatus habet liberum 
-        con<lb ed="#Bb" break="no" n="41"/>sensum ad hee: ergo differens libertas
-        <lb ed="#Bb" n="42"/>secundum plus et minus est prelato, et
-        <lb ed="#Bb" n="43"/>subjecto.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2484">
-                  <lb ed="#Bb" n="44"/>6. Adhuc, Sicut a principio dictum est,
-        <lb ed="#Bb" n="45"/>liberum dicimus hominem qui causa sui
-        <lb ed="#Bb" n="46"/>est : subjectus non causa sui est, sed re -
-        <lb ed="#Bb" n="47"/>spicit ad superiorem, cujus voluntas vel
-        <lb ed="#Bb" n="48"/>preceptum sibi causa est agendi et 
-        vo<lb ed="#Bb" break="no" n="49"/>lendi sive eligendi quod vult: superior
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>autem causa sibi est agendi et volendi:
-        <lb ed="#Bb" n="51"/>ergo ewqualis libertas agendi et volendi
-        <lb ed="#Bb" n="52"/>sive eligendi non est in superiore et 
-        in<lb ed="#Bb" break="no" n="53"/>feriore.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2510">
-                  <lb ed="#Bb" n="54"/>In contrarium hujus est, quod in 
-        om<lb ed="#Bb" break="no" n="55"/>ni natura intellectuali, in qua equalis est
-        <lb ed="#Bb" n="56"/>elevatio supra materiam et naturam 
-        obli<lb ed="#Bb" break="no" n="57"/>gantem formam qu in ipsa est ad hoc
-        <lb ed="#Bb" n="58"/>agendum et non aliud, equalis est 
-        li<lb ed="#Bb" break="no" n="59"/>bertas agendi et eligendi quod vult; in
-        <lb ed="#Bb" n="60"/>omnibus Angelis hujusmodi elevatio est
-        <lb ed="#Bb" n="61"/>equalis, nullus enim materie obliganti
-        <lb ed="#Bb" n="62"/>ad hoc vel ad hoc immergitur vel unitur:
-        <lb ed="#Bb" n="63"/>ergo in omnibus libertas agendi vel 
-        eli<lb ed="#Bb" break="no" n="64"/>gendi aqualis est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2537">
-                  <lb ed="#Bb" n="65"/>Solutio. Dicendum, quod libertas a
-        <lb ed="#Bb" n="66"/>coactione propter causam in questione
-        <lb ed="#Bb" n="67"/>precedentis membri dictam, equalis est
-        <lb ed="#Bb" n="68"/>in omnibus Angelis, tam superioribus
-        <lb ed="#Bb" n="69"/>quam inferioribus: omnes enim liberi
-        <lb ed="#Bb" n="70"/>sunt a cogente et necessitatem 
-        impo<lb ed="#Bb" break="no" n="71"/>nente ad hoc vel illud agendum vel
-        <lb ed="#Bb" n="72"/>eligendum: sed ab inclinante plus in
-        <lb ed="#Bb" n="73"/>bonum vel minus non equaliter 
-        dis<lb ed="#Bb" break="no" n="74"/>positi sunt, nec equaliter liberi: 
-        su<lb ed="#Bb" break="no" n="75"/>perior enim melius dispositus est ad
-        <lb ed="#Bb" n="76"/>bonum, quam inferior et ad meliora,
-        <lb ed="#Bb" n="77"/>secundum quod vult Dionysius in 
-        Ce<lb ed="#Bb" break="no" n="78"/>lesti hierarchia.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2570">
-                  <lb ed="#Bb" n="79"/>Ad primum ergo dicendum, quod ex
-        <lb ed="#Bb" n="80"/>hoc non probatur,quod unus alio habeat
-        <lb ed="#Bb" n="81"/>majorem liberlatem a coactione, sed
-        <lb ed="#Bb" n="82"/>quod unus meliori natura disponitur ad
-        <lb ed="#Bb" n="83"/>bonum quam alius: sicut eliam 
-        Diony<lb ed="#Bb" break="no" n="84"/>sius dicit, quod <quote xml:id="Almn78-d45892-Qd1e2585"> uniusquisque divinam
-          <lb ed="#Bb" n="85"/>recipit illuminationem secundum 
-          pro<lb ed="#Bb" break="no" n="86"/>priam. analogiam. </quote>
-               </p>
-               <p xml:id="Almn78-d45892-d1e2593">
-                  <lb ed="#Bb" n="87"/>Eopem modo dicendum ad aliud: per
-        <lb ed="#Bb" n="88"/>hoc enim non probatur, quod libertas a
-        <lb ed="#Bb" n="89"/>coactione inequalis sit in superioribus
-        <lb ed="#Bb" n="90"/>et inferioribus, sed quod in diversa 
-        ana<lb ed="#Bb" break="no" n="91"/>logia se habeant ad bonum divinum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2606">
-                  <lb ed="#Bb" n="92"/>Ad aliud dicendum, quod hoc sine 
-        du<lb ed="#Bb" break="no" n="93"/>bio procedit, et verum est, quod divina
-        <lb ed="#Bb" n="94"/>magis ordinata sunt quam naturalia: sed
-        <lb ed="#Bb" n="95"/>per hoc quod minus resplendet in 
-        infe<lb ed="#Bb" break="no" n="96"/>rioribus libertas, per hoc non ponitur
-        <lb ed="#Bb" n="97"/>coactio in eis: sicut quia magis resplen
-        <pb ed="#Bb" n="218"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" break="no" n="1"/>det in superioribus, nulla ponitur 
-        coa<lb ed="#Bb" break="no" n="2"/>ctio vel ablatio libertatis,secundum quod
-        <lb ed="#Bb" n="3"/>per meliora et nobiliora disponuntur ad
-        <lb ed="#Bb" n="4"/>bonum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2635">
-                  <lb ed="#Bb" n="5"/>Ad aliud dicendum, quod secus est in
-        <lb ed="#Bb" n="6"/>humanis et divinis : subjectio enim 
-        hu<lb ed="#Bb" break="no" n="7"/>mana per modum servitutis est et 
-        neces<lb ed="#Bb" break="no" n="8"/>sitatis, vel ex obligatione voti quod 
-        infe<lb ed="#Bb" break="no" n="9"/>vior fecit superiori, vel ex pacto pretil,
-        <lb ed="#Bb" n="10"/>vel ex conditione servili. Nihil autem 
-        ta<lb ed="#Bb" break="no" n="11"/>lium est in Angelis: et si est ibi prelatio
-        <lb ed="#Bb" n="12"/>et subjectio, ex ordine officiorum 
-        divino<lb ed="#Bb" break="no" n="13"/>rum est, etex ordine actuum 
-        hierarchi<lb ed="#Bb" break="no" n="14"/>corum, qui, sicut Dionysius dicit in libro
-        <lb ed="#Bb" n="15"/>de Celesti hierarchia, tres sunt, scilicet
-        <lb ed="#Bb" n="16"/>illuminare, purgare, et perficere: et in
-        <lb ed="#Bb" n="17"/>talibus superior inferiori nullam infert
-        <lb ed="#Bb" n="18"/>necessilatem, sed potius libertatem : 
-        li<lb ed="#Bb" break="no" n="19"/>berius enim et per meliora disponitur
-        <lb ed="#Bb" n="20"/>purgatus, illuminatus, et perfectus, ut
-        <lb ed="#Bb" n="21"/>libera voluntate exsequatur quod officii
-        <lb ed="#Bb" n="22"/>sui est, quam non purgatus, non 
-        illumi<lb ed="#Bb" break="no" n="23"/>natus, non perfectus: et ideo non est 
-        si<lb ed="#Bb" break="no" n="24"/>mile de humanis et de divinis.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2681">
-                  <lb ed="#Bb" n="25"/>Ad aliud dicendum eodem modo, quod
-        <lb ed="#Bb" n="26"/>jura sunt secundum ordinationes 
-        huma<lb ed="#Bb" break="no" n="27"/>nas: et ideo guod liberum consensum
-        <lb ed="#Bb" n="28"/>inferior non habeat, ex obligatione voti
-        <lb ed="#Bb" n="29"/>vel pacti vel conditionis est, per que
-        <lb ed="#Bb" n="30"/>libertatem suam in manum tradidit 
-        alie<lb ed="#Bb" break="no" n="31"/>nam. In superioribus autem non est nisi
-        <lb ed="#Bb" n="32"/>ex ordine perceptionis illuminationum,
-        <lb ed="#Bb" n="33"/>quas, sicut Dionysius dicit, lex 
-        divinita<lb ed="#Bb" break="no" n="34"/>tis ordinavit per prima media, et per
-        <lb ed="#Bb" n="35"/>media ultima reducere. Inferior autem
-        <lb ed="#Bb" n="36"/>in talibus quanto meliores sive 
-        subli<lb ed="#Bb" break="no" n="37"/>miores percepit illuminationes a 
-        supe<lb ed="#Bb" break="no" n="38"/>riori, tanto liberior et melius 
-        dispo<lb ed="#Bb" break="no" n="39"/>situs efficitur ad omne quod vult, et
-        <lb ed="#Bb" n="40"/>exire debet ad faciendum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2719">
-                  <lb ed="#Bb" n="41"/>Ad aliud dicendum, quod hoc etiam
-        <lb ed="#Bb" n="42"/>non tenet nisi in humanis, in quibus ipse
-        <lb ed="#Bb" n="43"/>gradus subjectionis per necessitatem 
-        tol<lb ed="#Bb" break="no" n="44"/>lit libertatem consensus et voluntatis. In
-        <lb ed="#Bb" n="45"/>ordinibus autem angelicis non sic est: et
-        <lb ed="#Bb" n="46"/>ideo in illis non tenet, ut predictum est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2735">
-                  <lb ed="#Bb" n="47"/>Id quod in contrarium objicitur, 
-        conce<lb ed="#Bb" break="no" n="48"/>dendum est, quia procedit secundum 
-        ve<lb ed="#Bb" break="no" n="49"/>ritatem, ‘
-      </p>
-            </div>
-            <div xml:id="Almn78-d45892-Dd1e2745">
-               <head xml:id="Almn78-d45892-Hd1e2747">Membrum 5</head>
-               <head xml:id="Almn78-d45892-Hd1e2750" type="question-title">
-        A quo causetur ista libertas in Angelo ?
-      </head>
-               <p xml:id="Almn78-d45892-d1e2753">
-                  <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="50"/>MEMBRUM V.
-        <lb ed="#Bb" n="51"/>A quo causetur ista libertas in Angelo ?
-      </p>
-               <p xml:id="Almn78-d45892-d1e2762">
-                  <lb ed="#Bb" n="52"/>Quinto queritur, A quo causetur ista
-        <lb ed="#Bb" n="53"/>libertas in Angelo?
-      </p>
-               <p xml:id="Almn78-d45892-d1e2769">
-                  <lb ed="#Bb" n="54"/>4. Dixerunt enim quidam,quod libertas
-        <lb ed="#Bb" n="55"/>a coactione naturam intellectualem 
-        se<lb ed="#Bb" break="no" n="56"/>quitur secundum se, et a nullo causatur
-        <lb ed="#Bb" n="57"/>quod sit in ipsa. Sed si hoc est verum:
-        <lb ed="#Bb" n="58"/>tune aut sequitur naturam, in quantum
-        <lb ed="#Bb" n="59"/>natura et substantia quedam est: aut
-        <lb ed="#Bb" n="60"/>sequitur eam, in quantum intellectualis
-        <lb ed="#Bb" n="61"/>est. Si primo modo, vel secundo dica~
-        <lb ed="#Bb" n="62"/>tur, tune circumscripta voluntate ab 
-        in<lb ed="#Bb" break="no" n="63"/>tellectuali natura, adhuc esset in ea talis
-        <lb ed="#Bb" n="64"/>libertas: et hoc falsum est, liber‘as enim
-        <lb ed="#Bb" n="65"/>faciendi quod vult sine voluntate esse
-        <lb ed="#Bb" n="66"/>non potest.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2801">
-                  <lb ed="#Bb" n="67"/>2. Adhuc, <name xml:id="Almn78-d45892-Nd1e2805">Beatus Bernardus</name> in 
-        aucto<lb ed="#Bb" break="no" n="68"/>ritate prius inducta dicit, quod libertas
-        <lb ed="#Bb" n="69"/>a coactione equaliter in Deo est, et in
-        <lb ed="#Bb" n="70"/>Angelis, et in hominibus bonis et malis,
-        <lb ed="#Bb" n="71"/>et in demonibus : in nullo enim eorum
-        <lb ed="#Bb" n="72"/>est aliquid cogens voluntatem, quod 
-        ne<lb ed="#Bb" break="no" n="73"/>cessitatem imponat, quin libere faciat
-        <lb ed="#Bb" n="74"/>quod vult, et eligat quod vult, et velit
-        <lb ed="#Bb" n="75"/>quod vult. Videtur ergo, quod non 
-        se<lb ed="#Bb" break="no" n="76"/>quitur naturam intellectualem, nec in
-        <lb ed="#Bb" n="77"/>quantum natura est, nec in quantum 
-        in<lb ed="#Bb" break="no" n="78"/>tellectualis est : natura enim et 
-        intelle<lb ed="#Bb" break="no" n="79"/>ctualitas in Deo, in Angelo bono, in 
-        de<lb ed="#Bb" break="no" n="80"/>mone, in homine bono, et in homine
-        <lb ed="#Bb" n="81"/>malo inequalis est valde: et tamen 
-        li<lb ed="#Bb" break="no" n="82"/>bertas a coactione in his omnibus est
-        <lb ed="#Bb" n="83"/>equalis: quod esse non posset, si 
-        liber<lb ed="#Bb" break="no" n="84"/>tas a coactione sequeretur naturam in
-        <lb ed="#Bb" n="85"/>quantum natura est, vel naturam 
-        intelle<lb ed="#Bb" break="no" n="86"/>ctualem in quantum intellectualis est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2850">
-                  <lb ed="#Bb" n="87"/>3. Adhuc, Posse facere quod vult, in
-        <lb ed="#Bb" n="88"/>Deo est per omnimodam sufficientiam,
-        <lb ed="#Bb" n="89"/>qui et in se et in omnibus creaturis sibi
-        <lb ed="#Bb" n="90"/>subjectis semper potest sine impedimento
-        <lb ed="#Bb" n="91"/>facere quod vult. In Angelo autem non
-        <pb ed="#Bb" n="219"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>est per talem sufficientiam : natura enim
-        <lb ed="#Bb" n="2"/>creaturarum, ut dicit Augustinus in lib.
-        <lb ed="#Bb" n="3"/>super Genesim ad lilteram, non 
-        subjici<lb ed="#Bb" break="no" n="4"/>tur Angelis bonis vel malis vel 
-        homini<lb ed="#Bb" break="no" n="5"/>bus ad faciendum in ea vel ex ea quod
-        <lb ed="#Bb" n="6"/>volunt. Ergo libertas faciendi in ea quod
-        <lb ed="#Bb" n="7"/>volunt, inequaliter est in Deo et in 
-        An<lb ed="#Bb" break="no" n="8"/>gelo et in hominibus bonis vel malis, et
-        <lb ed="#Bb" n="9"/>in demonibus, sed libertas a coactione
-        <lb ed="#Bb" n="10"/>in omnibus his est equalis: ergo libertas
-        <lb ed="#Bb" n="11"/>a coactione nec sequitur naturam 
-        intelle<lb ed="#Bb" break="no" n="12"/>ctualem in quantum natura est, nec 
-        se<lb ed="#Bb" break="no" n="13"/>quitur eam in quantum intellectualis est,
-        <lb ed="#Bb" n="14"/>nec sequitur eam in quantum habet 
-        vo<lb ed="#Bb" break="no" n="15"/>luntatem.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2900">
-                  <lb ed="#Bb" n="16"/>Ulterius, quia libertas dicitur esse in
-        <lb ed="#Bb" n="17"/>hoe, quod potest in bonum vel malum se
-        <lb ed="#Bb" n="18"/>flectere per electionem, queritur, Utrum
-        <lb ed="#Bb" n="19"/>ista duo, posse in bonum et posse in 
-        ma<lb ed="#Bb" break="no" n="20"/>lum, sint ab eodem principio ?
-      </p>
-               <p xml:id="Almn78-d45892-d1e2913">
-                  <lb ed="#Bb" n="21"/>Et videtur, quod non: quia posse se
-        <lb ed="#Bb" n="22"/>converlere in bonum, non potest esse
-        <lb ed="#Bb" n="23"/>nisi a Deo sine quo nulla creatura potest
-        <lb ed="#Bb" n="24"/>aliquid bonum vel velle vel facere. Joan.
-        <lb ed="#Bb" n="25"/>xv, 15: Sine me nihil potestis facere.
-        <lb ed="#Bb" n="26"/>Ad Philip, n, 13: Deus operatur in 
-        vo<lb ed="#Bb" break="no" n="27"/>bis et velle et perficere, pro bona 
-        volun<lb ed="#Bb" break="no" n="28"/>tate. Posse autem declinare non potest
-        <lb ed="#Bb" n="29"/>esse a Deo : quia concorditer dicunt 
-        Au<lb ed="#Bb" break="no" n="30"/>gustinus, et Dionysius, et alii sancti
-        <lb ed="#Bb" n="31"/>Doctores, quod Deus non potest esse
-        <lb ed="#Bb" n="32"/>causa mali: Deus enim non potest 
-        ejus<lb ed="#Bb" break="no" n="33"/>dem rei esse auctor, cujus est ultor : est
-        <lb ed="#Bb" n="34"/>autem ultor mali: ergo non est causa
-        <lb ed="#Bb" n="35"/>ejusdem.
-      </p>
-               <p xml:id="Almn78-d45892-d1e2948">
-                  <lb ed="#Bb" n="36"/>Si dicatur, quod causa hujus, scilicet
-        <lb ed="#Bb" n="37"/>quod potest declinare in malum Angelus
-        <lb ed="#Bb" n="38"/>ct homo, est quia est ex nihilo uterque
-        <lb ed="#Bb" n="39"/>eorum: ab illo enim, ut dicit 
-        Damasce<lb ed="#Bb" break="no" n="40"/>nus, est verlibilitas ef im natura et in
-        <lb ed="#Bb" n="41"/>electione. Conrra: Nihil nihil ponit: et
-        <lb ed="#Bb" n="42"/>quod nihil est nec causa, nec causatum
-        <lb ed="#Bb" n="43"/>potest esse entis. Ergo cum talis potentia
-        <lb ed="#Bb" n="44"/>inclinandi in malum et eligendi malum,
-        <lb ed="#Bb" n="45"/>sit aliqua potentia, et aliquid entitatis
-        <lb ed="#Bb" n="46"/>habeat, ex pure nihilo causari non 
-        pot<lb ed="#Bb" break="no" n="47"/>est,
-      </p>
-               <p xml:id="Almn78-d45892-d1e2977">
-                  <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="48"/>Soxvurio. Ad primum quesitum 
-        dicen<lb ed="#Bb" break="no" n="49"/>dum, quod in natura intellectuali 
-        po<lb ed="#Bb" break="no" n="50"/>testas faciendi quod vult, sequitur ex eo,
-        <lb ed="#Bb" n="51"/>quod facit eam per id quod ipsa est, 
-        suf<lb ed="#Bb" break="no" n="52"/>ficiens principium esse suorum actuum
-        <lb ed="#Bb" n="53"/>et suarum electionum. Et hoc est 
-        secun<lb ed="#Bb" break="no" n="54"/>dum VDamascenum et Gregorium 
-        Nysse<lb ed="#Bb" break="no" n="55"/>num, quod facit esse voluntarium 
-        princi<lb ed="#Bb" break="no" n="56"/>pium actionum et electionum, secundum
-        <lb ed="#Bb" n="57"/>quod definitur voluntarium quod 
-        oppo<lb ed="#Bb" break="no" n="58"/>nitur involuntario tam per violentiam
-        <lb ed="#Bb" n="59"/>quam per ignorantiam, cujus principium
-        <lb ed="#Bb" n="60"/>est in ipso consciente singularia, hoc est,
-        <lb ed="#Bb" n="61"/>singulares circumsiantias, in quibus est
-        <lb ed="#Bb" n="62"/>actus sive electio. Hujus autem tamquam
-        <lb ed="#Bb" n="63"/>proxima causa est elevatio intellectualis
-        <lb ed="#Bb" n="64"/>nature super materiam corporalem et
-        <lb ed="#Bb" n="65"/>naturam, ita quod nullius materi est
-        <lb ed="#Bb" n="66"/>actus. Omne enim quod est actus 
-        natu<lb ed="#Bb" break="no" n="67"/>ralis materie et nature, obligatur ad hoc
-        <lb ed="#Bb" n="68"/>vel illud faciendum, ct non aliud, et per
-        <lb ed="#Bb" n="69"/>consequens privatur liberlate faciendi
-        <lb ed="#Bb" n="70"/>quod vult vel eligendi. Causa autem 
-        pri<lb ed="#Bb" break="no" n="71"/>ma est Deus sic disponens et ordinans et
-        <lb ed="#Bb" n="72"/>faciens naturam intellectualem. Unde
-        <lb ed="#Bb" n="73"/>concedimus, quod non sequitur naturam
-        <lb ed="#Bb" n="74"/>in quantum natura est, nee in quantum
-        <lb ed="#Bb" n="75"/>intellectualis est: sed sequitur eam in
-        <lb ed="#Bb" n="76"/>quantum est principium voluntarium,
-        <lb ed="#Bb" n="77"/>sic super materiam et naturam per 
-        volun<lb ed="#Bb" break="no" n="78"/>tarium elevata.
-      </p>
-               <p xml:id="Almn78-d45892-d1e3050">
-                  <lb ed="#Bb" n="79"/>Et per hoc patet solutio ad primum.
-      </p>
-               <p xml:id="Almn78-d45892-d1e3055">
-                  <lb ed="#Bb" n="80"/>Ad aliud dicendum, quod sicut dictum
-        <lb ed="#Bb" n="81"/>est, libertas a coactione fundatur in pura
-        <lb ed="#Bb" n="82"/>et omnimoda privatione cogentis et 
-        neces<lb ed="#Bb" break="no" n="83"/>sitatem imponcntis : et quia intelligi non
-        <lb ed="#Bb" n="84"/>potest, qualiter hee major sit in una 
-        in<lb ed="#Bb" break="no" n="85"/>tellectuali natura quam in alia, ideo dicit
-        <lb ed="#Bb" n="86"/>Bernardus, quod equalis est in omnibus.
-      </p>
-               <p xml:id="Almn78-d45892-d1e3073">
-                  <lb ed="#Bb" n="87"/>Ad aliud dicendum, quod per hoc non
-        <lb ed="#Bb" n="88"/>probatur, nisi quod libertas faciendi quod
-        <lb ed="#Bb" n="89"/>vult, per prius et posterius est in Deo,
-        <lb ed="#Bb" n="90"/>et in Angelis, ct in homine : sed ex hoc
-        <lb ed="#Bb" n="91"/>non sequitur, quin libertas a coactione
-        <lb ed="#Bb" n="92"/>sit equalis propter causam que dicta est.
-      </p>
-               <p xml:id="Almn78-d45892-d1e3089">
-                  <lb ed="#Bb" n="93"/>Ab srcunpo quesitum, dicendum quod
-        <lb ed="#Bb" n="94"/>sicut probatum est, quod liberum 
-        arbi<lb ed="#Bb" break="no" n="95"/>trium possit converti in bonum et velle
-        <pb ed="#Bb" n="220"/>
-                  <cb ed="#Bb" n="a"/>
-                  <lb ed="#Bb" n="1"/>illud, pro certo non habet causam, nisi
-        <lb ed="#Bb" n="2"/>summum bonum, quod est Deus: sed
-        <lb ed="#Bb" n="3"/>quod potest converti in malum, ut dicit
-        <lb ed="#Bb" n="4"/>Augustinus, non habet causam 
-        efficien<lb ed="#Bb" break="no" n="5"/>tem, sed deficientem, hoc est, bonum
-        <lb ed="#Bb" n="6"/>creatuim deficiens ab immutabili bono,
-        <lb ed="#Bb" n="7"/>quod vertibilitatem quidem habet in
-        <cb ed="#Bb" n="b"/>
-                  <lb ed="#Bb" n="8"/>quantum est ex nihilo, sed actum incli-'
-        <lb ed="#Bb" n="9"/>nationis in malum habet in quantum est
-        <lb ed="#Bb" n="10"/>aversum et deficiens a summo bono: sic
-        <lb ed="#Bb" n="11"/>enim ens est, et bonum deficiens: et sic
-        <lb ed="#Bb" n="12"/>est causa actus deficientis, qui est 
-        pecca<lb ed="#Bb" break="no" n="13"/>tum, et actus sub deformitate peccati
-        <lb ed="#Bb" n="14"/>existens.
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+          <lb ed="#Bb" n="47"/>QUAESTIO XVI.
+          <lb ed="#Bb" n="48"/>De quarto attributo, quod est libertas arbitrii.
+        </p>
+        <p xml:id="Almn78-d45892-d1e121">
+          <lb ed="#Bb" n="49"/>Sequitur de quarto attributo, quod
+          <lb ed="#Bb" n="50"/>est libertas arbitrii.
+        </p>
+        <p xml:id="Almn78-d45892-d1e128">
+          <lb ed="#Bb" n="51"/>De quo quinque queruntur, scilicet
+          <lb ed="#Bb" n="52"/>an convenit Angelo libertas arbitrii ?
+          <lb ed="#Bb" n="53"/>Secundo, Secundum quam rationem
+          <lb ed="#Bb" n="54"/>libertas conveniat ei?
+          <lb ed="#Bb" n="55"/>Tertio, Utrum plus conveniat Angelo,
+          <lb ed="#Bb" n="56"/>vel homini, vel eque ?
+          <lb ed="#Bb" n="57"/>Quarto, Utrum equaliter conveniat 
+          om<lb ed="#Bb" break="no" n="58"/>ni Angelo, vel secundum plus et minus?
+          <cb ed="#Bb" n="b"/>
+          <lb ed="#Bb" n="59"/>Quinto, A quo causetur ista libertas
+          <lb ed="#Bb" n="60"/>in Angelo?
+        </p>
+        <div xml:id="Almn78-d45892-Dd1e155">
+          <head xml:id="Almn78-d45892-Hd1e157">Membrum 1</head>
+          <head xml:id="Almn78-d45892-Hd1e160" type="question-title">
+            An Angelo conveniat libertas arbitrii?
+          </head>
+          <p xml:id="Almn78-d45892-d1e163">
+            <lb ed="#Bb" n="61"/>MEMBRUM I.
+            <lb ed="#Bb" n="62"/>An Angelo conveniat libertas arbitrii?
+          </p>
+          <p xml:id="Almn78-d45892-d1e170">
+            <lb ed="#Bb" n="63"/>Primo ergo queritur, An Angelo 
+            con<lb ed="#Bb" break="no" n="64"/>veniat libertas arbitrii ?
+          </p>
+          <p xml:id="Almn78-d45892-d1e177">
+            <pb ed="#Bb" n="208"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>Et videtur, quod sic.
+            <lb ed="#Bb" n="2"/>1. Dicit enim Magister in libro II ‘
+            Sen<lb ed="#Bb" break="no" n="3"/>tentiarum, distinct. V cap. 2, ex verbis
+            <lb ed="#Bb" n="4"/>Augustini, quod <quote xml:id="Almn78-d45892-Qd1e192"> liberam arbitriam
+              <lb ed="#Bb" n="5"/>inest Angelis, hoc est, libera inclinande
+              <lb ed="#Bb" n="6"/>voluntatis sive ad bonum, sive ad 
+              ma<lb ed="#Bb" break="no" n="7"/>lum facultas. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e203">
+            <lb ed="#Bb" n="8"/>2. Adhuc, Augustinus in libro primo
+            <lb ed="#Bb" n="9"/>de Libero arbitrio: <quote xml:id="Almn78-d45892-Qd1e209"> Liberum arbitrium
+              <lb ed="#Bb" n="10"/>inest Deo, Angelo, et homini. </quote>~
+          </p>
+          <p xml:id="Almn78-d45892-d1e215">
+            <lb ed="#Bb" n="11"/>3. Adhuc, Remigius: <quote xml:id="Almn78-d45892-Qd1e219"> Omnis 
+              crea<lb ed="#Bb" break="no" n="12"/>tura rationalis arbitrio libera est: </quote> sed
+            <lb ed="#Bb" n="13"/>Angelus est creatura rationalis : ergo 
+            ar<lb ed="#Bb" break="no" n="14"/>bitrio liber.
+          </p>
+          <p xml:id="Almn78-d45892-d1e229">
+            <lb ed="#Bb" n="15"/>4, Adhuc, Augustinus in libro de Fide
+            <lb ed="#Bb" n="16"/>ad Petrum : <quote xml:id="Almn78-d45892-Qd1e235"> Ut dilectio haberetjustam et
+              <lb ed="#Bb" n="17"/>congruam laudem, voluntatis tribuit 
+              An<lb ed="#Bb" break="no" n="18"/>gelis libertatem Deus, ut esset in eis
+              <lb ed="#Bb" n="19"/>possibile sive ad eum qui est supra 
+              in<lb ed="#Bb" break="no" n="20"/>tentionem sancte dilectionis erigere,
+              <lb ed="#Bb" n="21"/>sive ad se, vel ad eos qui infra eum sunt
+              <lb ed="#Bb" n="22"/>prave cupiditatis pondere semetipsos
+              <lb ed="#Bb" n="23"/>declinare. </quote> Ergo Angeli habent liberam
+            <lb ed="#Bb" n="24"/>facultatem sive ad bonum, sive ad 
+            ma<lb ed="#Bb" break="no" n="25"/>lum : ergo habent liberum arbitrium.
+          </p>
+          <p xml:id="Almn78-d45892-d1e258">
+            <lb ed="#Bb" n="26"/>5. Adhuc, Augustinus in lib. de 
+            Cor<lb ed="#Bb" break="no" n="27"/>rectione et gratia: <quote xml:id="Almn78-d45892-Qd1e264"> Scivit Deus magis
+              <lb ed="#Bb" n="28"/>ad suam omnipctentissimam bonitatem
+              <lb ed="#Bb" n="29"/>pertinere et de malis benefacere, quam
+              <lb ed="#Bb" n="30"/>mala esse non sinere: et sic ordinavit
+              <lb ed="#Bb" n="31"/>Angelorum et hominum vitam, ut in ea
+              <lb ed="#Bb" n="32"/>prius ostenderet quid posset liberum
+              <lb ed="#Bb" n="33"/>arbitrium, et deinde quid posset gratie
+              <lb ed="#Bb" n="34"/>beneficium. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e283">
+            <lb ed="#Bb" n="35"/>6. Adhuc, Damascenus deseribens
+            <lb ed="#Bb" n="36"/>Angelum, dicit : <quote xml:id="Almn78-d45892-Qd1e289"> Angelus est natura
+              <lb ed="#Bb" n="37"/>intellectualis, arbitrio libera, vertibilis
+              <lb ed="#Bb" n="38"/>secundum voluntatem, </quote> Omne enim
+            <lb ed="#Bb" n="39"/>creabile esi vertibile, et omne rationale
+            <lb ed="#Bb" n="40"/>arbitrio liberum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e301">
+            <lb ed="#Bb" n="41"/>7. Adhuc, Per rationem probatur
+            <lb ed="#Bb" n="42"/>idem : Nullum enim opus est laudabile
+            <lb ed="#Bb" n="43"/>vel vituperabile, nisi quod in libertate
+            <lb ed="#Bb" n="44"/>arbitrii est : quod probatur ex hoc quod
+            <lb ed="#Bb" n="45"/>dicit Philosophus, quod naturalia que
+            <lb ed="#Bb" n="46"/>ex necessitate procedunt, sicut comburit
+            <lb ed="#Bb" n="47"/>ignis, nec laudabilia noc vituperabilia
+            <lb ed="#Bb" n="48"/>sunt. Similiter violenta, quorum 
+            princi<lb ed="#Bb" break="no" n="49"/>pium est in alio, nihil conferente vim
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>passo, nec laudantur, nec vituperantur,
+            <lb ed="#Bb" n="51"/>nec in civilibus rata habentur. Unde in
+            <lb ed="#Bb" n="52"/>Digesto veteri, lib. IV, dicitur : <quote xml:id="Almn78-d45892-Qd1e331"> Quod
+              <lb ed="#Bb" n="53"/>vi metusve causa fit, ratum non habeo,
+              <lb ed="#Bb" n="54"/>dicit Prator. </quote> Similiter operationes’
+            <lb ed="#Bb" n="55"/>brutorum, que (sicul dicunt 
+            Damasce<lb ed="#Bb" break="no" n="56"/>nus et Gregorius Nyssenus) magis 
+            agun<lb ed="#Bb" break="no" n="57"/>tur a natura quam agant, quia 
+            liber<lb ed="#Bb" break="no" n="58"/>tatem arbitrii non habent, nec laudantur
+            <lb ed="#Bb" n="59"/>nec vituperantur. Angelorum 
+            opera<lb ed="#Bb" break="no" n="60"/>tiones laudantur, vel viluperantur. Ergo
+            <lb ed="#Bb" n="61"/>procedunt ex liberlate arbitrii: ergo
+            <lb ed="#Bb" n="62"/>libertas arbitrii inest Angelis.
+          </p>
+          <p xml:id="Almn78-d45892-d1e357">
+            <lb ed="#Bb" n="63"/>8. Adhuc, Augustinus in libro de
+            <lb ed="#Bb" n="64"/>Libero arbitrio dicit, quod <quote xml:id="Almn78-d45892-Qd1e363"> omne 
+              me<lb ed="#Bb" break="no" n="65"/>ritum vel demerilum in libertate 
+              consi<lb ed="#Bb" break="no" n="66"/>stit arbitrii : </quote> in Angelis est meritum et
+            <lb ed="#Bb" n="67"/>demeritum : ergo hoc consistit in 
+            liberta<lb ed="#Bb" break="no" n="68"/>te arbitrii: ergo Angelis inest libertas
+            <lb ed="#Bb" n="69"/>arbitrii.
+          </p>
+          <p xml:id="Almn78-d45892-d1e378">
+            <lb ed="#Bb" n="70"/>In conTRARIUM est,
+            <lb ed="#Bb" n="71"/>4. Quod dicit Augustinus in hbro 
+            pri<lb ed="#Bb" break="no" n="72"/>mo de Libero arbitrio, quod <quote xml:id="Almn78-d45892-Qd1e386"> liberum
+              <lb ed="#Bb" n="73"/>arbitrium est facultas rationis et 
+              volun<lb ed="#Bb" break="no" n="74"/>tatis, qua bonum eligitur gratia 
+              assi<lb ed="#Bb" break="no" n="75"/>stente, et malum eam deserente. </quote> In
+            <lb ed="#Bb" n="76"/>Angelo autem malo non est facultas
+            <lb ed="#Bb" n="77"/>eligendi bonum, gratia assistente, quia
+            <lb ed="#Bb" n="78"/>non est susceptibilis gratiz. In Angelo
+            <lb ed="#Bb" n="79"/>bono non est facultas eligendi malum,
+            <lb ed="#Bb" n="80"/>gratia deserente, quia confirmatus est
+            <lb ed="#Bb" n="81"/>in gratia. Ergo in neutro est facultas
+            <lb ed="#Bb" n="82"/>liberi arbitrii.
+          </p>
+          <p xml:id="Almn78-d45892-d1e411">
+            <lb ed="#Bb" n="83"/>2. Adhuc, Si libertas arbitrii inest
+            <lb ed="#Bb" n="84"/>Angelis sicut attributum natura, sicut
+            <lb ed="#Bb" n="85"/>essentia simplicitas, et intelligentie
+            <lb ed="#Bb" n="86"/>perspicacitas : cum id quod naturale
+            <lb ed="#Bb" n="87"/>est, numquam deserat naturam, tune&gt;
+            <lb ed="#Bb" n="88"/>facultas arbitrii que est libera voluntas
+            <lb ed="#Bb" n="89"/>declinandi in bonum vel in malum,
+            <lb ed="#Bb" n="90"/>numquam deseret naturam angelicam :
+            <lb ed="#Bb" n="91"/>et hoc falsum est : bonus enim Angelus
+            <lb ed="#Bb" n="92"/>post confirmationem non potest decli-~
+            <lb ed="#Bb" n="93"/>nare slatum in malum, nec malus in
+            <lb ed="#Bb" n="94"/>bonum post statum confirmationis in
+            <lb ed="#Bb" n="95"/>malo. Et hoc probatur per Prosperum
+            <lb ed="#Bb" n="96"/>in libro de Contemplativa vita, sic 
+            di<lb ed="#Bb" break="no" n="97"/>centem: <quote xml:id="Almn78-d45892-Qd1e445"> Divina sententia eo judicio
+              <lb ed="#Bb" n="98"/>condemnayit malos Angelos, ut quia’
+              <pb ed="#Bb" n="209"/>
+              <cb ed="#Bb" n="a"/>
+              <lb ed="#Bb" n="1"/>noluerunt perseverare cum possent, nec
+              <lb ed="#Bb" n="2"/>velint reparari, nec possint. Si quidem
+              <lb ed="#Bb" n="3"/>voluntatis eoram fuit quod irrevocabilis
+              <lb ed="#Bb" n="4"/>judicii animadvers‘one percussi sunt :
+              <lb ed="#Bb" n="5"/>et al damnationem justissimam 
+              pro<lb ed="#Bb" break="no" n="6"/>fecto pertinuit, quod voluntatem 
+              red<lb ed="#Bb" break="no" n="7"/>eundi ac facultatem penitus amiserunt :
+              <lb ed="#Bb" n="8"/>sicut e contrario voluntatis sanctorum
+              <lb ed="#Bb" n="9"/>Angelorum fuit, quod malis sponte
+              <lb ed="#Bb" n="10"/>cadentibus, ipsi in sua dignilate 
+              manse<lb ed="#Bb" break="no" n="11"/>runt: et divino justoque judicio factum
+              <lb ed="#Bb" n="12"/>est, ut que fuit eis cum Deo suo 
+              ma<lb ed="#Bb" break="no" n="13"/>nendi voluntas, fieret permanendi 
+              vo<lb ed="#Bb" break="no" n="14"/>juntaria felixque necessilas. </quote> Ergo
+            <lb ed="#Bb" n="15"/>videtur, quod libera inclinande 
+            volun<lb ed="#Bb" break="no" n="16"/>tatis sive ad bonum sive ad malum
+            <lb ed="#Bb" n="17"/>facultas, nec bonis nec malis Angelis
+            <lb ed="#Bb" n="18"/>insit : ergo numquam fuit attributum
+            <lb ed="#Bb" n="19"/>na'ure: quia si nature fuisset 
+            attribu<lb ed="#Bb" break="no" n="20"/>tum, naturam non deseruissct in aliquo
+            <lb ed="#Bb" n="21"/>statu.
+          </p>
+          <p xml:id="Almn78-d45892-d1e500">
+            <lb ed="#Bb" n="22"/>3. Adhuc, Dionysius in libro de 
+            Divi<lb ed="#Bb" break="no" n="23"/>nis nominibus, de demonibus dicit sic :
+            <quote xml:id="Almn78-d45892-Qd1e506">Data illis naturalia dona nequaquam
+              <lb ed="#Bb" n="24"/>ea mutata esse dicimus, sed sunt integra
+              <lb ed="#Bb" n="25"/>et splendidissima, quamvis ipsi non
+              <lb ed="#Bb" n="26"/>videant, claudentes ipsorum boni 
+              inspe<lb ed="#Bb" break="no" n="27"/>ctivas virtutes ‘.</quote> Si ergo libertas arbitrit
+            <lb ed="#Bb" n="28"/>donum est nature angelice, nequaquam
+            <lb ed="#Bb" n="29"/>mutatum est in malo Angelo : sed est
+            <lb ed="#Bb" n="30"/>mutatum, quia non potest inclinare
+            <lb ed="#Bb" n="31"/>voluntatem ad bonum, ut dicit Prosper :
+            <lb ed="#Bb" n="32"/>ergo a destructione consequentis, 
+            num<lb ed="#Bb" break="no" n="33"/>quam fuit donum naturale : ergo non
+            <lb ed="#Bb" n="34"/>fuit unum de attributis nature angelice
+            <lb ed="#Bb" n="35"/>cum ipsa creatione dalis.
+          </p>
+          <p xml:id="Almn78-d45892-d1e535">
+            <lb ed="#Bb" n="36"/>4, Adhuc, Non posse peccare convenit
+            <lb ed="#Bb" n="37"/>nature, et est communicabile creature,
+            <lb ed="#Bb" n="38"/>ut patet in verbis Prosperi, quod 
+            com<lb ed="#Bb" break="no" n="39"/>municatum est bonis Angelis : sed non
+            <lb ed="#Bb" n="40"/>posse peccare converlitur cum mnecesse
+            <lb ed="#Bb" n="41"/>non peccare, ut docet Aristoteles in
+            <lb ed="#Bb" n="42"/>libro Perihermenias: necesse non 
+            pec<lb ed="#Bb" break="no" n="43"/>care non stat cum libero arbitrio, hoc
+            <lb ed="#Bb" n="44"/>est, cum libera inclinande voluntatis
+            <lb ed="#Bb" n="45"/>faculiate ad quod voluerit, sive ad 
+            bo<lb ed="#Bb" break="no" n="46"/>num, sive ad malum : ergo videtur,
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="47"/>quod libertas arbitrii non attribuatur
+            <lb ed="#Bb" n="48"/>bonis Angelis.
+          </p>
+          <p xml:id="Almn78-d45892-d1e568">
+            <lb ed="#Bb" n="49"/>Solutio. Dicendum, quod absque
+            <lb ed="#Bb" n="50"/>dubio liberum arbitrium est in Angelis,
+            <lb ed="#Bb" n="51"/>hoc est, libera inclinande voluntatis
+            <lb ed="#Bb" n="52"/>ad quod voluerint facultas. Sicut enim
+            <lb ed="#Bb" n="53"/>dicit Aristoteles in primo prime 
+            philo<lb ed="#Bb" break="no" n="54"/>sophie, liberum dicimus hominem, qui
+            <lb ed="#Bb" n="55"/>causa sui est, et quem aliena potestas
+            <lb ed="#Bb" n="56"/>ad nihil cogere potest. Ita dicimus 
+            libe<lb ed="#Bb" break="no" n="57"/>rum arbitrium, quod in arbitrando judex
+            <lb ed="#Bb" n="58"/>sui est, et in volendo penitus liberum
+            <lb ed="#Bb" n="59"/>esL : et ita est in dominio suorum
+            <lb ed="#Bb" n="60"/>actuum, quod nulla aliena potestate
+            <lb ed="#Bb" n="61"/>cogilur ad volendum quod vult. Et hoc
+            <lb ed="#Bb" n="62"/>est in omui rationali et intellectuali
+            <lb ed="#Bb" n="63"/>natura, quae causa suorum actuum est
+            {am interiorum, quam exteriorum. Et
+            <lb ed="#Bb" n="64"/>hanc naturam_vocat Philosophus 
+            domi<lb ed="#Bb" break="no" n="65"/>nam suorum actuum, et faculiatem 
+            con<lb ed="#Bb" break="no" n="66"/>vertendi se ad quidquid voluerit libere.
+          </p>
+          <p xml:id="Almn78-d45892-d1e611">
+            <lb ed="#Bb" n="67"/>Unde auctoritates et rationes que 
+            in<lb ed="#Bb" break="no" n="68"/>ducte sunt ad hoe, procedunt.
+          </p>
+          <p xml:id="Almn78-d45892-d1e618">
+            <lb ed="#Bb" n="69"/>Ad tp quod objicitur in contrarium,
+            <lb ed="#Bb" n="70"/>dicendum, quod est facultas ex ralione
+            <lb ed="#Bb" n="71"/>et natura rationali, et est facultas ex 
+            dis<lb ed="#Bb" break="no" n="72"/>positione ct habitu. Prima facultas que
+            <lb ed="#Bb" n="73"/>est ex natura rationali eligendi bonum
+            <lb ed="#Bb" n="74"/>gratia assistente, et malum ea deserente,
+            <lb ed="#Bb" n="75"/>est tam in bono quam in malo Angelo
+            <lb ed="#Bb" n="76"/>per naturam. Secunda fucultas que est
+            <lb ed="#Bb" n="77"/>ex habitu confirmato in neutro est, quia
+            <lb ed="#Bb" n="78"/>Angelus bonus confirmato habitu gratiz
+            <lb ed="#Bb" n="79"/>felicem necessitalem incurrit, qua non
+            <lb ed="#Bb" n="80"/>potest velle malum : Angelus malus
+            <lb ed="#Bb" n="81"/>propter pertinaciam in malo, infelicem
+            <lb ed="#Bb" n="82"/>necessilatem incurrit, qua non potest
+            <lb ed="#Bb" n="83"/>velle bonum. Et hee non sunt 
+            con<lb ed="#Bb" break="no" n="84"/>traria, ex natura posse eligere bonum
+            <lb ed="#Bb" n="85"/>et malum, et ex habitu confirmato non
+            <lb ed="#Bb" n="86"/>posse cligere nisi bonum, et ex 
+            perli<lb ed="#Bb" break="no" n="87"/>nacia damnata non posse eligere nisi
+            <lb ed="#Bb" n="88"/>malum ; et in eodem simul esse 
+            pos<lb ed="#Bb" break="no" n="89"/>sunt.
+          </p>
+          <p xml:id="Almn78-d45892-d1e666">
+            <lb ed="#Bb" n="90"/>Ad aliud dicendum, quod pront 
+            li<lb ed="#Bb" break="no" n="91"/>bertas est arbitrium nature, non dese
+            <pb ed="#Bb" n="210"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" break="no" n="1"/>ruit naturam, nec natura ipsum degerit :
+            <lb ed="#Bb" n="2"/>natura enim intellectualis ex ipsa 
+            liber<lb ed="#Bb" break="no" n="3"/>tate qua causa sui est, semper domina
+            <lb ed="#Bb" n="4"/>est suorum actuum, et liberam habet
+            <lb ed="#Bb" n="5"/>facultatem incl.nandi se ad quod 
+            vo<lb ed="#Bb" break="no" n="6"/>luerit ex natura: sed quod bonus non
+            <lb ed="#Bb" n="7"/>eligit nisi bonum, et malus non nisi
+            <lb ed="#Bb" n="8"/>malum, non est ex natura, sed ex 
+            ha<lb ed="#Bb" break="no" n="9"/>bitu confirmato, ut dictum est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e697">
+            <lb ed="#Bb" n="10"/>Ad aliud dicendum, quod verba 
+            Dio<lb ed="#Bb" break="no" n="11"/>nysii vera sunt: libertas enim 
+            secun<lb ed="#Bb" break="no" n="12"/>dum quod est donum nature, non est
+            <lb ed="#Bb" n="13"/>mutata, sed integra, et splendida. 
+            De<lb ed="#Bb" break="no" n="14"/>mon enim libere facit quod vult, sed
+            <lb ed="#Bb" n="15"/>quod numquam bonum vult, nec potest
+            <lb ed="#Bb" n="16"/>velle, non ex natura, sed habituali 
+            per<lb ed="#Bb" break="no" n="17"/>finacia quam justa damnatione 
+            incur<lb ed="#Bb" break="no" n="18"/>rit.
+          </p>
+          <p xml:id="Almn78-d45892-d1e719">
+            <lb ed="#Bb" n="19"/>Av uxtimum dicendum, quod necesse
+            <lb ed="#Bb" n="20"/>non peccare ex habitu gratie 
+            confir<lb ed="#Bb" break="no" n="21"/>mato in bono, bene stat cum posse 
+            pec<lb ed="#Bb" break="no" n="22"/>care ex naturali arbitrii libertate : sic
+            <lb ed="#Bb" n="23"/>enim ad non posse peccare, non 
+            sequi<lb ed="#Bb" break="no" n="24"/>{ur necesse non peccare, nec hoc est
+            <lb ed="#Bb" n="25"/>contra doctrinam Aristotelis : sed 
+            quan<lb ed="#Bb" break="no" n="26"/>do non posse peccare, et necesse non
+            <lb ed="#Bb" n="27"/>pcceare referuntur ad idem, unc unum
+            <lb ed="#Bb" n="28"/>sequitur ad alterum.
+          </p>
+        </div>
+        <div xml:id="Almn78-d45892-Dd1e744">
+          <head xml:id="Almn78-d45892-Hd1e746">Membrum 2</head>
+          <head xml:id="Almn78-d45892-Hd1e749" type="question-title">
+            Secundum quam rationem libertatis 
+            conveniat Angelo libertas arbitrii 
+          </head>
+          <p xml:id="Almn78-d45892-d1e752">
+            <lb ed="#Bb" n="29"/>MEMBRUM II.
+          </p>
+          <p xml:id="Almn78-d45892-d1e757">
+            <lb ed="#Bb" n="30"/>Secundum quam rationem libertatis 
+            con<lb ed="#Bb" break="no" n="31"/>veniat Angelo libertas arbitrii ?
+          </p>
+          <p xml:id="Almn78-d45892-d1e764">
+            <lb ed="#Bb" n="32"/>Secundo queritur, Secundum quam
+            <lb ed="#Bb" n="33"/>ralionem Jlibertalis conveniat Angelo
+            <lb ed="#Bb" n="34"/>libertas arbitrii?
+          </p>
+          <p xml:id="Almn78-d45892-d1e774">
+            <lb ed="#Bb" n="35"/>4. Dat eniin Augustinus hance 
+            ratio<lb ed="#Bb" break="no" n="36"/>nemin libro primo de Libero arbitrio :
+            <lb ed="#Bb" n="37"/>
+            <quote xml:id="Almn78-d45892-Qd1e782">Liberum arbilrium est facultas rationis
+              <lb ed="#Bb" n="38"/>et voluntatis, qua bonum cligitur 
+              gra<lb ed="#Bb" break="no" n="39"/>tia assislente, el malum ea deserente. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e790">
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="40"/>2. Adhuc, Bernardus in lib. de Libe-~
+            <lb ed="#Bb" n="41"/>ro arbitrio: <quote xml:id="Almn78-d45892-Qd1e798"> Liberum arbitrium est
+              <lb ed="#Bb" n="42"/>liberum sui propter voluntatem, judex
+              <lb ed="#Bb" n="43"/>sul propler rationem. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e806">
+            <lb ed="#Bb" n="44"/>Adhuc, Bernardus, ibidem, <quote xml:id="Almn78-d45892-Qd1e810"> 
+              Volun<lb ed="#Bb" break="no" n="45"/>tas -habet quocumque Se vertat, 
+              ratio<lb ed="#Bb" break="no" n="46"/>nem semper comitem et quasi 
+              pedisse<lb ed="#Bb" break="no" n="47"/>quam: non quod semper agat ex 
+              ra<lb ed="#Bb" break="no" n="48"/>tione, sed quod numquam absque 
+              ra<lb ed="#Bb" break="no" n="49"/>tione moveatur, ifa ut multa agat per
+              <lb ed="#Bb" n="50"/>rationem contra rationem. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e827">
+            <lb ed="#Bb" n="51"/>3. Adhuc, Anselmus in lib. de Liberg
+            <lb ed="#Bb" n="52"/>arbitrio, ostendit, quod posse eligere
+            <lb ed="#Bb" n="53"/>malum, non est facultas liberi arbitrii :
+            <lb ed="#Bb" n="54"/>per hoc quod talis facultas libero 
+            arbi<lb ed="#Bb" break="no" n="55"/>trio minuit libertatem, et subtracta
+            <lb ed="#Bb" n="56"/>auget: quia posse mori non est 
+            po<lb ed="#Bb" break="no" n="57"/>tentia, sed impotentia : et similiter
+            <lb ed="#Bb" n="58"/>posse cadere, Et ratio sua est : quia
+            <lb ed="#Bb" n="59"/>qui potest hoc quod sibi non prodest
+            <lb ed="#Bb" n="60"/>et sibi non expedit, quanto magis potest
+            <lb ed="#Bb" n="61"/>illud, tanto magis adversitas et 
+            perver<lb ed="#Bb" break="no" n="62"/>sitas possunt in ipsum. Unde post hance |
+            <lb ed="#Bb" n="63"/>considerationem dat talem definitionem .
+            <lb ed="#Bb" n="64"/>liberi arbitrii : <quote xml:id="Almn78-d45892-Qd1e859"> Liberam arbitrium est
+              <lb ed="#Bb" n="65"/>potestas conservandi rectitudinem pro- -
+              <lb ed="#Bb" n="66"/>pter ipsam rectitudinem. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e867">
+            <lb ed="#Bb" n="67"/>Has rationes quidam calummiantur, :
+            <lb ed="#Bb" n="68"/>ostendentes, quod secundum eas non
+            <lb ed="#Bb" n="69"/>convenit liberum arbilrium Angelo.
+          </p>
+          <p xml:id="Almn78-d45892-d1e876">
+            {. De prima dicunt, quod ratio non
+            <lb ed="#Bb" n="70"/>convenit Angelo, sed homini, propter
+            <lb ed="#Bb" n="71"/>quod etiam rationale differentia 
+            consti<lb ed="#Bb" break="no" n="72"/>tutiva est hominis, et non Angeli: et.
+            <lb ed="#Bb" n="73"/>ideo liberam arbitrium prout in Angelo
+            <lb ed="#Bb" n="74"/>est, non potest esse facullas rationis et
+            <lb ed="#Bb" n="75"/>voluntatis : quia si Angelo non est ratio,
+            <lb ed="#Bb" n="76"/>non est in eo facultas rationis: et sic
+            <lb ed="#Bb" n="77"/>liberam arbitrium non est in Angelo.
+            <lb ed="#Bb" n="78"/>secundum quod cst facultas rationis et,
+            <lb ed="#Bb" n="79"/>voluntatis.
+          </p>
+          <p xml:id="Almn78-d45892-d1e901">
+            <lb ed="#Bb" n="80"/>Eodem modo objiciunt contra secun-’
+            <lb ed="#Bb" n="81"/>dam que est beati Bernardi, que dicit,
+            <lb ed="#Bb" n="82"/>quod <quote xml:id="Almn78-d45892-Qd1e909"> liberum arbitrium est judex sui
+              <lb ed="#Bb" n="83"/>propter rationem : </quote> si enim in Angelo:
+            <lb ed="#Bb" n="84"/>non est ratio, non erit in eo judicium
+            <pb ed="#Bb" n="211"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>de faciendo, quia judicium rationis ect :
+            <lb ed="#Bb" n="2"/>et s:c non erit in eo ratio judex sui.
+          </p>
+          <p xml:id="Almn78-d45892-d1e926">
+            <lb ed="#Bb" n="3"/>2. Adhuc, Damascenus dicit, quod
+            <lb ed="#Bb" n="4"/>
+            <quote xml:id="Almn78-d45892-Qd1e932">judicium est sententia quam dat ratio
+              <lb ed="#Bb" n="5"/>post inquisitionem et dispositionem de
+              <lb ed="#Bb" n="6"/>faciendo sive eligendo: </quote> si autem in 
+            An<lb ed="#Bb" break="no" n="7"/>gelo non est ratio, tunc nullus actus
+            <lb ed="#Bb" n="8"/>rationis in ipso est : ergo nec inquisitio,
+            <lb ed="#Bb" n="9"/>nec dispositio, nec sententia, quia ut
+            <lb ed="#Bb" n="10"/>dicuat Gregorius Nyssenus et 
+            Damas<lb ed="#Bb" break="no" n="11"/>cenus, liberum arbitrium de faciendo
+            <lb ed="#Bb" n="12"/>et eligendo libere inquirit, libere 
+            con<lb ed="#Bb" break="no" n="13"/>siliatur, libere disponit, libere judicat,
+            <lb ed="#Bb" n="14"/>libere eligit, libere impetum facit ad
+            <lb ed="#Bb" n="15"/>opus post electionem. Et si ratio non est
+            <lb ed="#Bb" n="16"/>in Angelo, nihil de istis erit in ipso, et
+            <lb ed="#Bb" n="17"/>sic nec liberum arbitrium.
+          </p>
+          <p xml:id="Almn78-d45892-d1e964">
+            <lb ed="#Bb" n="18"/>3. Fortius objicitur ad idem per hoc
+            <lb ed="#Bb" n="19"/>quod dicit Isaac in libro de 
+            Definitio<lb ed="#Bb" break="no" n="20"/>nibus, quod <quote xml:id="Almn78-d45892-Qd1e972"> ratio creatur in umbra
+              <lb ed="#Bb" n="21"/>intelligentiz : </quote> in Angelis nulla 
+            intelli<lb ed="#Bb" break="no" n="22"/>gentia umbrosa est: ergo in Angelis
+            <lb ed="#Bb" n="23"/>nulla creatur ratio.
+          </p>
+          <p xml:id="Almn78-d45892-d1e983">
+            <lb ed="#Bb" n="24"/>4. Adhue, Dionysius in Celesti 
+            hierar<lb ed="#Bb" break="no" n="25"/>chia dicit, quod <quote xml:id="Almn78-d45892-Qd1e989"> rationalis natura sub
+              <lb ed="#Bb" n="26"/>intellectuali est, sicut sensibilis sub 
+              ra<lb ed="#Bb" break="no" n="27"/>tionali, et vegetabilis sub sensibili. </quote>
+            <lb ed="#Bb" n="28"/>Cum ergo Angelus sit natura 
+            intelle<lb ed="#Bb" break="no" n="29"/>ctualis, ut dicit Damascenus, rationalis
+            <lb ed="#Bb" n="30"/>natura erit sub ipso: et sic ratio non
+            <lb ed="#Bb" n="31"/>erit in ipso, sed sub ipso: ergo nec 
+            li<lb ed="#Bb" break="no" n="32"/>berum arbitrium secundum quod est
+            <lb ed="#Bb" n="33"/>facullas rationis et voluntatis, nec 
+            se<lb ed="#Bb" break="no" n="34"/>cundum quod est judex sui propter 
+            ra<lb ed="#Bb" break="no" n="35"/>tionem.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1014">
+            <lb ed="#Bb" n="36"/>3. Similiter contra tertiam que est
+            <lb ed="#Bb" n="37"/>Anselmi objiciunt : quia si liberum 
+            ar<lb ed="#Bb" break="no" n="38"/>bitrium est potestas conservandi 
+            recti<lb ed="#Bb" break="no" n="39"/>tudinem propter ipsam rectitudinem :
+            <lb ed="#Bb" n="40"/>cum Angelus malus nullam habeat 
+            po<lb ed="#Bb" break="no" n="41"/>testatem conservandi rectitudinem quam
+            <lb ed="#Bb" n="42"/>non habet, nec potest habere, videtur
+            <lb ed="#Bb" n="43"/>quod non habeat liberum arbitrium :
+            <lb ed="#Bb" n="44"/>quod tamen falsum est : de omnibus
+            <lb ed="#Bb" n="45"/>enim essentialiter dicitur a Damasceno,
+            <lb ed="#Bb" n="46"/>quod sunt nature intellectuales arbilrio
+            <lb ed="#Bb" n="47"/>libera.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1043">
+            <lb ed="#Bb" n="48"/>Similiter, in Il Sententiarum, distinct.
+            <lb ed="#Bb" n="49"/>HI, cap. Ecce ostensum, dicitur, quod
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>omnibus sicut nature attribulum-inest 
+            li<lb ed="#Bb" break="no" n="51"/>berum arbitrium, id est libera inclinande
+            <lb ed="#Bb" n="52"/>voluntatis sive ad bonum, sive ad 
+            ma<lb ed="#Bb" break="no" n="53"/>lum facultas : poterant enim per Jiberum
+            <lb ed="#Bb" n="54"/>arbitrium sine violentia ct coactione
+            <lb ed="#Bb" n="55"/>propria voluntate deflecti.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1066">
+            <lb ed="#Bb" n="56"/>Sotvrio. Dicendum, quod secundum
+            <lb ed="#Bb" n="57"/>quamlibet rationum induclarum inest
+            <lb ed="#Bb" n="58"/>Angelo liberum arbitrium.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1075">
+            <lb ed="#Bb" n="59"/>Et quod objicitur de ratione, quod
+            <lb ed="#Bb" n="60"/>non insit Angelis, solutum cst in 
+            pre<lb ed="#Bb" break="no" n="61"/>habitis, ubi quesilum est de illo verbo
+            <lb ed="#Bb" n="62"/>Magistri, in libro 11 Sententiarum, 
+            dis<lb ed="#Bb" break="no" n="63"/>tinct. HHI, ubi ex verbis Augustini dicit,
+            <lb ed="#Bb" n="64"/>quod <quote xml:id="Almn78-d45892-Qd1e1090"> per rationem naturaliter Angelis
+              <lb ed="#Bb" n="65"/>insitam inest memoria, intelligentia, et
+              <lb ed="#Bb" n="66"/>voluntas. </quote> Et dictum est ibi, quod
+            <lb ed="#Bb" n="67"/>duplex est ratio, scilicet inquisitiva, et
+            <lb ed="#Bb" n="68"/>umbrosa, colligens intelleclum ex 
+            phan<lb ed="#Bb" break="no" n="69"/>tismatibus eorum que creata sunt per
+            <lb ed="#Bb" n="70"/>sensum acceptis : et hee est ratio a qua
+            <lb ed="#Bb" n="71"/>homo dicitur rationalis. Et est ratio que
+            <lb ed="#Bb" n="72"/>est intellectus compositivus et collativus
+            <lb ed="#Bb" n="73"/>eorum ex quibus est consequentia, que
+            <lb ed="#Bb" n="74"/>est certe scientia causa de rebus : et
+            <lb ed="#Bb" n="75"/>hic intellectus est, qui per extensionem
+            <lb ed="#Bb" n="76"/>fit practicus, et motive potenti enuntiat
+            <lb ed="#Bb" n="77"/>quid eligendum vel faciendum cst ; et
+            <lb ed="#Bb" n="78"/>hic potentior est in Angelo, quam in
+            <lb ed="#Bb" n="79"/>homine: secundum Aristotelem enim
+            <lb ed="#Bb" n="80"/>in lItde Anima, motiva sive appetitiva
+            <lb ed="#Bb" n="81"/>non movet ad cligendum vel faciendum,
+            <lb ed="#Bb" n="82"/>nisi fasto ad cam nuntio per 
+            apprehensi<lb ed="#Bb" break="no" n="83"/>vam : et si est motiva ratioaalis, hoc est
+            <lb ed="#Bb" n="84"/>in rationali natura fundata, id est, 
+            vo<lb ed="#Bb" break="no" n="85"/>juntas, non movet, nisi facto nuntio per
+            <lb ed="#Bb" n="86"/>ralionem.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1141">
+            <lb ed="#Bb" n="87"/>His prenotatis, facile est respondere
+            <lb ed="#Bb" n="88"/>ad objecta.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1148">
+            <lb ed="#Bb" n="89"/>Ad primum enim dicendum, quod aq object. 1,
+            <lb ed="#Bb" n="90"/>ratio est in Angelis, sed non hoc modo
+            <lb ed="#Bb" n="91"/>sicut in hominibus, ut praedictum est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1157">
+            <lb ed="#Bb" n="92"/>Ad aliud dicendum, quod ratio in gq object,
+          </p>
+          <p xml:id="Almn78-d45892-d1e1162">
+            <lb ed="#Bb" n="93"/>Angelo est secundum quod est judex
+            <lb ed="#Bb" n="94"/>sui, et judicat de facicndo et eligendo,
+            <lb ed="#Bb" n="95"/>et consulit lumen rationis, et disponit et
+            <lb ed="#Bb" n="96"/>ordinat utilia ad finem voluntatis, et 
+            pro<lb ed="#Bb" break="no" n="97"/>fert sententiam de faciendo et eligendo,
+            <pb ed="#Bb" n="212"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>et eligit, et impetum facit ad opus, et
+            <lb ed="#Bb" n="2"/>ulitur electo et facto, ut dicit 
+            Damasce<lb ed="#Bb" break="no" n="3"/>nus, ad finem de quo voluntas est 
+            obti<lb ed="#Bb" break="no" n="4"/>nendum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1189">
+            <lb ed="#Bb" n="5"/>Ad aliud dicendum, quod ratio que
+            <lb ed="#Bb" n="6"/>crealur in umbra intelligentix, ratio 
+            ho<lb ed="#Bb" break="no" n="7"/>minis est inquisitiva, et non est illa que
+            <lb ed="#Bb" n="8"/>est compositivus et collativus 
+            intelle<lb ed="#Bb" break="no" n="9"/>ctus : que per cerlam scientiam veri et
+            <lb ed="#Bb" n="10"/>boni voluntati nuntiat de faciendo et 
+            eli<lb ed="#Bb" break="no" n="11"/>gendo,
+          </p>
+          <p xml:id="Almn78-d45892-d1e1207">
+            <lb ed="#Bb" n="12"/>Per ipem patet solutio ad sequens
+            <lb ed="#Bb" n="13"/>quia de tali rationali natura loquitur
+            <lb ed="#Bb" n="14"/>Dionysius, que est inquisiliva et 
+            dubi<lb ed="#Bb" break="no" n="15"/>taliva, sicut est ratio hominis.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1218">
+            <lb ed="#Bb" n="16"/>Ad ultimum quod contra rationem
+            <lb ed="#Bb" n="17"/>Anselmi objicilur, dicendum, quod 
+            du<lb ed="#Bb" break="no" n="18"/>plex est potestas conservandi 
+            rectitudi<lb ed="#Bb" break="no" n="19"/>nem, scilicet ex parte natura 
+            conser<lb ed="#Bb" break="no" n="20"/>vantis, et ex parte rei conservate. Licet
+            <lb ed="#Bb" n="21"/>enim aliquis habeat facultatem 
+            conser<lb ed="#Bb" break="no" n="22"/>vandi thesaurum quantum est ad se,
+            <lb ed="#Bb" n="23"/>tamen non potest servares thesaurum
+            <lb ed="#Bb" n="24"/>quem nec habet, nec habere potest: et
+            <lb ed="#Bb" n="25"/>ita est in Angelo malo, quod ex natura
+            <lb ed="#Bb" n="26"/>facultatem habet servandi rectitudinem
+            <lb ed="#Bb" n="27"/>si haberet eam : quam tamen quia nec
+            <lb ed="#Bb" n="28"/>habet, nec habere potest, servare non
+            <lb ed="#Bb" n="29"/>potest : et hoc non est ex natura, sed ex
+            <lb ed="#Bb" n="30"/>justissima damnalione pertinacis 
+            volun<lb ed="#Bb" break="no" n="31"/>tatis ad malitiam.
+          </p>
+        </div>
+        <div xml:id="Almn78-d45892-Dd1e1256">
+          <head xml:id="Almn78-d45892-Hd1e1258">Membrum 3</head>
+          <head xml:id="Almn78-d45892-Hd1e1261" type="question-title">
+            Utrum libertas arbitrii plus conveniat
+            Angelo, quam homini, vel aeque
+          </head>
+          <p xml:id="Almn78-d45892-d1e1264">
+            <lb ed="#Bb" n="32"/>MEMBRUM III.
+            <lb ed="#Bb" n="33"/>Utrum libertas arbitrii plus conveniat
+            <lb ed="#Bb" n="34"/>Angelo, quam homini, vel qeque ?
+          </p>
+          <p xml:id="Almn78-d45892-d1e1273">
+            <lb ed="#Bb" n="35"/>Tertio queritur, Utrum libertas 
+            arbi<lb ed="#Bb" break="no" n="36"/>trii plus conveniat Angelo, quam hoinini,
+            <lb ed="#Bb" n="37"/>vel aeque ?
+          </p>
+          <p xml:id="Almn78-d45892-d1e1282">
+            <lb ed="#Bb" n="38"/>Et videtur, quod plus Angelo.
+            <lb ed="#Bb" n="39"/>1. IL Sententiarum, distinct. III, cap.
+            <lb ed="#Bb" n="40"/>Hic considerandum, dicit Magister : <quote xml:id="Almn78-d45892-Qd1e1290"> Et
+              <cb ed="#Bb" n="b"/>
+              <lb ed="#Bb" n="41"/>sicut differens vigor, et subtilitas na~—
+              <lb ed="#Bb" n="42"/>ture infirmitatem non adducit, 
+              mi<lb ed="#Bb" break="no" n="43"/>norque cognitio sapientie ignorantiam
+              <lb ed="#Bb" n="44"/>non ingerit : sic libertas inferior nullam
+              <lb ed="#Bb" n="45"/>arbitrio voluntatis necessitatem 
+              im<lb ed="#Bb" break="no" n="46"/>ponit. </quote> Ex hoc accipitur, quod 
+            infe<lb ed="#Bb" break="no" n="47"/>rior Angelus minoris est libertatis, quam
+            <lb ed="#Bb" n="48"/>superior: cum ergo homo multo inferior -
+            <lb ed="#Bb" n="49"/>sit Angelo, liberum arbitrium erit 
+            mi<lb ed="#Bb" break="no" n="50"/>noris libertatis in homine, quam in 
+            An<lb ed="#Bb" break="no" n="51"/>gelo.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1321">
+            <lb ed="#Bb" n="52"/>2. Adhuc, Ibidem in capite sequenti,
+            <lb ed="#Bb" n="53"/>Et sicut in predictis, dicit sic : <quote xml:id="Almn78-d45892-Qd1e1327"> In
+              <lb ed="#Bb" n="54"/>subtilitate vero essentia, et 
+              intelligen<lb ed="#Bb" break="no" n="55"/>tia sapientia, ct libertate voluntatis
+              <lb ed="#Bb" n="56"/>Angeli differentes erant. </quote> Ergo cum
+            <lb ed="#Bb" n="57"/>homo inferioritate nature multo magis
+            <lb ed="#Bb" n="58"/>differat ab Angelo, quam Angelus ab
+            <lb ed="#Bb" n="59"/>Angelo, differt etiam libertate arbitrii ab
+          </p>
+          <p xml:id="Almn78-d45892-d1e1344">
+            <lb ed="#Bb" n="60"/>Angelo : ita quod minor et inferior
+            <lb ed="#Bb" n="61"/>libertas arbitrii erit in homine, quam
+            <lb ed="#Bb" n="62"/>in Angelo,
+          </p>
+          <p xml:id="Almn78-d45892-d1e1353">
+            <lb ed="#Bb" n="63"/>3. Adhuc, Ibidem inter quatuor 
+            altri<lb ed="#Bb" break="no" n="64"/>buta angelice nature ponit Magister
+            <lb ed="#Bb" n="65"/>talem ordinem, quod ubi plus est de
+            <lb ed="#Bb" n="66"/>subtilitate essentie, ibi sit plus de per- _
+            <lb ed="#Bb" n="67"/>spicacitate intelligentie, et plus de li- ;
+            <lb ed="#Bb" n="68"/>berlate voluntatis. Cum ergo homo ab ~
+            <lb ed="#Bb" n="69"/>Angelo differat mullum in subtilitate .
+            <lb ed="#Bb" n="70"/>essenti, et perspicacitate intelligentia, —
+            <lb ed="#Bb" n="71"/>differt etiam in libertate voluntatis, ita
+            <lb ed="#Bb" n="72"/>quod homo minoris erit libertatis, quam
+            <lb ed="#Bb" n="73"/>Angelus.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1379">
+            <lb ed="#Bb" n="74"/>4, Adhuc, Liberum arbitrium est 
+            fa<lb ed="#Bb" break="no" n="75"/>cultas rationis et voluntatis : ila famen,
+            <lb ed="#Bb" n="76"/>quod facultas sive libertas voluntatis
+            <lb ed="#Bb" n="77"/>sequitur arbitrium rationis, quia per
+            <lb ed="#Bb" n="78"/>arbitrium rationis voluntati fit nuntium -
+            <lb ed="#Bb" n="79"/>de faciendo vel eligendo : sed arbitrium *
+            <lb ed="#Bb" n="80"/>rationis in Angelo multo certius est,
+            <lb ed="#Bb" n="81"/>quam in homine: ergo etiam tacultas ,
+            <lb ed="#Bb" n="82"/>voluntatis, sive libertas inclinande vo- |
+            <lb ed="#Bb" n="83"/>luntatis ad faciendum vel eligendum |
+            <lb ed="#Bb" n="84"/>quodeumque voluerit, major erit in 
+            An<lb ed="#Bb" break="no" n="85"/>gelo, quam in homine. _
+          </p>
+          <p xml:id="Almn78-d45892-d1e1408">
+            <lb ed="#Bb" n="86"/>3. Adhuc, Liberum arbitrium est in
+            <lb ed="#Bb" n="87"/>Deo, in Angelo, et in homine : et constat,
+            <pb ed="#Bb" n="213"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>quod libertas completissima est in Deo:
+            <lb ed="#Bb" n="2"/>ille enim sufficit sibi ad quocumque vult
+            <lb ed="#Bb" n="3"/>faciendum vel eligendum, sive in se,
+            <lb ed="#Bb" n="4"/>sive in creaturis sibi subjectis : ad quod
+            <lb ed="#Bb" n="5"/>non sufficit nec Angelus, nec homo:
+            <lb ed="#Bb" n="6"/>cum ergo liberum arbitrium non sit in
+            <lb ed="#Bb" n="7"/>Angelo, nec in homine, nisi per aliquam
+            <lb ed="#Bb" n="8"/>similitudinem ad Deum, cumque 
+            Ange<lb ed="#Bb" break="no" n="9"/>lus per similitudinem plus accedat ad
+            <lb ed="#Bb" n="10"/>Deum, quam homo, videtur liberum
+            <lb ed="#Bb" n="11"/>esse arbitrium plus in Angelo, quam in
+            <lb ed="#Bb" n="12"/>homine.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1445">
+            <lb ed="#Bb" n="13"/>6. Adhuc, Perfectior et liberior est
+            <lb ed="#Bb" n="14"/>ad faciendum et eligendum potentia
+            <lb ed="#Bb" n="15"/>completa per habitum concreatum sibi,
+            <lb ed="#Bb" n="16"/>quam potentia non habens habitum nisi
+            <lb ed="#Bb" n="17"/>acquisitum per assuetudinem vel 
+            doctri<lb ed="#Bb" break="no" n="18"/>nam : Angeli ad faciendum et eligendum
+            <lb ed="#Bb" n="19"/>et arbitrandum completi sunt per 
+            habi<lb ed="#Bb" break="no" n="20"/>tum concreatum sibi : homo vero non
+            <lb ed="#Bb" n="21"/>nisi per habitum acquisitum per 
+            assue<lb ed="#Bb" break="no" n="22"/>tudinem vel doctrinam : cujus signum
+            <lb ed="#Bb" n="23"/>est, quod pueri non sciunt statim eligere
+            <lb ed="#Bb" n="24"/>et facere et arbitrari, sed exigitur tempus
+            <lb ed="#Bb" n="25"/>quo per assuetudinem et experimentum
+            <lb ed="#Bb" n="26"/>et doctrinam ad ista sufficiant. Sed
+            <lb ed="#Bb" n="27"/>perfectiorem potentiam ad faciendum,
+            <lb ed="#Bb" n="28"/>eligendum, et arbitrandum, sequitur
+            <lb ed="#Bb" n="29"/>major libertas ad eadem. Ergo major
+            <lb ed="#Bb" n="30"/>libertas ad faciendum, eligendum, et
+            <lb ed="#Bb" n="31"/>arbitrandum, est in Angelo, quam in
+            <lb ed="#Bb" n="32"/>homine.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1492">
+            <lb ed="#Bb" n="33"/>Ad omnia hee respondent quidam,
+            <lb ed="#Bb" n="34"/>quod libertas a coactione equalis est in
+            <lb ed="#Bb" n="35"/>Angelo et in homine.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1501">
+            <lb ed="#Bb" n="36"/>Et sex argumenta inducta non 
+            proce<lb ed="#Bb" break="no" n="37"/>dunt : quia
+          </p>
+          <p xml:id="Almn78-d45892-d1e1508">
+            <lb ed="#Bb" n="38"/>1. Fundantur super quoddam falsum,
+            <lb ed="#Bb" n="39"/>super hoc scilicet, quod major libertas
+            <lb ed="#Bb" n="40"/>arbitrii sequatur ad majorem vel 
+            mino<lb ed="#Bb" break="no" n="41"/>rem nobilitatem nature intellectualis :
+            <lb ed="#Bb" n="42"/>et hos dictum est falsum dicentes
+            <lb ed="#Bb" n="43"/>libertatem arbitrii non esse in Angelo
+            <lb ed="#Bb" n="44"/>vel in anima rationali ex hoc, quod est
+            <lb ed="#Bb" n="45"/>intellectualis nature vel rationalis, sed
+            <lb ed="#Bb" n="46"/>ex quadam dignitate que a Deo fluit in
+          </p>
+          <p xml:id="Almn78-d45892-d1e1530">
+            <lb ed="#Bb" n="47"/>Angelum, vel in animam rationalem.
+            <lb ed="#Bb" n="48"/>Sed non determinant que sit illa digni
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="49"/>tas : propter quod insufficiens est eorum
+            <lb ed="#Bb" n="50"/>responsio.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1543">
+            <lb ed="#Bb" n="51"/>Adhuc, Aristoteles, Gregorius 
+            Nysse<lb ed="#Bb" break="no" n="52"/>nus, et Joannes Damascenus, concorditer
+            <lb ed="#Bb" n="53"/>dicunt et probant, quod libertas agendi
+            <lb ed="#Bb" n="54"/>vel eligendi, de ratione voluntarii est in
+            <lb ed="#Bb" n="55"/>homine : voluntarium autem est, ut
+            <lb ed="#Bb" n="56"/>tidem dicunt, cujus principium est in
+            <lb ed="#Bb" n="57"/>ipso consciente singularia, sive 
+            singula<lb ed="#Bb" break="no" n="58"/>res circumstantias in quibus est actus.
+            <lb ed="#Bb" n="59"/>Ergo in quacumque natura principium
+            <lb ed="#Bb" n="60"/>agendi et eligendi et arbitrandi de 
+            singu<lb ed="#Bb" break="no" n="61"/>laribus circumstantiis est intus ex 
+            prin<lb ed="#Bb" break="no" n="62"/>cipio naturali et essentiali, in illa est
+            <lb ed="#Bb" n="63"/>per naturam liberum arbitrium sive 
+            li<lb ed="#Bb" break="no" n="64"/>bertas arbitrii. In natura intellectuali
+            <lb ed="#Bb" n="65"/>per hoc quod est intellectualis sive 
+            ra<lb ed="#Bb" break="no" n="66"/>tionalis, principium agendi et eligendi
+            <lb ed="#Bb" n="67"/>est intra : et similiter principium 
+            ar<lb ed="#Bb" break="no" n="68"/>bitrandi de circumstantiis in quibus
+            <lb ed="#Bb" n="69"/>est actus : ergo libertas arbitrii 
+            sequi<lb ed="#Bb" break="no" n="70"/>tur naturam intellectualem per hoc
+            <lb ed="#Bb" n="71"/>quod est intellectualis : ergo non valet
+            <lb ed="#Bb" n="72"/>responsio inducta.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1593">
+            <lb ed="#Bb" n="73"/>2.Aliter tamen objiciturin contrarium ;
+            <lb ed="#Bb" n="74"/>Dicit beatus <name xml:id="Almn78-d45892-Nd1e1599">Bernardus</name> in libro de
+            <lb ed="#Bb" n="75"/>Libero arbitrio : <quote xml:id="Almn78-d45892-Qd1e1604"> Libertas a necessitate,
+              <lb ed="#Bb" n="76"/>nee peccalo nec miseria amitlitur, nec :
+              <lb ed="#Bb" n="77"/>per opposita istorum augetur, nec 
+              ple<lb ed="#Bb" break="no" n="78"/>nior est in homine, quam in Angelo, nec
+              <lb ed="#Bb" n="79"/>e converso. Hac prerogativa conditor
+              <lb ed="#Bb" n="80"/>rationalem creaturam insignivit, ut 
+              sic<lb ed="#Bb" break="no" n="81"/>ut sui juris sueque voluntatis, non 
+              coa<lb ed="#Bb" break="no" n="82"/>ctionis est, quod bona est : ita et sui
+              <lb ed="#Bb" n="83"/>juris existeret, ut non (nisi vellet) bona
+              <lb ed="#Bb" n="84"/>vel mala faceret. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e1628">
+            <lb ed="#Bb" n="85"/>3. Adhuc, Bernardus, ibidem, 
+            distin<lb ed="#Bb" break="no" n="86"/>guit triplicem libertatem, scilicet 
+            liber<lb ed="#Bb" break="no" n="87"/>tatem consilii, libertatem complacili, et
+            <lb ed="#Bb" n="88"/>libertatem a coactione sive a necessitate.
+            <lb ed="#Bb" n="89"/>Et dicit, quod <quote xml:id="Almn78-d45892-Qd1e1641"> libertas a coactione 
+              se<lb ed="#Bb" break="no" n="90"/>quitur imaginem, libertas vero consilii
+              <lb ed="#Bb" n="91"/>et complaciti simililudinem : </quote> sed imago
+            <lb ed="#Bb" n="92"/>tam in hominc, quam in Angelo est 
+            se<lb ed="#Bb" break="no" n="93"/>cundum naturales potentias : ergo 
+            vi<lb ed="#Bb" break="no" n="94"/>detur, quod etiam jibertas arbitrii insit
+            <lb ed="#Bb" n="95"/>homini et Angelo secundum naturales
+            <lb ed="#Bb" n="96"/>potentias : ct sic praeinducta nulla esse
+            <lb ed="#Bb" n="97"/>videntur.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1662">
+            <pb ed="#Bb" n="214"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>4. Adhuc, Bernardus, ibidem, <quote xml:id="Almn78-d45892-Qd1e1670"> 
+              Divi<lb ed="#Bb" break="no" n="2"/>ne similitudinis summum gradum 
+              te<lb ed="#Bb" break="no" n="3"/>nent Angeli boni, nos infinum, Adam in
+              <lb ed="#Bb" n="4"/>primo statu medium, demones 
+              nul<lb ed="#Bb" break="no" n="5"/>lum. </quote> Constat ergo, quod cum in 
+            de<lb ed="#Bb" break="no" n="6"/>monibus sit liberlas arbitrii, libertas
+            <lb ed="#Bb" n="7"/>arbitrit non descendit in intellectualem
+            <lb ed="#Bb" n="8"/>naturam per aliquam rationem sive 
+            di<lb ed="#Bb" break="no" n="9"/>gnitatem simililudinis ad Deum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1691">
+            <lb ed="#Bb" n="10"/>In contrarium tamen omnium horum
+            <lb ed="#Bb" n="11"/>objicitur : quia
+            <lb ed="#Bb" n="12"/>1. Videtur esse major libertas in 
+            ho<lb ed="#Bb" break="no" n="13"/>mine, quam in Angelo. Libertas enim ex
+            <lb ed="#Bb" n="14"/>verlibilitate voluntatis videtur inesse
+            <lb ed="#Bb" n="15"/>sed magis verlibilis est homo, quam
+            <lb ed="#Bb" n="16"/>Angelus : cujus signum est, quia homo
+            <lb ed="#Bb" n="17"/>vertibilis est in bonum et in malum sicut
+            <lb ed="#Bb" n="18"/>vult : et quando vertiturin malum, 
+            ite<lb ed="#Bb" break="no" n="19"/>rum potest redire in bonum : quod non
+            <lb ed="#Bb" n="20"/>potest Angelus : ergo videlur, quod
+            <lb ed="#Bb" n="21"/>major libertas sit in homine, quam in
+            <lb ed="#Bb" n="22"/>Angelo.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1722">
+            <lb ed="#Bb" n="23"/>2. Adhuc, Libertas, ut_dicit 
+            Bernar<lb ed="#Bb" break="no" n="24"/>dus, sequitur imaginem : sed expresse
+            <lb ed="#Bb" n="25"/>dicitur, Genes. 1, 26 : Faciamus 
+            homi<lb ed="#Bb" break="no" n="26"/>nem ad imaginem et similitudinem 
+            no<lb ed="#Bb" break="no" n="27"/>stram : quod non expresse dic‘tur de
+            <lb ed="#Bb" n="28"/>Angelo : ergo sicut imago expressior
+            <lb ed="#Bb" n="29"/>est in homine quam in Angelo, ita
+            <lb ed="#Bb" n="30"/>videtur libertas major esse in homine
+            <lb ed="#Bb" n="31"/>quam in Angelo.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1744">
+            <lb ed="#Bb" n="32"/>In contRARIUM Omnium istorum 
+            obji<lb ed="#Bb" break="no" n="33"/>ciunt quidam dicentes, quod
+            <lb ed="#Bb" n="34"/>1. Libertas arbitrii consistil in 
+            verti<lb ed="#Bb" break="no" n="35"/>bilitale voluntalis ad bonum et ad 
+            ma<lb ed="#Bb" break="no" n="36"/>lum : sed vertibilitas illa causatur ex
+            <lb ed="#Bb" n="37"/>hoc, quod creatura rationalis ex Deo
+            <lb ed="#Bb" n="38"/>est et ex nihilo : sed esse ex Deo et ex
+            <lb ed="#Bb" n="39"/>nihilo equaliter convenit Angelo et 
+            ani<lb ed="#Bb" break="no" n="40"/>me rationali: ergo libertas arbitrii 
+            con<lb ed="#Bb" break="no" n="41"/>venit utrigue equaliter.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1768">
+            <lb ed="#Bb" n="42"/>2. Adhuc, Libertas sequitur 
+            volunta<lb ed="#Bb" break="no" n="43"/>tem intellectualem sive rationalem : sed
+            <lb ed="#Bb" n="44"/>voluntas intellectualis sive rationalis ex
+            <lb ed="#Bb" n="45"/>zquo inest Angelo ct homini : cujus
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="46"/>probatio est, quia neutri inest per 
+            alte<lb ed="#Bb" break="no" n="47"/>rum: ergo libertas arbitrii equalis est
+            <lb ed="#Bb" n="48"/>in Angelo et in homine.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1789">
+            <lb ed="#Bb" n="49"/>Solutio. Sicut dicit Magister in libro
+            <lb ed="#Bb" n="50"/>II Sententiarum, distinct. XXV, cap.
+            <lb ed="#Bb" n="51"/>Est namque triplex libertas, scilicet 
+            a<lb ed="#Bb" break="no" n="52"/>coactione sive ex necessitate, a peccato,
+            <lb ed="#Bb" n="53"/>et a miseria'. Libertas a coactione 
+            tripli<lb ed="#Bb" break="no" n="54"/>cem habet gradum, scilicet quod in 
+            qui<lb ed="#Bb" break="no" n="55"/>busdam nec habet cogens ad malum vel
+            <lb ed="#Bb" n="56"/>ad bonum,' nec inclinans ad malum. Et
+            <lb ed="#Bb" n="57"/>sic est in Angelo bono, sed non in 
+            An<lb ed="#Bb" break="no" n="58"/>gelo malo : et sic etiam in homine
+            <lb ed="#Bb" n="59"/>bono, sed non in homine malo : quia
+            <lb ed="#Bb" n="60"/>dicit Gregorius, quod <quote xml:id="Almn78-d45892-Qd1e1817"> peccatum quod
+              <lb ed="#Bb" n="61"/>per peenitentiam} citius non deletur, suo
+              <lb ed="#Bb" n="62"/>pondere adjaliud trahit. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e1825">
+            <lb ed="#Bb" n="63"/>In quibusdam non habet cogens ad
+            <lb ed="#Bb" n="64"/>bonum vel ad malum : tamen infirmita~
+            <lb ed="#Bb" n="65"/>tis aliquid habet ad bonum, sicut in
+            <lb ed="#Bb" n="66"/>homine, quem pondus carnis facit 
+            infir<lb ed="#Bb" break="no" n="67"/>mum ad bonum. Sapientie, ix, 15.
+            <lb ed="#Bb" n="68"/>
+            <quote xml:id="Almn78-d45892-Qd1e1840">Corpus quod corrumpitur aggravat
+              <lb ed="#Bb" n="69"/>animam, et terrena inhabitatio deprimit
+              <lb ed="#Bb" n="70"/>sensum mulia cogitantem</quote>. Et, ibidem,
+            <lb ed="#Bb" n="71"/>y. 14-: <quote xml:id="Almn78-d45892-Qd1e1849">Cognitiones mortalium sunt
+              <lb ed="#Bb" n="72"/>timide, et incerte providentizv nostre</quote>.
+            <lb ed="#Bb" n="73"/>Propter_ quod etiam remediabile dicitur
+            <lb ed="#Bb" n="74"/>peccatum hominis, et non Angeli. Unde
+            <lb ed="#Bb" n="75"/>Gregorius in Moralibus : <quote xml:id="Almn78-d45892-Qd1e1861"> Angelorum
+              <lb ed="#Bb" n="76"/>spiritus idcirco irremissibiliter peccavit,
+              <lb ed="#Bb" n="77"/>quia Angeli tanto robustius stare 
+              pot<lb ed="#Bb" break="no" n="78"/>erant, quanto cos carnis fragililas non
+              <lb ed="#Bb" n="79"/>aggravabat. Homo vero post calpam
+              <lb ed="#Bb" n="80"/>veniam meruit, quia per carnale corpus
+              <lb ed="#Bb" n="81"/>aliquid quo semelipso mimor csset,
+              <lb ed="#Bb" n="82"/>accepit. </quote> Idem per omnia dicunt 
+            Grego<lb ed="#Bb" break="no" n="83"/>rius Nyssenus, et{Damascenus, et 
+            in<lb ed="#Bb" break="no" n="84"/>ducuntillud Genesis, vi, 3,: Nov 
+            per<lb ed="#Bb" break="no" n="85"/>manebit spiritus meus in homine in.
+            <lb ed="#Bb" n="86"/>ewternum;, quia caro est. Quod 
+            expo<lb ed="#Bb" break="no" n="87"/>nuut de spiritu indignationis divine. Ac
+            <lb ed="#Bb" n="88"/>si dicat : Spiritus indignationis mee non —
+            <lb ed="#Bb" n="89"/>eri in homine in eternum, sicut fuit in
+            <pb ed="#Bb" n="215"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>Angelo peccante, quia infirmilate carnis
+            <lb ed="#Bb" n="2"/>deprimitur : et ideo remediabile est 
+            pec<lb ed="#Bb" break="no" n="3"/>catum ejus, quod non fuit in Angelo.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1906">
+            <lb ed="#Bb" n="4"/>Tertius gradus ejusdem liberlatis est
+            <lb ed="#Bb" n="5"/>privatio a coactione agentis et 
+            necessi<lb ed="#Bb" break="no" n="6"/>talem imponentis : et sic equaliter est
+            <lb ed="#Bb" n="7"/>in Angelis bonis et malis, et im 
+            homini<lb ed="#Bb" break="no" n="8"/>bus bonis et malis, et in damnat's et non
+            <lb ed="#Bb" n="9"/>damnatis : in nullo enim istorum habet
+            <lb ed="#Bb" n="10"/>aliquid cogens sive necessitatem 
+            impo<lb ed="#Bb" break="no" n="11"/>nens, sed libere vult quod vult, et Jibere
+            <lb ed="#Bb" n="12"/>eligit quod eligit, et libere facit quod ex
+            <lb ed="#Bb" n="13"/>voluntate facit. Et causa, quod equaliter
+            <lb ed="#Bb" n="14"/>est in eis, est quod fundatur super 
+            pri<lb ed="#Bb" break="no" n="15"/>vationem cogentis et privationem 
+            impo<lb ed="#Bb" break="no" n="16"/>nentis necessitatem, que cum pura sit
+            <lb ed="#Bb" n="17"/>et omnimoda privatio, in omnibus, non
+            <lb ed="#Bb" n="18"/>potest intelligi, quod secundum magis
+            <lb ed="#Bb" n="19"/>et minus insit eis, quia non polest
+            <lb ed="#Bb" n="20"/>intelligi, quod privatio pura et 
+            omnimo<lb ed="#Bb" break="no" n="21"/>na secundum magis et minus insit 
+            di<lb ed="#Bb" break="no" n="22"/>versis, quia privatio talis non potest
+            <lb ed="#Bb" n="23"/>recipere intensionem et remissionem.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1952">
+            <lb ed="#Bb" n="24"/>Libertas autem a peccato, maxime est
+            <lb ed="#Bb" n="25"/>in Deo, et post hoc in Angelo bono,
+            <lb ed="#Bb" n="26"/>post hoc in homine bono : nulla in 
+            ho<lb ed="#Bb" break="no" n="27"/>mine malo, et nulla in demone. Et
+            <lb ed="#Bb" n="28"/>similiter est in liberiate a miseria. He
+            <lb ed="#Bb" n="29"/>enim liberlates dicuntur per 
+            elongatio<lb ed="#Bb" break="no" n="30"/>nem a peccato, et a miseria, qua 
+            maxi<lb ed="#Bb" break="no" n="31"/>me est in Deo, secundo in Angelo bono,
+            <lb ed="#Bb" n="32"/>tertio in homine bono : nulla in homine
+            <lb ed="#Bb" n="33"/>malo, nulla in demone. Quia sicut 
+            di<lb ed="#Bb" break="no" n="34"/>cilur, Proverb. xiv, 34 : Miseros facit
+            <lb ed="#Bb" n="35"/>populos peccatum. Et hoc, ut dicit 
+            Au<lb ed="#Bb" break="no" n="36"/>gustinus, notavit Deus quando dixit,
+            <lb ed="#Bb" n="37"/>Genes. 1, 9 : Adam, ubi es? hoc est,
+            <lb ed="#Bb" n="38"/>vide in quanta miseria propter peccatum
+            <lb ed="#Bb" n="39"/>transgressionis es.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1989">
+            <lb ed="#Bb" n="40"/>His habitis, facile est respondere ad
+            <lb ed="#Bb" n="41"/>objecta.
+          </p>
+          <p xml:id="Almn78-d45892-d1e1996">
+            <lb ed="#Bb" n="42"/>Ad primum ergo dicendum, quod /
+            i<lb ed="#Bb" break="no" n="43"/>bertas a coactione propter causam que
+            <lb ed="#Bb" n="44"/>dicta est, quia scilicet in pura et 
+            omni<lb ed="#Bb" break="no" n="45"/>moda privatione coactionis consistit,
+            <lb ed="#Bb" n="46"/>cequalis est in Angelis superioribus et 
+            in<lb ed="#Bb" break="no" n="47"/>ferioribus, et in homine: sed quantum
+            <lb ed="#Bb" n="48"/>ad inclinantia ad bonum et ad malum,
+            <lb ed="#Bb" n="49"/>cum essentia simplicior, et perspicacilas
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>intelligentiae major de natura sui sint 
+            in<lb ed="#Bb" break="no" n="51"/>clinantia ad bonum plusquam essentia
+            <lb ed="#Bb" n="52"/>minus simplex, et perspicacitas 
+            intelli<lb ed="#Bb" break="no" n="53"/>gentie minor: propter quod etiam dicit
+            <lb ed="#Bb" n="54"/>Aristoteles in X Ethicorum, quod <quote xml:id="Almn78-d45892-Qd1e2028"> id
+              <lb ed="#Bb" n="55"/>cujus natura est simplex, una sola et 
+              sim<lb ed="#Bb" break="no" n="56"/>plici gaudet operatione : </quote> quantum ad
+            <lb ed="#Bb" n="57"/>hoc non est equalis, sed major libertas
+            <lb ed="#Bb" n="58"/>est in Angelo, quam in homine.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2041">
+            <lb ed="#Bb" n="59"/>Omnino eodem modo dicendum est ad
+            <lb ed="#Bb" n="60"/>sequens : quia hoc eodem modo 
+            intelli<lb ed="#Bb" break="no" n="61"/>gitur.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2050">
+            <lb ed="#Bb" n="62"/>Per idem patet solutio ad sequens:
+            <lb ed="#Bb" n="63"/>quia illa tria super idem fundantur.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2057">
+            <lb ed="#Bb" n="64"/>Ad aliud dicendum, quod arbitrium
+            <lb ed="#Bb" n="65"/>quod est actus rationis de faciendo vel
+            <lb ed="#Bb" n="66"/>eligendo, lucidius est in Angelo quam in
+            <lb ed="#Bb" n="67"/>homine, et clarius nuntiat voluntati: et
+            <lb ed="#Bb" n="68"/>per hoc etiam voluntas sequens in 
+            An<lb ed="#Bb" break="no" n="69"/>gelo magis inclinatur ad rectum et ad
+            <lb ed="#Bb" n="70"/>bonum, quam in homine. Non tamen
+            <lb ed="#Bb" n="71"/>propter hoc obligatur in Angelo, vel 
+            co<lb ed="#Bb" break="no" n="72"/>gitur in homine: sed in utroque manet
+            <lb ed="#Bb" n="73"/>libertas in hoc, quod in utroque est 
+            po<lb ed="#Bb" break="no" n="74"/>testas libere faciendi quod vult sine 
+            obli<lb ed="#Bb" break="no" n="75"/>gatione vel coactione alicujus.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2086">
+            <lb ed="#Bb" n="76"/>Ad aliud dicendum, quod Angelus 
+            ma<lb ed="#Bb" break="no" n="77"/>gis accidit in similitudinem libertatis ad
+            <lb ed="#Bb" n="78"/>Deum, quam homo, et ideo magis 
+            incli<lb ed="#Bb" break="no" n="79"/>natur ut libere velit bonum: sed tamen
+            ‘propter accessum illum Angelus non
+            <lb ed="#Bb" n="80"/>obligatur, sicut nec propter minorem 
+            ac<lb ed="#Bb" break="no" n="81"/>cessum homo cogitur ad unum vel ad
+            <lb ed="#Bb" n="82"/>alterum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2104">
+            <lb ed="#Bb" n="83"/>Av autup dicendum, quod hoc non
+            <lb ed="#Bb" n="84"/>probat, nisi quod Angelus magis 
+            dispo<lb ed="#Bb" break="no" n="85"/>situs est ad libere volendum bonum,
+            <lb ed="#Bb" n="86"/>quam homo : sed non probat, quod 
+            An<lb ed="#Bb" break="no" n="87"/>gelus obligetur ad aliquid, vel homo 
+            co<lb ed="#Bb" break="no" n="88"/>gatur ad aliquid eorum que in ipsis
+            <lb ed="#Bb" n="89"/>sunt, ut dicit Aristoleles in II 
+            Eihico<lb ed="#Bb" break="no" n="90"/>rum, quorum nos sumus causa et 
+            agen<lb ed="#Bb" break="no" n="91"/>di principium, et conscientes singulares
+            <lb ed="#Bb" n="92"/>circumstantias in quibus est actus.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2128">
+            <lb ed="#Bb" n="93"/>Ad aliud dicendum, quod sine dubio
+            <lb ed="#Bb" n="94"/>illa responsio insufficiens est, sicut 
+            pro<lb ed="#Bb" break="no" n="95"/>bant objectiones facta in contrarium,
+            <lb ed="#Bb" n="96"/>nisi dicatur, quod illa dignitas que a Deo
+            <pb ed="#Bb" n="216"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>descendit in animam rationalem et in
+            <lb ed="#Bb" n="2"/>Angelum, et quod ipsa natura 
+            intelle<lb ed="#Bb" break="no" n="3"/>ctualis clevatur super materiam et 
+            natu<lb ed="#Bb" break="no" n="4"/>ram, ita quod ex ipsa elevatione causa et
+            <lb ed="#Bb" n="5"/>liberum principium efficitur omnium
+            <lb ed="#Bb" n="6"/>suarum actionum et electionum: quia,
+            <lb ed="#Bb" n="7"/>sicut dicit Damascenus in libro II de Fide
+            <lb ed="#Bb" n="8"/>orthodoxa, ubi de libero arbitrio sermo
+            <lb ed="#Bb" n="9"/>est, hoc est de eo quod in nobis est, 
+            pri<lb ed="#Bb" break="no" n="10"/>mo quidem habet questionem, si est
+            <lb ed="#Bb" n="11"/>quid in nobis’.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2168">
+            <lb ed="#Bb" n="12"/>Ad aliud dicendum, quod dictum 
+            bea<lb ed="#Bb" break="no" n="13"/>ti Bernardi verum est quantum ad 
+            liber<lb ed="#Bb" break="no" n="14"/>tatem a coactione, secundum quod 
+            liber<lb ed="#Bb" break="no" n="15"/>tas illa dicit puram et omnimodam
+            <lb ed="#Bb" n="16"/>privationem coactionis et nihil plus.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2181">
+            <lb ed="#Bb" n="17"/>Ad aliud dicendum, quod libertas a
+            <lb ed="#Bb" n="18"/>coactione sequitur imaginem, ut dicit
+            <lb ed="#Bb" n="19"/>beatus Bernardus et naturales potentias
+            <lb ed="#Bb" n="20"/>imaginis : quia imago est in naturalibus.
+            <lb ed="#Bb" n="21"/>Libertas autem consilii et complaciti 
+            se<lb ed="#Bb" break="no" n="22"/>quuntur similitudinem que est in 
+            gra<lb ed="#Bb" break="no" n="23"/>tuitis. Et quod concluditur, quod 
+            respon<lb ed="#Bb" break="no" n="24"/>sio est insufficiens, concedendum est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2201">
+            <lb ed="#Bb" n="25"/>Ad aliud dicendum similiter, quod 
+            li<lb ed="#Bb" break="no" n="26"/>bertas arbitrii est in homine et in Angelo,
+            <lb ed="#Bb" n="27"/>per hoc quod principium agendi et 
+            eli<lb ed="#Bb" break="no" n="28"/>gendi est in ipsis conscientibus singulares
+            <lb ed="#Bb" n="29"/>circumstantias in quibus est actus. Et
+            <lb ed="#Bb" n="30"/>verum est, quod hoc sicut omne aliud
+            <lb ed="#Bb" n="31"/>bonum in intellectualem naturam 
+            crea<lb ed="#Bb" break="no" n="32"/>tam descendit a Deo.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2221">
+            <lb ed="#Bb" n="33"/>Ad id quod objicitur in contrarium,
+            <lb ed="#Bb" n="34"/>probando quod major libertas sit in 
+            ho<lb ed="#Bb" break="no" n="35"/>mine, quam in Angelo, dicendum quod
+            <lb ed="#Bb" n="36"/>nihil valet, et fundatur super quoddam
+            <lb ed="#Bb" n="37"/>falsura, scilicet quod major vel minor
+            <lb ed="#Bb" n="38"/>vertibilitas sit causa majoris vel minoris
+            <lb ed="#Bb" n="39"/>libertatis : hac cnim non est causa 
+            majo<lb ed="#Bb" break="no" n="40"/>ris vel minoris libertatis, sed potius hoc
+            <lb ed="#Bb" n="41"/>quod in ipsa natura intellectuali est, et
+            <lb ed="#Bb" n="42"/>non extra ipsam, quod liberum sit 
+            prin<lb ed="#Bb" break="no" n="43"/>ciplum ct causa suarum electionum et
+            <lb ed="#Bb" n="44"/>actionum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2250">
+            <lb ed="#Bb" n="45"/>Ad aliud dicendum, quod licet 
+            expres<lb ed="#Bb" break="no" n="46"/>se ibi non dicatur Angelus ad imaginem,
+            <lb ed="#Bb" n="47"/>tamen, Ezechiel. xxvin, 12, sub typo re
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="48"/>gis Tyride Angelo dicitur : <quote xml:id="Almn78-d45892-Qd1e2263">Tu 
+              signacu<lb ed="#Bb" break="no" n="49"/>lum similitudinis, plenus sapientia, et
+              <lb ed="#Bb" n="50"/>perfectus decore</quote>. Super quod dicit 
+            Gre<lb ed="#Bb" break="no" n="51"/>gorius, quod <quote xml:id="Almn78-d45892-Qd1e2272">ex eo quod in Angelo
+              <lb ed="#Bb" n="52"/>subtilior et nobilior est natura quam in
+              <lb ed="#Bb" n="53"/>homine, eo in Angelo imago Dei magis
+              <lb ed="#Bb" n="54"/>est expressa. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e2282">
+            <lb ed="#Bb" n="55"/>Ad aliud dicendum, quod libertas 
+            ar<lb ed="#Bb" break="no" n="56"/>bitrii in quantum est a coactione 
+            simpli<lb ed="#Bb" break="no" n="57"/>ci, que non dicit nisi privationem puram
+            <lb ed="#Bb" n="58"/>et omnimodam cogentis et necessitatem
+            <lb ed="#Bb" n="59"/>imponentis, equalis est in Angelo et in
+            <lb ed="#Bb" n="60"/>homine : in aliis tamen non est aqualis,
+            <lb ed="#Bb" n="61"/>ut dictum est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2301">
+            <lb ed="#Bb" n="62"/>Ad ultimum dicendum, quod voluntas
+            <lb ed="#Bb" n="63"/>intellectualis aqualis est in homine et in
+            <lb ed="#Bb" n="64"/>Angelo quantum ad libertatem a 
+            coa<lb ed="#Bb" break="no" n="65"/>clione necessitatem imponentis, sed non
+            <lb ed="#Bb" n="66"/>in aliis, ut dictum est.
+          </p>
+        </div>
+        <div xml:id="Almn78-d45892-Dd1e2315">
+          <head xml:id="Almn78-d45892-Hd1e2317">Membrum 4</head>
+          <head xml:id="Almn78-d45892-Hd1e2320" type="question-title">
+            Utrum libertas arbitrii aequaliter 
+            conveniat omni Angelo, vel secundum plus
+            vel minus uni, quam alteri?
+          </head>
+          <p xml:id="Almn78-d45892-d1e2323">
+            <lb ed="#Bb" n="67"/>MEMBRUM IV.
+            <lb ed="#Bb" n="68"/>Utrum libertas arbitrii aequaliter 
+            conve<lb ed="#Bb" break="no" n="69"/>niat omni Angelo, vel secundum plus
+            <lb ed="#Bb" n="70"/>vel minus uni, quam alteri?
+          </p>
+          <p xml:id="Almn78-d45892-d1e2334">
+            <lb ed="#Bb" n="71"/>Quarto queritur, Utrum libertas 
+            arbi<lb ed="#Bb" break="no" n="72"/>trii aequaliter conveniat omni Angelo,
+            <lb ed="#Bb" n="73"/>vel secundum plus et minus uni, quam
+            <lb ed="#Bb" n="74"/>alteri?
+          </p>
+          <p xml:id="Almn78-d45892-d1e2345">
+            <lb ed="#Bb" n="75"/>Et videtur, quod secundum plus et
+            <lb ed="#Bb" n="76"/>minus.
+            <lb ed="#Bb" n="77"/>1. Ex quo enim major libertas sequitur
+            <lb ed="#Bb" n="78"/>ad subtiliorem intelligentiam et 
+            simpli<lb ed="#Bb" break="no" n="79"/>ciorem essentiam, et in simplicitate 
+            es<lb ed="#Bb" break="no" n="80"/>senlie et subtilitate intelligentiz 
+            diffe<lb ed="#Bb" break="no" n="81"/>rentes sunt Angeli, videtur quod in
+            <lb ed="#Bb" n="82"/>libertate -arbitrii differentes sint: et sic
+            <lb ed="#Bb" n="83"/>unus habet majorem liberiatem, quam
+            <lb ed="#Bb" n="84"/>alius.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2370">
+            <lb ed="#Bb" n="85"/>2. Adhuc, Secundum hierarchias et
+            <lb ed="#Bb" n="86"/>ordines distincti sunt Angeli, ila quod
+            <lb ed="#Bb" n="87"/>ili de prima hierarchia a beato Dionysio
+            <pb ed="#Bb" n="217"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>in libro de Celesti hierarchia, dicuntur
+            <lb ed="#Bb" n="2"/>divinum agahna, eo quod similitudo
+            <lb ed="#Bb" n="3"/>Dei expressius relucet in eis, quam
+            <lb ed="#Bb" n="4"/>in aliis: sed ista relucentia similitudinis
+            <lb ed="#Bb" n="5"/>accipitur secundum participationem 
+            bo<lb ed="#Bb" break="no" n="6"/>nitatum a Deo descendentium in ipsos:
+            <lb ed="#Bb" n="7"/>sed precipua bonitatum est libertas: illa
+            <lb ed="#Bb" n="8"/>ergo in superioribus expressius 
+            resplen<lb ed="#Bb" break="no" n="9"/>det, quam in inferioribus ad 
+            similitudi<lb ed="#Bb" break="no" n="10"/>nem Dei.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2405">
+            <lb ed="#Bb" n="11"/>3. Adhuc, Secundum ordinem 
+            causa<lb ed="#Bb" break="no" n="12"/>rum in philosophia a Philosophis 
+            deter<lb ed="#Bb" break="no" n="13"/>minatum, bonitates prima cause magis
+            <lb ed="#Bb" n="14"/>resplendent in proxima secunda causa
+            <lb ed="#Bb" n="15"/>juxta primam, et potentiores sunt quam
+            <lb ed="#Bb" n="16"/>in tertia et quarta, et sic deinceps: ergo
+            <lb ed="#Bb" n="17"/>in ordine Angelorum ad Deum idem est:
+            <lb ed="#Bb" n="18"/>quia si in naturalibus est ordo, multo
+            <lb ed="#Bb" n="19"/>magis in divinis: quia magis ordinata
+            <lb ed="#Bb" n="20"/>sunt divina, quam naturalia. Cum ergo
+            <lb ed="#Bb" n="21"/>precipua bonitatum sit libertas arbitrii,
+            <lb ed="#Bb" n="22"/>in superioribus Angelis proximis Deo erit
+            <lb ed="#Bb" n="23"/>libertas potentior, quam in inferioribus.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2436">
+            <lb ed="#Bb" n="24"/>4. Adhuc, In humanis sic est, quod 
+            in<lb ed="#Bb" break="no" n="25"/>ferior qui respicere habet ad preceptum
+            <lb ed="#Bb" n="26"/>superioris, non est equalis libertatis ad
+            <lb ed="#Bb" n="27"/>agendum et eligendum que vult cum
+            <lb ed="#Bb" n="28"/>superiori. Cum ergo subjectio et 
+            prela<lb ed="#Bb" break="no" n="29"/>tio sit in Angelis, ad quam, ut dicit 
+            Dio<lb ed="#Bb" break="no" n="30"/>nysius in Celesti hierarchia, prelatio et
+            <lb ed="#Bb" n="31"/>subjectio humana excmplata est, videtur
+            <lb ed="#Bb" n="32"/>quod in subjecto Angelo non sit xqualis
+            <lb ed="#Bb" n="33"/>libertas, sicut in Angelo prelato.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2460">
+            <lb ed="#Bb" n="34"/>5. Adhuc, Secundum jura canonica et
+            <lb ed="#Bb" n="35"/>civilia, subditus. liberum consensum ad
+            <lb ed="#Bb" n="36"/>facienda vel eligenda non habet sine 
+            li<lb ed="#Bb" break="no" n="37"/>centia superioris. Cum ergo in Angelis
+            <lb ed="#Bb" n="38"/>sint prelati et subjecti, subjectus liberum
+            <lb ed="#Bb" n="39"/>consensum ad agenda et eligenda non
+            <lb ed="#Bb" n="40"/>habet, sed prelatus habet liberum 
+            con<lb ed="#Bb" break="no" n="41"/>sensum ad hee: ergo differens libertas
+            <lb ed="#Bb" n="42"/>secundum plus et minus est prelato, et
+            <lb ed="#Bb" n="43"/>subjecto.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2484">
+            <lb ed="#Bb" n="44"/>6. Adhuc, Sicut a principio dictum est,
+            <lb ed="#Bb" n="45"/>liberum dicimus hominem qui causa sui
+            <lb ed="#Bb" n="46"/>est : subjectus non causa sui est, sed re -
+            <lb ed="#Bb" n="47"/>spicit ad superiorem, cujus voluntas vel
+            <lb ed="#Bb" n="48"/>preceptum sibi causa est agendi et 
+            vo<lb ed="#Bb" break="no" n="49"/>lendi sive eligendi quod vult: superior
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>autem causa sibi est agendi et volendi:
+            <lb ed="#Bb" n="51"/>ergo ewqualis libertas agendi et volendi
+            <lb ed="#Bb" n="52"/>sive eligendi non est in superiore et 
+            in<lb ed="#Bb" break="no" n="53"/>feriore.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2510">
+            <lb ed="#Bb" n="54"/>In contrarium hujus est, quod in 
+            om<lb ed="#Bb" break="no" n="55"/>ni natura intellectuali, in qua equalis est
+            <lb ed="#Bb" n="56"/>elevatio supra materiam et naturam 
+            obli<lb ed="#Bb" break="no" n="57"/>gantem formam qu in ipsa est ad hoc
+            <lb ed="#Bb" n="58"/>agendum et non aliud, equalis est 
+            li<lb ed="#Bb" break="no" n="59"/>bertas agendi et eligendi quod vult; in
+            <lb ed="#Bb" n="60"/>omnibus Angelis hujusmodi elevatio est
+            <lb ed="#Bb" n="61"/>equalis, nullus enim materie obliganti
+            <lb ed="#Bb" n="62"/>ad hoc vel ad hoc immergitur vel unitur:
+            <lb ed="#Bb" n="63"/>ergo in omnibus libertas agendi vel 
+            eli<lb ed="#Bb" break="no" n="64"/>gendi aqualis est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2537">
+            <lb ed="#Bb" n="65"/>Solutio. Dicendum, quod libertas a
+            <lb ed="#Bb" n="66"/>coactione propter causam in questione
+            <lb ed="#Bb" n="67"/>precedentis membri dictam, equalis est
+            <lb ed="#Bb" n="68"/>in omnibus Angelis, tam superioribus
+            <lb ed="#Bb" n="69"/>quam inferioribus: omnes enim liberi
+            <lb ed="#Bb" n="70"/>sunt a cogente et necessitatem 
+            impo<lb ed="#Bb" break="no" n="71"/>nente ad hoc vel illud agendum vel
+            <lb ed="#Bb" n="72"/>eligendum: sed ab inclinante plus in
+            <lb ed="#Bb" n="73"/>bonum vel minus non equaliter 
+            dis<lb ed="#Bb" break="no" n="74"/>positi sunt, nec equaliter liberi: 
+            su<lb ed="#Bb" break="no" n="75"/>perior enim melius dispositus est ad
+            <lb ed="#Bb" n="76"/>bonum, quam inferior et ad meliora,
+            <lb ed="#Bb" n="77"/>secundum quod vult Dionysius in 
+            Ce<lb ed="#Bb" break="no" n="78"/>lesti hierarchia.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2570">
+            <lb ed="#Bb" n="79"/>Ad primum ergo dicendum, quod ex
+            <lb ed="#Bb" n="80"/>hoc non probatur,quod unus alio habeat
+            <lb ed="#Bb" n="81"/>majorem liberlatem a coactione, sed
+            <lb ed="#Bb" n="82"/>quod unus meliori natura disponitur ad
+            <lb ed="#Bb" n="83"/>bonum quam alius: sicut eliam 
+            Diony<lb ed="#Bb" break="no" n="84"/>sius dicit, quod <quote xml:id="Almn78-d45892-Qd1e2585"> uniusquisque divinam
+              <lb ed="#Bb" n="85"/>recipit illuminationem secundum 
+              pro<lb ed="#Bb" break="no" n="86"/>priam. analogiam. </quote>
+          </p>
+          <p xml:id="Almn78-d45892-d1e2593">
+            <lb ed="#Bb" n="87"/>Eopem modo dicendum ad aliud: per
+            <lb ed="#Bb" n="88"/>hoc enim non probatur, quod libertas a
+            <lb ed="#Bb" n="89"/>coactione inequalis sit in superioribus
+            <lb ed="#Bb" n="90"/>et inferioribus, sed quod in diversa 
+            ana<lb ed="#Bb" break="no" n="91"/>logia se habeant ad bonum divinum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2606">
+            <lb ed="#Bb" n="92"/>Ad aliud dicendum, quod hoc sine 
+            du<lb ed="#Bb" break="no" n="93"/>bio procedit, et verum est, quod divina
+            <lb ed="#Bb" n="94"/>magis ordinata sunt quam naturalia: sed
+            <lb ed="#Bb" n="95"/>per hoc quod minus resplendet in 
+            infe<lb ed="#Bb" break="no" n="96"/>rioribus libertas, per hoc non ponitur
+            <lb ed="#Bb" n="97"/>coactio in eis: sicut quia magis resplen
+            <pb ed="#Bb" n="218"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" break="no" n="1"/>det in superioribus, nulla ponitur 
+            coa<lb ed="#Bb" break="no" n="2"/>ctio vel ablatio libertatis,secundum quod
+            <lb ed="#Bb" n="3"/>per meliora et nobiliora disponuntur ad
+            <lb ed="#Bb" n="4"/>bonum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2635">
+            <lb ed="#Bb" n="5"/>Ad aliud dicendum, quod secus est in
+            <lb ed="#Bb" n="6"/>humanis et divinis : subjectio enim 
+            hu<lb ed="#Bb" break="no" n="7"/>mana per modum servitutis est et 
+            neces<lb ed="#Bb" break="no" n="8"/>sitatis, vel ex obligatione voti quod 
+            infe<lb ed="#Bb" break="no" n="9"/>vior fecit superiori, vel ex pacto pretil,
+            <lb ed="#Bb" n="10"/>vel ex conditione servili. Nihil autem 
+            ta<lb ed="#Bb" break="no" n="11"/>lium est in Angelis: et si est ibi prelatio
+            <lb ed="#Bb" n="12"/>et subjectio, ex ordine officiorum 
+            divino<lb ed="#Bb" break="no" n="13"/>rum est, etex ordine actuum 
+            hierarchi<lb ed="#Bb" break="no" n="14"/>corum, qui, sicut Dionysius dicit in libro
+            <lb ed="#Bb" n="15"/>de Celesti hierarchia, tres sunt, scilicet
+            <lb ed="#Bb" n="16"/>illuminare, purgare, et perficere: et in
+            <lb ed="#Bb" n="17"/>talibus superior inferiori nullam infert
+            <lb ed="#Bb" n="18"/>necessilatem, sed potius libertatem : 
+            li<lb ed="#Bb" break="no" n="19"/>berius enim et per meliora disponitur
+            <lb ed="#Bb" n="20"/>purgatus, illuminatus, et perfectus, ut
+            <lb ed="#Bb" n="21"/>libera voluntate exsequatur quod officii
+            <lb ed="#Bb" n="22"/>sui est, quam non purgatus, non 
+            illumi<lb ed="#Bb" break="no" n="23"/>natus, non perfectus: et ideo non est 
+            si<lb ed="#Bb" break="no" n="24"/>mile de humanis et de divinis.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2681">
+            <lb ed="#Bb" n="25"/>Ad aliud dicendum eodem modo, quod
+            <lb ed="#Bb" n="26"/>jura sunt secundum ordinationes 
+            huma<lb ed="#Bb" break="no" n="27"/>nas: et ideo guod liberum consensum
+            <lb ed="#Bb" n="28"/>inferior non habeat, ex obligatione voti
+            <lb ed="#Bb" n="29"/>vel pacti vel conditionis est, per que
+            <lb ed="#Bb" n="30"/>libertatem suam in manum tradidit 
+            alie<lb ed="#Bb" break="no" n="31"/>nam. In superioribus autem non est nisi
+            <lb ed="#Bb" n="32"/>ex ordine perceptionis illuminationum,
+            <lb ed="#Bb" n="33"/>quas, sicut Dionysius dicit, lex 
+            divinita<lb ed="#Bb" break="no" n="34"/>tis ordinavit per prima media, et per
+            <lb ed="#Bb" n="35"/>media ultima reducere. Inferior autem
+            <lb ed="#Bb" n="36"/>in talibus quanto meliores sive 
+            subli<lb ed="#Bb" break="no" n="37"/>miores percepit illuminationes a 
+            supe<lb ed="#Bb" break="no" n="38"/>riori, tanto liberior et melius 
+            dispo<lb ed="#Bb" break="no" n="39"/>situs efficitur ad omne quod vult, et
+            <lb ed="#Bb" n="40"/>exire debet ad faciendum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2719">
+            <lb ed="#Bb" n="41"/>Ad aliud dicendum, quod hoc etiam
+            <lb ed="#Bb" n="42"/>non tenet nisi in humanis, in quibus ipse
+            <lb ed="#Bb" n="43"/>gradus subjectionis per necessitatem 
+            tol<lb ed="#Bb" break="no" n="44"/>lit libertatem consensus et voluntatis. In
+            <lb ed="#Bb" n="45"/>ordinibus autem angelicis non sic est: et
+            <lb ed="#Bb" n="46"/>ideo in illis non tenet, ut predictum est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2735">
+            <lb ed="#Bb" n="47"/>Id quod in contrarium objicitur, 
+            conce<lb ed="#Bb" break="no" n="48"/>dendum est, quia procedit secundum 
+            ve<lb ed="#Bb" break="no" n="49"/>ritatem, ‘
+          </p>
+        </div>
+        <div xml:id="Almn78-d45892-Dd1e2745">
+          <head xml:id="Almn78-d45892-Hd1e2747">Membrum 5</head>
+          <head xml:id="Almn78-d45892-Hd1e2750" type="question-title">
+            A quo causetur ista libertas in Angelo ?
+          </head>
+          <p xml:id="Almn78-d45892-d1e2753">
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="50"/>MEMBRUM V.
+            <lb ed="#Bb" n="51"/>A quo causetur ista libertas in Angelo ?
+          </p>
+          <p xml:id="Almn78-d45892-d1e2762">
+            <lb ed="#Bb" n="52"/>Quinto queritur, A quo causetur ista
+            <lb ed="#Bb" n="53"/>libertas in Angelo?
+          </p>
+          <p xml:id="Almn78-d45892-d1e2769">
+            <lb ed="#Bb" n="54"/>4. Dixerunt enim quidam,quod libertas
+            <lb ed="#Bb" n="55"/>a coactione naturam intellectualem 
+            se<lb ed="#Bb" break="no" n="56"/>quitur secundum se, et a nullo causatur
+            <lb ed="#Bb" n="57"/>quod sit in ipsa. Sed si hoc est verum:
+            <lb ed="#Bb" n="58"/>tune aut sequitur naturam, in quantum
+            <lb ed="#Bb" n="59"/>natura et substantia quedam est: aut
+            <lb ed="#Bb" n="60"/>sequitur eam, in quantum intellectualis
+            <lb ed="#Bb" n="61"/>est. Si primo modo, vel secundo dica~
+            <lb ed="#Bb" n="62"/>tur, tune circumscripta voluntate ab 
+            in<lb ed="#Bb" break="no" n="63"/>tellectuali natura, adhuc esset in ea talis
+            <lb ed="#Bb" n="64"/>libertas: et hoc falsum est, liber‘as enim
+            <lb ed="#Bb" n="65"/>faciendi quod vult sine voluntate esse
+            <lb ed="#Bb" n="66"/>non potest.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2801">
+            <lb ed="#Bb" n="67"/>2. Adhuc, <name xml:id="Almn78-d45892-Nd1e2805">Beatus Bernardus</name> in 
+            aucto<lb ed="#Bb" break="no" n="68"/>ritate prius inducta dicit, quod libertas
+            <lb ed="#Bb" n="69"/>a coactione equaliter in Deo est, et in
+            <lb ed="#Bb" n="70"/>Angelis, et in hominibus bonis et malis,
+            <lb ed="#Bb" n="71"/>et in demonibus : in nullo enim eorum
+            <lb ed="#Bb" n="72"/>est aliquid cogens voluntatem, quod 
+            ne<lb ed="#Bb" break="no" n="73"/>cessitatem imponat, quin libere faciat
+            <lb ed="#Bb" n="74"/>quod vult, et eligat quod vult, et velit
+            <lb ed="#Bb" n="75"/>quod vult. Videtur ergo, quod non 
+            se<lb ed="#Bb" break="no" n="76"/>quitur naturam intellectualem, nec in
+            <lb ed="#Bb" n="77"/>quantum natura est, nec in quantum 
+            in<lb ed="#Bb" break="no" n="78"/>tellectualis est : natura enim et 
+            intelle<lb ed="#Bb" break="no" n="79"/>ctualitas in Deo, in Angelo bono, in 
+            de<lb ed="#Bb" break="no" n="80"/>mone, in homine bono, et in homine
+            <lb ed="#Bb" n="81"/>malo inequalis est valde: et tamen 
+            li<lb ed="#Bb" break="no" n="82"/>bertas a coactione in his omnibus est
+            <lb ed="#Bb" n="83"/>equalis: quod esse non posset, si 
+            liber<lb ed="#Bb" break="no" n="84"/>tas a coactione sequeretur naturam in
+            <lb ed="#Bb" n="85"/>quantum natura est, vel naturam 
+            intelle<lb ed="#Bb" break="no" n="86"/>ctualem in quantum intellectualis est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2850">
+            <lb ed="#Bb" n="87"/>3. Adhuc, Posse facere quod vult, in
+            <lb ed="#Bb" n="88"/>Deo est per omnimodam sufficientiam,
+            <lb ed="#Bb" n="89"/>qui et in se et in omnibus creaturis sibi
+            <lb ed="#Bb" n="90"/>subjectis semper potest sine impedimento
+            <lb ed="#Bb" n="91"/>facere quod vult. In Angelo autem non
+            <pb ed="#Bb" n="219"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>est per talem sufficientiam : natura enim
+            <lb ed="#Bb" n="2"/>creaturarum, ut dicit Augustinus in lib.
+            <lb ed="#Bb" n="3"/>super Genesim ad lilteram, non 
+            subjici<lb ed="#Bb" break="no" n="4"/>tur Angelis bonis vel malis vel 
+            homini<lb ed="#Bb" break="no" n="5"/>bus ad faciendum in ea vel ex ea quod
+            <lb ed="#Bb" n="6"/>volunt. Ergo libertas faciendi in ea quod
+            <lb ed="#Bb" n="7"/>volunt, inequaliter est in Deo et in 
+            An<lb ed="#Bb" break="no" n="8"/>gelo et in hominibus bonis vel malis, et
+            <lb ed="#Bb" n="9"/>in demonibus, sed libertas a coactione
+            <lb ed="#Bb" n="10"/>in omnibus his est equalis: ergo libertas
+            <lb ed="#Bb" n="11"/>a coactione nec sequitur naturam 
+            intelle<lb ed="#Bb" break="no" n="12"/>ctualem in quantum natura est, nec 
+            se<lb ed="#Bb" break="no" n="13"/>quitur eam in quantum intellectualis est,
+            <lb ed="#Bb" n="14"/>nec sequitur eam in quantum habet 
+            vo<lb ed="#Bb" break="no" n="15"/>luntatem.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2900">
+            <lb ed="#Bb" n="16"/>Ulterius, quia libertas dicitur esse in
+            <lb ed="#Bb" n="17"/>hoe, quod potest in bonum vel malum se
+            <lb ed="#Bb" n="18"/>flectere per electionem, queritur, Utrum
+            <lb ed="#Bb" n="19"/>ista duo, posse in bonum et posse in 
+            ma<lb ed="#Bb" break="no" n="20"/>lum, sint ab eodem principio ?
+          </p>
+          <p xml:id="Almn78-d45892-d1e2913">
+            <lb ed="#Bb" n="21"/>Et videtur, quod non: quia posse se
+            <lb ed="#Bb" n="22"/>converlere in bonum, non potest esse
+            <lb ed="#Bb" n="23"/>nisi a Deo sine quo nulla creatura potest
+            <lb ed="#Bb" n="24"/>aliquid bonum vel velle vel facere. Joan.
+            <lb ed="#Bb" n="25"/>xv, 15: Sine me nihil potestis facere.
+            <lb ed="#Bb" n="26"/>Ad Philip, n, 13: Deus operatur in 
+            vo<lb ed="#Bb" break="no" n="27"/>bis et velle et perficere, pro bona 
+            volun<lb ed="#Bb" break="no" n="28"/>tate. Posse autem declinare non potest
+            <lb ed="#Bb" n="29"/>esse a Deo : quia concorditer dicunt 
+            Au<lb ed="#Bb" break="no" n="30"/>gustinus, et Dionysius, et alii sancti
+            <lb ed="#Bb" n="31"/>Doctores, quod Deus non potest esse
+            <lb ed="#Bb" n="32"/>causa mali: Deus enim non potest 
+            ejus<lb ed="#Bb" break="no" n="33"/>dem rei esse auctor, cujus est ultor : est
+            <lb ed="#Bb" n="34"/>autem ultor mali: ergo non est causa
+            <lb ed="#Bb" n="35"/>ejusdem.
+          </p>
+          <p xml:id="Almn78-d45892-d1e2948">
+            <lb ed="#Bb" n="36"/>Si dicatur, quod causa hujus, scilicet
+            <lb ed="#Bb" n="37"/>quod potest declinare in malum Angelus
+            <lb ed="#Bb" n="38"/>ct homo, est quia est ex nihilo uterque
+            <lb ed="#Bb" n="39"/>eorum: ab illo enim, ut dicit 
+            Damasce<lb ed="#Bb" break="no" n="40"/>nus, est verlibilitas ef im natura et in
+            <lb ed="#Bb" n="41"/>electione. Conrra: Nihil nihil ponit: et
+            <lb ed="#Bb" n="42"/>quod nihil est nec causa, nec causatum
+            <lb ed="#Bb" n="43"/>potest esse entis. Ergo cum talis potentia
+            <lb ed="#Bb" n="44"/>inclinandi in malum et eligendi malum,
+            <lb ed="#Bb" n="45"/>sit aliqua potentia, et aliquid entitatis
+            <lb ed="#Bb" n="46"/>habeat, ex pure nihilo causari non 
+            pot<lb ed="#Bb" break="no" n="47"/>est,
+          </p>
+          <p xml:id="Almn78-d45892-d1e2977">
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="48"/>Soxvurio. Ad primum quesitum 
+            dicen<lb ed="#Bb" break="no" n="49"/>dum, quod in natura intellectuali 
+            po<lb ed="#Bb" break="no" n="50"/>testas faciendi quod vult, sequitur ex eo,
+            <lb ed="#Bb" n="51"/>quod facit eam per id quod ipsa est, 
+            suf<lb ed="#Bb" break="no" n="52"/>ficiens principium esse suorum actuum
+            <lb ed="#Bb" n="53"/>et suarum electionum. Et hoc est 
+            secun<lb ed="#Bb" break="no" n="54"/>dum VDamascenum et Gregorium 
+            Nysse<lb ed="#Bb" break="no" n="55"/>num, quod facit esse voluntarium 
+            princi<lb ed="#Bb" break="no" n="56"/>pium actionum et electionum, secundum
+            <lb ed="#Bb" n="57"/>quod definitur voluntarium quod 
+            oppo<lb ed="#Bb" break="no" n="58"/>nitur involuntario tam per violentiam
+            <lb ed="#Bb" n="59"/>quam per ignorantiam, cujus principium
+            <lb ed="#Bb" n="60"/>est in ipso consciente singularia, hoc est,
+            <lb ed="#Bb" n="61"/>singulares circumsiantias, in quibus est
+            <lb ed="#Bb" n="62"/>actus sive electio. Hujus autem tamquam
+            <lb ed="#Bb" n="63"/>proxima causa est elevatio intellectualis
+            <lb ed="#Bb" n="64"/>nature super materiam corporalem et
+            <lb ed="#Bb" n="65"/>naturam, ita quod nullius materi est
+            <lb ed="#Bb" n="66"/>actus. Omne enim quod est actus 
+            natu<lb ed="#Bb" break="no" n="67"/>ralis materie et nature, obligatur ad hoc
+            <lb ed="#Bb" n="68"/>vel illud faciendum, ct non aliud, et per
+            <lb ed="#Bb" n="69"/>consequens privatur liberlate faciendi
+            <lb ed="#Bb" n="70"/>quod vult vel eligendi. Causa autem 
+            pri<lb ed="#Bb" break="no" n="71"/>ma est Deus sic disponens et ordinans et
+            <lb ed="#Bb" n="72"/>faciens naturam intellectualem. Unde
+            <lb ed="#Bb" n="73"/>concedimus, quod non sequitur naturam
+            <lb ed="#Bb" n="74"/>in quantum natura est, nee in quantum
+            <lb ed="#Bb" n="75"/>intellectualis est: sed sequitur eam in
+            <lb ed="#Bb" n="76"/>quantum est principium voluntarium,
+            <lb ed="#Bb" n="77"/>sic super materiam et naturam per 
+            volun<lb ed="#Bb" break="no" n="78"/>tarium elevata.
+          </p>
+          <p xml:id="Almn78-d45892-d1e3050">
+            <lb ed="#Bb" n="79"/>Et per hoc patet solutio ad primum.
+          </p>
+          <p xml:id="Almn78-d45892-d1e3055">
+            <lb ed="#Bb" n="80"/>Ad aliud dicendum, quod sicut dictum
+            <lb ed="#Bb" n="81"/>est, libertas a coactione fundatur in pura
+            <lb ed="#Bb" n="82"/>et omnimoda privatione cogentis et 
+            neces<lb ed="#Bb" break="no" n="83"/>sitatem imponcntis : et quia intelligi non
+            <lb ed="#Bb" n="84"/>potest, qualiter hee major sit in una 
+            in<lb ed="#Bb" break="no" n="85"/>tellectuali natura quam in alia, ideo dicit
+            <lb ed="#Bb" n="86"/>Bernardus, quod equalis est in omnibus.
+          </p>
+          <p xml:id="Almn78-d45892-d1e3073">
+            <lb ed="#Bb" n="87"/>Ad aliud dicendum, quod per hoc non
+            <lb ed="#Bb" n="88"/>probatur, nisi quod libertas faciendi quod
+            <lb ed="#Bb" n="89"/>vult, per prius et posterius est in Deo,
+            <lb ed="#Bb" n="90"/>et in Angelis, ct in homine : sed ex hoc
+            <lb ed="#Bb" n="91"/>non sequitur, quin libertas a coactione
+            <lb ed="#Bb" n="92"/>sit equalis propter causam que dicta est.
+          </p>
+          <p xml:id="Almn78-d45892-d1e3089">
+            <lb ed="#Bb" n="93"/>Ab srcunpo quesitum, dicendum quod
+            <lb ed="#Bb" n="94"/>sicut probatum est, quod liberum 
+            arbi<lb ed="#Bb" break="no" n="95"/>trium possit converti in bonum et velle
+            <pb ed="#Bb" n="220"/>
+            <cb ed="#Bb" n="a"/>
+            <lb ed="#Bb" n="1"/>illud, pro certo non habet causam, nisi
+            <lb ed="#Bb" n="2"/>summum bonum, quod est Deus: sed
+            <lb ed="#Bb" n="3"/>quod potest converti in malum, ut dicit
+            <lb ed="#Bb" n="4"/>Augustinus, non habet causam 
+            efficien<lb ed="#Bb" break="no" n="5"/>tem, sed deficientem, hoc est, bonum
+            <lb ed="#Bb" n="6"/>creatuim deficiens ab immutabili bono,
+            <lb ed="#Bb" n="7"/>quod vertibilitatem quidem habet in
+            <cb ed="#Bb" n="b"/>
+            <lb ed="#Bb" n="8"/>quantum est ex nihilo, sed actum incli-'
+            <lb ed="#Bb" n="9"/>nationis in malum habet in quantum est
+            <lb ed="#Bb" n="10"/>aversum et deficiens a summo bono: sic
+            <lb ed="#Bb" n="11"/>enim ens est, et bonum deficiens: et sic
+            <lb ed="#Bb" n="12"/>est causa actus deficientis, qui est 
+            pecca<lb ed="#Bb" break="no" n="13"/>tum, et actus sub deformitate peccati
+            <lb ed="#Bb" n="14"/>existens.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

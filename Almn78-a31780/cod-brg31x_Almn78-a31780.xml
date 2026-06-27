@@ -1,857 +1,857 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 21</title>
-            <author ref="#Albert">Albert the Great</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 21</title>
-               <date when="2021-11-11">November 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-11-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Ba" n="148"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Almn78-a31780"><!-- p1t4q21 -->
-            <head xml:id="Almn78-a31780-Hd1e106">Quaestio 21</head>
-            <head xml:id="Almn78-a31780-Hd1e109" type="question-title">
-      De incommutabilitate Dei.
-    </head>
-            <p xml:id="Almn78-a31780-d1e112">
-               <cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="30"/>QUAESTIO XXI.
-<lb ed="#Ba" n="31"/>De incommutabilitate Dei.
-</p>
-            <p xml:id="Almn78-a31780-d1e121">
-               <lb ed="#Ba" n="32"/>Deinde queritur de incommutabilitate
-<lb ed="#Ba" n="33"/>Dei.
-<lb ed="#Ba" n="34"/>Et quia incommutabilitas causa 
-eter<lb ed="#Ba" break="no" n="35"/>nitatis est, queritur consequenter de
-<lb ed="#Ba" n="36"/>eternitate.
-  
-<lb ed="#Ba" n="37"/>Circa incommutabilitatem queruntur
-<lb ed="#Ba" n="38"/>tria.
-<lb ed="#Ba" n="39"/>Primo, An essentia divina sive Deus
-<lb ed="#Ba" n="40"/>sit incommutabilis ?
-<lb ed="#Ba" n="41"/>Secundo, Utrum aliquis motus vel
-<lb ed="#Ba" n="42"/>mutatio Deo conveniat ?
-<lb ed="#Ba" n="43"/>Tertio, Utrum incommutabile esse sit
-<lb ed="#Ba" n="44"/>proprium essentia divine ?
-</p>
-            <div xml:id="Almn78-a31780-Dd1e152">
-               <head xml:id="Almn78-a31780-Hd1e154">Membrum 1</head>
-               <head xml:id="Almn78-a31780-Hd1e157" type="question-title">
-  Utrum divina essentia sive Deus sit
-  incommutabilis?
-</head>
-               <p xml:id="Almn78-a31780-d1e160">
-                  <lb ed="#Ba" n="45"/>MEMBRUM I.
-<lb ed="#Ba" n="46"/>Utrum divina essentia sive Deus sit
-<lb ed="#Ba" n="47"/>incommutabilis?
-</p>
-               <p xml:id="Almn78-a31780-d1e169">
-                  <lb ed="#Ba" n="48"/>Quaeritur ergo primo, Utrum divina
-<lb ed="#Ba" n="49"/>essentia incommutabilis sit ?
-</p>
-               <p xml:id="Almn78-a31780-d1e176">
-                  <lb ed="#Ba" n="50"/>Quod autem incommutabilis sit, 
-pro<lb ed="#Ba" break="no" n="51"/>bat
-<lb ed="#Ba" n="52"/>1. Richardus in libro de Trinitate, sup-
-<cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" break="no" n="53"/>ponens hoc, quod omne quod mutatur,
-<lb ed="#Ba" n="54"/>vel mutatur in melius, vel in pejus, vel
-<lb ed="#Ba" n="55"/>in equale. In melius mutari non potest
-<lb ed="#Ba" n="56"/>quod omnino perfectum est : quia si 
-ha<lb ed="#Ba" break="no" n="57"/>bet melius ad quod mutatur, sequitur
-<lb ed="#Ba" n="58"/>ipsum perfectum non esse. In pejus 
-mu<lb ed="#Ba" break="no" n="59"/>tari non potest, quod verissime est :
-<lb ed="#Ba" n="60"/>quia si in pejus mutatur, admixtam 
-ha<lb ed="#Ba" break="no" n="61"/>bet privationem qua meliori privetur : et
-<lb ed="#Ba" n="62"/>admixtam habens privationem, non 
-ve<lb ed="#Ba" break="no" n="63"/>rissime est. Ad equale mutari non 
-pot<lb ed="#Ba" break="no" n="64"/>est, quod a seipso est: quia enim mutans
-<lb ed="#Ba" n="65"/>semper equale est, et omne mutans 
-mu<lb ed="#Ba" break="no" n="66"/>tat ad suam speciem, id quod a seipso
-<lb ed="#Ba" n="67"/>est, si mutat, mutat ad idem : sed non
-<lb ed="#Ba" n="68"/>mutat, quia in omni eo quod est mutans,
-<lb ed="#Ba" n="69"/>aliud est mutans, et aliud mutatum :
-<lb ed="#Ba" n="70"/>quod autem a seipso est, non habet aliud
-<lb ed="#Ba" n="71"/>quo sit, et quod sit: si ergo mutaret
-<lb ed="#Ba" n="72"/>se de statu in ‘statum, sequeretur quod a
-<lb ed="#Ba" n="73"/>seipso non esset. Cum ergo Deus 
-perfe<lb ed="#Ba" break="no" n="74"/>ctissime et verissime et a seipso sit,
-sequi<lb ed="#Ba" break="no" n="75"/>tur quod nec in melius, nec in pejus, nec
-<lb ed="#Ba" n="76"/>equale mutari possit, et sic penitus 
-in<lb ed="#Ba" break="no" n="77"/>commutabilis est.
-</p>
-               <p xml:id="Almn78-a31780-d1e242">
-                  <lb ed="#Ba" n="78"/>2. Adhuc, <ref xml:id="Almn78-a31780-Rvn1w3d" corresp="#Almn78-a31780-Qd1e250">Augustinus</ref>, et ponitur a
-<lb ed="#Ba" n="79"/><ref xml:id="Almn78-a31780-Rgvn1ds" corresp="#Almn78-a31780-Qd1e250" target="http://scta.info/resource/pll1d8c2-d1e3480@49-94">Magistro in octava distinctione libri
-<lb ed="#Ba" n="80"/>primi Sententiarum</ref>: <quote xml:id="Almn78-a31780-Qd1e250" source="http://scta.info/resource/adt-l5-d1e680@116-157">Quod mutatur,
-<pb ed="#Ba" n="149"/>
-   <cb ed="#Ba" n="a"/>
-   <lb ed="#Ba" n="1"/>non servat ipsum verum esse: et quod
-  <lb ed="#Ba" n="2"/>mutari potest, etiamsi non mutetur,
-  <lb ed="#Ba" n="3"/>potest quod fuerat non esse. Ideoque
-  <lb ed="#Ba" n="4"/>illud solum quod non tantum non 
-   mu<lb ed="#Ba" n="5" break="no"/>tatur, verum etiam omnino mutari non
-  <lb ed="#Ba" n="6"/>potest, verissime dicitur esse</quote>, id est,
-  <lb ed="#Ba" n="7"/>substantia Patris et Filii et Spiritus
-  <lb ed="#Ba" n="8"/>sancti. Hac <ref xml:id="Almn78-a31780-Rfndhuh" corresp="#Almn78-a31780-Qcnd711">Augustinus scribit in libro
-<lb ed="#Ba" n="9"/>V de Trinitate</ref>. Ergo videtur, quod
-<lb ed="#Ba" n="10"/><quote xml:id="Almn78-a31780-Qcnd711" source="http://scta.info/resource/adt-l5-d1e690@200-209">Deus omnino sit incommutabilis</quote>.
-</p>
-               <p xml:id="Almn78-a31780-d1e280">
-                  <lb ed="#Ba" n="11"/>3. Ahduc, Omne quod nullo modo in
-<lb ed="#Ba" n="12"/>potentia est, nullo modo mutabile est:
-<lb ed="#Ba" n="13"/>quod verissime est, nullo modo in 
-po<lb ed="#Ba" break="no" n="14"/>tentia est : Deus verissime est: ergo
-<lb ed="#Ba" n="15"/>nullo modo mutabilis est. Omnis enim
-<lb ed="#Ba" n="16"/>mutatio de potentia est ad actum: 
-poten<lb ed="#Ba" break="no" n="17"/>lia autem permixta privationi est : et
-<lb ed="#Ba" n="18"/>quod permixtum privationi est, non 
-ve<lb ed="#Ba" break="no" n="19"/>rissime est: ergo quod verissime est,
-<lb ed="#Ba" n="20"/>commutabile esse non potest: ergo Deus
-<lb ed="#Ba" n="21"/>commutabilis esse non potest.
-</p>
-               <p xml:id="Almn78-a31780-d1e306">
-                  <lb ed="#Ba" n="22"/>4. Fortius objicitur per hoc quod dicit
-<lb ed="#Ba" n="23"/>Aristoteles, et confirmat Augustinus in
-<lb ed="#Ba" n="24"/>libro VHI super Genesim ad litteram,
-<lb ed="#Ba" n="25"/>ot Boetius in libro de Consolatione 
-philo<lb ed="#Ba" break="no" n="26"/>sophiae, quod <quote xml:id="Almn78-a31780-Qd1e319">omnis motus ab 
-immo<lb ed="#Ba" break="no" n="27"/>bili est. </quote> Si ergo hic motus ab hoc 
-im<lb ed="#Ba" break="no" n="28"/>mobili : et motus simpliciter a simpliciter
-<lb ed="#Ba" n="29"/>immobili: sed Deus est a quo omnis 
-mo<lb ed="#Ba" break="no" n="30"/>tus: ergo Deus simpliciter immobilis et
-<lb ed="#Ba" n="31"/>incommutabilis est. Et hoc sequitur ex
-<lb ed="#Ba" n="32"/>conclusione Aristotelis in fine octavi
-<lb ed="#Ba" n="33"/>Physicorum, “ubi dicit, quod <quote xml:id="Almn78-a31780-Qd1e337"> motor
-<lb ed="#Ba" n="34"/>primus est indivisibilis et impartibilis,
-<lb ed="#Ba" n="35"/>non habens magnitudinem penitus. </quote>
-(mne. enim quod movetur, divisibile est,
-<lb ed="#Ba" n="36"/>sicut dicitur in libro de Causis, 
-proposi<lb ed="#Ba" break="no" n="37"/>lione septima, que dicit, quod <quote xml:id="Almn78-a31780-Qd1e348"> 
-intelli<lb ed="#Ba" break="no" n="38"/>gentia est substantia que non dividitur. </quote>
-                  <lb ed="#Ba" n="39"/>Quod exponens dicit: <quote xml:id="Almn78-a31780-Qd1e356"> Omne divisibile
-<lb ed="#Ba" n="40"/>non dividitur, nisi in multitudinem, aut
-<lb ed="#Ba" n="41"/>magnitudinem, aut motum suum. Cum
-<lb ed="#Ba" n="42"/>ergo res est secundum hance 
-dispositio<lb ed="#Ba" break="no" n="43"/>nem, quod scilicet aliquo modo sic 
-divi<lb ed="#Ba" break="no" n="44"/>ditur, est sub tempore: sed intelligentia
-  <cb ed="#Ba" n="b"/>
-                     <lb ed="#Ba" n="45"/>non est sub tempore, sed cum 
-eterni<lb ed="#Ba" break="no" n="46"/>tate : ergo intelligentia est substantia que
-<lb ed="#Ba" n="47"/>non dividitur. </quote> Si autem hoc convenit
-<lb ed="#Ba" n="48"/>intelligentie, multo magis cause prime,
-<lb ed="#Ba" n="49"/>que sicut ibidem dicitur, ante 
-eternita<lb ed="#Ba" break="no" n="50"/>tem est. Hoc est quod dicit Boetius in 
-li<lb ed="#Ba" break="no" n="51"/>bro de Consolatione philosophiae :
-<lb ed="#Ba" n="52"/>
-                  <quote xml:id="Almn78-a31780-Qd1e389">Stabilisque manens das cuncta moveri.</quote>
-               </p>
-               <p xml:id="Almn78-a31780-d1e393">
-                  <lb ed="#Ba" n="53"/>Amplius, In hymno Ambrosii:
-<lb ed="#Ba" n="54"/>
-                  <quote xml:id="Almn78-a31780-Qd1e399">Rerum Deu tenax vigo,
-<lb ed="#Ba" n="55"/>Immotus in te permanens,
-<lb ed="#Ba" n="56"/>Lucis diurne tempora
-<lb ed="#Ba" n="57"/>Successibus determinans</quote>
-               </p>
-               <p xml:id="Almn78-a31780-d1e409">
-                  <lb ed="#Ba" n="58"/>Hoc etiam innuitur in principio VI
-<lb ed="#Ba" n="59"/>Physicorum: <quote xml:id="Almn78-a31780-Qd1e415"> Si enim primus motor
-<lb ed="#Ba" n="60"/>esset mobilis, sequeretur quod motus esset
-<lb ed="#Ba" n="61"/>ante primum motum. </quote> Et sequeretur,
-<lb ed="#Ba" n="62"/>quod motus alterationis esset primus in
-<lb ed="#Ba" n="63"/>genere motus: que absurda sunt. 
-Pro<lb ed="#Ba" break="no" n="64"/>batum est enim, quod primus in genere
-<lb ed="#Ba" n="65"/>motus, est localis motus, et primus inter
-<lb ed="#Ba" n="66"/>locales motus est motus coeli,et ante illum
-<lb ed="#Ba" n="67"/>nihil est quod moveatur vel mobile sit.
-</p>
-               <p xml:id="Almn78-a31780-d1e436">
-                  <lb ed="#Ba" n="68"/>Adhuc, Jacobi, 1, 17: <quote xml:id="Almn78-a31780-Qd1e440" source="http://scta.info/resource/iac1_17@14-21">Apud quem non
-<lb ed="#Ba" n="69"/>est transmutatio, nec vicissitudinis 
-obum<lb ed="#Ba" break="no" n="70"/>bratio</quote>.
-</p>
-               <p xml:id="Almn78-a31780-d1e449">
-                  <lb ed="#Ba" n="71"/>Adhuc, Malach. 11,6: <quote xml:id="Almn78-a31780-Qd1e453">Ego Dominus,
-<lb ed="#Ba" n="72"/>et non mutor</quote>.
-</p>
-               <p xml:id="Almn78-a31780-d1e459">
-                  <lb ed="#Ba" n="73"/>Adhuc, Numer. xxi, 19 : <quote xml:id="Almn78-a31780-Qd1e463">Non est Deus
-<lb ed="#Ba" n="74"/>quasi homo, ut mentiatur, nec ut filius
-<lb ed="#Ba" n="75"/>hominis, ut mutetur</quote>.
-</p>
-               <p xml:id="Almn78-a31780-d1e471">
-                  <lb ed="#Ba" n="76"/>Ex his omnibus concluditur, quod
-<lb ed="#Ba" n="77"/>Deus incommutabilis est penitus et 
-om<lb ed="#Ba" break="no" n="78"/>nino.
-</p>
-               <p xml:id="Almn78-a31780-d1e480">
-                  <lb ed="#Ba" n="79"/>In contrarium est quod
-<lb ed="#Ba" n="80"/>1. Dicit Augustinus in lib. VIII 
-su<lb ed="#Ba" break="no" n="81"/>per Genesim ad litteram, quod <quote xml:id="Almn78-a31780-Qd1e488"> 
-spiri<lb ed="#Ba" break="no" n="82"/>tus creator movet se, sed nec per 
-tem<lb ed="#Ba" break="no" n="83"/>pus, nec per locum. </quote> Quod autem 
-mo<lb ed="#Ba" break="no" n="84"/>vet se, aliquo modo mutabile est. Ergo
-<lb ed="#Ba" n="85"/>Deus aliquo modo mutabilis est.
-</p>
-               <p xml:id="Almn78-a31780-d1e501">
-                  <pb ed="#Ba" n="150"/>
-                  <cb ed="#Ba" n="a"/>
-                  <lb ed="#Ba" n="1"/>2. Item, Videtur per dictum Apuleii
-<lb ed="#Ba" n="2"/>quod inducit Augustinus in libro de 
-Ci<lb ed="#Ba" break="no" n="3"/>vitate Dei, quod Deus est motu et 
-ra<lb ed="#Ba" break="no" n="4"/>tione mundum gubernans. Constat 
-au<lb ed="#Ba" break="no" n="5"/>tem, quod non est gubernans nisi motu
-<lb ed="#Ba" n="6"/>sui : videtur ergo, quod aliquo modo 
-mu<lb ed="#Ba" break="no" n="7"/>tabilis sit.
-</p>
-               <p xml:id="Almn78-a31780-d1e523">
-                  <lb ed="#Ba" n="8"/>3. Adhuc, Appropinquari et elongari
-<lb ed="#Ba" n="9"/>motus sunt: et hide Deodicuntur,Jacobi,
-<lb ed="#Ba" n="10"/>lv, 8: Appropinguate Deo, et 
-appropin<lb ed="#Ba" break="no" n="11"/>guabit vobis.
-</p>
-               <p xml:id="Almn78-a31780-d1e535">
-                  <lb ed="#Ba" n="12"/>4. Adhuc, Sapient. vu, 23: Omnibus
-<lb ed="#Ba" n="13"/>mobilibus mobilior est sapientia. 
-Sa<lb ed="#Ba" break="no" n="14"/>pientia autem divina Deus est. Ergo 
-om<lb ed="#Ba" break="no" n="15"/>nibus mobilibus mobilior Deus est.
-</p>
-               <p xml:id="Almn78-a31780-d1e546">
-                  <lb ed="#Ba" n="16"/>5. Adhuc, Movere est aliter se habere
-<lb ed="#Ba" n="17"/>quam prius, ut dicit Aristoteles in III 
-Phy<lb ed="#Ba" break="no" n="18"/>sicorum : sed Deus aliter se habet modo
-<lb ed="#Ba" n="19"/>quam ab eterno : modo enim se habet ad
-<lb ed="#Ba" n="20"/>creaturam ut creator, gubernator, et
-<lb ed="#Ba" n="21"/>conservator : et hoc modo ab eterno se
-<lb ed="#Ba" n="22"/>non habuit ad creaturam: ergo videtur,
-<lb ed="#Ba" n="23"/>quod Deus sit mutabilis.
-</p>
-               <p xml:id="Almn78-a31780-d1e566">
-                  <lb ed="#Ba" n="24"/>6. Adhuc, <ref xml:id="Almn78-a31780-Rd1e570">Aristoteles in II 
-Physico<lb ed="#Ba" break="no" n="25"/>rum</ref> et in <ref xml:id="Almn78-a31780-Rd1e575">secundo de Anima</ref> vult, quod
-<lb ed="#Ba" n="26"/>duplex sit motus alterationis. Unus qui
-<lb ed="#Ba" n="27"/>est de potentia ad actum, sive qui est de
-<lb ed="#Ba" n="28"/>contrario in contrarium, ut cum de albo
-<lb ed="#Ba" n="29"/>fit nigrum, vel de ignorante sciens. Alius
-<lb ed="#Ba" n="30"/>motus quo quis de otio sive de habitu
-<lb ed="#Ba" n="31"/>mutatur ad actum, ut cum quis de non
-<lb ed="#Ba" n="32"/>considerante fit considerans, vel de 
-ha<lb ed="#Ba" break="no" n="33"/>bitu actualiter agens. Dicit enim <ref xml:id="Almn78-a31780-Rd1e596">
-Aver<lb ed="#Ba" break="no" n="34"/>roes super lI de Anima</ref>,quod habitus est
-<lb ed="#Ba" n="35"/>quo quis aliquid agit cum voluerit. Tali
-<lb ed="#Ba" n="36"/>autem modo videtur Deus alterari : quia
-<lb ed="#Ba" n="37"/>de non creante fit creans (hoc constat), de
-<lb ed="#Ba" n="38"/>non gubernante fit gubernans, et sic est
-<lb ed="#Ba" n="39"/>in multis aliis. Unde Augustinus in lib. I
-<lb ed="#Ba" n="40"/>super Genesim ad litteram dicit, et 
-poni<lb ed="#Ba" break="no" n="41"/>turin Glossa super illud Genesis, u, 18:
-<lb ed="#Ba" n="42"/>Dixit quoque Dominus Deus: Non est
-<lb ed="#Ba" n="43"/>bonum hominem esse solum. \bi querit
-<lb ed="#Ba" n="44"/>Augustinus, Quare ibi vocat Dominum
-<lb ed="#Ba" n="45"/>Deum, cum ante non dixerit nisi 
-simpli<lb ed="#Ba" break="no" n="46"/>citer, Deus ? Et respondet, quod Dominus
-<lb ed="#Ba" n="47"/>dici non poterat, cum servum non habe
-<cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" break="no" n="48"/>ret cui imperaret: homo autem servus
-<lb ed="#Ba" n="49"/>est: unde in factura hominis Deum 
-Do<lb ed="#Ba" break="no" n="50"/>minum vocat. Ex quo relinquitur, quod
-<lb ed="#Ba" n="51"/>ex non Domino factus est Dominus.
-<lb ed="#Ba" n="52"/>Ergo mutatus est.
-</p>
-               <p xml:id="Almn78-a31780-d1e643">
-                  <lb ed="#Ba" n="53"/>7. Adhuc, Constat, quod ex non 
-vo<lb ed="#Ba" break="no" n="54"/>lente aliquid, factus est volens illud. Vult
-<lb ed="#Ba" n="55"/>enim aliquem non esse quando moritur,
-<lb ed="#Ba" n="56"/>quem prius voluit esse cum non 
-morere<lb ed="#Ba" break="no" n="57"/>tur: ergo voluit aliquid quod ante non
-<lb ed="#Ba" n="58"/>voluit: de non volente ergo factus est
-<lb ed="#Ba" n="59"/>volens, et sic secundum voluntatem 
-mu<lb ed="#Ba" break="no" n="60"/>tatus est.
-</p>
-               <p xml:id="Almn78-a31780-d1e663">
-                  <lb ed="#Ba" n="61"/>8. Adhuc, In primo libro 
-Sententia<lb ed="#Ba" break="no" n="62"/>rum, distinctione VII, ponuntur verba
-<lb ed="#Ba" n="63"/>Augustini contra Maximinum libro primo
-<lb ed="#Ba" n="64"/>de Trinitate, cap. 1: <quote xml:id="Almn78-a31780-Qd1e673"> Si Spiritus sanctus
-<lb ed="#Ba" n="65"/>nasci potuit, potuit esse Filius, et ita
-<lb ed="#Ba" n="66"/>mutabilis esse potuit '. </quote> Ergo asimilisi
-<lb ed="#Ba" n="67"/>creator esse potuit, et factus est creator,
-<lb ed="#Ba" n="68"/>potuit esse mutabilis.
-</p>
-               <p xml:id="Almn78-a31780-d1e686">
-                  <lb ed="#Ba" n="69"/>Ex his omnibus videtur, quod Deus
-<lb ed="#Ba" n="70"/>omnino non sit immutabilis.
-</p>
-               <p xml:id="Almn78-a31780-d1e694">
-                  <lb ed="#Ba" n="71"/>Solutio. Ad hoc dicendum, quod et 
-se<lb ed="#Ba" break="no" n="72"/>cundum philosophiam et secundum fidem
-<lb ed="#Ba" n="73"/>Deus est penitus incommutabilis et 
-im<lb ed="#Ba" break="no" n="74"/>mobilis. Est enim muéatio secundum 
-sub<lb ed="#Ba" break="no" n="75"/>stantiam proprie, motus autem 
-secun<lb ed="#Ba" break="no" n="76"/>dum accidens. Dicit enim Aristoteles in
-<lb ed="#Ba" n="77"/>V Physicorum, quod mutatio vel est de
-<lb ed="#Ba" n="78"/>non subjecto ad subjectum, vel de 
-sub<lb ed="#Ba" break="no" n="79"/>jecto ad non subjectum : motus autem
-<lb ed="#Ba" n="80"/>de subjecto ad subjectum. Unde cum
-<lb ed="#Ba" n="81"/>Deus nec in substantia, nec in formis 
-ac<lb ed="#Ba" break="no" n="82"/>cidentalibus in potentia sit, sequitur
-<lb ed="#Ba" n="83"/>quod omnino incommutabilis sit. Si enim
-<lb ed="#Ba" n="84"/>mutabilis esset in his que sibi insunt,
-<lb ed="#Ba" n="85"/>que Joannes Damascenus vocat 
-asse<lb ed="#Ba" break="no" n="86"/>quentia substantiam, sequeretur quod
-<lb ed="#Ba" n="87"/>commutabilis esset in substantia: quia
-<lb ed="#Ba" n="88"/>quidquid in Deo est, Deus est 
-substantia<lb ed="#Ba" break="no" n="89"/>liter.
-</p>
-               <p xml:id="Almn78-a31780-d1e738">
-                  <lb ed="#Ba" n="90"/>Unde ca que primo ad hoc inducta
-<lb ed="#Ba" n="91"/>sunt, concedenda sunt.
-</p>
-               <p xml:id="Almn78-a31780-d1e745">
-                  <lb ed="#Ba" n="92"/>Ad id autem quod primo in contra- Ad objec
-<lb ed="#Ba" n="93"/>rium objicitur, dicendum quod Deus se
-<pb ed="#Ba" n="151"/>
-                  <cb ed="#Ba" n="a"/>
-                  <lb ed="#Ba" n="1"/>movere dicitur per effectum nature, vel
-<lb ed="#Ba" n="2"/>gratia, vel gloria, quando scilicet per
-<lb ed="#Ba" n="3"/>effectam aliquem incipit in aliquo esse,
-<lb ed="#Ba" n="4"/>perquem prius in illo non fuit, qui 
-se<lb ed="#Ba" break="no" n="5"/>cundum se ubique est et in omnibus.
-<lb ed="#Ba" n="6"/>Unde talis motus ad Deum non refertur,
-<lb ed="#Ba" n="7"/>sed ad ejus effectum. Et hoc innuit 
-Augu<lb ed="#Ba" break="no" n="8"/>stinus cum dicit, quod <quote xml:id="Almn78-a31780-Qd1e773"> nec movet se per
-<lb ed="#Ba" n="9"/>tempus, nec per locum. </quote> Si enim motus
-<lb ed="#Ba" n="10"/>in ipso esset, oporteret quod vel per 
-tem<lb ed="#Ba" break="no" n="11"/>pus, vel per locum moveretur. Similiter
-<lb ed="#Ba" n="12"/>dicitur, Sapient. vn, 27, de spiritu 
-sa<lb ed="#Ba" break="no" n="13"/>pientia, quod per nationes in animas
-<lb ed="#Ba" n="14"/>sanctas se transfert, amicos Det et 
-pro<lb ed="#Ba" break="no" n="15"/>phetas constituit.
-</p>
-               <p xml:id="Almn78-a31780-d1e792">
-                  <lb ed="#Ba" n="16"/>Ad aliud dicendum, quod Deus motu
-<lb ed="#Ba" n="17"/>imundum gubernat, qui ab ipso est,
-<lb ed="#Ba" n="18"/>hon qui in ipso est. Dicit enim 
-Ari<lb ed="#Ba" break="no" n="19"/>stoteles in IIL Physicorum, quod <quote xml:id="Almn78-a31780-Qd1e802"> 
-mo<lb ed="#Ba" break="no" n="20"/>tus est actus moventis, et actus 
-mo<lb ed="#Ba" break="no" n="21"/>hilis. </quote> Sed est actus moventis, 
-secun<lb ed="#Ba" break="no" n="22"/>dum quod est actus perfectus qui 
-a_per<lb ed="#Ba" break="no" n="23"/>fecto est, quod est movens : omne enim
-<lb ed="#Ba" n="24"/>movens perfectum est, et in actu: et 
-pri<lb ed="#Ba" break="no" n="25"/>mus motor perfectissimus est, et ipse
-<lb ed="#Ba" n="26"/>actor est. Secundum autem quod est actus
-<lb ed="#Ba" n="27"/>imperfectus, sicest in mobili sicut in 
-sub<lb ed="#Ba" break="no" n="28"/>jecto, et sicut in imperfecto quod motu
-<lb ed="#Ba" n="29"/>perficitur. Et ideo ibidem dicit Aristote 
-<lb ed="#Ba" break="no" n="30"/>les quod <quote xml:id="Almn78-a31780-Qd1e829"> motus dicitur actus imperfé
-<lb ed="#Ba" break="no" n="31"/>ctus, qui est imperfecti actus: </quote> et sic
-<lb ed="#Ba" n="32"/>non cadit in Deum. Et quando dicitur
-<lb ed="#Ba" n="33"/>incommutabilis Deus, prepositio in, non
-<lb ed="#Ba" n="34"/>privat potentiam movendi active, sed 
-pri<lb ed="#Ba" break="no" n="35"/>vat potentiam mobilitatis passive.
-</p>
-               <p xml:id="Almn78-a31780-d1e844">
-                  <lb ed="#Ba" n="36"/>Ad aliud dicendum, quod motus 
-ap<lb ed="#Ba" break="no" n="37"/>propinquationis et elongationis non 
-refe<lb ed="#Ba" break="no" n="38"/>runtur ad Deum, nisi secundum 
-effe<lb ed="#Ba" break="no" n="39"/>rlum, ut paulo ante dictum est. Et hoc
-<lb ed="#Ba" n="40"/>probat Dionysius in libro de Divinis
-<lb ed="#Ba" n="41"/>nominibus *, de virtute orationis, 
-po<lb ed="#Ba" break="no" n="42"/>nefs duas  similitudines. Unam de
-<lb ed="#Ba" n="43"/>multi luminis catena de ccelo 
-depen<lb ed="#Ba" break="no" n="44"/>dente, in qua manus mutans per ansas et
-<lb ed="#Ba" n="45"/>unsas ascendendo, a terra quidem 
-exal<lb ed="#Ba" break="no" n="46"/>falur et celum sibi appropinquat, non
-<lb ed="#Ba" n="47"/>ceeli depositione, sed sui ad coelum exal
-<cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" break="no" n="48"/>tatione. Secundam ponit in rupe vel 
-pe<lb ed="#Ba" break="no" n="49"/>tra immobiliter stante juxta aquam, ad
-<lb ed="#Ba" n="50"/>quam cum quis trahit navim vel impellit,
-<lb ed="#Ba" n="51"/>ad ipsam appropinquat vel ab ea 
-elon<lb ed="#Ba" break="no" n="52"/>gatur, non motu petre, sed motu navis.
-</p>
-               <p xml:id="Almn78-a31780-d1e886">
-                  <lb ed="#Ba" n="53"/>Ad aliud dicendum, quod mobilior 
-di<lb ed="#Ba" break="no" n="54"/>citur esse sapientia per effectum: quia
-<lb ed="#Ba" n="55"/>sicut ibidem dicitur, Sapient. vir, 24, aé
-<lb ed="#Ba" break="no" n="56"/>tingit ubique, et omnia disponit: quod
-<lb ed="#Ba" n="57"/>nulli aliaram causarum convenire poterit.
-</p>
-               <p xml:id="Almn78-a31780-d1e900">
-                  <lb ed="#Ba" n="58"/>Ad aliud dicendum, quod non aliter se
-<lb ed="#Ba" n="59"/>habet nunc Deus quam ab eterno. Et
-<lb ed="#Ba" n="60"/>quod dicitur creator et conservator, per
-<lb ed="#Ba" n="61"/>relationem dicitur, que non per 
-muta<lb ed="#Ba" break="no" n="62"/>tionem sui fitin ipso, sed per mutationem
-<lb ed="#Ba" n="63"/>creature, que nunc fit ut creata, 
-con<lb ed="#Ba" break="no" n="64"/>servata, gubernata, ex cujus relatione ad
-<lb ed="#Ba" n="65"/>creatorem oportet quod cointelligatur
-<lb ed="#Ba" n="66"/>correlatio creatoris ad ipsam, que nihil
-<lb ed="#Ba" n="67"/>novi dicit in ipso, sed aliquid novi dicit
-<lb ed="#Ba" n="68"/>ab ipso: et hoc importatur in hoc 
-no<lb ed="#Ba" break="no" n="69"/>mine, creator. Jam enim in tractatu de
-<lb ed="#Ba" n="70"/>simplicitate Dei determinatum est, quod
-<lb ed="#Ba" n="71"/>relatio secundum hoc quod est accidens,
-<lb ed="#Ba" n="72"/>et suum esse est inesse, non manet in
-<lb ed="#Ba" n="73"/>divina predicatione, sed suum modum
-<lb ed="#Ba" n="74"/>predicandi mutat in modum predicandi
-<lb ed="#Ba" n="75"/>substantialem. Secundum autem quod
-<lb ed="#Ba" n="76"/>relatio est,esse suum ad aliud est, et nihil
-<lb ed="#Ba" n="77"/>predicat per modum inherendi: sed hoc
-<lb ed="#Ba" n="78"/>quod predicat, predicat per modum ad
-<lb ed="#Ba" n="79"/>se habendi. Tales autem habitudines ex
-<lb ed="#Ba" n="80"/>uno mutato secundum veritatem, in 
-mul<lb ed="#Ba" break="no" n="81"/>tis innascuntur secundum intellectum.
-<lb ed="#Ba" n="82"/>Et hujus exemplum dant Boetius et 
-Avi<lb ed="#Ba" break="no" n="83"/>cenna in statua alicubi stante a dextris,
-<lb ed="#Ba" n="84"/>quo recedente ad oppositum, statim 
-ea<lb ed="#Ba" break="no" n="85"/>dem statua sine sui mutatione efficitur a
-<lb ed="#Ba" n="86"/>sinistris. Augustini autem exemplum in
-<lb ed="#Ba" n="87"/>libro de Trinitate est de nummo, qui
-<lb ed="#Ba" n="88"/>sine sui commutatione ex 
-commutationi<lb ed="#Ba" break="no" n="89"/>bus ejus cujus est, aliquando est 
-pre<lb ed="#Ba" break="no" n="90"/>tium, et aliquando est pignus, per 
-re<lb ed="#Ba" break="no" n="91"/>lationem nummi ad id pro quo 
-com<lb ed="#Ba" break="no" n="92"/>mutatur. Melius omnibus exemplum
-<lb ed="#Ba" n="93"/>est quod Euclides in libro de Fallacia
-<lb ed="#Ba" n="94"/>visus a Platone acceptum ponit de re
-<pb ed="#Ba" n="152"/>
-                  <cb ed="#Ba" n="a"/>
-                  <lb ed="#Ba" break="no" n="1"/>flexione que fit ad speculum planum,
-<lb ed="#Ba" n="2"/>ubi dextera eodem modo manentia 
-efli<lb ed="#Ba" break="no" n="3"/>ciuntur sinistra, et sinistra dextera. Sic
-<lb ed="#Ba" n="4"/>eodem modo manens Deus per respectum
-<lb ed="#Ba" n="5"/>creature ad ipsum, creator dicitur, et
-<lb ed="#Ba" n="6"/>non creator, sine sui mutatione.
-</p>
-               <p xml:id="Almn78-a31780-d1e1000">
-                  <lb ed="#Ba" n="7"/>Ad aliud dicendum, quod sicut 
-obje<lb ed="#Ba" break="no" n="8"/>ctum est, alteratio duplex est: sed de otio
-<lb ed="#Ba" n="9"/>ad acium, sive de habitu ad actum non
-<lb ed="#Ba" n="10"/>mutantur nisi ea que agunt passibilia
-<lb ed="#Ba" n="11"/>existentia. In his autem que non sunt
-<lb ed="#Ba" n="12"/>passibilia, sed uno modo se habent et
-<lb ed="#Ba" n="13"/>per essentiam agunt, de non agentibus
-<lb ed="#Ba" n="14"/>fiunt agentia sine mutatione. In talibus
-<lb ed="#Ba" n="15"/>enim agens uno modo se habet, et non
-<lb ed="#Ba" n="16"/>dicitur agens nunc, et non prius, nisi
-<lb ed="#Ba" n="17"/>per hoc quod actum nunc est et non
-<lb ed="#Ba" n="18"/>prius. Et exemplum in sole, qui semper
-<lb ed="#Ba" n="19"/>eodem modo se habet in illuminando:
-<lb ed="#Ba" n="20"/>nec dicitur ceram liquefaciens et lutum
-<lb ed="#Ba" n="21"/>condensans nunc et non prius, nisi per
-<lb ed="#Ba" n="22"/>hoc quod cera liquefacta et lutum 
-con<lb ed="#Ba" break="no" n="23"/>densatum est nunc et non prius: talia
-<lb ed="#Ba" n="24"/>enim uno modo se habentia non 
-muta<lb ed="#Ba" break="no" n="25"/>tione sui, sed mutatione acti faciunt ea
-<lb ed="#Ba" n="26"/>que faciunt.
-</p>
-               <p xml:id="Almn78-a31780-d1e1046">
-                  <lb ed="#Ba" n="27"/>Ad aliud dicendum, quod cum dicitur,
-<lb ed="#Ba" n="28"/>voluit nunc qued non prius, in his que
-<lb ed="#Ba" n="29"/>impossibiliter agunt per voluntatem tales
-<lb ed="#Ba" n="30"/>determinationes determinant voluntatem
-<lb ed="#Ba" n="31"/>sive eum qui voluit respectu voliti, et
-<lb ed="#Ba" n="32"/>non respectu volentis : etideo 
-mutatio<lb ed="#Ba" break="no" n="33"/>nem dicunt in volilo, et non in volente.
-<lb ed="#Ba" n="34"/>Ab eterno enim voluit ut nunc fieret,
-<lb ed="#Ba" n="35"/>sed volitum nunc est, et non ab aterno.
-</p>
-               <p xml:id="Almn78-a31780-d1e1068">
-                  <lb ed="#Ba" n="36"/>Ad uLtimum dicendum, quod non est
-<lb ed="#Ba" n="37"/>simile de relatione personali qua persona
-<lb ed="#Ba" n="38"/>procedit de persona, et de aliis relativis
-<lb ed="#Ba" n="39"/>que ad creaturam sunt. Relationes enim
-<lb ed="#Ba" n="40"/>personales super actus sunt fundate 
-sub<lb ed="#Ba" break="no" n="41"/>stantiales, quibus persona accipit 
-sub<lb ed="#Ba" break="no" n="42"/>stantiam et omnia que substantia sunt.
-<lb ed="#Ba" n="43"/>iit ideo si mutatio esset in talibus 
-rela<lb ed="#Ba" break="no" n="44"/>tionibus, sequeretur quod mutatio esset
-<lb ed="#Ba" n="45"/>in substantia. In relationibus autem que
-<lb ed="#Ba" n="46"/>ad creaturam sunt, fundatur relatio su
-<cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" break="no" n="47"/>per actum voluntatis, et super actum 
-ex<lb ed="#Ba" break="no" n="48"/>terius : qui fieri possunt sine muitationc
-<lb ed="#Ba" n="49"/>agentis, ut dictum est, in his in quibus
-<lb ed="#Ba" n="50"/>actum dependet ad agens per suam 
-sub<lb ed="#Ba" break="no" n="51"/>stantiam, sed agens non dependet ail
-<lb ed="#Ba" n="52"/>actum.
-</p>
-            </div>
-            <div xml:id="Almn78-a31780-Dd1e1112">
-               <head xml:id="Almn78-a31780-Hd1e1114">Membrum 2</head>
-               <head xml:id="Almn78-a31780-Hd1e1117" type="question-title">
-  Utrum motus vel mutatio aliqua 
-  conveniat Deo
-</head>
-               <p xml:id="Almn78-a31780-d1e1120">
-                  <lb ed="#Ba" n="53"/>MEMBROM II.
-<lb ed="#Ba" n="54"/>Utrum motus vel mutatio aliqua 
-con<lb ed="#Ba" break="no" n="55"/>veniat Deo?
-</p>
-               <p xml:id="Almn78-a31780-d1e1129">
-                  <lb ed="#Ba" n="56"/>Secundo queritur, Utrum motus vel
-<lb ed="#Ba" n="57"/>mutatio aliqua Deo conveniat ?
-</p>
-               <p xml:id="Almn78-a31780-d1e1136">
-                  <lb ed="#Ba" n="58"/>Et videtur quod sic.
-<lb ed="#Ba" n="59"/>Multipliciter enim aliquid refertur ad
-<lb ed="#Ba" n="60"/>motum vel mutationem: quedam enim
-<lb ed="#Ba" n="61"/>ut subjectum mutationis: quedam ut
-<lb ed="#Ba" n="62"/>terminus mutationis. Et hoc dupliciter,
-<lb ed="#Ba" n="63"/>scilicet a quo, et ad quem. Et videtur,
-<lb ed="#Ba" n="64"/>quod omnia ista Deo conveniant.
-</p>
-               <p xml:id="Almn78-a31780-d1e1155">
-                  <lb ed="#Ba" n="65"/>1. Sicut enim quamvis Deus sit simplex,
-<lb ed="#Ba" n="66"/>multiplex tamen dicitur in effectu : ita
-<lb ed="#Ba" n="67"/>quamvis secundum substantiam sit 
-im<lb ed="#Ba" break="no" n="68"/>mutabilis, tamen dici potest mutari in
-<lb ed="#Ba" n="69"/>causalitate, quia aliquando causatum est
-<lb ed="#Ba" n="70"/>a Deo, aliquando non.
-</p>
-               <p xml:id="Almn78-a31780-d1e1171">
-                  <lb ed="#Ba" n="71"/>2.lterum constat, quod mutatio est ad
-<lb ed="#Ba" n="72"/>ipsum, ut dicit Augustinus in I 
-Confes<lb ed="#Ba" break="no" n="73"/>sionum: <quote xml:id="Almn78-a31780-Qd1e1179"> Fesisti enim nos, Domine,
-<lb ed="#Ba" n="74"/>ad te, et inquietum est cor nostrum
-<lb ed="#Ba" n="75"/>donec ad te perveniat®. </quote> Et mutatio
-<lb ed="#Ba" n="76"/>est ab ipso: quia, Luce, xv, 13, filius
-<lb ed="#Ba" n="77"/>prodigus a patre abiit in regionem 
-lon<lb ed="#Ba" break="no" n="78"/>ginguam, qui Deum designat. Item,
-<lb ed="#Ba" n="79"/>Mutatio est in ipso. Act. xvi, 28: In
-<lb ed="#Ba" n="80"/>ipso vivimus, ef movemur, ef sumus.
-</p>
-               <p xml:id="Almn78-a31780-d1e1198">
-                  <lb ed="#Ba" n="81"/>De omnibus autem his dicit 
-Aristote<lb ed="#Ba" break="no" n="82"/>les, quod aliquo modo moventur, vel
-<lb ed="#Ba" n="83"/>sicut ea que moventur, vel sicut ea ad
-<lb ed="#Ba" n="84"/>que est motus aliquis.. Ergo modus 
-ali<lb ed="#Ba" break="no" n="85"/>quis motus potest Deo altribul.
-</p>
-               <p xml:id="Almn78-a31780-d1e1211">
-                  <pb ed="#Ba" n="153"/>
-                  <cb ed="#Ba" n="a"/>
-                  <lb ed="#Ba" n="1"/>Solutio. Nullus modus motus potest
-<lb ed="#Ba" n="2"/>Neo attribui, nec secundum fidem, nec
-<lb ed="#Ba" n="3"/>secundum philosophiam. Et hoc ideo
-<lb ed="#Ba" n="4"/>ext, quia sicut probatur in libro de 
-Cau<lb ed="#Ba" break="no" n="5"/>sis, creatura sive creatum non potest
-<lb ed="#Ba" n="6"/>considerari nisi duobus modis, scilicet
-<lb ed="#Ba" n="7"/>secundum id quod est, et secunduin
-<lb ed="#Ba" n="8"/>esse. Secundum id quod est, nihil et
-<lb ed="#Ba" n="9"/>ex nihilo est, ut dicit Avicenna. 
-Se<lb ed="#Ba" break="no" n="10"/>cundum esse autem a prima causa est.
-<lb ed="#Ba" n="11"/>Mutabilitas autem creature accidit 
-se<lb ed="#Ba" break="no" n="12"/>cundum id quod est: et ideo mutabilitas
-<lb ed="#Ba" n="13"/>adid quod est, referri non potest: non
-<lb ed="#Ba" n="14"/>onim accidit creato secundum quod ab
-<lb ed="#Ba" n="15"/>ipso est, sed secundum id quod est, et
-<lb ed="#Ba" n="16"/>sic ex nihilo et nihil est: propter quod
-<lb ed="#Ba" n="17"/>creator nullo modo mutabilis esse 
-pot<lb ed="#Ba" break="no" n="18"/>ost,
-</p>
-               <p xml:id="Almn78-a31780-d1e1257">
-                  <lb ed="#Ba" n="19"/>Ad id autem quod objicitur in 
-contra<lb ed="#Ba" break="no" n="20"/>rium, dicendum quod unitas et 
-multipli<lb ed="#Ba" break="no" n="21"/>cilas in effectu consequuntur esse 
-crea<lb ed="#Ba" break="no" n="22"/>tur, in quantum ab aliquo est et in
-<lb ed="#Ba" n="23"/>quantum est: et ideo ille cum 
-perfe<lb ed="#Ba" break="no" n="24"/>clum esse creature consequantur, in
-<lb ed="#Ba" n="25"/>Deum aliquo modo referri possunt.
-</p>
-               <p xml:id="Almn78-a31780-d1e1275">
-                  <lb ed="#Ba" n="26"/>Ad id quod objicitur, quod 
-multiplici<lb ed="#Ba" break="no" n="27"/>ter aliquid refertur ad motum, dicendum
-<lb ed="#Ba" n="28"/>quod Deus non refertur ad motum sicut
-<lb ed="#Ba" n="29"/>terminus ad quem quem includit motus.
-<lb ed="#Ba" n="30"/>Nec refertur ad motum sicut terminus a
-<lb ed="#Ba" n="31"/>quo qui abjicitur in ipso. Nec in ipso est
-<lb ed="#Ba" n="32"/>mutatio sicut in eo quod est mensura
-<lb ed="#Ba" n="33"/>motus vel mobilis: sic enim iteraretur
-<lb ed="#Ba" n="34"/>in mobili vel motu secundum esse: 
-lo<lb ed="#Ba" break="no" n="35"/>cus enim in quo est motus, 
-secun<lb ed="#Ba" break="no" n="36"/>dum esse aliquod iteratur in mobili :
-<lb ed="#Ba" n="37"/>quia ex ipso et ad ipsum est motus.
-<lb ed="#Ba" n="38"/>Tempus autem secundum nunc, quod
-<lb ed="#Ba" n="39"/>est substantia motus, iteratur in motu:
-<lb ed="#Ba" n="40"/>quia sicut dicit Aristoteles in IV 
-Physi<lb ed="#Ba" break="no" n="41"/>corum, tempus est numerus motus- 
-se<lb ed="#Ba" break="no" n="42"/>cundum prius et posterius. Deus autem
-<lb ed="#Ba" n="43"/>nullo istoruam modorum refertur ad 
-mo<lb ed="#Ba" break="no" n="44"/>tum, sed sicut movens immobile et 
-con<lb ed="#Ba" break="no" n="45"/>linens omne quod movetur.
-</p>
-               <p xml:id="Almn78-a31780-d1e1322">
-                  <lb ed="#Ba" n="46"/>Adhuc autem, Nullus modus motus
-<cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" n="47"/>potest referri ut aliquo. modo mobile sit.
-<lb ed="#Ba" n="48"/>Si enim motus dicatur ad ipsum, ille
-<lb ed="#Ba" n="49"/>motus est in appropinquante ad ipsum.
-<lb ed="#Ba" n="50"/>Si dicatur ab ipso, motus est in 
-defe<lb ed="#Ba" break="no" n="51"/>rente, sicut paulo ante monstratum est.
-<lb ed="#Ba" n="52"/>Mobilitas autem in ipso non per 
-iteratio<lb ed="#Ba" break="no" n="53"/>nem ipsius est, sed per continentiam, ut
-<lb ed="#Ba" n="54"/>dictum est. Sedin Deo nullo modo poni
-<lb ed="#Ba" n="55"/>potest mutabilitas: et ideo penitus 
-im<lb ed="#Ba" break="no" n="56"/>mutabilis est.
-</p>
-            </div>
-            <div xml:id="Almn78-a31780-Dd1e1352">
-               <head xml:id="Almn78-a31780-Hd1e1354">Membrum 3</head>
-               <head xml:id="Almn78-a31780-Hd1e1357" type="question-title">
-  Utrum incommutabile esse proprium sit
-  divinae essentiae?
-</head>
-               <p xml:id="Almn78-a31780-d1e1360">
-                  <lb ed="#Ba" n="57"/>MEMBRUM III.
-<lb ed="#Ba" n="58"/>Utrum incommutabile esse proprium sit
-<lb ed="#Ba" n="59"/>divinae essentiae?
-</p>
-               <p xml:id="Almn78-a31780-d1e1369">
-                  <lb ed="#Ba" n="60"/>Tertio queritur, Utrum 
-incommuta<lb ed="#Ba" break="no" n="61"/>bile esse proprium sit divine essentie ?
-</p>
-               <p xml:id="Almn78-a31780-d1e1376">
-                  <lb ed="#Ba" n="62"/>Et videtur, quod non.
-<lb ed="#Ba" n="63"/>1. Dicuntur enim incommutabiles
-<lb ed="#Ba" n="64"/>Angeli, et immutabiles intelligentie, et
-<lb ed="#Ba" n="65"/>immutabiles anime beatae. Ergo non
-<lb ed="#Ba" n="66"/>soli Deo convenit immutabilitas : quia
-<lb ed="#Ba" n="67"/>proprium est quod convenit omni et
-<lb ed="#Ba" n="68"/>soli.
-</p>
-               <p xml:id="Almn78-a31780-d1e1395">
-                  <lb ed="#Ba" n="69"/>2. Si dicatur, quod incommutabilitas
-<lb ed="#Ba" n="70"/>Deo convenit per naturam: Angelis 
-au<lb ed="#Ba" break="no" n="71"/>tem et animabus beatis per gratiam, vel
-<lb ed="#Ba" n="72"/>per aliquam bonitatem fluentem a primo
-<lb ed="#Ba" n="73"/>immutabili, sicut videtur Plato dicere in
-<lb ed="#Ba" n="74"/>Timzo: <quote xml:id="Almn78-a31780-Qd1e1410">Dii deorum quorum opifex
-<lb ed="#Ba" n="75"/>paterque ego: natura quidem mutabiles,
-<lb ed="#Ba" n="76"/>voluntate autem mea permanentes. </quote> 
-               </p>
-               <p xml:id="Almn78-a31780-d1e1418">
-  In
-<lb ed="#Ba" n="77"/>CONTRARIUM est quod Angelus et intelli 
-<lb ed="#Ba" break="no" n="78"/>gentia secundum sui naturam signacula
-<lb ed="#Ba" n="79"/>sunt divine incommutabilitatis, et anima
-<lb ed="#Ba" n="80"/>secundum sui naturam imago 
-incommu<lb ed="#Ba" break="no" n="81"/>tabilitatis ejusdem. Dicit enim 
-Cassiodo<lb ed="#Ba" break="no" n="82"/>rus, quod <quote xml:id="Almn78-a31780-Qd1e1433"> temporale per hoc quod 
-in<lb ed="#Ba" break="no" n="83"/>cipit et desinit, non est zterni nisi 
-vesti<lb ed="#Ba" break="no" n="84"/>gium: quia non convenit cum eo nisi in
-<lb ed="#Ba" n="85"/>confusa et indeterminata quadam dura
-<pb ed="#Ba" n="154"/>
-                     <cb ed="#Ba" n="a"/>
-                     <lb ed="#Ba" break="no" n="1"/>tione. </quote> AEviternum autem quod incipit
-<lb ed="#Ba" n="2"/>et non desinit, et stat in esse substantiali
-<lb ed="#Ba" n="3"/>uno modo, imago est eternitatis: quia
-<lb ed="#Ba" n="4"/>cum ea convenit et in modo durationis
-<lb ed="#Ba" n="5"/>in substantia, et in carentia finis: licet
-<lb ed="#Ba" n="6"/>deficiat ab ipsa, quia aeternum non 
-ha<lb ed="#Ba" break="no" n="7"/>bet principium, eviternum autem habel.
-<lb ed="#Ba" n="8"/>Unde dicit idem Cassiodorus, quod <quote xml:id="Almn78-a31780-Qd1e1464"> si
-<lb ed="#Ba" n="9"/>anima fine clauderetur, imago Dei non
-<lb ed="#Ba" n="10"/>non esset. </quote> Ergo et Angelus et 
-intelli<lb ed="#Ba" break="no" n="11"/>gentia et anima per naturam 
-immuta<lb ed="#Ba" break="no" n="12"/>bilia sunt, et non solum per gratiam.
-<lb ed="#Ba" n="13"/>Non ergo soli Deo convenit immutabile
-<lb ed="#Ba" n="14"/>esse per naturam.
-</p>
-               <p xml:id="Almn78-a31780-d1e1481">
-                  <lb ed="#Ba" n="15"/>In contrarium hujus est adhuc,
-<lb ed="#Ba" n="16"/>1. Quod dicit Apostolus, I ad 
-Timo<lb ed="#Ba" break="no" n="17"/>theum, vi, 16: Qui solus habet 
-immor<lb ed="#Ba" break="no" n="18"/>talitatem. Super quod dicit Augustinus
-<lb ed="#Ba" n="19"/>in primo de Jrinitate: <quote xml:id="Almn78-a31780-Qd1e1494"> Cum anima
-<lb ed="#Ba" n="20"/>quodammodo immortalis esse dicatur et
-<lb ed="#Ba" n="21"/>sit, non diceret Apostolus: Solus Deus
-<lb ed="#Ba" n="22"/>habet immortalitatem, nisi quia vere
-<lb ed="#Ba" n="23"/>immortalitas incommutabilitas est, quam
-<lb ed="#Ba" n="24"/>nulla creatura potest habere, quoniam
-<lb ed="#Ba" n="25"/>solius creatoris est '. </quote>
-               </p>
-               <p xml:id="Almn78-a31780-d1e1511">
-                  <lb ed="#Ba" n="26"/>2. Adhuc, David dicit in Psalmo ai,
-<lb ed="#Ba" n="27"/>27 et 28: Mutabis eos, et mutabuntur :
-<lb ed="#Ba" n="28"/>tu autem idem ipse es. Quod tractans
-<lb ed="#Ba" n="29"/>Augustinus super Genesim ad litteram:
-<lb ed="#Ba" n="30"/>
-                  <quote xml:id="Almn78-a31780-Qd1e1524"> Deus solus recte immutabilis est, qui
-<lb ed="#Ba" n="31"/>nec per tempora mutari potest. </quote> Unde
-<lb ed="#Ba" n="32"/>solus dicitur habere immortalilatem.
-</p>
-               <p xml:id="Almn78-a31780-d1e1532">
-                  <lb ed="#Ba" n="33"/>3. Adhuc, Augustinus contra 
-Maxi<lb ed="#Ba" break="no" n="34"/>minum: <quote xml:id="Almn78-a31780-Qd1e1538"> In omni mutabili natura 
-non<lb ed="#Ba" break="no" n="35"/>nulla mors est ipsa mutatio: quia facit
-<lb ed="#Ba" n="36"/>aliquid in ea non esse quod erat et esse
-<lb ed="#Ba" n="37"/>quod non erat. </quote> Hoc autem in Angelis
-<lb ed="#Ba" n="38"/>et in intelligentiis et in animabus est.
-<lb ed="#Ba" n="39"/>Angelus enim et anima mutantur 
-se<lb ed="#Ba" break="no" n="40"/>cundum gratiam et peccatum. 
-Intelligen<lb ed="#Ba" break="no" n="41"/>tie autem secundum influentias 
-bonita<lb ed="#Ba" break="no" n="42"/>tum a primo, et secundum influentias
-<lb ed="#Ba" n="43"/>illuminationum, purgationum, et 
-perfe<lb ed="#Ba" break="no" n="44"/>ctionum, et a primo, et a se invicem, ut
-<lb ed="#Ba" n="45"/>dicit Dionysius, secundum quod 
-pur<lb ed="#Ba" break="no" n="46"/>gantur a dissimilitudinis habitu, et 
-assi<lb ed="#Ba" break="no" n="47"/>milantur per illuminationem acceptam,
-<cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" n="48"/>quam prius non habuerunt, et 
-perficiun<lb ed="#Ba" break="no" n="49"/>tur secundum reductionem inferioris in
-<lb ed="#Ba" n="50"/>superiorem secundum aliquod 
-intelligi<lb ed="#Ba" break="no" n="51"/>bile secundum quod prius reducti non
-<lb ed="#Ba" n="52"/>fuerint.
-</p>
-               <p xml:id="Almn78-a31780-d1e1583">
-                  <lb ed="#Ba" n="53"/>Solutio. Ad hoc solvendum est per
-<lb ed="#Ba" n="54"/>dictum Augustini in libro contra 
-Maxi<lb ed="#Ba" break="no" n="55"/>minum dicentem, quod <quote xml:id="Almn78-a31780-Qd1e1591"> cuicumque
-<lb ed="#Ba" n="56"/>creature rationali prestatur ut peccare
-<lb ed="#Ba" n="57"/>non possit, non est hoc nature propria,
-<lb ed="#Ba" n="58"/>sed Dei gratia. </quote> Et ideo solus Deus, ut
-<lb ed="#Ba" n="59"/>ait Apostolus *, habet immortalitatem
-<lb ed="#Ba" n="60"/>qui non cujusque gratia sed natura sua
-<lb ed="#Ba" n="61"/>propria nec potuit nec potest aliqua 
-con<lb ed="#Ba" break="no" n="62"/>versione mutari. Et ideo soli Deo 
-conve<lb ed="#Ba" break="no" n="63"/>nit omnino et penitus incommutabilem
-<lb ed="#Ba" n="64"/>esse. Cujus probatio efficacissima 
-sumi<lb ed="#Ba" break="no" n="65"/>tur a dicto Boetii in libro de 
-Hebdomadi<lb ed="#Ba" break="no" n="66"/>bus, ubi dicit, quod <quote xml:id="Almn78-a31780-Qd1e1618"> quod est, habere
-<lb ed="#Ba" n="67"/>potest aliquid prater ipsum quod est,
-<lb ed="#Ba" n="68"/>esse vero nihil habet admixtum. </quote> Ex
-<lb ed="#Ba" n="69"/>quo relinquitur, quod omne id quod 
-mu<lb ed="#Ba" break="no" n="70"/>tatur, diversum habet quod est, et esse.
-<lb ed="#Ba" n="71"/>Unde id in quo est idem quod est et esse,
-<lb ed="#Ba" n="72"/>immutabile est penitus et omnino. Et
-<lb ed="#Ba" n="73"/>causa hujus est, quia esse nullius rei
-<lb ed="#Ba" n="74"/>potest esse subjectum, nec per se, nec
-<lb ed="#Ba" n="75"/>per accidens, nec aliquo modo referri
-<lb ed="#Ba" n="76"/>potest ad motum, quamvis hoc esse 
-re<lb ed="#Ba" break="no" n="77"/>ferri possit ad motum ut terminus. Ex
-<lb ed="#Ba" n="78"/>hoc ulterius relinquitur, quod omne
-<lb ed="#Ba" n="79"/>causatum eo quod aliud habet esse et
-<lb ed="#Ba" n="80"/>quod est, mutabile est: quia sicut dicit
-<lb ed="#Ba" n="81"/>Damascenus, <quote xml:id="Almn78-a31780-Qd1e1653"> quod a versione incipit,
-<lb ed="#Ba" n="82"/>versioni subjacet et mutationi. </quote> Est 
-au<lb ed="#Ba" break="no" n="83"/>tem mutatio duplex, ut dicit 
-Damasce<lb ed="#Ba" break="no" n="84"/>nus, ad esse scilicet, et in esse: et hoc
-<lb ed="#Ba" n="85"/>est dictum, ad esse hoc, et in esse hoc.
-<lb ed="#Ba" n="86"/>Ad esse, sicut generatio, et opposita ei
-<lb ed="#Ba" n="87"/>corruptio. In esse salvato duplex est 
-mu<lb ed="#Ba" break="no" n="88"/>tatio, scilicet in esse substantiali, et in
-<lb ed="#Ba" n="89"/>esse accidentali. In esse substantiali 
-mu<lb ed="#Ba" break="no" n="90"/>tari convenit temporalibus, que non 
-im<lb ed="#Ba" break="no" n="91"/>mediate sed per motum corporis quasi
-<lb ed="#Ba" n="92"/>per instrumentum exeunt ab eterno. Et
-<lb ed="#Ba" n="93"/>in his dicimus, quod secundum esse sub
-<pb ed="#Ba" n="155"/>
-                  <cb ed="#Ba" n="a"/>
-                  <lb ed="#Ba" break="no" n="1"/>stantiale fuit, est, et erit. In esse 
-acciden<lb ed="#Ba" break="no" n="2"/>lali mutantur eliam ea que immediate
-<lb ed="#Ba" n="3"/>muntab eterno, sicut Angeli et 
-intelligen<lb ed="#Ba" break="no" n="4"/>liw et anima, que per affectiones et 
-rece<lb ed="#Ba" break="no" n="5"/>_pliones bonitatum et malitiarum mutan-
-‘tur. Per loca autem mutantur corpora.
-<lb ed="#Ba" n="6"/>icit enim Aristoteles in libro de Calo
-<lb ed="#Ba" n="7"/>rt Mundo, quod <quote xml:id="Almn78-a31780-Qd1e1702"> omne corpus 
-secun<lb ed="#Ba" break="no" n="8"/>dum locum mutabile est. </quote> Omnino au-
-‘vm immutabile esse, proprium est 
-es<lb ed="#Ba" break="no" n="9"/>sentie divine.
-</p>
-               <p xml:id="Almn78-a31780-d1e1711">
-                  <lb ed="#Ba" n="10"/>Ad primum ergo dicendum, quod 
-An<lb ed="#Ba" break="no" n="11"/>Kelis, intelligentiis, et animabus, non
-<lb ed="#Ba" n="12"/>convenit immutabilitas, nisi illa sola que
-<lb ed="#Ba" n="13"/>est ab esse substantiali, et non convenit
-<lb ed="#Ba" n="14"/>is immutabilitas illa que est ad esse,
-<lb ed="#Ba" n="15"/>neo illa qua est in esse accidentali
-<lb ed="#Ba" n="16"/>per naturam, sed per bonitatem 
-conti<lb ed="#Ba" break="no" n="17"/>nenlis: quia pro certo per affectiones
-<lb ed="#Ba" n="18"/>mutabiles sunt, et de contrario in 
-con<lb ed="#Ba" break="no" n="19"/>trarium mutarentur, nisi bonitate 
-crea<lb ed="#Ba" break="no" n="20"/>toris in bono confirmarentur: et in esse
-<lb ed="#Ba" n="21"/>substantiali mutarentur, et in nihilum
-<lb ed="#Ba" n="22"/>tenderent, nisi manu et bonitate 
-creato<lb ed="#Ba" break="no" n="23"/>ris continerentur, ut dicit Gregorius,
-</p>
-               <p xml:id="Almn78-a31780-d1e1744">
-                  <lb ed="#Ba" n="24"/>Ad dictum autem <name xml:id="Almn78-a31780-Nd1e1748">Cassiodori</name> dicendum,
-  <cb ed="#Ba" n="b"/>
-                  <lb ed="#Ba" n="25"/>quod verum est, quod temporale in 
-pau<lb ed="#Ba" break="no" n="26"/>cioribus imitatur eternum, quam 
-evi<lb ed="#Ba" break="no" n="27"/>ternum: et ideo temporale vestigium,
-<lb ed="#Ba" n="28"/>xviternum autem imago. Et propter
-<lb ed="#Ba" n="29"/>idem Angelus signaculum, anima imago,
-<lb ed="#Ba" n="30"/>corpus vestigium Dei dicitur. Et hoc
-<lb ed="#Ba" n="31"/>habent in natura, non nisi quantum ad
-<lb ed="#Ba" n="32"/>illam immutabilitalem qua est in esse
-<lb ed="#Ba" n="33"/>substantiali : et quia creatum opus 
-vo<lb ed="#Ba" break="no" n="34"/>luntatis est, ut dicit Damascenus, et non
-<lb ed="#Ba" n="35"/>nature : ideodicit Plate: <quote xml:id="Almn78-a31780-Qd1e1777"> Voluntate mea
-<lb ed="#Ba" n="36"/>sic permanentes. </quote> Immutabilitatem 
-au<lb ed="#Ba" break="no" n="37"/>tem que est ad esse, nullo modo habet,
-<lb ed="#Ba" n="38"/>nec per gratiam, nec per naturam: hec
-<lb ed="#Ba" n="39"/>enim sic soli Deo convenit, quod nulli
-<lb ed="#Ba" n="40"/>creato penitus communicabilis est. 
-Si<lb ed="#Ba" break="no" n="41"/>militer incommutabilitatem in esse 
-sub<lb ed="#Ba" break="no" n="42"/>stantiali et accidentali quadam creata
-<lb ed="#Ba" n="43"/>habent, sed per gratiam, non per 
-natu<lb ed="#Ba" break="no" n="44"/>ram. Et hoc verum est et secundum
-<lb ed="#Ba" n="45"/>fidem et secundum philosophiam. Esse
-<lb ed="#Ba" n="46"/>enim, ut in libro de Causis 
-proba<lb ed="#Ba" break="no" n="47"/>tum est, continuus fluxus est ab ente
-<lb ed="#Ba" n="48"/>primo in omne quod causatum est vel
-<lb ed="#Ba" n="49"/>creatum est.
-</p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 21</title>
+        <author ref="#Albert">Albert the Great</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 21</title>
+          <date when="2021-11-11">November 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-11-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ba" n="148"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Almn78-a31780"><!-- p1t4q21 -->
+        <head xml:id="Almn78-a31780-Hd1e106">Quaestio 21</head>
+        <head xml:id="Almn78-a31780-Hd1e109" type="question-title">
+          De incommutabilitate Dei.
+        </head>
+        <p xml:id="Almn78-a31780-d1e112">
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="30"/>QUAESTIO XXI.
+          <lb ed="#Ba" n="31"/>De incommutabilitate Dei.
+        </p>
+        <p xml:id="Almn78-a31780-d1e121">
+          <lb ed="#Ba" n="32"/>Deinde queritur de incommutabilitate
+          <lb ed="#Ba" n="33"/>Dei.
+          <lb ed="#Ba" n="34"/>Et quia incommutabilitas causa 
+          eter<lb ed="#Ba" break="no" n="35"/>nitatis est, queritur consequenter de
+          <lb ed="#Ba" n="36"/>eternitate.
+          
+          <lb ed="#Ba" n="37"/>Circa incommutabilitatem queruntur
+          <lb ed="#Ba" n="38"/>tria.
+          <lb ed="#Ba" n="39"/>Primo, An essentia divina sive Deus
+          <lb ed="#Ba" n="40"/>sit incommutabilis ?
+          <lb ed="#Ba" n="41"/>Secundo, Utrum aliquis motus vel
+          <lb ed="#Ba" n="42"/>mutatio Deo conveniat ?
+          <lb ed="#Ba" n="43"/>Tertio, Utrum incommutabile esse sit
+          <lb ed="#Ba" n="44"/>proprium essentia divine ?
+        </p>
+        <div xml:id="Almn78-a31780-Dd1e152">
+          <head xml:id="Almn78-a31780-Hd1e154">Membrum 1</head>
+          <head xml:id="Almn78-a31780-Hd1e157" type="question-title">
+            Utrum divina essentia sive Deus sit
+            incommutabilis?
+          </head>
+          <p xml:id="Almn78-a31780-d1e160">
+            <lb ed="#Ba" n="45"/>MEMBRUM I.
+            <lb ed="#Ba" n="46"/>Utrum divina essentia sive Deus sit
+            <lb ed="#Ba" n="47"/>incommutabilis?
+          </p>
+          <p xml:id="Almn78-a31780-d1e169">
+            <lb ed="#Ba" n="48"/>Quaeritur ergo primo, Utrum divina
+            <lb ed="#Ba" n="49"/>essentia incommutabilis sit ?
+          </p>
+          <p xml:id="Almn78-a31780-d1e176">
+            <lb ed="#Ba" n="50"/>Quod autem incommutabilis sit, 
+            pro<lb ed="#Ba" break="no" n="51"/>bat
+            <lb ed="#Ba" n="52"/>1. Richardus in libro de Trinitate, sup-
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" break="no" n="53"/>ponens hoc, quod omne quod mutatur,
+            <lb ed="#Ba" n="54"/>vel mutatur in melius, vel in pejus, vel
+            <lb ed="#Ba" n="55"/>in equale. In melius mutari non potest
+            <lb ed="#Ba" n="56"/>quod omnino perfectum est : quia si 
+            ha<lb ed="#Ba" break="no" n="57"/>bet melius ad quod mutatur, sequitur
+            <lb ed="#Ba" n="58"/>ipsum perfectum non esse. In pejus 
+            mu<lb ed="#Ba" break="no" n="59"/>tari non potest, quod verissime est :
+            <lb ed="#Ba" n="60"/>quia si in pejus mutatur, admixtam 
+            ha<lb ed="#Ba" break="no" n="61"/>bet privationem qua meliori privetur : et
+            <lb ed="#Ba" n="62"/>admixtam habens privationem, non 
+            ve<lb ed="#Ba" break="no" n="63"/>rissime est. Ad equale mutari non 
+            pot<lb ed="#Ba" break="no" n="64"/>est, quod a seipso est: quia enim mutans
+            <lb ed="#Ba" n="65"/>semper equale est, et omne mutans 
+            mu<lb ed="#Ba" break="no" n="66"/>tat ad suam speciem, id quod a seipso
+            <lb ed="#Ba" n="67"/>est, si mutat, mutat ad idem : sed non
+            <lb ed="#Ba" n="68"/>mutat, quia in omni eo quod est mutans,
+            <lb ed="#Ba" n="69"/>aliud est mutans, et aliud mutatum :
+            <lb ed="#Ba" n="70"/>quod autem a seipso est, non habet aliud
+            <lb ed="#Ba" n="71"/>quo sit, et quod sit: si ergo mutaret
+            <lb ed="#Ba" n="72"/>se de statu in ‘statum, sequeretur quod a
+            <lb ed="#Ba" n="73"/>seipso non esset. Cum ergo Deus 
+            perfe<lb ed="#Ba" break="no" n="74"/>ctissime et verissime et a seipso sit,
+            sequi<lb ed="#Ba" break="no" n="75"/>tur quod nec in melius, nec in pejus, nec
+            <lb ed="#Ba" n="76"/>equale mutari possit, et sic penitus 
+            in<lb ed="#Ba" break="no" n="77"/>commutabilis est.
+          </p>
+          <p xml:id="Almn78-a31780-d1e242">
+            <lb ed="#Ba" n="78"/>2. Adhuc, <ref xml:id="Almn78-a31780-Rvn1w3d" corresp="#Almn78-a31780-Qd1e250">Augustinus</ref>, et ponitur a
+            <lb ed="#Ba" n="79"/><ref xml:id="Almn78-a31780-Rgvn1ds" corresp="#Almn78-a31780-Qd1e250" target="http://scta.info/resource/pll1d8c2-d1e3480@49-94">Magistro in octava distinctione libri
+              <lb ed="#Ba" n="80"/>primi Sententiarum</ref>: <quote xml:id="Almn78-a31780-Qd1e250" source="http://scta.info/resource/adt-l5-d1e680@116-157">Quod mutatur,
+                <pb ed="#Ba" n="149"/>
+                <cb ed="#Ba" n="a"/>
+                <lb ed="#Ba" n="1"/>non servat ipsum verum esse: et quod
+                <lb ed="#Ba" n="2"/>mutari potest, etiamsi non mutetur,
+                <lb ed="#Ba" n="3"/>potest quod fuerat non esse. Ideoque
+                <lb ed="#Ba" n="4"/>illud solum quod non tantum non 
+                mu<lb ed="#Ba" n="5" break="no"/>tatur, verum etiam omnino mutari non
+                <lb ed="#Ba" n="6"/>potest, verissime dicitur esse</quote>, id est,
+            <lb ed="#Ba" n="7"/>substantia Patris et Filii et Spiritus
+            <lb ed="#Ba" n="8"/>sancti. Hac <ref xml:id="Almn78-a31780-Rfndhuh" corresp="#Almn78-a31780-Qcnd711">Augustinus scribit in libro
+              <lb ed="#Ba" n="9"/>V de Trinitate</ref>. Ergo videtur, quod
+            <lb ed="#Ba" n="10"/><quote xml:id="Almn78-a31780-Qcnd711" source="http://scta.info/resource/adt-l5-d1e690@200-209">Deus omnino sit incommutabilis</quote>.
+          </p>
+          <p xml:id="Almn78-a31780-d1e280">
+            <lb ed="#Ba" n="11"/>3. Ahduc, Omne quod nullo modo in
+            <lb ed="#Ba" n="12"/>potentia est, nullo modo mutabile est:
+            <lb ed="#Ba" n="13"/>quod verissime est, nullo modo in 
+            po<lb ed="#Ba" break="no" n="14"/>tentia est : Deus verissime est: ergo
+            <lb ed="#Ba" n="15"/>nullo modo mutabilis est. Omnis enim
+            <lb ed="#Ba" n="16"/>mutatio de potentia est ad actum: 
+            poten<lb ed="#Ba" break="no" n="17"/>lia autem permixta privationi est : et
+            <lb ed="#Ba" n="18"/>quod permixtum privationi est, non 
+            ve<lb ed="#Ba" break="no" n="19"/>rissime est: ergo quod verissime est,
+            <lb ed="#Ba" n="20"/>commutabile esse non potest: ergo Deus
+            <lb ed="#Ba" n="21"/>commutabilis esse non potest.
+          </p>
+          <p xml:id="Almn78-a31780-d1e306">
+            <lb ed="#Ba" n="22"/>4. Fortius objicitur per hoc quod dicit
+            <lb ed="#Ba" n="23"/>Aristoteles, et confirmat Augustinus in
+            <lb ed="#Ba" n="24"/>libro VHI super Genesim ad litteram,
+            <lb ed="#Ba" n="25"/>ot Boetius in libro de Consolatione 
+            philo<lb ed="#Ba" break="no" n="26"/>sophiae, quod <quote xml:id="Almn78-a31780-Qd1e319">omnis motus ab 
+              immo<lb ed="#Ba" break="no" n="27"/>bili est. </quote> Si ergo hic motus ab hoc 
+            im<lb ed="#Ba" break="no" n="28"/>mobili : et motus simpliciter a simpliciter
+            <lb ed="#Ba" n="29"/>immobili: sed Deus est a quo omnis 
+            mo<lb ed="#Ba" break="no" n="30"/>tus: ergo Deus simpliciter immobilis et
+            <lb ed="#Ba" n="31"/>incommutabilis est. Et hoc sequitur ex
+            <lb ed="#Ba" n="32"/>conclusione Aristotelis in fine octavi
+            <lb ed="#Ba" n="33"/>Physicorum, “ubi dicit, quod <quote xml:id="Almn78-a31780-Qd1e337"> motor
+              <lb ed="#Ba" n="34"/>primus est indivisibilis et impartibilis,
+              <lb ed="#Ba" n="35"/>non habens magnitudinem penitus. </quote>
+            (mne. enim quod movetur, divisibile est,
+            <lb ed="#Ba" n="36"/>sicut dicitur in libro de Causis, 
+            proposi<lb ed="#Ba" break="no" n="37"/>lione septima, que dicit, quod <quote xml:id="Almn78-a31780-Qd1e348"> 
+              intelli<lb ed="#Ba" break="no" n="38"/>gentia est substantia que non dividitur. </quote>
+            <lb ed="#Ba" n="39"/>Quod exponens dicit: <quote xml:id="Almn78-a31780-Qd1e356"> Omne divisibile
+              <lb ed="#Ba" n="40"/>non dividitur, nisi in multitudinem, aut
+              <lb ed="#Ba" n="41"/>magnitudinem, aut motum suum. Cum
+              <lb ed="#Ba" n="42"/>ergo res est secundum hance 
+              dispositio<lb ed="#Ba" break="no" n="43"/>nem, quod scilicet aliquo modo sic 
+              divi<lb ed="#Ba" break="no" n="44"/>ditur, est sub tempore: sed intelligentia
+              <cb ed="#Ba" n="b"/>
+              <lb ed="#Ba" n="45"/>non est sub tempore, sed cum 
+              eterni<lb ed="#Ba" break="no" n="46"/>tate : ergo intelligentia est substantia que
+              <lb ed="#Ba" n="47"/>non dividitur. </quote> Si autem hoc convenit
+            <lb ed="#Ba" n="48"/>intelligentie, multo magis cause prime,
+            <lb ed="#Ba" n="49"/>que sicut ibidem dicitur, ante 
+            eternita<lb ed="#Ba" break="no" n="50"/>tem est. Hoc est quod dicit Boetius in 
+            li<lb ed="#Ba" break="no" n="51"/>bro de Consolatione philosophiae :
+            <lb ed="#Ba" n="52"/>
+            <quote xml:id="Almn78-a31780-Qd1e389">Stabilisque manens das cuncta moveri.</quote>
+          </p>
+          <p xml:id="Almn78-a31780-d1e393">
+            <lb ed="#Ba" n="53"/>Amplius, In hymno Ambrosii:
+            <lb ed="#Ba" n="54"/>
+            <quote xml:id="Almn78-a31780-Qd1e399">Rerum Deu tenax vigo,
+              <lb ed="#Ba" n="55"/>Immotus in te permanens,
+              <lb ed="#Ba" n="56"/>Lucis diurne tempora
+              <lb ed="#Ba" n="57"/>Successibus determinans</quote>
+          </p>
+          <p xml:id="Almn78-a31780-d1e409">
+            <lb ed="#Ba" n="58"/>Hoc etiam innuitur in principio VI
+            <lb ed="#Ba" n="59"/>Physicorum: <quote xml:id="Almn78-a31780-Qd1e415"> Si enim primus motor
+              <lb ed="#Ba" n="60"/>esset mobilis, sequeretur quod motus esset
+              <lb ed="#Ba" n="61"/>ante primum motum. </quote> Et sequeretur,
+            <lb ed="#Ba" n="62"/>quod motus alterationis esset primus in
+            <lb ed="#Ba" n="63"/>genere motus: que absurda sunt. 
+            Pro<lb ed="#Ba" break="no" n="64"/>batum est enim, quod primus in genere
+            <lb ed="#Ba" n="65"/>motus, est localis motus, et primus inter
+            <lb ed="#Ba" n="66"/>locales motus est motus coeli,et ante illum
+            <lb ed="#Ba" n="67"/>nihil est quod moveatur vel mobile sit.
+          </p>
+          <p xml:id="Almn78-a31780-d1e436">
+            <lb ed="#Ba" n="68"/>Adhuc, Jacobi, 1, 17: <quote xml:id="Almn78-a31780-Qd1e440" source="http://scta.info/resource/iac1_17@14-21">Apud quem non
+              <lb ed="#Ba" n="69"/>est transmutatio, nec vicissitudinis 
+              obum<lb ed="#Ba" break="no" n="70"/>bratio</quote>.
+          </p>
+          <p xml:id="Almn78-a31780-d1e449">
+            <lb ed="#Ba" n="71"/>Adhuc, Malach. 11,6: <quote xml:id="Almn78-a31780-Qd1e453">Ego Dominus,
+              <lb ed="#Ba" n="72"/>et non mutor</quote>.
+          </p>
+          <p xml:id="Almn78-a31780-d1e459">
+            <lb ed="#Ba" n="73"/>Adhuc, Numer. xxi, 19 : <quote xml:id="Almn78-a31780-Qd1e463">Non est Deus
+              <lb ed="#Ba" n="74"/>quasi homo, ut mentiatur, nec ut filius
+              <lb ed="#Ba" n="75"/>hominis, ut mutetur</quote>.
+          </p>
+          <p xml:id="Almn78-a31780-d1e471">
+            <lb ed="#Ba" n="76"/>Ex his omnibus concluditur, quod
+            <lb ed="#Ba" n="77"/>Deus incommutabilis est penitus et 
+            om<lb ed="#Ba" break="no" n="78"/>nino.
+          </p>
+          <p xml:id="Almn78-a31780-d1e480">
+            <lb ed="#Ba" n="79"/>In contrarium est quod
+            <lb ed="#Ba" n="80"/>1. Dicit Augustinus in lib. VIII 
+            su<lb ed="#Ba" break="no" n="81"/>per Genesim ad litteram, quod <quote xml:id="Almn78-a31780-Qd1e488"> 
+              spiri<lb ed="#Ba" break="no" n="82"/>tus creator movet se, sed nec per 
+              tem<lb ed="#Ba" break="no" n="83"/>pus, nec per locum. </quote> Quod autem 
+            mo<lb ed="#Ba" break="no" n="84"/>vet se, aliquo modo mutabile est. Ergo
+            <lb ed="#Ba" n="85"/>Deus aliquo modo mutabilis est.
+          </p>
+          <p xml:id="Almn78-a31780-d1e501">
+            <pb ed="#Ba" n="150"/>
+            <cb ed="#Ba" n="a"/>
+            <lb ed="#Ba" n="1"/>2. Item, Videtur per dictum Apuleii
+            <lb ed="#Ba" n="2"/>quod inducit Augustinus in libro de 
+            Ci<lb ed="#Ba" break="no" n="3"/>vitate Dei, quod Deus est motu et 
+            ra<lb ed="#Ba" break="no" n="4"/>tione mundum gubernans. Constat 
+            au<lb ed="#Ba" break="no" n="5"/>tem, quod non est gubernans nisi motu
+            <lb ed="#Ba" n="6"/>sui : videtur ergo, quod aliquo modo 
+            mu<lb ed="#Ba" break="no" n="7"/>tabilis sit.
+          </p>
+          <p xml:id="Almn78-a31780-d1e523">
+            <lb ed="#Ba" n="8"/>3. Adhuc, Appropinquari et elongari
+            <lb ed="#Ba" n="9"/>motus sunt: et hide Deodicuntur,Jacobi,
+            <lb ed="#Ba" n="10"/>lv, 8: Appropinguate Deo, et 
+            appropin<lb ed="#Ba" break="no" n="11"/>guabit vobis.
+          </p>
+          <p xml:id="Almn78-a31780-d1e535">
+            <lb ed="#Ba" n="12"/>4. Adhuc, Sapient. vu, 23: Omnibus
+            <lb ed="#Ba" n="13"/>mobilibus mobilior est sapientia. 
+            Sa<lb ed="#Ba" break="no" n="14"/>pientia autem divina Deus est. Ergo 
+            om<lb ed="#Ba" break="no" n="15"/>nibus mobilibus mobilior Deus est.
+          </p>
+          <p xml:id="Almn78-a31780-d1e546">
+            <lb ed="#Ba" n="16"/>5. Adhuc, Movere est aliter se habere
+            <lb ed="#Ba" n="17"/>quam prius, ut dicit Aristoteles in III 
+            Phy<lb ed="#Ba" break="no" n="18"/>sicorum : sed Deus aliter se habet modo
+            <lb ed="#Ba" n="19"/>quam ab eterno : modo enim se habet ad
+            <lb ed="#Ba" n="20"/>creaturam ut creator, gubernator, et
+            <lb ed="#Ba" n="21"/>conservator : et hoc modo ab eterno se
+            <lb ed="#Ba" n="22"/>non habuit ad creaturam: ergo videtur,
+            <lb ed="#Ba" n="23"/>quod Deus sit mutabilis.
+          </p>
+          <p xml:id="Almn78-a31780-d1e566">
+            <lb ed="#Ba" n="24"/>6. Adhuc, <ref xml:id="Almn78-a31780-Rd1e570">Aristoteles in II 
+              Physico<lb ed="#Ba" break="no" n="25"/>rum</ref> et in <ref xml:id="Almn78-a31780-Rd1e575">secundo de Anima</ref> vult, quod
+            <lb ed="#Ba" n="26"/>duplex sit motus alterationis. Unus qui
+            <lb ed="#Ba" n="27"/>est de potentia ad actum, sive qui est de
+            <lb ed="#Ba" n="28"/>contrario in contrarium, ut cum de albo
+            <lb ed="#Ba" n="29"/>fit nigrum, vel de ignorante sciens. Alius
+            <lb ed="#Ba" n="30"/>motus quo quis de otio sive de habitu
+            <lb ed="#Ba" n="31"/>mutatur ad actum, ut cum quis de non
+            <lb ed="#Ba" n="32"/>considerante fit considerans, vel de 
+            ha<lb ed="#Ba" break="no" n="33"/>bitu actualiter agens. Dicit enim <ref xml:id="Almn78-a31780-Rd1e596">
+              Aver<lb ed="#Ba" break="no" n="34"/>roes super lI de Anima</ref>,quod habitus est
+            <lb ed="#Ba" n="35"/>quo quis aliquid agit cum voluerit. Tali
+            <lb ed="#Ba" n="36"/>autem modo videtur Deus alterari : quia
+            <lb ed="#Ba" n="37"/>de non creante fit creans (hoc constat), de
+            <lb ed="#Ba" n="38"/>non gubernante fit gubernans, et sic est
+            <lb ed="#Ba" n="39"/>in multis aliis. Unde Augustinus in lib. I
+            <lb ed="#Ba" n="40"/>super Genesim ad litteram dicit, et 
+            poni<lb ed="#Ba" break="no" n="41"/>turin Glossa super illud Genesis, u, 18:
+            <lb ed="#Ba" n="42"/>Dixit quoque Dominus Deus: Non est
+            <lb ed="#Ba" n="43"/>bonum hominem esse solum. \bi querit
+            <lb ed="#Ba" n="44"/>Augustinus, Quare ibi vocat Dominum
+            <lb ed="#Ba" n="45"/>Deum, cum ante non dixerit nisi 
+            simpli<lb ed="#Ba" break="no" n="46"/>citer, Deus ? Et respondet, quod Dominus
+            <lb ed="#Ba" n="47"/>dici non poterat, cum servum non habe
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" break="no" n="48"/>ret cui imperaret: homo autem servus
+            <lb ed="#Ba" n="49"/>est: unde in factura hominis Deum 
+            Do<lb ed="#Ba" break="no" n="50"/>minum vocat. Ex quo relinquitur, quod
+            <lb ed="#Ba" n="51"/>ex non Domino factus est Dominus.
+            <lb ed="#Ba" n="52"/>Ergo mutatus est.
+          </p>
+          <p xml:id="Almn78-a31780-d1e643">
+            <lb ed="#Ba" n="53"/>7. Adhuc, Constat, quod ex non 
+            vo<lb ed="#Ba" break="no" n="54"/>lente aliquid, factus est volens illud. Vult
+            <lb ed="#Ba" n="55"/>enim aliquem non esse quando moritur,
+            <lb ed="#Ba" n="56"/>quem prius voluit esse cum non 
+            morere<lb ed="#Ba" break="no" n="57"/>tur: ergo voluit aliquid quod ante non
+            <lb ed="#Ba" n="58"/>voluit: de non volente ergo factus est
+            <lb ed="#Ba" n="59"/>volens, et sic secundum voluntatem 
+            mu<lb ed="#Ba" break="no" n="60"/>tatus est.
+          </p>
+          <p xml:id="Almn78-a31780-d1e663">
+            <lb ed="#Ba" n="61"/>8. Adhuc, In primo libro 
+            Sententia<lb ed="#Ba" break="no" n="62"/>rum, distinctione VII, ponuntur verba
+            <lb ed="#Ba" n="63"/>Augustini contra Maximinum libro primo
+            <lb ed="#Ba" n="64"/>de Trinitate, cap. 1: <quote xml:id="Almn78-a31780-Qd1e673"> Si Spiritus sanctus
+              <lb ed="#Ba" n="65"/>nasci potuit, potuit esse Filius, et ita
+              <lb ed="#Ba" n="66"/>mutabilis esse potuit '. </quote> Ergo asimilisi
+            <lb ed="#Ba" n="67"/>creator esse potuit, et factus est creator,
+            <lb ed="#Ba" n="68"/>potuit esse mutabilis.
+          </p>
+          <p xml:id="Almn78-a31780-d1e686">
+            <lb ed="#Ba" n="69"/>Ex his omnibus videtur, quod Deus
+            <lb ed="#Ba" n="70"/>omnino non sit immutabilis.
+          </p>
+          <p xml:id="Almn78-a31780-d1e694">
+            <lb ed="#Ba" n="71"/>Solutio. Ad hoc dicendum, quod et 
+            se<lb ed="#Ba" break="no" n="72"/>cundum philosophiam et secundum fidem
+            <lb ed="#Ba" n="73"/>Deus est penitus incommutabilis et 
+            im<lb ed="#Ba" break="no" n="74"/>mobilis. Est enim muéatio secundum 
+            sub<lb ed="#Ba" break="no" n="75"/>stantiam proprie, motus autem 
+            secun<lb ed="#Ba" break="no" n="76"/>dum accidens. Dicit enim Aristoteles in
+            <lb ed="#Ba" n="77"/>V Physicorum, quod mutatio vel est de
+            <lb ed="#Ba" n="78"/>non subjecto ad subjectum, vel de 
+            sub<lb ed="#Ba" break="no" n="79"/>jecto ad non subjectum : motus autem
+            <lb ed="#Ba" n="80"/>de subjecto ad subjectum. Unde cum
+            <lb ed="#Ba" n="81"/>Deus nec in substantia, nec in formis 
+            ac<lb ed="#Ba" break="no" n="82"/>cidentalibus in potentia sit, sequitur
+            <lb ed="#Ba" n="83"/>quod omnino incommutabilis sit. Si enim
+            <lb ed="#Ba" n="84"/>mutabilis esset in his que sibi insunt,
+            <lb ed="#Ba" n="85"/>que Joannes Damascenus vocat 
+            asse<lb ed="#Ba" break="no" n="86"/>quentia substantiam, sequeretur quod
+            <lb ed="#Ba" n="87"/>commutabilis esset in substantia: quia
+            <lb ed="#Ba" n="88"/>quidquid in Deo est, Deus est 
+            substantia<lb ed="#Ba" break="no" n="89"/>liter.
+          </p>
+          <p xml:id="Almn78-a31780-d1e738">
+            <lb ed="#Ba" n="90"/>Unde ca que primo ad hoc inducta
+            <lb ed="#Ba" n="91"/>sunt, concedenda sunt.
+          </p>
+          <p xml:id="Almn78-a31780-d1e745">
+            <lb ed="#Ba" n="92"/>Ad id autem quod primo in contra- Ad objec
+            <lb ed="#Ba" n="93"/>rium objicitur, dicendum quod Deus se
+            <pb ed="#Ba" n="151"/>
+            <cb ed="#Ba" n="a"/>
+            <lb ed="#Ba" n="1"/>movere dicitur per effectum nature, vel
+            <lb ed="#Ba" n="2"/>gratia, vel gloria, quando scilicet per
+            <lb ed="#Ba" n="3"/>effectam aliquem incipit in aliquo esse,
+            <lb ed="#Ba" n="4"/>perquem prius in illo non fuit, qui 
+            se<lb ed="#Ba" break="no" n="5"/>cundum se ubique est et in omnibus.
+            <lb ed="#Ba" n="6"/>Unde talis motus ad Deum non refertur,
+            <lb ed="#Ba" n="7"/>sed ad ejus effectum. Et hoc innuit 
+            Augu<lb ed="#Ba" break="no" n="8"/>stinus cum dicit, quod <quote xml:id="Almn78-a31780-Qd1e773"> nec movet se per
+              <lb ed="#Ba" n="9"/>tempus, nec per locum. </quote> Si enim motus
+            <lb ed="#Ba" n="10"/>in ipso esset, oporteret quod vel per 
+            tem<lb ed="#Ba" break="no" n="11"/>pus, vel per locum moveretur. Similiter
+            <lb ed="#Ba" n="12"/>dicitur, Sapient. vn, 27, de spiritu 
+            sa<lb ed="#Ba" break="no" n="13"/>pientia, quod per nationes in animas
+            <lb ed="#Ba" n="14"/>sanctas se transfert, amicos Det et 
+            pro<lb ed="#Ba" break="no" n="15"/>phetas constituit.
+          </p>
+          <p xml:id="Almn78-a31780-d1e792">
+            <lb ed="#Ba" n="16"/>Ad aliud dicendum, quod Deus motu
+            <lb ed="#Ba" n="17"/>imundum gubernat, qui ab ipso est,
+            <lb ed="#Ba" n="18"/>hon qui in ipso est. Dicit enim 
+            Ari<lb ed="#Ba" break="no" n="19"/>stoteles in IIL Physicorum, quod <quote xml:id="Almn78-a31780-Qd1e802"> 
+              mo<lb ed="#Ba" break="no" n="20"/>tus est actus moventis, et actus 
+              mo<lb ed="#Ba" break="no" n="21"/>hilis. </quote> Sed est actus moventis, 
+            secun<lb ed="#Ba" break="no" n="22"/>dum quod est actus perfectus qui 
+            a_per<lb ed="#Ba" break="no" n="23"/>fecto est, quod est movens : omne enim
+            <lb ed="#Ba" n="24"/>movens perfectum est, et in actu: et 
+            pri<lb ed="#Ba" break="no" n="25"/>mus motor perfectissimus est, et ipse
+            <lb ed="#Ba" n="26"/>actor est. Secundum autem quod est actus
+            <lb ed="#Ba" n="27"/>imperfectus, sicest in mobili sicut in 
+            sub<lb ed="#Ba" break="no" n="28"/>jecto, et sicut in imperfecto quod motu
+            <lb ed="#Ba" n="29"/>perficitur. Et ideo ibidem dicit Aristote 
+            <lb ed="#Ba" break="no" n="30"/>les quod <quote xml:id="Almn78-a31780-Qd1e829"> motus dicitur actus imperfé
+              <lb ed="#Ba" break="no" n="31"/>ctus, qui est imperfecti actus: </quote> et sic
+            <lb ed="#Ba" n="32"/>non cadit in Deum. Et quando dicitur
+            <lb ed="#Ba" n="33"/>incommutabilis Deus, prepositio in, non
+            <lb ed="#Ba" n="34"/>privat potentiam movendi active, sed 
+            pri<lb ed="#Ba" break="no" n="35"/>vat potentiam mobilitatis passive.
+          </p>
+          <p xml:id="Almn78-a31780-d1e844">
+            <lb ed="#Ba" n="36"/>Ad aliud dicendum, quod motus 
+            ap<lb ed="#Ba" break="no" n="37"/>propinquationis et elongationis non 
+            refe<lb ed="#Ba" break="no" n="38"/>runtur ad Deum, nisi secundum 
+            effe<lb ed="#Ba" break="no" n="39"/>rlum, ut paulo ante dictum est. Et hoc
+            <lb ed="#Ba" n="40"/>probat Dionysius in libro de Divinis
+            <lb ed="#Ba" n="41"/>nominibus *, de virtute orationis, 
+            po<lb ed="#Ba" break="no" n="42"/>nefs duas  similitudines. Unam de
+            <lb ed="#Ba" n="43"/>multi luminis catena de ccelo 
+            depen<lb ed="#Ba" break="no" n="44"/>dente, in qua manus mutans per ansas et
+            <lb ed="#Ba" n="45"/>unsas ascendendo, a terra quidem 
+            exal<lb ed="#Ba" break="no" n="46"/>falur et celum sibi appropinquat, non
+            <lb ed="#Ba" n="47"/>ceeli depositione, sed sui ad coelum exal
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" break="no" n="48"/>tatione. Secundam ponit in rupe vel 
+            pe<lb ed="#Ba" break="no" n="49"/>tra immobiliter stante juxta aquam, ad
+            <lb ed="#Ba" n="50"/>quam cum quis trahit navim vel impellit,
+            <lb ed="#Ba" n="51"/>ad ipsam appropinquat vel ab ea 
+            elon<lb ed="#Ba" break="no" n="52"/>gatur, non motu petre, sed motu navis.
+          </p>
+          <p xml:id="Almn78-a31780-d1e886">
+            <lb ed="#Ba" n="53"/>Ad aliud dicendum, quod mobilior 
+            di<lb ed="#Ba" break="no" n="54"/>citur esse sapientia per effectum: quia
+            <lb ed="#Ba" n="55"/>sicut ibidem dicitur, Sapient. vir, 24, aé
+            <lb ed="#Ba" break="no" n="56"/>tingit ubique, et omnia disponit: quod
+            <lb ed="#Ba" n="57"/>nulli aliaram causarum convenire poterit.
+          </p>
+          <p xml:id="Almn78-a31780-d1e900">
+            <lb ed="#Ba" n="58"/>Ad aliud dicendum, quod non aliter se
+            <lb ed="#Ba" n="59"/>habet nunc Deus quam ab eterno. Et
+            <lb ed="#Ba" n="60"/>quod dicitur creator et conservator, per
+            <lb ed="#Ba" n="61"/>relationem dicitur, que non per 
+            muta<lb ed="#Ba" break="no" n="62"/>tionem sui fitin ipso, sed per mutationem
+            <lb ed="#Ba" n="63"/>creature, que nunc fit ut creata, 
+            con<lb ed="#Ba" break="no" n="64"/>servata, gubernata, ex cujus relatione ad
+            <lb ed="#Ba" n="65"/>creatorem oportet quod cointelligatur
+            <lb ed="#Ba" n="66"/>correlatio creatoris ad ipsam, que nihil
+            <lb ed="#Ba" n="67"/>novi dicit in ipso, sed aliquid novi dicit
+            <lb ed="#Ba" n="68"/>ab ipso: et hoc importatur in hoc 
+            no<lb ed="#Ba" break="no" n="69"/>mine, creator. Jam enim in tractatu de
+            <lb ed="#Ba" n="70"/>simplicitate Dei determinatum est, quod
+            <lb ed="#Ba" n="71"/>relatio secundum hoc quod est accidens,
+            <lb ed="#Ba" n="72"/>et suum esse est inesse, non manet in
+            <lb ed="#Ba" n="73"/>divina predicatione, sed suum modum
+            <lb ed="#Ba" n="74"/>predicandi mutat in modum predicandi
+            <lb ed="#Ba" n="75"/>substantialem. Secundum autem quod
+            <lb ed="#Ba" n="76"/>relatio est,esse suum ad aliud est, et nihil
+            <lb ed="#Ba" n="77"/>predicat per modum inherendi: sed hoc
+            <lb ed="#Ba" n="78"/>quod predicat, predicat per modum ad
+            <lb ed="#Ba" n="79"/>se habendi. Tales autem habitudines ex
+            <lb ed="#Ba" n="80"/>uno mutato secundum veritatem, in 
+            mul<lb ed="#Ba" break="no" n="81"/>tis innascuntur secundum intellectum.
+            <lb ed="#Ba" n="82"/>Et hujus exemplum dant Boetius et 
+            Avi<lb ed="#Ba" break="no" n="83"/>cenna in statua alicubi stante a dextris,
+            <lb ed="#Ba" n="84"/>quo recedente ad oppositum, statim 
+            ea<lb ed="#Ba" break="no" n="85"/>dem statua sine sui mutatione efficitur a
+            <lb ed="#Ba" n="86"/>sinistris. Augustini autem exemplum in
+            <lb ed="#Ba" n="87"/>libro de Trinitate est de nummo, qui
+            <lb ed="#Ba" n="88"/>sine sui commutatione ex 
+            commutationi<lb ed="#Ba" break="no" n="89"/>bus ejus cujus est, aliquando est 
+            pre<lb ed="#Ba" break="no" n="90"/>tium, et aliquando est pignus, per 
+            re<lb ed="#Ba" break="no" n="91"/>lationem nummi ad id pro quo 
+            com<lb ed="#Ba" break="no" n="92"/>mutatur. Melius omnibus exemplum
+            <lb ed="#Ba" n="93"/>est quod Euclides in libro de Fallacia
+            <lb ed="#Ba" n="94"/>visus a Platone acceptum ponit de re
+            <pb ed="#Ba" n="152"/>
+            <cb ed="#Ba" n="a"/>
+            <lb ed="#Ba" break="no" n="1"/>flexione que fit ad speculum planum,
+            <lb ed="#Ba" n="2"/>ubi dextera eodem modo manentia 
+            efli<lb ed="#Ba" break="no" n="3"/>ciuntur sinistra, et sinistra dextera. Sic
+            <lb ed="#Ba" n="4"/>eodem modo manens Deus per respectum
+            <lb ed="#Ba" n="5"/>creature ad ipsum, creator dicitur, et
+            <lb ed="#Ba" n="6"/>non creator, sine sui mutatione.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1000">
+            <lb ed="#Ba" n="7"/>Ad aliud dicendum, quod sicut 
+            obje<lb ed="#Ba" break="no" n="8"/>ctum est, alteratio duplex est: sed de otio
+            <lb ed="#Ba" n="9"/>ad acium, sive de habitu ad actum non
+            <lb ed="#Ba" n="10"/>mutantur nisi ea que agunt passibilia
+            <lb ed="#Ba" n="11"/>existentia. In his autem que non sunt
+            <lb ed="#Ba" n="12"/>passibilia, sed uno modo se habent et
+            <lb ed="#Ba" n="13"/>per essentiam agunt, de non agentibus
+            <lb ed="#Ba" n="14"/>fiunt agentia sine mutatione. In talibus
+            <lb ed="#Ba" n="15"/>enim agens uno modo se habet, et non
+            <lb ed="#Ba" n="16"/>dicitur agens nunc, et non prius, nisi
+            <lb ed="#Ba" n="17"/>per hoc quod actum nunc est et non
+            <lb ed="#Ba" n="18"/>prius. Et exemplum in sole, qui semper
+            <lb ed="#Ba" n="19"/>eodem modo se habet in illuminando:
+            <lb ed="#Ba" n="20"/>nec dicitur ceram liquefaciens et lutum
+            <lb ed="#Ba" n="21"/>condensans nunc et non prius, nisi per
+            <lb ed="#Ba" n="22"/>hoc quod cera liquefacta et lutum 
+            con<lb ed="#Ba" break="no" n="23"/>densatum est nunc et non prius: talia
+            <lb ed="#Ba" n="24"/>enim uno modo se habentia non 
+            muta<lb ed="#Ba" break="no" n="25"/>tione sui, sed mutatione acti faciunt ea
+            <lb ed="#Ba" n="26"/>que faciunt.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1046">
+            <lb ed="#Ba" n="27"/>Ad aliud dicendum, quod cum dicitur,
+            <lb ed="#Ba" n="28"/>voluit nunc qued non prius, in his que
+            <lb ed="#Ba" n="29"/>impossibiliter agunt per voluntatem tales
+            <lb ed="#Ba" n="30"/>determinationes determinant voluntatem
+            <lb ed="#Ba" n="31"/>sive eum qui voluit respectu voliti, et
+            <lb ed="#Ba" n="32"/>non respectu volentis : etideo 
+            mutatio<lb ed="#Ba" break="no" n="33"/>nem dicunt in volilo, et non in volente.
+            <lb ed="#Ba" n="34"/>Ab eterno enim voluit ut nunc fieret,
+            <lb ed="#Ba" n="35"/>sed volitum nunc est, et non ab aterno.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1068">
+            <lb ed="#Ba" n="36"/>Ad uLtimum dicendum, quod non est
+            <lb ed="#Ba" n="37"/>simile de relatione personali qua persona
+            <lb ed="#Ba" n="38"/>procedit de persona, et de aliis relativis
+            <lb ed="#Ba" n="39"/>que ad creaturam sunt. Relationes enim
+            <lb ed="#Ba" n="40"/>personales super actus sunt fundate 
+            sub<lb ed="#Ba" break="no" n="41"/>stantiales, quibus persona accipit 
+            sub<lb ed="#Ba" break="no" n="42"/>stantiam et omnia que substantia sunt.
+            <lb ed="#Ba" n="43"/>iit ideo si mutatio esset in talibus 
+            rela<lb ed="#Ba" break="no" n="44"/>tionibus, sequeretur quod mutatio esset
+            <lb ed="#Ba" n="45"/>in substantia. In relationibus autem que
+            <lb ed="#Ba" n="46"/>ad creaturam sunt, fundatur relatio su
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" break="no" n="47"/>per actum voluntatis, et super actum 
+            ex<lb ed="#Ba" break="no" n="48"/>terius : qui fieri possunt sine muitationc
+            <lb ed="#Ba" n="49"/>agentis, ut dictum est, in his in quibus
+            <lb ed="#Ba" n="50"/>actum dependet ad agens per suam 
+            sub<lb ed="#Ba" break="no" n="51"/>stantiam, sed agens non dependet ail
+            <lb ed="#Ba" n="52"/>actum.
+          </p>
+        </div>
+        <div xml:id="Almn78-a31780-Dd1e1112">
+          <head xml:id="Almn78-a31780-Hd1e1114">Membrum 2</head>
+          <head xml:id="Almn78-a31780-Hd1e1117" type="question-title">
+            Utrum motus vel mutatio aliqua 
+            conveniat Deo
+          </head>
+          <p xml:id="Almn78-a31780-d1e1120">
+            <lb ed="#Ba" n="53"/>MEMBROM II.
+            <lb ed="#Ba" n="54"/>Utrum motus vel mutatio aliqua 
+            con<lb ed="#Ba" break="no" n="55"/>veniat Deo?
+          </p>
+          <p xml:id="Almn78-a31780-d1e1129">
+            <lb ed="#Ba" n="56"/>Secundo queritur, Utrum motus vel
+            <lb ed="#Ba" n="57"/>mutatio aliqua Deo conveniat ?
+          </p>
+          <p xml:id="Almn78-a31780-d1e1136">
+            <lb ed="#Ba" n="58"/>Et videtur quod sic.
+            <lb ed="#Ba" n="59"/>Multipliciter enim aliquid refertur ad
+            <lb ed="#Ba" n="60"/>motum vel mutationem: quedam enim
+            <lb ed="#Ba" n="61"/>ut subjectum mutationis: quedam ut
+            <lb ed="#Ba" n="62"/>terminus mutationis. Et hoc dupliciter,
+            <lb ed="#Ba" n="63"/>scilicet a quo, et ad quem. Et videtur,
+            <lb ed="#Ba" n="64"/>quod omnia ista Deo conveniant.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1155">
+            <lb ed="#Ba" n="65"/>1. Sicut enim quamvis Deus sit simplex,
+            <lb ed="#Ba" n="66"/>multiplex tamen dicitur in effectu : ita
+            <lb ed="#Ba" n="67"/>quamvis secundum substantiam sit 
+            im<lb ed="#Ba" break="no" n="68"/>mutabilis, tamen dici potest mutari in
+            <lb ed="#Ba" n="69"/>causalitate, quia aliquando causatum est
+            <lb ed="#Ba" n="70"/>a Deo, aliquando non.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1171">
+            <lb ed="#Ba" n="71"/>2.lterum constat, quod mutatio est ad
+            <lb ed="#Ba" n="72"/>ipsum, ut dicit Augustinus in I 
+            Confes<lb ed="#Ba" break="no" n="73"/>sionum: <quote xml:id="Almn78-a31780-Qd1e1179"> Fesisti enim nos, Domine,
+              <lb ed="#Ba" n="74"/>ad te, et inquietum est cor nostrum
+              <lb ed="#Ba" n="75"/>donec ad te perveniat®. </quote> Et mutatio
+            <lb ed="#Ba" n="76"/>est ab ipso: quia, Luce, xv, 13, filius
+            <lb ed="#Ba" n="77"/>prodigus a patre abiit in regionem 
+            lon<lb ed="#Ba" break="no" n="78"/>ginguam, qui Deum designat. Item,
+            <lb ed="#Ba" n="79"/>Mutatio est in ipso. Act. xvi, 28: In
+            <lb ed="#Ba" n="80"/>ipso vivimus, ef movemur, ef sumus.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1198">
+            <lb ed="#Ba" n="81"/>De omnibus autem his dicit 
+            Aristote<lb ed="#Ba" break="no" n="82"/>les, quod aliquo modo moventur, vel
+            <lb ed="#Ba" n="83"/>sicut ea que moventur, vel sicut ea ad
+            <lb ed="#Ba" n="84"/>que est motus aliquis.. Ergo modus 
+            ali<lb ed="#Ba" break="no" n="85"/>quis motus potest Deo altribul.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1211">
+            <pb ed="#Ba" n="153"/>
+            <cb ed="#Ba" n="a"/>
+            <lb ed="#Ba" n="1"/>Solutio. Nullus modus motus potest
+            <lb ed="#Ba" n="2"/>Neo attribui, nec secundum fidem, nec
+            <lb ed="#Ba" n="3"/>secundum philosophiam. Et hoc ideo
+            <lb ed="#Ba" n="4"/>ext, quia sicut probatur in libro de 
+            Cau<lb ed="#Ba" break="no" n="5"/>sis, creatura sive creatum non potest
+            <lb ed="#Ba" n="6"/>considerari nisi duobus modis, scilicet
+            <lb ed="#Ba" n="7"/>secundum id quod est, et secunduin
+            <lb ed="#Ba" n="8"/>esse. Secundum id quod est, nihil et
+            <lb ed="#Ba" n="9"/>ex nihilo est, ut dicit Avicenna. 
+            Se<lb ed="#Ba" break="no" n="10"/>cundum esse autem a prima causa est.
+            <lb ed="#Ba" n="11"/>Mutabilitas autem creature accidit 
+            se<lb ed="#Ba" break="no" n="12"/>cundum id quod est: et ideo mutabilitas
+            <lb ed="#Ba" n="13"/>adid quod est, referri non potest: non
+            <lb ed="#Ba" n="14"/>onim accidit creato secundum quod ab
+            <lb ed="#Ba" n="15"/>ipso est, sed secundum id quod est, et
+            <lb ed="#Ba" n="16"/>sic ex nihilo et nihil est: propter quod
+            <lb ed="#Ba" n="17"/>creator nullo modo mutabilis esse 
+            pot<lb ed="#Ba" break="no" n="18"/>ost,
+          </p>
+          <p xml:id="Almn78-a31780-d1e1257">
+            <lb ed="#Ba" n="19"/>Ad id autem quod objicitur in 
+            contra<lb ed="#Ba" break="no" n="20"/>rium, dicendum quod unitas et 
+            multipli<lb ed="#Ba" break="no" n="21"/>cilas in effectu consequuntur esse 
+            crea<lb ed="#Ba" break="no" n="22"/>tur, in quantum ab aliquo est et in
+            <lb ed="#Ba" n="23"/>quantum est: et ideo ille cum 
+            perfe<lb ed="#Ba" break="no" n="24"/>clum esse creature consequantur, in
+            <lb ed="#Ba" n="25"/>Deum aliquo modo referri possunt.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1275">
+            <lb ed="#Ba" n="26"/>Ad id quod objicitur, quod 
+            multiplici<lb ed="#Ba" break="no" n="27"/>ter aliquid refertur ad motum, dicendum
+            <lb ed="#Ba" n="28"/>quod Deus non refertur ad motum sicut
+            <lb ed="#Ba" n="29"/>terminus ad quem quem includit motus.
+            <lb ed="#Ba" n="30"/>Nec refertur ad motum sicut terminus a
+            <lb ed="#Ba" n="31"/>quo qui abjicitur in ipso. Nec in ipso est
+            <lb ed="#Ba" n="32"/>mutatio sicut in eo quod est mensura
+            <lb ed="#Ba" n="33"/>motus vel mobilis: sic enim iteraretur
+            <lb ed="#Ba" n="34"/>in mobili vel motu secundum esse: 
+            lo<lb ed="#Ba" break="no" n="35"/>cus enim in quo est motus, 
+            secun<lb ed="#Ba" break="no" n="36"/>dum esse aliquod iteratur in mobili :
+            <lb ed="#Ba" n="37"/>quia ex ipso et ad ipsum est motus.
+            <lb ed="#Ba" n="38"/>Tempus autem secundum nunc, quod
+            <lb ed="#Ba" n="39"/>est substantia motus, iteratur in motu:
+            <lb ed="#Ba" n="40"/>quia sicut dicit Aristoteles in IV 
+            Physi<lb ed="#Ba" break="no" n="41"/>corum, tempus est numerus motus- 
+            se<lb ed="#Ba" break="no" n="42"/>cundum prius et posterius. Deus autem
+            <lb ed="#Ba" n="43"/>nullo istoruam modorum refertur ad 
+            mo<lb ed="#Ba" break="no" n="44"/>tum, sed sicut movens immobile et 
+            con<lb ed="#Ba" break="no" n="45"/>linens omne quod movetur.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1322">
+            <lb ed="#Ba" n="46"/>Adhuc autem, Nullus modus motus
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" n="47"/>potest referri ut aliquo. modo mobile sit.
+            <lb ed="#Ba" n="48"/>Si enim motus dicatur ad ipsum, ille
+            <lb ed="#Ba" n="49"/>motus est in appropinquante ad ipsum.
+            <lb ed="#Ba" n="50"/>Si dicatur ab ipso, motus est in 
+            defe<lb ed="#Ba" break="no" n="51"/>rente, sicut paulo ante monstratum est.
+            <lb ed="#Ba" n="52"/>Mobilitas autem in ipso non per 
+            iteratio<lb ed="#Ba" break="no" n="53"/>nem ipsius est, sed per continentiam, ut
+            <lb ed="#Ba" n="54"/>dictum est. Sedin Deo nullo modo poni
+            <lb ed="#Ba" n="55"/>potest mutabilitas: et ideo penitus 
+            im<lb ed="#Ba" break="no" n="56"/>mutabilis est.
+          </p>
+        </div>
+        <div xml:id="Almn78-a31780-Dd1e1352">
+          <head xml:id="Almn78-a31780-Hd1e1354">Membrum 3</head>
+          <head xml:id="Almn78-a31780-Hd1e1357" type="question-title">
+            Utrum incommutabile esse proprium sit
+            divinae essentiae?
+          </head>
+          <p xml:id="Almn78-a31780-d1e1360">
+            <lb ed="#Ba" n="57"/>MEMBRUM III.
+            <lb ed="#Ba" n="58"/>Utrum incommutabile esse proprium sit
+            <lb ed="#Ba" n="59"/>divinae essentiae?
+          </p>
+          <p xml:id="Almn78-a31780-d1e1369">
+            <lb ed="#Ba" n="60"/>Tertio queritur, Utrum 
+            incommuta<lb ed="#Ba" break="no" n="61"/>bile esse proprium sit divine essentie ?
+          </p>
+          <p xml:id="Almn78-a31780-d1e1376">
+            <lb ed="#Ba" n="62"/>Et videtur, quod non.
+            <lb ed="#Ba" n="63"/>1. Dicuntur enim incommutabiles
+            <lb ed="#Ba" n="64"/>Angeli, et immutabiles intelligentie, et
+            <lb ed="#Ba" n="65"/>immutabiles anime beatae. Ergo non
+            <lb ed="#Ba" n="66"/>soli Deo convenit immutabilitas : quia
+            <lb ed="#Ba" n="67"/>proprium est quod convenit omni et
+            <lb ed="#Ba" n="68"/>soli.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1395">
+            <lb ed="#Ba" n="69"/>2. Si dicatur, quod incommutabilitas
+            <lb ed="#Ba" n="70"/>Deo convenit per naturam: Angelis 
+            au<lb ed="#Ba" break="no" n="71"/>tem et animabus beatis per gratiam, vel
+            <lb ed="#Ba" n="72"/>per aliquam bonitatem fluentem a primo
+            <lb ed="#Ba" n="73"/>immutabili, sicut videtur Plato dicere in
+            <lb ed="#Ba" n="74"/>Timzo: <quote xml:id="Almn78-a31780-Qd1e1410">Dii deorum quorum opifex
+              <lb ed="#Ba" n="75"/>paterque ego: natura quidem mutabiles,
+              <lb ed="#Ba" n="76"/>voluntate autem mea permanentes. </quote> 
+          </p>
+          <p xml:id="Almn78-a31780-d1e1418">
+            In
+            <lb ed="#Ba" n="77"/>CONTRARIUM est quod Angelus et intelli 
+            <lb ed="#Ba" break="no" n="78"/>gentia secundum sui naturam signacula
+            <lb ed="#Ba" n="79"/>sunt divine incommutabilitatis, et anima
+            <lb ed="#Ba" n="80"/>secundum sui naturam imago 
+            incommu<lb ed="#Ba" break="no" n="81"/>tabilitatis ejusdem. Dicit enim 
+            Cassiodo<lb ed="#Ba" break="no" n="82"/>rus, quod <quote xml:id="Almn78-a31780-Qd1e1433"> temporale per hoc quod 
+              in<lb ed="#Ba" break="no" n="83"/>cipit et desinit, non est zterni nisi 
+              vesti<lb ed="#Ba" break="no" n="84"/>gium: quia non convenit cum eo nisi in
+              <lb ed="#Ba" n="85"/>confusa et indeterminata quadam dura
+              <pb ed="#Ba" n="154"/>
+              <cb ed="#Ba" n="a"/>
+              <lb ed="#Ba" break="no" n="1"/>tione. </quote> AEviternum autem quod incipit
+            <lb ed="#Ba" n="2"/>et non desinit, et stat in esse substantiali
+            <lb ed="#Ba" n="3"/>uno modo, imago est eternitatis: quia
+            <lb ed="#Ba" n="4"/>cum ea convenit et in modo durationis
+            <lb ed="#Ba" n="5"/>in substantia, et in carentia finis: licet
+            <lb ed="#Ba" n="6"/>deficiat ab ipsa, quia aeternum non 
+            ha<lb ed="#Ba" break="no" n="7"/>bet principium, eviternum autem habel.
+            <lb ed="#Ba" n="8"/>Unde dicit idem Cassiodorus, quod <quote xml:id="Almn78-a31780-Qd1e1464"> si
+              <lb ed="#Ba" n="9"/>anima fine clauderetur, imago Dei non
+              <lb ed="#Ba" n="10"/>non esset. </quote> Ergo et Angelus et 
+            intelli<lb ed="#Ba" break="no" n="11"/>gentia et anima per naturam 
+            immuta<lb ed="#Ba" break="no" n="12"/>bilia sunt, et non solum per gratiam.
+            <lb ed="#Ba" n="13"/>Non ergo soli Deo convenit immutabile
+            <lb ed="#Ba" n="14"/>esse per naturam.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1481">
+            <lb ed="#Ba" n="15"/>In contrarium hujus est adhuc,
+            <lb ed="#Ba" n="16"/>1. Quod dicit Apostolus, I ad 
+            Timo<lb ed="#Ba" break="no" n="17"/>theum, vi, 16: Qui solus habet 
+            immor<lb ed="#Ba" break="no" n="18"/>talitatem. Super quod dicit Augustinus
+            <lb ed="#Ba" n="19"/>in primo de Jrinitate: <quote xml:id="Almn78-a31780-Qd1e1494"> Cum anima
+              <lb ed="#Ba" n="20"/>quodammodo immortalis esse dicatur et
+              <lb ed="#Ba" n="21"/>sit, non diceret Apostolus: Solus Deus
+              <lb ed="#Ba" n="22"/>habet immortalitatem, nisi quia vere
+              <lb ed="#Ba" n="23"/>immortalitas incommutabilitas est, quam
+              <lb ed="#Ba" n="24"/>nulla creatura potest habere, quoniam
+              <lb ed="#Ba" n="25"/>solius creatoris est '. </quote>
+          </p>
+          <p xml:id="Almn78-a31780-d1e1511">
+            <lb ed="#Ba" n="26"/>2. Adhuc, David dicit in Psalmo ai,
+            <lb ed="#Ba" n="27"/>27 et 28: Mutabis eos, et mutabuntur :
+            <lb ed="#Ba" n="28"/>tu autem idem ipse es. Quod tractans
+            <lb ed="#Ba" n="29"/>Augustinus super Genesim ad litteram:
+            <lb ed="#Ba" n="30"/>
+            <quote xml:id="Almn78-a31780-Qd1e1524"> Deus solus recte immutabilis est, qui
+              <lb ed="#Ba" n="31"/>nec per tempora mutari potest. </quote> Unde
+            <lb ed="#Ba" n="32"/>solus dicitur habere immortalilatem.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1532">
+            <lb ed="#Ba" n="33"/>3. Adhuc, Augustinus contra 
+            Maxi<lb ed="#Ba" break="no" n="34"/>minum: <quote xml:id="Almn78-a31780-Qd1e1538"> In omni mutabili natura 
+              non<lb ed="#Ba" break="no" n="35"/>nulla mors est ipsa mutatio: quia facit
+              <lb ed="#Ba" n="36"/>aliquid in ea non esse quod erat et esse
+              <lb ed="#Ba" n="37"/>quod non erat. </quote> Hoc autem in Angelis
+            <lb ed="#Ba" n="38"/>et in intelligentiis et in animabus est.
+            <lb ed="#Ba" n="39"/>Angelus enim et anima mutantur 
+            se<lb ed="#Ba" break="no" n="40"/>cundum gratiam et peccatum. 
+            Intelligen<lb ed="#Ba" break="no" n="41"/>tie autem secundum influentias 
+            bonita<lb ed="#Ba" break="no" n="42"/>tum a primo, et secundum influentias
+            <lb ed="#Ba" n="43"/>illuminationum, purgationum, et 
+            perfe<lb ed="#Ba" break="no" n="44"/>ctionum, et a primo, et a se invicem, ut
+            <lb ed="#Ba" n="45"/>dicit Dionysius, secundum quod 
+            pur<lb ed="#Ba" break="no" n="46"/>gantur a dissimilitudinis habitu, et 
+            assi<lb ed="#Ba" break="no" n="47"/>milantur per illuminationem acceptam,
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" n="48"/>quam prius non habuerunt, et 
+            perficiun<lb ed="#Ba" break="no" n="49"/>tur secundum reductionem inferioris in
+            <lb ed="#Ba" n="50"/>superiorem secundum aliquod 
+            intelligi<lb ed="#Ba" break="no" n="51"/>bile secundum quod prius reducti non
+            <lb ed="#Ba" n="52"/>fuerint.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1583">
+            <lb ed="#Ba" n="53"/>Solutio. Ad hoc solvendum est per
+            <lb ed="#Ba" n="54"/>dictum Augustini in libro contra 
+            Maxi<lb ed="#Ba" break="no" n="55"/>minum dicentem, quod <quote xml:id="Almn78-a31780-Qd1e1591"> cuicumque
+              <lb ed="#Ba" n="56"/>creature rationali prestatur ut peccare
+              <lb ed="#Ba" n="57"/>non possit, non est hoc nature propria,
+              <lb ed="#Ba" n="58"/>sed Dei gratia. </quote> Et ideo solus Deus, ut
+            <lb ed="#Ba" n="59"/>ait Apostolus *, habet immortalitatem
+            <lb ed="#Ba" n="60"/>qui non cujusque gratia sed natura sua
+            <lb ed="#Ba" n="61"/>propria nec potuit nec potest aliqua 
+            con<lb ed="#Ba" break="no" n="62"/>versione mutari. Et ideo soli Deo 
+            conve<lb ed="#Ba" break="no" n="63"/>nit omnino et penitus incommutabilem
+            <lb ed="#Ba" n="64"/>esse. Cujus probatio efficacissima 
+            sumi<lb ed="#Ba" break="no" n="65"/>tur a dicto Boetii in libro de 
+            Hebdomadi<lb ed="#Ba" break="no" n="66"/>bus, ubi dicit, quod <quote xml:id="Almn78-a31780-Qd1e1618"> quod est, habere
+              <lb ed="#Ba" n="67"/>potest aliquid prater ipsum quod est,
+              <lb ed="#Ba" n="68"/>esse vero nihil habet admixtum. </quote> Ex
+            <lb ed="#Ba" n="69"/>quo relinquitur, quod omne id quod 
+            mu<lb ed="#Ba" break="no" n="70"/>tatur, diversum habet quod est, et esse.
+            <lb ed="#Ba" n="71"/>Unde id in quo est idem quod est et esse,
+            <lb ed="#Ba" n="72"/>immutabile est penitus et omnino. Et
+            <lb ed="#Ba" n="73"/>causa hujus est, quia esse nullius rei
+            <lb ed="#Ba" n="74"/>potest esse subjectum, nec per se, nec
+            <lb ed="#Ba" n="75"/>per accidens, nec aliquo modo referri
+            <lb ed="#Ba" n="76"/>potest ad motum, quamvis hoc esse 
+            re<lb ed="#Ba" break="no" n="77"/>ferri possit ad motum ut terminus. Ex
+            <lb ed="#Ba" n="78"/>hoc ulterius relinquitur, quod omne
+            <lb ed="#Ba" n="79"/>causatum eo quod aliud habet esse et
+            <lb ed="#Ba" n="80"/>quod est, mutabile est: quia sicut dicit
+            <lb ed="#Ba" n="81"/>Damascenus, <quote xml:id="Almn78-a31780-Qd1e1653"> quod a versione incipit,
+              <lb ed="#Ba" n="82"/>versioni subjacet et mutationi. </quote> Est 
+            au<lb ed="#Ba" break="no" n="83"/>tem mutatio duplex, ut dicit 
+            Damasce<lb ed="#Ba" break="no" n="84"/>nus, ad esse scilicet, et in esse: et hoc
+            <lb ed="#Ba" n="85"/>est dictum, ad esse hoc, et in esse hoc.
+            <lb ed="#Ba" n="86"/>Ad esse, sicut generatio, et opposita ei
+            <lb ed="#Ba" n="87"/>corruptio. In esse salvato duplex est 
+            mu<lb ed="#Ba" break="no" n="88"/>tatio, scilicet in esse substantiali, et in
+            <lb ed="#Ba" n="89"/>esse accidentali. In esse substantiali 
+            mu<lb ed="#Ba" break="no" n="90"/>tari convenit temporalibus, que non 
+            im<lb ed="#Ba" break="no" n="91"/>mediate sed per motum corporis quasi
+            <lb ed="#Ba" n="92"/>per instrumentum exeunt ab eterno. Et
+            <lb ed="#Ba" n="93"/>in his dicimus, quod secundum esse sub
+            <pb ed="#Ba" n="155"/>
+            <cb ed="#Ba" n="a"/>
+            <lb ed="#Ba" break="no" n="1"/>stantiale fuit, est, et erit. In esse 
+            acciden<lb ed="#Ba" break="no" n="2"/>lali mutantur eliam ea que immediate
+            <lb ed="#Ba" n="3"/>muntab eterno, sicut Angeli et 
+            intelligen<lb ed="#Ba" break="no" n="4"/>liw et anima, que per affectiones et 
+            rece<lb ed="#Ba" break="no" n="5"/>_pliones bonitatum et malitiarum mutan-
+            ‘tur. Per loca autem mutantur corpora.
+            <lb ed="#Ba" n="6"/>icit enim Aristoteles in libro de Calo
+            <lb ed="#Ba" n="7"/>rt Mundo, quod <quote xml:id="Almn78-a31780-Qd1e1702"> omne corpus 
+              secun<lb ed="#Ba" break="no" n="8"/>dum locum mutabile est. </quote> Omnino au-
+            ‘vm immutabile esse, proprium est 
+            es<lb ed="#Ba" break="no" n="9"/>sentie divine.
+          </p>
+          <p xml:id="Almn78-a31780-d1e1711">
+            <lb ed="#Ba" n="10"/>Ad primum ergo dicendum, quod 
+            An<lb ed="#Ba" break="no" n="11"/>Kelis, intelligentiis, et animabus, non
+            <lb ed="#Ba" n="12"/>convenit immutabilitas, nisi illa sola que
+            <lb ed="#Ba" n="13"/>est ab esse substantiali, et non convenit
+            <lb ed="#Ba" n="14"/>is immutabilitas illa que est ad esse,
+            <lb ed="#Ba" n="15"/>neo illa qua est in esse accidentali
+            <lb ed="#Ba" n="16"/>per naturam, sed per bonitatem 
+            conti<lb ed="#Ba" break="no" n="17"/>nenlis: quia pro certo per affectiones
+            <lb ed="#Ba" n="18"/>mutabiles sunt, et de contrario in 
+            con<lb ed="#Ba" break="no" n="19"/>trarium mutarentur, nisi bonitate 
+            crea<lb ed="#Ba" break="no" n="20"/>toris in bono confirmarentur: et in esse
+            <lb ed="#Ba" n="21"/>substantiali mutarentur, et in nihilum
+            <lb ed="#Ba" n="22"/>tenderent, nisi manu et bonitate 
+            creato<lb ed="#Ba" break="no" n="23"/>ris continerentur, ut dicit Gregorius,
+          </p>
+          <p xml:id="Almn78-a31780-d1e1744">
+            <lb ed="#Ba" n="24"/>Ad dictum autem <name xml:id="Almn78-a31780-Nd1e1748">Cassiodori</name> dicendum,
+            <cb ed="#Ba" n="b"/>
+            <lb ed="#Ba" n="25"/>quod verum est, quod temporale in 
+            pau<lb ed="#Ba" break="no" n="26"/>cioribus imitatur eternum, quam 
+            evi<lb ed="#Ba" break="no" n="27"/>ternum: et ideo temporale vestigium,
+            <lb ed="#Ba" n="28"/>xviternum autem imago. Et propter
+            <lb ed="#Ba" n="29"/>idem Angelus signaculum, anima imago,
+            <lb ed="#Ba" n="30"/>corpus vestigium Dei dicitur. Et hoc
+            <lb ed="#Ba" n="31"/>habent in natura, non nisi quantum ad
+            <lb ed="#Ba" n="32"/>illam immutabilitalem qua est in esse
+            <lb ed="#Ba" n="33"/>substantiali : et quia creatum opus 
+            vo<lb ed="#Ba" break="no" n="34"/>luntatis est, ut dicit Damascenus, et non
+            <lb ed="#Ba" n="35"/>nature : ideodicit Plate: <quote xml:id="Almn78-a31780-Qd1e1777"> Voluntate mea
+              <lb ed="#Ba" n="36"/>sic permanentes. </quote> Immutabilitatem 
+            au<lb ed="#Ba" break="no" n="37"/>tem que est ad esse, nullo modo habet,
+            <lb ed="#Ba" n="38"/>nec per gratiam, nec per naturam: hec
+            <lb ed="#Ba" n="39"/>enim sic soli Deo convenit, quod nulli
+            <lb ed="#Ba" n="40"/>creato penitus communicabilis est. 
+            Si<lb ed="#Ba" break="no" n="41"/>militer incommutabilitatem in esse 
+            sub<lb ed="#Ba" break="no" n="42"/>stantiali et accidentali quadam creata
+            <lb ed="#Ba" n="43"/>habent, sed per gratiam, non per 
+            natu<lb ed="#Ba" break="no" n="44"/>ram. Et hoc verum est et secundum
+            <lb ed="#Ba" n="45"/>fidem et secundum philosophiam. Esse
+            <lb ed="#Ba" n="46"/>enim, ut in libro de Causis 
+            proba<lb ed="#Ba" break="no" n="47"/>tum est, continuus fluxus est ab ente
+            <lb ed="#Ba" n="48"/>primo in omne quod causatum est vel
+            <lb ed="#Ba" n="49"/>creatum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

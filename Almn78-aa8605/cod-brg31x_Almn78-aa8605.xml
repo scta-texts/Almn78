@@ -1,188 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 10</title>
-            <author ref="#Albert">Albert the Great</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 10</title>
-               <date when="2021-11-11">November 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-11-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Ba" n="44"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Almn78-aa8605"><!-- p1t2q10 -->
-            <head xml:id="Almn78-aa8605-Hd1e106">Quaestio 10</head>
-            <head xml:id="Almn78-aa8605-Hd1e109" type="question-title">
-      Utrum una fruitione fruamur Patre et Filio et Spiritu sancto?
-    </head>
-            <p xml:id="Almn78-aa8605-d1e112">
-               <pb ed="#Ba" n="44"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Ba" n="1"/>QUAESTIO X.
-<lb ed="#Ba" n="2"/>Utrum una fruitione fruamur Patre et Filio et Spiritu sancto?
-</p>
-            <p xml:id="Almn78-aa8605-d1e123">
-               <lb ed="#Ba" n="3"/>Juxta hoc queritur ulterius, Cum 
-di<lb ed="#Ba" break="no" n="4"/>cat Augustiuus, quod res quibus 
-fruen<lb ed="#Ba" break="no" n="5"/>dum est, sunt Pater et Filius et Spiritus
-<lb ed="#Ba" n="6"/>sanctus, utrum una fruitione fruamur
-<lb ed="#Ba" n="7"/>Patre et Filio et Spiritu sancto ?
-</p>
-            <p xml:id="Almn78-aa8605-d1e136">
-               <lb ed="#Ba" n="8"/>Videtur, quod non : quia
-<lb ed="#Ba" n="9"/>1. Tres persone sunt distincte : 
-dis<lb ed="#Ba" break="no" n="10"/>tinctas ergo inferunt delectationes in
-<lb ed="#Ba" n="11"/>fruente : ergo tribus fruitionibus, tribus
-<lb ed="#Ba" n="12"/>fruimur personis.
-</p>
-            <p xml:id="Almn78-aa8605-d1e150">
-               <lb ed="#Ba" n="13"/>2. Si quis dicat, quod Deo fruimur ut
-<lb ed="#Ba" n="14"/>Deo, et non sub distinctione persone.
-<lb ed="#Ba" n="15"/>Contra est, quod fruitio circa 
-operatio<lb ed="#Ba" break="no" n="16"/>nem intellectus est determinata : 
-deter<lb ed="#Ba" break="no" n="17"/>minatur autem in persona fruitio : ergo
-<lb ed="#Ba" n="18"/>est ex apprehensione Dei in persona.
-</p>
-            <p xml:id="Almn78-aa8605-d1e166">
-               <lb ed="#Ba" n="19"/>3. Adhuc, Hoc videtur esse desiderium
-<lb ed="#Ba" n="20"/>sanctorum, Joan. xiv, 8 : Domine,
-<lb ed="#Ba" n="21"/>ostende nobis Patrem, et suffictt nobis.
-<lb ed="#Ba" n="22"/>Ergo videtur, quod ex visione Dei in
-<lb ed="#Ba" n="23"/>persona determinata fruimur.
-</p>
-            <p xml:id="Almn78-aa8605-d1e179">
-               <lb ed="#Ba" n="24"/>4. Adhuc, Si hoc concedatur, videtur
-<lb ed="#Ba" n="25"/>quod una persona sine alia non fruimur :
-<lb ed="#Ba" n="26"/>quia Pater ducit in Filium, et Filius in
-<lb ed="#Ba" n="27"/>Patrem, et Pater et Filius in Spiritum
-<lb ed="#Ba" n="28"/>sanctum, et Spiritus sanctus in Patrem
-<lb ed="#Ba" n="29"/>et Fihum. Joan. xiv, 9: Qui videt me,
-<lb ed="#Ba" n="30"/>videt et Patrem. Et,ibidem, y. 10 : Hao
-<lb ed="#Ba" n="31"/>in Patre, et Pater in me est. Relativa
-<lb ed="#Ba" n="32"/>enim non habent in uno stantem et
-<lb ed="#Ba" n="33"/>quiescentem intellectum.
-</p>
-            <p xml:id="Almn78-aa8605-d1e203">
-               <lb ed="#Ba" n="34"/>5. Sed tunc videtur, quod Filio et
-<lb ed="#Ba" n="35"/>Spiritu sancto fruimur in Patre : quia
-<lb ed="#Ba" n="36"/>persona procedens a persona, omne quod
-<cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" n="37"/>est et habet, refert in personam a qua
-<lb ed="#Ba" n="38"/>procedit. Ergo Spiritus sanctus refert in
-<lb ed="#Ba" n="39"/>Filium, et Filius et Spiritus sanctus 
-re<lb ed="#Ba" break="no" n="40"/>ferunt in Patrem omne quod sunt et
-<lb ed="#Ba" n="41"/>habent. In illo autem fruimur, in quod
-<lb ed="#Ba" n="42"/>sicut in ultimum omnia bona referuntur.
-<lb ed="#Ba" n="43"/>Ergo bono quod est Filius, et bono
-<lb ed="#Ba" n="44"/>quod est Spiritus sanctus, fruimur in
-<lb ed="#Ba" n="45"/>Patre.
-</p>
-            <p xml:id="Almn78-aa8605-d1e234">
-               <lb ed="#Ba" n="46"/>Ix conrrariuM hujus est, quod licet
-<lb ed="#Ba" n="47"/>Deus multa habeat attributa, tamen 
-tan<lb ed="#Ba" break="no" n="48"/>tum in ratione summi boni diligitur, et
-<lb ed="#Ba" n="49"/>in eo terminus dilectionis ponitur. Ergo
-<lb ed="#Ba" n="50"/>tantum in ratione summi_ boni fruimur
-<lb ed="#Ba" n="51"/>eo. Unum autem summum bonum et
-<lb ed="#Ba" n="52"/>indivisum numero est Pater et Filius et
-<lb ed="#Ba" n="53"/>Spiritus sanctus. Una ergo fruitione
-<lb ed="#Ba" n="54"/>fruimur Patre et Filio et Spiritu sancto.
-</p>
-            <p xml:id="Almn78-aa8605-d1e256">
-               <lb ed="#Ba" n="55"/>Et hoc concedendum est.
-<lb ed="#Ba" n="56"/>Per hoc patet solutio ad primum. 
-Li<lb ed="#Ba" break="no" n="57"/>cet enim personalibus proprietatibus tres
-<lb ed="#Ba" n="58"/>persone distmguantur, non tamen in
-<lb ed="#Ba" n="59"/>quantum sic distinct sunt, objectum
-<lb ed="#Ba" n="60"/>sunt fruitionis, sed in quantum sunt
-<lb ed="#Ba" n="61"/>unum summum bonum.
-</p>
-            <p xml:id="Almn78-aa8605-d1e275">
-               <lb ed="#Ba" n="62"/>Ad aliud dicendum, quod nec fruimur
-<lb ed="#Ba" n="63"/>Deo ut Deo, nec sub distinctione 
-per<lb ed="#Ba" break="no" n="64"/>sone, sed Deo et personis in quantum
-<lb ed="#Ba" n="65"/>sunt unum summum bonum.
-</p>
-            <p xml:id="Almn78-aa8605-d1e286">
-               <lb ed="#Ba" n="66"/>Ad aliud dicendum, quod Philippus
-<lb ed="#Ba" n="67"/>non desideravit sibi ostendi Patrem ut
-<lb ed="#Ba" n="68"/>objectum fruitionis, sed ut principium
-<lb ed="#Ba" n="69"/>totius divinitatis, quod sufficiens reputa
-<pb ed="#Ba" n="45"/>
-               <cb ed="#Ba" n="a"/>
-               <lb ed="#Ba" break="no" n="1"/>vit ad cognitionem Trinitatis et unitatis,
-<lb ed="#Ba" n="2"/>et ad processum personarum ab uno
-<lb ed="#Ba" n="3"/>quod est principium non de principio.
-</p>
-            <p xml:id="Almn78-aa8605-d1e308">
-               <lb ed="#Ba" n="4"/>Ad aliud dicendum, quod hoc verum
-<lb ed="#Ba" n="5"/>esset, si fruilionis objectum esset Pater:
-<lb ed="#Ba" n="6"/>in quantum Pater, vel Filius in 
-quan<lb ed="#Ba" break="no" n="7"/>tum Filius. Hoc autem non est verum.
-<lb ed="#Ba" n="8"/>Pater enim et Filius et Spiritus sanctus
-<lb ed="#Ba" n="9"/>sunt objectum fruitionis in quantum
-<lb ed="#Ba" n="10"/>unum summum bonum. Fallacia autem
-<lb ed="#Ba" n="11"/>accidentis est in argumento.
-</p>
-            <p xml:id="Almn78-aa8605-d1e328">
-               <lb ed="#Ba" n="12"/>Ad aliud quod ulterius queritar, 
-di<lb ed="#Ba" break="no" n="13"/>cendum quod relatio qua persona proce
-<cb ed="#Ba" n="b"/>
-               <lb ed="#Ba" break="no" n="14"/>dens in personam a qua procedit, refert
-<lb ed="#Ba" n="15"/>id quod est aut quod habéet, non facit
-<lb ed="#Ba" n="16"/>summum bonum secundum rationem
-<lb ed="#Ba" n="17"/>intelligendi, sed facit essentiae 
-indifferen<lb ed="#Ba" break="no" n="18"/>tiam quam totam accipit persona 
-proce<lb ed="#Ba" break="no" n="19"/>dens a persona a qua procedit. Et ideo
-<lb ed="#Ba" n="20"/>essentia in quantum est summum_ 
-bo<lb ed="#Ba" break="no" n="21"/>num, sive sit non de principio, sicut in
-<lb ed="#Ba" n="22"/>Patre, sive sit accepta de principio, sicut
-<lb ed="#Ba" n="23"/>in Filio et Spiritu sancto, in quantum
-<lb ed="#Ba" n="24"/>summum bonum est, unum objectum
-<lb ed="#Ba" n="25"/>fruitionis est.
-</p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 10</title>
+        <author ref="#Albert">Albert the Great</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 10</title>
+          <date when="2021-11-11">November 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Ba" n="cod-brg31x">Paris 1894, Volume 31</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-11-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Ba" n="44"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Almn78-aa8605"><!-- p1t2q10 -->
+        <head xml:id="Almn78-aa8605-Hd1e106">Quaestio 10</head>
+        <head xml:id="Almn78-aa8605-Hd1e109" type="question-title">
+          Utrum una fruitione fruamur Patre et Filio et Spiritu sancto?
+        </head>
+        <p xml:id="Almn78-aa8605-d1e112">
+          <pb ed="#Ba" n="44"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Ba" n="1"/>QUAESTIO X.
+          <lb ed="#Ba" n="2"/>Utrum una fruitione fruamur Patre et Filio et Spiritu sancto?
+        </p>
+        <p xml:id="Almn78-aa8605-d1e123">
+          <lb ed="#Ba" n="3"/>Juxta hoc queritur ulterius, Cum 
+          di<lb ed="#Ba" break="no" n="4"/>cat Augustiuus, quod res quibus 
+          fruen<lb ed="#Ba" break="no" n="5"/>dum est, sunt Pater et Filius et Spiritus
+          <lb ed="#Ba" n="6"/>sanctus, utrum una fruitione fruamur
+          <lb ed="#Ba" n="7"/>Patre et Filio et Spiritu sancto ?
+        </p>
+        <p xml:id="Almn78-aa8605-d1e136">
+          <lb ed="#Ba" n="8"/>Videtur, quod non : quia
+          <lb ed="#Ba" n="9"/>1. Tres persone sunt distincte : 
+          dis<lb ed="#Ba" break="no" n="10"/>tinctas ergo inferunt delectationes in
+          <lb ed="#Ba" n="11"/>fruente : ergo tribus fruitionibus, tribus
+          <lb ed="#Ba" n="12"/>fruimur personis.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e150">
+          <lb ed="#Ba" n="13"/>2. Si quis dicat, quod Deo fruimur ut
+          <lb ed="#Ba" n="14"/>Deo, et non sub distinctione persone.
+          <lb ed="#Ba" n="15"/>Contra est, quod fruitio circa 
+          operatio<lb ed="#Ba" break="no" n="16"/>nem intellectus est determinata : 
+          deter<lb ed="#Ba" break="no" n="17"/>minatur autem in persona fruitio : ergo
+          <lb ed="#Ba" n="18"/>est ex apprehensione Dei in persona.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e166">
+          <lb ed="#Ba" n="19"/>3. Adhuc, Hoc videtur esse desiderium
+          <lb ed="#Ba" n="20"/>sanctorum, Joan. xiv, 8 : Domine,
+          <lb ed="#Ba" n="21"/>ostende nobis Patrem, et suffictt nobis.
+          <lb ed="#Ba" n="22"/>Ergo videtur, quod ex visione Dei in
+          <lb ed="#Ba" n="23"/>persona determinata fruimur.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e179">
+          <lb ed="#Ba" n="24"/>4. Adhuc, Si hoc concedatur, videtur
+          <lb ed="#Ba" n="25"/>quod una persona sine alia non fruimur :
+          <lb ed="#Ba" n="26"/>quia Pater ducit in Filium, et Filius in
+          <lb ed="#Ba" n="27"/>Patrem, et Pater et Filius in Spiritum
+          <lb ed="#Ba" n="28"/>sanctum, et Spiritus sanctus in Patrem
+          <lb ed="#Ba" n="29"/>et Fihum. Joan. xiv, 9: Qui videt me,
+          <lb ed="#Ba" n="30"/>videt et Patrem. Et,ibidem, y. 10 : Hao
+          <lb ed="#Ba" n="31"/>in Patre, et Pater in me est. Relativa
+          <lb ed="#Ba" n="32"/>enim non habent in uno stantem et
+          <lb ed="#Ba" n="33"/>quiescentem intellectum.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e203">
+          <lb ed="#Ba" n="34"/>5. Sed tunc videtur, quod Filio et
+          <lb ed="#Ba" n="35"/>Spiritu sancto fruimur in Patre : quia
+          <lb ed="#Ba" n="36"/>persona procedens a persona, omne quod
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" n="37"/>est et habet, refert in personam a qua
+          <lb ed="#Ba" n="38"/>procedit. Ergo Spiritus sanctus refert in
+          <lb ed="#Ba" n="39"/>Filium, et Filius et Spiritus sanctus 
+          re<lb ed="#Ba" break="no" n="40"/>ferunt in Patrem omne quod sunt et
+          <lb ed="#Ba" n="41"/>habent. In illo autem fruimur, in quod
+          <lb ed="#Ba" n="42"/>sicut in ultimum omnia bona referuntur.
+          <lb ed="#Ba" n="43"/>Ergo bono quod est Filius, et bono
+          <lb ed="#Ba" n="44"/>quod est Spiritus sanctus, fruimur in
+          <lb ed="#Ba" n="45"/>Patre.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e234">
+          <lb ed="#Ba" n="46"/>Ix conrrariuM hujus est, quod licet
+          <lb ed="#Ba" n="47"/>Deus multa habeat attributa, tamen 
+          tan<lb ed="#Ba" break="no" n="48"/>tum in ratione summi boni diligitur, et
+          <lb ed="#Ba" n="49"/>in eo terminus dilectionis ponitur. Ergo
+          <lb ed="#Ba" n="50"/>tantum in ratione summi_ boni fruimur
+          <lb ed="#Ba" n="51"/>eo. Unum autem summum bonum et
+          <lb ed="#Ba" n="52"/>indivisum numero est Pater et Filius et
+          <lb ed="#Ba" n="53"/>Spiritus sanctus. Una ergo fruitione
+          <lb ed="#Ba" n="54"/>fruimur Patre et Filio et Spiritu sancto.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e256">
+          <lb ed="#Ba" n="55"/>Et hoc concedendum est.
+          <lb ed="#Ba" n="56"/>Per hoc patet solutio ad primum. 
+          Li<lb ed="#Ba" break="no" n="57"/>cet enim personalibus proprietatibus tres
+          <lb ed="#Ba" n="58"/>persone distmguantur, non tamen in
+          <lb ed="#Ba" n="59"/>quantum sic distinct sunt, objectum
+          <lb ed="#Ba" n="60"/>sunt fruitionis, sed in quantum sunt
+          <lb ed="#Ba" n="61"/>unum summum bonum.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e275">
+          <lb ed="#Ba" n="62"/>Ad aliud dicendum, quod nec fruimur
+          <lb ed="#Ba" n="63"/>Deo ut Deo, nec sub distinctione 
+          per<lb ed="#Ba" break="no" n="64"/>sone, sed Deo et personis in quantum
+          <lb ed="#Ba" n="65"/>sunt unum summum bonum.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e286">
+          <lb ed="#Ba" n="66"/>Ad aliud dicendum, quod Philippus
+          <lb ed="#Ba" n="67"/>non desideravit sibi ostendi Patrem ut
+          <lb ed="#Ba" n="68"/>objectum fruitionis, sed ut principium
+          <lb ed="#Ba" n="69"/>totius divinitatis, quod sufficiens reputa
+          <pb ed="#Ba" n="45"/>
+          <cb ed="#Ba" n="a"/>
+          <lb ed="#Ba" break="no" n="1"/>vit ad cognitionem Trinitatis et unitatis,
+          <lb ed="#Ba" n="2"/>et ad processum personarum ab uno
+          <lb ed="#Ba" n="3"/>quod est principium non de principio.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e308">
+          <lb ed="#Ba" n="4"/>Ad aliud dicendum, quod hoc verum
+          <lb ed="#Ba" n="5"/>esset, si fruilionis objectum esset Pater:
+          <lb ed="#Ba" n="6"/>in quantum Pater, vel Filius in 
+          quan<lb ed="#Ba" break="no" n="7"/>tum Filius. Hoc autem non est verum.
+          <lb ed="#Ba" n="8"/>Pater enim et Filius et Spiritus sanctus
+          <lb ed="#Ba" n="9"/>sunt objectum fruitionis in quantum
+          <lb ed="#Ba" n="10"/>unum summum bonum. Fallacia autem
+          <lb ed="#Ba" n="11"/>accidentis est in argumento.
+        </p>
+        <p xml:id="Almn78-aa8605-d1e328">
+          <lb ed="#Ba" n="12"/>Ad aliud quod ulterius queritar, 
+          di<lb ed="#Ba" break="no" n="13"/>cendum quod relatio qua persona proce
+          <cb ed="#Ba" n="b"/>
+          <lb ed="#Ba" break="no" n="14"/>dens in personam a qua procedit, refert
+          <lb ed="#Ba" n="15"/>id quod est aut quod habéet, non facit
+          <lb ed="#Ba" n="16"/>summum bonum secundum rationem
+          <lb ed="#Ba" n="17"/>intelligendi, sed facit essentiae 
+          indifferen<lb ed="#Ba" break="no" n="18"/>tiam quam totam accipit persona 
+          proce<lb ed="#Ba" break="no" n="19"/>dens a persona a qua procedit. Et ideo
+          <lb ed="#Ba" n="20"/>essentia in quantum est summum_ 
+          bo<lb ed="#Ba" break="no" n="21"/>num, sive sit non de principio, sicut in
+          <lb ed="#Ba" n="22"/>Patre, sive sit accepta de principio, sicut
+          <lb ed="#Ba" n="23"/>in Filio et Spiritu sancto, in quantum
+          <lb ed="#Ba" n="24"/>summum bonum est, unum objectum
+          <lb ed="#Ba" n="25"/>fruitionis est.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
